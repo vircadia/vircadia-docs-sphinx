@@ -1,0 +1,149 @@
+/***********************************/
+/*********** Font styles ***********/
+/***********************************/
+
+@font-face{
+	font-family: 'Cairo';
+	src: url('../fonts/Cairo-Bold.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'proxima-nova';
+	src: url('../fonts/proximanova-regular.otf') format('opentype');
+}
+
+
+body {
+	font-family: "proxima-nova";
+    letter-spacing: 0.5px;
+    color: #555;
+    font-size: 1.03rem;
+	line-height: 1.5; 
+    
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+
+
+/* Formats keyboard shortcuts */
+.keyboard {
+	text-transform: uppercase;
+	background-color: #E1E0E0;
+	border: 2px solid #FFFFFF;
+	box-shadow: 1px 1px 3px grey;
+	padding: 3px 5px 0 5px;
+	display: inline-block;
+	line-height: 1rem;
+}
+
+/***********************************/
+/******** Headings styles **********/
+/***********************************/
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Cairo", Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: -1.5px;
+    font-size: 3.25rem;
+}
+
+h2 {
+	border-top: solid #c7cccb 1px;
+	padding-top: 10px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+
+/***********************************/
+/*********** Nav styles ************/
+/***********************************/
+
+.wy-side-nav-search {
+    background-color: #00B4EF;
+    padding: 2rem;
+}
+
+.wy-nav-side {
+    background: #3A3F3E;
+}
+
+.wy-menu-vertical li.toctree-l2 a, .wy-menu-vertical li.toctree-l3 a, .wy-menu-vertical li.toctree-l4 a {
+    color: #BBBBBB;
+}
+
+.wy-menu-vertical li.current a:hover {
+    background: transparent;
+    color: #D5D5D5;
+}
+
+.wy-menu-vertical li.toctree-l2.current>a {
+    background: #3A3F3E;
+    color: #D5D5D5;
+}
+
+.wy-menu-vertical li.current {
+    background: #3A3F3E;
+}
+
+.wy-nav-content {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+/***********************************/
+/********** Table styles ***********/
+/***********************************/
+table {
+	border: solid #c7cccb 1px;
+	margin: auto;
+	width: 90%;
+}
+
+th {
+	background: #e2e4e4 ;
+}
+
+td {
+	border: solid #c7cccb 1px;
+}
+
+li table {
+    padding-bottom: 200px;
+}
+
+
+
+/***********************************/
+/********** Code styles ************/
+/***********************************/
+code {
+    font-family: Consolas;
+}
+
+pre code {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
