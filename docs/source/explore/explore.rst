@@ -15,7 +15,7 @@ Throughout this chapter, learn how to make the most of your exploration:
     :titlesonly:
 
     Get Started with High Fidelity <getstarted>
-    Personalize Your Experience <personalize>
+    Personalize Your Experience <personalize/personalize>
     Socialize with Others <socialize>
     Travel Between Worlds <travel>
     Interact with Your Environment <interact>
