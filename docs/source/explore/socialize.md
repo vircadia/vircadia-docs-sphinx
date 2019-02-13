@@ -22,7 +22,7 @@ Once you make a connection with someone, they will appear under Connections in t
 
 To mark a connection as a friend, check the box next to their name in the People app.
 
-![](images/make-connection.png)
+![](_images/make-connection.png)
 
 ### The People App
 
@@ -33,13 +33,13 @@ The People app provides a set of tools that help users manage their interactions
 * Set the master volume for the domain you're in
 * Teleport directly to a friend's location  
 
-![](images/people-nearby.png)
+![](_images/people-nearby.png)
 
 ### Your Privacy Bubble
 
 You can enable a privacy bubble that protects your personal space in the metaverse. When it is enabled, other people will disappear if they get too close to you. Your privacy bubble is disabled by default. To enable it, pull up your tablet or HUD and click **Bubble**.
 
-![](images/privacy-bubble.png)
+![](_images/privacy-bubble.png)
 
 ## Attend Live Events
 
@@ -57,7 +57,7 @@ By default, all avatars will use a standard set of animations, such as your eyes
 
 The Emote app is a way for desktop users to express themselves without using VR controllers. With this app, you can display feelings by: crying, acting surprised, dancing, cheering, waving, falling, pointing, clapping, sitting, or showing love. 
 
-![](images/emote-app.png)
+![](_images/emote-app.png)
 
 ## Give and Receive Gifts
 
@@ -69,10 +69,10 @@ With the Commerce API, you can also award money or items using a coupon. A _coup
 
 To send money to a connection or someone nearby:
 1. In Interface, pull up your tablet or HUD and go to **Inventory**.
-2. In the **Inventory** app, click 'Send Money'. <br />![](images/send-money.PNG)  
+2. In the **Inventory** app, click 'Send Money'. <br />![](_images/send-money.PNG)  
 3. Send money to one of your connections or even someone nearby in the same domain.  
 	* If you want to send it to one of your connections, click 'Connections; and choose the recipient from the list.
-	* If you want to send it to someone nearby, click 'Someone Nearby' and choose your recipient by triggering or clicking on someone nearby to select them. <br />![](images/nearby.PNG)
+	* If you want to send it to someone nearby, click 'Someone Nearby' and choose your recipient by triggering or clicking on someone nearby to select them. <br />![](_images/nearby.PNG)
 4. Add the amount you wish to send. This amount should be less than or equal to your HFC balance. 
 5. You can add an optional public message. Click 'Submit'. 
 6. A window pops up confirming that your money has been sent. 
@@ -81,12 +81,12 @@ To send money to a connection or someone nearby:
 
 After you [buy something from the Marketplace](../bank-and-shop#shopping-the-marketplace), you can give it to a connection or someone nearby. To do so: 
 1. In Interface, pull up your tablet or HUD and go to **Inventory**.
-2. In the Inventory app, click 'Items'. <br />![](images/items-tab.png)
-3. Scroll to the item you'd like to give and click on the menu. <br />![](images/item-menu.png)
-4. Select 'Gift'. <br />![](images/gift-item.png)
+2. In the Inventory app, click 'Items'. <br />![](_images/items-tab.png)
+3. Scroll to the item you'd like to give and click on the menu. <br />![](_images/item-menu.png)
+4. Select 'Gift'. <br />![](_images/gift-item.png)
 5. Send the item to one of your connections or even someone nearby in the same domain. 
 	* If you want to send it to one of your connections, click 'Connections' and choose the recipient from the list.
-	* If you want to send it to someone nearby, click 'Someone Nearby' and choose your recipient by triggering or clicking on someone nearby to select them. <br />![](images/nearby.PNG)
+	* If you want to send it to someone nearby, click 'Someone Nearby' and choose your recipient by triggering or clicking on someone nearby to select them. <br />![](_images/nearby.PNG)
 6. You can add an optional public message. Click 'Submit'. 
 7. A window pops up confirming that your item has been sent.  
 
@@ -94,7 +94,7 @@ After you [buy something from the Marketplace](../bank-and-shop#shopping-the-mar
 
 ### Create a Coupon
 You can create a coupon when you want to send money or an item to someone at a later time, even when you are not logged in to High Fidelity.  
->>>> Currently, you can only use a coupon in a script. You will not be able to redeem a coupon anywhere in Interface.
+>>>>> Currently, you can only use a coupon in a script. You will not be able to redeem a coupon anywhere in Interface.
 
 1. In Interface, pull up your tablet or HUD and go to **Inventory**.
 2. Choose whether you'd like to later send HFC or an item.
@@ -105,7 +105,7 @@ You can create a coupon when you want to send money or an item to someone at a l
 5. The Tablet will now display a window with the 'Authorization ID' and 'Coupon ID'. Copy both these values on your computer. Click 'Close'.
 6. Include the copied values in a [script where another user receives the HFC or item](../../script/transfer-hfc-tutorial).
 
-![](images/create-coupon.png)
+![](_images/create-coupon.png)
 
 **Example: Use a Coupon to Hold a Raffle**  
 

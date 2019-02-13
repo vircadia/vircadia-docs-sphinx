@@ -11,7 +11,7 @@ We and our users have designed many wearables that are available for your use in
 
 1. In Interface, pull up your Tablet or HUD and go to **Market**.
 2. Search for a specific wearable, or browse all wearables by selecting the 'Wearables' category.
-3. Click on any one you like and hit 'Get' (for free items) or 'Buy' (for purchased wearables).![](images/get-wearable.png)
+3. Click on any one you like and hit 'Get' (for free items) or 'Buy' (for purchased wearables).![](_images/get-wearable.png)
 4. After completing your purchase, click 'Wear' to put on your new wearable.
 
 ## Wear Your Own Wearable
@@ -20,7 +20,7 @@ You can put on a [wearable that you created](../../../create/wearables). All wea
 Once you have your wearable's .fbx file, you can upload it.
 
 1. In Interface, pull up your tablet or HUD and click on **Avatar**.
-2. In the **Avatar** window, click the hat icon next to 'Wearables'. ![](images/add-wearable.png)
+2. In the **Avatar** window, click the hat icon next to 'Wearables'. ![](_images/add-wearable.png)
 3. Click 'Add custom' at the top of the window.
 4. Enter the .fbx file's URL and click 'Confirm'.
 5. Select the joint you'd like to use for your wearable. For example, a hat would be on your head, and fairy wings would be on your spine. 

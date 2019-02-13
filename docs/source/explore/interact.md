@@ -18,7 +18,7 @@ You can grab objects in High Fidelity using your mouse or hand controllers. You 
 * In Desktop mode, click and hold the left mouse button to grab and hold an entity. 
 * In VR mode, reach out towards the object and press the Grab button. The location of this button depends on the controllers you are using. 
 
-![](images/grab-button.png)
+![](_images/grab-button.png)
 
 >>>>>Some entities cannot be grabbed. For example, a domain owner will not give you permission to grab and move a wall in their building. When creating your own entities, you can [set the Grabbable property](../../create/entities/entity-behavior#entity-grabbing-behavior-and-triggers) to define whether or not it can be grabbed by others. 
 

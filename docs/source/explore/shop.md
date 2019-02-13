@@ -26,7 +26,7 @@ Browse our items in the Marketplace either on [our website](https://highfidelity
 To buy an item: 
 1. In Interface, pull up your tablet or HUD and go to **Market**.
 2. Browse to the item you want to buy.
-3. Click on the item and hit Get (for free items) or Buy (for purchased items).![](images/buy-item.png)
+3. Click on the item and hit Get (for free items) or Buy (for purchased items).![](_images/buy-item.png)
 
 You can locate all items that you purchase in the **Inventory** App. 
 
@@ -38,7 +38,7 @@ The Inventory app provides an interface to manage your transactions, purchases, 
 * Change avatars, put on wearables and install/update apps
 * [Send HFC to your friends or anyone nearby](../socialize#send-hfc-to-others)
 
-![](images/inventory-app.png)
+![](_images/inventory-app.png)
 
 **See Also**
 + [Send HFC to Others](../socialize#send-hfc-to-others)

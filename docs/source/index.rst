@@ -29,4 +29,8 @@ You have the power to shape your VR experience in High Fidelity.
     :hidden:
 
     EXPLORE <explore/explore>
-    CREATE <create/docs>
+    CREATE <create/create>
+    SCRIPT <script/script>
+    HOST <host/host>
+    SELL <sell/sell>
+    CONTRIBUTE <contribute/contribute>

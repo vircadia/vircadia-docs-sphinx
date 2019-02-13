@@ -14,11 +14,11 @@ To go and explore new places:
 2. If you know where you want to go, enter the domain address or place name. As you type, the matching places will show up. Otherwise, browse the open places under 'Featured' and 'Places'.
 3. Click on a place name to go to the place. If you have permissions, you will be transported to that location automatically.
 
-![](images/goto-app.png)
+![](_images/goto-app.png)
 
 The **GoTo** app also shows you a visual feed of snapshots that people have taken and shared in the metaverse. Clicking on a snap will take you directly to the place where the picture was taken. 
 
-![](images/goto-snaps.png)
+![](_images/goto-snaps.png)
 
 ## Visit a Friend
 Once you've [made a friend](../socialize#make-connections-and-friends), you can see where they are and even teleport directly to them. 

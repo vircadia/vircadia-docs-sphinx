@@ -24,11 +24,19 @@ body {
 
 img {
     display: block;
-    margin: auto;
+    text-align: center;
+    margin: 2rem auto;
 }
 
+.wy-nav-content {
+    background: #FFFFFF;
+}
 
-
+.rst-content blockquote {
+    margin: 1.7rem 0;
+    border-left: 10px solid #F0F2F4;
+    padding-left: 0.85rem;
+}
 
 /* Formats keyboard shortcuts */
 .keyboard {
@@ -55,6 +63,7 @@ h1 {
 }
 
 h2 {
+    font-size: 2.55rem;
 	border-top: solid #c7cccb 1px;
 	padding-top: 10px;
 }
@@ -73,8 +82,34 @@ h5 {
 
 
 /***********************************/
+/*********** List styles ************/
+/***********************************/
+
+.rst-content .section ul li ul.simple {
+    margin-top: -10px;
+    margin-left: -30px;
+}
+
+/***********************************/
+/*********** Note styles ***********/
+/***********************************/
+
+blockquote div > blockquote div > blockquote div > blockquote div > blockquote> div {
+    margin-left: -118px;
+    margin-bottom: 24px;
+    border-top: 30px solid #6AB0DE;
+    background: #E7F2FA;
+    padding: 15px;
+}
+
+
+/***********************************/
 /*********** Nav styles ************/
 /***********************************/
+
+.wy-side-scroll {
+    width: 350px;
+}
 
 .wy-side-nav-search {
     background-color: #00B4EF;
@@ -89,13 +124,21 @@ h5 {
     color: #BBBBBB;
 }
 
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
+    background: none;
+}
+
 .wy-menu-vertical li.current a:hover {
     background: transparent;
     color: #D5D5D5;
 }
 
+.wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current>a span.toctree-expand {
+    display: none;
+}
+
 .wy-menu-vertical li.toctree-l2.current>a {
-    background: #3A3F3E;
+    background: none;
     color: #D5D5D5;
 }
 
@@ -107,11 +150,17 @@ h5 {
     max-width: 100%;
 }
 
+/***********************************/
+/*********** List styles ***********/
+/***********************************/
 
+.wy-plain-list-decimal li, .rst-content .section ol li, .rst-content ol.arabic li, article ol li {
+    margin-left: 40px;
+}
 
-
-
-
+.wy-plain-list-disc li, .rst-content .section ul li, .rst-content .toctree-wrapper ul li, article ul li {
+    margin-left: 40px;
+}
 
 /***********************************/
 /********** Table styles ***********/
@@ -134,7 +183,9 @@ li table {
     padding-bottom: 200px;
 }
 
-
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: normal;
+}
 
 /***********************************/
 /********** Code styles ************/
