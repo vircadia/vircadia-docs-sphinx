@@ -10,13 +10,13 @@ Throughout this chapter, learn how to set up a domain, secure and host it, and m
     :maxdepth: 2
     :titlesonly:
 
-    Set Up Your Domain <your-domain/your-domain>
-    Configure Your Domain Settings <configure-settings>
-    Manage Your Domain Assets <manage-assets>
-    Host Your Domain <host-your-domain>
-    Add a Place Name <place-name>
-    Broadcast Your Domain <broadcast-domain>
-    Stream Content <stream-domain>
-    Backup and Restore Your Domain <backup-restore-domain>
-    Tutorial: Set Up a Theater Domain <theater-domain-tutorial>
+    Set Up Your Domain <host/your-domain>
+    Configure Your Domain Settings <host/configure-settings>
+    Manage Your Domain Assets <host/manage-assets>
+    Host Your Domain <host/host-your-domain>
+    Add a Place Name <host/place-name>
+    Broadcast Your Domain <host/broadcast-domain>
+    Stream Content <host/stream-domain>
+    Backup and Restore Your Domain <host/backup-restore-domain>
+    Tutorial: Set Up a Theater Domain <host/theater-domain-tutorial>
 

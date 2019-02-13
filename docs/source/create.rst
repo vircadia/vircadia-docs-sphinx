@@ -12,11 +12,11 @@ Throughout this chapter, learn how to create, build, and bring to life your own 
     :maxdepth: 2
     :titlesonly:
 
-    Create Tools <tools>
-    Avatars <avatars/avatars>
-    Wearables <wearables>
-    Entities <entities/entities>
-    3D Models <3d-models/3d-models>
-    Environments <environments>
-    Applications <applications>
+    Create Tools <create/tools>
+    Avatars <create/avatars>
+    Wearables <create/wearables>
+    Entities <create/entities>
+    3D Models <create/3d-models>
+    Environments <create/environments>
+    Applications <create/applications>
 

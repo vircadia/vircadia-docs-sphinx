@@ -10,7 +10,7 @@ Throughout this chapter, learn how you can code or write for us to build the nex
     :maxdepth: 2
     :titlesonly:
 
-    Build High Fidelity <build-guide/build-guide>
-    Work for Us <work-for-us>
-    Write for Us <write-for-us>
-    Engage with Us <engage-with-us>
+    Build High Fidelity <contribute/build-guide>
+    Work for Us <contribute/work-for-us>
+    Write for Us <contribute/write-for-us>
+    Engage with Us <contribute/engage-with-us>

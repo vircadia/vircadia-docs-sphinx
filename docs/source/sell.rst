@@ -12,9 +12,9 @@ Throughout this chapter, learn how you can upload your items to the Marketplace 
     :maxdepth: 2
     :titlesonly:
 
-    Add Items to the Marketplace <add-item/add-item>
-    Update Your Marketplace Item <update-item>
-    Ownership of Your Items <own-item>
-    Marketplace Bill of Rights <bill-of-rights>
-    Marketplace Submission Rules <submission-rules>
-    Certified App Design Guidelines <certified-apps>
+    Add Items to the Marketplace <sell/add-item>
+    Update Your Marketplace Item <sell/update-item>
+    Ownership of Your Items <sell/own-item>
+    Marketplace Bill of Rights <sell/bill-of-rights>
+    Marketplace Submission Rules <sell/submission-rules>
+    Certified App Design Guidelines <sell/certified-apps>

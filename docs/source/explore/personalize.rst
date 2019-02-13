@@ -10,6 +10,6 @@ Before you even enter High Fidelity, there are many ways to personalize your exp
     :maxdepth: 2
     :titlesonly:
 
-    Change Your Avatar <change-avatar>
-    Put on Wearables <add-wearables>
-    Install Apps <install-apps>
+    Change Your Avatar <personalize/change-avatar>
+    Put on Wearables <personalize/add-wearables>
+    Install Apps <personalize/install-apps>

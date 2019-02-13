@@ -17,11 +17,11 @@ Once you've created an avatar, wearable or entity, you have the option to sell i
     :maxdepth: 2
     :titlesonly:
 
-    Add Your Avatar <upload-avatar>
-    Add Your 3D Model <upload-model>
-    Add Your Wearable <upload-wearable>
-    Upload Your Environment <upload-environment>
-    Add Your Audio <upload-audio>
+    Add Your Avatar <add-item/upload-avatar>
+    Add Your 3D Model <add-item/upload-model>
+    Add Your Wearable <add-item/upload-wearable>
+    Upload Your Environment <add-item/upload-environment>
+    Add Your Audio <add-item/upload-audio>
 
 -----------------------------
 Marketplace Categories

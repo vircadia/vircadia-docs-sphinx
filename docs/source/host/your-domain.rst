@@ -10,6 +10,6 @@ Your domain is your own personal virtual world. In it, you can express your crea
     :maxdepth: 2
     :titlesonly:
 
-    Install Your Domain <install-domain>
-    Configure Your Domain Settings <configure-settings>
-    Secure Your Domain <secure-domain>
+    Install Your Domain <your-domain/install-domain>
+    Configure Your Domain Settings <your-domain/configure-settings>
+    Secure Your Domain <your-domain/secure-domain>

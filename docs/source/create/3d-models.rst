@@ -12,7 +12,7 @@ The appearance of a 3D model is controlled by its materials. The materials suppo
     :maxdepth: 2
     :titlesonly:
 
-    Get Your 3D Model <get-model>
-    Import Your 3D Model <import-model>
-    PBR Materials Guide <pbr-materials-guide>
-    Tutorial: Create Buildings <buildings-tutorial>
+    Get Your 3D Model <3d-models/get-model>
+    Import Your 3D Model <3d-models/import-model>
+    PBR Materials Guide <3d-models/pbr-materials-guide>
+    Tutorial: Create Buildings <3d-models/buildings-tutorial>

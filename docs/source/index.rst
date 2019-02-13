@@ -16,21 +16,22 @@ What can I do?
 ==============
 You have the power to shape your VR experience in High Fidelity.
 
-* `EXPLORE <https://docs.highfidelity.com/explore>`_ by hopping between domains in the metaverse, shop the Marketplace, attend events and check out what others are up to!
-* `CREATE <https://docs.highfidelity.com/create>`_ personal experiences by building avatars, domains, applications and more for you and others to enjoy.
-* **SCRIPT** and express your creativity by applying advanced scripting concepts to entities and avatars in the metaverse.
-* **HOST** and make immersive experiences to educate, entertain, and connect with your audience.
-* **SELL** your creations to others and make money in the metaverse using the High Fidelity Marketplace.
-* **CONTRIBUTE** to our endeavor by browsing our source code on GitHub or picking up a paid assignment on Worklist.
+* `EXPLORE <explore>`_ by hopping between domains in the metaverse, shop the Marketplace, attend events and check out what others are up to!
+* `CREATE <create>`_ personal experiences by building avatars, domains, applications and more for you and others to enjoy.
+* `SCRIPT <script>`_ and express your creativity by applying advanced scripting concepts to entities and avatars in the metaverse.
+* `HOST <host>`_ and make immersive experiences to educate, entertain, and connect with your audience.
+* `SELL <sell>`_ your creations to others and make money in the metaverse using the High Fidelity Marketplace.
+* `CONTRIBUTE <contribute>`_ to our endeavor by browsing our source code on GitHub or picking up a paid assignment on Worklist.
 
 .. toctree::
     :maxdepth: 2
     :titlesonly:
     :hidden:
-
-    EXPLORE <explore/explore>
-    CREATE <create/create>
-    SCRIPT <script/script>
-    HOST <host/host>
-    SELL <sell/sell>
-    CONTRIBUTE <contribute/contribute>
+    
+    HOME <home>
+    EXPLORE <explore>
+    CREATE <create>
+    SCRIPT <script>
+    HOST <host>
+    SELL <sell>
+    CONTRIBUTE <contribute>

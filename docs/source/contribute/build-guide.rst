@@ -8,10 +8,10 @@ This guide details instructions for building High Fidelity on your system. If yo
     :maxdepth: 2
     :titlesonly:
 
-    Windows 64-bit Build Guide <windows>
-    OS X Build Guide<os-x>
-    Linux Build Guide <linux>
-    Android Build Guide <android>
+    Windows 64-bit Build Guide <build-guide/windows>
+    OS X Build Guide<build-guide/os-x>
+    Linux Build Guide <build-guide/linux>
+    Android Build Guide <build-guide/android>
 
 **On This Page:**
 

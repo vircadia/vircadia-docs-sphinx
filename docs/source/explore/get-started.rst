@@ -10,9 +10,9 @@ We know that getting started with a new application can be difficult: installing
     :maxdepth: 2
     :titlesonly:
 
-    Install High Fidelity <install>
-    Understand the Architecture <architecture>
-    Use Your VR Equipment <vr-controls>
-    Explore in Desktop Mode <desktop>
-    Adjust Your Settings <adjust-settings>
+    Install High Fidelity <get-started/install>
+    Understand the Architecture <get-started/architecture>
+    Use Your VR Equipment <get-started/vr-controls>
+    Explore in Desktop Mode <get-started/desktop>
+    Adjust Your Settings <get-started/adjust-settings>
 
