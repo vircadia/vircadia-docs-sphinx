@@ -4,14 +4,8 @@ Define an Entity's Behavior
 
 An entity's behavior controls its interactions with other entities and avatars in High Fidelity. Can an entity be grabbed, does it collide with other entities and avatars, or can a change in the domain's gravity affect it? You can check and change an entity's behavior by editing its properties.
 
-**On This Page:**
-
-+ `Set an Entity to Respond to Physics <#set-an-entity-to-respond-to-physics>`_
-+ `Set Entity Behavior on Collision <#set-entity-behavior-on-collision>`_
-+ `Make an Entity Grabbable <#make-an-entity-grabbable>`_
-+ `Set an Entity to Trigger Scripts <#set-an-entity-to-trigger-scripts>`_
-+ `Make an Entity Cloneable <#make-an-entity-cloneable>`_
-+ `Set an Entity to Cast a Shadow <#set-an-entity-to-cast-a-shadow>`_
+.. contents:: On This Page
+    :depth: 2
 
 ----------------------------------------
 Set an Entity to Respond to Physics

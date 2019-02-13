@@ -8,12 +8,8 @@ You can edit an entity's size, color, position and rotation using your mouse or 
 
 .. note:: By default, zone entities cannot be selected for editing. To select these entities, you must click on the entity in the Entity List of the **Create** app.
 
-**On This Page:**
-
-* `Change the Color of an Entity <#change-the-color-of-an-entity>`_
-* `Set the Size of an Entity <#set-the-size-of-an-entity>`_
-* `Rotate an Entity <#rotate-entity>`_
-* `Move an Entity <#move-an-entity>`_
+.. contents:: On This Page
+    :depth: 2
 
 --------------------------------
 Change the Color of an Entity

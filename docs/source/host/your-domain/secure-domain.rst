@@ -4,11 +4,8 @@ Secure Your Domain
 
 You can protect your domain from being modified by other users using the domain server settings. By setting the right permissions and filters, you can ensure that your domain is secure.
 
-**On This Page:**
-
-+ `Secure Your Domain Settings <#secure-your-domain-settings>`_
-+ `Set User Permissions <#set-user-permissions>`_
-+ `Set Entity Specific Permissions <#set-entity-specific-permissions>`_
+.. contents:: On This Page
+    :depth: 2
 
 ---------------------------------
 Secure Your Domain Settings

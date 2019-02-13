@@ -4,14 +4,8 @@ Adjust Your Settings
 
 You can adjust various settings in High Fidelity so that it runs to your preferences. Many of these settings are changed using the HUD (in Desktop mode) or Tablet (in VR mode). 
 
-**On This Page:**
-
-* `The Tablet and HUD <#the-tablet-and-hud>`_
-* `Enter or Exit VR Mode <#enter-or-exit-vr-mode>`_
-* `Change Your Audio Settings <#change-your-audio-settings>`_
-* `Set Your Perspective <#set-your-perspective>`_
-* `Change How You Move in VR <#change-how-you-move-in-vr>`_
-* `Other Miscellaneous Settings <#other-miscellaneous-settings>`_
+.. contents:: On This Page
+    :depth: 2
 
 ------------------------
 The Tablet and HUD

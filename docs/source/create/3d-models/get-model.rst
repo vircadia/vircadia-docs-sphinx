@@ -4,12 +4,8 @@ Get Your 3D Model
 
 Many 3D models are available for purchase on our `Marketplace <../../../explore/bank-and-shop#shopping-the-marketplace>`_. If the Marketplace doesn't have the model you're looking for, you can create and customize your own. All 3D models should be in the OBJ or FBX format and have materials supported by High Fidelity.  
 
-**On This Page:**
-
-+ `Get Your 3D Model from 3D Content Stores <#get-your-3d-model-from-3d-content-stores>`_
-+ `Create Your Own 3D Model <#create-your-own-3d-model>`_
-
-  + `Best Practices <#best-practices>`_
+.. contents:: On This Page
+    :depth: 2
 
 -------------------------------------------
 Get Your 3D Model from 3D Content Stores

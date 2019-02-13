@@ -6,12 +6,8 @@ Once you've completed `setting up your domain <../your-domain>`_, you can start 
 
 The Asset Server hosts files or assets that can either be added as-is to your domain or that are referenced by existing entities and scripts already in your domain. Your assets are 3D models, audio files for various sound effects, image files for textures and skyboxes, scripts, and more. 
 
-**On This Page:**
-
-+ `Add an Asset to the Asset Server <#add-an-asset-to-the-asset-server>`_
-+ `Bake an Asset <#bake-an-asset>`_
-+ `Add an Asset to Your Domain <#add-an-asset-to-your-domain>`_
-+ `Edit Assets in the Asset Server <#edit-assets-in-the-asset-server>`_
+.. contents:: On This Page
+    :depth: 2
 
 .. note:: Files hosted on the Asset Server are only available in your domain, and cannot be seen in other domains. Therefore, we recommend that you do not upload avatars to the Asset Server since they will not be available in domains other than your own.
 

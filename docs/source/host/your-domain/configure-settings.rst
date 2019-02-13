@@ -4,20 +4,8 @@ Configure Your Domain Settings
 
 While you can use the sandbox as is, we recommend that you configure your domain settings to ensure that it is secure and serves your needs. 
 
-**On This Page:**
-
-+ `Configure Basic Server Settings <#configure-basic-server-settings>`_
-
-	+ `Setup Wizard <#setup-wizard>`_
-	+ `Domain Server Settings <#domain-server-settings>`_
-+ `Add a Description For Your Domain <#add-a-description-for-your-domain>`_
-+ `Change Your Content Settings <#change-your-content-settings>`_
-
-    + `Content Archives <#content-archives>`_
-    + `Upload Content <#upload-content>`_
-    + `Paths <#paths>`_
-    + `Scripts <#scripts>`_
-    + `Audio Enviroment <#audio-environment>`_
+.. contents:: On This Page
+    :depth: 2
 
 --------------------------------------
 Configure Basic Server Settings

@@ -4,16 +4,8 @@ Find and Use an Existing Avatar
 
 You can download avatars for use from external sources such as TurboSquid or CGTrader. Once you get the avatar, you will need to process it in Unity using the High Fidelity Avatar Exporter. This tool imports most avatars into Unity, maps their skeleton using Unity's humanoid tool, and exports them as FST and FBX files to import in-world.
 
-**On This Page**
-
-* `Avatar Guidelines <#avatar-guidelines>`_
-* `High Fidelity Avatar Exporter for Unity <#high-fidelity-avatar-exporter-for-unity>`_
-
-	* `Create a Unity Project <#create-a-unity-project>`_
-	* `Install Avatar Exporter <#install-the-avatar-exporter>`_
-	* `Create an Avatar Package <#create-an-avatar-package>`_
-	* `Test Your Avatar <#test-your-avatar>`_
-	* `Troubleshooting Tips <#troubleshooting-tips>`_
+.. contents:: On This Page
+    :depth: 2
 
 ----------------------
 Avatar Guidelines

@@ -6,12 +6,8 @@ You can simulate physics on your avatar's hair, clothes, and body parts with a l
 
 The Flow script simply mimics the natural movement of hair and other attachments on your avatar. You can manipulate and change how Flow interacts with your avatar using the `Flow App <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flowApp.js>`_. In order to use the Flow App, your avatar must contain flow threads. 
 
-**On This Page**
-
-* `Flow Threads <#flow-threads>`_
-* `Flow App <#flow-app>`_
-* `Add an Avatar Script <#add-an-avatar-script>`_
-* `Avatar Examples <#avatar-examples>`_
+.. contents:: On This Page
+    :depth: 2
 
 ---------------------
 Flow Threads

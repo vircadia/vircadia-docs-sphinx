@@ -6,13 +6,8 @@ Desktop users are restricted to using their keyboard and mouse to do things in H
 
 .. note:: The shortcuts below are for Windows and Linux computers. If you're running on a Mac, use the same commands, substituting the ``Command`` key for the ``Ctrl`` key.
 
-**On This Page**
-
-* `Movement Controls <#movement-controls>`_ 
-* `In-World Controls <#in-world-controls>`_  
-* `Camera Controls <#camera-controls>`_ 
-* `Avatar Sizing Controls <#avatar-sizing-controls>`_ 
-* `Create and Edit Mode <#create-and-edit-mode>`_  
+.. contents:: On This Page
+    :depth: 2
 
 -------------------------------
 Movement Controls

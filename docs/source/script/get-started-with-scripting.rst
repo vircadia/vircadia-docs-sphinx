@@ -6,18 +6,8 @@ Many of the scripts in High Fidelity run behind the scenes, so that you don't ev
 
 This page ensures that you know what type of script to use and helps you get started running your own simple scripts.
 
-**On This Page:**
-
-* `JavaScript Basics <#javascript-basics-in-high-fidelity>`_
-* `Types of Scripts <#types-of-scripts>`_
-* `Scripting Permissions <#scripting-permissions>`_
-* `Running Scripts Window <#running-scripts-window>`_
-
-	* `Sample Scripts <#sample-scripts>`_
-	* `Load and Run a Script <#load-and-run-a-script>`_
-	* `Reload or Stop a Script <#reload-or-stop-a-script>`_
-* `Scripting Console <#scripting-console>`_
-* `Debug Window <#debug-window>`_
+.. contents:: On This Page
+    :depth: 2
 
 -----------------------------------------
 JavaScript Basics in High Fidelity

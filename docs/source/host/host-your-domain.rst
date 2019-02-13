@@ -4,9 +4,8 @@ Host Your Domain
 
 Depending on your requirements, you can host your domain on your local machine or on cloud servers. We recommend hosting on cloud servers such as Digital Ocean or Amazon EC2 if you want to open your domain to many visitors. 
 
-**On This Page**
-
-* `Host Your Domain on Digital Ocean <#host-your-domain-with-digital-ocean>`_
+.. contents:: On This Page
+    :depth: 2
 
 ----------------------------------------
 Host Your Domain with Digital Ocean

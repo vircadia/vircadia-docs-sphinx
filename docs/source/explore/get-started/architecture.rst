@@ -4,12 +4,8 @@ Understand the Architecture
 
 High Fidelity's architecture shows how different parts of the system work together to give you the best VR experience. 
 
-**On This Page**
-
-* `Architecture Overview <#architecture-overview>`_
-* `High Fidelity Interface <#high-fidelity-interface>`_
-* `Domain Server <#domain-server>`_
-* `Global Services <#global-services>`_
+.. contents:: On This Page
+    :depth: 2
 
 ----------------------------
 Architecture Overview

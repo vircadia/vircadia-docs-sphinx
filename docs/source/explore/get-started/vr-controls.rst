@@ -4,11 +4,8 @@ Use Your VR Equipment
 
 To get the best and most immersive experience in High Fidelity, you should use VR equipment such as the Oculus Rift or HTC Vive. Only then will you be able to interact with people in 3D, track body movements, and easily engage with the objects around you. 
 
-**On This Page**
-
-+ `VR Controls <#vr-controls>`_
-+ `Gamepad <#gamepad>`_
-+ `Motion Capture Using Vive Trackers <#motion-capture-using-vive-trackers>`_
+.. contents:: On This Page
+    :depth: 2
 
 ------------------------
 VR Controls

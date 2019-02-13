@@ -8,13 +8,10 @@ There are two ways to create your own avatar: you can either create your own fro
 
 If you want to create an avatar from scratch, this page covers the steps needed to create, rig, and package your avatar. 
 
-**On This Page**
+.. contents:: On This Page
+    :depth: 2
 
-* `Create an Avatar from Scratch <#create-an-avatar-from-scratch>`_
-* `Package Your Avatar <#package-your-avatar>`_
-* `Community Tools for Avatars <#community-tools-for-avatars>`_
-
-** In This Section**
+**In This Section**
 
 .. toctree::
     :maxdepth: 2

@@ -4,14 +4,8 @@ PBR Materials Guide
 
 The appearance of a 3D model is controlled by its materials. The materials supported in High Fidelity are physically-based rendering (PBR) materials. This means that a 3D model's materials will reflect or absorb light like how they would (approximately) in real life.
 
-**On This Page:**
-
-+ `Introduction to Materials, Textures, and Shading <#introduction-to-materials-textures-and-shading>`_
-
-    + `Textures <#textures>`_
-    + `Shading <#shading>`_
-+ `Sample Materials and Their Textures and Shading <#sample-materials-and-their-textures-and-shading>`_
-+ `Set Material Values in Blender <#set-material-values-in-blender>`_
+.. contents:: On This Page
+    :depth: 2
 
 ------------------------------------------------------
 Introduction to Materials, Textures, and Shading

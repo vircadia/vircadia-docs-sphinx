@@ -4,14 +4,8 @@ Creator Tools
 
 To build and create things in High Fidelity, you need to become familiar with the tools available to you. We've created our own custom tools (including the Create app and Shapes app). In addition, you can use many external tools to fine-tune your creations. These tools can help you create anything from a cool avatar or a baseball hat, to a magic themed domain.
 
-**On This Page:**
-
-+ `The Create App <#the-create-app>`_
-
-    + `Entity List <#entity-list>`_
-+ `Shapes: Create in VR <#shapes-create-in-vr>`_
-+ `Marketplace Item Tester <#marketplace-item-tester>`_
-+ `External Creator Tools <#external-creator-tools>`_
+.. contents:: On This Page
+    :depth: 2
 
 ---------------------
 The Create App
