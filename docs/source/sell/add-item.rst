@@ -8,8 +8,8 @@ Once you've created an avatar, wearable or entity, you have the option to sell i
 
 **On This Page**
 
-+ `Marketplace Categories <#marketplace-categories>`_
-+ `Additional Notes <#additional-notes>`_
+.. contents:: On This Page
+    :depth: 2
 
 **In This Section**
 
