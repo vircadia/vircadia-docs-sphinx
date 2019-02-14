@@ -11,7 +11,7 @@ High Fidelity is completely open source, so if you want to contribute to our cur
 
 ## Worklist: How It Works
 
-Before you start using Worklist, ensure that you’ve [downloaded and installed High Fidelity](https://highfidelity.com/download/sandbox) or [built it through GitHub](../build-guide).
+Before you start using Worklist, ensure that you’ve [downloaded and installed High Fidelity](https://highfidelity.com/download/sandbox) or [built it through GitHub](build-guide).
 
 Worklist displays all available part-time jobs and projects at High Fidelity. If you’re interested in any of the projects listed here, you can bid on it by setting the amount you'd like to get paid. If we accept your bid, then you can begin development and get paid for the work you do. For more information, see our [Worklist FAQs](https://worklist.net/help).
 
@@ -48,4 +48,4 @@ In order to work with us, we require that you set the `HIFI_TESTER` environment 
 
 **See Also**
 
-+ [Install Your Sandbox](../../host/your-domain/install-domain#install-your-sandbox)
++ [Install Your Sandbox](../host/your-domain/install-domain#install-your-sandbox)

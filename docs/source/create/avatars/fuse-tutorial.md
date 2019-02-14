@@ -13,7 +13,7 @@ Using Adobe Fuse, you can create a custom avatar. The default heads, torsos, arm
 
 **See Also**
 
-+ [Tutorial: Rig Your Avatar in Mixamo](../mixamo-tutorial)
-+ [Tutorial: Modify Materials and Textures Using Blender](../blender-tutorial)
-+ [Create Your Own Avatar](../create-avatars)
++ [Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)
++ [Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)
++ [Create Your Own Avatar](create-avatars)
 

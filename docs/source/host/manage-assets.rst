@@ -2,7 +2,7 @@
 Manage Your Assets
 ############################
 
-Once you've completed `setting up your domain <../your-domain>`_, you can start building content for it. You can add content to your domain using `our creator tools <../../create/tools>`_ or the Asset Server.
+Once you've completed :doc:`setting up your domain <your-domain>`, you can start building content for it. You can add content to your domain using :doc:`our creator tools <../create/tools>` or the Asset Server.
 
 The Asset Server hosts files or assets that can either be added as-is to your domain or that are referenced by existing entities and scripts already in your domain. Your assets are 3D models, audio files for various sound effects, image files for textures and skyboxes, scripts, and more. 
 
@@ -24,6 +24,7 @@ You can add, edit, and remove files from your Asset Server through the Asset Bro
 5. Enter a folder name to specify a path for your asset. This path should be added before the asset file name ``/asset_filename``. By default, there is no folder created for your asset. However, we recommend that you add folders for each of your assets to help keep your assets organized. 
 
 .. image:: _images/create-folder.png
+
 6. Click 'OK'. Your assets will be added to the Asset Browser under the folder that you specified. 
 
 .. image:: _images/added-asset.png
@@ -85,6 +86,7 @@ You can add an asset to your domain through the Asset Browser.
 4. Click 'Add to World'. 
 
 .. image:: _images/add-to-world.png
+
 5. In the window that pops up, you can view the asset's URL (Asset Server URL) in the format ``atp:/$FILENAME``, and modify its collision and physics properties. Once you are done with these changes, click 'Add'. 
 
 .. image:: _images/add-edit-world.png
@@ -101,7 +103,7 @@ You can use the Asset Browser to edit the assets in the following ways:
 
 **See Also**
 
-+ `Textures <../../create/3d-models/pbr-materials-guide#textures>`_
-+ `Create New Entities <../../create/entities/create-entities>`_
-+ `Creator Tools <../../create/tools>`_
-+ `Set Up Your Domain <../your-domain>`_
++ `Textures <../create/3d-models/pbr-materials-guide.html#textures>`_
++ :doc:`Create New Entities <../create/entities/create-entities>`
++ :doc:`Creator Tools <../create/tools>`
++ :doc:`Set Up Your Domain <your-domain>`

@@ -40,6 +40,6 @@ This example is written as a JavaScript class prototype function, and it uses th
 
 **See Also**
 
-- [Get Started with Scripting](../get-started-with-scripting)
-- [Write Your Own Scripts](../write-scripts)
-- [API Reference](../../api-reference)
+- [Get Started with Scripting](get-started-with-scripting)
+- [Write Your Own Scripts](write-scripts)
+- [API Reference](../api-reference)

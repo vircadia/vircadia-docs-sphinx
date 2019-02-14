@@ -13,7 +13,7 @@ Secure Your Domain Settings
 
 Add a username and password to protect your domain settings from being modified by unauthorized users. Anyone who tries to modify your domain settings will need the username and password to make changes. 
 
-1. If you're hosting your domain on a cloud service, open the settings `here <https://highfidelity.com/user/cloud_domains>`_. Click `here <http://localhost:40100/settings/>`_ to open the settings if you're using your local sandbox. 
+1. If you're hosting your domain on a cloud service, open the `cloud settings <https://highfidelity.com/user/cloud_domains>`_. If you're using your local sandbox, open your `local sandbox settings <http://localhost:40100/settings/>`_. 
 2. Go to **Settings > Security** and add a username and password under the 'HTTP Username' and 'HTTP Password' fields.
 
 Every time someone tries to access your domain settings, they'll be prompted to enter this username and password.
@@ -24,7 +24,7 @@ Set User Permissions
 
 You can control the types of users that have access to your domain, and the permissions granted to them. For example, you can set a connection to have access to your domain, but not have permissions to edit your domain content. 
 
-1. If you're hosting your domain on a cloud service, open the settings `here <https://highfidelity.com/user/cloud_domains>`_. Click `here <http://localhost:40100/settings/>`_ to open the settings if you're using your local sandbox. 
+1. If you're hosting your domain on a cloud service, open the `cloud settings <https://highfidelity.com/user/cloud_domains>`_. If you're using your local sandbox, open your `local sandbox settings <http://localhost:40100/settings/>`_. 
 2. Go to **Settings > Security** and scroll down to the 'Domain-Wide User Permissions'. The 'Standard Permissions' table allows you to set the type of users and their permissions. 
 
 +-----------+--------------------------------------------------------------------------------------------+
@@ -68,7 +68,7 @@ You can control the types of users that have access to your domain, and the perm
 | Rez Temporary Certified | A user can create pre-approved entities or scripts from the Marketplace      |
 |                         | with a set lifetime that also defaults to 1 hour.                            |
 +-------------------------+------------------------------------------------------------------------------+
-| Write Assets            | A user can `add assets <../../manage-your-domain-assets>`_ (models, audio,   |
+| Write Assets            | A user can :doc:`add assets <../manage-assets>` (models, audio,              |
 |                         | or other files) to your asset server (your domain's file storage space).     |
 +-------------------------+------------------------------------------------------------------------------+
 | Ignore Max Capacity     | A user can enter a domain even when it has hit the specified capacity limit. |
@@ -129,17 +129,17 @@ Entity filters are specialized JavaScript functions that prevent unwanted modifi
 Entity filters apply to all users who do not have lock/unlock permissions. You can use filters to request the original properties of an entity to compare them to new values. You can then approve the new values. 
 
 1. Write a script for an entity filter. Host the script on a cloud service.
-2. If you're hosting your domain on a cloud service, open the settings `here <https://highfidelity.com/user/cloud_domains>`_. Click `here <http://localhost:40100/settings/>`_ to open the settings if you're using your local sandbox. 
-3. Go to **Content> Entities** and add the URL for your script. 
+1. If you're hosting your domain on a cloud service, open the `cloud settings <https://highfidelity.com/user/cloud_domains>`_. If you're using your local sandbox, open your `local sandbox settings <http://localhost:40100/settings/>`_. 
+3. Go to **Content > Entities** and add the URL for your script. 
 
 .. image:: _images/filter-entities.png
 
 To protect all entities in a domain while granting edit rights:
 
-    .. code:: javascript
+.. code:: javascript
 
-      // prevent-all-deletes.js by Brad Hefta-Gaub
-      (function() {
+    // prevent-all-deletes.js by Brad Hefta-Gaub
+    (function() {
         function filter() { 
             return false; // all deletes are blocked
         }
@@ -148,14 +148,14 @@ To protect all entities in a domain while granting edit rights:
         filter.wantsToFilterPhysics = false; // don't run on physics
         filter.wantsToFilterDelete = true; // do run on deletes
         filter;
-      });
+    });
   
 To protect specific entities: 
 
-    .. code:: javascript
+.. code::
 
-      // prevent-add-delete-or-edit-of-entities-with-name-of-zone.js by Brad Hefta-Gaub
-      (function() {
+    // prevent-add-delete-or-edit-of-entities-with-name-of-zone.js by Brad Hefta-Gaub
+    (function() {
         function filter(properties, type) {	
             var ENTITY_ID = "{the ID of the entity that you want to protect}";
             if (type === Entities.DELETE_FILTER_TYPE) {
@@ -165,7 +165,7 @@ To protect specific entities:
         }
         filter.wantsToFilterDelete = true; // do run on deletes
         filter;
-      });
+    });
 
 You can add these scripts to a specific zone in your domain as well. 
 
@@ -177,5 +177,5 @@ You can add these scripts to a specific zone in your domain as well.
 
 **See Also**
 
-+ `Configure Your Domain Settings <../configure-settings>`_
-+ `Backup and Restore Your Domain <../../backup-restore-domain>`_
++ :doc:`Configure Your Domain Settings <configure-settings>`
++ :doc:`Backup and Restore Your Domain <../backup-restore-domain>`

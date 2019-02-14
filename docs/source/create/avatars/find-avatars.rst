@@ -17,7 +17,7 @@ Many external sites like TurboSquid and CGTrader provide avatars that you can us
 * Avatars in the FBX file format (we don't enforce a poly count limit, but we recommend using an avatar with a low poly count of around 40k)
 * Rigged avatars
 
-.. note:: If your avatar is not rigged, you can use `Mixamo <../mixamo-tutorial>`_ to rig it. If you use Mixamo, you do not necessarily need to use Unity and the avatar exporter. Because Mixamo already uses a skeleton that we support, you can use our `Avatar Packager <../create-avatars.html#package-your-avatar>`_ to import your avatar into High Fidelity. 
+.. note:: If your avatar is not rigged, you can use :doc:`Mixamo <mixamo-tutorial>` to rig it. If you use Mixamo, you do not necessarily need to use Unity and the avatar exporter. Because Mixamo already uses a skeleton that we support, you can use our `Avatar Packager <create-avatars.html#package-your-avatar>`_ to import your avatar into High Fidelity. 
 
 ------------------------------------------
 High Fidelity Avatar Exporter for Unity
@@ -56,9 +56,11 @@ Install the Avatar Exporter
 2. In Unity, open the 'Project' window at the bottom.
 
 .. image:: _images/project-window.png
+
 3. Right-click the 'Assets' folder, then select **Import Package > Custom Package**. 
 
 .. image:: _images/import-package.png
+
 4. Navigate to the `avatarExporter` package (with a .unitypackage extension). Click 'Open'. You can also double-click the package on your computer to import it automatically.
 5. In the 'Importing Package' window, review the list of files to be imported and check for conflicts with files already in your project. If a conflict exists, save any local changes somewhere outside of your project.
 6. Click 'Import'. The package's files are added to the Assets folder. You should now have a 'High Fidelity' menu in Unity. 
@@ -81,23 +83,28 @@ Create an Avatar Package
 .. raw:: html
 
     <a id="mesh"></a>
+    
 3. Click 'Configure' to investigate and tweak the mapping of your avatar.  
 
 .. image:: _images/configure-avatar.png
+
 4. All bones mapped in Unity are highlighted in green and can be selected. Check if anything is missing. Any errors will appear in red. The minimum required bones for mapping are Hips, Spine, Chest, and Head. If either of these are missing, you must manually add bones before continuing. You can do this by dragging the bones from the 'Avatar Configuration' panel to the 'Inspector' panel. 
 
 .. image:: _images/check-mesh.png
 .. image:: _images/avatar-config.png
 
 .. note:: Avatars in High Fidelity must have a Chest bone. If your avatar does not have a chest bone, the avatar exporter may suggest a suitable alternative from the 'Avatar Configuration' panel. If the exporter doesn't suggest an alternative and Humanoid doesn't correctly map the Chest, then you will get an error and need to manually map a bone to the Chest from 'Avatar Configuration'. 
+
 5. If you made any changes, click 'Done'. 
 6. Click on the FBX file in the 'Assets' manager. 
 
 .. image:: _images/select-avatar-unity.png
-7. Make sure that you have the `avatar exporter <#install-the-avatar-exporter>`_ installed. Open the 'High Fidelity' menu in the top menu bar, then select 'Export New Avatar'.
-8. Give your avatar project a name. The default project location is your local user's `Documents\High Fidelity Projects` directory, which is created automatically for you. Though we recommend that you keep your avatars in this directory, you can change it to another location on your computer. 
+
+7. Make sure that you have the `avatar exporter installed <#install-the-avatar-exporter>`_. Open the 'High Fidelity' menu in the top menu bar, then select 'Export New Avatar'.
+8. Give your avatar project a name. The default project location is your local user's ``Documents\High Fidelity Projects`` directory, which is created automatically for you. Though we recommend that you keep your avatars in this directory, you can change it to another location on your computer. 
 
 .. image:: _images/export-avatar.png
+
 9. Click 'Export'. 
 
 Your avatar package has been created! The File Explorer will open to your new avatar project.
@@ -112,7 +119,7 @@ Test Your Avatar
 
 Test your avatar locally before you host and use it. This step lets you check your avatar for any issues and fix them before you host it online. 
 
-.. note:: Using these steps will not actually change your avatar in the metaverse, and should only be used for testing. If you want to change your avatar to something others can see, you need to first publicly `host your avatar <../host-avatar>`_ before you can `use your custom avatar <../../../explore/personalize-experience/change-avatar#use-your-own-custom-avatar>`_. 
+.. note:: Using these steps will not actually change your avatar in the metaverse, and should only be used for testing. If you want to change your avatar to something others can see, you need to first publicly :doc:`host your avatar <host-avatar>` before you can `use your custom avatar <../../explore/personalize/change-avatar.html#use-your-own-custom-avatar>`_. 
 
 1. Copy your avatar's textures into the project’s textures folder. We support textures in either PNG or JPG format.
 2. Go to the folder where your avatar project is saved on your computer. Right-click the FST file and click copy. This will copy your FST file’s local path.
@@ -120,9 +127,10 @@ Test your avatar locally before you host and use it. This step lets you check yo
 4. In the Avatar window, click the link icon next to your current avatar. Paste the copied FST file's URL and click 'Confirm'.
 
 .. image:: _images/avatar-link.png
+
 5. Test your avatar by moving around and using the **Emote** app.
 
-If something doesn't look right, you can tweak your avatar in Unity, then update it with the High Fidelity menu. If everything looks good, you need to `host your avatar <../host-avatar>`_ then `change the URL <../../../explore/personalize-experience/change-avatar#use-your-own-custom-avatar>`_ to point to your hosted version.
+If something doesn't look right, you can tweak your avatar in Unity, then update it with the High Fidelity menu. If everything looks good, you need to :doc:`host your avatar <host-avatar>` then `change the URL <../../explore/personalize/change-avatar.html#use-your-own-custom-avatar>`_ to point to your hosted version.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Troubleshooting Tips
@@ -215,11 +223,9 @@ Use these troubleshooting tips if you notice any issues while packaging or testi
 |                                       | work only after using the packager, as the packager overwrites these changes.        |
 +---------------------------------------+--------------------------------------------------------------------------------------+
 | Your avatar is tied up into knots     | This could mean that your skeleton is not right. Re-open your avatar in              |
-| or laying down.                       | Unity and run through steps 2-5 of `Create an Avatar Package                         |
-|                                       | <#create-an-avatar-package>`_ again. Update your project in Unity (go to             |
-|                                       | High Fidelity menu > Update Existing Avatar, then browse to your avatar              |
-|                                       | package).                                                                            |
-|                                       |                                                                                      |
+| or laying down.                       | Unity and run through steps 2-5 of `Create an Avatar Package`_                       |
+|                                       | again. Update your project in Unity (go to Update Existing Avatar,                   |
+|                                       | then browse to your avatar package).                                                 |
 |                                       |                                                                                      |
 |                                       | If it still doesn't work, ensure that you are testing the correct file that          |
 |                                       | the avatar exporter created.                                                         |
@@ -233,5 +239,5 @@ Use these troubleshooting tips if you notice any issues while packaging or testi
 
 **See Also**
 
-+ `Host Your Avatar <../host-avatar>`_
-+ `Package Your Avatar <../create-avatars#package-your-avatar>`_
++ :doc:`Host Your Avatar <host-avatar>`
++ `Package Your Avatar <create-avatars.html#package-your-avatar>`_

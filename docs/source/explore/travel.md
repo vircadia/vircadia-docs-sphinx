@@ -21,11 +21,11 @@ The **GoTo** app also shows you a visual feed of snapshots that people have take
 ![](_images/goto-snaps.png)
 
 ## Visit a Friend
-Once you've [made a friend](../socialize#make-connections-and-friends), you can see where they are and even teleport directly to them. 
+Once you've [made a friend](socialize#make-connections-and-friends), you can see where they are and even teleport directly to them. 
 
 1. In Interface, open your tablet or HUD and go to **People**. 
 2. Click 'Connections' and find the friend you want to visit. 
 3. Select their name then 'Visit'.
 
 **See Also**
-+ [Socialize with Others](../socialize)
++ [Socialize with Others](socialize)

@@ -25,11 +25,11 @@ While the use of a gamepad is supported, High Fidelity is best experienced with 
 
 .. image:: _images/controls-gamepad.png
 
-Don't have your own VR equipment? You can still use High Fidelity in `desktop mode <../desktop>`_.
+Don't have your own VR equipment? You can still use High Fidelity in :doc:`desktop mode <desktop>`.
 
------------------------
+-----------------------------------------
 Motion Capture Using Vive Trackers
------------------------
+-----------------------------------------
 
 You can enhance your High Fidelity experience using full body motion capture (mocap). High Fidelity currently supports mocap using HTC Vive Trackers. 
 
@@ -63,9 +63,9 @@ You can set up different mocap systems:
 
 .. image:: _images/tracker-placement.jpg
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Configure Your Mocap System
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Strap your Vive trackers to your body as shown in the image.
 2. Connect your trackers, HMD, and controllers to SteamVR.
@@ -74,6 +74,7 @@ Configure Your Mocap System
 
    * Selecting the right device for your head and hands. If you're using a head tracker instead of an HMD, click 'Use HTC Vive Devices in Desktop Mode'.
    * Selecting the body position of any additional trackers. 
+   
    .. image:: _images/vive-config.PNG
    
 5. Click 'Apply and Calibrate'.
@@ -116,5 +117,5 @@ Troubleshooting
 
 **See Also**
 
-+ `Interact with Your Environment <../../interact-objects>`_
-+ `Explore in Desktop Mode <../desktop>`_
++ :doc:`Interact with Your Environment <../interact>`
++ :doc:`Explore in Desktop Mode <desktop>`

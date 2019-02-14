@@ -1,6 +1,6 @@
 # Add Your Avatar
 
-Once you [create an avatar](../../../create/avatars/create-avatars), it should contain the following files:
+Once you [create an avatar](../../create/avatars/create-avatars), it should contain the following files:
 * An FST file
 * An FBX file
 * Scripts folder (optional)
@@ -30,7 +30,7 @@ You will need to upload all these files to the Marketplace.
 11. Click the FST file as your root file in the Asset Viewer.  
 12. Save your submission. ![](_images/marketplace-assets.png)
 
-At this time, we recommend that you test your avatar using the [Marketplace Item Tester](../../../create/tools#marketplace-item-tester). If your avatar re-imports into High Fidelity without any issues, it is now ready to be uploaded to the Marketplace.
+At this time, we recommend that you test your avatar using the [Marketplace Item Tester](../../create/tools#marketplace-item-tester). If your avatar re-imports into High Fidelity without any issues, it is now ready to be uploaded to the Marketplace.
 
 ## Find Your Avatar's URL
 
@@ -43,12 +43,12 @@ Now you are ready to use your avatar! To locate the URL for your avatar:
 5. Scroll down to the Assets section.
 6. Click on the FST file. Below it, click the 'Copy URL' button.
 
-This is the URL you will use when you [change your avatar](../../../explore/personalize-experience/change-avatar) in High Fidelity.
+This is the URL you will use when you [change your avatar](../../explore/personalize/change-avatar) in High Fidelity.
 
-If you wish to sell your avatar on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../../contribute/write-for-us#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
+If you wish to sell your avatar on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
 
 **See Also**
 
-+ [Create Your Own Avatar](../../../create/avatars/create-avatars)
-+ [Change Your Avatar](../../../explore/personalize-experience/change-avatar)
-+ [Marketplace Submission Rules](../../submission-rules)
++ [Create Your Own Avatar](../../create/avatars/create-avatars)
++ [Change Your Avatar](../../explore/personalize/change-avatar)
++ [Marketplace Submission Rules](../submission-rules)

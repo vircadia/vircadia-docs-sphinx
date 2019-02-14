@@ -1,6 +1,6 @@
 # Install High Fidelity
 
-High Fidelity has two different installers, based on how you use High Fidelity. The _client installer_ comes with everything you need to view and interact with High Fidelity's content and users. However, you are unable to host content using this installer. The _client and sandbox installer_ enables you to [host your own content](../../../host), with the option to share it with the world. 
+High Fidelity has two different installers, based on how you use High Fidelity. The _client installer_ comes with everything you need to view and interact with High Fidelity's content and users. However, you are unable to host content using this installer. The _client and sandbox installer_ enables you to [host your own content](../../host), with the option to share it with the world. 
 
 **On This Page:**
 * [Minimum System Requirements](#minimum-system-requirements)
@@ -60,7 +60,7 @@ You can download the Client-Only installer through Steam or via [High Fidelity's
 3. Follow the prompts and complete the installation.
 
 ## Client and Sandbox Installer
-If you want to [host content](../../../host) in the metaverse, you will need to install the Client + Sandbox version. You can download the Client + Sandbox installer through Steam or [High Fidelity's website](https://highfidelity.com/download/sandbox). To install: 
+If you want to [host content](../../host) in the metaverse, you will need to install the Client + Sandbox version. You can download the Client + Sandbox installer through Steam or [High Fidelity's website](https://highfidelity.com/download/sandbox). To install: 
 
 1. Select your platform and download the installer.
 2. Run the High Fidelity installer.
@@ -95,4 +95,4 @@ If you're facing problems when you load Interface and Sandbox, you can try perfo
 
 **See Also**
 
-+ [Install Your Domain](../../../host/your-domain/install-domain)
++ [Install Your Domain](../../host/your-domain/install-domain)

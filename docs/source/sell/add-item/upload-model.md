@@ -1,6 +1,6 @@
 # Add Your 3D Model
 
-Once you've [created your 3D model](../../../create/3d-models/get-model#create-your-own-3d-model), you need to add the item and its assets in the Marketplace. At a minimum, your model will need the following assets:
+Once you've [created your 3D model](../../create/3d-models/get-model#create-your-own-3d-model), you need to add the item and its assets in the Marketplace. At a minimum, your model will need the following assets:
 
 * FBX file
 * JSON file
@@ -29,7 +29,7 @@ If your model could be re-imported without any issues, it is now ready to be upl
 5. If your 3D model contains only an FBX file, click 'Choose Files' and navigate to where your 3D model has been saved on your computer. Upload your FBX file. If your 3D model contains multiple files like scripts or textures, click 'Choose Folder' and navigate to where your 3D model has been saved on your computer. Upload all related folders, including your FBX file. 
 6. Click your uploaded FBX file and copy the new Marketplace URL for the FBX file. ![](_images/copy-fbx-url.png)
 
-At this time, we recommend that you test your item using the [Marketplace Item Tester](../../../create/tools#marketplace-item-tester). If your model re-imports into High Fidelity without any issues, it is now ready to be uploaded to the Marketplace.
+At this time, we recommend that you test your item using the [Marketplace Item Tester](../../create/tools#marketplace-item-tester). If your model re-imports into High Fidelity without any issues, it is now ready to be uploaded to the Marketplace.
 
 ### Generate Your Item's JSON File
 
@@ -51,10 +51,10 @@ At this time, we recommend that you test your item using the [Marketplace Item T
 Click the JSON file as your root file in the Asset Viewer. ![](_images/select-root.png)
 8. Save your submission.
 
-If you wish to sell your 3D model on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../../contribute/write-for-us#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
+If you wish to sell your 3D model on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
 
 **See Also**
 
-+ [Import Your 3D Model](../../../create/3d-models/import-model)
-+ [Introduction to Materials, Textures, and Shading](../../../create/3d-models/pbr-materials-guide#introduction-to-materials-textures-and-shading)
-+ [Marketplace Submission Rules](../../submission-rules)
++ [Import Your 3D Model](../../create/3d-models/import-model)
++ [Introduction to Materials, Textures, and Shading](../../create/3d-models/pbr-materials-guide#introduction-to-materials-textures-and-shading)
++ [Marketplace Submission Rules](../submission-rules)

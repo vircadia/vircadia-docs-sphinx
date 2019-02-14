@@ -11,7 +11,7 @@ An entity's behavior controls its interactions with other entities and avatars i
 Set an Entity to Respond to Physics
 ----------------------------------------
 
-If you want an entity to `respond to physics <../entity-physics>`_ or other entities and avatars, you need to make it dynamic. This allows a box to respond to gravity or a ball to bounce when it hits the floor. If an entity is not dynamic, it is static and has no gravity and no velocity. It can only be moved by a user.  
+If you want an entity to :doc:`respond to physics <entity-physics>` or other entities and avatars, you need to make it dynamic. This allows a box to respond to gravity or a ball to bounce when it hits the floor. If an entity is not dynamic, it is static and has no gravity and no velocity. It can only be moved by a user.  
 
 To make an entity dynamic:
 
@@ -38,11 +38,11 @@ When an entity has no collision properties, it moves through other entities and 
 +--------------------+-----------------------------------------------------------------------------+
 | Dynamic Entities   | Your entity will collide with other dynamic entities.                       |
 +--------------------+-----------------------------------------------------------------------------+
-| My avatar          | Your entity will `collide with your avatar <../avatar-interactions>`_.      |
+| My avatar          | Your entity will :doc:`collide with your avatar <avatar-interactions>`.     |
 +--------------------+-----------------------------------------------------------------------------+
 | Other avatars      | Your entity will collide with other user's avatars.                         |
 +--------------------+-----------------------------------------------------------------------------+
-| Collision Sound    | You can `make your entity emit a sound <../add-sounds>`_ whenever it        |
+| Collision Sound    | You can make your entity :doc:`emit a sound <add-sounds>` whenever it       |
 |                    | collides with other entities.                                               |
 +--------------------+-----------------------------------------------------------------------------+
 
@@ -121,7 +121,7 @@ You can make your entity behave like a real world object by making it cast a sha
 
 **See Also**
 
-+ `Apply Physics to Entities <../entity-physics>`_
-+ `Define Interactions with Avatars <../avatar-interactions>`_
-+ `Add Sound to Entities <../add-sounds>`_
-+ `Interact with Your Environment <../../../explore/interact-objects>`_
++ :doc:`Apply Physics to Entities <entity-physics>`
++ :doc:`Define Interactions with Avatars <avatar-interactions>`
++ :doc:`Add Sound to Entities <add-sounds>`
++ :doc:`Interact with Your Environment <../../explore/interact>`

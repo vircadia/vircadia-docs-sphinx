@@ -2,7 +2,7 @@
 
 Blender is an open-source 3D modeling tool that you can use to fine tune your avatar and ensure that the materials and textures render correctly in High Fidelity. 
 
-In this tutorial, we will walk you through simple modifications you can make to your avatar using Blender. You will need to import an FBX file for your avatar. If you don't have one, see our tutorials for [Fuse](../fuse-tutorial) and [Mixamo](../mixamo-tutorial).
+In this tutorial, we will walk you through simple modifications you can make to your avatar using Blender. You will need to import an FBX file for your avatar. If you don't have one, see our tutorials for [Fuse](fuse-tutorial) and [Mixamo](mixamo-tutorial).
 
 1. In Blender, go to **File > Import > FBX (.fbx)**. 
 2. Choose your avatar's FBX file and click 'Import FBX'. This will open your avatar in the main view. ![](_images/import-avatar.png)
@@ -42,6 +42,6 @@ Now, you are ready to bring your avatar into High Fidelity.
 
 **See Also**
 
-+ [Tutorial: Create an Avatar with Fuse](../fuse-tutorial)
-+ [Tutorial: Rig Your Avatar in Mixamo](../mixamo-tutorial)
-+ [Create Your Own Avatar](../create-avatars)
++ [Tutorial: Create an Avatar with Fuse](fuse-tutorial)
++ [Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)
++ [Create Your Own Avatar](create-avatars)

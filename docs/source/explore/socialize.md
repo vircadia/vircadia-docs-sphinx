@@ -79,7 +79,7 @@ To send money to a connection or someone nearby:
 
 ### Send Purchased Items to Others
 
-After you [buy something from the Marketplace](../bank-and-shop#shopping-the-marketplace), you can give it to a connection or someone nearby. To do so: 
+After you [buy something from the Marketplace](shop#shopping-the-marketplace), you can give it to a connection or someone nearby. To do so: 
 1. In Interface, pull up your tablet or HUD and go to **Inventory**.
 2. In the Inventory app, click 'Items'. <br />![](_images/items-tab.png)
 3. Scroll to the item you'd like to give and click on the menu. <br />![](_images/item-menu.png)
@@ -103,7 +103,7 @@ You can create a coupon when you want to send money or an item to someone at a l
 3. Select 'Create Coupon'.
 4. Enter an optional public message explaining the purpose of the coupon. 
 5. The Tablet will now display a window with the 'Authorization ID' and 'Coupon ID'. Copy both these values on your computer. Click 'Close'.
-6. Include the copied values in a [script where another user receives the HFC or item](../../script/transfer-hfc-tutorial).
+6. Include the copied values in a [script where another user receives the HFC or item](../script/transfer-hfc-tutorial).
 
 ![](_images/create-coupon.png)
 
@@ -120,5 +120,5 @@ Say you want to pre-authorize 10 of your High Fidelity Coins to be paid out to a
 
 **See Also**
 
-+ [Bank and Shop](../bank-and-shop)
-+ [Tutorial: Transfer Money and Items](../../script/transfer-hfc-tutorial)
++ [Bank and Shop](shop)
++ [Tutorial: Transfer Money and Items](../script/transfer-hfc-tutorial)

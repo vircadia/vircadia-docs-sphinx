@@ -1,13 +1,13 @@
 # Update Your Marketplace Item
 
-Once you've [added an item](../add-item) to sell on the Marketplace, you can update it at any time. This ability lets you offer your customers a new and improved version of your item. When an item is updated, we create a chain of related certificates between old and new versions of your item. 
+Once you've [added an item](add-item) to sell on the Marketplace, you can update it at any time. This ability lets you offer your customers a new and improved version of your item. When an item is updated, we create a chain of related certificates between old and new versions of your item. 
 
 **On This Page**
 * [Update Your Item in the Marketplace](#update-your-item-in-the-marketplace)
 * [Additional Notes](#additional-notes)
 
 ## Update Your Item in the Marketplace
-All updates to your item must be reviewed, verified and certified by our Marketplace team. Once you have the new assets, you are ready to update your item. The process is similar to when you first [added your item](../add-item).
+All updates to your item must be reviewed, verified and certified by our Marketplace team. Once you have the new assets, you are ready to update your item. The process is similar to when you first [added your item](add-item).
 
 1. Go to [https://highfidelity.com/marketplace/items/new](https://highfidelity.com/marketplace/items/new) to create a new item. If you're not logged in, you will be prompted to do so. 
 2. Enter the name of your item and select your category. 
@@ -32,5 +32,5 @@ Once your update is approved, a new certificate will be generated. The previous 
 
 **See Also**
 
-+ [Add Items to the Marketplace](../add-item)
-+ [Ownership of Your Items](../own-item)
++ [Add Items to the Marketplace](add-item)
++ [Ownership of Your Items](own-item)

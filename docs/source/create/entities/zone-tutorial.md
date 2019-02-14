@@ -18,8 +18,8 @@ The mini tutorials on this page show you how zone entities work and how you can 
 
 Consider getting familiar with the following concepts before starting this tutorial:
 
-- [Create New Entities](../create-entities)
-- [Change How Entities Look](../entity-appearance)
+- [Create New Entities](create-entities)
+- [Change How Entities Look](entity-appearance)
 
 ## Create a Zone Entity
 
@@ -103,7 +103,7 @@ To add an image of the night sky to your zone:
 1. Host your image on a cloud service and copy the URL.
 2. Create a JSON file that refers to the URL and other skybox properties.
 
-   ```json
+   ```
    {
       "Entities": [
           {
@@ -149,5 +149,5 @@ Your zone's ambient lighting will change to the image you've provided.
 
 **See Also**
 
-- [Create New Entities](../create-entities)
-- [Change How Entities Look](../entity-appearance)
+- [Create New Entities](create-entities)
+- [Change How Entities Look](entity-appearance)

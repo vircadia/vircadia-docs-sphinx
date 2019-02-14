@@ -11,7 +11,7 @@ You can adjust various settings in High Fidelity so that it runs to your prefere
 The Tablet and HUD
 ------------------------
 
-In VR, all of your settings are found in your **Tablet**. The Tablet also gives you easy access to any `apps that you install <../../personalize-experience/install-apps>`_. Pull up the tablet by clicking the menu button on your controller.
+In VR, all of your settings are found in your **Tablet**. The Tablet also gives you easy access to any :doc:`apps that you install <../personalize/install-apps>`. Pull up the tablet by clicking the menu button on your controller.
 
 .. image:: _images/tablet.png
 
@@ -67,10 +67,10 @@ High Fidelity spatializes audio in real-time based on the location of the listen
 | *Input Device Settings* >  | The audio level meter is visible on the top left corner of your screen. By default,  |
 | Show audio level meter     | this is always shown. You can uncheck this box to stop showing the meter.            |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Choose Input Device        | Choose the `microphone or input device <#input-devices>`_ of your choice from the    |
+| Choose Input Device        | Choose the microphone or `input device <#input-devices>`_ of your choice from the    |
 |                            | list of devices displayed.                                                           |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Choose Output Device       | Choose the `speakers, headphones, or other output device <#output-devices>`_ of      |
+| Choose Output Device       | Choose the speakers, headphones, or other `output device <#output-devices>`_ of      |
 |                            | your choice from the list of devices displayed.                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
 
@@ -139,32 +139,33 @@ You can change many avatar movement settings in VR such as jumping, flying, and 
 * In Desktop mode, go to **Settings > Controls** in the menu on the top left corner. 
 * In VR mode, open your Tablet and go to **Menu > Settings > Control**.
 
-+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Setting                            | Description                                                                                                                          |
-+====================================+======================================================================================================================================+
-| *VR Movement* >                    | This setting controls how your avatar moves in VR mode.                                                                              |
-| Movement mode                      |                                                                                                                                      |
-|                                    | * **Teleporting Only**: Your avatar can only teleport. You cannot walk, jump, or fly.                                                |
-|                                    | * **Walking and Teleporting**: Your avatar can walk and teleport. To jump or fly, enable the check box labeled *Jumping and flying*. |
-+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| *VR Movement* >                    | This setting controls how your avatar turns in VR mode.                                                                              |
-| Rotation mode                      |                                                                                                                                      |
-+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| *VR Movement* >                    | This setting controls if and when your avatar leans in VR mode.                                                                      |
-| Avatar leaning behavior            |                                                                                                                                      |
-|                                    | * **Auto**: This is the default setting. Your avatar will lean if you are standing in the real world.                                |
-|                                    | * **Seated**: Your avatar will not lean if you are sitting in the real world.                                                        |
-|                                    | * **Standing**: Your avatar will lean if you are sitting in the real world.                                                          |
-|                                    | * **Disabled**: Your avatar can sit on the floor (experimental).                                                                     |
-+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| User real world height (in meters) | You can change your real world height for better tracking in VR mode.                                                                |
-+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Game Controller                    | This setting is enabled by default. When enabled, you can use other types of controllers.                                            |
-+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Perception Neuron                  | Enable this setting to use the Perception Neuron motion capture system.                                                              |
-+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Leap Motion                        | Enable this setting to start using Leap Motion controllers.                                                                          |
-+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| Setting                  | Description                                                                                                                          |
++==========================+======================================================================================================================================+
+| *VR Movement* >          | This setting controls how your avatar moves in VR mode.                                                                              |
+| Movement mode            |                                                                                                                                      |
+|                          | * **Teleporting Only**: Your avatar can only teleport. You cannot walk, jump, or fly.                                                |
+|                          | * **Walking and Teleporting**: Your avatar can walk and teleport. To jump or fly, enable the check box labeled *Jumping and flying*. |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| *VR Movement* >          | This setting controls how your avatar turns in VR mode.                                                                              |
+| Rotation mode            |                                                                                                                                      |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| *VR Movement* >          | This setting controls if and when your avatar leans in VR mode.                                                                      |
+| Avatar leaning behavior  |                                                                                                                                      |
+|                          | * **Auto**: This is the default setting. Your avatar will lean if you are standing in the real world.                                |
+|                          | * **Seated**: Your avatar will not lean if you are sitting in the real world.                                                        |
+|                          | * **Standing**: Your avatar will lean if you are sitting in the real world.                                                          |
+|                          | * **Disabled**: Your avatar can sit on the floor (experimental).                                                                     |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| User real world height   | You can change your real world height for better tracking in VR mode.                                                                |
+| (in meters)              | You can change your real world height for better tracking in VR mode.                                                                |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| Game Controller          | This setting is enabled by default. When enabled, you can use other types of controllers.                                            |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| Perception Neuron        | Enable this setting to use the Perception Neuron motion capture system.                                                              |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| Leap Motion              | Enable this setting to start using Leap Motion controllers.                                                                          |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 
 --------------------------------
 Other Miscellaneous Settings
@@ -181,20 +182,7 @@ You can modify general settings such user interface and privacy settings in High
 * In Desktop mode, go to **Settings > General** in the menu on the top left corner. 
 * In VR mode, open your Tablet and go to **Menu > Settings > General**.
 
-+-------------------+--------------------------------------------------------------------------------------------------+
-| Setting           | Description                                                                                      |
-+===================+==================================================================================================+
-| User Interface    | Make changes to your user interface. These settings will affect the behavior of High Fidelity,   |
-|                   | including the tablet/HUD.                                                                        |
-+-------------------+--------------------------------------------------------------------------------------------------+
-| Mouse Sensitivity | Adjust your mouse sensitivity. *(Desktop Mode Only)*                                             |
-+-------------------+--------------------------------------------------------------------------------------------------+
-| Snapshots         | Choose where to save the snapshots you take in-world, and the duration of your animated          |
-|                   | (GIF) snapshots.                                                                                 |
-+-------------------+--------------------------------------------------------------------------------------------------+
-| Privacy           | This setting is enabled by default. Disable if you don't want to send High Fidelity information  |
-|                   | related to error logging, usage patterns, installation, system details, and crash events.        |
-+-------------------+--------------------------------------------------------------------------------------------------+
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In-World Graphics Settings
@@ -233,4 +221,4 @@ You can change your account security settings in High Fidelity.
 
 **See Also**
 
-+ `Configure Your Domain Settings <../../../host/your-domain/configure-settings>`_
++ :doc:`Configure Your Domain Settings <../../host/your-domain/configure-settings>`

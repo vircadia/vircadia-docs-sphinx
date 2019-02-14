@@ -4,7 +4,7 @@ Create Your Own Avatar
 
 There are two ways to create your own avatar: you can either create your own from scratch using 3D modeling tools such as Adobe Fuse, Mixamo, and Blender, or you can download an existing avatar from external sources such as TurboSquid or CGTrader. 
 
-.. note:: If you get an avatar from an external source such as TurboSquid or CGTrader, it is likely that the skeleton does not match our `avatar standards <./avatar-standards>`_. To use these avatars with High Fidelity, use the `High Fidelity Avatar Exporter for Unity <../find-avatars>`_ to correctly map the skeleton and package your avatar. 
+.. note:: If you get an avatar from an external source such as TurboSquid or CGTrader, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with High Fidelity, use the `High Fidelity Avatar Exporter for Unity <find-avatars.html#high-fidelity-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar. 
 
 If you want to create an avatar from scratch, this page covers the steps needed to create, rig, and package your avatar. 
 
@@ -33,9 +33,9 @@ The steps involved in creating your avatar are:
 
 Check out this YouTube playlist for one way to create and customize your own avatar. Here, we use Adobe Fuse to create our avatar, Mixamo to rig our avatar automatically, and Blender to adjust the rendering on our avatar. We also have written instructions on the same process: 
 
-* `Create an Avatar with Fuse <../fuse-tutorial>`_
-* `Rig Your Avatar in Mixamo <../mixamo-tutorial>`_
-* `Modify Materials and Textures with Blender <../blender-tutorial>`_
+* :doc:`Create an Avatar with Fuse <fuse-tutorial>`
+* :doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`
+* :doc:`Modify Materials and Textures with Blender <blender-tutorial>`
 
 .. raw:: html
 
@@ -47,7 +47,7 @@ Check out this YouTube playlist for one way to create and customize your own ava
 Package Your Avatar
 ---------------------------
 
-Once you've created your avatar, you need to create an FST file to accompany your FBX model. This process is called *packaging your avatar*. Once you've packaged your avatar, you need to `host it in the cloud <../host-avatar>`_ or on our Marketplace before using it in High Fidelity.
+Once you've created your avatar, you need to create an FST file to accompany your FBX model. This process is called *packaging your avatar*. Once you've packaged your avatar, you need to :doc:`host it <host-avatar>` in the cloud or on our Marketplace before using it in High Fidelity.
 
 We've created the **Avatar Packager** to create an FST file for you. In addition, you can use the Avatar Packager to host your avatar on the Marketplace, edit an existing avatar package, and put it on. 
 
@@ -71,6 +71,7 @@ If you want to sell your avatar on the Marketplace or upload it to High Fidelity
 2. Once your avatar is uploaded to the servers, click 'View in Inventory' to view your custom avatar. 
 
 .. image:: _images/inventory.png
+
 3. Click 'Wear' to try out your new avatar! 
 4. You can view your avatar in the Marketplace. It is currently in Draft mode. You will need to submit it for review to make your avatar available for purchase on the Marketplace.
 
@@ -80,9 +81,9 @@ Community Tools for Avatars
 
 As you're creating your avatar, remember that High Fidelity is an open-source project. Many of our community members have created plug-ins, add-ons, toolkits, skeletons and more to help you create content, including avatars. Here are a few for you to play around with.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 `Blender Add-on by Menithal <https://github.com/Menithal/Blender-Hifi-Addon>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Plugin ("Project Hermes") is a plugin for Blender to allow for easier content creation and importing for the High Fidelity Metaverse Platform. It features: 
 
@@ -99,5 +100,5 @@ Have a project you've been working on that you'd like us to share? Let us know b
 
 **See Also**
 
-+ `Find and Use an Existing Avatar <../find-avatars>`_
-+ `Host Your Avatar <../host-avatar>`_
++ :doc:`Find and Use an Existing Avatar <find-avatars>`
++ :doc:`Host Your Avatar <host-avatar>`

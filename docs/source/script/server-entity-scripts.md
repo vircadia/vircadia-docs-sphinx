@@ -53,6 +53,6 @@ Learn more about what APIs are available to server entity scripts [here](https:/
 
 **See Also**
 
-- [Get Started with Scripting](../get-started-with-scripting)
-- [Write Your Own Scripts](../write-scripts)
-- [API Reference](../../api-reference)
+- [Get Started with Scripting](get-started-with-scripting)
+- [Write Your Own Scripts](write-scripts)
+- [API Reference](../api-reference)

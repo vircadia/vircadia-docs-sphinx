@@ -101,4 +101,4 @@ Your wearable must have a `parentJoint` described in your .JSON, as well as `use
 
 **See Also**
 
-+ [Marketplace Bill of Rights](../bill-of-rights)
++ [Marketplace Bill of Rights](bill-of-rights)

@@ -95,5 +95,5 @@ We've included images where the fields corresponding to each supported PBR chann
 
 **See Also**
 
-+ `Add a Material Entity <../../entities/material-entity>`_
-+ `Load and Run a Script <../../../script/get-started-with-scripting#load-and-run-a-script>`_
++ :doc:`Add a Material Entity <../entities/material-entity>`
++ `Load and Run a Script <../../script/get-started-with-scripting.html#load-and-run-a-script>`_

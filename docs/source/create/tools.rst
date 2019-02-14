@@ -11,12 +11,12 @@ To build and create things in High Fidelity, you need to become familiar with th
 The Create App
 ---------------------
 
-Use the **Create** app to create any `type of entity <../entities/create-entities>`_. In Interface, pull up your HUD or Tablet and go to **Create** to get started. With the Create app, you can:
+Use the **Create** app to create any :doc:`type of entity <entities/create-entities>`. In Interface, pull up your HUD or Tablet and go to **Create** to get started. With the Create app, you can:
 
-+ `Add any type of entity <(../entities/create-entities>`_ and import externally created `models <../3d-models/import-model>`_ and `materials <../entities/material-entity>`_. 
-+ Edit entity properties, such as its `appearance <../entities/entity-appearance>`_, `position <../entities/entity-appearance#move-an-entity>`_, and `behavior <../entities/entity-behavior>`_.
++ :doc:`Add any type of entity <entities/create-entities>` and import externally created :doc:`models <3d-models/import-model>` and :doc:`materials <entities/material-entity>`. 
++ Edit entity properties, such as its :doc:`appearance <entities/entity-appearance>`, `position <entities/entity-appearance.html#move-an-entity>`_, and :doc:`behavior <entities/entity-behavior>`.
 + Expose a grid that assists you with the layout and placement of entities.
-+ `Display the Entity List <#entity-list>`_, which lists all the entities in the domain. When you're using an HMD, the entity list will be an additional tab in the Create app. In Desktop mode, the Entity List is its own window.
++ Display the `Entity List`_, which lists all the entities in the domain. When you're using an HMD, the entity list will be an additional tab in the Create app. In Desktop mode, the Entity List is its own window.
 
 .. note:: We have received reports that Interface may crash when using a laptop and external monitor with the Create app. If you experience the crash, we recommend that you either a) disable the Nahimic service on your laptop or b) always use the Create Tools on your primary monitor.
 
@@ -40,7 +40,7 @@ When you select an entity in the Entity List, you can:
 Shapes: Create in VR
 ------------------------
 
-The Shapes app is a Marketplace app that lets you `add and edit basic shapes (entities) <../entities/create-entities>`_ in High Fidelity. You can use Shapes only in VR mode. 
+The Shapes app is a Marketplace app that lets you :doc:`add and edit basic shapes (entities) <entities/create-entities>` in High Fidelity. You can use Shapes only in VR mode. 
 
 To get the Shapes app: 
 
@@ -58,21 +58,21 @@ Use the Shapes app
 .. image:: _images/dom-hand.PNG
 
 3. In the 'Create' palette, click on one of the shapes to create and add that entity. 
-4. The entity will be created at your hand. You can `grab it by pressing the trigger on your controller <../../explore/interact-objects#grab-objects>`_. 
+4. The entity will be created at your hand. You can `grab it <../explore/interact.html#grab-objects>`_ by pressing the trigger on your controller.
 5. In the 'Tools' Menu, you can edit an entity's properties. Activate a tool by clicking its button. You'll see an icon representing the tool you selected on your dominant hand. You can deactivate a tool by hovering over the title bar and clicking 'Back'.
 
-   1. Color: You can choose a color for your entity by pointing your laser at 'Color' in the 'Tools' menu and dipping your finger or stylus in the color of your choice. You can even create color swatches for yourself. 
-   2. Stretch: You can change the dimensions of your entity by stretching it. Select 'Stretch' to see the handles on your entity that you can pull using your controllers. 
-   3. Clone: You can clone your entity using the 'Clone' tool. Select 'Clone', point your laser at your entity, and pull out its clone. 
-   4. Group: You can group two or more entities together for easier editing. Select 'Group' and then select all the entities you want to group. 
-   5. Physics: You can modify the `physics (behavior of your entity in space) <../entities/entity-behavior>`_ using the 'Physics' tool. Select 'Physics' to see the variety of options available to you. 
-   6. Delete: You can delete an entity by selecting 'Delete' and then selecting the entity you want to delete. 
+    1. Color: You can choose a color for your entity by pointing your laser at 'Color' in the 'Tools' menu and dipping your finger or stylus in the color of your choice. You can even create color swatches for yourself. 
+    2. Stretch: You can change the dimensions of your entity by stretching it. Select 'Stretch' to see the handles on your entity that you can pull using your controllers. 
+    3. Clone: You can clone your entity using the 'Clone' tool. Select 'Clone', point your laser at your entity, and pull out its clone. 
+    4. Group: You can group two or more entities together for easier editing. Select 'Group' and then select all the entities you want to group. 
+    5. Physics: You can modify the :doc:`physics (behavior of your entity in space) <entities/entity-physics>` using the 'Physics' tool. Select 'Physics' to see the variety of options available to you. 
+    6. Delete: You can delete an entity by selecting 'Delete' and then selecting the entity you want to delete. 
 
 -----------------------------
 Marketplace Item Tester
 -----------------------------
 
-Once you have created an item, you can test it prior to using it or `submitting it to Marketplace <../../sell/add-item>`_. The Marketplace Item Tester reviews all kinds of content, including applications, avatars, content sets, entities, and wearables. Using it, you can verify that your item works the way you expected, and does not have any script errors.
+Once you have created an item, you can test it prior to using it or :doc:`submitting it to Marketplace <../sell/add-item>`. The Marketplace Item Tester reviews all kinds of content, including applications, avatars, content sets, entities, and wearables. Using it, you can verify that your item works the way you expected, and that it does not have any script errors.
 
 To use the Marketplace Item Tester:
 
@@ -81,27 +81,37 @@ To use the Marketplace Item Tester:
 3. Open the **Developer** menu and go to **Marketplace Item Tester**. 
 4. You can load items in two different ways:
 
-    - Click 'Load File' to load an item from your local computer or network. Browse to your file to open it. 
-    
-    .. image:: _images/load-file.png
-    
-    - Click 'Load URL' to load an item hosted in the cloud. 
-    
-    .. image:: _images/load-url.png
-    
+    * Click 'Load File' to load an item from your local computer or network. Browse to your file to open it. 
+    * Click 'Load URL' to load an item hosted in the cloud.    
+
+.. image:: _images/load-file.png 
+   
 3. Next to the item you loaded, you will see an icon indicating the type of content. If it is incorrect (or we fail to identify it), you can change it using the dropdown list.
 
-+-----------------------------------------+-------------+
-| .. image:: _images/application-icon.png | Application |
-+-----------------------------------------+-------------+
-| .. image:: _images/avatar-icon.png      | Avatar      |
-+-----------------------------------------+-------------+
-| .. image:: _images/content-set-icon.png | Content Set |
-+-----------------------------------------+-------------+
-| .. image:: _images/entity-icon.png      | Entity      |
-+-----------------------------------------+-------------+
-| .. image:: _images/wearable-icon.png    | Wearable    |
-+-----------------------------------------+-------------+
+.. raw:: html
+
+    <table class="docutils">
+        <tr>
+            <td><img src="../_images/application-icon.png" style="margin: auto"></td>
+            <td>Application</td>
+        </tr>
+        <tr>
+            <td><img src="../_images/avatar-icon.png" style="margin: auto"></td>
+            <td>Avatar</td>
+        </tr>
+        <tr>
+            <td><img src="../_images/content-set-icon.png" style="margin: auto"></td>
+            <td>Content Set</td>
+        </tr>
+        <tr>
+            <td><img src="../_images/entity-icon.png" style="margin: auto"></td>
+            <td>Entity</td>
+        </tr>
+        <tr>
+            <td><img src="../_images/wearable-icon.png" style="margin: auto"></td>
+            <td>Wearable</td>
+        </tr>
+    </table>
 
 4. Click the icon to load your content in world. 
 
@@ -147,9 +157,9 @@ Blocks
 
 **See Also**
 
-+ `Entities <../entities>`_
-+ `Create New Entities <../entities/create-entities>`_
-+ `Shopping the Marketplace <../../explore/bank-and-shop#shopping-the-marketplace>`_
-+ `Tutorial: Create an Avatar with Fuse <../avatars/fuse-tutorial>`_
-+ `Tutorial: Rig Your Avatar in Mixamo <../avatars/mixamo-tutorial>`_
-+ `Tutorial: Modify Materials and Textures Using Blender <../avatars/blender-tutorial>`_
++ :doc:`Entities <entities>`
++ :doc:`Create New Entities <entities/create-entities>`
++ `Shopping the Marketplace <../explore/shop.html#shopping-the-marketplace>`_
++ :doc:`Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>`
++ :doc:`Tutorial: Rig Your Avatar in Mixamo <avatars/mixamo-tutorial>`
++ :doc:`Tutorial: Modify Materials and Textures Using Blender <avatars/blender-tutorial>`

@@ -33,11 +33,11 @@ The first time you open your settings, your browser will open a Setup Wizard to 
 
 .. image:: _images/paste-token.png
    
-2. In Step 2 of the wizard, you can change your domain's place name, which is name people will use to get to your domain. Place names are randomly generated. For a fee, you can choose to `customize your place name <../../add-a-place-name#purchase-a-place-name>`_ so that it more accurately describes your domain.
+2. In Step 2 of the wizard, you can change your domain's place name, which is name people will use to get to your domain. Place names are randomly generated. For a fee, you can choose to `customize your place name <../place-name.html#purchase-a-place-name>`_ so that it more accurately describes your domain.
 
 .. image:: _images/step-2-server-settings.png
 
-3. In Step 3 of the wizard, you can set user permissions for your domain. In this step, you can add yourself and other users as administrators of your domain. You can also grant or deny specific users the ability to connect to your domain or rez content. ALl of these permissions can be changed later, as you `secure your domain <../secure-domain>`_. 
+3. In Step 3 of the wizard, you can set user permissions for your domain. In this step, you can add yourself and other users as administrators of your domain. You can also grant or deny specific users the ability to connect to your domain or rez content. ALl of these permissions can be changed later, as you :doc:`secure your domain <secure-domain>`. 
 4. Click 'Finish'. You will be redirected to the 'Domain Settings' page. 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -70,11 +70,11 @@ Change Your Content Settings
 
 Your content settings define the behavior of the content (or entities) in your domain. To get to the content settings, open your `domain settings <http://localhost:40100/settings/>`_, then click on the 'Content' menu. This section describes the types of content settings you can define: 
 
-* `Content Archives <#content-archives>`_
-* `Upload Content <#upload-content>`_
-* `Paths <#paths>`_
-* `Scripts <#scripts>`_
-* `Audio Environment <#audio-environment>`_
+* `Content Archives`_
+* `Upload Content`_
+* `Paths`_
+* `Scripts`_
+* `Audio Environment`_
 
 ^^^^^^^^^^^^^^^^^^^^^^^
 Content Archives
@@ -109,7 +109,7 @@ You can upload content stored on your computer to your domain. Typically, you wi
 Paths
 ^^^^^^^^^^^^^^^^^^^^
 
-A _path_ is an exact location within your domain. By default, you have one path automatically assigned: the path "/" is the entry point where a user appears when they enter your domain. From the 'Paths' section, you can change the location of this default path, or add new ones to set multiple viewpoints within your domain. 
+A *path* is an exact location within your domain. By default, you have one path automatically assigned: the path "/" is the entry point where a user appears when they enter your domain. From the 'Paths' section, you can change the location of this default path, or add new ones to set multiple viewpoints within your domain. 
 
 Each path that you define has a set of coordinates, alongside a rotation to define the direction that clients will look when they go to that path. 
 
@@ -117,9 +117,10 @@ To set a new path:
 
 1. In your domain, move your avatar to the point where you wish to have users appear. 
 2. Go to **Navigate > Copy Path to Clipboard**. The path will be represented using 3D coordinates with orientation information, for example ``/-8.10251e-07,-11.1818,1.79641e-05/0,-0.708837,0,0.705372``. This type of path is tedious to approximate and enter manually, making 'Copy Path to Clipboard' the more practical method of defining a path.
-3. Open your `domain settings <https://highfidelity.com/user/cloud_domains>`_ if you're hosting it on a cloud service. Or, use (http://localhost:40100/settings/) for a local sandbox. Click 'Content' and go to 'Paths' on the drop down menu. 
+3. Open your `cloud domain settings <https://highfidelity.com/user/cloud_domains>`_ if you're hosting it on a cloud service. Or, use `http://localhost:40100/settings <http://localhost:40100/settings>`_ for a local sandbox. Click 'Content' and go to 'Paths' on the drop down menu. 
 
 .. image:: _images/go-to-path.png
+
 4. Click the plus sign to add a new path. Paste your copied path under 'Viewpoint'.
 5. Click 'Save' at the top of the page.
 
@@ -129,7 +130,7 @@ To appear at a specific viewpoint in your domain, clients will enter the domain_
 Scripts
 ^^^^^^^^^^^^^^^^^^^
 
-The 'Scripts' section loads all of the `assignment client scripts <../../../script/assignment-client-scripts>`_ that you've written for your domain. 
+The 'Scripts' section loads all of the :doc:`assignment client scripts <../../script/assignment-client-scripts>` that you've written for your domain. 
 
 To add a script: 
 
@@ -184,6 +185,6 @@ You can add audio settings for a stage in your domain. This stage is used for pe
 
 **See Also**
 
-+ `Secure Your Domain <../secure-domain>`_
-+ `Broadcast to Other Domains <../../broadcast-your-domain>`_
-+ `Backup and Restore Your Domain <../../backup-restore-domain>`_
++ :doc:`Secure Your Domain <secure-domain>`
++ :doc:`Broadcast to Other Domains <../broadcast-domain>`
++ :doc:`Backup and Restore Your Domain <../backup-restore-domain>`

@@ -2,7 +2,7 @@
 
 You can add a material entity to an object in your domain. A material entity contains specific material data that determines the texture and shading of an object. For example, if you want to create a castle in your domain, you need your walls to look like they're made of rough gray stone. You can do this by adding a castle wall material entity to your walls. 
 
-Before adding a material entity, make sure you have created a material using the [PBR Materials Guide](../../3d-models/pbr-materials-guide).
+Before adding a material entity, make sure you have created a material using the [PBR Materials Guide](../3d-models/pbr-materials-guide).
 
 **On This Page:**
 
@@ -33,7 +33,7 @@ This is what the .JSON file for a sample [castle wall material](https://hifi-pub
 }
 ```
 
-This file contains all related material data, such as the color, roughness, and other texture and shading information. Note that you can edit this information programmatically with the `Material` [EntityType](../../../api-reference/namespaces/entities#.EntityType) in our API, and define its properties using [EntityProperties-Material](../../../api-reference/namespaces/entities#.EntityProperties-Material).
+This file contains all related material data, such as the color, roughness, and other texture and shading information. Note that you can edit this information programmatically with the `Material` [EntityType](../../api-reference/namespaces/entities#.EntityType) in our API, and define its properties using [EntityProperties-Material](../../api-reference/namespaces/entities#.EntityProperties-Material).
 
 ## Add a Material Entity
 
@@ -49,5 +49,5 @@ Once you have your material entity .JSON file, you can add it to an object in Hi
 
 **See Also**
 
-+ [Create New Entities](../create-entities)
-+ [PBR Materials Guide](../../3d-models/pbr-materials-guide)
++ [Create New Entities](create-entities)
++ [PBR Materials Guide](../3d-models/pbr-materials-guide)

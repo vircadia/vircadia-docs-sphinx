@@ -2,7 +2,7 @@
 Get Your 3D Model
 #########################
 
-Many 3D models are available for purchase on our `Marketplace <../../../explore/bank-and-shop#shopping-the-marketplace>`_. If the Marketplace doesn't have the model you're looking for, you can create and customize your own. All 3D models should be in the OBJ or FBX format and have materials supported by High Fidelity.  
+Many 3D models are available for purchase on our `Marketplace <../../explore/shop.html#shopping-the-marketplace>`_. If the Marketplace doesn't have the model you're looking for, you can create and customize your own. All 3D models should be in the OBJ or FBX format and have materials supported by High Fidelity.  
 
 .. contents:: On This Page
     :depth: 2
@@ -23,7 +23,7 @@ Create Your Own 3D Model
 You can create your own 3D model using 3D modeling software such as Blender or Maya. Use any software of your choice as long as:
 
 + The 3D model is in the OBJ or FBX format.
-+ The 3D model materials are supported by High Fidelity. Use our `materials guide <../pbr-materials-guide>`_ to make sure that your materials load correctly.
++ The 3D model materials are supported by High Fidelity. Use our :doc:`materials guide <pbr-materials-guide>` to make sure that your materials load correctly.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Best Practices
@@ -79,4 +79,4 @@ We've listed the best practices for creating 3D models for High Fidelity (and VR
 
 **See Also**
 
-+ `Shopping the Marketplace <../../../explore/bank-and-shop#shopping-the-marketplace>`_
++ `Shopping the Marketplace <../../explore/shop.html#shopping-the-marketplace>`_

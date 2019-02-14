@@ -1,6 +1,6 @@
 # Add Your Wearable
 
-Once you've [created your wearable](../../../create/wearables), you need to add the item and its assets in the Marketplace. At a minimum, your wearable will need the following assets:
+Once you've [created your wearable](../../create/wearables), you need to add the item and its assets in the Marketplace. At a minimum, your wearable will need the following assets:
 
 * FBX file
 * JSON file
@@ -52,10 +52,10 @@ If your wearable could be re-imported without any issues, it is now ready to be 
 Click the JSON file as your root file in the Asset Viewer. 
 7. Save your submission.
 
-If you wish to sell your wearable on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../../contribute/write-for-us#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
+If you wish to sell your wearable on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
 
 **See Also**
 
-+ [Wearables](../../../create/wearables)
-+ [3D Models](../../../create/3d-models)
-+ [Marketplace Submission Rules](../../submission-rules)
++ [Wearables](../../create/wearables)
++ [3D Models](../../create/3d-models)
++ [Marketplace Submission Rules](../submission-rules)

@@ -4,9 +4,7 @@ Add Items to the Marketplace
 
 Once you've created an avatar, wearable or entity, you have the option to sell it in the Marketplace. This guide walks you through the steps to upload it to the Marketplace so that you can start the process of having it reviewed and published.
  
-.. note:: Prior to adding your item to the Marketplace, we recommend that you use the `Marketplace Item Tester <../../create/tools#marketplace-item-tester>`_ to ensure that your item works the way you expected and does not have any script errors.
-
-**On This Page**
+.. note:: Prior to adding your item to the Marketplace, we recommend that you use the `Marketplace Item Tester <../create/tools.html#marketplace-item-tester>`_ to ensure that your item works the way you expected and does not have any script errors.
 
 .. contents:: On This Page
     :depth: 2
@@ -177,8 +175,8 @@ Below, you'll find descriptions of each Marketplace category and examples of ite
 |              |                                                                      | lace/items/f5c66f52-6f33-4303-ac  |
 |              |                                                                      | 74-6e03df0ab254>`_                |
 +--------------+----------------------------------------------------------------------+-----------------------------------+
-| Zones &      | Items primarily utilizing `zone entities                             | `Constellation Skybox             |
-| Skies        | <../create/entities/zone-tutorial>`_ in High Fidelity.               | <https://highfidelity.com/market  |
+| Zones &      | Items primarily utilizing :doc:`zone entities                        | `Constellation Skybox             |
+| Skies        | <../create/entities/zone-tutorial>` in High Fidelity.                | <https://highfidelity.com/market  |
 |              |                                                                      | place/items/208ba556-d457-4627-b  |
 |              |                                                                      | db1-2185591c7031>`_,              |
 |              |                                                                      | `Moon Skybox                      |
@@ -199,4 +197,4 @@ Follow these guidelines when uploading content to the Marketplace:
 4. Items may not have .js root files. You should either make an app to run scripts, or attach scripts to entities that will be rezzed through a .json file.
 5. All entities must have a name, even if they are invisible or simple primitives.
 6. Please use English in your package description, support text, and code comments.
-7. If needed, you may use `Markdown syntax <../../contribute/write-for-us#markdown-guide>`_ in your description text.
+7. If needed, you may use `Markdown syntax <../contribute/write-for-us.html#id1>`_ in your description text.

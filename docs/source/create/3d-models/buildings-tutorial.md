@@ -39,9 +39,9 @@ If you'd like to use an existing 3D model, you can find options for buildings in
 
 ## Add Your Building to Your Domain
 
-[Set up your own domain](../../../host/your-domain) that you can host content in. If you're planning on using your building in a single domain, you can host your building by:
+[Set up your own domain](../../host/your-domain) that you can host content in. If you're planning on using your building in a single domain, you can host your building by:
 
-1. Opening the [Asset Browser](../../../host/manage-your-domain-assets#add-an-asset-to-the-asset-server) and uploading your model to your domain
+1. Opening the [Asset Browser](../../host/manage-assets#add-an-asset-to-the-asset-server) and uploading your model to your domain
 2. Placing your building by clicking 'Add to World'
 3. Using the Edit tools to change the scale and location of your building, if necessary
 
@@ -53,6 +53,6 @@ You can swap out textures to your model directly in High Fidelity by specifying 
 
 **See Also**
 
-+ [Set Up Your Domain](../../../host/your-domain)
-+ [Manage Your Assets](../../../host/manage-your-domain-assets)
-+ [Environments](../../environments)
++ [Set Up Your Domain](../../host/your-domain)
++ [Manage Your Assets](../../host/manage-assets)
++ [Environments](../environments)

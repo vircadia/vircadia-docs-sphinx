@@ -2,7 +2,7 @@
 Sell
 ####################
 
-High Fidelity encourages you to `create and build experiences <../create>`_ that you can share with others. Take the opportunity to share your creations, sell them to others, and make money in the metaverse with the Marketplace. 
+High Fidelity encourages you to :doc:`create and build experiences <create>` that you can share with others. Take the opportunity to share your creations, sell them to others, and make money in the metaverse with the Marketplace. 
 
 There is no fee to post your items for sale on the Marketplace. We help you host and certify your content, and we process your transactions and payments. In return, you retain 90% of each sale of your item, while we keep a 10% revenue share.
 

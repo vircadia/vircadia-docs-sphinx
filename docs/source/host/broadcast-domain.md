@@ -15,7 +15,7 @@ Your audio mixer conveys all the audio information in your domain. The avatar mi
 
 You can assign specific ports to your mixers using the command prompt (in Windows) or the terminal (in OS X). 
 
-```clike
+```
 // Launch 1 domain server:
 ./domain-server
 
@@ -44,8 +44,8 @@ Once you assign ports to the mixers, you can add the required broadcasting setti
 
 **See Also**
 
-+ [Configure Your Domain Settings](../your-domain/configure-settings)
-+ [Secure Your Domain](../your-domain/secure-domain)
++ [Configure Your Domain Settings](your-domain/configure-settings)
++ [Secure Your Domain](your-domain/secure-domain)
 
   
 

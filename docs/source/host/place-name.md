@@ -1,6 +1,6 @@
 # Add a Place Name
 
-All domains have a _place name_, which is an easy way for visitors to enter a domain. When you enter the place name into the [GoTo app](../../explore/travel.html#goto-app), you will teleport to that domain. 
+All domains have a _place name_, which is an easy way for visitors to enter a domain. When you enter the place name into the [GoTo app](../explore/travel.html#goto-app), you will teleport to that domain. 
 
 By default, every domain is assigned a random place name (such as "blue-bandwidth-86201"). While you are welcome to continue using this place name, purchasing a custom place name makes it easier for visitors to come to your virtual world. 
 
@@ -23,14 +23,14 @@ You will need to have a High Fidelity account to purchase a Place Name. Place Na
 
 ## Add a Custom Place Name to Your Domain
 
-After you purchase a Place Name, you need to connect it to your domain. If you do not already have a domain, make sure you [set one up](../your-domain).
+After you purchase a Place Name, you need to connect it to your domain. If you do not already have a domain, make sure you [set one up](your-domain).
 
 1. Go to your [domain settings](http://localhost:40100/settings/). 
 2. In the 'Metaverse/Networking' section, click 'Advanced Settings'. 
 3. Copy the Domain ID. 
 3. Go to [https://highfidelity.com/user/places](https://highfidelity.com/user/places) and edit the Place Name you purchased. 
 4. Paste the domain ID you copied in the 'Points To' field. 
-5. Enter a ['Path'](../your-domain/configure-settings#set-an-entry-path-for-users), 'Description', and 'Preview Image' (optional).
+5. Enter a ['Path'](your-domain/configure-settings#set-an-entry-path-for-users), 'Description', and 'Preview Image' (optional).
 6. Click 'Update Place'.
 7. Next, configure your domain server to use the domain of your choice (in case it already isn't configured). Right-click the High Fidelity icon on your system tray or top menu bar, and click 'Settings'.
 8. In your domain server settings, under the 'Metaverse/Networking' section, click 'Advanced Settings'. 
@@ -45,7 +45,7 @@ When you purchase a new Place Name, if you connect it with your domain ID, users
 
 1. Go to https://highfidelity.com/user/places. Edit the Place Name you purchased. 
 2. Add the existing Place Name under the 'Points To' field. 
-3. Enter a ['Path'](../your-domain/configure-settings#set-an-entry-path-for-users), 'Description', and 'Preview Image' (optional).
+3. Enter a ['Path'](your-domain/configure-settings#set-an-entry-path-for-users), 'Description', and 'Preview Image' (optional).
 4. Click 'Update Place'.
 5. You and other users will now be able to access your domain using Interface by typing the Place Name into the *Address Bar*. You may also use the URL `hifi://MyPlaceName`.
 
@@ -53,5 +53,5 @@ When you purchase a new Place Name, if you connect it with your domain ID, users
 
 **See Also**
 
-+ [Set an Entry Path for Users](../your-domain/configure-settings#set-an-entry-path-for-users)
-+ [Configure Basic Server Settings](../your-domain/configure-settings#configure-basic-server-settings)
++ [Set an Entry Path for Users](your-domain/configure-settings#set-an-entry-path-for-users)
++ [Configure Basic Server Settings](your-domain/configure-settings#configure-basic-server-settings)

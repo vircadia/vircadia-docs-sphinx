@@ -1,6 +1,6 @@
 # Applications
 
-Applications (apps) in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from [our API](../../api-reference) and simplify it into a window with controls for others to use. 
+Applications (apps) in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from [our API](../api-reference) and simplify it into a window with controls for others to use. 
 
 >>>>> To create custom apps, you must have a basic knowledge of web development (HTML, CSS and JavaScript) and be able to navigate our API. 
 
@@ -39,7 +39,7 @@ To help you get started, we've put together a [quick start HTML template](https:
 ##### 3. Add event handlers to your HTML file
 The Tablet UI framework provides a communication channel called EventBridge. It allows you to send and receive events between the client script (gemstoneApp.js) and JavaScript in your web app (gemstoneMagicMaker.html). Use the EventBridge in the body of your HTML file to handle the button clicks:
 
-```javascript
+```
 <script>
 	function main() {
 		// Send an event to gemstoneApp.js when the page loads 
@@ -75,7 +75,7 @@ Your JavaScript file will contain all of the core functionality of your app. At 
 
 Use the AppUI module to automatically add your app’s button to the tablet and HUD, and to wire button click handlers: 
 
-```javascript
+```
 (function () { // BEGIN LOCAL_SCOPE
 var AppUi = Script.require('appUi');
 
@@ -98,7 +98,7 @@ If you want your app to do something specific when it is opened, use the AppUI m
 * Start displaying a 3D interface separate from the tablet  (e.g. shapes app)
 * Determine the display mode (VR/Desktop) and change things to show on the UI
 
-```javascript
+```
 (function () { // BEGIN LOCAL_SCOPE
 var AppUi = Script.require('appUi');
 
@@ -126,7 +126,7 @@ The AppUI module ensures that your app closes gracefully. However, if you want t
 * Remove 3D interfaces
 * Stop secondary scripts
 
-```javascript
+```
 (function () { // BEGIN LOCAL_SCOPE
 var AppUi = Script.require('appUi');
 
@@ -156,7 +156,7 @@ startup();
 
 In step 3 above, we [added event handlers](#3-add-event-handlers-to-your-files) to your HTML file. Now, you need to add code to your JavaScript file to listen for the events:
 
-```javascript
+```
 function onWebEventReceived(event) {
    print("gemstoneApp.js received a web event: " + event);
 }
@@ -170,7 +170,7 @@ The final step is to code the behavior of your JavaScript file. In this case, we
 
 The following code gives us a position right in front of the user:
 
-```javascript
+```
 // Helper function that gives us a position right in front of the user
 function getPositionToCreateEntity() {
   var direction = Quat.getFront(MyAvatar.orientation);
@@ -185,7 +185,7 @@ function getPositionToCreateEntity() {
 
 The gemstone will be created when gemstoneApp.js receives click events from each of the buttons. 
 
-```javascript
+```
 // Handle the events we're recieving from the web UI
 function onWebEventReceived(event) {
     print("gemstoneApp.js received a web event:" + event);
@@ -273,8 +273,8 @@ Congratulations, you have successfully created an app in High Fidelity! To use y
 
 **See Also**
 
-+ [Write Your Own Scripts](../../script/write-scripts)
-+ [API Reference: Entities](../../api-reference/namespaces/entities)
-+ [API Reference: Script](../../api-reference/namespaces/script)
-+ [API Reference: Quat](../../api-reference/namespaces/quat)
-+ [API Reference: Vec3](../../api-reference/namespaces/vec3)
++ [Write Your Own Scripts](../script/write-scripts)
++ [API Reference: Entities](../api-reference/namespaces/entities)
++ [API Reference: Script](../api-reference/namespaces/script)
++ [API Reference: Quat](../api-reference/namespaces/quat)
++ [API Reference: Vec3](../api-reference/namespaces/vec3)

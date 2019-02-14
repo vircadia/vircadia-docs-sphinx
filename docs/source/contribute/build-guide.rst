@@ -13,22 +13,8 @@ This guide details instructions for building High Fidelity on your system. If yo
     Linux Build Guide <build-guide/linux>
     Android Build Guide <build-guide/android>
 
-**On This Page:**
-
-+ `Dependencies <#dependencies>`_
-+ `CMake External Project Dependencies <#cmake-external-project-dependencies>`_
-
-    + `CMake <#cmake>`_
-    + `Qt <#qt>`_
-    + `Vcpkg <#vcpkg>`_
-    + `Generating Build Files <#generating-build-files>`_
-    + `Variables <#variables>`_
-    + `Finding Dependencies <#finding-dependencies>`_
-+ `Optional Components <#optional-components>`_
-
-    + `Build Options <#build-options>`_
-    + `Developer Build Options <#developer-build-options>`_
-    + `Devices <#devices>`_
+.. contents:: On This Page
+    :depth: 2
 
 -----------------------
 Dependencies
@@ -48,7 +34,7 @@ Dependencies
 CMake External Project Dependencies
 ----------------------------------------
 
-These dependencies will be downloaded, built, linked, and included by CMake where we require them. They should not be installed manually. The CMakeLists files that handle grabbing each of the external dependencies can be found in the [cmake/externals folder](https://github.com/highfidelity/hifi/tree/master/cmake/externals). The resulting downloads, source files, and binaries will be placed in the `build/ext` folder in the subfolders for each external project.
+These dependencies will be downloaded, built, linked, and included by CMake where we require them. They should not be installed manually. The CMakeLists files that handle grabbing each of the external dependencies can be found in the `cmake/externals folder <https://github.com/highfidelity/hifi/tree/master/cmake/externals>`_. The resulting downloads, source files, and binaries will be placed in the ``build/ext`` folder in the subfolders for each external project.
 
 +----------------------------------------------------------+--------------------+
 | Dependency                                               | Version            |
@@ -90,7 +76,7 @@ These dependencies will be downloaded, built, linked, and included by CMake wher
 | <https://github.com/highfidelity/nvidia-texture-tools>`_ |                    |
 +----------------------------------------------------------+--------------------+
 
-These are not placed in your normal build tree when doing an out of source build, so they do not need to be re-downloaded and re-compiled every time the CMake build folder is cleared. If you want to force a re-download and re-compile of a specific external, you can simply remove that directory from the appropriate subfolder in `build/ext`. Should you want to force a re-download and re-compile of all externals, just remove the `build/ext` folder.
+These are not placed in your normal build tree when doing an out of source build, so they do not need to be re-downloaded and re-compiled every time the CMake build folder is cleared. If you want to force a re-download and re-compile of a specific external, you can simply remove that directory from the appropriate subfolder in ``build/ext``. Should you want to force a re-download and re-compile of all externals, just remove the ``build/ext`` folder.
 
 ^^^^^^^^^^^^^^^^^^
 CMake
@@ -197,7 +183,7 @@ You can support external input/output devices such as Leap Motion, MIDI, and mor
 
 **See Also**
 
-- `Windows 64-bit Build Guide <./windows-64-bit>`_
-- `OS X Build Guide <./os-x>`_
-- `Linux Build Guide <./linux>`_
-- `Android Build Guide <./android>`_
+- :doc:`Windows 64-bit Build Guide <build-guide/windows>`
+- :doc:`OS X Build Guide <build-guide/os-x>`
+- :doc:`Linux Build Guide <build-guide/linux>`
+- :doc:`Android Build Guide <build-guide/android>`

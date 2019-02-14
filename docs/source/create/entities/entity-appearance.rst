@@ -2,7 +2,7 @@
 Change How Entities Look
 ##############################
 
-You can edit an entity's size, color, position and rotation using your mouse or trackpad. To edit an entity, open the `Create app <../../tools#the-create-app>`_ and either select the entity or find it in the Entity List. 
+You can edit an entity's size, color, position and rotation using your mouse or trackpad. To edit an entity, open the `Create app <../tools.html#the-create-app>`_ and either select the entity or find it in the Entity List. 
 
 .. image:: _images/select-entity.PNG
 
@@ -129,7 +129,7 @@ You can also set the position manually in the **Create** app. With the entity se
 
 **See Also**
 
-+ `Interact with Your Environment <../../../explore/interact-objects>`_
-+ `The Create App <../../tools#the-create-app>`_
-+ `Define an Entity's Behavior <../entity-behavior>`_
++ :doc:`Interact with Your Environment <../../explore/interact>`
++ `The Create App <../tools.html#the-create-app>`_
++ :doc:`Define an Entity's Behavior <entity-behavior>`
 

@@ -33,7 +33,8 @@ Here are the specifications for new pages in our documentation system:
 
 .. image:: _images/folder-structure.png
 
-.. note:: Because each of the folders represent a page, there should always be only one markdown file in each folder. When you create and save your markdown file, make sure you name it `docs.md`.  
+.. note:: Because each of the folders represent a page, there should always be only one markdown file in each folder. When you create and save your markdown file, make sure you name it ``docs.md``.  
+
 2. All markdown files start with a YAML statement before the content. These statements help the CMS ensure that your page has the right formatting and is discoverable in the docs. Your YAML statements should look like this:
 
 .. code::
@@ -51,23 +52,24 @@ Here are the specifications for new pages in our documentation system:
 
     [plugin:youtube](https://www.youtube.com/your-url)
 
+
 ----------------------------
 Markdown Guide
 ----------------------------
 
 All of High Fidelity's documentation is written in Markdown. High Fidelity also uses Markdown to format item descriptions when you submit something to the Marketplace. *Markdown* is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, including HTML. 
 
-* `Headings <#headings>`_
-* `Emphasis <#emphasis>`_
-* `Line Breaks <#line-breaks>`_
-* `Blockquote <(#blockquotes>`_
-* `Notices <#notices>`_
-* `Lists <#lists>`_
-* `Tables <#tables>`_
-* `Images <#images>`_
-* `Links <#links>`_
-* `Code Samples <#code-samples>`_
-* `Horizontal Rules <#horizontal-rules>`_
+* `Headings`_
+* `Emphasis`_
+* `Line Breaks`_
+* `Blockquotes`_
+* `Notices`_
+* `Lists`_
+* `Tables`_
+* `Images`_
+* `Links`_
+* `Code Samples`_
+* `Horizontal Rules`_
 
 .. note:: When modifying our documentation, using Markdown doesn't mean that you can't also use HTML. You can add HTML tags to any Markdown file. This is helpful if you prefer certain HTML tags to Markdown syntax, or if you need to use complex formatting that is not supported by Markdown.
 
@@ -339,5 +341,5 @@ If there is more than one markdown syntax listed, feel free to use any of them. 
     
 **See Also**
 
-+ `Get Started with High Fidelity <../../explore/get-started>`_
-+ `Add Items to the Marketplace <../../sell/add-item>`_
++ :doc:`Get Started with High Fidelity <../explore/get-started>`
++ :doc:`Add Items to the Marketplace <../sell/add-item>`

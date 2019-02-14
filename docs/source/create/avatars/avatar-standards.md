@@ -1,6 +1,6 @@
 # Avatar Standards Guide
 
-This document outlines the standards you should follow when [creating your avatar](../). Your avatar uses bones to animate the character's limbs and define the scale variable of limbs. You can add custom bones to further adjust the avatar's shape. Customization of your avatar can be fine-tuned using blendshapes to animate the face and scripting to define advanced behaviors.
+This document outlines the standards you should follow when [creating your avatar](create-avatars). Your avatar uses bones to animate the character's limbs and define the scale variable of limbs. You can add custom bones to further adjust the avatar's shape. Customization of your avatar can be fine-tuned using blendshapes to animate the face and scripting to define advanced behaviors.
 
 **On This Page:**
 * [Glossary](#glossary)
@@ -207,6 +207,6 @@ We recommend that you try to keep total size of all the textures per avatar belo
 
 **See Also**
 
-+ [Create Your Own Avatar](../../create-avatars)
-+ [Find and Use an Existing Avatar](../../find-avatars)
-+ [Add Flow to Your Avatar](../add-flow)
++ [Create Your Own Avatar](create-avatars)
++ [Find and Use an Existing Avatar](find-avatars)
++ [Add Flow to Your Avatar](add-flow)

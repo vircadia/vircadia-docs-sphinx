@@ -26,7 +26,7 @@ A *flow thread* is a set of connected joints with at least one joint that compli
 Flow App
 ----------------------
 
-After you ensure that you have the proper flow threads, run the `Flow app <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flowApp.js>`_ to enable flow for your avatar.  See `this document <../../../../script/get-started-with-scripting#load-and-run-a-script>`_ for more information on how to run a script or app in High Fidelity.
+After you ensure that you have the proper flow threads, run the `Flow app <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flowApp.js>`_ to enable flow for your avatar.  See `this document <../../script/get-started-with-scripting.html#load-and-run-a-script>`_ for more information on how to run a script or app in High Fidelity.
 
 Below are details and descriptions of the Flow app's functionality that will help you control and manipulate your avatar's flow. 
 
@@ -113,12 +113,13 @@ You can now add the modified Flow script to your avatar's FST file to see your w
 Add an Avatar Script
 -----------------------------
 
-In order to `attach a script to your avatar <../../../../script/avatar-scripts>`_, you must modify your avatar's FST file to include the path where your script lives. There are two ways to update your FST file:
+In order to :doc:`attach a script to your avatar <../../script/avatar-scripts>`, you must modify your avatar's FST file to include the path where your script lives. There are two ways to update your FST file:
 
 1.  Manually add a line to the FST file telling the avatar where to find the script file using ``script = [FLOW SCRIPT URL HERE]``
 
 .. image:: _images/addscript.PNG
-2. Use the `Avatar Packager <../../create-avatars#package-your-avatar>`_ to add your avatar script.  
+
+2. Use the `Avatar Packager <create-avatars.html#package-your-avatar>`_ to add your avatar script.  
 
 When packaging your model, the tool will iterate through the directory and add each script to the FST file. Now, you can upload the folder structure to the Marketplace or to your preferred hosting service.
 
@@ -130,6 +131,6 @@ Here is an example of an avatar that is rigged appropriately to use with Flow: `
 
 **See Also**
 
-+ `Avatar Standards <../avatar-standards>`_
-+ `Package Your Avatar <../../create-avatars#package-your-avatar>`_
-+ `Get Started with Scripting <../../../../script/get-started-with-scripting>`_
++ :doc:`Avatar Standards Guide <avatar-standards>`
++ `Package Your Avatar <create-avatars.html#package-your-avatar>`_
++ :doc:`Get Started with Scripting <../../script/get-started-with-scripting>`

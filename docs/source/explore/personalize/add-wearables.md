@@ -15,7 +15,7 @@ We and our users have designed many wearables that are available for your use in
 4. After completing your purchase, click 'Wear' to put on your new wearable.
 
 ## Wear Your Own Wearable
-You can put on a [wearable that you created](../../../create/wearables). All wearable must be hosted in the cloud before they can be used with High Fidelity. Examples of cloud storage options include Amazon S3, Google Cloud Storage, Github, or Microsoft Azure. Alternatively, you can [add your wearable to the Marketplace](../../../sell/add-item/upload-wearable) to sell to other users.
+You can put on a [wearable that you created](../../create/wearables). All wearable must be hosted in the cloud before they can be used with High Fidelity. Examples of cloud storage options include Amazon S3, Google Cloud Storage, Github, or Microsoft Azure. Alternatively, you can [add your wearable to the Marketplace](../../sell/add-item/upload-wearable) to sell to other users.
 
 Once you have your wearable's .fbx file, you can upload it.
 
@@ -31,5 +31,5 @@ Once you have your wearable's .fbx file, you can upload it.
 
 **See Also**
 
-+ [Create Wearables](../../../create/wearables)
-+ [Add Your Wearable to the Marketplace](../../../sell/add-item/upload-wearable)
++ [Create Wearables](../../create/wearables)
++ [Add Your Wearable to the Marketplace](../../sell/add-item/upload-wearable)

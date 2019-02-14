@@ -12,8 +12,8 @@ In this tutorial, you will learn how web entities work by creating one displayin
 
 Consider getting familiar with the following concepts before starting this tutorial:
 
-- [Create New Entities](../create-entities)
-- [Change How Entities Look](../entity-appearance)
+- [Create New Entities](create-entities)
+- [Change How Entities Look](entity-appearance)
 
 ## Create a Web Entity
 
@@ -41,5 +41,5 @@ You can make the web entity display High Fidelity's YouTube channel.
 
 **See Also**
 
-- [Create New Entities](../create-entities)
-- [Change How Entities Look](../entity-appearance)
+- [Create New Entities](create-entities)
+- [Change How Entities Look](entity-appearance)

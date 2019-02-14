@@ -36,11 +36,11 @@ The Inventory app provides an interface to manage your transactions, purchases, 
 
 * View your recent purchases, sales, gifts and other transaction history
 * Change avatars, put on wearables and install/update apps
-* [Send HFC to your friends or anyone nearby](../socialize#send-hfc-to-others)
+* [Send HFC to your friends or anyone nearby](socialize#send-hfc-to-others)
 
 ![](_images/inventory-app.png)
 
 **See Also**
-+ [Send HFC to Others](../socialize#send-hfc-to-others)
-+ [Send Purchased Items to Others](../socialize#send-purchased-items-to-others)
-+ [Sell Items on the Marketplace](../../sell)
++ [Send HFC to Others](socialize#send-hfc-to-others)
++ [Send Purchased Items to Others](socialize#send-purchased-items-to-others)
++ [Sell Items on the Marketplace](../sell)
