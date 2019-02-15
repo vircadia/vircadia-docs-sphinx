@@ -1,6 +1,6 @@
 # Write Your Own Scripts
 
-High Fidelity's robust [JavaScript API](../api-reference) provides the tools for you to build great content and user experiences in VR. 
+High Fidelity's robust [JavaScript API](https://ingerjm0.github.io/hifi-api-docs) provides the tools for you to build great content and user experiences in VR. 
 
 In this section, you can find simple code samples to do common tasks in High Fidelity. To see these code samples in action, copy the code to a file, `testScripts.js`, saved somewhere on your computer. 
 
@@ -73,4 +73,4 @@ print("Entity color: " + JSON.stringify(properties.color));
 + [Get Started with Scripting](get-started-with-scripting)
 + [Load and Run a Script](get-started-with-scripting#load-and-run-a-script)
 + [Interface Scripts](interface-scripts)
-+ [API Reference](../api-reference)
++ [API Reference](https://ingerjm0.github.io/hifi-api-docs)

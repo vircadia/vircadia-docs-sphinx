@@ -75,10 +75,10 @@ function(){
 })()
 ```
 
-This example script uses the [MyAvatar](../api-reference/namespaces/myavatar) namespace to determine if your avatar's hand moves. Upon detecting movement, the script makes your avatar launch balls. It also uses some other namespaces such as [Entities](../api-reference/namespaces/entities) (to create the ball you will launch) and [Vec3](../api-reference/namespaces/vec3) (to determine the right positions and distances). Add it to your avatar to see how it works. 
+This example script uses the [MyAvatar](https://ingerjm0.github.io/hifi-api-docs/myavatar.html) namespace to determine if your avatar's hand moves. Upon detecting movement, the script makes your avatar launch balls. It also uses some other namespaces such as [Entities](https://ingerjm0.github.io/hifi-api-docs/entities.html) (to create the ball you will launch) and [Vec3](https://ingerjm0.github.io/hifi-api-docs/vec3.html) (to determine the right positions and distances). Add it to your avatar to see how it works. 
 
 **See Also**
 
 - [Get Started with Scripting](get-started-with-scripting)
 - [Write Your Own Scripts](write-scripts)
-- [API Reference](../api-reference)
+- [API Reference](https://ingerjm0.github.io/hifi-api-docs)
