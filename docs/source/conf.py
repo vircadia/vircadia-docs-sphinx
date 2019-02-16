@@ -83,7 +83,9 @@ def setup(app):
 # documentation.
 
 html_theme_options = {
-    'logo_only': True
+    'logo_only': True,
+    'display_version': False,
+    'prev_next_buttons_location': 'bottom'
 }
 
 html_logo = '_static/images/hifi-logo.png'
