@@ -4,10 +4,10 @@ While you can [transfer money and items using the Inventory app](../explore/soci
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>Experimental API Notice: The High Fidelity Commerce APIs introduced in this document are **Experimental APIs** and thus are subject to the following:</p>
+    <p>Experimental API Notice: The High Fidelity Commerce APIs introduced in this document are <strong>Experimental APIs</strong> and thus are subject to the following:</p>
     <ol>
-        <li>Commerce APIs on the High Fidelity Metaverse may be modified or removed at any time *until Beta Release 81*;</li>
-        <li>The Commerce APIs referenced in this document and related examples are subject to change or removal without notice *until Beta Release 81*;</li>
+        <li>Commerce APIs on the High Fidelity Metaverse may be modified or removed at any time <em>until Beta Release 81<em>;</li>
+        <li>The Commerce APIs referenced in this document and related examples are subject to change or removal without notice <em>until Beta Release 81<em>;</li>
         <li>Upon release of Beta 81, changes to the High Fidelity Commerce APIs will be subject to the standard API deprecation process.</li>
     </ol>
 </div>
@@ -207,7 +207,7 @@ Here are the steps for this tutorial:
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>To create this content, you'll need access to a High Fidelity domain that you own and where you have full permissions. Examples of such a domain include your private Sandbox or a DigitalOcean domain. You will also need a [Google](https://www.google.com) account for access to Google Sheets.</p>
+    <p>To create this content, you'll need access to a High Fidelity domain that you own and where you have full permissions. Examples of such a domain include your private Sandbox or a DigitalOcean domain. You will also need a <a href="https://www.google.com>Google</a> account for access to Google Sheets.</p>
 </div>
 
 ### Prerequisites
@@ -264,7 +264,7 @@ In this step, you will put the "Authorization ID" and "Coupon ID" into some sort
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>Make sure you keep the web app URL and the Google Sheet URL **private**, or your authorization data will be visible to anyone with access to the sheet.</p>
+    <p>Make sure you keep the web app URL and the Google Sheet URL <strong>private</strong>, or your authorization data will be visible to anyone with access to the sheet.</p>
 </div>
 
 ### Allow Users to Start the Slot Machine

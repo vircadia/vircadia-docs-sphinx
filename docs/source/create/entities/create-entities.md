@@ -4,7 +4,7 @@ We are continually surprised by the ingenuity and creativity of the content crea
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>You can only use the **Create** app in domains where you have the permission to build. </p>
+    <p>You can only use the <strong>Create</strong> app in domains where you have the permission to build. </p>
 </div>
 
 To add a new entity to your domain: 
@@ -29,7 +29,7 @@ You can choose from the following entity types:
 * **WEB** entities display a web page from a specified URL. Only 20 web entities can run at the same time in a domain. 
 * **ZONE** entities are 3-dimensional areas that allow you to create a custom lighting environment.
 * **PARTICLE** entities create dynamic effects that are made of many small parts, such as smoke clouds or falling water.
-* [**MATERIAL**](material-entity) entities modify the existing materials on other entities and avatars.
+* **[MATERIAL](material-entity)** entities modify the existing materials on other entities and avatars.
 
 
 

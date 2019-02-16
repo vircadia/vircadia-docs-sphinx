@@ -63,9 +63,9 @@ Your entity's grab properties determine how it behaves when you or another user 
 |                   | your avatar's hands).                                                        |
 +-------------------+------------------------------------------------------------------------------+
 
----------------------------------------
+----------------------------------------
 Set an Entity to Trigger Scripts
----------------------------------------
+----------------------------------------
 
 If you want your entity to trigger a script when you, other users, or other entities come in contact with it, you can do so by editing its properties. Here are the different trigger settings you can configure:
 

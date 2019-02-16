@@ -37,11 +37,12 @@ If your wearable could be re-imported without any issues, it is now ready to be 
 4. Select the joint you'd like to use for your wearable. For example, a hat would be on your head, and fairy wings would be on your spine.
 5. Click 'Save'. 
 6. Using the [**Create** app](../../../create/tools#the-create-app), make any adjustments to your wearable. For example, you can give your wearable more depth, height or angle it differently.
-<div class="admonition note">
-    <p class="admonition-title">Note</p>
-    <p>If you're creating a wearable to add to the Marketplace, make sure it will fit the default wooden mannequin avatar (unless you are specifically making it to go with a very specific base avatar model). This will ensure that the wearable will work with most avatars in High Fidelity.  </p>
-</div>
-![](_images/edited-wearable.PNG)
+    <div class="admonition note">
+        <p class="admonition-title">Note</p>
+        <p>If you're creating a wearable to add to the Marketplace, make sure it will fit the default wooden mannequin avatar (unless you are specifically making it to go with a very specific base avatar model). This will ensure that the wearable will work with most avatars in High Fidelity.  </p>
+    </div>
+    
+    ![](_images/edited-wearable.png)
 7. Back in the **Create** app, find your model in the 'Entity List' and click on it. 
 8. Click 'Export Selection' and enter a name for your JSON. This JSON file contains information on how High Fidelity can access your item and its files, and needs to contain a reference to your item's location. 
 9. Open your JSON file in a text editor and check if the variable `modelURL` contains your FBX file's Marketplace URL. If it doesn't, you can edit it and paste the correct URL. 

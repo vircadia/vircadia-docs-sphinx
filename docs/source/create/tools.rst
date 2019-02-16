@@ -87,32 +87,6 @@ To use the Marketplace Item Tester:
 .. image:: _images/load-file.png 
    
 3. Next to the item you loaded, you will see an icon indicating the type of content. If it is incorrect (or we fail to identify it), you can change it using the dropdown list.
-
-.. raw:: html
-
-    <table class="docutils">
-        <tr>
-            <td><img src="../_images/application-icon.png" style="margin: auto"></td>
-            <td>Application</td>
-        </tr>
-        <tr>
-            <td><img src="../_images/avatar-icon.png" style="margin: auto"></td>
-            <td>Avatar</td>
-        </tr>
-        <tr>
-            <td><img src="../_images/content-set-icon.png" style="margin: auto"></td>
-            <td>Content Set</td>
-        </tr>
-        <tr>
-            <td><img src="../_images/entity-icon.png" style="margin: auto"></td>
-            <td>Entity</td>
-        </tr>
-        <tr>
-            <td><img src="../_images/wearable-icon.png" style="margin: auto"></td>
-            <td>Wearable</td>
-        </tr>
-    </table>
-
 4. Click the icon to load your content in world. 
 
 .. image:: _images/test-item.png

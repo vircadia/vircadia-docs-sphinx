@@ -130,6 +130,14 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
     padding: 15px;
 }
 
+.rst-content .note {
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.note p {
+    padding: 5px;
+}
 /***********************************/
 /*********** Nav styles ************/
 /***********************************/
@@ -219,6 +227,14 @@ li table {
 
 .wy-table-responsive table td, .wy-table-responsive table th {
     white-space: normal;
+}
+
+.wy-table thead, .rst-content table.docutils thead, .rst-content table.field-list thead {
+    vertical-align: middle;
+}
+
+.wy-table-odd td, .wy-table-striped tr:nth-child(2n-1) td, .rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+    background: #FFFFFF;
 }
 
 /***********************************/
