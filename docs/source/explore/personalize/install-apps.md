@@ -32,7 +32,11 @@ To update your app:
 2. In the **Inventory** app, click the notification that says "You have X item updates available."
 3. Scroll to the app you'd like to update and click on the menu. ![](_images/update-menu.png)
 4. Click the 'Update' button, then 'Update for Free'.
->>>>> You can also visit the Item Listing page, where you’ll see an 'Update For Free' button. 
+
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>You can also visit the Item Listing page, where you’ll see an 'Update For Free' button. </p>
+</div>
 
 ### Additional Notes on Updating
 * If you decide not to update an item, the old product will still be valid and listed in **Inventory**.
@@ -48,7 +52,10 @@ The Spectator Camera is a camera you can use to record or livestream what you an
 
 [Use the instructions above](#install-an-app) to install the Spectator Camera app.
 
->>>>> While using the Spectator Camera, Interface's framerate might be affected. This is because Interface is rendering not only what you see, but what the Spectator Camera sees as well. 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>While using the Spectator Camera, Interface's framerate might be affected. This is because Interface is rendering not only what you see, but what the Spectator Camera sees as well. </p>
+</div>
 
 To use the Spectator Camera app: 
 1. In Interface, pull up your HUD or Tablet and go to **Spectator**. 
@@ -75,7 +82,10 @@ The Text to Speech app synthesizes the text you type into speech. You can use th
 
 [Use the instructions above](#install-an-app) to install the Text to Speech app.
 
->>>>> Currently, the Text to Speech app only works on Windows, since it relies on Microsoft's Text-to-Speech API built on Windows.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Currently, the Text to Speech app only works on Windows, since it relies on Microsoft's Text-to-Speech API built on Windows.</p>
+</div>
 
 To use the Text to Speech (TTS) app: 
 1. In Interface, pull up your HUD or Tablet and go to **TTS**. 

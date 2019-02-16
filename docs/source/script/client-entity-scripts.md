@@ -15,7 +15,10 @@ To attach a client entity script to an entity:
 3. In the **Create** app, go to the 'Properties' tab and scroll down to the 'Behavior' section. 
 4. For Script, enter the URL to your client entity script. 
 
->>>>>For client entity scripts, the URL content must be available to every user who visits the domain. This means the URL should be a public http(s) URL, or an Asset Server (ATP) URL for the domain. It cannot be a file URL. The script property also accepts a string as input, allowing you to insert the code directly.  
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>For client entity scripts, the URL content must be available to every user who visits the domain. This means the URL should be a public http(s) URL, or an Asset Server (ATP) URL for the domain. It cannot be a file URL. The script property also accepts a string as input, allowing you to insert the code directly.  </p>
+</div>
 
 ## Example of a Client Entity Script
 The following script changes the color of a non-model entity (such as a box or a sphere) when you click on it: 

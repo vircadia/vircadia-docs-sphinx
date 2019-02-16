@@ -12,7 +12,10 @@ With avatar scripts, you can do things like make your hair flow or create partic
 ## Add an Avatar Script
 There are two different ways you can add an avatar script to your FST file: either by using our Package Model tool or by manually adding the script.
 
->>>>> You cannot add scripts to avatars you have purchased from the Marketplace. You can add scripts to custom avatars only. 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>You cannot add scripts to avatars you have purchased from the Marketplace. You can add scripts to custom avatars only. </p>
+</div>
 
 To add an avatar script using the Package Model tools: 
 1. Create a folder called `scripts` in the same location as your FBX file.

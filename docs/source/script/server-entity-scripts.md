@@ -14,7 +14,10 @@ To attach a server entity script to an entity:
 3. In the **Create** app, go to the 'Properties' tab and scroll down to the 'Behavior' section. 
 4. For 'Server Script', enter the URL to your server entity script. 
 
->>>>>An entity can have multiple server entity scripts attached to it, but all of these must be through a single file URL. 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>An entity can have multiple server entity scripts attached to it, but all of these must be through a single file URL. </p>
+</div>
 
 ## Example of a Server Entity Script
 The following script modifies the intensity of a light entity, so that it flickers tea lights.

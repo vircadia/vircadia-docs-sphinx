@@ -2,7 +2,15 @@
 
 While you can [transfer money and items using the Inventory app](../explore/socialize#give-and-receive-gifts), sometimes you may want to use scripting to help automate your gifting process. This page will walk you through some examples that programmatically transfers money and items using the High Fidelity Commerce APIs.
 
->>>>> Experimental API Notice: The High Fidelity Commerce APIs introduced in this document are **Experimental APIs** and thus are subject to the following: A) Commerce APIs on the High Fidelity Metaverse may be modified or removed at any time *until Beta Release 81*; B) JavaScript Commerce APIs referenced in this document and related examples are subject to change or removal without notice *until Beta Release 81*; and C) Upon release of Beta 81, changes to the High Fidelity Commerce APIs will be subject to the standard API deprecation process.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Experimental API Notice: The High Fidelity Commerce APIs introduced in this document are **Experimental APIs** and thus are subject to the following:</p>
+    <ol>
+        <li>Commerce APIs on the High Fidelity Metaverse may be modified or removed at any time *until Beta Release 81*;</li>
+        <li>The Commerce APIs referenced in this document and related examples are subject to change or removal without notice *until Beta Release 81*;</li>
+        <li>Upon release of Beta 81, changes to the High Fidelity Commerce APIs will be subject to the standard API deprecation process.</li>
+    </ol>
+</div>
 
 **On This Page:**
 
@@ -67,7 +75,10 @@ Here are the steps for this tutorial:
 + [Write an Entity Script for the Tip Jar](#write-an-entity-script-for-the-tip-jar)
 + [Add the Entity Script to the Tip Jar](#add-the-entity-script-to-the-tip-jar)
 
->>>>>To create this content, you'll need access to a High Fidelity domain that you own and where you have full permissions. Examples of such a domain include your private Sandbox or a DigitalOcean domain.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>To create this content, you'll need access to a High Fidelity domain that you own and where you have full permissions. Examples of such a domain include your private Sandbox or a DigitalOcean domain.</p>
+</div>
 
 ### Prerequisites
 Consider getting familiar with the following concepts before starting this tutorial:
@@ -112,7 +123,10 @@ Here are the steps for this tutorial:
 	+ [Run the AC Script in Your Domain](#run-the-ac-script-in-your-domain)
 	+ [Optional: Create a Box to Accept Payments](#optional-create-a-box-to-accept-payments)
 
->>>>>To create this content, you'll need access to a High Fidelity domain that you own and where you have full permissions. Examples of such a domain include your private Sandbox or a DigitalOcean domain.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>To create this content, you'll need access to a High Fidelity domain that you own and where you have full permissions. Examples of such a domain include your private Sandbox or a DigitalOcean domain.</p>
+</div>
 
 ### Prerequisites
 Consider getting familiar with the following concepts before starting this tutorial:
@@ -132,7 +146,10 @@ We need to write an entity script to put on the VIP Zone. This script will check
 
 [Click here](https://s3.amazonaws.com/hifi-docs-scripts/vipZoneEntityScript.js) to download a pre-made "VIP Zone" entity script. Follow along with the comments in the code to understand what it's doing!
 
->>>>> All users who load the VIP Zone entity will be individually running this script as if it were a client script.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>All users who load the VIP Zone entity will be individually running this script as if it were a client script.</p>
+</div> 
 
 ### Add the Entity Script to the VIP Zone
 To add the [entity script](https://s3.amazonaws.com/hifi-docs-scripts/vipZoneEntityScript.js) to the VIP zone:
@@ -188,7 +205,10 @@ Here are the steps for this tutorial:
 * [Write a Game Logic AC Script](#write-a-game-logic-ac-script)
 * [Run the AC Script on Your Domain](#run-the-ac-script-on-your-domain)
 
->>>>>To create this content, you'll need access to a High Fidelity domain that you own and where you have full permissions. Examples of such a domain include your private Sandbox or a DigitalOcean domain. You will also need a [Google](https://www.google.com) account for access to Google Sheets.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>To create this content, you'll need access to a High Fidelity domain that you own and where you have full permissions. Examples of such a domain include your private Sandbox or a DigitalOcean domain. You will also need a [Google](https://www.google.com) account for access to Google Sheets.</p>
+</div>
 
 ### Prerequisites
 Consider getting familiar with the following concepts before starting this tutorial:
@@ -242,7 +262,10 @@ In this step, you will put the "Authorization ID" and "Coupon ID" into some sort
 6. Click 'Publish', then 'Deploy as Web App...'
 7. Follow Google's instructions to deploy your script as a web app. Ensure you set 'Who has access to the app' to 'Anyone, even anonymous'. When finished, copy the URL you're given at the end of the process and save it somewhere you'll remember for later. The web app URL will look something like `https://script.google.com/macros/s/ABCDEFGHIJKLMNOP_QRSTUVWXYZ1984373/exec`
 
->>>>> Make sure you keep the web app URL and the Google Sheet URL **private**, or your authorization data will be visible to anyone with access to the sheet.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Make sure you keep the web app URL and the Google Sheet URL **private**, or your authorization data will be visible to anyone with access to the sheet.</p>
+</div>
 
 ### Allow Users to Start the Slot Machine
 You need to provide your users with a way to add slot machine play credits. You can do this by adding a [client entity script](client-entity-scripts) to the Slot Machine entity.
@@ -314,7 +337,10 @@ To run the AC script on your domain from ATP:
 
 You should now have a basic but fully working slot machine in your domain, that you and anyone else in your domain can play.
 
->>>>> In this example, a user could change the colors of the unlocked reels to match just before the game ends, and thus force a payout. This example does not cover anti-cheat or anti-tampering methods for securing your slot machine or funds!
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>In this example, a user could change the colors of the unlocked reels to match just before the game ends, and thus force a payout. This example does not cover anti-cheat or anti-tampering methods for securing your slot machine or funds!</p>
+</div>
 
 **See Also**
 

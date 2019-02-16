@@ -1,6 +1,9 @@
 # Tutorial: Create an Avatar with Fuse
 
->>>>>There are community reports where users are unable to easily open Adobe Fuse once installed. To work around this issue, open it multiple times successively until you are able to open the application.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>There are community reports where users are unable to easily open Adobe Fuse once installed. To work around this issue, open it multiple times successively until you are able to open the application.</p>
+</div>
 
 Using Adobe Fuse, you can create a custom avatar. The default heads, torsos, arms and legs in Adobe Fuse can help you start your customization.
 

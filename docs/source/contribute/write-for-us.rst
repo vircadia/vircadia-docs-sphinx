@@ -220,7 +220,14 @@ The rendered output looks like this:
 Notices
 ^^^^^^^^^^^^^^^^^^
 
-We have one notice that is used in our documentation.  Please note that the notice is not supported for Marketplace item descriptions.
+To create a notice in a Markdown file, you will need to use HTML syntax. Note that the notice is not supported for Marketplace item descriptions.
+
+
+.. code::html
+    <div class="admonition note">
+        <p class="admonition-title">Note</p>
+        <p>Note Text</p>
+    </div>
 
 .. note:: >>>>> Blue messages are notes that give more information to the user and need to stand out. They are preceded by five \> symbols.
 

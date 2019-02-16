@@ -35,7 +35,10 @@ You've made your wall! ![](_images/teal-wall-prop.PNG)
 
 Create and edit the light entity to get a soft gold spotlight. 
 
->>>>>The domain sun shines from one side, so one side of the wall is already bright. Light from the light entity won't show up on the bright side of the wall.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>The domain sun shines from one side, so one side of the wall is already bright. Light from the light entity won't show up on the bright side of the wall.</p>
+</div>
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Click the 'Light' icon to create the light entity.  

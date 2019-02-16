@@ -94,10 +94,10 @@ Your wearable must have a `parentJoint` described in your .JSON, as well as `use
     + Textures across multiple meshes should be atlassed where applicable.
 + The number of materials should be kept to a minimum. Most props and furnishings will only require one. Models colored using multiple materials of single colors will not be accepted
 
-
->>>> Content found to infringe on copyrights and content found to be malicious after being accepted will be invalidated. This will halt all access to the item and it will no longer be available for purchase or rezzing.
-
-
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Content found to infringe on copyrights and content found to be malicious after being accepted will be invalidated. This will halt all access to the item and it will no longer be available for purchase or rezzing.</p>
+</div>
 
 **See Also**
 

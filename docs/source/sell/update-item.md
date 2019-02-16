@@ -15,7 +15,10 @@ All updates to your item must be reviewed, verified and certified by our Marketp
 4. Click 'Save Draft'. 
 5. Scroll down to the 'Updates' section. Check the box 'Updates Existing Item' and select the old version from the drop-down.
 6. Scroll down to the 'Assets' section and upload your assets. 
-    >>>>>Once you've created a new item and checked 'Update Existing Item', the Marketplace URL for your item will change. At this point, you need to manually edit all files that point to the URL, such as scripts and JSON files.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Once you've created a new item and checked 'Update Existing Item', the Marketplace URL for your item will change. At this point, you need to manually edit all files that point to the URL, such as scripts and JSON files.</p>
+</div>
 7. Click 'Submit for Review' to be verified and certified on the Marketplace.
 
 Once your update is approved, a new certificate will be generated. The previous version of the item will be hidden from new customers on the Marketplace and replaced with the new version. 

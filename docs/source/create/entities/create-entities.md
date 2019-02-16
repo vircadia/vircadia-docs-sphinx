@@ -2,7 +2,10 @@
 
 We are continually surprised by the ingenuity and creativity of the content creators in our community. You too can join this community by creating new entities. The easiest way to start building is to use High Fidelity's **Create** app. 
 
->>>>>You can only use the **Create** app in domains where you have the permission to build. 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>You can only use the **Create** app in domains where you have the permission to build. </p>
+</div>
 
 To add a new entity to your domain: 
 1. In Interface, pull up your tablet or HUD and go to **Create**.

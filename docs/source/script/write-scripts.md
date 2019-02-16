@@ -4,7 +4,10 @@ High Fidelity's robust [JavaScript API](https://ingerjm0.github.io/hifi-api-docs
 
 In this section, you can find simple code samples to do common tasks in High Fidelity. To see these code samples in action, copy the code to a file, `testScripts.js`, saved somewhere on your computer. 
 
->>>>> Entity scripts, unlike interface scripts, are in containing functions. The example scripts here cannot be attached to an entity (and be used as an entity script) unless they are in a containing function `function(){}`.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Entity scripts, unlike interface scripts, are in containing functions. The example scripts here cannot be attached to an entity (and be used as an entity script) unless they are in a containing function `function(){}`.</p>
+</div> 
 
 **On This Page:**
 

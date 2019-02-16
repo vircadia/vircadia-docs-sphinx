@@ -2,7 +2,10 @@
 
 Applications (apps) in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from [our JavaScript API](https://ingerjm0.github.io/hifi-api-docs) and simplify it into a window with controls for others to use. 
 
->>>>> To create custom apps, you must have a basic knowledge of web development (HTML, CSS and JavaScript) and be able to navigate our API. 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>To create custom apps, you must have a basic knowledge of web development (HTML, CSS and JavaScript) and be able to navigate our API. </p>
+</div>
 
 The steps involved in creating a custom app are:
 

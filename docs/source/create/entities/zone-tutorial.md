@@ -30,8 +30,10 @@ To create a zone entity:
 3. If you are unable to view the zone's bounding box, go to **Edit > Show Zones in Create mode** and select the option. Your zone should now be visible.
 4. Go to the 'Properties' tab, and add a name 'Zone-1' for your zone. This is an optional step. We are adding a name to make it easier to find the zone in the 'Entity List' window. 
 
->>>>> You cannot select a zone entity, like how you would select other entities. To find or select your zone entity in your 'Entity List' window, search for the zone using its name. If you haven't named your zone, click on zones with no names to find yours.
-
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>You cannot select a zone entity, like how you would select other entities. To find or select your zone entity in your 'Entity List' window, search for the zone using its name. If you haven't named your zone, click on zones with no names to find yours.</p>
+</div>
 
 ## Create Nested Zones with Different Lighting
 
@@ -46,7 +48,10 @@ You can understand how an avatar experiences lighting in a zone using this mini 
 
 Follow the steps to [create a zone entity](#create-a-zone-entity) to create two zone entities named 'Zone-1' and 'Zone-2'.
 
->>>>> By default, zone entities are created at your current position, so to see the zone entities you just created, you may need to reposition your avatar.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>By default, zone entities are created at your current position, so to see the zone entities you just created, you may need to reposition your avatar.</p>
+</div>
 
 ### Nest One Zone Inside the Other
 

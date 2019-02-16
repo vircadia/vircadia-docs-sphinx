@@ -4,7 +4,10 @@ All domains have a _place name_, which is an easy way for visitors to enter a do
 
 By default, every domain is assigned a random place name (such as "blue-bandwidth-86201"). While you are welcome to continue using this place name, purchasing a custom place name makes it easier for visitors to come to your virtual world. 
 
->>>>>To enter a domain, you must have the proper permissions. Simply knowing the place name is not sufficient to visit domains.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>To enter a domain, you must have the proper permissions. Simply knowing the place name is not sufficient to visit domains.</p>
+</div>
 
 **On This Page:**
 + [Purchase a Place Name](#purchase-a-place-name)

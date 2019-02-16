@@ -14,7 +14,10 @@ In this tutorial, we will walk you through simple modifications you can make to 
     - Rotate the Lamp to light up your avatar.![](_images/lamp-settings.png)
 5. From the Outliner, open the 'Armature' tree and select the item you want to fine tune. You can also click on the item directly on your model.
 6. Using the toolbox below, you can change the materials and texture of each body part as desired. We've included an example below that [changes our avatar's eyelashes](#example-update-eyelashes-from-an-image). You can follow similar steps for other avatar items. ![](_images/texture-material.png)
->>>>>To remove a metallic feel to your avatar in High Fidelity, we recommend changing the default Specular Intensity for each of the main body parts from 0.500 to 0.000.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>To remove a metallic feel to your avatar in High Fidelity, we recommend changing the default Specular Intensity for each of the main body parts from 0.500 to 0.000.</p>
+</div>
 7. When you're done changing your materials and textures, go to **File > Export > FBX (.fbx)**.
 8. Change the 'Path Mode' to 'Copy', then click the 'Embed Textures' icon. This makes sure that all of the textures are embedded into your model. ![](_images/blender-export.png)
 9. Give your avatar a unique name. 
