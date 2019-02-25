@@ -1,6 +1,6 @@
 # Applications
 
-Applications (apps) in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from [our JavaScript API](https://ingerjm0.github.io/hifi-api-docs) and simplify it into a window with controls for others to use. 
+Applications (apps) in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from [our JavaScript API](https://apidocs.highfidelity.com) and simplify it into a window with controls for others to use. 
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
@@ -277,7 +277,7 @@ Congratulations, you have successfully created an app in High Fidelity! To use y
 **See Also**
 
 + [Write Your Own Scripts](../script/write-scripts)
-+ [API Reference: Entities](https://ingerjm0.github.io/hifi-api-docs/entities.html)
-+ [API Reference: Script](https://ingerjm0.github.io/hifi-api-docs/script.html)
-+ [API Reference: Quat](https://ingerjm0.github.io/hifi-api-docs/quat.html)
-+ [API Reference: Vec3](https://ingerjm0.github.io/hifi-api-docs/vec3.html)
++ [API Reference: Entities](https://apidocs.highfidelity.com/Entities.html)
++ [API Reference: Script](https://apidocs.highfidelity.com/Script.html)
++ [API Reference: Quat](https://apidocs.highfidelity.com/Quat.html)
++ [API Reference: Vec3](https://apidocs.highfidelity.com/Vec3.html)

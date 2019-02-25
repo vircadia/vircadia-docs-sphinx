@@ -35,4 +35,4 @@ You have the power to shape your VR experience in High Fidelity.
     HOST <host>
     SELL <sell>
     CONTRIBUTE <contribute>
-    API REFERENCE (external) <https://ingerjm0.github.io/hifi-api-docs/>
+    API REFERENCE <https://apidocs.highfidelity.com>

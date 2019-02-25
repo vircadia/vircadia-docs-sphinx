@@ -19,7 +19,7 @@ Once you've written and hosted your script, you need to add it to a domain, eith
 
 ## Example of an AC Script
 
-The following script counts the number of entities found in a domain using High Fidelity's [EntityViewer](https://ingerjm0.github.io/hifi-api-docs/entityviewer.html).
+The following script counts the number of entities found in a domain using High Fidelity's [EntityViewer](https://apidocs.highfidelity.com/EntityViewer.html).
 
 ```javascript
 var SEARCH_CENTER = {x: 0, y: -10, z: 0};

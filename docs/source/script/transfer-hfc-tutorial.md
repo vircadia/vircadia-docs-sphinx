@@ -346,5 +346,5 @@ You should now have a basic but fully working slot machine in your domain, that 
 
 - [Get Started with Scripting](get-started-with-scripting)
 - [Write Your Own Scripts](write-scripts)
-- [API Reference](https://ingerjm0.github.io/hifi-api-docs)
+- [API Reference](https://apidocs.highfidelity.com)
 - [Create a Coupon](../explore/socialize#create-a-coupon)

@@ -39,10 +39,10 @@ The following script changes the color of a non-model entity (such as a box or a
 
 ```
 
-This example is written as a JavaScript class prototype function, and it uses the mouse event [clickDownOnEntity()](https://ingerjm0.github.io/hifi-api-docs/entities.html#.sendClickDownOnEntity). When the user clicks on an entity, `clickDownOnEntity()` triggers the function associated with that click event. In this case, it changes the entity's color back and forth between yellow and magenta.
+This example is written as a JavaScript class prototype function, and it uses the mouse event [clickDownOnEntity()](https://apidocs.highfidelity.com/Entities.html#.sendClickDownOnEntity). When the user clicks on an entity, `clickDownOnEntity()` triggers the function associated with that click event. In this case, it changes the entity's color back and forth between yellow and magenta.
 
 **See Also**
 
 - [Get Started with Scripting](get-started-with-scripting)
 - [Write Your Own Scripts](write-scripts)
-- [API Reference](https://ingerjm0.github.io/hifi-api-docs)
+- [API Reference](https://apidocs.highfidelity.com)
