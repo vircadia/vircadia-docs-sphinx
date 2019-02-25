@@ -25,7 +25,11 @@ Once you've installed Gradle, set up the machine-specific properties:
 ```bash
 HIFI_ANDROID_PRECOMPILED=<your_home_directory>/Android/hifi_externals
 ```
->>>>>Do not use $HOME for the path. It must be a fully qualified path name.
+
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Do not use $HOME for the path. It must be a fully qualified path name.</p>
+</div>
 
 ### Android Studio
 

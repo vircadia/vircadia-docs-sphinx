@@ -90,11 +90,18 @@ After you [buy something from the Marketplace](shop#shopping-the-marketplace), y
 6. You can add an optional public message. Click 'Submit'. 
 7. A window pops up confirming that your item has been sent.  
 
->>>>>When you send an item to another user, it is removed from your **Inventory**.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>When you send an item to another user, it is removed from your **Inventory**.</p>
+</div>
 
 ### Create a Coupon
 You can create a coupon when you want to send money or an item to someone at a later time, even when you are not logged in to High Fidelity.  
->>>>> Currently, you can only use a coupon in a script. You will not be able to redeem a coupon anywhere in Interface.
+
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Currently, you can only use a coupon in a script. You will not be able to redeem a coupon anywhere in Interface.</p>
+</div>
 
 1. In Interface, pull up your tablet or HUD and go to **Inventory**.
 2. Choose whether you'd like to later send HFC or an item.

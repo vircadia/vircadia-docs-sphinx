@@ -14,7 +14,10 @@ To attach a server entity script to an entity:
 3. In the **Create** app, go to the 'Properties' tab and scroll down to the 'Behavior' section. 
 4. For 'Server Script', enter the URL to your server entity script. 
 
->>>>>An entity can have multiple server entity scripts attached to it, but all of these must be through a single file URL. 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>An entity can have multiple server entity scripts attached to it, but all of these must be through a single file URL. </p>
+</div>
 
 ## Example of a Server Entity Script
 The following script modifies the intensity of a light entity, so that it flickers tea lights.
@@ -49,10 +52,10 @@ This script is a good example of a server entity script because it only needs on
 
 The Entity Script Server does not have access to all of the listed components of the API. APIs for avatars, controllers, recording, overlays, and mouse and keyboard events are not available in the Entity Script Server.
 
-Learn more about what APIs are available to server entity scripts [here](https://ingerjm0.github.io/hifi-api-docs/entities.html).
+Learn more about what APIs are available to server entity scripts [here](https://apidocs.highfidelity.com/Entities.html).
 
 **See Also**
 
 - [Get Started with Scripting](get-started-with-scripting)
 - [Write Your Own Scripts](write-scripts)
-- [API Reference](https://ingerjm0.github.io/hifi-api-docs)
+- [API Reference](https://apidocs.highfidelity.com)

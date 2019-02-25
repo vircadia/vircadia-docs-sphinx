@@ -40,7 +40,10 @@ The standard humanoid skeleton of your avatar should follow [HumanIK Skeleton](h
 
 High Fidelity avatars should match the following standard skeletal structure. Each of these joints can be animated.
 
->>>>>Finger #1 is not the metacarpal; instead, it is the first joint between the [proximal and intermediate](https://en.wikipedia.org/wiki/Finger#/media/File:Scheme_human_hand_bones-en.svg). 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Finger #1 is not the metacarpal; instead, it is the first joint between the <a href="https://en.wikipedia.org/wiki/Finger#/media/File:Scheme_human_hand_bones-en.svg">proximal and intermediate</a>. </p>
+</div>
 
 - Hips
     - LeftUpLeg
@@ -117,14 +120,14 @@ For example, consider a full cape that surrounds the avatar:
 Alternatively, you can use the `flow` prefix, separating the name and joint number with an underscore. The same cape as above would look like:
 
 <div style="border-left: solid #ddd 3px; padding-left: 25px; margin: 25px;">
-    flow\_BackCape\_01  <br />
-    flow\_BackCape\_02  <br />
-    flow\_FrontCape\_01  <br />
-    flow\_FrontCape\_#  <br />
-    flow\_LeftCape\_01  <br />
-    flow\_LeftCape\_#  <br />
-    flow\_RightCape\_01  <br />
-    flow\_RightCape\_#  <br />
+    flow_BackCape_01  <br />
+    flow_BackCape_02  <br />
+    flow_FrontCape_01  <br />
+    flow_FrontCape_#  <br />
+    flow_LeftCape_01  <br />
+    flow_LeftCape_#  <br />
+    flow_RightCape_01  <br />
+    flow_RightCape_#  <br />
 </div>
 
 ## Look-at Vectors

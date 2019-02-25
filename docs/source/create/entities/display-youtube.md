@@ -24,7 +24,10 @@ To create a web entity:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Click the 'Web' icon to create a web entity. By default, a web entity always displays High Fidelity's home page.
 
->>>>> Currently, only 20 web entities can run at the same time in a domain to avoid performance issues. 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Currently, only 20 web entities can run at the same time in a domain to avoid performance issues. </p>
+</div>
 
 ## Display High Fidelity's YouTube Channel
 

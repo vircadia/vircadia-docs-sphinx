@@ -30,6 +30,8 @@ img {
 
 .wy-nav-content {
     background: #FFFFFF;
+    max-width: 100%;
+    padding: 2rem 6rem;
 }
 
 .rst-content blockquote {
@@ -97,6 +99,26 @@ h5 {
 }
 
 /***********************************/
+/*********** Link styles ***********/
+/***********************************/
+
+.wy-nav-content a:hover {
+    color: #2980B9;
+}
+
+.wy-nav-content a:visited {
+    color: #2980B9;
+}
+
+/***********************************/
+/******* Breadcrumbs styles ********/
+/***********************************/
+
+.wy-breadcrumbs {
+    font-size: 0.9rem;
+}
+
+/***********************************/
 /*********** Note styles ***********/
 /***********************************/
 
@@ -108,53 +130,66 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
     padding: 15px;
 }
 
+.rst-content .note {
+    max-width: 90%;
+    margin: 20px auto;
+}
 
+.note p {
+    padding: 5px;
+}
 /***********************************/
 /*********** Nav styles ************/
 /***********************************/
 
-.wy-side-scroll {
-    width: 350px;
-}
-
 .wy-side-nav-search {
     background-color: #00B4EF;
-    padding: 2rem;
+    padding: 1rem 2rem;
+}
+
+.wy-side-nav-search a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.wy-side-nav-search>a:hover, .wy-side-nav-search .wy-dropdown>a:hover {
+    background: none;
+}
+
+.wy-side-nav-search input[type=text] {
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
 }
 
 .wy-nav-side {
     background: #3A3F3E;
 }
 
-.wy-menu-vertical li.toctree-l2 a, .wy-menu-vertical li.toctree-l3 a, .wy-menu-vertical li.toctree-l4 a {
-    color: #BBBBBB;
+.wy-menu-vertical li.current a {
+    padding: .4045em 1em .4045em 1.618em;
+}
+
+.wy-menu-vertical li.toctree-l2 a {
+    padding: .4045em .5em .4045em 2.427em;
+}
+
+.wy-menu-vertical li.toctree-l3 {
+    font-size: 0.95rem;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
-    background: none;
+    padding: .4045em .5em .4045em 4.045em;
 }
 
-.wy-menu-vertical li.current a:hover {
-    background: transparent;
-    color: #D5D5D5;
+.wy-menu-vertical li.toctree-l4 {
+    font-size: 1rem;
 }
 
-.wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current>a span.toctree-expand {
-    display: none;
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a {
+    padding: .4045em 1em .4045em 5.663em;
 }
 
-.wy-menu-vertical li.toctree-l2.current>a {
-    background: none;
-    color: #D5D5D5;
-}
-
-.wy-menu-vertical li.current {
-    background: #3A3F3E;
-}
-
-.wy-nav-content {
-    max-width: 100%;
-}
 
 /***********************************/
 /*********** List styles ***********/
@@ -171,6 +206,7 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 /***********************************/
 /********** Table styles ***********/
 /***********************************/
+
 table {
 	border: solid #c7cccb 1px;
 	margin: auto;
@@ -191,6 +227,14 @@ li table {
 
 .wy-table-responsive table td, .wy-table-responsive table th {
     white-space: normal;
+}
+
+.wy-table thead, .rst-content table.docutils thead, .rst-content table.field-list thead {
+    vertical-align: middle;
+}
+
+.wy-table-odd td, .wy-table-striped tr:nth-child(2n-1) td, .rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+    background: #FFFFFF;
 }
 
 /***********************************/

@@ -20,7 +20,10 @@ You can grab objects in High Fidelity using your mouse or hand controllers. You 
 
 ![](_images/grab-button.png)
 
->>>>>Some entities cannot be grabbed. For example, a domain owner will not give you permission to grab and move a wall in their building. When creating your own entities, you can [set the Grabbable property](../create/entities/entity-behavior#entity-grabbing-behavior-and-triggers) to define whether or not it can be grabbed by others. 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Some entities cannot be grabbed. For example, a domain owner will not give you permission to grab and move a wall in their building. When creating your own entities, you can <a href="../create/entities/entity-behavior.html#make-an-entity-grabbable">set the Grabbable property</a> to define whether or not it can be grabbed by others.</p>
+</div>
 
 ## Collisions
 

@@ -2,7 +2,10 @@
 
 This guide will help you build High Fidelity if you’re using a system with Windows 64 bit. The prerequisites will require about 10 GB of space on your drive.
 
->>>>> We use Visual Studio 2017 and Qt 5.10.1. If you are upgrading from Visual Studio 2013 and Qt 5.6.2, do a clean uninstall of those versions before going through this guide.  
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>We use Visual Studio 2017 and Qt 5.10.1. If you are upgrading from Visual Studio 2013 and Qt 5.6.2, do a clean uninstall of those versions before going through this guide.  </p>
+</div>
 
 **On This Page:**
 
@@ -84,7 +87,10 @@ In Visual Studio, right-click "Interface" under the Apps folder in Solution Expl
 
 Now, you should have a full build of High Fidelity and be able to run the Interface using Visual Studio. Please check our documentation for more information on the programming workflow.
 
->>>>> You can also run Interface by launching it from command line or File Explorer from `%HIFI_DIR%\build\interface\Release\interface.exe`
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>You can also run Interface by launching it from command line or File Explorer from `%HIFI_DIR%\build\interface\Release\interface.exe`</p>
+</div>
 
 ## Troubleshooting
 If you face any problems once you start trying to generate build files using CMake, there are couple of things you could try to solve any issues.

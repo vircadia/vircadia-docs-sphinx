@@ -19,34 +19,34 @@ High Fidelity scripting runs on a JavaScript engine that is provided with Qt.
 
 You are likely to interface most with these High Fidelity APIs:  
 
-+---------------------------------------------------------------------------------+------------------------------------------------------------------+
-| API(s)                                                                          | Description                                                      |
-+=================================================================================+==================================================================+
-| `Entities <https://ingerjm0.github.io/hifi-api-docs/entities.html>`_            | Lets you manipulate the entities around you, as long             |
-|                                                                                 | as you have permissions to do so. This means you can             |
-|                                                                                 | add, remove, and edit entities. Everyone has access              |
-|                                                                                 | to ``get`` properties of an entity, and can be used              |
-|                                                                                 | to find Entities in range, direction, collision, or              |
-|                                                                                 | raytrace.                                                        |
-+---------------------------------------------------------------------------------+------------------------------------------------------------------+
-| `AvatarList <https://ingerjm0.github.io/hifi-api-docs/avatarlist.html>`_        | Lets you get information on an `Avatar                           |
-|                                                                                 | <https://ingerjm0.github.io/hifi-api-docs/avatar.html>`_,        |
-| `AvatarManager <https://ingerjm0.github.io/hifi-api-docs/avatarmanager.html>`_  | or manipulate your own client-only `MyAvatar                     |
-|                                                                                 | <https://ingerjm0.github.io/hifi-api-docs/myavatar.html>`_. The  |
-| `MyAvatar <https://ingerjm0.github.io/hifi-api-docs/myavatar.html>`_            | information here will be always the avatar information           |
-|                                                                                 | of the client running the script. AvatarList and                 |
-|                                                                                 | AvatarManager are basically the same.                            |
-+---------------------------------------------------------------------------------+------------------------------------------------------------------+
-| `Script <https://ingerjm0.github.io/hifi-api-docs/script.html>`_                | Lets you to connect callbacks from your client to script,        |
-|                                                                                 | such as functionality that is dependent on time                  |
-|                                                                                 | (Script.update, Script.setTime, Script.setInterval etc),         |
-|                                                                                 | connect paths relatively to Assets (Script.relativePath),        |
-|                                                                                 | refer to other scripts (Script.include), or create events        |
-|                                                                                 | which occur when the script is turned off (Script.scriptEnding). |
-+---------------------------------------------------------------------------------+------------------------------------------------------------------+
++-------------------------------------------------------------------------+------------------------------------------------------------------+
+| API(s)                                                                  | Description                                                      |
++=========================================================================+==================================================================+
+| `Entities <https://apidocs.highfidelity.com/Entities.html>`_            | Lets you manipulate the entities around you, as long             |
+|                                                                         | as you have permissions to do so. This means you can             |
+|                                                                         | add, remove, and edit entities. Everyone has access              |
+|                                                                         | to ``get`` properties of an entity, and can be used              |
+|                                                                         | to find Entities in range, direction, collision, or              |
+|                                                                         | raytrace.                                                        |
++-------------------------------------------------------------------------+------------------------------------------------------------------+
+| `AvatarList <https://apidocs.highfidelity.com/AvatarList.html>`_        | Lets you get information on an `Avatar                           |
+|                                                                         | <https://apidocs.highfidelity.com/Avatar.html>`_,                |
+| `AvatarManager <https://apidocs.highfidelity.com/AvatarManager.html>`_  | or manipulate your own client-only `MyAvatar                     |
+|                                                                         | <https://apidocs.highfidelity.com/MyAvatar.html>`_. The          |
+| `MyAvatar <https://apidocs.highfidelity.com/MyAvatar.html>`_            | information here will be always the avatar information           |
+|                                                                         | of the client running the script. AvatarList and                 |
+|                                                                         | AvatarManager are basically the same.                            |
++-------------------------------------------------------------------------+------------------------------------------------------------------+
+| `Script <https://apidocs.highfidelity.com/Script.html>`_                | Lets you to connect callbacks from your client to script,        |
+|                                                                         | such as functionality that is dependent on time                  |
+|                                                                         | (Script.update, Script.setTime, Script.setInterval etc),         |
+|                                                                         | connect paths relatively to Assets (Script.relativePath),        |
+|                                                                         | refer to other scripts (Script.include), or create events        |
+|                                                                         | which occur when the script is turned off (Script.scriptEnding). |
++-------------------------------------------------------------------------+------------------------------------------------------------------+
 
 
-There are `many other APIs available <https://ingerjm0.github.io/hifi-api-docs>`_, and we encourage you to make sure use of them as you become more comfortable scripting in High Fidelity.
+There are `many other APIs available <https://apidocs.highfidelity.com>`_, and we encourage you to make sure use of them as you become more comfortable scripting in High Fidelity.
 
 ----------------------------
 Types of Scripts

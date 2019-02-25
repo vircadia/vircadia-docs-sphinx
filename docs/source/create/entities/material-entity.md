@@ -13,7 +13,10 @@ Before adding a material entity, make sure you have created a material using the
 
 To add a material to your object in High Fidelity, you need to specify the material data in a JSON file. At this time, we have no way to automatically generate a JSON file with another tool, and you will need to write your own JSON file.
 
->>>>>We are aware of the difficulties involved in converting your material data to a JSON file and are working on making the process easier for our users. In the meantime, we recommend embedding your material data in your models as .fbx files if you are facing difficulties generating a .JSON file. 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>We are aware of the difficulties involved in converting your material data to a JSON file and are working on making the process easier for our users. In the meantime, we recommend embedding your material data in your models as .fbx files if you are facing difficulties generating a .JSON file. </p>
+</div>
 
 This is what the .JSON file for a sample [castle wall material](https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json) looks like:
 
@@ -33,7 +36,7 @@ This is what the .JSON file for a sample [castle wall material](https://hifi-pub
 }
 ```
 
-This file contains all related material data, such as the color, roughness, and other texture and shading information. Note that you can edit this information programmatically with the `Material` [EntityType](https://ingerjm0.github.io/hifi-api-docs/entities.html#.EntityType) in our API, and define its properties using [EntityProperties-Material](https://ingerjm0.github.io/hifi-api-docs/entities.html#.EntityProperties-Material).
+This file contains all related material data, such as the color, roughness, and other texture and shading information. Note that you can edit this information programmatically with the `Material` [EntityType](https://apidocs.highfidelity.com/Entities.html#.EntityType) in our API, and define its properties using [EntityProperties-Material](https://apidocs.highfidelity.com/Entities.html#.EntityProperties-Material).
 
 ## Add a Material Entity
 

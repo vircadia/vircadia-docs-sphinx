@@ -12,7 +12,10 @@ You can stream content to your High Fidelity domain, which lets you host events 
 
 When you want to stream audio from your computer to your domain, you can use the Stereo Mix recording device in Windows. Any users visiting your domain will hear your computer's audio.  
 
->>>>> These instructions work best on a machine with Realtek audio chipsets. We recommend you set up another computer dedicated for streaming, with its own avatar, and use the Stereo Mix device from Windows as the audio input.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>These instructions work best on a machine with Realtek audio chipsets. We recommend you set up another computer dedicated for streaming, with its own avatar, and use the Stereo Mix device from Windows as the audio input.</p>
+</div>
 
 1. Go to the Sound settings on your computer. Click the 'Recording' tab. 
 2. Right-click and select 'Show Disabled Devices'. Certain new releases of Realtek drivers do not have Stereo Mix as a device. If Stereo Mix does not show up after turning on Show Disabled Devices, you can install an older version of the drivers. ![](_images/showdisableddevices.PNG)

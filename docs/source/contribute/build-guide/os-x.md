@@ -28,7 +28,10 @@ Assuming you've installed OpenSSL using the Homebrew instructions above, you'll 
 export OPENSSL_ROOT_DIR=/usr/local/Cellar/openssl/1.0.2l
 ```
 
->>>>> This uses the version from the Homebrew formula at the time of this writing, and the version in the path will likely change.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>This uses the version from the Homebrew formula at the time of this writing, and the version in the path will likely change.</p>
+</div>
 
 #### 4. Set Qt Directory
 
@@ -38,8 +41,10 @@ Assuming you've installed Qt using the Homebrew instructions above, you'll need 
 export QT_CMAKE_PREFIX_PATH=/usr/local/Cellar/qt/5.10.1/lib/cmake
 ```
 
->>>>> This uses the version from the Homebrew formula at the time of this writing, and the version in the path will likely change.
-
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>This uses the version from the Homebrew formula at the time of this writing, and the version in the path will likely change.</p>
+</div>
 
 #### 5. Generate Xcode Files
 If Xcode is your editor of choice, you can ask CMake to generate Xcode project files instead of Unix Makefiles.

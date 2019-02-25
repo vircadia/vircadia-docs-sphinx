@@ -32,7 +32,10 @@ To restore your content backup on your computer or any other computer:
 3. Choose your archive zip file from your computer. 
 4. Select 'Upload Content' to upload and restore your domain content. 
 
->>>>> Any existing domain content will be replaced when you upload a content archive. 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Any existing domain content will be replaced when you upload a content archive. </p>
+</div>
 
 
 ## Backup Your Domain
