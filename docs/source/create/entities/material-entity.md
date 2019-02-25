@@ -36,7 +36,7 @@ This is what the .JSON file for a sample [castle wall material](https://hifi-pub
 }
 ```
 
-This file contains all related material data, such as the color, roughness, and other texture and shading information. Note that you can edit this information programmatically with the `Material` [EntityType](https://ingerjm0.github.io/hifi-api-docs/entities.html#.EntityType) in our API, and define its properties using [EntityProperties-Material](https://ingerjm0.github.io/hifi-api-docs/entities.html#.EntityProperties-Material).
+This file contains all related material data, such as the color, roughness, and other texture and shading information. Note that you can edit this information programmatically with the `Material` [EntityType](https://apidocs.highfidelity.com/Entities.html#.EntityType) in our API, and define its properties using [EntityProperties-Material](https://apidocs.highfidelity.com/Entities.html#.EntityProperties-Material).
 
 ## Add a Material Entity
 

@@ -67,7 +67,7 @@ Any content marketed as a version of an item that is meant to allow users to exp
 + No minified code, it should be human readable and well documented. No obfuscated or unintelligible code is allowed.
 + Scripts that handle usernames should not be case sensitive. For example, the username 'HighFidelity' should be treated the same as 'highfidelity'.
 + You should destroy all entities created, unless explicitly stated in your description.
-    + Use `Script.scriptEnding.connect()` described in our documentation [here](https://ingerjm0.github.io/hifi-api-docs/script.html#.scriptEnding).
+    + Use `Script.scriptEnding.connect()` described in our documentation [here](https://apidocs.highfidelity.com/Script.html#.scriptEnding).
 
 ### Art Submissions
 + Art assets uploaded are limited to 4K resolution.

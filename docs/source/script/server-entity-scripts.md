@@ -52,10 +52,10 @@ This script is a good example of a server entity script because it only needs on
 
 The Entity Script Server does not have access to all of the listed components of the API. APIs for avatars, controllers, recording, overlays, and mouse and keyboard events are not available in the Entity Script Server.
 
-Learn more about what APIs are available to server entity scripts [here](https://ingerjm0.github.io/hifi-api-docs/entities.html).
+Learn more about what APIs are available to server entity scripts [here](https://apidocs.highfidelity.com/Entities.html).
 
 **See Also**
 
 - [Get Started with Scripting](get-started-with-scripting)
 - [Write Your Own Scripts](write-scripts)
-- [API Reference](https://ingerjm0.github.io/hifi-api-docs)
+- [API Reference](https://apidocs.highfidelity.com)
