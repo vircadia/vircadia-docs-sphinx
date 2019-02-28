@@ -66,7 +66,8 @@ language = None
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = None
+pygments_style = "emacs"
+highlight_language = "javascript"
 
 
 # -- Options for HTML output -------------------------------------------------

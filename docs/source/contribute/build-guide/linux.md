@@ -1,17 +1,16 @@
 # Linux Build Guide
 
-This guide will help you build High Fidelity if you’re using a Linux system. Please read the [general build guide](../) for information on dependencies required for all platforms. We've listed only Linux specific instructions here. 
+This guide will help you build High Fidelity if you’re using a Linux system. Please read the [general build guide](../) for information on dependencies required for all platforms. We've listed only Linux specific instructions here.
 
 **On This Page:**
 
 + [Install Qt5 Dependencies](#install-qt5-dependencies)
 + [Ubuntu 18.04  Build Guide](#ubuntu-1804-build-guide)
-  + [Prepare Environment](#prepare-environment)
-  + [Get Code and Checkout the Tag You Need](#get-code-and-checkout-the-tag-you-need)
-  + [Compile](#compile)
-  + [Run the Software](#run-the-software)
-+ [Ubuntu 16.04 Build Guide](#ubuntu-1604-build-guide)
-  + [Install in Linux Server](#install-in-linux-server)
+	+ [Prepare Environment](#prepare-environment)
+	+ [Get Code and Checkout the Tag You Need](#get-code-and-checkout-the-tag-you-need)
+	+ [Compile](#compile)
+	+ [Run the Software](#run-the-software)
+	+ [Troubleshoot Issues with Nvidia Driver Library Version](#troubleshoot-issues-with-nvidia-driver-library-version)
 
 
 ## Install Qt5 Dependencies
@@ -23,7 +22,6 @@ libasound2 libxmu-dev libxi-dev freeglut3-dev libasound2-dev libjack0 libjack-de
 ```
 
 ## Ubuntu 18.04 Build Guide
-
 
 Add the universe repository. *This is not enabled by default on the server edition*
 ```bash
@@ -39,14 +37,11 @@ sudo apt-get update
 	```
 2. Install build dependencies:
 	```bash
-	sudo apt-get install libasound2 libxmu-dev libxi-dev freeglut3-dev
-	libasound2-dev libjack0 libjack-dev libxrandr-dev libudev-dev
-	libssl-dev
+	sudo apt-get install libasound2 libxmu-dev libxi-dev freeglut3-dev libasound2-dev libjack0 libjack-dev libxrandr-dev libudev-dev libssl-dev zlib1g-dev
 	```
-3. To compile interface in a server you must install:
+3. To compile Interface on a server (for the domain server and assignment clients) you must install:
 	```bash
-	sudo apt -y install libpulse0 libnss3 libnspr4 libfontconfig1
-	libxcursor1 libxcomposite1 libxtst6 libxslt1.1
+	sudo apt -y install libpulse0 libnss3 libnspr4 libfontconfig1 libxcursor1 libxcomposite1 libxtst6 libxslt1.1
 	```
 4. Install build tools:
 	```bash
@@ -54,94 +49,107 @@ sudo apt-get update
 	```
 5. Install Python 3:
 	```bash
-	sudo apt-get install python3.6
+	sudo apt install python3.6
 	```
+    
 ### Get Code and Checkout the Tag You Need
 
 1. Clone this repository:
 	```bash
 	git clone https://github.com/highfidelity/hifi.git
 	```
-2. To compile a RELEASE version checkout the tag you need getting a list of all tags:
+2. You need to compile the latest release version of High Fidelity. If you just clone the repo, you might have an unstable build. To compile a release version, checkout the tag you need getting a list of all tags:
 	```bash
 	git fetch -a
-	git tag
+	git tag | sort -V
 	```
 3. Then checkout last tag with:
 	```bash
 	git checkout tags/v0.71.0
 	```
+    
 ### Compile
 
-1. Create the build directory:
+1. Create the build directory (the following commands assume you're in the parent directory):
 	```bash
 	mkdir -p hifi/build
 	cd hifi/build
 	```
 2. Prepare makefiles:
-     ```bash
-     cmake 		 
-     -DQT_CMAKE_PREFIX_PATH=/usr/local/Qt5.10.1/5.10.1/gcc_64/lib/cmake..
-     ```
-  ```
-3. Start compilation and get a cup of coffee:
+	```bash
+	cmake -DQT_CMAKE_PREFIX_PATH=/usr/local/Qt5.10.1/5.10.1/gcc_64/lib/cmake..
+	```
+
+3. Start compilation of the entire platform, which includes the Sandbox and Interface::
 	```bash
 	make domain-server assignment-client interface
-  ```
+	```
+4. To compile only Interface (without the Sandbox):
+	```
+	make interface
+	```
 In a server, it does not make sense to compile Interface.
 
 ### Run the Software
 
-1. Running the domain server:
+Run the following commands in a distinct terminal window.
+1. Run the domain server:
 	```bash
 	./domain-server/domain-server
 	```
-2. Running assignment client:
+2. Run the assignment client:
 	```bash
 	./assignment-client/assignment-client -n 6
 	```
-3. Running Interface:
+3. Run Interface:
 	```bash
 	./interface/interface
 	```
-4. Go to localhost in the running Interface.
+4. Go to localhost in Interface.
 
-## Ubuntu 16.04 Build Guide
-### Install in Linux Server
-Install the deb packages of High Fidelity domain server and assignment client:
-```
-sudo su -
-apt-get -y update
-apt-get install -y software-properties-common
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 15FF1AAE
-add-apt-repository "deb http://debian.highfidelity.com stable main"
-apt-get -y update
-apt-get install -y hifi-domain-server
-apt-get install -y hifi-assignment-client
-```
+### Troubleshoot Issues with Nvidia Driver Library Version
 
-When installing master/dev builds, the packages are slightly different and you just need to change the last 2 steps to:
-```
-apt-get install -y hifi-dev-domain-server
-apt-get install -y hifi-dev-assignment-client
-```
+Ubuntu 18.04 is facing issues with the NVidia driver library version. You can workaround this issue:
 
-Domain server and assignment clients should already be running. The processes are controlled via:
-```
-systemctl start hifi-domain-server
-systemctl stop hifi-domain-server
-```
+1. Uninstall incompatible nvtt libraries.
+	```
+    sudo apt-get remove libnvtt2 libnvtt-dev
+    ```
+2. Install `libssl1.0-dev`.
+	```
+    sudo apt-get -y install libssl1.0-dev
+    ```
+3. Clone castano nvidia-texture-tools.
+	```
+	git clone https://github.com/castano/nvidia-texture-tools
+	cd nvidia-texture-tools/
+	```
+4. In your github repository:
+   1. In file **VERSION** set `2.2.1`
+   2. In file **configure**:
+   		1. set `build="release"`
+   		2. set `-DNVTT_SHARED=1`
 
-Once the machine is setup and processes are running, you should ensure that your firewall exposes port 40100 on TCP and all UDP ports. This will get your domain up and running and you could connect to it (for now) by using High Fidelity Interface and typing in the IP for the place name. (Further customizations can be done via http://IPAddress:40100).
+   3. Configure, build and install:
 
-The server always depends on both hifi-domain-server and hifi-assignment-client running at the same time.
-As an additional step, you should ensure that your packages are automatically updated when a new version goes out. You could, for example, set the automatic update checks to happen every hour (though this could potentially result in the domain being unreachable for a whole hour by new clients when they are released - adjust the update checks accordingly).
-To do this you can modify /etc/crontab by adding the following lines
-```
-0 */1 * * * root apt-get update
-1 */1 * * * root apt-get install --only-upgrade -y hifi-domain-server
-2 */1 * * * root apt-get install --only-upgrade -y hifi-assignment-client
-```
+	  ```
+	  ./configure
+	  make
+	  sudo make install
+	  ```
+5. Link compiled files.
+	```bash
+	sudo ln -s /usr/local/lib/libnvcore.so /usr/lib/libnvcore.so
+	sudo ln -s /usr/local/lib/libnvimage.so /usr/lib/libnvimage.so
+	sudo ln -s /usr/local/lib/libnvmath.so /usr/lib/libnvmath.so
+	sudo ln -s /usr/local/lib/libnvtt.so /usr/lib/libnvtt.so
+	```
+
+6. Run Interface
+
+   ```
+   interface/interface
+   ```
 
 **See Also**
 

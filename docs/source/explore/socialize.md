@@ -13,6 +13,11 @@ High Fidelity is all about the people you meet and the experiences you have with
 	* [Send HFC to Others](#send-hfc-to-others)
 	* [Send Purchased Items to Others](#send-purchased-items-to-others)
 	* [Create a Coupon](#create-a-coupon)
+* [Chat with Users](#chat-with-users)
+    * [HiFi Local Chat](#hifi-local-chat)
+    * [COM Script Version 1](#com-script-version-1)
+<!--    * [Run External Chap Apps in Local Browser](#run-external-chat-apps-in-local-browser) -->
+    
 
 ## Make Connections and Friends
 
@@ -124,6 +129,50 @@ Say you want to pre-authorize 10 of your High Fidelity Coins to be paid out to a
 4. Hold your raffle! In this example, a user with username `steve` has won the raffle.
 5. Use the following `curl` command from the command line to dispense the money authorized in (1) to username `steve`:
    `curl -X PUT -d authorization_id=<authorization ID from 1> -d coupon_id=<coupon ID from 1> -d username=steve https://highfidelity.com/api/v1/commerce/redeem`
+
+## Chat with Users
+
+High Fidelity doesn't yet have a default text chat option that works well for both HMD and desktop users as most HMD users can't type easily. Our extensible open-source scripting and UI gives you the ability to create the features you want, including text chat. There are some great scripts for chat that have already been built by community members, and a few are described below.
+
+### HiFi Local Chat 
+
+This clean, reliable, and well-written chat script was created by alpha user ctrlaltdavid. 
+![](_images/hifi-local-chat-by-ctrlaltdavid.png)
+To run the script:
+
+1. In Interface, go to **Edit > Open and Run Script from URL**.
+2. Paste the URL [http://ctrlaltstudio.com/downloads/hifi/scripts/chat.js](http://ctrlaltstudio.com/downloads/hifi/scripts/chat.js).
+
+The script will start running and display a text chat window pop-up. You can use this window to chat with other users in the same domain who are running the same script. If text chat is important to you, you can add this to your default scripts so itâ€™s always there.
+![](_images/chat-screenshot.png)
+
+### COM Script Version 1
+
+AlphaVersionD has authored an equally powerful and friendly script that runs on a domain. All users that visit a domain with the script can chat with one another, without installing a separate app or script. With this script, you have the power to enable chat on any of your own domains.
+
+>>>>> You can run a script only in a domain where you have the right permissions. Ensure that you have the right permissions in a domain where you wish to use the COM Script.
+
+To install COM Script in your domain:
+
+1. In Interface, pull up your HUD or Tablet and go to **Create**. 
+2. Click the 'zone' icon to create a zone entity.
+3. In the 'Properties' tab of the zone entity, paste the URL [http://metaversecafes.com/HighFidelity/QueenCity/A_2016_Q_wab/AQUI/COM_v1.0.js](http://metaversecafes.com/HighFidelity/QueenCity/A_2016_Q_wab/AQUI/COM_v1.0.js).
+
+COM Script version 1 is now running in the zone in your domain!
+
+<!--
+### Run External Chat Apps in Local Browser
+
+You can also use external browser-based chat applications of your choice in High Fidelity, such as Whatsapp, Slack, or Google Talk. To do this: 
+
+1. Launch a local web browser in High Fidelity by pressing <kbd class="keyboard">Ctrl</kbd> + <kbd class="keyboard">B</kbd>.
+2. Run the external chat app of your choice and log in. 
+
+This option works great, both for Desktop users and HMD users. While it might not be ideal for random chat encounters, it can be quite handy when larger groups (like colleagues and classmates) need a way to keep in touch without breaking immersion.
+
+![](_images/browser-based-chat.png)
+-->
+
 
 **See Also**
 

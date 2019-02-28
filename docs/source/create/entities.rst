@@ -20,4 +20,5 @@ To build any content in High Fidelity, whether it is an object that you interact
     Tutorial: Create a Gold Spotlight <entities/create-spotlight>
     Tutorial: Display a YouTube Channel <entities/display-youtube>
     Tutorial: Modify a Zone Entity <entities/zone-tutorial>
+    Tutorial: Create a Portal <entities/portal-tutorial>
 

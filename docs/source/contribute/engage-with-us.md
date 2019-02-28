@@ -5,7 +5,7 @@ Connect with other us and other users to share stories and experiences on the [H
 You can also find us on:
 
 *  [Facebook](https://www.facebook.com/HighFidelityInc/)
-*  [Twitter](https://twitter.com/highfidelityinc)
+*  [Twitter](https://twitter.com/highfidelityvr)
 *  [YouTube](https://www.youtube.com/user/HighFidelityio)
 *  [LinkedIn](https://www.linkedin.com/company/high-fidelity-inc/)
 *  [GitHub](https://github.com/highfidelity/hifi)

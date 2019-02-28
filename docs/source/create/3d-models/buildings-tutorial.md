@@ -5,9 +5,9 @@ You can create large-scale worlds in High Fidelity. A big part of such worlds ar
 **On This Page:**
 
 + [Create or Find Buildings](#create-or-find-buildings)
-  + [Build a 3D Building in Maya or Blender](#build-a-3d-building-in-maya-or-blender)
-  + [Create a 2D Floor Plan](#create-a-2d-floor-plan)
-  + [Find Buildings](#find-buildings)
+    + [Build a 3D Building in Maya or Blender](#build-a-3d-building-in-maya-or-blender)
+    + [Create a 2D Floor Plan](#create-a-2d-floor-plan)
+    + [Find Buildings](#find-buildings)
 + [Add Your Building to Your Domain](#add-your-building-to-your-domain)
 + [Customize Your Space](#customize-your-space)
 

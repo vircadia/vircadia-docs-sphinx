@@ -52,6 +52,17 @@ For example, the 'Metaverse/Networking' section defines all of the network setti
 
 .. note:: If you modify your settings, you'll need to save and restart for the new settings to be reflected. You can do this by clicking 'Save' and then restarting your server by clicking 'Restart' once you're done with your modifications. This saves your settings and restarts your domain server.
 
+^^^^^^^^^^^^^^^^^^^^^^
+View Your Logs
+^^^^^^^^^^^^^^^^^^^^^^
+
+Your logs lists the different events relevant to your High Fidelity domain. These can help you troubleshoot any issues with your domain and understand how the different parts of your domain communicate with each other. To view these:
+
+1. Right-click the High Fidelity icon on your system tray or top menu bar. 
+2. Select 'View Logs'.
+
+A window pops up showing your domain server's logs. 
+
 ---------------------------------------
 Add a Description For Your Domain
 ---------------------------------------

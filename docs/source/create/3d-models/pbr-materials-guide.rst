@@ -69,6 +69,12 @@ All materials in High Fidelity have the following channels that determine how th
 | Material Type | This channel decides if an object is lit or unlit.                           | [lit, unlit] | ---         |
 +---------------+------------------------------------------------------------------------------+--------------+-------------+
 
+Notes:
+
+1. If you set transparency with a texture, the transparency (alpha) should be in the material’s albedo texture, as a PNG file with transparency and not as a separate transparency texture.
+2. High Fidelity’s renderer can draw two different kinds of transparency: "alpha" (255 graduates steps of transparency, no shading on surface, casts no shadows,) and "mask" (binary transparency, full shading of opaque surface, whole surface casts shadow.)
+3. To determine whether a texture is treated as a mask or as alpha, the engine looks for alpha values between 2% and 98%. An easy way to create a mask texture is to save your image as a PNG-8 since it only supports binary transparency, while PNG-24 supports a range of transparency levels.
+
 ------------------------------------------------------
 Sample Materials and Their Textures and Shading
 ------------------------------------------------------
@@ -92,6 +98,17 @@ We've included images where the fields corresponding to each supported PBR chann
 .. image:: _images/material-textures-b.jpg
 
 .. image:: _images/material-values-b.jpg
+
+--------------------------------
+Set Material Values in Maya
+--------------------------------
+
+Use the graphics below to set the right material values and textures in Maya. 
+
+.. image:: _images/material-values-m.jpg
+
+.. image:: _images/material-textures-m.jpg
+
 
 **See Also**
 
