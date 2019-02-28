@@ -8,8 +8,6 @@ Home
 #########################
 High Fidelity is an open-source software where you can create and share virtual reality (VR) experiences. You can create and host your own VR world, explore other worlds, meet and connect with other users, attend or host live VR events and much more.
 
-The platform provides built-in social features, including spatialized audio, avatar support, and interactive physics, along with the ability to import any 3D object into a virtual environment.
-
 The High Fidelity metaverse provides built-in social features, including avatar interactions, spatialized audio and interactive physics. Additionally, you have the ability to import any 3D object into your virtual environment. No matter where you go in High Fidelity, you will always be able to interact with your environment, engage with your friends, and listen to conversations just like you would in real life. 
 
 What can I do?

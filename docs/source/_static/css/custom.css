@@ -225,6 +225,15 @@ li table {
     padding-bottom: 200px;
 }
 
+.center-cell td {
+    border: none;
+    text-align: center;
+}
+
+.center-cell td img {
+    margin-top: 0px;
+}
+
 .wy-table-responsive table td, .wy-table-responsive table th {
     white-space: normal;
 }

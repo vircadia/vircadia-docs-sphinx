@@ -1,5 +1,5 @@
 ######################
-Creator Tools
+Create Tools
 ######################
 
 To build and create things in High Fidelity, you need to become familiar with the tools available to you. We've created our own custom tools (including the Create app and Shapes app). In addition, you can use many external tools to fine-tune your creations. These tools can help you create anything from a cool avatar or a baseball hat, to a magic themed domain.
