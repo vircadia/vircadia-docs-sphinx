@@ -1,6 +1,6 @@
 # Applications
 
-Applications (apps) in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from [our JavaScript API](https://apidocs.highfidelity.com) and simplify it into a window with controls for others to use. 
+Applications (apps) in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from our [JavaScript API](https://apidocs.highfidelity.com) and simplify it into a window with controls for others to use. 
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
@@ -23,7 +23,7 @@ The steps involved in creating a custom app are:
 In this tutorial, we will walk through the above steps to create an app called "Gemstone Magic Maker". This simple app lets you spawn colorful little gemstones in VR that you can share with your friends.  
 
 ##### 1. Create icons to show up on the tablet and HUD
-You need two icons to show up on the tablet and HUD: an SVG or PNG image to display on the app button when the app is active, usually named &lt;appName>-a.svg and another to display when the app is inactive, usually named &lt;appName>-i.svg
+You need two icons to show up on the tablet and HUD: an SVG or PNG image to display on the app button when the app is active, usually named `<appName>-a.svg` and another to display when the app is inactive, usually named `<appName>-i.svg`.
 ![](_images/app-icons.png)
 
 We recommend the following specs for your icons:
