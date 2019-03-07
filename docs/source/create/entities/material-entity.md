@@ -8,10 +8,12 @@ Before adding a material entity, make sure you have created a material using the
 
 + [Generate a Material Entity](#generate-a-material-entity)
 + [Add a Material Entity](#add-a-material-entity)
+    + [Use the Material Entity JSON File](#use-the-material-entity-json-file)
+    + [Use the materialData Field](#use-the-materialdata-field)
 
 ## Generate a Material Entity
 
-To add a material to your object in High Fidelity, you need to specify the material data in a JSON file. At this time, we have no way to automatically generate a JSON file with another tool, and you will need to write your own JSON file.
+To add a material to your object in High Fidelity, you need to specify the material data in a JSON file or add the material directly into the **Create** app. 
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
@@ -40,6 +42,14 @@ This file contains all related material data, such as the color, roughness, and 
 
 ## Add a Material Entity
 
+### Use the Material Entity JSON File
+
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>At this time, we have no way to automatically generate a JSON file with another tool, and you will need to write your own JSON file.
+</p>
+</div>
+
 Once you have your material entity .JSON file, you can add it to an object in High Fidelity. Let's add the [castle wall material](https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json) to a box entity in your domain. 
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
@@ -50,7 +60,21 @@ Once you have your material entity .JSON file, you can add it to an object in Hi
 
 ![](_images/material-entity.GIF)
 
+### Use the materialData Field
+
+To add a material entity directly into the **Create** Tools app:
+1. In Interface, pull up your HUD or Tablet and go to **Create**.
+2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall. 
+3. Go to the **Create** tab and click on the 'Material' icon to add a material entity. 
+4. Enter `materialData` next to 'Material URL'.
+5. Click and select the wall. Go to the 'Properties' tab and copy the parent ID under the 'Name' box. 
+6. Click and select the material entity. Go to the 'Properties' tab and paste the copied parent ID in the 'Parent' box. 
+7. Scroll down to the 'Material Data' field. Write your material data in JSON in this field. 
+
+![](_images/material-data.PNG)
+
 **See Also**
 
 + [Create New Entities](create-entities)
 + [PBR Materials Guide](../3d-models/pbr-materials-guide)
++ [Introduction to JSON](https://www.w3schools.com/js/js_json_intro.asp)

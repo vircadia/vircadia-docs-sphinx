@@ -13,6 +13,7 @@ By default, every domain is assigned a random place name (such as "blue-bandwidt
 + [Purchase a Place Name](#purchase-a-place-name)
 + [Add a Custom Place Name to Your Domain](#connect-a-place-name-to-your-domain)
 + [Connect New and Existing Place Names](#connect-new-and-existing-place-names)
++ [Add Your Place to the GoTo Directory](#add-your-place-to-the-go-to-directory)
 
 ## Purchase a Place Name
 
@@ -53,6 +54,19 @@ When you purchase a new Place Name, if you connect it with your domain ID, users
 5. You and other users will now be able to access your domain using Interface by typing the Place Name into the *Address Bar*. You may also use the URL `hifi://MyPlaceName`.
 
 
+
+## Add Your Place to the GoTo Directory
+
+To see your Place listed in the GoTo directory in Interface, you will need to modify some settings and permissions. 
+
+1. If you're hosting your domain on a cloud service, open the settings [here](https://highfidelity.com/user/cloud_domains). 
+2. Go to **Settings > Security** and scroll down to the 'Domain-Wide User Permissions'. The 'Standard Permissions' table allows you to set the type of users and their permissions.
+3. Under 'Connect', select the user type you want to allow to enter your domain: anonymous, friends, localhost, and logged in. Your Place will be visible in the GoTo directory to the user types selected. For example, if you checked 'logged-in' under 'Connect', all users logged in to High Fidelity can view your Place in the GoTo Directory. But a user who hasn't logged-in will not see your Place in the directory.
+
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>You can only list a domain that has a place name in the GoTo directory.</p>
+</div>
 
 **See Also**
 

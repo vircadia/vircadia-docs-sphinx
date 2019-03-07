@@ -210,10 +210,13 @@ Use these troubleshooting tips if you notice any issues while packaging or testi
 |                                       | If the bones do not actually exist in the model, you need to modify the              |
 |                                       | model outside of Unity to add missing bones.                                         |
 +---------------------------------------+--------------------------------------------------------------------------------------+
-| Your avatar is gray.                  | One of two issues could have occurred:                                               |
+| Your avatar is gray.                  | One of following issues could have occured                                           |
 |                                       |                                                                                      |
 |                                       | 1. Make sure you copied your avatar's textures into the project’s textures folder    |
 |                                       | 2. Verify that your textures are in a format that we support (either PNG or JPG)     |
+|                                       | 3. If your textures are embedded in your avatar: select the FBX file, go to          |
+|                                       |    'Inspector', and click 'Extract Textures'. Extract your textures into your asset's|
+|                                       |    folder. You can do the same with Materials.                                       |
 +---------------------------------------+--------------------------------------------------------------------------------------+
 | Your avatar is too small or too       | In Interface, go to the **Avatar** app and click on the settings icon. Move          |
 | big.                                  | the Avatar Scale slider between 0.1x to 4x to make it smaller or bigger.             |

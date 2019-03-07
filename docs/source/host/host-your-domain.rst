@@ -49,6 +49,33 @@ You can configure your domain settings by clicking on the three dots on the righ
 .. image:: _images/cloud-do-9.PNG
 
 
+------------
+FAQ
+------------
+
++---------------------------------------+----------------------------------------------------------------------------------------------------------+
+| Question                              | Solution                                                                                                 |
++=======================================+==========================================================================================================+
+| Why isn’t my domain updating?         | Check if your DigitalOcean account contains the right payment information.                               |
+| Why is it stuck on 'updating'?        | If the issue still persists, please contact High Fidelity support.                                       |
++---------------------------------------+----------------------------------------------------------------------------------------------------------+
+| Is there a maximum file size for      | Yes. The maximum file size depends on the size of your Droplet. If your file is bigger than your         |
+| content archives for my domain?       |  Droplet, you can resize your Droplet. Go to your DigitalOcean account, find your Droplet, and           |
+|                                       | select resize from the menu on the left.                                                                 |
++---------------------------------------+----------------------------------------------------------------------------------------------------------+
+| How can I get into my domain settings | Go to [https://highfidelity.com/user/cloud_domains](https://highfidelity.com/user/cloud_domains).        |
+| if I forgot my username and password? |  For your domain, click on the three dots on the right corner and select 'Reset Domain Server password'  |
+|                                       | from the drop-down. Once your server restarts, click 'Domain Server settings' from the same drop-down.   |
+|                                       | You will be prompted to set a new username and password.                                                 |
++---------------------------------------+----------------------------------------------------------------------------------------------------------+
+| Can I host assets on my DigitalOcean  | Yes. You can use the Asset Browser to host your assets while hosting your domain on DigitalOcean.        |
+| domain like I can host assets on my   |                                                                                                          |
+| sandbox’s Asset Browser?              |                                                                                                          |
++---------------------------------------+----------------------------------------------------------------------------------------------------------+
+| How do you power cycle your Droplet?  | You can do this through your DigitalOcean account. Log in and select your Droplet. Click 'Power'         |
+|                                       | on the menu to the left and then select 'Power Cycle'.                                                   |
++---------------------------------------+----------------------------------------------------------------------------------------------------------+
+
 **See Also**
 
 + :doc:`Configure Your Domain Settings <your-domain/configure-settings>`
