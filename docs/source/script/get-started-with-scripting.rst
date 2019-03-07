@@ -142,6 +142,19 @@ To reload or stop a script, open the 'Running Scripts' window and do one of the 
 * To stop all running scripts, click the 'Stop All' button at the top of the 'Running Scripts' window.
 * To stop a specific script, click the 'X' next to the script.
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Add a Script to the Default Scripts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can add a script to the default scripts, to run every time you start Interface. 
+
+* In Interface, pull up your Tablet or HUD and go to **Menu > Edit > Running Scripts**.
+* Click 'Reveal Scripts Folder' at the bottom. 
+* In the file explorer window, open the 'defaultScripts.js' file. 
+* Add your script to this file to make it run with other default scripts. Ensure the folder path to your script is correct.
+
+.. note:: The 'defaultScripts.js' file is updated every time you update Interface to the latest release version. This means that any changes you make to the file will be overwritten. You can avoid this by writing and running a 'loader' script to load scripts on start up. 
+
 ------------------------------
 Scripting Console 
 ------------------------------

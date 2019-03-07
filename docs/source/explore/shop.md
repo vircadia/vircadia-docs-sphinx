@@ -11,7 +11,7 @@ If you want to buy items in High Fidelity, head on over to the Marketplace, wher
 Currently, you can buy High Fidelity Coins (HFC) using [Ethereum](https://www.ethereum.org/), a blockchain app that trades ETH (Ether). The Bank of High Fidelity manages HFC and we gradually increase the number of coins in circulation as the economy grows. 100 HFC is equal to 1 USD.
 
 To get HFC: 
-1. [Book an appointment](https://calendly.com/highfidelity) at the Bank of High Fidelity.
+1. [Book an appointment](https://meetings.hubspot.com/highfidelity/high-fidelity-bank-appointment) at the Bank of High Fidelity.
 2. At the time of your appointment, visit the [TradingRoom](https://hifi.place/TradingRoom) domain.
 3. We will provide you with a QR code that you can use to send ETH to the Bank of High Fidelity. 
 4. Once we receive the ETH amount you sent, we will send you the appropriate amount of HFC to your account based on the current exchange rate. This can take up to one business day. 
@@ -38,6 +38,15 @@ The Inventory app provides an interface to manage your transactions, purchases, 
 * View your recent purchases, sales, gifts and other transaction history
 * Change avatars, put on wearables and install/update apps
 * [Send HFC to your friends or anyone nearby](socialize#send-hfc-to-others)
+
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>If you last used High Fidelity before we released the Inventory app, you most likely had a Wallet key that gave you access to your HFC and Marketplace purchases. If you can't see those in the latest version of High Fidelity you are using, you can copy your old keys and paste them in the same folder location as the latest version. High Fidelity stores your keys in the following locations:
+    	<ul>
+    		<li>**Windows:** `C:/Users/user/AppData/Roaming/High Fidelity/Interface/user_name.hifikey`</li>
+    		<li>**OS X:** `/Users/user/Library/Application Support/High Fidelity/Interface/user_name.hifikey`</li> </p>
+</div>
+
 
 ![](_images/inventory-app.png)
 

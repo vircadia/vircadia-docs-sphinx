@@ -2,6 +2,8 @@
 
 High Fidelity's robust [JavaScript API](https://apidocs.highfidelity.com) provides the tools for you to build great content and user experiences in VR. We've compiled some advanced JavaScript tips you can use while scripting for High Fidelity. 
 
+You can use the [Scripting Console in Interface](../get-started-with-scripting#scripting-console) to try out the examples on this page. The output will be visible in the console itself. 
+
 **On This Page:**
 
 + [Compute 3D Math Operations](#compute-3d-math-operations)
@@ -10,6 +12,8 @@ High Fidelity's robust [JavaScript API](https://apidocs.highfidelity.com) provid
     + [Get the Direction Your Avatar is Facing](#get-the-direction-your-avatar-is-facing)
     + [Make an Entity Appear Before Your Avatar](#make-an-entity-appear-before-your-avatar)
 + [Include External JS and JSON Files](#include-external-js-and-json-files)
++ [Equip an Item](#equip-an-item)
++ [Connect a Signal to a Function](#connect-a-signal-to-a-function)
 
 ## Compute 3D Math Operations 
 
@@ -33,6 +37,8 @@ To get your avatar's current position, use the [MyAvatar](https://apidocs.highfi
 
 In the following example, we are using the JSON.stringify method to convert the JavaScript object (returned by `MyAvatar.position`) to a data string that can be sent over the server.
 
+Open your Scripting Console and find your avatar's position.
+
 ```javascript
 JSON.stringify(MyAvatar.position);
 // {"x":-10.349810600280762,"y":-9.55379867553711,"z":11.861204147338867}
@@ -50,7 +56,7 @@ Quaternions are represented in the form:
 { x: 0, y: 0, z: 0, w: 1 }
 ```
 
-Get your avatar's orientation by using the `MyAvatar.orientation` property:
+Get your avatar's orientation in the Scripting Console by using the `MyAvatar.orientation` property:
 
 ```javascript
 JSON.stringify(MyAvatar.orientation);
@@ -150,6 +156,23 @@ When you use the `require` method, you are making any function or object exporte
     <p class="admonition-title">Note</p>
     <p>We recommend using relative paths in our development so that you can easily move content without having to update absolute paths. However, in JSON files, you have to use absolute paths (e.g. in the event of a marketplace upload).</p>
 </div>
+
+## Equip an Item
+You can equip an item by grabbing and holding an entity without pressing the grab button or trigger continuously. For example, you could equip a paint brush to your avatar's hand and drop it only when you're done painting. 
+
+You can equip an item using a script:
+
+```javascript
+Messages.sendLocalMessage('Hifi-Hand-Grab', JSON.stringify({hand: 'XXX', entityID: 'YYY'})); \\ where XXX is either the left or right hand and YYY is entityID to equip
+```
+
+To drop the entity from your avatar's hand:
+```javascript
+Messages.sendLocalMessage('Hifi-Hand-Drop', 'XXX'); \\ where XXX is either the left or right hand
+```
+
+
+
 
 **See Also**
 
