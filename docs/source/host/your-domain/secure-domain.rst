@@ -129,7 +129,7 @@ Entity filters are specialized JavaScript functions that prevent unwanted modifi
 Entity filters apply to all users who do not have lock/unlock permissions. You can use filters to request the original properties of an entity to compare them to new values. You can then approve the new values. 
 
 1. Write a script for an entity filter. Host the script on a cloud service.
-1. If you're hosting your domain on a cloud service, open the `cloud settings <https://highfidelity.com/user/cloud_domains>`_. If you're using your local sandbox, open your `local sandbox settings <http://localhost:40100/settings/>`_. 
+2. If you're hosting your domain on a cloud service, open the `cloud settings <https://highfidelity.com/user/cloud_domains>`_. If you're using your local sandbox, open your `local sandbox settings <http://localhost:40100/settings/>`_. 
 3. Go to **Content > Entities** and add the URL for your script. 
 
 .. image:: _images/filter-entities.png

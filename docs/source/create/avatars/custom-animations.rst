@@ -74,7 +74,7 @@ All existing animations are defined by a set of animation roles. An animation ro
 1. Use `MyAvatar.getAnimationRoles <https://apidocs.highfidelity.com/MyAvatar.html#.getAnimationRoles>`_ to view the list of roles for the current avatar. 
 2. You can replace the animation for each role with a custom animation (FBX file) using `MyAvatar.overrideRoleAnimation <https://apidocs.highfidelity.com/MyAvatar.html#.overrideRoleAnimation>`_.
 
-We've listed the animation roles and their description. Animation roles are frequently updated. We recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles being used. The standard animation FBX files for these roles can be found in the High Fidelity source code repository on `github <https://github.com/highfidelity/hifi/tree/master/interface/resources/avatar/animations>`_.
+We've listed the animation roles and their description. Animation roles are frequently updated. We recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles being used. The standard animation FBX files for these roles can be found in the High Fidelity source code repository on `GitHub <https://github.com/highfidelity/hifi/tree/master/interface/resources/avatar/animations>`_.
 
 +-------------------------------------------+----------------------------------------------------------------------+
 | Animation Roles                           | Description                                                          |

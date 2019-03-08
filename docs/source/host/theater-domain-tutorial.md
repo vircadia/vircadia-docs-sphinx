@@ -1,4 +1,4 @@
-# Tutorial: Set Up A Theater Domain'
+# Tutorial: Set Up A Theater Domain
 
 This tutorial will walk you through creating and setting up a domain with a customizable theater that meets your needs. At the end of this tutorial, you’ll be able to:
 
@@ -52,7 +52,7 @@ Find your avatar’s coordinates by:
 
 1. Opening up the console (CTRL + ALT + J).
 2. Typing `JSON.stringify(MyAvatar.position)`.
-3. Or by hitting the "/" button and reaing the "position" in the middle column. 
+3. Or by hitting the "/" button and reading the "position" in the middle column. 
 ![](_images/audio-settings.png)
 
 Audio Zones are defined by a start and end coordinate value for each of the three axes in-world. An example of how you might choose to define your zones is illustrated in the diagram below. In the sample, the X and Z values are defined along their respective axes, and the Y start and end would be the value of the floor and ceiling. To add audio zones to the Microphone stands in Zaru, create a smaller region within the audience.
@@ -64,7 +64,7 @@ The way to use it is to create a cube and size and align it to where you want th
 Once you have the coordinates of your audio zones:
 
 1. Open the server settings page for your domain.
-2. Click Settings > Audio Environment.
+2. Click **Settings > Audio Environment**.
 3. Define the audio zones that you mapped out earlier. You can keep this simple, and map only the stage and audience, or assign zones for the lobby, wings, microphones, etc.
 4. Set Attenuation Zone combinations based on the locations you decided on, setting sources that you’d like to be loud to everyone to `0`.
 

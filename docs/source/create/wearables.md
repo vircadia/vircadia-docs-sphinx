@@ -20,7 +20,7 @@ After hosting your wearable in the cloud or the Marketplace, [put it on](../expl
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>If you're creating a wearable to [add to the Marketplace](../sell/add-item/upload-wearable), make sure it will fit the default wooden mannequin avatar (unless you are specifically making it to go with a very specific base avatar model). This will ensure that the wearable will work with most avatars in High Fidelity.</p>
+    <p>If you're creating a wearable to <a href="../sell/add-item/upload-wearable.html">add to the Marketplace</a>, make sure it will fit the default wooden mannequin avatar (unless you are specifically making it to go with a very specific base avatar model). This will ensure that the wearable will work with most avatars in High Fidelity.</p>
 </div>
 
 **See Also**

@@ -6,8 +6,8 @@ While you can [transfer money and items using the Inventory app](../explore/soci
     <p class="admonition-title">Note</p>
     <p>Experimental API Notice: The High Fidelity Commerce APIs introduced in this document are <strong>Experimental APIs</strong> and thus are subject to the following:</p>
     <ol>
-        <li>Commerce APIs on the High Fidelity Metaverse may be modified or removed at any time <em>until Beta Release 81<em>;</li>
-        <li>The Commerce APIs referenced in this document and related examples are subject to change or removal without notice <em>until Beta Release 81<em>;</li>
+        <li>Commerce APIs on the High Fidelity Metaverse may be modified or removed at any time <em>until Beta Release 81</em>;</li>
+        <li>The Commerce APIs referenced in this document and related examples are subject to change or removal without notice <em>until Beta Release 81</em>;</li>
         <li>Upon release of Beta 81, changes to the High Fidelity Commerce APIs will be subject to the standard API deprecation process.</li>
     </ol>
 </div>
@@ -115,13 +115,14 @@ Close the **Create** app and click on the Tip Jar cube entity. A window pops up,
 In this example, we walk through creating an exclusive VIP zone that is accessible only to paid VIPs. This tutorial uses a [client entity script](client-entity-scripts) to transfer money and an [assignment client script](assignment-client-scripts) to verify payments. 
 
 Here are the steps for this tutorial: 
-	+ [Place a VIP Zone in Your Domain](#place-a-vip-zone-in-your-domain)
-	+ [Write an Entity Script for the VIP Zone](#write-an-entity-script-for-the-vip-zone)
-	+ [Add the Entity Script to the VIP Zone](#add-the-entity-script-to-the-vip-zone)
-	+ [Obtain the Auth Token](#obtain-the-auth-token)
-	+ [Write an Authenticated AC Script](#write-an-authenticated-ac-script)
-	+ [Run the AC Script in Your Domain](#run-the-ac-script-in-your-domain)
-	+ [Optional: Create a Box to Accept Payments](#optional-create-a-box-to-accept-payments)
+
++ [Place a VIP Zone in Your Domain](#place-a-vip-zone-in-your-domain)
++ [Write an Entity Script for the VIP Zone](#write-an-entity-script-for-the-vip-zone)
++ [Add the Entity Script to the VIP Zone](#add-the-entity-script-to-the-vip-zone)
++ [Obtain the Auth Token](#obtain-the-auth-token)
++ [Write an Authenticated AC Script](#write-an-authenticated-ac-script)
++ [Run the AC Script in Your Domain](#run-the-ac-script-in-your-domain)
++ [Optional: Create a Box to Accept Payments](#optional-create-a-box-to-accept-payments)
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
@@ -207,7 +208,7 @@ Here are the steps for this tutorial:
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>To create this content, you'll need access to a High Fidelity domain that you own and where you have full permissions. Examples of such a domain include your private Sandbox or a DigitalOcean domain. You will also need a <a href="https://www.google.com>Google</a> account for access to Google Sheets.</p>
+    <p>To create this content, you'll need access to a High Fidelity domain that you own and where you have full permissions. Examples of such a domain include your private Sandbox or a DigitalOcean domain. You will also need a <a href="https://www.google.com">Google</a> account for access to Google Sheets.</p>
 </div>
 
 ### Prerequisites
