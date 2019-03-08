@@ -79,14 +79,16 @@ If you're facing problems when you load Interface and Sandbox, you can try perfo
 
 1. Click on the Start menu and type "Add or Remove Programs" in your Windows search bar.  
 2. Uninstall any versions of High Fidelity that are visible (Including any Steam installs). ![](_images/add-remove-programs.png) 
-3. Once High Fidelity is uninstalled, browse to your %Program Files% directory. Delete all folders related to High Fidelity. If you installed through Steam, these folders will be located at `C:/Program Files(x86)/Steam/steamapps/common`. ![](_images/program-files.png)
-<div class="admonition note">
-    <p class="admonition-title">Note</p>
-    <p>The next 3 steps will permanently delete your Sandbox content. If you wish to keep this content, copy %AppData%/Local/High Fidelity/assignment-client to another location on your computer before proceeding. Repeat for %AppData%/Roaming/High Fidelity/assignment-client. </p>
-</div>
-4. Browse to your local %AppData% folder (usually `C:/Users/<your_username>/AppData/Local`). If you do not see the folder, make sure you can view hidden folders. In File Explorer, click View and make sure “Hidden Items” is checked. Delete all folders related to High Fidelity.
-5. Browse to your roaming %AppData% folder (usually `C:/Users/<your_username>/AppData/Roaming`). Delete all folders related to High Fidelity.
-6. Re-install High Fidelity using the steps above. To restore your Sandbox content, copy the `assignment-client` folders you backed up back to their respective locations.
+3. Once High Fidelity is uninstalled, browse to your %Program Files% directory. Delete all folders related to High Fidelity. If you installed through Steam, these folders will be located at `C:/Program Files(x86)/Steam/steamapps/common`. 
+    ![](_images/program-files.png)
+    <div class="admonition note">
+        <p class="admonition-title">Note</p>
+        <p>The next 3 steps will permanently delete your Sandbox content. If you wish to keep this content, copy %AppData%/Local/High Fidelity/assignment-client to another location on your computer before proceeding. Repeat for %AppData%/Roaming/High Fidelity/assignment-client. </p>
+    </div>
+4. Browse to your local %AppData% folder (usually `C:/Users/<your_username>/AppData/Local`). If you do not see the folder, make sure you can view hidden folders. In File Explorer, click View and make sure “Hidden Items” is checked. Delete all folders related to High Fidelity.  
+5. Browse to your roaming %AppData% folder (usually `C:/Users/<your_username>/AppData/Roaming`). Delete all folders related to High Fidelity.  
+6. Re-install High Fidelity using the steps above. To restore your Sandbox content, copy the `assignment-client` folders you backed up back to their respective locations.  
+
 
 ### Mac Clean Install
 
