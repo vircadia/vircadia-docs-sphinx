@@ -115,4 +115,4 @@ To add the paint brush script:
 - [Get Started with Scripting](../../script/get-started-with-scripting)
 - [Client Entity Scripts](../../script/client-entity-scripts)
 - [Write Your Own Scripts](../../script/write-scripts)
-- [Interact with Your Environment](../../explore/interact-objects)
+- [Interact with Your Environment](../../explore/interact)

@@ -40,13 +40,13 @@ We've listed the different ways you can do this:
 
 ### Override an Existing Animation
 
-This method uses [scripting](../../../script) and the [MyAvatar](../../../api-reference/namespaces/myavatar) namespace to override an existing animation. We've listed the methods you can use to replace the standard animations on your avatar. 
+This method uses [scripting](../../../script) and the [MyAvatar](https://apidocs.highfidelity.com/MyAvatar.html) namespace to override an existing animation. We've listed the methods you can use to replace the standard animations on your avatar. 
 
 | Method | Description |
 | -------- | ------------ |
-| [`MyAvatar.overrideAnimation`](../../../api-reference/namespaces/myavatar#.overrideAnimation)| This method can be used to play any animation on the current avatar. It will move smoothly from the current pose to the starting frame of the custom animation. For example, if your avatar is waving, this script will stop your avatar waving and play the custom animation provided. |
-| [`AnimationCache.prefetch`](../../../api-reference/namespaces/animationcache#.prefetch)| This method fetches a resource. You can use this to fetch a custom animation you've hosted on a cloud server. If you do not prefetch your animations before playing them, you might see a t-pose appear briefly as the animation is downloaded. |
-| [`MyAvatar.restoreAnimation`](../../../api-reference/namespaces/myavatar#.restoreAnimation)| This method stops the override function from playing any custom animation. Your avatar will go back to playing the standard animations. |
+| [`MyAvatar.overrideAnimation`](https://apidocs.highfidelity.com/MyAvatar.html#.overrideAnimation)| This method can be used to play any animation on the current avatar. It will move smoothly from the current pose to the starting frame of the custom animation. For example, if your avatar is waving, this script will stop your avatar waving and play the custom animation provided. |
+| [`AnimationCache.prefetch`](https://apidocs.highfidelity.com/AnimationCache.html#.prefetch)| This method fetches a resource. You can use this to fetch a custom animation you've hosted on a cloud server. If you do not prefetch your animations before playing them, you might see a t-pose appear briefly as the animation is downloaded. |
+| [`MyAvatar.restoreAnimation`](https://apidocs.highfidelity.com/MyAvatar.html#.restoreAnimation)| This method stops the override function from playing any custom animation. Your avatar will go back to playing the standard animations. |
 
 >>>>> This process to replace an existing animation will take complete control of all avatar joints. Inverse Kinematics of the hands and head of HMD users will be disabled. 
 
@@ -54,8 +54,8 @@ This method uses [scripting](../../../script) and the [MyAvatar](../../../api-re
 
 All existing animations are defined by a set of animation roles. An animation role is like a trigger based on the type of input device you are using. Each animation role maps to an action the avatar can perform. This exists by default in the avatar animations JSON file. For example, if you are using hand controllers and you fully squeeze your right hand over it, your avatar will perform a gesture where its right hand is grasped close. 
 
-1. Use [`MyAvatar.getAnimationRoles`](../../../api-reference/namespaces/myavatar#.getAnimationRoles) to view the list of roles for the current avatar. 
-2. You can replace the animation for each role with a custom animation (FBX file) using [`MyAvatar.overrideRoleAnimation`](../../../api-reference/namespaces/myavatar#.overrideRoleAnimation).
+1. Use [`MyAvatar.getAnimationRoles`](https://apidocs.highfidelity.com/MyAvatar.html#.getAnimationRoles) to view the list of roles for the current avatar. 
+2. You can replace the animation for each role with a custom animation (FBX file) using [`MyAvatar.overrideRoleAnimation`](https://apidocs.highfidelity.com/MyAvatar.html#.overrideRoleAnimation).
 
 We've listed the animation roles and their description. Animation roles are frequently updated. We recommend using `MyAvatar.getAnimationRoles` to get the latest animation roles being used. The standard animation FBX files for these roles can be found in the High Fidelity source code repository on [github](https://github.com/highfidelity/hifi/tree/master/interface/resources/avatar/animations).
 
@@ -170,5 +170,5 @@ The AnimNode system works on a similar concept.  Except the value of each node c
 **See Also**
 
 + [Avatar Standards Guide](../create-avatars/avatar-standards)
-+ [API Reference: MyAvatar](../../../api-reference/namespaces/myavatar)
++ [API Reference: MyAvatar](https://apidocs.highfidelity.com/MyAvatar.html)
 + [Script](../../../script)

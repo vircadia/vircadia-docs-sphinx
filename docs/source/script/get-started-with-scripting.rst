@@ -142,9 +142,9 @@ To reload or stop a script, open the 'Running Scripts' window and do one of the 
 * To stop all running scripts, click the 'Stop All' button at the top of the 'Running Scripts' window.
 * To stop a specific script, click the 'X' next to the script.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Add a Script to the Default Scripts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can add a script to the default scripts, to run every time you start Interface. 
 
