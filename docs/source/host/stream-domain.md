@@ -40,7 +40,10 @@ Screenleap is an external service for Windows that allows you to share your whol
 
 We use Screenleap because it works with the current web entity system for High Fidelity. With Screenleap, everyone sees the exact same video image in sync, no matter how late they come into the domain. Latency is typically less than milliseconds.
 
-> > >> > Screenleap does not stream audio. Follow the instructions above to stream both audio and video to your High Fidelity domain.
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>Screenleap does not stream audio. Follow the instructions above to stream both audio and video to your High Fidelity domain.</p>
+</div>
 
 1. Make an account on [screenleap.com](http://screenleap.com) and login.
 2. Click on Broadcast Screen and follow the instructions to download and install the Screenleap app. 
@@ -72,7 +75,7 @@ Before you start recording and streaming, determine if this is a one-time event,
 
 1. Under Sources, select **Game Capture**. This is not necessary, but we recommend this setting for streaming and recording. ![](_images/game-capture.PNG)
 2. Ensure that your display is showing your Spectator Camera's view. 
-3. If you're using an HMD, uncheck disable preview in High Fidelity. In Interface, pull up your HUD or Tablet, and go to **Menu > Display > Disable Preivew**. This is important, as OBS captures what is being displayed in a window and will not capture anything apart from the preview disabled window if you don't uncheck it. 
+3. If you're using an HMD, uncheck disable preview in High Fidelity. In Interface, pull up your HUD or Tablet, and go to **Menu > Display > Disable Preview**. This is important, as OBS captures what is being displayed in a window and will not capture anything apart from the preview disabled window if you don't uncheck it. 
 4.  Set your application's audio gain as -3dB so that its volume is lower than your audio. This allows you to be heard over any of the application's audio. ![](_images/audio-gain.PNG)
 5.  To see your avatar moving properly, without any jarring experiences, you have to set your fps (frames per second) to 60. You can do this in OBS by going to **File > Settings > Video**. In the window that opens, change the Common FPS Values to 60. 
 6.  If you have to switch between Desktop and HMD during the show, check and change your audio inputs to allow your streaming to continue without any disruptions. 

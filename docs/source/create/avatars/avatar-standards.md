@@ -213,6 +213,7 @@ We recommend that you try to keep total size of all the textures per avatar belo
 When you wear different avatars, you'll notice that each avatar has a different collision shape or _collision hull_. The collision hull is the invisible area around your avatar that is used to used to detect when other avatars or entities collide with you. 
 
 Depending on the avatar's design, the collision hulls can be very large or small. This occurs because High Fidelity analyzes the shape of the avatar's torso (from hips to head) and tries to find the best shape that encloses the mesh. For example, if your avatar has large hips or perhaps a fully extended tail, High Fidelity thinks that the tip of the tail is part of your hips, and makes a very large collision hull.  To reduce the size of the collision hull, you can add skeleton joints to your avatar's tail. 
+
 **See Also**
 
 + [Create Your Own Avatar](create-avatars)
