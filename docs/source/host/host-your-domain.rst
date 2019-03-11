@@ -63,7 +63,7 @@ FAQ
 | content archives for my domain?       | Droplet, you can resize your Droplet. Go to your DigitalOcean account, find your Droplet, and            |
 |                                       | select resize from the menu on the left.                                                                 |
 +---------------------------------------+----------------------------------------------------------------------------------------------------------+
-| How can I get into my domain settings | Go to [https://highfidelity.com/user/cloud_domains](https://highfidelity.com/user/cloud_domains).        |
+| How can I get into my domain settings | Go to `https://highfidelity.com/user/cloud_domains <https://highfidelity.com/user/cloud_domains>`_.      |
 | if I forgot my username and password? | For your domain, click on the three dots on the right corner and select 'Reset Domain Server password'   |
 |                                       | from the drop-down. Once your server restarts, click 'Domain Server settings' from the same drop-down.   |
 |                                       | You will be prompted to set a new username and password.                                                 |
