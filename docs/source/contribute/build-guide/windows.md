@@ -78,7 +78,7 @@ where `%HIFI_DIR%` is the directory for the High Fidelity repository.
 
 #### 7. Test Interface
 
-Create an environment variable named `_NO_DEBUG_HEAP`. Go to **Control Panel > System > Advanced System Settings > Environment Variables > New...** (or search “Environment Variables” in Start Search). 
+Create an environment variable named `_NO_DEBUG_HEAP`. Go to **Control Panel > System > Advanced System Settings > Environment Variables > New...** (or search "Environment Variables" in Start Search). 
 
 * Set Variable name: `_NO_DEBUG_HEAP`
 * Set Variable value: `1`
@@ -89,7 +89,7 @@ Now, you should have a full build of High Fidelity and be able to run the Interf
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>You can also run Interface by launching it from command line or File Explorer from `%HIFI_DIR%\build\interface\Release\interface.exe`</p>
+    <p>You can also run Interface by launching it from command line or File Explorer from <code>%HIFI_DIR%\build\interface\Release\interface.exe</code>.</p>
 </div>
 
 ## Troubleshooting

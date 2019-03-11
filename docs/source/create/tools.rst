@@ -61,12 +61,12 @@ Use the Shapes app
 4. The entity will be created at your hand. You can `grab it <../explore/interact.html#grab-objects>`_ by pressing the trigger on your controller.
 5. In the 'Tools' Menu, you can edit an entity's properties. Activate a tool by clicking its button. You'll see an icon representing the tool you selected on your dominant hand. You can deactivate a tool by hovering over the title bar and clicking 'Back'.
 
-    1. Color: You can choose a color for your entity by pointing your laser at 'Color' in the 'Tools' menu and dipping your finger or stylus in the color of your choice. You can even create color swatches for yourself. 
-    2. Stretch: You can change the dimensions of your entity by stretching it. Select 'Stretch' to see the handles on your entity that you can pull using your controllers. 
-    3. Clone: You can clone your entity using the 'Clone' tool. Select 'Clone', point your laser at your entity, and pull out its clone. 
-    4. Group: You can group two or more entities together for easier editing. Select 'Group' and then select all the entities you want to group. 
-    5. Physics: You can modify the :doc:`physics (behavior of your entity in space) <entities/entity-physics>` using the 'Physics' tool. Select 'Physics' to see the variety of options available to you. 
-    6. Delete: You can delete an entity by selecting 'Delete' and then selecting the entity you want to delete. 
+    * **Color**: You can choose a color for your entity by pointing your laser at 'Color' in the 'Tools' menu and dipping your finger or stylus in the color of your choice. You can even create color swatches for yourself. 
+    * **Stretch**: You can change the dimensions of your entity by stretching it. Select 'Stretch' to see the handles on your entity that you can pull using your controllers. 
+    * **Clone**: You can clone your entity using the 'Clone' tool. Select 'Clone', point your laser at your entity, and pull out its clone. 
+    * **Group**: You can group two or more entities together for easier editing. Select 'Group' and then select all the entities you want to group. 
+    * **Physics**: You can modify the :doc:`physics (behavior of your entity in space) <entities/entity-physics>` using the 'Physics' tool. Select 'Physics' to see the variety of options available to you. 
+    * **Delete**: You can delete an entity by selecting 'Delete' and then selecting the entity you want to delete. 
 
 -----------------------------
 Marketplace Item Tester
