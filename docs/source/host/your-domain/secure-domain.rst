@@ -173,7 +173,7 @@ You can add these scripts to a specific zone in your domain as well.
 2. Find your zone entity, and click 'Properties'.
 3. Add the script's URL in the 'Filter' field. 
 
-.. image:: _images/zone-filter.png
+.. image:: _images/zone-filter.PNG
 
 **See Also**
 
