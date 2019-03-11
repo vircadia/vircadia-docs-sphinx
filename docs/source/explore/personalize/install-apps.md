@@ -62,8 +62,8 @@ To use the Spectator Camera app:
 2. Turn on your Spectator Cam by moving the slider. You'll see the camera appear in-world. By default, the app's display shows you what you see in VR through your HMD. This is to show you what you're recording without having to take off your HMD. ![](_images/spec-cam-window.png)
 3. To record yourself, switch your display from your HMD's view to the camera view. This lets you record videos of yourself, such as your avatar dancing or trying on different wearables. 
 4. Enable switching views with your controllers in the **Spectator** app on your HUD or Tablet. 
-   1. Rift: If you're using Oculus Touch controllers, click the left thumbstick to switch views. 
-   2. Vive: If you're using HTC Vive controllers, press on the center of the thumb pad to switch views. 
+    * **Rift**: If you're using Oculus Touch controllers, click the left thumbstick to switch views. 
+    * **Vive**: If you're using HTC Vive controllers, press on the center of the thumb pad to switch views. 
 
 ### Finger Painting 
 

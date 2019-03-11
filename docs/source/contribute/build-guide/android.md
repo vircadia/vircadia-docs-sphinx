@@ -50,17 +50,17 @@ From the SDK Tools tab select the following:
 ## Prepare Environment
 
 1. Clone the hifi repository: 
-```bash
-git clone https://github.com/highfidelity/hifi.git
-```
+    ```bash
+    git clone https://github.com/highfidelity/hifi.git
+    ```
 2. Enter repository's `android` directory: 
-```bash
-cd hifi/android
-```
+    ```bash
+    cd hifi/android
+    ```
 3. Execute a Gradle pre-build setup. This step only needs to be done once.
-```bash
-gradle setupDependencies
-```
+    ```bash
+    gradle setupDependencies
+    ```
 
 ## Build and Run
 1. Open Android Studio.
