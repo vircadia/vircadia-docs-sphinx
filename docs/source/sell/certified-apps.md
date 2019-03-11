@@ -11,13 +11,13 @@ Before submitting an app, make sure it follows our certified app guidelines belo
 ## Guideline Details
 
 ##### 1. A certified app consists of at least five files: 
-* &lt;rootFile>.app.json 
-* &lt;script>.js  
-* &lt;ui>.html
-* an SVG or PNG image to display on the app button when the app is active, usually named &lt;appName>-a.svg
-* an SVG or PNG image to display on the app button when the app is inactive, usually named &lt;appName>-i.svg
+* A JSON file that points to the location of your app, named <code>*.app.json</code> 
+* A JavaScript file, <code>*.js</code> which contains the script(s) for your app 
+* An HTML page, <code>*.html</code> that defines the UI for your app
+* an SVG or PNG image to display on the app button when the app is active, usually named <code>appName-a.svg</code>
+* an SVG or PNG image to display on the app button when the app is inactive, usually named <code>appName-i.svg</code>
 
-The app.json file has two required properties: “scriptURL” (whose value must be the URL of the uploaded &lt;script>.js), and “homeURL” (whose value must be the URL to the uploaded &lt;ui>.html) using explicit paths created upon upload of the files to the Marketplace. 
+The app.json file has two required properties: "scriptURL" (whose value must be the URL of the uploaded JavaScript file), and "homeURL" (whose value must be the URL to the uploaded HTML file) using explicit paths created upon upload of the files to the Marketplace. 
 
 Here is an example of the app.json file. You will need to replace the zeros with the path to your Marketplace item:
 ```
@@ -41,7 +41,7 @@ The button of the app must:
 ##### 3. The app must display a full screen UI in VR and a window in Desktop.
 When the user opens the app with the button on the tablet or HUD, you must display a full screen UI in VR and a standard sized window display on the desktop. Use the AppUI module to automatically add your app's button to the tablet or HUD and wire up handlers. 
 
-Below is an example of how to do this in your &lt;script>.js file:
+Below is an example of how to do this in your JavaScript file:
 
 ``` 
 (function () { 

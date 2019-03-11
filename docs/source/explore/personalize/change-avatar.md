@@ -36,7 +36,7 @@ You can use an avatar that you created. Learn more about how you can create your
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>All avatars must be hosted in the cloud before they can be used with High Fidelity. Examples of cloud storage options include Amazon S3, Google Cloud Storage, Github, or Microsoft Azure. Alternatively, you can [add your avatar to the Marketplace](../../sell/add-item/upload-avatar) to sell to other users.</p>
+    <p>All avatars must be hosted in the cloud before they can be used with High Fidelity. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure. Alternatively, you can <a href="../../sell/add-item/upload-avatar">add your avatar to the Marketplace</a> to sell to other users.</p>
 </div>
 
 Once you have your avatar's .fst file, you can upload it. 

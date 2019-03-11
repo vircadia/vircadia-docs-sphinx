@@ -20,44 +20,12 @@ Edit an Existing File
 3. We will review your changes and approve them, or send them back for changes. 
 
 ----------------------------
-Create a New Page
-----------------------------
-
-**NEEDS TO BE REWRITTEN FOR SPHINX** 
-
-Since we're using Grav and its documentation theme, we need to ensure that every page follows the page type requirements specified by Grav. This is particularly important when you are creating a new page for our documentation. 
-
-Here are the specifications for new pages in our documentation system: 
-
-1. Each page has its own folder. The folder name starts with the a number that indicates its hierarchy in the parent folder. The folder name should be in small letters with no spaces and only hyphens between words. The image below shows you an example folder structure, along with the Table of Contents output that you would see.  
-
-.. image:: _images/folder-structure.png
-
-.. note:: Because each of the folders represent a page, there should always be only one markdown file in each folder. When you create and save your markdown file, make sure you name it ``docs.md``.  
-
-2. All markdown files start with a YAML statement before the content. These statements help the CMS ensure that your page has the right formatting and is discoverable in the docs. Your YAML statements should look like this:
-
-.. code::
-
-    ---
-    title: %Your Page Name/Title %
-        taxonomy: 
-        category: docs
-    ---
-
-3. Any images or gifs you want to include in your page should be saved in the same folder as your page's markdown file. 
-4. Use the YouTube plugin code to add an embedded version of the video. Your code should look like this: 
-
-.. code::
-
-    [plugin:youtube](https://www.youtube.com/your-url)
-
-
-----------------------------
 Markdown Guide
 ----------------------------
 
-All of High Fidelity's documentation is written in Markdown. High Fidelity also uses Markdown to format item descriptions when you submit something to the Marketplace. *Markdown* is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, including HTML. 
+All of High Fidelity's documentation is written in either Markdown or RST. High Fidelity also uses Markdown to format item descriptions when you submit something to the Marketplace. *Markdown* is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, including HTML. 
+
+For more information about using RST, refer to Sphinx' `RST Guide <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_. Below, you can find the commands that we support for Markdown in our documentation and the Marketplace.
 
 * `Headings`_
 * `Emphasis`_
@@ -223,13 +191,14 @@ Notices
 To create a notice in a Markdown file, you will need to use HTML syntax. Note that the notice is not supported for Marketplace item descriptions.
 
 
-.. code::html
+.. code::
+
     <div class="admonition note">
         <p class="admonition-title">Note</p>
         <p>Note Text</p>
     </div>
 
-.. note:: >>>>> Blue messages are notes that give more information to the user and need to stand out. They are preceded by five \> symbols.
+.. note:: Blue messages are notes that give more information to the user and need to stand out. Use HTML to create these notices.
 
 ^^^^^^^^^^^^^^^^^^
 Lists 
@@ -243,7 +212,7 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
 Tables
 ^^^^^^^^^^^^^^^^^^
 
-Tables are not supported in the Markdown syntax that we use for our docs. If you want to use tables in your documentation, please use `RST <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_.
+Tables are not supported in the Markdown syntax that we use for our docs. If you want to use tables in your documentation, please use `RST Syntax <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_.
 
 ^^^^^^^^^^^^^^^^^^
 Images
@@ -256,13 +225,11 @@ Images
       <tr>
         <th class="head">Markdown Syntax</th>
         <th class="head">HTML</th>
-        <th class="head">Output</th>
       </tr>
       </thead>
       <tr>
         <td>![alt text](image.png)</td>
         <td>&lt;img src="image.png" alt="alt text" /&gt;<br></td>
-        <td>.. image:: icon.png</td>
       </tr>
     </table>
 
