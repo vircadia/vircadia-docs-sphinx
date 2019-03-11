@@ -171,6 +171,29 @@ To drop the entity from your avatar's hand:
 Messages.sendLocalMessage('Hifi-Hand-Drop', 'XXX'); \\ where XXX is either the left or right hand
 ```
 
+## Connect a Signal to a Function
+
+Signals can be connected to functions. This means that every time a signal is triggered, a function is executed. For example, if your avatar changes when collisions are enabled or disabled, you can connect a function to react to this specific event such as:
+```
+function collisionChanged(enabled) {
+  if(enabled) {
+    console.log("avatar collision is enabled");
+  } else {
+    console.log("avatar collision id disabled")
+  }
+}
+
+MyAvatar.collisionsEnabledChanged.connect(collisionChanged);
+```
+
+Each signal usually gets passed in arguments, and you can refer to the documentation to see what a signal will provide you, such as the enabled property passed into collision changed.
+
+It's good practice to disconnect from signals, but you can only do that if you name your function.
+
+```
+MyAvatar.collsionEnabledChanged.disconnect(collsionChanged);
+```
+
 
 
 
