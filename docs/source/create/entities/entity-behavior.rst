@@ -92,7 +92,7 @@ You can clone your entity to create other entities with the same properties as y
 | Clone Lifetime      |                                                                                  |
 +---------------------+----------------------------------------------------------------------------------+
 | *Cloneable* >       | Select to set a limit to how many clones you can create. If you don't want to    |
-|                     | have a limit, set the value to `0`.                                              |
+|                     | have a limit, set the value to 0  .                                              |
 | Clone Limit         |                                                                                  |
 +---------------------+----------------------------------------------------------------------------------+
 | *Cloneable* >       | Select to make the clone entity a dynamic entity.                                |
@@ -117,12 +117,12 @@ To make entities cloneable in your domain (this can only be done with unlocked e
 
 Keep in mind that any user can now clone the entities that are cloneable. If you don't want any users to clone your entity or any entities in your domain, you can either:
 
-1. `Lock any entities <../../../host/your-domain/secure-domain.html#lock-an-entity-in-your-domain>`_ you don't want cloned. 
-2. `Deny lock unlock permissions <../../../host/your-domain/secure-domain.html#set-user-permissions>`_ to the users of your choice. 
+1. `Lock any entities <../../host/your-domain/secure-domain.html#lock-an-entity-in-your-domain>`_ you don't want cloned. 
+2. `Deny lock unlock permissions <../../host/your-domain/secure-domain.html#set-user-permissions>`_ to the users of your choice. 
 
 OR
 
-1. `Set entity filters <../../../host/your-domain/secure-domain.html#set-an-entity-filter>`_ to prevent users from editing entities in your domain.
+1. `Set entity filters <../../host/your-domain/secure-domain.html#set-an-entity-filter>`_ to prevent users from editing entities in your domain.
 
 -------------------------------------
 Set an Entity to Cast a Shadow

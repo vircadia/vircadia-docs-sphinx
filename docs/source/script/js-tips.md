@@ -2,7 +2,7 @@
 
 High Fidelity's robust [JavaScript API](https://apidocs.highfidelity.com) provides the tools for you to build great content and user experiences in VR. We've compiled some advanced JavaScript tips you can use while scripting for High Fidelity. 
 
-You can use the [Scripting Console in Interface](../get-started-with-scripting#scripting-console) to try out the examples on this page. The output will be visible in the console itself. 
+You can use the [Scripting Console in Interface](get-started-with-scripting.html#scripting-console) to try out the examples on this page. The output will be visible in the console itself. 
 
 **On This Page:**
 
@@ -186,7 +186,7 @@ function collisionChanged(enabled) {
 MyAvatar.collisionsEnabledChanged.connect(collisionChanged);
 ```
 
-Each signal usually gets passed in arguments, and you can refer to the documentation to see what a signal will provide you, such as the enabled property passed into collision changed.
+Each signal usually gets passed in arguments, and you can refer to the [API documentation](https://apidocs.highfidelity.com/MyAvatar.html) to see what a signal will provide you, such as the enabled property passed into collision changed.
 
 It's good practice to disconnect from signals, but you can only do that if you name your function.
 

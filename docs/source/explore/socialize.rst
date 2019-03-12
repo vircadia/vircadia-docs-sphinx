@@ -66,7 +66,7 @@ Use the People App as an Admin
 
 As an administrator in a domain, you will have privileges to maintain a domain. The People app will have an additional column that allows an admin to silence and ban users in the same domain.
 
-.. image:: _images/people-admin.png
+.. image:: _images/people-admin.PNG
 
 +---------+-----------------------------------------------------------------------------------------------+
 | Feature | Description                                                                                   |
@@ -92,7 +92,7 @@ You can enable a privacy bubble that protects your personal space in the metaver
 Attend Live Events
 -----------------------------------------
 
-One of the great things about virtual reality is that you can attend events. High Fidelity regularly hosts events such as workshops, lectures on VR, and town hall meetings to meet our team. Click here to `view all upcoming events <https://tockify.com/hifieventscalendar/agenda>`_, Events are a great place to meet others and share experiences with others around the world.
+One of the great things about virtual reality is that you can attend events. High Fidelity regularly hosts events such as workshops, lectures on VR, and town hall meetings to meet our team. Click here to `view all upcoming events <https://tockify.com/hifieventscalendar/agenda>`_. Events are a great place to meet others and share experiences with others around the world.
 
 To attend an event, simply go to the hosted domain at the time of the event.
 
@@ -101,7 +101,7 @@ To attend an event, simply go to the hosted domain at the time of the event.
 Express Yourself
 -----------------------------------------
 
-There are many ways you can express yourself in High Fidelity, such as animating the mouth of your avatar or using gestures in the **Emote** App. 
+There are many ways you can express yourself in High Fidelity, such as animating the mouth of your avatar or using gestures in the **Emote** app. 
 
 By default, all avatars will use a standard set of animations, such as your eyes blinking or your mouth opening and closing as you talk. When you are using a VR controller, your avatar will automatically mimic your hand gestures and movements. 
 
@@ -136,6 +136,7 @@ To send money to a connection or someone nearby:
 .. image:: _images/send-money.PNG
 
 3.  Send money to one of your connections or even someone nearby in the same domain.  
+
 	* If you want to send it to one of your connections, click 'Connections; and choose the recipient from the list.
 	* If you want to send it to someone nearby, click 'Someone Nearby' and choose your recipient by triggering or clicking on someone nearby to select them.
 
@@ -166,6 +167,7 @@ After you `buy something from the Marketplace <shop.html#shopping-the-marketplac
 .. image:: _images/gift-item.png
 
 5.  Send the item to one of your connections or even someone nearby in the same domain. 
+
 	* If you want to send it to one of your connections, click 'Connections' and choose the recipient from the list.
 	* If you want to send it to someone nearby, click 'Someone Nearby' and choose your recipient by triggering or clicking on someone nearby to select them. 
 
@@ -187,8 +189,10 @@ You can create a coupon when you want to send money or an item to someone at a l
 
 1. In Interface, pull up your tablet or HUD and go to **Inventory**.
 2. Choose whether you'd like to later send HFC or an item.
+
 	* If you want to send HFC, click 'Send Money'.
 	* If you want to send an item, click 'Items' and scroll to the item you'd like to give. Click on the item's menu and choose 'Gift'.
+
 3. Select 'Create Coupon'.
 4. Enter an optional public message explaining the purpose of the coupon. 
 5. The Tablet will now display a window with the 'Authorization ID' and 'Coupon ID'. Copy both these values on your computer. Click 'Close'.

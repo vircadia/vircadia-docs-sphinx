@@ -2,13 +2,13 @@
 Host Your Domain
 #######################
 
-Depending on your requirements, you can host your domain on your local machine or on cloud servers, such as Amazon EC2. We have a partnership with Digital Ocean so that we can provide you with hosting services if you want to open your domain to a lot of visitors. 
+Depending on your requirements, you can host your domain on your local machine or on cloud servers, such as Amazon EC2. We have a partnership with DigitalOcean so that we can provide you with hosting services if you want to open your domain to a lot of visitors. 
 
 .. contents:: On This Page
     :depth: 2
 
 ----------------------------------------
-Host Your Domain with Digital Ocean
+Host Your Domain with DigitalOcean
 ----------------------------------------
 
 1. Log in or sign up with your High Fidelity username and password on `https://highfidelity.com <https://highfidelity.com>`_.
@@ -63,7 +63,7 @@ FAQ
 | content archives for my domain?       | Droplet, you can resize your Droplet. Go to your DigitalOcean account, find your Droplet, and            |
 |                                       | select resize from the menu on the left.                                                                 |
 +---------------------------------------+----------------------------------------------------------------------------------------------------------+
-| How can I get into my domain settings | Go to [https://highfidelity.com/user/cloud_domains](https://highfidelity.com/user/cloud_domains).        |
+| How can I get into my domain settings | Go to `https://highfidelity.com/user/cloud_domains <https://highfidelity.com/user/cloud_domains>`_.      |
 | if I forgot my username and password? | For your domain, click on the three dots on the right corner and select 'Reset Domain Server password'   |
 |                                       | from the drop-down. Once your server restarts, click 'Domain Server settings' from the same drop-down.   |
 |                                       | You will be prompted to set a new username and password.                                                 |

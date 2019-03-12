@@ -5,7 +5,7 @@ If you are selling items on the Marketplace, you can have a space in your domain
 **On This Page:**
 
 - [Prerequisites](#prerequisites)
-- [Get an Item's MarketplaceID](#get-an-items-marketplace-id)
+- [Get an Item's Marketplace ID](#get-an-items-marketplace-id)
 - [Write a Purchase Item Script](#write-a-purchase-item-script)
 - [Create an Entity to Use as a Button](#create-an-entity-to-use-as-a-button)
   
@@ -22,7 +22,7 @@ Consider getting familiar with the following concepts before starting this tutor
 - [Write Your Own Scripts](../../script/write-scripts)
 - [Purchase Marketplace Items from Script](../../script/transfer-hfc-tutorial.html#purchase-marketplace-items)
   
-## Get an Item's MarketplaceID
+## Get an Item's Marketplace ID
 If you are putting up an item (in your domain) you have on sale in the Marketplace, you need to get the item's 'marketplaceID'. This unique identifier can be found when you view your Marketplace item in a browser window.
 
 <div class="admonition note">
@@ -44,7 +44,7 @@ The buy-item.js script we've used:
   
 ## Create an Entity to Use as a Button
 
-The entity you create for your button has to be [triggerable](entity-behavior#set-an-entity-to-trigger-scripts) so that the script can detect when you trigger or push the button with your hand controllers.
+The entity you create for your button has to be [triggerable](entity-behavior.html#set-an-entity-to-trigger-scripts) so that the script can detect when you trigger or push the button with your hand controllers.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. [Create an entity](create-entities) to be used as a button. This can be a 3D model, cube, or sphere entity.
