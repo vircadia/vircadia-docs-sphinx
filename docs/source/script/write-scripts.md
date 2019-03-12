@@ -16,18 +16,18 @@ In this section, you can find simple code samples to do common tasks in High Fid
 * [Edit an Entity](#edit-an-entity)
 
 ## Write to the Debug Window
-This is an example of an [interface script](interface-scripts) and cannot be attached to an entity. It shows you how to print something to the [debug window ](get-started-with-scripting#debug-window). In this example, we'll start with a simple "Hello, World" script. 
+This is an example of an [interface script](interface-scripts.html) and cannot be attached to an entity. It shows you how to print something to the [debug window ](get-started-with-scripting.html#debug-window). In this example, we'll start with a simple "Hello, World" script. 
 
 ```javascript
 print("Hello, World");
 ```
 
 1. Copy and paste this in a file `testScript.js` and save it on your computer. 
-2. When you [load and run this script](get-started-with-scripting#load-and-run-a-script), it will write the words "Hello, World" to the 'Debug Window' in High Fidelity.
+2. When you [load and run this script](get-started-with-scripting.html#load-and-run-a-script), it will write the words "Hello, World" to the 'Debug Window' in High Fidelity.
    ![](_images/hello-world.png)
 
 ## Create an Entity
-Instead of [using the Create app to add an entity](../create/entities/create-entities), you can create one using an [interface script](interface-scripts). 
+Instead of [using the Create app to add an entity](../create/entities/create-entities.html), you can create one using an [interface script](interface-scripts.html). 
 
 ```javascript
 // Get your position in the domain, so that the cube is spawned in front of you
@@ -43,11 +43,11 @@ print("Entity added");
 ```
 
 1. Copy and paste this in a file `testScript.js` and save it on your computer. 
-2. When you [load and run this script](get-started-with-scripting#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print a line to the 'Debug Window'. In this case, the entity will be a red box.  
+2. When you [load and run this script](get-started-with-scripting.html#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print a line to the 'Debug Window'. In this case, the entity will be a red box.  
 ![](_images/add-entity.png)
 
 ## Edit an Entity
-To manipulate an entity's properties, you can use `Entities.editEntity`in an [interface script](interface-scripts).
+To manipulate an entity's properties, you can use `Entities.editEntity`in an [interface script](interface-scripts.html).
 
 ```javascript
 var entityID = Entities.addEntity({
@@ -66,14 +66,14 @@ print("Entity color: " + JSON.stringify(properties.color));
 ```
 
 1. Copy and paste this in a file `testScript.js` and save it on your computer. 
-2. When you [load and run this script](get-started-with-scripting#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print the color of that entity to the 'Debug Window'. Then, the script changes the color of the entity to red, and prints the new color in the 'Debug Window'.
+2. When you [load and run this script](get-started-with-scripting.html#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print the color of that entity to the 'Debug Window'. Then, the script changes the color of the entity to red, and prints the new color in the 'Debug Window'.
 ![](_images/edit-entity.png)
 
 
 
 **See Also**
 
-+ [Get Started with Scripting](get-started-with-scripting)
-+ [Load and Run a Script](get-started-with-scripting#load-and-run-a-script)
-+ [Interface Scripts](interface-scripts)
++ [Get Started with Scripting](get-started-with-scripting.html)
++ [Load and Run a Script](get-started-with-scripting.html#load-and-run-a-script)
++ [Interface Scripts](interface-scripts.html)
 + [API Reference](https://apidocs.highfidelity.com)

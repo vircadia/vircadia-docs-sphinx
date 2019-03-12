@@ -278,7 +278,7 @@ Congratulations, you have successfully created an app in High Fidelity! To use y
 
 **See Also**
 
-+ [Write Your Own Scripts](../script/write-scripts)
++ [Write Your Own Scripts](../script/write-scripts.html)
 + [API Reference: Entities](https://apidocs.highfidelity.com/Entities.html)
 + [API Reference: Script](https://apidocs.highfidelity.com/Script.html)
 + [API Reference: Quat](https://apidocs.highfidelity.com/Quat.html)

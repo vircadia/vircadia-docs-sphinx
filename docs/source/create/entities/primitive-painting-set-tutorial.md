@@ -13,12 +13,12 @@ There are different ways to create games and experiences in High Fidelity. In th
 
 Consider getting familiar with the following concepts before starting this tutorial:
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
 
 ## Create a Painting Set
 
@@ -34,7 +34,7 @@ We'll start by creating the paint brush. The brush is comprised of two parts, th
 
 To create the brush handle:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. [Create an entity](create-entities) to be used as the handle. This can be a box or sphere entity.
+2. [Create an entity](create-entities.html) to be used as the handle. This can be a box or sphere entity.
 3. Go to the 'Properties' tab and select the 'Shape' drop down. Change the shape of the entity to a 'cylinder'.
 4. Name your entity 'Paint-Paintbrush-Tube' by selecting the text box at the top of the 'Properties' tab.
 5. Select your desired handle color from the 'Color' picker.
@@ -42,7 +42,7 @@ To create the brush handle:
 
 To create the brush head:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. Click on the ['SPHERE' icon](create-entities) to create a sphere entity to be used as the brush head.
+2. Click on the ['SPHERE' icon](create-entities.html) to create a sphere entity to be used as the brush head.
 3. Go to the 'Properties' tab and select your desired brush head color from the 'Color' picker.
 4. Name your entity 'Paint-Paintbrush-Head' by selecting the text box at the top of the 'Properties' tab.
 5. Scroll down to the 'Spatial' section. Change the local dimensions to {x: 0.05, y: 0.1, z: 0.05}.
@@ -62,7 +62,7 @@ The second part of our painting set is the palette. This is where you can get cr
 
 To create the palette base:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. [Create an entity](create-entities) to be used as the palette base. This can be a box or sphere entity.
+2. [Create an entity](create-entities.html) to be used as the palette base. This can be a box or sphere entity.
 3. Go to the 'Properties' tab and select the 'Shape' drop down. Change the shape to an 'octagon'.
 4. Name your entity 'Paint-Palette-Base' by selecting the text box at the top of the 'Properties' tab.
 5. Select your desired palette color from the 'Color' picker.
@@ -71,7 +71,7 @@ To create the palette base:
 
 To create the paint colors:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. [Create a sphere entity](create-entities) to be used as your first paint color. 
+2. [Create a sphere entity](create-entities.html) to be used as your first paint color. 
 3. Go to the 'Properties' tab and name your entity 'Paint-Color' by selecting the text box at the top of the tab.
 4. Select your desired paint color from the 'Color' picker.
 5. Scroll down to the 'Spatial' section. Change the local dimensions to {x: 0.1, y: 0.05, z: 0.1}
@@ -109,10 +109,10 @@ To add the paint brush script:
 
 **See Also**
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
-- [Interact with Your Environment](../../explore/interact)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
+- [Interact with Your Environment](../../explore/interact.html)

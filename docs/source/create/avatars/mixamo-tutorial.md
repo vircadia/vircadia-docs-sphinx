@@ -19,6 +19,6 @@ In this tutorial, we will use the avatar that we [created in Adobe Fuse](fuse-tu
 
 **See Also**
 
-+ [Tutorial: Create an Avatar with Fuse](fuse-tutorial)
-+ [Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)
-+ [Create Your Own Avatar](create-avatars)
++ [Tutorial: Create an Avatar with Fuse](fuse-tutorial.html)
++ [Tutorial: Modify Materials and Textures Using Blender](blender-tutorial.html)
++ [Create Your Own Avatar](create-avatars.html)

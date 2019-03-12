@@ -1,6 +1,6 @@
 # Add Your Wearable
 
-Once you've [created your wearable](../../create/wearables), you need to add the item and its assets in the Marketplace. At a minimum, your wearable will need the following assets:
+Once you've [created your wearable](../../create/wearables.html), you need to add the item and its assets in the Marketplace. At a minimum, your wearable will need the following assets:
 
 * FBX file
 * JSON file
@@ -36,7 +36,7 @@ If your wearable could be re-imported without any issues, it is now ready to be 
 3. Click 'Add custom' at the top of the window.
 4. Select the joint you'd like to use for your wearable. For example, a hat would be on your head, and fairy wings would be on your spine.
 5. Click 'Save'. 
-6. Using the [**Create** app](../../../create/tools#the-create-app), make any adjustments to your wearable. For example, you can give your wearable more depth, height or angle it differently.
+6. Using the [**Create** app](../../../create/tools.html#the-create-app), make any adjustments to your wearable. For example, you can give your wearable more depth, height or angle it differently.
     <div class="admonition note">
         <p class="admonition-title">Note</p>
         <p>If you're creating a wearable to add to the Marketplace, make sure it will fit the default wooden mannequin avatar (unless you are specifically making it to go with a very specific base avatar model). This will ensure that the wearable will work with most avatars in High Fidelity.  </p>
@@ -56,10 +56,10 @@ If your wearable could be re-imported without any issues, it is now ready to be 
 Click the JSON file as your root file in the Asset Viewer. 
 7. Save your submission.
 
-If you wish to sell your wearable on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
+If you wish to sell your wearable on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us.html#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
 
 **See Also**
 
-+ [Wearables](../../create/wearables)
-+ [3D Models](../../create/3d-models)
-+ [Marketplace Submission Rules](../submission-rules)
++ [Wearables](../../create/wearables.html)
++ [3D Models](../../create/3d-models.html)
++ [Marketplace Submission Rules](../submission-rules.html)

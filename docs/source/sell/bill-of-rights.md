@@ -19,4 +19,4 @@ High Fidelity will:
 
 **See Also**
 
-+ [Marketplace Submission Rules](submission-rules)
++ [Marketplace Submission Rules](submission-rules.html)

@@ -10,7 +10,7 @@ There are two methods you can use to script these interactions. [`Entities.enter
 
 The following example walks you through the process of creating a simple entity, and scripting an interaction between the entity and your avatar. When your avatar comes in contact with the box, the box will change color. When your avatar moves away, the box will return to its original color. 
 
-1. [Create a cube entity](create-entities).  ![](_images/add-entity.png)
+1. [Create a cube entity](create-entities.html).  ![](_images/add-entity.png)
 2. The following script changes the color of the cube as you approach (yellow) or leave (pink) its bounding box. Save it to a file called `interactions-example.js`.
     ```javascript
     (function(){
@@ -32,7 +32,7 @@ A full range of entity parameters are controllable with these functions. Entitie
 
 **See Also**
 
-+ [Define an Entity's Behavior](entity-behavior)
-+ [Interact with Your Environment](../../explore/interact)
++ [Define an Entity's Behavior](entity-behavior.html)
++ [Interact with Your Environment](../../explore/interact.html)
 + [API Reference: Entities](https://apidocs.highfidelity.com/Entities.html)
-+ [Get Started with Scripting](../../script/get-started-with-scripting)
++ [Get Started with Scripting](../../script/get-started-with-scripting.html)

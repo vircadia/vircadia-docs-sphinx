@@ -19,7 +19,7 @@ You can use the [Scripting Console in Interface](get-started-with-scripting.html
 
 When you script for VR worlds like High Fidelity, you need 3D math operations to compute the position and orientation of 3D objects and avatars in-world. We cannot simply add two vectors. To script 3D math operations and to determine position and orientation information of avatars, you can use the following namespaces in our JavaScript API:
 
-+ [Vec3](https://apidocs.highfidelity.com/namespaces/Vec3.html): The Vec3 API has facilities for generating and manipulating 3-dimensional vectors. 
++ [Vec3](https://apidocs.highfidelity.com/Vec3.html): The Vec3 API has facilities for generating and manipulating 3-dimensional vectors. 
 + [Quat](https://apidocs.highfidelity.com/Quat.html): The Quat API provides facilities for generating and manipulating quaternions. 
 + [MyAvatar](https://apidocs.highfidelity.com/MyAvatar.html): The MyAvatar API provides facilities for manipulating avatars.  
 
@@ -65,7 +65,7 @@ JSON.stringify(MyAvatar.orientation);
 
 ### Get the Direction Your Avatar is Facing
 
-You can use the [Quat](https://apidocs.highfidelity.com/quat.html) namespace to get the direction which your avatar is facing. Pass your avatar's orientation to `Quat.getForward` to get a vector describing which direction you are facing on the world axis.
+You can use the [Quat](https://apidocs.highfidelity.com/Quat.html) namespace to get the direction which your avatar is facing. Pass your avatar's orientation to `Quat.getForward` to get a vector describing which direction you are facing on the world axis.
 
 ```javascript
 { x: 0, y: 0, z: 1 } // Backward
@@ -199,5 +199,5 @@ MyAvatar.collsionEnabledChanged.disconnect(collsionChanged);
 
 **See Also**
 
-+ [Write Your Own Scripts](write-scripts)
++ [Write Your Own Scripts](write-scripts.html)
 + [API Reference](https://apidocs.highfidelity.com)
