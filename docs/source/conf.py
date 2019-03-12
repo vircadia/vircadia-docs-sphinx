@@ -89,7 +89,9 @@ html_theme_options = {
     'prev_next_buttons_location': 'bottom'
 }
 
+html_title = "High Fidelity Documentation"
 html_logo = '_static/images/hifi-logo.png'
+html_favicon = '_static/images/fav-icon.ico'
 html_show_sphinx = False
 
 # Add any paths that contain custom static files (such as style sheets) here,
