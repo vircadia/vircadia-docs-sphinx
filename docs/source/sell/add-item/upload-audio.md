@@ -18,7 +18,7 @@ Once you've created music or ambient sounds for your domain, you need to add the
 ## Prepare Your Script File
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. Click on the entity you previously created to [edit its properties](../../create/entities/entity-appearance).
+2. Click on the entity you previously created to [edit its properties](../../create/entities/entity-appearance.html).
 3. In the 'Properties' tab, scroll down to 'Script' and your script's path or URL.
 4. Test your script file to see if your audio plays in High Fidelity.
 
@@ -46,6 +46,6 @@ If your model could be re-imported without any issues, it is now ready to be upl
 
 **See Also**
 
-+ [3D Models](../../create/3d-models)
-+ [Add Your 3D Model](upload-model)
-+ [Marketplace Submission Rules](../submission-rules)
++ [3D Models](../../create/3d-models.html)
++ [Add Your 3D Model](upload-model.html)
++ [Marketplace Submission Rules](../submission-rules.html)

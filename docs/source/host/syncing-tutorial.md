@@ -1,6 +1,6 @@
 # Tutorial: Syncing Services
 
-You can use [web entities](../create/entities/display-youtube) in High Fidelity to watch videos and presentations simultaneously with other people. 
+You can use [web entities](../create/entities/display-youtube.html) in High Fidelity to watch videos and presentations simultaneously with other people. 
 
 **On This Page:**
 
@@ -13,8 +13,8 @@ You can use [web entities](../create/entities/display-youtube) in High Fidelity 
 
 Consider getting familiar with the following concepts before starting this tutorial:
 
-- [Create New Entities](../create/entities/create-entities)
-- [Change How Entities Look](../create/entities/entity-appearance)
+- [Create New Entities](../create/entities/create-entities.html)
+- [Change How Entities Look](../create/entities/entity-appearance.html)
 
 In this tutorial, we will use the following external software solutions in this tutorial. Note that these are recommendations, and if you prefer, you can use other tools of your choice.
 
@@ -69,7 +69,7 @@ To watch synced presentations in High Fidelity, you will need to:
 
 **See Also**
 
-- [Create New Entities](../create/entities/create-entities)
-- [Change How Entities Look](../create/entities/entity-appearance)
+- [Create New Entities](../create/entities/create-entities.html)
+- [Change How Entities Look](../create/entities/entity-appearance.html)
 - [Sync Video](http://sync-video.com/)
 - [Slides](https://slides.com/)

@@ -13,8 +13,8 @@ You can maintain your domain by giving visiting users temporary create permissio
 
 To give a user temporary create permissions: 
 
-1. [Set user permissions](your-domain/secure-domain#set-user-permissions) to 'rez temp'. This grants users create permissions for the interval of time specified in the domain settings. 
-2. [Set entity specific permissions](your-domain/secure-domain#set-entity-specific-permissions) (lock entities or set entity filters) to make sure that any visiting user cannot edit the existing entities in your domain.
+1. [Set user permissions](your-domain/secure-domain.html#set-user-permissions) to 'rez temp'. This grants users create permissions for the interval of time specified in the domain settings. 
+2. [Set entity specific permissions](your-domain/secure-domain.html#set-entity-specific-permissions) (lock entities or set entity filters) to make sure that any visiting user cannot edit the existing entities in your domain.
 
 For example, if you want to host a virtual class on adding and editing a cube's properties, you can:
 
@@ -24,7 +24,7 @@ For example, if you want to host a virtual class on adding and editing a cube's 
 
 ## Use an AC Script to Clean Your Domain
 
-You can also maintain your domain using an [assignment client script](../script/assignment-client-scripts). This script can contain the details of the entities that you want to keep unedited in your domain and delete the rest. You can configure your domain settings to run this script. 
+You can also maintain your domain using an [assignment client script](../script/assignment-client-scripts.html). This script can contain the details of the entities that you want to keep unedited in your domain and delete the rest. You can configure your domain settings to run this script. 
 
 We've written an example assignment script that contains the list of entities in a domain that you don't want edited, and delete everything else. 
 
@@ -79,7 +79,7 @@ Script.scriptEnding.connect(function(){
 
 **See Also**
 
-+ [Set User Permissions](your-domain/secure-domain#set-user-permissions)
-+ [Set Entity Specific Permissions](your-domain/secure-domain#set-entity-specific-permissions)
-+ [Assignment Client Script](../script/assignment-client-scripts)
-+ [Backup and Restore Your Domain](backup-restore-domain)
++ [Set User Permissions](your-domain/secure-domain.html#set-user-permissions)
++ [Set Entity Specific Permissions](your-domain/secure-domain.html#set-entity-specific-permissions)
++ [Assignment Client Script](../script/assignment-client-scripts.html)
++ [Backup and Restore Your Domain](backup-restore-domain.html)

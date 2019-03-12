@@ -12,12 +12,12 @@ Entities are often used to add objects to your environment. However, you can do 
 
 Consider getting familiar with the following concepts before starting this tutorial:
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
 
 ## Write a Script to Open a Web Page
 
@@ -52,10 +52,10 @@ The entity you create for your button has to be [triggerable](entity-behavior.ht
 
 **See Also**
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
-- [Interact with Your Environment](../../explore/interact)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
+- [Interact with Your Environment](../../explore/interact.html)

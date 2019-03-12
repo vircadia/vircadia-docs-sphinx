@@ -25,7 +25,7 @@ When you want to stream audio from your computer to your domain, you can use the
 6. Prepare to broadcast audio. Adjust the volume on your own computer to change the volume in High Fidelity. To prevent feedback, mute High Fidelity in the Volume Mixer. Remember, you will not be able to talk while you are broadcasting audio with Stereo Mix.
 7. Position the avatar within the domain. This can be tricky, so we recommend giving yourself extra time to prepare. You will now be able to hear the audio from your computer in High Fidelity.
 
-You can change the natural attenuation and reverb of an audio source by [creating Audio Zones](your-domain/configure-settings#audio-environments). Audio Zones will allow you to modify the audio effects of different parts of the domain to better fit your style. 
+You can change the natural attenuation and reverb of an audio source by [creating Audio Zones](your-domain/configure-settings.html#audio-environments). Audio Zones will allow you to modify the audio effects of different parts of the domain to better fit your style. 
 
 ### Troubleshooting
 + If you cannot find Stereo Mix in your audio devices, check out [this document](https://www.howtogeek.com/howto/39532/how-to-enable-stereo-mix-in-windows-7-to-record-audio/).

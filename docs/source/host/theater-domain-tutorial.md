@@ -102,5 +102,5 @@ In addition to security and audio settings, there are several other tools you ca
 
 **See Also**
 
-+ [Configure Your Domain Settings](your-domain/configure-settings)
-+ [Add a Place Name](place-name)
++ [Configure Your Domain Settings](your-domain/configure-settings.html)
++ [Add a Place Name](place-name.html)

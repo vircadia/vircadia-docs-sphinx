@@ -118,6 +118,6 @@ If you choose to stop all functionality (option 1), then the certified app needs
 
 **See Also**
 
-+ [Write Your Own Scripts](../../script/write-scripts)
++ [Write Your Own Scripts](../../script/write-scripts.html)
 
   

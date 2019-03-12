@@ -6,6 +6,6 @@ If you have not yet done so, make sure that you have [packaged your model](creat
 
 **See Also**
 
-+ [Package Your Avatar](create-avatars#package-your-avatar)
-+ [Create Your Own Avatar](create-avatars)
-+ [Find and Use an Existing Avatar](find-avatars)
++ [Package Your Avatar](create-avatars.html#package-your-avatar)
++ [Create Your Own Avatar](create-avatars.html)
++ [Find and Use an Existing Avatar](find-avatars.html)
