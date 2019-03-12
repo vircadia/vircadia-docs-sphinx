@@ -12,17 +12,19 @@ The steps involved in creating a custom app are:
 1. [Create icons to show up on the tablet and HUD](#1-create-icons-to-show-up-on-the-tablet-and-hud)
 2. [Design your app's UI in HTML and CSS](#2-design-your-apps-ui-in-html-and-css)
 3. [Add event handlers to your HTML file](#3-add-event-handlers-to-your-html-file)
-4. [Create a JavaScript file that:](#3-create-your-javascript-file)
+4. [Write a JavaScript file that:](#3-write-a-javascript-file)
 	* Adds a button to the tablet and HUD
 	* Loads your app
 	* Closes your app
 	* Listens for events
 	* Runs your code (in this case, [create some gemstones](#5-create-gemstones))
 
+
+
 ## Tutorial: Create Gemstone Switching App
 In this tutorial, we will walk through the above steps to create an app called "Gemstone Magic Maker". This simple app lets you spawn colorful little gemstones in VR that you can share with your friends.  
 
-##### 1. Create icons to show up on the tablet and HUD
+### 1. Create icons to show up on the tablet and HUD
 You need two icons to show up on the tablet and HUD: an SVG or PNG image to display on the app button when the app is active, usually named `<appName>-a.svg` and another to display when the app is inactive, usually named `<appName>-i.svg`.
 ![](_images/app-icons.png)
 
@@ -33,13 +35,13 @@ We recommend the following specs for your icons:
 
 You can create your own icon using graphic design software or any other online resources. 
 
-##### 2. Design your app's UI in HTML and CSS
+### 2. Design your app's UI in HTML and CSS
 Your app's UI should provide text on how the app works and use familiar UI elements that a user knows how to interact with (such as buttons, scroll bars, and links). Keep in mind that the tablet screen dimensions are 480 x 720, so all of your UI should be confined to this space. 
 
 To help you get started, we've put together a [quick start HTML template](https://hifi-content.s3.amazonaws.com/faye/tablet-sample-app/quick_start_template.html) that you can reuse. It contains the same layout, styling and font as the main menu screen, and has a header bar for your app title. With just a few simple modifications, you can create have a simple app UI within minutes. 
 ![](_images/app-ui.png)
 
-##### 3. Add event handlers to your HTML file
+### 3. Add event handlers to your HTML file
 The Tablet UI framework provides a communication channel called EventBridge. It allows you to send and receive events between the client script (gemstoneApp.js) and JavaScript in your web app (gemstoneMagicMaker.html). Use the EventBridge in the body of your HTML file to handle the button clicks:
 
 ```
@@ -70,7 +72,7 @@ The Tablet UI framework provides a communication channel called EventBridge. It 
 </script>
 ```
 
-##### 4. Create your JavaScript file
+### 4. Write a JavaScript file
 
 Your JavaScript file will contain all of the core functionality of your app. At a minimum, we require that you have code that adds a button to the tablet and HUD, loads your app, closes your app gracefully, and listens for events. Below, you will find code samples to do each of these things. 
 
@@ -166,7 +168,7 @@ function onWebEventReceived(event) {
 tablet.webEventReceived.connect(onWebEventReceived);
 ```
 
-##### 5. Create gemstones
+### 5. Create gemstones
 The final step is to code the behavior of your JavaScript file. In this case, we'll create gemstones using High Fidelity's API. Each gemstone will be created as an entity, and we can change the gemstone's properties using the `Entity` namespace. 
 
 **Calculate the position of each new gemstone**  

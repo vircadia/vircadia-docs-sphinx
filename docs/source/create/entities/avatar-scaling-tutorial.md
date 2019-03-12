@@ -24,17 +24,17 @@ Consider getting familiar with the following concepts before starting this tutor
 
 To define the behavior of your avatar and the button, you need to write a client entity script that:
 
-+ attaches to an entity (a button in your domain) .
++ attaches to an entity (a button in your domain).
 + shrinks or increases the size of an avatar.  
 + defines what happens when a user clicks on or triggers the entity. 
 
-In this tutorial, we've used [shrink-avatar.js](https://hifi-scripting-101.glitch.me/entity-client-script-shrink-avatar.js), the avatar scaling script used to shrink an avatar down to a tiny size. You can use this script, modify it, or [write your own](../../script/write-scripts) to suit your needs.
+In this tutorial, we've used [shrink-avatar.js](https://hifi-scripting-101.glitch.me/entity-client-script-shrink-avatar.js), an avatar scaling script used to shrink an avatar down to a tiny size. You can use this script, modify it, or [write your own](../../script/write-scripts) to suit your needs.
 
 The shrink-avatar.js uses High Fidelity's [JavaScript API](https://apidocs.highfidelity.com) to determine when a user clicks with the mouse or triggers the entity with their hand controllers. It then scales the avatar to one-tenth its original size.
 
 ## Create an Entity to Use as a Button
 
-The entity you create for your button has to be [triggerable](entity-behavior#set-an-entity-to-trigger-scripts) so that the script can detect when you trigger or push the button with your hand controllers.
+The entity you create for your button has to be [triggerable](entity-behavior.html#set-an-entity-to-trigger-scripts) so that the script can detect when you trigger or push the button with your hand controllers.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. [Create an entity](create-entities) to be used as a button. This can be a 3D model, cube, or sphere entity.

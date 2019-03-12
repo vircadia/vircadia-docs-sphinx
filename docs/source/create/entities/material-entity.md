@@ -17,10 +17,10 @@ To add a material to your object in High Fidelity, you need to specify the mater
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>We are aware of the difficulties involved in converting your material data to a JSON file and are working on making the process easier for our users. In the meantime, we recommend embedding your material data in your models as .fbx files if you are facing difficulties generating a .JSON file. </p>
+    <p>We are aware of the difficulties involved in converting your material data to a JSON file and are working on making the process easier for our users. In the meantime, we recommend embedding your material data in your models as FBX files if you are facing difficulties generating a JSON file. </p>
 </div>
 
-This is what the .JSON file for a sample [castle wall material](https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json) looks like:
+This is what the JSON file for a sample [castle wall material](https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json) looks like:
 
 ```
 {
@@ -50,11 +50,11 @@ This file contains all related material data, such as the color, roughness, and 
 </p>
 </div>
 
-Once you have your material entity .JSON file, you can add it to an object in High Fidelity. Let's add the [castle wall material](https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json) to a box entity in your domain. 
+Once you have your material entity JSON file, you can add it to an object in High Fidelity. Let's add the [castle wall material](https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json) to a box entity in your domain. 
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall. 
-3. Go to the **Create** tab and click on the 'Material' icon to add a material entity. Enter the material's .JSON file URL when prompted. You will see the material entity represented as a small sphere. 
+3. Go to the **Create** tab and click on the 'Material' icon to add a material entity. Enter the material's JSON file URL when prompted. You will see the material entity represented as a small sphere. 
 4. Click and select the wall. Go to the 'Properties' tab and copy the parent ID under the 'Name' box. 
 5. Click and select the material entity. Go to the 'Properties' tab and paste the copied parent ID in the 'Parent' box. You will see the material applied to the wall. In this step, you are parenting or applying a material to an entity.
 
@@ -66,12 +66,29 @@ To add a material entity directly into the **Create** Tools app:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall. 
 3. Go to the **Create** tab and click on the 'Material' icon to add a material entity. 
-4. Enter `materialData` next to 'Material URL'.
+4. Enter `materialData` when you're prompted for a 'Material URL'.
 5. Click and select the wall. Go to the 'Properties' tab and copy the parent ID under the 'Name' box. 
-6. Click and select the material entity. Go to the 'Properties' tab and paste the copied parent ID in the 'Parent' box. 
-7. Scroll down to the 'Material Data' field. Write your material data in JSON in this field. 
+6. Click and select the material entity. Go to the 'Properties' tab and paste the copied parent ID in the 'Parent' box. In this step, you are parenting or applying a material to an entity.
+7. Scroll down to the 'Material Data' field. Click 'Clear Material Data' and then paste the following JSON data:
 
-![](_images/material-data.PNG)
+```json
+  {
+    "materialVersion": 1,
+    "materials": [
+    {
+      "name": "CastleWall",
+      "model": "hifi_pbr",
+      "albedo": [1, 1, 1],
+      "albedoMap": "https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall_Base_Color.png",
+      "roughnessMap": "https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CCastleWall_Roughness.png",
+      "normalMap": "https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall_Normal.png"
+    }
+    ]
+  }
+```
+
+
+![](_images/material-data.GIF)
 
 **See Also**
 
