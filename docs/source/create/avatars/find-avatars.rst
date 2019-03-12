@@ -5,7 +5,7 @@ Find and Use an Existing Avatar
 You can download avatars for use from external sources such as TurboSquid or CGTrader. Once you get the avatar, you will need to process it in Unity using the High Fidelity Avatar Exporter. This tool imports most avatars into Unity, maps their skeleton using Unity's humanoid tool, and exports them as FST and FBX files to import in-world.
 
 .. contents:: On This Page
-    :depth: 2
+    :depth: 3
 
 ----------------------
 Avatar Guidelines
@@ -210,7 +210,7 @@ Use these troubleshooting tips if you notice any issues while packaging or testi
 |                                       | If the bones do not actually exist in the model, you need to modify the              |
 |                                       | model outside of Unity to add missing bones.                                         |
 +---------------------------------------+--------------------------------------------------------------------------------------+
-| Your avatar is gray.                  | One of following issues could have occured                                           |
+| Your avatar is gray.                  | One of following issues could have occurred                                          |
 |                                       |                                                                                      |
 |                                       | 1. Make sure you copied your avatar's textures into the project’s textures folder    |
 |                                       | 2. Verify that your textures are in a format that we support (either PNG or JPG)     |

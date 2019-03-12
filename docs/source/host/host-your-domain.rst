@@ -2,13 +2,13 @@
 Host Your Domain
 #######################
 
-Depending on your requirements, you can host your domain on your local machine or on cloud servers, such as Amazon EC2. We have a partnership with Digital Ocean so that we can provide you with hosting services if you want to open your domain to a lot of visitors. 
+Depending on your requirements, you can host your domain on your local machine or on cloud servers, such as Amazon EC2. We have a partnership with DigitalOcean so that we can provide you with hosting services if you want to open your domain to a lot of visitors. 
 
 .. contents:: On This Page
     :depth: 2
 
 ----------------------------------------
-Host Your Domain with Digital Ocean
+Host Your Domain with DigitalOcean
 ----------------------------------------
 
 1. Log in or sign up with your High Fidelity username and password on `https://highfidelity.com <https://highfidelity.com>`_.
