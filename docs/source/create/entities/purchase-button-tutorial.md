@@ -46,13 +46,15 @@ The buy-item.js script we've used:
 
 The entity you create for your button has to be [triggerable](entity-behavior.html#set-an-entity-to-trigger-scripts) so that the script can detect when you trigger or push the button with your hand controllers.
 
+
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. [Create an entity](create-entities) to be used as a button. This can be a 3D model, cube, or sphere entity.
 3. Go to the 'Properties' tab and scroll down to 'Behavior'.
 4. Select 'Code' from the drop down menu in the 'User Data' property. Add the following line, replacing 'YOUR_MARKETPLACE_ID_HERE' with the 'marketplaceID' that you copied in the first step of the tutorial:
-```JSON
-{'marketplaceID' : 'YOUR_MARKETPLACEID_HERE'}
-```
+	```JSON
+	{'marketplaceID' : 'YOUR_MARKETPLACEID_HERE'}
+	```
+
 5. Next to 'Script', paste the script URL. In this case, it is '[buy-item.js](https://hifi-scripting-101.glitch.me/entity-client-script-buy-item.js)'.
 5. Scroll down to 'Triggerable' and ensure that 'Triggerable' is selected.
 6. When you close the **Create** app, test your script by clicking or triggering the button to  open the item's purchase page. If a user has already purchased the item, they will be shown a page that allows them to re-purchase another copy or view it in their **Inventory**.

@@ -20,4 +20,5 @@ Throughout this chapter, learn how to make the most of your exploration:
     Travel Between Worlds <explore/travel>
     Interact with Your Environment <explore/interact>
     Bank and Shop <explore/shop>
+    Give and Receive Gifts <explore/gifts>
     

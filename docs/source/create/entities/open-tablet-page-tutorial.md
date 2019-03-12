@@ -34,15 +34,16 @@ The entity you create for your button has to be [triggerable](entity-behavior.ht
 2. [Create an entity](create-entities) to be used as a button. This can be a 3D model, cube, or sphere entity.
 3. Go to the 'Properties' tab and scroll down to 'Behavior'.
 4. Paste the following JSON data into the 'User data' field for your entity:
-```
-{
-  "url": "your_marketplace_url_in_quotes_here",
-  "grabbableKey": {
-    "grabbable": false,
-    "triggerable": true
-  }
-}
-```
+	```
+	{
+	  "url": "your_marketplace_url_in_quotes_here",
+	  "grabbableKey": {
+	    "grabbable": false,
+	    "triggerable": true
+	  }
+	}
+	```
+
 5. Next to 'Script', paste the script URL. In this case, it is [openTabletPageButton.js](https://open-tablet-to-page.glitch.me/openTabletPageButton.js).
 6. Scroll down and ensure that 'Triggerable' is selected.
 7. After you exit the **Create** app, test your script by clicking or triggering the button to open the Marketplace web page for your item.
