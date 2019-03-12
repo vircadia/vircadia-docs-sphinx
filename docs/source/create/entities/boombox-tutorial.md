@@ -11,12 +11,12 @@ You can create a music player that plays all your favorite tracks and also syncs
 
 ## Prerequisites
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
 
 
 ## Create a Boombox Entity
@@ -29,8 +29,8 @@ The boombox will start playing when users click or trigger the ON/OFF button.
 
 To create a boombox:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. Use the **Create** Tools app to [import the 3D model entity](../3d-models/import-model). You can create your own 3D model for the boombox base or [use one we've created](https://github.com/misslivirose/happy-boombox/blob/master/BoomBox.fbx).
-3. Next, [create the button entity](create-entities) that users will interact with. This can be a cube entity.
+2. Use the **Create** Tools app to [import the 3D model entity](../3d-models/import-model.html). You can create your own 3D model for the boombox base or [use one we've created](https://github.com/misslivirose/happy-boombox/blob/master/BoomBox.fbx).
+3. Next, [create the button entity](create-entities.html) that users will interact with. This can be a cube entity.
 4. Go to 'Properties' tab for the button entity. Change the 'Shape' property from 'Box' to 'Octagon' or 'Cylinder' depending on your aesthetic preferences.
 5. Scroll down to the 'Behavior' section and ensure that 'Grabbable' and 'Triggerable' are checked. 
 6. Scale, rotate, and move your button to align it to the desired position on the model. 
@@ -150,10 +150,10 @@ If you're writing your own scripts or modifying the existing ones, and want to h
 
 **See Also**
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
-- [Interact with Your Environment](../../explore/interact)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
+- [Interact with Your Environment](../../explore/interact.html)

@@ -2,7 +2,7 @@
 
 You can add a material entity to an object in your domain. A material entity contains specific material data that determines the texture and shading of an object. For example, if you want to create a castle in your domain, you need your walls to look like they're made of rough gray stone. You can do this by adding a castle wall material entity to your walls. 
 
-Before adding a material entity, make sure you have created a material using the [PBR Materials Guide](../3d-models/pbr-materials-guide).
+Before adding a material entity, make sure you have created a material using the [PBR Materials Guide](../3d-models/pbr-materials-guide.html).
 
 **On This Page:**
 
@@ -92,6 +92,6 @@ To add a material entity directly into the **Create** Tools app:
 
 **See Also**
 
-+ [Create New Entities](create-entities)
-+ [PBR Materials Guide](../3d-models/pbr-materials-guide)
++ [Create New Entities](create-entities.html)
++ [PBR Materials Guide](../3d-models/pbr-materials-guide.html)
 + [Introduction to JSON](https://www.w3schools.com/js/js_json_intro.asp)

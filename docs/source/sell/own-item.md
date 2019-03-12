@@ -25,6 +25,6 @@ If you place this item on sale on the Marketplace, any other users purchasing yo
 
 **See Also**
 
-+ [Add an Item to the Marketplace](add-item)
-+ [Marketplace Bill of Rights](bill-of-rights)
++ [Add an Item to the Marketplace](add-item.html)
++ [Marketplace Bill of Rights](bill-of-rights.html)
 

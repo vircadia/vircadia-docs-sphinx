@@ -1,6 +1,6 @@
 # Tutorial: Transfer Money and Items
 
-While you can [transfer money and items using the Inventory app](../explore/socialize#give-and-receive-gifts), sometimes you may want to use scripting to help automate your gifting process. This page will walk you through some examples that programmatically transfers money and items using the High Fidelity Commerce APIs.
+While you can [transfer money and items using the Inventory app](../explore/socialize.html#give-and-receive-gifts), sometimes you may want to use scripting to help automate your gifting process. This page will walk you through some examples that programmatically transfers money and items using the High Fidelity Commerce APIs.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
@@ -82,9 +82,9 @@ Here are the steps for this tutorial:
 
 ### Prerequisites
 Consider getting familiar with the following concepts before starting this tutorial:
-* [Create New Entities](../create/entities)
-* [Get Started with Scripting](get-started-with-scripting)
-* [Asset Server](../host/manage-assets)
+* [Create New Entities](../create/entities.html)
+* [Get Started with Scripting](get-started-with-scripting.html)
+* [Asset Server](../host/manage-assets.html)
 
 ### Create a Tip Jar in Your Domain
 You need a jar that accepts money. In this simple example, we will use a cube entity as our tip jar. Create your tip jar in the **Create** app:
@@ -112,7 +112,7 @@ You'll have to add the [entity script](https://s3.amazonaws.com/hifi-docs-script
 Close the **Create** app and click on the Tip Jar cube entity. A window pops up, prompting you to pay 10 HFC to the username specified in the script.
 
 ## Create a VIP Access Zone
-In this example, we walk through creating an exclusive VIP zone that is accessible only to paid VIPs. This tutorial uses a [client entity script](client-entity-scripts) to transfer money and an [assignment client script](assignment-client-scripts) to verify payments. 
+In this example, we walk through creating an exclusive VIP zone that is accessible only to paid VIPs. This tutorial uses a [client entity script](client-entity-scripts.html) to transfer money and an [assignment client script](assignment-client-scripts.html) to verify payments. 
 
 Here are the steps for this tutorial: 
 
@@ -131,9 +131,9 @@ Here are the steps for this tutorial:
 
 ### Prerequisites
 Consider getting familiar with the following concepts before starting this tutorial:
-* [Create New Entities](../create/entities)
-* [Get Started with Scripting](get-started-with-scripting)
-* [Asset Server](../host/manage-assets)
+* [Create New Entities](../create/entities.html)
+* [Get Started with Scripting](get-started-with-scripting.html)
+* [Asset Server](../host/manage-assets.html)
 
 ### Place a VIP Zone in Your Domain
 You need an area (or zone) in your domain that will be designated the "VIP Zone". Only users who have paid you 10 HFC in the current server session have access to enter this zone. If the server restarts, users will have to pay for VIP status again.
@@ -173,7 +173,7 @@ To obtain this auth token:
 5. Copy and save the token.
 
 ### Write an Authenticated AC Script
-Now, write an [Assignment Client (AC) script](assignment-client-scripts) containing the authentication token you copied and saved. This AC script checks your Recent Activity for recent transactions of 10 HFC made in your domain.
+Now, write an [Assignment Client (AC) script](assignment-client-scripts.html) containing the authentication token you copied and saved. This AC script checks your Recent Activity for recent transactions of 10 HFC made in your domain.
 
 [Click here](https://s3.amazonaws.com/hifi-docs-scripts/vipZoneACScript.js) to download a pre-made "VIP Zone" AC script. Follow along with the comments in the code to understand what it's doing!
 
@@ -193,7 +193,7 @@ This step is optional as it doesn't matter how a user sends you 10 HFC to earn V
 However, to make it easier to people to pay you, you can create an box that collects payment. Simply follow the directions to [create a tip jar](#create-a-tip-jar) above. You should now have a working "VIP Zone" in your domain. Only users with VIP status can enter this "VIP Zone". You should also have a "Tip Cube" in your domain that helps users pay you HFC to become VIPs.
 
 ## Add a Slot Machine Game
-In this example, we walk through creating a slot machine game that pays out HFC. Players will pay you (the domain owner) 1 HFC to start playing, and the slot machine will pay out 25 HFC if the payer wins. This tutorial uses [coupons](../explore/socialize#create-a-coupon) to reserve HFC ahead of time, [client entity scripts](client-entity-scripts) to control the mechanics of the slot machine, and an [assignment client script](assignment-client-scripts) to handle the slot machine game logic. 
+In this example, we walk through creating a slot machine game that pays out HFC. Players will pay you (the domain owner) 1 HFC to start playing, and the slot machine will pay out 25 HFC if the payer wins. This tutorial uses [coupons](../explore/socialize.html#create-a-coupon) to reserve HFC ahead of time, [client entity scripts](client-entity-scripts.html) to control the mechanics of the slot machine, and an [assignment client script](assignment-client-scripts.html) to handle the slot machine game logic. 
 
 Here are the steps for this tutorial: 
 * [Create a Slot Machine in Your Domain](#create-a-slot-machine-in-your-domain)
@@ -213,11 +213,11 @@ Here are the steps for this tutorial:
 
 ### Prerequisites
 Consider getting familiar with the following concepts before starting this tutorial:
-* [Create New Entities](../create/entities)
-* [Get Started with Scripting](get-started-with-scripting)
+* [Create New Entities](../create/entities.html)
+* [Get Started with Scripting](get-started-with-scripting.html)
 
 ### Create a Slot Machine in Your Domain
-You need a slot machine that your users can play. You can [create your own](../create/entities/create-entities) or use the one that we created for you. 
+You need a slot machine that your users can play. You can [create your own](../create/entities/create-entities.html) or use the one that we created for you. 
 
 To use the one that already exists:
 1. Download the following JSON: [basicSlotMachine_noScripts.json](https://s3.amazonaws.com/hifi-docs-scripts/basicSlotMachine_noScripts.json)
@@ -231,7 +231,7 @@ You should now see a slot machine entity in your domain. This example entity con
 * A "pay-in text" text entity that will instruct users to add credits to the slot machine.
 
 ### Create a Coupon to Authorize Winnings
-By creating a coupon, you are authorizing High Fidelity to take out funds from your account even if you are not present in the domain. Follow these instructions to [create a coupon](../explore/socialize#create-a-coupon). Copy the Authorization ID and the Coupon ID.
+By creating a coupon, you are authorizing High Fidelity to take out funds from your account even if you are not present in the domain. Follow these instructions to [create a coupon](../explore/socialize.html#create-a-coupon). Copy the Authorization ID and the Coupon ID.
 
 ### Add the Coupon Credentials to a Database
 Later, you will write an Assignment Client (AC) script for the Slot Machine game logic, including payout logic. When the Slot Machine pays out, it needs to know the Authorization IDs and Coupon IDs associated with your pre-authorized payout funds. 
@@ -345,7 +345,7 @@ You should now have a basic but fully working slot machine in your domain, that 
 
 **See Also**
 
-- [Get Started with Scripting](get-started-with-scripting)
-- [Write Your Own Scripts](write-scripts)
+- [Get Started with Scripting](get-started-with-scripting.html)
+- [Write Your Own Scripts](write-scripts.html)
 - [API Reference](https://apidocs.highfidelity.com)
-- [Create a Coupon](../explore/socialize#create-a-coupon)
+- [Create a Coupon](../explore/socialize.html#create-a-coupon)

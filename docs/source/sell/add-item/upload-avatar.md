@@ -1,6 +1,6 @@
 # Add Your Avatar
 
-Once you [create an avatar](../../create/avatars/create-avatars), it should contain the following files:
+Once you [create an avatar](../../create/avatars/create-avatars.html), it should contain the following files:
 * An FST file
 * An FBX file
 * Scripts folder (optional)
@@ -50,12 +50,12 @@ Now you are ready to use your avatar! To locate the URL for your avatar:
 5. Scroll down to the Assets section.
 6. Click on the FST file. Below it, click the 'Copy URL' button.
 
-This is the URL you will use when you [change your avatar](../../explore/personalize/change-avatar) in High Fidelity.
+This is the URL you will use when you [change your avatar](../../explore/personalize/change-avatar.html) in High Fidelity.
 
-If you wish to sell your avatar on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
+If you wish to sell your avatar on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us.html#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
 
 **See Also**
 
-+ [Create Your Own Avatar](../../create/avatars/create-avatars)
-+ [Change Your Avatar](../../explore/personalize/change-avatar)
-+ [Marketplace Submission Rules](../submission-rules)
++ [Create Your Own Avatar](../../create/avatars/create-avatars.html)
++ [Change Your Avatar](../../explore/personalize/change-avatar.html)
++ [Marketplace Submission Rules](../submission-rules.html)

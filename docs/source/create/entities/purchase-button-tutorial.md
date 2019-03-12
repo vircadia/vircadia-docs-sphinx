@@ -14,12 +14,12 @@ If you are selling items on the Marketplace, you can have a space in your domain
 
 Consider getting familiar with the following concepts before starting this tutorial:
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
 - [Purchase Marketplace Items from Script](../../script/transfer-hfc-tutorial.html#purchase-marketplace-items)
   
 ## Get an Item's Marketplace ID
@@ -36,7 +36,7 @@ If you are putting up an item (in your domain) you have on sale in the Marketpla
 
 ## Write a Purchase Item Script
 
-To make our button work and actually sell an item, we need to attach a client entity script to it. In this example, [buy-item.js](https://hifi-scripting-101.glitch.me/entity-client-script-buy-item.js), the script opens a specified Marketplace page. You can use it as-is, modify it, or [write your own script](../../script/write-scripts) to suit your needs.
+To make our button work and actually sell an item, we need to attach a client entity script to it. In this example, [buy-item.js](https://hifi-scripting-101.glitch.me/entity-client-script-buy-item.js), the script opens a specified Marketplace page. You can use it as-is, modify it, or [write your own script](../../script/write-scripts.html) to suit your needs.
 
 The buy-item.js script we've used:
 + Uses High Fidelity's [JavaScript API](https://apidocs.highfidelity.com/) to determine when a user clicks with the mouse or triggers the entity using hand controllers.
@@ -61,11 +61,11 @@ The entity you create for your button has to be [triggerable](entity-behavior.ht
 
 **See Also**
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
-- [Interact with Your Environment](../../explore/interact)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
+- [Interact with Your Environment](../../explore/interact.html)
 

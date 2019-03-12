@@ -2,7 +2,7 @@
 
 Blender is an open-source 3D modeling tool that you can use to fine tune your avatar and ensure that the materials and textures render correctly in High Fidelity. 
 
-In this tutorial, we will walk you through simple modifications you can make to your avatar using Blender. You will need to import an FBX file for your avatar. If you don't have one, see our tutorials for [Fuse](fuse-tutorial) and [Mixamo](mixamo-tutorial).
+In this tutorial, we will walk you through simple modifications you can make to your avatar using Blender. You will need to import an FBX file for your avatar. If you don't have one, see our tutorials for [Fuse](fuse-tutorial.html) and [Mixamo](mixamo-tutorial.html).
 
 1. In Blender, go to **File > Import > FBX (.fbx)**. 
 2. Choose your avatar's FBX file and click 'Import FBX'. This will open your avatar in the main view. ![](_images/import-avatar.png)
@@ -36,7 +36,7 @@ Now, you are ready to bring your avatar into High Fidelity.
 6. Rename the new material to 'lashes'.
 7. At the bottom of the Blender window, switch to 'Edit Mode'. ![](_images/edit-mode.png)
 8. Under the material list, click 'Assign'.
-9. Scroll to the ‘Transparency' section. Check the Transparency box and change the 'Alpha' value to `0.00`. ![](_images/transparency-setting.png)
+9. Scroll to the 'Transparency' section. Check the Transparency box and change the 'Alpha' value to `0.00`. ![](_images/transparency-setting.png)
 10. Scroll to the 'Specular' section. Set the specular color to black. ![](_images/specular-setting.png)
 11. Change to the 'Textures' view. ![](_images/texture-tab.png)
 12. Click '+ New' to add a new texture.
@@ -46,6 +46,6 @@ Now, you are ready to bring your avatar into High Fidelity.
 
 **See Also**
 
-+ [Tutorial: Create an Avatar with Fuse](fuse-tutorial)
-+ [Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)
-+ [Create Your Own Avatar](create-avatars)
++ [Tutorial: Create an Avatar with Fuse](fuse-tutorial.html)
++ [Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial.html)
++ [Create Your Own Avatar](create-avatars.html)

@@ -9,7 +9,7 @@ High Fidelity has a local sandbox that you can download and start using as your 
 
 ## Install Your Sandbox
 
-You can install the sandbox if your system meets the [minimum requirements](../../explore/get-started/install#minimum-system-requirements). To install the sandbox:
+You can install the sandbox if your system meets the [minimum requirements](../../explore/get-started/install.html#minimum-system-requirements). To install the sandbox:
 
 1. Go to [High Fidelity's website](https://highfidelity.com/download/sandbox) and download the 'Client + Sandbox' installer.
 2. Run the High Fidelity installer.
@@ -29,6 +29,6 @@ To visit your sandbox:
 2. On the menu that opens, click 'Visit Sandbox'. ![](_images/visit-sandbox.png)
 
 **See Also**
-+ [Install High Fidelity](../../explore/get-started/install)
++ [Install High Fidelity](../../explore/get-started/install.html)
 
 

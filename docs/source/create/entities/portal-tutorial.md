@@ -13,12 +13,12 @@ Portals in High Fidelity transport you to the domain of your choice. You can use
 
 Consider getting familiar with the following concepts before starting this tutorial:
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
 
 ## Write a Script for the Portal
 
@@ -31,10 +31,10 @@ The portal.js script we've used:
 
 ## Create and Edit an Entity to Use as a Portal
 
-Any entity you create to be used as a portal has to be [collisionless](entity-behavior#set-entity-behavior-on-collision) so that the script can detect when you walk into the entity. 
+Any entity you create to be used as a portal has to be [collisionless](entity-behavior.html#set-entity-behavior-on-collision) so that the script can detect when you walk into the entity. 
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. [Create an entity](create-entities) to be used as a portal. This can be a 3D model or a box or sphere entity. 
+2. [Create an entity](create-entities.html) to be used as a portal. This can be a 3D model or a box or sphere entity. 
 3. Go to the 'Properties' tab and scroll down to 'Behavior'.
 4. Next to 'Script', paste the script URL. In this case, it is '[portal.js](https://raw.githubusercontent.com/highfidelity/hifi-content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js)'.
 5. The script takes the location you want to teleport to from the 'User Data' field under 'Behavior'.
@@ -48,10 +48,10 @@ You will be teleported to High Fidelity's welcome domain.
 
 **See Also**
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
-- [Interact with Your Environment](../../explore/interact)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
+- [Interact with Your Environment](../../explore/interact.html)
