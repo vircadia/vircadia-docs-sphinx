@@ -15,4 +15,5 @@ We know that getting started with a new application can be difficult: installing
     Use Your VR Equipment <get-started/vr-controls>
     Explore in Desktop Mode <get-started/desktop>
     Adjust Your Settings <get-started/adjust-settings>
+    Get Our Android App <get-started/android>
 

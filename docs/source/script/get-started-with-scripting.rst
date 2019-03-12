@@ -146,7 +146,7 @@ To reload or stop a script, open the 'Running Scripts' window and do one of the 
 Add a Script to the Default Scripts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can add a script to the default scripts, to run every time you start Interface. 
+You can add a script to the default scripts to run every time you start Interface. 
 
 * In Interface, pull up your Tablet or HUD and go to **Menu > Edit > Running Scripts**.
 * Click 'Reveal Scripts Folder' at the bottom. 
