@@ -3,12 +3,17 @@
 /***********************************/
 
 @font-face{
-	font-family: 'Graphik';
+	font-family: 'Graphik Semibold';
 	src: url('../fonts/Graphik-Semibold.otf') format('opentype');
 }
 
 @font-face{
-	font-family: 'proxima-nova';
+	font-family: 'Graphik Regular';
+	src: url('../fonts/Graphik-Regular.otf') format('opentype');
+}
+
+@font-face{
+	font-family: 'Proxima Nova';
 	src: url('../fonts/proximanova-regular.otf') format('opentype');
 }
 
@@ -17,12 +22,10 @@
 /***********************************/
 
 body {
-	font-family: "proxima-nova";
-    letter-spacing: 0.5px;
-    color: #555;
-    font-size: 1.03rem;
-	line-height: 1.5; 
-    
+	font-family: 'Graphik Regular', 'Proxima Nova', arial, sans-serif;
+	font-weight: 400; 
+    color: #000000;
+    letter-spacing: 0.5px;  
 }
 
 img {
@@ -35,6 +38,10 @@ img {
     background: #FFFFFF;
     max-width: 100%;
     padding: 2rem 6rem;
+}
+
+.wy-nav-content p {
+    font-size: 0.95rem;
 }
 
 .rst-content blockquote {
@@ -65,7 +72,7 @@ img {
 /***********************************/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Graphik", Helvetica, sans-serif;
+	font-family: 'Graphik Semibold', Helvetica, sans-serif;
 }
 
 h1 {
@@ -100,11 +107,15 @@ h5 {
 /***********************************/
 
 .wy-nav-content a:hover {
-    color: #2980B9;
+    color: #1f98ba;
+}
+
+.wy-nav-content a:hover {
+    color: #1f98ba;
 }
 
 .wy-nav-content a:visited {
-    color: #2980B9;
+    color: #1f98ba;
 }
 
 /***********************************/
@@ -140,7 +151,7 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 /***********************************/
 
 .wy-side-nav-search {
-    background-color: #009EE0;
+    background-color: #000000;
     padding: 1rem 2rem;
 }
 
@@ -154,31 +165,33 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 }
 
 .wy-side-nav-search input[type=text] {
-    border-radius: 3px;
+    width: 90%;
+    border-radius: 0;
     border: 1px solid #ddd;
+    padding: 10px;
     margin-bottom: 10px;
 }
 
 .wy-nav-side {
-    background: #D8E1D9;
+    background: #000000;
 }
 
 .wy-menu-vertical a {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .wy-menu-vertical a:hover {
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .2);
 
 }
 
 .wy-menu-vertical li.current a {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(241, 243, 238);
     padding: .4045em 1em .4045em 1.618em;
 }
 
 .wy-menu-vertical li.current a:hover {
-    background-color: #E0E0E0;
+    background-color: rgba(241, 243, 238, .2);
 }
 
 .wy-menu-vertical li.toctree-l2 a {
@@ -186,7 +199,11 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 }
 
 .wy-menu-vertical li.toctree-l2.current > a {
-    background-color: #E0E0E0;
+    background-color: rgba(241, 243, 238);
+}
+
+.wy-menu-vertical li.toctree-l2.current > a:hover {
+    background-color: rgba(241, 243, 238, .2);
 }
 
 .wy-menu-vertical li.toctree-l3 {
@@ -194,12 +211,22 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
-    background-color: #E0E0E0;
+    background-color: rgba(241, 243, 238);
+    padding: .4045em .5em .4045em 4.045em;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover {
+    background-color: rgba(241, 243, 238, .2);
     padding: .4045em .5em .4045em 4.045em;
 }
 
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a {
-    background-color: #E0E0E0;
+    background-color: rgba(241, 243, 238);
+    padding: .4045em 1em .4045em 5.663em;
+}
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:hover {
+    background-color: rgba(241, 243, 238, .2);
     padding: .4045em 1em .4045em 5.663em;
 }
 
@@ -214,6 +241,7 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 
 .rst-content li {
     margin-bottom: .2rem;
+    font-size: 0.95rem;
 }
 
 .wy-plain-list-decimal li, .rst-content .section ol li, .rst-content ol.arabic li, article ol li {
