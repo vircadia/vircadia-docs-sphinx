@@ -74,7 +74,7 @@ Inappropriate Content
 Restricted Content
 ----------------------------
 
-We accept versions of content that allow the user to experience the product prior to purchasing the full version (demo, trial, lite etc.) For these submissions, the item must be free and the description text must clearly state all limitations of the item.
+We accept limited versions of content that allow the user to experience the product prior to purchasing the full version (demo, trial, lite etc.) For these submissions, the item must be free and the description text must clearly state all limitations of the item.
 
 -----------------------------
 Submissions with Scripts
