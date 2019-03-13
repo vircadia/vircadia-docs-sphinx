@@ -18,7 +18,7 @@ You will need the following tools to build our Android targets.
 
 ### Gradle
 
-Install Gradle version 4.1 or higher. Following the instructions to install via [SDKMAN!](http://sdkman.io/install.html) is recommended.
+Install Gradle version 4.1 or higher. Following the instructions to install via [SDKMAN!](http://sdkman.io/install) is recommended.
 
 Once you've installed Gradle, set up the machine-specific properties: 
 1. Create a `gradle.properties` file in $HOME/.gradle. Edit the file to contain the following code:

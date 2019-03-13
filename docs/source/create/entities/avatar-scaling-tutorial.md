@@ -28,7 +28,7 @@ To define the behavior of your avatar and the button, you need to write a client
 + shrinks or increases the size of an avatar.  
 + defines what happens when a user clicks on or triggers the entity. 
 
-In this tutorial, we've used [shrink-avatar.js](https://hifi-scripting-101.glitch.me/entity-client-script-shrink-avatar.js), an avatar scaling script used to shrink an avatar down to a tiny size. You can use this script, modify it, or [write your own](../../script/write-scripts) to suit your needs.
+In this tutorial, we've used [shrink-avatar.js](https://hifi-scripting-101.glitch.me/entity-client-script-shrink-avatar.js), an avatar scaling script used to shrink an avatar down to a tiny size. You can use this script, modify it, or [write your own](../../script/write-scripts.html) to suit your needs.
 
 The shrink-avatar.js uses High Fidelity's [JavaScript API](https://apidocs.highfidelity.com) to determine when a user clicks with the mouse or triggers the entity with their hand controllers. It then scales the avatar to one-tenth its original size.
 
@@ -43,7 +43,7 @@ The entity you create for your button has to be [triggerable](entity-behavior.ht
 5. Ensure that 'Triggerable' is selected.
 6. After you exit the **Create** app, test your script by clicking or triggering the button to observe your avatar scale down.
 
-![](_images/shrink-avatar.GIF)
+![](_images/shrink-avatar.gif)
 
 **See Also**
 

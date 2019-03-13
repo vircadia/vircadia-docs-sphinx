@@ -103,4 +103,4 @@ If you're facing problems when you load Interface and Sandbox, you can try perfo
 
 **See Also**
 
-+ [Install Your Domain](../../host/your-domain/install-domain)
++ [Install Your Domain](../../host/your-domain/install-domain.html)
