@@ -68,12 +68,12 @@ At this point, you have successfully packaged your avatar. If you host your avat
 If you want to sell your avatar on the Marketplace or upload it to High Fidelity's servers, continue using the Avatar Packager:
  
 1. Click 'Upload' to upload your avatar's files to High Fidelity's servers. If you make any changes to your custom avatar, you will need to update it through this packager to see your changes. To update, select your project and click 'Open Project' in step 1. Follow the same steps to update your avatar.
-2. Once your avatar is uploaded to the servers, click 'View in Inventory' to view your custom avatar. 
+2. Once your avatar is uploaded to the servers, click 'View in Inventory' to view your custom avatar. Your avatar is listed in your Inventory only for you. It is not available for purchase to other users. 
 
 .. image:: _images/inventory.png
 
 3. Click 'Wear' to try out your new avatar! 
-4. You can view your avatar in the Marketplace. It is currently in Draft mode. You will need to submit it for review to make your avatar available for purchase on the Marketplace.
+4. You can view your avatar in the Marketplace. It is currently in Draft mode. This means that other users cannot view or purchase your avatar. To make your avatar available for purchase, you will need to submit it for review on the Marketplace.
 
 -------------------------------
 Community Tools for Avatars
