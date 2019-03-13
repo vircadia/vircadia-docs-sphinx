@@ -13,6 +13,12 @@
 }
 
 @font-face{
+	font-family: 'Graphik Light';
+	src: url('../fonts/Graphik-Light.otf') format('opentype');
+}
+
+
+@font-face{
 	font-family: 'Proxima Nova';
 	src: url('../fonts/proximanova-regular.otf') format('opentype');
 }
@@ -106,7 +112,7 @@ h5 {
 /*********** Link styles ***********/
 /***********************************/
 
-.wy-nav-content a:hover {
+.wy-nav-content a {
     color: #1f98ba;
 }
 
@@ -123,8 +129,13 @@ h5 {
 /***********************************/
 
 .wy-breadcrumbs {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
+
+.rst-content .wy-breadcrumbs li {
+    font-size: 0.85rem;
+}
+
 
 /***********************************/
 /*********** Note styles ***********/
@@ -181,17 +192,19 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 }
 
 .wy-menu-vertical a:hover {
-    background-color: rgba(255, 255, 255, .2);
-
+    color: #000000;
+    background-color: #b7c8b9;
 }
 
 .wy-menu-vertical li.current a {
     background-color: rgba(241, 243, 238);
     padding: .4045em 1em .4045em 1.618em;
+    border-right: none;
+
 }
 
 .wy-menu-vertical li.current a:hover {
-    background-color: rgba(241, 243, 238, .2);
+    background-color: #d8e1d9;
 }
 
 .wy-menu-vertical li.toctree-l2 a {
@@ -203,7 +216,7 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 }
 
 .wy-menu-vertical li.toctree-l2.current > a:hover {
-    background-color: rgba(241, 243, 238, .2);
+    background-color: #d8e1d9;
 }
 
 .wy-menu-vertical li.toctree-l3 {
@@ -216,7 +229,7 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover {
-    background-color: rgba(241, 243, 238, .2);
+    background-color: #d8e1d9;
     padding: .4045em .5em .4045em 4.045em;
 }
 
@@ -226,7 +239,7 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 }
 
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:hover {
-    background-color: rgba(241, 243, 238, .2);
+    background-color: #d8e1d9;
     padding: .4045em 1em .4045em 5.663em;
 }
 
@@ -262,13 +275,15 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 /***********************************/
 
 table {
-	border: solid #c7cccb 1px;
+	border: solid #d8e1d9 1px;
 	margin: auto;
 	width: 90%;
 }
 
 th {
-	background: #e2e4e4 ;
+	font-family: 'Graphik Regular';
+    border-color: #d8e1d9;
+    background: #d8e1d9;
 }
 
 td {
@@ -301,7 +316,9 @@ td p {
 }
 
 .wy-table td, .rst-content table.docutils td, .rst-content table.field-list td, .wy-table th, .rst-content table.docutils th, .rst-content table.field-list th {
-    font-size: .91rem;
+    font-size: .85rem;
+    padding: 12px 20px;
+    line-height: 1.5;
 }
 
 .wy-table-odd td, .wy-table-striped tr:nth-child(2n-1) td, .rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
