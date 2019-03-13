@@ -46,7 +46,7 @@ Documentation
 ---------------------
 
 + Any item that requires any kind of setup, special functionality, or important technical information must include documentation. This can be included in the description text and/or appear for the user when the item is rezzed in High Fidelity. 
-+ If your item requires any special rez permissions, this must be included in the documentation
++ If your item requires any [special rez permissions](../host/your-domain/secure-domain.html#set-user-permissions), this must be included in the documentation
 
 ---------------------
 Licensing
