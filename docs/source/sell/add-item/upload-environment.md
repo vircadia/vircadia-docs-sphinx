@@ -20,5 +20,5 @@ If you wish to sell your environment on the Marketplace, be sure to fill out you
 **See Also**
 
 + [Configure Your Domain Settings](../../host/your-domain/configure-settings.html)
-+ [Backup Your Domain](../../host/backup-restore-domain#backup-your-domain.html)
++ [Backup Your Domain](../../host/backup-restore-domain.html#backup-your-domain.html)
 + [Marketplace Submission Rules](../submission-rules.html)

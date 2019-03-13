@@ -68,7 +68,7 @@ Ensure you have the permission to live stream through the channel of your choice
 Before you start recording and streaming, determine if this is a one-time event, or if it is a show or event, and the type of VR personality you'd like to have. 
 
 + Depending on your requirements, you can use your desktop, an HMD with or without controllers, or a motion capture system.
-+ Download High Fidelity's [Spectator Camera](../explore/personalize/install-apps#spectator-cam) Marketplace app. 
++ Download High Fidelity's [Spectator Camera](../explore/personalize/install-apps.html#spectator-cam) Marketplace app. 
 + Set up OBS to stream your Spectator Camera's view. 
 
 ### Set Up OBS for Streaming from High Fidelity
@@ -84,8 +84,8 @@ Before you start recording and streaming, determine if this is a one-time event,
 
 **See Also**
 
-+ [Spectator Camera](../explore/personalize/install-apps#spectator-cam) 
-+ [Edit Your Audio Environment](your-domain/configure-settings#audio-environments)
++ [Spectator Camera](../explore/personalize/install-apps.html#spectator-cam) 
++ [Edit Your Audio Environment](your-domain/configure-settings.html#audio-environments)
 + [Official OBS Guide for Beginners](https://obsproject.com/forum/threads/official-overview-guide.402/) 
 + [Official OBS Guide for Advanced Users](https://obsproject.com/forum/threads/official-quick-start-guide.410/)
 

@@ -34,7 +34,7 @@ To create a boombox:
 4. Go to 'Properties' tab for the button entity. Change the 'Shape' property from 'Box' to 'Octagon' or 'Cylinder' depending on your aesthetic preferences.
 5. Scroll down to the 'Behavior' section and ensure that 'Grabbable' and 'Triggerable' are checked. 
 6. Scale, rotate, and move your button to align it to the desired position on the model. 
-![](_images/boombox.PNG)
+![](_images/boombox.png)
 7. With the **Create** Tools app open, select the 3D model of the boombox. Go to the 'Properties' tab and copy the 'ID' under 'Name'.
 8. Select the cube entity you created, go to the 'Properties' tab, and paste the copied entity ID in the 'Parent' field. This makes your boombox model entity the parent of your button entity.
 
@@ -43,7 +43,7 @@ To create a boombox:
 
 The User Data property is a JSON object that can be customized to fit the needs of a script. User Data also helps in synchronizing and keeping variables the same for all users in a domain. In this case, User Data will contain:
 
-+ Song List: All URLS of the songs you want played on your boombox. You can also use MP3 or WAV files stored on your local machine.
++ Song List: All URLs of the songs you want played on your boombox. You can also use MP3 or WAV files stored on your local machine.
 + Music player volume information: You can change this as per your preference.
 
 
@@ -112,7 +112,7 @@ The boombox system contains the following scripts and files that allows a user t
   </tr>
 </table><br>
 
-You can use the existing versions of our scripts, modify them, or [write your own scripts](../../script/write-scripts).
+You can use the existing versions of our scripts, modify them, or [write your own scripts](../../script/write-scripts.html).
 
 If you're using the existing versions of our scripts:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
@@ -124,7 +124,7 @@ If you're using the existing versions of our scripts:
 If you're writing your own scripts or modifying the existing ones, and want to host these in the 'Asset Browser':
 
 1. On your computer, create a folder called 'BoomBox'. You'll save your files here with the following structure. 
-![](_images/boombox-folder.PNG)
+![](_images/boombox-folder.png)
 2. Save the [entity server script](https://raw.githubusercontent.com/misslivirose/happy-boombox/master/boomBoxEntityServerScript.js), [client entity script](https://raw.githubusercontent.com/misslivirose/happy-boombox/master/boomBoxEntityScript.js), [HTML file](https://raw.githubusercontent.com/misslivirose/happy-boombox/master/app/boomBoxController.html), and [CSS file](https://raw.githubusercontent.com/misslivirose/happy-boombox/master/app/styles.css) to the folder in your computer.
 3. In Interface, pull up your HUD or Tablet and go to **Create**.
 4. In the **Create** Tools app, click 'Open This Domain's Asset Server' to view the Asset Browser.

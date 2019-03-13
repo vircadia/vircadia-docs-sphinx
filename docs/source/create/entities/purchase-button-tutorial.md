@@ -48,7 +48,7 @@ The entity you create for your button has to be [triggerable](entity-behavior.ht
 
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. [Create an entity](create-entities) to be used as a button. This can be a 3D model, cube, or sphere entity.
+2. [Create an entity](create-entities.html) to be used as a button. This can be a 3D model, cube, or sphere entity.
 3. Go to the 'Properties' tab and scroll down to 'Behavior'.
 4. Select 'Code' from the drop down menu in the 'User Data' property. Add the following line, replacing 'YOUR_MARKETPLACE_ID_HERE' with the 'marketplaceID' that you copied in the first step of the tutorial:
 	```JSON

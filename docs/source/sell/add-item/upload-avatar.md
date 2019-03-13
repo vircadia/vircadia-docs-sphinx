@@ -37,7 +37,7 @@ You will need to upload all these files to the Marketplace.
 12. Save your submission. 
     ![](_images/marketplace-assets.png)
 
-At this time, we recommend that you test your avatar using the [Marketplace Item Tester](../../create/tools#marketplace-item-tester). If your avatar re-imports into High Fidelity without any issues, it is now ready to be uploaded to the Marketplace.
+At this time, we recommend that you test your avatar using the [Marketplace Item Tester](../../create/tools.html#marketplace-item-tester). If your avatar re-imports into High Fidelity without any issues, it is now ready to be uploaded to the Marketplace.
 
 ## Find Your Avatar's URL
 
