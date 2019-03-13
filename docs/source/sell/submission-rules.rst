@@ -25,8 +25,7 @@ Presentation
 
 A preview image must be included with all items. 
 
-+ Preview images must clearly show what is included in the package. Images providing context (avatars holding the item, nice backgrounds etc.) are permitted as long as the description text clearly states what content is not included with the item. 
-+ All images must be of proper quality and resolution, and should be visually appealing. 
++ Preview images must clearly show what is included in the package. Images providing context (avatars holding the item, nice backgrounds etc.) are permitted as long as it is still clear what the item is. 
 + If the item doesn't have visual elements, the preview image must show context for the functionality of the item (e.g. including an image of a VR controller for a script that adds controller functionality).
 
 **Description Text**
@@ -46,14 +45,14 @@ Item titles must be properly capitalized and only include the item name.
 Documentation
 ---------------------
 
-+ Any item that requires any kind of setup, special functionality, or important technical information must include documentation. This can be included in the description text and/or appear for the user when the item is downloaded into High Fidelity. 
-+ Your documentation must include information about the rez rights required to use the item.
++ Any item that requires any kind of setup, special functionality, or important technical information must include documentation. This can be included in the description text and/or appear for the user when the item is rezzed in High Fidelity. 
++ If your item requires any special rez permissions, this must be included in the documentation
 
 ---------------------
 Licensing
 ---------------------
 
-All Marketplace items are under the Proof of Provenance License (PoP License) v1.0. Custom or alternative licenses are not permitted, unless they are in conjunction with the PoP license, in which case the additional licenses need to be added to the description or as a comment in the code. You can read more about the PoP license `here <https://digitalassetregistry.com/PoP-License/v1/>`_.
+All Marketplace items are under the Proof of Provenance License (PoP License) v1.0. Custom or alternative licenses are not permitted, unless they are compatible with the PoP license, in which case the additional licenses need to be added to the description or as a comment in the code. You can read more about the PoP license `here <https://digitalassetregistry.com/PoP-License/v1/>`_.
 
 Items may make use of Creative Commons, Open Source, and other free public content. However, the item cannot be primarily composed of such free content. The free content must be either substantially modified or complement content that is entirely your own.
 
@@ -75,7 +74,7 @@ Inappropriate Content
 Restricted Content
 ----------------------------
 
-Any content marketed as a version of an item that is meant to allow users to experience a product before purchasing the full version is permitted (demo, trial, lite etc). The description text must clearly state all limitations, and the restricted version must be free. 
+We accept versions of content that allow the user to experience the product prior to purchasing the full version (demo, trial, lite etc.) For these submissions, the item must be free and the description text must clearly state all limitations of the item.
 
 -----------------------------
 Submissions with Scripts
