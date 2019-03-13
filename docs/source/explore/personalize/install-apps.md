@@ -2,7 +2,7 @@
 
 You can enhance your experience in High Fidelity by installing apps from the Marketplace. These apps enable you to get more out of High Fidelity. Do you want to record your avatar dancing, take selfies, or finger paint? Or are you looking to livestream to YouTube or make your avatar clap? Our Marketplace has a number of apps that can help you customize your experience in-world. 
 
-If you can't find an app for what you'd like to do, you can [create your own](../../create/applications) and upload it to our Marketplace for your personal use or to sell to others.
+If you can't find an app for what you'd like to do, you can [create your own](../../create/applications.html) and upload it to our Marketplace for your personal use or to sell to others.
 
 **On This Page:**
 
@@ -95,4 +95,4 @@ To use the Text to Speech (TTS) app:
 ![](_images/tts.png)
 
 **See Also**
-+ [Create Applications](../../create/applications)
++ [Create Applications](../../create/applications.html)

@@ -68,7 +68,7 @@ If a script has the proper credentials, it can check a user's Recent Activity an
 This feature in used in the tutorial to [create a VIP zone](#tutorial-create-a-vip-access-zone). 
 
 ## Add a Tip Jar
-In this example, we walk through creating an entity that, when clicked, will prompt a user to send you 10 HFC. This tutorial uses a [client entity script](client-entity-scripts) to transfer money.
+In this example, we walk through creating an entity that, when clicked, will prompt a user to send you 10 HFC. This tutorial uses a [client entity script](client-entity-scripts.html) to transfer money.
 
 Here are the steps for this tutorial: 
 + [Create a "Tip Jar" in Your Domain](#create-a-tip-jar-in-your-domain)
@@ -269,7 +269,7 @@ In this step, you will put the "Authorization ID" and "Coupon ID" into some sort
 </div>
 
 ### Allow Users to Start the Slot Machine
-You need to provide your users with a way to add slot machine play credits. You can do this by adding a [client entity script](client-entity-scripts) to the Slot Machine entity.
+You need to provide your users with a way to add slot machine play credits. You can do this by adding a [client entity script](client-entity-scripts.html) to the Slot Machine entity.
 
 This script will display a message "1 Slot Machine Play Credit" when they click the text or border around the text on the slot machine. They can pay the specified user (you) 1 HFC to play.
 

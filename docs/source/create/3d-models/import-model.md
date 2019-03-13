@@ -19,7 +19,7 @@ If you wish to make your model [available for purchase on our Marketplace](../..
 
 ## Import 3D Models Using the Asset Server
 
-You can [import your 3D model through your Asset Server](../../host/manage-assets#add-an-asset-to-the-asset-server.html). The Asset Server hosts files or assets that can either be added as-is to a domain or that are referenced by existing entities and scripts already in a domain. This is accessible only in a domain where you have the permission to create and edit an entity.
+You can [import your 3D model through your Asset Server](../../host/manage-assets.html#add-an-asset-to-the-asset-server). The Asset Server hosts files or assets that can either be added as-is to a domain or that are referenced by existing entities and scripts already in a domain. This is accessible only in a domain where you have the permission to create and edit an entity.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Click 'Open this Domain's Asset Server'.

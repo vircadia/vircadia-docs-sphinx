@@ -90,7 +90,7 @@ The People Access List (PAL) is a handy tool for moderating your event once it h
 
 ## Configure a Place Name
 
-To authenticate and make your domain easier for users to find, you can purchase a [place name](place-name) that connects to your domain.
+To authenticate and make your domain easier for users to find, you can purchase a [place name](place-name.html) that connects to your domain.
 
 ## Additional Server Settings
 

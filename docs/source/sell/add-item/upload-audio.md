@@ -9,10 +9,10 @@ Once you've created music or ambient sounds for your domain, you need to add the
 
 **On This Page**
 
-* [Prepare Your Entity's FBX File](upload-model#prepare-your-fbx-file)
+* [Prepare Your Entity's FBX File](upload-model.html#prepare-your-fbx-file)
 * [Prepare Your Script File](#prepare-your-script-file)
 * [Add Your Assets](#add-your-assets)
-* [Generate the JSON File for Your Entity](upload-model#generate-the-json-file-for-your-entity)
+* [Generate the JSON File for Your Entity](upload-model.html#generate-the-json-file-for-your-entity)
 * [Upload Your Entity's JSON File](#upload-your-entitys-json-file)
 
 ## Prepare Your Script File

@@ -31,7 +31,7 @@ You can get the script [here](https://open-tablet-to-page.glitch.me/openTabletPa
 The entity you create for your button has to be [triggerable](entity-behavior.html#set-an-entity-to-trigger-scripts) so that the script can detect when you trigger or push the button with your hand controllers.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. [Create an entity](create-entities) to be used as a button. This can be a 3D model, cube, or sphere entity.
+2. [Create an entity](create-entities.html) to be used as a button. This can be a 3D model, cube, or sphere entity.
 3. Go to the 'Properties' tab and scroll down to 'Behavior'.
 4. Paste the following JSON data into the 'User data' field for your entity:
 	```
@@ -48,7 +48,7 @@ The entity you create for your button has to be [triggerable](entity-behavior.ht
 6. Scroll down and ensure that 'Triggerable' is selected.
 7. After you exit the **Create** app, test your script by clicking or triggering the button to open the Marketplace web page for your item.
 
-![](_images/open-page.GIF)
+![](_images/open-page.gif)
 
 **See Also**
 

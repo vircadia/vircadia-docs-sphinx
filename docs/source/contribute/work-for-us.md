@@ -48,4 +48,4 @@ In order to work with us, we require that you set the `HIFI_TESTER` environment 
 
 **See Also**
 
-+ [Install Your Sandbox](../host/your-domain/install-domain#install-your-sandbox)
++ [Install Your Sandbox](../host/your-domain/install-domain.html#install-your-sandbox)

@@ -37,7 +37,7 @@ The Inventory app provides an interface to manage your transactions, purchases, 
 
 * View your recent purchases, sales, gifts and other transaction history
 * Change avatars, put on wearables and install/update apps
-* [Send HFC to your friends or anyone nearby](socialize#send-hfc-to-others)
+* [Send HFC to your friends or anyone nearby](socialize.html#send-hfc-to-others)
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
