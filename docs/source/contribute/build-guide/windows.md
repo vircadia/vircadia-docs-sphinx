@@ -38,7 +38,7 @@ If you already have Visual Studio installed and need to add Python:
 * Check 'Python Development' and allow the installer to apply the changes.
 
 #### 1a. Alternate Install of Python
-If you don't wish to use the Python installation bundled with Visual Studio, you can download the installer [here](https://www.python.org/downloads). Ensure you get version 3.6.6 or higher.
+If you don't wish to use the Python installation bundled with Visual Studio, you can download the installer [here](https://www.python.org/download). Ensure you get version 3.6.6 or higher.
 
 #### 2. Install CMake
 

@@ -35,6 +35,6 @@ After hosting your wearable in the cloud or the Marketplace, [put it on](../expl
 
 **See Also**
 
-+ [Add Your Wearable](../../sell/add-item/upload-wearable.html)
++ [Add Your Wearable](../sell/add-item/upload-wearable.html)
 + [Get Your 3D Model](3d-models/get-model.html)
 + [Put On Wearables](../explore/personalize/add-wearables.html)
