@@ -52,7 +52,7 @@ Now you are ready to use your avatar! To locate the URL for your avatar:
 
 This is the URL you will use when you [change your avatar](../../explore/personalize/change-avatar.html) in High Fidelity.
 
-If you wish to sell your avatar on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us.html#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
+If you wish to sell your avatar on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../sell/markdown-guide.html) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
 
 **See Also**
 

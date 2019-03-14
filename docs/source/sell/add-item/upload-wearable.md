@@ -56,7 +56,7 @@ If your wearable could be re-imported without any issues, it is now ready to be 
 Click the JSON file as your root file in the Asset Viewer. 
 7. Save your submission.
 
-If you wish to sell your wearable on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us.html#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
+If you wish to sell your wearable on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../sell/markdown-guide.html) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
 
 **See Also**
 
