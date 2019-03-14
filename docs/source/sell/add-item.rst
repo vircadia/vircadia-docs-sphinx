@@ -197,4 +197,4 @@ Follow these guidelines when uploading content to the Marketplace:
 4. Items may not have .js root files. You should either make an app to run scripts, or attach scripts to entities that will be rezzed through a .json file.
 5. All entities must have a name, even if they are invisible or simple primitives.
 6. Please use English in your package description, support text, and code comments.
-7. If needed, you may use `Markdown syntax <../contribute/write-for-us.html#id1>`_ in your description text.
+7. If needed, you may use `Markdown syntax <../../sell/markdown-guide.html>`_ in your description text.
