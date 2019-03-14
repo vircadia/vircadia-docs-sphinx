@@ -15,10 +15,10 @@ Before uploading your environment to the Marketplace, make sure that you created
 11. Click 'Choose Files' and navigate to where your environment download is saved on your computer. Select the ZIP file, click 'Open' and wait for it to upload.
 12. Save your submission.
 
-If you wish to sell your environment on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../../contribute/write-for-us#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace. 
+If you wish to sell your environment on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us.html#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace. 
 
 **See Also**
 
-+ [Configure Your Domain Settings](../../host/your-domain/configure-settings)
-+ [Backup Your Domain](../../host/backup-restore-domain#backup-your-domain)
-+ [Marketplace Submission Rules](../submission-rules)
++ [Configure Your Domain Settings](../../host/your-domain/configure-settings.html)
++ [Backup Your Domain](../../host/backup-restore-domain.html#backup-your-domain.html)
++ [Marketplace Submission Rules](../submission-rules.html)

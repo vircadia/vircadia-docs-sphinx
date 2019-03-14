@@ -13,8 +13,8 @@ In this tutorial, you will learn how light entities work by creating a gold spot
 
 Consider getting familiar with the following concepts before starting this tutorial:
 
-+ [Create New Entities](create-entities)
-+ [Change How Entities Look](entity-appearance)
++ [Create New Entities](create-entities.html)
++ [Change How Entities Look](entity-appearance.html)
 
 ## Create a Wall to Shine the Light On
 
@@ -59,6 +59,6 @@ Congratulations! You've created a soft gold spotlight! You can experiment with d
 
 **See Also**
 
-+ [Create New Entities](create-entities)
-+ [Change How Entities Look](entity-appearance)
-+ [Creator Tools](../tools)
++ [Create New Entities](create-entities.html)
++ [Change How Entities Look](entity-appearance.html)
++ [Creator Tools](../tools.html)

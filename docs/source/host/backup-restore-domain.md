@@ -12,7 +12,7 @@ You can create domain backups for just the content in your domain, or your entir
 
 ## Backup Your Domain Content
 
-You can use the [content archives](your-domain/configure-settings#content-archives) in your domain settings, to backup and restore your domain content. Content archives contain information about the 3D models, content settings, and assets in your Asset Server. 
+You can use the [content archives](your-domain/configure-settings.html#content-archives) in your domain settings, to backup and restore your domain content. Content archives contain information about the 3D models, content settings, and assets in your Asset Server. 
 
 By default, automatic content archives settings exist and create backups in intervals. You can access these archives or generate a new one to create a backup. 
 

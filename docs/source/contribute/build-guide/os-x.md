@@ -19,7 +19,7 @@ brew install cmake openssl qt
 ```
 
 #### 2. Install Python 3
-Download an install of Python 3.6.6 or higher from [here](https://www.python.org/downloads). Execute the `Update Shell Profile.command` script that is provided with the installer.
+Download an install of Python 3.6.6 or higher from [here](https://www.python.org/download). Execute the `Update Shell Profile.command` script that is provided with the installer.
 
 #### 3. Set OpenSSL Directory
 Assuming you've installed OpenSSL using the Homebrew instructions above, you'll need to set `OPENSSL_ROOT_DIR` so CMake can find your installations.

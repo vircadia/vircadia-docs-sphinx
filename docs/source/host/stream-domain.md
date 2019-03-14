@@ -25,7 +25,7 @@ When you want to stream audio from your computer to your domain, you can use the
 6. Prepare to broadcast audio. Adjust the volume on your own computer to change the volume in High Fidelity. To prevent feedback, mute High Fidelity in the Volume Mixer. Remember, you will not be able to talk while you are broadcasting audio with Stereo Mix.
 7. Position the avatar within the domain. This can be tricky, so we recommend giving yourself extra time to prepare. You will now be able to hear the audio from your computer in High Fidelity.
 
-You can change the natural attenuation and reverb of an audio source by [creating Audio Zones](your-domain/configure-settings#audio-environments). Audio Zones will allow you to modify the audio effects of different parts of the domain to better fit your style. 
+You can change the natural attenuation and reverb of an audio source by [creating Audio Zones](your-domain/configure-settings.html#audio-environments). Audio Zones will allow you to modify the audio effects of different parts of the domain to better fit your style. 
 
 ### Troubleshooting
 + If you cannot find Stereo Mix in your audio devices, check out [this document](https://www.howtogeek.com/howto/39532/how-to-enable-stereo-mix-in-windows-7-to-record-audio/).
@@ -68,7 +68,7 @@ Ensure you have the permission to live stream through the channel of your choice
 Before you start recording and streaming, determine if this is a one-time event, or if it is a show or event, and the type of VR personality you'd like to have. 
 
 + Depending on your requirements, you can use your desktop, an HMD with or without controllers, or a motion capture system.
-+ Download High Fidelity's [Spectator Camera](../explore/personalize/install-apps#spectator-cam) Marketplace app. 
++ Download High Fidelity's [Spectator Camera](../explore/personalize/install-apps.html#spectator-cam) Marketplace app. 
 + Set up OBS to stream your Spectator Camera's view. 
 
 ### Set Up OBS for Streaming from High Fidelity
@@ -84,8 +84,8 @@ Before you start recording and streaming, determine if this is a one-time event,
 
 **See Also**
 
-+ [Spectator Camera](../explore/personalize/install-apps#spectator-cam) 
-+ [Edit Your Audio Environment](your-domain/configure-settings#audio-environments)
++ [Spectator Camera](../explore/personalize/install-apps.html#spectator-cam) 
++ [Edit Your Audio Environment](your-domain/configure-settings.html#audio-environments)
 + [Official OBS Guide for Beginners](https://obsproject.com/forum/threads/official-overview-guide.402/) 
 + [Official OBS Guide for Advanced Users](https://obsproject.com/forum/threads/official-quick-start-guide.410/)
 

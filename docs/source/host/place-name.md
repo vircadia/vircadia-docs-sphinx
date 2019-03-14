@@ -34,7 +34,7 @@ After you purchase a Place Name, you need to connect it to your domain. If you d
 3. Copy the Domain ID. 
 3. Go to [https://highfidelity.com/user/places](https://highfidelity.com/user/places) and edit the Place Name you purchased. 
 4. Paste the domain ID you copied in the 'Points To' field. 
-5. Enter a ['Path'](your-domain/configure-settings#set-an-entry-path-for-users), 'Description', and 'Preview Image' (optional).
+5. Enter a ['Path'](your-domain/configure-settings.html#set-an-entry-path-for-users), 'Description', and 'Preview Image' (optional).
 6. Click 'Update Place'.
 7. Next, configure your domain server to use the domain of your choice (in case it already isn't configured). Right-click the High Fidelity icon on your system tray or top menu bar, and click 'Settings'.
 8. In your domain server settings, under the 'Metaverse/Networking' section, click 'Advanced Settings'. 
@@ -49,7 +49,7 @@ When you purchase a new Place Name, if you connect it with your domain ID, users
 
 1. Go to https://highfidelity.com/user/places. Edit the Place Name you purchased. 
 2. Add the existing Place Name under the 'Points To' field. 
-3. Enter a ['Path'](your-domain/configure-settings#set-an-entry-path-for-users), 'Description', and 'Preview Image' (optional).
+3. Enter a ['Path'](your-domain/configure-settings.html#set-an-entry-path-for-users), 'Description', and 'Preview Image' (optional).
 4. Click 'Update Place'.
 5. You and other users will now be able to access your domain using Interface by typing the Place Name into the *Address Bar*. You may also use the URL `hifi://MyPlaceName`.
 
@@ -70,5 +70,5 @@ To see your Place listed in the GoTo directory in Interface, you will need to mo
 
 **See Also**
 
-+ [Set an Entry Path for Users](your-domain/configure-settings#set-an-entry-path-for-users)
-+ [Configure Basic Server Settings](your-domain/configure-settings#configure-basic-server-settings)
++ [Set an Entry Path for Users](your-domain/configure-settings.html#set-an-entry-path-for-users)
++ [Configure Basic Server Settings](your-domain/configure-settings.html#configure-basic-server-settings)

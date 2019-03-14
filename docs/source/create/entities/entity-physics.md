@@ -17,7 +17,7 @@ To apply physics properties to an entity:
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Select or add any entity of your choice. 
-3. Go to the 'Properties' tab and scroll down to 'Collisions'. Make your entity 'Dynamic'. Only dynamic entities can have physics properties applied to them. You can learn more about dynamic and static entities [here](entity-behavior).
+3. Go to the 'Properties' tab and scroll down to 'Collisions'. Make your entity 'Dynamic'. Only dynamic entities can have physics properties applied to them. You can learn more about dynamic and static entities [here](entity-behavior.html).
 4. In the 'Properties' tab, scroll down to find the physics properties. When you first create an entity, the physics properties are set to the default values you can see in the image below. ![](_images/physics-prop.PNG)
 
 ## Change an Entity's Velocity
@@ -59,7 +59,7 @@ In High Fidelity, damping represents how much of an entity's linear or angular v
 
 To set the linear damping of an object:
 
-1. Scroll down to the 'Linear Damping' property under 'Physics' in the 'Properties' tab.The default value is `0.00`. 
+1. Scroll down to the 'Linear Damping' property under 'Physics' in the 'Properties' tab. The default value is `0.00`. 
 2. [Change the linear velocity](#change-an-entitys-linear-velocity) of a cube to any value. 
 3. Change the 'Linear Damping' value to `1.00` to make the cube stop moving. You can change this value to anything between `0.00` and `1.00` to make an entity slow down over time. 
 
@@ -116,6 +116,6 @@ In the **Create** app, 'Gravity' is the acceleration of the entity, as if it wer
 
 **See Also**
 
-+ [Define an Entity's Behavior](entity-behavior)
-+ [Interact with Your Environment](../../explore/interact)
-+ [Define Interactions with Avatars](avatar-interactions)
++ [Define an Entity's Behavior](entity-behavior.html)
++ [Interact with Your Environment](../../explore/interact.html)
++ [Define Interactions with Avatars](avatar-interactions.html)

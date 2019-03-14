@@ -3,7 +3,7 @@
 The Marketplace Bill of Rights states the privileges given to our creators and the rights High Fidelity holds over content.  
 
 High Fidelity will:
-* Enforce the [Marketplace Guidelines](submission-rules) fairly, without giving preference or other advantages to High Fidelity staff or affiliates.
+* Enforce the [Marketplace Guidelines](submission-rules.html) fairly, without giving preference or other advantages to High Fidelity staff or affiliates.
 * Review all submissions within seven (7) business days of their submission to the Marketplace, and communicate the result of the review to the creator.
     * If 7 business days is not possible, we will contact the seller within this time frame to discuss any problems.
 * Keep content in Draft mode accessible for 30 days. If an item is in Draft mode for longer than this, it will be removed. We strongly recommend keeping local backups of your content for this reason.
@@ -19,4 +19,4 @@ High Fidelity will:
 
 **See Also**
 
-+ [Marketplace Submission Rules](submission-rules)
++ [Marketplace Submission Rules](submission-rules.html)
