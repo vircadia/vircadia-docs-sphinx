@@ -19,7 +19,7 @@ You have the power to shape your VR experience in High Fidelity.
 * :doc:`SCRIPT <script>` and express your creativity by applying advanced scripting concepts to entities and avatars in the metaverse.
 * :doc:`HOST <host>` and make immersive experiences to educate, entertain, and connect with your audience.
 * :doc:`SELL <sell>` your creations to others and make money in the metaverse using the High Fidelity Marketplace.
-* :doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source code on GitHub or picking up a paid assignment on Worklist.
+* :doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source code on GitHub.
 
 .. toctree::
     :maxdepth: 2

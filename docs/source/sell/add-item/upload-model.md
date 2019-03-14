@@ -51,7 +51,7 @@ At this time, we recommend that you test your item using the [Marketplace Item T
 Click the JSON file as your root file in the Asset Viewer. ![](_images/select-root.png)
 8. Save your submission.
 
-If you wish to sell your 3D model on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us.html#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
+If you wish to sell your 3D model on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../sell/markdown-guide.html) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
 
 **See Also**
 

@@ -17,4 +17,5 @@ Throughout this chapter, learn how you can upload your items to the Marketplace 
     Ownership of Your Items <sell/own-item>
     Marketplace Bill of Rights <sell/bill-of-rights>
     Marketplace Submission Rules <sell/submission-rules>
+    Marketplace Markdown Guide <sell/markdown-guide>
     Certified App Design Guidelines <sell/certified-apps>
