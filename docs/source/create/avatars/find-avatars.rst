@@ -31,7 +31,7 @@ You will need the following to use this tool:
 
 + Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)
 + High Fidelity (v0.77.0 or higher)
-+ `High Fidelity Avatar Exporter for Unity <https://github.com/highfidelity/hifi/raw/a9895a90e59c8678a13cdc70be31077bcfe9578b/tools/unity-avatar-exporter/avatarExporter.unitypackage>`_ (v0.1)
++ `High Fidelity Avatar Exporter for Unity <https://github.com/highfidelity/hifi/raw/348ac3167ffb8ba20a25e86b5a6a69407598d36d/tools/unity-avatar-exporter/avatarExporter.unitypackage>`_ (v0.2)
 
 .. note:: Please note that the recommended version of Unity is not the latest version. If you are using a newer version of Unity, we recommend that you apply a T-Pose to your avatar. To do so, go to the 'Inspector', and click 'Pose' near the bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click 'Apply' and 'Done'. We recommend doing this after correcting any issues with remapping bones.
 
@@ -52,7 +52,7 @@ Install the Avatar Exporter
 
 .. note:: You need to install the extension for each Unity project that you have. Keep in mind, however, that you can import and export multiple avatars in a single Unity project.  
 
-1. Download the `avatar exporter <https://github.com/highfidelity/hifi/raw/a9895a90e59c8678a13cdc70be31077bcfe9578b/tools/unity-avatar-exporter/avatarExporter.unitypackage>`_ from High Fidelity. 
+1. Download the `avatar exporter <https://github.com/highfidelity/hifi/raw/348ac3167ffb8ba20a25e86b5a6a69407598d36d/tools/unity-avatar-exporter/avatarExporter.unitypackage>`_ from High Fidelity. 
 2. In Unity, open the 'Project' window at the bottom.
 
 .. image:: _images/project-window.png
