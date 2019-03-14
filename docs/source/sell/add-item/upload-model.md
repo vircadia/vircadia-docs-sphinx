@@ -21,7 +21,7 @@ You will need to upload these files to the Marketplace, along with any supportin
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>If you intend to upload and sell your avatar to the Marketplace, you need to set your base material color to white (some apps default to grey). This ensures that the avatar renders correctly for all users and that it will be accepted into our Marketplace.</p>
+    <p>If you intend to upload and sell your 3D model to the Marketplace, you need to set your base material color to white (some apps default to grey). This ensures that the model renders correctly for all users and that it will be accepted into our Marketplace.</p>
 </div>
 
 ### Add Your 3D Model Assets
