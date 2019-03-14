@@ -6,6 +6,8 @@ High Fidelity has two different installers, based on how you use High Fidelity. 
 * [Minimum System Requirements](#minimum-system-requirements)
 * [Client-Only Installer](#client-only-installer)
 * [Client and Sandbox Installer](#client-and-sandbox-installer)
+* [Install from Steam](#install-from-steam)
+* [Install from the Oculus Store](#install-from-the-oculus-store)
 * [Perform a Clean Installation](#perform-a-clean-installation)
 	* [Windows](#windows-clean-install)
 	* [Mac](#mac-clean-install)
@@ -65,6 +67,36 @@ If you want to [host content](../../host) in the metaverse, you will need to ins
 1. Select your platform and download the installer.
 2. Run the High Fidelity installer.
 3. Follow the prompts and complete the installation.
+
+## Install from Steam
+
+You can install High Fidelity using Steam. You will need to install [SteamVR](https://store.steampowered.com/search/?snr=1_5_9__12&term=steamvr) to use High Fidelity in VR mode. 
+
+1. Go to the [High Fidelity page](https://store.steampowered.com/app/390540/) in the Steam Store. 
+2. Click 'Play Game' to go through the installer. 
+3. Follow the prompts and complete the installation. 
+
+
+## Install from the Oculus Store
+
+High Fidelity is available as an early access VR experience in the Oculus Store. 
+
+1. Go to the [High Fidelity page](https://www.oculus.com/experiences/rift/1255907384473836/) in the Oculus Store.
+2. Click 'Free' to start installing. 
+3. Click 'Start' to start using High Fidelity. 
+
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>If you already have a High Fidelity account, you can link it to your Oculus account:</p>
+    <ol>
+    	<li> Launch Interface from your Oculus Library.</li>
+    	<li> Click 'Continue with Oculus' when you're redirected to the log in page. </li>
+    	<li> Click the 'Already have a High Fidelity profile' text, below the Terms of Service statement. </li>
+    	<li> Log in using your High Fidelity credentials, which are now linked to your Oculus account. </li>
+    </ol>
+</div>
+
+
 
 ## Perform a Clean Installation
 
