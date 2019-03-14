@@ -12,12 +12,12 @@ Entities are often used to add objects to your environment. However, you can do 
 
 Consider getting familiar with the following concepts before starting this tutorial:
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
 
 ## Write a Script to Open a Web Page
 
@@ -31,7 +31,7 @@ You can get the script [here](https://open-tablet-to-page.glitch.me/openTabletPa
 The entity you create for your button has to be [triggerable](entity-behavior.html#set-an-entity-to-trigger-scripts) so that the script can detect when you trigger or push the button with your hand controllers.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. [Create an entity](create-entities) to be used as a button. This can be a 3D model, cube, or sphere entity.
+2. [Create an entity](create-entities.html) to be used as a button. This can be a 3D model, cube, or sphere entity.
 3. Go to the 'Properties' tab and scroll down to 'Behavior'.
 4. Paste the following JSON data into the 'User data' field for your entity:
 	```
@@ -48,14 +48,14 @@ The entity you create for your button has to be [triggerable](entity-behavior.ht
 6. Scroll down and ensure that 'Triggerable' is selected.
 7. After you exit the **Create** app, test your script by clicking or triggering the button to open the Marketplace web page for your item.
 
-![](_images/open-page.GIF)
+![](_images/open-page.gif)
 
 **See Also**
 
-- [Create New Entities](create-entities)
-- [Change How Entities Look](entity-appearance)
-- [Define an Entity's Behavior](entity-behavior)
-- [Get Started with Scripting](../../script/get-started-with-scripting)
-- [Client Entity Scripts](../../script/client-entity-scripts)
-- [Write Your Own Scripts](../../script/write-scripts)
-- [Interact with Your Environment](../../explore/interact)
+- [Create New Entities](create-entities.html)
+- [Change How Entities Look](entity-appearance.html)
+- [Define an Entity's Behavior](entity-behavior.html)
+- [Get Started with Scripting](../../script/get-started-with-scripting.html)
+- [Client Entity Scripts](../../script/client-entity-scripts.html)
+- [Write Your Own Scripts](../../script/write-scripts.html)
+- [Interact with Your Environment](../../explore/interact.html)
