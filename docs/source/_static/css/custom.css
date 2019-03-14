@@ -98,7 +98,7 @@ h3 {
 }
 
 h4 {
-    font-family: "proxima-nova";
+    font-family: 'Graphik Regular';
 	font-size: 1.03rem;
 }
 
@@ -265,6 +265,10 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
     margin-left: 40px;
 }
 
+.wy-plain-list-disc li ul, .rst-content .section ul li ul, .rst-content .toctree-wrapper ul li ul, article ul li ul {
+    margin-top: 5px;
+}
+
 .rst-content .section ol li ol {
     margin-bottom: 0px;
 }
@@ -294,10 +298,6 @@ li table {
     padding-bottom: 200px;
 }
 
-td p {
-    font-size: 1em;
-}
-
 .center-cell td {
     border: none;
     text-align: center;
@@ -316,9 +316,16 @@ td p {
 }
 
 .wy-table td, .rst-content table.docutils td, .rst-content table.field-list td, .wy-table th, .rst-content table.docutils th, .rst-content table.field-list th {
-    font-size: .85rem;
     padding: 12px 20px;
     line-height: 1.5;
+}
+
+.rst-content table.docutils td p {
+    font-size: .85rem;    
+}
+
+.rst-content table.docutils td ul li, .rst-content table.docutils td ol li {
+    font-size: .89rem;
 }
 
 .wy-table-odd td, .wy-table-striped tr:nth-child(2n-1) td, .rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
