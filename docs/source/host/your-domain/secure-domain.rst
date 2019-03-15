@@ -167,6 +167,34 @@ To protect specific entities:
         filter;
     });
 
+
+To allow only changes to entities' basic physics properties:
+
+.. code::
+
+    // allow physics, reject all other changes including adds and deletes
+    (function() {
+        function filter() { 
+            return false;
+        }
+        filter.wantsToFilterAdd = true; // run on adds
+        filter.wantsToFilterEdit = true; // run on edits
+        filter.wantsToFilterPhysics = false; // don't run on physics
+        filter.wantsToFilterDelete = true; // do run on deletes
+        filter;
+    });
+
+
+To reject any type of change to your domain and protect all entities:
+
+.. code::
+
+    function filter(properties, filterType, originalProperties) {
+        // doesn't matter here if rejectAll is set to true
+    }
+    // If reject all is true.  Any of the filterType changes won't go through
+    filter.rejectAll = true; // default false
+
 You can add these scripts to a specific zone in your domain as well. 
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
