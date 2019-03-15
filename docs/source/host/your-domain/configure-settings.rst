@@ -5,7 +5,7 @@ Configure Your Domain Settings
 While you can use the sandbox as is, we recommend that you configure your domain settings to ensure that it is secure and serves your needs. 
 
 .. contents:: On This Page
-    :depth: 2
+    :depth: 3
 
 --------------------------------------
 Configure Basic Server Settings
@@ -48,11 +48,20 @@ If this is not the first time you've opened your domain settings, you will not s
 
 For example, the 'Metaverse/Networking' section defines all of the network settings for your domain. Here, you can disconnect your High Fidelity account, view your access token, create a new domain ID, change your UDP port, and Enable Packet Verification. 
 
-'Local UDP Port' is the port that needs to be opened for High Fidelity to let users into your local sandbox. The default value for this port is '40102'.  Set this value in the settings and add ``interface.exe`` and ``domain-server.exe`` to your firewall to avoid any issues.
-
 .. image:: _images/metaverse-settings.png
 
-.. note:: If you modify your settings, you'll need to save and restart for the new settings to be reflected. You can do this by clicking 'Save' and then restarting your server by clicking 'Restart' once you're done with your modifications. This saves your settings and restarts your domain server.
+.. note:: If you modify your domain settings, you'll need to save and restart for the new settings to be reflected. You can do this by clicking 'Save' and then restarting your server by clicking 'Restart' once you're done with your modifications. This saves your settings and restarts your domain server.
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Firewall Settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Ensure that your firewall settings allow you to run High Fidelity and let other users visit your domain.
+
+1. In your domain server settings, set the Local UDP port value. 'Local UDP Port' is the port that needs to be opened for High Fidelity to let users into your local sandbox. The default value for this port is '40102'.
+2. Open the same port in the firewall settings for your machine.
+3. Add ``interface.exe`` and ``domain-server.exe`` to your firewall settings in your OS.
+
 
 ^^^^^^^^^^^^^^^^^^^^^^
 View Your Logs
