@@ -136,6 +136,15 @@ h5 {
     font-size: 0.85rem;
 }
 
+/***********************************/
+/********** Search styles **********/
+/***********************************/
+
+.rst-content .highlighted {
+    background: #ffed00;
+    font-weight: normal;
+    padding: 0 2px;
+}
 
 /***********************************/
 /*********** Note styles ***********/
@@ -157,6 +166,7 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 .note p {
     padding: 5px;
 }
+
 /***********************************/
 /*********** Nav styles ************/
 /***********************************/
