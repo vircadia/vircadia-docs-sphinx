@@ -155,11 +155,13 @@ High Fidelity avatars support a number of blendshapes for creating different fac
 These blendshapes are used when you speak. 
 
 Your eyebrows are blendshapes that react to a change in volume. They will move upwards when your voice gets louder. These include:
+
 - `BrowsU_C`: Center of the brow going up
 - `BrowsU_L`: Outside corner of the left brow going up
 - `BrowsU_R`: Outside corner of the right brow going up
 
 Other audio blendshapes are randomly mixed when you speak. These include:
+
 - `MouthSmile_L`: Left side of the mouth lifting up to a smile
 - `MouthSmile_R`: Right side of the mouth lifting up to a smile
 - `LipsFunnel`: Funneling of the lips, as when you say "Oh!"
@@ -167,13 +169,22 @@ Other audio blendshapes are randomly mixed when you speak. These include:
 
 **Eyelid Offset**
 
-To ensure that the top of the eyelid rests on the iris, blendshapes are used to track the current position of the eye along with your head orientation. We apply a small offset to these blendshapes to preview sleepy or crazy eye lids.
+To ensure that the top of the eyelid rests on the iris, blendshapes are used to track the current position of the eye along with your head orientation.  
+
 - `EyeBlink_L`: Blinking action for the left eye
 - `EyeBlink_R`: Blicking action for the right eye
 - `EyeOpen_L`: Opening of left eye
 - `EyeOpen_R`: Opening of right eye
 - `BrowsD_L`: Outside corner of the left brow moving down
 - `BrowsD_R`: Outside corner of the right brow moving down
+
+
+We apply a small procedural offset to the blendshapes' coefficients to prevent sleepy or crazy eye lids. We've detailed how the blendshapes change in value as your eyes move. 
+
+- If you are looking straight ahead: The `EyeBlink` and `EyeOpen` coefficients will be `0`.
+- If your eyes begin to look upward: `EyeBlink`, `EyeOpen`, and `BrowsU` start changing in value, reaching the values of `-1`, `1`, and `0.5` respectively at `16.3` degrees. This will have the effect of raising your lids and brows as you look upward.
+- If your eyes begin to look downward: `EyeBlink` and `EyeOpen` start changing in value. `EyeBlink` reaches a value of `0.5` at `32` degrees. `EyeOpen` will reach a value of `0.5` at 27 degrees. This will have the effect of lowering your lids as you look downward.
+
 
 Tweaks to your blendshapes can be made in your 3D modeling tool, or directly in the FST file. In the FST file, blendshapes are defined with the syntax: 
 
