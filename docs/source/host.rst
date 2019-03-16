@@ -11,6 +11,7 @@ Throughout this chapter, learn how to set up a domain, secure and host it, and m
     :titlesonly:
 
     Set Up Your Domain <host/your-domain>
+    Secure Your Domain <host/secure-domain>
     Manage Your Domain Assets <host/manage-assets>
     Host Your Domain <host/host-your-domain>
     Add a Place Name <host/place-name>
