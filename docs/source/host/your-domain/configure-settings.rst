@@ -50,7 +50,7 @@ For example, the 'Metaverse/Networking' section defines all of the network setti
 
 .. image:: _images/metaverse-settings.png
 
-.. note:: If you modify your domain settings, you'll need to save and restart for the new settings to be reflected. You can do this by clicking 'Save' and then restarting your server by clicking 'Restart' once you're done with your modifications. This saves your settings and restarts your domain server.
+.. note:: If you modify your domain settings, you need to save and restart for the new settings to be reflected. Click 'Save', and then 'Restart' once you're done with your modifications. This saves your settings and restarts your domain server.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Firewall Settings
