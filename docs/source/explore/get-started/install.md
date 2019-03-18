@@ -53,14 +53,14 @@ High Fidelity has two different installers, based on how you use High Fidelity. 
 
 ## Client-Only Installer
 
-You can download the Client-Only installer through Steam or via [High Fidelity's website](https://highfidelity.com/download/client). To install: 
+You can download the Client-Only installer through Steam or via [High Fidelity's website](https://www.highfidelity.com/download). To install: 
 
 1. Select your platform and download the installer.
 2. Run the High Fidelity installer.
 3. Follow the prompts and complete the installation.
 
 ## Client and Sandbox Installer
-If you want to [host content](../../host) in the metaverse, you will need to install the Client + Sandbox version. You can download the Client + Sandbox installer through Steam or [High Fidelity's website](https://highfidelity.com/download/sandbox). To install: 
+If you want to [host content](../../host) in the metaverse, you will need to install the Client + Sandbox version. You can download the Client + Sandbox installer through Steam or [High Fidelity's website](https://www.highfidelity.com/download#sandbox). To install: 
 
 1. Select your platform and download the installer.
 2. Run the High Fidelity installer.
