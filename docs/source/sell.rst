@@ -18,3 +18,4 @@ Throughout this chapter, learn how you can upload your items to the Marketplace 
     Marketplace Bill of Rights <sell/bill-of-rights>
     Marketplace Submission Rules <sell/submission-rules>
     Certified App Design Guidelines <sell/certified-apps>
+    Frequently Asked Questions <sell/faq>
