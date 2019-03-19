@@ -67,6 +67,15 @@ img {
 	line-height: 1rem;
 }
 
+.block {
+    font-family: 'Graphik Regular';
+    font-size: .95rem;
+    line-height: 24px;
+    border-left: solid #ddd 5px; 
+    padding-left: 25px; 
+    margin: 25px;
+}
+
 /***********************************/
 /******** Headings styles **********/
 /***********************************/
