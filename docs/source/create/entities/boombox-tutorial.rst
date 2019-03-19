@@ -32,7 +32,7 @@ The boombox will start playing when users click or trigger the ON/OFF button.
 To create a boombox:
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. Use the **Create** app to :doc:`import the 3D model entity <../3d-models/import-model>`. You can create your own 3D model for the boombox base or `use one we've created <https://github.com/misslivirose/happy-boombox/blob/master/BoomBox.fbx>`_.
+2. Use the **Create** app to :doc:`import the 3D model entity <../3d-models/import-model>`. You can create your own 3D model for the boombox base or `use one we've created <https://github.com/misslivirose/happy-boombox/raw/master/BoomBox.fbx>`_.
 3. Next, :doc:`create the button entity <create-entities>` that users will interact with. This can be a cube entity.
 4. Go to 'Properties' tab for the button entity. Change the 'Shape' property from 'Box' to 'Octagon' or 'Cylinder' depending on your aesthetic preferences.
 5. Scroll down to the 'Behavior' section and ensure that 'Grabbable' and 'Triggerable' are checked. 
