@@ -140,7 +140,7 @@ The eye joints are defined in the FST.
 
 ## Blendshapes
 
-High Fidelity uses Blendshapes to animate your avatar's face. Blendshapes allow you to specify a new state for your avatar's mesh, and facial positions are animated by moving between the different states of your avatar's expressions. Blendshape behaviors are defined in your avatar's FST file, and are added to the avatar mesh using a 3D modeling tool like Blender (Shape Keys) or Maya. Adobe's Fuse program and Mixamo pipeline allow you to export blendshapes as part of your FBX, but if you are modeling an avatar from scratch, you will likely need to specify your own facial expressions.
+High Fidelity uses blendshapes to animate your avatar's face. Blendshapes allow you to specify a new state for your avatar's mesh, and facial positions are animated by moving between the different states of your avatar's expressions. Blendshape behaviors are defined in your avatar's FST file, and are added to the avatar mesh using a 3D modeling tool like Blender (Shape Keys) or Maya. Adobe's Fuse program and Mixamo pipeline allow you to export blendshapes as part of your FBX, but if you are modeling an avatar from scratch, you will likely need to specify your own facial expressions.
 
 High Fidelity avatars support a number of blendshapes for creating different facial expressions.
 
@@ -179,14 +179,14 @@ To ensure that the top of the eyelid rests on the iris, blendshapes are used to 
 - `BrowsD_R`: Outside corner of the right brow moving down
 
 
-We apply a small procedural offset to the blendshapes' coefficients to prevent sleepy or crazy eye lids. We've detailed how the blendshapes change in value as your eyes move. 
+We apply a small procedural offset to the blendshape coefficients to prevent sleepy or crazy eye lids:
 
 - If you are looking straight ahead: The `EyeBlink` and `EyeOpen` coefficients will be `0`.
 - If your eyes begin to look upward: `EyeBlink`, `EyeOpen`, and `BrowsU` start changing in value, reaching the values of `-1`, `1`, and `0.5` respectively at `16.3` degrees. This will have the effect of raising your lids and brows as you look upward.
 - If your eyes begin to look downward: `EyeBlink` and `EyeOpen` start changing in value. `EyeBlink` reaches a value of `0.5` at `32` degrees. `EyeOpen` will reach a value of `0.5` at 27 degrees. This will have the effect of lowering your lids as you look downward.
 
 
-Tweaks to your blendshapes can be made in your 3D modeling tool, or directly in the FST file. In the FST file, blendshapes are defined with the syntax: 
+Tweaks to your blendshapes can be made with a 3D modeling tool, or directly in your avatar's FST file. In the FST file, blendshapes are defined with the syntax: 
 
 <div class="block">
     bs = [blendshape constant] = [your key/blendshape name] = [value between 0 and 1]
