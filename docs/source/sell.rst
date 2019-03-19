@@ -19,3 +19,4 @@ Throughout this chapter, learn how you can upload your items to the Marketplace 
     Marketplace Submission Rules <sell/submission-rules>
     Marketplace Markdown Guide <sell/markdown-guide>
     Certified App Design Guidelines <sell/certified-apps>
+    Frequently Asked Questions <sell/faq>

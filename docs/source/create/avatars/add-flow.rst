@@ -95,11 +95,11 @@ This panel manages collision spheres. Every collision sphere is positioned using
 JSON Panel
 ^^^^^^^^^^^^^^^^^^^^^
 
-This panel displays the output JSON data structure with your avatar's flow configuration, which you then include in your custom flow.js script.
+This panel displays the output JSON data structure with your avatar's flow configuration, which you then include in your `custom flow.js script <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flow.js>`_.
 
 .. image:: _images/jsonpanel.png
 
-This data can be copied and pasted into the `Flow <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flow.js>`_ script between the lines::
+This data can be copied and pasted into the `Flow script <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flow.js>`_ between the lines::
 
     // CUSTOM DATA STARTS HERE
      
@@ -128,6 +128,19 @@ Avatar Examples
 ---------------------------
 
 Here is an example of an avatar that is rigged appropriately to use with Flow: `Mannequin with Hair <https://hifi-content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_.
+
+------------------------------
+Resources
+------------------------------
+
++-------------+---------------------------------------------------------------------+---------------------------------------------------------------------------+
+| File        | Description                                                         | URL                                                                       |
++=============+=====================================================================+===========================================================================+
+| Flow Script | This is a customizable script that runs the Flow app for your       | `Flow.js <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flow.js>`_ |
+|             | avatar. It simulates physics on your avatar's hair, clothes, and    |                                                                           |
+|             | body parts.                                                         |                                                                           |
++-------------+---------------------------------------------------------------------+---------------------------------------------------------------------------+
+
 
 **See Also**
 

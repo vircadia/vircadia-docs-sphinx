@@ -66,6 +66,7 @@ If you want to [host content](../../host) in the metaverse, you will need to ins
 2. Run the High Fidelity installer.
 3. Follow the prompts and complete the installation.
 
+
 ## Perform a Clean Installation
 
 If you're facing problems when you load Interface and Sandbox, you can try performing a clean install. 
