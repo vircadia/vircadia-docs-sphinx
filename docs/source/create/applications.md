@@ -1,13 +1,13 @@
-# Applications
+# Tablet Apps
 
-Applications (apps) in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from our [JavaScript API](https://apidocs.highfidelity.com) and simplify it into a window with controls for others to use. 
+Tablet apps (or simply "apps") in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from our [JavaScript API](https://apidocs.highfidelity.com) and simplify it into a window with controls for others to use. 
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
     <p>To create custom apps, you must have a basic knowledge of web development (HTML, CSS and JavaScript) and be able to navigate our API. </p>
 </div>
 
-The steps involved in creating a custom app are:
+The steps involved in creating a tablet app are:
 
 1. [Create icons to show up on the tablet and HUD](#1-create-icons-to-show-up-on-the-tablet-and-hud)
 2. [Design your app's UI in HTML and CSS](#2-design-your-apps-ui-in-html-and-css)
@@ -19,9 +19,7 @@ The steps involved in creating a custom app are:
 	* Listens for events
 	* Runs your code (in this case, [create some gemstones](#5-create-gemstones))
 
-
-
-## Tutorial: Create Gemstone Switching App
+## Tutorial: Create Gemstone Switching Tablet App
 In this tutorial, we will walk through the above steps to create an app called "Gemstone Magic Maker". This simple app lets you spawn colorful little gemstones in VR that you can share with your friends.  
 
 ### 1. Create icons to show up on the tablet and HUD
