@@ -123,24 +123,25 @@ In order to :doc:`attach a script to your avatar <../../script/avatar-scripts>`,
 
 When packaging your model, the tool will iterate through the directory and add each script to the FST file. Now, you can upload the folder structure to the Marketplace or to your preferred hosting service.
 
----------------------------
-Avatar Examples
----------------------------
-
-Here is an example of an avatar that is rigged appropriately to use with Flow: `Mannequin with Hair <https://hifi-content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_.
-
 ------------------------------
 Resources
 ------------------------------
 
-+-------------+---------------------------------------------------------------------+---------------------------------------------------------------------------+
-| File        | Description                                                         | URL                                                                       |
-+=============+=====================================================================+===========================================================================+
-| Flow Script | This is a customizable script that runs the Flow app for your       | `Flow.js <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flow.js>`_ |
-|             | avatar. It simulates physics on your avatar's hair, clothes, and    |                                                                           |
-|             | body parts.                                                         |                                                                           |
-+-------------+---------------------------------------------------------------------+---------------------------------------------------------------------------+
-
++---------------------+-------------------------------------------------------------+------------------------------------------+
+| File                | Description                                                 | URL                                      |
++=====================+=============================================================+==========================================+
+| Flow Application    | This app lets users easily update Flow settings without     | `flowApp.js <https://hifi-content.s3.ama |
+|                     | needing to write any code.                                  | zonaws.com/luis/flowFiles/flowApp.js>`_  |
++---------------------+-------------------------------------------------------------+------------------------------------------+
+| Flow Script         | This is a customizable script that runs the Flow app        | `flow.js <https://hifi-content.s3.       |
+|                     | for your avatar. It simulates physics on your avatar’s      | amazonaws.com/luis/flowFiles/flow.js>`_  |
+|                     | hair, clothes, and body parts.                              |                                          |
++---------------------+-------------------------------------------------------------+------------------------------------------+
+| Mannequin with Hair | This avatar is properly rigged to work with Flow. Use this  | `Mannequin with Hair <https://hifi-c     |
+|                     | as an example for your own avatar models.                   | ontent.s3.amazonaws.com/jimi/avatar/     |
+|                     |                                                             | Mannequin/hairTest/mannequinHairTest8.   |
+|                     |                                                             | fst>`_                                   |
++---------------------+-------------------------------------------------------------+------------------------------------------+
 
 **See Also**
 
