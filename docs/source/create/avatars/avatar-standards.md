@@ -106,7 +106,7 @@ The  `sim` prefix is reserved for flow bones, such as clothing, hair and tails. 
 
 For example, consider a full cape that surrounds the avatar: 
 
-<div style="border-left: solid #ddd 3px; padding-left: 25px; margin: 25px;">
+<div class="block">
     simBackCape1 - first bone of the cape, center back  <br />
     simBackCape# - additional bone(s) of the cape, center back  <br />
     simFrontCape1 - first bone of the cape, center front  <br />
@@ -119,7 +119,7 @@ For example, consider a full cape that surrounds the avatar:
 
 Alternatively, you can use the `flow` prefix, separating the name and joint number with an underscore. The same cape as above would look like:
 
-<div style="border-left: solid #ddd 3px; padding-left: 25px; margin: 25px;">
+<div class="block">
     flow_BackCape_01  <br />
     flow_BackCape_02  <br />
     flow_FrontCape_01  <br />
@@ -188,13 +188,13 @@ We apply a small procedural offset to the blendshapes' coefficients to prevent s
 
 Tweaks to your blendshapes can be made in your 3D modeling tool, or directly in the FST file. In the FST file, blendshapes are defined with the syntax: 
 
-<div style="border-left: solid #ddd 3px; padding-left: 25px; margin: 25px;">
+<div class="block">
     bs = [blendshape constant] = [your key/blendshape name] = [value between 0 and 1]
 </div>
 
 Here is an example of modifying your blendshapes in your FST file:
 
-<div style="border-left: solid #ddd 3px; padding-left: 25px; margin: 25px;">
+<div class="block">
     bs = BrowsU_L = head_BS_brow_up = 0.3  <br />
     bs = BrowsU_C = head_BS_brow_up = 0.3  <br />
     bs = BrowsU_R = head_BS_brow_up = 0.3  <br />
