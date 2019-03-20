@@ -19,6 +19,7 @@ Throughout this chapter, learn how to make the most of your exploration:
     Socialize with Others <explore/socialize>
     Travel Between Worlds <explore/travel>
     Interact with Your Environment <explore/interact>
+    Attend High Fidelity Workshops <explore/workshops>
     Bank and Shop <explore/shop>
     Give and Receive Gifts <explore/gifts>
     
