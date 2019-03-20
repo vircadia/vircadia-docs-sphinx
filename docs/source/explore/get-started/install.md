@@ -11,6 +11,7 @@ High Fidelity has two different installers, based on how you use High Fidelity. 
 	* [Mac](#mac-clean-install)
 
 ## Minimum System Requirements
+In order to run High Fidelity in either VR and Desktop mode, ensure that your computer meets these minimum system requirements: 
 
 <table style="border: none;">
 	<tr style="border: none;">
