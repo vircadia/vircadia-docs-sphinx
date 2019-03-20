@@ -18,5 +18,5 @@ Throughout this chapter, learn how to create, build, and bring to life your own 
     Entities <create/entities>
     3D Models <create/3d-models>
     Environments <create/environments>
-    Applications <create/applications>
+    Tablet Apps <create/applications>
 
