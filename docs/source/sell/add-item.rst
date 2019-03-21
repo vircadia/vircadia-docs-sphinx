@@ -22,6 +22,14 @@ Once you've created an avatar, wearable or entity, you have the option to sell i
     Add Your Audio <add-item/upload-audio>
 
 -----------------------------
+Limited Edition Items
+-----------------------------
+
+You can choose to create a "limited edition" item by setting the quantity available. This ensures that only a specific number of your item is available for purchase on a first-come, first-serve basis. 
+
+To create a limited edition item, simply check the box "Item is a limited edition" when you fill out the form to submit your item to the Marketplace. Then, enter the number of items you want available for purchase. If you enter a number, say 25, you are saying that only 25 copies of your item will be available for purchase. 
+
+-----------------------------
 Marketplace Categories
 -----------------------------
 
