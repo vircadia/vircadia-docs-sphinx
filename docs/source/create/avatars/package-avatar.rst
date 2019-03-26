@@ -362,6 +362,15 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             </tr>
             <tr>
                 <td>
+                    <p id="no-textures-assigned" style="color: orange;"><strong>No textures assigned</strong></p>
+                    <p>This warning occurs when you do not have any textures embedded in your model or referenced in your FST file.</p>
+                </td>
+                <td>
+                    <p style="color:red">NOTE TO DEVS: Do we have a Materials editor? Or should we instruct them to add to FST?</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <p id="missing-file" style="color: orange;"><strong>Model file cannot be opened</strong></p>
                     <p>This warning occurs when your avatar package is missing either an FBX or FST file. </p>
                 </td>
@@ -385,31 +394,46 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
                     <p id="unsupported-format" style="color: orange;"><strong>Unsupported avatar model format</strong></p>
                     <p>This warning occurs when your avatar model is not a supported format. High Fidelity only supports FBX models for avatars.
                 </td>
-                <td></td>
+                <td>
+                    <p>This warning cannot be resolved in Unity or High Fidelity. To fix it, you need to open your model in the 3D modeling tool of your choice, and export your model as an FBX model. </p>
+                </td>
             </tr>
             <tr>
                 <td>
                     <p id="short-avatar" style="color: orange;"><strong>Avatar is possibly too short</strong></p>
+                    <p>This warning occurs when High Fidelity detects that your avatar will appear very small when you use it.</p>
                 </td>
-                <td></td>
+                <td>
+                    <ol class="first arabic simple">
+                        <li>Import your FBX model into a Unity project.</li>
+                        <li>Install the <a href="find-avatars.html#install-the-avatar-exporter">avatar exporter</a> for Unity.</li>
+                        <li>From the High Fidelity menu, click 'Export New Model'.</li>
+                        <li>Slide the scale slider to the right to increase the size of your avatar.</li>
+                    </ol>
+                </td>
             </tr>
             <tr>
                 <td>
                     <p id="tall-avatar" style="color: orange;"><strong>Avatar is possibly too tall</strong></p>
+                    <p>This warning occurs when High Fidelity detects that your avatar will appear very large when you use it.</p>                    
                 </td>
-                <td></td>
-            </tr>
-            <tr>
                 <td>
-                    <p id="no-textures-assigned" style="color: orange;"><strong>No textures assigned</strong></p>
-                </td>
-                <td></td>
+                     <ol class="first arabic simple">
+                        <li>Import your FBX model into a Unity project.</li>
+                        <li>Install the <a href="find-avatars.html#install-the-avatar-exporter">avatar exporter</a> for Unity.</li>
+                        <li>From the High Fidelity menu, click 'Export New Model'.</li>
+                        <li>Slide the scale slider to the left to decrease the size of your avatar.</li>
+                    </ol>
+               </td>
             </tr>
             <tr>
                 <td>
                     <p id="no-rig" style="color: orange;"><strong>Avatar has no rig</strong></p>
+                    <p>This warning occurs when your avatar is not rigged.</p>
                 </td>
-                <td></td>
+                <td>
+                    <p>This warning cannot be resolved in Unity or High Fidelity. To fix it, we recommend running your avatar model through an auto-rigging tool such as Mixamo. </p>
+                </td>
             </tr>
        </tbody>
     </table>
