@@ -45,60 +45,7 @@ High Fidelity avatars should match the following standard skeletal structure. Ea
     <p>Finger #1 is not the metacarpal; instead, it is the first joint between the <a href="https://en.wikipedia.org/wiki/Finger#/media/File:Scheme_human_hand_bones-en.svg">proximal and intermediate</a>. </p>
 </div>
 
-- Hips
-    - LeftUpLeg
-        - LeftLeg
-            - LeftFoot
-                - LeftToeBase 
-    - RightUpLeg
-        - RightLeg
-            - RightFoot
-                - RightToeBase
-    - Spine
-        - Spine1
-            - Spine2
-                - Neck
-                    - Head
-                        - LeftEye
-                        - RightEye
-                - LeftShoulder
-                    - LeftArm
-                        - LeftForeArm
-                            - LeftHand
-                                - LeftHandThumb1 
-                                    - LeftHandThumb2 
-                                        - LeftHandThumb3 
-                                - LeftHandIndex1
-                                    - LeftHandIndex2
-                                        - LeftHandIndex3
-                                - LeftHandMiddle1 
-                                    - LeftHandMiddle2 
-                                        - LeftHandMiddle3 
-                                - LeftHandRing1 
-                                    - LeftHandRing2 
-                                        - LeftHandRing3 
-                                - LeftHandPinky1 
-                                    - LeftHandPinky2 
-                                        - LeftHandPinky3 
-                - RightShoulder
-                    - RightArm
-                        - RightForeArm
-                            - RightHand
-                                - RightHandThumb1 
-                                    - RightHandThumb2 
-                                        - RightHandThumb3 
-                                - RightHandIndex1
-                                    - RightHandIndex2
-                                        - RightHandIndex3
-                                - RightHandMiddle1 
-                                    - RightHandMiddle2 
-                                        - RightHandMiddle3 
-                                - RightHandRing1 
-                                    - RightHandRing2 
-                                        - RightHandRing3 
-                                - RightHandPinky1 
-                                    - RightHandPinky2 
-                                        - RightHandPinky3 
+![](_images/avatar-skeleton.png)
 
 ### Flow Bones
 
