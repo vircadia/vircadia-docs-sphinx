@@ -2,7 +2,7 @@
 Add Flow to Your Avatar
 ###############################
 
-You can simulate physics on your avatar's hair, clothes, and body parts with a little bit of scripting and the help of High Fidelity's *Flow  technology*. The concept of "Flow" simply mimics the natural movement of hair and other attachments on your avatar. You can easily change your avatar's flow settings using the `Flow App <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flowAppCpp.js>`_. In order to use the Flow App, your avatar must contain flow threads. 
+You can simulate physics on your avatar's hair, clothes, and body parts with a little bit of scripting and the help of High Fidelity's *Flow  technology*. The concept of "Flow" simply mimics the natural movement of hair and other attachments on your avatar. You can easily change your avatar's flow settings using the `Flow App <https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_. In order to use the Flow App, your avatar must contain flow threads. 
 
 .. contents:: On This Page
     :depth: 2
@@ -24,11 +24,11 @@ While experimenting, feel free to use `Mannequin with Hair <https://hifi-content
 Flow App
 ----------------------
 
-Use the `Flow app <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flowAppCpp.js>`_ to configure your flow settings. 
+Use the `Flow app <https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_ to configure your flow settings. 
 
 1. In Interface, go to **Edit > Running Scripts**.
 2. In the 'Load Scripts' section, click 'From URL'. 
-3. Enter the URL ``https://hifi-content.s3.amazonaws.com/luis/flowFiles/flowAppCpp.js``. Click OK.
+3. Enter the URL ``https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756``. Click OK.
 
 The Flow app will show up as an icon on your HUD or tablet. Click this icon to open the Flow app.
 
@@ -114,8 +114,9 @@ Resources
 +---------------------+-------------------------------------------------------------+------------------------------------------+
 | File                | Description                                                 | URL                                      |
 +=====================+=============================================================+==========================================+
-| Flow Application    | This app lets users easily update Flow settings without     | `flowApp.js <https://hifi-content.s3.ama |
-|                     | needing to write any code.                                  | zonaws.com/luis/flowFiles/flowApp.js>`_  |
+| Flow Application    | This app lets users easily update Flow settings without     | `flowApp.js <https://highfidelity.com/m  |
+|                     |                                                             | arketplace/items/370b8ff7-d5ad-4410-9c5c |
+|                     |                                                             | -0ead86e69756>`_                         |
 +---------------------+-------------------------------------------------------------+------------------------------------------+
 | Mannequin with Hair | This avatar is properly rigged to work with Flow. Use this  | `Mannequin with Hair <https://hifi-c     |
 |                     | as an example for your own avatar models.                   | ontent.s3.amazonaws.com/jimi/avatar/     |
