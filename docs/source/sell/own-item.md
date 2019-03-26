@@ -27,7 +27,7 @@ If you place this item on sale on the Marketplace, any other users purchasing yo
 ## Attributions
 Attributions are often used to credit other users who have contributed to an item. They can also link to an external portfolio to display more of your work. 
 
-In some situations, attributions are legally required by other content. Some third party content will use licenses like MIT or Creative Commons, which require special attributions. When using third party content in your own items, make sure you understand the license (if any) used by the content and respect attribution requirements accordingly. 
+For some submissions, attributions are legally required by other content. Some third party content will use licenses like MIT or Creative Commons, which require special attributions. When using third party content in your own items, make sure you understand the license (if any) used by the content and respect attribution requirements accordingly. 
 
 When you [add your item](add-item.html) to the Marketplace, the form includes fields to insert any attributions for your submission. 
 
