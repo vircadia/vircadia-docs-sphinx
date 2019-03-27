@@ -59,7 +59,7 @@ If you want to upload it to High Fidelity's servers or sell your avatar on the M
     1. In Interface, go to **Edit > Avatar Packager**. 
     2. In the Avatar Packager window that opens, click 'Open Project'.
     3. Navigate to your FST file and click 'Open'.
-3. Click 'Upload' to upload your avatar's files to High Fidelity's servers. The `Avatar Packager <#troubleshooting-with-the-avatar-packager>`_ will display any errors or warnings that you need to resolve prior to uploading.
+3. Click 'Upload' to upload your avatar's files to High Fidelity's servers. The `Avatar Packager <#troubleshooting-with-the-avatar-packager>`_ will display any errors or warnings that you may want to resolve prior to uploading. View `Troubleshooting with the Avatar Packager`_ to determine whether a fix is required to have a usable avatar. 
 4. Once your avatar is uploaded to the servers, click 'View in Inventory' to view your custom avatar. Unless you submit it for review, your custom avatar will remain in Draft mode, and will not be visible to others. To sell your avatar, you need to submit it for review on the Marketplace.
 
 .. image:: _images/inventory.png
@@ -71,7 +71,7 @@ If you want to upload it to High Fidelity's servers or sell your avatar on the M
 Troubleshooting with the Avatar Packager 
 -------------------------------------------
 
-The Avatar Packager will notify you of any errors or warnings that may affect the way your avatar looks and behaves in High Fidelity. This is a list of the errors you may encounter, along with basic instructions on how to fix your avatar. **Errors** (in red) must be fixed before you upload your avatar, while **Warnings** (in orange) may or may not affect whether your avatar will show up in High Fidelity.
+The Avatar Packager will notify you of any errors or warnings that may affect the way your avatar looks and behaves in High Fidelity. This is a list of the errors you may encounter, along with basic instructions on how to fix your avatar. **Errors** (in red) must be fixed before you upload your avatar, while **Warnings** (in orange) may or may not affect whether your avatar will show up and behave correctly in High Fidelity.
 
 .. note:: 
 
@@ -253,7 +253,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
                         <li>Ensure that your avatar is 'Humanoid' (in Unity, go to <strong>Inspector > Rig > Animation Type > Humanoid</strong>).</li>
                         <li>Click 'Configure' to open the skeleton mapping configuration.</li>
                         <li>Click the 'Body' button next to the humanoid illustration, and click on the 'Hips' mapping. This will highlight the mapped bone in the Hierarchy window.</li>
-                        <li>Now click on the 'Spine' mapping. The highlighted bone should be directly below the Hips bone. If it is not, then locate and drag the appropriate bone from the Hierarchy window to map it. 
+                        <li>Now click on the 'Spine' mapping. The highlighted bone should be directly below the Hips bone. If it is not, then locate and drag the appropriate bone from the Hierarchy window to map it. </li>
                     </ol>
                     <p>If the appropriate bones are mapped to the Hips and Spine, or this does not resolve the issue, you will need to fix the avatar's hierarchy in a 3D modeling tool of your choice.</p>
                 </td>
@@ -350,7 +350,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
              <tr>
                 <td>
                     <p id="unsupported-textures" style="color: orange;"><strong># unsupported texture(s) found</strong></p>
-                    <p>This warning occurs when your textures are not supported by High Fidelity. All textures must be PNG or JPG files.</p>
+                    <p>This warning occurs when your textures are not supported by High Fidelity. Supported image formats include BMP, JPG, PNG, PBM, PGM, PPM, XBM, XPM, SVG, GIF, ICNS, JP2, MNG, TGA, TIFF, WPMB, and WEBP files.</p>
                 </td>
                 <td>
                     <ol class="first arabic simple">
@@ -363,10 +363,18 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             <tr>
                 <td>
                     <p id="no-textures-assigned" style="color: orange;"><strong>No textures assigned</strong></p>
-                    <p>This warning occurs when you do not have any textures embedded in your model or referenced in your FST file.</p>
+                    <p>This warning occurs when you do not have any textures embedded in your model or referenced in your FST file. If your avatar was intentionally designed without textures, this warning can be safely ignored.</p>
                 </td>
                 <td>
-                    <p style="color:red">NOTE TO DEVS: Do we have a Materials editor? Or should we instruct them to add to FST?</p>
+                    <ol class="first arabic simple">
+                        <li>Import your FBX model into a Unity project.</li>
+                        <li>Install the <a href="find-avatars.html#install-the-avatar-exporter">avatar exporter</a> for Unity.</li>
+                        <li>Go to <strong>Inspector > Materials</strong>.</li>
+                        <li>Change the 'Location' to 'Use External Materials (Legacy)'. Click 'Apply'. This creates a Materials folder. </li>
+                        <li>Copy your textures into the new Materials folder. 
+                        <li>Select a material to view its shader in the **Inspector** window. Click and drag your textures to configure them. </li>
+                    </ol>
+                    <p>For more information, see Unity's help on their <a href="https://docs.unity3d.com/Manual/Shaders.html">Material Editor</a>. You can alternatively use a 3D modeling tool of your choice to assign materials and textures to your avatar.</p>
                 </td>
             </tr>
             <tr>
