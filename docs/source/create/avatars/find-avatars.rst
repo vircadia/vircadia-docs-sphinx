@@ -143,7 +143,7 @@ Many of the errors you will encounter describe issues with the avatar’s skelet
 |                                       | 3. In the 'Inspector', change the 'Shader' to one of the 'Standard' options. All     |
 |                                       |    materials should now show up correctly.                                           |
 +---------------------------------------+--------------------------------------------------------------------------------------+
-| Your avatar is grey.                  | One of following issues could have occurred:                                         |
+| Your avatar is grey.                  | One of the following issues could have occurred:                                     |
 |                                       |                                                                                      |
 |                                       | 1. Make sure you copied your avatar's textures into the project’s textures folder    |
 |                                       | 2. Verify that your textures are in a format that we support (either PNG or JPG)     |

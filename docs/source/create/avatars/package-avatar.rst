@@ -226,7 +226,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             </tr>
             <tr>
                 <td>
-                    <p id="asymmetrical-bones" style="color: orange;"><strong>Assymetrical arm/leg/hand bones</strong></p>
+                    <p id="asymmetrical-bones" style="color: orange;"><strong>Asymmetrical arm/leg/hand bones</strong></p>
                     <p>We assume that the left and right appendages (arms, legs, and hands) have the same number of bones. This warning occurs if we detect a different number of bones on the left and rights sides of the body.</p>
                 </td>
                 <td>
