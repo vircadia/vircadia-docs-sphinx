@@ -24,11 +24,7 @@ While experimenting, feel free to use `Mannequin with Hair <https://hifi-content
 Flow App
 ----------------------
 
-Use the `Flow app <https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_ to configure your flow settings. 
-
-1. In Interface, go to **Edit > Running Scripts**.
-2. In the 'Load Scripts' section, click 'From URL'. 
-3. Enter the URL ``https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756``. Click OK.
+Download and run the `Flow app <https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_ to configure your flow settings. 
 
 The Flow app will show up as an icon on your HUD or tablet. Click this icon to open the Flow app.
 
@@ -111,18 +107,18 @@ Copy this data directly into your avatar's FST file to complete the flow process
 Resources
 ------------------------------
 
-+---------------------+-------------------------------------------------------------+------------------------------------------+
-| File                | Description                                                 | URL                                      |
-+=====================+=============================================================+==========================================+
-| Flow Application    | This app lets users easily update Flow settings without     | `flowApp.js <https://highfidelity.com/m  |
-|                     |                                                             | arketplace/items/370b8ff7-d5ad-4410-9c5c |
-|                     |                                                             | -0ead86e69756>`_                         |
-+---------------------+-------------------------------------------------------------+------------------------------------------+
-| Mannequin with Hair | This avatar is properly rigged to work with Flow. Use this  | `Mannequin with Hair <https://hifi-c     |
-|                     | as an example for your own avatar models.                   | ontent.s3.amazonaws.com/jimi/avatar/     |
-|                     |                                                             | Mannequin/hairTest/mannequinHairTest8.   |
-|                     |                                                             | fst>`_                                   |
-+---------------------+-------------------------------------------------------------+------------------------------------------+
++---------------------+-------------------------------------------------------------+--------------------------------------------+
+| File                | Description                                                 | URL                                        |
++=====================+=============================================================+============================================+
+| Flow App            | This app lets users easily update Flow settings without     | `flowAppCpp.js <https://highfidelity.com   |
+|                     | the need for scripting or advanced knowledge of avatars.    | /marketplace/items/370b8ff7-d5ad-4410-9c5c |
+|                     |                                                             | -0ead86e69756>`_                           |
++---------------------+-------------------------------------------------------------+--------------------------------------------+
+| Mannequin with Hair | This avatar is properly rigged to work with Flow. Use this  | `Mannequin with Hair <https://hifi-c       |
+|                     | as an example for your own avatar models.                   | ontent.s3.amazonaws.com/jimi/avatar/       |
+|                     |                                                             | Mannequin/hairTest/mannequinHairTest8.     |
+|                     |                                                             | fst>`_                                     |
++---------------------+-------------------------------------------------------------+--------------------------------------------+
 
 **See Also**
 

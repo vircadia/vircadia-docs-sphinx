@@ -18,7 +18,6 @@ If you want to create an avatar from scratch, this page covers the steps needed 
     :titlesonly:
 
     Avatar Standards Guide <avatar-standards>
-    Add Flow to Your Avatar <add-flow>
 
 -------------------------------------
 Create an Avatar from Scratch
