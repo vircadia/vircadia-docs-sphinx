@@ -33,5 +33,6 @@ You have the power to shape your VR experience in High Fidelity.
     HOST <host>
     SELL <sell>
     CONTRIBUTE <contribute>
+    FAQ <faq>
     RELEASE NOTES <release-notes>
     API REFERENCE <https://apidocs.highfidelity.com>
