@@ -2,7 +2,7 @@
 Frequently Asked Questions
 ###################################
 
-We get a lot of questions from our users! If you have questions about our product, feel free to browse through this page to learn more! And if you don't see your answer here, e-mail us at `support@highfidelity.com <mailto:support@highfidelity.com>`_!
+We get a lot of questions from our users! If you have questions about our product, feel free to browse through this page to learn more. And if you don't see your answer here, e-mail us at `support@highfidelity.com <mailto:support@highfidelity.com>`_!
 
 ------------------------------
 Marketplace
@@ -41,7 +41,8 @@ Marketplace
 |                                                                                                    |
 | Does my avatar have too many polys?                                                                |
 +====================================================================================================+
-| Your avatar should have fewer than 40k polygons. Any more would stress the system too much.        |
+| We do not have a hard poly limit on avatars, however we recommend keeping avatars under 80k.       |
+| Consider normal mapping your models to preserve high detail rather than excessive poly counts.     |
 +----------------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------------+
@@ -49,8 +50,9 @@ Marketplace
 |                                                                                                    |
 | How big can my submission be?                                                                      |
 +====================================================================================================+
-| Your submission should be under 40 MB. Large files will affect user experience as they will take   | 
-| longer to download. Items with only scripts should be smaller than a 3D model.                     |
+| Submissions can be as large as necessary for the content you are uploading, but keep in mind       |
+| that large items can adversely impact loading times for users. If possible, we recommend keeping   |
+| submissions under 40MB total.                                                                      |
 +----------------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------------+
@@ -58,7 +60,7 @@ Marketplace
 |                                                                                                    |
 | How do I upload to the Marketplace?                                                                |
 +====================================================================================================+
-| Log in to the `Marketplace home pag <https://highfidelity.com/marketplace>`_ and select 'New       |
+| Log in to the `Marketplace home page <https://highfidelity.com/marketplace>`_ and select 'New      |
 | Submission' from the top-right menu.                                                               |
 +----------------------------------------------------------------------------------------------------+
 
