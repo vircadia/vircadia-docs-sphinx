@@ -333,6 +333,11 @@ li table {
     line-height: 1.5;
 }
 
+.rst-content table.docutils th p {
+    margin-bottom: 0;    
+}
+
+
 .rst-content table.docutils td p {
     font-size: .89rem;    
 }

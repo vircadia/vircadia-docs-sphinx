@@ -70,4 +70,4 @@ Have a project you've been working on that you'd like us to share? Let us know b
 **See Also**
 
 + :doc:`Find and Use an Existing Avatar <find-avatars>`
-+ :doc:`Host Your Avatar <host-avatar>`
++ :doc:`Package and Host Your Avatar <package-avatar>`
