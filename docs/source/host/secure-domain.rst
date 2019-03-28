@@ -68,7 +68,7 @@ You can control the types of users that have access to your domain, and the perm
 | Rez Temporary Certified | A user can create pre-approved entities or scripts from the Marketplace      |
 |                         | with a set lifetime that also defaults to 1 hour.                            |
 +-------------------------+------------------------------------------------------------------------------+
-| Write Assets            | A user can :doc:`add assets <../manage-assets>` (models, audio,              |
+| Write Assets            | A user can :doc:`add assets <manage-assets>` (models, audio,                 |
 |                         | or other files) to your asset server (your domain's file storage space).     |
 +-------------------------+------------------------------------------------------------------------------+
 | Ignore Max Capacity     | A user can enter a domain even when it has hit the specified capacity limit. |
