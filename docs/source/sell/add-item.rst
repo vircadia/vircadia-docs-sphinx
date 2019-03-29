@@ -29,6 +29,14 @@ You can choose to create a "limited edition" item by setting the quantity availa
 
 To create a limited edition item, simply check the box "Item is a limited edition" when you fill out the form to submit your item to the Marketplace. Then, enter the number of items you want available for purchase. If you enter a number, say 25, you are saying that only 25 copies of your item will be available for purchase. 
 
+---------------------------------
+Unlimited Rezzing of Your Item
+---------------------------------
+
+When you submit your item to the Marketplace, you have the option to allow users to rez your item multiple times within a single domain. This allows users to create forests with multiple trees (that you created) or to place many of your streetlights along a street in their domain. 
+
+This setting is exposed in the item's JSON file. To allow your item to be added multiple times within a domain, add ``"certificateType": "domainUnlimited"`` to your item's root JSON file prior to submitting your item. 
+
 -----------------------------
 Marketplace Categories
 -----------------------------
