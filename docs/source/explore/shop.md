@@ -11,8 +11,6 @@ If you want to buy items in High Fidelity, head on over to the Marketplace, wher
 
 Currently, you can buy High Fidelity Coins (HFC) using [Ethereum](https://www.ethereum.org/), a blockchain app that trades ETH (Ether). The Bank of High Fidelity manages HFC and we gradually increase the number of coins in circulation as the economy grows. 100 HFC is equal to 1 USD.
 
-The minimum amount of HFC that you cash out at one time is $25 (or 2,500 HFC), and the maximum cashout value is $2000 (or 200,000 HFC). High Fidelity may, at its discretion, issue the occasional exception to the maximum cashout amount.
-
 To get HFC: 
 1. [Book an appointment](https://meetings.hubspot.com/highfidelity/high-fidelity-bank-appointment) at the Bank of High Fidelity.
 2. At the time of your appointment, visit the [TradingRoom](https://hifi.place/TradingRoom) domain.
