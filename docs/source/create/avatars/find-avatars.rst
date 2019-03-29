@@ -118,7 +118,7 @@ We encourage you to "spot check" your avatar in Unity before exporting it with t
 
 .. image:: _images/muscle-adjustment.gif
 
-After exporting your avatar package, you can also test it in High Fidelity using the `Marketplace Item Tester <../../tools.html#marketplace-item-tester>`_ to ensure that it works before you host it. If something doesn't look right, tweak your avatar in Unity, then update it with the High Fidelity menu. 
+After exporting your avatar package, you can also test it in High Fidelity using the `Marketplace Item Tester <../tools.html#marketplace-item-tester>`_ to ensure that it works before you host it. If something doesn't look right, tweak your avatar in Unity, then update it with the High Fidelity menu. 
 
 If everything looks good, you need to `host your avatar <package-avatar.html#host-your-avatar>`_ then `change your avatar <../../explore/personalize/change-avatar.html#use-your-own-custom-avatar>`_ to wear it.
 
