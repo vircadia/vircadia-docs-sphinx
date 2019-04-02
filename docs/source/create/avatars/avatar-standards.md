@@ -50,6 +50,7 @@ High Fidelity avatars should match the following standard skeletal structure. Ea
 ### Flow Bones
 
 The  `sim` and `flow` prefixes are reserved for flow bones, such as clothing, hair and tails. These bones should _not_ be animated by an animator. ![](_images/flow-bones.png)
+(Many thanks to Akazukin for the model Ouka Miko(櫻歌ミコ) used in this diagram!)
 
 For example, consider a full cape that surrounds the avatar: 
 
