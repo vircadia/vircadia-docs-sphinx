@@ -55,23 +55,40 @@ High Fidelity spatializes audio in real-time based on the location of the listen
 +----------------------------+--------------------------------------------------------------------------------------+
 | Setting                    | Description                                                                          |
 +============================+======================================================================================+
-| *Input Device Settings* >  | Mute or unmute your microphone.                                                      |
-| Mute microphone            |                                                                                      |
+| Mute microphone            | Mute or unmute your microphone.                                                      |
+|                            |                                                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
-| *Input Device Settings* >  | Enable or disable stereo input.                                                      |
-| Enable stereo input        |                                                                                      |
+| Warn when muted            | Enable to receive a warning on your screen when your microphone is muted.            |
+|                            |                                                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
-| *Input Device Settings* >  | Enable or disable noise reduction.                                                   |
-| Enable noise reduction     |                                                                                      |
+| Noise reduction            | Enable or disable noise reduction.                                                   |
+|                            |                                                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
-| *Input Device Settings* >  | The audio level meter is visible on the top left corner of your screen. By default,  |
-| Show audio level meter     | this is always shown. You can uncheck this box to stop showing the meter.            |
+| Audio level meter          | The audio level meter is visible on the top left corner of your screen. By default,  |
+|                            | this is always shown. You can uncheck this box to stop showing the meter.            |
++----------------------------+--------------------------------------------------------------------------------------+
+| Push To Talk (T)           | Enable or disable Push To Talk for other users to hear you when your microphone is   |
+|                            | muted. When enabled, press and hold ``T`` to talk in desktop mode and press both       |
+|                            | triggers on your controllers in VR mode. This feature works only when you are        |
+|                            | focused on the Interface window.                                                     |
++----------------------------+--------------------------------------------------------------------------------------+
+| Stereo input               | Enable or disable stereo input.                                                      |
+|                            |                                                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
 | Choose Input Device        | Choose the microphone or `input device <#input-devices>`_ of your choice from the    |
 |                            | list of devices displayed.                                                           |
 +----------------------------+--------------------------------------------------------------------------------------+
 | Choose Output Device       | Choose the speakers, headphones, or other `output device <#output-devices>`_ of      |
 |                            | your choice from the list of devices displayed.                                      |
++----------------------------+--------------------------------------------------------------------------------------+
+| People volume              | Use the slider to increase or decrease the volume of other users in the domain.      |
+|                            |                                                                                      |
++----------------------------+--------------------------------------------------------------------------------------+
+| Environment volume         | Use the slider to increase or decrease the domain's volume.                          |
+|                            |                                                                                      |
++----------------------------+--------------------------------------------------------------------------------------+
+| System Sound volume        | Use the slider to increase or decrease your system's volume.                         |
+|                            |                                                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
 
 ^^^^^^^^^^^^^^^^^^^^^^^
