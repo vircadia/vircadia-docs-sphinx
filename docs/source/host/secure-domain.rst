@@ -68,7 +68,7 @@ You can control the types of users that have access to your domain, and the perm
 | Rez Temporary Certified | A user can create pre-approved entities or scripts from the Marketplace      |
 |                         | with a set lifetime that also defaults to 1 hour.                            |
 +-------------------------+------------------------------------------------------------------------------+
-| Write Assets            | A user can :doc:`add assets <../manage-assets>` (models, audio,              |
+| Write Assets            | A user can :doc:`add assets <manage-assets>` (models, audio,                 |
 |                         | or other files) to your asset server (your domain's file storage space).     |
 +-------------------------+------------------------------------------------------------------------------+
 | Ignore Max Capacity     | A user can enter a domain even when it has hit the specified capacity limit. |
@@ -101,7 +101,7 @@ You can control the types of users that have access to your domain, and the perm
 +-------+-------------------------------+------------------------------------+--------------------------------------+
 
 -------------------------------------
-Set Entity Specific Permissions
+Protect Your Domain's Content
 -------------------------------------
 
 Entity-specific permissions prevent users from changing or removing your domain content. You can do this by locking individual entities in your domain, or adding entity filters in your domain settings. 
@@ -128,44 +128,15 @@ Entity filters are specialized JavaScript functions that prevent unwanted modifi
 
 Entity filters apply to all users who do not have lock/unlock permissions. You can use filters to request the original properties of an entity to compare them to new values. You can then approve the new values. 
 
+**Protect All Entities in a Domain**
+
 1. Write a script for an entity filter. Host the script on a cloud service.
 2. If you're hosting your domain on a cloud service, open the `cloud settings <https://highfidelity.com/user/cloud_domains>`_. If you're using your local sandbox, open your `local sandbox settings <http://localhost:40100/settings/>`_. 
 3. Go to **Content > Entities** and add the URL for your script. 
 
 .. image:: _images/filter-entities.png
 
-To protect all entities in a domain while granting edit rights:
-
-.. code:: javascript
-
-    // prevent-all-deletes.js by Brad Hefta-Gaub
-    (function() {
-        function filter() { 
-            return false; // all deletes are blocked
-        }
-        filter.wantsToFilterAdd = false; // don't run on adds
-        filter.wantsToFilterEdit = false; // don't run on edits
-        filter.wantsToFilterPhysics = false; // don't run on physics
-        filter.wantsToFilterDelete = true; // do run on deletes
-        filter;
-    });
-  
-To protect specific entities: 
-
-.. code::
-
-    // prevent-add-delete-or-edit-of-entities-with-name-of-zone.js by Brad Hefta-Gaub
-    (function() {
-        function filter(properties, type) {	
-            var ENTITY_ID = "{the ID of the entity that you want to protect}";
-            if (type === Entities.DELETE_FILTER_TYPE) {
-                if (properties.id === ENTITY_ID) { return false; }
-            }
-            return properties;
-        }
-        filter.wantsToFilterDelete = true; // do run on deletes
-        filter;
-    });
+**Protect All Entities in a Zone**
 
 You can add these scripts to a specific zone in your domain as well. 
 
@@ -175,7 +146,75 @@ You can add these scripts to a specific zone in your domain as well.
 
 .. image:: _images/zone-filter.PNG
 
+"""""""""""""""""""""""""""""""""""""
+Examples of Entity Filters
+"""""""""""""""""""""""""""""""""""""
+
+1. Prevent all entities from being deleted from your domain:
+
+    .. code:: javascript
+
+    	// prevent-all-deletes.js by Brad Hefta-Gaub
+    	(function() {
+        	function filter() { 
+            	return false; // all deletes are blocked
+        	}
+        	filter.wantsToFilterAdd = false; // don't run on adds
+        	filter.wantsToFilterEdit = false; // don't run on edits
+        	filter.wantsToFilterPhysics = false; // don't run on physics
+        	filter.wantsToFilterDelete = true; // do run on deletes
+        	filter;
+    	});
+  
+
+2. Prevent specific entities from being modified or deleted from your domain: 
+
+    .. code::
+
+    	// prevent-add-delete-or-edit-of-entities-with-name-of-zone.js by Brad Hefta-Gaub
+    	(function() {
+        	function filter(properties, type) {	
+            	var ENTITY_ID = "{the ID of the entity that you want to protect}";
+            	if (type === Entities.DELETE_FILTER_TYPE) {
+                	if (properties.id === ENTITY_ID) { return false; }
+            	}
+            	return properties;
+        	}
+        	filter.wantsToFilterDelete = true; // do run on deletes
+        	filter;
+    	});
+
+
+3. Allow changes only to entities' basic physics properties:
+
+    .. code::
+
+    	// allow physics, reject all other changes including adds and deletes
+    	(function() {
+        	function filter() { 
+            	return false;
+        	}
+        	filter.wantsToFilterAdd = true; // run on adds
+        	filter.wantsToFilterEdit = true; // run on edits
+        	filter.wantsToFilterPhysics = false; // don't run on physics
+        	filter.wantsToFilterDelete = true; // do run on deletes
+        	filter;
+    	});
+
+
+4. Reject any type of change to your domain and protect all entities:
+
+    .. code::
+
+    	function filter(properties, filterType, originalProperties) {
+        	// doesn't matter here if rejectAll is set to true
+    	}
+    	// If reject all is true.  Any of the filterType changes won't go through
+    	filter.rejectAll = true; // default false
+
+
+
 **See Also**
 
-+ :doc:`Configure Your Domain Settings <configure-settings>`
-+ :doc:`Backup and Restore Your Domain <../backup-restore-domain>`
++ :doc:`Configure Your Domain Settings <your-domain/configure-settings>`
++ :doc:`Backup and Restore Your Domain <backup-restore-domain>`

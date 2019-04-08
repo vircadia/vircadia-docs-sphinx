@@ -45,7 +45,7 @@ Once you assign ports to the mixers, you can add the required broadcasting setti
 **See Also**
 
 + [Configure Your Domain Settings](your-domain/configure-settings.html)
-+ [Secure Your Domain](your-domain/secure-domain.html)
++ [Secure Your Domain](secure-domain.html)
 
   
 

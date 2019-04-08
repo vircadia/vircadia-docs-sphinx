@@ -22,6 +22,22 @@ Once you've created an avatar, wearable or entity, you have the option to sell i
     Add Your Audio <add-item/upload-audio>
 
 -----------------------------
+Limited Edition Items
+-----------------------------
+
+You can choose to create a "limited edition" item by setting the quantity available. This ensures that only a specific number of your item is available for purchase on a first-come, first-serve basis. 
+
+To create a limited edition item, simply check the box "Item is a limited edition" when you fill out the form to submit your item to the Marketplace. Then, enter the number of items you want available for purchase. If you enter a number, say 25, you are saying that only 25 copies of your item will be available for purchase. 
+
+---------------------------------
+Unlimited Rezzing of Your Item
+---------------------------------
+
+When you submit your item to the Marketplace, you can allow users to rez your item multiple times within a single domain. This allows users to create forests from a single tree (that they purchased) or to rez multiple streetlights from a single item in their inventory. 
+
+This setting is exposed in the item's JSON file. To allow your item to be added multiple times within a domain, add ``"certificateType": "domainUnlimited"`` to your item's root JSON file prior to submitting your item. 
+
+-----------------------------
 Marketplace Categories
 -----------------------------
 
@@ -197,4 +213,4 @@ Follow these guidelines when uploading content to the Marketplace:
 4. Items may not have .js root files. You should either make an app to run scripts, or attach scripts to entities that will be rezzed through a .json file.
 5. All entities must have a name, even if they are invisible or simple primitives.
 6. Please use English in your package description, support text, and code comments.
-7. If needed, you may use `Markdown syntax <../contribute/write-for-us.html#id1>`_ in your description text.
+7. If needed, you may use :doc:`Markdown syntax <markdown-guide>` in your description text.

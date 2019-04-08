@@ -18,7 +18,6 @@ If you want to create an avatar from scratch, this page covers the steps needed 
     :titlesonly:
 
     Avatar Standards Guide <avatar-standards>
-    Add Flow to Your Avatar <add-flow>
 
 -------------------------------------
 Create an Avatar from Scratch
@@ -31,6 +30,8 @@ The steps involved in creating your avatar are:
 3. Fine tune your avatar using a tool such as Blender or Maya.
 4. Package the model in High Fidelity for use as an avatar.  
 
+.. note:: If you intend to upload and sell your avatar to the Marketplace, you need to set your base material color to white (some apps default to grey). This ensures that the avatar renders correctly for all users and that it will be accepted into our Marketplace.
+
 Check out this YouTube playlist for one way to create and customize your own avatar. Here, we use Adobe Fuse to create our avatar, Mixamo to rig our avatar automatically, and Blender to adjust the rendering on our avatar. We also have written instructions on the same process: 
 
 * :doc:`Create an Avatar with Fuse <fuse-tutorial>`
@@ -42,38 +43,6 @@ Check out this YouTube playlist for one way to create and customize your own ava
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://www.youtube.com/embed/6NfiH4rdVRM" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 100px; width: 70%; height: 70%;"></iframe>
     </div>
-
----------------------------
-Package Your Avatar
----------------------------
-
-Once you've created your avatar, you need to create an FST file to accompany your FBX model. This process is called *packaging your avatar*. Once you've packaged your avatar, you need to :doc:`host it <host-avatar>` in the cloud or on our Marketplace before using it in High Fidelity.
-
-We've created the **Avatar Packager** to create an FST file for you. In addition, you can use the Avatar Packager to host your avatar on the Marketplace, edit an existing avatar package, and put it on. 
-
-To package your avatar using the Avatar Packager:
-
-1. In Interface, go to **Edit > Avatar Packager**. 
-2. In the Avatar Packager window that opens, click 'New Project'.
-3. In the Create Project window, fill in the following details:
-
-   * Name: The name you want for your avatar. 
-   * Project Location: The folder path where your avatar's files are stored. The Avatar Packager will create a new folder for your project at this location, which will include your FBX model, an FST file, and any scripts/textures in your avatar.
-   * Avatar Model: Your avatar's FBX file.
-   * Texture Folder: If your avatar has textures in a separate folder, specify the folder location. If your avatar's textures are embedded in the FBX, you do not need to specify anything. 
-4. Click 'Create'.
-
-At this point, you have successfully packaged your avatar. If you host your avatar on the cloud, you can close the Avatar Packager here and upload your FST file and FBX model to your cloud location. 
-
-If you want to sell your avatar on the Marketplace or upload it to High Fidelity's servers, continue using the Avatar Packager:
- 
-1. Click 'Upload' to upload your avatar's files to High Fidelity's servers. If you make any changes to your custom avatar, you will need to update it through this packager to see your changes. To update, select your project and click 'Open Project' in step 1. Follow the same steps to update your avatar.
-2. Once your avatar is uploaded to the servers, click 'View in Inventory' to view your custom avatar. Your avatar is listed in your Inventory only for you. It is not available for purchase to other users. 
-
-.. image:: _images/inventory.png
-
-3. Click 'Wear' to try out your new avatar! 
-4. You can view your avatar in the Marketplace. It is currently in Draft mode. This means that other users cannot view or purchase your avatar. To make your avatar available for purchase, you will need to submit it for review on the Marketplace.
 
 -------------------------------
 Community Tools for Avatars
@@ -101,4 +70,4 @@ Have a project you've been working on that you'd like us to share? Let us know b
 **See Also**
 
 + :doc:`Find and Use an Existing Avatar <find-avatars>`
-+ :doc:`Host Your Avatar <host-avatar>`
++ :doc:`Package and Host Your Avatar <package-avatar>`

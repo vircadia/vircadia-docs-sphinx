@@ -13,8 +13,8 @@ You can maintain your domain by giving visiting users temporary create permissio
 
 To give a user temporary create permissions: 
 
-1. [Set user permissions](your-domain/secure-domain.html#set-user-permissions) to 'rez temp'. This grants users create permissions for the interval of time specified in the domain settings. 
-2. [Set entity specific permissions](your-domain/secure-domain.html#set-entity-specific-permissions) (lock entities or set entity filters) to make sure that any visiting user cannot edit the existing entities in your domain.
+1. [Set user permissions](secure-domain.html#set-user-permissions) to 'rez temp'. This grants users create permissions for the interval of time specified in the domain settings. 
+2. [Set entity specific permissions](secure-domain.html#set-entity-specific-permissions) (lock entities or set entity filters) to make sure that any visiting user cannot edit the existing entities in your domain.
 
 For example, if you want to host a virtual class on adding and editing a cube's properties, you can:
 
@@ -79,7 +79,7 @@ Script.scriptEnding.connect(function(){
 
 **See Also**
 
-+ [Set User Permissions](your-domain/secure-domain.html#set-user-permissions)
-+ [Set Entity Specific Permissions](your-domain/secure-domain.html#set-entity-specific-permissions)
++ [Set User Permissions](secure-domain.html#set-user-permissions)
++ [Set Entity Specific Permissions](secure-domain.html#set-entity-specific-permissions)
 + [Assignment Client Script](../script/assignment-client-scripts.html)
 + [Backup and Restore Your Domain](backup-restore-domain.html)

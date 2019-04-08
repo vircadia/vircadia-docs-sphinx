@@ -2,48 +2,48 @@
 Add Flow to Your Avatar
 ###############################
 
-You can simulate physics on your avatar's hair, clothes, and body parts with a little bit of scripting and the help of High Fidelity's `Flow script technology <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flow.js>`_.
-
-The Flow script simply mimics the natural movement of hair and other attachments on your avatar. You can manipulate and change how Flow interacts with your avatar using the `Flow App <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flowApp.js>`_. In order to use the Flow App, your avatar must contain flow threads. 
+You can simulate physics on your avatar's hair, clothes, and body parts with a little bit of scripting and the help of High Fidelity's *Flow  technology*. The concept of "Flow" simply mimics the natural movement of hair and other attachments on your avatar. You can easily change your avatar's flow settings using the `Flow App <https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_. In order to use the Flow App, your avatar must contain flow threads. 
 
 .. contents:: On This Page
     :depth: 2
 
----------------------
-Flow Threads
----------------------
+-----------------------
+Prepare Your Avatar 
+-----------------------
 
-A *flow thread* is a set of connected joints with at least one joint that complies with the following rules:
+In order to use the Flow technology, your avatar must contain flow threads, which are sets of connected joints in your avatar. Each flow thread must comply with the following rules:
 
-1.  The first joint is connected to an existing avatar joint ("Hips" for example).
-2.  Every joint in the thread should be named ``flow_[TYPE]_[INDEX]`` or  ``sim[TYPE][INDEX]``.
+1. The first joint is connected to an existing avatar joint, such as "Hips".
+2. Every joint in the thread should be named ``flow_[TYPE]_[INDEX]`` or  ``sim[TYPE][INDEX]``, where **TYPE** defines a group of joints that share a common physics setup and **INDEX** is an integer. For example, if the thread is used to simulate a skirt, all the "skirt" joints are named flow_skirt_01, flow_skirt_02, etc.
 
-    * **TYPE** defines a group of joints that share a common physics setup and **INDEX** is an integer. For example, if the thread is used to simulate a skirt, all the "skirt" joints should be named flow_skirt_01, flow_skirt_02, etc.
+.. image:: _images/flow-threads.png
 
-.. image:: _images/flowthread.png
+While experimenting, feel free to use `Mannequin with Hair <https://hifi-content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_, whose hair has flow threads already configured.
 
 ----------------------
 Flow App
 ----------------------
 
-After you ensure that you have the proper flow threads, run the `Flow app <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flowApp.js>`_ to enable flow for your avatar.  See `this document <../../script/get-started-with-scripting.html#load-and-run-a-script>`_ for more information on how to run a script or app in High Fidelity.
+Download and run the `Flow app <https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_ to configure your flow settings. 
 
-Below are details and descriptions of the Flow app's functionality that will help you control and manipulate your avatar's flow. 
+The Flow app will show up as an icon on your HUD or tablet. Click this icon to open the Flow app.
+
+.. image:: _images/flow-app-icon.png
 
 ^^^^^^^^^^^^^^^^^^^^^^^
 Display Panel
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-While this panel does not affect the actual behavior of your avatar's flow, it will help visually debug your script. 
+The **Display** panel affects how your avatar looks while the Flow app is open. Using these options, you can choose to view meshes and collisions to help you determine what your final flow configuration will look like. 
 
-.. image:: _images/displaypanel.png
+.. image:: _images/flow-display.png
 
 +------------+---------------------------------------------------------------+
 | Option     | Description                                                   |
 +============+===============================================================+
 | Avatar     | Hides or displays the avatar mesh.                            |
 +------------+---------------------------------------------------------------+
-| Collisions | Allows you to activate or deactivate collisions.              |
+| Collisions | Activates or deactivates collisions.                          |
 +------------+---------------------------------------------------------------+
 | Debug      | Hides or displays the debug shapes.                           |
 +------------+---------------------------------------------------------------+
@@ -54,34 +54,35 @@ While this panel does not affect the actual behavior of your avatar's flow, it w
 Joints Panel
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-This panel manages all motion related to joints. 
+The **Joints** panel lists all of the available flow threads, and lets you configure the behavior of your joints. 
 
-.. image:: _images/jointspanel.png
+.. image:: _images/flow-joints.png
 
 +-----------+-----------------------------------------------------------------------------------------+
 | Option    | Description                                                                             |
 +===========+=========================================================================================+
 | Radius    | Determines the thickness of segments and knots (needed for collision testing).          |
 +-----------+-----------------------------------------------------------------------------------------+
-| Gravity   | Sets the Y-value of the gravity vector which represents the direction of gravity as it  |
-|           | relates the flow thread.                                                                |
+| Gravity   | Sets the how each joint will respond to gravity. A positive value will lift your joints |
+|           | in the air, while a negative value will respond to gravity and be pulled towards the    |
+|           | ground. Larger values will cause the movement to happen more quickly.                   |
 +-----------+-----------------------------------------------------------------------------------------+
-| Stiffness | Changes how stiff each thread is.                                                       |
+| Stiffness | Defines how susceptible the flow threads are to movement.                               |
 +-----------+-----------------------------------------------------------------------------------------+
-| Damping   | Determines the amount of joint oscillation.                                             |
+| Damping   | Determines how easily the bones oscillate or move around the joints.                    |
 +-----------+-----------------------------------------------------------------------------------------+
-| Inertia   | Changes the rotational velocity.                                                        |
+| Inertia   | Changes the rotational velocity of the bones.                                           |
 +-----------+-----------------------------------------------------------------------------------------+
-| Delta     | Controls the amount of time between each integration step.                              |
+| Delta     | Controls the amount of time between each joint movement.                                |
 +-----------+-----------------------------------------------------------------------------------------+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 Collisions Panel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This panel manages collision spheres. Every collision sphere is positioned using an existing avatar joint and offset. The maximum amount of collisions is defined by the global ``COLLISION_SHAPES_LIMIT = 4``.  
+The **Collisions** panel controls the collision spheres that define the interactions between flow threads and the joints in your avatar. Each collision sphere is positioned using an existing avatar joint and offset: as you increase the radius of a collision sphere, you increase the distance between the flow thread and the joint. You can only have a maximum of 4 collisions defined for your avatar. 
 
-.. image:: _images/collisionpanel.png
+.. image:: _images/flow-collisions.png
 
 +--------+---------------------------------------+
 | Option | Description                           |
@@ -91,56 +92,33 @@ This panel manages collision spheres. Every collision sphere is positioned using
 | Offset | Controls the collision sphere offset. |
 +--------+---------------------------------------+
 
-^^^^^^^^^^^^^^^^^^^^^
-JSON Panel
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+Output Panel
+^^^^^^^^^^^^^^^^^^^^^^^
 
-This panel displays the output JSON data structure with your avatar's flow configuration, which you then include in your `custom flow.js script <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flow.js>`_.
+The **Output** panel displays the resulting FST data for your avatar's flow configuration, based on what you entered in the `Joints Panel`_ and the `Collisions Panel`_. 
 
-.. image:: _images/jsonpanel.png
+Copy this data directly into your avatar's FST file to complete the flow process. 
 
-This data can be copied and pasted into the `Flow script <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flow.js>`_ between the lines::
+.. image:: _images/flow-fst.png
 
-    // CUSTOM DATA STARTS HERE
-     
-    Erase existing code and paste new code here
-
-    // CUSTOM DATA ENDS HERE
-
-You can now add the modified Flow script to your avatar's FST file to see your work in action. 
-
------------------------------
-Add an Avatar Script
------------------------------
-
-In order to :doc:`attach a script to your avatar <../../script/avatar-scripts>`, you must modify your avatar's FST file to include the path where your script lives. There are two ways to update your FST file:
-
-1.  Manually add a line to the FST file telling the avatar where to find the script file using ``script = [FLOW SCRIPT URL HERE]``
-
-.. image:: _images/addscript.PNG
-
-2. Use the `Avatar Packager <create-avatars.html#package-your-avatar>`_ to add your avatar script.  
-
-When packaging your model, the tool will iterate through the directory and add each script to the FST file. Now, you can upload the folder structure to the Marketplace or to your preferred hosting service.
-
----------------------------
-Avatar Examples
----------------------------
-
-Here is an example of an avatar that is rigged appropriately to use with Flow: `Mannequin with Hair <https://hifi-content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_.
 
 ------------------------------
 Resources
 ------------------------------
 
-+-------------+---------------------------------------------------------------------+---------------------------------------------------------------------------+
-| File        | Description                                                         | URL                                                                       |
-+=============+=====================================================================+===========================================================================+
-| Flow Script | This is a customizable script that runs the Flow app for your       | `Flow.js <https://hifi-content.s3.amazonaws.com/luis/flowFiles/flow.js>`_ |
-|             | avatar. It simulates physics on your avatar's hair, clothes, and    |                                                                           |
-|             | body parts.                                                         |                                                                           |
-+-------------+---------------------------------------------------------------------+---------------------------------------------------------------------------+
-
++---------------------+-------------------------------------------------------------+--------------------------------------------+
+| File                | Description                                                 | URL                                        |
++=====================+=============================================================+============================================+
+| Flow App            | This app lets users easily update Flow settings without     | `flowAppCpp.js <https://highfidelity.com   |
+|                     | the need for scripting or advanced knowledge of avatars.    | /marketplace/items/370b8ff7-d5ad-4410-9c5c |
+|                     |                                                             | -0ead86e69756>`_                           |
++---------------------+-------------------------------------------------------------+--------------------------------------------+
+| Mannequin with Hair | This avatar is properly rigged to work with Flow. Use this  | `Mannequin with Hair <https://hifi-c       |
+|                     | as an example for your own avatar models.                   | ontent.s3.amazonaws.com/jimi/avatar/       |
+|                     |                                                             | Mannequin/hairTest/mannequinHairTest8.     |
+|                     |                                                             | fst>`_                                     |
++---------------------+-------------------------------------------------------------+--------------------------------------------+
 
 **See Also**
 

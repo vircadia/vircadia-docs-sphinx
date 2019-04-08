@@ -11,7 +11,7 @@ High Fidelity has a local sandbox that you can download and start using as your 
 
 You can install the sandbox if your system meets the [minimum requirements](../../explore/get-started/install.html#minimum-system-requirements). To install the sandbox:
 
-1. Go to [High Fidelity's website](https://highfidelity.com/download/sandbox) and download the 'Client + Sandbox' installer.
+1. Go to [High Fidelity's website](https://www.highfidelity.com/download#sandbox) and download the 'Client + Sandbox' installer.
 2. Run the High Fidelity installer.
 3. Follow the prompts and complete the installation.
 

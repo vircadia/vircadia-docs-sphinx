@@ -13,8 +13,8 @@ What can I do?
 You have the power to shape your VR experience in High Fidelity.
 
 * :doc:`EXPLORE <explore>` by hopping between domains in the metaverse, shop the Marketplace, attend events and check out what others are up to!
-* :doc:`CREATE <create>` personal experiences by building avatars, domains, applications and more for you and others to enjoy.
+* :doc:`CREATE <create>` personal experiences by building avatars, domains, tablet apps, and more for you and others to enjoy.
 * :doc:`SCRIPT <script>` and express your creativity by applying advanced scripting concepts to entities and avatars in the metaverse.
 * :doc:`HOST <host>` and make immersive experiences to educate, entertain, and connect with your audience.
 * :doc:`SELL <sell>` your creations to others and make money in the metaverse using the High Fidelity Marketplace.
-* :doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source code on GitHub or picking up a paid assignment on Worklist.
+* :doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source code on GitHub.

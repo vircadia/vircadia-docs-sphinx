@@ -3,10 +3,11 @@
 If you want to buy items in High Fidelity, head on over to the Marketplace, where you can purchase more than 300 items built by digital artists and creators from around this world. High Fidelity uses their own cryptocurrency, High Fidelity Coin (HFC) to manage your transactions. 
 
 **On This Page:**
-* [Buying High Fidelity Coin](#buying-high-fidelity-coin)
-* [Shopping the Marketplace](#shopping-the-marketplace)
+* [Buy High Fidelity Coin](#buy-high-fidelity-coin)
+* [Shop the Marketplace](#shop-the-marketplace)
+* [Cash Out Your HFC](#cash-out-your-hfc)
 
-## Buying High Fidelity Coin
+## Buy High Fidelity Coin
 
 Currently, you can buy High Fidelity Coins (HFC) using [Ethereum](https://www.ethereum.org/), a blockchain app that trades ETH (Ether). The Bank of High Fidelity manages HFC and we gradually increase the number of coins in circulation as the economy grows. 100 HFC is equal to 1 USD.
 
@@ -18,7 +19,17 @@ To get HFC:
 
 You can also receive HFC from gifts from your friends or as prizes at events in High Fidelity.
 
-## Shopping the Marketplace
+## Cash Out Your HFC
+
+As you acquire more HFC through Marketplace sales, prizes, or gifts, you may cash out your HFC for USD. The minimum amount of HFC that you cash out is $25 (or 2,500 HFC), and the maximum cashout value is $2000 (or 200,000 HFC) per calendar month. High Fidelity may, at its discretion, issue the occasional exception to the maximum cashout amount.
+
+To cash out HFC: 
+1. [Book an appointment](https://meetings.hubspot.com/highfidelity/high-fidelity-bank-appointment) at the Bank of High Fidelity.
+2. At the time of your appointment, visit the [TradingRoom](https://hifi.place/TradingRoom) domain to meet with the banker.
+
+The transaction will go through PayPal. USD will be paid to the email account specified via the appointment booking form. Time to payment receipt will be based on PayPal rules and guidelines.
+
+## Shop the Marketplace
 
 The Marketplace contains all types of items to enrich your VR experience, including avatars, buildings, apps, wearables, toys and so much more. Each item will have a cost associated with it - some items are free, while others can be purchased. 
 
