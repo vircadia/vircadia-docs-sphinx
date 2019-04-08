@@ -46,7 +46,7 @@ Before you replace the existing standard animations, you need to prepare your cu
 - Animations must have standard joint names for High Fidelity.
 - Animations must have standard joint orientations (y down the bone).
 - Key frames must have key frames for every joint at a uniform interval of 30 frames per second.
-- Locomotion animation phase has the left ankle in passing position on the frame. Try to match this phase if you want your locomotion animation to blend with the default set.
+- Locomotion animation phase has the left ankle in passing position on the first frame. Try to match this phase if you want your locomotion animation to blend with the default set.
 
 Once you create your animation:
 

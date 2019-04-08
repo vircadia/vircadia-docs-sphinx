@@ -17,6 +17,8 @@ Use these controls on your VR controllers so that you can enjoy your experience 
 
 .. image:: _images/controls-VR.png
 
+.. image:: _images/OculusFlight.jpg
+
 -------------------------
 Gamepad
 -------------------------
