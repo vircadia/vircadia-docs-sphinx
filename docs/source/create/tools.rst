@@ -72,7 +72,7 @@ Use the Shapes app
 Marketplace Item Tester
 -----------------------------
 
-Once you have created an item, you can test it prior to using it or :doc:`submitting it to Marketplace <../sell/add-item>`. The Marketplace Item Tester reviews all kinds of content, including applications, avatars, content sets, entities, and wearables. Using it, you can verify that your item works the way you expected, and that it does not have any script errors.
+Once you have created an item, you can test it prior to using it or :doc:`submitting it to Marketplace <../sell/add-item>`. The Marketplace Item Tester reviews all kinds of content, including tablet apps, avatars, content sets, entities, and wearables. Using it, you can verify that your item works the way you expected, and that it does not have any script errors.
 
 To use the Marketplace Item Tester:
 

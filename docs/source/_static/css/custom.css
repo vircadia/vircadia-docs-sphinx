@@ -13,12 +13,6 @@
 }
 
 @font-face{
-	font-family: 'Graphik Light';
-	src: url('../fonts/Graphik-Light.otf') format('opentype');
-}
-
-
-@font-face{
 	font-family: 'Proxima Nova';
 	src: url('../fonts/proximanova-regular.otf') format('opentype');
 }
@@ -73,6 +67,15 @@ img {
 	line-height: 1rem;
 }
 
+.block {
+    font-family: 'Graphik Regular';
+    font-size: .95rem;
+    line-height: 24px;
+    border-left: solid #ddd 5px; 
+    padding-left: 25px; 
+    margin: 25px;
+}
+
 /***********************************/
 /******** Headings styles **********/
 /***********************************/
@@ -113,15 +116,15 @@ h5 {
 /***********************************/
 
 .wy-nav-content a {
-    color: #1f98ba;
+    color: #009ee0;
 }
 
 .wy-nav-content a:hover {
-    color: #1f98ba;
+    color: #009ee0;
 }
 
 .wy-nav-content a:visited {
-    color: #1f98ba;
+    color: #009ee0;
 }
 
 /***********************************/
@@ -136,6 +139,15 @@ h5 {
     font-size: 0.85rem;
 }
 
+/***********************************/
+/********** Search styles **********/
+/***********************************/
+
+.rst-content .highlighted {
+    background: #ffed00;
+    font-weight: normal;
+    padding: 0 2px;
+}
 
 /***********************************/
 /*********** Note styles ***********/
@@ -157,6 +169,7 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 .note p {
     padding: 5px;
 }
+
 /***********************************/
 /*********** Nav styles ************/
 /***********************************/
@@ -320,8 +333,13 @@ li table {
     line-height: 1.5;
 }
 
+.rst-content table.docutils th p {
+    margin-bottom: 0;    
+}
+
+
 .rst-content table.docutils td p {
-    font-size: .85rem;    
+    font-size: .89rem;    
 }
 
 .rst-content table.docutils td ul li, .rst-content table.docutils td ol li {

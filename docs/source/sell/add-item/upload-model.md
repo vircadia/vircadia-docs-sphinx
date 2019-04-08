@@ -19,6 +19,11 @@ You will need to upload these files to the Marketplace, along with any supportin
 2. If supported by your 3D modeling software, embed your textures into your FBX file to keep the process simpler.
 3. As a practice and to catch any errors, re-import your FBX back into a new scene and check that it still looks right. Look for things like missing textures or normals, and smoothing issues. You may need to tweak your export settings if the re-imported model does not look right.
 
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>If you intend to upload and sell your 3D model to the Marketplace, you need to set your base material color to white (some apps default to grey). This ensures that the model renders correctly for all users and that it will be accepted into our Marketplace.</p>
+</div>
+
 ### Add Your 3D Model Assets
 If your model could be re-imported without any issues, it is now ready to be uploaded to High Fidelity. 
 
@@ -51,7 +56,7 @@ At this time, we recommend that you test your item using the [Marketplace Item T
 Click the JSON file as your root file in the Asset Viewer. ![](_images/select-root.png)
 8. Save your submission.
 
-If you wish to sell your 3D model on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../contribute/write-for-us.html#markdown-guide) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
+If you wish to sell your 3D model on the Marketplace, be sure to fill out your metadata. You can format your item's description using [Markdown](../../sell/markdown-guide.html) syntax. Click "Submit for Review" to be verified and certified on the Marketplace.
 
 **See Also**
 

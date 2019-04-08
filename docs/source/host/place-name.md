@@ -13,7 +13,7 @@ By default, every domain is assigned a random place name (such as "blue-bandwidt
 + [Purchase a Place Name](#purchase-a-place-name)
 + [Add a Custom Place Name to Your Domain](#connect-a-place-name-to-your-domain)
 + [Connect New and Existing Place Names](#connect-new-and-existing-place-names)
-+ [Add Your Place to the GoTo Directory](#add-your-place-to-the-go-to-directory)
++ [Add Your Place to the GoTo Directory](#add-your-place-to-the-goto-directory)
 
 ## Purchase a Place Name
 

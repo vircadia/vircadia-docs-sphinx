@@ -12,7 +12,8 @@ When you first use High Fidelity, you will be wearing the default avatar. Your a
 
     Create Your Own Avatar <avatars/create-avatars>
     Find and Use an Existing Avatar <avatars/find-avatars>
-    Host Your Avatar <avatars/host-avatar>
+    Package and Host Your Avatar <avatars/package-avatar>
+    Add Flow to Your Avatar <avatars/add-flow>
     Customize Avatar Animations <avatars/custom-animations>
     Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>
     Tutorial: Rig Avatars in Mixamo <avatars/mixamo-tutorial>
