@@ -207,6 +207,6 @@ You can add audio settings for a stage in your domain. This stage is used for pe
 
 **See Also**
 
-+ :doc:`Secure Your Domain <secure-domain>`
++ :doc:`Secure Your Domain <../secure-domain>`
 + :doc:`Broadcast to Other Domains <../broadcast-domain>`
 + :doc:`Backup and Restore Your Domain <../backup-restore-domain>`
