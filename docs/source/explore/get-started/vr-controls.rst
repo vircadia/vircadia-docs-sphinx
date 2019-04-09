@@ -17,9 +17,6 @@ Use these controls on your VR controllers so that you can enjoy your experience 
 
 .. image:: _images/controls-VR.png
 
-.. image:: _images/OculusFlight.jpg
-
-
 .. note:: If you're using a VR headset other than Oculus or HTC Vive, make sure you have Steam VR installed before launching High Fidelity. 
 
 -------------------------
