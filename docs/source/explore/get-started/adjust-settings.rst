@@ -64,11 +64,11 @@ High Fidelity spatializes audio in real-time based on the location of the listen
 | Noise reduction            | Enable or disable noise reduction.                                                   |
 |                            |                                                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Audio level meter          | The audio level meter is visible on the top left corner of your screen. By default,  |
-|                            | this is always shown. You can uncheck this box to stop showing the meter.            |
+| Audio level meter          | By default, the audio level meter is visible on the top left corner of your screen.  |
+|                            | Uncheck this box to hide the meter.                                                  |
 +----------------------------+--------------------------------------------------------------------------------------+
 | Push To Talk (T)           | Enable or disable Push To Talk for other users to hear you when your microphone is   |
-|                            | muted. When enabled, press and hold ``T`` to talk in desktop mode and press both       |
+|                            | muted. When enabled, press and hold ``T`` to talk in desktop mode and press both     |
 |                            | triggers on your controllers in VR mode. This feature works only when you are        |
 |                            | focused on the Interface window.                                                     |
 +----------------------------+--------------------------------------------------------------------------------------+
@@ -84,8 +84,9 @@ High Fidelity spatializes audio in real-time based on the location of the listen
 | People volume              | Use the slider to increase or decrease the volume of other users in the domain.      |
 |                            |                                                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Environment volume         | Use the slider to increase or decrease the domain's volume.                          |
-|                            |                                                                                      |
+| Environment volume         | Use the slider to increase or decrease the volume of ambient sound in the domain's   |
+|                            | volume. For example, use this option to decrease the sound of background music or    |
+|                            | special effects like fireworks.                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
 | System Sound volume        | Use the slider to increase or decrease your system's volume.                         |
 |                            |                                                                                      |
@@ -107,7 +108,7 @@ An audio input device is any software or hardware device that accepts an output 
 Output Devices
 ^^^^^^^^^^^^^^^^^^^^^^
 
-An audio output device produces a signal that drive another device’s input. Examples of audio output devices include:
+An audio output device produces a signal that drives another device’s input. Examples of audio output devices include:
 
 * Desktop computer speakers
 * Headphones
@@ -216,7 +217,9 @@ You can make changes to the graphics in High Fidelity.
 | World Detail | You can control the detail visible to you in High Fidelity by moving this slider left  |
 |              | to decrease and right to increase.                                                     |
 +--------------+----------------------------------------------------------------------------------------+
-| Show Shadows | Enable or disable viewing shadows. This setting is enabled by default.                 |
+| Show Shadows | Enable or disable viewing shadows. This setting is enabled by default. If you have a   |
+|              | low game rate or are having trouble loading a domain, disabling this option may        |
+|              | improve your performance.                                                              |
 +--------------+----------------------------------------------------------------------------------------+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
