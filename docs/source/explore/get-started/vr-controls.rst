@@ -15,13 +15,55 @@ Use these controls on your VR controllers so that you can enjoy your experience 
 
 .. note:: If you want to jump and fly in VR, you must enable it under Settings > Controls > VR Movement.
 
+.. raw:: html
 
-.. image:: _images/controls-oculus-flight.jpg 
-.. image:: _images/controls-oculus.jpg
-.. image:: _images/controls-vive-flight.jpg
-.. image:: _images/controls-vive.jpg
-.. image:: _images/controls-wmr-flight.jpg
-.. image:: _images/controls-wmr.jpg
+    <table border="1" class="docutils">
+        <colgroup>
+            <col width="50%">
+            <col width="50%">
+        </colgroup>
+        <thead>
+            <tr>
+            	<th colspan="2", class="head", align="center">Oculus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="../../_images/controls-oculus.jpg">
+                </td>
+                <td>
+                     <img src="../../_images/controls-oculus-flight.jpg">
+                </td>
+            </tr>
+          <tr>
+            	<th colspan="2", class="head">Vive</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="../../_images/controls-vive.jpg">
+                </td>
+                <td>
+                     <img src="../../_images/controls-vive-flight.jpg">
+                </td>
+            </tr>
+            <tr>
+            	<th colspan="2", class="head">Windows MR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="../../_images/controls-wmr.jpg">
+                </td>
+                <td>
+                     <img src="../../_images/controls-wmr-flight.jpg">
+                </td>
+            </tr>
+       </tbody>
+    </table>
 
 
 .. note:: If you're using a VR headset other than Oculus or HTC Vive, make sure you have Steam VR installed before launching High Fidelity. 
