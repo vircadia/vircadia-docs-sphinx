@@ -26,4 +26,5 @@ To build any content in High Fidelity, whether it is an object that you interact
     Tutorial: Build a Painting Set <entities/primitive-painting-set-tutorial>
     Tutorial: Create a Purchase Button for Marketplace Sales <entities/purchase-button-tutorial>
     Tutorial: Create a Boombox <entities/boombox-tutorial>
+    Tutorial: Create a Smoke Fountain <entities/create-fountain>
 
