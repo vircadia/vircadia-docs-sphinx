@@ -15,7 +15,14 @@ Use these controls on your VR controllers so that you can enjoy your experience 
 
 .. note:: If you want to jump and fly in VR, you must enable it under Settings > Controls > VR Movement.
 
-.. image:: _images/controls-VR.png
+
+.. image:: _images/controls-oculus-flight.jpg 
+.. image:: _images/controls-oculus.jpg
+.. image:: _images/controls-vive-flight.jpg
+.. image:: _images/controls-vive.jpg
+.. image:: _images/controls-wmr-flight.jpg
+.. image:: _images/controls-wmr.jpg
+
 
 .. note:: If you're using a VR headset other than Oculus or HTC Vive, make sure you have Steam VR installed before launching High Fidelity. 
 
@@ -25,7 +32,7 @@ Gamepad
 
 While the use of a gamepad is supported, High Fidelity is best experienced with hand controllers like the Oculus Touch, HTC Vive, and Microsoft MR controllers.
 
-.. image:: _images/controls-gamepad.png
+.. image:: _images/controls-gamepad.jpg
 
 Don't have your own VR equipment? You can still use High Fidelity in :doc:`desktop mode <desktop>`.
 
