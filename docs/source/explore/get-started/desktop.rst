@@ -13,7 +13,7 @@ Desktop users are restricted to using their keyboard and mouse to do things in H
 Movement Controls
 -------------------------------
 
-.. image:: _images/controls-keyboard.png
+.. image:: _images/controls-keyboard.jpg
 
 +------------------------+-------------------------------------------------+
 | Action                 | Key                                             |
