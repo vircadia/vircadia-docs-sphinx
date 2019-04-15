@@ -1,0 +1,82 @@
+#####################################
+Tutorial: Create a Smoke Fountain
+#####################################
+
+In this tutorial, you will learn how particle entities work by creating a smoke fountain that emits multiple colors. Particle entities are used to create effects made up of many small particles, such as fire, smoke, or falling leaves.
+
+.. contents:: On This Page
+    :depth: 2
+
+
+--------------------------------------
+Prerequisites
+--------------------------------------
+
+Consider getting familiar with the following concepts before starting this tutorial:
+
++ `Create New Entities <create-entities.html>`_
++ `Change How Entities Look <entity-appearance.html>`_
+
+
+---------------------------------
+Create a Smoke Fountain
+---------------------------------
+
+Particle entities are used to create effects that are made up of smaller parts such as smoke, fire, or swirling water. You can create any effect of your choice using different textures. The default texture for all particle entities is a wispy smoke texture. You can edit other particle entity properties or replace the texture to create your desired effect.
+
+To create a smoke fountain:
+
+1. In Interface, pull up your HUD or Tablet and go to **Create**.
+2. Click the 'Particle' icon to create the particle entity. By default, the particle entity emits smoke. 
+3. In the 'Properties' tab, change the values of the following properties:
+
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Property          | Value                                               | Description                                                                 |
+	+===================+=====================================================+=============================================================================+
+	| Lifespan          | ``1.20``                                            | This property defines how long each particle lives, in seconds.             |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Max Particles     | ``356``                                             | Max particles defines how many particles are rendered at one time.          |
+	|                   |                                                     | Older particles, whose lifespans are completed, are swapped out for         |
+	|                   |                                                     | newer ones. Increase this value to increase the number of particles         |
+	|                   |                                                     | for your effect.                                                            |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Texture           |  Wispy smoke                                        | This the default texture used for particle entities. Each particle displays |
+	|                   |                                                     | this image. We support textures in the PNG and JPEG formats.                |
+	|                   |                                                     |                                                                             |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Emit Rate         | ``524``                                             | The emit rate defines how many particles are emitted per second.            |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Speed Spread      | ``2.10``                                            |                                                                             |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Emit Dimensions   | x = ``0.64``, y = ``10.13``, z = ``0.33``           | Particles are emitted from a radius. This property defines the outer limit  |
+	|                   |                                                     | of that radius.                                                             |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Size              | Start = ``0.42``, Middle = ``0.82``,                | This property determines the size of each particle and how it changes from  |
+	|                   | Finish = ``0.82``                                   | emission to end of life.                                                    |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Color             | Start = ``#000000``, Middle = ``#FFFFFF``,          | This determines the colors the particles will emit. Start, middle, and      |
+	|                   | Finish = ``#000000``                                | finish define the color spectrum to be emitted.                             |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Color Spread      | ``#FFFFFF``                                         | This determines the color spectrum of the particles.                        |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Emit Acceleration | x = ``0``, y = ``-9.09``, z = ``0``                 | This is the acceleration of each particle during its lifetime.              |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Spin Spread       | ``147.40``                                          | The spread in spins for the particle entity. Changing this value results    |
+	|                   |                                                     | in a variety of spins for different particles.                              |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Horizontal Angle  | Start = ``0``, Finish = ``180``                     | This is the angle range in degrees at which the particles are emitted       |
+	|                   |                                                     | along the z axis and rotated around on the y axis.                          |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+	| Vertical angle    | Start = ``150``, Finish = ``180.``                  | This is the angle range in degrees at which the particles are emitted       |
+	|                   |                                                     | along the x axis and rotated around on the z axis.                          |
+	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
+
+Congratulations! You've created a multi-colored smoke fountain!
+
+
+
+**See Also**
+
++ :doc: `Create New Entities <create-entities.html>`_
++ :doc: `Change How Entities Look <entity-appearance.html>`_
++ :doc: `Creator Tools <../tools.html>`_
