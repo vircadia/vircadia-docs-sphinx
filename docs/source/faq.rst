@@ -148,7 +148,7 @@ Buy from the Marketplace
 | rez only one copy of each item purchased on the Marketplace. This is done to protect the            |
 | intellectual property rights of the creators. DDV will determine if an item has been moved to a new |
 | domain and will remove it from the old domain. DDV requires the domain to be running and will       |
-| delete items from domains with no Place or domain name. This doesn't include temporary names.       |
+| delete items from domains with no Place or domain name. Temporary names are accepted.               |
 | DDV often runs within an hour after you rez a Marketplace item again. Its frequency is controlled   |
 | by the domain's control panel.                                                                      |
 +-----------------------------------------------------------------------------------------------------+
