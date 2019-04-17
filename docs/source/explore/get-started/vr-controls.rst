@@ -68,6 +68,54 @@ Use these controls on your VR controllers so that you can enjoy your experience 
 
 .. note:: If you're using a VR headset other than Oculus or HTC Vive, make sure you have Steam VR installed before launching High Fidelity. 
 
+
+^^^^^^^^^^^^^^^^^^^^^^^
+Movement Controls
+^^^^^^^^^^^^^^^^^^^^^^^
+
+If you want to change your avatar's walking or running speed, or change your direction, you can use our movement controls. 
+
+1. In Interface, pull up your HUD or Tablet and go to **Menu > Settings > Controls**.
+2. In the 'Settings' tab, under VR movement, you will see a list of advanced movement control options.
+
+
++----------------------------+---------------------------------------------------------------------------------+
+| Setting                    | Description                                                                     |
++============================+=================================================================================+
+| Teleporting                | Enable to teleport to a location within a domain.                               |
++----------------------------+---------------------------------------------------------------------------------+
+| Walking                    | Enable this setting to walk in a domain.                                        |
++----------------------------+---------------------------------------------------------------------------------+
+| Strafing                   | Enable for your avatar to move from side to side.                               |
++----------------------------+---------------------------------------------------------------------------------+
+| Jumping and flying         | Enable for your avatar to jump and fly in High Fidelity.                        |
++----------------------------+---------------------------------------------------------------------------------+
+| *Movement Direction:*      | When selected, your avatar will move in the direction your head is facing.      |
+| HMD-Relative               |                                                                                 |
++----------------------------+---------------------------------------------------------------------------------+
+| *Movement Direction:*      | When selected, your avatar will move in the direction your hand is pointing.    |
+| Hand-Relative              |                                                                                 |
++----------------------------+---------------------------------------------------------------------------------+
+| *Movement Direction:*      | When selected, your avatar will move in the direction your hand is pointing,    |
+| Hand-Relative (Level)      | without taking pitch into account.                                              |
++----------------------------+---------------------------------------------------------------------------------+
+| Dominant Hand              | Select 'Left' or 'Right'. Teleport and turning controls move to the controller  |
+|                            | in the dominant hand.                                                           |
++----------------------------+---------------------------------------------------------------------------------+
+| *Control Scheme Selection:*| In Default mode, your walking speed doesn't change depending on how far forward |
+| Default                    | you push your controller's joystick. Fully pushing your joystick forward will   |
+|                            | make your avatar run at twice your walking speed.                               |
++----------------------------+---------------------------------------------------------------------------------+
+| *Control Scheme Selection:*| In Analog mode, your walking speed changes based on how far forward you push    |
+| Analog                     | your controller's joystick. Fully pushing your joystick forward will            |
+|                            | make your avatar run at twice your walking speed.                               |
++----------------------------+---------------------------------------------------------------------------------+
+| *Control Scheme Selection:*| In Analog++ mode, your walking speed changes based on how far forward you push  |
+| Analog++                   | your controller's joystick. You can also use the slider to change the walking   |
+|                            | speed in meters/second. Fully pushing your joystick forward will make your      |
+|                            | avatar run at twice your walking speed.                                         |
++----------------------------+---------------------------------------------------------------------------------+
+
 -------------------------
 Gamepad
 -------------------------
