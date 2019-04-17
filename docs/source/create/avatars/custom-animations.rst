@@ -2,9 +2,9 @@
 Customize Avatar Animations
 #####################################
 
-Your avatar can express custom animations such as dancing or waving. You can do this by replacing or overriding the standard animations. All avatars in High Fidelity use the built in standard set of animations by default. These animations are generic and do not change based on your avatar. 
+Your avatar can express custom animations such as dancing, juggling, or waving. You can do this by replacing or overriding the standard animations. All avatars in High Fidelity use the built in standard set of animations by default. These animations are generic and do not change based on your avatar. 
 
-.. note:: We update our process to import custom animations for avatars often, to make it more user friendly. Keep this in mind before customizing your avatar's animations.
+.. note:: We often update our process to import custom animations for avatars, to make it more user friendly. Keep this in mind before customizing your avatar's animations.
 
 .. contents:: On This Page
     :depth: 2
@@ -25,7 +25,7 @@ Consider familiarizing yourself with these terms.
 | Animation roles          | Animation roles are triggers that map to an action that an avatar can perform.                   |
 |                          | For example, turnLeft is an animation role that makes your avatar turn left                      |
 |                          | while standing in place. This animation role is mapped to the turn_left.fbx                      |
-|                          | file. You can see this in action by pressing the left arrow key or A in Desktop                  |
+|                          | file. You can see this in action by pressing the left arrow key or ``A`` in Desktop              |
 |                          | mode or using your hand controllers in VR mode.                                                  |
 +--------------------------+--------------------------------------------------------------------------------------------------+
 | Avatar Animation JSON or | The standard animation system blends and layers a series of animations from                      |
@@ -67,7 +67,7 @@ You can have your avatar express custom animations in different ways:
 Override Using a Script
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can `write a script <../../script/write-scripts.html>`_ and use the `MyAvatar <https://apidocs.highfidelity.com/MyAvatar.html>`_ namespace to override an existing animation or animation role. You can use these
+You can `write a script <../../script/write-scripts.html>`_ and use the `MyAvatar <https://apidocs.highfidelity.com/MyAvatar.html>`_ namespace to override an existing animation or animation role. 
 
 We've listed the methods you can use to replace the standard animations on your avatar. 
 
@@ -96,7 +96,7 @@ You can also override an existing animation role mapping:
 1. Use `MyAvatar.getAnimationRoles <https://apidocs.highfidelity.com/MyAvatar.html#.getAnimationRoles>`_ to view the list of roles for the current avatar. 
 2. You can replace the animation for each role with a custom animation (FBX file) using `MyAvatar.overrideRoleAnimation <https://apidocs.highfidelity.com/MyAvatar.html#.overrideRoleAnimation>`_.
 
-We've listed the animation roles and their description. Animation roles are frequently updated. We recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles being used. The standard animation FBX files for these roles can be found in the High Fidelity source code repository on `GitHub <https://github.com/highfidelity/hifi/tree/master/interface/resources/avatar/animations>`_.
+We've listed the animation roles and their description. These are frequently updated. We recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles being used. The standard animation FBX files for these roles can be found in the High Fidelity source code repository on `GitHub <https://github.com/highfidelity/hifi/tree/master/interface/resources/avatar/animations>`_.
 
 +-------------------------------------------+----------------------------------------------------------------------+
 | Animation Roles                           | Description                                                          |
@@ -251,7 +251,8 @@ We've listed some features of the system:
 
 The AnimNode system operates like an expression parse tree.  For example the following expression: ``4 + 3 * 7 - (5 / (3 + 4)) + 6``, can be represented by the following parse tree.
 
-.. image::_images/animnode.png
+.. image:: _images/animnode.png
+
 
 This parse tree can then be evaluated at runtime to compute the actual value. In this tree, the leaf nodes are values and interior nodes are operations that combine two or more sub-trees and produce a new value. The tree is evaluated until there is a single value remaining, which should be the result of the entire expression: ``30.2957142``. 
 
