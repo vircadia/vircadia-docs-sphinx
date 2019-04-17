@@ -22,9 +22,10 @@ Consider getting familiar with the following concepts before starting this tutor
 Create a Smoke Fountain
 ---------------------------------
 
-Particle entities are used to create effects that are made up of smaller parts such as smoke, fire, or swirling water. You can create any effect of your choice using different textures. The default texture for all particle entities is a wispy smoke texture. You can edit other particle entity properties or replace the texture to create your desired effect.
+Particle entities are used to create effects that are made up of smaller parts such as smoke, fire, or swirling water. You can create any effect of your choice using different textures. The default texture for all particle entities is a `wispy smoke texture <https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png>`_. You can edit other particle entity properties or replace the texture to create your desired effect. We support textures in the PNG and JPEG formats.
 
-To create a smoke fountain:
+In this tutorial, you will create this smoke fountain by editing a few properties of particle entities. This is to help you get familiar with how changing these properties changes how the entity looks and behaves. 
+
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Click the 'Particle' icon to create the particle entity. By default, the particle entity emits smoke. 
@@ -40,19 +41,18 @@ To create a smoke fountain:
 	|                   |                                                     | newer ones. Increase this value to increase the number of particles         |
 	|                   |                                                     | for your effect.                                                            |
 	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
-	| Texture           |  Wispy smoke                                        | This the default texture used for particle entities. Each particle displays |
-	|                   |                                                     | this image. We support textures in the PNG and JPEG formats.                |
-	|                   |                                                     |                                                                             |
-	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
 	| Emit Rate         | ``524``                                             | The emit rate defines how many particles are emitted per second.            |
 	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
-	| Speed Spread      | ``2.10``                                            |                                                                             |
+	| Speed Spread      | ``2.10``                                            | This defines the range of speeds the particles will emit, which changes as  |
+	|                   |                                                     | per the Emit Speed. For example, if Emit Speed is ``5`` and Speed Spread is |
+	|                   |                                                     | ``1``, the particles will have speeds that range from ``4`` to ``6``.       |
 	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
-	| Emit Dimensions   | x = ``0.64``, y = ``10.13``, z = ``0.33``           | Particles are emitted from a radius. This property defines the outer limit  |
+	| Emit Dimensions   | x = ``0.60``, y = ``10.00``, z = ``0.30``           | Particles are emitted from a radius. This property defines the outer limit  |
 	|                   |                                                     | of that radius.                                                             |
 	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
-	| Size              | Start = ``0.42``, Middle = ``0.82``,                | This property determines the size of each particle and how it changes from  |
-	|                   | Finish = ``0.82``                                   | emission to end of life.                                                    |
+	| Size              | Start = ``0.40``, Middle = ``0.80``,                | This property determines the size of each particle and how it changes from  |
+	|                   | Finish = ``0.80``                                   | emission to end of life. Here, it starts at ``0.4`` and when its life is    |
+	|                   |                                                     | completed, the particle has increased in size to ``0.8``.                   |
 	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
 	| Color             | Start = ``#000000``, Middle = ``#FFFFFF``,          | This determines the colors the particles will emit. Start, middle, and      |
 	|                   | Finish = ``#000000``                                | finish define the color spectrum to be emitted.                             |
@@ -71,12 +71,23 @@ To create a smoke fountain:
 	|                   |                                                     | along the x axis and rotated around on the z axis.                          |
 	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
 
+
+
+.. image:: _images/smoke-fountain.gif
+
 Congratulations! You've created a multi-colored smoke fountain!
+
+You can also try creating some of these effects using particle entities:
+
+
++ Fire pit
++ Waterfall
 
 
 
 **See Also**
 
-+ :doc: `Create New Entities <create-entities.html>`_
-+ :doc: `Change How Entities Look <entity-appearance.html>`_
-+ :doc: `Creator Tools <../tools.html>`_
+- :doc: `Create New Entities <create-entities.html>`
+- :doc: `Change How Entities Look <entity-appearance.html>`
+- :doc: `Creator Tools <../tools.html>`
+
