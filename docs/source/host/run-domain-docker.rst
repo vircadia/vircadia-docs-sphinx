@@ -117,5 +117,5 @@ You can also update your container when a new version is released by changing th
 
 **See Also**
 
-+ :doc: `Host Your Domain`
-+ :doc: `Set Up Your Domain`
++ :doc:`Host Your Domain`
++ :doc:`Set Up Your Domain`
