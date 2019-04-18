@@ -98,7 +98,7 @@ startup();
 
 If you want your app to do something specific when it is opened, use the AppUI module's `onOpened` functionality. For example, you could:
 * Query a server to get a response and determine what to show on the UI
-* Start displaying a 3D interface separate from the tablet  (e.g. shapes app)
+* Start displaying a 3D interface separate from the tablet 
 * Determine the display mode (VR/Desktop) and change things to show on the UI
 
 ```
