@@ -14,6 +14,7 @@ Throughout this chapter, learn how to set up a domain, secure and host it, and m
     Secure Your Domain <host/secure-domain>
     Manage Your Domain Assets <host/manage-assets>
     Host Your Domain <host/host-your-domain>
+    Run Your Domain Using Docker <host/run-domain-docker>
     Add a Place Name <host/place-name>
     Broadcast Your Domain <host/broadcast-domain>
     Stream Content <host/stream-domain>
