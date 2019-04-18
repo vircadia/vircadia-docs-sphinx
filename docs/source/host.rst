@@ -20,6 +20,7 @@ Throughout this chapter, learn how to set up a domain, secure and host it, and m
     Stream Content <host/stream-domain>
     Backup and Restore Your Domain <host/backup-restore-domain>
     Maintain Your Domain <host/maintain-domain>
+    Best Practices For Hosting Events <host/domain-settings-event>
     Tutorial: Set Up a Theater Domain <host/theater-domain-tutorial>
     Tutorial: Syncing Services <host/syncing-tutorial>
 
