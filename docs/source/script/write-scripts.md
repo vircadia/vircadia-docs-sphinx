@@ -6,7 +6,7 @@ In this section, you can find simple code samples to do common tasks in High Fid
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>Entity scripts, unlike interface scripts, are in containing functions. The example scripts here cannot be attached to an entity (and be used as an entity script) unless they are in a containing function `function(){}`.</p>
+    <p>Entity scripts, unlike interface scripts, are in containing functions. The example scripts here cannot be attached to an entity (and be used as an entity script) unless they are in a containing function ``function() {}``.</p>
 </div> 
 
 **On This Page:**
