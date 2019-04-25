@@ -13,6 +13,7 @@ Throughout this chapter, learn how to set up a domain, secure and host it, and m
     Set Up Your Domain <host/your-domain>
     Secure Your Domain <host/secure-domain>
     Manage Your Domain Assets <host/manage-assets>
+    Bake Your Content Using the Oven <host/oven>
     Host Your Domain <host/host-your-domain>
     Run Your Domain Using Docker <host/run-domain-docker>
     Add a Place Name <host/place-name>
