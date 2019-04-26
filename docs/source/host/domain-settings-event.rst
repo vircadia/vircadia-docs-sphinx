@@ -16,11 +16,10 @@ We've listed some guidelines you can follow when you set up your domain for an e
 
 1. :doc:`Host your domain <host-your-domain>`: If you're expecting a large number of users, we recommend hosting your domain on a virtual machine. You'll need to determine the size of the virtual machine you want to host your domain on. This varies depending on the number of users you're expecting and the content in your domain. 
 2. `Set Up User Permissions <secure-domain.html#set-user-permissions>`_: It is good practice to set up user permissions and create entity filters so that users cannot create or edit entities in your domain. You can keep your domain clutter-free and keep users from modifying the existing domain content. 
-3. Lock down avatar size: Domains can have loading issues if avatars keep changing their sizes. When you lock down an avatar size, you are ensuring that users cannot affect your domain by changing their avatar size beyond a limit. 
-4. Create audio attenuation zones: Depending on the type of event you're hosting, you will need to create audio attenuation zones. These zones control how users hear audio. For example, if you're having an event with two hosts on stage, the hosts and audience members should hear the hosts louder than everyone else. You can set up two attenuation zones, one for the stage and the other for the audience.
-5. Whitelist scripts: This step ensures that only whitelisted scripts can run in the domain. You are avoiding risking running any unauthorized scripts that could affect your domain and any users present.
-6. Use only `server scripts <../script/get-started-with-scripting.html#types-of-scripts>`_: Local scripts can slow down load times for a domain. Use server scripts instead.
-7. `Bake your content <manage-assets.html#bake-an-asset>`_: Loading models in High Fidelity involves real-time rendering (drawcalls), which means images are produced and analyzed in real-time. Depending on the complexity of the models, the drawcalls can differ. You can reduce the drawcalls and optimize the rendering process using baking.
+3. `Create audio attenuation zones <your-domain/configure-settings.html#audio-environment>`_: Depending on the type of event you're hosting, you will need to create audio attenuation zones. These zones control how users hear audio. For example, if you're having an event with two hosts on stage, the hosts and audience members should hear the hosts louder than everyone else. You can set up two attenuation zones, one for the stage and the other for the audience.
+4. Whitelist scripts: This step ensures that only whitelisted scripts can run in the domain. You are avoiding risking running any unauthorized scripts that could affect your domain and any users present.
+5. Use only `server scripts <../script/get-started-with-scripting.html#types-of-scripts>`_: Local scripts can slow down load times for a domain. Use server scripts instead.
+6. `Bake your content <oven.html>`_: Most content (avatars, entities, etc) in High Fidelity references external resources such as textures, models, scripts, and materials. When a user encounters any content in the domain, they need to download the content's resources. Many of these resources are not optimized and can take a while to download. Baking is the process of optimizing these resources to make them easier to transmit, store, and render, reducing load time significantly. 
 
 
 **See Also**
@@ -30,3 +29,4 @@ We've listed some guidelines you can follow when you set up your domain for an e
 + `Set Up User Permissions <secure-domain.html#set-user-permissions>`_
 + :doc:`Configure Your Domain Settings <your-domain/configure-settings>`
 + :doc:`Manage Your Assets <manage-assets>`
++ :doc:`Bake Your Content Using the Oven <oven>`

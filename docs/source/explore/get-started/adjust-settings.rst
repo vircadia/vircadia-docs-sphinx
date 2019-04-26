@@ -72,8 +72,9 @@ High Fidelity spatializes audio in real-time based on the location of the listen
 |                            | triggers on your controllers in VR mode. This feature works only when you are        |
 |                            | focused on the Interface window.                                                     |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Stereo input               | Enable or disable stereo input.                                                      |
-|                            |                                                                                      |
+| Stereo input               | Enable or disable stereo input. Stereo reproduces sound using two or more audio      |
+|                            | channels. This means that you will hear sound from various directions, like how you  |
+|                            | would in the real world.                                                             |
 +----------------------------+--------------------------------------------------------------------------------------+
 | Choose Input Device        | Choose the microphone or `input device <#input-devices>`_ of your choice from the    |
 |                            | list of devices displayed.                                                           |
@@ -84,13 +85,15 @@ High Fidelity spatializes audio in real-time based on the location of the listen
 | People volume              | Use the slider to increase or decrease the volume of other users in the domain.      |
 |                            |                                                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Environment volume         | Use the slider to increase or decrease the volume of ambient sound in the domain's   |
-|                            | volume. For example, use this option to decrease the sound of background music or    |
-|                            | special effects like fireworks.                                                      |
+| Environment volume         | Use the slider to increase or decrease the volume of ambient sound in the domain.    |
+|                            | For example, use this option to decrease the sound of background music or special    |
+|                            | effects like fireworks.                                                              |
 +----------------------------+--------------------------------------------------------------------------------------+
-| System Sound volume        | Use the slider to increase or decrease your system's volume.                         |
-|                            |                                                                                      |
+| System Sound volume        | Use the slider to increase or decrease your UI volume like tablet clicks.            |
+|                            | Changing this value will not affect the People or Environment volume.                |
 +----------------------------+--------------------------------------------------------------------------------------+
+
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^
 Input Devices 

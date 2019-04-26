@@ -216,6 +216,8 @@ OR
 1. Open your avatar's FST file in a text editor. 
 2. Add your Animation Graph file's URL.
 
+.. note:: You will need to run your avatar's files through the `Avatar Packager <package-avatar.html#host-your-avatar>`_ to include the changes in your FST file. 
+
 .. code::
 
     animGraphUrl = "URL"

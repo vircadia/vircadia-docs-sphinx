@@ -75,7 +75,7 @@ To create your smoke fountain using a particle entity:
 
 .. image:: _images/smoke-fountain.gif
 
-Congratulations! You've created a multi-colored smoke fountain! You can experiment with different settings to simulate particle movement, such as a waterfall, confetti gun or falling leaves. 
+Congratulations! You've created a multi-colored smoke fountain! You can experiment with different settings to simulate particle movement, such as a waterfall, confetti gun, or falling leaves. 
 
 
 
@@ -84,7 +84,7 @@ Congratulations! You've created a multi-colored smoke fountain! You can experime
 
 **See Also**
 
-- :doc: `Create New Entities <create-entities.html>`
-- :doc: `Change How Entities Look <entity-appearance.html>`
-- :doc: `Create Tools <../tools.html>`
+- :doc:`Create New Entities <create-entities>`
+- :doc:`Change How Entities Look <entity-appearance>`
+- :doc:`Create Tools <../tools>`
 

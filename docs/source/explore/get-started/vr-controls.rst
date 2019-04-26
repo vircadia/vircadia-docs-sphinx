@@ -11,7 +11,7 @@ To get the best and most immersive experience in High Fidelity, you should use V
 VR Controls
 ------------------------
 
-Use these controls on your VR controllers so that you can enjoy your experience in High Fidelity to the fullest.
+To interact with people in 3D and track body movements, you will need to use VR equipment such as the Oculus Rift or HTC Vive. With VR equipment, you can have a fully immersive experience in High Fidelity.
 
 .. note:: If you want to jump, fly, or strafe (walk sideways) in VR, you must enable it under Settings > Controls > VR Movement.
 
@@ -104,16 +104,16 @@ If you want to change your avatar's walking or running speed, or change your dir
 +----------------------------+---------------------------------------------------------------------------------+
 | *Control Scheme Selection:*| In Default mode, your walking speed doesn't change depending on how far forward |
 | Default                    | you push your controller's joystick. Fully pushing your joystick forward will   |
-|                            | make your avatar run.                               |
+|                            | make your avatar run.                                                           |
 +----------------------------+---------------------------------------------------------------------------------+
 | *Control Scheme Selection:*| In Analog mode, your walking speed changes based on how far forward you push    |
 | Analog                     | your controller's joystick. Fully pushing your joystick forward will            |
-|                            | make your avatar run.                           |
+|                            | make your avatar run.                                                           |
 +----------------------------+---------------------------------------------------------------------------------+
 | *Control Scheme Selection:*| In Analog++ mode, your walking speed changes based on how far forward you push  |
 | Analog++                   | your controller's joystick. You can also use the slider to change the walking   |
 |                            | speed in meters/second. Fully pushing your joystick forward will make your      |
-|                            | avatar run.                                      |
+|                            | avatar run.                                                                     |
 +----------------------------+---------------------------------------------------------------------------------+
 
 -------------------------

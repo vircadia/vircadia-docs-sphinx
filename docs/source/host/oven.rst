@@ -4,6 +4,8 @@ Bake Your Content Using the Oven
 
 You can reduce your load times by optimizing your domain content, models, or avatar using Oven, a standalone application created by High Fidelity. This process of optimizing content is called baking. 
 
+.. contents:: On This Page
+    :depth: 2
 
 -----------------------------------
 Why You Should Bake Your Content
@@ -71,8 +73,7 @@ The Oven has three baking options:
 ----------------------------
 Bake Your Domain
 ----------------------------
-Bake Your Domain
-^^^^^^^^^^^^^^^^^^^^^^
+
 
 When you bake an entire domain, the Oven will bake as many assets as it can, swapping out the entity properties for the baked versions of the resources. 
 
@@ -170,9 +171,9 @@ The resulting .baked.json file should look like this:
 
 
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------
 Bake Your 3D Models
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------
 
 To bake a 3D model:
 
@@ -191,9 +192,9 @@ To bake a 3D model:
 4. Upload the baked model file(s) to your hosting site. 
 
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------
 Bake Your Skybox
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------
 
 To bake a skybox:
 

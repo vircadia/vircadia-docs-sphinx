@@ -30,23 +30,21 @@ A Docker container is isolated from the rest of your system. This means that you
    ``HIFI_VERSION=0.82.0``
 
    This is the tag and needs to be updated with the release of the latest version of High Fidelity. 
-3. Next, you'll need to add information about your domain in the 'hifi.yml'.
+3. Next, you'll need to add information about your domain in the 'hifi.yml'.::
 
-::
-
-  version: "3.6"
-  services:
-    domaina:
-      hostname: hifi-domain-a
-      image: highfidelity/hifi:${HIFI_VERSION}
-      ports:
-        - "40100:40100"
-        - "40102:40102/udp"
-        - "48000-48006:48000-48006/udp"
-      volumes:
-        - "hifiVol1:/root/.local/share/High Fidelity"
-  volumes:
-    hifiVol1: {}
+    version: "3.6"
+    services:
+      domaina:
+        hostname: hifi-domain-a
+        image: highfidelity/hifi:${HIFI_VERSION}
+        ports:
+          - "40100:40100"
+          - "40102:40102/udp"
+          - "48000-48006:48000-48006/udp"
+        volumes:
+          - "hifiVol1:/root/.local/share/High Fidelity"
+    volumes:
+      hifiVol1: {}
 
 
 
@@ -94,18 +92,16 @@ Here, you're passing High Fidelity's version number. You are also exposing the r
     hifiVol3: {}
 
 
-5. Go to the directory in the command line tool and run the image:
+5. Go to the directory in the command line tool and run the image::
 
-::
-
-  docker-compose pull # Pulls changes to files, creates volumes if they dont exist, and automatically 
-  docker-compose up -d # Runs all compose files at the same time, if some changes, then turns them off and replaces them with the containers created during pull.
+    docker-compose pull # Pulls changes to files, creates volumes if they dont exist, and automatically 
+    docker-compose up -d # Runs all compose files at the same time, if some changes, then turns them off and replaces them with the containers created during pull.
 
 
 
-6. To stop running your container, run the following in the command line tool:
+6. To stop running your container, run the following in the command line tool::
 
-``docker-compose stop``
+    docker-compose stop
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Update Your Container to the Latest Version

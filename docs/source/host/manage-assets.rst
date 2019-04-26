@@ -42,27 +42,12 @@ Bake an Asset
 
 Whenever you upload an asset to the Asset Server, it will be baked if it is any of the following file types: 
 
-
 + A 3D Model (with embedded textures)
 + A Skybox
 
 .. + A JavaScript File
 
-Baking is the process of optimizing assets to make them easier to transmit and render, reducing load time significantly. You can bake your content in two ways:
-
-+ You can use the `Oven tool to bake <oven.html>`_ entire domains, 3D models, and skyboxes hosted externally. The Oven is a standalone application that is packaged with High Fidelity.
-+ You can upload content (of the following file types) to be baked to the Asset Server:
-
-+--------------------------+--------------------------------------------------------------------------------------+
-| File Type                | Baking Process                                                                       |
-+==========================+======================================================================================+
-| 3D models (FBX files     | Baked when uploaded to the Asset Server.                                             |
-| with embedded textures)  |                                                                                      |
-+--------------------------+--------------------------------------------------------------------------------------+
-| Skyboxes                 | Baked when uploaded to the Asset Server.                                             |
-|                          |                                                                                      |
-+--------------------------+--------------------------------------------------------------------------------------+
-
+Baking is the process of optimizing assets to make them easier to transmit and render, reducing load time significantly. 
 
 .. 
  | JavaScript Files         | Baked when uploaded to the Asset Server. Baking a JS file involves removing white    |
@@ -74,7 +59,7 @@ Baking is the process of optimizing assets to make them easier to transmit and r
  |                          | baked, you will need to use its unbaked version.                                     |
  +--------------------------+--------------------------------------------------------------------------------------+
 
-.. note:: You cannot bake your content in both ways. You can either use the Oven tool or upload your asset to the Asset Server to be baked. If you've got any content that is hosted on external cloud services or websites, we recommend using the Oven tool.
+.. note:: You can use the `Oven tool to bake <oven.html>`_ entire domains, 3D models, and skyboxes hosted externally. The Oven is a standalone application that is packaged with High Fidelity. If you've got any content that is hosted on external cloud services or websites, we recommend using the Oven tool. You cannot bake content using both the Oven and the Asset Server.
 
 
 A baked file will have a check mark under the 'Use Baked?' column on the Asset Browser. A file will not bake when:

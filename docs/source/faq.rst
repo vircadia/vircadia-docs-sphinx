@@ -4,6 +4,10 @@ Frequently Asked Questions
 
 We get a lot of questions from our users! If you have questions about our product, feel free to browse through this page to learn more. And if you don't see your answer here, e-mail us at `support@highfidelity.com <mailto:support@highfidelity.com>`_!
 
+.. contents:: On This Page
+    :depth: 2
+
+
 ------------------------------
 Sell on the Marketplace
 ------------------------------
@@ -135,8 +139,11 @@ Buy from the Marketplace
 |                                                                                                     |
 | Can I rez multiple copies of a Marketplace item?                                                    |
 +=====================================================================================================+
-| No. You will need to buy multiple copies of the item. Marketplace items behave like items in the    |
-| real world. You can have only one copy of each item you purchase.                                   |
+| Yes, only if the seller has given permission to do so. A seller can modify settings to allow        |
+| users to `rez multiple copies <sell/add-item.html#unlimited-rezzing-of-your-item>`_ of their item   |
+| in a single domain. Otherwise, you will need to buy multiple copies of the item.                    |
+| Marketplace items behave like items in the real world. You can have only one copy of each item you  |
+| purchase unless specified by the seller.                                                            |
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
