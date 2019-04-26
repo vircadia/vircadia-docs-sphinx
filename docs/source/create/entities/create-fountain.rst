@@ -2,7 +2,7 @@
 Tutorial: Create a Smoke Fountain
 #####################################
 
-In this tutorial, you will learn how particle entities work by creating a smoke fountain that emits multiple colors. Particle entities are used to create effects made up of many small particles, such as fire, smoke, or falling leaves.
+In this tutorial, you will learn how particle entities work by creating a smoke fountain that emits multiple colors. Particle entities are used to create effects made up of many small particles, such as smoke, confetti, or falling leaves.
 
 .. contents:: On This Page
     :depth: 2
@@ -22,14 +22,14 @@ Consider getting familiar with the following concepts before starting this tutor
 Create a Smoke Fountain
 ---------------------------------
 
-Particle entities are used to create effects that are made up of smaller parts such as smoke, fire, or swirling water. You can create any effect of your choice using different textures. The default texture for all particle entities is a `wispy smoke texture <https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png>`_. You can edit other particle entity properties or replace the texture to create your desired effect. We support textures in the PNG and JPEG formats.
+Particle entities are used to create effects that are made up of smaller parts such as smoke, confetti, or falling leaves. The entity's effect and appearance is defined by its texture. The default texture is a `wispy smoke texture <https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png>`_, but you can replace this texture with your own to create your desired effect. 
 
-In this tutorial, you will create this smoke fountain by editing a few properties of particle entities. This is to help you get familiar with how changing these properties changes how the entity looks and behaves. 
+To create your smoke fountain using a particle entity: 
 
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Click the 'Particle' icon to create the particle entity. By default, the particle entity emits smoke. 
-3. In the 'Properties' tab, change the values of the following properties:
+3. Go to the 'Properties' tab, and set the following values:
 
 	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
 	| Property          | Value                                               | Description                                                                 |
@@ -75,13 +75,10 @@ In this tutorial, you will create this smoke fountain by editing a few propertie
 
 .. image:: _images/smoke-fountain.gif
 
-Congratulations! You've created a multi-colored smoke fountain!
-
-You can also try creating some of these effects using particle entities:
+Congratulations! You've created a multi-colored smoke fountain! You can experiment with different settings to simulate particle movement, such as a waterfall, confetti gun or falling leaves. 
 
 
-+ Fire pit
-+ Waterfall
+
 
 
 
@@ -89,5 +86,5 @@ You can also try creating some of these effects using particle entities:
 
 - :doc: `Create New Entities <create-entities.html>`
 - :doc: `Change How Entities Look <entity-appearance.html>`
-- :doc: `Creator Tools <../tools.html>`
+- :doc: `Create Tools <../tools.html>`
 

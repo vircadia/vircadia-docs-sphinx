@@ -68,7 +68,9 @@ The Oven has three baking options:
 .. image:: _images/oven.png
 
 
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------------
+Bake Your Domain
+----------------------------
 Bake Your Domain
 ^^^^^^^^^^^^^^^^^^^^^^
 

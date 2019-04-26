@@ -111,11 +111,11 @@ Here, you're passing High Fidelity's version number. You are also exposing the r
 Update Your Container to the Latest Version
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can also update your container when a new version is released by changing the version number in the .env file.
+You can update your container when a new version is released by changing the version number in the .env file.
 
 
 
 **See Also**
 
-+ :doc:`Host Your Domain`
-+ :doc:`Set Up Your Domain`
++ :doc:`Host Your Domain<host-your-domain>`
++ :doc:`Set Up Your Domain<your-domain>`

@@ -1,6 +1,6 @@
 # Define Interactions with Avatars
 
-Your avatar can interact with different types of entities. You can change the color of a cube entity as your avatar moves closer to it, or create an avatar entity that travels with you through different domains. 
+In real life, you interact with objects on a daily basis. In High Fidelity, your avatar can also interact with objects (entities) in the metaverse. There are a number of ways you can define the interactions you have with objects: you can write scripts to change the properties of an entity. You can create entities that are unique to your avatar (we call these "avatar entities"). And don't forget that you can set an entity's behavior and collision properties, so that objects are grabbable, triggerable, or dynamic.
 
 **On This Page:**
 + [Control Interactions with Entities using Scripts](#control-interactions-with-entities-using-Scripts)
@@ -41,12 +41,12 @@ A full range of entity parameters are controllable with these functions. Entitie
 
 ## Create Avatar Entities
 
-Your avatar will also interact with avatar entities. For example, wearables such as hats or glasses are avatar entities. Avatar entities are attached to your avatar, and unlike domain entities, they travel with your avatar when you go to other domains. 
+Your avatar will also interact with avatar entities. Avatar entities are entities that are attached to your avatar, and unlike domain entities, they travel with your avatar when you go to other domains. Examples of avatar entities include wearables such as glasses or hats.
 
-Avatar entities can travel with your avatar because they exist on the [Avatar Mixer](../../explore/get-started/architecture.html#assignment-clients). We've listed the ways you can create avatar entities with some examples:
+Avatar entities live on the [Avatar Mixer](../../explore/get-started/architecture.html#assignment-clients), so they are connected to (and move with) your avatar. We've listed the ways you can create avatar entities with some examples:
 
 1. [Create a wearable:](../wearables.html) All wearables are avatar entities. 
-2. [Clone as an avatar entity:](entity-behavior.html#make-an-entity-cloneable) If you don't want to give users permission to create or edit entities in your domain, you can set an entity to be cloned as an avatar entity. For example, if you have a coffee shop in your domain, you can set all coffee cups to be cloned as avatar entities. Any user who clones a coffee cup is creating an avatar entity that will be attached to their avatar and will leave with them when they exit the domain. You can keep your domain free of clutter using this property.
+2. [Clone as an avatar entity:](entity-behavior.html#make-an-entity-cloneable) When you clone an entity as an avatar entity, you make a copy of the entity and attach it to your avatar. Every copy of that entity will now leave with the avatar when they leave the domain. For example, if you have a coffee shop in your domain, you can set all coffee cups to be cloned as avatar entities. Any user who clones a coffee cup will take the avatar entity with them when they exit the domain. You can keep your domain free of clutter using this property.
 3. Add an avatar entity using a script: You can add an avatar entity using scripts. For example, you can create a script to have a pet (avatar entity) follow you around as you explore High Fidelity. 
 
     This example script adds a cube as an avatar entity to your domain. 

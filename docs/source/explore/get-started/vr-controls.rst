@@ -13,7 +13,7 @@ VR Controls
 
 Use these controls on your VR controllers so that you can enjoy your experience in High Fidelity to the fullest.
 
-.. note:: If you want to jump and fly in VR, you must enable it under Settings > Controls > VR Movement.
+.. note:: If you want to jump, fly, or strafe (walk sideways) in VR, you must enable it under Settings > Controls > VR Movement.
 
 .. raw:: html
 
@@ -104,23 +104,23 @@ If you want to change your avatar's walking or running speed, or change your dir
 +----------------------------+---------------------------------------------------------------------------------+
 | *Control Scheme Selection:*| In Default mode, your walking speed doesn't change depending on how far forward |
 | Default                    | you push your controller's joystick. Fully pushing your joystick forward will   |
-|                            | make your avatar run at twice your walking speed.                               |
+|                            | make your avatar run.                               |
 +----------------------------+---------------------------------------------------------------------------------+
 | *Control Scheme Selection:*| In Analog mode, your walking speed changes based on how far forward you push    |
 | Analog                     | your controller's joystick. Fully pushing your joystick forward will            |
-|                            | make your avatar run at twice your walking speed.                               |
+|                            | make your avatar run.                           |
 +----------------------------+---------------------------------------------------------------------------------+
 | *Control Scheme Selection:*| In Analog++ mode, your walking speed changes based on how far forward you push  |
 | Analog++                   | your controller's joystick. You can also use the slider to change the walking   |
 |                            | speed in meters/second. Fully pushing your joystick forward will make your      |
-|                            | avatar run at twice your walking speed.                                         |
+|                            | avatar run.                                      |
 +----------------------------+---------------------------------------------------------------------------------+
 
 -------------------------
 Gamepad
 -------------------------
 
-While the use of a gamepad is supported, High Fidelity is best experienced with hand controllers like the Oculus Touch, HTC Vive, and Microsoft MR controllers.
+While the use of a gamepad is supported, High Fidelity is best experienced with VR equipment or the keyboard in Desktop mode.
 
 .. image:: _images/controls-gamepad.jpg
 

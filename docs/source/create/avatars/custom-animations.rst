@@ -2,9 +2,9 @@
 Customize Avatar Animations
 #####################################
 
-Your avatar can express custom animations such as dancing, juggling, or waving. You can do this by replacing or overriding the standard animations. All avatars in High Fidelity use the built in standard set of animations by default. These animations are generic and do not change based on your avatar. 
+You can express yourself by overriding High Fidelity's standard set of animations with your own custom animations such as dancing, juggling, or waving. Any custom animations you set up will be independent to each avatar you own and wear.
 
-.. note:: We often update our process to import custom animations for avatars, to make it more user friendly. Keep this in mind before customizing your avatar's animations.
+.. note:: We often update our process for importing custom animations to make it more user friendly. As you develop custom animations, keep in mind that you may need to modify them in the future as our custom animation support continues to improve.
 
 .. contents:: On This Page
     :depth: 2
@@ -13,7 +13,7 @@ Your avatar can express custom animations such as dancing, juggling, or waving. 
 Prerequisites
 ----------------------------------
 
-Consider familiarizing yourself with these terms.
+As we delve deeper into creating custom animations, we may use terminology that you are unfamiliar with. Here are some terms you might come across:
 
 +--------------------------+--------------------------------------------------------------------------------------------------+
 | Term                     | Description                                                                                      |
@@ -57,7 +57,7 @@ Once you create your animation:
 Replace Standard Animations
 -----------------------------------
 
-You can have your avatar express custom animations in different ways:
+You can have your avatar use your custom animations by overriding the default animations. There are two different ways to do this:
 
 + `Override Using a Script`_: Write a script to override standard animations.
 + `Create a Custom Avatar Animation JSON file`_: You can modify this file or create a new data file. 
@@ -96,7 +96,7 @@ You can also override an existing animation role mapping:
 1. Use `MyAvatar.getAnimationRoles <https://apidocs.highfidelity.com/MyAvatar.html#.getAnimationRoles>`_ to view the list of roles for the current avatar. 
 2. You can replace the animation for each role with a custom animation (FBX file) using `MyAvatar.overrideRoleAnimation <https://apidocs.highfidelity.com/MyAvatar.html#.overrideRoleAnimation>`_.
 
-We've listed the animation roles and their description. These are frequently updated. We recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles being used. The standard animation FBX files for these roles can be found in the High Fidelity source code repository on `GitHub <https://github.com/highfidelity/hifi/tree/master/interface/resources/avatar/animations>`_.
+We've listed the animation roles and their description. These are frequently updated, so we recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles before continuing. The standard animation FBX files for these roles can be found in the High Fidelity source code repository on `GitHub <https://github.com/highfidelity/hifi/tree/master/interface/resources/avatar/animations>`_.
 
 +-------------------------------------------+----------------------------------------------------------------------+
 | Animation Roles                           | Description                                                          |
@@ -197,7 +197,7 @@ We've listed the animation roles and their description. These are frequently upd
 Create a Custom Avatar Animation JSON file
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can edit or replace the existing Avatar Animation JSON file to override the standard animations. 
+If you're not comfortable using a script, you can edit or replace the existing Avatar Animation JSON file to override the standard animations. 
 
 .. note:: If you create a custom JSON file for your avatar's animations, you will not inherit any updates made to the standard animations' JSON file. You can perform a text merge to the latest version at any time.
 
@@ -208,9 +208,8 @@ To replace standard animations:
 1. Upload your custom JSON file to a cloud server and copy the URL.
 2. In Interface, pull up your HUD or Tablet and go to **Avatar**.
 3. Click on the Settings icon on the top-right corner. 
-4. Under 'Avatar animation JSON', paste the URL for your JSON file. 
+4. Under 'Avatar Animation JSON', paste the URL for your JSON file. 
 
-.. image:: _images/avatar-anim.png
 
 OR
 

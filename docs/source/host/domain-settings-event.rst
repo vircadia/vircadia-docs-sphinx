@@ -11,11 +11,11 @@ Depending on the type of event you're hosting, determine the following:
 
 We've listed some guidelines you can follow when you set up your domain for an event. 
 
-.. note:: Keep in mind that domain settings will vary depending on your requirements. We've listed the best practices, you can tailor these to suit your needs.
+.. note:: Keep in mind that domain settings will vary depending on your requirements. Here, we've listed the best practices, and you can tailor these to suit your needs.
 
 
-1. `Host your domain <host-your-domain.html>`_: If you're expecting a large number of users, we recommend hosting your domain on a virtual machine. You'll need to determine the size of the virtual machine you want to host your domain on. This varies depending on the number of users you're expecting and the content in your domain. 
-2. `Set Up User Permissions <secure-domain.html#set-user-permissions>`_: It is good practice to set up user permissions and create entity filters so that users cannot create or edit entities in your domain. You can keep your domain clutter free and keep users from modifying the existing domain content. 
+1. :doc:`Host your domain <host-your-domain>`: If you're expecting a large number of users, we recommend hosting your domain on a virtual machine. You'll need to determine the size of the virtual machine you want to host your domain on. This varies depending on the number of users you're expecting and the content in your domain. 
+2. `Set Up User Permissions <secure-domain.html#set-user-permissions>`_: It is good practice to set up user permissions and create entity filters so that users cannot create or edit entities in your domain. You can keep your domain clutter-free and keep users from modifying the existing domain content. 
 3. Lock down avatar size: Domains can have loading issues if avatars keep changing their sizes. When you lock down an avatar size, you are ensuring that users cannot affect your domain by changing their avatar size beyond a limit. 
 4. Create audio attenuation zones: Depending on the type of event you're hosting, you will need to create audio attenuation zones. These zones control how users hear audio. For example, if you're having an event with two hosts on stage, the hosts and audience members should hear the hosts louder than everyone else. You can set up two attenuation zones, one for the stage and the other for the audience.
 5. Whitelist scripts: This step ensures that only whitelisted scripts can run in the domain. You are avoiding risking running any unauthorized scripts that could affect your domain and any users present.
@@ -30,4 +30,3 @@ We've listed some guidelines you can follow when you set up your domain for an e
 + `Set Up User Permissions <secure-domain.html#set-user-permissions>`_
 + :doc:`Configure Your Domain Settings <your-domain/configure-settings>`
 + :doc:`Manage Your Assets <manage-assets>`
-+ :doc:`Tutorial: Set Up A Theater Domain <theater-domain-tutorial>`
