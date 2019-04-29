@@ -39,6 +39,7 @@ To create a boombox:
 6. Scale, rotate, and move your button to align it to the desired position on the model. 
 
 .. image:: _images/boombox.png
+
 7. With the **Create** app open, select the 3D model of the boombox. Go to the 'Properties' tab and copy the 'ID' under 'Name'.
 8. Select the cube entity you created, go to the 'Properties' tab, and paste the copied entity ID in the 'Parent' field. This makes your boombox model entity the parent of your button entity.
 
@@ -137,6 +138,7 @@ If you're writing your own scripts or modifying the existing ones, and want to h
 1. On your computer, create a folder called 'BoomBox'. You'll save your files here with the following structure. 
 
 .. image:: _images/boombox-folder.png
+
 2. Save the `entity server script <https://raw.githubusercontent.com/misslivirose/happy-boombox/master/boomBoxEntityServerScript.js>`_, `client entity script <https://raw.githubusercontent.com/misslivirose/happy-boombox/master/boomBoxEntityScript.js>`_, `HTML file <https://raw.githubusercontent.com/misslivirose/happy-boombox/master/app/boomBoxController.html>`_, and `CSS file <https://raw.githubusercontent.com/misslivirose/happy-boombox/master/app/styles.css>`_ to the folder in your computer.
 3. In Interface, pull up your HUD or Tablet and go to **Create**.
 4. In the **Create** app, click 'Open This Domain's Asset Server' to view the Asset Browser.
