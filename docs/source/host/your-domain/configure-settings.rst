@@ -37,7 +37,7 @@ The first time you open your settings, your browser will open a Setup Wizard to 
 
 .. image:: _images/step-2-server-settings.png
 
-3. In Step 3 of the wizard, you can set user permissions for your domain. In this step, you can add yourself and other users as administrators of your domain. You can also grant or deny specific users the ability to connect to your domain or rez content. ALl of these permissions can be changed later, as you :doc:`secure your domain <secure-domain>`. 
+3. In Step 3 of the wizard, you can set user permissions for your domain. In this step, you can add yourself and other users as administrators of your domain. You can also grant or deny specific users the ability to connect to your domain or rez content. ALl of these permissions can be changed later, as you :doc:`secure your domain <../secure-domain>`. 
 4. Click 'Finish'. You will be redirected to the 'Domain Settings' page. 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
