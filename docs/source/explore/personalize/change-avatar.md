@@ -4,20 +4,8 @@ When you first use High Fidelity, you will be wearing the default avatar, Woody.
 
 **On This Page:**
 
-* [Get an Avatar from BodyMart](#get-an-avatar-from-bodymart)
 * [Buy an Avatar from the Marketplace](#buy-an-avatar-from-the-marketplace)
 * [Use Your Own Custom Avatar](#use-your-own-custom-avatar)
-
-## Get an Avatar from BodyMart 
-
-We've designed a number of avatars that are available for your use in BodyMart. 
-
-To get an avatar from BodyMart:
-
-1. In Interface, pull up your Tablet or HUD and select **GoTo**.
-2. Enter BodyMart as the domain address.
-3. Click on BodyMart. ![](_images/bodymart.png)
-4. Walk up to the avatar you like and grab it. You will now be wearing your new avatar. 
 
 ## Buy an Avatar from the Marketplace
 
@@ -45,8 +33,6 @@ Once you have your avatar's .fst file, you can upload it.
 2. In the **Avatar** window, click the link icon next to your current avatar. ![](_images/avatar-link.png)
 3. Enter the .fst file's URL and click 'Confirm'.
 4. If you want to access this avatar later without loading the .fst file information again, you can click on 'Add to Favorites' to save the current avatar information.
-
-
 
 **See Also**
 
