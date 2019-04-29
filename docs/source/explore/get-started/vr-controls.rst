@@ -11,19 +11,118 @@ To get the best and most immersive experience in High Fidelity, you should use V
 VR Controls
 ------------------------
 
-Use these controls on your VR controllers so that you can enjoy your experience in High Fidelity to the fullest.
+To interact with people in 3D and track body movements, you will need to use VR equipment such as the Oculus Rift or HTC Vive. With VR equipment, you can have a fully immersive experience in High Fidelity.
 
-.. note:: If you want to jump and fly in VR, you must enable it under Settings > Controls > VR Movement.
+.. note:: If you want to jump, fly, or strafe (walk sideways) in VR, you must enable it under Settings > Controls > VR Movement.
 
-.. image:: _images/controls-VR.png
+.. raw:: html
+
+    <table border="1" class="docutils">
+        <colgroup>
+            <col width="50%">
+            <col width="50%">
+        </colgroup>
+        <thead>
+            <tr>
+            	<th colspan="2", class="head", align="center">Oculus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="../../_images/controls-oculus.jpg">
+                </td>
+                <td>
+                     <img src="../../_images/controls-oculus-flight.jpg">
+                </td>
+            </tr>
+          <tr>
+            	<th colspan="2", class="head">Vive</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="../../_images/controls-vive.jpg">
+                </td>
+                <td>
+                     <img src="../../_images/controls-vive-flight.jpg">
+                </td>
+            </tr>
+            <tr>
+            	<th colspan="2", class="head">Windows MR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="../../_images/controls-wmr.jpg">
+                </td>
+                <td>
+                     <img src="../../_images/controls-wmr-flight.jpg">
+                </td>
+            </tr>
+       </tbody>
+    </table>
+
+
+.. note:: If you're using a VR headset other than Oculus or HTC Vive, make sure you have Steam VR installed before launching High Fidelity. 
+
+
+^^^^^^^^^^^^^^^^^^^^^^^
+Movement Controls
+^^^^^^^^^^^^^^^^^^^^^^^
+
+If you want to change your avatar's walking or running speed, or change your direction, you can use our movement controls. 
+
+1. In Interface, pull up your HUD or Tablet and go to **Menu > Settings > Controls**.
+2. In the 'Settings' tab, under VR movement, you will see a list of advanced movement control options.
+
+
++----------------------------+---------------------------------------------------------------------------------+
+| Setting                    | Description                                                                     |
++============================+=================================================================================+
+| Teleporting                | Enable to teleport to a location within a domain.                               |
++----------------------------+---------------------------------------------------------------------------------+
+| Walking                    | Enable this setting to walk in a domain.                                        |
++----------------------------+---------------------------------------------------------------------------------+
+| Strafing                   | Enable for your avatar to move from side to side.                               |
++----------------------------+---------------------------------------------------------------------------------+
+| Jumping and flying         | Enable for your avatar to jump and fly in High Fidelity.                        |
++----------------------------+---------------------------------------------------------------------------------+
+| *Movement Direction:*      | When selected, your avatar will move in the direction your head is facing.      |
+| HMD-Relative               |                                                                                 |
++----------------------------+---------------------------------------------------------------------------------+
+| *Movement Direction:*      | When selected, your avatar will move in the direction your hand is pointing.    |
+| Hand-Relative              |                                                                                 |
++----------------------------+---------------------------------------------------------------------------------+
+| *Movement Direction:*      | When selected, your avatar will move in the direction your hand is pointing,    |
+| Hand-Relative (Level)      | without taking pitch into account.                                              |
++----------------------------+---------------------------------------------------------------------------------+
+| Dominant Hand              | Select 'Left' or 'Right'. Teleport and turning controls move to the controller  |
+|                            | in the dominant hand.                                                           |
++----------------------------+---------------------------------------------------------------------------------+
+| *Control Scheme Selection:*| In Default mode, your walking speed doesn't change depending on how far forward |
+| Default                    | you push your controller's joystick. Fully pushing your joystick forward will   |
+|                            | make your avatar run.                                                           |
++----------------------------+---------------------------------------------------------------------------------+
+| *Control Scheme Selection:*| In Analog mode, your walking speed changes based on how far forward you push    |
+| Analog                     | your controller's joystick. Fully pushing your joystick forward will            |
+|                            | make your avatar run.                                                           |
++----------------------------+---------------------------------------------------------------------------------+
+| *Control Scheme Selection:*| In Analog++ mode, your walking speed changes based on how far forward you push  |
+| Analog++                   | your controller's joystick. You can also use the slider to change the walking   |
+|                            | speed in meters/second. Fully pushing your joystick forward will make your      |
+|                            | avatar run.                                                                     |
++----------------------------+---------------------------------------------------------------------------------+
 
 -------------------------
 Gamepad
 -------------------------
 
-While the use of a gamepad is supported, High Fidelity is best experienced with hand controllers like the Oculus Touch, HTC Vive, and Microsoft MR controllers.
+While the use of a gamepad is supported, High Fidelity is best experienced with VR equipment or the keyboard in Desktop mode.
 
-.. image:: _images/controls-gamepad.png
+.. image:: _images/controls-gamepad.jpg
 
 Don't have your own VR equipment? You can still use High Fidelity in :doc:`desktop mode <desktop>`.
 

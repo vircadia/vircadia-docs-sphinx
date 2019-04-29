@@ -50,15 +50,6 @@ The Inventory app provides an interface to manage your transactions, purchases, 
 * Change avatars, put on wearables and install/update apps
 * [Send HFC to your friends or anyone nearby](socialize.html#send-hfc-to-others)
 
-<div class="admonition note">
-    <p class="admonition-title">Note</p>
-    <p>If you last used High Fidelity before we released the Inventory app, you most likely had a Wallet key that gave you access to your HFC and Marketplace purchases. If you can't see those in the latest version of High Fidelity you are using, you can copy your old keys and paste them in the same folder location as the latest version. High Fidelity stores your keys in the following locations:
-    	<ul>
-    		<li><strong>Windows</strong>: C:/Users/user/AppData/Roaming/High Fidelity/Interface/user_name.hifikey</li>
-    		<li><strong>OS X</strong>: /Users/user/Library/Application Support/High Fidelity/Interface/user_name.hifikey</li> </p>
-</div>
-
-
 ![](_images/inventory-app.png)
 
 **See Also**

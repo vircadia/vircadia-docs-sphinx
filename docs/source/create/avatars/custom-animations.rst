@@ -2,48 +2,74 @@
 Customize Avatar Animations
 #####################################
 
-Avatars in High Fidelity use the built in standard set of animations by default. These animations are generic and do not change based on your avatar. You can have your avatar express customized animations by replacing the existing ones.
+You can express yourself by overriding High Fidelity's standard set of animations with your own custom animations such as dancing, juggling, or waving. Any custom animations you set up will be independent to each avatar you own and wear.
 
-.. note:: The methods detailed below are being updated and changed frequently to create a better process to import custom animations for avatars. Keep this in mind before customizing your avatar's animations.
+.. note:: We often update our process for importing custom animations to make it more user friendly. As you develop custom animations, keep in mind that you may need to modify them in the future as our custom animation support continues to improve.
 
 .. contents:: On This Page
     :depth: 2
 
 ----------------------------------
+Prerequisites
+----------------------------------
+
+As we delve deeper into creating custom animations, we may use terminology that you are unfamiliar with. Here are some terms you might come across:
+
++--------------------------+--------------------------------------------------------------------------------------------------+
+| Term                     | Description                                                                                      |
++==========================+==================================================================================================+
+| Avatar animations        | Avatar animations are FBX files that define how your avatar moves. For example, `turn_left.fbx <h|
+|                          | ttps://github.com/highfidelity/hifi/blob/master/interface/resources/avatar/animations/turn_left.f|
+|                          | bx>`_ is the standard animation file for your avatar turning left.                               |
++--------------------------+--------------------------------------------------------------------------------------------------+
+| Animation roles          | Animation roles are triggers that map to an action that an avatar can perform.                   |
+|                          | For example, turnLeft is an animation role that makes your avatar turn left                      |
+|                          | while standing in place. This animation role is mapped to the turn_left.fbx                      |
+|                          | file. You can see this in action by pressing the left arrow key or ``A`` in Desktop              |
+|                          | mode or using your hand controllers in VR mode.                                                  |
++--------------------------+--------------------------------------------------------------------------------------------------+
+| Avatar Animation JSON or | The standard animation system blends and layers a series of animations from                      |
+| Animation Graph File     | FBX files using a JSON data file. This JSON file is called the Animation Graph file,             |
+|                          | and it specifies exactly which animations to play and how they are blended.                      |
+|                          | It also determines the order of operations, so that operations like Inverse Kinematics           |
+|                          | occur after the rest of the body has been animated by traditional means.                         |
+|                          | By default, every avatar uses the same `Animation Graph file <https://github.com/highfidelity/hif|
+|                          | i/blob/master/interface/resources/avatar/avatar-animation.json>`_.                               |
++--------------------------+--------------------------------------------------------------------------------------------------+
+
+----------------------------------
 Prepare Your Custom Animation
 ----------------------------------
 
-Before you replace the existing standard animations, you need to prepare your custom animation file. Some guidelines to keep in mind, according to our :doc:`Avatar Standards Guide <avatar-standards>`.
+Before you replace the existing standard animations, you need to prepare your custom animation file. Use our :doc:`Avatar Standards Guide <avatar-standards>` and keep the following guidelines in mind:
 
 - Animations must have standard joint names for High Fidelity.
 - Animations must have standard joint orientations (y down the bone).
-- Key frames must have key frames for every joint at the uniform interval of 30 frames per second.
-- Locomotion animation phase has the left ankle in passing position on the frame. Try to match this phase if you want your locomotion animation to blend with the default set.
+- Key frames must have key frames for every joint at a uniform interval of 30 frames per second.
+- Locomotion animation phase has the left ankle in passing position on the first frame. Try to match this phase if you want your locomotion animation to blend with the default set.
 
 Once you create your animation:
 
 1. Export your animation from the external tool of your choice as an FBX file. 
-2. Upload your animation to a cloud server and copy the URL. 
+2. Upload your animation FBX file to a cloud server and copy the URL. 
 
 -----------------------------------
 Replace Standard Animations
 -----------------------------------
 
-You can enrich your High Fidelity experience by making your avatar express customized animations. Do this by replacing the standard animations for your avatar. 
+You can have your avatar use your custom animations by overriding the default animations. There are two different ways to do this:
 
-We've listed the different ways you can do this:
++ `Override Using a Script`_: Write a script to override standard animations.
++ `Create a Custom Avatar Animation JSON file`_: You can modify this file or create a new data file. 
 
-+ `Override an Existing Animation`_: This method uses scripts to override existing animations.
-+ `Override a Role Animation`_: Use this method to replace standard animation roles in the animation JSON file. 
-+ `Use the Animation Graph File`_: Edit or create your own Animation Graph file. 
-
-.. note:: If you create a custom JSON file for your avatar's animations, you will not inherit any updates made to the standard animations' JSON file. You can perform a text merge to the latest version at any time.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Override an Existing Animation
+Override Using a Script
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This method uses :doc:`scripting <../../script>` and the `MyAvatar <https://apidocs.highfidelity.com/MyAvatar.html>`_ namespace to override an existing animation. We've listed the methods you can use to replace the standard animations on your avatar. 
+You can `write a script <../../script/write-scripts.html>`_ and use the `MyAvatar <https://apidocs.highfidelity.com/MyAvatar.html>`_ namespace to override an existing animation or animation role. 
+
+We've listed the methods you can use to replace the standard animations on your avatar. 
 
 +-------------------------------------+---------------------------------------------------------------------------------+
 | Method                              | Description                                                                     |
@@ -65,16 +91,12 @@ This method uses :doc:`scripting <../../script>` and the `MyAvatar <https://apid
 
 .. note:: This process to replace an existing animation will take complete control of all avatar joints. Inverse Kinematics of the hands and head of HMD users will be disabled. 
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Override a Role Animation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-All existing animations are defined by a set of animation roles. An animation role is like a trigger based on the type of input device you are using. Each animation role maps to an action the avatar can perform. This exists by default in the avatar animations JSON file. For example, if you are using hand controllers and you fully squeeze your right hand over it, your avatar will perform a gesture where its right hand is grasped close. 
+You can also override an existing animation role mapping:
 
 1. Use `MyAvatar.getAnimationRoles <https://apidocs.highfidelity.com/MyAvatar.html#.getAnimationRoles>`_ to view the list of roles for the current avatar. 
 2. You can replace the animation for each role with a custom animation (FBX file) using `MyAvatar.overrideRoleAnimation <https://apidocs.highfidelity.com/MyAvatar.html#.overrideRoleAnimation>`_.
 
-We've listed the animation roles and their description. Animation roles are frequently updated. We recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles being used. The standard animation FBX files for these roles can be found in the High Fidelity source code repository on `GitHub <https://github.com/highfidelity/hifi/tree/master/interface/resources/avatar/animations>`_.
+We've listed the animation roles and their description. These are frequently updated, so we recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles before continuing. The standard animation FBX files for these roles can be found in the High Fidelity source code repository on `GitHub <https://github.com/highfidelity/hifi/tree/master/interface/resources/avatar/animations>`_.
 
 +-------------------------------------------+----------------------------------------------------------------------+
 | Animation Roles                           | Description                                                          |
@@ -171,31 +193,30 @@ We've listed the animation roles and their description. Animation roles are freq
 | LANDRUN                                   | Running land.                                                        |
 +-------------------------------------------+----------------------------------------------------------------------+
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Use the Animation Graph File
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Create a Custom Avatar Animation JSON file
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When you wear an avatar in High Fidelity, the animation system must blend and layer a series of animations from FBX files as well as perform Inverse Kinematics on the joints to best match the head and hand sensors. 
+If you're not comfortable using a script, you can edit or replace the existing Avatar Animation JSON file to override the standard animations. 
 
-These animations are blended using a JSON data file. The data file is called the Animation Graph file, and it specifies exactly which animations to play and how they are blended. It also determines the order of operations, so that operations like Inverse Kinematics occur after the rest of the body has been animated by traditional means. This JSON file contains a hierarchical tree of nodes called the `AnimNode System`_.
+.. note:: If you create a custom JSON file for your avatar's animations, you will not inherit any updates made to the standard animations' JSON file. You can perform a text merge to the latest version at any time.
 
-By default, every avatar uses the same Animation Graph file.  However, advanced users and content creators can specify their own Animation Graph file.
+The JSON file shows which animation role is mapped to which animation FBX file. You can replace standard animation FBX files with your custom animation's FBX files. Or, you can write a new JSON file with the new mappings for each animation role. 
 
-To replace the standard animations: 
+To replace standard animations:
 
-+ Substitute the existing animations' FBX URLs with their custom animations' URL in the Animation Graph file.
-
-OR
-
-1. Create your own Animation Graph file and host it remotely.
+1. Upload your custom JSON file to a cloud server and copy the URL.
 2. In Interface, pull up your HUD or Tablet and go to **Avatar**.
 3. Click on the Settings icon on the top-right corner. 
-4. Under 'Avatar animation JSON', add the URL for your Animation Graph  file.  ![](avatar-settings.png)
+4. Under 'Avatar Animation JSON', paste the URL for your JSON file. 
+
 
 OR
 
 1. Open your avatar's FST file in a text editor. 
 2. Add your Animation Graph file's URL.
+
+.. note:: You will need to run your avatar's files through the `Avatar Packager <package-avatar.html#host-your-avatar>`_ to include the changes in your FST file. 
 
 .. code::
 
@@ -207,13 +228,14 @@ Examples
 ^^^^^^^^^^^^^^^^
 
 + Here is the current default `avatar-animation.json <https://github.com/highfidelity/hifi/blob/master/interface/resources/avatar/avatar-animation.json>`_ file.
-+ This `scoot-animation.json <https://s3.amazonaws.com/hifi-public/tony/scoot-animation.json>`_ file replaces the idle and walk animations with a sitting pose. It is intended to show an example of replacing some but not all of an avatar's default animations.
++ This `scoot-animation.json <https://s3.amazonaws.com/hifi-public/tony/scoot-animation.json>`_ file replaces the idle and walk animations with a sitting pose. This example shows how you can replace some of an avatar's default animations.
 
-^^^^^^^^^^^^^^^^^^^^^^
-AnimNode System
-^^^^^^^^^^^^^^^^^^^^^^
 
-The AnimNode system defines how an avatar moves and is described in the Animation Graph JSON file. 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Advanced Topic: AnimNode System
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Avatar Animation JSON file contains a hierarchical tree of nodes called the AnimNode System. The AnimNode system defines how an avatar moves and is described in the Animation Graph JSON file. 
 
 The movement of an avatar is determined by a complex blend of procedural animation, pre-recorded animation clips, and inverse kinematics. This blend is calculated at every frame to ensure that the avatar body follows physics and controller input as rapidly as possible. It must handle animation for desktop users, HMD users, and users wearing a full set of HTC Vive trackers. It must be configured on the fly as sensors are added and removed from the system. It should also be open to extensions so unique animations and avatar configurations are possible. These functionalities are handled by the AnimNode system. 
 
@@ -230,13 +252,14 @@ We've listed some features of the system:
 
 The AnimNode system operates like an expression parse tree.  For example the following expression: ``4 + 3 * 7 - (5 / (3 + 4)) + 6``, can be represented by the following parse tree.
 
-.. image::_images/animnode.png
+.. image:: _images/animnode.png
+
 
 This parse tree can then be evaluated at runtime to compute the actual value. In this tree, the leaf nodes are values and interior nodes are operations that combine two or more sub-trees and produce a new value. The tree is evaluated until there is a single value remaining, which should be the result of the entire expression: ``30.2957142``. 
 
 In the expression case, the output value of each node is a floating point number, and operations can be implemented simply by evaluating each sub-tree, and then combining them with an arithmetic operation, such as addition or multiplication.
 
-The AnimNode system works on a similar concept.  Except the value of each node contains all of the avatar's joint translations and rotations. Leaf nodes can be static avatar poses, such as the T-pose or can be a single frame of an animation clip.  Interior nodes can perform operations such as blending between two or more sub-trees, or combining the upper body of one animation with the lower body of another.
+The AnimNode system works on a similar concept. Except the value of each node contains all of the avatar's joint translations and rotations. Leaf nodes can be static avatar poses, such as the T-pose or can be a single frame of an animation clip. Interior nodes can perform operations such as blending between two or more sub-trees, or combining the upper body of one animation with the lower body of another.
 
 
 **See Also**

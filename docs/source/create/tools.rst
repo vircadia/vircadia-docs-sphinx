@@ -36,30 +36,31 @@ When you select an entity in the Entity List, you can:
 + Name an entity: Name an entity when you select it on the list.
 + Delete an entity: Delete an entity by clicking on the red bin icon on the top-right corner of the window. 
 
-------------------------
-Shapes: Create in VR
-------------------------
+.. 
+	------------------------
+	Shapes: Create in VR
+	------------------------
 
-The Shapes app is a Marketplace app that lets you :doc:`add and edit basic shapes (entities) <entities/create-entities>` in High Fidelity. You can use Shapes only in VR mode. 
+	The Shapes app is a Marketplace app that lets you :doc:`add and edit basic shapes (entities) <entities/create-entities>` in High Fidelity. You can use Shapes only in VR mode. 
 
-To get the Shapes app: 
+	To get the Shapes app: 
 
-1. In Interface, pull up your HUD or Tablet and go to **Market**. 
-2. Search for 'Shapes' and hit 'Get' to get it for free. 
-3. Install the app. 
+	1. In Interface, pull up your HUD or Tablet and go to **Market**. 
+	2. Search for 'Shapes' and hit 'Get' to get it for free. 
+	3. Install the app. 
 
-^^^^^^^^^^^^^^^^^^^^^^^
-Use the Shapes app
-^^^^^^^^^^^^^^^^^^^^^^^
+	^^^^^^^^^^^^^^^^^^^^^^^
+	Use the Shapes app
+	^^^^^^^^^^^^^^^^^^^^^^^
 
-1. In Interface, pull up your HUD or Tablet and go to **Shapes**. 
-2. A 'Tools' menu and 'Create' palette will be attached to your non-dominant hand. You can set your dominant hand on your Tablet or top menu bar by going to **Settings > Avatar > Dominant Hand**.  
+	1. In Interface, pull up your HUD or Tablet and go to **Shapes**. 
+	2. A 'Tools' menu and 'Create' palette will be attached to your non-dominant hand. You can set your dominant hand on your Tablet or top menu bar by going to **Settings > Avatar > Dominant Hand**.  
 
-.. image:: _images/dom-hand.PNG
+	.. image:: _images/dom-hand.PNG
 
-3. In the 'Create' palette, click on one of the shapes to create and add that entity. 
-4. The entity will be created at your hand. You can `grab it <../explore/interact.html#grab-objects>`_ by pressing the trigger on your controller.
-5. In the 'Tools' Menu, you can edit an entity's properties. Activate a tool by clicking its button. You'll see an icon representing the tool you selected on your dominant hand. You can deactivate a tool by hovering over the title bar and clicking 'Back'.
+	3. In the 'Create' palette, click on one of the shapes to create and add that entity. 
+	4. The entity will be created at your hand. You can `grab it <../explore/interact.html#grab-objects>`_ by pressing the trigger on your controller.
+	5. In the 'Tools' Menu, you can edit an entity's properties. Activate a tool by clicking its button. You'll see an icon representing the tool you selected on your dominant hand. You can deactivate a tool by hovering over the title bar and clicking 'Back'.
 
     * **Color**: You can choose a color for your entity by pointing your laser at 'Color' in the 'Tools' menu and dipping your finger or stylus in the color of your choice. You can even create color swatches for yourself. 
     * **Stretch**: You can change the dimensions of your entity by stretching it. Select 'Stretch' to see the handles on your entity that you can pull using your controllers. 

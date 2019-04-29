@@ -80,10 +80,12 @@ As an administrator in a domain, you will have privileges to maintain a domain. 
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Your Privacy Bubble
+Your Privacy Shield
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can enable a privacy bubble that protects your personal space in the metaverse. When it is enabled, other people will disappear if they get too close to you. Your privacy bubble is disabled by default. To enable it, pull up your tablet or HUD and click **Bubble**. In Desktop mode, you can also use the keyboard shortcut ``CTRL`` + ``N``.
+You can enable a privacy shield that protects your personal space in the metaverse. When it is enabled, other people will disappear if they get too close to you. Your privacy shield is disabled by default. To enable it, pull up your tablet or HUD and click **Shield**. In Desktop mode, you can also use the keyboard shortcut ``CTRL`` + ``N``. 
+
+There is also a Shield icon on the top-left corner of your Interface window, next to the audio icon, that can be used to toggle your privacy shield. 
 
 .. image:: _images/privacy-bubble.png
 

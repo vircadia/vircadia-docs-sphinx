@@ -40,41 +40,43 @@ Once files have been uploaded to your Asset Server, they can be added directly t
 Bake an Asset
 ----------------------
 
-When you upload a model to your domain, you are rendering the following: 
+Whenever you upload an asset to the Asset Server, it will be baked if it is any of the following file types: 
 
-+ Your model's assets.
-+ Geometric meshes: A geometric mesh (more commonly known as a polygon mesh) is a collection of vertices, edges, and faces that together define the shape of a model in 3D graphics and modeling.
-+ Textures: Textures help in defining high frequency detail, color, or surface textures. 
++ A 3D Model (with embedded textures)
++ A Skybox
 
-Loading models in High Fidelity involves real-time rendering (drawcalls), which means images are produced and analyzed in real time. Depending on the complexity of the models, the drawcalls can differ. You can reduce the drawcalls and optimize the rendering process using baking. Baking optimizes the rendering process by compressing the poly meshes and textures in an asset. A baked model loads the smaller meshes first, cutting down on the load time. Baked textures are often larger than the original texture because they contain textures with different resolutions.
+.. + A JavaScript File
 
-In High Fidelity, baking improves the efficiency with which models are stored and transmitted. If you bake your domain content, you will reduce the initial load times for your visitors.
+Baking is the process of optimizing assets to make them easier to transmit and render, reducing load time significantly. 
 
-+--------------------------+--------------------------------------------------------------------------------------+
-| File Type                | Baking Process                                                                       |
-+==========================+======================================================================================+
-| 3D models (FBX files     | Baked when uploaded to the Asset Server.                                             |
-| with embedded textures)  |                                                                                      |
-+--------------------------+--------------------------------------------------------------------------------------+
-| Avatars (FBX files with  | Baked when uploaded to the Asset Server. Avatars are usually not uploaded to the     |
-| embedded textures)       | Asset Server as they are used in different domains. Avatars uploaded to the Asset    |
-|                          | Server can only be baked when their FBX files are embedded with textures.            |
-+--------------------------+--------------------------------------------------------------------------------------+
-| JavaScript Files         | Baked when uploaded to the Asset Server. Baking a JS file involves removing white    |
-|                          | spaces and comments in the script to shrink its size. A baked script is transmitted  |
-|                          | and interpreted faster because of its smaller size.                                  |
-|                          |                                                                                      |
-|                          | A baked JS file will not be very easy to read as all the white spaces and comments   |
-|                          | will be removed. If you wish to read and understand any JS files that have been      |
-|                          | baked, you will need to use its unbaked version.                                     |
-+--------------------------+--------------------------------------------------------------------------------------+
+.. 
+ | JavaScript Files         | Baked when uploaded to the Asset Server. Baking a JS file involves removing white    |
+ |                          | spaces and comments in the script to shrink its size. A baked script is transmitted  |
+ |                          | and interpreted faster because of its smaller size.                                  |
+ |                          |                                                                                      |
+ |                          | A baked JS file will not be very easy to read as all the white spaces and comments   |
+ |                          | will be removed. If you wish to read and understand any JS files that have been      |
+ |                          | baked, you will need to use its unbaked version.                                     |
+ +--------------------------+--------------------------------------------------------------------------------------+
+
+.. note:: You can use the `Oven tool to bake <oven.html>`_ entire domains, 3D models, and skyboxes hosted externally. The Oven is a standalone application that is packaged with High Fidelity. If you've got any content that is hosted on external cloud services or websites, we recommend using the Oven tool. You cannot bake content using both the Oven and the Asset Server.
+
 
 A baked file will have a check mark under the 'Use Baked?' column on the Asset Browser. A file will not bake when:
 
-+ It is an FBX file with external textures. Only FBX files with embedded textures can be baked. This error will show up as a triangular sign under the 'Use Baked?' column.
++ It is a 3D model with external textures. Only models with embedded textures can be used. This error will show up as a triangular sign under the 'Use Baked?' column.
 + It is a file type that cannot be baked. It is usually depicted by two dashes under the 'Use Baked?' column.
 
 To bake a file again, just uncheck and check 'Use baked version'.
+
+For example, if you upload a 3D model asset to your Asset Server, you are rendering your model's assets, which include the materials, textures, and meshes. 
+
++ Geometric meshes: A geometric mesh (more commonly known as a polygon mesh) is a collection of vertices, edges, and faces that together define the shape of a model in 3D graphics and modeling.
++ Textures: Textures help in defining high frequency detail, color, or surface textures. 
+
+A user who visits your domain will download and render your 3D model assets. Rendering a 3D model in High Fidelity involves producing and analyzing images in real time. Baking optimizes the download and rendering process by compressing the poly meshes and textures in the 3D model. 
+
+
 
 ----------------------------------
 Add an Asset to Your Domain
