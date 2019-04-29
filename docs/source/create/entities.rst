@@ -17,14 +17,5 @@ To build any content in High Fidelity, whether it is an object that you interact
     Add a Material Entity <entities/material-entity>
     Add Sounds to Entities <entities/add-sounds>
     Define Interactions with Avatars <entities/avatar-interactions>
-    Tutorial: Create a Gold Spotlight <entities/create-spotlight>
-    Tutorial: Display a YouTube Channel <entities/display-youtube>
-    Tutorial: Modify a Zone Entity <entities/zone-tutorial>
-    Tutorial: Create a Portal <entities/portal-tutorial>
-    Tutorial: Create an Avatar Scaling Button <entities/avatar-scaling-tutorial>
-    Tutorial: Open Web Page with Entities <entities/open-tablet-page-tutorial>
-    Tutorial: Build a Painting Set <entities/primitive-painting-set-tutorial>
-    Tutorial: Create a Purchase Button for Marketplace Sales <entities/purchase-button-tutorial>
-    Tutorial: Create a Boombox <entities/boombox-tutorial>
-    Tutorial: Create a Smoke Fountain <entities/create-fountain>
-
+    Prioritize Zones Within Your Domain <entities/hero-zone>
+    Entity Tutorials <entities/tutorials>
