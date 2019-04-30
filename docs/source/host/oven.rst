@@ -57,7 +57,6 @@ The Oven is a standalone application that is packaged with High Fidelity and is 
 
 1. `Download and install <../explore/get-started/install.html#client-and-sandbox-installer>`_ the Client + Sandbox for High Fidelity.
 2. After installing, go to the High Fidelity installation folder. Run 'oven.exe'.
-3. Run 'oven.exe'.
 
 The Oven has three baking options:
 
@@ -217,7 +216,7 @@ To bake a skybox:
 Oven Command Line Interface
 ---------------------------------
 
-You can also use the Oven's Command Line Interface instead of the GUI to bake single assets only (not domains). We support the following:
+You can also use a command line interface instead of the GUI to bake single assets only (not domains). We support the following:
 
 + i: Path to file that you would like to bake.
 + o: Path to folder that will be used as the output directory.
@@ -230,16 +229,14 @@ Examples
 """"""""""""""""""""""""
 To bake a 3D model through the Oven's command line interface:
 
-1. Run 'oven.exe'.
-2. In the command line window that opens, you can add the following line:
+1. Open any command line interface and go to the Oven's directory. Then add the following line:
 
 ``./oven -i "https://raw.githubusercontent.com/highfidelity/hifi_tests/master/assets/models/geometry/avatars/art3mis/art3mis.fst" -o [folder of your choice] -t model``
 
 
 To bake a material through the Oven's command line interface:
 
-1. Run 'oven.exe'.
-2. In the command line window that opens, you can add the following line:
+1. Open any command line interface and go to the Oven's directory. Then add the following line:
 
 ``./oven -i "https://hifi-content.s3.amazonaws.com/samuel/materialBake.json" -o [folder of your choice] -t material``
 
