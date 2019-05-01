@@ -134,3 +134,10 @@ These controls work when the **Create** app is open.
 +-------------------------------------------+-----------------------------+
 
 
+-------------------------
+Gamepad
+-------------------------
+
+Instead of a keyboard, you can use a gamepad while experiencing High Fidelity in desktop mode. 
+
+.. image:: _images/controls-gamepad.jpg
