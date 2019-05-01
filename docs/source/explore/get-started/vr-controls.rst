@@ -13,53 +13,58 @@ VR Controls
 
 To interact with people in 3D and track body movements, you will need to use VR equipment such as the Oculus Rift or HTC Vive. With VR equipment, you can have a fully immersive experience in High Fidelity.
 
-.. note:: If you want to jump, fly, or strafe (walk sideways) in VR, you must enable it under Settings > Controls > VR Movement.
+.. note:: If you want to jump, fly, or strafe (walk sideways) in VR, you must enable it under **Settings > Controls > VR Movement**.
 
 .. raw:: html
 
     <table border="1" class="docutils">
-        <colgroup>
-            <col width="50%">
-            <col width="50%">
-        </colgroup>
         <thead>
             <tr>
-            	<th colspan="2", class="head", align="center">Oculus</th>
+            	<th class="head" align="center">Oculus</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>
-                    <img src="../../_images/controls-oculus.jpg">
-                </td>
-                <td>
-                     <img src="../../_images/controls-oculus-flight.jpg">
+                
+.. image:: _images/controls-oculus.jpg
+
+.. image:: _images/controls-oculus-flight.jpg                
+
+.. raw:: html
+
                 </td>
             </tr>
           <tr>
-            	<th colspan="2", class="head">Vive</th>
+            	<th class="head">Vive</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>
-                    <img src="../../_images/controls-vive.jpg">
-                </td>
-                <td>
-                     <img src="../../_images/controls-vive-flight.jpg">
+                
+.. image:: _images/controls-vive.jpg
+
+.. image:: _images/controls-vive-flight.jpg
+
+.. raw:: html
+
                 </td>
             </tr>
             <tr>
-            	<th colspan="2", class="head">Windows MR</th>
+            	<th class="head">Windows MR</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>
-                    <img src="../../_images/controls-wmr.jpg">
-                </td>
-                <td>
-                     <img src="../../_images/controls-wmr-flight.jpg">
+                
+.. image:: _images/controls-wmr.jpg
+
+.. image:: _images/controls-wmr-flight.jpg
+
+.. raw:: html
+
                 </td>
             </tr>
        </tbody>
@@ -120,11 +125,9 @@ If you want to change your avatar's walking or running speed, or change your dir
 Gamepad
 -------------------------
 
-While the use of a gamepad is supported, High Fidelity is best experienced with VR equipment or the keyboard in Desktop mode.
+If your HMD does not come equipped with hand controllers, you can use a gamepad. However, High Fidelity is best experienced with VR equipment or the keyboard in Desktop mode.
 
 .. image:: _images/controls-gamepad.jpg
-
-Don't have your own VR equipment? You can still use High Fidelity in :doc:`desktop mode <desktop>`.
 
 -----------------------------------------
 Motion Capture Using Vive Trackers
