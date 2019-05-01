@@ -35,11 +35,9 @@ To interact with people in 3D and track body movements, you will need to use VR 
 
                 </td>
             </tr>
-          <tr>
+            <tr>
             	<th class="head">Vive</th>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>
                 
@@ -54,8 +52,6 @@ To interact with people in 3D and track body movements, you will need to use VR 
             <tr>
             	<th class="head">Windows MR</th>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>
                 
