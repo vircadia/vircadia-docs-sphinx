@@ -8,6 +8,93 @@ We get a lot of questions from our users! If you have questions about our produc
     :depth: 2
 
 
+-----------------------------
+High Fidelity Coin (HFC)
+-----------------------------
+
++ `How can I get HFC? <#q15>`_
++ `How do I send HFC to other people? <#q16>`_
++ `Why does my HFC balance not update instantly? <#q17>`_
++ `Do I get charged money if a transaction fails? <#q18>`_
++ `How do I convert HFC to other currencies? <#q19>`_
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q15:                                                                                            |
+|                                                                                                     |
+| How can I get HFC?                                                                                  |
++=====================================================================================================+
+| Currently, you can buy High Fidelity Coins (HFC) using Ethereum, a blockchain app that trades ETH ( |
+| Ether).                                                                                             |
+|                                                                                                     |
+| To get HFC:                                                                                         |
+|                                                                                                     |
+| 1. `Book an appointment <https://www.google.com/url?q=https://www.highfidelity.com/meetings/hi      |
+|    ghfidelity/high-fidelity-bank-appointment&sa=D&ust=1557511230804000&usg=AFQjCNGq-Do7QWLlt_PXUQSH |
+|    WxAlOCLIEA>`_ at the Bank of High Fidelity.                                                      |
+| 2. At the time of your appointment, pull up your Tablet or HUD and go to **GoTo**.                  |
+| 3. Go to the TradingRoom domain by entering 'TradingRoom' as the domain address.                    |
+| 4. We will provide you with a QR code that you can use to send ETH to the Bank of High Fidelity.    |
+| 5. Once we receive the ETH amount you sent, we will send you the appropriate amount of HFC to your  |
+|    account based on the current exchange rate. This can take up to three business days.             |
+|                                                                                                     |
+| You can also receive HFC from gifts from your friends or by selling items on the Marketplace.       |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q16:                                                                                            |
+|                                                                                                     |
+| How do I send HFC to other people?                                                                  |
++=====================================================================================================+
+| 1. Open the **Inventory** app.                                                                      |
+| 2. Click 'Send Money'.                                                                              |
+|     * To send HFC to one of your connections, click 'Connection', and choose the recipient from the |
+|       list.                                                                                         |
+|     * To send HFC to someone nearby in the domain, click 'Someone Nearby' then click on the person  |
+|       in the domain. Confirm that you selected the correct person in the dialog.                    |
+|                                                                                                     |
+| 3. Add the amount you wish to send, then click 'Submit'.                                            |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q17:                                                                                            |
+|                                                                                                     |
+| Why does my HFC balance not update instantly?                                                       |
++=====================================================================================================+
+| HFC transactions sometimes take a few seconds to update, as they are backed by a blockchain. If     |
+| your balance has not updated within 5 minutes, contact our team at `support@highfidelity.com <mail  |
+| to:support@highfidelity.com>`_ and they can help you.                                               |   
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q18:                                                                                            |
+|                                                                                                     |
+| Do I get charged money if a transaction fails?                                                      |
++=====================================================================================================+
+| No! Your HFC balance only changes when a purchase or transaction is confirmed on the blockchain.    |   
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q19:                                                                                            |
+|                                                                                                     |
+| How do I convert HFC to other currencies?                                                           |
++=====================================================================================================+
+| Our goal is to always have an easy way for creators to retrieve the money they’ve earned.           |
+| Currently, you can cash out your HFC to US Dollars (USD) using PayPal.                              |   
+|                                                                                                     |
+| To cash out your HFC:                                                                               |
+|                                                                                                     |
+| 1. `Book an appointment <https://www.google.com/url?q=https://www.highfidelity.com/meetings/hi      |
+|    ghfidelity/high-fidelity-bank-appointment&sa=D&ust=1557511230804000&usg=AFQjCNGq-Do7QWLlt_PXUQSH |
+|    WxAlOCLIEA>`_ at the Bank of High Fidelity.                                                      |
+| 2. At the time of your appointment, pull up your Tablet or HUD and go to **GoTo**.                  |
+| 3. Go to the TradingRoom domain by entering 'TradingRoom' as the domain address.                    |
+|                                                                                                     |
+| The minimum amount of HFC that you cash out is $25 (or 2,500 HFC), and the maximum cashout value    |
+| is $2000 (or 200,000 HFC) per calendar month. High Fidelity may, at its discretion, issue the       | 
+| occasional exception to the maximum cashout amount.                                                 |
++-----------------------------------------------------------------------------------------------------+
+
+
 ------------------------------
 Sell on the Marketplace
 ------------------------------
@@ -20,9 +107,6 @@ Sell on the Marketplace
 + `What happens after I submit my item to the Marketplace? <#q6>`_
 + `How long does it take to find out about the status of my submission? <#q7>`_
 + `What are the rules for submitting content to the Marketplace? <#q8>`_
-
-
-
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _q1:                                                                                             |
@@ -110,7 +194,6 @@ Sell on the Marketplace
 
 
 
-
 -----------------------------------
 Buy from the Marketplace
 -----------------------------------
@@ -121,8 +204,6 @@ Buy from the Marketplace
 + `What happens to my Marketplace content when I change my domain ID? <#q12>`_
 + `What happens to my Marketplace content when I export a backup to another domain? <#q13>`_
 + `How do I report a DMCA violation? <#q14>`_
-
-
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _q9:                                                                                             |
@@ -189,3 +270,4 @@ Buy from the Marketplace
 | Email us at `support@highfidelity.com <mailto:support@highfidelity.com>`_ to report content         |
 | violation, and we will take appropriate action.                                                     |
 +-----------------------------------------------------------------------------------------------------+
+
