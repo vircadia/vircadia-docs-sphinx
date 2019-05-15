@@ -146,7 +146,8 @@ Many of the errors you will encounter describe issues with the avatar’s skelet
 | Your avatar is grey.                  | One of the following issues could have occurred:                                     |
 |                                       |                                                                                      |
 |                                       | 1. Make sure you copied your avatar's textures into the project’s textures folder    |
-|                                       | 2. Verify that your textures are in a format that we support (either PNG or JPG)     |
+|                                       | 2. Verify that your textures are in a format that we support (PNG, JPEG, JPG, TGA,   |
+|                                       |    TIF, or TIFF).                                                                    |
 |                                       | 3. If your textures are embedded in your avatar: select the FBX file, go to          |
 |                                       |    'Inspector', and click 'Extract Textures'. Extract your textures into your asset's|
 |                                       |    folder. You can do the same with Materials.                                       |
