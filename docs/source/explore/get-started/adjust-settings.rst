@@ -151,42 +151,6 @@ You can choose how you view things around you by changing your perspective. To c
 | Entity Mode      | Select this to set your perspective to a specific entity, allowing you to move with entity as it moves. |
 +------------------+---------------------------------------------------------------------------------------------------------+
 
---------------------------------
-Change How You Move in VR
---------------------------------
-
-You can change many avatar movement settings in VR such as jumping, flying, and leaning behavior. To do so:  
-
-* In Desktop mode, go to **Settings > Controls** in the menu on the top left corner. 
-* In VR mode, open your Tablet and go to **Menu > Settings > Control**.
-
-+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Setting                  | Description                                                                                                                          |
-+==========================+======================================================================================================================================+
-| *VR Movement* >          | This setting controls how your avatar moves in VR mode.                                                                              |
-| Movement mode            |                                                                                                                                      |
-|                          | * **Teleporting Only**: Your avatar can only teleport. You cannot walk, jump, or fly.                                                |
-|                          | * **Walking and Teleporting**: Your avatar can walk and teleport. To jump or fly, enable the check box labeled *Jumping and flying*. |
-+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| *VR Movement* >          | This setting controls how your avatar turns in VR mode.                                                                              |
-| Rotation mode            |                                                                                                                                      |
-+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| *VR Movement* >          | This setting controls if and when your avatar leans in VR mode.                                                                      |
-| Avatar leaning behavior  |                                                                                                                                      |
-|                          | * **Auto**: This is the default setting. Your avatar will lean if you are standing in the real world.                                |
-|                          | * **Seated**: Your avatar will not lean if you are sitting in the real world.                                                        |
-|                          | * **Standing**: Your avatar will lean if you are sitting in the real world.                                                          |
-|                          | * **Disabled**: Your avatar can sit on the floor (experimental).                                                                     |
-+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| User real world height   | You can change your real world height for better tracking in VR mode.                                                                |
-| (in meters)              | You can change your real world height for better tracking in VR mode.                                                                |
-+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Game Controller          | This setting is enabled by default. When enabled, you can use other types of controllers.                                            |
-+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Perception Neuron        | Enable this setting to use the Perception Neuron motion capture system.                                                              |
-+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Leap Motion              | Enable this setting to start using Leap Motion controllers.                                                                          |
-+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 
 --------------------------------
 Other Miscellaneous Settings

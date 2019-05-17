@@ -69,6 +69,8 @@ You can download the Client-Only installer through Steam or via `High Fidelity's
 2. Run the High Fidelity installer.
 3. Follow the prompts and complete the installation.
 
+.. note:: If you're using a VR headset other than Oculus or HTC Vive, make sure you have Steam VR installed before launching High Fidelity. 
+
 -----------------------------------
 Client and Sandbox Installer
 -----------------------------------
@@ -78,6 +80,8 @@ If you want to :doc:`host content <../../host>` in the metaverse, you will need 
 1. Select your platform and download the installer.
 2. Run the High Fidelity installer.
 3. Follow the prompts and complete the installation.
+
+.. note:: If you're using a VR headset other than Oculus or HTC Vive, make sure you have Steam VR installed before launching High Fidelity. 
 
 ---------------------------------
 Perform a Clean Installation
