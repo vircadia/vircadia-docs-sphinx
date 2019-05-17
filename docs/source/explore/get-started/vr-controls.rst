@@ -2,7 +2,7 @@
 Use Your VR Equipment
 #########################
 
-To get the best and most immersive experience in High Fidelity, we encourage tyou to use VR equipment, such as the Oculus Rift or HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. 
+To get the best and most immersive experience in High Fidelity, we encourage you to use VR equipment, such as the Oculus Rift or HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. 
 
 .. contents:: On This Page
     :depth: 2
@@ -46,7 +46,7 @@ You can change many avatar movement settings in VR such as jumping, flying, and 
 | *VR Movement* >            | This setting controls which direction you move in:                              |
 | Movement Direction         |                                                                                 |
 |                            | * **HMD-Relative**: Move in the direction your head is pointing.                |
-|                            | * **Hand-Relative**: Move in the direction your hand is pointing.               |
+|                            | * **Hand-Relative**: Move in the direction your dominant hand is pointing.      |
 |                            | * **Hand-Relative (Leveled)**: Move in the direction your hand is pointing,     |
 |                            |   without taking pitch into account.                                            |
 +----------------------------+---------------------------------------------------------------------------------+
@@ -56,7 +56,7 @@ You can change many avatar movement settings in VR such as jumping, flying, and 
 | *VR Movement* >            | This setting controls how you turn in VR:                                       |
 | Rotation Mode              |                                                                                 |
 |                            | * **Snap turn**: Rotate your avatar sharply to the left or the right.           |
-|                            | * **Smooth turn**: Rotate your avatar smoothly as you rotate to the left or     |
+|                            | * **Smooth turn**: Rotate your avatar smoothly as you turn to the left or       |
 |                            |   right.                                                                        |
 +----------------------------+---------------------------------------------------------------------------------+
 | *VR Movement* >            | This setting determines how you control your walking speed:                     |
