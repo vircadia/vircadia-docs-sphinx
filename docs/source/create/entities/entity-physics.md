@@ -58,13 +58,13 @@ In High Fidelity, damping represents how much of an entity's linear or angular v
 To set the linear damping of an object:
 
 1. In the 'Properties' tab, scroll down to the 'Linear Damping' property. The default value is `0.00`. 
-2. [Change the linear velocity](#change-an-entitys-linear-velocity) of a cube to any value. 
+2. [Change the linear velocity](#linear-velocity) of a cube to any value. 
 3. Change the 'Linear Damping' value to `1.00` to make the cube stop moving. You can change this value to anything between `0.00` and `1.00` to make an entity slow down over time. 
 
 To set the angular damping of an object:
 
 1. In the 'Properties' tab, scroll down to the 'Angular Damping' property. The default value is `0.00`. 
-2. [Change the angular velocity](#change-an-entitys-angular-velocity) of a cube to any value. 
+2. [Change the angular velocity](#angular-velocity) of a cube to any value. 
 3. Change the 'Angular Damping' value to `1.00` to make the cube stop moving. You can change this value to anything between `0.00` and `1.00` to make an entity slow down over time. 
 
 ![](_images/gif-1.gif)
