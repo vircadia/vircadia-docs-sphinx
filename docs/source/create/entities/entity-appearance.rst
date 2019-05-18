@@ -6,8 +6,6 @@ You can edit an entity's size, color, position and rotation using your mouse or 
 
 .. image:: _images/select-entity.PNG
 
-.. note:: By default, zone entities cannot be selected for editing. To select these entities, you must click on the entity in the Entity List of the **Create** app.
-
 .. contents:: On This Page
     :depth: 2
 
@@ -108,6 +106,8 @@ You can also set the rotation manually in the **Create** app. With the entity se
 | *Spatial* > Rotation       | The orientation of the entity with respect to world coordinates. | All                      |
 +----------------------------+------------------------------------------------------------------+--------------------------+
 
+.. note:: You can switch between 'Local' and 'World' using the keyboard shortcut ``T``.
+
 -----------------------
 Move an Entity
 -----------------------
@@ -125,6 +125,8 @@ You can also set the position manually in the **Create** app. With the entity se
 +----------------------------+---------------------------------------------------------------+--------------------------+
 | *Spatial* > Position       | The position of the entity with respect to world coordinates. | All                      |
 +----------------------------+---------------------------------------------------------------+--------------------------+
+
+.. note:: You can switch between 'Local' and 'World' using the keyboard shortcut ``T``.
 
 
 **See Also**

@@ -28,12 +28,7 @@ To create a zone entity:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Click the 'Zone' icon to create a zone entity. You'll see a wireframe shape showing the zone's bounding box. 
 3. If you are unable to view the zone's bounding box, go to **Edit > Show Zones in Create mode** and select the option. Your zone should now be visible.
-4. Go to the 'Properties' tab, and add a name 'Zone-1' for your zone. This is an optional step. We are adding a name to make it easier to find the zone in the 'Entity List' window. 
-
-<div class="admonition note">
-    <p class="admonition-title">Note</p>
-    <p>You cannot select a zone entity, like how you would select other entities. To find or select your zone entity in your 'Entity List' window, search for the zone using its name. If you haven't named your zone, click on zones with no names to find yours.</p>
-</div>
+4. Go to the 'Properties' tab, and add a name 'Zone-1' for your zone. 
 
 ## Create Nested Zones with Different Lighting
 
@@ -55,10 +50,12 @@ Follow the steps to [create a zone entity](#create-a-zone-entity) to create two 
 
 ### Nest One Zone Inside the Other
 
-To nest a zone, you have to resize one zone to make it smaller than the other, and change its position to bring it inside the larger zone. 
-1. In the 'Entity List' window, select 'Zone-1'.
-2. In the 'Properties' tab, change the dimensions of 'Zone-1' to `x=5, y=10, z=5`.
-3. If you created both zones without moving your avatar, you don't need to change the zone's position. 'Zone-1' will already be inside 'Zone-2'. If you moved while creating the zones, select 'Zone-1' and move it inside 'Zone-2'.
+To nest a zone, you have to resize one zone to make it smaller than the other, and change its position to bring it inside the larger zone.
+
+1. In Interface, pull up your HUD or Tablet and go to **Create**.  
+2. Select 'Zone-1' either from the Entity List or directly in Interface.
+3. In the 'Properties' tab, change the dimensions of 'Zone-1' to `x=5, y=10, z=5`.
+4. If you created both zones without moving your avatar, you don't need to change the zone's position. 'Zone-1' will already be inside 'Zone-2'. If you moved while creating the zones, select 'Zone-1' and move it inside 'Zone-2'.
 
 ### Add Different Lighting Effects to Each Zone
 
@@ -72,12 +69,13 @@ All lighting effects have three modes:
 
 The keylight represents a parallel source of light, such as the sun. Let's change the keylight properties for each zone:
 
-1. In the 'Entity List' window, select 'Zone-1'.
-2. In the 'Properties' tab, change the 'Key Light' property by selecting 'On' from the drop-down.
-3. Click on 'Key Light' color, and add these RGB (`255,0,0`) values to add a red key light. 
-4. In the 'Entity List' window, select 'Zone-2'.
-5. In the 'Properties' tab, change the 'Key Light' property by selecting 'On' from the drop-down.
-6. Click on 'Key Light' color, and add these RGB (`0,0,255`) values to add a blue key light. 
+1. In Interface, pull up your HUD or Tablet and go to **Create**.  
+2. Select 'Zone-1' either from the Entity List or directly in Interface.
+3. In the 'Properties' tab, change the 'Key Light' property to 'On' from the drop-down.
+4. Click on 'Key Light' color, and add these RGB (`255,0,0`) values to add a red key light. 
+5. Select 'Zone-2' either from the Entity List or directly in Interface.
+6. In the 'Properties' tab, change the 'Key Light' property by selecting 'On' from the drop-down.
+7. Click on 'Key Light' color, and add these RGB (`0,0,255`) values to add a blue key light. 
 
 When your avatar walks from Zone-1 to Zone-2, you will see the lighting around change from red to blue. 
 
@@ -99,9 +97,10 @@ All shapes will be stretched to fit the zone entity's dimensions.
 A skybox determines the texture of the sky in your domain. The skybox can be just a color, or an image from a URL. For example, you can have a blue sky or use an image of the night sky with stars as a skybox. 
 
 To add a blue sky to your zone: 
-1. In the 'Entity List' window, select 'Zone-1'.
-2. In the 'Properties' tab, change the 'Skybox' property by selecting 'On' from the drop-down.
-3. Click on 'Skybox' color, and add these RGB (`0,0,255`) values to add a blue key light. 
+1. In Interface, pull up your HUD or Tablet and go to **Create**.  
+2. Select 'Zone-1' either from the Entity List or directly in Interface.
+3. In the 'Properties' tab, change the 'Skybox' property by selecting 'On' from the drop-down.
+4. Click on 'Skybox' color, and add these RGB (`0,0,255`) values to add a blue key light. 
 
 To add an image of the night sky to your zone:
 1. Host your image on a cloud service and copy the URL.
@@ -129,9 +128,10 @@ To add an image of the night sky to your zone:
    ```
 
 3. Host the JSON file on a cloud service. Copy its URL.
-4. In the 'Entity List' window, select 'Zone-1'.
+4. Select 'Zone-1' either from the Entity List or directly in Interface.
 5. In the 'Properties' tab, change the 'Skybox' property by selecting 'On' from the drop-down.
-6. In 'Skybox source' add the JSON file's URL. 
+6. In 'Skybox source', add the JSON file's URL. 
+
 You'll see your zone's lighting change to the image you specified in the skybox.
 
 
@@ -141,7 +141,7 @@ The ambient light in a zone is a source of light different from the key light an
 
 Similar to the skybox, your ambient light image can be added as a JSON file.
 
-1. In the 'Entity List' window, select 'Zone-2'.
+1. Select 'Zone-2' either from the Entity List or directly in Interface.
 2. Change the 'Ambient Intensity' to `1.00`. 
 3. In 'Ambient Source', add your ambient light JSON file, or click 'Copy from Skybox' to use the same image as the skybox.
 
