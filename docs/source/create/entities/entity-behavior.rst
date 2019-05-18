@@ -7,9 +7,9 @@ An entity's behavior controls its interactions with other entities and avatars i
 .. contents:: On This Page
     :depth: 2
 
-----------------------------------------
+-----------------------------------------
 Set an Entity to Respond to Physics
-----------------------------------------
+-----------------------------------------
 
 If you want an entity to :doc:`respond to physics <entity-physics>` or other entities and avatars, you need to make it dynamic. This allows a box to respond to gravity or a ball to bounce when it hits the floor. If an entity is not dynamic, it is static and has no gravity and no velocity. It can only be moved by a user.  
 
@@ -17,13 +17,15 @@ To make an entity dynamic:
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Select your entity on the 'Entity List' window or just click on it. 
-3. Go to the 'Properties' tab, scroll down to 'Collisions' and check 'Dynamic'.
+3. Go to the 'Properties' tab, scroll down to 'Collision' and check 'Dynamic'.
 
 ------------------------------------
 Set Entity Behavior on Collision
 ------------------------------------
 
-When an entity has no collision properties, it moves through other entities and avatars like it's not a solid object. For an entity to collide when it comes in contact with another entity or avatar, its collision properties need to be changed. With the entity selected, click on 'Properties' and scroll down to the 'Collision' settings. Here are the different collision settings you can configure:
+When an entity has no collision properties, it moves through other entities and avatars like it's not a solid object. For an entity to collide when it comes in contact with another entity or avatar, its collision properties need to be changed. With the entity selected, click on 'Properties' and scroll down to the 'Collision' settings. 
+
+Here are the different collision settings you can configure:
 
 +--------------------+-----------------------------------------------------------------------------+
 | Collides With      | Description                                                                 |
@@ -50,7 +52,9 @@ When an entity has no collision properties, it moves through other entities and 
 Make an Entity Grabbable
 -----------------------------
 
-Your entity's grab properties determine how it behaves when you or another user interacts with it. By default, 'Grabbable' and 'Follow Controller' are checked. Here are the different grab settings you can configure:
+Your entity's grab properties determine how it behaves when you or another user interacts with it. By default, 'Grabbable' and 'Follow Controller' are checked. 
+
+Here are the different grab settings you can configure:
 
 +-------------------+------------------------------------------------------------------------------+
 | Behavior          | Description                                                                  |
@@ -67,7 +71,9 @@ Your entity's grab properties determine how it behaves when you or another user 
 Set an Entity to Trigger Scripts
 ----------------------------------------
 
-If you want your entity to trigger a script when you, other users, or other entities come in contact with it, you can do so by editing its properties. Here are the different trigger settings you can configure:
+If you want your entity to trigger a script when you, other users, or other entities come in contact with it, you can do so by editing its properties. 
+
+Here are the different trigger settings you can configure:
 
 +-------------+--------------------------------------------------------------------------------+
 | Behavior    | Description                                                                    |
@@ -80,7 +86,9 @@ If you want your entity to trigger a script when you, other users, or other enti
 Make an Entity Cloneable
 ------------------------------
 
-You can clone your entity to create other entities with the same properties as yours. While creating clones, you can set how long they'll exist, how many clones you can create, how the clone responds to physics, and if the clone is an avatar entity. Here are the different clone settings you can configure:
+You can clone your entity to create other entities with the same properties as yours. While creating clones, you can set how long they'll exist, how many clones you can create, how the clone responds to physics, and if the clone is an avatar entity. 
+
+Here are the different clone settings you can configure:
 
 +---------------------+----------------------------------------------------------------------------------+
 | Behavior            | Description                                                                      |
@@ -128,7 +136,9 @@ OR
 Set an Entity to Cast a Shadow
 -------------------------------------
 
-You can make your entity behave like a real world object by making it cast a shadow on other entities and avatars. Here are the different shadow settings you can configure:
+You can make your entity behave like a real world object by making it cast a shadow on other entities and avatars. In High Fidelity, entities cast shadows only from the key light, not from the light entities. The key light is a parallel source of light, like the sun. 
+
+Here are the different shadow settings you can configure:
 
 +-------------+--------------------------------------------------------------+
 | Behavior    | Description                                                  |
