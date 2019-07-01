@@ -119,11 +119,12 @@ Mac Clean Install
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Open your Applications folder and delete the High Fidelity folder. 
-2. Browse to ``<username>/.config`` and delete the ``highfidelity.io`` folder. 
-3. Open the ``~/Library`` folder by holding the Option key and clicking the 'Go' menu while in the Finder. The Library option should appear in the menu.
-4. Browse to ``~/Library/Application Support`` and delete the High Fidelity folder.
-5. Empty the Trash. 
-6. Re-install High Fidelity using the steps above. 
+2. Open the ``<username>/.config`` folder. This is a hidden folder than is accessible by going to *Go > Home*. Press the keyboard shortcut ``Command + Shift + .`` (period).
+3. Delete the ``highfidelity.io`` folder. 
+4. Open the ``~/Library`` folder by holding the Option key and clicking the 'Go' menu while in the Finder. The Library option should appear in the menu.
+5. Browse to ``~/Library/Application Support`` and delete the High Fidelity folder.
+6. Empty the Trash. 
+7. Re-install High Fidelity using the steps above. 
 
 ----------------------------
 Upgrade High Fidelity
