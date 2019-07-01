@@ -2,7 +2,19 @@
 Use Your VR Equipment
 #########################
 
-To get the best and most immersive experience in High Fidelity, we encourage you to use VR equipment, such as the Oculus Rift or HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. 
+To get the best and most immersive experience in High Fidelity, we encourage you to use VR equipment, such as the Oculus Rift or HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. We support the following VR equipment: 
+
++------------------------------------------------+---------------------+
+| Head Mounted Displays                          | Hand Controllers    |
++================================================+=====================+
+| Oculus Rift (CV1, DK2, and S)                  | Oculus Touch        |
++------------------------------------------------+---------------------+
+| HTC Vive                                       | HTC Vive            |
++------------------------------------------------+---------------------+
+| Windows MR                                     | XBox One Controller |
++------------------------------------------------+---------------------+
+|                                                | Leap Motion Orion   |
++------------------------------------------------+---------------------+
 
 .. contents:: On This Page
     :depth: 2

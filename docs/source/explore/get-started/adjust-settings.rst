@@ -25,21 +25,7 @@ Enter or Exit VR Mode
 
 You can enjoy High Fidelity with or with VR equipment such as head mounted displays (HMD), hand controllers and audio headsets. Our Desktop mode contains many of High Fidelity's features such as audio, basic movements and gestures, and the ability to travel to different domains. 
 
-Keep in mind, however, that the most immersive and powerful experience is when you use VR equipment. Only then will you be able to interact with people in 3D, track body movements, and easily engage with the objects around you. We support the following VR equipment: 
-
-+------------------------------------------------+---------------------+
-| Head Mounted Displays                          | Hand Controllers    |
-+================================================+=====================+
-| Oculus Rift (CV1 and DK2, runtime version 1.3) | Oculus Touch        |
-+------------------------------------------------+---------------------+
-| HTC Vive                                       | HTC Vive            |
-+------------------------------------------------+---------------------+
-| Windows MR                                     | XBox One Controller |
-+------------------------------------------------+---------------------+
-|                                                | Leap Motion Orion   |
-+------------------------------------------------+---------------------+
-
-Once you have set up your VR equipment, you can easily switch between VR mode and Desktop mode. To switch to VR mode, use one of the following methods: 
+Keep in mind, however, that the most immersive and powerful experience is when you use VR equipment. Only then will you be able to interact with people in 3D, track body movements, and easily engage with the objects around you. Once you have set up your VR equipment, you can easily switch between VR mode and Desktop mode. To switch to VR mode, use one of the following methods: 
 
 1. From the HUD, click **Enter VR**.
 2. Click the **Display** menu, then select your VR device. 
