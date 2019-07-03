@@ -176,7 +176,7 @@ Configure Your Mocap System
 7. Check to see that each tracker is tracking the corresponding joint on your avatar. 
 8. You can also calibrate your trackers without using your tablet. Once you apply your configuration, stand in a T-Pose and hold the following four buttons together for 1 second: Left Trigger, Right Trigger, Left Menu Button, Right Menu Button. You can press the same buttons together for a second to remove your calibration from the trackers.
 
-.. note:: When you setup your Vive, you choose which way to point the arrow as your reference. During calibration,  it is important that you face the same direction. If you can not remember the arrow's directon, press the Vive System Menu Button and look on the ground for a marker. This is important to make sure your joints are oriented correctly.
+.. note:: When you setup your Vive, you choose which way to point the arrow as your reference. During calibration,  it is important that you face the same direction. If you can not remember the arrow's direction, press the Vive System Menu Button and look on the ground for a marker. This is important to make sure your joints are oriented correctly.
 
 ^^^^^^^^^^^^^^^^^^^^
 Troubleshooting 
