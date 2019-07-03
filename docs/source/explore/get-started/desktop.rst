@@ -144,4 +144,4 @@ Gamepad
 
 Instead of a keyboard, you can use a gamepad while experiencing High Fidelity in desktop mode. 
 
-.. image:: _images/controls-gamepad.jpg
+.. image:: _images/controls-gamepad.png

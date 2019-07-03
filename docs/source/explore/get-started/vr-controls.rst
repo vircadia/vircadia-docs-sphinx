@@ -7,14 +7,13 @@ To get the best and most immersive experience in High Fidelity, we encourage you
 +------------------------------------------------+---------------------+
 | Head Mounted Displays                          | Hand Controllers    |
 +================================================+=====================+
-| Oculus Rift (CV1, DK2, and S)                  | Oculus Touch        |
+| Oculus Rift (CV1 and S)                        | Oculus Touch        |
 +------------------------------------------------+---------------------+
 | HTC Vive                                       | HTC Vive            |
 +------------------------------------------------+---------------------+
 | Windows MR                                     | XBox One Controller |
 +------------------------------------------------+---------------------+
-|                                                | Leap Motion Orion   |
-+------------------------------------------------+---------------------+
+
 
 .. contents:: On This Page
     :depth: 2
@@ -30,6 +29,23 @@ VR Controls
 .. image:: _images/controls-wmr.png
 
 
+------------------------
+Comfort Mode
+------------------------
+
+Motion sickness is a real problem for many people when they put on a HMD and enter VR. This happens because your eyes experience movement in VR, while your body stands still. If you experience motion sickness and discomfort using VR equipment, you are not alone. 
+
+"Comfort mode" is designed to decrease the effects of motion sickness while using High Fidelity. This mode:
+
+* Disables sharp turns 
+* Decreases your field of vision by darkening the edges of the screen
+* Adds a ground plane and grid
+
+All of these features were developed to help you orient yourself when moving around in VR.
+
+To enable comfort mode, go to **Menu > Settings > Controls** on your tablet. Use the slider to adjust how much of the environment you see in VR. 
+
+.. image:: _images/comfort-mode.png
 
 -----------------------------
 Change How You Move in VR
@@ -70,6 +86,8 @@ You can change many avatar movement settings in VR such as jumping, flying, and 
 |                            | * **Snap turn**: Rotate your avatar sharply to the left or the right.           |
 |                            | * **Smooth turn**: Rotate your avatar smoothly as you turn to the left or       |
 |                            |   right.                                                                        |
+|                            | * **Comfort mode**: Enable `comfort mode`_ and decrease the field of vision     |
+|                            |   while moving in VR mode.                                                      |
 +----------------------------+---------------------------------------------------------------------------------+
 | *VR Movement* >            | This setting determines how you control your walking speed:                     |
 | Control Scheme Selection   |                                                                                 |
