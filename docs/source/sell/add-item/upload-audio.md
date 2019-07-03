@@ -22,6 +22,8 @@ Once you've created music or ambient sounds for your domain, you need to add the
 3. In the 'Properties' tab, scroll down to 'Script' and your script's path or URL.
 4. Test your script file to see if your audio plays in High Fidelity.
 
+If you don't have a sound emitter script, you can create one by modifying this sample: [soundLoopEmitter.js](https://raw.githubusercontent.com/highfidelity/hifi-api-docs/master/docs/script-soundEmitter.js). 
+
 ## Add Your Assets
 
 If your model could be re-imported without any issues, it is now ready to be uploaded to High Fidelity. 

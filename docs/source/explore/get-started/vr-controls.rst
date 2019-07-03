@@ -2,7 +2,18 @@
 Use Your VR Equipment
 #########################
 
-To get the best and most immersive experience in High Fidelity, you should use VR equipment such as the Oculus Rift or HTC Vive. Only then will you be able to interact with people in 3D, track body movements, and easily engage with the objects around you. 
+To get the best and most immersive experience in High Fidelity, we encourage you to use VR equipment, such as the Oculus Rift or HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. We support the following VR equipment: 
+
++------------------------------------------------+---------------------+
+| Head Mounted Displays                          | Hand Controllers    |
++================================================+=====================+
+| Oculus Rift (CV1 and S)                        | Oculus Touch        |
++------------------------------------------------+---------------------+
+| HTC Vive                                       | HTC Vive            |
++------------------------------------------------+---------------------+
+| Windows MR                                     | XBox One Controller |
++------------------------------------------------+---------------------+
+
 
 .. contents:: On This Page
     :depth: 2
@@ -10,128 +21,104 @@ To get the best and most immersive experience in High Fidelity, you should use V
 ------------------------
 VR Controls
 ------------------------
-
-To interact with people in 3D and track body movements, you will need to use VR equipment such as the Oculus Rift or HTC Vive. With VR equipment, you can have a fully immersive experience in High Fidelity.
-
-.. note:: If you want to jump, fly, or strafe (walk sideways) in VR, you must enable it under **Settings > Controls > VR Movement**.
-
-.. raw:: html
-
-    <table border="1" class="docutils">
-        <thead>
-            <tr>
-            	<th class="head" align="center">Oculus</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
                 
-.. image:: _images/controls-oculus.jpg
+.. image:: _images/controls-oculus.png
 
-.. image:: _images/controls-oculus-flight.jpg                
-
-.. raw:: html
-
-                </td>
-            </tr>
-          <tr>
-            	<th class="head">Vive</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
+.. image:: _images/controls-vive.png
                 
-.. image:: _images/controls-vive.jpg
-
-.. image:: _images/controls-vive-flight.jpg
-
-.. raw:: html
-
-                </td>
-            </tr>
-            <tr>
-            	<th class="head">Windows MR</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                
-.. image:: _images/controls-wmr.jpg
-
-.. image:: _images/controls-wmr-flight.jpg
-
-.. raw:: html
-
-                </td>
-            </tr>
-       </tbody>
-    </table>
+.. image:: _images/controls-wmr.png
 
 
-.. note:: If you're using a VR headset other than Oculus or HTC Vive, make sure you have Steam VR installed before launching High Fidelity. 
+------------------------
+Comfort Mode
+------------------------
 
+Motion sickness is a real problem for many people when they put on a HMD and enter VR. This happens because your eyes experience movement in VR, while your body stands still. If you experience motion sickness and discomfort using VR equipment, you are not alone. 
 
-^^^^^^^^^^^^^^^^^^^^^^^
-Movement Controls
-^^^^^^^^^^^^^^^^^^^^^^^
+"Comfort mode" is designed to decrease the effects of motion sickness while using High Fidelity. This mode:
 
-If you want to change your avatar's walking or running speed, or change your direction, you can use our movement controls. 
+* Disables sharp turns 
+* Decreases your field of vision by darkening the edges of the screen
+* Adds a ground plane and grid
 
-1. In Interface, pull up your HUD or Tablet and go to **Menu > Settings > Controls**.
-2. In the 'Settings' tab, under VR movement, you will see a list of advanced movement control options.
+All of these features were developed to help you orient yourself when moving around in VR.
 
+To enable comfort mode, go to **Menu > Settings > Controls** on your tablet. Use the slider to adjust how much of the environment you see in VR. 
+
+.. image:: _images/comfort-mode.png
+
+-----------------------------
+Change How You Move in VR
+-----------------------------
+
+You can change many avatar movement settings in VR such as jumping, flying, and leaning behavior. To do so:
+
+* In Desktop mode, go to **Settings > Controls** in the menu bar.
+* In VR mode, open your Tablet and go to **Menu > Settings > Controls**.
 
 +----------------------------+---------------------------------------------------------------------------------+
 | Setting                    | Description                                                                     |
 +============================+=================================================================================+
-| Teleporting                | Enable to teleport to a location within a domain.                               |
+| *VR Movement* >            | Enables teleport controls to move seamlessly between positions within a domain. |
+| Teleporting                |                                                                                 | 
 +----------------------------+---------------------------------------------------------------------------------+
-| Walking                    | Enable this setting to walk in a domain.                                        |
+| *VR Movement* >            | Enables walking controls to move within a domain.                               |
+| Walking                    |                                                                                 | 
 +----------------------------+---------------------------------------------------------------------------------+
-| Strafing                   | Enable for your avatar to move from side to side.                               |
+| *VR Movement* >            | Enables strafing controls (to walk sideways).                                   |
+| Strafing                   |                                                                                 | 
 +----------------------------+---------------------------------------------------------------------------------+
-| Jumping and flying         | Enable for your avatar to jump and fly in High Fidelity.                        |
+| *VR Movement* >            | Enables jump and fly controls.                                                  |
+| Jumping and flying         |                                                                                 | 
 +----------------------------+---------------------------------------------------------------------------------+
-| *Movement Direction:*      | When selected, your avatar will move in the direction your head is facing.      |
-| HMD-Relative               |                                                                                 |
+| *VR Movement* >            | This setting controls which direction you move in:                              |
+| Movement Direction         |                                                                                 |
+|                            | * **HMD-Relative**: Move in the direction your head is pointing.                |
+|                            | * **Hand-Relative**: Move in the direction your dominant hand is pointing.      |
+|                            | * **Hand-Relative (Leveled)**: Move in the direction your hand is pointing,     |
+|                            |   without taking pitch into account.                                            |
 +----------------------------+---------------------------------------------------------------------------------+
-| *Movement Direction:*      | When selected, your avatar will move in the direction your hand is pointing.    |
-| Hand-Relative              |                                                                                 |
+| *VR Movement* >            | Select 'Left' or 'Right'. Teleport and turn controls move to the controller     |
+| Dominant Hand              | in the dominant hand.                                                           |
 +----------------------------+---------------------------------------------------------------------------------+
-| *Movement Direction:*      | When selected, your avatar will move in the direction your hand is pointing,    |
-| Hand-Relative (Level)      | without taking pitch into account.                                              |
+| *VR Movement* >            | This setting controls how you turn in VR:                                       |
+| Rotation Mode              |                                                                                 |
+|                            | * **Snap turn**: Rotate your avatar sharply to the left or the right.           |
+|                            | * **Smooth turn**: Rotate your avatar smoothly as you turn to the left or       |
+|                            |   right.                                                                        |
+|                            | * **Comfort mode**: Enable `comfort mode`_ and decrease the field of vision     |
+|                            |   while moving in VR mode.                                                      |
 +----------------------------+---------------------------------------------------------------------------------+
-| Dominant Hand              | Select 'Left' or 'Right'. Teleport and turning controls move to the controller  |
-|                            | in the dominant hand.                                                           |
+| *VR Movement* >            | This setting determines how you control your walking speed:                     |
+| Control Scheme Selection   |                                                                                 |
+|                            | * **Default**: Your walking speed will remain the same, no matter how far       |
+|                            |   forward you push your controller's joystick. Fully pushing the joystick       |
+|                            |   forward will make your avatar run.                                            |
+|                            | * **Analog**: Your walking speed changes based on how far forward you push      |
+|                            |   your controller's joystick. Fully pushing your joystick forward will make     |
+|                            |   your avatar run.                                                              |
+|                            | * **Analog++**: Your walking speed changes based on how far forward you push    |
+|                            |   your controller's joystick. You can use the slider to change the maximum      |
+|                            |   walking speed in meters/second. Fully pushing your joystick forward will make |
+|                            |   your avatar run.                                                              |
 +----------------------------+---------------------------------------------------------------------------------+
-| *Control Scheme Selection:*| In Default mode, your walking speed doesn't change depending on how far forward |
-| Default                    | you push your controller's joystick. Fully pushing your joystick forward will   |
-|                            | make your avatar run.                                                           |
+| *VR Movement* >            | This setting controls if and when your avatar leans in VR mode.                 |
+| Avatar leaning behavior    |                                                                                 |
+|                            | * **Auto**: This is the default setting. Your avatar will lean if you are       |
+|                            |   standing in the real world.                                                   |
+|                            | * **Seated**: Your avatar will not lean if you are sitting in the real world.   |
+|                            | * **Standing**: Your avatar will lean if you are sitting in the real world.     |
+|                            | * **Disabled**: Your avatar can sit on the floor (experimental).                |
 +----------------------------+---------------------------------------------------------------------------------+
-| *Control Scheme Selection:*| In Analog mode, your walking speed changes based on how far forward you push    |
-| Analog                     | your controller's joystick. Fully pushing your joystick forward will            |
-|                            | make your avatar run.                                                           |
-+----------------------------+---------------------------------------------------------------------------------+
-| *Control Scheme Selection:*| In Analog++ mode, your walking speed changes based on how far forward you push  |
-| Analog++                   | your controller's joystick. You can also use the slider to change the walking   |
-|                            | speed in meters/second. Fully pushing your joystick forward will make your      |
-|                            | avatar run.                                                                     |
+| User real world height     | You can change your real world height for better tracking in VR mode.           |
+| (in meters)                |                                                                                 |
 +----------------------------+---------------------------------------------------------------------------------+
 
--------------------------
-Gamepad
--------------------------
 
-If your HMD does not come equipped with hand controllers, you can use a gamepad. However, High Fidelity is best experienced with VR equipment or the keyboard in Desktop mode.
 
-.. image:: _images/controls-gamepad.jpg
-
------------------------------------------
+------------------------------------------
 Motion Capture Using Vive Trackers
------------------------------------------
+------------------------------------------
 
 You can enhance your High Fidelity experience using full body motion capture (mocap). High Fidelity currently supports mocap using HTC Vive Trackers. 
 
@@ -189,32 +176,45 @@ Configure Your Mocap System
 7. Check to see that each tracker is tracking the corresponding joint on your avatar. 
 8. You can also calibrate your trackers without using your tablet. Once you apply your configuration, stand in a T-Pose and hold the following four buttons together for 1 second: Left Trigger, Right Trigger, Left Menu Button, Right Menu Button. You can press the same buttons together for a second to remove your calibration from the trackers.
 
-.. note:: When you setup your Vive, you choose which way to point the arrow as your reference. During calibration,  it is important that you face the same direction. If you can not remember the arrow's directon, press the Vive System Menu Button and look on the ground for a marker. This is important to make sure your joints are oriented correctly.
+.. note:: When you setup your Vive, you choose which way to point the arrow as your reference. During calibration,  it is important that you face the same direction. If you can not remember the arrow's direction, press the Vive System Menu Button and look on the ground for a marker. This is important to make sure your joints are oriented correctly.
 
 ^^^^^^^^^^^^^^^^^^^^
-Troubleshooting
+Troubleshooting 
 ^^^^^^^^^^^^^^^^^^^^
 
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Issue                           | Troubleshooting Steps                                                                                                                                                                        |
-+=================================+==============================================================================================================================================================================================+
-| My calibration failed           | * Check if your trackers are properly connected in SteamVR.                                                                                                                                  |
-|                                 | * Have you selected the correct configuration in your tablet and do you have enough number of trackers to support that configuration?                                                        |
-|                                 | * If you are performing and not in HMD, did you select to 'Use HTC Vive in Desktop Mode'?                                                                                                    |
-|                                 | * Are any of the trackers blinking? If so, they may need to be paired again.                                                                                                                 |
-|                                 | * Do you have the correct number of dongles plugged in to your computer. You will need one dongle per tracker. If you are performing with all 7, then you may need a USB hub to handle them. |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| My sensor is jiggling a lot     | Make sure the straps on the sensor are tightened.                                                                                                                                            |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| My sensor keeps losing tracking | * If it’s the hip tracker, is your shirt is tucked in and not covering the puck? Also make sure your headphone cord isn’t covering the puck.                                                 |
-|                                 | * Can the base stations clearly see the tracker?                                                                                                                                             |
-|                                 | * Is the signal from the base station conflicting with another Vive setup nearby?                                                                                                            |
-|                                 | * Are you clear of reflective surfaces nearby? (such as picture frames, whiteboards, shiny tables).                                                                                          |
-|                                 | * Is the lighting consistent across the room (minimal outdoor lighting)?                                                                                                                     |
-|                                 | * Try restarting SteamVR.                                                                                                                                                                    |
-+---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------+-------------------------------------------------------------------------------------------+
+| Issue                           | Troubleshooting Steps                                                                     |
++=================================+===========================================================================================+
+| My calibration failed           | * Check if your trackers are properly connected in SteamVR.                               |
+|                                 | * Have you selected the correct configuration in your tablet and do you have enough       |
+|                                 |   number of trackers to support that configuration?                                       |
+|                                 | * If you are performing and not in HMD, did you select to 'Use HTC Vive in Desktop Mode'? |
+|                                 | * Are any of the trackers blinking? If so, they may need to be paired again.              |
+|                                 | * Do you have the correct number of dongles plugged in to your computer? You will need    |
+|                                 |   one dongle per tracker. If you are performing with all 7, then you may need a USB hub   |
+|                                 |   to handle them.                                                                         |
++---------------------------------+-------------------------------------------------------------------------------------------+
+| My sensor is jiggling a lot     | Make sure the straps on the sensor are tightened.                                         |
++---------------------------------+-------------------------------------------------------------------------------------------+
+| My sensor keeps losing tracking | * If it’s the hip tracker, is your shirt is tucked in and not covering the puck? Also     |
+|                                 |   make sure your headphone cord isn’t covering the puck.                                  |
+|                                 | * Can the base stations clearly see the tracker?                                          |
+|                                 | * Is the signal from the base station conflicting with another Vive setup nearby?         |
+|                                 | * Are you clear of reflective surfaces nearby? (such as picture frames, whiteboards,      |
+|                                 |   shiny tables).                                                                          |
+|                                 | * Is the lighting consistent across the room (minimal outdoor lighting)?                  |
+|                                 | * Try restarting SteamVR.                                                                 |
++---------------------------------+-------------------------------------------------------------------------------------------+
 
 .. note:: Remember to charge your trackers when you aren't using them so that you don't have to deal with a low battery tracker negatively impacting your performance.
+
+-------------------------
+Gamepad
+-------------------------
+
+If your HMD does not come equipped with hand controllers, you can use a gamepad. However, High Fidelity is best experienced with VR equipment or the keyboard in Desktop mode.
+
+.. image:: _images/controls-gamepad.png
 
 
 **See Also**

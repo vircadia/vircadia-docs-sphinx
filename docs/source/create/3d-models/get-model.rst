@@ -53,7 +53,8 @@ We've listed the best practices for creating 3D models for High Fidelity (and VR
 +------------+-------------------------------------------------------------------------------+
 | Materials  | High Fidelity’s engine only supports one UV mapping per material.             |
 +------------+-------------------------------------------------------------------------------+
-| Textures   | PNG files are recommended, but we also support JPG files.                     |
+| Textures   | PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and     |
+|            | TIFF formats.                                                                 |
 +------------+-------------------------------------------------------------------------------+
 | Textures   | Choose the color types wisely to minimize the size of the final file.         |
 +------------+-------------------------------------------------------------------------------+

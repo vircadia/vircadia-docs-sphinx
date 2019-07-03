@@ -6,8 +6,6 @@ High Fidelity is a metaverse where you can connect and create with others. We in
 
 If its your first time using High Fidelity, you'll start your journey in our welcome area where you can choose an avatar, discover how to use your controls, and talk with one of our greeters. If you've visited High Fidelity before, you will return to the location where you last visited. 
 
-.. image:: _images/welcome-tutorial.png
-
 Throughout this chapter, learn how to make the most of your exploration:
 
 .. toctree::

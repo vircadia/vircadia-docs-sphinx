@@ -350,7 +350,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
              <tr>
                 <td>
                     <p id="unsupported-textures" style="color: orange;"><strong># unsupported texture(s) found</strong></p>
-                    <p>This warning occurs when your textures are not supported by High Fidelity. Supported image formats include BMP, JPG, PNG, PBM, PGM, PPM, XBM, XPM, SVG, GIF, ICNS, JP2, MNG, TGA, TIFF, WPMB, and WEBP files.</p>
+                    <p>This warning occurs when your textures are not supported by High Fidelity. Supported image formats include PNG, JPG, JPEG, TGA, TIF, and TIFF files.</p>
                 </td>
                 <td>
                     <ol class="first arabic simple">

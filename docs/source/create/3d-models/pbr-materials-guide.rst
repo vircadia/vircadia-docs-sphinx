@@ -23,7 +23,14 @@ Textures
 
 Textures are flat images that are applied to 3D models. These add detail on how a 3D model's material looks. For example, a 3D model of a tree trunk will use a texture of bark to show what the surface looks like.
 
-High Fidelity supports textures in the PNG and JPEG formats.
+High Fidelity supports the use of the following texture formats: 
+
+* PNG (recommended)
+* JPEG, JPG (recommended)
+* TGA
+* TIFF, TIF 
+
+For best performance, we recommend :doc:`baking all 3D models <../../host/oven>` (including textures) before uploading it to High Fidelity.
 
 ^^^^^^^^^^^^^^^^^^^^^^^
 Shading
@@ -113,5 +120,6 @@ Use the graphics below to set the right material values and textures in Maya.
 
 **See Also**
 
++ :doc:`Bake Your Content Using the Oven <../../host/oven>`
++ `Bake Content Using the Asset Server <../../host/manage-assets.html#bake-an-asset>`_
 + :doc:`Add a Material Entity <../entities/material-entity>`
-+ `Load and Run a Script <../../script/get-started-with-scripting.html#load-and-run-a-script>`_

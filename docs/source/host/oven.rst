@@ -25,9 +25,9 @@ The Oven is a tool that will help you bake any of the following types of content
 |           | .ktx images, and the original texture. Baking might introduce some compression artifacts, but                |
 |           | these are usually minor. Baking a texture produces mipmaps, which allow you to progressively                 |
 |           | load textures, and compresses the results. Baking large textures like skyboxes can take a while,             |
-|           | but the benefits at runtime for everyone loading the skybox image will be significant. We                    |
-|           | support textures in the following formats: BMP, CUR, GIF, ICNS, ICO, JPEG, JPG, PBM, PGM, PNG,               |
-|           | PPM, SVG, SVGZ, TGA, TIF, TIFF, WBMP, WEBP, XBM, XPM, EXR                                                    |
+|           | but the benefits at runtime for everyone loading the skybox image will be significant. For the best          |
+|           | experience, we recommend using PNG or JPEG (JPG) textures. However, we also support textures in following    |
+|           | formats: TGA, TIF, and TIFF.                                                                                 |
 +-----------+--------------------------------------------------------------------------------------------------------------+
 | Materials | Baking a material will produce a .baked.json file and will also bake all of the textures in the              |
 |           | material. Currently, we only support baking a `material entity JSON file <../create/entities/mate            |
@@ -216,7 +216,7 @@ To bake a skybox:
 Oven Command Line Interface
 ---------------------------------
 
-You can also use a command line interface instead of the GUI to bake single assets only (not domains). We support the following:
+You can also use a command line interface instead of the GUI to bake single assets only (not domains). We support the following attributes:
 
 + i: Path to file that you would like to bake.
 + o: Path to folder that will be used as the output directory.
@@ -227,18 +227,15 @@ You can also use a command line interface instead of the GUI to bake single asse
 """"""""""""""""""""""""
 Examples
 """"""""""""""""""""""""
-To bake a 3D model through the Oven's command line interface:
 
-1. Open any command line interface and go to the Oven's directory. Then add the following line:
+To bake a 3D model through the Oven's command line interface::
 
-``./oven -i "https://raw.githubusercontent.com/highfidelity/hifi_tests/master/assets/models/geometry/avatars/art3mis/art3mis.fst" -o [folder of your choice] -t model``
+    >> oven.exe -i %path to model% -o %output directory% -t model
 
 
-To bake a material through the Oven's command line interface:
+To bake a material through the Oven's command line interface::
 
-1. Open any command line interface and go to the Oven's directory. Then add the following line:
-
-``./oven -i "https://hifi-content.s3.amazonaws.com/samuel/materialBake.json" -o [folder of your choice] -t material``
+    >> oven.exe -i %path to material json% -o %output directory% -t material
 
 
 

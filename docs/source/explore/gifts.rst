@@ -94,7 +94,7 @@ Say you want to pre-authorize 10 of your High Fidelity Coins to be paid out to a
 3. Click 'Close', then 'I'm All Set'.
 4. Hold your raffle! In this example, a user with username `steve` has won the raffle.
 5. Use the following ``curl`` command from the command line to dispense the money authorized in (1) to username `steve`:
-   ``curl -X PUT -d authorization_id= <authorization ID from 1> -d coupon_id=<coupon ID from 1>_ -d username=steve https://highfidelity.com/api/v1/commerce/redeem``
+   ``curl -X PUT -d authorization_id="<authorization ID from 1>" -d coupon_id="<coupon ID from 1>" -d username=steve https://highfidelity.com/api/v1/commerce/redeem``
 
 **See Also**
 
