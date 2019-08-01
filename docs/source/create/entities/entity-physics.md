@@ -2,6 +2,16 @@
 
 Your High Fidelity VR experience is made realistic with the help of a [physics engine](https://pybullet.org/wordpress). High Fidelity uses this engine to simulate an object's behavior according to the Newtonian laws of physics. For example, if you hit a ball with a bat in High Fidelity, the physics engine computes these movements and makes the ball spin away from the bat after collision. You can modify an entity's physics behavior using the Create app. 
 
+<div class="admonition note">
+   <p class="admonition-title">Note</p>
+   <p>You can select and edit multiple entities at once. The behavior will be different based on the type of property you'd like to set:</p>
+    <ul>
+        <li>Numbers: When using the slider, an offset will be applied to each of the original values. When typed in, the new value will replace the original values for the selected entities. </li>
+        <li>All other field types (checkboxes, input fields, etc): The new value will replace the original values for the selected entities. </li>
+    </ul>
+</div>
+
+
 **On This Page:**
 
 + [Apply Physics to an Entity](#apply-physics-to-an-entity)
