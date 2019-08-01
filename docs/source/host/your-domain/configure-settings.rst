@@ -59,8 +59,10 @@ Firewall Settings
 Ensure that your firewall settings allow you to run High Fidelity and let other users visit your domain.
 
 1. In your domain server settings, set the Local UDP port value. 'Local UDP Port' is the port that needs to be opened for High Fidelity to let users into your local sandbox. The default value for this port is '40102'.
-2. Open the same port in the firewall settings for your machine.
-3. Add ``interface.exe`` and ``domain-server.exe`` to your firewall settings in your OS.
+2. Configure your firewall settings:
+    
+    * For Windows: In your firewall settings, open the  port 40102, and add 'interface.exe' and 'domain-server.exe' to the list of allowed apps.
+    * For Mac: In your firewall settings, add 'interface.app' (Library > Application Support > Launcher > interface.app)  and 'domain-server.app' and allow incoming connections for those applications. 
 
 
 ^^^^^^^^^^^^^^^^^^^^^^

@@ -4,6 +4,13 @@ Define an Entity's Behavior
 
 An entity's behavior controls its interactions with other entities and avatars in High Fidelity. Can an entity be grabbed, does it collide with other entities and avatars, or can a change in the domain's gravity affect it? You can check and change an entity's behavior by editing its properties.
 
+.. note:: 
+    You can select and edit multiple entities at once. The behavior will be different based on the type of property you'd like to set: 
+
+    * Numbers: When using the slider, an offset will be applied to each of the original values. When typed in, the new value will replace the original values for the selected entities. 
+    * All other field types (checkboxes, input fields, etc): The new value will replace the original values for the selected entities. 
+
+
 .. contents:: On This Page
     :depth: 2
 
