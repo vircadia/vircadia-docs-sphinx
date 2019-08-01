@@ -4,6 +4,13 @@ Change How Entities Look
 
 You can edit an entity's size, color, position and rotation using your mouse or trackpad. To edit an entity, open the `Create app <../tools.html#the-create-app>`_ and either select the entity or find it in the Entity List. 
 
+.. note:: 
+    You can select and edit multiple entities at once. The behavior will be different based on the type of property you'd like to set: 
+
+    * Numbers: When using the slider, an offset will be applied to each of the original values. When typed in, the new value will replace the original values for the selected entities. 
+    * All other field types (checkboxes, input fields, etc): The new value will replace the original values for the selected entities. 
+    
+
 .. image:: _images/select-entity.PNG
 
 .. contents:: On This Page
