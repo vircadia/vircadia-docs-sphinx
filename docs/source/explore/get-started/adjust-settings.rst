@@ -103,6 +103,35 @@ An audio output device produces a signal that drives another device’s input. E
 * Headphones
 * Huge speakers in a movie theater
 
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Acoustic Echo Cancellation 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Acoustic echo is the process by which sounds from your speakers get picked up and transmitted by your microphone, resulting in an echoing effect. This is common when you use High Fidelity with a laptop's built-in microphone and speakers (i.e. an "open mic"), rather than a detached headset.
+
+"Acoustic echo cancellation" is a technology which improves voice quality by preventing the echo that results in open mic setups. By default, Acoustic Echo Cancellation is turned on, and you can turn it off in Settings > Audio.
+
+For best performance with open mic setups, ensure that you:
+
+* Disable any processing and effects on the input and output devices. This includes:
+
+    * On Mac: Turn off 'Ambient noise reduction' (System Preferences > Sound > Input > Use ambient noise reduction)
+    * On Windows: Turn off all 'Enhancements' (Control Panel > Sound > Recording tab > click on your device > Properties button > Enhancements tab)
+
+* On Mac devices, set the balance of the output device to either the left or the right (System Preferences > Sound > Output > Balance)
+* Lower the microphone's physical gain setting to approximately 3/4 of the maximum
+* Lower the speaker's physical volume level to approximately 3/4 of the maximum
+* If you are not using your laptop's audio devices, move and point the microphone away from the speakers
+
+The acoustic echo cancellation technology picks up the sounds around you and attempts to identify the echoing sounds as you use it. This means that it will improve and become more accurate over time. So don't despair if you hear a little bit of echoing...it will lessen as the technology learns your voice and the voices of the people around you! 
+
+To speed up this "learning" process, you can:
+
+* Avoid turning your avatar while talking
+* Leave your microphone muted while another person talks for 10 seconds at a time
+
+
 -----------------------------
 Set Your Perspective
 -----------------------------
