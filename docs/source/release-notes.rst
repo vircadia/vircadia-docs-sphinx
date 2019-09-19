@@ -11,6 +11,7 @@ For historical release notes (prior to Beta Release 80), view `our forum <https:
     :maxdepth: 2
     :titlesonly:
 
+    Beta Release 84 <release-notes/v84>
     Beta Release 83 <release-notes/v83>
     Beta Release 82 <release-notes/v82>
     Beta Release 81 <release-notes/v81>
