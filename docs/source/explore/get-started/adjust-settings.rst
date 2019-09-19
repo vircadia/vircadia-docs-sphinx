@@ -42,25 +42,24 @@ High Fidelity spatializes audio in real-time based on the location of the listen
 | Setting                    | Description                                                                          |
 +============================+======================================================================================+
 | Mute microphone            | Mute or unmute your microphone.                                                      |
-|                            |                                                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Warn when muted            | Enable to receive a warning on your screen when your microphone is muted.            |
-|                            |                                                                                      |
+| HMD Mute Warning (VR)      | Enable to receive a warning when your microphone is muted when wearing a HMD device. |
 +----------------------------+--------------------------------------------------------------------------------------+
 | Noise reduction            | Enable or disable noise reduction.                                                   |
-|                            |                                                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
 | Audio level meter          | By default, the audio level meter is visible on the top left corner of your screen.  |
 |                            | Uncheck this box to hide the meter.                                                  |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Push To Talk (T)           | Enable or disable Push To Talk for other users to hear you when your microphone is   |
-|                            | muted. When enabled, press and hold ``T`` to talk in desktop mode and press both     |
-|                            | triggers on your controllers in VR mode. This feature works only when you are        |
-|                            | focused on the Interface window.                                                     |
+| Echo Cancellation          | Enable or disable `acoustic echo cancellation <#acoustic-echo-cancellation>`_.       |
 +----------------------------+--------------------------------------------------------------------------------------+
 | Stereo input               | Enable or disable stereo input. Stereo reproduces sound using two or more audio      |
 |                            | channels. This means that you will hear sound from various directions, like how you  |
 |                            | would in the real world.                                                             |
++----------------------------+--------------------------------------------------------------------------------------+
+| Push To Talk               | Enable or disable Push To Talk for other users to hear you when your microphone is   |
+|                            | muted. When enabled, press and hold ``T`` to talk in desktop mode and press both     |
+|                            | triggers on your controllers in VR mode. This feature works only when you are        |
+|                            | focused on the Interface window.                                                     |
 +----------------------------+--------------------------------------------------------------------------------------+
 | Choose Input Device        | Choose the microphone or `input device <#input-devices>`_ of your choice from the    |
 |                            | list of devices displayed.                                                           |
@@ -69,7 +68,6 @@ High Fidelity spatializes audio in real-time based on the location of the listen
 |                            | your choice from the list of devices displayed.                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
 | People volume              | Use the slider to increase or decrease the volume of other users in the domain.      |
-|                            |                                                                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
 | Environment volume         | Use the slider to increase or decrease the volume of ambient sound in the domain.    |
 |                            | For example, use this option to decrease the sound of background music or special    |
@@ -78,7 +76,6 @@ High Fidelity spatializes audio in real-time based on the location of the listen
 | System Sound volume        | Use the slider to increase or decrease your UI volume like tablet clicks.            |
 |                            | Changing this value will not affect the People or Environment volume.                |
 +----------------------------+--------------------------------------------------------------------------------------+
-
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -204,9 +201,9 @@ You can make changes to the graphics in High Fidelity.
 |              | improve your performance.                                                              |
 +--------------+----------------------------------------------------------------------------------------+
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Account Security Settings
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can change your account security settings in High Fidelity.
 
