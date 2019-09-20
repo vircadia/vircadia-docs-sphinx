@@ -2,7 +2,11 @@
 Create Your Own Avatar
 ##############################
 
-There are two ways to create your own avatar: you can either create your own from scratch using 3D modeling tools such as Adobe Fuse, Mixamo, and Blender, or you can download an existing avatar from external sources such as TurboSquid or CGTrader. 
+There are three ways to create your own avatar. You can either:
+
+* Create your avatar from scratch using 3D modeling tools such as Adobe Fuse, Mixamo, and Blender
+* Use "Virtual You: 3D Avatar Creator", High Fidelity's app to create a 3D avatar that looks like you in less than five minutes. Download the app from the `Apple <https://apps.apple.com/us/app/virtual-you-3d-avatar-creator/id1456727419?ls=1>`_ or `Google Play <https://play.google.com/store/apps/details?id=io.wolf3d.hifi>`_ stores.
+* Download an existing avatar from external sources such as TurboSquid or CGTrader 
 
 .. note:: If you get an avatar from an external source such as TurboSquid or CGTrader, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with High Fidelity, use the `High Fidelity Avatar Exporter for Unity <find-avatars.html#high-fidelity-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar. 
 
