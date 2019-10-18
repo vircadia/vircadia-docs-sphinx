@@ -9,6 +9,29 @@ We get a lot of questions from our users! If you have questions about our produc
 
 
 -----------------------------
+Installation
+-----------------------------
+
++ `How do I install High Fidelity on Catalina? <#q20>`_
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q20:                                                                                            |
+|                                                                                                     |
+| How do I install and open High Fidelity on Catalina?                                                |
++=====================================================================================================+
+| 1. Download the `High Fidelity installer <https://www.highfidelity.com/download>`_.                 |
+| 2. Once the dmg is downloaded, open the file.                                                       |
+| 3. Agree to the License Agreement.                                                                  |
+| 4. Drag High Fidelity to the Applications folder.                                                   |
+| 5. Open **System Preferences > General**.                                                           |
+| 6. Next to the warning indicating that Interface is blocked, click 'Open Anyway'.                   |
+| 7. Confirm that you want to open the application.                                                   |
+|                                                                                                     |
+| At this point, Interface will open and you should be able to use the application.                   |
++-----------------------------------------------------------------------------------------------------+
+
+
+-----------------------------
 High Fidelity Coin (HFC)
 -----------------------------
 
