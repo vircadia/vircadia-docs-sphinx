@@ -280,6 +280,12 @@ blockquote div > blockquote div > blockquote div > blockquote div > blockquote> 
 
 .wy-plain-list-disc li ul, .rst-content .section ul li ul, .rst-content .toctree-wrapper ul li ul, article ul li ul {
     margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.wy-plain-list-decimal li ul, .rst-content .section ol li ul, .rst-content ol.arabic li ul, article ol li ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .rst-content .section ol li ol {
@@ -333,6 +339,10 @@ li table {
     line-height: 1.5;
 }
 
+.rst-content table.list-table td {
+    vertical-align: top;
+}
+
 .rst-content table.docutils th p {
     margin-bottom: 0;    
 }
@@ -361,4 +371,10 @@ code {
 pre code {
     font-size: 0.8rem;
     line-height: 1.1rem;
+}
+
+.rst-content code.literal {
+    font-family: Consolas;
+    color: #000000;
+    
 }
