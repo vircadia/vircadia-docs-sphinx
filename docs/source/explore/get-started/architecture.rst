@@ -14,7 +14,7 @@ Architecture Overview
 High Fidelity's architecture consists of the following components that work together and send data to each other for your VR experience. 
 
 + The `High Fidelity Interface`_ runs your personal experience in the metaverse. With it, you can :doc:`visit VR worlds <../travel>`, :doc:`meet people <../socialize>`, `attend live events <../socialize.html#attend-live-events>`_ and more.
-+ The `Domain Server`_ is the server that hosts a domain. The domain server :doc:`hosts the content <../../host/manage-assets>` in the domain, and manages the :doc:`domain-wide settings <../../host/your-domain/configure-settings>`, such as audio spatialization, user permissions, and running scripts.
++ The `Domain Server`_ is the server that hosts a domain. The domain server hosts the content in the domain, and manages the :doc:`domain-wide settings <../../host/configure-settings>`, such as audio spatialization, user permissions, and running scripts.
 + The `Global Services`_ connect all of the servers together. These services are maintained by High Fidelity so that you can sign in, move seamlessly between places, and :doc:`purchase items on the Marketplace <../shop>`.
 
 .. image:: _images/overview.png
@@ -41,9 +41,9 @@ Each Interface runs its own physics engine, and the entity server coordinates th
 Domain Server
 ------------------------
 
-A domain is a spatial simulation in High Fidelity that you can visit. It is computed by a stack of programs on one or more computers. You need a domain's :doc:`place name <../../host/place-name>` to visit a domain, just like you would need a web address to visit a website. 
+A domain is a spatial simulation in High Fidelity that you can visit. It is computed by a stack of programs on one or more computers. You need a domain's :doc:`place name <../../host/configure-settings/place-setting>` to visit a domain, just like you would need a web address to visit a website. 
 
-You can :doc:`set up your own domain <../../host/your-domain>` and host it on your local machine or on a cloud server to make it available to other users. Your domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. Everything that you see, hear, and do in your domain is managed by the server stack. 
+You can :doc:`set up your own domain <../../host/server-setup>` and host it on your local machine or on a cloud server to make it available to other users. Your domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. Everything that you see, hear, and do in your domain is managed by the server stack. 
 
 .. image:: _images/domain-server.png
 

@@ -16,4 +16,3 @@ The appearance of a 3D model is controlled by its materials. The materials suppo
     Import Your 3D Model <3d-models/import-model>
     PBR Materials Guide <3d-models/pbr-materials-guide>
     Import Animations <3d-models/import-animations>
-    Tutorial: Create Buildings <3d-models/buildings-tutorial>

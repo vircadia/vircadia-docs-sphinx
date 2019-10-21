@@ -84,7 +84,6 @@ Here are the steps for this tutorial:
 Consider getting familiar with the following concepts before starting this tutorial:
 * [Create New Entities](../create/entities.html)
 * [Get Started with Scripting](get-started-with-scripting.html)
-* [Asset Server](../host/manage-assets.html)
 
 ### Create a Tip Jar in Your Domain
 You need a jar that accepts money. In this simple example, we will use a cube entity as our tip jar. Create your tip jar in the **Create** app:
@@ -133,7 +132,6 @@ Here are the steps for this tutorial:
 Consider getting familiar with the following concepts before starting this tutorial:
 * [Create New Entities](../create/entities.html)
 * [Get Started with Scripting](get-started-with-scripting.html)
-* [Asset Server](../host/manage-assets.html)
 
 ### Place a VIP Zone in Your Domain
 You need an area (or zone) in your domain that will be designated the "VIP Zone". Only users who have paid you 10 HFC in the current server session have access to enter this zone. If the server restarts, users will have to pay for VIP status again.

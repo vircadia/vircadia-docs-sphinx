@@ -87,4 +87,4 @@ Mac Clean Install
 
 **See Also**
 
-+ :doc:`Install Your Domain <../../host/your-domain/install-domain>`
++ :doc:`Install Your Domain <../../host/server-setup>`

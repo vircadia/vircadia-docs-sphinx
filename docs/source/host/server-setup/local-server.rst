@@ -60,7 +60,7 @@ To activate your domain:
 
 This will assign your domain with a permanent, unique identification code that registers it in the metaverse. Your temporary place name will no longer work, and your domain is accessible through its purchased place name or your server's IP address. 
 
-.. note:: If you did not purchase a permanent place name, the only way to access your domain is by your server's IP address. However, note that when your IP address changes, so too will the address of your domain and you will need to manually restart your domain each time you change networks. Therefore, if you are hosting your domain on a laptop or on a computer with a frequently changing IP address, we strongly recommend that you purchase a permanent place name for your domain. :doc:`Learn how to purchase a custom place name for your domain<configure-settings/place-setting>`. 
+.. note:: If you did not purchase a permanent place name, the only way to access your domain is by your server's IP address. However, note that when your IP address changes, so too will the address of your domain and you will need to manually restart your domain each time you change networks. Therefore, if you are hosting your domain on a laptop or on a computer with a frequently changing IP address, we strongly recommend that you purchase a permanent place name for your domain. :doc:`Learn how to purchase a custom place name for your domain <../configure-settings/place-setting>`. 
 
 Now, your domain is officially part of the expanding metaverse! 
 
