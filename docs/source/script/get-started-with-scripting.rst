@@ -78,7 +78,7 @@ Types of Scripts
 Scripting Permissions
 --------------------------------
 
-Each domain owner has the ability to :doc:`restrict create and edit permissions <../host/secure-domain>`. If the script you want to run adds or edits entities and you don't have the permission to do so, you won't see any objects created or changed. However, you will still see the script listed in the Running Scripts window. 
+Each domain owner has the ability to :doc:`restrict create and edit permissions <../host/configure-settings/permission-settings>`. If the script you want to run adds or edits entities and you don't have the permission to do so, you won't see any objects created or changed. However, you will still see the script listed in the Running Scripts window. 
 
 -------------------------------
 Running Scripts Window

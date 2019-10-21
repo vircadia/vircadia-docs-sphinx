@@ -30,7 +30,7 @@ High Fidelity supports the use of the following texture formats:
 * TGA
 * TIFF, TIF 
 
-For best performance, we recommend :doc:`baking all 3D models <../../host/oven>` (including textures) before uploading it to High Fidelity.
+For best performance, we recommend :doc:`baking all 3D models <../../host/add-content/bake-content>` (including textures) before uploading it to High Fidelity.
 
 ^^^^^^^^^^^^^^^^^^^^^^^
 Shading
@@ -120,6 +120,5 @@ Use the graphics below to set the right material values and textures in Maya.
 
 **See Also**
 
-+ :doc:`Bake Your Content Using the Oven <../../host/oven>`
-+ `Bake Content Using the Asset Server <../../host/manage-assets.html#bake-an-asset>`_
++ :doc:`Bake Your Content Using the Oven <../../host/add-content/bake-content>`
 + :doc:`Add a Material Entity <../entities/material-entity>`

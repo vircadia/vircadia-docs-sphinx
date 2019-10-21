@@ -220,4 +220,4 @@ You can change your account security settings in High Fidelity.
 
 **See Also**
 
-+ :doc:`Configure Your Domain Settings <../../host/your-domain/configure-settings>`
++ :doc:`Configure Your Domain Settings <../../host/configure-settings>`
