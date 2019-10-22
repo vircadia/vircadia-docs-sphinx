@@ -27,7 +27,7 @@ With the oven, you can bake the following types of content:
 |           | formats: TGA, TIF, and TIFF.                                                                                 |
 +-----------+--------------------------------------------------------------------------------------------------------------+
 | Materials | Baking a material will produce a .baked.json file and will also bake all of the textures in the              |
-|           | material. Currently, we only support baking a `material entity JSON file <../create/entities/mate            |
+|           | material. Currently, we only support baking a `material entity JSON file <../../create/entities/mate         |
 |           | rial-entity.html#generate-a-material-entity>`_.                                                              |
 +-----------+--------------------------------------------------------------------------------------------------------------+
 | 3D Models | Baking a model will produce a `Draco compressed <https://github.com/google/draco>`_ geometric mesh           |
@@ -39,7 +39,7 @@ With the oven, you can bake the following types of content:
 |           | the following formats: FBX, OBJ, and FST (that points to a supported type).                                  |
 +-----------+--------------------------------------------------------------------------------------------------------------+
 | Avatars   | As avatars are 3D models, you can bake avatars with the same results as above. Use the resulting .baked.fst  |
-|           | file to `host and wear your baked avatar <../create/avatars/package-avatar.html#host-your-avatar>`_.         |
+|           | file to `host and wear your baked avatar <../../create/avatars/package-avatar.html#host-your-avatar>`_.      |
 +-----------+--------------------------------------------------------------------------------------------------------------+
 
 The Oven has two different interfaces: an application and a command line interface. Use the one that best fits your needs.
