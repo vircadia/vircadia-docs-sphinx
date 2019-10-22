@@ -18,7 +18,7 @@ Before you set up a local server, you should have a basic understanding of compu
 * Your system and hardware configuration
 * Your network configuration
 
-At a minimum, the computer that you use for your server should meet our `minimum system requirements <../explore/get-started/install.html#minimum-system-requirements>`_. However, keep in mind that as you add more visitors to your domain, the demand on your resources will increase. Therefore if you wish to invite a large group (over 15 visitors) or create a complex content set, we encourage you to increase your memory and network bandwidth. 
+At a minimum, the computer that you use for your server should meet our `minimum system requirements <../../explore/get-started/install.html#minimum-system-requirements>`_. However, keep in mind that as you add more visitors to your domain, the demand on your resources will increase. Therefore if you wish to invite a large group (over 15 visitors) or create a complex content set, we encourage you to increase your memory and network bandwidth. 
 
 To host a domain, you must be running High Fidelity's open source `Client + Sandbox <https://www.highfidelity.com/download#sandbox>`_ software.
 

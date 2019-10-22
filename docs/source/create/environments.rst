@@ -29,7 +29,7 @@ An environment consists different types of 3D models and a skybox following the 
 +------------------------+-----------------------------------------------------------------------------------------------------+
 | A Content Archive File | High Fidelity domain settings have downloadable content archives. These archives are zip            |
 |                        | files containing all domain content information. You can `use a backup file of your own or one      |
-|                        | sent to you by a user <../host/backup-restore-domain.html#restore-your-domain>`_.                   |
+|                        | sent to you by a user <../host/maintain-domain/backup-domain.html>`_.                               |
 +------------------------+-----------------------------------------------------------------------------------------------------+
 
 **See Also**

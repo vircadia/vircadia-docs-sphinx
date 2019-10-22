@@ -122,7 +122,7 @@ Here are the different clone settings you can configure:
 |                     | locally for each avatar.                                                         |
 +---------------------+----------------------------------------------------------------------------------+
 
-.. note:: A user does not need `create permissions <../../host/secure-domain.html#set-user-permissions>`_ to clone an entity or edit an unlocked entity.
+.. note:: A user does not need `create permissions <../../host/configure-settings/permission-settings>`_ to clone an entity or edit an unlocked entity.
 
 To make entities cloneable in your domain (this can only be done with unlocked entities):
 
@@ -130,14 +130,10 @@ To make entities cloneable in your domain (this can only be done with unlocked e
 2. Select the entity of your choice in the 'Entity List' window. 
 3. Go to the 'Properties' tab, scroll down, and check 'Cloneable'.
 
-Keep in mind that any user can now clone the entities that are cloneable. If you don't want any users to clone your entity or any entities in your domain, you can either:
+Keep in mind that any user can now clone the entities that are cloneable. If you don't want any users to clone your entity or any entities in your domain, you can do one of the following:
 
-1. `Lock any entities <../../host/secure-domain.html#lock-an-entity-in-your-domain>`_ you don't want cloned. 
-2. `Deny lock unlock permissions <../../host/secure-domain.html#set-user-permissions>`_ to the users of your choice. 
-
-OR
-
-1. `Set entity filters <../../host/secure-domain.html#set-an-entity-filter>`_ to prevent users from editing entities in your domain.
+* Lock any entities you don't want cloned, then :doc:`restrict user 'Lock' permissions <../../host/configure-settings/permission-settings>` to the users of your choice.
+* Set entity filters to prevent users from editing entities in your domain.
 
 -------------------------------------
 Set an Entity to Cast a Shadow
