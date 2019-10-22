@@ -122,7 +122,7 @@ Here are the different clone settings you can configure:
 |                     | locally for each avatar.                                                         |
 +---------------------+----------------------------------------------------------------------------------+
 
-.. note:: A user does not need `create permissions <../../host/configure-settings/permission-settings>`_ to clone an entity or edit an unlocked entity.
+.. note:: A user does not need :doc:`create permissions <../../host/configure-settings/permission-settings>` to clone an entity or edit an unlocked entity.
 
 To make entities cloneable in your domain (this can only be done with unlocked entities):
 
