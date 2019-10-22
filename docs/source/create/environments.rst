@@ -36,5 +36,5 @@ An environment consists different types of 3D models and a skybox following the 
 
 + `Shopping the Marketplace <../explore/shop.html#shopping-the-marketplace>`_
 + :doc:`Get Your 3D Model <3d-models/get-model>`
-+ `Import 3D Models Using the Asset Server <3d-models/import-model.html#import-3d-models-using-the-asset-server>`_
-+ `Restore Your Domain <../host/backup-restore-domain.html#restore-your-domain>`_
++ `Import 3D Models Using the Asset Server <3d-models/import-model.html#import-models-from-the-asset-server>`_
++ :doc:`Backup and Restore Your Domain <../host/maintain-domain/backup-domain.html>`
