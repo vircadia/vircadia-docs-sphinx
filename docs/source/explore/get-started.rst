@@ -12,6 +12,7 @@ We know that getting started with a new application can be difficult: installing
 
     Install High Fidelity <get-started/install>
     Understand the Architecture <get-started/architecture>
+    Set Up Your Audio Devices <get-started/setup-audio>
     Use Your VR Equipment <get-started/vr-controls>
     Explore in Desktop Mode <get-started/desktop>
     Adjust Your Settings <get-started/adjust-settings>
