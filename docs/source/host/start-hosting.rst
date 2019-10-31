@@ -13,7 +13,7 @@ Overview of Hosting
 
 High Fidelity's hosting interface consists of the following components that work together to create an immersive VR experience for your visitors:
 
-* The *Sandbox* is a testing environment for you to design your content set in an offline setting. However, it is possible to link your Sandbox to a local server, so that it is "live" in your domain. Sandbox is an application installed from High Fidelity.
+* The *Sandbox* is a testing environment hosted locally on your computer that gives you a space to play around and build content without affecting any domains in the metaverse. Note that it is possible to configure High Fidelity so that your Sandbox is also a registered domain that is hosted directly from your local computer. The Sandbox application can be download from the `High Fidelity website <https://www.highfidelity.com/download#sandbox>`_.
 * A *domain* is a registered location in the metaverse. Each domain is assigned a unique ID to identify it. You can sign up for a new domain in one of two ways: either by setting up a High Fidelity server or by logging into your account via the High Fidelity website.
 * A *server* hosts a domain, and processes incoming network requests for the domain. The server for your domain is either a physical computer or a cloud-hosted server.
 * A *droplet* or *cloud domain* is a cloud server hosted by our partner, DigitalOcean.
