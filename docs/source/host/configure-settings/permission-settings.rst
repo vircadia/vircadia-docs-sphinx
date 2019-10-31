@@ -103,7 +103,7 @@ The actions that you can secure for each type of user are as follows:
 | Ignore Max Capacity     | Sets whether a user can enter a domain even if it has reached or exceeded    |
 |                         | the specified capacity limit.                                                |
 +-------------------------+------------------------------------------------------------------------------+
-| Kick Users              | Sets whether a user is allowed to remove other users from a domain.          |
+| Kick Users              | Sets whether a user is allowed to ban other users from a domain.             |
 +-------------------------+------------------------------------------------------------------------------+
 | Replace Content         | Sets whether a user can change the entire content set of a domain by wiping  |
 |                         | the existing content.                                                        |
