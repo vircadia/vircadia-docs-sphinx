@@ -294,3 +294,33 @@ Buy from the Marketplace
 | violation, and we will take appropriate action.                                                     |
 +-----------------------------------------------------------------------------------------------------+
 
+
+
+------------------------------
+Domain Hosting
+------------------------------
+
++ `How do I get into my domain settings if I set up authentication but forgot my username and/or password? <#21>`_
+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q21:                                                                                            |
+|                                                                                                     |
+| How do I get into my domain settings if I set up `authentication <host/configure-settings/authentic |
+| ation-setting.html>`_ but forgot my username and/or password?                                       |
++=====================================================================================================+
+| For cloud domains, you can reset the username and password to a temporary one through your High     |
+| Fidelity account settings. To do so, go to https://metaverse.highfidelity.com/user/cloud_domains    |
+| and log in if prompted. Click the "More Options" menu (3 dots on the right-side of the row), then   |
+| click 'Reset Domain Server password'. Once the username and password are reset, log in to your      |
+| domain settings with the temporary credentials. We recommend `setting a new username and password   |
+| <host/configure-settings/authentication-setting.html>`_ at this time.                               |
+|                                                                                                     |
+| For local servers, the authentication settings for your domain are encrypted into a configuration   |
+| file on the local server's file system. To "reset" the authentication settings, you need to         |
+| manually remove the HTTP security settings ('http_password' and 'http_username') from config.json.  |
+| The config file is stored on the server in the following directories:                               |
+|                                                                                                     |
+| * **Windows**: %AppData%/Roaming/High Fidelity/domain-server                                        |
+| * **Mac**: ~/Library/Application Support/High Fidelity/domain-server                                |
++-----------------------------------------------------------------------------------------------------+
