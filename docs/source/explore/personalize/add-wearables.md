@@ -11,7 +11,7 @@ We and our users have designed many wearables that are available for your use in
 
 1. In Interface, pull up your Tablet or HUD and go to **Market**.
 2. Search for a specific wearable, or browse all wearables by selecting the 'Wearables' category.
-3. Click on any one you like and hit 'Get' (for free items) or 'Buy' (for purchased wearables).![](_images/get-wearable.png)
+3. Click on any one you like and click the price to buy. ![](_images/get-wearable.png)
 4. After completing your purchase, click 'Wear' to put on your new wearable.
 
 ## Wear Your Own Wearable

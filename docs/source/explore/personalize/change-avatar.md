@@ -28,7 +28,7 @@ To get an avatar from the Marketplace:
 
 1. In Interface, pull up your Tablet or HUD and go to **Market**. 
 2. Search for avatars, or look for avatars under 'Categories'. ![](_images/market-avatar.PNG)
-3. You'll see a list of avatars of different designs available. Click on any one you like and hit 'Get' (for free items) or 'Buy' (for purchased avatars). ![](_images/avatars.PNG)
+3. You'll see a list of avatars of different designs available. Click on any one you like and click the price to buy. ![](_images/avatars.PNG)
 4. After completing your purchase, click 'Wear' to switch to your new avatar. 
 
 ## Use Your Own Custom Avatar
