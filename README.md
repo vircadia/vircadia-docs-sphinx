@@ -56,3 +56,15 @@ We encourage you to compile the documentation locally on your computer prior to 
     C:\> pip install sphinx_rtd_theme
     ```
                
+## Compile HiFi Documentation Locally
+
+1. Fork and clone https://github.com/highfidelity/hifi-docs-sphinx.
+2. Using a command line, cd to your local repository, then the docs folder.
+3. Compile with the command `make html`.
+
+The HTML output will be in build\html. Open index.html in a browser to view docs.
+
+
+## Using RST 
+
+Most of our docs use RST. reStructuredText (RST) is the default plaintext markup language used by Sphinx. It is an extensible markup language, that is fully customizable. However, we don't (yet) have need of this, and will stick with the default set of directives for High Fidelity's documentation. To learn more, refer to Sphinx's [reStructuredText Primer](https://www.sphinx-doc.org/en/2.0/usage/restructuredtext/basics.html).
