@@ -19,7 +19,7 @@ We and many users have created tablet apps that are available in High Fidelity's
 
 1. In Interface, pull up your HUD or Tablet and go to **Market**.
 2. Search for a specific app, or browse all apps by selecting the 'Apps, Scripts, & Tools' category.
-3. Click the app of your choice to purchase it and hit 'Get' (for free items) or 'Buy' (for purchased apps). Once you've purchased your app, you can view it in the **Inventory** app or 'Recent Activity'. 
+3. Click the app of your choice to purchase it and click the price of the item. Once you've purchased your app, you can view it in the **Inventory** app or 'Recent Activity'. 
 4. After completing your purchase, click 'Install App' to start using the app in High Fidelity.
 5. Once the app is installed, click 'Open App' to launch. You can also access the app through your HUD or Tablet.
 
