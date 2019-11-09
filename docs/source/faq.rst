@@ -306,21 +306,49 @@ Domain Hosting
 +-----------------------------------------------------------------------------------------------------+
 | .. _q21:                                                                                            |
 |                                                                                                     |
-| How do I get into my domain settings if I set up `authentication <host/configure-settings/authentic |
-| ation-setting.html>`_ but forgot my username and/or password?                                       |
+| How do I get into my domain settings if I set up `authentication                                    |
+| <host/configure-settings/authentication-setting.html>`_ but forgot my username and/or password?     |
 +=====================================================================================================+
-| For cloud domains, you can reset the username and password to a temporary one through your High     |
-| Fidelity account settings. To do so, go to https://metaverse.highfidelity.com/user/cloud_domains    |
-| and log in if prompted. Click the "More Options" menu (3 dots on the right-side of the row), then   |
-| click 'Reset Domain Server password'. Once the username and password are reset, log in to your      |
-| domain settings with the temporary credentials. We recommend `setting a new username and password   |
-| <host/configure-settings/authentication-setting.html>`_ at this time.                               |
+| * For cloud domains, you can reset the username and password to a temporary one through your High   |
+|   Fidelity account settings. To do so, go to https://metaverse.highfidelity.com/user/cloud_domains  |
+|   and log in if prompted. Click the "More Options" menu (3 dots on the right-side of the row), then |
+|   click 'Reset Domain Server password'. Once the username and password are reset, log in to your    |
+|   domain settings with the temporary credentials. We recommend `setting a new username and password |
+|   <host/configure-settings/authentication-setting.html>`_ at this time.                             |
+| * For local servers, the authentication settings for your domain are encrypted into a configuration |
+|   file on the local server's file system. To 'reset' the authentication settings, you need to       |
+|   manually remove the HTTP security settings ('http_password' and 'http_username') from             |
+|   config.json. The config file is stored on the server in the following directories:                |
 |                                                                                                     |
-| For local servers, the authentication settings for your domain are encrypted into a configuration   |
-| file on the local server's file system. To "reset" the authentication settings, you need to         |
-| manually remove the HTTP security settings ('http_password' and 'http_username') from config.json.  |
-| The config file is stored on the server in the following directories:                               |
+|     * **Windows**: %AppData%/Roaming/High Fidelity/domain-server                                    |
+|     * **Mac**: ~/Library/Application Support/High Fidelity/domain-server                            |
++-----------------------------------------------------------------------------------------------------+
+
+
+
+------------------------------
+Troubleshooting
+------------------------------
+
++ `Why can't I connect to a domain? <#22>`_
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q22:                                                                                            |
 |                                                                                                     |
-| * **Windows**: %AppData%/Roaming/High Fidelity/domain-server                                        |
-| * **Mac**: ~/Library/Application Support/High Fidelity/domain-server                                |
+| Why can't I connect to a domain?                                                                    |
++=====================================================================================================+
+| If you cannot connect to your virtual workplace, follow these steps to resolve the issue:           |
+|                                                                                                     |
+| 1. Check your internet connection, and ensure that your bandwidth is at least 10Mbps download,      |
+|    2Mbps upload.                                                                                    |
+| 2. You may not have permissions to enter the domain. If you know the domain owner, contact them to  |
+|    gain access to the domain.                                                                       |
+| 3. Ensure that your firewall settings allow you to run High Fidelity.                               |
+|                                                                                                     |
+|      * For Windows: In your firewall settings, open the  port 40102, and add 'interface.exe' to the |
+|        list of allowed apps.                                                                        |
+|      * For Mac: In your firewall settings, add 'interface.app' (**Library > Application Support >   |
+|        Launcher > interface.app**) and allow incoming connections for that application.             |
++-----------------------------------------------------------------------------------------------------+
+
 +-----------------------------------------------------------------------------------------------------+
