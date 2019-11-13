@@ -306,21 +306,121 @@ Domain Hosting
 +-----------------------------------------------------------------------------------------------------+
 | .. _q21:                                                                                            |
 |                                                                                                     |
-| How do I get into my domain settings if I set up `authentication <host/configure-settings/authentic |
-| ation-setting.html>`_ but forgot my username and/or password?                                       |
+| How do I get into my domain settings if I set up `authentication                                    |
+| <host/configure-settings/authentication-setting.html>`_ but forgot my username and/or password?     |
 +=====================================================================================================+
-| For cloud domains, you can reset the username and password to a temporary one through your High     |
-| Fidelity account settings. To do so, go to https://metaverse.highfidelity.com/user/cloud_domains    |
-| and log in if prompted. Click the "More Options" menu (3 dots on the right-side of the row), then   |
-| click 'Reset Domain Server password'. Once the username and password are reset, log in to your      |
-| domain settings with the temporary credentials. We recommend `setting a new username and password   |
-| <host/configure-settings/authentication-setting.html>`_ at this time.                               |
+| * For cloud domains, you can reset the username and password to a temporary one through your High   |
+|   Fidelity account settings. To do so, go to https://metaverse.highfidelity.com/user/cloud_domains  |
+|   and log in if prompted. Click the "More Options" menu (3 dots on the right-side of the row), then |
+|   click 'Reset Domain Server password'. Once the username and password are reset, log in to your    |
+|   domain settings with the temporary credentials. We recommend `setting a new username and password |
+|   <host/configure-settings/authentication-setting.html>`_ at this time.                             |
+| * For local servers, the authentication settings for your domain are encrypted into a configuration |
+|   file on the local server's file system. To 'reset' the authentication settings, you need to       |
+|   manually remove the HTTP security settings ('http_password' and 'http_username') from             |
+|   config.json. The config file is stored on the server in the following directories:                |
 |                                                                                                     |
-| For local servers, the authentication settings for your domain are encrypted into a configuration   |
-| file on the local server's file system. To "reset" the authentication settings, you need to         |
-| manually remove the HTTP security settings ('http_password' and 'http_username') from config.json.  |
-| The config file is stored on the server in the following directories:                               |
+|     * **Windows**: %AppData%/Roaming/High Fidelity/domain-server                                    |
+|     * **Mac**: ~/Library/Application Support/High Fidelity/domain-server                            |
++-----------------------------------------------------------------------------------------------------+
+
+
+
+------------------------------
+Troubleshooting
+------------------------------
+
++ `Why can't I connect to a domain? <#22>`_
++ `No one can hear me! <#23>`_
++ `I can't hear anything in High Fidelity <#24>`_
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q22:                                                                                            |
 |                                                                                                     |
-| * **Windows**: %AppData%/Roaming/High Fidelity/domain-server                                        |
-| * **Mac**: ~/Library/Application Support/High Fidelity/domain-server                                |
+| Why can't I connect to a domain?                                                                    |
++=====================================================================================================+
+| If you cannot connect to your virtual workplace, follow these steps to resolve the issue:           |
+|                                                                                                     |
+| 1. Check your internet connection, and ensure that your bandwidth is at least 10Mbps download,      |
+|    2Mbps upload.                                                                                    |
+| 2. You may not have permissions to enter the domain. If you know the domain owner, contact them to  |
+|    gain access to the domain.                                                                       |
+| 3. Ensure that your firewall settings allow you to run High Fidelity.                               |
+|                                                                                                     |
+|      * For Windows: In your firewall settings, open the  port 40102, and add 'interface.exe' to the |
+|        list of allowed apps.                                                                        |
+|      * For Mac: In your firewall settings, add 'interface.app' (**Library > Application Support >   |
+|        Launcher > interface.app**) and allow incoming connections for that application.             |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q23:                                                                                            |
+|                                                                                                     |
+| No one can hear me!                                                                                 |
++=====================================================================================================+
+| If other users in the domain can't hear you, then you are likely muted or your microphone gain is   |
+| set too low. Here are some steps to troubleshoot your issue:                                        |
+|                                                                                                     |
+| 1. **Are you muted in High Fidelity?** When logged in, check the upper left corner. If you're       |
+|    muted, click the microphone to un-mute yourself.                                                 |
+| 2. **Is your physical output device muted or turned off?** Some headsets and microphones have a     |
+|    'Power' and/or 'Mute' switch directly on the device itself. This setting is completely           |
+|    independent of High Fidelity's mute option, so even if you're not muted in High Fidelity, your   |
+|    device itself may not be turned on or the mute button may have been pressed.                     |
+|                                                                                                     |
+|    .. image:: explore/_images/headsets.png                                                          |
+|                                                                                                     |
+| 3. **Is your mic muted or disabled on your computer?** Lastly, your device might be muted or        |
+|    disabled by your operating system. Check your operating system's input device settings:          |
+|                                                                                                     |
+|     a. On Windows, go to **Control Panel > Sound > Recording** tab. Choose the device you are using |
+|        with High Fidelity and click 'Properties'. On the 'Levels' tab, check the icon next to the   |
+|        volume meter. The microphone icon will tell you whether your headset/microphone is           |
+|        muted. If you're muted, click the icon to un-mute yourself.                                  |
+|     b. On Mac, go to **System Preferences > Sound > Input** tab. Choose the device you are using    |
+|        with High Fidelity. If the 'Input volume' is turned all of the way down, then your input     |
+|        device is disabled. Turn up the input volume to re-enable your microphone.                   |
+| 4. **Have you allowed High Fidelity access to the microphone?** Some operating systems require you  |
+|    to give explicit permission to apps to take advantage of specific hardware or software           |
+|    capabilities on your computer. Check your microphone permissions in your operating system        |
+|    settings:                                                                                        |
+|                                                                                                     |
+|     a. On Windows, go to **Settings > Privacy > Microphone**. Make sure that 'Allow desktop apps to |
+|        access your microphone' is turned on.                                                        |
+|     b. On Mac, go to **System Preferences > Security & Privacy > Privacy**, then select             |
+|        'Microphone'. Ensure that the checkbox next to High Fidelity is selected.                    |
+|                                                                                                     |
+| If your input device is turned on, and you are not muted in the application, device, or operating   |
+| system, then it is likely that your microphone volume needs to be adjusted or boosted. This is done |
+| in your operating system settings:                                                                  |
+|                                                                                                     |
+| * On Windows, go to **Control Panel > Sound > Recording** tab. Choose the device you are using with |
+|   High Fidelity and click 'Properties'. On the 'Levels' tab, adjust the 'Microphone Level' and/or   |
+|   'Microphone Boost'.                                                                               |
+| * On Mac, go to **System Preferences > Sound > Input** tab. Choose the device you are using with    |
+|   High Fidelity and adjust the 'Input volume'.                                                      | 
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q24:                                                                                            |
+|                                                                                                     |
+| I can't hear anything in High Fidelity.                                                             |
++=====================================================================================================+
+| Here are some reasons you might not have audio:                                                     |
+|                                                                                                     |
+| * Your headset or speakers are turned off.                                                          |
+| * Your headset or speakers may be muted or disabled by your operating system. Check your operating  |
+|   system's output device settings:                                                                  |
+|                                                                                                     |
+|     * On Windows, click the volume icon in the taskbar and select your audio device. The speaker    |
+|       icon will tell you whether or not your headset or speakers are disabled. Click the icon to    |
+|       un-mute yourself.                                                                             |
+|     * On Mac, go to **System Preferences > Sound > Output** tab. Choose the device you are using    |
+|       with High Fidelity. At the bottom of the dialog, uncheck 'Mute' to un-mute yourself.          |
+| * Your headset or speakers have a volume control of their own. Check that the volume is turned up   |
+|   on the device.                                                                                    |
+| * In High Fidelity, you have a different audio device selected than the one you want to use. Open   |
+|   the **Audio** app and make sure the right headset, speakers, and/or microphone are selected.      |
+| * Volume is turned down or off in High Fidelity. Open the **Audio** app and check your volume       |
+|   settings.                                                                                         |
 +-----------------------------------------------------------------------------------------------------+
