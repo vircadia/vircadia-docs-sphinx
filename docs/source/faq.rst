@@ -402,19 +402,13 @@ Troubleshooting
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q23:                                                                                            |
+| .. _q24:                                                                                            |
 |                                                                                                     |
 | I can't hear anything in High Fidelity.                                                             |
 +=====================================================================================================+
 | Here are some reasons you might not have audio:                                                     |
 |                                                                                                     |
 | * Your headset or speakers are turned off.                                                          |
-| * In High Fidelity, you have a different audio device selected than the one you want to use. Open   |
-|   the **Audio** app and make sure the right headset, speakers, and/or microphone are selected.      |
-| * Volume is turned down or off in High Fidelity. Open the **Audio** app and check your volume       |
-|   settings.                                                                                         |
-| * Your headset or speakers have a volume control of their own. Check that the volume is turned up   |
-|   on the device.                                                                                    |
 | * Your headset or speakers may be muted or disabled by your operating system. Check your operating  |
 |   system's output device settings:                                                                  |
 |                                                                                                     |
@@ -423,4 +417,10 @@ Troubleshooting
 |       un-mute yourself.                                                                             |
 |     * On Mac, go to **System Preferences > Sound > Output** tab. Choose the device you are using    |
 |       with High Fidelity. At the bottom of the dialog, uncheck 'Mute' to un-mute yourself.          |
+| * Your headset or speakers have a volume control of their own. Check that the volume is turned up   |
+|   on the device.                                                                                    |
+| * In High Fidelity, you have a different audio device selected than the one you want to use. Open   |
+|   the **Audio** app and make sure the right headset, speakers, and/or microphone are selected.      |
+| * Volume is turned down or off in High Fidelity. Open the **Audio** app and check your volume       |
+|   settings.                                                                                         |
 +-----------------------------------------------------------------------------------------------------+
