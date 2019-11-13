@@ -330,9 +330,9 @@ Domain Hosting
 Troubleshooting
 ------------------------------
 
-+ `Why can't I connect to a domain? <#22>`_
-+ `No one can hear me! <#23>`_
-+ `I can't hear anything in High Fidelity <#24>`_
++ `Why can't I connect to a domain? <#q22>`_
++ `No one can hear me! <#q23>`_
++ `I can't hear anything in High Fidelity <#q24>`_
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _q22:                                                                                            |
