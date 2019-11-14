@@ -32,6 +32,27 @@ Installation
 
 
 -----------------------------
+Content Creation
+-----------------------------
+
++ `What audio and video codecs do you support? <#q26>`_
+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q26:                                                                                            |
+|                                                                                                     |
+| What video codecs do you support?                                                                   |
++=====================================================================================================+
+| We support the following video codecs:                                                              |
+|                                                                                                     |
+| * WebM VP8                                                                                          |
+| * H.264, WebM                                                                                       |
+| * WebM, H.264                                                                                       |
++-----------------------------------------------------------------------------------------------------+
+
+
+
+-----------------------------
 High Fidelity Coin (HFC)
 -----------------------------
 
@@ -115,6 +136,84 @@ High Fidelity Coin (HFC)
 | The minimum amount of HFC that you cash out is $25 (or 2,500 HFC), and the maximum cashout value    |
 | is $2000 (or 200,000 HFC) per calendar month. High Fidelity may, at its discretion, issue the       | 
 | occasional exception to the maximum cashout amount.                                                 |
++-----------------------------------------------------------------------------------------------------+
+
+
+-----------------------------------
+Buy from the Marketplace
+-----------------------------------
+
++ `The Marketplace content I purchased has disappeared. Where did it go? <#q9>`_
++ `Can I rez multiple copies of a Marketplace item? <#q10>`_
++ `What is Dynamic Domain Verification (DDV)? <#q11>`_
++ `What happens to my Marketplace content when I change my domain ID? <#q12>`_
++ `What happens to my Marketplace content when I export a backup to another domain? <#q13>`_
++ `How do I report a DMCA violation? <#q14>`_
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q9:                                                                                             |
+|                                                                                                     |
+| The Marketplace content I purchased has disappeared. Where did it go?                               |
++=====================================================================================================+
+| Marketplace items behave like items in the real world. You can have only one copy of each item you  |
+| purchase. An item you bought from the Marketplace will disappear if you rez it elsewhere. This is   |
+| done using a process called `Dynamic Domain Verification (DDV) <#q11>`_.                            |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q10:                                                                                            |
+|                                                                                                     |
+| Can I rez multiple copies of a Marketplace item?                                                    |
++=====================================================================================================+
+| Yes, only if the seller has given permission to do so. A seller can modify settings to allow        |
+| users to `rez multiple copies <sell/add-item.html#unlimited-rezzing-of-your-item>`_ of their item   |
+| in a single domain. Otherwise, you will need to buy multiple copies of the item.                    |
+| Marketplace items behave like items in the real world. You can have only one copy of each item you  |
+| purchase unless specified by the seller.                                                            |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q11:                                                                                            |
+|                                                                                                     |
+| What is Dynamic Domain Verification (DDV)?                                                          |
++=====================================================================================================+
+| Dynamic Domain Verification (DDV) is a process running on your domain, which ensures that you can   |
+| rez only one copy of each item purchased on the Marketplace. This is done to protect the            |
+| intellectual property rights of the creators. DDV will determine if an item has been moved to a new |
+| domain and will remove it from the old domain. DDV requires the domain to be running and will       |
+| delete items from domains with no Place or domain name. Temporary names are accepted.               |
+| DDV often runs within an hour after you rez a Marketplace item again. Its frequency is controlled   |
+| by the domain's control panel.                                                                      |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q12:                                                                                            |
+|                                                                                                     |
+| What happens to my Marketplace content when I change my domain ID?                                  |
++=====================================================================================================+
+| When you change your domain ID, it's the same as creating a new domain. Even though the existing    |
+| content may temporarily appear in the new domain, the system considers the Marketplace items as     |
+| existing on the old domain. DDV will remove the Marketplace items from the new domain. You will     |
+| have to rez the items again in the new domain.                                                      |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q13:                                                                                            |
+|                                                                                                     |
+| What happens to my Marketplace content when I export a backup to another domain?                    |
++=====================================================================================================+
+| When you restore a backup or exported domain onto a new server with a different domain ID, DDV will |
+| consider the Marketplace item as belonging to the old domain, and will delete them from the new     |
+| domain. You will have to rez the Marketplace items again in the new domain.                         |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _q14:                                                                                            |
+|                                                                                                     |
+| How do I report a DMCA violation?                                                                   |
++=====================================================================================================+
+| Email us at `support@highfidelity.com <mailto:support@highfidelity.com>`_ to report content         |
+| violation, and we will take appropriate action.                                                     |
 +-----------------------------------------------------------------------------------------------------+
 
 
@@ -213,85 +312,6 @@ Sell on the Marketplace
 | What are the rules for submitting content to the Marketplace?                                       |
 +=====================================================================================================+
 | Please refer to our :doc:`Marketplace Submission Rules <sell/submission-rules>`.                    |
-+-----------------------------------------------------------------------------------------------------+
-
-
-
------------------------------------
-Buy from the Marketplace
------------------------------------
-
-+ `The Marketplace content I purchased has disappeared. Where did it go? <#q9>`_
-+ `Can I rez multiple copies of a Marketplace item? <#q10>`_
-+ `What is Dynamic Domain Verification (DDV)? <#q11>`_
-+ `What happens to my Marketplace content when I change my domain ID? <#q12>`_
-+ `What happens to my Marketplace content when I export a backup to another domain? <#q13>`_
-+ `How do I report a DMCA violation? <#q14>`_
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q9:                                                                                             |
-|                                                                                                     |
-| The Marketplace content I purchased has disappeared. Where did it go?                               |
-+=====================================================================================================+
-| Marketplace items behave like items in the real world. You can have only one copy of each item you  |
-| purchase. An item you bought from the Marketplace will disappear if you rez it elsewhere. This is   |
-| done using a process called `Dynamic Domain Verification (DDV) <#q11>`_.                            |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q10:                                                                                            |
-|                                                                                                     |
-| Can I rez multiple copies of a Marketplace item?                                                    |
-+=====================================================================================================+
-| Yes, only if the seller has given permission to do so. A seller can modify settings to allow        |
-| users to `rez multiple copies <sell/add-item.html#unlimited-rezzing-of-your-item>`_ of their item   |
-| in a single domain. Otherwise, you will need to buy multiple copies of the item.                    |
-| Marketplace items behave like items in the real world. You can have only one copy of each item you  |
-| purchase unless specified by the seller.                                                            |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q11:                                                                                            |
-|                                                                                                     |
-| What is Dynamic Domain Verification (DDV)?                                                          |
-+=====================================================================================================+
-| Dynamic Domain Verification (DDV) is a process running on your domain, which ensures that you can   |
-| rez only one copy of each item purchased on the Marketplace. This is done to protect the            |
-| intellectual property rights of the creators. DDV will determine if an item has been moved to a new |
-| domain and will remove it from the old domain. DDV requires the domain to be running and will       |
-| delete items from domains with no Place or domain name. Temporary names are accepted.               |
-| DDV often runs within an hour after you rez a Marketplace item again. Its frequency is controlled   |
-| by the domain's control panel.                                                                      |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q12:                                                                                            |
-|                                                                                                     |
-| What happens to my Marketplace content when I change my domain ID?                                  |
-+=====================================================================================================+
-| When you change your domain ID, it's the same as creating a new domain. Even though the existing    |
-| content may temporarily appear in the new domain, the system considers the Marketplace items as     |
-| existing on the old domain. DDV will remove the Marketplace items from the new domain. You will     |
-| have to rez the items again in the new domain.                                                      |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q13:                                                                                            |
-|                                                                                                     |
-| What happens to my Marketplace content when I export a backup to another domain?                    |
-+=====================================================================================================+
-| When you restore a backup or exported domain onto a new server with a different domain ID, DDV will |
-| consider the Marketplace item as belonging to the old domain, and will delete them from the new     |
-| domain. You will have to rez the Marketplace items again in the new domain.                         |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q14:                                                                                            |
-|                                                                                                     |
-| How do I report a DMCA violation?                                                                   |
-+=====================================================================================================+
-| Email us at `support@highfidelity.com <mailto:support@highfidelity.com>`_ to report content         |
-| violation, and we will take appropriate action.                                                     |
 +-----------------------------------------------------------------------------------------------------+
 
 
