@@ -35,6 +35,34 @@ You can download High Fidelity through Oculus store, Steam, or High Fidelity's w
 
 If you intend to use High Fidelity in VR mode with a HMD, ensure that Steam VR is also installed on your system before launching High Fidelity. 
 
+
+---------------------------------
+Install High Fidelity
+---------------------------------
+
+Once you've downloaded the installer, you're ready to install High Fidelity. The process will be different based on your operating system:
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Windows Install
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To install on Windows, simply double-click on the downloaded installer file to open it. Run through the prompts on the installer. Once you finish the install process, Interface will open, and you will be able to log in and begin exploring the metaverse.
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Mac Install
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+At this time, the High Fidelity installer for Mac is unsigned, so you will need give the OS permission to install and the application. 
+
+1. Open the downloaded installer dmg file.
+2. Agree to the License Agreement.                                                             
+3. Drag High Fidelity to the Applications folder.                                               
+4. Open **System Preferences > General**.                                                        
+5. Next to the warning indicating that Interface is blocked, click 'Open Anyway'.                
+6. Confirm that you want to open the application.                                                 
+
+At this point, Interface will open and you will be able to log in and begin exploring the metaverse.
+
 ----------------------------
 Upgrade High Fidelity
 ----------------------------
