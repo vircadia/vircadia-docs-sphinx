@@ -300,7 +300,8 @@ Buy from the Marketplace
 Domain Hosting
 ------------------------------
 
-+ `How do I get into my domain settings if I set up authentication but forgot my username and/or password? <#21>`_
++ `How do I get into my domain settings if I set up authentication but forgot my username and/or password? <#q21>`_
++ `Why do Marketplace items keep disappearing from my domain? <#q25>`_
 
 
 +-----------------------------------------------------------------------------------------------------+
@@ -324,7 +325,31 @@ Domain Hosting
 |     * **Mac**: ~/Library/Application Support/High Fidelity/domain-server                            |
 +-----------------------------------------------------------------------------------------------------+
 
-
++-----------------------------------------------------------------------------------------------------+
+| .. _q25:                                                                                            |
+|                                                                                                     |
+| Why do Marketplace items keep disappearing from my domain?                                          |
++=====================================================================================================+
+| There are two types of items you can purchase from the Marketplace: single items and unlimited      |
+| items.                                                                                              |
+|                                                                                                     |
+| * When you purchase a **single item**, you are purchasing only one of that item. This means that    |
+|   you can only have one copy of the item rezz'd at any point in time. As soon as you rez another    |
+|   instance of the item, all other instances of the same item disappear.                             |
+| * When you purchase an **unlimited item**, you can rez unlimited copies of that item *in the same   |
+|   domain*. However, as soon as you rez that same purchased item in a different domain, all earlier  |
+|   instances will disappear.                                                                         |
+|                                                                                                     |
+| For both types of items, if you need to rez more copies of a purchased item, then you will need to  |
+| purchase the item again from the Marketplace.                                                       |
+|                                                                                                     |
+| .. note:: Your Sandbox and your locally hosted domain are considered two different "domains" - one  |
+|    is an environment on your local computer and the other is a live domain in the metaverse. To     |
+|    prevent content from disappearing from your domain, we recommend that you **never** add          |
+|    purchased Marketplace content to a locally hosted domain via your Sandbox. Instead, go to your   |
+|    domain via the GoTo app and rez your purchased items while visiting it by its place name or IP   |
+|    address.                                                                                         | 
++-----------------------------------------------------------------------------------------------------+
 
 ------------------------------
 Troubleshooting
