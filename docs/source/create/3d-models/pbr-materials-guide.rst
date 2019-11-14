@@ -38,6 +38,8 @@ Shading
 
 Since High Fidelity supports PBR materials, the shading used depicts an accurate representation of a how light interacts with different material surfaces. This means that your 3D model will not look the same under different light settings. The PBR shader has a set of material parameters or channels that can be modified to create different types of materials.
 
+.. note:: You can combine shaders with material entities on shape and zone entities to apply shaders to models and avatars. This feature was released as an **experimental feature** and has not been thoroughly tested through our normal channels. If you wish to try applying procedural materials to models or avatars *at your own risk*, then you can find more information at :doc:`Procedural Shaders for Models and Avatars <procedural-shaders>`.
+
 **Material Channels**
 
 Material channels determine various parameters such as the roughness or color of a material. You can determine the value of each channel in two ways:
