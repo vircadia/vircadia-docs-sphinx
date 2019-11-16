@@ -330,8 +330,7 @@ Domain Hosting
 |    copy will immediately be removed.                                                                |
 | 2. Some items are "unlimited", meaning that you can rez as many as you'd like *in the same domain*. |
 |    However, as soon as you rez that same purchased item in a different domain, all earlier          |
-|    instances will disappear. Unlimited items are clearly marked in the Marketplace. When in use,    |
-|    the **Inventory** app will list the domain that your item is rezzed in.
+|    instances will disappear.                                                                        |
 | 3. All purchased content is protected to a single domain that is identified by its domain ID, not   |
 |    its place name. This means that if you move your content to a different domain and fire up the   |
 |    new domain (same place name, but now it has a different domain ID), it will not match the        |
