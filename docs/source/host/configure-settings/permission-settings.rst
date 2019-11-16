@@ -109,6 +109,10 @@ The actions that you can secure for each type of user are as follows:
 |                         | the existing content.                                                        |
 +-------------------------+------------------------------------------------------------------------------+
 | Can Get and Set Private | Sets whether a user can access and write to the 'Private User Data' property |
-| User Data               | of entities in the domain.                                                   |
+| User Data               | of entities in the domain. Private user data is a property of entities that  |
+|                         | can only be set and retrieved through scripting via the ``privateUserData``  |
+|                         | property of the `EntityProperties                                            |
+|                         | <https://apidocs.highfidelity.com/Entities.html#.EntityProperties>`_ type    |
+|                         | definition.                                                                  |
 +-------------------------+------------------------------------------------------------------------------+
 

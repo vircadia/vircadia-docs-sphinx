@@ -53,7 +53,9 @@ Acoustic Echo Cancellation
 
 Acoustic echo is the process by which sounds from your speakers get picked up and transmitted by your microphone, resulting in an echoing effect. This is common when you use High Fidelity with a laptop's built-in microphone and speakers (i.e. an "open mic"), rather than a detached headset.
 
-"Acoustic echo cancellation" is a technology which improves voice quality by preventing the echo that results in open mic setups. By default, Acoustic Echo Cancellation is turned on, and you can turn it off in Settings > Audio.
+"Acoustic echo cancellation" is a technology which improves voice quality by preventing the echo that results in open mic setups. By default, acoustic echo cancellation is turned on, and you can turn it off in the **Audio** app.
+
+.. note:: Acoustic echo cancellation will not run when using input devices with high sample rates (greater than 96khz) or more than 2 channels.
 
 For best performance with open mic setups, ensure that you:
 

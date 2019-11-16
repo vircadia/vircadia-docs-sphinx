@@ -9,40 +9,35 @@ We get a lot of questions from our users! If you have questions about our produc
 
 
 -----------------------------
-Installation
+Content Creation
 -----------------------------
 
-+ `How do I install High Fidelity on Catalina? <#q20>`_
++ `What video codecs do you support? <#video-codecs>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q20:                                                                                            |
+| .. _video-codecs:                                                                                   |
 |                                                                                                     |
-| How do I install and open High Fidelity on Catalina?                                                |
+| What video codecs do you support?                                                                   |
 +=====================================================================================================+
-| 1. Download the `High Fidelity installer <https://www.highfidelity.com/download>`_.                 |
-| 2. Once the dmg is downloaded, open the file.                                                       |
-| 3. Agree to the License Agreement.                                                                  |
-| 4. Drag High Fidelity to the Applications folder.                                                   |
-| 5. Open **System Preferences > General**.                                                           |
-| 6. Next to the warning indicating that Interface is blocked, click 'Open Anyway'.                   |
-| 7. Confirm that you want to open the application.                                                   |
+| We support the following video codecs:                                                              |
 |                                                                                                     |
-| At this point, Interface will open and you should be able to use the application.                   |
+| * WebM VP8                                                                                          |
+| * H.264, WebM                                                                                       |
+| * WebM, H.264                                                                                       |
 +-----------------------------------------------------------------------------------------------------+
-
 
 -----------------------------
 High Fidelity Coin (HFC)
 -----------------------------
 
-+ `How can I get HFC? <#q15>`_
-+ `How do I send HFC to other people? <#q16>`_
-+ `Why does my HFC balance not update instantly? <#q17>`_
-+ `Do I get charged money if a transaction fails? <#q18>`_
-+ `How do I convert HFC to other currencies? <#q19>`_
++ `How can I get HFC? <#get-hfc>`_
++ `How do I send HFC to other people? <#send-hfc>`_
++ `Why does my HFC balance not update instantly? <#hfc-balance>`_
++ `Do I get charged money if a transaction fails? <#fail-transaction>`_
++ `How do I convert HFC to other currencies? <#convert-hfc>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q15:                                                                                            |
+| .. _get-hfc:                                                                                        |
 |                                                                                                     |
 | How can I get HFC?                                                                                  |
 +=====================================================================================================+
@@ -64,7 +59,7 @@ High Fidelity Coin (HFC)
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q16:                                                                                            |
+| .. _send-hfc:                                                                                       |
 |                                                                                                     |
 | How do I send HFC to other people?                                                                  |
 +=====================================================================================================+
@@ -79,7 +74,7 @@ High Fidelity Coin (HFC)
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q17:                                                                                            |
+| .. _hfc-balance:                                                                                    |
 |                                                                                                     |
 | Why does my HFC balance not update instantly?                                                       |
 +=====================================================================================================+
@@ -89,7 +84,7 @@ High Fidelity Coin (HFC)
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q18:                                                                                            |
+| .. _fail-transaction:                                                                               |
 |                                                                                                     |
 | Do I get charged money if a transaction fails?                                                      |
 +=====================================================================================================+
@@ -97,7 +92,7 @@ High Fidelity Coin (HFC)
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q19:                                                                                            |
+| .. _convert-hfc:                                                                                    |
 |                                                                                                     |
 | How do I convert HFC to other currencies?                                                           |
 +=====================================================================================================+
@@ -117,22 +112,98 @@ High Fidelity Coin (HFC)
 | occasional exception to the maximum cashout amount.                                                 |
 +-----------------------------------------------------------------------------------------------------+
 
+-----------------------------------
+Buy from the Marketplace
+-----------------------------------
+
++ `The Marketplace content I purchased has disappeared. Where did it go? <#disappearing-content>`_
++ `Can I rez multiple copies of a Marketplace item? <#rez-multiple>`_
++ `What is Dynamic Domain Verification (DDV)? <#ddv>`_
++ `What happens to my Marketplace content when I change my domain ID? <#change-id>`_
++ `What happens to my Marketplace content when I export a backup to another domain? <#export-content>`_
++ `How do I report a DMCA violation? <#dmca-violation>`_
+
++-----------------------------------------------------------------------------------------------------+
+| .. _disappearing-content:                                                                           |
+|                                                                                                     |
+| The Marketplace content I purchased has disappeared. Where did it go?                               |
++=====================================================================================================+
+| Marketplace items behave like items in the real world. You can have only one copy of each item you  |
+| purchase. An item you bought from the Marketplace will disappear if you rez it elsewhere. This is   |
+| done using a process called `Dynamic Domain Verification (DDV) <#q11>`_.                            |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _rez-multiple:                                                                                   |
+|                                                                                                     |
+| Can I rez multiple copies of a Marketplace item?                                                    |
++=====================================================================================================+
+| Yes, only if the seller has given permission to do so. A seller can modify settings to allow        |
+| users to `rez multiple copies <sell/add-item.html#unlimited-rezzing-of-your-item>`_ of their item   |
+| in a single domain. Otherwise, you will need to buy multiple copies of the item.                    |
+| Marketplace items behave like items in the real world. You can have only one copy of each item you  |
+| purchase unless specified by the seller.                                                            |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _ddv:                                                                                            |
+|                                                                                                     |
+| What is Dynamic Domain Verification (DDV)?                                                          |
++=====================================================================================================+
+| Dynamic Domain Verification (DDV) is a process running on your domain, which ensures that you can   |
+| rez only one copy of each item purchased on the Marketplace. This is done to protect the            |
+| intellectual property rights of the creators. DDV will determine if an item has been moved to a new |
+| domain and will remove it from the old domain. DDV requires the domain to be running and will       |
+| delete items from domains with no Place or domain name. Temporary names are accepted.               |
+| DDV often runs within an hour after you rez a Marketplace item again. Its frequency is controlled   |
+| by the domain's control panel.                                                                      |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _change-id:                                                                                      |
+|                                                                                                     |
+| What happens to my Marketplace content when I change my domain ID?                                  |
++=====================================================================================================+
+| When you change your domain ID, it's the same as creating a new domain. Even though the existing    |
+| content may temporarily appear in the new domain, the system considers the Marketplace items as     |
+| existing on the old domain. DDV will remove the Marketplace items from the new domain. You will     |
+| have to rez the items again in the new domain.                                                      |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _export-content:                                                                                 |
+|                                                                                                     |
+| What happens to my Marketplace content when I export a backup to another domain?                    |
++=====================================================================================================+
+| When you restore a backup or exported domain onto a new server with a different domain ID, DDV will |
+| consider the Marketplace item as belonging to the old domain, and will delete them from the new     |
+| domain. You will have to rez the Marketplace items again in the new domain.                         |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _dmca-violation:                                                                                 |
+|                                                                                                     |
+| How do I report a DMCA violation?                                                                   |
++=====================================================================================================+
+| Email us at `support@highfidelity.com <mailto:support@highfidelity.com>`_ to report content         |
+| violation, and we will take appropriate action.                                                     |
++-----------------------------------------------------------------------------------------------------+
 
 ------------------------------
 Sell on the Marketplace
 ------------------------------
 
-+ `What should I charge for my Marketplace Item? <#q1>`_
-+ `Does my avatar have too many polys? <#q2>`_
-+ `How big can my submission be? <#q3>`_
-+ `How do I upload to the Marketplace? <#q4>`_
-+ `Can I host content on the Marketplace for personal use? <#q5>`_
-+ `What happens after I submit my item to the Marketplace? <#q6>`_
-+ `How long does it take to find out about the status of my submission? <#q7>`_
-+ `What are the rules for submitting content to the Marketplace? <#q8>`_
++ `What should I charge for my Marketplace Item? <#cost>`_
++ `Does my avatar have too many polys? <#max-polys>`_
++ `How big can my submission be? <#submission-size>`_
++ `How do I upload to the Marketplace? <#marketplace-upload>`_
++ `Can I host content on the Marketplace for personal use? <#personal-use>`_
++ `What happens after I submit my item to the Marketplace? <#submission-process>`_
++ `How long does it take to find out about the status of my submission? <#review-time>`_
++ `What are the rules for submitting content to the Marketplace? <#submission-rules>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q1:                                                                                             |
+| .. _cost:                                                                                           |
 |                                                                                                     |
 | What should I charge for my Marketplace Item?                                                       |
 +=====================================================================================================+
@@ -149,7 +220,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q2:                                                                                             |
+| .. _max-polys:                                                                                      |
 |                                                                                                     |
 | Does my avatar have too many polys?                                                                 |
 +=====================================================================================================+
@@ -158,7 +229,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q3:                                                                                             |
+| .. _submission-size:                                                                                |
 |                                                                                                     |
 | How big can my submission be?                                                                       |
 +=====================================================================================================+
@@ -168,7 +239,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q4:                                                                                             |
+| .. _marketplace-upload:                                                                             |
 |                                                                                                     |
 | How do I upload to the Marketplace?                                                                 |
 +=====================================================================================================+
@@ -177,7 +248,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q5:                                                                                             |
+| .. _personal-use:                                                                                   |
 |                                                                                                     |
 | Can I host content on the Marketplace for personal use?                                             |
 +=====================================================================================================+
@@ -190,7 +261,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q6:                                                                                             |
+| .. _submission-process:                                                                             |
 |                                                                                                     |
 | What happens after I submit my item to the Marketplace?                                             |
 +=====================================================================================================+
@@ -200,7 +271,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q7:                                                                                             |
+| .. _review-time:                                                                                    |
 |                                                                                                     |
 | How long does it take to find out about the status of my submission?                                |
 +=====================================================================================================+
@@ -208,103 +279,22 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q8:                                                                                             |
+| .. _submission-rules:                                                                               |
 |                                                                                                     |
 | What are the rules for submitting content to the Marketplace?                                       |
 +=====================================================================================================+
 | Please refer to our :doc:`Marketplace Submission Rules <sell/submission-rules>`.                    |
 +-----------------------------------------------------------------------------------------------------+
 
-
-
------------------------------------
-Buy from the Marketplace
------------------------------------
-
-+ `The Marketplace content I purchased has disappeared. Where did it go? <#q9>`_
-+ `Can I rez multiple copies of a Marketplace item? <#q10>`_
-+ `What is Dynamic Domain Verification (DDV)? <#q11>`_
-+ `What happens to my Marketplace content when I change my domain ID? <#q12>`_
-+ `What happens to my Marketplace content when I export a backup to another domain? <#q13>`_
-+ `How do I report a DMCA violation? <#q14>`_
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q9:                                                                                             |
-|                                                                                                     |
-| The Marketplace content I purchased has disappeared. Where did it go?                               |
-+=====================================================================================================+
-| Marketplace items behave like items in the real world. You can have only one copy of each item you  |
-| purchase. An item you bought from the Marketplace will disappear if you rez it elsewhere. This is   |
-| done using a process called `Dynamic Domain Verification (DDV) <#q11>`_.                            |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q10:                                                                                            |
-|                                                                                                     |
-| Can I rez multiple copies of a Marketplace item?                                                    |
-+=====================================================================================================+
-| Yes, only if the seller has given permission to do so. A seller can modify settings to allow        |
-| users to `rez multiple copies <sell/add-item.html#unlimited-rezzing-of-your-item>`_ of their item   |
-| in a single domain. Otherwise, you will need to buy multiple copies of the item.                    |
-| Marketplace items behave like items in the real world. You can have only one copy of each item you  |
-| purchase unless specified by the seller.                                                            |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q11:                                                                                            |
-|                                                                                                     |
-| What is Dynamic Domain Verification (DDV)?                                                          |
-+=====================================================================================================+
-| Dynamic Domain Verification (DDV) is a process running on your domain, which ensures that you can   |
-| rez only one copy of each item purchased on the Marketplace. This is done to protect the            |
-| intellectual property rights of the creators. DDV will determine if an item has been moved to a new |
-| domain and will remove it from the old domain. DDV requires the domain to be running and will       |
-| delete items from domains with no Place or domain name. Temporary names are accepted.               |
-| DDV often runs within an hour after you rez a Marketplace item again. Its frequency is controlled   |
-| by the domain's control panel.                                                                      |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q12:                                                                                            |
-|                                                                                                     |
-| What happens to my Marketplace content when I change my domain ID?                                  |
-+=====================================================================================================+
-| When you change your domain ID, it's the same as creating a new domain. Even though the existing    |
-| content may temporarily appear in the new domain, the system considers the Marketplace items as     |
-| existing on the old domain. DDV will remove the Marketplace items from the new domain. You will     |
-| have to rez the items again in the new domain.                                                      |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q13:                                                                                            |
-|                                                                                                     |
-| What happens to my Marketplace content when I export a backup to another domain?                    |
-+=====================================================================================================+
-| When you restore a backup or exported domain onto a new server with a different domain ID, DDV will |
-| consider the Marketplace item as belonging to the old domain, and will delete them from the new     |
-| domain. You will have to rez the Marketplace items again in the new domain.                         |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _q14:                                                                                            |
-|                                                                                                     |
-| How do I report a DMCA violation?                                                                   |
-+=====================================================================================================+
-| Email us at `support@highfidelity.com <mailto:support@highfidelity.com>`_ to report content         |
-| violation, and we will take appropriate action.                                                     |
-+-----------------------------------------------------------------------------------------------------+
-
-
-
 ------------------------------
 Domain Hosting
 ------------------------------
 
-+ `How do I get into my domain settings if I set up authentication but forgot my username and/or password? <#21>`_
-
++ `How do I get into my domain settings if I set up authentication but forgot my username and/or password? <#reset-password>`_
++ `Why do Marketplace items keep disappearing from my domain? <#missing-content>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q21:                                                                                            |
+| .. _reset-password:                                                                                 |
 |                                                                                                     |
 | How do I get into my domain settings if I set up `authentication                                    |
 | <host/configure-settings/authentication-setting.html>`_ but forgot my username and/or password?     |
@@ -324,18 +314,49 @@ Domain Hosting
 |     * **Mac**: ~/Library/Application Support/High Fidelity/domain-server                            |
 +-----------------------------------------------------------------------------------------------------+
 
-
++-----------------------------------------------------------------------------------------------------+
+| .. _missing-content:                                                                                |
+|                                                                                                     |
+| Why do Marketplace items keep disappearing from my domain?                                          |
++=====================================================================================================+
+| All Marketplace items are certified to protect the intellectual property rights of the content      |
+| creators. In many cases, your content is removed by a process called Dynamic Domain Verification    |
+| (DDV) to prevent illegal use of your purchased items. DDV often runs within an hour after you rez   |
+| a Marketplace item.                                                                                 |
+|                                                                                                     |
+| Here are some reasons your Marketplace items may disappear from your domain:                        |
+|                                                                                                     |
+| 1. Most Marketplace items can only be rezzed once. When you a second copy of the item, the original |
+|    copy will immediately be removed.                                                                |
+| 2. Some items are "unlimited", meaning that you can rez as many as you'd like *in the same domain*. |
+|    However, as soon as you rez that same purchased item in a different domain, all earlier          |
+|    instances will disappear. Unlimited items are clearly marked in the Marketplace. When in use,    |
+|    the **Inventory** app will list the domain that your item is rezzed in.
+| 3. All purchased content is protected to a single domain that is identified by its domain ID, not   |
+|    its place name. This means that if you move your content to a different domain and fire up the   |
+|    new domain (same place name, but now it has a different domain ID), it will not match the        |
+|    "rezzed" domain and will be deleted.                                                             |
+| 4. If you are hosting a domain on a local server, you must :doc:`purchase a place name              |
+|    <host/configure-settings/place-setting>` for your domain before you can rez any Marketplace      |
+|    content.                                                                                         |
+| 5. Ensure that your :doc:`user permissions <host/configure-settings/permission-settings>` are set   |
+|    up correctly. Any items that are rezzed by users with the 'Rez Temporary' permission will        |
+|    disappear after a while.                                                                         |
+| 6. The **Create** app lets you change the 'Collision Shape' and 'Server Scripts' properties. When   |
+|    you change these properties, it changes the entity's certificate signature and invalidates the   |
+|    rezzed item. These items will be removed automatically from your domain.                         |
++-----------------------------------------------------------------------------------------------------+
 
 ------------------------------
 Troubleshooting
 ------------------------------
 
-+ `Why can't I connect to a domain? <#q22>`_
-+ `No one can hear me! <#q23>`_
-+ `I can't hear anything in High Fidelity <#q24>`_
++ `Why can't I connect to a domain? <#cannot-connect>`_
++ `No one can hear me! <#no-input>`_
++ `I can't hear anything in High Fidelity <#no-output>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q22:                                                                                            |
+| .. _cannot-connect:                                                                                 |
 |                                                                                                     |
 | Why can't I connect to a domain?                                                                    |
 +=====================================================================================================+
@@ -354,7 +375,7 @@ Troubleshooting
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q23:                                                                                            |
+| .. _no-input:                                                                                       |
 |                                                                                                     |
 | No one can hear me!                                                                                 |
 +=====================================================================================================+
@@ -402,7 +423,7 @@ Troubleshooting
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q24:                                                                                            |
+| .. _no-output:                                                                                      |
 |                                                                                                     |
 | I can't hear anything in High Fidelity.                                                             |
 +=====================================================================================================+

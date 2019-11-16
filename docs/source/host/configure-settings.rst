@@ -21,5 +21,6 @@ Your domain comes with a comprehensive set of configuration options that let you
     Create User Groups <configure-settings/user-groups>
     Assign User Permissions <configure-settings/permission-settings>
     Secure Your Domain Settings <configure-settings/authentication-setting>
+    Protect Your Domain's Content <configure-settings/entity-filters>
     Define Your Audio Environment <configure-settings/audio-settings>
     
