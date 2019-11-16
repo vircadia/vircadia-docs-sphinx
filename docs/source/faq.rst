@@ -326,25 +326,25 @@ Domain Hosting
 |                                                                                                     |
 | Here are some reasons your Marketplace items may disappear from your domain:                        |
 |                                                                                                     |
-| 1. Most Marketplace items can only be rezz'd once. When you a second copy of the item, the original |
+| 1. Most Marketplace items can only be rezzed once. When you a second copy of the item, the original |
 |    copy will immediately be removed.                                                                |
 | 2. Some items are "unlimited", meaning that you can rez as many as you'd like *in the same domain*. |
 |    However, as soon as you rez that same purchased item in a different domain, all earlier          |
-|    instances will disappear. Unlimited items are clearly marked in the Marketplace, in the item's   |
-|    certificate of ownership, and in your inventory.                                                 |
+|    instances will disappear. Unlimited items are clearly marked in the Marketplace. When in use,    |
+|    the **Inventory** app will list the domain that your item is rezzed in.
 | 3. All purchased content is protected to a single domain that is identified by its domain ID, not   |
 |    its place name. This means that if you move your content to a different domain and fire up the   |
 |    new domain (same place name, but now it has a different domain ID), it will not match the        |
-|    "rezz'd" domain and will be deleted.                                                             |
+|    "rezzed" domain and will be deleted.                                                             |
 | 4. If you are hosting a domain on a local server, you must :doc:`purchase a place name              |
 |    <host/configure-settings/place-setting>` for your domain before you can rez any Marketplace      |
 |    content.                                                                                         |
 | 5. Ensure that your :doc:`user permissions <host/configure-settings/permission-settings>` are set   |
-|    up correctly. Any items that are rezz'd by users with the 'Rez Temporary' permission will        |
+|    up correctly. Any items that are rezzed by users with the 'Rez Temporary' permission will        |
 |    disappear after a while.                                                                         |
 | 6. The **Create** app lets you change the 'Collision Shape' and 'Server Scripts' properties. When   |
 |    you change these properties, it changes the entity's certificate signature and invalidates the   |
-|    rezz'd item. These items will be removed automatically from your domain.                         |
+|    rezzed item. These items will be removed automatically from your domain.                         |
 +-----------------------------------------------------------------------------------------------------+
 
 ------------------------------

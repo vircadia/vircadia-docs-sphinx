@@ -64,11 +64,11 @@ In general:
 * Purchased avatars can be worn only by the buyer.
 * Purchased wearables can be worn by any avatar in the buyer's account.
 * Purchased apps, scripts, and tools can only be used by the buyer. 
-* Purchased models, environments, and skyboxes can only be rezz'd in a single domain by the buyer.
-* Certain models can be rezz'd unlimited times in one domain. These items will say "Unlimited rezzing in a single domain" in the item's description before you purchase the item. Once you rez the item in a domain, your inventory will tell you the domain the item is rezz'd in. 
-* All other models can only be rezz'd once per purchased item. If you would like to rez more than one of these items, then you will need to purchase multiple copies.
+* Purchased models, environments, and skyboxes can only be rezzed in a single domain by the buyer.
+* Certain models can be rezzed unlimited times in one domain. These items will say "Unlimited rezzing in a single domain" in the item's description before you purchase the item. Once you rez the item in a domain, your inventory will tell you the domain the item is rezzed in. 
+* All other models can only be rezzed once per purchased item. If you would like to rez more than one of these items, then you will need to purchase multiple copies.
 
-The item's certificate will always give you more information about the item you purchased, including whether it can be rezz'd multiple times. To view an item's certificate:
+The item's certificate will always give you more information about the item you purchased. To view an item's certificate:
 
 1. In Interface, pull up your tablet or HUD and go to **Inventory**.
 2. On the **Items** tab, select your purchased item.
