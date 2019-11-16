@@ -350,6 +350,7 @@ li table {
 
 .rst-content table.docutils td p {
     font-size: .89rem;    
+    line-height: 24px;
 }
 
 .rst-content table.docutils td ul li, .rst-content table.docutils td ol li {

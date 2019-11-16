@@ -46,20 +46,12 @@ You can choose how you view things around you by changing your perspective. To c
 +==================+=========================================================================================================+
 | First Person     | Select this setting if you want to change your perspective in High Fidelity to first person.            |
 |                  | In this view, you will not see yourself, only the environment around you.                               |
-|                  |                                                                                                         |
-|                  | .. image:: _images/first-person.png                                                                     |
 +------------------+---------------------------------------------------------------------------------------------------------+
 | Third Person     | Select this setting to change your perspective to third person. In this view, you will see              |
 |                  | yourself, as well as the environment around you.                                                        |
-|                  |                                                                                                         |
-|                  | .. image:: _images/third-person.png                                                                     |
 +------------------+---------------------------------------------------------------------------------------------------------+
-| Mirror           | Select this to change your perspective to mirror. In this view, you will see yourself and               |
+| Selfie           | Select this to change your perspective to look at yourself. In this view, you will see yourself and     |
 |                  | the space behind you.                                                                                   |
-|                  |                                                                                                         |
-|                  | .. image:: _images/mirror.png                                                                           |
-|                  |                                                                                                         |
-|                  | NOTE: You cannot move in mirror mode. It is for viewing only.                                           |
 +------------------+---------------------------------------------------------------------------------------------------------+
 | Independent Mode | Select this to change what you see through scripting instead of avatar's movements.                     |
 +------------------+---------------------------------------------------------------------------------------------------------+
@@ -96,12 +88,21 @@ You can make changes to the graphics in High Fidelity.
 +--------------+----------------------------------------------------------------------------------------+
 | Setting      | Description                                                                            |
 +==============+========================================================================================+
-| World Detail | You can control the detail visible to you in High Fidelity by moving this slider left  |
-|              | to decrease and right to increase.                                                     |
+| Graphics     | Choose the graphics settings for your computer tier. In general, a lower graphics      |
+| Settings     | setting sacrifices artistic details and rendering effects for increased performance    |
+|              | and optimization. **Custom** lets you configure the world detail, rendering effects,   |
+|              | refresh rate, and resolution yourself.                                                 |
 +--------------+----------------------------------------------------------------------------------------+
-| Show Shadows | Enable or disable viewing shadows. This setting is enabled by default. If you have a   |
-|              | low game rate or are having trouble loading a domain, disabling this option may        |
-|              | improve your performance.                                                              |
+| World Detail | Control the level of detail visible to you in High Fidelity by moving this slider.     |
++--------------+----------------------------------------------------------------------------------------+
+| Rendering    | Choose the level of rendering effects that are present in High Fidelity. Local lights, |  
+| Effects      | fog, bloom, and shadows are all examples of rendering effects.                         |
++--------------+----------------------------------------------------------------------------------------+
+| Refresh Rate | Choose the frequency that High Fidelity updates its graphics buffers. Most mid-range   |  
+|              | computers run well on 'Interactive'.                                                   |
++--------------+----------------------------------------------------------------------------------------+
+| Resolution   | Adjust the resolution using the slider. This affects how clear High Fidelity appears   |
+|              | on your monitor or screen.                                                             |
 +--------------+----------------------------------------------------------------------------------------+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
