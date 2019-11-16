@@ -12,11 +12,10 @@ We get a lot of questions from our users! If you have questions about our produc
 Content Creation
 -----------------------------
 
-+ `What video codecs do you support? <#q26>`_
-
++ `What video codecs do you support? <#video-codecs>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q26:                                                                                            |
+| .. _video-codecs:                                                                                   |
 |                                                                                                     |
 | What video codecs do you support?                                                                   |
 +=====================================================================================================+
@@ -27,19 +26,18 @@ Content Creation
 | * WebM, H.264                                                                                       |
 +-----------------------------------------------------------------------------------------------------+
 
-
 -----------------------------
 High Fidelity Coin (HFC)
 -----------------------------
 
-+ `How can I get HFC? <#q15>`_
-+ `How do I send HFC to other people? <#q16>`_
-+ `Why does my HFC balance not update instantly? <#q17>`_
-+ `Do I get charged money if a transaction fails? <#q18>`_
-+ `How do I convert HFC to other currencies? <#q19>`_
++ `How can I get HFC? <#get-hfc>`_
++ `How do I send HFC to other people? <#send-hfc>`_
++ `Why does my HFC balance not update instantly? <#hfc-balance>`_
++ `Do I get charged money if a transaction fails? <#fail-transaction>`_
++ `How do I convert HFC to other currencies? <#convert-hfc>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q15:                                                                                            |
+| .. _get-hfc:                                                                                        |
 |                                                                                                     |
 | How can I get HFC?                                                                                  |
 +=====================================================================================================+
@@ -61,7 +59,7 @@ High Fidelity Coin (HFC)
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q16:                                                                                            |
+| .. _send-hfc:                                                                                       |
 |                                                                                                     |
 | How do I send HFC to other people?                                                                  |
 +=====================================================================================================+
@@ -76,7 +74,7 @@ High Fidelity Coin (HFC)
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q17:                                                                                            |
+| .. _hfc-balance:                                                                                    |
 |                                                                                                     |
 | Why does my HFC balance not update instantly?                                                       |
 +=====================================================================================================+
@@ -86,7 +84,7 @@ High Fidelity Coin (HFC)
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q18:                                                                                            |
+| .. _fail-transaction:                                                                               |
 |                                                                                                     |
 | Do I get charged money if a transaction fails?                                                      |
 +=====================================================================================================+
@@ -94,7 +92,7 @@ High Fidelity Coin (HFC)
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q19:                                                                                            |
+| .. _convert-hfc:                                                                                    |
 |                                                                                                     |
 | How do I convert HFC to other currencies?                                                           |
 +=====================================================================================================+
@@ -114,20 +112,19 @@ High Fidelity Coin (HFC)
 | occasional exception to the maximum cashout amount.                                                 |
 +-----------------------------------------------------------------------------------------------------+
 
-
 -----------------------------------
 Buy from the Marketplace
 -----------------------------------
 
-+ `The Marketplace content I purchased has disappeared. Where did it go? <#q9>`_
-+ `Can I rez multiple copies of a Marketplace item? <#q10>`_
-+ `What is Dynamic Domain Verification (DDV)? <#q11>`_
-+ `What happens to my Marketplace content when I change my domain ID? <#q12>`_
-+ `What happens to my Marketplace content when I export a backup to another domain? <#q13>`_
-+ `How do I report a DMCA violation? <#q14>`_
++ `The Marketplace content I purchased has disappeared. Where did it go? <#disappearing-content>`_
++ `Can I rez multiple copies of a Marketplace item? <#rez-multiple>`_
++ `What is Dynamic Domain Verification (DDV)? <#ddv>`_
++ `What happens to my Marketplace content when I change my domain ID? <#change-id>`_
++ `What happens to my Marketplace content when I export a backup to another domain? <#export-content>`_
++ `How do I report a DMCA violation? <#dmca-violation>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q9:                                                                                             |
+| .. _disappearing-content:                                                                           |
 |                                                                                                     |
 | The Marketplace content I purchased has disappeared. Where did it go?                               |
 +=====================================================================================================+
@@ -137,7 +134,7 @@ Buy from the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q10:                                                                                            |
+| .. _rez-multiple:                                                                                   |
 |                                                                                                     |
 | Can I rez multiple copies of a Marketplace item?                                                    |
 +=====================================================================================================+
@@ -149,7 +146,7 @@ Buy from the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q11:                                                                                            |
+| .. _ddv:                                                                                            |
 |                                                                                                     |
 | What is Dynamic Domain Verification (DDV)?                                                          |
 +=====================================================================================================+
@@ -163,7 +160,7 @@ Buy from the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q12:                                                                                            |
+| .. _change-id:                                                                                      |
 |                                                                                                     |
 | What happens to my Marketplace content when I change my domain ID?                                  |
 +=====================================================================================================+
@@ -174,7 +171,7 @@ Buy from the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q13:                                                                                            |
+| .. _export-content:                                                                                 |
 |                                                                                                     |
 | What happens to my Marketplace content when I export a backup to another domain?                    |
 +=====================================================================================================+
@@ -184,7 +181,7 @@ Buy from the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q14:                                                                                            |
+| .. _dmca-violation:                                                                                 |
 |                                                                                                     |
 | How do I report a DMCA violation?                                                                   |
 +=====================================================================================================+
@@ -192,22 +189,21 @@ Buy from the Marketplace
 | violation, and we will take appropriate action.                                                     |
 +-----------------------------------------------------------------------------------------------------+
 
-
 ------------------------------
 Sell on the Marketplace
 ------------------------------
 
-+ `What should I charge for my Marketplace Item? <#q1>`_
-+ `Does my avatar have too many polys? <#q2>`_
-+ `How big can my submission be? <#q3>`_
-+ `How do I upload to the Marketplace? <#q4>`_
-+ `Can I host content on the Marketplace for personal use? <#q5>`_
-+ `What happens after I submit my item to the Marketplace? <#q6>`_
-+ `How long does it take to find out about the status of my submission? <#q7>`_
-+ `What are the rules for submitting content to the Marketplace? <#q8>`_
++ `What should I charge for my Marketplace Item? <#cost>`_
++ `Does my avatar have too many polys? <#max-polys>`_
++ `How big can my submission be? <#submission-size>`_
++ `How do I upload to the Marketplace? <#marketplace-upload>`_
++ `Can I host content on the Marketplace for personal use? <#personal-use>`_
++ `What happens after I submit my item to the Marketplace? <#submission-process>`_
++ `How long does it take to find out about the status of my submission? <#review-time>`_
++ `What are the rules for submitting content to the Marketplace? <#submission-rules>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q1:                                                                                             |
+| .. _cost:                                                                                           |
 |                                                                                                     |
 | What should I charge for my Marketplace Item?                                                       |
 +=====================================================================================================+
@@ -224,7 +220,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q2:                                                                                             |
+| .. _max-polys:                                                                                      |
 |                                                                                                     |
 | Does my avatar have too many polys?                                                                 |
 +=====================================================================================================+
@@ -233,7 +229,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q3:                                                                                             |
+| .. _submission-size:                                                                                |
 |                                                                                                     |
 | How big can my submission be?                                                                       |
 +=====================================================================================================+
@@ -243,7 +239,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q4:                                                                                             |
+| .. _marketplace-upload:                                                                             |
 |                                                                                                     |
 | How do I upload to the Marketplace?                                                                 |
 +=====================================================================================================+
@@ -252,7 +248,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q5:                                                                                             |
+| .. _personal-use:                                                                                   |
 |                                                                                                     |
 | Can I host content on the Marketplace for personal use?                                             |
 +=====================================================================================================+
@@ -265,7 +261,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q6:                                                                                             |
+| .. _submission-process:                                                                             |
 |                                                                                                     |
 | What happens after I submit my item to the Marketplace?                                             |
 +=====================================================================================================+
@@ -275,7 +271,7 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q7:                                                                                             |
+| .. _review-time:                                                                                    |
 |                                                                                                     |
 | How long does it take to find out about the status of my submission?                                |
 +=====================================================================================================+
@@ -283,25 +279,22 @@ Sell on the Marketplace
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q8:                                                                                             |
+| .. _submission-rules:                                                                               |
 |                                                                                                     |
 | What are the rules for submitting content to the Marketplace?                                       |
 +=====================================================================================================+
 | Please refer to our :doc:`Marketplace Submission Rules <sell/submission-rules>`.                    |
 +-----------------------------------------------------------------------------------------------------+
 
-
-
 ------------------------------
 Domain Hosting
 ------------------------------
 
-+ `How do I get into my domain settings if I set up authentication but forgot my username and/or password? <#q21>`_
-+ `Why do Marketplace items keep disappearing from my domain? <#q25>`_
-
++ `How do I get into my domain settings if I set up authentication but forgot my username and/or password? <#reset-password>`_
++ `Why do Marketplace items keep disappearing from my domain? <#missing-content>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q21:                                                                                            |
+| .. _reset-password:                                                                                 |
 |                                                                                                     |
 | How do I get into my domain settings if I set up `authentication                                    |
 | <host/configure-settings/authentication-setting.html>`_ but forgot my username and/or password?     |
@@ -322,41 +315,48 @@ Domain Hosting
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q25:                                                                                            |
+| .. _missing-content:                                                                                |
 |                                                                                                     |
 | Why do Marketplace items keep disappearing from my domain?                                          |
 +=====================================================================================================+
-| There are two types of items you can purchase from the Marketplace: single items and unlimited      |
-| items.                                                                                              |
+| All Marketplace items are certified to protect the intellectual property rights of the content      |
+| creators. In many cases, your content is removed by a process called Dynamic Domain Verification    |
+| (DDV) to prevent illegal use of your purchased items. DDV often runs within an hour after you rez   |
+| a Marketplace item.                                                                                 |
 |                                                                                                     |
-| * When you purchase a **single item**, you are purchasing only one of that item. This means that    |
-|   you can only have one copy of the item rezz'd at any point in time. As soon as you rez another    |
-|   instance of the item, all other instances of the same item disappear.                             |
-| * When you purchase an **unlimited item**, you can rez unlimited copies of that item *in the same   |
-|   domain*. However, as soon as you rez that same purchased item in a different domain, all earlier  |
-|   instances will disappear.                                                                         |
+| Here are some reasons your Marketplace items may disappear from your domain:                        |
 |                                                                                                     |
-| For both types of items, if you need to rez more copies of a purchased item, then you will need to  |
-| purchase the item again from the Marketplace.                                                       |
-|                                                                                                     |
-| .. note:: Your Sandbox and your locally hosted domain are considered two different "domains" - one  |
-|    is an environment on your local computer and the other is a live domain in the metaverse. To     |
-|    prevent content from disappearing from your domain, we recommend that you **never** add          |
-|    purchased Marketplace content to a locally hosted domain via your Sandbox. Instead, go to your   |
-|    domain via the GoTo app and rez your purchased items while visiting it by its place name or IP   |
-|    address.                                                                                         | 
+| 1. Most Marketplace items can only be rezz'd once. When you a second copy of the item, the original |
+|    copy will immediately be removed.                                                                |
+| 2. Some items are "unlimited", meaning that you can rez as many as you'd like *in the same domain*. |
+|    However, as soon as you rez that same purchased item in a different domain, all earlier          |
+|    instances will disappear. Unlimited items are clearly marked in the Marketplace, in the item's   |
+|    certificate of ownership, and in your inventory.                                                 |
+| 3. All purchased content is protected to a single domain that is identified by its domain ID, not   |
+|    its place name. This means that if you move your content to a different domain and fire up the   |
+|    new domain (same place name, but now it has a different domain ID), it will not match the        |
+|    "rezz'd" domain and will be deleted.                                                             |
+| 4. If you are hosting a domain on a local server, you must :doc:`purchase a place name              |
+|    <host/configure-settings/place-setting>` for your domain before you can rez any Marketplace      |
+|    content.                                                                                         |
+| 5. Ensure that your :doc:`user permissions <host/configure-settings/permission-settings>` are set   |
+|    up correctly. Any items that are rezz'd by users with the 'Rez Temporary' permission will        |
+|    disappear after a while.                                                                         |
+| 6. The **Create** app lets you change the 'Collision Shape' and 'Server Scripts' properties. When   |
+|    you change these properties, it changes the entity's certificate signature and invalidates the   |
+|    rezz'd item. These items will be removed automatically from your domain.                         |
 +-----------------------------------------------------------------------------------------------------+
 
 ------------------------------
 Troubleshooting
 ------------------------------
 
-+ `Why can't I connect to a domain? <#q22>`_
-+ `No one can hear me! <#q23>`_
-+ `I can't hear anything in High Fidelity <#q24>`_
++ `Why can't I connect to a domain? <#cannot-connect>`_
++ `No one can hear me! <#no-input>`_
++ `I can't hear anything in High Fidelity <#no-output>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q22:                                                                                            |
+| .. _cannot-connect:                                                                                 |
 |                                                                                                     |
 | Why can't I connect to a domain?                                                                    |
 +=====================================================================================================+
@@ -375,7 +375,7 @@ Troubleshooting
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q23:                                                                                            |
+| .. _no-input:                                                                                       |
 |                                                                                                     |
 | No one can hear me!                                                                                 |
 +=====================================================================================================+
@@ -423,7 +423,7 @@ Troubleshooting
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _q24:                                                                                            |
+| .. _no-output:                                                                                      |
 |                                                                                                     |
 | I can't hear anything in High Fidelity.                                                             |
 +=====================================================================================================+
