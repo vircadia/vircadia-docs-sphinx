@@ -13,7 +13,7 @@ For High Fidelity's main documentation system, we use **Sphinx** to generate it,
 
 **Read the Docs** is a hosting platform for Sphinx-generated documentation. It takes the power of Sphinx and adds version control, full-text search, and other useful features. It pulls down code and doc files from Git then builds and hosts the documentation. 
 
-Our main documentation is hosted at https://docs.highfidelity.com.
+Our main documentation is hosted at https://docs.projectathena.dev.
 
 ## Install Sphinx for Local Builds
 
@@ -58,7 +58,7 @@ We encourage you to compile the documentation locally on your computer prior to 
                
 ## Compile HiFi Documentation Locally
 
-1. Fork and clone https://github.com/highfidelity/hifi-docs-sphinx.
+1. Fork and clone https://github.com/kasenvr/athena-docs-sphinx.
 2. Using a command line, cd to your local repository, then the docs folder.
 3. Compile with the command `make html`.
 
