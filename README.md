@@ -1,4 +1,4 @@
-# Overview of HiFi's Documentation Tools
+# Overview of Project Athena's Documentation Tools
 
 For High Fidelity's main documentation system, we use **Sphinx** to generate it, and **Read the Docs** to publish/host it. GitHub is a helpful middleman and stores all of the docs.
 
