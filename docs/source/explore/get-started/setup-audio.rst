@@ -16,7 +16,7 @@ Audio "At a Glance"
 
 Your basic audio settings are displayed in the top-left corner of your Interface window. This is called the "Audio Level Meter" and can be turned on or off in your Audio settings (from the Tablet or HUD, click **Audio**). 
 
-.. image:: _images/audio-settings.png
+.. image:: images~/audio-settings.png
 
 ----------------------------------------
 Change your Input or Output Device

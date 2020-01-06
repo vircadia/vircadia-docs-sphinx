@@ -29,7 +29,7 @@ To upgrade a cloud-hosted domain:
 1. Go to https://highfidelity.com/user/cloud_domains to view your DigitalOcean droplets. If you’re not logged in, you will be prompted to do so.
 2. If the menu (3 dots) is yellow, then a new High Fidelity version is available for download. Click this menu, and select 'Update High Fidelity'.
 
-.. image:: ../_images/update-cloud.png
+.. image:: ../images~/update-cloud.png
 
 To update a local server: 
 

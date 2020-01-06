@@ -27,7 +27,7 @@ To apply physics properties to an entity:
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Select or add any entity of your choice. 
-3. In the 'Properties' tab, scroll down to the **Physics** section. When you first create an entity, the physics properties are set to the default values you can see in the image below. ![](_images/physics-prop.PNG)
+3. In the 'Properties' tab, scroll down to the **Physics** section. When you first create an entity, the physics properties are set to the default values you can see in the image below. ![](images~/physics-prop.PNG)
 
 ## Change an Entity's Velocity
 
@@ -77,7 +77,7 @@ To set the angular damping of an object:
 2. [Change the angular velocity](#angular-velocity) of a cube to any value. 
 3. Change the 'Angular Damping' value to `1.00` to make the cube stop moving. You can change this value to anything between `0.00` and `1.00` to make an entity slow down over time. 
 
-![](_images/gif-1.gif)
+![](images~/gif-1.gif)
 
 ## Set an Entity's Friction and Bounciness
 

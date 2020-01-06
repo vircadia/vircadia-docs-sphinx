@@ -56,7 +56,7 @@ When you select an entity in the Entity List, you can:
 	1. In Interface, pull up your HUD or Tablet and go to **Shapes**. 
 	2. A 'Tools' menu and 'Create' palette will be attached to your non-dominant hand. You can set your dominant hand on your Tablet or top menu bar by going to **Settings > Avatar > Dominant Hand**.  
 
-	.. image:: _images/dom-hand.PNG
+	.. image:: images~/dom-hand.PNG
 
 	3. In the 'Create' palette, click on one of the shapes to create and add that entity. 
 	4. The entity will be created at your hand. You can `grab it <../explore/interact.html#grab-objects>`_ by pressing the trigger on your controller.
@@ -85,12 +85,12 @@ To use the Marketplace Item Tester:
     * Click 'Load File' to load an item from your local computer or network. Browse to your file to open it. 
     * Click 'Load URL' to load an item hosted in the cloud.    
 
-.. image:: _images/load-file.png 
+.. image:: images~/load-file.png 
    
 3. Next to the item you loaded, you will see an icon indicating the type of content. If it is incorrect (or we fail to identify it), you can change it using the dropdown list.
 4. Click the icon to load your content in world. 
 
-.. image:: _images/test-item.png
+.. image:: images~/test-item.png
 
 ----------------------------
 External Creator Tools

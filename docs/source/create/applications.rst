@@ -33,7 +33,7 @@ Create icons to show up on the tablet and HUD
 
 You need two icons to show up on the tablet and HUD: an SVG or PNG image to display on the app button when the app is active, usually named ``<appName>-a.svg`` and another to display when the app is inactive, usually named ``<appName>-i.svg``.
 
-.. image:: _images/app-icons.png
+.. image:: images~/app-icons.png
 
 We recommend the following specs for your icons:
 
@@ -51,7 +51,7 @@ Your app's UI should provide text on how the app works and use familiar UI eleme
 
 To help you get started, we've put together a `quick start HTML template <https://hifi-content.s3.amazonaws.com/faye/tablet-sample-app/quick_start_template.html>`_ that you can reuse. It contains the same layout, styling and font as the main menu screen, and has a header bar for your app title. With just a few simple modifications, you can create have a simple app UI within minutes. 
 
-.. image:: _images/app-ui.png
+.. image:: images~/app-ui.png
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Add event handlers to your HTML file

@@ -13,11 +13,11 @@ The Tablet and HUD
 
 In VR, all of your settings are found in your **Tablet**. The Tablet also gives you easy access to any :doc:`apps that you install <../personalize/install-apps>`. Pull up the tablet by clicking the menu button on your controller.
 
-.. image:: _images/tablet.png
+.. image:: images~/tablet.png
 
 In Desktop Mode, you have the option to use either the Tablet or a smaller version called the "Heads-up Display" or HUD. It contains the exact same options as the Tablet (settings, apps, etc), but it takes up less space on your screen. To enable the HUD, first enable the **Developer** menu by going to **Settings > Developer Menu**. Then, go to **Developer > UI > Desktop Tablet Becomes Toolbar**. 
 
-.. image:: _images/hud.png
+.. image:: images~/hud.png
 
 ------------------------------
 Enter or Exit VR Mode

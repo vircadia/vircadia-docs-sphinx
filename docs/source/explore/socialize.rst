@@ -17,7 +17,7 @@ Once you make a connection with someone, they will appear under Connections in t
 
 To mark a connection as a friend, check the box next to their name in the People app. You can make yourself available to only your friends using the People app. 
 
-.. image:: _images/make-connection.png
+.. image:: images~/make-connection.png
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The People App
@@ -25,7 +25,7 @@ The People App
 
 The People app provides a set of tools that help users manage their interactions with people in the metaverse. It gives you a list of the people nearby (in the same domain as you), and gives you easy access to all of your connections. From the People app, you can: 
 
-.. image:: _images/people-nearby.png
+.. image:: images~/people-nearby.png
 
 +------------------+----------------------------------------------------------------------------------------------------+
 | Feature          | Description                                                                                        |
@@ -66,7 +66,7 @@ Use the People App as an Admin
 
 As an administrator in a domain, you will have privileges to maintain a domain. The People app will have an additional column that allows an admin to silence and ban users in the same domain.
 
-.. image:: _images/people-admin.PNG
+.. image:: images~/people-admin.PNG
 
 +---------+-----------------------------------------------------------------------------------------------+
 | Feature | Description                                                                                   |
@@ -87,7 +87,7 @@ You can enable a privacy shield that protects your personal space in the metaver
 
 There is also a Shield icon on the top-left corner of your Interface window, next to the audio icon, that can be used to toggle your privacy shield. 
 
-.. image:: _images/privacy-bubble.png
+.. image:: images~/privacy-bubble.png
 
 
 -----------------------------------------
@@ -114,7 +114,7 @@ The Emote App
 
 The Emote app is a way for desktop users to express themselves without using VR controllers. With this app, you can display feelings by: crying, acting surprised, dancing, cheering, waving, falling, pointing, clapping, sitting, or showing love. 
 
-.. image:: _images/emote-app.png
+.. image:: images~/emote-app.png
 
 
 
@@ -131,7 +131,7 @@ HiFi Local Chat
 
 This clean, reliable, and well-written chat script was created by alpha user ctrlaltdavid. 
 
-.. image:: _images/hifi-local-chat-by-ctrlaltdavid.png
+.. image:: images~/hifi-local-chat-by-ctrlaltdavid.png
 
 To run the script:
 
@@ -140,7 +140,7 @@ To run the script:
 
 The script will start running and display a text chat window pop-up. You can use this window to chat with other users in the same domain who are running the same script. If text chat is important to you, you can add this to your default scripts so it's always there.
 
-.. image:: _images/chat-screenshot.png
+.. image:: images~/chat-screenshot.png
 
 
 

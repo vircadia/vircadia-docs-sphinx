@@ -19,11 +19,11 @@ To go and explore new places:
    <p>The places that show up in the GoTo menu are user-created domains that are open to the public. However, note that the domain owner has full control over the security of their domain and has the ability to ban specific users from a domain. In the rare circumstance that you have been banned, a place may show up in the GoTo menu, but you will be unable to connect to it if you try to travel there.</p>
 </div>
 
-![](_images/goto-app.png)
+![](images~/goto-app.png)
 
 The **GoTo** app also shows you a visual feed of snapshots that people have taken and shared in the metaverse. Clicking on a snap will take you directly to the place where the picture was taken. 
 
-![](_images/goto-snaps.png)
+![](images~/goto-snaps.png)
 
 ## Visit a Friend
 Once you've [made a friend](socialize.html#make-connections-and-friends), you can see where they are and even teleport directly to them. 

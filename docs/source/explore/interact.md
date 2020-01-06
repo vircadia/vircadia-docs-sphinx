@@ -18,7 +18,7 @@ You can grab objects in High Fidelity using your mouse or hand controllers. You 
 * In Desktop mode, click and hold the left mouse button to grab and hold an entity. 
 * In VR mode, reach out towards the object and press the Grab button. The location of this button depends on the controllers you are using. 
 
-![](_images/grab-button.png)
+![](images~/grab-button.png)
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>

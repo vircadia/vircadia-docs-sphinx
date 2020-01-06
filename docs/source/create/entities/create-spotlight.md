@@ -29,7 +29,7 @@ Your gold spotlight needs a surface to shine on. Create this surface or wall in 
 		* Y = '2.4000'
 		* Z = '3.2000'
 
-You've made your wall! ![](_images/teal-wall-prop.PNG)
+You've made your wall! ![](images~/teal-wall-prop.PNG)
 
 ## Create the Gold Spotlight
 
@@ -51,11 +51,11 @@ Create and edit the light entity to get a soft gold spotlight.
    5. Change the 'Spotlight Cut-off' to '50'. This property determines the radius of the spotlight. A higher cut-off value corresponds with a larger spotlight radius. You should see the beam tighten get smaller.
    6. Change the 'Spotlight Exponent' to '5'. This property affects the softness of the beam. You should see the edge of the beam soften.
    7. Rotate the spotlight so that it's facing down the wall by changing the 'Local Rotation's' X value to '-90.0000'. A spotlight positioned like this can be used for a soft lighting effect over paintings or wall hangings in your world.
-       ![](_images/spotlight-prop.PNG)
+       ![](images~/spotlight-prop.PNG)
 
 Congratulations! You've created a soft gold spotlight! You can experiment with different spotlight exponents, cutoff values, and intensity combinations for varied effects.
 
-![](_images/spotlight.PNG)
+![](images~/spotlight.PNG)
 
 **See Also**
 

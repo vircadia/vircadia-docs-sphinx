@@ -49,17 +49,17 @@ You need to install the extension for every Unity project that you have. Keep in
 1. Download the `avatar exporter <https://github.com/highfidelity/hifi/raw/57c3620587ae1ec4638a58988909b46602c14633/tools/unity-avatar-exporter/avatarExporter.unitypackage>`_ from High Fidelity. 
 2. In Unity, open the 'Project' window at the bottom.
 
-.. image:: _images/project-window.png
+.. image:: images~/project-window.png
 
 3. Right-click the 'Assets' folder, then select **Import Package > Custom Package**. 
 
-.. image:: _images/import-package.png
+.. image:: images~/import-package.png
 
 4. Navigate to the `avatarExporter` package (with a .unitypackage extension). Click 'Open'. You can also double-click the package on your computer to import it automatically.
 5. In the 'Importing Package' window, review the list of files to be imported and check for conflicts with files already in your project. If a conflict exists, save any local changes somewhere outside of your project.
 6. Click 'Import'. The package's files are added to the Assets folder. You should now have a 'High Fidelity' menu in Unity. 
 
-.. image:: _images/hifi-menu.png
+.. image:: images~/hifi-menu.png
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Create an Avatar Package
@@ -72,7 +72,7 @@ Create an Avatar Package
    + In Unity, open the 'Assets' menu, then select **Import Package > Import New Asset**. Navigate to the FBX file and click 'Import'.
 2. In the 'Project' window, select your avatar’s FBX file. In the 'Inspector', open 'Rig'. For 'Animation Type', choose 'Humanoid' and then click 'Apply'. 
 
-.. image:: _images/apply-humanoid-animation.png
+.. image:: images~/apply-humanoid-animation.png
 
 .. raw:: html
 
@@ -80,30 +80,30 @@ Create an Avatar Package
     
 3. Click 'Configure' to investigate and tweak the mapping of your avatar.  
 
-.. image:: _images/configure-avatar.png
+.. image:: images~/configure-avatar.png
 
 4. All bones mapped in Unity are highlighted in green and can be selected. Check if anything is missing. Any errors will appear in red. The minimum required bones for mapping are Hips, Spine, Chest, and Head. If either of these are missing, you must manually add bones before continuing. You can do this by dragging the bones from the 'Avatar Configuration' panel to the 'Inspector' panel. 
 
-.. image:: _images/check-mesh.png
-.. image:: _images/avatar-config.png
+.. image:: images~/check-mesh.png
+.. image:: images~/avatar-config.png
 
 .. note:: Avatars in High Fidelity must have a Chest bone. If your avatar does not have a chest bone, the avatar exporter may suggest a suitable alternative from the 'Avatar Configuration' panel. If the exporter doesn't suggest an alternative and Humanoid doesn't correctly map the Chest, then you will get an error and need to manually map a bone to the Chest from 'Avatar Configuration'. 
 
 5. If you made any changes, click 'Done'. 
 6. Click on the FBX file in the 'Assets' manager. 
 
-.. image:: _images/select-avatar-unity.png
+.. image:: images~/select-avatar-unity.png
 
 7. Make sure that you have the `avatar exporter installed <#install-the-avatar-exporter>`_. Open the 'High Fidelity' menu in the top menu bar, then select 'Export New Avatar'.
 8. Give your avatar project a name. The default project location is your local user's ``Documents\High Fidelity Projects`` directory, which is created automatically for you. Though we recommend that you keep your avatars in this directory, you can change it to another location on your computer. 
 
-.. image:: _images/export-avatar.png
+.. image:: images~/export-avatar.png
 
 9. Click 'Export'. 
 
 Your avatar package has been created! The File Explorer will open to your new avatar project.
 
-.. image:: _images/exported-package.png
+.. image:: images~/exported-package.png
 
 .. note:: If you are using any external textures with your avatar model, copy those textures to your local user's ``Documents\High Fidelity Projects\avatar\<project name>\textures`` directory. Otherwise, they may not show up on your avatar.
 
@@ -116,7 +116,7 @@ We encourage you to "spot check" your avatar in Unity before exporting it with t
 * Confirm that there are no extraneous objects attached to your model. For example, this `Mech avatar <https://www.cgtrader.com/free-3d-models/character/sci-fi/low-poly-construction-mech>`_ has a ground blue object included in the model. All extraneous objects will be imported into High Fidelity and may affect the rendering or animation of your avatar.
 * Test your bone movements. In Unity's 'Inspector', open 'Rig'. For 'Animation Type', choose 'Humanoid' and then click 'Apply'. Go to 'Muscles & Settings' to test your avatar's bone configuration and ensure that it works as expected. 
 
-.. image:: _images/muscle-adjustment.gif
+.. image:: images~/muscle-adjustment.gif
 
 After exporting your avatar package, you can also test it in High Fidelity using the `Marketplace Item Tester <../tools.html#marketplace-item-tester>`_ to ensure that it works before you host it. If something doesn't look right, tweak your avatar in Unity, then update it with the High Fidelity menu. 
 

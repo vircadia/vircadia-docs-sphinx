@@ -25,7 +25,7 @@ To add an avatar script using the Package Model tools:
 
 To add an avatar script manually:  
 1. Open the FST file for your avatar in the text editor of your choice.  
-2. Add a line telling the avatar where to find the script file using the syntax `script = [SCRIPT URL]`.![](_images/add-script.png)
+2. Add a line telling the avatar where to find the script file using the syntax `script = [SCRIPT URL]`.![](images~/add-script.png)
 
 You can add multiple scripts to your avatar by adding multiple `script = url` lines.
 

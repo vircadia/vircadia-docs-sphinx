@@ -388,7 +388,7 @@ Troubleshooting
 |    independent of High Fidelity's mute option, so even if you're not muted in High Fidelity, your   |
 |    device itself may not be turned on or the mute button may have been pressed.                     |
 |                                                                                                     |
-|    .. image:: explore/_images/headsets.png                                                          |
+|    .. image:: explore/images~/headsets.png                                                          |
 |                                                                                                     |
 | 3. **Is your mic muted or disabled on your computer?** Lastly, your device might be muted or        |
 |    disabled by your operating system. Check your operating system's input device settings:          |

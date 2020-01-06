@@ -29,10 +29,10 @@ To assign user permissions:
 
     * **Add Group**: Enter the name of the :doc:`custom group or list <user-groups>`, then click the ``+`` icon. Save your domain settings to load ranks. Check the box of all permissions you'd like to grant or deny (depending on the permissions table you are adding the group to).
     
-        .. image:: ../_images/group-permissions.png 
+        .. image:: ../images~/group-permissions.png 
     * **Add Specific User**: Click the ``+`` icon, then enter a specific user name. Check the box of all permissions you'd like to grant.
     
-        .. image:: ../_images/user-permissions.png
+        .. image:: ../images~/user-permissions.png
     * **Add IP Address, MAC Address, or Machine Fingerprint**: Click the ``+`` icon, then enter the information (based on the permissions table you are adding permission to). Check the box of all permissions you'd like to grant.
 5. Click 'Save' to save your domain settings.
 

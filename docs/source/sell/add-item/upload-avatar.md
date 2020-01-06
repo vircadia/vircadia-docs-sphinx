@@ -19,10 +19,10 @@ You will need to upload all these files to the Marketplace.
 3. Click 'Save Draft'. 
 4. Scroll down to the 'Assets' section. 
 5. Click 'Choose Folder' and navigate to where your avatar is saved on your computer. Select the folder that contains your FBX file, click 'Upload' twice and wait for it to upload.
-6. Click on the uploaded FBX file, and copy the Marketplace path including the unique hash for your avatar. Do not copy your folder name or the name of the file. ![](_images/avatar-marketplace-path.png)
+6. Click on the uploaded FBX file, and copy the Marketplace path including the unique hash for your avatar. Do not copy your folder name or the name of the file. ![](images~/avatar-marketplace-path.png)
 7. Open your FST file in the text editor of your choice. (Note that the FST file is a local file on your computer)
 8. Locate the relative path references to the FBX file, textures directory, and script file(s). Replace these with the absolute path references of the uploaded content. 
-    ![](_images/fst-absolute.png)
+    ![](images~/fst-absolute.png)
     <div class="admonition note">
         <p class="admonition-title">Note</p>
         <p>Absolute paths are entire URLs that generally begin with 'https://' and contain a website address, such as 'https://website.com/resources/scripts/interact.js'. Relative paths drop the beginning of the path and only specify how to get to a resource from the location of the script. Relative paths usually look something like '/resources/scripts/interact.js'.</p>
@@ -35,7 +35,7 @@ You will need to upload all these files to the Marketplace.
     </div>
 11. Click the FST file as your root file in the Asset Viewer.  
 12. Save your submission. 
-    ![](_images/marketplace-assets.png)
+    ![](images~/marketplace-assets.png)
 
 At this time, we recommend that you test your avatar using the [Marketplace Item Tester](../../create/tools.html#marketplace-item-tester). If your avatar re-imports into High Fidelity without any issues, it is now ready to be uploaded to the Marketplace.
 

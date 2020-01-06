@@ -49,7 +49,7 @@ To buy an item:
 2. Browse to the item you want to buy.
 3. Click on the item and then click the price to purchase the item.
 
-.. image:: _images/buy-item.png
+.. image:: images~/buy-item.png
 
 You can locate all items that you purchase in the **Inventory** app. 
 
@@ -85,7 +85,7 @@ The Inventory app provides an interface to manage your transactions, purchases, 
 * Change avatars, put on wearables and install/update apps
 * `Send HFC to your friends or anyone nearby <socialize.html#send-hfc-to-others>`_
 
-.. image:: _images/inventory-app.png
+.. image:: images~/inventory-app.png
 
 **See Also**
 

@@ -17,7 +17,7 @@ Every domain is linked to one High Fidelity account, who is the owner of that do
 
 The status of your linked High Fidelity account is reflected at the top of the Metaverse/Networking section of the domain settings. You can also view your access token on this page (under 'Advanced Options').
 
-.. image:: ../_images/account-status.png
+.. image:: ../images~/account-status.png
 
 --------------------------------
 Automatic Networking
@@ -37,7 +37,7 @@ Depending on the automatic networking method you choose, define the network addr
 
 .. note:: If you intend to host multiple domains on the same network and router, be sure to set each domain to a separate UDP port. You can use the value "0" to have your domain select a random port, which will help prevent port collisions.
 
-.. image:: ../_images/network-settings.png
+.. image:: ../images~/network-settings.png
 
 --------------------------------
 Domain ID
@@ -49,7 +49,7 @@ If you don't want your domain to be registered in the metaverse, leave the Domai
 
 .. warning:: Do not change the domain ID for cloud hosted domains. This is assigned to your domain when you purchase a DigitalOcean droplet through High Fidelity, and changing it may result in errors on your domain. 
 
-.. image:: ../_images/domain-id.png
+.. image:: ../images~/domain-id.png
 
 ---------------------------------
 Enable Packet Verification
@@ -57,4 +57,4 @@ Enable Packet Verification
 
 When 'Enable Packet Verification' is turned on, High Fidelity sends secure checksums on communications that use the High Fidelity protocols. This increases security in your domain, but may slightly decrease domain performance for your visitors.
 
-.. image:: ../_images/packet-verification.png
+.. image:: ../images~/packet-verification.png

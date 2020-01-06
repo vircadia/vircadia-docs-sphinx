@@ -11,7 +11,7 @@ You can edit an entity's size, color, position and rotation using your mouse or 
     * All other field types (checkboxes, input fields, etc): The new value will replace the original values for the selected entities. 
     
 
-.. image:: _images/select-entity.PNG
+.. image:: images~/select-entity.PNG
 
 .. contents:: On This Page
     :depth: 2
@@ -62,7 +62,7 @@ Set the Size of an Entity
 
 For cube, sphere, text, image and web entities, you can change its size directly in your environment by selecting and dragging the small boxes inside the object. 
 
-.. image:: _images/resize-entity.gif
+.. image:: images~/resize-entity.gif
 
 For all entities, you can also set the size manually in the **Create** app. With the entity selected, click on 'Properties' and scroll down to the 'Size' settings. Here are the different size settings you can configure:
 
@@ -101,7 +101,7 @@ Rotate an Entity
 
 All entities can be rotated directly in your environment by selecting and dragging the circles around the object. 
 
-.. image:: _images/rotate-entity.gif
+.. image:: images~/rotate-entity.gif
 
 You can also set the rotation manually in the **Create** app. With the entity selected, click on 'Properties' and scroll down to the 'Rotation' settings. Here are the different rotation settings you can configure:
 
@@ -121,7 +121,7 @@ Move an Entity
 
 All entities can be moved directly in your environment by selecting and dragging the object to the correct location. Alternatively, you can use the arrows around the object to move it in only one direction. 
 
-.. image:: _images/move-entity.gif
+.. image:: images~/move-entity.gif
 
 You can also set the position manually in the **Create** app. With the entity selected, click on 'Properties' and scroll down to the 'Position' settings. Here are the different position settings you can configure:
 

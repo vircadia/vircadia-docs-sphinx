@@ -45,7 +45,7 @@ This sets up your place name directly from your domain settings.
 5. For 'Path or Viewpoint', enter the coordinates where your visitors will spawn.
 6. Click 'Save'.
 
-.. image:: ../_images/places-dialog.png
+.. image:: ../images~/places-dialog.png
 
 **Method 2 - Use 'My Places'**
 
@@ -59,6 +59,6 @@ This sets up your place name from your High Fidelity account. Before moving forw
 6. (Optional) Upload a preview image of your domain. This shows up when your domain is displayed in the GoTo app.
 7. Click 'Update Place'.
 
-.. image:: ../_images/my-places.png
+.. image:: ../images~/my-places.png
 
 

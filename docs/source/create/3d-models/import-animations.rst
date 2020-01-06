@@ -35,7 +35,7 @@ Once you complete uploading your animation's FBX file, you can import the 3D mod
 2. Click on the 'MODEL' icon and enter your 3D model's URL. If you have saved your 3D model's FBX file with the animation, the model's URL and the animation's URL will be the same. Otherwise, your animation is saved as a separate FBX file.
 3. In the 'Properties' tab, scroll down to 'Animation' and paste the animation's URL. 
 
-.. image:: _images/animation-prop.png
+.. image:: images~/animation-prop.png
 
 4. You can edit the following animation properties:
 

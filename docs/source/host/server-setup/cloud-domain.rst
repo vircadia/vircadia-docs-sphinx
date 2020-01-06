@@ -56,7 +56,7 @@ Configure Your Domain
 
 After you create a new cloud domain (remember, the "Create New Domain" button creates both a DigitalOcean droplet *and* a domain on the metaverse), you have the option to configure its settings. At a minimum, we strongly encourage you to set up basic permissions and define how people will be able to get to your domain. 
 
-.. image:: ../_images/configure-cloud.png
+.. image:: ../images~/configure-cloud.png
 
 This process assumes that you are configuring a domain that you just created.
 

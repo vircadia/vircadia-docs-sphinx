@@ -73,7 +73,7 @@ To create your smoke fountain using a particle entity:
 
 
 
-.. image:: _images/smoke-fountain.gif
+.. image:: images~/smoke-fountain.gif
 
 Congratulations! You've created a multi-colored smoke fountain! You can experiment with different settings to simulate particle movement, such as a waterfall, confetti gun, or falling leaves. 
 

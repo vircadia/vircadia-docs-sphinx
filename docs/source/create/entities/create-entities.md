@@ -15,7 +15,7 @@ To add a new entity to your domain:
 	* For all other entities, an entity with the default settings will appear in front of your avatar.
 4. Edit the properties of your entity so that it [looks](entity-appearance.html) and [behaves](entity-behavior.html) like you want it to.
 
-![](_images/add-cube.png)
+![](images~/add-cube.png)
 
 ## Types of Entities
 You can choose from the following entity types:

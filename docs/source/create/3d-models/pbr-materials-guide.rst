@@ -105,9 +105,9 @@ By default, any material property set with a texture will override a property se
 
 We've included images where the fields corresponding to each supported PBR channel in Blender are highlighted, along with details about which values and colors correspond to the range corresponding with that channel.  It should be noted that all of the Blender material properties below only relate to exported FBX format models. Models exported as OBJ or other formats do not have full PBR material support in High Fidelity yet.
 
-.. image:: _images/material-textures-b.jpg
+.. image:: images~/material-textures-b.jpg
 
-.. image:: _images/material-values-b.jpg
+.. image:: images~/material-values-b.jpg
 
 --------------------------------
 Set Material Values in Maya
@@ -115,9 +115,9 @@ Set Material Values in Maya
 
 Use the graphics below to set the right material values and textures in Maya. 
 
-.. image:: _images/material-values-m.jpg
+.. image:: images~/material-values-m.jpg
 
-.. image:: _images/material-textures-m.jpg
+.. image:: images~/material-textures-m.jpg
 
 
 **See Also**

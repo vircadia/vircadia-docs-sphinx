@@ -15,7 +15,7 @@ Nothing is more inviting than a personal invitation to come check out an excitin
 
 Share your domain by giving out its IP address or place name.  Anyone with a High Fidelity account can enter the IP address or place name directly into the GoTo app to teleport directly to your domain.
 
-.. image:: _images/goto-bar.png
+.. image:: images~/goto-bar.png
 
 .. note:: TIP: You can send other High Fidelity users clickable URLs that send them directly to your domain. Simply send them the URL ``https://hifi.place/<domain IP | place name>``. When they click the link, they will be prompted to open Interface.exe and land at the spawn point in your domain.
 

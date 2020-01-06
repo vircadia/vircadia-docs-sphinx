@@ -32,7 +32,7 @@ Additional Notes
 1. You cannot reference existing URLs in your updates. If you create an update, you must upload all the assets the product uses, even if they remain the same. For example, if the new version of your product uses a .wav file that has not changed in the updated version, you must upload it again in the new item. This is because the certificate system needs to recertify all files used in the product together.  
 2. Once the update hits the blockchain, your customers will receive notification that an updated version is available. A red dot on the Inventory icon of your Tablet or HUD indicates there is an update available on at least one Marketplace item. 
 
-    .. image:: _images/update-available.png
+    .. image:: images~/update-available.png
 3. If a customer chooses not to update to the latest version, the old version will still be valid and listed in their Inventory.
 4. Once a customer has updated an item to the latest version, they will not be able to retrieve an older version. 
 5. Rezzed items will not be automatically updated to the latest version. This means that an object in-world will remain intact (as the previous version). To update a rezzed item, the customer needs to manually import the new version of the item. 

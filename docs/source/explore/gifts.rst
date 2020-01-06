@@ -18,14 +18,14 @@ To send money to a connection or someone nearby:
 #.  In Interface, pull up your tablet or HUD and go to **Inventory**.
 #.  In the **Inventory** app, click 'Send Money'. 
 
-.. image:: _images/send-money.PNG
+.. image:: images~/send-money.PNG
 
 3.  Send money to one of your connections or even someone nearby in the same domain.  
 
 	* If you want to send it to one of your connections, click 'Connections; and choose the recipient from the list.
 	* If you want to send it to someone nearby, click 'Someone Nearby' and choose your recipient by triggering or clicking on someone nearby to select them.
 
-	 .. image:: _images/nearby.PNG
+	 .. image:: images~/nearby.PNG
 	 
 #.  Add the amount you wish to send. This amount should be less than or equal to your HFC balance. 
 #.  You can add an optional public message. Click 'Submit'. 
@@ -41,22 +41,22 @@ After you `buy something from the Marketplace <shop.html#shopping-the-marketplac
 1.  In Interface, pull up your tablet or HUD and go to **Inventory**.
 2.  In the Inventory app, click 'Items'.
 
-.. image:: _images/items-tab.png
+.. image:: images~/items-tab.png
 
 3.  Scroll to the item you'd like to give and click on the menu.
 
-.. image:: _images/item-menu.png
+.. image:: images~/item-menu.png
 
 4.  Select 'Gift'. 
 
-.. image:: _images/gift-item.png
+.. image:: images~/gift-item.png
 
 5.  Send the item to one of your connections or even someone nearby in the same domain. 
 
 	* If you want to send it to one of your connections, click 'Connections' and choose the recipient from the list.
 	* If you want to send it to someone nearby, click 'Someone Nearby' and choose your recipient by triggering or clicking on someone nearby to select them. 
 
-	.. image:: _images/nearby.PNG
+	.. image:: images~/nearby.PNG
 
 6.  You can add an optional public message. Click 'Submit'. 
 7.  A window pops up confirming that your item has been sent.  
@@ -83,7 +83,7 @@ You can create a coupon when you want to send money or an item to someone at a l
 5. The Tablet will now display a window with the 'Authorization ID' and 'Coupon ID'. Copy both these values on your computer. Click 'Close'.
 6. Include the copied values in a :doc:`script where another user receives the HFC or item <../script/transfer-hfc-tutorial>`.
 
-.. image:: _images/create-coupon.png
+.. image:: images~/create-coupon.png
 
 **Example: Use a Coupon to Hold a Raffle**  
 

@@ -43,7 +43,7 @@ The entity you create for your button has to be [triggerable](entity-behavior.ht
 5. Ensure that 'Triggerable' is selected.
 6. After you exit the **Create** app, test your script by clicking or triggering the button to observe your avatar scale down.
 
-![](_images/shrink-avatar.gif)
+![](images~/shrink-avatar.gif)
 
 **See Also**
 

@@ -18,7 +18,7 @@ High Fidelity has many virtual places where you can interact with other users an
 
 Find these domains by going to the **Home** tab in the menu.
 
-.. image:: _images/android-app.png
+.. image:: images~/android-app.png
 
 
 -----------------------------------

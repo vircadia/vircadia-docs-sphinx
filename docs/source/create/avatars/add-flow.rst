@@ -16,7 +16,7 @@ In order to use the Flow technology, your avatar must contain flow threads, whic
 1. The first joint is connected to an existing avatar joint, such as "Hips".
 2. Every joint in the thread should be named ``flow_[TYPE]_[INDEX]`` or  ``sim[TYPE][INDEX]``, where **TYPE** defines a group of joints that share a common physics setup and **INDEX** is an integer. For example, if the thread is used to simulate a skirt, all the "skirt" joints are named flow_skirt_01, flow_skirt_02, etc.
 
-.. image:: _images/flow-threads.png
+.. image:: images~/flow-threads.png
 
 While experimenting, feel free to use `Mannequin with Hair <https://hifi-content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_, whose hair has flow threads already configured.
 
@@ -28,7 +28,7 @@ Download and run the `Flow app <https://highfidelity.com/marketplace/items/370b8
 
 The Flow app will show up as an icon on your HUD or tablet. Click this icon to open the Flow app.
 
-.. image:: _images/flow-app-icon.png
+.. image:: images~/flow-app-icon.png
 
 ^^^^^^^^^^^^^^^^^^^^^^^
 Display Panel
@@ -36,7 +36,7 @@ Display Panel
 
 The **Display** panel affects how your avatar looks while the Flow app is open. Using these options, you can choose to view meshes and collisions to help you determine what your final flow configuration will look like. 
 
-.. image:: _images/flow-display.png
+.. image:: images~/flow-display.png
 
 +------------+---------------------------------------------------------------+
 | Option     | Description                                                   |
@@ -56,7 +56,7 @@ Joints Panel
 
 The **Joints** panel lists all of the available flow threads, and lets you configure the behavior of your joints. 
 
-.. image:: _images/flow-joints.png
+.. image:: images~/flow-joints.png
 
 +-----------+-----------------------------------------------------------------------------------------+
 | Option    | Description                                                                             |
@@ -82,7 +82,7 @@ Collisions Panel
 
 The **Collisions** panel controls the collision spheres that define the interactions between flow threads and the joints in your avatar. Each collision sphere is positioned using an existing avatar joint and offset: as you increase the radius of a collision sphere, you increase the distance between the flow thread and the joint. You can only have a maximum of 4 collisions defined for your avatar. 
 
-.. image:: _images/flow-collisions.png
+.. image:: images~/flow-collisions.png
 
 +--------+---------------------------------------+
 | Option | Description                           |
@@ -100,7 +100,7 @@ The **Output** panel displays the resulting FST data for your avatar's flow conf
 
 Copy this data directly into your avatar's FST file to complete the flow process. 
 
-.. image:: _images/flow-fst.png
+.. image:: images~/flow-fst.png
 
 
 ------------------------------

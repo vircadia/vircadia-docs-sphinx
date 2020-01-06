@@ -37,8 +37,8 @@ You can make the web entity display High Fidelity's YouTube channel.
 2. Select your web entity and go to the 'Properties' tab.
 3. Scroll down until you see the 'Source URL' option. Enter the High Fidelity YouTube channel URL: https://www.youtube.com/user/HighFidelityio. You should see the new page as soon as you hit 'Enter'.
 
-![](_images/source-url.PNG)
-![](_images/youtube-web-entity.PNG)
+![](images~/source-url.PNG)
+![](images~/youtube-web-entity.PNG)
 
 
 

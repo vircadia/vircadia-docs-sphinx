@@ -22,11 +22,11 @@ To get the best and most immersive experience in High Fidelity, we encourage you
 VR Controls
 ------------------------
                 
-.. image:: _images/controls-oculus.png
+.. image:: images~/controls-oculus.png
 
-.. image:: _images/controls-vive.png
+.. image:: images~/controls-vive.png
                 
-.. image:: _images/controls-wmr.png
+.. image:: images~/controls-wmr.png
 
 
 ------------------------
@@ -45,7 +45,7 @@ All of these features were developed to help you orient yourself when moving aro
 
 To enable comfort mode, go to **Menu > Settings > Controls** on your tablet. Use the slider to adjust how much of the environment you see in VR. 
 
-.. image:: _images/comfort-mode.png
+.. image:: images~/comfort-mode.png
 
 -----------------------------
 Change How You Move in VR
@@ -150,7 +150,7 @@ You can set up different mocap systems:
 
 .. note:: You can replace the HMD and hand controllers with trackers if you only need to track the movement of your head and hands.
 
-.. image:: _images/tracker-placement.jpg
+.. image:: images~/tracker-placement.jpg
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Configure Your Mocap System
@@ -164,7 +164,7 @@ Configure Your Mocap System
    * Selecting the right device for your head and hands. If you're using a head tracker instead of an HMD, click 'Use HTC Vive Devices in Desktop Mode'.
    * Selecting the body position of any additional trackers. 
    
-   .. image:: _images/vive-config.PNG
+   .. image:: images~/vive-config.PNG
    
 5. Click 'Apply and Calibrate'.
 6. Stand in a T-Pose until the timer counts down to zero:
@@ -214,7 +214,7 @@ Gamepad
 
 If your HMD does not come equipped with hand controllers, you can use a gamepad. However, High Fidelity is best experienced with VR equipment or the keyboard in Desktop mode.
 
-.. image:: _images/controls-gamepad.png
+.. image:: images~/controls-gamepad.png
 
 
 **See Also**
