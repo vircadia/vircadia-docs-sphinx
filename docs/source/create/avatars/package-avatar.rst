@@ -62,7 +62,7 @@ If you want to upload it to High Fidelity's servers or sell your avatar on the M
 3. Click 'Upload' to upload your avatar's files to High Fidelity's servers. The `Avatar Packager <#troubleshooting-with-the-avatar-packager>`_ will display any errors or warnings that you may want to resolve prior to uploading. View `Troubleshooting with the Avatar Packager`_ to determine whether a fix is required to have a usable avatar. 
 4. Once your avatar is uploaded to the servers, click 'View in Inventory' to view your custom avatar. Unless you submit it for review, your custom avatar will remain in Draft mode, and will not be visible to others. To sell your avatar, you need to submit it for review on the Marketplace.
 
-.. image:: images~/inventory.png
+.. image:: _images/inventory.png
 
 .. note:: If you make any changes to your custom avatar, you will need to update it through the Avatar Packager to see your changes. To update, select your project and click 'Open Project' in step 1. Follow the same steps to update your avatar.
 

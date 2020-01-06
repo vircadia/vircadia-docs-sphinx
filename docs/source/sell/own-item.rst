@@ -39,7 +39,7 @@ For some submissions, attributions are legally required by other content. Some t
 
 When you :doc:`add your item <add-item>` to the Marketplace, the form includes fields to insert any attributions for your submission. 
 
-.. image:: images~/attributions.png
+.. image:: _images/attributions.png
 
 .. note:: Depending on the requirements of third party content licenses, you may need to include further information in the item's description, your code, or elsewhere as specified.
 

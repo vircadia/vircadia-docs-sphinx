@@ -31,7 +31,7 @@ For the Reference pose, use a T-Pose which complies with the specifications belo
 - The character's hands are flat, palms facing the ground, with the thumbs parallel to the X axis.
 - The character's feet need to be perpendicular to the legs (with the toes pointing along the Z-axis as shown). The feet must not be rotated around the Y-axis (meaning the toes of the left foot should not point inward toward the right leg or outward away from the right leg).
 
-![](images~/hifi-skel.png)
+![](_images/hifi-skel.png)
 
 You can download the standard High Fidelity skeleton [here](http://hifi-content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx). This skeleton conforms to the specifications above.
 
@@ -45,11 +45,11 @@ High Fidelity avatars should match the following standard skeletal structure. Ea
     <p>Finger #1 is not the metacarpal; instead, it is the first joint between the <a href="https://en.wikipedia.org/wiki/Finger#/media/File:Scheme_human_hand_bones-en.svg">proximal and intermediate</a>. </p>
 </div>
 
-![](images~/avatar-skeleton.png)
+![](_images/avatar-skeleton.png)
 
 ### Flow Bones
 
-The  `sim` and `flow` prefixes are reserved for flow bones, such as clothing, hair and tails. These bones should _not_ be animated by an animator. ![](images~/flow-bones.png)
+The  `sim` and `flow` prefixes are reserved for flow bones, such as clothing, hair and tails. These bones should _not_ be animated by an animator. ![](_images/flow-bones.png)
 (Many thanks to Akazukin for the model Ouka Miko(櫻歌ミコ) used in this diagram!)
 
 For example, consider a full cape that surrounds the avatar: 

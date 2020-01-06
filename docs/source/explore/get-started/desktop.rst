@@ -13,7 +13,7 @@ Desktop users are restricted to using their keyboard and mouse to do things in H
 Movement Controls
 -------------------------------
 
-.. image:: images~/controls-keyboard.jpg
+.. image:: _images/controls-keyboard.jpg
 
 +------------------------+----------------------------------------------------------------+
 | Action                 | Key                                                            |
@@ -144,4 +144,4 @@ Gamepad
 
 Instead of a keyboard, you can use a gamepad while experiencing High Fidelity in desktop mode. 
 
-.. image:: images~/controls-gamepad.png
+.. image:: _images/controls-gamepad.png

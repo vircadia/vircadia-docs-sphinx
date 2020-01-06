@@ -27,7 +27,7 @@ If your wearable could be re-imported without any issues, it is now ready to be 
 3. Click 'Save Draft'. 
 4. Scroll down to the 'Assets' section. 
 5. If your wearable contains only an FBX file, click 'Choose Files' and navigate to where your model has been saved on your computer. Upload your FBX file. If your wearable contains multiple files like scripts or textures, click 'Choose Folder' and navigate to where your model has been saved on your computer. Upload all related folders, including your FBX file. 
-6. Click your uploaded FBX file and copy the new Marketplace URL for the FBX file. ![](images~/upload-assets.PNG)
+6. Click your uploaded FBX file and copy the new Marketplace URL for the FBX file. ![](_images/upload-assets.PNG)
 
 ### Generate the JSON File for Your Wearable
 
@@ -42,7 +42,7 @@ If your wearable could be re-imported without any issues, it is now ready to be 
         <p>If you're creating a wearable to add to the Marketplace, make sure it will fit the default wooden mannequin avatar (unless you are specifically making it to go with a very specific base avatar model). This will ensure that the wearable will work with most avatars in High Fidelity.  </p>
     </div>
     
-    ![](images~/edited-wearable.PNG)
+    ![](_images/edited-wearable.PNG)
 7. Back in the **Create** app, find your model in the 'Entity List' and click on it. 
 8. Click 'Export Selection' and enter a name for your JSON. This JSON file contains information on how High Fidelity can access your item and its files, and needs to contain a reference to your item's location. 
 9. Open your JSON file in a text editor and check if the variable `modelURL` contains your FBX file's Marketplace URL. If it doesn't, you can edit it and paste the correct URL. 

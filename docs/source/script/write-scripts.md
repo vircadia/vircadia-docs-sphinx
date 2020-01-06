@@ -24,7 +24,7 @@ print("Hello, World");
 
 1. Copy and paste this in a file `testScript.js` and save it on your computer. 
 2. When you [load and run this script](get-started-with-scripting.html#load-and-run-a-script), it will write the words "Hello, World" to the 'Debug Window' in High Fidelity.
-   ![](images~/hello-world.png)
+   ![](_images/hello-world.png)
 
 ## Create an Entity
 Instead of [using the Create app to add an entity](../create/entities/create-entities.html), you can create one using an [interface script](interface-scripts.html). 
@@ -44,7 +44,7 @@ print("Entity added");
 
 1. Copy and paste this in a file `testScript.js` and save it on your computer. 
 2. When you [load and run this script](get-started-with-scripting.html#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print a line to the 'Debug Window'. In this case, the entity will be a red box.  
-![](images~/add-entity.png)
+![](_images/add-entity.png)
 
 ## Edit an Entity
 To manipulate an entity's properties, you can use `Entities.editEntity`in an [interface script](interface-scripts.html).
@@ -67,7 +67,7 @@ print("Entity color: " + JSON.stringify(properties.color));
 
 1. Copy and paste this in a file `testScript.js` and save it on your computer. 
 2. When you [load and run this script](get-started-with-scripting.html#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print the color of that entity to the 'Debug Window'. Then, the script changes the color of the entity to red, and prints the new color in the 'Debug Window'.
-![](images~/edit-entity.png)
+![](_images/edit-entity.png)
 
 
 

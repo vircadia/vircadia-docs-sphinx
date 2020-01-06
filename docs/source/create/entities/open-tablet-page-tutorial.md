@@ -48,7 +48,7 @@ The entity you create for your button has to be [triggerable](entity-behavior.ht
 6. Scroll down and ensure that 'Triggerable' is selected.
 7. After you exit the **Create** app, test your script by clicking or triggering the button to open the Marketplace web page for your item.
 
-![](images~/open-page.gif)
+![](_images/open-page.gif)
 
 **See Also**
 

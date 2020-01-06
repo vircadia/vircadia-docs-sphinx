@@ -252,7 +252,7 @@ We've listed some features of the system:
 
 The AnimNode system operates like an expression parse tree.  For example the following expression: ``4 + 3 * 7 - (5 / (3 + 4)) + 6``, can be represented by the following parse tree.
 
-.. image:: images~/animnode.png
+.. image:: _images/animnode.png
 
 
 This parse tree can then be evaluated at runtime to compute the actual value. In this tree, the leaf nodes are values and interior nodes are operations that combine two or more sub-trees and produce a new value. The tree is evaluated until there is a single value remaining, which should be the result of the entire expression: ``30.2957142``. 

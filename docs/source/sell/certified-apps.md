@@ -31,7 +31,7 @@ To find the URL to your Marketplace bucket, follow these steps:
 
 1. First, upload a draft of your app to the Marketplace.
 2. Click on the app.json file on the Edit screen and the URL will be displayed at the bottom of the screen.
-![](images~/marketplacebucket.png)
+![](_images/marketplacebucket.png)
 
 ##### 2. A certified app has a button that appears on the tablet in VR, or the app bar in desktop mode. 
 The button of the app must: 
@@ -100,7 +100,7 @@ You should provide text on how the app works, and use familiar UI elements that 
 
 Here are some examples of a good app UI:
 
-![](images~/appDesign1.png)
+![](_images/appDesign1.png)
 
 ##### 5. When a user closes the app UI, you must close the app gracefully. 
 

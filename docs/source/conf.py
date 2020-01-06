@@ -42,7 +42,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['templates~']
+templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -62,7 +62,7 @@ language = None
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-# This pattern also affects htmlstatic~_path and html_extra_path.
+# This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
@@ -90,14 +90,14 @@ html_theme_options = {
 }
 
 html_title = "Project Athena Documentation"
-html_logo = 'static~/images/hifi-logo.png'
-html_favicon = 'static~/images/fav-icon.ico'
+html_logo = '_static/images/hifi-logo.png'
+html_favicon = '_static/images/fav-icon.ico'
 html_show_sphinx = False
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-htmlstatic_path = ['static~']
+htmlstatic_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.

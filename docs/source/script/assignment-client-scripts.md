@@ -14,7 +14,7 @@ Once you've written and hosted your script, you need to add it to a domain, eith
 1. Open your 'Domain Administration Panel'. If you are on a local sandbox, open it by clicking on the High Fidelity icon in the taskbar notifications and 'click Settings'.
 2. From the menu, go to **Content > Scripts**.
 3. In the Persistent Scripts section, click **+** and paste the URL to your script under 'Script URL'. 
-![](images~/ac-script.png)
+![](_images/ac-script.png)
 4. At the top of the page, click 'Save and Restart'. Now, every time you enter that domain, the AC script will be running.
 
 ## Example of an AC Script

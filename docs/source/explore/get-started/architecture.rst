@@ -17,7 +17,7 @@ High Fidelity's architecture consists of the following components that work toge
 + The `Domain Server`_ is the server that hosts a domain. The domain server hosts the content in the domain, and manages the :doc:`domain-wide settings <../../host/configure-settings>`, such as audio spatialization, user permissions, and running scripts.
 + The `Global Services`_ connect all of the servers together. These services are maintained by High Fidelity so that you can sign in, move seamlessly between places, and :doc:`purchase items on the Marketplace <../shop>`.
 
-.. image:: images~/overview.png
+.. image:: _images/overview.png
 
 ---------------------------
 High Fidelity Interface
@@ -27,7 +27,7 @@ The High Fidelity Interface (or simply 'Interface') is the main user interface f
 
 You can download and use the Interface on your computer or your Android phone using the `Client-Only Installer <install.html#client-only-installer>`_. 
 
-.. image:: images~/interface.png
+.. image:: _images/interface.png
 
 ^^^^^^^^^^^^^^^^^^^^
 Physics Engine
@@ -45,7 +45,7 @@ A domain is a spatial simulation in High Fidelity that you can visit. It is comp
 
 You can :doc:`set up your own domain <../../host/server-setup>` and host it on your local machine or on a cloud server to make it available to other users. Your domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. Everything that you see, hear, and do in your domain is managed by the server stack. 
 
-.. image:: images~/domain-server.png
+.. image:: _images/domain-server.png
 
 ^^^^^^^^^^^^^^^^^^^^
 Server Stack
@@ -95,7 +95,7 @@ Global Services
 
 High Fidelity maintains global services to connect different servers together. 
 
-.. image:: images~/services.png
+.. image:: _images/services.png
 
 
 **See Also**

@@ -42,7 +42,7 @@ Here's an example of the scattering effect. The left image has no scattering and
     +--------------------------------------+-----------------------------------+
     |             No Scattering            |             Scattering            |
     +--------------------------------------+-----------------------------------+
-    | .. image:: images~/no-scattering.png | .. image:: images~/scattering.png |
+    | .. image:: _images/no-scattering.png | .. image:: _images/scattering.png |
     +--------------------------------------+-----------------------------------+
 
 
@@ -51,7 +51,7 @@ Here are the scattering skin maps for this avatar.
 .. rst-class:: center-cell
 
     +--------------------------------------+-----------------------------------+
-    | .. image:: images~/skin-map.png      | .. image:: images~/skin-map-2.png |
+    | .. image:: _images/skin-map.png      | .. image:: _images/skin-map-2.png |
     +--------------------------------------+-----------------------------------+
 
 You can also check out the following avatars that have scattering effects:

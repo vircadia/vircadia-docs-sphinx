@@ -30,7 +30,7 @@ When an app has an update available, a notification will pop up in the top right
 To update your app: 
 1. In Interface, pull up your HUD or Tablet and go to **Inventory**.
 2. In the **Inventory** app, click the notification that says "You have X item updates available."
-3. Scroll to the app you'd like to update and click on the menu. ![](images~/update-menu.png)
+3. Scroll to the app you'd like to update and click on the menu. ![](_images/update-menu.png)
 4. Click the 'Update' button, then 'Update for Free'.
 
 <div class="admonition note">
@@ -59,7 +59,7 @@ The Spectator Camera is a camera you can use to record or livestream what you an
 
 To use the Spectator Camera app: 
 1. In Interface, pull up your HUD or Tablet and go to **Spectator**. 
-2. Turn on your Spectator Cam by moving the slider. You'll see the camera appear in-world. By default, the app's display shows you what you see in VR through your HMD. This is to show you what you're recording without having to take off your HMD. ![](images~/spec-cam-window.png)
+2. Turn on your Spectator Cam by moving the slider. You'll see the camera appear in-world. By default, the app's display shows you what you see in VR through your HMD. This is to show you what you're recording without having to take off your HMD. ![](_images/spec-cam-window.png)
 3. To record yourself, switch your display from your HMD's view to the camera view. This lets you record videos of yourself, such as your avatar dancing or trying on different wearables. 
 4. Enable switching views with your controllers in the **Spectator** app on your HUD or Tablet. 
     * **Rift**: If you're using Oculus Touch controllers, click the left thumbstick to switch views. 
@@ -74,7 +74,7 @@ To use the Fingerpaint app:
 2. First, click 'Options' to select what you would like to paint on - the world around you, your avatar, or another user's avatar (with their permission).  
 3. Click 'Palette' to select a color for your paint. 
 4. Click 'Brushes' to select the settings for your brush, such as stroke width, type of brush, and special effects.
-![](images~/fingerpaint.png)
+![](_images/fingerpaint.png)
 
 ### Text to Speech
 
@@ -92,7 +92,7 @@ To use the Text to Speech (TTS) app:
 2. In the app, select the Pitch and Speed of your choice. 
 3. Type in the text you'd like your avatar to speak.
 4. Hit 'Speak' to hear your text. Hit 'Stop Last' to stop your avatar from speaking.
-![](images~/tts.png)
+![](_images/tts.png)
 
 **See Also**
 + [Create Tablet Apps](../../create/applications.html)

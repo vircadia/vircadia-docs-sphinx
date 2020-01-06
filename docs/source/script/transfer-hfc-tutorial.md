@@ -35,7 +35,7 @@ tablet.sendToQml({method: 'updateSendAssetQML',
     message: "Pay me 10 HFC and I will unlock this door!"
 });
 ```
-![](images~/money-transfer.png)
+![](_images/money-transfer.png)
 
 ## Transfer Marketplace Items
 To transfer Marketplace items to someone, you need to use an entity script or client script to open an end-user's tablet to the "Send Item" screen. The script must specify a recipient and an item's Certificate ID. The user running the script must own the specified item Certificate ID. Optionally, the script can specify a message to the user if desired.
@@ -50,7 +50,7 @@ tablet.sendToQml({method: 'updateSendAssetQML',
     message: "Send me the item you've previously bought!"
 });
 ```
-![](images~/item-transfer.png)
+![](_images/item-transfer.png)
 
 ## Purchase Marketplace Items
 To purchase a Marketplace item for yourself, you need to use an entity script or client script to open an end-user's tablet to the "Marketplace Checkout" screen. The script must specify the Marketplace Item ID.
@@ -60,7 +60,7 @@ var tablet = Tablet.getTablet("com.highfidelity.interface.tablet.system");
 tablet.loadQMLSource("hifi/commerce/checkout/Checkout.qml");
 tablet.sendToQml({method: 'updateCheckoutQMLItemID', params: {itemId: "399921f6-bf26-4bba-8654-75d1b30f9442"}});
 ```
-![](images~/item-purchases.png)
+![](_images/item-purchases.png)
 
 ## Verify Your Inventory
 If a script has the proper credentials, it can check a user's Recent Activity and Inventory on their behalf. You can use this to verify that another user has sent you money, sent you an item, or purchased your item from the Marketplace.
@@ -256,7 +256,7 @@ In this step, you will put the "Authorization ID" and "Coupon ID" into some sort
 3. Copy and paste the contents of [this example GS script](https://s3.amazonaws.com/hifi-docs-scripts/slotMachineAuthHandler.gs.txt) into the Script Editor.
 4. Change `var SPREADSHEET_ID` to match the Spreadsheet ID of your spreadsheet above.
     * The Spreadsheet ID is embedded in the URL of the Google Sheets page and is visible in the following screenshot (part of the URL is blocked out for privacy purposes).
-        ![](images~/googleSheetURL.png)
+        ![](_images/googleSheetURL.png)
 5. Save the script, using whatever filename you wish.
 6. Click 'Publish', then 'Deploy as Web App...'
 7. Follow Google's instructions to deploy your script as a web app. Ensure you set 'Who has access to the app' to 'Anyone, even anonymous'. When finished, copy the URL you're given at the end of the process and save it somewhere you'll remember for later. The web app URL will look something like `https://script.google.com/macros/s/ABCDEFGHIJKLMNOP_QRSTUVWXYZ1984373/exec`

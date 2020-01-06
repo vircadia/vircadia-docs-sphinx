@@ -58,7 +58,7 @@ Once you have your material entity JSON file, you can add it to an object in Hig
 4. Click and select the wall. Go to the 'Properties' tab and copy the parent ID under the 'Name' box. 
 5. Click and select the material entity. Go to the 'Properties' tab and paste the copied parent ID in the 'Parent' box. You will see the material applied to the wall. In this step, you are parenting or applying a material to an entity.
 
-![](images~/material-entity.gif)
+![](_images/material-entity.gif)
 
 ### Use the materialData Field
 
@@ -88,7 +88,7 @@ To add a material entity directly into the **Create** Tools app:
 ```
 
 
-![](images~/material-data.gif)
+![](_images/material-data.gif)
 
 **See Also**
 

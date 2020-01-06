@@ -42,7 +42,7 @@ Any entity you create to be used as a portal has to be [collisionless](entity-be
 7. Scroll down to 'Collision' and uncheck 'Collides'. This is so that a user can walk into the entity and trigger the script. 
 8. Exit **Create** mode and walk into the entity. 
 
-![](images~/create-portal.png)
+![](_images/create-portal.png)
 
 You will be teleported to High Fidelity's welcome domain. 
 

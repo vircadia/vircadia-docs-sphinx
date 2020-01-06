@@ -18,7 +18,7 @@ If you want your model available to users in other domains, we recommend uploadi
 3. Select the 'Model' icon.
 4. Paste the model's URL and click 'Add'.
 
-.. image:: images~/import-model.png
+.. image:: _images/import-model.png
 
 -------------------------------------
 Import Models from the Asset Server
