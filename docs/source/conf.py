@@ -90,7 +90,7 @@ html_theme_options = {
 }
 
 html_title = "Project Athena Documentation"
-html_logo = '_static/images/hifi-logo.png'
+html_logo = '_static/images/project-athena-logo.png'
 html_favicon = '_static/images/fav-icon.ico'
 html_show_sphinx = False
 

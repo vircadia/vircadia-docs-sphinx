@@ -35,4 +35,4 @@ You have the power to shape your VR experience in High Fidelity.
     CONTRIBUTE <contribute>
     FAQ <faq>
     RELEASE NOTES <release-notes>
-    API REFERENCE <https://apidocs.highfidelity.com>
+    API REFERENCE <https://apidocs.projectathena.dev>
