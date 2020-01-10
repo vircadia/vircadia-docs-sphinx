@@ -1,6 +1,6 @@
 # Overview of Project Athena's Documentation Tools
 
-For High Fidelity's main documentation system, we use **Sphinx** to generate it, and **Read the Docs** to publish/host it. GitHub is a helpful middleman and stores all of the docs.
+For Project Athena's main documentation system, we use **Sphinx** to generate it, and **Read the Docs** to publish/host it. GitHub is a helpful middleman and stores all of the docs.
 
 **Sphinx** is an open-source, robust solution for software documentation that includes features that writers expect, like:
 
@@ -56,7 +56,7 @@ We encourage you to compile the documentation locally on your computer prior to 
     C:\> pip install sphinx_rtd_theme
     ```
                
-## Compile HiFi Documentation Locally
+## Compile Athena Documentation Locally
 
 1. Fork and clone https://github.com/kasenvr/athena-docs-sphinx.
 2. Using a command line, cd to your local repository, then the docs folder.
