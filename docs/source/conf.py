@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Athena Docs'
-copyright = '2020, Project Athena'
+copyright = '2019, High Fidelity. © Copyright 2020, Project Athena.'
 author = 'Athena Team'
 
 # The short X.Y version
