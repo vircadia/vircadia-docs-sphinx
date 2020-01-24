@@ -34,8 +34,6 @@ The steps involved in creating your avatar are:
 3. Fine tune your avatar using a tool such as Blender or Maya.
 4. Package the model in Athena for use as an avatar.  
 
-.. note:: If you intend to upload and sell your avatar to the Marketplace, you need to set your base material color to white (some apps default to grey). This ensures that the avatar renders correctly for all users and that it will be accepted into our Marketplace.
-
 Check out this YouTube playlist for one way to create and customize your own avatar. Here, we use Adobe Fuse to create our avatar, Mixamo to rig our avatar automatically, and Blender to adjust the rendering on our avatar. We also have written instructions on the same process: 
 
 * :doc:`Create an Avatar with Fuse <fuse-tutorial>`
