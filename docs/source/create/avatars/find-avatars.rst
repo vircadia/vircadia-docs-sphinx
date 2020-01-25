@@ -46,7 +46,7 @@ Install the Avatar Exporter
 
 You need to install the extension for every Unity project that you have. Keep in mind, however, that you can import and export multiple avatars in a single Unity project.  
 
-1. Download the `avatar exporter <https://github.com/highfidelity/hifi/raw/57c3620587ae1ec4638a58988909b46602c14633/tools/unity-avatar-exporter/avatarExporter.unitypackage>`_ from Project Athena. 
+1. Download the `avatar exporter <https://github.com/kasenvr/project-athena/blob/kasen/core/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ from Project Athena. 
 2. In Unity, open the 'Project' window at the bottom.
 
 .. image:: _images/project-window.png
