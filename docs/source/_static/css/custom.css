@@ -367,11 +367,16 @@ li table {
 /***********************************/
 code {
     font-family: Consolas;
+    font-size: 95% !important;
 }
 
 pre code {
     font-size: 0.8rem;
     line-height: 1.1rem;
+}
+
+pre span {
+    font-size: 0.9rem;
 }
 
 .rst-content code.literal {
