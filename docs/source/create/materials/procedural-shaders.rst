@@ -2,7 +2,7 @@
 Procedural Shaders for Models and Avatars
 #########################################
 
-You can combine shaders with material entities on shape and zone entities to apply shaders to models and avatars. This feature is currently an **experimental feature** and is under community testing. If you wish to try applying procedural materials to models or avatars *at your own risk*, read on for more information.
+You can attach shaders to material entities, which are then applied to shape, zone, or mesh entities. You may also do the same with avatars. This feature is currently an **experimental feature** and is under community testing. If you wish to try applying procedural materials to models or avatars *at your own risk*, read on for more information.
 
 -----------------------------
 Enabling Procedural Materials
@@ -20,11 +20,17 @@ You probably know about materials and how they work. Fact is, all materials are 
 
 Procedural shaders (or simply shaders) are textures that are created by mathematical and algorithmic means. It is a piece of code that is run on the GPU or graphics card. They can provide a range of effects such as making an object look cartoony or simulating a candle flame. If you’ve used programs like Blender or Substance Designer to create material images, then you’ve seen this in action. The difference is that these programs automatically generate the shader code for you. To make custom designs and effects, you will have to dive into the code yourself.
 
+`The Book of Shaders <https://thebookofshaders.com/01>`_ expands on this with an analogy:
+
+    If you already have experience making drawings with computers, you know that in that process you draw a circle, then a rectangle, a line, some triangles until you compose the image you want. That process is very similar to writing a letter or a book by hand - it is a set of instructions that do one task after another.
+    
+    Shaders are also a set of instructions, but the instructions are executed all at once for every single pixel on the screen. That means the code you write has to behave differently depending on the position of the pixel on the screen. Like a type press, your program will work as a function that receives a position and returns a color, and when it's compiled it will run extraordinarily fast.
+
 Project Athena has support for vertex and fragment shaders on shape and material entities alongside avatars. These shaders are based on the GLSL shader language, which uses the syntax and features of the C programming language. It does not have support for geometry, tessellation and evaluation, or compute shaders.
 
-This documentation is not intended to be a complete course on how to create a shader. This is an advanced topic that requires good math and programming skills. Many free books are available on the internet that can teach about shaders. `The Book of Shaders <https://thebookofshaders.com/>`_ is one such book that is often cited.
+This documentation is not intended to be a complete course on how to create a shader. This is an advanced topic that requires good math and programming skills. Many free books are available on the internet that can teach about shaders. `The Book of Shaders <https://thebookofshaders.com>`_ is one such book that is often cited.
 
-An understanding of how to use Javascript and JSON with Project Athena is important before you dive into this topic. If you intend to create shaders yourself, knowing the C programming language will also be important.
+An understanding of how to use JavaScript and JSON with Project Athena is important before you dive into this topic. If you intend to create shaders yourself, knowing the C programming language will also be important.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Differences Between Athena and GLSL Shaders
@@ -40,9 +46,9 @@ Another consideration is that Project Athena does not expose the full range of w
 Basic Method for Using Shaders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Shaders are stored as a file. Fragment shaders will typically have the file extension ***.fs** or ***.frag** and vertex shaders will usually have the ***.vs** or ***.vert** file extension.
+Shaders' code is stored as a file. Fragment shaders will typically have the file extension ***.fs** or ***.frag** and vertex shaders will usually have the ***.vs** or ***.vert** file extension.
 
-Although you can associate these files with most entities, the original author of Project Athena’s end user shader implementation viewed material entities as the ideal way to apply them to other entities. As a result, this documentation will focus on using shaders with material entities.
+Shaders are applied to entities and avatars by way of attaching them to a material. That material is then attached to your entity or avatar, therefore applying the shader as intended.
 
 If you are unfamiliar with material entities, you can find more information `here <https://docs.projectathena.dev/create/entities/material-entity.html>`_.
 
@@ -50,10 +56,10 @@ Material entities have data that is stored in the JSON format, and they have a p
 
     {
         "materials": [{
-            "model": "hifi_shader_simple",
+            "model": "hifi_shader_simple"
             "procedural": {
-              "version": 3,
-              "fragmentShaderURL": "https://gist.githubusercontent.com/MarcusLlewellyn/2726885d4cc8be086a6755f05fbd99ff/raw/rotatecube.fs"
+            "version": 3,
+            "shaderUrl": "https://docs.projectathena.dev/_static/resources/Proceduralv3.fs"
             }
         }]
     }
@@ -69,7 +75,7 @@ The ``materialData`` JSON can be applied either via the Project Athena Interface
     			"model": "hifi_shader_simple"
     			"procedural": {
     			  	"version": 3,
-    			  	"shaderUrl": "https://gist.githubusercontent.com/SamGondelman/8bbd39f91d20cab4c75280d9b1cb0764/raw/7930289654ce8309bbe785907f03eabc1dbc6181/Proceduralv3.fs"
+    			  	"shaderUrl": "https://docs.projectathena.dev/_static/resources/Proceduralv3.fs"
     			}
     		}
     	})
@@ -87,16 +93,26 @@ As shaders were developed, features for them evolved a bit over time. As a resul
 
 The most basic template for a shader will look something like this example::
 
-    float getProceduralFragmentWithPosition(inout ProceduralFragmentWithPosition proceduralData) {
-        // Setup the initial coordinate and color values.
-        vec2 coord = _texCoord0.st;
-        vec3 color = vec3(0.0);
-     
-        // Send out color data to Project Athena's data structure.
-        proceduralData.diffuse = color;
-     
-        // Must always return a value. 0.0 is the default.
-        return 0.0;
+    uniform vec3 _diffuse = vec3(0.0);
+    uniform vec3 _specular = vec3(0.0);
+    uniform vec3 _emissive = vec3(0.0);
+    uniform float _alpha = 1.0;
+    uniform float _roughness = 0.0;
+    uniform float _metallic = 0.0;
+    uniform float _occlusion = 0.0;
+    uniform float _scattering = 0.0;
+    uniform float _emissiveAmount = 0.0;
+
+    float getProceduralFragment(inout ProceduralFragment proceduralData) {
+        proceduralData.diffuse = _diffuse;
+        proceduralData.specular = _specular;
+        proceduralData.emissive = _emissive;
+        proceduralData.alpha = _alpha;
+        proceduralData.roughness = _roughness;
+        proceduralData.metallic = _metallic;
+        proceduralData.occlusion = _occlusion;
+        proceduralData.scattering = _scattering;
+        return _emissiveAmount;
     }
 
 The function ``getProceduralFragmentWithPosition()`` is the default main entry point for the fragment shader. Because shaders are always read by their compiler from top to bottom, this function must always be the last one in your shader code.
@@ -160,7 +176,7 @@ The following per-fragment uniforms are also provided in all shader versions::
     vec3 _normalMS; (equal to _modelNormal)
     vec3 _normalWS; (equal to _normal)
     vec4 _color;
-    vec4 _texCoord01 (also split into vec2_texCoord0 and vec2 _texCoord1)
+    vec4 _texCoord01 (also split into vec2 _texCoord0 and vec2 _texCoord1)
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Provided Methods, Constants, and Structs
@@ -190,14 +206,6 @@ Here is a full list of the provided methods, constants, and structs::
     // https://www.shadertoy.com/view/MdX3Rr
     // https://en.wikipedia.org/wiki/Fractional_Brownian_motion
     float hifi_fbm(in vec2 p);
-    float DEFAULT_ROUGHNESS = 0.9;
-    float DEFAULT_SHININESS = 10.0;
-    float DEFAULT_METALLIC = 0.0;
-    vec3 DEFAULT_SPECULAR = vec3(0.1);
-    vec3 DEFAULT_EMISSIVE = vec3(0.0);
-    float DEFAULT_OCCLUSION = 1.0;
-    float DEFAULT_SCATTERING = 0.0;
-    vec3 DEFAULT_FRESNEL = DEFAULT_EMISSIVE;
 
     TransformCamera getTransformCamera()
     
@@ -241,7 +249,7 @@ Shader Version 1
 ::
     
     // Must implement. Always emissive, returns a single color.
-    uniform vec3 getProceduralColor()
+    vec3 getProceduralColor()
 
 Shader Version 2
 ----------------
@@ -302,6 +310,24 @@ Shader Version 4
 
 This is the same as Shader Version 3 but with per-fragment position. By modifying position, you can modify the per-fragment depth. This allows you to create things like ray-marched geometry that depth-tests properly and is dynamically lit by light entities. The trade-off is that this version is much more expensive than Version 3.
 
+^^^^^^^^^^^^^
+Zone Entities
+^^^^^^^^^^^^^
+
+Zones operate slightly differently. They support the same global defines, but not the provided methods or constants. They also provide the following inputs:
+::
+
+    vec3 _normal;
+    Skybox skybox; (a struct containing vec4 color)
+    samplerCube cubeMap; (the skybox texture)
+
+And must implement the following method, regardless of version:
+::
+
+    vec3 getSkyboxColor()
+
+Zones also support custom uniforms and textures (currently only 2D textures).
+
 --------------
 Vertex Shaders
 --------------
@@ -338,7 +364,7 @@ Procedural materials also support up to 4 custom textures and many custom unifor
     		"model": "hifi_shader_simple",
     		"procedural": {
     		    "version": 3,
-    		    "shaderUrl": "https://gist.githubusercontent.com/SamGondelman/8bbd39f91d20cab4c75280d9b1cb0764/raw/7930289654ce8309bbe785907f03eabc1dbc6181/Proceduralv3.fs",
+    		    "shaderUrl": "https://docs.projectathena.dev/_static/resources/Proceduralv3.fs",
     		    "uniforms": {
     		        "_diffuse": [1, 0, 0],
     		        "_alpha": 1.0,
