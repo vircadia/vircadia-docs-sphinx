@@ -1,20 +1,20 @@
-############################################
+#########################################
 Procedural Shaders for Models and Avatars
-############################################
+#########################################
 
 You can combine shaders with material entities on shape and zone entities to apply shaders to models and avatars. This feature is currently an **experimental feature** and is under community testing. If you wish to try applying procedural materials to models or avatars *at your own risk*, read on for more information.
 
--------------------------------------
+-----------------------------
 Enabling Procedural Materials
--------------------------------------
+-----------------------------
 
 To enable procedural materials for models and avatars: 
 
 - In Interface, enable **Settings > Developer Menu** to show the Developer menu. Then, enable **Developer > Render > Enable Procedural Materials**.
 
--------------------------------------
+-------------------------
 Making Procedural Shaders
--------------------------------------
+-------------------------
 
 You probably know about materials and how they work. Fact is, all materials are shaders. But when we apply a vertex or fragment shader to the material, it gives us lower level access to customize its effects.
 
@@ -26,9 +26,9 @@ This documentation is not intended to be a complete course on how to create a sh
 
 An understanding of how to use Javascript and JSON with Project Athena is important before you dive into this topic. If you intend to create shaders yourself, knowing the C programming language will also be important.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Differences Between Athena and GLSL Shaders
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When exploring shaders online, you may have come across many shader examples. Or you might have seen websites and applications that allow you to experiment with shader code in a live environment. Most of the code from these sources will not work with Project Athena without modification.
 
@@ -36,9 +36,9 @@ The first thing to be aware of is that there are a few shader languages. GLSL is
 
 Another consideration is that Project Athena does not expose the full range of what GLSL offers to scripters. Instead, users are offered a subset of GLSL, and a custom set of naming conventions for fragment or vertex components.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Basic Method for Using Shaders
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Shaders are stored as a file. Fragment shaders will typically have the file extension ***.fs** or ***.frag** and vertex shaders will usually have the ***.vs** or ***.vert** file extension.
 
@@ -77,9 +77,9 @@ The ``materialData`` JSON can be applied either via the Project Athena Interface
     
 You must specify the material "model" as ``hifi_shader_simple`` and provide a shader link. To provide a fragment shader, set ``fragmentShaderURL`` (or ``shaderUrl``). To provide a vertex shader, set ``vertexShaderURL``.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 Shader Template
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 When you learn about shaders for other applications, the shader may have a function like ``main()`` that is run first. By contrast, Project Athena has a specific function name that must be called. Which function is used depends on which version of the shader you use.
 
@@ -127,9 +127,9 @@ The default values for some of these are::
     const float DEFAULT_SCATTERING = 0.0;
     const vec3 DEFAULT_FRESNEL = DEFAULT_EMISSIVE;
     
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 Global Variables
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 In addition to the values provided by shader function arguments, there are a number of global variables that provide useful data when calculating procedural effects.
 
@@ -162,9 +162,9 @@ The following per-fragment uniforms are also provided in all shader versions::
     vec4 _color;
     vec4 _texCoord01 (also split into vec2_texCoord0 and vec2 _texCoord1)
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Provided Methods, Constants, and Structs
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Here is a full list of the provided methods, constants, and structs::
 
@@ -236,31 +236,75 @@ Here is a full list of the provided methods, constants, and structs::
     float isSkinningEnabled()
     float isBlendshapeEnabled()
     
-**Shader Version 1**::
+Shader Version 1
+----------------
+::
     
-    //Must implement. Always emissive, returns a single color.
+    // Must implement. Always emissive, returns a single color.
     uniform vec3 getProceduralColor()
-    
-    uniform float iGlobalTime; // shader playback time (in seconds)
-    uniform vec3 iWorldScale; // the dimensions of the object being rendered
-    
-**Shader Versions 2, 3, and 4**::
-    
-    uniform float iGlobalTime; // shader playback time (in seconds)
-    uniform vec4 iDate;
-    uniform int iFrameCount;
-    uniform vec3 iWorldPosition; // the position of the object being rendered
-    uniform vec3 iWorldScale; // the dimensions of the object being rendered
-    uniform mat3 iWorldOrientation; // the orientation of the object being rendered
-    uniform vec3 iChannelResolution[4];
-    uniform sampler2D iChannel0; // these 4 channels are set by the “channels” section in the userData
-    uniform sampler2D iChannel1;
-    uniform sampler2D iChannel2;
-    uniform sampler2D iChannel3;
 
--------------------------------------
+Shader Version 2
+----------------
+::
+
+    // Must implement. 
+    float getProceduralColors(inout vec3 diffuse, inout vec3 specular, inout float shininess)
+
+The method can optionally set diffuse, specular, and shininess, but does not have to.
+The range for shininess goes from ``0`` to ``128``. 
+The return value is ``emissiveAmount``. If the returned value is greater than ``0``, the object will be treated as emissive.
+
+Shader Version 3
+----------------
+::
+
+    // Must implement. 
+    float getProceduralFragment(inout ProceduralFragment proceduralData)
+
+``ProceduralFragment`` **struct**::
+
+    struct ProceduralFragment {
+        vec3 normal;
+        vec3 diffuse;
+        vec3 specular;
+        vec3 emissive;
+        float alpha;
+        float roughness;
+        float metallic;
+        float occlusion;
+        float scattering;
+    };
+
+The method can optionally set any of the values in the struct to affect the output.
+The return value is ``emissiveAmount``. If the returned value is greater than ``0``, the object will be treated as emissive.
+
+Shader Version 4
+----------------
+::
+
+    // Must implement. 
+    float getProceduralFragmentWithPosition(inout ProceduralFragmentWithPosition proceduralData)
+
+``ProceduralFragmentWithPosition`` **struct**::
+
+    struct ProceduralFragmentWithPosition {
+        vec3 position;
+        vec3 normal;
+        vec3 diffuse;
+        vec3 specular;
+        vec3 emissive;
+        float alpha;
+        float roughness;
+        float metallic;
+        float occlusion;
+        float scattering;
+    };
+
+This is the same as Shader Version 3 but with per-fragment position. By modifying position, you can modify the per-fragment depth. This allows you to create things like ray-marched geometry that depth-tests properly and is dynamically lit by light entities. The trade-off is that this version is much more expensive than Version 3.
+
+--------------
 Vertex Shaders
--------------------------------------
+--------------
     
 A vertex shader must implement::
 
@@ -279,13 +323,13 @@ And will include this struct::
         vec2 texCoord0;
     };
 
--------------------------------------
+--------------------------------------
 For Both Procedural and Vertex Shaders
--------------------------------------
+--------------------------------------
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Custom uniforms and textures
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Procedural materials also support up to 4 custom textures and many custom uniforms. These can be defined as follows::
 
@@ -317,25 +361,25 @@ When you provide uniforms, you must also include them at the top of your shader 
 
 Supported uniform types are: ``float``, ``vec2``, ``vec3``, and ``vec4`` (multiple values are provided as arrays.)
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Alpha Effects (Transparency)
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Shaders that make use of the ``proceduralData.alpha`` value won’t display alpha on their own. In order for a shader’s alpha to be active, the entity it is applied to must first have either its alpha property less than ``1.0``, or a material property setting opacity to less than ``1.0``.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 Debugging Shaders
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
 The only way to debug shaders at the moment is to look at the interface’s log file. Shader compilation errors will appear in this log, and can help with locating issues.
 
-Because a user created shader is ultimately embedded in a larger internal shader framework, you’ll notice that an error in a 20 line shader will be reported as a much higher line number, typically greater than 1000. As a result, you will need to locate the shader code that corresponds to your shader within the larger internal shader context.
+Because a user created shader is ultimately embedded in a larger internal shader framework, you’ll notice that an error in a 20 line shader will be reported at a much higher line number, typically greater than 1000. As a result, you will need to locate the shader code that corresponds to your shader at the end of the larger internal shader context.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 A Cautionary Note on Shaders
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You may wonder why Project Athena does not simply allow everyone to see shaders by default. Shaders are a very powerful tool, and when used incorrectly, can harm the user experience for everyone on the domain. A poorly written shader or a shader created by a bad actor can slow things down to a crawl or interfere with a user’s view of the virtual world.
+Project Athena does not enable seeing procedural shaders by default. This is because currently, they are an experimental feature. Shaders are a very powerful tool, and when used incorrectly, can harm the user experience for everyone on the domain. A poorly written shader or a shader created by a bad actor can slow things down to a crawl or interfere with a user’s view of the virtual world.
 
 Shaders are best used as a very strong spice in a recipe. Attempt to keep them small and efficient. Shaders can produce marvelous and mind-blowing effects, but overuse can spoil the desired end effect. If you create a shader that has hundreds of lines of code, consider trimming it down if possible.
 
