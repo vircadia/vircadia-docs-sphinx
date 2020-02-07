@@ -16,6 +16,8 @@ To enable procedural materials for models and avatars:
 Making Procedural Shaders
 -------------------------------------
 
+You probably know about materials and how they work. Fact is, all materials are shaders. But when we apply a vertex or fragment shader to the material, it gives us lower level access to customize its effects.
+
 Procedural shaders (or simply shaders) are textures that are created by mathematical and algorithmic means. It is a piece of code that is run on the GPU or graphics card. They can provide a range of effects such as making an object look cartoony or simulating a candle flame. If you’ve used programs like Blender or Substance Designer to create material images, then you’ve seen this in action. The difference is that these programs automatically generate the shader code for you. To make custom designs and effects, you will have to dive into the code yourself.
 
 Project Athena has support for vertex and fragment shaders on shape and material entities alongside avatars. These shaders are based on the GLSL shader language, which uses the syntax and features of the C programming language. It does not have support for geometry, tessellation and evaluation, or compute shaders.
@@ -38,11 +40,11 @@ Another consideration is that Project Athena does not expose the full range of w
 Basic Method for Using Shaders
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Shaders are stored as a file. Fragment shaders will typically have the file extension ***.fs** or ***.frag** and vertex shaders will usually have the ***.vs** or ***.vert** file extension. Historically, the ***.fs** and ***.vs** extensions have been used for Project Athena. Using these may serve as a reminder that these shaders are Project Athena specific.
+Shaders are stored as a file. Fragment shaders will typically have the file extension ***.fs** or ***.frag** and vertex shaders will usually have the ***.vs** or ***.vert** file extension.
 
 Although you can associate these files with most entities, the original author of Project Athena’s end user shader implementation viewed material entities as the ideal way to apply them to other entities. As a result, this documentation will focus on using shaders with material entities.
 
-If you are unfamiliar with material entities, you can find more information `here <https://docs.projectathena.dev/create/entities/material-entity.html/>`_.
+If you are unfamiliar with material entities, you can find more information `here <https://docs.projectathena.dev/create/entities/material-entity.html>`_.
 
 Material entities have data that is stored in the JSON format, and they have a property that is called ``materialData``. The ``materialData`` property will require model and procedural fields. Here is an example::
 
@@ -56,7 +58,7 @@ Material entities have data that is stored in the JSON format, and they have a p
         }]
     }
 
-The ``materialData`` JSON can be applied either via the Project Athena Interface’s edit tools or with a script::
+The ``materialData`` JSON can be applied either via the Project Athena Interface’s edit tools or with a script. Here's another example::
 
     Entities.addEntity({
     	type: "Material",
@@ -66,8 +68,8 @@ The ``materialData`` JSON can be applied either via the Project Athena Interface
     		materials: {
     			"model": "hifi_shader_simple"
     			"procedural": {
-    			  	"version": 2,
-    			  	"shaderUrl": "https://gist.githubusercontent.com/SamGondelman/1698eaf73d86d6a0c9238abff0116e8d/raw/1aa938de50c1b6f31af8a122f40a7ce331eeb533/Proceduralv2.fs"
+    			  	"version": 3,
+    			  	"shaderUrl": "https://gist.githubusercontent.com/SamGondelman/8bbd39f91d20cab4c75280d9b1cb0764/raw/7930289654ce8309bbe785907f03eabc1dbc6181/Proceduralv3.fs"
     			}
     		}
     	})
@@ -81,7 +83,7 @@ Shader Template
 
 When you learn about shaders for other applications, the shader may have a function like ``main()`` that is run first. By contrast, Project Athena has a specific function name that must be called. Which function is used depends on which version of the shader you use.
 
-As shaders were developed, features for them evolved a bit over time. As a result, there are several shader versions, and each version has a different call signature. Versions 1 and 2 are the oldest, and will still work. Versions 3 and 4 are the newest and expose more features. Version 4 provided for per-fragment positions, and as it is the most feature complete this documentation will focus on this version.
+As shaders were developed, features for them evolved a bit over time. As a result, there are several shader versions, and each version has a different call signature. **Versions 1 and 2** are the oldest, and will still work. **Versions 3 and 4** are the newest and expose more features. Version 4 provides for per-fragment positions, however it is also the most expensive. Therefore it is recommended to use Version 3 if that extra feature from Version 4 is not needed.
 
 The most basic template for a shader will look something like this example::
 
@@ -146,12 +148,12 @@ The following global variables are provided::
 
 The following variables are defined but currently not implemented::
 
-    vec3 iResolution;
-    vec4 iMouse;
-    float iSampleRate;
-    vec4 iChannelTime;
+    const vec3 iResolution = vec3(1.0); // Resolution doesn’t make sense in the VR context
+    const vec4 iMouse = vec4(0.0); // Mouse functions not enabled currently
+    const float iSampleRate = 1.0; // No support for audio input
+    const vec4 iChannelTime = vec4(0.0); // No support for video input
 
-The following per-fragment uniforms are also provided::
+The following per-fragment uniforms are also provided in all shader versions::
 
     vec4 _positionMS; (equal to _position)
     vec4 _positionES; (equal to _eyePosition)
@@ -159,7 +161,7 @@ The following per-fragment uniforms are also provided::
     vec3 _normalWS; (equal to _normal)
     vec4 _color;
     vec4 _texCoord01 (also split into vec2_texCoord0 and vec2 _texCoord1)
-    
+
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Provided Methods, Constants, and Structs
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -180,8 +182,13 @@ Here is a full list of the provided methods, constants, and structs::
     float snoise(vec4 v);
     float snoise(vec3 v);
     float snoise(vec2 v);
+    
+    // https://www.shadertoy.com/view/lsfGRr
     float hifi_hash(float n);
     float hifi_noise(in vec2 x);
+    
+    // https://www.shadertoy.com/view/MdX3Rr
+    // https://en.wikipedia.org/wiki/Fractional_Brownian_motion
     float hifi_fbm(in vec2 p);
     float DEFAULT_ROUGHNESS = 0.9;
     float DEFAULT_SHININESS = 10.0;
@@ -229,21 +236,15 @@ Here is a full list of the provided methods, constants, and structs::
     float isSkinningEnabled()
     float isBlendshapeEnabled()
     
-All Shader Versions
+**Shader Version 1**::
     
-    vec3 _normalWS;
-    vec3 _normalMS;
-    vec4 _color;
-    vec2 _texCoord0;
-    vec4 _positionMS;
-    vec4 _positionES;
-    
-Shader Version 1::
+    //Must implement. Always emissive, returns a single color.
+    uniform vec3 getProceduralColor()
     
     uniform float iGlobalTime; // shader playback time (in seconds)
     uniform vec3 iWorldScale; // the dimensions of the object being rendered
     
-Shader Versions 2, 3, and 4::
+**Shader Versions 2, 3, and 4**::
     
     uniform float iGlobalTime; // shader playback time (in seconds)
     uniform vec4 iDate;
@@ -256,59 +257,12 @@ Shader Versions 2, 3, and 4::
     uniform sampler2D iChannel1;
     uniform sampler2D iChannel2;
     uniform sampler2D iChannel3;
-    
-There are also some global variables that, while recognized, are not implemented::
-    
-    const vec3 iResolution = vec3(1.0); // Resolution doesn’t make sense in the VR context
-    const vec4 iMouse = vec4(0.0); // Mouse functions not enabled currently
-    const float iSampleRate = 1.0; // No support for audio input
-    const vec4 iChannelTime = vec4(0.0); // No support for video input
-    
-^^^^^^^^^^^^^^^^^^^^^^^^^
-Additional Features
-^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As well as the data provided by the global variables, you can also make use of any built in GLSL and noise functions. Some of these are listed here::
-
-    TransformCamera getTransformCamera();
-    // Where a TransformCamera is:
-    struct TransformCamera {
-    mat4 _view;
-    mat4 _viewInverse;
-    mat4 _projectionViewUntranslated;
-    mat4 _projection;
-    mat4 _projectionInverse;
-    vec4 _viewport;
-    vec4 _stereoInfo;
-    };
-
-    vec3 getEyeWorldPos()
-    bool cam_isStereo()
-    float cam_getStereoSide()
-
-    // Noise functions
-    float mod289(float x)
-    vec2 mod289(vec2 x)
-    vec3 mod289(vec3 x)
-    vec4 mod289(vec4 x)
-    float permute(float x)
-    vec3 permute(vec3 x)
-    vec4 permute(vec4 x)
-    float taylorInvSqrt(float r)
-    vec4 taylorInvSqrt(vec4 r)
-    vec4 grad4(float j, vec4 ip)
-    float snoise(vec4 v)
-    float snoise(vec3 v)
-    float snoise(vec2 v)
-    float hifi_hash(float n)
-    float hifi_noise(in vec2 x)
-    float hifi_fbm(in vec2 p)
-    
 -------------------------------------
 Vertex Shaders
 -------------------------------------
     
-A vertex shader template might look like this, but at the very least must implement::
+A vertex shader must implement::
 
     void getProceduralVertex(inout ProceduralVertexData proceduralData)
     
@@ -326,7 +280,7 @@ And will include this struct::
     };
 
 -------------------------------------
-Procedural and Vertex Shaders
+For Both Procedural and Vertex Shaders
 -------------------------------------
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -367,7 +321,7 @@ Supported uniform types are: ``float``, ``vec2``, ``vec3``, and ``vec4`` (multip
 Alpha Effects (Transparency)
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Shaders that make use of the ``proceduralData.alpha`` value won’t display alpha on its own. In order for a shader’s alpha to be active, the entity it is applied to must first have either its alpha property less than 1.0, or a material property setting opacity to less than 1.0.
+Shaders that make use of the ``proceduralData.alpha`` value won’t display alpha on their own. In order for a shader’s alpha to be active, the entity it is applied to must first have either its alpha property less than ``1.0``, or a material property setting opacity to less than ``1.0``.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Debugging Shaders
@@ -381,11 +335,9 @@ Because a user created shader is ultimately embedded in a larger internal shader
 A Cautionary Note on Shaders
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You may wonder why Project Athena does not simply allow everyone to see shaders by default. Shaders are a very powerful tool, and when used incorrectly, can harm the user experience for everyone on the platform. A poorly written shader or a shader created by a bad actor can slow things down to a crawl or interfere with a user’s view of the virtual world.
-
-Also, Project Athena does not currently support shaders as anything but an experimental feature. Shader support for meshes is an open source contribution and is not maintained or documented by Project Athena.
+You may wonder why Project Athena does not simply allow everyone to see shaders by default. Shaders are a very powerful tool, and when used incorrectly, can harm the user experience for everyone on the domain. A poorly written shader or a shader created by a bad actor can slow things down to a crawl or interfere with a user’s view of the virtual world.
 
 Shaders are best used as a very strong spice in a recipe. Attempt to keep them small and efficient. Shaders can produce marvelous and mind-blowing effects, but overuse can spoil the desired end effect. If you create a shader that has hundreds of lines of code, consider trimming it down if possible.
 
-If you find yourself in a position where a shader is causing trouble for you, remember that you can disable them in the Project Athena Interface.
+If you find yourself in a position where a shader is causing trouble for you, remember that you can disable them in the Athena Interface.
 

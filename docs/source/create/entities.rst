@@ -2,7 +2,7 @@
 Entities
 #######################
 
-To build any content in High Fidelity, whether it is an object that you interact with, or a domain to host an event, you need entities. *Entities* are the building blocks of the virtual world, and are used to build items as simple as boxes and squares to complex animated items such as butterflies and stereo equipment. Each entity type has its own set of properties that define its appearance and behavior. 
+To build any content in Project Athena, whether it is an object that you interact with, or a domain to host an event, you need entities. *Entities* are the building blocks of the virtual world, and are used to build items as simple as boxes and squares to complex animated items such as butterflies and stereo equipment. Each entity type has its own set of properties that define its appearance and behavior. 
 
 **In This Section:**
 
