@@ -8,7 +8,7 @@ You can attach shaders to material entities, which are then applied to shape, zo
 Enabling Procedural Materials
 -----------------------------
 
-To enable procedural materials for models and avatars: 
+To enable procedural materials for models and avatars:
 
 - In Interface, enable **Settings > Developer Menu** to show the Developer menu. Then, enable **Developer > Render > Enable Procedural Materials**.
 
@@ -23,7 +23,7 @@ Procedural shaders (or simply shaders) are textures that are created by mathemat
 `The Book of Shaders <https://thebookofshaders.com/01>`_ expands on this with an analogy:
 
     If you already have experience making drawings with computers, you know that in that process you draw a circle, then a rectangle, a line, some triangles until you compose the image you want. That process is very similar to writing a letter or a book by hand - it is a set of instructions that do one task after another.
-    
+
     Shaders are also a set of instructions, but the instructions are executed all at once for every single pixel on the screen. That means the code you write has to behave differently depending on the position of the pixel on the screen. Like a type press, your program will work as a function that receives a position and returns a color, and when it's compiled it will run extraordinarily fast.
 
 Project Athena has support for vertex and fragment shaders on shape and material entities alongside avatars. These shaders are based on the GLSL shader language, which uses the syntax and features of the C programming language. It does not have support for geometry, tessellation and evaluation, or compute shaders.
@@ -80,7 +80,7 @@ The ``materialData`` JSON can be applied either via the Project Athena Interface
     		}
     	})
     });
-    
+
 You must specify the material "model" as ``hifi_shader_simple`` and provide a shader link. To provide a fragment shader, set ``fragmentShaderURL`` (or ``shaderUrl``). To provide a vertex shader, set ``vertexShaderURL``.
 
 ^^^^^^^^^^^^^^^
@@ -91,28 +91,15 @@ When you learn about shaders for other applications, the shader may have a funct
 
 As shaders were developed, features for them evolved a bit over time. As a result, there are several shader versions, and each version has a different call signature. **Versions 1 and 2** are the oldest, and will still work. **Versions 3 and 4** are the newest and expose more features. Version 4 provides for per-fragment positions, however it is also the most expensive. Therefore it is recommended to use Version 3 if that extra feature from Version 4 is not needed.
 
-The most basic template for a shader will look something like this example::
+A basic template for a shader will look something like this example::
 
-    uniform vec3 _diffuse = vec3(0.0);
-    uniform vec3 _specular = vec3(0.0);
-    uniform vec3 _emissive = vec3(0.0);
-    uniform float _alpha = 1.0;
-    uniform float _roughness = 0.0;
-    uniform float _metallic = 0.0;
-    uniform float _occlusion = 0.0;
-    uniform float _scattering = 0.0;
-    uniform float _emissiveAmount = 0.0;
-
-    float getProceduralFragment(inout ProceduralFragment proceduralData) {
-        proceduralData.diffuse = _diffuse;
-        proceduralData.specular = _specular;
-        proceduralData.emissive = _emissive;
-        proceduralData.alpha = _alpha;
-        proceduralData.roughness = _roughness;
-        proceduralData.metallic = _metallic;
-        proceduralData.occlusion = _occlusion;
-        proceduralData.scattering = _scattering;
-        return _emissiveAmount;
+    // version 3
+    float getProceduralFragment(inout ProceduralFragment data) {
+        data.diffuse = vec3(0);
+        data.occlusion = 0;
+        data.roughness = 1;
+        data.emissive = _positionMS.xyz;
+        return 0; // "emissiveAmount", either <=0 or >0, suggest return 0 and use data.emissive
     }
 
 The function ``getProceduralFragmentWithPosition()`` is the default main entry point for the fragment shader. Because shaders are always read by their compiler from top to bottom, this function must always be the last one in your shader code.
@@ -131,7 +118,7 @@ This function also has the parameter ``ProceduralFragmentWithPosition``. This pa
         float occlusion;
         float scattering;
     };
-    
+
 The default values for some of these are::
 
     const float DEFAULT_ROUGHNESS = 0.9;
@@ -142,7 +129,45 @@ The default values for some of these are::
     const float DEFAULT_OCCLUSION = 1.0;
     const float DEFAULT_SCATTERING = 0.0;
     const vec3 DEFAULT_FRESNEL = DEFAULT_EMISSIVE;
-    
+
+Here's an example shader list for each version::
+
+    // version 1
+    vec3 getProceduralColor() {
+        return _positionMS.xyz;
+    }
+
+    // version 2
+    float getProceduralColors(inout vec3 diffuse, inout vec3 specular, inout float shininess) {
+        // diffuse is from the texture, others are hardcoded to DEFAULT_SPECULAR and DEFAULT_SHININESS
+        diffuse = _positionMS.xyz;
+        return 1.0; // emissive, between 0.0 - 1.0
+    }
+
+    // version 3
+    float getProceduralFragment(inout ProceduralFragment data) {
+        data.diffuse = vec3(0);
+        data.occlusion = 0;
+        data.roughness = 1;
+        data.emissive = _positionMS.xyz;
+        return 0; // "emissiveAmount", either <=0 or >0, suggest return 0 and use data.emissive
+    }
+
+    // version 4
+        float getProceduralFragmentWithPosition(inout ProceduralFragmentWithPosition data) {
+        data.diffuse = vec3(0);
+        data.occlusion = 0;
+        data.roughness = 1;
+        data.emissive = _positionMS.xyz;
+        return 0; // "emissiveAmount", either <=0 or >0, suggest return 0 and use data.emissive
+    }
+
+    // skybox
+    vec3 getSkyboxColor() {
+        vec3 normal = normalize(_normal);
+        return texture(cubeMap, normal).rgb; // this should return the same value that the skybox texture has
+    }
+
 ^^^^^^^^^^^^^^^^
 Global Variables
 ^^^^^^^^^^^^^^^^
@@ -171,12 +196,12 @@ The following variables are defined but currently not implemented::
 
 The following per-fragment uniforms are also provided in all shader versions::
 
-    vec4 _positionMS; (equal to _position)
-    vec4 _positionES; (equal to _eyePosition)
-    vec3 _normalMS; (equal to _modelNormal)
-    vec3 _normalWS; (equal to _normal)
-    vec4 _color;
-    vec4 _texCoord01 (also split into vec2 _texCoord0 and vec2 _texCoord1)
+    vec4 _positionMS; // position in "model space" (relative to the center of the object); (equal to _position)
+    vec4 _positionES; // position in "eye space" (relative to the center of your eye); (equal to _eyePosition)
+    vec3 _normalMS; direction the current face is pointing in "model space" (without any rotations); (equal to _modelNormal)
+    vec3 _normalWS; // direction the current face is pointing in "world space" (after rotations applied); (equal to _normal)
+    vec4 _color; // color of the object
+    vec4 _texCoord01 // UV texture coordinates on this model (also split into vec2 _texCoord0 and vec2 _texCoord1)
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Provided Methods, Constants, and Structs
@@ -198,17 +223,17 @@ Here is a full list of the provided methods, constants, and structs::
     float snoise(vec4 v);
     float snoise(vec3 v);
     float snoise(vec2 v);
-    
+
     // https://www.shadertoy.com/view/lsfGRr
     float hifi_hash(float n);
     float hifi_noise(in vec2 x);
-    
+
     // https://www.shadertoy.com/view/MdX3Rr
     // https://en.wikipedia.org/wiki/Fractional_Brownian_motion
     float hifi_fbm(in vec2 p);
 
     TransformCamera getTransformCamera()
-    
+
     // where a TransformCamera is:
     struct _TransformCamera {
         mat4 _view;
@@ -222,8 +247,8 @@ Here is a full list of the provided methods, constants, and structs::
 
     int gpu_InstanceID()
     vec3 getEyeWorldPos()
-    bool cam_isStereo()
-    float cam_getStereoSide()
+    bool cam_isStereo() // is user wearing a VR headset (or a 3D monitor?)
+    float cam_getStereoSide() // 1 for right eye in a stereo context, otherwise 0
     float isUnlitEnabled()
     float isEmissiveEnabled()
     float isLightmapEnabled()
@@ -243,11 +268,11 @@ Here is a full list of the provided methods, constants, and structs::
     float isBloomEnabled()
     float isSkinningEnabled()
     float isBlendshapeEnabled()
-    
+
 Shader Version 1
 ----------------
 ::
-    
+
     // Must implement. Always emissive, returns a single color.
     vec3 getProceduralColor()
 
@@ -255,18 +280,18 @@ Shader Version 2
 ----------------
 ::
 
-    // Must implement. 
+    // Must implement.
     float getProceduralColors(inout vec3 diffuse, inout vec3 specular, inout float shininess)
 
 The method can optionally set diffuse, specular, and shininess, but does not have to.
-The range for shininess goes from ``0`` to ``128``. 
+The range for shininess goes from ``0`` to ``128``.
 The return value is ``emissiveAmount``. If the returned value is greater than ``0``, the object will be treated as emissive.
 
 Shader Version 3
 ----------------
 ::
 
-    // Must implement. 
+    // Must implement.
     float getProceduralFragment(inout ProceduralFragment proceduralData)
 
 ``ProceduralFragment`` **struct**::
@@ -290,7 +315,7 @@ Shader Version 4
 ----------------
 ::
 
-    // Must implement. 
+    // Must implement.
     float getProceduralFragmentWithPosition(inout ProceduralFragmentWithPosition proceduralData)
 
 ``ProceduralFragmentWithPosition`` **struct**::
@@ -331,11 +356,11 @@ Zones also support custom uniforms and textures (currently only 2D textures).
 --------------
 Vertex Shaders
 --------------
-    
+
 A vertex shader must implement::
 
     void getProceduralVertex(inout ProceduralVertexData proceduralData)
-    
+
 And will include this struct::
 
     struct ProceduralVertexData {
@@ -410,4 +435,3 @@ Project Athena does not enable seeing procedural shaders by default. This is bec
 Shaders are best used as a very strong spice in a recipe. Attempt to keep them small and efficient. Shaders can produce marvelous and mind-blowing effects, but overuse can spoil the desired end effect. If you create a shader that has hundreds of lines of code, consider trimming it down if possible.
 
 If you find yourself in a position where a shader is causing trouble for you, remember that you can disable them in the Athena Interface.
-
