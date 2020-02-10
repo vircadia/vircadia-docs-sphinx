@@ -130,7 +130,11 @@ The default values for some of these are::
     const float DEFAULT_SCATTERING = 0.0;
     const vec3 DEFAULT_FRESNEL = DEFAULT_EMISSIVE;
 
-Here's an example shader list for each version::
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+Shader Examples by Version
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+::
 
     // version 1
     vec3 getProceduralColor() {
@@ -167,6 +171,8 @@ Here's an example shader list for each version::
         vec3 normal = normalize(_normal);
         return texture(cubeMap, normal).rgb; // this should return the same value that the skybox texture has
     }
+
+For further details on each version, see :ref:`Provided Methods, Constants, and Structs`.
 
 ^^^^^^^^^^^^^^^^
 Global Variables
