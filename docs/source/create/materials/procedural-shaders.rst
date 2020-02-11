@@ -83,6 +83,16 @@ The ``materialData`` JSON can be applied either via the Project Athena Interface
 
 You must specify the material "model" as ``hifi_shader_simple`` and provide a shader link. To provide a fragment shader, set ``fragmentShaderURL`` (or ``shaderUrl``). To provide a vertex shader, set ``vertexShaderURL``.
 
+To set the materialData using the edit tools, you will want to set ``materialURL`` equal to **materialData**. Then you will want to put in the JSON.stringify'd version of the materialData into the field::
+
+    materials: {
+        "model": "hifi_shader_simple",
+        "procedural": {
+            "version": 3,
+            "shaderUrl": "https://docs.projectathena.dev/_static/resources/Proceduralv3.fs"
+        }
+    }
+
 ^^^^^^^^^^^^^^^
 Shader Template
 ^^^^^^^^^^^^^^^
