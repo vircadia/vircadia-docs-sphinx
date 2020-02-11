@@ -56,10 +56,10 @@ Material entities have data that is stored in the JSON format, and they have a p
 
     {
         "materials": [{
-            "model": "hifi_shader_simple"
+            "model": "hifi_shader_simple",
             "procedural": {
-            "version": 3,
-            "shaderUrl": "https://docs.projectathena.dev/_static/resources/Proceduralv3.fs"
+                "version": 3,
+                "shaderUrl": "https://docs.projectathena.dev/_static/resources/Proceduralv3.fs"
             }
         }]
     }
@@ -72,7 +72,7 @@ The ``materialData`` JSON can be applied either via the Project Athena Interface
     	priority: 1,
     	materialData: JSON.stringify({
     		materials: {
-    			"model": "hifi_shader_simple"
+    			"model": "hifi_shader_simple",
     			"procedural": {
     			  	"version": 3,
     			  	"shaderUrl": "https://docs.projectathena.dev/_static/resources/Proceduralv3.fs"
@@ -91,8 +91,12 @@ When you learn about shaders for other applications, the shader may have a funct
 
 As shaders were developed, features for them evolved a bit over time. As a result, there are several shader versions, and each version has a different call signature. **Versions 1 and 2** are the oldest, and will still work. **Versions 3 and 4** are the newest and expose more features. Version 4 provides for per-fragment positions, however it is also the most expensive. Therefore it is recommended to use Version 3 if that extra feature from Version 4 is not needed.
 
-A basic template for a shader will look something like this example::
+A shader consists of two primary pieces, **the main function** that is responsible for coloring the pixel and then any desired **helper functions** that assist in that processing logic, which will go above the main function.
 
+A basic template for a shader without helper functions will look something like this example::
+
+    // Helper functions go here.
+    
     // version 3
     float getProceduralFragment(inout ProceduralFragment data) {
         data.diffuse = vec3(0);
@@ -102,77 +106,7 @@ A basic template for a shader will look something like this example::
         return 0; // "emissiveAmount", either <=0 or >0, suggest return 0 and use data.emissive
     }
 
-The function ``getProceduralFragmentWithPosition()`` is the default main entry point for the fragment shader. Because shaders are always read by their compiler from top to bottom, this function must always be the last one in your shader code.
-
-This function also has the parameter ``ProceduralFragmentWithPosition``. This parameter is a data structure that contains entries that correspond to the usual Project Athena materials. The structure is described below::
-
-    struct ProceduralFragmentWithPosition {
-        vec3 position; // world space position
-        vec3 normal; // world space normal
-        vec3 diffuse;
-        vec3 specular;
-        vec3 emissive;
-        float alpha;
-        float roughness;
-        float metallic;
-        float occlusion;
-        float scattering;
-    };
-
-The default values for some of these are::
-
-    const float DEFAULT_ROUGHNESS = 0.9;
-    const float DEFAULT_SHININESS = 10.0;
-    const float DEFAULT_METALLIC = 0.0;
-    const vec3 DEFAULT_SPECULAR = vec3(0.1);
-    const vec3 DEFAULT_EMISSIVE = vec3(0.0);
-    const float DEFAULT_OCCLUSION = 1.0;
-    const float DEFAULT_SCATTERING = 0.0;
-    const vec3 DEFAULT_FRESNEL = DEFAULT_EMISSIVE;
-
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-Shader Examples by Version
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-::
-
-    // version 1
-    vec3 getProceduralColor() {
-        return _positionMS.xyz;
-    }
-
-    // version 2
-    float getProceduralColors(inout vec3 diffuse, inout vec3 specular, inout float shininess) {
-        // diffuse is from the texture, others are hardcoded to DEFAULT_SPECULAR and DEFAULT_SHININESS
-        diffuse = _positionMS.xyz;
-        return 1.0; // emissive, between 0.0 - 1.0
-    }
-
-    // version 3
-    float getProceduralFragment(inout ProceduralFragment data) {
-        data.diffuse = vec3(0);
-        data.occlusion = 0;
-        data.roughness = 1;
-        data.emissive = _positionMS.xyz;
-        return 0; // "emissiveAmount", either <=0 or >0, suggest return 0 and use data.emissive
-    }
-
-    // version 4
-        float getProceduralFragmentWithPosition(inout ProceduralFragmentWithPosition data) {
-        data.diffuse = vec3(0);
-        data.occlusion = 0;
-        data.roughness = 1;
-        data.emissive = _positionMS.xyz;
-        return 0; // "emissiveAmount", either <=0 or >0, suggest return 0 and use data.emissive
-    }
-
-    // skybox
-    vec3 getSkyboxColor() {
-        vec3 normal = normalize(_normal);
-        return texture(cubeMap, normal).rgb; // this should return the same value that the skybox texture has
-    }
-
-For further details on each version, see :ref:`Provided Methods, Constants, and Structs`.
+The function ``getProceduralFragment()`` is the default main entry point for the fragment shader. Because shaders are always read by their compiler from top to bottom, this function must always be the last one in your shader code. You will also need to know what is available to you in the ``data`` struct which is outlined in :ref:`Provided Methods, Constants, and Structs`.
 
 ^^^^^^^^^^^^^^^^
 Global Variables
@@ -204,7 +138,7 @@ The following per-fragment uniforms are also provided in all shader versions::
 
     vec4 _positionMS; // position in "model space" (relative to the center of the object); (equal to _position)
     vec4 _positionES; // position in "eye space" (relative to the center of your eye); (equal to _eyePosition)
-    vec3 _normalMS; direction the current face is pointing in "model space" (without any rotations); (equal to _modelNormal)
+    vec3 _normalMS; // direction the current face is pointing in "model space" (without any rotations); (equal to _modelNormal)
     vec3 _normalWS; // direction the current face is pointing in "world space" (after rotations applied); (equal to _normal)
     vec4 _color; // color of the object
     vec4 _texCoord01 // UV texture coordinates on this model (also split into vec2 _texCoord0 and vec2 _texCoord1)
@@ -339,6 +273,17 @@ Shader Version 4
         float scattering;
     };
 
+The default values for some of these are::
+
+    const float DEFAULT_ROUGHNESS = 0.9;
+    const float DEFAULT_SHININESS = 10.0;
+    const float DEFAULT_METALLIC = 0.0;
+    const vec3 DEFAULT_SPECULAR = vec3(0.1);
+    const vec3 DEFAULT_EMISSIVE = vec3(0.0);
+    const float DEFAULT_OCCLUSION = 1.0;
+    const float DEFAULT_SCATTERING = 0.0;
+    const vec3 DEFAULT_FRESNEL = DEFAULT_EMISSIVE;
+
 This is the same as Shader Version 3 but with per-fragment position. By modifying position, you can modify the per-fragment depth. This allows you to create things like ray-marched geometry that depth-tests properly and is dynamically lit by light entities. The trade-off is that this version is much more expensive than Version 3.
 
 ^^^^^^^^^^^^^
@@ -381,7 +326,7 @@ And will include this struct::
     };
 
 --------------------------------------
-For Both Procedural and Vertex Shaders
+For Both Fragment and Vertex Shaders
 --------------------------------------
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -431,6 +376,50 @@ Debugging Shaders
 The only way to debug shaders at the moment is to look at the interface’s log file. Shader compilation errors will appear in this log, and can help with locating issues.
 
 Because a user created shader is ultimately embedded in a larger internal shader framework, you’ll notice that an error in a 20 line shader will be reported at a much higher line number, typically greater than 1000. As a result, you will need to locate the shader code that corresponds to your shader at the end of the larger internal shader context.
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+Shader Examples by Version
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+::
+
+    // version 1
+    vec3 getProceduralColor() {
+        return _positionMS.xyz;
+    }
+
+    // version 2
+    float getProceduralColors(inout vec3 diffuse, inout vec3 specular, inout float shininess) {
+        // diffuse is from the texture, others are hardcoded to DEFAULT_SPECULAR and DEFAULT_SHININESS
+        diffuse = _positionMS.xyz;
+        return 1.0; // emissive, between 0.0 - 1.0
+    }
+
+    // version 3
+    float getProceduralFragment(inout ProceduralFragment data) {
+        data.diffuse = vec3(0);
+        data.occlusion = 0;
+        data.roughness = 1;
+        data.emissive = _positionMS.xyz;
+        return 0; // "emissiveAmount", either <=0 or >0, suggest return 0 and use data.emissive
+    }
+
+    // version 4
+        float getProceduralFragmentWithPosition(inout ProceduralFragmentWithPosition data) {
+        data.diffuse = vec3(0);
+        data.occlusion = 0;
+        data.roughness = 1;
+        data.emissive = _positionMS.xyz;
+        return 0; // "emissiveAmount", either <=0 or >0, suggest return 0 and use data.emissive
+    }
+
+    // skybox
+    vec3 getSkyboxColor() {
+        vec3 normal = normalize(_normal);
+        return texture(cubeMap, normal).rgb; // this should return the same value that the skybox texture has
+    }
+
+For further details on each version, see :ref:`Provided Methods, Constants, and Structs`.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 A Cautionary Note on Shaders
