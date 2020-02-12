@@ -26,7 +26,7 @@ Procedural shaders (or simply shaders) are textures that are created by mathemat
 
     Shaders are also a set of instructions, but the instructions are executed all at once for every single pixel on the screen. That means the code you write has to behave differently depending on the position of the pixel on the screen. Like a type press, your program will work as a function that receives a position and returns a color, and when it's compiled it will run extraordinarily fast.
 
-Project Athena has support for vertex and fragment shaders on shape and material entities alongside avatars. These shaders are based on the GLSL shader language, which uses the syntax and features of the C programming language. It does not have support for geometry, tessellation and evaluation, or compute shaders.
+Project Athena has support for vertex and fragment shaders on shape and material entities, and avatars. These shaders are based on the GLSL shader language, which uses the syntax and features of the C programming language. It does not have support for geometry, tessellation and evaluation, or compute shaders.
 
 This documentation is not intended to be a complete course on how to create a shader. This is an advanced topic that requires good math and programming skills. Many free books are available on the internet that can teach about shaders. `The Book of Shaders <https://thebookofshaders.com>`_ is one such book that is often cited.
 
@@ -52,7 +52,7 @@ Shaders are applied to entities and avatars by way of attaching them to a materi
 
 If you are unfamiliar with material entities, you can find more information `here <https://docs.projectathena.dev/create/entities/material-entity.html>`_.
 
-Material entities have data that is stored in the JSON format, and they have a property that is called ``materialData``. The ``materialData`` property will require model and procedural fields. Here is an example::
+Material entities have data that is stored in the JSON format, and they have a property called ``materialData``. The ``materialData`` property requires ``model`` and ``procedural`` fields. Here is an example::
 
     {
         "materials": [{
@@ -81,9 +81,9 @@ The ``materialData`` JSON can be applied either via the Project Athena Interface
     	})
     });
 
-You must specify the material "model" as ``hifi_shader_simple`` and provide a shader link. To provide a fragment shader, set ``fragmentShaderURL`` (or ``shaderUrl``). To provide a vertex shader, set ``vertexShaderURL``.
+You must specify the material's ``model`` as ``"hifi_shader_simple"`` and provide a shader link. To provide a fragment shader, set ``fragmentShaderURL`` (or ``shaderUrl``). To provide a vertex shader, set ``vertexShaderURL``.
 
-To set the materialData using the edit tools, you will want to set ``materialURL`` equal to **materialData**. Then put in the JSON.stringify'd version of the materialData as shown above into the field.
+To set the ``materialData`` using the edit tools, you will want to set ``materialURL`` equal to ``"materialData"``. Then put in the JSON.stringify'd version of the materialData as shown above into the field.
 
 ^^^^^^^^^^^^^^^
 Shader Template
@@ -91,11 +91,11 @@ Shader Template
 
 When you learn about shaders for other applications, the shader may have a function like ``main()`` that is run first. By contrast, Project Athena has a specific function name that must be called. Which function is used depends on which version of the shader you use.
 
-As shaders were developed, features for them evolved a bit over time. As a result, there are several shader versions, and each version has a different call signature. **Versions 1 and 2** are the oldest, and will still work. **Versions 3 and 4** are the newest and expose more features. Version 4 provides for per-fragment positions, however it is also the most expensive. Therefore it is recommended to use Version 3 if that extra feature from Version 4 is not needed.
+As shaders were developed, features for them evolved a bit over time. As a result, there are several shader versions, and each version has a different call signature. **Versions 1 and 2** are the oldest, and will still work. **Versions 3 and 4** are the newest and expose more features. Version 4 provides for per-fragment positions, however it is also the most computationally expensive. Therefore it is recommended to use version 3 if that extra feature from version 4 is not needed.
 
-A shader consists of two primary pieces, **the main function** that is responsible for coloring the pixel and then any desired **helper functions** that assist in that processing logic, which will go above the main function.
+A shader consists of two primary pieces: **the main function** that is responsible for coloring the pixel, and any desired **helper functions** that assist in that processing logic (which must go above the main function).
 
-A basic template for a shader without helper functions will look something like this example::
+A basic template for a shader without helper functions looks something like this example::
 
     // Helper functions go here.
     
@@ -286,18 +286,18 @@ Shader Version 4
         float scattering;
     };
 
-This is the same as Shader Version 3 but with per-fragment position. By modifying position, you can modify the per-fragment depth. This allows you to create things like ray-marched geometry that depth-tests properly and is dynamically lit by light entities. The trade-off is that this version is much more expensive than Version 3.
+This is the same as shader version 3 but with per-fragment position. By modifying position, you can modify the per-fragment depth. This allows you to create things like ray-marched geometry that depth-tests properly and is dynamically lit by light entities. The trade-off is that this version is much more computationally expensive than version 3.
 
 ^^^^^^^^^^^^^
 Zone Entities
 ^^^^^^^^^^^^^
 
-Zones operate slightly differently. They support the same global defines, but not the provided methods or constants. They also provide the following inputs:
+Zones entities operate slightly differently. They support the same global defines but not the provided methods or constants. They also provide the following inputs:
 ::
 
     vec3 _normal;
-    Skybox skybox; (a struct containing vec4 color)
-    samplerCube cubeMap; (the skybox texture)
+    Skybox skybox; // a struct containing vec4 color
+    samplerCube cubeMap; // the skybox texture
 
 And must implement the following method, regardless of version:
 ::
@@ -332,7 +332,7 @@ For Both Fragment and Vertex Shaders
 --------------------------------------
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Custom uniforms and textures
+Custom Uniforms and Textures
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Procedural materials also support up to 4 custom textures and many custom uniforms. These can be defined as follows::
@@ -363,7 +363,7 @@ When you provide uniforms, you must also include them at the top of your shader 
     uniform vec3 _emissive = vec3(0.0);
     uniform float _emissiveAmount = 0.0;
 
-Supported uniform types are: ``float``, ``vec2``, ``vec3``, and ``vec4`` (multiple values are provided as arrays.)
+Supported uniform types are: ``float``, ``vec2``, ``vec3``, and ``vec4``. (Multiple values are provided as arrays.)
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Alpha Effects (Transparency)
@@ -375,7 +375,7 @@ Shaders that make use of the ``proceduralData.alpha`` value won’t display alph
 Debugging Shaders
 ^^^^^^^^^^^^^^^^^
 
-The only way to debug shaders at the moment is to look at the interface’s log file. Shader compilation errors will appear in this log, and can help with locating issues.
+The only way to debug shaders at the moment is to look at Interface’s log file. Shader compilation errors will appear in this log, and can help with locating issues.
 
 Because a user created shader is ultimately embedded in a larger internal shader framework, you’ll notice that an error in a 20 line shader will be reported at a much higher line number, typically greater than 1000. As a result, you will need to locate the shader code that corresponds to your shader at the end of the larger internal shader context.
 
