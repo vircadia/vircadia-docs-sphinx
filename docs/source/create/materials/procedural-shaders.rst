@@ -83,15 +83,7 @@ The ``materialData`` JSON can be applied either via the Project Athena Interface
 
 You must specify the material "model" as ``hifi_shader_simple`` and provide a shader link. To provide a fragment shader, set ``fragmentShaderURL`` (or ``shaderUrl``). To provide a vertex shader, set ``vertexShaderURL``.
 
-To set the materialData using the edit tools, you will want to set ``materialURL`` equal to **materialData**. Then you will want to put in the JSON.stringify'd version of the materialData into the field::
-
-    materials: {
-        "model": "hifi_shader_simple",
-        "procedural": {
-            "version": 3,
-            "shaderUrl": "https://docs.projectathena.dev/_static/resources/Proceduralv3.fs"
-        }
-    }
+To set the materialData using the edit tools, you will want to set ``materialURL`` equal to **materialData**. Then put in the JSON.stringify'd version of the materialData as shown above into the field.
 
 ^^^^^^^^^^^^^^^
 Shader Template
@@ -258,6 +250,17 @@ Shader Version 3
         float scattering;
     };
 
+The default values for some of these are::
+
+    const float DEFAULT_ROUGHNESS = 0.9;
+    const float DEFAULT_SHININESS = 10.0;
+    const float DEFAULT_METALLIC = 0.0;
+    const vec3 DEFAULT_SPECULAR = vec3(0.1);
+    const vec3 DEFAULT_EMISSIVE = vec3(0.0);
+    const float DEFAULT_OCCLUSION = 1.0;
+    const float DEFAULT_SCATTERING = 0.0;
+    const vec3 DEFAULT_FRESNEL = DEFAULT_EMISSIVE;
+
 The method can optionally set any of the values in the struct to affect the output.
 The return value is ``emissiveAmount``. If the returned value is greater than ``0``, the object will be treated as emissive.
 
@@ -282,17 +285,6 @@ Shader Version 4
         float occlusion;
         float scattering;
     };
-
-The default values for some of these are::
-
-    const float DEFAULT_ROUGHNESS = 0.9;
-    const float DEFAULT_SHININESS = 10.0;
-    const float DEFAULT_METALLIC = 0.0;
-    const vec3 DEFAULT_SPECULAR = vec3(0.1);
-    const vec3 DEFAULT_EMISSIVE = vec3(0.0);
-    const float DEFAULT_OCCLUSION = 1.0;
-    const float DEFAULT_SCATTERING = 0.0;
-    const vec3 DEFAULT_FRESNEL = DEFAULT_EMISSIVE;
 
 This is the same as Shader Version 3 but with per-fragment position. By modifying position, you can modify the per-fragment depth. This allows you to create things like ray-marched geometry that depth-tests properly and is dynamically lit by light entities. The trade-off is that this version is much more expensive than Version 3.
 
