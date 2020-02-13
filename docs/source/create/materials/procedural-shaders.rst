@@ -292,7 +292,7 @@ This is the same as shader version 3 but with per-fragment position. By modifyin
 Zone Entities
 ^^^^^^^^^^^^^
 
-Zones entities operate slightly differently. They support the same global defines but not the provided methods or constants. They also provide the following inputs:
+Zone entities operate slightly differently. They support the same global defines but not the provided methods or constants. They also provide the following inputs:
 ::
 
     vec3 _normal;
