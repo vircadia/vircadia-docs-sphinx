@@ -2,7 +2,7 @@
 Tablet Apps
 #########################
 
-Tablet apps (or simply "apps") in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from our `JavaScript API <https://apidocs.highfidelity.com>`_ and simplify it into a window with controls for others to use. 
+Tablet apps (or simply "apps") in Project Athena are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from our `JavaScript API <https://apidocs.highfidelity.com>`_ and simplify it into a window with controls for others to use. 
 
 .. note:: 
 
@@ -184,7 +184,7 @@ In step 3 above, we `added event handlers <#add-event-handlers-to-your-files>`_ 
 Create gemstones
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-The final step is to code the behavior of your JavaScript file. In this case, we'll create gemstones using High Fidelity's JavaScript API. Each gemstone will be created as an entity, and we can change the gemstone's properties using the ``Entity`` namespace. 
+The final step is to code the behavior of your JavaScript file. In this case, we'll create gemstones using Athena's JavaScript API. Each gemstone will be created as an entity, and we can change the gemstone's properties using the ``Entity`` namespace. 
 
 **Calculate the position of each new gemstone**  
 
@@ -280,7 +280,7 @@ The gemstone will be created when gemstoneApp.js receives click events from each
         }
     }
 
-Congratulations, you have successfully created an app in High Fidelity! To use your app, upload it to a cloud platform, such as Amazon S3, Google Cloud Storage, Microsoft Azure, etc. Once hosted, you can install it and use it:
+Congratulations, you have successfully created an app in Athena! To use your app, upload it to a cloud platform, such as Amazon S3, Google Cloud Storage, Microsoft Azure, etc. Once hosted, you can install it and use it:
 
 1. In Interface, go to **Edit > Running Scripts**.
 2. Under Load Scripts, click 'From URL' and enter the URL to your hosted JavaScript file. 
