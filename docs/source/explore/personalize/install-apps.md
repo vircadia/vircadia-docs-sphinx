@@ -1,6 +1,6 @@
 # Install Tablet Apps
 
-You can enhance your experience in High Fidelity by installing tablet apps from the Marketplace. These apps enable you to get more out of High Fidelity. Do you want to record your avatar dancing, take selfies, or finger paint? Or are you looking to livestream to YouTube or make your avatar clap? Our Marketplace has a number of apps that can help you customize your experience in-world. 
+You can enhance your experience in Project Athena by installing tablet apps from the Marketplace. These apps enable you to get more out of Project Athena. Do you want to record your avatar dancing, take selfies, or finger paint? Or are you looking to livestream to YouTube or make your avatar clap? Our Marketplace has a number of apps that can help you customize your experience in-world. 
 
 If you can't find an app for what you'd like to do, you can [create your own](../../create/applications.html) and upload it to our Marketplace for your personal use or to sell to others.
 
@@ -15,17 +15,17 @@ If you can't find an app for what you'd like to do, you can [create your own](..
 
 
 ## Install Tablet Apps
-We and many users have created tablet apps that are available in High Fidelity's Marketplace. To find and install an app:
+We and many users have created tablet apps that are available in Project Athena's Marketplace. To find and install an app:
 
 1. In Interface, pull up your HUD or Tablet and go to **Market**.
 2. Search for a specific app, or browse all apps by selecting the 'Apps, Scripts, & Tools' category.
 3. Click the app of your choice to purchase it and click the price of the item. Once you've purchased your app, you can view it in the **Inventory** app or 'Recent Activity'. 
-4. After completing your purchase, click 'Install App' to start using the app in High Fidelity.
+4. After completing your purchase, click 'Install App' to start using the app in Project Athena.
 5. Once the app is installed, click 'Open App' to launch. You can also access the app through your HUD or Tablet.
 
 
 ## Update an App
-When an app has an update available, a notification will pop up in the top right corner of the Interface when you open High Fidelity. Additionally, a red dot will appear on the **Inventory** icon of your HUD or Tablet to indicate an update is available to download.
+When an app has an update available, a notification will pop up in the top right corner of the Interface when you open Project Athena. Additionally, a red dot will appear on the **Inventory** icon of your HUD or Tablet to indicate an update is available to download.
 
 To update your app: 
 1. In Interface, pull up your HUD or Tablet and go to **Inventory**.
@@ -48,7 +48,7 @@ To update your app:
 We've listed some of the apps we created and how you can use them. 
 
 ### Spectator Cam
-The Spectator Camera is a camera you can use to record or livestream what you and your friends do in High Fidelity. It is only available in HMD mode, and requires a recording software such as [Open Broadcaster Software (OBS)](https://obsproject.com/) to work correctly. Check out their [official overview guide](https://obsproject.com/forum/threads/official-overview-guide.402/) for more details. 
+The Spectator Camera is a camera you can use to record or livestream what you and your friends do in Project Athena. It is only available in HMD mode, and requires a recording software such as [Open Broadcaster Software (OBS)](https://obsproject.com/) to work correctly. Check out their [official overview guide](https://obsproject.com/forum/threads/official-overview-guide.402/) for more details. 
 
 [Use the instructions above](#install-an-app) to install the Spectator Camera app.
 

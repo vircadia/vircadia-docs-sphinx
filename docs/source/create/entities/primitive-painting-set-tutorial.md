@@ -1,6 +1,6 @@
 # Tutorial: Build a Painting Set
 
-There are different ways to create games and experiences in High Fidelity. In this tutorial, we'll cover how to make a pixel-like painting set to allow users to "paint" pictures on a canvas made out of "pixels" that are box entities.
+There are different ways to create games and experiences in Project Athena. In this tutorial, we'll cover how to make a pixel-like painting set to allow users to "paint" pictures on a canvas made out of "pixels" that are box entities.
 
 **On This Page:**
 

@@ -1,6 +1,6 @@
 # Change Your Avatar
 
-When you first use High Fidelity, you will be wearing the default avatar, Woody. Your avatar is a representation of you in the metaverse. You can control how your avatar moves and speak to other users in-world using it.
+When you first use Project Athena, you will be wearing the default avatar, Woody. Your avatar is a representation of you in the metaverse. You can control how your avatar moves and speak to other users in-world using it.
 
 **On This Page:**
 
@@ -8,11 +8,12 @@ When you first use High Fidelity, you will be wearing the default avatar, Woody.
 * [Buy an Avatar from the Marketplace](#buy-an-avatar-from-the-marketplace)
 * [Use Your Own Custom Avatar](#use-your-own-custom-avatar)
 
-## Use Your VirtualYou Avatar
+## Use Your VirtualYou Avatar (Discontinued)
 
-VirtualYou: 3D Avatar Creator is High Fidelity’s mobile app developed with the help of our friends at Wolf3D. In just a few easy steps, you can create a 3D avatar that looks like you in less than five minutes. The app creates your avatar based on a selfie that you take from your phone's camera. You can then select customize your hair, face and body attributes, and choose your outfit. Download the app from the [Apple](https://apps.apple.com/us/app/virtual-you-3d-avatar-creator/id1456727419?ls=1) or [Google Play](https://play.google.com/store/apps/details?id=io.wolf3d.hifi) stores.
+Please be informed that VirtualYou has been discontinued by High Fidelity. We will however, leave this documentation to help people who still own a VirtualYou Avatar.
+VirtualYou: 3D Avatar Creator is Project Athena’s mobile app developed with the help of our friends at Wolf3D. In just a few easy steps, you can create a 3D avatar that looks like you in less than five minutes. The app creates your avatar based on a selfie that you take from your phone's camera. You can then select customize your hair, face and body attributes, and choose your outfit.
 
-At the end, log in to High Fidelity to upload your new avatar to your account.
+At the end, log in to Project Athena to upload your new avatar to your account.
 
 To wear your VirtualYou avatar:
 
@@ -37,7 +38,7 @@ You can use an avatar that you created. Learn more about how you can create your
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>All avatars must be hosted in the cloud before they can be used with High Fidelity. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure. Alternatively, you can <a href="../../sell/add-item/upload-avatar.html">add your avatar to the Marketplace</a> to sell to other users.</p>
+    <p>All avatars must be hosted in the cloud before they can be used with Project Athena. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure. Alternatively, you can <a href="../../sell/add-item/upload-avatar.html">add your avatar to the Marketplace</a> to sell to other users.</p>
 </div>
 
 Once you have your avatar's .fst file, you can upload it. 

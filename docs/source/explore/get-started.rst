@@ -1,5 +1,5 @@
 ###################################
-Get Started with High Fidelity
+Get Started with Project Athena
 ###################################
 
 We know that getting started with a new application can be difficult: installing the software and learning the controls is never any fun. Hopefully, this section will help you become familiar with our application, so that you can begin making friends and exploring the metaverse. 
@@ -10,7 +10,7 @@ We know that getting started with a new application can be difficult: installing
     :maxdepth: 2
     :titlesonly:
 
-    Install High Fidelity <get-started/install>
+    Install Project Athena <get-started/install>
     Understand the Architecture <get-started/architecture>
     Set Up Your Audio Devices <get-started/setup-audio>
     Use Your VR Equipment <get-started/vr-controls>

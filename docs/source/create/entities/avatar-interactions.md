@@ -1,6 +1,6 @@
 # Define Interactions with Avatars
 
-In real life, you interact with objects on a daily basis. In High Fidelity, your avatar can also interact with objects (entities) in the metaverse. There are a number of ways you can define the interactions you have with objects: you can write scripts to change the properties of an entity. You can create entities that are unique to your avatar (we call these "avatar entities"). And don't forget that you can set an entity's behavior and collision properties, so that objects are grabbable, triggerable, or dynamic.
+In real life, you interact with objects on a daily basis. In Project Athena, your avatar can also interact with objects (entities) in the metaverse. There are a number of ways you can define the interactions you have with objects: you can write scripts to change the properties of an entity. You can create entities that are unique to your avatar (we call these "avatar entities"). And don't forget that you can set an entity's behavior and collision properties, so that objects are grabbable, triggerable, or dynamic.
 
 **On This Page:**
 + [Control Interactions with Entities using Scripts](#control-interactions-with-entities-using-Scripts)
@@ -47,7 +47,7 @@ Avatar entities live on the [Avatar Mixer](../../explore/get-started/architectur
 
 1. [Create a wearable:](../wearables.html) All wearables are avatar entities. 
 2. [Clone as an avatar entity:](entity-behavior.html#make-an-entity-cloneable) When you clone an entity as an avatar entity, you make a copy of the entity and attach it to your avatar. Every copy of that entity will now leave with the avatar when they leave the domain. For example, if you have a coffee shop in your domain, you can set all coffee cups to be cloned as avatar entities. Any user who clones a coffee cup will take the avatar entity with them when they exit the domain. You can keep your domain free of clutter using this property.
-3. Add an avatar entity using a script: You can add an avatar entity using scripts. For example, you can create a script to have a pet (avatar entity) follow you around as you explore High Fidelity. 
+3. Add an avatar entity using a script: You can add an avatar entity using scripts. For example, you can create a script to have a pet (avatar entity) follow you around as you explore Project Athena. 
 
     This example script adds a cube as an avatar entity to your domain. 
     ```

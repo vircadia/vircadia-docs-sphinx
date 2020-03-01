@@ -2,35 +2,39 @@
 Bank and Shop
 ############################
 
-If you want to buy items in High Fidelity, head on over to the Marketplace, where you can purchase more than 300 items built by digital artists and creators from around this world. High Fidelity uses their own cryptocurrency, High Fidelity Coin (HFC) to manage your transactions. 
+If you want to buy items in Project Athena, head on over to the Marketplace, where you can purchase more than 300 items built by digital artists and creators from around this world. Project Athena uses their own cryptocurrency, Project Athena Coin (HFC) to manage your transactions. 
 
 .. contents:: On This Page
     :depth: 2
 
 -----------------------------
-Buy High Fidelity Coin
+Buy Project Athena Coin (DISCONTINUED)
 -----------------------------
 
-Currently, you can buy High Fidelity Coins (HFC) using `Ethereum <https://www.ethereum.org>`_, a blockchain app that trades ETH (Ether). The Bank of High Fidelity manages HFC and we gradually increase the number of coins in circulation as the economy grows. 100 HFC is equal to 1 USD.
+This feature was discontinued by High Fidelity and will either be reworked or removed in the future.
+
+Currently, you can buy Project Athena Coins (HFC) using `Ethereum <https://www.ethereum.org>`_, a blockchain app that trades ETH (Ether). The Bank of Project Athena manages HFC and we gradually increase the number of coins in circulation as the economy grows. 100 HFC is equal to 1 USD.
 
 To get HFC: 
 
-1. `Book an appointment <https://meetings.hubspot.com/highfidelity/high-fidelity-bank-appointment>`_ at the Bank of High Fidelity.
+1. `Book an appointment <https://meetings.hubspot.com/highfidelity/high-fidelity-bank-appointment>`_ at the Bank of Project Athena.
 2. At the time of your appointment, visit the `TradingRoom <https://hifi.place/TradingRoom>`_ domain.
-3. We will provide you with a QR code that you can use to send ETH to the Bank of High Fidelity. 
+3. We will provide you with a QR code that you can use to send ETH to the Bank of Project Athena. 
 4. Once we receive the ETH amount you sent, we will send you the appropriate amount of HFC to your account based on the current exchange rate. This can take up to one business day. 
 
-You can also receive HFC from gifts from your friends or as prizes at events in High Fidelity.
+You can also receive HFC from gifts from your friends or as prizes at events in Project Athena.
 
 -----------------------------
 Cash Out Your HFC
 -----------------------------
 
-As you acquire more HFC through Marketplace sales, prizes, or gifts, you may cash out your HFC for USD. The minimum amount of HFC that you cash out is $25 (or 2,500 HFC), and the maximum cashout value is $2000 (or 200,000 HFC) per calendar month. High Fidelity may, at its discretion, issue the occasional exception to the maximum cashout amount.
+This feature was discontinued by High Fidelity and will either be reworked or removed in the future.
+
+As you acquire more HFC through Marketplace sales, prizes, or gifts, you may cash out your HFC for USD. The minimum amount of HFC that you cash out is $25 (or 2,500 HFC), and the maximum cashout value is $2000 (or 200,000 HFC) per calendar month. Project Athena may, at its discretion, issue the occasional exception to the maximum cashout amount.
 
 To cash out HFC: 
 
-1. `Book an appointment <https://meetings.hubspot.com/highfidelity/high-fidelity-bank-appointment>`_ at the Bank of High Fidelity.
+1. `Book an appointment <https://meetings.hubspot.com/highfidelity/high-fidelity-bank-appointment>`_ at the Bank of Project Athena.
 2. At the time of your appointment, visit the `TradingRoom <https://hifi.place/TradingRoom>`_ domain to meet with the banker.
 
 The transaction will go through PayPal. USD will be paid to the email account specified via the appointment booking form. Time to payment receipt will be based on PayPal rules and guidelines.
