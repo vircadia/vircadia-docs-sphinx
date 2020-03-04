@@ -2,16 +2,18 @@
 Give and Receive Gifts
 #########################################
 
-Just like in real life, you can give money or presents to your friends in High Fidelity. You may wish to gift an item to a friend, send money to a connection, have a VIP zone in your domain, or play a poker game with your friends. 
+Just like in real life, you can give money or presents to your friends in Project Athena. You may wish to gift an item to a friend, send money to a connection, have a VIP zone in your domain, or play a poker game with your friends. 
 
-With the Commerce API, you can also award money or items using a coupon. A *coupon* is a way to send HFC or items to someone at a later time, even when you are not logged in to High Fidelity. For example, you can create a coupon to award the winner of a trivia game 250 HFC, or to give someone a soda when they buy something from a vending machine.
+With the Commerce API, you can also award money or items using a coupon. A *coupon* is a way to send HFC or items to someone at a later time, even when you are not logged in to Project Athena. For example, you can create a coupon to award the winner of a trivia game 250 HFC, or to give someone a soda when they buy something from a vending machine.
 
 .. contents:: On This Page
     :depth: 2
 
 -----------------------------------------
-Send HFC to Others
+Send HFC to Others (DISCONTINUED)
 -----------------------------------------
+
+This feature was discontinued by High Fidelity and will either be reworked or removed in the future.
 
 To send money to a connection or someone nearby:
 
@@ -65,10 +67,12 @@ After you `buy something from the Marketplace <shop.html#shopping-the-marketplac
 .. note:: When you send an item to another user, it is removed from your **Inventory**.
 
 -----------------------------------------
-Create a Coupon
+Create a Coupon (DISCONTINUED)
 -----------------------------------------
 
-You can create a coupon when you want to send money or an item to someone at a later time, even when you are not logged in to High Fidelity.
+This feature was discontinued by High Fidelity and will either be reworked or removed in the future.
+
+You can create a coupon when you want to send money or an item to someone at a later time, even when you are not logged in to Project Athena.
 
 .. note:: Currently, you can only use a coupon in a script. You will not be able to redeem a coupon anywhere in Interface. 
 
@@ -87,7 +91,7 @@ You can create a coupon when you want to send money or an item to someone at a l
 
 **Example: Use a Coupon to Hold a Raffle**  
 
-Say you want to pre-authorize 10 of your High Fidelity Coins to be paid out to a user who wins a raffle that you host. In this example, `curl <https://curl.haxx.se/>`_ is used to perform the redemption. But you can redeem a pre-authorized transfer using any script or tool that can perform `HTTP PUT` requests, such as High Fidelity Interface's `request` JavaScript module or a simple PHP form on a website.
+Say you want to pre-authorize 10 of your Project Athena Coins to be paid out to a user who wins a raffle that you host. In this example, `curl <https://curl.haxx.se/>`_ is used to perform the redemption. But you can redeem a pre-authorized transfer using any script or tool that can perform `HTTP PUT` requests, such as Project Athena Interface's `request` JavaScript module or a simple PHP form on a website.
 
 1. `Create a Coupon`_ to get an 'Authorization ID' and 'Coupon ID' value pair associated with a 10-HFC Pre-Authorized Money transfer.
 2. Copy and paste the 'Authorization ID' and 'Coupon ID' to a text file on your computer.

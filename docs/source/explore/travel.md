@@ -1,13 +1,13 @@
 # Travel Between Worlds
 
-High Fidelity is made up of many virtual places that let you participate in activities and interact with the people around you. Many of these places are beautifully detailed worlds that are interesting to explore at any time, while others were built to host events and engage with the people around you. 
+Project Athena is made up of many virtual places that let you participate in activities and interact with the people around you. Many of these places are beautifully detailed worlds that are interesting to explore at any time, while others were built to host events and engage with the people around you. 
 
 **On This Page:**
 * [GoTo App](#goto-app)
 * [Visit a Friend](#visit-a-friend)
 
 ## GoTo App
-The **GoTo** app lets you travel between different places in the High Fidelity metaverse. Many of our places are created by users just like you. 
+The **GoTo** app lets you travel between different places in the Project Athena metaverse. Many of our places are created by users just like you. 
 
 To go and explore new places: 
 1. In Interface, pull up your tablet or HUD and go to **GoTo**.

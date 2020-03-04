@@ -1,6 +1,6 @@
 # Apply Physics to Entities
 
-Your High Fidelity VR experience is made realistic with the help of a [physics engine](https://pybullet.org/wordpress). High Fidelity uses this engine to simulate an object's behavior according to the Newtonian laws of physics. For example, if you hit a ball with a bat in High Fidelity, the physics engine computes these movements and makes the ball spin away from the bat after collision. You can modify an entity's physics behavior using the Create app. 
+Your Project Athena VR experience is made realistic with the help of a [physics engine](https://pybullet.org/wordpress). Project Athena uses this engine to simulate an object's behavior according to the Newtonian laws of physics. For example, if you hit a ball with a bat in Project Athena, the physics engine computes these movements and makes the ball spin away from the bat after collision. You can modify an entity's physics behavior using the Create app. 
 
 <div class="admonition note">
    <p class="admonition-title">Note</p>
@@ -31,7 +31,7 @@ To apply physics properties to an entity:
 
 ## Change an Entity's Velocity
 
-Velocity is the speed of an object in a certain direction. All entities that have a position and orientation in High Fidelity will have linear and angular velocity. These velocities might be zero, but they still exist.
+Velocity is the speed of an object in a certain direction. All entities that have a position and orientation in Project Athena will have linear and angular velocity. These velocities might be zero, but they still exist.
 
 ### Linear Velocity
 
@@ -63,7 +63,7 @@ Angular velocity is the speed at which an object is rotating in a certain direct
 **Range:** 0 - 1<br />
 **Default Value:** 0.00
 
-In High Fidelity, damping represents how much of an entity's linear or angular velocity is lost over time. All moving objects we see in the real world experience some friction with air, reducing their velocities over time. Damping is used to approximate this effect of the real world in High Fidelity. So if the damping of an object is `0.00`, it will not lose any velocity and it will not slow down. If the damping of an object is `1.00`, it will lose all its velocity and stop immediately. If you want to throw a ball and have it slow down over time, you can add a damping value to do so. 
+In Project Athena, damping represents how much of an entity's linear or angular velocity is lost over time. All moving objects we see in the real world experience some friction with air, reducing their velocities over time. Damping is used to approximate this effect of the real world in Project Athena. So if the damping of an object is `0.00`, it will not lose any velocity and it will not slow down. If the damping of an object is `1.00`, it will lose all its velocity and stop immediately. If you want to throw a ball and have it slow down over time, you can add a damping value to do so. 
 
 To set the linear damping of an object:
 
@@ -105,7 +105,7 @@ Bounciness is the energy an entity conserves during collision. For example, a ba
 
 An entity's density is the ratio of its mass to its volume. For example, an entity with low density is made of light materials such as wood, while an entity with high density is made of dense materials such as iron. 
 
-In High Fidelity, the maximum (`10000`) and minimum (`100`) values of density were chosen for stability. It's difficult to perform stable physics calculations between objects of very disparate masses (such as a light feather and an iron ball). To help keep the environment stable, we picked conservative density limits. 
+In Project Athena, the maximum (`10000`) and minimum (`100`) values of density were chosen for stability. It's difficult to perform stable physics calculations between objects of very disparate masses (such as a light feather and an iron ball). To help keep the environment stable, we picked conservative density limits. 
 
 To change this value, scroll down to the 'Density' property in the 'Properties' tab. Change it to the value of your choice. 
 

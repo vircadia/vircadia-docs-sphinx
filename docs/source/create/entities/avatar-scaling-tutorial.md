@@ -1,6 +1,6 @@
 # Tutorial: Create an Avatar Scaling Button
 
-You can build content in High Fidelity that breaks the laws of physical boundaries by making them oversized or extremely small. To give any visiting users access to such an experience, you can add an avatar scaling button to your domain. This will help users fit into the spaces you design.
+You can build content in Project Athena that breaks the laws of physical boundaries by making them oversized or extremely small. To give any visiting users access to such an experience, you can add an avatar scaling button to your domain. This will help users fit into the spaces you design.
 
 **On This Page:**
 
@@ -30,7 +30,7 @@ To define the behavior of your avatar and the button, you need to write a client
 
 In this tutorial, we've used [shrink-avatar.js](https://hifi-scripting-101.glitch.me/entity-client-script-shrink-avatar.js), an avatar scaling script used to shrink an avatar down to a tiny size. You can use this script, modify it, or [write your own](../../script/write-scripts.html) to suit your needs.
 
-The shrink-avatar.js uses High Fidelity's [JavaScript API](https://apidocs.highfidelity.com) to determine when a user clicks with the mouse or triggers the entity with their hand controllers. It then scales the avatar to one-tenth its original size.
+The shrink-avatar.js uses Project Athena's [JavaScript API](https://apidocs.highfidelity.com) to determine when a user clicks with the mouse or triggers the entity with their hand controllers. It then scales the avatar to one-tenth its original size.
 
 ## Create an Entity to Use as a Button
 

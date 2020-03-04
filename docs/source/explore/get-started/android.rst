@@ -2,7 +2,7 @@
 Get Our Android App
 ######################################
 
-An unreleased version of High Fidelity is currently `available to download <https://play.google.com/store/apps/details?id=io.highfidelity.hifiinterface>`_ for Daydream-enabled Android devices. As an unreleased application, it does not have the full functionality of the desktop or VR version of High Fidelity. However, you can explore a number of worlds, attend events, change avatars, and connect with friends directly from your phone.
+An unreleased version of Project Athena is currently `available to download <https://play.google.com/store/apps/details?id=io.highfidelity.hifiinterface>`_ for Daydream-enabled Android devices. As an unreleased application, it does not have the full functionality of the desktop or VR version of Project Athena. However, you can explore a number of worlds, attend events, change avatars, and connect with friends directly from your phone.
 
 .. note:: The app is designed for Daydream-ready phones only. Keep in mind, it cannot be used in Daydream View and is only available as a 2D application.
 
@@ -14,7 +14,7 @@ An unreleased version of High Fidelity is currently `available to download <http
 Visit Different Worlds
 -----------------------------------
 
-High Fidelity has many virtual places where you can interact with other users and participate in various activities or events. We have modified several of High Fidelity's most popular virtual worlds to make them more accessible to Android users.
+Project Athena has many virtual places where you can interact with other users and participate in various activities or events. We have modified several of Project Athena's most popular virtual worlds to make them more accessible to Android users.
 
 Find these domains by going to the **Home** tab in the menu.
 
