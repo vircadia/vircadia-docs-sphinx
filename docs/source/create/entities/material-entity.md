@@ -13,7 +13,7 @@ Before adding a material entity, make sure you have created a material using the
 
 ## Generate a Material Entity
 
-To add a material to your object in High Fidelity, you need to specify the material data in a JSON file or add the material directly into the **Create** app. 
+To add a material to your object in Project Athena, you need to specify the material data in a JSON file or add the material directly into the **Create** app. 
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
@@ -50,7 +50,7 @@ This file contains all related material data, such as the color, roughness, and 
 </p>
 </div>
 
-Once you have your material entity JSON file, you can add it to an object in High Fidelity. Let's add the [castle wall material](https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json) to a box entity in your domain. 
+Once you have your material entity JSON file, you can add it to an object in Project Athena. Let's add the [castle wall material](https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json) (TODO: Migrate the .json to either github or the projectathena.io Bucket and provide the correct link.)to a box entity in your domain. 
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall. 
@@ -89,6 +89,7 @@ To add a material entity directly into the **Create** Tools app:
 
 
 ![](_images/material-data.gif)
+(TODO: New gif needs to be provided since the tablet has changed.)
 
 **See Also**
 

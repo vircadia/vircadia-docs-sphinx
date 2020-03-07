@@ -2,7 +2,7 @@
 Tablet Apps
 #########################
 
-Tablet apps (or simply "apps") in Project Athena are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from our `JavaScript API <https://apidocs.highfidelity.com>`_ and simplify it into a window with controls for others to use. 
+Tablet apps (or simply "apps") in Project Athena are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from our `JavaScript API <https://apidocs.projectathena.dev/>`_ and simplify it into a window with controls for others to use. 
 
 .. note:: 
 
@@ -291,7 +291,7 @@ Congratulations, you have successfully created an app in Athena! To use your app
 **See Also**
 
 + :doc:`Write Your Own Scripts <../script/write-scripts>`
-+ `API Reference: Entities <https://apidocs.highfidelity.com/Entities.html>`_
-+ `API Reference: Script <https://apidocs.highfidelity.com/Script.html>`_
-+ `API Reference: Quat <https://apidocs.highfidelity.com/Quat.html>`_
-+ `API Reference: Vec3 <https://apidocs.highfidelity.com/Vec3.html>`_
++ `API Reference: Entities <https://apidocs.projectathena.dev/Entities.html>`_
++ `API Reference: Script <https://apidocs.projectathena.dev/Script.html>`_
++ `API Reference: Quat <https://apidocs.projectathena.dev/Quat.html>`_
++ `API Reference: Vec3 <https://apidocs.projectathena.dev/Vec3.html>`_

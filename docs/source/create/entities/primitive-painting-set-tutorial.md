@@ -101,6 +101,8 @@ To start painting on the canvas, you have to write a paint brush script that ser
 
 To add the paint brush script:
 
+(TODO: Brushscript perhaps migrate it to projectathena.io)
+
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Select the Paint-Brush-Head entity.
 3. Go to the 'Properties' tab and scroll down to 'Behavior'.

@@ -1,4 +1,6 @@
-# Tutorial: Create a Purchase Button for Marketplace Sales
+# (DISCONTINUED) Tutorial: Create a Purchase Button for Marketplace Sales
+This tutorial is discontinued till further notice. The Hifi Marketplace will eventually close down making this tutorial unusable.
+The community will construct a new metaverse api and marketplace in the future and rework this tutorial overtime.
 
 If you are selling items on the Marketplace, you can have a space in your domain where users can easily buy your items. This could be done with a display copy of your items, an image of your item, or a purchase button for users to click. 
 

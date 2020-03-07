@@ -1,6 +1,6 @@
 # Create New Entities
 
-We are continually surprised by the ingenuity and creativity of the content creators in our community. You too can join this community by creating new entities. The easiest way to start building is to use High Fidelity's **Create** app. 
+We are continually surprised by the ingenuity and creativity of the content creators in our community. You too can join this community by creating new entities. The easiest way to start building is to use Project Athena's **Create** app. 
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
@@ -20,6 +20,7 @@ To add a new entity to your domain:
 ## Types of Entities
 You can choose from the following entity types:
 
+(TODO: Each Entity should be explained in detail which each property. )
 * **MODEL** entities are 3D models that you can import in-world.
 * **CUBE** entities are used to create basic box shaped entities.
 * **SPHERE** entities are used to create basic sphere shaped entities.

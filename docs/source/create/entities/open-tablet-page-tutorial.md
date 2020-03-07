@@ -23,6 +23,7 @@ Consider getting familiar with the following concepts before starting this tutor
 
 The script used here opens a web page on the Tablet when a user clicks or triggers an entity. In this example, we've written a client entity script that opens the Marketplace web page when an entity/item is triggered. The script looks for the URL in the 'User data' property of the entity and injects the Marketplace code into the link. This allows the user who triggered the script to purchase the item without having to go to the **Market** app on their Tablet or HUD. 
 
+(TODO: Possibly migrate script to a projectathena.io bucket)
 You can get the script [here](https://open-tablet-to-page.glitch.me/openTabletPageButton.js). 
 
 

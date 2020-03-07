@@ -9,6 +9,7 @@ Avatar Hero Zones
 -----------------------------
 
 All avatars in hero zones are allocated additional bandwidth, allowing them to load completely and move smoothly within the zone. You can set the amount of bandwidth that is dedicated to your hero zones in your :doc:`domain settings <../../host/configure-settings>`. Go to http://localhost:40100/settings and scroll to **Avatar Mixer > Advanced Settings > Hero Bandwidth** to set the bandwidth.
+(TODO: Image should be provided of this option and how to set them.)
 
 To create an avatar hero zone:
 

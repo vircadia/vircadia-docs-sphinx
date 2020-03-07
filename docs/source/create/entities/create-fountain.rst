@@ -23,6 +23,7 @@ Create a Smoke Fountain
 ---------------------------------
 
 Particle entities are used to create effects that are made up of smaller parts such as smoke, confetti, or falling leaves. The entity's effect and appearance is defined by its texture. The default texture is a `wispy smoke texture <https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png>`_, but you can replace this texture with your own to create your desired effect. 
+(TODO: Texture should be migrated to an official Projectathena.io server or github.)
 
 To create your smoke fountain using a particle entity: 
 
