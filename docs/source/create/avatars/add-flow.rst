@@ -2,7 +2,7 @@
 Add Flow to Your Avatar
 ###############################
 
-You can simulate physics on your avatar's hair, clothes, and body parts with a little bit of scripting and the help of High Fidelity's *Flow  technology*. The concept of "Flow" simply mimics the natural movement of hair and other attachments on your avatar. You can easily change your avatar's flow settings using the `Flow App <https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_. In order to use the Flow App, your avatar must contain flow threads. 
+You can simulate physics on your avatar's hair, clothes, and body parts with a little bit of scripting and the help of Project Athena's *Flow  technology*. The concept of "Flow" simply mimics the natural movement of hair and other attachments on your avatar. You can easily change your avatar's flow settings using the `Flow App <https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_. In order to use the Flow App, your avatar must contain flow threads. 
 
 .. contents:: On This Page
     :depth: 2
@@ -21,8 +21,9 @@ In order to use the Flow technology, your avatar must contain flow threads, whic
 While experimenting, feel free to use `Mannequin with Hair <https://hifi-content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_, whose hair has flow threads already configured.
 
 ----------------------
-Flow App
+Flow App (Needs updating without the Marketplace)
 ----------------------
+Marketplace will be taken down soon and we must ensure that the Flow App is Open Source to the Community. 
 
 Download and run the `Flow app <https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_ to configure your flow settings. 
 

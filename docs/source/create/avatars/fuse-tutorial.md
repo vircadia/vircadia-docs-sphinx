@@ -14,6 +14,8 @@ Using Adobe Fuse, you can create a custom avatar. The default heads, torsos, arm
 5. Click 'Texture'. Here, you can modify your clothing choices with custom materials and colors. ![](_images/fuse-texture.png)
 6. Save your avatar.
 
+(TODO: Video needed to display this step by step. Will be credited if provided.)
+
 **See Also**
 
 + [Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial.html)

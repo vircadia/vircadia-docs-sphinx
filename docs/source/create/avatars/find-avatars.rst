@@ -34,8 +34,8 @@ Project Athena supports only one standard type of rigging for avatars. Because m
 
 You will need the following to use this tool: 
 
-+ Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)
-+ Project Athena (v0.77.0 or higher)
++ `Unity <https://unity3d.com/get-unity/download/archive>`_ (Recommended versions: 2017.4.17f1 - 2018.2.12f1)
++ `Project Athena <https://projectathena.io/download-athena/>`_  (v0.77.0 or higher)
 + `Project Athena Avatar Exporter for Unity <https://github.com/kasenvr/project-athena/blob/kasen/core/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)
 
 Please note that the recommended version of Unity is not the latest version. If you are using a newer version of Unity, we recommend that you apply a T-Pose to your avatar. To do so, go to the 'Inspector', and click 'Pose' near the bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click 'Apply' and 'Done'. We recommend doing this after correcting any issues with remapping bones.
@@ -57,7 +57,7 @@ You need to install the extension for every Unity project that you have. Keep in
 
 4. Navigate to the `avatarExporter` package (with a .unitypackage extension). Click 'Open'. You can also double-click the package on your computer to import it automatically.
 5. In the 'Importing Package' window, review the list of files to be imported and check for conflicts with files already in your project. If a conflict exists, save any local changes somewhere outside of your project.
-6. Click 'Import'. The package's files are added to the Assets folder. You should now have a 'High Fidelity' menu in Unity. 
+6. Click 'Import'. The package's files are added to the Assets folder. You should now have a 'Project Athena' menu in Unity. 
 
 .. image:: _images/hifi-menu.png
 
