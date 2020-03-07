@@ -70,8 +70,10 @@ When you select an entity in the Entity List, you can:
     * **Delete**: You can delete an entity by selecting 'Delete' and then selecting the entity you want to delete. 
 
 -----------------------------
-Marketplace Item Tester
+Marketplace Item Tester (DISCONTINUED)
 -----------------------------
+
+Currently all uploading from content on the marktplace is disabled. Whenever we release a new marketplace this feature maybe reintroduced again.
 
 Once you have created an item, you can test it prior to using it or :doc:`submitting it to Marketplace <../sell/add-item>`. The Marketplace Item Tester reviews all kinds of content, including tablet apps, avatars, content sets, entities, and wearables. Using it, you can verify that your item works the way you expected, and that it does not have any script errors.
 

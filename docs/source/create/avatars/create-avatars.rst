@@ -66,6 +66,13 @@ Plugin ("Project Hermes") is a plugin for Blender to allow for easier content cr
 
 Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon <https://github.com/Menithal/Blender-Metaverse-Addon>`_
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/tJX8VUPZLKQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 100px; width: 70%; height: 70%;"></iframe>
+    </div>
+
+
 Have a project you've been working on that you'd like us to share? Let us know by editing this page in GitHub! 
 
 
