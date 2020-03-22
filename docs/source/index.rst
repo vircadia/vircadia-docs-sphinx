@@ -12,7 +12,7 @@ The Athena metaverse provides built-in social features, including avatar interac
 
 What can I do?
 ==============
-You have the power to shape your VR experience in Project Athena.
+You have the power to shape your VR experience in Vircadia.
 
 * :doc:`EXPLORE <explore>` by hopping between domains in the metaverse, shop the Marketplace, attend events and check out what others are up to!
 * :doc:`CREATE <create>` personal experiences by building avatars, domains, tablet apps, and more for you and others to enjoy.
