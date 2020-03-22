@@ -2,7 +2,7 @@
 Release Notes
 ####################
 
-See what's been released in Vircadia. 
+See what's been released in Project Athena. 
 
 .. toctree::
     :maxdepth: 2
@@ -16,4 +16,3 @@ See what's been released in Vircadia.
     Beta Release 82 <release-notes/v82>
     Beta Release 81 <release-notes/v81>
     Beta Release 80 <release-notes/v80>
-
