@@ -13,3 +13,5 @@ Development Instructions
     :titlesonly:
 
     Build from Source <develop/build.rst>
+    Create an Installer <develop/installer.rst>
+    

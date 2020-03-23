@@ -43,6 +43,6 @@ Once you've decided what hosting platform to use, you're ready to set it up:
     :maxdepth: 2
     :titlesonly:
 
-    Host a Domain from a Local Server <server-setup/local-server>
-    Host a Domain from a DigitalOcean Droplet <server-setup/cloud-domain>
+    Host a Domain from a Local Windows Server <server-setup/windows-server>
+    Host a Domain from a Linux Server <server-setup/linux-server>
 

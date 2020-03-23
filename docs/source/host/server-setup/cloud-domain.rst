@@ -1,6 +1,6 @@
-####################################
+###############################
 Host a Domain with DigitalOcean
-####################################
+###############################
 
 Hosting your domain with a cloud service, such as DigitalOcean, removes the need to set up, maintain, and secure a hosting server. For large domains with lots of visitors, it also eliminates the need to invest in high-end hardware and network capabilities. 
 
