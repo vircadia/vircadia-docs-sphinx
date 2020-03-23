@@ -23,7 +23,7 @@ These dependencies need not be installed manually. They are automatically downlo
 - [QuaZip](https://sourceforge.net/projects/quazip/files/quazip/):   0.7.3  
 - [SDL2](https://www.libsdl.org/download-2.0.php):   2.0.3  
 - [Intel Threading Building Blocks](https://www.threadingbuildingblocks.org/):   4.3  
-- [vcpkg](https://github.com/highfidelity/vcpkg):  
+- [vcpkg](https://github.com/hifi-archive/vcpkg):  
 - [VHACD](https://github.com/virneo/v-hacd)  
 - [zlib](http://www.zlib.net/):   1.28 (Win32 only)  
 - [nvtt](https://github.com/highfidelity/nvidia-texture-tools):   2.1.1 (customized)  
