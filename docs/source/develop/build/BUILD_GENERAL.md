@@ -26,7 +26,7 @@ These dependencies need not be installed manually. They are automatically downlo
 - [vcpkg](https://github.com/hifi-archive/vcpkg):  
 - [VHACD](https://github.com/virneo/v-hacd)  
 - [zlib](http://www.zlib.net/):   1.28 (Win32 only)  
-- [nvtt](https://github.com/highfidelity/nvidia-texture-tools):   2.1.1 (customized)  
+- [nvtt](https://github.com/hifi-archive/nvidia-texture-tools):   2.1.1 (customized)  
 
 The above dependencies will be downloaded, built, linked and included automatically by CMake where we require them. The CMakeLists files that handle grabbing each of the following external dependencies can be found in the [cmake/externals folder](https://github.com/kasenvr/project-athena/tree/kasen/core/cmake/externals). The resulting downloads, source files and binaries will be placed in the `build/ext` folder in each of the subfolders for each external project.
 
