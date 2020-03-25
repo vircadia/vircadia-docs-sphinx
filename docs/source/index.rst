@@ -19,7 +19,7 @@ You have the power to shape your VR experience in Project Athena.
 * :doc:`SCRIPT <script>` and express your creativity by applying advanced scripting concepts to entities and avatars in the metaverse.
 * :doc:`HOST <host>` and make immersive experiences to educate, entertain, and connect with your audience.
 * :doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source code in the repository.
-* :doc:`DEVELOP <develop>` the project and tailor it to your needs, or just to help out.
+* :doc:`DEVELOP <developer>` the project and tailor it to your needs, or just to help out.
 
 
 .. toctree::
@@ -33,7 +33,7 @@ You have the power to shape your VR experience in Project Athena.
     SCRIPT <script>
     HOST <host>
     CONTRIBUTE <contribute>
-    DEVELOP <develop>
+    DEVELOPER <developer>
     FAQ <faq>
     RELEASE NOTES <release-notes>
     API REFERENCE <https://apidocs.projectathena.dev>

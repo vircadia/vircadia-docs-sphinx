@@ -8,5 +8,5 @@ An installer for the interface and sandbox can be generated. This installer is m
     :maxdepth: 1
     :titlesonly:
 
-    Installer Creation Guide <build/BUILD_GENERAL.md>
+    Installer Creation Guide <installer/INSTALLER.md>
     
