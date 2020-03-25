@@ -1,0 +1,71 @@
+# Command Line Parameters
+
+You can launch an assignment-client with these parameters.
+
+Displays help information
+
+    -h, --help
+
+Displays version information
+
+    -v, --version
+
+Assignment client type (int).
+
+    -t <type>
+
+* 0 = audio-mixer
+* 1 = avatar-mixer
+* 2 = agent
+* 3 = asset-server
+* 4 = message-mixer
+* 5 = entity-script-server
+* 6 = entity-server
+
+Set assignment pool
+
+    --pool
+
+UDP port for this assignment client
+
+    -p <port>
+
+Set wallet destination
+
+    --wallet <wallet-uuid>
+
+Set assignment-server hostname
+
+    -a <hostname>
+
+Set assignment-server port
+
+    --server-port <port>
+
+Number of children to fork
+
+    -n <child-count>
+
+Minimum number of children
+
+    --min <child-count>
+
+Maximum number of children
+
+    --max <child-count>
+
+Assignment-client monitor port
+
+    --monitor-port <port>
+
+HTTP status server port
+
+    --http-status-port <port>
+
+Directory to store logs
+
+    --log-directory <path>
+
+PID of the parent process
+
+    --parent-pid <pid>
