@@ -6,8 +6,8 @@ Project Athena is an open-source project, so all of our code and documentation i
 
 Our `GitHub repository <https://github.com/kasenvr/project-athena>`_ contains the source to many of the components of our software for creating virtual worlds. The project embraces distributed development. If you find a small bug and have a fix, pull requests are welcome. 
 
-------------------------
-Development Instructions
-------------------------
+-----------------
+Developer Section
+-----------------
 
-All information required to build and develop the project from source is found in the :doc:`Developer Section <develop>`.
+All information required to build from source and develop the project is found in the :doc:`Developer Section <developer>`.
