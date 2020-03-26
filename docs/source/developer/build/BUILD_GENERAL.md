@@ -1,5 +1,7 @@
 # General Build Information
 
+*Last Updated on December 21, 2019*
+
 ### OS Specific Build Guides
 
 * [Build Windows](BUILD_WIN.md) - complete instructions for Windows.

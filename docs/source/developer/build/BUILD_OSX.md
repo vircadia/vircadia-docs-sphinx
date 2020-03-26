@@ -1,5 +1,7 @@
 # Build OSX
 
+*Last Updated on April 30, 2019*
+
 Only macOS specific instructions are found in this document.
 
 ### Homebrew

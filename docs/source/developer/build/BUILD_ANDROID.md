@@ -1,5 +1,7 @@
 # Build Android
 
+*Last Updated on December 21, 2019*
+
 Only Android specific instructions are found in this file. **Note that these instructions apply to building for Oculus Quest.**
 
 ## Dependencies

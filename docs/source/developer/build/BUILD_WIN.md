@@ -1,5 +1,7 @@
 # Build Windows
 
+*Last Updated on January 13, 2020*
+
 This is a stand-alone guide for creating your first Project Athena build for Windows 64-bit.  
 
 Note: We are now using Visual Studio 2017 or 2019 and Qt 5.12.3.  
