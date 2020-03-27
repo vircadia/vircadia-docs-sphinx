@@ -19,15 +19,15 @@ Packages are currently available for the following distributions:
 
 The installation packages will create a domain at the default port location and configure a service to keep it running on that machine.
 
-Connect a web browser to the server at port 40100 (if you are on the machine, this would be http://localhost:40100).  Complete the initial setup wizard and you should have a functioning domain.
+Connect a web browser to the server at port 40100 (if you are on the machine, this would be http://localhost:40100). Complete the initial setup wizard and you should have a functioning domain.
 
 ## Networking
 
 A Project Athena domain reserves a range of four ports to operate on, usually starting at 40100 (Note that the encrypted ports may not be implemented yet). These ports are:
  - 40100 (+0) : (tcp) administrative http connection
- - ~~40101 (+1): (tcp) administrative https (encrypted) connection~~
+ - <del>40101 (+1): (tcp) administrative https (encrypted) connection</dev>
  - 40102 (+2): (udp) main connection from clients
- - ~~40103 (+3): (udp) main connection from clients (encrypted)~~
+ - <del>40103 (+3): (udp) main connection from clients (encrypted)</dev>
 
 Generally speaking only port 40102 must be publicly exposed to permit others to connect to a domain.
 
@@ -39,7 +39,7 @@ In addition there are six "assignment clients" that must run in order for the do
 - **entity-server**: describes the location of each object in the domain
 - **messages-mixer**: passes messages between users in the domain
 
-These assignment clients use udp connections on a port number assigned by the operating system at launch (within [the ephemeral port range](https://en.wikipedia.org/wiki/Ephemeral_port))
+These assignment clients use UDP connections on a port number assigned by the operating system at launch (within [the ephemeral port range](https://en.wikipedia.org/wiki/Ephemeral_port)).
 
 ## Files
 
