@@ -9,14 +9,14 @@ Packages are currently available for the following distributions:
 ### Ubuntu Server 18.04 LTS
 
 ```sh
-    wget https://cdn.vircadia.com/dist/domain-server/ubuntu/athena-server_0.86.0-k2-20200328-13f3ef2-0ubuntu1-1_amd64.deb
-    sudo apt-get update && apt-get install ./athena-server_0.86.0-k2-20200328-13f3ef2-0ubuntu1-1_amd64.deb
+wget https://cdn.vircadia.com/dist/domain-server/ubuntu/athena-server_0.86.0-k2-20200328-13f3ef2-0ubuntu1-1_amd64.deb
+sudo apt-get update && apt-get install ./athena-server_0.86.0-k2-20200328-13f3ef2-0ubuntu1-1_amd64.deb
 ```
 
 ### Amazon Linux 2
 
 ```sh
-    sudo yum install https://odys-asset.s3.amazonaws.com/rpm/athena-server-0.86.0_K2_20200321_b4391f8-1.amzn2.x86_64.rpm
+sudo yum install https://odys-asset.s3.amazonaws.com/rpm/athena-server-0.86.0_K2_20200321_b4391f8-1.amzn2.x86_64.rpm
 ```
     
 ## Configuration
