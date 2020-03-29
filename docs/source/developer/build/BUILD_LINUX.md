@@ -1,6 +1,4 @@
-# Build Linux
-
-*Last Updated on January 20, 2020*
+# Linux build guide
 
 Please read the [general build guide](BUILD.md) for information on dependencies required for all platforms. Only Linux specific instructions are found in this file.
 
