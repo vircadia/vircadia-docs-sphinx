@@ -2,7 +2,7 @@
 Creating an Installer
 #####################
 
-An installer for the interface and sandbox can be generated. This installer is made with NSIS.
+An installer for Interface and Sandbox can be generated. This installer is made with NSIS.
 
 .. toctree::
     :maxdepth: 1

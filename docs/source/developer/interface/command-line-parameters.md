@@ -1,6 +1,6 @@
 # Command Line Parameters
 
-You can launch an interface with these parameters.
+You can launch Interface with the following parameters.
 
 Displays help information
 
@@ -10,11 +10,11 @@ Displays version information
 
     -v, --version
 
-ICE-Server address
+ICE server address
 
     -i <IP:PORT or HOSTNAME:PORT>
 
-Domain Server UUID
+Domain server UUID
 
     -d <uuid>
 

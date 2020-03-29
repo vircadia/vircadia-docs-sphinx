@@ -10,11 +10,11 @@ Displays version information
 
     -v, --version
     
-ICE-Server address
+ICE server address
 
     -i <IP:PORT or HOSTNAME:PORT>
 
-Domain Server UUID
+Domain server UUID
 
     -d <uuid>
 

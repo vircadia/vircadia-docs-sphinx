@@ -2,7 +2,7 @@
 Building Project Athena
 #######################
 
-The following are the guides you will need to use in order to build Project Athena from source.
+The following are the guides for building Project Athena from source.
 
 .. toctree::
     :maxdepth: 1

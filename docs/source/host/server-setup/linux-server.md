@@ -27,13 +27,13 @@ Connect a web browser to the server at port 40100 (if you are on the machine, th
 
 ## Networking
 
-A Project Athena domain reserves a range of four ports to operate on, usually starting at 40100 (Note that the encrypted ports may not be implemented yet). These ports are:
+A Project Athena domain reserves a range of four ports to operate on, usually starting at 40100. (Note that the encrypted ports may not be implemented yet.) These ports are:
  - 40100 (+0) : (tcp) administrative http connection
  - <del>40101 (+1): (tcp) administrative https (encrypted) connection</dev>
  - 40102 (+2): (udp) main connection from clients
  - <del>40103 (+3): (udp) main connection from clients (encrypted)</dev>
 
-Generally speaking only port 40102 must be publicly exposed to permit others to connect to a domain.
+Generally speaking, only port 40102 must be publicly exposed to permit others to connect to a domain.
 
 In addition there are six "assignment clients" that must run in order for the domain to be operational.  These clients run alongside the domain server and must be able to connect with any outside user.  These clients are:
 - **asset-server**: stores object data to download to the user
@@ -66,9 +66,9 @@ The installation packages setup the following systemd services to manage the Ath
 - **athena-assignment-client@default.service**: Spawns and manages the assignment clients
 - **athena-server@default.target**: Controls startup and shutdown of the above services
 
-The <code>athena-server@default.target</code> service is the only one that is set to auto-start, starting or stopping it will bring the other two services down.
+The <code>athena-server@default.target</code> service is the only one that is set to auto-start. Starting or stopping it will bring the other two services down.
 
-The first two services do log a large amount of data to their service journal, checking their logs (via <code>systemctl status</code>) is a good way to ensure they are operating properly.
+The first two services log a large amount of data to their service journal. Checking their logs (via <code>systemctl status</code>) is a good way to ensure they are operating properly.
 
 ## Multiple domains
 

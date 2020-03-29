@@ -22,23 +22,23 @@ Assignment client type (int).
 * 5 = entity-script-server
 * 6 = entity-server
 
-Set assignment pool
+Assignment pool
 
     --pool
 
-UDP port for this assignment client
+Assignment client UDP port
 
     -p <port>
 
-Set wallet destination
+Wallet destination
 
     --wallet <wallet-uuid>
 
-Set assignment-server hostname
+Assignment server hostname
 
     -a <hostname>
 
-Set assignment-server port
+Assignment server port
 
     --server-port <port>
 
@@ -54,7 +54,7 @@ Maximum number of children
 
     --max <child-count>
 
-Assignment-client monitor port
+Assignment client monitor port
 
     --monitor-port <port>
 
