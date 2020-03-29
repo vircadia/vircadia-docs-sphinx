@@ -1,6 +1,8 @@
-# Creating an Installer
+Follow the [build guide](BUILD.md) to figure out how to build High Fidelity for your platform.
 
 During generation, CMake should produce an `install` target and a `package` target.
+
+### Install
 
 The `install` target will copy the High Fidelity targets and their dependencies to your `CMAKE_INSTALL_PREFIX`.  
 This variable is set by the `project(hifi)` command in `CMakeLists.txt` to `C:/Program Files/hifi` and stored in `build/CMakeCache.txt`
