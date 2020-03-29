@@ -10,6 +10,17 @@ if "%SPHINXBUILD%" == "" (
 set SOURCEDIR=source
 set BUILDDIR=build
 
+set "BUILDGENERAL=%SOURCEDIR%/developer/build/BUILD_GENERAL.md"
+set "BUILDANDROID=%SOURCEDIR%/developer/build/BUILD_GENERAL.md"
+set "BUILDLINUX=%SOURCEDIR%/developer/build/BUILD_LINUX.md"
+set "BUILDOSX=%SOURCEDIR%/developer/build/BUILD_OSX.md"
+set "BUILDWIN=%SOURCEDIR%/developer/build/BUILD_WIN.md"
+curl -o %BUILDGENERAL% https://raw.githubusercontent.com/kasenvr/project-athena/kasen/core/BUILD.md
+curl -o %BUILDANDROID% https://raw.githubusercontent.com/kasenvr/project-athena/kasen/core/BUILD_ANDROID.md
+curl -o %BUILDLINUX% https://raw.githubusercontent.com/kasenvr/project-athena/kasen/core/BUILD_LINUX.md
+curl -o %BUILDOSX% https://raw.githubusercontent.com/kasenvr/project-athena/kasen/core/BUILD_OSX.md
+curl -o %BUILDWIN% https://raw.githubusercontent.com/kasenvr/project-athena/kasen/core/BUILD_WIN.md
+
 if "%1" == "" goto help
 
 %SPHINXBUILD% >NUL 2>NUL
