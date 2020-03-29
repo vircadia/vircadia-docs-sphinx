@@ -23,7 +23,7 @@ sudo yum install https://odys-asset.s3.amazonaws.com/rpm/athena-server-0.86.0_K2
 
 The installation packages will create a domain at the default port location and configure a service to keep it running on that machine.
 
-Connect a web browser to the server at port 40100 (if you are on the machine, this would be http://localhost:40100). Complete the initial setup wizard and you should have a functioning domain.
+Connect a web browser to the server at port 40100. (If you are on the machine that the server is running on, this would be http://localhost:40100.) Complete the initial setup wizard and you should have a functioning domain.
 
 ## Networking
 

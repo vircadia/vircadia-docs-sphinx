@@ -10,7 +10,7 @@ Displays version information
 
     -v, --version
 
-Assignment client type (int).
+Assignment client type
 
     -t <type>
 
@@ -24,7 +24,7 @@ Assignment client type (int).
 
 Assignment pool
 
-    --pool
+    --pool <pool>
 
 Assignment client UDP port
 

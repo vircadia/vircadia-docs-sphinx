@@ -25,7 +25,7 @@ The Hosting Process
 
 Here is an overview of the steps you'll need to take to host your domain up and running on the metaverse:
 
-1. :doc:`Choose your hosting platform <start-hosting>` (local server or cloud services)
+1. :doc:`Choose your hosting platform <start-hosting>` (local server, remote server, or cloud services)
 2. :doc:`Set up your server and create your domain <server-setup>`
 3. :doc:`Add content to your domain <add-content>`
 4. :doc:`Set up user permissions <configure-settings/permission-settings>`

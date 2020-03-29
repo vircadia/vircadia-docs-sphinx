@@ -2,34 +2,103 @@
 
 You can launch Interface with the following parameters.
 
-Displays help information
+Displays help dialog
 
-    -h, --help
+    -?, -h, --help
 
 Displays version information
 
     -v, --version
 
-ICE server address
+Startup at specified URL location
 
-    -i <IP:PORT or HOSTNAME:PORT>
+    --url=<value>
 
-Domain server UUID
+Displays the protocol version
 
-    -d <uuid>
+    --protocolVersion
 
-Request a temporary domain name
+Do not show the auto-updater
 
-    --get-temp-name
+    --no-updater
 
-<path> User config file path
+Check to see if the machine meets the minimum specification requirements.
 
-    --user-config
+    --checkMinSpec
 
-Displays help information
+Whether to run the server
 
-    --parent_pid
+    --runserver
 
-PID of the parent process
+(Needs clarification!) Port to listen on
 
-    -h, --help
+    --listenPort=<port>
+
+Where to find server content
+
+    --serverContentPath=<path>
+
+Set cache location. Defaults to the operating system local data path.
+
+    --cache=<path>
+    
+Set path for defaultScripts.
+
+    --scripts=<path>
+
+Allow multiple instances of the interface to run simultaneously.
+
+    --allowMultipleInstances
+
+Preferred displays.
+
+    --displays=<device>
+
+Disable display plugin. Possible devices include "OpenVR (Vive)", "Oculus Rift"
+
+    --disable-displays=<device>
+
+Disable input plugin. Possible devices include "OpenVR (Vive)", "Oculus Rift"
+
+    --disable-inputs=<device>
+
+Suppress the prompt to reset interface settings
+
+    --suppress-settings-reset
+
+Let the Oculus plugin know if the interface was run from the Oculus Store
+
+    --oculus-store
+
+Emulate a standalone device
+
+    --standalone
+
+Disable the watchdog thread. The interface will crash on deadlocks.
+
+    --disableWatchdog
+
+(Needs clarification!)
+
+    --system-cursor
+
+Maximum concurrent resource downloads. Default is 16, except for Android where it is 4.
+
+    --concurrent-downloads=<value>
+
+Override the avatar URL
+
+    --avatarURL=<url>
+
+Replaces the Avatar URL. If both this and --avatarURL is set, this one takes precedence. 
+
+    --replaceAvatarURL=<url>
+
+
+Bookmarks are expected to be in a name=url form. An `=` character in the name or url is unsupported.
+
+    --setBookmark
+
+Disable level of detail auto config.
+
+    --disable-lod

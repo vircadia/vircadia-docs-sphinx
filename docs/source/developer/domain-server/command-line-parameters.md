@@ -18,7 +18,7 @@ Domain server UUID
 
     -d <uuid>
 
-Request a temporary domain name
+Requests a temporary domain name
 
     --get-temp-name
 
@@ -26,6 +26,6 @@ User config file path
 
     --user-config <path>
 
-PID of the parent process 
+Displays the PID of the parent process 
 
     --parent_pid
