@@ -1,6 +1,6 @@
-##########################
+######################
 Set up a Domain Server
-##########################
+######################
 
 Depending on your requirements, you can host your domain on a physical computer (by turning it into a local server) or on cloud servers. In general, we recommend using local servers for private events and gatherings, and cloud services for larger public venues. To help with hosting your domains, we have a partnership with DigitalOcean to provide affordable, integrated cloud domain services for your use.
 
@@ -43,6 +43,6 @@ Once you've decided what hosting platform to use, you're ready to set it up:
     :maxdepth: 2
     :titlesonly:
 
-    Host a Domain from a Local Server <server-setup/local-server>
-    Host a Domain from a DigitalOcean Droplet <server-setup/cloud-domain>
+    Host a Domain from a Local Windows Server <server-setup/windows-server>
+    Host a Domain from a Local, Remote, *or* Cloud Linux Server <server-setup/linux-server>
 

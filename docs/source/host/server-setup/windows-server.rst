@@ -1,6 +1,6 @@
-#######################################
+#################################
 Host a Domain from a Local Server
-#######################################
+#################################
 
 A local server lets you use your own computer to host your virtual domain on the metaverse. 
 

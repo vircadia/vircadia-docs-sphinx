@@ -1,0 +1,16 @@
+#######################
+Building Project Athena
+#######################
+
+The following are the guides for building Project Athena from source.
+
+.. toctree::
+    :maxdepth: 1
+    :titlesonly:
+
+    General Build Information <build/BUILD_GENERAL.md>
+    Build Windows <build/BUILD_WIN.md>
+    Build Linux <build/BUILD_LINUX.md>
+    Build OSX <build/BUILD_OSX.md>
+    Build Android <build/BUILD_ANDROID.md>
+    

@@ -1,6 +1,6 @@
-#########################
+#######
 Explore
-#########################
+#######
 
 Project Athena is a metaverse where you can connect and create with others. We invite you to explore VR worlds created in Project Athena and interact with other users. You can visit your friend's VR world, meet people, attend events and even go for a class on avatar creation. It's an immersive and interactive experience with realistic visuals and audio.
 

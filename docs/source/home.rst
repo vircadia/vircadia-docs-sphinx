@@ -1,6 +1,6 @@
-#########################
+####
 Home
-#########################
+####
 
 Project Athena is an open-source software where you can create and share virtual reality (VR) experiences. You can create and host your own VR world, explore other worlds, meet and connect with other users, attend or host live VR events and much more.
 
@@ -16,4 +16,5 @@ You have the power to shape your VR experience in Project Athena.
 * :doc:`CREATE <create>` personal experiences by building avatars, domains, tablet apps, and more for you and others to enjoy.
 * :doc:`SCRIPT <script>` and express your creativity by applying advanced scripting concepts to entities and avatars in the metaverse.
 * :doc:`HOST <host>` and make immersive experiences to educate, entertain, and connect with your audience.
-* :doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source code on GitHub.
+* :doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source code in the repository.
+* :doc:`DEVELOP <developer>` the project and tailor it to your needs, or just to help out.
