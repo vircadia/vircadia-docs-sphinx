@@ -10,7 +10,7 @@ Displays version information
 
     -v, --version
 
-Startup at specified URL location
+Start up at specified URL location
 
     --url=<value>
 
@@ -22,7 +22,7 @@ Do not show the auto-updater
 
     --no-updater
 
-Check to see if the machine meets the minimum specification requirements.
+Checks to see if the machine meets the minimum specification requirements.
 
     --checkMinSpec
 
@@ -30,7 +30,7 @@ Whether to run the server
 
     --runserver
 
-(Needs clarification!) Port to listen on
+Port to listen on. (Needs clarification!) 
 
     --listenPort=<port>
 
@@ -54,11 +54,11 @@ Preferred displays.
 
     --displays=<device>
 
-Disable display plugin. Possible devices include "OpenVR (Vive)", "Oculus Rift"
+Disable display plugin. Possible devices include "OpenVR (Vive)", "Oculus Rift".
 
     --disable-displays=<device>
 
-Disable input plugin. Possible devices include "OpenVR (Vive)", "Oculus Rift"
+Disable input plugin. Possible devices include "OpenVR (Vive)", "Oculus Rift".
 
     --disable-inputs=<device>
 
@@ -66,7 +66,7 @@ Suppress the prompt to reset interface settings
 
     --suppress-settings-reset
 
-Let the Oculus plugin know if the interface was run from the Oculus Store
+Let the Oculus plugin know if Interface was run from the Oculus Store
 
     --oculus-store
 
@@ -97,7 +97,7 @@ Replaces the Avatar URL. If both this and --avatarURL is set, this one takes pre
 
 Bookmarks are expected to be in a name=url form. An `=` character in the name or url is unsupported.
 
-    --setBookmark
+    --setBookmark <name=url>
 
 Disable level of detail auto config.
 
