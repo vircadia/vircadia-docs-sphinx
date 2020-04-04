@@ -16,7 +16,7 @@ sudo apt-get update && apt-get install ./athena-server_0.86.0-k2-20200328-13f3ef
 ### Amazon Linux 2
 
 ```sh
-sudo yum install https://odys-asset.s3.amazonaws.com/rpm/athena-server-0.86.0_K2_20200321_b4391f8-1.amzn2.x86_64.rpm
+sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/athena-server-0.86.0_K2_20200402_76aff7a-1.amzn2.x86_64.rpm
 ```
     
 ## Configuration
