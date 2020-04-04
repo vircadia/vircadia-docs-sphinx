@@ -26,21 +26,21 @@ Procedural shaders (or simply shaders) are textures that are created by mathemat
 
     Shaders are also a set of instructions, but the instructions are executed all at once for every single pixel on the screen. That means the code you write has to behave differently depending on the position of the pixel on the screen. Like a type press, your program will work as a function that receives a position and returns a color, and when it's compiled it will run extraordinarily fast.
 
-Project Athena has support for vertex and fragment shaders on shape and material entities, and avatars. These shaders are based on the GLSL shader language, which uses the syntax and features of the C programming language. It does not have support for geometry, tessellation and evaluation, or compute shaders.
+Vircadia has support for vertex and fragment shaders on shape and material entities, and avatars. These shaders are based on the GLSL shader language, which uses the syntax and features of the C programming language. It does not have support for geometry, tessellation and evaluation, or compute shaders.
 
 This documentation is not intended to be a complete course on how to create a shader. This is an advanced topic that requires good math and programming skills. Many free books are available on the internet that can teach about shaders. `The Book of Shaders <https://thebookofshaders.com>`_ is one such book that is often cited.
 
-An understanding of how to use JavaScript and JSON with Project Athena is important before you dive into this topic. If you intend to create shaders yourself, knowing the C programming language will also be important.
+An understanding of how to use JavaScript and JSON with Vircadia is important before you dive into this topic. If you intend to create shaders yourself, knowing the C programming language will also be important.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Differences Between Athena and GLSL Shaders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When exploring shaders online, you may have come across many shader examples. Or you might have seen websites and applications that allow you to experiment with shader code in a live environment. Most of the code from these sources will not work with Project Athena without modification.
+When exploring shaders online, you may have come across many shader examples. Or you might have seen websites and applications that allow you to experiment with shader code in a live environment. Most of the code from these sources will not work with Vircadia without modification.
 
-The first thing to be aware of is that there are a few shader languages. GLSL is one that is used by OpenGL, and Project Athena’s shaders are based on this language. Another common one is HLSL, which is used often for DirectX programs. Although these languages share a lot of similarities, you cannot use HLSL code in an OpenGL application without modification.
+The first thing to be aware of is that there are a few shader languages. GLSL is one that is used by OpenGL, and Vircadia’s shaders are based on this language. Another common one is HLSL, which is used often for DirectX programs. Although these languages share a lot of similarities, you cannot use HLSL code in an OpenGL application without modification.
 
-Another consideration is that Project Athena does not expose the full range of what GLSL offers to scripters. Instead, users are offered a subset of GLSL, and a custom set of naming conventions for fragment or vertex components.
+Another consideration is that Vircadia does not expose the full range of what GLSL offers to scripters. Instead, users are offered a subset of GLSL, and a custom set of naming conventions for fragment or vertex components.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Basic Method for Using Shaders
@@ -64,7 +64,7 @@ Material entities have data that is stored in the JSON format, and they have a p
         }]
     }
 
-The ``materialData`` JSON can be applied either via the Project Athena Interface’s edit tools or with a script. Here's another example::
+The ``materialData`` JSON can be applied either via the Vircadia Interface’s edit tools or with a script. Here's another example::
 
     Entities.addEntity({
     	type: "Material",
@@ -89,7 +89,7 @@ To set the ``materialData`` using the edit tools, you will want to set ``materia
 Shader Template
 ^^^^^^^^^^^^^^^
 
-When you learn about shaders for other applications, the shader may have a function like ``main()`` that is run first. By contrast, Project Athena has a specific function name that must be called. Which function is used depends on which version of the shader you use.
+When you learn about shaders for other applications, the shader may have a function like ``main()`` that is run first. By contrast, Vircadia has a specific function name that must be called. Which function is used depends on which version of the shader you use.
 
 As shaders were developed, features for them evolved a bit over time. As a result, there are several shader versions, and each version has a different call signature. **Versions 1 and 2** are the oldest, and will still work. **Versions 3 and 4** are the newest and expose more features. Version 4 provides for per-fragment positions, however it is also the most computationally expensive. Therefore it is recommended to use version 3 if that extra feature from version 4 is not needed.
 
@@ -427,7 +427,7 @@ For further details on each version, see :ref:`Provided Methods, Constants, and 
 A Cautionary Note on Shaders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Project Athena does not enable seeing procedural shaders by default. This is because currently, they are an experimental feature. Shaders are a very powerful tool, and when used incorrectly, can harm the user experience for everyone on the domain. A poorly written shader or a shader created by a bad actor can slow things down to a crawl or interfere with a user’s view of the virtual world.
+Vircadia does not enable seeing procedural shaders by default. This is because currently, they are an experimental feature. Shaders are a very powerful tool, and when used incorrectly, can harm the user experience for everyone on the domain. A poorly written shader or a shader created by a bad actor can slow things down to a crawl or interfere with a user’s view of the virtual world.
 
 Shaders are best used as a very strong spice in a recipe. Attempt to keep them small and efficient. Shaders can produce marvelous and mind-blowing effects, but overuse can spoil the desired end effect. If you create a shader that has hundreds of lines of code, consider trimming it down if possible.
 

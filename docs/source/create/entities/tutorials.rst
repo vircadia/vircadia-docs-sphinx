@@ -1,6 +1,6 @@
-#########################
+################
 Entity Tutorials 
-#########################
+################
 
 Walk through our online tutorials to get a deeper understanding of entities and their role in the metaverse. 
 

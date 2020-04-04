@@ -2,7 +2,7 @@
 Define an Entity's Behavior
 ###############################
 
-An entity's behavior controls its interactions with other entities and avatars in Project Athena. Can an entity be grabbed, does it collide with other entities and avatars, or can a change in the domain's gravity affect it? You can check and change an entity's behavior by editing its properties.
+An entity's behavior controls its interactions with other entities and avatars in Vircadia. Can an entity be grabbed, does it collide with other entities and avatars, or can a change in the domain's gravity affect it? You can check and change an entity's behavior by editing its properties.
 
 .. note:: 
     You can select and edit multiple entities at once. The behavior will be different based on the type of property you'd like to set: 
@@ -139,7 +139,7 @@ Keep in mind that any user can now clone the entities that are cloneable. If you
 Set an Entity to Cast a Shadow
 -------------------------------------
 
-You can make your entity behave like a real world object by making it cast a shadow on other entities and avatars. In Project Athena, entities cast shadows only from the key light, not from the light entities. The key light is a parallel source of light, like the sun. 
+You can make your entity behave like a real world object by making it cast a shadow on other entities and avatars. In Vircadia, entities cast shadows only from the key light, not from the light entities. The key light is a parallel source of light, like the sun. 
 
 Here are the different shadow settings you can configure:
 

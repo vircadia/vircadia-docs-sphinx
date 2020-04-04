@@ -36,7 +36,7 @@ If your wearable looks good, then you're done! If you want to adjust its positio
 Wear Your Own Wearable
 -----------------------------
 
-You can put on a :doc:`wearable that you created <../../create/wearables>`. All wearables must be hosted in the cloud before they can be used with Project Athena. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure. Alternatively, you can :doc:`upload your custom wearable to the Marketplace <../../sell/add-item/upload-wearable>` and sell to other users.
+You can put on a :doc:`wearable that you created <../../create/wearables>`. All wearables must be hosted in the cloud before they can be used with Vircadia. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure. Alternatively, you can :doc:`upload your custom wearable to the Marketplace <../../sell/add-item/upload-wearable>` and sell to other users.
 
 Once you know the URL for your wearable's FBX file, then put it on your avatar:
 

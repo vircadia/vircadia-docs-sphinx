@@ -11,7 +11,7 @@ You can "clean up" your domain using an :doc:`assignment client script <../../sc
 Write a Script
 -----------------------------------------
 
-With scripts, you are free to use our expansive `JavaScript API <https://apidocs.highfidelity.com>`_ to code any task that your programming expertise and creativity can come up with. Here, we've written an example assignment client script that returns our domain content to its default state every 1 hour. This means that any other entities rezz'd in our domain will be deleted within the hour by the script::
+With scripts, you are free to use our expansive `JavaScript API <https://apidocs.vircadia.dev>`_ to code any task that your programming expertise and creativity can come up with. Here, we've written an example assignment client script that returns our domain content to its default state every 1 hour. This means that any other entities rezz'd in our domain will be deleted within the hour by the script::
  
     var SEARCH_CENTER = {x: 0, y: 0, z: 0};
     var SEARCH_AREA = 60000; // search area (sphere) in meters radius

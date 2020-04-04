@@ -39,7 +39,7 @@ If you are putting up an item (in your domain) you have on sale in the Marketpla
 To make our button work and actually sell an item, we need to attach a client entity script to it. In this example, [buy-item.js](https://hifi-scripting-101.glitch.me/entity-client-script-buy-item.js), the script opens a specified Marketplace page. You can use it as-is, modify it, or [write your own script](../../script/write-scripts.html) to suit your needs.
 
 The buy-item.js script we've used:
-+ Uses High Fidelity's [JavaScript API](https://apidocs.highfidelity.com/) to determine when a user clicks with the mouse or triggers the entity using hand controllers.
++ Uses High Fidelity's [JavaScript API](https://apidocs.vircadia.dev/) to determine when a user clicks with the mouse or triggers the entity using hand controllers.
 + Opens the user's Tablet to the purchase page if there is a valid 'marketplaceID' specified in the 'userdata' field of the entity that is clicked or triggered.
   
 ## Create an Entity to Use as a Button

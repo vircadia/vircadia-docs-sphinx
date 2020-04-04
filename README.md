@@ -1,6 +1,6 @@
-# Overview of Project Athena's Documentation Tools
+# Overview of Vircadia's Documentation Tools
 
-For Project Athena's main documentation system, we use **Sphinx** to generate it, and **Read the Docs** to publish/host it. GitHub is a helpful middleman and stores all of the docs.
+For Vircadia's main documentation system, we use **Sphinx** to generate it, and **Read the Docs** to publish/host it. GitHub is a helpful middleman and stores all of the docs.
 
 **Sphinx** is an open-source, robust solution for software documentation that includes features that writers expect, like:
 

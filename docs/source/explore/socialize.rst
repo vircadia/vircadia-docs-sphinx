@@ -2,7 +2,7 @@
 Socialize with Others
 ########################
 
-Project Athena is all about the people you meet and the experiences you have with them. Project Athena enables people connected by interest, community, and friendship to come together from anywhere in the world.
+Vircadia is all about the people you meet and the experiences you have with them. Vircadia enables people connected by interest, community, and friendship to come together from anywhere in the world.
 
 .. contents:: On This Page
     :depth: 2
@@ -11,7 +11,7 @@ Project Athena is all about the people you meet and the experiences you have wit
 Make Connections and Friends
 -----------------------------------------
 
-In Project Athena, you can establish a connection with someone else by shaking hands with them. With your hand controllers, place your hands near each other and hold the grip button. Desktop users can press and hold ``X`` on their keyboard. 
+In Vircadia, you can establish a connection with someone else by shaking hands with them. With your hand controllers, place your hands near each other and hold the grip button. Desktop users can press and hold ``X`` on their keyboard. 
 
 Once you make a connection with someone, they will appear under Connections in the `The People app`_. You will also appear on their list of connections. You will be able to see where they are in the metaverse, and you can travel to them at any time. 
 
@@ -40,7 +40,7 @@ The People app provides a set of tools that help users manage their interactions
 |                  | Everyone, Friends and Connections, Friends Only, or Appear Offline. The users you appear online    |
 |                  | to will also be able to teleport to your location.                                                 |
 +------------------+----------------------------------------------------------------------------------------------------+
-| Master Volume    | Set the volume of your audio in Project Athena.                                                     |
+| Master Volume    | Set the volume of your audio in Vircadia.                                                     |
 +------------------+----------------------------------------------------------------------------------------------------+
 | Nearby           | This is the list of users who are nearby in the same domain as you.                                |
 +------------------+----------------------------------------------------------------------------------------------------+
@@ -94,7 +94,7 @@ There is also a Shield icon on the top-left corner of your Interface window, nex
 Attend Live Events
 -----------------------------------------
 
-One of the great things about virtual reality is that you can attend events. Project Athena regularly hosts events such as workshops, lectures on VR, and town hall meetings to meet our team. Click here to `view all upcoming events <https://tockify.com/hifieventscalendar/agenda>`_. Events are a great place to meet others and share experiences with others around the world.
+One of the great things about virtual reality is that you can attend events. Vircadia regularly hosts events such as workshops, lectures on VR, and town hall meetings to meet our team. Click here to `view all upcoming events <https://tockify.com/hifieventscalendar/agenda>`_. Events are a great place to meet others and share experiences with others around the world.
 
 To attend an event, simply go to the hosted domain at the time of the event.
 
@@ -103,7 +103,7 @@ To attend an event, simply go to the hosted domain at the time of the event.
 Express Yourself
 -----------------------------------------
 
-There are many ways you can express yourself in Project Athena, such as animating the mouth of your avatar or using gestures in the **Emote** app. 
+There are many ways you can express yourself in Vircadia, such as animating the mouth of your avatar or using gestures in the **Emote** app. 
 
 By default, all avatars will use a standard set of animations, such as your eyes blinking or your mouth opening and closing as you talk. When you are using a VR controller, your avatar will automatically mimic your hand gestures and movements. 
 
@@ -122,7 +122,7 @@ The Emote app is a way for desktop users to express themselves without using VR 
 Chat with Users
 -----------------------------------------
 
-Project Athena doesn't yet have a default text chat option that works well for both HMD and desktop users as most HMD users can't type easily. Our extensible open-source scripting and UI gives you the ability to create the features you want, including text chat. There are some great scripts for chat that have already been built by community members, and a few are described below.
+Vircadia doesn't yet have a default text chat option that works well for both HMD and desktop users as most HMD users can't type easily. Our extensible open-source scripting and UI gives you the ability to create the features you want, including text chat. There are some great scripts for chat that have already been built by community members, and a few are described below.
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

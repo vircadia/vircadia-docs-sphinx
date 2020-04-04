@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Athena Docs'
-copyright = '2019, High Fidelity. © Copyright 2020, Project Athena.'
-author = 'Athena Team'
+project = 'Vircadia Docs'
+copyright = '2019, High Fidelity. © Copyright 2020, Vircadia.'
+author = 'Vircadia Team'
 
 # The short X.Y version
 version = ''
@@ -90,9 +90,9 @@ html_theme_options = {
     'prev_next_buttons_location': 'bottom'
 }
 
-html_title = "Project Athena Documentation"
-html_logo = '_static/images/project-athena-logo.png'
-html_favicon = '_static/images/fav-icon.ico'
+html_title = "Vircadia Documentation"
+html_logo = '_static/images/vircadia-logo-1880.png'
+html_favicon = '_static/images/favicon-256.ico'
 html_show_sphinx = False
 
 # Add any paths that contain custom static files (such as style sheets) here,

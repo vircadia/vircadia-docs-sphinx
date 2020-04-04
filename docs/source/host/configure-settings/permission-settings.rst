@@ -112,7 +112,7 @@ The actions that you can secure for each type of user are as follows:
 | User Data               | of entities in the domain. Private user data is a property of entities that  |
 |                         | can only be set and retrieved through scripting via the ``privateUserData``  |
 |                         | property of the `EntityProperties                                            |
-|                         | <https://apidocs.highfidelity.com/Entities.html#.EntityProperties>`_ type    |
+|                         | <https://apidocs.vircadia.dev/Entities.html#.EntityProperties>`_ type    |
 |                         | definition.                                                                  |
 +-------------------------+------------------------------------------------------------------------------+
 

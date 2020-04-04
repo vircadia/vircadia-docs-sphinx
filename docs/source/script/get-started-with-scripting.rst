@@ -22,22 +22,22 @@ You are likely to interface most with these High Fidelity APIs:
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
 | API(s)                                                                  | Description                                                      |
 +=========================================================================+==================================================================+
-| `Entities <https://apidocs.highfidelity.com/Entities.html>`_            | Lets you manipulate the entities around you, as long             |
+| `Entities <https://apidocs.vircadia.dev/Entities.html>`_            | Lets you manipulate the entities around you, as long             |
 |                                                                         | as you have permissions to do so. This means you can             |
 |                                                                         | add, remove, and edit entities. Everyone has access              |
 |                                                                         | to ``get`` properties of an entity, and can be used              |
 |                                                                         | to find Entities in range, direction, collision, or              |
 |                                                                         | raytrace.                                                        |
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
-| `AvatarList <https://apidocs.highfidelity.com/AvatarList.html>`_        | Lets you get information on an `Avatar                           |
-|                                                                         | <https://apidocs.highfidelity.com/Avatar.html>`_,                |
-| `AvatarManager <https://apidocs.highfidelity.com/AvatarManager.html>`_  | or manipulate your own client-only `MyAvatar                     |
-|                                                                         | <https://apidocs.highfidelity.com/MyAvatar.html>`_. The          |
-| `MyAvatar <https://apidocs.highfidelity.com/MyAvatar.html>`_            | information here will be always the avatar information           |
+| `AvatarList <https://apidocs.vircadia.dev/AvatarList.html>`_        | Lets you get information on an `Avatar                           |
+|                                                                         | <https://apidocs.vircadia.dev/Avatar.html>`_,                |
+| `AvatarManager <https://apidocs.vircadia.dev/AvatarManager.html>`_  | or manipulate your own client-only `MyAvatar                     |
+|                                                                         | <https://apidocs.vircadia.dev/MyAvatar.html>`_. The          |
+| `MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_            | information here will be always the avatar information           |
 |                                                                         | of the client running the script. AvatarList and                 |
 |                                                                         | AvatarManager are basically the same.                            |
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
-| `Script <https://apidocs.highfidelity.com/Script.html>`_                | Lets you to connect callbacks from your client to script,        |
+| `Script <https://apidocs.vircadia.dev/Script.html>`_                | Lets you to connect callbacks from your client to script,        |
 |                                                                         | such as functionality that is dependent on time                  |
 |                                                                         | (Script.update, Script.setTime, Script.setInterval etc),         |
 |                                                                         | connect paths relatively to Assets (Script.relativePath),        |
@@ -46,7 +46,7 @@ You are likely to interface most with these High Fidelity APIs:
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
 
 
-There are `many other APIs available <https://apidocs.highfidelity.com>`_, and we encourage you to make sure use of them as you become more comfortable scripting in High Fidelity.
+There are `many other APIs available <https://apidocs.vircadia.dev>`_, and we encourage you to make sure use of them as you become more comfortable scripting in High Fidelity.
 
 ----------------------------
 Types of Scripts

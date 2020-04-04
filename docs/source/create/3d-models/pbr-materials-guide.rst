@@ -2,7 +2,7 @@
 PBR Materials Guide
 #############################
 
-The appearance of a 3D model is controlled by its materials. The materials supported in Project Athena are physically-based rendering (PBR) materials. This means that a 3D model's materials will reflect or absorb light like how they would (approximately) in real life.
+The appearance of a 3D model is controlled by its materials. The materials supported in Vircadia are physically-based rendering (PBR) materials. This means that a 3D model's materials will reflect or absorb light like how they would (approximately) in real life.
 
 .. contents:: On This Page
     :depth: 2

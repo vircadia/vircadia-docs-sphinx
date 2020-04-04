@@ -2,7 +2,7 @@
 Environments
 ####################
 
-A Project Athena domain can have an environment to express a theme. Environments include all the domain content, such as entities, skyboxes, assets, and more. You could have a domain with a deserted island environment or a cyberpunk apartment environment. 
+A Vircadia domain can have an environment to express a theme. Environments include all the domain content, such as entities, skyboxes, assets, and more. You could have a domain with a deserted island environment or a cyberpunk apartment environment. 
 
 Environments are available for :doc:`purchase on our Marketplace <../explore/shop>`. If you don't want to use any of the available environments, you can create your own. 
 
