@@ -8,9 +8,9 @@ We get a lot of questions from our users! If you have questions about our produc
     :depth: 2
 
 
------------------------------
+----------------
 Content Creation
------------------------------
+----------------
 
 + `What video codecs do you support? <#video-codecs>`_
 
@@ -26,272 +26,11 @@ Content Creation
 | * WebM, H.264                                                                                       |
 +-----------------------------------------------------------------------------------------------------+
 
------------------------------
-High Fidelity Coin (HFC)
------------------------------
-
-+ `How can I get HFC? <#get-hfc>`_
-+ `How do I send HFC to other people? <#send-hfc>`_
-+ `Why does my HFC balance not update instantly? <#hfc-balance>`_
-+ `Do I get charged money if a transaction fails? <#fail-transaction>`_
-+ `How do I convert HFC to other currencies? <#convert-hfc>`_
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _get-hfc:                                                                                        |
-|                                                                                                     |
-| How can I get HFC?                                                                                  |
-+=====================================================================================================+
-| Currently, you can buy High Fidelity Coins (HFC) using Ethereum, a blockchain app that trades ETH ( |
-| Ether).                                                                                             |
-|                                                                                                     |
-| To get HFC:                                                                                         |
-|                                                                                                     |
-| 1. `Book an appointment <https://www.google.com/url?q=https://www.highfidelity.com/meetings/hi      |
-|    ghfidelity/high-fidelity-bank-appointment&sa=D&ust=1557511230804000&usg=AFQjCNGq-Do7QWLlt_PXUQSH |
-|    WxAlOCLIEA>`_ at the Bank of High Fidelity.                                                      |
-| 2. At the time of your appointment, pull up your Tablet or HUD and go to **GoTo**.                  |
-| 3. Go to the TradingRoom domain by entering 'TradingRoom' as the domain address.                    |
-| 4. We will provide you with a QR code that you can use to send ETH to the Bank of High Fidelity.    |
-| 5. Once we receive the ETH amount you sent, we will send you the appropriate amount of HFC to your  |
-|    account based on the current exchange rate. This can take up to three business days.             |
-|                                                                                                     |
-| You can also receive HFC from gifts from your friends or by selling items on the Marketplace.       |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _send-hfc:                                                                                       |
-|                                                                                                     |
-| How do I send HFC to other people?                                                                  |
-+=====================================================================================================+
-| 1. Open the **Inventory** app.                                                                      |
-| 2. Click 'Send Money'.                                                                              |
-|     * To send HFC to one of your connections, click 'Connection', and choose the recipient from the |
-|       list.                                                                                         |
-|     * To send HFC to someone nearby in the domain, click 'Someone Nearby' then click on the person  |
-|       in the domain. Confirm that you selected the correct person in the dialog.                    |
-|                                                                                                     |
-| 3. Add the amount you wish to send, then click 'Submit'.                                            |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _hfc-balance:                                                                                    |
-|                                                                                                     |
-| Why does my HFC balance not update instantly?                                                       |
-+=====================================================================================================+
-| HFC transactions sometimes take a few seconds to update, as they are backed by a blockchain. If     |
-| your balance has not updated within 5 minutes, contact our team at `support@highfidelity.com <mail  |
-| to:support@highfidelity.com>`_ and they can help you.                                               |   
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _fail-transaction:                                                                               |
-|                                                                                                     |
-| Do I get charged money if a transaction fails?                                                      |
-+=====================================================================================================+
-| No! Your HFC balance only changes when a purchase or transaction is confirmed on the blockchain.    |   
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _convert-hfc:                                                                                    |
-|                                                                                                     |
-| How do I convert HFC to other currencies?                                                           |
-+=====================================================================================================+
-| Our goal is to always have an easy way for creators to retrieve the money they’ve earned.           |
-| Currently, you can cash out your HFC to US Dollars (USD) using PayPal.                              |   
-|                                                                                                     |
-| To cash out your HFC:                                                                               |
-|                                                                                                     |
-| 1. `Book an appointment <https://www.google.com/url?q=https://www.highfidelity.com/meetings/hi      |
-|    ghfidelity/high-fidelity-bank-appointment&sa=D&ust=1557511230804000&usg=AFQjCNGq-Do7QWLlt_PXUQSH |
-|    WxAlOCLIEA>`_ at the Bank of High Fidelity.                                                      |
-| 2. At the time of your appointment, pull up your Tablet or HUD and go to **GoTo**.                  |
-| 3. Go to the TradingRoom domain by entering 'TradingRoom' as the domain address.                    |
-|                                                                                                     |
-| The minimum amount of HFC that you cash out is $25 (or 2,500 HFC), and the maximum cashout value    |
-| is $2000 (or 200,000 HFC) per calendar month. High Fidelity may, at its discretion, issue the       | 
-| occasional exception to the maximum cashout amount.                                                 |
-+-----------------------------------------------------------------------------------------------------+
-
------------------------------------
-Buy from the Marketplace
------------------------------------
-
-+ `The Marketplace content I purchased has disappeared. Where did it go? <#disappearing-content>`_
-+ `Can I rez multiple copies of a Marketplace item? <#rez-multiple>`_
-+ `What is Dynamic Domain Verification (DDV)? <#ddv>`_
-+ `What happens to my Marketplace content when I change my domain ID? <#change-id>`_
-+ `What happens to my Marketplace content when I export a backup to another domain? <#export-content>`_
-+ `How do I report a DMCA violation? <#dmca-violation>`_
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _disappearing-content:                                                                           |
-|                                                                                                     |
-| The Marketplace content I purchased has disappeared. Where did it go?                               |
-+=====================================================================================================+
-| Marketplace items behave like items in the real world. You can have only one copy of each item you  |
-| purchase. An item you bought from the Marketplace will disappear if you rez it elsewhere. This is   |
-| done using a process called `Dynamic Domain Verification (DDV) <#q11>`_.                            |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _rez-multiple:                                                                                   |
-|                                                                                                     |
-| Can I rez multiple copies of a Marketplace item?                                                    |
-+=====================================================================================================+
-| Yes, only if the seller has given permission to do so. A seller can modify settings to allow        |
-| users to `rez multiple copies <sell/add-item.html#unlimited-rezzing-of-your-item>`_ of their item   |
-| in a single domain. Otherwise, you will need to buy multiple copies of the item.                    |
-| Marketplace items behave like items in the real world. You can have only one copy of each item you  |
-| purchase unless specified by the seller.                                                            |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _ddv:                                                                                            |
-|                                                                                                     |
-| What is Dynamic Domain Verification (DDV)?                                                          |
-+=====================================================================================================+
-| Dynamic Domain Verification (DDV) is a process running on your domain, which ensures that you can   |
-| rez only one copy of each item purchased on the Marketplace. This is done to protect the            |
-| intellectual property rights of the creators. DDV will determine if an item has been moved to a new |
-| domain and will remove it from the old domain. DDV requires the domain to be running and will       |
-| delete items from domains with no Place or domain name. Temporary names are accepted.               |
-| DDV often runs within an hour after you rez a Marketplace item again. Its frequency is controlled   |
-| by the domain's control panel.                                                                      |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _change-id:                                                                                      |
-|                                                                                                     |
-| What happens to my Marketplace content when I change my domain ID?                                  |
-+=====================================================================================================+
-| When you change your domain ID, it's the same as creating a new domain. Even though the existing    |
-| content may temporarily appear in the new domain, the system considers the Marketplace items as     |
-| existing on the old domain. DDV will remove the Marketplace items from the new domain. You will     |
-| have to rez the items again in the new domain.                                                      |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _export-content:                                                                                 |
-|                                                                                                     |
-| What happens to my Marketplace content when I export a backup to another domain?                    |
-+=====================================================================================================+
-| When you restore a backup or exported domain onto a new server with a different domain ID, DDV will |
-| consider the Marketplace item as belonging to the old domain, and will delete them from the new     |
-| domain. You will have to rez the Marketplace items again in the new domain.                         |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _dmca-violation:                                                                                 |
-|                                                                                                     |
-| How do I report a DMCA violation?                                                                   |
-+=====================================================================================================+
-| Email us at `support@highfidelity.com <mailto:support@highfidelity.com>`_ to report content         |
-| violation, and we will take appropriate action.                                                     |
-+-----------------------------------------------------------------------------------------------------+
-
-------------------------------
-Sell on the Marketplace
-------------------------------
-
-+ `What should I charge for my Marketplace Item? <#cost>`_
-+ `Does my avatar have too many polys? <#max-polys>`_
-+ `How big can my submission be? <#submission-size>`_
-+ `How do I upload to the Marketplace? <#marketplace-upload>`_
-+ `Can I host content on the Marketplace for personal use? <#personal-use>`_
-+ `What happens after I submit my item to the Marketplace? <#submission-process>`_
-+ `How long does it take to find out about the status of my submission? <#review-time>`_
-+ `What are the rules for submitting content to the Marketplace? <#submission-rules>`_
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _cost:                                                                                           |
-|                                                                                                     |
-| What should I charge for my Marketplace Item?                                                       |
-+=====================================================================================================+
-| You are free to price your item however you’d like. We encourage you to consider these questions:   |
-|                                                                                                     |
-| * How are other items of similar quality in this category priced?                                   |
-| * Are you choosing a price that you feel reflects the time and effort required to create the item?  |
-|   Don’t sell yourself short!                                                                        |
-| * If you have multiple items for sale on the Marketplace, in essence you have a brand. Do you have  |
-|   a specific target audience in mind? New users? Users looking for something truly unique? Take     |
-|   this into account.                                                                                |
-| * Is your item a limited edition? If an item is of good quality and in limited supply, it may       |
-|   merit a higher price.                                                                             |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _max-polys:                                                                                      |
-|                                                                                                     |
-| Does my avatar have too many polys?                                                                 |
-+=====================================================================================================+
-| We do not have a hard poly limit on avatars, however we recommend keeping avatars under 80k.        |
-| Consider normal mapping your models to preserve high detail rather than excessive poly counts.      |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _submission-size:                                                                                |
-|                                                                                                     |
-| How big can my submission be?                                                                       |
-+=====================================================================================================+
-| Submissions can be as large as necessary for the content you are uploading, but keep in mind        |
-| that large items can adversely impact loading times for users. If possible, we recommend keeping    |
-| submissions under 40MB total.                                                                       |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _marketplace-upload:                                                                             |
-|                                                                                                     |
-| How do I upload to the Marketplace?                                                                 |
-+=====================================================================================================+
-| Log in to the `Marketplace home page <https://highfidelity.com/marketplace>`_ and select 'New       |
-| Submission' from the top-right menu.                                                                |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _personal-use:                                                                                   |
-|                                                                                                     |
-| Can I host content on the Marketplace for personal use?                                             |
-+=====================================================================================================+
-| You can submit content without putting it up for sale. However, you will still need to go through   |
-| the certification process and be held to Marketplace standards. Content not submitted for review    |
-| will expire after 30 days and will no longer be accessible.                                         |
-|                                                                                                     |
-| You should always keep backups of your files, as we cannot ensure the return of your files if       |
-| they are corrupted or lost.                                                                         |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _submission-process:                                                                             |
-|                                                                                                     |
-| What happens after I submit my item to the Marketplace?                                             |
-+=====================================================================================================+
-| Your submission will be evaluated by our team. Once our team has completed evaluation, you will     |
-| receive an email telling you that your item was accepted or declined with reasons and resubmission  |
-| guidelines.                                                                                         |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _review-time:                                                                                    |
-|                                                                                                     |
-| How long does it take to find out about the status of my submission?                                |
-+=====================================================================================================+
-| The Marketplace team will respond by email within 7 business days.                                  |
-+-----------------------------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------------------------+
-| .. _submission-rules:                                                                               |
-|                                                                                                     |
-| What are the rules for submitting content to the Marketplace?                                       |
-+=====================================================================================================+
-| Please refer to our :doc:`Marketplace Submission Rules <sell/submission-rules>`.                    |
-+-----------------------------------------------------------------------------------------------------+
-
-------------------------------
+--------------
 Domain Hosting
-------------------------------
+--------------
 
 + `How do I get into my domain settings if I set up authentication but forgot my username and/or password? <#reset-password>`_
-+ `Why do Marketplace items keep disappearing from my domain? <#missing-content>`_
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _reset-password:                                                                                 |
@@ -310,49 +49,17 @@ Domain Hosting
 |   manually remove the HTTP security settings ('http_password' and 'http_username') from             |
 |   config.json. The config file is stored on the server in the following directories:                |
 |                                                                                                     |
-|     * **Windows**: %AppData%/Roaming/High Fidelity/domain-server                                    |
-|     * **Mac**: ~/Library/Application Support/High Fidelity/domain-server                            |
+|     * **Windows**: %AppData%/Roaming/Project Athena/domain-server                                   |
+|     * **Mac**: ~/Library/Application Support/Project Athena/domain-server                           |
 +-----------------------------------------------------------------------------------------------------+
 
-+-----------------------------------------------------------------------------------------------------+
-| .. _missing-content:                                                                                |
-|                                                                                                     |
-| Why do Marketplace items keep disappearing from my domain?                                          |
-+=====================================================================================================+
-| All Marketplace items are certified to protect the intellectual property rights of the content      |
-| creators. In many cases, your content is removed by a process called Dynamic Domain Verification    |
-| (DDV) to prevent illegal use of your purchased items. DDV often runs within an hour after you rez   |
-| a Marketplace item.                                                                                 |
-|                                                                                                     |
-| Here are some reasons your Marketplace items may disappear from your domain:                        |
-|                                                                                                     |
-| 1. Most Marketplace items can only be rezzed once. When you a second copy of the item, the original |
-|    copy will immediately be removed.                                                                |
-| 2. Some items are "unlimited", meaning that you can rez as many as you'd like *in the same domain*. |
-|    However, as soon as you rez that same purchased item in a different domain, all earlier          |
-|    instances will disappear.                                                                        |
-| 3. All purchased content is protected to a single domain that is identified by its domain ID, not   |
-|    its place name. This means that if you move your content to a different domain and fire up the   |
-|    new domain (same place name, but now it has a different domain ID), it will not match the        |
-|    "rezzed" domain and will be deleted.                                                             |
-| 4. If you are hosting a domain on a local server, you must :doc:`purchase a place name              |
-|    <host/configure-settings/place-setting>` for your domain before you can rez any Marketplace      |
-|    content.                                                                                         |
-| 5. Ensure that your :doc:`user permissions <host/configure-settings/permission-settings>` are set   |
-|    up correctly. Any items that are rezzed by users with the 'Rez Temporary' permission will        |
-|    disappear after a while.                                                                         |
-| 6. The **Create** app lets you change the 'Collision Shape' and 'Server Scripts' properties. When   |
-|    you change these properties, it changes the entity's certificate signature and invalidates the   |
-|    rezzed item. These items will be removed automatically from your domain.                         |
-+-----------------------------------------------------------------------------------------------------+
-
-------------------------------
+---------------
 Troubleshooting
-------------------------------
+---------------
 
 + `Why can't I connect to a domain? <#cannot-connect>`_
 + `No one can hear me! <#no-input>`_
-+ `I can't hear anything in High Fidelity <#no-output>`_
++ `I can't hear anything in Vircadia <#no-output>`_
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _cannot-connect:                                                                                 |
@@ -365,7 +72,7 @@ Troubleshooting
 |    2Mbps upload.                                                                                    |
 | 2. You may not have permissions to enter the domain. If you know the domain owner, contact them to  |
 |    gain access to the domain.                                                                       |
-| 3. Ensure that your firewall settings allow you to run High Fidelity.                               |
+| 3. Ensure that your firewall settings allow you to run Vircadia.                                    |
 |                                                                                                     |
 |      * For Windows: In your firewall settings, open the  port 40102, and add 'interface.exe' to the |
 |        list of allowed apps.                                                                        |
@@ -381,11 +88,11 @@ Troubleshooting
 | If other users in the domain can't hear you, then you are likely muted or your microphone gain is   |
 | set too low. Here are some steps to troubleshoot your issue:                                        |
 |                                                                                                     |
-| 1. **Are you muted in High Fidelity?** When logged in, check the upper left corner. If you're       |
+| 1. **Are you muted in Vircadia?** When logged in, check the upper left corner. If you're            |
 |    muted, click the microphone to un-mute yourself.                                                 |
 | 2. **Is your physical output device muted or turned off?** Some headsets and microphones have a     |
 |    'Power' and/or 'Mute' switch directly on the device itself. This setting is completely           |
-|    independent of High Fidelity's mute option, so even if you're not muted in High Fidelity, your   |
+|    independent of Vircadia's mute option, so even if you're not muted in Vircadia, your             |
 |    device itself may not be turned on or the mute button may have been pressed.                     |
 |                                                                                                     |
 |    .. image:: explore/_images/headsets.png                                                          |
@@ -394,13 +101,13 @@ Troubleshooting
 |    disabled by your operating system. Check your operating system's input device settings:          |
 |                                                                                                     |
 |     a. On Windows, go to **Control Panel > Sound > Recording** tab. Choose the device you are using |
-|        with High Fidelity and click 'Properties'. On the 'Levels' tab, check the icon next to the   |
+|        with Vircadia and click 'Properties'. On the 'Levels' tab, check the icon next to the        |
 |        volume meter. The microphone icon will tell you whether your headset/microphone is           |
 |        muted. If you're muted, click the icon to un-mute yourself.                                  |
 |     b. On Mac, go to **System Preferences > Sound > Input** tab. Choose the device you are using    |
-|        with High Fidelity. If the 'Input volume' is turned all of the way down, then your input     |
+|        with Vircadia. If the 'Input volume' is turned all of the way down, then your input          |
 |        device is disabled. Turn up the input volume to re-enable your microphone.                   |
-| 4. **Have you allowed High Fidelity access to the microphone?** Some operating systems require you  |
+| 4. **Have you allowed Vircadia access to the microphone?** Some operating systems require you       |
 |    to give explicit permission to apps to take advantage of specific hardware or software           |
 |    capabilities on your computer. Check your microphone permissions in your operating system        |
 |    settings:                                                                                        |
@@ -408,23 +115,23 @@ Troubleshooting
 |     a. On Windows, go to **Settings > Privacy > Microphone**. Make sure that 'Allow desktop apps to |
 |        access your microphone' is turned on.                                                        |
 |     b. On Mac, go to **System Preferences > Security & Privacy > Privacy**, then select             |
-|        'Microphone'. Ensure that the checkbox next to High Fidelity is selected.                    |
+|        'Microphone'. Ensure that the checkbox next to Vircadia is selected.                         |
 |                                                                                                     |
 | If your input device is turned on, and you are not muted in the application, device, or operating   |
 | system, then it is likely that your microphone volume needs to be adjusted or boosted. This is done |
 | in your operating system settings:                                                                  |
 |                                                                                                     |
 | * On Windows, go to **Control Panel > Sound > Recording** tab. Choose the device you are using with |
-|   High Fidelity and click 'Properties'. On the 'Levels' tab, adjust the 'Microphone Level' and/or   |
+|   Vircadia and click 'Properties'. On the 'Levels' tab, adjust the 'Microphone Level' and/or        |
 |   'Microphone Boost'.                                                                               |
 | * On Mac, go to **System Preferences > Sound > Input** tab. Choose the device you are using with    |
-|   High Fidelity and adjust the 'Input volume'.                                                      | 
+|   Vircadia and adjust the 'Input volume'.                                                           | 
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _no-output:                                                                                      |
 |                                                                                                     |
-| I can't hear anything in High Fidelity.                                                             |
+| I can't hear anything in Vircadia.                                                                  |
 +=====================================================================================================+
 | Here are some reasons you might not have audio:                                                     |
 |                                                                                                     |
@@ -436,11 +143,11 @@ Troubleshooting
 |       icon will tell you whether or not your headset or speakers are disabled. Click the icon to    |
 |       un-mute yourself.                                                                             |
 |     * On Mac, go to **System Preferences > Sound > Output** tab. Choose the device you are using    |
-|       with High Fidelity. At the bottom of the dialog, uncheck 'Mute' to un-mute yourself.          |
+|       with Vircadia. At the bottom of the dialog, uncheck 'Mute' to un-mute yourself.               |
 | * Your headset or speakers have a volume control of their own. Check that the volume is turned up   |
 |   on the device.                                                                                    |
-| * In High Fidelity, you have a different audio device selected than the one you want to use. Open   |
+| * In Vircadia, you have a different audio device selected than the one you want to use. Open        |
 |   the **Audio** app and make sure the right headset, speakers, and/or microphone are selected.      |
-| * Volume is turned down or off in High Fidelity. Open the **Audio** app and check your volume       |
+| * Volume is turned down or off in Vircadia. Open the **Audio** app and check your volume            |
 |   settings.                                                                                         |
 +-----------------------------------------------------------------------------------------------------+

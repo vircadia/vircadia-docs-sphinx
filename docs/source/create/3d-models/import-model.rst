@@ -35,6 +35,5 @@ The Asset Server hosts files or assets that can either be added as-is to a domai
 
 **See Also**
 
-+ :doc:`Add Your 3D Model to the Marketplace <../../sell/add-item/upload-model>`
 + :doc:`Create Tools <../tools>`
 + :doc:`Create New Entities <../entities/create-entities>`

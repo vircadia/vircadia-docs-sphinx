@@ -1,6 +1,6 @@
-###################################
+###############################
 Find and Use an Existing Avatar
-###################################
+###############################
 
 You can download avatars for use from external sources such as TurboSquid or CGTrader. Once you get the avatar, you will need to process it in Unity using the Vircadia Avatar Exporter. This tool imports most avatars into Unity, maps their skeleton using Unity's humanoid tool, and exports them as FST and FBX files to import in-world.
 
@@ -24,9 +24,9 @@ You should ensure that:
 
 .. note:: If your avatar is not rigged, you can use :doc:`Mixamo <mixamo-tutorial>` to rig it. If you use Mixamo, you do not necessarily need to use Unity and the avatar exporter. Because Mixamo already uses a skeleton that we support, you can use our `Avatar Packager <create-avatars.html#package-your-avatar>`_ to import your avatar into Vircadia. 
 
-------------------------------------------
+----------------------------------
 Vircadia Avatar Exporter for Unity
-------------------------------------------
+----------------------------------
 
 Vircadia supports only one standard type of rigging for avatars. Because many avatars do not match this skeleton, we created the Vircadia Avatar Exporter for Unity (also known as the "avatar exporter") to convert human-like avatars with a humanoid bone structure (body, head, and limbs). The avatar exporter also automatically packages your avatar for use in Vircadia.
 
@@ -107,9 +107,9 @@ Your avatar package has been created! The File Explorer will open to your new av
 
 .. note:: If you are using any external textures with your avatar model, copy those textures to your local user's ``Documents\High Fidelity Projects\avatar\<project name>\textures`` directory. Otherwise, they may not show up on your avatar.
 
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 Test Your Avatar
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 We encourage you to "spot check" your avatar in Unity before exporting it with the `Vircadia Avatar Exporter for Unity`_. Check for the following:
 
@@ -120,9 +120,9 @@ We encourage you to "spot check" your avatar in Unity before exporting it with t
 
 If everything looks good, you need to `host your avatar <package-avatar.html#host-your-avatar>`_ then `change your avatar <../../explore/personalize/change-avatar.html#use-your-own-custom-avatar>`_ to wear it.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^
 Troubleshooting Tips
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^
 
 Many of the errors you will encounter describe issues with the avatar’s skeleton. These are fully documented here: `Troubleshooting with the Avatar Packager <package-avatar.html#troubleshooting-with-the-avatar-packager>`_. Here are some other issues you may encounter after using a downloaded avatar and using the avatar exporter:
 

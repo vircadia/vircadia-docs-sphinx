@@ -11,9 +11,9 @@ High Fidelity has a partnership with DigitalOcean so that we can provide you wit
 .. contents:: On This Page
     :depth: 2
 
-------------------------------------
+-------------------------
 Create a New Cloud Domain
-------------------------------------
+-------------------------
 
 When you create a new cloud domain directly from High Fidelity, we do a lot of the "behind the scenes" work for you. All you need to do is log in to High Fidelity, sign up and/or log in to a DigitalOcean account, and choose the specs for your droplet. A DigitalOcean droplet is simply a scalable virtual machine that we use to host your domain.
 

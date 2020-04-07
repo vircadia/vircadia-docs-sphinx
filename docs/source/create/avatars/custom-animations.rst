@@ -1,8 +1,8 @@
-#####################################
+###########################
 Customize Avatar Animations
-#####################################
+###########################
 
-You can express yourself by overriding High Fidelity's standard set of animations with your own custom animations such as dancing, juggling, or waving. Any custom animations you set up will be independent to each avatar you own and wear.
+You can express yourself by overriding Vircadia's standard set of animations with your own custom animations such as dancing, juggling, or waving. Any custom animations you set up will be independent to each avatar you own and wear.
 
 .. note:: We often update our process for importing custom animations to make it more user friendly. As you develop custom animations, keep in mind that you may need to modify them in the future as our custom animation support continues to improve.
 
@@ -43,7 +43,7 @@ Prepare Your Custom Animation
 
 Before you replace the existing standard animations, you need to prepare your custom animation file. Use our :doc:`Avatar Standards Guide <avatar-standards>` and keep the following guidelines in mind:
 
-- Animations must have standard joint names for High Fidelity.
+- Animations must have standard joint names for Vircadia.
 - Animations must have standard joint orientations (y down the bone).
 - Key frames must have key frames for every joint at a uniform interval of 30 frames per second.
 - Locomotion animation phase has the left ankle in passing position on the first frame. Try to match this phase if you want your locomotion animation to blend with the default set.
@@ -96,7 +96,7 @@ You can also override an existing animation role mapping:
 1. Use `MyAvatar.getAnimationRoles <https://apidocs.vircadia.dev/MyAvatar.html#.getAnimationRoles>`_ to view the list of roles for the current avatar. 
 2. You can replace the animation for each role with a custom animation (FBX file) using `MyAvatar.overrideRoleAnimation <https://apidocs.vircadia.dev/MyAvatar.html#.overrideRoleAnimation>`_.
 
-We've listed the animation roles and their description. These are frequently updated, so we recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles before continuing. The standard animation FBX files for these roles can be found in the High Fidelity source code repository on `GitHub <https://github.com/highfidelity/hifi/tree/master/interface/resources/avatar/animations>`_.
+We've listed the animation roles and their description. These are frequently updated, so we recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles before continuing. The standard animation FBX files for these roles can be found in the Vircadia source code repository on `GitHub <https://github.com/kasenvr/project-athena/tree/kasen/core/interface/resources/avatar/animations>`_.
 
 +-------------------------------------------+----------------------------------------------------------------------+
 | Animation Roles                           | Description                                                          |

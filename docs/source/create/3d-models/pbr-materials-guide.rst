@@ -1,6 +1,6 @@
-#############################
+###################
 PBR Materials Guide
-#############################
+###################
 
 The appearance of a 3D model is controlled by its materials. The materials supported in Vircadia are physically-based rendering (PBR) materials. This means that a 3D model's materials will reflect or absorb light like how they would (approximately) in real life.
 
@@ -17,9 +17,9 @@ Athena supports physically-based rendering (PBR) materials. This means that your
 
 A material contains texture and shading information.
 
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 Textures
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 Textures are flat images that are applied to 3D models. These add detail on how a 3D model's material looks. For example, a 3D model of a tree trunk will use a texture of bark to show what the surface looks like.
 
@@ -32,9 +32,9 @@ Athena supports the use of the following texture formats:
 
 For best performance, we recommend :doc:`baking all 3D models <../../host/add-content/bake-content>` (including textures) before uploading it to Athena.
 
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^
 Shading
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^
 
 Since Athena supports PBR materials, the shading used depicts an accurate representation of a how light interacts with different material surfaces. This means that your 3D model will not look the same under different light settings. The PBR shader has a set of material parameters or channels that can be modified to create different types of materials.
 

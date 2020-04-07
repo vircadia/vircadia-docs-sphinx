@@ -18,7 +18,7 @@ Depending on your requirements, you can host your domain on a physical computer 
 |                      |                                           | * Responsible for security and maintenance        |
 |                      |                                           |   of your server                                  |
 |                      |                                           | * Requires manual installation and configuration  |
-|                      |                                           |   of High Fidelity's Sandbox and domain           |
+|                      |                                           |   of Vircadia's Sandbox and domain           |
 +----------------------+-------------------------------------------+---------------------------------------------------+
 | DigitalOcean Droplet | * No need to have expensive hardware      | * Monthly subscription cost                       |
 |                      |   on hand to host a domain                | * Service outages may occur with the cloud        |
@@ -29,10 +29,6 @@ Depending on your requirements, you can host your domain on a physical computer 
 |                      |   your personal computer, protecting      |                                                   |
 |                      |   yourself from hacking attempts or       |                                                   |
 |                      |   griefers                                |                                                   |
-|                      | * High Fidelity's partnership with        |                                                   |
-|                      |   DigitalOcean automatically sets up and  |                                                   |
-|                      |   configures a domain that is ready for   |                                                   |
-|                      |   use out of the box                      |                                                   |
 |                      | * Ideal for large, public domains for     |                                                   |
 |                      |   hosting events or open gathering areas  |                                                   |
 +----------------------+-------------------------------------------+---------------------------------------------------+

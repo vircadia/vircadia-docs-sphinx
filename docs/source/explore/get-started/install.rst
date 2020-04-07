@@ -98,7 +98,7 @@ Windows Clean Install
 
 .. warning:: 
 
-    The next 3 steps will permanently delete your Sandbox content. If you wish to keep this content, copy %AppData%/Local/Vircadia/assignment-client to another location on your computer before proceeding. Repeat for %AppData%/Roaming/Vircadia/assignment-client. 
+    The next 3 steps will permanently delete your Sandbox content. If you wish to keep this content, copy %AppData%/Local/Project Athena/assignment-client to another location on your computer before proceeding. Repeat for %AppData%/Roaming/Project Athena/assignment-client. 
 
 4. Browse to your local %AppData% folder (usually ``C:/Users/<your_username>/AppData/Local``). If you do not see the folder, make sure you can view hidden folders. In File Explorer, click View and make sure "Hidden Items" is checked. Delete all folders related to Vircadia.  
 5. Browse to your roaming %AppData% folder (usually ``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related to Vircadia.  

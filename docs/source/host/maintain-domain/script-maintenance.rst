@@ -1,6 +1,6 @@
-##################################
+#################################
 Maintain Your Domain with Scripts
-##################################
+#################################
 
 You can "clean up" your domain using an :doc:`assignment client script <../../script/assignment-client-scripts>` that regularly performs maintenance tasks on your domain. For example, a script can remove entities that are not part of your default content set, load tools to help you inspect the contents of your domain, or identify loud avatars  and them in your domain. 
 

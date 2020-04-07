@@ -1,6 +1,6 @@
-#############################
+############################
 Update to the Latest Version
-#############################
+############################
 
 High Fidelity is always changing, as we work to improve performance and add features that will enhance your experience in the metaverse. If a new version has been released, all of our users will be prompted to update to the latest (and most stable) release. 
 

@@ -1,6 +1,8 @@
-#########################
+###########
 Tablet Apps
-#########################
+###########
+
+THIS GUIDE IS OUT OF DATE. THE CODE MAY NOT WORK EXACTLY AS OUTLINED, USE FOR REFERENCE ONLY UNTIL UPDATED. SEE `API DOCS<https://apidocs.vircadia.dev/>` FOR MORE.
 
 Tablet apps (or simply "apps") in Vircadia are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from our `JavaScript API <https://apidocs.vircadia.dev>`_ and simplify it into a window with controls for others to use. 
 
@@ -83,9 +85,9 @@ The Tablet UI framework provides a communication channel called EventBridge. It 
     }
     $(document).ready(main);
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 Write a JavaScript file
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Your JavaScript file will contain all of the core functionality of your app. At a minimum, we require that you have code that adds a button to the tablet and HUD, loads your app, closes your app gracefully, and listens for events. Below, you will find code samples to do each of these things. 
 
