@@ -10,7 +10,7 @@ Packages are currently available for the following distributions:
 
 ```sh
 wget https://cdn.vircadia.com/dist/domain-server/ubuntu/athena-server_0.86.0-k2-20200328-13f3ef2-0ubuntu1-1_amd64.deb
-sudo apt-get update && apt-get install ./athena-server_0.86.0-k2-20200328-13f3ef2-0ubuntu1-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./athena-server_0.86.0-k2-20200328-13f3ef2-0ubuntu1-1_amd64.deb
 ```
 
 ### Amazon Linux 2
