@@ -46,7 +46,7 @@ You are likely to interface most with these High Fidelity APIs:
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
 
 
-There are `many other APIs available <https://apidocs.vircadia.dev>`_, and we encourage you to make sure use of them as you become more comfortable scripting in High Fidelity.
+There are `many other APIs available <https://apidocs.vircadia.dev>`_, and we encourage you to make sure use of them as you become more comfortable scripting in Vircadia.
 
 ----------------------------
 Types of Scripts

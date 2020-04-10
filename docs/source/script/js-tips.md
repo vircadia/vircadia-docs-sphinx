@@ -1,6 +1,6 @@
 # JavaScript Tips & Tricks
 
-High Fidelity's robust [JavaScript API](https://apidocs.vircadia.dev) provides the tools for you to build great content and user experiences in VR. We've compiled some advanced JavaScript tips you can use while scripting for High Fidelity. 
+Vircadia's robust [JavaScript API](https://apidocs.vircadia.dev) provides the tools for you to build great content and user experiences in VR. We've compiled some advanced JavaScript tips you can use while scripting for Vircadia. 
 
 You can use the [Scripting Console in Interface](get-started-with-scripting.html#scripting-console) to try out the examples on this page. The output will be visible in the console itself. 
 

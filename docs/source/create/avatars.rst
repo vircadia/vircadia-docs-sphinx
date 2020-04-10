@@ -2,7 +2,7 @@
 Avatars
 ###########################
 
-When you first use Vircadia, you will be wearing the default avatar. Your avatar is a representation of you in the metaverse. You can make your time in Athena unique by creating an avatar of your own. All custom avatars must be hosted somewhere in the cloud so that Athena can access it. 
+When you first use Vircadia, you will be wearing the default avatar. Your avatar is a representation of you in the metaverse. You can make your time in Vircadia unique by creating an avatar of your own. All custom avatars must be hosted somewhere in the cloud so that Vircadia can access it. 
 
 **In This Section:** 
 
@@ -19,4 +19,3 @@ When you first use Vircadia, you will be wearing the default avatar. Your avatar
     Tutorial: Rig Avatars in Mixamo <avatars/mixamo-tutorial>
     Tutorial: Modify Materials and Textures with Blender <avatars/blender-tutorial>
     Tutorial: Add a Scattering Effect <avatars/scattering-tutorial>
-
