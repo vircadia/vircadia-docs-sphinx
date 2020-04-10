@@ -43,7 +43,7 @@ To set up a domain and host it on your local server:
     
     .. note:: Your temporary place name is only active while your domain is being staged. Permanant place names can be purchased on a subscription basis, and are renewed yearly. :doc:`Learn how to purchase a custom place name for your domain <../configure-settings/place-setting>`. 
     
-    * **Step 3: Set up basic permissions**: By default, anyone logged on to your computer will have access to the domain settings for your domain. If you would like to extend administor privileges to remote users (or allow yourself access from a remote location), then add the Vircadia usernames here. In addition, choose who will be able to connect or rez items. 
+    * **Step 3: Set up basic permissions**: By default, anyone logged on to your computer will have access to the domain settings for your domain. If you would like to extend administrator privileges to remote users (or allow yourself access from a remote location), then add the Vircadia usernames here. In addition, choose who will be able to connect or rez items. 
     * Click **Finish** to close the Setup Wizard. You will automatically be redirected to the Domain Settings for your domain.
     
 At this point, you have staged a domain in the metaverse and connected it to your server. However, it is not yet "live", meaning that it exists only as a temporary or "draft" domain in the metaverse. 
@@ -85,5 +85,4 @@ What's Next?
 |                                               |                                      |   <../maintain-domain/update-software.html>`_ |
 |                                               |                                      | * And more...                                 |
 +-----------------------------------------------+--------------------------------------+-----------------------------------------------+
-
 
