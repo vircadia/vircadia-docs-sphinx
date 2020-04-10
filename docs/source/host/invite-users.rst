@@ -33,7 +33,7 @@ To restrict access to your domain, you will need to create a blacklist of users 
 Promote Your Community Event with Vircadia
 ----------------------------------------------------------------
 
-To get your event or experience added to the calendar on our website, you can submit it to us by filling out by joining our `Discord<https://discordapp.com/invite/Pvx2vke>` server and reaching out to a Core Maintainer.
+To get your event or experience added to the calendar on our website, you can submit it to us by filling out by joining our `Discord<https://discordapp.com/invite/Pvx2vke>` server and reaching out to a Core Team Member.
 
 It will then be:
 

@@ -75,17 +75,17 @@ We've listed the methods you can use to replace the standard animations on your 
 | Method                              | Description                                                                     |
 +=====================================+=================================================================================+
 | `MyAvatar.overrideAnimation         | This method can be used to play any animation on the current avatar. It will    |
-| <https://apidocs.vircadia.dev/  | move smoothly from the current pose to the starting frame of the custom         |
+| <https://apidocs.vircadia.dev/      | move smoothly from the current pose to the starting frame of the custom         |
 | MyAvatar.html#.overrideAnimation>`_ | animation. For example, if your avatar is waving, this script will stop your    |
 |                                     | avatar waving and play the custom animation provided.                           |
 +-------------------------------------+---------------------------------------------------------------------------------+
 | `AnimationCache.prefetch            | This method fetches a resource. You can use this to fetch a custom animation    |
-| <https://apidocs.vircadia.dev/  | you've hosted on a cloud server. If you do not prefetch your animations before  |
+| <https://apidocs.vircadia.dev/      | you've hosted on a cloud server. If you do not prefetch your animations before  |
 | AnimationCache.html#.prefetch>`_    | playing them, you might see a t-pose appear briefly as the animation is         |
 |                                     | downloaded.                                                                     |
 +-------------------------------------+---------------------------------------------------------------------------------+
 | `MyAvatar.restoreAnimation          | This method stops the override function from playing any custom animation.      |
-| <https://apidocs.vircadia.dev/  | Your avatar will go back to playing the standard animations.                    |
+| <https://apidocs.vircadia.dev/      | Your avatar will go back to playing the standard animations.                    |
 | MyAvatar.html#.restoreAnimation>`_  |                                                                                 |
 +-------------------------------------+---------------------------------------------------------------------------------+
 
@@ -193,9 +193,9 @@ We've listed the animation roles and their description. These are frequently upd
 | LANDRUN                                   | Running land.                                                        |
 +-------------------------------------------+----------------------------------------------------------------------+
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Create a Custom Avatar Animation JSON file
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you're not comfortable using a script, you can edit or replace the existing Avatar Animation JSON file to override the standard animations. 
 
@@ -223,17 +223,17 @@ OR
     animGraphUrl = "URL"
 
 
-^^^^^^^^^^^^^^^^
+^^^^^^^^
 Examples
-^^^^^^^^^^^^^^^^
+^^^^^^^^
 
-+ Here is the current default `avatar-animation.json <https://github.com/highfidelity/hifi/blob/master/interface/resources/avatar/avatar-animation.json>`_ file.
++ Here is the current default `avatar-animation.json <https://github.com/kasenvr/project-athena/blob/kasen/core/interface/resources/avatar/avatar-animation.json>`_ file.
 + This `scoot-animation.json <https://s3.amazonaws.com/hifi-public/tony/scoot-animation.json>`_ file replaces the idle and walk animations with a sitting pose. This example shows how you can replace some of an avatar's default animations.
 
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Advanced Topic: AnimNode System
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Avatar Animation JSON file contains a hierarchical tree of nodes called the AnimNode System. The AnimNode system defines how an avatar moves and is described in the Animation Graph JSON file. 
 

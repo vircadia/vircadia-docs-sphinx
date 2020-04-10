@@ -22,7 +22,7 @@ In addition, your network must have enough internet bandwidth to run Vircadia:
 * If you are using Interface only to explore the metaverse, then you must have internet speeds of at least **10 Mbps download/2 Mbps** upload.
 * If you are hosting a domain on your Sandbox, you need to add **10 Mbps** upload for each user you want to concurrently visit your domain. 
 
-.. note:: We also run on Linux devices; however, we do not publish an installer for Linux machines. To use Vircadia on Linux, you will need to build the application from our code base. For more information, see our `Linux Build Guide <https://github.com/highfidelity/hifi/blob/master/BUILD_LINUX.md>`_.
+.. note:: We also run on Linux devices; however, we do not publish an installer for Linux machines. To use Vircadia on Linux, you will need to build the application from our code base. For more information, see our `Linux Build Guide <https://github.com/kasenvr/project-athena/blob/kasen/core/BUILD_LINUX.md>`_.
 
 -----------------------------------
 Download Vircadia Installer

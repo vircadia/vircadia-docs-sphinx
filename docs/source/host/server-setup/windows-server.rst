@@ -9,9 +9,9 @@ A local server lets you use your own computer to host your virtual domain on the
 .. contents:: On This Page
     :depth: 2
 
----------------------------
+------------------
 Set Up Your Server
----------------------------
+------------------
 
 Before you set up a local server, you should have a basic understanding of computer and networking concepts. Specifically, familiarize yourself with:
 
@@ -22,12 +22,12 @@ At a minimum, the computer that you use for your server should meet our `minimum
 
 To host a domain, you must be running Vircadia's open source `Client + Sandbox <https://vircadia.com/download-vircadia/#interface>`_ software.
 
-.. note:: While we do not publish an installer for Linux computers, you can still run a local domain server on a Linux machine. To do so, you will need to build the application from our code base. For more information, see our `Linux Build Guide <https://github.com/highfidelity/hifi/blob/master/BUILD_LINUX.md>`_.
+.. note:: While we do not publish an installer for Linux computers, you can still run a local domain server on a Linux machine. To do so, you will need to build the application from our code base. For more information, see our `Linux Build Guide <https://github.com/kasenvr/project-athena/blob/kasen/core/BUILD_LINUX.md>`_.
 
 
----------------------------
+---------------
 Create a Domain
----------------------------
+---------------
 
 To set up a domain and host it on your local server:
 
@@ -48,9 +48,9 @@ To set up a domain and host it on your local server:
     
 At this point, you have staged a domain in the metaverse and connected it to your server. However, it is not yet "live", meaning that it exists only as a temporary or "draft" domain in the metaverse. 
 
-----------------------------------
+--------------------
 Activate Your Domain
-----------------------------------
+--------------------
 
 To activate your domain: 
 
@@ -64,9 +64,9 @@ This will assign your domain with a permanent, unique identification code that r
 
 Now, your domain is officially part of the expanding metaverse! 
 
-------------------------
+------------
 What's Next?
-------------------------
+------------
 
 .. rst-class:: list-table
 
@@ -81,7 +81,7 @@ What's Next?
 |   domains <../../explore/socialize>`          |                                      |   gs/audio-settings.html>`_                   |
 |                                               |                                      | * `Backup your domain's content <../maintain- |
 |                                               |                                      |   domain/backup-domain.html>`_                |
-|                                               |                                      | * `Update for new Vircadia releases      |
+|                                               |                                      | * `Update for new Vircadia releases           |
 |                                               |                                      |   <../maintain-domain/update-software.html>`_ |
 |                                               |                                      | * And more...                                 |
 +-----------------------------------------------+--------------------------------------+-----------------------------------------------+

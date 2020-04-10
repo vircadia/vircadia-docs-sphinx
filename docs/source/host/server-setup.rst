@@ -18,7 +18,7 @@ Depending on your requirements, you can host your domain on a physical computer 
 |                      |                                           | * Responsible for security and maintenance        |
 |                      |                                           |   of your server                                  |
 |                      |                                           | * Requires manual installation and configuration  |
-|                      |                                           |   of Vircadia's Sandbox and domain           |
+|                      |                                           |   of Vircadia's Sandbox and domain                |
 +----------------------+-------------------------------------------+---------------------------------------------------+
 | DigitalOcean Droplet | * No need to have expensive hardware      | * Monthly subscription cost                       |
 |                      |   on hand to host a domain                | * Service outages may occur with the cloud        |
