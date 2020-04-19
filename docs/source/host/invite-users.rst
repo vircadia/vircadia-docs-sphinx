@@ -7,9 +7,9 @@ Now that you have a domain up and running, its time to invite people in to your 
 .. contents:: On This Page
     :depth: 2
 
----------------------------------------
+-------------------
 Invite Your Friends 
----------------------------------------
+-------------------
 
 Nothing is more inviting than a personal invitation to come check out an exciting, new place in the metaverse! Invite your friends with a personal message to visit your domain. 
 
@@ -29,9 +29,9 @@ In order to be featured on Vircadia's Explore app, you must add a location marke
 
 To restrict access to your domain, you will need to create a blacklist of users without permission to connect to your domain. This can be set up by username, IP address, MAC address or machine fingerprint.
 
-----------------------------------------------------------------
+------------------------------------------
 Promote Your Community Event with Vircadia
-----------------------------------------------------------------
+------------------------------------------
 
 To get your event or experience added to the calendar on our website, you can submit it to us by filling out by joining our `Discord<https://discordapp.com/invite/Pvx2vke>` server and reaching out to a Core Team Member.
 
@@ -40,9 +40,9 @@ It will then be:
 * Added to Vircadia's `Events Calendar <https://www.vircadia.com/events>`_ 
 * Promoted on Vircadia's social channels
 
----------------------------------------------
+--------------------
 Blast to Connections
----------------------------------------------
+--------------------
 
 If you want to let all of your Vircadia colleagues know about something that’s happening right now, you can blast an announcement to all of your connections. Within about a minute, all of your interested `connections and friends <../explore/socialize.html#make-connections-and-friends>`_ will get notified whenever they come online. 
 
