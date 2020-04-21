@@ -177,7 +177,7 @@ Depending on the avatar's design, the collision hulls can be very large or small
 ### Avatar Thumbnails
 
 The Avatar app will look for a thumbnail with a .jpg extension with the same name and at the same URL location as your avatar's.
-For example, if your avatar is hosted on `http://vircadia.dev/avatar.fbx`, then it will look for a thumbnail at `http://vircadia.dev/avatar.jpg`.
+For example, if your avatar is hosted at `https://vircadia.dev/avatar.fbx`, then it will look for a thumbnail at `https://vircadia.dev/avatar.jpg`.
 
 **See Also**
 
