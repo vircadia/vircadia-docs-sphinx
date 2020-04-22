@@ -1,6 +1,6 @@
-######################################
+##############################
 Backup and Restore Your Domain
-######################################
+##############################
 
 We recommend that you do backups of your domain in case of data loss or griefing. While your domain server does perform automatic backups periodically of your domain's content, it is up to you to configure the frequency these backups that are performed. In addition, we recommend that you periodically download copies of these backups to your computer as a secondary backup.
 
@@ -15,9 +15,9 @@ Your domain server makes regular archives of the content in your domain. By defa
 
 1. Open your domain settings.
 
-    * For cloud hosted domains, go to https://metaverse.highfidelity.com/user/cloud_domains. Click the "More Options" menu (3 dots on the right-side of the row), then click 'Domain Server settings'. Log in when prompted.
-    * For local servers on Windows: Click on the High Fidelity icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the High Fidelity icon on the top menu bar, then click 'Settings'.
+    * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
+    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. On the top menu bar, select **Settings > Automatic Content Archives**.
 3. Under 'Rolling Backup Rules', click the ``+`` icon.
@@ -40,9 +40,9 @@ In the case you need a backup on demand, you can create one:
 
 1. Open your domain settings.
 
-    * For cloud hosted domains, go to https://metaverse.highfidelity.com/user/cloud_domains. Click the "More Options" menu (3 dots on the right-side of the row), then click 'Domain Server settings'. Log in when prompted.
-    * For local servers on Windows: Click on the High Fidelity icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the High Fidelity icon on the top menu bar, then click 'Settings'.
+    * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/cloud_domains. Log in when prompted.
+    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. On the top menu bar, select **Content > Content Archives**.
 3. Under 'Manual Content Archives', click 'Generate New Archive'.
@@ -58,9 +58,9 @@ To download any content archive (automatic or manual):
 
 1. Open your domain settings.
 
-    * For cloud hosted domains, go to https://metaverse.highfidelity.com/user/cloud_domains. Click the "More Options" menu (3 dots on the right-side of the row), then click 'Domain Server settings'. Log in when prompted.
-    * For local servers on Windows: Click on the High Fidelity icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the High Fidelity icon on the top menu bar, then click 'Settings'.
+    * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
+    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. On the top menu bar, select **Content > Content Archives**.
 3. Locate the content archive you want to download.
@@ -74,9 +74,9 @@ To restore content to a previous archive on this domain:
 
 1. Open your domain settings.
 
-    * For cloud hosted domains, go to https://metaverse.highfidelity.com/user/cloud_domains. Click the "More Options" menu (3 dots on the right-side of the row), then click 'Domain Server settings'. Log in when prompted.
-    * For local servers on Windows: Click on the High Fidelity icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the High Fidelity icon on the top menu bar, then click 'Settings'.
+    * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
+    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. On the top menu bar, select **Content > Content Archives**.
 3. Locate the content archive you want to restore.
@@ -100,9 +100,9 @@ To backup your domain's so you can quickly configure another domain or restore t
 
 1. Open your domain settings.
 
-    * For cloud hosted domains, go to https://metaverse.highfidelity.com/user/cloud_domains. Click the "More Options" menu (3 dots on the right-side of the row), then click 'Domain Server settings'. Log in when prompted.
-    * For local servers on Windows: Click on the High Fidelity icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the High Fidelity icon on the top menu bar, then click 'Settings'.
+    * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
+    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. On the top menu bar, select **Settings > Setting Backup /Restore**.
 3. Click 'Download Domain Settings'.

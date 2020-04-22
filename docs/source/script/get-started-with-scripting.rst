@@ -1,43 +1,43 @@
-###############################
+##########################
 Get Started with Scripting
-###############################
+##########################
 
-Many of the scripts in High Fidelity run behind the scenes, so that you don't even know they're running. However, if you want to create some advanced behavior, you may need to :doc:`write your own scripts <write-scripts>` to make sure everything works correctly. 
+Many of the scripts in Vircadia run behind the scenes, so that you don't even know they're running. However, if you want to create some advanced behavior, you may need to :doc:`write your own scripts <write-scripts>` to make sure everything works correctly. 
 
 This page ensures that you know what type of script to use and helps you get started running your own simple scripts.
 
 .. contents:: On This Page
     :depth: 2
 
------------------------------------------
-JavaScript Basics in High Fidelity
------------------------------------------
+-----------------------------
+JavaScript Basics in Vircadia
+-----------------------------
 
-High Fidelity scripting runs on a JavaScript engine that is provided with Qt. 
+Vircadia scripting runs on a JavaScript engine that is provided with Qt. 
 
-.. note:: Note that any functionality that runs around web pages (such as cookies, local storages, or databases) does not work with 3D environments such as High Fidelity. For this reason, you cannot use JavaScript frameworks such as Angular, React, Express, jQuery, Vue, etc.
+.. note:: Note that any functionality that runs around web pages (such as cookies, local storages, or databases) does not work with 3D environments such as Vircadia. For this reason, you cannot use JavaScript frameworks such as Angular, React, Express, jQuery, Vue, etc.
 
-You are likely to interface most with these High Fidelity APIs:  
+You are likely to interface most with these Vircadia APIs:  
 
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
 | API(s)                                                                  | Description                                                      |
 +=========================================================================+==================================================================+
-| `Entities <https://apidocs.highfidelity.com/Entities.html>`_            | Lets you manipulate the entities around you, as long             |
+| `Entities <https://apidocs.vircadia.dev/Entities.html>`_                | Lets you manipulate the entities around you, as long             |
 |                                                                         | as you have permissions to do so. This means you can             |
 |                                                                         | add, remove, and edit entities. Everyone has access              |
 |                                                                         | to ``get`` properties of an entity, and can be used              |
 |                                                                         | to find Entities in range, direction, collision, or              |
 |                                                                         | raytrace.                                                        |
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
-| `AvatarList <https://apidocs.highfidelity.com/AvatarList.html>`_        | Lets you get information on an `Avatar                           |
-|                                                                         | <https://apidocs.highfidelity.com/Avatar.html>`_,                |
-| `AvatarManager <https://apidocs.highfidelity.com/AvatarManager.html>`_  | or manipulate your own client-only `MyAvatar                     |
-|                                                                         | <https://apidocs.highfidelity.com/MyAvatar.html>`_. The          |
-| `MyAvatar <https://apidocs.highfidelity.com/MyAvatar.html>`_            | information here will be always the avatar information           |
+| `AvatarList <https://apidocs.vircadia.dev/AvatarList.html>`_            | Lets you get information on an `Avatar                           |
+|                                                                         | <https://apidocs.vircadia.dev/Avatar.html>`_,                    |
+| `AvatarManager <https://apidocs.vircadia.dev/AvatarManager.html>`_      | or manipulate your own client-only `MyAvatar                     |
+|                                                                         | <https://apidocs.vircadia.dev/MyAvatar.html>`_. The              |
+| `MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_                | information here will be always the avatar information           |
 |                                                                         | of the client running the script. AvatarList and                 |
 |                                                                         | AvatarManager are basically the same.                            |
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
-| `Script <https://apidocs.highfidelity.com/Script.html>`_                | Lets you to connect callbacks from your client to script,        |
+| `Script <https://apidocs.vircadia.dev/Script.html>`_                    | Lets you to connect callbacks from your client to script,        |
 |                                                                         | such as functionality that is dependent on time                  |
 |                                                                         | (Script.update, Script.setTime, Script.setInterval etc),         |
 |                                                                         | connect paths relatively to Assets (Script.relativePath),        |
@@ -46,11 +46,11 @@ You are likely to interface most with these High Fidelity APIs:
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
 
 
-There are `many other APIs available <https://apidocs.highfidelity.com>`_, and we encourage you to make sure use of them as you become more comfortable scripting in High Fidelity.
+There are `many other APIs available <https://apidocs.vircadia.dev>`_, and we encourage you to make sure use of them as you become more comfortable scripting in Vircadia.
 
-----------------------------
+----------------
 Types of Scripts
-----------------------------
+----------------
 
 +--------------------------+-------------------------------------------------------------------------------------+
 | Script Type              | Description                                                                         |
@@ -74,25 +74,25 @@ Types of Scripts
 |                          | heard by everyone in the domain.                                                    |
 +--------------------------+-------------------------------------------------------------------------------------+
 
---------------------------------
+---------------------
 Scripting Permissions
---------------------------------
+---------------------
 
 Each domain owner has the ability to :doc:`restrict create and edit permissions <../host/configure-settings/permission-settings>`. If the script you want to run adds or edits entities and you don't have the permission to do so, you won't see any objects created or changed. However, you will still see the script listed in the Running Scripts window. 
 
--------------------------------
+----------------------
 Running Scripts Window
--------------------------------
+----------------------
 
-The Running Scripts window can be used to load, run and stop scripts from a URL or from a disk drive. High Fidelity also provides a number of sample scripts for you to try out. 
+The Running Scripts window can be used to load, run and stop scripts from a URL or from a disk drive. Vircadia also provides a number of sample scripts for you to try out. 
 
 To open the *Running Scripts* window, go to **Edit > Running Scripts** or press ``Ctrl`` + ``J`` on your keyboard.
 
-------------------------------
+--------------
 Sample Scripts
-------------------------------
+--------------
 
-High Fidelity comes with a collection of scripts designed to improve your experience as a user and provide tools for developing your own content. We encourage you to look at these scripts as a resource to learn how to code your own. 
+Vircadia comes with a collection of scripts designed to improve your experience as a user and provide tools for developing your own content. We encourage you to look at these scripts as a resource to learn how to code your own. 
 
 .. note:: Loading (or running) a script lets you test the functionality and see how it behaves. If you want to view the actual code, you will need to open the file in the text editor of your choice. In the 'Running Scripts' window, click the 'Reveal Scripts' folder and browse to the JavaScript file that you want to view. 
 
@@ -107,22 +107,22 @@ These are the scripts we have available:
 |                | advanced developers may find them useful when creating content. These scripts are  |
 |                | not "entry-level" and are not guaranteed to work or be documented.                 |
 +----------------+------------------------------------------------------------------------------------+
-| ``modules``    | These scripts create external tools that simplify scripting in High Fidelity.      |
+| ``modules``    | These scripts create external tools that simplify scripting in Vircadia.           |
 |                | For example, the AppUI module helps you create a tablet app, while the Request     |
 |                | module processes HTTP requests.                                                    |
 +----------------+------------------------------------------------------------------------------------+
-| ``system``     | These scripts are critical to the stability and usability of High Fidelity.        |
+| ``system``     | These scripts are critical to the stability and usability of Vircadia.             |
 |                | Making changes to these scripts is not recommended, nor is it easy, as you may     |
 |                | need 'administrative' privileges.                                                  |
 +----------------+------------------------------------------------------------------------------------+
-| ``tutorials``  | These scripts provide examples of what you can do using scripts in High Fidelity.  |
+| ``tutorials``  | These scripts provide examples of what you can do using scripts in Vircadia.       |
 |                | Examples include: creating butterflies, making your avatar clap, and adding        |
 |                | ambient sound to your domain.                                                      |
 +----------------+------------------------------------------------------------------------------------+
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 Load and Run a Script
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 To run a script:
  
@@ -131,9 +131,9 @@ To run a script:
 3. For scripts on your local computer, click 'From Disk'. Browse to your script file and click 'Open'.
 4. To load a sample script, browse to the script at the bottom of the 'Running Scripts' window. 
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 Reload or Stop a Script
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 
 To reload or stop a script, open the 'Running Scripts' window and do one of the following:
 
@@ -142,9 +142,9 @@ To reload or stop a script, open the 'Running Scripts' window and do one of the 
 * To stop all running scripts, click the 'Stop All' button at the top of the 'Running Scripts' window.
 * To stop a specific script, click the 'X' next to the script.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Add a Script to the Default Scripts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can add a script to the default scripts to run every time you start Interface. 
 
@@ -155,17 +155,17 @@ You can add a script to the default scripts to run every time you start Interfac
 
 .. note:: The 'defaultScripts.js' file is updated every time you update Interface to the latest release version. This means that any changes you make to the file will be overwritten. You can avoid this by writing and running a 'loader' script to load scripts on start up. 
 
-------------------------------
+-----------------
 Scripting Console 
-------------------------------
+-----------------
 
-The Scripting Console lets you test and run short script snippets quickly in High Fidelity to see how they work. To open the console, go to the 'Developer menu', then **Scripting > Console**. If the 'Developer' menu is not visible, first go to the 'Settings' menu and click 'Developer' Menu.
+The Scripting Console lets you test and run short script snippets quickly in Vircadia to see how they work. To open the console, go to the 'Developer menu', then **Scripting > Console**. If the 'Developer' menu is not visible, first go to the 'Settings' menu and click 'Developer' Menu.
 
 .. image:: _images/scripting-console.png
 
-------------------------
+------------
 Debug Window
-------------------------
+------------
 
 The Debug Window shows the output generated by your running scripts. This lets you watch the script(s) in action and make sure that it is running as you intended. If the script fails, the debugger can help you identify what went wrong, and point you to specific lines of code where the error occurred. To open the Debug Window, go to the 'Developer' menu, then **Scripting > Script Log** (HMD Friendly). If the Developer menu is not visible, first go to the 'Settings' menu and click 'Developer' Menu.
 

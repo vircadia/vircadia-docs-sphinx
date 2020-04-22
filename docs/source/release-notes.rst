@@ -2,7 +2,7 @@
 Release Notes
 ####################
 
-See what's been released in Project Athena. 
+See what's been released in Vircadia. 
 
 .. toctree::
     :maxdepth: 2

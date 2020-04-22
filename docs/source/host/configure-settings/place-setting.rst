@@ -13,13 +13,13 @@ Place names, on the other hand, make it easy to travel to your domain. They're m
 Purchase a Place Name
 -----------------------------
 
-Place names are purchased from High Fidelity for $20/year. Once purchased, a place name can be transferred freely between any of your domains.
+Place names are purchased from Vircadia for $20/year. Once purchased, a place name can be transferred freely between any of your domains.
 
-.. note:: If you would like to use HFC to purchase a place name, `schedule an appointment with the High Fidelity banker <https://meetings.hubspot.com/highfidelity/high-fidelity-bank-appointment>`_. Here, you can purchase a coupon that can be used to purchase a place name using the process below.
+.. note:: If you would like to use HFC to purchase a place name, `schedule an appointment with the Vircadia banker <https://meetings.hubspot.com/highfidelity/high-fidelity-bank-appointment>`_. Here, you can purchase a coupon that can be used to purchase a place name using the process below.
 
 1. Go to https://highfidelity.com/user/places to purchase a place name. If you’re not logged in, you will be prompted to do so.
 2. Click 'Create a Place Name'.
-3. Type in your new Place Name. Place Names must be 4-64 characters in length. Letters, numbers and hyphens are allowed. You can use any place name that has not been already purchases; however, please note that High Fidelity reserves the right to reject any registration we deem obscene, offensive, or a copyright violation, and refund the corresponding registration fees.
+3. Type in your new Place Name. Place Names must be 4-64 characters in length. Letters, numbers and hyphens are allowed. You can use any place name that has not been already purchases; however, please note that Vircadia reserves the right to reject any registration we deem obscene, offensive, or a copyright violation, and refund the corresponding registration fees.
 4. Click 'Checkout Now'.
 5. Enter your credit card number, PayPal account information or a coupon code to complete the purchase.
 
@@ -35,9 +35,9 @@ This sets up your place name directly from your domain settings.
 
 1. Open your domain settings.
 
-    * For cloud hosted domains, go to https://metaverse.highfidelity.com/user/cloud_domains. Click the "More Options" menu (3 dots on the right-side of the row), then click 'Domain Server settings'. Log in when prompted.
-    * For local servers on Windows: Click on the High Fidelity icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the High Fidelity icon on the top menu bar, then click 'Settings'.
+    * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
+    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. Scroll to 'Places'.
 3. In the grid, click the ``+`` icon to add a place name to this domain.
@@ -49,7 +49,7 @@ This sets up your place name directly from your domain settings.
 
 **Method 2 - Use 'My Places'**
 
-This sets up your place name from your High Fidelity account. Before moving forward, make sure you have the `domain ID <network-settings.html#domain-id>`_ of your domain. You will need this to point your place name to your domain. 
+This sets up your place name from your Vircadia account. Before moving forward, make sure you have the `domain ID <network-settings.html#domain-id>`_ of your domain. You will need this to point your place name to your domain. 
 
 1. Go to https://highfidelity.com/user/places. If you’re not logged in, you will be prompted to do so.
 2. Click the 'Edit' icon next to the place name you want to configure.

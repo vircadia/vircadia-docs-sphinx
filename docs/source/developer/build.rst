@@ -1,8 +1,8 @@
 #######################
-Building Project Athena
+Building Vircadia
 #######################
 
-The following are the guides for building Project Athena from source.
+The following are the guides for building Vircadia from source.
 
 .. toctree::
     :maxdepth: 1

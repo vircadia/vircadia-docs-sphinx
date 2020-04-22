@@ -1,6 +1,6 @@
-########################
+####
 Host
-########################
+####
 
 Vircadia's vision is a decentralized network of virtual worlds, created and controlled by our users. To achieve this vision, we want you to have the power to express your creativity, build your own virtual worlds, and be a part of an expanding metaverse. 
 

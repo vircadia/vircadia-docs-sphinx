@@ -8,7 +8,7 @@ There are three ways to get your own avatar. You can either:
 * Use MakeHuman or VRoid Studio to create a human or anime avatar
 * Download an existing avatar from external sources such as TurboSquid or CGTrader 
 
-.. note:: If you get an avatar from an external source such as TurboSquid, CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with Project Athena, use the `Project Athena Avatar Exporter for Unity <find-avatars.html#project-athena-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar. 
+.. note:: If you get an avatar from an external source such as TurboSquid, CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with Vircadia, use the `Vircadia Avatar Exporter for Unity <find-avatars.html#project-athena-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar. 
 
 If you want to create an avatar from scratch, this page covers the steps needed to create, rig, and package your avatar. 
 
@@ -32,7 +32,7 @@ The steps involved in creating your avatar are:
 1. Create an avatar with 3D character modeling tool such as Adobe Fuse, Blender or Maya. 
 2. Rig and animate your avatar with an animation tool such as Mixamo.
 3. Fine tune your avatar using a tool such as Blender or Maya.
-4. Package the model in Project Athena for use as an avatar.  
+4. Package the model in Vircadia for use as an avatar.  
 
 Check out this YouTube playlist for one way to create and customize your own avatar. Here, we use Adobe Fuse to create our avatar, Mixamo to rig our avatar automatically, and Blender to adjust the rendering on our avatar. We also have written instructions on the same process: 
 
@@ -50,13 +50,13 @@ Check out this YouTube playlist for one way to create and customize your own ava
 Community Tools for Avatars
 -------------------------------
 
-As you're creating your avatar, remember that Project Athena is an open-source project. Many of our community members have created plug-ins, add-ons, toolkits, skeletons and more to help you create content, including avatars. Here are a few for you to play around with.
+As you're creating your avatar, remember that Vircadia is an open-source project. Many of our community members have created plug-ins, add-ons, toolkits, skeletons and more to help you create content, including avatars. Here are a few for you to play around with.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 `Blender Add-on by Menithal <https://github.com/Menithal/Blender-Metaverse-Addon>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Plugin ("Project Hermes") is a plugin for Blender to allow for easier content creation and importing for the Project Athena Metaverse Platform. It features: 
+Plugin ("Project Hermes") is a plugin for Blender to allow for easier content creation and importing for the Vircadia Metaverse Platform. It features: 
 
 - **Material Tools**: Allows for easier pipeline to apply materials to objects so that they are ready to use in Athena.
 - **Armature Tools**: Adds a skeleton that is compatible with Athena and let you configure bone names for use in advanced scripts.
