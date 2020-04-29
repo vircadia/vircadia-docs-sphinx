@@ -2,7 +2,7 @@
 Get Your 3D Model
 #########################
 
-Many 3D models are available for purchase on our `Marketplace <../../explore/shop.html#shopping-the-marketplace>`_. If the Marketplace doesn't have the model you're looking for, you can create and customize your own. All 3D models should be in the OBJ or FBX format and have materials supported by High Fidelity.  
+All 3D models should be in the OBJ or FBX format and have materials supported by Vircadia.  
 
 .. contents:: On This Page
     :depth: 2
@@ -13,8 +13,8 @@ Get Your 3D Model from 3D Content Stores
 
 There are many online 3D content websites that contain models that you can purchase or get for free. Keep the following in mind when sourcing 3D models from such sites:
 
-+ **Check Licensing Terms:** Make sure you check a model's licensing terms before you use it. It is your responsibility to ensure that you have sufficient rights to upload the content. When you make a 3D model available on your High Fidelity server, visitors are getting the links to those files in the same way as they would when viewing an image on a website. You should be comfortable and have the rights to re-distribute the 3D content. High Fidelity offers proof-of-purchase certificates for 3D models (uploaded to our Marketplace) that certify that they have been legitimately purchased.
-+ **Check Materials:** You might find that the model may be missing its textures. If that happens, first check to see if the textures are included. If a model loads into High Fidelity and doesn't look right, you may also find error information in the Interface logs.  
++ **Check Licensing Terms:** Make sure you check a model's licensing terms before you use it. It is your responsibility to ensure that you have sufficient rights to use the content. When you make a 3D model available on your Vircadia server, visitors are getting the links to those files in the same way as they would when viewing an image on a website. You should be comfortable and have the rights to re-distribute the 3D content.
++ **Check Materials:** You might find that the model may be missing its textures. If that happens, first check to see if the textures are included. If a model loads into Vircadia and doesn't look right, you may also find error information in the Interface logs.  
 
 ---------------------------------
 Create Your Own 3D Model
@@ -32,9 +32,9 @@ Best Practices
 Making 3D models for High Fidelity (and VR) is different than making models for films, videos, and games.
 
 + 3D models for VR are rendered twice (for both right and left eyes): This means that the number of polygons on your model and the number of materials you use will affect your performance.
-+ All VR headsets run at 90Hz: You’ll have to keep your framerate at 90fps and be cautious about your model’s size. Models that are too big or very complex can slow down the framerate and make people feel nauseous.
++ Most VR headsets run at 90Hz: You’ll have to keep your framerate at 90fps and be cautious about your model’s size. Models that are too big or very complex can slow down the framerate and make people feel nauseous.
 
-We've listed the best practices for creating 3D models for High Fidelity (and VR).
+We've listed the best practices for creating 3D models for Vircadia (and VR).
 
 +------------+-------------------------------------------------------------------------------+
 | Property   | Best Practice                                                                 |
@@ -78,6 +78,3 @@ We've listed the best practices for creating 3D models for High Fidelity (and VR
 |            | polys. Smaller textures means more room for higher poly models.               |
 +------------+-------------------------------------------------------------------------------+
 
-**See Also**
-
-+ `Shopping the Marketplace <../../explore/shop.html#shopping-the-marketplace>`_
