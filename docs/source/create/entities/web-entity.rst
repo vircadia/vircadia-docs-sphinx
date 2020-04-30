@@ -113,6 +113,7 @@ Video player
 
 **See Also**
 
-+ :doc:`Interact with Your Environment <../../explore/interact>`
++ :doc:`Create new Entity's <create-entities>`
 + `The Create App <../tools.html#the-create-app>`_
 + :doc:`Define an Entity's Behavior <entity-behavior>`
++ :doc:`Change How Entities Look <entity-appearance>`
