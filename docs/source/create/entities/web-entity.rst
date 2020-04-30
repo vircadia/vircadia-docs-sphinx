@@ -100,6 +100,7 @@ do
 
 echo "" | ffmpeg -i "$ITEM" -c:v libvpx-vp9 -b:v 0 -crf 5 -vf scale=-2:600 -cpu-used 5 -row-mt 1 -c:a libopus -b:a 96K "$OUTPUT"
 
+# All files with the listed extensions will be reencoded.
 done< <(find "$SOURCE" \( -iname '*.mp4' -or -iname '*.avi'  -or -iname '*.mkv' -or -iname '*.mts' \) -print0) |
 ```
 .. note:: Do not forget to set the script as executable on Linux using something like `chmod +x vircadia_reencode.sh`
