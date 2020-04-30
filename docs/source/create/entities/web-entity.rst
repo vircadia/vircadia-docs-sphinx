@@ -2,7 +2,7 @@
 Play media in a Web Entity
 ##############################
 
-Web entities can play a number for different media formats through embedded players.
+Web entities can play a number of different media formats through embedded players.
 
 .. contents:: On This Page
     :depth: 1
