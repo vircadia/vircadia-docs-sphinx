@@ -109,6 +109,12 @@ done< <(find "$SOURCE" \( -iname '*.mp4' -or -iname '*.avi'  -or -iname '*.mkv' 
 Video player
 -----------------------
 
+You can embed media into Vircadia using the HTML5 video tag. This example code can be put into a html file on a webserver and be used inside of a web entitiy. 
+```
+<video controls="controls" src="EXAMPLEDIRECTORY/EXAMPLEFILE.webm">
+    Your browser does not support the HTML5 Video element.
+</video>
+```
 
 
 **See Also**
