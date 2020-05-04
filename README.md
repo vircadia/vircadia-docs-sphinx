@@ -13,7 +13,7 @@ For Vircadia's main documentation system, we use **Sphinx** to generate it, and 
 
 **Read the Docs** is a hosting platform for Sphinx-generated documentation. It takes the power of Sphinx and adds version control, full-text search, and other useful features. It pulls down code and doc files from Git then builds and hosts the documentation. 
 
-Our main documentation is hosted at https://docs.projectathena.dev.
+Our main documentation is hosted at https://docs.vircadia.dev.
 
 ## Install Sphinx for Local Builds
 
