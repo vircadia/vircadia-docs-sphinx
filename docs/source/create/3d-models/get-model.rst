@@ -13,7 +13,7 @@ Get Your 3D Model from 3D Content Stores
 
 There are many online 3D content websites that contain models that you can purchase or get for free. Keep the following in mind when sourcing 3D models from such sites:
 
-+ **Check Licensing Terms:** Make sure you check a model's licensing terms before you use it. It is your responsibility to ensure that you have sufficient rights to use the content. When you make a 3D model available on your Vircadia server, visitors are getting the links to those files in the same way as they would when viewing an image on a website. You should be comfortable and have the rights to re-distribute the 3D content.
++ **Check Licensing Terms:** Make sure you check a model's licensing terms before you use it. It is your responsibility to ensure that you have sufficient rights to use the content. When you make a 3D model available on your Vircadia server, visitors are getting the links to those files in the same way as they would when viewing an image on a website. You should be comfortable that you have the rights to re-distribute the 3D content.
 + **Check Materials:** You might find that the model may be missing its textures. If that happens, first check to see if the textures are included. If a model loads into Vircadia and doesn't look right, you may also find error information in the Interface logs.  
 
 ---------------------------------
@@ -77,4 +77,3 @@ We've listed the best practices for creating 3D models for Vircadia (and VR).
 |            | balance between draw calls and polys. Fewer draw calls means more room for    |
 |            | polys. Smaller textures means more room for higher poly models.               |
 +------------+-------------------------------------------------------------------------------+
-
