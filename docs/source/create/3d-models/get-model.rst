@@ -2,7 +2,7 @@
 Get Your 3D Model
 #########################
 
-All 3D models should be in the FBX, gLTF or OBJ format and have materials supported by Vircadia.  
+All 3D models should be in the FBX, glTF or OBJ format and have materials supported by Vircadia.  
 
 .. contents:: On This Page
     :depth: 2
