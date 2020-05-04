@@ -22,7 +22,7 @@ Create Your Own 3D Model
 
 You can create your own 3D model using 3D modeling software such as Blender or Maya. Use any software of your choice as long as:
 
-+ The 3D model is in the FBX, gLTF or OBJ format.
++ The 3D model is in the FBX, glTF or OBJ format.
 + The 3D model materials are supported by Vircadia. Use our :doc:`materials guide <pbr-materials-guide>` to make sure that your materials load correctly.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
