@@ -5,7 +5,7 @@ Play Media in a Web Entity
 Web entities can play a number of different media formats through embedded players.
 
 .. contents:: On This Page
-    :depth: 1
+    :depth: 2
 
 -----------------------
 Supported Media Formats
