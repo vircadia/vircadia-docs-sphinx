@@ -173,6 +173,12 @@ When you wear different avatars, you'll notice that each avatar has a different 
 
 Depending on the avatar's design, the collision hulls can be very large or small. This occurs because High Fidelity analyzes the shape of the avatar's torso (from hips to head) and tries to find the best shape that encloses the mesh. For example, if your avatar has large hips or perhaps a fully extended tail, High Fidelity thinks that the tip of the tail is part of your hips, and makes a very large collision hull.  To reduce the size of the collision hull, you can add skeleton joints to your avatar's tail. 
 
+
+### Avatar Thumbnails
+
+The Avatar app will look for a thumbnail with a .jpg extension with the same name and at the same URL location as your avatar's.
+For example, if your avatar is hosted at `https://vircadia.dev/avatar.fbx`, then it will look for a thumbnail at `https://vircadia.dev/avatar.jpg`.
+
 **See Also**
 
 + [Create Your Own Avatar](create-avatars.html)
