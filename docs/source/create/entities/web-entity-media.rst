@@ -51,7 +51,7 @@ Currently, exclusively open source formats are supported:
 Re-encode Media with FFmpeg
 --------------------------
 
-Here are some example commands for reencoding video files using FFmpeg:
+Here are some example commands for reencoding video files using FFmpeg.
 
 +------------------------+------------------------------------------------------------------+--------------------------+
 | Encode                 | Command                                                          | Comments     |
