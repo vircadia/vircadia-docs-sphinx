@@ -1,6 +1,6 @@
 # JavaScript Tips & Tricks
 
-High Fidelity's robust [JavaScript API](https://apidocs.highfidelity.com) provides the tools for you to build great content and user experiences in VR. We've compiled some advanced JavaScript tips you can use while scripting for High Fidelity. 
+Vircadia's robust [JavaScript API](https://apidocs.vircadia.dev) provides the tools for you to build great content and user experiences in VR. We've compiled some advanced JavaScript tips you can use while scripting for Vircadia. 
 
 You can use the [Scripting Console in Interface](get-started-with-scripting.html#scripting-console) to try out the examples on this page. The output will be visible in the console itself. 
 
@@ -19,9 +19,9 @@ You can use the [Scripting Console in Interface](get-started-with-scripting.html
 
 When you script for VR worlds like High Fidelity, you need 3D math operations to compute the position and orientation of 3D objects and avatars in-world. We cannot simply add two vectors. To script 3D math operations and to determine position and orientation information of avatars, you can use the following namespaces in our JavaScript API:
 
-+ [Vec3](https://apidocs.highfidelity.com/Vec3.html): The Vec3 API has facilities for generating and manipulating 3-dimensional vectors. 
-+ [Quat](https://apidocs.highfidelity.com/Quat.html): The Quat API provides facilities for generating and manipulating quaternions. 
-+ [MyAvatar](https://apidocs.highfidelity.com/MyAvatar.html): The MyAvatar API provides facilities for manipulating avatars.  
++ [Vec3](https://apidocs.vircadia.dev/Vec3.html): The Vec3 API has facilities for generating and manipulating 3-dimensional vectors. 
++ [Quat](https://apidocs.vircadia.dev/Quat.html): The Quat API provides facilities for generating and manipulating quaternions. 
++ [MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html): The MyAvatar API provides facilities for manipulating avatars.  
 
 ### Get Your Avatar's Position
 
@@ -33,7 +33,7 @@ High Fidelity uses a 3D Cartesian coordinate system where the position vector of
 { x: 0, y: 0, z: 0 }
 ```
 
-To get your avatar's current position, use the [MyAvatar](https://apidocs.highfidelity.com/MyAvatar.html) namespace. MyAvatar contains properties with information related to your avatar. Use the position property, `MyAvatar.position`, which returns an object. 
+To get your avatar's current position, use the [MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html) namespace. MyAvatar contains properties with information related to your avatar. Use the position property, `MyAvatar.position`, which returns an object. 
 
 In the following example, we are using the JSON.stringify method to convert the JavaScript object (returned by `MyAvatar.position`) to a data string that can be sent over the server.
 
@@ -65,7 +65,7 @@ JSON.stringify(MyAvatar.orientation);
 
 ### Get the Direction Your Avatar is Facing
 
-You can use the [Quat](https://apidocs.highfidelity.com/Quat.html) namespace to get the direction which your avatar is facing. Pass your avatar's orientation to `Quat.getForward` to get a vector describing which direction you are facing on the world axis.
+You can use the [Quat](https://apidocs.vircadia.dev/Quat.html) namespace to get the direction which your avatar is facing. Pass your avatar's orientation to `Quat.getForward` to get a vector describing which direction you are facing on the world axis.
 
 ```javascript
 { x: 0, y: 0, z: 1 } // Backward
@@ -78,7 +78,7 @@ You can use the [Quat](https://apidocs.highfidelity.com/Quat.html) namespace to 
 
 You can make an entity appear before your avatar and also control the distance at which it appears. 
 
-Use the [Vec3](https://apidocs.highfidelity.com/Vec3.html) namespace and the direction your avatar is facing to return the position at which you can make your entity appear. This position is 1m away from your avatar.
+Use the [Vec3](https://apidocs.vircadia.dev/Vec3.html) namespace and the direction your avatar is facing to return the position at which you can make your entity appear. This position is 1m away from your avatar.
 
 ```javascript
 Vec3.sum(MyAvatar.position, Quat.getForward(MyAvatar.orientation)); // This will add your position vector to the direction vector returned from Quat.getForward. This will represent a position that is 1 meter in front of your avatar.
@@ -186,7 +186,7 @@ function collisionChanged(enabled) {
 MyAvatar.collisionsEnabledChanged.connect(collisionChanged);
 ```
 
-Each signal usually gets passed in arguments, and you can refer to the [API documentation](https://apidocs.highfidelity.com/MyAvatar.html) to see what a signal will provide you, such as the enabled property passed into collision changed.
+Each signal usually gets passed in arguments, and you can refer to the [API documentation](https://apidocs.vircadia.dev/MyAvatar.html) to see what a signal will provide you, such as the enabled property passed into collision changed.
 
 It's good practice to disconnect from signals, but you can only do that if you name your function.
 
@@ -200,4 +200,4 @@ MyAvatar.collsionEnabledChanged.disconnect(collsionChanged);
 **See Also**
 
 + [Write Your Own Scripts](write-scripts.html)
-+ [API Reference](https://apidocs.highfidelity.com)
++ [API Reference](https://apidocs.vircadia.dev)

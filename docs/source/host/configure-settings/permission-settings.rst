@@ -1,15 +1,15 @@
-##############################
+#######################
 Assign User Permissions
-##############################
+#######################
 
 You can protect your domain by setting user permission for the visitors in your domain. In your domain settings, you control the types of users that have access to your domain, and the permissions granted to them. For example, you can let anyone connect to your domain, but only give friends access to edit your domain content.
 
 .. contents:: On This Page
     :depth: 2
 
------------------------------
+--------------------
 Set User Permissions
------------------------------
+--------------------
 
 Permissions can be assigned to standard user groups, custom user groups, specific users, users from a specific IP, and users from specific computers. 
 
@@ -19,9 +19,9 @@ To assign user permissions:
 
 1. Open your domain settings.
 
-    * For cloud hosted domains, go to https://metaverse.highfidelity.com/user/cloud_domains. Click the "More Options" menu (3 dots on the right-side of the row), then click 'Domain Server settings'. Log in when prompted.
-    * For local servers on Windows: Click on the High Fidelity icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the High Fidelity icon on the top menu bar, then click 'Settings'.
+    * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
+    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. Scroll to 'Domain-Wide User Permissions'.
 3. First, set any permissions for the `standard user groups`_. Check the box of all permissions you'd like to grant.
@@ -45,7 +45,7 @@ Your domain comes with four basic security groups that are already set up, based
 +-----------+--------------------------------------------------------------------------------------------+
 | User Type | Description                                                                                |
 +===========+============================================================================================+
-| anonymous | A person who is not logged in and is using an instance of High Fidelity's Interface.       |
+| anonymous | A person who is not logged in and is using an instance of Vircadia's Interface.       |
 |           | This is the default user type for someone who has downloaded Interface for the first       |
 |           | time.                                                                                      |
 +-----------+--------------------------------------------------------------------------------------------+
@@ -58,7 +58,7 @@ Your domain comes with four basic security groups that are already set up, based
 |           | Localhost users do not need to be logged in and have permissions that override             |
 |           | non-user-specific permissions.                                                             |
 +-----------+--------------------------------------------------------------------------------------------+
-| logged-in | A user that is logged into their High Fidelity account while using Interface. They         |
+| logged-in | A user that is logged into their Vircadia account while using Interface. They         |
 |           | do not need to be a Friend or a Connection to have server rights. Permissions that         |
 |           | are granted to a specific user override all other permissions.                             |
 +-----------+--------------------------------------------------------------------------------------------+
@@ -68,9 +68,9 @@ The 'Connect' permission for these standard user groups determine the privacy le
 * **Public**: A public domain allows 'anonymous' and/or 'logged-in' users to connect to it. These domains may be featured in the GoTo app and in other places around the metaverse. 
 * **Private**: A private domain does not allow 'anonymous' and/or 'logged-in' users to connect to it. Domain owners are responsible for promoting their domains to other users and maintaining connect permissions for users to enter their domain.
 
---------------------------------
+----------------
 User Permissions
---------------------------------
+----------------
 
 The actions that you can secure for each type of user are as follows:
 
@@ -112,7 +112,7 @@ The actions that you can secure for each type of user are as follows:
 | User Data               | of entities in the domain. Private user data is a property of entities that  |
 |                         | can only be set and retrieved through scripting via the ``privateUserData``  |
 |                         | property of the `EntityProperties                                            |
-|                         | <https://apidocs.highfidelity.com/Entities.html#.EntityProperties>`_ type    |
+|                         | <https://apidocs.vircadia.dev/Entities.html#.EntityProperties>`_ type        |
 |                         | definition.                                                                  |
 +-------------------------+------------------------------------------------------------------------------+
 

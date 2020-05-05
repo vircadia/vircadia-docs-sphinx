@@ -345,5 +345,5 @@ You should now have a basic but fully working slot machine in your domain, that 
 
 - [Get Started with Scripting](get-started-with-scripting.html)
 - [Write Your Own Scripts](write-scripts.html)
-- [API Reference](https://apidocs.highfidelity.com)
+- [API Reference](https://apidocs.vircadia.dev)
 - [Create a Coupon](../explore/socialize.html#create-a-coupon)

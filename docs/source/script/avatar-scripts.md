@@ -78,10 +78,10 @@ function(){
 })()
 ```
 
-This example script uses the [MyAvatar](https://apidocs.highfidelity.com/MyAvatar.html) namespace to determine if your avatar's hand moves. Upon detecting movement, the script makes your avatar launch balls. It also uses some other namespaces such as [Entities](https://apidocs.highfidelity.com/Entities.html) (to create the ball you will launch) and [Vec3](https://apidocs.highfidelity.com/Vec3.html) (to determine the right positions and distances). Add it to your avatar to see how it works. 
+This example script uses the [MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html) namespace to determine if your avatar's hand moves. Upon detecting movement, the script makes your avatar launch balls. It also uses some other namespaces such as [Entities](https://apidocs.vircadia.dev/Entities.html) (to create the ball you will launch) and [Vec3](https://apidocs.vircadia.dev/Vec3.html) (to determine the right positions and distances). Add it to your avatar to see how it works. 
 
 **See Also**
 
 - [Get Started with Scripting](get-started-with-scripting.html)
 - [Write Your Own Scripts](write-scripts.html)
-- [API Reference](https://apidocs.highfidelity.com)
+- [API Reference](https://apidocs.vircadia.dev)

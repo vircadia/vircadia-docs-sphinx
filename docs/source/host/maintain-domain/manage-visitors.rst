@@ -1,6 +1,6 @@
-##########################
+########################
 Maintain Domain Visitors
-##########################
+########################
 
 Occasionally, you may get users who you don't want in your domain. Whether you forgot to set the correct user permissions, or the person is being rude and uncooperative, you have the ability to silence or ban users from your domain.
 
@@ -9,9 +9,9 @@ Occasionally, you may get users who you don't want in your domain. Whether you f
 .. contents:: On This Page
     :depth: 2
 
---------------------------------------------------
+-----------------------------
 Silence a User in Your Domain
---------------------------------------------------
+-----------------------------
 
 Many times, a visitor in your domain simply does not have the correct audio settings defined on their computer. As a result, they may output uncomfortable sounds into your domain (heavy breathing, typing, background noise, and white noise are audio issues people have when they first download High Fidelity). 
 
@@ -24,9 +24,9 @@ To silence a specific user in your domain:
 
 This will mute the user for everyone in the domain.
 
----------------------------------------------------
+---------------------------
 Ban a User from Your Domain
----------------------------------------------------
+---------------------------
 
 In some cases, a user may cause themselves to be unwelcome in your domain. 
 

@@ -1,6 +1,6 @@
 # Host a Domain from a Local or Cloud Linux Server
 
-The Project Athena packages can help you get up and running your own domain quickly.
+The Vircadia packages can help you get up and running your own domain quickly.
 
 ## Installation
 
@@ -10,7 +10,7 @@ Packages are currently available for the following distributions:
 
 ```sh
 wget https://cdn.vircadia.com/dist/domain-server/ubuntu/athena-server_0.86.0-k2-20200328-13f3ef2-0ubuntu1-1_amd64.deb
-sudo apt-get update && apt-get install ./athena-server_0.86.0-k2-20200328-13f3ef2-0ubuntu1-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./athena-server_0.86.0-k2-20200328-13f3ef2-0ubuntu1-1_amd64.deb
 ```
 
 ### Amazon Linux 2
@@ -27,7 +27,7 @@ Connect a web browser to the server at port 40100. (If you are on the machine th
 
 ## Networking
 
-A Project Athena domain reserves a range of four ports to operate on, usually starting at 40100. (Note that the encrypted ports may not be implemented yet.) These ports are:
+A Vircadia domain reserves a range of four ports to operate on, usually starting at 40100. (Note that the encrypted ports may not be implemented yet.) These ports are:
  - 40100 (+0) : (tcp) administrative http connection
  - <del>40101 (+1): (tcp) administrative https (encrypted) connection</dev>
  - 40102 (+2): (udp) main connection from clients

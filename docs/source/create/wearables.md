@@ -23,7 +23,7 @@ Some guidelines to follow when you're building soft wearables like clothes:
 
 When building soft wearables like clothes, ensure that you are making it to fit the avatar well. Its mesh should match the avatar's and have a higher weight. 
 
-When building your model, be sure to [follow these guidelines](3d-models/get-model.html) to ensure that it is compatible with Project Athena.  Once you're done editing your model, export the file as an FBX or OBJ file. You've now created your own custom model!
+When building your model, be sure to [follow these guidelines](3d-models/get-model.html) to ensure that it is compatible with Vircadia.  Once you're done editing your model, export the file as an FBX or OBJ file. You've now created your own custom model!
 
 After hosting your wearable in the cloud or the Marketplace, [put it on](../explore/personalize/add-wearables.html) and adopt your new look.
 

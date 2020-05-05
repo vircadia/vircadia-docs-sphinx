@@ -1,8 +1,10 @@
-#########################
+###########
 Tablet Apps
-#########################
+###########
 
-Tablet apps (or simply "apps") in Project Athena are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from our `JavaScript API <https://apidocs.highfidelity.com>`_ and simplify it into a window with controls for others to use. 
+THIS GUIDE IS OUT OF DATE. THE CODE MAY NOT WORK EXACTLY AS OUTLINED, USE FOR REFERENCE ONLY UNTIL UPDATED. SEE `API DOCS<https://apidocs.vircadia.dev/>` FOR MORE.
+
+Tablet apps (or simply "apps") in Vircadia are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from our `JavaScript API <https://apidocs.vircadia.dev>`_ and simplify it into a window with controls for others to use. 
 
 .. note:: 
 
@@ -83,9 +85,9 @@ The Tablet UI framework provides a communication channel called EventBridge. It 
     }
     $(document).ready(main);
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 Write a JavaScript file
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Your JavaScript file will contain all of the core functionality of your app. At a minimum, we require that you have code that adds a button to the tablet and HUD, loads your app, closes your app gracefully, and listens for events. Below, you will find code samples to do each of these things. 
 
@@ -291,7 +293,7 @@ Congratulations, you have successfully created an app in Athena! To use your app
 **See Also**
 
 + :doc:`Write Your Own Scripts <../script/write-scripts>`
-+ `API Reference: Entities <https://apidocs.highfidelity.com/Entities.html>`_
-+ `API Reference: Script <https://apidocs.highfidelity.com/Script.html>`_
-+ `API Reference: Quat <https://apidocs.highfidelity.com/Quat.html>`_
-+ `API Reference: Vec3 <https://apidocs.highfidelity.com/Vec3.html>`_
++ `API Reference: Entities <https://apidocs.vircadia.dev/Entities.html>`_
++ `API Reference: Script <https://apidocs.vircadia.dev/Script.html>`_
++ `API Reference: Quat <https://apidocs.vircadia.dev/Quat.html>`_
++ `API Reference: Vec3 <https://apidocs.vircadia.dev/Vec3.html>`_

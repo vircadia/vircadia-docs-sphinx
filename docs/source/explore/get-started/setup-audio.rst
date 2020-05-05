@@ -2,7 +2,7 @@
 Set Up Your Audio Devices
 #################################
 
-When you log into Project Athena for the first time, we will automatically detect your computer's default audio devices, and use those for Project Athena. Usually, your computer will automatically detect a plugged in headset and you will not need to configure your audio devices any further. 
+When you log into Vircadia for the first time, we will automatically detect your computer's default audio devices, and use those for Vircadia. Usually, your computer will automatically detect a plugged in headset and you will not need to configure your audio devices any further. 
 
 However, some audio setups do require additional configuration. If you need to change your audio settings, read on to find out more.
 
@@ -23,7 +23,7 @@ Change your Input or Output Device
 ----------------------------------------
 
 
-Project Athena's 3D spatialized audio is guaranteed to enhance your experience in the metaverse, whether you are in Desktop mode or using VR equipment. By default, we will select the default audio devices that your operating system or headset has detected. If you want to use a different headset or audio setup than the default, you can change your computer's default device. If you need to use a different device for Project Athena than other applications on your computer, then you can change your device in the application.
+Vircadia's 3D spatialized audio is guaranteed to enhance your experience in the metaverse, whether you are in Desktop mode or using VR equipment. By default, we will select the default audio devices that your operating system or headset has detected. If you want to use a different headset or audio setup than the default, you can change your computer's default device. If you need to use a different device for Vircadia than other applications on your computer, then you can change your device in the application.
 
 * An *audio input device* is any device that captures sound and generates a signal that can be accessed by other devices. Examples of audio input devices include a USB microphone or a microphone headset that is plugged into your computer, or your sound card’s "Stereo Mix" or "What U Hear" device (think of these sound card devices as if they were microphones being held up to your speakers while they output sound).
 * An *audio output device* is any device that receives information from audio files and converts it into audible sound signals. Examples of audio output devices include your desktop computer speakers, headphones, or huge speakers in a movie theater.
@@ -40,18 +40,18 @@ To change your audio devices:
 Using Bluetooth Headsets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can use bluetooth headsets, such as AirPods with Project Athena. However, note that there are limitations to using them, and they may not work in all environments. If using WiFi, ensure you’re using a 5Ghz WiFi connection. On a 2.4Ghz connection, you may experience audio breakup and occasional disconnects.
+You can use bluetooth headsets, such as AirPods with Vircadia. However, note that there are limitations to using them, and they may not work in all environments. If using WiFi, ensure you’re using a 5Ghz WiFi connection. On a 2.4Ghz connection, you may experience audio breakup and occasional disconnects.
 
 Unfortunately, bluetooth audio devices do not currently support stereo input. Therefore, you have two options:
 
 * Use the bluetooth headset as an output device only, and use another microphone for input. This allows you to take advantage of the stereo audio.
-* Use the bluetooth headset's built-in microphone. In this case, you will only experience mono sound, rather than Project Athena's stereo audio.
+* Use the bluetooth headset's built-in microphone. In this case, other users will only experience mono sound coming from you, rather than the normal stereo audio.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Acoustic Echo Cancellation 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Acoustic echo is the process by which sounds from your speakers get picked up and transmitted by your microphone, resulting in an echoing effect. This is common when you use Project Athena with a laptop's built-in microphone and speakers (i.e. an "open mic"), rather than a detached headset.
+Acoustic echo is the process by which sounds from your speakers get picked up and transmitted by your microphone, resulting in an echoing effect. This is common when you use Vircadia with a laptop's built-in microphone and speakers (i.e. an "open mic"), rather than a detached headset.
 
 "Acoustic echo cancellation" is a technology which improves voice quality by preventing the echo that results in open mic setups. By default, acoustic echo cancellation is turned on, and you can turn it off in the **Audio** app.
 
@@ -92,7 +92,7 @@ Audio is an integral part of social VR experience, so of course, we want to make
 Adjust In-World Volume
 --------------------------------------
 
-There are three different types of “sounds” in Project Athena:
+There are three different types of “sounds” in Vircadia:
 
 * People: The sound you hear when people in the domain are talking through their microphones
 * Environment: The ambient sounds in the domain, running as scripts in the background
@@ -122,10 +122,10 @@ To turn on ‘Push to Talk’:
 In Desktop mode, press and hold the “T” key on your keyboard to talk. When using an HMD in VR mode, press and hold the grip triggers on your controllers to talk. This feature works only when you are focused on the Interface window.
 
 ------------------------------------------------
-Adjust Project Athena Audio Settings
+Adjust Vircadia Audio Settings
 ------------------------------------------------
 
-There are a number of settings you can configure to customize your audio experience in Project Athena. To change these, open your Tablet or HUD and go to **Audio**.
+There are a number of settings you can configure to customize your audio experience in Vircadia. To change these, open your Tablet or HUD and go to **Audio**.
 
 +----------------------------+--------------------------------------------------------------------------------------+
 | Setting                    | Description                                                                          |
@@ -151,7 +151,7 @@ There are a number of settings you can configure to customize your audio experie
 Adjust OS Audio Settings
 -----------------------------------
 
-Many device settings, such as input levels, boost, gains, and enhancements, cannot be set in Project Athena. These settings can only be adjusted at the operating system level or with a device's external software. If you experience issues with audio that cannot be resolved with any of the above settings, then try adjusting your operating system's device settings:
+Many device settings, such as input levels, boost, gains, and enhancements, cannot be set in Vircadia. These settings can only be adjusted at the operating system level or with a device's external software. If you experience issues with audio that cannot be resolved with any of the above settings, then try adjusting your operating system's device settings:
 
 * **Update the driver software for your audio devices**:
 

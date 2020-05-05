@@ -2,7 +2,7 @@
 Explore in Desktop Mode
 #########################
 
-Desktop users are restricted to using their keyboard and mouse to do things in Project Athena. On this page, you can find all of the shortcuts so that you can enjoy your experience in Project Athena to the fullest.
+Desktop users are restricted to using their keyboard and mouse to do things in Vircadia. On this page, you can find all of the shortcuts so that you can enjoy your experience in Vircadia to the fullest.
 
 .. note:: The shortcuts below are for Windows and Linux computers. If you're running on a Mac, use the same commands, substituting the ``Command`` key for the ``Ctrl`` key.
 
@@ -142,6 +142,6 @@ These controls work when the **Create** app is open.
 Gamepad
 -------------------------
 
-Instead of a keyboard, you can use a gamepad while experiencing Project Athena in desktop mode. 
+Instead of a keyboard, you can use a gamepad while experiencing Vircadia in desktop mode. 
 
 .. image:: _images/controls-gamepad.png

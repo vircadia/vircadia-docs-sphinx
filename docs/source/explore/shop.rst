@@ -2,7 +2,7 @@
 Bank and Shop
 ############################
 
-If you want to buy items in Project Athena, head on over to the Marketplace, where you can purchase more than 300 items built by digital artists and creators from around this world. Project Athena uses their own cryptocurrency, Project Athena Coin (HFC) to manage your transactions. 
+If you want to buy items in Vircadia, head on over to the Marketplace, where you can purchase more than 300 items built by digital artists and creators from around this world. Vircadia uses their own cryptocurrency, Vircadia Coin (HFC) to manage your transactions. 
 
 .. contents:: On This Page
     :depth: 2
@@ -13,7 +13,7 @@ Buy High Fidelity Coin (DISCONTINUED)
 
 This feature was discontinued by High Fidelity and will either be reworked or removed in the future.
 
-Currently, you can buy Project Athena Coins (HFC) using `Ethereum <https://www.ethereum.org>`_, a blockchain app that trades ETH (Ether). The Bank of Project Athena manages HFC and we gradually increase the number of coins in circulation as the economy grows. 100 HFC is equal to 1 USD.
+Currently, you can buy Vircadia Coins (HFC) using `Ethereum <https://www.ethereum.org>`_, a blockchain app that trades ETH (Ether). The Bank of Vircadia manages HFC and we gradually increase the number of coins in circulation as the economy grows. 100 HFC is equal to 1 USD.
 
 To get HFC: 
 
@@ -30,7 +30,7 @@ Cash Out Your HFC
 
 This feature was discontinued by High Fidelity and will either be reworked or removed in the future.
 
-As you acquire more HFC through Marketplace sales, prizes, or gifts, you may cash out your HFC for USD. The minimum amount of HFC that you cash out is $25 (or 2,500 HFC), and the maximum cashout value is $2000 (or 200,000 HFC) per calendar month. Project Athena may, at its discretion, issue the occasional exception to the maximum cashout amount.
+As you acquire more HFC through Marketplace sales, prizes, or gifts, you may cash out your HFC for USD. The minimum amount of HFC that you cash out is $25 (or 2,500 HFC), and the maximum cashout value is $2000 (or 200,000 HFC) per calendar month. Vircadia may, at its discretion, issue the occasional exception to the maximum cashout amount.
 
 To cash out HFC: 
 

@@ -175,7 +175,7 @@ Other Ways to Use MIDI in High Fidelity
 
 **See Also** 
 
-- `API Reference: MIDI <https://apidocs.highfidelity.com/Midi.html>`_
+- `API Reference: MIDI <https://apidocs.vircadia.dev/Midi.html>`_
 - `MIDI-API <https://cdn.highfidelity.com/milad/production/Midi/MidiAPI.txt>`_
 - `MIDI-Test <https://cdn.highfidelity.com/milad/production/Midi/midiTest.js>`_
 - `MIDI-Examples <https://cdn.highfidelity.com/milad/production/Midi/MIDI-Example.js>`_

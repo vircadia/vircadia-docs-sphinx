@@ -1,6 +1,6 @@
-####################################
+###########################
 Secure Your Domain Settings
-####################################
+###########################
 
 Add authentication (i.e. a username and password) to protect your domain settings from being modified by unauthorized users. Anyone who tries to modify your domain settings will need the username and password to make changes.
 
@@ -10,13 +10,13 @@ To set up and/or change the authentication for your domain settings:
 
 1. Open your domain settings.
 
-    * For cloud hosted domains, go to https://metaverse.highfidelity.com/user/cloud_domains. Click the "More Options" menu (3 dots on the right-side of the row), then click 'Domain Server settings'. Log in when prompted.
-    * For local servers on Windows: Click on the High Fidelity icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the High Fidelity icon on the top menu bar, then click 'Settings'.
+    * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
+    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.    
 2. Scroll to 'Security'.
 3. For 'HTTP Username' and 'HTTP Password', enter a username and password for basic HTTP authentication. 
 
-.. note:: This username and password is not connected in any way to your High Fidelity account, and is used only to access the settings for this specific cloud domain.
+.. note:: This username and password is not connected in any way to your Vircadia account, and is used only to access the settings for this specific cloud domain.
 
 4. Re-enter your password into 'Verify HTTP Password'.

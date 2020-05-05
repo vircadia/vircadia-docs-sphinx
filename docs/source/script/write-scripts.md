@@ -1,6 +1,6 @@
 # Write Your Own Scripts
 
-High Fidelity's robust [JavaScript API](https://apidocs.highfidelity.com) provides the tools for you to build great content and user experiences in VR. 
+High Fidelity's robust [JavaScript API](https://apidocs.vircadia.dev) provides the tools for you to build great content and user experiences in VR. 
 
 In this section, you can find simple code samples to do common tasks in High Fidelity. To see these code samples in action, copy the code to a file, `testScripts.js`, saved somewhere on your computer. 
 
@@ -76,4 +76,4 @@ print("Entity color: " + JSON.stringify(properties.color));
 + [Get Started with Scripting](get-started-with-scripting.html)
 + [Load and Run a Script](get-started-with-scripting.html#load-and-run-a-script)
 + [Interface Scripts](interface-scripts.html)
-+ [API Reference](https://apidocs.highfidelity.com)
++ [API Reference](https://apidocs.vircadia.dev)
