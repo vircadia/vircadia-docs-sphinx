@@ -32,7 +32,7 @@ Currently, exclusively open source formats are supported:
 |                        | VP8, but not VP9. Slightly faster than VP9.                      |                          |
 |                        | Slightly lower quality to compression ratio than VP9.            |                          |
 +------------------------+------------------------------------------------------------------+--------------------------+
-| Theora                 | Low quality, low compression, outdated.                           | Matroska                 |
+| Theora                 | Low quality, low compression, outdated.                          | Matroska                 |
 +------------------------+------------------------------------------------------------------+--------------------------+
 
 +------------------------+------------------------------------------------------------------+--------------------------+
