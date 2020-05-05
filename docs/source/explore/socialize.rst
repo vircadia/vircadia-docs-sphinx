@@ -163,6 +163,4 @@ COM Script version 1 is now running in the zone in your domain!
 
 **See Also**
 
-+ :doc:`Bank and Shop <shop>`
-+ :doc:`Tutorial: Transfer Money and Items <../script/transfer-hfc-tutorial>`
-+ :doc:`Give and Receive Gifts <gifts>`
+
