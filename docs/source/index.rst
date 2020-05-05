@@ -16,7 +16,7 @@ What can I do?
 ==============
 You have the power to shape your VR experience in Vircadia.
 
-* :doc:`EXPLORE <explore>` by hopping between domains in the metaverse, shop the Marketplace, attend events and check out what others are up to!
+* :doc:`EXPLORE <explore>` by hopping between domains in the metaverse, attend events and check out what others are up to!
 * :doc:`CREATE <create>` personal experiences by building avatars, domains, tablet apps, and more for you and others to enjoy.
 * :doc:`SCRIPT <script>` and express your creativity by applying advanced scripting concepts to entities and avatars in the metaverse.
 * :doc:`HOST <host>` and make immersive experiences to educate, entertain, and connect with your audience.
