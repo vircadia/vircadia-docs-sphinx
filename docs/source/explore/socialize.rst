@@ -159,8 +159,3 @@ To install COM Script in your domain:
 3. In the 'Properties' tab of the zone entity, paste this `URL <http://metaversecafes.com/HighFidelity/QueenCity/A_2016_Q_wab/AQUI/COM_v1.0.js>`_.
 
 COM Script version 1 is now running in the zone in your domain!
-
-
-**See Also**
-
-
