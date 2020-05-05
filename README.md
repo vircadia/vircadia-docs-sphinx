@@ -39,10 +39,10 @@ We encourage you to compile the documentation locally on your computer prior to 
     C:\> refreshenv
     ```
 
-5. Install Sphinx in a command line:
+5. Install Sphinx version 2.4.4 (3.0.0 > is unsupported currently) in a command line:
 
     ```
-    C:\> pip install -U sphinx
+    C:\> pip install -U Sphinx==2.4.4
     ```
 
 6. Install the Markdown parser recommonmark:
