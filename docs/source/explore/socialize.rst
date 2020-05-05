@@ -94,7 +94,7 @@ There is also a Shield icon on the top-left corner of your Interface window, nex
 Attend Live Events
 ------------------
 
-One of the great things about virtual reality is that you can attend events. Vircadia regularly hosts events such as workshops, lectures on VR, and town hall meetings to meet our team. Click here to `view all upcoming events <https://tockify.com/hifieventscalendar/agenda>`_. Events are a great place to meet others and share experiences with others around the world.
+One of the great things about virtual reality is that you can attend events. Vircadia regularly hosts events such as workshops, lectures on VR, and town hall meetings to meet our team. You can view all upcoming events on the Vircadia website. Events are a great place to meet others and share experiences with others around the world.
 
 To attend an event, simply go to the hosted domain at the time of the event.
 
