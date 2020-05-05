@@ -54,15 +54,42 @@ Re-encode Media with FFmpeg
 Here are some example commands for reencoding video files using FFmpeg.
 
 +------------------------+------------------------------------------------------------------+--------------------------+
-| Encode                 | Command                                                          | Comments     |
+| Encode                 | Command                                                          | Comments                 |
 +========================+==================================================================+==========================+
-| VP9, Opus, WebM        | ffmpeg -i "INPUTFILE" -c:v libvpx-vp9 -b:v 0 -crf 5 -vf scale=-2:600 -cpu-used 5 -row-mt 1 -c:a libopus -b:a 96K "OUTPUTFILE.webm" | "-vf scale=-2:600" scales the video down to 600p vertical resolution while keeping the aspect ratio. "-crf 5" is the video quality from 0 to 63, lower being better. For the constant quality to work the bitrate has to be set to "0" via "-b:v 0"    |
+| VP9, Opus, WebM        | ffmpeg -i "INPUTFILE" -c:v libvpx-vp9 -b:v 0 -crf 5 -vf          | "-vf scale=-2:600"       |
+|                        | scale=-2:600 -cpu-used 5 -row-mt 1 -c:a libopus -b:a 96K         | scales the video         |
+|                        | "OUTPUTFILE.webm"                                                | down to 600p vertical    |
+|                        |                                                                  | resolution while keeping |
+|                        |                                                                  | the aspect ratio.        |
+|                        |                                                                  | "-crf 5" is the video    |
+|                        |                                                                  | quality from 0 to 63,    |
+|                        |                                                                  | lower being better. For  |
+|                        |                                                                  | the constant quality to  |
+|                        |                                                                  | work the bitrate has to  |
+|                        |                                                                  | be set to "0" via        |
+|                        |                                                                  | "-b:v 0"                 |
 +------------------------+------------------------------------------------------------------+--------------------------+
-| VP9 (Hardware accelerated), Opus, WebM | ffmpeg -i "INPUTFILE" -c:v vp9_vaapi -b:v 2000k -c:a libopus -b:a 96K "OUTPUTFILE.webm" | VP9 hardware acceleration is currently only supported by Intel Kaby Lake or newer APUs. Hardware accelerated VP9 does not have a constant quality setting, so bitrate needs to be used instead.      |
+| VP9 (Hardware          | ffmpeg -i "INPUTFILE" -c:v vp9_vaapi -b:v 2000k -c:a libopus     | VP9 hardware             |
+| accelerated), Opus,    | -b:a 96K "OUTPUTFILE.webm"                                       | acceleration             |
+| WebM                   |                                                                  | is currently only        |
+|                        |                                                                  | supported by Intel Kaby  |
+|                        |                                                                  | Lake or newer APUs.      |
+|                        |                                                                  | Hardware accelerated VP9 |
+|                        |                                                                  | does not have a constant |
+|                        |                                                                  | quality setting, so      |
+|                        |                                                                  | bitrate needs to be      |
+|                        |                                                                  | used instead.            |
 +------------------------+------------------------------------------------------------------+--------------------------+
-| VP8 (Hardware accelerated), Opus, WebM | ffmpeg -i "INPUTFILE" -c:v vp8_vaapi -b:v 2000k -vf scale=-2:600 -c:a libopus -b:a 96K "OUTPUTFILE.webm" | VP8 hardware acceleration is currently only supported by Intel Cherryview/Braswell and newer APUs. |
+| VP8 (Hardware          | ffmpeg -i "INPUTFILE" -c:v vp8_vaapi -b:v 2000k -vf scale=-2:600 | VP8 hardware             |
+| accelerated), Opus,    | -c:a libopus -b:a 96K "OUTPUTFILE.webm"                          | acceleration is          |
+| WebM                   |                                                                  | currently only supported |
+|                        |                                                                  | by Intel                 |
+|                        |                                                                  | Cherryview/Braswell and  |
+|                        |                                                                  | newer APUs.              |
 +------------------------+------------------------------------------------------------------+--------------------------+
-| Theora, Opus, Matroska | ffmpeg -i "INPUTFILE" -c:v libtheora -q:v 10 -vf scale=-2:600 -c:a libopus -b:a 96K "OUTPUTFILE.mkv" | "-q:v 10" is the quality from 0 to 10, higher being better.                 |
+| Theora, Opus, Matroska | ffmpeg -i "INPUTFILE" -c:v libtheora -q:v 10 -vf scale=-2:600    | "-q:v 10" is the quality |
+|                        | -c:a libopus -b:a 96K "OUTPUTFILE.mkv"                           | from 0 to 10, higher     |
+|                        |                                                                  | being better.            |
 +------------------------+------------------------------------------------------------------+--------------------------+
 
 You can use the ``ffmpeg -codecs`` command to see supported codecs.
