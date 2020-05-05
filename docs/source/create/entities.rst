@@ -18,4 +18,5 @@ To build any content in Vircadia, whether it is an object that you interact with
     Add Sounds to Entities <entities/add-sounds>
     Define Interactions with Avatars <entities/avatar-interactions>
     Prioritize Zones Within Your Domain <entities/hero-zone>
+    Play media in a Web Entity <entities/web-entity-media>
     Entity Tutorials <entities/tutorials>
