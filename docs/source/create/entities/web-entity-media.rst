@@ -110,7 +110,9 @@ Here is an example shell script to batch reencode the contents of a folder on Li
 
 You can name it: ``vircadia_reencode.sh``
 
-With this code in it: ::
+With this code in it: 
+
+.. code-block:: bash
 
     # Modified version of https://gist.github.com/ralphcrisostomo/56fc395b1646bd55aeeb2eb442043887
     # Usage: ./vircadia_reencode.sh /SourceDirectory /DestinationDirectory
@@ -142,7 +144,9 @@ With this code in it: ::
 Video Player
 ------------
 
-You can embed videos using the HTML5 video tag. This example code can be put into an HTML file on a web server and be used in a Web entity. ::
+You can embed videos using the HTML5 video tag. This example code can be put into an HTML file on a web server and be used in a Web entity. 
+
+.. code-block:: html
 
     <video controls="controls" src="EXAMPLEDIRECTORY/EXAMPLEFILE.webm">
         Your browser does not support the HTML5 Video element.
