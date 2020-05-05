@@ -1,5 +1,5 @@
 ##########################
-Play media in a Web Entity
+Play Media in a Web Entity
 ##########################
 
 Web entities can play a number of different media formats through embedded players.
@@ -8,10 +8,10 @@ Web entities can play a number of different media formats through embedded playe
     :depth: 1
 
 -----------------------
-Supported media formats
+Supported Media Formats
 -----------------------
 
-Currently exclusively open source formats are supported:
+Currently, exclusively open source formats are supported:
 
 +------------------------+------------------------------------------------------------------+--------------------------+
 | Container format       | Supported codecs                                                 | File extension(s)        |
@@ -26,32 +26,32 @@ Currently exclusively open source formats are supported:
 +------------------------+------------------------------------------------------------------+--------------------------+
 | Video codec            | Comments                                                         | Supported containers     |
 +========================+==================================================================+==========================+
-| VP9 (recommended)      | Good quality, slow encoding                                      | WebM, Matroska           |
+| VP9 (recommended)      | Good quality, slow encoding.                                     | WebM, Matroska           |
 +------------------------+------------------------------------------------------------------+--------------------------+
 | VP8                    | Recommended if your APU has hardware accelerated encoding for    | WebM, Matroska           |
 |                        | VP8, but not VP9. Slightly faster than VP9.                      |                          |
 |                        | Slightly lower quality to compression ratio than VP9.            |                          |
 +------------------------+------------------------------------------------------------------+--------------------------+
-| Theora                 | Low quality, low compression, outdated                           | Matroska                 |
+| Theora                 | Low quality, low compression, outdated.                           | Matroska                 |
 +------------------------+------------------------------------------------------------------+--------------------------+
 
 +------------------------+------------------------------------------------------------------+--------------------------+
 | Audio codec            | Comments                                                         | Supported containers     |
 +========================+==================================================================+==========================+
-| Opus                   | Recommended, works well with high and low bitrate                | WebM, Matroska, Ogg      |
+| Opus                   | Recommended, works well with high and low bitrate.               | WebM, Matroska, Ogg      |
 +------------------------+------------------------------------------------------------------+--------------------------+
-| Vorbis                 | Lower quality to compression ratio than Opus                     | WebM, Matroska, Ogg      |
+| Vorbis                 | Lower quality to compression ratio than Opus.                    | WebM, Matroska, Ogg      |
 +------------------------+------------------------------------------------------------------+--------------------------+
-| FLAC                   | Lossless, bigger files                                           | Matroska, Ogg            |
+| FLAC                   | Lossless, bigger files.                                          | Matroska, Ogg            |
 +------------------------+------------------------------------------------------------------+--------------------------+
-| MP3                    | Lower quality to compression ratio than Opus and Vorbis          | Matroska                 |
+| MP3                    | Lower quality to compression ratio than Opus and Vorbis.         | Matroska                 |
 +------------------------+------------------------------------------------------------------+--------------------------+
 
 --------------------------
-Reencode media with ffmpeg
+Re-encode Media with FFmpeg
 --------------------------
 
-Here are some example commands for reencoding video files using ffmpeg:
+Here are some example commands for reencoding video files using FFmpeg:
 
 +------------------------+------------------------------------------------------------------+--------------------------+
 | Encode                 | Command                                                          | Comments     |
@@ -76,12 +76,12 @@ Alternatively you can explore these links:
 * https://wiki.archlinux.org/index.php/Hardware_video_acceleration#VA-API_drivers
 
 ------------------------
-Batch processing
+Batch Processing
 ------------------------
 
-Here is an example shell script to batch reencode the contents of a folder on Linux using ffmpeg:
+Here is an example shell script to batch reencode the contents of a folder on Linux using FFmpeg:
 
-You can name it ``vircadia_reencode.sh``
+You can name it: ``vircadia_reencode.sh``
 
 With this code in it::
 
@@ -112,10 +112,10 @@ With this code in it::
 .. note:: Do not forget to set the script as executable on Linux using something like `chmod +x vircadia_reencode.sh`
 
 ------------
-Video player
+Video Player
 ------------
 
-You can embed videos using the HTML5 video tag. This example code can be put into an HTML file on a web server and be used in a web entity::
+You can embed videos using the HTML5 video tag. This example code can be put into an HTML file on a web server and be used in a Web entity::
 
     <video controls="controls" src="EXAMPLEDIRECTORY/EXAMPLEFILE.webm">
         Your browser does not support the HTML5 Video element.
