@@ -16,11 +16,11 @@ Currently, exclusively open source formats are supported:
 +------------------------+------------------------------------------------------------------+--------------------------+
 | Container format       | Supported codecs                                                 | File extension(s)        |
 +========================+==================================================================+==========================+
-| WebM                   | Video: VP8, VP9  Audio: Vorbis, Opus                             | .webm                    |
+| WebM                   | Video: VP8, VP9       Audio: Vorbis, Opus                        | .webm                    |
 +------------------------+------------------------------------------------------------------+--------------------------+
-| Matroska               | Video: Theora, VP8, VP9  Audio: Vorbis, Opus, FLAC, MP3          | .mkv, .mk3d, .mka, .mks  |
+| Matroska               | Video: Theora, VP8, VP9       Audio: Vorbis, Opus, FLAC, MP3     | .mkv, .mk3d, .mka, .mks  |
 +------------------------+------------------------------------------------------------------+--------------------------+
-| Ogg                    | Video: Theora, VP8  Audio: Vorbis, Opus, FLAC                    | .ogg, .oga, .ogv         |
+| Ogg                    | Video: Theora, VP8       Audio: Vorbis, Opus, FLAC               | .ogg, .oga, .ogv         |
 +------------------------+------------------------------------------------------------------+--------------------------+
 
 +------------------------+------------------------------------------------------------------+--------------------------+
@@ -110,7 +110,7 @@ Here is an example shell script to batch reencode the contents of a folder on Li
 
 You can name it: ``vircadia_reencode.sh``
 
-With this code in it::
+With this code in it: ::
 
     # Modified version of https://gist.github.com/ralphcrisostomo/56fc395b1646bd55aeeb2eb442043887
     # Usage: ./vircadia_reencode.sh /SourceDirectory /DestinationDirectory
@@ -142,7 +142,7 @@ With this code in it::
 Video Player
 ------------
 
-You can embed videos using the HTML5 video tag. This example code can be put into an HTML file on a web server and be used in a Web entity::
+You can embed videos using the HTML5 video tag. This example code can be put into an HTML file on a web server and be used in a Web entity. ::
 
     <video controls="controls" src="EXAMPLEDIRECTORY/EXAMPLEFILE.webm">
         Your browser does not support the HTML5 Video element.
@@ -151,7 +151,7 @@ You can embed videos using the HTML5 video tag. This example code can be put int
 
 **See Also**
 
-+ :doc:`Create new Entity's <create-entities>`
++ :doc:`Create new Entites <create-entities>`
 + `The Create App <../tools.html#the-create-app>`_
 + :doc:`Define an Entity's Behavior <entity-behavior>`
 + :doc:`Change How Entities Look <entity-appearance>`
