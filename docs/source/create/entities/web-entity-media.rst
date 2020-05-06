@@ -94,7 +94,7 @@ Here are some example commands for reencoding video files using FFmpeg.
 
 You can use the ``ffmpeg -codecs`` command to see supported codecs.
 
-Additional info can be found with this command ``ffmpeg -h``
+Additional info can be found with the command ``ffmpeg -h``
     
 Alternatively you can explore these links:
 
