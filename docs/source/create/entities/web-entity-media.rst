@@ -67,7 +67,7 @@ Here are some example commands for reencoding video files using FFmpeg.
 |                        |                                                                  | the constant quality to  |
 |                        |                                                                  | work the bitrate has to  |
 |                        |                                                                  | be set to "0" via        |
-|                        |                                                                  | "-b:v 0"                 |
+|                        |                                                                  | "-b:v 0".                |
 +------------------------+------------------------------------------------------------------+--------------------------+
 | VP9 (Hardware          | ffmpeg -i "INPUTFILE" -c:v vp9_vaapi -b:v 2000k -c:a libopus     | VP9 hardware             |
 | accelerated), Opus,    | -b:a 96K "OUTPUTFILE.webm"                                       | acceleration             |
