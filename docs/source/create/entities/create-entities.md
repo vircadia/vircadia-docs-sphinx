@@ -39,7 +39,7 @@ You can choose from the following entity types:
 + [Add a Material Entity](material-entity.html)
 + [Change How Entities Look](entity-appearance.html)
 + [Import Your 3D Model](../3d-models/import-model.html)
-+ [Play media in a Web Entity](web-entity.html)
++ [Play Media in a Web Entity](web-entity-media.html)
 + [Tutorial: Create a Gold Spotlight](create-spotlight.html)
 + [Tutorial: Display a YouTube Channel](display-youtube.html)
 + [Tutorial: Modify a Zone Entity's Properties](zone-tutorial.html)
