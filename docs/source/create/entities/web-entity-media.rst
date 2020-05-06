@@ -155,7 +155,7 @@ You can embed videos using the HTML5 video tag. This example code can be put int
 
 **See Also**
 
-+ :doc:`Create new Entites <create-entities>`
++ :doc:`Create New Entites <create-entities>`
 + `The Create App <../tools.html#the-create-app>`_
 + :doc:`Define an Entity's Behavior <entity-behavior>`
 + :doc:`Change How Entities Look <entity-appearance>`
