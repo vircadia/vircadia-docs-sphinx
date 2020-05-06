@@ -134,7 +134,6 @@ Blocks
 
 + :doc:`Entities <entities>`
 + :doc:`Create New Entities <entities/create-entities>`
-+ `Shopping the Marketplace <../explore/shop.html#shopping-the-marketplace>`_
 + :doc:`Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>`
 + :doc:`Tutorial: Rig Your Avatar in Mixamo <avatars/mixamo-tutorial>`
 + :doc:`Tutorial: Modify Materials and Textures Using Blender <avatars/blender-tutorial>`

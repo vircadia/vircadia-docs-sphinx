@@ -15,7 +15,7 @@ Vircadia's architecture consists of the following components that work together 
 
 + The `Vircadia Interface`_ runs your personal experience in the metaverse. With it, you can :doc:`visit VR worlds <../travel>`, :doc:`meet people <../socialize>`, `attend live events <../socialize.html#attend-live-events>`_ and more.
 + The `Domain Server`_ is the server that hosts a domain. The domain server hosts the content in the domain, and manages the :doc:`domain-wide settings <../../host/configure-settings>`, such as audio spatialization, user permissions, and running scripts.
-+ The `Global Services`_ connect all of the servers together. These services are maintained by Vircadia so that you can sign in, move seamlessly between places, and :doc:`purchase items on the Marketplace <../shop>`.
++ The `Global Services`_ connect all of the servers together. An instance of these services are maintained by Vircadia so that you can sign in and move seamlessly between places.
 
 .. image:: _images/overview.png
 
