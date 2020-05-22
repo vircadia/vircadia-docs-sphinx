@@ -32,7 +32,7 @@ The amount of properties might seem intimidating at first. They all serve their 
 | Ambient Light          | This is used to apply light coming from the Skybox. An example usecase for this would be to |
 |                        | have a sun that is on the Skyboxs texture actually emit light.                              |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Haze                   | ?????????                                                                                   | 
+| Haze                   | ?????????                                                                                   |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Bloom                  | This enables a visual effect known as "Bloom". A slight Bloom effect could be used to make  |
 |                        | zones appear bright.                                                                        |
