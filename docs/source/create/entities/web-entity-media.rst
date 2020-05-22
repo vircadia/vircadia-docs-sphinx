@@ -47,9 +47,9 @@ Currently, exclusively open source formats are supported:
 | MP3                    | Lower quality to compression ratio than Opus and Vorbis.         | Matroska                 |
 +------------------------+------------------------------------------------------------------+--------------------------+
 
---------------------------
+---------------------------
 Re-encode Media with FFmpeg
---------------------------
+---------------------------
 
 Here are some example commands for reencoding video files using FFmpeg.
 

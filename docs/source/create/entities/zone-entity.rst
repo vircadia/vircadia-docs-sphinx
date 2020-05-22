@@ -7,9 +7,9 @@ A zone entity allows you to set properties to a specific area. These properties 
 .. contents:: On This Page
     :depth: 2
 
------------------------
+-------------------------
 Explanation of Properties
------------------------
+-------------------------
 
 The amount of properties might seem intimidating at first. They all serve their own goals and have reason to exist:
 
@@ -22,7 +22,7 @@ The amount of properties might seem intimidating at first. They all serve their 
 | Ghosting Allowed       | Enables or disables the ability to phase through colliders by disabling the enviroment      |
 |                        | collisions. Useful for making labyrinths for example.                                       |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Filter                 | Used to run scripts.                                                                        | What does it do and what would you use it for?
+| Filter                 | Used to run scripts.                                                                        |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Key Light              | Enabling this allows you to set a directional light, e.g. a sun, for the entire zone.       |
 +------------------------+---------------------------------------------------------------------------------------------+
@@ -32,12 +32,12 @@ The amount of properties might seem intimidating at first. They all serve their 
 | Ambient Light          | This is used to apply light coming from the Skybox. An example usecase for this would be to |
 |                        | have a sun that is on the Skyboxs texture actually emit light.                              |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Haze                   | ?????????                                                                                   | What is haze?
+| Haze                   | ?????????                                                                                   | 
 +------------------------+---------------------------------------------------------------------------------------------+
 | Bloom                  | This enables a visual effect known as "Bloom". A slight Bloom effect could be used to make  |
 |                        | zones appear bright.                                                                        |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Avatar Priority        | This property changes the update priority of avatar movements. It is commonly used on live  | Does it only prioritize movement information, or also the loading of the model and audio output?
+| Avatar Priority        | This property changes the update priority of avatar movements. It is commonly used on live  |
 |                        | events to have                                                                              |
 |                        | entertainers avatars' movements still be smooth, even with a huge crowd also being updated. |
 +------------------------+---------------------------------------------------------------------------------------------+
