@@ -1,14 +1,14 @@
-# Alpha 2020.1.0 Asteria Release Notes
+# Alpha 2020.2.0 Asteria Release Notes
 
 This version of Vircadia is the follow-up version to K2, it is not compatible with the v0.86.0 protocol.
 
 The protocol version is denoted by the new versioning scheme: 
     
-    YYYY-MajorVersion-MinorVersion-Name
+    YYYY.MajorVersion.MinorVersion-Name
     
 The major version will denote a protocol bump and therefore incompatibility with other versions. A minor version is a patch or update that will be compatible with its major version. The name of the release (Asteria, Demeter, etc.) changes when the major version changes.
 
-For example, **2020.1.5-Asteria** will be compatible with **2020.1.0-Asteria**. Whereas **2020.2.0-Demeter** will not be compatible with **2020.1.0-Asteria** or **2020.1.5-Asteria**.
+For example, **2020.2.5-Asteria** will be compatible with **2020.2.0-Asteria**. Whereas **2020.3.0-Demeter** will not be compatible with **2020.2.0-Asteria** or **2020.2.5-Asteria**.
 
 
 ## Interface
@@ -52,18 +52,19 @@ The numbers at the end of each item are the PR numbers in the Project Athena [Gi
 
 (v0.86.0 -> v0.87.0) 
 
-High Fidelity's v0.87.0 was merged with Vircadia's v0.86.0 base. PR numbers relate to the original High Fidelity repo and can only be retrieved if you have a backup of that repo before it was set to private.
+High Fidelity's v0.87.0 was merged with Vircadia's v0.86.0 codebase. PR numbers here relate to the original High Fidelity repo and can only be retrieved if you have a backup of that repo before it was set to private.
 
 #### General
 
-* DEV-2649: Fix entities list "filter to frustum" eye button. (#16461)
 * DEV-2330: Improved attenuation zones. Redefine an audio zone attenuation coefficient = 1.0 to mean "silent at any distance" instead of extreme falloff with distance. This ensures that chatterboxes are not audible outside of their boundary. Include code-health improvements to the HRTF. New functionality (parametric occlusion/lowpass effect) is not currently used, as it will require a new audio zone type to enable. (#16480)
 * DEV-2769: Remove the "acceleration" entity property from Create app 
 It's a deprecated property that doesn't affect the entity. (#16497)
-* DEV-2760 - Fix Realtime Unfocused to be 60 Hz. When choosing "Realtime" rendering in custom graphics or if you're using the High Quality graphics setting, the render/game rate should still target 60hz even when the window is focused. This is so that people doing streaming can still have high frame rate rendering when using apps like OBS. (#16496)
-* Added animedit avatar-animation.json graph editor tool 
-animedit is a developer tool used to inspect and edit avatar animation graphs. Note: this is an independent application, separate from the main application. (#16532)
+* Added animedit avatar-animation.json graph editor tool. Animedit is a developer tool used to inspect and edit avatar animation graphs. Note: this is an independent application, separate from the main application. (#16532)
 * Use Alt to clone entities on Mac. (#16443)
+* Add display name field to the log in screen. (#15334)
+* Add automaticLookAt.js to developer scripts 
+`automaticLookAt.js` is a script that automatically controls the avatar's head and eye to simulate human interaction during group interactions. 
+This PR adds that script to the developer script folder. (#16545)
 
 
 * Screenshare in Interface! (#16429)
@@ -75,6 +76,14 @@ animedit is a developer tool used to inspect and edit avatar animation graphs. N
     * DEV-2858: White screen displayed when using screenshare. (#16555)
     * Attempt to fix DEV-2859 with tighter constraints on screenshare resolution and framerate. (#16554)
     * DEV-2832, DEV-2816, DEV-2843: Auto-minimize Screen Share; enable switching between windows; prevent video dropout. (#16549)
+    
+* Important bugfixes
+    * DEV-2663: Adding safeguard in case device list is empty. (#16481)
+    * DEV-2742: Fix Graphics.exportModelToOBJ() JavaScript crash. (#16490)
+    * DEV-2800: Fix crash in Stats.forceUpdateStats() at start-up. (#16533)
+    * DEV-2825: Fix camera pitch by mouse wheel. (#16531)
+    * DEV-2760: Fix Realtime Unfocused to be 60 Hz. When choosing "Realtime" rendering in custom graphics or if you're using the High Quality graphics setting, the render/game rate should still target 60hz even when the window is focused. This is so that people doing streaming can still have high frame rate rendering when using apps like OBS. (#16496)
+    * DEV-2649: Fix entities list "filter to frustum" eye button. (#16461)
 
 #### GitHub Actions
 
@@ -176,11 +185,14 @@ animedit is a developer tool used to inspect and edit avatar animation graphs. N
     - pull/16580 
     - pull/16581
 
+#### Technical/Other Changes
 
+* Fix handleUrl helper regex. (#16511)
 * Reduce fidgety motions in seated fidgets; remove jitter and bounce from several seated idles and fidgets, also reduce look-around cone. (#16464)
 * Fix for assert in AnimBlendDirectional on startup; specifically, std::vector subscript out of range. (#16458)
 * DEV-2650: Remove "user" icon from Entities List. (#16451)
 * DEV-2648: Fix Cmd-click multi-select in entity list on Mac. (#16440)
+* Remove Avatar app links to AvatarIsland and BodyMart. (#16504)
 * Procedural Material crashes in shadow pass on deformed shape renderItems. Now that avatars can potentially have their own custom pipeline, shadow pass needs to support it. (#16470)
 * Made web entities not grabbable by default. (#16468)
 * Oculus Quest: Fix for the hand controllers in the latest version. The change will let you use both of your hands on the Quest. Without this 6DOF fix it will assume that the user is holding a Oculus GearVR remote controller. See more info about this issue at: 
@@ -188,12 +200,6 @@ animedit is a developer tool used to inspect and edit avatar animation graphs. N
     * https://developers.google.com/vr/develop/android/3dof-to-6dof
 * Update WindowScriptingInterface.h; replace "model" with "modal". (#16742)
 * Different settle transition depending on momentum. The settle animation that transitions from walk/run to idle is too big for very small adjustments, such as nudging the WASD keys just to slightly reposition. This creates a bool that is true when speed rises above 2.2 m/s. If true, play the larger settle. (#16467)
-
-// INTERESTING
-
-* DEV-2663: Adding safeguard in case device list is empty. (#16481)
-
-
 * Fix HMD strafe locomotion animation. Handle HMD in input vars in Rig.cpp, remove buggy json transitions between normal/HMD strafe states, and use isNotMoving to leave HMD strafe states. (#16486)
 * DEV-2709: Reset QAudioDevInfo on switch. (#16487)
 * DEV-2711: Fix crash when highlighting custom pipeline shapes. (#16477)
@@ -206,13 +212,6 @@ animedit is a developer tool used to inspect and edit avatar animation graphs. N
     * deleting an avatar-entity parent doesn't delete any domain-entity children.
     * deleting a domain-entity parent does delete all of its children.
 * Fix Realtime Unfocused to be 60 Hz. (#16496)
-
-// INTERESTING
-
-
-* DEV-2742: Fix Graphics.exportModelToOBJ() JavaScript crash. (#16490)
-
-
 * Fix for inadvertent comment. (#16500)
 * DEV-2718: models-brought-in-at-incorrect-dimensions. (#16502)
 * Added desktopSharing variable. (#16504)
@@ -222,13 +221,6 @@ animedit is a developer tool used to inspect and edit avatar animation graphs. N
 * DEV-430 Instancing: Introduce hfm::Shape to enable Instancing support. This PR will introduce the concept of hfm::Shape to the runtime model format, and refactor runtime code to use the new format. This will assist support for efficient rendering of multiple copies of the same geometry within a single model. (#16197)
 * Improve seated rotation. Add support for acceleration in seated rotation, and trigger lean animation with inputs as well as transition and settle back to seated idle. Remove deadspot beyond 90 degrees where Q/E don't work. (#16498)
 * DEV-2791: update-hardcoded-screen-values. (#16510)
-
-// INTERESTING
-
-* Add display name field to the log in screen. (#15334)
-* Remove Avatar app links to AvatarIsland and BodyMart. (#16504)
-
-
 * Fix for whiteboard poly lines getting their parentID incorrectly reverted. (#16512)
 * Fix-multiple-color-sphere-pops. (#16514)
 * Pinch to zoom camera, two finger swipe to look around, bug fixes. (#16505)
@@ -236,12 +228,6 @@ animedit is a developer tool used to inspect and edit avatar animation graphs. N
 * DEV-2797/DEV-2798: Add some comments to that click to zoom script, and connects the update signal only when necessary. (#16519)
 * Force rebuild for Mac build issue. (#16521)
 * Remove worklist.net references. (#16516)
-
-// INTERESTING
-
-* Fix handleUrl helper regex. (#16511)
-
-
 * DEV-2794: Update BUILD.MD. (#16522)
 * Move "away" animation from S3 bucket to local resource 
 Put away animation into compiled animation resource and update script to use local resource path. (#16523)
@@ -250,23 +236,8 @@ Put away animation into compiled animation resource and update script to use loc
 * DEV-2871: signal connection check before emit of devices changed. Fixing logic to emit after scripting interface has initialized the audio devices. (#16525)
 * Fix Linux build. (#16530)
 * Input plugin for streaming blendshapes from an iPhone. An OSC input plugin that works in conjunction with the FaceCap application for streaming facial blendshapes from an iPhone. (#16517)
-
-// INTERESTING
-
-* DEV-2800: Fix crash in Stats.forceUpdateStats() at start-up. (#16533)
-
-
 * Update prebuilt dependencies. (#16536)
 * DEV-491: Create a README.md file to document the Qt Launcher. (#16537)
-
-// INTERESTING
-
-* DEV-2825: Fix camera pitch by mouse wheel. (#16531)
-* Add automaticLookAt.js to developer scripts 
-`automaticLookAt.js` is a script that automatically controls the avatar's head and eye to simulate human interaction during group interactions. 
-This PR adds that script to the developer script folder. (#16545)
-
-
 * DEV-2840: Fix z-fighting issues in Smartboard and enable quicker positional iteration in the future. (#16547)
 * DEV-829: Waiting on local injector prep. Adding a future to the thread pool(ed) call to preparelocalinjectors. Since the function call runs on a separate thread it does not get notified that he device has swapped. Before switching we check if the prep local injectors is running and wait until its completed. Switching devices has lower priority than preparing local injectors. (otherwise we can cause starve problems.) (#16542)
 * DEV-2729: Airpods starve on startup. (#16550)
