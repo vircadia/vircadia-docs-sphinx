@@ -54,6 +54,18 @@ Key Light
 Skybox
 -------------------------
 
+Skyboxes are used to define the background of a zone. There is two types of skybox images that can be used. The aspect ratio gets used to define the type of image. Images with a differing aspect ratio will not be displayed.
+
+Types:
+
+* Cubemaps have an aspect ratio of 4:3 and consist of 6 sides, which are projected onto a cube.
+
+.. image:: _images/cubemap-skybox.png
+
+* Equirectanglar images have an aspect ratio of 2:1 and are projected onto a sphere.
+
+.. image:: _images/equirectanglar-skybox.jpg
+
 -------------------------
 Ambient Light
 -------------------------
