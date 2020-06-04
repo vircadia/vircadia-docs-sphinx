@@ -20,17 +20,19 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Create App
     * Now has tabs for entity properties. (#193)
     * **"Alpha"** property added to the **"Shape"** entity's editor. (#215)
-    * **"renderWithZones"** property added to all entities.
+    * **"renderWithZones"** property added to all entities. (#274, #369)
 * Crash Reporting
     * User Activity Logging separated from crash reporting functionality. (#257)
 * QML branding updates. (#277)
 * Gridchat is now muted by default. (#287)
 * Grabbable property on entities is now disabled by default. (#344)
+* Flying in VR is now enabled by default in new Interface installations. (#394)
 
 #### Graphics
 
 * Zone Occlusion feature added. You can now have entities within a zone become culled if you are not within specified zones. (#78)
-* Models support flipped normals on double sided geometry. (#301)
+* Models now support flipped normals on double sided geometry. (#301)
+* Models now support blendshapes. (#62)
 
 #### Technicals
 
@@ -48,6 +50,8 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Remove all uses of QString::null. (#346)
 * Fix issue #347: Linux PR builds failing due to "distro" not found. (#364)
 * Fix issue #380: Create app now uses proper dimensions when creating entities. (#406)
+* Revert commit 359248829c using -m 1 to temporarily fix issue 383. (#414)
+* Fix many GLTF (\*.glb) files being unable to be loaded due to bad URL parsing. (#415)
 
 ## High Fidelity -> Vircadia Master Merge (#285)
 
