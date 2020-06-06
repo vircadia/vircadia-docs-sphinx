@@ -40,6 +40,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Make custom Qt builds work on unsupported Ubuntu distributions. (#292)
 * Add community-apps repo to default QML whitelist. (#296)
 * GitHub Actions with artifact uploading. (#300)
+* Extensive GHA work. (#359, #360, #361, #362, #363, #375, #379, #381, #388, #397, #401, #402, #403, #420, #421, #422, #423, #424)
 * Snapshot name changed from "hifi" to "vircadia". (#334)
 * Vircadia now uses version 1.11.11 of the OpenVR SDK. (#335)
 * Crash reporting information sent to Sentry improved. (#336)
@@ -52,6 +53,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Fix issue #380: Create app now uses proper dimensions when creating entities. (#406)
 * Revert commit 359248829c using -m 1 to temporarily fix issue 383. (#414)
 * Fix many GLTF (\*.glb) files being unable to be loaded due to bad URL parsing. (#415)
+* Include <stdexcept> for building on Windows 10 with Visual Studio 2019. (#418)
 
 ## High Fidelity -> Vircadia Master Merge (#285)
 
