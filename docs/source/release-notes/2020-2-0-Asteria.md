@@ -1,8 +1,8 @@
 # Alpha 2020.2.0 Asteria Release Notes
 
-This version of Vircadia is the follow-up version to K2, it is not compatible with the v0.86.0 protocol.
+This version of Vircadia is the follow-up version to K2. It is not compatible with the v0.86.0 protocol.
 
-The protocol version is denoted by the new versioning scheme: 
+The software version is denoted by the new versioning scheme: 
     
     YYYY.MajorVersion.MinorVersion-Name
     
@@ -21,8 +21,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
     * Now has tabs for entity properties. (#193)
     * **"Alpha"** property added to the **"Shape"** entity's editor. (#215)
     * **"renderWithZones"** property added to all entities. (#274, #369)
-* Crash Reporting
-    * User Activity Logging separated from crash reporting functionality. (#257)
+* User Activity Logging separated from crash reporting functionality. (#257)
 * QML branding updates. (#277)
 * Gridchat is now muted by default. (#287)
 * Grabbable property on entities is now disabled by default. (#344)
@@ -39,8 +38,8 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * VS2019 (Version 16.5.1) build fix. (#279)
 * Make custom Qt builds work on unsupported Ubuntu distributions. (#292)
 * Add community-apps repo to default QML whitelist. (#296)
-* GitHub Actions with artifact uploading. (#300)
-* Extensive GHA work. (#359, #360, #361, #362, #363, #375, #379, #381, #388, #397, #401, #402, #403, #420, #421, #422, #423, #424)
+* GitHub Actions for PR builds with artifact uploading. (#300)
+* Fix GHA PR building. (#421)
 * Snapshot name changed from "hifi" to "vircadia". (#334)
 * Vircadia now uses version 1.11.11 of the OpenVR SDK. (#335)
 * Crash reporting information sent to Sentry improved. (#336)
@@ -84,7 +83,7 @@ This PR adds that script to the developer script folder. (#16545)
     * Attempt to fix DEV-2859 with tighter constraints on screenshare resolution and framerate. (#16554)
     * DEV-2832, DEV-2816, DEV-2843: Auto-minimize Screen Share; enable switching between windows; prevent video dropout. (#16549)
     
-* Important bugfixes
+* Important bug fixes.
     * DEV-2663: Adding safeguard in case device list is empty. (#16481)
     * DEV-2742: Fix Graphics.exportModelToOBJ() JavaScript crash. (#16490)
     * DEV-2800: Fix crash in Stats.forceUpdateStats() at start-up. (#16533)
@@ -96,7 +95,7 @@ This PR adds that script to the developer script folder. (#16545)
 
 * GitHub actions initial work. (#16401)
 * Switching Windows builds over to a self-hosted runner. (#16582)
-* GitHub Actions workflow cleanup 
+* GitHub Actions workflow clean-up.
     - Add step to clear out working directory before starting build 
     - Change "find" path for symbol packaging in hopes of fixing that error. (#16584)
 * Add apt-update step to refresh the apt repository index for Linux builds. (#16575)
@@ -109,12 +108,12 @@ This PR adds that script to the developer script folder. (#16545)
 
 #### Documentation
 
-* DOC-209: AudioStats JSDoc (#16495)
+* DOC-209: AudioStats JSDoc. (#16495)
     * Namespaces: 
         - AudioStats 
     * Classes: 
         - AudioStreamStats 
-* DOC-208: Revisions to JSDoc added by developers since July 2019 
+* DOC-208: Revisions to JSDoc added by developers since July 2019.
     * pull/15974 - Sitting API.
     * pull/16025 - Debug API for Picks/Pointers.
     * pull/16144 - Avatar "look at" target.
@@ -192,7 +191,7 @@ This PR adds that script to the developer script folder. (#16545)
     - pull/16580 
     - pull/16581
 
-#### Technical/Other Changes
+#### Technical / Other Changes
 
 * Fix handleUrl helper regex. (#16511)
 * Reduce fidgety motions in seated fidgets; remove jitter and bounce from several seated idles and fidgets, also reduce look-around cone. (#16464)
@@ -220,14 +219,14 @@ This PR adds that script to the developer script folder. (#16545)
     * deleting a domain-entity parent does delete all of its children.
 * Fix Realtime Unfocused to be 60 Hz. (#16496)
 * Fix for inadvertent comment. (#16500)
-* DEV-2718: models-brought-in-at-incorrect-dimensions. (#16502)
+* DEV-2718: Models brought in at incorrect dimensions. (#16502)
 * Added desktopSharing variable. (#16504)
 * Add tools for debugging entity workload proxies. This PR introduces some debug tools for examining entity workload proxies. The hope is this will allow us to get more clues about the "sometimes fall through ground" problem (DEV-2189). (#16483)
 * Clear more disk caches. When the user selects "Clear Disk Cache" from the Developer menu, clear more of the caches. (#15278)
 * DEV-2789: Implement retry timer when retrieving screen share info. (#16508)
 * DEV-430 Instancing: Introduce hfm::Shape to enable Instancing support. This PR will introduce the concept of hfm::Shape to the runtime model format, and refactor runtime code to use the new format. This will assist support for efficient rendering of multiple copies of the same geometry within a single model. (#16197)
 * Improve seated rotation. Add support for acceleration in seated rotation, and trigger lean animation with inputs as well as transition and settle back to seated idle. Remove deadspot beyond 90 degrees where Q/E don't work. (#16498)
-* DEV-2791: update-hardcoded-screen-values. (#16510)
+* DEV-2791: Update hard-coded screen values. (#16510)
 * Fix for whiteboard poly lines getting their parentID incorrectly reverted. (#16512)
 * Fix-multiple-color-sphere-pops. (#16514)
 * Pinch to zoom camera, two finger swipe to look around, bug fixes. (#16505)
@@ -240,7 +239,7 @@ This PR adds that script to the developer script folder. (#16545)
 Put away animation into compiled animation resource and update script to use local resource path. (#16523)
 * On Linux, remove quazip5 dynamic libs. (#16527)
 * Call updateGeometry before Model::createRenderItemSet. (#16526)
-* DEV-2871: signal connection check before emit of devices changed. Fixing logic to emit after scripting interface has initialized the audio devices. (#16525)
+* DEV-2871: Signal connection check before emit of devices changed. Fixing logic to emit after scripting interface has initialized the audio devices. (#16525)
 * Fix Linux build. (#16530)
 * Input plugin for streaming blendshapes from an iPhone. An OSC input plugin that works in conjunction with the FaceCap application for streaming facial blendshapes from an iPhone. (#16517)
 * Update prebuilt dependencies. (#16536)
@@ -296,7 +295,7 @@ The latest live deployment source can be viewed [here](https://github.com/kasenv
 
 The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/kasenvr/Decentralized_GoTo_Experimental).
 
-* Nothing new yet!
+* Nothing new!
 
 
 #### Community Apps
