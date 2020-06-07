@@ -35,6 +35,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 #### Technicals
 
+* Package scripts: rename to Vircadia, add deletion and migration functionality. (#273)
 * VS2019 (Version 16.5.1) build fix. (#279)
 * Make custom Qt builds work on unsupported Ubuntu distributions. (#292)
 * Add community-apps repo to default QML whitelist. (#296)
@@ -53,6 +54,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Revert commit 359248829c using -m 1 to temporarily fix issue 383. (#414)
 * Fix many GLTF (\*.glb) files being unable to be loaded due to bad URL parsing. (#415)
 * Include <stdexcept> for building on Windows 10 with Visual Studio 2019. (#418)
+* Rebrand HiFi & Athena -> Vircadia. (#427)
 
 ## High Fidelity -> Vircadia Master Merge (#285)
 
