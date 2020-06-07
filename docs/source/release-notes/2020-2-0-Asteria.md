@@ -1,6 +1,6 @@
 # Alpha 2020.2.0 Asteria Release Notes
 
-This version of Vircadia is the follow-up version to K2. It is not compatible with the v0.86.0 protocol.
+This version of Vircadia is the follow-up version to K2. It is not compatible with the v0.86.0 protocol. This version was released on May 9th, 2020.
 
 The software version is denoted by the new versioning scheme: 
     
