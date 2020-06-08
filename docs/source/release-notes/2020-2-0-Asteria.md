@@ -40,7 +40,6 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Make custom Qt builds work on unsupported Ubuntu distributions. (#292)
 * Add community-apps repo to default QML whitelist. (#296)
 * GitHub Actions for PR builds with artifact uploading. (#300)
-* Fix GHA PR building. (#421)
 * Snapshot name changed from "hifi" to "vircadia". (#334)
 * Vircadia now uses version 1.11.11 of the OpenVR SDK. (#335)
 * Crash reporting information sent to Sentry improved. (#336)
@@ -54,7 +53,10 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Revert commit 359248829c using -m 1 to temporarily fix issue 383. (#414)
 * Fix many GLTF (\*.glb) files being unable to be loaded due to bad URL parsing. (#415)
 * Include <stdexcept> for building on Windows 10 with Visual Studio 2019. (#418)
+* Fix GHA PR building. (#421)
 * Rebrand HiFi & Athena -> Vircadia. (#427)
+* Use newer Opus codec to fix illegal instruction in libopusCodec.so. (#429)
+* Remove path from boilerplate in coding standard. (#431)
 
 ## High Fidelity -> Vircadia Master Merge (#285)
 
