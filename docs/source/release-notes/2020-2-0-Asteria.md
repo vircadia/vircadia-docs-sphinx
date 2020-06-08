@@ -55,7 +55,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Include <stdexcept> for building on Windows 10 with Visual Studio 2019. (#418)
 * Fix GHA PR building. (#421)
 * Rebrand HiFi & Athena -> Vircadia. (#427)
-* Use newer opus to fix illegal instruction in libopusCodec.so. (#429)
+* Use newer Opus codec to fix illegal instruction in libopusCodec.so. (#429)
 * Remove path from boilerplate in coding standard. (#431)
 
 ## High Fidelity -> Vircadia Master Merge (#285)
