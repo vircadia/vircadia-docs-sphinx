@@ -50,7 +50,7 @@ Shaders' code is stored as a file. Fragment shaders will typically have the file
 
 Shaders are applied to entities and avatars by way of attaching them to a material. That material is then attached to your entity or avatar, therefore applying the shader as intended.
 
-If you are unfamiliar with material entities, you can find more information `here <https://docs.projectathena.dev/create/entities/material-entity.html>`_.
+If you are unfamiliar with material entities, you can find more information `here <https://docs.vircadia.dev/create/entities/material-entity.html>`_.
 
 Material entities have data that is stored in the JSON format, and they have a property called ``materialData``. The ``materialData`` property requires ``model`` and ``procedural`` fields. Here is an example::
 
@@ -59,7 +59,7 @@ Material entities have data that is stored in the JSON format, and they have a p
             "model": "hifi_shader_simple",
             "procedural": {
                 "version": 3,
-                "shaderUrl": "https://docs.projectathena.dev/_static/resources/Proceduralv3.fs"
+                "shaderUrl": "https://docs.vircadia.dev/_static/resources/Proceduralv3.fs"
             }
         }]
     }
@@ -75,7 +75,7 @@ The ``materialData`` JSON can be applied either via the Vircadia Interface’s e
     			"model": "hifi_shader_simple",
     			"procedural": {
     			  	"version": 3,
-    			  	"shaderUrl": "https://docs.projectathena.dev/_static/resources/Proceduralv3.fs"
+    			  	"shaderUrl": "https://docs.vircadia.dev/_static/resources/Proceduralv3.fs"
     			}
     		}
     	})
@@ -342,7 +342,7 @@ Procedural materials also support up to 4 custom textures and many custom unifor
     		"model": "hifi_shader_simple",
     		"procedural": {
     		    "version": 3,
-    		    "shaderUrl": "https://docs.projectathena.dev/_static/resources/Proceduralv3.fs",
+    		    "shaderUrl": "https://docs.vircadia.dev/_static/resources/Proceduralv3.fs",
     		    "uniforms": {
     		        "_diffuse": [1, 0, 0],
     		        "_alpha": 1.0,
