@@ -47,26 +47,26 @@ These assignment clients use UDP connections on a port number assigned by the op
 
 ## Files
 
-The program files are installed in /opt/athena:
- - **/opt/athena** contains the executables
- - **/opt/athena/lib** contains libraries required for operation
- - **/opt/athena/plugins** is currently used for audio codecs
- - **/opt/athena/resources** is required for the administrative website
+The program files are installed in /opt/vircadia:
+ - **/opt/vircadia** contains the executables
+ - **/opt/vircadia/lib** contains libraries required for operation
+ - **/opt/vircadia/plugins** is currently used for audio codecs
+ - **/opt/vircadia/resources** is required for the administrative website
 
-The executables in this folder (with the exception of <code>new-server</code>) cannot be launched from the command prompt without first setting <code>LD_LIBRARY_PATH=/opt/athena/lib</code>.
+The executables in this folder (with the exception of <code>new-server</code>) cannot be launched from the command prompt without first setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>.
 
-The file <code>/etc/opt/athena/default.conf</code> contains any environment variables necessary to running the domain.
+The file <code>/etc/opt/vircadia/default.conf</code> contains any environment variables necessary to running the domain.
 
-All content is stored under <code>/var/lib/athena/default</code>.  All files underneath <code>/var/lib/athena</code> are owned by the user <code>athena</code>, which is also the user that runs all domain-related processes.
+All content is stored under <code>/var/lib/vircadia/default</code>.  All files underneath <code>/var/lib/vircadia</code> are owned by the user <code>vircadia</code>, which is also the user that runs all domain-related processes.
 
 ## Services
 
-The installation packages setup the following systemd services to manage the Athena domain:
-- **athena-domain-server@default.service**: Manages the core domain server
-- **athena-assignment-client@default.service**: Spawns and manages the assignment clients
-- **athena-server@default.target**: Controls startup and shutdown of the above services
+The installation packages setup the following systemd services to manage the Vircadia domain:
+- **vircadia-domain-server@default.service**: Manages the core domain server
+- **vircadia-assignment-client@default.service**: Spawns and manages the assignment clients
+- **vircadia-server@default.target**: Controls startup and shutdown of the above services
 
-The <code>athena-server@default.target</code> service is the only one that is set to auto-start. Starting or stopping it will bring the other two services down.
+The <code>vircadia-server@default.target</code> service is the only one that is set to auto-start. Starting or stopping it will bring the other two services down.
 
 The first two services log a large amount of data to their service journal. Checking their logs (via <code>systemctl status</code>) is a good way to ensure they are operating properly.
 
@@ -74,18 +74,18 @@ The first two services log a large amount of data to their service journal. Chec
 
 The installation package is configured to permit multiple domains to run on a single server at different port numbers.  New servers can be created using the following command:
 
-    /opt/athena/new-server <name> <base-port>
+    /opt/vircadia/new-server <name> <base-port>
 
 where <code>name</code> is a word used to name and manage the domain and <code>base-port</code> must be the the first of a range of four contiguous port numbers not overlapping with any other use on the system.
 
 Assuming you created a new server with the name **second-bite**, this would setup the following:
- - Environment variables in <code>/etc/opt/athena/**second-bite**.conf</code>
- - Content stored in <code>/var/lib/athena/**second-bite**</code>
- - Services launched as <code>athena-domain-server@**second-bite**.service</code>, <code>athena-assignment-client@**second-bite**.service</code>, and <code>athena-server@**second-bite**.target</code>
+ - Environment variables in <code>/etc/opt/vircadia/**second-bite**.conf</code>
+ - Content stored in <code>/var/lib/vircadia/**second-bite**</code>
+ - Services launched as <code>vircadia-domain-server@**second-bite**.service</code>, <code>vircadia-assignment-client@**second-bite**.service</code>, and <code>vircadia-server@**second-bite**.target</code>
  
 ## Legacy Services
 
 There are a number of tweaks that are made to the default configuration to simplify storage and the ability to run multiple domains on one server.  In case you would like to remove this logic and run the servers closer to how the original *High Fidelity* domain servers were running, this is provided as an option.
- - Systemd services named <code>athena-domain-server.service</code>, <code>athena-assignment-client.service</code>, and <code>athena-server.target</code> *(without the @name)* have simplified configuration
+ - Systemd services named <code>vircadia-domain-server.service</code>, <code>vircadia-assignment-client.service</code>, and <code>vircadia-server.target</code> *(without the @name)* have simplified configuration
  - No file is provided to specify environment variables for the server
- - Content would be stored in <code>/var/lib/athena/.local</code>
+ - Content would be stored in <code>/var/lib/vircadia/.local</code>
