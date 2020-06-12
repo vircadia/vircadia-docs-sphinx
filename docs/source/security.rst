@@ -2,7 +2,7 @@
 Security
 ########
 
-Security information about the project and its components: interface, server, and the metaverse server.
+Security information about the project and its components: Interface, server, and the metaverse server.
 
 .. toctree::
     :maxdepth: 1

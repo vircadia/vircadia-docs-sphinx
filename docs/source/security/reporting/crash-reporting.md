@@ -7,12 +7,12 @@ Here is [information](https://docs.sentry.io/platforms/native/minidump/#what-is-
 Here is a list of extra metadata that is collected with a crash report:
 
 * Username
-* Domain + Location
+* Domain + location
 * Avatar URL
-* Build Type
-* Display Plugin
-* GPU Model + GPU Memory
-* Desktop/VR Mode
-* Machine Fingerprint
-* Metaverse Session UUID
+* Build type
+* Display plugin
+* GPU model + GPU memory
+* Desktop/VR mode
+* Machine fingerprint
+* Metaverse session UUID
 * "Is This A Steam Deployed Interface" Indicator
