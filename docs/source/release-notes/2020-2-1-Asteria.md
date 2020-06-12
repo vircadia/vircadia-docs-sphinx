@@ -11,7 +11,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Fix not being able to delete entities in serverless domains. (#425)
 * Fix visibility of values in Wearables dialog. (#426)
 * Reduce minimum camera inspect distance. (#432)
-* Update VR login overlay to Vircadia. (#437)
+* Update VR login overlay to have Vircadia logo. (#437)
 * Remove old GoTo from defaultScripts.js and update the Explore app with navigation buttons and new beacon fields. (#439)
 * Disable crash logger by default. (#440)
 * Fix user activity logger checkbox not being set to off by default. (#444)
