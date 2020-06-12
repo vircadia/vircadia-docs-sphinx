@@ -18,3 +18,4 @@ You have the power to shape your VR experience in Vircadia.
 * :doc:`HOST <host>` and make immersive experiences to educate, entertain, and connect with your audience.
 * :doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source code in the repository.
 * :doc:`DEVELOP <developer>` the project and tailor it to your needs, or just to help out.
+* :doc:`SECURITY <security>` information about the project and its components.

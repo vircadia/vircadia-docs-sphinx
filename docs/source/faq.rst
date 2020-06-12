@@ -2,7 +2,7 @@
 Frequently Asked Questions
 ##########################
 
-We get a lot of questions from our users! If you have questions about our product, feel free to browse through this page to learn more. And if you don't see your answer here, e-mail us at `support@highfidelity.com <mailto:support@highfidelity.com>`_!
+We get a lot of questions from our users! If you have questions about our product, feel free to browse through this page to learn more.
 
 .. contents:: On This Page
     :depth: 2
