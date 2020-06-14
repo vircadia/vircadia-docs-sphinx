@@ -1,10 +1,10 @@
 # Host a Domain from a Local or Cloud Linux Server
 
-The Vircadia packages can help you get up and running your own domain quickly.
+The Vircadia packages can help you get your own domain up and running quickly.
 
 ## Installation
 
-Packages are currently available for the following distributions:
+Alongside installation, these packages can also migrate an "Athena" domain to Vircadia. You can run them on an existing Vircadia domain to upgrade it if the original was installed using the package. Packages are currently available for the following distributions:
 
 ### Ubuntu Server 18.04 LTS
 
@@ -18,12 +18,16 @@ sudo apt-get update && sudo apt-get install ./vircadia-server_2020.2.0-asteria-2
 ```sh
 sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/athena-server-0.86.0_K2_20200402_76aff7a-1.amzn2.x86_64.rpm
 ```
+
+### Unlisted Distribution
+
+If you do not see your distribution listed here, you may compile your own server from source using the [Vircadia builder](https://github.com/kasenvr/vircadia-builder).
     
 ## Configuration
 
 The installation packages will create a domain at the default port location and configure a service to keep it running on that machine.
 
-Connect a web browser to the server at port 40100. (If you are on the machine that the server is running on, this would be http://localhost:40100.) Complete the initial setup wizard and you should have a functioning domain.
+Connect a web browser to the server at port 40100. (If you are on the machine that the server is running on, this would be http://localhost:40100) Complete the initial setup wizard and you should have a functioning domain.
 
 ## Networking
 
@@ -72,7 +76,7 @@ The first two services log a large amount of data to their service journal. Chec
 
 ## Multiple domains
 
-The installation package is configured to permit multiple domains to run on a single server at different port numbers.  New servers can be created using the following command:
+The installation package is configured to permit multiple domains to run on a single server at different port numbers. New servers can be created using the following command:
 
     /opt/vircadia/new-server <name> <base-port>
 
@@ -85,7 +89,7 @@ Assuming you created a new server with the name **second-bite**, this would setu
  
 ## Legacy Services
 
-There are a number of tweaks that are made to the default configuration to simplify storage and the ability to run multiple domains on one server.  In case you would like to remove this logic and run the servers closer to how the original *High Fidelity* domain servers were running, this is provided as an option.
+There are a number of tweaks that are made to the default configuration to simplify storage and the ability to run multiple domains on one server. In case you would like to remove this logic and run the servers closer to how the original *High Fidelity* domain servers were running, this is provided as an option.
  - Systemd services named <code>vircadia-domain-server.service</code>, <code>vircadia-assignment-client.service</code>, and <code>vircadia-server.target</code> *(without the @name)* have simplified configuration
  - No file is provided to specify environment variables for the server
  - Content would be stored in <code>/var/lib/vircadia/.local</code>
