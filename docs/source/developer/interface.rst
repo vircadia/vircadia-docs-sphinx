@@ -7,4 +7,5 @@ Interface
     :titlesonly:
 
     Command Line Parameters <interface/command-line-parameters>
+    Debugging <interface/debugging>
     
