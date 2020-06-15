@@ -16,12 +16,12 @@ set "BUILDLINUX=%SOURCEDIR%/developer/build/BUILD_LINUX.md"
 set "BUILDOSX=%SOURCEDIR%/developer/build/BUILD_OSX.md"
 set "BUILDWIN=%SOURCEDIR%/developer/build/BUILD_WIN.md"
 set "INSTALLER=%SOURCEDIR%/developer/installer/INSTALLER.md"
-curl -o %BUILDGENERAL% https://raw.githubusercontent.com/kasenvr/project-athena/kasen/core/BUILD.md
-curl -o %BUILDANDROID% https://raw.githubusercontent.com/kasenvr/project-athena/kasen/core/BUILD_ANDROID.md
-curl -o %BUILDLINUX% https://raw.githubusercontent.com/kasenvr/project-athena/kasen/core/BUILD_LINUX.md
-curl -o %BUILDOSX% https://raw.githubusercontent.com/kasenvr/project-athena/kasen/core/BUILD_OSX.md
-curl -o %BUILDWIN% https://raw.githubusercontent.com/kasenvr/project-athena/kasen/core/BUILD_WIN.md
-curl -o %INSTALLER% https://raw.githubusercontent.com/kasenvr/project-athena/kasen/core/INSTALL.md
+curl -o %BUILDGENERAL% https://raw.githubusercontent.com/kasenvr/project-athena/master/BUILD.md
+curl -o %BUILDANDROID% https://raw.githubusercontent.com/kasenvr/project-athena/master/BUILD_ANDROID.md
+curl -o %BUILDLINUX% https://raw.githubusercontent.com/kasenvr/project-athena/master/BUILD_LINUX.md
+curl -o %BUILDOSX% https://raw.githubusercontent.com/kasenvr/project-athena/master/BUILD_OSX.md
+curl -o %BUILDWIN% https://raw.githubusercontent.com/kasenvr/project-athena/master/BUILD_WIN.md
+curl -o %INSTALLER% https://raw.githubusercontent.com/kasenvr/project-athena/master/INSTALL.md
 
 if "%1" == "" goto help
 
