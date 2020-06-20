@@ -33,7 +33,7 @@ This documentation is not intended to be a complete course on how to create a sh
 An understanding of how to use JavaScript and JSON with Vircadia is important before you dive into this topic. If you intend to create shaders yourself, knowing the C programming language will also be important.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Differences Between Athena and GLSL Shaders
+Differences Between Vircadia and GLSL Shaders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When exploring shaders online, you may have come across many shader examples. Or you might have seen websites and applications that allow you to experiment with shader code in a live environment. Most of the code from these sources will not work with Vircadia without modification.
@@ -431,4 +431,4 @@ Vircadia does not enable seeing procedural shaders by default. This is because c
 
 Shaders are best used as a very strong spice in a recipe. Attempt to keep them small and efficient. Shaders can produce marvelous and mind-blowing effects, but overuse can spoil the desired end effect. If you create a shader that has hundreds of lines of code, consider trimming it down if possible.
 
-If you find yourself in a position where a shader is causing trouble for you, remember that you can disable them in the Athena Interface.
+If you find yourself in a position where a shader is causing trouble for you, remember that you can disable them in the Vircadia Interface.
