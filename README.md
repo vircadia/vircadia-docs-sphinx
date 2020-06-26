@@ -17,7 +17,7 @@ Our main documentation is hosted at https://docs.vircadia.dev.
 
 To help with the translation of Vircadia's documentation there is two main ways:
 The recommended way is to use https://weblate.vircadia.dev.
-You can submit updated `.po` files via Pull Request.
+You can also submit updated `.po` files via Pull Request.
 
 ## Install Sphinx for Local Builds
 
