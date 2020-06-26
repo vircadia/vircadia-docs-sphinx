@@ -47,9 +47,9 @@ Currently, exclusively open source formats are supported:
 | MP3                    | Lower quality to compression ratio than Opus and Vorbis.         | Matroska                 |
 +------------------------+------------------------------------------------------------------+--------------------------+
 
---------------------------
+---------------------------
 Re-encode Media with FFmpeg
---------------------------
+---------------------------
 
 Here are some example commands for reencoding video files using FFmpeg.
 
@@ -102,9 +102,9 @@ Alternatively you can explore these links:
 * https://ffmpeg.org
 * https://wiki.archlinux.org/index.php/Hardware_video_acceleration#VA-API_drivers
 
-------------------------
+----------------
 Batch Processing
-------------------------
+----------------
 
 Here is an example shell script to batch reencode the contents of a folder on Linux using FFmpeg:
 
