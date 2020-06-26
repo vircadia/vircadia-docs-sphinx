@@ -1,6 +1,6 @@
 # Overview of Vircadia's Documentation Tools
 
-For Vircadia's main documentation system, we use **Sphinx** to generate it, and **Read the Docs** to publish/host it. GitHub is a helpful middleman and stores all of the docs.
+For Vircadia's main documentation system, we use **Sphinx** to generate it, and a webserver to publish/host it. GitHub is a helpful middleman and stores all of the docs.
 
 **Sphinx** is an open-source, robust solution for software documentation that includes features that writers expect, like:
 
@@ -11,9 +11,13 @@ For Vircadia's main documentation system, we use **Sphinx** to generate it, and 
 * Index and Glossary support
 * Localization support
 
-**Read the Docs** is a hosting platform for Sphinx-generated documentation. It takes the power of Sphinx and adds version control, full-text search, and other useful features. It pulls down code and doc files from Git then builds and hosts the documentation. 
-
 Our main documentation is hosted at https://docs.vircadia.dev.
+
+## Translate
+
+To help with the translation of Vircadia's documentation there is two main ways:
+The recommended way is to use https://weblate.vircadia.dev.
+You can submit updated `.po` files via Pull Request.
 
 ## Install Sphinx for Local Builds
 
@@ -63,8 +67,13 @@ We encourage you to compile the documentation locally on your computer prior to 
 2. Using a command line, cd to your local repository, then the docs folder.
 3. Compile with the command `make html`.
 
-The HTML output will be in build\html. Open index.html in a browser to view docs.
+The HTML output will be in build\html. Open home.html in a browser to view docs.
 
+To compile a different language you need an additional set of commands:
+- `make gettext` creates gettext files.
+- `sphinx-intl update -l xX` will create/update the `.po` translation files.
+- `make SPHINXOPTS="-Dlanguage=xX" html` compiles the selected language.
+Replace `xX` with your [language code](https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language)
 
 ## Using RST 
 
