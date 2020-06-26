@@ -102,9 +102,9 @@ Alternatively you can explore these links:
 * https://ffmpeg.org
 * https://wiki.archlinux.org/index.php/Hardware_video_acceleration#VA-API_drivers
 
-------------------------
+----------------
 Batch Processing
-------------------------
+----------------
 
 Here is an example shell script to batch reencode the contents of a folder on Linux using FFmpeg:
 
