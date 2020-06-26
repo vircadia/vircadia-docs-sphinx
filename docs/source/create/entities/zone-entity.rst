@@ -25,7 +25,7 @@ The amount of properties might seem intimidating at first. They all serve their 
 | Filter                 | Filters are specialized JavaScript functions that prevent unwanted modifications to         |
 |                        | entities inside the zone. This property takes the URL to such a script.                     |
 |                        | More information here:                                                                      |
-|                        | + `Protect Your Domain’s Content <../configure-settings/entity-filters.html>`               |
+|                        | `Protect Your Domain’s Content <../../host/configure-settings/entity-filters.html>`_        |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Key Light              | Enabling this allows you to set a directional light, e.g. a sun, for the entire zone.       |
 +------------------------+---------------------------------------------------------------------------------------------+
