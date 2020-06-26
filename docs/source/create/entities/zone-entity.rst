@@ -32,7 +32,7 @@ The amount of properties might seem intimidating at first. They all serve their 
 | Ambient Light          | This is used to apply light coming from the Skybox. An example usecase for this would be to |
 |                        | have a sun that is on the Skyboxs texture actually emit light.                              |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Haze                   | ?????????                                                                                   |
+| Haze                   | Creates fog or mist.                                                                        |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Bloom                  | This enables a visual effect known as "Bloom". A slight Bloom effect could be used to make  |
 |                        | zones appear bright.                                                                        |
@@ -42,17 +42,17 @@ The amount of properties might seem intimidating at first. They all serve their 
 |                        | entertainers avatars' movements still be smooth, even with a huge crowd also being updated. |
 +------------------------+---------------------------------------------------------------------------------------------+
 
--------------------------
+^^^^^^
 Filter
--------------------------
+^^^^^^
 
--------------------------
+^^^^^^^^^
 Key Light
--------------------------
+^^^^^^^^^
 
--------------------------
+^^^^^^
 Skybox
--------------------------
+^^^^^^
 
 Skyboxes are used to define the background of a zone. There is two types of skybox images that can be used. The aspect ratio gets used to define the type of image. Images with a differing aspect ratio will not be displayed.
 
@@ -66,17 +66,45 @@ Types:
 
 .. image:: _images/equirectanglar-skybox.jpg
 
--------------------------
+^^^^^^^^^^^^^
 Ambient Light
--------------------------
+^^^^^^^^^^^^^
 
--------------------------
+^^^^
 Haze
--------------------------
+^^^^
 
--------------------------
+Haze creates fog inside a Zone. This can be used to make things look more unsettling, but is also useful for hiding distant geometry.
+There is a couple of properties available for Hase:
+
++------------------------+---------------------------------------------------------------------------------------------+
+| Property               | Description                                                                                 |
++========================+=============================================================================================+
+| Range                  | This sets how far the Haze extends in meters. Use this to influence viewing distance and    |
+|                        | thickness.                                                                                  |
++------------------------+---------------------------------------------------------------------------------------------+
+| Use Altitude           | This changes the Haze intensity depending on altitude. Higher altitude means more fog.      |
++------------------------+---------------------------------------------------------------------------------------------+
+| Base                   | This is the base of the altitude range.                                                     |
++------------------------+---------------------------------------------------------------------------------------------+
+| Ceiling                | This is the ceiling of the altitude range. Regardless of the name, the ceiling can be lower |
+|                        | than the base to have the effect upside down; lower altitude meaning less fog.              |
++------------------------+---------------------------------------------------------------------------------------------+
+| Haze Color             | Sets the color of the Hase.                                                                 |
++------------------------+---------------------------------------------------------------------------------------------+
+| Background Blend       | This controls how much of the skybox is visible through the Haze. Higher values showing     |
+|                        | more skybox.                                                                                |
++------------------------+---------------------------------------------------------------------------------------------+
+| Glare                  | Glare can be used to show sun                                                                                           |
++------------------------+---------------------------------------------------------------------------------------------+
+| Glare Color            | Sets the color of the Glare.                                                                |
++------------------------+---------------------------------------------------------------------------------------------+
+| Glare Angle            | ?                                                                                           |
++------------------------+---------------------------------------------------------------------------------------------+
+
+^^^^^
 Bloom
--------------------------
+^^^^^
 
 
 **See Also**
