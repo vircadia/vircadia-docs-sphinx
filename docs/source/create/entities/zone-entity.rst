@@ -40,8 +40,8 @@ The amount of properties might seem intimidating at first. They all serve their 
 | Bloom                  | This enables a visual effect known as "Bloom". A slight Bloom effect could be used to make  |
 |                        | zones appear bright.                                                                        |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Avatar Priority        | This property changes the update priority of avatar movements. It is commonly used on live  |
-|                        | events to have                                                                              |
+| Avatar Priority        | This property changes the update priority of avatar movements by allocating more bandwidth, |
+|                        | which has been reserved by the avatar mixer. It is commonly used on live events to have     |
 |                        | entertainers avatars' movements still be smooth, even with a huge crowd also being updated. |
 +------------------------+---------------------------------------------------------------------------------------------+
 
