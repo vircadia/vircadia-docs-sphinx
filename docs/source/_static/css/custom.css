@@ -384,3 +384,10 @@ pre span {
     color: #000000;
     
 }
+
+/***********************************/
+/****** Versions.html styles *******/
+/***********************************/
+.rst-versions.shift-up {
+    overflow-y:visible;
+}
