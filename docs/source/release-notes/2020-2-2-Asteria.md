@@ -8,8 +8,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 #### General
 
-* Add the "Prometheus" exporter, which allows for exporting of full domain and mixer statistics for visualization. (#280)
-* Vive Pro Eye support added. (#350)
+* Vive Pro Eye support added. (#350, #478)
 * Fix Linux default audio selection and warnings. (#377)
 * Rebranding and login screen updates. (#384, #471, #473)
 * Controller API: fix various crashes and fix more than one controller not buzzing on `triggerHapticPulse`. (#399)
@@ -18,6 +17,13 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Fix models not scaling correctly on load due to a low timeout; also fix resizing of models for the first time after they load. (#442)
 * Fix reloading content in serverless domains. (#447)
 
+## Domain Server
+
+The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/projects/2).
+
+#### General
+
+* Add the "Prometheus" exporter, which allows for exporting of full domain and mixer statistics for visualization. (#280)
 
 ## Documentation
 
