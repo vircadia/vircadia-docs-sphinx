@@ -2,7 +2,7 @@
 Add a Zone Entity
 ##########################
 
-A Zone entity enables you to set properties to a specific area. These properties include: flying, ghosting, 
+A Zone entity enables you to set properties in a specific area. These properties include: flying, ghosting, 
 key lighting, skybox, ambient lighting, haze, bloom, and avatar priorities.
 
 .. contents:: On This Page
@@ -33,8 +33,8 @@ The number of properties might seem intimidating at first. However, they all ser
 | Skybox                 | This lets you set a so called "Skybox". This is commonly used to apply a sky texture        |
 |                        | the zone.                                                                                   |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Ambient Light          | This is used to apply light coming from the skybox. An example use case for this is         |
-|                        | to have a sun that is on the skybox's texture actually emit light.                          |
+| Ambient Light          | This is used to apply light coming from the skybox. This is used if you have light coming   |
+|                        | from more than just a sun. For example if you have multiple suns.                           |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Haze                   | Creates fog or mist.                                                                        |
 +------------------------+---------------------------------------------------------------------------------------------+
@@ -117,7 +117,7 @@ Properties available for haze:
 +------------------------+---------------------------------------------------------------------------------------------+
 | Property               | Description                                                                                 |
 +========================+=============================================================================================+
-| Range                  | This sets how far the Haze extends in meters. Use this to influence viewing distance and    |
+| Range                  | This sets how far the haze extends in meters. Use this to influence viewing distance and    |
 |                        | thickness.                                                                                  |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Use Altitude           | This changes the haze intensity depending on altitude. Higher altitude means more fog.      |
