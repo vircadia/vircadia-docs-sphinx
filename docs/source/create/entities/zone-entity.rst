@@ -2,7 +2,8 @@
 Add a Zone Entity
 ##########################
 
-A zone entity allows you to set properties to a specific area. These properties include: flying, ghosting, key lighting, skybox, ambient lighting, hase, bloom and avatar priorities.
+A Zone entity enables you to set properties to a specific area. These properties include: flying, ghosting, 
+key lighting, skybox, ambient lighting, haze, bloom, and avatar priorities.
 
 .. contents:: On This Page
     :depth: 3
@@ -11,46 +12,46 @@ A zone entity allows you to set properties to a specific area. These properties 
 Explanation of Properties
 -------------------------
 
-The amount of properties might seem intimidating at first. They all serve their own goals and have reason to exist:
+The number of properties might seem intimidating at first. However, they all serve their own goals and have reason to exist:
 
 +------------------------+---------------------------------------------------------------------------------------------+
 | Property               | Description                                                                                 |
 +========================+=============================================================================================+
-| Flying Allowed         | Enables or disables flying for people inside the zone. This makes sense for gamemodes, or   |
+| Flying Allowed         | Enables or disables flying for people inside the zone. This makes sense for gamem odes, or  |
 |                        | if you just don't want people to break your immersion.                                      |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Ghosting Allowed       | Enables or disables the ability to phase through colliders by disabling the enviroment      |
-|                        | collisions. Useful for making labyrinths for example.                                       |
+| Ghosting Allowed       | Enables or disables the ability to pass through entities by disabling the environment       |
+|                        | collisions. Useful for creating labyrinths, for example.                                    |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Filter                 | Filters are specialized JavaScript functions that prevent unwanted modifications to         |
 |                        | entities inside the zone. This property takes the URL to such a script.                     |
-|                        | More information here:                                                                      |
-|                        | `Protect Your Domain’s Content <../../host/configure-settings/entity-filters.html>`_        |
+|                        | See `Protect Your Domain’s Content <../../host/configure-settings/entity-filters.html>`_    |
+|                        | for more information.                                                                       |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Key Light              | Enabling this allows you to set a directional light, e.g. a sun, for the entire zone.       |
+| Key Light              | This sets a directional light, e.g. a sun, for the entire zone.                             |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Skybox                 | This allowed you to set a so called "Skybox". This is commonly used to apply a sky texture  |
+| Skybox                 | This lets you set a so called "Skybox". This is commonly used to apply a sky texture        |
 |                        | the zone.                                                                                   |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Ambient Light          | This is used to apply light coming from the Skybox. An example usecase for this would be to |
-|                        | have a sun that is on the Skyboxs texture actually emit light.                              |
+| Ambient Light          | This is used to apply light coming from the skybox. An example use case for this is         |
+|                        | to have a sun that is on the skybox's texture actually emit light.                          |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Haze                   | Creates fog or mist.                                                                        |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Bloom                  | This enables a visual effect known as "Bloom". A slight Bloom effect could be used to make  |
+| Bloom                  | This enables a visual effect known as "bloom". A slight bloom effect could be used to make  |
 |                        | zones appear bright.                                                                        |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Avatar Priority        | This property changes the update priority of avatar movements by allocating more bandwidth, |
+| Avatar Priority        | This property changes the update priority of avatar movements by allocating more bandwidth  |
 |                        | which has been reserved by the avatar mixer. It is commonly used on live events to have     |
-|                        | entertainers avatars' movements still be smooth, even with a huge crowd also being updated. |
+|                        | entertainers' avatar movements still be smooth, even with a huge crowd also being updated.  |
 +------------------------+---------------------------------------------------------------------------------------------+
 
 ^^^^^^^^^
 Key Light
 ^^^^^^^^^
 
-Key Lighting is used to illuminate a zone. You can think of the Key Light as a sun, which illuminates a zone from a specific direction.
-The following properties are available for Key Lighting:
+Key lighting is used to illuminate a zone. You can think of the key light as a sun which illuminates a zone from a specific direction.
+The following properties are available for key lighting:
 
 +------------------------+---------------------------------------------------------------------------------------------+
 | Property               | Description                                                                                 |
@@ -59,9 +60,9 @@ The following properties are available for Key Lighting:
 +------------------------+---------------------------------------------------------------------------------------------+
 | Light Intensity        | This changes the intensity of the key lighting.                                             |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Light Horizontal Angle | Sets the rotation around the zones y axis and starts in its -z direction.                   |
+| Light Horizontal Angle | Sets the rotation around the zone's y axis and starts in its -z direction.                  |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Light Vertical Angle   | Sets the rotation around the zones x axis and starts in its -z direction.                   |
+| Light Vertical Angle   | Sets the rotation around the zone's x axis and starts in its -z direction.                  |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Cast Shadows           | This enables shadows, while still respecting the "Cast Shadows" property of other entities. |
 +------------------------+---------------------------------------------------------------------------------------------+
@@ -75,7 +76,8 @@ The following properties are available for Key Lighting:
 Skybox
 ^^^^^^
 
-Skyboxes are used to define the background of a zone. There is two types of skybox images that can be used. The aspect ratio gets used to define the type of image. Images with a differing aspect ratio will not be displayed.
+Skyboxes are used to define the background of a zone. There are two types of skybox images that can be used.
+The aspect ratio is used to define the type of image. Images with a differing aspect ratio are not displayed.
 
 Types:
 
@@ -99,9 +101,9 @@ Accepted properties are:
 +========================+=============================================================================================+
 | Ambient Intensity      | This sets the intensity of the illumination.                                                |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Ambient Source         | This take the URL of a texture similar to the skybox. So similar to the skybox, that you    |
+| Ambient Source         | This takes the URL of a texture similar to the skybox. So similar to the skybox, that you   |
 |                        | can actually use the same texture as the skybox. One scenario where this could be useful,   |
-|                        | would be a spacestation, that is illuminated my multiple suns and reflections from          |
+|                        | would be a space station, that is illuminated my multiple suns and reflections from         |
 |                        | different colored planets.                                                                  |
 +------------------------+---------------------------------------------------------------------------------------------+
 
@@ -109,8 +111,8 @@ Accepted properties are:
 Haze
 ^^^^
 
-Haze creates fog inside a Zone. This can be used to make things look more unsettling, but is also useful for hiding distant geometry.
-There is a couple of properties available for Haze:
+Haze creates fog inside a Zone. This can be used to make things look more atmospheric, but is also useful for hiding distant geometry.
+Properties available for haze:
 
 +------------------------+---------------------------------------------------------------------------------------------+
 | Property               | Description                                                                                 |
@@ -118,19 +120,19 @@ There is a couple of properties available for Haze:
 | Range                  | This sets how far the Haze extends in meters. Use this to influence viewing distance and    |
 |                        | thickness.                                                                                  |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Use Altitude           | This changes the Haze intensity depending on altitude. Higher altitude means more fog.      |
+| Use Altitude           | This changes the haze intensity depending on altitude. Higher altitude means more fog.      |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Base                   | This is the base of the altitude range.                                                     |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Ceiling                | This is the ceiling of the altitude range. Regardless of the name, the ceiling can be lower |
 |                        | than the base to have the effect upside down; lower altitude meaning less fog.              |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Haze Color             | Sets the color of the Hase.                                                                 |
+| Haze Colour            | Sets the colour of the haze.                                                                |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Background Blend       | This controls how much of the skybox is visible through the Haze. Higher values showing     |
+| Background Blend       | This controls how much of the skybox is visible through the haze. Higher values showing     |
 |                        | more skybox.                                                                                |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Glare                  | Glare can be used to show an effect for the direction that the Key Light is coming from.    |
+| Glare                  | Glare can be used to show an effect for the direction that the key light is coming from.    |
 |                        | This is mainly useful for making a sun look especially bright.                              |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Glare Color            | Sets the color of the glare effect.                                                         |
@@ -143,7 +145,7 @@ Bloom
 ^^^^^
 
 The bloom effect is used to make bright areas glow. This effect could be used to make streetlight at night appear like they are actually illuminating light.
-It take the following properties:
+It has the following properties:
 
 +------------------------+---------------------------------------------------------------------------------------------+
 | Property               | Description                                                                                 |
