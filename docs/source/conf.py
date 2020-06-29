@@ -188,10 +188,4 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 # -- Markdown Setup ---------------------------------------------------------
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-
-source_suffix = ['.rst', '.md']
+extensions = ['recommonmark']
