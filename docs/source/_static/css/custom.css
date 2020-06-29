@@ -29,9 +29,9 @@ body {
 }
 
 img {
-    display: block;
+#    display: block;
     text-align: center;
-    margin: 2rem auto;
+#    margin: 2rem auto;
 }
 
 .wy-nav-content {
