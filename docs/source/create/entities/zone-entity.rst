@@ -77,7 +77,7 @@ Skybox
 ^^^^^^
 
 Skyboxes are used to define the background of a zone. There are two types of skybox images that can be used.
-The aspect ratio is used to define the type of image. Images with a differing aspect ratio or a resolution higher than 4096 pixel are not displayed.
+The aspect ratio is used to define the type of image. Images with a differing aspect ratio or a resolution higher than 4096 pixels are not displayed.
 
 Types:
 
