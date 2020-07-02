@@ -17,7 +17,7 @@ The number of properties might seem intimidating at first. However, they all ser
 +------------------------+---------------------------------------------------------------------------------------------+
 | Property               | Description                                                                                 |
 +========================+=============================================================================================+
-| Flying Allowed         | Enables or disables flying for people inside the zone. This makes sense for gamem odes, or  |
+| Flying Allowed         | Enables or disables flying for people inside the zone. This makes sense for game modes, or  |
 |                        | if you just don't want people to break your immersion.                                      |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Ghosting Allowed       | Enables or disables the ability to pass through entities by disabling the environment       |
@@ -30,7 +30,7 @@ The number of properties might seem intimidating at first. However, they all ser
 +------------------------+---------------------------------------------------------------------------------------------+
 | Key Light              | This sets a directional light, e.g. a sun, for the entire zone.                             |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Skybox                 | This lets you set a so called "Skybox". This is commonly used to apply a sky texture        |
+| Skybox                 | This lets you set a so called "Skybox". This is commonly used to apply a sky texture to     |
 |                        | the zone.                                                                                   |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Ambient Light          | This is used to apply light coming from the skybox. This is used if you have light coming   |
