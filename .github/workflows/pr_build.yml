@@ -30,7 +30,7 @@ jobs:
         cd docs
         make html
     - name: Upload documentation
-      uses: wlixcc/SFTP-Deploy-Action@v1.0
+      uses: JulianGro/SFTP-Deploy-Action@v1.0
       with:
         username: 'gha'
         server: '94.130.177.235'
