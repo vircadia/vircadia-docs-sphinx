@@ -3,7 +3,8 @@ name: Master CI Build
 on:
   push:
     branches:
-      - master
+#      - master
+      - translation-experiment
 
 jobs:
   build_en_docs:
