@@ -46,6 +46,8 @@ The number of properties might seem intimidating at first. However, they all ser
 |                        |  reserved by the avatar mixer. It is commonly used on live events to have                   |
 |                        | entertainers' avatar movements still be smooth, even with a huge crowd also being updated.  |
 +------------------------+---------------------------------------------------------------------------------------------+
+| Screen-share           | Enabling allows people to use screen-share inside the zone.                                 |
++------------------------+---------------------------------------------------------------------------------------------+
 
 ^^^^^^^^^
 Key Light
