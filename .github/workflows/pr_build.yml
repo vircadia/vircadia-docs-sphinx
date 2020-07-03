@@ -1,0 +1,39 @@
+name: Pull Request CI Build
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build_docs:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        python-version: [3.7, 3.8]
+
+    name: hmm
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -U Sphinx==2.4.4
+        pip install --upgrade recommonmark
+        pip install sphinx_rtd_theme
+    - name: Build documentation
+      shell: bash
+      run: |
+        make html
+    - name: Upload documentation
+      uses: wlixcc/SFTP-Deploy-Action@v1.0
+        with:
+          username: 'gha'
+          server: '94.130.177.235'
+          private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
+          local_path: './build/html/*'
+          remote_path: '/var/www/html/gha/${{ github.event.number }}' #make sure dir exist
+          args: '-o ConnectTimeout=5'
