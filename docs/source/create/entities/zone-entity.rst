@@ -28,7 +28,8 @@ The number of properties might seem intimidating at first. However, they all ser
 |                        | See `Protect Your Domain’s Content <../../host/configure-settings/entity-filters.html>`_    |
 |                        | for more information.                                                                       |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Key Light              | This sets a directional light, e.g. a sun, for the entire zone.                             |
+| Key Light              | This sets a directional light for the entire zone, e.g. this can simulate a sun casting     |
+|                        | light.                                                                                      |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Skybox                 | This lets you set a so called "Skybox". This is commonly used to apply a sky texture to     |
 |                        | the zone.                                                                                   |
@@ -42,7 +43,7 @@ The number of properties might seem intimidating at first. However, they all ser
 |                        | zones appear bright.                                                                        |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Avatar Priority        | This property changes the update priority of avatar movements by allocating more bandwidth  |
-|                        | which has been reserved by the avatar mixer. It is commonly used on live events to have     |
+|                        |  reserved by the avatar mixer. It is commonly used on live events to have                   |
 |                        | entertainers' avatar movements still be smooth, even with a huge crowd also being updated.  |
 +------------------------+---------------------------------------------------------------------------------------------+
 
@@ -56,7 +57,7 @@ The following properties are available for key lighting:
 +------------------------+---------------------------------------------------------------------------------------------+
 | Property               | Description                                                                                 |
 +========================+=============================================================================================+
-| Key Light Color        | Sets the color of the key light. This could be used to simulate a sunset.                   |
+| Key Light Color        | Sets the color of the key light. This could be used to simulate the color of a sunset.      |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Light Intensity        | This changes the intensity of the key lighting.                                             |
 +------------------------+---------------------------------------------------------------------------------------------+
@@ -101,9 +102,9 @@ Accepted properties are:
 +========================+=============================================================================================+
 | Ambient Intensity      | This sets the intensity of the illumination.                                                |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Ambient Source         | This takes the URL of a texture similar to the skybox. So similar to the skybox, that you   |
-|                        | can actually use the same texture as the skybox. One scenario where this could be useful,   |
-|                        | would be a space station, that is illuminated my multiple suns and reflections from         |
+| Ambient Source         | This takes the URL of a texture similar to the skybox. You                                  |
+|                        | can also use the same URL as the skybox. One scenario where this could be useful            |
+|                        | would be a space station that is illuminated my multiple suns and reflections from          |
 |                        | different colored planets.                                                                  |
 +------------------------+---------------------------------------------------------------------------------------------+
 
@@ -127,7 +128,7 @@ Properties available for haze:
 | Ceiling                | This is the ceiling of the altitude range. Regardless of the name, the ceiling can be lower |
 |                        | than the base to have the effect upside down; lower altitude meaning less fog.              |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Haze Colour            | Sets the colour of the haze.                                                                |
+| Haze Color             | Sets the color of the haze.                                                                |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Background Blend       | This controls how much of the skybox is visible through the haze. Higher values showing     |
 |                        | more skybox.                                                                                |
@@ -144,7 +145,7 @@ Properties available for haze:
 Bloom
 ^^^^^
 
-The bloom effect is used to make bright areas glow. This effect could be used to make streetlight at night appear like they are actually illuminating light.
+The bloom effect is used to make bright areas and objects glow. For example, this effect could be used to make a streetlight at night appear like it is illuminating light.
 It has the following properties:
 
 +------------------------+---------------------------------------------------------------------------------------------+
