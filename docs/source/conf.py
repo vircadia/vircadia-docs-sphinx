@@ -112,6 +112,8 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 
+# Do not copy source files to build folder
+html_copy_source = False
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
