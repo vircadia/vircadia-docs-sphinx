@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2020-06-25 03:02+0200\n"
+"POT-Creation-Date: 2020-07-03 09:06+0000\n"
 "PO-Revision-Date: 2020-06-26 21:08+0000\n"
 "Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/create/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/create/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:3
@@ -367,8 +366,6 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:12
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:7
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:12
-#: ../../source/create/entities/purchase-button-tutorial.md:7
-#: ../../source/create/entities/purchase-button-tutorial.md:13
 #: ../../source/create/entities/zone-tutorial.md:9
 #: ../../source/create/entities/zone-tutorial.md:17
 msgid "Prerequisites"
@@ -479,6 +476,7 @@ msgstr ""
 #: ../../source/create/entities/entity-behavior.rst:86
 #: ../../source/create/entities/entity-behavior.rst:101
 #: ../../source/create/entities/entity-behavior.rst:147
+#: ../../source/create/environments.rst:15
 msgid "Description"
 msgstr ""
 
@@ -1691,7 +1689,6 @@ msgstr ""
 #: ../../source/create/entities/open-tablet-page-tutorial.md:5
 #: ../../source/create/entities/portal-tutorial.md:5
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:5
-#: ../../source/create/entities/purchase-button-tutorial.md:5
 #: ../../source/create/entities/zone-tutorial.md:7
 msgid "On This Page:"
 msgstr ""
@@ -2094,7 +2091,6 @@ msgstr ""
 #: ../../source/create/entities/open-tablet-page-tutorial.md:53
 #: ../../source/create/entities/portal-tutorial.md:49
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:110
-#: ../../source/create/entities/purchase-button-tutorial.md:62
 #: ../../source/create/entities/zone-tutorial.md:150
 #: ../../source/create/wearables.md:36
 msgid "See Also"
@@ -2590,6 +2586,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:75
+#: ../../source/create/environments.rst:15
 msgid "Method"
 msgstr ""
 
@@ -4032,8 +4029,6 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:51
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:16
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:112
-#: ../../source/create/entities/purchase-button-tutorial.md:17
-#: ../../source/create/entities/purchase-button-tutorial.md:64
 #: ../../source/create/entities/zone-tutorial.md:21
 #: ../../source/create/entities/zone-tutorial.md:152
 msgid "Create New Entities"
@@ -4054,8 +4049,6 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:52
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:17
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:113
-#: ../../source/create/entities/purchase-button-tutorial.md:18
-#: ../../source/create/entities/purchase-button-tutorial.md:65
 #: ../../source/create/entities/zone-tutorial.md:22
 #: ../../source/create/entities/zone-tutorial.md:153
 msgid "Change How Entities Look"
@@ -4073,8 +4066,6 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:53
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:18
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:114
-#: ../../source/create/entities/purchase-button-tutorial.md:19
-#: ../../source/create/entities/purchase-button-tutorial.md:66
 msgid "Define an Entity's Behavior"
 msgstr ""
 
@@ -4363,7 +4354,6 @@ msgstr ""
 #: ../../source/create/entities/open-tablet-page-tutorial.md:61
 #: ../../source/create/entities/portal-tutorial.md:57
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:118
-#: ../../source/create/entities/purchase-button-tutorial.md:70
 msgid "Interact with Your Environment"
 msgstr ""
 
@@ -4380,8 +4370,6 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:54
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:19
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:115
-#: ../../source/create/entities/purchase-button-tutorial.md:20
-#: ../../source/create/entities/purchase-button-tutorial.md:67
 msgid "Get Started with Scripting"
 msgstr ""
 
@@ -4408,8 +4396,6 @@ msgstr ""
 #: ../../source/create/entities/avatar-scaling-tutorial.md:35
 #: ../../source/create/entities/open-tablet-page-tutorial.md:9
 #: ../../source/create/entities/open-tablet-page-tutorial.md:29
-#: ../../source/create/entities/purchase-button-tutorial.md:10
-#: ../../source/create/entities/purchase-button-tutorial.md:45
 msgid "Create an Entity to Use as a Button"
 msgstr ""
 
@@ -4420,7 +4406,6 @@ msgstr ""
 #: ../../source/create/entities/open-tablet-page-tutorial.md:13
 #: ../../source/create/entities/portal-tutorial.md:14
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:14
-#: ../../source/create/entities/purchase-button-tutorial.md:15
 #: ../../source/create/entities/zone-tutorial.md:19
 msgid ""
 "Consider getting familiar with the following concepts before starting "
@@ -4435,8 +4420,6 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:55
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:20
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:116
-#: ../../source/create/entities/purchase-button-tutorial.md:21
-#: ../../source/create/entities/purchase-button-tutorial.md:68
 msgid "Client Entity Scripts"
 msgstr ""
 
@@ -4448,8 +4431,6 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:56
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:21
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:117
-#: ../../source/create/entities/purchase-button-tutorial.md:22
-#: ../../source/create/entities/purchase-button-tutorial.md:69
 msgid "Write Your Own Scripts"
 msgstr ""
 
@@ -4487,7 +4468,6 @@ msgstr ""
 
 #: ../../source/create/entities/avatar-scaling-tutorial.md:37
 #: ../../source/create/entities/open-tablet-page-tutorial.md:31
-#: ../../source/create/entities/purchase-button-tutorial.md:47
 msgid ""
 "The entity you create for your button has to be triggerable so that the "
 "script can detect when you trigger or push the button with your hand "
@@ -4509,7 +4489,6 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:64
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:73
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:104
-#: ../../source/create/entities/purchase-button-tutorial.md:50
 #: ../../source/create/entities/zone-tutorial.md:28
 #: ../../source/create/entities/zone-tutorial.md:55
 #: ../../source/create/entities/zone-tutorial.md:72
@@ -4519,7 +4498,6 @@ msgstr ""
 
 #: ../../source/create/entities/avatar-scaling-tutorial.md:40
 #: ../../source/create/entities/open-tablet-page-tutorial.md:34
-#: ../../source/create/entities/purchase-button-tutorial.md:51
 msgid ""
 "Create an entity to be used as a button. This can be a 3D model, cube, or"
 " sphere entity."
@@ -4529,7 +4507,6 @@ msgstr ""
 #: ../../source/create/entities/open-tablet-page-tutorial.md:35
 #: ../../source/create/entities/portal-tutorial.md:38
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:106
-#: ../../source/create/entities/purchase-button-tutorial.md:52
 msgid "Go to the 'Properties' tab and scroll down to 'Behavior'."
 msgstr ""
 
@@ -7125,103 +7102,6 @@ msgid ""
 "your domain!"
 msgstr ""
 
-#: ../../source/create/entities/purchase-button-tutorial.md:1
-#: ../../source/create/entities/tutorials.rst:7
-msgid "Tutorial: Create a Purchase Button for Marketplace Sales"
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:3
-msgid ""
-"If you are selling items on the Marketplace, you can have a space in your"
-" domain where users can easily buy your items. This could be done with a "
-"display copy of your items, an image of your item, or a purchase button "
-"for users to click."
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:8
-#: ../../source/create/entities/purchase-button-tutorial.md:25
-msgid "Get an Item's Marketplace ID"
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:9
-#: ../../source/create/entities/purchase-button-tutorial.md:37
-msgid "Write a Purchase Item Script"
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:23
-msgid "Purchase Marketplace Items from Script"
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:26
-msgid ""
-"If you are putting up an item (in your domain) you have on sale in the "
-"Marketplace, you need to get the item's 'marketplaceID'. This unique "
-"identifier can be found when you view your Marketplace item in a browser "
-"window."
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:33
-msgid "In your browser of choice, navigate to www.highfidelity.com/marketplace."
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:34
-msgid "Locate the item."
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:35
-msgid ""
-"Copy the multi-number identifier at the end of the URL in the address bar"
-" of your browser. This is your item's 'marketplaceID'."
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:39
-msgid ""
-"To make our button work and actually sell an item, we need to attach a "
-"client entity script to it. In this example, buy-item.js, the script "
-"opens a specified Marketplace page. You can use it as-is, modify it, or "
-"write your own script to suit your needs."
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:41
-msgid "The buy-item.js script we've used:"
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:42
-msgid ""
-"Uses High Fidelity's JavaScript API to determine when a user clicks with "
-"the mouse or triggers the entity using hand controllers."
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:43
-msgid ""
-"Opens the user's Tablet to the purchase page if there is a valid "
-"'marketplaceID' specified in the 'userdata' field of the entity that is "
-"clicked or triggered."
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:53
-msgid ""
-"Select 'Code' from the drop down menu in the 'User Data' property. Add "
-"the following line, replacing 'YOUR_MARKETPLACE_ID_HERE' with the "
-"'marketplaceID' that you copied in the first step of the tutorial:"
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:58
-msgid "Next to 'Script', paste the script URL. In this case, it is 'buy-item.js'."
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:59
-msgid "Scroll down to 'Triggerable' and ensure that 'Triggerable' is selected."
-msgstr ""
-
-#: ../../source/create/entities/purchase-button-tutorial.md:60
-msgid ""
-"When you close the Create app, test your script by clicking or triggering"
-" the button to  open the item's purchase page. If a user has already "
-"purchased the item, they will be shown a page that allows them to re-"
-"purchase another copy or view it in their Inventory."
-msgstr ""
-
 #: ../../source/create/entities/tutorials.rst:7
 #: ../../source/create/entities/zone-tutorial.md:1
 msgid "Tutorial: Modify a Zone Entity"
@@ -7335,9 +7215,9 @@ msgid ""
 "not VP9. Slightly faster than VP9. Slightly lower quality to compression "
 "ratio than VP9."
 msgstr ""
-"Empfohlen falls Ihre APU hardwarebeschleunigte Kodierung für VP8, aber nicht "
-"für VP9 unterstützt. Etwas schneller als VP9. Etwas schlechteres Qualitäts-"
-"zu-Kompressions-Verhältnis."
+"Empfohlen falls Ihre APU hardwarebeschleunigte Kodierung für VP8, aber "
+"nicht für VP9 unterstützt. Etwas schneller als VP9. Etwas schlechteres "
+"Qualitäts-zu-Kompressions-Verhältnis."
 
 #: ../../source/create/entities/web-entity-media.rst:35
 msgid "Theora"
@@ -7864,6 +7744,41 @@ msgstr ""
 msgid ""
 "An environment consists different types of 3D models and a skybox "
 "following the theme of your choice. You can create an environment using:"
+msgstr ""
+
+#: ../../source/create/environments.rst:17
+msgid "3D Models Available"
+msgstr ""
+
+#: ../../source/create/environments.rst:17
+msgid ""
+"You can purchase or :doc:`get 3D models <3d-models/get-model>` from "
+"online 3D content websites. Then, you can `import these models using the "
+"Asset Server <3d-models/import-model.html#import-3d-models-using-the-"
+"asset-server>`_."
+msgstr ""
+
+#: ../../source/create/environments.rst:21
+msgid "Your 3D Models"
+msgstr ""
+
+#: ../../source/create/environments.rst:21
+msgid ""
+"You can use 3D modeling software like Blender or Maya to create your own "
+"3D models and `import them into your Athena domain <3d-models/import-"
+"model.html#import-3d-models-using-the-asset-server>`_."
+msgstr ""
+
+#: ../../source/create/environments.rst:25
+msgid "A Content Archive File"
+msgstr ""
+
+#: ../../source/create/environments.rst:25
+msgid ""
+"Athena domain settings have downloadable content archives. These archives"
+" are zip files containing all domain content information. You can `use a "
+"backup file of your own or one sent to you by a user <../host/maintain-"
+"domain/backup-domain.html>`_."
 msgstr ""
 
 #: ../../source/create/environments.rst:32
@@ -8694,3 +8609,110 @@ msgstr ""
 #: ../../source/create/wearables.md:40
 msgid "Put On Wearables"
 msgstr ""
+
+#~ msgid "Tutorial: Create a Purchase Button for Marketplace Sales"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are selling items on the"
+#~ " Marketplace, you can have a space"
+#~ " in your domain where users can "
+#~ "easily buy your items. This could "
+#~ "be done with a display copy of "
+#~ "your items, an image of your item,"
+#~ " or a purchase button for users "
+#~ "to click."
+#~ msgstr ""
+
+#~ msgid "Get an Item's Marketplace ID"
+#~ msgstr ""
+
+#~ msgid "Write a Purchase Item Script"
+#~ msgstr ""
+
+#~ msgid "Purchase Marketplace Items from Script"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are putting up an item "
+#~ "(in your domain) you have on sale"
+#~ " in the Marketplace, you need to "
+#~ "get the item's 'marketplaceID'. This "
+#~ "unique identifier can be found when "
+#~ "you view your Marketplace item in "
+#~ "a browser window."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In your browser of choice, navigate "
+#~ "to www.highfidelity.com/marketplace."
+#~ msgstr ""
+
+#~ msgid "Locate the item."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy the multi-number identifier at "
+#~ "the end of the URL in the "
+#~ "address bar of your browser. This "
+#~ "is your item's 'marketplaceID'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To make our button work and "
+#~ "actually sell an item, we need to"
+#~ " attach a client entity script to "
+#~ "it. In this example, buy-item.js, "
+#~ "the script opens a specified Marketplace"
+#~ " page. You can use it as-is,"
+#~ " modify it, or write your own "
+#~ "script to suit your needs."
+#~ msgstr ""
+
+#~ msgid "The buy-item.js script we've used:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Uses High Fidelity's JavaScript API to"
+#~ " determine when a user clicks with"
+#~ " the mouse or triggers the entity "
+#~ "using hand controllers."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Opens the user's Tablet to the "
+#~ "purchase page if there is a valid"
+#~ " 'marketplaceID' specified in the "
+#~ "'userdata' field of the entity that "
+#~ "is clicked or triggered."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select 'Code' from the drop down "
+#~ "menu in the 'User Data' property. "
+#~ "Add the following line, replacing "
+#~ "'YOUR_MARKETPLACE_ID_HERE' with the 'marketplaceID'"
+#~ " that you copied in the first "
+#~ "step of the tutorial:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next to 'Script', paste the script "
+#~ "URL. In this case, it is 'buy-"
+#~ "item.js'."
+#~ msgstr ""
+
+#~ msgid "Scroll down to 'Triggerable' and ensure that 'Triggerable' is selected."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you close the Create app, "
+#~ "test your script by clicking or "
+#~ "triggering the button to  open the "
+#~ "item's purchase page. If a user "
+#~ "has already purchased the item, they "
+#~ "will be shown a page that allows"
+#~ " them to re-purchase another copy "
+#~ "or view it in their Inventory."
+#~ msgstr ""
+

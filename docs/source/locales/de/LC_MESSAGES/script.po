@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-25 03:02+0200\n"
+"POT-Creation-Date: 2020-07-03 09:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,10 +25,6 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:3
 #: ../../source/script/interface-scripts.md:39
 #: ../../source/script/server-entity-scripts.md:59
-#: ../../source/script/transfer-hfc-tutorial.md:86
-#: ../../source/script/transfer-hfc-tutorial.md:134
-#: ../../source/script/transfer-hfc-tutorial.md:215
-#: ../../source/script/transfer-hfc-tutorial.md:346
 #: ../../source/script/write-scripts.md:76
 msgid "Get Started with Scripting"
 msgstr ""
@@ -40,7 +36,6 @@ msgstr ""
 #: ../../source/script/interface-scripts.md:40
 #: ../../source/script/js-tips.md:202
 #: ../../source/script/server-entity-scripts.md:60
-#: ../../source/script/transfer-hfc-tutorial.md:347
 #: ../../source/script/write-scripts.md:1
 msgid "Write Your Own Scripts"
 msgstr ""
@@ -68,10 +63,6 @@ msgstr ""
 
 #: ../../source/script.rst:9 ../../source/script/server-entity-scripts.md:1
 msgid "Server Entity Scripts"
-msgstr ""
-
-#: ../../source/script.rst:9 ../../source/script/transfer-hfc-tutorial.md:1
-msgid "Tutorial: Transfer Money and Items"
 msgstr ""
 
 #: ../../source/script.rst:9 ../../source/script/midi-tutorial.rst:3
@@ -173,7 +164,6 @@ msgstr ""
 #: ../../source/script/interface-scripts.md:37
 #: ../../source/script/js-tips.md:200
 #: ../../source/script/server-entity-scripts.md:57
-#: ../../source/script/transfer-hfc-tutorial.md:344
 #: ../../source/script/write-scripts.md:74
 msgid "See Also"
 msgstr ""
@@ -275,7 +265,6 @@ msgstr ""
 #: ../../source/script/client-entity-scripts.md:48
 #: ../../source/script/js-tips.md:203
 #: ../../source/script/server-entity-scripts.md:61
-#: ../../source/script/transfer-hfc-tutorial.md:348
 #: ../../source/script/write-scripts.md:79
 msgid "API Reference"
 msgstr ""
@@ -311,7 +300,6 @@ msgstr ""
 
 #: ../../source/script/client-entity-scripts.md:13
 #: ../../source/script/server-entity-scripts.md:12
-#: ../../source/script/transfer-hfc-tutorial.md:222
 msgid "In Interface, pull up your tablet or HUD and go to Create."
 msgstr ""
 
@@ -839,9 +827,7 @@ msgid ""
 " this page. The output will be visible in the console itself."
 msgstr ""
 
-#: ../../source/script/js-tips.md:7
-#: ../../source/script/transfer-hfc-tutorial.md:15
-#: ../../source/script/write-scripts.md:12
+#: ../../source/script/js-tips.md:7 ../../source/script/write-scripts.md:12
 msgid "On This Page:"
 msgstr ""
 
@@ -1485,878 +1471,6 @@ msgstr ""
 msgid "Learn more about what APIs are available to server entity scripts here."
 msgstr ""
 
-#: ../../source/script/transfer-hfc-tutorial.md:3
-msgid ""
-"While you can transfer money and items using the Inventory app, sometimes"
-" you may want to use scripting to help automate your gifting process. "
-"This page will walk you through some examples that programmatically "
-"transfers money and items using the High Fidelity Commerce APIs."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:17
-#: ../../source/script/transfer-hfc-tutorial.md:25
-msgid "Transfer Money to Someone"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:18
-#: ../../source/script/transfer-hfc-tutorial.md:40
-msgid "Transfer Marketplace Items"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:19
-#: ../../source/script/transfer-hfc-tutorial.md:55
-msgid "Purchase Marketplace Items"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:20
-#: ../../source/script/transfer-hfc-tutorial.md:65
-msgid "Verify Your Inventory"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:21
-#: ../../source/script/transfer-hfc-tutorial.md:70
-msgid "Add a Tip Jar"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:22
-#: ../../source/script/transfer-hfc-tutorial.md:113
-msgid "Create a VIP Access Zone"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:23
-#: ../../source/script/transfer-hfc-tutorial.md:193
-msgid "Add a Slot Machine Game"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:26
-msgid ""
-"To transfer money to someone, you need to use an entity script or client "
-"script to open an end-user's tablet to the \"Send Money\" screen. The "
-"script must specify a recipient and an amount of HFC. It can specify a "
-"message to the user if desired."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:41
-msgid ""
-"To transfer Marketplace items to someone, you need to use an entity "
-"script or client script to open an end-user's tablet to the \"Send Item\""
-" screen. The script must specify a recipient and an item's Certificate "
-"ID. The user running the script must own the specified item Certificate "
-"ID. Optionally, the script can specify a message to the user if desired."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:56
-msgid ""
-"To purchase a Marketplace item for yourself, you need to use an entity "
-"script or client script to open an end-user's tablet to the \"Marketplace"
-" Checkout\" screen. The script must specify the Marketplace Item ID."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:66
-msgid ""
-"If a script has the proper credentials, it can check a user's Recent "
-"Activity and Inventory on their behalf. You can use this to verify that "
-"another user has sent you money, sent you an item, or purchased your item"
-" from the Marketplace."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:68
-msgid "This feature in used in the tutorial to create a VIP zone."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:71
-msgid ""
-"In this example, we walk through creating an entity that, when clicked, "
-"will prompt a user to send you 10 HFC. This tutorial uses a client entity"
-" script to transfer money."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:73
-#: ../../source/script/transfer-hfc-tutorial.md:116
-#: ../../source/script/transfer-hfc-tutorial.md:196
-msgid "Here are the steps for this tutorial:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:74
-msgid "Create a \"Tip Jar\" in Your Domain"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:75
-#: ../../source/script/transfer-hfc-tutorial.md:95
-msgid "Write an Entity Script for the Tip Jar"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:76
-#: ../../source/script/transfer-hfc-tutorial.md:100
-msgid "Add the Entity Script to the Tip Jar"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:83
-#: ../../source/script/transfer-hfc-tutorial.md:131
-#: ../../source/script/transfer-hfc-tutorial.md:212
-msgid "Prerequisites"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:84
-#: ../../source/script/transfer-hfc-tutorial.md:132
-#: ../../source/script/transfer-hfc-tutorial.md:213
-msgid ""
-"Consider getting familiar with the following concepts before starting "
-"this tutorial:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:85
-#: ../../source/script/transfer-hfc-tutorial.md:133
-#: ../../source/script/transfer-hfc-tutorial.md:214
-msgid "Create New Entities"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:88
-msgid "Create a Tip Jar in Your Domain"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:89
-msgid ""
-"You need a jar that accepts money. In this simple example, we will use a "
-"cube entity as our tip jar. Create your tip jar in the Create app:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:91
-#: ../../source/script/transfer-hfc-tutorial.md:106
-#: ../../source/script/transfer-hfc-tutorial.md:139
-#: ../../source/script/transfer-hfc-tutorial.md:158
-msgid "In Interface, pull up your HUD or Tablet and go to Create."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:92
-msgid "Click the cube icon to create a cube entity."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:93
-msgid "Move the Tip Jar to where you want it."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:96
-msgid ""
-"We need to write a script to put on the Tip Jar entity or cube. When a "
-"user clicks the cube, a message will prompt them to pay a specified "
-"username (you) 10 HFC. The message will be, \"Here's a 10 HFC tip for "
-"doing a cool thing!\"."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:98
-msgid ""
-"Click here to download a pre-made \"Tip Jar\" entity script. Follow along"
-" with the comments in the code to understand what it's doing!"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:101
-msgid "You'll have to add the entity script to the Tip Jar cube entity."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:102
-msgid ""
-"Change the DESTINATION_USERNAME variable in tipJar.js to match your "
-"username."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:103
-msgid "Upload the tipJar.js script to your domain's ATP server."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:104
-#: ../../source/script/transfer-hfc-tutorial.md:156
-msgid "In Interface, go to Edit > Asset Browser > Choose File."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:105
-msgid "Right-click the script file, then select 'Copy URL'."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:107
-msgid "In the 'Entity List', select the Tip Jar cube entity."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:108
-msgid ""
-"In the entity's 'Properties', scroll down to 'Script' and paste the URL "
-"you copied, into the text box. Press Enter."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:109
-#: ../../source/script/transfer-hfc-tutorial.md:282
-#: ../../source/script/transfer-hfc-tutorial.md:285
-#: ../../source/script/transfer-hfc-tutorial.md:296
-msgid "Lock the entity so nobody can change its attributes."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:111
-msgid ""
-"Close the Create app and click on the Tip Jar cube entity. A window pops "
-"up, prompting you to pay 10 HFC to the username specified in the script."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:114
-msgid ""
-"In this example, we walk through creating an exclusive VIP zone that is "
-"accessible only to paid VIPs. This tutorial uses a client entity script "
-"to transfer money and an assignment client script to verify payments."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:118
-#: ../../source/script/transfer-hfc-tutorial.md:136
-msgid "Place a VIP Zone in Your Domain"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:119
-#: ../../source/script/transfer-hfc-tutorial.md:143
-msgid "Write an Entity Script for the VIP Zone"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:120
-#: ../../source/script/transfer-hfc-tutorial.md:153
-msgid "Add the Entity Script to the VIP Zone"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:121
-#: ../../source/script/transfer-hfc-tutorial.md:163
-msgid "Obtain the Auth Token"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:122
-#: ../../source/script/transfer-hfc-tutorial.md:173
-msgid "Write an Authenticated AC Script"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:123
-#: ../../source/script/transfer-hfc-tutorial.md:178
-msgid "Run the AC Script in Your Domain"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:124
-msgid "Optional: Create a Box to Accept Payments"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:137
-msgid ""
-"You need an area (or zone) in your domain that will be designated the "
-"\"VIP Zone\". Only users who have paid you 10 HFC in the current server "
-"session have access to enter this zone. If the server restarts, users "
-"will have to pay for VIP status again."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:140
-msgid "Click the 'Zone' icon to create a zone entity."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:141
-msgid "Move the zone to where you want it."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:144
-msgid ""
-"We need to write an entity script to put on the VIP Zone. This script "
-"will check to see whether the user entering the zone is a VIP or a domain"
-" admin. If they aren't, the script will remove them from the zone. In "
-"addition, the script will change change a user's status to VIP if they "
-"pay 10 HFC."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:146
-msgid ""
-"Click here to download a pre-made \"VIP Zone\" entity script. Follow "
-"along with the comments in the code to understand what it's doing!"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:154
-msgid "To add the entity script to the VIP zone:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:155
-msgid "Upload the vipZoneEntityScript.js script to your domain's ATP server."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:157
-msgid "Right-click the script file, then click 'Copy URL'."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:159
-msgid "In the 'Entity List', select the 'VIP Zone' entity."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:160
-msgid ""
-"In the entity's 'Properties', scroll down to 'Script' and paste the URL "
-"you copied into the text box. Press Enter."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:161
-msgid "Lock the zone entity so nobody can change its attributes."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:164
-msgid ""
-"You need to get a High Fidelity authentication token that has the "
-"commerce scope. You will use this token while writing an Assignment "
-"Client (AC) script to check your Recent Activity for recent transactions "
-"of 10 HFC made in your domain."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:166
-msgid "To obtain this auth token:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:167
-#: ../../source/script/transfer-hfc-tutorial.md:302
-msgid "Go to https://highfidelity.com/user/tokens/new."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:168
-#: ../../source/script/transfer-hfc-tutorial.md:303
-msgid "Name the token something memorable."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:169
-msgid "Select the commerce scope."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:170
-#: ../../source/script/transfer-hfc-tutorial.md:305
-msgid "Click 'Create Token'."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:171
-#: ../../source/script/transfer-hfc-tutorial.md:306
-msgid "Copy and save the token."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:174
-msgid ""
-"Now, write an Assignment Client (AC) script containing the authentication"
-" token you copied and saved. This AC script checks your Recent Activity "
-"for recent transactions of 10 HFC made in your domain."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:176
-msgid ""
-"Click here to download a pre-made \"VIP Zone\" AC script. Follow along "
-"with the comments in the code to understand what it's doing!"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:179
-msgid "To run the above AC script in your domain from ATP:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:180
-msgid ""
-"Set HIFI_COMMERCE_TOKEN to the token you saved in the vipZoneACScript.js "
-"script."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:181
-msgid ""
-"Upload your vipZoneACScript.js script to your domain's ATP server. In "
-"Interface, go to Edit > Asset Browser > Choose File. Right-click and "
-"select 'Copy URL'."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:182
-#: ../../source/script/transfer-hfc-tutorial.md:331
-msgid ""
-"Navigate to the Domain Settings page of your domain (for a local sandbox,"
-" this is http://localhost:40100/)."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:183
-#: ../../source/script/transfer-hfc-tutorial.md:332
-msgid ""
-"Click 'Content' at the top of the page, then scroll to the 'Scripts' "
-"section."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:184
-msgid "Under 'Persistent Scripts', click the + button on the right column."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:185
-msgid "Under 'Script URL', paste the ATP URL you copied."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:186
-msgid "Click 'Save and restart' at the top right of the page."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:188
-msgid "(Optional) Create a Box to Accept Payments"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:189
-msgid ""
-"This step is optional as it doesn't matter how a user sends you 10 HFC to"
-" earn VIP status. For example, if a user (in Interface) went to Inventory"
-" > Send Money > Nearby to send you 10 HFC while you were in your domain, "
-"they would still get \"VIP status\"."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:191
-msgid ""
-"However, to make it easier to people to pay you, you can create an box "
-"that collects payment. Simply follow the directions to create a tip jar "
-"above. You should now have a working \"VIP Zone\" in your domain. Only "
-"users with VIP status can enter this \"VIP Zone\". You should also have a"
-" \"Tip Cube\" in your domain that helps users pay you HFC to become VIPs."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:194
-msgid ""
-"In this example, we walk through creating a slot machine game that pays "
-"out HFC. Players will pay you (the domain owner) 1 HFC to start playing, "
-"and the slot machine will pay out 25 HFC if the payer wins. This tutorial"
-" uses coupons to reserve HFC ahead of time, client entity scripts to "
-"control the mechanics of the slot machine, and an assignment client "
-"script to handle the slot machine game logic."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:197
-#: ../../source/script/transfer-hfc-tutorial.md:217
-msgid "Create a Slot Machine in Your Domain"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:198
-#: ../../source/script/transfer-hfc-tutorial.md:231
-msgid "Create a Coupon to Authorize Winnings"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:199
-#: ../../source/script/transfer-hfc-tutorial.md:234
-msgid "Add the Coupon Credentials to a Database"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:200
-#: ../../source/script/transfer-hfc-tutorial.md:269
-msgid "Allow Users to Start the Slot Machine"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:201
-#: ../../source/script/transfer-hfc-tutorial.md:276
-msgid "Add the Entity Script to the Slot Machine"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:202
-#: ../../source/script/transfer-hfc-tutorial.md:287
-msgid "Allow Users to Pull the Reels"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:203
-#: ../../source/script/transfer-hfc-tutorial.md:298
-msgid "Obtain Auth Token"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:204
-#: ../../source/script/transfer-hfc-tutorial.md:308
-msgid "Write a Game Logic AC Script"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:205
-#: ../../source/script/transfer-hfc-tutorial.md:318
-msgid "Run the AC Script on Your Domain"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:218
-msgid ""
-"You need a slot machine that your users can play. You can create your own"
-" or use the one that we created for you."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:220
-msgid "To use the one that already exists:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:221
-msgid "Download the following JSON: basicSlotMachine_noScripts.json"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:223
-msgid ""
-"In the Create Tools app, click 'Import Entities'. Browse to and select "
-"basicSlotMachine_noScripts.json."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:225
-msgid ""
-"You should now see a slot machine entity in your domain. This example "
-"entity consists of:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:226
-msgid "Three \"reels\" (red, green, and blue cubes)."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:227
-msgid "A \"spin arm\" that players will use to start the game."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:228
-msgid "A \"play text\" text entity that will display the game status to players."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:229
-msgid ""
-"A \"pay-in text\" text entity that will instruct users to add credits to "
-"the slot machine."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:232
-msgid ""
-"By creating a coupon, you are authorizing High Fidelity to take out funds"
-" from your account even if you are not present in the domain. Follow "
-"these instructions to create a coupon. Copy the Authorization ID and the "
-"Coupon ID."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:235
-msgid ""
-"Later, you will write an Assignment Client (AC) script for the Slot "
-"Machine game logic, including payout logic. When the Slot Machine pays "
-"out, it needs to know the Authorization IDs and Coupon IDs associated "
-"with your pre-authorized payout funds."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:237
-msgid ""
-"In this step, you will put the \"Authorization ID\" and \"Coupon ID\" "
-"into some sort of database. Here, we use a Google Sheet to store the "
-"data, and a Google Script to access the data in the Sheet."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:239
-msgid "To create the Google sheet:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:241
-msgid ""
-"Log into Google Sheets, and create a new spreadsheet. Give it a filename "
-"you want, such as \"Slot Machine Payouts\"."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:242
-msgid ""
-"Name the current sheet \"Authorizations\" using the arrow on the tab at "
-"the bottom left of the screen."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:243
-msgid "Give the header row (the first row) the following labels in this order:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:244
-msgid "Used"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:245
-msgid "HFC"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:246
-msgid "Authorization ID"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:247
-msgid "Coupon ID"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:248
-msgid "In the second row, under the HFC column, put 25."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:249
-msgid ""
-"In the second row, under the 'Authorization ID' column, paste your saved "
-"Authorization ID."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:250
-msgid ""
-"In the second row, under the 'Coupon ID' column, paste your saved Coupon "
-"ID."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:252
-msgid "To create the Google script"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:254
-msgid "At the top of the Google Sheets window, click Tools > Script editor."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:255
-msgid ""
-"Name your currently untitled project \"Slot Machine Authorization "
-"Handler\"."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:256
-msgid ""
-"Copy and paste the contents of this example GS script into the Script "
-"Editor."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:257
-msgid ""
-"Change var SPREADSHEET_ID to match the Spreadsheet ID of your spreadsheet"
-" above."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:258
-msgid ""
-"The Spreadsheet ID is embedded in the URL of the Google Sheets page and "
-"is visible in the following screenshot (part of the URL is blocked out "
-"for privacy purposes)."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:260
-msgid "Save the script, using whatever filename you wish."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:261
-msgid "Click 'Publish', then 'Deploy as Web App...'"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:262
-msgid ""
-"Follow Google's instructions to deploy your script as a web app. Ensure "
-"you set 'Who has access to the app' to 'Anyone, even anonymous'. When "
-"finished, copy the URL you're given at the end of the process and save it"
-" somewhere you'll remember for later. The web app URL will look something"
-" like "
-"https://script.google.com/macros/s/ABCDEFGHIJKLMNOP_QRSTUVWXYZ1984373/exec"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:270
-msgid ""
-"You need to provide your users with a way to add slot machine play "
-"credits. You can do this by adding a client entity script to the Slot "
-"Machine entity."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:272
-msgid ""
-"This script will display a message \"1 Slot Machine Play Credit\" when "
-"they click the text or border around the text on the slot machine. They "
-"can pay the specified user (you) 1 HFC to play."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:274
-msgid ""
-"Click here to download a pre-made \"Add Credits\" entity script. Follow "
-"along with the comments in the code to understand what it's doing!"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:277
-msgid "To add the entity script to the slot machine:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:278
-msgid "Change the DESTINATION_USERNAME to your username in addCreditsButton.js."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:279
-msgid ""
-"Upload the addCreditsButton.js script to your domain's ATP server. In "
-"Interface, go to Edit > Asset Browser > Choose File. Right-click the "
-"script file, then click 'Copy URL'."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:280
-msgid ""
-"In Interface, use the Create app to select the 'Click Here to Add "
-"Credits' text entity on the Slot Machine entity."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:281
-msgid ""
-"In the entity's 'Properties' tab, scroll down to 'Script' and paste the "
-"URL you copied in step 2 into the text box. Press Enter."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:283
-msgid ""
-"In Interface, use the Create app to select the border entity around the "
-"'Click Here to Add Credits' button on the Slot Machine entity."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:284
-msgid ""
-"In the entity's 'Properties' tab, scroll down to 'Script' and paste the "
-"URL you copied in step 2  into the text box. Press Enter."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:288
-msgid ""
-"Next, you need to provide your users with a way to start the slot "
-"machine's reels. Here, we will write an entity script to put on the slot "
-"machine's Spin Lever. This script will send a message to an Assignment "
-"Client (AC) script to kick off the rest of the game logic."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:290
-msgid ""
-"Click here to download a pre-made \"Spin Lever\" entity script. Follow "
-"along with the comments in the code to understand what it's doing!"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:292
-msgid "To add the entity script to the reels:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:293
-msgid ""
-"Upload the slotMachineSpinLever.js script to your domain's ATP server. In"
-" Interface, go to Edit > Asset Browser > Choose File. Right-click the "
-"script file, then click 'Copy URL'."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:294
-msgid ""
-"In Interface, use the Create app to select the red Spin Lever sphere "
-"entity on the Slot Machine entity."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:295
-msgid ""
-"In the entity's 'Properties' tab, scroll down to 'Script' and paste the "
-"URL from step 1 into the text box. Press Enter."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:299
-msgid ""
-"You'll have to get a High Fidelity authentication token that has the "
-"commerce_ro scope. You will use this token while writing an Assignment "
-"Client (AC) script to check your Recent Activity for recent transactions "
-"of 1 HFC made in your domain with a specific memo (\"1 Slot Machine Play "
-"Credit\")."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:301
-msgid "To get this auth token:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:304
-msgid "Select the commerce_ro scope."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:309
-msgid ""
-"Now, write an AC Script that will handle the slot machine game logic, "
-"including:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:310
-msgid "Knowing when to start a new spin."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:311
-msgid "Knowing whether a user who attempted to spin has paid."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:312
-msgid "Changing the slot machine reel colors during a spin."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:313
-msgid "Checking the end state of the reels to determine win/loss."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:314
-msgid "Paying out pre-authorized funds."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:316
-msgid ""
-"Click here to download a pre-made \"Slot Machine\" entity server script. "
-"This script is quite long and is arguably the most important element of "
-"this project! Follow along with the comments in the code to understand "
-"what it's doing."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:320
-msgid "To run the AC script on your domain from ATP:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:321
-msgid "Change your slotMachineACScript.js as follows:"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:322
-msgid "Set HIFI_COMMERCE_TOKEN to your HiFi commerce_ro token."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:323
-msgid ""
-"Set SLOT_MACHINE_REEL_1_ID to the Entity ID of the leftmost slot machine "
-"reel."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:324
-msgid ""
-"Set SLOT_MACHINE_REEL_2_ID to the Entity ID of the middle slot machine "
-"reel."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:325
-msgid ""
-"Set SLOT_MACHINE_REEL_3_ID to the Entity ID of the rightmost slot machine"
-" reel."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:326
-msgid ""
-"Set SLOT_MACHINE_PLAY_TEXT_ID to the Entity ID of the \"Play Text\" text "
-"entity right below the slot machine reels."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:327
-msgid ""
-"Set GOOGLE_SHEET_AUTH_SCRIPT to the URL of the Google Script Web App "
-"created earlier."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:328
-msgid ""
-"Set SLOT_MACHINE_AREA to the coordinates around which the slot machine "
-"entity will be placed. See the comments in the code for more details "
-"about why this is necessary."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:330
-msgid ""
-"Upload your slotMachineACScript.js script to your domain's ATP server. In"
-" Interface, go to Edit > Asset Browser > Choose File. Right-click the "
-"script file, then click 'Copy URL'."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:333
-msgid "Under 'Persistent Scripts', click the + button on the right column"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:334
-msgid "Under 'Script URL', paste the ATP URL from step 2."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:335
-msgid "Click 'Save and restart' at the top right of the page"
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:337
-msgid ""
-"You should now have a basic but fully working slot machine in your "
-"domain, that you and anyone else in your domain can play."
-msgstr ""
-
-#: ../../source/script/transfer-hfc-tutorial.md:349
-msgid "Create a Coupon"
-msgstr ""
-
 #: ../../source/script/write-scripts.md:3
 msgid ""
 "High Fidelity's robust JavaScript API provides the tools for you to build"
@@ -2432,4 +1546,844 @@ msgid ""
 " script changes the color of the entity to red, and prints the new color "
 "in the 'Debug Window'."
 msgstr ""
+
+#~ msgid "Tutorial: Transfer Money and Items"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While you can transfer money and "
+#~ "items using the Inventory app, sometimes"
+#~ " you may want to use scripting "
+#~ "to help automate your gifting process."
+#~ " This page will walk you through "
+#~ "some examples that programmatically transfers"
+#~ " money and items using the High "
+#~ "Fidelity Commerce APIs."
+#~ msgstr ""
+
+#~ msgid "Transfer Money to Someone"
+#~ msgstr ""
+
+#~ msgid "Transfer Marketplace Items"
+#~ msgstr ""
+
+#~ msgid "Purchase Marketplace Items"
+#~ msgstr ""
+
+#~ msgid "Verify Your Inventory"
+#~ msgstr ""
+
+#~ msgid "Add a Tip Jar"
+#~ msgstr ""
+
+#~ msgid "Create a VIP Access Zone"
+#~ msgstr ""
+
+#~ msgid "Add a Slot Machine Game"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To transfer money to someone, you "
+#~ "need to use an entity script or"
+#~ " client script to open an end-"
+#~ "user's tablet to the \"Send Money\" "
+#~ "screen. The script must specify a "
+#~ "recipient and an amount of HFC. It"
+#~ " can specify a message to the "
+#~ "user if desired."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To transfer Marketplace items to "
+#~ "someone, you need to use an entity"
+#~ " script or client script to open "
+#~ "an end-user's tablet to the \"Send"
+#~ " Item\" screen. The script must "
+#~ "specify a recipient and an item's "
+#~ "Certificate ID. The user running the "
+#~ "script must own the specified item "
+#~ "Certificate ID. Optionally, the script "
+#~ "can specify a message to the user"
+#~ " if desired."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To purchase a Marketplace item for "
+#~ "yourself, you need to use an "
+#~ "entity script or client script to "
+#~ "open an end-user's tablet to the"
+#~ " \"Marketplace Checkout\" screen. The "
+#~ "script must specify the Marketplace Item"
+#~ " ID."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If a script has the proper "
+#~ "credentials, it can check a user's "
+#~ "Recent Activity and Inventory on their"
+#~ " behalf. You can use this to "
+#~ "verify that another user has sent "
+#~ "you money, sent you an item, or"
+#~ " purchased your item from the "
+#~ "Marketplace."
+#~ msgstr ""
+
+#~ msgid "This feature in used in the tutorial to create a VIP zone."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this example, we walk through "
+#~ "creating an entity that, when clicked,"
+#~ " will prompt a user to send you"
+#~ " 10 HFC. This tutorial uses a "
+#~ "client entity script to transfer money."
+#~ msgstr ""
+
+#~ msgid "Here are the steps for this tutorial:"
+#~ msgstr ""
+
+#~ msgid "Create a \"Tip Jar\" in Your Domain"
+#~ msgstr ""
+
+#~ msgid "Write an Entity Script for the Tip Jar"
+#~ msgstr ""
+
+#~ msgid "Add the Entity Script to the Tip Jar"
+#~ msgstr ""
+
+#~ msgid "Prerequisites"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Consider getting familiar with the "
+#~ "following concepts before starting this "
+#~ "tutorial:"
+#~ msgstr ""
+
+#~ msgid "Create New Entities"
+#~ msgstr ""
+
+#~ msgid "Create a Tip Jar in Your Domain"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need a jar that accepts money."
+#~ " In this simple example, we will "
+#~ "use a cube entity as our tip "
+#~ "jar. Create your tip jar in the"
+#~ " Create app:"
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your HUD or Tablet and go to Create."
+#~ msgstr ""
+
+#~ msgid "Click the cube icon to create a cube entity."
+#~ msgstr ""
+
+#~ msgid "Move the Tip Jar to where you want it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We need to write a script to "
+#~ "put on the Tip Jar entity or "
+#~ "cube. When a user clicks the cube,"
+#~ " a message will prompt them to "
+#~ "pay a specified username (you) 10 "
+#~ "HFC. The message will be, \"Here's "
+#~ "a 10 HFC tip for doing a "
+#~ "cool thing!\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click here to download a pre-made"
+#~ " \"Tip Jar\" entity script. Follow "
+#~ "along with the comments in the "
+#~ "code to understand what it's doing!"
+#~ msgstr ""
+
+#~ msgid "You'll have to add the entity script to the Tip Jar cube entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Change the DESTINATION_USERNAME variable in"
+#~ " tipJar.js to match your username."
+#~ msgstr ""
+
+#~ msgid "Upload the tipJar.js script to your domain's ATP server."
+#~ msgstr ""
+
+#~ msgid "In Interface, go to Edit > Asset Browser > Choose File."
+#~ msgstr ""
+
+#~ msgid "Right-click the script file, then select 'Copy URL'."
+#~ msgstr ""
+
+#~ msgid "In the 'Entity List', select the Tip Jar cube entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the entity's 'Properties', scroll "
+#~ "down to 'Script' and paste the URL"
+#~ " you copied, into the text box. "
+#~ "Press Enter."
+#~ msgstr ""
+
+#~ msgid "Lock the entity so nobody can change its attributes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Close the Create app and click on"
+#~ " the Tip Jar cube entity. A "
+#~ "window pops up, prompting you to "
+#~ "pay 10 HFC to the username "
+#~ "specified in the script."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this example, we walk through "
+#~ "creating an exclusive VIP zone that "
+#~ "is accessible only to paid VIPs. "
+#~ "This tutorial uses a client entity "
+#~ "script to transfer money and an "
+#~ "assignment client script to verify "
+#~ "payments."
+#~ msgstr ""
+
+#~ msgid "Place a VIP Zone in Your Domain"
+#~ msgstr ""
+
+#~ msgid "Write an Entity Script for the VIP Zone"
+#~ msgstr ""
+
+#~ msgid "Add the Entity Script to the VIP Zone"
+#~ msgstr ""
+
+#~ msgid "Obtain the Auth Token"
+#~ msgstr ""
+
+#~ msgid "Write an Authenticated AC Script"
+#~ msgstr ""
+
+#~ msgid "Run the AC Script in Your Domain"
+#~ msgstr ""
+
+#~ msgid "Optional: Create a Box to Accept Payments"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need an area (or zone) in "
+#~ "your domain that will be designated "
+#~ "the \"VIP Zone\". Only users who "
+#~ "have paid you 10 HFC in the "
+#~ "current server session have access to"
+#~ " enter this zone. If the server "
+#~ "restarts, users will have to pay "
+#~ "for VIP status again."
+#~ msgstr ""
+
+#~ msgid "Click the 'Zone' icon to create a zone entity."
+#~ msgstr ""
+
+#~ msgid "Move the zone to where you want it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We need to write an entity script"
+#~ " to put on the VIP Zone. This"
+#~ " script will check to see whether "
+#~ "the user entering the zone is a"
+#~ " VIP or a domain admin. If they"
+#~ " aren't, the script will remove them"
+#~ " from the zone. In addition, the "
+#~ "script will change change a user's "
+#~ "status to VIP if they pay 10 "
+#~ "HFC."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click here to download a pre-made"
+#~ " \"VIP Zone\" entity script. Follow "
+#~ "along with the comments in the "
+#~ "code to understand what it's doing!"
+#~ msgstr ""
+
+#~ msgid "To add the entity script to the VIP zone:"
+#~ msgstr ""
+
+#~ msgid "Upload the vipZoneEntityScript.js script to your domain's ATP server."
+#~ msgstr ""
+
+#~ msgid "Right-click the script file, then click 'Copy URL'."
+#~ msgstr ""
+
+#~ msgid "In the 'Entity List', select the 'VIP Zone' entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the entity's 'Properties', scroll "
+#~ "down to 'Script' and paste the URL"
+#~ " you copied into the text box. "
+#~ "Press Enter."
+#~ msgstr ""
+
+#~ msgid "Lock the zone entity so nobody can change its attributes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need to get a High Fidelity"
+#~ " authentication token that has the "
+#~ "commerce scope. You will use this "
+#~ "token while writing an Assignment Client"
+#~ " (AC) script to check your Recent "
+#~ "Activity for recent transactions of 10"
+#~ " HFC made in your domain."
+#~ msgstr ""
+
+#~ msgid "To obtain this auth token:"
+#~ msgstr ""
+
+#~ msgid "Go to https://highfidelity.com/user/tokens/new."
+#~ msgstr ""
+
+#~ msgid "Name the token something memorable."
+#~ msgstr ""
+
+#~ msgid "Select the commerce scope."
+#~ msgstr ""
+
+#~ msgid "Click 'Create Token'."
+#~ msgstr ""
+
+#~ msgid "Copy and save the token."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Now, write an Assignment Client (AC) "
+#~ "script containing the authentication token "
+#~ "you copied and saved. This AC "
+#~ "script checks your Recent Activity for"
+#~ " recent transactions of 10 HFC made"
+#~ " in your domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click here to download a pre-made"
+#~ " \"VIP Zone\" AC script. Follow along"
+#~ " with the comments in the code "
+#~ "to understand what it's doing!"
+#~ msgstr ""
+
+#~ msgid "To run the above AC script in your domain from ATP:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set HIFI_COMMERCE_TOKEN to the token you"
+#~ " saved in the vipZoneACScript.js script."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upload your vipZoneACScript.js script to "
+#~ "your domain's ATP server. In Interface,"
+#~ " go to Edit > Asset Browser >"
+#~ " Choose File. Right-click and select"
+#~ " 'Copy URL'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navigate to the Domain Settings page "
+#~ "of your domain (for a local "
+#~ "sandbox, this is http://localhost:40100/)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Content' at the top of the"
+#~ " page, then scroll to the 'Scripts'"
+#~ " section."
+#~ msgstr ""
+
+#~ msgid "Under 'Persistent Scripts', click the + button on the right column."
+#~ msgstr ""
+
+#~ msgid "Under 'Script URL', paste the ATP URL you copied."
+#~ msgstr ""
+
+#~ msgid "Click 'Save and restart' at the top right of the page."
+#~ msgstr ""
+
+#~ msgid "(Optional) Create a Box to Accept Payments"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This step is optional as it "
+#~ "doesn't matter how a user sends "
+#~ "you 10 HFC to earn VIP status. "
+#~ "For example, if a user (in "
+#~ "Interface) went to Inventory > Send "
+#~ "Money > Nearby to send you 10 "
+#~ "HFC while you were in your domain,"
+#~ " they would still get \"VIP status\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "However, to make it easier to "
+#~ "people to pay you, you can create"
+#~ " an box that collects payment. Simply"
+#~ " follow the directions to create a"
+#~ " tip jar above. You should now "
+#~ "have a working \"VIP Zone\" in "
+#~ "your domain. Only users with VIP "
+#~ "status can enter this \"VIP Zone\". "
+#~ "You should also have a \"Tip "
+#~ "Cube\" in your domain that helps "
+#~ "users pay you HFC to become VIPs."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this example, we walk through "
+#~ "creating a slot machine game that "
+#~ "pays out HFC. Players will pay you"
+#~ " (the domain owner) 1 HFC to "
+#~ "start playing, and the slot machine "
+#~ "will pay out 25 HFC if the "
+#~ "payer wins. This tutorial uses coupons"
+#~ " to reserve HFC ahead of time, "
+#~ "client entity scripts to control the "
+#~ "mechanics of the slot machine, and "
+#~ "an assignment client script to handle"
+#~ " the slot machine game logic."
+#~ msgstr ""
+
+#~ msgid "Create a Slot Machine in Your Domain"
+#~ msgstr ""
+
+#~ msgid "Create a Coupon to Authorize Winnings"
+#~ msgstr ""
+
+#~ msgid "Add the Coupon Credentials to a Database"
+#~ msgstr ""
+
+#~ msgid "Allow Users to Start the Slot Machine"
+#~ msgstr ""
+
+#~ msgid "Add the Entity Script to the Slot Machine"
+#~ msgstr ""
+
+#~ msgid "Allow Users to Pull the Reels"
+#~ msgstr ""
+
+#~ msgid "Obtain Auth Token"
+#~ msgstr ""
+
+#~ msgid "Write a Game Logic AC Script"
+#~ msgstr ""
+
+#~ msgid "Run the AC Script on Your Domain"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need a slot machine that your"
+#~ " users can play. You can create "
+#~ "your own or use the one that "
+#~ "we created for you."
+#~ msgstr ""
+
+#~ msgid "To use the one that already exists:"
+#~ msgstr ""
+
+#~ msgid "Download the following JSON: basicSlotMachine_noScripts.json"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Create Tools app, click "
+#~ "'Import Entities'. Browse to and select"
+#~ " basicSlotMachine_noScripts.json."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You should now see a slot machine"
+#~ " entity in your domain. This example"
+#~ " entity consists of:"
+#~ msgstr ""
+
+#~ msgid "Three \"reels\" (red, green, and blue cubes)."
+#~ msgstr ""
+
+#~ msgid "A \"spin arm\" that players will use to start the game."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A \"play text\" text entity that "
+#~ "will display the game status to "
+#~ "players."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A \"pay-in text\" text entity that"
+#~ " will instruct users to add credits"
+#~ " to the slot machine."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By creating a coupon, you are "
+#~ "authorizing High Fidelity to take out"
+#~ " funds from your account even if "
+#~ "you are not present in the domain."
+#~ " Follow these instructions to create "
+#~ "a coupon. Copy the Authorization ID "
+#~ "and the Coupon ID."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Later, you will write an Assignment "
+#~ "Client (AC) script for the Slot "
+#~ "Machine game logic, including payout "
+#~ "logic. When the Slot Machine pays "
+#~ "out, it needs to know the "
+#~ "Authorization IDs and Coupon IDs "
+#~ "associated with your pre-authorized "
+#~ "payout funds."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this step, you will put the "
+#~ "\"Authorization ID\" and \"Coupon ID\" "
+#~ "into some sort of database. Here, "
+#~ "we use a Google Sheet to store "
+#~ "the data, and a Google Script to"
+#~ " access the data in the Sheet."
+#~ msgstr ""
+
+#~ msgid "To create the Google sheet:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Log into Google Sheets, and create "
+#~ "a new spreadsheet. Give it a "
+#~ "filename you want, such as \"Slot "
+#~ "Machine Payouts\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Name the current sheet \"Authorizations\" "
+#~ "using the arrow on the tab at "
+#~ "the bottom left of the screen."
+#~ msgstr ""
+
+#~ msgid "Give the header row (the first row) the following labels in this order:"
+#~ msgstr ""
+
+#~ msgid "Used"
+#~ msgstr ""
+
+#~ msgid "HFC"
+#~ msgstr ""
+
+#~ msgid "Authorization ID"
+#~ msgstr ""
+
+#~ msgid "Coupon ID"
+#~ msgstr ""
+
+#~ msgid "In the second row, under the HFC column, put 25."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the second row, under the "
+#~ "'Authorization ID' column, paste your "
+#~ "saved Authorization ID."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the second row, under the "
+#~ "'Coupon ID' column, paste your saved "
+#~ "Coupon ID."
+#~ msgstr ""
+
+#~ msgid "To create the Google script"
+#~ msgstr ""
+
+#~ msgid "At the top of the Google Sheets window, click Tools > Script editor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Name your currently untitled project "
+#~ "\"Slot Machine Authorization Handler\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy and paste the contents of "
+#~ "this example GS script into the "
+#~ "Script Editor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Change var SPREADSHEET_ID to match the"
+#~ " Spreadsheet ID of your spreadsheet "
+#~ "above."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Spreadsheet ID is embedded in "
+#~ "the URL of the Google Sheets page"
+#~ " and is visible in the following "
+#~ "screenshot (part of the URL is "
+#~ "blocked out for privacy purposes)."
+#~ msgstr ""
+
+#~ msgid "Save the script, using whatever filename you wish."
+#~ msgstr ""
+
+#~ msgid "Click 'Publish', then 'Deploy as Web App...'"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Follow Google's instructions to deploy "
+#~ "your script as a web app. Ensure"
+#~ " you set 'Who has access to the"
+#~ " app' to 'Anyone, even anonymous'. "
+#~ "When finished, copy the URL you're "
+#~ "given at the end of the process"
+#~ " and save it somewhere you'll "
+#~ "remember for later. The web app "
+#~ "URL will look something like "
+#~ "https://script.google.com/macros/s/ABCDEFGHIJKLMNOP_QRSTUVWXYZ1984373/exec"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need to provide your users "
+#~ "with a way to add slot machine "
+#~ "play credits. You can do this by"
+#~ " adding a client entity script to "
+#~ "the Slot Machine entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This script will display a message "
+#~ "\"1 Slot Machine Play Credit\" when "
+#~ "they click the text or border "
+#~ "around the text on the slot "
+#~ "machine. They can pay the specified "
+#~ "user (you) 1 HFC to play."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click here to download a pre-made"
+#~ " \"Add Credits\" entity script. Follow "
+#~ "along with the comments in the "
+#~ "code to understand what it's doing!"
+#~ msgstr ""
+
+#~ msgid "To add the entity script to the slot machine:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Change the DESTINATION_USERNAME to your "
+#~ "username in addCreditsButton.js."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upload the addCreditsButton.js script to "
+#~ "your domain's ATP server. In Interface,"
+#~ " go to Edit > Asset Browser >"
+#~ " Choose File. Right-click the script"
+#~ " file, then click 'Copy URL'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Interface, use the Create app "
+#~ "to select the 'Click Here to Add"
+#~ " Credits' text entity on the Slot "
+#~ "Machine entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the entity's 'Properties' tab, scroll"
+#~ " down to 'Script' and paste the "
+#~ "URL you copied in step 2 into "
+#~ "the text box. Press Enter."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Interface, use the Create app "
+#~ "to select the border entity around "
+#~ "the 'Click Here to Add Credits' "
+#~ "button on the Slot Machine entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the entity's 'Properties' tab, scroll"
+#~ " down to 'Script' and paste the "
+#~ "URL you copied in step 2  into "
+#~ "the text box. Press Enter."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next, you need to provide your "
+#~ "users with a way to start the "
+#~ "slot machine's reels. Here, we will "
+#~ "write an entity script to put on"
+#~ " the slot machine's Spin Lever. This"
+#~ " script will send a message to "
+#~ "an Assignment Client (AC) script to "
+#~ "kick off the rest of the game "
+#~ "logic."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click here to download a pre-made"
+#~ " \"Spin Lever\" entity script. Follow "
+#~ "along with the comments in the "
+#~ "code to understand what it's doing!"
+#~ msgstr ""
+
+#~ msgid "To add the entity script to the reels:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upload the slotMachineSpinLever.js script to"
+#~ " your domain's ATP server. In "
+#~ "Interface, go to Edit > Asset "
+#~ "Browser > Choose File. Right-click "
+#~ "the script file, then click 'Copy "
+#~ "URL'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Interface, use the Create app "
+#~ "to select the red Spin Lever "
+#~ "sphere entity on the Slot Machine "
+#~ "entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the entity's 'Properties' tab, scroll"
+#~ " down to 'Script' and paste the "
+#~ "URL from step 1 into the text "
+#~ "box. Press Enter."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You'll have to get a High Fidelity"
+#~ " authentication token that has the "
+#~ "commerce_ro scope. You will use this "
+#~ "token while writing an Assignment Client"
+#~ " (AC) script to check your Recent "
+#~ "Activity for recent transactions of 1"
+#~ " HFC made in your domain with a"
+#~ " specific memo (\"1 Slot Machine Play"
+#~ " Credit\")."
+#~ msgstr ""
+
+#~ msgid "To get this auth token:"
+#~ msgstr ""
+
+#~ msgid "Select the commerce_ro scope."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Now, write an AC Script that will"
+#~ " handle the slot machine game logic,"
+#~ " including:"
+#~ msgstr ""
+
+#~ msgid "Knowing when to start a new spin."
+#~ msgstr ""
+
+#~ msgid "Knowing whether a user who attempted to spin has paid."
+#~ msgstr ""
+
+#~ msgid "Changing the slot machine reel colors during a spin."
+#~ msgstr ""
+
+#~ msgid "Checking the end state of the reels to determine win/loss."
+#~ msgstr ""
+
+#~ msgid "Paying out pre-authorized funds."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click here to download a pre-made"
+#~ " \"Slot Machine\" entity server script. "
+#~ "This script is quite long and is"
+#~ " arguably the most important element "
+#~ "of this project! Follow along with "
+#~ "the comments in the code to "
+#~ "understand what it's doing."
+#~ msgstr ""
+
+#~ msgid "To run the AC script on your domain from ATP:"
+#~ msgstr ""
+
+#~ msgid "Change your slotMachineACScript.js as follows:"
+#~ msgstr ""
+
+#~ msgid "Set HIFI_COMMERCE_TOKEN to your HiFi commerce_ro token."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set SLOT_MACHINE_REEL_1_ID to the Entity "
+#~ "ID of the leftmost slot machine "
+#~ "reel."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set SLOT_MACHINE_REEL_2_ID to the Entity "
+#~ "ID of the middle slot machine "
+#~ "reel."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set SLOT_MACHINE_REEL_3_ID to the Entity "
+#~ "ID of the rightmost slot machine "
+#~ "reel."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set SLOT_MACHINE_PLAY_TEXT_ID to the Entity"
+#~ " ID of the \"Play Text\" text "
+#~ "entity right below the slot machine "
+#~ "reels."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set GOOGLE_SHEET_AUTH_SCRIPT to the URL "
+#~ "of the Google Script Web App "
+#~ "created earlier."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set SLOT_MACHINE_AREA to the coordinates "
+#~ "around which the slot machine entity "
+#~ "will be placed. See the comments "
+#~ "in the code for more details about"
+#~ " why this is necessary."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upload your slotMachineACScript.js script to"
+#~ " your domain's ATP server. In "
+#~ "Interface, go to Edit > Asset "
+#~ "Browser > Choose File. Right-click "
+#~ "the script file, then click 'Copy "
+#~ "URL'."
+#~ msgstr ""
+
+#~ msgid "Under 'Persistent Scripts', click the + button on the right column"
+#~ msgstr ""
+
+#~ msgid "Under 'Script URL', paste the ATP URL from step 2."
+#~ msgstr ""
+
+#~ msgid "Click 'Save and restart' at the top right of the page"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You should now have a basic but"
+#~ " fully working slot machine in your"
+#~ " domain, that you and anyone else "
+#~ "in your domain can play."
+#~ msgstr ""
+
+#~ msgid "Create a Coupon"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-25 19:57+0200\n"
+"POT-Creation-Date: 2020-07-03 09:06+0000\n"
 "PO-Revision-Date: 2020-06-25 07:43+0000\n"
 "Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language: de\n"
@@ -136,25 +136,31 @@ msgstr ""
 msgid "Search Vircadia Docs"
 msgstr "Durchsuche Dokumentation"
 
-#: ../../source/_templates/versions.html:11
-msgid "Versions"
-msgstr "Versionen"
+#: ../../source/_templates/versions.html:10
+msgid "Languages"
+msgstr ""
 
-#: ../../source/_templates/versions.html:17
+#: ../../source/_templates/versions.html:18
 msgid "Downloads"
 msgstr "Downloads"
 
-#: ../../source/_templates/versions.html:23
+#: ../../source/_templates/versions.html:24
 msgid "On Read the Docs"
 msgstr "Auf Read the Docs"
 
-#: ../../source/_templates/versions.html:25
+#: ../../source/_templates/versions.html:26
 msgid "Project Home"
 msgstr "Projekt Startseite"
 
-#: ../../source/_templates/versions.html:28
+#: ../../source/_templates/versions.html:29
 msgid "Builds"
 msgstr "Builds"
+
+#: ../../source/_templates/versions.html:33
+msgid ""
+"Free document hosting provided by <a "
+"href=\"http://www.readthedocs.org\">Read the Docs</a>."
+msgstr ""
 
 #~ msgid ""
 #~ "Free document hosting provided by <a "
@@ -163,4 +169,7 @@ msgstr "Builds"
 #~ "Hosting der Dokumentation kostenlos von "
 #~ "<a href=\"http://www.readthedocs.org\">Read the "
 #~ "Docs</a> bereitgestellt."
+
+#~ msgid "Versions"
+#~ msgstr "Versionen"
 

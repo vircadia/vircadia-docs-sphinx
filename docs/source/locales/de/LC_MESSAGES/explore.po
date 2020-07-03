@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-25 03:02+0200\n"
+"POT-Creation-Date: 2020-07-03 09:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,6 +221,7 @@ msgstr ""
 #: ../../source/explore/get-started/adjust-settings.rst:45
 #: ../../source/explore/get-started/adjust-settings.rst:89
 #: ../../source/explore/get-started/adjust-settings.rst:118
+#: ../../source/explore/get-started/architecture.rst:65
 #: ../../source/explore/get-started/setup-audio.rst:131
 #: ../../source/explore/get-started/vr-controls.rst:60
 #: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
@@ -735,6 +736,79 @@ msgid ""
 "Assignment clients control and manage various aspects of a domain. They "
 "also communicate directly with the Interface clients connected to a "
 "domain. There are six types of assignment clients:"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:65
+msgid "Assignment Client"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:67
+msgid "Avatar Mixer"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:67
+msgid ""
+"This mixer is in charge of your virtual presence in any domain. It keeps "
+"track of where you are, which avatar you're wearing, and how you move "
+"around the domain. For example, it tracks how you move your head while "
+"wearing a Head Mounted Display (HMD)."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:71
+msgid "Audio Mixer"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:71
+msgid ""
+"Mixes all sounds, whether it's voice or environmental. And it does this "
+"not just for avatars, but also for all the entities in a domain. The "
+"Audio mixer can customize a stereo mix for you based on your position "
+"relative to the audio source."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:75
+msgid "Entity Server"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:75
+msgid ""
+"Tracks all entities and their properties in a domain, from their "
+"description and position, to any behaviors attached to them in a script. "
+"If an entity is modified, the change is communicated to the entity "
+"server, which in turn relays the information to all clients currently "
+"visiting the domain."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:80
+msgid "Asset Server"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:80
+msgid ""
+"Provides copies of the models, audio files, scripts, and other media used"
+" by the domain. It functions like a Web server, but using protocols tuned"
+" to Vircadia's architecture."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:83
+msgid "Agent"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:83
+msgid ""
+"Executes user-written JavaScript programs. If you've written a script to "
+"get your avatar to clap, or create a bowling alley, the Agent will "
+"execute it. It can see entities, avatars, and send audio."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:86
+msgid "Messages Mixer"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:86
+msgid ""
+"Provides communication between scripts running in different programs "
+"connected to the domain, which could be Interfaces or Agents."
 msgstr ""
 
 #: ../../source/explore/get-started/architecture.rst:90

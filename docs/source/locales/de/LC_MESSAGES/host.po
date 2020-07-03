@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-25 03:02+0200\n"
+"POT-Creation-Date: 2020-07-03 09:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,6 +153,7 @@ msgstr ""
 #: ../../source/host/add-content/bake-content.rst:19
 #: ../../source/host/add-content/bake-content.rst:60
 #: ../../source/host/add-content/create-content.rst:31
+#: ../../source/host/configure-settings/permission-settings.rst:46
 msgid "Description"
 msgstr ""
 
@@ -1612,6 +1613,57 @@ msgid ""
 "Your domain comes with four basic security groups that are already set "
 "up, based on the people that you will interact with in the metaverse. "
 "They are:"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:46
+msgid "User Type"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:48
+msgid "anonymous"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:48
+msgid ""
+"A person who is not logged in and is using an instance of Vircadia's "
+"Interface. This is the default user type for someone who has downloaded "
+"Interface for the first time."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:52
+msgid "friends"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:52
+msgid ""
+"A user that you have connected with by shaking hands with their avatar "
+"and clicking on the 'Friends' checkbox in your **People** app. "
+"Connections are different from Friends. By default, Friends have more "
+"permissions in your domains than your Connections. Connections are "
+"treated like anonymous users."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:57
+msgid "localhost"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:57
+msgid ""
+"A user who is running Interface on the same machine where the server is "
+"hosted. Localhost users do not need to be logged in and have permissions "
+"that override non-user-specific permissions."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:61
+msgid "logged-in"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:61
+msgid ""
+"A user that is logged into their Vircadia account while using Interface. "
+"They do not need to be a Friend or a Connection to have server rights. "
+"Permissions that are granted to a specific user override all other "
+"permissions."
 msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:66
