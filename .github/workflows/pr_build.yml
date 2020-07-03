@@ -5,7 +5,7 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
-  build_docs:
+  build_en_docs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
@@ -34,7 +34,7 @@ jobs:
       with:
         username: 'gha'
         server: '94.130.177.235'
-        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         local_path: 'docs/build/html/*'
         remote_path: '/var/www/html/gha/PR${{ github.event.number }}/'
         args: '-o ConnectTimeout=5'
