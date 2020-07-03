@@ -1,4 +1,4 @@
-## Add new language
+## Add new languages
 
 Generate the new language strings:
 - `make gettext`
@@ -9,4 +9,4 @@ The locations include:
 - .github/workflows/master_build.yml
 - docs/source/home.rst
 - docs/source/_templates/versions.html
-- git hooks file on the weblate server `/var/lib/docker/volumes/weblate-docker_weblate-data/_data/vcs/vircadia-documentation/contribute/.git/hooks/post-merge`
+- git hooks file on the weblate server `/var/lib/docker/volumes/weblate-docker_weblate-data/_data/vcs/vircadia-documentation/contribute/.git/hooks/post-rewrite`
