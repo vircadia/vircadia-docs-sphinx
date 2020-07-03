@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        python-version: [3.7, 3.8]
+        python-version: [3.7]
 
-    name: hmm
+    name: Build and upload english docs
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
@@ -27,6 +27,7 @@ jobs:
     - name: Build documentation
       shell: bash
       run: |
+        cd docs
         make html
     - name: Upload documentation
       uses: wlixcc/SFTP-Deploy-Action@v1.0
