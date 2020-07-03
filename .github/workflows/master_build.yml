@@ -32,7 +32,7 @@ jobs:
         cd docs
         make html
     - name: Upload documentation
-      uses: JulianGro/SFTP-Deploy-Action@v1.2
+      uses: JulianGro/SFTP-Deploy-Action@v1.3
       with:
         username: 'gha'
         server: '94.130.177.235'
@@ -103,7 +103,7 @@ jobs:
         cd docs
         make BUILDDIR=build-de SPHINXOPTS="-Dlanguage=de" html
     - name: Upload german documentation
-      uses: JulianGro/SFTP-Deploy-Action@v1.2
+      uses: JulianGro/SFTP-Deploy-Action@v1.3
       with:
         username: 'gha'
         server: '94.130.177.235'
