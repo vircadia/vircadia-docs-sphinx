@@ -18,10 +18,11 @@ Our main documentation is hosted at https://docs.vircadia.dev.
 To help with the translation of Vircadia's documentation there is two main ways:
 The recommended way is to use https://weblate.vircadia.dev.
 You can also submit updated `.po` files via Pull Request.
+Please contact Julian Groß or open an issue if you want to translate a language that is not in the system yet.
 
 ## Install Sphinx for Local Builds
 
-We encourage you to compile the documentation locally on your computer prior to submitting a PR. To install Sphinx: 
+We encourage you to compile the documentation locally on your computer prior to submitting a PR. To install Sphinx:
 
 1. Run cmd as administrator.
 2. Install Chocolatey via the cmd (on one line):
@@ -60,7 +61,7 @@ We encourage you to compile the documentation locally on your computer prior to 
     ```
     C:\> pip install sphinx_rtd_theme
     ```
-               
+
 ## Compile Vircadia Documentation Locally
 
 1. Fork and clone https://github.com/kasenvr/vircadia-docs-sphinx.
@@ -75,6 +76,6 @@ To compile a different language you need an additional set of commands:
 - `make SPHINXOPTS="-Dlanguage=xX" html` compiles the selected language.
 Replace `xX` with your [language code](https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language)
 
-## Using RST 
+## Using RST
 
 Most of our docs use RST. reStructuredText (RST) is the default plaintext markup language used by Sphinx. It is an extensible markup language, that is fully customizable. However, we don't (yet) have need of this, and will stick with the default set of directives for Vircadia's documentation. To learn more, refer to Sphinx's [reStructuredText Primer](https://www.sphinx-doc.org/en/2.0/usage/restructuredtext/basics.html).
