@@ -35,6 +35,6 @@ jobs:
         username: 'gha'
         server: '94.130.177.235'
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
-        local_path: './build/html/*'
+        local_path: 'build/html/*'
         remote_path: '/var/www/html/gha/${{ github.event.number }}' #make sure dir exist
         args: '-o ConnectTimeout=5'
