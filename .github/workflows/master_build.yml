@@ -13,7 +13,7 @@ jobs:
       matrix:
         python-version: [3.7]
 
-    name: Build and upload english docs
+    name: Build and deploy english docs
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
@@ -133,11 +133,13 @@ jobs:
       shell: bash
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" >private_key.pem
+        chmod 600 private_key.pem
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-de.tar.gz -C /var/www/html/gha/de/
         rm /var/www/html/gha/build-de.tar.gz
     - name: Deploy japanese documentation
       shell: bash
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" >private_key.pem
+        chmod 600 private_key.pem
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-jp.tar.gz -C /var/www/html/gha/jp/
         rm /var/www/html/gha/build-jp.tar.gz
