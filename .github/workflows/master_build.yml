@@ -60,6 +60,7 @@ jobs:
         pip install -U Sphinx==2.4.4
         pip install --upgrade recommonmark
         pip install sphinx_rtd_theme
+        pip install sphinx-intl
     - name: Make gettext
       shell: bash
       run: |
@@ -96,12 +97,12 @@ jobs:
         pip install -U Sphinx==2.4.4
         pip install --upgrade recommonmark
         pip install sphinx_rtd_theme
-    - name: Build documentation
+    - name: Build german documentation
       shell: bash
       run: |
         cd docs
         make BUILDDIR=build-de SPHINXOPTS="-Dlanguage=de" html
-    - name: Upload documentation
+    - name: Upload german documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.2
       with:
         username: 'gha'
