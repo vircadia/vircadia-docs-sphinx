@@ -1,0 +1,3569 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, High Fidelity. © Copyright 2020, Vircadia.
+# This file is distributed under the same license as the Vircadia Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vircadia Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-03 14:57+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
+msgid "Get Started with Vircadia"
+msgstr ""
+
+#: ../../source/explore.rst:11 ../../source/explore/personalize.rst:3
+msgid "Personalize Your Experience"
+msgstr ""
+
+#: ../../source/explore.rst:11 ../../source/explore/socialize.rst:3
+#: ../../source/explore/travel.md:36
+msgid "Socialize with Others"
+msgstr ""
+
+#: ../../source/explore.rst:11 ../../source/explore/travel.md:1
+msgid "Travel Between Worlds"
+msgstr ""
+
+#: ../../source/explore.rst:11 ../../source/explore/interact.md:1
+msgid "Interact with Your Environment"
+msgstr ""
+
+#: ../../source/explore.rst:3
+msgid "Explore"
+msgstr ""
+
+#: ../../source/explore.rst:5
+msgid ""
+"Vircadia is a metaverse where you can connect and create with others. We "
+"invite you to explore VR worlds created in Vircadia and interact with "
+"other users. You can visit your friend's VR world, meet people, attend "
+"events and even go for a class on avatar creation. It's an immersive and "
+"interactive experience with realistic visuals and audio."
+msgstr ""
+
+#: ../../source/explore.rst:7
+msgid ""
+"If its your first time using Vircadia, you'll start your journey a local "
+"space by yourself, where you can experiment with the controls and learn "
+"about the product. When you are ready, try exploring other domains using "
+"the Explore app and socialize with people around the metaverse. If you've"
+" visited Vircadia before, you will return to the location where you last "
+"visited."
+msgstr ""
+
+#: ../../source/explore.rst:9
+msgid "Throughout this chapter, learn how to make the most of your exploration:"
+msgstr ""
+
+#: ../../source/explore/get-started.rst:9
+#: ../../source/explore/get-started/install.rst:3
+#: ../../source/explore/get-started/install.rst:42
+msgid "Install Vircadia"
+msgstr ""
+
+#: ../../source/explore/get-started.rst:9
+#: ../../source/explore/get-started/architecture.rst:3
+msgid "Understand the Architecture"
+msgstr ""
+
+#: ../../source/explore/get-started.rst:9
+#: ../../source/explore/get-started/setup-audio.rst:3
+msgid "Set Up Your Audio Devices"
+msgstr ""
+
+#: ../../source/explore/get-started.rst:9
+#: ../../source/explore/get-started/vr-controls.rst:3
+msgid "Use Your VR Equipment"
+msgstr ""
+
+#: ../../source/explore/get-started.rst:9
+#: ../../source/explore/get-started/desktop.rst:3
+msgid "Explore in Desktop Mode"
+msgstr ""
+
+#: ../../source/explore/get-started.rst:9
+#: ../../source/explore/get-started/adjust-settings.rst:3
+msgid "Adjust Your Settings"
+msgstr ""
+
+#: ../../source/explore/get-started.rst:9
+#: ../../source/explore/get-started/android.rst:3
+msgid "Get Our Android App"
+msgstr ""
+
+#: ../../source/explore/get-started.rst:5
+msgid ""
+"We know that getting started with a new application can be difficult: "
+"installing the software and learning the controls is never any fun. "
+"Hopefully, this section will help you become familiar with our "
+"application, so that you can begin making friends and exploring the "
+"metaverse."
+msgstr ""
+
+#: ../../source/explore/get-started.rst:7
+msgid "**In This Section**"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:5
+msgid ""
+"You can adjust various settings in Vircadia so that it runs to your "
+"preferences. Many of these settings are changed using the HUD (in Desktop"
+" mode) or Tablet (in VR mode)."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:8
+#: ../../source/explore/get-started/android.rst:11
+#: ../../source/explore/get-started/architecture.rst:8
+#: ../../source/explore/get-started/desktop.rst:10
+#: ../../source/explore/get-started/install.rst:8
+#: ../../source/explore/get-started/setup-audio.rst:11
+#: ../../source/explore/get-started/vr-controls.rst:19
+#: ../../source/explore/personalize/add-wearables.rst:8
+#: ../../source/explore/socialize.rst:8
+msgid "On This Page"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:12
+msgid "The Tablet and HUD"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:14
+msgid ""
+"In VR, all of your settings are found in your **Tablet**. The Tablet also"
+" gives you easy access to any :doc:`apps that you install <../personalize"
+"/install-apps>`. Pull up the tablet by clicking the menu button on your "
+"controller."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:18
+msgid ""
+"In Desktop Mode, you have the option to use either the Tablet or a "
+"smaller version called the \"Heads-up Display\" or HUD. It contains the "
+"exact same options as the Tablet (settings, apps, etc), but it takes up "
+"less space on your screen. To enable the HUD, first enable the "
+"**Developer** menu by going to **Settings > Developer Menu**. Then, go to"
+" **Developer > UI > Desktop Tablet Becomes Toolbar**."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:24
+msgid "Enter or Exit VR Mode"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:26
+msgid ""
+"You can enjoy Vircadia with or with VR equipment such as head mounted "
+"displays (HMD), hand controllers and audio headsets. Our Desktop mode "
+"contains many of Vircadia's features such as audio, basic movements and "
+"gestures, and the ability to travel to different domains."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:28
+msgid ""
+"Keep in mind, however, that the most immersive and powerful experience is"
+" when you use VR equipment. Only then will you be able to interact with "
+"people in 3D, track body movements, and easily engage with the objects "
+"around you. Once you have set up your VR equipment, you can easily switch"
+" between VR mode and Desktop mode. To switch to VR mode, use one of the "
+"following methods:"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:30
+msgid "From the HUD, click **Enter VR**."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:31
+msgid "Click the **Display** menu, then select your VR device."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:33
+msgid ""
+"To exit from VR mode, remove your headset, click **Exit VR** on the HUD "
+"or press ``ESC`` on your keyboard."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:37
+msgid "Set Your Perspective"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:39
+msgid ""
+"You can choose how you view things around you by changing your "
+"perspective. To change your perspective:"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:41
+msgid "In Desktop mode, go to **View** in the menu on the top left corner."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:42
+msgid "In VR mode, open your Tablet and go to **Menu > View**."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:45
+#: ../../source/explore/get-started/adjust-settings.rst:89
+#: ../../source/explore/get-started/adjust-settings.rst:118
+#: ../../source/explore/get-started/setup-audio.rst:131
+#: ../../source/explore/get-started/vr-controls.rst:60
+msgid "Setting"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:45
+#: ../../source/explore/get-started/adjust-settings.rst:89
+#: ../../source/explore/get-started/adjust-settings.rst:118
+#: ../../source/explore/get-started/architecture.rst:65
+#: ../../source/explore/get-started/setup-audio.rst:131
+#: ../../source/explore/get-started/vr-controls.rst:60
+#: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
+msgid "Description"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:47
+msgid "First Person"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:47
+msgid ""
+"Select this setting if you want to change your perspective in Vircadia to"
+" first person. In this view, you will not see yourself, only the "
+"environment around you."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:50
+msgid "Third Person"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:50
+msgid ""
+"Select this setting to change your perspective to third person. In this "
+"view, you will see yourself, as well as the environment around you."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:53
+msgid "Selfie"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:53
+msgid ""
+"Select this to change your perspective to look at yourself. In this view,"
+" you will see yourself and the space behind you."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:56
+msgid "Independent Mode"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:56
+msgid ""
+"Select this to change what you see through scripting instead of avatar's "
+"movements."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:58
+msgid "Entity Mode"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:58
+msgid ""
+"Select this to set your perspective to a specific entity, allowing you to"
+" move with entity as it moves."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:64
+msgid "Other Miscellaneous Settings"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:66
+msgid ""
+"Here are some other settings you may like to change to optimize your "
+"experience."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:70
+msgid "General Settings"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:72
+msgid ""
+"You can modify general settings such user interface and privacy settings "
+"in Vircadia."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:74
+msgid ""
+"In Desktop mode, go to **Settings > General** in the menu on the top left"
+" corner."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:75
+msgid "In VR mode, open your Tablet and go to **Menu > Settings > General**."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:81
+msgid "In-World Graphics Settings"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:83
+msgid "You can make changes to the graphics in Vircadia."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:85
+msgid ""
+"In Desktop mode, go to **Settings > Graphics** in the menu on the top "
+"left corner."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:86
+msgid "In VR mode, open your Tablet and go to **Menu > Settings > Graphics**."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:91
+msgid "Graphics Settings"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:91
+msgid ""
+"Choose the graphics settings for your computer tier. In general, a lower "
+"graphics setting sacrifices artistic details and rendering effects for "
+"increased performance and optimization. **Custom** lets you configure the"
+" world detail, rendering effects, refresh rate, and resolution yourself."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:96
+msgid "World Detail"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:96
+msgid ""
+"Control the level of detail visible to you in Vircadia by moving this "
+"slider."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:98
+msgid "Rendering Effects"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:98
+msgid ""
+"Choose the level of rendering effects that are present in Vircadia. Local"
+" lights, fog, bloom, and shadows are all examples of rendering effects."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:101
+msgid "Refresh Rate"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:101
+msgid ""
+"Choose the frequency that Vircadia updates its graphics buffers. Most "
+"mid-range computers run well on 'Interactive'."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:104
+msgid "Resolution"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:104
+msgid ""
+"Adjust the resolution using the slider. This affects how clear Vircadia "
+"appears on your monitor or screen."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:110
+msgid "Account Security Settings"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:112
+msgid "You can change your account security settings in Vircadia."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:114
+msgid ""
+"In Desktop mode, go to **Settings > Security** in the menu on the top "
+"left corner."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:115
+msgid "In VR mode, open your Tablet and go to **Menu > Settings > Security**."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:120
+msgid "Account"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:120
+msgid ""
+"Enable to stay logged in (in the current device) even if you exit "
+"Vircadia."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:122
+msgid "Secure Transactions"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:122
+msgid "Change your security picture."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:125
+#: ../../source/explore/get-started/android.rst:82
+#: ../../source/explore/get-started/architecture.rst:101
+#: ../../source/explore/get-started/install.rst:120
+#: ../../source/explore/get-started/vr-controls.rst:220
+#: ../../source/explore/personalize/add-wearables.rst:55
+msgid "**See Also**"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:127
+msgid ":doc:`Configure Your Domain Settings <../../host/configure-settings>`"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:5
+msgid ""
+"A Vircadia Android app is being considered for the roadmap, most of the "
+"development work has been done but the work required to get it back "
+"rolling has to be taken into consideration."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:7
+msgid ""
+"The app is designed for Daydream-ready phones only. Keep in mind, it "
+"cannot be used in Daydream View and is only available as a 2D "
+"application."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:15
+msgid "Visit Different Worlds"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:17
+msgid ""
+"Vircadia has many virtual places where you can interact with other users "
+"and participate in various activities or events. We have modified several"
+" of Vircadia's most popular virtual worlds to make them more accessible "
+"to Android users."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:19
+msgid "Find these domains by going to the **Home** tab in the menu."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:26
+#: ../../source/explore/get-started/desktop.rst:14
+msgid "Movement Controls"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:29
+#: ../../source/explore/get-started/android.rst:45
+#: ../../source/explore/get-started/android.rst:57
+#: ../../source/explore/get-started/android.rst:70
+#: ../../source/explore/get-started/desktop.rst:19
+#: ../../source/explore/get-started/desktop.rst:47
+#: ../../source/explore/get-started/desktop.rst:79
+#: ../../source/explore/get-started/desktop.rst:99
+#: ../../source/explore/get-started/desktop.rst:115
+msgid "Action"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:29
+#: ../../source/explore/get-started/android.rst:45
+#: ../../source/explore/get-started/android.rst:57
+#: ../../source/explore/get-started/android.rst:70
+msgid "Controls"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:31
+msgid "Walking"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:31
+msgid ""
+"When exploring a virtual world, use the arrows in the bottom left corner "
+"to turn and/or walk."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:33
+msgid "Turning"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:33
+msgid "Drag your finger left or right across the screen to make your avatar turn."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:35
+msgid "Look up/down"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:35
+msgid "Drag your finger up or down to change the angle of the camera."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:37
+msgid "Flying"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:37
+msgid ""
+"Press the button on the bottom right with the winged avatar to fly (the "
+"longer you hold it, the higher you go!)."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:42
+#: ../../source/explore/get-started/desktop.rst:44
+msgid "In-World Controls"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:47
+msgid "View"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:47
+msgid ""
+"Switch to a bird's eye view camera by pressing the **My View** button on "
+"the top right corner of the screen."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:49
+msgid "Mute"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:49
+msgid ""
+"Your avatar in muted by default when you open the app. Press the mic "
+"button on the top right corner to unmute."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:54
+msgid "Avatar Controls"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:59
+#: ../../source/explore/personalize.rst:9
+#: ../../source/explore/personalize/change-avatar.md:1
+msgid "Change Your Avatar"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:59
+msgid ""
+"Change your avatar to one available in the list in the **Avatar** tab in "
+"the menu."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:61
+msgid "Set Display Name"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:61
+msgid "Set your display name in the **Avatar** tab in the menu"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:67
+msgid "Discover and Make Friends"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:72
+#: ../../source/explore/get-started/desktop.rst:49
+msgid "Handshake"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:72
+msgid ""
+"`Add people to your Connections <../socialize.html#make-connections-and-"
+"friends>`_ by shaking their hand. Press the handshake button which is "
+"above the flight button in the bottom right corner of your screen."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:75
+msgid "Connections List"
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:75
+msgid "Open the **People** tab in the menu to view your Connections."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:79
+msgid ""
+"Additional functionality such as opening the Tablet, using the **Create**"
+" Tools app, adding wearables, etc. are not yet available."
+msgstr ""
+
+#: ../../source/explore/get-started/android.rst:84
+msgid ":doc:`Socialize with Others <../socialize>`"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:5
+msgid ""
+"Vircadia's architecture shows how different parts of the system work "
+"together to give you the best VR experience."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:12
+msgid "Architecture Overview"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:14
+msgid ""
+"Vircadia's architecture consists of the following components that work "
+"together and send data to each other for your VR experience."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:16
+msgid ""
+"The `Vircadia Interface`_ runs your personal experience in the metaverse."
+" With it, you can :doc:`visit VR worlds <../travel>`, :doc:`meet people "
+"<../socialize>`, `attend live events <../socialize.html#attend-live-"
+"events>`_ and more."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:17
+msgid ""
+"The `Domain Server`_ is the server that hosts a domain. The domain server"
+" hosts the content in the domain, and manages the :doc:`domain-wide "
+"settings <../../host/configure-settings>`, such as audio spatialization, "
+"user permissions, and running scripts."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:18
+msgid ""
+"The `Global Services`_ connect all of the servers together. An instance "
+"of these services are maintained by Vircadia so that you can sign in and "
+"move seamlessly between places."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:24
+msgid "Vircadia Interface"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:26
+msgid ""
+"The Vircadia Interface (or simply 'Interface') is the main user interface"
+" for Vircadia. It is used to explore the metaverse and engage with people"
+" from around the world. When you enter a domain, your Interface connects "
+"with the `domain server`_ that is hosting the virtual world, alongside "
+"any `global services`_."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:28
+msgid ""
+"You can download and use the Interface on your computer or your Android "
+"phone using the `Client-Only Installer <install.html#client-only-"
+"installer>`_."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:34
+msgid "Physics Engine"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:36
+msgid ""
+"Your VR experience won't be realistic without some physics. Vircadia "
+"includes a `physics engine <http://bulletphysics.org>`_ that simulates "
+"behaviors of objects according to the Newtonian laws of physics. When an "
+"object falls to the ground and bounces, or when two or more objects "
+"collide, their movements are computed by the physics engine."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:38
+msgid ""
+"Each Interface runs its own physics engine, and the entity server "
+"coordinates the results to produce a consistent simulation across the "
+"entire domain."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:42
+msgid "Domain Server"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:44
+msgid ""
+"A domain is a spatial simulation in Vircadia that you can visit. It is "
+"computed by a stack of programs on one or more computers. You need a "
+"domain's :doc:`place name <../../host/configure-settings/place-setting>` "
+"to visit a domain, just like you would need a web address to visit a "
+"website."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:46
+msgid ""
+"You can :doc:`set up your own domain <../../host/server-setup>` and host "
+"it on your local machine or on a cloud server to make it available to "
+"other users. Your domain's server stack is a set of components that "
+"simulate and manage different aspects of the domain such as audio, "
+"entities, and avatars. Everything that you see, hear, and do in your "
+"domain is managed by the server stack."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:52
+msgid "Server Stack"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:54
+msgid ""
+"The Domain Server is at the top of this stack and its job is to give out "
+"assignments to the other components. These components are called "
+"Assignment Clients, because from the perspective of the domain server, "
+"they are clients that take on different roles."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:56
+msgid ""
+"The server stack is not only controlling, managing and computing your "
+"domain as you see it, but also how it is seen by anyone visiting your "
+"domain. This means that the domain server hands out simulation "
+"assignments and provides their IP addresses to connecting Interface "
+"clients. The domain server is a single executable that spawns assignment "
+"clients that become the different mixers as requested. Each assignment "
+"client can function as one of the six types mentioned. The domain server "
+"determines which assignment client functions as which mixer."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:60
+msgid "Assignment Clients"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:62
+msgid ""
+"Assignment clients control and manage various aspects of a domain. They "
+"also communicate directly with the Interface clients connected to a "
+"domain. There are six types of assignment clients:"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:65
+msgid "Assignment Client"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:67
+msgid "Avatar Mixer"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:67
+msgid ""
+"This mixer is in charge of your virtual presence in any domain. It keeps "
+"track of where you are, which avatar you're wearing, and how you move "
+"around the domain. For example, it tracks how you move your head while "
+"wearing a Head Mounted Display (HMD)."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:71
+msgid "Audio Mixer"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:71
+msgid ""
+"Mixes all sounds, whether it's voice or environmental. And it does this "
+"not just for avatars, but also for all the entities in a domain. The "
+"Audio mixer can customize a stereo mix for you based on your position "
+"relative to the audio source."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:75
+msgid "Entity Server"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:75
+msgid ""
+"Tracks all entities and their properties in a domain, from their "
+"description and position, to any behaviors attached to them in a script. "
+"If an entity is modified, the change is communicated to the entity "
+"server, which in turn relays the information to all clients currently "
+"visiting the domain."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:80
+msgid "Asset Server"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:80
+msgid ""
+"Provides copies of the models, audio files, scripts, and other media used"
+" by the domain. It functions like a Web server, but using protocols tuned"
+" to Vircadia's architecture."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:83
+msgid "Agent"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:83
+msgid ""
+"Executes user-written JavaScript programs. If you've written a script to "
+"get your avatar to clap, or create a bowling alley, the Agent will "
+"execute it. It can see entities, avatars, and send audio."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:86
+msgid "Messages Mixer"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:86
+msgid ""
+"Provides communication between scripts running in different programs "
+"connected to the domain, which could be Interfaces or Agents."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:90
+msgid ""
+"Sandbox manages all these components on the domain server, five dedicated"
+" assignment clients, and as many agent assignments clients as needed. "
+"However, it is possible to spread the assignment clients over multiple "
+"computers, and even to divide each function among a hierarchy of "
+"assignment components, which may be on different computers. For instance,"
+" multiple audio mixers could be used to mix the audio in different "
+"geographic regions of the domain."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:94
+msgid "Global Services"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:96
+msgid "Vircadia maintains global services to connect different servers together."
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:103
+msgid ":doc:`Install Vircadia <install>`"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:104
+msgid ":doc:`Host Your Domain <../../host>`"
+msgstr ""
+
+#: ../../source/explore/get-started/architecture.rst:105
+msgid ":doc:`Travel Between Worlds <../travel>`"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:5
+msgid ""
+"Desktop users are restricted to using their keyboard and mouse to do "
+"things in Vircadia. On this page, you can find all of the shortcuts so "
+"that you can enjoy your experience in Vircadia to the fullest."
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:7
+msgid ""
+"The shortcuts below are for Windows and Linux computers. If you're "
+"running on a Mac, use the same commands, substituting the ``Command`` key"
+" for the ``Ctrl`` key."
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:19
+#: ../../source/explore/get-started/desktop.rst:47
+#: ../../source/explore/get-started/desktop.rst:79
+#: ../../source/explore/get-started/desktop.rst:99
+#: ../../source/explore/get-started/desktop.rst:115
+msgid "Key"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:21
+msgid "Walk Forward"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:21
+msgid "``W`` or ``UP ARROW``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:23
+msgid "Walk Backward"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:23
+msgid "``S`` or ``DOWN ARROW``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:25
+msgid "Run"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:25
+msgid "Hold ``SHIFT`` while using any shortcut to walk"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:27
+msgid "Side Step to the Left"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:27
+msgid "``Q`` or Right Click + ``A``  or ``SHIFT`` + ``LEFT ARROW``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:29
+msgid "Side Step to the Right"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:29
+msgid "``E`` or Right Click + ``D`` or ``SHIFT`` + ``RIGHT ARROW``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:31
+msgid "Turn Left"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:31
+msgid "``A`` or ``LEFT ARROW``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:33
+msgid "Turn Right"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:33
+msgid "``D`` or ``RIGHT ARROW``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:35
+msgid "Jump"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:35
+msgid "``SPACE`` or ``PGUP``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:37
+msgid "Fly"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:37
+msgid "Hold ``SPACE`` or ``PGUP``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:39
+msgid "Fly Down"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:39
+msgid "``C`` or ``PGDN``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:49
+msgid "``X``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:51
+msgid "Toggle Privacy Shield"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:51
+msgid "``CTRL`` + ``N``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:53
+msgid "Open Tablet"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:53
+msgid "``TAB`` *(when 'Desktop becomes toolbar' is not checked)*"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:55
+msgid "Select Item"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:55
+#: ../../source/explore/get-started/desktop.rst:57
+msgid "Left Click"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:57
+msgid "Grab Item"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:59
+msgid "Inspect Item"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:59
+msgid "Right Click"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:61
+msgid "Open Browser"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:61
+msgid "``CTRL`` + ``B``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:63
+msgid "Toggle 'Away from Keyboard'"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:63
+msgid "``ESC``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:65
+msgid "Toggle 'Mute Mic'"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:65
+msgid "``CTRL`` + ``M``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:67
+msgid "Toggle 'Show Statistics'"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:67
+msgid "``/``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:69
+msgid "Screenshot"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:69
+#: ../../source/explore/get-started/desktop.rst:91
+msgid "``P``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:71
+msgid "Push to Talk"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:71
+#: ../../source/explore/get-started/desktop.rst:137
+msgid "``T``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:76
+msgid "Camera Controls"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:81
+msgid "First Person View"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:81
+msgid "``1``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:83
+msgid "Third Person View"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:83
+msgid "``3``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:85
+msgid "Mirror View"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:85
+msgid "``2``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:87
+msgid "Pan In/Out"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:87
+msgid "With mouse, use mouse wheel."
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:89
+msgid "On trackpad, drag two fingers up or down."
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:91
+msgid "Take Screenshot"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:96
+msgid "Avatar Sizing Controls"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:101
+msgid "Decrease Avatar Size"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:101
+msgid "``-``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:103
+msgid "Increase Avatar Size"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:103
+msgid "``+``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:105
+msgid "Reset Avatar Size"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:105
+msgid "``=``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:110
+msgid "Create and Edit Mode"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:112
+msgid "These controls work when the **Create** app is open."
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:117
+msgid "Undo"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:117
+msgid "``CTRL`` + ``Z``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:119
+msgid "Redo"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:119
+msgid "``CTRL`` + ``Y``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:121
+msgid "Delete Entity"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:121
+msgid "``DEL``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:123
+msgid "Focus on Selected Entity"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:123
+msgid "``F``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:125
+msgid "Align Grid to Bottom of Selected Entities"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:125
+msgid "``G``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:127
+msgid "Duplicate Entity"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:127
+msgid "``CTRL`` + Left Click + Drag"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:129
+msgid "Parent Entity"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:129
+msgid "``CTRL`` + ``P``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:131
+msgid "Unparent Entity"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:131
+msgid "``CTRL`` + ``SHIFT`` + ``P``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:133
+msgid "Copy Entity"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:133
+msgid "``CTRL`` + ``C``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:135
+msgid "Paste Entity"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:135
+msgid "``CTRL`` + ``V``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:137
+msgid "Toggle Global/Local Translation"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:143
+#: ../../source/explore/get-started/vr-controls.rst:213
+msgid "Gamepad"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:145
+msgid ""
+"Instead of a keyboard, you can use a gamepad while experiencing Vircadia "
+"in desktop mode."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:5
+msgid ""
+"Vircadia has two different installers. The *Client Installer* comes with "
+"everything you need to view and interact with Vircadia's content and "
+"users. However, you are unable to host content using this installer. The "
+"*Client + Sandbox Installer* has everything the client installer does, "
+"but it also enables you to :doc:`host your own content <../../host>` and "
+"share it with the world."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:12
+msgid "Minimum System Requirements"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:14
+msgid ""
+"In order to run Vircadia in either VR or Desktop mode, ensure that your "
+"computer meets these minimum system requirements:"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:16
+msgid "Windows 10, 64-bit or MacOS High Sierra (10.13)"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:17
+msgid "8GB+ RAM i5"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:18
+msgid "A wide range of Nvidia, AMD, and Intel graphics cards are supported"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:20
+msgid ""
+"In addition, your network must have enough internet bandwidth to run "
+"Vircadia:"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:22
+msgid ""
+"If you are using Interface only to explore the metaverse, then you must "
+"have internet speeds of at least **10 Mbps download/2 Mbps** upload."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:23
+msgid ""
+"If you are hosting a domain on your Sandbox, you need to add **10 Mbps** "
+"upload for each user you want to concurrently visit your domain."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:25
+msgid ""
+"We also run on Linux devices; however, we do not publish an installer for"
+" Linux machines. To use Vircadia on Linux, you will need to build the "
+"application from our code base. For more information, see our `Linux "
+"Build Guide <https://github.com/kasenvr/project-"
+"athena/blob/kasen/core/BUILD_LINUX.md>`_."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:29
+msgid "Download Vircadia Installer"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:31
+msgid "You can download Vircadia through our website:"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:33
+msgid ""
+"`Download the Client Installer <https://vircadia.com/download-"
+"vircadia/#interface>`_"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:37
+msgid ""
+"If you intend to use Vircadia in VR mode with a HMD, ensure that Steam VR"
+" is also installed on your system before launching Vircadia."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:44
+msgid ""
+"Once you've downloaded the installer, you're ready to install Vircadia. "
+"The process will be different based on your operating system:"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:48
+msgid "Windows Install"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:50
+msgid ""
+"To install on Windows, simply double-click on the downloaded installer "
+"file to open it. Run through the prompts on the installer. Once you "
+"finish the install process, Interface will open, and you will be able to "
+"log in and begin exploring the metaverse."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:54
+msgid "Mac Install"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:56
+msgid ""
+"At this time, the Vircadia installer for Mac is unsigned, so you will "
+"need give the OS permission to install and the application."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:58
+msgid "Open the downloaded installer dmg file."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:59
+msgid "Agree to the License Agreement."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:60
+msgid "Drag Vircadia to the Applications folder."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:61
+msgid "Open **System Preferences > General**."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:62
+msgid ""
+"Next to the warning indicating that Interface is blocked, click 'Open "
+"Anyway'."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:63
+msgid "Confirm that you want to open the application."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:65
+msgid ""
+"At this point, Interface will open and you will be able to log in and "
+"begin exploring the metaverse."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:69
+msgid "Upgrade Vircadia"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:85
+msgid "Perform a Clean Install"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:87
+msgid ""
+"If you're facing problems when you load Interface and Sandbox, you can "
+"try performing a clean install. A clean install removes multiple files "
+"and settings that you may need once you install Vircadia again."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:89
+msgid ""
+"Ensure that you back up the following files before a clean install: "
+"Favorites, Wearables, Sandbox, and Entities. These settings will be "
+"deleted during the clean install."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:93
+msgid "Windows Clean Install"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:95
+msgid ""
+"Click on the Start menu and type \"Add or Remove Programs\" in your "
+"Windows search bar."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:96
+msgid ""
+"Uninstall any versions of Vircadia that are visible (Including any Steam "
+"installs)."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:97
+#, python-format
+msgid ""
+"Once Vircadia is uninstalled, browse to your %Program Files% directory. "
+"Delete all folders related to Vircadia. If you installed through Steam, "
+"these folders will be located at ``C:/Program "
+"Files(x86)/Steam/steamapps/common``."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:101
+msgid ""
+"The next 3 steps will permanently delete your Sandbox content. If you "
+"wish to keep this content, copy %AppData%/Local/Project Athena"
+"/assignment-client to another location on your computer before "
+"proceeding. Repeat for %AppData%/Roaming/Project Athena/assignment-"
+"client."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:103
+#, python-format
+msgid ""
+"Browse to your local %AppData% folder (usually "
+"``C:/Users/<your_username>/AppData/Local``). If you do not see the "
+"folder, make sure you can view hidden folders. In File Explorer, click "
+"View and make sure \"Hidden Items\" is checked. Delete all folders "
+"related to Vircadia."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:104
+#, python-format
+msgid ""
+"Browse to your roaming %AppData% folder (usually "
+"``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related"
+" to Vircadia."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:105
+msgid ""
+"Re-install Vircadia using the steps above. To restore your Sandbox "
+"content, copy the ``assignment-client`` folders you backed up back to "
+"their respective locations."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:109
+msgid "Mac Clean Install"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:111
+msgid "Open your Applications folder and delete the Vircadia folder."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:112
+msgid ""
+"Open the ``<username>/.config`` folder. This is a hidden folder than is "
+"accessible by going to *Go > Home*. Press the keyboard shortcut ``Command"
+" + Shift + .`` (period)."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:113
+msgid "Delete the ``highfidelity.io`` folder."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:114
+msgid ""
+"Open the ``~/Library`` folder by holding the Option key and clicking the "
+"'Go' menu while in the Finder. The Library option should appear in the "
+"menu."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:115
+msgid ""
+"Browse to ``~/Library/Application Support`` and delete the Vircadia "
+"folder."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:116
+msgid "Empty the Trash."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:117
+msgid "Re-install Vircadia using the steps above."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:122
+msgid ":doc:`Install Your Domain <../../host/server-setup>`"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:5
+msgid ""
+"When you log into Vircadia for the first time, we will automatically "
+"detect your computer's default audio devices, and use those for Vircadia."
+" Usually, your computer will automatically detect a plugged in headset "
+"and you will not need to configure your audio devices any further."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:7
+msgid ""
+"However, some audio setups do require additional configuration. If you "
+"need to change your audio settings, read on to find out more."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:15
+msgid "Audio \"At a Glance\""
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:17
+msgid ""
+"Your basic audio settings are displayed in the top-left corner of your "
+"Interface window. This is called the \"Audio Level Meter\" and can be "
+"turned on or off in your Audio settings (from the Tablet or HUD, click "
+"**Audio**)."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:23
+msgid "Change your Input or Output Device"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:26
+msgid ""
+"Vircadia's 3D spatialized audio is guaranteed to enhance your experience "
+"in the metaverse, whether you are in Desktop mode or using VR equipment. "
+"By default, we will select the default audio devices that your operating "
+"system or headset has detected. If you want to use a different headset or"
+" audio setup than the default, you can change your computer's default "
+"device. If you need to use a different device for Vircadia than other "
+"applications on your computer, then you can change your device in the "
+"application."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:28
+msgid ""
+"An *audio input device* is any device that captures sound and generates a"
+" signal that can be accessed by other devices. Examples of audio input "
+"devices include a USB microphone or a microphone headset that is plugged "
+"into your computer, or your sound card’s \"Stereo Mix\" or \"What U "
+"Hear\" device (think of these sound card devices as if they were "
+"microphones being held up to your speakers while they output sound)."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:29
+msgid ""
+"An *audio output device* is any device that receives information from "
+"audio files and converts it into audible sound signals. Examples of audio"
+" output devices include your desktop computer speakers, headphones, or "
+"huge speakers in a movie theater."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:31
+msgid ""
+"If you are using a headset with a microphone, then your input and output "
+"devices will likely be the same device. However, if you are using "
+"external speakers or some other open mic setup, then these devices may be"
+" different. In these cases, we encourage you to enable `acoustic echo "
+"cancellation <#id1>`_ for improved audio quality."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:33
+msgid "To change your audio devices:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:35
+#: ../../source/explore/get-started/setup-audio.rst:87
+#: ../../source/explore/get-started/setup-audio.rst:105
+#: ../../source/explore/get-started/setup-audio.rst:118
+msgid "From the Tablet or HUD, click **Audio**."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:36
+msgid "Choose your desired input device."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:37
+msgid "Choose your desired output device."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:41
+msgid "Using Bluetooth Headsets"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:43
+msgid ""
+"You can use bluetooth headsets, such as AirPods with Vircadia. However, "
+"note that there are limitations to using them, and they may not work in "
+"all environments. If using WiFi, ensure you’re using a 5Ghz WiFi "
+"connection. On a 2.4Ghz connection, you may experience audio breakup and "
+"occasional disconnects."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:45
+msgid ""
+"Unfortunately, bluetooth audio devices do not currently support stereo "
+"input. Therefore, you have two options:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:47
+msgid ""
+"Use the bluetooth headset as an output device only, and use another "
+"microphone for input. This allows you to take advantage of the stereo "
+"audio."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:48
+msgid ""
+"Use the bluetooth headset's built-in microphone. In this case, other "
+"users will only experience mono sound coming from you, rather than the "
+"normal stereo audio."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:52
+msgid "Acoustic Echo Cancellation"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:54
+msgid ""
+"Acoustic echo is the process by which sounds from your speakers get "
+"picked up and transmitted by your microphone, resulting in an echoing "
+"effect. This is common when you use Vircadia with a laptop's built-in "
+"microphone and speakers (i.e. an \"open mic\"), rather than a detached "
+"headset."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:56
+msgid ""
+"\"Acoustic echo cancellation\" is a technology which improves voice "
+"quality by preventing the echo that results in open mic setups. By "
+"default, acoustic echo cancellation is turned on, and you can turn it off"
+" in the **Audio** app."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:58
+msgid ""
+"Acoustic echo cancellation will not run when using input devices with "
+"high sample rates (greater than 96khz) or more than 2 channels."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:60
+msgid "For best performance with open mic setups, ensure that you:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:62
+msgid ""
+"Disable any processing and effects on the input and output devices. This "
+"includes:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:64
+msgid ""
+"On Mac: Turn off 'Ambient noise reduction' (System Preferences > Sound > "
+"Input > Use ambient noise reduction)"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:65
+msgid ""
+"On Windows: Turn off all 'Enhancements' (Control Panel > Sound > "
+"Recording tab > click on your device > Properties button > Enhancements "
+"tab)"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:67
+msgid ""
+"On Mac devices, set the balance of the output device to either the left "
+"or the right (System Preferences > Sound > Output > Balance)"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:68
+msgid ""
+"Lower the microphone's physical gain setting to approximately 3/4 of the "
+"maximum"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:69
+msgid ""
+"Lower the speaker's physical volume level to approximately 3/4 of the "
+"maximum"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:70
+msgid ""
+"If you are not using your laptop's audio devices, move and point the "
+"microphone away from the speakers"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:72
+msgid ""
+"The acoustic echo cancellation technology picks up the sounds around you "
+"and attempts to identify the echoing sounds as you use it. This means "
+"that it will improve and become more accurate over time. So don't despair"
+" if you hear a little bit of echoing...it will lessen as the technology "
+"learns your voice and the voices of the people around you!"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:74
+msgid "To speed up this \"learning\" process, you can:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:76
+msgid "Avoid turning your avatar while talking"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:77
+msgid ""
+"Leave your microphone muted while another person talks for 10 seconds at "
+"a time"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:81
+msgid "Test Your Audio Devices"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:83
+msgid ""
+"Audio is an integral part of social VR experience, so of course, we want "
+"to make sure that your devices are working correctly and that everyone "
+"can hear you! There's nothing more annoying than walking up to a group of"
+" friends in a virtual world, only to realize that they haven't heard a "
+"word you said! The good news is that you can test your audio setup to "
+"make sure that both your input and output devices are working correctly."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:85
+msgid ""
+"The 'Test Your Voice' feature does not automatically mute your voice! We "
+"recommend muting yourself prior to checking your voice input if you do "
+"not want others to hear your microphone check."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:88
+msgid ""
+"Click 'Test Your Voice' to test your input device. Speak into your mic, "
+"and the sound will be played right back at you through the selected "
+"output device. Make any adjustments to your input device to achieve your "
+"desired sound."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:89
+msgid ""
+"Click 'Test Your Sound' to test your output device. Adjust the headset "
+"and/or application volume until the sound is a comfortable volume."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:93
+msgid "Adjust In-World Volume"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:95
+msgid "There are three different types of “sounds” in Vircadia:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:97
+msgid ""
+"People: The sound you hear when people in the domain are talking through "
+"their microphones"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:98
+msgid ""
+"Environment: The ambient sounds in the domain, running as scripts in the "
+"background"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:99
+msgid ""
+"System Sound: The sound your computer makes as you interact with the "
+"application window (such as the “clicking” you hear when you hover over "
+"an icon)"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:101
+msgid ""
+"To change the volume of all of these at once, simply change the volume of"
+" your headset or output device."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:103
+msgid "To change one or more of these sound types independently of the others:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:106
+#: ../../source/explore/get-started/setup-audio.rst:119
+msgid "Choose 'Desktop' or 'VR' depending on the mode you are in."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:107
+msgid "Scroll down to 'Choose Output Device'."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:108
+msgid ""
+"Adjust the sliders to the desired volume levels for each of the sound "
+"types."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:112
+msgid "Enable Push to Talk (PTT)"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:114
+msgid ""
+"‘Push to Talk’ is like having a walkie talkie in your hand. You need to "
+"press a button to have others hear you in the environment. When you’re "
+"not pressing the button, you are muted and will not be heard."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:116
+msgid "To turn on ‘Push to Talk’:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:120
+msgid "Toggle 'Push to Talk' on."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:122
+msgid ""
+"In Desktop mode, press and hold the “T” key on your keyboard to talk. "
+"When using an HMD in VR mode, press and hold the grip triggers on your "
+"controllers to talk. This feature works only when you are focused on the "
+"Interface window."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:126
+msgid "Adjust Vircadia Audio Settings"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:128
+msgid ""
+"There are a number of settings you can configure to customize your audio "
+"experience in Vircadia. To change these, open your Tablet or HUD and go "
+"to **Audio**."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:133
+msgid "Mute microphone"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:133
+msgid "Mute or unmute your microphone."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:135
+msgid "HMD Mute Warning (VR)"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:135
+msgid ""
+"Enable to receive a warning when your microphone is muted when wearing a "
+"HMD device."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:137
+msgid "Noise reduction"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:137
+msgid ""
+"Enable to turn on noise reduction. This removes outside noise from audio "
+"signals."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:139
+msgid "Audio level meter"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:139
+msgid ""
+"By default, the audio level meter is visible on the top left corner of "
+"your screen. Uncheck this box to hide the meter."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:142
+msgid "Echo Cancellation"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:142
+msgid "Enable or disable `acoustic echo cancellation <#id1>`_."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:144
+msgid "Stereo input"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:144
+msgid ""
+"Enable or disable stereo input. Stereo reproduces sound using two or more"
+" audio channels. This means that you will hear sound from various "
+"directions, like how you would in the real world."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:152
+msgid "Adjust OS Audio Settings"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:154
+msgid ""
+"Many device settings, such as input levels, boost, gains, and "
+"enhancements, cannot be set in Vircadia. These settings can only be "
+"adjusted at the operating system level or with a device's external "
+"software. If you experience issues with audio that cannot be resolved "
+"with any of the above settings, then try adjusting your operating "
+"system's device settings:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:156
+msgid "**Update the driver software for your audio devices**:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:158
+msgid ""
+"On Mac: Apple handles all driver updates on your computer. To check for "
+"updates, click on the Apple icon in the top-left corner of the screen and"
+" select 'Software Update'."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:159
+msgid ""
+"On Windows: Open the **Device Manager** and select the arrow next to "
+"**Sound, audio and game controllers**. Right-click on your audio device "
+"and select 'Update driver'."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:160
+msgid "**Adjust microphone levels and/or boost**:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:162
+msgid "On Mac: Go to **System Preferences > Sound > Input**."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:163
+msgid ""
+"On Windows: Go to **Control Panel > Sound > Recording**. Choose your "
+"microphone and click 'Properties'."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:164
+msgid "**Adjust other advanced sound settings**:"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:166
+msgid "Go to **Control Panel > Sound**"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:167
+msgid "Go to **Settings > System > Sound**"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:168
+msgid "Go to **Control Panel > Hardware and Sound > Adjust System Volume**"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:5
+msgid ""
+"To get the best and most immersive experience in Vircadia, we encourage "
+"you to use VR equipment, such as the Oculus Rift or HTC Vive. With these "
+"HMD devices and hand controllers, you will be able to interact with "
+"people in 3D, track body movements, and engage with the objects around "
+"you. We support the following VR equipment:"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:8
+msgid "Head Mounted Displays"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:8
+msgid "Hand Controllers"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:10
+msgid "Oculus Rift (CV1 and S)"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:10
+msgid "Oculus Touch"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:12
+msgid "HTC Vive"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:14
+msgid "Windows MR"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:14
+msgid "XBox One Controller"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:23
+msgid "VR Controls"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:34
+msgid "Comfort Mode"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:36
+msgid ""
+"Motion sickness is a real problem for many people when they put on a HMD "
+"and enter VR. This happens because your eyes experience movement in VR, "
+"while your body stands still. If you experience motion sickness and "
+"discomfort using VR equipment, you are not alone."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:38
+msgid ""
+"\"Comfort mode\" is designed to decrease the effects of motion sickness "
+"while using Vircadia. This mode:"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:40
+msgid "Disables sharp turns"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:41
+msgid "Decreases your field of vision by darkening the edges of the screen"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:42
+msgid "Adds a ground plane and grid"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:44
+msgid ""
+"All of these features were developed to help you orient yourself when "
+"moving around in VR."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:46
+msgid ""
+"To enable comfort mode, go to **Menu > Settings > Controls** on your "
+"tablet. Use the slider to adjust how much of the environment you see in "
+"VR."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:52
+msgid "Change How You Move in VR"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:54
+msgid ""
+"You can change many avatar movement settings in VR such as jumping, "
+"flying, and leaning behavior. To do so:"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:56
+msgid "In Desktop mode, go to **Settings > Controls** in the menu bar."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:57
+msgid "In VR mode, open your Tablet and go to **Menu > Settings > Controls**."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:62
+msgid "*VR Movement* > Teleporting"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:62
+msgid ""
+"Enables teleport controls to move seamlessly between positions within a "
+"domain."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:65
+msgid "*VR Movement* > Walking"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:65
+msgid "Enables walking controls to move within a domain."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:68
+msgid "*VR Movement* > Strafing"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:68
+msgid "Enables strafing controls (to walk sideways)."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:71
+msgid "*VR Movement* > Jumping and flying"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:71
+msgid "Enables jump and fly controls."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:74
+msgid "*VR Movement* > Movement Direction"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:74
+msgid "This setting controls which direction you move in:"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:76
+msgid "**HMD-Relative**: Move in the direction your head is pointing."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:77
+msgid "**Hand-Relative**: Move in the direction your dominant hand is pointing."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:78
+msgid ""
+"**Hand-Relative (Leveled)**: Move in the direction your hand is pointing,"
+" without taking pitch into account."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:81
+msgid "*VR Movement* > Dominant Hand"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:81
+msgid ""
+"Select 'Left' or 'Right'. Teleport and turn controls move to the "
+"controller in the dominant hand."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:84
+msgid "*VR Movement* > Rotation Mode"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:84
+msgid "This setting controls how you turn in VR:"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:86
+msgid "**Snap turn**: Rotate your avatar sharply to the left or the right."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:87
+msgid ""
+"**Smooth turn**: Rotate your avatar smoothly as you turn to the left or "
+"right."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:89
+msgid ""
+"**Comfort mode**: Enable `comfort mode`_ and decrease the field of vision"
+" while moving in VR mode."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:92
+msgid "*VR Movement* > Control Scheme Selection"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:92
+msgid "This setting determines how you control your walking speed:"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:94
+msgid ""
+"**Default**: Your walking speed will remain the same, no matter how far "
+"forward you push your controller's joystick. Fully pushing the joystick "
+"forward will make your avatar run."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:97
+msgid ""
+"**Analog**: Your walking speed changes based on how far forward you push "
+"your controller's joystick. Fully pushing your joystick forward will make"
+" your avatar run."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:100
+msgid ""
+"**Analog++**: Your walking speed changes based on how far forward you "
+"push your controller's joystick. You can use the slider to change the "
+"maximum walking speed in meters/second. Fully pushing your joystick "
+"forward will make your avatar run."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:105
+msgid "*VR Movement* > Avatar leaning behavior"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:105
+msgid "This setting controls if and when your avatar leans in VR mode."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:107
+msgid ""
+"**Auto**: This is the default setting. Your avatar will lean if you are "
+"standing in the real world."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:109
+msgid ""
+"**Seated**: Your avatar will not lean if you are sitting in the real "
+"world."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:110
+msgid "**Standing**: Your avatar will lean if you are sitting in the real world."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:111
+msgid "**Disabled**: Your avatar can sit on the floor (experimental)."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:113
+msgid "User real world height (in meters)"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:113
+msgid "You can change your real world height for better tracking in VR mode."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:121
+msgid "Motion Capture Using Vive Trackers"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:123
+msgid ""
+"You can enhance your Vircadia experience using full body motion capture "
+"(mocap). Vircadia currently supports mocap using HTC Vive Trackers."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:125
+msgid ""
+"Vive trackers need to be strapped to the body part you wish to track. You"
+" can replace the HMD and hand controllers with trackers if you only need "
+"to track the movement of your head and hands."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:127
+msgid "You can set up different mocap systems:"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:130
+msgid "Mocap System"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:130
+msgid "Equipment Needed"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:130
+msgid "Recommended Straps"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:132
+msgid "Head"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:132
+msgid "HMD or 1 Vive Tracker"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:132
+msgid "Head strap for Vive Tracker"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:134
+msgid "Hands"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:134
+msgid "Hand controllers or 2 Vive Trackers"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:134
+msgid "Hand strap for Vive Tracker"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:137
+msgid "Head + Hands + Feet"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:137
+msgid "2 Vive Trackers + HMD + 2 Hand Controllers"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:137
+msgid "Foot straps"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:140
+msgid "Head + Hands + Feet + Hips"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:140
+msgid "3 Vive Trackers + HMD + 2 Hand Controllers"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:140
+msgid ""
+"Hip Strap: Drill a hole in the back of a thick leather belt and attach "
+"the tracker using a 1/4\" screw."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:143
+msgid "Head + Hands + Feet + Hips + Chest"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:143
+msgid "4 Vive Trackers + HMD + 2 Hand Controllers"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:143
+msgid "Chest straps"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:146
+msgid "Head + Hands + Feet + Hips + Shoulders"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:146
+msgid "5 Vive Trackers + HMD + 2 Hand Controllers"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:146
+msgid "Shoulder straps"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:151
+msgid ""
+"You can replace the HMD and hand controllers with trackers if you only "
+"need to track the movement of your head and hands."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:157
+msgid "Configure Your Mocap System"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:159
+msgid "Strap your Vive trackers to your body as shown in the image."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:160
+msgid "Connect your trackers, HMD, and controllers to SteamVR."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:161
+msgid ""
+"In Interface, pull up your HUD or Tablet and go to **Menu > Settings > "
+"Calibration**."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:162
+msgid "Configure your mocap system by:"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:164
+msgid ""
+"Selecting the right device for your head and hands. If you're using a "
+"head tracker instead of an HMD, click 'Use HTC Vive Devices in Desktop "
+"Mode'."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:165
+msgid "Selecting the body position of any additional trackers."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:169
+msgid "Click 'Apply and Calibrate'."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:170
+msgid "Stand in a T-Pose until the timer counts down to zero:"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:172
+msgid "Feet together"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:173
+msgid "Arms out"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:174
+msgid "Head looking straight ahead."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:176
+msgid ""
+"Check to see that each tracker is tracking the corresponding joint on "
+"your avatar."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:177
+msgid ""
+"You can also calibrate your trackers without using your tablet. Once you "
+"apply your configuration, stand in a T-Pose and hold the following four "
+"buttons together for 1 second: Left Trigger, Right Trigger, Left Menu "
+"Button, Right Menu Button. You can press the same buttons together for a "
+"second to remove your calibration from the trackers."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:179
+msgid ""
+"When you setup your Vive, you choose which way to point the arrow as your"
+" reference. During calibration,  it is important that you face the same "
+"direction. If you can not remember the arrow's direction, press the Vive "
+"System Menu Button and look on the ground for a marker. This is important"
+" to make sure your joints are oriented correctly."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:183
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:186
+msgid "Issue"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:186
+msgid "Troubleshooting Steps"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:188
+msgid "My calibration failed"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:188
+msgid "Check if your trackers are properly connected in SteamVR."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:189
+msgid ""
+"Have you selected the correct configuration in your tablet and do you "
+"have enough number of trackers to support that configuration?"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:191
+msgid ""
+"If you are performing and not in HMD, did you select to 'Use HTC Vive in "
+"Desktop Mode'?"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:192
+msgid "Are any of the trackers blinking? If so, they may need to be paired again."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:193
+msgid ""
+"Do you have the correct number of dongles plugged in to your computer? "
+"You will need one dongle per tracker. If you are performing with all 7, "
+"then you may need a USB hub to handle them."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:197
+msgid "My sensor is jiggling a lot"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:197
+msgid "Make sure the straps on the sensor are tightened."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:199
+msgid "My sensor keeps losing tracking"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:199
+msgid ""
+"If it’s the hip tracker, is your shirt is tucked in and not covering the "
+"puck? Also make sure your headphone cord isn’t covering the puck."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:201
+msgid "Can the base stations clearly see the tracker?"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:202
+msgid ""
+"Is the signal from the base station conflicting with another Vive setup "
+"nearby?"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:203
+msgid ""
+"Are you clear of reflective surfaces nearby? (such as picture frames, "
+"whiteboards, shiny tables)."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:205
+msgid "Is the lighting consistent across the room (minimal outdoor lighting)?"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:206
+msgid "Try restarting SteamVR."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:209
+msgid ""
+"Remember to charge your trackers when you aren't using them so that you "
+"don't have to deal with a low battery tracker negatively impacting your "
+"performance."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:215
+msgid ""
+"If your HMD does not come equipped with hand controllers, you can use a "
+"gamepad. However, Vircadia is best experienced with VR equipment or the "
+"keyboard in Desktop mode."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:222
+msgid ":doc:`Interact with Your Environment <../interact>`"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:223
+msgid ":doc:`Explore in Desktop Mode <desktop>`"
+msgstr ""
+
+#: ../../source/explore/interact.md:3
+msgid ""
+"In High Fidelity, your experiences are shaped the world around you. When "
+"you enter a domain, all of the space around you is built with entities, "
+"or the building blocks of your environments. The walls of your room, the "
+"tree in the distance, or the animated butterfly that flew past are all "
+"entities."
+msgstr ""
+
+#: ../../source/explore/interact.md:5
+msgid ""
+"Just like in the real world, you can interact with your environment by "
+"grabbing items or colliding with objects."
+msgstr ""
+
+#: ../../source/explore/interact.md:7
+#: ../../source/explore/personalize/change-avatar.md:5
+#: ../../source/explore/personalize/install-apps.md:7
+#: ../../source/explore/travel.md:5
+msgid "On This Page:"
+msgstr ""
+
+#: ../../source/explore/interact.md:9 ../../source/explore/interact.md:14
+msgid "Grab Objects"
+msgstr ""
+
+#: ../../source/explore/interact.md:10 ../../source/explore/interact.md:28
+msgid "Collisions"
+msgstr ""
+
+#: ../../source/explore/interact.md:11 ../../source/explore/interact.md:36
+msgid "Triggered Entities"
+msgstr ""
+
+#: ../../source/explore/interact.md:16
+msgid ""
+"You can grab objects in High Fidelity using your mouse or hand "
+"controllers. You can grab an entity, hold it, throw it, and drop it "
+"depending on the entity's properties."
+msgstr ""
+
+#: ../../source/explore/interact.md:18
+msgid ""
+"In Desktop mode, click and hold the left mouse button to grab and hold an"
+" entity."
+msgstr ""
+
+#: ../../source/explore/interact.md:19
+msgid ""
+"In VR mode, reach out towards the object and press the Grab button. The "
+"location of this button depends on the controllers you are using."
+msgstr ""
+
+#: ../../source/explore/interact.md:30
+msgid ""
+"You can collide (or run into) objects and other avatars in High Fidelity."
+" Likewise, objects can collide with one another. We use physics to govern"
+" how entities behave when they collide with each other or with avatars."
+msgstr ""
+
+#: ../../source/explore/interact.md:32
+msgid ""
+"Without this collision property set, objects will move straight through "
+"other entities and avatars. As you interact with your environment, take "
+"note on which objects have collisions enabled based on whether or not you"
+" can walk through them."
+msgstr ""
+
+#: ../../source/explore/interact.md:34
+msgid ""
+"When creating your own entities, you can set the Collision property to "
+"turn on or off collisions."
+msgstr ""
+
+#: ../../source/explore/interact.md:38
+msgid ""
+"Some entities have scripts (or triggers) that make them behave a certain "
+"way when you interact with it. For example, you can trigger a light "
+"switch to turn on or off when your hand passes through it, or make a pet "
+"walk when you grab its leash."
+msgstr ""
+
+#: ../../source/explore/interact.md:40
+msgid ""
+"These triggers are scripted in the entities themselves by their creators."
+" Because of this, the possible behavior is endless. We encourage you to "
+"explore and discover all of the cool ways you can interact with your "
+"surroundings."
+msgstr ""
+
+#: ../../source/explore/interact.md:42
+#: ../../source/explore/personalize/change-avatar.md:51
+#: ../../source/explore/personalize/install-apps.md:97
+#: ../../source/explore/travel.md:35
+msgid "See Also"
+msgstr ""
+
+#: ../../source/explore/interact.md:44
+msgid "Apply Physics to Entities"
+msgstr ""
+
+#: ../../source/explore/interact.md:45
+msgid "Define an Entity's Behavior"
+msgstr ""
+
+#: ../../source/explore/interact.md:46
+msgid "Add Sound to Entities"
+msgstr ""
+
+#: ../../source/explore/interact.md:47
+msgid "Define Interactions with Avatars"
+msgstr ""
+
+#: ../../source/explore/personalize.rst:9
+msgid "Put on Wearables"
+msgstr ""
+
+#: ../../source/explore/personalize.rst:9
+#: ../../source/explore/personalize/install-apps.md:1
+#: ../../source/explore/personalize/install-apps.md:9
+#: ../../source/explore/personalize/install-apps.md:17
+msgid "Install Tablet Apps"
+msgstr ""
+
+#: ../../source/explore/personalize.rst:5
+msgid ""
+"Before you even enter Vircadia, there are many ways to personalize your "
+"experience and make it your own. You can customize everything from the "
+"hardware you use, to the way the app works, to how you appear to others."
+msgstr ""
+
+#: ../../source/explore/personalize.rst:7
+msgid "**In This Section:**"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:3
+msgid "Put On Wearables"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:5
+msgid ""
+"You can customize your avatar's appearance by adding wearables, such as a"
+" pirate's hat, a pair of sunglasses, or even a pair of trousers that you "
+"designed. Like avatars, you can buy wearables from the Marketplace or use"
+" your imagination to create your own."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:12
+msgid "Buy a Wearable from the Marketplace"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:14
+msgid ""
+"We and our users have designed many wearables that are available for your"
+" use in the Marketplace."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:16
+msgid "In Interface, pull up your Tablet or HUD and go to **Market**."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:17
+msgid ""
+"Search for a specific wearable, or browse all wearables by selecting the "
+"'Wearables' category."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:18
+msgid "Click on any one you like and click the price to buy."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:21
+msgid "After completing your purchase, click 'Wear' to put on your new wearable."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:23
+msgid ""
+"If your wearable looks good, then you're done! If you want to adjust its "
+"position, then continue:"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:25
+msgid "Click **Avatar** on Tablet or HUD to open the Avatar app."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:26
+#: ../../source/explore/personalize/add-wearables.rst:44
+msgid "In the **Avatar** window, click the hat icon next to 'Wearables'."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:29
+msgid "From the 'Wearable' dropdown list, choose the wearable you purchased."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:30
+#: ../../source/explore/personalize/add-wearables.rst:49
+msgid ""
+"Select the joint you'd like to use for your wearable. For example, a hat "
+"would be on your head, and fairy wings would be on your spine."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:31
+#: ../../source/explore/personalize/add-wearables.rst:50
+msgid "Fine tune the placement using the 'Position' and 'Rotation' options."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:32
+#: ../../source/explore/personalize/add-wearables.rst:51
+msgid ""
+"Check 'Is soft' if the item is rigged with your skeleton. This allows the"
+" item to move and bend with the avatar as it moves."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:33
+#: ../../source/explore/personalize/add-wearables.rst:52
+msgid "Click 'Save'."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:37
+msgid "Wear Your Own Wearable"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:39
+msgid ""
+"You can put on a :doc:`wearable that you created "
+"<../../create/wearables>`. All wearables must be hosted in the cloud "
+"before they can be used with Vircadia. Examples of cloud storage options "
+"include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure. "
+"Alternatively, you can :doc:`upload your custom wearable to the "
+"Marketplace <../../sell/add-item/upload-wearable>` and sell to other "
+"users."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:41
+msgid ""
+"Once you know the URL for your wearable's FBX file, then put it on your "
+"avatar:"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:43
+msgid "In Interface, pull up your tablet or HUD and click on **Avatar**."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:47
+msgid "Click 'Add custom' at the top of the window."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:48
+msgid "Enter the .fbx file's URL and click 'Confirm'."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:57
+msgid ":doc:`Create Wearables <../../create/wearables>`"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:58
+msgid ""
+":doc:`Add Your Wearable to the Marketplace <../../sell/add-item/upload-"
+"wearable>`"
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:3
+msgid ""
+"When you first use Vircadia, you will be wearing the default avatar, "
+"Woody. Your avatar is a representation of you in the metaverse. You can "
+"control how your avatar moves and speak to other users in-world using it."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:7
+msgid "Use Your VirtualYou Avatar"
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:8
+#: ../../source/explore/personalize/change-avatar.md:24
+msgid "Buy an Avatar from the Marketplace"
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:9
+#: ../../source/explore/personalize/change-avatar.md:35
+msgid "Use Your Own Custom Avatar"
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:11
+msgid "Use Your VirtualYou Avatar (Discontinued)"
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:13
+msgid ""
+"Please be informed that VirtualYou has been discontinued by High "
+"Fidelity. We will however, leave this documentation to help people who "
+"still own a VirtualYou Avatar. VirtualYou: 3D Avatar Creator is "
+"Vircadia’s mobile app developed with the help of our friends at Wolf3D. "
+"In just a few easy steps, you can create a 3D avatar that looks like you "
+"in less than five minutes. The app creates your avatar based on a selfie "
+"that you take from your phone's camera. You can then select customize "
+"your hair, face and body attributes, and choose your outfit."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:16
+msgid "At the end, log in to Vircadia to upload your new avatar to your account."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:18
+msgid "To wear your VirtualYou avatar:"
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:20
+msgid "In Interface, pull up your Tablet or HUD and go to Inventory."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:21
+msgid "Click on the 'Items' tab."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:22
+msgid "Locate your VirtualYou avatar and click 'Wear'."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:26
+msgid ""
+"We and our users have designed multiple avatars that are available for "
+"your use in the Marketplace."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:28
+msgid "To get an avatar from the Marketplace:"
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:30
+msgid "In Interface, pull up your Tablet or HUD and go to Market."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:31
+msgid "Search for avatars, or look for avatars under 'Categories'."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:32
+msgid ""
+"You'll see a list of avatars of different designs available. Click on any"
+" one you like and click the price to buy."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:33
+msgid "After completing your purchase, click 'Wear' to switch to your new avatar."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:37
+msgid ""
+"You can use an avatar that you created. Learn more about how you can "
+"create your avatar here."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:44
+msgid "Once you have your avatar's .fst file, you can upload it."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:46
+msgid "In Interface, pull up your tablet or HUD and click on Avatar."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:47
+msgid "In the Avatar window, click the link icon next to your current avatar."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:48
+msgid "Enter the .fst file's URL and click 'Confirm'."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:49
+msgid ""
+"If you want to access this avatar later without loading the .fst file "
+"information again, you can click on 'Add to Favorites' to save the "
+"current avatar information."
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:53
+msgid "Create Your Own Avatar"
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:54
+msgid "Find and Use an Existing Avatar"
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:55
+msgid "Package and Host Your Avatar"
+msgstr ""
+
+#: ../../source/explore/personalize/change-avatar.md:56
+msgid "Add Your Avatar to the Marketplace"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:3
+msgid ""
+"You can enhance your experience in Vircadia by installing tablet apps "
+"from the Marketplace. These apps enable you to get more out of Vircadia. "
+"Do you want to record your avatar dancing, take selfies, or finger paint?"
+" Or are you looking to livestream to YouTube or make your avatar clap? "
+"Our Marketplace has a number of apps that can help you customize your "
+"experience in-world."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:5
+msgid ""
+"If you can't find an app for what you'd like to do, you can create your "
+"own and upload it to our Marketplace for your personal use or to sell to "
+"others."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:10
+#: ../../source/explore/personalize/install-apps.md:27
+msgid "Update an App"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:11
+#: ../../source/explore/personalize/install-apps.md:47
+msgid "Our Marketplace Apps"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:12
+msgid "Spectator Cam: Record or Livestream in High Fidelity"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:13
+#: ../../source/explore/personalize/install-apps.md:68
+msgid "Finger Painting"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:14
+#: ../../source/explore/personalize/install-apps.md:79
+msgid "Text to Speech"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:18
+msgid ""
+"We and many users have created tablet apps that are available in "
+"Vircadia's Marketplace. To find and install an app:"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:20
+msgid "In Interface, pull up your HUD or Tablet and go to Market."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:21
+msgid ""
+"Search for a specific app, or browse all apps by selecting the 'Apps, "
+"Scripts, & Tools' category."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:22
+msgid ""
+"Click the app of your choice to purchase it and click the price of the "
+"item. Once you've purchased your app, you can view it in the Inventory "
+"app or 'Recent Activity'."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:23
+msgid ""
+"After completing your purchase, click 'Install App' to start using the "
+"app in Vircadia."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:24
+msgid ""
+"Once the app is installed, click 'Open App' to launch. You can also "
+"access the app through your HUD or Tablet."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:28
+msgid ""
+"When an app has an update available, a notification will pop up in the "
+"top right corner of the Interface when you open Vircadia. Additionally, a"
+" red dot will appear on the Inventory icon of your HUD or Tablet to "
+"indicate an update is available to download."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:30
+msgid "To update your app:"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:31
+msgid "In Interface, pull up your HUD or Tablet and go to Inventory."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:32
+msgid ""
+"In the Inventory app, click the notification that says \"You have X item "
+"updates available.\""
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:33
+msgid "Scroll to the app you'd like to update and click on the menu."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:34
+msgid "Click the 'Update' button, then 'Update for Free'."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:41
+msgid "Additional Notes on Updating"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:42
+msgid ""
+"If you decide not to update an item, the old product will still be valid "
+"and listed in Inventory."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:43
+msgid ""
+"Once you update an item, the previous version of the product will no "
+"longer be available."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:44
+msgid ""
+"If you purchased multiple instances of an item, you need to individually "
+"update each instance of an item in your Inventory."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:45
+msgid ""
+"When you update a product with the old version already in-world, it will "
+"remain intact until it is replaced manually with the updated version. If "
+"you attempt to import an entities JSON which contains the old version, "
+"the system will ignore the item, and not automatically replace it in-"
+"world. It is up to the end-user to replace the old instances with the "
+"new."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:48
+msgid "We've listed some of the apps we created and how you can use them."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:50
+msgid "Spectator Cam"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:51
+msgid ""
+"The Spectator Camera is a camera you can use to record or livestream what"
+" you and your friends do in Vircadia. It is only available in HMD mode, "
+"and requires a recording software such as Open Broadcaster Software (OBS)"
+" to work correctly. Check out their official overview guide for more "
+"details."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:53
+msgid "Use the instructions above to install the Spectator Camera app."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:60
+msgid "To use the Spectator Camera app:"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:61
+msgid "In Interface, pull up your HUD or Tablet and go to Spectator."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:62
+msgid ""
+"Turn on your Spectator Cam by moving the slider. You'll see the camera "
+"appear in-world. By default, the app's display shows you what you see in "
+"VR through your HMD. This is to show you what you're recording without "
+"having to take off your HMD."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:63
+msgid ""
+"To record yourself, switch your display from your HMD's view to the "
+"camera view. This lets you record videos of yourself, such as your avatar"
+" dancing or trying on different wearables."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:64
+msgid ""
+"Enable switching views with your controllers in the Spectator app on your"
+" HUD or Tablet."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:65
+msgid ""
+"Rift: If you're using Oculus Touch controllers, click the left thumbstick"
+" to switch views."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:66
+msgid ""
+"Vive: If you're using HTC Vive controllers, press on the center of the "
+"thumb pad to switch views."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:70
+msgid ""
+"The Fingerpaint app lets your paint your environment, your own avatar, or"
+" even another user's avatar. Use the instructions above to install the "
+"Fingerpaint app."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:72
+msgid "To use the Fingerpaint app:"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:73
+msgid "In Interface, pull up your HUD or Tablet and go to Body Paint."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:74
+msgid ""
+"First, click 'Options' to select what you would like to paint on - the "
+"world around you, your avatar, or another user's avatar (with their "
+"permission)."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:75
+msgid "Click 'Palette' to select a color for your paint."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:76
+msgid ""
+"Click 'Brushes' to select the settings for your brush, such as stroke "
+"width, type of brush, and special effects."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:81
+msgid ""
+"The Text to Speech app synthesizes the text you type into speech. You can"
+" use this app if you don't wish to use your voice, have microphone "
+"issues, or have disabilities."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:83
+msgid "Use the instructions above to install the Text to Speech app."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:90
+msgid "To use the Text to Speech (TTS) app:"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:91
+msgid "In Interface, pull up your HUD or Tablet and go to TTS."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:92
+msgid "In the app, select the Pitch and Speed of your choice."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:93
+msgid "Type in the text you'd like your avatar to speak."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:94
+msgid ""
+"Hit 'Speak' to hear your text. Hit 'Stop Last' to stop your avatar from "
+"speaking."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.md:98
+msgid "Create Tablet Apps"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:5
+msgid ""
+"Vircadia is all about the people you meet and the experiences you have "
+"with them. Vircadia enables people connected by interest, community, and "
+"friendship to come together from anywhere in the world."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:12
+msgid "Make Connections and Friends"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:14
+msgid ""
+"In Vircadia, you can establish a connection with someone else by shaking "
+"hands with them. With your hand controllers, place your hands near each "
+"other and hold the grip button. Desktop users can press and hold ``X`` on"
+" their keyboard."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:16
+msgid ""
+"Once you make a connection with someone, they will appear under "
+"Connections in the `The People app`_. You will also appear on their list "
+"of connections. You will be able to see where they are in the metaverse, "
+"and you can travel to them at any time."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:18
+msgid ""
+"To mark a connection as a friend, check the box next to their name in the"
+" People app. You can make yourself available to only your friends using "
+"the People app."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:24
+msgid "The People App"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:26
+msgid ""
+"The People app provides a set of tools that help users manage their "
+"interactions with people in the metaverse. It gives you a list of the "
+"people nearby (in the same domain as you), and gives you easy access to "
+"all of your connections. From the People app, you can:"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
+msgid "Feature"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:33
+msgid "Profile Picture"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:33
+msgid ""
+"This is where your profile picture will be visible. Click on the image to"
+" view your profile. You can change this image on our `website "
+"<https://highfidelity.com/>`_."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:36
+msgid "Display Name"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:36
+msgid ""
+"You can change your display name at any time. By default, it will be "
+"'anonymous'. In the image above, the display name is 'HiFi Docs'."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:39
+msgid "Set Availability"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:39
+msgid ""
+"This feature allows you to appear online to select groups of users: "
+"Everyone, Friends and Connections, Friends Only, or Appear Offline. The "
+"users you appear online to will also be able to teleport to your "
+"location."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:43
+msgid "Master Volume"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:43
+msgid "Set the volume of your audio in Vircadia."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:45
+msgid "Nearby"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:45
+msgid "This is the list of users who are nearby in the same domain as you."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:47
+msgid "In View"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:47
+msgid ""
+"You can check this box to view only the users in front of you in a "
+"domain. This is useful when a domain has a lot of users."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:50
+msgid "Refresh Button"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:50
+msgid "Click this button to refresh the list of users currently in the domain."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:52
+msgid "Connections"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:52
+msgid ""
+"This is the list of users who are your friends and connections. You can "
+"also teleport to their location from this list."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:55
+msgid "Loud"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:55
+msgid ""
+"Click this icon next to the user you want to mute. The user will be muted"
+" only for you, not for other users in the domain. The icon also displays "
+"how loudly a user is speaking."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:58
+msgid "Names"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:58
+msgid ""
+"This is the list of users available in the domain. You will only see "
+"their display names."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:60
+msgid "Ignore"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:60
+msgid ""
+"If you check this box next to a user, you and the user will not be able "
+"to see or hear each other."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:65
+msgid "Use the People App as an Admin"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:67
+msgid ""
+"As an administrator in a domain, you will have privileges to maintain a "
+"domain. The People app will have an additional column that allows an "
+"admin to silence and ban users in the same domain."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:74
+msgid "Silence"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:74
+msgid ""
+"You can click the icon to mute a user. This user will be muted for "
+"everyone in the domain."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:76
+msgid "Ban"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:76
+msgid ""
+"You can click here to ban a user from the current domain. The user will "
+"not be able to enter the domain using the same account. The banned user "
+"will still have access to other High Fidelity domains."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:84
+msgid "Your Privacy Shield"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:86
+msgid ""
+"You can enable a privacy shield that protects your personal space in the "
+"metaverse. When it is enabled, other people will disappear if they get "
+"too close to you. Your privacy shield is disabled by default. To enable "
+"it, pull up your tablet or HUD and click **Shield**. In Desktop mode, you"
+" can also use the keyboard shortcut ``CTRL`` + ``N``."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:88
+msgid ""
+"There is also a Shield icon on the top-left corner of your Interface "
+"window, next to the audio icon, that can be used to toggle your privacy "
+"shield."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:95
+msgid "Attend Live Events"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:97
+msgid ""
+"One of the great things about virtual reality is that you can attend "
+"events. Vircadia regularly hosts events such as workshops, lectures on "
+"VR, and town hall meetings to meet our team. You can view all upcoming "
+"events on the Vircadia website. Events are a great place to meet others "
+"and share experiences with others around the world."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:99
+msgid ""
+"To attend an event, simply go to the hosted domain at the time of the "
+"event."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:104
+msgid "Express Yourself"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:106
+msgid ""
+"There are many ways you can express yourself in Vircadia, such as "
+"animating the mouth of your avatar or using gestures in the **Emote** "
+"app."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:108
+msgid ""
+"By default, all avatars will use a standard set of animations, such as "
+"your eyes blinking or your mouth opening and closing as you talk. When "
+"you are using a VR controller, your avatar will automatically mimic your "
+"hand gestures and movements."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:113
+msgid "The Emote App"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:115
+msgid ""
+"The Emote app is a way for desktop users to express themselves without "
+"using VR controllers. With this app, you can display feelings by: crying,"
+" acting surprised, dancing, cheering, waving, falling, pointing, "
+"clapping, sitting, or showing love."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:123
+msgid "Chat with Users"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:125
+msgid ""
+"Vircadia does have a default text chat option that works well desktop "
+"users. Currently support for text chat in VR is not up to standard. "
+"Fortunately, our extensible open-source scripting and UI gives you the "
+"ability to create the features you want, including improving the text "
+"chat. There are some great scripts for chat that have already been built "
+"by community members, and a few are described below."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:130
+msgid "Alternative Local Chat"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:132
+msgid ""
+"This clean, reliable, and well-written chat script was created by alpha "
+"user ctrlaltdavid."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:136
+msgid "To run the script:"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:138
+msgid "In Interface, go to **Edit > Open and Run Script from URL**."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:139
+msgid ""
+"Paste this `URL "
+"<http://ctrlaltstudio.com/downloads/hifi/scripts/chat.js>`__."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:141
+msgid ""
+"The script will start running and display a text chat window pop-up. You "
+"can use this window to chat with other users in the same domain who are "
+"running the same script. If text chat is important to you, you can add "
+"this to your default scripts so it's always there."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:149
+msgid "COM Script Version 1"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:151
+msgid ""
+"AlphaVersionD has authored an equally powerful and friendly script that "
+"runs on a domain. All users that visit a domain with the script can chat "
+"with one another, without installing a separate app or script. With this "
+"script, you have the power to enable chat on any of your own domains."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:153
+msgid ""
+"You can run a script only in a domain where you have the right "
+"permissions. Ensure that you have the right permissions in a domain where"
+" you wish to use the COM Script."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:155
+msgid "To install COM Script in your domain:"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:157
+msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:158
+msgid "Click the 'zone' icon to create a zone entity."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:159
+msgid ""
+"In the 'Properties' tab of the zone entity, paste this `URL "
+"<http://metaversecafes.com/HighFidelity/QueenCity/A_2016_Q_wab/AQUI/COM_v1.0.js>`_."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:161
+msgid "COM Script version 1 is now running in the zone in your domain!"
+msgstr ""
+
+#: ../../source/explore/travel.md:3
+msgid ""
+"Vircadia is made up of many virtual places that let you participate in "
+"activities and interact with the people around you. Many of these places "
+"are beautifully detailed worlds that are interesting to explore at any "
+"time, while others were built to host events and engage with the people "
+"around you."
+msgstr ""
+
+#: ../../source/explore/travel.md:6 ../../source/explore/travel.md:9
+msgid "GoTo App"
+msgstr ""
+
+#: ../../source/explore/travel.md:7 ../../source/explore/travel.md:28
+msgid "Visit a Friend"
+msgstr ""
+
+#: ../../source/explore/travel.md:10
+msgid ""
+"The GoTo app lets you travel between different places in the Vircadia "
+"metaverse. Many of our places are created by users just like you."
+msgstr ""
+
+#: ../../source/explore/travel.md:12
+msgid "To go and explore new places:"
+msgstr ""
+
+#: ../../source/explore/travel.md:13
+msgid "In Interface, pull up your tablet or HUD and go to GoTo."
+msgstr ""
+
+#: ../../source/explore/travel.md:14
+msgid ""
+"If you know where you want to go, enter the domain address or place name."
+" As you type, the matching places will show up. Otherwise, browse the "
+"open places under 'Featured' and 'Places'."
+msgstr ""
+
+#: ../../source/explore/travel.md:15
+msgid ""
+"Click on a place name to go to the place. If you have permissions, you "
+"will be transported to that location automatically."
+msgstr ""
+
+#: ../../source/explore/travel.md:24
+msgid ""
+"The GoTo app also shows you a visual feed of snapshots that people have "
+"taken and shared in the metaverse. Clicking on a snap will take you "
+"directly to the place where the picture was taken."
+msgstr ""
+
+#: ../../source/explore/travel.md:29
+msgid ""
+"Once you've made a friend, you can see where they are and even teleport "
+"directly to them."
+msgstr ""
+
+#: ../../source/explore/travel.md:31
+msgid "In Interface, open your tablet or HUD and go to People."
+msgstr ""
+
+#: ../../source/explore/travel.md:32
+msgid "Click 'Connections' and find the friend you want to visit."
+msgstr ""
+
+#: ../../source/explore/travel.md:33
+msgid "Select their name then 'Visit'."
+msgstr ""
+
