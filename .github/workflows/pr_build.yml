@@ -46,4 +46,3 @@ jobs:
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" >private_key.pem
         chmod 600 private_key.pem
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/PR${{ github.event.number }}/build-en.tar.gz -C /var/www/html/gha/PR${{ github.event.number }}/
-        rm /var/www/html/gha/build-en.tar.gz
