@@ -30,7 +30,7 @@ jobs:
         cd docs
         make html
         mkdir -p build-archives
-        tar -czvf build-archives/build-en.tar.gz build/html/*
+        tar -czvf build-archives/build-en.tar.gz -C build/html/ *
     - name: Upload documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
