@@ -47,6 +47,7 @@ jobs:
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" >private_key.pem
         chmod 600 private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 mkdir -p /var/www/html/gha/
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-en.tar.gz -C /var/www/html/gha/
 
   update_translation_files:
@@ -134,10 +135,12 @@ jobs:
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" >private_key.pem
         chmod 600 private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 mkdir -p /var/www/html/gha/de/
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-de.tar.gz -C /var/www/html/gha/de/
     - name: Deploy japanese documentation
       shell: bash
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" >private_key.pem
         chmod 600 private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 mkdir -p /var/www/html/gha/jp/
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-jp.tar.gz -C /var/www/html/gha/jp/
