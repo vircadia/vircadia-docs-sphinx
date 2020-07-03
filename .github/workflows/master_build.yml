@@ -32,7 +32,7 @@ jobs:
         cd docs
         make html
         mkdir -p build-archives
-        tar -czvf build-archives/build-en.tar.gz build/html/
+        tar -czvf build-archives/build-en.tar.gz build/html/*
     - name: Upload documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
@@ -49,6 +49,7 @@ jobs:
         chmod 600 private_key.pem
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 mkdir -p /var/www/html/gha/
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-en.tar.gz -C /var/www/html/gha/
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 rm /var/www/html/gha/build-en.tar.gz
 
   update_translation_files:
     runs-on: ubuntu-20.04
@@ -113,14 +114,14 @@ jobs:
         cd docs
         make BUILDDIR=build-de SPHINXOPTS="-Dlanguage=de" html
         mkdir -p build-archives
-        tar -czvf build-archives/build-de.tar.gz build-de/html/
+        tar -czvf build-archives/build-de.tar.gz build-de/html/*
     - name: Build japanese documentation
       shell: bash
       run: |
         cd docs
         make BUILDDIR=build-jp SPHINXOPTS="-Dlanguage=jp" html
         mkdir -p build-archives
-        tar -czvf build-archives/build-jp.tar.gz build-jp/html/
+        tar -czvf build-archives/build-jp.tar.gz build-jp/html/*
     - name: Upload translated documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
@@ -137,6 +138,7 @@ jobs:
         chmod 600 private_key.pem
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 mkdir -p /var/www/html/gha/de/
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-de.tar.gz -C /var/www/html/gha/de/
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 rm /var/www/html/gha/build-de.tar.gz
     - name: Deploy japanese documentation
       shell: bash
       run: |
@@ -144,3 +146,4 @@ jobs:
         chmod 600 private_key.pem
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 mkdir -p /var/www/html/gha/jp/
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-jp.tar.gz -C /var/www/html/gha/jp/
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 rm /var/www/html/gha/build-jp.tar.gz
