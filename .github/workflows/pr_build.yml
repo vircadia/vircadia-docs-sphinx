@@ -29,12 +29,20 @@ jobs:
       run: |
         cd docs
         make html
+        mkdir -p build-archives
+        tar -czvf build-archives/build-en.tar.gz build/html/
     - name: Upload documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
         username: 'gha'
         server: '94.130.177.235'
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-        local_path: 'docs/build/html/*'
+        local_path: 'docs/build-archives/*'
         remote_path: '/var/www/html/gha/PR${{ github.event.number }}/'
         args: '-o ConnectTimeout=5'
+    - name: Deploy english documentation
+      shell: bash
+      run: |
+        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" >private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/PR${{ github.event.number }}/build-en.tar.gz -C /var/www/html/gha/PR${{ github.event.number }}/
+        rm /var/www/html/gha/build-en.tar.gz

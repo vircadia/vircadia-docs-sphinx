@@ -31,15 +31,23 @@ jobs:
       run: |
         cd docs
         make html
+        mkdir -p build-archives
+        tar -czvf build-archives/build-en.tar.gz build/html/
     - name: Upload documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
         username: 'gha'
         server: '94.130.177.235'
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-        local_path: 'docs/build/html/*'
+        local_path: 'docs/build-archives/*'
         remote_path: '/var/www/html/gha/'
         args: '-o ConnectTimeout=5'
+    - name: Deploy english documentation
+      shell: bash
+      run: |
+        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" >private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-en.tar.gz -C /var/www/html/gha/
+        rm /var/www/html/gha/build-en.tar.gz
 
   update_translation_files:
     runs-on: ubuntu-20.04
@@ -71,6 +79,7 @@ jobs:
       run: |
         cd docs
         sphinx-intl update -l de
+        sphinx-intl update -l jp
     - name: Commit updated language files
       shell: bash
       run: |
@@ -78,13 +87,13 @@ jobs:
         git commit -am "Automated translation file update"
         git push
 
-  build_de_docs:
+  build_translated_docs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
         python-version: [3.7]
 
-    name: Build and upload german docs
+    name: Build and deploy translated docs
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
@@ -102,12 +111,33 @@ jobs:
       run: |
         cd docs
         make BUILDDIR=build-de SPHINXOPTS="-Dlanguage=de" html
-    - name: Upload german documentation
+        mkdir -p build-archives
+        tar -czvf build-archives/build-de.tar.gz build-de/html/
+    - name: Build japanese documentation
+      shell: bash
+      run: |
+        cd docs
+        make BUILDDIR=build-jp SPHINXOPTS="-Dlanguage=jp" html
+        mkdir -p build-archives
+        tar -czvf build-archives/build-jp.tar.gz build-jp/html/
+    - name: Upload translated documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
         username: 'gha'
         server: '94.130.177.235'
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-        local_path: 'docs/build-de/html/*'
-        remote_path: '/var/www/html/gha/de/'
+        local_path: 'docs/build-archives/*'
+        remote_path: '/var/www/html/gha/'
         args: '-o ConnectTimeout=5'
+    - name: Deploy german documentation
+      shell: bash
+      run: |
+        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" >private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-de.tar.gz -C /var/www/html/gha/de/
+        rm /var/www/html/gha/build-de.tar.gz
+    - name: Deploy japanese documentation
+      shell: bash
+      run: |
+        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" >private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-jp.tar.gz -C /var/www/html/gha/jp/
+        rm /var/www/html/gha/build-jp.tar.gz
