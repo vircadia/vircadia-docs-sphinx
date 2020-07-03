@@ -32,7 +32,8 @@ jobs:
         cd docs
         make html
         mkdir -p build-archives
-        tar -czvf build-archives/build-en.tar.gz -C build/html/ *
+        cd build/html/
+        tar -czvf ../../build-archives/build-en.tar.gz *
     - name: Upload documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
@@ -114,14 +115,16 @@ jobs:
         cd docs
         make BUILDDIR=build-de SPHINXOPTS="-Dlanguage=de" html
         mkdir -p build-archives
-        tar -czvf build-archives/build-de.tar.gz -C build-de/html/ *
+        cd build-de/html/
+        tar -czvf ../../build-archives/build-de.tar.gz *
     - name: Build japanese documentation
       shell: bash
       run: |
         cd docs
         make BUILDDIR=build-jp SPHINXOPTS="-Dlanguage=jp" html
         mkdir -p build-archives
-        tar -czvf build-archives/build-jp.tar.gz -C build-jp/html/ *
+        cd build-jp/html/
+        tar -czvf ../../build-archives/build-jp.tar.gz *
     - name: Upload translated documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
