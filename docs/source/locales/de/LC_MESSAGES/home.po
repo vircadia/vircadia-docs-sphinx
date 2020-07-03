@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2020-07-03 09:06+0000\n"
+"POT-Creation-Date: 2020-07-03 20:15+0000\n"
 "PO-Revision-Date: 2020-06-26 20:58+0000\n"
 "Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
 "Language: de\n"
@@ -20,48 +20,48 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:37
 #, fuzzy
 msgid "HOME"
 msgstr "Start"
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:37
 msgid "EXPLORE"
 msgstr ""
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:37
 msgid "CREATE"
 msgstr ""
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:37
 msgid "SCRIPT"
 msgstr ""
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:37
 msgid "HOST"
 msgstr ""
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:37
 msgid "CONTRIBUTE"
 msgstr ""
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:37
 msgid "DEVELOPER"
 msgstr ""
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:37
 msgid "SECURITY"
 msgstr ""
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:37
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:37
 msgid "RELEASE NOTES"
 msgstr ""
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:37
 msgid "API REFERENCE"
 msgstr ""
 
@@ -99,51 +99,55 @@ msgstr ""
 msgid "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 msgstr ""
 
-#: ../../source/home.rst:21
+#: ../../source/home.rst:14
+msgid "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+msgstr ""
+
+#: ../../source/home.rst:24
 msgid "What can I do?"
 msgstr "Was kann ich machen?"
 
-#: ../../source/home.rst:23
+#: ../../source/home.rst:26
 msgid "You have the power to shape your VR experience in Vircadia."
 msgstr ""
 
-#: ../../source/home.rst:25
+#: ../../source/home.rst:28
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
 msgstr ""
 
-#: ../../source/home.rst:26
+#: ../../source/home.rst:29
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
 msgstr ""
 
-#: ../../source/home.rst:27
+#: ../../source/home.rst:30
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
 msgstr ""
 
-#: ../../source/home.rst:28
+#: ../../source/home.rst:31
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
 msgstr ""
 
-#: ../../source/home.rst:29
+#: ../../source/home.rst:32
 msgid ""
 ":doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source "
 "code in the repository."
 msgstr ""
 
-#: ../../source/home.rst:30
+#: ../../source/home.rst:33
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
 msgstr ""
 
-#: ../../source/home.rst:31
+#: ../../source/home.rst:34
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
