@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-04 01:47+0000\n"
+"POT-Creation-Date: 2020-07-04 02:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -237,8 +237,8 @@ msgstr ""
 #: ../../source/create/entities/create-fountain.rst:35
 #: ../../source/create/entities/zone-entity.rst:18
 #: ../../source/create/entities/zone-entity.rst:60
-#: ../../source/create/entities/zone-entity.rst:103
-#: ../../source/create/entities/zone-entity.rst:154
+#: ../../source/create/entities/zone-entity.rst:106
+#: ../../source/create/entities/zone-entity.rst:157
 msgid "Property"
 msgstr ""
 
@@ -481,8 +481,8 @@ msgstr ""
 #: ../../source/create/entities/entity-behavior.rst:147
 #: ../../source/create/entities/zone-entity.rst:18
 #: ../../source/create/entities/zone-entity.rst:60
-#: ../../source/create/entities/zone-entity.rst:103
-#: ../../source/create/entities/zone-entity.rst:154
+#: ../../source/create/entities/zone-entity.rst:106
+#: ../../source/create/entities/zone-entity.rst:157
 #: ../../source/create/environments.rst:15
 msgid "Description"
 msgstr ""
@@ -577,7 +577,7 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:139
 #: ../../source/create/entities/entity-behavior.rst:153
 #: ../../source/create/entities/web-entity-media.rst:156
-#: ../../source/create/entities/zone-entity.rst:164
+#: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:133
 msgid "**See Also**"
 msgstr ""
@@ -4560,7 +4560,7 @@ msgstr ""
 #: ../../source/create/entities/boombox-tutorial.rst:164
 #: ../../source/create/entities/create-fountain.rst:88
 #: ../../source/create/entities/web-entity-media.rst:161
-#: ../../source/create/entities/zone-entity.rst:169
+#: ../../source/create/entities/zone-entity.rst:172
 msgid ":doc:`Change How Entities Look <entity-appearance>`"
 msgstr ""
 
@@ -4568,7 +4568,7 @@ msgstr ""
 #: ../../source/create/entities/boombox-tutorial.rst:165
 #: ../../source/create/entities/entity-appearance.rst:143
 #: ../../source/create/entities/web-entity-media.rst:160
-#: ../../source/create/entities/zone-entity.rst:168
+#: ../../source/create/entities/zone-entity.rst:171
 msgid ":doc:`Define an Entity's Behavior <entity-behavior>`"
 msgstr ""
 
@@ -5592,7 +5592,7 @@ msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:42
 #: ../../source/create/entities/zone-entity.rst:37
-#: ../../source/create/entities/zone-entity.rst:97
+#: ../../source/create/entities/zone-entity.rst:100
 msgid "Ambient Light"
 msgstr ""
 
@@ -5620,7 +5620,7 @@ msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:50
 #: ../../source/create/entities/zone-entity.rst:42
-#: ../../source/create/entities/zone-entity.rst:148
+#: ../../source/create/entities/zone-entity.rst:151
 msgid "Bloom"
 msgstr ""
 
@@ -5849,7 +5849,7 @@ msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:142
 #: ../../source/create/entities/web-entity-media.rst:159
-#: ../../source/create/entities/zone-entity.rst:167
+#: ../../source/create/entities/zone-entity.rst:170
 msgid "`The Create App <../tools.html#the-create-app>`_"
 msgstr ""
 
@@ -7433,7 +7433,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:158
-#: ../../source/create/entities/zone-entity.rst:166
+#: ../../source/create/entities/zone-entity.rst:169
 msgid ":doc:`Create New Entites <create-entities>`"
 msgstr ""
 
@@ -7511,7 +7511,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/zone-entity.rst:40
-#: ../../source/create/entities/zone-entity.rst:115
+#: ../../source/create/entities/zone-entity.rst:118
 msgid "Haze"
 msgstr ""
 
@@ -7649,25 +7649,31 @@ msgid ""
 "a sphere."
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:99
+#: ../../source/create/entities/zone-entity.rst:95
+msgid ""
+"Supported texture formats are PNG, JPG, JPEG, TGA, TIF and TIFF. PNG-48 "
+"or PNG-64 are not supported."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:102
 msgid ""
 "Ambient lighting illuminates the view according to the brightness and "
 "color of a texture. Accepted properties are:"
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:105
+#: ../../source/create/entities/zone-entity.rst:108
 msgid "Ambient Intensity"
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:105
+#: ../../source/create/entities/zone-entity.rst:108
 msgid "This sets the intensity of the illumination."
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:107
+#: ../../source/create/entities/zone-entity.rst:110
 msgid "Ambient Source"
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:107
+#: ../../source/create/entities/zone-entity.rst:110
 msgid ""
 "This takes the URL of a texture similar to the skybox. You can also use "
 "the same URL as the skybox. One scenario where this could be useful would"
@@ -7675,43 +7681,43 @@ msgid ""
 "from different colored planets."
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:117
+#: ../../source/create/entities/zone-entity.rst:120
 msgid ""
 "Haze creates fog inside a Zone. This can be used to make things look more"
 " atmospheric, but is also useful for hiding distant geometry. Properties "
 "available for haze:"
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:150
+#: ../../source/create/entities/zone-entity.rst:153
 msgid ""
 "The bloom effect is used to make bright areas and objects glow. For "
 "example, this effect could be used to make a streetlight at night appear "
 "like it is illuminating light. It has the following properties:"
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:156
+#: ../../source/create/entities/zone-entity.rst:159
 msgid "Bloom Intensity"
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:156
+#: ../../source/create/entities/zone-entity.rst:159
 msgid "Sets the intensity or brightness of the bloom effect."
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:158
+#: ../../source/create/entities/zone-entity.rst:161
 msgid "Bloom Threshold"
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:158
+#: ../../source/create/entities/zone-entity.rst:161
 msgid ""
 "This decides how bright something has to be to start glowing. The lower "
 "the value, the more areas start glowing."
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:161
+#: ../../source/create/entities/zone-entity.rst:164
 msgid "Bloom Size"
 msgstr ""
 
-#: ../../source/create/entities/zone-entity.rst:161
+#: ../../source/create/entities/zone-entity.rst:164
 msgid ""
 "Sets the radius of the bloom effect. The higher the value, the larger the"
 " glowing effect."
