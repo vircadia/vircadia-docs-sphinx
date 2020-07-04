@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2020-07-03 09:06+0000\n"
+"POT-Creation-Date: 2020-07-04 01:47+0000\n"
 "PO-Revision-Date: 2020-06-26 21:08+0000\n"
 "Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
 "Language: de\n"
@@ -148,6 +148,7 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:17
 #: ../../source/create/entities/entity-behavior.rst:15
 #: ../../source/create/entities/web-entity-media.rst:8
+#: ../../source/create/entities/zone-entity.rst:9
 #: ../../source/create/tools.rst:8
 msgid "On This Page"
 msgstr ""
@@ -236,6 +237,10 @@ msgstr ""
 #: ../../source/create/3d-models/get-model.rst:40
 #: ../../source/create/3d-models/import-animations.rst:43
 #: ../../source/create/entities/create-fountain.rst:35
+#: ../../source/create/entities/zone-entity.rst:18
+#: ../../source/create/entities/zone-entity.rst:60
+#: ../../source/create/entities/zone-entity.rst:103
+#: ../../source/create/entities/zone-entity.rst:154
 msgid "Property"
 msgstr ""
 
@@ -476,6 +481,10 @@ msgstr ""
 #: ../../source/create/entities/entity-behavior.rst:86
 #: ../../source/create/entities/entity-behavior.rst:101
 #: ../../source/create/entities/entity-behavior.rst:147
+#: ../../source/create/entities/zone-entity.rst:18
+#: ../../source/create/entities/zone-entity.rst:60
+#: ../../source/create/entities/zone-entity.rst:103
+#: ../../source/create/entities/zone-entity.rst:154
 #: ../../source/create/environments.rst:15
 msgid "Description"
 msgstr ""
@@ -570,6 +579,7 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:139
 #: ../../source/create/entities/entity-behavior.rst:153
 #: ../../source/create/entities/web-entity-media.rst:156
+#: ../../source/create/entities/zone-entity.rst:164
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:133
 msgid "**See Also**"
 msgstr ""
@@ -4083,6 +4093,11 @@ msgid "Add a Material Entity"
 msgstr ""
 
 #: ../../source/create/entities.rst:9
+#: ../../source/create/entities/zone-entity.rst:3
+msgid "Add a Zone Entity"
+msgstr ""
+
+#: ../../source/create/entities.rst:9
 msgid "Add Sounds to Entities"
 msgstr ""
 
@@ -4547,6 +4562,7 @@ msgstr ""
 #: ../../source/create/entities/boombox-tutorial.rst:164
 #: ../../source/create/entities/create-fountain.rst:88
 #: ../../source/create/entities/web-entity-media.rst:161
+#: ../../source/create/entities/zone-entity.rst:169
 msgid ":doc:`Change How Entities Look <entity-appearance>`"
 msgstr ""
 
@@ -4554,6 +4570,7 @@ msgstr ""
 #: ../../source/create/entities/boombox-tutorial.rst:165
 #: ../../source/create/entities/entity-appearance.rst:143
 #: ../../source/create/entities/web-entity-media.rst:160
+#: ../../source/create/entities/zone-entity.rst:168
 msgid ":doc:`Define an Entity's Behavior <entity-behavior>`"
 msgstr ""
 
@@ -5545,6 +5562,8 @@ msgid "The color of the background of the text."
 msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:36
+#: ../../source/create/entities/zone-entity.rst:31
+#: ../../source/create/entities/zone-entity.rst:54
 msgid "Key Light"
 msgstr ""
 
@@ -5574,6 +5593,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:42
+#: ../../source/create/entities/zone-entity.rst:37
+#: ../../source/create/entities/zone-entity.rst:97
 msgid "Ambient Light"
 msgstr ""
 
@@ -5600,6 +5621,8 @@ msgid "When Haze is turned on, the color of the glare based on the key light."
 msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:50
+#: ../../source/create/entities/zone-entity.rst:42
+#: ../../source/create/entities/zone-entity.rst:148
 msgid "Bloom"
 msgstr ""
 
@@ -5828,6 +5851,7 @@ msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:142
 #: ../../source/create/entities/web-entity-media.rst:159
+#: ../../source/create/entities/zone-entity.rst:167
 msgid "`The Create App <../tools.html#the-create-app>`_"
 msgstr ""
 
@@ -7414,7 +7438,288 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:158
+#: ../../source/create/entities/zone-entity.rst:166
 msgid ":doc:`Create New Entites <create-entities>`"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:5
+msgid ""
+"A Zone entity enables you to set properties in a specific area. These "
+"properties include: flying, ghosting, key lighting, skybox, ambient "
+"lighting, haze, bloom, and avatar priorities."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:13
+msgid "Explanation of Properties"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:15
+msgid ""
+"The number of properties might seem intimidating at first. However, they "
+"all serve their own goals and have reason to exist:"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:20
+msgid "Flying Allowed"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:20
+msgid ""
+"Enables or disables flying for people inside the zone. This makes sense "
+"for game modes, or if you just don't want people to break your immersion."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:23
+msgid "Ghosting Allowed"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:23
+msgid ""
+"Enables or disables the ability to pass through entities by disabling the"
+" environment collisions. Useful for creating labyrinths, for example."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:26
+msgid "Filter"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:26
+msgid ""
+"Filters are specialized JavaScript functions that prevent unwanted "
+"modifications to entities inside the zone. This property takes the URL to"
+" such a script. See `Protect Your Domain’s Content <../../host/configure-"
+"settings/entity-filters.html>`_ for more information."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:31
+msgid ""
+"This sets a directional light for the entire zone, e.g. this can simulate"
+" a sun casting light."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:34
+#: ../../source/create/entities/zone-entity.rst:80
+msgid "Skybox"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:34
+msgid ""
+"This lets you set a so called \"Skybox\". This is commonly used to apply "
+"a sky texture to the zone."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:37
+msgid ""
+"This is used to apply light coming from the skybox. This is used if you "
+"have light coming from more than just a sun. For example if you have "
+"multiple suns."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:40
+#: ../../source/create/entities/zone-entity.rst:115
+msgid "Haze"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:40
+msgid "Creates fog or mist."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:42
+msgid ""
+"This enables a visual effect known as \"bloom\". A slight bloom effect "
+"could be used to make zones appear bright."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:45
+msgid "Avatar Priority"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:45
+msgid ""
+"This property changes the update priority of avatar movements by "
+"allocating more bandwidth"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:46
+msgid "reserved by the avatar mixer. It is commonly used on live events to have"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:47
+msgid ""
+"entertainers' avatar movements still be smooth, even with a huge crowd "
+"also being updated."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:49
+msgid "Screen-share"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:49
+msgid "Enabling allows people to use screen-share inside the zone."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:56
+msgid ""
+"Key lighting is used to illuminate a zone. You can think of the key light"
+" as a sun which illuminates a zone from a specific direction. The "
+"following properties are available for key lighting:"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:62
+msgid "Key Light Color"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:62
+msgid ""
+"Sets the color of the key light. This could be used to simulate the color"
+" of a sunset."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:64
+msgid "Light Intensity"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:64
+msgid "This changes the intensity of the key lighting."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:66
+msgid "Light Horizontal Angle"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:66
+msgid "Sets the rotation around the zone's y axis and starts in its -z direction."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:68
+msgid "Light Vertical Angle"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:68
+msgid "Sets the rotation around the zone's x axis and starts in its -z direction."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:70
+msgid "Cast Shadows"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:70
+msgid ""
+"This enables shadows, while still respecting the \"Cast Shadows\" "
+"property of other entities."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:72
+msgid "Shadow Bias"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:72
+msgid ""
+"This controls shadow bias and needs to be fine tuned. Too low values can "
+"cause so called \"shadow acne\", while too high values can cause so "
+"called \"peter panning\"."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:75
+msgid "Shadow Max Distance"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:75
+msgid ""
+"Sets the maximum distance in meters from your view at which shadows will "
+"be shown."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:82
+msgid ""
+"Skyboxes are used to define the background of a zone. There are two types"
+" of skybox images that can be used. The aspect ratio is used to define "
+"the type of image. Images with a differing aspect ratio or a resolution "
+"higher than 4096 pixels are not displayed."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:85
+msgid "Types:"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:87
+msgid ""
+"Cubemaps have an aspect ratio of 4:3 and consist of 6 sides, which are "
+"projected onto a cube."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:91
+msgid ""
+"Equirectanglar images have an aspect ratio of 2:1 and are projected onto "
+"a sphere."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:99
+msgid ""
+"Ambient lighting illuminates the view according to the brightness and "
+"color of a texture. Accepted properties are:"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:105
+msgid "Ambient Intensity"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:105
+msgid "This sets the intensity of the illumination."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:107
+msgid "Ambient Source"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:107
+msgid ""
+"This takes the URL of a texture similar to the skybox. You can also use "
+"the same URL as the skybox. One scenario where this could be useful would"
+" be a space station that is illuminated my multiple suns and reflections "
+"from different colored planets."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:117
+msgid ""
+"Haze creates fog inside a Zone. This can be used to make things look more"
+" atmospheric, but is also useful for hiding distant geometry. Properties "
+"available for haze:"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:150
+msgid ""
+"The bloom effect is used to make bright areas and objects glow. For "
+"example, this effect could be used to make a streetlight at night appear "
+"like it is illuminating light. It has the following properties:"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:156
+msgid "Bloom Intensity"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:156
+msgid "Sets the intensity or brightness of the bloom effect."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:158
+msgid "Bloom Threshold"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:158
+msgid ""
+"This decides how bright something has to be to start glowing. The lower "
+"the value, the more areas start glowing."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:161
+msgid "Bloom Size"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:161
+msgid ""
+"Sets the radius of the bloom effect. The higher the value, the larger the"
+" glowing effect."
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:3
