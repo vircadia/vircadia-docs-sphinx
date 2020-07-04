@@ -21,3 +21,4 @@ python3 -m pip install --upgrade recommonmark
 python3 -m pip install sphinx_rtd_theme
 python3 -m pip install sphinx-intl
 ```
+Git hooks log file is located at `/var/lib/docker/volumes/weblate-docker_weblate-data/_data/vcs/vircadia-documentation/contribute/.git/git_hook_output.log`
