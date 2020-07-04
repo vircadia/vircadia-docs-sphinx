@@ -2,7 +2,7 @@
 Add a Zone Entity
 ##########################
 
-A Zone entity enables you to set properties in a specific area. These properties include: flying, ghosting, 
+A Zone entity enables you to set properties in a specific area. These properties include: flying, ghosting,
 key lighting, skybox, ambient lighting, haze, bloom, and avatar priorities.
 
 .. contents:: On This Page
@@ -91,6 +91,9 @@ Types:
 * Equirectanglar images have an aspect ratio of 2:1 and are projected onto a sphere.
 
 .. image:: _images/equirectanglar-skybox.jpg
+
+Supported texture formats are PNG, JPG, JPEG, TGA, TIF and TIFF.
+PNG-48 or PNG-64 are not supported.
 
 ^^^^^^^^^^^^^
 Ambient Light
