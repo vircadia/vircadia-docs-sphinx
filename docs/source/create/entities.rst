@@ -15,6 +15,7 @@ To build any content in Vircadia, whether it is an object that you interact with
     Define an Entity's Behavior <entities/entity-behavior>
     Apply Physics to Entities <entities/entity-physics>
     Add a Material Entity <entities/material-entity>
+    Add a Zone Entity <entities/zone-entity>
     Add Sounds to Entities <entities/add-sounds>
     Define Interactions with Avatars <entities/avatar-interactions>
     Prioritize Zones Within Your Domain <entities/hero-zone>

@@ -45,7 +45,7 @@ Your domain comes with four basic security groups that are already set up, based
 +-----------+--------------------------------------------------------------------------------------------+
 | User Type | Description                                                                                |
 +===========+============================================================================================+
-| anonymous | A person who is not logged in and is using an instance of Vircadia's Interface.       |
+| anonymous | A person who is not logged in and is using an instance of Vircadia's Interface.            |
 |           | This is the default user type for someone who has downloaded Interface for the first       |
 |           | time.                                                                                      |
 +-----------+--------------------------------------------------------------------------------------------+
@@ -58,7 +58,7 @@ Your domain comes with four basic security groups that are already set up, based
 |           | Localhost users do not need to be logged in and have permissions that override             |
 |           | non-user-specific permissions.                                                             |
 +-----------+--------------------------------------------------------------------------------------------+
-| logged-in | A user that is logged into their Vircadia account while using Interface. They         |
+| logged-in | A user that is logged into their Vircadia account while using Interface. They              |
 |           | do not need to be a Friend or a Connection to have server rights. Permissions that         |
 |           | are granted to a specific user override all other permissions.                             |
 +-----------+--------------------------------------------------------------------------------------------+

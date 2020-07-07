@@ -78,7 +78,7 @@ Assignment clients control and manage various aspects of a domain. They also com
 |                   | domain.                                                                                             |
 +-------------------+-----------------------------------------------------------------------------------------------------+
 | Asset Server      | Provides copies of the models, audio files, scripts, and other media used by the domain. It         |
-|                   | functions like a Web server, but using protocols tuned to Vircadia's architecture.             |
+|                   | functions like a Web server, but using protocols tuned to Vircadia's architecture.                  |
 +-------------------+-----------------------------------------------------------------------------------------------------+
 | Agent             | Executes user-written JavaScript programs. If you've written a script to get your avatar to clap,   |
 |                   | or create a bowling alley, the Agent will execute it. It can see entities, avatars, and send audio. |
