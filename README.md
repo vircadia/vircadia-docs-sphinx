@@ -73,6 +73,7 @@ To compile a different language you need an additional set of commands:
 - `make gettext` creates gettext files.
 - `sphinx-intl update -l xX` will create/update the `.po` translation files.
 - `make SPHINXOPTS="-Dlanguage=xX" html` compiles the selected language.
+
 Replace `xX` with your [language code](https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language)
 
 ## Using RST 
