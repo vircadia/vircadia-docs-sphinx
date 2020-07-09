@@ -67,7 +67,7 @@ We encourage you to compile the documentation locally on your computer prior to 
 2. Using a command line, cd to your local repository, then the docs folder.
 3. Compile with the command `make html`.
 
-The HTML output will be in build\html. Open home.html in a browser to view docs.
+The HTML output will be in build\html. Open home.html in a browser to view the docs.
 
 To compile a different language you need an additional set of commands:
 - `make gettext` creates gettext files.
