@@ -1,6 +1,6 @@
 # Overview of Vircadia's Documentation Tools
 
-For Vircadia's main documentation system, we use **Sphinx** to generate it, and a webserver to publish/host it. GitHub is a helpful middleman and stores all of the docs.
+For Vircadia's main documentation system, we use **Sphinx** to generate it, and a web server to publish/host it. GitHub is a helpful middleman and stores all of the docs.
 
 **Sphinx** is an open-source, robust solution for software documentation that includes features that writers expect, like:
 
