@@ -32,9 +32,9 @@ This documentation is not intended to be a complete course on how to create a sh
 
 An understanding of how to use JavaScript and JSON with Vircadia is important before you dive into this topic. If you intend to create shaders yourself, knowing the C programming language will also be important.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Differences Between Vircadia and GLSL Shaders
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When exploring shaders online, you may have come across many shader examples. Or you might have seen websites and applications that allow you to experiment with shader code in a live environment. Most of the code from these sources will not work with Vircadia without modification.
 

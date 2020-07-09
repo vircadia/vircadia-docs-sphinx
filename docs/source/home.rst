@@ -19,3 +19,21 @@ You have the power to shape your VR experience in Vircadia.
 * :doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source code in the repository.
 * :doc:`DEVELOP <developer>` the project and tailor it to your needs, or just to help out.
 * :doc:`SECURITY <security>` information about the project and its components.
+
+
+.. toctree::
+    :maxdepth: 1
+    :titlesonly:
+    :hidden:
+    
+    HOME <self>
+    EXPLORE <explore>
+    CREATE <create>
+    SCRIPT <script>
+    HOST <host>
+    CONTRIBUTE <contribute>
+    DEVELOPER <developer>
+    SECURITY <security>
+    FAQ <faq>
+    RELEASE NOTES <release-notes>
+    API REFERENCE <https://apidocs.vircadia.dev>
