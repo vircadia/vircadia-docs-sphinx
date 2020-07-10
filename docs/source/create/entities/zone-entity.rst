@@ -43,8 +43,8 @@ The number of properties might seem intimidating at first. However, they all ser
 |                        | zones appear bright.                                                                        |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Avatar Priority        | This property changes the update priority of avatar movements by allocating more bandwidth  |
-|                        |  reserved by the avatar mixer. It is commonly used on live events to have                   |
-|                        | entertainers' avatar movements still be smooth, even with a huge crowd also being updated.  |
+|                        | reserved by the avatar mixer. It is commonly used on live events to have entertainers'      |
+|                        | avatar movements still be smooth, even with a huge crowd also being updated.                |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Screen-share           | Enabling allows people to use screen-share inside the zone.                                 |
 +------------------------+---------------------------------------------------------------------------------------------+

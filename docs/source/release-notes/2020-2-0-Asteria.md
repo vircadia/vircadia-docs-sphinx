@@ -13,7 +13,7 @@ For example, **2020.2.5-Asteria** will be compatible with **2020.2.0-Asteria**. 
 
 ## Interface
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/projects/2).
+The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
 
 #### General
 
