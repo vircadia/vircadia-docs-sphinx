@@ -48,9 +48,7 @@ jobs:
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
         chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 mkdir -p /var/www/html/gha/
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-en.tar.gz -C /var/www/html/gha/
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 rm /var/www/html/gha/build-en.tar.gz
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 "mkdir -p /var/www/html/gha/ && tar -xvzf /var/www/html/gha/build-en.tar.gz -C /var/www/html/gha/ && rm /var/www/html/gha/build-en.tar.gz"
 
   build_translated_docs:
     runs-on: ubuntu-20.04
@@ -101,14 +99,10 @@ jobs:
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
         chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 mkdir -p /var/www/html/gha/de/
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-de.tar.gz -C /var/www/html/gha/de/
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 rm /var/www/html/gha/build-de.tar.gz
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 "mkdir -p /var/www/html/gha/de/ && tar -xvzf /var/www/html/gha/build-de.tar.gz -C /var/www/html/gha/de/ && rm /var/www/html/gha/build-de.tar.gz"
     - name: Deploy japanese documentation
       shell: bash
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
         chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 mkdir -p /var/www/html/gha/jp/
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 tar -xvzf /var/www/html/gha/build-jp.tar.gz -C /var/www/html/gha/jp/
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 rm /var/www/html/gha/build-jp.tar.gz
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 "mkdir -p /var/www/html/gha/jp/ && tar -xvzf /var/www/html/gha/build-jp.tar.gz -C /var/www/html/gha/jp/ && rm /var/www/html/gha/build-jp.tar.gz"
