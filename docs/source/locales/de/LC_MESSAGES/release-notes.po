@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-25 03:02+0200\n"
+"POT-Creation-Date: 2020-07-10 06:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,6 +110,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-0-Asteria.md:16
 #: ../../source/release-notes/2020-2-1-Asteria.md:7
 #: ../../source/release-notes/2020-2-2-Asteria.md:7
+#: ../../source/release-notes/2020-2-2-Asteria.md:22
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Project "
 "Athena repo."
@@ -119,6 +120,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-0-Asteria.md:67
 #: ../../source/release-notes/2020-2-1-Asteria.md:9
 #: ../../source/release-notes/2020-2-2-Asteria.md:9
+#: ../../source/release-notes/2020-2-2-Asteria.md:24
 #: ../../source/release-notes/v86-k2.md:9
 #: ../../source/release-notes/v86-k2.md:62
 msgid "General"
@@ -476,7 +478,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-0-Asteria.md:113
 #: ../../source/release-notes/2020-2-0-Asteria.md:272
 #: ../../source/release-notes/2020-2-1-Asteria.md:20
-#: ../../source/release-notes/2020-2-2-Asteria.md:22
+#: ../../source/release-notes/2020-2-2-Asteria.md:28
 #: ../../source/release-notes/v86-k2.md:67
 msgid "Documentation"
 msgstr ""
@@ -1150,14 +1152,14 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:274
 #: ../../source/release-notes/2020-2-1-Asteria.md:22
-#: ../../source/release-notes/2020-2-2-Asteria.md:24
+#: ../../source/release-notes/2020-2-2-Asteria.md:30
 #: ../../source/release-notes/v86-k2.md:69
 msgid "User Docs"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:276
 #: ../../source/release-notes/2020-2-1-Asteria.md:24
-#: ../../source/release-notes/2020-2-2-Asteria.md:26
+#: ../../source/release-notes/2020-2-2-Asteria.md:32
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia-"
 "Docs-Sphinx repo."
@@ -1197,14 +1199,14 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:287
 #: ../../source/release-notes/2020-2-1-Asteria.md:29
-#: ../../source/release-notes/2020-2-2-Asteria.md:32
+#: ../../source/release-notes/2020-2-2-Asteria.md:38
 #: ../../source/release-notes/v86-k2.md:76
 msgid "API Docs"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:289
 #: ../../source/release-notes/2020-2-1-Asteria.md:31
-#: ../../source/release-notes/2020-2-2-Asteria.md:34
+#: ../../source/release-notes/2020-2-2-Asteria.md:40
 msgid ""
 "The API docs are generated from the software source repo. The latest live"
 " deployment source can be viewed here."
@@ -1224,21 +1226,21 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:296
 #: ../../source/release-notes/2020-2-1-Asteria.md:36
-#: ../../source/release-notes/2020-2-2-Asteria.md:39
+#: ../../source/release-notes/2020-2-2-Asteria.md:45
 #: ../../source/release-notes/v86-k2.md:86
 msgid "Extra Applications"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:298
 #: ../../source/release-notes/2020-2-1-Asteria.md:38
-#: ../../source/release-notes/2020-2-2-Asteria.md:41
+#: ../../source/release-notes/2020-2-2-Asteria.md:47
 #: ../../source/release-notes/v86-k2.md:88
 msgid "Explore App (Interim Version)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:300
 #: ../../source/release-notes/2020-2-1-Asteria.md:40
-#: ../../source/release-notes/2020-2-2-Asteria.md:43
+#: ../../source/release-notes/2020-2-2-Asteria.md:49
 msgid ""
 "The numbers at the end of each item are the PR numbers in the "
 "Decentralized GoTo repo."
@@ -1247,21 +1249,21 @@ msgstr ""
 #: ../../source/release-notes/2020-2-0-Asteria.md:302
 #: ../../source/release-notes/2020-2-1-Asteria.md:34
 #: ../../source/release-notes/2020-2-1-Asteria.md:48
-#: ../../source/release-notes/2020-2-2-Asteria.md:37
-#: ../../source/release-notes/2020-2-2-Asteria.md:45
+#: ../../source/release-notes/2020-2-2-Asteria.md:43
+#: ../../source/release-notes/2020-2-2-Asteria.md:51
 msgid "Nothing new!"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:305
 #: ../../source/release-notes/2020-2-1-Asteria.md:44
-#: ../../source/release-notes/2020-2-2-Asteria.md:47
+#: ../../source/release-notes/2020-2-2-Asteria.md:53
 #: ../../source/release-notes/v86-k2.md:96
 msgid "Community Apps"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:307
 #: ../../source/release-notes/2020-2-1-Asteria.md:46
-#: ../../source/release-notes/2020-2-2-Asteria.md:49
+#: ../../source/release-notes/2020-2-2-Asteria.md:55
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Community "
 "Apps repo."
@@ -1382,70 +1384,74 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:11
-msgid ""
-"Add the \"Prometheus\" exporter, which allows for exporting of full "
-"domain and mixer statistics for visualization. (#280)"
+msgid "Vive Pro Eye support added. (#350, #478)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:12
-msgid "Vive Pro Eye support added. (#350)"
-msgstr ""
-
-#: ../../source/release-notes/2020-2-2-Asteria.md:13
 msgid "Fix Linux default audio selection and warnings. (#377)"
 msgstr ""
 
-#: ../../source/release-notes/2020-2-2-Asteria.md:14
+#: ../../source/release-notes/2020-2-2-Asteria.md:13
 msgid "Rebranding and login screen updates. (#384, #471, #473)"
 msgstr ""
 
-#: ../../source/release-notes/2020-2-2-Asteria.md:15
+#: ../../source/release-notes/2020-2-2-Asteria.md:14
 msgid ""
 "Controller API: fix various crashes and fix more than one controller not "
 "buzzing on triggerHapticPulse. (#399)"
 msgstr ""
 
-#: ../../source/release-notes/2020-2-2-Asteria.md:16
+#: ../../source/release-notes/2020-2-2-Asteria.md:15
 msgid ""
 "Begin transitioning metaverse server URLs into central files for easier "
 "development around the Metaverse API. (#411)"
 msgstr ""
 
-#: ../../source/release-notes/2020-2-2-Asteria.md:17
+#: ../../source/release-notes/2020-2-2-Asteria.md:16
 msgid ""
 "Disable certified entities being auto deleted by the server because the "
 "check returned false. (#438)"
 msgstr ""
 
-#: ../../source/release-notes/2020-2-2-Asteria.md:18
+#: ../../source/release-notes/2020-2-2-Asteria.md:17
 msgid ""
 "Fix models not scaling correctly on load due to a low timeout; also fix "
 "resizing of models for the first time after they load. (#442)"
 msgstr ""
 
-#: ../../source/release-notes/2020-2-2-Asteria.md:19
+#: ../../source/release-notes/2020-2-2-Asteria.md:18
 msgid "Fix reloading content in serverless domains. (#447)"
 msgstr ""
 
-#: ../../source/release-notes/2020-2-2-Asteria.md:28
+#: ../../source/release-notes/2020-2-2-Asteria.md:20
+msgid "Domain Server"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-2-Asteria.md:26
+msgid ""
+"Add the \"Prometheus\" exporter, which allows for exporting of full "
+"domain and mixer statistics for visualization. (#280)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-2-Asteria.md:34
 msgid ""
 "Update build docs from main repo, fix link for auto-updating of build "
 "docs. (#55)"
 msgstr ""
 
-#: ../../source/release-notes/2020-2-2-Asteria.md:29
+#: ../../source/release-notes/2020-2-2-Asteria.md:35
 msgid "Create debugging tips for Interface on Windows. (#56)"
 msgstr ""
 
-#: ../../source/release-notes/2020-2-2-Asteria.md:30
+#: ../../source/release-notes/2020-2-2-Asteria.md:36
 msgid "Release notes for 2020.2.2. (#57)"
 msgstr ""
 
-#: ../../source/release-notes/2020-2-2-Asteria.md:51
+#: ../../source/release-notes/2020-2-2-Asteria.md:57
 msgid "Add \"Refresh\" app. (#18)"
 msgstr ""
 
-#: ../../source/release-notes/2020-2-2-Asteria.md:52
+#: ../../source/release-notes/2020-2-2-Asteria.md:58
 msgid "Add more info to \"Radar\" app. (#19)"
 msgstr ""
 
@@ -4246,4 +4252,7 @@ msgid ""
 "Many commits directly to master not put into PRs by KasenVR & Keb Helion "
 "found here between February 26th & March 16th, 2020."
 msgstr ""
+
+#~ msgid "Vive Pro Eye support added. (#350)"
+#~ msgstr ""
 

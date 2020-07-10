@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-04 02:12+0000\n"
+"POT-Creation-Date: 2020-07-10 06:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -238,6 +238,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:18
 #: ../../source/create/entities/zone-entity.rst:60
 #: ../../source/create/entities/zone-entity.rst:106
+#: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 msgid "Property"
 msgstr ""
@@ -482,6 +483,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:18
 #: ../../source/create/entities/zone-entity.rst:60
 #: ../../source/create/entities/zone-entity.rst:106
+#: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 #: ../../source/create/environments.rst:15
 msgid "Description"
@@ -7532,17 +7534,9 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:45
 msgid ""
 "This property changes the update priority of avatar movements by "
-"allocating more bandwidth"
-msgstr ""
-
-#: ../../source/create/entities/zone-entity.rst:46
-msgid "reserved by the avatar mixer. It is commonly used on live events to have"
-msgstr ""
-
-#: ../../source/create/entities/zone-entity.rst:47
-msgid ""
-"entertainers' avatar movements still be smooth, even with a huge crowd "
-"also being updated."
+"allocating more bandwidth reserved by the avatar mixer. It is commonly "
+"used on live events to have entertainers' avatar movements still be "
+"smooth, even with a huge crowd also being updated."
 msgstr ""
 
 #: ../../source/create/entities/zone-entity.rst:49
@@ -7686,6 +7680,90 @@ msgid ""
 "Haze creates fog inside a Zone. This can be used to make things look more"
 " atmospheric, but is also useful for hiding distant geometry. Properties "
 "available for haze:"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:126
+msgid "Range"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:126
+msgid ""
+"This sets how far the haze extends in meters. Use this to influence "
+"viewing distance and thickness."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:129
+msgid "Use Altitude"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:129
+msgid ""
+"This changes the haze intensity depending on altitude. Higher altitude "
+"means more fog."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:131
+msgid "Base"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:131
+msgid "This is the base of the altitude range."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:133
+msgid "Ceiling"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:133
+msgid ""
+"This is the ceiling of the altitude range. Regardless of the name, the "
+"ceiling can be lower than the base to have the effect upside down; lower "
+"altitude meaning less fog."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:136
+msgid "Haze Color"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:136
+msgid "Sets the color of the haze."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:138
+msgid "Background Blend"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:138
+msgid ""
+"This controls how much of the skybox is visible through the haze. Higher "
+"values showing more skybox."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:141
+msgid "Glare"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:141
+msgid ""
+"Glare can be used to show an effect for the direction that the key light "
+"is coming from. This is mainly useful for making a sun look especially "
+"bright."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:144
+msgid "Glare Color"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:144
+msgid "Sets the color of the glare effect."
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:146
+msgid "Glare Angle"
+msgstr ""
+
+#: ../../source/create/entities/zone-entity.rst:146
+msgid "This changes the size of the glare effect."
 msgstr ""
 
 #: ../../source/create/entities/zone-entity.rst:153
@@ -8915,4 +8993,22 @@ msgstr ""
 #: ../../source/create/wearables.md:40
 msgid "Put On Wearables"
 msgstr ""
+
+#~ msgid ""
+#~ "This property changes the update "
+#~ "priority of avatar movements by "
+#~ "allocating more bandwidth"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "reserved by the avatar mixer. It "
+#~ "is commonly used on live events to"
+#~ " have"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "entertainers' avatar movements still be "
+#~ "smooth, even with a huge crowd "
+#~ "also being updated."
+#~ msgstr ""
 
