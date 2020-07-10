@@ -133,7 +133,7 @@ Properties available for haze:
 | Ceiling                | This is the ceiling of the altitude range. Regardless of the name, the ceiling can be lower |
 |                        | than the base to have the effect upside down; lower altitude meaning less fog.              |
 +------------------------+---------------------------------------------------------------------------------------------+
-| Haze Color             | Sets the color of the haze.                                                                |
+| Haze Color             | Sets the color of the haze.                                                                 |
 +------------------------+---------------------------------------------------------------------------------------------+
 | Background Blend       | This controls how much of the skybox is visible through the haze. Higher values showing     |
 |                        | more skybox.                                                                                |
