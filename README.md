@@ -1,6 +1,6 @@
 # Overview of Vircadia's Documentation Tools
 
-For Vircadia's main documentation system, we use **Sphinx** to generate it, and a webserver to publish/host it. GitHub is a helpful middleman and stores all of the docs.
+For Vircadia's main documentation system, we use **Sphinx** to generate it, and a web server to publish/host it. GitHub is a helpful middleman and stores all of the docs.
 
 **Sphinx** is an open-source, robust solution for software documentation that includes features that writers expect, like:
 
@@ -15,9 +15,10 @@ Our main documentation is hosted at https://docs.vircadia.dev.
 
 ## Translate
 
-To help with the translation of Vircadia's documentation there is two main ways:
-The recommended way is to use https://weblate.vircadia.dev.
-You can also submit updated `.po` files via Pull Request.
+There are two ways to help with the translation of Vircadia's documentation:
+* The recommended way is to use https://weblate.vircadia.dev.
+* You can also submit updated `.po` files via a pull request.
+
 Please contact Julian Groß or open an issue if you want to translate a language that is not in the system yet.
 
 ## Install Sphinx for Local Builds
@@ -68,12 +69,13 @@ We encourage you to compile the documentation locally on your computer prior to 
 2. Using a command line, cd to your local repository, then the docs folder.
 3. Compile with the command `make html`.
 
-The HTML output will be in build\html. Open home.html in a browser to view docs.
+The HTML output will be in build\html. Open home.html in a browser to view the docs.
 
 To compile a different language you need an additional set of commands:
 - `make gettext` creates gettext files.
 - `sphinx-intl update -l xX` will create/update the `.po` translation files.
 - `make SPHINXOPTS="-Dlanguage=xX" html` compiles the selected language.
+
 Replace `xX` with your [language code](https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language)
 
 ## Using RST
