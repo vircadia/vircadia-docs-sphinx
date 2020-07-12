@@ -14,9 +14,11 @@ The following translations are available:
 * `日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|
 
 .. |de_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/de/svg-badge.svg
+              :class: inline
               :target: https://weblate.vircadia.dev/engage/vircadia-documentation/de/?utm_source=widget
 
 .. |jp_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/ja/svg-badge.svg
+              :class: inline
               :target: https://weblate.vircadia.dev/engage/vircadia-documentation/ja/?utm_source=widget
 
 -------------------------
