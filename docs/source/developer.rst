@@ -1,12 +1,12 @@
-#########
-Developer
-#########
+####################
+Developer & Designer
+####################
+
+---------------------
+Development Resources
+---------------------
 
 Developer information such as how to build the project from source, develop, or technically manage it can be found here.
-
-------------------------
-Development Instructions
-------------------------
 
 .. toctree::
     :maxdepth: 1
