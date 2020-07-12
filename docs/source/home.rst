@@ -6,7 +6,7 @@ Vircadia is an open-source software where you can create and share virtual reali
 
 The Vircadia metaverse provides built-in social features, including avatar interactions, spatialized audio and interactive physics. Additionally, you have the ability to import any 3D object into your virtual environment. No matter where you go in Vircadia, you will always be able to interact with your environment, engage with your friends, and listen to conversations just like you would in real life.
 
-This documentation is authored in `english <https://docs.vircadia.dev/>`_.
+This documentation is authored in `English <https://docs.vircadia.dev/>`_.
 
 The following translations are available:
 
