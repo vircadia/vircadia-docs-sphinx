@@ -1,0 +1,108 @@
+name: Master CI Build
+
+on:
+  push:
+    branches:
+#      - master
+      - translation-experiment
+
+jobs:
+  build_en_docs:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        python-version: [3.7]
+
+    name: Build and deploy english docs
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -U Sphinx==2.4.4
+        pip install --upgrade recommonmark
+        pip install sphinx_rtd_theme
+    - name: Build documentation
+      shell: bash
+      run: |
+        cd docs
+        make html
+        mkdir -p build-archives
+        cd build/html/
+        tar -czvf ../../build-archives/build-en.tar.gz *
+    - name: Upload documentation
+      uses: JulianGro/SFTP-Deploy-Action@v1.4
+      with:
+        username: 'gha'
+        server: '94.130.177.235'
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        local_path: 'docs/build-archives/*'
+        remote_path: '/var/www/html/gha/'
+        args: '-o ConnectTimeout=5'
+    - name: Deploy english documentation
+      shell: bash
+      run: |
+        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
+        chmod 600 private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 "mkdir -p /var/www/html/gha/ && tar -xvzf /var/www/html/gha/build-en.tar.gz -C /var/www/html/gha/ && rm /var/www/html/gha/build-en.tar.gz"
+
+  build_translated_docs:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        python-version: [3.7]
+
+    name: Build and deploy translated docs
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -U Sphinx==2.4.4
+        pip install --upgrade recommonmark
+        pip install sphinx_rtd_theme
+    - name: Build german documentation
+      shell: bash
+      run: |
+        cd docs
+        make BUILDDIR=build-de SPHINXOPTS="-Dlanguage=de" html
+        mkdir -p build-archives
+        cd build-de/html/
+        tar -czvf ../../build-archives/build-de.tar.gz *
+    - name: Build japanese documentation
+      shell: bash
+      run: |
+        cd docs
+        make BUILDDIR=build-jp SPHINXOPTS="-Dlanguage=jp" html
+        mkdir -p build-archives
+        cd build-jp/html/
+        tar -czvf ../../build-archives/build-jp.tar.gz *
+    - name: Upload translated documentation
+      uses: JulianGro/SFTP-Deploy-Action@v1.4
+      with:
+        username: 'gha'
+        server: '94.130.177.235'
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        local_path: 'docs/build-archives/*'
+        remote_path: '/var/www/html/gha/'
+        args: '-o ConnectTimeout=5'
+    - name: Deploy german documentation
+      shell: bash
+      run: |
+        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
+        chmod 600 private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 "mkdir -p /var/www/html/gha/de/ && tar -xvzf /var/www/html/gha/build-de.tar.gz -C /var/www/html/gha/de/ && rm /var/www/html/gha/build-de.tar.gz"
+    - name: Deploy japanese documentation
+      shell: bash
+      run: |
+        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
+        chmod 600 private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 "mkdir -p /var/www/html/gha/jp/ && tar -xvzf /var/www/html/gha/build-jp.tar.gz -C /var/www/html/gha/jp/ && rm /var/www/html/gha/build-jp.tar.gz"

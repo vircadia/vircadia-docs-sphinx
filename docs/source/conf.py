@@ -112,6 +112,8 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 
+# Do not copy source files to build folder
+html_copy_source = False
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
@@ -188,10 +190,4 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 # -- Markdown Setup ---------------------------------------------------------
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-
-source_suffix = ['.rst', '.md']
+extensions = ['recommonmark']

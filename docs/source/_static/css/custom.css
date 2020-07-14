@@ -23,15 +23,20 @@
 
 body {
 	font-family: 'Graphik Regular', 'Proxima Nova', arial, sans-serif;
-	font-weight: 400; 
+	font-weight: 400;
     color: #000000;
-    letter-spacing: 0.5px;  
+    letter-spacing: 0.5px;
 }
 
 img {
     display: block;
     text-align: center;
     margin: 2rem auto;
+}
+
+img.inline {
+    display: inline-block;
+    margin: 0;
 }
 
 .wy-nav-content {
@@ -71,8 +76,8 @@ img {
     font-family: 'Graphik Regular';
     font-size: .95rem;
     line-height: 24px;
-    border-left: solid #ddd 5px; 
-    padding-left: 25px; 
+    border-left: solid #ddd 5px;
+    padding-left: 25px;
     margin: 25px;
 }
 
@@ -344,12 +349,12 @@ li table {
 }
 
 .rst-content table.docutils th p {
-    margin-bottom: 0;    
+    margin-bottom: 0;
 }
 
 
 .rst-content table.docutils td p {
-    font-size: .89rem;    
+    font-size: .89rem;
     line-height: 24px;
 }
 
@@ -382,5 +387,12 @@ pre span {
 .rst-content code.literal {
     font-family: Consolas;
     color: #000000;
-    
+
+}
+
+/***********************************/
+/****** Versions.html styles *******/
+/***********************************/
+.rst-versions.shift-up {
+    overflow-y:visible;
 }

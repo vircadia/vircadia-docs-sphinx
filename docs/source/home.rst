@@ -4,7 +4,22 @@ Home
 
 Vircadia is an open-source software where you can create and share virtual reality (VR) experiences. You can create and host your own VR world, explore other worlds, meet and connect with other users, attend or host live VR events and much more.
 
-The Vircadia metaverse provides built-in social features, including avatar interactions, spatialized audio and interactive physics. Additionally, you have the ability to import any 3D object into your virtual environment. No matter where you go in Vircadia, you will always be able to interact with your environment, engage with your friends, and listen to conversations just like you would in real life. 
+The Vircadia metaverse provides built-in social features, including avatar interactions, spatialized audio and interactive physics. Additionally, you have the ability to import any 3D object into your virtual environment. No matter where you go in Vircadia, you will always be able to interact with your environment, engage with your friends, and listen to conversations just like you would in real life.
+
+This documentation is authored in `English <https://docs.vircadia.dev/>`_.
+
+The following translations are available:
+
+* `Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|
+* `日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|
+
+.. |de_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/de/svg-badge.svg
+              :class: inline
+              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/de/?utm_source=widget
+
+.. |jp_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/ja/svg-badge.svg
+              :class: inline
+              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/ja/?utm_source=widget
 
 -------------------------
 What can I do?
@@ -25,7 +40,7 @@ You have the power to shape your VR experience in Vircadia.
     :maxdepth: 1
     :titlesonly:
     :hidden:
-    
+
     HOME <self>
     EXPLORE <explore>
     CREATE <create>

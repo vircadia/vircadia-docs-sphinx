@@ -4,17 +4,15 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs\n"
-"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
+"Project-Id-Version: Vircadia Docs \n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-10 06:33+0000\n"
-"PO-Revision-Date: 2020-06-26 21:08+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
-"Language: de\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/create/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7171,7 +7169,7 @@ msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:19
 msgid "Video: VP8, VP9       Audio: Vorbis, Opus"
-msgstr "Video: VP8, VP9       Audio: Vorbis, Opus"
+msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:19
 msgid ".webm"
@@ -7185,7 +7183,7 @@ msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:21
 msgid "Video: Theora, VP8, VP9       Audio: Vorbis, Opus, FLAC, MP3"
-msgstr "Video: Theora, VP8, VP9       Audio: Vorbis, Opus, FLAC, MP3"
+msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:21
 msgid ".mkv, .mk3d, .mka, .mks"
@@ -7241,9 +7239,6 @@ msgid ""
 "not VP9. Slightly faster than VP9. Slightly lower quality to compression "
 "ratio than VP9."
 msgstr ""
-"Empfohlen falls Ihre APU hardwarebeschleunigte Kodierung für VP8, aber "
-"nicht für VP9 unterstützt. Etwas schneller als VP9. Etwas schlechteres "
-"Qualitäts-zu-Kompressions-Verhältnis."
 
 #: ../../source/create/entities/web-entity-media.rst:35
 msgid "Theora"
@@ -8998,112 +8993,6 @@ msgstr ""
 #: ../../source/create/wearables.md:40
 msgid "Put On Wearables"
 msgstr ""
-
-#~ msgid "Tutorial: Create a Purchase Button for Marketplace Sales"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you are selling items on the"
-#~ " Marketplace, you can have a space"
-#~ " in your domain where users can "
-#~ "easily buy your items. This could "
-#~ "be done with a display copy of "
-#~ "your items, an image of your item,"
-#~ " or a purchase button for users "
-#~ "to click."
-#~ msgstr ""
-
-#~ msgid "Get an Item's Marketplace ID"
-#~ msgstr ""
-
-#~ msgid "Write a Purchase Item Script"
-#~ msgstr ""
-
-#~ msgid "Purchase Marketplace Items from Script"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you are putting up an item "
-#~ "(in your domain) you have on sale"
-#~ " in the Marketplace, you need to "
-#~ "get the item's 'marketplaceID'. This "
-#~ "unique identifier can be found when "
-#~ "you view your Marketplace item in "
-#~ "a browser window."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In your browser of choice, navigate "
-#~ "to www.highfidelity.com/marketplace."
-#~ msgstr ""
-
-#~ msgid "Locate the item."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Copy the multi-number identifier at "
-#~ "the end of the URL in the "
-#~ "address bar of your browser. This "
-#~ "is your item's 'marketplaceID'."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To make our button work and "
-#~ "actually sell an item, we need to"
-#~ " attach a client entity script to "
-#~ "it. In this example, buy-item.js, "
-#~ "the script opens a specified Marketplace"
-#~ " page. You can use it as-is,"
-#~ " modify it, or write your own "
-#~ "script to suit your needs."
-#~ msgstr ""
-
-#~ msgid "The buy-item.js script we've used:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Uses High Fidelity's JavaScript API to"
-#~ " determine when a user clicks with"
-#~ " the mouse or triggers the entity "
-#~ "using hand controllers."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Opens the user's Tablet to the "
-#~ "purchase page if there is a valid"
-#~ " 'marketplaceID' specified in the "
-#~ "'userdata' field of the entity that "
-#~ "is clicked or triggered."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Select 'Code' from the drop down "
-#~ "menu in the 'User Data' property. "
-#~ "Add the following line, replacing "
-#~ "'YOUR_MARKETPLACE_ID_HERE' with the 'marketplaceID'"
-#~ " that you copied in the first "
-#~ "step of the tutorial:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Next to 'Script', paste the script "
-#~ "URL. In this case, it is 'buy-"
-#~ "item.js'."
-#~ msgstr ""
-
-#~ msgid "Scroll down to 'Triggerable' and ensure that 'Triggerable' is selected."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "When you close the Create app, "
-#~ "test your script by clicking or "
-#~ "triggering the button to  open the "
-#~ "item's purchase page. If a user "
-#~ "has already purchased the item, they "
-#~ "will be shown a page that allows"
-#~ " them to re-purchase another copy "
-#~ "or view it in their Inventory."
-#~ msgstr ""
 
 #~ msgid ""
 #~ "This property changes the update "
