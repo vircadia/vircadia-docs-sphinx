@@ -1,6 +1,6 @@
 # Alpha 2020.2.3 Asteria Release Notes
 
-This version of Vircadia is an update to 2020.2.0. It is compatible with the 2020.2.0-Asteria protocol. This version was released on July 15th, 2020.
+This version of Vircadia is an update to 2020.2.2. It is compatible with the 2020.2.0-Asteria protocol. This version was released on July 15th, 2020.
 
 ## Interface
 
@@ -63,11 +63,11 @@ The numbers at the end of each item are the PR numbers in the Decentralized GoTo
 
 The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/kasenvr/community-apps). 
 
-* The nametags app by CtrlAltDavid has been added to the community apps repo. This app allows you to have dynamically generated nametags. (#20)
+* The nametags app by ctrlaltdavid has been added to the community apps repo. This app allows you to have dynamically generated nametags. (#20)
 
 #### Inventory App
 
-This is a new app that will be introduced to the community apps repo upon merging into the main project-athena codebase (#521). It will serve as the initial implementation of an inventory system into Vircadia, later it will incorporate the functions of the "More" app, that app will be deprecated at such a time.
+This is a new app that will be introduced to the community apps repo upon merging into the main project-athena codebase (#521). It will serve as the initial implementation of an inventory system into Vircadia, later it will incorporate the functions of the "More" app; that app will be deprecated at such a time.
 
 #### Slider App
 
