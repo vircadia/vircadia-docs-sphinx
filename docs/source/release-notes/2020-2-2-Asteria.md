@@ -1,6 +1,6 @@
 # Alpha 2020.2.2 Asteria Release Notes
 
-This version of Vircadia is an update to 2020.2.0. It is compatible with the 2020.2.0-Asteria protocol. This version was released on June 26th, 2020.
+This version of Vircadia is an update to 2020.2.1. It is compatible with the 2020.2.0-Asteria protocol. This version was released on June 26th, 2020.
 
 ## Interface
 
