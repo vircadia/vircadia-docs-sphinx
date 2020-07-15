@@ -87,7 +87,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphi
 * Add a detailed specification detailing zone entities. (#48) (Thanks JulianGro!)
 * Translation support system with automated building added. (#61) (Thanks JulianGro & Thoys!)
 * Add initial documentation regarding environment variables for the interface. (#63)
-* Add 2020.2.3 Asteria release notes (this document, right here!) to the docs. (#65)
+* Add 2020.2.3 Asteria release notes (this document, right here!) to the docs. (#65, #66)
 
 #### API Docs
 
