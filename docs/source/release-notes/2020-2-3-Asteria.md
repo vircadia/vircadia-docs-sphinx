@@ -2,7 +2,7 @@
 
 This version of Vircadia is an update to 2020.2.2. It is compatible with the 2020.2.0-Asteria protocol. This version was released on July 15th, 2020.
 
-## Interface
+## Interface (Codename Athena)
 
 The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
 
@@ -45,11 +45,15 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Stability: A potential crash fix was applied to the entity server. (#435)
 * UI: The descriptions for the Sandbox's get/set private user data fields was improved. (#486)
 
-## Metaverse Server
+## Metaverse Server (Codename Apollo)
 
 While the [metaverse server](https://github.com/kasenvr/project-apollo) is still in development, much progress has been made since starting. The project has over **150 commits** at the time of publishing these release notes, with over 20 commits in the last two weeks (July 1st - July 14th, 2020). Building upon the foundation that Zontreck had placed, Misterblue has created a working prototype of the metaverse. After adequate testing and completion of the system is complete, we will begin the transition to our very own federated metaverse system!
 
 The [metaverse server interface](https://github.com/kasenvr/project-apollo-dashboard) has also gotten underway this month. It will serve as the UI foundation for admins and users alike to access and administrate their identities on the metaverse. It has had **18 commits** in the last two weeks (July 1st - July 14th, 2020).
+
+## Vircadia Launcher (Codename Pantheon)
+
+[Vircadia's launcher](https://github.com/kasenvr/pantheon-launcher) is at version 0.0.1r, steadily approaching version 1.0.0. It currently features things such as one click downloading and updating, version management, easy settings control for the Interface, event listings, and more. It has many planned features, one such as world listings and further controls for sandboxes as well. It has over **130 commits** at the time of publishing these release notes.
 
 ## Extra Applications
 

@@ -11,7 +11,7 @@ The major version will denote a protocol bump and therefore incompatibility with
 For example, **2020.2.5-Asteria** will be compatible with **2020.2.0-Asteria**. Whereas **2020.3.0-Demeter** will not be compatible with **2020.2.0-Asteria** or **2020.2.5-Asteria**.
 
 
-## Interface
+## Interface (Codename Athena)
 
 The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
 
