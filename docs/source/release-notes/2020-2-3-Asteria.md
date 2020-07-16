@@ -53,7 +53,7 @@ The [metaverse server interface](https://github.com/kasenvr/project-apollo-dashb
 
 ## Vircadia Launcher (Codename Pantheon)
 
-[Vircadia's launcher](https://github.com/kasenvr/pantheon-launcher) is at version 0.0.1r, steadily approaching version 1.0.0. It currently features things such as one click downloading and updating, version management, easy settings control for the Interface, event listings, and more. It has many planned features, one such as world listings and further controls for sandboxes as well. It has over **130 commits** at the time of publishing these release notes.
+[Vircadia's launcher](https://github.com/kasenvr/pantheon-launcher) is at version 0.0.1r, steadily approaching version 1.0.0. It currently features things such as one click downloading and updating, version management, easy settings control for Interface, event listings, and more. It has many planned features, such as world listings and further controls for sandboxes as well. It has over **130 commits** at the time of publishing these release notes.
 
 ## Extra Applications
 
