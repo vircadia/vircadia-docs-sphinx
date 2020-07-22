@@ -3,8 +3,7 @@ name: Master CI Build
 on:
   push:
     branches:
-#      - master
-      - translation-experiment
+      - master
 
 jobs:
   build_en_docs:
@@ -38,17 +37,17 @@ jobs:
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
         username: 'gha'
-        server: '94.130.177.235'
+        server: 'vircadia.dev'
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         local_path: 'docs/build-archives/*'
-        remote_path: '/var/www/html/gha/'
+        remote_path: '/var/www/vhosts/release/'
         args: '-o ConnectTimeout=5'
     - name: Deploy english documentation
       shell: bash
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
         chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 "mkdir -p /var/www/html/gha/ && tar -xvzf /var/www/html/gha/build-en.tar.gz -C /var/www/html/gha/ && rm /var/www/html/gha/build-en.tar.gz"
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/release/ && tar -xvzf /var/www/vhosts/release/build-en.tar.gz -C /var/www/vhosts/release/ && rm /var/www/vhosts/release/build-en.tar.gz"
 
   build_translated_docs:
     runs-on: ubuntu-20.04
@@ -89,20 +88,20 @@ jobs:
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
         username: 'gha'
-        server: '94.130.177.235'
+        server: 'vircadia.dev'
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         local_path: 'docs/build-archives/*'
-        remote_path: '/var/www/html/gha/'
+        remote_path: '/var/www/vhost/release/'
         args: '-o ConnectTimeout=5'
     - name: Deploy german documentation
       shell: bash
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
         chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 "mkdir -p /var/www/html/gha/de/ && tar -xvzf /var/www/html/gha/build-de.tar.gz -C /var/www/html/gha/de/ && rm /var/www/html/gha/build-de.tar.gz"
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/release/de/ && tar -xvzf /var/www/vhosts/release/build-de.tar.gz -C /var/www/vhosts/release/de/ && rm /var/www/vhosts/release/build-de.tar.gz"
     - name: Deploy japanese documentation
       shell: bash
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
         chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@94.130.177.235 "mkdir -p /var/www/html/gha/jp/ && tar -xvzf /var/www/html/gha/build-jp.tar.gz -C /var/www/html/gha/jp/ && rm /var/www/html/gha/build-jp.tar.gz"
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/release/jp/ && tar -xvzf /var/www/vhosts/release/build-jp.tar.gz -C /var/www/vhosts/release/jp/ && rm /var/www/vhosts/release/build-jp.tar.gz"
