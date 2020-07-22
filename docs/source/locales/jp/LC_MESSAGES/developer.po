@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-10 06:33+0000\n"
+"POT-Creation-Date: 2020-07-22 22:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -553,11 +553,11 @@ msgid "glm:  0.9.8"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_GENERAL.md:24
-msgid "Oculus SDK:   1.11 (Win32) / 0.5 (Mac)"
+msgid "Oculus SDK:   1.11 (Windows) / 0.5 (Mac)"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_GENERAL.md:25
-msgid "OpenVR:   1.11.11 (Win32 only)"
+msgid "OpenVR:   1.11.11 (Windows, Linux)"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_GENERAL.md:26
@@ -1144,7 +1144,7 @@ msgid "After running these steps you can run interface:<br />interface/interface
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:3
-msgid "Last Updated on April 30, 2019"
+msgid "Last Updated on July 13, 2020"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:5
@@ -1175,34 +1175,40 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:18
-msgid "OpenSSL"
+msgid "OSX SDK"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:20
 msgid ""
+"You will need the OSX SDK for building. The easiest way to get this is to"
+" install Xcode from the App Store."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:22
+msgid "OpenSSL"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:24
+msgid ""
 "Assuming you've installed OpenSSL using the homebrew instructions above, "
 "you'll need to set OPENSSL_ROOT_DIR so CMake can find your "
 "installations.<br />For OpenSSL installed via homebrew, set "
-"OPENSSL_ROOT_DIR:"
+"OPENSSL_ROOT_DIR via export OPENSSL_ROOT_DIR=/usr/local/opt/openssl or by"
+" appending -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl to cmake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:25
-msgid ""
-"Note that this uses the version from the homebrew formula at the time of "
-"this writing, and the version in the path will likely change."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_OSX.md:26
+#: ../../source/developer/build/BUILD_OSX.md:29
 msgid "Xcode"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:28
+#: ../../source/developer/build/BUILD_OSX.md:31
 msgid ""
 "If Xcode is your editor of choice, you can ask CMake to generate Xcode "
-"project files instead of Unix Makefiles."
+"project files instead of Unix Makefiles. You will need to select the "
+"Xcode installation in the terminal first if you have not done so already."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:32
+#: ../../source/developer/build/BUILD_OSX.md:37
 msgid ""
 "If cmake complains about Python 3 being missing, you may need to update "
 "your CMake binary with command brew upgrade cmake, or by downloading and "
@@ -1210,7 +1216,7 @@ msgid ""
 "instaled CMake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:34
+#: ../../source/developer/build/BUILD_OSX.md:39
 msgid ""
 "After running cmake, you will have the make files or Xcode project file "
 "necessary to build all of the components. Open the hifi.xcodeproj file, "
@@ -1218,10 +1224,20 @@ msgid ""
 "and click Run."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:36
+#: ../../source/developer/build/BUILD_OSX.md:41
 msgid ""
 "If the build completes successfully, you will have built targets for all "
 "components located in the build/${target_name}/Debug directories."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:43
+msgid "make"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:45
+msgid ""
+"If you build with make rather than Xcode, you can append -j4for assigning"
+" more threads. The number indicates the number of threads, e.g. 4."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:3
@@ -1866,6 +1882,11 @@ msgstr ""
 msgid "Debugging"
 msgstr ""
 
+#: ../../source/developer/interface.rst:5
+#: ../../source/developer/interface/environment-variables.md:1
+msgid "Environment Variables"
+msgstr ""
+
 #: ../../source/developer/interface/command-line-parameters.md:3
 msgid "You can launch Interface with the following parameters."
 msgstr ""
@@ -2000,6 +2021,55 @@ msgid ""
 "\"Access is Denied\" error."
 msgstr ""
 
+#: ../../source/developer/interface/environment-variables.md:3
+msgid "You can alter Interface's functionality using these environment variables."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:5
+msgid ""
+"Uses the source files for the QML and other resource at runtime instead "
+"of the compiled files."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:9
+msgid ""
+"Enables the OpenVR plugin to be used with an Oculus HMD. (Useful for "
+"debugging the OpenVR plugin if you have an Oculus HMD but not a Vive.)"
+msgstr ""
+
 #~ msgid "Build Android - additional instructions for Android"
+#~ msgstr ""
+
+#~ msgid "Oculus SDK:   1.11 (Win32) / 0.5 (Mac)"
+#~ msgstr ""
+
+#~ msgid "OpenVR:   1.11.11 (Win32 only)"
+#~ msgstr ""
+
+#~ msgid "Last Updated on April 30, 2019"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Assuming you've installed OpenSSL using "
+#~ "the homebrew instructions above, you'll "
+#~ "need to set OPENSSL_ROOT_DIR so CMake"
+#~ " can find your installations.<br />For "
+#~ "OpenSSL installed via homebrew, set "
+#~ "OPENSSL_ROOT_DIR:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note that this uses the version "
+#~ "from the homebrew formula at the "
+#~ "time of this writing, and the "
+#~ "version in the path will likely "
+#~ "change."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If Xcode is your editor of choice,"
+#~ " you can ask CMake to generate "
+#~ "Xcode project files instead of Unix "
+#~ "Makefiles."
 #~ msgstr ""
 
