@@ -11,7 +11,7 @@ jobs:
     - uses: mshick/add-pr-comment@v1
       with:
         message: |
-          **This PR will be available at** https://https://preview-docs.vircadia.dev/PR${{ github.event.number }}/ **once building has completed.**
+          **This PR will be available at** https://preview-docs.vircadia.dev/PR${{ github.event.number }}/ **once building has completed.**
           Every new commit will trigger a rebuild. Look at the "Checks" to see progress.
 #        repo-token: ${{ secrets.GITHUB_TOKEN }}
         repo-token-user-login: 'Buildsystem' # The user.login for temporary GitHub tokens
