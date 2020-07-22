@@ -40,11 +40,11 @@ jobs:
         server: 'vircadia.dev'
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         local_path: 'docs/build-archives/*'
-        remote_path: '/var/www/vhosts/preview/PR${{ github.event.number }}/'
+        remote_path: '/var/www/vhosts/vircadia.dev/docs.vircadia.dev/preview/PR${{ github.event.number }}/'
         args: '-o ConnectTimeout=5'
     - name: Deploy english documentation
       shell: bash
       run: |
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
         chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "tar -xvzf /var/www/vhosts/preview/PR${{ github.event.number }}/build-en.tar.gz -C /var/www/vhosts/preview/PR${{ github.event.number }}/ && rm /var/www/hvhosts/preview/PR${{ github.event.number }}/build-en.tar.gz"
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/preview/PR${{ github.event.number }}/build-en.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/preview/PR${{ github.event.number }}/ && rm /var/www/hvhosts/vircadia.dev/docs.vircadia.dev/preview/PR${{ github.event.number }}/build-en.tar.gz"
