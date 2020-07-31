@@ -21,9 +21,9 @@ Consider getting familiar with the following concepts before starting this tutor
 
 ## Write a Script to Open a Web Page
 
-The script used here opens a web page on the Tablet when a user clicks or triggers an entity. In this example, we've written a client entity script that opens the Marketplace web page when an entity/item is triggered. The script looks for the URL in the 'User data' property of the entity and injects the Marketplace code into the link. This allows the user who triggered the script to purchase the item without having to go to the **Market** app on their Tablet or HUD. 
+The script used here opens a web page on the Tablet when a user clicks or triggers an entity. In this example, we've written a client entity script that opens the Marketplace web page when an entity/item is triggered. The script looks for the URL in the 'User data' property of the entity and injects the Marketplace code into the link. This allows the user who triggered the script to purchase the item without having to go to the **Market** app on their Tablet or HUD.
 
-You can get the script [here](https://open-tablet-to-page.glitch.me/openTabletPageButton.js). 
+You can get the script [here](https://open-tablet-to-page.glitch.me/openTabletPageButton.js).
 
 
 ## Create an Entity to Use as a Button
@@ -48,7 +48,12 @@ The entity you create for your button has to be [triggerable](entity-behavior.ht
 6. Scroll down and ensure that 'Triggerable' is selected.
 7. After you exit the **Create** app, test your script by clicking or triggering the button to open the Marketplace web page for your item.
 
-![](_images/open-page.gif)
+.. video:: _static/videos/open-page.webm
+   :autoplay:
+   :nocontrols:
+   :loop:
+   :muted:
+   :additionalsource: _static/videos/open-page.mp4
 
 **See Also**
 

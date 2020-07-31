@@ -191,3 +191,6 @@ epub_exclude_files = ['search.html']
 
 # -- Markdown Setup ---------------------------------------------------------
 extensions = ['recommonmark']
+
+# -- Video Support ----------------------------------------------------------
+extensions = ['sphinxcontrib.video']
