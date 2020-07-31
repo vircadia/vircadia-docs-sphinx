@@ -44,6 +44,11 @@ We encourage you to compile the documentation locally on your computer prior to 
     ```
     C:\> refreshenv
     ```
+5. Install Sphinx video addon:
+
+    ```
+    C:\> pip install git+https://github.com/Madders/video.git
+    ```
 
 5. Install Sphinx version 2.4.4 (3.0.0 > is unsupported currently) in a command line:
 
@@ -81,3 +86,16 @@ Replace `xX` with your [language code](https://www.sphinx-doc.org/en/master/usag
 ## Using RST
 
 Most of our docs use RST. reStructuredText (RST) is the default plaintext markup language used by Sphinx. It is an extensible markup language, that is fully customizable. However, we don't (yet) have need of this, and will stick with the default set of directives for Vircadia's documentation. To learn more, refer to Sphinx's [reStructuredText Primer](https://www.sphinx-doc.org/en/2.0/usage/restructuredtext/basics.html).
+
+## Using videos
+
+When adding videos to the documentation, it is important to use h264 *and* vp9 to ensure they can be played it all major internet browsers.
+To convert videos and animated images to vp9 you can use following command in ffmpeg:
+    ```
+    ffmpeg -i INPUTFILE -c:v libvpx-vp9 -b:v 0 -crf 5 -vf "scale=-2:'min(600,ih)'" -cpu-used 5 -row-mt 1 -c:a libopus -b:a 96K _static/videos/OUTPUTFILE.webm
+    ```
+Or to convert to h264:
+    ```
+    ffmpeg -i INPUTFILE -c:v libx264 -b:v 0 -crf 18 -vf "scale=-2:'min(600,ih)'" -c:a libfdk_aac -b:a 96K _static/videos/OUTPUTFILE.mp4
+    ```
+Keep in mind that the `:muted:` property is needed for autoplay in Chrome.

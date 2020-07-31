@@ -1,6 +1,6 @@
 # Add a Material Entity
 
-You can add a material entity to an object in your domain. A material entity contains specific material data that determines the texture and shading of an object. For example, if you want to create a castle in your domain, you need your walls to look like they're made of rough gray stone. You can do this by adding a castle wall material entity to your walls. 
+You can add a material entity to an object in your domain. A material entity contains specific material data that determines the texture and shading of an object. For example, if you want to create a castle in your domain, you need your walls to look like they're made of rough gray stone. You can do this by adding a castle wall material entity to your walls.
 
 Before adding a material entity, make sure you have created a material using the [PBR Materials Guide](../3d-models/pbr-materials-guide.html).
 
@@ -13,7 +13,7 @@ Before adding a material entity, make sure you have created a material using the
 
 ## Generate a Material Entity
 
-To add a material to your object in High Fidelity, you need to specify the material data in a JSON file or add the material directly into the **Create** app. 
+To add a material to your object in High Fidelity, you need to specify the material data in a JSON file or add the material directly into the **Create** app.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
@@ -50,24 +50,29 @@ This file contains all related material data, such as the color, roughness, and 
 </p>
 </div>
 
-Once you have your material entity JSON file, you can add it to an object in High Fidelity. Let's add the [castle wall material](https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json) to a box entity in your domain. 
+Once you have your material entity JSON file, you can add it to an object in High Fidelity. Let's add the [castle wall material](https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json) to a box entity in your domain.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall. 
-3. Go to the **Create** tab and click on the 'Material' icon to add a material entity. Enter the material's JSON file URL when prompted. You will see the material entity represented as a small sphere. 
-4. Click and select the wall. Go to the 'Properties' tab and copy the parent ID under the 'Name' box. 
+2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall.
+3. Go to the **Create** tab and click on the 'Material' icon to add a material entity. Enter the material's JSON file URL when prompted. You will see the material entity represented as a small sphere.
+4. Click and select the wall. Go to the 'Properties' tab and copy the parent ID under the 'Name' box.
 5. Click and select the material entity. Go to the 'Properties' tab and paste the copied parent ID in the 'Parent' box. You will see the material applied to the wall. In this step, you are parenting or applying a material to an entity.
 
-![](_images/material-entity.gif)
+.. video:: _static/videos/material-entity.webm
+   :autoplay:
+   :nocontrols:
+   :loop:
+   :muted:
+   :additionalsource: _static/videos/material-entity.mp4
 
 ### Use the materialData Field
 
 To add a material entity directly into the **Create** Tools app:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall. 
-3. Go to the **Create** tab and click on the 'Material' icon to add a material entity. 
+2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall.
+3. Go to the **Create** tab and click on the 'Material' icon to add a material entity.
 4. Enter `materialData` when you're prompted for a 'Material URL'.
-5. Click and select the wall. Go to the 'Properties' tab and copy the parent ID under the 'Name' box. 
+5. Click and select the wall. Go to the 'Properties' tab and copy the parent ID under the 'Name' box.
 6. Click and select the material entity. Go to the 'Properties' tab and paste the copied parent ID in the 'Parent' box. In this step, you are parenting or applying a material to an entity.
 7. Scroll down to the 'Material Data' field. Click 'Clear Material Data' and then paste the following JSON data:
 
@@ -88,7 +93,12 @@ To add a material entity directly into the **Create** Tools app:
 ```
 
 
-![](_images/material-data.gif)
+.. video:: _static/videos/material-data.webm
+   :autoplay:
+   :nocontrols:
+   :loop:
+   :muted:
+   :additionalsource: _static/videos/material-data.mp4
 
 **See Also**
 
