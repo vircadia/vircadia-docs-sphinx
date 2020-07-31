@@ -17,7 +17,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * UI: Connection dialog now says "EXPLORE" instead of "GOTO". (#544)
 * Graphics: Fix bug where FBX models will only show vertex colors if more than one color is given. (#545)
 * Avatar: Fix bug where Interface lags extensively when moving after startup due to a physics issue. (#547)
-* UI: The graphics settings dialog now allows you to set the resolution scale to 2.0 from 1.0. (#550)
+* UI: The graphics settings dialog now allows you to set the resolution scale to 2.0, up from 1.0. (#550)
 * Graphics: Fix bug where `renderWithZones` doesn't work after reloading content. (#561)
 * Graphics: Fix bug where `renderWithZones` would not work when loading content from a JSON file. (#564)
 * Application: Fix bug where the --url command line parameter would not work under some circumstances. (#574)
