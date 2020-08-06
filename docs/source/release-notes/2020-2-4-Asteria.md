@@ -24,8 +24,8 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * App: The Chat app has a few updates. (#579)
     * A notification has been added for when people enter or leave the domain.
     * The main Chat window will open when you click on a chat message notification.
-* Graphics: TBD... (#000)
-* Security: OAuth2... (#000)
+* Security: You can now sign-in to OAuth2 enabled domains. (Alpha Feature) (#591)
+* Graphics: The default "Automatic" maximum texture memory setting has been increased from 1GB to 2GB. (#594)
 
 #### Technicals
 
@@ -37,7 +37,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 #### General
 
-* Security: OAuth2... (#000)
+* Security: Domains can now accept user logins via groups based on WordPress roles via OAuth2. (Alpha Feature) (#591)
 
 ## Metaverse Server (Codename Apollo)
 
@@ -45,7 +45,7 @@ The [metaverse server](https://github.com/kasenvr/project-apollo) and [metaverse
 
 ## Vircadia Launcher (Codename Pantheon)
 
-[Vircadia's launcher](https://github.com/kasenvr/pantheon-launcher) is at version 0.0.1s. The launcher now runs the Interface as a separate process by default. Because of this, it now has heavily improved stability when Interface is launched with it. Drag and drop and crash reporting will now also work correctly.
+[Vircadia's launcher](https://github.com/kasenvr/pantheon-launcher) is at version 0.0.1u. The launcher now runs the Interface as a separate process by default. Because of this, it now has heavily improved stability when Interface is launched with it. The drag and drop feature as well as crash reporting will now also work correctly.
 
 ## Extra Applications
 
@@ -59,11 +59,7 @@ The numbers at the end of each item are the PR numbers in the Decentralized GoTo
 
 The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/kasenvr/community-apps). 
 
-* Nothing new to report here either!
-
-#### Slider App
-
-The app now has proper syncing with multiple users when viewing a presenter's screen. Work is still underway to improve its use before merging. The PR can be viewed [here](https://github.com/kasenvr/project-athena/pull/541).
+The Slider app now has proper syncing with multiple users when viewing a presenter's screen. Work is still underway to improve its use before merging. The PR can be viewed [here](https://github.com/kasenvr/project-athena/pull/541).
 
 ## Documentation
 
@@ -73,7 +69,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphi
 
 * Enable GitHub Actions support with auto deployment for the docs. (#67)
 * Translation configuration fixed. (#68)
-* Release notes for 2020.2.4-Asteria. (#71)
+* Release notes for 2020.2.4 Asteria. (#71)
 
 #### API Docs
 
