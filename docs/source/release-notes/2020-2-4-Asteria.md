@@ -9,7 +9,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 #### General
 
 * API: `Window.getUserAgent` has been added to return the Interface's user agent. (#520)
-* App: The Inventory v2.0.2 has been merged as an unpublished script, to be deployed in the More app. (#521)
+* App: The Inventory app v2.0.2 has been merged as an unpublished script, to be deployed in the More app. (#521)
 * Brand: Updated strings, comments, and folders (especially on OSX) to Vircadia. (#524)
 * UI: Fix bug where Snap app shows in screenshots occasionally. (#538)
 * App: Fix bug where the avatar does not show when a recording is reloaded. (#539)
@@ -30,8 +30,8 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 #### Technicals
 
-* Docs: Packaging docs are more accurate now to the requirements on Windows. (#537)
-* UX: The NSIS installer no longer defaults the option for the sandbox (server-console) to start with Windows as true. (#596)
+* Docs: Packaging docs are more accurate now with respect to the requirements on Windows. (#537)
+* UX: The NSIS installer no longer defaults the options for the Sandbox (server-console) to start after install or start with Windows as true. (#596)
 
 ## Domain Server
 
@@ -43,11 +43,11 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Metaverse Server (Codename Apollo)
 
-The [metaverse server](https://github.com/kasenvr/project-apollo) and [metaverse server interface](https://github.com/kasenvr/project-apollo-dashboard) are progressing well. The metaverse server is currently being rewritten in TypeScript with Node.JS in order to improve its capabilities for the long term. As of now (8/6/2020), it is at feature parity with its original C# implementation.
+The [metaverse server](https://github.com/kasenvr/project-apollo) and [metaverse server interface](https://github.com/kasenvr/project-apollo-dashboard) are progressing well. The metaverse server is currently being rewritten in TypeScript with Node.JS in order to improve its capabilities for the long term. As of now (8/6/2020) it is at feature parity with its original C# implementation.
 
 ## Vircadia Launcher (Codename Pantheon)
 
-[Vircadia's launcher](https://github.com/kasenvr/pantheon-launcher) is at version 0.0.1u. The launcher now runs the Interface as a separate process by default. Because of this, it now has heavily improved stability when Interface is launched with it. The drag and drop feature as well as crash reporting will now also work correctly.
+[Vircadia's launcher](https://github.com/kasenvr/pantheon-launcher) is at version 0.0.1u. The launcher now runs the Interface as a separate process by default. Because of this, it now has greatly improved stability when Interface is launched with it. The drag and drop feature as well as crash reporting now also work correctly.
 
 ## Extra Applications
 
