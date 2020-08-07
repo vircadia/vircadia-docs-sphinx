@@ -1,6 +1,6 @@
 # Alpha 2020.2.4 Asteria Release Notes
 
-This version of Vircadia is an update to 2020.2.3. It is compatible with the 2020.2.0-Asteria protocol. This version was released on August 5th, 2020.
+This version of Vircadia is an update to 2020.2.3. It is compatible with the 2020.2.0-Asteria protocol. This version was released on August 6th, 2020.
 
 ## Interface (Codename Athena)
 
@@ -26,10 +26,12 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
     * The main Chat window will open when you click on a chat message notification.
 * Security: You can now sign-in to OAuth2 enabled domains. (Alpha Feature) (#591)
 * Graphics: The default "Automatic" maximum texture memory setting has been increased from 1GB to 2GB. (#594)
+* UI: The graphics settings dialog now has a button in the toolbar for clear and easy access. (#595)
 
 #### Technicals
 
 * Docs: Packaging docs are more accurate now to the requirements on Windows. (#537)
+* UX: The NSIS installer no longer defaults the option for the sandbox (server-console) to start with Windows as true. (#596)
 
 ## Domain Server
 
@@ -41,7 +43,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Metaverse Server (Codename Apollo)
 
-The [metaverse server](https://github.com/kasenvr/project-apollo) and [metaverse server interface](https://github.com/kasenvr/project-apollo-dashboard) are progressing well. The metaverse server is currently being rewritten in TypeScript with Node.JS in order to improve its capabilities for the long term.
+The [metaverse server](https://github.com/kasenvr/project-apollo) and [metaverse server interface](https://github.com/kasenvr/project-apollo-dashboard) are progressing well. The metaverse server is currently being rewritten in TypeScript with Node.JS in order to improve its capabilities for the long term. As of now (8/6/2020), it is at feature parity with its original C# implementation.
 
 ## Vircadia Launcher (Codename Pantheon)
 
@@ -58,6 +60,8 @@ The numbers at the end of each item are the PR numbers in the Decentralized GoTo
 #### Community Apps
 
 The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/kasenvr/community-apps). 
+
+* Add the initial release of the Inventory app. (#21)
 
 The Slider app now has proper syncing with multiple users when viewing a presenter's screen. Work is still underway to improve its use before merging. The PR can be viewed [here](https://github.com/kasenvr/project-athena/pull/541).
 

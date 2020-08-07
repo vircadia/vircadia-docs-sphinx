@@ -8,7 +8,7 @@ See what's been released in Vircadia.
     :maxdepth: 2
     :titlesonly:
 
-    Alpha Release 2020.2.4 Asteria (08/05/20) <release-notes/2020-2-4-Asteria>
+    Alpha Release 2020.2.4 Asteria (08/06/20) <release-notes/2020-2-4-Asteria>
     Alpha Release 2020.2.3 Asteria (07/15/20) <release-notes/2020-2-3-Asteria>
     Alpha Release 2020.2.2 Asteria (06/26/20) <release-notes/2020-2-2-Asteria>
     Alpha Release 2020.2.1 Asteria (06/11/20) <release-notes/2020-2-1-Asteria>
