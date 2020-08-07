@@ -13,9 +13,9 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * UI: The Audio settings panel layout has been adjusted to flow better. (#468)
 * Avatar: Reduce log spam if you have missing joints, the notice is now given every 30 seconds. (#474)
 * App: The More app has been updated from its main repo. (#476)
-* Stability: Prevent a crash for corrupted GLTF models.
-* Stability: Prevent a crash on OSX due to an illegal instruction.
-* VR: The option to enable/disable Vive Pro Eye eye tracking has been added.
+* Stability: Prevent a crash for corrupted GLTF models. (#480)
+* Stability: Prevent a crash on OSX due to an illegal instruction. (#481)
+* VR: The option to enable/disable Vive Pro Eye eye tracking has been added. (#484)
 * App: The main Chat window has had quite a few updates. (#485)
     * Shrunk the main window.
     * Spacing between items has been reduced.
