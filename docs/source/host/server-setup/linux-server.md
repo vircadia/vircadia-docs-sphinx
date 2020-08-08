@@ -16,7 +16,7 @@ sudo apt-get update && sudo apt-get install ./vircadia-server_2020.2.4-asteria-2
 ### Amazon Linux 2
 
 ```sh
-sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2020.2.0_ASTERIA_20200608_585fb19-1.amzn2.x86_64.rpm
+sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2020.2.4_ASTERIA_20200807_e74cbee-1.amzn2.x86_64.rpm
 ```
 
 ### Unlisted Distribution
