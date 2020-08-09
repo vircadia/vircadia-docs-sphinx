@@ -1,42 +1,44 @@
-# Apply Physics to Entities
+#########################
+Apply Physics to Entities
+#########################
 
-Your Vircadia VR experience is made realistic with the help of a [physics engine](https://pybullet.org/wordpress). Vircadia uses this engine to simulate an object's behavior according to the Newtonian laws of physics. For example, if you hit a ball with a bat in Vircadia, the physics engine computes these movements and makes the ball spin away from the bat after collision. You can modify an entity's physics behavior using the Create app.
+Your Vircadia VR experience is made realistic with the help of a `physics engine <https://pybullet.org/wordpress>`_. Vircadia uses this engine to simulate an object's behavior according to the Newtonian laws of physics. For example, if you hit a ball with a bat in Vircadia, the physics engine computes these movements and makes the ball spin away from the bat after collision. You can modify an entity's physics behavior using the Create app.
 
-<div class="admonition note">
-   <p class="admonition-title">Note</p>
-   <p>You can select and edit multiple entities at once. The behavior will be different based on the type of property you'd like to set:</p>
-    <ul>
-        <li>Numbers: When using the slider, an offset will be applied to each of the original values. When typed in, the new value will replace the original values for the selected entities. </li>
-        <li>All other field types (checkboxes, input fields, etc): The new value will replace the original values for the selected entities. </li>
-    </ul>
-</div>
+.. note:: You can select and edit multiple entities at once. The behavior will be different based on the type of property you'd like to set:
+
+          - Numbers: When using the slider, an offset will be applied to each of the original values. When typed in, the new value will replace the original values for the selected entities.
+          - All other field types (checkboxes, input fields, etc): The new value will replace the original values for the selected entities.
 
 
-**On This Page:**
+.. contents:: On This Page
+    :depth: 2
 
-+ [Apply Physics to an Entity](#apply-physics-to-an-entity)
-+ [Change an Entity's Velocity](#change-an-entity-s-velocity)
-+ [Set How a Moving Entity Slows Down](#set-how-a-moving-entity-slows-down)
-+ [Set an Entity's Friction and Bounciness](#set-an-entity-s-friction-and-bounciness)
-+ [Set an Entity's Density](#set-an-entity-s-density)
-+ [Set How an Entity Moves in a Gravitational Field](#set-how-an-entity-moves-in-a-gravitational-field)
-
-## Apply Physics to an Entity
+--------------------------
+Apply Physics to an Entity
+--------------------------
 
 To apply physics properties to an entity:
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Select or add any entity of your choice.
-3. In the 'Properties' tab, scroll down to the **Physics** section. When you first create an entity, the physics properties are set to the default values you can see in the image below. ![](_images/physics-prop.PNG)
+3. In the 'Properties' tab, scroll down to the **Physics** section. When you first create an entity, the physics properties are set to the default values you can see in the image below.
 
-## Change an Entity's Velocity
+.. image:: _images/physics-prop.PNG
+
+------------------------------
+Change an Entity's Velocity
+---------------------------------
 
 Velocity is the speed of an object in a certain direction. All entities that have a position and orientation in Vircadia will have linear and angular velocity. These velocities might be zero, but they still exist.
 
-### Linear Velocity
+_______________
+Linear Velocity
+_______________
 
-**Type**: 3D Vector<br />
-**Unit:** meters/second<br />
+**Type**: 3D Vector
+
+**Unit:** meters/second
+
 **Default Value:** (0,0,0)
 
 You can choose to make an entity move in a specified direction by changing its linear velocity. The direction is determined using the x, y, or z coordinates in a 3D Cartesian coordinate system. The 3D Cartesian coordinate system helps you determine the position of your entity in space. Every time your entity moves, its x, y, and z coordinates change to show you the new position. To change an entity's linear velocity:
@@ -45,22 +47,32 @@ You can choose to make an entity move in a specified direction by changing its l
 2. Say you want to move a cube entity upwards in a straight line. Change the Y value for linear velocity to `0.1000` and see your cube start moving.
 3. If you want your cube to change direction, change the x and z values to `0.1000`.
 
-### Angular Velocity
+________________
+Angular Velocity
+________________
 
-**Type:** 3D Vector<br />
-**Unit:** radians/second<br />
+**Type:** 3D Vector
+
+**Unit:** degrees/second
+
 **Default Value:** (0,0,0)
 
-Angular velocity is the speed at which an object is rotating in a certain direction. It is measured in radians/second. To change an entity's angular velocity:
+Angular velocity is the speed at which an object is rotating in a certain direction. It is measured in degrees/second. To change an entity's angular velocity:
 
 1. In the 'Properties' tab, scroll down to the 'Angular Velocity' property. The default value is `0.0000`.
 2. Change the X value to see your cube entity start rotating around an axis.
 3. If you want your cube entity to change its angular velocity direction, change the Y and Z values.
 
-## Set How a Moving Entity Slows Down
+.. note:: The scripting engine uses radials/second instead of degrees/second.
 
-**Type**: Scalar<br />
-**Range:** 0 - 1<br />
+----------------------------------
+Set How a Moving Entity Slows Down
+----------------------------------
+
+**Type**: Scalar
+
+**Range:** 0 - 1
+
 **Default Value:** 0.00
 
 In Vircadia, damping represents how much of an entity's linear or angular velocity is lost over time. All moving objects we see in the real world experience some friction with air, reducing their velocities over time. Damping is used to approximate this effect of the real world in Vircadia. So if the damping of an object is `0.00`, it will not lose any velocity and it will not slow down. If the damping of an object is `1.00`, it will lose all its velocity and stop immediately. If you want to throw a ball and have it slow down over time, you can add a damping value to do so.
@@ -68,25 +80,28 @@ In Vircadia, damping represents how much of an entity's linear or angular veloci
 To set the linear damping of an object:
 
 1. In the 'Properties' tab, scroll down to the 'Linear Damping' property. The default value is `0.00`.
-2. [Change the linear velocity](#linear-velocity) of a cube to any value.
+2. `Change the linear velocity <#linear-velocity>`_ of a cube to any value.
 3. Change the 'Linear Damping' value to `1.00` to make the cube stop moving. You can change this value to anything between `0.00` and `1.00` to make an entity slow down over time.
 
 To set the angular damping of an object:
 
 1. In the 'Properties' tab, scroll down to the 'Angular Damping' property. The default value is `0.00`.
-2. [Change the angular velocity](#angular-velocity) of a cube to any value.
+2. `Change the angular velocity <#angular-velocity>`_ of a cube to any value.
 3. Change the 'Angular Damping' value to `1.00` to make the cube stop moving. You can change this value to anything between `0.00` and `1.00` to make an entity slow down over time.
 
-.. video:: _static/videos/physics.webm
+.. video:: ../../_static/videos/physics.webm
    :autoplay:
    :nocontrols:
    :loop:
    :muted:
-   :additionalsource: _static/videos/physics.mp4
+   :additionalsource: ../../_static/videos/physics.mp4
 
-## Set an Entity's Friction and Bounciness
+---------------------------------------
+Set an Entity's Friction and Bounciness
+---------------------------------------
 
-**Range:** 0 - 1<br />
+**Range:** 0 - 1
+
 **Default Value:** 0.5000
 
 When a dynamic entity collides with another entity, it can react in a number of ways depending on its physics properties. The values you set for friction and bounciness determine this reaction. By default, both values are `0.5000`.
@@ -101,11 +116,16 @@ Bounciness is the energy an entity conserves during collision. For example, a ba
 1. In the 'Properties' tab, scroll down to the 'Bounciness' property.
 2. Change the value to anything between `0.0000` and `1.0000`. An entity with a bounciness of `0.0000` will conserve no energy, while an entity with a bounciness of `1.0000` will conserve all of its energy.
 
-## Set an Entity's Density
+-----------------------
+Set an Entity's Density
+-----------------------
 
-**Type**: Scalar<br />
-**Unit:** kg/meter<sup>3</sup><br />
-**Range:** 100 - 10000<br />
+**Type**: Scalar
+
+**Unit:** kg/meter³
+
+**Range:** 100 - 10000
+
 **Default Value:** 1000.0000
 
 An entity's density is the ratio of its mass to its volume. For example, an entity with low density is made of light materials such as wood, while an entity with high density is made of dense materials such as iron.
@@ -114,10 +134,14 @@ In Vircadia, the maximum (`10000`) and minimum (`100`) values of density were ch
 
 To change this value, scroll down to the 'Density' property in the 'Properties' tab. Change it to the value of your choice.
 
-## Set How an Entity Moves in a Gravitational Field
+------------------------------------------------
+Set How an Entity Moves in a Gravitational Field
+------------------------------------------------
 
-**Type:** 3D Vector<br />
-**Unit:** meters/second<sup>2</sup><br />
+**Type:** 3D Vector
+
+**Unit:** meters/second²
+
 **Default Value:** (0,0,0)
 
 In the **Create** app, 'Gravity' is the acceleration of the entity, as if it were in a uniform gravitational field. This property controls how an entity behaves when you change the gravity of a domain. For example, if a ball is floating in zero gravity, it will float downwards when you increase gravity downwards.
@@ -128,6 +152,6 @@ To change this value, scroll down to the 'Gravity' property in the 'Properties' 
 
 **See Also**
 
-+ [Define an Entity's Behavior](entity-behavior.html)
-+ [Interact with Your Environment](../../explore/interact.html)
-+ [Define Interactions with Avatars](avatar-interactions.html)
++ :doc:`Define an Entity's Behavior <entity-behavior>`
++ :doc:`Interact with Your Environment <../../explore/interact>`
++ :doc:`Define Interactions with Avatars <avatar-interactions>`
