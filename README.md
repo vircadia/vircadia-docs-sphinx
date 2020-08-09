@@ -87,6 +87,7 @@ Replace `xX` with your [language code](https://www.sphinx-doc.org/en/master/usag
 
 Most of our docs use RST. reStructuredText (RST) is the default plaintext markup language used by Sphinx. It is an extensible markup language, that is fully customizable. To learn more, refer to Sphinx's [reStructuredText Primer](https://www.sphinx-doc.org/en/2.0/usage/restructuredtext/basics.html).
 RST should be used for any real documentation, as Markdown only supports very basic directives.
+A valuable resource for RST is the [official documentation](https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html).
 
 ## Using videos
 
