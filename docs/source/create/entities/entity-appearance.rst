@@ -62,12 +62,12 @@ Set the Size of an Entity
 
 For cube, sphere, text, image and web entities, you can change its size directly in your environment by selecting and dragging the small boxes inside the object.
 
-.. video:: _static/videos/resize-entity.webm
+.. video:: ../../_static/videos/resize-entity.webm
    :autoplay:
    :nocontrols:
    :loop:
    :muted:
-   :additionalsource: _static/videos/resize-entity.mp4
+   :additionalsource: ../../_static/videos/resize-entity.mp4
 
 For all entities, you can also set the size manually in the **Create** app. With the entity selected, click on 'Properties' and scroll down to the 'Size' settings. Here are the different size settings you can configure:
 
@@ -106,12 +106,12 @@ Rotate an Entity
 
 All entities can be rotated directly in your environment by selecting and dragging the circles around the object.
 
-.. video:: _static/videos/rotate-entity.webm
+.. video:: ../../_static/videos/rotate-entity.webm
    :autoplay:
    :nocontrols:
    :loop:
    :muted:
-   :additionalsource: _static/videos/rotate-entity.mp4
+   :additionalsource: ../../_static/videos/rotate-entity.mp4
 
 You can also set the rotation manually in the **Create** app. With the entity selected, click on 'Properties' and scroll down to the 'Rotation' settings. Here are the different rotation settings you can configure:
 
@@ -131,12 +131,12 @@ Move an Entity
 
 All entities can be moved directly in your environment by selecting and dragging the object to the correct location. Alternatively, you can use the arrows around the object to move it in only one direction.
 
-.. video:: _static/videos/move-entity.webm
+.. video:: ../../_static/videos/move-entity.webm
    :autoplay:
    :nocontrols:
    :loop:
    :muted:
-   :additionalsource: _static/videos/move-entity.mp4
+   :additionalsource: ../../_static/videos/move-entity.mp4
 
 You can also set the position manually in the **Create** app. With the entity selected, click on 'Properties' and scroll down to the 'Position' settings. Here are the different position settings you can configure:
 
