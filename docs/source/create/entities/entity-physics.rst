@@ -25,9 +25,9 @@ To apply physics properties to an entity:
 
 .. image:: _images/physics-prop.PNG
 
-------------------------------
+---------------------------
 Change an Entity's Velocity
----------------------------------
+---------------------------
 
 Velocity is the speed of an object in a certain direction. All entities that have a position and orientation in Vircadia will have linear and angular velocity. These velocities might be zero, but they still exist.
 
