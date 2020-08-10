@@ -1,4 +1,4 @@
-.. note:: This page has content that still needs to be moved off of the old hifi s3 bucket.
+.. note:: This page has content that still needs to be moved off of the old High Fidelity s3 bucket.
 
 #####################
 Add a Material Entity
