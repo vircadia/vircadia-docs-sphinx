@@ -116,12 +116,12 @@ We encourage you to "spot check" your avatar in Unity before exporting it with t
 * Confirm that there are no extraneous objects attached to your model. For example, this `Mech avatar <https://www.cgtrader.com/free-3d-models/character/sci-fi/low-poly-construction-mech>`_ has a ground blue object included in the model. All extraneous objects will be imported into Vircadia and may affect the rendering or animation of your avatar.
 * Test your bone movements. In Unity's 'Inspector', open 'Rig'. For 'Animation Type', choose 'Humanoid' and then click 'Apply'. Go to 'Muscles & Settings' to test your avatar's bone configuration and ensure that it works as expected.
 
-.. video:: _static/videos/muscle-adjustment.webm
+.. video:: ../../_static/videos/muscle-adjustment.webm
    :autoplay:
    :nocontrols:
    :loop:
    :muted:
-   :additionalsource: _static/videos/muscle-adjustment.mp4
+   :additionalsource: ../../_static/videos/muscle-adjustment.mp4
 
 If everything looks good, you need to `host your avatar <package-avatar.html#host-your-avatar>`_ then `change your avatar <../../explore/personalize/change-avatar.html#use-your-own-custom-avatar>`_ to wear it.
 
