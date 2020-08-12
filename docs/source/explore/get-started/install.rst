@@ -11,7 +11,7 @@ Vircadia has two different installers. The *Client Installer* comes with everyth
 Minimum System Requirements
 --------------------------------
 
-In order to run Vircadia , ensure that your computer meets these minimum system requirements:
+In order to run Vircadia, ensure that your computer meets these minimum system requirements:
 
 * Operating system:
 
@@ -22,7 +22,7 @@ In order to run Vircadia , ensure that your computer meets these minimum system 
 * CPU:
 
   * Quad-core minimum
-  * Quad-core with hyperthreading recommended
+  * Quad-core with hyper-threading recommended
 
 * System memory:
 
@@ -44,9 +44,9 @@ In addition, your network must have enough internet bandwidth to run Vircadia:
 * If you are using Interface only to explore the metaverse, then you should have internet speeds of at least **10 Mbit/s download/2 Mbit/s** upload.
 * If you are hosting a domain on your Sandbox, you need to add **10 Mbit/s** upload for each user you want to concurrently visit your domain. You will need only **2 Mbit/s** upload per user if you host your assets on an external web-server rather than your domain-server.
 
-.. note:: Linux builds are currently experimental. If you run into trouble with the supplied AppImages you can try building Vircadia yourself using the `Linux Build Guide <https://github.com/kasenvr/project-athena/blob/kasen/core/BUILD_LINUX.md>`_ or `Vircadia-Builder <https://github.com/daleglass/vircadia-builder>`_.
+.. note:: A world that is specifically build for low-end systems might run fine on slightly less system memory or lower CPU core count.
 
-.. note:: Running Vircadia in VR mode will need a much better graphics adapter, depending on your VR-System.
+.. note:: Running Vircadia on a high resolution display or in VR mode will need a much better graphics adapter, depending on your displays resolution and targeted framerate.
 
 -----------------------------------
 Download Vircadia Installer
@@ -81,9 +81,11 @@ At this time, the Vircadia installer for Mac is unsigned, so you will need give 
 1. Open the downloaded installer dmg file.
 2. Agree to the License Agreement.
 3. Drag Vircadia to the Applications folder.
-4. Open **System Preferences > General**.
-5. Next to the warning indicating that Interface is blocked, click 'Open Anyway'.
-6. Confirm that you want to open the application.
+4. Try open the Interface.app. You will be prompted that macOS will not open the file because it is unsigned.
+5. Open **System Preferences > Security & Privacy**. On older macOS versions this might be in **System Preferences > General**.
+6. Next to the warning indicating that Interface is blocked, click 'Open Anyway'.
+7. Confirm that you want to open the application.
+8. Allow microphone access if prompted to be able to talk inside the application.
 
 At this point, Interface will open and you will be able to log in and begin exploring the metaverse.
 
@@ -95,6 +97,8 @@ Linux Install
 1. Mark the downloaded AppImage file as executable. (for example with ``chmod +x Vircadia-Alpha-2020.2.3-Asteria.AppImage``)
 2. (optional) if you want the AppImage to be integrated into your system, install `AppImageLauncher <https://github.com/TheAssassin/AppImageLauncher>`_.
 3. Execute AppImage.
+
+Currently the sandbox is not part of the Linux Interface build. To install a sandbox (also called domain), please refer to :doc:`Host a Domain from a Local or Cloud Linux Server <../../host/server-setup/linux-server>`.
 
 ----------------------------
 Upgrade Vircadia
