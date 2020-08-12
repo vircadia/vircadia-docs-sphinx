@@ -15,7 +15,8 @@ In order to run Vircadia, ensure that your computer meets these minimum system r
 
 * Operating system:
 
-  * Windows 10, 64-bit
+  * Windows 8.1, 64-bit minimum
+  * Windows 10, 64-bit recommended
   * MacOS High Sierra (10.13) or newer
   * Ubuntu 18.04 64 bit or any other modern Linux distribution
 
