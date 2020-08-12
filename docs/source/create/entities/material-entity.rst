@@ -1,12 +1,10 @@
-.. note:: This page has content that still needs to be moved off of the old High Fidelity s3 bucket.
-
 #####################
 Add a Material Entity
 #####################
 
 You can add a material entity to an object in your domain. A material entity contains specific material data that determines the texture and shading of an object. For example, if you want to create a castle in your domain, you need your walls to look like they're made of rough gray stone. You can do this by adding a castle wall material entity to your walls.
 
-Before adding a material entity, make sure you have created a material using the `PBR Materials Guide <../3d-models/pbr-materials-guide.html>`_.
+Before adding a material entity, make sure you have created a material using the `PBR Materials Guide <../3d-models/pbr-materials-guide>`_.
 
 .. contents:: On This Page
     :depth: 2
@@ -19,7 +17,7 @@ To add a material to your object in Vircadia, you need to specify the material d
 
 .. note:: We are aware of the difficulties involved in converting your material data to a JSON file and are working on making the process easier for our users. In the meantime, we recommend embedding your material data in your models as FBX or glTF files if you are facing difficulties generating a JSON file.
 
-This is what the JSON file for a sample `castle wall material <https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json>`_ looks like:
+This is what the JSON file for a sample `castle wall material <https://docs.vircadia.dev/_static/resources/material-entity/CastleWall.hfm.json>`_ looks like:
 
 .. code-block:: json
 
@@ -30,12 +28,13 @@ This is what the JSON file for a sample `castle wall material <https://hifi-publ
          "name": "CastleWall",
          "model": "hifi_pbr",
          "albedo": [1, 1, 1],
-         "albedoMap": "https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall_Base_Color.png",
-         "roughnessMap": "https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CCastleWall_Roughness.png",
-         "normalMap": "https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall_Normal.png"
+         "albedoMap": "https://docs.vircadia.dev/_static/resources/material-entity/CastleWall_Base_Color.png",
+         "roughnessMap": "https://docs.vircadia.dev/_static/resources/material-entity/CastleWall_Roughness.png",
+         "normalMap": "https://docs.vircadia.dev/_static/resources/material-entity/CastleWall_Normal.png"
       }
    ]
    }
+
 
 This file contains all related material data, such as the color, roughness, and other texture and shading information. Note that you can edit this information programmatically with the `Material` `EntityType <https://apidocs.vircadia.dev/Entities.html#.EntityType>`_ in our API, and define its properties using `EntityProperties-Material <https://apidocs.vircadia.dev/Entities.html#.EntityProperties-Material>`_.
 
@@ -49,7 +48,7 @@ _________________________________
 
 .. note:: At this time, we have no way to automatically generate a JSON file with another tool, and you will need to write your own JSON file.
 
-Once you have your material entity JSON file, you can add it to an object in High Fidelity. Let's add the `castle wall material <https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json>`_ to a box entity in your domain.
+Once you have your material entity JSON file, you can add it to an object in High Fidelity. Let's add the `castle wall material <https://docs.vircadia.dev/_static/resources/material-entity/CastleWall.hfm.json>`_ to a box entity in your domain.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall.
@@ -79,19 +78,19 @@ To add a material entity directly into the **Create** Tools app:
 
 .. code-block:: json
 
-  {
-    "materialVersion": 1,
-    "materials": [
-    {
-      "name": "CastleWall",
-      "model": "hifi_pbr",
-      "albedo": [1, 1, 1],
-      "albedoMap": "https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall_Base_Color.png",
-      "roughnessMap": "https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CCastleWall_Roughness.png",
-      "normalMap": "https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall_Normal.png"
-    }
-    ]
-  }
+   {
+   "materialVersion": 1,
+   "materials": [
+      {
+         "name": "CastleWall",
+         "model": "hifi_pbr",
+         "albedo": [1, 1, 1],
+         "albedoMap": "https://docs.vircadia.dev/_static/resources/material-entity/CastleWall_Base_Color.png",
+         "roughnessMap": "https://docs.vircadia.dev/_static/resources/material-entity/CastleWall_Roughness.png",
+         "normalMap": "https://docs.vircadia.dev/_static/resources/material-entity/CastleWall_Normal.png"
+      }
+   ]
+   }
 
 
 .. video:: ../../_static/videos/material-data.webm
