@@ -48,7 +48,7 @@ _________________________________
 
 .. note:: At this time, we have no way to automatically generate a JSON file with another tool, and you will need to write your own JSON file.
 
-Once you have your material entity JSON file, you can add it to an object in High Fidelity. Let's add the `castle wall material <https://docs.vircadia.dev/_static/resources/material-entity/CastleWall.hfm.json>`_ to a box entity in your domain.
+Once you have your material entity JSON file, you can add it to an object in Vircadia. Let's add the `castle wall material <https://docs.vircadia.dev/_static/resources/material-entity/CastleWall.hfm.json>`_ to a box entity in your domain.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall.
