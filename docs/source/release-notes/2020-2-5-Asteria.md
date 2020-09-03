@@ -14,12 +14,12 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * App: Update the `colorSpread` color-picker and other misc. fixes in the Create app. (#606)
 * API: Add `About` JavaScript API to replace the now deprecated `HifiAbout` API. (#624)
 * Application: Fix freezing when opening the Avatar app when custom bookmarks are present that do not have thumbnails. (#631)
-* UI & Security: Improve the OAuth2 domain feature to not show on domains that do not have it enabled; also enable persistence of logins. (#639)
+* UI & Security: Improve the OAuth2 domain feature to not show domain login status or domain login menu item on domains that do not have the feature enabled. (#639)
 * App: Add update notification message on Interface start if a new version is available. (#658)
 
 #### Miscellaneous
 
-* Application: Code-signing has been re-enabled on Windows. (#303)
+* Application: Code-signing has been re-enabled on Windows installers. (#303)
 * Application: Improve the handling of C++ exceptions by Crashpad on Windows. (#441)
 * App: Update the URLs to the default particle and image entities for the Create app. (#604)
 * Docs: Update build docs to include parameters for building client and server only packages. (#652)
