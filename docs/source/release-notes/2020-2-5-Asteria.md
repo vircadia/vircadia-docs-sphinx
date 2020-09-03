@@ -49,13 +49,13 @@ The metaverse server has been renamed to [Iamus](https://github.com/kasenvr/iamu
 
 The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
 
-* The Explore app UI is getting a complete visual and interaction overhaul, courtesy of Vircadia collaborator Madders! (#654)
+* Nothing new to report, yet!
 
 #### Community Apps
 
 The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/kasenvr/community-apps). 
 
-There are a few apps in active development... The Slider app will be wrapped up as v1.0 soon. The Inventory app will see major improvements and the addition of a marketplace for community content. Alongside this, there are various apps and scripts created by collaborators awaiting addition to Vircadia's main repositories.
+* Nothing new to report, yet!
 
 ## Documentation
 
