@@ -9,7 +9,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 #### General
 
 * Application: Improve performance of entity updates. (#276)
-* Application: Allow resolving of relative URLs when importing entities with JSON. (#586, #672)
+* Application: Enable resolving of relative URLs when importing entities with JSON. (#586, #672)
 * App: Add incremental suffix to cloned entities' names using the Create app. (#603)
 * App: Update the `colorSpread` color-picker and other misc. fixes in the Create app. (#606)
 * API: Add `About` JavaScript API to replace the now deprecated `HifiAbout` API. (#624)
