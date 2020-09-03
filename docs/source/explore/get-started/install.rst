@@ -27,8 +27,7 @@ In order to run Vircadia, ensure that your computer meets these minimum system r
 
 * System memory:
 
-  * 6GB minimum
-  * 8GB+ recommended
+  * 8GB minimum
 
 * Graphics adapter:
 
