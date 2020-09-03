@@ -30,7 +30,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Graphics: The maximum texture size has been upgraded from 2048 -> 8192. (#505)
 * App: The Explore app has been updated from its main repo. (#536)
 
-#### Technicals
+#### Miscellaneous
 
 * Building: Android building has been fixed by updating the URLs for packages. (#466)
 * Docs: The general build documentation was updated to better reflect build variables. (#487)
@@ -53,7 +53,7 @@ The [metaverse server interface](https://github.com/kasenvr/project-apollo-dashb
 
 ## Vircadia Launcher (Codename Pantheon)
 
-[Vircadia's launcher](https://github.com/kasenvr/pantheon-launcher) is at version 0.0.1r, steadily approaching version 1.0.0. It currently features things such as one click downloading and updating, version management, easy settings control for Interface, event listings, and more. It has many planned features, such as world listings and further controls for sandboxes as well. It has over **130 commits** at the time of publishing these release notes.
+[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) is at version 0.0.1r, steadily approaching version 1.0.0. It currently features things such as one click downloading and updating, version management, easy settings control for Interface, event listings, and more. It has many planned features, such as world listings and further controls for sandboxes as well. It has over **130 commits** at the time of publishing these release notes.
 
 ## Extra Applications
 
