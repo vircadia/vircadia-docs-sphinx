@@ -13,7 +13,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * App: Add incremental suffix to cloned entities' names using the Create app. (#603)
 * App: Update the `colorSpread` color-picker and other misc. fixes in the Create app. (#606)
 * API: Add `About` JavaScript API to replace the now deprecated `HifiAbout` API. (#624)
-* Application: Fix freezing when opening the Avatar app when custom bookmarks are present that do not have thumbnails. (#631)
+* App: Fix freezing when opening the Avatar app when custom bookmarks are present that do not have thumbnails. (#631)
 * UI & Security: Improve the OAuth2 domain feature to not show domain login status or domain login menu item on domains that do not have the feature enabled. (#639)
 * App: Add update notification message on Interface start if a new version is available. (#658)
 * Graphics: Fix and extend glTF blendshapes support. (#671)
