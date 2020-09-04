@@ -28,7 +28,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Graphics: The default "Automatic" maximum texture memory setting has been increased from 1GB to 2GB. (#594)
 * UI: The graphics settings dialog now has a button in the toolbar for clear and easy access. (#595)
 
-#### Technicals
+#### Miscellaneous
 
 * Docs: Packaging docs are more accurate now with respect to the requirements on Windows. (#537)
 * UX: The NSIS installer no longer defaults the options for the Sandbox (server-console) to start after install or start with Windows as true. (#596)
@@ -47,7 +47,7 @@ The [metaverse server](https://github.com/kasenvr/project-apollo) and [metaverse
 
 ## Vircadia Launcher (Codename Pantheon)
 
-[Vircadia's launcher](https://github.com/kasenvr/pantheon-launcher) is at version 0.0.1u. The launcher now runs the Interface as a separate process by default. Because of this, it now has greatly improved stability when Interface is launched with it. The drag and drop feature as well as crash reporting now also work correctly.
+[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) is at version 0.0.1u. The launcher now runs the Interface as a separate process by default. Because of this, it now has greatly improved stability when Interface is launched with it. The drag and drop feature as well as crash reporting now also work correctly.
 
 ## Extra Applications
 
