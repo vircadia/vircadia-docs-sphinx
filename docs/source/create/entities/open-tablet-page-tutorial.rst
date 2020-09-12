@@ -1,5 +1,3 @@
-.. note:: This page refers to the old High Fidelity marketplace.
-
 #####################################
 Tutorial: Open Web Page with Entities
 #####################################
