@@ -2,49 +2,48 @@
 Install Vircadia
 ################
 
-Vircadia has two different installers. The *Client Installer* comes with everything you need to view and interact with Vircadia's content and users. However, you are unable to host content using this installer. The *Client + Sandbox Installer* has everything the client installer does, but it also enables you to :doc:`host your own content <../../host>` and share it with the world.
+Vircadia has two different installers. The *Client Installer* comes with everything you need to view and interact with Vircadia's content and users. However, you are unable to host content using this installer. The *Client + Server Sandbox Installer* has everything the client installer does, but it also enables you to :doc:`host your own content <../../host>` and share it with the world. *The server sandbox is currently only supported on Windows. Alternatively, you can install a server on Linux.*
 
 .. contents:: On This Page
     :depth: 2
 
---------------------------------
-Minimum System Requirements
---------------------------------
+-------------------
+System Requirements
+-------------------
 
-In order to run Vircadia, ensure that your computer meets these minimum system requirements:
+In order to run Vircadia, ensure that your computer meets these system requirements:
 
 * Operating system:
 
-  * Windows 8.1, 64-bit minimum
-  * Windows 10, 64-bit recommended
+  * Windows 8.1, 64-bit or Windows 10, 64-bit
   * MacOS High Sierra (10.13) or newer
   * Ubuntu 18.04 64 bit or any other modern Linux distribution
 
 * CPU:
 
-  * Quad-core minimum
-  * Quad-core with hyper-threading recommended
+  * **Minimum:** Quad-core
+  * **Recommended:** Quad-core with hyper-threading or better
 
 * System memory:
 
-  * 8GB minimum
+  * **Minimum:** 8GB
 
 * Graphics adapter:
 
-  * Nvidia 600 series minimum
-  * Nvidia 900 series or higher recommended
-  * AMD Radeon HD 87XX series minimum
-  * AMD Radeon HD 89XX series or higher recommended
-  * Intel 5th generation CPU integrated Iris graphics minimum
-  * Intel integrated graphics are not recommended
-  * OpenGL 4.1 minimum (supported by all graphics adapters listed above)
+  * **Minimum:** Nvidia 600 series
+  * **Recommended:** Nvidia 900 series or higher
+  * **Minimum:** AMD Radeon HD 87XX series
+  * **Recommended:** AMD Radeon HD 89XX series or higher
+  * **Minimum:** Intel 5th generation CPU integrated Iris graphics. Using Intel integrated graphics is not recommended.
+
+.. note:: The listed graphics adapters support OpenGL 4.1 and above. This is a requirement for any graphics adapter running Vircadia.
 
 In addition, your network must have enough internet bandwidth to run Vircadia:
 
-* If you are using Interface only to explore the metaverse, then you should have internet speeds of at least **10 Mbit/s download/2 Mbit/s** upload.
-* If you are hosting a domain on your Sandbox, you need to add **10 Mbit/s** upload for each user you want to concurrently visit your domain. You will need only **2 Mbit/s** upload per user if you host your assets on an external web-server rather than your domain-server.
+* If you are using Interface only to explore the metaverse, then you should have internet speeds of at least **10 Mbit/s download** and **2 Mbit/s upload**.
+* If you are hosting a domain on a server or your local Sandbox, you need to add **10 Mbit/s upload** for each user that you want to allow to concurrently visit your domain. You will need only **2 Mbit/s upload** per user if you host your assets on an external web-server rather than your domain-server.
 
-.. note:: A world that is specifically build for low-end systems might run fine on slightly less system memory or lower CPU core count.
+.. note:: A world that is specifically built for low-end systems might run fine on a system with slightly less memory or a lower CPU core count.
 
 .. note:: Running Vircadia on a high resolution display or in VR mode will need a much better graphics adapter, depending on your displays resolution and targeted framerate.
 
@@ -57,7 +56,7 @@ You can download Vircadia through our website:
 * `Download the Client Installer <https://vircadia.com/download-vircadia/#interface>`_
 
 
-If you intend to use Vircadia in VR mode with a HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Vircadia.
+If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Vircadia.
 
 
 ---------------------------------
@@ -94,11 +93,11 @@ At this point, Interface will open and you will be able to log in and begin expl
 Linux Install
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Mark the downloaded AppImage file as executable. (for example with ``chmod +x Vircadia-Alpha-2020.2.3-Asteria.AppImage``)
+1. Mark the downloaded AppImage file as executable. (for example with ``chmod +x Vircadia-Alpha-2020.2.5-Asteria.AppImage``)
 2. (optional) if you want the AppImage to be integrated into your system, install `AppImageLauncher <https://github.com/TheAssassin/AppImageLauncher>`_.
 3. Execute AppImage.
 
-Currently the sandbox is not part of the Linux Interface build. To install a sandbox (also called domain), please refer to :doc:`Host a Domain from a Local or Cloud Linux Server <../../host/server-setup/linux-server>`.
+Currently the server is not part of the Linux Interface AppImage. To host a domain, please refer to :doc:`Host a Domain from a Local or Cloud Linux Server <../../host/server-setup/linux-server>`.
 
 ----------------------------
 Upgrade Vircadia
@@ -106,10 +105,9 @@ Upgrade Vircadia
 
 Vircadia is always changing, as we work to improve performance and add features that will enhance your experience in the metaverse. At any time, you can download the latest release from our `website <https://vircadia.com/download-vircadia/#interface>`_.
 
-You cannot upgrade if Sandbox or the Console is running in the background of your computer. Be sure to quit these applications before upgrading.
+You cannot upgrade Vircadia on Windows if the Sandbox or the Console is running in the background of your computer. Be sure to quit these applications before upgrading.
 
 For Windows, locate the Vircadia app in your system tray. Right-click on the icon and select 'Quit'. Alternatively, end the 'server-console' background process using the Task Manager.
-For OS X, locate the Vircadia icon in the menu bar. Click on the icon and select 'Quit'.
 
 For more information on the latest releases, see our :doc:`Release Notes <../../release-notes>`.
 
@@ -118,7 +116,7 @@ For more information on the latest releases, see our :doc:`Release Notes <../../
 Perform a Clean Install
 ---------------------------------
 
-If you're facing problems when you load Interface and Sandbox, you can try performing a clean install. A clean install removes multiple files and settings that you may need once you install Vircadia again.
+If you're facing problems when you load Interface or the Server Sandbox, then you can try performing a clean install. A clean install removes multiple files and settings that you may need once you install Vircadia again.
 
 .. note:: Ensure that you back up the following files before a clean install: Favorites, Wearables, Sandbox, and Entities. These settings will be deleted during the clean install.
 
@@ -132,11 +130,11 @@ Windows Clean Install
 
 .. warning::
 
-    The next 3 steps will permanently delete your Sandbox content. If you wish to keep this content, copy %AppData%/Local/Project Athena/assignment-client to another location on your computer before proceeding. Repeat for %AppData%/Roaming/Project Athena/assignment-client.
+    The next 3 steps will permanently delete your Server Sandbox content. If you wish to keep this content, copy %AppData%/Local/Vircadia/assignment-client to another location on your computer before proceeding. Repeat for %AppData%/Roaming/Vircadia/assignment-client.
 
 4. Browse to your local %AppData% folder (usually ``C:/Users/<your_username>/AppData/Local``). If you do not see the folder, make sure you can view hidden folders. In File Explorer, click View and make sure "Hidden Items" is checked. Delete all folders related to Vircadia.
 5. Browse to your roaming %AppData% folder (usually ``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related to Vircadia.
-6. Re-install Vircadia using the steps above. To restore your Sandbox content, copy the ``assignment-client`` folders you backed up back to their respective locations.
+6. Re-install Vircadia using the steps above. To restore your Server Sandbox content, copy the ``assignment-client`` folders you previously saved back into to their respective locations.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Mac Clean Install
