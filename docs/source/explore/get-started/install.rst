@@ -2,7 +2,7 @@
 Install Vircadia
 ################
 
-Vircadia has two different installers. The *Client Installer* comes with everything you need to view and interact with Vircadia's content and users. However, you are unable to host content using this installer. The *Client + Server Sandbox Installer* has everything the client installer does, but it also enables you to :doc:`host your own content <../../host>` and share it with the world. *The server sandbox is currently only supported on Windows. Alternatively, you can install a server on Linux.*
+Vircadia has two different installers. The *Client Installer* comes with everything you need to view and interact with Vircadia's content and users. However, you are unable to host content using this installer. The *Client + Server Installer* has everything the client installer does, but it also enables you to :doc:`host your own content <../../host>` and share it with the world. *The server sandbox is currently only supported on Windows. Alternatively, you can install a server on Linux.*
 
 .. contents:: On This Page
     :depth: 2
@@ -41,7 +41,7 @@ In order to run Vircadia, ensure that your computer meets these system requireme
 In addition, your network must have enough internet bandwidth to run Vircadia:
 
 * If you are using Interface only to explore the metaverse, then you should have internet speeds of at least **10 Mbit/s download** and **2 Mbit/s upload**.
-* If you are hosting a domain on a server or your local Sandbox, you need to add **10 Mbit/s upload** for each user that you want to allow to concurrently visit your domain. You will need only **2 Mbit/s upload** per user if you host your assets on an external web-server rather than your domain-server.
+* If you are hosting a domain-server on a remote machine or your local computer, you need to add **10 Mbit/s upload** for each user that you want to allow to concurrently visit your domain. You will need only **2 Mbit/s upload** per user if you host your assets on an external web-server rather than your domain-server.
 
 .. note:: A world that is specifically built for low-end systems might run fine on a system with slightly less memory or a lower CPU core count.
 
@@ -105,7 +105,7 @@ Upgrade Vircadia
 
 Vircadia is always changing, as we work to improve performance and add features that will enhance your experience in the metaverse. At any time, you can download the latest release from our `website <https://vircadia.com/download-vircadia/#interface>`_.
 
-You cannot upgrade Vircadia on Windows if the Sandbox or the Console is running in the background of your computer. Be sure to quit these applications before upgrading.
+You cannot upgrade Vircadia on Windows if you have a server running in the background of your computer. Be sure to quit this application before upgrading.
 
 For Windows, locate the Vircadia app in your system tray. Right-click on the icon and select 'Quit'. Alternatively, end the 'server-console' background process using the Task Manager.
 
@@ -116,7 +116,7 @@ For more information on the latest releases, see our :doc:`Release Notes <../../
 Perform a Clean Install
 ---------------------------------
 
-If you're facing problems when you load Interface or the Server Sandbox, then you can try performing a clean install. A clean install removes multiple files and settings that you may need once you install Vircadia again.
+If you're facing problems when you load Interface or the local Server, then you can try performing a clean install. A clean install removes multiple files and settings that you may need once you install Vircadia again.
 
 .. note:: Ensure that you back up the following files before a clean install: Favorites, Wearables, Sandbox, and Entities. These settings will be deleted during the clean install.
 
@@ -130,11 +130,11 @@ Windows Clean Install
 
 .. warning::
 
-    The next 3 steps will permanently delete your Server Sandbox content. If you wish to keep this content, copy %AppData%/Local/Vircadia/assignment-client to another location on your computer before proceeding. Repeat for %AppData%/Roaming/Vircadia/assignment-client.
+    The next 3 steps will permanently delete your local Server's content. If you wish to keep this content, copy %AppData%/Local/Vircadia/assignment-client to another location on your computer before proceeding. Repeat for %AppData%/Roaming/Vircadia/assignment-client.
 
 4. Browse to your local %AppData% folder (usually ``C:/Users/<your_username>/AppData/Local``). If you do not see the folder, make sure you can view hidden folders. In File Explorer, click View and make sure "Hidden Items" is checked. Delete all folders related to Vircadia.
 5. Browse to your roaming %AppData% folder (usually ``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related to Vircadia.
-6. Re-install Vircadia using the steps above. To restore your Server Sandbox content, copy the ``assignment-client`` folders you previously saved back into to their respective locations.
+6. Re-install Vircadia using the steps above. To restore your local Server's content, copy the ``assignment-client`` folders you previously saved back into to their respective locations.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Mac Clean Install
@@ -142,7 +142,7 @@ Mac Clean Install
 
 1. Open your Applications folder and delete the Vircadia folder.
 2. Open the ``<username>/.config`` folder. This is a hidden folder than is accessible by going to *Go > Home*. Press the keyboard shortcut ``Command + Shift + .`` (period).
-3. Delete the ``highfidelity.io`` folder.
+3. Delete the ``vircadia.com`` folder.
 4. Open the ``~/Library`` folder by holding the Option key and clicking the 'Go' menu while in the Finder. The Library option should appear in the menu.
 5. Browse to ``~/Library/Application Support`` and delete the Vircadia folder.
 6. Empty the Trash.
