@@ -91,7 +91,7 @@ A valuable resource for RST is the [official documentation](https://docutils.sou
 
 ## Using videos
 
-When adding videos to the documentation, it is important to use h264 *and* vp9 to ensure they can be played it all major internet browsers.
+When adding videos to the documentation, it is important to use h264 *and* vp9 to ensure that they can be played it all major web browsers.
 To convert videos and animated images to vp9 you can use following command in ffmpeg:
     ```
     ffmpeg -i INPUTFILE -c:v libvpx-vp9 -b:v 0 -crf 5 -vf "scale=-2:'min(600,ih)'" -cpu-used 5 -row-mt 1 -c:a libopus -b:a 96K _static/videos/OUTPUTFILE.webm
