@@ -39,6 +39,12 @@ img.inline {
     margin: 0;
 }
 
+video {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+}
+
 .wy-nav-content {
     background: #FFFFFF;
     max-width: 100%;
