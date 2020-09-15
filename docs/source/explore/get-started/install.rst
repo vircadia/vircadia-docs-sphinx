@@ -5,7 +5,7 @@ Install Vircadia
 Vircadia has two different installers. The *Client Installer* comes with everything you need to view and interact with Vircadia's content and users.
 However, you are unable to host content using this installer. The *Client + Server Installer* has everything the client installer does,
 but it also enables you to :doc:`host your own content <../../host>` and share it with the world.
-*The server sandbox is currently only supported on Windows. Alternatively, you can install a server on Linux.*
+*The standalone server is currently only supported on Windows. Alternatively, you can install a dedicated server on Linux.*
 
 .. contents:: On This Page
     :depth: 2
@@ -126,7 +126,7 @@ Perform a Clean Install
 If you're facing problems when you load Interface or the local Server, then you can try performing a clean install.
 A clean install removes multiple files and settings that you may need once you install Vircadia again.
 
-.. note:: Ensure that you back up the following files before a clean install: Favorites, Wearables, Sandbox, and Entities. These settings will be deleted during the clean install.
+.. note:: Ensure that you back up the following files before a clean install: Favorites, Wearables, Server content, and Entities. These settings will be deleted during the clean install.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Windows Clean Install
