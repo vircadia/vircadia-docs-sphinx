@@ -111,7 +111,7 @@ Upgrade Vircadia
 Vircadia is always changing, as we work to improve performance and add features that will enhance your experience in the metaverse.
 At any time, you can download the latest release from our `website <https://vircadia.com/download-vircadia/#interface>`_.
 
-You cannot upgrade Vircadia on Windows if you have Vircadia Interface or Server running on your computer. Be sure to quit this application before upgrading.
+You cannot upgrade Vircadia on Windows if you have Vircadia Interface or Server running on your computer. Be sure to quit these applications before upgrading.
 Keep in mind that Vircadia Server could be running in the background.
 
 For Windows, locate the Vircadia app in your system tray. Right-click on the icon and select 'Quit'. Alternatively, end the 'server-console' background process using the Task Manager.
