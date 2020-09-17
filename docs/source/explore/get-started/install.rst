@@ -5,7 +5,7 @@ Install Vircadia
 Vircadia has two different installers. The *Client Installer* comes with everything you need to view and interact with Vircadia's content and users.
 However, you are unable to host content using this installer. The *Client + Server Installer* has everything the client installer does,
 but it also enables you to :doc:`host your own content <../../host>` and share it with the world.
-The Client + Server Installer download is only provided for Windows. For Linux see :doc:`Host a Domain from a Local or Cloud Linux Server <../../host/server-setup/linux-server>`
+The Client + Server Installer download is only provided for Windows. For Linux see: :doc:`Host a Domain from a Local or Cloud Linux Server <../../host/server-setup/linux-server>`.
 
 .. contents:: On This Page
     :depth: 2
