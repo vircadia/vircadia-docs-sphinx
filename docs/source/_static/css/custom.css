@@ -39,6 +39,15 @@ img.inline {
     margin: 0;
 }
 
+img.inline2 {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
 .wy-nav-content {
     background: #FFFFFF;
     max-width: 100%;
