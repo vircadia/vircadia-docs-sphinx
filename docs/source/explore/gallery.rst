@@ -47,11 +47,11 @@ Here are some pictures of past events and interface elements.
     Pictionary in the old Hub 5th July 2020
 
 
-.. figure:: _images/gallery/vircadia-snap-by-RyanLi-on-2020-09-20_02-45-59.jpg
-    :alt: Developer meeting 20th September 2020
+.. figure:: _images/gallery/29th_september_interface_linux.jpg
+    :alt: 29th September 2020
     :class: inline
 
-    Dale Glass speaking on the Developer meeting 20th September 2020
+    Vircadia running on Linux Mint 19.3 29th September 2020
 
 
 
