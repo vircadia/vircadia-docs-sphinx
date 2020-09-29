@@ -9,8 +9,8 @@ Alongside installation, these packages can also migrate an "Athena" domain to Vi
 ### Ubuntu Server 18.04 LTS
 
 ```sh
-wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2020.2.4-asteria-20200807-e74cbee-0ubuntu1-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./vircadia-server_2020.2.4-asteria-20200807-e74cbee-0ubuntu1-1_amd64.deb
+wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2020.3.0-demeter-20200929-f7f8ea1-0ubuntu1-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./vircadia-server_2020.3.0-demeter-20200929-f7f8ea1-0ubuntu1-1_amd64.deb
 ```
 
 ### Amazon Linux 2
