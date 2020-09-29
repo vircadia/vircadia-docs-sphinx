@@ -8,6 +8,8 @@ The Vircadia metaverse provides built-in social features, including avatar inter
 
 :doc:`Get Vircadia <explore/get-started/install>` or take a look at our :doc:`Gallery <explore/gallery>`
 
+In addition to the documentation, there is also a `Discord server <https://discordapp.com/invite/Pvx2vke>__ available.
+
 This documentation is authored in `English <https://docs.vircadia.dev/>`_.
 
 The following translations are available:
