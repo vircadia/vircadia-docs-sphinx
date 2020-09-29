@@ -1,6 +1,6 @@
 # Alpha 2020.3.0 Demeter Release Notes
 
-This version of Vircadia is a new release. It is not compatible with the 2020.2.0-Asteria protocol. This version was released on September 29th, 2020.
+This version of Vircadia is a new release. It is **not** compatible with the 2020.2.0-Asteria protocol. This version was released on September 29th, 2020.
 
 ## Interface (Codename Athena)
 
@@ -10,10 +10,10 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 * Graphics: Fix procedural shaders applying to entities other than the target entity. (#309)
 * Application: Fix Interface shutdown deadlock. (#311)
-* App: Add support for transparent web entities. (#605, #630)
+* Application: Add support for transparent web entities. (#605, #630)
 * App: Revamp the Explore App UI. (#654)
 * API: `Script.getExternalPath` added to generate accessible URLs to Vircadia CDNs. (#668)
-* UI: Add open in external browser button to Interface browser, improve buttons, and add favicon support. (#689)
+* UI: Add "open in external browser" button to Interface browser, improve buttons, and fix favicon support. (#689)
 * Application: Support relative JSON URLs in the texture property for models. (#694)
 * Application: Fix not being able to click or interact with glTF models. (#699)
 * App: Fix 'Create' app not refreshing when the image URL is updated on an image entity. (#701)
@@ -27,10 +27,10 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Application & Docs: Add ability to package Interface with a custom startup location and improve installer docs. (#640)
 * Application: Fix build of hifiSdl2 on GCC 10. (#656)
 * Application: Fix build of Vircadia on Qt 5.14. (#657)
-* Application: Mass update of the codebase to better support Metaverse Servers. (#668)
+* Application: Mass update of the codebase to better support metaverse servers. (#668)
 * Application: Quiet warnings for unused blendshapeCoefficients property. (#705)
 * Application: Fix 'Serverless' capitalization in the Interface title bar. (#715)
-* Application: Further improve support for Metaverse Servers. (#718)
+* Application: Further improve support for metaverse servers. (#718)
 
 ## Domain Server
 
@@ -40,7 +40,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 * Server: Fix domain-server Docker packager's retrieval of a temp name. (#632)
 * Mixer: Fix assignment-client custom port and hostname parameters. (#667)
-* Server: Correct and improve support for switching Metaverse Servers. (#718)
+* Server: Correct and improve support for switching metaverse servers. (#718)
 
 ## Metaverse Server & Dashboard (Codename Iamus)
 
