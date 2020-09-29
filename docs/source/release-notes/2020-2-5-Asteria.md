@@ -38,7 +38,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Metaverse Server (Codename Iamus)
 
-The metaverse server has been renamed to [Iamus](https://github.com/kasenvr/iamus), known as Apollo's son in Greek mythology. It is beginning active testing with the wider Vircadia community. The [metaverse server interface](https://github.com/kasenvr/project-iamus-dashboard) is under continued development.
+The metaverse server has been renamed to [Iamus](https://github.com/kasenvr/iamus), known as Apollo's son in Greek mythology. It is beginning active testing with the wider Vircadia community. The [metaverse server interface](https://github.com/vircadia/project-iamus-dashboard) is under continued development.
 
 ## Vircadia Launcher (Codename Pantheon)
 
