@@ -52,15 +52,24 @@ In addition, your network must have enough internet bandwidth to run Vircadia:
 .. note:: Running Vircadia on a high resolution display or in VR mode will need a much better graphics adapter, depending on your display's resolution and targeted frame rate.
 
 -----------------------------------
-Download Vircadia Installer
+Download Vircadia
 -----------------------------------
 
-You can download Vircadia through our website:
+* Windows
 
-* `Download the Client Installer <https://vircadia.com/download-vircadia/#interface>`_
+    * `Windows 64bit - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter.exe>`__
+    * `Windows 64bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__
 
+* macOS
+
+    * `macOS Intel - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Alpha-2020.3.0-Demeter.dmg>`__
+
+* Linux
+
+    * `Linux amd64 - Demeter v2020.3.0 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2020.3.0.AppImage>`__
 
 If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Vircadia.
+VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
 
 
 ---------------------------------
