@@ -54,15 +54,6 @@ Here are some pictures of past events and interface elements.
     Dale Glass speaking on the Developer meeting 20th September 2020
 
 
-.. video:: ../../_static/videos/vircadia-snap-by-RyanLi-on-2020-08-02_03-45-58.webm
-    :autoplay:
-    :nocontrols:
-    :loop:
-    :muted:
-    :additionalsource: ../../_static/videos/vircadia-snap-by-RyanLi-on-2020-08-02_03-45-58.mp4
-
-    Mannequin playing with ears.
-
 
 **See Also**
 
