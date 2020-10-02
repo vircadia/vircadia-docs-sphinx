@@ -16,7 +16,7 @@ sudo apt-get update && sudo apt-get install ./vircadia-server_2020.3.0-demeter-2
 ### Amazon Linux 2
 
 ```sh
-sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2020.2.4_ASTERIA_20200807_e74cbee-1.amzn2.x86_64.rpm
+sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2020.3.0_DEMETER_20200929_f7f8ea1-1.amzn2.x86_64.rpm
 ```
 
 ### Unlisted Distribution
