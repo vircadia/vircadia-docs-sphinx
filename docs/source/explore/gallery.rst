@@ -16,7 +16,7 @@ Here are some pictures of past events and interface elements.
     :alt: Startup Asia X 12th June 2020
     :class: inline
 
-    Startup Lab Lagoon Koza booth on Startup Asia X 12th June 2020
+    Startup Lab Lagoon Koza booth at Startup Asia X 12th June 2020
 
 
 .. figure:: _images/gallery/vircadia-snap-by-RyanLi-on-2020-06-12_14-52-39.jpg
