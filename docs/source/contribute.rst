@@ -3,8 +3,8 @@ Contribute
 ##########
 
 Vircadia is an open-source project, so all of our code and documentation is available for you to look at. You too can contribute to our endeavor for the metaverse!
-Our main `GitHub repository <https://github.com/kasenvr/project-athena>`_ contains the source to many of the components of our software for creating virtual worlds.
-There are tons of ways you can contribute to the various parts that make up Vircadia.
+Our main `git repository <https://github.com/kasenvr/project-athena>`_ contains the source to many of the components of our software for creating virtual worlds.
+There are plenty of ways you can contribute to the various parts that make up Vircadia.
 
 .. contents:: On This Page
     :depth: 2
@@ -14,8 +14,8 @@ Documentation
 -------------
 You can help create and maintain the documentation in several ways:
 
-- Report errors or missing information to the `Github issue tracker <https://github.com/kasenvr/vircadia-docs-sphinx/issues>`_.
-- Create or change documentation pages and open a `PR (pull request) on Github <https://github.com/kasenvr/vircadia-docs-sphinx/pulls>`_.
+- Report errors or missing information to the `GitHub issue tracker <https://github.com/kasenvr/vircadia-docs-sphinx/issues>`_.
+- Create or change documentation pages and open a `PR (pull request) on GitHub <https://github.com/kasenvr/vircadia-docs-sphinx/pulls>`_.
 - `Review changes <https://github.com/kasenvr/vircadia-docs-sphinx/pulls?q=is%3Apr+is%3Aopen+label%3A"needs+review">`_ to the documentation on Github. We would like to have two reviewers for most changes, as there are always things that the writer and the first reviewer overlook.
 
 
@@ -30,18 +30,18 @@ More information on translating the documentation can be found in its `README <h
 ---------
 Donations
 ---------
-Most, if not all, of us work voluntarily without any payment.
+Vircadia is primarily driven by the voluntary contributions of its community and core team.
 While we do not have an entity to manage donations, you can donate to specific members of the team via various services like PayPal, Patreon, or Github Sponsors.
 
 You can also put bounties on specific features you want to see implemented or issues you want to see fixed, by leaving a comment on our `issue tracker <https://github.com/kasenvr/project-athena/issues>`_.
 Of course, bounties are also an option for other parts of the project like the documentation.
-The bounties are based on trust, so if you are unsure about something speak to a core developer or bring it up at a community or developer meeting.
-Most of the developers are highly trained and experienced, normally earning upwards of 40$ an hour on the free market. Keep that in mind if you want to see something done that no one else is personally interested in.
+Bounties are created and assigned based on trust, so if you are unsure about something regarding one then speak to a core developer or bring it up at a community or developer meeting.
+Most of the developers are highly trained and experienced, normally earning upwards of $40 an hour in the free market. Keep that in mind if you want to see something accomplished that no one else is personally interested in.
 
 -----------
 Development
 -----------
-You can help the general development of the Vircadia project without being much a of a developer yourself by:
+You can help the general development of the Vircadia project without being a developer yourself by:
 
 - filing issues on our `issue tracker <https://github.com/kasenvr/project-athena/issues>`_,
 - helping to narrow down those issues,
@@ -52,7 +52,7 @@ Some additional information can be found in the :doc:`Developer Section <develop
 An important job for developers that have become more accustomed to the platform is `code reviews <https://github.com/kasenvr/project-athena/pulls?q=is%3Apr+is%3Aopen+label%3A"needs+CR+(code+review)">`_ of open pull requests.
 
 ------------------
-Miscellaneous work
+Miscellaneous Work
 ------------------
 There is also a lot of miscellaneous work that comes up every now and then:
 
@@ -62,4 +62,4 @@ There is also a lot of miscellaneous work that comes up every now and then:
 - video editing,
 - and so on.
 
-It is tremendously helpful for a developers to have someone they can ask when they need work done outside of their area of experience.
+It is tremendously helpful for developers to have someone that they can ask for assistance when they need work done that is outside their area of expertise.
