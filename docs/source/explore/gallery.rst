@@ -30,7 +30,7 @@ Here are some pictures of past events and interface elements.
     :alt: Developer meeting 20th September 2020
     :class: inline
 
-    Dale Glass speaking on the Developer meeting 20th September 2020
+    Dale Glass speaking at the Developer meeting 20th September 2020
 
 
 .. figure:: _images/gallery/vircadia-snap-by-Revofire-on-2020-08-13_17-21-43.jpg
