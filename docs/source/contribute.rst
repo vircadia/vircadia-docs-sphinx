@@ -36,7 +36,7 @@ While we do not have an entity to manage donations, you can donate to specific m
 You can also put bounties on specific features you want to see implemented or issues you want to see fixed, by leaving a comment on our `issue tracker <https://github.com/kasenvr/project-athena/issues>`_.
 Of course, bounties are also an option for other parts of the project like the documentation.
 Bounties are created and assigned based on trust, so if you are unsure about something regarding one then speak to a core developer or bring it up at a community or developer meeting.
-Most of the developers are highly trained and experienced, normally earning upwards of $40 an hour in the free market. Keep that in mind if you want to see something accomplished that no one else is personally interested in.
+Most of the developers are highly trained and experienced, normally earning upwards of US$40 an hour in the free market. Keep that in mind if you want to see something accomplished that no one else is personally interested in.
 
 -----------
 Development
