@@ -2,14 +2,14 @@
 Gallery
 #######
 
-Here are some pictures of past events and Interface elements.
+This gallery showcases the Vircadia Interface and some past events and locations attended with it.
 
 
 .. figure:: _images/gallery/el_papa_viejo.jpg
     :alt: Maker meeting 28th September 2020
     :class: inline
 
-    Maker meeting, 28th September 2020, on the "El Papa Viejo" (meaning "The Big Pope").
+    Maker Meeting, 28th September 2020, on the "El Papa Viejo" (meaning "The Old Pope").
 
 
 .. figure:: _images/gallery/vircadia-snap-by-RyanLi-on-2020-06-12_14-28-47.jpg
@@ -27,14 +27,14 @@ Here are some pictures of past events and Interface elements.
 
 
 .. figure:: _images/gallery/vircadia-snap-by-RyanLi-on-2020-09-20_02-45-59.jpg
-    :alt: Developer meeting 20th September 2020
+    :alt: Developer Meeting 20th September 2020
     :class: inline
 
-    Dale Glass speaking at the Developer meeting, 20th September 2020.
+    Dale Glass speaking at the Developer Meeting, 20th September 2020.
 
 
 .. figure:: _images/gallery/vircadia-snap-by-Revofire-on-2020-08-13_17-21-43.jpg
-    :alt: Community meeting 13th July 2020
+    :alt: Community Meeting 13th July 2020
     :class: inline
 
     Mannequin army, 13th July 2020.
@@ -51,7 +51,7 @@ Here are some pictures of past events and Interface elements.
     :alt: 29th September 2020
     :class: inline
 
-    Vircadia running on Linux Mint, 19.3 29th September 2020.
+    Vircadia running on Linux Mint 19.3, 29th September 2020.
 
 
 
