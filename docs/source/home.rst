@@ -6,9 +6,25 @@ Vircadia is an open-source software which allows you to create and share virtual
 
 The Vircadia metaverse provides built-in social features, including avatar interactions, spatialized audio and interactive physics. Additionally, you have the ability to import any 3D object into your virtual environment. No matter where you go in Vircadia, you will always be able to interact with your environment, engage with your friends, and listen to conversations just like you would in real life.
 
-:doc:`Get Vircadia <explore/get-started/install>` or take a look at our :doc:`Gallery <explore/gallery>`
+:doc:`Get Vircadia <explore/get-started/install>` |Download| or take a look at our :doc:`Gallery <explore/gallery>` |Gallery|
 
-In addition to the documentation, there is also a `Discord server <https://discordapp.com/invite/Pvx2vke>__ available.
+
+.. |Download| image:: _images/remixicon/download-2-fill.svg
+              :class: inline
+              :width: 20
+
+.. |Gallery| image:: _images/remixicon/gallery-fill.svg
+              :class: inline
+              :width: 20
+
+
+In addition to the documentation, there is also a `Discord server <https://discordapp.com/invite/Pvx2vke>`__ |Discord| available.
+
+
+.. |Discord| image:: _images/remixicon/discord-fill.svg
+              :class: inline
+              :width: 20
+
 
 This documentation is authored in `English <https://docs.vircadia.dev/>`_.
 
