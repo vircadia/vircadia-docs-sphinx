@@ -55,21 +55,35 @@ In addition, your network must have enough internet bandwidth to run Vircadia:
 Download Vircadia
 -----------------------------------
 
-* Windows
+* Windows |Windows|
 
-    * `Windows 64bit - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter.exe>`__
-    * `Windows 64bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__
+    * `Windows 64bit - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter.exe>`__ |Download|
+    * `Windows 64bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ |Download|
 
-* macOS
+* macOS |MacOS|
 
-    * `macOS Intel - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Alpha-2020.3.0-Demeter.dmg>`__
+    * `macOS Intel - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Alpha-2020.3.0-Demeter.dmg>`__ |Download|
 
-* Linux
+* Linux |Ubuntu|
 
-    * `Linux amd64 - Demeter v2020.3.0 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2020.3.0.AppImage>`__
+    * `Linux amd64 - Demeter v2020.3.0 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2020.3.0.AppImage>`__ |Download|
 
 If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Vircadia.
 VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
+
+
+.. |Windows| image:: _images/remixicon/windows-fill.svg
+              :class: inline
+
+.. |MacOS| image:: _images/remixicon/finder-fill.svg
+              :class: inline
+
+.. |Ubuntu| image:: _images/remixicon/ubuntu-fill.svg
+              :class: inline
+
+.. |Download| image:: _images/remixicon/download-2-fill.svg
+              :class: inline
+              :width: 20
 
 
 ---------------------------------
