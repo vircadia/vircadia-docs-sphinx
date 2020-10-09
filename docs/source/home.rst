@@ -2,9 +2,12 @@
 Home
 ####
 
-Vircadia is an open-source software which allows you to create and share virtual reality (VR) experiences. You can create and host your own VR world, explore other worlds, meet and connect with other users, attend or host live VR events and much more.
+Vircadia is an open-source software which allows you to create and share virtual reality (VR) experiences. You can create and host your own virtual world,
+explore other worlds, meet and connect with other users, attend or host live VR events and much more.
 
-The Vircadia metaverse provides built-in social features, including avatar interactions, spatialized audio and interactive physics. Additionally, you have the ability to import any 3D object into your virtual environment. No matter where you go in Vircadia, you will always be able to interact with your environment, engage with your friends, and listen to conversations just like you would in real life.
+The Vircadia metaverse provides built-in social features, including avatar interactions, spatialized audio and interactive physics.
+Additionally, you have the ability to import any 3D object into your virtual environment. No matter where you go in Vircadia,
+you will always be able to interact with your environment, engage with your friends, and listen to conversations just like you would in real life.
 
 :doc:`Get Vircadia <explore/get-started/install>` |Download| or take a look at our :doc:`Gallery <explore/gallery>` |Gallery|
 
