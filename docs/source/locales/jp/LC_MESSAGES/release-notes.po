@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-22 22:19+0000\n"
+"POT-Creation-Date: 2020-10-11 21:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+
+#: ../../source/release-notes.rst:7
+msgid "Alpha Release 2020.2.5 Asteria (09/06/20)"
+msgstr ""
+
+#: ../../source/release-notes.rst:7
+msgid "Alpha Release 2020.2.4 Asteria (08/06/20)"
+msgstr ""
 
 #: ../../source/release-notes.rst:7
 msgid "Alpha Release 2020.2.3 Asteria (07/15/20)"
@@ -108,6 +116,8 @@ msgstr ""
 #: ../../source/release-notes/2020-2-1-Asteria.md:5
 #: ../../source/release-notes/2020-2-2-Asteria.md:5
 #: ../../source/release-notes/2020-2-3-Asteria.md:5
+#: ../../source/release-notes/2020-2-4-Asteria.md:5
+#: ../../source/release-notes/2020-2-5-Asteria.md:5
 msgid "Interface (Codename Athena)"
 msgstr ""
 
@@ -117,6 +127,11 @@ msgstr ""
 #: ../../source/release-notes/2020-2-2-Asteria.md:22
 #: ../../source/release-notes/2020-2-3-Asteria.md:7
 #: ../../source/release-notes/2020-2-3-Asteria.md:41
+#: ../../source/release-notes/2020-2-4-Asteria.md:7
+#: ../../source/release-notes/2020-2-4-Asteria.md:38
+#: ../../source/release-notes/2020-2-5-Asteria.md:7
+#: ../../source/release-notes/2020-2-5-Asteria.md:31
+#: ../../source/release-notes/2020-2-5-Asteria.md:51
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Project "
 "Athena repo."
@@ -129,6 +144,10 @@ msgstr ""
 #: ../../source/release-notes/2020-2-2-Asteria.md:24
 #: ../../source/release-notes/2020-2-3-Asteria.md:9
 #: ../../source/release-notes/2020-2-3-Asteria.md:43
+#: ../../source/release-notes/2020-2-4-Asteria.md:9
+#: ../../source/release-notes/2020-2-4-Asteria.md:40
+#: ../../source/release-notes/2020-2-5-Asteria.md:9
+#: ../../source/release-notes/2020-2-5-Asteria.md:33
 #: ../../source/release-notes/v86-k2.md:9
 #: ../../source/release-notes/v86-k2.md:62
 msgid "General"
@@ -192,7 +211,6 @@ msgid "Models now support blendshapes. (#62)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:36
-#: ../../source/release-notes/2020-2-3-Asteria.md:33
 #: ../../source/release-notes/v86-k2.md:34
 msgid "Technicals"
 msgstr ""
@@ -489,6 +507,8 @@ msgstr ""
 #: ../../source/release-notes/2020-2-1-Asteria.md:20
 #: ../../source/release-notes/2020-2-2-Asteria.md:28
 #: ../../source/release-notes/2020-2-3-Asteria.md:80
+#: ../../source/release-notes/2020-2-4-Asteria.md:68
+#: ../../source/release-notes/2020-2-5-Asteria.md:61
 #: ../../source/release-notes/v86-k2.md:67
 msgid "Documentation"
 msgstr ""
@@ -1164,6 +1184,8 @@ msgstr ""
 #: ../../source/release-notes/2020-2-1-Asteria.md:22
 #: ../../source/release-notes/2020-2-2-Asteria.md:30
 #: ../../source/release-notes/2020-2-3-Asteria.md:82
+#: ../../source/release-notes/2020-2-4-Asteria.md:70
+#: ../../source/release-notes/2020-2-5-Asteria.md:63
 #: ../../source/release-notes/v86-k2.md:69
 msgid "User Docs"
 msgstr ""
@@ -1172,6 +1194,8 @@ msgstr ""
 #: ../../source/release-notes/2020-2-1-Asteria.md:24
 #: ../../source/release-notes/2020-2-2-Asteria.md:32
 #: ../../source/release-notes/2020-2-3-Asteria.md:84
+#: ../../source/release-notes/2020-2-4-Asteria.md:72
+#: ../../source/release-notes/2020-2-5-Asteria.md:65
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia-"
 "Docs-Sphinx repo."
@@ -1213,6 +1237,8 @@ msgstr ""
 #: ../../source/release-notes/2020-2-1-Asteria.md:29
 #: ../../source/release-notes/2020-2-2-Asteria.md:38
 #: ../../source/release-notes/2020-2-3-Asteria.md:92
+#: ../../source/release-notes/2020-2-4-Asteria.md:78
+#: ../../source/release-notes/2020-2-5-Asteria.md:69
 #: ../../source/release-notes/v86-k2.md:76
 msgid "API Docs"
 msgstr ""
@@ -1221,6 +1247,8 @@ msgstr ""
 #: ../../source/release-notes/2020-2-1-Asteria.md:31
 #: ../../source/release-notes/2020-2-2-Asteria.md:40
 #: ../../source/release-notes/2020-2-3-Asteria.md:94
+#: ../../source/release-notes/2020-2-4-Asteria.md:80
+#: ../../source/release-notes/2020-2-5-Asteria.md:71
 msgid ""
 "The API docs are generated from the software source repo. The latest live"
 " deployment source can be viewed here."
@@ -1242,6 +1270,8 @@ msgstr ""
 #: ../../source/release-notes/2020-2-1-Asteria.md:36
 #: ../../source/release-notes/2020-2-2-Asteria.md:45
 #: ../../source/release-notes/2020-2-3-Asteria.md:58
+#: ../../source/release-notes/2020-2-4-Asteria.md:52
+#: ../../source/release-notes/2020-2-5-Asteria.md:47
 #: ../../source/release-notes/v86-k2.md:86
 msgid "Extra Applications"
 msgstr ""
@@ -1250,6 +1280,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-1-Asteria.md:38
 #: ../../source/release-notes/2020-2-2-Asteria.md:47
 #: ../../source/release-notes/2020-2-3-Asteria.md:60
+#: ../../source/release-notes/2020-2-4-Asteria.md:54
 #: ../../source/release-notes/v86-k2.md:88
 msgid "Explore App (Interim Version)"
 msgstr ""
@@ -1258,6 +1289,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-1-Asteria.md:40
 #: ../../source/release-notes/2020-2-2-Asteria.md:49
 #: ../../source/release-notes/2020-2-3-Asteria.md:62
+#: ../../source/release-notes/2020-2-4-Asteria.md:56
 msgid ""
 "The numbers at the end of each item are the PR numbers in the "
 "Decentralized GoTo repo."
@@ -1275,6 +1307,8 @@ msgstr ""
 #: ../../source/release-notes/2020-2-1-Asteria.md:44
 #: ../../source/release-notes/2020-2-2-Asteria.md:53
 #: ../../source/release-notes/2020-2-3-Asteria.md:66
+#: ../../source/release-notes/2020-2-4-Asteria.md:60
+#: ../../source/release-notes/2020-2-5-Asteria.md:55
 #: ../../source/release-notes/v86-k2.md:96
 msgid "Community Apps"
 msgstr ""
@@ -1283,6 +1317,8 @@ msgstr ""
 #: ../../source/release-notes/2020-2-1-Asteria.md:46
 #: ../../source/release-notes/2020-2-2-Asteria.md:55
 #: ../../source/release-notes/2020-2-3-Asteria.md:68
+#: ../../source/release-notes/2020-2-4-Asteria.md:62
+#: ../../source/release-notes/2020-2-5-Asteria.md:57
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Community "
 "Apps repo."
@@ -1444,6 +1480,8 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:20
 #: ../../source/release-notes/2020-2-3-Asteria.md:39
+#: ../../source/release-notes/2020-2-4-Asteria.md:36
+#: ../../source/release-notes/2020-2-5-Asteria.md:29
 msgid "Domain Server"
 msgstr ""
 
@@ -1513,15 +1551,17 @@ msgid "App: The More app has been updated from its main repo. (#476)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:16
-msgid "Stability: Prevent a crash for corrupted GLTF models."
+msgid "Stability: Prevent a crash for corrupted GLTF models. (#480)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:17
-msgid "Stability: Prevent a crash on OSX due to an illegal instruction."
+msgid "Stability: Prevent a crash on OSX due to an illegal instruction. (#481)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:18
-msgid "VR: The option to enable/disable Vive Pro Eye eye tracking has been added."
+msgid ""
+"VR: The option to enable/disable Vive Pro Eye eye tracking has been "
+"added. (#484)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:19
@@ -1586,6 +1626,12 @@ msgstr ""
 msgid "App: The Explore app has been updated from its main repo. (#536)"
 msgstr ""
 
+#: ../../source/release-notes/2020-2-3-Asteria.md:33
+#: ../../source/release-notes/2020-2-4-Asteria.md:31
+#: ../../source/release-notes/2020-2-5-Asteria.md:21
+msgid "Miscellaneous"
+msgstr ""
+
 #: ../../source/release-notes/2020-2-3-Asteria.md:35
 msgid ""
 "Building: Android building has been fixed by updating the URLs for "
@@ -1615,6 +1661,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:48
+#: ../../source/release-notes/2020-2-4-Asteria.md:44
 msgid "Metaverse Server (Codename Apollo)"
 msgstr ""
 
@@ -1639,6 +1686,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:54
+#: ../../source/release-notes/2020-2-4-Asteria.md:48
+#: ../../source/release-notes/2020-2-5-Asteria.md:43
 msgid "Vircadia Launcher (Codename Pantheon)"
 msgstr ""
 
@@ -1721,6 +1770,336 @@ msgstr ""
 msgid ""
 "The Entities.enterEntity signal description has been improved to take "
 "note of behavior when using it. (#507)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:1
+msgid "Alpha 2020.2.4 Asteria Release Notes"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:3
+msgid ""
+"This version of Vircadia is an update to 2020.2.3. It is compatible with "
+"the 2020.2.0-Asteria protocol. This version was released on August 6th, "
+"2020."
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:11
+msgid ""
+"API: Window.getUserAgent has been added to return the Interface's user "
+"agent. (#520)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:12
+msgid ""
+"App: The Inventory app v2.0.2 has been merged as an unpublished script, "
+"to be deployed in the More app. (#521)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:13
+msgid ""
+"Brand: Updated strings, comments, and folders (especially on OSX) to "
+"Vircadia. (#524)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:14
+msgid "UI: Fix bug where Snap app shows in screenshots occasionally. (#538)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:15
+msgid ""
+"App: Fix bug where the avatar does not show when a recording is reloaded."
+" (#539)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:16
+msgid ""
+"Graphics: Fix bug where shapes with an alpha of 0.0 sometimes appear "
+"opaque. (#543)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:17
+msgid "UI: Connection dialog now says \"EXPLORE\" instead of \"GOTO\". (#544)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:18
+msgid ""
+"Graphics: Fix bug where FBX models will only show vertex colors if more "
+"than one color is given. (#545)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:19
+msgid ""
+"Avatar: Fix bug where Interface lags extensively when moving after "
+"startup due to a physics issue. (#547)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:20
+msgid ""
+"UI: The graphics settings dialog now allows you to set the resolution "
+"scale to 2.0, up from 1.0. (#550)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:21
+msgid ""
+"Graphics: Fix bug where renderWithZones doesn't work after reloading "
+"content. (#561)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:22
+msgid ""
+"Graphics: Fix bug where renderWithZones would not work when loading "
+"content from a JSON file. (#564)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:23
+msgid ""
+"Application: Fix bug where the --url command line parameter would not "
+"work under some circumstances. (#574)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:24
+msgid "App: The Chat app has a few updates. (#579)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:25
+msgid "A notification has been added for when people enter or leave the domain."
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:26
+msgid ""
+"The main Chat window will open when you click on a chat message "
+"notification."
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:27
+msgid ""
+"Security: You can now sign-in to OAuth2 enabled domains. (Alpha Feature) "
+"(#591)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:28
+msgid ""
+"Graphics: The default \"Automatic\" maximum texture memory setting has "
+"been increased from 1GB to 2GB. (#594)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:29
+msgid ""
+"UI: The graphics settings dialog now has a button in the toolbar for "
+"clear and easy access. (#595)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:33
+msgid ""
+"Docs: Packaging docs are more accurate now with respect to the "
+"requirements on Windows. (#537)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:34
+msgid ""
+"UX: The NSIS installer no longer defaults the options for the Sandbox "
+"(server-console) to start after install or start with Windows as true. "
+"(#596)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:42
+msgid ""
+"Security: Domains can now accept user logins via groups based on "
+"WordPress roles via OAuth2. (Alpha Feature) (#591)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:46
+msgid ""
+"The metaverse server and metaverse server interface are progressing well."
+" The metaverse server is currently being rewritten in TypeScript with "
+"Node.JS in order to improve its capabilities for the long term. As of now"
+" (8/6/2020) it is at feature parity with its original C# implementation."
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:50
+msgid ""
+"Vircadia's launcher is at version 0.0.1u. The launcher now runs the "
+"Interface as a separate process by default. Because of this, it now has "
+"greatly improved stability when Interface is launched with it. The drag "
+"and drop feature as well as crash reporting now also work correctly."
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:58
+msgid "Nothing new to report!"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:64
+msgid "Add the initial release of the Inventory app. (#21)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:66
+msgid ""
+"The Slider app now has proper syncing with multiple users when viewing a "
+"presenter's screen. Work is still underway to improve its use before "
+"merging. The PR can be viewed here."
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:74
+msgid "Enable GitHub Actions support with auto deployment for the docs. (#67)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:75
+msgid "Translation configuration fixed. (#68)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:76
+msgid "Release notes for 2020.2.4 Asteria. (#71)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-4-Asteria.md:83
+msgid "The Window.getUserAgent API call was created and documented. (#520)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:1
+msgid "Alpha 2020.2.5 Asteria Release Notes"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:3
+msgid ""
+"This version of Vircadia is an update to 2020.2.4. It is compatible with "
+"the 2020.2.0-Asteria protocol. This version was released on September "
+"6th, 2020."
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:11
+msgid "Application: Improve performance of entity updates. (#276)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:12
+msgid ""
+"Application: Enable resolving of relative URLs when importing entities "
+"with JSON. (#586, #672)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:13
+msgid ""
+"App: Add incremental suffix to cloned entities' names using the Create "
+"app. (#603)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:14
+msgid ""
+"App: Update the colorSpread color-picker and other misc. fixes in the "
+"Create app. (#606)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:15
+msgid ""
+"API: Add About JavaScript API to replace the now deprecated HifiAbout "
+"API. (#624)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:16
+msgid ""
+"App: Fix freezing when opening the Avatar app when custom bookmarks are "
+"present that do not have thumbnails. (#631)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:17
+msgid ""
+"UI & Security: Improve the OAuth2 domain feature to not show domain login"
+" status or domain login menu item on domains that do not have the feature"
+" enabled. (#639)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:18
+msgid ""
+"App: Add update notification message on Interface start if a new version "
+"is available. (#658)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:19
+msgid "Graphics: Fix and extend glTF blendshapes support. (#671)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:23
+msgid ""
+"Application: Code-signing has been re-enabled on Windows installers. "
+"(#303)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:24
+msgid ""
+"Application: Improve the handling of C++ exceptions by Crashpad on "
+"Windows. (#441)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:25
+msgid ""
+"App: Update the URLs to the default particle and image entities for the "
+"Create app. (#604)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:26
+msgid ""
+"Docs: Update build docs to include parameters for building client and "
+"server only packages. (#652)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:27
+msgid ""
+"Application & Docs: Update the application folder icons for Vircadia on "
+"OSX; update build docs for OSX to be more up to date. (#653)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:35
+msgid "Server: Improve performance of entity updates. (#276)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:36
+msgid ""
+"UX: New metadata fields added to improve domain details alongside the "
+"addition of an HTTP exporter that makes this data publicly available as "
+"JSON over HTTP if desired. (#465)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:37
+msgid ""
+"UI: Updated text references from High Fidelity -> Vircadia in the "
+"Assignment tab of the domain-server panel. (#641)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:39
+msgid "Metaverse Server (Codename Iamus)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:41
+msgid ""
+"The metaverse server has been renamed to Iamus, known as Apollo's son in "
+"Greek mythology. It is beginning active testing with the wider Vircadia "
+"community. The metaverse server interface is under continued development."
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:45
+msgid ""
+"Vircadia's launcher has not had any updates since the last release "
+"(2020.2.4 Asteria)."
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:49
+msgid "Explore App"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:53
+#: ../../source/release-notes/2020-2-5-Asteria.md:59
+msgid "Nothing new to report, yet!"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:67
+msgid "Release notes for 2020.2.5 Asteria. (#76)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:74
+msgid "The Stats API was updated to include two new properties. (#276)"
+msgstr ""
+
+#: ../../source/release-notes/2020-2-5-Asteria.md:75
+msgid "The About API was added to replace the deprecated HifiAbout API. (#624)"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:1
@@ -4534,5 +4913,17 @@ msgstr ""
 #~ "with the 2020.2.0-Asteria protocol. This "
 #~ "version was released on June 26th, "
 #~ "2020."
+#~ msgstr ""
+
+#~ msgid "Stability: Prevent a crash for corrupted GLTF models."
+#~ msgstr ""
+
+#~ msgid "Stability: Prevent a crash on OSX due to an illegal instruction."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "VR: The option to enable/disable Vive"
+#~ " Pro Eye eye tracking has been "
+#~ "added."
 #~ msgstr ""
 

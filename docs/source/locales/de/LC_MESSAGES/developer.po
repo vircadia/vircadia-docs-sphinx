@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-22 22:19+0000\n"
+"POT-Creation-Date: 2020-10-11 21:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -491,7 +491,8 @@ msgid "Open Task Manager and close any running Clang / Gradle processes"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_GENERAL.md:3
-msgid "Last Updated on June 27, 2020"
+#: ../../source/developer/build/BUILD_OSX.md:3
+msgid "Last Updated on August 26, 2020"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_GENERAL.md:5
@@ -810,23 +811,31 @@ msgstr ""
 msgid "BUILD_TOOLS"
 msgstr ""
 
+#: ../../source/developer/build/BUILD_GENERAL.md:144
+msgid "CLIENT_ONLY // Will package only the Interface"
+msgstr ""
+
 #: ../../source/developer/build/BUILD_GENERAL.md:145
-msgid "Developer Build Options"
+msgid "SERVER_ONLY // Will package only the Server"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_GENERAL.md:147
+msgid "Developer Build Options"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_GENERAL.md:149
 msgid "USE_GLES"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:148
+#: ../../source/developer/build/BUILD_GENERAL.md:150
 msgid "DISABLE_UI"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:150
+#: ../../source/developer/build/BUILD_GENERAL.md:152
 msgid "Devices"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:152
+#: ../../source/developer/build/BUILD_GENERAL.md:154
 msgid ""
 "You can support external input/output devices such as Leap Motion, MIDI, "
 "and more by adding each individual SDK in the visible building path. "
@@ -836,7 +845,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:3
-msgid "Last Updated on January 20, 2020"
+msgid "Last Updated on April 11, 2020"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:5
@@ -1143,10 +1152,6 @@ msgstr ""
 msgid "After running these steps you can run interface:<br />interface/interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:3
-msgid "Last Updated on July 13, 2020"
-msgstr ""
-
 #: ../../source/developer/build/BUILD_OSX.md:5
 msgid ""
 "Please read the general build guide for information on dependencies "
@@ -1180,15 +1185,17 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:20
 msgid ""
-"You will need the OSX SDK for building. The easiest way to get this is to"
-" install Xcode from the App Store."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_OSX.md:22
-msgid "OpenSSL"
+"You will need version 10.12 of the OSX SDK for building, otherwise you "
+"may have crashing or other unintended issues due to the deprecation of "
+"OpenGL on OSX. You can get that SDK from here. You must copy it in to "
+"your Xcode SDK directory, e.g."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:24
+msgid "OpenSSL"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:26
 msgid ""
 "Assuming you've installed OpenSSL using the homebrew instructions above, "
 "you'll need to set OPENSSL_ROOT_DIR so CMake can find your "
@@ -1197,18 +1204,19 @@ msgid ""
 " appending -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl to cmake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:29
+#: ../../source/developer/build/BUILD_OSX.md:31
 msgid "Xcode"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:31
+#: ../../source/developer/build/BUILD_OSX.md:33
 msgid ""
-"If Xcode is your editor of choice, you can ask CMake to generate Xcode "
-"project files instead of Unix Makefiles. You will need to select the "
-"Xcode installation in the terminal first if you have not done so already."
+"You can ask CMake to generate Xcode project files instead of Unix "
+"Makefiles using the -G Xcode parameter after CMake. You will need to "
+"select the Xcode installation in the terminal first if you have not done "
+"so already."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:37
+#: ../../source/developer/build/BUILD_OSX.md:39
 msgid ""
 "If cmake complains about Python 3 being missing, you may need to update "
 "your CMake binary with command brew upgrade cmake, or by downloading and "
@@ -1216,28 +1224,54 @@ msgid ""
 "instaled CMake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:39
+#: ../../source/developer/build/BUILD_OSX.md:41
 msgid ""
-"After running cmake, you will have the make files or Xcode project file "
+"After running CMake, you will have the make files or Xcode project file "
 "necessary to build all of the components. Open the hifi.xcodeproj file, "
 "choose ALL_BUILD from the Product > Scheme menu (or target drop down), "
 "and click Run."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:41
+#: ../../source/developer/build/BUILD_OSX.md:43
 msgid ""
 "If the build completes successfully, you will have built targets for all "
 "components located in the build/${target_name}/Debug directories."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:43
+#: ../../source/developer/build/BUILD_OSX.md:45
 msgid "make"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:45
+#: ../../source/developer/build/BUILD_OSX.md:47
 msgid ""
-"If you build with make rather than Xcode, you can append -j4for assigning"
-" more threads. The number indicates the number of threads, e.g. 4."
+"If you build with make rather than Xcode, you can append -j4 for "
+"assigning more threads. The number indicates the number of threads, e.g. "
+"4."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:49
+msgid "To package the installation, you can simply run make package afterwards."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:51
+#: ../../source/developer/installer/INSTALLER.md:84
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:53
+msgid ""
+"Problem: Running the scheme interface.app from Xcode causes a crash for "
+"Interface related to libgl"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:54
+msgid ""
+"Cause: The target gl generates a binary called libgl. A macOS "
+"libGL.framework item gets loaded instead by Xcode."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:55
+msgid "Solution: In the Xcode target settings for libgl, set the version to 1.0.0"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:3
@@ -1624,7 +1658,9 @@ msgid "Packaging"
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:12
-msgid "To produce an installer, run the package target."
+msgid ""
+"To produce an installer, run the package target. However you will want to"
+" follow the steps specific to your platform below."
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:14
@@ -1804,61 +1840,53 @@ msgid "Build the solution."
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:65
-msgid "Build CMakeTargets->INSTALL"
-msgstr ""
-
-#: ../../source/developer/installer/INSTALLER.md:66
 msgid ""
 "Build packaged-server-console-npm-install (found under hidden/Server "
 "Console)"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:67
+#: ../../source/developer/installer/INSTALLER.md:66
 msgid ""
 "Build packaged-server-console (found under Server Console)<br />This will"
 " add 2 folders to build\\server-console\\ -<br />server-console-win32-x64"
 " and x64"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:70
+#: ../../source/developer/installer/INSTALLER.md:69
 msgid ""
 "Build CMakeTargets->PACKAGE<br />The installer is now available in "
 "build\\_CPack_Packages\\win64\\NSIS"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:73
+#: ../../source/developer/installer/INSTALLER.md:72
 msgid "OS X"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:74
+#: ../../source/developer/installer/INSTALLER.md:73
 msgid "npm Install version 12.16.3 LTS"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:77
+#: ../../source/developer/installer/INSTALLER.md:76
 msgid "Perform a clean CMake."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:78
+#: ../../source/developer/installer/INSTALLER.md:77
 msgid "Perform a Release build of ALL_BUILD"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:79
+#: ../../source/developer/installer/INSTALLER.md:78
 msgid ""
 "Perform a Release build of packaged-server-console This will add a folder"
 " to build\\server-console\\ -<br />Sandbox-darwin-x64"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:82
+#: ../../source/developer/installer/INSTALLER.md:81
 msgid ""
 "Perform a Release build of package Installer is now available in "
 "`build/_CPack_Packages/Darwin/DragNDrop"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:85
-msgid "FAQ"
-msgstr ""
-
-#: ../../source/developer/installer/INSTALLER.md:87
+#: ../../source/developer/installer/INSTALLER.md:86
 msgid ""
 "Problem: Failure to open a file. File: failed opening file "
 "\"\\FOLDERSHARE\\XYZSRelease\\...\\Credits.rtf\" Error in script "
@@ -1866,13 +1894,13 @@ msgid ""
 " on line 77 -- aborting creation process"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:88
+#: ../../source/developer/installer/INSTALLER.md:87
 msgid ""
 "Cause: The complete path (current directory + relative path) has to be < "
 "260 characters to any of the relevant files."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:89
+#: ../../source/developer/installer/INSTALLER.md:88
 msgid ""
 "Solution: Move your build and packaging folder as high up in the drive as"
 " possible to prevent an overage."
@@ -2071,5 +2099,55 @@ msgstr ""
 #~ " you can ask CMake to generate "
 #~ "Xcode project files instead of Unix "
 #~ "Makefiles."
+#~ msgstr ""
+
+#~ msgid "Last Updated on June 27, 2020"
+#~ msgstr ""
+
+#~ msgid "Last Updated on January 20, 2020"
+#~ msgstr ""
+
+#~ msgid "Last Updated on July 13, 2020"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You will need the OSX SDK for "
+#~ "building. The easiest way to get "
+#~ "this is to install Xcode from the"
+#~ " App Store."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If Xcode is your editor of choice,"
+#~ " you can ask CMake to generate "
+#~ "Xcode project files instead of Unix "
+#~ "Makefiles. You will need to select "
+#~ "the Xcode installation in the terminal"
+#~ " first if you have not done so"
+#~ " already."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After running cmake, you will have "
+#~ "the make files or Xcode project "
+#~ "file necessary to build all of the"
+#~ " components. Open the hifi.xcodeproj file,"
+#~ " choose ALL_BUILD from the Product >"
+#~ " Scheme menu (or target drop down),"
+#~ " and click Run."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you build with make rather than"
+#~ " Xcode, you can append -j4for "
+#~ "assigning more threads. The number "
+#~ "indicates the number of threads, e.g."
+#~ " 4."
+#~ msgstr ""
+
+#~ msgid "To produce an installer, run the package target."
+#~ msgstr ""
+
+#~ msgid "Build CMakeTargets->INSTALL"
 #~ msgstr ""
 
