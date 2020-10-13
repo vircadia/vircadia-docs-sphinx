@@ -15,10 +15,12 @@ you will always be able to interact with your environment, engage with your frie
 .. |Download| image:: _images/remixicon/download-2-fill.svg
               :class: inline
               :width: 20
+              :target: explore/get-started/install.html
 
 .. |Gallery| image:: _images/remixicon/gallery-fill.svg
               :class: inline
               :width: 20
+              :target: explore/gallery.html
 
 
 In addition to the documentation, you can join the discussion on the Vircadia `Discord server <https://discordapp.com/invite/Pvx2vke>`__ |Discord|.
@@ -27,6 +29,7 @@ In addition to the documentation, you can join the discussion on the Vircadia `D
 .. |Discord| image:: _images/remixicon/discord-fill.svg
               :class: inline
               :width: 20
+              :target: https://discordapp.com/invite/Pvx2vke
 
 
 This documentation is authored in `English <https://docs.vircadia.dev/>`_.
