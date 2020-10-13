@@ -57,16 +57,16 @@ Download Vircadia
 
 * Windows |Windows|
 
-    * `Windows 64bit - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter.exe>`__ |Download|
-    * `Windows 64bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ |Download|
+    * `Windows 64bit - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter.exe>`__ |DownloadWI|
+    * `Windows 64bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ |DownloadWL|
 
 * macOS |MacOS|
 
-    * `macOS Intel - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Alpha-2020.3.0-Demeter.dmg>`__ |Download|
+    * `macOS Intel - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Alpha-2020.3.0-Demeter.dmg>`__ |DownloadM|
 
 * Linux |Ubuntu|
 
-    * `Linux amd64 - Demeter v2020.3.0 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2020.3.0.AppImage>`__ |Download|
+    * `Linux amd64 - Demeter v2020.3.0 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2020.3.0.AppImage>`__ |DownloadL|
 
 If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Vircadia.
 VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
@@ -81,9 +81,25 @@ VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
 .. |Ubuntu| image:: _images/remixicon/ubuntu-fill.svg
               :class: inline
 
-.. |Download| image:: _images/remixicon/download-2-fill.svg
+.. |DownloadWI| image:: _images/remixicon/download-2-fill.svg
               :class: inline
               :width: 20
+              :target: https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter.exe
+
+.. |DownloadWL| image:: _images/remixicon/download-2-fill.svg
+              :class: inline
+              :width: 20
+              :target: https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe
+
+.. |DownloadM| image:: _images/remixicon/download-2-fill.svg
+              :class: inline
+              :width: 20
+              :target: https://cdn.vircadia.com/dist/release-experimental/Vircadia-Alpha-2020.3.0-Demeter.dmg
+
+.. |DownloadL| image:: _images/remixicon/download-2-fill.svg
+              :class: inline
+              :width: 20
+              :target: https://appimage.moto9000.moe/release/Vircadia-x86_64_v2020.3.0.AppImage
 
 
 ---------------------------------
