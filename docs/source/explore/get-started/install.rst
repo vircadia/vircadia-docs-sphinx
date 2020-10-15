@@ -57,8 +57,8 @@ Download Vircadia
 
 * Windows |Windows|
 
-    * `Windows 64bit - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter.exe>`__ |DownloadWI|
-    * `Windows 64bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ |DownloadWL|
+    * `Windows 64-bit - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter.exe>`__ |DownloadWI|
+    * `Windows 64-bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ |DownloadWL|
 
 * macOS |MacOS|
 
