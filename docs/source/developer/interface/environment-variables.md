@@ -10,15 +10,18 @@ Enables the OpenVR plugin to be used with an Oculus HMD. (Useful for debugging t
 
     HIFI_DEBUG_OPENVR=1
 
-Logging on the console can be controlled with the `VIRCADIA_LOG_OPTIONS` variable. It can be set to any combination of the following:
+Logging to the console can be controlled with the `VIRCADIA_LOG_OPTIONS` variable. It can be set to any comma separated combination of the following options. Case and whitespace are not significant.
 
-* `color` - Use ANSI colors depending on the message's severity.
+* `color` - Force ANSI colors depending on the message's severity.
+* `nocolor` - Force ANSI colors off.
 * `milliseconds` - Log timestamps with millisecond precision.
 * `process_id` - Log the process ID.
 * `thread_id` - Log the thread ID.
 
 For example:
 
-    VIRCADIA_LOG_OPTIONS="color milliseconds"
+    VIRCADIA_LOG_OPTIONS="color, milliseconds"
 
 Will result in logging with millisecond precision, and color coding messages by severity.
+
+Color is enabled by default on Unix, if output is being directed to a terminal, and disabled by default on Windows.
