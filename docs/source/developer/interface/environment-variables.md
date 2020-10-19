@@ -18,7 +18,7 @@ Enables the OpenVR plugin to be used with an Oculus HMD. (Useful for debugging t
 
 Override the metaverse URL.
 
-    HIFI_METAVERSE_URL="https://metaverse.vircadia.com/live"
+    HIFI_METAVERSE_URL=<metaverse-server-url>
 
 ---
 
