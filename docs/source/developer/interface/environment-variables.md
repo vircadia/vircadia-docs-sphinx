@@ -2,13 +2,31 @@
 
 You can alter Interface's functionality using these environment variables.
 
-Uses the source files for the QML and other resource at runtime instead of the compiled files.
+---
+
+Use the source files for QML and other resources at runtime instead of the compiled files.
 
     HIFI_USE_SOURCE_TREE_RESOURCES=1
+
+---
 
 Enables the OpenVR plugin to be used with an Oculus HMD. (Useful for debugging the OpenVR plugin if you have an Oculus HMD but not a Vive.)
 
     HIFI_DEBUG_OPENVR=1
+
+---
+
+Override the metaverse URL.
+
+    HIFI_METAVERSE_URL="https://metaverse.vircadia.com/live"
+
+---
+
+Allow multiple instances of Interface to be running simultaneously.
+
+    HIFI_ALLOW_MULTIPLE_INSTANCES=1
+
+---
 
 Logging to the console can be controlled with the `VIRCADIA_LOG_OPTIONS` variable. It can be set to any comma separated combination of the following options. Case and whitespace are not significant.
 
