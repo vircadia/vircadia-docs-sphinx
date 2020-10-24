@@ -22,7 +22,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 #### Miscellaneous
 
 * Application: Fix build warnings. (#761)
-* Application: Set GL preference to 'GLVND' from 'LEGACY' then revert back to 'LEGACY'. (#763, #806)
+* Application: Set GL preference to 'GLVND' from being undefined (LEGACY) then revert functionality to 'LEGACY'. (#763, #806)
 * Application: Fix crash when using `About.openUrl`. (#778)
 * App: Fix CDN references to hifi-production in tutorial example scripts. (#788)
 
