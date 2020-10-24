@@ -8,8 +8,8 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 #### General
 
-* Application: Update shortcut names to include the "Vircadia" in them. (#651)
-* UI: Add a checkbox for more details to messages logged in entity scripts such as the scriptURL and function with line numbers. (#669)
+* Application: Update shortcut names to include "Vircadia" in them. (#651)
+* UI: Add a checkbox for more details to messages logged in entity scripts such as the script URL and function with line numbers. (#669)
 * Application: Allow mouse capture via scripting which enables first person and third person shooter camera views on desktop. (#677)
 * App: 'Create' app now uses local entities instead of deprecated 3D overlays. (#737)
 * App: 'Create' app now has: Copy, Cut, Paste, and Duplicate buttons for VR; Undo and Redo buttons for desktop and VR. (#760)
@@ -46,7 +46,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 [Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) updates can be found [here](https://github.com/vircadia/pantheon-launcher/commits/master). Some changes are listed below. The launcher is now on experimental version 0.0.1s.
 
 * Fix launching of Interface while the launcher is running as an admin.
-* Fix sandbox closing if the launcher is closed.
+* Fix Sandbox closing if the launcher is closed.
 * Display a prompt to select your Interface or download it if it is not selected when you try to launch.
 * Redesign the version selection dialog.
 
