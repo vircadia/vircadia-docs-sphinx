@@ -1,6 +1,6 @@
 # Alpha 2020.3.1 Demeter Release Notes
 
-This version of Vircadia is an update to 2020.3.0. It is compatible with the 2020.3.0-Demeter protocol. This version was released on October 24th, 2020.
+This version of Vircadia is an update to 2020.3.0. It is compatible with the 2020.3.0-Demeter protocol. This version was released on October 25th, 2020.
 
 ## Interface (Codename Athena)
 
