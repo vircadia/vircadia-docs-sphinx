@@ -32,8 +32,9 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 #### General
 
-* Server: Add wizard step to enable/disable automatic threading for the avatar and audio mixers. (#546)
-* Server: Hide temp place name button, places table, and places wizard step. Add step during account connection to label the domain. (#803)
+* UI/UX: Add wizard step to enable/disable automatic threading for the avatar and audio mixers. (#546)
+* UI/UX: Hide temp place name button, places table, and places wizard step. Add step during account connection to label the domain. (#803)
+* Server: Fix crash in the entity-script server due to logging issues. (#840)
 
 ## Metaverse Server & Dashboard (Codename Iamus)
 
