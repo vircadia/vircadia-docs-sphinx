@@ -57,16 +57,17 @@ Download Vircadia
 
 * Windows |Windows|
 
-    * `Windows 64-bit - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter.exe>`__ |DownloadWI|
+    * `Windows 64-bit - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.1-Demeter.exe>`__ |DownloadWI|
     * `Windows 64-bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ |DownloadWL|
 
 * macOS |MacOS|
 
-    * `macOS Intel - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Alpha-2020.3.0-Demeter.dmg>`__ |DownloadM|
+    * `macOS Intel - Demeter v2020.3.0 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Alpha-Interface-2020.3.1-Demeter.dmg>`__ |DownloadM|
 
 * Linux |Ubuntu|
 
-    * `EU Mirror: Linux amd64 - Demeter v2020.3.0 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2020.3.0_build2.AppImage>`__ |DownloadLEU|
+    * `EU Mirror: Linux amd64 - Demeter v2020.3.1 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2020.3.1_release.AppImage>`__ |DownloadLEU|
+..
     * `US Mirror: Linux amd64 - Demeter v2020.3.0 AppImage <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter_build2.AppImage>`__ |DownloadLUS|
 
 If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Vircadia.
@@ -85,7 +86,7 @@ VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
 .. |DownloadWI| image:: _images/remixicon/download-2-fill.svg
               :class: inline
               :width: 20
-              :target: https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter.exe
+              :target: https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.1-Demeter.exe
 
 .. |DownloadWL| image:: _images/remixicon/download-2-fill.svg
               :class: inline
@@ -95,12 +96,12 @@ VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
 .. |DownloadM| image:: _images/remixicon/download-2-fill.svg
               :class: inline
               :width: 20
-              :target: https://cdn.vircadia.com/dist/release-experimental/Vircadia-Alpha-2020.3.0-Demeter.dmg
+              :target: https://cdn.vircadia.com/dist/release-experimental/Vircadia-Alpha-Interface-2020.3.1-Demeter.dmg
 
 .. |DownloadLEU| image:: _images/remixicon/download-2-fill.svg
               :class: inline
               :width: 20
-              :target: https://appimage.moto9000.moe/release/Vircadia-x86_64_v2020.3.0_build2.AppImage
+              :target: https://appimage.moto9000.moe/release/Vircadia-x86_64_v2020.3.1_release.AppImage
 
 .. |DownloadLUS| image:: _images/remixicon/download-2-fill.svg
               :class: inline
