@@ -4,6 +4,8 @@ Get Started with Hosting
 
 We are thrilled you've decided to host a custom domain with us on the metaverse! We also understand that setting up a server, configuring it, and creating a domain takes some time and technical knowledge. Hopefully, this section will help you become familiar with the basics of hosting domains in Vircadia, so that you can create the space you want and be a part of building a bigger, more expansive metaverse. 
 
+You can also follow the :doc:`quick start guide <quick-start>` to quickly boot up a domain to tinker with.
+
 .. contents:: On This Page
     :depth: 2
 
@@ -13,8 +15,8 @@ Overview of Hosting
 
 Vircadia's hosting interface consists of the following components that work together to create an immersive VR experience for your visitors:
 
-* The *Sandbox* is a testing environment hosted locally on your computer that gives you a space to play around and build content without affecting any domains in the metaverse. Note that it is possible to configure Vircadia so that your Sandbox is also a registered domain that is hosted directly from your local computer. The Sandbox application can be download from the `Vircadia website <https://www.highfidelity.com/download#sandbox>`_.
-* A *domain* is a registered location in the metaverse. Each domain is assigned a unique ID to identify it. You can sign up for a new domain in one of two ways: either by setting up a Vircadia server or by logging into your account via the Vircadia website.
+* The Vircadia *Sandbox* is a locally hosted environment on your computer that gives you a space to play around and build content in. You can register your Sandbox with the Metaverse to make it accessible from the outside world. The Sandbox is included with full Windows installers from the `Vircadia website <https://vircadia.com/download-vircadia/#windows>`_.
+* A *domain* is a registered location in the metaverse. Each domain is assigned a unique ID to identify it. You can run a domain on a Windows or Linux machine.
 * A *server* hosts a domain, and processes incoming network requests for the domain. The server for your domain is either a physical computer or a cloud-hosted server.
 * A *droplet* or *cloud domain* is a cloud server hosted on DigitalOcean.
 * A *content set* is the content that you've designed to make your domain unique and pretty. 

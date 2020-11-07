@@ -191,3 +191,11 @@ epub_exclude_files = ['search.html']
 
 # -- Markdown Setup ---------------------------------------------------------
 extensions = ['recommonmark']
+
+# Variables
+
+rst_prolog = """
+.. |serverdeb| replace:: https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2020.3.1-demeter-20201026-5c945c1-0ubuntu1-1_amd64.deb
+.. |serverdebfile| replace:: vircadia-server_2020.3.1-demeter-20201026-5c945c1-0ubuntu1-1_amd64.deb
+.. |serverrpm| replace:: https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2020.3.1_DEMETER_20201026_5c945c1-1.amzn2.x86_64.rpm
+"""
