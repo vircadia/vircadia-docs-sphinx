@@ -42,4 +42,8 @@ For example:
 
 This will cause logging with millisecond precision, and color coding messages by severity.
 
+    VIRCADIA_LOG_OPTIONS=milliseconds
+
+Will result in only millisecond precision being applied to logging.
+
 Color is enabled by default on Unix if output is being directed to a terminal, and disabled by default on Windows.
