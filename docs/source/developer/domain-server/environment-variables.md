@@ -1,6 +1,6 @@
 # Environment Variables
 
-You can alter the Domain Server's functionality using these environment variables.
+You can alter the Domain Server's functionality using the following environment variables.
 
 ---
 
