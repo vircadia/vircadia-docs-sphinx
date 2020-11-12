@@ -11,7 +11,7 @@ Notice: Port Forwarding
 
 There are two ways to make a domain accessible from the outside internet.
 
-1. You may register your domain with the Metaverse server by creating a `Domain ID` in the domain's web panel found at http://localhost:8080/.
+1. You may register your domain with the Metaverse server by creating a `Domain ID` in the domain's web panel found at http://localhost:40100/.
 2. Alternatively, you can manually open the following ports on your router and firewall:
 
     * 40100 : (tcp) administration web portal
@@ -37,7 +37,7 @@ Linux .rpm
 1. Open your terminal.
 2. Run the following command to download and install the server:
 
-    **sudo yum install |serverrpm|**
+    sudo yum install |serverrpm|
 
 4. Go to ``http://[IP address of your server]:40100/`` in your web browser and complete the wizard to set up your domain.
 5. In your Vircadia Interface, open the `Explore` app and enter your server's IP address to get there.
@@ -49,11 +49,11 @@ Linux .deb
 1. Open your terminal.
 2. Run the following command to download the server:
 
-    **wget |serverdeb|**
+    wget |serverdeb|
 
 3. Then run this command to update and install the server: 
 
-    **sudo apt-get update && sudo apt-get install ./|serverdebfile|**
+    sudo apt-get update && sudo apt-get install ./|serverdebfile|
 
 4. Go to ``http://[IP address of your server]:40100/`` in your web browser and complete the wizard to set up your domain.
 5. In your Vircadia Interface, open the `Explore` app and enter your server's IP address to get there.
