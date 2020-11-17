@@ -1,10 +1,10 @@
 # Environment Variables
 
-You can alter the Domain Server's functionality using the following environment variables.
+You can alter the domain server's functionality using the following environment variables.
 
 ---
 
-Override the default port for your domain-server.
+Override the default port for your domain server.
 
     HIFI_DOMAIN_SERVER_PORT=<port-number>
 
