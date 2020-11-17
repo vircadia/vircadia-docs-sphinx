@@ -2,7 +2,7 @@
 
 Wearables are objects that attach to your avatar. They can be hats, skirts, glasses, headphones and anything else that can accessorize your look in-world. You can express your individuality by creating wearables of your own and [putting them on](../explore/personalize/add-wearables.html). 
 
-Before you can use a custom wearable, you must first host its FBX and JSON files in a place that is publicly accessible to Athena. You can use any cloud platforms including Amazon S3, Google Cloud Storage, Microsoft Azure, Dropbox, etc.
+Before you can use a custom wearable, you must first host its FBX and JSON files in a place that is publicly accessible to Vircadia. You can use any cloud platforms including Amazon S3, Google Cloud Storage, Microsoft Azure, Dropbox, etc.
 
 ## Build a Custom Wearable
 Wearables are simply [3D models](3d-models.html) that are customized to fit on your avatar. Therefore, the first step in creating your wearable is to build one or find an existing model that you want to use. 
@@ -29,7 +29,7 @@ After hosting your wearable in the cloud or the Marketplace, [put it on](../expl
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>If you're creating a wearable to <a href="../sell/add-item/upload-wearable.html">add to the Marketplace</a>, make sure it will fit the default wooden mannequin avatar (unless you are specifically making it to go with a very specific base avatar model). This will ensure that the wearable will work with most avatars in Athena.</p>
+    <p>If you're creating a wearable to <a href="../sell/add-item/upload-wearable.html">add to the Marketplace</a>, make sure it will fit the default wooden mannequin avatar (unless you are specifically making it to go with a very specific base avatar model). This will ensure that the wearable will work with most avatars in Vircadia.</p>
 </div>
 
 
