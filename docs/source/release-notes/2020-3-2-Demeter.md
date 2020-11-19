@@ -61,6 +61,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Application: Add color, ms timestamps, PID, and thread ID as possible logging settings. (#804)
 * UI: Hide 'Secure Transactions' section in Settings > Security. (#842)
 * Application: Clean and revamp 'Script Plugin Infrastructure' example plugin. (#847)
+* Build: Fix GHA building. (#872)
 
 ## Domain Server
 
@@ -212,7 +213,7 @@ Updates are reflected [here](https://dashboard.vircadia.com/).
 The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/kasenvr/vircadia-docs-sphinx). 
 
 * Add description of `VIRCADIA_LOG_OPTIONS` environment variable. (#88)
-
+* Release notes for 2020.3.2 Demeter. (#97)
 
 #### API Docs
 
