@@ -67,8 +67,7 @@ Download Vircadia
 * Linux |Ubuntu|
 
     * `EU Mirror: Linux amd64 - Demeter v2020.3.1 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2020.3.1_release.AppImage>`__ |DownloadLEU|
-..
-    * `US Mirror: Linux amd64 - Demeter v2020.3.0 AppImage <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter_build2.AppImage>`__ |DownloadLUS|
+    * `US Mirror: Linux amd64 - Demeter v2020.3.1 AppImage <https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.1-Demeter.AppImage>`__ |DownloadLUS|
 
 If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Vircadia.
 VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
@@ -106,7 +105,7 @@ VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
 .. |DownloadLUS| image:: _images/remixicon/download-2-fill.svg
               :class: inline
               :width: 20
-              :target: https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.0-Demeter_build2.AppImage
+              :target: https://cdn.vircadia.com/dist/release/Vircadia-Alpha-2020.3.1-Demeter.AppImage
 
 
 ---------------------------------
