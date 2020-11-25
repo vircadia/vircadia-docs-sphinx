@@ -10,7 +10,7 @@ Use the source files for QML and other resources at runtime instead of the compi
 
 ---
 
-Enable the OpenVR plugin to be used with an Oculus HMD. (Useful for debugging the OpenVR plugin if you have an Oculus HMD but not a Vive.)
+Enable the OpenVR plugin to be used with an Oculus HMD. (Useful for debugging the OpenVR plugin if you have an Oculus HMD but not a SteamVR HMD.)
 
     HIFI_DEBUG_OPENVR=1
 
