@@ -1,14 +1,32 @@
 # Environment Variables
 
-You can alter Interface's functionality using these environment variables.
+You can alter Interface's functionality using the following environment variables.
 
-Uses the source files for the QML and other resource at runtime instead of the compiled files.
+---
+
+Use the source files for QML and other resources at runtime instead of the compiled files.
 
     HIFI_USE_SOURCE_TREE_RESOURCES=1
 
-Enables the OpenVR plugin to be used with an Oculus HMD. (Useful for debugging the OpenVR plugin if you have an Oculus HMD but not a Vive.)
+---
+
+Enable the OpenVR plugin to be used with an Oculus HMD. (Useful for debugging the OpenVR plugin if you have an Oculus HMD but not a SteamVR HMD.)
 
     HIFI_DEBUG_OPENVR=1
+
+---
+
+Override the metaverse URL.
+
+    HIFI_METAVERSE_URL=<metaverse-server-url>
+
+---
+
+Allow multiple instances of Interface to run simultaneously.
+
+    HIFI_ALLOW_MULTIPLE_INSTANCES=1
+
+---
 
 Logging to the console can be controlled with the `VIRCADIA_LOG_OPTIONS` variable. It can be set to any comma separated combination of the following options. Case and whitespace are not significant.
 
@@ -22,6 +40,10 @@ For example:
 
     VIRCADIA_LOG_OPTIONS="color, milliseconds"
 
-Will result in logging with millisecond precision, and color coding messages by severity.
+This will cause logging with millisecond precision, and color coding messages by severity.
 
-Color is enabled by default on Unix, if output is being directed to a terminal, and disabled by default on Windows.
+    VIRCADIA_LOG_OPTIONS=milliseconds
+
+Will result in only millisecond precision being applied to logging.
+
+Color is enabled by default on Unix if output is being directed to a terminal, and disabled by default on Windows.
