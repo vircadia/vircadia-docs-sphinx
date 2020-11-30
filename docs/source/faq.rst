@@ -43,8 +43,9 @@ Domain Hosting
 | manually remove the HTTP security settings ('http_password' and 'http_username') from               |
 | config.json. The config file is stored on the server in the following directories:                  |
 |                                                                                                     |
-| * **Windows**: %AppData%/Roaming/Vircadia/domain-server                                             |
-| * **Mac**: ~/Library/Application Support/Vircadia/domain-server                                     |
+| * **Windows**: %AppData%\Roaming\Vircadia\domain-server\                                            |
+| * **Mac**: ~/Library/Application Support/Vircadia/domain-server/                                    |
+| * **Linux**: /var/lib/vircadia/default/domain-server/                                               |
 +-----------------------------------------------------------------------------------------------------+
 
 ---------------
