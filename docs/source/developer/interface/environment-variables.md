@@ -10,6 +10,12 @@ Use the source files for QML and other resources at runtime instead of the compi
 
 ---
 
+Enable the HMD debugging mode which emulates an HMD view in 2D for desktop testing.
+
+    HIFI_DEBUG_HMD=1
+
+---
+
 Enable the OpenVR plugin to be used with an Oculus HMD. (Useful for debugging the OpenVR plugin if you have an Oculus HMD but not a SteamVR HMD.)
 
     HIFI_DEBUG_OPENVR=1
