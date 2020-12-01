@@ -282,7 +282,7 @@ The gemstone will be created when gemstoneApp.js receives click events from each
         }
     }
 
-Congratulations, you have successfully created an app in Athena! To use your app, upload it to a cloud platform, such as Amazon S3, Google Cloud Storage, Microsoft Azure, etc. Once hosted, you can install it and use it:
+Congratulations, you have successfully created an app in Vircadia! To use your app, upload it to a cloud platform, such as Amazon S3, Google Cloud Storage, Microsoft Azure, etc. Once hosted, you can install it and use it:
 
 1. In Interface, go to **Edit > Running Scripts**.
 2. Under Load Scripts, click 'From URL' and enter the URL to your hosted JavaScript file. 
