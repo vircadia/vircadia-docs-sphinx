@@ -96,7 +96,7 @@ You can also override an existing animation role mapping:
 1. Use `MyAvatar.getAnimationRoles <https://apidocs.vircadia.dev/MyAvatar.html#.getAnimationRoles>`_ to view the list of roles for the current avatar. 
 2. You can replace the animation for each role with a custom animation (FBX file) using `MyAvatar.overrideRoleAnimation <https://apidocs.vircadia.dev/MyAvatar.html#.overrideRoleAnimation>`_.
 
-We've listed the animation roles and their description. These are frequently updated, so we recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles before continuing. The standard animation FBX files for these roles can be found in the Vircadia source code repository on `GitHub <https://github.com/kasenvr/project-athena/tree/kasen/core/interface/resources/avatar/animations>`_.
+We've listed the animation roles and their description. These are frequently updated, so we recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles before continuing. The standard animation FBX files for these roles can be found in the Vircadia source code repository on `GitHub <https://github.com/kasenvr/project-athena/tree/master/interface/resources/avatar/animations>`_.
 
 +-------------------------------------------+----------------------------------------------------------------------+
 | Animation Roles                           | Description                                                          |
@@ -227,7 +227,7 @@ OR
 Examples
 ^^^^^^^^
 
-+ Here is the current default `avatar-animation.json <https://github.com/kasenvr/project-athena/blob/kasen/core/interface/resources/avatar/avatar-animation.json>`_ file.
++ Here is the current default `avatar-animation.json <https://github.com/kasenvr/project-athena/blob/master/interface/resources/avatar/avatar-animation.json>`_ file.
 + This `scoot-animation.json <https://s3.amazonaws.com/hifi-public/tony/scoot-animation.json>`_ file replaces the idle and walk animations with a sitting pose. This example shows how you can replace some of an avatar's default animations.
 
 

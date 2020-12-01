@@ -86,7 +86,7 @@ git fetch -a
 
 Then checkout the main branch with:
 ```bash
-git checkout kasen/core
+git checkout master
 ```
 
 ### Using a custom Qt build

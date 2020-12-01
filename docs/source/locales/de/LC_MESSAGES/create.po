@@ -2674,7 +2674,7 @@ msgid ""
 "to get the latest animation roles before continuing. The standard "
 "animation FBX files for these roles can be found in the Vircadia source "
 "code repository on `GitHub <https://github.com/kasenvr/project-"
-"athena/tree/kasen/core/interface/resources/avatar/animations>`_."
+"athena/tree/master/interface/resources/avatar/animations>`_."
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:102
@@ -3071,7 +3071,7 @@ msgstr ""
 msgid ""
 "Here is the current default `avatar-animation.json "
 "<https://github.com/kasenvr/project-"
-"athena/blob/kasen/core/interface/resources/avatar/avatar-"
+"athena/blob/master/interface/resources/avatar/avatar-"
 "animation.json>`_ file."
 msgstr ""
 
@@ -3287,7 +3287,7 @@ msgstr ""
 #: ../../source/create/avatars/find-avatars.rst:39
 msgid ""
 "`Vircadia Avatar Exporter for Unity <https://github.com/kasenvr/project-"
-"athena/blob/kasen/core/tools/unity-avatar-"
+"athena/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 msgstr ""
 
@@ -3315,7 +3315,7 @@ msgstr ""
 #: ../../source/create/avatars/find-avatars.rst:49
 msgid ""
 "Download the `avatar exporter <https://github.com/kasenvr/project-"
-"athena/blob/kasen/core/tools/unity-avatar-"
+"athena/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ from Vircadia."
 msgstr ""
 

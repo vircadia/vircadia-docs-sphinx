@@ -2429,7 +2429,7 @@ msgid ""
 "The Vircadia Avatar Exporter for Unity has been updated to notify you of "
 "texture and file errors you may encounter while using the tool. Download "
 "the updated exporter here: https://github.com/kasenvr/project-"
-"athena/tree/kasen/core/tools/unity-avatar-exporter"
+"athena/tree/master/tools/unity-avatar-exporter"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:37 ../../source/release-notes/v80.md:60
@@ -4152,7 +4152,7 @@ msgid ""
 "Introduced new build-time environment variable HIFI_VCPKG_BOOTSTRAP that "
 "will allow developers using Visual Studio 2019 to build the High Fidelity"
 " binaries. See the updated build guide for Windows here: "
-"https://github.com/kasenvr/project-athena/blob/kasen/core/BUILD_WIN.md"
+"https://github.com/kasenvr/project-athena/blob/master/BUILD_WIN.md"
 msgstr ""
 
 #: ../../source/release-notes/v84.md:46
