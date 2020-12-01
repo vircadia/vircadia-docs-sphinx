@@ -58,11 +58,11 @@ As you're creating your avatar, remember that Vircadia is an open-source project
 
 Plugin ("Project Hermes") is a plugin for Blender to allow for easier content creation and importing for the Vircadia Metaverse Platform. It features: 
 
-- **Material Tools**: Allows for easier pipeline to apply materials to objects so that they are ready to use in Athena.
-- **Armature Tools**: Adds a skeleton that is compatible with Athena and let you configure bone names for use in advanced scripts.
-- **Avatar Converters**: Translates and fixes models and materials from MMD and Mixamo so that they work in Athena.
-- **Export Tools**: Exports avatars and scenes so that they can be used in Athena.
-- **Import Tools**: Imports primitive entities from Athena so that you can make modifications to them.
+- **Material Tools**: Allows for easier pipeline to apply materials to objects so that they are ready to use in Vircadia.
+- **Armature Tools**: Adds a skeleton that is compatible with Vircadia and let you configure bone names for use in advanced scripts.
+- **Avatar Converters**: Translates and fixes models and materials from MMD and Mixamo so that they work in Vircadia.
+- **Export Tools**: Exports avatars and scenes so that they can be used in Vircadia.
+- **Import Tools**: Imports primitive entities from Vircadia so that you can make modifications to them.
 
 Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon <https://github.com/Menithal/Blender-Metaverse-Addon>`_
 
