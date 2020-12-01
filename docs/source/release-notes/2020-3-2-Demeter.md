@@ -1,6 +1,6 @@
 # Alpha 2020.3.2 Demeter Release Notes
 
-This version of Vircadia is an update to 2020.3.1. It is compatible with the 2020.3.0-Demeter protocol. This version was released on November 19th, 2020.
+This version of Vircadia is an update to 2020.3.1. It is compatible with the 2020.3.0-Demeter protocol. This version was released on December 1st, 2020.
 
 ## Interface (Codename Athena)
 
@@ -40,10 +40,10 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Application: Add ability for `Script.require` to automatically cachebust itself when changes are made to the script on the local filesystem. (#848)
 * UI: Enable ability to login to domains with an email as well as a username. (#852)
 * API: Fix `Entities.enterEntity` and `Entities.leaveEntity` event not firing in entity script after content reload. (#853)
-* App: 'Create' app November 2020 improvements package. (#858)
+* App: 'Create' app November 2020 improvements package. (#858, #874)
     * The last selected entity is now highlighted.
-    * Column visibility and order in the entity list is now persistent.
-    * Rename parent and family selection buttons.
+    * The entity list column visibility and order of columns now persists when the Create app is closed and reopened.
+    * The selection buttons for 'Parent' and child entities have been renamed.
     * New in-world bounding box color for a selected entity that is a parent & child at the same time:
         * If the entity is a top parent, the selection color of the bounding box is orange.
         * If the entity is parent and child, the selection color of the bounding box is magenta.
@@ -52,16 +52,19 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
     * The 'Selection' and 'Actions' menus now close when the 'Create' app or entity list is closed.
     * 'Move Selected Entities to Avatar' is now recorded in the undo history.
     * Fix entity list interpreting the last selected entity as the first selection in the selection stack.
+* Application: 'Local Entity' and self-owned 'Avatar Entity' scripts now run on their own separate script engines to improve performance and security. (#871)
 
 #### Miscellaneous
 
 * Application: Transition listener registration from member string names to member string pointers. (#613)
-* Build: GHA now builds and uploads installers for every merge to the master branch. (#719)
+* Build: GHA now generates builds for Android and Quest platforms. (#615)
+* Build: GHA now builds and uploads installers for every merge to the master branch. (#719, #881)
 * Application: Qt 5.15 fixes: Initialize flags with default constructor. (#791)
 * Application: Add color, ms timestamps, PID, and thread ID as possible logging settings. (#804)
 * UI: Hide 'Secure Transactions' section in Settings > Security. (#842)
 * Application: Clean and revamp 'Script Plugin Infrastructure' example plugin. (#847)
 * Build: Fix GHA building. (#872)
+* Graphics: Acquiring the free VRAM value on AMD video cards for 'Auto' maximum texture memory mode now works correctly, preventing a crash. (#887)
 
 ## Domain Server
 
@@ -94,7 +97,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 <li><a href="http://github.com/kasenvr/Iamus/commit/4654f30bb6af0cb89ac0a4c7fcf9f640576876f3">view &bull;</a> Return more useful error message when finding a domain name contains non-allowed characters. Some non-functional formatting and code cleanup.</li>
 <li><a href="http://github.com/kasenvr/Iamus/commit/729cdd156c95d514751a7663bafd6b584c725d49">view &bull;</a> Fix line endings to Linux style</li> 
 <li><a href="http://github.com/kasenvr/Iamus/commit/0511c01854bebf75a46a7ad79dbf243f194aa06d">view &bull;</a> Modify Entity field value validation to return reason for any validation failure. Rather than just returning 'false', the validator returns a structure with an optional reason for the validation failure. Modify the callers of Entity field setting to return error. Closes #48 Fix AccountEntity.Availability and AccountEntity.Roles to validate values correctly.</li>
-<li><a href="http://github.com/kasenvr/Iamus/commit/8dca92378f89629819e544ff3d73351756902b2e">view &bull;</a> Tone down the AccountEntity.email format validation to require one AT sign. An RFC complient email address can be very complex so rely on later email verification handshake to really checkout that email is a good format. Closes #63</li> 
+<li><a href="http://github.com/kasenvr/Iamus/commit/8dca92378f89629819e544ff3d73351756902b2e">view &bull;</a> Tone down the AccountEntity.email format validation to require one AT sign. An RFC compliant email address can be very complex so rely on later email verification handshake to really checkout that email is a good format. Closes #63</li> 
 <li><a href="http://github.com/kasenvr/Iamus/commit/3d6f7679ea605c288f537ddf8fffd011d9795922">view &bull;</a> Bump version to 2.3.2</li> 
 </ul>
 
@@ -214,6 +217,8 @@ The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphi
 
 * Add description of `VIRCADIA_LOG_OPTIONS` environment variable. (#88)
 * Release notes for 2020.3.2 Demeter. (#97)
+* Document a multitude of missing environment variables for the Interface and Domain server. (#90)
+* Misc. name updates (Athena -> Vircadia) and documents `HIFI_DEBUG_HMD` environment variable for Interface. (#96)
 
 #### API Docs
 
