@@ -3829,7 +3829,7 @@ msgstr ""
 #~ "code base. For more information, see "
 #~ "our `Linux Build Guide "
 #~ "<https://github.com/kasenvr/project-"
-#~ "athena/blob/kasen/core/BUILD_LINUX.md>`_."
+#~ "athena/blob/master/BUILD_LINUX.md>`_."
 #~ msgstr ""
 
 #~ msgid ""
