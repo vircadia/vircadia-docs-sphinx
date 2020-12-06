@@ -17,3 +17,4 @@ Development Instructions
     Interface <developer/interface.rst>
     Domain Server <developer/domain-server.rst>
     Assignment Client <developer/assignment-client.rst>
+    Debugging <developer/debugging.rst>
