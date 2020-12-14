@@ -8,7 +8,7 @@ There are three ways to get your own avatar. You can either:
 * Use MakeHuman or VRoid Studio to create a human or anime avatar
 * Download an existing avatar from external sources such as TurboSquid or CGTrader 
 
-.. note:: If you get an avatar from an external source such as TurboSquid, CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with Vircadia, use the `Vircadia Avatar Exporter for Unity <find-avatars.html#project-athena-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar. 
+.. note:: If you get an avatar from an external source such as TurboSquid, CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with Vircadia, use the `Vircadia Avatar Exporter for Unity <find-avatars.html#vircadia-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar. 
 
 If you want to create an avatar from scratch, this page covers the steps needed to create, rig, and package your avatar. 
 

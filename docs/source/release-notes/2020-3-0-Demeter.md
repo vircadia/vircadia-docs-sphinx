@@ -4,7 +4,7 @@ This version of Vircadia is a new release. It is **not** compatible with the 202
 
 ## Interface (Codename Athena)
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -34,7 +34,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Domain Server
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -44,7 +44,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Metaverse Server & Dashboard (Codename Iamus)
 
-The metaverse server [Iamus](https://github.com/kasenvr/iamus) is live at [https://metaverse.vircadia.com/live](https://dashboard.vircadia.com/), with the [metaverse server interface](https://github.com/vircadia/project-iamus-dashboard) live for user registration and interaction at on Vircadia's [website](https://dashboard.vircadia.com/).
+The metaverse server [Iamus](https://github.com/vircadia/iamus) is live at [https://metaverse.vircadia.com/live](https://dashboard.vircadia.com/), with the [metaverse server interface](https://github.com/vircadia/project-iamus-dashboard) live for user registration and interaction at on Vircadia's [website](https://dashboard.vircadia.com/).
 
 ## Vircadia Launcher (Codename Pantheon)
 
@@ -54,13 +54,13 @@ The metaverse server [Iamus](https://github.com/kasenvr/iamus) is live at [https
 
 #### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/kasenvr/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
 
 * Release notes for 2020.3.0 Demeter. (#83)
 
 #### API Docs
 
-The API docs are generated from the software source [repo](https://github.com/kasenvr/project-athena).
-The latest live deployment source can be viewed [here](https://github.com/kasenvr/vircadia-api-docs).
+The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
+The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
 
 * The `Script.getExternalPath` API was added. (#668)

@@ -21,7 +21,7 @@ sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircad
 
 ### Unlisted Distribution
 
-If you do not see your distribution listed here, you may compile your own server from source using the [Vircadia builder](https://github.com/kasenvr/vircadia-builder).
+If you do not see your distribution listed here, you may compile your own server from source using the [Vircadia builder](https://github.com/vircadia/vircadia-builder).
     
 ## Configuration
 

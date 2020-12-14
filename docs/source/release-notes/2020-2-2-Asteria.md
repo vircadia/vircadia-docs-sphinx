@@ -2,9 +2,9 @@
 
 This version of Vircadia is an update to 2020.2.1. It is compatible with the 2020.2.0-Asteria protocol. This version was released on June 26th, 2020.
 
-## Interface (Codename Athena)
+## Interface (Code Name Athena)
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -19,7 +19,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Domain Server
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -29,7 +29,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 #### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/kasenvr/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
 
 * Update build docs from main repo, fix link for auto-updating of build docs. (#55)
 * Create debugging tips for Interface on Windows. (#56)
@@ -37,8 +37,8 @@ The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphi
 
 #### API Docs
 
-The API docs are generated from the software source [repo](https://github.com/kasenvr/project-athena).
-The latest live deployment source can be viewed [here](https://github.com/kasenvr/vircadia-api-docs).
+The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
+The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
 
 * Nothing new!
 
@@ -46,13 +46,13 @@ The latest live deployment source can be viewed [here](https://github.com/kasenv
 
 #### Explore App (Interim Version)
 
-The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/kasenvr/Decentralized_GoTo_Experimental).
+The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/vircadia/Decentralized_GoTo_Experimental).
 
 * Nothing new!
 
 #### Community Apps
 
-The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/kasenvr/community-apps). 
+The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/vircadia/community-apps). 
 
 * Add "Refresh" app. (#18)
 * Add more info to "Radar" app. (#19)
