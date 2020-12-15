@@ -24,6 +24,7 @@ you will always be able to interact with your environment, engage with your frie
 
 
 In addition to the documentation, you can join the discussion on the Vircadia `Discord server <https://discordapp.com/invite/Pvx2vke>`__ |Discord|.
+To join the developer discussions ask a moderator to be included.
 
 
 .. |Discord| image:: _images/remixicon/discord-fill.svg
