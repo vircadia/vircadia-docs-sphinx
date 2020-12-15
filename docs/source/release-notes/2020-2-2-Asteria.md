@@ -2,7 +2,7 @@
 
 This version of Vircadia is an update to 2020.2.1. It is compatible with the 2020.2.0-Asteria protocol. This version was released on June 26th, 2020.
 
-## Interface (Code Name Athena)
+## Interface (Codename Athena)
 
 The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
