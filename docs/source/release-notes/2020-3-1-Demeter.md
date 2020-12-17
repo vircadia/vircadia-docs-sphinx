@@ -4,7 +4,7 @@ This version of Vircadia is an update to 2020.3.0. It is compatible with the 202
 
 ## Interface (Codename Athena)
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -28,7 +28,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Domain Server
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -38,7 +38,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Metaverse Server & Dashboard (Codename Iamus)
 
-[Iamus](https://github.com/kasenvr/iamus) Metaverse Server updates can be found [here](https://github.com/kasenvr/Iamus/commits/master).
+[Iamus](https://github.com/vircadia/iamus) Metaverse Server updates can be found [here](https://github.com/vircadia/Iamus/commits/master).
 
 [Iamus Metaverse Dashboard](https://github.com/vircadia/project-iamus-dashboard) updates can be found [here](https://dashboard.vircadia.com/).
 
@@ -55,7 +55,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 #### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/kasenvr/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
 
 * Expand 'Home' page with more details. (#86)
 * Add 'Gallery' page. (#85)
@@ -63,8 +63,8 @@ The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphi
 
 #### API Docs
 
-The API docs are generated from the software source [repo](https://github.com/kasenvr/project-athena).
-The latest live deployment source can be viewed [here](https://github.com/kasenvr/vircadia-api-docs).
+The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
+The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
 
 * `Script` API: 
     * `type` property documented. (#730)

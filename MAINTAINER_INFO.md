@@ -107,7 +107,7 @@ WantedBy=default.target
 
 Currently an SMTP server maintained by Kalila gets used for sending emails to registered users.
 Weblate reads the gettext PO files from `docs/source/locales/*/LC_MESSAGES/*.po`
-It is set up to automatically push daily commits via `https://JulianGro:REDACTED@github.com/kasenvr/vircadia-docs-sphinx.git`
+It is set up to automatically push daily commits via `https://JulianGro:REDACTED@github.com/vircadia/vircadia-docs-sphinx.git`
 
 Git hooks takes care of updating the language files on checkout.
 
