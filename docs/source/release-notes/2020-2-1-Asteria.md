@@ -4,7 +4,7 @@ This version of Vircadia is an update to 2020.2.0. It is compatible with the 202
 
 ## Interface (Codename Athena)
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -21,15 +21,15 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 #### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/kasenvr/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
 
 * Release notes for 2020.2.0 and 2020.2.1. (#49, #50, #54)
 * Housekeeping for release notes, server links, etc. (#51)
 
 #### API Docs
 
-The API docs are generated from the software source [repo](https://github.com/kasenvr/project-athena).
-The latest live deployment source can be viewed [here](https://github.com/kasenvr/vircadia-api-docs).
+The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
+The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
 
 * Nothing new!
 
@@ -37,12 +37,12 @@ The latest live deployment source can be viewed [here](https://github.com/kasenv
 
 #### Explore App (Interim Version)
 
-The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/kasenvr/Decentralized_GoTo_Experimental).
+The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/vircadia/Decentralized_GoTo_Experimental).
 
 * Add navigation buttons. (#4)
 
 #### Community Apps
 
-The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/kasenvr/community-apps). 
+The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/vircadia/community-apps). 
 
 * Nothing new!

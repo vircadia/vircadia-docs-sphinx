@@ -4,7 +4,7 @@ This version of Vircadia is an update to 2020.2.4. It is compatible with the 202
 
 ## Interface (Codename Athena)
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -28,7 +28,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Domain Server
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -38,7 +38,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Metaverse Server (Codename Iamus)
 
-The metaverse server has been renamed to [Iamus](https://github.com/kasenvr/iamus), known as Apollo's son in Greek mythology. It is beginning active testing with the wider Vircadia community. The [metaverse server interface](https://github.com/vircadia/project-iamus-dashboard) is under continued development.
+The metaverse server has been renamed to [Iamus](https://github.com/vircadia/iamus), known as Apollo's son in Greek mythology. It is beginning active testing with the wider Vircadia community. The [metaverse server interface](https://github.com/vircadia/project-iamus-dashboard) is under continued development.
 
 ## Vircadia Launcher (Codename Pantheon)
 
@@ -48,13 +48,13 @@ The metaverse server has been renamed to [Iamus](https://github.com/kasenvr/iamu
 
 #### Explore App
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 * Nothing new to report, yet!
 
 #### Community Apps
 
-The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/kasenvr/community-apps). 
+The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/vircadia/community-apps). 
 
 * Nothing new to report, yet!
 
@@ -62,14 +62,14 @@ The numbers at the end of each item are the PR numbers in the Community Apps [re
 
 #### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/kasenvr/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
 
 * Release notes for 2020.2.5 Asteria. (#76)
 
 #### API Docs
 
-The API docs are generated from the software source [repo](https://github.com/kasenvr/project-athena).
-The latest live deployment source can be viewed [here](https://github.com/kasenvr/vircadia-api-docs).
+The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
+The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
 
 * The `Stats` API was updated to include two new properties. (#276)
 * The `About` API was added to replace the deprecated `HifiAbout` API. (#624)

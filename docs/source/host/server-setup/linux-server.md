@@ -9,19 +9,19 @@ Alongside installation, these packages can also migrate an "Athena" domain to Vi
 ### Ubuntu Server 18.04 LTS
 
 ```sh
-wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2020.3.0-demeter-20200929-f7f8ea1-0ubuntu1-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./vircadia-server_2020.3.0-demeter-20200929-f7f8ea1-0ubuntu1-1_amd64.deb
+wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2020.3.2-demeter-20201128-60e59ab-0ubuntu1-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./vircadia-server_2020.3.2-demeter-20201128-60e59ab-0ubuntu1-1_amd64.deb
 ```
 
 ### Amazon Linux 2
 
 ```sh
-sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2020.2.4_ASTERIA_20200807_e74cbee-1.amzn2.x86_64.rpm
+sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2020.3.1_DEMETER_20201026_5c945c1-1.amzn2.x86_64.rpm
 ```
 
 ### Unlisted Distribution
 
-If you do not see your distribution listed here, you may compile your own server from source using the [Vircadia builder](https://github.com/kasenvr/vircadia-builder).
+If you do not see your distribution listed here, you may compile your own server from source using the [Vircadia builder](https://github.com/vircadia/vircadia-builder).
     
 ## Configuration
 
