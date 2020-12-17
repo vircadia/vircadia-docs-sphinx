@@ -2,7 +2,7 @@
 Frequently Asked Questions
 ##########################
 
-We get a lot of questions from our users! If you have questions about our product, feel free to browse through this page to learn more.
+We get a lot of questions from our users! If you have questions about Vircadia, feel free to browse through this page to learn more.
 
 .. contents:: On This Page
     :depth: 2
@@ -38,19 +38,14 @@ Domain Hosting
 | How do I get into my domain settings if I set up `authentication                                    |
 | <host/configure-settings/authentication-setting.html>`_ but forgot my username and/or password?     |
 +=====================================================================================================+
-| * For cloud domains, you can reset the username and password to a temporary one through your High   |
-|   Fidelity account settings. To do so, go to https://metaverse.highfidelity.com/user/cloud_domains  |
-|   and log in if prompted. Click the "More Options" menu (3 dots on the right-side of the row), then |
-|   click 'Reset Domain Server password'. Once the username and password are reset, log in to your    |
-|   domain settings with the temporary credentials. We recommend `setting a new username and password |
-|   <host/configure-settings/authentication-setting.html>`_ at this time.                             |
-| * For local servers, the authentication settings for your domain are encrypted into a configuration |
-|   file on the local server's file system. To 'reset' the authentication settings, you need to       |
-|   manually remove the HTTP security settings ('http_password' and 'http_username') from             |
-|   config.json. The config file is stored on the server in the following directories:                |
+| The authentication settings for your domain are encrypted into a configuration                      |
+| file on the server's file system. To 'reset' the authentication settings, you need to               |
+| manually remove the HTTP security settings ('http_password' and 'http_username') from               |
+| config.json. The config file is stored on the server in the following directories:                  |
 |                                                                                                     |
-|     * **Windows**: %AppData%/Roaming/Project Athena/domain-server                                   |
-|     * **Mac**: ~/Library/Application Support/Project Athena/domain-server                           |
+| * **Windows**: %AppData%\Roaming\Vircadia\domain-server\                                            |
+| * **Mac**: ~/Library/Application Support/Vircadia/domain-server/                                    |
+| * **Linux**: /var/lib/vircadia/default/domain-server/                                               |
 +-----------------------------------------------------------------------------------------------------+
 
 ---------------

@@ -13,7 +13,7 @@ For example, **2020.2.5-Asteria** will be compatible with **2020.2.0-Asteria**. 
 
 ## Interface (Codename Athena)
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -273,7 +273,7 @@ when built with DISABLE_QML true, Linux interface doesn't attempt to connect to 
 
 #### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/kasenvr/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
 
 * Explore section updates with further rebranding. (#21, #40)
 * Build Docs support added to the main documentation repo. (#25)
@@ -286,8 +286,8 @@ The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphi
 
 #### API Docs
 
-The API docs are generated from the software source [repo](https://github.com/kasenvr/project-athena).
-The latest live deployment source can be viewed [here](https://github.com/kasenvr/vircadia-api-docs).
+The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
+The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
 
 * Various API docs updates. (#277, #278)
 * Various API docs fixes. (#320)
@@ -297,14 +297,14 @@ The latest live deployment source can be viewed [here](https://github.com/kasenv
 
 #### Explore App (Interim Version)
 
-The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/kasenvr/Decentralized_GoTo_Experimental).
+The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/vircadia/Decentralized_GoTo_Experimental).
 
 * Nothing new!
 
 
 #### Community Apps
 
-The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/kasenvr/community-apps). 
+The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/vircadia/community-apps). 
 
 * VR Grab Scale app updated. (#17)
     * Gizmo entities updated to avatar entities.

@@ -22,7 +22,7 @@ At a minimum, the computer that you use for your server should meet our `minimum
 
 To host a domain, you must be running Vircadia's open source `Client + Sandbox <https://vircadia.com/download-vircadia/#interface>`_ software.
 
-.. note:: While we do not publish an installer for Linux computers, you can still run a local domain server on a Linux machine. To do so, you will need to build the application from our code base. For more information, see our `Linux Build Guide <https://github.com/kasenvr/project-athena/blob/kasen/core/BUILD_LINUX.md>`_.
+.. note:: While we do not publish an installer for Linux computers, you can still run a local domain server on a Linux machine. To do so, you will need to build the application from our code base. For more information, see our `Linux Build Guide <https://github.com/vircadia/vircadia/blob/master/BUILD_LINUX.md>`_.
 
 
 ---------------

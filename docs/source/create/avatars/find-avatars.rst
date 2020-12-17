@@ -36,7 +36,7 @@ You will need the following to use this tool:
 
 + Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)
 + Vircadia (v0.77.0 or higher)
-+ `Vircadia Avatar Exporter for Unity <https://github.com/kasenvr/project-athena/blob/kasen/core/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)
++ `Vircadia Avatar Exporter for Unity <https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)
 
 Please note that the recommended version of Unity is not the latest version. If you are using a newer version of Unity, we recommend that you apply a T-Pose to your avatar. To do so, go to the 'Inspector', and click 'Pose' near the bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click 'Apply' and 'Done'. We recommend doing this after correcting any issues with remapping bones.
 
@@ -46,7 +46,7 @@ Install the Avatar Exporter
 
 You need to install the extension for every Unity project that you have. Keep in mind, however, that you can import and export multiple avatars in a single Unity project.
 
-1. Download the `avatar exporter <https://github.com/kasenvr/project-athena/blob/kasen/core/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ from Vircadia.
+1. Download the `avatar exporter <https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ from Vircadia. 
 2. In Unity, open the 'Project' window at the bottom.
 
 .. image:: _images/project-window.png
@@ -146,7 +146,7 @@ Many of the errors you will encounter describe issues with the avatar’s skelet
 |                                       | 3. In the 'Inspector', change the 'Shader' to one of the 'Standard' options. All     |
 |                                       |    materials should now show up correctly.                                           |
 +---------------------------------------+--------------------------------------------------------------------------------------+
-| Your avatar is grey.                  | One of the following issues could have occurred:                                     |
+| Your avatar is gray.                  | One of the following issues could have occurred:                                     |
 |                                       |                                                                                      |
 |                                       | 1. Make sure you copied your avatar's textures into the project’s textures folder    |
 |                                       | 2. Verify that your textures are in a format that we support (PNG, JPEG, JPG, TGA,   |

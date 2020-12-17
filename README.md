@@ -70,7 +70,7 @@ We encourage you to compile the documentation locally on your computer prior to 
 
 ## Compile Vircadia Documentation Locally
 
-1. Fork and clone https://github.com/kasenvr/vircadia-docs-sphinx.
+1. Fork and clone https://github.com/vircadia/vircadia-docs-sphinx.
 2. Using a command line, cd to your local repository, then the docs folder.
 3. Compile with the command `make html`.
 

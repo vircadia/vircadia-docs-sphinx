@@ -41,7 +41,7 @@ When you select an entity in the Entity List, you can:
 	Shapes: Create in VR
 	------------------------
 
-	The Shapes app is a Marketplace app that lets you :doc:`add and edit basic shapes (entities) <entities/create-entities>` in Athena. You can use Shapes only in VR mode. 
+	The Shapes app is a Marketplace app that lets you :doc:`add and edit basic shapes (entities) <entities/create-entities>` in Vircadia. You can use Shapes only in VR mode. 
 
 	To get the Shapes app: 
 
@@ -116,13 +116,13 @@ Mixamo
 Blender
 ^^^^^^^^^^^^^^^^^
 
-`Blender <https://www.blender.org>`_ is an open-source 3D modeling creation suite which supports everything from modeling and rigging, to animation and simulation. You can also use Blender to fine tune your avatar, and ensure that the materials and textures render correctly in Athena. 
+`Blender <https://www.blender.org>`_ is an open-source 3D modeling creation suite which supports everything from modeling and rigging, to animation and simulation. You can also use Blender to fine tune your avatar, and ensure that the materials and textures render correctly in Vircadia. 
 
 ^^^^^^^^^^^^^^^^^
 Maya
 ^^^^^^^^^^^^^^^^^
 
-`Maya <https://www.autodesk.in/products/maya/overview>`_ is a subscription based 3D modeling toolset that you can use to create 3D models to import into Athena. 
+`Maya <https://www.autodesk.in/products/maya/overview>`_ is a subscription based 3D modeling toolset that you can use to create 3D models to import into Vircadia. 
 
 ^^^^^^^^^^^^^^^^^
 Blocks
