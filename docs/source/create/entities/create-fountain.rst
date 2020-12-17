@@ -22,7 +22,7 @@ Consider getting familiar with the following concepts before starting this tutor
 Create a Smoke Fountain
 ---------------------------------
 
-Particle entities are used to create effects that are made up of smaller parts such as smoke, confetti, or falling leaves. The entity's effect and appearance is defined by its texture. The default texture is a `wispy smoke texture <https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png>`_, but you can replace this texture with your own to create your desired effect.
+Particle entities are used to create effects that are made up of smaller parts such as smoke, confetti, or falling leaves. The entity's effect and appearance is defined by its texture. The default texture is a `wispy smoke texture <https://cdn-1.vircadia.com/us-e-1/Bazaar/Assets/Textures/Defaults/Interface/default_particle.png>`_, but you can replace this texture with your own to create your desired effect.
 
 To create your smoke fountain using a particle entity:
 
