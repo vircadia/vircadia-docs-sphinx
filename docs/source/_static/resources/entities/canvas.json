@@ -1,0 +1,5358 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{d870055a-1c70-4300-bebf-8b0b2d8d057d}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.14542365074157715,
+        "y": -0.7762718200683594,
+        "z": -0.13994121551513672
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870533730,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.2553100585938,
+        "y": -6.426264762878418,
+        "z": -471.7049560546875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{27fbfb35-c6d8-4a7d-b29f-a8aa6d3cb3d4}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.1454143524169922,
+        "y": -0.5584163665771484,
+        "z": -0.13989520072937012
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870534864,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.2553100585938,
+        "y": -6.208409309387207,
+        "z": -471.7049560546875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{fa9ea6ef-111f-4d59-a3b0-bf38fa79487c}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.251828670501709,
+        "y": -0.6667451858520508,
+        "z": -0.14162349700927734
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870540433,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.1738891601562,
+        "y": -6.316742897033691,
+        "z": -471.77349853515625,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{1451388b-72f3-4956-bce3-55f7db3de6d4}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.35877251625061035,
+        "y": -0.558405876159668,
+        "z": -0.1432938575744629
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00798046588897705,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870543059,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.092041015625,
+        "y": -6.208408832550049,
+        "z": -471.8423767089844,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{6baadacd-02f8-4975-a90f-537439c84e09}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.2518332004547119,
+        "y": -0.7762670516967773,
+        "z": -0.1416466236114502
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870547845,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.1738891601562,
+        "y": -6.426264762878418,
+        "z": -471.77349853515625,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{314bde6d-5cc4-494e-924a-374879e7643d}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.14541912078857422,
+        "y": -0.6667499542236328,
+        "z": -0.13991808891296387
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870537757,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.2553100585938,
+        "y": -6.316742897033691,
+        "z": -471.7049560546875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{2685186e-0ce3-4007-be87-68a989bc974b}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.25182390213012695,
+        "y": -0.5584115982055664,
+        "z": -0.1416006088256836
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00807201862335205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870541733,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.1738891601562,
+        "y": -6.208409309387207,
+        "z": -471.77349853515625,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{7111092a-45b4-42f5-8efa-5f5a964fcf93}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.4653642177581787,
+        "y": -0.5584020614624023,
+        "z": -0.14496088027954102
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.007766842842102051,
+        "z": -0.0000457763671875,
+        "w": 0.999969482421875
+    },
+    "created": 1550015870541162,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.0104370117188,
+        "y": -6.208409786224365,
+        "z": -471.9109802246094,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{4029b74f-e6fa-4f57-8fcf-dc4e80aa9556}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.46537351608276367,
+        "y": -0.7762575149536133,
+        "z": -0.14500689506530762
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870544018,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.0104370117188,
+        "y": -6.426265239715576,
+        "z": -471.9109802246094,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{7396fc34-8199-4004-a974-08014df7b0f2}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.3587818145751953,
+        "y": -0.7762613296508789,
+        "z": -0.1433398723602295
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870544990,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.092041015625,
+        "y": -6.42626428604126,
+        "z": -471.8423767089844,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{9947330a-c415-4354-8b01-7efa2831e796}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.3587772846221924,
+        "y": -0.6667394638061523,
+        "z": -0.14331674575805664
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870542602,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.092041015625,
+        "y": -6.316742420196533,
+        "z": -471.8423767089844,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{26e615f0-2275-406c-aded-bfa15a3c2b3a}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.46536898612976074,
+        "y": -0.6667356491088867,
+        "z": -0.14498376846313477
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870542170,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.0104370117188,
+        "y": -6.31674337387085,
+        "z": -471.9109802246094,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{2c445b01-3c52-4c39-8371-573e019dad34}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.27466869354248047,
+        "y": -0.7762908935546875,
+        "z": -0.133209228515625
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870576437,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.5767211914062,
+        "y": -6.42626428604126,
+        "z": -471.43438720703125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{5f05728a-a599-4693-a46e-239935bf1824}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.27467799186706543,
+        "y": -0.5584354400634766,
+        "z": -0.1331632137298584
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870557747,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.5767211914062,
+        "y": -6.208408832550049,
+        "z": -471.43438720703125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{0993cab9-563c-4088-9d14-dc0d06af62aa}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.4836277961730957,
+        "y": -0.776301383972168,
+        "z": -0.12986016273498535
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870563423,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.7366333007812,
+        "y": -6.426265239715576,
+        "z": -471.2998046875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{95ac2ea7-4dc8-43b6-b8e3-edec2eab801a}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.378741979598999,
+        "y": -0.7762966156005859,
+        "z": -0.13154101371765137
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870572887,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.6563720703125,
+        "y": -6.426265239715576,
+        "z": -471.3673400878906,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{e89266b0-5052-4e48-a6ff-9b69db53998d}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.48363709449768066,
+        "y": -0.558445930480957,
+        "z": -0.12981414794921875
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870567573,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.7366333007812,
+        "y": -6.208409786224365,
+        "z": -471.2998046875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{7c5ef9aa-02f2-450d-9ed3-adddd5a4052a}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.37874650955200195,
+        "y": -0.6667747497558594,
+        "z": -0.13151788711547852
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870565222,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.6563720703125,
+        "y": -6.31674337387085,
+        "z": -471.3673400878906,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{5a42ebe3-6407-4a54-bff1-cbc405252886}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.48363232612609863,
+        "y": -0.6667795181274414,
+        "z": -0.1298370361328125
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870558551,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.7366333007812,
+        "y": -6.31674337387085,
+        "z": -471.2998046875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{08d5842f-738a-44ea-81d2-92f1dd3965da}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.378751277923584,
+        "y": -0.558441162109375,
+        "z": -0.13149499893188477
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870568481,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.6563720703125,
+        "y": -6.208409786224365,
+        "z": -471.3673400878906,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{cf3a7441-9a32-4a16-9195-cb33ee901c53}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.2746732234954834,
+        "y": -0.6667690277099609,
+        "z": -0.13318610191345215
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870565963,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.5767211914062,
+        "y": -6.316742420196533,
+        "z": -471.43438720703125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{f7297eb7-3488-40ac-9619-00ac9753eec2}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.0639336109161377,
+        "y": -0.8849325180053711,
+        "z": -0.13660907745361328
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870537381,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.4154663085938,
+        "y": -6.534915924072266,
+        "z": -471.5700988769531,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{05dd1ae8-fe2a-4a80-86a9-cdbe722fd5c8}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.06394290924072266,
+        "y": -0.6667594909667969,
+        "z": -0.13656306266784668
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870530590,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.4154663085938,
+        "y": -6.316742897033691,
+        "z": -471.5700988769531,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{15dc631d-03b7-4f73-906f-4f89a81c83aa}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.48362302780151367,
+        "y": -0.8849525451660156,
+        "z": -0.1298830509185791
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870566743,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.7366333007812,
+        "y": -6.534916400909424,
+        "z": -471.2998046875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{ef1abbdf-1e19-4168-aa66-577817caaf02}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.2518424987792969,
+        "y": -0.9942245483398438,
+        "z": -0.1416926383972168
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870547231,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.1738891601562,
+        "y": -6.644222259521484,
+        "z": -471.77349853515625,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{78d68634-d76e-4e52-b9c4-f2059ef96851}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.16959714889526367,
+        "y": -0.7762870788574219,
+        "z": -0.13489270210266113
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870571013,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.496337890625,
+        "y": -6.426265239715576,
+        "z": -471.5020751953125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{39e72821-9012-4ec3-a855-fae43c7fa2bf}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.16959238052368164,
+        "y": -0.8849382400512695,
+        "z": -0.13491559028625488
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870577303,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.496337890625,
+        "y": -6.534916400909424,
+        "z": -471.5020751953125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{b2f7b056-8595-41ea-b42b-e0668a291e5c}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.06393837928771973,
+        "y": -0.7762813568115234,
+        "z": -0.13658618927001953
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870532253,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.4154663085938,
+        "y": -6.426264762878418,
+        "z": -471.5700988769531,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{4b1fdc31-0c58-45a4-8dce-61480e74e0b4}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.25183796882629395,
+        "y": -0.884918212890625,
+        "z": -0.14166951179504395
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870546106,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.1738891601562,
+        "y": -6.534915924072266,
+        "z": -471.77349853515625,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{0a430938-9b0e-453a-89a0-79019d21c8d8}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.03989720344543457,
+        "y": -0.5584220886230469,
+        "z": -0.13820409774780273
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870530169,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.3360595703125,
+        "y": -6.208410263061523,
+        "z": -471.6369934082031,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{870dfeda-ab54-473e-8cc2-64576149b5a4}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.16960644721984863,
+        "y": -0.5584316253662109,
+        "z": -0.13484668731689453
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870561874,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.496337890625,
+        "y": -6.208409786224365,
+        "z": -471.5020751953125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{3b079ca8-3119-4a64-91e7-302798e6bfa1}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.03990650177001953,
+        "y": -0.7762775421142578,
+        "z": -0.13825011253356934
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870536982,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.3360595703125,
+        "y": -6.426265716552734,
+        "z": -471.6369934082031,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{f2e263c4-0c1b-4f75-b61e-14b1a6373f70}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.06392908096313477,
+        "y": -0.9942388534545898,
+        "z": -0.13663220405578613
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870533211,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.4154663085938,
+        "y": -6.644222259521484,
+        "z": -471.5700988769531,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{94b8b8b8-6c09-4621-9187-1a0b2eec95a0}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.06394767761230469,
+        "y": -0.5584259033203125,
+        "z": -0.13654017448425293
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870530434,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.4154663085938,
+        "y": -6.208409309387207,
+        "z": -471.5700988769531,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{ba3073b2-a5d2-48c4-87fb-655bcb68d617}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.378737211227417,
+        "y": -0.8849477767944336,
+        "z": -0.13156390190124512
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870573847,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.6563720703125,
+        "y": -6.534916400909424,
+        "z": -471.3673400878906,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{257c11e3-6bd7-4d7a-aef5-ce77ede79947}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.35878658294677734,
+        "y": -0.8849124908447266,
+        "z": -0.14336276054382324
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870544512,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.092041015625,
+        "y": -6.534915447235107,
+        "z": -471.8423767089844,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{cb838e9c-c7ed-4918-8071-387d51d5f764}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.1696016788482666,
+        "y": -0.6667652130126953,
+        "z": -0.13486957550048828
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870559440,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.496337890625,
+        "y": -6.31674337387085,
+        "z": -471.5020751953125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{42cf73bf-ff56-4032-b1c7-cc75de4a90ae}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.2746593952178955,
+        "y": -0.9942483901977539,
+        "z": -0.1332552433013916
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870575386,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.5767211914062,
+        "y": -6.644221782684326,
+        "z": -471.43438720703125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{9ac99c42-1fe4-4adf-bc48-4f89a6daba5d}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.37873268127441406,
+        "y": -0.9942541122436523,
+        "z": -0.13158702850341797
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870570087,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.6563720703125,
+        "y": -6.644222736358643,
+        "z": -471.3673400878906,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{7debc8e9-9f00-474d-a422-1d41c6f0f2ab}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.4653782844543457,
+        "y": -0.8849086761474609,
+        "z": -0.14502978324890137
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870545561,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.0104370117188,
+        "y": -6.534916400909424,
+        "z": -471.9109802246094,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{7379f482-71e0-4c6b-bb68-cc8fc2c2eb15}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.03991127014160156,
+        "y": -0.8849287033081055,
+        "z": -0.13827300071716309
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870535234,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.3360595703125,
+        "y": -6.534916877746582,
+        "z": -471.6369934082031,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{bfd4aa33-70d8-4683-af07-947354652da5}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.48361849784851074,
+        "y": -0.9942588806152344,
+        "z": -0.12990617752075195
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870560401,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.7366333007812,
+        "y": -6.644222736358643,
+        "z": -471.2998046875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{7000d83a-b536-4ba2-afd3-b8335d14cd5c}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.3587911128997803,
+        "y": -0.9942188262939453,
+        "z": -0.1433858871459961
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870546660,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.092041015625,
+        "y": -6.644221782684326,
+        "z": -471.8423767089844,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{a2c005ed-fcda-46a9-a381-750befad8183}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.1695878505706787,
+        "y": -0.9942445755004883,
+        "z": -0.13493871688842773
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870571917,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.496337890625,
+        "y": -6.644222736358643,
+        "z": -471.5020751953125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{6329b4ee-e794-4759-9d23-7b3af6f7613f}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.1454329490661621,
+        "y": -0.9942293167114258,
+        "z": -0.13998723030090332
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870531627,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.2553100585938,
+        "y": -6.644222259521484,
+        "z": -471.7049560546875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{e6d758e9-929e-448d-89ef-06e769dcb125}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.03991580009460449,
+        "y": -0.9942350387573242,
+        "z": -0.13829612731933594
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870530738,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.3360595703125,
+        "y": -6.644223213195801,
+        "z": -471.6369934082031,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{1761d076-7cbd-4dd8-a6ce-e4db4c828d8c}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.14542841911315918,
+        "y": -0.884922981262207,
+        "z": -0.13996410369873047
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870534446,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.2553100585938,
+        "y": -6.534915924072266,
+        "z": -471.7049560546875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{7f6a368d-4851-4324-a648-362dea702668}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.46538281440734863,
+        "y": -0.9942150115966797,
+        "z": -0.14505290985107422
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870543519,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.0104370117188,
+        "y": -6.644222736358643,
+        "z": -471.9109802246094,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{5357bef2-f0c6-4c95-b259-238737d26a8a}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.27466392517089844,
+        "y": -0.8849420547485352,
+        "z": -0.13323211669921875
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870569258,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.5767211914062,
+        "y": -6.534915447235107,
+        "z": -471.43438720703125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{763b3aba-c403-4326-8b8f-8524844cec7c}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.0399019718170166,
+        "y": -0.6667556762695312,
+        "z": -0.13822698593139648
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870532471,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.3360595703125,
+        "y": -6.316743850708008,
+        "z": -471.6369934082031,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{b7dd4a73-f85e-47a8-94b8-2badbfa7f4e4}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.14540505409240723,
+        "y": -0.34174633026123047,
+        "z": -0.13984942436218262
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00819408893585205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870538225,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.2553100585938,
+        "y": -5.991739273071289,
+        "z": -471.7049560546875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{e1bb27da-c0eb-4713-8c9f-a5b32787110a}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.14539146423339844,
+        "y": -0.026665687561035156,
+        "z": -0.13978266716003418
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870532032,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.2553100585938,
+        "y": -5.676658630371094,
+        "z": -471.7049560546875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{e8db6746-6a0a-4140-8623-a6ae9b44ca08}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.25180554389953613,
+        "y": -0.13151836395263672,
+        "z": -0.1415102481842041
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870533468,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.1738891601562,
+        "y": -5.781516075134277,
+        "z": -471.77349853515625,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{78e0146e-7389-40ab-801d-b132d5a86f64}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.14539599418640137,
+        "y": -0.13152313232421875,
+        "z": -0.13980484008789062
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870536242,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.2553100585938,
+        "y": -5.781516075134277,
+        "z": -471.7049560546875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{ea590c54-aa1d-4581-afcd-5f80658b3bf3}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.35875868797302246,
+        "y": -0.23481273651123047,
+        "z": -0.14322543144226074
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870552187,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.092041015625,
+        "y": -5.884815692901611,
+        "z": -471.8423767089844,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{9f7abc46-b234-4a52-85ec-9feb3452e6c7}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.3587632179260254,
+        "y": -0.34173583984375,
+        "z": -0.1432480812072754
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00825512409210205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870549637,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.092041015625,
+        "y": -5.991738796234131,
+        "z": -471.8423767089844,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{904ca96f-4e0b-4e94-8bd3-1fdca29665b9}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.1454005241394043,
+        "y": -0.23482322692871094,
+        "z": -0.13982677459716797
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870539821,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.2553100585938,
+        "y": -5.8848161697387695,
+        "z": -471.7049560546875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{cc023c9c-c030-4fde-832e-2fe3495694fe}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.46535491943359375,
+        "y": -0.3417320251464844,
+        "z": -0.14491510391235352
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00825512409210205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870548465,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.0104370117188,
+        "y": -5.991739749908447,
+        "z": -471.9109802246094,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{8837743b-59e2-491a-92b7-5a9696843635}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.46534132957458496,
+        "y": -0.026651382446289062,
+        "z": -0.14484834671020508
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870555320,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.0104370117188,
+        "y": -5.676659107208252,
+        "z": -471.9109802246094,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{3888acff-dc33-4479-8d2b-186c74644786}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.3587496280670166,
+        "y": -0.026655197143554688,
+        "z": -0.14318132400512695
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870554056,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.092041015625,
+        "y": -5.6766581535339355,
+        "z": -471.8423767089844,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{dee9dede-326d-4788-8776-8289767b0f9f}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.251814603805542,
+        "y": -0.34174156188964844,
+        "z": -0.1415548324584961
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00819408893585205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870550240,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.1738891601562,
+        "y": -5.991739273071289,
+        "z": -471.77349853515625,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{b8aa21b3-57e5-4b09-9913-865fc3f4f121}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.35875415802001953,
+        "y": -0.13151264190673828,
+        "z": -0.1432034969329834
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870531075,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.092041015625,
+        "y": -5.781515598297119,
+        "z": -471.8423767089844,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{8db57b1f-c9ba-47d9-b1fb-b9106dcdcc01}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.2518010139465332,
+        "y": -0.026660919189453125,
+        "z": -0.14148807525634766
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870556564,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.1738891601562,
+        "y": -5.676658630371094,
+        "z": -471.77349853515625,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{2a0395d5-5dab-4e4a-a090-8511b2fbc15d}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.4653458595275879,
+        "y": -0.13150882720947266,
+        "z": -0.14487051963806152
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870539225,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.0104370117188,
+        "y": -5.7815165519714355,
+        "z": -471.9109802246094,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{8f404435-26dd-4fbb-b119-caf53c7b49a2}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.4653503894805908,
+        "y": -0.23480892181396484,
+        "z": -0.14489245414733887
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870549035,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.0104370117188,
+        "y": -5.884816646575928,
+        "z": -471.9109802246094,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{72a08d9c-04a8-4f1e-9408-d450ad653459}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.25181007385253906,
+        "y": -0.2348184585571289,
+        "z": -0.14153218269348145
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870553380,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.1738891601562,
+        "y": -5.8848161697387695,
+        "z": -471.77349853515625,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{9e0574b2-f2bf-4f28-99f5-b00852d52e94}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.2746872901916504,
+        "y": -0.3417654037475586,
+        "z": -0.1331174373626709
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870582201,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.5767211914062,
+        "y": -5.991738796234131,
+        "z": -471.43438720703125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{d49dbe59-c4d0-49fc-b123-51540447c9d4}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.2747008800506592,
+        "y": -0.02668476104736328,
+        "z": -0.13305068016052246
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870590986,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.5767211914062,
+        "y": -5.6766581535339355,
+        "z": -471.43438720703125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{3e683760-fe39-4e3f-9f2c-91a3d36c33ab}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.3787696361541748,
+        "y": -0.1315479278564453,
+        "z": -0.13140463829040527
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870534004,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.6563720703125,
+        "y": -5.7815165519714355,
+        "z": -471.3673400878906,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{5c562b0f-f651-438f-8d2b-23c3a8a46d9d}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.37876057624816895,
+        "y": -0.34177112579345703,
+        "z": -0.13144922256469727
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870579476,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.6563720703125,
+        "y": -5.991739749908447,
+        "z": -471.3673400878906,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{b68da499-ab45-4fcb-823a-0512b45c1486}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.2746918201446533,
+        "y": -0.23484230041503906,
+        "z": -0.13309478759765625
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870581297,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.5767211914062,
+        "y": -5.884815692901611,
+        "z": -471.43438720703125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{06cf269e-541a-4393-a4cc-bc08ece5a1e3}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.4836554527282715,
+        "y": -0.13155269622802734,
+        "z": -0.12972378730773926
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870532936,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.7366333007812,
+        "y": -5.7815165519714355,
+        "z": -471.2998046875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{774f9631-222d-4037-ab8b-fffd79d21302}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.48365092277526855,
+        "y": -0.23485279083251953,
+        "z": -0.1297457218170166
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870561145,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.7366333007812,
+        "y": -5.884816646575928,
+        "z": -471.2998046875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{32a4fac7-27dd-4cb4-91e4-e7c8ac3d2e92}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.3787651062011719,
+        "y": -0.2348480224609375,
+        "z": -0.13142657279968262
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870584057,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.6563720703125,
+        "y": -5.884816646575928,
+        "z": -471.3673400878906,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{19c87ff5-3233-439b-9513-28d1956cff0c}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.4836599826812744,
+        "y": -0.02669525146484375,
+        "z": -0.1297016143798828
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870587605,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.7366333007812,
+        "y": -5.676659107208252,
+        "z": -471.2998046875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{f15cf9fa-c737-4ed0-8687-db726402b16e}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.4836463928222656,
+        "y": -0.34177589416503906,
+        "z": -0.12976837158203125
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870562648,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.7366333007812,
+        "y": -5.991739749908447,
+        "z": -471.2998046875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{7d46f488-08de-4663-9b39-7c3e717d2a69}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.27469635009765625,
+        "y": -0.13154220581054688,
+        "z": -0.1330728530883789
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870535896,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.5767211914062,
+        "y": -5.781515598297119,
+        "z": -471.43438720703125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{cafc9b30-b985-47d5-977d-3f8280a9a7b5}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.37877416610717773,
+        "y": -0.02669048309326172,
+        "z": -0.13138246536254883
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870589636,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.6563720703125,
+        "y": -5.676659107208252,
+        "z": -471.3673400878906,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{dae838ee-7037-4f6b-960f-e1ebec0cb812}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.16962480545043945,
+        "y": -0.13153839111328125,
+        "z": -0.13475632667541504
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870530893,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.496337890625,
+        "y": -5.781517028808594,
+        "z": -471.5020751953125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{f404311f-46a4-46d6-b970-c8ca5da40ef6}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.03987431526184082,
+        "y": -0.026671409606933594,
+        "z": -0.1380915641784668
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870529989,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.3360595703125,
+        "y": -5.67665958404541,
+        "z": -471.6369934082031,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{d8035352-33a5-46fa-aec3-448fa663eeb8}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.03987884521484375,
+        "y": -0.1315288543701172,
+        "z": -0.13811373710632324
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870532700,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.3360595703125,
+        "y": -5.781517028808594,
+        "z": -471.6369934082031,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{32bfa6ef-f192-4c13-a7e9-36f47371919c}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.16962933540344238,
+        "y": -0.026680946350097656,
+        "z": -0.1347341537475586
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870588649,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.496337890625,
+        "y": -5.67665958404541,
+        "z": -471.5020751953125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{b5f9d0a8-7248-4109-8446-f6b8ea055819}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.1696157455444336,
+        "y": -0.34176158905029297,
+        "z": -0.13480091094970703
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870586436,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.496337890625,
+        "y": -5.991739749908447,
+        "z": -471.5020751953125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{6cc3a3bf-10ed-428c-a60e-2c37f8e0fbb5}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.06397056579589844,
+        "y": -0.02667522430419922,
+        "z": -0.136427640914917
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870530302,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.4154663085938,
+        "y": -5.676658630371094,
+        "z": -471.5700988769531,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{1748580e-60ea-4065-b97e-6f5788c163c6}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.03988790512084961,
+        "y": -0.3417520523071289,
+        "z": -0.13815832138061523
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870531259,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.3360595703125,
+        "y": -5.9917402267456055,
+        "z": -471.6369934082031,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{1976d470-2a02-49ba-8b63-d1c6fcd731e2}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.06396603584289551,
+        "y": -0.1315326690673828,
+        "z": -0.13644981384277344
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870536623,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.4154663085938,
+        "y": -5.781516075134277,
+        "z": -471.5700988769531,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{40976764-8a11-4ab6-9da7-e654e0378f5e}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.16962027549743652,
+        "y": -0.23483848571777344,
+        "z": -0.13477826118469238
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870583140,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.496337890625,
+        "y": -5.884817123413086,
+        "z": -471.5020751953125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{22b6732a-c82c-4996-9971-98cea5c1ab4f}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.06396150588989258,
+        "y": -0.234832763671875,
+        "z": -0.13647174835205078
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870531821,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.4154663085938,
+        "y": -5.8848161697387695,
+        "z": -471.5700988769531,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{41b2d569-4d3e-4b42-8b7a-eb7d4b2e4e68}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.06395697593688965,
+        "y": -0.34175586700439453,
+        "z": -0.13649439811706543
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870529745,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.4154663085938,
+        "y": -5.991739273071289,
+        "z": -471.5700988769531,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{7b30cbeb-c3af-48f5-a925-6c41f2f88b72}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.03988337516784668,
+        "y": -0.23482894897460938,
+        "z": -0.13813567161560059
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870529844,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.3360595703125,
+        "y": -5.884817123413086,
+        "z": -471.6369934082031,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{60edb8d7-bcc8-4629-862f-c8f113a8f743}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.3787558078765869,
+        "y": -0.45122718811035156,
+        "z": -0.13147234916687012
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870578247,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.6563720703125,
+        "y": -6.101195812225342,
+        "z": -471.3673400878906,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{f247709f-2b41-4022-a1b9-9680324253ab}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.4653596878051758,
+        "y": -0.4511880874633789,
+        "z": -0.14493823051452637
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870550849,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.0104370117188,
+        "y": -6.101195812225342,
+        "z": -471.9109802246094,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{e3b85b76-84f2-46ee-abcb-cebafd144849}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.06395220756530762,
+        "y": -0.45121192932128906,
+        "z": -0.13651752471923828
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870535577,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.4154663085938,
+        "y": -6.101195335388184,
+        "z": -471.5700988769531,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{57ca9835-3dd1-46d4-b692-5e67224c67dc}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.27468252182006836,
+        "y": -0.4512214660644531,
+        "z": -0.13314056396484375
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870585282,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.5767211914062,
+        "y": -6.101194858551025,
+        "z": -471.43438720703125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{6b6a0d2a-608e-4dc0-bf56-664b05bcc6b8}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.4836416244506836,
+        "y": -0.4512319564819336,
+        "z": -0.1297914981842041
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870564269,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.7366333007812,
+        "y": -6.101195812225342,
+        "z": -471.2998046875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{e36ef869-18d4-480c-a062-5011aa18637d}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.3587679862976074,
+        "y": -0.45119190216064453,
+        "z": -0.14327120780944824
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870551566,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.092041015625,
+        "y": -6.101194858551025,
+        "z": -471.8423767089844,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{8011f670-72d6-4e14-a74e-13993d0bbc6a}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": 0.16961097717285156,
+        "y": -0.4512176513671875,
+        "z": -0.13482403755187988
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870580362,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.496337890625,
+        "y": -6.1011962890625,
+        "z": -471.5020751953125,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{c608d56e-4c7f-4e94-bfe5-7e1eef4701e0}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.03989267349243164,
+        "y": -0.45120811462402344,
+        "z": -0.13818144798278809
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870538772,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.3360595703125,
+        "y": -6.1011962890625,
+        "z": -471.6369934082031,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{58c3790f-500b-4920-912f-7d510fcb6171}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.14540982246398926,
+        "y": -0.451202392578125,
+        "z": -0.13987255096435547
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870531437,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.2553100585938,
+        "y": -6.101195335388184,
+        "z": -471.7049560546875,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{c3609ae5-925b-42fb-91ef-850aae6dc58c}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Box",
+    "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+    "position": {
+        "x": -0.251819372177124,
+        "y": -0.45119762420654297,
+        "z": -0.14157795906066895
+    },
+    "dimensions": {
+        "x": 0.09588394314050674,
+        "y": 0.09588394314050674,
+        "z": 0.09588394314050674
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": -0.00813305377960205,
+        "z": -0.0000457763671875,
+        "w": 0.99993896484375
+    },
+    "created": 1550015870552778,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "parentID": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "queryAACube": {
+        "x": 622.1738891601562,
+        "y": -6.101195335388184,
+        "z": -471.77349853515625,
+        "scale": 0.16607587039470673
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{1e107a45-9094-41a8-acec-fabaa5e56361}",
+    "type": "Box",
+    "lastEdited": 1550015870800386,
+    "name": "Paint-Grid-Parent",
+    "userData": "{\"grabbableKey\":{\"grabbable\":true}}",
+    "dimensions": {
+        "x": 0.5456142425537109,
+        "y": 0.07009097933769226,
+        "z": 0.05969393998384476
+    },
+    "rotation": {
+        "x": -0.0001068115234375,
+        "y": -0.3352254629135132,
+        "z": -0.0000152587890625,
+        "w": 0.9421378374099731
+    },
+    "created": 1550015870529670,
+    "lastEditedBy": "{34b3a582-46aa-47c2-9a85-6eafaaa940dd}",
+    "queryAACube": {
+        "x": -0.276663601398468,
+        "y": -0.276663601398468,
+        "z": -0.276663601398468,
+        "scale": 0.553327202796936
+    },
+    "grab": {
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "color": {
+        "red": 94,
+        "green": 94,
+        "blue": 94
+    },
+    "shape": "Cube",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{fd13fc00-d2cd-4302-bced-010b044b07d4}",
+  "Version": 107
+}

@@ -88,7 +88,7 @@ Repeat the above steps to create additional paint colors for your palette.
 The last component that makes up our painting set is the canvas we'll use for our "pixel" style painting. We've provided a JSON file for you to import a canvas so you don't need to go through each step individually, but you can import the grid multiple times to make a larger painting space, if desired.
 
 1. In Interface, go to **Menu > Edit** and select 'Import Entities from URL'.
-2. Paste [this URL](https://entity-painting.glitch.me/canvas.json) into the dialog window and select 'OK'.
+2. Paste [this URL](../../_static/resources/entities/canvas.json) into the dialog window and select 'OK'.
 
 The canvas is made up of box entities parented to a single backplate, but you could use any entities to create a scene that could be painted this way.
 
@@ -104,7 +104,7 @@ To add the paint brush script:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Select the Paint-Brush-Head entity.
 3. Go to the 'Properties' tab and scroll down to 'Behavior'.
-4. Next to 'Script', paste the script URL. In this case, it is '[brushScript.js](https://entity-painting.glitch.me/brushScript.js)'.
+4. Next to 'Script', paste the script URL. In this case, it is '[brushScript.js](../../_static/resources/entities/brushScript.js)'.
 5. After you close the **Create** app, test it out by painting on the canvas in your domain!
 
 **See Also**
