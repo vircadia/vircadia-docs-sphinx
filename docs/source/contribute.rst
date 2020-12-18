@@ -6,6 +6,12 @@ Vircadia is an open-source project, so all of our code and documentation is avai
 Our main `git repository <https://github.com/vircadia/vircadia>`_ contains the source to many of the components of our software for creating virtual worlds.
 There are plenty of ways you can contribute to the various parts that make up Vircadia.
 
+.. toctree::
+    :hidden:
+    :titlesonly:
+
+    Donate <contribute/donate>
+
 .. contents:: On This Page
     :depth: 2
 
@@ -32,6 +38,7 @@ Donations
 ---------
 Vircadia is primarily driven by the voluntary contributions of its community and core team.
 While we do not have an entity to manage donations, you can donate to specific members of the team via various services like PayPal, Patreon, or Github Sponsors.
+A list of members you can donate to is available on the :doc:`donate page <contribute/donate>`.
 
 You can also put bounties on specific features you want to see implemented or issues you want to see fixed, by leaving a comment on our `issue tracker <https://github.com/vircadia/vircadia/issues>`_.
 Of course, bounties are also an option for other parts of the project like the documentation.
