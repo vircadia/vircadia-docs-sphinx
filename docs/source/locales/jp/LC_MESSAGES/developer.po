@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-24 23:03+0000\n"
+"POT-Creation-Date: 2020-12-19 04:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2086,6 +2086,49 @@ msgstr ""
 msgid ""
 "Enables the OpenVR plugin to be used with an Oculus HMD. (Useful for "
 "debugging the OpenVR plugin if you have an Oculus HMD but not a Vive.)"
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:13
+msgid ""
+"Logging to the console can be controlled with the VIRCADIA_LOG_OPTIONS "
+"variable. It can be set to any comma separated combination of the "
+"following options. Case and whitespace are not significant."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:15
+msgid "color - Force ANSI colors depending on the message's severity."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:16
+msgid "nocolor - Force ANSI colors off."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:17
+msgid "milliseconds - Log timestamps with millisecond precision."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:18
+msgid "process_id - Log the process ID."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:19
+msgid "thread_id - Log the thread ID."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:21
+msgid "For example:"
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:25
+msgid ""
+"Will result in logging with millisecond precision, and color coding "
+"messages by severity."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:27
+msgid ""
+"Color is enabled by default on Unix, if output is being directed to a "
+"terminal, and disabled by default on Windows."
 msgstr ""
 
 #~ msgid "Build Android - additional instructions for Android"
