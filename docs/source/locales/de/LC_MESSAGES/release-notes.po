@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-19 04:47+0000\n"
+"POT-Creation-Date: 2020-12-19 04:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+
+#: ../../source/release-notes.rst:7
+msgid "Alpha Release 2020.3.2 Demeter (2020-12-01)"
+msgstr ""
 
 #: ../../source/release-notes.rst:7
 msgid "Alpha Release 2020.3.1 Demeter (2020-10-25)"
@@ -128,6 +132,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:5
 #: ../../source/release-notes/2020-3-0-Demeter.md:5
 #: ../../source/release-notes/2020-3-1-Demeter.md:5
+#: ../../source/release-notes/2020-3-2-Demeter.md:5
 msgid "Interface (Codename Athena)"
 msgstr ""
 
@@ -146,9 +151,11 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:37
 #: ../../source/release-notes/2020-3-1-Demeter.md:7
 #: ../../source/release-notes/2020-3-1-Demeter.md:31
+#: ../../source/release-notes/2020-3-2-Demeter.md:7
+#: ../../source/release-notes/2020-3-2-Demeter.md:71
 msgid ""
-"The numbers at the end of each item are the PR numbers in the Project "
-"Athena repo."
+"The numbers at the end of each item are the PR numbers in the Vircadia "
+"repo."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:18
@@ -166,6 +173,8 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:39
 #: ../../source/release-notes/2020-3-1-Demeter.md:9
 #: ../../source/release-notes/2020-3-1-Demeter.md:33
+#: ../../source/release-notes/2020-3-2-Demeter.md:9
+#: ../../source/release-notes/2020-3-2-Demeter.md:73
 #: ../../source/release-notes/v86-k2.md:9
 #: ../../source/release-notes/v86-k2.md:62
 msgid "General"
@@ -529,6 +538,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:61
 #: ../../source/release-notes/2020-3-0-Demeter.md:53
 #: ../../source/release-notes/2020-3-1-Demeter.md:54
+#: ../../source/release-notes/2020-3-2-Demeter.md:212
 #: ../../source/release-notes/v86-k2.md:67
 msgid "Documentation"
 msgstr ""
@@ -1208,6 +1218,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:63
 #: ../../source/release-notes/2020-3-0-Demeter.md:55
 #: ../../source/release-notes/2020-3-1-Demeter.md:56
+#: ../../source/release-notes/2020-3-2-Demeter.md:214
 #: ../../source/release-notes/v86-k2.md:69
 msgid "User Docs"
 msgstr ""
@@ -1220,6 +1231,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:65
 #: ../../source/release-notes/2020-3-0-Demeter.md:57
 #: ../../source/release-notes/2020-3-1-Demeter.md:58
+#: ../../source/release-notes/2020-3-2-Demeter.md:216
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia-"
 "Docs-Sphinx repo."
@@ -1265,6 +1277,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:69
 #: ../../source/release-notes/2020-3-0-Demeter.md:61
 #: ../../source/release-notes/2020-3-1-Demeter.md:64
+#: ../../source/release-notes/2020-3-2-Demeter.md:223
 #: ../../source/release-notes/v86-k2.md:76
 msgid "API Docs"
 msgstr ""
@@ -1277,6 +1290,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:71
 #: ../../source/release-notes/2020-3-0-Demeter.md:63
 #: ../../source/release-notes/2020-3-1-Demeter.md:66
+#: ../../source/release-notes/2020-3-2-Demeter.md:225
 msgid ""
 "The API docs are generated from the software source repo. The latest live"
 " deployment source can be viewed here."
@@ -1512,6 +1526,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:29
 #: ../../source/release-notes/2020-3-0-Demeter.md:35
 #: ../../source/release-notes/2020-3-1-Demeter.md:29
+#: ../../source/release-notes/2020-3-2-Demeter.md:69
 msgid "Domain Server"
 msgstr ""
 
@@ -1661,6 +1676,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:21
 #: ../../source/release-notes/2020-3-0-Demeter.md:24
 #: ../../source/release-notes/2020-3-1-Demeter.md:22
+#: ../../source/release-notes/2020-3-2-Demeter.md:57
 msgid "Miscellaneous"
 msgstr ""
 
@@ -1722,6 +1738,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:43
 #: ../../source/release-notes/2020-3-0-Demeter.md:49
 #: ../../source/release-notes/2020-3-1-Demeter.md:45
+#: ../../source/release-notes/2020-3-2-Demeter.md:208
 msgid "Vircadia Launcher (Codename Pantheon)"
 msgstr ""
 
@@ -1752,9 +1769,9 @@ msgstr ""
 #: ../../source/release-notes/2020-2-3-Asteria.md:74
 msgid ""
 "This is a new app that will be introduced to the community apps repo upon"
-" merging into the main project-athena codebase (#521). It will serve as "
-"the initial implementation of an inventory system into Vircadia, later it"
-" will incorporate the functions of the \"More\" app; that app will be "
+" merging into the main Vircadia codebase (#521). It will serve as the "
+"initial implementation of an inventory system into Vircadia, later it "
+"will incorporate the functions of the \"More\" app; that app will be "
 "deprecated at such a time."
 msgstr ""
 
@@ -1769,7 +1786,7 @@ msgid ""
 "feature of it is the one to many functionality where ten tablets can "
 "control five screens for example if needed using channels. This is good "
 "for presentations and such. This app will be merged into the main "
-"project-athena codebase upon further work on its initial version."
+"Vircadia codebase upon further work on its initial version."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:86
@@ -1959,6 +1976,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:58
+#: ../../source/release-notes/2020-3-2-Demeter.md:228
 msgid "Nothing new to report!"
 msgstr ""
 
@@ -2271,6 +2289,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:45
 #: ../../source/release-notes/2020-3-1-Demeter.md:39
+#: ../../source/release-notes/2020-3-2-Demeter.md:79
 msgid "Metaverse Server & Dashboard (Codename Iamus)"
 msgstr ""
 
@@ -2501,6 +2520,388 @@ msgid ""
 "allowed dimensions '4096' -> '8192' pixels on desktop. (#821)"
 msgstr ""
 
+#: ../../source/release-notes/2020-3-2-Demeter.md:1
+msgid "Alpha 2020.3.2 Demeter Release Notes"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:3
+msgid ""
+"This version of Vircadia is an update to 2020.3.1. It is compatible with "
+"the 2020.3.0-Demeter protocol. This version was released on December 1st,"
+" 2020."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:11
+msgid ""
+"Graphics: Add and enable automatic maximum texture size scaling by "
+"default. (#599)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:12
+msgid ""
+"Application: Add Script.require developer toggle to force cachebusting on"
+" every load."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:13
+msgid "App: 'Create' app October 2020 improvements package. (#833)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:14
+msgid "Add error dialogue if an unsupported filetype is added as a model URL."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:15
+msgid "Angular velocity precision can now go below 0.4 in the UI."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:16
+msgid "Add Actions menu."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:17
+msgid "Undo"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:18
+msgid "Redo"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:19
+msgid "Cut"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:20
+msgid "Copy"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:21
+msgid "Paste"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:22
+msgid "Duplicate"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:23
+msgid "Delete"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:24
+msgid "Parent Entity to Last Selected"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:25
+msgid "Unparent Entity"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:26
+msgid "Move Selected Entities to Avatar"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:27
+msgid "Add Selection menu."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:28
+msgid "Select All"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:29
+msgid "Select None"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:30
+msgid "Inverse Selection"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:31
+msgid "Select All Entities In Box"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:32
+msgid "Select All Entities Touching Box"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:33
+msgid "Teleport to Selected Entities"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:34
+msgid "Add a parent 'Hierarchy' column to the entity list, identifying:"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:35
+msgid "Parent"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:36
+msgid "Child"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:37
+msgid "Parent & Child"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:38
+msgid "None"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:39
+msgid ""
+"Selected entities now have different colors based on parent-child "
+"hierarchy."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:40
+msgid ""
+"Application: Add ability for Script.require to automatically cachebust "
+"itself when changes are made to the script on the local filesystem. "
+"(#848)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:41
+msgid ""
+"UI: Enable ability to login to domains with an email as well as a "
+"username. (#852)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:42
+msgid ""
+"API: Fix Entities.enterEntity and Entities.leaveEntity event not firing "
+"in entity script after content reload. (#853)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:43
+msgid "App: 'Create' app November 2020 improvements package. (#858, #874)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:44
+msgid "The last selected entity is now highlighted."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:45
+msgid ""
+"The entity list column visibility and order of columns now persists when "
+"the Create app is closed and reopened."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:46
+msgid "The selection buttons for 'Parent' and child entities have been renamed."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:47
+msgid ""
+"New in-world bounding box color for a selected entity that is a parent & "
+"child at the same time:"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:48
+msgid ""
+"If the entity is a top parent, the selection color of the bounding box is"
+" orange."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:49
+msgid ""
+"If the entity is parent and child, the selection color of the bounding "
+"box is magenta."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:50
+msgid ""
+"If the entity is only a child, then the selection color of the bounding "
+"box is cyan."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:51
+msgid ""
+"If not involved in any parent line, or if the selection is multiple, then"
+" the selection color of the bounding box is light grey."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:52
+msgid ""
+"The 'Selection' and 'Actions' menus now close when the 'Create' app or "
+"entity list is closed."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:53
+msgid "'Move Selected Entities to Avatar' is now recorded in the undo history."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:54
+msgid ""
+"Fix entity list interpreting the last selected entity as the first "
+"selection in the selection stack."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:55
+msgid ""
+"Application: 'Local Entity' and self-owned 'Avatar Entity' scripts now "
+"run on their own separate script engines to improve performance and "
+"security. (#871)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:59
+msgid ""
+"Application: Transition listener registration from member string names to"
+" member string pointers. (#613)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:60
+msgid "Build: GHA now generates builds for Android and Quest platforms. (#615)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:61
+msgid ""
+"Build: GHA now builds and uploads installers for every merge to the "
+"master branch. (#719, #881)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:62
+msgid ""
+"Application: Qt 5.15 fixes: Initialize flags with default constructor. "
+"(#791)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:63
+msgid ""
+"Application: Add color, ms timestamps, PID, and thread ID as possible "
+"logging settings. (#804)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:64
+msgid "UI: Hide 'Secure Transactions' section in Settings > Security. (#842)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:65
+msgid ""
+"Application: Clean and revamp 'Script Plugin Infrastructure' example "
+"plugin. (#847)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:66
+msgid "Build: Fix GHA building. (#872)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:67
+msgid ""
+"Graphics: Acquiring the free VRAM value on AMD video cards for 'Auto' "
+"maximum texture memory mode now works correctly, preventing a crash. "
+"(#887)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:75
+msgid ""
+"Server: Append 'Vircadia' to the environment variable for the metadata "
+"exporter port. (#826)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:76
+msgid ""
+"UI/UX: Fix wrapping of \"Enable Automatic Threading\" in server setup "
+"wizard. (#844)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:77
+msgid "UI/UX: Fix 'Create new Domain ID' dialog. (#846)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:81
+msgid "Iamus Metaverse Server"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:83
+msgid "Version 2.3.3"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:93
+msgid "Version 2.3.2"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:104
+msgid "Version 2.3.1"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:111
+msgid "Version 2.2.24"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:120
+msgid "Version 2.2.23"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:129
+msgid "Version 2.2.22"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:144
+msgid "Version 2.2.21"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:168
+msgid "Version 2.2.20"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:184
+msgid "Version 2.2.19"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:198
+msgid "Iamus Metaverse Dashboard"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:200
+msgid "Updates are reflected here."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:202
+msgid "Fix copying of domain token on Chrome."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:203
+msgid "Optimize 'Domain' page layout for different screens."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:204
+msgid "Add basic Metaverse stats to the 'Home' page."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:205
+msgid "Optimize 'Profile' page layout for different screens."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:206
+msgid "Fix delete buttons for places that are owned by the user."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:210
+msgid ""
+"Vircadia's launcher updates can be found here. The launcher is on "
+"experimental version 0.0.1s."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:218
+msgid "Add description of VIRCADIA_LOG_OPTIONS environment variable. (#88)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:219
+msgid "Release notes for 2020.3.2 Demeter. (#97)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:220
+msgid ""
+"Document a multitude of missing environment variables for the Interface "
+"and Domain server. (#90)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-2-Demeter.md:221
+msgid ""
+"Misc. name updates (Athena -> Vircadia) and documents HIFI_DEBUG_HMD "
+"environment variable for Interface. (#96)"
+msgstr ""
+
 #: ../../source/release-notes/v80.md:1
 msgid "Beta Release 80"
 msgstr ""
@@ -2651,8 +3052,9 @@ msgstr ""
 msgid ""
 "The Vircadia Avatar Exporter for Unity has been updated to notify you of "
 "texture and file errors you may encounter while using the tool. Download "
-"the updated exporter here: https://github.com/kasenvr/project-"
-"athena/tree/kasen/core/tools/unity-avatar-exporter"
+"the updated exporter here: "
+"https://github.com/vircadia/vircadia/tree/master/tools/unity-avatar-"
+"exporter"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:37 ../../source/release-notes/v80.md:60
@@ -4375,7 +4777,7 @@ msgid ""
 "Introduced new build-time environment variable HIFI_VCPKG_BOOTSTRAP that "
 "will allow developers using Visual Studio 2019 to build the High Fidelity"
 " binaries. See the updated build guide for Windows here: "
-"https://github.com/kasenvr/project-athena/blob/kasen/core/BUILD_WIN.md"
+"https://github.com/vircadia/vircadia/blob/master/BUILD_WIN.md"
 msgstr ""
 
 #: ../../source/release-notes/v84.md:46
@@ -5001,8 +5403,8 @@ msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:3
 msgid ""
-"This version of Codename \"Project Athena\" Vircadia is compatible with "
-"the v0.86.0 protocol. This version was released on April 3rd, 2020."
+"This version of Vircadia (codename \"Athena\") is compatible with the "
+"v0.86.0 protocol. This version was released on April 3rd, 2020."
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:5
@@ -5012,8 +5414,8 @@ msgstr ""
 #: ../../source/release-notes/v86-k2.md:7
 #: ../../source/release-notes/v86-k2.md:60
 msgid ""
-"The numbers at the end of each item are the PR numbers in the Project "
-"Athena GitHub repo."
+"The numbers at the end of each item are the PR numbers in the Vircadia "
+"GitHub repo."
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:11
@@ -5271,7 +5673,7 @@ msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:93
 msgid ""
-"Many commits directly to master not put into PRs by KasenVR found here "
+"Many commits directly to master not put into PRs by Kalila L. found here "
 "between February 24th & March 12th, 2020."
 msgstr ""
 
@@ -5299,8 +5701,8 @@ msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:104
 msgid ""
-"Many commits directly to master not put into PRs by KasenVR & Keb Helion "
-"found here between February 26th & March 16th, 2020."
+"Many commits directly to master not put into PRs by Kalila L. & Keb "
+"Helion found here between February 26th & March 16th, 2020."
 msgstr ""
 
 #~ msgid "Vive Pro Eye support added. (#350)"
@@ -5369,5 +5771,85 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Beta Release 80 (03/19/19)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The numbers at the end of each "
+#~ "item are the PR numbers in the "
+#~ "Project Athena repo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is a new app that will "
+#~ "be introduced to the community apps "
+#~ "repo upon merging into the main "
+#~ "project-athena codebase (#521). It will "
+#~ "serve as the initial implementation of"
+#~ " an inventory system into Vircadia, "
+#~ "later it will incorporate the functions"
+#~ " of the \"More\" app; that app "
+#~ "will be deprecated at such a time."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is another new app whose "
+#~ "primary functionality is the syncing and"
+#~ " displaying of content from control "
+#~ "tablets to big screens. A handy "
+#~ "feature of it is the one to "
+#~ "many functionality where ten tablets can"
+#~ " control five screens for example if"
+#~ " needed using channels. This is good"
+#~ " for presentations and such. This app"
+#~ " will be merged into the main "
+#~ "project-athena codebase upon further work"
+#~ " on its initial version."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Vircadia Avatar Exporter for Unity"
+#~ " has been updated to notify you "
+#~ "of texture and file errors you may"
+#~ " encounter while using the tool. "
+#~ "Download the updated exporter here: "
+#~ "https://github.com/kasenvr/project-athena/tree/kasen/core/tools"
+#~ "/unity-avatar-exporter"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Introduced new build-time environment "
+#~ "variable HIFI_VCPKG_BOOTSTRAP that will allow"
+#~ " developers using Visual Studio 2019 "
+#~ "to build the High Fidelity binaries. "
+#~ "See the updated build guide for "
+#~ "Windows here: https://github.com/kasenvr/project-"
+#~ "athena/blob/kasen/core/BUILD_WIN.md"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This version of Codename \"Project "
+#~ "Athena\" Vircadia is compatible with the"
+#~ " v0.86.0 protocol. This version was "
+#~ "released on April 3rd, 2020."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The numbers at the end of each "
+#~ "item are the PR numbers in the "
+#~ "Project Athena GitHub repo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Many commits directly to master not "
+#~ "put into PRs by KasenVR found here"
+#~ " between February 24th & March 12th,"
+#~ " 2020."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Many commits directly to master not "
+#~ "put into PRs by KasenVR & Keb "
+#~ "Helion found here between February 26th"
+#~ " & March 16th, 2020."
 #~ msgstr ""
 
