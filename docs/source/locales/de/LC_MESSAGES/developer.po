@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-24 23:03+0000\n"
+"POT-Creation-Date: 2020-12-19 04:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1594,6 +1594,13 @@ msgid ""
 "${HIFI_VCPKG_BASE}/installed/x64-windows/include/openssl/ssl.h exists."
 msgstr ""
 
+#: ../../source/developer/domain-server.rst:5
+#: ../../source/developer/domain-server/environment-variables.md:1
+#: ../../source/developer/interface.rst:5
+#: ../../source/developer/interface/environment-variables.md:1
+msgid "Environment Variables"
+msgstr ""
+
 #: ../../source/developer/domain-server/command-line-parameters.md:3
 msgid "You can launch a domain-server with these parameters."
 msgstr ""
@@ -1616,6 +1623,36 @@ msgstr ""
 
 #: ../../source/developer/domain-server/command-line-parameters.md:29
 msgid "Displays the PID of the parent process"
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:3
+msgid ""
+"You can alter the Domain server's functionality using the following "
+"environment variables."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:7
+msgid "Override the default port for your Domain server."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:13
+msgid "Override the default DTLS port."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:19
+msgid "Override the default HTTP port."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:25
+msgid "Override the default HTTPS port."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:31
+msgid "Override the default statistics exporter port."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:37
+msgid "Override the default metadata exporter port."
 msgstr ""
 
 #: ../../source/developer/installer.rst:7
@@ -1933,11 +1970,6 @@ msgstr ""
 msgid "Debugging"
 msgstr ""
 
-#: ../../source/developer/interface.rst:5
-#: ../../source/developer/interface/environment-variables.md:1
-msgid "Environment Variables"
-msgstr ""
-
 #: ../../source/developer/interface/command-line-parameters.md:3
 msgid "You can launch Interface with the following parameters."
 msgstr ""
@@ -2073,19 +2105,83 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/interface/environment-variables.md:3
-msgid "You can alter Interface's functionality using these environment variables."
+msgid ""
+"You can alter Interface's functionality using the following environment "
+"variables."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:5
+#: ../../source/developer/interface/environment-variables.md:7
 msgid ""
-"Uses the source files for the QML and other resource at runtime instead "
-"of the compiled files."
+"Use the source files for QML and other resources at runtime instead of "
+"the compiled files."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:9
+#: ../../source/developer/interface/environment-variables.md:13
 msgid ""
-"Enables the OpenVR plugin to be used with an Oculus HMD. (Useful for "
-"debugging the OpenVR plugin if you have an Oculus HMD but not a Vive.)"
+"Enable the HMD debugging mode which emulates an HMD view in 2D for "
+"desktop testing."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:19
+msgid ""
+"Enable the OpenVR plugin to be used with an Oculus HMD. (Useful for "
+"debugging the OpenVR plugin if you have an Oculus HMD but not a SteamVR "
+"HMD.)"
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:25
+msgid "Override the metaverse URL."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:31
+msgid "Allow multiple instances of Interface to run simultaneously."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:37
+msgid ""
+"Logging to the console can be controlled with the VIRCADIA_LOG_OPTIONS "
+"variable. It can be set to any comma separated combination of the "
+"following options. Case and whitespace are not significant."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:39
+msgid "color - Force ANSI colors depending on the message's severity."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:40
+msgid "nocolor - Force ANSI colors off."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:41
+msgid "milliseconds - Log timestamps with millisecond precision."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:42
+msgid "process_id - Log the process ID."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:43
+msgid "thread_id - Log the thread ID."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:45
+msgid "For example:"
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:49
+msgid ""
+"This will cause logging with millisecond precision, and color coding "
+"messages by severity."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:53
+msgid "Will result in only millisecond precision being applied to logging."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:55
+msgid ""
+"Color is enabled by default on Unix if output is being directed to a "
+"terminal, and disabled by default on Windows."
 msgstr ""
 
 #~ msgid "Build Android - additional instructions for Android"
@@ -2172,5 +2268,37 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Build CMakeTargets->INSTALL"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can alter Interface's functionality "
+#~ "using these environment variables."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Uses the source files for the QML"
+#~ " and other resource at runtime "
+#~ "instead of the compiled files."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Enables the OpenVR plugin to be "
+#~ "used with an Oculus HMD. (Useful "
+#~ "for debugging the OpenVR plugin if "
+#~ "you have an Oculus HMD but not "
+#~ "a Vive.)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Will result in logging with millisecond"
+#~ " precision, and color coding messages "
+#~ "by severity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Color is enabled by default on "
+#~ "Unix, if output is being directed "
+#~ "to a terminal, and disabled by "
+#~ "default on Windows."
 #~ msgstr ""
 
