@@ -2,14 +2,14 @@
 Change How Entities Look
 ##############################
 
-You can edit an entity's size, color, position and rotation using your mouse or trackpad. To edit an entity, open the `Create app <../tools.html#the-create-app>`_ and either select the entity or find it in the Entity List. 
+You can edit an entity's size, color, position and rotation using your mouse or trackpad. To edit an entity, open the `Create app <../tools.html#the-create-app>`_ and either select the entity or find it in the Entity List.
 
-.. note:: 
-    You can select and edit multiple entities at once. The behavior will be different based on the type of property you'd like to set: 
+.. note::
+    You can select and edit multiple entities at once. The behavior will be different based on the type of property you'd like to set:
 
-    * Numbers: When using the slider, an offset will be applied to each of the original values. When typed in, the new value will replace the original values for the selected entities. 
-    * All other field types (checkboxes, input fields, etc): The new value will replace the original values for the selected entities. 
-    
+    * Numbers: When using the slider, an offset will be applied to each of the original values. When typed in, the new value will replace the original values for the selected entities.
+    * All other field types (checkboxes, input fields, etc): The new value will replace the original values for the selected entities.
+
 
 .. image:: _images/select-entity.PNG
 
@@ -60,9 +60,14 @@ You can manually change the color of most entity types in the **Create** app. Wi
 Set the Size of an Entity
 --------------------------------
 
-For cube, sphere, text, image and web entities, you can change its size directly in your environment by selecting and dragging the small boxes inside the object. 
+For cube, sphere, text, image and web entities, you can change its size directly in your environment by selecting and dragging the small boxes inside the object.
 
-.. image:: _images/resize-entity.gif
+.. video:: ../../_static/videos/resize-entity.webm
+   :autoplay:
+   :nocontrols:
+   :loop:
+   :muted:
+   :additionalsource: ../../_static/videos/resize-entity.mp4
 
 For all entities, you can also set the size manually in the **Create** app. With the entity selected, click on 'Properties' and scroll down to the 'Size' settings. Here are the different size settings you can configure:
 
@@ -99,9 +104,14 @@ For all entities, you can also set the size manually in the **Create** app. With
 Rotate an Entity
 ------------------------
 
-All entities can be rotated directly in your environment by selecting and dragging the circles around the object. 
+All entities can be rotated directly in your environment by selecting and dragging the circles around the object.
 
-.. image:: _images/rotate-entity.gif
+.. video:: ../../_static/videos/rotate-entity.webm
+   :autoplay:
+   :nocontrols:
+   :loop:
+   :muted:
+   :additionalsource: ../../_static/videos/rotate-entity.mp4
 
 You can also set the rotation manually in the **Create** app. With the entity selected, click on 'Properties' and scroll down to the 'Rotation' settings. Here are the different rotation settings you can configure:
 
@@ -119,9 +129,14 @@ You can also set the rotation manually in the **Create** app. With the entity se
 Move an Entity
 -----------------------
 
-All entities can be moved directly in your environment by selecting and dragging the object to the correct location. Alternatively, you can use the arrows around the object to move it in only one direction. 
+All entities can be moved directly in your environment by selecting and dragging the object to the correct location. Alternatively, you can use the arrows around the object to move it in only one direction.
 
-.. image:: _images/move-entity.gif
+.. video:: ../../_static/videos/move-entity.webm
+   :autoplay:
+   :nocontrols:
+   :loop:
+   :muted:
+   :additionalsource: ../../_static/videos/move-entity.mp4
 
 You can also set the position manually in the **Create** app. With the entity selected, click on 'Properties' and scroll down to the 'Position' settings. Here are the different position settings you can configure:
 
