@@ -1,0 +1,80 @@
+Midi API (Windows only at this time)
+DWORD 00000000 0vvvvvvv 0nnnnnnn 1sss cccc
+c:channel, s:status, n:note, v:velocity
+
+The note and velocity fields are used for passing data for the various
+status types.
+
+Methods: 
+	Midi.sendMidiMessage(Device, Channel, Type, Note, Velocity);
+		Device #, Channel (1-16), Type (8-15), Note (0-127), Velocity (0-127)
+	Midi.sendRawMessage(Device, Raw);
+		Sends a raw midi message (DWORD)
+	Midi.playMidiNote(Status, Note, Velocity);
+		Legacy
+	Midi.listMidiDevices(bool output = true);
+		returns string array of ALL midi devices.
+
+    Midi Routing:
+		Note that blocking/unblocking a device will change the device
+		list order:
+	Midi.blockMidiDevice(QString, bool output = true);
+		block midi device by name,true=Midi out, false = midi in
+	Midi.unblockMidiDevice(QString, bool output = true);
+		unblock midi device by name,true=Midi out, false = midi in
+	Midi.BroadcastEnable(bool enable = true));
+		(default = disable) broadcast to all unblocked devices except the
+		"Microsoft GS Wavetable Synthesizer
+	Midi.thruModeEnable(bool enable = true));
+		(default disable) midi Thru Mode
+
+	Filter, Types we want to receive:
+		Midi.typeNoteOffEnable(bool enable = true);
+		Midi.typeNoteOnEnable(bool enable = true);
+		Midi.typePolyKeyPressureEnable(bool enable = true);
+		Midi.typeControlChangeEnable(bool enable = true);
+		Midi.typeProgramChangeEnable(bool enable = true);
+		Midi.typeChanPressureEnable(bool enable = true);
+		Midi.typePitchBendEnable(bool enable = true);
+		Midi.typeSystemMessageEnable(bool enable = true );
+
+Events: 
+	Midi.midiReset: Hardware Changed
+	Midi.midiNote:  Legacy, Received Midi Message
+		eventData.status
+			(Still channel+status) //Legacy
+		eventData.note
+			note/Controller number (0-127)
+		eventData.velocity
+			velocity/controller value (0-127)
+
+	Midi.midiMessage: Received Midi Message
+			eventData.device
+				device number
+			eventData.raw
+				unprocessed midi message (DWORD)
+			eventData.status
+				(channel+status) //Legacy
+			eventData.channel
+				decoded midi channel (1-16)
+			eventData.type
+				decoded status types i.e. note on,note off,
+				control change etc. (8-15)
+			eventData.note
+				note/Controller number (0-127)
+			eventData.velocity
+				velocity/controller value (0-127)
+			eventData.bend
+				decoded pitch bend value (-8192 to 8191)//Signed 14 bit value
+			eventData.program
+				decoded program change (0-127)
+
+Status types:
+note off (status type 8)
+note on (Status type 9)
+polyphonic key pressure (Status type 10)
+control change (Status type 11)
+program change (Status type 12)
+channel pressure (Status type 13)
+pitch bend (Status type 14)
+system message (status type 15)

@@ -47,7 +47,7 @@ We encourage you to compile the documentation locally on your computer prior to 
 5. Install Sphinx video addon:
 
     ```
-    C:\> pip install git+https://github.com/Madders/video.git
+    C:\> pip install git+https://github.com/vircadia/video.git
     ```
 
 5. Install Sphinx version 2.4.4 (3.0.0 > is unsupported currently) in a command line:
