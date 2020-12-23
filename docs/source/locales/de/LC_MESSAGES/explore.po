@@ -4,27 +4,30 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2020-11-24 23:03+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-12-24 02:14+0000\n"
+"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/explore/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.1.1\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
 msgid "Gallery"
-msgstr ""
+msgstr "Galerie"
 
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 msgid "Get Started with Vircadia"
-msgstr ""
+msgstr "Mit Vircadia loslegen"
 
 #: ../../source/explore.rst:11 ../../source/explore/personalize.rst:3
 msgid "Personalize Your Experience"
@@ -104,7 +107,7 @@ msgstr ""
 
 #: ../../source/explore/gallery.rst:54
 msgid "Vircadia running on Linux Mint 19.3, 29th September 2020."
-msgstr ""
+msgstr "Vircadia auf Linux Mint 19.3, 29. September 2020."
 
 #: ../../source/explore/gallery.rst:58
 #: ../../source/explore/get-started/adjust-settings.rst:125
@@ -118,13 +121,13 @@ msgstr ""
 
 #: ../../source/explore/gallery.rst:60
 msgid ":doc:`Install Vircadia <get-started/install>`"
-msgstr ""
+msgstr ":doc:`Vircadia installieren <get-started/install>`"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/install.rst:3
 #: ../../source/explore/get-started/install.rst:68
 msgid "Install Vircadia"
-msgstr ""
+msgstr "Vircadia installieren"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/architecture.rst:3
@@ -877,7 +880,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/architecture.rst:103
 msgid ":doc:`Install Vircadia <install>`"
-msgstr ""
+msgstr ":doc:`Vircadia installieren <install>`"
 
 #: ../../source/explore/get-started/architecture.rst:104
 msgid ":doc:`Host Your Domain <../../host>`"
@@ -1291,7 +1294,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:23
 msgid "Ubuntu 18.04 64 bit or any other modern Linux distribution"
-msgstr ""
+msgstr "Ubuntu 18.04 64 bit oder eine andere moderne Linux Distribution"
 
 #: ../../source/explore/get-started/install.rst:25
 msgid "CPU:"
@@ -1382,7 +1385,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:56
 msgid "Download Vircadia Installer"
-msgstr ""
+msgstr "Download der Vircadia Installationssoftware"
 
 #: ../../source/explore/get-started/install.rst:58
 msgid "You can download Vircadia through our website:"
@@ -1409,7 +1412,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:74
 msgid "Windows Install"
-msgstr ""
+msgstr "Windows Installation"
 
 #: ../../source/explore/get-started/install.rst:76
 msgid ""
@@ -1421,7 +1424,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:81
 msgid "Mac Install"
-msgstr ""
+msgstr "Mac Installation"
 
 #: ../../source/explore/get-started/install.rst:83
 msgid ""
@@ -1477,13 +1480,15 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:99
 msgid "Linux Install"
-msgstr ""
+msgstr "Linux Installation"
 
 #: ../../source/explore/get-started/install.rst:101
 msgid ""
 "Mark the downloaded AppImage file as executable. (for example, with "
 "``chmod +x Vircadia-Alpha-2020.2.5-Asteria.AppImage``.)"
 msgstr ""
+"Markieren Sie das heruntergeladene AppImage als ausführbar. (Zum Beispiel "
+"mit ``chmod +x Vircadia-Alpha-2020.3.2-Asteria.AppImage``.)"
 
 #: ../../source/explore/get-started/install.rst:102
 msgid ""
@@ -1491,10 +1496,13 @@ msgid ""
 "install `AppImageLauncher "
 "<https://github.com/TheAssassin/AppImageLauncher>`_."
 msgstr ""
+"(Optional) Falls Sie wollen dass sich das AppImage in Ihr System integriert, "
+"installieren Sie zusätzlich den `AppImageLauncher <https://github.com/"
+"TheAssassin/AppImageLauncher>`_."
 
 #: ../../source/explore/get-started/install.rst:103
 msgid "Execute AppImage."
-msgstr ""
+msgstr "AppImage ausführen."
 
 #: ../../source/explore/get-started/install.rst:105
 msgid ""
@@ -1502,6 +1510,9 @@ msgid ""
 " a domain, please refer to :doc:`Host a Domain from a Local or Cloud "
 "Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
+"Momentan ist die Serversoftware nicht Teil des Vircadia AppImage. Lesen Sie "
+"bitte :doc:`Domain über lokalen oder Cloud-basierten Linux Rechner betreiben "
+"<../../host/server-setup/linux-server>` um eine Domain zu betreiben."
 
 #: ../../source/explore/get-started/install.rst:109
 msgid "Upgrade Vircadia"
@@ -3912,4 +3923,3 @@ msgstr ""
 
 #~ msgid "Delete the ``highfidelity.io`` folder."
 #~ msgstr ""
-
