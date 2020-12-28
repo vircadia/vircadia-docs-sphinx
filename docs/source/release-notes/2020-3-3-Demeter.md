@@ -1,0 +1,93 @@
+# Alpha 2020.3.3 Demeter Release Notes
+
+This version of Vircadia is an update to 2020.3.2. It is compatible with the 2020.3.0-Demeter protocol. This version was released on December 30th, 2020.
+
+## Interface (Codename Athena)
+
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
+
+#### General
+
+* UI/UX: Remove "Console" options from the Interface-only installer on Windows. (#824)
+* Application: The collision hull of entities now updates when the model is replaced. (#830)
+* Application: Entity update performance has been improved. (#830)
+* UI/UX: The VR HUD overlay has been fixed and improved:
+    * Overlay surface is rendered a bit further away (1.5m instead of 1.0m). This makes it easier on the eyes.
+    * The horizontal size of the overlay surface has been reduced from 270 deg to 180 deg. This means that it doesn't wrap around "behind" you.
+    * The physical (real world) distance required to move before the HUD overlay is recentered on your avatar has been reduced from 0.99m to 0.33m. This makes the HUD always be reasonably centered on your view rather than possibly being very offset at times.
+    * Reorienting the overlay surface to better suit your current HMD orientation (i.e., be reasonably well centered on your current view) has been enabled. This means that the HUD overlay can no longer be behind you.
+    * Fix un-pinned HUD content (e.g., Web browser window) displaying only every second recentering.
+    * Fix laser intersection with HUD overlay dialogs / windows: laser intersects exactly per dialog position and size. This, for example, means that you can now drag dialogs using their top margin.
+    * Fix the position of the dialog / window resize outline, displayed when resizing a dialog / window - in both desktop and HMD mode.
+* Application: Pressing the Alt key on Linux now works correctly. (#860)
+* App: 'Create' app December 2020 improvements package. (#894)
+    * New "Tools" menu to the Create Application.
+    * The previous "Selection" and "Actions" menu has been renamed "Select" and "Edit".
+    * We have now all the actions regrouped in the 3 menus: "Select", "Edit" and "Tools".
+        * The menu "Teleport To Selected Entities" has been moved from the "Select" menu to the new "Tools" menu.
+        * The "Hotkey" "G" is now used to toggle the grid (previously it was to align it to the selection). It made sense to have G (for Grid) to manage the visibility of this one.
+        * New "Hotkey" has been added to control the other actions related to the Grid:
+            * "Activate/Deactivate Snap to Grid" can be triggered by pressing "H".
+            * "Align Grid to Selected Entities" can be triggered by pressing "J".
+            * "Align Grid to Avatar" can be triggered by pressing "K".
+        * The actions: "Align Grid to Selected Entities" and "Align Grid to Avatar" will turn on the grid if it was not visible. (Doing this implies that you want to have the grid be visible). But you will still need to "Toggle Grid" (G) to turn the grid off. Note that "Align Grid to Selected Entities" will work only if there is at least one entity selected.
+    * Main "Edit" menu:
+        * The two "Import Entities" actions have been brought back to the main "Edit" menu. (Since there was no unanimity about their removal.)
+        * A separator has been added to properly group the 'Create' app's menu items.
+    * In desktop mode only, the default window width is now 750px instead of 490px.
+* App: 'Create' app material icons update. (#907)
+    * Preference: "Show Zones in Create Mode" has been removed. The method behind it is still in the API, but does nothing. It has been abandoned since it was only drawing a box that wasn't useful to assist in figuring out the shape of the zone.
+    * Preference: "Show Lights and Particle Systems in Create Mode" has been renamed to "Show Icons in Create Mode" since this setting was also managing all the icons (including Zones and now Parented Materials). The objective of the setting is mainly to simplify the display in edit mode when a scene is very dense.
+    * `image3D` overlays used for the icons have been migrated to Local Entities.
+    * All the Entities icons (in-world non physical entities) has been updated to be more uniform. They now all have the same dark gray tone, with a white border to keep them visible under different lighting.
+
+#### Miscellaneous
+
+* Misc: Module updates for screenshare app. (#708, #905)
+* Application: Upgrade tbb (oneAPI Threading Building Blocks) to fix a startup crash on Fedora 32 and later. (#863)
+* Build: GHA now builds PR builds with crash reporting enabled on Windows. (#878)
+* Application: The `--forceCrashReporting` command-line parameter has been added to enable crash reporting even if the settings have it off. (#879)
+* Build: Fix hifi_qt.py reporting Ubuntu 20.04 as outdated. (#891)
+* Misc: Update various references for GitHub links in the codebase. (#906)
+
+## Domain Server
+
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
+
+#### General
+
+* Server: The Domain server now sends its IP address and port to the Metaverse server with every heartbeat. (#877)
+
+## Metaverse Server & Dashboard (Codename Iamus)
+
+### Iamus [Metaverse Server](https://github.com/vircadia/iamus)
+
+### Iamus [Metaverse Dashboard](https://github.com/vircadia/project-iamus-dashboard)
+
+Updates are reflected [here](https://dashboard.vircadia.com/). The Dashboard has been upgraded from version 1.1.3 to version 1.2.2. (13 commits altering functionality, 18 commits total)
+
+* Profiles have been added for all users with the core component being redesigned.
+* Routing bugs when using the ?page parameter have been corrected.
+* A 404 "not found" error page has been added.
+* The main menu now changes its highlighted item correctly based on what page you are on.
+
+## Vircadia Launcher (Codename Pantheon)
+
+[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) updates can be found [here](https://github.com/vircadia/pantheon-launcher/commits/master). The launcher is on experimental version 0.0.1s.
+
+## Documentation
+
+#### User Docs
+
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
+
+* Add docs video module and update some pages to .rst format. (#72, #105)
+* Add Weblate configuration instructions. (#98)
+* Update GitHub reference links. (#102)
+
+#### API Docs
+
+The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
+The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
+
+* Fix typo `Quat.fromPitchYawRollDgrees` -> `Quat.fromPitchYawRollDegrees`. (#882)
