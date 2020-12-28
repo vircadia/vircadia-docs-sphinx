@@ -21,7 +21,7 @@ curl -o %BUILDANDROID% https://raw.githubusercontent.com/vircadia/vircadia/maste
 curl -o %BUILDLINUX% https://raw.githubusercontent.com/vircadia/vircadia/master/BUILD_LINUX.md
 curl -o %BUILDOSX% https://raw.githubusercontent.com/vircadia/vircadia/master/BUILD_OSX.md
 curl -o %BUILDWIN% https://raw.githubusercontent.com/vircadia/vircadia/master/BUILD_WIN.md
-curl -o %INSTALLER% https://raw.githubusercontent.com/vircadia/vircadia/master/INSTALL.md
+curl -o %INSTALLER% https://raw.githubusercontent.com/vircadia/vircadia/master/INSTALLER.md
 
 if "%1" == "" goto help
 
