@@ -8,6 +8,7 @@ See what's been released in Vircadia.
     :maxdepth: 2
     :titlesonly:
 
+    Alpha Release 2020.3.3 Demeter (2020-12-30) <release-notes/2020-3-3-Demeter>
     Alpha Release 2020.3.2 Demeter (2020-12-01) <release-notes/2020-3-2-Demeter>
     Alpha Release 2020.3.1 Demeter (2020-10-25) <release-notes/2020-3-1-Demeter>
     Alpha Release 2020.3.0 Demeter (2020-09-29) <release-notes/2020-3-0-Demeter>
