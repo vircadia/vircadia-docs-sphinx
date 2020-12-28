@@ -31,7 +31,7 @@ The People app provides a set of tools that help users manage their interactions
 | Feature          | Description                                                                                        |
 +==================+====================================================================================================+
 | Profile Picture  | This is where your profile picture will be visible. Click on the image to view your profile.       |
-|                  | You can change this image on our `website <https://highfidelity.com/>`_.                           |
+|                  | You can change this image on our `website <https://dashboard.vircadia.com/>`_.                     |
 +------------------+----------------------------------------------------------------------------------------------------+
 | Display Name     | You can change your display name at any time. By default, it will be 'anonymous'.                  |
 |                  | In the image above, the display name is 'HiFi Docs'.                                               |

@@ -93,7 +93,7 @@ html_theme_options = {
 }
 
 html_title = "Vircadia Documentation"
-html_logo = '_static/images/vircadia-logo-1880.png'
+html_logo = '_static/images/vircadia-logo-3760-candara-tm-white.png'
 html_favicon = '_static/images/favicon-256.ico'
 html_show_sphinx = False
 

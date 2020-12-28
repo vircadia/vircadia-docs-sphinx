@@ -89,7 +89,7 @@ Notes:
 Sample Materials and Their Textures and Shading
 ------------------------------------------------------
 
-Vircadia supports different types of materials. We've created sample objects with each material type. You can download each object from `this repository <https://github.com/highfidelity/hifi_tests/tree/master/assets/models/material_matrix_models/fbx/blender>`_ on GitHub, or run `this script <https://raw.githubusercontent.com/highfidelity/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_ in Vircadia to upload all sample objects in your domain.
+Vircadia supports different types of materials. We've created sample objects with each material type. You can download each object from `this repository <https://github.com/vircadia/hifi_tests/tree/master/assets/models/material_matrix_models/fbx/blender>`_ on GitHub, or run `this script <https://raw.githubusercontent.com/vircadia/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_ in Vircadia to upload all sample objects in your domain.
 
 We've listed all material information (including textures, shading, and channel values and maps) for these sample objects `here <https://docs.google.com/spreadsheets/d/e/2PACX-1vRsPXURPsIYV_LeEz1A7IS-t44qdTMtbrq-gZ47BAoxhd0kLs_Yxh-i1G4Ukz-aunTj-nLVF7sjZd1n/pubhtml?gid=0&single=true>`_.
 
