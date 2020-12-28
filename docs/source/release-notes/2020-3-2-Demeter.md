@@ -78,7 +78,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 
 ## Metaverse Server & Dashboard (Codename Iamus)
 
-### [Iamus](https://github.com/vircadia/iamus) Metaverse Server
+### Iamus [Metaverse Server](https://github.com/vircadia/iamus)
 
 #### Version 2.3.3
 

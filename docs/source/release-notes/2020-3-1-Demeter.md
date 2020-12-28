@@ -38,9 +38,9 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 
 ## Metaverse Server & Dashboard (Codename Iamus)
 
-[Iamus](https://github.com/vircadia/iamus) Metaverse Server updates can be found [here](https://github.com/vircadia/Iamus/commits/master).
+Iamus [Metaverse Server](https://github.com/vircadia/iamus) updates can be found [here](https://github.com/vircadia/Iamus/commits/master).
 
-[Iamus Metaverse Dashboard](https://github.com/vircadia/project-iamus-dashboard) updates can be found [here](https://dashboard.vircadia.com/).
+Iamus [Metaverse Dashboard](https://github.com/vircadia/project-iamus-dashboard) updates can be found [here](https://dashboard.vircadia.com/).
 
 ## Vircadia Launcher (Codename Pantheon)
 
