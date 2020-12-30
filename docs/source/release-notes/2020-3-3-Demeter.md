@@ -10,7 +10,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 
 * UI/UX: Remove "Console" options from the Interface-only installer on Windows. (#824)
 * Application: The collision hull of entities now updates when the model is replaced. (#830)
-* Application: Entity update performance has been improved. (#830)
+* Application: Entity update performance has been improved. (#830, #944)
 * UI/UX: The VR HUD overlay has been fixed and improved:
     * Overlay surface is rendered a bit further away (1.5m instead of 1.0m). This makes it easier on the eyes.
     * The horizontal size of the overlay surface has been reduced from 270 deg to 180 deg. This means that it doesn't wrap around "behind" you.
