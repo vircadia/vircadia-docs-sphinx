@@ -2,7 +2,7 @@
 Home
 ####
 
-Vircadia is open-source software which enables you to create and share virtual worlds as virtual reality (VR) and desktop experiences. You can create and host your own virtual world,
+Vircadia™ is open-source software which enables you to create and share virtual worlds as virtual reality (VR) and desktop experiences. You can create and host your own virtual world,
 explore other worlds, meet and connect with other users, attend or host live VR events, and much more.
 
 The Vircadia metaverse provides built-in social features, including avatar interactions, spatialized audio, and interactive physics.

@@ -22,7 +22,7 @@ Consider getting familiar with the following concepts before starting this tutor
 
 ## Write a Script for the Portal
 
-A portal is an entity with a script attached (entity script). This attached script defines what happens when a user comes in contact with the portal. We've used [portal.js](https://raw.githubusercontent.com/highfidelity/hifi-content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js), the script used to teleport in Vircadia domains. You can also [write your own script](../../script/write-scripts.html) to suit your needs.
+A portal is an entity with a script attached (entity script). This attached script defines what happens when a user comes in contact with the portal. We've used [portal.js](https://raw.githubusercontent.com/vircadia/vircadia-content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js), the script used to teleport in Vircadia domains. You can also [write your own script](../../script/write-scripts.html) to suit your needs.
 
 The portal.js script we've used:
 + Uses Vircadia's [JavaScript API](https://apidocs.vircadia.dev) to determine when a user walks into the entity and the teleport destination.
@@ -36,7 +36,7 @@ Any entity you create to be used as a portal has to be [collisionless](entity-be
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. [Create an entity](create-entities.html) to be used as a portal. This can be a 3D model or a box or sphere entity. 
 3. Go to the 'Properties' tab and scroll down to 'Behavior'.
-4. Next to 'Script', paste the script URL. In this case, it is '[portal.js](https://raw.githubusercontent.com/highfidelity/hifi-content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js)'.
+4. Next to 'Script', paste the script URL. In this case, it is '[portal.js](https://raw.githubusercontent.com/vircadia/vircadia-content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js)'.
 5. The script takes the location you want to teleport to from the 'User Data' field under 'Behavior'.
 6. Add `hifi:// welcome` (Vircadia's welcome domain) to the 'User Data' field. 
 7. Scroll down to 'Collision' and uncheck 'Collides'. This is so that a user can walk into the entity and trigger the script. 

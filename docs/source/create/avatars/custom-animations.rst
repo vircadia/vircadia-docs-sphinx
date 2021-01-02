@@ -19,7 +19,7 @@ As we delve deeper into creating custom animations, we may use terminology that 
 | Term                     | Description                                                                                      |
 +==========================+==================================================================================================+
 | Avatar animations        | Avatar animations are FBX files that define how your avatar moves. For example, `turn_left.fbx <h|
-|                          | ttps://github.com/highfidelity/hifi/blob/master/interface/resources/avatar/animations/turn_left.f|
+|                          | ttps://github.com/vircadia/vircadia/blob/master/interface/resources/avatar/animations/turn_left.f|
 |                          | bx>`_ is the standard animation file for your avatar turning left.                               |
 +--------------------------+--------------------------------------------------------------------------------------------------+
 | Animation roles          | Animation roles are triggers that map to an action that an avatar can perform.                   |
@@ -33,8 +33,8 @@ As we delve deeper into creating custom animations, we may use terminology that 
 |                          | and it specifies exactly which animations to play and how they are blended.                      |
 |                          | It also determines the order of operations, so that operations like Inverse Kinematics           |
 |                          | occur after the rest of the body has been animated by traditional means.                         |
-|                          | By default, every avatar uses the same `Animation Graph file <https://github.com/highfidelity/hif|
-|                          | i/blob/master/interface/resources/avatar/avatar-animation.json>`_.                               |
+|                          | By default, every avatar uses the same `Animation Graph file <https://github.com/vircadia/vircadi|
+|                          | a/blob/master/interface/resources/avatar/avatar-animation.json>`_.                               |
 +--------------------------+--------------------------------------------------------------------------------------------------+
 
 ----------------------------------

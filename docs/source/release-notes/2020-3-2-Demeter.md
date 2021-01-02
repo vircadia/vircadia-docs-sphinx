@@ -9,7 +9,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 #### General
 
 * Graphics: Add and enable automatic maximum texture size scaling by default. (#599)
-* Application: Add `Script.require` developer toggle to force cachebusting on every load.
+* Application: Add `Script.require` developer toggle to force cachebusting on every load. (#664)
 * App: 'Create' app October 2020 improvements package. (#833)
     * Add error dialogue if an unsupported filetype is added as a model URL.
     * Angular velocity precision can now go below 0.4 in the UI.
@@ -38,7 +38,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
         - None
     * Selected entities now have different colors based on parent-child hierarchy.
 * Application: Add ability for `Script.require` to automatically cachebust itself when changes are made to the script on the local filesystem. (#848)
-* UI: Enable ability to login to domains with an email as well as a username. (#852)
+* UI/UX: Enable ability to login to domains with an email as well as a username. (#852)
 * API: Fix `Entities.enterEntity` and `Entities.leaveEntity` event not firing in entity script after content reload. (#853)
 * App: 'Create' app November 2020 improvements package. (#858, #874)
     * The last selected entity is now highlighted.
@@ -78,7 +78,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 
 ## Metaverse Server & Dashboard (Codename Iamus)
 
-### [Iamus](https://github.com/vircadia/iamus) Metaverse Server
+### Iamus [Metaverse Server](https://github.com/vircadia/iamus)
 
 #### Version 2.3.3
 
