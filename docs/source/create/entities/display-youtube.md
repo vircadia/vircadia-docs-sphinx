@@ -6,7 +6,7 @@ In this tutorial, you will learn how web entities work by creating one displayin
 
 - [Prerequisites](#prerequisities)
 - [Create a Web Entity](#create-a-web-entity)
-- [Display Vircadia's YouTube Channel](#display-high-fidelitys-youtube-channel)
+- [Display Vircadia's YouTube Channel](#display-vircadia-s-youtube-channel)
 
 ## Prerequisites
 
