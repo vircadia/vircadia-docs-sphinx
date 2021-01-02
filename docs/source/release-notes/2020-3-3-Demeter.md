@@ -38,8 +38,8 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 * App: 'Create' app material icons update. (#907)
     * Preference: "Show Zones in Create Mode" has been removed. The method behind it is still in the API, but does nothing. It has been abandoned since it was only drawing a box that wasn't useful to assist in figuring out the shape of the zone.
     * Preference: "Show Lights and Particle Systems in Create Mode" has been renamed to "Show Icons in Create Mode" since this setting was also managing all the icons (including Zones and now Parented Materials). The objective of the setting is mainly to simplify the display in edit mode when a scene is very dense.
-    * `image3D` overlays used for the icons have been migrated to Local Entities.
-    * All the Entities icons (in-world non physical entities) has been updated to be more uniform. They now all have the same dark gray tone, with a white border to keep them visible under different lighting.
+    * `image3D` overlays used for the icons have been migrated to local entities.
+    * All the entity icons (in-world non physical entities) have been updated to be more uniform. They now all have the same dark gray tone, with a white border to keep them visible under different lighting.
 
 #### Miscellaneous
 
@@ -69,7 +69,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 <li><a href="http://github.com/vircadia/Iamus/commit/c67706945d71c51d806023c02dce26d4147ea1a6">view &bull;</a> Minor bug fixes in BackupDb.sh</li> 
 <li><a href="http://github.com/vircadia/Iamus/commit/6b05304c326f8303a18afbde9421ccf030949297">view &bull;</a> Update links and names (#66)</li> 
 <li><a href="http://github.com/vircadia/Iamus/commit/cc8e9d64f077c2ee62405cfe2437ad3483845c24">view &bull;</a> Update NPM package version.</li> 
-<li><a href="http://github.com/vircadia/Iamus/commit/8cf1eee04aab3a069442c346241cf96aa8572f1a">view &bull;</a> Fix problem where user wasn't returned their token by /api/v1/tokens     The search field must be specified to AccountScopeFilter     A few other places were checked and updated.</li> 
+<li><a href="http://github.com/vircadia/Iamus/commit/8cf1eee04aab3a069442c346241cf96aa8572f1a">view &bull;</a> Fix problem where user wasn't returned their token by /api/v1/tokens. The search field must be specified to AccountScopeFilter. A few other places were checked and updated.</li> 
 <li><a href="http://github.com/vircadia/Iamus/commit/1d0be3bf637315c3196390124600cada3fc218f1">view &bull;</a> Bump version to 2.3.6</li> 
 </ul>
 
@@ -77,9 +77,9 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 
 <ul>
 <li><a href="http://github.com/vircadia/Iamus/commit/e95291d4988f48d780795e134a364d9120f22fc3">view &bull;</a> Update ChangeLog.md</li> 
-<li><a href="http://github.com/vircadia/Iamus/commit/b360944a70a994ee701a0f2b23303a1d71dd76fb">view &bull;</a> Change Place filter 'maturity' to take a comma separated string     of maturity classes to match.</li> 
+<li><a href="http://github.com/vircadia/Iamus/commit/b360944a70a994ee701a0f2b23303a1d71dd76fb">view &bull;</a> Change Place filter 'maturity' to take a comma separated string of maturity classes to match.</li> 
 <li><a href="http://github.com/vircadia/Iamus/commit/00355c7481b1958379d574a1ff7acc65a18d2eed">view &bull;</a> When creating a Place, default maturity to the parent domain's maturity. Default DomainEntity.maturity to Maturity.UNRATED.</li> 
-<li><a href="http://github.com/vircadia/Iamus/commit/a80864dfea02c284c195000184392f9c1f7bdcce">view &bull;</a> Massive refactoring to remove circular import dependencies that were     causing null value initializations due to how Javascript loads. Move Entity field definitions into separate files. Moved Entity field getting and setting into the Entity controlling class. Repackaged (into multiple files) Permission and Get/Set/Validate routines.</li> 
+<li><a href="http://github.com/vircadia/Iamus/commit/a80864dfea02c284c195000184392f9c1f7bdcce">view &bull;</a> Massive refactoring to remove circular import dependencies that were causing null value initializations due to how JavaScript loads. Move Entity field definitions into separate files. Moved Entity field getting and setting into the Entity controlling class. Repackaged (into multiple files) Permission and Get/Set/Validate routines.</li> 
 <li><a href="http://github.com/vircadia/Iamus/commit/bf4df1bad8290c7ef4b20e5ce940b1a925f3b04e">view &bull;</a> Bump version to 2.3.5</li> 
 </ul>
 
@@ -97,7 +97,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 
 ### Iamus [Metaverse Dashboard](https://github.com/vircadia/project-iamus-dashboard)
 
-Updates are reflected [here](https://dashboard.vircadia.com/). The Dashboard has been upgraded from version 1.1.3 to version 1.2.2. (13 commits altering functionality, 18 commits total)
+Updates are reflected [here](https://dashboard.vircadia.com/). The Dashboard has been upgraded from version 1.1.3 to version 1.2.2. (13 commits altering functionality, 18 commits total.)
 
 * Profiles have been added for all users with the core component being redesigned.
 * Routing bugs when using the ?page parameter have been corrected.
