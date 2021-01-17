@@ -37,7 +37,7 @@ This documentation is authored in `English <https://docs.vircadia.dev/>`_.
 The following translations are available:
 
 * `Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|
-* `French <https://docs.vircadia.dev/fr/>`_ |fr_trans|
+* `Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|
 * `日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|
 
 .. |de_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/de/svg-badge.svg
