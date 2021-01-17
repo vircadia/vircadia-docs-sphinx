@@ -37,11 +37,16 @@ This documentation is authored in `English <https://docs.vircadia.dev/>`_.
 The following translations are available:
 
 * `Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|
+* `French <https://docs.vircadia.dev/fr/>`_ |fr_trans|
 * `日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|
 
 .. |de_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/de/svg-badge.svg
               :class: inline
               :target: https://weblate.vircadia.dev/engage/vircadia-documentation/de/?utm_source=widget
+
+.. |fr_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/fr/svg-badge.svg
+              :class: inline
+              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/fr/?utm_source=widget
 
 .. |jp_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/ja/svg-badge.svg
               :class: inline

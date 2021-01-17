@@ -77,6 +77,14 @@ jobs:
         mkdir -p build-archives
         cd build-de/html/
         tar -czvf ../../build-archives/build-de.tar.gz *
+    - name: Build french documentation
+      shell: bash
+      run: |
+        cd docs
+        make BUILDDIR=build-fr SPHINXOPTS="-Dlanguage=fr" html
+        mkdir -p build-archives
+        cd build-fr/html/
+        tar -czvf ../../build-archives/build-fr.tar.gz *
     - name: Build japanese documentation
       shell: bash
       run: |
@@ -100,6 +108,12 @@ jobs:
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
         chmod 600 private_key.pem
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/de/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-de.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/de/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-de.tar.gz"
+    - name: Deploy french documentation
+      shell: bash
+      run: |
+        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
+        chmod 600 private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/fr/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-fr.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/fr/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-fr.tar.gz"
     - name: Deploy japanese documentation
       shell: bash
       run: |
