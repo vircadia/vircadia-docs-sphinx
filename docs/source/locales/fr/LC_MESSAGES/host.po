@@ -1,0 +1,3797 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, High Fidelity. © Copyright 2020, Vircadia.
+# This file is distributed under the same license as the Vircadia Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vircadia Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-17 15:55+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/host.rst:9 ../../source/host/start-hosting.rst:3
+msgid "Get Started with Hosting"
+msgstr ""
+
+#: ../../source/host.rst:9
+msgid "Set Up a Domain Server"
+msgstr ""
+
+#: ../../source/host.rst:9 ../../source/host/configure-settings.rst:3
+msgid "Configure Your Domain Settings"
+msgstr ""
+
+#: ../../source/host.rst:9 ../../source/host/add-content.rst:3
+msgid "Add Content to Your Domain"
+msgstr ""
+
+#: ../../source/host.rst:9 ../../source/host/invite-users.rst:3
+msgid "Bring Visitors to Your Domain"
+msgstr ""
+
+#: ../../source/host.rst:9 ../../source/host/maintain-domain.rst:3
+msgid "Maintain Your Domain"
+msgstr ""
+
+#: ../../source/host.rst:3
+msgid "Host"
+msgstr ""
+
+#: ../../source/host.rst:5
+msgid ""
+"Vircadia's vision is a decentralized network of virtual worlds, created "
+"and controlled by our users. To achieve this vision, we want you to have "
+"the power to express your creativity, build your own virtual worlds, and "
+"be a part of an expanding metaverse."
+msgstr ""
+
+#: ../../source/host.rst:7
+msgid ""
+"Throughout this chapter, learn what its like to create your own domain, "
+"host it on a server, and maintain it so that it can be enjoyed by users "
+"for years to come."
+msgstr ""
+
+#: ../../source/host/add-content.rst:9
+#: ../../source/host/add-content/create-content.rst:3
+msgid "Build and Add Your Own Content"
+msgstr ""
+
+#: ../../source/host/add-content.rst:9
+#: ../../source/host/add-content/bake-content.rst:3
+msgid "Bake Your Content"
+msgstr ""
+
+#: ../../source/host/add-content.rst:9
+#: ../../source/host/add-content/export-content.rst:3
+msgid "Export Your Content"
+msgstr ""
+
+#: ../../source/host/add-content.rst:9
+msgid "Upload Content to Your Domain"
+msgstr ""
+
+#: ../../source/host/add-content.rst:9
+#: ../../source/host/add-content/marketplace-environment.rst:3
+msgid "Get an Environment from the Marketplace"
+msgstr ""
+
+#: ../../source/host/add-content.rst:5
+msgid ""
+"Your domain is your own personal virtual world. In it, you can express "
+"your creativity and create your own content, then share it with the "
+"world. Whether you've created a domain to host an event, as a place to "
+"hang out with friends, or even an office space, we invite you to create "
+"your own Vircadia experience by tailoring the content to your needs."
+msgstr ""
+
+#: ../../source/host/add-content.rst:7
+#: ../../source/host/configure-settings.rst:13
+msgid "**In This Section**"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:5
+msgid ""
+"Most content (avatars, entities, etc) in High Fidelity references "
+"external resources such as textures, models, scripts, and materials. When"
+" a user encounters any content in the domain, they need to download the "
+"content's resources. Many of these resources are not optimized and can "
+"take a while to download. *Baking* is the process of optimizing these "
+"resources to make them easier to transmit, store, and render, reducing "
+"load time significantly."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:8
+#: ../../source/host/add-content/create-content.rst:8
+#: ../../source/host/add-content/export-content.rst:17
+#: ../../source/host/configure-settings/audio-settings.rst:10
+#: ../../source/host/configure-settings/entity-filters.rst:9
+#: ../../source/host/configure-settings/network-settings.rst:10
+#: ../../source/host/configure-settings/permission-settings.rst:8
+#: ../../source/host/configure-settings/place-setting.rst:10
+#: ../../source/host/configure-settings/user-groups.rst:10
+#: ../../source/host/invite-users.rst:8
+#: ../../source/host/maintain-domain/backup-domain.rst:8
+#: ../../source/host/maintain-domain/manage-visitors.rst:10
+#: ../../source/host/maintain-domain/script-maintenance.rst:8
+#: ../../source/host/maintain-domain/update-software.rst:8
+#: ../../source/host/server-setup/cloud-domain.rst:12
+#: ../../source/host/server-setup/windows-server.rst:10
+#: ../../source/host/start-hosting.rst:8
+msgid "On This Page"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:12
+msgid "The Oven"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:14
+msgid ""
+"The Oven is a standalone application that is packaged as part of High "
+"Fidelity `Client + Sandbox "
+"<https://www.highfidelity.com/download#sandbox>`_ installer. Once "
+"installed, locate ``oven.exe`` (Windows) or ``oven.app`` (Mac)."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:16
+msgid "With the oven, you can bake the following types of content:"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:19
+msgid "Type"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:19
+#: ../../source/host/add-content/bake-content.rst:60
+#: ../../source/host/add-content/create-content.rst:31
+#: ../../source/host/configure-settings/permission-settings.rst:46
+msgid "Description"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:21
+msgid "Textures"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:21
+msgid ""
+"When you bake a texture, the resulting folder will contain a "
+".texmeta.json file, various .ktx images, and the original texture. Baking"
+" might introduce some compression artifacts, but these are usually minor."
+" Baking a texture produces mipmaps, which allow you to progressively load"
+" textures, and compresses the results. Baking large textures like "
+"skyboxes can take a while, but the benefits at runtime for everyone "
+"loading the skybox image will be significant. For the best experience, we"
+" recommend using PNG or JPEG (JPG) textures. However, we also support "
+"textures in following formats: TGA, TIF, and TIFF."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:29
+msgid "Materials"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:29
+msgid ""
+"Baking a material will produce a .baked.json file and will also bake all "
+"of the textures in the material. Currently, we only support baking a "
+"`material entity JSON file <../../create/entities/mate rial-"
+"entity.html#generate-a-material-entity>`_."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:33
+msgid "3D Models"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:33
+msgid ""
+"Baking a model will produce a `Draco compressed "
+"<https://github.com/google/draco>`_ geometric mesh and will also bake all"
+" of the materials in the model. The mesh compression can slightly alter "
+"the geometry of the original model, but it is usually minor. Your output "
+"folder will contain a .baked.fst file, a .baked.fbx file (the original "
+"format of your model can be different), and a .baked.json file "
+"(materials). Because the baked materials JSON file references the baked "
+"texture files, all textures are removed from the .baked.fbx file. This "
+"JSON file is referenced in the `materialMap` field in the .baked.fst "
+"file. We support the following formats: FBX, OBJ, and FST (that points to"
+" a supported type)."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:41
+msgid "Avatars"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:41
+msgid ""
+"As avatars are 3D models, you can bake avatars with the same results as "
+"above. Use the resulting .baked.fst file to `host and wear your baked "
+"avatar <../../create/avatars/package-avatar.html#host-your-avatar>`_."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:45
+msgid ""
+"The Oven has two different interfaces: an application and a command line "
+"interface. Use the one that best fits your needs."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:49
+msgid "Using the Oven Application"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:51
+msgid "The Oven application has three baking options:"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:53
+msgid "Bake all assets in your domain"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:54
+msgid "Bake individual 3D models and avatars"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:55
+msgid "Bake skybox files"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:57
+msgid ""
+"After you choose what you would like to bake, you'll need to fill in some"
+" information:"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:60
+msgid "Field"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:60
+msgid "Baking Option"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:63
+msgid "Domain Name"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:63
+#: ../../source/host/add-content/bake-content.rst:66
+#: ../../source/host/add-content/bake-content.rst:79
+#: ../../source/host/add-content/bake-content.rst:84
+msgid "Domain"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:63
+msgid "Enter your domain's name."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:66
+msgid "Entities File"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:66
+msgid ""
+"Upload a .json or .json.gz of the assets in your domain. This can be done"
+" by `exporting your content to JSON <export-content.html#export-entities-"
+"to-json>`_."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:70
+msgid "Model File(s)"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:70
+msgid "Model"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:70
+msgid "Enter the file or URL path for your model file(s)."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:73
+msgid "Skybox File(s)"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:73
+msgid "Skybox"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:73
+msgid "Enter the file or URL path for your skybox file(s)."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:76
+msgid "Output Directory"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:76
+msgid "Domain, Model, Skybox"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:76
+msgid "This is where the baked content will be saved."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:79
+msgid "Destination URL Path"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:79
+msgid ""
+"Enter the absolute paths of where your resources will be uploaded after "
+"baking. For example, if you store custom 3D models on a cloud hosting "
+"service, enter that URL here."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:84
+msgid "Re-bake Originals"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:84
+msgid ""
+"Check if you want to re-bake any baked content that the oven finds in "
+"your content archive."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:88
+msgid ""
+"After baking a domain, don't forget to upload all baked content (3D "
+"models, skyboxes, etc.) to the URL specified for 'Destination URL Path'. "
+"This ensures that all content will load correctly when you :doc:`upload "
+"the baked content set <upload-content>` to your domain."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:93
+msgid "Using the Commmand Line Interface"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:95
+msgid ""
+"You can also use a command line interface instead of the GUI to bake "
+"single assets (not domains). We support the following attributes:"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:97
+msgid "i: Path to file that you would like to bake."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:98
+msgid "o: Path to folder that will be used as the output directory."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:99
+msgid ""
+"t: Type of asset. The value can be \"model\" (for any model type) and "
+"\"material\" (for a material JSON description). For textures, the values "
+"differ based on the type of texture you want to bake, such as default, "
+"strict, albedo, normal, bump, specular, metallic, roughness, gloss, "
+"emissive, cube (same as skybox), skybox, ambient, occlusion, scattering, "
+"and lightmap."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:100
+msgid ""
+"disable-texture-compression: Disables texture compression for any type. "
+"Use this only if the texture compression is introducing too many "
+"artifacts."
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:102
+msgid "To bake a 3D model through the Oven's command line interface::"
+msgstr ""
+
+#: ../../source/host/add-content/bake-content.rst:107
+msgid "To bake a material through the Oven's command line interface::"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:5
+msgid ""
+"Maybe you've wandered around the metaverse, and you're inspired by the "
+"creativity of others. Or maybe none of the other domains really fit the "
+"atmosphere of what you have in mind. Whatever the reason, you're ready to"
+" branch out and build content of your own. If you don't know where to "
+"begin, this is a great place to start."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:12
+msgid "Tools for Creating Content"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:14
+msgid ""
+"A content set is simply a collection of many different entities, models "
+"and scripts working together to form an interactive environment. Visit "
+"our :doc:`Create <../../create>` section to learn more about the "
+"available tools and examples of how to make your environment more alive:"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:16
+msgid ":doc:`Create Tools <../../create/tools>`"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:17
+msgid ":doc:`All About Entities <../../create/entities>`"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:18
+msgid ":doc:`Add Sounds to Entities <../../create/entities/add-sounds>`"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:19
+msgid ":doc:`Build and Import 3D Models <../../create/3d-models>`"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:20
+msgid ":doc:`Get Started with Scripting <../../script>`"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:24
+msgid "Techniques for Creating Content Sets"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:26
+msgid ""
+"Creating a content set can be complicated because you're designing an "
+"entire environment, rather than one single item. Its like building an "
+"entire city, which is comprised of many buildings, trees and roads. Some "
+"artists want to share their progress, each step along the way. Others "
+"want to wait to show off their creation until the final build is "
+"complete."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:28
+msgid ""
+"We let you choose how you want to build and deploy your content. The "
+"process for updating the content set on your domain will differ based on "
+"the approach you use to build your content. Choose the method that fits "
+"you best to learn more:"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:31
+msgid "Method"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:33
+msgid "`Make Live Updates`_"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:33
+msgid ""
+"As you make a change to your content, it will show up immediately in your"
+" domain in the metaverse. This means that any visitors in your domain "
+"will see the changes as they happen."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:36
+msgid "`Under Construction`_"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:36
+msgid ""
+"During the time that you're constructing your content set, your domain is"
+" offline to outside visitors. Users will be unable to visit your domain "
+"while it is under construction."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:39
+msgid "`Create and Deploy`_"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:39
+msgid ""
+"Here, you prefer to create your content in an offline environment. Once "
+"it is completed, you will need to export your content set to an external "
+"file, then deploy it to your domain. Visitors can continue visiting your "
+"domain with any placeholder content while you design your custom content."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:47
+msgid "Make Live Updates"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:49
+msgid ""
+"Live updates are made anytime you or any other user in your domain makes "
+"changes to the content. In order to make changes, a user must have the "
+"'Rez' permission turned on."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:51
+msgid ""
+"Before going this route, decide on who (if anyone) you would like to "
+"change your content set, and :doc:`verify that their rez permissions are "
+"set correctly <../configure-settings/permission-settings>`. If you're "
+"going to be the one making changes, then ensure that you have rez rights."
+" To update your content, all you need to is visit your domain and start "
+"making changes using the :doc:`Create Tools <../../create/tools>`."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:53
+#: ../../source/host/add-content/create-content.rst:78
+msgid ""
+"Your server makes regular archives of the content in your domain. Visit "
+"your Domain Settings to :doc:`view and download the backups of your "
+"content sets <../maintain-domain/backup-domain>` over time."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:55
+msgid ""
+"**Tip**: It is possible to \"lock down\" content that you've created, so "
+"that visitors can create new content without modifying your custom "
+"content. For example, you can lock down the walls and floor of a room, "
+"but let your visitors create their own tables and chairs. To protect your"
+" own custom content set, lock the entities you created. When you "
+"configure your permissions for your visitors, deny them access to "
+"'Lock/Unlock', but grant them permission to 'Rez'. They will be able to "
+"create their own content in your domain, but not be able to change your "
+"domain's content set."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:60
+msgid "Under Construction"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:62
+msgid ""
+"While you make changes to your content set, you can take down your domain"
+" temporarily and prevent users from visiting while it is under "
+"construction."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:64
+msgid ""
+"To do this, simply the remove the 'Connect' permission for all users "
+"other than yourself (and any other co-creators working alongside you). "
+"When you are done, all you need to do is re-enable the 'Connect' "
+"permission."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:66
+#: ../../source/host/add-content/export-content.rst:46
+#: ../../source/host/add-content/export-content.rst:71
+#: ../../source/host/add-content/upload-content.rst:9
+#: ../../source/host/configure-settings/audio-settings.rst:31
+#: ../../source/host/configure-settings/authentication-setting.rst:11
+#: ../../source/host/configure-settings/entity-filters.rst:17
+#: ../../source/host/configure-settings/permission-settings.rst:20
+#: ../../source/host/configure-settings/place-setting.rst:36
+#: ../../source/host/maintain-domain/backup-domain.rst:16
+#: ../../source/host/maintain-domain/backup-domain.rst:30
+#: ../../source/host/maintain-domain/backup-domain.rst:41
+#: ../../source/host/maintain-domain/backup-domain.rst:59
+#: ../../source/host/maintain-domain/backup-domain.rst:75
+#: ../../source/host/maintain-domain/backup-domain.rst:88
+#: ../../source/host/maintain-domain/backup-domain.rst:101
+#: ../../source/host/maintain-domain/script-maintenance.rst:70
+msgid "Open your domain settings."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:68
+#: ../../source/host/add-content/export-content.rst:48
+#: ../../source/host/add-content/export-content.rst:73
+#: ../../source/host/add-content/upload-content.rst:11
+#: ../../source/host/configure-settings.rst:7
+#: ../../source/host/configure-settings/audio-settings.rst:33
+#: ../../source/host/configure-settings/authentication-setting.rst:13
+#: ../../source/host/configure-settings/entity-filters.rst:19
+#: ../../source/host/configure-settings/permission-settings.rst:22
+#: ../../source/host/configure-settings/place-setting.rst:38
+#: ../../source/host/maintain-domain/backup-domain.rst:18
+#: ../../source/host/maintain-domain/backup-domain.rst:61
+#: ../../source/host/maintain-domain/backup-domain.rst:77
+#: ../../source/host/maintain-domain/backup-domain.rst:103
+#: ../../source/host/maintain-domain/script-maintenance.rst:72
+msgid ""
+"For cloud hosted domains: Open a browser and enter the URL http://<insert"
+" your server's IP address here>:40100/settings. Log in when prompted."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:69
+#: ../../source/host/add-content/export-content.rst:49
+#: ../../source/host/add-content/export-content.rst:74
+#: ../../source/host/add-content/upload-content.rst:12
+#: ../../source/host/configure-settings.rst:9
+#: ../../source/host/configure-settings/audio-settings.rst:34
+#: ../../source/host/configure-settings/authentication-setting.rst:14
+#: ../../source/host/configure-settings/entity-filters.rst:20
+#: ../../source/host/configure-settings/permission-settings.rst:23
+#: ../../source/host/configure-settings/place-setting.rst:39
+#: ../../source/host/maintain-domain/backup-domain.rst:19
+#: ../../source/host/maintain-domain/backup-domain.rst:44
+#: ../../source/host/maintain-domain/backup-domain.rst:62
+#: ../../source/host/maintain-domain/backup-domain.rst:78
+#: ../../source/host/maintain-domain/backup-domain.rst:104
+#: ../../source/host/maintain-domain/script-maintenance.rst:73
+msgid ""
+"For local servers on Windows: Click on the Vircadia icon in the system "
+"tray, then click 'Settings'."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:70
+#: ../../source/host/add-content/export-content.rst:50
+#: ../../source/host/add-content/export-content.rst:75
+#: ../../source/host/add-content/upload-content.rst:13
+#: ../../source/host/configure-settings.rst:10
+#: ../../source/host/configure-settings/audio-settings.rst:35
+#: ../../source/host/configure-settings/authentication-setting.rst:15
+#: ../../source/host/configure-settings/entity-filters.rst:21
+#: ../../source/host/configure-settings/permission-settings.rst:24
+#: ../../source/host/configure-settings/place-setting.rst:40
+#: ../../source/host/maintain-domain/backup-domain.rst:20
+#: ../../source/host/maintain-domain/backup-domain.rst:45
+#: ../../source/host/maintain-domain/backup-domain.rst:63
+#: ../../source/host/maintain-domain/backup-domain.rst:79
+#: ../../source/host/maintain-domain/backup-domain.rst:105
+#: ../../source/host/maintain-domain/script-maintenance.rst:74
+msgid ""
+"For local servers on Mac: Right-click the Vircadia icon on the top menu "
+"bar, then click 'Settings'."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:71
+msgid "On the top menu bar, select **Settings > Security**."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:72
+msgid "Scroll to 'Standard Permissions'."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:73
+msgid ""
+"For each Permissions group, uncheck the 'Connect' permission for all "
+"users and groups (except yourself and anyone else working on the "
+"content)."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:74
+msgid "Click 'Save' and close the Domain Settings page."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:76
+msgid ""
+"Once you have set the permissions, visit your domain and begin building "
+"your content set using the :doc:`Create Tools <../../create/tools>`. We "
+"recommend locking all of your content so that it cannot be modified by "
+"visitors to your domain."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:80
+msgid ""
+"When you're done, follow the above steps to re-enable the Connect "
+"permission for your visitors. These users will be able to visit your "
+"domain again with the server's IP address or place name."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:85
+msgid "Create and Deploy"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:87
+msgid ""
+"The final technique for building a content set follows a basic "
+"development workflow:"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:89
+msgid "Build content in an offline environment"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:90
+msgid "(Optional) Build and test it"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:91
+msgid "Export the content set to a file"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:92
+msgid "Upload the exported content set to your domain"
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:94
+msgid ""
+"We recommend using this method if you want to avoid interruption to your "
+"domain while you build your content, deploy your content set to multiple "
+"domains, or test your content before you deploy."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:96
+msgid ""
+"Install Vircadia's open source `Client + Sandbox "
+"<https://www.highfidelity.com/download#sandbox>`_ software on a computer "
+"that is _not_ running as a local server."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:97
+msgid "Open a Sandbox not connected to a local server."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:98
+msgid "Build your content set in the Sandbox."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:99
+msgid ""
+"`Export your content to JSON <export-content.html#export-entities-to-"
+"json>`_."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:100
+msgid ""
+"(Optional) To optimize your content set, :doc:`bake your content <bake-"
+"content>`."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:101
+msgid ""
+"(Local servers only) Transfer the downloaded archive file or the baked "
+"JSON to your local server. Switch computers so you're back on your local "
+"server."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:102
+msgid ""
+"Log in to your server's domain settings and :doc:`upload your exported or"
+" baked JSON to your domain <upload-content>`."
+msgstr ""
+
+#: ../../source/host/add-content/create-content.rst:104
+msgid ""
+"Once your content is uploaded, your domain will automatically restart "
+"with your new custom content."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:5
+msgid ""
+"To create a backup of your content, you need to export it to an external "
+"file. This file contains all of the information about the assets that "
+"make up your domain: the asset types, dimensions, positions, physics, "
+"resource URLs and every other property entity property."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:7
+msgid ""
+"Many domain creation and maintenance tasks require content backups, "
+"including:"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:9
+msgid "Baking content for optimization"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:10
+msgid "Importing content sets to new domains"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:11
+msgid "Restoring content in case of corruption"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:12
+msgid "Sharing content with others"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:13
+msgid "Uploading content sets to the Marketplace"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:21
+msgid "Export Entities to JSON"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:23
+msgid ""
+"The first method to export your content is to select specific entities "
+"from the Entity List and export them to a JSON file. Use this method if "
+"you want to:"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:25
+msgid "Bake your domain's content"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:26
+msgid "Back up content that is not yet live on a domain"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:27
+msgid "Export only specific entities, rather than the entire domain's content set"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:29
+msgid "To export entities:"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:31
+msgid "In your Sandbox, pull up your tablet or HUD and go to **Create**."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:32
+msgid ""
+"In the Entity List, select the entities you want to export. To select all"
+" of the entities, use the keyboard shortcut ``Ctrl`` + ``A``. To select "
+"more than one adjacent entity, click on the first entity, press hold down"
+" the ``Shift`` key, then click the last entity. To select more than one "
+"non-adjacent entity, hold down the ``Ctrl`` key while clicking the "
+"entities you want to select."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:33
+msgid ""
+"Once you've selected all of the entities you want to export, click "
+"'Export Selection'."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:34
+msgid "Browse to a folder location and enter a name for the exported JSON file."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:35
+#: ../../source/host/configure-settings/place-setting.rst:46
+msgid "Click 'Save'."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:40
+msgid "Retrieve Automatic Content Archives"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:42
+msgid ""
+"By default, Vircadia creates regular content archives of all active "
+"domains on the metaverse. This means that if you have a registered domain"
+" on the metaverse (either via a local server or DigitalOcean), then we "
+"have already created a backup of the content that is installed in your "
+"domain. These backup files are called *content archives*."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:44
+msgid "To retrieve these backups:"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:51
+#: ../../source/host/add-content/export-content.rst:76
+#: ../../source/host/add-content/upload-content.rst:14
+#: ../../source/host/configure-settings/audio-settings.rst:36
+#: ../../source/host/configure-settings/authentication-setting.rst:16
+#: ../../source/host/configure-settings/entity-filters.rst:22
+#: ../../source/host/configure-settings/permission-settings.rst:25
+#: ../../source/host/configure-settings/place-setting.rst:41
+#: ../../source/host/maintain-domain/backup-domain.rst:21
+#: ../../source/host/maintain-domain/backup-domain.rst:46
+#: ../../source/host/maintain-domain/backup-domain.rst:64
+#: ../../source/host/maintain-domain/backup-domain.rst:80
+#: ../../source/host/maintain-domain/backup-domain.rst:106
+#: ../../source/host/maintain-domain/script-maintenance.rst:75
+#: ../../source/host/server-setup/windows-server.rst:38
+msgid ""
+"For any OS: Open a browser and enter the URL "
+"http://localhost:40100/settings."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:52
+#: ../../source/host/add-content/export-content.rst:77
+#: ../../source/host/maintain-domain/backup-domain.rst:31
+#: ../../source/host/maintain-domain/backup-domain.rst:47
+#: ../../source/host/maintain-domain/backup-domain.rst:65
+#: ../../source/host/maintain-domain/backup-domain.rst:81
+msgid "On the top menu bar, select **Content > Content Archives**."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:53
+msgid ""
+"Under 'Automatic Content Archives', locate the archive you would like to "
+"download."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:54
+#: ../../source/host/add-content/export-content.rst:80
+#: ../../source/host/maintain-domain/backup-domain.rst:67
+msgid "From the Actions menu, click 'Download'."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:56
+msgid ""
+"When you upzip the content archive, locate models.json.gz. This file "
+"contains all of the assets in your domain, along with their properties."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:61
+msgid "Create a Manual Content Archive"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:63
+msgid ""
+"The final method of exporting your content is to create a manual content "
+"archive of your domain. This is recommended if you want to:"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:65
+msgid "Deploy your content to multiple domains"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:66
+msgid "Share a copy of your custom content set with others"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:67
+msgid "Sell your environment on the Marketplace"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:69
+msgid "To create a content archive and download it:"
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:78
+#: ../../source/host/maintain-domain/backup-domain.rst:48
+msgid "Under 'Manual Content Archives', click 'Generate New Archive'."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:79
+msgid ""
+"Enter a name for your archive and click 'Generate Archive'. It will "
+"appear just below the 'Generate New Archive' button."
+msgstr ""
+
+#: ../../source/host/add-content/export-content.rst:82
+msgid ""
+"The content archive includes models.json.gz, along with other backup "
+"files. From here, you can upload your content archive to another domain, "
+"send it to others or upload it to the Marketplace."
+msgstr ""
+
+#: ../../source/host/add-content/marketplace-environment.rst:5
+msgid ""
+"We and our users have designed multiple environments that are available "
+"for your use in the Marketplace. If you don't want to create your own or "
+"you want to use pre-built content sets while you're building a custom "
+"environment, then browse our Marketplace and find the perfect scene for "
+"your domain."
+msgstr ""
+
+#: ../../source/host/add-content/marketplace-environment.rst:7
+msgid "Before proceeding, ensure that you have rez permissions for your domain."
+msgstr ""
+
+#: ../../source/host/add-content/marketplace-environment.rst:9
+msgid "Visit your domain by its place name or IP address."
+msgstr ""
+
+#: ../../source/host/add-content/marketplace-environment.rst:10
+msgid "Pull up your Tablet or HUD and go to **Market**."
+msgstr ""
+
+#: ../../source/host/add-content/marketplace-environment.rst:11
+msgid "Under 'Categories', choose 'Environments'."
+msgstr ""
+
+#: ../../source/host/add-content/marketplace-environment.rst:12
+msgid ""
+"You'll see a list of different environments available. Click on the cost "
+"to purchase the item."
+msgstr ""
+
+#: ../../source/host/add-content/marketplace-environment.rst:13
+msgid "Confirm your purchase and click 'Get Item'."
+msgstr ""
+
+#: ../../source/host/add-content/marketplace-environment.rst:14
+msgid ""
+"Click 'Replace Content Set' to overwrite the current content set with the"
+" one you purchased."
+msgstr ""
+
+#: ../../source/host/add-content/marketplace-environment.rst:16
+msgid ""
+"Rezzing this content set will replace all of the existing content in your"
+" domain. If you want to save the current state of your domain, `create a "
+"backup <export-content.html>`_ before proceeding. You can restore backup "
+"files at any time."
+msgstr ""
+
+#: ../../source/host/add-content/marketplace-environment.rst:18
+msgid "Click 'Confirm'."
+msgstr ""
+
+#: ../../source/host/add-content/marketplace-environment.rst:20
+#: ../../source/host/add-content/upload-content.rst:21
+msgid ""
+"At this point, your domain server will restart and the new content will "
+"be deployed in your domain."
+msgstr ""
+
+#: ../../source/host/add-content/upload-content.rst:3
+msgid "Upload Content to your Domain"
+msgstr ""
+
+#: ../../source/host/add-content/upload-content.rst:5
+msgid ""
+"Whether you've created your own content set, baked some content, or "
+"gotten a content set from a friend, you'll need to upload it to your "
+"domain. Once you upload a content set, you will overwrite all existing "
+"content in your domain. Keep in mind that the existing backup files of "
+"your domain's content will not immediately be changed, so if you don't "
+"like your domain's new look, you can restore your old content at any "
+"time."
+msgstr ""
+
+#: ../../source/host/add-content/upload-content.rst:7
+msgid "To upload and install new content to your domain:"
+msgstr ""
+
+#: ../../source/host/add-content/upload-content.rst:15
+#: ../../source/host/maintain-domain/backup-domain.rst:89
+msgid "On the top menu bar, select **Content > Upload Content**."
+msgstr ""
+
+#: ../../source/host/add-content/upload-content.rst:16
+#: ../../source/host/maintain-domain/backup-domain.rst:90
+msgid "Under 'Upload Content', click 'Choose File'."
+msgstr ""
+
+#: ../../source/host/add-content/upload-content.rst:17
+msgid ""
+"Browse to your content file. This can be a `.json of exported entities "
+"<export-content.html#export-entities-to-json>`_, a .json.gz from an "
+"extracted `content archive <export-content.html#create-a-manual-content-"
+"archive>`_, or a `content archive <export-content.html#create-a-manual-"
+"content-archive>`_ itself."
+msgstr ""
+
+#: ../../source/host/add-content/upload-content.rst:18
+#: ../../source/host/maintain-domain/backup-domain.rst:92
+msgid "Click 'Upload Content'."
+msgstr ""
+
+#: ../../source/host/add-content/upload-content.rst:19
+msgid ""
+"Confirm that you are sure that you want to replace your current content "
+"with the new content set."
+msgstr ""
+
+#: ../../source/host/configure-settings.rst:15
+#: ../../source/host/configure-settings/network-settings.rst:3
+msgid "Define Your Network Settings"
+msgstr ""
+
+#: ../../source/host/configure-settings.rst:15
+#: ../../source/host/configure-settings/place-setting.rst:3
+msgid "Set Up a Place Name"
+msgstr ""
+
+#: ../../source/host/configure-settings.rst:15
+msgid "Create User Groups"
+msgstr ""
+
+#: ../../source/host/configure-settings.rst:15
+#: ../../source/host/configure-settings/permission-settings.rst:3
+msgid "Assign User Permissions"
+msgstr ""
+
+#: ../../source/host/configure-settings.rst:15
+#: ../../source/host/configure-settings/authentication-setting.rst:3
+msgid "Secure Your Domain Settings"
+msgstr ""
+
+#: ../../source/host/configure-settings.rst:15
+#: ../../source/host/configure-settings/entity-filters.rst:3
+msgid "Protect Your Domain's Content"
+msgstr ""
+
+#: ../../source/host/configure-settings.rst:15
+#: ../../source/host/configure-settings/audio-settings.rst:3
+msgid "Define Your Audio Environment"
+msgstr ""
+
+#: ../../source/host/configure-settings.rst:5
+msgid ""
+"Your domain comes with a comprehensive set of configuration options that "
+"let you customize its networking properties, security, behavior, and "
+"more. To access your domain settings:"
+msgstr ""
+
+#: ../../source/host/configure-settings.rst:8
+msgid ""
+"For local servers running on any OS, go to "
+"http://localhost:40100/settings."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:5
+msgid ""
+"Audio is an integral part of a visitor's experience in your domain. "
+"Quality audio is essential for easy communication between real people, "
+"and it has a meaningful impact on a user's sense of immersion and "
+"presence in the world."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:7
+msgid ""
+"You define exactly how Vircadia's 3D immersive, stereo audio is "
+"implemented in your domain. Not only can you control the audio mixer's "
+"server configuration to a certain degree, you have full control over the "
+"attenuation and reverb levels throughout the entire domain. By defining "
+"zones, you can define sound-proof areas for private meetings and "
+"amplified stages for presentations. All of this is possible by changing "
+"the audio settings in your domain settings."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:14
+msgid "Audio Environment"
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:16
+msgid ""
+"The audio environment defines how sound carries throughout your domain. "
+"We've designed our default audio settings to mimic reality - that is, we "
+"attempt to achieve a sense of presence by reflecting voices and sounds "
+"off of the surfaces in the virtual space. In addition, we adjust the "
+"volume of sound based on the distance between the source and the "
+"listener."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:18
+msgid ""
+"However, we understand that our equation may not match exactly what "
+"you're looking for in your domain. You can change your domain-wide audio "
+"settings by adjusting the attenuation and the reverb levels (go to "
+"**Domain Settings > Content > Audio Environment**)."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:20
+msgid ""
+"*Attenuation* determines how much quieter sounds get over distance. The "
+"default domain attenuation is the amount of noise reduction that is "
+"enabled across the domain environment. Vircadia domains default to a "
+"distance attenuation curve roughly like the real world. If you see two "
+"avatars talking in the distance, you can hear them, but not very well. If"
+" you approach them, they become more audible in a manner that "
+"approximates what you're likely to be used to. If the default attenuation"
+" is 0, no matter how far away a sound source is, it still plays at full "
+"volume. Likewise, the default attenuation for a domain can be set very "
+"high (to a max value of 1), making only things very near to you audible."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:21
+msgid ""
+"*Reverb* enables echo-like effects in your domain. It can give the effect"
+" of sounding like you are in a large empty room, deep inside a large "
+"cave, or inside a tiny room like a tiled shower. The 'Reverb Decay Time' "
+"defines how long you can hear an echo after the initial sound. 'Wet/Dry "
+"Mix' sets the percentage mix of the reverb tail relative to the original "
+"\"dry\" signal. Levels between 5-25% will generally give you useful "
+"results. For a very thick reverb, you might try a value as high as 50% "
+"where the reverb is nearly as loud as the original signal."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:25
+msgid "Audio Zones"
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:27
+msgid ""
+"A \"zone\" is a 3D area where you can define custom properties. In the "
+"case of an audio zone, it is a 3D area with its own unique attenuation "
+"and reverb properties defined. For example, an audio zone could be used "
+"to create two separate rooms in the same domain, where the sound does not"
+" migrate over into the other room."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:29
+msgid "To define an audio zone:"
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:37
+msgid "On the top menu bar, select **Content > Audio Environment**."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:38
+msgid "Under 'Zones', click the ``+`` icon."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:39
+msgid "Enter a name for the zone, along with the zone's coordinates."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:40
+msgid ""
+"(Optional) If you have more than one zone, then you can set up the "
+"attenuation relationship between two specific zones. This relationship is"
+" known as the \"attenuation coefficient\". When the attenuation "
+"coefficient is 0, there is no change to the attenuation between zones; at"
+" 1, you won't be able to hear someone in another zone."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:41
+msgid ""
+"Under 'Reverb Settings', click the ``+`` icon, enter the zone name from "
+"step 4, and define the reverb levels for the zone."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:42
+#: ../../source/host/maintain-domain/backup-domain.rst:26
+msgid "Save your domain settings."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:46
+msgid "Audio Threading and Buffers"
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:48
+msgid ""
+"The 'Audio Threading' and 'Audio Buffer' sections of the Domain Settings "
+"define the server configuration for the audio mixer. Here, you can "
+"determine the number of threads the audio mixer uses to process audio, "
+"and when to throttle or buffer a heavy-loaded system."
+msgstr ""
+
+#: ../../source/host/configure-settings/audio-settings.rst:50
+msgid ""
+"These are advanced domain server settings. Do not modify without prior "
+"technical knowledge of servers."
+msgstr ""
+
+#: ../../source/host/configure-settings/authentication-setting.rst:5
+msgid ""
+"Add authentication (i.e. a username and password) to protect your domain "
+"settings from being modified by unauthorized users. Anyone who tries to "
+"modify your domain settings will need the username and password to make "
+"changes."
+msgstr ""
+
+#: ../../source/host/configure-settings/authentication-setting.rst:7
+msgid ""
+"For cloud domains, you are required to set up a username and password as "
+"part of the setup process. Authentication is optional for domains running"
+" local servers."
+msgstr ""
+
+#: ../../source/host/configure-settings/authentication-setting.rst:9
+msgid "To set up and/or change the authentication for your domain settings:"
+msgstr ""
+
+#: ../../source/host/configure-settings/authentication-setting.rst:17
+msgid "Scroll to 'Security'."
+msgstr ""
+
+#: ../../source/host/configure-settings/authentication-setting.rst:18
+msgid ""
+"For 'HTTP Username' and 'HTTP Password', enter a username and password "
+"for basic HTTP authentication."
+msgstr ""
+
+#: ../../source/host/configure-settings/authentication-setting.rst:20
+msgid ""
+"This username and password is not connected in any way to your Vircadia "
+"account, and is used only to access the settings for this specific cloud "
+"domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/authentication-setting.rst:22
+msgid "Re-enter your password into 'Verify HTTP Password'."
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:5
+msgid ""
+"Entity filters are specialized JavaScript functions that prevent unwanted"
+" modifications to entities in your domain. They can be applied to a whole"
+" server or to specific zones within a domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:13
+msgid "Add an Entity Filter to Your Domain"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:15
+msgid ""
+"Your domain can connect to any entity filter that is hosted on your Asset"
+" Server or the cloud. Once you've written a script (or use one of our "
+"own), upload it to your ATP server or a cloud hosting service of your "
+"choice. Then:"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:23
+msgid "On the top menu bar, select **Content > Entities**."
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:24
+msgid "Click the 'Advanced Settings' button."
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:25
+msgid "Under 'Filter Entity Edits', enter the URL of your entity filter script."
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:30
+msgid "Add an Entity Filter to a Zone in Your Domain"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:32
+msgid ""
+"You can choose to apply an entity filter to a specific zone within your "
+"domain, rather than to the entire domain. To do this:"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:34
+msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:35
+msgid "In the Entity List, locate and select the zone you want to protect."
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:36
+msgid "In the Create Tools, click on the 'Properties' tab."
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:37
+msgid "For 'Filter', enter the URL of your entity filter script."
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:42
+msgid "Included Entity Filters"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:44
+msgid ""
+"Vircadia comes installed with a number of sample entity filter scripts. "
+"These are located in the following directories:"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:46
+msgid ""
+"**Windows:** %Program "
+"Files%/Local/Vircadia/scripts/tutorials/entity_edit_filters"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:47
+msgid ""
+"**Mac:** "
+"~/Applications/Vircadia/interface/Contents/Resources/scripts/tutorials/entity_edit_filters"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:49
+msgid ""
+"These sample scripts show you how protect domain content by doing things "
+"like:"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:51
+msgid "Keep an entity inside a bounding box"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:52
+msgid "Only allow entities to be moved 5 meters or less"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:53
+msgid "Prevent the addition of entities named \"Bob\""
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:54
+msgid "Prevent entities from being deleted"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:56
+msgid ""
+"Feel free to use these entity filters as-is or modify them to meet your "
+"own security needs for your domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:60
+msgid "Additional Script Examples"
+msgstr ""
+
+#: ../../source/host/configure-settings/entity-filters.rst:62
+msgid ""
+"Here are a few more script examples to help you create your own entity "
+"filters::"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:5
+msgid ""
+"The **Metaverse/Networking** section of the Domain Settings defines all "
+"of the network settings for your domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:7
+msgid ""
+"Changing any network settings will affect how High Fidelity's servers "
+"connects to your domain. Before making any changes to the settings, "
+"ensure that you have a basic understanding of networking concepts (IP, "
+"UDP, ports, etc) as changing these settings can impact visitors or (if "
+"you're running a local server) put your system at risk."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:14
+msgid "Linked High Fidelity Account"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:16
+msgid ""
+"Every domain is linked to one High Fidelity account, who is the owner of "
+"that domain. When you link your account, an OAuth access token is created"
+" and grants your account access to modify domain settings, and access "
+"groups necessary for domain operations. In addition, you can access your "
+"account-specific settings and purchases, such as place names."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:18
+msgid ""
+"The status of your linked High Fidelity account is reflected at the top "
+"of the Metaverse/Networking section of the domain settings. You can also "
+"view your access token on this page (under 'Advanced Options')."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:24
+msgid "Automatic Networking"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:26
+msgid ""
+"The automatic networking settings define how other nodes in the metaverse"
+" connect to your domain. These nodes include the avatar mixer, audio "
+"mixer, entity server, asset server, entity script server and messages "
+"mixer."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:28
+msgid ""
+"Do not change any network settings for cloud hosted domains. These are "
+"configured as part of the automatic setup process that occurs when you "
+"purchase a DigitalOcean droplet through High Fidelity. Changing any of "
+"these network settings may cause your cloud hosted domain to not work as "
+"intended."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:30
+msgid "Choose from the following automatic networking options:"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:32
+msgid ""
+"**None**: The network address and port displayed will be used to connect "
+"your domain. They are never automatically updated, and your domain must "
+"be reachable at the address and port you set."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:33
+msgid ""
+"**IP Only**: Your domain will update the network address displayed to "
+"whatever it detects as your current IP address. The port displayed will "
+"not be automatically changed, so your domain must be reachable on the "
+"specified port. This option is recommended for a local server running on "
+"a home network with a dynamically changing public IP address."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:34
+msgid ""
+"**Full**: Your domain will provide the networking information to High "
+"Fidelity's servers, so that new clients can connect to it via UDP hole "
+"punch without needing to make any changes to NAT or firewall settings. "
+"This may not work for all networks."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:36
+msgid ""
+"Depending on the automatic networking method you choose, define the "
+"network address and/or port in the fields provided."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:38
+msgid ""
+"If you intend to host multiple domains on the same network and router, be"
+" sure to set each domain to a separate UDP port. You can use the value "
+"\"0\" to have your domain select a random port, which will help prevent "
+"port collisions."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:44
+msgid "Domain ID"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:46
+msgid ""
+"Each domain on the metaverse is assigned a unique domain ID. High "
+"Fidelity uses this ID to track where certified Marketplace items are "
+"rezz'd, to link domains to place names, to identify domain owners and "
+"more."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:48
+msgid ""
+"If you don't want your domain to be registered in the metaverse, leave "
+"the Domain ID field blank."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:50
+msgid ""
+"Do not change the domain ID for cloud hosted domains. This is assigned to"
+" your domain when you purchase a DigitalOcean droplet through High "
+"Fidelity, and changing it may result in errors on your domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:56
+msgid "Enable Packet Verification"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:58
+msgid ""
+"When 'Enable Packet Verification' is turned on, High Fidelity sends "
+"secure checksums on communications that use the High Fidelity protocols. "
+"This increases security in your domain, but may slightly decrease domain "
+"performance for your visitors."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:5
+msgid ""
+"You can protect your domain by setting user permission for the visitors "
+"in your domain. In your domain settings, you control the types of users "
+"that have access to your domain, and the permissions granted to them. For"
+" example, you can let anyone connect to your domain, but only give "
+"friends access to edit your domain content."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:12
+msgid "Set User Permissions"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:14
+msgid ""
+"Permissions can be assigned to standard user groups, custom user groups, "
+"specific users, users from a specific IP, and users from specific "
+"computers."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:16
+msgid ""
+"The permissions for a user will be the sum of all groups that the user is"
+" in. For example, let's say that all logged in users can connect and only"
+" localhost users can rez entities. If a user is both logged in and on  "
+"ocalhost, then they will be able to both connect and rez entities. "
+"Additionally, when you assign user permissions to a specific user, it "
+"will supersede any group-level permissions that otherwise might apply to "
+"that user."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:18
+msgid "To assign user permissions:"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:26
+msgid "Scroll to 'Domain-Wide User Permissions'."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:27
+msgid ""
+"First, set any permissions for the `standard user groups`_. Check the box"
+" of all permissions you'd like to grant."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:28
+msgid ""
+"To assign all other permissions, you need to add a custom group, specific"
+" user, etc individually to the correct permissions table:"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:30
+msgid ""
+"**Add Group**: Enter the name of the :doc:`custom group or list <user-"
+"groups>`, then click the ``+`` icon. Save your domain settings to load "
+"ranks. Check the box of all permissions you'd like to grant or deny "
+"(depending on the permissions table you are adding the group to)."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:33
+msgid ""
+"**Add Specific User**: Click the ``+`` icon, then enter a specific user "
+"name. Check the box of all permissions you'd like to grant."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:36
+msgid ""
+"**Add IP Address, MAC Address, or Machine Fingerprint**: Click the ``+`` "
+"icon, then enter the information (based on the permissions table you are "
+"adding permission to). Check the box of all permissions you'd like to "
+"grant."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:37
+msgid "Click 'Save' to save your domain settings."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:41
+msgid "Standard User Groups"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:43
+msgid ""
+"Your domain comes with four basic security groups that are already set "
+"up, based on the people that you will interact with in the metaverse. "
+"They are:"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:46
+msgid "User Type"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:48
+msgid "anonymous"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:48
+msgid ""
+"A person who is not logged in and is using an instance of Vircadia's "
+"Interface. This is the default user type for someone who has downloaded "
+"Interface for the first time."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:52
+msgid "friends"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:52
+msgid ""
+"A user that you have connected with by shaking hands with their avatar "
+"and clicking on the 'Friends' checkbox in your **People** app. "
+"Connections are different from Friends. By default, Friends have more "
+"permissions in your domains than your Connections. Connections are "
+"treated like anonymous users."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:57
+msgid "localhost"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:57
+msgid ""
+"A user who is running Interface on the same machine where the server is "
+"hosted. Localhost users do not need to be logged in and have permissions "
+"that override non-user-specific permissions."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:61
+msgid "logged-in"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:61
+msgid ""
+"A user that is logged into their Vircadia account while using Interface. "
+"They do not need to be a Friend or a Connection to have server rights. "
+"Permissions that are granted to a specific user override all other "
+"permissions."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:66
+msgid ""
+"The 'Connect' permission for these standard user groups determine the "
+"privacy level of your domain:"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:68
+msgid ""
+"**Public**: A public domain allows 'anonymous' and/or 'logged-in' users "
+"to connect to it. These domains may be featured in the GoTo app and in "
+"other places around the metaverse."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:69
+msgid ""
+"**Private**: A private domain does not allow 'anonymous' and/or 'logged-"
+"in' users to connect to it. Domain owners are responsible for promoting "
+"their domains to other users and maintaining connect permissions for "
+"users to enter their domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:73
+msgid "User Permissions"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:75
+msgid "The actions that you can secure for each type of user are as follows:"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:78
+msgid "Permissions"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:78
+msgid "Definition"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:80
+msgid "Connect"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:80
+msgid "Sets whether a user can enter the domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:82
+msgid "Lock/Unlock"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:82
+msgid ""
+"Sets whether a user can change the \"locked\" property of an entity to "
+"prevent it from being modified."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:85
+msgid "Rez"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:85
+msgid ""
+"Sets whether a user can permanently create (or rez) new entities in the "
+"domain. These users will also have full access to the **Create** app."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:88
+msgid "Rez Temporary"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:88
+msgid ""
+"Sets whether a user can create (or rez) new entities with a finite "
+"lifetime (the lifetime is set in **Domain Settings > Entities > Advanced "
+"Settings > Maximum Lifetime of Temporary Entities**). These users will "
+"also have full access to the **Create** app."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:93
+msgid "Rez Certified"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:93
+msgid ""
+"Sets whether a user can permanently create (or rez) new entities that "
+"were purchased from the Marketplace."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:96
+msgid "Rez Temporary Certified"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:96
+msgid ""
+"Sets whether a user can create (or rez) new entities from the Marketplace"
+" for a finite lifetime (the lifetime is set in **Domain Settings > "
+"Entities > Advanced Settings > Maximum Lifetime of Temporary Entities**)."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:100
+msgid "Write Assets"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:100
+msgid ""
+"Sets whether a user can add assets (models, audio,  or other files) or "
+"make changes to the domain's asset server (your domain's file storage "
+"space)."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:103
+msgid "Ignore Max Capacity"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:103
+msgid ""
+"Sets whether a user can enter a domain even if it has reached or exceeded"
+" the specified capacity limit."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:106
+msgid "Kick Users"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:106
+msgid "Sets whether a user is allowed to ban other users from a domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:108
+msgid "Replace Content"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:108
+msgid ""
+"Sets whether a user can change the entire content set of a domain by "
+"wiping the existing content."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:111
+msgid "Can Get and Set Private User Data"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:111
+msgid ""
+"Sets whether a user can access and write to the 'Private User Data' "
+"property of entities in the domain. Private user data is a property of "
+"entities that can only be set and retrieved through scripting via the "
+"``privateUserData`` property of the `EntityProperties "
+"<https://apidocs.vircadia.dev/Entities.html#.EntityProperties>`_ type "
+"definition."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:5
+msgid ""
+"While you can travel to a domain using its IP address, IP addresses are "
+"difficult to remember, often change depending on your network setup, and "
+"are not very attractive sounding. Telling a friend \"Meet me in 20 "
+"minutes at IP address ...\" just doesn't cut it in a fun, virtual "
+"environment."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:7
+msgid ""
+"Place names, on the other hand, make it easy to travel to your domain. "
+"They're memorable, and give context to visitors to remember your virtual "
+"world. Imagine someone saying \"Wow, I had a great time at Deerhaven last"
+" night!\" and you can smile knowing that they're talking about your "
+"domain, Deerhaven."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:14
+msgid "Purchase a Place Name"
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:16
+msgid ""
+"Place names are purchased from Vircadia for $20/year. Once purchased, a "
+"place name can be transferred freely between any of your domains."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:18
+msgid ""
+"If you would like to use HFC to purchase a place name, `schedule an "
+"appointment with the Vircadia banker "
+"<https://meetings.hubspot.com/highfidelity/high-fidelity-bank-"
+"appointment>`_. Here, you can purchase a coupon that can be used to "
+"purchase a place name using the process below."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:20
+msgid ""
+"Go to https://highfidelity.com/user/places to purchase a place name. If "
+"you’re not logged in, you will be prompted to do so."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:21
+msgid "Click 'Create a Place Name'."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:22
+msgid ""
+"Type in your new Place Name. Place Names must be 4-64 characters in "
+"length. Letters, numbers and hyphens are allowed. You can use any place "
+"name that has not been already purchases; however, please note that "
+"Vircadia reserves the right to reject any registration we deem obscene, "
+"offensive, or a copyright violation, and refund the corresponding "
+"registration fees."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:23
+#: ../../source/host/configure-settings/user-groups.rst:21
+msgid "Click 'Checkout Now'."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:24
+#: ../../source/host/configure-settings/user-groups.rst:22
+msgid ""
+"Enter your credit card number, PayPal account information or a coupon "
+"code to complete the purchase."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:28
+msgid "Configure Your Place Name"
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:30
+msgid ""
+"A place name points to a specific coordinate in the metaverse. Not only "
+"does it point to a domain, but it also defines the exact position  in "
+"your domain where your visitors will spawn in. There are two different "
+"ways to configure your place name settings, and they achieve the same "
+"thing."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:32
+msgid "**Method 1 - Use the Domain Settings**"
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:34
+msgid "This sets up your place name directly from your domain settings."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:42
+msgid "Scroll to 'Places'."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:43
+msgid "In the grid, click the ``+`` icon to add a place name to this domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:44
+msgid "Choose the place name you want to use from the dropdown list."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:45
+msgid ""
+"For 'Path or Viewpoint', enter the coordinates where your visitors will "
+"spawn."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:50
+msgid "**Method 2 - Use 'My Places'**"
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:52
+msgid ""
+"This sets up your place name from your Vircadia account. Before moving "
+"forward, make sure you have the `domain ID <network-settings.html#domain-"
+"id>`_ of your domain. You will need this to point your place name to your"
+" domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:54
+msgid ""
+"Go to https://highfidelity.com/user/places. If you’re not logged in, you "
+"will be prompted to do so."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:55
+msgid "Click the 'Edit' icon next to the place name you want to configure."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:56
+msgid "For 'Points to', enter the domain ID of your domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:57
+msgid "For 'Path', enter the coordinates where your visitors will spawn."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:58
+msgid ""
+"(Optional) Enter a description for your domain. This shows up when a user"
+" clicks the info icon if your domain is displayed in the GoTo app."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:59
+msgid ""
+"(Optional) Upload a preview image of your domain. This shows up when your"
+" domain is displayed in the GoTo app."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:60
+msgid "Click 'Update Place'."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:3
+msgid "Custom User Groups"
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:5
+msgid ""
+"You can create user groups to include your own list of High Fidelity "
+"users. Once a user group is set up, you can :doc:`assign it permissions "
+"<permission-settings>` as you would any of the standard user types above."
+" The permissions are applied to every member of the group."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:7
+msgid "Custom user groups are purchased from High Fidelity for $5/year."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:14
+msgid "Create a User Group"
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:16
+msgid "To set up a custom group:"
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:18
+#: ../../source/host/configure-settings/user-groups.rst:38
+#: ../../source/host/configure-settings/user-groups.rst:50
+msgid ""
+"Go to https://highfidelity.com/user/groups. If you’re not logged in, you "
+"will be prompted to do so."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:19
+msgid "Click 'Create New Group or List'."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:20
+msgid "Enter a name for your custom user group."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:23
+msgid ""
+"High Fidelity offers two types of user groups. Choose the type that best "
+"fits your needs:"
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:25
+msgid ""
+"**Group**: Members will receive an invitation to join the group. It is up"
+" to the invited user whether or not they join, and they are free to leave"
+" the group at any time. Groups are recommended for clubs, bands, teams, "
+"etc."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:26
+msgid ""
+"**List**: The owner of the user group adds each member account without "
+"notifying the user. Lists are recommended for blacklists and whitelists."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:27
+msgid ""
+"Click 'Create New Group' or 'Create New List' (depending on the selection"
+" above)."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:28
+msgid "Confirm your purchase."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:32
+msgid "Set Up Ranks"
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:34
+msgid ""
+"Within a group, you can create sub-groups to restrict permissions even "
+"further. These sub-groups are called \"ranks\". For example, a group for "
+"a band boosters club may have ranks for \"youth\" and another for "
+"\"parents\" - two different groups of members within the same "
+"organization, each requiring different permissions."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:36
+msgid "To set up ranks:"
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:39
+#: ../../source/host/configure-settings/user-groups.rst:51
+msgid "Click on your user group or list."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:40
+msgid "For 'New Rank Name', enter a name for your rank (for example \"Youth\")."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:41
+msgid "Click 'Create New Rank'."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:42
+msgid ""
+"(Optional) Update the group, rank, and member permissions for this rank. "
+"These permissions affect whether members can view and/or edit any part of"
+" the group, including the group properties, its ranks or its members. If "
+"you made any modifications, click 'Update Rank'."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:46
+msgid "Add Members to Groups and Lists"
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:48
+msgid ""
+"Now that your user group (and ranks) are created, you need to add members"
+" to your user group. To add users:"
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:52
+msgid "Scroll to 'Members'."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:53
+msgid "For 'New Member Name', enter the username of the user you want to add."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:54
+msgid "Select the rank you'd like the member to have."
+msgstr ""
+
+#: ../../source/host/configure-settings/user-groups.rst:55
+msgid "Click 'Add Member'."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:5
+msgid ""
+"Now that you have a domain up and running, its time to invite people in "
+"to your domain and create your community in the virtual world. Here are "
+"some ways to bring more visitors in to your domain."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:12
+msgid "Invite Your Friends"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:14
+msgid ""
+"Nothing is more inviting than a personal invitation to come check out an "
+"exciting, new place in the metaverse! Invite your friends with a personal"
+" message to visit your domain."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:16
+msgid ""
+"Share your domain by giving out its IP address or place name. Anyone with"
+" a Vircadia account can enter the IP address or place name directly into "
+"the GoTo app to teleport directly to your domain."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:20
+msgid ""
+"TIP: You can send other Vircadia users clickable URLs that send them "
+"directly to your domain. Simply send them the URL "
+"``https://hifi.place/<domain IP | place name>``. When they click the "
+"link, they will be prompted to open Interface.exe and land at the spawn "
+"point in your domain."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:24
+msgid "Add Your Domain to the Explore App"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:26
+msgid ""
+"The Explore app is designed to advertise public domains across the "
+"metaverse."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:28
+msgid ""
+"In order to be featured on Vircadia's Explore app, you must add a "
+"location marker by opening the app and going to the spot in your domain "
+"that you want people to spawn at. In your app, scroll to the bottom and "
+"click the \"Add Location\" button, fill it out and you should be set! You"
+" may want to open your domain to the public, such as being open to logged"
+" in users or everyone. This means that, in your Domain Settings, under "
+"'Standard Permissions', either the 'anonymous' or 'logged-in' group must "
+"have the Connect permission."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:30
+msgid ""
+"To restrict access to your domain, you will need to create a blacklist of"
+" users without permission to connect to your domain. This can be set up "
+"by username, IP address, MAC address or machine fingerprint."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:34
+msgid "Promote Your Community Event with Vircadia"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:36
+msgid ""
+"To get your event or experience added to the calendar on our website, you"
+" can submit it to us by filling out by joining our "
+"`Discord<https://discordapp.com/invite/Pvx2vke>` server and reaching out "
+"to a Core Team Member."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:38
+msgid "It will then be:"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:40
+msgid "Added to Vircadia's `Events Calendar <https://www.vircadia.com/events>`_"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:41
+msgid "Promoted on Vircadia's social channels"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:45
+msgid "Blast to Connections"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:47
+msgid ""
+"If you want to let all of your Vircadia colleagues know about something "
+"that’s happening right now, you can blast an announcement to all of your "
+"connections. Within about a minute, all of your interested `connections "
+"and friends <../explore/socialize.html#make-connections-and-friends>`_ "
+"will get notified whenever they come online."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:49
+msgid "To send a blast notification:"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:51 ../../source/host/invite-users.rst:65
+msgid "Take a snapshot of your domain."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:53 ../../source/host/invite-users.rst:67
+msgid "In Interface, pull up your Tablet or HUD and go to **Snap**."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:54 ../../source/host/invite-users.rst:68
+msgid "In the Snapshot app, press the large red circle to capture a snapshot."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:55
+msgid "Choose to 'Share: Blast to Connections'."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:57
+msgid ""
+"When a friend or connection clicks on the notification, it will open the "
+"GoTo app with your snapshot available. Clicking on the snapshot will take"
+" them directly to the place where the picture was taken within the "
+"metaverse."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:61
+msgid "Post a Snapshot on Social Media"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:63
+msgid "You can also share your domain directly to Twitter or Facebook. To do so:"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:69
+msgid "Choose to 'Share to Facebook' or 'Share to Twitter'."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:70
+msgid "Log in to your social media account."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:72
+msgid ""
+"When someone clicks the story in their Facebook or Twitter feed, they are"
+" taken to a page that gives them more info about the domain. Clicking the"
+" picture or “visit” button on that page will bring them to the place "
+"where the picture was taken within the metaverse (if they have Interface "
+"installed)."
+msgstr ""
+
+#: ../../source/host/maintain-domain.rst:7
+#: ../../source/host/maintain-domain/backup-domain.rst:3
+msgid "Backup and Restore Your Domain"
+msgstr ""
+
+#: ../../source/host/maintain-domain.rst:7
+msgid "Manage Domain Visitors"
+msgstr ""
+
+#: ../../source/host/maintain-domain.rst:7
+#: ../../source/host/maintain-domain/update-software.rst:3
+msgid "Update to the Latest Version"
+msgstr ""
+
+#: ../../source/host/maintain-domain.rst:7
+#: ../../source/host/maintain-domain/script-maintenance.rst:3
+msgid "Maintain Your Domain with Scripts"
+msgstr ""
+
+#: ../../source/host/maintain-domain.rst:7
+#: ../../source/host/maintain-domain/view-logs.rst:3
+msgid "View Domain Server Logs"
+msgstr ""
+
+#: ../../source/host/maintain-domain.rst:5
+msgid ""
+"Domain servers are generally managed and maintained by admins. As the "
+"domain owner, it is likely that you'll need to take some responsibility "
+"to keep your server running in good shape. Some of these tasks include "
+"creating backups, managing unruly visitors, updating software, and "
+"cleaning the domain of unnecessary entities and extraneous content."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:5
+msgid ""
+"We recommend that you do backups of your domain in case of data loss or "
+"griefing. While your domain server does perform automatic backups "
+"periodically of your domain's content, it is up to you to configure the "
+"frequency these backups that are performed. In addition, we recommend "
+"that you periodically download copies of these backups to your computer "
+"as a secondary backup."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:12
+msgid "Automatic Content Archives"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:14
+msgid ""
+"Your domain server makes regular archives of the content in your domain. "
+"By default, it saves a backup rolling every 30 days, every week, every "
+"day, and every half hour. To change the frequency of these backups:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:22
+msgid "On the top menu bar, select **Settings > Automatic Content Archives**."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:23
+msgid "Under 'Rolling Backup Rules', click the ``+`` icon."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:24
+msgid ""
+"Enter a name for the rule, along with the backup interval (in seconds) "
+"and the number of backups to store on the server."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:25
+msgid "Click the ``X`` icon next to any rule you want to delete."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:28
+msgid "To access your content archives:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:33
+msgid "The automatic backups will be listed under 'Automatic Content Archives'."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:37
+msgid "Manually Backup Your Domain Content"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:39
+msgid "In the case you need a backup on demand, you can create one:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:43
+msgid ""
+"For cloud hosted domains: Open a browser and enter the URL http://<insert"
+" your server's IP address here>:40100/cloud_domains. Log in when "
+"prompted."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:49
+msgid "Enter a name for your archive and click 'Generate Archive'."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:51
+msgid "It will appear just below the 'Generate New Archive' button."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:55
+msgid "Download Content Archives"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:57
+msgid "To download any content archive (automatic or manual):"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:66
+msgid "Locate the content archive you want to download."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:71
+msgid "Restore a Domain's Content"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:73
+msgid "To restore content to a previous archive on this domain:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:82
+msgid "Locate the content archive you want to restore."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:83
+msgid "From the Actions menu, click 'Restore from here'."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:84
+#: ../../source/host/maintain-domain/backup-domain.rst:93
+msgid ""
+"Confirm that you are sure that you want to replace your current content "
+"with the restored content set. At this point, your domain server will "
+"restart and the new content will be deployed in your domain."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:86
+msgid "To restore content from a downloaded content archive:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:91
+msgid "Browse to the downloaded content archive."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:97
+msgid "Backup Your Domain Settings"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:99
+msgid ""
+"To backup your domain's so you can quickly configure another domain or "
+"restore them later:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:107
+msgid "On the top menu bar, select **Settings > Setting Backup /Restore**."
+msgstr ""
+
+#: ../../source/host/maintain-domain/backup-domain.rst:108
+msgid "Click 'Download Domain Settings'."
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:3
+msgid "Maintain Domain Visitors"
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:5
+msgid ""
+"Occasionally, you may get users who you don't want in your domain. "
+"Whether you forgot to set the correct user permissions, or the person is "
+"being rude and uncooperative, you have the ability to silence or ban "
+"users from your domain."
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:7
+msgid ""
+"These administrative functions of silencing and banning users from a "
+"domain require the 'Kick Users' permission. Ensure you have this "
+":doc:`user permission enabled <../configure-settings/permission-"
+"settings>` before attempting to monitor the users in your domain."
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:14
+msgid "Silence a User in Your Domain"
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:16
+msgid ""
+"Many times, a visitor in your domain simply does not have the correct "
+"audio settings defined on their computer. As a result, they may output "
+"uncomfortable sounds into your domain (heavy breathing, typing, "
+"background noise, and white noise are audio issues people have when they "
+"first download High Fidelity)."
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:18
+msgid "To silence a specific user in your domain:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:20
+#: ../../source/host/maintain-domain/manage-visitors.rst:35
+msgid "Visit your domain."
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:21
+#: ../../source/host/maintain-domain/manage-visitors.rst:36
+msgid "In Interface, pull up your Tablet or HUD and go to **People**."
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:22
+#: ../../source/host/maintain-domain/manage-visitors.rst:37
+msgid "Locate the user you would like to silence."
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:23
+msgid "Under the 'Admin' section, click the icon in the 'Silence' column."
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:25
+msgid "This will mute the user for everyone in the domain."
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:29
+msgid "Ban a User from Your Domain"
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:31
+msgid "In some cases, a user may cause themselves to be unwelcome in your domain."
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:33
+msgid "To permanently ban a visitor from your domain:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:38
+msgid "Under the 'Admin' section, click the icon in the 'Ban' column."
+msgstr ""
+
+#: ../../source/host/maintain-domain/manage-visitors.rst:40
+msgid ""
+"The user will not be able to enter the domain using the same account; "
+"however, they will still have access to other High Fidelity domains."
+msgstr ""
+
+#: ../../source/host/maintain-domain/script-maintenance.rst:5
+msgid ""
+"You can \"clean up\" your domain using an :doc:`assignment client script "
+"<../../script/assignment-client-scripts>` that regularly performs "
+"maintenance tasks on your domain. For example, a script can remove "
+"entities that are not part of your default content set, load tools to "
+"help you inspect the contents of your domain, or identify loud avatars  "
+"and them in your domain."
+msgstr ""
+
+#: ../../source/host/maintain-domain/script-maintenance.rst:12
+msgid "Write a Script"
+msgstr ""
+
+#: ../../source/host/maintain-domain/script-maintenance.rst:14
+msgid ""
+"With scripts, you are free to use our expansive `JavaScript API "
+"<https://apidocs.vircadia.dev>`_ to code any task that your programming "
+"expertise and creativity can come up with. Here, we've written an example"
+" assignment client script that returns our domain content to its default "
+"state every 1 hour. This means that any other entities rezz'd in our "
+"domain will be deleted within the hour by the script::"
+msgstr ""
+
+#: ../../source/host/maintain-domain/script-maintenance.rst:65
+msgid "Add Assignment Client Script to Domain"
+msgstr ""
+
+#: ../../source/host/maintain-domain/script-maintenance.rst:67
+msgid "To run your script on your domain:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/script-maintenance.rst:69
+msgid "Save and upload your script to a cloud hosting site."
+msgstr ""
+
+#: ../../source/host/maintain-domain/script-maintenance.rst:76
+msgid "On the top menu bar, select **Content > Scripts**."
+msgstr ""
+
+#: ../../source/host/maintain-domain/script-maintenance.rst:77
+msgid "Under 'Persistent Scripts', click the ``+`` icon."
+msgstr ""
+
+#: ../../source/host/maintain-domain/script-maintenance.rst:78
+msgid "Paste the URL to your script under ‘Script URL’."
+msgstr ""
+
+#: ../../source/host/maintain-domain/script-maintenance.rst:79
+msgid "Save and restart your domain."
+msgstr ""
+
+#: ../../source/host/maintain-domain/script-maintenance.rst:81
+msgid ""
+"Now, the script will be running persistently on your domain until you "
+"either remove it or shut down the domain entirely."
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:5
+msgid ""
+"Vircadia is always changing, as we work to improve performance and add "
+"features that will enhance your experience in the metaverse. If a new "
+"version has been released, all of our users will be prompted to update to"
+" the latest (and most stable) release."
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:12
+msgid "Protocol Compatibility"
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:14
+msgid ""
+"Vircadia requires that the client and server (the visitor's installed "
+"software and the server's software) maintain protocol compatibility "
+"across versions. Most of our beta releases include protocol changes, and "
+"will affect the visitors who can visit your domain."
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:16
+msgid ""
+"An updated client version will be unable to connect to a domain that is "
+"not updated."
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:17
+msgid ""
+"A client running an older version will be unable to connect to a domain "
+"that is running a new version."
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:19
+msgid "Both of these will result in an error message \"Protocol Mismatch\"."
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:23
+msgid "Upgrade Your Domain Server"
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:25
+msgid ""
+"Because all of our users are prompted to update to the latest release, it"
+" is highly likely that the majority of your visitors are running the "
+"newest version of Vircadia. Therefore, if there has been a protocol "
+"change (check the :doc:`Release Notes <../../release-notes>` for your "
+"version), we strongly recommend that you upgrade your domain server to "
+"the newest release."
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:27
+msgid "To update a local server:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:29
+msgid ""
+"Download the latest `Client + Sandbox installer <https://vircadia.com"
+"/download-vircadia/#server>`_ from Vircadia's website or download the "
+"upgrade when prompted to on your server."
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:30
+msgid "On your local server, quit Sandbox:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:32
+msgid ""
+"On Windows: Click on the Vircadia icon in the system tray, then click "
+"'Quit'. Alternatively, end the ‘server-console’ background process using "
+"the Task Manager."
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:33
+msgid ""
+"On Mac: Right-click the Vircadia icon on the top menu bar, then click "
+"'Quit'."
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:34
+msgid "Run the installer."
+msgstr ""
+
+#: ../../source/host/maintain-domain/update-software.rst:36
+msgid ""
+"After installation, check your local server's domain settings to ensure "
+"that its running the most recent version."
+msgstr ""
+
+#: ../../source/host/maintain-domain/view-logs.rst:5
+msgid ""
+"Your domain server logs list the different events relevant to your High "
+"Fidelity domain. These can help you troubleshoot any issues with your "
+"domain and understand how the different parts of your domain communicate "
+"with each other."
+msgstr ""
+
+#: ../../source/host/maintain-domain/view-logs.rst:7
+msgid ""
+"Server logs are stored directly on the server in the following "
+"directories:"
+msgstr ""
+
+#: ../../source/host/maintain-domain/view-logs.rst:9
+msgid "**Windows**: %AppData%/Local/High Fidelity/Server Console/logs"
+msgstr ""
+
+#: ../../source/host/maintain-domain/view-logs.rst:10
+msgid "**Mac**: ~/Library/Application Support/High Fidelity/Server Console/Logs"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:38
+msgid "Host a Domain from a Local Windows Server"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:38
+msgid "Host a Domain from a Local, Remote, *or* Cloud Linux Server"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:3
+msgid "Set up a Domain Server"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:5
+msgid ""
+"Depending on your requirements, you can host your domain on a physical "
+"computer (by turning it into a local server) or on cloud servers. In "
+"general, we recommend using local servers for private events and "
+"gatherings, and cloud services for larger public venues. To help with "
+"hosting your domains, we have a partnership with DigitalOcean to provide "
+"affordable, integrated cloud domain services for your use."
+msgstr ""
+
+#: ../../source/host/server-setup.rst:10
+msgid "Pros"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:10
+msgid "Cons"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:12
+msgid "Local Server"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:12
+msgid "No hosting or maintenance fees"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:13
+msgid "Control over the hosted environment"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:14
+msgid "Ideal for private domains"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:12
+msgid ""
+"Hardware and network must be able to handle visitor load and content set."
+" Depending on the complexity of your domain set and the number of "
+"visitors you plan to have, you may need more than the minimum "
+"requirements"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:18
+msgid "Responsible for security and maintenance of your server"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:20
+msgid ""
+"Requires manual installation and configuration of Vircadia's Sandbox and "
+"domain"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:23
+msgid "DigitalOcean Droplet"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:23
+msgid "No need to have expensive hardware on hand to host a domain"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:25
+msgid ""
+"Ability to easily re-scale servers, adjusting memory or transfer to "
+"support more or less visitors"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:28
+msgid ""
+"A secure environment separate from your personal computer, protecting "
+"yourself from hacking attempts or griefers"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:32
+msgid "Ideal for large, public domains for hosting events or open gathering areas"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:23
+msgid "Monthly subscription cost"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:24
+msgid "Service outages may occur with the cloud provider"
+msgstr ""
+
+#: ../../source/host/server-setup.rst:36
+msgid ""
+"Once you've decided what hosting platform to use, you're ready to set it "
+"up:"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:3
+msgid "Host a Domain with DigitalOcean"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:5
+msgid "NEEDS UPDATING. THIS IS OUT OF DATE."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:7
+msgid ""
+"Hosting your domain with a cloud service, such as DigitalOcean, removes "
+"the need to set up, maintain, and secure a hosting server. For large "
+"domains with lots of visitors, it also eliminates the need to invest in "
+"high-end hardware and network capabilities."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:9
+msgid ""
+"High Fidelity has a partnership with DigitalOcean so that we can provide "
+"you with hosting services. All you need to do is create a new cloud "
+"domain, and configure your permissions and settings - let us do the rest!"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:16
+msgid "Create a New Cloud Domain"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:18
+msgid ""
+"When you create a new cloud domain directly from High Fidelity, we do a "
+"lot of the \"behind the scenes\" work for you. All you need to do is log "
+"in to High Fidelity, sign up and/or log in to a DigitalOcean account, and"
+" choose the specs for your droplet. A DigitalOcean droplet is simply a "
+"scalable virtual machine that we use to host your domain."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:20
+msgid "To create a new cloud domain:"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:22
+msgid "Log in to your High Fidelity account at https://highfidelity.com."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:23
+msgid "Hover over your username, and click 'Cloud Domains'."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:24
+msgid "Click 'Create New'."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:25
+msgid ""
+"At this step, you must log in to your DigitalOcean account and verify "
+"that billing information is set up with DigitalOcean."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:27
+msgid ""
+"If you do not have a DigitalOcean account, follow Step 1 and click the "
+"button 'Sign Up for DigitalOcean'. Through DigitalOcean's website, sign "
+"up for a new account, verify your account, and set up billing "
+"information. Once you've signed up for an account, you can close out of "
+"DigitalOcean's website."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:28
+msgid ""
+"If you already have a DigitalOcean account, we strongly encourage you to "
+"log into your account on DigitalOcean's website and verify that your "
+"billing information is set up correctly. **If you do not have accurate "
+"billing information in your DigitalOcean account, all new cloud domains "
+"creation attempts will silently fail.**"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:29
+msgid ""
+"After you have signed up for a DigitalOcean account and/or verified your "
+"billing information, follow Step 2 and click 'Connect your DigitalOcean "
+"Account' to link your High Fidelity and DigitalOcean accounts."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:30
+msgid ""
+"Choose the DigitalOcean droplet you would like to host. Prices per month "
+"vary based on the specifications for the virtual machine. Depending on "
+"the number of users you expect in your domain, we recommend:"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:33
+msgid "Users"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:33
+msgid "Memory"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:33
+msgid "VCPUs"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:33
+msgid "Transfer"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:33
+msgid "SSD Disk"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:33
+msgid "Price"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:35
+msgid "2-3"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:35
+#: ../../source/host/server-setup/cloud-domain.rst:37
+msgid "2GB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:35
+msgid "1 vCPU"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:35
+msgid "2TB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:35
+msgid "50GB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:35
+msgid "$10/mo"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:37
+msgid "5-6"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:37
+msgid "2 vCPU"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:37
+msgid "3TB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:37
+msgid "60GB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:37
+msgid "$15/mo"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:39
+msgid "10-15"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:39
+msgid "8GB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:39
+msgid "4 vCPU"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:39
+msgid "5TB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:39
+msgid "160GB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:39
+msgid "$40/mo"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:41
+msgid "25-30"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:41
+msgid "16GB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:41
+msgid "6 vCPU"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:41
+msgid "6TB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:41
+msgid "320GB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:41
+msgid "$80/mo"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:43
+msgid "40-50"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:43
+msgid "32GB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:43
+msgid "8 vCPU"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:43
+msgid "7TB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:43
+msgid "640GB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:43
+msgid "$160/mo"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:45
+msgid "160"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:45
+msgid "48GB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:45
+msgid "12 vCPU"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:45
+msgid "8TB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:45
+msgid "960GB"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:45
+msgid "$240/mo"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:48
+msgid ""
+"Choose the geographical location for your droplet. Ideally, this is a "
+"server nearby you and your domain's visitors."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:49
+msgid "Click 'Launch your cloud domain', then accept the billing notification."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:51
+msgid ""
+"At this point, High Fidelity will not only create your DigitalOcean "
+"droplet, but we will also create and register a domain for you on the "
+"metaverse. Once the status bar goes away, your domain is set up and ready"
+" to go. Feel free to test it out by visiting it via its IP address!"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:53
+msgid ""
+"On the Cloud Domains webpage, the status may say \"Setup is incomplete\"."
+" Note that *the set up did not fail in any way* and at this point, you "
+"have a fully functional, running domain. This message is there to remind "
+"you that there are additional configuration settings you may wish to "
+"customize, such as user permissions or place names. To learn more about "
+"configuration, continue to the next section."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:57
+msgid "Configure Your Domain"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:59
+msgid ""
+"After you create a new cloud domain (remember, the \"Create New Domain\" "
+"button creates both a DigitalOcean droplet *and* a domain on the "
+"metaverse), you have the option to configure its settings. At a minimum, "
+"we strongly encourage you to set up basic permissions and define how "
+"people will be able to get to your domain."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:63
+msgid ""
+"This process assumes that you are configuring a domain that you just "
+"created."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:65
+msgid ""
+"On the Cloud Domains page, locate your new cloud domain and click "
+"'Configure your domain'. If you don't see the button, click the menu (3 "
+"dots), then choose 'Configure your server'."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:66
+msgid ""
+"This opens the **Setup Wizard (Domain Server Settings)**. Note that the "
+"Wizard only opens the first time you go to the domain settings."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:67
+msgid ""
+"**Step 1: Identify place name**: Your place name is how users will visit "
+"your domain in the metaverse. By default, all cloud domains are accessed "
+"by their IP address. Custom place names can be purchased on a "
+"subscription basis, and are renewed yearly. :doc:`Learn how to purchase a"
+" custom place name for your domain<../configure-settings/place-setting>`."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:68
+msgid ""
+"**Step 2: Set up basic permissions**: By default, you are the only person"
+" with any sort of access to your domain (and you are automatically given "
+"administor privileges). If you would like to extend administor privileges"
+" to other users, then add their High Fidelity usernames here. In "
+"addition, choose who will be able to connect or rez items in your domain."
+" :doc:`Learn about setting user permissions <../configure-settings"
+"/permission-settings>`."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:69
+msgid ""
+"**Step 3: Set up server settings authentication**: Because your domain "
+"settings are stored on a remote server, we want to ensure that they are "
+"protected. To do so, we require that you set up a unique username and "
+"password. In order to access your domain settings, you will need to enter"
+" this username and password. :doc:`Learn about securing your domain "
+"settings <../configure-settings/authentication-setting>`."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:71
+msgid ""
+"This username and password is not connected in any way to your High "
+"Fidelity account, and is used only to access the settings for this "
+"specific cloud domain."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:72
+msgid "Click **Finish** to close the Setup Wizard."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:74
+msgid "Now, your domain is officially part of the expanding metaverse."
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:78
+#: ../../source/host/server-setup/windows-server.rst:69
+msgid "What's Next?"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:83
+#: ../../source/host/server-setup/windows-server.rst:74
+msgid "Visit Your Domain"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:83
+#: ../../source/host/server-setup/windows-server.rst:74
+msgid "Personalize Your Content"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:83
+#: ../../source/host/server-setup/windows-server.rst:74
+msgid "Configure More Settings"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:85
+msgid ""
+"`Go visit your domain using the GoTo app <../../explore/travel.html#goto-"
+"app>`_"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:87
+#: ../../source/host/server-setup/windows-server.rst:78
+msgid "`Invite people to your domain <../invite-us ers.html>`_"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:89
+#: ../../source/host/server-setup/windows-server.rst:80
+msgid ":doc:`Meet new people and explore other domains <../../explore/socialize>`"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:85
+#: ../../source/host/server-setup/windows-server.rst:76
+msgid ""
+"`Create a unique content set and upload it to your domain <../add-"
+"content.html>`_"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:88
+msgid ""
+"`Browse environments in the Marketplace and select the perfect content "
+"set for your VR world <../add-content/marketplace-enviro nment.html>`_"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:85
+#: ../../source/host/server-setup/windows-server.rst:76
+msgid ""
+"`Purchase a custom place name <../configure -settings/place-"
+"setting.html>`_"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:87
+#: ../../source/host/server-setup/windows-server.rst:78
+msgid ""
+"`Set additional user permissions <../config ure-settings/permission-"
+"settings.html>`_"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:89
+#: ../../source/host/server-setup/windows-server.rst:80
+msgid "`Adjust audio settings <../configure-settin gs/audio-settings.html>`_"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:91
+#: ../../source/host/server-setup/windows-server.rst:82
+msgid "`Backup your domain's content <../maintain- domain/backup-domain.html>`_"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:93
+msgid ""
+"`Update for new High Fidelity releases <../maintain-domain/update-"
+"software.html>`_"
+msgstr ""
+
+#: ../../source/host/server-setup/cloud-domain.rst:95
+#: ../../source/host/server-setup/windows-server.rst:86
+msgid "And more..."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:1
+msgid "Host a Domain from a Local or Cloud Linux Server"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:3
+msgid ""
+"The Vircadia packages can help you get your own domain up and running "
+"quickly."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:5
+msgid "Installation"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:7
+msgid ""
+"Alongside installation, these packages can also migrate an \"Athena\" "
+"domain to Vircadia. You can run them on an existing Vircadia domain to "
+"upgrade it if the original was installed using the package. Packages are "
+"currently available for the following distributions:"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:9
+msgid "Ubuntu Server 18.04 LTS"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:16
+msgid "Amazon Linux 2"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:22
+msgid "Unlisted Distribution"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:24
+msgid ""
+"If you do not see your distribution listed here, you may compile your own"
+" server from source using the Vircadia builder."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:26
+msgid "Configuration"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:28
+msgid ""
+"The installation packages will create a domain at the default port "
+"location and configure a service to keep it running on that machine."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:30
+msgid ""
+"Connect a web browser to the server at port 40100. (If you are on the "
+"machine that the server is running on, this would be "
+"http://localhost:40100) Complete the initial setup wizard and you should "
+"have a functioning domain."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:32
+msgid "Networking"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:34
+msgid ""
+"A Vircadia domain reserves a range of four ports to operate on, usually "
+"starting at 40100. (Note that the encrypted ports may not be implemented "
+"yet.) These ports are:"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:35
+msgid "40100 (+0) : (tcp) administrative http connection"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:36
+msgid "<del>40101 (+1): (tcp) administrative https (encrypted) connection</dev>"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:37
+msgid "40102 (+2): (udp) main connection from clients"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:38
+msgid "<del>40103 (+3): (udp) main connection from clients (encrypted)</dev>"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:40
+msgid ""
+"Generally speaking, only port 40102 must be publicly exposed to permit "
+"others to connect to a domain."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:42
+msgid ""
+"In addition there are six \"assignment clients\" that must run in order "
+"for the domain to be operational.  These clients run alongside the domain"
+" server and must be able to connect with any outside user.  These clients"
+" are:"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:43
+msgid "asset-server: stores object data to download to the user"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:44
+msgid "audio-mixer: controls what each user would hear"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:45
+msgid "avatar-mixer: allows users to see each other"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:46
+msgid "entity-script-server: runs actions inside the domain"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:47
+msgid "entity-server: describes the location of each object in the domain"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:48
+msgid "messages-mixer: passes messages between users in the domain"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:50
+msgid ""
+"These assignment clients use UDP connections on a port number assigned by"
+" the operating system at launch (within the ephemeral port range)."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:52
+msgid "Files"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:54
+msgid "The program files are installed in /opt/vircadia:"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:55
+msgid "/opt/vircadia contains the executables"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:56
+msgid "/opt/vircadia/lib contains libraries required for operation"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:57
+msgid "/opt/vircadia/plugins is currently used for audio codecs"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:58
+msgid "/opt/vircadia/resources is required for the administrative website"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:60
+msgid ""
+"The executables in this folder (with the exception of <code>new-"
+"server</code>) cannot be launched from the command prompt without first "
+"setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:62
+msgid ""
+"The file <code>/etc/opt/vircadia/default.conf</code> contains any "
+"environment variables necessary to running the domain."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:64
+msgid ""
+"All content is stored under <code>/var/lib/vircadia/default</code>.  All "
+"files underneath <code>/var/lib/vircadia</code> are owned by the user "
+"<code>vircadia</code>, which is also the user that runs all domain-"
+"related processes."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:66
+msgid "Services"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:68
+msgid ""
+"The installation packages setup the following systemd services to manage "
+"the Vircadia domain:"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:69
+msgid "vircadia-domain-server@default.service: Manages the core domain server"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:70
+msgid ""
+"vircadia-assignment-client@default.service: Spawns and manages the "
+"assignment clients"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:71
+msgid ""
+"vircadia-server@default.target: Controls startup and shutdown of the "
+"above services"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:73
+msgid ""
+"The <code>vircadia-server@default.target</code> service is the only one "
+"that is set to auto-start. Starting or stopping it will bring the other "
+"two services down."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:75
+msgid ""
+"The first two services log a large amount of data to their service "
+"journal. Checking their logs (via <code>systemctl status</code>) is a "
+"good way to ensure they are operating properly."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:77
+msgid "Multiple domains"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:79
+msgid ""
+"The installation package is configured to permit multiple domains to run "
+"on a single server at different port numbers. New servers can be created "
+"using the following command:"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:83
+msgid ""
+"where <code>name</code> is a word used to name and manage the domain and "
+"<code>base-port</code> must be the the first of a range of four "
+"contiguous port numbers not overlapping with any other use on the system."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:85
+msgid ""
+"Assuming you created a new server with the name second-bite, this would "
+"setup the following:"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:86
+msgid "Environment variables in <code>/etc/opt/vircadia/second-bite.conf</code>"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:87
+msgid "Content stored in <code>/var/lib/vircadia/second-bite</code>"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:88
+msgid ""
+"Services launched as <code>vircadia-domain-server@second-"
+"bite.service</code>, <code>vircadia-assignment-client@second-"
+"bite.service</code>, and <code>vircadia-server@second-bite.target</code>"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:90
+msgid "Legacy Services"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:92
+msgid ""
+"There are a number of tweaks that are made to the default configuration "
+"to simplify storage and the ability to run multiple domains on one "
+"server. In case you would like to remove this logic and run the servers "
+"closer to how the original High Fidelity domain servers were running, "
+"this is provided as an option."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:93
+msgid ""
+"Systemd services named <code>vircadia-domain-server.service</code>, <code"
+">vircadia-assignment-client.service</code>, and <code>vircadia-"
+"server.target</code> (without the @name) have simplified configuration"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:94
+msgid "No file is provided to specify environment variables for the server"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:95
+msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:3
+msgid "Host a Domain from a Local Server"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:5
+msgid ""
+"A local server lets you use your own computer to host your virtual domain"
+" on the metaverse."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:7
+msgid ""
+"Hosting any kind of server from your home means exposing your network to "
+"the world. Therefore, we recommend using local servers only for private "
+"events and small gatherings. If you want to host a public domain or "
+"advertise your domain in the GoTo app, we recommend using a hosting "
+"provider such as DigitalOcean."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:14
+msgid "Set Up Your Server"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:16
+msgid ""
+"Before you set up a local server, you should have a basic understanding "
+"of computer and networking concepts. Specifically, familiarize yourself "
+"with:"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:18
+msgid "Your system and hardware configuration"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:19
+msgid "Your network configuration"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:21
+msgid ""
+"At a minimum, the computer that you use for your server should meet our "
+"`minimum system requirements <../../explore/get-started/install.html"
+"#minimum-system-requirements>`_. However, keep in mind that as you add "
+"more visitors to your domain, the demand on your resources will increase."
+" Therefore if you wish to invite a large group (over 15 visitors) or "
+"create a complex content set, we encourage you to increase your memory "
+"and network bandwidth."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:23
+msgid ""
+"To host a domain, you must be running Vircadia's open source `Client + "
+"Sandbox <https://vircadia.com/download-vircadia/#interface>`_ software."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:25
+msgid ""
+"While we do not publish an installer for Linux computers, you can still "
+"run a local domain server on a Linux machine. To do so, you will need to "
+"build the application from our code base. For more information, see our "
+"`Linux Build Guide "
+"<https://github.com/vircadia/vircadia/blob/master/BUILD_LINUX.md>`_."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:30
+msgid "Create a Domain"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:32
+msgid "To set up a domain and host it on your local server:"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:34
+msgid "Open the **Setup Wizard (Domain Server Settings)**."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:36
+msgid ""
+"For Windows: Click on the Vircadia icon in the system tray, then click "
+"'Settings'."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:37
+msgid ""
+"For Mac: Right-click the Vircadia icon on the top menu bar, then click "
+"'Settings'."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:39
+msgid ""
+"Follow the steps of the Wizard to create a domain on the metaverse and "
+"connect it to your local server."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:41
+msgid ""
+"**Step 1: Connect your Vircadia account**: When you connect your account,"
+" you become the owner of the new domain that is created for your server. "
+"The security token that you copy and paste gives Vircadia access to your "
+"domain settings, which are stored on your local server."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:42
+msgid ""
+"**Step 2: Identify place name**: Your place name is how users will visit "
+"your domain in the metaverse. By default, you are assigned a temporary "
+"place name for your domain, such as turquoise-bandwidth-8162."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:44
+msgid ""
+"Your temporary place name is only active while your domain is being "
+"staged. Permanant place names can be purchased on a subscription basis, "
+"and are renewed yearly. :doc:`Learn how to purchase a custom place name "
+"for your domain <../configure-settings/place-setting>`."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:46
+msgid ""
+"**Step 3: Set up basic permissions**: By default, anyone logged on to "
+"your computer will have access to the domain settings for your domain. If"
+" you would like to extend administrator privileges to remote users (or "
+"allow yourself access from a remote location), then add the Vircadia "
+"usernames here. In addition, choose who will be able to connect or rez "
+"items."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:47
+msgid ""
+"Click **Finish** to close the Setup Wizard. You will automatically be "
+"redirected to the Domain Settings for your domain."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:49
+msgid ""
+"At this point, you have staged a domain in the metaverse and connected it"
+" to your server. However, it is not yet \"live\", meaning that it exists "
+"only as a temporary or \"draft\" domain in the metaverse."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:53
+msgid "Activate Your Domain"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:55
+msgid "To activate your domain:"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:57
+msgid ""
+"Return to the Domain Settings for your domain. If it isn't open, open a "
+"browser window and type http://localhost:40100/settings/ into the URL "
+"bar."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:58
+msgid "Click 'Advanced Settings' under **Metaverse/Networking**."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:59
+msgid "Click the 'Create new domain ID' button."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:61
+msgid ""
+"This will assign your domain with a permanent, unique identification code"
+" that registers it in the metaverse. Your temporary place name will no "
+"longer work, and your domain is accessible through its purchased place "
+"name or your server's IP address."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:63
+msgid ""
+"If you did not purchase a permanent place name, the only way to access "
+"your domain is by your server's IP address. However, note that when your "
+"IP address changes, so too will the address of your domain and you will "
+"need to manually restart your domain each time you change networks. "
+"Therefore, if you are hosting your domain on a laptop or on a computer "
+"with a frequently changing IP address, we strongly recommend that you "
+"purchase a permanent place name for your domain. :doc:`Learn how to "
+"purchase a custom place name for your domain <../configure-settings"
+"/place-setting>`."
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:65
+msgid "Now, your domain is officially part of the expanding metaverse!"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:76
+msgid ""
+"`Go visit your domain using the Explore app <../../explore/travel.html"
+"#goto-app>`_"
+msgstr ""
+
+#: ../../source/host/server-setup/windows-server.rst:84
+msgid ""
+"`Update for new Vircadia releases <../maintain-domain/update-"
+"software.html>`_"
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:5
+msgid ""
+"We are thrilled you've decided to host a custom domain with us on the "
+"metaverse! We also understand that setting up a server, configuring it, "
+"and creating a domain takes some time and technical knowledge. Hopefully,"
+" this section will help you become familiar with the basics of hosting "
+"domains in Vircadia, so that you can create the space you want and be a "
+"part of building a bigger, more expansive metaverse."
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:12
+msgid "Overview of Hosting"
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:14
+msgid ""
+"Vircadia's hosting interface consists of the following components that "
+"work together to create an immersive VR experience for your visitors:"
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:16
+msgid ""
+"The *Sandbox* is a testing environment hosted locally on your computer "
+"that gives you a space to play around and build content without affecting"
+" any domains in the metaverse. Note that it is possible to configure "
+"Vircadia so that your Sandbox is also a registered domain that is hosted "
+"directly from your local computer. The Sandbox application can be "
+"download from the `Vircadia website "
+"<https://www.highfidelity.com/download#sandbox>`_."
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:17
+msgid ""
+"A *domain* is a registered location in the metaverse. Each domain is "
+"assigned a unique ID to identify it. You can sign up for a new domain in "
+"one of two ways: either by setting up a Vircadia server or by logging "
+"into your account via the Vircadia website."
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:18
+msgid ""
+"A *server* hosts a domain, and processes incoming network requests for "
+"the domain. The server for your domain is either a physical computer or a"
+" cloud-hosted server."
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:19
+msgid "A *droplet* or *cloud domain* is a cloud server hosted on DigitalOcean."
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:20
+msgid ""
+"A *content set* is the content that you've designed to make your domain "
+"unique and pretty."
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:24
+msgid "The Hosting Process"
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:26
+msgid ""
+"Here is an overview of the steps you'll need to take to host your domain "
+"up and running on the metaverse:"
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:28
+msgid ""
+":doc:`Choose your hosting platform <start-hosting>` (local server, remote"
+" server, or cloud services)"
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:29
+msgid ":doc:`Set up your server and create your domain <server-setup>`"
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:30
+msgid ":doc:`Add content to your domain <add-content>`"
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:31
+msgid ":doc:`Set up user permissions <configure-settings/permission-settings>`"
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:32
+msgid ":doc:`Invite users to your domain <invite-users>`"
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:34
+msgid ""
+"Once your domain is running, we'll cover how to :doc:`configure your "
+"domain settings <configure-settings>`, from the most basic to the more "
+"advanced, and how to :doc:`maintain your domain <maintain-domain>`."
+msgstr ""
+
