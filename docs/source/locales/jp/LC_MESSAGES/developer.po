@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-19 04:53+0000\n"
+"POT-Creation-Date: 2021-01-23 22:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgid "Create an Installer"
 msgstr ""
 
 #: ../../source/developer.rst:11
-#: ../../source/developer/build/BUILD_LINUX.md:154
+#: ../../source/developer/build/BUILD_LINUX.md:156
 #: ../../source/developer/interface.rst:3
 msgid "Interface"
 msgstr ""
@@ -332,7 +332,7 @@ msgid "Clone the repository"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:69
-msgid "git clone https://github.com/kasenvr/project-athena.git"
+msgid "git clone https://github.com/vircadia/vircadia.git"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:71
@@ -845,7 +845,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:3
-msgid "Last Updated on April 11, 2020"
+msgid "Last Updated on December 1, 2020"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:5
@@ -856,180 +856,186 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:7
-msgid "Ubuntu 16.04/18.04 specific build guide"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:8
-msgid "Ubuntu 16.04 only"
+msgid ""
+"You can use the Vircadia Builder to build on Linux more easily. "
+"Alternatively, you can follow the manual steps below."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:9
+msgid "Ubuntu 16.04/18.04 specific build guide"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:10
+msgid "Ubuntu 16.04 only"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:11
 msgid ""
 "Add the following line to .bash_profile<br />export "
 "QT_QPA_FONTDIR=/usr/share/fonts/truetype/dejavu/"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:11
+#: ../../source/developer/build/BUILD_LINUX.md:13
 msgid "Ubuntu 18.04 server only"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:12
+#: ../../source/developer/build/BUILD_LINUX.md:14
 msgid ""
 "Add the universe repository:<br />(This is not enabled by default on the "
 "server edition)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:18
+#: ../../source/developer/build/BUILD_LINUX.md:20
 msgid "Install build tools:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:19
+#: ../../source/developer/build/BUILD_LINUX.md:21
 msgid "First update the repositories:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:24
+#: ../../source/developer/build/BUILD_LINUX.md:26
 msgid "git"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:28
+#: ../../source/developer/build/BUILD_LINUX.md:30
 msgid "Verify by git --version"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:29
+#: ../../source/developer/build/BUILD_LINUX.md:31
 msgid "g++"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:33
+#: ../../source/developer/build/BUILD_LINUX.md:35
 msgid "Verify by g++ --version"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:34
+#: ../../source/developer/build/BUILD_LINUX.md:36
 msgid "Ubuntu 18.04 cmake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:38
+#: ../../source/developer/build/BUILD_LINUX.md:40
 msgid "Verify by cmake --version"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:39
+#: ../../source/developer/build/BUILD_LINUX.md:41
 msgid "Ubuntu 16.04 cmake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:44
+#: ../../source/developer/build/BUILD_LINUX.md:46
 msgid "Install build dependencies:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:45
+#: ../../source/developer/build/BUILD_LINUX.md:47
 msgid "OpenSSL:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:49
+#: ../../source/developer/build/BUILD_LINUX.md:51
 msgid "Verify with openssl version"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:50
+#: ../../source/developer/build/BUILD_LINUX.md:52
 msgid "OpenGL:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:55
+#: ../../source/developer/build/BUILD_LINUX.md:57
 msgid "Verify OpenGL:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:56
+#: ../../source/developer/build/BUILD_LINUX.md:58
 msgid "First install mesa-utils with the command sudo apt install mesa-utils -y"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:57
+#: ../../source/developer/build/BUILD_LINUX.md:59
 msgid "Then run glxinfo | grep \"OpenGL version\""
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:58
+#: ../../source/developer/build/BUILD_LINUX.md:60
 msgid "To compile interface in a server you must install:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:62
+#: ../../source/developer/build/BUILD_LINUX.md:64
 msgid "Misc dependencies:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:66
+#: ../../source/developer/build/BUILD_LINUX.md:68
 msgid "Install Python 3 and required packages:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:70
+#: ../../source/developer/build/BUILD_LINUX.md:72
 msgid "Install node, required to build the jsdoc documentation:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:75
+#: ../../source/developer/build/BUILD_LINUX.md:77
 msgid "Get code and checkout the branch you need"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:77
+#: ../../source/developer/build/BUILD_LINUX.md:79
 msgid "Clone this repository:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:82
+#: ../../source/developer/build/BUILD_LINUX.md:84
 msgid ""
 "To compile a DEV version checkout the branch you need. To get a list of "
 "all tags:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:87
+#: ../../source/developer/build/BUILD_LINUX.md:89
 msgid "Then checkout the main branch with:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:92
+#: ../../source/developer/build/BUILD_LINUX.md:94
 msgid "Using a custom Qt build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:94
+#: ../../source/developer/build/BUILD_LINUX.md:96
 msgid ""
 "Qt binaries are only provided for Ubuntu. In order to build on other "
 "distributions, a Qt5 install needs to be provided as follows:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:96
+#: ../../source/developer/build/BUILD_LINUX.md:98
 msgid "Set VIRCADIA_USE_PREBUILT_QT=1"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:97
+#: ../../source/developer/build/BUILD_LINUX.md:99
 msgid "Set VIRCADIA_USE_QT_VERSION to the Qt version (defaults to 5.12.3)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:98
+#: ../../source/developer/build/BUILD_LINUX.md:100
 msgid "Set HIFI_QT_BASE=/path/to/qt"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:100
+#: ../../source/developer/build/BUILD_LINUX.md:102
 msgid ""
 "Qt must be installed in "
 "$HIFI_QT_BASE/$VIRCADIA_USE_QT_VERSION/qt5-install."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:102
+#: ../../source/developer/build/BUILD_LINUX.md:104
 msgid "Compiling"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:104
+#: ../../source/developer/build/BUILD_LINUX.md:106
 msgid "Create the build directory:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:111
+#: ../../source/developer/build/BUILD_LINUX.md:113
 msgid "Prepare makefiles:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:116
+#: ../../source/developer/build/BUILD_LINUX.md:118
 msgid "If cmake fails with a vcpkg error - delete /tmp/hifi/vcpkg."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:118
+#: ../../source/developer/build/BUILD_LINUX.md:120
 msgid "Start compilation of the server and get a cup of coffee:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:123
+#: ../../source/developer/build/BUILD_LINUX.md:125
 msgid "To compile interface:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:128
+#: ../../source/developer/build/BUILD_LINUX.md:130
 msgid ""
 "The commands above will compile with a single thread. If you have enough "
 "memory, you can decrease your build time using the -j flag. Since most "
@@ -1037,43 +1043,43 @@ msgid ""
 "an example, if you have a 2 core machine, you could use:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:136
+#: ../../source/developer/build/BUILD_LINUX.md:138
 msgid "In a server, it does not make sense to compile interface."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:138
+#: ../../source/developer/build/BUILD_LINUX.md:140
 msgid "Running the software"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:140
+#: ../../source/developer/build/BUILD_LINUX.md:142
 msgid "Domain server"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:142
+#: ../../source/developer/build/BUILD_LINUX.md:144
 msgid "Running domain server:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:147
+#: ../../source/developer/build/BUILD_LINUX.md:149
 msgid "Assignment clients"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:149
+#: ../../source/developer/build/BUILD_LINUX.md:151
 msgid "Running assignment client:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:156
+#: ../../source/developer/build/BUILD_LINUX.md:158
 msgid "Running interface:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:161
+#: ../../source/developer/build/BUILD_LINUX.md:163
 msgid "Go to localhost in the running interface."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:163
+#: ../../source/developer/build/BUILD_LINUX.md:165
 msgid "Notes"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:165
+#: ../../source/developer/build/BUILD_LINUX.md:167
 msgid ""
 "If your goal is to set up a development environment, it is desirable to "
 "set the directory that vcpkg builds into with the HIFI_VCPKG_BASE "
@@ -1082,64 +1088,64 @@ msgid ""
 "directory."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:170
+#: ../../source/developer/build/BUILD_LINUX.md:172
 msgid "Ubuntu 18.04 only"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:172
+#: ../../source/developer/build/BUILD_LINUX.md:174
 msgid ""
 "In Ubuntu 18.04 there is a problem related with NVidia driver library "
 "version."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:174
+#: ../../source/developer/build/BUILD_LINUX.md:176
 msgid "It can be worked around following these steps:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:176
+#: ../../source/developer/build/BUILD_LINUX.md:178
 msgid ""
 "Uninstall incompatible nvtt libraries:<br />sudo apt-get remove libnvtt2 "
 "libnvtt-dev"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:179
+#: ../../source/developer/build/BUILD_LINUX.md:181
 msgid "Install libssl1.0-dev:<br />sudo apt-get -y install libssl1.0-dev"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:182
+#: ../../source/developer/build/BUILD_LINUX.md:184
 msgid ""
 "Clone castano nvidia-texture-tools:<br />git clone "
 "https://github.com/castano/nvidia-texture-tools<br />cd nvidia-texture-"
 "tools/"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:186
+#: ../../source/developer/build/BUILD_LINUX.md:188
 msgid "Make these changes in repo:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:187
+#: ../../source/developer/build/BUILD_LINUX.md:189
 msgid "In file VERSION set 2.2.1"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:188
+#: ../../source/developer/build/BUILD_LINUX.md:190
 msgid "In file configure:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:189
+#: ../../source/developer/build/BUILD_LINUX.md:191
 msgid "set build=\"release\""
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:190
+#: ../../source/developer/build/BUILD_LINUX.md:192
 msgid "set -DNVTT_SHARED=1"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:192
+#: ../../source/developer/build/BUILD_LINUX.md:194
 msgid ""
 "Configure, build and install:<br />./configure<br />make<br />sudo make "
 "install"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:197
+#: ../../source/developer/build/BUILD_LINUX.md:199
 msgid ""
 "Link compiled files:<br />sudo ln -s /usr/local/lib/libnvcore.so "
 "/usr/lib/libnvcore.so<br />sudo ln -s /usr/local/lib/libnvimage.so "
@@ -1148,7 +1154,7 @@ msgid ""
 "/usr/lib/libnvtt.so"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:203
+#: ../../source/developer/build/BUILD_LINUX.md:205
 msgid "After running these steps you can run interface:<br />interface/interface"
 msgstr ""
 
@@ -2300,5 +2306,11 @@ msgstr ""
 #~ "Unix, if output is being directed "
 #~ "to a terminal, and disabled by "
 #~ "default on Windows."
+#~ msgstr ""
+
+#~ msgid "git clone https://github.com/kasenvr/project-athena.git"
+#~ msgstr ""
+
+#~ msgid "Last Updated on April 11, 2020"
 #~ msgstr ""
 

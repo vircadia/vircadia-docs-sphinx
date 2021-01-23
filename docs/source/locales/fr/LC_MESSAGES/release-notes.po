@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-17 15:55+0100\n"
+"POT-Creation-Date: 2021-01-23 22:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+
+#: ../../source/release-notes.rst:7
+msgid "Alpha Release 2020.3.3 Demeter (2021-01-02)"
+msgstr ""
 
 #: ../../source/release-notes.rst:7
 msgid "Alpha Release 2020.3.2 Demeter (2020-12-01)"
@@ -133,6 +137,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:5
 #: ../../source/release-notes/2020-3-1-Demeter.md:5
 #: ../../source/release-notes/2020-3-2-Demeter.md:5
+#: ../../source/release-notes/2020-3-3-Demeter.md:5
 msgid "Interface (Codename Athena)"
 msgstr ""
 
@@ -153,6 +158,8 @@ msgstr ""
 #: ../../source/release-notes/2020-3-1-Demeter.md:31
 #: ../../source/release-notes/2020-3-2-Demeter.md:7
 #: ../../source/release-notes/2020-3-2-Demeter.md:71
+#: ../../source/release-notes/2020-3-3-Demeter.md:7
+#: ../../source/release-notes/2020-3-3-Demeter.md:55
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia "
 "repo."
@@ -175,6 +182,8 @@ msgstr ""
 #: ../../source/release-notes/2020-3-1-Demeter.md:33
 #: ../../source/release-notes/2020-3-2-Demeter.md:9
 #: ../../source/release-notes/2020-3-2-Demeter.md:73
+#: ../../source/release-notes/2020-3-3-Demeter.md:9
+#: ../../source/release-notes/2020-3-3-Demeter.md:57
 #: ../../source/release-notes/v86-k2.md:9
 #: ../../source/release-notes/v86-k2.md:62
 msgid "General"
@@ -539,6 +548,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:53
 #: ../../source/release-notes/2020-3-1-Demeter.md:54
 #: ../../source/release-notes/2020-3-2-Demeter.md:212
+#: ../../source/release-notes/2020-3-3-Demeter.md:127
 #: ../../source/release-notes/v86-k2.md:67
 msgid "Documentation"
 msgstr ""
@@ -1219,6 +1229,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:55
 #: ../../source/release-notes/2020-3-1-Demeter.md:56
 #: ../../source/release-notes/2020-3-2-Demeter.md:214
+#: ../../source/release-notes/2020-3-3-Demeter.md:129
 #: ../../source/release-notes/v86-k2.md:69
 msgid "User Docs"
 msgstr ""
@@ -1232,6 +1243,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:57
 #: ../../source/release-notes/2020-3-1-Demeter.md:58
 #: ../../source/release-notes/2020-3-2-Demeter.md:216
+#: ../../source/release-notes/2020-3-3-Demeter.md:131
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia-"
 "Docs-Sphinx repo."
@@ -1278,6 +1290,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:61
 #: ../../source/release-notes/2020-3-1-Demeter.md:64
 #: ../../source/release-notes/2020-3-2-Demeter.md:223
+#: ../../source/release-notes/2020-3-3-Demeter.md:138
 #: ../../source/release-notes/v86-k2.md:76
 msgid "API Docs"
 msgstr ""
@@ -1291,6 +1304,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:63
 #: ../../source/release-notes/2020-3-1-Demeter.md:66
 #: ../../source/release-notes/2020-3-2-Demeter.md:225
+#: ../../source/release-notes/2020-3-3-Demeter.md:140
 msgid ""
 "The API docs are generated from the software source repo. The latest live"
 " deployment source can be viewed here."
@@ -1527,6 +1541,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:35
 #: ../../source/release-notes/2020-3-1-Demeter.md:29
 #: ../../source/release-notes/2020-3-2-Demeter.md:69
+#: ../../source/release-notes/2020-3-3-Demeter.md:53
 msgid "Domain Server"
 msgstr ""
 
@@ -1677,6 +1692,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:24
 #: ../../source/release-notes/2020-3-1-Demeter.md:22
 #: ../../source/release-notes/2020-3-2-Demeter.md:57
+#: ../../source/release-notes/2020-3-3-Demeter.md:44
 msgid "Miscellaneous"
 msgstr ""
 
@@ -1739,6 +1755,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:49
 #: ../../source/release-notes/2020-3-1-Demeter.md:45
 #: ../../source/release-notes/2020-3-2-Demeter.md:208
+#: ../../source/release-notes/2020-3-3-Demeter.md:123
 msgid "Vircadia Launcher (Codename Pantheon)"
 msgstr ""
 
@@ -2290,6 +2307,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-0-Demeter.md:45
 #: ../../source/release-notes/2020-3-1-Demeter.md:39
 #: ../../source/release-notes/2020-3-2-Demeter.md:79
+#: ../../source/release-notes/2020-3-3-Demeter.md:61
 msgid "Metaverse Server & Dashboard (Codename Iamus)"
 msgstr ""
 
@@ -2540,7 +2558,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:12
 msgid ""
 "Application: Add Script.require developer toggle to force cachebusting on"
-" every load."
+" every load. (#664)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:13
@@ -2662,7 +2680,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:41
 msgid ""
-"UI: Enable ability to login to domains with an email as well as a "
+"UI/UX: Enable ability to login to domains with an email as well as a "
 "username. (#852)"
 msgstr ""
 
@@ -2809,6 +2827,7 @@ msgid "UI/UX: Fix 'Create new Domain ID' dialog. (#846)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:81
+#: ../../source/release-notes/2020-3-3-Demeter.md:63
 msgid "Iamus Metaverse Server"
 msgstr ""
 
@@ -2849,6 +2868,7 @@ msgid "Version 2.2.19"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:198
+#: ../../source/release-notes/2020-3-3-Demeter.md:114
 msgid "Iamus Metaverse Dashboard"
 msgstr ""
 
@@ -2877,6 +2897,7 @@ msgid "Fix delete buttons for places that are owned by the user."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:210
+#: ../../source/release-notes/2020-3-3-Demeter.md:125
 msgid ""
 "Vircadia's launcher updates can be found here. The launcher is on "
 "experimental version 0.0.1s."
@@ -2900,6 +2921,304 @@ msgstr ""
 msgid ""
 "Misc. name updates (Athena -> Vircadia) and documents HIFI_DEBUG_HMD "
 "environment variable for Interface. (#96)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:1
+msgid "Alpha 2020.3.3 Demeter Release Notes"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:3
+msgid ""
+"This version of Vircadia is an update to 2020.3.2. It is compatible with "
+"the 2020.3.0-Demeter protocol. This version was released on January 2nd, "
+"2020."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:11
+msgid ""
+"UI/UX: Remove \"Console\" options from the Interface-only installer on "
+"Windows. (#824)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:12
+msgid ""
+"Application: The collision hull of entities now updates when the model is"
+" replaced. (#830)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:13
+msgid "Application: Entity update performance has been improved. (#830, #944)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:14
+msgid "UI/UX: The VR HUD overlay has been fixed and improved:"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:15
+msgid ""
+"Overlay surface is rendered a bit further away (1.5m instead of 1.0m). "
+"This makes it easier on the eyes."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:16
+msgid ""
+"The horizontal size of the overlay surface has been reduced from 270 deg "
+"to 180 deg. This means that it doesn't wrap around \"behind\" you."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:17
+msgid ""
+"The physical (real world) distance required to move before the HUD "
+"overlay is recentered on your avatar has been reduced from 0.99m to "
+"0.33m. This makes the HUD always be reasonably centered on your view "
+"rather than possibly being very offset at times."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:18
+msgid ""
+"Reorienting the overlay surface to better suit your current HMD "
+"orientation (i.e., be reasonably well centered on your current view) has "
+"been enabled. This means that the HUD overlay can no longer be behind "
+"you."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:19
+msgid ""
+"Fix un-pinned HUD content (e.g., Web browser window) displaying only "
+"every second recentering."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:20
+msgid ""
+"Fix laser intersection with HUD overlay dialogs / windows: laser "
+"intersects exactly per dialog position and size. This, for example, means"
+" that you can now drag dialogs using their top margin."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:21
+msgid ""
+"Fix the position of the dialog / window resize outline, displayed when "
+"resizing a dialog / window - in both desktop and HMD mode."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:22
+msgid "Application: Pressing the Alt key on Linux now works correctly. (#860)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:23
+msgid "App: 'Create' app December 2020 improvements package. (#894)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:24
+msgid "New \"Tools\" menu to the Create Application."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:25
+msgid ""
+"The previous \"Selection\" and \"Actions\" menu has been renamed "
+"\"Select\" and \"Edit\"."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:26
+msgid ""
+"We have now all the actions regrouped in the 3 menus: \"Select\", "
+"\"Edit\" and \"Tools\"."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:27
+msgid ""
+"The menu \"Teleport To Selected Entities\" has been moved from the "
+"\"Select\" menu to the new \"Tools\" menu."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:28
+msgid ""
+"The \"Hotkey\" \"G\" is now used to toggle the grid (previously it was to"
+" align it to the selection). It made sense to have G (for Grid) to manage"
+" the visibility of this one."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:29
+msgid ""
+"New \"Hotkey\" has been added to control the other actions related to the"
+" Grid:"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:30
+msgid "\"Activate/Deactivate Snap to Grid\" can be triggered by pressing \"H\"."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:31
+msgid "\"Align Grid to Selected Entities\" can be triggered by pressing \"J\"."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:32
+msgid "\"Align Grid to Avatar\" can be triggered by pressing \"K\"."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:33
+msgid ""
+"The actions: \"Align Grid to Selected Entities\" and \"Align Grid to "
+"Avatar\" will turn on the grid if it was not visible. (Doing this implies"
+" that you want to have the grid be visible). But you will still need to "
+"\"Toggle Grid\" (G) to turn the grid off. Note that \"Align Grid to "
+"Selected Entities\" will work only if there is at least one entity "
+"selected."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:34
+msgid "Main \"Edit\" menu:"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:35
+msgid ""
+"The two \"Import Entities\" actions have been brought back to the main "
+"\"Edit\" menu. (Since there was no unanimity about their removal.)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:36
+msgid ""
+"A separator has been added to properly group the 'Create' app's menu "
+"items."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:37
+msgid ""
+"In desktop mode only, the default window width is now 750px instead of "
+"490px."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:38
+msgid "App: 'Create' app material icons update. (#907)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:39
+msgid ""
+"Preference: \"Show Zones in Create Mode\" has been removed. The method "
+"behind it is still in the API, but does nothing. It has been abandoned "
+"since it was only drawing a box that wasn't useful to assist in figuring "
+"out the shape of the zone."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:40
+msgid ""
+"Preference: \"Show Lights and Particle Systems in Create Mode\" has been "
+"renamed to \"Show Icons in Create Mode\" since this setting was also "
+"managing all the icons (including Zones and now Parented Materials). The "
+"objective of the setting is mainly to simplify the display in edit mode "
+"when a scene is very dense."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:41
+msgid "image3D overlays used for the icons have been migrated to local entities."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:42
+msgid ""
+"All the entity icons (in-world non physical entities) have been updated "
+"to be more uniform. They now all have the same dark gray tone, with a "
+"white border to keep them visible under different lighting."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:46
+msgid "Misc: Module updates for screenshare app. (#708, #905)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:47
+msgid ""
+"Application: Upgrade tbb (oneAPI Threading Building Blocks) to fix a "
+"startup crash on Fedora 32 and later. (#863)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:48
+msgid ""
+"Build: GHA now builds PR builds with crash reporting enabled on Windows. "
+"(#878)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:49
+msgid ""
+"Application: The --forceCrashReporting command-line parameter has been "
+"added to enable crash reporting even if the settings have it off. (#879)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:50
+msgid "Build: Fix hifi_qt.py reporting Ubuntu 20.04 as outdated. (#891)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:51
+msgid "Misc: Update various references for GitHub links in the codebase. (#906)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:59
+msgid ""
+"Server: The Domain server now sends its IP address and port to the "
+"Metaverse server with every heartbeat. (#877)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:65
+msgid "Version 2.3.7"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:81
+msgid "Version 2.3.6"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:92
+msgid "Version 2.3.5"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:102
+msgid "Version 2.3.4"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:116
+msgid ""
+"Updates are reflected here. The Dashboard has been upgraded from version "
+"1.1.3 to version 1.2.2. (13 commits altering functionality, 18 commits "
+"total.)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:118
+msgid ""
+"Profiles have been added for all users with the core component being "
+"redesigned."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:119
+msgid "Routing bugs when using the ?page parameter have been corrected."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:120
+msgid "A 404 \"not found\" error page has been added."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:121
+msgid ""
+"The main menu now changes its highlighted item correctly based on what "
+"page you are on."
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:133
+msgid "Add docs video module and update some pages to .rst format. (#72, #105)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:134
+msgid "Add Weblate configuration instructions. (#98)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:135
+msgid "Update GitHub reference links. (#102)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:136
+msgid "Release notes for 2020.3.3 Demeter. (#106)"
+msgstr ""
+
+#: ../../source/release-notes/2020-3-3-Demeter.md:143
+msgid ""
+"Fix typo Quat.fromPitchYawRollDgrees -> Quat.fromPitchYawRollDegrees. "
+"(#882)"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:1
@@ -5704,4 +6023,16 @@ msgid ""
 "Many commits directly to master not put into PRs by Kalila L. & Keb "
 "Helion found here between February 26th & March 16th, 2020."
 msgstr ""
+
+#~ msgid ""
+#~ "Application: Add Script.require developer "
+#~ "toggle to force cachebusting on every"
+#~ " load."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "UI: Enable ability to login to "
+#~ "domains with an email as well as"
+#~ " a username. (#852)"
+#~ msgstr ""
 
