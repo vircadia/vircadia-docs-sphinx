@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-24 18:18+0000\n"
+"PO-Revision-Date: 2021-01-25 18:53+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/fr/>\n"
@@ -23,41 +23,41 @@ msgstr ""
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:3
 msgid "Create Tools"
-msgstr ""
+msgstr "Outils de Création"
 
 #: ../../source/create.rst:11 ../../source/create/avatars.rst:3
 msgid "Avatars"
-msgstr ""
+msgstr "Avatars"
 
 #: ../../source/create.rst:11 ../../source/create/wearables.md:1
 msgid "Wearables"
-msgstr ""
+msgstr "Vêtements"
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
 msgid "Entities"
-msgstr ""
+msgstr "Entités"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:49
 #: ../../source/create/3d-models/get-model.rst:54
 #: ../../source/create/materials.rst:3
 msgid "Materials"
-msgstr ""
+msgstr "Matériaux"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models.rst:3
 msgid "3D Models"
-msgstr ""
+msgstr "Modèles 3D"
 
 #: ../../source/create.rst:11 ../../source/create/environments.rst:3
 msgid "Environments"
-msgstr ""
+msgstr "Environnements"
 
 #: ../../source/create.rst:11 ../../source/create/applications.rst:3
 msgid "Tablet Apps"
-msgstr ""
+msgstr "Applications sur tablet"
 
 #: ../../source/create.rst:3
 msgid "Create"
-msgstr ""
+msgstr "Créer"
 
 #: ../../source/create.rst:5
 msgid ""
@@ -68,44 +68,55 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Vircadia engine is encouraged!"
 msgstr ""
+"Vircadia permet de rassembler tout le monde connecté par les mêmes intérets, "
+"amitiées ou d'une même communauté et d'exprimer leur creativité ensemble. "
+"Nous vous invitons à personnaliser votre expérience virtuelle en créant vos "
+"propres avatars, contenu ou développer vos propres applications et "
+"logiciels. Dans le but de faire le metaverse le votre nous vous encourageons "
+"à créer votre propre monde ou construire vos projets immergés dans le "
+"metaverse avec la plate-forme gratuite et sous license Open Source Vircadia!"
 
 #: ../../source/create.rst:7
 msgid ""
 "No matter your level of expertise, Vircadia provides the tools you need "
 "to create anything you can imagine."
 msgstr ""
+"Que vous soyez débutant ou experimenté Vircadia livre tous les outils pour "
+"créer tout ce que vous pouvez imaginer."
 
 #: ../../source/create.rst:9
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
 msgstr ""
+"Au cours de ce chapître apprenez comment créer, construire et donner de la "
+"vie à votre propre expérience VR:"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
 #: ../../source/create/wearables.md:39
 msgid "Get Your 3D Model"
-msgstr ""
+msgstr "Obtenir vos Modèles 3D"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/entities/create-entities.md:41
 msgid "Import Your 3D Model"
-msgstr ""
+msgstr "Importer vos Modèles 3D"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:3
 msgid "PBR Materials Guide"
-msgstr ""
+msgstr "Guide pour Matériaux PBR"
 
 #: ../../source/create/3d-models.rst:11 ../../source/create/materials.rst:9
 #: ../../source/create/materials/procedural-shaders.rst:3
 msgid "Procedural Shaders for Models and Avatars"
-msgstr ""
+msgstr "Nuanceurs Procéduraux pour Modèles et Avatars"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/import-animations.rst:3
 msgid "Import Animations"
-msgstr ""
+msgstr "Import d'Animations"
 
 #: ../../source/create/3d-models.rst:5
 msgid ""
@@ -114,6 +125,11 @@ msgid ""
 " You can get your 3D model by creating your own or sourcing it "
 "externally. We only support 3D models in the OBJ and FBX formats."
 msgstr ""
+"Modèles 3D sont des :doc:`entitiées <entities>`qui représentent des objets "
+"que vous aimeriez voir dans le metaverse comme une fontaine, un chateau, ou "
+"une tasse de caffé. Vouz pouvez obtenir vos modèles 3D soit en les créant "
+"vous-même ou en les obtenant par des sources extérieures. Nous supportons "
+"les modèles 3D dans les formats OBJ, FBX ou glTF."
 
 #: ../../source/create/3d-models.rst:7
 msgid ""
@@ -122,17 +138,23 @@ msgid ""
 " materials. This means that a 3D model's materials will reflect or absorb"
 " light as they would (approximately) in real life."
 msgstr ""
+"L'apparence d'un modèle 3D est contrôlée par ses matériaux. Les matériaux "
+"supportés dans Vicardia sont des matériaux de rendu à base physique (PBR). "
+"Cela signifie que les matériaux d'un modèle 3D vont réfléchir ou absorber la "
+"lumière comme ils le feraient (approximativement) dans la vie réelle."
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**Dans Cette Rubrique:**"
 
 #: ../../source/create/3d-models/get-model.rst:5
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Vircadia."
 msgstr ""
+"Tous les modèles 3D doivent être dans le format FBX, glTF ou OBJ et avec des "
+"matériaux supportés par Vircadia."
 
 #: ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -160,7 +182,7 @@ msgstr "Sur Cette Page"
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
-msgstr ""
+msgstr "Obtenir vos Modèles 3D par des Sites de Vente pour Contenu 3D"
 
 #: ../../source/create/3d-models/get-model.rst:14
 msgid ""
@@ -168,6 +190,8 @@ msgid ""
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
 " models from such sites:"
 msgstr ""
+"Il y a beaucoup de sites de vente pour contenu 3D qui contiennent des "
+"modèles que vous pouvez acheter ou obtenir gratuitement."
 
 #: ../../source/create/3d-models/get-model.rst:16
 msgid ""
@@ -179,6 +203,13 @@ msgid ""
 "should be comfortable that you have the rights to re-distribute the 3D "
 "content."
 msgstr ""
+"**Consultez les conditions de licence:** Assurez vous de consulter les "
+"conditions de licence du modèle avant de l'utiliser. Il est de votre "
+"résponsabilité de vous assurer que vous avez des droits suffisants "
+"d'utiliser le contenu. Quand vous mettez à disposition un modèle 3D sur un "
+"Vircadia serveur les visiteurs reçoivent le lien à ces fichiers de la même "
+"manière que si ils regardaient une image sur un site web. Vous devez vous "
+"sentir réassurré d'avoir le droit de redistribuer le contenu 3D."
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -187,20 +218,27 @@ msgid ""
 "included. If a model loads into Vircadia and doesn't look right, you may "
 "also find error information in the Interface logs."
 msgstr ""
+"**Testez les materiaux:** Il est possible que vous découvrez que les "
+"textures du modèle sont manquantes. Dans ce cas vérifiez d'abord que les "
+"textures sont inclues. Si un modèle est chargé dans Vircadia et n'a pas "
+"l'aire juste, plus d'informations sont peut-être disponibles dans le log de "
+"l'Interface."
 
 #: ../../source/create/3d-models/get-model.rst:21
 msgid "Create Your Own 3D Model"
-msgstr ""
+msgstr "Créer vos propres modèles 3D"
 
 #: ../../source/create/3d-models/get-model.rst:23
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
 msgstr ""
+"Vous pouvez créer vos propres modèles 3D en utilisant des logiciels de "
+"modélisation 3D comme Blender ou Maya."
 
 #: ../../source/create/3d-models/get-model.rst:25
 msgid "The 3D model is in the FBX, glTF or OBJ format."
-msgstr ""
+msgstr "Le modèle est dans le format FBX, glTF ou OBJ."
 
 #: ../../source/create/3d-models/get-model.rst:26
 msgid ""
@@ -208,16 +246,21 @@ msgid ""
 " guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
+"Les matériaux du modèle 3D sont supportés par Vircadia. Utilisez notre :doc:`"
+"materials guide <pbr-materials-guide>` pour vous assurer que vos matériaux "
+"chargent correctement."
 
 #: ../../source/create/3d-models/get-model.rst:30
 msgid "Best Practices"
-msgstr ""
+msgstr "Meilleures Pratiques"
 
 #: ../../source/create/3d-models/get-model.rst:32
 msgid ""
 "Making 3D models for High Fidelity (and VR) is different than making "
 "models for films, videos, and games."
 msgstr ""
+"Créer des modèles pour Vircadia (ou pour VR) est différent que créer des "
+"modèles pour films, vidéos ou jeux."
 
 #: ../../source/create/3d-models/get-model.rst:34
 msgid ""
@@ -225,6 +268,10 @@ msgid ""
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
 msgstr ""
+"Les modèles 3D sont rendus deux fois pour VR (une fois pour l'oeil gauche et "
+"une seconde fois pour l'oeil droit): cela signifie que le nombre de "
+"polygones sur votre modèle et le nombre de matériaux que vous utilisés vont "
+"affecter la performance."
 
 #: ../../source/create/3d-models/get-model.rst:35
 msgid ""
@@ -232,12 +279,19 @@ msgid ""
 " and be cautious about your model’s size. Models that are too big or very"
 " complex can slow down the framerate and make people feel nauseous."
 msgstr ""
+"La plupart des casques VR fonctionnent à 90Hz: vous allez devoir maintenir "
+"la fréquence d'images à 90Hz et être prudent avec la taille du fichier. Les "
+"modèles dont la taille du fichier est trop grande ou qui sont trop "
+"compliqués peuvent ralentir la fréquence d'images et causer des nausées aux "
+"porteurs de casque VR."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
 "We've listed the best practices for creating 3D models for Vircadia (and "
 "VR)."
 msgstr ""
+"Nous avons listé les meilleures pratiques pour créer des modèles 3D pour "
+"Vircadia (et pour VR)."
 
 #: ../../source/create/3d-models/get-model.rst:40
 #: ../../source/create/3d-models/import-animations.rst:43
@@ -248,37 +302,41 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 msgid "Property"
-msgstr ""
+msgstr "Propriété"
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid "Best Practice"
-msgstr ""
+msgstr "Meilleures pratiques"
 
 #: ../../source/create/3d-models/get-model.rst:42
 msgid "Polycount"
-msgstr ""
+msgstr "Nombre de polygones"
 
 #: ../../source/create/3d-models/get-model.rst:42
 msgid ""
 "Your count should resemble that of a model for a tablet game, not too "
 "high, but not too low either."
 msgstr ""
+"Le nombre idéal devrait être aux alentours d'un modèle fait pour un jeux sur "
+"tablet, pas trop haut, mais pas trop bas non plus."
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid "Edge Loops"
-msgstr ""
+msgstr "Boucles de Bord"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid "Remove edge loops that are not needed."
-msgstr ""
+msgstr "Enlevez les boucles de bord superflues."
 
 #: ../../source/create/3d-models/get-model.rst:47
 msgid "Mesh"
-msgstr ""
+msgstr "Maillage"
 
 #: ../../source/create/3d-models/get-model.rst:47
 msgid "Clean the mesh to make sure there are no N-gons and no coplanar faces."
 msgstr ""
+"Nettoyer le maillage pour s'assurer qu'il ne contient pas de N-gons et de "
+"faces coplanar."
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid ""
@@ -287,10 +345,15 @@ msgid ""
 "create a robot, all its pieces should share one UV map, instead of giving"
 " its hands, feet, or face separate materials and UV maps."
 msgstr ""
+"Essayez toujours de créer une texture Atlas. Quand chaques pièces de votre "
+"contenu partagent le même matériau et la même texture UV c'est une texture "
+"Atlas. Par example si vous créez un robot, toutes ses pièces devraient "
+"partager une texture UV au lieu d'attribuer à ses mains, pieds ou visage des "
+"matériaux et textures UV séparées."
 
 #: ../../source/create/3d-models/get-model.rst:54
 msgid "High Fidelity’s engine only supports one UV mapping per material."
-msgstr ""
+msgstr "L'engin Vircadia supporte seulement une texture UV par materiau."
 
 #: ../../source/create/3d-models/get-model.rst:56
 #: ../../source/create/3d-models/get-model.rst:59
@@ -301,51 +364,66 @@ msgstr ""
 #: ../../source/create/3d-models/pbr-materials-guide.rst:22
 #: ../../source/create/avatars/avatar-standards.md:167
 msgid "Textures"
-msgstr ""
+msgstr "Textures"
 
 #: ../../source/create/3d-models/get-model.rst:56
 msgid ""
 "PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
 " TIFF formats."
 msgstr ""
+"PNG, JPEG et JPG sont recommandés, mais nous supportons aussi les formats "
+"TGA, TIF et TIFF."
 
 #: ../../source/create/3d-models/get-model.rst:59
 msgid "Choose the color types wisely to minimize the size of the final file."
 msgstr ""
+"Choisissez précautionneusement les formats image afin de minimiser la "
+"grandeur du fichier final."
 
 #: ../../source/create/3d-models/get-model.rst:61
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
 msgstr ""
+"PNG-8 n'a qu'une transparence ON/OFF, une palette de couleurs (256 couleurs, "
+"comme GIF), et peut être utiliser pour masquer de la transparence."
 
 #: ../../source/create/3d-models/get-model.rst:64
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
 msgstr ""
+"Pour une plus haute résolution vous pouvez utiliser PNG-24. Pour des masques "
+"translucides ou des textures transparentes utiliser PNG-32."
 
 #: ../../source/create/3d-models/get-model.rst:67
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by High Fidelity."
 msgstr ""
+"N'utiliser pas PNG-48 ou PNG-64 car ceux-ci ne sont pas supportés par "
+"Vircadia."
 
 #: ../../source/create/3d-models/get-model.rst:69
 msgid ""
 "When loaded in the engine, textures are automatically resized to a grid "
 "of 128x128. Pick sizes which are multiples of 128."
 msgstr ""
+"Quand les textures sont chargées dans l'engin elles sont automatiquement "
+"redimmensionnées sur une grille de 128x128. Choisissez des tailles qui sont "
+"des multiples de 128."
 
 #: ../../source/create/3d-models/get-model.rst:72
 msgid "Draw Calls"
-msgstr ""
+msgstr "Appels d'Extraction"
 
 #: ../../source/create/3d-models/get-model.rst:72
 msgid "Draw calls happen before something gets rendered on screen."
 msgstr ""
+"Les appels d'extraction ont lieu avant que quelque chose est rendu sur "
+"l'écran."
 
 #: ../../source/create/3d-models/get-model.rst:74
 msgid "``1 model w/ 1 material = 1 draw call``"
-msgstr ""
+msgstr "``1 modèle avec 1 matériau = 1 appel d'extraction``"
 
 #: ../../source/create/3d-models/get-model.rst:76
 msgid ""
@@ -378,7 +456,7 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:9
 #: ../../source/create/entities/zone-tutorial.md:17
 msgid "Prerequisites"
-msgstr ""
+msgstr "Prérequis"
 
 #: ../../source/create/3d-models/import-animations.rst:14
 msgid ""
@@ -389,17 +467,22 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:18
 msgid "Prepare a 3D Model Animation"
-msgstr ""
+msgstr "Préparer un Modèle d'Animation 3D"
 
 #: ../../source/create/3d-models/import-animations.rst:20
 msgid ""
 "Before you import an animation into High Fidelity, adjust some settings "
 "in the 3D modeling tool of your choice to ensure that it plays smoothly."
 msgstr ""
+"Avant d'importer une animation dans Vircadia ajustez les paramètres dans le "
+"logiciel de création 3D de votre choix pour vous assurer que l'animation est "
+"fluide et se déroule en douceur sans saccades."
 
 #: ../../source/create/3d-models/import-animations.rst:22
 msgid "Set the framerate to 30 fps for the best results (our recommendation)."
 msgstr ""
+"Pour les meilleurs résultats ajuster la fréquence d'images à 30 fps (notre "
+"recommendation)."
 
 #: ../../source/create/3d-models/import-animations.rst:23
 msgid ""
@@ -408,30 +491,38 @@ msgid ""
 "doesn't stop and start, but appears smooth and flows through each "
 "movement."
 msgstr ""
+"Précalculez canaux, images-clefs et images intermédiaires pour vous assurer "
+"que Vircadia interprète tous comme il le faut. Ceci est pour s'assurer que "
+"votre animation apparait non-saccadée, en douceur et avec fluiditée entre "
+"les movements."
 
 #: ../../source/create/3d-models/import-animations.rst:24
 msgid ""
 "Prepare to export the skeleton and frames that are being used in the "
 "animation."
 msgstr ""
+"Preparez le skelette et les images utilisées dans l'animation à "
+"l'exportation."
 
 #: ../../source/create/3d-models/import-animations.rst:25
 msgid "Export your animation as an FBX file."
-msgstr ""
+msgstr "Exportez votre animation en format FBX."
 
 #: ../../source/create/3d-models/import-animations.rst:26
 msgid "Upload this FBX file to a cloud server. Copy the URL."
-msgstr ""
+msgstr "Chargez ce fichier FBX sur un serveur cloud. Copiez l'URL."
 
 #: ../../source/create/3d-models/import-animations.rst:30
 msgid "Import an Animation"
-msgstr ""
+msgstr "Importer une Animation"
 
 #: ../../source/create/3d-models/import-animations.rst:32
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
 " 3D model and it's animation into High Fidelity."
 msgstr ""
+"Une fois que le fichier FBX avec l'animation a été sauvé sur un serveur "
+"cloud vous pouvez importer le modèle 3D et son animation dans Vircadia."
 
 #: ../../source/create/3d-models/import-animations.rst:34
 #: ../../source/create/3d-models/import-model.rst:17
@@ -450,6 +541,7 @@ msgstr ""
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:37
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
 msgstr ""
+"Dans l'Interface saisissez votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/create/3d-models/import-animations.rst:35
 msgid ""
@@ -458,16 +550,22 @@ msgid ""
 "the animation's URL will be the same. Otherwise, your animation is saved "
 "as a separate FBX file."
 msgstr ""
+"Cliquez sur l'icône 'MODEL' et inserer l'URL de votre modèle 3D. Si vous "
+"avez sauvé votre fichier FBX contenant le modèle 3D et l'animation l'URL "
+"pour l'animation est la même que pour le modèle. Autrement l'animation est "
+"sauvée avec un fichier séparé."
 
 #: ../../source/create/3d-models/import-animations.rst:36
 msgid ""
 "In the 'Properties' tab, scroll down to 'Animation' and paste the "
 "animation's URL."
 msgstr ""
+"Dans l'onglet 'Properties', faites défiler vers le bas jusqu'à 'Animation' "
+"et collez l'URL de l'animation."
 
 #: ../../source/create/3d-models/import-animations.rst:40
 msgid "You can edit the following animation properties:"
-msgstr ""
+msgstr "Vous pouvez modifier les propriétés des animations suivantes :"
 
 #: ../../source/create/3d-models/import-animations.rst:43
 #: ../../source/create/3d-models/pbr-materials-guide.rst:53
@@ -496,83 +594,98 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:157
 #: ../../source/create/environments.rst:15
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/create/3d-models/import-animations.rst:45
 msgid "Play Automatically"
-msgstr ""
+msgstr "Jouer automatiquement"
 
 #: ../../source/create/3d-models/import-animations.rst:45
 msgid ""
 "Enable this to play your animation automatically when a user loads a "
 "domain."
 msgstr ""
+"Activez cette option pour que votre animation soit jouée automatiquement "
+"lorsqu'un utilisateur charge un domaine."
 
 #: ../../source/create/3d-models/import-animations.rst:47
 msgid "Loop"
-msgstr ""
+msgstr "Boucle Continue"
 
 #: ../../source/create/3d-models/import-animations.rst:47
 msgid "Select this property to play your animation in a continuous loop."
 msgstr ""
+"Sélectionnez cette propriété pour jouer votre animation en boucle continue."
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid "Allow Transition"
-msgstr ""
+msgstr "Permettre Transition"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid ""
 "Enable this to let the animation move through space. This means that the "
 "joints will not only rotate, but translate through three dimensions."
 msgstr ""
+"Activez cette option pour permettre à l'animation de se déplacer dans "
+"l'espace. Cela signifie que les articulations ne vont pas seulement tourner, "
+"mais aussi se déplacer dans les trois dimensions."
 
 #: ../../source/create/3d-models/import-animations.rst:52
 msgid "Hold"
-msgstr ""
+msgstr "Pause"
 
 #: ../../source/create/3d-models/import-animations.rst:52
 msgid "Select to pause your animation at a particular frame."
-msgstr ""
+msgstr "Choisissez de mettre votre animation en pause à une image particulière."
 
 #: ../../source/create/3d-models/import-animations.rst:54
 msgid "Animation Frame"
-msgstr ""
+msgstr "Image d'Animation"
 
 #: ../../source/create/3d-models/import-animations.rst:54
 msgid "Enter the frame at which you want to pause or hold your animation."
 msgstr ""
+"Saisissez l'image à laquelle vous souhaitez mettre votre animation en pause "
+"ou la maintenir."
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "First Frame"
-msgstr ""
+msgstr "Première Image"
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "This is the first frame from when your want your animation to start."
 msgstr ""
+"Ceci est la première image à partir de laquelle vous voulez que votre "
+"animation commence."
 
 #: ../../source/create/3d-models/import-animations.rst:58
 msgid "Last Frame"
-msgstr ""
+msgstr "Dernière Image"
 
 #: ../../source/create/3d-models/import-animations.rst:58
 msgid ""
 "This is the last frame where you want your animation to stop. It will not"
 " play beyond this specified frame."
 msgstr ""
+"Ceci est la dernière image où vous voulez que votre animation s'arrête. Elle "
+"ne sera pas jouée au-delà de cette image spécifiée."
 
 #: ../../source/create/3d-models/import-animations.rst:61
 msgid "Animation FPS"
-msgstr ""
+msgstr "Animation FPS"
 
 #: ../../source/create/3d-models/import-animations.rst:61
 msgid "This is the animation's framerate."
-msgstr ""
+msgstr "Ceci est la fréquence d'images."
 
 #: ../../source/create/3d-models/import-animations.rst:64
 msgid ""
 "You can also control an animation's properties and when it starts playing"
 " with an :doc:`entity script <../../script/client-entity-scripts>`."
 msgstr ""
+"Vous pouvez également contrôler les propriétés d'une animation et le moment "
+"où elle commence à jouer par un :doc:`entity script <../../script/client-"
+"entity-scripts>`."
 
 #: ../../source/create/3d-models/import-animations.rst:66
 #: ../../source/create/3d-models/import-model.rst:36
@@ -595,15 +708,15 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:133
 msgid "**See Also**"
-msgstr ""
+msgstr "**Voir Aussi**"
 
 #: ../../source/create/3d-models/import-animations.rst:68
 msgid ":doc:`Import Your 3D Model <import-model>`"
-msgstr ""
+msgstr ":doc:`Importez votre modèle 3D <import-model>`"
 
 #: ../../source/create/3d-models/import-model.rst:3
 msgid "Import a 3D Model"
-msgstr ""
+msgstr "Importer un modèle 3D"
 
 #: ../../source/create/3d-models/import-model.rst:5
 msgid ""
@@ -611,34 +724,43 @@ msgid ""
 "your domain's Asset Server. Importing your model rezzes it into your "
 "domain and adds it to your virtual world."
 msgstr ""
+"Vous pouvez importer un modèle 3D dans Vircadia qui est disponible sur un "
+"serveur cloud ou sur le Serveur de Ressources de votre domaine (Asset Server)"
+". L'importation de votre modèle le redimensionne dans votre domaine et "
+"l'ajoute à votre monde virtuel."
 
 #: ../../source/create/3d-models/import-model.rst:12
 msgid "Import Models from the Cloud"
-msgstr ""
+msgstr "Importer des Modèles depuis un Serveur Cloud"
 
 #: ../../source/create/3d-models/import-model.rst:14
 msgid ""
 "If you want your model available to users in other domains, we recommend "
 "uploading it to a cloud hosting service of your choice."
 msgstr ""
+"Si vous souhaitez que votre modèle soit disponible pour les utilisateurs "
+"d'autres domaines, nous vous recommandons de le télécharger sur un serveur "
+"cloud de votre choix."
 
 #: ../../source/create/3d-models/import-model.rst:16
 msgid ""
 "Locate and copy the URL of the model you would like to import. The model "
 "should be a OBJ or FBX format."
 msgstr ""
+"Localisez et copiez l'URL du modèle que vous souhaitez importer. Le modèle "
+"doit être du format OBJ, FBX ou glTF."
 
 #: ../../source/create/3d-models/import-model.rst:18
 msgid "Select the 'Model' icon."
-msgstr ""
+msgstr "Sélectionnez l'icône 'Modèle'."
 
 #: ../../source/create/3d-models/import-model.rst:19
 msgid "Paste the model's URL and click 'Add'."
-msgstr ""
+msgstr "Collez l'URL du modèle et cliquez sur 'Add'."
 
 #: ../../source/create/3d-models/import-model.rst:25
 msgid "Import Models from the Asset Server"
-msgstr ""
+msgstr "Importer des Modèles depuis le Serveur de Ressources (Asset Server)"
 
 #: ../../source/create/3d-models/import-model.rst:27
 msgid ""
@@ -648,29 +770,39 @@ msgid ""
 "permissions to rez entities in the domain that the Asset Server is "
 "running on."
 msgstr ""
+"Le Serveur de Ressources héberge des fichiers ou des actifs qui peuvent être "
+"ajoutés tels quels à un domaine ou qui sont référencés par des entités et "
+"des scripts existants déjà dans un domaine. Pour importer des ressources à "
+"partir du Serveur de Ressources, vous devez avoir l'autorisation de "
+"référencer des entités dans le domaine sur lequel le Serveur de Ressources "
+"fonctionne."
 
 #: ../../source/create/3d-models/import-model.rst:30
 msgid "Click 'Open this Domain's Asset Server'."
-msgstr ""
+msgstr "Cliquez sur 'Open this Domain's Asset Server'."
 
 #: ../../source/create/3d-models/import-model.rst:31
 msgid "In the Asset Browser, browse to the model you would like to import."
 msgstr ""
+"Dans le navigateur de ressources, naviguez jusqu'au modèle que vous "
+"souhaitez importer."
 
 #: ../../source/create/3d-models/import-model.rst:32
 msgid ""
 "Click 'Add to World'. Then click 'Add' on the confirmation window that "
 "opens."
 msgstr ""
+"Cliquez sur 'Add to World'. Cliquez ensuite sur 'Add' dans la fenêtre de "
+"confirmation qui s'ouvre."
 
 #: ../../source/create/3d-models/import-model.rst:38
 #: ../../source/create/entities/create-fountain.rst:94
 msgid ":doc:`Create Tools <../tools>`"
-msgstr ""
+msgstr ":doc:`Outils de Création <../tools>`"
 
 #: ../../source/create/3d-models/import-model.rst:39
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
-msgstr ""
+msgstr ":doc:`Créer de Nouvelles Entités <../entities/create-entities>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:5
 msgid ""
@@ -679,10 +811,14 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light like how they would (approximately) in real life."
 msgstr ""
+"L'apparence d'un modèle 3D est contrôlée par ses matériaux. Les matériaux "
+"supportés par Vircadia sont des matériaux de rendu physique (PBR). Cela "
+"signifie que les matériaux d'un modèle 3D vont réfléchir ou absorber la "
+"lumière comme ils le feraient (approximativement) dans la vie réelle."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:12
 msgid "Introduction to Materials, Textures, and Shading"
-msgstr ""
+msgstr "Introduction aux Matériaux, Textures et Nuancement"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:14
 msgid ""
@@ -691,6 +827,10 @@ msgid ""
 "metallic it looks, and if its surface is bumpy or smooth. A 3D model of a"
 " brick wall will have material that determines its roughness and color."
 msgstr ""
+"L'apparence d'un modèle 3D est contrôlée par ses matériaux. Par exemple, un "
+"modèle 3D d'une clé utilisera un matériau qui détermine sa couleur, son "
+"aspect métallique et si sa surface est bosselée ou lisse. Un modèle 3D d'un "
+"mur en briques aura un matériau qui détermine sa rugosité et sa couleur."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:16
 msgid ""
@@ -700,10 +840,16 @@ msgid ""
 " light that falls on it. The 3D model of a brick wall will not shine, but"
 " will reflect enough light for you to observe its colors and surface."
 msgstr ""
+"Vircadia soutient les matériaux de rendu basés sur la physique (PBR). Cela "
+"signifie que votre modèle se comportera comme un objet du monde réel "
+"lorsqu'il sera exposé à la lumière. Par exemple, le même modèle 3D d'une clé "
+"brillera et réfléchira toute lumière qui tombera dessus. Le modèle 3D d'un "
+"mur en briques ne brillera pas, mais réfléchira suffisamment de lumière pour "
+"que vous puissiez observer ses couleurs et sa surface."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:18
 msgid "A material contains texture and shading information."
-msgstr ""
+msgstr "Un matériau contient des informations sur la texture et le nuancement."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:24
 msgid ""
@@ -711,26 +857,31 @@ msgid ""
 "on how a 3D model's material looks. For example, a 3D model of a tree "
 "trunk will use a texture of bark to show what the surface looks like."
 msgstr ""
+"Les textures sont des images plates qui sont appliquées à des modèles 3D. "
+"Elles ajoutent des détails sur l'apparence du matériau d'un modèle 3D. Par "
+"exemple, un modèle 3D d'un tronc d'arbre utilisera une texture d'écorce pour "
+"montrer à quoi ressemble la surface."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:26
 msgid "Vircadia supports the use of the following texture formats:"
 msgstr ""
+"Vircadia prend en charge l'utilisation des formats de texture suivants :"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:28
 msgid "PNG (recommended)"
-msgstr ""
+msgstr "PNG (recommendé)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:29
 msgid "JPEG, JPG (recommended)"
-msgstr ""
+msgstr "JPEG, JPG (recommendé)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:30
 msgid "TGA"
-msgstr ""
+msgstr "TGA"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:31
 msgid "TIFF, TIF"
-msgstr ""
+msgstr "TIFF, TIF"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:33
 msgid ""
@@ -738,10 +889,13 @@ msgid ""
 "/add-content/bake-content>` (including textures) before uploading it to "
 "Vircadia."
 msgstr ""
+"Pour les meilleures performances, nous recommandons :doc:`Précalculer tous "
+"les modèles 3D <../../host/add-content/bake-content>` (y compris les "
+"textures) avant de le télécharger sur Vircadia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:37
 msgid "Shading"
-msgstr ""
+msgstr "Nuancement"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:39
 msgid ""
@@ -751,6 +905,12 @@ msgid ""
 "different light settings. The PBR shader has a set of material parameters"
 " or channels that can be modified to create different types of materials."
 msgstr ""
+"Comme Vicardia supporte les matériaux PBR, le nuancement utilisé donne une "
+"représentation précise de la façon dont la lumière interagit avec les "
+"différentes surfaces des matériaux. Cela signifie que votre modèle 3D n'aura "
+"pas le même aspect sous différentes lumières. Le nuanceur PBR dispose d'un "
+"ensemble de paramètres ou de canaux de matériaux qui peuvent être modifiés "
+"pour créer différents types de matériaux."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:41
 msgid ""
@@ -762,10 +922,18 @@ msgid ""
 "at :doc:`Procedural Shaders for Models and Avatars <../materials"
 "/procedural-shaders>`."
 msgstr ""
+"Vous pouvez combiner des nuanceurs avec des entités de matériau sur des "
+"entités de forme et de zone pour appliquer des nuanceurs aux modèles et aux "
+"avatars. Cette fonctionnalité a été mise en place à titre **expérimental** "
+"et n'a pas été testée de manière approfondie par nos canaux habituels. Si "
+"vous souhaitez essayer d'appliquer des matériaux procéduraux à des modèles "
+"ou des avatars *à vos propres risques*, vous pouvez trouver plus "
+"d'informations sous :doc:`Nuanceurs procéduraux pour Modèles et Avatars<../"
+"materials/procedural-shaders>`."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:43
 msgid "**Material Channels**"
-msgstr ""
+msgstr "**Canaux de matériaux**"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:45
 msgid ""
@@ -773,6 +941,9 @@ msgid ""
 "color of a material. You can determine the value of each channel in two "
 "ways:"
 msgstr ""
+"Les canaux de matériaux déterminent divers paramètres tels que la rugosité "
+"ou la couleur d'un matériau. Vous pouvez déterminer la valeur de chaque "
+"canal de deux façons :"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:47
 msgid ""
@@ -783,6 +954,12 @@ msgid ""
 " different parts of an object to reflect varied roughness, you'll need to"
 " use a map."
 msgstr ""
+"**Définir une valeur:** La valeur d'un canal est une valeur fixée sur un "
+"curseur. Définir une valeur est comme éteindre ou allumer un interrupteur. "
+"Par exemple, si vous regardez votre téléphone, certaines parties de celui-ci "
+"sont brillantes et d'autres sont mates. Lorsque vous utilisez une valeur, "
+"l'objet entier reflète cette valeur. Si vous voulez que différentes parties "
+"d'un objet reflètent des rugosités variées, vous devez utiliser une carte."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:48
 msgid ""
@@ -792,50 +969,62 @@ msgid ""
 "phone is shiny. You can use a map to set the case as matte and the phone "
 "as shiny."
 msgstr ""
+"**Utilisation d'une carte:** La carte est une image que vous pouvez importer "
+"pour définir une propriété. Vous utiliserez une carte pour appliquer une "
+"texture à votre modèle 3D. Par exemple, votre téléphone peut avoir un "
+"boîtier qui est mat, mais le reste de votre téléphone est brillant. Vous "
+"pouvez utiliser une carte pour définir l'étui comme mat et le téléphone "
+"comme brillant."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:50
 msgid ""
 "All materials in Vircadia have the following channels that determine how "
 "they look:"
 msgstr ""
+"Tous les matériaux dans Vircadia ont les canaux suivants qui déterminent "
+"leur aspect :"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:53
 msgid "Channel Type"
-msgstr ""
+msgstr "Type de Canal"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:53
 #: ../../source/create/entities/create-fountain.rst:35
 msgid "Value"
-msgstr ""
+msgstr "Valeur"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:53
 msgid "Map"
-msgstr ""
+msgstr "Carte"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:55
 msgid "Albedo"
-msgstr ""
+msgstr "Albedo"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:55
 msgid ""
 "This channel defines the material's color. You can pick any color value "
 "of your choice."
 msgstr ""
+"Ce canal définit la couleur du matériau. Vous pouvez choisir la valeur de la "
+"couleur de votre choix."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:55
 #: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid "sRGB"
-msgstr ""
+msgstr "sRGB"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:58
 msgid "Metallic"
-msgstr ""
+msgstr "Métallique"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:58
 msgid ""
 "This channel determines if the material is metallic or not. You cannot "
 "have a material that is half metallic, it is either metallic or it isn't."
 msgstr ""
+"Ce canal détermine si le matériau est métallique ou non. Vous ne pouvez pas "
+"avoir un matériau qui est à moitié métallique, il est soit métallique ou non."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:58
 #: ../../source/create/3d-models/pbr-materials-guide.rst:61
@@ -843,21 +1032,23 @@ msgstr ""
 #: ../../source/create/3d-models/pbr-materials-guide.rst:70
 #: ../../source/create/3d-models/pbr-materials-guide.rst:75
 msgid "[0,1]"
-msgstr ""
+msgstr "[0,1]"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:61
 msgid "Roughness"
-msgstr ""
+msgstr "Rugosité"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:61
 msgid ""
 "This determines how rough/matte or glossy/shiny an object is, using "
 "brightness levels."
 msgstr ""
+"Il détermine le degré de rugosité/mat ou de brillance/luisance d'un objet, "
+"en utilisant des niveaux de luminosité."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
 msgid ""
@@ -865,49 +1056,55 @@ msgid ""
 " For instance, normal would add bumps and other irregularities to a stone"
 " or ridges to a sea-shell."
 msgstr ""
+"Normal est un canal qui rend un objet comme s'il s'agissait d'une géométrie "
+"réelle. Par exemple, la carte normale ajouterait des bosses et d'autres "
+"irrégularités à une pierre ou des arêtes à un coquillage."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
 msgid "xyz"
-msgstr ""
+msgstr "xyz"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
 msgid "bump"
-msgstr ""
+msgstr "bosse"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
 msgid "Opacity"
-msgstr ""
+msgstr "Opacité"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
 msgid "Opacity determines if an object is transparent or opaque."
-msgstr ""
+msgstr "L'opacité détermine si un objet est transparent ou opaque."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
 msgid "mask, alpha"
-msgstr ""
+msgstr "masque, alpha"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:70
 msgid "Occlusion"
-msgstr ""
+msgstr "Ombrage"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:70
 msgid ""
 "This property approximates the shading to be as natural as possible. This"
 " means that it will reproduce how objects interact with light."
 msgstr ""
+"Cette propriété fait une approximation de l'ombrage pour apparaître aussi "
+"naturel que possible. Cela signifie qu'elle reproduira la façon dont les "
+"objets interagissent avec la lumière."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:70
 #: ../../source/create/3d-models/pbr-materials-guide.rst:78
 msgid "---"
-msgstr ""
+msgstr "---"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid "Emissive"
-msgstr ""
+msgstr "Emittante"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid "This channel controls the amount of light being reflected from an object."
-msgstr ""
+msgstr "Ce canal contrôle la quantité de lumière réfléchie par un objet."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:75
 #: ../../source/create/avatars/scattering-tutorial.rst:43
