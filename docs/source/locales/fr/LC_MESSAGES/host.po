@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-24 18:18+0000\n"
+"PO-Revision-Date: 2021-01-25 18:53+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/fr/>\n"
@@ -157,11 +157,11 @@ msgstr ""
 #: ../../source/host/add-content/create-content.rst:31
 #: ../../source/host/configure-settings/permission-settings.rst:46
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/host/add-content/bake-content.rst:21
 msgid "Textures"
-msgstr ""
+msgstr "Textures"
 
 #: ../../source/host/add-content/bake-content.rst:21
 msgid ""
@@ -178,7 +178,7 @@ msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:29
 msgid "Materials"
-msgstr ""
+msgstr "Matériaux"
 
 #: ../../source/host/add-content/bake-content.rst:29
 msgid ""
@@ -190,7 +190,7 @@ msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "3D Models"
-msgstr ""
+msgstr "Modèles 3D"
 
 #: ../../source/host/add-content/bake-content.rst:33
 msgid ""
@@ -206,10 +206,21 @@ msgid ""
 "file. We support the following formats: FBX, OBJ, and FST (that points to"
 " a supported type)."
 msgstr ""
+"Le précalcul d'un modèle produit un maillage géométrique \"draco compressé\" "
+"<https://github.com/google/draco>`_ et précalcule également tous les "
+"matériaux du modèle. La compression du maillage peut légèrement modifier la "
+"géométrie du modèle original, mais elle est généralement mineure. Votre "
+"dossier de sortie contiendra un fichier .baked.fst, un fichier .baked.fbx ("
+"le format original de votre modèle peut être différent), et un fichier ."
+"baked.json (matériaux). Comme le fichier JSON des matériaux précalculés fait "
+"référence aux fichiers de texture précalculées, toutes les textures sont "
+"supprimées du fichier .baked.fbx. Ce fichier JSON est référencé dans le "
+"champ \"materialMap\" du fichier .baked.fst. Nous soutenons les formats "
+"suivants : FBX, OBJ, et FST (qui pointe à un format soutenu)."
 
 #: ../../source/host/add-content/bake-content.rst:41
 msgid "Avatars"
-msgstr ""
+msgstr "Avatars"
 
 #: ../../source/host/add-content/bake-content.rst:41
 msgid ""
@@ -1321,6 +1332,7 @@ msgstr ""
 #: ../../source/host/configure-settings/entity-filters.rst:34
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
 msgstr ""
+"Dans l'Interface saisissez votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/host/configure-settings/entity-filters.rst:35
 msgid "In the Entity List, locate and select the zone you want to protect."
