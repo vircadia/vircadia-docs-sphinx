@@ -4,18 +4,21 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-01-24 18:18+0000\n"
+"Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
+"Language-Team: French <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/explore/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.1.1\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
@@ -186,7 +189,7 @@ msgstr ""
 #: ../../source/explore/personalize/add-wearables.rst:8
 #: ../../source/explore/socialize.rst:8
 msgid "On This Page"
-msgstr ""
+msgstr "Sur Cette Page"
 
 #: ../../source/explore/get-started/adjust-settings.rst:12
 msgid "The Tablet and HUD"
@@ -3753,4 +3756,3 @@ msgstr ""
 #~ "can change this image on our "
 #~ "`website <https://highfidelity.com/>`_."
 #~ msgstr ""
-
