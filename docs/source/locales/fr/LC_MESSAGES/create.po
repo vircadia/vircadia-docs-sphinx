@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-25 18:53+0000\n"
+"PO-Revision-Date: 2021-01-26 03:23+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/fr/>\n"
@@ -1100,7 +1100,7 @@ msgstr "---"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid "Emissive"
-msgstr "Emittante"
+msgstr "Emissive"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid "This channel controls the amount of light being reflected from an object."
@@ -1109,29 +1109,32 @@ msgstr "Ce canal contrôle la quantité de lumière réfléchie par un objet."
 #: ../../source/create/3d-models/pbr-materials-guide.rst:75
 #: ../../source/create/avatars/scattering-tutorial.rst:43
 msgid "Scattering"
-msgstr ""
+msgstr "Diffusion"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:75
 msgid ""
 "Scattering determines how light will behave when it hits human skin. This"
 " channel details how light is reflected or absorbed by human bodies."
 msgstr ""
+"La diffusion détermine le comportement de la lumière lorsqu'elle frappe la "
+"peau humaine. Ce canal détaille la façon dont la lumière est réfléchie ou "
+"absorbée par le corps humain."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:78
 msgid "Material Type"
-msgstr ""
+msgstr "Type de Materiel"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:78
 msgid "This channel decides if an object is lit or unlit."
-msgstr ""
+msgstr "Ce canal décide si un objet est allumé ou non."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:78
 msgid "[lit, unlit]"
-msgstr ""
+msgstr "[lit, unlit]"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:81
 msgid "Notes:"
-msgstr ""
+msgstr "Notes :"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:83
 msgid ""
@@ -1139,6 +1142,9 @@ msgid ""
 "be in the material’s albedo texture, as a PNG file with transparency and "
 "not as a separate transparency texture."
 msgstr ""
+"Si vous définissez la transparence avec une texture, la transparence (alpha) "
+"doit être dans la texture d'albédo du matériau, comme un fichier PNG avec "
+"transparence et non comme une texture de transparence séparée."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:84
 msgid ""
@@ -1147,6 +1153,10 @@ msgid ""
 "casts no shadows,) and \"mask\" (binary transparency, full shading of "
 "opaque surface, whole surface casts shadow.)"
 msgstr ""
+"L'engin de Vircadia peut dessiner deux types de transparence différents : "
+"\"alpha\" (255 degrés de transparence, pas d'ombrage sur la surface, pas "
+"d'ombre) et \"masque\" (transparence binaire, ombrage complet de la surface "
+"opaque, toute la surface est ombrée.)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:85
 msgid ""
@@ -1156,16 +1166,23 @@ msgid ""
 "binary transparency, while PNG-24 supports a range of transparency "
 "levels."
 msgstr ""
+"Pour déterminer si une texture est traitée comme un masque ou comme un "
+"alpha, le moteur recherche des valeurs alpha entre 2 % et 98 %. Une façon "
+"simple de créer une texture de masque est d'enregistrer votre image au "
+"format PNG-8, car il ne prend en charge que la transparence binaire, tandis "
+"que le format PNG-24 prend en charge une gamme de niveaux de transparence."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:86
 msgid ""
 "We support using a second UV set with the following texture channels "
 "only: Light Map and Ambient Occlusion."
 msgstr ""
+"Nous soutenons l'utilisation d'un deuxième ensemble d'UV avec les canaux de "
+"texture suivants uniquement : Carte Lumineuse et Occlusion Ambiante."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:90
 msgid "Sample Materials and Their Textures and Shading"
-msgstr ""
+msgstr "Exemples de Matériaux et Leurs Textures et Nuancements"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:92
 msgid ""
