@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-24 18:18+0000\n"
+"PO-Revision-Date: 2021-01-25 18:53+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/fr/>\n"
@@ -117,7 +117,7 @@ msgstr ""
 #: ../../source/explore/get-started/vr-controls.rst:220
 #: ../../source/explore/personalize/add-wearables.rst:55
 msgid "**See Also**"
-msgstr ""
+msgstr "**Voir Aussi**"
 
 #: ../../source/explore/gallery.rst:60
 msgid ":doc:`Install Vircadia <get-started/install>`"
@@ -283,7 +283,7 @@ msgstr ""
 #: ../../source/explore/get-started/vr-controls.rst:60
 #: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/explore/get-started/adjust-settings.rst:47
 msgid "First Person"
@@ -2806,7 +2806,7 @@ msgstr ""
 
 #: ../../source/explore/personalize.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**Dans Cette Rubrique:**"
 
 #: ../../source/explore/personalize/add-wearables.rst:3
 msgid "Put On Wearables"
@@ -3665,6 +3665,7 @@ msgstr ""
 #: ../../source/explore/socialize.rst:157
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
 msgstr ""
+"Dans l'Interface saisissez votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/explore/socialize.rst:158
 msgid "Click the 'zone' icon to create a zone entity."
