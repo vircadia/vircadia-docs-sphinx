@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-24 18:18+0000\n"
+"PO-Revision-Date: 2021-01-25 18:53+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/fr/>\n"
@@ -381,7 +381,7 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:56
 #: ../../source/script/get-started-with-scripting.rst:102
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/script/get-started-with-scripting.rst:25
 msgid "`Entities <https://apidocs.vircadia.dev/Entities.html>`_"
@@ -743,7 +743,7 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:174
 #: ../../source/script/midi-tutorial.rst:176
 msgid "**See Also**"
-msgstr ""
+msgstr "**Voir Aussi**"
 
 #: ../../source/script/get-started-with-scripting.rst:176
 msgid ":doc:`Interface Scripts <interface-scripts>`"
