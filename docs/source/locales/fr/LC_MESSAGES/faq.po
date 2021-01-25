@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-17 15:55+0100\n"
-"PO-Revision-Date: 2021-01-24 18:18+0000\n"
+"PO-Revision-Date: 2021-01-25 18:53+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/faq/fr/>\n"
@@ -49,19 +49,19 @@ msgstr ""
 
 #: ../../source/faq.rst:22
 msgid "We support the following video codecs:"
-msgstr ""
+msgstr "Nous supportons les vidéo codecs suivant:"
 
 #: ../../source/faq.rst:24
 msgid "WebM VP8"
-msgstr ""
+msgstr "WebM VP8"
 
 #: ../../source/faq.rst:25
 msgid "H.264, WebM"
-msgstr ""
+msgstr "H.264, WebM"
 
 #: ../../source/faq.rst:26
 msgid "WebM, H.264"
-msgstr ""
+msgstr "WebM, H.264"
 
 #: ../../source/faq.rst:31
 msgid "Domain Hosting"
