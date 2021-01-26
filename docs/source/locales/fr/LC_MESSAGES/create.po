@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-26 03:23+0000\n"
+"PO-Revision-Date: 2021-01-26 08:40+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/fr/>\n"
@@ -290,8 +290,8 @@ msgid ""
 "We've listed the best practices for creating 3D models for Vircadia (and "
 "VR)."
 msgstr ""
-"Nous avons listé les meilleures pratiques pour créer des modèles 3D pour "
-"Vircadia (et pour VR)."
+"Nous avons répertorié les meilleures pratiques pour créer des modèles 3D "
+"pour Vircadia (et pour VR)."
 
 #: ../../source/create/3d-models/get-model.rst:40
 #: ../../source/create/3d-models/import-animations.rst:43
@@ -999,7 +999,7 @@ msgstr "Carte"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:55
 msgid "Albedo"
-msgstr "Albedo"
+msgstr "Albédo"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:55
 msgid ""
@@ -1194,6 +1194,14 @@ msgid ""
 "<https://raw.githubusercontent.com/vircadia/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_"
 " in Vircadia to upload all sample objects in your domain."
 msgstr ""
+"Vircadia soutient différents types de matériaux. Nous avons créé des "
+"échantillons d'objets avec chaque type de matériau. Vous pouvez télécharger "
+"chaque objet à partir de `ce référentiel <https://github.com/vircadia/"
+"hifi_tests/tree/master/assets/models/material_matrix_models/fbx/blender>`_ "
+"sur GitHub, ou exécuter `ce script <https://raw.githubusercontent.com/"
+"vircadia/hifi_tests/master/assets/models/material_matrix_models/"
+"material_matrix.js>`_ dans Vircadia pour télécharger tous les exemples "
+"d'objets de votre domaine."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:94
 msgid ""
@@ -1203,10 +1211,15 @@ msgid ""
 "t44qdTMtbrq-gZ47BAoxhd0kLs_Yxh-i1G4Ukz-aunTj-"
 "nLVF7sjZd1n/pubhtml?gid=0&single=true>`_."
 msgstr ""
+"Nous avons répertorié toutes les informations concernant les matériaux (y "
+"compris les textures, les nuancements, les valeurs des canaux et les cartes) "
+"pour ces objets échantillons `ici <https://docs.google.com/spreadsheets/d/e/2"
+"PACX-1vRsPXURPsIYV_LeEz1A7IS-t44qdTMtbrq-gZ47BAoxhd0kLs_Yxh-i1G4Ukz-aunTj-nLV"
+"F7sjZd1n/pubhtml?gid=0&single=true>`_."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:98
 msgid "Set Material Values in Blender"
-msgstr ""
+msgstr "Fixer les Valeurs de Matériaux dans Blender"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:100
 msgid ""
@@ -1215,10 +1228,16 @@ msgid ""
 "properties and textures in Blender to match the PBR material textures in "
 "Vircadia."
 msgstr ""
+"Lorsque vous créez un modèle dans Blender, vous devez l'exporter au format "
+"FBX pour l'utiliser dans Vircadia. En plus, vous devez modifier les "
+"propriétés et les textures des matériaux dans Blender pour qu'elles "
+"correspondent aux textures des matériaux PBR dans Vircadia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:102
 msgid "Doing so ensures that your model appears like how you want it to."
 msgstr ""
+"En faisant ainsi vous vous assurez que votre modèle apparaît comme vous le "
+"souhaitez."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:104
 msgid ""
@@ -1227,6 +1246,11 @@ msgid ""
 "the albedo color set with an RGB color value and a texture, in which case"
 " the albedo value and texture will multiplied together."
 msgstr ""
+"Par défaut, toute propriété de matériaux définie avec une texture remplacera "
+"une propriété définie avec une valeur. La seule exception à cette règle est "
+"le cas de l'ensemble de couleurs d'albédo avec une valeur de couleur RGB et "
+"une texture, auquel cas la valeur d'albédo et la texture seront multipliées "
+"ensemble."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:106
 msgid ""
@@ -1237,6 +1261,13 @@ msgid ""
 "below only relate to exported FBX format models. Models exported as OBJ "
 "or other formats do not have full PBR material support in Vircadia yet."
 msgstr ""
+"Nous avons inclus des images où les champs correspondant à chaque canal PBR "
+"soutenus par Blender sont mis en évidence, ainsi que des détails sur les "
+"valeurs et les couleurs correspondant à la plage d'intervalle correspondant "
+"à ce canal.  Il convient de noter que toutes les propriétés du matériel "
+"Blender ci-dessous ne concernent que les modèles de format FBX exportés. Les "
+"modèles exportés en format OBJ ou autres formats ne bénéficient pas encore "
+"du soutient complet pour matériaux PBR dans Vircadia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:114
 msgid "Set Material Values in Maya"
@@ -2274,6 +2305,16 @@ msgid ""
 "smaller size than your roughness for best detail through light reflection"
 " instead of color variation."
 msgstr ""
+"Nous vous recommandons d'essayer de maintenir la taille totale de toutes les "
+"textures par avatar en dessous de 8 MB. Elles doivent toujours être "
+"inférieures à 1024x1024, sauf si toutes les textures sont dans un seul "
+"fichier. Si vous utilisez plusieurs fichiers de textures, il est préférable "
+"de les réduire, surtout si vous pouvez les rendre plus petites. N'oubliez "
+"pas que vous pouvez obtenir beaucoup plus de détails grâce à la rugosité et "
+"au mappage normal, qu'avec de simples textures. Il est conseillé de "
+"conserver l'albédo à une taille inférieure à la rugosité pour obtenir le "
+"meilleur détail par réflexion de la lumière plutôt que par variation des "
+"couleurs."
 
 #: ../../source/create/avatars/avatar-standards.md:170
 msgid "Avatar Collision Hulls"
@@ -2815,6 +2856,8 @@ msgid ""
 "We've listed the methods you can use to replace the standard animations "
 "on your avatar."
 msgstr ""
+"Nous avons répertorié les méthodes que vous pouvez utiliser pour remplacer "
+"les animations standard de votre avatar."
 
 #: ../../source/create/avatars/custom-animations.rst:75
 #: ../../source/create/environments.rst:15
@@ -2895,6 +2938,13 @@ msgid ""
 "code repository on `GitHub "
 "<https://github.com/vircadia/vircadia/tree/master/interface/resources/avatar/animations>`_."
 msgstr ""
+"Nous avons répertorié les rôles d'animation et leur description. Ils sont "
+"fréquemment mis à jour, c'est pourquoi nous vous recommandons d'utiliser "
+"\"MonAvatar.getAnimationRoles\" pour obtenir les derniers rôles d'animation "
+"avant de continuer. Les fichiers FBX d'animation standard pour ces rôles "
+"peuvent être trouvés dans le référentiel de code source de Vircadia sur `"
+"GitHub <https://github.com/vircadia/vircadia/tree/master/interface/resources/"
+"avatar/animations>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:102
 msgid "Animation Roles"
@@ -3327,7 +3377,7 @@ msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:242
 msgid "We've listed some features of the system:"
-msgstr ""
+msgstr "Nous avons énuméré quelques caractéristiques du système :"
 
 #: ../../source/create/avatars/custom-animations.rst:244
 msgid "The AnimNode system is a graph of nodes."
@@ -4539,6 +4589,9 @@ msgid ""
 "move with) your avatar. We've listed the ways you can create avatar "
 "entities with some examples:"
 msgstr ""
+"Les entités avatars vivent sur l'Avatar Mixer, elles sont donc connectées à "
+"votre avatar (et se déplacent avec lui). Nous avons énuméré les façons dont "
+"vous pouvez créer des entités avatar avec quelques exemples :"
 
 #: ../../source/create/entities/avatar-interactions.md:48
 msgid "Create a wearable: All wearables are avatar entities."
@@ -9079,6 +9132,8 @@ msgid ""
 "We've listed some external tools you might want to use to create avatars "
 "and 3D models."
 msgstr ""
+"Nous avons dressé une liste d'outils externes que vous pourriez utiliser "
+"pour créer des avatars et des modèles 3D."
 
 #: ../../source/create/tools.rst:103
 msgid "Adobe Fuse"
