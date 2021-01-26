@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-26 08:40+0000\n"
+"PO-Revision-Date: 2021-01-26 23:38+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/fr/>\n"
@@ -72,9 +72,9 @@ msgstr ""
 "amitiées ou d'une même communauté et d'exprimer leur creativité ensemble. "
 "Nous vous invitons à personnaliser votre expérience virtuelle en créant vos "
 "propres avatars, contenu ou développer vos propres applications et "
-"logiciels. Dans le but de faire le metaverse le votre nous vous encourageons "
+"logiciels. Dans le but de faire le métaverse le votre nous vous encourageons "
 "à créer votre propre monde ou construire vos projets immergés dans le "
-"metaverse avec la plate-forme gratuite et sous license Open Source Vircadia!"
+"métaverse avec la plate-forme gratuite et sous license Open Source Vircadia!"
 
 #: ../../source/create.rst:7
 msgid ""
@@ -126,7 +126,7 @@ msgid ""
 "externally. We only support 3D models in the OBJ and FBX formats."
 msgstr ""
 "Modèles 3D sont des :doc:`entitiées <entities>`qui représentent des objets "
-"que vous aimeriez voir dans le metaverse comme une fontaine, un chateau, ou "
+"que vous aimeriez voir dans le métaverse comme une fontaine, un chateau, ou "
 "une tasse de caffé. Vouz pouvez obtenir vos modèles 3D soit en les créant "
 "vous-même ou en les obtenant par des sources extérieures. Nous supportons "
 "les modèles 3D dans les formats OBJ, FBX ou glTF."
@@ -1271,23 +1271,27 @@ msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:114
 msgid "Set Material Values in Maya"
-msgstr ""
+msgstr "Fixer les Valeurs de Matériaux dans Maya"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:116
 msgid ""
 "Use the graphics below to set the right material values and textures in "
 "Maya."
 msgstr ""
+"Utilisez les graphiques ci-dessous pour définir les bonnes valeurs et "
+"textures de matériaux dans Maya."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:125
 msgid ""
 ":doc:`Bake Your Content Using the Oven <../../host/add-content/bake-"
 "content>`"
 msgstr ""
+":doc:`Précalculez votre contenu en utilisant le four (Oven) <../../host/"
+"add-content/bake-content>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:126
 msgid ":doc:`Add a Material Entity <../entities/material-entity>`"
-msgstr ""
+msgstr ":doc:`Ajoutez une Entité de Matériau <../entities/material-entity>`"
 
 #: ../../source/create/applications.rst:5
 msgid ""
@@ -1295,6 +1299,9 @@ msgid ""
 " FOR REFERENCE ONLY UNTIL UPDATED. SEE `API "
 "DOCS<https://apidocs.vircadia.dev/>` FOR MORE."
 msgstr ""
+"CE GUIDE N'EST PLUS À JOUR. LE CODE PEUT NE PAS FONCTIONNER EXACTEMENT COMME "
+"INDIQUÉ, À UTILISER UNIQUEMENT À TITRE DE RÉFÉRENCE JUSQU'À SA MISE À JOUR. "
+"VOIR `API DOCS<https://apidocs.vircadia.dev/>` POUR EN SAVOIR PLUS."
 
 #: ../../source/create/applications.rst:7
 msgid ""
@@ -1304,64 +1311,84 @@ msgid ""
 "<https://apidocs.vircadia.dev>`_ and simplify it into a window with "
 "controls for others to use."
 msgstr ""
+"Les applications pour tablet (ou simplement \"apps\") dans Vircadia sont des "
+"programmes personnalisables qui exposent les fonctionnalités dans une "
+"interface utilisateur facile à utiliser. Les applications vous permettent de "
+"prendre du code complexe de notre `JavaScript API <https://apidocs.vircadia."
+"dev>`_ et de le simplifier dans une fenêtre avec des contrôles pour que "
+"d'autres puissent l'utiliser."
 
 #: ../../source/create/applications.rst:11
 msgid ""
 "To create custom apps, you must have a basic knowledge of web development"
 " (HTML, CSS and JavaScript) and be able to navigate our API."
 msgstr ""
+"Pour créer des applications personnalisées, vous devez avoir une "
+"connaissance de base du développement web (HTML, CSS et JavaScript) et être "
+"capable de naviguer dans notre API."
 
 #: ../../source/create/applications.rst:13
 msgid "The steps involved in creating a tablet app are:"
 msgstr ""
+"Les étapes de la création d'une application pour tablet sont les suivantes :"
 
 #: ../../source/create/applications.rst:15
 msgid ""
 "`Create icons to show up on the tablet and HUD <#create-icons-to-show-up-"
 "on-the-tablet-and-hud>`_"
 msgstr ""
+"`Créer des icônes à afficher sur le tablet et le HUD <#create-icons-to-show-"
+"up-on-the-tablet-and-hud>`_"
 
 #: ../../source/create/applications.rst:16
 msgid ""
 "`Design your app's UI in HTML and CSS <#design-your-apps-ui-in-html-and-"
 "css>`_"
 msgstr ""
+"`Concevez l'interface utilisateur de votre application en HTML et CSS "
+"<#design-your-apps-ui-in-html-and-css>`_"
 
 #: ../../source/create/applications.rst:17
 msgid ""
 "`Add event handlers to your HTML file <#add-event-handlers-to-your-html-"
 "file>`_"
 msgstr ""
+"`Ajoutez des gestionnaires d'événements à votre fichier HTML <#add-event-"
+"handlers-to-your-html-file>`_"
 
 #: ../../source/create/applications.rst:18
 msgid "`Write a JavaScript file that: <#write-a-javascript-file>`_"
-msgstr ""
+msgstr "`Écrivez un fichier JavaScript qui : <#write-a-javascript-file>`_"
 
 #: ../../source/create/applications.rst:20
 msgid "Adds a button to the tablet and HUD"
-msgstr ""
+msgstr "Ajoute un bouton sur le tablet et le HUD"
 
 #: ../../source/create/applications.rst:21
 msgid "Loads your app"
-msgstr ""
+msgstr "Charge votre application"
 
 #: ../../source/create/applications.rst:22
 msgid "Closes your app"
-msgstr ""
+msgstr "Ferme votre application"
 
 #: ../../source/create/applications.rst:23
 msgid "Listens for events"
-msgstr ""
+msgstr "Écoute des événements"
 
 #: ../../source/create/applications.rst:24
 msgid ""
 "Runs your code (in this case, `create some gemstones <#create-"
 "gemstones>`_)"
 msgstr ""
+"Exécute votre code (dans ce cas, `créer des pierres précieuses <#create-"
+"gemstones>`_)"
 
 #: ../../source/create/applications.rst:28
 msgid "Tutorial: Create Gemstone Switching Tablet App"
 msgstr ""
+"Tutoriel : Créer une Application de Tablet de Commutation de Pierres "
+"Précieuses"
 
 #: ../../source/create/applications.rst:30
 msgid ""
@@ -1369,10 +1396,14 @@ msgid ""
 "called \"Gemstone Magic Maker\". This simple app lets you spawn colorful "
 "little gemstones in VR that you can share with your friends."
 msgstr ""
+"Dans ce tutoriel, nous allons parcourir les étapes ci-dessus pour créer une "
+"application appelée \"Gemstone Magic Maker\". Cette simple application vous "
+"permet de créer des petites pierres précieuses colorées en VR que vous "
+"pouvez partager avec vos amis."
 
 #: ../../source/create/applications.rst:34
 msgid "Create icons to show up on the tablet and HUD"
-msgstr ""
+msgstr "Créer des icônes à afficher sur le tablet et le HUD"
 
 #: ../../source/create/applications.rst:36
 msgid ""
@@ -1381,34 +1412,43 @@ msgid ""
 "``<appName>-a.svg`` and another to display when the app is inactive, "
 "usually named ``<appName>-i.svg``."
 msgstr ""
+"Vous avez besoin de deux icônes pour apparaître sur le tablet et le HUD : "
+"une image SVG ou PNG à afficher sur le bouton de l'application lorsque celle-"
+"ci est active, généralement nommée ``<appName>-a.svg`` et une autre à "
+"afficher lorsque l'application est inactive, généralement nommée "
+"``<appName>-i.svg``."
 
 #: ../../source/create/applications.rst:40
 msgid "We recommend the following specs for your icons:"
-msgstr ""
+msgstr "Nous vous recommandons les spécifications suivantes pour vos icônes :"
 
 #: ../../source/create/applications.rst:42
 msgid "Size: 50px by 50px"
-msgstr ""
+msgstr "Taille : 50px par 50px"
 
 #: ../../source/create/applications.rst:43
 msgid ""
 "Color: White on a transparent background (for inactive icons) and black "
 "on a transparent background (for active icons)"
 msgstr ""
+"Couleur : Blanc sur fond transparent (pour les icônes inactives) et noir sur "
+"fond transparent (pour les icônes actives)"
 
 #: ../../source/create/applications.rst:44
 msgid "File format: SVG or PNG"
-msgstr ""
+msgstr "Format de fichier : SVG ou PNG"
 
 #: ../../source/create/applications.rst:46
 msgid ""
 "You can create your own icon using graphic design software or any other "
 "online resources."
 msgstr ""
+"Vous pouvez créer votre propre icône à l'aide d'un logiciel de conception "
+"graphique ou de toute autre ressource en ligne."
 
 #: ../../source/create/applications.rst:50
 msgid "Design your app's UI in HTML and CSS"
-msgstr ""
+msgstr "Concevez l'interface utilisateur de votre application en HTML et CSS"
 
 #: ../../source/create/applications.rst:52
 msgid ""
@@ -1417,6 +1457,12 @@ msgid ""
 "scroll bars, and links). Keep in mind that the tablet screen dimensions "
 "are 480 x 720, so all of your UI should be confined to this space."
 msgstr ""
+"L'interface utilisateur de votre application doit fournir du texte sur le "
+"fonctionnement de l'application et utiliser des éléments familiers de "
+"l'interface utilisateur avec lesquels l'utilisateur sait interagir (tels que "
+"les boutons, les barres de défilement et les liens). N'oubliez pas que les "
+"dimensions de l'écran du tablet sont de 480 x 720, donc toute votre "
+"interface utilisateur doit être limitée à cet espace."
 
 #: ../../source/create/applications.rst:54
 msgid ""
@@ -1427,10 +1473,17 @@ msgid ""
 "for your app title. With just a few simple modifications, you can create "
 "have a simple app UI within minutes."
 msgstr ""
+"Pour vous aider à démarrer, nous avons mis au point un `modèle HTML de "
+"démarrage rapide <https://hifi-content.s3.amazonaws.com/faye/"
+"tablet-sample-app/quick_start_template.html>`_ que vous pouvez réutiliser. "
+"Il contient la même mise en page, le même style et la même police que "
+"l'écran du menu principal, et comporte une barre d'en-tête pour le titre de "
+"votre application. Avec quelques modifications simples, vous pouvez créer "
+"une interface utilisateur d'application simple en quelques minutes."
 
 #: ../../source/create/applications.rst:60
 msgid "Add event handlers to your HTML file"
-msgstr ""
+msgstr "Ajoutez des gestionnaires d'événements à votre fichier HTML"
 
 #: ../../source/create/applications.rst:62
 msgid ""
@@ -1441,10 +1494,16 @@ msgid ""
 "``<script> </script>`` tags in the body of your HTML file to handle the "
 "button clicks::"
 msgstr ""
+"Le cadre de la Tablet UI fournit un canal de communication appelé "
+"EventBridge. Il vous permet d'envoyer et de recevoir des événements entre le "
+"script client (gemstoneApp.js) et le JavaScript de votre application web "
+"(gemstoneMagicMaker.html). Utilisez le code EventBridge suivant à "
+"l'intérieur des balises ``<script> </script>`` dans le corps de votre "
+"fichier HTML pour gérer les clics des boutons::"
 
 #: ../../source/create/applications.rst:90
 msgid "Write a JavaScript file"
-msgstr ""
+msgstr "Ecrire un fichier JavaScript"
 
 #: ../../source/create/applications.rst:92
 msgid ""
@@ -1454,44 +1513,59 @@ msgid ""
 "listens for events. Below, you will find code samples to do each of these"
 " things."
 msgstr ""
+"Votre fichier JavaScript contiendra toutes les fonctionnalités de base de "
+"votre application. Au minimum, nous vous demandons de disposer d'un code qui "
+"ajoute un bouton au tablet et au HUD, charge votre application, la ferme "
+"avec élégance et écoute les événements. Vous trouverez ci-dessous des "
+"exemples de code pour chacune de ces fonctions."
 
 #: ../../source/create/applications.rst:94
 msgid "**Add buttons to the tablet and HUD**"
-msgstr ""
+msgstr "**Ajouter des boutons au tablet et HUD**"
 
 #: ../../source/create/applications.rst:96
 msgid ""
 "Use the AppUI module to automatically add your app’s button to the tablet"
 " and HUD, and to wire button click handlers::"
 msgstr ""
+"Utilisez le module AppUI pour ajouter automatiquement le bouton de votre "
+"application au tablet et HUD, et pour câbler les gestionnaires de clic de "
+"bouton::"
 
 #: ../../source/create/applications.rst:112
 msgid "**Determine the app's startup behavior**"
-msgstr ""
+msgstr "**Déterminer le comportement de démarrage de l'application**"
 
 #: ../../source/create/applications.rst:114
 msgid ""
 "If you want your app to do something specific when it is opened, use the "
 "AppUI module's  ``onOpened`` functionality. For example, you could:"
 msgstr ""
+"Si vous souhaitez que votre application fasse quelque chose de spécifique "
+"lorsqu'elle est ouverte, utilisez la fonctionnalité ``onOpen`` du module "
+"AppUI. Par exemple, vous pourriez :"
 
 #: ../../source/create/applications.rst:116
 msgid "Query a server to get a response and determine what to show on the UI"
 msgstr ""
+"Interroger un serveur pour obtenir une réponse et déterminer ce qu'il faut "
+"afficher sur l'interface utilisateur"
 
 #: ../../source/create/applications.rst:117
 msgid "Start displaying a 3D interface separate from the tablet"
-msgstr ""
+msgstr "Commencer à afficher une interface 3D séparée du tablet"
 
 #: ../../source/create/applications.rst:118
 msgid ""
 "Determine the display mode (VR/Desktop) and change things to show on the "
 "UI"
 msgstr ""
+"Déterminer le mode d'affichage (VR/Desktop) et modifier les éléments à "
+"afficher sur l'interface utilisateur"
 
 #: ../../source/create/applications.rst:142
 msgid "**Close the app gracefully**"
-msgstr ""
+msgstr "**Fermer l'application avec élégance**"
 
 #: ../../source/create/applications.rst:144
 msgid ""
@@ -1500,18 +1574,22 @@ msgid ""
 "``onClosed`` functionality built into the AppUI module. For example, you "
 "could:"
 msgstr ""
+"Le module AppUI vous permet de fermer votre application avec élégance. "
+"Toutefois, si vous souhaitez faire autre chose lorsque vous fermez "
+"l'application, vous pouvez le faire grâce à la fonctionnalité \"onClosed\" "
+"intégrée au module AppUI. Par exemple, vous pouvez :"
 
 #: ../../source/create/applications.rst:146
 msgid "Remove 3D interfaces"
-msgstr ""
+msgstr "Supprimer les interfaces 3D"
 
 #: ../../source/create/applications.rst:147
 msgid "Stop secondary scripts"
-msgstr ""
+msgstr "Arrêter les scripts secondaires"
 
 #: ../../source/create/applications.rst:176
 msgid "**Listen for events**"
-msgstr ""
+msgstr "**Écouter les événements**"
 
 #: ../../source/create/applications.rst:178
 msgid ""
@@ -1519,10 +1597,14 @@ msgid ""
 "files>`_ to your HTML file. Now, you need to add code to your JavaScript "
 "file to listen for the events::"
 msgstr ""
+"Dans l'étape 3 ci-dessus, nous avons `ajouté des gestionnaires d'événements "
+"<#add-event-handlers-to-your-files>`_ à votre fichier HTML. Maintenant, vous "
+"devez ajouter du code à votre fichier JavaScript pour écouter les "
+"événements::"
 
 #: ../../source/create/applications.rst:187
 msgid "Create gemstones"
-msgstr ""
+msgstr "Créez des pierres précieuses"
 
 #: ../../source/create/applications.rst:189
 msgid ""
@@ -1531,24 +1613,31 @@ msgid ""
 "gemstone will be created as an entity, and we can change the gemstone's "
 "properties using the ``Entity`` namespace."
 msgstr ""
+"La dernière étape consiste à coder le comportement de votre fichier "
+"JavaScript. Dans ce cas, nous allons créer des pierres précieuses en "
+"utilisant l'API JavaScript de Vircadia. Chaque pierre sera créée comme une "
+"entité, et nous pouvons modifier les propriétés de la pierre en utilisant "
+"l'espace de noms \"Entity\"."
 
 #: ../../source/create/applications.rst:191
 msgid "**Calculate the position of each new gemstone**"
-msgstr ""
+msgstr "**Calculez la position de chaque nouvelle pierre précieuse**"
 
 #: ../../source/create/applications.rst:193
 msgid "The following code gives us a position right in front of the user::"
-msgstr ""
+msgstr "Le code suivant nous donne une position juste devant l'utilisateur::"
 
 #: ../../source/create/applications.rst:205
 msgid "**Set the gemstone's properties and add it**"
-msgstr ""
+msgstr "**Définissez les propriétés de la pierre précieuse et ajoutez-la**"
 
 #: ../../source/create/applications.rst:207
 msgid ""
 "The gemstone will be created when gemstoneApp.js receives click events "
 "from each of the buttons::"
 msgstr ""
+"La pierre sera créée lorsque gemstoneApp.js recevra les événements de clic "
+"de chacun des boutons::"
 
 #: ../../source/create/applications.rst:285
 msgid ""
@@ -1557,40 +1646,49 @@ msgid ""
 " Storage, Microsoft Azure, etc. Once hosted, you can install it and use "
 "it:"
 msgstr ""
+"Félicitations, vous avez réussi à créer une application dans Vircadia ! Pour "
+"utiliser votre application, téléchargez-la sur une plateforme de cloud "
+"computing, comme Amazon S3, Google Cloud Storage, Microsoft Azure, etc. Une "
+"fois hébergée, vous pouvez l'installer et l'utiliser :"
 
 #: ../../source/create/applications.rst:287
 msgid "In Interface, go to **Edit > Running Scripts**."
-msgstr ""
+msgstr "Dans l'interface, allez à **Edit > Running Scripts**."
 
 #: ../../source/create/applications.rst:288
 msgid ""
 "Under Load Scripts, click 'From URL' and enter the URL to your hosted "
 "JavaScript file."
 msgstr ""
+"Sous \"Load Scripts\", cliquez sur \"From URL\" et entrez l'URL de votre "
+"fichier JavaScript hébergé."
 
 #: ../../source/create/applications.rst:289
 msgid "Click the app icon on the tablet or HUD to open the app."
 msgstr ""
+"Cliquez sur l'icône de l'application sur le tablet ou sur le HUD pour ouvrir "
+"l'application."
 
 #: ../../source/create/applications.rst:295
 msgid ":doc:`Write Your Own Scripts <../script/write-scripts>`"
-msgstr ""
+msgstr ":doc:`Rédigez vos propres scripts <../script/write-scripts>`"
 
 #: ../../source/create/applications.rst:296
 msgid "`API Reference: Entities <https://apidocs.vircadia.dev/Entities.html>`_"
 msgstr ""
+"`API Reference : Entitiés <https://apidocs.vircadia.dev/Entities.html>`_"
 
 #: ../../source/create/applications.rst:297
 msgid "`API Reference: Script <https://apidocs.vircadia.dev/Script.html>`_"
-msgstr ""
+msgstr "`API Reference : Script <https://apidocs.vircadia.dev/Script.html>`_"
 
 #: ../../source/create/applications.rst:298
 msgid "`API Reference: Quat <https://apidocs.vircadia.dev/Quat.html>`_"
-msgstr ""
+msgstr "`API Reference : Quat <https://apidocs.vircadia.dev/Quat.html>`_"
 
 #: ../../source/create/applications.rst:299
 msgid "`API Reference: Vec3 <https://apidocs.vircadia.dev/Vec3.html>`_"
-msgstr ""
+msgstr "`API Reference : Vec3 <https://apidocs.vircadia.dev/Vec3.html>`_"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/avatar-standards.md:184
@@ -1599,7 +1697,7 @@ msgstr ""
 #: ../../source/create/avatars/fuse-tutorial.md:21
 #: ../../source/create/avatars/mixamo-tutorial.md:24
 msgid "Create Your Own Avatar"
-msgstr ""
+msgstr "Créez votre Propre Avatar"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/avatar-standards.md:185
@@ -2579,7 +2677,7 @@ msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:18
 msgid "**In This Section**"
-msgstr ""
+msgstr "**Dans Cette Rubrique**"
 
 #: ../../source/create/avatars/create-avatars.rst:28
 msgid "Create an Avatar from Scratch"
@@ -4623,7 +4721,7 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:57
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:118
 msgid "Interact with Your Environment"
-msgstr ""
+msgstr "Interagir avec votre Environnement"
 
 #: ../../source/create/entities/avatar-interactions.md:67
 msgid "API Reference: Entities"
@@ -5777,7 +5875,7 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:119
 #: ../../source/create/entities/entity-appearance.rst:144
 msgid "Setting"
-msgstr ""
+msgstr "Paramètres"
 
 #: ../../source/create/entities/entity-appearance.rst:26
 #: ../../source/create/entities/entity-appearance.rst:75
