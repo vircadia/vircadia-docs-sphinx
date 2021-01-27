@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-25 18:53+0000\n"
+"PO-Revision-Date: 2021-01-28 12:28+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/fr/>\n"
@@ -169,7 +169,7 @@ msgstr ""
 #: ../../source/script/server-entity-scripts.md:57
 #: ../../source/script/write-scripts.md:74
 msgid "See Also"
-msgstr ""
+msgstr "Voir Aussi"
 
 #: ../../source/script/assignment-client-scripts.md:56
 msgid "Configure Your Domain Settings"
@@ -832,7 +832,7 @@ msgstr ""
 
 #: ../../source/script/js-tips.md:7 ../../source/script/write-scripts.md:12
 msgid "On This Page:"
-msgstr ""
+msgstr "Sur cette Page :"
 
 #: ../../source/script/js-tips.md:9 ../../source/script/js-tips.md:18
 msgid "Compute 3D Math Operations"
