@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-17 15:55+0100\n"
-"PO-Revision-Date: 2021-01-25 18:53+0000\n"
+"PO-Revision-Date: 2021-01-27 19:35+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/faq/fr/>\n"
@@ -103,7 +103,7 @@ msgstr ""
 
 #: ../../source/faq.rst:53
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Dépannage en cas de Problèmes"
 
 #: ../../source/faq.rst:55
 msgid "`Why can't I connect to a domain? <#cannot-connect>`_"
