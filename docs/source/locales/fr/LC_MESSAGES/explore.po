@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-26 23:43+0000\n"
+"PO-Revision-Date: 2021-01-27 19:35+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/fr/>\n"
@@ -36,15 +36,15 @@ msgstr "Personnalisez votre Expérience"
 #: ../../source/explore.rst:11 ../../source/explore/socialize.rst:3
 #: ../../source/explore/travel.md:36
 msgid "Socialize with Others"
-msgstr "Socialiser avec les Autres"
+msgstr "Socialisez avec les Autres"
 
 #: ../../source/explore.rst:11 ../../source/explore/travel.md:1
 msgid "Travel Between Worlds"
-msgstr "Voyager entre les Mondes"
+msgstr "Voyagez entre les Mondes"
 
 #: ../../source/explore.rst:11 ../../source/explore/interact.md:1
 msgid "Interact with Your Environment"
-msgstr "Interagir avec votre Environnement"
+msgstr "Interagissez avec votre Environnement"
 
 #: ../../source/explore.rst:3
 msgid "Explore"
@@ -124,7 +124,7 @@ msgstr "Armée de mannequins, 13 juillet 2020."
 
 #: ../../source/explore/gallery.rst:47
 msgid "Pictionary in the old Hub, 5th July 2020."
-msgstr "Pictionary in the old Hub, 5 juillet 2020."
+msgstr "Pictionary dans le vieux Hub, 5 juillet 2020."
 
 #: ../../source/explore/gallery.rst:54
 msgid "Vircadia running on Linux Mint 19.3, 29th September 2020."
@@ -730,23 +730,25 @@ msgid ""
 "Change your avatar to one available in the list in the **Avatar** tab in "
 "the menu."
 msgstr ""
+"Changez votre avatar pour un avatar disponible dans la liste dans l'onglet "
+"**Avatar** du menu."
 
 #: ../../source/explore/get-started/android.rst:61
 msgid "Set Display Name"
-msgstr ""
+msgstr "Définir le Nom d'Affichage"
 
 #: ../../source/explore/get-started/android.rst:61
 msgid "Set your display name in the **Avatar** tab in the menu"
-msgstr ""
+msgstr "Définissez votre nom d'affichage dans l'onglet **Avatar** du menu"
 
 #: ../../source/explore/get-started/android.rst:67
 msgid "Discover and Make Friends"
-msgstr ""
+msgstr "Découvrir et se faire des Amis"
 
 #: ../../source/explore/get-started/android.rst:72
 #: ../../source/explore/get-started/desktop.rst:49
 msgid "Handshake"
-msgstr ""
+msgstr "Poignée de Main"
 
 #: ../../source/explore/get-started/android.rst:72
 msgid ""
@@ -754,40 +756,51 @@ msgid ""
 "friends>`_ by shaking their hand. Press the handshake button which is "
 "above the flight button in the bottom right corner of your screen."
 msgstr ""
+"`Ajoutez une personne à vos connections <../socialize.html#make-connections-"
+"and-friends>`_ en leur offrant une poignée de main. Appuyez sur le bouton de "
+"la poignée de main qui se trouve au-dessus du bouton de vol dans le coin "
+"inférieur droit de votre écran."
 
 #: ../../source/explore/get-started/android.rst:75
 msgid "Connections List"
-msgstr ""
+msgstr "Liste des Connections"
 
 #: ../../source/explore/get-started/android.rst:75
 msgid "Open the **People** tab in the menu to view your Connections."
-msgstr ""
+msgstr "Ouvrez l'onglet **People** dans le menu pour voir vos connections."
 
 #: ../../source/explore/get-started/android.rst:79
 msgid ""
 "Additional functionality such as opening the Tablet, using the **Create**"
 " Tools app, adding wearables, etc. are not yet available."
 msgstr ""
+"Les fonctionnalités supplémentaires telles que l'ouverture du tablet, "
+"l'utilisation de l'application **Create** avec les Outils de Création, "
+"l'ajout de vêtements, etc. ne sont pas encore disponibles."
 
 #: ../../source/explore/get-started/android.rst:84
 msgid ":doc:`Socialize with Others <../socialize>`"
-msgstr ""
+msgstr ":doc:`Socializez avec les Autres <../socialize>`"
 
 #: ../../source/explore/get-started/architecture.rst:5
 msgid ""
 "Vircadia's architecture shows how different parts of the system work "
 "together to give you the best VR experience."
 msgstr ""
+"L'architecture de Vircadia montre comment les différentes parties du système "
+"fonctionnent ensemble pour vous offrir la meilleure expérience VR."
 
 #: ../../source/explore/get-started/architecture.rst:12
 msgid "Architecture Overview"
-msgstr ""
+msgstr "Aperçu de l'Architecture"
 
 #: ../../source/explore/get-started/architecture.rst:14
 msgid ""
 "Vircadia's architecture consists of the following components that work "
 "together and send data to each other for your VR experience."
 msgstr ""
+"L'architecture de Vircadia se compose des éléments suivants qui fonctionnent "
+"ensemble et s'envoient des données pour votre expérience VR."
 
 #: ../../source/explore/get-started/architecture.rst:16
 msgid ""
@@ -796,6 +809,10 @@ msgid ""
 "<../socialize>`, `attend live events <../socialize.html#attend-live-"
 "events>`_ and more."
 msgstr ""
+"L'Interface Vircadia donne la vie à votre expérience personnelle dans le "
+"métaverse. Avec elle, vous pouvez :doc:`visiter les mondes VR <../voyage>`, "
+":doc:`rencontrer des gens <../socialize>`, `assister à des événements en "
+"direct <../socialize.html#attend-live-events>`_ et plus encore."
 
 #: ../../source/explore/get-started/architecture.rst:17
 msgid ""
@@ -804,6 +821,10 @@ msgid ""
 "settings <../../host/configure-settings>`, such as audio spatialization, "
 "user permissions, and running scripts."
 msgstr ""
+"Le \"Serveur de Domaine\" est le serveur qui héberge un domaine. Le serveur "
+"de domaine héberge le contenu du domaine et gère les paramètres :doc:`domain-"
+"wide settings <../../host/configure-settings>`, tels que la spatialisation "
+"audio, les permissions utilisateur et l'exécution de scripts."
 
 #: ../../source/explore/get-started/architecture.rst:18
 msgid ""
@@ -811,10 +832,13 @@ msgid ""
 "of these services are maintained by Vircadia so that you can sign in and "
 "move seamlessly between places."
 msgstr ""
+"Les `Services Globaux`_ connectent tous les serveurs ensemble. Une instance "
+"de ces services est maintenue par Vircadia afin que vous puissiez vous "
+"connecter et vous déplacer sans problème d'un endroit à l'autre."
 
 #: ../../source/explore/get-started/architecture.rst:24
 msgid "Vircadia Interface"
-msgstr ""
+msgstr "Interface Vircadia"
 
 #: ../../source/explore/get-started/architecture.rst:26
 msgid ""
@@ -824,6 +848,11 @@ msgid ""
 "with the `domain server`_ that is hosting the virtual world, alongside "
 "any `global services`_."
 msgstr ""
+"L'Interface Vircadia (ou simplement \"Interface\") est la principale "
+"interface utilisateur de Vircadia. Elle est utilisée pour explorer le "
+"métaverse et entrer en contact avec des personnes du monde entier. Lorsque "
+"vous entrez dans un domaine, votre interface se connecte au `domain server` "
+"_qui héberge le monde virtuel, ainsi qu'aux `global services`_."
 
 #: ../../source/explore/get-started/architecture.rst:28
 msgid ""
@@ -831,10 +860,13 @@ msgid ""
 "phone using the `Client-Only Installer <install.html#client-only-"
 "installer>`_."
 msgstr ""
+"Vous pouvez télécharger et utiliser l'Interface sur votre ordinateur ou "
+"votre téléphone Android en utilisant l'installateur `Client-Only Installer "
+"<install.html#client-only-installer>`_."
 
 #: ../../source/explore/get-started/architecture.rst:34
 msgid "Physics Engine"
-msgstr ""
+msgstr "Engin de Physique"
 
 #: ../../source/explore/get-started/architecture.rst:36
 msgid ""
@@ -844,6 +876,11 @@ msgid ""
 "object falls to the ground and bounces, or when two or more objects "
 "collide, their movements are computed by the physics engine."
 msgstr ""
+"Votre expérience VR ne sera pas réaliste sans un peu de physique. Vircadia "
+"comprend un \"engin physique\" <http://bulletphysics.org>`_ qui simule le "
+"comportement des objets selon les lois de la physique newtonienne. Lorsqu'un "
+"objet tombe au sol et rebondit, ou lorsque deux ou plusieurs objets entrent "
+"en collision, leurs mouvements sont calculés par l'engin physique."
 
 #: ../../source/explore/get-started/architecture.rst:38
 msgid ""
@@ -851,10 +888,13 @@ msgid ""
 "coordinates the results to produce a consistent simulation across the "
 "entire domain."
 msgstr ""
+"Chaque Interface possède son propre engin physique, et le serveur d'entités "
+"coordonne les résultats pour produire une simulation cohérente sur "
+"l'ensemble du domaine."
 
 #: ../../source/explore/get-started/architecture.rst:42
 msgid "Domain Server"
-msgstr ""
+msgstr "Serveur de Domaine"
 
 #: ../../source/explore/get-started/architecture.rst:44
 msgid ""
@@ -864,6 +904,11 @@ msgid ""
 "to visit a domain, just like you would need a web address to visit a "
 "website."
 msgstr ""
+"Un domaine est une simulation spatiale dans Vircadia que vous pouvez "
+"visiter. Il est calculé par une pile de programmes sur un ou plusieurs "
+"ordinateurs. Vous avez besoin du :doc:`nom de lieu <../../host/"
+"configure-settings/place-setting>` pour visiter un domaine, tout comme vous "
+"auriez besoin d'une adresse web pour visiter un site web."
 
 #: ../../source/explore/get-started/architecture.rst:46
 msgid ""
@@ -874,10 +919,17 @@ msgid ""
 "entities, and avatars. Everything that you see, hear, and do in your "
 "domain is managed by the server stack."
 msgstr ""
+"Vous pouvez :doc:`configurer votre propre domaine <../../host/server-setup>` "
+"et l'héberger sur votre machine locale ou sur un serveur cloud pour le "
+"rendre disponible aux autres utilisateurs. La pile de serveurs de votre "
+"domaine est un ensemble de composants qui simulent et gèrent différents "
+"aspects du domaine tels que l'audio, les entités et les avatars. Tout ce que "
+"vous voyez, entendez et faites dans votre domaine est géré par la pile de "
+"serveurs."
 
 #: ../../source/explore/get-started/architecture.rst:52
 msgid "Server Stack"
-msgstr ""
+msgstr "Pile de Serveurs"
 
 #: ../../source/explore/get-started/architecture.rst:54
 msgid ""
@@ -886,6 +938,10 @@ msgid ""
 "Assignment Clients, because from the perspective of the domain server, "
 "they are clients that take on different roles."
 msgstr ""
+"Le Serveur de Domaine se trouve au sommet de cette pile et son travail "
+"consiste à attribuer des tâches aux autres composants. Ces composants sont "
+"appelés Clients d'Assignation, car du point de vue du serveur de domaine, ce "
+"sont des clients qui assument différents rôles."
 
 #: ../../source/explore/get-started/architecture.rst:56
 msgid ""
@@ -898,10 +954,19 @@ msgid ""
 "client can function as one of the six types mentioned. The domain server "
 "determines which assignment client functions as which mixer."
 msgstr ""
+"La pile de serveurs ne se contente pas de contrôler, gérer et calculer votre "
+"domaine tel que vous le voyez, mais aussi tel qu'il est vu par toute "
+"personne visitant votre domaine. Cela signifie que le serveur de domaine "
+"distribue des missions de simulation et fournit leurs adresses IP aux "
+"Interfaces clients connectées. Le serveur de domaine est un exécutable "
+"unique qui engendre des clients d'assignation qui deviennent les différents "
+"mélangeurs selon la demande. Chaque client d'assignation peut fonctionner "
+"comme l'un des six types mentionnés. Le serveur de domaine détermine quel "
+"client d'assignation fonctionne comme quel mélangeur."
 
 #: ../../source/explore/get-started/architecture.rst:60
 msgid "Assignment Clients"
-msgstr ""
+msgstr "Clients d'Assignation"
 
 #: ../../source/explore/get-started/architecture.rst:62
 msgid ""
@@ -909,14 +974,17 @@ msgid ""
 "also communicate directly with the Interface clients connected to a "
 "domain. There are six types of assignment clients:"
 msgstr ""
+"Les clients d'assignation contrôlent et gèrent divers aspects d'un domaine. "
+"Ils communiquent également directement avec les Interfaces clients "
+"connectées à un domaine. Il existe six types de clients d'assignation :"
 
 #: ../../source/explore/get-started/architecture.rst:65
 msgid "Assignment Client"
-msgstr ""
+msgstr "Assignation Client"
 
 #: ../../source/explore/get-started/architecture.rst:67
 msgid "Avatar Mixer"
-msgstr ""
+msgstr "Mélangeur d'Avatars"
 
 #: ../../source/explore/get-started/architecture.rst:67
 msgid ""
@@ -925,10 +993,15 @@ msgid ""
 "around the domain. For example, it tracks how you move your head while "
 "wearing a Head Mounted Display (HMD)."
 msgstr ""
+"Ce mixeur est chargé de votre présence virtuelle dans n'importe quel "
+"domaine. Il garde une trace de l'endroit où vous vous trouvez, de l'avatar "
+"que vous portez et de la façon dont vous vous déplacez dans le domaine. Par "
+"exemple, il suit la façon dont vous bougez votre tête lorsque vous portez un "
+"casque VR (HMD)."
 
 #: ../../source/explore/get-started/architecture.rst:71
 msgid "Audio Mixer"
-msgstr ""
+msgstr "Mélangeur Audio"
 
 #: ../../source/explore/get-started/architecture.rst:71
 msgid ""
@@ -937,10 +1010,14 @@ msgid ""
 "Audio mixer can customize a stereo mix for you based on your position "
 "relative to the audio source."
 msgstr ""
+"Mélange tous les sons, qu'il s'agisse de la voix ou de l'environnement. Et "
+"il le fait non seulement pour les avatars, mais aussi pour toutes les "
+"entités d'un domaine. Le mélangeur audio peut personnaliser un mixage stéréo "
+"pour vous en fonction de votre position par rapport à la source audio."
 
 #: ../../source/explore/get-started/architecture.rst:75
 msgid "Entity Server"
-msgstr ""
+msgstr "Serveur d'Entités"
 
 #: ../../source/explore/get-started/architecture.rst:75
 msgid ""
@@ -950,10 +1027,15 @@ msgid ""
 "server, which in turn relays the information to all clients currently "
 "visiting the domain."
 msgstr ""
+"Suit toutes les entités et leurs propriétés dans un domaine, depuis leur "
+"description et leur position, jusqu'aux comportements qui leur sont attachés "
+"dans un script. Si une entité est modifiée, le changement est communiqué au "
+"serveur d'entités, qui à son tour relaie l'information à tous les clients "
+"qui visitent actuellement le domaine."
 
 #: ../../source/explore/get-started/architecture.rst:80
 msgid "Asset Server"
-msgstr ""
+msgstr "Serveur d'Actifs"
 
 #: ../../source/explore/get-started/architecture.rst:80
 msgid ""
@@ -961,10 +1043,13 @@ msgid ""
 " by the domain. It functions like a Web server, but using protocols tuned"
 " to Vircadia's architecture."
 msgstr ""
+"Fournit des copies des modèles, des fichiers audio, des scripts et des "
+"autres supports utilisés par le domaine. Il fonctionne comme un serveur Web, "
+"mais en utilisant des protocoles adaptés à l'architecture de Vircadia."
 
 #: ../../source/explore/get-started/architecture.rst:83
 msgid "Agent"
-msgstr ""
+msgstr "Agent"
 
 #: ../../source/explore/get-started/architecture.rst:83
 msgid ""
@@ -972,16 +1057,22 @@ msgid ""
 "get your avatar to clap, or create a bowling alley, the Agent will "
 "execute it. It can see entities, avatars, and send audio."
 msgstr ""
+"Exécute des programmes JavaScript écrits par l'utilisateur. Si vous avez "
+"écrit un script pour faire applaudir votre avatar ou créer un bowling, "
+"l'Agent l'exécutera. Il peut voir des entités, des avatars et envoyer des "
+"sons."
 
 #: ../../source/explore/get-started/architecture.rst:86
 msgid "Messages Mixer"
-msgstr ""
+msgstr "Mélangeur de Messages"
 
 #: ../../source/explore/get-started/architecture.rst:86
 msgid ""
 "Provides communication between scripts running in different programs "
 "connected to the domain, which could be Interfaces or Agents."
 msgstr ""
+"Assure la communication entre scripts s'exécutant dans différents programmes "
+"connectés au domaine, qui peuvent être des Interfaces ou des Agents."
 
 #: ../../source/explore/get-started/architecture.rst:90
 msgid ""
@@ -993,26 +1084,36 @@ msgid ""
 " multiple audio mixers could be used to mix the audio in different "
 "geographic regions of the domain."
 msgstr ""
+"Sandbox gère tous ces composants sur le serveur de domaine, cinq clients "
+"d'assignation dédiés et autant de clients d'assignation agent que "
+"nécessaire. Toutefois, il est possible de répartir les clients d'assignation "
+"sur plusieurs ordinateurs, et même de répartir chaque fonction parmi une "
+"hiérarchie de composants d'assignation, qui peuvent se trouver sur des "
+"ordinateurs différents. Par exemple, plusieurs mixeurs audio pourraient être "
+"utilisés pour mixer l'audio dans différentes régions géographiques du "
+"domaine."
 
 #: ../../source/explore/get-started/architecture.rst:94
 msgid "Global Services"
-msgstr ""
+msgstr "Services Globaux"
 
 #: ../../source/explore/get-started/architecture.rst:96
 msgid "Vircadia maintains global services to connect different servers together."
 msgstr ""
+"Vircadia maintient des services globaux pour connecter différents serveurs "
+"entre eux."
 
 #: ../../source/explore/get-started/architecture.rst:103
 msgid ":doc:`Install Vircadia <install>`"
-msgstr ""
+msgstr ":doc:`Installer Vircadia <install>`"
 
 #: ../../source/explore/get-started/architecture.rst:104
 msgid ":doc:`Host Your Domain <../../host>`"
-msgstr ""
+msgstr ":doc:`Hébergez votre Domaine <../../host>`"
 
 #: ../../source/explore/get-started/architecture.rst:105
 msgid ":doc:`Travel Between Worlds <../travel>`"
-msgstr ""
+msgstr ":doc:`Voyagez entre Mondes <../travel>`"
 
 #: ../../source/explore/get-started/desktop.rst:5
 msgid ""
@@ -1020,6 +1121,10 @@ msgid ""
 "things in Vircadia. On this page, you can find all of the shortcuts so "
 "that you can enjoy your experience in Vircadia to the fullest."
 msgstr ""
+"Les utilisateurs en mode Bureau sont limités à l'utilisation de leur clavier "
+"et de leur souris pour faire des choses dans Vircadia. Sur cette page, vous "
+"trouverez tous les raccourcis pour vous permettre de profiter au maximum de "
+"votre expérience dans Vircadia."
 
 #: ../../source/explore/get-started/desktop.rst:7
 msgid ""
@@ -1027,6 +1132,9 @@ msgid ""
 "running on a Mac, use the same commands, substituting the ``Command`` key"
 " for the ``Ctrl`` key."
 msgstr ""
+"Les raccourcis ci-dessous concernent les ordinateurs Windows et Linux. Si "
+"vous utilisez un Mac, utilisez les mêmes commandes, en remplaçant la touche "
+"\"Ctrl\" par la touche \"Commande\"."
 
 #: ../../source/explore/get-started/desktop.rst:19
 #: ../../source/explore/get-started/desktop.rst:47
@@ -1034,353 +1142,372 @@ msgstr ""
 #: ../../source/explore/get-started/desktop.rst:99
 #: ../../source/explore/get-started/desktop.rst:115
 msgid "Key"
-msgstr ""
+msgstr "Touche"
 
 #: ../../source/explore/get-started/desktop.rst:21
 msgid "Walk Forward"
-msgstr ""
+msgstr "Avancer"
 
 #: ../../source/explore/get-started/desktop.rst:21
 msgid "``W`` or ``UP ARROW``"
-msgstr ""
+msgstr "``W`` ou ``UP ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:23
 msgid "Walk Backward"
-msgstr ""
+msgstr "Marcher à Reculons"
 
 #: ../../source/explore/get-started/desktop.rst:23
 msgid "``S`` or ``DOWN ARROW``"
-msgstr ""
+msgstr "``S`` ou ``DOWN ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:25
 msgid "Run"
-msgstr ""
+msgstr "Courir"
 
 #: ../../source/explore/get-started/desktop.rst:25
 msgid "Hold ``SHIFT`` while using any shortcut to walk"
 msgstr ""
+"Maintenir la touche ``SHIFT`` tout en utilisant n'importe quel raccourci "
+"pour marcher"
 
 #: ../../source/explore/get-started/desktop.rst:27
 msgid "Side Step to the Left"
-msgstr ""
+msgstr "Pas de Côté à Gauche"
 
 #: ../../source/explore/get-started/desktop.rst:27
 msgid "``Q`` or Right Click + ``A``  or ``SHIFT`` + ``LEFT ARROW``"
 msgstr ""
+"``Q`` ou clic droit de la souris  + ``A``  ou ``SHIFT`` + ``LEFT ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:29
 msgid "Side Step to the Right"
-msgstr ""
+msgstr "Pas de Côté à Droite"
 
 #: ../../source/explore/get-started/desktop.rst:29
 msgid "``E`` or Right Click + ``D`` or ``SHIFT`` + ``RIGHT ARROW``"
-msgstr ""
+msgstr "``E`` ou clic droit de la souris + ``D`` ou ``SHIFT`` + ``RIGHT ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:31
 msgid "Turn Left"
-msgstr ""
+msgstr "Tourner à Gauche"
 
 #: ../../source/explore/get-started/desktop.rst:31
 msgid "``A`` or ``LEFT ARROW``"
-msgstr ""
+msgstr "``A`` ou ``LEFT ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:33
 msgid "Turn Right"
-msgstr ""
+msgstr "Tourner à Droite"
 
 #: ../../source/explore/get-started/desktop.rst:33
 msgid "``D`` or ``RIGHT ARROW``"
-msgstr ""
+msgstr "``D`` ou ``RIGHT ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:35
 msgid "Jump"
-msgstr ""
+msgstr "Sauter"
 
 #: ../../source/explore/get-started/desktop.rst:35
 msgid "``SPACE`` or ``PGUP``"
-msgstr ""
+msgstr "``SPACE`` ou ``PGUP``"
 
 #: ../../source/explore/get-started/desktop.rst:37
 msgid "Fly"
-msgstr ""
+msgstr "Voler"
 
 #: ../../source/explore/get-started/desktop.rst:37
 msgid "Hold ``SPACE`` or ``PGUP``"
-msgstr ""
+msgstr "Maintenir ``SPACE`` ou ``PGUP``"
 
 #: ../../source/explore/get-started/desktop.rst:39
 msgid "Fly Down"
-msgstr ""
+msgstr "Voler vers le Bas"
 
 #: ../../source/explore/get-started/desktop.rst:39
 msgid "``C`` or ``PGDN``"
-msgstr ""
+msgstr "``C`` ou ``PGDN``"
 
 #: ../../source/explore/get-started/desktop.rst:49
 msgid "``X``"
-msgstr ""
+msgstr "``X``"
 
 #: ../../source/explore/get-started/desktop.rst:51
 msgid "Toggle Privacy Shield"
-msgstr ""
+msgstr "Commuter le Bouclier de Protection de la Vie Privée"
 
 #: ../../source/explore/get-started/desktop.rst:51
 msgid "``CTRL`` + ``N``"
-msgstr ""
+msgstr "``CTRL`` + ``N``"
 
 #: ../../source/explore/get-started/desktop.rst:53
 msgid "Open Tablet"
-msgstr ""
+msgstr "Ouvrir le Tablet"
 
 #: ../../source/explore/get-started/desktop.rst:53
 msgid "``TAB`` *(when 'Desktop becomes toolbar' is not checked)*"
-msgstr ""
+msgstr "``TAB`` *(quand 'Desktop becomes toolbar' n'est pas coché)*"
 
 #: ../../source/explore/get-started/desktop.rst:55
 msgid "Select Item"
-msgstr ""
+msgstr "Sélectionnez un Objet"
 
 #: ../../source/explore/get-started/desktop.rst:55
 #: ../../source/explore/get-started/desktop.rst:57
 msgid "Left Click"
-msgstr ""
+msgstr "Clic de Souris Gauche"
 
 #: ../../source/explore/get-started/desktop.rst:57
 msgid "Grab Item"
-msgstr ""
+msgstr "Saisir un Objet"
 
 #: ../../source/explore/get-started/desktop.rst:59
 msgid "Inspect Item"
-msgstr ""
+msgstr "Inspecter un Objet"
 
 #: ../../source/explore/get-started/desktop.rst:59
 msgid "Right Click"
-msgstr ""
+msgstr "Clic de Souris Droit"
 
 #: ../../source/explore/get-started/desktop.rst:61
 msgid "Open Browser"
-msgstr ""
+msgstr "Ouvrir le Navigateur"
 
 #: ../../source/explore/get-started/desktop.rst:61
+#, fuzzy
 msgid "``CTRL`` + ``B``"
-msgstr ""
+msgstr "``CTRL`` + ``B``"
 
 #: ../../source/explore/get-started/desktop.rst:63
 msgid "Toggle 'Away from Keyboard'"
-msgstr ""
+msgstr "Activer Mode 'Away from Keyboard'"
 
 #: ../../source/explore/get-started/desktop.rst:63
+#, fuzzy
 msgid "``ESC``"
-msgstr ""
+msgstr "``ESC``"
 
 #: ../../source/explore/get-started/desktop.rst:65
 msgid "Toggle 'Mute Mic'"
-msgstr ""
+msgstr "Commuter Mode 'Mute Mic'"
 
 #: ../../source/explore/get-started/desktop.rst:65
 msgid "``CTRL`` + ``M``"
-msgstr ""
+msgstr "``CTRL`` + ``M``"
 
 #: ../../source/explore/get-started/desktop.rst:67
 msgid "Toggle 'Show Statistics'"
-msgstr ""
+msgstr "Activer 'Show Statistics'"
 
 #: ../../source/explore/get-started/desktop.rst:67
 msgid "``/``"
-msgstr ""
+msgstr "``/``"
 
 #: ../../source/explore/get-started/desktop.rst:69
 msgid "Screenshot"
-msgstr ""
+msgstr "Capture d'Écran"
 
 #: ../../source/explore/get-started/desktop.rst:69
 #: ../../source/explore/get-started/desktop.rst:91
 msgid "``P``"
-msgstr ""
+msgstr "``P``"
 
 #: ../../source/explore/get-started/desktop.rst:71
 msgid "Push to Talk"
-msgstr ""
+msgstr "Push to Talk"
 
 #: ../../source/explore/get-started/desktop.rst:71
 #: ../../source/explore/get-started/desktop.rst:137
 msgid "``T``"
-msgstr ""
+msgstr "``T``"
 
 #: ../../source/explore/get-started/desktop.rst:76
 msgid "Camera Controls"
-msgstr ""
+msgstr "Contrôles de la Caméra"
 
 #: ../../source/explore/get-started/desktop.rst:81
 msgid "First Person View"
-msgstr ""
+msgstr "Vue à la Première Personne"
 
 #: ../../source/explore/get-started/desktop.rst:81
 msgid "``1``"
-msgstr ""
+msgstr "``1``"
 
 #: ../../source/explore/get-started/desktop.rst:83
 msgid "Third Person View"
-msgstr ""
+msgstr "Vue à la Troisième Personne"
 
 #: ../../source/explore/get-started/desktop.rst:83
 msgid "``3``"
-msgstr ""
+msgstr "``3``"
 
 #: ../../source/explore/get-started/desktop.rst:85
 msgid "Mirror View"
-msgstr ""
+msgstr "Vue en Miroir"
 
 #: ../../source/explore/get-started/desktop.rst:85
 msgid "``2``"
-msgstr ""
+msgstr "``2``"
 
 #: ../../source/explore/get-started/desktop.rst:87
 msgid "Pan In/Out"
-msgstr ""
+msgstr "Zoom In/Out"
 
 #: ../../source/explore/get-started/desktop.rst:87
 msgid "With mouse, use mouse wheel."
-msgstr ""
+msgstr "Avec la souris, utilisez la molette de la souris."
 
 #: ../../source/explore/get-started/desktop.rst:89
 msgid "On trackpad, drag two fingers up or down."
 msgstr ""
+"Sur le pavé tactile, faites glisser deux doigts vers le haut ou vers le bas."
 
 #: ../../source/explore/get-started/desktop.rst:91
 msgid "Take Screenshot"
-msgstr ""
+msgstr "Faites une Capture d'Écran"
 
 #: ../../source/explore/get-started/desktop.rst:96
 msgid "Avatar Sizing Controls"
-msgstr ""
+msgstr "Contrôles de la Taille de l'Avatar"
 
 #: ../../source/explore/get-started/desktop.rst:101
 msgid "Decrease Avatar Size"
-msgstr ""
+msgstr "Diminuer la Taille de l'Avatar"
 
 #: ../../source/explore/get-started/desktop.rst:101
 msgid "``-``"
-msgstr ""
+msgstr "``-``"
 
 #: ../../source/explore/get-started/desktop.rst:103
 msgid "Increase Avatar Size"
-msgstr ""
+msgstr "Augmenter la Taille de l'Avatar"
 
 #: ../../source/explore/get-started/desktop.rst:103
 msgid "``+``"
-msgstr ""
+msgstr "``+``"
 
 #: ../../source/explore/get-started/desktop.rst:105
 msgid "Reset Avatar Size"
-msgstr ""
+msgstr "Réinitialiser la Taille de l'Avatar"
 
 #: ../../source/explore/get-started/desktop.rst:105
+#, fuzzy
 msgid "``=``"
-msgstr ""
+msgstr "``=``"
 
 #: ../../source/explore/get-started/desktop.rst:110
 msgid "Create and Edit Mode"
-msgstr ""
+msgstr "Mode Création et Édition"
 
 #: ../../source/explore/get-started/desktop.rst:112
 msgid "These controls work when the **Create** app is open."
 msgstr ""
+"Ces contrôles fonctionnent lorsque l'application **Create** est ouverte."
 
 #: ../../source/explore/get-started/desktop.rst:117
 msgid "Undo"
-msgstr ""
+msgstr "Annuler"
 
 #: ../../source/explore/get-started/desktop.rst:117
+#, fuzzy
 msgid "``CTRL`` + ``Z``"
-msgstr ""
+msgstr "``CTRL`` + ``Z``"
 
 #: ../../source/explore/get-started/desktop.rst:119
 msgid "Redo"
-msgstr ""
+msgstr "Refaire"
 
 #: ../../source/explore/get-started/desktop.rst:119
+#, fuzzy
 msgid "``CTRL`` + ``Y``"
-msgstr ""
+msgstr "``CTRL`` + ``Y``"
 
 #: ../../source/explore/get-started/desktop.rst:121
 msgid "Delete Entity"
-msgstr ""
+msgstr "Supprimer une Entité"
 
 #: ../../source/explore/get-started/desktop.rst:121
+#, fuzzy
 msgid "``DEL``"
-msgstr ""
+msgstr "``DEL``"
 
 #: ../../source/explore/get-started/desktop.rst:123
 msgid "Focus on Selected Entity"
-msgstr ""
+msgstr "Focus sur une Entité sélectionnée"
 
 #: ../../source/explore/get-started/desktop.rst:123
+#, fuzzy
 msgid "``F``"
-msgstr ""
+msgstr "``F``"
 
 #: ../../source/explore/get-started/desktop.rst:125
 msgid "Align Grid to Bottom of Selected Entities"
-msgstr ""
+msgstr "Aligner la grille sur le Bas des Entités sélectionnées"
 
 #: ../../source/explore/get-started/desktop.rst:125
+#, fuzzy
 msgid "``G``"
-msgstr ""
+msgstr "``G``"
 
 #: ../../source/explore/get-started/desktop.rst:127
 msgid "Duplicate Entity"
-msgstr ""
+msgstr "Dupliquer une Entité"
 
 #: ../../source/explore/get-started/desktop.rst:127
 msgid "``CTRL`` + Left Click + Drag"
-msgstr ""
+msgstr "``CTRL`` + Clic de Souris Gauche + Glisser la Souris"
 
 #: ../../source/explore/get-started/desktop.rst:129
 msgid "Parent Entity"
-msgstr ""
+msgstr "Parenter une Entité"
 
 #: ../../source/explore/get-started/desktop.rst:129
+#, fuzzy
 msgid "``CTRL`` + ``P``"
-msgstr ""
+msgstr "``CTRL`` + ``P``"
 
 #: ../../source/explore/get-started/desktop.rst:131
 msgid "Unparent Entity"
-msgstr ""
+msgstr "Déparenter une Entité"
 
 #: ../../source/explore/get-started/desktop.rst:131
+#, fuzzy
 msgid "``CTRL`` + ``SHIFT`` + ``P``"
-msgstr ""
+msgstr "``CTRL`` + ``SHIFT`` + ``P``"
 
 #: ../../source/explore/get-started/desktop.rst:133
 msgid "Copy Entity"
-msgstr ""
+msgstr "Copier une Entité"
 
 #: ../../source/explore/get-started/desktop.rst:133
+#, fuzzy
 msgid "``CTRL`` + ``C``"
-msgstr ""
+msgstr "``CTRL`` + ``C``"
 
 #: ../../source/explore/get-started/desktop.rst:135
 msgid "Paste Entity"
-msgstr ""
+msgstr "Coller une Entité"
 
 #: ../../source/explore/get-started/desktop.rst:135
+#, fuzzy
 msgid "``CTRL`` + ``V``"
-msgstr ""
+msgstr "``CTRL`` + ``V``"
 
 #: ../../source/explore/get-started/desktop.rst:137
 msgid "Toggle Global/Local Translation"
-msgstr ""
+msgstr "Commuter entre Système de Coordonnées Global/Local"
 
 #: ../../source/explore/get-started/desktop.rst:143
 #: ../../source/explore/get-started/vr-controls.rst:213
 msgid "Gamepad"
-msgstr ""
+msgstr "Manette de Jeu"
 
 #: ../../source/explore/get-started/desktop.rst:145
 msgid ""
 "Instead of a keyboard, you can use a gamepad while experiencing Vircadia "
 "in desktop mode."
 msgstr ""
+"Au lieu d'un clavier, vous pouvez utiliser une manette de jeu tout en "
+"faisant l'expérience de Vircadia en mode bureau."
 
 #: ../../source/explore/get-started/install.rst:5
 msgid ""
@@ -1393,90 +1520,108 @@ msgid ""
 "provided for Windows. For Linux see: :doc:`Host a Domain from a Local or "
 "Cloud Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
+"Vircadia a deux installateurs différents. Le *Client Installer* est livré "
+"avec tout ce dont vous avez besoin pour voir et interagir avec le contenu et "
+"les utilisateurs de Vircadia. Cependant, vous ne pouvez pas héberger de "
+"contenu à l'aide de cet installateur. Le *Client + Server Installer* "
+"contient tout ce que fait l'installateur client, mais il vous permet "
+"également de :doc:`héberger votre propre contenu <../../host>` et de le "
+"partager avec le monde entier. Le téléchargement du *Client + Server "
+"Installer* n'est fourni que pour Windows. Pour Linux, voir : :doc:`Héberger "
+"un Domaine à partir d'un Serveur Linux local ou cloud <../../host/"
+"server-setup/linux-server>`."
 
 #: ../../source/explore/get-started/install.rst:15
 msgid "System Requirements"
-msgstr ""
+msgstr "Configuration requise pour le Système"
 
 #: ../../source/explore/get-started/install.rst:17
 msgid ""
 "In order to run Vircadia, ensure that your computer meets these system "
 "requirements:"
 msgstr ""
+"Pour faire fonctionner Vircadia, assurez-vous que votre ordinateur répond à "
+"ces exigences :"
 
 #: ../../source/explore/get-started/install.rst:19
 msgid "Operating system:"
-msgstr ""
+msgstr "Système d'exploitation :"
 
 #: ../../source/explore/get-started/install.rst:21
 msgid "Windows 8.1, 64-bit or Windows 10, 64-bit"
-msgstr ""
+msgstr "Windows 8.1, 64 bits ou Windows 10, 64 bits"
 
 #: ../../source/explore/get-started/install.rst:22
 msgid "MacOS High Sierra (10.13) or newer"
-msgstr ""
+msgstr "MacOS High Sierra (10.13) ou plus récent"
 
 #: ../../source/explore/get-started/install.rst:23
 msgid "Ubuntu 18.04 64 bit or any other modern Linux distribution"
-msgstr ""
+msgstr "Ubuntu 18.04 64 bit ou toute autre distribution moderne de Linux"
 
 #: ../../source/explore/get-started/install.rst:25
 msgid "CPU:"
-msgstr ""
+msgstr "CPU :"
 
 #: ../../source/explore/get-started/install.rst:27
 msgid "**Minimum:** Quad-core"
-msgstr ""
+msgstr "**Minimum :** Quad-core"
 
 #: ../../source/explore/get-started/install.rst:28
 msgid "**Recommended:** Quad-core with hyper-threading or better"
-msgstr ""
+msgstr "**Recommendé :** Quad-core avec hyper-threading ou mieux"
 
 #: ../../source/explore/get-started/install.rst:30
 msgid "System memory:"
-msgstr ""
+msgstr "Mémoire du système :"
 
 #: ../../source/explore/get-started/install.rst:32
 msgid "**Minimum:** 8GB"
-msgstr ""
+msgstr "**Minimum :** 8GB"
 
 #: ../../source/explore/get-started/install.rst:34
 msgid "Graphics adapter:"
-msgstr ""
+msgstr "Adaptateur graphique :"
 
 #: ../../source/explore/get-started/install.rst:36
 msgid "**Minimum:** Nvidia 600 series"
-msgstr ""
+msgstr "**Minimum :** Nvidia 600 series"
 
 #: ../../source/explore/get-started/install.rst:37
 msgid "**Recommended:** Nvidia 900 series or higher"
-msgstr ""
+msgstr "**Recommendé :** Nvidia 900 series ou plus haut"
 
 #: ../../source/explore/get-started/install.rst:38
 msgid "**Minimum:** AMD Radeon HD 87XX series"
-msgstr ""
+msgstr "**Minimum :** AMD Radeon HD 87XX series"
 
 #: ../../source/explore/get-started/install.rst:39
 msgid "**Recommended:** AMD Radeon HD 89XX series or higher"
-msgstr ""
+msgstr "**Recommendé :** AMD Radeon HD 89XX series ou plus haut"
 
 #: ../../source/explore/get-started/install.rst:40
 msgid ""
 "**Minimum:** Intel 5th generation CPU integrated Iris graphics. Using "
 "Intel integrated graphics is not recommended."
 msgstr ""
+"**Minimum :** CPU Intel de 5e génération avec graphiques Iris intégré. "
+"L'utilisation de graphiques Intel intégrés n'est pas recommandée."
 
 #: ../../source/explore/get-started/install.rst:42
 msgid ""
 "The listed graphics adapters support OpenGL 4.1 and above. This is a "
 "requirement for any graphics adapter running Vircadia."
 msgstr ""
+"Les adaptateurs graphiques listés supportent OpenGL 4.1 et plus. C'est une "
+"exigence pour toute carte graphique fonctionnant sous Vircadia."
 
 #: ../../source/explore/get-started/install.rst:44
 msgid ""
 "In addition, your network must have enough internet bandwidth to run "
 "Vircadia:"
 msgstr ""
+"En outre, votre réseau doit disposer d'une bande passante Internet "
+"suffisante pour faire fonctionner Vircadia :"
 
 #: ../../source/explore/get-started/install.rst:46
 msgid ""
@@ -1484,6 +1629,9 @@ msgid ""
 " have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s "
 "upload**."
 msgstr ""
+"Si vous utilisez l'Interface uniquement pour explorer le métaverse, vous "
+"devez avoir une vitesse Internet d'au moins **10 Mbit/s en téléchargement** "
+"et **2 Mbit/s en envoi**."
 
 #: ../../source/explore/get-started/install.rst:47
 msgid ""
@@ -1493,12 +1641,21 @@ msgid ""
 "Mbit/s upload** per user if you host your assets on an external web "
 "server rather than your domain server."
 msgstr ""
+"Si vous hébergez un serveur de domaine sur une machine distante ou sur votre "
+"ordinateur local, vous devez ajouter **10 Mbit/s en amont** pour chaque "
+"utilisateur que vous souhaitez autoriser à visiter simultanément votre "
+"domaine. Vous n'aurez besoin que de **2 Mbit/s en amont** par utilisateur si "
+"vous hébergez vos ressources sur un serveur web externe plutôt que sur votre "
+"serveur de domaine."
 
 #: ../../source/explore/get-started/install.rst:50
 msgid ""
 "A world that is specifically built for low-end systems might run fine on "
 "a system with slightly less memory or a lower CPU core count."
 msgstr ""
+"Un monde spécialement conçu pour les systèmes bas de gamme peut fonctionner "
+"correctement sur un système avec un peu moins de mémoire ou un nombre de "
+"processeurs inférieur."
 
 #: ../../source/explore/get-started/install.rst:52
 msgid ""
@@ -1506,20 +1663,25 @@ msgid ""
 "much better graphics adapter, depending on your display's resolution and "
 "targeted frame rate."
 msgstr ""
+"L'expérience de Vircadia sur un écran haute résolution ou en mode VR "
+"nécessitera une bien meilleure carte graphique, en fonction de la résolution "
+"de votre écran et de la fréquence d'images visée."
 
 #: ../../source/explore/get-started/install.rst:56
 msgid "Download Vircadia Installer"
-msgstr ""
+msgstr "Télécharger l'Installateur Vircadia"
 
 #: ../../source/explore/get-started/install.rst:58
 msgid "You can download Vircadia through our website:"
-msgstr ""
+msgstr "Vous pouvez télécharger Vircadia sur notre site web :"
 
 #: ../../source/explore/get-started/install.rst:60
 msgid ""
 "`Download the Client Installer <https://vircadia.com/download-"
 "vircadia/#interface>`_"
 msgstr ""
+"`Télécharger l'Installateur du Client <https://vircadia.com/"
+"download-vircadia/#interface>`_"
 
 #: ../../source/explore/get-started/install.rst:63
 msgid ""
@@ -1527,16 +1689,22 @@ msgid ""
 " or Oculus Runtime is also installed on your system before launching "
 "Vircadia."
 msgstr ""
+"Si vous avez l'intention d'utiliser Vircadia en mode VR avec un HMD, assurez-"
+"vous que SteamVR ou Oculus Runtime est également installé sur votre système "
+"avant de démarrer Vircadia."
 
 #: ../../source/explore/get-started/install.rst:70
 msgid ""
 "Once you've downloaded the installer, you're ready to install Vircadia. "
 "The process will be different based on your operating system:"
 msgstr ""
+"Une fois que vous avez téléchargé l'installateur, vous êtes prêt à installer "
+"Vircadia. Le processus sera différent en fonction de votre système "
+"d'exploitation :"
 
 #: ../../source/explore/get-started/install.rst:74
 msgid "Windows Install"
-msgstr ""
+msgstr "Installation sous Windows"
 
 #: ../../source/explore/get-started/install.rst:76
 msgid ""
@@ -1545,72 +1713,92 @@ msgid ""
 "finish the install process, Interface will open, and you will be able to "
 "log in and begin exploring the metaverse."
 msgstr ""
+"Pour l'installer sur Windows, il suffit de double-cliquer sur le fichier "
+"d'installation téléchargé pour l'ouvrir. Passez en revue les invites du "
+"programme d'installation. Une fois le processus d'installation terminé, "
+"l'Interface s'ouvrira et vous pourrez vous connecter et commencer à explorer "
+"le métaverse."
 
 #: ../../source/explore/get-started/install.rst:81
 msgid "Mac Install"
-msgstr ""
+msgstr "Installation sur Mac"
 
 #: ../../source/explore/get-started/install.rst:83
 msgid ""
 "At this time, the Vircadia installer for Mac is unsigned, so you will "
 "need give the OS permission to install the application."
 msgstr ""
+"Pour le moment, l'installateur Vircadia pour Mac n'est pas signé, vous "
+"devrez donc donner au système d'exploitation la permission d'installer "
+"l'application."
 
 #: ../../source/explore/get-started/install.rst:85
 msgid "Open the downloaded installer dmg file."
-msgstr ""
+msgstr "Ouvrez le fichier d'installation dmg téléchargé."
 
 #: ../../source/explore/get-started/install.rst:86
 msgid "Agree to the License Agreement."
-msgstr ""
+msgstr "Acceptez le contrat de licence."
 
 #: ../../source/explore/get-started/install.rst:87
 msgid "Drag Vircadia to the Applications folder."
-msgstr ""
+msgstr "Faites glisser Vircadia dans le dossier Applications."
 
 #: ../../source/explore/get-started/install.rst:88
 msgid ""
 "Try opening Interface.app. You will be prompted that macOS will not open "
 "the file because it is unsigned."
 msgstr ""
+"Essayez d'ouvrir le fichier Interface.app. Vous serez invité à dire que "
+"MacOS n'ouvrira pas le fichier parce qu'il n'est pas signé."
 
 #: ../../source/explore/get-started/install.rst:89
 msgid ""
 "Open **System Preferences > Security & Privacy**. On older macOS versions"
 " this might be in **System Preferences > General**."
 msgstr ""
+"Ouvrez **System Preferences > Security & Privacy**. Sur les anciennes "
+"versions de macOS, cela peut être dans **System Preferences > General**."
 
 #: ../../source/explore/get-started/install.rst:90
 msgid ""
 "Next to the warning indicating that Interface is blocked, click 'Open "
 "Anyway'."
 msgstr ""
+"A côté de l'avertissement indiquant que l'Interface est bloquée, cliquez sur "
+"\"Open Anyway\"."
 
 #: ../../source/explore/get-started/install.rst:91
 msgid "Confirm that you want to open the application."
-msgstr ""
+msgstr "Confirmez que vous voulez ouvrir l'application."
 
 #: ../../source/explore/get-started/install.rst:92
 msgid ""
 "Allow microphone access if prompted, in order to be able to talk inside "
 "the application."
 msgstr ""
+"Autorisez l'accès au microphone si vous y êtes invité, afin de pouvoir "
+"parler dans l'application."
 
 #: ../../source/explore/get-started/install.rst:94
 msgid ""
 "At this point, Interface will open and you will be able to log in and "
 "begin exploring the metaverse."
 msgstr ""
+"À ce stade, Interface s'ouvrira et vous pourrez vous connecter et commencer "
+"à explorer le métaverse."
 
 #: ../../source/explore/get-started/install.rst:99
 msgid "Linux Install"
-msgstr ""
+msgstr "Installation sous Linux"
 
 #: ../../source/explore/get-started/install.rst:101
 msgid ""
 "Mark the downloaded AppImage file as executable. (for example, with "
 "``chmod +x Vircadia-Alpha-2020.2.5-Asteria.AppImage``.)"
 msgstr ""
+"Marquez le fichier AppImage téléchargé comme exécutable. (par exemple, avec "
+"``chmod +x Vircadia-Alpha-2020.3.2-Asteria.AppImage``.)"
 
 #: ../../source/explore/get-started/install.rst:102
 msgid ""
@@ -1618,10 +1806,13 @@ msgid ""
 "install `AppImageLauncher "
 "<https://github.com/TheAssassin/AppImageLauncher>`_."
 msgstr ""
+"(Facultatif) Si vous voulez que l'AppImage soit intégrée dans votre système, "
+"installez `AppImageLauncher <https://github.com/TheAssassin/"
+"AppImageLauncher>`_."
 
 #: ../../source/explore/get-started/install.rst:103
 msgid "Execute AppImage."
-msgstr ""
+msgstr "Exécutez AppImage."
 
 #: ../../source/explore/get-started/install.rst:105
 msgid ""
@@ -1629,10 +1820,14 @@ msgid ""
 " a domain, please refer to :doc:`Host a Domain from a Local or Cloud "
 "Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
+"Actuellement, le serveur ne fait pas partie de l'AppImage de l'interface "
+"Linux. Pour héberger un domaine, veuillez vous référer à :doc:`Héberger un "
+"Domaine à partir d'un Serveur Linux local ou cloud <../../host/server-setup/"
+"linux-server>`."
 
 #: ../../source/explore/get-started/install.rst:109
 msgid "Upgrade Vircadia"
-msgstr ""
+msgstr "Mise à jour de Vircadia"
 
 #: ../../source/explore/get-started/install.rst:111
 msgid ""
@@ -1641,6 +1836,11 @@ msgid ""
 " you can download the latest release from our `website "
 "<https://vircadia.com/download-vircadia/#interface>`_."
 msgstr ""
+"Vircadia est en constante évolution, car nous travaillons à améliorer les "
+"performances et à ajouter des fonctionnalités qui amélioreront votre "
+"expérience dans le métaverse. À tout moment, vous pouvez télécharger la "
+"dernière version sur notre `site web <https://vircadia.com/download-vircadia/"
+"#interface>`_."
 
 #: ../../source/explore/get-started/install.rst:114
 msgid ""
@@ -1649,6 +1849,10 @@ msgid ""
 "before upgrading. Keep in mind that Vircadia Server could be running in "
 "the background."
 msgstr ""
+"Vous ne pouvez pas mettre à jour Vircadia sur Windows si vous avez "
+"l'Interface ou le Serveur Vircadia en état de fonction sur votre ordinateur. "
+"Veillez à quitter ces applications avant de procéder à la mise à jour. "
+"N'oubliez pas que le Serveur Vircadia peut fonctionner en arrière-plan."
 
 #: ../../source/explore/get-started/install.rst:117
 msgid ""
@@ -1656,16 +1860,23 @@ msgid ""
 "the icon and select 'Quit'. Alternatively, end the 'server-console' "
 "background process using the Task Manager."
 msgstr ""
+"Pour Windows, localisez l'application Vircadia dans votre barre d'état "
+"système. Cliquez sur l'icône avec le bouton droit de la souris et "
+"sélectionnez \"Quitter\". Vous pouvez également terminer le processus de la "
+"\"console serveur\" fonctionant en arrière-plan en utilisant le gestionnaire "
+"des tâches."
 
 #: ../../source/explore/get-started/install.rst:119
 msgid ""
 "For more information on the latest releases, see our :doc:`Release Notes "
 "<../../release-notes>`."
 msgstr ""
+"Pour plus d'informations sur les dernières versions, voir notre :doc:`"
+"Release Notes <../../release-notes>`."
 
 #: ../../source/explore/get-started/install.rst:124
 msgid "Perform a Clean Install"
-msgstr ""
+msgstr "Effectuer une Installation Propre"
 
 #: ../../source/explore/get-started/install.rst:126
 msgid ""
@@ -1674,6 +1885,10 @@ msgid ""
 "multiple files and settings that you may need once you install Vircadia "
 "again."
 msgstr ""
+"Si vous rencontrez des problèmes lors du chargement de l'Interface ou du "
+"Serveur local, vous pouvez essayer d'effectuer une installation propre. Une "
+"installation propre supprime plusieurs fichiers et paramètres dont vous "
+"pourriez avoir besoin une fois que vous aurez réinstallé Vircadia."
 
 #: ../../source/explore/get-started/install.rst:129
 msgid ""
@@ -1681,20 +1896,25 @@ msgid ""
 "Favorites, Wearables, Server content, and Entities. These settings will "
 "be deleted during the clean install."
 msgstr ""
+"Assurez-vous de sauvegarder les fichiers suivants avant de procéder à une "
+"installation propre : Favoris, Vêtements, Contenu du Serveur et Entités. Ces "
+"paramètres seront supprimés lors de l'installation propre."
 
 #: ../../source/explore/get-started/install.rst:133
 msgid "Windows Clean Install"
-msgstr ""
+msgstr "Installation propre de Windows"
 
 #: ../../source/explore/get-started/install.rst:135
 msgid ""
 "Click on the Start menu and type \"Add or Remove Programs\" in your "
 "Windows search bar."
 msgstr ""
+"Cliquez sur le menu Démarrer et tapez \"Ajouter ou supprimer des programmes\""
+" dans votre barre de recherche Windows."
 
 #: ../../source/explore/get-started/install.rst:136
 msgid "Uninstall any versions of Vircadia that are visible."
-msgstr ""
+msgstr "Désinstallez toutes les versions de Vircadia qui sont visibles."
 
 #: ../../source/explore/get-started/install.rst:137
 #, python-format
@@ -1702,6 +1922,8 @@ msgid ""
 "Once Vircadia is uninstalled, browse to your %Program Files% directory. "
 "Delete all folders related to Vircadia."
 msgstr ""
+"Une fois Vircadia désinstallé, naviguez dans votre répertoire %Program "
+"Files%. Supprimez tous les répertoires liés à Vircadia."
 
 #: ../../source/explore/get-started/install.rst:141
 msgid ""
@@ -1710,6 +1932,11 @@ msgid ""
 "client to another location on your computer before proceeding. Repeat for"
 " %AppData%/Roaming/Vircadia/assignment-client."
 msgstr ""
+"Les 3 étapes suivantes permettront de supprimer définitivement le contenu de "
+"votre Serveur local. Si vous souhaitez conserver ce contenu, copiez "
+"%AppData%/Local/Vircadia/assignment-client à un autre endroit de votre "
+"ordinateur avant de poursuivre. Répétez l'opération pour %AppData%/Roaming/"
+"Vircadia/assignment-client."
 
 #: ../../source/explore/get-started/install.rst:145
 #, python-format
@@ -1720,6 +1947,11 @@ msgid ""
 "View and make sure \"Hidden Items\" is checked. Delete all folders "
 "related to Vircadia."
 msgstr ""
+"Naviguez dans votre dossier local %AppData% (généralement \"C:/Users/"
+"<votre_nom_d'utilisateur>/AppData/Local\"). Si vous ne voyez pas le dossier, "
+"assurez-vous que vous pouvez visualiser les dossiers cachés : dans "
+"l'explorateur de fichiers, cliquez sur Afficher et assurez-vous que "
+"\"Éléments cachés\" est coché. Supprimez tous les dossiers liés à Vircadia."
 
 #: ../../source/explore/get-started/install.rst:147
 #, python-format
@@ -1728,6 +1960,9 @@ msgid ""
 "``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related"
 " to Vircadia."
 msgstr ""
+"Naviguez jusqu'au dossier roaming %AppData% (généralement \"C:/Users/"
+"<votre_nom_d'utilisateur>/AppData/Roaming\"). Supprimez tous les dossiers "
+"relatifs à Vircadia."
 
 #: ../../source/explore/get-started/install.rst:148
 msgid ""
@@ -1735,14 +1970,17 @@ msgid ""
 " content, copy the ``assignment-client`` folders you previously saved "
 "back into to their respective locations."
 msgstr ""
+"Réinstallez Vircadia en suivant les étapes ci-dessus. Pour restaurer le "
+"contenu de votre Serveur local, copiez les dossiers ``assignment-client`` "
+"que vous avez précédemment sauvegardés dans leurs emplacements respectifs."
 
 #: ../../source/explore/get-started/install.rst:152
 msgid "Mac Clean Install"
-msgstr ""
+msgstr "Installation propre sur Mac"
 
 #: ../../source/explore/get-started/install.rst:154
 msgid "Open your Applications folder and delete the Vircadia folder."
-msgstr ""
+msgstr "Ouvrez votre dossier Applications et supprimez le dossier Vircadia."
 
 #: ../../source/explore/get-started/install.rst:155
 msgid ""
@@ -1750,10 +1988,13 @@ msgid ""
 "accessible by going to *Go > Home*. Press the keyboard shortcut ``Command"
 " + Shift + .`` (period)."
 msgstr ""
+"Ouvrez le dossier \"<nom d'utilisateur>/.config \". C'est un dossier caché "
+"qui est accessible en allant sur *Go > Home*. Appuyez sur le raccourci "
+"clavier \"``Command + Shift + .`` (période)."
 
 #: ../../source/explore/get-started/install.rst:156
 msgid "Delete the ``vircadia.com`` folder."
-msgstr ""
+msgstr "Supprimez le dossier ``vircadia.com``."
 
 #: ../../source/explore/get-started/install.rst:157
 msgid ""
@@ -1761,24 +2002,29 @@ msgid ""
 "'Go' menu while in the Finder. The Library option should appear in the "
 "menu."
 msgstr ""
+"Ouvrez le dossier `~/Library`` en maintenant la touche Option enfoncée et en "
+"cliquant sur le menu 'Go' dans le Finder. L'option 'Library' devrait "
+"apparaître dans le menu."
 
 #: ../../source/explore/get-started/install.rst:158
 msgid ""
 "Browse to ``~/Library/Application Support`` and delete the Vircadia "
 "folder."
 msgstr ""
+"Naviguez jusqu'à ``~/Library/Application Support`` et supprimez le dossier "
+"Vircadia."
 
 #: ../../source/explore/get-started/install.rst:159
 msgid "Empty the Trash."
-msgstr ""
+msgstr "Videz la Corbeille."
 
 #: ../../source/explore/get-started/install.rst:160
 msgid "Re-install Vircadia using the steps above."
-msgstr ""
+msgstr "Réinstallez Vircadia en suivant les étapes ci-dessus."
 
 #: ../../source/explore/get-started/install.rst:165
 msgid ":doc:`Install Your Domain <../../host/server-setup>`"
-msgstr ""
+msgstr ":doc:`Installez votre Domaine <../../host/server-setup>`"
 
 #: ../../source/explore/get-started/setup-audio.rst:5
 msgid ""
@@ -1787,16 +2033,24 @@ msgid ""
 " Usually, your computer will automatically detect a plugged in headset "
 "and you will not need to configure your audio devices any further."
 msgstr ""
+"Lorsque vous vous connectez à Vircadia pour la première fois, nous détectons "
+"automatiquement les périphériques audio par défaut de votre ordinateur et "
+"les utilisons pour Vircadia. En général, votre ordinateur détectera "
+"automatiquement un casque d'écoute branché et vous n'aurez pas besoin de "
+"configurer davantage vos périphériques audio."
 
 #: ../../source/explore/get-started/setup-audio.rst:7
 msgid ""
 "However, some audio setups do require additional configuration. If you "
 "need to change your audio settings, read on to find out more."
 msgstr ""
+"Toutefois, certaines configurations audio nécessitent une configuration "
+"supplémentaire. Si vous devez modifier vos paramètres audio, lisez ce qui "
+"suit pour en savoir plus."
 
 #: ../../source/explore/get-started/setup-audio.rst:15
 msgid "Audio \"At a Glance\""
-msgstr ""
+msgstr "Audio \"en bref\""
 
 #: ../../source/explore/get-started/setup-audio.rst:17
 msgid ""
@@ -1805,10 +2059,14 @@ msgid ""
 "turned on or off in your Audio settings (from the Tablet or HUD, click "
 "**Audio**)."
 msgstr ""
+"Vos paramètres audio de base sont affichés dans le coin supérieur gauche de "
+"votre fenêtre d'Interface. Il s'agit de \"Audio Level Meter\", qui peut être "
+"activé ou désactivé dans vos paramètres audio (depuis le tablet ou le HUD, "
+"cliquez sur **Audio**)."
 
 #: ../../source/explore/get-started/setup-audio.rst:23
 msgid "Change your Input or Output Device"
-msgstr ""
+msgstr "Changer votre Périphérique d'Entrée ou de Sortie"
 
 #: ../../source/explore/get-started/setup-audio.rst:26
 msgid ""
@@ -1821,6 +2079,15 @@ msgid ""
 "applications on your computer, then you can change your device in the "
 "application."
 msgstr ""
+"L'audio 3D spatialisé de Vircadia est garanti pour améliorer votre "
+"expérience dans le métaverse, que vous soyez en mode bureau ou que vous "
+"utilisiez un équipement VR. Par défaut, nous sélectionnerons les appareils "
+"audio par défaut que votre système d'exploitation ou votre casque a "
+"détectés. Si vous souhaitez utiliser un casque ou une configuration audio "
+"différente de celle par défaut, vous pouvez changer le périphérique par "
+"défaut de votre ordinateur. Si vous devez utiliser un appareil différent "
+"pour Vircadia par rapport aux autres applications sur votre ordinateur, vous "
+"pouvez alors changer votre appareil dans l'application."
 
 #: ../../source/explore/get-started/setup-audio.rst:28
 msgid ""
@@ -1831,6 +2098,13 @@ msgid ""
 "Hear\" device (think of these sound card devices as if they were "
 "microphones being held up to your speakers while they output sound)."
 msgstr ""
+"Un *audio input device* est tout dispositif qui capture le son et génère un "
+"signal auquel peuvent accéder d'autres dispositifs. Les exemples de "
+"périphériques d'entrée audio comprennent un microphone USB ou un casque avec "
+"un microphone qui est branché sur votre ordinateur, ou le périphérique "
+"\"Stereo Mix\" ou \"What U Hear\" de votre carte son (pensez à ces "
+"périphériques de carte son comme s'il s'agissait de microphones que vous "
+"tenez à la hauteur de vos haut-parleurs pendant qu'ils produisent du son)."
 
 #: ../../source/explore/get-started/setup-audio.rst:29
 msgid ""
@@ -1839,6 +2113,11 @@ msgid ""
 " output devices include your desktop computer speakers, headphones, or "
 "huge speakers in a movie theater."
 msgstr ""
+"Un *audio output device* est tout dispositif qui reçoit des informations de "
+"fichiers audio et les convertit en signaux sonores audibles. Les haut-"
+"parleurs de votre ordinateur de bureau, les écouteurs ou les énormes haut-"
+"parleurs d'une salle de cinéma sont des exemples de périphériques de sortie "
+"audio."
 
 #: ../../source/explore/get-started/setup-audio.rst:31
 msgid ""
@@ -1848,29 +2127,35 @@ msgid ""
 " different. In these cases, we encourage you to enable `acoustic echo "
 "cancellation <#id1>`_ for improved audio quality."
 msgstr ""
+"Si vous utilisez un casque avec un microphone, alors vos périphériques "
+"d'entrée et de sortie seront probablement le même appareil. Toutefois, si "
+"vous utilisez des haut-parleurs externes ou une autre configuration de micro "
+"ouvert, ces dispositifs peuvent être différents. Dans ces cas, nous vous "
+"encourageons à activer l'annulation de l'écho acoustique <#id1>`_ pour une "
+"meilleure qualité audio."
 
 #: ../../source/explore/get-started/setup-audio.rst:33
 msgid "To change your audio devices:"
-msgstr ""
+msgstr "Pour changer vos dispositifs audio :"
 
 #: ../../source/explore/get-started/setup-audio.rst:35
 #: ../../source/explore/get-started/setup-audio.rst:87
 #: ../../source/explore/get-started/setup-audio.rst:105
 #: ../../source/explore/get-started/setup-audio.rst:118
 msgid "From the Tablet or HUD, click **Audio**."
-msgstr ""
+msgstr "A partir du tablet ou du HUD, cliquez sur **Audio**."
 
 #: ../../source/explore/get-started/setup-audio.rst:36
 msgid "Choose your desired input device."
-msgstr ""
+msgstr "Choisissez le périphérique d'entrée désiré."
 
 #: ../../source/explore/get-started/setup-audio.rst:37
 msgid "Choose your desired output device."
-msgstr ""
+msgstr "Choisissez le périphérique de sortie souhaité."
 
 #: ../../source/explore/get-started/setup-audio.rst:41
 msgid "Using Bluetooth Headsets"
-msgstr ""
+msgstr "Utilisation des Casques d'Écoute Bluetooth"
 
 #: ../../source/explore/get-started/setup-audio.rst:43
 msgid ""
@@ -1880,12 +2165,20 @@ msgid ""
 "connection. On a 2.4Ghz connection, you may experience audio breakup and "
 "occasional disconnects."
 msgstr ""
+"Vous pouvez utiliser des casques d'écoute bluetooth, comme les AirPods avec "
+"Vircadia. Cependant, notez qu'il y a des limites à leur utilisation et "
+"qu'ils ne fonctionnent pas dans tous les environnements. Si vous utilisez le "
+"WiFi, assurez-vous que vous utilisez une connexion WiFi 5Ghz. Sur une "
+"connexion 2.4Ghz, vous pouvez subir une rupture audio et des déconnexions "
+"occasionnelles."
 
 #: ../../source/explore/get-started/setup-audio.rst:45
 msgid ""
 "Unfortunately, bluetooth audio devices do not currently support stereo "
 "input. Therefore, you have two options:"
 msgstr ""
+"Malheureusement, les appareils audio bluetooth ne prennent pas en charge "
+"l'entrée stéréo pour le moment. Vous avez donc deux options :"
 
 #: ../../source/explore/get-started/setup-audio.rst:47
 msgid ""
@@ -1893,6 +2186,9 @@ msgid ""
 "microphone for input. This allows you to take advantage of the stereo "
 "audio."
 msgstr ""
+"Utiliser l'oreillette bluetooth comme périphérique de sortie uniquement, et "
+"utiliser un autre microphone pour l'entrée. Cela vous permet de profiter de "
+"l'audio stéréo."
 
 #: ../../source/explore/get-started/setup-audio.rst:48
 msgid ""
@@ -1900,10 +2196,13 @@ msgid ""
 "users will only experience mono sound coming from you, rather than the "
 "normal stereo audio."
 msgstr ""
+"Utilisez le microphone intégré de l'oreillette bluetooth. Dans ce cas, les "
+"autres utilisateurs ne percevront que le son mono venant de vous, plutôt que "
+"l'audio stéréo normal."
 
 #: ../../source/explore/get-started/setup-audio.rst:52
 msgid "Acoustic Echo Cancellation"
-msgstr ""
+msgstr "Annulation de l'Écho Acoustique"
 
 #: ../../source/explore/get-started/setup-audio.rst:54
 msgid ""
@@ -1913,6 +2212,11 @@ msgid ""
 "microphone and speakers (i.e. an \"open mic\"), rather than a detached "
 "headset."
 msgstr ""
+"L'écho acoustique est le processus par lequel les sons de vos haut-parleurs "
+"sont captés et transmis par votre microphone, ce qui donne un effet d'écho. "
+"Ce phénomène est courant lorsque vous utilisez Vircadia avec un microphone "
+"et des haut-parleurs intégrés à un ordinateur portable (c'est-à-dire un "
+"\"micro ouvert\"), plutôt qu'avec un casque détaché."
 
 #: ../../source/explore/get-started/setup-audio.rst:56
 msgid ""
@@ -1921,28 +2225,41 @@ msgid ""
 "default, acoustic echo cancellation is turned on, and you can turn it off"
 " in the **Audio** app."
 msgstr ""
+"L'\"annulation de l'écho acoustique\" est une technologie qui améliore la "
+"qualité de la voix en empêchant l'écho qui résulte des configurations de "
+"micro ouvert. Par défaut, l'annulation de l'écho acoustique est activée, et "
+"vous pouvez la désactiver dans l'application **Audio**."
 
 #: ../../source/explore/get-started/setup-audio.rst:58
 msgid ""
 "Acoustic echo cancellation will not run when using input devices with "
 "high sample rates (greater than 96khz) or more than 2 channels."
 msgstr ""
+"L'annulation de l'écho acoustique ne fonctionne pas lorsque vous utilisez "
+"des dispositifs d'entrée avec des fréquences d'échantillonnage élevées ("
+"supérieures à 96khz) ou plus de 2 canaux."
 
 #: ../../source/explore/get-started/setup-audio.rst:60
 msgid "For best performance with open mic setups, ensure that you:"
 msgstr ""
+"Pour de meilleures performances avec des configurations de micro ouvert, "
+"assurez-vous que vous :"
 
 #: ../../source/explore/get-started/setup-audio.rst:62
 msgid ""
 "Disable any processing and effects on the input and output devices. This "
 "includes:"
 msgstr ""
+"Désactivez tout traitement et effet sur les périphériques d'entrée et de "
+"sortie. Cela inclut :"
 
 #: ../../source/explore/get-started/setup-audio.rst:64
 msgid ""
 "On Mac: Turn off 'Ambient noise reduction' (System Preferences > Sound > "
 "Input > Use ambient noise reduction)"
 msgstr ""
+"Sur Mac : Désactivez la fonction 'Ambient noise reduction' (System "
+"Preferences > Sound > Input > Use ambient noise reduction)"
 
 #: ../../source/explore/get-started/setup-audio.rst:65
 msgid ""
@@ -1950,30 +2267,39 @@ msgid ""
 "Recording tab > click on your device > Properties button > Enhancements "
 "tab)"
 msgstr ""
+"Sur Windows : Désactivez toutes les 'Améliorations' (Panneau de "
+"configuration > Son > Onglet Enregistrement > Cliquez sur votre appareil > "
+"Bouton Propriétés > Onglet Améliorations)"
 
 #: ../../source/explore/get-started/setup-audio.rst:67
 msgid ""
 "On Mac devices, set the balance of the output device to either the left "
 "or the right (System Preferences > Sound > Output > Balance)"
 msgstr ""
+"Sur les appareils Mac, réglez la balance du périphérique de sortie sur la "
+"gauche ou la droite (Préférences système > Son > Sortie > Balance)"
 
 #: ../../source/explore/get-started/setup-audio.rst:68
 msgid ""
 "Lower the microphone's physical gain setting to approximately 3/4 of the "
 "maximum"
 msgstr ""
+"Réduire le réglage de gain physique du microphone à environ 3/4 du maximum"
 
 #: ../../source/explore/get-started/setup-audio.rst:69
 msgid ""
 "Lower the speaker's physical volume level to approximately 3/4 of the "
 "maximum"
 msgstr ""
+"Abaisser le niveau de volume physique de l'orateur à environ 3/4 du maximum"
 
 #: ../../source/explore/get-started/setup-audio.rst:70
 msgid ""
 "If you are not using your laptop's audio devices, move and point the "
 "microphone away from the speakers"
 msgstr ""
+"Si vous n'utilisez pas les appareils audio de votre ordinateur portable, "
+"déplacez et pointez le microphone loin des haut-parleurs"
 
 #: ../../source/explore/get-started/setup-audio.rst:72
 msgid ""
@@ -1983,24 +2309,32 @@ msgid ""
 " if you hear a little bit of echoing...it will lessen as the technology "
 "learns your voice and the voices of the people around you!"
 msgstr ""
+"La technologie d'annulation de l'écho acoustique capte les sons qui vous "
+"entourent et tente d'identifier les sons d'écho lorsque vous l'utilisez. "
+"Cela signifie qu'elle s'améliore et devient plus précise au fil du temps. Ne "
+"désespérez donc pas si vous entendez un peu d'écho... il s'atténuera au fur "
+"et à mesure que la technologie apprendra votre voix et celle des personnes "
+"qui vous entourent !"
 
 #: ../../source/explore/get-started/setup-audio.rst:74
 msgid "To speed up this \"learning\" process, you can:"
-msgstr ""
+msgstr "Pour accélérer ce processus d'\"apprentissage\", vous pouvez :"
 
 #: ../../source/explore/get-started/setup-audio.rst:76
 msgid "Avoid turning your avatar while talking"
-msgstr ""
+msgstr "Éviter de tourner votre avatar en parlant"
 
 #: ../../source/explore/get-started/setup-audio.rst:77
 msgid ""
 "Leave your microphone muted while another person talks for 10 seconds at "
 "a time"
 msgstr ""
+"Laissez votre micro en sourdine pendant qu'une autre personne parle pendant "
+"10 secondes à la fois"
 
 #: ../../source/explore/get-started/setup-audio.rst:81
 msgid "Test Your Audio Devices"
-msgstr ""
+msgstr "Testez vos Appareils Audio"
 
 #: ../../source/explore/get-started/setup-audio.rst:83
 msgid ""
@@ -2011,6 +2345,13 @@ msgid ""
 "word you said! The good news is that you can test your audio setup to "
 "make sure that both your input and output devices are working correctly."
 msgstr ""
+"L'audio fait partie intégrante de l'expérience sociale VR. Nous voulons "
+"donc, bien sûr, nous assurer que vos appareils fonctionnent correctement et "
+"que tout le monde peut vous entendre ! Il n'y a rien de plus ennuyeux que "
+"d'aller vers un groupe d'amis dans un monde virtuel, pour se rendre compte "
+"qu'ils n'ont pas entendu un seul mot de ce que vous avez dit ! La bonne "
+"nouvelle, c'est que vous pouvez tester votre installation audio pour vous "
+"assurer que vos appareils d'entrée et de sortie fonctionnent correctement."
 
 #: ../../source/explore/get-started/setup-audio.rst:85
 msgid ""
@@ -2018,6 +2359,10 @@ msgid ""
 "recommend muting yourself prior to checking your voice input if you do "
 "not want others to hear your microphone check."
 msgstr ""
+"La fonction 'Test Your Voice' ne coupe pas automatiquement le son de votre "
+"voix ! Nous vous recommandons de vous mettre en sourdine avant de vérifier "
+"votre entrée vocale si vous ne voulez pas que d'autres personnes entendent "
+"la vérification de votre microphone."
 
 #: ../../source/explore/get-started/setup-audio.rst:88
 msgid ""
@@ -2026,32 +2371,43 @@ msgid ""
 "output device. Make any adjustments to your input device to achieve your "
 "desired sound."
 msgstr ""
+"Cliquez sur 'Test Your Voice' pour tester votre périphérique d'entrée. "
+"Parlez dans votre micro, et le son vous sera restitué par le périphérique de "
+"sortie sélectionné. Faites les réglages nécessaires sur votre périphérique "
+"d'entrée pour obtenir le son désiré."
 
 #: ../../source/explore/get-started/setup-audio.rst:89
 msgid ""
 "Click 'Test Your Sound' to test your output device. Adjust the headset "
 "and/or application volume until the sound is a comfortable volume."
 msgstr ""
+"Cliquez sur 'Test Your Sound' pour tester votre périphérique de sortie. "
+"Ajustez le volume du casque et/ou de l'application jusqu'à ce que le son "
+"soit confortable."
 
 #: ../../source/explore/get-started/setup-audio.rst:93
 msgid "Adjust In-World Volume"
-msgstr ""
+msgstr "Régler le Volume In-World"
 
 #: ../../source/explore/get-started/setup-audio.rst:95
 msgid "There are three different types of “sounds” in Vircadia:"
-msgstr ""
+msgstr "Il existe trois types de \"sons\" différents dans Vircadia :"
 
 #: ../../source/explore/get-started/setup-audio.rst:97
 msgid ""
 "People: The sound you hear when people in the domain are talking through "
 "their microphones"
 msgstr ""
+"Les gens : Le son que vous entendez lorsque les gens du domaine parlent à "
+"travers leurs microphones"
 
 #: ../../source/explore/get-started/setup-audio.rst:98
 msgid ""
 "Environment: The ambient sounds in the domain, running as scripts in the "
 "background"
 msgstr ""
+"Environnement : Les sons ambiants dans le domaine, fonctionnant comme des "
+"scripts en arrière-plan"
 
 #: ../../source/explore/get-started/setup-audio.rst:99
 msgid ""
@@ -2059,35 +2415,43 @@ msgid ""
 "application window (such as the “clicking” you hear when you hover over "
 "an icon)"
 msgstr ""
+"Son du système : Le son que votre ordinateur produit lorsque vous "
+"interagissez avec la fenêtre de l'application (comme le \"clic\" que vous "
+"entendez lorsque vous passez sur une icône)"
 
 #: ../../source/explore/get-started/setup-audio.rst:101
 msgid ""
 "To change the volume of all of these at once, simply change the volume of"
 " your headset or output device."
 msgstr ""
+"Pour modifier le volume de tous ces éléments à la fois, il suffit de changer "
+"le volume de votre casque ou de votre périphérique de sortie."
 
 #: ../../source/explore/get-started/setup-audio.rst:103
 msgid "To change one or more of these sound types independently of the others:"
 msgstr ""
+"Pour modifier un ou plusieurs de ces types de son indépendamment des autres :"
 
 #: ../../source/explore/get-started/setup-audio.rst:106
 #: ../../source/explore/get-started/setup-audio.rst:119
 msgid "Choose 'Desktop' or 'VR' depending on the mode you are in."
-msgstr ""
+msgstr "Choisissez 'Desktop' ou 'VR' selon le mode dans lequel vous êtes."
 
 #: ../../source/explore/get-started/setup-audio.rst:107
 msgid "Scroll down to 'Choose Output Device'."
-msgstr ""
+msgstr "Faites défiler vers le bas jusqu'à 'Choose Output Device'."
 
 #: ../../source/explore/get-started/setup-audio.rst:108
 msgid ""
 "Adjust the sliders to the desired volume levels for each of the sound "
 "types."
 msgstr ""
+"Réglez les curseurs sur les niveaux de volume souhaités pour chacun des "
+"types de son."
 
 #: ../../source/explore/get-started/setup-audio.rst:112
 msgid "Enable Push to Talk (PTT)"
-msgstr ""
+msgstr "Activer la fonction \"Push to Talk\" (PTT)"
 
 #: ../../source/explore/get-started/setup-audio.rst:114
 msgid ""
@@ -2095,14 +2459,18 @@ msgid ""
 "press a button to have others hear you in the environment. When you’re "
 "not pressing the button, you are muted and will not be heard."
 msgstr ""
+"'Push to Talk' est comme avoir un talkie-walkie dans la main. Vous devez "
+"appuyer sur un bouton pour que les autres vous entendent dans "
+"l'environnement. Lorsque vous n'appuyez pas sur le bouton, vous êtes mis en "
+"sourdine et vous ne serez pas entendu."
 
 #: ../../source/explore/get-started/setup-audio.rst:116
 msgid "To turn on ‘Push to Talk’:"
-msgstr ""
+msgstr "Pour activer la fonction 'Push to Talk' :"
 
 #: ../../source/explore/get-started/setup-audio.rst:120
 msgid "Toggle 'Push to Talk' on."
-msgstr ""
+msgstr "Activez la fonction 'Push to Talk'."
 
 #: ../../source/explore/get-started/setup-audio.rst:122
 msgid ""
@@ -2111,10 +2479,14 @@ msgid ""
 "controllers to talk. This feature works only when you are focused on the "
 "Interface window."
 msgstr ""
+"En mode Bureau, appuyez sur la touche \"T\" de votre clavier et maintenez-la "
+"enfoncée pour parler. Lorsque vous utilisez un HMD en mode VR, appuyez et "
+"maintenez les gâchettes de vos contrôleurs pour parler. Cette fonction ne "
+"fonctionne que lorsque vous êtes concentré sur la fenêtre d'Interface."
 
 #: ../../source/explore/get-started/setup-audio.rst:126
 msgid "Adjust Vircadia Audio Settings"
-msgstr ""
+msgstr "Régler les Paramètres Audio de Vircadia"
 
 #: ../../source/explore/get-started/setup-audio.rst:128
 msgid ""
@@ -2122,56 +2494,65 @@ msgid ""
 "experience in Vircadia. To change these, open your Tablet or HUD and go "
 "to **Audio**."
 msgstr ""
+"Il existe un certain nombre de paramètres que vous pouvez configurer pour "
+"personnaliser votre expérience audio dans Vircadia. Pour les modifier, "
+"ouvrez votre tablet ou votre HUD et allez dans **Audio**."
 
 #: ../../source/explore/get-started/setup-audio.rst:133
 msgid "Mute microphone"
-msgstr ""
+msgstr "Mette le microphone en sourdine"
 
 #: ../../source/explore/get-started/setup-audio.rst:133
 msgid "Mute or unmute your microphone."
-msgstr ""
+msgstr "Coupez ou rétablissez le son de votre micro."
 
 #: ../../source/explore/get-started/setup-audio.rst:135
 msgid "HMD Mute Warning (VR)"
-msgstr ""
+msgstr "Avertissement de mise en sourdine du HMD (VR)"
 
 #: ../../source/explore/get-started/setup-audio.rst:135
 msgid ""
 "Enable to receive a warning when your microphone is muted when wearing a "
 "HMD device."
 msgstr ""
+"Permet de recevoir un avertissement lorsque votre microphone est coupé "
+"lorsque vous portez un appareil HMD."
 
 #: ../../source/explore/get-started/setup-audio.rst:137
 msgid "Noise reduction"
-msgstr ""
+msgstr "Réduction du Bruit"
 
 #: ../../source/explore/get-started/setup-audio.rst:137
 msgid ""
 "Enable to turn on noise reduction. This removes outside noise from audio "
 "signals."
 msgstr ""
+"Permet d'activer la réduction du bruit. Cela permet d'éliminer les bruits "
+"extérieurs des signaux audio."
 
 #: ../../source/explore/get-started/setup-audio.rst:139
 msgid "Audio level meter"
-msgstr ""
+msgstr "Indicateur de niveau audio"
 
 #: ../../source/explore/get-started/setup-audio.rst:139
 msgid ""
 "By default, the audio level meter is visible on the top left corner of "
 "your screen. Uncheck this box to hide the meter."
 msgstr ""
+"Par défaut, l'indicateur de niveau sonore est visible dans le coin supérieur "
+"gauche de votre écran. Décochez cette case pour cacher l'indicateur."
 
 #: ../../source/explore/get-started/setup-audio.rst:142
 msgid "Echo Cancellation"
-msgstr ""
+msgstr "Annulation de l'Écho"
 
 #: ../../source/explore/get-started/setup-audio.rst:142
 msgid "Enable or disable `acoustic echo cancellation <#id1>`_."
-msgstr ""
+msgstr "Activer ou désactiver `acoustic echo cancellation <#id1>`_."
 
 #: ../../source/explore/get-started/setup-audio.rst:144
 msgid "Stereo input"
-msgstr ""
+msgstr "Entrée stéréo"
 
 #: ../../source/explore/get-started/setup-audio.rst:144
 msgid ""
@@ -2179,10 +2560,13 @@ msgid ""
 " audio channels. This means that you will hear sound from various "
 "directions, like how you would in the real world."
 msgstr ""
+"Activez ou désactivez l'entrée stéréo. La stéréo reproduit le son en "
+"utilisant deux ou plusieurs canaux audio. Cela signifie que vous entendrez "
+"le son dans différentes directions, comme dans le monde réel."
 
 #: ../../source/explore/get-started/setup-audio.rst:152
 msgid "Adjust OS Audio Settings"
-msgstr ""
+msgstr "Régler les Paramètres Audio du Système d'Exploitation"
 
 #: ../../source/explore/get-started/setup-audio.rst:154
 msgid ""
@@ -2193,10 +2577,16 @@ msgid ""
 "with any of the above settings, then try adjusting your operating "
 "system's device settings:"
 msgstr ""
+"De nombreux paramètres de l'appareil, tels que les niveaux d'entrée, le "
+"boost, les gains et les améliorations, ne peuvent être définis dans "
+"Vircadia. Ces paramètres ne peuvent être réglés qu'au niveau du système "
+"d'exploitation ou avec le logiciel externe d'un appareil. Si vous rencontrez "
+"des problèmes audio qui ne peuvent être résolus avec aucun des paramètres ci-"
+"dessus, essayez d'ajuster les paramètres de votre système d'exploitation :"
 
 #: ../../source/explore/get-started/setup-audio.rst:156
 msgid "**Update the driver software for your audio devices**:"
-msgstr ""
+msgstr "**Mettez à jour le logiciel du pilote de vos appareils audio** :"
 
 #: ../../source/explore/get-started/setup-audio.rst:158
 msgid ""
@@ -2204,6 +2594,10 @@ msgid ""
 "updates, click on the Apple icon in the top-left corner of the screen and"
 " select 'Software Update'."
 msgstr ""
+"Sur Mac : Apple gère toutes les mises à jour des pilotes sur votre "
+"ordinateur. Pour vérifier les mises à jour, cliquez sur l'icône Apple dans "
+"le coin supérieur gauche de l'écran et sélectionnez 'Mise à jour du "
+"logiciel'."
 
 #: ../../source/explore/get-started/setup-audio.rst:159
 msgid ""
@@ -2211,36 +2605,43 @@ msgid ""
 "**Sound, audio and game controllers**. Right-click on your audio device "
 "and select 'Update driver'."
 msgstr ""
+"Sur Windows : Ouvrez le **Gestionnaire de périphériques** et sélectionnez la "
+"flèche à côté de **Contrôleurs de son, d'audio et de jeu**. Faites un clic "
+"droit sur votre périphérique audio et sélectionnez 'Mise à jour du pilote'."
 
 #: ../../source/explore/get-started/setup-audio.rst:160
 msgid "**Adjust microphone levels and/or boost**:"
-msgstr ""
+msgstr "**Ajustez les niveaux et/ou le boost du microphone** :"
 
 #: ../../source/explore/get-started/setup-audio.rst:162
 msgid "On Mac: Go to **System Preferences > Sound > Input**."
-msgstr ""
+msgstr "Sur Mac : Allez dans **Préférences système > Son > Entrée**."
 
 #: ../../source/explore/get-started/setup-audio.rst:163
 msgid ""
 "On Windows: Go to **Control Panel > Sound > Recording**. Choose your "
 "microphone and click 'Properties'."
 msgstr ""
+"Sur Windows : Allez dans le **Panneau de configuration > Son > "
+"Enregistrement**. Choisissez votre microphone et cliquez sur \"Propriétés\"."
 
 #: ../../source/explore/get-started/setup-audio.rst:164
 msgid "**Adjust other advanced sound settings**:"
-msgstr ""
+msgstr "**Ajustez les autres paramètres sonores avancés** :"
 
 #: ../../source/explore/get-started/setup-audio.rst:166
 msgid "Go to **Control Panel > Sound**"
-msgstr ""
+msgstr "Allez à **Panneau de contrôle > Son**"
 
 #: ../../source/explore/get-started/setup-audio.rst:167
 msgid "Go to **Settings > System > Sound**"
-msgstr ""
+msgstr "Allez à **Réglages > Système > Son**"
 
 #: ../../source/explore/get-started/setup-audio.rst:168
 msgid "Go to **Control Panel > Hardware and Sound > Adjust System Volume**"
 msgstr ""
+"Allez à **Panneau de configuration > Matériel et son > Régler le volume du "
+"système**"
 
 #: ../../source/explore/get-started/vr-controls.rst:5
 msgid ""
@@ -2250,22 +2651,30 @@ msgid ""
 "people in 3D, track body movements, and engage with the objects around "
 "you. We support the following VR equipment:"
 msgstr ""
+"Pour vivre la meilleure et la plus immersive des expériences dans Vircadia, "
+"nous vous encourageons à utiliser des équipements VR, tels que l'Oculus Rift "
+"ou le HTC Vive. Grâce à ces appareils HMD et aux contrôleurs manuels, vous "
+"pourrez interagir avec les gens en 3D, suivre les mouvements du corps et "
+"interagir avec les objets qui vous entourent. Nous prenons en charge les "
+"équipements VR suivants :"
 
 #: ../../source/explore/get-started/vr-controls.rst:8
 msgid "Head Mounted Displays"
-msgstr ""
+msgstr "Casques VR"
 
 #: ../../source/explore/get-started/vr-controls.rst:8
 msgid "Hand Controllers"
-msgstr ""
+msgstr "Contrôleurs manuels"
 
 #: ../../source/explore/get-started/vr-controls.rst:10
+#, fuzzy
 msgid "Oculus Rift (CV1 and S)"
-msgstr ""
+msgstr "Oculus Rift (CV1 and S)"
 
 #: ../../source/explore/get-started/vr-controls.rst:10
+#, fuzzy
 msgid "Oculus Touch"
-msgstr ""
+msgstr "Oculus Touch"
 
 #: ../../source/explore/get-started/vr-controls.rst:12
 msgid "HTC Vive"
@@ -2285,7 +2694,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/vr-controls.rst:34
 msgid "Comfort Mode"
-msgstr ""
+msgstr "Mode Confort"
 
 #: ../../source/explore/get-started/vr-controls.rst:36
 msgid ""
@@ -2294,30 +2703,39 @@ msgid ""
 "while your body stands still. If you experience motion sickness and "
 "discomfort using VR equipment, you are not alone."
 msgstr ""
+"Le mal des transports est un réel problème pour de nombreuses personnes "
+"lorsqu'elles mettent un HMD et entrent en VR. Cela se produit parce que vos "
+"yeux subissent des mouvements en VR, alors que votre corps reste immobile. "
+"Si vous souffrez du mal des transports et de l'inconfort en utilisant un "
+"équipement de VR, vous n'êtes pas seul."
 
 #: ../../source/explore/get-started/vr-controls.rst:38
 msgid ""
 "\"Comfort mode\" is designed to decrease the effects of motion sickness "
 "while using Vircadia. This mode:"
 msgstr ""
+"Le \"mode confort\" est conçu pour diminuer les effets du mal des transports "
+"lors de l'utilisation de Vircadia. Ce mode :"
 
 #: ../../source/explore/get-started/vr-controls.rst:40
 msgid "Disables sharp turns"
-msgstr ""
+msgstr "Désactive les virages serrés"
 
 #: ../../source/explore/get-started/vr-controls.rst:41
 msgid "Decreases your field of vision by darkening the edges of the screen"
-msgstr ""
+msgstr "Diminue votre champ de vision en assombrissant les bords de l'écran"
 
 #: ../../source/explore/get-started/vr-controls.rst:42
 msgid "Adds a ground plane and grid"
-msgstr ""
+msgstr "Ajoute un plan et une grille au sol"
 
 #: ../../source/explore/get-started/vr-controls.rst:44
 msgid ""
 "All of these features were developed to help you orient yourself when "
 "moving around in VR."
 msgstr ""
+"Toutes ces fonctionnalités ont été développées pour vous aider à vous "
+"orienter lorsque vous vous déplacez en VR."
 
 #: ../../source/explore/get-started/vr-controls.rst:46
 msgid ""
@@ -2325,122 +2743,153 @@ msgid ""
 "tablet. Use the slider to adjust how much of the environment you see in "
 "VR."
 msgstr ""
+"Pour activer le mode confort, allez dans **Menu > Settings > Controls** sur "
+"votre tablet. Utilisez le curseur pour régler la part de l'environnement que "
+"vous voyez en VR."
 
 #: ../../source/explore/get-started/vr-controls.rst:52
 msgid "Change How You Move in VR"
-msgstr ""
+msgstr "Changer la Façon dont vous vous déplacez en VR"
 
 #: ../../source/explore/get-started/vr-controls.rst:54
 msgid ""
 "You can change many avatar movement settings in VR such as jumping, "
 "flying, and leaning behavior. To do so:"
 msgstr ""
+"Vous pouvez modifier de nombreux paramètres de mouvement de l'avatar en VR, "
+"comme le comportement de saut, de vol et d'inclinaison. Pour ce faire :"
 
 #: ../../source/explore/get-started/vr-controls.rst:56
 msgid "In Desktop mode, go to **Settings > Controls** in the menu bar."
-msgstr ""
+msgstr "En mode bureau, allez à **Settings > Controls** dans la barre de menu."
 
 #: ../../source/explore/get-started/vr-controls.rst:57
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Controls**."
 msgstr ""
+"En mode VR, ouvrez votre tablet et allez dans **Menu > Settings > Controls**."
 
 #: ../../source/explore/get-started/vr-controls.rst:62
+#, fuzzy
 msgid "*VR Movement* > Teleporting"
-msgstr ""
+msgstr "*VR Movement* > Teleporting"
 
 #: ../../source/explore/get-started/vr-controls.rst:62
 msgid ""
 "Enables teleport controls to move seamlessly between positions within a "
 "domain."
 msgstr ""
+"Permet aux commandes de téléportation de se déplacer de manière transparente "
+"entre les positions d'un domaine."
 
 #: ../../source/explore/get-started/vr-controls.rst:65
+#, fuzzy
 msgid "*VR Movement* > Walking"
-msgstr ""
+msgstr "*VR Movement* > Walking"
 
 #: ../../source/explore/get-started/vr-controls.rst:65
 msgid "Enables walking controls to move within a domain."
-msgstr ""
+msgstr "Permet aux commandes de marche de se déplacer dans un domaine."
 
 #: ../../source/explore/get-started/vr-controls.rst:68
+#, fuzzy
 msgid "*VR Movement* > Strafing"
-msgstr ""
+msgstr "*VR Movement* > Strafing"
 
 #: ../../source/explore/get-started/vr-controls.rst:68
 msgid "Enables strafing controls (to walk sideways)."
-msgstr ""
+msgstr "Permet les contrôles de mouvements pour marcher de côté."
 
 #: ../../source/explore/get-started/vr-controls.rst:71
+#, fuzzy
 msgid "*VR Movement* > Jumping and flying"
-msgstr ""
+msgstr "*VR Movement* > Jumping and flying"
 
 #: ../../source/explore/get-started/vr-controls.rst:71
 msgid "Enables jump and fly controls."
-msgstr ""
+msgstr "Permet les contrôles de saut et de vol."
 
 #: ../../source/explore/get-started/vr-controls.rst:74
+#, fuzzy
 msgid "*VR Movement* > Movement Direction"
-msgstr ""
+msgstr "*VR Movement* > Movement Direction"
 
 #: ../../source/explore/get-started/vr-controls.rst:74
 msgid "This setting controls which direction you move in:"
-msgstr ""
+msgstr "Ce paramètre contrôle la direction dans laquelle vous vous déplacez :"
 
 #: ../../source/explore/get-started/vr-controls.rst:76
 msgid "**HMD-Relative**: Move in the direction your head is pointing."
 msgstr ""
+"**HMD-Relative** : Déplacez-vous dans la direction que votre tête indique."
 
 #: ../../source/explore/get-started/vr-controls.rst:77
 msgid "**Hand-Relative**: Move in the direction your dominant hand is pointing."
 msgstr ""
+"**Hand-Relative** : Déplacez-vous dans la direction que votre main dominante "
+"indique."
 
 #: ../../source/explore/get-started/vr-controls.rst:78
 msgid ""
 "**Hand-Relative (Leveled)**: Move in the direction your hand is pointing,"
 " without taking pitch into account."
 msgstr ""
+"**Hand-Relative (Leveled)** : Déplacez-vous dans la direction que votre main "
+"indique, sans tenir compte de la hauteur."
 
 #: ../../source/explore/get-started/vr-controls.rst:81
+#, fuzzy
 msgid "*VR Movement* > Dominant Hand"
-msgstr ""
+msgstr "*VR Movement* > Dominant Hand"
 
 #: ../../source/explore/get-started/vr-controls.rst:81
 msgid ""
 "Select 'Left' or 'Right'. Teleport and turn controls move to the "
 "controller in the dominant hand."
 msgstr ""
+"Sélectionnez 'Gauche' ou 'Droite'. Les commandes de téléportation et de "
+"rotation se déplacent vers le contrôleur dans la main dominante."
 
 #: ../../source/explore/get-started/vr-controls.rst:84
+#, fuzzy
 msgid "*VR Movement* > Rotation Mode"
-msgstr ""
+msgstr "*VR Movement* > Rotation Mode"
 
 #: ../../source/explore/get-started/vr-controls.rst:84
 msgid "This setting controls how you turn in VR:"
-msgstr ""
+msgstr "Ce réglage contrôle comment vous tournez dans VR :"
 
 #: ../../source/explore/get-started/vr-controls.rst:86
 msgid "**Snap turn**: Rotate your avatar sharply to the left or the right."
 msgstr ""
+"**Snap turn** : Faites tourner votre avatar brusquement vers la gauche ou "
+"vers la droite."
 
 #: ../../source/explore/get-started/vr-controls.rst:87
 msgid ""
 "**Smooth turn**: Rotate your avatar smoothly as you turn to the left or "
 "right."
 msgstr ""
+"**Smooth turn** : Faites pivoter votre avatar doucement en tournant à gauche "
+"ou à droite."
 
 #: ../../source/explore/get-started/vr-controls.rst:89
 msgid ""
 "**Comfort mode**: Enable `comfort mode`_ and decrease the field of vision"
 " while moving in VR mode."
 msgstr ""
+"**Comfort mode** : Activez le `mode confort`_ et diminuez le champ de vision "
+"lorsque vous vous déplacez en mode VR."
 
 #: ../../source/explore/get-started/vr-controls.rst:92
+#, fuzzy
 msgid "*VR Movement* > Control Scheme Selection"
-msgstr ""
+msgstr "*VR Movement* > Control Scheme Selection"
 
 #: ../../source/explore/get-started/vr-controls.rst:92
 msgid "This setting determines how you control your walking speed:"
 msgstr ""
+"Ce paramètre détermine la manière dont vous contrôlez votre vitesse de "
+"marche :"
 
 #: ../../source/explore/get-started/vr-controls.rst:94
 msgid ""
@@ -2448,6 +2897,9 @@ msgid ""
 "forward you push your controller's joystick. Fully pushing the joystick "
 "forward will make your avatar run."
 msgstr ""
+"**Default** : Votre vitesse de marche restera la même, quelle que soit la "
+"distance à laquelle vous poussez le joystick de votre contrôleur. En "
+"poussant complètement le joystick vers l'avant, votre avatar courra."
 
 #: ../../source/explore/get-started/vr-controls.rst:97
 msgid ""
@@ -2455,6 +2907,9 @@ msgid ""
 "your controller's joystick. Fully pushing your joystick forward will make"
 " your avatar run."
 msgstr ""
+"**Analog** : Votre vitesse de marche change en fonction de la distance à "
+"laquelle vous poussez le joystick de votre contrôleur. En poussant "
+"complètement le joystick vers l'avant, votre avatar courra."
 
 #: ../../source/explore/get-started/vr-controls.rst:100
 msgid ""
@@ -2463,52 +2918,68 @@ msgid ""
 "maximum walking speed in meters/second. Fully pushing your joystick "
 "forward will make your avatar run."
 msgstr ""
+"**Analog++** : Votre vitesse de marche change en fonction de la distance à "
+"laquelle vous poussez le joystick de votre contrôleur. Vous pouvez utiliser "
+"le curseur pour modifier la vitesse de marche maximale en mètres/seconde. En "
+"poussant complètement votre joystick vers l'avant, vous ferez courir votre "
+"avatar."
 
 #: ../../source/explore/get-started/vr-controls.rst:105
+#, fuzzy
 msgid "*VR Movement* > Avatar leaning behavior"
-msgstr ""
+msgstr "*VR Movement* > Avatar leaning behavior"
 
 #: ../../source/explore/get-started/vr-controls.rst:105
 msgid "This setting controls if and when your avatar leans in VR mode."
-msgstr ""
+msgstr "Ce paramètre contrôle si et quand votre avatar se penche en mode VR."
 
 #: ../../source/explore/get-started/vr-controls.rst:107
 msgid ""
 "**Auto**: This is the default setting. Your avatar will lean if you are "
 "standing in the real world."
 msgstr ""
+"**Auto** : C'est le réglage par défaut. Votre avatar se penchera si vous "
+"êtes debout dans le monde réel."
 
 #: ../../source/explore/get-started/vr-controls.rst:109
 msgid ""
 "**Seated**: Your avatar will not lean if you are sitting in the real "
 "world."
 msgstr ""
+"**Seated** : Votre avatar ne se penchera pas si vous êtes assis dans le "
+"monde réel."
 
 #: ../../source/explore/get-started/vr-controls.rst:110
 msgid "**Standing**: Your avatar will lean if you are sitting in the real world."
 msgstr ""
+"**Standing** : Votre avatar se penchera si vous êtes assis dans le monde "
+"réel."
 
 #: ../../source/explore/get-started/vr-controls.rst:111
 msgid "**Disabled**: Your avatar can sit on the floor (experimental)."
-msgstr ""
+msgstr "**Disabled** : Votre avatar peut s'asseoir par terre (expérimental)."
 
 #: ../../source/explore/get-started/vr-controls.rst:113
 msgid "User real world height (in meters)"
-msgstr ""
+msgstr "Hauteur de l'utilisateur dans le monde réel (en mètres)"
 
 #: ../../source/explore/get-started/vr-controls.rst:113
 msgid "You can change your real world height for better tracking in VR mode."
 msgstr ""
+"Vous pouvez modifier votre hauteur réelle pour un meilleur suivi en mode VR."
 
 #: ../../source/explore/get-started/vr-controls.rst:121
 msgid "Motion Capture Using Vive Trackers"
-msgstr ""
+msgstr "Capture de Mouvement avec les Traqueurs Vive"
 
 #: ../../source/explore/get-started/vr-controls.rst:123
 msgid ""
 "You can enhance your Vircadia experience using full body motion capture "
 "(mocap). Vircadia currently supports mocap using HTC Vive Trackers."
 msgstr ""
+"Vous pouvez améliorer votre expérience Vircadia en utilisant la capture de "
+"mouvements du corps entier (mocap). Vircadia supporte actuellement mocap en "
+"utilisant les HTC Vive Trackers."
 
 #: ../../source/explore/get-started/vr-controls.rst:125
 msgid ""
@@ -2516,124 +2987,135 @@ msgid ""
 " can replace the HMD and hand controllers with trackers if you only need "
 "to track the movement of your head and hands."
 msgstr ""
+"Les traqueurs Vive doivent être attachés à la partie du corps que vous "
+"souhaitez suivre. Vous pouvez remplacer le HMD et les contrôleurs de main "
+"par des trackers si vous avez seulement besoin de suivre le mouvement de "
+"votre tête et de vos mains."
 
 #: ../../source/explore/get-started/vr-controls.rst:127
 msgid "You can set up different mocap systems:"
-msgstr ""
+msgstr "Vous pouvez mettre en place différents systèmes de mocap :"
 
 #: ../../source/explore/get-started/vr-controls.rst:130
 msgid "Mocap System"
-msgstr ""
+msgstr "Système Mocap"
 
 #: ../../source/explore/get-started/vr-controls.rst:130
 msgid "Equipment Needed"
-msgstr ""
+msgstr "Matériel Nécessaire"
 
 #: ../../source/explore/get-started/vr-controls.rst:130
 msgid "Recommended Straps"
-msgstr ""
+msgstr "Sangles Recommandées"
 
 #: ../../source/explore/get-started/vr-controls.rst:132
 msgid "Head"
-msgstr ""
+msgstr "Tête"
 
 #: ../../source/explore/get-started/vr-controls.rst:132
 msgid "HMD or 1 Vive Tracker"
-msgstr ""
+msgstr "HMD ou 1 Vive Tracker"
 
 #: ../../source/explore/get-started/vr-controls.rst:132
 msgid "Head strap for Vive Tracker"
-msgstr ""
+msgstr "Sangle de tête pour Vive Tracker"
 
 #: ../../source/explore/get-started/vr-controls.rst:134
 msgid "Hands"
-msgstr ""
+msgstr "Mains"
 
 #: ../../source/explore/get-started/vr-controls.rst:134
 msgid "Hand controllers or 2 Vive Trackers"
-msgstr ""
+msgstr "Contrôleurs manuels ou 2 Vive Trackers"
 
 #: ../../source/explore/get-started/vr-controls.rst:134
 msgid "Hand strap for Vive Tracker"
-msgstr ""
+msgstr "Sangle à main pour le Vive Tracker"
 
 #: ../../source/explore/get-started/vr-controls.rst:137
 msgid "Head + Hands + Feet"
-msgstr ""
+msgstr "Tête + Mains + Pieds"
 
 #: ../../source/explore/get-started/vr-controls.rst:137
 msgid "2 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "2 Vive Trackers + HMD + 2 Contrôleurs manuels"
 
 #: ../../source/explore/get-started/vr-controls.rst:137
 msgid "Foot straps"
-msgstr ""
+msgstr "Sangles pour les pieds"
 
 #: ../../source/explore/get-started/vr-controls.rst:140
 msgid "Head + Hands + Feet + Hips"
-msgstr ""
+msgstr "Tête + Mains + Pieds + Hanches"
 
 #: ../../source/explore/get-started/vr-controls.rst:140
 msgid "3 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "3 Vive Trackers + HMD + 2 Contrôleurs manuels"
 
 #: ../../source/explore/get-started/vr-controls.rst:140
 msgid ""
 "Hip Strap: Drill a hole in the back of a thick leather belt and attach "
 "the tracker using a 1/4\" screw."
 msgstr ""
+"Sangle pour les Hanches : Percez un trou à l'arrière d'une épaisse ceinture "
+"en cuir et fixez le tracker à l'aide d'une vis de 1/4\"."
 
 #: ../../source/explore/get-started/vr-controls.rst:143
 msgid "Head + Hands + Feet + Hips + Chest"
-msgstr ""
+msgstr "Tête + Mains + Pieds + Hanches + Poitrine"
 
 #: ../../source/explore/get-started/vr-controls.rst:143
 msgid "4 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "4 Vive Trackers + HMD + 2 contrôleurs manuels"
 
 #: ../../source/explore/get-started/vr-controls.rst:143
 msgid "Chest straps"
-msgstr ""
+msgstr "Sangles de poitrine"
 
 #: ../../source/explore/get-started/vr-controls.rst:146
 msgid "Head + Hands + Feet + Hips + Shoulders"
-msgstr ""
+msgstr "Tête + Mains + Pieds + Hanches + Epaules"
 
 #: ../../source/explore/get-started/vr-controls.rst:146
 msgid "5 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "5 Vive Trackers + HMD + 2 contrôleurs manuels"
 
 #: ../../source/explore/get-started/vr-controls.rst:146
 msgid "Shoulder straps"
-msgstr ""
+msgstr "Sangles d'épaule"
 
 #: ../../source/explore/get-started/vr-controls.rst:151
 msgid ""
 "You can replace the HMD and hand controllers with trackers if you only "
 "need to track the movement of your head and hands."
 msgstr ""
+"Vous pouvez remplacer le HMD et les contrôleurs manuels par des trackers si "
+"vous avez seulement besoin de suivre le mouvement de votre tête et de vos "
+"mains."
 
 #: ../../source/explore/get-started/vr-controls.rst:157
 msgid "Configure Your Mocap System"
-msgstr ""
+msgstr "Configurez votre système Mocap"
 
 #: ../../source/explore/get-started/vr-controls.rst:159
 msgid "Strap your Vive trackers to your body as shown in the image."
-msgstr ""
+msgstr "Attachez vos trackers Vive à votre corps comme indiqué sur l'image."
 
 #: ../../source/explore/get-started/vr-controls.rst:160
 msgid "Connect your trackers, HMD, and controllers to SteamVR."
-msgstr ""
+msgstr "Connectez vos trackers, HMD et contrôleurs à SteamVR."
 
 #: ../../source/explore/get-started/vr-controls.rst:161
 msgid ""
 "In Interface, pull up your HUD or Tablet and go to **Menu > Settings > "
 "Calibration**."
 msgstr ""
+"Dans l'Interface, montez votre HUD ou votre tablet et allez dans **Menu > "
+"Settings > Calibration**."
 
 #: ../../source/explore/get-started/vr-controls.rst:162
 msgid "Configure your mocap system by:"
-msgstr ""
+msgstr "Configurez votre système mocap en :"
 
 #: ../../source/explore/get-started/vr-controls.rst:164
 msgid ""
@@ -2641,36 +3123,43 @@ msgid ""
 "head tracker instead of an HMD, click 'Use HTC Vive Devices in Desktop "
 "Mode'."
 msgstr ""
+"Sélectionnant le bon appareil pour votre tête et vos mains. Si vous utilisez "
+"un tracker pour la tête au lieu d'un HMD, cliquez sur 'Use HTC Vive Devices "
+"in Desktop Mode'."
 
 #: ../../source/explore/get-started/vr-controls.rst:165
 msgid "Selecting the body position of any additional trackers."
-msgstr ""
+msgstr "Sélectionnant la position du corps de tout autre tracker."
 
 #: ../../source/explore/get-started/vr-controls.rst:169
 msgid "Click 'Apply and Calibrate'."
-msgstr ""
+msgstr "Cliquez 'Apply and Calibrate'."
 
 #: ../../source/explore/get-started/vr-controls.rst:170
 msgid "Stand in a T-Pose until the timer counts down to zero:"
 msgstr ""
+"Restez dans une position en T jusqu'à ce que le compte à rebours arrive à "
+"zéro :"
 
 #: ../../source/explore/get-started/vr-controls.rst:172
 msgid "Feet together"
-msgstr ""
+msgstr "Pieds joints"
 
 #: ../../source/explore/get-started/vr-controls.rst:173
 msgid "Arms out"
-msgstr ""
+msgstr "Bras écartés"
 
 #: ../../source/explore/get-started/vr-controls.rst:174
 msgid "Head looking straight ahead."
-msgstr ""
+msgstr "La tête regardant droit devant."
 
 #: ../../source/explore/get-started/vr-controls.rst:176
 msgid ""
 "Check to see that each tracker is tracking the corresponding joint on "
 "your avatar."
 msgstr ""
+"Vérifiez que chaque tracker suit l'articulation correspondante de votre "
+"avatar."
 
 #: ../../source/explore/get-started/vr-controls.rst:177
 msgid ""
@@ -2680,6 +3169,12 @@ msgid ""
 "Button, Right Menu Button. You can press the same buttons together for a "
 "second to remove your calibration from the trackers."
 msgstr ""
+"Vous pouvez également calibrer vos trackers sans utiliser votre tablet. Une "
+"fois que vous avez appliqué votre configuration, tenez-vous dans une "
+"position en T et maintenez ensemble les quatre boutons suivants pendant 1 "
+"seconde : Déclenchement Gauche, Déclenchement Droit, Bouton de Menu Gauche, "
+"Bouton de Menu Droit. Vous pouvez appuyer sur les mêmes boutons ensemble "
+"pendant une seconde pour retirer votre calibrage des traqueurs."
 
 #: ../../source/explore/get-started/vr-controls.rst:179
 msgid ""
@@ -2689,42 +3184,54 @@ msgid ""
 "System Menu Button and look on the ground for a marker. This is important"
 " to make sure your joints are oriented correctly."
 msgstr ""
+"Lorsque vous configurez votre Vive, vous choisissez le sens de la flèche "
+"comme référence. Pendant le calibrage, il est important que vous soyez dans "
+"la même direction. Si vous ne pouvez pas vous souvenir de la direction de la "
+"flèche, appuyez sur le bouton de menu du système Vive et cherchez un "
+"marqueur sur le sol. Ceci est important pour s'assurer que vos articulations "
+"sont correctement orientées."
 
 #: ../../source/explore/get-started/vr-controls.rst:183
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Dépannage en cas de Problèmes"
 
 #: ../../source/explore/get-started/vr-controls.rst:186
 msgid "Issue"
-msgstr ""
+msgstr "Problème"
 
 #: ../../source/explore/get-started/vr-controls.rst:186
 msgid "Troubleshooting Steps"
-msgstr ""
+msgstr "Étapes de Dépannage"
 
 #: ../../source/explore/get-started/vr-controls.rst:188
 msgid "My calibration failed"
-msgstr ""
+msgstr "Mon calibrement a échoué"
 
 #: ../../source/explore/get-started/vr-controls.rst:188
 msgid "Check if your trackers are properly connected in SteamVR."
-msgstr ""
+msgstr "Vérifiez si vos trackers sont correctement connectés dans SteamVR."
 
 #: ../../source/explore/get-started/vr-controls.rst:189
 msgid ""
 "Have you selected the correct configuration in your tablet and do you "
 "have enough number of trackers to support that configuration?"
 msgstr ""
+"Avez-vous sélectionné la bonne configuration dans votre tablet et avez-vous "
+"suffisamment de trackers pour supporter cette configuration ?"
 
 #: ../../source/explore/get-started/vr-controls.rst:191
 msgid ""
 "If you are performing and not in HMD, did you select to 'Use HTC Vive in "
 "Desktop Mode'?"
 msgstr ""
+"Si vous êtes en cours d'exécution et non en mode HMD, avez-vous sélectionné "
+"'Use HTC Vive in Desktop Mode'?"
 
 #: ../../source/explore/get-started/vr-controls.rst:192
 msgid "Are any of the trackers blinking? If so, they may need to be paired again."
 msgstr ""
+"Est-ce que certains des trackers clignotent ? Si c'est le cas, il se peut "
+"qu'ils doivent être à nouveau appariés."
 
 #: ../../source/explore/get-started/vr-controls.rst:193
 msgid ""
@@ -2732,24 +3239,30 @@ msgid ""
 "You will need one dongle per tracker. If you are performing with all 7, "
 "then you may need a USB hub to handle them."
 msgstr ""
+"Avez-vous le bon nombre de dongles branchés sur votre ordinateur ? Vous "
+"aurez besoin d'un dongle par tracker. Si vous vous produisez avec tous les 7 "
+"dongles, vous aurez peut-être besoin d'un hub USB pour les gérer."
 
 #: ../../source/explore/get-started/vr-controls.rst:197
 msgid "My sensor is jiggling a lot"
-msgstr ""
+msgstr "Mon capteur bouge beaucoup"
 
 #: ../../source/explore/get-started/vr-controls.rst:197
 msgid "Make sure the straps on the sensor are tightened."
-msgstr ""
+msgstr "Assurez-vous que les sangles du capteur sont bien serrées."
 
 #: ../../source/explore/get-started/vr-controls.rst:199
 msgid "My sensor keeps losing tracking"
-msgstr ""
+msgstr "Mon capteur perd sans cesse sa trace"
 
 #: ../../source/explore/get-started/vr-controls.rst:199
 msgid ""
 "If it’s the hip tracker, is your shirt is tucked in and not covering the "
 "puck? Also make sure your headphone cord isn’t covering the puck."
 msgstr ""
+"S'il s'agit du traqueur de hanches, votre chemise est-elle rentrée et ne "
+"couvre-t-elle pas le palet ? Vérifiez également que le cordon de votre "
+"casque ne couvre pas le palet."
 
 #: ../../source/explore/get-started/vr-controls.rst:201
 msgid "Can the base stations clearly see the tracker?"
