@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-25 18:53+0000\n"
+"PO-Revision-Date: 2021-01-27 19:35+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/release-notes/fr/>\n"
@@ -1546,7 +1546,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:69
 #: ../../source/release-notes/2020-3-3-Demeter.md:53
 msgid "Domain Server"
-msgstr ""
+msgstr "Serveur de Domaine"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:26
 msgid ""
@@ -2582,11 +2582,11 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:17
 msgid "Undo"
-msgstr ""
+msgstr "Annuler"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:18
 msgid "Redo"
-msgstr ""
+msgstr "Refaire"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:19
 msgid "Cut"
@@ -2614,7 +2614,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:25
 msgid "Unparent Entity"
-msgstr ""
+msgstr "Déparenter une Entité"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:26
 msgid "Move Selected Entities to Avatar"
@@ -4436,7 +4436,7 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:35
 msgid "Comfort Mode"
-msgstr ""
+msgstr "Mode Confort"
 
 #: ../../source/release-notes/v83.md:36
 msgid "FAQ for High Fidelity Coin (HFC)"
