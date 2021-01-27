@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-27 19:35+0000\n"
+"PO-Revision-Date: 2021-01-28 12:28+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/fr/>\n"
@@ -168,7 +168,7 @@ msgstr "Utilisez votre Equipement VR"
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/desktop.rst:3
 msgid "Explore in Desktop Mode"
-msgstr "Explorez en Mode Bureau"
+msgstr "Explorez en Mode Clavier"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/adjust-settings.rst:3
@@ -206,7 +206,7 @@ msgid ""
 msgstr ""
 "Vous pouvez régler divers paramètres dans Vircadia pour fonctionner selon "
 "vos préférences. Nombre de ces paramètres sont modifiés à l'aide du HUD (en "
-"mode Bureau) ou du tablet (en mode VR)."
+"mode Clavier) ou du tablet (en mode VR)."
 
 #: ../../source/explore/get-started/adjust-settings.rst:8
 #: ../../source/explore/get-started/android.rst:11
@@ -245,8 +245,8 @@ msgid ""
 "**Developer** menu by going to **Settings > Developer Menu**. Then, go to"
 " **Developer > UI > Desktop Tablet Becomes Toolbar**."
 msgstr ""
-"En mode Bureau, vous avez la possibilité d'utiliser soit le tablet, soit une "
-"version plus petite appelée \"Heads-up Display\" ou HUD. Il contient "
+"En mode Clavier, vous avez la possibilité d'utiliser soit le tablet, soit "
+"une version plus petite appelée \"Heads-up Display\" ou HUD. Il contient "
 "exactement les mêmes options que le tablet (paramètres, applications, etc.), "
 "mais il prend moins de place sur votre écran. Pour activer le HUD, activez "
 "d'abord le menu **Developer** en allant dans **Settings > Developer Menu**. "
@@ -265,7 +265,7 @@ msgid ""
 msgstr ""
 "Vous pouvez profiter de Vircadia avec ou sans équipements VR tels que des "
 "casques VR (HMD), des contrôleurs manuels et des casques audio. Notre mode "
-"Bureau contient de nombreuses fonctionnalités de Vircadia telles que "
+"Clavier contient de nombreuses fonctionnalités de Vircadia telles que "
 "l'audio, les mouvements et gestes de base, et la possibilité de voyager dans "
 "différents domaines."
 
@@ -283,7 +283,7 @@ msgstr ""
 "n'est qu'alors que vous pourrez interagir avec les gens en 3D, suivre les "
 "mouvements du corps et vous engager facilement avec les objets qui vous "
 "entourent. Une fois que vous avez configuré votre équipement VR, vous pouvez "
-"facilement passer du mode VR au mode Bureau. Pour passer en mode VR, "
+"facilement passer du mode VR au mode Clavier. Pour passer en mode VR, "
 "utilisez l'une des méthodes suivantes :"
 
 #: ../../source/explore/get-started/adjust-settings.rst:30
@@ -316,7 +316,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:41
 msgid "In Desktop mode, go to **View** in the menu on the top left corner."
-msgstr "En mode Bureau, allez à **View** dans le menu en haut à gauche."
+msgstr "En mode Clavier, allez à **View** dans le menu en haut à gauche."
 
 #: ../../source/explore/get-started/adjust-settings.rst:42
 msgid "In VR mode, open your Tablet and go to **Menu > View**."
@@ -433,7 +433,8 @@ msgid ""
 "In Desktop mode, go to **Settings > General** in the menu on the top left"
 " corner."
 msgstr ""
-"En mode Bureau, allez à **Settings > General** dans le menu en haut à gauche."
+"En mode Clavier, allez à **Settings > General** dans le menu en haut à "
+"gauche."
 
 #: ../../source/explore/get-started/adjust-settings.rst:75
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > General**."
@@ -453,7 +454,7 @@ msgid ""
 "In Desktop mode, go to **Settings > Graphics** in the menu on the top "
 "left corner."
 msgstr ""
-"En mode Bureau, allez à **Settings > Graphics** dans le menu en haut à "
+"En mode Clavier, allez à **Settings > Graphics** dans le menu en haut à "
 "gauche."
 
 #: ../../source/explore/get-started/adjust-settings.rst:86
@@ -544,7 +545,7 @@ msgid ""
 "In Desktop mode, go to **Settings > Security** in the menu on the top "
 "left corner."
 msgstr ""
-"En mode Bureau, allez à **Settings > Security** dans le menu en haut à "
+"En mode Clavier, allez à **Settings > Security** dans le menu en haut à "
 "gauche."
 
 #: ../../source/explore/get-started/adjust-settings.rst:115
@@ -575,7 +576,7 @@ msgstr "Changez votre image de sécurité."
 #: ../../source/explore/get-started/adjust-settings.rst:127
 msgid ":doc:`Configure Your Domain Settings <../../host/configure-settings>`"
 msgstr ""
-":doc:`Configurez vos Paramètres de Domaine <../../host/configure-settings>``."
+":doc:`Configurez vos Paramètres de Domaine <../../host/configure-settings>`"
 
 #: ../../source/explore/get-started/android.rst:5
 msgid ""
@@ -756,18 +757,18 @@ msgid ""
 "friends>`_ by shaking their hand. Press the handshake button which is "
 "above the flight button in the bottom right corner of your screen."
 msgstr ""
-"`Ajoutez une personne à vos connections <../socialize.html#make-connections-"
-"and-friends>`_ en leur offrant une poignée de main. Appuyez sur le bouton de "
-"la poignée de main qui se trouve au-dessus du bouton de vol dans le coin "
-"inférieur droit de votre écran."
+"`Ajoutez une personne à vos connexions <../socialize.html#make-connections-"
+"and-friends>`_ en lui serrant la main. Appuyez sur le bouton de la poignée "
+"de main qui se trouve au-dessus du bouton de vol dans le coin inférieur "
+"droit de votre écran."
 
 #: ../../source/explore/get-started/android.rst:75
 msgid "Connections List"
-msgstr "Liste des Connections"
+msgstr "Liste des Connexions"
 
 #: ../../source/explore/get-started/android.rst:75
 msgid "Open the **People** tab in the menu to view your Connections."
-msgstr "Ouvrez l'onglet **People** dans le menu pour voir vos connections."
+msgstr "Ouvrez l'onglet **People** dans le menu pour voir vos connexions."
 
 #: ../../source/explore/get-started/android.rst:79
 msgid ""
@@ -1121,10 +1122,10 @@ msgid ""
 "things in Vircadia. On this page, you can find all of the shortcuts so "
 "that you can enjoy your experience in Vircadia to the fullest."
 msgstr ""
-"Les utilisateurs en mode Bureau sont limités à l'utilisation de leur clavier "
-"et de leur souris pour faire des choses dans Vircadia. Sur cette page, vous "
-"trouverez tous les raccourcis pour vous permettre de profiter au maximum de "
-"votre expérience dans Vircadia."
+"Les utilisateurs en mode Clavier sont limités à l'utilisation de leur "
+"clavier et de leur souris pour faire des choses dans Vircadia. Sur cette "
+"page, vous trouverez tous les raccourcis pour vous permettre de profiter au "
+"maximum de votre expérience dans Vircadia."
 
 #: ../../source/explore/get-started/desktop.rst:7
 msgid ""
@@ -1273,7 +1274,6 @@ msgid "Open Browser"
 msgstr "Ouvrir le Navigateur"
 
 #: ../../source/explore/get-started/desktop.rst:61
-#, fuzzy
 msgid "``CTRL`` + ``B``"
 msgstr "``CTRL`` + ``B``"
 
@@ -1282,7 +1282,6 @@ msgid "Toggle 'Away from Keyboard'"
 msgstr "Activer Mode 'Away from Keyboard'"
 
 #: ../../source/explore/get-started/desktop.rst:63
-#, fuzzy
 msgid "``ESC``"
 msgstr "``ESC``"
 
@@ -1390,7 +1389,6 @@ msgid "Reset Avatar Size"
 msgstr "Réinitialiser la Taille de l'Avatar"
 
 #: ../../source/explore/get-started/desktop.rst:105
-#, fuzzy
 msgid "``=``"
 msgstr "``=``"
 
@@ -1408,7 +1406,6 @@ msgid "Undo"
 msgstr "Annuler"
 
 #: ../../source/explore/get-started/desktop.rst:117
-#, fuzzy
 msgid "``CTRL`` + ``Z``"
 msgstr "``CTRL`` + ``Z``"
 
@@ -1417,7 +1414,6 @@ msgid "Redo"
 msgstr "Refaire"
 
 #: ../../source/explore/get-started/desktop.rst:119
-#, fuzzy
 msgid "``CTRL`` + ``Y``"
 msgstr "``CTRL`` + ``Y``"
 
@@ -1426,7 +1422,6 @@ msgid "Delete Entity"
 msgstr "Supprimer une Entité"
 
 #: ../../source/explore/get-started/desktop.rst:121
-#, fuzzy
 msgid "``DEL``"
 msgstr "``DEL``"
 
@@ -1435,7 +1430,6 @@ msgid "Focus on Selected Entity"
 msgstr "Focus sur une Entité sélectionnée"
 
 #: ../../source/explore/get-started/desktop.rst:123
-#, fuzzy
 msgid "``F``"
 msgstr "``F``"
 
@@ -1444,7 +1438,6 @@ msgid "Align Grid to Bottom of Selected Entities"
 msgstr "Aligner la grille sur le Bas des Entités sélectionnées"
 
 #: ../../source/explore/get-started/desktop.rst:125
-#, fuzzy
 msgid "``G``"
 msgstr "``G``"
 
@@ -1461,7 +1454,6 @@ msgid "Parent Entity"
 msgstr "Parenter une Entité"
 
 #: ../../source/explore/get-started/desktop.rst:129
-#, fuzzy
 msgid "``CTRL`` + ``P``"
 msgstr "``CTRL`` + ``P``"
 
@@ -1470,7 +1462,6 @@ msgid "Unparent Entity"
 msgstr "Déparenter une Entité"
 
 #: ../../source/explore/get-started/desktop.rst:131
-#, fuzzy
 msgid "``CTRL`` + ``SHIFT`` + ``P``"
 msgstr "``CTRL`` + ``SHIFT`` + ``P``"
 
@@ -1479,7 +1470,6 @@ msgid "Copy Entity"
 msgstr "Copier une Entité"
 
 #: ../../source/explore/get-started/desktop.rst:133
-#, fuzzy
 msgid "``CTRL`` + ``C``"
 msgstr "``CTRL`` + ``C``"
 
@@ -1488,7 +1478,6 @@ msgid "Paste Entity"
 msgstr "Coller une Entité"
 
 #: ../../source/explore/get-started/desktop.rst:135
-#, fuzzy
 msgid "``CTRL`` + ``V``"
 msgstr "``CTRL`` + ``V``"
 
@@ -1507,7 +1496,7 @@ msgid ""
 "in desktop mode."
 msgstr ""
 "Au lieu d'un clavier, vous pouvez utiliser une manette de jeu tout en "
-"faisant l'expérience de Vircadia en mode bureau."
+"faisant l'expérience de Vircadia en mode Clavier."
 
 #: ../../source/explore/get-started/install.rst:5
 msgid ""
@@ -1960,8 +1949,8 @@ msgid ""
 "``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related"
 " to Vircadia."
 msgstr ""
-"Naviguez jusqu'au dossier roaming %AppData% (généralement \"C:/Users/"
-"<votre_nom_d'utilisateur>/AppData/Roaming\"). Supprimez tous les dossiers "
+"Naviguez jusqu'au dossier roaming %AppData% (généralement ``C:/Users/"
+"<votre_nom_d'utilisateur>/AppData/Roaming``). Supprimez tous les dossiers "
 "relatifs à Vircadia."
 
 #: ../../source/explore/get-started/install.rst:148
@@ -2080,7 +2069,7 @@ msgid ""
 "application."
 msgstr ""
 "L'audio 3D spatialisé de Vircadia est garanti pour améliorer votre "
-"expérience dans le métaverse, que vous soyez en mode bureau ou que vous "
+"expérience dans le métaverse, que vous soyez en mode Clavier ou que vous "
 "utilisiez un équipement VR. Par défaut, nous sélectionnerons les appareils "
 "audio par défaut que votre système d'exploitation ou votre casque a "
 "détectés. Si vous souhaitez utiliser un casque ou une configuration audio "
@@ -2479,8 +2468,8 @@ msgid ""
 "controllers to talk. This feature works only when you are focused on the "
 "Interface window."
 msgstr ""
-"En mode Bureau, appuyez sur la touche \"T\" de votre clavier et maintenez-la "
-"enfoncée pour parler. Lorsque vous utilisez un HMD en mode VR, appuyez et "
+"En mode Clavier, appuyez sur la touche \"T\" de votre clavier et maintenez-"
+"la enfoncée pour parler. Lorsque vous utilisez un HMD en mode VR, appuyez et "
 "maintenez les gâchettes de vos contrôleurs pour parler. Cette fonction ne "
 "fonctionne que lorsque vous êtes concentré sur la fenêtre d'Interface."
 
@@ -2667,30 +2656,28 @@ msgid "Hand Controllers"
 msgstr "Contrôleurs manuels"
 
 #: ../../source/explore/get-started/vr-controls.rst:10
-#, fuzzy
 msgid "Oculus Rift (CV1 and S)"
 msgstr "Oculus Rift (CV1 and S)"
 
 #: ../../source/explore/get-started/vr-controls.rst:10
-#, fuzzy
 msgid "Oculus Touch"
 msgstr "Oculus Touch"
 
 #: ../../source/explore/get-started/vr-controls.rst:12
 msgid "HTC Vive"
-msgstr ""
+msgstr "HTC Vive"
 
 #: ../../source/explore/get-started/vr-controls.rst:14
 msgid "Windows MR"
-msgstr ""
+msgstr "Windows MR"
 
 #: ../../source/explore/get-started/vr-controls.rst:14
 msgid "XBox One Controller"
-msgstr ""
+msgstr "Contrôleur XBox One"
 
 #: ../../source/explore/get-started/vr-controls.rst:23
 msgid "VR Controls"
-msgstr ""
+msgstr "Contrôles VR"
 
 #: ../../source/explore/get-started/vr-controls.rst:34
 msgid "Comfort Mode"
@@ -2761,7 +2748,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/vr-controls.rst:56
 msgid "In Desktop mode, go to **Settings > Controls** in the menu bar."
-msgstr "En mode bureau, allez à **Settings > Controls** dans la barre de menu."
+msgstr "En mode Clavier, allez à **Settings > Controls** dans la barre de menu."
 
 #: ../../source/explore/get-started/vr-controls.rst:57
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Controls**."
@@ -2769,7 +2756,6 @@ msgstr ""
 "En mode VR, ouvrez votre tablet et allez dans **Menu > Settings > Controls**."
 
 #: ../../source/explore/get-started/vr-controls.rst:62
-#, fuzzy
 msgid "*VR Movement* > Teleporting"
 msgstr "*VR Movement* > Teleporting"
 
@@ -2782,7 +2768,6 @@ msgstr ""
 "entre les positions d'un domaine."
 
 #: ../../source/explore/get-started/vr-controls.rst:65
-#, fuzzy
 msgid "*VR Movement* > Walking"
 msgstr "*VR Movement* > Walking"
 
@@ -2791,7 +2776,6 @@ msgid "Enables walking controls to move within a domain."
 msgstr "Permet aux commandes de marche de se déplacer dans un domaine."
 
 #: ../../source/explore/get-started/vr-controls.rst:68
-#, fuzzy
 msgid "*VR Movement* > Strafing"
 msgstr "*VR Movement* > Strafing"
 
@@ -2800,7 +2784,6 @@ msgid "Enables strafing controls (to walk sideways)."
 msgstr "Permet les contrôles de mouvements pour marcher de côté."
 
 #: ../../source/explore/get-started/vr-controls.rst:71
-#, fuzzy
 msgid "*VR Movement* > Jumping and flying"
 msgstr "*VR Movement* > Jumping and flying"
 
@@ -2809,7 +2792,6 @@ msgid "Enables jump and fly controls."
 msgstr "Permet les contrôles de saut et de vol."
 
 #: ../../source/explore/get-started/vr-controls.rst:74
-#, fuzzy
 msgid "*VR Movement* > Movement Direction"
 msgstr "*VR Movement* > Movement Direction"
 
@@ -2837,7 +2819,6 @@ msgstr ""
 "indique, sans tenir compte de la hauteur."
 
 #: ../../source/explore/get-started/vr-controls.rst:81
-#, fuzzy
 msgid "*VR Movement* > Dominant Hand"
 msgstr "*VR Movement* > Dominant Hand"
 
@@ -2850,7 +2831,6 @@ msgstr ""
 "rotation se déplacent vers le contrôleur dans la main dominante."
 
 #: ../../source/explore/get-started/vr-controls.rst:84
-#, fuzzy
 msgid "*VR Movement* > Rotation Mode"
 msgstr "*VR Movement* > Rotation Mode"
 
@@ -2881,7 +2861,6 @@ msgstr ""
 "lorsque vous vous déplacez en mode VR."
 
 #: ../../source/explore/get-started/vr-controls.rst:92
-#, fuzzy
 msgid "*VR Movement* > Control Scheme Selection"
 msgstr "*VR Movement* > Control Scheme Selection"
 
@@ -2925,7 +2904,6 @@ msgstr ""
 "avatar."
 
 #: ../../source/explore/get-started/vr-controls.rst:105
-#, fuzzy
 msgid "*VR Movement* > Avatar leaning behavior"
 msgstr "*VR Movement* > Avatar leaning behavior"
 
@@ -3266,27 +3244,33 @@ msgstr ""
 
 #: ../../source/explore/get-started/vr-controls.rst:201
 msgid "Can the base stations clearly see the tracker?"
-msgstr ""
+msgstr "Les stations de base peuvent-elles voir clairement le traqueur ?"
 
 #: ../../source/explore/get-started/vr-controls.rst:202
 msgid ""
 "Is the signal from the base station conflicting with another Vive setup "
 "nearby?"
 msgstr ""
+"Le signal de la station de base est-il en conflit avec une autre "
+"installation Vive à proximité ?"
 
 #: ../../source/explore/get-started/vr-controls.rst:203
 msgid ""
 "Are you clear of reflective surfaces nearby? (such as picture frames, "
 "whiteboards, shiny tables)."
 msgstr ""
+"Êtes-vous à l'abri des surfaces réfléchissantes à proximité ? (comme les "
+"cadres, les tableaux blancs, les tables brillantes)."
 
 #: ../../source/explore/get-started/vr-controls.rst:205
 msgid "Is the lighting consistent across the room (minimal outdoor lighting)?"
 msgstr ""
+"L'éclairage est-il homogène dans toute la pièce (éclairage extérieur minimal)"
+" ?"
 
 #: ../../source/explore/get-started/vr-controls.rst:206
 msgid "Try restarting SteamVR."
-msgstr ""
+msgstr "Essayez de redémarrer SteamVR."
 
 #: ../../source/explore/get-started/vr-controls.rst:209
 msgid ""
@@ -3294,6 +3278,9 @@ msgid ""
 "don't have to deal with a low battery tracker negatively impacting your "
 "performance."
 msgstr ""
+"N'oubliez pas de recharger vos trackers lorsque vous ne les utilisez pas "
+"afin de ne pas avoir à faire face à un tracker à batterie faible qui aurait "
+"un impact négatif sur vos performances."
 
 #: ../../source/explore/get-started/vr-controls.rst:215
 msgid ""
@@ -3301,14 +3288,17 @@ msgid ""
 "gamepad. However, Vircadia is best experienced with VR equipment or the "
 "keyboard in Desktop mode."
 msgstr ""
+"Si votre HMD n'est pas équipé de contrôleurs manuels, vous pouvez utiliser "
+"une manette de jeu. Cependant, l'expérience Vircadia est la meilleure avec "
+"un équipement VR ou le clavier en mode Clavier."
 
 #: ../../source/explore/get-started/vr-controls.rst:222
 msgid ":doc:`Interact with Your Environment <../interact>`"
-msgstr ""
+msgstr ":doc:`Interagir avec votre Environnement <../interact>``"
 
 #: ../../source/explore/get-started/vr-controls.rst:223
 msgid ":doc:`Explore in Desktop Mode <desktop>`"
-msgstr ""
+msgstr ":doc:`Explorer dans Mode Clavier <desktop>`"
 
 #: ../../source/explore/interact.md:3
 msgid ""
@@ -3318,31 +3308,39 @@ msgid ""
 "tree in the distance, or the animated butterfly that flew past are all "
 "entities."
 msgstr ""
+"Dans Vircadia, vos expériences sont façonnées par le monde qui vous entoure. "
+"Lorsque vous entrez dans un domaine, tout l'espace qui vous entoure est "
+"construit avec des entités, ou les éléments constitutifs de vos "
+"environnements. Les murs de votre chambre, l'arbre au loin ou le papillon "
+"animé qui passe devant vous sont tous des entités."
 
 #: ../../source/explore/interact.md:5
 msgid ""
 "Just like in the real world, you can interact with your environment by "
 "grabbing items or colliding with objects."
 msgstr ""
+"Tout comme dans le monde réel, vous pouvez interagir avec votre "
+"environnement en vous emparant d'objets ou en entrant en collision avec des "
+"objets."
 
 #: ../../source/explore/interact.md:7
 #: ../../source/explore/personalize/change-avatar.md:5
 #: ../../source/explore/personalize/install-apps.md:7
 #: ../../source/explore/travel.md:5
 msgid "On This Page:"
-msgstr ""
+msgstr "Sur cette Page :"
 
 #: ../../source/explore/interact.md:9 ../../source/explore/interact.md:14
 msgid "Grab Objects"
-msgstr ""
+msgstr "Saisir des Objets"
 
 #: ../../source/explore/interact.md:10 ../../source/explore/interact.md:28
 msgid "Collisions"
-msgstr ""
+msgstr "Collisions"
 
 #: ../../source/explore/interact.md:11 ../../source/explore/interact.md:36
 msgid "Triggered Entities"
-msgstr ""
+msgstr "Entités Déclenchées"
 
 #: ../../source/explore/interact.md:16
 msgid ""
@@ -3350,18 +3348,25 @@ msgid ""
 "controllers. You can grab an entity, hold it, throw it, and drop it "
 "depending on the entity's properties."
 msgstr ""
+"Vous pouvez saisir des objets dans Vircadia à l'aide de votre souris ou de "
+"vos contrôleurs manuels. Vous pouvez saisir une entité, la tenir, la lancer "
+"et la lâcher en fonction des propriétés de l'entité."
 
 #: ../../source/explore/interact.md:18
 msgid ""
 "In Desktop mode, click and hold the left mouse button to grab and hold an"
 " entity."
 msgstr ""
+"En mode Clavier, cliquez et maintenez le bouton gauche de la souris pour "
+"saisir et tenir une entité."
 
 #: ../../source/explore/interact.md:19
 msgid ""
 "In VR mode, reach out towards the object and press the Grab button. The "
 "location of this button depends on the controllers you are using."
 msgstr ""
+"En mode VR, tendez la main vers l'objet et appuyez sur le bouton \"Grab\". "
+"L'emplacement de ce bouton dépend des contrôleurs que vous utilisez."
 
 #: ../../source/explore/interact.md:30
 msgid ""
@@ -3369,6 +3374,10 @@ msgid ""
 " Likewise, objects can collide with one another. We use physics to govern"
 " how entities behave when they collide with each other or with avatars."
 msgstr ""
+"Vous pouvez entrer en collision (ou heurter) des objets et d'autres avatars "
+"dans Vircadia. De même, les objets peuvent entrer en collision les uns avec "
+"les autres. Nous utilisons la physique pour régir le comportement des "
+"entités lorsqu'elles entrent en collision entre elles ou avec des avatars."
 
 #: ../../source/explore/interact.md:32
 msgid ""
@@ -3377,12 +3386,18 @@ msgid ""
 "note on which objects have collisions enabled based on whether or not you"
 " can walk through them."
 msgstr ""
+"Sans cette propriété de collision, les objets se déplacent directement à "
+"travers les autres entités et les avatars. Lorsque vous interagissez avec "
+"votre environnement, prenez note des objets dont les collisions sont "
+"activées selon que vous pouvez ou non les traverser."
 
 #: ../../source/explore/interact.md:34
 msgid ""
 "When creating your own entities, you can set the Collision property to "
 "turn on or off collisions."
 msgstr ""
+"Lorsque vous créez vos propres entités, vous pouvez définir la propriété de "
+"collision pour activer ou désactiver les collisions."
 
 #: ../../source/explore/interact.md:38
 msgid ""
@@ -3391,6 +3406,11 @@ msgid ""
 "switch to turn on or off when your hand passes through it, or make a pet "
 "walk when you grab its leash."
 msgstr ""
+"Certaines entités ont des scripts (ou des déclencheurs) qui leur font se "
+"comporter d'une certaine manière lorsque vous interagissez avec elle. Par "
+"exemple, vous pouvez déclencher un interrupteur pour allumer ou éteindre une "
+"lumière lorsque votre main la traverse, ou faire marcher un animal de "
+"compagnie lorsque vous saisissez sa laisse."
 
 #: ../../source/explore/interact.md:40
 msgid ""
@@ -3399,40 +3419,44 @@ msgid ""
 "explore and discover all of the cool ways you can interact with your "
 "surroundings."
 msgstr ""
+"Ces déclencheurs sont scriptés dans les entités elles-mêmes par leurs "
+"créateurs. De ce fait, les comportements possibles sont infinis. Nous vous "
+"encourageons à explorer et à découvrir toutes les manières cool d'interagir "
+"avec vos alentours."
 
 #: ../../source/explore/interact.md:42
 #: ../../source/explore/personalize/change-avatar.md:51
 #: ../../source/explore/personalize/install-apps.md:97
 #: ../../source/explore/travel.md:35
 msgid "See Also"
-msgstr ""
+msgstr "Voir Aussi"
 
 #: ../../source/explore/interact.md:44
 msgid "Apply Physics to Entities"
-msgstr ""
+msgstr "Appliquer la Physique aux Entités"
 
 #: ../../source/explore/interact.md:45
 msgid "Define an Entity's Behavior"
-msgstr ""
+msgstr "Définir le Comportement d'une Entité"
 
 #: ../../source/explore/interact.md:46
 msgid "Add Sound to Entities"
-msgstr ""
+msgstr "Ajouter du Son aux Entités"
 
 #: ../../source/explore/interact.md:47
 msgid "Define Interactions with Avatars"
-msgstr ""
+msgstr "Définir les Interactions avec des Avatars"
 
 #: ../../source/explore/personalize.rst:9
 msgid "Put on Wearables"
-msgstr ""
+msgstr "Porter des Vêtements"
 
 #: ../../source/explore/personalize.rst:9
 #: ../../source/explore/personalize/install-apps.md:1
 #: ../../source/explore/personalize/install-apps.md:9
 #: ../../source/explore/personalize/install-apps.md:17
 msgid "Install Tablet Apps"
-msgstr ""
+msgstr "Installer des Applications pour Tablet"
 
 #: ../../source/explore/personalize.rst:5
 msgid ""
@@ -3440,6 +3464,10 @@ msgid ""
 "experience and make it your own. You can customize everything from the "
 "hardware you use, to the way the app works, to how you appear to others."
 msgstr ""
+"Avant même d'entrer dans Vircadia, il existe de nombreuses façons de "
+"personnaliser votre expérience et de la faire vôtre. Vous pouvez tout "
+"personnaliser, du matériel que vous utilisez au fonctionnement de "
+"l'application, en passant par votre apparence aux yeux des autres."
 
 #: ../../source/explore/personalize.rst:7
 msgid "**In This Section:**"
@@ -3447,7 +3475,7 @@ msgstr "**Dans Cette Rubrique:**"
 
 #: ../../source/explore/personalize/add-wearables.rst:3
 msgid "Put On Wearables"
-msgstr ""
+msgstr "Habillez vous de Vêtements"
 
 #: ../../source/explore/personalize/add-wearables.rst:5
 msgid ""
@@ -3456,53 +3484,73 @@ msgid ""
 "designed. Like avatars, you can buy wearables from the Marketplace or use"
 " your imagination to create your own."
 msgstr ""
+"Vous pouvez personnaliser l'apparence de votre avatar en ajoutant des "
+"vêtements à porter, comme un chapeau de pirate, une paire de lunettes de "
+"soleil, ou même un pantalon que vous avez conçu. Comme les avatars, vous "
+"pouvez acheter des vêtements sur le Marché ou utiliser votre imagination "
+"pour créer les vôtres."
 
 #: ../../source/explore/personalize/add-wearables.rst:12
 msgid "Buy a Wearable from the Marketplace"
-msgstr ""
+msgstr "Acheter un article vestimentaire sur le Marché"
 
 #: ../../source/explore/personalize/add-wearables.rst:14
 msgid ""
 "We and our users have designed many wearables that are available for your"
 " use in the Marketplace."
 msgstr ""
+"Nos utilisateurs et nous-mêmes avons conçu de nombreux articles "
+"vestimentaires qui sont disponibles pour votre usage sur le Marché."
 
 #: ../../source/explore/personalize/add-wearables.rst:16
 msgid "In Interface, pull up your Tablet or HUD and go to **Market**."
 msgstr ""
+"Dans l'Interface, sortez votre tablet ou votre HUD et allez dans **Market**."
 
 #: ../../source/explore/personalize/add-wearables.rst:17
 msgid ""
 "Search for a specific wearable, or browse all wearables by selecting the "
 "'Wearables' category."
 msgstr ""
+"Recherchez un article vestimentaire spécifique ou parcourez tous les "
+"articles vestimentaires en sélectionnant la catégorie 'Wearables'."
 
 #: ../../source/explore/personalize/add-wearables.rst:18
 msgid "Click on any one you like and click the price to buy."
-msgstr ""
+msgstr "Cliquez sur celui qui vous intéresse et cliquez sur le prix d'achat."
 
 #: ../../source/explore/personalize/add-wearables.rst:21
 msgid "After completing your purchase, click 'Wear' to put on your new wearable."
 msgstr ""
+"Une fois votre achat terminé, cliquez sur 'Wear' pour vous habiller de votre "
+"nouveau vêtement."
 
 #: ../../source/explore/personalize/add-wearables.rst:23
 msgid ""
 "If your wearable looks good, then you're done! If you want to adjust its "
 "position, then continue:"
 msgstr ""
+"Si votre vêtement vous va bien, c'est terminé ! Si vous voulez ajuster sa "
+"position, continuez :"
 
 #: ../../source/explore/personalize/add-wearables.rst:25
 msgid "Click **Avatar** on Tablet or HUD to open the Avatar app."
 msgstr ""
+"Cliquez sur **Avatar** sur le tablet ou le HUD pour ouvrir l'application "
+"Avatar."
 
 #: ../../source/explore/personalize/add-wearables.rst:26
 #: ../../source/explore/personalize/add-wearables.rst:44
 msgid "In the **Avatar** window, click the hat icon next to 'Wearables'."
 msgstr ""
+"Dans la fenêtre **Avatar**, cliquez sur l'icône du chapeau à côté de "
+"'Wearables'."
 
 #: ../../source/explore/personalize/add-wearables.rst:29
 msgid "From the 'Wearable' dropdown list, choose the wearable you purchased."
 msgstr ""
+"Dans la liste déroulante 'Wearable', choisissez le vêtement que vous avez "
+"acheté."
 
 #: ../../source/explore/personalize/add-wearables.rst:30
 #: ../../source/explore/personalize/add-wearables.rst:49
@@ -3510,11 +3558,14 @@ msgid ""
 "Select the joint you'd like to use for your wearable. For example, a hat "
 "would be on your head, and fairy wings would be on your spine."
 msgstr ""
+"Sélectionnez l'articulation que vous souhaitez utiliser pour votre vêtement. "
+"Par exemple, un chapeau serait sur votre tête et des ailes de fée sur votre "
+"colonne vertébrale."
 
 #: ../../source/explore/personalize/add-wearables.rst:31
 #: ../../source/explore/personalize/add-wearables.rst:50
 msgid "Fine tune the placement using the 'Position' and 'Rotation' options."
-msgstr ""
+msgstr "Ajustez le placement en utilisant les options 'Position' et 'Rotation'."
 
 #: ../../source/explore/personalize/add-wearables.rst:32
 #: ../../source/explore/personalize/add-wearables.rst:51
@@ -3522,15 +3573,17 @@ msgid ""
 "Check 'Is soft' if the item is rigged with your skeleton. This allows the"
 " item to move and bend with the avatar as it moves."
 msgstr ""
+"Cochez la case 'Is soft' si l'objet est fixé à votre squelette. Cela permet "
+"à l'objet de se déplacer et de se plier avec l'avatar lorsqu'il se déplace."
 
 #: ../../source/explore/personalize/add-wearables.rst:33
 #: ../../source/explore/personalize/add-wearables.rst:52
 msgid "Click 'Save'."
-msgstr ""
+msgstr "Cliquez sur 'Save'."
 
 #: ../../source/explore/personalize/add-wearables.rst:37
 msgid "Wear Your Own Wearable"
-msgstr ""
+msgstr "Portez vos Propres Vêtements"
 
 #: ../../source/explore/personalize/add-wearables.rst:39
 msgid ""
@@ -3542,34 +3595,46 @@ msgid ""
 "Marketplace <../../sell/add-item/upload-wearable>` and sell to other "
 "users."
 msgstr ""
+"Vous pouvez mettre un :doc:`vêtement que vous avez créé <../../create/"
+"wearables>`. Tous les vêtements doivent être hébergés dans le cloud avant de "
+"pouvoir être utilisés avec Vircadia. Parmi les exemples d'options de "
+"stockage cloud, on peut citer Amazon S3, Google Cloud Storage, GitHub ou "
+"Microsoft Azure. Vous pouvez également :doc:` télécharger vos vêtements "
+"personnalisés sur le Marché <../../sell/add-item/upload-wearable>` et les "
+"vendre à d'autres utilisateurs."
 
 #: ../../source/explore/personalize/add-wearables.rst:41
 msgid ""
 "Once you know the URL for your wearable's FBX file, then put it on your "
 "avatar:"
 msgstr ""
+"Une fois que vous connaissez l'URL du fichier FBX de votre vêtement, mettez-"
+"le sur votre avatar :"
 
 #: ../../source/explore/personalize/add-wearables.rst:43
 msgid "In Interface, pull up your tablet or HUD and click on **Avatar**."
 msgstr ""
+"Dans l'Interface, accédez à votre tablet ou HUD et cliquez sur **Avatar**."
 
 #: ../../source/explore/personalize/add-wearables.rst:47
 msgid "Click 'Add custom' at the top of the window."
-msgstr ""
+msgstr "Cliquez sur 'Add custom' en haut de la fenêtre."
 
 #: ../../source/explore/personalize/add-wearables.rst:48
 msgid "Enter the .fbx file's URL and click 'Confirm'."
-msgstr ""
+msgstr "Entrez l'URL du fichier .fbx et cliquez sur 'Confirm'."
 
 #: ../../source/explore/personalize/add-wearables.rst:57
 msgid ":doc:`Create Wearables <../../create/wearables>`"
-msgstr ""
+msgstr ":doc:`Créez vos Vêtements <../../create/wearables>`"
 
 #: ../../source/explore/personalize/add-wearables.rst:58
 msgid ""
 ":doc:`Add Your Wearable to the Marketplace <../../sell/add-item/upload-"
 "wearable>`"
 msgstr ""
+":doc:`Ajoutez vos Vêtements sur le Marché <../../sell/add-item/upload-"
+"wearable>`"
 
 #: ../../source/explore/personalize/change-avatar.md:3
 msgid ""
@@ -3577,24 +3642,28 @@ msgid ""
 "Woody. Your avatar is a representation of you in the metaverse. You can "
 "control how your avatar moves and speak to other users in-world using it."
 msgstr ""
+"Lorsque vous utiliserez Vircadia pour la première fois, vous porterez "
+"l'avatar par défaut, Woody. Votre avatar est une représentation de vous dans "
+"le métaverse. Vous pouvez contrôler les mouvements de votre avatar et parler "
+"à d'autres utilisateurs in-world par lui."
 
 #: ../../source/explore/personalize/change-avatar.md:7
 msgid "Use Your VirtualYou Avatar"
-msgstr ""
+msgstr "Utilisez votre Avatar VirtualYou"
 
 #: ../../source/explore/personalize/change-avatar.md:8
 #: ../../source/explore/personalize/change-avatar.md:24
 msgid "Buy an Avatar from the Marketplace"
-msgstr ""
+msgstr "Achetez un Avatar sur le Marché"
 
 #: ../../source/explore/personalize/change-avatar.md:9
 #: ../../source/explore/personalize/change-avatar.md:35
 msgid "Use Your Own Custom Avatar"
-msgstr ""
+msgstr "Utilisez votre Propre Avatar Personnalisé"
 
 #: ../../source/explore/personalize/change-avatar.md:11
 msgid "Use Your VirtualYou Avatar (Discontinued)"
-msgstr ""
+msgstr "Utilisez votre Avatar VirtualYou (Discontinué)"
 
 #: ../../source/explore/personalize/change-avatar.md:13
 msgid ""
@@ -3607,76 +3676,103 @@ msgid ""
 "that you take from your phone's camera. You can then select customize "
 "your hair, face and body attributes, and choose your outfit."
 msgstr ""
+"Nous vous informons que VirtualYou a été discontinué par Vircadia. Nous "
+"laisserons cependant cette documentation pour aider les personnes qui "
+"possèdent encore un avatar VirtualYou. VirtualYou: 3D Avatar Creator est "
+"l'application mobile de Vircadia développée avec l'aide de nos amis de "
+"Wolf3D. En quelques étapes faciles, vous pouvez créer un avatar 3D qui vous "
+"ressemble en moins de cinq minutes. L'application crée votre avatar en se "
+"basant sur un selfie que vous prenez dans l'appareil photo de votre "
+"téléphone. Vous pouvez ensuite personnaliser vos cheveux, votre visage et "
+"vos attributs corporels, et choisir votre tenue."
 
 #: ../../source/explore/personalize/change-avatar.md:16
 msgid "At the end, log in to Vircadia to upload your new avatar to your account."
 msgstr ""
+"À la fin, connectez-vous à Vircadia pour télécharger votre nouvel avatar sur "
+"votre compte."
 
 #: ../../source/explore/personalize/change-avatar.md:18
 msgid "To wear your VirtualYou avatar:"
-msgstr ""
+msgstr "Pour porter votre avatar VirtualYou :"
 
 #: ../../source/explore/personalize/change-avatar.md:20
 msgid "In Interface, pull up your Tablet or HUD and go to Inventory."
 msgstr ""
+"Dans l'Interface, sortez votre tablet ou votre HUD et allez dans "
+"l'Inventaire."
 
 #: ../../source/explore/personalize/change-avatar.md:21
 msgid "Click on the 'Items' tab."
-msgstr ""
+msgstr "Cliquez sur l'onglet 'Items'."
 
 #: ../../source/explore/personalize/change-avatar.md:22
 msgid "Locate your VirtualYou avatar and click 'Wear'."
-msgstr ""
+msgstr "Trouvez votre avatar VirtualYou et cliquez sur 'Wear'."
 
 #: ../../source/explore/personalize/change-avatar.md:26
 msgid ""
 "We and our users have designed multiple avatars that are available for "
 "your use in the Marketplace."
 msgstr ""
+"Nos utilisateurs et nous-mêmes avons conçu plusieurs avatars qui sont "
+"disponibles pour votre utilisation sur le Marché."
 
 #: ../../source/explore/personalize/change-avatar.md:28
 msgid "To get an avatar from the Marketplace:"
-msgstr ""
+msgstr "Pour obtenir un avatar sur le Marché :"
 
 #: ../../source/explore/personalize/change-avatar.md:30
 msgid "In Interface, pull up your Tablet or HUD and go to Market."
 msgstr ""
+"Dans l'Interface, accédez à votre tablet ou votre HUD et allez sur le Marché."
 
 #: ../../source/explore/personalize/change-avatar.md:31
 msgid "Search for avatars, or look for avatars under 'Categories'."
-msgstr ""
+msgstr "Recherchez des avatars sous 'Categories'."
 
 #: ../../source/explore/personalize/change-avatar.md:32
 msgid ""
 "You'll see a list of avatars of different designs available. Click on any"
 " one you like and click the price to buy."
 msgstr ""
+"Vous verrez une liste d'avatars de différents modèles disponibles. Cliquez "
+"sur celui qui vous intéresse et cliquez sur le prix pour l'acheter."
 
 #: ../../source/explore/personalize/change-avatar.md:33
 msgid "After completing your purchase, click 'Wear' to switch to your new avatar."
 msgstr ""
+"Une fois votre achat terminé, cliquez sur 'Wear' pour vous changer en votre "
+"nouvel avatar."
 
 #: ../../source/explore/personalize/change-avatar.md:37
 msgid ""
 "You can use an avatar that you created. Learn more about how you can "
 "create your avatar here."
 msgstr ""
+"Vous pouvez utiliser un avatar que vous avez créé. Pour en savoir plus sur "
+"la façon de créer votre avatar, cliquez ici."
 
 #: ../../source/explore/personalize/change-avatar.md:44
 msgid "Once you have your avatar's .fst file, you can upload it."
 msgstr ""
+"Une fois que vous avez le fichier .fst de votre avatar, vous pouvez le "
+"télécharger."
 
 #: ../../source/explore/personalize/change-avatar.md:46
 msgid "In Interface, pull up your tablet or HUD and click on Avatar."
 msgstr ""
+"Dans l'Interface, accédez à votre tablet ou votre HUD et cliquez sur Avatar."
 
 #: ../../source/explore/personalize/change-avatar.md:47
 msgid "In the Avatar window, click the link icon next to your current avatar."
 msgstr ""
+"Dans la fenêtre Avatar, cliquez sur l'icône de lien à côté de votre avatar "
+"actuel."
 
 #: ../../source/explore/personalize/change-avatar.md:48
 msgid "Enter the .fst file's URL and click 'Confirm'."
-msgstr ""
+msgstr "Entrez l'URL du fichier .fst et cliquez sur 'Confirm'."
 
 #: ../../source/explore/personalize/change-avatar.md:49
 msgid ""
@@ -3684,6 +3780,9 @@ msgid ""
 "information again, you can click on 'Add to Favorites' to save the "
 "current avatar information."
 msgstr ""
+"Si vous souhaitez accéder à cet avatar plus tard sans avoir à recharger les "
+"informations du fichier .fst, vous pouvez cliquer sur 'Add to Favorites' "
+"pour enregistrer les informations de l'avatar actuel."
 
 #: ../../source/explore/personalize/change-avatar.md:53
 msgid "Create Your Own Avatar"
@@ -3691,15 +3790,15 @@ msgstr "Créez votre Propre Avatar"
 
 #: ../../source/explore/personalize/change-avatar.md:54
 msgid "Find and Use an Existing Avatar"
-msgstr ""
+msgstr "Trouvez et Utilisez un Avatar Existant"
 
 #: ../../source/explore/personalize/change-avatar.md:55
 msgid "Package and Host Your Avatar"
-msgstr ""
+msgstr "Empaquetage et Hébergement de votre Avatar"
 
 #: ../../source/explore/personalize/change-avatar.md:56
 msgid "Add Your Avatar to the Marketplace"
-msgstr ""
+msgstr "Ajoutez votre Avatar sur le Marché"
 
 #: ../../source/explore/personalize/install-apps.md:3
 msgid ""
@@ -3710,6 +3809,13 @@ msgid ""
 "Our Marketplace has a number of apps that can help you customize your "
 "experience in-world."
 msgstr ""
+"Vous pouvez améliorer votre expérience dans Vircadia en installant des "
+"applications pour tablet sur le Marché. Ces applications vous permettent de "
+"profiter davantage de Vircadia. Vous voulez enregistrer la danse de votre "
+"avatar, prendre des selfies ou peindre avec vos doigts ? Ou bien vous voulez "
+"faire du streaming live sur YouTube ou faire applaudir votre avatar ? Notre "
+"Marché propose un certain nombre d'applications qui peuvent vous aider à "
+"personnaliser votre expérience in-world."
 
 #: ../../source/explore/personalize/install-apps.md:5
 msgid ""
@@ -3717,46 +3823,55 @@ msgid ""
 "own and upload it to our Marketplace for your personal use or to sell to "
 "others."
 msgstr ""
+"Si vous ne trouvez pas d'application pour ce que vous aimeriez faire, vous "
+"pouvez créer la vôtre et la télécharger sur notre Marché pour votre usage "
+"personnel ou pour la vendre à d'autres."
 
 #: ../../source/explore/personalize/install-apps.md:10
 #: ../../source/explore/personalize/install-apps.md:27
 msgid "Update an App"
-msgstr ""
+msgstr "Mettre à Jour une Application"
 
 #: ../../source/explore/personalize/install-apps.md:11
 #: ../../source/explore/personalize/install-apps.md:47
 msgid "Our Marketplace Apps"
-msgstr ""
+msgstr "Nos Applications sur le Marché"
 
 #: ../../source/explore/personalize/install-apps.md:12
 msgid "Spectator Cam: Record or Livestream in High Fidelity"
-msgstr ""
+msgstr "Spectator Cam : Enregistrement ou Diffusion dans Vircadia"
 
 #: ../../source/explore/personalize/install-apps.md:13
 #: ../../source/explore/personalize/install-apps.md:68
 msgid "Finger Painting"
-msgstr ""
+msgstr "Peinture au Doigt"
 
 #: ../../source/explore/personalize/install-apps.md:14
 #: ../../source/explore/personalize/install-apps.md:79
 msgid "Text to Speech"
-msgstr ""
+msgstr "Text to Speech"
 
 #: ../../source/explore/personalize/install-apps.md:18
 msgid ""
 "We and many users have created tablet apps that are available in "
 "Vircadia's Marketplace. To find and install an app:"
 msgstr ""
+"Avec de nombreux utilisateurs, nous avons créé des applications pour tablet "
+"qui sont disponibles sur le Marché de Vircadia. Pour trouver et installer "
+"une application :"
 
 #: ../../source/explore/personalize/install-apps.md:20
 msgid "In Interface, pull up your HUD or Tablet and go to Market."
 msgstr ""
+"Dans l'Interface, accédez à votre HUD ou votre tablet et allez sur le Marché."
 
 #: ../../source/explore/personalize/install-apps.md:21
 msgid ""
 "Search for a specific app, or browse all apps by selecting the 'Apps, "
 "Scripts, & Tools' category."
 msgstr ""
+"Recherchez une application spécifique, ou parcourez toutes les applications "
+"en sélectionnant la catégorie 'Apps, Scripts, & Tools'."
 
 #: ../../source/explore/personalize/install-apps.md:22
 msgid ""
@@ -3764,18 +3879,26 @@ msgid ""
 "item. Once you've purchased your app, you can view it in the Inventory "
 "app or 'Recent Activity'."
 msgstr ""
+"Cliquez sur l'application de votre choix pour l'acheter et cliquez sur le "
+"prix de l'article. Une fois que vous avez acheté votre application, vous "
+"pouvez la consulter dans l'application Inventaire ou dans la catégorie "
+"'Recent Activity'."
 
 #: ../../source/explore/personalize/install-apps.md:23
 msgid ""
 "After completing your purchase, click 'Install App' to start using the "
 "app in Vircadia."
 msgstr ""
+"Une fois votre achat terminé, cliquez sur 'Install App' pour commencer à "
+"utiliser l'application dans Vircadia."
 
 #: ../../source/explore/personalize/install-apps.md:24
 msgid ""
 "Once the app is installed, click 'Open App' to launch. You can also "
 "access the app through your HUD or Tablet."
 msgstr ""
+"Une fois l'application installée, cliquez sur 'Open App' pour la lancer. "
+"Vous pouvez également accéder à l'application via votre HUD ou votre tablet."
 
 #: ../../source/explore/personalize/install-apps.md:28
 msgid ""
@@ -3784,50 +3907,67 @@ msgid ""
 " red dot will appear on the Inventory icon of your HUD or Tablet to "
 "indicate an update is available to download."
 msgstr ""
+"Lorsqu'une application dispose d'une mise à jour, une notification "
+"apparaîtra dans le coin supérieur droit de l'Interface lorsque vous ouvrirez "
+"Vircadia. De plus, un point rouge apparaîtra sur l'icône d'Inventaire de "
+"votre HUD ou tablet pour indiquer qu'une mise à jour est disponible au "
+"téléchargement."
 
 #: ../../source/explore/personalize/install-apps.md:30
 msgid "To update your app:"
-msgstr ""
+msgstr "Pour mettre à jour votre application :"
 
 #: ../../source/explore/personalize/install-apps.md:31
 msgid "In Interface, pull up your HUD or Tablet and go to Inventory."
 msgstr ""
+"Dans l'Interface, accédez à votre HUD ou votre tablet et allez dans "
+"l'Inventaire."
 
 #: ../../source/explore/personalize/install-apps.md:32
 msgid ""
 "In the Inventory app, click the notification that says \"You have X item "
 "updates available.\""
 msgstr ""
+"Dans l'application Inventaire, cliquez sur la notification qui indique \"You "
+"have X item updates available.\""
 
 #: ../../source/explore/personalize/install-apps.md:33
 msgid "Scroll to the app you'd like to update and click on the menu."
 msgstr ""
+"Faites défiler jusqu'à l'application que vous souhaitez mettre à jour et "
+"cliquez sur le menu."
 
 #: ../../source/explore/personalize/install-apps.md:34
 msgid "Click the 'Update' button, then 'Update for Free'."
-msgstr ""
+msgstr "Cliquez sur le bouton 'Update', puis sur 'Update for Free'."
 
 #: ../../source/explore/personalize/install-apps.md:41
 msgid "Additional Notes on Updating"
-msgstr ""
+msgstr "Notes Supplémentaires sur la Mise à Jour"
 
 #: ../../source/explore/personalize/install-apps.md:42
 msgid ""
 "If you decide not to update an item, the old product will still be valid "
 "and listed in Inventory."
 msgstr ""
+"Si vous décidez de ne pas mettre à jour un article, l'ancien produit sera "
+"toujours valable et inscrit dans l'Inventaire."
 
 #: ../../source/explore/personalize/install-apps.md:43
 msgid ""
 "Once you update an item, the previous version of the product will no "
 "longer be available."
 msgstr ""
+"Une fois que vous avez mis à jour un article, la version précédente du "
+"produit ne sera plus disponible."
 
 #: ../../source/explore/personalize/install-apps.md:44
 msgid ""
 "If you purchased multiple instances of an item, you need to individually "
 "update each instance of an item in your Inventory."
 msgstr ""
+"Si vous avez acheté plusieurs instances d'un article, vous devez mettre à "
+"jour individuellement chaque instance d'un article dans votre Inventaire."
 
 #: ../../source/explore/personalize/install-apps.md:45
 msgid ""
@@ -3838,14 +3978,22 @@ msgid ""
 "world. It is up to the end-user to replace the old instances with the "
 "new."
 msgstr ""
+"Lorsque vous mettez à jour un produit avec l'ancienne version déjà "
+"disponible, il restera intact jusqu'à ce qu'il soit remplacé manuellement "
+"par la version mise à jour. Si vous tentez d'importer une entité JSON qui "
+"contient l'ancienne version, le système ignorera l'article et ne le "
+"remplacera pas automatiquement in-world. Il appartient à l'utilisateur de "
+"remplacer les anciennes instances par les nouvelles."
 
 #: ../../source/explore/personalize/install-apps.md:48
 msgid "We've listed some of the apps we created and how you can use them."
 msgstr ""
+"Nous avons dressé la liste de certaines des applications que nous avons "
+"créées et de la manière dont vous pouvez les utiliser."
 
 #: ../../source/explore/personalize/install-apps.md:50
 msgid "Spectator Cam"
-msgstr ""
+msgstr "Caméra de Spectateur"
 
 #: ../../source/explore/personalize/install-apps.md:51
 msgid ""
@@ -3855,18 +4003,27 @@ msgid ""
 " to work correctly. Check out their official overview guide for more "
 "details."
 msgstr ""
+"La Caméra de Spectateur est une caméra que vous pouvez utiliser pour "
+"enregistrer ou diffuser en direct ce que vous et vos amis faites dans "
+"Vircadia. Elle n'est disponible qu'en mode HMD et nécessite un logiciel "
+"d'enregistrement tel que l'Open Broadcaster Software (OBS) pour fonctionner "
+"correctement. Consultez leur guide officiel pour plus de détails."
 
 #: ../../source/explore/personalize/install-apps.md:53
 msgid "Use the instructions above to install the Spectator Camera app."
 msgstr ""
+"Suivez les instructions ci-dessus pour installer l'application Caméra de "
+"Spectateur."
 
 #: ../../source/explore/personalize/install-apps.md:60
 msgid "To use the Spectator Camera app:"
-msgstr ""
+msgstr "Pour utiliser l'application Caméra de Spectateur :"
 
 #: ../../source/explore/personalize/install-apps.md:61
 msgid "In Interface, pull up your HUD or Tablet and go to Spectator."
 msgstr ""
+"Dans l'Interface, accédez à votre HUD ou votre tablet et allez dans "
+"Spectator."
 
 #: ../../source/explore/personalize/install-apps.md:62
 msgid ""
@@ -3875,6 +4032,10 @@ msgid ""
 "VR through your HMD. This is to show you what you're recording without "
 "having to take off your HMD."
 msgstr ""
+"Allumez votre Caméra de Spectateur en déplaçant le curseur. Vous verrez la "
+"caméra apparaître in-world. Par défaut, l'écran de l'application vous montre "
+"ce que vous voyez en VR par le biais de votre HMD. Cela vous permet de voir "
+"ce que vous enregistrez sans avoir à enlever votre HMD."
 
 #: ../../source/explore/personalize/install-apps.md:63
 msgid ""
@@ -3882,24 +4043,33 @@ msgid ""
 "camera view. This lets you record videos of yourself, such as your avatar"
 " dancing or trying on different wearables."
 msgstr ""
+"Pour vous enregistrer, passez de l'affichage de votre HMD à celui de la "
+"caméra. Cela vous permet d'enregistrer des vidéos de vous-même, comme votre "
+"avatar en train de danser ou d'essayer différents vêtements."
 
 #: ../../source/explore/personalize/install-apps.md:64
 msgid ""
 "Enable switching views with your controllers in the Spectator app on your"
 " HUD or Tablet."
 msgstr ""
+"Activez le changement de vue avec vos contrôleurs dans l'application "
+"Spectator de votre HUD ou de votre tablet."
 
 #: ../../source/explore/personalize/install-apps.md:65
 msgid ""
 "Rift: If you're using Oculus Touch controllers, click the left thumbstick"
 " to switch views."
 msgstr ""
+"Rift : si vous utilisez les contrôleurs Oculus Touch, cliquez sur la manette "
+"de gauche pour changer de vue."
 
 #: ../../source/explore/personalize/install-apps.md:66
 msgid ""
 "Vive: If you're using HTC Vive controllers, press on the center of the "
 "thumb pad to switch views."
 msgstr ""
+"Vive : Si vous utilisez les contrôleurs HTC Vive, appuyez sur la manette qui "
+"contrôle le pouce pour changer de vue."
 
 #: ../../source/explore/personalize/install-apps.md:70
 msgid ""
@@ -3907,14 +4077,19 @@ msgid ""
 " even another user's avatar. Use the instructions above to install the "
 "Fingerpaint app."
 msgstr ""
+"L'application Peinture au Doigt (Fingerpaint) vous permet de peindre votre "
+"environnement, votre propre avatar, ou même celui d'un autre utilisateur. "
+"Utilisez les instructions ci-dessus pour installer l'application Fingerpaint."
 
 #: ../../source/explore/personalize/install-apps.md:72
 msgid "To use the Fingerpaint app:"
-msgstr ""
+msgstr "Pour utiliser l'application Fingerpaint :"
 
 #: ../../source/explore/personalize/install-apps.md:73
 msgid "In Interface, pull up your HUD or Tablet and go to Body Paint."
 msgstr ""
+"Dans l'Interface, accédez à votre HUD ou votre tablet et allez dans Body "
+"Paint."
 
 #: ../../source/explore/personalize/install-apps.md:74
 msgid ""
@@ -3922,16 +4097,22 @@ msgid ""
 "world around you, your avatar, or another user's avatar (with their "
 "permission)."
 msgstr ""
+"Cliquez d'abord sur 'Options' pour sélectionner la surface sur laquelle vous "
+"souhaitez peindre - le monde qui vous entoure, votre avatar ou celui d'un "
+"autre utilisateur (avec sa permission)."
 
 #: ../../source/explore/personalize/install-apps.md:75
 msgid "Click 'Palette' to select a color for your paint."
 msgstr ""
+"Cliquez sur 'Palette' pour sélectionner une couleur pour votre peinture."
 
 #: ../../source/explore/personalize/install-apps.md:76
 msgid ""
 "Click 'Brushes' to select the settings for your brush, such as stroke "
 "width, type of brush, and special effects."
 msgstr ""
+"Cliquez sur 'Brushes' pour sélectionner les paramètres de votre pinceau, "
+"tels que la largeur du trait, le type de pinceau et les effets spéciaux."
 
 #: ../../source/explore/personalize/install-apps.md:81
 msgid ""
@@ -3939,36 +4120,47 @@ msgid ""
 " use this app if you don't wish to use your voice, have microphone "
 "issues, or have disabilities."
 msgstr ""
+"L'application Text to Speech synthétise le texte que vous tapez en parole. "
+"Vous pouvez utiliser cette application si vous ne souhaitez pas utiliser "
+"votre voix, si vous avez des problèmes de microphone ou si vous êtes "
+"handicapé."
 
 #: ../../source/explore/personalize/install-apps.md:83
 msgid "Use the instructions above to install the Text to Speech app."
 msgstr ""
+"Suivez les instructions ci-dessus pour installer l'application Text to "
+"Speech."
 
 #: ../../source/explore/personalize/install-apps.md:90
 msgid "To use the Text to Speech (TTS) app:"
-msgstr ""
+msgstr "Pour utiliser l'application Text to Speech (TTS) :"
 
 #: ../../source/explore/personalize/install-apps.md:91
 msgid "In Interface, pull up your HUD or Tablet and go to TTS."
 msgstr ""
+"Dans l'Interface, accédez à votre HUD ou votre tablet et allez dans TTS."
 
 #: ../../source/explore/personalize/install-apps.md:92
 msgid "In the app, select the Pitch and Speed of your choice."
 msgstr ""
+"Dans l'application, sélectionnez la hauteur et la vitesse du son de votre "
+"choix."
 
 #: ../../source/explore/personalize/install-apps.md:93
 msgid "Type in the text you'd like your avatar to speak."
-msgstr ""
+msgstr "Tapez le texte que vous souhaitez faire prononcer à votre avatar."
 
 #: ../../source/explore/personalize/install-apps.md:94
 msgid ""
 "Hit 'Speak' to hear your text. Hit 'Stop Last' to stop your avatar from "
 "speaking."
 msgstr ""
+"Cliquez sur 'Speak' pour entendre votre texte. Appuyez sur 'Stop Last' pour "
+"stopper votre avatar de parler."
 
 #: ../../source/explore/personalize/install-apps.md:98
 msgid "Create Tablet Apps"
-msgstr ""
+msgstr "Créer des Applications pour Tablet"
 
 #: ../../source/explore/socialize.rst:5
 msgid ""
@@ -3976,10 +4168,14 @@ msgid ""
 "with them. Vircadia enables people connected by interest, community, and "
 "friendship to come together from anywhere in the world."
 msgstr ""
+"Vircadia, c'est d'abord et avant-tout les gens que vous rencontrez et les "
+"expériences que vous partagez avec eux. Vircadia permet à des personnes "
+"liées par intérêts, une communauté ou amitiés de se rencontrer partout in-"
+"world."
 
 #: ../../source/explore/socialize.rst:12
 msgid "Make Connections and Friends"
-msgstr ""
+msgstr "Créer des Connexions et des Amitiés"
 
 #: ../../source/explore/socialize.rst:14
 msgid ""
@@ -3988,6 +4184,11 @@ msgid ""
 "other and hold the grip button. Desktop users can press and hold ``X`` on"
 " their keyboard."
 msgstr ""
+"Dans Vircadia, vous pouvez établir une connexion avec une autre personne en "
+"lui serrant la main. Avec vos manettes, placez vos mains l'une à côté de "
+"l'autre et maintenez le bouton de la poignée de main. Les utilisateurs en "
+"mode Clavier peuvent appuyer sur la touche \"X\" de leur clavier et la "
+"maintenir pressée."
 
 #: ../../source/explore/socialize.rst:16
 msgid ""
@@ -3996,6 +4197,10 @@ msgid ""
 "of connections. You will be able to see where they are in the metaverse, "
 "and you can travel to them at any time."
 msgstr ""
+"Une fois que vous avez établi une connexion avec quelqu'un, elle apparaîtra "
+"sous 'Connections' dans `The People app`_. Vous figurerez également dans "
+"leur liste de connexions. Vous pourrez voir où ils se trouvent dans le "
+"métaverse, et vous pourrez vous y rendre à tout moment."
 
 #: ../../source/explore/socialize.rst:18
 msgid ""
@@ -4003,10 +4208,13 @@ msgid ""
 " People app. You can make yourself available to only your friends using "
 "the People app."
 msgstr ""
+"Pour marquer une connexion en tant qu'ami, cochez la case à côté de son nom "
+"dans l'application People. Vous pouvez vous rendre disponible uniquement "
+"pour vos amis en utilisant l'application People."
 
 #: ../../source/explore/socialize.rst:24
 msgid "The People App"
-msgstr ""
+msgstr "L'Application People"
 
 #: ../../source/explore/socialize.rst:26
 msgid ""
@@ -4015,14 +4223,20 @@ msgid ""
 "people nearby (in the same domain as you), and gives you easy access to "
 "all of your connections. From the People app, you can:"
 msgstr ""
+"L'application People fournit un ensemble d'outils qui aident les "
+"utilisateurs à gérer leurs interactions avec les personnes dans le "
+"métaverse. Elle vous donne une liste des personnes à proximité (dans le même "
+"domaine que vous), et vous permet d'accéder facilement à toutes vos "
+"connexions. L'application People vous permet d'accéder à toutes vos "
+"connexions :"
 
 #: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
 msgid "Feature"
-msgstr ""
+msgstr "Fonctionnalité"
 
 #: ../../source/explore/socialize.rst:33
 msgid "Profile Picture"
-msgstr ""
+msgstr "Photo de Profil"
 
 #: ../../source/explore/socialize.rst:33
 msgid ""
@@ -4030,20 +4244,25 @@ msgid ""
 " view your profile. You can change this image on our `website "
 "<https://dashboard.vircadia.com/>`_."
 msgstr ""
+"C'est là que votre photo de profil sera visible. Cliquez sur l'image pour "
+"voir votre profil. Vous pouvez modifier cette image sur notre `site web "
+"<https://dashboard.vircadia.com/>`_."
 
 #: ../../source/explore/socialize.rst:36
 msgid "Display Name"
-msgstr ""
+msgstr "Nom d'Affichage"
 
 #: ../../source/explore/socialize.rst:36
 msgid ""
 "You can change your display name at any time. By default, it will be "
 "'anonymous'. In the image above, the display name is 'HiFi Docs'."
 msgstr ""
+"Vous pouvez changer votre nom d'affichage à tout moment. Par défaut, il sera "
+"\"anonyme\". Dans l'image ci-dessus, le nom d'affichage est \"HiFi Docs\"."
 
 #: ../../source/explore/socialize.rst:39
 msgid "Set Availability"
-msgstr ""
+msgstr "Définir votre Disponibilité"
 
 #: ../../source/explore/socialize.rst:39
 msgid ""
@@ -4052,54 +4271,68 @@ msgid ""
 "users you appear online to will also be able to teleport to your "
 "location."
 msgstr ""
+"Cette fonction vous permet d'apparaître en ligne pour sélectionner des "
+"groupes d'utilisateurs : Tout le Monde, Amis et Connexions, Amis Seulement, "
+"ou Apparaître Hors Ligne. Les utilisateurs auxquels vous apparaissez en "
+"ligne pourront également se téléporter à votre emplacement."
 
 #: ../../source/explore/socialize.rst:43
 msgid "Master Volume"
-msgstr ""
+msgstr "Volume Principal"
 
 #: ../../source/explore/socialize.rst:43
 msgid "Set the volume of your audio in Vircadia."
-msgstr ""
+msgstr "Réglez le volume de votre audio dans Vircadia."
 
 #: ../../source/explore/socialize.rst:45
 msgid "Nearby"
-msgstr ""
+msgstr "A Proximité"
 
 #: ../../source/explore/socialize.rst:45
 msgid "This is the list of users who are nearby in the same domain as you."
 msgstr ""
+"Il s'agit de la liste des utilisateurs qui se trouvent à proximité dans le "
+"même domaine que vous."
 
 #: ../../source/explore/socialize.rst:47
 msgid "In View"
-msgstr ""
+msgstr "En Vue"
 
 #: ../../source/explore/socialize.rst:47
 msgid ""
 "You can check this box to view only the users in front of you in a "
 "domain. This is useful when a domain has a lot of users."
 msgstr ""
+"Vous pouvez cocher cette case pour ne voir que les utilisateurs devant vous "
+"dans un domaine. Ceci est utile lorsqu'un domaine compte beaucoup "
+"d'utilisateurs."
 
 #: ../../source/explore/socialize.rst:50
 msgid "Refresh Button"
-msgstr ""
+msgstr "Bouton Actualiser"
 
 #: ../../source/explore/socialize.rst:50
 msgid "Click this button to refresh the list of users currently in the domain."
 msgstr ""
+"Cliquez sur ce bouton pour actualiser la liste des utilisateurs qui se "
+"trouvent actuellement dans le domaine."
 
 #: ../../source/explore/socialize.rst:52
 msgid "Connections"
-msgstr ""
+msgstr "Connexions"
 
 #: ../../source/explore/socialize.rst:52
 msgid ""
 "This is the list of users who are your friends and connections. You can "
 "also teleport to their location from this list."
 msgstr ""
+"Il s'agit de la liste des utilisateurs qui sont vos amis et vos relations. "
+"Vous pouvez également vous téléporter à leur emplacement à partir de cette "
+"liste."
 
 #: ../../source/explore/socialize.rst:55
 msgid "Loud"
-msgstr ""
+msgstr "Volume"
 
 #: ../../source/explore/socialize.rst:55
 msgid ""
@@ -4107,30 +4340,38 @@ msgid ""
 " only for you, not for other users in the domain. The icon also displays "
 "how loudly a user is speaking."
 msgstr ""
+"Cliquez sur cette icône à côté de l'utilisateur que vous voulez mettre en "
+"sourdine. L'utilisateur sera mis en sourdine uniquement pour vous, et non "
+"pour les autres utilisateurs du domaine. L'icône indique également le niveau "
+"sonore de la voix de l'utilisateur."
 
 #: ../../source/explore/socialize.rst:58
 msgid "Names"
-msgstr ""
+msgstr "Noms"
 
 #: ../../source/explore/socialize.rst:58
 msgid ""
 "This is the list of users available in the domain. You will only see "
 "their display names."
 msgstr ""
+"Il s'agit de la liste des utilisateurs disponibles dans le domaine. Vous ne "
+"verrez que leurs noms d'affichage."
 
 #: ../../source/explore/socialize.rst:60
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorez"
 
 #: ../../source/explore/socialize.rst:60
 msgid ""
 "If you check this box next to a user, you and the user will not be able "
 "to see or hear each other."
 msgstr ""
+"Si vous cochez cette case à côté d'un utilisateur, vous et l'utilisateur ne "
+"pourrez ni vous voir ni vous entendre."
 
 #: ../../source/explore/socialize.rst:65
 msgid "Use the People App as an Admin"
-msgstr ""
+msgstr "Utiliser l'Application People en tant qu'Administrateur"
 
 #: ../../source/explore/socialize.rst:67
 msgid ""
@@ -4138,20 +4379,26 @@ msgid ""
 "domain. The People app will have an additional column that allows an "
 "admin to silence and ban users in the same domain."
 msgstr ""
+"En tant qu'administrateur d'un domaine, vous aurez des privilèges pour "
+"maintenir un domaine. L'application People comportera une colonne "
+"supplémentaire qui permettra à un administrateur de mettre en sourdine et de "
+"bannir les utilisateurs du même domaine."
 
 #: ../../source/explore/socialize.rst:74
 msgid "Silence"
-msgstr ""
+msgstr "Silence"
 
 #: ../../source/explore/socialize.rst:74
 msgid ""
 "You can click the icon to mute a user. This user will be muted for "
 "everyone in the domain."
 msgstr ""
+"Vous pouvez cliquer sur l'icône pour mettre en sourdine un utilisateur. Cet "
+"utilisateur sera mis en sourdine pour tout le monde dans le domaine."
 
 #: ../../source/explore/socialize.rst:76
 msgid "Ban"
-msgstr ""
+msgstr "Bannir"
 
 #: ../../source/explore/socialize.rst:76
 msgid ""
@@ -4159,10 +4406,14 @@ msgid ""
 "not be able to enter the domain using the same account. The banned user "
 "will still have access to other High Fidelity domains."
 msgstr ""
+"Vous pouvez cliquer ici pour bannir un utilisateur du domaine en cours. "
+"L'utilisateur ne pourra pas entrer dans le domaine en utilisant le même "
+"compte. L'utilisateur banni aura toujours accès aux autres domaines de "
+"Vircadia."
 
 #: ../../source/explore/socialize.rst:84
 msgid "Your Privacy Shield"
-msgstr ""
+msgstr "Votre Bouclier de Protection de la Vie Privée"
 
 #: ../../source/explore/socialize.rst:86
 msgid ""
@@ -4172,6 +4423,13 @@ msgid ""
 "it, pull up your tablet or HUD and click **Shield**. In Desktop mode, you"
 " can also use the keyboard shortcut ``CTRL`` + ``N``."
 msgstr ""
+"Vous pouvez activer un bouclier de protection de la vie privée qui protège "
+"votre espace personnel dans le métaverse. Lorsqu'il est activé, les autres "
+"personnes disparaîtront si elles s'approchent trop près de vous. Votre "
+"bouclier de protection de la vie privée est désactivé par défaut. Pour "
+"l'activer, accédez à votre tablet ou votre HUD et cliquez sur **Shield**. En "
+"mode Clavier, vous pouvez également utiliser le raccourci clavier ``CTRL`` + "
+"``N``."
 
 #: ../../source/explore/socialize.rst:88
 msgid ""
@@ -4179,10 +4437,13 @@ msgid ""
 "window, next to the audio icon, that can be used to toggle your privacy "
 "shield."
 msgstr ""
+"Il y a également une icône de bouclier dans le coin supérieur gauche de "
+"votre fenêtre d'Interface, à côté de l'icône audio, qui peut être utilisée "
+"pour activer votre bouclier de confidentialité."
 
 #: ../../source/explore/socialize.rst:95
 msgid "Attend Live Events"
-msgstr ""
+msgstr "Assister à des Événements en Direct"
 
 #: ../../source/explore/socialize.rst:97
 msgid ""
@@ -4192,16 +4453,25 @@ msgid ""
 "events on the Vircadia website. Events are a great place to meet others "
 "and share experiences with others around the world."
 msgstr ""
+"L'un des grands avantages de la réalité virtuelle est que vous pouvez "
+"assister à des événements. Vircadia organise régulièrement des événements "
+"tels que des ateliers, des conférences VR et des réunions publiques pour "
+"rencontrer notre équipe. Vous pouvez consulter tous les événements à venir "
+"sur le site web de Vircadia. Les événements sont un endroit idéal pour "
+"rencontrer d'autres personnes et partager des expériences avec d'autres "
+"personnes dans le monde entier."
 
 #: ../../source/explore/socialize.rst:99
 msgid ""
 "To attend an event, simply go to the hosted domain at the time of the "
 "event."
 msgstr ""
+"Pour assister à un événement, il suffit de se rendre sur le domaine hébergé "
+"au moment de l'événement."
 
 #: ../../source/explore/socialize.rst:104
 msgid "Express Yourself"
-msgstr ""
+msgstr "Exprimez-vous"
 
 #: ../../source/explore/socialize.rst:106
 msgid ""
@@ -4209,6 +4479,8 @@ msgid ""
 "animating the mouth of your avatar or using gestures in the **Emote** "
 "app."
 msgstr ""
+"Il existe de nombreuses façons de s'exprimer dans Vircadia, comme animer la "
+"bouche de votre avatar ou utiliser des gestes dans l'application **Emote**."
 
 #: ../../source/explore/socialize.rst:108
 msgid ""
@@ -4217,10 +4489,14 @@ msgid ""
 "you are using a VR controller, your avatar will automatically mimic your "
 "hand gestures and movements."
 msgstr ""
+"Par défaut, tous les avatars utiliseront un ensemble d'animations standard, "
+"comme le clignotement des yeux ou l'ouverture et la fermeture de la bouche "
+"pendant que vous parlez. Lorsque vous utilisez un contrôleur VR, votre "
+"avatar imitera automatiquement les gestes et mouvements de votre main."
 
 #: ../../source/explore/socialize.rst:113
 msgid "The Emote App"
-msgstr ""
+msgstr "L'Application Emote"
 
 #: ../../source/explore/socialize.rst:115
 msgid ""
@@ -4229,10 +4505,16 @@ msgid ""
 " acting surprised, dancing, cheering, waving, falling, pointing, "
 "clapping, sitting, or showing love."
 msgstr ""
+"L'application Emote est un moyen pour les utilisateurs en mode Clavier de "
+"s'exprimer sans utiliser de contrôleurs VR. Avec cette application, vous "
+"pouvez afficher vos sentiments en pleurant, en faisant semblant d'être "
+"surpris, en dansant, en encourageant, en agitant la main, en tombant, en "
+"montrant du doigt, en applaudissant, en vous asseyant ou en montrant de "
+"l'amour."
 
 #: ../../source/explore/socialize.rst:123
 msgid "Chat with Users"
-msgstr ""
+msgstr "Chat avec les Utilisateurs"
 
 #: ../../source/explore/socialize.rst:125
 msgid ""
@@ -4243,30 +4525,41 @@ msgid ""
 "chat. There are some great scripts for chat that have already been built "
 "by community members, and a few are described below."
 msgstr ""
+"Vircadia dispose d'une option de chat par défaut qui fonctionne bien pour "
+"les utilisateurs en mode Clavier. Le soutien actual du chat textuel en VR "
+"n'est pas encore au niveau aspiré. Heureusement, nos scripts et notre "
+"interface utilisateur Open Source extensibles vous permettent de créer les "
+"fonctionnalités que vous souhaitez, y compris l'amélioration du chat "
+"textuel. Il existe d'excellents scripts pour le chat qui ont déjà été créés "
+"par les membres de la communauté, dont quelques-uns sont décrits ci-dessous."
 
 #: ../../source/explore/socialize.rst:130
 msgid "Alternative Local Chat"
-msgstr ""
+msgstr "Chat Local Alternatif"
 
 #: ../../source/explore/socialize.rst:132
 msgid ""
 "This clean, reliable, and well-written chat script was created by alpha "
 "user ctrlaltdavid."
 msgstr ""
+"Ce script de chat simple, fiable et bien écrit a été créé par l'utilisateur "
+"alpha ctrlaltdavid."
 
 #: ../../source/explore/socialize.rst:136
 msgid "To run the script:"
-msgstr ""
+msgstr "Pour exécuter le script :"
 
 #: ../../source/explore/socialize.rst:138
 msgid "In Interface, go to **Edit > Open and Run Script from URL**."
-msgstr ""
+msgstr "Dans l'Interface, allez à **Edit > Open and Run Script from URL**."
 
 #: ../../source/explore/socialize.rst:139
 msgid ""
 "Paste this `URL "
 "<http://ctrlaltstudio.com/downloads/hifi/scripts/chat.js>`__."
 msgstr ""
+"Copiez ceci `URL <http://ctrlaltstudio.com/downloads/hifi/scripts/chat."
+"js>`__."
 
 #: ../../source/explore/socialize.rst:141
 msgid ""
@@ -4275,10 +4568,15 @@ msgid ""
 "running the same script. If text chat is important to you, you can add "
 "this to your default scripts so it's always there."
 msgstr ""
+"Le script va s'exécuter et afficher une fenêtre de chat en texte. Vous "
+"pouvez utiliser cette fenêtre pour discuter avec d'autres utilisateurs du "
+"même domaine qui exécutent le même script. Si le chat textuel est important "
+"pour vous, vous pouvez l'ajouter à vos scripts par défaut pour qu'il soit "
+"toujours là."
 
 #: ../../source/explore/socialize.rst:149
 msgid "COM Script Version 1"
-msgstr ""
+msgstr "Script COM Version 1"
 
 #: ../../source/explore/socialize.rst:151
 msgid ""
@@ -4287,6 +4585,11 @@ msgid ""
 "with one another, without installing a separate app or script. With this "
 "script, you have the power to enable chat on any of your own domains."
 msgstr ""
+"AlphaVersionD est l'auteur d'un script tout aussi puissant et convivial qui "
+"fonctionne sur un domaine. Tous les utilisateurs qui visitent un domaine "
+"avec le script peuvent discuter entre eux, sans avoir à installer une "
+"application ou un script séparé. Avec ce script, vous avez la possibilité "
+"d'activer le chat sur n'importe lequel de vos propres domaines."
 
 #: ../../source/explore/socialize.rst:153
 msgid ""
@@ -4294,29 +4597,37 @@ msgid ""
 "permissions. Ensure that you have the right permissions in a domain where"
 " you wish to use the COM Script."
 msgstr ""
+"Vous ne pouvez exécuter un script que dans un domaine où vous avez les "
+"bonnes autorisations. Assurez-vous que vous avez les bonnes autorisations "
+"dans un domaine où vous souhaitez utiliser le script COM."
 
 #: ../../source/explore/socialize.rst:155
 msgid "To install COM Script in your domain:"
-msgstr ""
+msgstr "Pour installer le COM Script dans votre domaine :"
 
 #: ../../source/explore/socialize.rst:157
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
 msgstr ""
-"Dans l'Interface saisissez votre HUD ou Tablet et sélectionnez **Create**."
+"Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/explore/socialize.rst:158
 msgid "Click the 'zone' icon to create a zone entity."
-msgstr ""
+msgstr "Cliquez sur l'icône 'zone' pour créer une entité de zone."
 
 #: ../../source/explore/socialize.rst:159
 msgid ""
 "In the 'Properties' tab of the zone entity, paste this `URL "
 "<http://metaversecafes.com/HighFidelity/QueenCity/A_2016_Q_wab/AQUI/COM_v1.0.js>`_."
 msgstr ""
+"Dans l'onglet 'Properties' de l'entité zone, collez ceci `URL "
+"<http://metaversecafes.com/HighFidelity/QueenCity/A_2016_Q_wab/AQUI/COM_v1.0."
+"js>`_."
 
 #: ../../source/explore/socialize.rst:161
 msgid "COM Script version 1 is now running in the zone in your domain!"
 msgstr ""
+"Le COM Script version 1 est maintenant exécutée dans la zone de votre "
+"domaine !"
 
 #: ../../source/explore/travel.md:3
 msgid ""
@@ -4326,28 +4637,36 @@ msgid ""
 "time, while others were built to host events and engage with the people "
 "around you."
 msgstr ""
+"Vircadia est constitué de nombreux lieux virtuels qui vous permettent de "
+"participer à des activités et d'interagir avec les gens qui vous entourent. "
+"Beaucoup de ces lieux sont des mondes magnifiquement détaillés qu'il est "
+"intéressant d'explorer à tout moment, tandis que d'autres ont été construits "
+"pour accueillir des événements et interagir avec les gens qui vous entourent."
 
 #: ../../source/explore/travel.md:6 ../../source/explore/travel.md:9
 msgid "GoTo App"
-msgstr ""
+msgstr "Application GoTo"
 
 #: ../../source/explore/travel.md:7 ../../source/explore/travel.md:28
 msgid "Visit a Friend"
-msgstr ""
+msgstr "Rendez Visite à un Ami"
 
 #: ../../source/explore/travel.md:10
 msgid ""
 "The GoTo app lets you travel between different places in the Vircadia "
 "metaverse. Many of our places are created by users just like you."
 msgstr ""
+"L'application GoTo vous permet de voyager entre différents endroits du "
+"métaverse Vircadia. Beaucoup de nos lieux sont créés par des utilisateurs "
+"comme vous."
 
 #: ../../source/explore/travel.md:12
 msgid "To go and explore new places:"
-msgstr ""
+msgstr "Pour aller explorer de nouveaux endroits :"
 
 #: ../../source/explore/travel.md:13
 msgid "In Interface, pull up your tablet or HUD and go to GoTo."
-msgstr ""
+msgstr "Dans l'Interface, sortez votre tablet ou votre HUD et allez à GoTo."
 
 #: ../../source/explore/travel.md:14
 msgid ""
@@ -4355,12 +4674,19 @@ msgid ""
 " As you type, the matching places will show up. Otherwise, browse the "
 "open places under 'Featured' and 'Places'."
 msgstr ""
+"Si vous savez où vous voulez aller, entrez l'adresse du domaine ou le nom du "
+"lieu. Au fur et à mesure que vous tapez, les lieux correspondants "
+"s'affichent. Sinon, parcourez les lieux publiques sous 'Featured' et "
+"'Places'."
 
 #: ../../source/explore/travel.md:15
 msgid ""
 "Click on a place name to go to the place. If you have permissions, you "
 "will be transported to that location automatically."
 msgstr ""
+"Cliquez sur un nom de lieu pour vous rendre à l'endroit en question. Si vous "
+"avez les autorisations nécessaires, vous serez automatiquement transporté "
+"vers ce lieu."
 
 #: ../../source/explore/travel.md:24
 msgid ""
@@ -4368,24 +4694,29 @@ msgid ""
 "taken and shared in the metaverse. Clicking on a snap will take you "
 "directly to the place where the picture was taken."
 msgstr ""
+"L'application GoTo vous montre également un flux visuel de clichés que des "
+"personnes ont pris et partagé dans le métaverse. En cliquant sur un "
+"instantané, vous vous rendez directement à l'endroit où la photo a été prise."
 
 #: ../../source/explore/travel.md:29
 msgid ""
 "Once you've made a friend, you can see where they are and even teleport "
 "directly to them."
 msgstr ""
+"Une fois que vous vous êtes fait un ami, vous pouvez voir où il se trouve et "
+"même vous téléporter directement vers lui."
 
 #: ../../source/explore/travel.md:31
 msgid "In Interface, open your tablet or HUD and go to People."
-msgstr ""
+msgstr "Dans Interface, ouvrez votre tablet ou votre HUD et allez à People."
 
 #: ../../source/explore/travel.md:32
 msgid "Click 'Connections' and find the friend you want to visit."
-msgstr ""
+msgstr "Cliquez sur 'Connections' et trouvez l'ami que vous voulez visiter."
 
 #: ../../source/explore/travel.md:33
 msgid "Select their name then 'Visit'."
-msgstr ""
+msgstr "Sélectionnez son nom, puis 'Visit'."
 
 #~ msgid ""
 #~ "This is where your profile picture "
