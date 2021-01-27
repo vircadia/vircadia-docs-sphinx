@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-25 18:53+0000\n"
+"PO-Revision-Date: 2021-01-27 19:35+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/developer/fr/>\n"
@@ -37,11 +37,11 @@ msgstr ""
 
 #: ../../source/developer.rst:11 ../../source/developer/domain-server.rst:3
 msgid "Domain Server"
-msgstr ""
+msgstr "Serveur de Domaine"
 
 #: ../../source/developer.rst:11 ../../source/developer/assignment-client.rst:3
 msgid "Assignment Client"
-msgstr ""
+msgstr "Assignation Client"
 
 #: ../../source/developer.rst:3
 msgid "Developer"
@@ -444,7 +444,7 @@ msgstr ""
 #: ../../source/developer/build/BUILD_ANDROID.md:108
 #: ../../source/developer/build/BUILD_WIN.md:105
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Dépannage en cas de Problèmes"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:110
 msgid "To view a more complete debug log,"
