@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-27 19:35+0000\n"
+"PO-Revision-Date: 2021-01-28 12:28+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/fr/>\n"
@@ -89,7 +89,7 @@ msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
 msgstr ""
-"Au cours de ce chapître apprenez comment créer, construire et donner de la "
+"Au cours de ce chapitre apprenez comment créer, construire et donner de la "
 "vie à votre propre expérience VR:"
 
 #: ../../source/create/3d-models.rst:11
@@ -541,7 +541,7 @@ msgstr ""
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:37
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
 msgstr ""
-"Dans l'Interface saisissez votre HUD ou Tablet et sélectionnez **Create**."
+"Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/create/3d-models/import-animations.rst:35
 msgid ""
@@ -1703,12 +1703,12 @@ msgstr "Créez votre Propre Avatar"
 #: ../../source/create/avatars/avatar-standards.md:185
 #: ../../source/create/avatars/find-avatars.rst:3
 msgid "Find and Use an Existing Avatar"
-msgstr ""
+msgstr "Trouvez et Utilisez un Avatar Existant"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/package-avatar.rst:3
 msgid "Package and Host Your Avatar"
-msgstr ""
+msgstr "Empaquetage et Hébergement de votre Avatar"
 
 #: ../../source/create/avatars.rst:9 ../../source/create/avatars/add-flow.rst:3
 #: ../../source/create/avatars/avatar-standards.md:186
@@ -1840,7 +1840,7 @@ msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:46
 msgid "Collisions"
-msgstr ""
+msgstr "Collisions"
 
 #: ../../source/create/avatars/add-flow.rst:46
 msgid "Activates or deactivates collisions."
@@ -2055,7 +2055,7 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:5
 #: ../../source/create/entities/zone-tutorial.md:7
 msgid "On This Page:"
-msgstr ""
+msgstr "Sur cette Page :"
 
 #: ../../source/create/avatars/avatar-standards.md:6
 #: ../../source/create/avatars/avatar-standards.md:14
@@ -2464,7 +2464,7 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:150
 #: ../../source/create/wearables.md:36
 msgid "See Also"
-msgstr ""
+msgstr "Voir Aussi"
 
 #: ../../source/create/avatars/blender-tutorial.md:1
 #: ../../source/create/avatars/fuse-tutorial.md:20
@@ -2794,12 +2794,12 @@ msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:74
 msgid ":doc:`Find and Use an Existing Avatar <find-avatars>`"
-msgstr ""
+msgstr ":doc:`Trouvez et Utilisez un Avatar Existant <find-avatars>`"
 
 #: ../../source/create/avatars/create-avatars.rst:75
 #: ../../source/create/avatars/find-avatars.rst:175
 msgid ":doc:`Package and Host Your Avatar <package-avatar>`"
-msgstr ""
+msgstr ":doc:`Empaquetage et Hébergement de votre Avatar <package-avatar>`"
 
 #: ../../source/create/avatars/custom-animations.rst:5
 msgid ""
@@ -4431,12 +4431,12 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:18
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:114
 msgid "Define an Entity's Behavior"
-msgstr ""
+msgstr "Définir le Comportement d'une Entité"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/entity-physics.rst:3
 msgid "Apply Physics to Entities"
-msgstr ""
+msgstr "Appliquer la Physique aux Entités"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/create-entities.md:39
@@ -4457,7 +4457,7 @@ msgstr ""
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/avatar-interactions.md:1
 msgid "Define Interactions with Avatars"
-msgstr ""
+msgstr "Définir les Interactions avec des Avatars"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/hero-zone.rst:3
@@ -4487,7 +4487,7 @@ msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:1
 msgid "Add Sound to Entities"
-msgstr ""
+msgstr "Ajouter du Son aux Entités"
 
 #: ../../source/create/entities/add-sounds.md:3
 msgid ""
@@ -9421,7 +9421,7 @@ msgstr ""
 
 #: ../../source/create/wearables.md:40
 msgid "Put On Wearables"
-msgstr ""
+msgstr "Habillez vous de Vêtements"
 
 #~ msgid ""
 #~ "Vircadia supports different types of "
