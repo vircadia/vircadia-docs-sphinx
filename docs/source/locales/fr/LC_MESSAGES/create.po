@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-26 23:38+0000\n"
+"PO-Revision-Date: 2021-01-27 19:35+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/fr/>\n"
@@ -3869,7 +3869,7 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:135
 msgid "Issue"
-msgstr ""
+msgstr "Problème"
 
 #: ../../source/create/avatars/find-avatars.rst:135
 msgid "Troubleshooting Tip"
@@ -4721,7 +4721,7 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:57
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:118
 msgid "Interact with Your Environment"
-msgstr "Interagir avec votre Environnement"
+msgstr "Interagissez avec votre Environnement"
 
 #: ../../source/create/entities/avatar-interactions.md:67
 msgid "API Reference: Entities"
