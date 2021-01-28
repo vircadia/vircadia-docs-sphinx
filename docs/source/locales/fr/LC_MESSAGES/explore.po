@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-28 12:28+0000\n"
+"PO-Revision-Date: 2021-01-29 00:20+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/fr/>\n"
@@ -2644,8 +2644,8 @@ msgstr ""
 "nous vous encourageons à utiliser des équipements VR, tels que l'Oculus Rift "
 "ou le HTC Vive. Grâce à ces appareils HMD et aux contrôleurs manuels, vous "
 "pourrez interagir avec les gens en 3D, suivre les mouvements du corps et "
-"interagir avec les objets qui vous entourent. Nous prenons en charge les "
-"équipements VR suivants :"
+"interagir avec les objets qui vous entourent. Nous soutenons les équipements "
+"VR suivants :"
 
 #: ../../source/explore/get-started/vr-controls.rst:8
 msgid "Head Mounted Displays"
@@ -2677,7 +2677,7 @@ msgstr "Contrôleur XBox One"
 
 #: ../../source/explore/get-started/vr-controls.rst:23
 msgid "VR Controls"
-msgstr "Contrôles VR"
+msgstr "Contrôleurs VR"
 
 #: ../../source/explore/get-started/vr-controls.rst:34
 msgid "Comfort Mode"
