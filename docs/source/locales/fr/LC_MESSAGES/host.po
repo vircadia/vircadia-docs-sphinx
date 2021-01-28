@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-27 08:07+0000\n"
+"PO-Revision-Date: 2021-01-28 12:28+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/fr/>\n"
@@ -848,7 +848,7 @@ msgstr ""
 #: ../../source/host/add-content/export-content.rst:35
 #: ../../source/host/configure-settings/place-setting.rst:46
 msgid "Click 'Save'."
-msgstr ""
+msgstr "Cliquez sur 'Save'."
 
 #: ../../source/host/add-content/export-content.rst:40
 msgid "Retrieve Automatic Content Archives"
@@ -1332,7 +1332,7 @@ msgstr ""
 #: ../../source/host/configure-settings/entity-filters.rst:34
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
 msgstr ""
-"Dans l'Interface saisissez votre HUD ou Tablet et sélectionnez **Create**."
+"Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/host/configure-settings/entity-filters.rst:35
 msgid "In the Entity List, locate and select the zone you want to protect."
