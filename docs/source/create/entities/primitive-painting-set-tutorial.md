@@ -71,7 +71,7 @@ To create the palette base:
 
 To create the paint colors:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. [Create a sphere entity](create-entities.html) to be used as your first paint color. 
+2. [Create a sphere entity](create-entities) to be used as your first paint color.
 3. Go to the 'Properties' tab and name your entity 'Paint-Color' by selecting the text box at the top of the tab.
 4. Select your desired paint color from the 'Color' picker.
 5. Scroll down to the 'Spatial' section. Change the local dimensions to {x: 0.1, y: 0.05, z: 0.1}
@@ -109,10 +109,10 @@ To add the paint brush script:
 
 **See Also**
 
-- [Create New Entities](create-entities.html)
-- [Change How Entities Look](entity-appearance.html)
-- [Define an Entity's Behavior](entity-behavior.html)
-- [Get Started with Scripting](../../script/get-started-with-scripting.html)
-- [Client Entity Scripts](../../script/client-entity-scripts.html)
-- [Write Your Own Scripts](../../script/write-scripts.html)
-- [Interact with Your Environment](../../explore/interact.html)
+- [Create New Entities](create-entities)
+- [Change How Entities Look](entity-appearance)
+- [Define an Entity's Behavior](entity-behavior)
+- [Get Started with Scripting](../../script/get-started-with-scripting)
+- [Client Entity Scripts](../../script/client-entity-scripts)
+- [Write Your Own Scripts](../../script/write-scripts)
+- [Interact with Your Environment](../../explore/interact)
