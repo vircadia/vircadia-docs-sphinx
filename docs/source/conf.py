@@ -39,7 +39,7 @@ needs_sphinx = '2.4.4'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autosectionlabel', 'recommonmark', 'sphinxcontrib.video'
+    'recommonmark', 'sphinxcontrib.video'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

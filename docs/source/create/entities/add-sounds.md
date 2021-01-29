@@ -1,6 +1,6 @@
 # Add Sound to Entities
 
-Entities have the ability to add a collision sound, so that the entity will emit a sound every time it comes in contact, or [collides, with another entity](entity-behavior.html).
+Entities have the ability to add a collision sound, so that the entity will emit a sound every time it comes in contact, or [collides, with another entity](entity-behavior).
 
 To add a sound:
 1. In Interface, pull up your Tablet or HUD and go to **Create**. 

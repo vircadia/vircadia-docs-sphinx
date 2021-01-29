@@ -108,7 +108,7 @@ A basic template for a shader without helper functions looks something like this
         return 0; // "emissiveAmount", either <=0 or >0, suggest return 0 and use data.emissive
     }
 
-The function ``getProceduralFragment()`` is the default main entry point for the fragment shader. Because shaders are always read by their compiler from top to bottom, this function must always be the last one in your shader code. You will also need to know what is available to you in the ``data`` struct which is outlined in :ref:`Provided Methods, Constants, and Structs`.
+The function ``getProceduralFragment()`` is the default main entry point for the fragment shader. Because shaders are always read by their compiler from top to bottom, this function must always be the last one in your shader code. You will also need to know what is available to you in the ``data`` struct which is outlined in `Provided Methods, Constants, and Structs`_.
 
 ^^^^^^^^^^^^^^^^
 Global Variables
@@ -421,7 +421,7 @@ Shader Examples by Version
         return texture(cubeMap, normal).rgb; // this should return the same value that the skybox texture has
     }
 
-For further details on each version, see :ref:`Provided Methods, Constants, and Structs`.
+For further details on each version, see `Provided Methods, Constants, and Structs`_.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 A Cautionary Note on Shaders
