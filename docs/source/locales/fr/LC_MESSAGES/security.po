@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-17 15:55+0100\n"
-"PO-Revision-Date: 2021-01-29 00:20+0000\n"
+"PO-Revision-Date: 2021-01-30 09:19+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/security/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/security.rst:7 ../../source/security/crash-reporting.rst:3
@@ -82,7 +82,7 @@ msgstr "URL de l'Avatar"
 
 #: ../../source/security/reporting/crash-reporting.md:12
 msgid "Build type"
-msgstr "Type de Build"
+msgstr "Type de Système"
 
 #: ../../source/security/reporting/crash-reporting.md:13
 msgid "Display plugin"
