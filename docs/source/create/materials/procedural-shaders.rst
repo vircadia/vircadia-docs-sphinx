@@ -20,7 +20,7 @@ You probably know about materials and how they work. Fact is, all materials are 
 
 Procedural shaders (or simply shaders) are textures that are created by mathematical and algorithmic means. It is a piece of code that is run on the GPU or graphics card. They can provide a range of effects such as making an object look cartoony or simulating a candle flame. If you’ve used programs like Blender or Substance Designer to create material images, then you’ve seen this in action. The difference is that these programs automatically generate the shader code for you. To make custom designs and effects, you will have to dive into the code yourself.
 
-`The Book of Shaders <https://thebookofshaders.com/01>`_ expands on this with an analogy:
+`The Book of Shaders <https://thebookofshaders.com/01>`__ expands on this with an analogy:
 
     If you already have experience making drawings with computers, you know that in that process you draw a circle, then a rectangle, a line, some triangles until you compose the image you want. That process is very similar to writing a letter or a book by hand - it is a set of instructions that do one task after another.
 
@@ -28,7 +28,7 @@ Procedural shaders (or simply shaders) are textures that are created by mathemat
 
 Vircadia has support for vertex and fragment shaders on shape and material entities, and avatars. These shaders are based on the GLSL shader language, which uses the syntax and features of the C programming language. It does not have support for geometry, tessellation and evaluation, or compute shaders.
 
-This documentation is not intended to be a complete course on how to create a shader. This is an advanced topic that requires good math and programming skills. Many free books are available on the internet that can teach about shaders. `The Book of Shaders <https://thebookofshaders.com>`_ is one such book that is often cited.
+This documentation is not intended to be a complete course on how to create a shader. This is an advanced topic that requires good math and programming skills. Many free books are available on the internet that can teach about shaders. `The Book of Shaders <https://thebookofshaders.com>`__ is one such book that is often cited.
 
 An understanding of how to use JavaScript and JSON with Vircadia is important before you dive into this topic. If you intend to create shaders yourself, knowing the C programming language will also be important.
 

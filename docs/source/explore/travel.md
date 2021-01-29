@@ -21,16 +21,16 @@ To go and explore new places:
 
 ![](_images/goto-app.png)
 
-The **GoTo** app also shows you a visual feed of snapshots that people have taken and shared in the metaverse. Clicking on a snap will take you directly to the place where the picture was taken. 
+The **GoTo** app also shows you a visual feed of snapshots that people have taken and shared in the metaverse. Clicking on a snap will take you directly to the place where the picture was taken.
 
 ![](_images/goto-snaps.png)
 
 ## Visit a Friend
-Once you've [made a friend](socialize.html#make-connections-and-friends), you can see where they are and even teleport directly to them. 
+Once you've [made a friend](socialize.html#make-connections-and-friends), you can see where they are and even teleport directly to them.
 
-1. In Interface, open your tablet or HUD and go to **People**. 
-2. Click 'Connections' and find the friend you want to visit. 
+1. In Interface, open your tablet or HUD and go to **People**.
+2. Click 'Connections' and find the friend you want to visit.
 3. Select their name then 'Visit'.
 
 **See Also**
-+ [Socialize with Others](socialize.html)
++ [Socialize with Others](socialize)
