@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
 "PO-Revision-Date: 2021-01-31 20:19+0000\n"
-"Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
+"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/fr/>\n"
 "Language: fr\n"
@@ -811,7 +811,7 @@ msgid ""
 "events>`_ and more."
 msgstr ""
 "L'Interface Vircadia donne la vie à votre expérience personnelle dans le "
-"métaverse. Avec elle, vous pouvez :doc:`visiter les mondes VR <../voyage>`, "
+"métaverse. Avec elle, vous pouvez :doc:`visiter les mondes VR <../travel>`, "
 ":doc:`rencontrer des gens <../socialize>`, `assister à des événements en "
 "direct <../socialize.html#attend-live-events>`_ et plus encore."
 
@@ -3294,7 +3294,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/vr-controls.rst:222
 msgid ":doc:`Interact with Your Environment <../interact>`"
-msgstr ":doc:`Interagir avec votre Environnement <../interact>``"
+msgstr ":doc:`Interagir avec votre Environnement <../interact>`"
 
 #: ../../source/explore/get-started/vr-controls.rst:223
 msgid ":doc:`Explore in Desktop Mode <desktop>`"
