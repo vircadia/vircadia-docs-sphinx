@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Vircadia Docs'
-copyright = '2019, High Fidelity. © Copyright 2020, Vircadia.'
+copyright = '2019, High Fidelity. © Copyright 2021, Vircadia.'
 author = 'Vircadia Team'
 
 # The short X.Y version
@@ -71,6 +71,9 @@ exclude_patterns = []
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = "emacs"
 highlight_language = "javascript"
+
+# Disable Smartquotes for french in html to work around issue https://github.com/vircadia/vircadia-docs-sphinx/issues/112
+smartquotes_excludes = {'languages': ['fr'], 'builders': ['html']}
 
 
 # -- Options for HTML output -------------------------------------------------
