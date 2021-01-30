@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-29 00:20+0000\n"
+"PO-Revision-Date: 2021-01-30 09:19+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/developer/fr/>\n"
@@ -18,22 +18,22 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/developer.rst:11
 msgid "Build from Source"
-msgstr ""
+msgstr "Compiler depuis la Source"
 
 #: ../../source/developer.rst:11
 msgid "Create an Installer"
-msgstr ""
+msgstr "Créer un Installateur"
 
 #: ../../source/developer.rst:11
 #: ../../source/developer/build/BUILD_LINUX.md:156
 #: ../../source/developer/interface.rst:3
 msgid "Interface"
-msgstr ""
+msgstr "Interface"
 
 #: ../../source/developer.rst:11 ../../source/developer/domain-server.rst:3
 msgid "Domain Server"
@@ -41,21 +41,24 @@ msgstr "Serveur de Domaine"
 
 #: ../../source/developer.rst:11 ../../source/developer/assignment-client.rst:3
 msgid "Assignment Client"
-msgstr "Assignation Client"
+msgstr "Client d'Assignation"
 
 #: ../../source/developer.rst:3
 msgid "Developer"
-msgstr ""
+msgstr "Développeur"
 
 #: ../../source/developer.rst:5
 msgid ""
 "Developer information such as how to build the project from source, "
 "develop, or technically manage it can be found here."
 msgstr ""
+"Les informations destinées aux développeurs, telles que la manière de "
+"compiler le projet à partir de la source, de le développer ou de le gérer "
+"techniquement, peuvent être trouvées ici."
 
 #: ../../source/developer.rst:9
 msgid "Development Instructions"
-msgstr ""
+msgstr "Instructions de Développement"
 
 #: ../../source/developer/assignment-client.rst:5
 #: ../../source/developer/assignment-client/command-line-parameters.md:1
@@ -64,139 +67,139 @@ msgstr ""
 #: ../../source/developer/interface.rst:5
 #: ../../source/developer/interface/command-line-parameters.md:1
 msgid "Command Line Parameters"
-msgstr ""
+msgstr "Paramètres de Ligne de Commande"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:3
 msgid "You can launch an assignment-client with these parameters."
-msgstr ""
+msgstr "Vous pouvez lancer un client d'assignation avec ces paramètres."
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:5
 #: ../../source/developer/domain-server/command-line-parameters.md:5
 msgid "Displays help information"
-msgstr ""
+msgstr "Affiche les informations d'aide"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:9
 #: ../../source/developer/domain-server/command-line-parameters.md:9
 #: ../../source/developer/interface/command-line-parameters.md:9
 msgid "Displays version information"
-msgstr ""
+msgstr "Affiche les informations sur la version"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:13
 msgid "Assignment client type"
-msgstr ""
+msgstr "Type de client d'assignation"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:17
 msgid "0 = audio-mixer"
-msgstr ""
+msgstr "0 = mélangeur audio"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:18
 msgid "1 = avatar-mixer"
-msgstr ""
+msgstr "1 = avatar-mixer"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:19
 msgid "2 = agent"
-msgstr ""
+msgstr "2 = agent"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:20
 msgid "3 = asset-server"
-msgstr ""
+msgstr "3 = serveur d'actifs"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:21
 msgid "4 = message-mixer"
-msgstr ""
+msgstr "4 = mélangeur de messages"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:22
 msgid "5 = entity-script-server"
-msgstr ""
+msgstr "5 = entité-script-serveur"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:23
 msgid "6 = entity-server"
-msgstr ""
+msgstr "6 = entité-serveur"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:25
 msgid "Assignment pool"
-msgstr ""
+msgstr "Pool d'assignation"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:29
 msgid "Assignment client UDP port"
-msgstr ""
+msgstr "Port UDP du client d'assignation"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:33
 msgid "Wallet destination"
-msgstr ""
+msgstr "Destination du portefeuille"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:37
 msgid "Assignment server hostname"
-msgstr ""
+msgstr "Attribution du nom d'hôte du serveur"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:41
 msgid "Assignment server port"
-msgstr ""
+msgstr "Attribution du port du serveur"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:45
 msgid "Number of children to fork"
-msgstr ""
+msgstr "Nombre de descendants à alimenter"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:49
 msgid "Minimum number of children"
-msgstr ""
+msgstr "Nombre minimum de descendants"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:53
 msgid "Maximum number of children"
-msgstr ""
+msgstr "Nombre maximum de descendants"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:57
 msgid "Assignment client monitor port"
-msgstr ""
+msgstr "Port de surveillance du client d'assignation"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:61
 msgid "HTTP status server port"
-msgstr ""
+msgstr "Port du serveur d'état HTTP"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:65
 msgid "Directory to store logs"
-msgstr ""
+msgstr "Répertoire pour le stockage des journaux"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:69
 msgid "PID of the parent process"
-msgstr ""
+msgstr "NID de la procédure parentale"
 
 #: ../../source/developer/build.rst:7
 #: ../../source/developer/build/BUILD_GENERAL.md:1
 msgid "General Build Information"
-msgstr ""
+msgstr "Informations Générales sur le Système"
 
 #: ../../source/developer/build.rst:7
 #: ../../source/developer/build/BUILD_WIN.md:1
 msgid "Build Windows"
-msgstr ""
+msgstr "Système Windows"
 
 #: ../../source/developer/build.rst:7
 #: ../../source/developer/build/BUILD_LINUX.md:1
 msgid "Build Linux"
-msgstr ""
+msgstr "Système Linux"
 
 #: ../../source/developer/build.rst:7
 #: ../../source/developer/build/BUILD_OSX.md:1
 msgid "Build OSX"
-msgstr ""
+msgstr "Système OSX"
 
 #: ../../source/developer/build.rst:7
 #: ../../source/developer/build/BUILD_ANDROID.md:1
 msgid "Build Android"
-msgstr ""
+msgstr "Système Android"
 
 #: ../../source/developer/build.rst:3
 msgid "Building Vircadia"
-msgstr ""
+msgstr "Système Vircadia"
 
 #: ../../source/developer/build.rst:5
 msgid "The following are the guides for building Vircadia from source."
-msgstr ""
+msgstr "Voici les guides pour compiler Vircadia depuis la source."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:3
 msgid "Last Updated on December 21, 2019"
-msgstr ""
+msgstr "Dernière mise à jour le 21 décembre 2019"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:5
 msgid ""
@@ -204,11 +207,15 @@ msgid ""
 "platforms. Only Android specific instructions are found in this file. "
 "Note that these instructions apply to building for Oculus Quest."
 msgstr ""
+"Veuillez lire le guide général de compilation pour obtenir des informations "
+"sur la compilation pour autres plates-formes. Seules les instructions "
+"spécifiques à Android se trouvent dans ce fichier. Veuillez noter que ces "
+"instructions s'appliquent à la compilation pour Oculus Quest."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:7
 #: ../../source/developer/build/BUILD_GENERAL.md:12
 msgid "Dependencies"
-msgstr ""
+msgstr "Dépendances"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:9
 msgid ""
@@ -216,20 +223,28 @@ msgid ""
 " intending to do work on the library dependencies are strongly urged to "
 "use 64 bit Linux as a build platform."
 msgstr ""
+"La compilation est à ce jour supportée pour Windows, OSX et Linux, mais les "
+"développeurs qui ont l'intention de travailler sur les dépendances de la "
+"bibliothèque sont vivement encouragés à utiliser Linux 64 bits comme plate-"
+"forme de compilation."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:11
 msgid "OS specific dependencies"
-msgstr ""
+msgstr "Dépendances spécifiques pour OS"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:13
 msgid ""
 "Please install the dependencies for your OS using the Windows, OSX or "
 "Linux build instructions before attempting to build for Android."
 msgstr ""
+"Veuillez installer les dépendances de votre système d'exploitation en "
+"utilisant les instructions de compilation pour Windows, OSX ou Linux avant "
+"d'essayer de compiler pour Android."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:15
+#, fuzzy
 msgid "Android Studio"
-msgstr ""
+msgstr "Android Studio"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:17
 msgid ""
@@ -237,66 +252,77 @@ msgid ""
 "welcome screen, click Configure in the lower right corner and select SDK "
 "Manager."
 msgstr ""
+"Téléchargez le programme d'installation d'Android Studio et lancez-le. Une "
+"fois installé, dans l'écran de bienvenue, cliquez sur Configurer dans le "
+"coin inférieur droit et sélectionnez SDK Manager."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:19
 msgid "From the SDK Platforms tab, select API levels 26 and 28."
 msgstr ""
+"Dans l'onglet Plates-formes SDK, sélectionnez les niveaux d'API 26 et 28."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:21
 msgid "From the SDK Tools tab, select the following"
-msgstr ""
+msgstr "Dans l'onglet Outils du SDK, sélectionnez les éléments suivants"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:23
 msgid "Android SDK Build-Tools"
-msgstr ""
+msgstr "Android SDK Build-Tools"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:24
 msgid "GPU Debugging Tools"
-msgstr ""
+msgstr "GPU Debugging Tools"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:25
 msgid "LLDB"
-msgstr ""
+msgstr "LLDB"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:26
 msgid "Android SDK Platform-Tools"
-msgstr ""
+msgstr "Android SDK Platform-Tools"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:27
 msgid "Android SDK Tools"
-msgstr ""
+msgstr "Android SDK Tools"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:28
 msgid "NDK (even if you have the NDK installed separately)"
-msgstr ""
+msgstr "NDK (même si vous avez installé le NDK séparément)"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:30
 msgid ""
 "Still in the SDK Tools tab, click Show Package Details. Select CMake "
 "3.6.4. Do this even if you have a separate CMake installation."
 msgstr ""
+"Toujours dans l'onglet SDK Tools, cliquez sur Show Package Details. "
+"Sélectionnez CMake 3.6.4. Faites-le même si vous avez une installation "
+"séparée de CMake."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:32
 msgid "Also, make sure the NDK installed version is 18 (or higher)."
 msgstr ""
+"Assurez-vous également que la version de NDK installée est bien la version "
+"18 (ou supérieure)."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:34
 msgid "Environment"
-msgstr ""
+msgstr "Environnement"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:36
 msgid "Create a keystore in Android Studio"
-msgstr ""
+msgstr "Créer un fichier de clé dans Android Studio"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:37
 msgid ""
 "Follow the directions here to create a keystore file. You can save it "
 "anywhere (preferably not in the hifi folder)."
 msgstr ""
+"Suivez les instructions ici pour créer un fichier de clé. Vous pouvez "
+"l'enregistrer n'importe où (de préférence pas dans le dossier Vircadia)."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:39
 msgid "Set up machine specific Gradle properties"
-msgstr ""
+msgstr "Configurer les propriétés Gradle spécifiques à la machine"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:41
 msgid ""
@@ -304,142 +330,168 @@ msgid ""
 "Unix, Users/<yourname>/.gradle on Windows). Edit the file to contain the "
 "following"
 msgstr ""
+"Créez un fichier gradle.properties dans le répertoire  .gradle ($HOME/."
+"gradle on Unix, Users/<votre nom d'utilisateur>/.gradle sous Windows). "
+"Modifiez le fichier de manière à ce qu'il contienne les éléments suivants"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:49
 msgid ""
 "Note, do not use $HOME for the path. It must be a fully qualified path "
 "name. Also, be sure to use forward slashes in your path."
 msgstr ""
+"Attention, n'utilisez pas $HOME pour le chemin d'accès. Il doit s'agir d'un "
+"nom de chemin d'accès entièrement qualifié. Veillez également à utiliser des "
+"barres obliques dans votre chemin d'accès."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:51
 msgid "If you are building for an Android phone"
-msgstr ""
+msgstr "Si vous compilez pour un téléphone Android"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:53
 #: ../../source/developer/build/BUILD_ANDROID.md:60
 msgid "Add these lines to gradle.properties"
-msgstr ""
+msgstr "Ajouter ces lignes à gradle.properties"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:58
 msgid "If you are building for an Oculus Quest"
-msgstr ""
+msgstr "Si vous compilez pour une Oculus Quest"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:65
 msgid ""
 "The above code to suppress modules is not necessary, but will speed up "
 "the build process."
 msgstr ""
+"Le code de suppression des modules ci-dessus n'est pas nécessaire, mais il "
+"accélérera le processus de compilation."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:67
 msgid "Clone the repository"
-msgstr ""
+msgstr "Cloner le répertoire"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:69
 msgid "git clone https://github.com/vircadia/vircadia.git"
-msgstr ""
+msgstr "git clone https://github.com/vircadia/vircadia.git"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:71
 msgid "Building & Running"
-msgstr ""
+msgstr "Compiler & Éxecuter"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:73
 msgid "Building Modules"
-msgstr ""
+msgstr "Modules de Compilation"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:75
 msgid "Open Android Studio"
-msgstr ""
+msgstr "Ouvrez Android Studio"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:76
 msgid "Choose Open an existing Android Studio project"
-msgstr ""
+msgstr "Choisissez Open an existing Android Studio project"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:77
 msgid ""
 "Navigate to the hifi repository and choose the android folder and select "
 "OK"
 msgstr ""
+"Naviguez vers le répertoire Vircadia, choisissez le dossier android et "
+"sélectionnez OK"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:78
 msgid ""
 "Wait for Gradle to sync (this should take around 20 minutes the first "
 "time)"
 msgstr ""
+"Attendez que Gradle se synchronise (cela devrait prendre environ 20 minutes "
+"la première fois)"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:79
 msgid "From the Build menu select Make Project"
-msgstr ""
+msgstr "Dans le menu Build, sélectionnez Make Project"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:81
 msgid "Running a Module"
-msgstr ""
+msgstr "Exécuter un Module"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:83
 msgid ""
 "In the toolbar at the top of Android Studio, next to the green hammer "
 "icon, you should see a dropdown menu."
 msgstr ""
+"Dans la barre d'outils en haut d'Android Studio, à côté de l'icône verte du "
+"marteau, vous devriez voir un menu déroulant."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:84
 msgid ""
 "You may already see a configuration for the module you are trying to "
 "build. If so, select it."
 msgstr ""
+"Il se peut que vous voyiez déjà une configuration pour le module que vous "
+"essayez de compiler. Si c'est le cas, sélectionnez-la."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:85
 msgid "Otherwise, select Edit Configurations."
-msgstr ""
+msgstr "Sinon, sélectionnez Edit Configurations."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:87
 msgid "Your configuration should be as follows"
-msgstr ""
+msgstr "Votre configuration devrait être la suivante"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:89
+#, fuzzy
 msgid "Type: Android App"
-msgstr ""
+msgstr "Type: Android App"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:90
 msgid "Module: <your module> (you probably want interface or questInterface)"
 msgstr ""
+"Module: <votre module> (vous voulez probablement interface ou questInterface)"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:92
 msgid "For the interface modules, you also need to select the activity to launch."
 msgstr ""
+"Pour les modules d'interface, vous devez également sélectionner l'activité à "
+"lancer."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:94
 msgid "For the Android phone interface"
-msgstr ""
+msgstr "Pour l'interface du téléphone Android"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:96
 #: ../../source/developer/build/BUILD_ANDROID.md:101
 msgid "From the Launch drop down menu, select Specified Activity"
-msgstr ""
+msgstr "Dans le menu déroulant Launch, sélectionnez Specified Activity"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:97
 msgid ""
 "In the Activity field directly below, put "
 "io.highfidelity.hifiinterface.PermissionChecker"
 msgstr ""
+"Dans le champ Activity directement en dessous, mettez io.highfidelity."
+"hifiinterface.PermissionChecker"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:99
 msgid "For the Oculus Quest interface"
-msgstr ""
+msgstr "Pour l'interface de l'Oculus Quest"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:102
 msgid ""
 "In the Activity field directly below, put "
 "io.highfidelity.questInterface.PermissionsChecker"
 msgstr ""
+"Dans le champActivity directement en dessous, mettez io.highfidelity."
+"questInterface.PermissionsChecker"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:104
 msgid "Note the 's' in PermissionsChecker for the Quest."
-msgstr ""
+msgstr "Notez le 's' dans PermissionsChecker pour la Quest."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:106
 msgid ""
 "Now you are able to run your module! Click the green play button in the "
 "top toolbar of Android Studio."
 msgstr ""
+"Vous pouvez maintenant faire fonctionner votre module ! Cliquez sur le "
+"bouton vert de lecture dans la barre d'outils supérieure d'Android Studio."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:108
 #: ../../source/developer/build/BUILD_WIN.md:105
@@ -448,13 +500,16 @@ msgstr "Dépannage en cas de Problèmes"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:110
 msgid "To view a more complete debug log,"
-msgstr ""
+msgstr "Pour consulter un journal de débogage plus complet,"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:112
 msgid ""
 "Click the icon with the two overlapping squares in the upper left corner "
 "of the tab where the sync is running (hover text says Toggle view)"
 msgstr ""
+"Cliquez sur l'icône avec les deux carrés qui se chevauchent dans le coin "
+"supérieur gauche de l'onglet où la synchronisation est en cours (le texte du "
+"survol dit Toggle view)"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:113
 msgid ""
@@ -462,139 +517,169 @@ msgid ""
 "Deployment > Compiler you can add command-line flags, as per Gradle "
 "documentation"
 msgstr ""
+"Pour modifier la verbosité, cliquez sur Fichier > Settings. Under Build, "
+"Execution, Deployment > Compiler vous pouvez ajouter des options de ligne de "
+"commande, conformément à la documentation Gradle"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:115
 msgid "Some things you can try if you want to do a clean build"
 msgstr ""
+"Voici quelques exemples de ce que vous pouvez essayer si vous voulez faire "
+"une compilation entièrement nouvelle"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:117
 msgid ""
 "Delete the build and .externalNativeBuild folders from the folder for "
 "each module you're building (for example, hifi/android/apps/interface)"
 msgstr ""
+"Supprimez les dossiers build et .externalNativeBuild du dossier de chaque "
+"module que vous compilez (par exemple, hifi/android/apps/interface)"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:118
 msgid ""
 "If you have set your HIFI_VCPKG_ROOT environment variable, delete the "
 "contents of that directory; otherwise, delete AppData/Local/Temp/hifi"
 msgstr ""
+"Si vous avez défini votre variable d'environnement HIFI_VCPKG_ROOT, "
+"supprimez le contenu de ce répertoire ; sinon, supprimez AppData/Local/Temp/"
+"hifi"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:119
 msgid ""
 "In Android Studio, click File > Invalidate Caches / Restart and select "
 "Invalidate and Restart"
 msgstr ""
+"Dans Android Studio, cliquez sur File > Invalidate Caches / Restart et "
+"sélectionnez Invalidate and Restart"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:121
 msgid "If you see lots of \"couldn't acquire lock\" errors,"
 msgstr ""
+"Si vous constatez de nombreuses erreurs de type \"couldn't acquire lock\","
 
 #: ../../source/developer/build/BUILD_ANDROID.md:122
 msgid "Open Task Manager and close any running Clang / Gradle processes"
 msgstr ""
+"Ouvrir le gestionnaire de tâches et fermer les processus Clang / Gradle en "
+"cours"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:3
 #: ../../source/developer/build/BUILD_OSX.md:3
 msgid "Last Updated on August 26, 2020"
-msgstr ""
+msgstr "Dernière mise à jour le 26 août 2020"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:5
 msgid "OS Specific Build Guides"
-msgstr ""
+msgstr "Guides de compilation spécifiques pour OS"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:7
 msgid "Build Windows - complete instructions for Windows."
-msgstr ""
+msgstr "Compilation Windows - instructions complètes pour Windows."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:8
 msgid "Build Linux - additional instructions for Linux."
-msgstr ""
+msgstr "Compilation Linux - instructions supplémentaires pour Linux."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:9
 msgid "Build OSX - additional instructions for OS X."
-msgstr ""
+msgstr "Compilation OSX - instructions supplémentaires pour OS X."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:10
 msgid "Build Android - additional instructions for Android."
-msgstr ""
+msgstr "Compilation Android - instructions supplémentaires pour Android."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:13
+#, fuzzy
 msgid "git: >= 1.6"
-msgstr ""
+msgstr "git: >= 1.6"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:14
+#, fuzzy
 msgid "cmake:  3.9"
-msgstr ""
+msgstr "cmake:  3.9"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:15
 msgid "Python: 3.6 or higher"
-msgstr ""
+msgstr "Python: 3.6 ou plus haut"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:16
+#, fuzzy
 msgid "Node.JS: >= 12.13.1 LTS"
-msgstr ""
+msgstr "Node.JS: >= 12.13.1 LTS"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:17
 msgid "Used to build the Screen Sharing executable."
-msgstr ""
+msgstr "Utilisé pour compiler l'exécutable Screen Sharing."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:19
 msgid "CMake External Project Dependencies"
-msgstr ""
+msgstr "CMake Dépendances de Projets Externes"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:21
 msgid ""
 "These dependencies need not be installed manually. They are automatically"
 " downloaded on the platforms where they are required."
 msgstr ""
+"Ces dépendances ne doivent pas être installées manuellement. Elles sont "
+"automatiquement téléchargées sur les plateformes où elles sont requises."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:22
+#, fuzzy
 msgid "Bullet Physics Engine:  2.83"
-msgstr ""
+msgstr "Bullet Physics Engine:  2.83"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:23
+#, fuzzy
 msgid "glm:  0.9.8"
-msgstr ""
+msgstr "glm:  0.9.8"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:24
+#, fuzzy
 msgid "Oculus SDK:   1.11 (Windows) / 0.5 (Mac)"
-msgstr ""
+msgstr "Oculus SDK:   1.11 (Windows) / 0.5 (Mac)"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:25
+#, fuzzy
 msgid "OpenVR:   1.11.11 (Windows, Linux)"
-msgstr ""
+msgstr "OpenVR:   1.11.11 (Windows, Linux)"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:26
+#, fuzzy
 msgid "Polyvox:   0.2.1"
-msgstr ""
+msgstr "Polyvox:   0.2.1"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:27
+#, fuzzy
 msgid "QuaZip:   0.7.3"
-msgstr ""
+msgstr "QuaZip:   0.7.3"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:28
+#, fuzzy
 msgid "SDL2:   2.0.3"
-msgstr ""
+msgstr "SDL2:   2.0.3"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:29
+#, fuzzy
 msgid "Intel Threading Building Blocks:   4.3"
-msgstr ""
+msgstr "Intel Threading Building Blocks:   4.3"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:30
+#, fuzzy
 msgid "vcpkg:"
-msgstr ""
+msgstr "vcpkg:"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:31
+#, fuzzy
 msgid "VHACD"
-msgstr ""
+msgstr "VHACD"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:32
 msgid "zlib:   1.28 (Win32 only)"
-msgstr ""
+msgstr "zlib:   1.28 (Win32 seulement)"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:33
 msgid "nvtt:   2.1.1 (customized)"
-msgstr ""
+msgstr "nvtt:   2.1.1 (personnalisé)"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:35
 msgid ""
@@ -605,6 +690,12 @@ msgid ""
 "binaries will be placed in the build/ext folder in each of the subfolders"
 " for each external project."
 msgstr ""
+"Les dépendances ci-dessus seront téléchargées, construites, liées et "
+"incluses automatiquement par CMake là où nous en avons besoin. Les fichiers "
+"CMakeLists qui gèrent la saisie de chacune des dépendances externes "
+"suivantes se trouvent dans le dossier cmake/externals. Les téléchargements, "
+"fichiers sources et binaires résultants seront placés dans le dossier build/"
+"ext dans chacun des sous-dossiers pour chaque projet externe."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:37
 msgid ""
@@ -616,24 +707,35 @@ msgid ""
 "want to force a re-download and re-compile of all externals, just remove "
 "the build/ext folder."
 msgstr ""
+"Ils ne sont pas placés dans votre arborescence de compilation normale "
+"lorsque vous effectuez une compilation hors source, de sorte qu'ils ne "
+"doivent pas être retéléchargés et recompilés chaque fois que le dossier de "
+"compilation de CMake est vidé. Si vous souhaitez forcer un re-téléchargement "
+"et une recompilation d'un projet externe spécifique, vous pouvez simplement "
+"supprimer ce répertoire du sous-dossier approprié dans build/ext. Si vous "
+"voulez forcer un re-téléchargement et une recompilation de tous les "
+"externes, il suffit de supprimer le dossier build/ext."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:39
+#, fuzzy
 msgid "CMake"
-msgstr ""
+msgstr "CMake"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:41
 msgid ""
 "Vircadia uses CMake to generate build files and project files for your "
 "platform."
 msgstr ""
+"Vircadia utilise CMake pour générer des fichiers de compilation et des "
+"fichiers de projet pour votre plate-forme."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:43
 msgid "Qt"
-msgstr ""
+msgstr "Qt"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:44
 msgid "CMake will download Qt 5.12.3 using vcpkg."
-msgstr ""
+msgstr "CMake téléchargera Qt 5.12.3 en utilisant vcpkg."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:46
 msgid ""
@@ -645,16 +747,26 @@ msgid ""
 "environment).  The path it needs to be set to will depend on where and "
 "how Qt5 was installed. e.g."
 msgstr ""
+"Pour passer outre (c'est-à-dire utiliser une configuration Qt installée - "
+"vous devrez définir une variable d'environnement QT_CMAKE_PREFIX_PATH "
+"pointant sur votre dossier Qt lib/cmake.<br /> Cela peut être entré soit "
+"directement dans votre session shell avant la compilation, soit dans votre "
+"profil shell (par ex : ~/.bash_profile, ~/.bashrc, ~/.zshrc - cela dépend de "
+"votre shell et de votre environnement).  Le chemin d'accès à Qt5 dépend de "
+"l'endroit et de la manière dont il a été installé, par exemple"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:54
+#, fuzzy
 msgid "VCPKG"
-msgstr ""
+msgstr "VCPKG"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:56
 msgid ""
 "Vircadia uses vcpkg to download and build dependencies. You do not need "
 "to install vcpkg."
 msgstr ""
+"Vircadia utilise vcpkg pour télécharger et créer des dépendances. Vous "
+"n'avez pas besoin d'installer vcpkg."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:59
 msgid ""
@@ -663,44 +775,57 @@ msgid ""
 "get cleaned up by the OS, so in order to avoid this and having to redo "
 "the lengthy build step, you can set the following environment variable:"
 msgstr ""
+"La création des dépendances peut être longue et les fichiers résultants "
+"seront stockés dans le répertoire temporaire de votre système "
+"d'exploitation. Cependant, ces fichiers peuvent potentiellement être "
+"nettoyés par le système d'exploitation, donc pour éviter cela et devoir "
+"refaire la longue étape de compilation, vous pouvez définir la variable "
+"d'environnement suivante :"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:62
 msgid "export HIFI_VCPKG_BASE=/path/to/directory"
-msgstr ""
+msgstr "export HIFI_VCPKG_BASE=/path/to/directory"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:64
 msgid ""
 "Where /path/to/directory is the path to a directory where you wish the "
 "build files to get stored."
 msgstr ""
+"Où /path/to/directory est le chemin d'accès à un répertoire où vous "
+"souhaitez que les fichiers de compilation soient stockés."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:66
 msgid "Generating Build Files"
-msgstr ""
+msgstr "Génération des Fichiers de Compilation"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:68
 msgid "Possible Environment Variables"
-msgstr ""
+msgstr "Variables Environnementales Possibles"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:99
 msgid "Generate Files"
-msgstr ""
+msgstr "Générer des Fichiers"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:101
 msgid ""
 "Create a build directory in the root of your checkout and then run the "
 "CMake build from there. This will keep the rest of the directory clean."
 msgstr ""
+"Créez un répertoire de compilation dans le root de votre checkout et lancez "
+"ensuite la compilation CMake à partir de là. Cela permettra de garder le "
+"reste du répertoire propre."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:107
 msgid ""
 "If CMake gives you the same error message repeatedly after the build "
 "fails, try removing CMakeCache.txt."
 msgstr ""
+"Si CMake vous donne le même message d'erreur à plusieurs reprises après "
+"l'échouement de la compilation, essayez de supprimer CMakeCache.txt."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:109
 msgid "Generating a release/debug only vcpkg build"
-msgstr ""
+msgstr "Génération d'une compilation vcpkg uniquement pour release/débogage"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:111
 msgid ""
@@ -709,26 +834,32 @@ msgid ""
 "Building a release only vcpkg can drastically decrease the total build "
 "time."
 msgstr ""
+"Afin de générer un paquet vcpkg pour release ou débogage uniquement, vous "
+"pouvez utiliser VCPKG_BUILD_TYPE dans votre ligne de commande cmake. Créer "
+"un vcpkg pour release uniquement peut réduire considérablement le temps "
+"total de compilation."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:113
 msgid "For release only vcpkg:"
-msgstr ""
+msgstr "Vcpkg pour release seulement :"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:115
+#, fuzzy
 msgid "cmake .. -DVCPKG_BUILD_TYPE=release"
-msgstr ""
+msgstr "cmake .. -DVCPKG_BUILD_TYPE=release"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:117
 msgid "For debug only vcpkg:"
-msgstr ""
+msgstr "Vcpkg pour le débogage seulement :"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:119
+#, fuzzy
 msgid "cmake .. -DVCPKG_BUILD_TYPE=debug"
-msgstr ""
+msgstr "cmake .. -DVCPKG_BUILD_TYPE=debug"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:121
 msgid "Variables"
-msgstr ""
+msgstr "Variables"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:123
 msgid ""
@@ -736,16 +867,23 @@ msgid ""
 "set as ENV variables in your shell profile, or passed directly to CMake "
 "with a -D flag appended to the cmake .. command."
 msgstr ""
+"Toutes les variables qui doivent être définies pour que CMake puisse trouver "
+"des dépendances peuvent être définies comme des variables ENV dans votre "
+"profil shell, ou passées directement à CMake avec une option -D ajouté à la "
+"commande cmake."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:125
 msgid ""
 "For example, to pass the QT_CMAKE_PREFIX_PATH variable (if not using the "
 "vcpkg'ed version) during build file generation:"
 msgstr ""
+"Par exemple, pour passer la variable QT_CMAKE_PREFIX_PATH (si vous "
+"n'utilisez pas la version vcpkg'ed) lors de la génération du fichier de "
+"compilation :"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:129
 msgid "Finding Dependencies"
-msgstr ""
+msgstr "Recherche de Dépendances"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:131
 msgid ""
@@ -755,6 +893,12 @@ msgid ""
 "The list of dependencies we grab by default as external projects can be "
 "found in the CMake External Project Dependencies section."
 msgstr ""
+"Ce qui suit s'applique aux dépendances que nous ne saisissons pas via CMake "
+"ExternalProject (OpenSSL est un exemple), ou aux dépendances que vous avez "
+"choisi de ne pas saisir en tant que CMake ExternalProject (via "
+"-DUSE_LOCAL_$NAME=0). La liste des dépendances que nous saisissons par "
+"défaut en tant que projets externes se trouve dans la section CMake External "
+"Project Dependencies."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:133
 msgid ""
@@ -762,6 +906,9 @@ msgid ""
 "dependencies by setting one of the three following variables to the "
 "location of the correct version of the dependency."
 msgstr ""
+"Vous pouvez pointer nos modules de recherche CMake vers la version correcte "
+"des dépendances en définissant l'une des trois variables suivantes à "
+"l'emplacement de la version correcte de la dépendance."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:135
 msgid ""
@@ -769,74 +916,88 @@ msgid ""
 " the dependency in uppercase, and $name would be replaced by the name of "
 "the dependency in lowercase (ex: OPENSSL_ROOT_DIR, openssl)."
 msgstr ""
+"Dans les exemples ci-dessous, la variable $NAME sera remplacée par le nom de "
+"la dépendance en majuscule, et $name sera remplacé par le nom de la "
+"dépendance en minuscule (ex : OPENSSL_ROOT_DIR, openssl)."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:137
 msgid ""
 "$NAME_ROOT_DIR - pass this variable to Cmake with the -DNAME_ROOT_DIR= "
 "flag when running Cmake to generate build files"
 msgstr ""
+"$NAME_ROOT_DIR - passer cette variable à Cmake avec l'option -"
+"DNAME_ROOT_DIR= lors de l'exécution de Cmake pour générer les fichiers de "
+"compilation"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:138
 msgid "$NAME_ROOT_DIR - set this variable in your ENV"
-msgstr ""
+msgstr "$NAME_ROOT_DIR - définissez cette variable dans votre ENV"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:139
 msgid ""
 "HIFI_LIB_DIR - set this variable in your ENV to your Vircadia lib folder,"
 " should contain a folder '$name'"
 msgstr ""
+"HIFI_LIB_DIR - Définissez cette variable dans votre ENV pour votre dossier "
+"Vircadia lib, qui doit contenir un dossier '$name'."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:141
 msgid "Optional Components"
-msgstr ""
+msgstr "Composantes Optionnelles"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:143
 msgid "Build Options"
-msgstr ""
+msgstr "Options de Compilation"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:145
 msgid "The following build options can be used when running CMake"
 msgstr ""
+"Les options de compilation suivantes peuvent être utilisées lors de "
+"l'exécution de CMake"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:147
 msgid "BUILD_CLIENT"
-msgstr ""
+msgstr "BUILD_CLIENT"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:148
 msgid "BUILD_SERVER"
-msgstr ""
+msgstr "BUILD_SERVER"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:149
+#, fuzzy
 msgid "BUILD_TESTS"
-msgstr ""
+msgstr "BUILD_TESTS"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:150
+#, fuzzy
 msgid "BUILD_TOOLS"
-msgstr ""
+msgstr "BUILD_TOOLS"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:151
 msgid "CLIENT_ONLY // Will package only the Interface"
-msgstr ""
+msgstr "CLIENT_ONLY // N'empaquetera que l'Interface"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:152
 msgid "SERVER_ONLY // Will package only the Server"
-msgstr ""
+msgstr "SERVER_ONLY // N'empaquetera que le Serveur"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:154
 msgid "Developer Build Options"
-msgstr ""
+msgstr "Options de Compilation pour les Développeurs"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:156
+#, fuzzy
 msgid "USE_GLES"
-msgstr ""
+msgstr "USE_GLES"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:157
+#, fuzzy
 msgid "DISABLE_UI"
-msgstr ""
+msgstr "DISABLE_UI"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:159
 msgid "Devices"
-msgstr ""
+msgstr "Périphériques"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:161
 msgid ""
@@ -846,10 +1007,16 @@ msgid ""
 "interface/external/ for the detailed explanation of the requirements to "
 "use the device."
 msgstr ""
+"Vous pouvez prendre en charge des périphériques d'entrée/sortie externes "
+"tels que la Leap Motion, le MIDI, et bien d'autres en ajoutant chaque SDK "
+"individuel dans le chemin d'accès visible de compilation. Reportez-vous au "
+"fichier readme disponible dans chaque dossier de périphérique dans interface/"
+"external/ pour une explication détaillée des conditions d'utilisation du "
+"périphérique."
 
 #: ../../source/developer/build/BUILD_LINUX.md:3
 msgid "Last Updated on December 1, 2020"
-msgstr ""
+msgstr "Dernière mise à jour le 1er décembre 2020"
 
 #: ../../source/developer/build/BUILD_LINUX.md:5
 msgid ""
@@ -857,186 +1024,204 @@ msgid ""
 "required for all platforms. Only Linux specific instructions are found in"
 " this file."
 msgstr ""
+"Veuillez lire le guide général de compilation pour obtenir des informations "
+"sur les dépendances requises pour toutes les plateformes. Seules les "
+"instructions spécifiques à Linux se trouvent dans ce fichier."
 
 #: ../../source/developer/build/BUILD_LINUX.md:7
 msgid ""
 "You can use the Vircadia Builder to build on Linux more easily. "
 "Alternatively, you can follow the manual steps below."
 msgstr ""
+"Vous pouvez utiliser le Vircadia Builder pour compiler sur Linux plus "
+"facilement. Vous pouvez également suivre les étapes du manuel ci-dessous."
 
 #: ../../source/developer/build/BUILD_LINUX.md:9
 msgid "Ubuntu 16.04/18.04 specific build guide"
-msgstr ""
+msgstr "Guide de compilation spécifique à Ubuntu 16.04/18.04"
 
 #: ../../source/developer/build/BUILD_LINUX.md:10
 msgid "Ubuntu 16.04 only"
-msgstr ""
+msgstr "Ubuntu 16.04 seulement"
 
 #: ../../source/developer/build/BUILD_LINUX.md:11
 msgid ""
 "Add the following line to .bash_profile<br />export "
 "QT_QPA_FONTDIR=/usr/share/fonts/truetype/dejavu/"
 msgstr ""
+"Ajouter la ligne suivante à .bash_profile<br />export QT_QPA_FONTDIR=/usr/"
+"share/fonts/truetype/dejavu/"
 
 #: ../../source/developer/build/BUILD_LINUX.md:13
 msgid "Ubuntu 18.04 server only"
-msgstr ""
+msgstr "Serveur Ubuntu 18.04 uniquement"
 
 #: ../../source/developer/build/BUILD_LINUX.md:14
 msgid ""
 "Add the universe repository:<br />(This is not enabled by default on the "
 "server edition)"
 msgstr ""
+"Ajouter le répertoire de l'univers:<br />(Ceci n'est pas activé par défaut "
+"sur l'édition du serveur)"
 
 #: ../../source/developer/build/BUILD_LINUX.md:20
 msgid "Install build tools:"
-msgstr ""
+msgstr "Installer des outils de compilation :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:21
 msgid "First update the repositories:"
-msgstr ""
+msgstr "Mettez d'abord à jour les répertoires :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:26
 msgid "git"
-msgstr ""
+msgstr "git"
 
 #: ../../source/developer/build/BUILD_LINUX.md:30
 msgid "Verify by git --version"
-msgstr ""
+msgstr "Vérifier par git --version"
 
 #: ../../source/developer/build/BUILD_LINUX.md:31
 msgid "g++"
-msgstr ""
+msgstr "g++"
 
 #: ../../source/developer/build/BUILD_LINUX.md:35
 msgid "Verify by g++ --version"
-msgstr ""
+msgstr "Vérifier par g++ --version"
 
 #: ../../source/developer/build/BUILD_LINUX.md:36
 msgid "Ubuntu 18.04 cmake"
-msgstr ""
+msgstr "Ubuntu 18.04 cmake"
 
 #: ../../source/developer/build/BUILD_LINUX.md:40
 msgid "Verify by cmake --version"
-msgstr ""
+msgstr "Vérifier par cmake --version"
 
 #: ../../source/developer/build/BUILD_LINUX.md:41
 msgid "Ubuntu 16.04 cmake"
-msgstr ""
+msgstr "Ubuntu 16.04 cmake"
 
 #: ../../source/developer/build/BUILD_LINUX.md:46
 msgid "Install build dependencies:"
-msgstr ""
+msgstr "Installer des dépendances de compilation :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:47
 msgid "OpenSSL:"
-msgstr ""
+msgstr "OpenSSL :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:51
 msgid "Verify with openssl version"
-msgstr ""
+msgstr "Vérifier avec openssl version"
 
 #: ../../source/developer/build/BUILD_LINUX.md:52
 msgid "OpenGL:"
-msgstr ""
+msgstr "OpenGL :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:57
 msgid "Verify OpenGL:"
-msgstr ""
+msgstr "Vérifier OpenGL :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:58
 msgid "First install mesa-utils with the command sudo apt install mesa-utils -y"
 msgstr ""
+"Installez d'abord mesa-utils avec la commande sudo apt install mesa-utils -y"
 
 #: ../../source/developer/build/BUILD_LINUX.md:59
 msgid "Then run glxinfo | grep \"OpenGL version\""
-msgstr ""
+msgstr "Puis lancez glxinfo | grep \"OpenGL version\"."
 
 #: ../../source/developer/build/BUILD_LINUX.md:60
 msgid "To compile interface in a server you must install:"
-msgstr ""
+msgstr "Pour compiler l'interface dans un serveur, vous devez installer :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:64
 msgid "Misc dependencies:"
-msgstr ""
+msgstr "Diverses dépendances :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:68
 msgid "Install Python 3 and required packages:"
-msgstr ""
+msgstr "Installez Python 3 et les paquets nécessaires :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:72
 msgid "Install node, required to build the jsdoc documentation:"
-msgstr ""
+msgstr "Installez node, nécessaire pour compiler la documentation jsdoc :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:77
 msgid "Get code and checkout the branch you need"
-msgstr ""
+msgstr "Obtenez le code et extrayez la branche dont vous avez besoin"
 
 #: ../../source/developer/build/BUILD_LINUX.md:79
 msgid "Clone this repository:"
-msgstr ""
+msgstr "Clonez ce répertoire :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:84
 msgid ""
 "To compile a DEV version checkout the branch you need. To get a list of "
 "all tags:"
 msgstr ""
+"Pour compiler une version DEV, extrayez la branche dont vous avez besoin. "
+"Pour obtenir une liste de tous les tags :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:89
 msgid "Then checkout the main branch with:"
-msgstr ""
+msgstr "Ensuite, vous pouvez extraire la branche principale avec :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:94
 msgid "Using a custom Qt build"
-msgstr ""
+msgstr "Utiliser une compilation Qt personnalisée"
 
 #: ../../source/developer/build/BUILD_LINUX.md:96
 msgid ""
 "Qt binaries are only provided for Ubuntu. In order to build on other "
 "distributions, a Qt5 install needs to be provided as follows:"
 msgstr ""
+"Les binaires Qt ne sont fournis que pour Ubuntu. Afin de compiler sur "
+"d'autres distributions, une installation de Qt5 doit être fournie comme suit "
+":"
 
 #: ../../source/developer/build/BUILD_LINUX.md:98
 msgid "Set VIRCADIA_USE_PREBUILT_QT=1"
-msgstr ""
+msgstr "Définissez VIRCADIA_USE_PREBUILT_QT=1"
 
 #: ../../source/developer/build/BUILD_LINUX.md:99
 msgid "Set VIRCADIA_USE_QT_VERSION to the Qt version (defaults to 5.12.3)"
 msgstr ""
+"Définissez VIRCADIA_USE_QT_VERSION sur la version Qt (par défaut 5.12.3)"
 
 #: ../../source/developer/build/BUILD_LINUX.md:100
 msgid "Set HIFI_QT_BASE=/path/to/qt"
-msgstr ""
+msgstr "Définissez HIFI_QT_BASE=/path/to/qt"
 
 #: ../../source/developer/build/BUILD_LINUX.md:102
 msgid ""
 "Qt must be installed in "
 "$HIFI_QT_BASE/$VIRCADIA_USE_QT_VERSION/qt5-install."
 msgstr ""
+"Qt doit être installé dans $HIFI_QT_BASE/$VIRCADIA_USE_QT_VERSION/"
+"qt5-install."
 
 #: ../../source/developer/build/BUILD_LINUX.md:104
 msgid "Compiling"
-msgstr ""
+msgstr "Compilation"
 
 #: ../../source/developer/build/BUILD_LINUX.md:106
 msgid "Create the build directory:"
-msgstr ""
+msgstr "Créez le répertoire de compilation :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:113
 msgid "Prepare makefiles:"
-msgstr ""
+msgstr "Préparez les makefiles :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:118
 msgid "If cmake fails with a vcpkg error - delete /tmp/hifi/vcpkg."
-msgstr ""
+msgstr "Si cmake échoue avec une erreur vcpkg - supprimez /tmp/hifi/vcpkg."
 
 #: ../../source/developer/build/BUILD_LINUX.md:120
 msgid "Start compilation of the server and get a cup of coffee:"
-msgstr ""
+msgstr "Lancez la compilation du serveur et prenez une tasse de café :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:125
 msgid "To compile interface:"
-msgstr ""
+msgstr "Compiler l'interface :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:130
 msgid ""
@@ -1045,42 +1230,47 @@ msgid ""
 "x64 CPUs support two threads per core, this works out to CPU_COUNT*2. As "
 "an example, if you have a 2 core machine, you could use:"
 msgstr ""
+"Les commandes ci-dessus se compilent avec un seul thread. Si vous avez "
+"suffisamment de mémoire, vous pouvez réduire votre temps de compilation en "
+"utilisant l'option -j. Comme la plupart des processeurs x64 supportent deux "
+"threads par core, cela correspond à CPU_COUNT*2. Par exemple, si vous avez "
+"une machine à deux cores, vous pouvez utiliser"
 
 #: ../../source/developer/build/BUILD_LINUX.md:138
 msgid "In a server, it does not make sense to compile interface."
-msgstr ""
+msgstr "Dans un serveur, cela ne fait pas de sense de compiler l'interface."
 
 #: ../../source/developer/build/BUILD_LINUX.md:140
 msgid "Running the software"
-msgstr ""
+msgstr "Exécution du logiciel"
 
 #: ../../source/developer/build/BUILD_LINUX.md:142
 msgid "Domain server"
-msgstr ""
+msgstr "Serveur de domaine"
 
 #: ../../source/developer/build/BUILD_LINUX.md:144
 msgid "Running domain server:"
-msgstr ""
+msgstr "Exécution du serveur de domaine :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:149
 msgid "Assignment clients"
-msgstr ""
+msgstr "Clients d'Assignation"
 
 #: ../../source/developer/build/BUILD_LINUX.md:151
 msgid "Running assignment client:"
-msgstr ""
+msgstr "Exécution d'un client d'assignation :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:158
 msgid "Running interface:"
-msgstr ""
+msgstr "Exécution de l'interface :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:163
 msgid "Go to localhost in the running interface."
-msgstr ""
+msgstr "Aller à localhost dans l'interface en cours d'exécution."
 
 #: ../../source/developer/build/BUILD_LINUX.md:165
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
 #: ../../source/developer/build/BUILD_LINUX.md:167
 msgid ""
@@ -1090,30 +1280,39 @@ msgid ""
 "/home/$USER/vcpkg. By default, vcpkg will build in the system /tmp "
 "directory."
 msgstr ""
+"Si votre objectif est de mettre en place un environnement de développement, "
+"il est souhaitable de définir le répertoire dans lequel vcpkg s'intègre avec "
+"la variable d'environnement HIFI_VCPKG_BASE. Par exemple, vous pouvez saisir "
+"la variable HIFI_VCPKG_BASE avec la valeur /home/$USER/vcpkg. Par défaut, "
+"vcpkg sera intégré dans le répertoire /tmp du système."
 
 #: ../../source/developer/build/BUILD_LINUX.md:172
 msgid "Ubuntu 18.04 only"
-msgstr ""
+msgstr "Ubuntu 18.04 seulement"
 
 #: ../../source/developer/build/BUILD_LINUX.md:174
 msgid ""
 "In Ubuntu 18.04 there is a problem related with NVidia driver library "
 "version."
 msgstr ""
+"Dans Ubuntu 18.04, il y a un problème lié à la version de la bibliothèque de "
+"pilotes NVidia."
 
 #: ../../source/developer/build/BUILD_LINUX.md:176
 msgid "It can be worked around following these steps:"
-msgstr ""
+msgstr "Il peut être contourné en suivant ces étapes :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:178
 msgid ""
 "Uninstall incompatible nvtt libraries:<br />sudo apt-get remove libnvtt2 "
 "libnvtt-dev"
 msgstr ""
+"Désinstallez les bibliothèques nvtt incompatibles:<br />sudo apt-get remove "
+"libnvtt2 libnvtt-dev"
 
 #: ../../source/developer/build/BUILD_LINUX.md:181
 msgid "Install libssl1.0-dev:<br />sudo apt-get -y install libssl1.0-dev"
-msgstr ""
+msgstr "Installez libssl1.0-dev:<br />sudo apt-get -y install libssl1.0-dev"
 
 #: ../../source/developer/build/BUILD_LINUX.md:184
 msgid ""
@@ -1121,32 +1320,36 @@ msgid ""
 "https://github.com/castano/nvidia-texture-tools<br />cd nvidia-texture-"
 "tools/"
 msgstr ""
+"Clonez castano nvidia-texture-tools:<br />git clone https://github.com/"
+"castano/nvidia-texture-tools<br />cd nvidia-texture-tools/"
 
 #: ../../source/developer/build/BUILD_LINUX.md:188
 msgid "Make these changes in repo:"
-msgstr ""
+msgstr "Apporter ces changements dans les référentiels :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:189
 msgid "In file VERSION set 2.2.1"
-msgstr ""
+msgstr "Dans le fichier VERSION fixez à 2.2.1"
 
 #: ../../source/developer/build/BUILD_LINUX.md:190
 msgid "In file configure:"
-msgstr ""
+msgstr "Dans le fichier configure :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:191
 msgid "set build=\"release\""
-msgstr ""
+msgstr "mettez build=\"release\""
 
 #: ../../source/developer/build/BUILD_LINUX.md:192
 msgid "set -DNVTT_SHARED=1"
-msgstr ""
+msgstr "mettez -DNVTT_SHARED=1"
 
 #: ../../source/developer/build/BUILD_LINUX.md:194
 msgid ""
 "Configure, build and install:<br />./configure<br />make<br />sudo make "
 "install"
 msgstr ""
+"Configurez, compilez and installez:<br />./configure<br />make<br />sudo "
+"make install"
 
 #: ../../source/developer/build/BUILD_LINUX.md:199
 msgid ""
@@ -1156,10 +1359,16 @@ msgid ""
 "/usr/lib/libnvmath.so<br />sudo ln -s /usr/local/lib/libnvtt.so "
 "/usr/lib/libnvtt.so"
 msgstr ""
+"Reliez les fichiers compilés:<br />sudo ln -s /usr/local/lib/libnvcore.so /"
+"usr/lib/libnvcore.so<br />sudo ln -s /usr/local/lib/libnvimage.so /usr/lib/"
+"libnvimage.so<br />sudo ln -s /usr/local/lib/libnvmath.so /usr/lib/"
+"libnvmath.so<br />sudo ln -s /usr/local/lib/libnvtt.so /usr/lib/libnvtt.so"
 
 #: ../../source/developer/build/BUILD_LINUX.md:205
 msgid "After running these steps you can run interface:<br />interface/interface"
 msgstr ""
+"Après avoir effectué ces étapes, vous pouvez lancer l'interface:<br />"
+"interface/interface"
 
 #: ../../source/developer/build/BUILD_OSX.md:5
 msgid ""
@@ -1167,30 +1376,38 @@ msgid ""
 "required for all platforms. Only macOS specific instructions are found in"
 " this document."
 msgstr ""
+"Veuillez lire le guide général de compilation pour obtenir des informations "
+"sur les dépendances requises pour toutes les plateformes. Seules les "
+"instructions spécifiques à MacOS se trouvent dans ce document."
 
 #: ../../source/developer/build/BUILD_OSX.md:7
 msgid "Homebrew"
-msgstr ""
+msgstr "Homebrew"
 
 #: ../../source/developer/build/BUILD_OSX.md:9
 msgid ""
 "Homebrew is an excellent package manager for macOS. It makes install of "
 "some Vircadia dependencies very simple."
 msgstr ""
+"Homebrew est un excellent gestionnaire de paquets pour macOS. Il rend "
+"l'installation de certaines dépendances de Vircadia très simple."
 
 #: ../../source/developer/build/BUILD_OSX.md:13
 msgid "Python 3"
-msgstr ""
+msgstr "Python 3"
 
 #: ../../source/developer/build/BUILD_OSX.md:15
 msgid ""
 "Download an install Python 3.6.6 or higher from here.<br />Execute the "
 "Update Shell Profile.command script that is provided with the installer."
 msgstr ""
+"Téléchargez une installation de Python 3.6.6 ou supérieur à partir d'ici.<br "
+"/>Execute the Update Shell Profile.command script qui est fourni avec "
+"l'installateur."
 
 #: ../../source/developer/build/BUILD_OSX.md:18
 msgid "OSX SDK"
-msgstr ""
+msgstr "SDK OSX"
 
 #: ../../source/developer/build/BUILD_OSX.md:20
 msgid ""
@@ -1199,10 +1416,14 @@ msgid ""
 "OpenGL on OSX. You can get that SDK from here. You must copy it in to "
 "your Xcode SDK directory, e.g."
 msgstr ""
+"Vous aurez besoin de la version 10.12 du SDK OSX pour la compilation, sinon "
+"vous risquez d'avoir un plantage ou d'autres problèmes involontaires dus à "
+"la dépréciation d'OpenGL sur OSX. Vous pouvez obtenir ce SDK ici. Vous devez "
+"le copier dans votre répertoire SDK Xcode, par exemple"
 
 #: ../../source/developer/build/BUILD_OSX.md:24
 msgid "OpenSSL"
-msgstr ""
+msgstr "OpenSSL"
 
 #: ../../source/developer/build/BUILD_OSX.md:26
 msgid ""
@@ -1212,10 +1433,15 @@ msgid ""
 "OPENSSL_ROOT_DIR via export OPENSSL_ROOT_DIR=/usr/local/opt/openssl or by"
 " appending -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl to cmake"
 msgstr ""
+"En supposant que vous avez installé OpenSSL en utilisant les instructions "
+"homebrew ci-dessus, vous devrez définir OPENSSL_ROOT_DIR pour que CMake "
+"puisse trouver vos installations.<br />Pour OpenSSL installé via homebrew, "
+"définissez OPENSSL_ROOT_DIR via export OPENSSL_ROOT_DIR=/usr/local/opt/"
+"openssl ou en ajoutant -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl à cmake"
 
 #: ../../source/developer/build/BUILD_OSX.md:31
 msgid "Xcode"
-msgstr ""
+msgstr "Xcode"
 
 #: ../../source/developer/build/BUILD_OSX.md:33
 msgid ""
@@ -1224,6 +1450,10 @@ msgid ""
 "select the Xcode installation in the terminal first if you have not done "
 "so already."
 msgstr ""
+"Vous pouvez demander à CMake de générer des fichiers de projet Xcode au lieu "
+"de Makefiles Unix en utilisant le paramètre -G Xcode après CMake. Vous "
+"devrez d'abord sélectionner l'installation de Xcode dans le terminal si vous "
+"ne l'avez pas déjà fait."
 
 #: ../../source/developer/build/BUILD_OSX.md:39
 msgid ""
@@ -1232,6 +1462,10 @@ msgid ""
 "running the latest CMake installer, depending on how you originally "
 "instaled CMake"
 msgstr ""
+"Si cmake se plaint de l'absence de Python 3, vous devrez peut-être mettre à "
+"jour votre binaire CMake avec la commande brew upgrade cmake, ou en "
+"téléchargeant et en exécutant le dernier installateur CMake, selon la façon "
+"dont vous avez installé CMake à l'origine"
 
 #: ../../source/developer/build/BUILD_OSX.md:41
 msgid ""
@@ -1240,16 +1474,22 @@ msgid ""
 "choose ALL_BUILD from the Product > Scheme menu (or target drop down), "
 "and click Run."
 msgstr ""
+"Après avoir lancé CMake, vous aurez les fichiers make ou le fichier de "
+"projet Xcode nécessaires pour construire tous les composants. Ouvrez le "
+"fichier hifi.xcodeproj, choisissez ALL_BUILD dans le menu Product > Scheme ("
+"ou le menu déroulant target), et cliquez sur Run."
 
 #: ../../source/developer/build/BUILD_OSX.md:43
 msgid ""
 "If the build completes successfully, you will have built targets for all "
 "components located in the build/${target_name}/Debug directories."
 msgstr ""
+"Si la compilation se termine avec succès, vous aurez compilé des cibles pour "
+"tous les composants situés dans les répertoires build/${target_name}/Debug."
 
 #: ../../source/developer/build/BUILD_OSX.md:45
 msgid "make"
-msgstr ""
+msgstr "make"
 
 #: ../../source/developer/build/BUILD_OSX.md:47
 msgid ""
@@ -1257,10 +1497,15 @@ msgid ""
 "assigning more threads. The number indicates the number of threads, e.g. "
 "4."
 msgstr ""
+"Si vous compilez avec make plutôt qu'avec Xcode, vous pouvez ajouter -j4 "
+"pour affecter plus de threads. Le chiffre indique le nombre de threads, par "
+"exemple 4."
 
 #: ../../source/developer/build/BUILD_OSX.md:49
 msgid "To package the installation, you can simply run make package afterwards."
 msgstr ""
+"Pour empaqueter l'installation, vous pouvez simplement exécutez make package "
+"par la suite."
 
 #: ../../source/developer/build/BUILD_OSX.md:51
 #: ../../source/developer/installer/INSTALLER.md:94
@@ -1272,26 +1517,34 @@ msgid ""
 "Problem: Running the scheme interface.app from Xcode causes a crash for "
 "Interface related to libgl"
 msgstr ""
+"Problème : L'exécution du schéma interface.app à partir de Xcode provoque un "
+"plantage pour l'interface liée à libgl"
 
 #: ../../source/developer/build/BUILD_OSX.md:54
 msgid ""
 "Cause: The target gl generates a binary called libgl. A macOS "
 "libGL.framework item gets loaded instead by Xcode."
 msgstr ""
+"Cause : La cible gl génère un binaire appelé libgl. Un élément macOS "
+"libGL.framework est chargé à la place par Xcode."
 
 #: ../../source/developer/build/BUILD_OSX.md:55
 msgid "Solution: In the Xcode target settings for libgl, set the version to 1.0.0"
 msgstr ""
+"Solution : Dans les paramètres de la cible Xcode pour libgl, mettez la "
+"version à 1.0.0"
 
 #: ../../source/developer/build/BUILD_WIN.md:3
 msgid "Last Updated on May 17, 2020"
-msgstr ""
+msgstr "Dernière mise à jour le 17 mai 2020"
 
 #: ../../source/developer/build/BUILD_WIN.md:5
 msgid ""
 "This is a stand-alone guide for creating your first Vircadia build for "
 "Windows 64-bit."
 msgstr ""
+"Ceci est un guide autonome pour la création de votre première version de "
+"Vircadia pour Windows 64 bits."
 
 #: ../../source/developer/build/BUILD_WIN.md:7
 msgid ""
@@ -1299,16 +1552,23 @@ msgid ""
 "you are upgrading from previous versions, do a clean uninstall of those "
 "versions before going through this guide."
 msgstr ""
+"Remarque : nous utilisons actuellement Visual Studio 2017 ou 2019 et Qt "
+"5.12.3.<br />Si vous effectuez une mise à niveau à partir de versions "
+"précédentes, effectuez une désinstallation propre de ces versions avant de "
+"parcourir ce guide."
 
 #: ../../source/developer/build/BUILD_WIN.md:10
 msgid ""
 "Note: The prerequisites will require about 10 GB of space on your drive. "
 "You will also need a system with at least 8GB of main memory."
 msgstr ""
+"Note : Les prérequis nécessiteront environ 10 Go d'espace sur votre disque. "
+"Vous aurez également besoin d'un système avec au moins 8 Go de mémoire "
+"principale."
 
 #: ../../source/developer/build/BUILD_WIN.md:12
 msgid "Step 1. Visual Studio & Python 3.x"
-msgstr ""
+msgstr "Étape 1. Visual Studio & Python 3.x"
 
 #: ../../source/developer/build/BUILD_WIN.md:14
 msgid ""
@@ -1316,42 +1576,50 @@ msgid ""
 "download Visual Studio Community 2019. If you have Visual Studio 2017, "
 "you are not required to download Visual Studio 2019."
 msgstr ""
+"Si vous ne disposez pas de l'édition Community ou Professional de Visual "
+"Studio, téléchargez Visual Studio Community 2019. Si vous avez Visual Studio "
+"2017, vous n'êtes pas obligé de télécharger Visual Studio 2019."
 
 #: ../../source/developer/build/BUILD_WIN.md:16
 msgid ""
 "When selecting components, check \"Desktop development with C++\". On the"
 " right on the Summary toolbar, select the following components."
 msgstr ""
+"Lors de la sélection des composants, cochez \"Desktop development with C++\""
+". À droite sur la barre d'outils Summary, sélectionnez les composants "
+"suivants."
 
 #: ../../source/developer/build/BUILD_WIN.md:18
 msgid "If you're installing Visual Studio 2017,"
-msgstr ""
+msgstr "Si vous installez Visual Studio 2017,"
 
 #: ../../source/developer/build/BUILD_WIN.md:20
 msgid "Windows 8.1 SDK and UCRT SDK"
-msgstr ""
+msgstr "Windows 8.1 SDK et UCRT SDK"
 
 #: ../../source/developer/build/BUILD_WIN.md:21
 msgid "VC++ 2015.3 v14.00 (v140) toolset for desktop"
-msgstr ""
+msgstr "VC++ 2015.3 v14.00 (v140) toolset for desktop"
 
 #: ../../source/developer/build/BUILD_WIN.md:23
 msgid "If you're installing Visual Studio 2019,"
-msgstr ""
+msgstr "Si vous installez Visual Studio 2019,"
 
 #: ../../source/developer/build/BUILD_WIN.md:25
 msgid "MSVC v141 - VS 2017 C++ x64/x86 build tools"
-msgstr ""
+msgstr "MSVC v141 - VS 2017 C++ x64/x86 build tools"
 
 #: ../../source/developer/build/BUILD_WIN.md:26
 msgid "MSVC v140 - VS 2015 C++ build tools (v14.00)"
-msgstr ""
+msgstr "MSVC v140 - VS 2015 C++ build tools (v14.00)"
 
 #: ../../source/developer/build/BUILD_WIN.md:28
 msgid ""
 "If you do not already have a Python 3.x development environment "
 "installed, also check \"Python Development\" in this screen."
 msgstr ""
+"Si vous n'avez pas encore installé un environnement de développement Python "
+"3.x, cochez également \"Python Development\" dans cet écran."
 
 #: ../../source/developer/build/BUILD_WIN.md:30
 msgid ""
@@ -1361,10 +1629,15 @@ msgid ""
 "installer, select \"Modify\" again, then check \"Python Development\" and"
 " allow the installer to apply the changes."
 msgstr ""
+"Si Visual Studio est déjà installé et que vous devez ajouter Python, ouvrez "
+"le panneau de configuration \"Add or remove programs\" et trouvez \"Microsoft"
+" Visual Studio Installer\". Sélectionnez-le et cliquez sur \"Modify\". Dans "
+"l'installateur, sélectionnez à nouveau \"Modify\", puis cochez \"Python "
+"Development\" et autorisez l'installateur à appliquer les modifications."
 
 #: ../../source/developer/build/BUILD_WIN.md:32
 msgid "Step 1a.  Alternate Python"
-msgstr ""
+msgstr "Étape 1a. Alternate Python"
 
 #: ../../source/developer/build/BUILD_WIN.md:34
 msgid ""
