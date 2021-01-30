@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-30 09:19+0000\n"
+"PO-Revision-Date: 2021-01-31 20:19+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/release-notes/fr/>\n"
@@ -95,11 +95,11 @@ msgstr ""
 
 #: ../../source/release-notes.rst:3
 msgid "Release Notes"
-msgstr ""
+msgstr "Notes de Version"
 
 #: ../../source/release-notes.rst:5
 msgid "See what's been released in Vircadia."
-msgstr ""
+msgstr "Voyez ce qui a été publié dans Vircadia."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:1
 msgid "Alpha 2020.2.0 Asteria Release Notes"
