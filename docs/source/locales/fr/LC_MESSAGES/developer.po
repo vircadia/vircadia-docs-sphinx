@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-30 09:19+0000\n"
+"PO-Revision-Date: 2021-01-31 20:19+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/developer/fr/>\n"
@@ -242,7 +242,6 @@ msgstr ""
 "d'essayer de compiler pour Android."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:15
-#, fuzzy
 msgid "Android Studio"
 msgstr "Android Studio"
 
@@ -253,8 +252,8 @@ msgid ""
 "Manager."
 msgstr ""
 "Téléchargez le programme d'installation d'Android Studio et lancez-le. Une "
-"fois installé, dans l'écran de bienvenue, cliquez sur Configurer dans le "
-"coin inférieur droit et sélectionnez SDK Manager."
+"fois installé, dans l'écran de bienvenue, cliquez sur Configure dans le coin "
+"inférieur droit et sélectionnez SDK Manager."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:19
 msgid "From the SDK Platforms tab, select API levels 26 and 28."
@@ -330,9 +329,9 @@ msgid ""
 "Unix, Users/<yourname>/.gradle on Windows). Edit the file to contain the "
 "following"
 msgstr ""
-"Créez un fichier gradle.properties dans le répertoire  .gradle ($HOME/."
-"gradle on Unix, Users/<votre nom d'utilisateur>/.gradle sous Windows). "
-"Modifiez le fichier de manière à ce qu'il contienne les éléments suivants"
+"Créez un fichier gradle.properties dans le répertoire .gradle ($HOME/.gradle "
+"on Unix, Users/<votre nom d'utilisateur>/.gradle sous Windows). Modifiez le "
+"fichier de manière à ce qu'il contienne les éléments suivants"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:49
 msgid ""
@@ -437,14 +436,14 @@ msgid "Your configuration should be as follows"
 msgstr "Votre configuration devrait être la suivante"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:89
-#, fuzzy
 msgid "Type: Android App"
-msgstr "Type: Android App"
+msgstr "Type : Android App"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:90
 msgid "Module: <your module> (you probably want interface or questInterface)"
 msgstr ""
-"Module: <votre module> (vous voulez probablement interface ou questInterface)"
+"Module : <votre module> (vous voulez probablement interface ou "
+"questInterface)"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:92
 msgid "For the interface modules, you also need to select the activity to launch."
@@ -589,23 +588,20 @@ msgid "Build Android - additional instructions for Android."
 msgstr "Compilation Android - instructions supplémentaires pour Android."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:13
-#, fuzzy
 msgid "git: >= 1.6"
-msgstr "git: >= 1.6"
+msgstr "git : >= 1.6"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:14
-#, fuzzy
 msgid "cmake:  3.9"
-msgstr "cmake:  3.9"
+msgstr "cmake : 3.9"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:15
 msgid "Python: 3.6 or higher"
-msgstr "Python: 3.6 ou plus haut"
+msgstr "Python : 3.6 ou plus haut"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:16
-#, fuzzy
 msgid "Node.JS: >= 12.13.1 LTS"
-msgstr "Node.JS: >= 12.13.1 LTS"
+msgstr "Node.JS : >= 12.13.1 LTS"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:17
 msgid "Used to build the Screen Sharing executable."
@@ -624,62 +620,52 @@ msgstr ""
 "automatiquement téléchargées sur les plateformes où elles sont requises."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:22
-#, fuzzy
 msgid "Bullet Physics Engine:  2.83"
-msgstr "Bullet Physics Engine:  2.83"
+msgstr "Bullet Physics Engine : 2.83"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:23
-#, fuzzy
 msgid "glm:  0.9.8"
-msgstr "glm:  0.9.8"
+msgstr "glm : 0.9.8"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:24
-#, fuzzy
 msgid "Oculus SDK:   1.11 (Windows) / 0.5 (Mac)"
-msgstr "Oculus SDK:   1.11 (Windows) / 0.5 (Mac)"
+msgstr "Oculus SDK : 1.11 (Windows) / 0.5 (Mac)"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:25
-#, fuzzy
 msgid "OpenVR:   1.11.11 (Windows, Linux)"
-msgstr "OpenVR:   1.11.11 (Windows, Linux)"
+msgstr "OpenVR : 1.11.11 (Windows, Linux)"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:26
-#, fuzzy
 msgid "Polyvox:   0.2.1"
-msgstr "Polyvox:   0.2.1"
+msgstr "Polyvox : 0.2.1"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:27
-#, fuzzy
 msgid "QuaZip:   0.7.3"
-msgstr "QuaZip:   0.7.3"
+msgstr "QuaZip : 0.7.3"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:28
-#, fuzzy
 msgid "SDL2:   2.0.3"
-msgstr "SDL2:   2.0.3"
+msgstr "SDL2 : 2.0.3"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:29
-#, fuzzy
 msgid "Intel Threading Building Blocks:   4.3"
-msgstr "Intel Threading Building Blocks:   4.3"
+msgstr "Intel Threading Building Blocks : 4.3"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:30
-#, fuzzy
 msgid "vcpkg:"
-msgstr "vcpkg:"
+msgstr "vcpkg :"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:31
-#, fuzzy
 msgid "VHACD"
 msgstr "VHACD"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:32
 msgid "zlib:   1.28 (Win32 only)"
-msgstr "zlib:   1.28 (Win32 seulement)"
+msgstr "zlib : 1.28 (Win32 seulement)"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:33
 msgid "nvtt:   2.1.1 (customized)"
-msgstr "nvtt:   2.1.1 (personnalisé)"
+msgstr "nvtt : 2.1.1 (personnalisé)"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:35
 msgid ""
@@ -717,7 +703,6 @@ msgstr ""
 "externes, il suffit de supprimer le dossier build/ext."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:39
-#, fuzzy
 msgid "CMake"
 msgstr "CMake"
 
@@ -752,11 +737,10 @@ msgstr ""
 "pointant sur votre dossier Qt lib/cmake.<br /> Cela peut être entré soit "
 "directement dans votre session shell avant la compilation, soit dans votre "
 "profil shell (par ex : ~/.bash_profile, ~/.bashrc, ~/.zshrc - cela dépend de "
-"votre shell et de votre environnement).  Le chemin d'accès à Qt5 dépend de "
-"l'endroit et de la manière dont il a été installé, par exemple"
+"votre shell et de votre environnement). Le chemin d'accès à Qt5 dépend de "
+"l'endroit et de la manière dont il a été installé, par exemple."
 
 #: ../../source/developer/build/BUILD_GENERAL.md:54
-#, fuzzy
 msgid "VCPKG"
 msgstr "VCPKG"
 
@@ -844,7 +828,6 @@ msgid "For release only vcpkg:"
 msgstr "Vcpkg pour release seulement :"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:115
-#, fuzzy
 msgid "cmake .. -DVCPKG_BUILD_TYPE=release"
 msgstr "cmake .. -DVCPKG_BUILD_TYPE=release"
 
@@ -853,7 +836,6 @@ msgid "For debug only vcpkg:"
 msgstr "Vcpkg pour le débogage seulement :"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:119
-#, fuzzy
 msgid "cmake .. -DVCPKG_BUILD_TYPE=debug"
 msgstr "cmake .. -DVCPKG_BUILD_TYPE=debug"
 
@@ -939,7 +921,7 @@ msgid ""
 " should contain a folder '$name'"
 msgstr ""
 "HIFI_LIB_DIR - Définissez cette variable dans votre ENV pour votre dossier "
-"Vircadia lib, qui doit contenir un dossier '$name'."
+"Vircadia lib, qui doit contenir un dossier '$name'"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:141
 msgid "Optional Components"
@@ -964,12 +946,10 @@ msgid "BUILD_SERVER"
 msgstr "BUILD_SERVER"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:149
-#, fuzzy
 msgid "BUILD_TESTS"
 msgstr "BUILD_TESTS"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:150
-#, fuzzy
 msgid "BUILD_TOOLS"
 msgstr "BUILD_TOOLS"
 
@@ -986,12 +966,10 @@ msgid "Developer Build Options"
 msgstr "Options de Compilation pour les Développeurs"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:156
-#, fuzzy
 msgid "USE_GLES"
 msgstr "USE_GLES"
 
 #: ../../source/developer/build/BUILD_GENERAL.md:157
-#, fuzzy
 msgid "DISABLE_UI"
 msgstr "DISABLE_UI"
 
@@ -1127,7 +1105,7 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:59
 msgid "Then run glxinfo | grep \"OpenGL version\""
-msgstr "Puis lancez glxinfo | grep \"OpenGL version\"."
+msgstr "Puis lancez glxinfo | grep \"OpenGL version\""
 
 #: ../../source/developer/build/BUILD_LINUX.md:60
 msgid "To compile interface in a server you must install:"
@@ -1234,7 +1212,7 @@ msgstr ""
 "suffisamment de mémoire, vous pouvez réduire votre temps de compilation en "
 "utilisant l'option -j. Comme la plupart des processeurs x64 supportent deux "
 "threads par core, cela correspond à CPU_COUNT*2. Par exemple, si vous avez "
-"une machine à deux cores, vous pouvez utiliser"
+"une machine à deux cores, vous pouvez utiliser :"
 
 #: ../../source/developer/build/BUILD_LINUX.md:138
 msgid "In a server, it does not make sense to compile interface."
@@ -1419,7 +1397,7 @@ msgstr ""
 "Vous aurez besoin de la version 10.12 du SDK OSX pour la compilation, sinon "
 "vous risquez d'avoir un plantage ou d'autres problèmes involontaires dus à "
 "la dépréciation d'OpenGL sur OSX. Vous pouvez obtenir ce SDK ici. Vous devez "
-"le copier dans votre répertoire SDK Xcode, par exemple"
+"le copier dans votre répertoire SDK Xcode, par exemple."
 
 #: ../../source/developer/build/BUILD_OSX.md:24
 msgid "OpenSSL"
@@ -1645,28 +1623,33 @@ msgid ""
 "Studio, you can download the installer from here.  Ensure you get version"
 " 3.6.6 or higher."
 msgstr ""
+"Si vous ne souhaitez pas utiliser l'installation Python fournie avec Visual "
+"Studio, vous pouvez télécharger l'installateur ici.  Assurez-vous d'obtenir "
+"la version 3.6.6 ou supérieure."
 
 #: ../../source/developer/build/BUILD_WIN.md:36
 msgid "Step 2. Python Dependencies"
-msgstr ""
+msgstr "Étape 2. Dépendances de Python"
 
 #: ../../source/developer/build/BUILD_WIN.md:38
 msgid ""
 "In a command-line that can access Python's pip you will need to run the "
 "following command:"
 msgstr ""
+"Dans une ligne de commande qui peut accéder au pip de Python, vous devrez "
+"exécuter la commande suivante :"
 
 #: ../../source/developer/build/BUILD_WIN.md:40
 msgid "pip install distro"
-msgstr ""
+msgstr "pip install distro"
 
 #: ../../source/developer/build/BUILD_WIN.md:42
 msgid "Step 3. Installing CMake"
-msgstr ""
+msgstr "Étape 3. Installation de CMake"
 
 #: ../../source/developer/build/BUILD_WIN.md:44
 msgid "Download and install the latest version of CMake 3.15."
-msgstr ""
+msgstr "Téléchargez et installez la dernière version de CMake 3.15."
 
 #: ../../source/developer/build/BUILD_WIN.md:45
 msgid ""
@@ -1675,6 +1658,10 @@ msgid ""
 "prior to 3.15 that will cause Visual Studio to rebuild far more than it "
 "needs to on every build"
 msgstr ""
+"Notez que les versions antérieures de CMake fonctionneront, mais il existe "
+"un bogue spécifique lié à l'interaction de Visual Studio 2019 et des "
+"versions de CMake antérieures à la version 3.15 qui fera que Visual Studio "
+"reconstruira beaucoup plus que nécessaire à chaque version"
 
 #: ../../source/developer/build/BUILD_WIN.md:47
 msgid ""
@@ -1683,10 +1670,14 @@ msgid ""
 "make sure to check \"Add CMake to system PATH for all users\" when "
 "prompted."
 msgstr ""
+"Téléchargez le fichier nommé win64-x64 Installer sur le site web de CMake. "
+"Vous pouvez accéder à l'installateur sur cette page de la version 3.15. Lors "
+"de l'installation, assurez-vous de cocher \"Add CMake to system PATH for all "
+"users\" lorsque vous y êtes invité."
 
 #: ../../source/developer/build/BUILD_WIN.md:49
 msgid "Step 4. Create VCPKG environment variable"
-msgstr ""
+msgstr "Étape 4. Créer une variable d'environnement VCPKG"
 
 #: ../../source/developer/build/BUILD_WIN.md:50
 #, python-format
@@ -1699,11 +1690,19 @@ msgid ""
 "variable linked to a directory somewhere on your machine. That directory "
 "will contain all dependency files until you manually remove them."
 msgstr ""
+"Dans l'étape suivante, vous utiliserez CMake pour compiler Vircadia. Par "
+"défaut, le processus CMake complie les fichiers de dépendance dans le "
+"répertoire %TEMP% de Windows, qui est périodiquement effacé par le système "
+"d'exploitation. Pour vous éviter d'avoir à recréer les dépendances dans le "
+"cas où Windows efface ce répertoire, nous vous recommandons de créer une "
+"variable d'environnement HIFI_VCPKG_BASE liée à un répertoire quelque part "
+"sur votre machine. Ce répertoire contiendra tous les fichiers de dépendances "
+"jusqu'à ce que vous les supprimiez manuellement."
 
 #: ../../source/developer/build/BUILD_WIN.md:52
 #: ../../source/developer/build/BUILD_WIN.md:61
 msgid "To create this variable:"
-msgstr ""
+msgstr "Pour créer cette variable :"
 
 #: ../../source/developer/build/BUILD_WIN.md:53
 #: ../../source/developer/build/BUILD_WIN.md:62
@@ -1711,24 +1710,26 @@ msgid ""
 "Naviagte to 'Edit the System Environment Variables' Through the start "
 "menu."
 msgstr ""
+"Naviguez sur 'Edit the System Environment Variables' via le menu de "
+"démarrage."
 
 #: ../../source/developer/build/BUILD_WIN.md:54
 #: ../../source/developer/build/BUILD_WIN.md:63
 msgid "Click on 'Environment Variables'"
-msgstr ""
+msgstr "Cliquez sur 'Environment Variables'"
 
 #: ../../source/developer/build/BUILD_WIN.md:55
 #: ../../source/developer/build/BUILD_WIN.md:64
 msgid "Select 'New'"
-msgstr ""
+msgstr "Sélectionnez 'New'"
 
 #: ../../source/developer/build/BUILD_WIN.md:56
 msgid "Set \"Variable name\" to HIFI_VCPKG_BASE"
-msgstr ""
+msgstr "Définissez \"Variable name\" sur HIFI_VCPKG_BASE"
 
 #: ../../source/developer/build/BUILD_WIN.md:57
 msgid "Set \"Variable value\" to any directory that you have control over."
-msgstr ""
+msgstr "Mettez \"Variable value\" sur un répertoire dont vous avez le contrôle."
 
 #: ../../source/developer/build/BUILD_WIN.md:59
 msgid ""
@@ -1737,53 +1738,60 @@ msgid ""
 "add an additional environment variable HIFI_VCPKG_BOOTSTRAP that will fix"
 " a bug in our vcpkg pre-build step."
 msgstr ""
+"En outre, si vous avez installé Visual Studio 2019 et seulement Visual "
+"Studio 2019 (c'est-à-dire que vous n'avez pas installé Visual Studio 2017), "
+"vous devez ajouter une variable d'environnement supplémentaire "
+"HIFI_VCPKG_BOOTSTRAP qui corrigera un bogue dans notre étape de "
+"précompilation vcpkg."
 
 #: ../../source/developer/build/BUILD_WIN.md:65
 msgid "Set \"Variable name\" to HIFI_VCPKG_BOOTSTRAP"
-msgstr ""
+msgstr "Définissez \"Variable name\" sur HIFI_VCPKG_BOOTSTRAP"
 
 #: ../../source/developer/build/BUILD_WIN.md:66
 msgid "Set \"Variable value\" to 1"
-msgstr ""
+msgstr "Mettez \"Variable value\" sur 1"
 
 #: ../../source/developer/build/BUILD_WIN.md:68
 msgid "Step 5. Running CMake to Generate Build Files"
-msgstr ""
+msgstr "Étape 5. Exécution de CMake pour Générer les Fichiers de Compilation"
 
 #: ../../source/developer/build/BUILD_WIN.md:70
 msgid ""
 "Run Command Prompt from Start and run the following commands:<br />cd "
 "\"%VIRCADIA_DIR%\"<br />mkdir build<br />cd build"
 msgstr ""
+"Démarrez Command Prompt depuis le menu Start et exécuter les commandes "
+"suivantes:<br />cd \"%VIRCADIA_DIR%\"<br />mkdir build<br />cd build"
 
 #: ../../source/developer/build/BUILD_WIN.md:75
 msgid "If you're using Visual Studio 2017,"
-msgstr ""
+msgstr "Si vous utilisez Visual Studio 2017,"
 
 #: ../../source/developer/build/BUILD_WIN.md:76
 msgid "Run cmake .. -G \"Visual Studio 15 Win64\"."
-msgstr ""
+msgstr "Exécutez cmake .. -G \"Visual Studio 15 Win64\"."
 
 #: ../../source/developer/build/BUILD_WIN.md:78
 msgid "If you're using Visual Studio 2019,"
-msgstr ""
+msgstr "Si vous utilisez Visual Studio 2019,"
 
 #: ../../source/developer/build/BUILD_WIN.md:79
 msgid "Run cmake .. -G \"Visual Studio 16 2019\" -A x64."
-msgstr ""
+msgstr "Exécutez cmake .. -G \"Visual Studio 16 2019\" -A x64."
 
 #: ../../source/developer/build/BUILD_WIN.md:81
 #, python-format
 msgid "Where %VIRCADIA_DIR% is the directory for the Vircadia repository."
-msgstr ""
+msgstr "Où %VIRCADIA_DIR% est le répertoire du référentiel Vircadia."
 
 #: ../../source/developer/build/BUILD_WIN.md:83
 msgid "Step 6. Making a Build"
-msgstr ""
+msgstr "Étape 6. Création d'une Compilation"
 
 #: ../../source/developer/build/BUILD_WIN.md:85
 msgid "Open %VIRCADIA_DIR%\\build\\vircadia.sln using Visual Studio."
-msgstr ""
+msgstr "Ouvrez %VIRCADIA_DIR%\\build\\vircadia.sln en utilisant Visual Studio."
 
 #: ../../source/developer/build/BUILD_WIN.md:87
 msgid ""
@@ -1791,30 +1799,33 @@ msgid ""
 "to the green play button) from \"Debug\" to \"Release\" for best "
 "performance."
 msgstr ""
+"Changez la Configuration de la Solution (ruban de menu sous la barre de "
+"menu, à côté du bouton vert de lecture) de \"Debug\" à \"Release\" pour une "
+"meilleure performance."
 
 #: ../../source/developer/build/BUILD_WIN.md:89
 msgid "Run from the menu bar Build > Build Solution."
-msgstr ""
+msgstr "Exécutez à partir de la barre de menu Build > Build Solution."
 
 #: ../../source/developer/build/BUILD_WIN.md:91
 msgid "Step 7. Testing Interface"
-msgstr ""
+msgstr "Étape 7. Tester l'Interface"
 
 #: ../../source/developer/build/BUILD_WIN.md:93
 msgid "Create another environment variable (see Step #3)"
-msgstr ""
+msgstr "Créez une autre variable d'environnement (voir l'étape 3)"
 
 #: ../../source/developer/build/BUILD_WIN.md:94
 msgid "Set \"Variable name\": _NO_DEBUG_HEAP"
-msgstr ""
+msgstr "Définissez \"Variable name\" : NO_DEBUG_HEAP"
 
 #: ../../source/developer/build/BUILD_WIN.md:95
 msgid "Set \"Variable value\": 1"
-msgstr ""
+msgstr "Mettez \"Variable value\" : 1"
 
 #: ../../source/developer/build/BUILD_WIN.md:97
 msgid "Restart Visual Studio again."
-msgstr ""
+msgstr "Redémarrez Visual Studio."
 
 #: ../../source/developer/build/BUILD_WIN.md:99
 msgid ""
@@ -1822,12 +1833,17 @@ msgid ""
 "Solution Explorer and select \"Set as Startup Project\". Run from the "
 "menu bar Debug > Start Debugging."
 msgstr ""
+"Dans Visual Studio, faites un clic droit sur \"interface\" sous le dossier "
+"Apps dans l'explorateur de solutions et sélectionnez \"Set as Startup "
+"Project\". Exécutez à partir de la barre de menu Debug > Start Debugging."
 
 #: ../../source/developer/build/BUILD_WIN.md:101
 msgid ""
 "Now, you should have a full build of Vircadia and be able to run the "
 "Interface using Visual Studio."
 msgstr ""
+"Maintenant, vous devriez avoir une version complète de Vircadia et être "
+"capable d'exécuter l'Interface en utilisant Visual Studio."
 
 #: ../../source/developer/build/BUILD_WIN.md:103
 msgid ""
@@ -1835,38 +1851,45 @@ msgid ""
 "File Explorer from "
 "%VIRCADIA_DIR%\\build\\interface\\Release\\interface.exe"
 msgstr ""
+"Note : Vous pouvez également exécuter Interface en la lançant en ligne de "
+"commande ou l'explorateur de fichiers à partir de %VIRCADIA_DIR%\\build"
+"\\interface\\Release\\interface.exe"
 
 #: ../../source/developer/build/BUILD_WIN.md:107
 msgid "For any problems after Step #6, first try this:"
-msgstr ""
+msgstr "Pour tout problème après l'étape 6, essayez d'abord ceci :"
 
 #: ../../source/developer/build/BUILD_WIN.md:108
 msgid "Delete your locally cloned copy of the Vircadia repository"
-msgstr ""
+msgstr "Supprimez votre copie clonée localement du référentiel Vircadia"
 
 #: ../../source/developer/build/BUILD_WIN.md:109
 msgid "Restart your computer"
-msgstr ""
+msgstr "Redémarrez votre ordinateur"
 
 #: ../../source/developer/build/BUILD_WIN.md:110
 msgid "Redownload the repository"
-msgstr ""
+msgstr "Téléchargez le référentiel"
 
 #: ../../source/developer/build/BUILD_WIN.md:111
 msgid "Restart directions from Step #6"
-msgstr ""
+msgstr "Reprennez les instructions depuis l'étape 6"
 
 #: ../../source/developer/build/BUILD_WIN.md:113
 msgid "CMake gives you the same error message repeatedly after the build fails"
 msgstr ""
+"CMake vous donne le même message d'erreur à plusieurs reprises après "
+"l'échouement de la compilation"
 
 #: ../../source/developer/build/BUILD_WIN.md:115
 msgid "Remove CMakeCache.txt found in the %VIRCADIA_DIR%\\build directory."
 msgstr ""
+"Supprimez CMakeCache.txt qui se trouve dans le répertoire %VIRCADIA_DIR%"
+"\\build."
 
 #: ../../source/developer/build/BUILD_WIN.md:117
 msgid "CMake can't find OpenSSL"
-msgstr ""
+msgstr "CMake ne trouve pas OpenSSL"
 
 #: ../../source/developer/build/BUILD_WIN.md:119
 msgid ""
@@ -1875,98 +1898,111 @@ msgid ""
 " to the correct location. Verify that the file "
 "${HIFI_VCPKG_BASE}/installed/x64-windows/include/openssl/ssl.h exists."
 msgstr ""
+"Supprimez le fichier CMakeCache.txt qui se trouve dans le répertoire "
+"%VIRCADIA_DIR%\\build. Vérifiez que votre variable d'environnement "
+"HIFI_VCPKG_BASE est définie et qu'elle pointe vers le bon emplacement. "
+"Vérifiez que le fichier ${HIFI_VCPKG_BASE}/installed/x64-windows/include/"
+"openssl/ssl.h existe."
 
 #: ../../source/developer/domain-server.rst:5
 #: ../../source/developer/domain-server/environment-variables.md:1
 #: ../../source/developer/interface.rst:5
 #: ../../source/developer/interface/environment-variables.md:1
 msgid "Environment Variables"
-msgstr ""
+msgstr "Variables d'Environnement"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:3
 msgid "You can launch a domain-server with these parameters."
-msgstr ""
+msgstr "Vous pouvez lancer un serveur de domaine avec ces paramètres."
 
 #: ../../source/developer/domain-server/command-line-parameters.md:13
 msgid "ICE server address"
-msgstr ""
+msgstr "Adresse du serveur ICE"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:17
 msgid "Domain server UUID"
-msgstr ""
+msgstr "Serveur de domaine UUID"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:21
 msgid "Requests a temporary domain name"
-msgstr ""
+msgstr "Demande un nom de domaine temporaire"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:25
 msgid "User config file path"
-msgstr ""
+msgstr "Chemin d'accès au fichier de configuration de l'utilisateur"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:29
 msgid "Displays the PID of the parent process"
-msgstr ""
+msgstr "Affiche le NID de la procédure parentale"
 
 #: ../../source/developer/domain-server/environment-variables.md:3
 msgid ""
 "You can alter the Domain server's functionality using the following "
 "environment variables."
 msgstr ""
+"Vous pouvez modifier la fonctionnalité du serveur de domaine en utilisant "
+"les variables d'environnement suivantes."
 
 #: ../../source/developer/domain-server/environment-variables.md:7
 msgid "Override the default port for your Domain server."
-msgstr ""
+msgstr "Remplacez le port par défaut de votre serveur de domaine."
 
 #: ../../source/developer/domain-server/environment-variables.md:13
 msgid "Override the default DTLS port."
-msgstr ""
+msgstr "Remplacer le port par défaut de DTLS."
 
 #: ../../source/developer/domain-server/environment-variables.md:19
 msgid "Override the default HTTP port."
-msgstr ""
+msgstr "Remplacer le port HTTP par défaut."
 
 #: ../../source/developer/domain-server/environment-variables.md:25
 msgid "Override the default HTTPS port."
-msgstr ""
+msgstr "Remplacer le port HTTPS par défaut."
 
 #: ../../source/developer/domain-server/environment-variables.md:31
 msgid "Override the default statistics exporter port."
-msgstr ""
+msgstr "Remplacez le port par défaut de l'exportateur de statistiques."
 
 #: ../../source/developer/domain-server/environment-variables.md:37
 msgid "Override the default metadata exporter port."
-msgstr ""
+msgstr "Remplacez le port par défaut de l'exportateur de métadonnées."
 
 #: ../../source/developer/installer.rst:7
 msgid "Installer Creation Guide"
-msgstr ""
+msgstr "Guide de Création de l'Installateur"
 
 #: ../../source/developer/installer.rst:3
 #: ../../source/developer/installer/INSTALLER.md:1
 msgid "Creating an Installer"
-msgstr ""
+msgstr "Création d'un installateur"
 
 #: ../../source/developer/installer.rst:5
 msgid ""
 "An installer for Interface and Sandbox can be generated. This installer "
 "is made with NSIS."
 msgstr ""
+"Un installateur pour l'Interface et Sandbox peut être généré. Cet "
+"installateur est réalisé avec NSIS."
 
 #: ../../source/developer/installer/INSTALLER.md:3
 msgid "Last Updated on August 24, 2020"
-msgstr ""
+msgstr "Dernière mise à jour le 24 août 2020"
 
 #: ../../source/developer/installer/INSTALLER.md:5
 msgid ""
 "Follow the build guide to figure out how to build Vircadia for your "
 "platform."
 msgstr ""
+"Suivez le guide de compilation pour savoir comment compiler Vircadia pour "
+"votre plateforme."
 
 #: ../../source/developer/installer/INSTALLER.md:7
 msgid ""
 "During generation, CMake should produce an install target and a package "
 "target."
 msgstr ""
+"Lors de la génération, CMake doit produire une cible d'installation et une "
+"cible d' empaquetage."
 
 #: ../../source/developer/installer/INSTALLER.md:9
 msgid ""
@@ -1975,43 +2011,53 @@ msgid ""
 "project(hifi) command in CMakeLists.txt to C:/Program Files/hifi and "
 "stored in build/CMakeCache.txt"
 msgstr ""
+"La cible d'installation va copier les cibles Vircadia et leurs dépendances "
+"dans votre CMAKE_INSTALL_PREFIX.<br />Cette variable est définie par la "
+"commande project(hifi) dans CMakeLists.txt à C:/Program Files/hifi et "
+"stockée dans build/CMakeCache.txt"
 
 #: ../../source/developer/installer/INSTALLER.md:12
 msgid "Packaging"
-msgstr ""
+msgstr "Empaquetage"
 
 #: ../../source/developer/installer/INSTALLER.md:14
 msgid ""
 "To produce an installer, run the package target. However you will want to"
 " follow the steps specific to your platform below."
 msgstr ""
+"Pour produire un installateur, lancez la cible d' empaquetage. Cependant, "
+"vous devrez suivre les étapes spécifiques à votre plate-forme ci-dessous."
 
 #: ../../source/developer/installer/INSTALLER.md:16
 #: ../../source/developer/interface/debugging.md:3
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../source/developer/installer/INSTALLER.md:18
 msgid "Prerequisites"
-msgstr "Prérequis"
+msgstr "Conditions préalables"
 
 #: ../../source/developer/installer/INSTALLER.md:20
 msgid "To produce an executable installer on Windows, the following are required:"
 msgstr ""
+"Pour produire un programme d'installation exécutable sous Windows, les "
+"éléments suivants sont nécessaires :"
 
 #: ../../source/developer/installer/INSTALLER.md:22
 msgid "7-zip"
-msgstr ""
+msgstr "7-zip"
 
 #: ../../source/developer/installer/INSTALLER.md:24
 msgid ""
 "Nullsoft Scriptable Install System - 3.04<br />Install using defaults "
 "(will install to C:\\Program Files (x86)\\NSIS)"
 msgstr ""
+"Nullsoft Scriptable Install System - 3.04<br />Installation en utilisant les "
+"valeurs par défaut (installera dans C:\\Program Files (x86)\\NSIS)"
 
 #: ../../source/developer/installer/INSTALLER.md:26
 msgid "UAC Plug-in for Nullsoft - 0.2.4c"
-msgstr ""
+msgstr "Plug-in UAC pour Nullsoft - 0.2.4c"
 
 #: ../../source/developer/installer/INSTALLER.md:27
 #: ../../source/developer/installer/INSTALLER.md:32
@@ -2020,141 +2066,170 @@ msgstr ""
 #: ../../source/developer/installer/INSTALLER.md:48
 #: ../../source/developer/installer/INSTALLER.md:59
 msgid "Extract Zip"
-msgstr ""
+msgstr "Extrait Zip"
 
 #: ../../source/developer/installer/INSTALLER.md:28
 msgid "Copy UAC.nsh to C:\\Program Files (x86)\\NSIS\\Include\\"
-msgstr ""
+msgstr "Copiez UAC.nsh dans C:\\Program Files (x86)\\NSIS\\Include\\"
 
 #: ../../source/developer/installer/INSTALLER.md:29
 msgid ""
 "Copy Plugins\\x86-ansi\\UAC.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
+"Copiez Plugins\\x86-ansi\\UAC.dll dans C:\\Program Files (x86)\\NSIS\\Plugins"
+"\\x86-ansi\\"
 
 #: ../../source/developer/installer/INSTALLER.md:30
 msgid ""
 "Copy Plugins\\x86-unicode\\UAC.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
+"Copiez Plugins\\x86-unicode\\UAC.dll dans C:\\Program Files (x86)\\NSIS"
+"\\Plugins\\x86-unicode\\"
 
 #: ../../source/developer/installer/INSTALLER.md:31
 msgid ""
 "nsProcess Plug-in for Nullsoft - 1.6 (use the link marked "
 "nsProcess_1_6.7z)"
 msgstr ""
+"nsProcess Plug-in for Nullsoft - 1.6 (utilise le lien marqué nsProcess_1_6."
+"7z)"
 
 #: ../../source/developer/installer/INSTALLER.md:33
 msgid "Copy Include\\nsProcess.nsh to C:\\Program Files (x86)\\NSIS\\Include\\"
 msgstr ""
+"Copiez Include\\n"
+"sProcess.nsh dans C:\\Program Files (x86)\\NSIS\\Include\\"
 
 #: ../../source/developer/installer/INSTALLER.md:34
 msgid ""
 "Copy Plugins\\nsProcess.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
+"Copiez Plugins\\n"
+"sProcess.dll dans C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\"
 
 #: ../../source/developer/installer/INSTALLER.md:35
 msgid ""
 "Copy Plugins\\nsProcessW.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
+"Copiez Plugins\\n"
+"sProcessW.dll dans C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode\\"
 
 #: ../../source/developer/installer/INSTALLER.md:37
 msgid "InetC Plug-in for Nullsoft - 1.0"
-msgstr ""
+msgstr "Plug-in InetC pour Nullsoft - 1.0"
 
 #: ../../source/developer/installer/INSTALLER.md:39
 msgid ""
 "Copy Plugin\\x86-ansi\\InetC.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
+"Copiez Plugin\\x86-ansi\\InetC.dll dans C:\\Program Files (x86)\\NSIS"
+"\\Plugins\\x86-ansi\\"
 
 #: ../../source/developer/installer/INSTALLER.md:40
 msgid ""
 "Copy Plugin\\x86-unicode\\InetC.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
+"Copiez Plugin\\x86-unicode\\InetC.dll dans C:\\Program Files (x86)\\NSIS"
+"\\Plugins\\x86-unicode\\"
 
 #: ../../source/developer/installer/INSTALLER.md:42
 msgid "NSISpcre Plug-in for Nullsoft - 1.0"
-msgstr ""
+msgstr "NSISpcre Plug-in pour Nullsoft - 1.0"
 
 #: ../../source/developer/installer/INSTALLER.md:44
 msgid "Copy NSISpre.nsh to C:\\Program Files (x86)\\NSIS\\Include\\"
-msgstr ""
+msgstr "Copiez NSISpre.nsh dans C:\\Program Files (x86)\\NSIS\\Include\\"
 
 #: ../../source/developer/installer/INSTALLER.md:45
 msgid "Copy NSISpre.dll to C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
+"Copiez NSISpre.dll dans C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\"
 
 #: ../../source/developer/installer/INSTALLER.md:47
 msgid "nsisSlideshow Plug-in for Nullsoft - 1.7"
-msgstr ""
+msgstr "nsisSlideshow Plug-in pour Nullsoft - 1.7"
 
 #: ../../source/developer/installer/INSTALLER.md:49
 msgid ""
 "Copy bin\\nsisSlideshow.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
+"Copiez bin\\n"
+"sisSlideshow.dll dans C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\"
 
 #: ../../source/developer/installer/INSTALLER.md:50
 msgid ""
 "Copy bin\\nsisSlideshowW.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
+"Copiez bin\\n"
+"sisSlideshowW.dll dans C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode\\"
 
 #: ../../source/developer/installer/INSTALLER.md:52
 msgid "Nsisunz plug-in for Nullsoft"
-msgstr ""
+msgstr "Plug-in Nsisunz pour Nullsoft"
 
 #: ../../source/developer/installer/INSTALLER.md:53
 msgid "Download both Zips and unzip"
-msgstr ""
+msgstr "Téléchargez les deux Zips et dézippez"
 
 #: ../../source/developer/installer/INSTALLER.md:54
 msgid ""
 "Copy nsisunz\\Release\\nsisunz.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
+"Copiez nsisunz\\Release\\n"
+"sisunz.dll dans C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\"
 
 #: ../../source/developer/installer/INSTALLER.md:55
 msgid ""
 "Copy NSISunzU\\Plugin unicode\\nsisunz.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
+"Copiez NSISunzU\\Plugin unicode\\n"
+"sisunz.dll dans C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode\\"
 
 #: ../../source/developer/installer/INSTALLER.md:57
 msgid "ApplicationID plug-in for Nullsoft - 1.0"
-msgstr ""
+msgstr "Plug-in ApplicationID pour Nullsoft - 1.0"
 
 #: ../../source/developer/installer/INSTALLER.md:58
 msgid "Download Pre-built DLLs"
-msgstr ""
+msgstr "Télécharger les DLLs pré-compilées"
 
 #: ../../source/developer/installer/INSTALLER.md:60
 msgid ""
 "Copy Release\\ApplicationID.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
+"Copiez Release\\ApplicationID.dll dans C:\\Program Files (x86)\\NSIS\\Plugins"
+"\\x86-ansi\\"
 
 #: ../../source/developer/installer/INSTALLER.md:61
 msgid ""
 "Copy ReleaseUnicode\\ApplicationID.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
+"Copiez ReleaseUnicode\\ApplicationID.dll dans C:\\Program Files (x86)\\NSIS"
+"\\Plugins\\x86-unicode\\"
 
 #: ../../source/developer/installer/INSTALLER.md:63
 msgid "Node.JS and NPM"
-msgstr ""
+msgstr "Node.JS et NPM"
 
 #: ../../source/developer/installer/INSTALLER.md:64
 msgid "Install version 10.15.0 LTS"
-msgstr ""
+msgstr "Installez la version 10.15.0 LTS"
 
 #: ../../source/developer/installer/INSTALLER.md:66
 msgid "Code Signing (optional)"
-msgstr ""
+msgstr "Signature du Code (facultatif)"
 
 #: ../../source/developer/installer/INSTALLER.md:68
 msgid ""
@@ -2162,30 +2237,38 @@ msgid ""
 "HF_PFX_PASSPHRASE environment variables to be present during CMake "
 "runtime and globally as we proceed to package the installer."
 msgstr ""
+"Pour que la signature de code fonctionne, vous devrez définir les variables "
+"d'environnement HF_PFX_FILE et HF_PFX_PASSPHRASE de manière à ce qu'elles "
+"soient présentes pendant l'exécution de CMake et globalement lorsque nous "
+"procédons à l'installation."
 
 #: ../../source/developer/installer/INSTALLER.md:70
 msgid "Creating the Installer"
-msgstr ""
+msgstr "Création de l'Installateur"
 
 #: ../../source/developer/installer/INSTALLER.md:72
 msgid "Perform a clean cmake from a new terminal."
-msgstr ""
+msgstr "Effectuez un cmake propre à partir d'un nouveau terminal."
 
 #: ../../source/developer/installer/INSTALLER.md:73
 msgid ""
 "Open the vircadia.sln solution with elevated (administrator) permissions "
 "on Visual Studio and select the Release configuration."
 msgstr ""
+"Ouvrez la solution vircadia.sln avec des autorisations élevées "
+"(administrateur) pour Visual Studio et sélectionnez la configuration Release."
 
 #: ../../source/developer/installer/INSTALLER.md:74
 msgid "Build the solution."
-msgstr ""
+msgstr "Compilez la solution."
 
 #: ../../source/developer/installer/INSTALLER.md:75
 msgid ""
 "Build packaged-server-console-npm-install (found under hidden/Server "
 "Console)"
 msgstr ""
+"Compilez packaged-server-console-npm-install (se trouvant sous hidden/Server "
+"Console)"
 
 #: ../../source/developer/installer/INSTALLER.md:76
 msgid ""
@@ -2193,40 +2276,49 @@ msgid ""
 " add 2 folders to build\\server-console\\ -<br />server-console-win32-x64"
 " and x64"
 msgstr ""
+"Compilez packaged-server-console (trouvé sous Server Console)<br />Cela "
+"ajoutera 2 dossiers à build\\server-console\\ -<br />server-console-win32-"
+"x64 et x64"
 
 #: ../../source/developer/installer/INSTALLER.md:79
 msgid ""
 "Build CMakeTargets->PACKAGE<br />The installer is now available in "
 "build\\_CPack_Packages\\win64\\NSIS"
 msgstr ""
+"Compilez CMakeTargets->PACKAGE<br />L'installateur est maintenant disponible "
+"dans build\\_CPack_Packages\\win64\\NSIS"
 
 #: ../../source/developer/installer/INSTALLER.md:82
 msgid "OS X"
-msgstr ""
+msgstr "OS X"
 
 #: ../../source/developer/installer/INSTALLER.md:83
 msgid "npm Install version 12.16.3 LTS"
-msgstr ""
+msgstr "npm Install version 12.16.3 LTS"
 
 #: ../../source/developer/installer/INSTALLER.md:86
 msgid "Perform a clean CMake."
-msgstr ""
+msgstr "Effectuez un CMake propre."
 
 #: ../../source/developer/installer/INSTALLER.md:87
 msgid "Perform a Release build of ALL_BUILD"
-msgstr ""
+msgstr "Effectuez un Release build de ALL_BUILD"
 
 #: ../../source/developer/installer/INSTALLER.md:88
 msgid ""
 "Perform a Release build of packaged-server-console This will add a folder"
 " to build\\server-console\\ -<br />Sandbox-darwin-x64"
 msgstr ""
+"Effectuez une compilation Release de packaged-server-console Cela ajoutera "
+"un dossier à build\\server-console\\ -<br />Sandbox-darwin-x64"
 
 #: ../../source/developer/installer/INSTALLER.md:91
 msgid ""
 "Perform a Release build of package Installer is now available in "
 "`build/_CPack_Packages/Darwin/DragNDrop"
 msgstr ""
+"Effectuez une compilation Release de package Installer est maintenant "
+"disponible dans `build/_CPack_Packages/Darwin/DragNDrop"
 
 #: ../../source/developer/installer/INSTALLER.md:96
 msgid ""
@@ -2235,140 +2327,164 @@ msgid ""
 "\"C:\\TFS\\XYZProject\\Releases\\NullsoftInstaller\\XYZWin7Installer.nsi\""
 " on line 77 -- aborting creation process"
 msgstr ""
+"Problème : Non ouverture d'un dossier. failed opening file \"\\FOLDERSHARE"
+"\\XYZSRelease\\...\\Credits.rtf\" Error in script \"C:\\TFS\\XYZProject"
+"\\Releases\\NullsoftInstaller\\XYZWin7Installer.nsi\" on line 77 -- aborting "
+"creation process"
 
 #: ../../source/developer/installer/INSTALLER.md:97
 msgid ""
 "Cause: The complete path (current directory + relative path) has to be < "
 "260 characters to any of the relevant files."
 msgstr ""
+"Cause : Le chemin complet (répertoire actuel + chemin relatif) doit "
+"comporter < 260 caractères pour tous les fichiers concernés."
 
 #: ../../source/developer/installer/INSTALLER.md:98
 msgid ""
 "Solution: Move your build and packaging folder as high up in the drive as"
 " possible to prevent an overage."
 msgstr ""
+"Solution : Déplacez votre dossier de compilation et d'empaquetage aussi haut "
+"que possible dans le lecteur pour éviter un surnombre."
 
 #: ../../source/developer/interface.rst:5
 msgid "Debugging"
-msgstr ""
+msgstr "Débogage"
 
 #: ../../source/developer/interface/command-line-parameters.md:3
 msgid "You can launch Interface with the following parameters."
-msgstr ""
+msgstr "Vous pouvez lancer Interface avec les paramètres suivants."
 
 #: ../../source/developer/interface/command-line-parameters.md:5
 msgid "Displays help dialog"
-msgstr ""
+msgstr "Affiche le dialogue d'aide"
 
 #: ../../source/developer/interface/command-line-parameters.md:13
 msgid "Start up at specified URL location"
-msgstr ""
+msgstr "Démarrage à l'emplacement URL spécifié"
 
 #: ../../source/developer/interface/command-line-parameters.md:17
 msgid "Displays the protocol version"
-msgstr ""
+msgstr "Affiche la version du protocole"
 
 #: ../../source/developer/interface/command-line-parameters.md:21
 msgid "Do not show the auto-updater"
-msgstr ""
+msgstr "Ne pas montrer la mise à jour automatique"
 
 #: ../../source/developer/interface/command-line-parameters.md:25
 msgid "Checks to see if the machine meets the minimum specification requirements."
-msgstr ""
+msgstr "Vérifie la conformité de la machine aux spécifications minimales."
 
 #: ../../source/developer/interface/command-line-parameters.md:29
 msgid "Whether to run the server"
-msgstr ""
+msgstr "Exécution ou non du serveur"
 
 #: ../../source/developer/interface/command-line-parameters.md:33
 msgid "Port to listen on. (Needs clarification!)"
-msgstr ""
+msgstr "Port à écouter. (Nécessite une clarification !)"
 
 #: ../../source/developer/interface/command-line-parameters.md:37
 msgid "Where to find server content"
-msgstr ""
+msgstr "Où trouver le contenu du serveur"
 
 #: ../../source/developer/interface/command-line-parameters.md:41
 msgid "Set cache location. Defaults to the operating system local data path."
 msgstr ""
+"Définit l'emplacement du cache. Par défaut, le chemin d'accès pour les "
+"données locales du système d'exploitation."
 
 #: ../../source/developer/interface/command-line-parameters.md:45
 msgid "Set path for defaultScripts."
-msgstr ""
+msgstr "Définit le chemin d'accès pour les scripts par défaut."
 
 #: ../../source/developer/interface/command-line-parameters.md:49
 msgid "Allow multiple instances of the interface to run simultaneously."
 msgstr ""
+"Permet à plusieurs instances de l'interface de s'exécuter simultanément."
 
 #: ../../source/developer/interface/command-line-parameters.md:53
 msgid "Preferred displays."
-msgstr ""
+msgstr "Affichages préférés."
 
 #: ../../source/developer/interface/command-line-parameters.md:57
 msgid ""
 "Disable display plugin. Possible devices include \"OpenVR (Vive)\", "
 "\"Oculus Rift\"."
 msgstr ""
+"Désactive le plugin d'affichage. Les périphériques possibles sont \"OpenVR "
+"(Vive)\", \"Oculus Rift\"."
 
 #: ../../source/developer/interface/command-line-parameters.md:61
 msgid ""
 "Disable input plugin. Possible devices include \"OpenVR (Vive)\", "
 "\"Oculus Rift\"."
 msgstr ""
+"Désactive le plugin d'entrée. Les périphériques possibles sont \"OpenVR "
+"(Vive)\", \"Oculus Rift\"."
 
 #: ../../source/developer/interface/command-line-parameters.md:65
 msgid "Suppress the prompt to reset interface settings"
-msgstr ""
+msgstr "Supprime l'invite à réinitialiser les paramètres de l'interface"
 
 #: ../../source/developer/interface/command-line-parameters.md:69
 msgid "Let the Oculus plugin know if Interface was run from the Oculus Store"
 msgstr ""
+"Fait savoir au plugin Oculus si l'interface a été exécutée à partir de "
+"l'Oculus Store"
 
 #: ../../source/developer/interface/command-line-parameters.md:73
 msgid "Emulate a standalone device"
-msgstr ""
+msgstr "Émule un appareil autonome"
 
 #: ../../source/developer/interface/command-line-parameters.md:77
 msgid "Disable the watchdog thread. The interface will crash on deadlocks."
 msgstr ""
+"Désactive le thread de garde. L'interface se plantera en cas de blocage."
 
 #: ../../source/developer/interface/command-line-parameters.md:81
 msgid "(Needs clarification!)"
-msgstr ""
+msgstr "(Nécessite une clarification !)"
 
 #: ../../source/developer/interface/command-line-parameters.md:85
 msgid ""
 "Maximum concurrent resource downloads. Default is 16, except for Android "
 "where it is 4."
 msgstr ""
+"Maximum de téléchargements de ressources simultanés. La valeur par défaut "
+"est de 16, sauf pour Android où elle est de 4."
 
 #: ../../source/developer/interface/command-line-parameters.md:89
 msgid "Override the avatar URL"
-msgstr ""
+msgstr "Remplace l'URL de l'avatar"
 
 #: ../../source/developer/interface/command-line-parameters.md:93
 msgid ""
 "Replaces the Avatar URL. If both this and --avatarURL is set, this one "
 "takes precedence."
 msgstr ""
+"Remplace l'URL de l'avatar. Si cette URL et --avatarURL sont toutes deux "
+"définies, celle-ci a la priorité."
 
 #: ../../source/developer/interface/command-line-parameters.md:98
 msgid ""
 "Bookmarks are expected to be in a name=url form. An = character in the "
 "name or url is unsupported."
 msgstr ""
+"Les signets doivent se présenter sous la forme name=url. Un caractère = dans "
+"le nom ou l'url n'est pas pris en charge."
 
 #: ../../source/developer/interface/command-line-parameters.md:102
 msgid "Disable level of detail auto config."
-msgstr ""
+msgstr "Désactive la configuration automatique du niveau de détail."
 
 #: ../../source/developer/interface/debugging.md:1
 msgid "Debugging Tips"
-msgstr ""
+msgstr "Conseils de débogage"
 
 #: ../../source/developer/interface/debugging.md:5
 msgid "Visual Studio"
-msgstr ""
+msgstr "Visual Studio"
 
 #: ../../source/developer/interface/debugging.md:7
 msgid ""
@@ -2378,6 +2494,12 @@ msgid ""
 "\"Set as Startup Project\". Now Debug > Start Debugging and the Local "
 "Windows Debugger button on the debug toolbar will start Interface."
 msgstr ""
+"Pour exécuter Interface à partir de Visual Studio avec le débogueur attaché, "
+"vous devez définir Interface comme projet de démarrage. Pour ce faire, dans "
+"Solution Explorer, développez le dossier \"Apps\", cliquez avec le bouton "
+"droit de la souris sur Interface et sélectionnez \"Set as Startup Project\". "
+"Maintenant Debug > Start Debugging et le bouton Local Windows Debugger de la "
+"barre d'outils de débogage lancera Interface."
 
 #: ../../source/developer/interface/debugging.md:9
 msgid ""
@@ -2385,24 +2507,33 @@ msgid ""
 " to start ALL_BUILD under the \"CMakeTargets\" folder, resulting in an "
 "\"Access is Denied\" error."
 msgstr ""
+"Si vous ne définissez pas le projet de démarrage comme Interface, le "
+"débogueur essaiera de lancer ALL_BUILD sous le dossier \"CMakeTargets\", ce "
+"qui entraînera une erreur \"Access is Denied\"."
 
 #: ../../source/developer/interface/environment-variables.md:3
 msgid ""
 "You can alter Interface's functionality using the following environment "
 "variables."
 msgstr ""
+"Vous pouvez modifier la fonctionnalité d'Interface en utilisant les "
+"variables d'environnement suivantes."
 
 #: ../../source/developer/interface/environment-variables.md:7
 msgid ""
 "Use the source files for QML and other resources at runtime instead of "
 "the compiled files."
 msgstr ""
+"Utilise les fichiers sources pour QML et d'autres ressources au moment de "
+"l'exécution au lieu des fichiers compilés."
 
 #: ../../source/developer/interface/environment-variables.md:13
 msgid ""
 "Enable the HMD debugging mode which emulates an HMD view in 2D for "
 "desktop testing."
 msgstr ""
+"Active le mode de débogage HMD qui émule une vue HMD en 2D pour les tests en "
+"mode Clavier."
 
 #: ../../source/developer/interface/environment-variables.md:19
 msgid ""
@@ -2410,14 +2541,18 @@ msgid ""
 "debugging the OpenVR plugin if you have an Oculus HMD but not a SteamVR "
 "HMD.)"
 msgstr ""
+"Active le plugin OpenVR pour qu'il soit utilisé avec un HMD Oculus. (Utile "
+"pour déboguer le plugin OpenVR si vous avez un HMD Oculus mais pas un HMD "
+"SteamVR)"
 
 #: ../../source/developer/interface/environment-variables.md:25
 msgid "Override the metaverse URL."
-msgstr ""
+msgstr "Remplace l'URL du métaverse."
 
 #: ../../source/developer/interface/environment-variables.md:31
 msgid "Allow multiple instances of Interface to run simultaneously."
 msgstr ""
+"Permet à plusieurs instances de l'Interface de s'exécuter simultanément."
 
 #: ../../source/developer/interface/environment-variables.md:37
 msgid ""
@@ -2425,46 +2560,57 @@ msgid ""
 "variable. It can be set to any comma separated combination of the "
 "following options. Case and whitespace are not significant."
 msgstr ""
+"La connexion à la console peut être contrôlée avec la variable "
+"VIRCADIA_LOG_OPTIONS. Elle peut être configurée pour toute combinaison des "
+"options suivantes, séparées par des virgules. Les majuscules et les espaces "
+"ne sont pas significatifs."
 
 #: ../../source/developer/interface/environment-variables.md:39
 msgid "color - Force ANSI colors depending on the message's severity."
-msgstr ""
+msgstr "color - Force les couleurs ANSI en fonction de la gravité du message."
 
 #: ../../source/developer/interface/environment-variables.md:40
 msgid "nocolor - Force ANSI colors off."
-msgstr ""
+msgstr "nocolor - Désactive les couleurs ANSI."
 
 #: ../../source/developer/interface/environment-variables.md:41
 msgid "milliseconds - Log timestamps with millisecond precision."
 msgstr ""
+"milliseconds - Enregistre les horodatages avec une précision de l'ordre de "
+"la milliseconde."
 
 #: ../../source/developer/interface/environment-variables.md:42
 msgid "process_id - Log the process ID."
-msgstr ""
+msgstr "process_id - Enregistre l'ID du processus."
 
 #: ../../source/developer/interface/environment-variables.md:43
 msgid "thread_id - Log the thread ID."
-msgstr ""
+msgstr "thread_id - Enregistre l'ID du thread."
 
 #: ../../source/developer/interface/environment-variables.md:45
 msgid "For example:"
-msgstr ""
+msgstr "Par exemple :"
 
 #: ../../source/developer/interface/environment-variables.md:49
 msgid ""
 "This will cause logging with millisecond precision, and color coding "
 "messages by severity."
 msgstr ""
+"Ceci permet d'enregistrer avec une précision de l'ordre de la milliseconde "
+"et de coder les messages par couleur en fonction de leur gravité."
 
 #: ../../source/developer/interface/environment-variables.md:53
 msgid "Will result in only millisecond precision being applied to logging."
 msgstr ""
+"La précision de la journalisation sera alors de l'ordre de la milliseconde."
 
 #: ../../source/developer/interface/environment-variables.md:55
 msgid ""
 "Color is enabled by default on Unix if output is being directed to a "
 "terminal, and disabled by default on Windows."
 msgstr ""
+"La couleur est activée par défaut sous Unix si la sortie est dirigée vers un "
+"terminal, et désactivée par défaut sous Windows."
 
 #~ msgid "git clone https://github.com/kasenvr/project-athena.git"
 #~ msgstr ""
