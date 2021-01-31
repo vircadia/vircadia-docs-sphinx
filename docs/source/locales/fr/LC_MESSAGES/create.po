@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-29 00:20+0000\n"
+"PO-Revision-Date: 2021-01-31 20:19+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:3
@@ -456,7 +456,7 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:9
 #: ../../source/create/entities/zone-tutorial.md:17
 msgid "Prerequisites"
-msgstr "Prérequis"
+msgstr "Conditions préalables"
 
 #: ../../source/create/3d-models/import-animations.rst:14
 msgid ""
@@ -4721,7 +4721,7 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:57
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:118
 msgid "Interact with Your Environment"
-msgstr "Interagissez avec votre Environnement"
+msgstr "Interagir avec votre Environnement"
 
 #: ../../source/create/entities/avatar-interactions.md:67
 msgid "API Reference: Entities"
