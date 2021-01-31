@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-01-30 09:19+0000\n"
+"PO-Revision-Date: 2021-01-31 20:19+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/fr/>\n"
@@ -27,24 +27,24 @@ msgstr "Galerie"
 
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 msgid "Get Started with Vircadia"
-msgstr "Commencez avec Vircadia"
+msgstr "Commencer avec Vircadia"
 
 #: ../../source/explore.rst:11 ../../source/explore/personalize.rst:3
 msgid "Personalize Your Experience"
-msgstr "Personnalisez votre Expérience"
+msgstr "Personnaliser votre Expérience"
 
 #: ../../source/explore.rst:11 ../../source/explore/socialize.rst:3
 #: ../../source/explore/travel.md:36
 msgid "Socialize with Others"
-msgstr "Socialisez avec les Autres"
+msgstr "Socialiser avec les Autres"
 
 #: ../../source/explore.rst:11 ../../source/explore/travel.md:1
 msgid "Travel Between Worlds"
-msgstr "Voyagez entre les Mondes"
+msgstr "Voyager entre les Mondes"
 
 #: ../../source/explore.rst:11 ../../source/explore/interact.md:1
 msgid "Interact with Your Environment"
-msgstr "Interagissez avec votre Environnement"
+msgstr "Interagir avec votre Environnement"
 
 #: ../../source/explore.rst:3
 msgid "Explore"
@@ -158,27 +158,27 @@ msgstr "Comprendre l'Architecture"
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/setup-audio.rst:3
 msgid "Set Up Your Audio Devices"
-msgstr "Configurez vos Appareils Audio"
+msgstr "Configurer vos Appareils Audio"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/vr-controls.rst:3
 msgid "Use Your VR Equipment"
-msgstr "Utilisez votre Equipement VR"
+msgstr "Utiliser votre Equipement VR"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/desktop.rst:3
 msgid "Explore in Desktop Mode"
-msgstr "Explorez en Mode Clavier"
+msgstr "Explorer en Mode Clavier"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/adjust-settings.rst:3
 msgid "Adjust Your Settings"
-msgstr "Ajustez vos Paramètres"
+msgstr "Ajuster vos Paramètres"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/android.rst:3
 msgid "Get Our Android App"
-msgstr "Obtenez notre Application Android"
+msgstr "Obtenir notre Application Android"
 
 #: ../../source/explore/get-started.rst:5
 msgid ""
@@ -600,7 +600,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/android.rst:15
 msgid "Visit Different Worlds"
-msgstr "Visitez des Autres Mondes"
+msgstr "Visiter des Autres Mondes"
 
 #: ../../source/explore/get-started/android.rst:17
 msgid ""
@@ -3492,7 +3492,7 @@ msgstr ""
 
 #: ../../source/explore/personalize/add-wearables.rst:12
 msgid "Buy a Wearable from the Marketplace"
-msgstr "Acheter un article vestimentaire sur le Marché"
+msgstr "Acheter un vêtement sur le Marché"
 
 #: ../../source/explore/personalize/add-wearables.rst:14
 msgid ""
@@ -4514,7 +4514,7 @@ msgstr ""
 
 #: ../../source/explore/socialize.rst:123
 msgid "Chat with Users"
-msgstr "Chat avec les Utilisateurs"
+msgstr "Causer avec les Utilisateurs"
 
 #: ../../source/explore/socialize.rst:125
 msgid ""
@@ -4649,7 +4649,7 @@ msgstr "Application GoTo"
 
 #: ../../source/explore/travel.md:7 ../../source/explore/travel.md:28
 msgid "Visit a Friend"
-msgstr "Rendez Visite à un Ami"
+msgstr "Visiter un Ami"
 
 #: ../../source/explore/travel.md:10
 msgid ""
