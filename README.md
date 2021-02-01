@@ -25,6 +25,8 @@ Please contact Julian Groß or open an issue if you want to translate a language
 
 We encourage you to compile the documentation locally on your computer prior to submitting a PR. To install Sphinx:
 
+**Note:** You will need git installed and available to your cmd.
+
 1. Run cmd as administrator.
 2. Install Chocolatey via the cmd (on one line):
 
@@ -39,7 +41,7 @@ We encourage you to compile the documentation locally on your computer prior to 
     C:\> choco install python
     ```
 
-4. Restart cmd or refresh with the command:
+4. Restart cmd as administrator or refresh with the command:
 
     ```
     C:\> refreshenv
