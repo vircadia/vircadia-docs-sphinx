@@ -27,7 +27,7 @@ We encourage you to compile the documentation locally on your computer prior to 
 
 **Note:** You will need git installed and available to your cmd.
 
-1. Run cmd as administrator.
+1. Run cmd. (On Windows, you have to run cmd as an administrator.)
 2. Install Chocolatey via the cmd (on one line):
 
     ```
@@ -41,7 +41,7 @@ We encourage you to compile the documentation locally on your computer prior to 
     C:\> choco install python
     ```
 
-4. Restart cmd as administrator or refresh with the command:
+4. Restart cmd (as admin on Windows) or refresh with the command:
 
     ```
     C:\> refreshenv
