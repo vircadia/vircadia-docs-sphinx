@@ -24,7 +24,7 @@ jobs:
         pip install git+https://github.com/vircadia/video.git
         pip install -U Sphinx==2.4.4
         pip install --upgrade recommonmark
-        pip install sphinx_rtd_theme
+        pip install sphinx_rtd_theme==0.4.3
     - name: Build documentation
       shell: bash
       run: |

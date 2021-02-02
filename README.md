@@ -65,7 +65,7 @@ We encourage you to compile the documentation locally on your computer prior to 
 7. Install our Sphinx theme:
 
     ```
-    C:\> pip install sphinx_rtd_theme
+    C:\> pip install sphinx_rtd_theme==0.4.3
     ```
 
 ## Compile Vircadia Documentation Locally
