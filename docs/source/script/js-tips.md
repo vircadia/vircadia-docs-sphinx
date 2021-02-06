@@ -199,5 +199,5 @@ MyAvatar.collsionEnabledChanged.disconnect(collsionChanged);
 
 **See Also**
 
-+ [Write Your Own Scripts](write-scripts.html)
++ [Write Your Own Scripts](write-scripts)
 + [API Reference](https://apidocs.vircadia.dev)

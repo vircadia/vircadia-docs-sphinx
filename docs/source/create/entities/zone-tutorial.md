@@ -18,8 +18,8 @@ The mini tutorials on this page show you how zone entities work and how you can 
 
 Consider getting familiar with the following concepts before starting this tutorial:
 
-- [Create New Entities](create-entities.html)
-- [Change How Entities Look](entity-appearance.html)
+- [Create New Entities](create-entities)
+- [Change How Entities Look](entity-appearance)
 
 ## Create a Zone Entity
 
@@ -149,5 +149,5 @@ Your zone's ambient lighting will change to the image you've provided.
 
 **See Also**
 
-- [Create New Entities](create-entities.html)
-- [Change How Entities Look](entity-appearance.html)
+- [Create New Entities](create-entities)
+- [Change How Entities Look](entity-appearance)

@@ -31,4 +31,4 @@ An environment consists different types of 3D models and a skybox following the 
 
 + :doc:`Get Your 3D Model <3d-models/get-model>`
 + `Import 3D Models Using the Asset Server <3d-models/import-model.html#import-models-from-the-asset-server>`_
-+ :doc:`Backup and Restore Your Domain <../host/maintain-domain/backup-domain.html>`
++ :doc:`Backup and Restore Your Domain <../host/maintain-domain/backup-domain>`

@@ -53,6 +53,6 @@ Script.update.connect(update);
 
 **See Also**
 
-+ [Configure Your Domain Settings](../host/configure-settings.html)
-+ [Get Started with Scripting](get-started-with-scripting.html)
-+ [Write Your Own Scripts](write-scripts.html)
++ [Configure Your Domain Settings](../host/configure-settings)
++ [Get Started with Scripting](get-started-with-scripting)
++ [Write Your Own Scripts](write-scripts)
