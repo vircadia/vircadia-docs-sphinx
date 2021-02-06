@@ -21,25 +21,27 @@ There are two ways to help with the translation of Vircadia's documentation:
 
 Please contact Julian Groß or open an issue if you want to translate a language that is not in the system yet.
 
-## Install Sphinx for Local Builds
+## Install Sphinx for Local Builds (Windows)
 
 We encourage you to compile the documentation locally on your computer prior to submitting a PR. To install Sphinx:
 
-1. Run cmd as administrator.
-2. Install Chocolatey via the cmd (on one line):
+**Note:** You will need git installed and available to your `cmd`.
+
+1. Run `cmd` as an administrator.
+2. Install Chocolatey via the `cmd` (on one line):
 
     ```
     @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
     ```
     If you run into any problems with this command, please take a look at https://github.com/chocolatey/choco/wiki/Troubleshooting
 
-3. Install Python 3 via Chocolatey via the cmd:
+3. Install Python 3 via Chocolatey via `cmd`:
 
     ```
     C:\> choco install python
     ```
 
-4. Restart cmd or refresh with the command:
+4. Restart `cmd` as an admin or refresh with the command:
 
     ```
     C:\> refreshenv
