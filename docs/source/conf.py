@@ -72,7 +72,8 @@ exclude_patterns = []
 pygments_style = "emacs"
 highlight_language = "javascript"
 
-# Disable Smartquotes for french in html to work around issue https://github.com/vircadia/vircadia-docs-sphinx/issues/112
+# Disable Smartquotes for French in html to work around issue https://github.com/vircadia/vircadia-docs-sphinx/issues/112
+
 smartquotes_excludes = {'languages': ['fr'], 'builders': ['html']}
 
 
