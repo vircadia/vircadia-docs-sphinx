@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2020-12-24 02:14+0000\n"
-"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-02-08 21:19+0000\n"
+"Last-Translator: Nick <origamimars@gmail.com>\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/explore/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/explore/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
@@ -30,24 +31,24 @@ msgstr "Mit Vircadia loslegen"
 
 #: ../../source/explore.rst:11 ../../source/explore/personalize.rst:3
 msgid "Personalize Your Experience"
-msgstr ""
+msgstr "Personalisieren Sie ihre Erfahrung"
 
 #: ../../source/explore.rst:11 ../../source/explore/socialize.rst:3
 #: ../../source/explore/travel.md:36
 msgid "Socialize with Others"
-msgstr ""
+msgstr "Mit anderen Nutzern Kontakte knüpfen"
 
 #: ../../source/explore.rst:11 ../../source/explore/travel.md:1
 msgid "Travel Between Worlds"
-msgstr ""
+msgstr "Durch die verschiedenen Welten reisen"
 
 #: ../../source/explore.rst:11 ../../source/explore/interact.md:1
 msgid "Interact with Your Environment"
-msgstr ""
+msgstr "Interagieren Sie mit ihrer Umgebung"
 
 #: ../../source/explore.rst:3
 msgid "Explore"
-msgstr ""
+msgstr "Entdecken"
 
 #: ../../source/explore.rst:5
 msgid ""
@@ -57,6 +58,11 @@ msgid ""
 "events, and learn about creation in virtuality. It's an immersive and "
 "interactive experience with realistic visuals and audio."
 msgstr ""
+"Vircadia ist ein Metaversum in dem sie mit anderen Kontakte knüpfen und "
+"Inhalte erschaffen können. Wir laden Sie dazu ein die Welten in Vircadia zu "
+"entdecken und mit anderen Benutzern zu interagieren. Sie können die "
+"virtuellen Welten ihrer Freunde besuchen, an Events teilnehmen, und Dinge "
+"über das Kreieren in der virtuellen Welt lernen."
 
 #: ../../source/explore.rst:7
 msgid ""
@@ -67,16 +73,26 @@ msgid ""
 " metaverse. If you've visited Vircadia before, you will return to the "
 "location where you last visited."
 msgstr ""
+"Wenn sie Vircadia zum ersten Mal benutzen, startet ihre Reise in einer "
+"lokalen Tutorial Welt, in der sie mit der Steuerung experimentieren können, "
+"und mehr über das Interface lernen. Wenn sie bereit sind, dann können Sie "
+"andere Domains mithilfe der Explore App entdecken und sich mit anderen "
+"Leuten im Metaversum treffen. Wenn sie Vircadie bereits vorher besucht "
+"haben, dann werden sie zu dem Ort zurückkehren, den sie zuletzt besucht "
+"haben."
 
 #: ../../source/explore.rst:9
 msgid "Throughout this chapter, learn how to make the most of your exploration:"
 msgstr ""
+"In diesem Kapitel lernen sie, wie sie Vircadia am besten erkunden können:"
 
 #: ../../source/explore/gallery.rst:5
 msgid ""
 "This gallery showcases the Vircadia Interface and some past events and "
 "locations attended with it."
 msgstr ""
+"Diese Galerie enthält Bilder von Events und Orten, die mit dem Vircadia "
+"Interface besucht wurden."
 
 #: ../../source/explore/gallery.rst:12
 msgid ""
@@ -116,7 +132,7 @@ msgstr "Vircadia auf Linux Mint 19.3, 29. September 2020."
 #: ../../source/explore/get-started/vr-controls.rst:220
 #: ../../source/explore/personalize/add-wearables.rst:55
 msgid "**See Also**"
-msgstr ""
+msgstr "**Siehe auch**"
 
 #: ../../source/explore/gallery.rst:60
 msgid ":doc:`Install Vircadia <get-started/install>`"
@@ -131,32 +147,32 @@ msgstr "Vircadia installieren"
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/architecture.rst:3
 msgid "Understand the Architecture"
-msgstr ""
+msgstr "Die Architektur verstehen"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/setup-audio.rst:3
 msgid "Set Up Your Audio Devices"
-msgstr ""
+msgstr "Richten Sie ihre Audiogeräte ein"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/vr-controls.rst:3
 msgid "Use Your VR Equipment"
-msgstr ""
+msgstr "Benutzen Sie ihre VR Ausrüstung"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/desktop.rst:3
 msgid "Explore in Desktop Mode"
-msgstr ""
+msgstr "Im Desktop Modus entdecken"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/adjust-settings.rst:3
 msgid "Adjust Your Settings"
-msgstr ""
+msgstr "Passen Sie ihre Einstellungen an"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/android.rst:3
 msgid "Get Our Android App"
-msgstr ""
+msgstr "Holen sie sich unsere Android App"
 
 #: ../../source/explore/get-started.rst:5
 msgid ""
@@ -166,10 +182,15 @@ msgid ""
 "application, so that you can begin making friends and exploring the "
 "metaverse."
 msgstr ""
+"Wir wissen, das es schwierig ist, sich in einem neuen Programm "
+"zurechtzufinden: Es macht nicht immer Spaß die Software zu installieren und "
+"die Steuerung zu verstehen. Hoffentlich wird ihnen dieser Abschnitt dabei "
+"helfen mit unserem Programm vertraut zu werden, damit sie anfangen können, "
+"Freundschaften zu schließen, und das Metaversum zu entdecken."
 
 #: ../../source/explore/get-started.rst:7
 msgid "**In This Section**"
-msgstr ""
+msgstr "**In diesem Abschnitt**"
 
 #: ../../source/explore/get-started/adjust-settings.rst:5
 msgid ""
@@ -177,6 +198,9 @@ msgid ""
 "preferences. Many of these settings are changed using the HUD (in Desktop"
 " mode) or Tablet (in VR mode)."
 msgstr ""
+"Sie können verschiedene Einstellungen ändern, damit diese ihren Bedürfnissen "
+"entsprechen. Viele dieser Einstellungen werden mit dem HUD (im Desktop Modus)"
+" oder mit dem Tablet (im VR Modus) geändert."
 
 #: ../../source/explore/get-started/adjust-settings.rst:8
 #: ../../source/explore/get-started/android.rst:11
@@ -3931,4 +3955,3 @@ msgstr ""
 #~ "can change this image on our "
 #~ "`website <https://highfidelity.com/>`_."
 #~ msgstr ""
-
