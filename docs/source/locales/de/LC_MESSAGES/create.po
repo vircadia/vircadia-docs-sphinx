@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-02-08 21:19+0000\n"
+"PO-Revision-Date: 2021-02-10 00:46+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
 "Language-Team: German <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/de/>\n"
@@ -156,7 +156,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:9
 #: ../../source/create/tools.rst:8
 msgid "On This Page"
-msgstr ""
+msgstr "Auf dieser Seite"
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
@@ -496,7 +496,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:157
 #: ../../source/create/environments.rst:15
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: ../../source/create/3d-models/import-animations.rst:45
 msgid "Play Automatically"
@@ -5510,7 +5510,7 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:119
 #: ../../source/create/entities/entity-appearance.rst:144
 msgid "Setting"
-msgstr ""
+msgstr "Einstellungen"
 
 #: ../../source/create/entities/entity-appearance.rst:26
 #: ../../source/create/entities/entity-appearance.rst:75

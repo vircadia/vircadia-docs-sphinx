@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-02-08 21:19+0000\n"
+"PO-Revision-Date: 2021-02-10 00:46+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
 "Language-Team: German <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/de/>\n"
@@ -131,7 +131,7 @@ msgstr ""
 #: ../../source/host/server-setup/windows-server.rst:10
 #: ../../source/host/start-hosting.rst:8
 msgid "On This Page"
-msgstr ""
+msgstr "Auf dieser Seite"
 
 #: ../../source/host/add-content/bake-content.rst:12
 msgid "The Oven"
@@ -157,7 +157,7 @@ msgstr ""
 #: ../../source/host/add-content/create-content.rst:31
 #: ../../source/host/configure-settings/permission-settings.rst:46
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: ../../source/host/add-content/bake-content.rst:21
 msgid "Textures"
