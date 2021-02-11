@@ -8,7 +8,7 @@ See what's been released in Vircadia.
     :maxdepth: 2
     :titlesonly:
 
-    Release 2021.1.0 Eos (2021-02-05) <release-notes/2021-1-0-Eos>
+    Release 2021.1.0 Eos (2021-02-12) <release-notes/2021-1-0-Eos>
     Alpha Release 2020.3.3 Demeter (2021-01-02) <release-notes/2020-3-3-Demeter>
     Alpha Release 2020.3.2 Demeter (2020-12-01) <release-notes/2020-3-2-Demeter>
     Alpha Release 2020.3.1 Demeter (2020-10-25) <release-notes/2020-3-1-Demeter>
