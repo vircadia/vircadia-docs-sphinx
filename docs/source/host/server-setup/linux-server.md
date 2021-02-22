@@ -4,19 +4,19 @@ The Vircadia packages can help you get your own domain up and running quickly.
 
 ## Installation
 
-Alongside installation, these packages can also migrate an "Athena" domain to Vircadia. You can run them on an existing Vircadia domain to upgrade it if the original was installed using the package. Packages are currently available for the following distributions:
+You can run these same commands on an existing Vircadia domain to upgrade it if the original domain was installed using the package. Packages are currently available for the following distributions:
 
 ### Ubuntu Server 18.04 LTS
 
 ```sh
-wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2020.3.3-demeter-20201230-165537a-0ubuntu1-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./vircadia-server_2020.3.3-demeter-20201230-165537a-0ubuntu1-1_amd64.deb
+wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2021.1.0-eos-20210220-937e0a5-0ubuntu1-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./vircadia-server_2021.1.0-eos-20210220-937e0a5-0ubuntu1-1_amd64.deb
 ```
 
 ### Amazon Linux 2
 
 ```sh
-sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2020.3.1_DEMETER_20201026_5c945c1-1.amzn2.x86_64.rpm
+sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2021.1.0_EOS_20210213_26894b4-1.amzn2.x86_64.rpm
 ```
 
 ### Unlisted Distribution
