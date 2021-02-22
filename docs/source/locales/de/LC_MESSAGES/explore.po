@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2020-12-24 02:14+0000\n"
-"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-02-10 00:46+0000\n"
+"Last-Translator: Nick <origamimars@gmail.com>\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/explore/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/explore/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
@@ -30,24 +31,24 @@ msgstr "Mit Vircadia loslegen"
 
 #: ../../source/explore.rst:11 ../../source/explore/personalize.rst:3
 msgid "Personalize Your Experience"
-msgstr ""
+msgstr "Personalisieren Sie ihre Erfahrung"
 
 #: ../../source/explore.rst:11 ../../source/explore/socialize.rst:3
 #: ../../source/explore/travel.md:36
 msgid "Socialize with Others"
-msgstr ""
+msgstr "Mit anderen Nutzern Kontakte knüpfen"
 
 #: ../../source/explore.rst:11 ../../source/explore/travel.md:1
 msgid "Travel Between Worlds"
-msgstr ""
+msgstr "Durch die verschiedenen Welten reisen"
 
 #: ../../source/explore.rst:11 ../../source/explore/interact.md:1
 msgid "Interact with Your Environment"
-msgstr ""
+msgstr "Interagieren Sie mit ihrer Umgebung"
 
 #: ../../source/explore.rst:3
 msgid "Explore"
-msgstr ""
+msgstr "Entdecken"
 
 #: ../../source/explore.rst:5
 msgid ""
@@ -57,6 +58,11 @@ msgid ""
 "events, and learn about creation in virtuality. It's an immersive and "
 "interactive experience with realistic visuals and audio."
 msgstr ""
+"Vircadia ist ein Metaversum in dem sie mit anderen Kontakte knüpfen und "
+"Inhalte erschaffen können. Wir laden Sie dazu ein die Welten in Vircadia zu "
+"entdecken und mit anderen Benutzern zu interagieren. Sie können die "
+"virtuellen Welten ihrer Freunde besuchen, an Events teilnehmen, und Dinge "
+"über das Kreieren in der virtuellen Welt lernen."
 
 #: ../../source/explore.rst:7
 msgid ""
@@ -67,42 +73,56 @@ msgid ""
 " metaverse. If you've visited Vircadia before, you will return to the "
 "location where you last visited."
 msgstr ""
+"Wenn sie Vircadia zum ersten Mal benutzen, startet ihre Reise in einer "
+"lokalen Tutorial Welt, in der sie mit der Steuerung experimentieren können, "
+"und mehr über das Interface lernen. Wenn sie bereit sind, dann können Sie "
+"andere Domains mithilfe der Explore App entdecken und sich mit anderen "
+"Leuten im Metaversum treffen. Wenn sie Vircadie bereits vorher besucht "
+"haben, dann werden sie zu dem Ort zurückkehren, den sie zuletzt besucht "
+"haben."
 
 #: ../../source/explore.rst:9
 msgid "Throughout this chapter, learn how to make the most of your exploration:"
 msgstr ""
+"In diesem Kapitel lernen sie, wie sie Vircadia am besten erkunden können:"
 
 #: ../../source/explore/gallery.rst:5
 msgid ""
 "This gallery showcases the Vircadia Interface and some past events and "
 "locations attended with it."
 msgstr ""
+"Diese Galerie enthält Bilder von Events und Orten, die mit dem Vircadia "
+"Interface besucht wurden."
 
 #: ../../source/explore/gallery.rst:12
 msgid ""
 "Maker Meeting, 28th September 2020, on the \"El Papa Viejo\" (meaning "
 "\"The Old Pope\")."
 msgstr ""
+"Maker Meeting, 28. September 2020, in \"El Papa Viejo\" (bedeutung: Die "
+"alten Leute)."
 
 #: ../../source/explore/gallery.rst:19
 msgid "Startup Lab Lagoon Koza booth at Startup Asia X, 12th June 2020."
-msgstr ""
+msgstr "Startup Lab Lagoon Koza in Startup Asia X, 12. Juni 2020."
 
 #: ../../source/explore/gallery.rst:26
 msgid "Group photo at the end of Startup Asia X, 12th June 2020."
-msgstr ""
+msgstr "Gruppenfoto am Ende von Startup Asia X, 12. Juni 2020."
 
 #: ../../source/explore/gallery.rst:33
 msgid "Dale Glass speaking at the Developer Meeting, 20th September 2020."
 msgstr ""
+"Dale Glass spricht beim Maker Meeting (Entwickler Treffen), 20. September "
+"2020."
 
 #: ../../source/explore/gallery.rst:40
 msgid "Mannequin army, 13th July 2020."
-msgstr ""
+msgstr "Holzpuppen Armee, 13. Juli 2020."
 
 #: ../../source/explore/gallery.rst:47
 msgid "Pictionary in the old Hub, 5th July 2020."
-msgstr ""
+msgstr "Abbildung im alten Hub, 5. Juli 2020."
 
 #: ../../source/explore/gallery.rst:54
 msgid "Vircadia running on Linux Mint 19.3, 29th September 2020."
@@ -116,7 +136,7 @@ msgstr "Vircadia auf Linux Mint 19.3, 29. September 2020."
 #: ../../source/explore/get-started/vr-controls.rst:220
 #: ../../source/explore/personalize/add-wearables.rst:55
 msgid "**See Also**"
-msgstr ""
+msgstr "**Siehe auch**"
 
 #: ../../source/explore/gallery.rst:60
 msgid ":doc:`Install Vircadia <get-started/install>`"
@@ -131,32 +151,32 @@ msgstr "Vircadia installieren"
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/architecture.rst:3
 msgid "Understand the Architecture"
-msgstr ""
+msgstr "Die Architektur verstehen"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/setup-audio.rst:3
 msgid "Set Up Your Audio Devices"
-msgstr ""
+msgstr "Richten Sie ihre Audiogeräte ein"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/vr-controls.rst:3
 msgid "Use Your VR Equipment"
-msgstr ""
+msgstr "Benutzen Sie ihre VR Ausrüstung"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/desktop.rst:3
 msgid "Explore in Desktop Mode"
-msgstr ""
+msgstr "Im Desktop Modus entdecken"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/adjust-settings.rst:3
 msgid "Adjust Your Settings"
-msgstr ""
+msgstr "Passen Sie ihre Einstellungen an"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/android.rst:3
 msgid "Get Our Android App"
-msgstr ""
+msgstr "Holen sie sich unsere Android App"
 
 #: ../../source/explore/get-started.rst:5
 msgid ""
@@ -166,10 +186,15 @@ msgid ""
 "application, so that you can begin making friends and exploring the "
 "metaverse."
 msgstr ""
+"Wir wissen, das es schwierig ist, sich in einem neuen Programm "
+"zurechtzufinden: Es macht nicht immer Spaß die Software zu installieren und "
+"die Steuerung zu verstehen. Hoffentlich wird ihnen dieser Abschnitt dabei "
+"helfen mit unserem Programm vertraut zu werden, damit sie anfangen können, "
+"Freundschaften zu schließen, und das Metaversum zu entdecken."
 
 #: ../../source/explore/get-started.rst:7
 msgid "**In This Section**"
-msgstr ""
+msgstr "**In diesem Abschnitt**"
 
 #: ../../source/explore/get-started/adjust-settings.rst:5
 msgid ""
@@ -177,6 +202,9 @@ msgid ""
 "preferences. Many of these settings are changed using the HUD (in Desktop"
 " mode) or Tablet (in VR mode)."
 msgstr ""
+"Sie können verschiedene Einstellungen ändern, damit diese ihren Bedürfnissen "
+"entsprechen. Viele dieser Einstellungen werden mit dem HUD (im Desktop Modus)"
+" oder mit dem Tablet (im VR Modus) geändert."
 
 #: ../../source/explore/get-started/adjust-settings.rst:8
 #: ../../source/explore/get-started/android.rst:11
@@ -188,11 +216,11 @@ msgstr ""
 #: ../../source/explore/personalize/add-wearables.rst:8
 #: ../../source/explore/socialize.rst:8
 msgid "On This Page"
-msgstr ""
+msgstr "Auf dieser Seite"
 
 #: ../../source/explore/get-started/adjust-settings.rst:12
 msgid "The Tablet and HUD"
-msgstr ""
+msgstr "Das Tablet und HUD"
 
 #: ../../source/explore/get-started/adjust-settings.rst:14
 msgid ""
@@ -201,6 +229,10 @@ msgid ""
 "/install-apps>`. Pull up the tablet by clicking the menu button on your "
 "controller."
 msgstr ""
+"In VR befinden sich alle ihre Einstellungen in ihrem **Tablet**. Das Tablet "
+"bietet ihnen außerdem einfachen Zugriff auf alle :doc:'Apps die sie "
+"installiert haben. <../personalize/install-apps>' Holen sie Ihr Tablet "
+"hervor, indem sie den Menüknopf ihres Controllers drücken."
 
 #: ../../source/explore/get-started/adjust-settings.rst:18
 msgid ""
@@ -211,10 +243,17 @@ msgid ""
 "**Developer** menu by going to **Settings > Developer Menu**. Then, go to"
 " **Developer > UI > Desktop Tablet Becomes Toolbar**."
 msgstr ""
+"Im Desktop Modus haben Sie die Option, entweder das Tablet oder eine "
+"kleinere Version genannt \"Heads-up Display\" (kurz HUD) zu verwenden. Das "
+"HUD enthält exakt dieselben Optionen wie das Tablet (Einstellungen, Apps, "
+"etc...), aber es verbraucht weniger Platz auf Ihrem Bildschirm. Um das HUD "
+"zu aktivieren, müssen Sie zunächst das **Developer Menu** aktivieren, indem "
+"sie zu **Settings** > Developer Menu** gehen. Dann gehen sie zu **Developer "
+"> UI > Desktop Tablet Becomes Toolbar**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:24
 msgid "Enter or Exit VR Mode"
-msgstr ""
+msgstr "VR Modus aktivieren oder deaktivieren"
 
 #: ../../source/explore/get-started/adjust-settings.rst:26
 msgid ""
@@ -223,6 +262,11 @@ msgid ""
 "contains many of Vircadia's features such as audio, basic movements and "
 "gestures, and the ability to travel to different domains."
 msgstr ""
+"Sie können Vircadia mit oder ohne VR Equipment wie zum Beispiel ein head "
+"mounted display (HDM), Hand Controllern oder Audio Headset spielen. Unser "
+"Desktop Modus enthält ebenfalls viele Funktionen wie Audio, simple "
+"Bewegungen und Gesten, und die Fähigkeit zwischen verschiedenen "
+"Domains(Welten) zu reisen."
 
 #: ../../source/explore/get-started/adjust-settings.rst:28
 msgid ""
@@ -233,38 +277,48 @@ msgid ""
 " between VR mode and Desktop mode. To switch to VR mode, use one of the "
 "following methods:"
 msgstr ""
+"Beachten Sie aber, dass sie mit VR equipment die am beeindruckensden "
+"Erfahrungen machen. Denn nur in VR sind Sie in der Lage mit anderen Spielern "
+"oder Objekten in 3D zu interagieren und ihre Körperbewegungen in die "
+"virtuelle Welt zu übertragen. Sobald Sie ihre VR Umgebung eingerichtet "
+"haben, können Sie einfach zwischen VR und Desktop Modus wechseln. Verwenden "
+"sie dazu eine der folgenden Möglichkeiten:"
 
 #: ../../source/explore/get-started/adjust-settings.rst:30
 msgid "From the HUD, click **Enter VR**."
-msgstr ""
+msgstr "Klicken Sie **Enter VR** auf dem HUD."
 
 #: ../../source/explore/get-started/adjust-settings.rst:31
 msgid "Click the **Display** menu, then select your VR device."
-msgstr ""
+msgstr "Klicken sie auf das **Display** Menü, und wählen sie ihr VR Gerät aus."
 
 #: ../../source/explore/get-started/adjust-settings.rst:33
 msgid ""
 "To exit from VR mode, remove your headset, click **Exit VR** on the HUD "
 "or press ``ESC`` on your keyboard."
 msgstr ""
+"Um den VR Modus zu beenden, ziehen Sie ihr VR Headset ab, und klicken sie **"
+"Exit VR** auf dem HUD oder drücken sie ``ESC`` auf ihrer Tastatur."
 
 #: ../../source/explore/get-started/adjust-settings.rst:37
 msgid "Set Your Perspective"
-msgstr ""
+msgstr "Ändern Sie ihre Perspektive"
 
 #: ../../source/explore/get-started/adjust-settings.rst:39
 msgid ""
 "You can choose how you view things around you by changing your "
 "perspective. To change your perspective:"
 msgstr ""
+"Sie können auswählen, wie Sie Dinge um sich herum sehen, indem Sie ihre "
+"Perspektive ändern:"
 
 #: ../../source/explore/get-started/adjust-settings.rst:41
 msgid "In Desktop mode, go to **View** in the menu on the top left corner."
-msgstr ""
+msgstr "Im Desktop Modus gehen sie zu **View** in dem Menü oben links."
 
 #: ../../source/explore/get-started/adjust-settings.rst:42
 msgid "In VR mode, open your Tablet and go to **Menu > View**."
-msgstr ""
+msgstr "Im VR Modus öffnen Sie Ihr Tablet und gehen Sie zu **Menu > View**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:45
 #: ../../source/explore/get-started/adjust-settings.rst:89
@@ -272,7 +326,7 @@ msgstr ""
 #: ../../source/explore/get-started/setup-audio.rst:131
 #: ../../source/explore/get-started/vr-controls.rst:60
 msgid "Setting"
-msgstr ""
+msgstr "Einstellungen"
 
 #: ../../source/explore/get-started/adjust-settings.rst:45
 #: ../../source/explore/get-started/adjust-settings.rst:89
@@ -282,7 +336,7 @@ msgstr ""
 #: ../../source/explore/get-started/vr-controls.rst:60
 #: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: ../../source/explore/get-started/adjust-settings.rst:47
 msgid "First Person"
@@ -294,6 +348,9 @@ msgid ""
 " first person. In this view, you will not see yourself, only the "
 "environment around you."
 msgstr ""
+"Wählen Sie diese Einstellung aus, wenn Sie ihre Perspektive zu First Person "
+"ändern wollen. In dieser Ansicht werden Sie sich nicht Selbst sehen, nur die "
+"Umgebung um Sie herum."
 
 #: ../../source/explore/get-started/adjust-settings.rst:50
 msgid "Third Person"
@@ -304,16 +361,22 @@ msgid ""
 "Select this setting to change your perspective to third person. In this "
 "view, you will see yourself, as well as the environment around you."
 msgstr ""
+"Wählen Sie diese Einstellung aus, wenn Sie ihre Perspektive zu Third Person "
+"ändern wollen. In dieser Ansicht werden Sie sich Selbst und die Umgebung um "
+"Sie herum sehen."
 
 #: ../../source/explore/get-started/adjust-settings.rst:53
 msgid "Selfie"
-msgstr ""
+msgstr "Selfie"
 
 #: ../../source/explore/get-started/adjust-settings.rst:53
 msgid ""
 "Select this to change your perspective to look at yourself. In this view,"
 " you will see yourself and the space behind you."
 msgstr ""
+"Wählen Sie diese Einstellung aus, wenn Sie ihre Perspektive auf sich selbst "
+"richten wollen. In dieser Ansicht werden Sie sich Selbst und die Umgebung "
+"hinter sich sehen."
 
 #: ../../source/explore/get-started/adjust-settings.rst:56
 msgid "Independent Mode"
@@ -3931,4 +3994,3 @@ msgstr ""
 #~ "can change this image on our "
 #~ "`website <https://highfidelity.com/>`_."
 #~ msgstr ""
-

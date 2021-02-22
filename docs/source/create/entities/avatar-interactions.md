@@ -18,7 +18,7 @@ There are two methods you can use to script these interactions. [`Entities.enter
 
 The following example walks you through the process of creating a simple entity, and scripting an interaction between the entity and your avatar. When your avatar comes in contact with the box, the box will change color. When your avatar moves away, the box will return to its original color. 
 
-1. [Create a cube entity](create-entities.html).  ![](_images/add-entity.png)
+1. [Create a cube entity](create-entities).  ![](_images/add-entity.png)
 2. The following script changes the color of the cube as you approach (yellow) or leave (pink) its bounding box. Save it to a file called `interactions-example.js`.
     ```javascript
     (function(){
@@ -45,7 +45,7 @@ Your avatar will also interact with avatar entities. Avatar entities are entitie
 
 Avatar entities live on the [Avatar Mixer](../../explore/get-started/architecture.html#assignment-clients), so they are connected to (and move with) your avatar. We've listed the ways you can create avatar entities with some examples:
 
-1. [Create a wearable:](../wearables.html) All wearables are avatar entities. 
+1. [Create a wearable:](../wearables) All wearables are avatar entities.
 2. [Clone as an avatar entity:](entity-behavior.html#make-an-entity-cloneable) When you clone an entity as an avatar entity, you make a copy of the entity and attach it to your avatar. Every copy of that entity will now leave with the avatar when they leave the domain. For example, if you have a coffee shop in your domain, you can set all coffee cups to be cloned as avatar entities. Any user who clones a coffee cup will take the avatar entity with them when they exit the domain. You can keep your domain free of clutter using this property.
 3. Add an avatar entity using a script: You can add an avatar entity using scripts. For example, you can create a script to have a pet (avatar entity) follow you around as you explore Vircadia. 
 
@@ -62,7 +62,7 @@ Avatar entities live on the [Avatar Mixer](../../explore/get-started/architectur
 
 **See Also**
 
-+ [Define an Entity's Behavior](entity-behavior.html)
-+ [Interact with Your Environment](../../explore/interact.html)
++ [Define an Entity's Behavior](entity-behavior)
++ [Interact with Your Environment](../../explore/interact)
 + [API Reference: Entities](https://apidocs.vircadia.dev/Entities.html)
-+ [Get Started with Scripting](../../script/get-started-with-scripting.html)
++ [Get Started with Scripting](../../script/get-started-with-scripting)

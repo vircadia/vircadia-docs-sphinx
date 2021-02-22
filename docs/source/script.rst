@@ -18,5 +18,4 @@ Throughout this chapter, learn about the different types of scripts and how you 
     Avatar Scripts <script/avatar-scripts>
     Client Entity Scripts <script/client-entity-scripts>
     Server Entity Scripts <script/server-entity-scripts>
-    Tutorial: Transfer Money and Items <script/transfer-hfc-tutorial>
     Tutorial: Use MIDI to Control Your Environment <script/midi-tutorial>

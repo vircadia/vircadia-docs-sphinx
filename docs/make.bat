@@ -10,7 +10,7 @@ if "%SPHINXBUILD%" == "" (
 set SOURCEDIR=source
 set BUILDDIR=build
 
-set "BUILDGENERAL=%SOURCEDIR%/developer/build/BUILD_GENERAL.md"
+set "BUILDGENERAL=%SOURCEDIR%/developer/build/BUILD.md"
 set "BUILDANDROID=%SOURCEDIR%/developer/build/BUILD_ANDROID.md"
 set "BUILDLINUX=%SOURCEDIR%/developer/build/BUILD_LINUX.md"
 set "BUILDOSX=%SOURCEDIR%/developer/build/BUILD_OSX.md"

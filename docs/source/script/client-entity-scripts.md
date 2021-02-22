@@ -43,6 +43,6 @@ This example is written as a JavaScript class prototype function, and it uses th
 
 **See Also**
 
-- [Get Started with Scripting](get-started-with-scripting.html)
-- [Write Your Own Scripts](write-scripts.html)
+- [Get Started with Scripting](get-started-with-scripting)
+- [Write Your Own Scripts](write-scripts)
 - [API Reference](https://apidocs.vircadia.dev)

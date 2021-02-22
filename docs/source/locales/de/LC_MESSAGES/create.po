@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2020-06-26 21:08+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-02-10 00:46+0000\n"
+"Last-Translator: Nick <origamimars@gmail.com>\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/create/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/create/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:3
@@ -155,7 +156,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:9
 #: ../../source/create/tools.rst:8
 msgid "On This Page"
-msgstr ""
+msgstr "Auf dieser Seite"
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
@@ -495,7 +496,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:157
 #: ../../source/create/environments.rst:15
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: ../../source/create/3d-models/import-animations.rst:45
 msgid "Play Automatically"
@@ -594,7 +595,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:133
 msgid "**See Also**"
-msgstr ""
+msgstr "**Siehe auch**"
 
 #: ../../source/create/3d-models/import-animations.rst:68
 msgid ":doc:`Import Your 3D Model <import-model>`"
@@ -2323,7 +2324,7 @@ msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:18
 msgid "**In This Section**"
-msgstr ""
+msgstr "**In diesem Abschnitt**"
 
 #: ../../source/create/avatars/create-avatars.rst:28
 msgid "Create an Avatar from Scratch"
@@ -4355,7 +4356,7 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:57
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:118
 msgid "Interact with Your Environment"
-msgstr ""
+msgstr "Interagieren Sie mit ihrer Umgebung"
 
 #: ../../source/create/entities/avatar-interactions.md:67
 msgid "API Reference: Entities"
@@ -5509,7 +5510,7 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:119
 #: ../../source/create/entities/entity-appearance.rst:144
 msgid "Setting"
-msgstr ""
+msgstr "Einstellungen"
 
 #: ../../source/create/entities/entity-appearance.rst:26
 #: ../../source/create/entities/entity-appearance.rst:75
@@ -9801,4 +9802,3 @@ msgstr ""
 #~ "triggering the button to open the "
 #~ "Marketplace web page for your item."
 #~ msgstr ""
-
