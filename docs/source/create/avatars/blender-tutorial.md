@@ -1,3 +1,6 @@
+This document is outdated.
+FIXME: Contains HiFi hosted content, mentions High Fidelity, only talks about FBX, Blender changed a LOT
+
 # Tutorial: Modify Materials and Textures Using Blender
 
 Blender is an open-source 3D modeling tool that you can use to fine tune your avatar and ensure that the materials and textures render correctly in High Fidelity. 

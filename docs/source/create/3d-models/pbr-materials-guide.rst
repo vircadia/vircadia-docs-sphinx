@@ -1,3 +1,7 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: Blender material settings outdated
+
 ###################
 PBR Materials Guide
 ###################

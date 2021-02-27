@@ -1,3 +1,7 @@
+.. warning::
+    This document is outdated.
+    FIXME: Mentions High Fidelity, only mentions FBX (glTF also supported), doesn't mention that you don't need to package, mentions Marketplace
+
 ##################################
 Package and Host Your Avatar
 ##################################

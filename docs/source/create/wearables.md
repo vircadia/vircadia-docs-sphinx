@@ -1,3 +1,6 @@
+This document is outdated.
+FIXME: only mentions FBX format, mentions weight needing to be higher?, mentions marketplace
+
 # Wearables
 
 Wearables are objects that attach to your avatar. They can be hats, skirts, glasses, headphones and anything else that can accessorize your look in-world. You can express your individuality by creating wearables of your own and [putting them on](../explore/personalize/add-wearables).

@@ -1,3 +1,7 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: Mentions only FBX (check if glTF is also supported), contains HiFi hosted content
+
 ###########################
 Customize Avatar Animations
 ###########################

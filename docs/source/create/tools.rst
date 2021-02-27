@@ -1,3 +1,7 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: Mentions Shapes app, mentions supposedly know issues
+
 ######################
 Create Tools
 ######################

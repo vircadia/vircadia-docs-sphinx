@@ -1,3 +1,7 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: Video codecs outdated, reset password misformated.
+
 ##########################
 Frequently Asked Questions
 ##########################

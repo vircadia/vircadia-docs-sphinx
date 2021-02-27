@@ -1,3 +1,6 @@
+This document might be outdated.
+FIXME: Check if Fuse still works as no one uses it, mentions supposedly known issue
+
 # Tutorial: Create an Avatar with Fuse
 
 <div class="admonition note">

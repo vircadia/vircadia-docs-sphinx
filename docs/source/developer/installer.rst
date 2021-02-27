@@ -1,3 +1,7 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: Mentions Sandbox
+
 #####################
 Creating an Installer
 #####################

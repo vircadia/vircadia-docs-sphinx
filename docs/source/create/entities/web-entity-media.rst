@@ -1,3 +1,7 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: should mention the video sync script
+
 ##########################
 Play Media in a Web Entity
 ##########################

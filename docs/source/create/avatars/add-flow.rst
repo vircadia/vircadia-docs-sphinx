@@ -1,3 +1,7 @@
+
+    FIXME: Mentions High Fidelity, links to HiFi hosted resources
+    This document is outdated.
+.. warning::
 #######################
 Add Flow to Your Avatar
 #######################

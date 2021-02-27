@@ -1,3 +1,7 @@
+
+    FIXME: Mentions serviced like VRoid Studio even though their skeletons have never been supported (the Unity avatar exporter will not be able to fix that)
+    This document is outdated.
+.. warning::
 ##############################
 Create Your Own Avatar
 ##############################
