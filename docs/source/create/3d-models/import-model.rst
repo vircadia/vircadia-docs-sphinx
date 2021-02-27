@@ -13,7 +13,7 @@ Import Models from the Cloud
 
 If you want your model available to users in other domains, we recommend uploading it to a cloud hosting service of your choice. 
 
-1. Locate and copy the URL of the model you would like to import. The model should be a OBJ or FBX format. 
+1. Locate and copy the URL of the model you would like to import. The model should be a OBJ, glTF or FBX format.
 2. In Interface, pull up your HUD or Tablet and go to **Create**.
 3. Select the 'Model' icon.
 4. Paste the model's URL and click 'Add'.
