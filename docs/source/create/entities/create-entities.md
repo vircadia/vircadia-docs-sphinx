@@ -1,6 +1,6 @@
 # Create New Entities
 
-We are continually surprised by the ingenuity and creativity of the content creators in our community. You too can join this community by creating new entities. The easiest way to start building is to use High Fidelity's **Create** app. 
+We are continually surprised by the ingenuity and creativity of the content creators in the community. You too can join this community by creating new entities. The easiest way to start building is to use Vircadia's **Create** app.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>

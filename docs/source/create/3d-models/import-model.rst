@@ -2,7 +2,7 @@
 Import a 3D Model 
 ########################
 
-You can import a 3D model into High Fidelity that is hosted online or on your domain's Asset Server. Importing your model rezzes it into your domain and adds it to your virtual world.
+You can import a 3D model into Vircadia that is hosted online or on your domain's Asset Server. Importing your model rezzes it into your domain and adds it to your virtual world.
 
 .. contents:: On This Page
     :depth: 2
