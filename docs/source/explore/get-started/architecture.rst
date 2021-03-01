@@ -1,8 +1,12 @@
+
+    FIXME: says that you can use an Android phone, images still show High Fidelity services and marketplace
+    This document is slightly outdated.
+.. warning::
 ################################
 Understand the Architecture
 ################################
 
-Vircadia's architecture shows how different parts of the system work together to give you the best VR experience. 
+Vircadia's architecture shows how different parts of the system work together to give you the best VR experience.
 
 .. contents:: On This Page
     :depth: 2

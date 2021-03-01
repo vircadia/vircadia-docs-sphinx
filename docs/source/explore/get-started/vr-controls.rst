@@ -1,8 +1,12 @@
+
+    FIXME: since we support OpenVR and Oculus Runtime we support almost all HMDs and input devices on the market, we probably support alternatives to Vive Trackers
+    This document is slightly outdated.
+.. warning::
 #########################
 Use Your VR Equipment
 #########################
 
-To get the best and most immersive experience in Vircadia, we encourage you to use VR equipment, such as the Oculus Rift or HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. We support the following VR equipment: 
+To get the best and most immersive experience in Vircadia, we encourage you to use VR equipment, such as the Oculus Rift or HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. We support the following VR equipment:
 
 +------------------------------------------------+---------------------+
 | Head Mounted Displays                          | Hand Controllers    |

@@ -1,3 +1,7 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: only mentions FBX files
+
 ###################################
 Put On Wearables
 ###################################

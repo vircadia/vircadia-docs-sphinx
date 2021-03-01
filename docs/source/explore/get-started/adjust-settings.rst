@@ -1,8 +1,12 @@
+
+    FIXME: some perspective options don't exist anymore, mentions security picture, says that lower graphics setting increase performance (not entirely true in our case)
+    This document is slightly outdated.
+.. warning::
 ####################
 Adjust Your Settings
 ####################
 
-You can adjust various settings in Vircadia so that it runs to your preferences. Many of these settings are changed using the HUD (in Desktop mode) or Tablet (in VR mode). 
+You can adjust various settings in Vircadia so that it runs to your preferences. Many of these settings are changed using the HUD (in Desktop mode) or Tablet (in VR mode).
 
 .. contents:: On This Page
     :depth: 2
