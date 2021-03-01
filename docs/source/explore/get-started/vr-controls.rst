@@ -1,7 +1,7 @@
-
-    FIXME: since we support OpenVR and Oculus Runtime we support almost all HMDs and input devices on the market, we probably support alternatives to Vive Trackers
-    This document is slightly outdated.
 .. warning::
+    This document is slightly outdated.
+    FIXME: since we support OpenVR and Oculus Runtime we support almost all HMDs and input devices on the market, we probably support alternatives to Vive Trackers
+
 #########################
 Use Your VR Equipment
 #########################

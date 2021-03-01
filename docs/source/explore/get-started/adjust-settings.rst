@@ -1,7 +1,7 @@
-
-    FIXME: some perspective options don't exist anymore, mentions security picture, says that lower graphics setting increase performance (not entirely true in our case)
-    This document is slightly outdated.
 .. warning::
+    This document is slightly outdated.
+    FIXME: some perspective options don't exist anymore, mentions security picture, says that lower graphics setting increase performance (not entirely true in our case)
+
 ####################
 Adjust Your Settings
 ####################
