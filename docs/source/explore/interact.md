@@ -1,8 +1,8 @@
 # Interact with Your Environment
 
-In High Fidelity, your experiences are shaped the world around you. When you enter a domain, all of the space around you is built with [entities](../create/entities), or the building blocks of your environments. The walls of your room, the tree in the distance, or the animated butterfly that flew past are all entities. 
+In Vircadia, your experiences are shaped the world around you. When you enter a domain, all of the space around you is built with [entities](../create/entities), or the building blocks of your environments. The walls of your room, the tree in the distance, or the animated butterfly that flew past are all entities.
 
-Just like in the real world, you can interact with your environment by grabbing items or colliding with objects. 
+Just like in the real world, you can interact with your environment by grabbing items or colliding with objects.
 
 **On This Page:**
 
@@ -13,7 +13,7 @@ Just like in the real world, you can interact with your environment by grabbing 
 
 ## Grab Objects
 
-You can grab objects in High Fidelity using your mouse or hand controllers. You can grab an entity, hold it, throw it, and drop it depending on the [entity's properties](../create/entities/entity-behavior).
+You can grab objects in Vircadia using your mouse or hand controllers. You can grab an entity, hold it, throw it, and drop it depending on the [entity's properties](../create/entities/entity-behavior).
 
 * In Desktop mode, click and hold the left mouse button to grab and hold an entity.
 * In VR mode, reach out towards the object and press the Grab button. The location of this button depends on the controllers you are using.
@@ -27,7 +27,7 @@ You can grab objects in High Fidelity using your mouse or hand controllers. You 
 
 ## Collisions
 
-You can collide (or run into) objects and other avatars in High Fidelity. Likewise, objects can collide with one another. We use [physics to govern how entities behave](../create/entities/entity-physics) when they collide with each other or with avatars.
+You can collide (or run into) objects and other avatars in Vircadia. Likewise, objects can collide with one another. We use [physics to govern how entities behave](../create/entities/entity-physics) when they collide with each other or with avatars.
 
 Without this collision property set, objects will move straight through other entities and avatars. As you interact with your environment, take note on which objects have collisions enabled based on whether or not you can walk through them.
 
