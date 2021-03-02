@@ -1,5 +1,7 @@
-This document is outdated.
-FIXME: mentions GoTo app
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document is outdated. FIXME: mentions GoTo app</p>
+</div>
 
 # Travel Between Worlds
 

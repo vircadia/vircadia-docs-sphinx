@@ -1,5 +1,7 @@
-This document might be outdated.
-FIXME: Check if Fuse still works as no one uses it, mentions supposedly known issue
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document might be outdated. FIXME: Check if Fuse still works as no one uses it, mentions supposedly known issue</p>
+</div>
 
 # Tutorial: Create an Avatar with Fuse
 

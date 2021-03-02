@@ -1,5 +1,7 @@
-This document is slightly outdated.
-FIXME: Mentions High Fidelity, texture resolutions should have more guidance, contains HiFi hosted resources
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document is slightly outdated. FIXME: Mentions High Fidelity, texture resolutions should have more guidance, contains HiFi hosted resources</p>
+</div>
 
 # Avatar Standards Guide
 

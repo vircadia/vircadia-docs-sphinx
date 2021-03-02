@@ -1,9 +1,11 @@
-This document is slightly outdated.
-FIXME: Mentions welcome domain, welcome domain url malformed, mentions GoTo app
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document is slightly outdated. FIXME: Mentions welcome domain, welcome domain url malformed, mentions GoTo app</p>
+</div>
 
 # Tutorial: Create a Portal
 
-Portals in Vircadia transport you to the domain of your choice. You can use these portals to travel to a domain you visit frequently instead of using the **GoTo** app on your HUD or Tablet. 
+Portals in Vircadia transport you to the domain of your choice. You can use these portals to travel to a domain you visit frequently instead of using the **GoTo** app on your HUD or Tablet.
 
 **On This Page:**
 

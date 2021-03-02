@@ -1,5 +1,7 @@
-This document is outdated.
-FIXME: only mentions FBX format, mentions weight needing to be higher?, mentions marketplace
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document is outdated. FIXME: only mentions FBX format, mentions weight needing to be higher?, mentions marketplace</p>
+</div>
 
 # Wearables
 

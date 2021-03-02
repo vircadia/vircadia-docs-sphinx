@@ -1,6 +1,7 @@
-.. warning::
-    This document is outdated.
-    FIXME: mentions only FST files, mentions marketplace
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document is outdated. FIXME: mentions only FST files, mentions marketplace</p>
+</div>
 
 # Change Your Avatar
 

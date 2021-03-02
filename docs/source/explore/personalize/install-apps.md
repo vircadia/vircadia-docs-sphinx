@@ -1,5 +1,7 @@
-This document is outdated.
-FIXME: mentions marketplace, mentions old inventory, mentions apps which are not widely available anymore
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document is outdated. FIXME: mentions marketplace, mentions old inventory, mentions apps which are not widely available anymore</p>
+</div>
 
 # Install Tablet Apps
 
