@@ -22,13 +22,13 @@ Consider getting familiar with the following concepts before starting this tutor
 Create a Smoke Fountain
 ---------------------------------
 
-Particle entities are used to create effects that are made up of smaller parts such as smoke, confetti, or falling leaves. The entity's effect and appearance is defined by its texture. The default texture is a `wispy smoke texture <https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png>`_, but you can replace this texture with your own to create your desired effect. 
+Particle entities are used to create effects that are made up of smaller parts such as smoke, confetti, or falling leaves. The entity's effect and appearance is defined by its texture. The default texture is a `wispy smoke texture <https://cdn-1.vircadia.com/us-e-1/Bazaar/Assets/Textures/Defaults/Interface/default_particle.png>`_, but you can replace this texture with your own to create your desired effect.
 
-To create your smoke fountain using a particle entity: 
+To create your smoke fountain using a particle entity:
 
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. Click the 'Particle' icon to create the particle entity. By default, the particle entity emits smoke. 
+2. Click the 'Particle' icon to create the particle entity. By default, the particle entity emits smoke.
 3. Go to the 'Properties' tab, and set the following values:
 
 	+-------------------+-----------------------------------------------------+-----------------------------------------------------------------------------+
@@ -73,9 +73,14 @@ To create your smoke fountain using a particle entity:
 
 
 
-.. image:: _images/smoke-fountain.gif
+.. video:: ../../_static/videos/smoke-fountain.webm
+   :autoplay:
+   :nocontrols:
+   :loop:
+   :muted:
+   :additionalsource: ../../_static/videos/smoke-fountain.mp4
 
-Congratulations! You've created a multi-colored smoke fountain! You can experiment with different settings to simulate particle movement, such as a waterfall, confetti gun, or falling leaves. 
+Congratulations! You've created a multi-colored smoke fountain! You can experiment with different settings to simulate particle movement, such as a waterfall, confetti gun, or falling leaves.
 
 
 

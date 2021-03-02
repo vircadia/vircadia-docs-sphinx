@@ -4,18 +4,21 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-25 03:02+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
+"POT-Creation-Date: 2020-12-19 04:53+0000\n"
+"PO-Revision-Date: 2021-02-10 00:46+0000\n"
+"Last-Translator: Nick <origamimars@gmail.com>\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/faq/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/faq.rst:3
@@ -24,13 +27,13 @@ msgstr ""
 
 #: ../../source/faq.rst:5
 msgid ""
-"We get a lot of questions from our users! If you have questions about our"
-" product, feel free to browse through this page to learn more."
+"We get a lot of questions from our users! If you have questions about "
+"Vircadia, feel free to browse through this page to learn more."
 msgstr ""
 
 #: ../../source/faq.rst:9
 msgid "On This Page"
-msgstr ""
+msgstr "Auf dieser Seite"
 
 #: ../../source/faq.rst:13
 msgid "Content Creation"
@@ -79,107 +82,98 @@ msgstr ""
 
 #: ../../source/faq.rst:41
 msgid ""
-"For cloud domains, you can reset the username and password to a temporary"
-" one through your High Fidelity account settings. To do so, go to "
-"https://metaverse.highfidelity.com/user/cloud_domains and log in if "
-"prompted. Click the \"More Options\" menu (3 dots on the right-side of "
-"the row), then click 'Reset Domain Server password'. Once the username "
-"and password are reset, log in to your domain settings with the temporary"
-" credentials. We recommend `setting a new username and password <host"
-"/configure-settings/authentication-setting.html>`_ at this time."
+"The authentication settings for your domain are encrypted into a "
+"configuration file on the server's file system. To 'reset' the "
+"authentication settings, you need to manually remove the HTTP security "
+"settings ('http_password' and 'http_username') from config.json. The "
+"config file is stored on the server in the following directories:"
+msgstr ""
+
+#: ../../source/faq.rst:46
+msgid "**Windows**: %AppData%\\Roaming\\Vircadia\\domain-server\\"
 msgstr ""
 
 #: ../../source/faq.rst:47
-msgid ""
-"For local servers, the authentication settings for your domain are "
-"encrypted into a configuration file on the local server's file system. To"
-" 'reset' the authentication settings, you need to manually remove the "
-"HTTP security settings ('http_password' and 'http_username') from "
-"config.json. The config file is stored on the server in the following "
-"directories:"
+msgid "**Mac**: ~/Library/Application Support/Vircadia/domain-server/"
 msgstr ""
 
-#: ../../source/faq.rst:52
-msgid "**Windows**: %AppData%/Roaming/Project Athena/domain-server"
+#: ../../source/faq.rst:48
+msgid "**Linux**: /var/lib/vircadia/default/domain-server/"
 msgstr ""
 
 #: ../../source/faq.rst:53
-msgid "**Mac**: ~/Library/Application Support/Project Athena/domain-server"
-msgstr ""
-
-#: ../../source/faq.rst:58
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../source/faq.rst:60
+#: ../../source/faq.rst:55
 msgid "`Why can't I connect to a domain? <#cannot-connect>`_"
 msgstr ""
 
-#: ../../source/faq.rst:61
+#: ../../source/faq.rst:56
 msgid "`No one can hear me! <#no-input>`_"
 msgstr ""
 
-#: ../../source/faq.rst:62
+#: ../../source/faq.rst:57
 msgid "`I can't hear anything in Vircadia <#no-output>`_"
 msgstr ""
 
-#: ../../source/faq.rst:67
+#: ../../source/faq.rst:62
 msgid "Why can't I connect to a domain?"
 msgstr ""
 
-#: ../../source/faq.rst:69
+#: ../../source/faq.rst:64
 msgid ""
 "If you cannot connect to your virtual workplace, follow these steps to "
 "resolve the issue:"
 msgstr ""
 
-#: ../../source/faq.rst:71
+#: ../../source/faq.rst:66
 msgid ""
 "Check your internet connection, and ensure that your bandwidth is at "
 "least 10Mbps download, 2Mbps upload."
 msgstr ""
 
-#: ../../source/faq.rst:73
+#: ../../source/faq.rst:68
 msgid ""
 "You may not have permissions to enter the domain. If you know the domain "
 "owner, contact them to gain access to the domain."
 msgstr ""
 
-#: ../../source/faq.rst:75
+#: ../../source/faq.rst:70
 msgid "Ensure that your firewall settings allow you to run Vircadia."
 msgstr ""
 
-#: ../../source/faq.rst:77
+#: ../../source/faq.rst:72
 msgid ""
 "For Windows: In your firewall settings, open the  port 40102, and add "
 "'interface.exe' to the list of allowed apps."
 msgstr ""
 
-#: ../../source/faq.rst:79
+#: ../../source/faq.rst:74
 msgid ""
 "For Mac: In your firewall settings, add 'interface.app' (**Library > "
 "Application Support > Launcher > interface.app**) and allow incoming "
 "connections for that application."
 msgstr ""
 
-#: ../../source/faq.rst:86
+#: ../../source/faq.rst:81
 msgid "No one can hear me!"
 msgstr ""
 
-#: ../../source/faq.rst:88
+#: ../../source/faq.rst:83
 msgid ""
 "If other users in the domain can't hear you, then you are likely muted or"
 " your microphone gain is set too low. Here are some steps to troubleshoot"
 " your issue:"
 msgstr ""
 
-#: ../../source/faq.rst:91
+#: ../../source/faq.rst:86
 msgid ""
 "**Are you muted in Vircadia?** When logged in, check the upper left "
 "corner. If you're muted, click the microphone to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:93
+#: ../../source/faq.rst:88
 msgid ""
 "**Is your physical output device muted or turned off?** Some headsets and"
 " microphones have a 'Power' and/or 'Mute' switch directly on the device "
@@ -188,14 +182,14 @@ msgid ""
 "turned on or the mute button may have been pressed."
 msgstr ""
 
-#: ../../source/faq.rst:100
+#: ../../source/faq.rst:95
 msgid ""
 "**Is your mic muted or disabled on your computer?** Lastly, your device "
 "might be muted or disabled by your operating system. Check your operating"
 " system's input device settings:"
 msgstr ""
 
-#: ../../source/faq.rst:103
+#: ../../source/faq.rst:98
 msgid ""
 "On Windows, go to **Control Panel > Sound > Recording** tab. Choose the "
 "device you are using with Vircadia and click 'Properties'. On the "
@@ -204,7 +198,7 @@ msgid ""
 "muted, click the icon to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:107
+#: ../../source/faq.rst:102
 msgid ""
 "On Mac, go to **System Preferences > Sound > Input** tab. Choose the "
 "device you are using with Vircadia. If the 'Input volume' is turned all "
@@ -212,7 +206,7 @@ msgid ""
 "volume to re-enable your microphone."
 msgstr ""
 
-#: ../../source/faq.rst:110
+#: ../../source/faq.rst:105
 msgid ""
 "**Have you allowed Vircadia access to the microphone?** Some operating "
 "systems require you to give explicit permission to apps to take advantage"
@@ -220,20 +214,20 @@ msgid ""
 "your microphone permissions in your operating system settings:"
 msgstr ""
 
-#: ../../source/faq.rst:115
+#: ../../source/faq.rst:110
 msgid ""
 "On Windows, go to **Settings > Privacy > Microphone**. Make sure that "
 "'Allow desktop apps to access your microphone' is turned on."
 msgstr ""
 
-#: ../../source/faq.rst:117
+#: ../../source/faq.rst:112
 msgid ""
 "On Mac, go to **System Preferences > Security & Privacy > Privacy**, then"
 " select 'Microphone'. Ensure that the checkbox next to Vircadia is "
 "selected."
 msgstr ""
 
-#: ../../source/faq.rst:120
+#: ../../source/faq.rst:115
 msgid ""
 "If your input device is turned on, and you are not muted in the "
 "application, device, or operating system, then it is likely that your "
@@ -241,67 +235,111 @@ msgid ""
 "operating system settings:"
 msgstr ""
 
-#: ../../source/faq.rst:124
+#: ../../source/faq.rst:119
 msgid ""
 "On Windows, go to **Control Panel > Sound > Recording** tab. Choose the "
 "device you are using with Vircadia and click 'Properties'. On the "
 "'Levels' tab, adjust the 'Microphone Level' and/or 'Microphone Boost'."
 msgstr ""
 
-#: ../../source/faq.rst:127
+#: ../../source/faq.rst:122
 msgid ""
 "On Mac, go to **System Preferences > Sound > Input** tab. Choose the "
 "device you are using with Vircadia and adjust the 'Input volume'."
 msgstr ""
 
-#: ../../source/faq.rst:134
+#: ../../source/faq.rst:129
 msgid "I can't hear anything in Vircadia."
 msgstr ""
 
-#: ../../source/faq.rst:136
+#: ../../source/faq.rst:131
 msgid "Here are some reasons you might not have audio:"
 msgstr ""
 
-#: ../../source/faq.rst:138
+#: ../../source/faq.rst:133
 msgid "Your headset or speakers are turned off."
 msgstr ""
 
-#: ../../source/faq.rst:139
+#: ../../source/faq.rst:134
 msgid ""
 "Your headset or speakers may be muted or disabled by your operating "
 "system. Check your operating system's output device settings:"
 msgstr ""
 
-#: ../../source/faq.rst:142
+#: ../../source/faq.rst:137
 msgid ""
 "On Windows, click the volume icon in the taskbar and select your audio "
 "device. The speaker icon will tell you whether or not your headset or "
 "speakers are disabled. Click the icon to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:145
+#: ../../source/faq.rst:140
 msgid ""
 "On Mac, go to **System Preferences > Sound > Output** tab. Choose the "
 "device you are using with Vircadia. At the bottom of the dialog, uncheck "
 "'Mute' to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:147
+#: ../../source/faq.rst:142
 msgid ""
 "Your headset or speakers have a volume control of their own. Check that "
 "the volume is turned up on the device."
 msgstr ""
 
-#: ../../source/faq.rst:149
+#: ../../source/faq.rst:144
 msgid ""
 "In Vircadia, you have a different audio device selected than the one you "
 "want to use. Open the **Audio** app and make sure the right headset, "
 "speakers, and/or microphone are selected."
 msgstr ""
 
-#: ../../source/faq.rst:151
+#: ../../source/faq.rst:146
 msgid ""
 "Volume is turned down or off in Vircadia. Open the **Audio** app and "
 "check your volume settings."
 msgstr ""
 
+#~ msgid ""
+#~ "We get a lot of questions from "
+#~ "our users! If you have questions "
+#~ "about our product, feel free to "
+#~ "browse through this page to learn "
+#~ "more."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For cloud domains, you can reset "
+#~ "the username and password to a "
+#~ "temporary one through your High Fidelity"
+#~ " account settings. To do so, go "
+#~ "to https://metaverse.highfidelity.com/user/cloud_domains "
+#~ "and log in if prompted. Click the"
+#~ " \"More Options\" menu (3 dots on "
+#~ "the right-side of the row), then"
+#~ " click 'Reset Domain Server password'. "
+#~ "Once the username and password are "
+#~ "reset, log in to your domain "
+#~ "settings with the temporary credentials. "
+#~ "We recommend `setting a new username "
+#~ "and password <host/configure-settings"
+#~ "/authentication-setting.html>`_ at this time."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For local servers, the authentication "
+#~ "settings for your domain are encrypted"
+#~ " into a configuration file on the "
+#~ "local server's file system. To 'reset'"
+#~ " the authentication settings, you need "
+#~ "to manually remove the HTTP security "
+#~ "settings ('http_password' and 'http_username') "
+#~ "from config.json. The config file is "
+#~ "stored on the server in the "
+#~ "following directories:"
+#~ msgstr ""
+
+#~ msgid "**Windows**: %AppData%/Roaming/Project Athena/domain-server"
+#~ msgstr ""
+
+#~ msgid "**Mac**: ~/Library/Application Support/Project Athena/domain-server"
+#~ msgstr ""

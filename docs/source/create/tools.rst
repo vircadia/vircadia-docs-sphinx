@@ -41,7 +41,7 @@ When you select an entity in the Entity List, you can:
 	Shapes: Create in VR
 	------------------------
 
-	The Shapes app is a Marketplace app that lets you :doc:`add and edit basic shapes (entities) <entities/create-entities>` in Athena. You can use Shapes only in VR mode. 
+	The Shapes app is a Marketplace app that lets you :doc:`add and edit basic shapes (entities) <entities/create-entities>` in Vircadia. You can use Shapes only in VR mode. 
 
 	To get the Shapes app: 
 
@@ -69,28 +69,6 @@ When you select an entity in the Entity List, you can:
     * **Physics**: You can modify the :doc:`physics (behavior of your entity in space) <entities/entity-physics>` using the 'Physics' tool. Select 'Physics' to see the variety of options available to you. 
     * **Delete**: You can delete an entity by selecting 'Delete' and then selecting the entity you want to delete. 
 
------------------------------
-Marketplace Item Tester
------------------------------
-
-Once you have created an item, you can test it prior to using it or :doc:`submitting it to Marketplace <../sell/add-item>`. The Marketplace Item Tester reviews all kinds of content, including tablet apps, avatars, content sets, entities, and wearables. Using it, you can verify that your item works the way you expected, and that it does not have any script errors.
-
-To use the Marketplace Item Tester:
-
-1. In Interface, open the menu from either the menu bar (in Desktop) or your Tablet (in VR mode). 
-2. Go to **Menu > Settings > Developer menu** to enable the developer menu. 
-3. Open the **Developer** menu and go to **Marketplace Item Tester**. 
-4. You can load items in two different ways:
-
-    * Click 'Load File' to load an item from your local computer or network. Browse to your file to open it. 
-    * Click 'Load URL' to load an item hosted in the cloud.    
-
-.. image:: _images/load-file.png 
-   
-3. Next to the item you loaded, you will see an icon indicating the type of content. If it is incorrect (or we fail to identify it), you can change it using the dropdown list.
-4. Click the icon to load your content in world. 
-
-.. image:: _images/test-item.png
 
 ----------------------------
 External Creator Tools
@@ -116,13 +94,13 @@ Mixamo
 Blender
 ^^^^^^^^^^^^^^^^^
 
-`Blender <https://www.blender.org>`_ is an open-source 3D modeling creation suite which supports everything from modeling and rigging, to animation and simulation. You can also use Blender to fine tune your avatar, and ensure that the materials and textures render correctly in Athena. 
+`Blender <https://www.blender.org>`_ is an open-source 3D modeling creation suite which supports everything from modeling and rigging, to animation and simulation. You can also use Blender to fine tune your avatar, and ensure that the materials and textures render correctly in Vircadia. 
 
 ^^^^^^^^^^^^^^^^^
 Maya
 ^^^^^^^^^^^^^^^^^
 
-`Maya <https://www.autodesk.in/products/maya/overview>`_ is a subscription based 3D modeling toolset that you can use to create 3D models to import into Athena. 
+`Maya <https://www.autodesk.in/products/maya/overview>`_ is a subscription based 3D modeling toolset that you can use to create 3D models to import into Vircadia. 
 
 ^^^^^^^^^^^^^^^^^
 Blocks

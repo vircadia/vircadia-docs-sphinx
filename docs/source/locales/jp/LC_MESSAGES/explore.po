@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-03 14:57+0200\n"
+"POT-Creation-Date: 2021-01-23 22:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+
+#: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
+msgid "Gallery"
+msgstr ""
 
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 msgid "Get Started with Vircadia"
@@ -46,29 +50,79 @@ msgstr ""
 #: ../../source/explore.rst:5
 msgid ""
 "Vircadia is a metaverse where you can connect and create with others. We "
-"invite you to explore VR worlds created in Vircadia and interact with "
-"other users. You can visit your friend's VR world, meet people, attend "
-"events and even go for a class on avatar creation. It's an immersive and "
+"invite you to explore the worlds created in Vircadia and interact with "
+"other users. You can visit friends' virtual worlds, meet people, attend "
+"events, and learn about creation in virtuality. It's an immersive and "
 "interactive experience with realistic visuals and audio."
 msgstr ""
 
 #: ../../source/explore.rst:7
 msgid ""
-"If its your first time using Vircadia, you'll start your journey a local "
-"space by yourself, where you can experiment with the controls and learn "
-"about the product. When you are ready, try exploring other domains using "
-"the Explore app and socialize with people around the metaverse. If you've"
-" visited Vircadia before, you will return to the location where you last "
-"visited."
+"If it's your first time using Vircadia, you'll start your journey in a "
+"local tutorial space by yourself, where you can experiment with the "
+"controls and learn about the Interface. When you are ready, try exploring"
+" other domains using the Explore app and socialize with people around the"
+" metaverse. If you've visited Vircadia before, you will return to the "
+"location where you last visited."
 msgstr ""
 
 #: ../../source/explore.rst:9
 msgid "Throughout this chapter, learn how to make the most of your exploration:"
 msgstr ""
 
+#: ../../source/explore/gallery.rst:5
+msgid ""
+"This gallery showcases the Vircadia Interface and some past events and "
+"locations attended with it."
+msgstr ""
+
+#: ../../source/explore/gallery.rst:12
+msgid ""
+"Maker Meeting, 28th September 2020, on the \"El Papa Viejo\" (meaning "
+"\"The Old Pope\")."
+msgstr ""
+
+#: ../../source/explore/gallery.rst:19
+msgid "Startup Lab Lagoon Koza booth at Startup Asia X, 12th June 2020."
+msgstr ""
+
+#: ../../source/explore/gallery.rst:26
+msgid "Group photo at the end of Startup Asia X, 12th June 2020."
+msgstr ""
+
+#: ../../source/explore/gallery.rst:33
+msgid "Dale Glass speaking at the Developer Meeting, 20th September 2020."
+msgstr ""
+
+#: ../../source/explore/gallery.rst:40
+msgid "Mannequin army, 13th July 2020."
+msgstr ""
+
+#: ../../source/explore/gallery.rst:47
+msgid "Pictionary in the old Hub, 5th July 2020."
+msgstr ""
+
+#: ../../source/explore/gallery.rst:54
+msgid "Vircadia running on Linux Mint 19.3, 29th September 2020."
+msgstr ""
+
+#: ../../source/explore/gallery.rst:58
+#: ../../source/explore/get-started/adjust-settings.rst:125
+#: ../../source/explore/get-started/android.rst:82
+#: ../../source/explore/get-started/architecture.rst:101
+#: ../../source/explore/get-started/install.rst:163
+#: ../../source/explore/get-started/vr-controls.rst:220
+#: ../../source/explore/personalize/add-wearables.rst:55
+msgid "**See Also**"
+msgstr ""
+
+#: ../../source/explore/gallery.rst:60
+msgid ":doc:`Install Vircadia <get-started/install>`"
+msgstr ""
+
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/install.rst:3
-#: ../../source/explore/get-started/install.rst:42
+#: ../../source/explore/get-started/install.rst:68
 msgid "Install Vircadia"
 msgstr ""
 
@@ -126,7 +180,7 @@ msgstr ""
 #: ../../source/explore/get-started/android.rst:11
 #: ../../source/explore/get-started/architecture.rst:8
 #: ../../source/explore/get-started/desktop.rst:10
-#: ../../source/explore/get-started/install.rst:8
+#: ../../source/explore/get-started/install.rst:11
 #: ../../source/explore/get-started/setup-audio.rst:11
 #: ../../source/explore/get-started/vr-controls.rst:19
 #: ../../source/explore/personalize/add-wearables.rst:8
@@ -413,15 +467,6 @@ msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:122
 msgid "Change your security picture."
-msgstr ""
-
-#: ../../source/explore/get-started/adjust-settings.rst:125
-#: ../../source/explore/get-started/android.rst:82
-#: ../../source/explore/get-started/architecture.rst:101
-#: ../../source/explore/get-started/install.rst:120
-#: ../../source/explore/get-started/vr-controls.rst:220
-#: ../../source/explore/personalize/add-wearables.rst:55
-msgid "**See Also**"
 msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:127
@@ -1215,91 +1260,158 @@ msgid ""
 "Vircadia has two different installers. The *Client Installer* comes with "
 "everything you need to view and interact with Vircadia's content and "
 "users. However, you are unable to host content using this installer. The "
-"*Client + Sandbox Installer* has everything the client installer does, "
-"but it also enables you to :doc:`host your own content <../../host>` and "
-"share it with the world."
+"*Client + Server Installer* has everything the client installer does, but"
+" it also enables you to :doc:`host your own content <../../host>` and "
+"share it with the world. The Client + Server Installer download is only "
+"provided for Windows. For Linux see: :doc:`Host a Domain from a Local or "
+"Cloud Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:12
-msgid "Minimum System Requirements"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:14
-msgid ""
-"In order to run Vircadia in either VR or Desktop mode, ensure that your "
-"computer meets these minimum system requirements:"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:16
-msgid "Windows 10, 64-bit or MacOS High Sierra (10.13)"
+#: ../../source/explore/get-started/install.rst:15
+msgid "System Requirements"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:17
-msgid "8GB+ RAM i5"
+msgid ""
+"In order to run Vircadia, ensure that your computer meets these system "
+"requirements:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:18
-msgid "A wide range of Nvidia, AMD, and Intel graphics cards are supported"
+#: ../../source/explore/get-started/install.rst:19
+msgid "Operating system:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:20
+#: ../../source/explore/get-started/install.rst:21
+msgid "Windows 8.1, 64-bit or Windows 10, 64-bit"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:22
+msgid "MacOS High Sierra (10.13) or newer"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:23
+msgid "Ubuntu 18.04 64 bit or any other modern Linux distribution"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:25
+msgid "CPU:"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:27
+msgid "**Minimum:** Quad-core"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:28
+msgid "**Recommended:** Quad-core with hyper-threading or better"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:30
+msgid "System memory:"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:32
+msgid "**Minimum:** 8GB"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:34
+msgid "Graphics adapter:"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:36
+msgid "**Minimum:** Nvidia 600 series"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:37
+msgid "**Recommended:** Nvidia 900 series or higher"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:38
+msgid "**Minimum:** AMD Radeon HD 87XX series"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:39
+msgid "**Recommended:** AMD Radeon HD 89XX series or higher"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:40
+msgid ""
+"**Minimum:** Intel 5th generation CPU integrated Iris graphics. Using "
+"Intel integrated graphics is not recommended."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:42
+msgid ""
+"The listed graphics adapters support OpenGL 4.1 and above. This is a "
+"requirement for any graphics adapter running Vircadia."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:44
 msgid ""
 "In addition, your network must have enough internet bandwidth to run "
 "Vircadia:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:22
+#: ../../source/explore/get-started/install.rst:46
 msgid ""
-"If you are using Interface only to explore the metaverse, then you must "
-"have internet speeds of at least **10 Mbps download/2 Mbps** upload."
+"If you are using Interface only to explore the metaverse, then you should"
+" have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s "
+"upload**."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:23
+#: ../../source/explore/get-started/install.rst:47
 msgid ""
-"If you are hosting a domain on your Sandbox, you need to add **10 Mbps** "
-"upload for each user you want to concurrently visit your domain."
+"If you are hosting a domain server on a remote machine or your local "
+"computer, you need to add **10 Mbit/s upload** for each user that you "
+"want to allow to concurrently visit your domain. You will need only **2 "
+"Mbit/s upload** per user if you host your assets on an external web "
+"server rather than your domain server."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:25
+#: ../../source/explore/get-started/install.rst:50
 msgid ""
-"We also run on Linux devices; however, we do not publish an installer for"
-" Linux machines. To use Vircadia on Linux, you will need to build the "
-"application from our code base. For more information, see our `Linux "
-"Build Guide <https://github.com/kasenvr/project-"
-"athena/blob/kasen/core/BUILD_LINUX.md>`_."
+"A world that is specifically built for low-end systems might run fine on "
+"a system with slightly less memory or a lower CPU core count."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:29
+#: ../../source/explore/get-started/install.rst:52
+msgid ""
+"Running Vircadia on a high resolution display or in VR mode will need a "
+"much better graphics adapter, depending on your display's resolution and "
+"targeted frame rate."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:56
 msgid "Download Vircadia Installer"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:31
+#: ../../source/explore/get-started/install.rst:58
 msgid "You can download Vircadia through our website:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:33
+#: ../../source/explore/get-started/install.rst:60
 msgid ""
 "`Download the Client Installer <https://vircadia.com/download-"
 "vircadia/#interface>`_"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:37
+#: ../../source/explore/get-started/install.rst:63
 msgid ""
-"If you intend to use Vircadia in VR mode with a HMD, ensure that Steam VR"
-" is also installed on your system before launching Vircadia."
+"If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR"
+" or Oculus Runtime is also installed on your system before launching "
+"Vircadia."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:44
+#: ../../source/explore/get-started/install.rst:70
 msgid ""
 "Once you've downloaded the installer, you're ready to install Vircadia. "
 "The process will be different based on your operating system:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:48
+#: ../../source/explore/get-started/install.rst:74
 msgid "Windows Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:50
+#: ../../source/explore/get-started/install.rst:76
 msgid ""
 "To install on Windows, simply double-click on the downloaded installer "
 "file to open it. Run through the prompts on the installer. Once you "
@@ -1307,115 +1419,182 @@ msgid ""
 "log in and begin exploring the metaverse."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:54
+#: ../../source/explore/get-started/install.rst:81
 msgid "Mac Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:56
+#: ../../source/explore/get-started/install.rst:83
 msgid ""
 "At this time, the Vircadia installer for Mac is unsigned, so you will "
-"need give the OS permission to install and the application."
+"need give the OS permission to install the application."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:58
+#: ../../source/explore/get-started/install.rst:85
 msgid "Open the downloaded installer dmg file."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:59
+#: ../../source/explore/get-started/install.rst:86
 msgid "Agree to the License Agreement."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:60
+#: ../../source/explore/get-started/install.rst:87
 msgid "Drag Vircadia to the Applications folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:61
-msgid "Open **System Preferences > General**."
+#: ../../source/explore/get-started/install.rst:88
+msgid ""
+"Try opening Interface.app. You will be prompted that macOS will not open "
+"the file because it is unsigned."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:62
+#: ../../source/explore/get-started/install.rst:89
+msgid ""
+"Open **System Preferences > Security & Privacy**. On older macOS versions"
+" this might be in **System Preferences > General**."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:90
 msgid ""
 "Next to the warning indicating that Interface is blocked, click 'Open "
 "Anyway'."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:63
+#: ../../source/explore/get-started/install.rst:91
 msgid "Confirm that you want to open the application."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:65
+#: ../../source/explore/get-started/install.rst:92
+msgid ""
+"Allow microphone access if prompted, in order to be able to talk inside "
+"the application."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:94
 msgid ""
 "At this point, Interface will open and you will be able to log in and "
 "begin exploring the metaverse."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:69
+#: ../../source/explore/get-started/install.rst:99
+msgid "Linux Install"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:101
+msgid ""
+"Mark the downloaded AppImage file as executable. (for example, with "
+"``chmod +x Vircadia-Alpha-2020.2.5-Asteria.AppImage``.)"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:102
+msgid ""
+"(Optional) If you want the AppImage to be integrated into your system, "
+"install `AppImageLauncher "
+"<https://github.com/TheAssassin/AppImageLauncher>`_."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:103
+msgid "Execute AppImage."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:105
+msgid ""
+"Currently the server is not part of the Linux Interface AppImage. To host"
+" a domain, please refer to :doc:`Host a Domain from a Local or Cloud "
+"Linux Server <../../host/server-setup/linux-server>`."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:109
 msgid "Upgrade Vircadia"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:85
+#: ../../source/explore/get-started/install.rst:111
+msgid ""
+"Vircadia is always changing, as we work to improve performance and add "
+"features that will enhance your experience in the metaverse. At any time,"
+" you can download the latest release from our `website "
+"<https://vircadia.com/download-vircadia/#interface>`_."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:114
+msgid ""
+"You cannot upgrade Vircadia on Windows if you have Vircadia Interface or "
+"Server running on your computer. Be sure to quit these applications "
+"before upgrading. Keep in mind that Vircadia Server could be running in "
+"the background."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:117
+msgid ""
+"For Windows, locate the Vircadia app in your system tray. Right-click on "
+"the icon and select 'Quit'. Alternatively, end the 'server-console' "
+"background process using the Task Manager."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:119
+msgid ""
+"For more information on the latest releases, see our :doc:`Release Notes "
+"<../../release-notes>`."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:124
 msgid "Perform a Clean Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:87
+#: ../../source/explore/get-started/install.rst:126
 msgid ""
-"If you're facing problems when you load Interface and Sandbox, you can "
-"try performing a clean install. A clean install removes multiple files "
-"and settings that you may need once you install Vircadia again."
+"If you're facing problems when you load Interface or the local Server, "
+"then you can try performing a clean install. A clean install removes "
+"multiple files and settings that you may need once you install Vircadia "
+"again."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:89
+#: ../../source/explore/get-started/install.rst:129
 msgid ""
 "Ensure that you back up the following files before a clean install: "
-"Favorites, Wearables, Sandbox, and Entities. These settings will be "
-"deleted during the clean install."
+"Favorites, Wearables, Server content, and Entities. These settings will "
+"be deleted during the clean install."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:93
+#: ../../source/explore/get-started/install.rst:133
 msgid "Windows Clean Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:95
+#: ../../source/explore/get-started/install.rst:135
 msgid ""
 "Click on the Start menu and type \"Add or Remove Programs\" in your "
 "Windows search bar."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:96
-msgid ""
-"Uninstall any versions of Vircadia that are visible (Including any Steam "
-"installs)."
+#: ../../source/explore/get-started/install.rst:136
+msgid "Uninstall any versions of Vircadia that are visible."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:97
+#: ../../source/explore/get-started/install.rst:137
 #, python-format
 msgid ""
 "Once Vircadia is uninstalled, browse to your %Program Files% directory. "
-"Delete all folders related to Vircadia. If you installed through Steam, "
-"these folders will be located at ``C:/Program "
-"Files(x86)/Steam/steamapps/common``."
+"Delete all folders related to Vircadia."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:101
+#: ../../source/explore/get-started/install.rst:141
 msgid ""
-"The next 3 steps will permanently delete your Sandbox content. If you "
-"wish to keep this content, copy %AppData%/Local/Project Athena"
-"/assignment-client to another location on your computer before "
-"proceeding. Repeat for %AppData%/Roaming/Project Athena/assignment-"
-"client."
+"The next 3 steps will permanently delete your local Server's content. If "
+"you wish to keep this content, copy %AppData%/Local/Vircadia/assignment-"
+"client to another location on your computer before proceeding. Repeat for"
+" %AppData%/Roaming/Vircadia/assignment-client."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:103
+#: ../../source/explore/get-started/install.rst:145
 #, python-format
 msgid ""
 "Browse to your local %AppData% folder (usually "
 "``C:/Users/<your_username>/AppData/Local``). If you do not see the "
-"folder, make sure you can view hidden folders. In File Explorer, click "
+"folder, make sure you can view hidden folders: in File Explorer, click "
 "View and make sure \"Hidden Items\" is checked. Delete all folders "
 "related to Vircadia."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:104
+#: ../../source/explore/get-started/install.rst:147
 #, python-format
 msgid ""
 "Browse to your roaming %AppData% folder (usually "
@@ -1423,54 +1602,54 @@ msgid ""
 " to Vircadia."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:105
+#: ../../source/explore/get-started/install.rst:148
 msgid ""
-"Re-install Vircadia using the steps above. To restore your Sandbox "
-"content, copy the ``assignment-client`` folders you backed up back to "
-"their respective locations."
+"Re-install Vircadia using the steps above. To restore your local Server's"
+" content, copy the ``assignment-client`` folders you previously saved "
+"back into to their respective locations."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:109
+#: ../../source/explore/get-started/install.rst:152
 msgid "Mac Clean Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:111
+#: ../../source/explore/get-started/install.rst:154
 msgid "Open your Applications folder and delete the Vircadia folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:112
+#: ../../source/explore/get-started/install.rst:155
 msgid ""
 "Open the ``<username>/.config`` folder. This is a hidden folder than is "
 "accessible by going to *Go > Home*. Press the keyboard shortcut ``Command"
 " + Shift + .`` (period)."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:113
-msgid "Delete the ``highfidelity.io`` folder."
+#: ../../source/explore/get-started/install.rst:156
+msgid "Delete the ``vircadia.com`` folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:114
+#: ../../source/explore/get-started/install.rst:157
 msgid ""
 "Open the ``~/Library`` folder by holding the Option key and clicking the "
 "'Go' menu while in the Finder. The Library option should appear in the "
 "menu."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:115
+#: ../../source/explore/get-started/install.rst:158
 msgid ""
 "Browse to ``~/Library/Application Support`` and delete the Vircadia "
 "folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:116
+#: ../../source/explore/get-started/install.rst:159
 msgid "Empty the Trash."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:117
+#: ../../source/explore/get-started/install.rst:160
 msgid "Re-install Vircadia using the steps above."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:122
+#: ../../source/explore/get-started/install.rst:165
 msgid ":doc:`Install Your Domain <../../host/server-setup>`"
 msgstr ""
 
@@ -3209,7 +3388,7 @@ msgstr ""
 msgid ""
 "This is where your profile picture will be visible. Click on the image to"
 " view your profile. You can change this image on our `website "
-"<https://highfidelity.com/>`_."
+"<https://dashboard.vircadia.com/>`_."
 msgstr ""
 
 #: ../../source/explore/socialize.rst:36
@@ -3566,4 +3745,179 @@ msgstr ""
 #: ../../source/explore/travel.md:33
 msgid "Select their name then 'Visit'."
 msgstr ""
+
+#~ msgid ""
+#~ "Vircadia is a metaverse where you "
+#~ "can connect and create with others. "
+#~ "We invite you to explore VR worlds"
+#~ " created in Vircadia and interact "
+#~ "with other users. You can visit "
+#~ "your friend's VR world, meet people, "
+#~ "attend events and even go for a"
+#~ " class on avatar creation. It's an"
+#~ " immersive and interactive experience with"
+#~ " realistic visuals and audio."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If its your first time using "
+#~ "Vircadia, you'll start your journey a"
+#~ " local space by yourself, where you"
+#~ " can experiment with the controls and"
+#~ " learn about the product. When you"
+#~ " are ready, try exploring other "
+#~ "domains using the Explore app and "
+#~ "socialize with people around the "
+#~ "metaverse. If you've visited Vircadia "
+#~ "before, you will return to the "
+#~ "location where you last visited."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia has two different installers. "
+#~ "The *Client Installer* comes with "
+#~ "everything you need to view and "
+#~ "interact with Vircadia's content and "
+#~ "users. However, you are unable to "
+#~ "host content using this installer. The"
+#~ " *Client + Sandbox Installer* has "
+#~ "everything the client installer does, "
+#~ "but it also enables you to "
+#~ ":doc:`host your own content <../../host>` "
+#~ "and share it with the world."
+#~ msgstr ""
+
+#~ msgid "Minimum System Requirements"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In order to run Vircadia in either"
+#~ " VR or Desktop mode, ensure that "
+#~ "your computer meets these minimum system"
+#~ " requirements:"
+#~ msgstr ""
+
+#~ msgid "Windows 10, 64-bit or MacOS High Sierra (10.13)"
+#~ msgstr ""
+
+#~ msgid "8GB+ RAM i5"
+#~ msgstr ""
+
+#~ msgid "A wide range of Nvidia, AMD, and Intel graphics cards are supported"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are using Interface only to"
+#~ " explore the metaverse, then you must"
+#~ " have internet speeds of at least "
+#~ "**10 Mbps download/2 Mbps** upload."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are hosting a domain on "
+#~ "your Sandbox, you need to add **10"
+#~ " Mbps** upload for each user you "
+#~ "want to concurrently visit your domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We also run on Linux devices; "
+#~ "however, we do not publish an "
+#~ "installer for Linux machines. To use "
+#~ "Vircadia on Linux, you will need "
+#~ "to build the application from our "
+#~ "code base. For more information, see "
+#~ "our `Linux Build Guide "
+#~ "<https://github.com/kasenvr/project-"
+#~ "athena/blob/kasen/core/BUILD_LINUX.md>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you intend to use Vircadia in"
+#~ " VR mode with a HMD, ensure "
+#~ "that Steam VR is also installed on"
+#~ " your system before launching Vircadia."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At this time, the Vircadia installer "
+#~ "for Mac is unsigned, so you will"
+#~ " need give the OS permission to "
+#~ "install and the application."
+#~ msgstr ""
+
+#~ msgid "Open **System Preferences > General**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you're facing problems when you "
+#~ "load Interface and Sandbox, you can "
+#~ "try performing a clean install. A "
+#~ "clean install removes multiple files and"
+#~ " settings that you may need once "
+#~ "you install Vircadia again."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ensure that you back up the "
+#~ "following files before a clean install:"
+#~ " Favorites, Wearables, Sandbox, and "
+#~ "Entities. These settings will be deleted"
+#~ " during the clean install."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Uninstall any versions of Vircadia that"
+#~ " are visible (Including any Steam "
+#~ "installs)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once Vircadia is uninstalled, browse to"
+#~ " your %Program Files% directory. Delete "
+#~ "all folders related to Vircadia. If "
+#~ "you installed through Steam, these "
+#~ "folders will be located at ``C:/Program"
+#~ " Files(x86)/Steam/steamapps/common``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The next 3 steps will permanently "
+#~ "delete your Sandbox content. If you "
+#~ "wish to keep this content, copy "
+#~ "%AppData%/Local/Project Athena/assignment-client to"
+#~ " another location on your computer "
+#~ "before proceeding. Repeat for "
+#~ "%AppData%/Roaming/Project Athena/assignment-client."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Browse to your local %AppData% folder"
+#~ " (usually ``C:/Users/<your_username>/AppData/Local``). "
+#~ "If you do not see the folder, "
+#~ "make sure you can view hidden "
+#~ "folders. In File Explorer, click View"
+#~ " and make sure \"Hidden Items\" is"
+#~ " checked. Delete all folders related "
+#~ "to Vircadia."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Re-install Vircadia using the steps "
+#~ "above. To restore your Sandbox content,"
+#~ " copy the ``assignment-client`` folders "
+#~ "you backed up back to their "
+#~ "respective locations."
+#~ msgstr ""
+
+#~ msgid "Delete the ``highfidelity.io`` folder."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is where your profile picture "
+#~ "will be visible. Click on the "
+#~ "image to view your profile. You "
+#~ "can change this image on our "
+#~ "`website <https://highfidelity.com/>`_."
+#~ msgstr ""
 

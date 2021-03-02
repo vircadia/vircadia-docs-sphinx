@@ -4,7 +4,7 @@ This version of Vircadia is an update to 2020.2.2. It is compatible with the 202
 
 ## Interface (Codename Athena)
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -13,9 +13,9 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * UI: The Audio settings panel layout has been adjusted to flow better. (#468)
 * Avatar: Reduce log spam if you have missing joints, the notice is now given every 30 seconds. (#474)
 * App: The More app has been updated from its main repo. (#476)
-* Stability: Prevent a crash for corrupted GLTF models.
-* Stability: Prevent a crash on OSX due to an illegal instruction.
-* VR: The option to enable/disable Vive Pro Eye eye tracking has been added.
+* Stability: Prevent a crash for corrupted GLTF models. (#480)
+* Stability: Prevent a crash on OSX due to an illegal instruction. (#481)
+* VR: The option to enable/disable Vive Pro Eye eye tracking has been added. (#484)
 * App: The main Chat window has had quite a few updates. (#485)
     * Shrunk the main window.
     * Spacing between items has been reduced.
@@ -30,7 +30,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Graphics: The maximum texture size has been upgraded from 2048 -> 8192. (#505)
 * App: The Explore app has been updated from its main repo. (#536)
 
-#### Technicals
+#### Miscellaneous
 
 * Building: Android building has been fixed by updating the URLs for packages. (#466)
 * Docs: The general build documentation was updated to better reflect build variables. (#487)
@@ -38,7 +38,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Domain Server
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 #### General
 
@@ -47,41 +47,41 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Metaverse Server (Codename Apollo)
 
-While the [metaverse server](https://github.com/kasenvr/project-apollo) is still in development, much progress has been made since starting. The project has over **150 commits** at the time of publishing these release notes, with over 20 commits in the last two weeks (July 1st - July 14th, 2020). Building upon the foundation that Zontreck had placed, Misterblue has created a working prototype of the metaverse. After adequate testing and completion of the system is complete, we will begin the transition to our very own federated metaverse system!
+While the [metaverse server](https://github.com/vircadia/project-apollo) is still in development, much progress has been made since starting. The project has over **150 commits** at the time of publishing these release notes, with over 20 commits in the last two weeks (July 1st - July 14th, 2020). Building upon the foundation that Zontreck had placed, Misterblue has created a working prototype of the metaverse. After adequate testing and completion of the system is complete, we will begin the transition to our very own federated metaverse system!
 
-The [metaverse server interface](https://github.com/kasenvr/project-apollo-dashboard) has also gotten underway this month. It will serve as the UI foundation for admins and users alike to access and administrate their identities on the metaverse. It has had **18 commits** in the last two weeks (July 1st - July 14th, 2020).
+The [metaverse server interface](https://github.com/vircadia/project-apollo-dashboard) has also gotten underway this month. It will serve as the UI foundation for admins and users alike to access and administrate their identities on the metaverse. It has had **18 commits** in the last two weeks (July 1st - July 14th, 2020).
 
 ## Vircadia Launcher (Codename Pantheon)
 
-[Vircadia's launcher](https://github.com/kasenvr/pantheon-launcher) is at version 0.0.1r, steadily approaching version 1.0.0. It currently features things such as one click downloading and updating, version management, easy settings control for Interface, event listings, and more. It has many planned features, such as world listings and further controls for sandboxes as well. It has over **130 commits** at the time of publishing these release notes.
+[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) is at version 0.0.1r, steadily approaching version 1.0.0. It currently features things such as one click downloading and updating, version management, easy settings control for Interface, event listings, and more. It has many planned features, such as world listings and further controls for sandboxes as well. It has over **130 commits** at the time of publishing these release notes.
 
 ## Extra Applications
 
 #### Explore App (Interim Version)
 
-The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/kasenvr/Decentralized_GoTo_Experimental).
+The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/vircadia/Decentralized_GoTo_Experimental).
 
 * Update the Explore app's sorting order to be higher in the menu. (#5)
 
 #### Community Apps
 
-The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/kasenvr/community-apps). 
+The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/vircadia/community-apps). 
 
 * The nametags app by ctrlaltdavid has been added to the community apps repo. This app allows you to have dynamically generated nametags. (#20)
 
 #### Inventory App
 
-This is a new app that will be introduced to the community apps repo upon merging into the main project-athena codebase (#521). It will serve as the initial implementation of an inventory system into Vircadia, later it will incorporate the functions of the "More" app; that app will be deprecated at such a time.
+This is a new app that will be introduced to the community apps repo upon merging into the main Vircadia codebase (#521). It will serve as the initial implementation of an inventory system into Vircadia, later it will incorporate the functions of the "More" app; that app will be deprecated at such a time.
 
 #### Slider App
 
-This is another new app whose primary functionality is the syncing and displaying of content from control tablets to big screens. A handy feature of it is the one to many functionality where ten tablets can control five screens for example if needed using channels. This is good for presentations and such. This app will be merged into the main project-athena codebase upon further work on its initial version.
+This is another new app whose primary functionality is the syncing and displaying of content from control tablets to big screens. A handy feature of it is the one to many functionality where ten tablets can control five screens for example if needed using channels. This is good for presentations and such. This app will be merged into the main Vircadia codebase upon further work on its initial version.
 
 ## Documentation
 
 #### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/kasenvr/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
 
 * Update release notes layout. (#60)
 * Add a detailed specification detailing zone entities. (#48) (Thanks JulianGro!)
@@ -91,7 +91,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphi
 
 #### API Docs
 
-The API docs are generated from the software source [repo](https://github.com/kasenvr/project-athena).
-The latest live deployment source can be viewed [here](https://github.com/kasenvr/vircadia-api-docs).
+The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
+The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
 
 * The `Entities.enterEntity` signal description has been improved to take note of behavior when using it. (#507)

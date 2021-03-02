@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-03 14:57+0200\n"
+"POT-Creation-Date: 2021-01-23 22:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1393,21 +1393,15 @@ msgid "`API Reference: MIDI <https://apidocs.vircadia.dev/Midi.html>`_"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:179
-msgid ""
-"`MIDI-API "
-"<https://cdn.highfidelity.com/milad/production/Midi/MidiAPI.txt>`_"
+msgid "`MIDI-API <../_static/resources/script/MidiAPI.txt>`_"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:180
-msgid ""
-"`MIDI-Test "
-"<https://cdn.highfidelity.com/milad/production/Midi/midiTest.js>`_"
+msgid "`MIDI-Test <../_static/resources/script/midiTest.js>`_"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:181
-msgid ""
-"`MIDI-Examples <https://cdn.highfidelity.com/milad/production/Midi/MIDI-"
-"Example.js>`_"
+msgid "`MIDI-Examples <../_static/resources/script/MIDI-Example.js>`_"
 msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:3
@@ -1546,4 +1540,20 @@ msgid ""
 " script changes the color of the entity to red, and prints the new color "
 "in the 'Debug Window'."
 msgstr ""
+
+#~ msgid ""
+#~ "`MIDI-API "
+#~ "<https://cdn.highfidelity.com/milad/production/Midi/MidiAPI.txt>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`MIDI-Test "
+#~ "<https://cdn.highfidelity.com/milad/production/Midi/midiTest.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`MIDI-Examples "
+#~ "<https://cdn.highfidelity.com/milad/production/Midi/MIDI-"
+#~ "Example.js>`_"
+#~ msgstr ""
 

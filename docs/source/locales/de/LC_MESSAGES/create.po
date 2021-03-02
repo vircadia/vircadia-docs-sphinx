@@ -8,16 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2020-07-10 06:33+0000\n"
-"PO-Revision-Date: 2020-06-26 21:08+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"POT-Creation-Date: 2021-01-23 22:27+0000\n"
+"PO-Revision-Date: 2021-02-10 00:46+0000\n"
+"Last-Translator: Nick <origamimars@gmail.com>\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/create/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/create/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:3
@@ -62,15 +63,16 @@ msgstr ""
 msgid ""
 "Vircadia enables people connected by interest, community, and friendship "
 "to come together and express their creativity with each other. We invite "
-"you to personalize your own experience by creating avatars and wearables,"
-" building immersive experiences, and developing apps to make the "
-"metaverse your own."
+"you to personalize your own experience by creating avatars and content, "
+"or developing apps and scripts. To truly make the metaverse your own, "
+"creating your own world or building your immersive project using the free"
+" and openly licensed Vircadia engine is encouraged!"
 msgstr ""
 
 #: ../../source/create.rst:7
 msgid ""
-"No matter your level of expertise, Athena provides the tools you need to "
-"create anything you can imagine."
+"No matter your level of expertise, Vircadia provides the tools you need "
+"to create anything you can imagine."
 msgstr ""
 
 #: ../../source/create.rst:9
@@ -92,7 +94,6 @@ msgstr ""
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:3
-#: ../../source/create/entities/material-entity.md:96
 msgid "PBR Materials Guide"
 msgstr ""
 
@@ -143,15 +144,19 @@ msgstr ""
 #: ../../source/create/avatars/find-avatars.rst:8
 #: ../../source/create/avatars/package-avatar.rst:10
 #: ../../source/create/avatars/scattering-tutorial.rst:8
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:8
 #: ../../source/create/entities/boombox-tutorial.rst:8
 #: ../../source/create/entities/create-fountain.rst:9
 #: ../../source/create/entities/entity-appearance.rst:17
 #: ../../source/create/entities/entity-behavior.rst:15
+#: ../../source/create/entities/entity-physics.rst:14
+#: ../../source/create/entities/material-entity.rst:10
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:8
 #: ../../source/create/entities/web-entity-media.rst:8
 #: ../../source/create/entities/zone-entity.rst:9
 #: ../../source/create/tools.rst:8
 msgid "On This Page"
-msgstr ""
+msgstr "Auf dieser Seite"
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
@@ -358,16 +363,14 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:12
 #: ../../source/create/avatars/custom-animations.rst:14
-#: ../../source/create/entities/avatar-scaling-tutorial.md:7
-#: ../../source/create/entities/avatar-scaling-tutorial.md:12
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:12
 #: ../../source/create/entities/boombox-tutorial.rst:12
 #: ../../source/create/entities/create-fountain.rst:13
 #: ../../source/create/entities/create-spotlight.md:7
 #: ../../source/create/entities/create-spotlight.md:12
 #: ../../source/create/entities/display-youtube.md:7
 #: ../../source/create/entities/display-youtube.md:11
-#: ../../source/create/entities/open-tablet-page-tutorial.md:7
-#: ../../source/create/entities/open-tablet-page-tutorial.md:11
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:12
 #: ../../source/create/entities/portal-tutorial.md:7
 #: ../../source/create/entities/portal-tutorial.md:12
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:7
@@ -433,6 +436,7 @@ msgstr ""
 #: ../../source/create/3d-models/import-animations.rst:34
 #: ../../source/create/3d-models/import-model.rst:17
 #: ../../source/create/3d-models/import-model.rst:29
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:43
 #: ../../source/create/entities/boombox-tutorial.rst:34
 #: ../../source/create/entities/boombox-tutorial.rst:65
 #: ../../source/create/entities/boombox-tutorial.rst:130
@@ -440,7 +444,10 @@ msgstr ""
 #: ../../source/create/entities/create-fountain.rst:30
 #: ../../source/create/entities/entity-behavior.rst:25
 #: ../../source/create/entities/entity-behavior.rst:129
+#: ../../source/create/entities/entity-physics.rst:22
 #: ../../source/create/entities/hero-zone.rst:15
+#: ../../source/create/entities/material-entity.rst:53
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:37
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
 msgstr ""
 
@@ -474,9 +481,9 @@ msgstr ""
 #: ../../source/create/entities/boombox-tutorial.rst:95
 #: ../../source/create/entities/create-fountain.rst:35
 #: ../../source/create/entities/entity-appearance.rst:26
-#: ../../source/create/entities/entity-appearance.rst:70
-#: ../../source/create/entities/entity-appearance.rst:109
-#: ../../source/create/entities/entity-appearance.rst:129
+#: ../../source/create/entities/entity-appearance.rst:75
+#: ../../source/create/entities/entity-appearance.rst:119
+#: ../../source/create/entities/entity-appearance.rst:144
 #: ../../source/create/entities/entity-behavior.rst:38
 #: ../../source/create/entities/entity-behavior.rst:67
 #: ../../source/create/entities/entity-behavior.rst:86
@@ -489,7 +496,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:157
 #: ../../source/create/environments.rst:15
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: ../../source/create/3d-models/import-animations.rst:45
 msgid "Play Automatically"
@@ -574,17 +581,21 @@ msgstr ""
 #: ../../source/create/avatars/add-flow.rst:123
 #: ../../source/create/avatars/create-avatars.rst:72
 #: ../../source/create/avatars/custom-animations.rst:265
-#: ../../source/create/avatars/find-avatars.rst:168
+#: ../../source/create/avatars/find-avatars.rst:173
 #: ../../source/create/avatars/scattering-tutorial.rst:62
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:59
 #: ../../source/create/entities/boombox-tutorial.rst:161
-#: ../../source/create/entities/create-fountain.rst:85
-#: ../../source/create/entities/entity-appearance.rst:139
+#: ../../source/create/entities/create-fountain.rst:90
+#: ../../source/create/entities/entity-appearance.rst:154
 #: ../../source/create/entities/entity-behavior.rst:153
+#: ../../source/create/entities/entity-physics.rst:153
+#: ../../source/create/entities/material-entity.rst:103
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:61
 #: ../../source/create/entities/web-entity-media.rst:156
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:133
 msgid "**See Also**"
-msgstr ""
+msgstr "**Siehe auch**"
 
 #: ../../source/create/3d-models/import-animations.rst:68
 msgid ":doc:`Import Your 3D Model <import-model>`"
@@ -653,7 +664,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/import-model.rst:38
-#: ../../source/create/entities/create-fountain.rst:89
+#: ../../source/create/entities/create-fountain.rst:94
 msgid ":doc:`Create Tools <../tools>`"
 msgstr ""
 
@@ -964,9 +975,9 @@ msgid ""
 "Vircadia supports different types of materials. We've created sample "
 "objects with each material type. You can download each object from `this "
 "repository "
-"<https://github.com/highfidelity/hifi_tests/tree/master/assets/models/material_matrix_models/fbx/blender>`_"
+"<https://github.com/vircadia/hifi_tests/tree/master/assets/models/material_matrix_models/fbx/blender>`_"
 " on GitHub, or run `this script "
-"<https://raw.githubusercontent.com/highfidelity/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_"
+"<https://raw.githubusercontent.com/vircadia/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_"
 " in Vircadia to upload all sample objects in your domain."
 msgstr ""
 
@@ -1271,8 +1282,8 @@ msgstr ""
 #: ../../source/create/applications.rst:189
 msgid ""
 "The final step is to code the behavior of your JavaScript file. In this "
-"case, we'll create gemstones using Athena's JavaScript API. Each gemstone"
-" will be created as an entity, and we can change the gemstone's "
+"case, we'll create gemstones using Vircadia's JavaScript API. Each "
+"gemstone will be created as an entity, and we can change the gemstone's "
 "properties using the ``Entity`` namespace."
 msgstr ""
 
@@ -1296,9 +1307,9 @@ msgstr ""
 
 #: ../../source/create/applications.rst:285
 msgid ""
-"Congratulations, you have successfully created an app in Athena! To use "
-"your app, upload it to a cloud platform, such as Amazon S3, Google Cloud "
-"Storage, Microsoft Azure, etc. Once hosted, you can install it and use "
+"Congratulations, you have successfully created an app in Vircadia! To use"
+" your app, upload it to a cloud platform, such as Amazon S3, Google Cloud"
+" Storage, Microsoft Azure, etc. Once hosted, you can install it and use "
 "it:"
 msgstr ""
 
@@ -1669,8 +1680,10 @@ msgid "`Package Your Avatar <create-avatars.html#package-your-avatar>`_"
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:127
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:64
 #: ../../source/create/entities/boombox-tutorial.rst:17
 #: ../../source/create/entities/boombox-tutorial.rst:166
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:66
 msgid ""
 ":doc:`Get Started with Scripting <../../script/get-started-with-"
 "scripting>`"
@@ -1693,12 +1706,8 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:5
 #: ../../source/create/entities/avatar-interactions.md:5
-#: ../../source/create/entities/avatar-scaling-tutorial.md:5
 #: ../../source/create/entities/create-spotlight.md:5
 #: ../../source/create/entities/display-youtube.md:5
-#: ../../source/create/entities/entity-physics.md:15
-#: ../../source/create/entities/material-entity.md:7
-#: ../../source/create/entities/open-tablet-page-tutorial.md:5
 #: ../../source/create/entities/portal-tutorial.md:5
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:5
 #: ../../source/create/entities/zone-tutorial.md:7
@@ -2094,13 +2103,9 @@ msgstr ""
 #: ../../source/create/avatars/mixamo-tutorial.md:20
 #: ../../source/create/entities/add-sounds.md:24
 #: ../../source/create/entities/avatar-interactions.md:63
-#: ../../source/create/entities/avatar-scaling-tutorial.md:48
 #: ../../source/create/entities/create-entities.md:36
 #: ../../source/create/entities/create-spotlight.md:60
 #: ../../source/create/entities/display-youtube.md:45
-#: ../../source/create/entities/entity-physics.md:124
-#: ../../source/create/entities/material-entity.md:93
-#: ../../source/create/entities/open-tablet-page-tutorial.md:53
 #: ../../source/create/entities/portal-tutorial.md:49
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:110
 #: ../../source/create/entities/zone-tutorial.md:150
@@ -2307,8 +2312,8 @@ msgid ""
 "CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does"
 " not match our :doc:`avatar standards <avatar-standards>`. To use these "
 "avatars with Vircadia, use the `Vircadia Avatar Exporter for Unity <find-"
-"avatars.html#project-athena-avatar-exporter-for-unity>`_ to correctly map"
-" the skeleton and package your avatar."
+"avatars.html#vircadia-avatar-exporter-for-unity>`_ to correctly map the "
+"skeleton and package your avatar."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:13
@@ -2319,7 +2324,7 @@ msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:18
 msgid "**In This Section**"
-msgstr ""
+msgstr "**In diesem Abschnitt**"
 
 #: ../../source/create/avatars/create-avatars.rst:28
 msgid "Create an Avatar from Scratch"
@@ -2395,31 +2400,31 @@ msgstr ""
 #: ../../source/create/avatars/create-avatars.rst:61
 msgid ""
 "**Material Tools**: Allows for easier pipeline to apply materials to "
-"objects so that they are ready to use in Athena."
+"objects so that they are ready to use in Vircadia."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:62
 msgid ""
-"**Armature Tools**: Adds a skeleton that is compatible with Athena and "
+"**Armature Tools**: Adds a skeleton that is compatible with Vircadia and "
 "let you configure bone names for use in advanced scripts."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:63
 msgid ""
 "**Avatar Converters**: Translates and fixes models and materials from MMD"
-" and Mixamo so that they work in Athena."
+" and Mixamo so that they work in Vircadia."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:64
 msgid ""
 "**Export Tools**: Exports avatars and scenes so that they can be used in "
-"Athena."
+"Vircadia."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:65
 msgid ""
-"**Import Tools**: Imports primitive entities from Athena so that you can "
-"make modifications to them."
+"**Import Tools**: Imports primitive entities from Vircadia so that you "
+"can make modifications to them."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:67
@@ -2439,7 +2444,7 @@ msgid ":doc:`Find and Use an Existing Avatar <find-avatars>`"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:75
-#: ../../source/create/avatars/find-avatars.rst:170
+#: ../../source/create/avatars/find-avatars.rst:175
 msgid ":doc:`Package and Host Your Avatar <package-avatar>`"
 msgstr ""
 
@@ -2478,7 +2483,7 @@ msgstr ""
 msgid ""
 "Avatar animations are FBX files that define how your avatar moves. For "
 "example, `turn_left.fbx <h "
-"ttps://github.com/highfidelity/hifi/blob/master/interface/resources/avatar/animations/turn_left.f"
+"ttps://github.com/vircadia/vircadia/blob/master/interface/resources/avatar/animations/turn_left.f"
 " bx>`_ is the standard animation file for your avatar turning left."
 msgstr ""
 
@@ -2508,8 +2513,8 @@ msgid ""
 "and how they are blended. It also determines the order of operations, so "
 "that operations like Inverse Kinematics occur after the rest of the body "
 "has been animated by traditional means. By default, every avatar uses the"
-" same `Animation Graph file <https://github.com/highfidelity/hif "
-"i/blob/master/interface/resources/avatar/avatar-animation.json>`_."
+" same `Animation Graph file <https://github.com/vircadia/vircadi "
+"a/blob/master/interface/resources/avatar/avatar-animation.json>`_."
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:42
@@ -2673,8 +2678,8 @@ msgid ""
 "frequently updated, so we recommend using ``MyAvatar.getAnimationRoles`` "
 "to get the latest animation roles before continuing. The standard "
 "animation FBX files for these roles can be found in the Vircadia source "
-"code repository on `GitHub <https://github.com/kasenvr/project-"
-"athena/tree/kasen/core/interface/resources/avatar/animations>`_."
+"code repository on `GitHub "
+"<https://github.com/vircadia/vircadia/tree/master/interface/resources/avatar/animations>`_."
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:102
@@ -3070,9 +3075,8 @@ msgstr ""
 #: ../../source/create/avatars/custom-animations.rst:230
 msgid ""
 "Here is the current default `avatar-animation.json "
-"<https://github.com/kasenvr/project-"
-"athena/blob/kasen/core/interface/resources/avatar/avatar-"
-"animation.json>`_ file."
+"<https://github.com/vircadia/vircadia/blob/master/interface/resources/avatar"
+"/avatar-animation.json>`_ file."
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:231
@@ -3286,8 +3290,8 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:39
 msgid ""
-"`Vircadia Avatar Exporter for Unity <https://github.com/kasenvr/project-"
-"athena/blob/kasen/core/tools/unity-avatar-"
+"`Vircadia Avatar Exporter for Unity "
+"<https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 msgstr ""
 
@@ -3314,8 +3318,8 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:49
 msgid ""
-"Download the `avatar exporter <https://github.com/kasenvr/project-"
-"athena/blob/kasen/core/tools/unity-avatar-"
+"Download the `avatar exporter "
+"<https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ from Vircadia."
 msgstr ""
 
@@ -3480,7 +3484,7 @@ msgid ""
 "that it works as expected."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:121
+#: ../../source/create/avatars/find-avatars.rst:126
 msgid ""
 "If everything looks good, you need to `host your avatar <package-"
 "avatar.html#host-your-avatar>`_ then `change your avatar "
@@ -3488,11 +3492,11 @@ msgid ""
 "avatar>`_ to wear it."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:125
+#: ../../source/create/avatars/find-avatars.rst:130
 msgid "Troubleshooting Tips"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:127
+#: ../../source/create/avatars/find-avatars.rst:132
 msgid ""
 "Many of the errors you will encounter describe issues with the avatar’s "
 "skeleton. These are fully documented here: `Troubleshooting with the "
@@ -3501,23 +3505,23 @@ msgid ""
 "downloaded avatar and using the avatar exporter:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:130
+#: ../../source/create/avatars/find-avatars.rst:135
 msgid "Issue"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:130
+#: ../../source/create/avatars/find-avatars.rst:135
 msgid "Troubleshooting Tip"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:132
+#: ../../source/create/avatars/find-avatars.rst:137
 msgid "*You receive a warning in Unity:*"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:134
+#: ../../source/create/avatars/find-avatars.rst:139
 msgid "\"Character is not in T pose.\""
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:132
+#: ../../source/create/avatars/find-avatars.rst:137
 msgid ""
 "Go to the 'Inspector', click 'Configure', and then select 'Pose' near the"
 " bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click "
@@ -3525,64 +3529,64 @@ msgid ""
 "with remapping bones."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:136
+#: ../../source/create/avatars/find-avatars.rst:141
 msgid "In Unity, your avatar is a solid color."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:136
+#: ../../source/create/avatars/find-avatars.rst:141
 msgid ""
 "This suggests that the materials or shaders you are using are not "
 "supported."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:138
+#: ../../source/create/avatars/find-avatars.rst:143
 msgid "Click and drag your model into the 'Scene' window."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:139
+#: ../../source/create/avatars/find-avatars.rst:144
 msgid ""
 "Select all of the unsupported materials. These will be one solid color, "
 "such as pink."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:141
+#: ../../source/create/avatars/find-avatars.rst:146
 msgid ""
 "In the 'Inspector', change the 'Shader' to one of the 'Standard' options."
 " All materials should now show up correctly."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:144
-msgid "Your avatar is grey."
+#: ../../source/create/avatars/find-avatars.rst:149
+msgid "Your avatar is gray."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:144
+#: ../../source/create/avatars/find-avatars.rst:149
 msgid "One of the following issues could have occurred:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:146
+#: ../../source/create/avatars/find-avatars.rst:151
 msgid ""
 "Make sure you copied your avatar's textures into the project’s textures "
 "folder"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:147
+#: ../../source/create/avatars/find-avatars.rst:152
 msgid ""
 "Verify that your textures are in a format that we support (PNG, JPEG, "
 "JPG, TGA, TIF, or TIFF)."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:149
+#: ../../source/create/avatars/find-avatars.rst:154
 msgid ""
 "If your textures are embedded in your avatar: select the FBX file, go to "
 "'Inspector', and click 'Extract Textures'. Extract your textures into "
 "your asset's folder. You can do the same with Materials."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:153
+#: ../../source/create/avatars/find-avatars.rst:158
 msgid "Your avatar is tied up into knots or laying down."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:153
+#: ../../source/create/avatars/find-avatars.rst:158
 msgid ""
 "This could mean that your skeleton is not right. Re-open your avatar in "
 "Unity and run through steps 2-5 of `Create an Avatar Package`_ again. "
@@ -3590,17 +3594,17 @@ msgid ""
 "to your avatar package)."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:158
+#: ../../source/create/avatars/find-avatars.rst:163
 msgid ""
 "If it still doesn't work, ensure that you are testing the correct file "
 "that the avatar exporter created."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:161
+#: ../../source/create/avatars/find-avatars.rst:166
 msgid "Your avatar's skin doesn't move properly with animations."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:161
+#: ../../source/create/avatars/find-avatars.rst:166
 msgid ""
 "The avatar exporter was written to improve the process of rigging and "
 "mapping the skeleton rig. This will not affect the animations in your "
@@ -4027,16 +4031,11 @@ msgid ":doc:`PBR Materials <../3d-models/pbr-materials-guide>`"
 msgstr ""
 
 #: ../../source/create/entities.rst:9
-#: ../../source/create/entities/avatar-scaling-tutorial.md:16
-#: ../../source/create/entities/avatar-scaling-tutorial.md:50
 #: ../../source/create/entities/create-entities.md:1
 #: ../../source/create/entities/create-spotlight.md:16
 #: ../../source/create/entities/create-spotlight.md:62
 #: ../../source/create/entities/display-youtube.md:15
 #: ../../source/create/entities/display-youtube.md:47
-#: ../../source/create/entities/material-entity.md:95
-#: ../../source/create/entities/open-tablet-page-tutorial.md:15
-#: ../../source/create/entities/open-tablet-page-tutorial.md:55
 #: ../../source/create/entities/portal-tutorial.md:16
 #: ../../source/create/entities/portal-tutorial.md:51
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:16
@@ -4047,16 +4046,12 @@ msgid "Create New Entities"
 msgstr ""
 
 #: ../../source/create/entities.rst:9
-#: ../../source/create/entities/avatar-scaling-tutorial.md:17
-#: ../../source/create/entities/avatar-scaling-tutorial.md:51
 #: ../../source/create/entities/create-entities.md:40
 #: ../../source/create/entities/create-spotlight.md:17
 #: ../../source/create/entities/create-spotlight.md:63
 #: ../../source/create/entities/display-youtube.md:16
 #: ../../source/create/entities/display-youtube.md:48
 #: ../../source/create/entities/entity-appearance.rst:3
-#: ../../source/create/entities/open-tablet-page-tutorial.md:16
-#: ../../source/create/entities/open-tablet-page-tutorial.md:56
 #: ../../source/create/entities/portal-tutorial.md:17
 #: ../../source/create/entities/portal-tutorial.md:52
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:17
@@ -4068,12 +4063,7 @@ msgstr ""
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/avatar-interactions.md:65
-#: ../../source/create/entities/avatar-scaling-tutorial.md:18
-#: ../../source/create/entities/avatar-scaling-tutorial.md:52
 #: ../../source/create/entities/entity-behavior.rst:3
-#: ../../source/create/entities/entity-physics.md:126
-#: ../../source/create/entities/open-tablet-page-tutorial.md:17
-#: ../../source/create/entities/open-tablet-page-tutorial.md:57
 #: ../../source/create/entities/portal-tutorial.md:18
 #: ../../source/create/entities/portal-tutorial.md:53
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:18
@@ -4082,15 +4072,14 @@ msgid "Define an Entity's Behavior"
 msgstr ""
 
 #: ../../source/create/entities.rst:9
-#: ../../source/create/entities/entity-physics.md:1
+#: ../../source/create/entities/entity-physics.rst:3
 msgid "Apply Physics to Entities"
 msgstr ""
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/create-entities.md:39
-#: ../../source/create/entities/material-entity.md:1
-#: ../../source/create/entities/material-entity.md:10
-#: ../../source/create/entities/material-entity.md:43
+#: ../../source/create/entities/material-entity.rst:3
+#: ../../source/create/entities/material-entity.rst:43
 msgid "Add a Material Entity"
 msgstr ""
 
@@ -4105,7 +4094,6 @@ msgstr ""
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/avatar-interactions.md:1
-#: ../../source/create/entities/entity-physics.md:128
 msgid "Define Interactions with Avatars"
 msgstr ""
 
@@ -4234,8 +4222,7 @@ msgid "Set Entity Behavior on Collision"
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:27
-#: ../../source/create/entities/entity-physics.md:22
-#: ../../source/create/entities/entity-physics.md:112
+#: ../../source/create/entities/entity-physics.rst:139
 msgid "Set How an Entity Moves in a Gravitational Field"
 msgstr ""
 
@@ -4366,23 +4353,16 @@ msgid "This example script adds a cube as an avatar entity to your domain."
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:66
-#: ../../source/create/entities/avatar-scaling-tutorial.md:56
-#: ../../source/create/entities/entity-physics.md:127
-#: ../../source/create/entities/open-tablet-page-tutorial.md:61
 #: ../../source/create/entities/portal-tutorial.md:57
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:118
 msgid "Interact with Your Environment"
-msgstr ""
+msgstr "Interagieren Sie mit ihrer Umgebung"
 
 #: ../../source/create/entities/avatar-interactions.md:67
 msgid "API Reference: Entities"
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:68
-#: ../../source/create/entities/avatar-scaling-tutorial.md:19
-#: ../../source/create/entities/avatar-scaling-tutorial.md:53
-#: ../../source/create/entities/open-tablet-page-tutorial.md:18
-#: ../../source/create/entities/open-tablet-page-tutorial.md:58
 #: ../../source/create/entities/portal-tutorial.md:19
 #: ../../source/create/entities/portal-tutorial.md:54
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:19
@@ -4390,12 +4370,12 @@ msgstr ""
 msgid "Get Started with Scripting"
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:1
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:3
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Create an Avatar Scaling Button"
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:3
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:5
 msgid ""
 "You can build content in Vircadia that breaks the laws of physical "
 "boundaries by making them oversized or extremely small. To give any "
@@ -4404,23 +4384,11 @@ msgid ""
 "you design."
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:8
-#: ../../source/create/entities/avatar-scaling-tutorial.md:23
-msgid "Write an Avatar Scaling Script"
-msgstr ""
-
-#: ../../source/create/entities/avatar-scaling-tutorial.md:9
-#: ../../source/create/entities/avatar-scaling-tutorial.md:35
-#: ../../source/create/entities/open-tablet-page-tutorial.md:9
-#: ../../source/create/entities/open-tablet-page-tutorial.md:29
-msgid "Create an Entity to Use as a Button"
-msgstr ""
-
-#: ../../source/create/entities/avatar-scaling-tutorial.md:14
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:14
 #: ../../source/create/entities/create-fountain.rst:15
 #: ../../source/create/entities/create-spotlight.md:14
 #: ../../source/create/entities/display-youtube.md:13
-#: ../../source/create/entities/open-tablet-page-tutorial.md:13
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:14
 #: ../../source/create/entities/portal-tutorial.md:14
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:14
 #: ../../source/create/entities/zone-tutorial.md:19
@@ -4429,118 +4397,169 @@ msgid ""
 "this tutorial:"
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:20
-#: ../../source/create/entities/avatar-scaling-tutorial.md:54
-#: ../../source/create/entities/open-tablet-page-tutorial.md:19
-#: ../../source/create/entities/open-tablet-page-tutorial.md:59
-#: ../../source/create/entities/portal-tutorial.md:20
-#: ../../source/create/entities/portal-tutorial.md:55
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:20
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:116
-msgid "Client Entity Scripts"
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:16
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:16
+msgid "`Create New Entities <create-entities>`_"
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:21
-#: ../../source/create/entities/avatar-scaling-tutorial.md:55
-#: ../../source/create/entities/open-tablet-page-tutorial.md:20
-#: ../../source/create/entities/open-tablet-page-tutorial.md:60
-#: ../../source/create/entities/portal-tutorial.md:21
-#: ../../source/create/entities/portal-tutorial.md:56
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:21
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:117
-msgid "Write Your Own Scripts"
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:17
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:17
+msgid "`Change How Entities Look <entity-appearance>`_"
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:25
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:18
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:18
+msgid "`Define an Entity's Behavior <entity-behavior>`_"
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:19
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:19
+msgid "`Get Started with Scripting <../../script/get-started-with-scripting>`_"
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:20
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:20
+msgid "`Client Entity Scripts <../../script/client-entity-scripts>`_"
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:21
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:21
+msgid "`Write Your Own Scripts <../../script/write-scripts>`_"
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:25
+msgid "Write an Avatar Scaling Script"
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:27
 msgid ""
 "To define the behavior of your avatar and the button, you need to write a"
 " client entity script that:"
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:27
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:29
 msgid "attaches to an entity (a button in your domain)."
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:28
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:30
 msgid "shrinks or increases the size of an avatar."
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:29
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:31
 msgid "defines what happens when a user clicks on or triggers the entity."
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:31
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:33
 msgid ""
-"In this tutorial, we've used shrink-avatar.js, an avatar scaling script "
-"used to shrink an avatar down to a tiny size. You can use this script, "
-"modify it, or write your own to suit your needs."
+"In this tutorial, we've used `shrink-avatar.js "
+"<../../_static/resources/entities/entity-client-script-shrink-"
+"avatar.js>`_, an avatar scaling script used to shrink an avatar down to a"
+" tiny size. You can use this script, modify it, or `write your own "
+"<../../script/write-scripts>`_ to suit your needs."
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:33
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:35
 msgid ""
-"The shrink-avatar.js uses Vircadia's JavaScript API to determine when a "
-"user clicks with the mouse or triggers the entity with their hand "
-"controllers. It then scales the avatar to one-tenth its original size."
+"The shrink-avatar.js uses Vircadia's `JavaScript API "
+"<https://apidocs.vircadia.dev>`_ to determine when a user clicks with the"
+" mouse or triggers the entity with their hand controllers. It then scales"
+" the avatar to one-tenth its original size."
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:37
-#: ../../source/create/entities/open-tablet-page-tutorial.md:31
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:39
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:33
+msgid "Create an Entity to Use as a Button"
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:41
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:35
 msgid ""
-"The entity you create for your button has to be triggerable so that the "
-"script can detect when you trigger or push the button with your hand "
-"controllers."
+"The entity you create for your button has to be `triggerable <entity-"
+"behavior.html#set-an-entity-to-trigger-scripts>`_ so that the script can "
+"detect when you trigger or push the button with your hand controllers."
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:39
-#: ../../source/create/entities/create-spotlight.md:23
-#: ../../source/create/entities/create-spotlight.md:43
-#: ../../source/create/entities/display-youtube.md:24
-#: ../../source/create/entities/display-youtube.md:36
-#: ../../source/create/entities/entity-physics.md:28
-#: ../../source/create/entities/material-entity.md:55
-#: ../../source/create/entities/material-entity.md:66
-#: ../../source/create/entities/open-tablet-page-tutorial.md:33
-#: ../../source/create/entities/portal-tutorial.md:36
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:36
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:44
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:64
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:73
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:104
-#: ../../source/create/entities/zone-tutorial.md:28
-#: ../../source/create/entities/zone-tutorial.md:55
-#: ../../source/create/entities/zone-tutorial.md:72
-#: ../../source/create/entities/zone-tutorial.md:100
-msgid "In Interface, pull up your HUD or Tablet and go to Create."
-msgstr ""
-
-#: ../../source/create/entities/avatar-scaling-tutorial.md:40
-#: ../../source/create/entities/open-tablet-page-tutorial.md:34
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:44
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:38
 msgid ""
-"Create an entity to be used as a button. This can be a 3D model, cube, or"
-" sphere entity."
+"`Create an entity <create-entities>`_ to be used as a button. This can be"
+" a 3D model, cube, or sphere entity."
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:41
-#: ../../source/create/entities/open-tablet-page-tutorial.md:35
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:45
 #: ../../source/create/entities/portal-tutorial.md:38
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:106
 msgid "Go to the 'Properties' tab and scroll down to 'Behavior'."
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:42
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:46
 msgid ""
-"Next to 'Script', paste the script URL. In this case, it is 'shrink-"
-"avatar.js'."
+"Next to 'Script', paste the script URL. In this case, it is '`shrink-"
+"avatar.js <../../_static/resources/entities/entity-client-script-shrink-"
+"avatar.js>`_'."
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:43
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:47
 msgid "Ensure that 'Triggerable' is selected."
 msgstr ""
 
-#: ../../source/create/entities/avatar-scaling-tutorial.md:44
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:48
 msgid ""
-"After you exit the Create app, test your script by clicking or triggering"
-" the button to observe your avatar scale down."
+"After you exit the **Create** app, test your script by clicking or "
+"triggering the button to observe your avatar scale down."
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:61
+#: ../../source/create/entities/boombox-tutorial.rst:14
+#: ../../source/create/entities/boombox-tutorial.rst:163
+#: ../../source/create/entities/create-fountain.rst:92
+#: ../../source/create/entities/material-entity.rst:105
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:63
+msgid ":doc:`Create New Entities <create-entities>`"
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:62
+#: ../../source/create/entities/boombox-tutorial.rst:15
+#: ../../source/create/entities/boombox-tutorial.rst:164
+#: ../../source/create/entities/create-fountain.rst:93
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:64
+#: ../../source/create/entities/web-entity-media.rst:161
+#: ../../source/create/entities/zone-entity.rst:172
+msgid ":doc:`Change How Entities Look <entity-appearance>`"
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:63
+#: ../../source/create/entities/boombox-tutorial.rst:16
+#: ../../source/create/entities/boombox-tutorial.rst:165
+#: ../../source/create/entities/entity-appearance.rst:158
+#: ../../source/create/entities/entity-physics.rst:155
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:65
+#: ../../source/create/entities/web-entity-media.rst:160
+#: ../../source/create/entities/zone-entity.rst:171
+msgid ":doc:`Define an Entity's Behavior <entity-behavior>`"
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:65
+#: ../../source/create/entities/boombox-tutorial.rst:18
+#: ../../source/create/entities/boombox-tutorial.rst:167
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:67
+msgid ":doc:`Client Entity Scripts <../../script/client-entity-scripts>`"
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:66
+#: ../../source/create/entities/boombox-tutorial.rst:19
+#: ../../source/create/entities/boombox-tutorial.rst:168
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:68
+msgid ":doc:`Write Your Own Scripts <../../script/write-scripts>`"
+msgstr ""
+
+#: ../../source/create/entities/avatar-scaling-tutorial.rst:67
+#: ../../source/create/entities/boombox-tutorial.rst:169
+#: ../../source/create/entities/entity-appearance.rst:156
+#: ../../source/create/entities/entity-behavior.rst:158
+#: ../../source/create/entities/entity-physics.rst:156
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:69
+msgid ":doc:`Interact with Your Environment <../../explore/interact>`"
 msgstr ""
 
 #: ../../source/create/entities/boombox-tutorial.rst:3
@@ -4552,38 +4571,6 @@ msgstr ""
 msgid ""
 "You can create a music player that plays all your favorite tracks and "
 "also syncs the audio for other users in your domain."
-msgstr ""
-
-#: ../../source/create/entities/boombox-tutorial.rst:14
-#: ../../source/create/entities/boombox-tutorial.rst:163
-#: ../../source/create/entities/create-fountain.rst:87
-msgid ":doc:`Create New Entities <create-entities>`"
-msgstr ""
-
-#: ../../source/create/entities/boombox-tutorial.rst:15
-#: ../../source/create/entities/boombox-tutorial.rst:164
-#: ../../source/create/entities/create-fountain.rst:88
-#: ../../source/create/entities/web-entity-media.rst:161
-#: ../../source/create/entities/zone-entity.rst:172
-msgid ":doc:`Change How Entities Look <entity-appearance>`"
-msgstr ""
-
-#: ../../source/create/entities/boombox-tutorial.rst:16
-#: ../../source/create/entities/boombox-tutorial.rst:165
-#: ../../source/create/entities/entity-appearance.rst:143
-#: ../../source/create/entities/web-entity-media.rst:160
-#: ../../source/create/entities/zone-entity.rst:171
-msgid ":doc:`Define an Entity's Behavior <entity-behavior>`"
-msgstr ""
-
-#: ../../source/create/entities/boombox-tutorial.rst:18
-#: ../../source/create/entities/boombox-tutorial.rst:167
-msgid ":doc:`Client Entity Scripts <../../script/client-entity-scripts>`"
-msgstr ""
-
-#: ../../source/create/entities/boombox-tutorial.rst:19
-#: ../../source/create/entities/boombox-tutorial.rst:168
-msgid ":doc:`Write Your Own Scripts <../../script/write-scripts>`"
 msgstr ""
 
 #: ../../source/create/entities/boombox-tutorial.rst:23
@@ -4922,12 +4909,6 @@ msgid ""
 "will be able to interact with the boombox controls."
 msgstr ""
 
-#: ../../source/create/entities/boombox-tutorial.rst:169
-#: ../../source/create/entities/entity-appearance.rst:141
-#: ../../source/create/entities/entity-behavior.rst:158
-msgid ":doc:`Interact with Your Environment <../../explore/interact>`"
-msgstr ""
-
 #: ../../source/create/entities/create-entities.md:3
 msgid ""
 "We are continually surprised by the ingenuity and creativity of the "
@@ -5080,9 +5061,9 @@ msgid ""
 "parts such as smoke, confetti, or falling leaves. The entity's effect and"
 " appearance is defined by its texture. The default texture is a `wispy "
 "smoke texture "
-"<https://content.highfidelity.com/DomainContent/production/Particles"
-"/wispy-smoke.png>`_, but you can replace this texture with your own to "
-"create your desired effect."
+"<https://cdn-1.vircadia.com/us-e-1/Bazaar/Assets/Textures/Defaults/Interface/default_particle.png>`_,"
+" but you can replace this texture with your own to create your desired "
+"effect."
 msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:27
@@ -5264,7 +5245,7 @@ msgid ""
 "along the x axis and rotated around on the z axis."
 msgstr ""
 
-#: ../../source/create/entities/create-fountain.rst:78
+#: ../../source/create/entities/create-fountain.rst:83
 msgid ""
 "Congratulations! You've created a multi-colored smoke fountain! You can "
 "experiment with different settings to simulate particle movement, such as"
@@ -5293,6 +5274,23 @@ msgstr ""
 msgid ""
 "Your gold spotlight needs a surface to shine on. Create this surface or "
 "wall in the Create app:"
+msgstr ""
+
+#: ../../source/create/entities/create-spotlight.md:23
+#: ../../source/create/entities/create-spotlight.md:43
+#: ../../source/create/entities/display-youtube.md:24
+#: ../../source/create/entities/display-youtube.md:36
+#: ../../source/create/entities/portal-tutorial.md:36
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:36
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:44
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:64
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:73
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:104
+#: ../../source/create/entities/zone-tutorial.md:28
+#: ../../source/create/entities/zone-tutorial.md:55
+#: ../../source/create/entities/zone-tutorial.md:72
+#: ../../source/create/entities/zone-tutorial.md:100
+msgid "In Interface, pull up your HUD or Tablet and go to Create."
 msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:24
@@ -5416,8 +5414,8 @@ msgstr ""
 #: ../../source/create/entities/display-youtube.md:3
 msgid ""
 "In this tutorial, you will learn how web entities work by creating one "
-"displaying a YouTube channel. You can watch videos in High Fidelity using"
-" this web entity."
+"displaying a YouTube channel. You can watch videos in Vircadia using this"
+" web entity."
 msgstr ""
 
 #: ../../source/create/entities/display-youtube.md:8
@@ -5427,7 +5425,7 @@ msgstr ""
 
 #: ../../source/create/entities/display-youtube.md:9
 #: ../../source/create/entities/display-youtube.md:32
-msgid "Display High Fidelity's YouTube Channel"
+msgid "Display Vircadia's YouTube Channel"
 msgstr ""
 
 #: ../../source/create/entities/display-youtube.md:20
@@ -5444,11 +5442,11 @@ msgstr ""
 #: ../../source/create/entities/display-youtube.md:25
 msgid ""
 "Click the 'Web' icon to create a web entity. By default, a web entity "
-"always displays High Fidelity's home page."
+"always displays Vircadia's home page."
 msgstr ""
 
 #: ../../source/create/entities/display-youtube.md:34
-msgid "You can make the web entity display High Fidelity's YouTube channel."
+msgid "You can make the web entity display Vircadia's YouTube channel."
 msgstr ""
 
 #: ../../source/create/entities/display-youtube.md:37
@@ -5457,10 +5455,9 @@ msgstr ""
 
 #: ../../source/create/entities/display-youtube.md:38
 msgid ""
-"Scroll down until you see the 'Source URL' option. Enter the High "
-"Fidelity YouTube channel URL: "
-"https://www.youtube.com/user/HighFidelityio. You should see the new page "
-"as soon as you hit 'Enter'."
+"Scroll down until you see the 'Source URL' option. Enter the Vircadia "
+"YouTube channel URL: https://www.youtube.com/channel/UC5gVObAP0ANbXr-"
+"lNCjP3xg. You should see the new page as soon as you hit 'Enter'."
 msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:5
@@ -5473,6 +5470,7 @@ msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:8
 #: ../../source/create/entities/entity-behavior.rst:8
+#: ../../source/create/entities/entity-physics.rst:7
 msgid ""
 "You can select and edit multiple entities at once. The behavior will be "
 "different based on the type of property you'd like to set:"
@@ -5480,6 +5478,7 @@ msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:10
 #: ../../source/create/entities/entity-behavior.rst:10
+#: ../../source/create/entities/entity-physics.rst:9
 msgid ""
 "Numbers: When using the slider, an offset will be applied to each of the "
 "original values. When typed in, the new value will replace the original "
@@ -5488,6 +5487,7 @@ msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:11
 #: ../../source/create/entities/entity-behavior.rst:11
+#: ../../source/create/entities/entity-physics.rst:10
 msgid ""
 "All other field types (checkboxes, input fields, etc): The new value will"
 " replace the original values for the selected entities."
@@ -5506,16 +5506,16 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:26
-#: ../../source/create/entities/entity-appearance.rst:70
-#: ../../source/create/entities/entity-appearance.rst:109
-#: ../../source/create/entities/entity-appearance.rst:129
+#: ../../source/create/entities/entity-appearance.rst:75
+#: ../../source/create/entities/entity-appearance.rst:119
+#: ../../source/create/entities/entity-appearance.rst:144
 msgid "Setting"
-msgstr ""
+msgstr "Einstellungen"
 
 #: ../../source/create/entities/entity-appearance.rst:26
-#: ../../source/create/entities/entity-appearance.rst:70
-#: ../../source/create/entities/entity-appearance.rst:109
-#: ../../source/create/entities/entity-appearance.rst:129
+#: ../../source/create/entities/entity-appearance.rst:75
+#: ../../source/create/entities/entity-appearance.rst:119
+#: ../../source/create/entities/entity-appearance.rst:144
 msgid "Supported Entity Type(s)"
 msgstr ""
 
@@ -5536,8 +5536,8 @@ msgid "The color of the light."
 msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:30
-#: ../../source/create/entities/entity-appearance.rst:81
-#: ../../source/create/entities/entity-appearance.rst:84
+#: ../../source/create/entities/entity-appearance.rst:86
+#: ../../source/create/entities/entity-appearance.rst:89
 msgid "Light"
 msgstr ""
 
@@ -5551,7 +5551,7 @@ msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:32
 #: ../../source/create/entities/entity-appearance.rst:34
-#: ../../source/create/entities/entity-appearance.rst:87
+#: ../../source/create/entities/entity-appearance.rst:92
 msgid "Text"
 msgstr ""
 
@@ -5644,10 +5644,10 @@ msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:52
 #: ../../source/create/entities/entity-appearance.rst:55
-#: ../../source/create/entities/entity-appearance.rst:89
-#: ../../source/create/entities/entity-appearance.rst:91
-#: ../../source/create/entities/entity-appearance.rst:93
-#: ../../source/create/entities/entity-appearance.rst:95
+#: ../../source/create/entities/entity-appearance.rst:94
+#: ../../source/create/entities/entity-appearance.rst:96
+#: ../../source/create/entities/entity-appearance.rst:98
+#: ../../source/create/entities/entity-appearance.rst:100
 msgid "Particle"
 msgstr ""
 
@@ -5672,7 +5672,7 @@ msgid ""
 "inside the object."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:67
+#: ../../source/create/entities/entity-appearance.rst:72
 msgid ""
 "For all entities, you can also set the size manually in the **Create** "
 "app. With the entity selected, click on 'Properties' and scroll down to "
@@ -5680,178 +5680,178 @@ msgid ""
 "configure:"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:72
+#: ../../source/create/entities/entity-appearance.rst:77
 msgid "*Spatial* > Local Dimensions"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:72
+#: ../../source/create/entities/entity-appearance.rst:77
 msgid ""
 "The size of the entity. If the entity is parented to an avatar, this "
 "value remains the original dimensions value while the avatar scale "
 "changes."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:72
-#: ../../source/create/entities/entity-appearance.rst:76
-#: ../../source/create/entities/entity-appearance.rst:79
-#: ../../source/create/entities/entity-appearance.rst:111
-#: ../../source/create/entities/entity-appearance.rst:113
-#: ../../source/create/entities/entity-appearance.rst:131
-#: ../../source/create/entities/entity-appearance.rst:133
+#: ../../source/create/entities/entity-appearance.rst:77
+#: ../../source/create/entities/entity-appearance.rst:81
+#: ../../source/create/entities/entity-appearance.rst:84
+#: ../../source/create/entities/entity-appearance.rst:121
+#: ../../source/create/entities/entity-appearance.rst:123
+#: ../../source/create/entities/entity-appearance.rst:146
+#: ../../source/create/entities/entity-appearance.rst:148
 msgid "All"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:76
+#: ../../source/create/entities/entity-appearance.rst:81
 msgid "*Spatial* > Dimensions"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:76
+#: ../../source/create/entities/entity-appearance.rst:81
 msgid ""
 "The size of the entity. If the entity is parented to an avatar, this "
 "value will change if the avatar scale changes"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:79
+#: ../../source/create/entities/entity-appearance.rst:84
 msgid "*Spatial* > Scale"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:79
+#: ../../source/create/entities/entity-appearance.rst:84
 msgid "Sets the size of the entity as a percentage of its original size."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:81
+#: ../../source/create/entities/entity-appearance.rst:86
 msgid "Fall-Off Radius"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:81
+#: ../../source/create/entities/entity-appearance.rst:86
 msgid "The distance from the light's center where the intensity is reduced."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:84
+#: ../../source/create/entities/entity-appearance.rst:89
 msgid "Spotlight Cut-Off"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:84
+#: ../../source/create/entities/entity-appearance.rst:89
 msgid ""
 "Affects the size of the spotlight's beam; the higher the value, the "
 "larger the beam."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:87
+#: ../../source/create/entities/entity-appearance.rst:92
 msgid "Line Height"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:87
+#: ../../source/create/entities/entity-appearance.rst:92
 msgid "The height of each line of text."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:89
+#: ../../source/create/entities/entity-appearance.rst:94
 msgid "*Emit* > Dimensions"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:89
+#: ../../source/create/entities/entity-appearance.rst:94
 msgid "The outer limit radius that particles can be emitted from."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:91
+#: ../../source/create/entities/entity-appearance.rst:96
 msgid "*Emit* > Radius Start"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:91
+#: ../../source/create/entities/entity-appearance.rst:96
 msgid "The inner limit radius that particles can start emitting from."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:93
+#: ../../source/create/entities/entity-appearance.rst:98
 msgid "*Size* > Size"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:93
+#: ../../source/create/entities/entity-appearance.rst:98
 msgid "The size of each individual particle in the entity."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:95
+#: ../../source/create/entities/entity-appearance.rst:100
 msgid "*Size* > Size Spread"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:95
+#: ../../source/create/entities/entity-appearance.rst:100
 msgid "How far apart a particle is from other particles."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:100
+#: ../../source/create/entities/entity-appearance.rst:105
 msgid "Rotate an Entity"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:102
+#: ../../source/create/entities/entity-appearance.rst:107
 msgid ""
 "All entities can be rotated directly in your environment by selecting and"
 " dragging the circles around the object."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:106
+#: ../../source/create/entities/entity-appearance.rst:116
 msgid ""
 "You can also set the rotation manually in the **Create** app. With the "
 "entity selected, click on 'Properties' and scroll down to the 'Rotation' "
 "settings. Here are the different rotation settings you can configure:"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:111
+#: ../../source/create/entities/entity-appearance.rst:121
 msgid "*Spatial* > Local Rotation"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:111
+#: ../../source/create/entities/entity-appearance.rst:121
 msgid "The orientation of the entity relative to its parent."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:113
+#: ../../source/create/entities/entity-appearance.rst:123
 msgid "*Spatial* > Rotation"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:113
+#: ../../source/create/entities/entity-appearance.rst:123
 msgid "The orientation of the entity with respect to world coordinates."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:116
-#: ../../source/create/entities/entity-appearance.rst:136
+#: ../../source/create/entities/entity-appearance.rst:126
+#: ../../source/create/entities/entity-appearance.rst:151
 msgid ""
 "You can switch between 'Local' and 'World' using the keyboard shortcut "
 "``T``."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:120
+#: ../../source/create/entities/entity-appearance.rst:130
 msgid "Move an Entity"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:122
+#: ../../source/create/entities/entity-appearance.rst:132
 msgid ""
 "All entities can be moved directly in your environment by selecting and "
 "dragging the object to the correct location. Alternatively, you can use "
 "the arrows around the object to move it in only one direction."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:126
+#: ../../source/create/entities/entity-appearance.rst:141
 msgid ""
 "You can also set the position manually in the **Create** app. With the "
 "entity selected, click on 'Properties' and scroll down to the 'Position' "
 "settings. Here are the different position settings you can configure:"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:131
+#: ../../source/create/entities/entity-appearance.rst:146
 msgid "*Spatial* > Local Position"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:131
+#: ../../source/create/entities/entity-appearance.rst:146
 msgid "The position of the entity relative to its parent."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:133
+#: ../../source/create/entities/entity-appearance.rst:148
 msgid "*Spatial* > Position"
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:133
+#: ../../source/create/entities/entity-appearance.rst:148
 msgid "The position of the entity with respect to world coordinates."
 msgstr ""
 
-#: ../../source/create/entities/entity-appearance.rst:142
+#: ../../source/create/entities/entity-appearance.rst:157
 #: ../../source/create/entities/web-entity-media.rst:159
 #: ../../source/create/entities/zone-entity.rst:170
 msgid "`The Create App <../tools.html#the-create-app>`_"
@@ -6171,6 +6171,7 @@ msgid ":doc:`Apply Physics to Entities <entity-physics>`"
 msgstr ""
 
 #: ../../source/create/entities/entity-behavior.rst:156
+#: ../../source/create/entities/entity-physics.rst:157
 msgid ":doc:`Define Interactions with Avatars <avatar-interactions>`"
 msgstr ""
 
@@ -6178,72 +6179,66 @@ msgstr ""
 msgid ":doc:`Add Sound to Entities <add-sounds>`"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:3
+#: ../../source/create/entities/entity-physics.rst:5
 msgid ""
-"Your Vircadia VR experience is made realistic with the help of a physics "
-"engine. Vircadia uses this engine to simulate an object's behavior "
-"according to the Newtonian laws of physics. For example, if you hit a "
-"ball with a bat in Vircadia, the physics engine computes these movements "
-"and makes the ball spin away from the bat after collision. You can modify"
-" an entity's physics behavior using the Create app."
+"Your Vircadia VR experience is made realistic with the help of a `physics"
+" engine <https://pybullet.org/wordpress>`_. Vircadia uses this engine to "
+"simulate an object's behavior according to the Newtonian laws of physics."
+" For example, if you hit a ball with a bat in Vircadia, the physics "
+"engine computes these movements and makes the ball spin away from the bat"
+" after collision. You can modify an entity's physics behavior using the "
+"Create app."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:17
-#: ../../source/create/entities/entity-physics.md:24
+#: ../../source/create/entities/entity-physics.rst:18
 msgid "Apply Physics to an Entity"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:18
-#: ../../source/create/entities/entity-physics.md:32
-msgid "Change an Entity's Velocity"
-msgstr ""
-
-#: ../../source/create/entities/entity-physics.md:19
-#: ../../source/create/entities/entity-physics.md:60
-msgid "Set How a Moving Entity Slows Down"
-msgstr ""
-
-#: ../../source/create/entities/entity-physics.md:20
-#: ../../source/create/entities/entity-physics.md:82
-msgid "Set an Entity's Friction and Bounciness"
-msgstr ""
-
-#: ../../source/create/entities/entity-physics.md:21
-#: ../../source/create/entities/entity-physics.md:99
-msgid "Set an Entity's Density"
-msgstr ""
-
-#: ../../source/create/entities/entity-physics.md:26
+#: ../../source/create/entities/entity-physics.rst:20
 msgid "To apply physics properties to an entity:"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:29
+#: ../../source/create/entities/entity-physics.rst:23
 msgid "Select or add any entity of your choice."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:30
+#: ../../source/create/entities/entity-physics.rst:24
 msgid ""
-"In the 'Properties' tab, scroll down to the Physics section. When you "
-"first create an entity, the physics properties are set to the default "
+"In the 'Properties' tab, scroll down to the **Physics** section. When you"
+" first create an entity, the physics properties are set to the default "
 "values you can see in the image below."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:34
+#: ../../source/create/entities/entity-physics.rst:30
+msgid "Change an Entity's Velocity"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:32
 msgid ""
 "Velocity is the speed of an object in a certain direction. All entities "
 "that have a position and orientation in Vircadia will have linear and "
 "angular velocity. These velocities might be zero, but they still exist."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:36
+#: ../../source/create/entities/entity-physics.rst:36
 msgid "Linear Velocity"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:38
-msgid "Type: 3D Vector<br /> Unit: meters/second<br /> Default Value: (0,0,0)"
+#: ../../source/create/entities/entity-physics.rst:38
+msgid "**Type**: 3D Vector"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:42
+#: ../../source/create/entities/entity-physics.rst:40
+msgid "**Unit:** meters/second"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:42
+#: ../../source/create/entities/entity-physics.rst:58
+#: ../../source/create/entities/entity-physics.rst:145
+msgid "**Default Value:** (0,0,0)"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:44
 msgid ""
 "You can choose to make an entity move in a specified direction by "
 "changing its linear velocity. The direction is determined using the x, y,"
@@ -6253,126 +6248,153 @@ msgid ""
 "to show you the new position. To change an entity's linear velocity:"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:44
+#: ../../source/create/entities/entity-physics.rst:46
 msgid ""
 "In the 'Properties' tab, scroll down to 'Linear Velocity' property. The "
-"default value is 0.0000."
+"default value is `0.0000`."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:45
+#: ../../source/create/entities/entity-physics.rst:47
 msgid ""
 "Say you want to move a cube entity upwards in a straight line. Change the"
-" Y value for linear velocity to 0.1000 and see your cube start moving."
+" Y value for linear velocity to `0.1000` and see your cube start moving."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:46
+#: ../../source/create/entities/entity-physics.rst:48
 msgid ""
 "If you want your cube to change direction, change the x and z values to "
-"0.1000."
+"`0.1000`."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:48
+#: ../../source/create/entities/entity-physics.rst:52
 msgid "Angular Velocity"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:50
-msgid "Type: 3D Vector<br /> Unit: radians/second<br /> Default Value: (0,0,0)"
+#: ../../source/create/entities/entity-physics.rst:54
+#: ../../source/create/entities/entity-physics.rst:141
+msgid "**Type:** 3D Vector"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:54
+#: ../../source/create/entities/entity-physics.rst:56
+msgid "**Unit:** degrees/second"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:60
 msgid ""
 "Angular velocity is the speed at which an object is rotating in a certain"
-" direction. It is measured in radians/second. To change an entity's "
+" direction. It is measured in degrees/second. To change an entity's "
 "angular velocity:"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:56
+#: ../../source/create/entities/entity-physics.rst:62
 msgid ""
 "In the 'Properties' tab, scroll down to the 'Angular Velocity' property. "
-"The default value is 0.0000."
+"The default value is `0.0000`."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:57
+#: ../../source/create/entities/entity-physics.rst:63
 msgid "Change the X value to see your cube entity start rotating around an axis."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:58
+#: ../../source/create/entities/entity-physics.rst:64
 msgid ""
 "If you want your cube entity to change its angular velocity direction, "
 "change the Y and Z values."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:62
-msgid "Type: Scalar<br /> Range: 0 - 1<br /> Default Value: 0.00"
+#: ../../source/create/entities/entity-physics.rst:66
+msgid "The scripting engine uses radials/second instead of degrees/second."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:66
+#: ../../source/create/entities/entity-physics.rst:70
+msgid "Set How a Moving Entity Slows Down"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:72
+#: ../../source/create/entities/entity-physics.rst:123
+msgid "**Type**: Scalar"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:74
+#: ../../source/create/entities/entity-physics.rst:103
+msgid "**Range:** 0 - 1"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:76
+msgid "**Default Value:** 0.00"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:78
 msgid ""
 "In Vircadia, damping represents how much of an entity's linear or angular"
 " velocity is lost over time. All moving objects we see in the real world "
 "experience some friction with air, reducing their velocities over time. "
 "Damping is used to approximate this effect of the real world in Vircadia."
-" So if the damping of an object is 0.00, it will not lose any velocity "
-"and it will not slow down. If the damping of an object is 1.00, it will "
-"lose all its velocity and stop immediately. If you want to throw a ball "
+" So if the damping of an object is `0.00`, it will not lose any velocity "
+"and it will not slow down. If the damping of an object is `1.00`, it will"
+" lose all its velocity and stop immediately. If you want to throw a ball "
 "and have it slow down over time, you can add a damping value to do so."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:68
+#: ../../source/create/entities/entity-physics.rst:80
 msgid "To set the linear damping of an object:"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:70
+#: ../../source/create/entities/entity-physics.rst:82
 msgid ""
 "In the 'Properties' tab, scroll down to the 'Linear Damping' property. "
-"The default value is 0.00."
+"The default value is `0.00`."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:71
-msgid "Change the linear velocity of a cube to any value."
+#: ../../source/create/entities/entity-physics.rst:83
+msgid "`Change the linear velocity <#linear-velocity>`_ of a cube to any value."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:72
+#: ../../source/create/entities/entity-physics.rst:84
 msgid ""
-"Change the 'Linear Damping' value to 1.00 to make the cube stop moving. "
-"You can change this value to anything between 0.00 and 1.00 to make an "
-"entity slow down over time."
+"Change the 'Linear Damping' value to `1.00` to make the cube stop moving."
+" You can change this value to anything between `0.00` and `1.00` to make "
+"an entity slow down over time."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:74
+#: ../../source/create/entities/entity-physics.rst:86
 msgid "To set the angular damping of an object:"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:76
+#: ../../source/create/entities/entity-physics.rst:88
 msgid ""
 "In the 'Properties' tab, scroll down to the 'Angular Damping' property. "
-"The default value is 0.00."
+"The default value is `0.00`."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:77
-msgid "Change the angular velocity of a cube to any value."
+#: ../../source/create/entities/entity-physics.rst:89
+msgid "`Change the angular velocity <#angular-velocity>`_ of a cube to any value."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:78
+#: ../../source/create/entities/entity-physics.rst:90
 msgid ""
-"Change the 'Angular Damping' value to 1.00 to make the cube stop moving. "
-"You can change this value to anything between 0.00 and 1.00 to make an "
-"entity slow down over time."
+"Change the 'Angular Damping' value to `1.00` to make the cube stop "
+"moving. You can change this value to anything between `0.00` and `1.00` "
+"to make an entity slow down over time."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:84
-msgid "Range: 0 - 1<br /> Default Value: 0.5000"
+#: ../../source/create/entities/entity-physics.rst:101
+msgid "Set an Entity's Friction and Bounciness"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:87
+#: ../../source/create/entities/entity-physics.rst:105
+msgid "**Default Value:** 0.5000"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:107
 msgid ""
 "When a dynamic entity collides with another entity, it can react in a "
 "number of ways depending on its physics properties. The values you set "
 "for friction and bounciness determine this reaction. By default, both "
-"values are 0.5000."
+"values are `0.5000`."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:89
+#: ../../source/create/entities/entity-physics.rst:109
 msgid ""
 "Friction is a measure of how slippery an object is. When an entity with "
 "low friction collides against another object, it will slide a good "
@@ -6380,79 +6402,87 @@ msgid ""
 "friction will slow down much faster. To set the friction of an entity:"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:91
+#: ../../source/create/entities/entity-physics.rst:111
 msgid "In the 'Properties' tab, scroll down to the 'Friction' property."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:92
+#: ../../source/create/entities/entity-physics.rst:112
 msgid ""
-"Change the value to anything between 0.0000 and 1.0000. An entity with a "
-"friction of 0.0000 will be very slippery, while an entity with a friction"
-" of 1.0000 will have a coarse or sticky surface."
+"Change the value to anything between `0.0000` and `1.0000`. An entity "
+"with a friction of `0.0000` will be very slippery, while an entity with a"
+" friction of `1.0000` will have a coarse or sticky surface."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:94
+#: ../../source/create/entities/entity-physics.rst:114
 msgid ""
 "Bounciness is the energy an entity conserves during collision. For "
 "example, a ball will conserve more energy and bounce more than a heavy "
 "cube. To set the bounciness:"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:96
+#: ../../source/create/entities/entity-physics.rst:116
 msgid "In the 'Properties' tab, scroll down to the 'Bounciness' property."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:97
+#: ../../source/create/entities/entity-physics.rst:117
 msgid ""
-"Change the value to anything between 0.0000 and 1.0000. An entity with a "
-"bounciness of 0.0000 will conserve no energy, while an entity with a "
-"bounciness of 1.0000 will conserve all of its energy."
+"Change the value to anything between `0.0000` and `1.0000`. An entity "
+"with a bounciness of `0.0000` will conserve no energy, while an entity "
+"with a bounciness of `1.0000` will conserve all of its energy."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:101
-msgid ""
-"Type: Scalar<br /> Unit: kg/meter<sup>3</sup><br /> Range: 100 - 10000<br"
-" /> Default Value: 1000.0000"
+#: ../../source/create/entities/entity-physics.rst:121
+msgid "Set an Entity's Density"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:106
+#: ../../source/create/entities/entity-physics.rst:125
+msgid "**Unit:** kg/meter³"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:127
+msgid "**Range:** 100 - 10000"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:129
+msgid "**Default Value:** 1000.0000"
+msgstr ""
+
+#: ../../source/create/entities/entity-physics.rst:131
 msgid ""
 "An entity's density is the ratio of its mass to its volume. For example, "
 "an entity with low density is made of light materials such as wood, while"
 " an entity with high density is made of dense materials such as iron."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:108
+#: ../../source/create/entities/entity-physics.rst:133
 msgid ""
-"In Vircadia, the maximum (10000) and minimum (100) values of density were"
-" chosen for stability. It's difficult to perform stable physics "
+"In Vircadia, the maximum (`10000`) and minimum (`100`) values of density "
+"were chosen for stability. It's difficult to perform stable physics "
 "calculations between objects of very disparate masses (such as a light "
 "feather and an iron ball). To help keep the environment stable, we picked"
 " conservative density limits."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:110
+#: ../../source/create/entities/entity-physics.rst:135
 msgid ""
 "To change this value, scroll down to the 'Density' property in the "
 "'Properties' tab. Change it to the value of your choice."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:114
-msgid ""
-"Type: 3D Vector<br /> Unit: meters/second<sup>2</sup><br /> Default "
-"Value: (0,0,0)"
+#: ../../source/create/entities/entity-physics.rst:143
+msgid "**Unit:** meters/second²"
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:118
+#: ../../source/create/entities/entity-physics.rst:147
 msgid ""
-"In the Create app, 'Gravity' is the acceleration of the entity, as if it "
-"were in a uniform gravitational field. This property controls how an "
+"In the **Create** app, 'Gravity' is the acceleration of the entity, as if"
+" it were in a uniform gravitational field. This property controls how an "
 "entity behaves when you change the gravity of a domain. For example, if a"
 " ball is floating in zero gravity, it will float downwards when you "
 "increase gravity downwards."
 msgstr ""
 
-#: ../../source/create/entities/entity-physics.md:120
+#: ../../source/create/entities/entity-physics.rst:149
 msgid ""
 "To change this value, scroll down to the 'Gravity' property in the "
 "'Properties' tab. Change it to the value of your choice."
@@ -6542,7 +6572,7 @@ msgid ""
 "match your new settings."
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:3
+#: ../../source/create/entities/material-entity.rst:5
 msgid ""
 "You can add a material entity to an object in your domain. A material "
 "entity contains specific material data that determines the texture and "
@@ -6552,75 +6582,88 @@ msgid ""
 "walls."
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:5
+#: ../../source/create/entities/material-entity.rst:7
 msgid ""
 "Before adding a material entity, make sure you have created a material "
-"using the PBR Materials Guide."
+"using the `PBR Materials Guide <../3d-models/pbr-materials-guide>`_."
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:9
-#: ../../source/create/entities/material-entity.md:14
+#: ../../source/create/entities/material-entity.rst:14
 msgid "Generate a Material Entity"
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:11
-#: ../../source/create/entities/material-entity.md:45
-msgid "Use the Material Entity JSON File"
-msgstr ""
-
-#: ../../source/create/entities/material-entity.md:12
-#: ../../source/create/entities/material-entity.md:63
-msgid "Use the materialData Field"
-msgstr ""
-
-#: ../../source/create/entities/material-entity.md:16
+#: ../../source/create/entities/material-entity.rst:16
 msgid ""
-"To add a material to your object in High Fidelity, you need to specify "
-"the material data in a JSON file or add the material directly into the "
-"Create app."
+"To add a material to your object in Vircadia, you need to specify the "
+"material data in a JSON file or add the material directly into the "
+"**Create** app."
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:23
-msgid "This is what the JSON file for a sample castle wall material looks like:"
+#: ../../source/create/entities/material-entity.rst:18
+msgid ""
+"We are aware of the difficulties involved in converting your material "
+"data to a JSON file and are working on making the process easier for our "
+"users. In the meantime, we recommend embedding your material data in your"
+" models as FBX or glTF files if you are facing difficulties generating a "
+"JSON file."
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:41
+#: ../../source/create/entities/material-entity.rst:20
+msgid ""
+"This is what the JSON file for a sample `castle wall material "
+"<https://docs.vircadia.dev/_static/resources/material-"
+"entity/CastleWall.hfm.json>`_ looks like:"
+msgstr ""
+
+#: ../../source/create/entities/material-entity.rst:39
 msgid ""
 "This file contains all related material data, such as the color, "
 "roughness, and other texture and shading information. Note that you can "
-"edit this information programmatically with the Material EntityType in "
-"our API, and define its properties using EntityProperties-Material."
+"edit this information programmatically with the `Material` `EntityType "
+"<https://apidocs.vircadia.dev/Entities.html#.EntityType>`_ in our API, "
+"and define its properties using `EntityProperties-Material "
+"<https://apidocs.vircadia.dev/Entities.html#.EntityProperties-"
+"Material>`_."
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:53
+#: ../../source/create/entities/material-entity.rst:47
+msgid "Use the Material Entity JSON File"
+msgstr ""
+
+#: ../../source/create/entities/material-entity.rst:49
+msgid ""
+"At this time, we have no way to automatically generate a JSON file with "
+"another tool, and you will need to write your own JSON file."
+msgstr ""
+
+#: ../../source/create/entities/material-entity.rst:51
 msgid ""
 "Once you have your material entity JSON file, you can add it to an object"
-" in High Fidelity. Let's add the castle wall material to a box entity in "
-"your domain."
+" in Vircadia. Let's add the `castle wall material "
+"<https://docs.vircadia.dev/_static/resources/material-"
+"entity/CastleWall.hfm.json>`_ to a box entity in your domain."
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:56
-#: ../../source/create/entities/material-entity.md:67
+#: ../../source/create/entities/material-entity.rst:54
 msgid ""
 "Create a wall. Click the 'Cube' icon to add a box entity and change the "
 "dimensions to make it resemble a wall."
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:57
+#: ../../source/create/entities/material-entity.rst:55
 msgid ""
-"Go to the Create tab and click on the 'Material' icon to add a material "
-"entity. Enter the material's JSON file URL when prompted. You will see "
-"the material entity represented as a small sphere."
+"Go to the **Create** tab and click on the 'Material' icon to add a "
+"material entity. Enter the material's JSON file URL when prompted. You "
+"will see the material entity represented as a small sphere."
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:58
-#: ../../source/create/entities/material-entity.md:70
+#: ../../source/create/entities/material-entity.rst:56
 msgid ""
 "Click and select the wall. Go to the 'Properties' tab and copy the parent"
 " ID under the 'Name' box."
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:59
+#: ../../source/create/entities/material-entity.rst:57
 msgid ""
 "Click and select the material entity. Go to the 'Properties' tab and "
 "paste the copied parent ID in the 'Parent' box. You will see the material"
@@ -6628,89 +6671,92 @@ msgid ""
 "material to an entity."
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:65
-msgid "To add a material entity directly into the Create Tools app:"
+#: ../../source/create/entities/material-entity.rst:68
+msgid "Use the materialData Field"
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:68
+#: ../../source/create/entities/material-entity.rst:70
 msgid ""
-"Go to the Create tab and click on the 'Material' icon to add a material "
-"entity."
-msgstr ""
-
-#: ../../source/create/entities/material-entity.md:69
-msgid "Enter materialData when you're prompted for a 'Material URL'."
-msgstr ""
-
-#: ../../source/create/entities/material-entity.md:71
-msgid ""
+"To add a material entity directly into the **Create** Tools app: 1. In "
+"Interface, pull up your HUD or Tablet and go to **Create**. 2. Create a "
+"wall. Click the 'Cube' icon to add a box entity and change the dimensions"
+" to make it resemble a wall. 3. Go to the **Create** tab and click on the"
+" 'Material' icon to add a material entity. 4. Enter `materialData` when "
+"you're prompted for a 'Material URL'. 5. Click and select the wall. Go to"
+" the 'Properties' tab and copy the parent ID under the 'Name' box. 6. "
 "Click and select the material entity. Go to the 'Properties' tab and "
 "paste the copied parent ID in the 'Parent' box. In this step, you are "
-"parenting or applying a material to an entity."
+"parenting or applying a material to an entity. 7. Scroll down to the "
+"'Material Data' field. Click 'Clear Material Data' and then paste the "
+"following JSON data:"
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:72
-msgid ""
-"Scroll down to the 'Material Data' field. Click 'Clear Material Data' and"
-" then paste the following JSON data:"
+#: ../../source/create/entities/material-entity.rst:106
+msgid ":doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`"
 msgstr ""
 
-#: ../../source/create/entities/material-entity.md:97
-msgid "Introduction to JSON"
+#: ../../source/create/entities/material-entity.rst:107
+msgid "`Introduction to JSON <https://www.w3schools.com/js/js_json_intro.asp>`_"
 msgstr ""
 
-#: ../../source/create/entities/open-tablet-page-tutorial.md:1
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:3
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Open Web Page with Entities"
 msgstr ""
 
-#: ../../source/create/entities/open-tablet-page-tutorial.md:3
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:5
 msgid ""
 "Entities are often used to add objects to your environment. However, you "
 "can do so much more with this when you use scripting to define their "
 "behavior. In this tutorial, we will use an entity as a button to open a "
 "web page on your tablet. You can use this tutorial to do things like "
-"directing your visitors to specific Marketplace items for purchase."
+"directing your visitors to an external shop for purchasing an item."
 msgstr ""
 
-#: ../../source/create/entities/open-tablet-page-tutorial.md:8
-#: ../../source/create/entities/open-tablet-page-tutorial.md:22
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:25
 msgid "Write a Script to Open a Web Page"
 msgstr ""
 
-#: ../../source/create/entities/open-tablet-page-tutorial.md:24
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:27
 msgid ""
-"The script used here opens a web page on the Tablet when a user clicks or"
-" triggers an entity. In this example, we've written a client entity "
-"script that opens the Marketplace web page when an entity/item is "
-"triggered. The script looks for the URL in the 'User data' property of "
-"the entity and injects the Marketplace code into the link. This allows "
-"the user who triggered the script to purchase the item without having to "
-"go to the Market app on their Tablet or HUD."
+"The script used here opens a web page on the Tablet or the external web "
+"browser when a user clicks or triggers an entity. In this example, we've "
+"written a client entity script that opens the Vircadia documentation when"
+" an entity/item is triggered. The script looks for the URL in the 'User "
+"data' property of the entity."
 msgstr ""
 
-#: ../../source/create/entities/open-tablet-page-tutorial.md:26
-msgid "You can get the script here."
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:29
+msgid ""
+"You can get the script `here <https://vircadia-content-"
+"public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
 msgstr ""
 
-#: ../../source/create/entities/open-tablet-page-tutorial.md:36
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:39
+msgid ""
+"Go to the 'Properties' tab at the top and down to the 'Behavior' tab on "
+"the left of the window."
+msgstr ""
+
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:40
+msgid "Set it as 'Triggerable'."
+msgstr ""
+
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:41
+msgid ""
+"Next go to the 'Script' tab and paste the script URL. In this case, it is"
+" `clickToOpenBrowser.js <https://vircadia-content-"
+"public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
+msgstr ""
+
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:42
 msgid "Paste the following JSON data into the 'User data' field for your entity:"
 msgstr ""
 
-#: ../../source/create/entities/open-tablet-page-tutorial.md:47
+#: ../../source/create/entities/open-tablet-page-tutorial.rst:59
 msgid ""
-"Next to 'Script', paste the script URL. In this case, it is "
-"openTabletPageButton.js."
-msgstr ""
-
-#: ../../source/create/entities/open-tablet-page-tutorial.md:48
-msgid "Scroll down and ensure that 'Triggerable' is selected."
-msgstr ""
-
-#: ../../source/create/entities/open-tablet-page-tutorial.md:49
-msgid ""
-"After you exit the Create app, test your script by clicking or triggering"
-" the button to open the Marketplace web page for your item."
+"After you exit the **Create** app, test your script by clicking or "
+"triggering the button to open the web page."
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:1
@@ -6733,6 +6779,20 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:9
 #: ../../source/create/entities/portal-tutorial.md:32
 msgid "Create and Edit an Entity to Use as a Portal"
+msgstr ""
+
+#: ../../source/create/entities/portal-tutorial.md:20
+#: ../../source/create/entities/portal-tutorial.md:55
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:20
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:116
+msgid "Client Entity Scripts"
+msgstr ""
+
+#: ../../source/create/entities/portal-tutorial.md:21
+#: ../../source/create/entities/portal-tutorial.md:56
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:21
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:117
+msgid "Write Your Own Scripts"
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:25
@@ -8154,7 +8214,7 @@ msgstr ""
 #: ../../source/create/environments.rst:21
 msgid ""
 "You can use 3D modeling software like Blender or Maya to create your own "
-"3D models and `import them into your Athena domain <3d-models/import-"
+"3D models and `import them into your Vircadia Domain <3d-models/import-"
 "model.html#import-3d-models-using-the-asset-server>`_."
 msgstr ""
 
@@ -8164,10 +8224,10 @@ msgstr ""
 
 #: ../../source/create/environments.rst:25
 msgid ""
-"Athena domain settings have downloadable content archives. These archives"
-" are zip files containing all domain content information. You can `use a "
-"backup file of your own or one sent to you by a user <../host/maintain-"
-"domain/backup-domain.html>`_."
+"Vircadia Domain settings have downloadable content archives. These "
+"archives are zip files containing all domain content information. You can"
+" `use a backup file of your own or one sent to you by a user <../host"
+"/maintain-domain/backup-domain.html>`_."
 msgstr ""
 
 #: ../../source/create/environments.rst:32
@@ -8848,7 +8908,7 @@ msgid ""
 "creation suite which supports everything from modeling and rigging, to "
 "animation and simulation. You can also use Blender to fine tune your "
 "avatar, and ensure that the materials and textures render correctly in "
-"Athena."
+"Vircadia."
 msgstr ""
 
 #: ../../source/create/tools.rst:123 ../../source/create/wearables.md:12
@@ -8859,7 +8919,7 @@ msgstr ""
 msgid ""
 "`Maya <https://www.autodesk.in/products/maya/overview>`_ is a "
 "subscription based 3D modeling toolset that you can use to create 3D "
-"models to import into Athena."
+"models to import into Vircadia."
 msgstr ""
 
 #: ../../source/create/tools.rst:129
@@ -8908,9 +8968,9 @@ msgstr ""
 #: ../../source/create/wearables.md:5
 msgid ""
 "Before you can use a custom wearable, you must first host its FBX and "
-"JSON files in a place that is publicly accessible to Athena. You can use "
-"any cloud platforms including Amazon S3, Google Cloud Storage, Microsoft "
-"Azure, Dropbox, etc."
+"JSON files in a place that is publicly accessible to Vircadia. You can "
+"use any cloud platforms including Amazon S3, Google Cloud Storage, "
+"Microsoft Azure, Dropbox, etc."
 msgstr ""
 
 #: ../../source/create/wearables.md:7
@@ -9123,3 +9183,622 @@ msgstr ""
 #~ "also being updated."
 #~ msgstr ""
 
+#~ msgid ""
+#~ "Vircadia enables people connected by "
+#~ "interest, community, and friendship to "
+#~ "come together and express their "
+#~ "creativity with each other. We invite"
+#~ " you to personalize your own "
+#~ "experience by creating avatars and "
+#~ "wearables, building immersive experiences, and"
+#~ " developing apps to make the "
+#~ "metaverse your own."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "No matter your level of expertise, "
+#~ "Athena provides the tools you need "
+#~ "to create anything you can imagine."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The final step is to code the "
+#~ "behavior of your JavaScript file. In "
+#~ "this case, we'll create gemstones using"
+#~ " Athena's JavaScript API. Each gemstone "
+#~ "will be created as an entity, and"
+#~ " we can change the gemstone's "
+#~ "properties using the ``Entity`` namespace."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Congratulations, you have successfully created"
+#~ " an app in Athena! To use your"
+#~ " app, upload it to a cloud "
+#~ "platform, such as Amazon S3, Google "
+#~ "Cloud Storage, Microsoft Azure, etc. "
+#~ "Once hosted, you can install it "
+#~ "and use it:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you get an avatar from an "
+#~ "external source such as TurboSquid, "
+#~ "CGTrader, MakeHuman, or VRoid Studio, it"
+#~ " is likely that the skeleton does "
+#~ "not match our :doc:`avatar standards "
+#~ "<avatar-standards>`. To use these avatars"
+#~ " with Vircadia, use the `Vircadia "
+#~ "Avatar Exporter for Unity <find-"
+#~ "avatars.html#project-athena-avatar-exporter-"
+#~ "for-unity>`_ to correctly map the "
+#~ "skeleton and package your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Material Tools**: Allows for easier "
+#~ "pipeline to apply materials to objects"
+#~ " so that they are ready to use"
+#~ " in Athena."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Armature Tools**: Adds a skeleton that"
+#~ " is compatible with Athena and let"
+#~ " you configure bone names for use "
+#~ "in advanced scripts."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Avatar Converters**: Translates and fixes"
+#~ " models and materials from MMD and"
+#~ " Mixamo so that they work in "
+#~ "Athena."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Export Tools**: Exports avatars and "
+#~ "scenes so that they can be used"
+#~ " in Athena."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Import Tools**: Imports primitive entities"
+#~ " from Athena so that you can "
+#~ "make modifications to them."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We've listed the animation roles and "
+#~ "their description. These are frequently "
+#~ "updated, so we recommend using "
+#~ "``MyAvatar.getAnimationRoles`` to get the "
+#~ "latest animation roles before continuing. "
+#~ "The standard animation FBX files for "
+#~ "these roles can be found in the"
+#~ " Vircadia source code repository on "
+#~ "`GitHub <https://github.com/kasenvr/project-"
+#~ "athena/tree/kasen/core/interface/resources/avatar/animations>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Here is the current default `avatar-"
+#~ "animation.json <https://github.com/kasenvr/project-"
+#~ "athena/blob/kasen/core/interface/resources/avatar/avatar-"
+#~ "animation.json>`_ file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Vircadia Avatar Exporter for Unity "
+#~ "<https://github.com/kasenvr/project-athena/blob/kasen/core/tools"
+#~ "/unity-avatar-"
+#~ "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the `avatar exporter "
+#~ "<https://github.com/kasenvr/project-athena/blob/kasen/core/tools"
+#~ "/unity-avatar-"
+#~ "exporter/avatarExporter.unitypackage?raw=true>`_ from "
+#~ "Vircadia."
+#~ msgstr ""
+
+#~ msgid "Your avatar is grey."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use 3D modeling software "
+#~ "like Blender or Maya to create "
+#~ "your own 3D models and `import "
+#~ "them into your Athena domain <3d-"
+#~ "models/import-model.html#import-3d-models-"
+#~ "using-the-asset-server>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Athena domain settings have downloadable "
+#~ "content archives. These archives are zip"
+#~ " files containing all domain content "
+#~ "information. You can `use a backup "
+#~ "file of your own or one sent "
+#~ "to you by a user <../host/maintain-"
+#~ "domain/backup-domain.html>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Blender <https://www.blender.org>`_ is an "
+#~ "open-source 3D modeling creation suite "
+#~ "which supports everything from modeling "
+#~ "and rigging, to animation and "
+#~ "simulation. You can also use Blender "
+#~ "to fine tune your avatar, and "
+#~ "ensure that the materials and textures"
+#~ " render correctly in Athena."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Maya <https://www.autodesk.in/products/maya/overview>`_ "
+#~ "is a subscription based 3D modeling "
+#~ "toolset that you can use to create"
+#~ " 3D models to import into Athena."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Before you can use a custom "
+#~ "wearable, you must first host its "
+#~ "FBX and JSON files in a place "
+#~ "that is publicly accessible to Athena."
+#~ " You can use any cloud platforms "
+#~ "including Amazon S3, Google Cloud "
+#~ "Storage, Microsoft Azure, Dropbox, etc."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia supports different types of "
+#~ "materials. We've created sample objects "
+#~ "with each material type. You can "
+#~ "download each object from `this "
+#~ "repository "
+#~ "<https://github.com/highfidelity/hifi_tests/tree/master/assets/models/material_matrix_models/fbx/blender>`_"
+#~ " on GitHub, or run `this script "
+#~ "<https://raw.githubusercontent.com/highfidelity/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_"
+#~ " in Vircadia to upload all sample "
+#~ "objects in your domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Avatar animations are FBX files that "
+#~ "define how your avatar moves. For "
+#~ "example, `turn_left.fbx <h "
+#~ "ttps://github.com/highfidelity/hifi/blob/master/interface/resources/avatar/animations/turn_left.f"
+#~ " bx>`_ is the standard animation file"
+#~ " for your avatar turning left."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The standard animation system blends and"
+#~ " layers a series of animations from"
+#~ " FBX files using a JSON data "
+#~ "file. This JSON file is called the"
+#~ " Animation Graph file, and it "
+#~ "specifies exactly which animations to "
+#~ "play and how they are blended. It"
+#~ " also determines the order of "
+#~ "operations, so that operations like "
+#~ "Inverse Kinematics occur after the rest"
+#~ " of the body has been animated "
+#~ "by traditional means. By default, every"
+#~ " avatar uses the same `Animation "
+#~ "Graph file <https://github.com/highfidelity/hif "
+#~ "i/blob/master/interface/resources/avatar/avatar-"
+#~ "animation.json>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this tutorial, we've used shrink-"
+#~ "avatar.js, an avatar scaling script used"
+#~ " to shrink an avatar down to a"
+#~ " tiny size. You can use this "
+#~ "script, modify it, or write your "
+#~ "own to suit your needs."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The shrink-avatar.js uses Vircadia's "
+#~ "JavaScript API to determine when a "
+#~ "user clicks with the mouse or "
+#~ "triggers the entity with their hand "
+#~ "controllers. It then scales the avatar"
+#~ " to one-tenth its original size."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The entity you create for your "
+#~ "button has to be triggerable so "
+#~ "that the script can detect when "
+#~ "you trigger or push the button "
+#~ "with your hand controllers."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create an entity to be used as "
+#~ "a button. This can be a 3D "
+#~ "model, cube, or sphere entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next to 'Script', paste the script "
+#~ "URL. In this case, it is "
+#~ "'shrink-avatar.js'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After you exit the Create app, "
+#~ "test your script by clicking or "
+#~ "triggering the button to observe your"
+#~ " avatar scale down."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Particle entities are used to create "
+#~ "effects that are made up of "
+#~ "smaller parts such as smoke, confetti,"
+#~ " or falling leaves. The entity's "
+#~ "effect and appearance is defined by "
+#~ "its texture. The default texture is "
+#~ "a `wispy smoke texture "
+#~ "<https://content.highfidelity.com/DomainContent/production/Particles"
+#~ "/wispy-smoke.png>`_, but you can replace"
+#~ " this texture with your own to "
+#~ "create your desired effect."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this tutorial, you will learn "
+#~ "how web entities work by creating "
+#~ "one displaying a YouTube channel. You"
+#~ " can watch videos in High Fidelity"
+#~ " using this web entity."
+#~ msgstr ""
+
+#~ msgid "Display High Fidelity's YouTube Channel"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the 'Web' icon to create a"
+#~ " web entity. By default, a web "
+#~ "entity always displays High Fidelity's "
+#~ "home page."
+#~ msgstr ""
+
+#~ msgid "You can make the web entity display High Fidelity's YouTube channel."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Scroll down until you see the "
+#~ "'Source URL' option. Enter the High "
+#~ "Fidelity YouTube channel URL: "
+#~ "https://www.youtube.com/user/HighFidelityio. You should"
+#~ " see the new page as soon as"
+#~ " you hit 'Enter'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your Vircadia VR experience is made "
+#~ "realistic with the help of a "
+#~ "physics engine. Vircadia uses this "
+#~ "engine to simulate an object's behavior"
+#~ " according to the Newtonian laws of"
+#~ " physics. For example, if you hit "
+#~ "a ball with a bat in Vircadia, "
+#~ "the physics engine computes these "
+#~ "movements and makes the ball spin "
+#~ "away from the bat after collision. "
+#~ "You can modify an entity's physics "
+#~ "behavior using the Create app."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the 'Properties' tab, scroll down "
+#~ "to the Physics section. When you "
+#~ "first create an entity, the physics "
+#~ "properties are set to the default "
+#~ "values you can see in the image"
+#~ " below."
+#~ msgstr ""
+
+#~ msgid "Type: 3D Vector<br /> Unit: meters/second<br /> Default Value: (0,0,0)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the 'Properties' tab, scroll down "
+#~ "to 'Linear Velocity' property. The "
+#~ "default value is 0.0000."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Say you want to move a cube "
+#~ "entity upwards in a straight line. "
+#~ "Change the Y value for linear "
+#~ "velocity to 0.1000 and see your "
+#~ "cube start moving."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want your cube to change"
+#~ " direction, change the x and z "
+#~ "values to 0.1000."
+#~ msgstr ""
+
+#~ msgid "Type: 3D Vector<br /> Unit: radians/second<br /> Default Value: (0,0,0)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Angular velocity is the speed at "
+#~ "which an object is rotating in a"
+#~ " certain direction. It is measured in"
+#~ " radians/second. To change an entity's "
+#~ "angular velocity:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the 'Properties' tab, scroll down "
+#~ "to the 'Angular Velocity' property. The"
+#~ " default value is 0.0000."
+#~ msgstr ""
+
+#~ msgid "Type: Scalar<br /> Range: 0 - 1<br /> Default Value: 0.00"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Vircadia, damping represents how much"
+#~ " of an entity's linear or angular "
+#~ "velocity is lost over time. All "
+#~ "moving objects we see in the real"
+#~ " world experience some friction with "
+#~ "air, reducing their velocities over "
+#~ "time. Damping is used to approximate "
+#~ "this effect of the real world in"
+#~ " Vircadia. So if the damping of "
+#~ "an object is 0.00, it will not "
+#~ "lose any velocity and it will not"
+#~ " slow down. If the damping of "
+#~ "an object is 1.00, it will lose"
+#~ " all its velocity and stop "
+#~ "immediately. If you want to throw "
+#~ "a ball and have it slow down "
+#~ "over time, you can add a damping"
+#~ " value to do so."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the 'Properties' tab, scroll down "
+#~ "to the 'Linear Damping' property. The"
+#~ " default value is 0.00."
+#~ msgstr ""
+
+#~ msgid "Change the linear velocity of a cube to any value."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Change the 'Linear Damping' value to "
+#~ "1.00 to make the cube stop moving."
+#~ " You can change this value to "
+#~ "anything between 0.00 and 1.00 to "
+#~ "make an entity slow down over "
+#~ "time."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the 'Properties' tab, scroll down "
+#~ "to the 'Angular Damping' property. The"
+#~ " default value is 0.00."
+#~ msgstr ""
+
+#~ msgid "Change the angular velocity of a cube to any value."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Change the 'Angular Damping' value to"
+#~ " 1.00 to make the cube stop "
+#~ "moving. You can change this value "
+#~ "to anything between 0.00 and 1.00 "
+#~ "to make an entity slow down over"
+#~ " time."
+#~ msgstr ""
+
+#~ msgid "Range: 0 - 1<br /> Default Value: 0.5000"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When a dynamic entity collides with "
+#~ "another entity, it can react in a"
+#~ " number of ways depending on its "
+#~ "physics properties. The values you set"
+#~ " for friction and bounciness determine "
+#~ "this reaction. By default, both values"
+#~ " are 0.5000."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Change the value to anything between "
+#~ "0.0000 and 1.0000. An entity with "
+#~ "a friction of 0.0000 will be very"
+#~ " slippery, while an entity with a "
+#~ "friction of 1.0000 will have a "
+#~ "coarse or sticky surface."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Change the value to anything between "
+#~ "0.0000 and 1.0000. An entity with "
+#~ "a bounciness of 0.0000 will conserve "
+#~ "no energy, while an entity with a"
+#~ " bounciness of 1.0000 will conserve "
+#~ "all of its energy."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Type: Scalar<br /> Unit: "
+#~ "kg/meter<sup>3</sup><br /> Range: 100 - "
+#~ "10000<br /> Default Value: 1000.0000"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Vircadia, the maximum (10000) and "
+#~ "minimum (100) values of density were "
+#~ "chosen for stability. It's difficult to"
+#~ " perform stable physics calculations "
+#~ "between objects of very disparate masses"
+#~ " (such as a light feather and "
+#~ "an iron ball). To help keep the"
+#~ " environment stable, we picked conservative"
+#~ " density limits."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Type: 3D Vector<br /> Unit: "
+#~ "meters/second<sup>2</sup><br /> Default Value: "
+#~ "(0,0,0)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Create app, 'Gravity' is "
+#~ "the acceleration of the entity, as "
+#~ "if it were in a uniform "
+#~ "gravitational field. This property controls"
+#~ " how an entity behaves when you "
+#~ "change the gravity of a domain. "
+#~ "For example, if a ball is floating"
+#~ " in zero gravity, it will float "
+#~ "downwards when you increase gravity "
+#~ "downwards."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Before adding a material entity, make"
+#~ " sure you have created a material "
+#~ "using the PBR Materials Guide."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add a material to your object"
+#~ " in High Fidelity, you need to "
+#~ "specify the material data in a "
+#~ "JSON file or add the material "
+#~ "directly into the Create app."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is what the JSON file for "
+#~ "a sample castle wall material looks "
+#~ "like:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This file contains all related material"
+#~ " data, such as the color, roughness,"
+#~ " and other texture and shading "
+#~ "information. Note that you can edit "
+#~ "this information programmatically with the "
+#~ "Material EntityType in our API, and "
+#~ "define its properties using "
+#~ "EntityProperties-Material."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have your material entity "
+#~ "JSON file, you can add it to "
+#~ "an object in High Fidelity. Let's "
+#~ "add the castle wall material to a"
+#~ " box entity in your domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Go to the Create tab and click "
+#~ "on the 'Material' icon to add a"
+#~ " material entity. Enter the material's "
+#~ "JSON file URL when prompted. You "
+#~ "will see the material entity represented"
+#~ " as a small sphere."
+#~ msgstr ""
+
+#~ msgid "To add a material entity directly into the Create Tools app:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Go to the Create tab and click "
+#~ "on the 'Material' icon to add a"
+#~ " material entity."
+#~ msgstr ""
+
+#~ msgid "Enter materialData when you're prompted for a 'Material URL'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click and select the material entity."
+#~ " Go to the 'Properties' tab and "
+#~ "paste the copied parent ID in the"
+#~ " 'Parent' box. In this step, you "
+#~ "are parenting or applying a material "
+#~ "to an entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Scroll down to the 'Material Data' "
+#~ "field. Click 'Clear Material Data' and"
+#~ " then paste the following JSON data:"
+#~ msgstr ""
+
+#~ msgid "Introduction to JSON"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Entities are often used to add "
+#~ "objects to your environment. However, "
+#~ "you can do so much more with "
+#~ "this when you use scripting to "
+#~ "define their behavior. In this tutorial,"
+#~ " we will use an entity as a "
+#~ "button to open a web page on "
+#~ "your tablet. You can use this "
+#~ "tutorial to do things like directing "
+#~ "your visitors to specific Marketplace "
+#~ "items for purchase."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The script used here opens a web"
+#~ " page on the Tablet when a user"
+#~ " clicks or triggers an entity. In "
+#~ "this example, we've written a client "
+#~ "entity script that opens the Marketplace"
+#~ " web page when an entity/item is "
+#~ "triggered. The script looks for the "
+#~ "URL in the 'User data' property of"
+#~ " the entity and injects the "
+#~ "Marketplace code into the link. This "
+#~ "allows the user who triggered the "
+#~ "script to purchase the item without "
+#~ "having to go to the Market app "
+#~ "on their Tablet or HUD."
+#~ msgstr ""
+
+#~ msgid "You can get the script here."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next to 'Script', paste the script "
+#~ "URL. In this case, it is "
+#~ "openTabletPageButton.js."
+#~ msgstr ""
+
+#~ msgid "Scroll down and ensure that 'Triggerable' is selected."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After you exit the Create app, "
+#~ "test your script by clicking or "
+#~ "triggering the button to open the "
+#~ "Marketplace web page for your item."
+#~ msgstr ""

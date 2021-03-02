@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Vircadia Docs'
-copyright = '2019, High Fidelity. © Copyright 2020, Vircadia.'
+copyright = '2019, High Fidelity. © Copyright 2021, Vircadia.'
 author = 'Vircadia Team'
 
 # The short X.Y version
@@ -39,7 +39,7 @@ needs_sphinx = '2.4.4'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinx.ext.autosectionlabel"
+    'recommonmark', 'sphinxcontrib.video'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -72,6 +72,10 @@ exclude_patterns = []
 pygments_style = "emacs"
 highlight_language = "javascript"
 
+# Disable Smartquotes for French in html to work around issue https://github.com/vircadia/vircadia-docs-sphinx/issues/112
+
+smartquotes_excludes = {'languages': ['fr'], 'builders': ['html']}
+
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -93,7 +97,7 @@ html_theme_options = {
 }
 
 html_title = "Vircadia Documentation"
-html_logo = '_static/images/vircadia-logo-1880.png'
+html_logo = '_static/images/vircadia-logo-940-candara-tm-white.png'
 html_favicon = '_static/images/favicon-256.ico'
 html_show_sphinx = False
 
@@ -188,6 +192,3 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-# -- Markdown Setup ---------------------------------------------------------
-extensions = ['recommonmark']

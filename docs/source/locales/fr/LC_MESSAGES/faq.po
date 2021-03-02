@@ -1,0 +1,396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, High Fidelity. © Copyright 2020, Vircadia.
+# This file is distributed under the same license as the Vircadia Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
+"POT-Creation-Date: 2021-01-17 15:55+0100\n"
+"PO-Revision-Date: 2021-01-29 00:20+0000\n"
+"Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
+"Language-Team: French <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/faq/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.1.1\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/faq.rst:3
+msgid "Frequently Asked Questions"
+msgstr "Foire Aux Questions"
+
+#: ../../source/faq.rst:5
+msgid ""
+"We get a lot of questions from our users! If you have questions about "
+"Vircadia, feel free to browse through this page to learn more."
+msgstr ""
+"Nous recevons beaucoup de questions de la part de nos utilisateurs ! Si vous "
+"avez des questions sur Vircadia, n'hésitez pas à parcourir cette page pour "
+"en savoir plus."
+
+#: ../../source/faq.rst:9
+msgid "On This Page"
+msgstr "Sur Cette Page"
+
+#: ../../source/faq.rst:13
+msgid "Content Creation"
+msgstr "Création de Contenu"
+
+#: ../../source/faq.rst:15
+msgid "`What video codecs do you support? <#video-codecs>`_"
+msgstr "`Quels codecs vidéo sont supportés ? <#video-codecs>`_"
+
+#: ../../source/faq.rst:20
+msgid "What video codecs do you support?"
+msgstr "Quels sont les codecs vidéo que vous soutenez ?"
+
+#: ../../source/faq.rst:22
+msgid "We support the following video codecs:"
+msgstr "Nous supportons les vidéo codecs suivant :"
+
+#: ../../source/faq.rst:24
+msgid "WebM VP8"
+msgstr "WebM VP8"
+
+#: ../../source/faq.rst:25
+msgid "H.264, WebM"
+msgstr "H.264, WebM"
+
+#: ../../source/faq.rst:26
+msgid "WebM, H.264"
+msgstr "WebM, H.264"
+
+#: ../../source/faq.rst:31
+msgid "Domain Hosting"
+msgstr "Hébergement de Domaines"
+
+#: ../../source/faq.rst:33
+msgid ""
+"`How do I get into my domain settings if I set up authentication but "
+"forgot my username and/or password? <#reset-password>`_"
+msgstr ""
+"`Comment accéder aux paramètres de mon domaine si j'ai configuré "
+"l'authentification mais que j'ai oublié mon nom d'utilisateur et/ou mon mot "
+"de passe ? <#reset-password>`_"
+
+#: ../../source/faq.rst:38
+msgid ""
+"How do I get into my domain settings if I set up `authentication <host"
+"/configure-settings/authentication-setting.html>`_ but forgot my username"
+" and/or password?"
+msgstr ""
+"Comment puis-je accéder aux paramètres de mon domaine si je mets en place "
+"une `authentification <host/configure-settings/authentication-setting.html>`"
+"_ mais j'ai oublié mon nom d'utilisateur et/ou mon mot de passe ?"
+
+#: ../../source/faq.rst:41
+msgid ""
+"The authentication settings for your domain are encrypted into a "
+"configuration file on the server's file system. To 'reset' the "
+"authentication settings, you need to manually remove the HTTP security "
+"settings ('http_password' and 'http_username') from config.json. The "
+"config file is stored on the server in the following directories:"
+msgstr ""
+"Les paramètres d'authentification de votre domaine sont cryptés dans un "
+"fichier de configuration sur le système de fichiers du serveur. Pour "
+"'réinitialiser' les paramètres d'authentification, vous devez supprimer "
+"manuellement les paramètres de sécurité HTTP ('http_password' et "
+"'http_username') du fichier config.json. Le fichier config est stocké sur le "
+"serveur dans les répertoires suivants :"
+
+#: ../../source/faq.rst:46
+msgid "**Windows**: %AppData%\\Roaming\\Vircadia\\domain-server\\"
+msgstr "**Windows** : %AppData%\\Roaming\\Vircadia\\domain-server\\"
+
+#: ../../source/faq.rst:47
+msgid "**Mac**: ~/Library/Application Support/Vircadia/domain-server/"
+msgstr "**Mac** : ~/Library/Application Support/Vircadia/domain-server/"
+
+#: ../../source/faq.rst:48
+msgid "**Linux**: /var/lib/vircadia/default/domain-server/"
+msgstr "**Linux** : /var/lib/vircadia/default/domain-server/"
+
+#: ../../source/faq.rst:53
+msgid "Troubleshooting"
+msgstr "Dépannage en cas de Problèmes"
+
+#: ../../source/faq.rst:55
+msgid "`Why can't I connect to a domain? <#cannot-connect>`_"
+msgstr ""
+"`Pourquoi ne puis-je pas me connecter à un domaine ? <#cannot-connect>`_"
+
+#: ../../source/faq.rst:56
+msgid "`No one can hear me! <#no-input>`_"
+msgstr "`Personne ne peut m'entendre ! <#no-input>`_"
+
+#: ../../source/faq.rst:57
+msgid "`I can't hear anything in Vircadia <#no-output>`_"
+msgstr "`Je n'entends rien dans Vircadia <#no-output>`_"
+
+#: ../../source/faq.rst:62
+msgid "Why can't I connect to a domain?"
+msgstr "Pourquoi ne puis-je pas me connecter à un domaine ?"
+
+#: ../../source/faq.rst:64
+msgid ""
+"If you cannot connect to your virtual workplace, follow these steps to "
+"resolve the issue:"
+msgstr ""
+"Si vous ne pouvez pas vous connecter à votre lieu de travail virtuel, suivez "
+"les étapes suivantes pour résoudre le problème :"
+
+#: ../../source/faq.rst:66
+msgid ""
+"Check your internet connection, and ensure that your bandwidth is at "
+"least 10Mbps download, 2Mbps upload."
+msgstr ""
+"Vérifiez votre connexion internet et assurez-vous que votre bande passante "
+"est d'au moins 10 Mbps en téléchargement et 2 Mbps en émission."
+
+#: ../../source/faq.rst:68
+msgid ""
+"You may not have permissions to enter the domain. If you know the domain "
+"owner, contact them to gain access to the domain."
+msgstr ""
+"Il se peut que vous n'ayez pas les autorisations nécessaires pour entrer "
+"dans le domaine. Si vous connaissez le propriétaire du domaine, contactez-le "
+"pour avoir accès au domaine."
+
+#: ../../source/faq.rst:70
+msgid "Ensure that your firewall settings allow you to run Vircadia."
+msgstr ""
+"Assurez-vous que les paramètres de votre pare-feu vous permettent d'exécuter "
+"Vircadia."
+
+#: ../../source/faq.rst:72
+msgid ""
+"For Windows: In your firewall settings, open the  port 40102, and add "
+"'interface.exe' to the list of allowed apps."
+msgstr ""
+"Pour Windows : Dans les paramètres de votre pare-feu, ouvrez le port 40102 "
+"et ajoutez \"interface.exe\" à la liste des applications autorisées."
+
+#: ../../source/faq.rst:74
+msgid ""
+"For Mac: In your firewall settings, add 'interface.app' (**Library > "
+"Application Support > Launcher > interface.app**) and allow incoming "
+"connections for that application."
+msgstr ""
+"Pour Mac : Dans les paramètres de votre pare-feu, ajoutez 'interface.app' (**"
+"Library > Application Support > Launcher > interface.app**) et permettre les "
+"connexions entrantes pour cette application."
+
+#: ../../source/faq.rst:81
+msgid "No one can hear me!"
+msgstr "Personne ne peut m'entendre !"
+
+#: ../../source/faq.rst:83
+msgid ""
+"If other users in the domain can't hear you, then you are likely muted or"
+" your microphone gain is set too low. Here are some steps to troubleshoot"
+" your issue:"
+msgstr ""
+"Si les autres utilisateurs du domaine ne peuvent pas vous entendre, alors "
+"vous êtes probablement en mode silencieux ou le gain de votre microphone est "
+"réglé trop bas. Voici quelques étapes pour résoudre votre problème :"
+
+#: ../../source/faq.rst:86
+msgid ""
+"**Are you muted in Vircadia?** When logged in, check the upper left "
+"corner. If you're muted, click the microphone to un-mute yourself."
+msgstr ""
+"**Êtes-vous muet dans Vircadia ?**Lorsque vous êtes connecté, vérifiez le "
+"coin supérieur gauche. Si vous êtes en mode muet, cliquez sur le microphone "
+"pour réactiver le microphone."
+
+#: ../../source/faq.rst:88
+msgid ""
+"**Is your physical output device muted or turned off?** Some headsets and"
+" microphones have a 'Power' and/or 'Mute' switch directly on the device "
+"itself. This setting is completely independent of Vircadia's mute option,"
+" so even if you're not muted in Vircadia, your device itself may not be "
+"turned on or the mute button may have been pressed."
+msgstr ""
+"**Votre périphérique de sortie physique est-il mis en sourdine ou éteint ?**"
+"Certains casques et microphones ont un interrupteur 'Power' et/ou 'Mute' "
+"directement sur l'appareil lui-même. Ce réglage est complètement indépendant "
+"de l'option 'Mute' de Vircadia, donc même si vous n'êtes pas en mode 'Mute' "
+"en Vircadia, votre appareil peut ne pas être allumé ou le bouton 'Mute' peut "
+"avoir été enfoncé."
+
+#: ../../source/faq.rst:95
+msgid ""
+"**Is your mic muted or disabled on your computer?** Lastly, your device "
+"might be muted or disabled by your operating system. Check your operating"
+" system's input device settings:"
+msgstr ""
+"**Votre micro est-il coupé ou désactivé sur votre ordinateur ?**Enfin, il se "
+"peut que votre appareil soit mis en sourdine ou désactivé par votre système "
+"d'exploitation. Vérifiez les paramètres du périphérique d'entrée de votre "
+"système d'exploitation :"
+
+#: ../../source/faq.rst:98
+msgid ""
+"On Windows, go to **Control Panel > Sound > Recording** tab. Choose the "
+"device you are using with Vircadia and click 'Properties'. On the "
+"'Levels' tab, check the icon next to the volume meter. The microphone "
+"icon will tell you whether your headset/microphone is muted. If you're "
+"muted, click the icon to un-mute yourself."
+msgstr ""
+"Sous Windows, allez dans le **Panneau de configuration > Son > onglet "
+"Enregistrement**. Choisissez le périphérique que vous utilisez avec Vircadia "
+"et cliquez sur \"Propriétés\". Dans l'onglet \"Niveaux\", cochez l'icône à "
+"côté du compteur de volume. L'icône du microphone vous indiquera si votre "
+"casque/microphone est coupé. Si vous êtes en mode silencieux, cliquez sur "
+"l'icône pour activer le microphone."
+
+#: ../../source/faq.rst:102
+msgid ""
+"On Mac, go to **System Preferences > Sound > Input** tab. Choose the "
+"device you are using with Vircadia. If the 'Input volume' is turned all "
+"of the way down, then your input device is disabled. Turn up the input "
+"volume to re-enable your microphone."
+msgstr ""
+"Sur Mac, allez dans **Préférences système > Son > onglet Entrée**. "
+"Choisissez l'appareil que vous utilisez avec Vircadia. Si le 'Volume "
+"d'entrée' est réglé au minimum, votre périphérique d'entrée est désactivé. "
+"Augmentez le volume d'entrée pour réactiver votre microphone."
+
+#: ../../source/faq.rst:105
+msgid ""
+"**Have you allowed Vircadia access to the microphone?** Some operating "
+"systems require you to give explicit permission to apps to take advantage"
+" of specific hardware or software capabilities on your computer. Check "
+"your microphone permissions in your operating system settings:"
+msgstr ""
+"**Avez-vous autorisé Vircadia à accéder au microphone ?** Certains systèmes "
+"d'exploitation exigent que vous donniez une autorisation explicite aux "
+"applications pour accéder aux capacités du matériel informatique ou de "
+"logiciels spécifiques sur votre ordinateur. Vérifiez les autorisations de "
+"votre microphone dans les paramètres de votre système d'exploitation :"
+
+#: ../../source/faq.rst:110
+msgid ""
+"On Windows, go to **Settings > Privacy > Microphone**. Make sure that "
+"'Allow desktop apps to access your microphone' is turned on."
+msgstr ""
+"Sur Windows, allez à **Paramètres > Vie privée > Microphone**. Assurez-vous "
+"que l'option 'Autoriser les applications en mode Clavier à accéder à votre "
+"microphone' est activée."
+
+#: ../../source/faq.rst:112
+msgid ""
+"On Mac, go to **System Preferences > Security & Privacy > Privacy**, then"
+" select 'Microphone'. Ensure that the checkbox next to Vircadia is "
+"selected."
+msgstr ""
+"Sur Mac, allez dans **Préférences système > Sécurité et Confidentialité > "
+"Confidentialité**, puis sélectionnez 'Microphone'. Assurez-vous que la case "
+"à cocher à côté de Vircadia est sélectionnée."
+
+#: ../../source/faq.rst:115
+msgid ""
+"If your input device is turned on, and you are not muted in the "
+"application, device, or operating system, then it is likely that your "
+"microphone volume needs to be adjusted or boosted. This is done in your "
+"operating system settings:"
+msgstr ""
+"Si votre périphérique d'entrée est allumé et que vous n'êtes pas en mode "
+"silencieux dans l'application, le périphérique ou le système d'exploitation, "
+"il est probable que le volume de votre microphone doit être ajusté ou "
+"augmenté. Cela se fait dans les paramètres de votre système d'exploitation :"
+
+#: ../../source/faq.rst:119
+msgid ""
+"On Windows, go to **Control Panel > Sound > Recording** tab. Choose the "
+"device you are using with Vircadia and click 'Properties'. On the "
+"'Levels' tab, adjust the 'Microphone Level' and/or 'Microphone Boost'."
+msgstr ""
+"Sous Windows, allez dans le **Panneau de configuration > Son > onglet "
+"Enregistrement**. Choisissez le périphérique que vous utilisez avec Vircadia "
+"et cliquez sur 'Propriétés'. Dans l'onglet 'Niveaux', réglez le 'Niveau du "
+"microphone' et/ou le 'Boost du microphone'."
+
+#: ../../source/faq.rst:122
+msgid ""
+"On Mac, go to **System Preferences > Sound > Input** tab. Choose the "
+"device you are using with Vircadia and adjust the 'Input volume'."
+msgstr ""
+"Sur Mac, allez dans **Préférences système > Son > onglet Entrée**. "
+"Choisissez l'appareil que vous utilisez avec Vircadia et réglez le 'Volume "
+"d'entrée'."
+
+#: ../../source/faq.rst:129
+msgid "I can't hear anything in Vircadia."
+msgstr "Je n'entends rien dans Vircadia."
+
+#: ../../source/faq.rst:131
+msgid "Here are some reasons you might not have audio:"
+msgstr ""
+"Voici quelques raisons pour lesquelles vous n'avez peut-être pas de son :"
+
+#: ../../source/faq.rst:133
+msgid "Your headset or speakers are turned off."
+msgstr "Votre casque ou vos haut-parleurs sont éteints."
+
+#: ../../source/faq.rst:134
+msgid ""
+"Your headset or speakers may be muted or disabled by your operating "
+"system. Check your operating system's output device settings:"
+msgstr ""
+"Votre casque ou vos haut-parleurs peuvent être mis en sourdine ou désactivés "
+"par votre système d'exploitation. Vérifiez les paramètres des périphériques "
+"de sortie de votre système d'exploitation :"
+
+#: ../../source/faq.rst:137
+msgid ""
+"On Windows, click the volume icon in the taskbar and select your audio "
+"device. The speaker icon will tell you whether or not your headset or "
+"speakers are disabled. Click the icon to un-mute yourself."
+msgstr ""
+"Sous Windows, cliquez sur l'icône du volume dans la barre des tâches et "
+"sélectionnez votre périphérique audio. L'icône de haut-parleur vous "
+"indiquera si votre casque ou vos haut-parleurs sont désactivés ou non. "
+"Cliquez sur l'icône pour rétablir le son."
+
+#: ../../source/faq.rst:140
+msgid ""
+"On Mac, go to **System Preferences > Sound > Output** tab. Choose the "
+"device you are using with Vircadia. At the bottom of the dialog, uncheck "
+"'Mute' to un-mute yourself."
+msgstr ""
+"Sur Mac, allez dans **Préférences système > Son > onglet Sortie**. "
+"Choisissez l'appareil que vous utilisez avec Vircadia. En bas de la boîte de "
+"dialogue, décochez la case 'Mute' pour rétablir le son."
+
+#: ../../source/faq.rst:142
+msgid ""
+"Your headset or speakers have a volume control of their own. Check that "
+"the volume is turned up on the device."
+msgstr ""
+"Votre casque ou vos haut-parleurs ont leur propre réglage de volume. "
+"Vérifiez que le volume est bien réglé sur l'appareil."
+
+#: ../../source/faq.rst:144
+msgid ""
+"In Vircadia, you have a different audio device selected than the one you "
+"want to use. Open the **Audio** app and make sure the right headset, "
+"speakers, and/or microphone are selected."
+msgstr ""
+"Dans Vircadia, vous avez choisi un appareil audio différent de celui que "
+"vous voulez utiliser. Ouvrez l'application **Audio** et assurez-vous que le "
+"bon casque, les bons haut-parleurs et/ou le bon microphone sont sélectionnés."
+
+#: ../../source/faq.rst:146
+msgid ""
+"Volume is turned down or off in Vircadia. Open the **Audio** app and "
+"check your volume settings."
+msgstr ""
+"Dans Vircadia, le volume est baissé ou coupé. Ouvrez l'application **Audio** "
+"et vérifiez vos paramètres de volume."

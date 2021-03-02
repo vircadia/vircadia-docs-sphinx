@@ -1,0 +1,13 @@
+{
+  "materialVersion": 1,
+  "materials": [
+    {
+      "name": "CastleWall",
+      "model": "hifi_pbr",
+      "albedo": [1, 1, 1],
+      "albedoMap": "https://docs.vircadia.dev/_static/resources/material-entity/CastleWall_Base_Color.png",
+      "roughnessMap": "https://docs.vircadia.dev/_static/resources/material-entity/CastleWall_Roughness.png",
+      "normalMap": "https://docs.vircadia.dev/_static/resources/material-entity/CastleWall_Normal.png"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, High Fidelity. © Copyright 2020, Vircadia.
+# This file is distributed under the same license as the Vircadia Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
+"POT-Creation-Date: 2021-01-23 22:27+0000\n"
+"PO-Revision-Date: 2021-01-30 09:19+0000\n"
+"Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
+"Language-Team: French <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/home/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/home.rst:70
+msgid "HOME"
+msgstr "ACCUEIL"
+
+#: ../../source/home.rst:70
+msgid "EXPLORE"
+msgstr "EXPLORER"
+
+#: ../../source/home.rst:70
+msgid "CREATE"
+msgstr "CRÉER"
+
+#: ../../source/home.rst:70
+msgid "SCRIPT"
+msgstr "PROGRAMMER"
+
+#: ../../source/home.rst:70
+msgid "HOST"
+msgstr "HÉBERGER"
+
+#: ../../source/home.rst:70
+msgid "CONTRIBUTE"
+msgstr "CONTRIBUER"
+
+#: ../../source/home.rst:70
+msgid "DEVELOPER"
+msgstr "DÉVELOPPEUR"
+
+#: ../../source/home.rst:70
+msgid "SECURITY"
+msgstr "SÉCURITÉ"
+
+#: ../../source/home.rst:70
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../../source/home.rst:70
+msgid "RELEASE NOTES"
+msgstr "NOTES DE VERSION"
+
+#: ../../source/home.rst:70
+msgid "API REFERENCE"
+msgstr "RÉFÉRENCE API"
+
+#: ../../source/home.rst:3
+msgid "Home"
+msgstr "Accueil"
+
+#: ../../source/home.rst:5
+msgid ""
+"Vircadia™ is open-source software which enables you to create and share "
+"virtual worlds as virtual reality (VR) and desktop experiences. You can "
+"create and host your own virtual world, explore other worlds, meet and "
+"connect with other users, attend or host live VR events, and much more."
+msgstr ""
+"Vircadia™ est un logiciel Open Source qui vous permet de créer et de "
+"partager des mondes virtuels comme des expériences de réalité virtuelle (VR) "
+"et en mode Clavier. Vous pouvez créer et héberger votre propre monde "
+"virtuel, explorer d'autres mondes, rencontrer et vous connecter avec "
+"d'autres utilisateurs, assister ou héberger des événements VR en direct, et "
+"bien plus encore."
+
+#: ../../source/home.rst:8
+msgid ""
+"The Vircadia metaverse provides built-in social features, including "
+"avatar interactions, spatialized audio, and interactive physics. "
+"Additionally, you have the ability to import any 3D object into your "
+"virtual environment. No matter where you go in Vircadia, you will always "
+"be able to interact with your environment, engage with your friends, and "
+"listen to conversations just like you would in real life."
+msgstr ""
+"Le métaverse Vircadia offre des fonctionnalités sociales intégrées, "
+"notamment des interactions avec les avatars, un son spatialisé et une "
+"physique interactive. De plus, vous avez la possibilité d'importer n'importe "
+"quel objet 3D dans votre environnement virtuel. Où que vous alliez dans "
+"Vircadia, vous serez toujours en mesure d'interagir avec votre "
+"environnement, de dialoguer avec vos amis et d'écouter des conversations "
+"comme vous le feriez dans la vie réelle."
+
+#: ../../source/home.rst:12
+msgid ""
+":doc:`Get Vircadia <explore/get-started/install>` |Download| or take a "
+"look at our :doc:`Gallery <explore/gallery>` |Gallery|."
+msgstr ""
+":doc:`Obtenez Vircadia <explore/get-started/install>` |Download| ou jetez un "
+"oeil à notre :doc:`Gallerie <explore/gallery>` |Gallery|."
+
+#: ../../source/home.rst:26
+msgid ""
+"In addition to the documentation, you can join the discussion on the "
+"Vircadia `Discord server <https://discordapp.com/invite/Pvx2vke>`__ "
+"|Discord|."
+msgstr ""
+"En plus de la documentation, vous pouvez vous joindre à la discussion sur le "
+"Vircadia `Discord serveur <https://discordapp.com/invite/Pvx2vke>`__ "
+"|Discord|."
+
+#: ../../source/home.rst:35
+msgid "This documentation is authored in `English <https://docs.vircadia.dev/>`_."
+msgstr ""
+"Cette documentation est rédigée en `Anglais <https://docs.vircadia.dev/>`_."
+
+#: ../../source/home.rst:37
+msgid "The following translations are available:"
+msgstr "Les traductions suivantes sont disponibles :"
+
+#: ../../source/home.rst:39
+msgid "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
+msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
+
+#: ../../source/home.rst:40
+msgid "`Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
+msgstr "`Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
+
+#: ../../source/home.rst:41
+msgid "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+
+#: ../../source/home.rst:57
+msgid "What can I do?"
+msgstr "Que puis-je faire ?"
+
+#: ../../source/home.rst:59
+msgid "You have the power to shape your VR experience in Vircadia."
+msgstr "Vous avez le pouvoir de façonner votre expérience VR dans Vircadia."
+
+#: ../../source/home.rst:61
+msgid ""
+":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
+"attend events, and check out what others are up to!"
+msgstr ""
+":doc:`EXPLORER <explore>` en sautant d'un domaine à l'autre dans le "
+"métaverse, assistez à des événements et regardez ce que font les autres !"
+
+#: ../../source/home.rst:62
+msgid ""
+":doc:`CREATE <create>` personal experiences by building avatars, domains,"
+" tablet apps, and more for you and others to enjoy."
+msgstr ""
+":doc:`CRÉER <create>` des expériences personnelles en créant des avatars, "
+"des domaines, des applications pour tablet, et bien d'autres choses encore, "
+"pour votre plus grand plaisir et celui des autres."
+
+#: ../../source/home.rst:63
+msgid ""
+":doc:`SCRIPT <script>` and express your creativity by applying advanced "
+"scripting concepts to entities and avatars in the metaverse."
+msgstr ""
+":doc:`PROGRAMMER <script>` et exprimez votre créativité en appliquant des "
+"concepts de script avancés à des entités et des avatars dans le métaverse."
+
+#: ../../source/home.rst:64
+msgid ""
+":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
+"and connect with your audience."
+msgstr ""
+":doc:`HÉBERGER <host>` et offrir des expériences immersives pour éduquer, "
+"divertir et connecter avec votre public."
+
+#: ../../source/home.rst:65
+msgid ""
+":doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source "
+"code in the repository."
+msgstr ""
+":doc:`CONTRIBUER <contribute>` à notre effort en parcourant notre code "
+"source dans le référentiel."
+
+#: ../../source/home.rst:66
+msgid ""
+":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
+"just to help out."
+msgstr ""
+":doc:`DÉVELOPPER <developer>` le projet et l'adapter à vos besoins, ou "
+"simplement pour donner un coup de main."
+
+#: ../../source/home.rst:67
+msgid ""
+":doc:`SECURITY <security>` information about the project and its "
+"components."
+msgstr ""
+":doc:`INFORMATIONS DE SECURITÉ <security>` sur le projet et ses composantes."
+
+#~ msgid "`French <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia is open-source software which"
+#~ " enables you to create and share "
+#~ "virtual worlds as virtual reality (VR)"
+#~ " and desktop experiences. You can "
+#~ "create and host your own virtual "
+#~ "world, explore other worlds, meet and"
+#~ " connect with other users, attend or"
+#~ " host live VR events, and much "
+#~ "more."
+#~ msgstr ""

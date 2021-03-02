@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-22 22:19+0000\n"
+"POT-Creation-Date: 2021-01-23 22:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgid "Create an Installer"
 msgstr ""
 
 #: ../../source/developer.rst:11
-#: ../../source/developer/build/BUILD_LINUX.md:154
+#: ../../source/developer/build/BUILD_LINUX.md:156
 #: ../../source/developer/interface.rst:3
 msgid "Interface"
 msgstr ""
@@ -332,7 +332,7 @@ msgid "Clone the repository"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:69
-msgid "git clone https://github.com/kasenvr/project-athena.git"
+msgid "git clone https://github.com/vircadia/vircadia.git"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:71
@@ -491,7 +491,8 @@ msgid "Open Task Manager and close any running Clang / Gradle processes"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_GENERAL.md:3
-msgid "Last Updated on June 27, 2020"
+#: ../../source/developer/build/BUILD_OSX.md:3
+msgid "Last Updated on August 26, 2020"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_GENERAL.md:5
@@ -678,27 +679,27 @@ msgstr ""
 msgid "Possible Environment Variables"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:92
+#: ../../source/developer/build/BUILD_GENERAL.md:99
 msgid "Generate Files"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:94
+#: ../../source/developer/build/BUILD_GENERAL.md:101
 msgid ""
 "Create a build directory in the root of your checkout and then run the "
 "CMake build from there. This will keep the rest of the directory clean."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:100
+#: ../../source/developer/build/BUILD_GENERAL.md:107
 msgid ""
 "If CMake gives you the same error message repeatedly after the build "
 "fails, try removing CMakeCache.txt."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:102
+#: ../../source/developer/build/BUILD_GENERAL.md:109
 msgid "Generating a release/debug only vcpkg build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:104
+#: ../../source/developer/build/BUILD_GENERAL.md:111
 msgid ""
 "In order to generate a release or debug only vcpkg package, you could use"
 " the use the VCPKG_BUILD_TYPE define in your cmake generate command. "
@@ -706,44 +707,44 @@ msgid ""
 "time."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:106
+#: ../../source/developer/build/BUILD_GENERAL.md:113
 msgid "For release only vcpkg:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:108
+#: ../../source/developer/build/BUILD_GENERAL.md:115
 msgid "cmake .. -DVCPKG_BUILD_TYPE=release"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:110
+#: ../../source/developer/build/BUILD_GENERAL.md:117
 msgid "For debug only vcpkg:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:112
+#: ../../source/developer/build/BUILD_GENERAL.md:119
 msgid "cmake .. -DVCPKG_BUILD_TYPE=debug"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:114
+#: ../../source/developer/build/BUILD_GENERAL.md:121
 msgid "Variables"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:116
+#: ../../source/developer/build/BUILD_GENERAL.md:123
 msgid ""
 "Any variables that need to be set for CMake to find dependencies can be "
 "set as ENV variables in your shell profile, or passed directly to CMake "
 "with a -D flag appended to the cmake .. command."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:118
+#: ../../source/developer/build/BUILD_GENERAL.md:125
 msgid ""
 "For example, to pass the QT_CMAKE_PREFIX_PATH variable (if not using the "
 "vcpkg'ed version) during build file generation:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:122
+#: ../../source/developer/build/BUILD_GENERAL.md:129
 msgid "Finding Dependencies"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:124
+#: ../../source/developer/build/BUILD_GENERAL.md:131
 msgid ""
 "The following applies for dependencies we do not grab via CMake "
 "ExternalProject (OpenSSL is an example), or for dependencies you have "
@@ -752,81 +753,89 @@ msgid ""
 "found in the CMake External Project Dependencies section."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:126
+#: ../../source/developer/build/BUILD_GENERAL.md:133
 msgid ""
 "You can point our CMake find modules to the correct version of "
 "dependencies by setting one of the three following variables to the "
 "location of the correct version of the dependency."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:128
+#: ../../source/developer/build/BUILD_GENERAL.md:135
 msgid ""
 "In the examples below the variable $NAME would be replaced by the name of"
 " the dependency in uppercase, and $name would be replaced by the name of "
 "the dependency in lowercase (ex: OPENSSL_ROOT_DIR, openssl)."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:130
+#: ../../source/developer/build/BUILD_GENERAL.md:137
 msgid ""
 "$NAME_ROOT_DIR - pass this variable to Cmake with the -DNAME_ROOT_DIR= "
 "flag when running Cmake to generate build files"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:131
+#: ../../source/developer/build/BUILD_GENERAL.md:138
 msgid "$NAME_ROOT_DIR - set this variable in your ENV"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:132
+#: ../../source/developer/build/BUILD_GENERAL.md:139
 msgid ""
 "HIFI_LIB_DIR - set this variable in your ENV to your Vircadia lib folder,"
 " should contain a folder '$name'"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:134
+#: ../../source/developer/build/BUILD_GENERAL.md:141
 msgid "Optional Components"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:136
+#: ../../source/developer/build/BUILD_GENERAL.md:143
 msgid "Build Options"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:138
+#: ../../source/developer/build/BUILD_GENERAL.md:145
 msgid "The following build options can be used when running CMake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:140
+#: ../../source/developer/build/BUILD_GENERAL.md:147
 msgid "BUILD_CLIENT"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:141
+#: ../../source/developer/build/BUILD_GENERAL.md:148
 msgid "BUILD_SERVER"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:142
+#: ../../source/developer/build/BUILD_GENERAL.md:149
 msgid "BUILD_TESTS"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:143
+#: ../../source/developer/build/BUILD_GENERAL.md:150
 msgid "BUILD_TOOLS"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_GENERAL.md:145
-msgid "Developer Build Options"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:147
-msgid "USE_GLES"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:148
-msgid "DISABLE_UI"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:150
-msgid "Devices"
+#: ../../source/developer/build/BUILD_GENERAL.md:151
+msgid "CLIENT_ONLY // Will package only the Interface"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_GENERAL.md:152
+msgid "SERVER_ONLY // Will package only the Server"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_GENERAL.md:154
+msgid "Developer Build Options"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_GENERAL.md:156
+msgid "USE_GLES"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_GENERAL.md:157
+msgid "DISABLE_UI"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_GENERAL.md:159
+msgid "Devices"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_GENERAL.md:161
 msgid ""
 "You can support external input/output devices such as Leap Motion, MIDI, "
 "and more by adding each individual SDK in the visible building path. "
@@ -836,7 +845,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:3
-msgid "Last Updated on January 20, 2020"
+msgid "Last Updated on December 1, 2020"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:5
@@ -847,180 +856,186 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:7
-msgid "Ubuntu 16.04/18.04 specific build guide"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:8
-msgid "Ubuntu 16.04 only"
+msgid ""
+"You can use the Vircadia Builder to build on Linux more easily. "
+"Alternatively, you can follow the manual steps below."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:9
+msgid "Ubuntu 16.04/18.04 specific build guide"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:10
+msgid "Ubuntu 16.04 only"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:11
 msgid ""
 "Add the following line to .bash_profile<br />export "
 "QT_QPA_FONTDIR=/usr/share/fonts/truetype/dejavu/"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:11
+#: ../../source/developer/build/BUILD_LINUX.md:13
 msgid "Ubuntu 18.04 server only"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:12
+#: ../../source/developer/build/BUILD_LINUX.md:14
 msgid ""
 "Add the universe repository:<br />(This is not enabled by default on the "
 "server edition)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:18
+#: ../../source/developer/build/BUILD_LINUX.md:20
 msgid "Install build tools:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:19
+#: ../../source/developer/build/BUILD_LINUX.md:21
 msgid "First update the repositories:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:24
+#: ../../source/developer/build/BUILD_LINUX.md:26
 msgid "git"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:28
+#: ../../source/developer/build/BUILD_LINUX.md:30
 msgid "Verify by git --version"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:29
+#: ../../source/developer/build/BUILD_LINUX.md:31
 msgid "g++"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:33
+#: ../../source/developer/build/BUILD_LINUX.md:35
 msgid "Verify by g++ --version"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:34
+#: ../../source/developer/build/BUILD_LINUX.md:36
 msgid "Ubuntu 18.04 cmake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:38
+#: ../../source/developer/build/BUILD_LINUX.md:40
 msgid "Verify by cmake --version"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:39
+#: ../../source/developer/build/BUILD_LINUX.md:41
 msgid "Ubuntu 16.04 cmake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:44
+#: ../../source/developer/build/BUILD_LINUX.md:46
 msgid "Install build dependencies:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:45
+#: ../../source/developer/build/BUILD_LINUX.md:47
 msgid "OpenSSL:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:49
+#: ../../source/developer/build/BUILD_LINUX.md:51
 msgid "Verify with openssl version"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:50
+#: ../../source/developer/build/BUILD_LINUX.md:52
 msgid "OpenGL:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:55
+#: ../../source/developer/build/BUILD_LINUX.md:57
 msgid "Verify OpenGL:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:56
+#: ../../source/developer/build/BUILD_LINUX.md:58
 msgid "First install mesa-utils with the command sudo apt install mesa-utils -y"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:57
+#: ../../source/developer/build/BUILD_LINUX.md:59
 msgid "Then run glxinfo | grep \"OpenGL version\""
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:58
+#: ../../source/developer/build/BUILD_LINUX.md:60
 msgid "To compile interface in a server you must install:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:62
+#: ../../source/developer/build/BUILD_LINUX.md:64
 msgid "Misc dependencies:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:66
+#: ../../source/developer/build/BUILD_LINUX.md:68
 msgid "Install Python 3 and required packages:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:70
+#: ../../source/developer/build/BUILD_LINUX.md:72
 msgid "Install node, required to build the jsdoc documentation:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:75
+#: ../../source/developer/build/BUILD_LINUX.md:77
 msgid "Get code and checkout the branch you need"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:77
+#: ../../source/developer/build/BUILD_LINUX.md:79
 msgid "Clone this repository:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:82
+#: ../../source/developer/build/BUILD_LINUX.md:84
 msgid ""
 "To compile a DEV version checkout the branch you need. To get a list of "
 "all tags:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:87
+#: ../../source/developer/build/BUILD_LINUX.md:89
 msgid "Then checkout the main branch with:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:92
+#: ../../source/developer/build/BUILD_LINUX.md:94
 msgid "Using a custom Qt build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:94
+#: ../../source/developer/build/BUILD_LINUX.md:96
 msgid ""
 "Qt binaries are only provided for Ubuntu. In order to build on other "
 "distributions, a Qt5 install needs to be provided as follows:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:96
+#: ../../source/developer/build/BUILD_LINUX.md:98
 msgid "Set VIRCADIA_USE_PREBUILT_QT=1"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:97
+#: ../../source/developer/build/BUILD_LINUX.md:99
 msgid "Set VIRCADIA_USE_QT_VERSION to the Qt version (defaults to 5.12.3)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:98
+#: ../../source/developer/build/BUILD_LINUX.md:100
 msgid "Set HIFI_QT_BASE=/path/to/qt"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:100
+#: ../../source/developer/build/BUILD_LINUX.md:102
 msgid ""
 "Qt must be installed in "
 "$HIFI_QT_BASE/$VIRCADIA_USE_QT_VERSION/qt5-install."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:102
+#: ../../source/developer/build/BUILD_LINUX.md:104
 msgid "Compiling"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:104
+#: ../../source/developer/build/BUILD_LINUX.md:106
 msgid "Create the build directory:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:111
+#: ../../source/developer/build/BUILD_LINUX.md:113
 msgid "Prepare makefiles:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:116
+#: ../../source/developer/build/BUILD_LINUX.md:118
 msgid "If cmake fails with a vcpkg error - delete /tmp/hifi/vcpkg."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:118
+#: ../../source/developer/build/BUILD_LINUX.md:120
 msgid "Start compilation of the server and get a cup of coffee:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:123
+#: ../../source/developer/build/BUILD_LINUX.md:125
 msgid "To compile interface:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:128
+#: ../../source/developer/build/BUILD_LINUX.md:130
 msgid ""
 "The commands above will compile with a single thread. If you have enough "
 "memory, you can decrease your build time using the -j flag. Since most "
@@ -1028,43 +1043,43 @@ msgid ""
 "an example, if you have a 2 core machine, you could use:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:136
+#: ../../source/developer/build/BUILD_LINUX.md:138
 msgid "In a server, it does not make sense to compile interface."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:138
+#: ../../source/developer/build/BUILD_LINUX.md:140
 msgid "Running the software"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:140
+#: ../../source/developer/build/BUILD_LINUX.md:142
 msgid "Domain server"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:142
+#: ../../source/developer/build/BUILD_LINUX.md:144
 msgid "Running domain server:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:147
+#: ../../source/developer/build/BUILD_LINUX.md:149
 msgid "Assignment clients"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:149
+#: ../../source/developer/build/BUILD_LINUX.md:151
 msgid "Running assignment client:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:156
+#: ../../source/developer/build/BUILD_LINUX.md:158
 msgid "Running interface:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:161
+#: ../../source/developer/build/BUILD_LINUX.md:163
 msgid "Go to localhost in the running interface."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:163
+#: ../../source/developer/build/BUILD_LINUX.md:165
 msgid "Notes"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:165
+#: ../../source/developer/build/BUILD_LINUX.md:167
 msgid ""
 "If your goal is to set up a development environment, it is desirable to "
 "set the directory that vcpkg builds into with the HIFI_VCPKG_BASE "
@@ -1073,64 +1088,64 @@ msgid ""
 "directory."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:170
+#: ../../source/developer/build/BUILD_LINUX.md:172
 msgid "Ubuntu 18.04 only"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:172
+#: ../../source/developer/build/BUILD_LINUX.md:174
 msgid ""
 "In Ubuntu 18.04 there is a problem related with NVidia driver library "
 "version."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:174
+#: ../../source/developer/build/BUILD_LINUX.md:176
 msgid "It can be worked around following these steps:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:176
+#: ../../source/developer/build/BUILD_LINUX.md:178
 msgid ""
 "Uninstall incompatible nvtt libraries:<br />sudo apt-get remove libnvtt2 "
 "libnvtt-dev"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:179
+#: ../../source/developer/build/BUILD_LINUX.md:181
 msgid "Install libssl1.0-dev:<br />sudo apt-get -y install libssl1.0-dev"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:182
+#: ../../source/developer/build/BUILD_LINUX.md:184
 msgid ""
 "Clone castano nvidia-texture-tools:<br />git clone "
 "https://github.com/castano/nvidia-texture-tools<br />cd nvidia-texture-"
 "tools/"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:186
+#: ../../source/developer/build/BUILD_LINUX.md:188
 msgid "Make these changes in repo:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:187
+#: ../../source/developer/build/BUILD_LINUX.md:189
 msgid "In file VERSION set 2.2.1"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:188
+#: ../../source/developer/build/BUILD_LINUX.md:190
 msgid "In file configure:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:189
+#: ../../source/developer/build/BUILD_LINUX.md:191
 msgid "set build=\"release\""
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:190
+#: ../../source/developer/build/BUILD_LINUX.md:192
 msgid "set -DNVTT_SHARED=1"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:192
+#: ../../source/developer/build/BUILD_LINUX.md:194
 msgid ""
 "Configure, build and install:<br />./configure<br />make<br />sudo make "
 "install"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:197
+#: ../../source/developer/build/BUILD_LINUX.md:199
 msgid ""
 "Link compiled files:<br />sudo ln -s /usr/local/lib/libnvcore.so "
 "/usr/lib/libnvcore.so<br />sudo ln -s /usr/local/lib/libnvimage.so "
@@ -1139,12 +1154,8 @@ msgid ""
 "/usr/lib/libnvtt.so"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:203
+#: ../../source/developer/build/BUILD_LINUX.md:205
 msgid "After running these steps you can run interface:<br />interface/interface"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_OSX.md:3
-msgid "Last Updated on July 13, 2020"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:5
@@ -1180,15 +1191,17 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:20
 msgid ""
-"You will need the OSX SDK for building. The easiest way to get this is to"
-" install Xcode from the App Store."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_OSX.md:22
-msgid "OpenSSL"
+"You will need version 10.12 of the OSX SDK for building, otherwise you "
+"may have crashing or other unintended issues due to the deprecation of "
+"OpenGL on OSX. You can get that SDK from here. You must copy it in to "
+"your Xcode SDK directory, e.g."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:24
+msgid "OpenSSL"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:26
 msgid ""
 "Assuming you've installed OpenSSL using the homebrew instructions above, "
 "you'll need to set OPENSSL_ROOT_DIR so CMake can find your "
@@ -1197,18 +1210,19 @@ msgid ""
 " appending -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl to cmake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:29
+#: ../../source/developer/build/BUILD_OSX.md:31
 msgid "Xcode"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:31
+#: ../../source/developer/build/BUILD_OSX.md:33
 msgid ""
-"If Xcode is your editor of choice, you can ask CMake to generate Xcode "
-"project files instead of Unix Makefiles. You will need to select the "
-"Xcode installation in the terminal first if you have not done so already."
+"You can ask CMake to generate Xcode project files instead of Unix "
+"Makefiles using the -G Xcode parameter after CMake. You will need to "
+"select the Xcode installation in the terminal first if you have not done "
+"so already."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:37
+#: ../../source/developer/build/BUILD_OSX.md:39
 msgid ""
 "If cmake complains about Python 3 being missing, you may need to update "
 "your CMake binary with command brew upgrade cmake, or by downloading and "
@@ -1216,28 +1230,54 @@ msgid ""
 "instaled CMake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:39
+#: ../../source/developer/build/BUILD_OSX.md:41
 msgid ""
-"After running cmake, you will have the make files or Xcode project file "
+"After running CMake, you will have the make files or Xcode project file "
 "necessary to build all of the components. Open the hifi.xcodeproj file, "
 "choose ALL_BUILD from the Product > Scheme menu (or target drop down), "
 "and click Run."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:41
+#: ../../source/developer/build/BUILD_OSX.md:43
 msgid ""
 "If the build completes successfully, you will have built targets for all "
 "components located in the build/${target_name}/Debug directories."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:43
+#: ../../source/developer/build/BUILD_OSX.md:45
 msgid "make"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:45
+#: ../../source/developer/build/BUILD_OSX.md:47
 msgid ""
-"If you build with make rather than Xcode, you can append -j4for assigning"
-" more threads. The number indicates the number of threads, e.g. 4."
+"If you build with make rather than Xcode, you can append -j4 for "
+"assigning more threads. The number indicates the number of threads, e.g. "
+"4."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:49
+msgid "To package the installation, you can simply run make package afterwards."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:51
+#: ../../source/developer/installer/INSTALLER.md:94
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:53
+msgid ""
+"Problem: Running the scheme interface.app from Xcode causes a crash for "
+"Interface related to libgl"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:54
+msgid ""
+"Cause: The target gl generates a binary called libgl. A macOS "
+"libGL.framework item gets loaded instead by Xcode."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:55
+msgid "Solution: In the Xcode target settings for libgl, set the version to 1.0.0"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:3
@@ -1560,6 +1600,13 @@ msgid ""
 "${HIFI_VCPKG_BASE}/installed/x64-windows/include/openssl/ssl.h exists."
 msgstr ""
 
+#: ../../source/developer/domain-server.rst:5
+#: ../../source/developer/domain-server/environment-variables.md:1
+#: ../../source/developer/interface.rst:5
+#: ../../source/developer/interface/environment-variables.md:1
+msgid "Environment Variables"
+msgstr ""
+
 #: ../../source/developer/domain-server/command-line-parameters.md:3
 msgid "You can launch a domain-server with these parameters."
 msgstr ""
@@ -1584,6 +1631,36 @@ msgstr ""
 msgid "Displays the PID of the parent process"
 msgstr ""
 
+#: ../../source/developer/domain-server/environment-variables.md:3
+msgid ""
+"You can alter the Domain server's functionality using the following "
+"environment variables."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:7
+msgid "Override the default port for your Domain server."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:13
+msgid "Override the default DTLS port."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:19
+msgid "Override the default HTTP port."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:25
+msgid "Override the default HTTPS port."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:31
+msgid "Override the default statistics exporter port."
+msgstr ""
+
+#: ../../source/developer/domain-server/environment-variables.md:37
+msgid "Override the default metadata exporter port."
+msgstr ""
+
 #: ../../source/developer/installer.rst:7
 msgid "Installer Creation Guide"
 msgstr ""
@@ -1600,18 +1677,22 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:3
+msgid "Last Updated on August 24, 2020"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:5
 msgid ""
 "Follow the build guide to figure out how to build Vircadia for your "
 "platform."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:5
+#: ../../source/developer/installer/INSTALLER.md:7
 msgid ""
 "During generation, CMake should produce an install target and a package "
 "target."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:7
+#: ../../source/developer/installer/INSTALLER.md:9
 msgid ""
 "The install target will copy the Vircadia targets and their dependencies "
 "to your CMAKE_INSTALL_PREFIX.<br />This variable is set by the "
@@ -1619,246 +1700,259 @@ msgid ""
 "stored in build/CMakeCache.txt"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:10
+#: ../../source/developer/installer/INSTALLER.md:12
 msgid "Packaging"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:12
-msgid "To produce an installer, run the package target."
+#: ../../source/developer/installer/INSTALLER.md:14
+msgid ""
+"To produce an installer, run the package target. However you will want to"
+" follow the steps specific to your platform below."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:14
+#: ../../source/developer/installer/INSTALLER.md:16
 #: ../../source/developer/interface/debugging.md:3
 msgid "Windows"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:16
-msgid "To produce an executable installer on Windows, the following are required:"
-msgstr ""
-
 #: ../../source/developer/installer/INSTALLER.md:18
-msgid "7-zip"
+msgid "Prerequisites"
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:20
+msgid "To produce an executable installer on Windows, the following are required:"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:22
+msgid "7-zip"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:24
 msgid ""
 "Nullsoft Scriptable Install System - 3.04<br />Install using defaults "
 "(will install to C:\\Program Files (x86)\\NSIS)"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:22
+#: ../../source/developer/installer/INSTALLER.md:26
 msgid "UAC Plug-in for Nullsoft - 0.2.4c"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:23
-#: ../../source/developer/installer/INSTALLER.md:28
-#: ../../source/developer/installer/INSTALLER.md:34
-#: ../../source/developer/installer/INSTALLER.md:39
-#: ../../source/developer/installer/INSTALLER.md:44
-#: ../../source/developer/installer/INSTALLER.md:55
+#: ../../source/developer/installer/INSTALLER.md:27
+#: ../../source/developer/installer/INSTALLER.md:32
+#: ../../source/developer/installer/INSTALLER.md:38
+#: ../../source/developer/installer/INSTALLER.md:43
+#: ../../source/developer/installer/INSTALLER.md:48
+#: ../../source/developer/installer/INSTALLER.md:59
 msgid "Extract Zip"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:24
+#: ../../source/developer/installer/INSTALLER.md:28
 msgid "Copy UAC.nsh to C:\\Program Files (x86)\\NSIS\\Include\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:25
+#: ../../source/developer/installer/INSTALLER.md:29
 msgid ""
 "Copy Plugins\\x86-ansi\\UAC.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:26
+#: ../../source/developer/installer/INSTALLER.md:30
 msgid ""
 "Copy Plugins\\x86-unicode\\UAC.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:27
+#: ../../source/developer/installer/INSTALLER.md:31
 msgid ""
 "nsProcess Plug-in for Nullsoft - 1.6 (use the link marked "
 "nsProcess_1_6.7z)"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:29
+#: ../../source/developer/installer/INSTALLER.md:33
 msgid "Copy Include\\nsProcess.nsh to C:\\Program Files (x86)\\NSIS\\Include\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:30
+#: ../../source/developer/installer/INSTALLER.md:34
 msgid ""
 "Copy Plugins\\nsProcess.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:31
+#: ../../source/developer/installer/INSTALLER.md:35
 msgid ""
 "Copy Plugins\\nsProcessW.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:33
+#: ../../source/developer/installer/INSTALLER.md:37
 msgid "InetC Plug-in for Nullsoft - 1.0"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:35
+#: ../../source/developer/installer/INSTALLER.md:39
 msgid ""
 "Copy Plugin\\x86-ansi\\InetC.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:36
+#: ../../source/developer/installer/INSTALLER.md:40
 msgid ""
 "Copy Plugin\\x86-unicode\\InetC.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:38
+#: ../../source/developer/installer/INSTALLER.md:42
 msgid "NSISpcre Plug-in for Nullsoft - 1.0"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:40
+#: ../../source/developer/installer/INSTALLER.md:44
 msgid "Copy NSISpre.nsh to C:\\Program Files (x86)\\NSIS\\Include\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:41
+#: ../../source/developer/installer/INSTALLER.md:45
 msgid "Copy NSISpre.dll to C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:43
+#: ../../source/developer/installer/INSTALLER.md:47
 msgid "nsisSlideshow Plug-in for Nullsoft - 1.7"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:45
+#: ../../source/developer/installer/INSTALLER.md:49
 msgid ""
 "Copy bin\\nsisSlideshow.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:46
+#: ../../source/developer/installer/INSTALLER.md:50
 msgid ""
 "Copy bin\\nsisSlideshowW.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:48
+#: ../../source/developer/installer/INSTALLER.md:52
 msgid "Nsisunz plug-in for Nullsoft"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:49
+#: ../../source/developer/installer/INSTALLER.md:53
 msgid "Download both Zips and unzip"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:50
+#: ../../source/developer/installer/INSTALLER.md:54
 msgid ""
 "Copy nsisunz\\Release\\nsisunz.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:51
+#: ../../source/developer/installer/INSTALLER.md:55
 msgid ""
 "Copy NSISunzU\\Plugin unicode\\nsisunz.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:53
+#: ../../source/developer/installer/INSTALLER.md:57
 msgid "ApplicationID plug-in for Nullsoft - 1.0"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:54
+#: ../../source/developer/installer/INSTALLER.md:58
 msgid "Download Pre-built DLLs"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:56
+#: ../../source/developer/installer/INSTALLER.md:60
 msgid ""
 "Copy Release\\ApplicationID.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:57
+#: ../../source/developer/installer/INSTALLER.md:61
 msgid ""
 "Copy ReleaseUnicode\\ApplicationID.dll to C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:59
+#: ../../source/developer/installer/INSTALLER.md:63
 msgid "Node.JS and NPM"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:60
+#: ../../source/developer/installer/INSTALLER.md:64
 msgid "Install version 10.15.0 LTS"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:62
+#: ../../source/developer/installer/INSTALLER.md:66
+msgid "Code Signing (optional)"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:68
+msgid ""
+"For code signing to work, you will need to set the HF_PFX_FILE and "
+"HF_PFX_PASSPHRASE environment variables to be present during CMake "
+"runtime and globally as we proceed to package the installer."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:70
+msgid "Creating the Installer"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:72
 msgid "Perform a clean cmake from a new terminal."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:63
+#: ../../source/developer/installer/INSTALLER.md:73
 msgid ""
 "Open the vircadia.sln solution with elevated (administrator) permissions "
 "on Visual Studio and select the Release configuration."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:64
+#: ../../source/developer/installer/INSTALLER.md:74
 msgid "Build the solution."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:65
-msgid "Build CMakeTargets->INSTALL"
-msgstr ""
-
-#: ../../source/developer/installer/INSTALLER.md:66
+#: ../../source/developer/installer/INSTALLER.md:75
 msgid ""
 "Build packaged-server-console-npm-install (found under hidden/Server "
 "Console)"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:67
+#: ../../source/developer/installer/INSTALLER.md:76
 msgid ""
 "Build packaged-server-console (found under Server Console)<br />This will"
 " add 2 folders to build\\server-console\\ -<br />server-console-win32-x64"
 " and x64"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:70
+#: ../../source/developer/installer/INSTALLER.md:79
 msgid ""
 "Build CMakeTargets->PACKAGE<br />The installer is now available in "
 "build\\_CPack_Packages\\win64\\NSIS"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:73
+#: ../../source/developer/installer/INSTALLER.md:82
 msgid "OS X"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:74
+#: ../../source/developer/installer/INSTALLER.md:83
 msgid "npm Install version 12.16.3 LTS"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:77
+#: ../../source/developer/installer/INSTALLER.md:86
 msgid "Perform a clean CMake."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:78
+#: ../../source/developer/installer/INSTALLER.md:87
 msgid "Perform a Release build of ALL_BUILD"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:79
+#: ../../source/developer/installer/INSTALLER.md:88
 msgid ""
 "Perform a Release build of packaged-server-console This will add a folder"
 " to build\\server-console\\ -<br />Sandbox-darwin-x64"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:82
+#: ../../source/developer/installer/INSTALLER.md:91
 msgid ""
 "Perform a Release build of package Installer is now available in "
 "`build/_CPack_Packages/Darwin/DragNDrop"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:85
-msgid "FAQ"
-msgstr ""
-
-#: ../../source/developer/installer/INSTALLER.md:87
+#: ../../source/developer/installer/INSTALLER.md:96
 msgid ""
 "Problem: Failure to open a file. File: failed opening file "
 "\"\\FOLDERSHARE\\XYZSRelease\\...\\Credits.rtf\" Error in script "
@@ -1866,13 +1960,13 @@ msgid ""
 " on line 77 -- aborting creation process"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:88
+#: ../../source/developer/installer/INSTALLER.md:97
 msgid ""
 "Cause: The complete path (current directory + relative path) has to be < "
 "260 characters to any of the relevant files."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:89
+#: ../../source/developer/installer/INSTALLER.md:98
 msgid ""
 "Solution: Move your build and packaging folder as high up in the drive as"
 " possible to prevent an overage."
@@ -1880,11 +1974,6 @@ msgstr ""
 
 #: ../../source/developer/interface.rst:5
 msgid "Debugging"
-msgstr ""
-
-#: ../../source/developer/interface.rst:5
-#: ../../source/developer/interface/environment-variables.md:1
-msgid "Environment Variables"
 msgstr ""
 
 #: ../../source/developer/interface/command-line-parameters.md:3
@@ -2022,19 +2111,83 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/interface/environment-variables.md:3
-msgid "You can alter Interface's functionality using these environment variables."
+msgid ""
+"You can alter Interface's functionality using the following environment "
+"variables."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:5
+#: ../../source/developer/interface/environment-variables.md:7
 msgid ""
-"Uses the source files for the QML and other resource at runtime instead "
-"of the compiled files."
+"Use the source files for QML and other resources at runtime instead of "
+"the compiled files."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:9
+#: ../../source/developer/interface/environment-variables.md:13
 msgid ""
-"Enables the OpenVR plugin to be used with an Oculus HMD. (Useful for "
-"debugging the OpenVR plugin if you have an Oculus HMD but not a Vive.)"
+"Enable the HMD debugging mode which emulates an HMD view in 2D for "
+"desktop testing."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:19
+msgid ""
+"Enable the OpenVR plugin to be used with an Oculus HMD. (Useful for "
+"debugging the OpenVR plugin if you have an Oculus HMD but not a SteamVR "
+"HMD.)"
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:25
+msgid "Override the metaverse URL."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:31
+msgid "Allow multiple instances of Interface to run simultaneously."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:37
+msgid ""
+"Logging to the console can be controlled with the VIRCADIA_LOG_OPTIONS "
+"variable. It can be set to any comma separated combination of the "
+"following options. Case and whitespace are not significant."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:39
+msgid "color - Force ANSI colors depending on the message's severity."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:40
+msgid "nocolor - Force ANSI colors off."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:41
+msgid "milliseconds - Log timestamps with millisecond precision."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:42
+msgid "process_id - Log the process ID."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:43
+msgid "thread_id - Log the thread ID."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:45
+msgid "For example:"
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:49
+msgid ""
+"This will cause logging with millisecond precision, and color coding "
+"messages by severity."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:53
+msgid "Will result in only millisecond precision being applied to logging."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:55
+msgid ""
+"Color is enabled by default on Unix if output is being directed to a "
+"terminal, and disabled by default on Windows."
 msgstr ""
 
 #~ msgid "Build Android - additional instructions for Android"
@@ -2071,5 +2224,93 @@ msgstr ""
 #~ " you can ask CMake to generate "
 #~ "Xcode project files instead of Unix "
 #~ "Makefiles."
+#~ msgstr ""
+
+#~ msgid "Last Updated on June 27, 2020"
+#~ msgstr ""
+
+#~ msgid "Last Updated on January 20, 2020"
+#~ msgstr ""
+
+#~ msgid "Last Updated on July 13, 2020"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You will need the OSX SDK for "
+#~ "building. The easiest way to get "
+#~ "this is to install Xcode from the"
+#~ " App Store."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If Xcode is your editor of choice,"
+#~ " you can ask CMake to generate "
+#~ "Xcode project files instead of Unix "
+#~ "Makefiles. You will need to select "
+#~ "the Xcode installation in the terminal"
+#~ " first if you have not done so"
+#~ " already."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After running cmake, you will have "
+#~ "the make files or Xcode project "
+#~ "file necessary to build all of the"
+#~ " components. Open the hifi.xcodeproj file,"
+#~ " choose ALL_BUILD from the Product >"
+#~ " Scheme menu (or target drop down),"
+#~ " and click Run."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you build with make rather than"
+#~ " Xcode, you can append -j4for "
+#~ "assigning more threads. The number "
+#~ "indicates the number of threads, e.g."
+#~ " 4."
+#~ msgstr ""
+
+#~ msgid "To produce an installer, run the package target."
+#~ msgstr ""
+
+#~ msgid "Build CMakeTargets->INSTALL"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can alter Interface's functionality "
+#~ "using these environment variables."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Uses the source files for the QML"
+#~ " and other resource at runtime "
+#~ "instead of the compiled files."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Enables the OpenVR plugin to be "
+#~ "used with an Oculus HMD. (Useful "
+#~ "for debugging the OpenVR plugin if "
+#~ "you have an Oculus HMD but not "
+#~ "a Vive.)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Will result in logging with millisecond"
+#~ " precision, and color coding messages "
+#~ "by severity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Color is enabled by default on "
+#~ "Unix, if output is being directed "
+#~ "to a terminal, and disabled by "
+#~ "default on Windows."
+#~ msgstr ""
+
+#~ msgid "git clone https://github.com/kasenvr/project-athena.git"
+#~ msgstr ""
+
+#~ msgid "Last Updated on April 11, 2020"
 #~ msgstr ""
 
