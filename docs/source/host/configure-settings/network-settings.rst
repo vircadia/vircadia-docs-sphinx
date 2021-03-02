@@ -1,7 +1,7 @@
-
-    FIXME: mentions High Fidelity, mentions purchasing domain names, only mentions DigitalOcean
-    This document is outdated.
 .. warning::
+    This document is outdated.
+    FIXME: mentions High Fidelity, mentions purchasing domain names, only mentions DigitalOcean
+
 ####################################
 Define Your Network Settings
 ####################################

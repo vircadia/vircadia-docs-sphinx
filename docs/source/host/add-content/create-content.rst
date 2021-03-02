@@ -1,7 +1,7 @@
-
-    FIXME: mentions Sandbox, mentions tray console
-    This document is outdated.
 .. warning::
+    This document is outdated.
+    FIXME: mentions Sandbox, mentions tray console
+
 ##############################
 Build and Add Your Own Content
 ##############################

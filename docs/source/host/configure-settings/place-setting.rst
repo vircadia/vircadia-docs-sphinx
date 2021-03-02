@@ -1,7 +1,7 @@
-
-    FIXME: mentions High Fidelity, mentions purchasing domain names, mentions buying HFC, etc.
-    This document is outdated.
 .. warning::
+    This document is outdated.
+    FIXME: mentions High Fidelity, mentions purchasing domain names, mentions buying HFC, etc.
+
 ####################################
 Set Up a Place Name
 ####################################

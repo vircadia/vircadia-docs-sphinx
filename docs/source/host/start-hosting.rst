@@ -1,7 +1,7 @@
-
-    FIXME: mentions Sandbox (which is now called Vircadia Server), links to High Fidelity download page, only mentions DigitalOcean as cloud provider
-    This document is outdated.
 .. warning::
+    This document is outdated.
+    FIXME: mentions Sandbox (which is now called Vircadia Server), links to High Fidelity download page, only mentions DigitalOcean as cloud provider
+
 ########################
 Get Started with Hosting
 ########################

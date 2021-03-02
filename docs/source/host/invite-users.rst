@@ -1,7 +1,7 @@
-
-    FIXME: grammar errors, mentions GoTo, mentions Blast functionality, mentions social media share linking to a domain info page (I assume that this functionality hasn't been restored)
-    This document is outdated.
 .. warning::
+    This document is outdated.
+    FIXME: grammar errors, mentions GoTo, mentions Blast functionality, mentions social media share linking to a domain info page (I assume that this functionality hasn't been restored)
+
 #############################
 Bring Visitors to Your Domain
 #############################

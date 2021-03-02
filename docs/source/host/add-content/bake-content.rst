@@ -1,7 +1,7 @@
-
-    FIXME: Mentions High Fidelity, mentions Sandbox, missing information about Linux (currently the oven is only shipped with the Server, not the AppImage), says that Oven has a GUI application (is news to me)
-    This document is outdated.
 .. warning::
+    This document is outdated.
+    FIXME: Mentions High Fidelity, mentions Sandbox, missing information about Linux (currently the oven is only shipped with the Server, not the AppImage), says that Oven has a GUI application (is news to me)
+
 #############################
 Bake Your Content
 #############################

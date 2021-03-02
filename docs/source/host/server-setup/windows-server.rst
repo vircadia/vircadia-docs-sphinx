@@ -1,7 +1,7 @@
-
-    FIXME: mentions purchasing domain names, only mentions DigitalOcean, mentions tray console
-    This document is outdated.
 .. warning::
+    This document is outdated.
+    FIXME: mentions purchasing domain names, only mentions DigitalOcean, mentions tray console
+
 #################################
 Host a Domain from a Local Server
 #################################
