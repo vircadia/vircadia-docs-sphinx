@@ -64,18 +64,16 @@ With scripts, you are free to use our expansive `JavaScript API <https://apidocs
 Add Assignment Client Script to Domain
 --------------------------------------
 
-To run your script on your domain: 
+To run your script on your domain:
 
 1. Save and upload your script to a cloud hosting site.
 2.  Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
-    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 3. On the top menu bar, select **Content > Scripts**.
 4. Under 'Persistent Scripts', click the ``+`` icon.
 5. Paste the URL to your script under ‘Script URL’.
-6. Save and restart your domain. 
+6. Save and restart your domain.
 
 Now, the script will be running persistently on your domain until you either remove it or shut down the domain entirely.

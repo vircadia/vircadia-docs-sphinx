@@ -17,8 +17,6 @@ Your domain can connect to any entity filter that is hosted on your Asset Server
 1. Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
-    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. On the top menu bar, select **Content > Entities**.
 3. Click the 'Advanced Settings' button.
