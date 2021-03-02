@@ -60,13 +60,13 @@ The different status types we support are:
 Connect Your Controller Device
 ----------------------------------
 
-You can either connect a real controller device that you use to control your environment in High Fidelity, or create a virtual one that will help you connect to other virtual devices. 
+You can either connect a real controller device that you use to control your environment in Vircadia, or create a virtual one that will help you connect to other virtual devices.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Connect Ableton Live to Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To `connect Ableton Live <https://help.ableton.com/hc/en-us/articles/209774225-Using-virtual-MIDI-buses>`_ directly to High Fidelity’s Interface client, we recommend the following virtual tools:
+To `connect Ableton Live <https://help.ableton.com/hc/en-us/articles/209774225-Using-virtual-MIDI-buses>`_ directly to Vircadia’s Interface client, we recommend the following virtual tools:
 
 + `loopMIDI <https://www.tobias-erichsen.de/software/loopmidi.html>`_: This will create a virtual in/out port to send information into and out of HiFi
 + `VMP <http://vmpk.sourceforge.net>`_: You can use this to simulate keys being pressed or sliders/knobs being manipulated if you do not have a controller.
@@ -132,7 +132,7 @@ Once you've set up your MIDI Controller Device, you need to configure it.
 Example: Change the Color of a Cube using MIDI
 ---------------------------------------------------
 
-Let's change the color of a cube entity in High Fidelity using MIDI.
+Let's change the color of a cube entity in Vircadia using MIDI.
 
 1. Use this method to figure out the MIDI range of ``0`` to ``127`` to be any other output range you want using linear interpolation::
 
@@ -160,20 +160,20 @@ Let's change the color of a cube entity in High Fidelity using MIDI.
 
 Print the ``eventData`` in your ``onEventReceived`` function to see each controller and its output. This will tell you everything you need to know about how to route the right key, slider, knob, or button to to your intended JavaScript functions.
 
-If you want to use to control something outside of High Fidelity, or to directly call a MIDI event to control something in Hifi, you can use the function::
+If you want to use to control something outside of Vircadia, or to directly call a MIDI event to control something in Vircadia, you can use the function::
 
     // event similar to the above
     Midi.playNote(Status, Note, Velocity);
 
 ---------------------------------------------
-Other Ways to Use MIDI in High Fidelity
+Other Ways to Use MIDI in Vircadia
 ---------------------------------------------
 
 - Use Ableton to sequence out entire animations of your domain.
-- Control real world devices by the movements things make in Hifi and vice versa (think update loop)
+- Control real world devices by the movements things make in Vircadia and vice versa (think update loop)
 - Setup your iPad to be a whole group of buttons that you can press at any time to trigger events in your domain at will.
 
-**See Also** 
+**See Also**
 
 - `API Reference: MIDI <https://apidocs.vircadia.dev/Midi.html>`_
 - `MIDI-API <../_static/resources/script/MidiAPI.txt>`_
