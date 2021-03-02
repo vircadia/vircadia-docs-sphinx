@@ -31,7 +31,7 @@ To assign user permissions:
 3. First, set any permissions for the `standard user groups`_. Check the box of all permissions you'd like to grant.
 4. To assign all other permissions, you need to add a custom group, specific user, etc individually to the correct permissions table:
 
-    * **Add Group**: Enter the name of the :doc:`custom group or list <user-groups>`, then click the ``+`` icon. Save your domain settings to load ranks. Check the box of all permissions you'd like to grant or deny (depending on the permissions table you are adding the group to).
+    * **Add Group**: Enter the name of the custom group or list, then click the ``+`` icon. Save your domain settings to load ranks. Check the box of all permissions you'd like to grant or deny (depending on the permissions table you are adding the group to).
     
         .. image:: ../_images/group-permissions.png 
     * **Add Specific User**: Click the ``+`` icon, then enter a specific user name. Check the box of all permissions you'd like to grant.
