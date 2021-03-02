@@ -1,6 +1,6 @@
 .. warning::
     This document is slightly outdated.
-    FIXME: says that you can use an Android phone, images still show High Fidelity services and marketplace
+    FIXME: says that you can use an Android phone
 
 ################################
 Understand the Architecture
