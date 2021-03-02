@@ -1,14 +1,18 @@
+
+    FIXME: mentions Sandbox, mentions tray console
+    This document is outdated.
+.. warning::
 ###################
-Export Your Content 
+Export Your Content
 ###################
 
-To create a backup of your content, you need to export it to an external file. This file contains all of the information about the assets that make up your domain: the asset types, dimensions, positions, physics, resource URLs and every other property entity property. 
+To create a backup of your content, you need to export it to an external file. This file contains all of the information about the assets that make up your domain: the asset types, dimensions, positions, physics, resource URLs and every other property entity property.
 
 Many domain creation and maintenance tasks require content backups, including:
 
 * Baking content for optimization
 * Importing content sets to new domains
-* Restoring content in case of corruption 
+* Restoring content in case of corruption
 * Sharing content with others
 * Uploading content sets to the Marketplace
 

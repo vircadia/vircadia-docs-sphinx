@@ -1,3 +1,7 @@
+
+    FIXME: mentions High Fidelity, mentions tray console, mentions GoTo
+    This document is outdated.
+.. warning::
 #######################
 Assign User Permissions
 #######################

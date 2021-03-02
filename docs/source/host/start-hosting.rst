@@ -1,8 +1,12 @@
+
+    FIXME: mentions Sandbox (which is now called Vircadia Server), links to High Fidelity download page, only mentions DigitalOcean as cloud provider
+    This document is outdated.
+.. warning::
 ########################
 Get Started with Hosting
 ########################
 
-We are thrilled you've decided to host a custom domain with us on the metaverse! We also understand that setting up a server, configuring it, and creating a domain takes some time and technical knowledge. Hopefully, this section will help you become familiar with the basics of hosting domains in Vircadia, so that you can create the space you want and be a part of building a bigger, more expansive metaverse. 
+We are thrilled you've decided to host a custom domain with us on the metaverse! We also understand that setting up a server, configuring it, and creating a domain takes some time and technical knowledge. Hopefully, this section will help you become familiar with the basics of hosting domains in Vircadia, so that you can create the space you want and be a part of building a bigger, more expansive metaverse.
 
 .. contents:: On This Page
     :depth: 2

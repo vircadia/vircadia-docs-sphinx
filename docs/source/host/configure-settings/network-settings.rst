@@ -1,8 +1,12 @@
+
+    FIXME: mentions High Fidelity, mentions purchasing domain names, only mentions DigitalOcean
+    This document is outdated.
+.. warning::
 ####################################
 Define Your Network Settings
 ####################################
 
-The **Metaverse/Networking** section of the Domain Settings defines all of the network settings for your domain. 
+The **Metaverse/Networking** section of the Domain Settings defines all of the network settings for your domain.
 
 .. warning:: Changing any network settings will affect how High Fidelity's servers connects to your domain. Before making any changes to the settings, ensure that you have a basic understanding of networking concepts (IP, UDP, ports, etc) as changing these settings can impact visitors or (if you're running a local server) put your system at risk.
 
