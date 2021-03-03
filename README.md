@@ -52,10 +52,10 @@ We encourage you to compile the documentation locally on your computer prior to 
     C:\> pip install git+https://github.com/vircadia/video.git
     ```
 
-5. Install Sphinx version 2.4.4 (3.0.0 > is unsupported currently) in a command line:
+5. Install Sphinx version >=2.4.4 in a command line:
 
     ```
-    C:\> pip install -U Sphinx==2.4.4
+    C:\> pip install sphinx
     ```
 
 6. Install the Markdown parser recommonmark:
