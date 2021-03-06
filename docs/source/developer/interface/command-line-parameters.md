@@ -102,3 +102,7 @@ Bookmarks are expected to be in a name=url form. An `=` character in the name or
 Disable level of detail auto config.
 
     --disable-lod
+
+Force enable crash reporting for the Interface.
+
+    --forceCrashReporting

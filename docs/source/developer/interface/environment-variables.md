@@ -34,6 +34,12 @@ Allow multiple instances of Interface to run simultaneously.
 
 ---
 
+The Interface will have a custom default home and startup location.
+
+    INITIAL_STARTUP_LOCATION=Location/IP/URL
+
+---
+
 Logging to the console can be controlled with the `VIRCADIA_LOG_OPTIONS` variable. It can be set to any comma separated combination of the following options. Case and whitespace are not significant.
 
 * `color` - Force ANSI colors depending on the message's severity.
