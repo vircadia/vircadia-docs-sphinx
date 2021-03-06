@@ -78,7 +78,9 @@ The first two services log a large amount of data to their service journal. Chec
 
 The installation package is configured to permit multiple domains to run on a single server at different port numbers. New servers can be created using the following command:
 
-    /opt/vircadia/new-server <name> <base-port>
+```sh
+/opt/vircadia/new-server <name> <base-port>
+```
 
 where <code>name</code> is a word used to name and manage the domain and <code>base-port</code> must be the the first of a range of four contiguous port numbers not overlapping with any other use on the system.
 
