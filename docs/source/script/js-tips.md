@@ -158,17 +158,17 @@ When you use the `require` method, you are making any function or object exporte
 </div>
 
 ## Equip an Item
-You can equip an item by grabbing and holding an entity without pressing the grab button or trigger continuously. For example, you could equip a paint brush to your avatar's hand and drop it only when you're done painting. 
+You can equip an item by grabbing and holding an entity without pressing the grab button or trigger continuously. For example, you could equip a paint brush to your avatar's hand and drop it only when you're done painting.
 
 You can equip an item using a script:
 
 ```javascript
-Messages.sendLocalMessage('Hifi-Hand-Grab', JSON.stringify({hand: 'XXX', entityID: 'YYY'})); \\ where XXX is either the left or right hand and YYY is entityID to equip
+Messages.sendLocalMessage('Hifi-Hand-Grab', JSON.stringify({hand: 'XXX', entityID: 'YYY'})); // where XXX is either the left or right hand and YYY is entityID to equip
 ```
 
 To drop the entity from your avatar's hand:
 ```javascript
-Messages.sendLocalMessage('Hifi-Hand-Drop', 'XXX'); \\ where XXX is either the left or right hand
+Messages.sendLocalMessage('Hifi-Hand-Drop', 'XXX'); // where XXX is either the left or right hand
 ```
 
 ## Connect a Signal to a Function
