@@ -41,9 +41,6 @@ The entity you create for your button has to be `triggerable <entity-behavior.ht
 5. Next go to the 'Script' tab and paste the script URL. In this case, it is `clickToOpenBrowser.js <https://vircadia-content-public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_.
 6. Paste the following JSON data into the 'User data' field for your entity:
 
-..
-    We are using javascript lexing here as the json lexer doesn't allow comments.
-    FIXME: switch back to json lexer once https://github.com/vircadia/vircadia-docs-sphinx/issues/109 is fixed.
 .. code-block:: javascript
 
   {
