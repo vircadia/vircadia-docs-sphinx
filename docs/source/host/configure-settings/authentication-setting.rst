@@ -9,6 +9,8 @@ To set up and/or change the authentication for your domain settings:
 1. Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
+    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'.
+    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. Scroll to 'Security'.
 3. For 'HTTP Username' and 'HTTP Password', enter a username and password for basic HTTP authentication.
