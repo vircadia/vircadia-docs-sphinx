@@ -1,5 +1,9 @@
+.. warning::
+    This document is outdated.
+    FIXME: mentions Sandbox
+
 ##############################
-Build and Add Your Own Content 
+Build and Add Your Own Content
 ##############################
 
 Maybe you've wandered around the metaverse, and you're inspired by the creativity of others. Or maybe none of the other domains really fit the atmosphere of what you have in mind. Whatever the reason, you're ready to branch out and build content of your own. If you don't know where to begin, this is a great place to start.

@@ -1,3 +1,7 @@
+.. warning::
+    This document is outdated.
+    FIXME: we do not have a partnership with DigitalOcean
+
 ######################
 Set up a Domain Server
 ######################

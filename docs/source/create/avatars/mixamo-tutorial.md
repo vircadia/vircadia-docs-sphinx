@@ -1,6 +1,11 @@
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document might be outdated. FIXME: Check if Mixamo still works as no one uses it, mentions High Fidelity</p>
+</div>
+
 # Tutorial: Rig Avatars in Mixamo
 
-Mixamo is a rigging system that will rig your model's skeleton automatically for you. You do not need any advanced knowledge of rigging to create simple animations for your avatar. 
+Mixamo is a rigging system that will rig your model's skeleton automatically for you. You do not need any advanced knowledge of rigging to create simple animations for your avatar.
 
 In this tutorial, we will use the avatar that we [created in Adobe Fuse](fuse-tutorial).
 

@@ -1,3 +1,7 @@
+.. warning::
+    This document is outdated.
+    FIXME: Mentions Unity Avatar Exporter fixing all skeletons which it is unable to do
+
 ###############################
 Find and Use an Existing Avatar
 ###############################

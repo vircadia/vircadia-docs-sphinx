@@ -1,3 +1,8 @@
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document is slightly outdated. FIXME: Mentions High Fidelity, texture resolutions should have more guidance, contains HiFi hosted resources</p>
+</div>
+
 # Avatar Standards Guide
 
 This document outlines the standards you should follow when [creating your avatar](create-avatars). Your avatar uses bones to animate the character's limbs and define the scale variable of limbs. You can add custom bones to further adjust the avatar's shape. Customization of your avatar can be fine-tuned using blendshapes to animate the face and scripting to define advanced behaviors.

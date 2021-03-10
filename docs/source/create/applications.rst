@@ -1,3 +1,7 @@
+.. warning::
+    This document is outdated.
+    FIXME: Uses HiFi hosted resources, potentially more.
+
 ###########
 Tablet Apps
 ###########

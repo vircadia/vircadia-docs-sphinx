@@ -1,8 +1,12 @@
+.. warning::
+    This document is outdated.
+    FIXME: mentions purchasing domain names, only mentions DigitalOcean
+
 #################################
 Host a Domain from a Local Server
 #################################
 
-A local server lets you use your own computer to host your virtual domain on the metaverse. 
+A local server lets you use your own computer to host your virtual domain on the metaverse.
 
 .. warning:: Hosting any kind of server from your home means exposing your network to the world. Therefore, we recommend using local servers only for private events and small gatherings. If you want to host a public domain or advertise your domain in the GoTo app, we recommend using a hosting provider such as DigitalOcean.
 

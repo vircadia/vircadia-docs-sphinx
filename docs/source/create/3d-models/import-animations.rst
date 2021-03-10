@@ -1,3 +1,7 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: Mentions High Fidelity, spelling mistakes, only mentions FBX (check if more formats are supported), should framerate really be set to 30fps?
+
 ######################
 Import Animations
 ######################

@@ -1,3 +1,8 @@
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document is outdated. FIXME: mentions only FST files, mentions marketplace</p>
+</div>
+
 # Change Your Avatar
 
 When you first use Vircadia, you will be wearing the default avatar, Woody. Your avatar is a representation of you in the metaverse. You can control how your avatar moves and speak to other users in-world using it.

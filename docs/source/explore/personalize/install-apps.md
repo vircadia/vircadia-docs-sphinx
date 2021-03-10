@@ -1,3 +1,8 @@
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document is outdated. FIXME: mentions marketplace, mentions old inventory, mentions apps which are not widely available anymore</p>
+</div>
+
 # Install Tablet Apps
 
 You can enhance your experience in Vircadia by installing tablet apps from the Marketplace. These apps enable you to get more out of Vircadia. Do you want to record your avatar dancing, take selfies, or finger paint? Or are you looking to livestream to YouTube or make your avatar clap? Our Marketplace has a number of apps that can help you customize your experience in-world.

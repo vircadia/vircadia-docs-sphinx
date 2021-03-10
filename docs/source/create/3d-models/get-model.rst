@@ -1,3 +1,7 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: Mentions High Fidelity, could use slightly more "Best Practices"
+
 #########################
 Get Your 3D Model
 #########################

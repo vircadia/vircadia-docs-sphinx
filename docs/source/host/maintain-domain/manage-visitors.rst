@@ -13,14 +13,14 @@ Occasionally, you may get users who you don't want in your domain. Whether you f
 Silence a User in Your Domain
 -----------------------------
 
-Many times, a visitor in your domain simply does not have the correct audio settings defined on their computer. As a result, they may output uncomfortable sounds into your domain (heavy breathing, typing, background noise, and white noise are audio issues people have when they first download High Fidelity). 
+Many times, a visitor in your domain simply does not have the correct audio settings defined on their computer. As a result, they may output uncomfortable sounds into your domain (heavy breathing, typing, background noise, and white noise are audio issues people have when they first download Vircadia).
 
-To silence a specific user in your domain: 
+To silence a specific user in your domain:
 
 1. Visit your domain.
 2. In Interface, pull up your Tablet or HUD and go to **People**.
-3. Locate the user you would like to silence. 
-4. Under the 'Admin' section, click the icon in the 'Silence' column. 
+3. Locate the user you would like to silence.
+4. Under the 'Admin' section, click the icon in the 'Silence' column.
 
 This will mute the user for everyone in the domain.
 
@@ -28,13 +28,13 @@ This will mute the user for everyone in the domain.
 Ban a User from Your Domain
 ---------------------------
 
-In some cases, a user may cause themselves to be unwelcome in your domain. 
+In some cases, a user may cause themselves to be unwelcome in your domain.
 
 To permanently ban a visitor from your domain:
 
 1. Visit your domain.
 2. In Interface, pull up your Tablet or HUD and go to **People**.
-3. Locate the user you would like to silence. 
-4. Under the 'Admin' section, click the icon in the 'Ban' column. 
+3. Locate the user you would like to silence.
+4. Under the 'Admin' section, click the icon in the 'Ban' column.
 
-The user will not be able to enter the domain using the same account; however, they will still have access to other High Fidelity domains. 
+The user will not be able to enter the domain using the same account; however, they will still have access to other Vircadia domains.

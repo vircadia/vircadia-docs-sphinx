@@ -1,8 +1,12 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: says that you can use an Android phone
+
 ################################
 Understand the Architecture
 ################################
 
-Vircadia's architecture shows how different parts of the system work together to give you the best VR experience. 
+Vircadia's architecture shows how different parts of the system work together to give you the best VR experience.
 
 .. contents:: On This Page
     :depth: 2

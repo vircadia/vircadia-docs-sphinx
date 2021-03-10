@@ -1,15 +1,20 @@
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document is outdated. FIXME: Contains HiFi hosted content, mentions High Fidelity, only talks about FBX, Blender changed a LOT</p>
+</div>
+
 # Tutorial: Modify Materials and Textures Using Blender
 
-Blender is an open-source 3D modeling tool that you can use to fine tune your avatar and ensure that the materials and textures render correctly in High Fidelity. 
+Blender is an open-source 3D modeling tool that you can use to fine tune your avatar and ensure that the materials and textures render correctly in High Fidelity.
 
 In this tutorial, we will walk you through simple modifications you can make to your avatar using Blender. You will need to import an FBX file for your avatar. If you don't have one, see our tutorials for [Fuse](fuse-tutorial) and [Mixamo](mixamo-tutorial).
 
-1. In Blender, go to **File > Import > FBX (.fbx)**. 
+1. In Blender, go to **File > Import > FBX (.fbx)**.
 2. Choose your avatar's FBX file and click 'Import FBX'. This will open your avatar in the main view. ![](_images/import-avatar.png)
 3. By default, you will not see the materials on your avatar. You can change your view using the toolbar at the bottom of the view. ![](_images/view-materials.png)
 4. To get a better view of your avatar, change the lamp settings:
     - From the Outliner, click the Lamp node in Blender.
-    - For 'Type of Active Data to display and edit', choose the 'Data' icon. 
+    - For 'Type of Active Data to display and edit', choose the 'Data' icon.
     - Change the lamp to Sun.
     - Rotate the Lamp to light up your avatar.![](_images/lamp-settings.png)
 5. From the Outliner, open the 'Armature' tree and select the item you want to fine tune. You can also click on the item directly on your model.

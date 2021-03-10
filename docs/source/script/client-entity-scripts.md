@@ -1,19 +1,19 @@
 # Client Entity Scripts
 
-You can make content in High Fidelity interactive by attaching scripts to entities. *Client entity scripts* are entity scripts that run locally on each user's computer. When a user comes into contact with the entity, it will "preload" (or run) the script, then "unload" (or stop) the script when the user leaves. 
+You can make content in Vircadia interactive by attaching scripts to entities. *Client entity scripts* are entity scripts that run locally on each user's computer. When a user comes into contact with the entity, it will "preload" (or run) the script, then "unload" (or stop) the script when the user leaves.
 
-There can be (and typically are) multiple entities in a domain, and each one can have a different client entity script associated with it. 
+There can be (and typically are) multiple entities in a domain, and each one can have a different client entity script associated with it.
 
 **On This Page**
 * [Attach a Client Entity Script to an Entity](#attach-a-client-entity-script-to-an-entity)
 * [Example of a Client Entity Script](#example-of-a-client-entity-script)
 
 ## Attach a Client Entity Script to an Entity
-To attach a client entity script to an entity: 
+To attach a client entity script to an entity:
 1. In Interface, pull up your tablet or HUD and go to **Create**.
 2. Select the entity you'd like to script by either clicking on it in Interface or finding it in the 'Entity List'.
-3. In the **Create** app, go to the 'Properties' tab and scroll down to the 'Behavior' section. 
-4. For Script, enter the URL to your client entity script. 
+3. In the **Create** app, go to the 'Properties' tab and scroll down to the 'Behavior' section.
+4. For Script, enter the URL to your client entity script.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>

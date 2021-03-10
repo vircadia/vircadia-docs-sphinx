@@ -1,8 +1,8 @@
 # Write Your Own Scripts
 
-High Fidelity's robust [JavaScript API](https://apidocs.vircadia.dev) provides the tools for you to build great content and user experiences in VR.
+Vircadia's robust [JavaScript API](https://apidocs.vircadia.dev) provides the tools for you to build great content and user experiences in VR.
 
-In this section, you can find simple code samples to do common tasks in High Fidelity. To see these code samples in action, copy the code to a file, `testScripts.js`, saved somewhere on your computer.
+In this section, you can find simple code samples to do common tasks in Vircadia. To see these code samples in action, copy the code to a file, `testScripts.js`, saved somewhere on your computer.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>

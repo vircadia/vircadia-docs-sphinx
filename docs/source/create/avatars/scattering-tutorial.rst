@@ -1,3 +1,7 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: Mentions High Fidelity, HiFi hosted content
+
 ####################################
 Tutorial: Add a Scattering Effect
 ####################################

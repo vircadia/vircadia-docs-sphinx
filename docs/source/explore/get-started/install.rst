@@ -20,7 +20,7 @@ In order to run Vircadia, ensure that your computer meets these system requireme
 
   * Windows 8.1, 64-bit or Windows 10, 64-bit
   * MacOS High Sierra (10.13) or newer
-  * Ubuntu 18.04 64 bit or any other modern Linux distribution
+  * Ubuntu 18.04 64 bit or most other modern Linux distributions
 
 * CPU:
 
@@ -143,7 +143,7 @@ At this point, Interface will open and you will be able to log in and begin expl
 Linux Install
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Mark the downloaded AppImage file as executable. (for example, with ``chmod +x Vircadia-Alpha-2020.2.5-Asteria.AppImage``.)
+1. Mark the downloaded AppImage file as executable. (for example, with ``chmod +x Vircadia-x86_64_v2021.1.0-Eos.AppImage``.)
 2. (Optional) If you want the AppImage to be integrated into your system, install `AppImageLauncher <https://github.com/TheAssassin/AppImageLauncher>`_.
 3. Execute AppImage.
 

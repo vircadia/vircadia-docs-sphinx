@@ -1,10 +1,14 @@
+.. warning::
+    This document is outdated.
+    FIXME: mentions High Fidelity, mentions purchasing domain names, mentions buying HFC, etc.
+
 ####################################
 Set Up a Place Name
 ####################################
 
 While you can travel to a domain using its IP address, IP addresses are difficult to remember, often change depending on your network setup, and are not very attractive sounding. Telling a friend "Meet me in 20 minutes at IP address ..." just doesn't cut it in a fun, virtual environment.
 
-Place names, on the other hand, make it easy to travel to your domain. They're memorable, and give context to visitors to remember your virtual world. Imagine someone saying "Wow, I had a great time at Deerhaven last night!" and you can smile knowing that they're talking about your domain, Deerhaven. 
+Place names, on the other hand, make it easy to travel to your domain. They're memorable, and give context to visitors to remember your virtual world. Imagine someone saying "Wow, I had a great time at Deerhaven last night!" and you can smile knowing that they're talking about your domain, Deerhaven.
 
 .. contents:: On This Page
     :depth: 2
