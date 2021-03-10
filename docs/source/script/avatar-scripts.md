@@ -18,7 +18,7 @@ There are two different ways you can add an avatar script to your FST file: eith
 </div>
 
 To add an avatar script using the Package Model tools:
-1. Create a folder called `scripts` in the same location as your FBX,GLB or glTF file.
+1. Create a folder called `scripts` in the same location as your FBX, GLB, or glTF file.
 2. Copy your avatar script into this new folder.
 3. In Interface, go to **Edit > Package Model as .fst**
 4. For 'Script Directory', enter the path to the `scripts` folder you created above.
