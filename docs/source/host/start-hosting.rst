@@ -15,9 +15,9 @@ Overview of Hosting
 
 Vircadia's hosting interface consists of the following components that work together to create an immersive VR experience for your visitors:
 
-* The Vircadia *Sandbox* is a locally hosted environment on your computer that gives you a space to play around and build content in. You can register your Sandbox with the Metaverse to make it accessible from the outside world. The Sandbox is included with full Windows installers from the `Vircadia website <https://vircadia.com/download-vircadia/#windows>`_.
-* A *domain* is a registered location in the metaverse. Each domain is assigned a unique ID to identify it. You can run a domain on a Windows or Linux machine.
-* A *server* hosts a domain, and processes incoming network requests for the domain. The server for your domain is either a physical computer or a cloud-hosted server.
+* The Vircadia *Server* is a locally hosted environment on your computer that gives you a space to play around and build content in. You can register your server with the Metaverse to make it accessible from the outside world. The server is included with full Windows installers from the `Vircadia website <https://vircadia.com/download-vircadia/#windows>`_.
+* A *Domain* is a registered location in the metaverse. Each Domain is assigned a unique ID to identify it. You can run a Domain on a Windows or Linux machine.
+* A *server* hosts a Domain, and processes incoming network requests for the Domain.
 * A *droplet* or *cloud domain* is a cloud server hosted on DigitalOcean.
 * A *content set* is the content that you've designed to make your domain unique and pretty. 
 
@@ -34,4 +34,3 @@ Here is an overview of the steps you'll need to take to host your domain up and 
 5. :doc:`Invite users to your domain <invite-users>`
 
 Once your domain is running, we'll cover how to :doc:`configure your domain settings <configure-settings>`, from the most basic to the more advanced, and how to :doc:`maintain your domain <maintain-domain>`.
-
