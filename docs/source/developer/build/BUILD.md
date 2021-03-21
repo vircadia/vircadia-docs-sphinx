@@ -99,6 +99,18 @@ Where `/path/to/directory` is the path to a directory where you wish the build f
     // Determine if to utilize testing or stable Metaverse URLs
     USE_STABLE_GLOBAL_SERVICES=1
     BUILD_GLOBAL_SERVICES=STABLE
+
+    // URL from which to fetch external assets
+    EXTERNAL_BUILD_ASSETS="https://athena-public.s3.amazonaws.com"
+
+    // Minimum version of MacOS to target.
+    // Helpful table: https://en.wikipedia.org/wiki/MacOS_version_history#Releases
+    MACOSX_DEPLOYMENT_TARGET='10.11'
+
+    // Whether to enable memory debugging. This is only has effect on Unix. Both GCC and Clang are supported.
+    // It's implemented  with ubsan and asan, see this for an introduction:
+    // https://developers.redhat.com/blog/2014/10/16/gcc-undefined-behavior-sanitizer-ubsan
+    HIFI_MEMORY_DEBUGGING=
     
 ##### Generate Files
 
