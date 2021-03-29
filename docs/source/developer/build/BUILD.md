@@ -32,7 +32,7 @@ These dependencies need not be installed manually. They are automatically downlo
 - [zlib](http://www.zlib.net/):   1.28 (Win32 only)  
 - [nvtt](https://github.com/hifi-archive/nvidia-texture-tools):   2.1.1 (customized)  
 
-The above dependencies will be downloaded, built, linked and included automatically by CMake where we require them. The CMakeLists files that handle grabbing each of the following external dependencies can be found in the [cmake/externals folder](cmake/externals). The resulting downloads, source files and binaries will be placed in the `build/ext` folder in each of the subfolders for each external project.
+The above dependencies will be downloaded, built, linked and included automatically by CMake where we require them. The CMakeLists files that handle grabbing each of the following external dependencies can be found in the [cmake/externals folder](https://github.com/vircadia/vircadia/tree/master/cmake/externals). The resulting downloads, source files and binaries will be placed in the `build/ext` folder in each of the subfolders for each external project.
 
 These are not placed in your normal build tree when doing an out of source build so that they do not need to be re-downloaded and re-compiled every time the CMake build folder is cleared. Should you want to force a re-download and re-compile of a specific external, you can simply remove that directory from the appropriate subfolder in `build/ext`. Should you want to force a re-download and re-compile of all externals, just remove the `build/ext` folder.
 
@@ -42,15 +42,17 @@ Vircadia uses CMake to generate build files and project files for your platform.
 
 #### Qt
 
-CMake will download Qt 5.12.3 using vcpkg.  
+CMake will download Qt 5.12.3 using vcpkg.
 
-To override this (i.e. use an installed Qt configuration - you will need to set a QT_CMAKE_PREFIX_PATH environment variable pointing to your Qt **lib/cmake** folder.  
+To override this (i.e. use an installed Qt configuration - you will need to set a QT_CMAKE_PREFIX_PATH environment variable pointing to your Qt **lib/cmake** folder.
 This can either be entered directly into your shell session before you build or in your shell profile (e.g.: ~/.bash_profile, ~/.bashrc, ~/.zshrc - this depends on your shell and environment).  The path it needs to be set to will depend on where and how Qt5 was installed. e.g.
 
-    export QT_CMAKE_PREFIX_PATH=/usr/local/Qt5.12.3/gcc_64/lib/cmake
-    export QT_CMAKE_PREFIX_PATH=/usr/local/qt/5.12.3/clang_64/lib/cmake/
-    export QT_CMAKE_PREFIX_PATH=/usr/local/Cellar/qt5/5.12.3/lib/cmake
-    export QT_CMAKE_PREFIX_PATH=/usr/local/opt/qt5/lib/cmake
+```bash
+export QT_CMAKE_PREFIX_PATH=/usr/local/Qt5.12.3/gcc_64/lib/cmake
+export QT_CMAKE_PREFIX_PATH=/usr/local/qt/5.12.3/clang_64/lib/cmake/
+export QT_CMAKE_PREFIX_PATH=/usr/local/Cellar/qt5/5.12.3/lib/cmake
+export QT_CMAKE_PREFIX_PATH=/usr/local/opt/qt5/lib/cmake
+```
 
 #### VCPKG
 
@@ -60,7 +62,9 @@ You do not need to install vcpkg.
 Building the dependencies can be lengthy and the resulting files will be stored in your OS temp directory.
 However, those files can potentially get cleaned up by the OS, so in order to avoid this and having to redo the lengthy build step, you can set the following environment variable:
 
-    export HIFI_VCPKG_BASE=/path/to/directory
+```bash
+export HIFI_VCPKG_BASE=/path/to/directory
+```
 
 Where `/path/to/directory` is the path to a directory where you wish the build files to get stored.
 
@@ -68,45 +72,52 @@ Where `/path/to/directory` is the path to a directory where you wish the build f
 
 ##### Possible Environment Variables
 
-    // The URL to post the dump to.
-    CMAKE_BACKTRACE_URL
-    // The identifying tag of the release.
-    CMAKE_BACKTRACE_TOKEN
-    
-    // The release version, e.g., 2021.3.2.
-    RELEASE_NUMBER
-    // The release name, e.g., Eos.
-    RELEASE_NAME
-    // The build commit, e.g., use a Git hash for the most recent commit in the branch - fd6973b.
-    
-    BUILD_NUMBER
-    
-    // The type of release.
-    RELEASE_TYPE=PRODUCTION|PR|DEV
-    
-    // The Interface will have a custom default home and startup location.
-    INITIAL_STARTUP_LOCATION=Location/IP/URL
-    
-    // Code-signing environment variables must be set during runtime of CMake AND globally when the signing takes place.
-    HF_PFX_FILE=Path to certificate
-    HF_PFX_PASSPHRASE=Passphrase for certificate
-    
-    // Determine the build type
-    PRODUCTION_BUILD=0|1
-    PR_BUILD=0|1
-    STABLE_BUILD=0|1
-    
-    // Determine if to utilize testing or stable Metaverse URLs
-    USE_STABLE_GLOBAL_SERVICES=1
-    BUILD_GLOBAL_SERVICES=STABLE
-    
+```text
+// The URL to post the dump to.
+CMAKE_BACKTRACE_URL
+// The identifying tag of the release.
+CMAKE_BACKTRACE_TOKEN
+
+// The release version, e.g., 2021.3.2.
+RELEASE_NUMBER
+// The release name, e.g., Eos.
+RELEASE_NAME
+// The build commit, e.g., use a Git hash for the most recent commit in the branch - fd6973b.
+
+BUILD_NUMBER
+
+// The type of release.
+RELEASE_TYPE=PRODUCTION|PR|DEV
+
+// The Interface will have a custom default home and startup location.
+PRELOADED_STARTUP_LOCATION=Location/IP/URL
+// The Interface will have a custom default script whitelist, comma separated, no spaces.
+// This will also activate the whitelist on Interface's first run.
+PRELOADED_SCRIPT_WHITELIST=ListOfEntries
+
+// Code-signing environment variables must be set during runtime of CMake AND globally when the signing takes place.
+HF_PFX_FILE=Path to certificate
+HF_PFX_PASSPHRASE=Passphrase for certificate
+
+// Determine the build type
+PRODUCTION_BUILD=0|1
+PR_BUILD=0|1
+STABLE_BUILD=0|1
+
+// Determine if to utilize testing or stable Metaverse URLs
+USE_STABLE_GLOBAL_SERVICES=1
+BUILD_GLOBAL_SERVICES=STABLE
+```
+
 ##### Generate Files
 
 Create a build directory in the root of your checkout and then run the CMake build from there. This will keep the rest of the directory clean.
 
-    mkdir build
-    cd build
-    cmake ..
+```bash
+mkdir build
+cd build
+cmake ..
+```
 
 If CMake gives you the same error message repeatedly after the build fails, try removing `CMakeCache.txt`.
 
@@ -128,13 +139,15 @@ Any variables that need to be set for CMake to find dependencies can be set as E
 
 For example, to pass the QT_CMAKE_PREFIX_PATH variable (if not using the vcpkg'ed version) during build file generation:
 
-    cmake .. -DQT_CMAKE_PREFIX_PATH=/usr/local/qt/5.12.3/lib/cmake
+```bash
+cmake .. -DQT_CMAKE_PREFIX_PATH=/usr/local/qt/5.12.3/lib/cmake
+```
 
 #### Finding Dependencies
 
 The following applies for dependencies we do not grab via CMake ExternalProject (OpenSSL is an example), or for dependencies you have opted not to grab as a CMake ExternalProject (via -DUSE_LOCAL_$NAME=0). The list of dependencies we grab by default as external projects can be found in [the CMake External Project Dependencies section](#cmake-external-project-dependencies).
 
-You can point our [CMake find modules](cmake/modules/) to the correct version of dependencies by setting one of the three following variables to the location of the correct version of the dependency.
+You can point our [CMake find modules](https://github.com/vircadia/vircadia/tree/master/cmake/modules) to the correct version of dependencies by setting one of the three following variables to the location of the correct version of the dependency.
 
 In the examples below the variable $NAME would be replaced by the name of the dependency in uppercase, and $name would be replaced by the name of the dependency in lowercase (ex: OPENSSL_ROOT_DIR, openssl).
 
@@ -162,5 +175,5 @@ The following build options can be used when running CMake
 
 #### Devices
 
-You can support external input/output devices such as Leap Motion, MIDI, and more by adding each individual SDK in the visible building path. Refer to the readme file available in each device folder in [interface/external/](interface/external) for the detailed explanation of the requirements to use the device.
+You can support external input/output devices such as Leap Motion, MIDI, and more by adding each individual SDK in the visible building path. Refer to the readme file available in each device folder in [interface/external/](https://github.com/vircadia/vircadia/tree/master/interface/external) for the detailed explanation of the requirements to use the device.
  
