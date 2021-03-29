@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-01-23 22:27+0000\n"
-"PO-Revision-Date: 2021-03-27 22:40+0000\n"
+"PO-Revision-Date: 2021-03-29 01:19+0000\n"
 "Last-Translator: 川音リオ <rio.kawane@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/home/ja/>\n"
@@ -106,12 +106,12 @@ msgid ""
 "Vircadia `Discord server <https://discordapp.com/invite/Pvx2vke>`__ "
 "|Discord|."
 msgstr ""
-"ドキュメントに加えて、Vircadia の `Discord サーバー<https://discordapp.com/invite/Pvx2vke>` "
-"__ | Discord | に参加できます。"
+"ドキュメントに加えて、Vircadia の `Discord サーバー<https://discordapp.com/invite/Pvx2vke>`"
+"__ |Discord| に参加できます。"
 
 #: ../../source/home.rst:35
 msgid "This documentation is authored in `English <https://docs.vircadia.dev/>`_."
-msgstr "このドキュメンテーションは `英語 <https://docs.vircadia.dev/>`_で執筆されたものですよっ。"
+msgstr "このドキュメンテーションの原文は `英語 <https://docs.vircadia.dev/>`_ で執筆されたものです。"
 
 #: ../../source/home.rst:37
 msgid "The following translations are available:"
@@ -149,7 +149,7 @@ msgstr ""
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
-msgstr ":doc:`作る<create>`: あなたや他の人が楽しめるようなアバターやドメイン、タブレットアプリなどを作成できます。"
+msgstr ":doc:`作る<create>`: アバターやドメイン、タブレットアプリなどを作成できます。"
 
 #: ../../source/home.rst:63
 msgid ""
