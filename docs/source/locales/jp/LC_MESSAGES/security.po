@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2020-07-03 14:57+0200\n"
-"PO-Revision-Date: 2021-03-29 01:19+0000\n"
+"PO-Revision-Date: 2021-03-30 16:37+0000\n"
 "Last-Translator: 川音リオ <rio.kawane@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/security/ja/>\n"
@@ -33,12 +33,12 @@ msgstr "セキュリティ"
 msgid ""
 "Security information about the project and its components: Interface, "
 "server, and the metaverse server."
-msgstr ""
+msgstr "Vircadiaプロジェクトとその構成要素（インターフェースやサーバーなど）に関するセキュリティ情報。"
 
 #: ../../source/security/crash-reporting.rst:5
 #: ../../source/security/reporting/crash-reporting.md:1
 msgid "Crash Reporting Privacy"
-msgstr ""
+msgstr "クラッシュレポートのプライバシーについて"
 
 #: ../../source/security/reporting/crash-reporting.md:3
 msgid ""
@@ -48,47 +48,49 @@ msgid ""
 "that the Vircadia developers have access to. The current crash management"
 " server is called Sentry."
 msgstr ""
+"クラッシュレポートはデフォルトで無効になっています。これは、メニューの「設定」>「一般」から切り替えることができます。有効にすると、Vircadiaの開発"
+"者がアクセスできるレポートサーバーに情報のミニダンプを送信します。現在のクラッシュ管理サーバーの名称は Sentry です。"
 
 #: ../../source/security/reporting/crash-reporting.md:5
 msgid "Here is information on what a minidump is and how it's handled by Sentry."
-msgstr ""
+msgstr "ミニダンプとは何か、そしてそれは Sentry によってどのように処理されるかの解説はこちら。"
 
 #: ../../source/security/reporting/crash-reporting.md:7
 msgid "Here is a list of extra metadata that is collected with a crash report:"
-msgstr ""
+msgstr "クラッシュレポートで収集される追加メタデータのリストは次のとおりです。"
 
 #: ../../source/security/reporting/crash-reporting.md:9
 msgid "Username"
-msgstr ""
+msgstr "ユーザーネーム"
 
 #: ../../source/security/reporting/crash-reporting.md:10
 msgid "Domain + location"
-msgstr ""
+msgstr "ドメインと位置情報"
 
 #: ../../source/security/reporting/crash-reporting.md:11
 msgid "Avatar URL"
-msgstr ""
+msgstr "アバターのURL"
 
 #: ../../source/security/reporting/crash-reporting.md:12
 msgid "Build type"
-msgstr ""
+msgstr "ビルドタイプ"
 
 #: ../../source/security/reporting/crash-reporting.md:13
 msgid "Display plugin"
-msgstr ""
+msgstr "ディスプレイブラグイン"
 
 #: ../../source/security/reporting/crash-reporting.md:14
 msgid "GPU model + GPU memory"
-msgstr ""
+msgstr "GPUのモデルとメモリ"
 
 #: ../../source/security/reporting/crash-reporting.md:15
 msgid "Desktop/VR mode"
-msgstr ""
+msgstr "デスクトップモードかVRモード"
 
 #: ../../source/security/reporting/crash-reporting.md:16
 msgid "Machine fingerprint"
-msgstr ""
+msgstr "デジタル指紋データ（マシンフィンガープリント）"
 
 #: ../../source/security/reporting/crash-reporting.md:17
 msgid "Metaverse session UUID"
-msgstr ""
+msgstr "メタバースセッションUUID"
