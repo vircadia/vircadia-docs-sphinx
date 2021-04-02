@@ -94,6 +94,14 @@ jobs:
         mkdir -p build-archives
         cd build-jp/html/
         tar -czvf ../../build-archives/build-jp.tar.gz *
+    - name: Build spanish documentation
+      shell: bash
+      run: |
+        cd docs
+        make BUILDDIR=build-es SPHINXOPTS="-Dlanguage=es" html
+        mkdir -p build-archives
+        cd build-es/html/
+        tar -czvf ../../build-archives/build-es.tar.gz *
     - name: Upload translated documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
@@ -121,3 +129,9 @@ jobs:
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
         chmod 600 private_key.pem
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/jp/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-jp.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/jp/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-jp.tar.gz"
+    - name: Deploy spanish documentation
+      shell: bash
+      run: |
+        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
+        chmod 600 private_key.pem
+        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/es/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-es.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/es/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-es.tar.gz"
