@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-04-01 17:33+0200\n"
-"PO-Revision-Date: 2021-04-10 21:20+0000\n"
+"PO-Revision-Date: 2021-04-10 22:02+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/contribute/es/>\n"
@@ -67,6 +67,8 @@ msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/vircadia/vircadia-docs-sphinx/pulls>`_."
 msgstr ""
+"Crear o modificar paginas de documentación y abrir un `PR (pull request) en "
+"GitHub <https://github.com/vircadia/vircadia-docs-sphinx/pulls>`_."
 
 #: ../../source/contribute.rst:19
 msgid ""
@@ -76,10 +78,14 @@ msgid ""
 "changes, as there are always things that the writer and the first "
 "reviewer overlook."
 msgstr ""
+"`Revisar cambios <https://github.com/vircadia/vircadia-docs-sphinx/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ de la documentación en "
+"Github. Nos gustaría tener dos revisores para realizar mas cambios, suele "
+"pasar que hay cosas que el escritor y el primer revisor pasan por alto."
 
 #: ../../source/contribute.rst:24
 msgid "Translation"
-msgstr ""
+msgstr "Traducción"
 
 #: ../../source/contribute.rst:25
 msgid ""
