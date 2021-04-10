@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-04-01 17:33+0200\n"
-"PO-Revision-Date: 2021-04-10 22:02+0000\n"
+"PO-Revision-Date: 2021-04-10 23:49+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/contribute/es/>\n"
@@ -99,10 +99,17 @@ msgid ""
 "documentation can be found in its `README <https://github.com/vircadia"
 "/vircadia-docs-sphinx/blob/master/README.md>`_."
 msgstr ""
+"Como un proyecto internacional, Vircadia confía en traductores para ser "
+"capaz de llegar a usuarios que no hablan inglés. Actualmente el único "
+"componente que tiene soporte de traducción es la documentación. Puedes "
+"ayudar en la traducción usando nuestro sistema de traducción online `Weblate "
+"<https://weblate.vircadia.dev>`_ enviando traducciones o convirtiéndote en "
+"mantenedor de tú idioma y verificando las traducciones antes de que se "
+"incluyan en la documentación."
 
 #: ../../source/contribute.rst:32
 msgid "Donations"
-msgstr ""
+msgstr "Donaciones"
 
 #: ../../source/contribute.rst:33
 msgid ""
@@ -111,6 +118,11 @@ msgid ""
 "donations, you can donate to specific members of the team via various "
 "services like PayPal, Patreon, or Github Sponsors."
 msgstr ""
+"Vircadia es impulsada principalmente por las contribuciones voluntarias de "
+"la comunidad y el equipo núcleo. Si bien aún no contamos con una entidad "
+"para gestionar las donaciones, puedes realizar una donación a miembros "
+"específicos del equipo por medio de varios servicios como PayPal, Patreon o "
+"Sponsors GithHub."
 
 #: ../../source/contribute.rst:36
 msgid ""
@@ -125,32 +137,49 @@ msgid ""
 "of US$40 an hour in the free market. Keep that in mind if you want to see"
 " something accomplished that no one else is personally interested in."
 msgstr ""
+"También puedes otorgar recompensas por funciones específicas que quieres ver "
+"implementadas o problemas que quieres que sean solucionados, dejando un "
+"comentario en nuestro `seguidor de problemas <https://github.com/vircadia/"
+"vircadia/issues>`_. Por supuesto, las recompensas también son una opción "
+"para otras partes del proyecto, como la documentación. Las recompensas se "
+"crean y asignan en función de la confianza, por lo que si no estás seguro de "
+"algo con respecto a una, habla con un desarrollador principal o menciónalo "
+"en una comunidad o reunión de desarrolladores. La mayoría de los "
+"desarrolladores están altamente capacitados y entrenados, normalmente "
+"ganando más de 40 dólares por hora en el mercado libre. Ten en cuenta esto "
+"si deseas ver algo hecho en lo que nadie más esté personalmente interesado."
 
 #: ../../source/contribute.rst:43
 msgid "Development"
-msgstr ""
+msgstr "Desarrollo"
 
 #: ../../source/contribute.rst:44
 msgid ""
 "You can help the general development of the Vircadia project without "
 "being a developer yourself by:"
 msgstr ""
+"Puedes ayudar el desarrollo general del proyecto Vircadia sin ser un "
+"desarrollador tú mismo:"
 
 #: ../../source/contribute.rst:46
 msgid ""
 "filing issues on our `issue tracker "
 "<https://github.com/vircadia/vircadia/issues>`_,"
 msgstr ""
+"Clasificando problemas en nuestro `seguidor de problemas <https://github.com/"
+"vircadia/vircadia/issues>`_,"
 
 #: ../../source/contribute.rst:47
 msgid "helping to narrow down those issues,"
-msgstr ""
+msgstr "ayudando a reducir esos problemas,"
 
 #: ../../source/contribute.rst:48
 msgid ""
 "or `testing pull requests "
 "<https://github.com/vircadia/vircadia/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 msgstr ""
+"o `testeando pull requests <https://github.com/vircadia/vircadia/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 
 #: ../../source/contribute.rst:50
 msgid ""
