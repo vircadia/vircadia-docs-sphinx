@@ -16,7 +16,7 @@ sudo apt-get update && sudo apt-get install ./vircadia-server_2021.1.1-eos-20210
 ### Amazon Linux 2
 
 ```sh
-sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2021.1.0_EOS_20210213_26894b4-1.amzn2.x86_64.rpm
+sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2021.1.1_EOS_20210405_1751a59-1.amzn2.x86_64.rpm
 ```
 
 ### Unlisted Distribution
