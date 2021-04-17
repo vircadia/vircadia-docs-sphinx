@@ -119,6 +119,8 @@ date
 cd docs
 make gettext
 sphinx-intl update -l de
+sphinx-intl update -l es
+sphinx-intl update -l fr
 sphinx-intl update -l jp
 git commit -a -m "Update translation files"
 ) |& tee .git/git_hook_output.log
