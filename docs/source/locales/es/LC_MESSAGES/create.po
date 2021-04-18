@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-04-01 17:33+0200\n"
-"PO-Revision-Date: 2021-04-10 21:20+0000\n"
+"PO-Revision-Date: 2021-04-18 00:01+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -23,41 +23,41 @@ msgstr ""
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 msgid "Create Tools"
-msgstr ""
+msgstr "Crear Herramientas"
 
 #: ../../source/create.rst:11 ../../source/create/avatars.rst:3
 msgid "Avatars"
-msgstr ""
+msgstr "Avatares"
 
 #: ../../source/create.rst:11 ../../source/create/wearables.md:6
 msgid "Wearables"
-msgstr ""
+msgstr "Usables"
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
 msgid "Entities"
-msgstr ""
+msgstr "Entidades"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:53
 #: ../../source/create/3d-models/get-model.rst:58
 #: ../../source/create/materials.rst:3
 msgid "Materials"
-msgstr ""
+msgstr "Materiales"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models.rst:3
 msgid "3D Models"
-msgstr ""
+msgstr "Modelos 3D"
 
 #: ../../source/create.rst:11 ../../source/create/environments.rst:3
 msgid "Environments"
-msgstr ""
+msgstr "Entornos"
 
 #: ../../source/create.rst:11 ../../source/create/applications.rst:7
 msgid "Tablet Apps"
-msgstr ""
+msgstr "Aplicaciones de Tablet"
 
 #: ../../source/create.rst:3
 msgid "Create"
-msgstr ""
+msgstr "Crear"
 
 #: ../../source/create.rst:5
 msgid ""
@@ -68,44 +68,55 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Vircadia engine is encouraged!"
 msgstr ""
+"Vircadia permite que las personas conectadas por intereses, comunidad y "
+"amistad se reúnan y expresen su creatividad con los demás. Te invitamos a "
+"personalizar tu propia experiencia por medio de la creación de avatares y "
+"contenido, o desarrollando aplicaciones y ejecutables. Para hacer realmente "
+"tu propio metaverso, te recomendamos que para crear tu propio mundo o "
+"construir tu proyecto inmersivo utilices el motor gratuito y con licencia "
+"abierta de Vircadia!"
 
 #: ../../source/create.rst:7
 msgid ""
 "No matter your level of expertise, Vircadia provides the tools you need "
 "to create anything you can imagine."
 msgstr ""
+"Independientemente de tu nivel de experiencia, Vircadia te proporciona las "
+"herramientas que necesites para crear cualquier cosa que puedas imaginar."
 
 #: ../../source/create.rst:9
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
 msgstr ""
+"A lo largo de este capítulo, aprende a crear, construir y dar vida a tu "
+"propia experiencia de realidad virtual:"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:7
 #: ../../source/create/wearables.md:43
 msgid "Get Your 3D Model"
-msgstr ""
+msgstr "Obtén tu Modelo 3D"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/entities/create-entities.md:41
 msgid "Import Your 3D Model"
-msgstr ""
+msgstr "Importa tu Modelo 3D"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:7
 msgid "PBR Materials Guide"
-msgstr ""
+msgstr "Guía de materiales PBR"
 
 #: ../../source/create/3d-models.rst:11 ../../source/create/materials.rst:9
 #: ../../source/create/materials/procedural-shaders.rst:3
 msgid "Procedural Shaders for Models and Avatars"
-msgstr ""
+msgstr "Sombreadores procedimentales para modelos y avatares"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/import-animations.rst:7
 msgid "Import Animations"
-msgstr ""
+msgstr "Importar animaciones"
 
 #: ../../source/create/3d-models.rst:5
 msgid ""
@@ -114,6 +125,10 @@ msgid ""
 " You can get your 3D model by creating your own or sourcing it "
 "externally. We only support 3D models in the OBJ, FBX, and glTF formats."
 msgstr ""
+"Los modelos 3D son :doc:`entidades <entities>` que representan objetos que "
+"te gustaría ver en el mundo como una fuente de agua, un castillo o una taza "
+"de café. Puedes conseguir tu modelo 3D creándolo tú mismo o cargándolo "
+"externamente. Solo soportamos modelos 3D en los formatos OBJ, FBX y glTF."
 
 #: ../../source/create/3d-models.rst:7
 msgid ""

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-04-01 17:33+0200\n"
-"PO-Revision-Date: 2021-04-10 21:20+0000\n"
+"PO-Revision-Date: 2021-04-18 00:01+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/release-notes/es/>\n"
@@ -3752,7 +3752,7 @@ msgstr ""
 #: ../../source/release-notes/v85.md:56 ../../source/release-notes/v86.md:14
 #: ../../source/release-notes/v86.md:54
 msgid "Avatars"
-msgstr ""
+msgstr "Avatares"
 
 #: ../../source/release-notes/v80.md:35
 msgid ""
@@ -3767,7 +3767,7 @@ msgstr ""
 #: ../../source/release-notes/v82.md:52 ../../source/release-notes/v82.md:92
 #: ../../source/release-notes/v83.md:53 ../../source/release-notes/v83.md:139
 msgid "Create Tools"
-msgstr ""
+msgstr "Crear Herramientas"
 
 #: ../../source/release-notes/v80.md:39
 msgid ""
@@ -4966,7 +4966,7 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:76
 msgid "Entities"
-msgstr ""
+msgstr "Entidades"
 
 #: ../../source/release-notes/v83.md:77
 msgid "location"
@@ -5381,7 +5381,7 @@ msgstr ""
 #: ../../source/release-notes/v85.md:63 ../../source/release-notes/v86.md:23
 #: ../../source/release-notes/v86.md:60
 msgid "Create"
-msgstr ""
+msgstr "Crear"
 
 #: ../../source/release-notes/v84.md:20
 msgid ""
