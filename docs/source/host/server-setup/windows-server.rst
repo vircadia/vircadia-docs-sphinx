@@ -24,10 +24,7 @@ Before you set up a local server, you should have a basic understanding of compu
 
 At a minimum, the computer that you use for your server should meet our `minimum system requirements <../../explore/get-started/install.html#minimum-system-requirements>`_. However, keep in mind that as you add more visitors to your domain, the demand on your resources will increase. Therefore if you wish to invite a large group (over 15 visitors) or create a complex content set, we encourage you to increase your memory and network bandwidth. 
 
-To host a domain, you must be running Vircadia's open source `Client + Sandbox <https://vircadia.com/download-vircadia/#interface>`_ software.
-
-.. note:: While we do not publish an installer for Linux computers, you can still run a local domain server on a Linux machine. To do so, you will need to build the application from our code base. For more information, see our `Linux Build Guide <https://github.com/vircadia/vircadia/blob/master/BUILD_LINUX.md>`_.
-
+To host a domain, you must be running Vircadia's open source `Client + Sandbox <https://vircadia.com/download-vircadia/#windows>`_ software.
 
 ---------------
 Create a Domain
