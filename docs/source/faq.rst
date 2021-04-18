@@ -51,6 +51,7 @@ Troubleshooting
 ---------------
 
 + `Where do I find the Interface log files? <#interface-log-files>`_
++ `How do I access the hidden folders that most Vircadia files are stored in? <#file-manager-help>`_
 + `Why can't I connect to a domain? <#cannot-connect>`_
 + `No one can hear me! <#no-input>`_
 + `I can't hear anything in Vircadia <#no-output>`_
@@ -68,6 +69,23 @@ Troubleshooting
 |                                                                                                     |
 | The Vircadia folder name might be different on development or testing builds.                       |
 | E.g. ``Vircadia - dev``.                                                                            |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _file-manager-help:                                                                              |
+|                                                                                                     |
+| How do I access the hidden folders that most Vircadia files are stored in?                          |
++=====================================================================================================+
+| On all currently supported operating systems the folders that Vircadia stores most of its data in   |
+| are hidden.                                                                                         |
+|                                                                                                     |
+| The easiest was to access them is to just copy the path and paste into your systems file manager.   |
+| Most (if not all) of them have a bar at the top.                                                    |
+|                                                                                                     |
+| .. image:: _images/file-manager-path.png                                                            |
+|                                                                                                     |
+| Even if it doesn't look like you can paste anything into the bar, still hover over it and try       |
+| pasting with a shortcut like Ctrl + V                                                               |
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
@@ -134,7 +152,7 @@ Troubleshooting
 |   Vircadia and click 'Properties'. On the 'Levels' tab, adjust the 'Microphone Level' and/or        |
 |   'Microphone Boost'.                                                                               |
 | * On Mac, go to **System Preferences > Sound > Input** tab. Choose the device you are using with    |
-|   Vircadia and adjust the 'Input volume'.                                                           | 
+|   Vircadia and adjust the 'Input volume'.                                                           |
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
