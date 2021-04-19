@@ -119,6 +119,8 @@ date
 cd docs
 make gettext
 sphinx-intl update -l de
+sphinx-intl update -l es
+sphinx-intl update -l fr
 sphinx-intl update -l jp
 git commit -a -m "Update translation files"
 ) |& tee .git/git_hook_output.log
@@ -131,7 +133,7 @@ su weblate
 python3 -m pip install --upgrade pip
 python3 -m pip install git+https://github.com/vircadia/video.git
 python3 -m pip install -U Sphinx==2.4.4
-python3 -m pip install --upgrade recommonmark
+python3 -m pip install --upgrade myst-parser
 python3 -m pip install sphinx_rtd_theme
 python3 -m pip install sphinx-intl
 ```

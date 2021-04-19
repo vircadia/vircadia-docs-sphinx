@@ -58,10 +58,10 @@ We encourage you to compile the documentation locally on your computer prior to 
     C:\> pip install sphinx
     ```
 
-6. Install the Markdown parser recommonmark:
+6. Install the Markdown parser MyST-Parser:
 
     ```
-    C:\> pip install --upgrade recommonmark
+    C:\> pip install --upgrade myst-parser
     ```
 
 7. Install our Sphinx theme:
@@ -89,6 +89,7 @@ Replace `xX` with your [language code](https://www.sphinx-doc.org/en/master/usag
 
 Most of our docs use RST. reStructuredText (RST) is the default plaintext markup language used by Sphinx. It is an extensible markup language, that is fully customizable. To learn more, refer to Sphinx's [reStructuredText Primer](https://www.sphinx-doc.org/en/2.0/usage/restructuredtext/basics.html).
 RST should be used for any real documentation, as Markdown only supports very basic directives.
+The MyST parser expands Markdown significantly, but RST should still be preferred as writers and translators would need to learn two big markup languages instead of just one.
 A valuable resource for RST is the [official documentation](https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html).
 
 ## Using videos
