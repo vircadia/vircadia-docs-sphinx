@@ -3259,8 +3259,8 @@ msgstr ""
 
 #: ../../source/release-notes/v80.md:11
 msgid ""
-"Digital Ocean Password Reset: Domain Admin users can now reset their "
-"admin username and password on Digital Ocean Domain Servers. Go to "
+"DigitalOcean Password Reset: Domain Admin users can now reset their "
+"admin username and password on DigitalOcean Domain Servers. Go to "
 "highfidelity.com/user/cloud_domains, sign in to High Fidelity, and select"
 " the Reset Domain Server password option from the menu."
 msgstr ""
