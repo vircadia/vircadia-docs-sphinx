@@ -20,7 +20,7 @@ Before you set up a local server, you should have a basic understanding of compu
 
 At a minimum, the computer that you use for your server should meet our `minimum system requirements <../../explore/get-started/install.html#minimum-system-requirements>`_. However, keep in mind that as you add more visitors to your domain, the demand on your resources will increase. Therefore if you wish to invite a large group (over 15 visitors) or create a complex content set, we encourage you to increase your memory and network bandwidth. 
 
-To host a domain on Windows, you must be running Vircadia's open source `Client + Server <https://vircadia.com/download-vircadia/#interface>`_ software.
+To host a domain on Windows, you must be running Vircadia's open source `Client + Server <https://vircadia.com/download-vircadia/#windows>`_ software.
 
 ---------------
 Create a Domain

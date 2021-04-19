@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-04-01 17:33+0200\n"
-"PO-Revision-Date: 2021-04-10 21:20+0000\n"
+"PO-Revision-Date: 2021-04-18 00:01+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "Materials"
-msgstr ""
+msgstr "Materiales"
 
 #: ../../source/host/add-content/bake-content.rst:33
 msgid ""
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:37
 msgid "3D Models"
-msgstr ""
+msgstr "Modelos 3D"
 
 #: ../../source/host/add-content/bake-content.rst:37
 msgid ""
@@ -210,7 +210,7 @@ msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:45
 msgid "Avatars"
-msgstr ""
+msgstr "Avatares"
 
 #: ../../source/host/add-content/bake-content.rst:45
 msgid ""
