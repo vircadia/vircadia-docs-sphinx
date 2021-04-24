@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-04-01 17:33+0200\n"
-"PO-Revision-Date: 2021-04-02 18:53+0000\n"
+"PO-Revision-Date: 2021-04-24 21:11+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/developer/es/>\n"
@@ -1740,7 +1740,7 @@ msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:18
 msgid "Prerequisites"
-msgstr ""
+msgstr "Prerrequisitos"
 
 #: ../../source/developer/installer/INSTALLER.md:20
 msgid "To produce an executable installer on Windows, the following are required:"
