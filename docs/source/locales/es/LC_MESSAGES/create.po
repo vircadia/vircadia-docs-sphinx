@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-04-01 17:33+0200\n"
-"PO-Revision-Date: 2021-04-18 00:01+0000\n"
+"PO-Revision-Date: 2021-04-25 19:58+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -137,23 +137,31 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light as they would (approximately) in real life."
 msgstr ""
+"La apariencia de un modelo 3D está controlada por materiales. Los materiales "
+"admitidos en Vircadia son materiales de \"Renderizado de base Física\" (PBR)"
+". Esto significa que los materiales de un modelo 3D reflejarán o absorberán "
+"luz como lo harían (aproximadamente) en la vida real."
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**En Esta Sección:**"
 
 #: ../../source/create/3d-models/get-model.rst:2
 msgid ""
 "This document is slightly outdated. FIXME: Mentions High Fidelity, could "
 "use slightly more \"Best Practices\""
 msgstr ""
+"Este documento está un poco desactualizado. FIXME: menciona Alta Fidelidad, "
+"podría usar un poco más de \"Mejores Prácticas\""
 
 #: ../../source/create/3d-models/get-model.rst:9
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Vircadia."
 msgstr ""
+"Todos los modelos 3D deben estar en formato FBX, glTF u OBJ y tener "
+"materiales admitidos por Vircadia."
 
 #: ../../source/create/3d-models/get-model.rst:12
 #: ../../source/create/3d-models/import-animations.rst:12
@@ -181,7 +189,7 @@ msgstr "En Esta Página"
 
 #: ../../source/create/3d-models/get-model.rst:16
 msgid "Get Your 3D Model from 3D Content Stores"
-msgstr ""
+msgstr "Obtén tu modelo 3D de las Tiendas de Contenido 3D"
 
 #: ../../source/create/3d-models/get-model.rst:18
 msgid ""
@@ -189,6 +197,9 @@ msgid ""
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
 " models from such sites:"
 msgstr ""
+"Hay muchos sitios web de contenido 3D en internet que contienen modelos que "
+"puedes comprar u obtener de forma gratuita. Ten en cuenta lo siguiente "
+"cuando obtengas modelos 3D de dichos sitios:"
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -200,6 +211,13 @@ msgid ""
 "should be comfortable that you have the rights to re-distribute the 3D "
 "content."
 msgstr ""
+"** Verifique los Términos de Licencia: ** Asegúrate de verificar los "
+"términos de licencia de un modelo antes de usarlo. Es tú responsabilidad "
+"asegurarte de tener los derechos suficientes para utilizar el contenido. "
+"Cuando haces que un modelo 3D esté disponible en tú servidor de Vircadia, "
+"los visitantes obtienen los enlaces a esos archivos de la misma manera que "
+"lo harían al ver una imagen en un sitio web. Debes estar seguro de que "
+"tienes los derechos para redistribuir el contenido 3D."
 
 #: ../../source/create/3d-models/get-model.rst:21
 msgid ""
@@ -208,20 +226,26 @@ msgid ""
 "included. If a model loads into Vircadia and doesn't look right, you may "
 "also find error information in the Interface logs."
 msgstr ""
+"** Verifica los materiales: ** Es posible que al modelo le falten sus "
+"texturas. Si eso sucede, primero verifica si las texturas están incluidas. "
+"Si un modelo se carga en Vircadia y no se ve bien, también puede encontrar "
+"información del error en los registros de la interfaz."
 
 #: ../../source/create/3d-models/get-model.rst:25
 msgid "Create Your Own 3D Model"
-msgstr ""
+msgstr "Crea Tu Propio Modelo 3D"
 
 #: ../../source/create/3d-models/get-model.rst:27
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
 msgstr ""
+"Puedes crear tu propio modelo 3D utilizando software de modelado 3D como "
+"Blender o Maya. Utiliza cualquier software a tú elección siempre que:"
 
 #: ../../source/create/3d-models/get-model.rst:29
 msgid "The 3D model is in the FBX, glTF or OBJ format."
-msgstr ""
+msgstr "El Modelo 3D esté en formato FBX, glTF u OBJ."
 
 #: ../../source/create/3d-models/get-model.rst:30
 msgid ""
@@ -229,16 +253,21 @@ msgid ""
 " guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
+"Los materiales del modelo 3D son admitidos por Vircadia. Utiliza nuestra: "
+"doc: `guía de materiales <pbr-materials-guide>` para asegurarte de que tus "
+"materiales se carguen correctamente."
 
 #: ../../source/create/3d-models/get-model.rst:34
 msgid "Best Practices"
-msgstr ""
+msgstr "Mejores Prácticas"
 
 #: ../../source/create/3d-models/get-model.rst:36
 msgid ""
 "Making 3D models for High Fidelity (and VR) is different than making "
 "models for films, videos, and games."
 msgstr ""
+"Hacer modelos 3D para Alta Fidelidad (y Realidad Virtual) es diferente a "
+"hacer modelos para películas, videos y juegos."
 
 #: ../../source/create/3d-models/get-model.rst:38
 msgid ""
@@ -246,6 +275,10 @@ msgid ""
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
 msgstr ""
+"Los modelos 3D para Realidad Virtual se renderizan dos veces (tanto para el "
+"ojo derecho como para el izquierdo): esto significa que la cantidad de "
+"polígonos y la cantidad de materiales que utilices en tú modelo afectarán a "
+"su rendimiento."
 
 #: ../../source/create/3d-models/get-model.rst:39
 msgid ""
@@ -253,12 +286,19 @@ msgid ""
 " and be cautious about your model’s size. Models that are too big or very"
 " complex can slow down the framerate and make people feel nauseous."
 msgstr ""
+"La mayoría de los visores de Realidad Virtual funcionan a 90 Hz: tendrás que "
+"mantener tu velocidad de fotogramas a 90 fps y tener cuidado con el tamaño "
+"de tu modelo. Los modelos que son demasiado grandes o muy complejos pueden "
+"ralentizar la velocidad de fotogramas y hacer que las personas sientan "
+"náuseas."
 
 #: ../../source/create/3d-models/get-model.rst:41
 msgid ""
 "We've listed the best practices for creating 3D models for Vircadia (and "
 "VR)."
 msgstr ""
+"Hemos enumerado las mejores prácticas para crear modelos 3D para Vircadia (y "
+"Realidad Virtual)."
 
 #: ../../source/create/3d-models/get-model.rst:44
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -269,37 +309,41 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 msgid "Property"
-msgstr ""
+msgstr "Propiedades"
 
 #: ../../source/create/3d-models/get-model.rst:44
 msgid "Best Practice"
-msgstr ""
+msgstr "Mejores Prácticas"
 
 #: ../../source/create/3d-models/get-model.rst:46
 msgid "Polycount"
-msgstr ""
+msgstr "Polycount (Número de polígonos)"
 
 #: ../../source/create/3d-models/get-model.rst:46
 msgid ""
 "Your count should resemble that of a model for a tablet game, not too "
 "high, but not too low either."
 msgstr ""
+"Tu número (de polígonos ) debe parecerse a la de un modelo para un juego de "
+"tablet, no demasiado alto, pero tampoco demasiado bajo."
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
-msgstr ""
+msgstr "Bucle de Borde"
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Remove edge loops that are not needed."
-msgstr ""
+msgstr "Elimina los lazos de borde que no sean necesarios."
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid "Mesh"
-msgstr ""
+msgstr "Mesh (Malla)"
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid "Clean the mesh to make sure there are no N-gons and no coplanar faces."
 msgstr ""
+"Limpia la malla para asegurarte de que no haya N-gons (polígonos con N caras)"
+" ni caras coplanares."
 
 #: ../../source/create/3d-models/get-model.rst:53
 msgid ""
@@ -308,10 +352,14 @@ msgid ""
 "create a robot, all its pieces should share one UV map, instead of giving"
 " its hands, feet, or face separate materials and UV maps."
 msgstr ""
+"Siempre intenta crear mapas Atlas. Cuando cada pieza de tú contenido "
+"comparte el mismo material y espacio UV, se forma un mapa Atlas. Por "
+"ejemplo, si crea un robot, todas sus piezas deben compartir un mapa UV, en "
+"lugar de dar a sus manos, pies o caras materiales y mapas UV separados."
 
 #: ../../source/create/3d-models/get-model.rst:58
 msgid "High Fidelity’s engine only supports one UV mapping per material."
-msgstr ""
+msgstr "El motor de Alta Fidelidad solo admite un mapeo UV por material."
 
 #: ../../source/create/3d-models/get-model.rst:60
 #: ../../source/create/3d-models/get-model.rst:63
@@ -322,51 +370,64 @@ msgstr ""
 #: ../../source/create/3d-models/pbr-materials-guide.rst:26
 #: ../../source/create/avatars/avatar-standards.md:172
 msgid "Textures"
-msgstr ""
+msgstr "Texturas"
 
 #: ../../source/create/3d-models/get-model.rst:60
 msgid ""
 "PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
 " TIFF formats."
 msgstr ""
+"Se recomiendan archivos con extensión PNG, JPEG y JPG, pero también "
+"admitimos los formatos TGA, TIF y TIFF."
 
 #: ../../source/create/3d-models/get-model.rst:63
 msgid "Choose the color types wisely to minimize the size of the final file."
 msgstr ""
+"Elija sabiamente los tipos de colores para minimizar el tamaño del archivo "
+"final."
 
 #: ../../source/create/3d-models/get-model.rst:65
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
 msgstr ""
+"PNG-8 solo tiene transparencia ON/OFF, tiene una paleta de colores (256 "
+"colores, como GIF) y se puede usar para enmascarar la transparencia."
 
 #: ../../source/create/3d-models/get-model.rst:68
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
 msgstr ""
+"Para obtener mayor resolución del color, puedes utilizar PNG-24. Para "
+"máscaras translúcidas o texturas transparentes, usa PNG-32."
 
 #: ../../source/create/3d-models/get-model.rst:71
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by High Fidelity."
 msgstr ""
+"No utilices PNG-48 o PNG-64, ya que ninguno de los dos es compatible con "
+"Alta Fidelidad."
 
 #: ../../source/create/3d-models/get-model.rst:73
 msgid ""
 "When loaded in the engine, textures are automatically resized to a grid "
 "of 128x128. Pick sizes which are multiples of 128."
 msgstr ""
+"Cuando se cargan en el motor, las texturas se redimensionan automáticamente "
+"a una cuadrícula de 128x128. Elija tamaños que sean múltiplos de 128."
 
 #: ../../source/create/3d-models/get-model.rst:76
 msgid "Draw Calls"
-msgstr ""
+msgstr "Llamadas de Dibujo (Draw Calls)"
 
 #: ../../source/create/3d-models/get-model.rst:76
 msgid "Draw calls happen before something gets rendered on screen."
 msgstr ""
+"Las llamadas de dibujo ocurren antes de que algo se muestre en la pantalla."
 
 #: ../../source/create/3d-models/get-model.rst:78
 msgid "``1 model w/ 1 material = 1 draw call``"
-msgstr ""
+msgstr "``1 modelo w/ 1 material = 1 llamada de dibujo``"
 
 #: ../../source/create/3d-models/get-model.rst:80
 msgid ""
@@ -374,6 +435,10 @@ msgid ""
 "balance between draw calls and polys. Fewer draw calls means more room "
 "for polys. Smaller textures means more room for higher poly models."
 msgstr ""
+"No existen medidas definitivas para un polycount deseable. Necesitas un "
+"balance entre las llamadas de dibujo y los polígonos. Menos llamadas de "
+"dibujo significan más espacio para los polígonos. Texturas más pequeñas "
+"significan más espacio para modelos con un número de polígonos más alto."
 
 #: ../../source/create/3d-models/import-animations.rst:2
 msgid ""
@@ -381,6 +446,10 @@ msgid ""
 "spelling mistakes, only mentions FBX (check if more formats are "
 "supported), should framerate really be set to 30fps?"
 msgstr ""
+"Este documento está un poco desactualizado. FIXME: menciona Alta Fidelidad, "
+"errores de ortografía, solo menciona FBX (verifique si se admiten más "
+"formatos), ¿debería realmente establecerse la velocidad de fotogramas en 30 "
+"fps?"
 
 #: ../../source/create/3d-models/import-animations.rst:9
 msgid ""
@@ -388,6 +457,9 @@ msgid ""
 "with animations. For example, you can import the 3D model of a flag that "
 "appears to flutter with the wind using this feature."
 msgstr ""
+"Enriquezca su experiencia de Alta Fidelidad al tener modelos 3D en su "
+"dominio con animaciones. Por ejemplo, puede importar el modelo 3D de una "
+"bandera que parece ondear con el viento usando esta función."
 
 #: ../../source/create/3d-models/import-animations.rst:16
 #: ../../source/create/avatars/custom-animations.rst:18
@@ -406,7 +478,7 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:14
 #: ../../source/create/entities/zone-tutorial.md:22
 msgid "Prerequisites"
-msgstr ""
+msgstr "Prerrequisitos"
 
 #: ../../source/create/3d-models/import-animations.rst:18
 msgid ""
@@ -414,20 +486,28 @@ msgid ""
 "such as Blender and Maya before importing an animation into High "
 "Fidelity."
 msgstr ""
+"Debe estar familiarizado con la creación de animaciones en herramientas de "
+"modelado 3D como Blender y Maya antes de importar una animación a Alta "
+"Fidelidad."
 
 #: ../../source/create/3d-models/import-animations.rst:22
 msgid "Prepare a 3D Model Animation"
-msgstr ""
+msgstr "Preparar una Animación de Modelo 3D"
 
 #: ../../source/create/3d-models/import-animations.rst:24
 msgid ""
 "Before you import an animation into High Fidelity, adjust some settings "
 "in the 3D modeling tool of your choice to ensure that it plays smoothly."
 msgstr ""
+"Antes de importar una animación en Alta Fidelidad, ajuste algunas "
+"configuraciones en la herramienta de modelado 3D de su elección para "
+"asegurarse de que se reproduce sin problemas."
 
 #: ../../source/create/3d-models/import-animations.rst:26
 msgid "Set the framerate to 30 fps for the best results (our recommendation)."
 msgstr ""
+"Establezca la velocidad de fotogramas en 30 fps para obtener los mejores "
+"resultados (nuestra recomendación)."
 
 #: ../../source/create/3d-models/import-animations.rst:27
 msgid ""
@@ -436,30 +516,38 @@ msgid ""
 "doesn't stop and start, but appears smooth and flows through each "
 "movement."
 msgstr ""
+"Registra (Bake) tus canales de animación, fotogramas clave e intermedios "
+"para asegurarte de que Alta Fidelidad lo lea todo. Esto es para asegurar que "
+"tú animación no se detenga y comience, sino que parezca suave y fluya a "
+"través de cada movimiento."
 
 #: ../../source/create/3d-models/import-animations.rst:28
 msgid ""
 "Prepare to export the skeleton and frames that are being used in the "
 "animation."
 msgstr ""
+"Prepárese para exportar el esqueleto y los fotogramas que se están "
+"utilizando en la animación."
 
 #: ../../source/create/3d-models/import-animations.rst:29
 msgid "Export your animation as an FBX file."
-msgstr ""
+msgstr "Exporta tu animación como un archivo FBX."
 
 #: ../../source/create/3d-models/import-animations.rst:30
 msgid "Upload this FBX file to a cloud server. Copy the URL."
-msgstr ""
+msgstr "Carga este archivo FBX en un servidor de la nube. Copia la URL."
 
 #: ../../source/create/3d-models/import-animations.rst:34
 msgid "Import an Animation"
-msgstr ""
+msgstr "Importar una Animación"
 
 #: ../../source/create/3d-models/import-animations.rst:36
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
 " 3D model and it's animation into High Fidelity."
 msgstr ""
+"Una vez que termine de cargarse el archivo FBX de tú animación, puedes "
+"importar el modelo 3D y tú animación en Alta Fidelidad."
 
 #: ../../source/create/3d-models/import-animations.rst:38
 #: ../../source/create/3d-models/import-model.rst:17
@@ -477,7 +565,7 @@ msgstr ""
 #: ../../source/create/entities/material-entity.rst:53
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:37
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
-msgstr ""
+msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
 
 #: ../../source/create/3d-models/import-animations.rst:39
 msgid ""
@@ -486,16 +574,22 @@ msgid ""
 "the animation's URL will be the same. Otherwise, your animation is saved "
 "as a separate FBX file."
 msgstr ""
+"Haga clic en el icono \"MODELO\" e introduce la URL de tu modelo 3D. Si "
+"guardaste el archivo FBX de tu modelo 3D con la animación, la URL del modelo "
+"y la URL de la animación serán las mismas. De lo contrario, tu animación se "
+"guarda como un archivo FBX separado."
 
 #: ../../source/create/3d-models/import-animations.rst:40
 msgid ""
 "In the 'Properties' tab, scroll down to 'Animation' and paste the "
 "animation's URL."
 msgstr ""
+"En la pestaña \"Propiedades\", desplázate hacia abajo hasta \"Animación\"' y "
+"pega la URL de la animación."
 
 #: ../../source/create/3d-models/import-animations.rst:44
 msgid "You can edit the following animation properties:"
-msgstr ""
+msgstr "Puedes editar las siguientes propiedades de animación:"
 
 #: ../../source/create/3d-models/import-animations.rst:47
 #: ../../source/create/3d-models/pbr-materials-guide.rst:57
@@ -524,83 +618,95 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:157
 #: ../../source/create/environments.rst:15
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid "Play Automatically"
-msgstr ""
+msgstr "Play Automatically (Reproducir automáticamente)"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid ""
 "Enable this to play your animation automatically when a user loads a "
 "domain."
 msgstr ""
+"Habilita esto para reproducir tu animación automáticamente cuando un usuario "
+"cargue un dominio."
 
 #: ../../source/create/3d-models/import-animations.rst:51
 msgid "Loop"
-msgstr ""
+msgstr "Loop (bucle)"
 
 #: ../../source/create/3d-models/import-animations.rst:51
 msgid "Select this property to play your animation in a continuous loop."
 msgstr ""
+"Selecciona esta propiedad para reproducir tu animación en un bucle continuo."
 
 #: ../../source/create/3d-models/import-animations.rst:53
 msgid "Allow Transition"
-msgstr ""
+msgstr "Allow Transition (permitir transiciones)"
 
 #: ../../source/create/3d-models/import-animations.rst:53
 msgid ""
 "Enable this to let the animation move through space. This means that the "
 "joints will not only rotate, but translate through three dimensions."
 msgstr ""
+"Habilita esto para permitir que la animación se mueva por el espacio. Esto "
+"significa que las articulaciones no solo girarán, sino que se trasladarán en "
+"tres dimensiones."
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "Hold"
-msgstr ""
+msgstr "Hold (mantener)"
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "Select to pause your animation at a particular frame."
-msgstr ""
+msgstr "Selecciónalo para pausar tu animación en un fotograma en particular."
 
 #: ../../source/create/3d-models/import-animations.rst:58
 msgid "Animation Frame"
-msgstr ""
+msgstr "Animation Frame (marco de animación)"
 
 #: ../../source/create/3d-models/import-animations.rst:58
 msgid "Enter the frame at which you want to pause or hold your animation."
-msgstr ""
+msgstr "Ingresa el fotograma en el que desea pausar o mantener la animación."
 
 #: ../../source/create/3d-models/import-animations.rst:60
 msgid "First Frame"
-msgstr ""
+msgstr "First Frame (primer fotograma)"
 
 #: ../../source/create/3d-models/import-animations.rst:60
 msgid "This is the first frame from when your want your animation to start."
 msgstr ""
+"Este es el primer fotograma desde el que deseas que comience la animación."
 
 #: ../../source/create/3d-models/import-animations.rst:62
 msgid "Last Frame"
-msgstr ""
+msgstr "Last Frame (último fotograma)"
 
 #: ../../source/create/3d-models/import-animations.rst:62
 msgid ""
 "This is the last frame where you want your animation to stop. It will not"
 " play beyond this specified frame."
 msgstr ""
+"Este es el último fotograma en el que deseas que se detenga la animación. No "
+"se reproducirá más allá de este fotograma especificado."
 
 #: ../../source/create/3d-models/import-animations.rst:65
 msgid "Animation FPS"
-msgstr ""
+msgstr "Animation FPS (animación FPS)"
 
 #: ../../source/create/3d-models/import-animations.rst:65
 msgid "This is the animation's framerate."
-msgstr ""
+msgstr "Esta es la velocidad de fotogramas de la animación."
 
 #: ../../source/create/3d-models/import-animations.rst:68
 msgid ""
 "You can also control an animation's properties and when it starts playing"
 " with an :doc:`entity script <../../script/client-entity-scripts>`."
 msgstr ""
+"También puedes controlar las propiedades de una animación y cuándo comienzan "
+"a reproducirse con un: doc: `archivo de entidad ../../script/client-entity-"
+"scripts`."
 
 #: ../../source/create/3d-models/import-animations.rst:70
 #: ../../source/create/3d-models/import-model.rst:36
@@ -623,15 +729,15 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:115
 msgid "**See Also**"
-msgstr ""
+msgstr "**Ver también**"
 
 #: ../../source/create/3d-models/import-animations.rst:72
 msgid ":doc:`Import Your 3D Model <import-model>`"
-msgstr ""
+msgstr ": doc: `Importa tu modelo 3D <import-model>`"
 
 #: ../../source/create/3d-models/import-model.rst:3
 msgid "Import a 3D Model"
-msgstr ""
+msgstr "Importa un Modelo 3D"
 
 #: ../../source/create/3d-models/import-model.rst:5
 msgid ""
@@ -639,34 +745,42 @@ msgid ""
 "domain's Asset Server. Importing your model rezzes it into your domain "
 "and adds it to your virtual world."
 msgstr ""
+"Puedes importar un modelo 3D a Vircadia que esté alojado en línea o en el "
+"servidor de activos de tu dominio. La importación de tu modelo hace que "
+"aparezca en tu dominio y lo agrega a tu mundo virtual."
 
 #: ../../source/create/3d-models/import-model.rst:12
 msgid "Import Models from the Cloud"
-msgstr ""
+msgstr "Importa Modelos desde la Nube"
 
 #: ../../source/create/3d-models/import-model.rst:14
 msgid ""
 "If you want your model available to users in other domains, we recommend "
 "uploading it to a cloud hosting service of your choice."
 msgstr ""
+"Si deseas que tu modelo esté disponible para los usuarios de otros dominios, "
+"te recomendamos que lo cargues en un servicio de alojamiento en la nube de "
+"tú elección."
 
 #: ../../source/create/3d-models/import-model.rst:16
 msgid ""
 "Locate and copy the URL of the model you would like to import. The model "
 "should be a OBJ, glTF, or FBX format."
 msgstr ""
+"Busca y copia la URL del modelo que deseas importar. El modelo debe tener un "
+"formato OBJ, glTF o FBX."
 
 #: ../../source/create/3d-models/import-model.rst:18
 msgid "Select the 'Model' icon."
-msgstr ""
+msgstr "Selecciona el icono \"Model\"."
 
 #: ../../source/create/3d-models/import-model.rst:19
 msgid "Paste the model's URL and click 'Add'."
-msgstr ""
+msgstr "Pega la URL del modelo y haz clic en \"Add\"."
 
 #: ../../source/create/3d-models/import-model.rst:25
 msgid "Import Models from the Asset Server"
-msgstr ""
+msgstr "Importa modelos desde el servidor de activos"
 
 #: ../../source/create/3d-models/import-model.rst:27
 msgid ""
@@ -676,6 +790,11 @@ msgid ""
 "permissions to rez entities in the domain that the Asset Server is "
 "running on."
 msgstr ""
+"El Servidor de Activos aloja archivos o activos que se pueden agregar tal "
+"cual están a un dominio o ser referenciados por entidades y archivos "
+"existentes que ya están en un dominio. Para importar activos desde el "
+"Servidor de Activos, debes tener permisos para invocar (\"rez\") entidades "
+"en el dominio en el que se ejecuta el Servidor de Activos ."
 
 #: ../../source/create/3d-models/import-model.rst:30
 msgid "Click 'Open this Domain's Asset Server'."

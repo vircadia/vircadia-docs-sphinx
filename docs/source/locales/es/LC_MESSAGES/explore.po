@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-04-01 17:33+0200\n"
-"PO-Revision-Date: 2021-04-10 21:20+0000\n"
+"PO-Revision-Date: 2021-04-25 19:58+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -117,7 +117,7 @@ msgstr ""
 #: ../../source/explore/get-started/vr-controls.rst:224
 #: ../../source/explore/personalize/add-wearables.rst:35
 msgid "**See Also**"
-msgstr ""
+msgstr "**Ver también**"
 
 #: ../../source/explore/gallery.rst:60
 msgid ":doc:`Install Vircadia <get-started/install>`"
@@ -290,7 +290,7 @@ msgstr ""
 #: ../../source/explore/get-started/vr-controls.rst:64
 #: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: ../../source/explore/get-started/adjust-settings.rst:51
 msgid "First Person"
@@ -2870,7 +2870,7 @@ msgstr ""
 
 #: ../../source/explore/personalize.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**En Esta Sección:**"
 
 #: ../../source/explore/personalize/add-wearables.rst:2
 msgid "This document is slightly outdated. FIXME: only mentions FBX files"
@@ -3598,7 +3598,7 @@ msgstr ""
 
 #: ../../source/explore/socialize.rst:157
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
-msgstr ""
+msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
 
 #: ../../source/explore/socialize.rst:158
 msgid "Click the 'zone' icon to create a zone entity."
