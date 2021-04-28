@@ -40,7 +40,7 @@ To set up a domain and host it on your local server:
     
     .. note:: Learn :doc:`how to configure a Place name <../configure-settings/place-setting>`.
     
-    * **Step 3: Set up basic permissions**: By default, anyone logged on to your computer will have access to the domain settings for your domain. If you would like to extend administrator privileges to remote users (or allow yourself access from a remote location), then add the Vircadia Metaverse usernames here. In addition, choose who will be able to connect or rez items. 
+    * **Step 3: Set up basic permissions**: By default, anyone logged on to your computer will have full access to your domain. If you would like to extend administrator privileges to remote users (or allow yourself access from a remote location), then add the Vircadia Metaverse usernames here. In addition, choose who will be able to connect or rez items. 
     * Click **Finish** to close the Setup Wizard. You will automatically be redirected to the Domain Settings for your domain.
     
 At this point, you have staged a domain in the metaverse and connected it to your server. However, it is not yet "live", meaning that it exists only as a temporary or "draft" domain in the metaverse. 
@@ -57,7 +57,7 @@ To activate your domain:
 
 This will assign your domain with a permanent, unique identification code that registers it in the metaverse. Your domain will now be accessible through the Place name or your server's IP address. 
 
-.. note:: If you did not assign a Place name, the only way to access your domain is by your server's IP address. However, note that when your IP address changes, so too will the address of your domain and you will need to manually restart your domain each time you change networks. Therefore, if you are hosting your domain on a laptop or on a computer with a frequently changing IP address, we strongly recommend that you purchase a permanent Place name for your domain. Learn :doc:`how to configure a Place name <../configure-settings/place-setting>`. 
+.. note:: If you did not assign a Place name, the only way to access your domain is by your server's IP address. However, note that when your IP address changes, so too will the address of your domain. Therefore, if you are hosting your domain on a laptop or on a computer with a frequently changing IP address, we strongly recommend that you configure a Place name for your domain. Learn :doc:`how to configure a Place name <../configure-settings/place-setting>`. 
 
 Now, your domain is officially part of the expanding metaverse! 
 
@@ -82,4 +82,3 @@ What's Next?
 |                                               |                                      |   <../maintain-domain/update-software.html>`_ |
 |                                               |                                      | * And more...                                 |
 +-----------------------------------------------+--------------------------------------+-----------------------------------------------+
-
