@@ -79,7 +79,7 @@ Troubleshooting
 | On all currently supported operating systems the folders that Vircadia stores most of its data in   |
 | are hidden.                                                                                         |
 |                                                                                                     |
-| The easiest was to access them is to just copy the path and paste into your systems file manager.   |
+| The easiest way to access them is to just copy the path and paste it into your systems file manager.|
 | Most (if not all) of them have a bar at the top.                                                    |
 |                                                                                                     |
 | .. image:: _images/file-manager-path.png                                                            |
