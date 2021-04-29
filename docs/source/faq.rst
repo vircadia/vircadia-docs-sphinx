@@ -85,7 +85,7 @@ Troubleshooting
 | .. image:: _images/file-manager-path.png                                                            |
 |                                                                                                     |
 | Even if it doesn't look like you can paste anything into the bar, still hover over it and try       |
-| pasting with a shortcut like Ctrl + V                                                               |
+| pasting with a shortcut like Ctrl + V.                                                              |
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+

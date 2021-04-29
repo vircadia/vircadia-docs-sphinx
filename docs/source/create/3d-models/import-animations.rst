@@ -11,15 +11,15 @@ Enrich your Vircadia experience by having 3D models in your domain with animatio
 Prerequisites
 ---------------------
 
-You need to be familiar with creating animations in 3D modelling tools such as Blender and Maya before importing an animation into Vircadia.
+You need to be familiar with creating animations in 3D modeling tools such as Blender and Maya before importing an animation into Vircadia.
 
 ---------------------------------
 Prepare a 3D Model Animation
 ---------------------------------
 
-Before you import an animation into Vircadia, adjust some settings in the 3D modelling tool of your choice to ensure that it plays smoothly.
+Before you import an animation into Vircadia, adjust some settings in the 3D modeling tool of your choice to ensure that it plays smoothly.
 
-1. We recommend to set the framerate to 30 fps as a good compromise between smoothness and file size.
+1. We recommend setting the framerate to 30 fps as a good compromise between smoothness and file size.
 2. Bake your animation channels, key frames, and in-betweens to ensure that Vircadia reads everything. This is to ensure that your animation doesn't stop and start, but appears smooth and flows through each movement.
 3. Prepare to export the skeleton and frames that are being used in the animation.
 4. Export your animation as an FBX file. (Reading animations from other formats like glTF is currently not supported.)

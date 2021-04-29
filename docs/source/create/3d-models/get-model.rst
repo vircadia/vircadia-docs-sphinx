@@ -76,7 +76,7 @@ We've listed the best practices for creating 3D models for Vircadia (and VR).
 +------------+-------------------------------------------------------------------------------+
 | Textures   | While textures are automatically downscaled if they don't fit into the        |
 |            | texture memory, it makes sense to use a resolution as low as possible to      |
-|            | lower file sizes and lower the strain on low end machines from downscaling    |
+|            | lower file sizes and lower the strain on low-end machines from downscaling    |
 |            | and recompressing the textures. For example a 4096x4096 texture should be     |
 |            | plenty for a detailed avatar. Normal maps, emission maps, etc. don't need to  |
 |            | be nearly as high resolution as the main color texture.                       |
