@@ -1,7 +1,3 @@
-.. warning::
-    This document is outdated.
-    FIXME: mentions Sandbox (which is now called Vircadia Server), links to High Fidelity download page, only mentions DigitalOcean as cloud provider
-
 ########################
 Get Started with Hosting
 ########################
@@ -17,11 +13,11 @@ Overview of Hosting
 
 Vircadia's hosting interface consists of the following components that work together to create an immersive VR experience for your visitors:
 
-* The *Sandbox* is a testing environment hosted locally on your computer that gives you a space to play around and build content without affecting any domains in the metaverse. Note that it is possible to configure Vircadia so that your Sandbox is also a registered domain that is hosted directly from your local computer. The Sandbox application can be download from the `Vircadia website <https://www.highfidelity.com/download#sandbox>`_.
-* A *domain* is a registered location in the metaverse. Each domain is assigned a unique ID to identify it. You can sign up for a new domain in one of two ways: either by setting up a Vircadia server or by logging into your account via the Vircadia website.
-* A *server* hosts a domain, and processes incoming network requests for the domain. The server for your domain is either a physical computer or a cloud-hosted server.
-* A *droplet* or *cloud domain* is a cloud server hosted on DigitalOcean.
-* A *content set* is the content that you've designed to make your domain unique and pretty. 
+* The *Domain Server* is a virtual world that gives you a space to build content in.
+* A *domain* is a server in the metaverse. Each domain is assigned a unique ID to identify it. You can connect your domain to the Vircadia Metaverse Server by logging into your account on the Vircadia website.
+* A *place* is a registered location in the metaverse. A place is connected to a domain; you can create multiple places per domain.
+* A *server* hosts a domain, and processes incoming network requests for the domain. The server for your domain is either a physical computer or a cloud-hosted server such as one provided by DigitalOcean, Linode, AWS, and so on.
+* A *content set* is the content that you've added to your world.
 
 ----------------------------
 The Hosting Process
@@ -29,11 +25,10 @@ The Hosting Process
 
 Here is an overview of the steps you'll need to take to host your domain up and running on the metaverse:
 
-1. :doc:`Choose your hosting platform <start-hosting>` (local server, remote server, or cloud services)
+1. :doc:`Choose your hosting platform <start-hosting>` (local server or cloud server)
 2. :doc:`Set up your server and create your domain <server-setup>`
 3. :doc:`Add content to your domain <add-content>`
 4. :doc:`Set up user permissions <configure-settings/permission-settings>`
 5. :doc:`Invite users to your domain <invite-users>`
 
 Once your domain is running, we'll cover how to :doc:`configure your domain settings <configure-settings>`, from the most basic to the more advanced, and how to :doc:`maintain your domain <maintain-domain>`.
-

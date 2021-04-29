@@ -24,13 +24,13 @@ Upgrade Your Domain Server
 
 Because all of Vircadia's users are encouraged to update to the latest release, it is highly likely that the majority of your visitors are running the newest version of Vircadia. Therefore, if there has been a protocol change (check the :doc:`Release Notes <../../release-notes>` for your version), we strongly recommend that you upgrade your domain server to the newest release.
 
-To update a local server on Windows or Mac: 
+To update a local server on Windows: 
 
 1. Download the latest `Client + Sandbox installer <https://vircadia.com/download-vircadia/#server>`_ from Vircadia's website or download the upgrade when prompted to on your server.
 2. On your local server, quit Sandbox:
 
     * On Windows: Click on the Vircadia icon in the system tray, then click 'Quit'. Alternatively, end the ‘server-console’ background process using the Task Manager.
-    * On Mac: Right-click the Vircadia icon on the top menu bar, then click 'Quit'.
+
 3. Run the installer.
 
 After installation, check your local server's domain settings to ensure that its running the most recent version. 
