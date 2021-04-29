@@ -1,7 +1,3 @@
-.. warning::
-    This document is slightly outdated.
-    FIXME: Video codecs outdated, reset password misformated.
-
 ##########################
 Frequently Asked Questions
 ##########################
@@ -16,18 +12,16 @@ We get a lot of questions from our users! If you have questions about Vircadia, 
 Content Creation
 ----------------
 
-+ `What video codecs do you support? <#video-codecs>`_
++ `What video formats do you support? <#video-formats>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _video-codecs:                                                                                   |
+| .. _video-formats:                                                                                  |
 |                                                                                                     |
-| What video codecs do you support?                                                                   |
+| What video formats do you support?                                                                  |
 +=====================================================================================================+
-| We support the following video codecs:                                                              |
-|                                                                                                     |
-| * WebM VP8                                                                                          |
-| * H.264, WebM                                                                                       |
-| * WebM, H.264                                                                                       |
+| We support most open video formats. Proprietary formats like H.264 are currently not supported.     |
+| The VP9 format is recommended because of its good quality and low file sizes.                       |
+| See :doc:`Play Media in a Web Entity <create/entities/web-entity-media>` for a more information.    |
 +-----------------------------------------------------------------------------------------------------+
 
 --------------
@@ -47,18 +41,52 @@ Domain Hosting
 | manually remove the HTTP security settings ('http_password' and 'http_username') from               |
 | config.json. The config file is stored on the server in the following directories:                  |
 |                                                                                                     |
-| * **Windows**: %AppData%\Roaming\Vircadia\domain-server\                                            |
-| * **Mac**: ~/Library/Application Support/Vircadia/domain-server/                                    |
-| * **Linux**: /var/lib/vircadia/default/domain-server/                                               |
+| * **Windows**: ``%AppData%\Roaming\Vircadia\domain-server\``                                        |
+| * **Mac**: ``~/Library/Application Support/Vircadia/domain-server/``                                |
+| * **Linux**: ``/var/lib/vircadia/default/domain-server/``                                           |
 +-----------------------------------------------------------------------------------------------------+
 
 ---------------
 Troubleshooting
 ---------------
 
++ `Where do I find the Interface log files? <#interface-log-files>`_
++ `How do I access the hidden folders that most Vircadia files are stored in? <#file-manager-help>`_
 + `Why can't I connect to a domain? <#cannot-connect>`_
 + `No one can hear me! <#no-input>`_
 + `I can't hear anything in Vircadia <#no-output>`_
+
++-----------------------------------------------------------------------------------------------------+
+| .. _interface-log-files:                                                                            |
+|                                                                                                     |
+| Where do I find the Interface log files?                                                            |
++=====================================================================================================+
+| The Interfaces log files can be found in the following directories:                                 |
+|                                                                                                     |
+| * **Windows**: ``%AppData%\Local\Vircadia\Interface\Logs\``                                         |
+| * **Mac**: ``~/Library/Application Support/Vircadia/Interface/Logs/``                               |
+| * **Linux**: ``~/.local/share/Vircadia/Interface/Logs/``                                            |
+|                                                                                                     |
+| The Vircadia folder name might be different on development or testing builds.                       |
+| E.g. ``Vircadia - dev``.                                                                            |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _file-manager-help:                                                                              |
+|                                                                                                     |
+| How do I access the hidden folders that most Vircadia files are stored in?                          |
++=====================================================================================================+
+| On all currently supported operating systems the folders that Vircadia stores most of its data in   |
+| are hidden.                                                                                         |
+|                                                                                                     |
+| The easiest way to access them is to just copy the path and paste it into your systems file manager.|
+| Most (if not all) of them have a bar at the top.                                                    |
+|                                                                                                     |
+| .. image:: _images/file-manager-path.png                                                            |
+|                                                                                                     |
+| Even if it doesn't look like you can paste anything into the bar, still hover over it and try       |
+| pasting with a shortcut like Ctrl + V.                                                              |
++-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _cannot-connect:                                                                                 |
@@ -124,7 +152,7 @@ Troubleshooting
 |   Vircadia and click 'Properties'. On the 'Levels' tab, adjust the 'Microphone Level' and/or        |
 |   'Microphone Boost'.                                                                               |
 | * On Mac, go to **System Preferences > Sound > Input** tab. Choose the device you are using with    |
-|   Vircadia and adjust the 'Input volume'.                                                           | 
+|   Vircadia and adjust the 'Input volume'.                                                           |
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
