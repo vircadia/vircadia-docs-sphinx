@@ -129,7 +129,6 @@ For it to function make sure that all dependencies are installed in the Weblate 
 ```
 docker-compose exec --user root weblate bash
 apt install make gettext
-su weblate
 python3 -m pip install --upgrade pip
 python3 -m pip install git+https://github.com/vircadia/video.git
 python3 -m pip install -U Sphinx==2.4.4
