@@ -9,75 +9,81 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-19 04:53+0000\n"
+"POT-Creation-Date: 2021-03-10 23:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.6.0\n"
 
-#: ../../source/faq.rst:3
+#: ../../source/faq.rst:2
+msgid ""
+"This document is slightly outdated. FIXME: Video codecs outdated, reset "
+"password misformated."
+msgstr ""
+
+#: ../../source/faq.rst:7
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: ../../source/faq.rst:5
+#: ../../source/faq.rst:9
 msgid ""
 "We get a lot of questions from our users! If you have questions about "
 "Vircadia, feel free to browse through this page to learn more."
 msgstr ""
 
-#: ../../source/faq.rst:9
+#: ../../source/faq.rst:13
 msgid "On This Page"
 msgstr ""
 
-#: ../../source/faq.rst:13
+#: ../../source/faq.rst:17
 msgid "Content Creation"
 msgstr ""
 
-#: ../../source/faq.rst:15
+#: ../../source/faq.rst:19
 msgid "`What video codecs do you support? <#video-codecs>`_"
 msgstr ""
 
-#: ../../source/faq.rst:20
+#: ../../source/faq.rst:24
 msgid "What video codecs do you support?"
 msgstr ""
 
-#: ../../source/faq.rst:22
+#: ../../source/faq.rst:26
 msgid "We support the following video codecs:"
 msgstr ""
 
-#: ../../source/faq.rst:24
+#: ../../source/faq.rst:28
 msgid "WebM VP8"
 msgstr ""
 
-#: ../../source/faq.rst:25
+#: ../../source/faq.rst:29
 msgid "H.264, WebM"
 msgstr ""
 
-#: ../../source/faq.rst:26
+#: ../../source/faq.rst:30
 msgid "WebM, H.264"
 msgstr ""
 
-#: ../../source/faq.rst:31
+#: ../../source/faq.rst:35
 msgid "Domain Hosting"
 msgstr ""
 
-#: ../../source/faq.rst:33
+#: ../../source/faq.rst:37
 msgid ""
 "`How do I get into my domain settings if I set up authentication but "
 "forgot my username and/or password? <#reset-password>`_"
 msgstr ""
 
-#: ../../source/faq.rst:38
+#: ../../source/faq.rst:42
 msgid ""
 "How do I get into my domain settings if I set up `authentication <host"
 "/configure-settings/authentication-setting.html>`_ but forgot my username"
 " and/or password?"
 msgstr ""
 
-#: ../../source/faq.rst:41
+#: ../../source/faq.rst:45
 msgid ""
 "The authentication settings for your domain are encrypted into a "
 "configuration file on the server's file system. To 'reset' the "
@@ -86,91 +92,91 @@ msgid ""
 "config file is stored on the server in the following directories:"
 msgstr ""
 
-#: ../../source/faq.rst:46
+#: ../../source/faq.rst:50
 msgid "**Windows**: %AppData%\\Roaming\\Vircadia\\domain-server\\"
 msgstr ""
 
-#: ../../source/faq.rst:47
+#: ../../source/faq.rst:51
 msgid "**Mac**: ~/Library/Application Support/Vircadia/domain-server/"
 msgstr ""
 
-#: ../../source/faq.rst:48
+#: ../../source/faq.rst:52
 msgid "**Linux**: /var/lib/vircadia/default/domain-server/"
 msgstr ""
 
-#: ../../source/faq.rst:53
+#: ../../source/faq.rst:57
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../source/faq.rst:55
+#: ../../source/faq.rst:59
 msgid "`Why can't I connect to a domain? <#cannot-connect>`_"
 msgstr ""
 
-#: ../../source/faq.rst:56
+#: ../../source/faq.rst:60
 msgid "`No one can hear me! <#no-input>`_"
 msgstr ""
 
-#: ../../source/faq.rst:57
+#: ../../source/faq.rst:61
 msgid "`I can't hear anything in Vircadia <#no-output>`_"
 msgstr ""
 
-#: ../../source/faq.rst:62
+#: ../../source/faq.rst:66
 msgid "Why can't I connect to a domain?"
 msgstr ""
 
-#: ../../source/faq.rst:64
+#: ../../source/faq.rst:68
 msgid ""
 "If you cannot connect to your virtual workplace, follow these steps to "
 "resolve the issue:"
 msgstr ""
 
-#: ../../source/faq.rst:66
+#: ../../source/faq.rst:70
 msgid ""
 "Check your internet connection, and ensure that your bandwidth is at "
 "least 10Mbps download, 2Mbps upload."
 msgstr ""
 
-#: ../../source/faq.rst:68
+#: ../../source/faq.rst:72
 msgid ""
 "You may not have permissions to enter the domain. If you know the domain "
 "owner, contact them to gain access to the domain."
 msgstr ""
 
-#: ../../source/faq.rst:70
+#: ../../source/faq.rst:74
 msgid "Ensure that your firewall settings allow you to run Vircadia."
 msgstr ""
 
-#: ../../source/faq.rst:72
+#: ../../source/faq.rst:76
 msgid ""
 "For Windows: In your firewall settings, open the  port 40102, and add "
 "'interface.exe' to the list of allowed apps."
 msgstr ""
 
-#: ../../source/faq.rst:74
+#: ../../source/faq.rst:78
 msgid ""
 "For Mac: In your firewall settings, add 'interface.app' (**Library > "
 "Application Support > Launcher > interface.app**) and allow incoming "
 "connections for that application."
 msgstr ""
 
-#: ../../source/faq.rst:81
+#: ../../source/faq.rst:85
 msgid "No one can hear me!"
 msgstr ""
 
-#: ../../source/faq.rst:83
+#: ../../source/faq.rst:87
 msgid ""
 "If other users in the domain can't hear you, then you are likely muted or"
 " your microphone gain is set too low. Here are some steps to troubleshoot"
 " your issue:"
 msgstr ""
 
-#: ../../source/faq.rst:86
+#: ../../source/faq.rst:90
 msgid ""
 "**Are you muted in Vircadia?** When logged in, check the upper left "
 "corner. If you're muted, click the microphone to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:88
+#: ../../source/faq.rst:92
 msgid ""
 "**Is your physical output device muted or turned off?** Some headsets and"
 " microphones have a 'Power' and/or 'Mute' switch directly on the device "
@@ -179,14 +185,14 @@ msgid ""
 "turned on or the mute button may have been pressed."
 msgstr ""
 
-#: ../../source/faq.rst:95
+#: ../../source/faq.rst:99
 msgid ""
 "**Is your mic muted or disabled on your computer?** Lastly, your device "
 "might be muted or disabled by your operating system. Check your operating"
 " system's input device settings:"
 msgstr ""
 
-#: ../../source/faq.rst:98
+#: ../../source/faq.rst:102
 msgid ""
 "On Windows, go to **Control Panel > Sound > Recording** tab. Choose the "
 "device you are using with Vircadia and click 'Properties'. On the "
@@ -195,7 +201,7 @@ msgid ""
 "muted, click the icon to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:102
+#: ../../source/faq.rst:106
 msgid ""
 "On Mac, go to **System Preferences > Sound > Input** tab. Choose the "
 "device you are using with Vircadia. If the 'Input volume' is turned all "
@@ -203,7 +209,7 @@ msgid ""
 "volume to re-enable your microphone."
 msgstr ""
 
-#: ../../source/faq.rst:105
+#: ../../source/faq.rst:109
 msgid ""
 "**Have you allowed Vircadia access to the microphone?** Some operating "
 "systems require you to give explicit permission to apps to take advantage"
@@ -211,20 +217,20 @@ msgid ""
 "your microphone permissions in your operating system settings:"
 msgstr ""
 
-#: ../../source/faq.rst:110
+#: ../../source/faq.rst:114
 msgid ""
 "On Windows, go to **Settings > Privacy > Microphone**. Make sure that "
 "'Allow desktop apps to access your microphone' is turned on."
 msgstr ""
 
-#: ../../source/faq.rst:112
+#: ../../source/faq.rst:116
 msgid ""
 "On Mac, go to **System Preferences > Security & Privacy > Privacy**, then"
 " select 'Microphone'. Ensure that the checkbox next to Vircadia is "
 "selected."
 msgstr ""
 
-#: ../../source/faq.rst:115
+#: ../../source/faq.rst:119
 msgid ""
 "If your input device is turned on, and you are not muted in the "
 "application, device, or operating system, then it is likely that your "
@@ -232,65 +238,65 @@ msgid ""
 "operating system settings:"
 msgstr ""
 
-#: ../../source/faq.rst:119
+#: ../../source/faq.rst:123
 msgid ""
 "On Windows, go to **Control Panel > Sound > Recording** tab. Choose the "
 "device you are using with Vircadia and click 'Properties'. On the "
 "'Levels' tab, adjust the 'Microphone Level' and/or 'Microphone Boost'."
 msgstr ""
 
-#: ../../source/faq.rst:122
+#: ../../source/faq.rst:126
 msgid ""
 "On Mac, go to **System Preferences > Sound > Input** tab. Choose the "
 "device you are using with Vircadia and adjust the 'Input volume'."
 msgstr ""
 
-#: ../../source/faq.rst:129
+#: ../../source/faq.rst:133
 msgid "I can't hear anything in Vircadia."
 msgstr ""
 
-#: ../../source/faq.rst:131
+#: ../../source/faq.rst:135
 msgid "Here are some reasons you might not have audio:"
 msgstr ""
 
-#: ../../source/faq.rst:133
+#: ../../source/faq.rst:137
 msgid "Your headset or speakers are turned off."
 msgstr ""
 
-#: ../../source/faq.rst:134
+#: ../../source/faq.rst:138
 msgid ""
 "Your headset or speakers may be muted or disabled by your operating "
 "system. Check your operating system's output device settings:"
 msgstr ""
 
-#: ../../source/faq.rst:137
+#: ../../source/faq.rst:141
 msgid ""
 "On Windows, click the volume icon in the taskbar and select your audio "
 "device. The speaker icon will tell you whether or not your headset or "
 "speakers are disabled. Click the icon to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:140
+#: ../../source/faq.rst:144
 msgid ""
 "On Mac, go to **System Preferences > Sound > Output** tab. Choose the "
 "device you are using with Vircadia. At the bottom of the dialog, uncheck "
 "'Mute' to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:142
+#: ../../source/faq.rst:146
 msgid ""
 "Your headset or speakers have a volume control of their own. Check that "
 "the volume is turned up on the device."
 msgstr ""
 
-#: ../../source/faq.rst:144
+#: ../../source/faq.rst:148
 msgid ""
 "In Vircadia, you have a different audio device selected than the one you "
 "want to use. Open the **Audio** app and make sure the right headset, "
 "speakers, and/or microphone are selected."
 msgstr ""
 
-#: ../../source/faq.rst:146
+#: ../../source/faq.rst:150
 msgid ""
 "Volume is turned down or off in Vircadia. Open the **Audio** app and "
 "check your volume settings."

@@ -8,18 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-01-23 22:27+0000\n"
+"POT-Creation-Date: 2021-03-10 23:39+0000\n"
 "PO-Revision-Date: 2021-02-10 00:46+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/script/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/script/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/script.rst:9
 #: ../../source/script/assignment-client-scripts.md:57
@@ -212,7 +211,9 @@ msgid "To add an avatar script using the Package Model tools:"
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:21
-msgid "Create a folder called scripts in the same location as your FBX file."
+msgid ""
+"Create a folder called scripts in the same location as your FBX, GLB, or "
+"glTF file."
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:22
@@ -274,8 +275,8 @@ msgstr ""
 
 #: ../../source/script/client-entity-scripts.md:3
 msgid ""
-"You can make content in High Fidelity interactive by attaching scripts to"
-" entities. Client entity scripts are entity scripts that run locally on "
+"You can make content in Vircadia interactive by attaching scripts to "
+"entities. Client entity scripts are entity scripts that run locally on "
 "each user's computer. When a user comes into contact with the entity, it "
 "will \"preload\" (or run) the script, then \"unload\" (or stop) the "
 "script when the user leaves."
@@ -868,11 +869,11 @@ msgstr ""
 
 #: ../../source/script/js-tips.md:20
 msgid ""
-"When you script for VR worlds like High Fidelity, you need 3D math "
-"operations to compute the position and orientation of 3D objects and "
-"avatars in-world. We cannot simply add two vectors. To script 3D math "
-"operations and to determine position and orientation information of "
-"avatars, you can use the following namespaces in our JavaScript API:"
+"When you script for VR worlds like Vircadia, you need 3D math operations "
+"to compute the position and orientation of 3D objects and avatars in-"
+"world. We cannot simply add two vectors. To script 3D math operations and"
+" to determine position and orientation information of avatars, you can "
+"use the following namespaces in our JavaScript API:"
 msgstr ""
 
 #: ../../source/script/js-tips.md:22
@@ -985,12 +986,12 @@ msgstr ""
 
 #: ../../source/script/js-tips.md:125
 msgid ""
-"When writing a script in High Fidelity, you might need to access the "
-"methods or objects in an external JS file or get information from a JSON "
-"file. For example, if you're writing a script to make your avatar wave, "
-"you might need to use some methods that already exist in an external JS "
-"file. You can do this using the require method in the Scripts namespace "
-"of our API."
+"When writing a script in Vircadia, you might need to access the methods "
+"or objects in an external JS file or get information from a JSON file. "
+"For example, if you're writing a script to make your avatar wave, you "
+"might need to use some methods that already exist in an external JS file."
+" You can do this using the require method in the Scripts namespace of our"
+" API."
 msgstr ""
 
 #: ../../source/script/js-tips.md:127
@@ -1079,9 +1080,9 @@ msgstr ""
 #: ../../source/script/midi-tutorial.rst:7
 msgid ""
 "We created a MIDI class (with the help of one of our community members, "
-"Brainstormer) that can be used to control your environment in High "
-"Fidelity. For example, we used MIDI to control lighting in a domain for a"
-" music show."
+"Brainstormer) that can be used to control your environment in Vircadia. "
+"For example, we used MIDI to control lighting in a domain for a music "
+"show."
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:9
@@ -1243,8 +1244,8 @@ msgstr ""
 #: ../../source/script/midi-tutorial.rst:63
 msgid ""
 "You can either connect a real controller device that you use to control "
-"your environment in High Fidelity, or create a virtual one that will help"
-" you connect to other virtual devices."
+"your environment in Vircadia, or create a virtual one that will help you "
+"connect to other virtual devices."
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:67
@@ -1254,8 +1255,8 @@ msgstr ""
 #: ../../source/script/midi-tutorial.rst:69
 msgid ""
 "To `connect Ableton Live <https://help.ableton.com/hc/en-"
-"us/articles/209774225-Using-virtual-MIDI-buses>`_ directly to High "
-"Fidelity’s Interface client, we recommend the following virtual tools:"
+"us/articles/209774225-Using-virtual-MIDI-buses>`_ directly to Vircadia’s "
+"Interface client, we recommend the following virtual tools:"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:71
@@ -1339,7 +1340,7 @@ msgid "Example: Change the Color of a Cube using MIDI"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:135
-msgid "Let's change the color of a cube entity in High Fidelity using MIDI."
+msgid "Let's change the color of a cube entity in Vircadia using MIDI."
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:137
@@ -1366,13 +1367,13 @@ msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:163
 msgid ""
-"If you want to use to control something outside of High Fidelity, or to "
-"directly call a MIDI event to control something in Hifi, you can use the "
-"function::"
+"If you want to use to control something outside of Vircadia, or to "
+"directly call a MIDI event to control something in Vircadia, you can use "
+"the function::"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:170
-msgid "Other Ways to Use MIDI in High Fidelity"
+msgid "Other Ways to Use MIDI in Vircadia"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:172
@@ -1381,8 +1382,8 @@ msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:173
 msgid ""
-"Control real world devices by the movements things make in Hifi and vice "
-"versa (think update loop)"
+"Control real world devices by the movements things make in Vircadia and "
+"vice versa (think update loop)"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:174
@@ -1409,13 +1410,13 @@ msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:3
 msgid ""
-"You can make content in High Fidelity interactive by attaching scripts to"
-" entities. Server entity scripts are entity scripts that run on the "
-"server (or domain) that hosts the entity. These scripts run persistently "
-"in a domain, even if there are no users present. This means that there is"
-" only one instance of the script is running at a time, and it is running "
-"on the server. Any behavior that is controlled by your script will be "
-"seen and heard by everyone in the domain."
+"You can make content in Vircadia interactive by attaching scripts to "
+"entities. Server entity scripts are entity scripts that run on the server"
+" (or domain) that hosts the entity. These scripts run persistently in a "
+"domain, even if there are no users present. This means that there is only"
+" one instance of the script is running at a time, and it is running on "
+"the server. Any behavior that is controlled by your script will be seen "
+"and heard by everyone in the domain."
 msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:6
@@ -1470,15 +1471,15 @@ msgstr ""
 
 #: ../../source/script/write-scripts.md:3
 msgid ""
-"High Fidelity's robust JavaScript API provides the tools for you to build"
-" great content and user experiences in VR."
+"Vircadia's robust JavaScript API provides the tools for you to build "
+"great content and user experiences in VR."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:5
 msgid ""
 "In this section, you can find simple code samples to do common tasks in "
-"High Fidelity. To see these code samples in action, copy the code to a "
-"file, testScripts.js, saved somewhere on your computer."
+"Vircadia. To see these code samples in action, copy the code to a file, "
+"testScripts.js, saved somewhere on your computer."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:14
@@ -1526,7 +1527,7 @@ msgid ""
 "When you load and run this script, it will locate your avatar in the "
 "domain, create a new entity based on the customized properties that you "
 "set, then print a line to the 'Debug Window'. In this case, the entity "
-"will be a red box.<br />"
+"will be a red box."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:50
@@ -2399,3 +2400,138 @@ msgstr ""
 #~ "<https://cdn.highfidelity.com/milad/production/Midi/MIDI-"
 #~ "Example.js>`_"
 #~ msgstr ""
+
+#~ msgid "Create a folder called scripts in the same location as your FBX file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can make content in High "
+#~ "Fidelity interactive by attaching scripts "
+#~ "to entities. Client entity scripts are"
+#~ " entity scripts that run locally on"
+#~ " each user's computer. When a user"
+#~ " comes into contact with the entity,"
+#~ " it will \"preload\" (or run) the "
+#~ "script, then \"unload\" (or stop) the"
+#~ " script when the user leaves."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you script for VR worlds like"
+#~ " High Fidelity, you need 3D math "
+#~ "operations to compute the position and"
+#~ " orientation of 3D objects and "
+#~ "avatars in-world. We cannot simply "
+#~ "add two vectors. To script 3D math"
+#~ " operations and to determine position "
+#~ "and orientation information of avatars, "
+#~ "you can use the following namespaces "
+#~ "in our JavaScript API:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When writing a script in High "
+#~ "Fidelity, you might need to access "
+#~ "the methods or objects in an "
+#~ "external JS file or get information "
+#~ "from a JSON file. For example, if"
+#~ " you're writing a script to make "
+#~ "your avatar wave, you might need "
+#~ "to use some methods that already "
+#~ "exist in an external JS file. You"
+#~ " can do this using the require "
+#~ "method in the Scripts namespace of "
+#~ "our API."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We created a MIDI class (with the"
+#~ " help of one of our community "
+#~ "members, Brainstormer) that can be used"
+#~ " to control your environment in High"
+#~ " Fidelity. For example, we used MIDI"
+#~ " to control lighting in a domain "
+#~ "for a music show."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can either connect a real "
+#~ "controller device that you use to "
+#~ "control your environment in High "
+#~ "Fidelity, or create a virtual one "
+#~ "that will help you connect to "
+#~ "other virtual devices."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To `connect Ableton Live "
+#~ "<https://help.ableton.com/hc/en-us/articles/209774225-Using-"
+#~ "virtual-MIDI-buses>`_ directly to High"
+#~ " Fidelity’s Interface client, we recommend"
+#~ " the following virtual tools:"
+#~ msgstr ""
+
+#~ msgid "Let's change the color of a cube entity in High Fidelity using MIDI."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want to use to control "
+#~ "something outside of High Fidelity, or"
+#~ " to directly call a MIDI event "
+#~ "to control something in Hifi, you "
+#~ "can use the function::"
+#~ msgstr ""
+
+#~ msgid "Other Ways to Use MIDI in High Fidelity"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Control real world devices by the "
+#~ "movements things make in Hifi and "
+#~ "vice versa (think update loop)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can make content in High "
+#~ "Fidelity interactive by attaching scripts "
+#~ "to entities. Server entity scripts are"
+#~ " entity scripts that run on the "
+#~ "server (or domain) that hosts the "
+#~ "entity. These scripts run persistently "
+#~ "in a domain, even if there are "
+#~ "no users present. This means that "
+#~ "there is only one instance of the"
+#~ " script is running at a time, "
+#~ "and it is running on the server."
+#~ " Any behavior that is controlled by"
+#~ " your script will be seen and "
+#~ "heard by everyone in the domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "High Fidelity's robust JavaScript API "
+#~ "provides the tools for you to "
+#~ "build great content and user experiences"
+#~ " in VR."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this section, you can find "
+#~ "simple code samples to do common "
+#~ "tasks in High Fidelity. To see "
+#~ "these code samples in action, copy "
+#~ "the code to a file, testScripts.js, "
+#~ "saved somewhere on your computer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you load and run this script,"
+#~ " it will locate your avatar in "
+#~ "the domain, create a new entity "
+#~ "based on the customized properties that"
+#~ " you set, then print a line to"
+#~ " the 'Debug Window'. In this case,"
+#~ " the entity will be a red "
+#~ "box.<br />"
+#~ msgstr ""
+

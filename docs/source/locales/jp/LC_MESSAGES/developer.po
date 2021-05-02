@@ -8,18 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-01-23 22:27+0000\n"
+"POT-Creation-Date: 2021-04-18 00:01+0000\n"
 "PO-Revision-Date: 2021-03-25 09:41+0000\n"
 "Last-Translator: 川音リオ <rio.kawane@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/developer/ja/>\n"
 "Language: jp\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/developer/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/developer.rst:11
 msgid "Build from Source"
@@ -161,8 +159,7 @@ msgstr ""
 msgid "PID of the parent process"
 msgstr ""
 
-#: ../../source/developer/build.rst:7
-#: ../../source/developer/build/BUILD_GENERAL.md:1
+#: ../../source/developer/build.rst:7 ../../source/developer/build/BUILD.md:1
 msgid "General Build Information"
 msgstr ""
 
@@ -194,20 +191,369 @@ msgstr ""
 msgid "The following are the guides for building Vircadia from source."
 msgstr ""
 
+#: ../../source/developer/build/BUILD.md:3
+msgid "Last Updated on December 21, 2020"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:5
+msgid "OS Specific Build Guides"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:7
+msgid "Build Windows - complete instructions for Windows."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:8
+msgid "Build Linux - additional instructions for Linux."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:9
+msgid "Build OSX - additional instructions for OS X."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:10
+msgid "Build Android - additional instructions for Android."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:12
+#: ../../source/developer/build/BUILD_ANDROID.md:7
+msgid "Dependencies"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:13
+msgid "git: >= 1.6"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:14
+msgid "CMake:  3.9"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:15
+msgid "Python: 3.6 or higher"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:16
+msgid "Node.JS: >= 12.13.1 LTS"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:17
+msgid "Used to build the Screen Sharing executable."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:19
+msgid "CMake External Project Dependencies"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:21
+msgid ""
+"These dependencies need not be installed manually. They are automatically"
+" downloaded on the platforms where they are required."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:22
+msgid "Bullet Physics Engine:  2.83"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:23
+msgid "glm:  0.9.8"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:24
+msgid "Oculus SDK:   1.11 (Windows) / 0.5 (Mac)"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:25
+msgid "OpenVR:   1.11.11 (Windows, Linux)"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:26
+msgid "Polyvox:   0.2.1"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:27
+msgid "QuaZip:   0.7.3"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:28
+msgid "SDL2:   2.0.3"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:29
+msgid "Intel Threading Building Blocks:   4.3"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:30
+msgid "vcpkg:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:31
+msgid "VHACD"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:32
+msgid "zlib:   1.28 (Win32 only)"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:33
+msgid "nvtt:   2.1.1 (customized)"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:35
+msgid ""
+"The above dependencies will be downloaded, built, linked and included "
+"automatically by CMake where we require them. The CMakeLists files that "
+"handle grabbing each of the following external dependencies can be found "
+"in the cmake/externals folder. The resulting downloads, source files and "
+"binaries will be placed in the build/ext folder in each of the subfolders"
+" for each external project."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:37
+msgid ""
+"These are not placed in your normal build tree when doing an out of "
+"source build so that they do not need to be re-downloaded and re-compiled"
+" every time the CMake build folder is cleared. Should you want to force a"
+" re-download and re-compile of a specific external, you can simply remove"
+" that directory from the appropriate subfolder in build/ext. Should you "
+"want to force a re-download and re-compile of all externals, just remove "
+"the build/ext folder."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:39
+msgid "CMake"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:41
+msgid ""
+"Vircadia uses CMake to generate build files and project files for your "
+"platform."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:43
+msgid "Qt"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:45
+msgid "CMake will download Qt 5.12.3 using vcpkg."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:47
+msgid ""
+"To override this (i.e. use an installed Qt configuration - you will need "
+"to set a QT_CMAKE_PREFIX_PATH environment variable pointing to your Qt "
+"lib/cmake folder. This can either be entered directly into your shell "
+"session before you build or in your shell profile (e.g.: ~/.bash_profile,"
+" ~/.bashrc, ~/.zshrc - this depends on your shell and environment).  The "
+"path it needs to be set to will depend on where and how Qt5 was "
+"installed. e.g."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:57
+msgid "VCPKG"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:59
+msgid ""
+"Vircadia uses vcpkg to download and build dependencies. You do not need "
+"to install vcpkg."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:62
+msgid ""
+"Building the dependencies can be lengthy and the resulting files will be "
+"stored in your OS temp directory. However, those files can potentially "
+"get cleaned up by the OS, so in order to avoid this and having to redo "
+"the lengthy build step, you can set the following environment variable:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:69
+msgid ""
+"Where /path/to/directory is the path to a directory where you wish the "
+"build files to get stored."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:71
+msgid "Generating Build Files"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:73
+msgid "Possible Environment Variables"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:112
+msgid "Generate Files"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:114
+msgid ""
+"Create a build directory in the root of your checkout and then run the "
+"CMake build from there. This will keep the rest of the directory clean."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:122
+msgid ""
+"If CMake gives you the same error message repeatedly after the build "
+"fails, try removing CMakeCache.txt."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:124
+msgid "Generating a release/debug only vcpkg build"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:126
+msgid ""
+"In order to generate a release or debug only vcpkg package, you could use"
+" the use the VCPKG_BUILD_TYPE define in your CMake generate command. "
+"Building a release only vcpkg can drastically decrease the total build "
+"time."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:128
+msgid "For release only vcpkg:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:130
+msgid "cmake .. -DVCPKG_BUILD_TYPE=release"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:132
+msgid "For debug only vcpkg:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:134
+msgid "cmake .. -DVCPKG_BUILD_TYPE=debug"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:136
+msgid "Variables"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:138
+msgid ""
+"Any variables that need to be set for CMake to find dependencies can be "
+"set as ENV variables in your shell profile, or passed directly to CMake "
+"with a -D flag appended to the cmake .. command."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:140
+msgid ""
+"For example, to pass the QT_CMAKE_PREFIX_PATH variable (if not using the "
+"vcpkg'ed version) during build file generation:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:146
+msgid "Finding Dependencies"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:148
+msgid ""
+"The following applies for dependencies we do not grab via CMake "
+"ExternalProject (OpenSSL is an example), or for dependencies you have "
+"opted not to grab as a CMake ExternalProject (via -DUSE_LOCAL_$NAME=0). "
+"The list of dependencies we grab by default as external projects can be "
+"found in the CMake External Project Dependencies section."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:150
+msgid ""
+"You can point our CMake find modules to the correct version of "
+"dependencies by setting one of the three following variables to the "
+"location of the correct version of the dependency."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:152
+msgid ""
+"In the examples below the variable $NAME would be replaced by the name of"
+" the dependency in uppercase, and $name would be replaced by the name of "
+"the dependency in lowercase (ex: OPENSSL_ROOT_DIR, openssl)."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:154
+msgid ""
+"$NAME_ROOT_DIR - pass this variable to Cmake with the -DNAME_ROOT_DIR= "
+"flag when running Cmake to generate build files"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:155
+msgid "$NAME_ROOT_DIR - set this variable in your ENV"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:156
+msgid ""
+"HIFI_LIB_DIR - set this variable in your ENV to your Vircadia lib folder,"
+" should contain a folder '$name'"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:158
+msgid "Optional Components"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:160
+msgid "Build Options"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:162
+msgid "The following build options can be used when running CMake"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:164
+msgid "BUILD_CLIENT"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:165
+msgid "BUILD_SERVER"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:166
+msgid "BUILD_TESTS"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:167
+msgid "BUILD_TOOLS"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:168
+msgid "CLIENT_ONLY // Will package only the Interface"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:169
+msgid "SERVER_ONLY // Will package only the Server"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:171
+msgid "Developer Build Options"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:173
+msgid "USE_GLES"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:174
+msgid "DISABLE_UI"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:176
+msgid "Devices"
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:178
+msgid ""
+"You can support external input/output devices such as Leap Motion, MIDI, "
+"and more by adding each individual SDK in the visible building path. "
+"Refer to the readme file available in each device folder in "
+"interface/external/ for the detailed explanation of the requirements to "
+"use the device."
+msgstr ""
+
 #: ../../source/developer/build/BUILD_ANDROID.md:3
-msgid "Last Updated on December 21, 2019"
+msgid "Last Updated on December 15, 2020"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:5
 msgid ""
 "Please read the general build guide for information on building other "
 "platforms. Only Android specific instructions are found in this file. "
-"Note that these instructions apply to building for Oculus Quest."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_ANDROID.md:7
-#: ../../source/developer/build/BUILD_GENERAL.md:12
-msgid "Dependencies"
+"Note that these instructions apply to building for the Oculus Quest 1."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:9
@@ -233,9 +579,9 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:17
 msgid ""
-"Download the Android Studio installer and run it. Once installed, at the "
-"welcome screen, click Configure in the lower right corner and select SDK "
-"Manager."
+"Download the Android Studio installer and run it. Once installed, click "
+"File then Settings, expand Appearance & Behavior then expand System "
+"Settings and select Android SDK."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:19
@@ -272,579 +618,298 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:30
 msgid ""
-"Still in the SDK Tools tab, click Show Package Details. Select CMake "
-"3.6.4. Do this even if you have a separate CMake installation."
+"Still in the SDK Tools tab, check off Show Package Details at the bottom."
+" Select CMake 3.6.4. Do this even if you have a separate CMake "
+"installation.  Also, make sure the NDK installed version is 18 (or "
+"higher)."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:32
-msgid "Also, make sure the NDK installed version is 18 (or higher)."
+msgid ""
+"Now go back to File then Project Structure then under Project set the "
+"Android Gradle Plugin Version to 3.2.1 and Gradle Version to 4.10.1."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:34
-msgid "Environment"
+msgid ""
+"If Android Studio pops open the \"Plugin Update Recommeded\" dialog, do "
+"not click update, just click X on the top right to close.  Later versions"
+" of the Gradle plugin have known issues with cz.malohlava."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:36
+msgid "Environment"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:38
 msgid "Create a keystore in Android Studio"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:37
+#: ../../source/developer/build/BUILD_ANDROID.md:39
 msgid ""
 "Follow the directions here to create a keystore file. You can save it "
-"anywhere (preferably not in the hifi folder)."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_ANDROID.md:39
-msgid "Set up machine specific Gradle properties"
+"anywhere (preferably not in the vircadia folder)."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:41
+msgid "Set up machine specific Gradle properties"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:43
 msgid ""
 "Create a gradle.properties file in the .gradle folder ($HOME/.gradle on "
 "Unix, Users/<yourname>/.gradle on Windows). Edit the file to contain the "
 "following"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:49
+#: ../../source/developer/build/BUILD_ANDROID.md:53
 msgid ""
 "Note, do not use $HOME for the path. It must be a fully qualified path "
 "name. Also, be sure to use forward slashes in your path."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:51
+#: ../../source/developer/build/BUILD_ANDROID.md:55
 msgid "If you are building for an Android phone"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:53
-#: ../../source/developer/build/BUILD_ANDROID.md:60
+#: ../../source/developer/build/BUILD_ANDROID.md:57
+#: ../../source/developer/build/BUILD_ANDROID.md:66
 msgid "Add these lines to gradle.properties"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:58
+#: ../../source/developer/build/BUILD_ANDROID.md:64
 msgid "If you are building for an Oculus Quest"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:65
+#: ../../source/developer/build/BUILD_ANDROID.md:73
 msgid ""
-"The above code to suppress modules is not necessary, but will speed up "
-"the build process."
+"The Frame Player for both Android Phone and Oculus Quest is optional, so "
+"if you encounter problems with these during your build, you can skip them"
+" by adding these lines to gradle.properties"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:67
+#: ../../source/developer/build/BUILD_ANDROID.md:80
 msgid "Clone the repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:69
+#: ../../source/developer/build/BUILD_ANDROID.md:82
 msgid "git clone https://github.com/vircadia/vircadia.git"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:71
+#: ../../source/developer/build/BUILD_ANDROID.md:84
 msgid "Building & Running"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:73
+#: ../../source/developer/build/BUILD_ANDROID.md:86
 msgid "Building Modules"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:75
+#: ../../source/developer/build/BUILD_ANDROID.md:88
 msgid "Open Android Studio"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:76
+#: ../../source/developer/build/BUILD_ANDROID.md:89
 msgid "Choose Open an existing Android Studio project"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:77
+#: ../../source/developer/build/BUILD_ANDROID.md:90
 msgid ""
-"Navigate to the hifi repository and choose the android folder and select "
-"OK"
+"Navigate to the vircadia repository that had you cloned and choose the "
+"android folder and select OK"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:78
+#: ../../source/developer/build/BUILD_ANDROID.md:91
 msgid ""
 "Wait for Gradle to sync (this should take around 20 minutes the first "
 "time)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:79
-msgid "From the Build menu select Make Project"
+#: ../../source/developer/build/BUILD_ANDROID.md:92
+msgid ""
+"If a dialog pops open saying \"Plugin Update Recommeded\" dialog, do not "
+"click update, just click X on the top right to close."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:81
+#: ../../source/developer/build/BUILD_ANDROID.md:93
+msgid ""
+"In the Project window click on the project you wish to build (i.e. "
+"\"questInterface\") then click Build in the top menu and choose Make "
+"Module 'questInterface'"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:94
+msgid ""
+"By default this will build the \"debug\" apk, you can change this by "
+"opening the Build Variants window along the left side and select other "
+"build types such as \"release\"."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:95
+msgid ""
+"Your newly build APK should reside in "
+"vircadia\\android\\apps\\questInterface\\release (if you chose release)."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:97
 msgid "Running a Module"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:83
+#: ../../source/developer/build/BUILD_ANDROID.md:99
+msgid ""
+"You are free to use the \"adb\" command line or other development tools "
+"to install (sideload on Quest) your newly built APK, or you can follow "
+"the instructions below to load the APK via Android Studio."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:101
 msgid ""
 "In the toolbar at the top of Android Studio, next to the green hammer "
 "icon, you should see a dropdown menu."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:84
+#: ../../source/developer/build/BUILD_ANDROID.md:102
 msgid ""
 "You may already see a configuration for the module you are trying to "
 "build. If so, select it."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:85
+#: ../../source/developer/build/BUILD_ANDROID.md:103
 msgid "Otherwise, select Edit Configurations."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:87
+#: ../../source/developer/build/BUILD_ANDROID.md:105
 msgid "Your configuration should be as follows"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:89
+#: ../../source/developer/build/BUILD_ANDROID.md:107
 msgid "Type: Android App"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:90
+#: ../../source/developer/build/BUILD_ANDROID.md:108
 msgid "Module: <your module> (you probably want interface or questInterface)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:92
+#: ../../source/developer/build/BUILD_ANDROID.md:110
 msgid "For the interface modules, you also need to select the activity to launch."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:94
+#: ../../source/developer/build/BUILD_ANDROID.md:112
 msgid "For the Android phone interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:96
-#: ../../source/developer/build/BUILD_ANDROID.md:101
+#: ../../source/developer/build/BUILD_ANDROID.md:114
+#: ../../source/developer/build/BUILD_ANDROID.md:119
 msgid "From the Launch drop down menu, select Specified Activity"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:97
+#: ../../source/developer/build/BUILD_ANDROID.md:115
 msgid ""
 "In the Activity field directly below, put "
 "io.highfidelity.hifiinterface.PermissionChecker"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:99
+#: ../../source/developer/build/BUILD_ANDROID.md:117
 msgid "For the Oculus Quest interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:102
+#: ../../source/developer/build/BUILD_ANDROID.md:120
 msgid ""
 "In the Activity field directly below, put "
 "io.highfidelity.questInterface.PermissionsChecker"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:104
+#: ../../source/developer/build/BUILD_ANDROID.md:122
 msgid "Note the 's' in PermissionsChecker for the Quest."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:106
+#: ../../source/developer/build/BUILD_ANDROID.md:124
 msgid ""
 "Now you are able to run your module! Click the green play button in the "
 "top toolbar of Android Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:108
-#: ../../source/developer/build/BUILD_WIN.md:105
+#: ../../source/developer/build/BUILD_ANDROID.md:126
+#: ../../source/developer/build/BUILD_WIN.md:131
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:110
+#: ../../source/developer/build/BUILD_ANDROID.md:128
 msgid "To view a more complete debug log,"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:112
+#: ../../source/developer/build/BUILD_ANDROID.md:130
 msgid ""
 "Click the icon with the two overlapping squares in the upper left corner "
 "of the tab where the sync is running (hover text says Toggle view)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:113
+#: ../../source/developer/build/BUILD_ANDROID.md:131
 msgid ""
 "To change verbosity, click File > Settings. Under Build, Execution, "
 "Deployment > Compiler you can add command-line flags, as per Gradle "
 "documentation"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:115
+#: ../../source/developer/build/BUILD_ANDROID.md:133
+msgid ""
+"If you encounter CMake issues, try adding the following system "
+"environment variable:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:135
+msgid ""
+"With your start menu, search for 'Edit the System Environment Variables' "
+"and open it."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:136
+msgid "Click on 'Advanced' tab, then 'Environment Variables'"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:137
+msgid "Select 'New' under System variables"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:138
+#: ../../source/developer/build/BUILD_WIN.md:72
+msgid "Set \"Variable name\" to QT_CMAKE_PREFIX_PATH"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:139
+msgid ""
+"Set \"Variable value\" to the directory that your android build placed "
+"the CMake 3.6.4 library CMake directory (i.e. android\\qt\\lib\\cmake)."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:141
 msgid "Some things you can try if you want to do a clean build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:117
+#: ../../source/developer/build/BUILD_ANDROID.md:143
 msgid ""
 "Delete the build and .externalNativeBuild folders from the folder for "
-"each module you're building (for example, hifi/android/apps/interface)"
+"each module you're building (for example, "
+"vircadia/android/apps/interface)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:118
+#: ../../source/developer/build/BUILD_ANDROID.md:144
 msgid ""
 "If you have set your HIFI_VCPKG_ROOT environment variable, delete the "
 "contents of that directory; otherwise, delete AppData/Local/Temp/hifi"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:119
+#: ../../source/developer/build/BUILD_ANDROID.md:145
 msgid ""
 "In Android Studio, click File > Invalidate Caches / Restart and select "
 "Invalidate and Restart"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:121
+#: ../../source/developer/build/BUILD_ANDROID.md:147
 msgid "If you see lots of \"couldn't acquire lock\" errors,"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:122
+#: ../../source/developer/build/BUILD_ANDROID.md:148
 msgid "Open Task Manager and close any running Clang / Gradle processes"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:3
-#: ../../source/developer/build/BUILD_OSX.md:3
-msgid "Last Updated on August 26, 2020"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:5
-msgid "OS Specific Build Guides"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:7
-msgid "Build Windows - complete instructions for Windows."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:8
-msgid "Build Linux - additional instructions for Linux."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:9
-msgid "Build OSX - additional instructions for OS X."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:10
-msgid "Build Android - additional instructions for Android."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:13
-msgid "git: >= 1.6"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:14
-msgid "cmake:  3.9"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:15
-msgid "Python: 3.6 or higher"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:16
-msgid "Node.JS: >= 12.13.1 LTS"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:17
-msgid "Used to build the Screen Sharing executable."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:19
-msgid "CMake External Project Dependencies"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:21
-msgid ""
-"These dependencies need not be installed manually. They are automatically"
-" downloaded on the platforms where they are required."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:22
-msgid "Bullet Physics Engine:  2.83"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:23
-msgid "glm:  0.9.8"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:24
-msgid "Oculus SDK:   1.11 (Windows) / 0.5 (Mac)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:25
-msgid "OpenVR:   1.11.11 (Windows, Linux)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:26
-msgid "Polyvox:   0.2.1"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:27
-msgid "QuaZip:   0.7.3"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:28
-msgid "SDL2:   2.0.3"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:29
-msgid "Intel Threading Building Blocks:   4.3"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:30
-msgid "vcpkg:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:31
-msgid "VHACD"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:32
-msgid "zlib:   1.28 (Win32 only)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:33
-msgid "nvtt:   2.1.1 (customized)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:35
-msgid ""
-"The above dependencies will be downloaded, built, linked and included "
-"automatically by CMake where we require them. The CMakeLists files that "
-"handle grabbing each of the following external dependencies can be found "
-"in the cmake/externals folder. The resulting downloads, source files and "
-"binaries will be placed in the build/ext folder in each of the subfolders"
-" for each external project."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:37
-msgid ""
-"These are not placed in your normal build tree when doing an out of "
-"source build so that they do not need to be re-downloaded and re-compiled"
-" every time the CMake build folder is cleared. Should you want to force a"
-" re-download and re-compile of a specific external, you can simply remove"
-" that directory from the appropriate subfolder in build/ext. Should you "
-"want to force a re-download and re-compile of all externals, just remove "
-"the build/ext folder."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:39
-msgid "CMake"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:41
-msgid ""
-"Vircadia uses CMake to generate build files and project files for your "
-"platform."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:43
-msgid "Qt"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:44
-msgid "CMake will download Qt 5.12.3 using vcpkg."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:46
-msgid ""
-"To override this (i.e. use an installed Qt configuration - you will need "
-"to set a QT_CMAKE_PREFIX_PATH environment variable pointing to your Qt "
-"lib/cmake folder.<br />This can either be entered directly into your "
-"shell session before you build or in your shell profile (e.g.: "
-"~/.bash_profile, ~/.bashrc, ~/.zshrc - this depends on your shell and "
-"environment).  The path it needs to be set to will depend on where and "
-"how Qt5 was installed. e.g."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:54
-msgid "VCPKG"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:56
-msgid ""
-"Vircadia uses vcpkg to download and build dependencies. You do not need "
-"to install vcpkg."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:59
-msgid ""
-"Building the dependencies can be lengthy and the resulting files will be "
-"stored in your OS temp directory. However, those files can potentially "
-"get cleaned up by the OS, so in order to avoid this and having to redo "
-"the lengthy build step, you can set the following environment variable:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:62
-msgid "export HIFI_VCPKG_BASE=/path/to/directory"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:64
-msgid ""
-"Where /path/to/directory is the path to a directory where you wish the "
-"build files to get stored."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:66
-msgid "Generating Build Files"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:68
-msgid "Possible Environment Variables"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:99
-msgid "Generate Files"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:101
-msgid ""
-"Create a build directory in the root of your checkout and then run the "
-"CMake build from there. This will keep the rest of the directory clean."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:107
-msgid ""
-"If CMake gives you the same error message repeatedly after the build "
-"fails, try removing CMakeCache.txt."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:109
-msgid "Generating a release/debug only vcpkg build"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:111
-msgid ""
-"In order to generate a release or debug only vcpkg package, you could use"
-" the use the VCPKG_BUILD_TYPE define in your cmake generate command. "
-"Building a release only vcpkg can drastically decrease the total build "
-"time."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:113
-msgid "For release only vcpkg:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:115
-msgid "cmake .. -DVCPKG_BUILD_TYPE=release"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:117
-msgid "For debug only vcpkg:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:119
-msgid "cmake .. -DVCPKG_BUILD_TYPE=debug"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:121
-msgid "Variables"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:123
-msgid ""
-"Any variables that need to be set for CMake to find dependencies can be "
-"set as ENV variables in your shell profile, or passed directly to CMake "
-"with a -D flag appended to the cmake .. command."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:125
-msgid ""
-"For example, to pass the QT_CMAKE_PREFIX_PATH variable (if not using the "
-"vcpkg'ed version) during build file generation:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:129
-msgid "Finding Dependencies"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:131
-msgid ""
-"The following applies for dependencies we do not grab via CMake "
-"ExternalProject (OpenSSL is an example), or for dependencies you have "
-"opted not to grab as a CMake ExternalProject (via -DUSE_LOCAL_$NAME=0). "
-"The list of dependencies we grab by default as external projects can be "
-"found in the CMake External Project Dependencies section."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:133
-msgid ""
-"You can point our CMake find modules to the correct version of "
-"dependencies by setting one of the three following variables to the "
-"location of the correct version of the dependency."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:135
-msgid ""
-"In the examples below the variable $NAME would be replaced by the name of"
-" the dependency in uppercase, and $name would be replaced by the name of "
-"the dependency in lowercase (ex: OPENSSL_ROOT_DIR, openssl)."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:137
-msgid ""
-"$NAME_ROOT_DIR - pass this variable to Cmake with the -DNAME_ROOT_DIR= "
-"flag when running Cmake to generate build files"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:138
-msgid "$NAME_ROOT_DIR - set this variable in your ENV"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:139
-msgid ""
-"HIFI_LIB_DIR - set this variable in your ENV to your Vircadia lib folder,"
-" should contain a folder '$name'"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:141
-msgid "Optional Components"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:143
-msgid "Build Options"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:145
-msgid "The following build options can be used when running CMake"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:147
-msgid "BUILD_CLIENT"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:148
-msgid "BUILD_SERVER"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:149
-msgid "BUILD_TESTS"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:150
-msgid "BUILD_TOOLS"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:151
-msgid "CLIENT_ONLY // Will package only the Interface"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:152
-msgid "SERVER_ONLY // Will package only the Server"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:154
-msgid "Developer Build Options"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:156
-msgid "USE_GLES"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:157
-msgid "DISABLE_UI"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:159
-msgid "Devices"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_GENERAL.md:161
-msgid ""
-"You can support external input/output devices such as Leap Motion, MIDI, "
-"and more by adding each individual SDK in the visible building path. "
-"Refer to the readme file available in each device folder in "
-"interface/external/ for the detailed explanation of the requirements to "
-"use the device."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:3
@@ -1091,74 +1156,8 @@ msgid ""
 "directory."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:172
-msgid "Ubuntu 18.04 only"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:174
-msgid ""
-"In Ubuntu 18.04 there is a problem related with NVidia driver library "
-"version."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:176
-msgid "It can be worked around following these steps:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:178
-msgid ""
-"Uninstall incompatible nvtt libraries:<br />sudo apt-get remove libnvtt2 "
-"libnvtt-dev"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:181
-msgid "Install libssl1.0-dev:<br />sudo apt-get -y install libssl1.0-dev"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:184
-msgid ""
-"Clone castano nvidia-texture-tools:<br />git clone "
-"https://github.com/castano/nvidia-texture-tools<br />cd nvidia-texture-"
-"tools/"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:188
-msgid "Make these changes in repo:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:189
-msgid "In file VERSION set 2.2.1"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:190
-msgid "In file configure:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:191
-msgid "set build=\"release\""
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:192
-msgid "set -DNVTT_SHARED=1"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:194
-msgid ""
-"Configure, build and install:<br />./configure<br />make<br />sudo make "
-"install"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:199
-msgid ""
-"Link compiled files:<br />sudo ln -s /usr/local/lib/libnvcore.so "
-"/usr/lib/libnvcore.so<br />sudo ln -s /usr/local/lib/libnvimage.so "
-"/usr/lib/libnvimage.so<br />sudo ln -s /usr/local/lib/libnvmath.so "
-"/usr/lib/libnvmath.so<br />sudo ln -s /usr/local/lib/libnvtt.so "
-"/usr/lib/libnvtt.so"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:205
-msgid "After running these steps you can run interface:<br />interface/interface"
+#: ../../source/developer/build/BUILD_OSX.md:3
+msgid "Last Updated on August 26, 2020"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:5
@@ -1178,21 +1177,21 @@ msgid ""
 "some Vircadia dependencies very simple."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:13
+#: ../../source/developer/build/BUILD_OSX.md:15
 msgid "Python 3"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:15
+#: ../../source/developer/build/BUILD_OSX.md:17
 msgid ""
-"Download an install Python 3.6.6 or higher from here.<br />Execute the "
-"Update Shell Profile.command script that is provided with the installer."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_OSX.md:18
-msgid "OSX SDK"
+"Download an install Python 3.6.6 or higher from here. Execute the Update "
+"Shell Profile.command script that is provided with the installer."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:20
+msgid "OSX SDK"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_OSX.md:22
 msgid ""
 "You will need version 10.12 of the OSX SDK for building, otherwise you "
 "may have crashing or other unintended issues due to the deprecation of "
@@ -1200,24 +1199,24 @@ msgid ""
 "your Xcode SDK directory, e.g."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:24
+#: ../../source/developer/build/BUILD_OSX.md:28
 msgid "OpenSSL"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:26
+#: ../../source/developer/build/BUILD_OSX.md:30
 msgid ""
 "Assuming you've installed OpenSSL using the homebrew instructions above, "
-"you'll need to set OPENSSL_ROOT_DIR so CMake can find your "
-"installations.<br />For OpenSSL installed via homebrew, set "
-"OPENSSL_ROOT_DIR via export OPENSSL_ROOT_DIR=/usr/local/opt/openssl or by"
-" appending -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl to cmake"
+"you'll need to set OPENSSL_ROOT_DIR so CMake can find your installations."
+" For OpenSSL installed via homebrew, set OPENSSL_ROOT_DIR via export "
+"OPENSSL_ROOT_DIR=/usr/local/opt/openssl or by appending "
+"-DOPENSSL_ROOT_DIR=/usr/local/opt/openssl to cmake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:31
+#: ../../source/developer/build/BUILD_OSX.md:35
 msgid "Xcode"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:33
+#: ../../source/developer/build/BUILD_OSX.md:37
 msgid ""
 "You can ask CMake to generate Xcode project files instead of Unix "
 "Makefiles using the -G Xcode parameter after CMake. You will need to "
@@ -1225,15 +1224,15 @@ msgid ""
 "so already."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:39
+#: ../../source/developer/build/BUILD_OSX.md:45
 msgid ""
 "If cmake complains about Python 3 being missing, you may need to update "
 "your CMake binary with command brew upgrade cmake, or by downloading and "
 "running the latest CMake installer, depending on how you originally "
-"instaled CMake"
+"installed CMake."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:41
+#: ../../source/developer/build/BUILD_OSX.md:47
 msgid ""
 "After running CMake, you will have the make files or Xcode project file "
 "necessary to build all of the components. Open the hifi.xcodeproj file, "
@@ -1241,45 +1240,45 @@ msgid ""
 "and click Run."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:43
+#: ../../source/developer/build/BUILD_OSX.md:49
 msgid ""
 "If the build completes successfully, you will have built targets for all "
 "components located in the build/${target_name}/Debug directories."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:45
+#: ../../source/developer/build/BUILD_OSX.md:51
 msgid "make"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:47
+#: ../../source/developer/build/BUILD_OSX.md:53
 msgid ""
 "If you build with make rather than Xcode, you can append -j4 for "
 "assigning more threads. The number indicates the number of threads, e.g. "
 "4."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:49
+#: ../../source/developer/build/BUILD_OSX.md:55
 msgid "To package the installation, you can simply run make package afterwards."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:51
-#: ../../source/developer/installer/INSTALLER.md:94
+#: ../../source/developer/build/BUILD_OSX.md:57
+#: ../../source/developer/installer/INSTALLER.md:82
 msgid "FAQ"
 msgstr "よくある質問"
 
-#: ../../source/developer/build/BUILD_OSX.md:53
+#: ../../source/developer/build/BUILD_OSX.md:59
 msgid ""
 "Problem: Running the scheme interface.app from Xcode causes a crash for "
 "Interface related to libgl"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:54
+#: ../../source/developer/build/BUILD_OSX.md:60
 msgid ""
 "Cause: The target gl generates a binary called libgl. A macOS "
 "libGL.framework item gets loaded instead by Xcode."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:55
+#: ../../source/developer/build/BUILD_OSX.md:61
 msgid "Solution: In the Xcode target settings for libgl, set the version to 1.0.0"
 msgstr ""
 
@@ -1318,84 +1317,92 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:16
-msgid ""
-"When selecting components, check \"Desktop development with C++\". On the"
-" right on the Summary toolbar, select the following components."
+msgid "When selecting components, check \"Desktop development with C++\"."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:18
-msgid "If you're installing Visual Studio 2017,"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:20
-msgid "Windows 8.1 SDK and UCRT SDK"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:21
-msgid "VC++ 2015.3 v14.00 (v140) toolset for desktop"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:23
-msgid "If you're installing Visual Studio 2019,"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:25
-msgid "MSVC v141 - VS 2017 C++ x64/x86 build tools"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:26
-msgid "MSVC v140 - VS 2015 C++ build tools (v14.00)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:28
 msgid ""
-"If you do not already have a Python 3.x development environment "
-"installed, also check \"Python Development\" in this screen."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:30
-msgid ""
-"If you already have Visual Studio installed and need to add Python, open "
-"the \"Add or remove programs\" control panel and find the \"Microsoft "
-"Visual Studio Installer\".  Select it and click \"Modify\".  In the "
+"If you do not already have a Python 3.x development environment installed"
+" and want to install it with Visual Studio, check \"Python Development\"."
+" If you already have Visual Studio installed and need to add Python, open"
+" the \"Add or remove programs\" control panel and find the \"Microsoft "
+"Visual Studio Installer\". Select it and click \"Modify\". In the "
 "installer, select \"Modify\" again, then check \"Python Development\" and"
 " allow the installer to apply the changes."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:32
-msgid "Step 1a.  Alternate Python"
+#: ../../source/developer/build/BUILD_WIN.md:20
+msgid ""
+"On the right on the Summary toolbar, select the following components "
+"based on your Visual Studio version."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:34
+#: ../../source/developer/build/BUILD_WIN.md:22
+msgid "If you're installing Visual Studio 2017"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:24
+msgid "Windows 8.1 SDK and UCRT SDK"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:25
+msgid "VC++ 2015.3 v14.00 (v140) toolset for desktop"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:27
+msgid "If you're installing Visual Studio 2019"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:29
+msgid "MSVC v142 - VS 2019 C++ X64/x86 build tools"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:30
+msgid "MSVC v141 - VS 2017 C++ x64/x86 build tools"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:31
+msgid "MSVC v140 - VS 2015 C++ build tools (v14.00)"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:33
+msgid "Step 1a. Alternate Python"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:35
 msgid ""
 "If you do not wish to use the Python installation bundled with Visual "
-"Studio, you can download the installer from here.  Ensure you get version"
-" 3.6.6 or higher."
+"Studio, you can download the installer from here. Ensure that you get "
+"version 3.6.6 or higher."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:36
+#: ../../source/developer/build/BUILD_WIN.md:37
 msgid "Step 2. Python Dependencies"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:38
+#: ../../source/developer/build/BUILD_WIN.md:39
 msgid ""
-"In a command-line that can access Python's pip you will need to run the "
-"following command:"
+"In an administrator command-line that can access Python's pip you will "
+"need to run the following command:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:40
+#: ../../source/developer/build/BUILD_WIN.md:41
 msgid "pip install distro"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:42
-msgid "Step 3. Installing CMake"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:44
-msgid "Download and install the latest version of CMake 3.15."
+#: ../../source/developer/build/BUILD_WIN.md:43
+msgid "If you do not use an administrator command-line, you will get errors."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:45
+msgid "Step 3. Installing CMake"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:47
+msgid "Download and install the latest version of CMake 3.15."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:48
 msgid ""
 "Note that earlier versions of CMake will work, but there is a specific "
 "bug related to the interaction of Visual Studio 2019 and CMake versions "
@@ -1403,7 +1410,7 @@ msgid ""
 "needs to on every build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:47
+#: ../../source/developer/build/BUILD_WIN.md:50
 msgid ""
 "Download the file named win64-x64 Installer from the CMake Website. You "
 "can access the installer on this 3.15 Version page. During installation, "
@@ -1411,11 +1418,91 @@ msgid ""
 "prompted."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:49
-msgid "Step 4. Create VCPKG environment variable"
+#: ../../source/developer/build/BUILD_WIN.md:52
+msgid "Step 4. Node.JS and NPM"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:50
+#: ../../source/developer/build/BUILD_WIN.md:54
+msgid "Install version 10.15.0 LTS (or greater) of Node.JS and NPM."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:56
+msgid "Step 5. (Optional) Install Qt"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:58
+msgid ""
+"If you would like to compile Qt instead of using the precompiled package "
+"provided during CMake, you can do so now. Install version 5.12.3 of Qt, "
+"as well as the following packages:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:59
+msgid "Qt 5.12.3"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:60
+msgid "MSVC 2017 64-bit"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:61
+msgid "Qt WebEngine"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:62
+msgid "Qt Script (Deprecated)"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:64
+msgid ""
+"For convenience, you may also want the \"Qt Debug Information\" and "
+"\"Sources\" packages."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:66
+msgid ""
+"You'll need to create the environment variable that CMake uses to find "
+"your system's Qt install."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:68
+#: ../../source/developer/build/BUILD_WIN.md:78
+#: ../../source/developer/build/BUILD_WIN.md:87
+msgid "To create this variable:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:69
+msgid ""
+"Navigate to 'Edit the System Environment Variables' through the start "
+"menu."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:70
+#: ../../source/developer/build/BUILD_WIN.md:80
+#: ../../source/developer/build/BUILD_WIN.md:89
+msgid "Click on 'Environment Variables'"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:71
+#: ../../source/developer/build/BUILD_WIN.md:81
+#: ../../source/developer/build/BUILD_WIN.md:90
+msgid "Select 'New'"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:73
+#, python-format
+msgid ""
+"Set \"Variable value\" to "
+"%QT_INSTALL_DIR%\\5.12.3\\msvc2017_64\\lib\\cmake, where %QT_INSTALL_DIR%"
+" is the directory you specified for Qt's installation. The default is "
+"C:\\Qt."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:75
+msgid "Step 6. Create VCPKG environment variable"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:76
 #, python-format
 msgid ""
 "In the next step, you will use CMake to build Vircadia. By default, the "
@@ -1427,37 +1514,22 @@ msgid ""
 "will contain all dependency files until you manually remove them."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:52
-#: ../../source/developer/build/BUILD_WIN.md:61
-msgid "To create this variable:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:53
-#: ../../source/developer/build/BUILD_WIN.md:62
+#: ../../source/developer/build/BUILD_WIN.md:79
+#: ../../source/developer/build/BUILD_WIN.md:88
 msgid ""
-"Naviagte to 'Edit the System Environment Variables' Through the start "
+"Navigate to 'Edit the System Environment Variables' Through the start "
 "menu."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:54
-#: ../../source/developer/build/BUILD_WIN.md:63
-msgid "Click on 'Environment Variables'"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:55
-#: ../../source/developer/build/BUILD_WIN.md:64
-msgid "Select 'New'"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:56
+#: ../../source/developer/build/BUILD_WIN.md:82
 msgid "Set \"Variable name\" to HIFI_VCPKG_BASE"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:57
+#: ../../source/developer/build/BUILD_WIN.md:83
 msgid "Set \"Variable value\" to any directory that you have control over."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:59
+#: ../../source/developer/build/BUILD_WIN.md:85
 msgid ""
 "Additionally, if you have Visual Studio 2019 installed and only Visual "
 "Studio 2019 (i.e. you do not have Visual Studio 2017 installed) you must "
@@ -1465,137 +1537,137 @@ msgid ""
 " a bug in our vcpkg pre-build step."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:65
+#: ../../source/developer/build/BUILD_WIN.md:91
 msgid "Set \"Variable name\" to HIFI_VCPKG_BOOTSTRAP"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:66
+#: ../../source/developer/build/BUILD_WIN.md:92
 msgid "Set \"Variable value\" to 1"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:68
-msgid "Step 5. Running CMake to Generate Build Files"
+#: ../../source/developer/build/BUILD_WIN.md:94
+msgid "Step 7. Running CMake to Generate Build Files"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:70
+#: ../../source/developer/build/BUILD_WIN.md:96
 msgid ""
 "Run Command Prompt from Start and run the following commands:<br />cd "
 "\"%VIRCADIA_DIR%\"<br />mkdir build<br />cd build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:75
+#: ../../source/developer/build/BUILD_WIN.md:101
 msgid "If you're using Visual Studio 2017,"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:76
+#: ../../source/developer/build/BUILD_WIN.md:102
 msgid "Run cmake .. -G \"Visual Studio 15 Win64\"."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:78
+#: ../../source/developer/build/BUILD_WIN.md:104
 msgid "If you're using Visual Studio 2019,"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:79
+#: ../../source/developer/build/BUILD_WIN.md:105
 msgid "Run cmake .. -G \"Visual Studio 16 2019\" -A x64."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:81
+#: ../../source/developer/build/BUILD_WIN.md:107
 #, python-format
 msgid "Where %VIRCADIA_DIR% is the directory for the Vircadia repository."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:83
-msgid "Step 6. Making a Build"
+#: ../../source/developer/build/BUILD_WIN.md:109
+msgid "Step 8. Making a Build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:85
+#: ../../source/developer/build/BUILD_WIN.md:111
 msgid "Open %VIRCADIA_DIR%\\build\\vircadia.sln using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:87
+#: ../../source/developer/build/BUILD_WIN.md:113
 msgid ""
 "Change the Solution Configuration (menu ribbon under the menu bar, next "
 "to the green play button) from \"Debug\" to \"Release\" for best "
 "performance."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:89
+#: ../../source/developer/build/BUILD_WIN.md:115
 msgid "Run from the menu bar Build > Build Solution."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:91
-msgid "Step 7. Testing Interface"
+#: ../../source/developer/build/BUILD_WIN.md:117
+msgid "Step 9. Testing Interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:93
+#: ../../source/developer/build/BUILD_WIN.md:119
 msgid "Create another environment variable (see Step #3)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:94
+#: ../../source/developer/build/BUILD_WIN.md:120
 msgid "Set \"Variable name\": _NO_DEBUG_HEAP"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:95
+#: ../../source/developer/build/BUILD_WIN.md:121
 msgid "Set \"Variable value\": 1"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:97
+#: ../../source/developer/build/BUILD_WIN.md:123
 msgid "Restart Visual Studio again."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:99
+#: ../../source/developer/build/BUILD_WIN.md:125
 msgid ""
-"In Visual Studio, right+click \"interface\" under the Apps folder in "
+"In Visual Studio, right-click \"interface\" under the Apps folder in "
 "Solution Explorer and select \"Set as Startup Project\". Run from the "
 "menu bar Debug > Start Debugging."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:101
+#: ../../source/developer/build/BUILD_WIN.md:127
 msgid ""
 "Now, you should have a full build of Vircadia and be able to run the "
 "Interface using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:103
+#: ../../source/developer/build/BUILD_WIN.md:129
 msgid ""
 "Note: You can also run Interface by launching it from command line or "
 "File Explorer from "
 "%VIRCADIA_DIR%\\build\\interface\\Release\\interface.exe"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:107
-msgid "For any problems after Step #6, first try this:"
+#: ../../source/developer/build/BUILD_WIN.md:133
+msgid "For any problems after Step #7, first try this:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:108
+#: ../../source/developer/build/BUILD_WIN.md:134
 msgid "Delete your locally cloned copy of the Vircadia repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:109
+#: ../../source/developer/build/BUILD_WIN.md:135
 msgid "Restart your computer"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:110
+#: ../../source/developer/build/BUILD_WIN.md:136
 msgid "Redownload the repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:111
-msgid "Restart directions from Step #6"
+#: ../../source/developer/build/BUILD_WIN.md:137
+msgid "Restart directions from Step #7"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:113
+#: ../../source/developer/build/BUILD_WIN.md:139
 msgid "CMake gives you the same error message repeatedly after the build fails"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:115
+#: ../../source/developer/build/BUILD_WIN.md:141
 msgid "Remove CMakeCache.txt found in the %VIRCADIA_DIR%\\build directory."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:117
+#: ../../source/developer/build/BUILD_WIN.md:143
 msgid "CMake can't find OpenSSL"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:119
+#: ../../source/developer/build/BUILD_WIN.md:145
 msgid ""
 "Remove CMakeCache.txt found in the %VIRCADIA_DIR%\\build directory.  "
 "Verify that your HIFI_VCPKG_BASE environment variable is set and pointing"
@@ -1664,23 +1736,27 @@ msgstr ""
 msgid "Override the default metadata exporter port."
 msgstr ""
 
-#: ../../source/developer/installer.rst:7
+#: ../../source/developer/installer.rst:11
 msgid "Installer Creation Guide"
 msgstr ""
 
-#: ../../source/developer/installer.rst:3
+#: ../../source/developer/installer.rst:2
+msgid "This document is slightly outdated. FIXME: Mentions Sandbox"
+msgstr ""
+
+#: ../../source/developer/installer.rst:7
 #: ../../source/developer/installer/INSTALLER.md:1
 msgid "Creating an Installer"
 msgstr ""
 
-#: ../../source/developer/installer.rst:5
+#: ../../source/developer/installer.rst:9
 msgid ""
 "An installer for Interface and Sandbox can be generated. This installer "
 "is made with NSIS."
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:3
-msgid "Last Updated on August 24, 2020"
+msgid "Last Updated on March 4, 2021"
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:5
@@ -1876,7 +1952,7 @@ msgid "Node.JS and NPM"
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:64
-msgid "Install version 10.15.0 LTS"
+msgid "Install version 10.15.0 LTS (or greater)"
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:66
@@ -1927,35 +2003,7 @@ msgid ""
 "build\\_CPack_Packages\\win64\\NSIS"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:82
-msgid "OS X"
-msgstr ""
-
-#: ../../source/developer/installer/INSTALLER.md:83
-msgid "npm Install version 12.16.3 LTS"
-msgstr ""
-
-#: ../../source/developer/installer/INSTALLER.md:86
-msgid "Perform a clean CMake."
-msgstr ""
-
-#: ../../source/developer/installer/INSTALLER.md:87
-msgid "Perform a Release build of ALL_BUILD"
-msgstr ""
-
-#: ../../source/developer/installer/INSTALLER.md:88
-msgid ""
-"Perform a Release build of packaged-server-console This will add a folder"
-" to build\\server-console\\ -<br />Sandbox-darwin-x64"
-msgstr ""
-
-#: ../../source/developer/installer/INSTALLER.md:91
-msgid ""
-"Perform a Release build of package Installer is now available in "
-"`build/_CPack_Packages/Darwin/DragNDrop"
-msgstr ""
-
-#: ../../source/developer/installer/INSTALLER.md:96
+#: ../../source/developer/installer/INSTALLER.md:84
 msgid ""
 "Problem: Failure to open a file. File: failed opening file "
 "\"\\FOLDERSHARE\\XYZSRelease\\...\\Credits.rtf\" Error in script "
@@ -1963,16 +2011,236 @@ msgid ""
 " on line 77 -- aborting creation process"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:97
+#: ../../source/developer/installer/INSTALLER.md:85
 msgid ""
 "Cause: The complete path (current directory + relative path) has to be < "
 "260 characters to any of the relevant files."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:98
+#: ../../source/developer/installer/INSTALLER.md:86
 msgid ""
 "Solution: Move your build and packaging folder as high up in the drive as"
 " possible to prevent an overage."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:88
+msgid "OS X"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:90
+msgid "npm Install version 12.16.3 LTS"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:93
+msgid "Perform a clean CMake."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:94
+msgid "Perform a Release build of ALL_BUILD"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:95
+msgid ""
+"Perform a Release build of packaged-server-console This will add a folder"
+" to build\\server-console\\ -<br />Sandbox-darwin-x64"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:98
+msgid ""
+"Perform a Release build of package Installer is now available in "
+"`build/_CPack_Packages/Darwin/DragNDrop"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:101
+msgid "Linux"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:103
+msgid "Server"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:105
+msgid "Ubuntu 18.04 | .deb"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:107
+msgid ""
+"Ensure you are using an Ubuntu 18.04 system. There is no required minimum"
+" to the amount of CPU cores needed, however it's recommended that you use"
+" as many as you have available in order to have an efficient experience."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:112
+#: ../../source/developer/installer/INSTALLER.md:190
+msgid "Get and bootstrap Vircadia Builder."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:117
+#: ../../source/developer/installer/INSTALLER.md:196
+msgid "Run Vircadia Builder."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:121
+#: ../../source/developer/installer/INSTALLER.md:200
+msgid ""
+"If Vircadia Builder needed to install dependencies and asks you to run it"
+" again then do so. Otherwise, skip to the next step."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:125
+#: ../../source/developer/installer/INSTALLER.md:204
+msgid ""
+"Vircadia Builder will ask you to configure it to build the server. The "
+"values will be prefilled with defaults, the following steps will explain "
+"what they are and what you might want to put. Advanced users: See here "
+"for possible environment variables and settings."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:126
+#: ../../source/developer/installer/INSTALLER.md:205
+msgid ""
+"This value is the Git repository of Vircadia. You can set this URL to "
+"your fork of the Vircadia repository if you need to."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:132
+msgid ""
+"This value is the tag on the repository. If you would like to use a "
+"specific version of Vircadia, typically tags will be named like this: "
+"\"v2021.1.0-rc\""
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:138
+#: ../../source/developer/installer/INSTALLER.md:217
+msgid ""
+"This value is the release type. For example, the options are production, "
+"pr, or dev. If you are making a build for yourself and others to use then"
+" use production."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:144
+msgid ""
+"This value is the release version. Release numbers should be in a format "
+"of YEAR-MAJORVERSION-MINORVERSION which might look like this: 2021.1.0."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:148
+#: ../../source/developer/installer/INSTALLER.md:227
+msgid ""
+"This value is the build number. We typically use the hash of the most "
+"recent commit on that Git tag which might look like this: fd6973b."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:152
+#: ../../source/developer/installer/INSTALLER.md:231
+msgid ""
+"This value is the directory that Vircadia will get installed to. You "
+"should leave this as the default value unless you are an advanced user."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:156
+msgid ""
+"This value is the number of CPU cores that the Vircadia Builder will use "
+"to compile the Vircadia server. By default it will use all cores "
+"available on your build server. You should leave this as the default "
+"value it gives you for your build server."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:160
+msgid ""
+"This value is the number of CPU cores that the Vircadia Builder will use "
+"to compile Qt5 (a required component for Vircadia). By default it will "
+"use all cores available on your build server. You should leave this as "
+"the default value it gives you for your build server."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:164
+#: ../../source/developer/installer/INSTALLER.md:243
+msgid ""
+"It will ask you if you would like to proceed with the specified values. "
+"If you're happy with the configuration, type yes, otherwise enter no and "
+"press enter to start over. You can press Ctrl + C simultaneously on your "
+"keyboard to exit."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:165
+#: ../../source/developer/installer/INSTALLER.md:244
+msgid ""
+"Vircadia Builder will now run, it may take a while. See this table for "
+"estimated times."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:166
+#: ../../source/developer/installer/INSTALLER.md:245
+msgid "Navigate to the pkg-scripts directory."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:170
+#: ../../source/developer/installer/INSTALLER.md:249
+msgid ""
+"Generate the .rpm package. Set RPMVERSION to the same version you entered"
+" for the Release number on Vircadia Builder. Advanced users: the version "
+"cannot begin with a letter and cannot include underscores or dashes in "
+"it."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:174
+msgid ""
+"If successful, the generated .deb package will be in the pkg-scripts "
+"folder."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:176
+msgid "Amazon Linux 2 | .rpm"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:178
+msgid ""
+"Ensure you are using an Amazon Linux 2 system. You will need many CPU "
+"cores to complete this process within a reasonable time. As an "
+"alternative to AWS EC2, you may use a virtual machine. Here are the "
+"recommended specs:"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:184
+msgid "Update the system and install dependencies."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:211
+msgid ""
+"This value is the tag on the repository. If you would like to use a "
+"specific version of Vircadia, typically tags will be named like this: "
+"\"v2021.1.0-rc\"."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:223
+msgid ""
+"This value is the release version. Release numbers typically should be in"
+" a format of YEAR-MAJORVERSION-MINORVERSION which might look like this: "
+"2021.1.0."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:235
+msgid ""
+"This value is the number of CPU cores that the Vircadia Builder will use "
+"to compile the Vircadia server. By default it will use all cores "
+"available on your build server given you have enough memory. You should "
+"leave this as the default value it gives you for your build server."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:239
+msgid ""
+"This value is the number of CPU cores that the Vircadia Builder will use "
+"to compile Qt5 (a required component for Vircadia). By default it will "
+"use all cores available on your build server given you have enough "
+"memory. You should leave this as the default value it gives you for your "
+"build server."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:253
+msgid ""
+"If successful, the generated .rpm package will be in the pkg-scripts "
+"folder of the Vircadia source files."
 msgstr ""
 
 #: ../../source/developer/interface.rst:5
@@ -2089,6 +2357,10 @@ msgstr ""
 msgid "Disable level of detail auto config."
 msgstr ""
 
+#: ../../source/developer/interface/command-line-parameters.md:106
+msgid "Force enable crash reporting for the Interface."
+msgstr ""
+
 #: ../../source/developer/interface/debugging.md:1
 msgid "Debugging Tips"
 msgstr ""
@@ -2147,47 +2419,51 @@ msgid "Allow multiple instances of Interface to run simultaneously."
 msgstr ""
 
 #: ../../source/developer/interface/environment-variables.md:37
+msgid "The Interface will have a custom default home and startup location."
+msgstr ""
+
+#: ../../source/developer/interface/environment-variables.md:43
 msgid ""
 "Logging to the console can be controlled with the VIRCADIA_LOG_OPTIONS "
 "variable. It can be set to any comma separated combination of the "
 "following options. Case and whitespace are not significant."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:39
+#: ../../source/developer/interface/environment-variables.md:45
 msgid "color - Force ANSI colors depending on the message's severity."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:40
+#: ../../source/developer/interface/environment-variables.md:46
 msgid "nocolor - Force ANSI colors off."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:41
+#: ../../source/developer/interface/environment-variables.md:47
 msgid "milliseconds - Log timestamps with millisecond precision."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:42
+#: ../../source/developer/interface/environment-variables.md:48
 msgid "process_id - Log the process ID."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:43
+#: ../../source/developer/interface/environment-variables.md:49
 msgid "thread_id - Log the thread ID."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:45
+#: ../../source/developer/interface/environment-variables.md:51
 msgid "For example:"
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:49
+#: ../../source/developer/interface/environment-variables.md:55
 msgid ""
 "This will cause logging with millisecond precision, and color coding "
 "messages by severity."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:53
+#: ../../source/developer/interface/environment-variables.md:59
 msgid "Will result in only millisecond precision being applied to logging."
 msgstr ""
 
-#: ../../source/developer/interface/environment-variables.md:55
+#: ../../source/developer/interface/environment-variables.md:61
 msgid ""
 "Color is enabled by default on Unix if output is being directed to a "
 "terminal, and disabled by default on Windows."
@@ -2316,3 +2592,272 @@ msgstr ""
 
 #~ msgid "Last Updated on April 11, 2020"
 #~ msgstr ""
+
+#~ msgid "Last Updated on December 21, 2019"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please read the general build guide "
+#~ "for information on building other "
+#~ "platforms. Only Android specific instructions"
+#~ " are found in this file. Note "
+#~ "that these instructions apply to "
+#~ "building for Oculus Quest."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the Android Studio installer "
+#~ "and run it. Once installed, at the"
+#~ " welcome screen, click Configure in "
+#~ "the lower right corner and select "
+#~ "SDK Manager."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Still in the SDK Tools tab, click"
+#~ " Show Package Details. Select CMake "
+#~ "3.6.4. Do this even if you have"
+#~ " a separate CMake installation."
+#~ msgstr ""
+
+#~ msgid "Also, make sure the NDK installed version is 18 (or higher)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Follow the directions here to create "
+#~ "a keystore file. You can save it"
+#~ " anywhere (preferably not in the hifi"
+#~ " folder)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The above code to suppress modules "
+#~ "is not necessary, but will speed "
+#~ "up the build process."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navigate to the hifi repository and "
+#~ "choose the android folder and select "
+#~ "OK"
+#~ msgstr ""
+
+#~ msgid "From the Build menu select Make Project"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Delete the build and .externalNativeBuild "
+#~ "folders from the folder for each "
+#~ "module you're building (for example, "
+#~ "hifi/android/apps/interface)"
+#~ msgstr ""
+
+#~ msgid "cmake:  3.9"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To override this (i.e. use an "
+#~ "installed Qt configuration - you will"
+#~ " need to set a QT_CMAKE_PREFIX_PATH "
+#~ "environment variable pointing to your Qt"
+#~ " lib/cmake folder.<br />This can either "
+#~ "be entered directly into your shell "
+#~ "session before you build or in "
+#~ "your shell profile (e.g.: ~/.bash_profile, "
+#~ "~/.bashrc, ~/.zshrc - this depends on"
+#~ " your shell and environment).  The "
+#~ "path it needs to be set to "
+#~ "will depend on where and how Qt5"
+#~ " was installed. e.g."
+#~ msgstr ""
+
+#~ msgid "export HIFI_VCPKG_BASE=/path/to/directory"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In order to generate a release or"
+#~ " debug only vcpkg package, you could"
+#~ " use the use the VCPKG_BUILD_TYPE "
+#~ "define in your cmake generate command."
+#~ " Building a release only vcpkg can"
+#~ " drastically decrease the total build "
+#~ "time."
+#~ msgstr ""
+
+#~ msgid "Ubuntu 18.04 only"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Ubuntu 18.04 there is a problem"
+#~ " related with NVidia driver library "
+#~ "version."
+#~ msgstr ""
+
+#~ msgid "It can be worked around following these steps:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Uninstall incompatible nvtt libraries:<br "
+#~ "/>sudo apt-get remove libnvtt2 "
+#~ "libnvtt-dev"
+#~ msgstr ""
+
+#~ msgid "Install libssl1.0-dev:<br />sudo apt-get -y install libssl1.0-dev"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Clone castano nvidia-texture-tools:<br "
+#~ "/>git clone https://github.com/castano/nvidia-"
+#~ "texture-tools<br />cd nvidia-texture-tools/"
+#~ msgstr ""
+
+#~ msgid "Make these changes in repo:"
+#~ msgstr ""
+
+#~ msgid "In file VERSION set 2.2.1"
+#~ msgstr ""
+
+#~ msgid "In file configure:"
+#~ msgstr ""
+
+#~ msgid "set build=\"release\""
+#~ msgstr ""
+
+#~ msgid "set -DNVTT_SHARED=1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Configure, build and install:<br "
+#~ "/>./configure<br />make<br />sudo make install"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Link compiled files:<br />sudo ln -s "
+#~ "/usr/local/lib/libnvcore.so /usr/lib/libnvcore.so<br "
+#~ "/>sudo ln -s /usr/local/lib/libnvimage.so "
+#~ "/usr/lib/libnvimage.so<br />sudo ln -s "
+#~ "/usr/local/lib/libnvmath.so /usr/lib/libnvmath.so<br "
+#~ "/>sudo ln -s /usr/local/lib/libnvtt.so "
+#~ "/usr/lib/libnvtt.so"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After running these steps you can "
+#~ "run interface:<br />interface/interface"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download an install Python 3.6.6 or "
+#~ "higher from here.<br />Execute the "
+#~ "Update Shell Profile.command script that "
+#~ "is provided with the installer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Assuming you've installed OpenSSL using "
+#~ "the homebrew instructions above, you'll "
+#~ "need to set OPENSSL_ROOT_DIR so CMake"
+#~ " can find your installations.<br />For "
+#~ "OpenSSL installed via homebrew, set "
+#~ "OPENSSL_ROOT_DIR via export "
+#~ "OPENSSL_ROOT_DIR=/usr/local/opt/openssl or by "
+#~ "appending -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl to "
+#~ "cmake"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If cmake complains about Python 3 "
+#~ "being missing, you may need to "
+#~ "update your CMake binary with command"
+#~ " brew upgrade cmake, or by "
+#~ "downloading and running the latest CMake"
+#~ " installer, depending on how you "
+#~ "originally instaled CMake"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When selecting components, check \"Desktop "
+#~ "development with C++\". On the right "
+#~ "on the Summary toolbar, select the "
+#~ "following components."
+#~ msgstr ""
+
+#~ msgid "If you're installing Visual Studio 2017,"
+#~ msgstr ""
+
+#~ msgid "If you're installing Visual Studio 2019,"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you do not already have a "
+#~ "Python 3.x development environment installed,"
+#~ " also check \"Python Development\" in "
+#~ "this screen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you already have Visual Studio "
+#~ "installed and need to add Python, "
+#~ "open the \"Add or remove programs\" "
+#~ "control panel and find the \"Microsoft"
+#~ " Visual Studio Installer\".  Select it "
+#~ "and click \"Modify\".  In the installer,"
+#~ " select \"Modify\" again, then check "
+#~ "\"Python Development\" and allow the "
+#~ "installer to apply the changes."
+#~ msgstr ""
+
+#~ msgid "Step 1a.  Alternate Python"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you do not wish to use "
+#~ "the Python installation bundled with "
+#~ "Visual Studio, you can download the "
+#~ "installer from here.  Ensure you get "
+#~ "version 3.6.6 or higher."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In a command-line that can access"
+#~ " Python's pip you will need to "
+#~ "run the following command:"
+#~ msgstr ""
+
+#~ msgid "Step 4. Create VCPKG environment variable"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Naviagte to 'Edit the System Environment"
+#~ " Variables' Through the start menu."
+#~ msgstr ""
+
+#~ msgid "Step 5. Running CMake to Generate Build Files"
+#~ msgstr ""
+
+#~ msgid "Step 6. Making a Build"
+#~ msgstr ""
+
+#~ msgid "Step 7. Testing Interface"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Visual Studio, right+click \"interface\""
+#~ " under the Apps folder in Solution"
+#~ " Explorer and select \"Set as Startup"
+#~ " Project\". Run from the menu bar "
+#~ "Debug > Start Debugging."
+#~ msgstr ""
+
+#~ msgid "For any problems after Step #6, first try this:"
+#~ msgstr ""
+
+#~ msgid "Restart directions from Step #6"
+#~ msgstr ""
+
+#~ msgid "Last Updated on August 24, 2020"
+#~ msgstr ""
+
+#~ msgid "Install version 10.15.0 LTS"
+#~ msgstr ""
+

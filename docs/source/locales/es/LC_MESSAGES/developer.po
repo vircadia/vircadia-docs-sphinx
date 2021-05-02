@@ -8,18 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-04-01 17:33+0200\n"
+"POT-Creation-Date: 2021-04-18 00:01+0000\n"
 "PO-Revision-Date: 2021-04-24 21:11+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/developer/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/developer/es/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/developer.rst:11
 msgid "Build from Source"
@@ -831,7 +830,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:126
-#: ../../source/developer/build/BUILD_WIN.md:112
+#: ../../source/developer/build/BUILD_WIN.md:131
 msgid "Troubleshooting"
 msgstr ""
 
@@ -873,6 +872,7 @@ msgid "Select 'New' under System variables"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:138
+#: ../../source/developer/build/BUILD_WIN.md:72
 msgid "Set \"Variable name\" to QT_CMAKE_PREFIX_PATH"
 msgstr ""
 
@@ -1428,10 +1428,82 @@ msgid "Install version 10.15.0 LTS (or greater) of Node.JS and NPM."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:56
-msgid "Step 5. Create VCPKG environment variable"
+msgid "Step 5. (Optional) Install Qt"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:57
+#: ../../source/developer/build/BUILD_WIN.md:58
+msgid ""
+"If you would like to compile Qt instead of using the precompiled package "
+"provided during CMake, you can do so now. Install version 5.12.3 of Qt, "
+"as well as the following packages:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:59
+msgid "Qt 5.12.3"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:60
+msgid "MSVC 2017 64-bit"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:61
+msgid "Qt WebEngine"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:62
+msgid "Qt Script (Deprecated)"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:64
+msgid ""
+"For convenience, you may also want the \"Qt Debug Information\" and "
+"\"Sources\" packages."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:66
+msgid ""
+"You'll need to create the environment variable that CMake uses to find "
+"your system's Qt install."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:68
+#: ../../source/developer/build/BUILD_WIN.md:78
+#: ../../source/developer/build/BUILD_WIN.md:87
+msgid "To create this variable:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:69
+msgid ""
+"Navigate to 'Edit the System Environment Variables' through the start "
+"menu."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:70
+#: ../../source/developer/build/BUILD_WIN.md:80
+#: ../../source/developer/build/BUILD_WIN.md:89
+msgid "Click on 'Environment Variables'"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:71
+#: ../../source/developer/build/BUILD_WIN.md:81
+#: ../../source/developer/build/BUILD_WIN.md:90
+msgid "Select 'New'"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:73
+#, python-format
+msgid ""
+"Set \"Variable value\" to "
+"%QT_INSTALL_DIR%\\5.12.3\\msvc2017_64\\lib\\cmake, where %QT_INSTALL_DIR%"
+" is the directory you specified for Qt's installation. The default is "
+"C:\\Qt."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:75
+msgid "Step 6. Create VCPKG environment variable"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:76
 #, python-format
 msgid ""
 "In the next step, you will use CMake to build Vircadia. By default, the "
@@ -1443,37 +1515,22 @@ msgid ""
 "will contain all dependency files until you manually remove them."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:59
-#: ../../source/developer/build/BUILD_WIN.md:68
-msgid "To create this variable:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:60
-#: ../../source/developer/build/BUILD_WIN.md:69
+#: ../../source/developer/build/BUILD_WIN.md:79
+#: ../../source/developer/build/BUILD_WIN.md:88
 msgid ""
-"Naviagte to 'Edit the System Environment Variables' Through the start "
+"Navigate to 'Edit the System Environment Variables' Through the start "
 "menu."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:61
-#: ../../source/developer/build/BUILD_WIN.md:70
-msgid "Click on 'Environment Variables'"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:62
-#: ../../source/developer/build/BUILD_WIN.md:71
-msgid "Select 'New'"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:63
+#: ../../source/developer/build/BUILD_WIN.md:82
 msgid "Set \"Variable name\" to HIFI_VCPKG_BASE"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:64
+#: ../../source/developer/build/BUILD_WIN.md:83
 msgid "Set \"Variable value\" to any directory that you have control over."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:66
+#: ../../source/developer/build/BUILD_WIN.md:85
 msgid ""
 "Additionally, if you have Visual Studio 2019 installed and only Visual "
 "Studio 2019 (i.e. you do not have Visual Studio 2017 installed) you must "
@@ -1481,137 +1538,137 @@ msgid ""
 " a bug in our vcpkg pre-build step."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:72
+#: ../../source/developer/build/BUILD_WIN.md:91
 msgid "Set \"Variable name\" to HIFI_VCPKG_BOOTSTRAP"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:73
+#: ../../source/developer/build/BUILD_WIN.md:92
 msgid "Set \"Variable value\" to 1"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:75
-msgid "Step 6. Running CMake to Generate Build Files"
+#: ../../source/developer/build/BUILD_WIN.md:94
+msgid "Step 7. Running CMake to Generate Build Files"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:77
+#: ../../source/developer/build/BUILD_WIN.md:96
 msgid ""
 "Run Command Prompt from Start and run the following commands:<br />cd "
 "\"%VIRCADIA_DIR%\"<br />mkdir build<br />cd build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:82
+#: ../../source/developer/build/BUILD_WIN.md:101
 msgid "If you're using Visual Studio 2017,"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:83
+#: ../../source/developer/build/BUILD_WIN.md:102
 msgid "Run cmake .. -G \"Visual Studio 15 Win64\"."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:85
+#: ../../source/developer/build/BUILD_WIN.md:104
 msgid "If you're using Visual Studio 2019,"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:86
+#: ../../source/developer/build/BUILD_WIN.md:105
 msgid "Run cmake .. -G \"Visual Studio 16 2019\" -A x64."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:88
+#: ../../source/developer/build/BUILD_WIN.md:107
 #, python-format
 msgid "Where %VIRCADIA_DIR% is the directory for the Vircadia repository."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:90
-msgid "Step 7. Making a Build"
+#: ../../source/developer/build/BUILD_WIN.md:109
+msgid "Step 8. Making a Build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:92
+#: ../../source/developer/build/BUILD_WIN.md:111
 msgid "Open %VIRCADIA_DIR%\\build\\vircadia.sln using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:94
+#: ../../source/developer/build/BUILD_WIN.md:113
 msgid ""
 "Change the Solution Configuration (menu ribbon under the menu bar, next "
 "to the green play button) from \"Debug\" to \"Release\" for best "
 "performance."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:96
+#: ../../source/developer/build/BUILD_WIN.md:115
 msgid "Run from the menu bar Build > Build Solution."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:98
-msgid "Step 8. Testing Interface"
+#: ../../source/developer/build/BUILD_WIN.md:117
+msgid "Step 9. Testing Interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:100
+#: ../../source/developer/build/BUILD_WIN.md:119
 msgid "Create another environment variable (see Step #3)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:101
+#: ../../source/developer/build/BUILD_WIN.md:120
 msgid "Set \"Variable name\": _NO_DEBUG_HEAP"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:102
+#: ../../source/developer/build/BUILD_WIN.md:121
 msgid "Set \"Variable value\": 1"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:104
+#: ../../source/developer/build/BUILD_WIN.md:123
 msgid "Restart Visual Studio again."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:106
+#: ../../source/developer/build/BUILD_WIN.md:125
 msgid ""
-"In Visual Studio, right+click \"interface\" under the Apps folder in "
+"In Visual Studio, right-click \"interface\" under the Apps folder in "
 "Solution Explorer and select \"Set as Startup Project\". Run from the "
 "menu bar Debug > Start Debugging."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:108
+#: ../../source/developer/build/BUILD_WIN.md:127
 msgid ""
 "Now, you should have a full build of Vircadia and be able to run the "
 "Interface using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:110
+#: ../../source/developer/build/BUILD_WIN.md:129
 msgid ""
 "Note: You can also run Interface by launching it from command line or "
 "File Explorer from "
 "%VIRCADIA_DIR%\\build\\interface\\Release\\interface.exe"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:114
+#: ../../source/developer/build/BUILD_WIN.md:133
 msgid "For any problems after Step #7, first try this:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:115
+#: ../../source/developer/build/BUILD_WIN.md:134
 msgid "Delete your locally cloned copy of the Vircadia repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:116
+#: ../../source/developer/build/BUILD_WIN.md:135
 msgid "Restart your computer"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:117
+#: ../../source/developer/build/BUILD_WIN.md:136
 msgid "Redownload the repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:118
+#: ../../source/developer/build/BUILD_WIN.md:137
 msgid "Restart directions from Step #7"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:120
+#: ../../source/developer/build/BUILD_WIN.md:139
 msgid "CMake gives you the same error message repeatedly after the build fails"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:122
+#: ../../source/developer/build/BUILD_WIN.md:141
 msgid "Remove CMakeCache.txt found in the %VIRCADIA_DIR%\\build directory."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:124
+#: ../../source/developer/build/BUILD_WIN.md:143
 msgid "CMake can't find OpenSSL"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:126
+#: ../../source/developer/build/BUILD_WIN.md:145
 msgid ""
 "Remove CMakeCache.txt found in the %VIRCADIA_DIR%\\build directory.  "
 "Verify that your HIFI_VCPKG_BASE environment variable is set and pointing"
@@ -2412,3 +2469,29 @@ msgid ""
 "Color is enabled by default on Unix if output is being directed to a "
 "terminal, and disabled by default on Windows."
 msgstr ""
+
+#~ msgid "Step 5. Create VCPKG environment variable"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Naviagte to 'Edit the System Environment"
+#~ " Variables' Through the start menu."
+#~ msgstr ""
+
+#~ msgid "Step 6. Running CMake to Generate Build Files"
+#~ msgstr ""
+
+#~ msgid "Step 7. Making a Build"
+#~ msgstr ""
+
+#~ msgid "Step 8. Testing Interface"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Visual Studio, right+click \"interface\""
+#~ " under the Apps folder in Solution"
+#~ " Explorer and select \"Set as Startup"
+#~ " Project\". Run from the menu bar "
+#~ "Debug > Start Debugging."
+#~ msgstr ""
+

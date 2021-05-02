@@ -8,18 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-04-01 17:33+0200\n"
+"POT-Creation-Date: 2021-04-10 23:49+0000\n"
 "PO-Revision-Date: 2021-04-25 19:58+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/explore/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/explore/es/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
 msgid "Gallery"
@@ -113,7 +112,7 @@ msgstr ""
 #: ../../source/explore/get-started/adjust-settings.rst:129
 #: ../../source/explore/get-started/android.rst:82
 #: ../../source/explore/get-started/architecture.rst:105
-#: ../../source/explore/get-started/install.rst:208
+#: ../../source/explore/get-started/install.rst:214
 #: ../../source/explore/get-started/vr-controls.rst:224
 #: ../../source/explore/personalize/add-wearables.rst:35
 msgid "**See Also**"
@@ -125,7 +124,7 @@ msgstr ""
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/install.rst:3
-#: ../../source/explore/get-started/install.rst:113
+#: ../../source/explore/get-started/install.rst:119
 msgid "Install Vircadia"
 msgstr ""
 
@@ -1406,8 +1405,8 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:60
 msgid ""
-"`Windows 64-bit - Eos v2021.1.0 Installer "
-"<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.0-Eos.exe>`__ "
+"`Windows 64-bit - Eos v2021.1.1 Installer "
+"<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.1-Eos.exe>`__ "
 "|DownloadWI|"
 msgstr ""
 
@@ -1424,8 +1423,8 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:65
 msgid ""
-"`macOS Intel - Eos v2021.1.0 Installer <https://cdn.vircadia.com/dist"
-"/release-experimental/Vircadia-Interface-2021.1.0-Eos.dmg>`__ |DownloadM|"
+"`macOS Intel - Eos v2021.1.1 Installer <https://cdn.vircadia.com/dist"
+"/release-experimental/Vircadia-Interface-2021.1.1-Eos.dmg>`__ |DownloadM|"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:67
@@ -1434,19 +1433,21 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:69
 msgid ""
-"`EU Mirror: Linux amd64 - Eos v2021.1.0 AppImage "
+"`EU Mirror: Linux amd64 - Eos v2021.1.1 AppImage "
 "<https://appimage.moto9000.moe/release/Vircadia-"
-"x86_64_v2021.1.0-Eos.AppImage>`__ |DownloadLEU|"
+"x86_64_v2021.1.1-Eos.AppImage>`__ |DownloadLEU| (`zsync "
+"<http://appimage.moto9000.moe/release/Vircadia-x86_64-release-"
+"latest.AppImage.zsync>`__ |DownloadLEUZ|)"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:70
+#: ../../source/explore/get-started/install.rst:71
 msgid ""
-"`US Mirror: Linux amd64 - Eos v2021.1.0 AppImage "
-"<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.0-Eos.AppImage>`__"
+"`US Mirror: Linux amd64 - Eos v2021.1.1 AppImage "
+"<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.1-Eos.AppImage>`__"
 " |DownloadLUS|"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:72
+#: ../../source/explore/get-started/install.rst:73
 msgid ""
 "If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR"
 " or Oculus Runtime is also installed on your system before launching "
@@ -1454,17 +1455,17 @@ msgid ""
 "supported on Linux."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:115
+#: ../../source/explore/get-started/install.rst:121
 msgid ""
 "Once you've downloaded the installer, you're ready to install Vircadia. "
 "The process will be different based on your operating system:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:119
+#: ../../source/explore/get-started/install.rst:125
 msgid "Windows Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:121
+#: ../../source/explore/get-started/install.rst:127
 msgid ""
 "To install on Windows, simply double-click on the downloaded installer "
 "file to open it. Run through the prompts on the installer. Once you "
@@ -1472,95 +1473,95 @@ msgid ""
 "log in and begin exploring the metaverse."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:126
+#: ../../source/explore/get-started/install.rst:132
 msgid "Mac Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:128
+#: ../../source/explore/get-started/install.rst:134
 msgid ""
 "At this time, the Vircadia installer for Mac is unsigned, so you will "
 "need give the OS permission to install the application."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:130
+#: ../../source/explore/get-started/install.rst:136
 msgid "Open the downloaded installer dmg file."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:131
+#: ../../source/explore/get-started/install.rst:137
 msgid "Agree to the License Agreement."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:132
+#: ../../source/explore/get-started/install.rst:138
 msgid "Drag Vircadia to the Applications folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:133
+#: ../../source/explore/get-started/install.rst:139
 msgid ""
 "Try opening Interface.app. You will be prompted that macOS will not open "
 "the file because it is unsigned."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:134
+#: ../../source/explore/get-started/install.rst:140
 msgid ""
 "Open **System Preferences > Security & Privacy**. On older macOS versions"
 " this might be in **System Preferences > General**."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:135
+#: ../../source/explore/get-started/install.rst:141
 msgid ""
 "Next to the warning indicating that Interface is blocked, click 'Open "
 "Anyway'."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:136
+#: ../../source/explore/get-started/install.rst:142
 msgid "Confirm that you want to open the application."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:137
+#: ../../source/explore/get-started/install.rst:143
 msgid ""
 "Allow microphone access if prompted, in order to be able to talk inside "
 "the application."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:139
+#: ../../source/explore/get-started/install.rst:145
 msgid ""
 "At this point, Interface will open and you will be able to log in and "
 "begin exploring the metaverse."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:144
+#: ../../source/explore/get-started/install.rst:150
 msgid "Linux Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:146
+#: ../../source/explore/get-started/install.rst:152
 msgid ""
 "Mark the downloaded AppImage file as executable. (for example, with "
 "``chmod +x Vircadia-x86_64_v2021.1.0-Eos.AppImage``.)"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:147
+#: ../../source/explore/get-started/install.rst:153
 msgid ""
 "(Optional) If you want the AppImage to be integrated into your system, "
 "install `AppImageLauncher "
 "<https://github.com/TheAssassin/AppImageLauncher>`_."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:148
+#: ../../source/explore/get-started/install.rst:154
 msgid "Execute AppImage."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:150
+#: ../../source/explore/get-started/install.rst:156
 msgid ""
 "Currently the server is not part of the Linux Interface AppImage. To host"
 " a domain, please refer to :doc:`Host a Domain from a Local or Cloud "
 "Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:154
+#: ../../source/explore/get-started/install.rst:160
 msgid "Upgrade Vircadia"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:156
+#: ../../source/explore/get-started/install.rst:162
 msgid ""
 "Vircadia is always changing, as we work to improve performance and add "
 "features that will enhance your experience in the metaverse. At any time,"
@@ -1568,7 +1569,7 @@ msgid ""
 "<https://vircadia.com/download-vircadia/#interface>`_."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:159
+#: ../../source/explore/get-started/install.rst:165
 msgid ""
 "You cannot upgrade Vircadia on Windows if you have Vircadia Interface or "
 "Server running on your computer. Be sure to quit these applications "
@@ -1576,24 +1577,24 @@ msgid ""
 "the background."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:162
+#: ../../source/explore/get-started/install.rst:168
 msgid ""
 "For Windows, locate the Vircadia app in your system tray. Right-click on "
 "the icon and select 'Quit'. Alternatively, end the 'server-console' "
 "background process using the Task Manager."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:164
+#: ../../source/explore/get-started/install.rst:170
 msgid ""
 "For more information on the latest releases, see our :doc:`Release Notes "
 "<../../release-notes>`."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:169
+#: ../../source/explore/get-started/install.rst:175
 msgid "Perform a Clean Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:171
+#: ../../source/explore/get-started/install.rst:177
 msgid ""
 "If you're facing problems when you load Interface or the local Server, "
 "then you can try performing a clean install. A clean install removes "
@@ -1601,35 +1602,35 @@ msgid ""
 "again."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:174
+#: ../../source/explore/get-started/install.rst:180
 msgid ""
 "Ensure that you back up the following files before a clean install: "
 "Favorites, Wearables, Server content, and Entities. These settings will "
 "be deleted during the clean install."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:178
+#: ../../source/explore/get-started/install.rst:184
 msgid "Windows Clean Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:180
+#: ../../source/explore/get-started/install.rst:186
 msgid ""
 "Click on the Start menu and type \"Add or Remove Programs\" in your "
 "Windows search bar."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:181
+#: ../../source/explore/get-started/install.rst:187
 msgid "Uninstall any versions of Vircadia that are visible."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:182
+#: ../../source/explore/get-started/install.rst:188
 #, python-format
 msgid ""
 "Once Vircadia is uninstalled, browse to your %Program Files% directory. "
 "Delete all folders related to Vircadia."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:186
+#: ../../source/explore/get-started/install.rst:192
 msgid ""
 "The next 3 steps will permanently delete your local Server's content. If "
 "you wish to keep this content, copy %AppData%/Local/Vircadia/assignment-"
@@ -1637,7 +1638,7 @@ msgid ""
 " %AppData%/Roaming/Vircadia/assignment-client."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:190
+#: ../../source/explore/get-started/install.rst:196
 #, python-format
 msgid ""
 "Browse to your local %AppData% folder (usually "
@@ -1647,7 +1648,7 @@ msgid ""
 "related to Vircadia."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:192
+#: ../../source/explore/get-started/install.rst:198
 #, python-format
 msgid ""
 "Browse to your roaming %AppData% folder (usually "
@@ -1655,54 +1656,54 @@ msgid ""
 " to Vircadia."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:193
+#: ../../source/explore/get-started/install.rst:199
 msgid ""
 "Re-install Vircadia using the steps above. To restore your local Server's"
 " content, copy the ``assignment-client`` folders you previously saved "
 "back into to their respective locations."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:197
+#: ../../source/explore/get-started/install.rst:203
 msgid "Mac Clean Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:199
+#: ../../source/explore/get-started/install.rst:205
 msgid "Open your Applications folder and delete the Vircadia folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:200
+#: ../../source/explore/get-started/install.rst:206
 msgid ""
 "Open the ``<username>/.config`` folder. This is a hidden folder than is "
 "accessible by going to *Go > Home*. Press the keyboard shortcut ``Command"
 " + Shift + .`` (period)."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:201
+#: ../../source/explore/get-started/install.rst:207
 msgid "Delete the ``vircadia.com`` folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:202
+#: ../../source/explore/get-started/install.rst:208
 msgid ""
 "Open the ``~/Library`` folder by holding the Option key and clicking the "
 "'Go' menu while in the Finder. The Library option should appear in the "
 "menu."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:203
+#: ../../source/explore/get-started/install.rst:209
 msgid ""
 "Browse to ``~/Library/Application Support`` and delete the Vircadia "
 "folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:204
+#: ../../source/explore/get-started/install.rst:210
 msgid "Empty the Trash."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:205
+#: ../../source/explore/get-started/install.rst:211
 msgid "Re-install Vircadia using the steps above."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:210
+#: ../../source/explore/get-started/install.rst:216
 msgid ":doc:`Install Your Domain <../../host/server-setup>`"
 msgstr ""
 
@@ -3682,3 +3683,30 @@ msgstr ""
 #: ../../source/explore/travel.md:38
 msgid "Select their name then 'Visit'."
 msgstr ""
+
+#~ msgid ""
+#~ "`Windows 64-bit - Eos v2021.1.0 "
+#~ "Installer "
+#~ "<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.0-Eos.exe>`__"
+#~ " |DownloadWI|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`macOS Intel - Eos v2021.1.0 Installer"
+#~ " <https://cdn.vircadia.com/dist/release-experimental"
+#~ "/Vircadia-Interface-2021.1.0-Eos.dmg>`__ |DownloadM|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`EU Mirror: Linux amd64 - Eos "
+#~ "v2021.1.0 AppImage <https://appimage.moto9000.moe/release"
+#~ "/Vircadia-x86_64_v2021.1.0-Eos.AppImage>`__ |DownloadLEU|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`US Mirror: Linux amd64 - Eos "
+#~ "v2021.1.0 AppImage "
+#~ "<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.0-Eos.AppImage>`__"
+#~ " |DownloadLUS|"
+#~ msgstr ""
+

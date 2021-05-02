@@ -8,60 +8,58 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-01-23 22:27+0000\n"
+"POT-Creation-Date: 2021-04-02 18:53+0000\n"
 "PO-Revision-Date: 2021-03-29 01:29+0000\n"
 "Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
-"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/home/ja/>\n"
 "Language: jp\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/home/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.6.0\n"
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid "HOME"
 msgstr "はじめる"
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid "EXPLORE"
 msgstr "探す"
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid "CREATE"
 msgstr "作る"
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid "SCRIPT"
 msgstr "スクリプト"
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid "HOST"
 msgstr "ホスト"
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid "CONTRIBUTE"
 msgstr "コントリビュート"
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid "DEVELOPER"
 msgstr "デベロッパー"
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid "SECURITY"
 msgstr "セキュリティ"
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid "FAQ"
 msgstr "よくある質問"
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid "RELEASE NOTES"
 msgstr "リリースノート"
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid "API REFERENCE"
 msgstr "APIレファレンス"
 
@@ -75,9 +73,7 @@ msgid ""
 "virtual worlds as virtual reality (VR) and desktop experiences. You can "
 "create and host your own virtual world, explore other worlds, meet and "
 "connect with other users, attend or host live VR events, and much more."
-msgstr ""
-"Vircadia™は、バーチャルリアリティ（VR）やデスクトップ体験としてのバーチャルワールドを作成し、共有することができるオープンソースのソフトウェアで"
-"す。自分だけのワールドを作ってホストしたり、他のワールドを探検したり、他のユーザーと会ってつながったり、ライブVRイベントに参加したりすることができます。"
+msgstr "Vircadia™は、バーチャルリアリティ（VR）やデスクトップ体験としてのバーチャルワールドを作成し、共有することができるオープンソースのソフトウェアです。自分だけのワールドを作ってホストしたり、他のワールドを探検したり、他のユーザーと会ってつながったり、ライブVRイベントに参加したりすることができます。"
 
 #: ../../source/home.rst:8
 msgid ""
@@ -87,10 +83,7 @@ msgid ""
 "virtual environment. No matter where you go in Vircadia, you will always "
 "be able to interact with your environment, engage with your friends, and "
 "listen to conversations just like you would in real life."
-msgstr ""
-"VircadiaのMetaverse（メタバース）には、アバターのインタラクション、空間化されたオーディオ、インタラクティブな物理演算などのソーシャル機能"
-"が組み込まれています。さらに、あらゆる3Dオブジェクトを仮想環境へインポートする機能もあります。Vircadiaではどこへ行っても環境とインタラクトするこ"
-"とができ、フレンドやユーザーとの会話を楽しむことができます。"
+msgstr "VircadiaのMetaverse（メタバース）には、アバターのインタラクション、空間化されたオーディオ、インタラクティブな物理演算などのソーシャル機能が組み込まれています。さらに、あらゆる3Dオブジェクトを仮想環境へインポートする機能もあります。Vircadiaではどこへ行っても環境とインタラクトすることができ、フレンドやユーザーとの会話を楽しむことができます。"
 
 #: ../../source/home.rst:12
 msgid ""
@@ -106,8 +99,8 @@ msgid ""
 "Vircadia `Discord server <https://discordapp.com/invite/Pvx2vke>`__ "
 "|Discord|."
 msgstr ""
-"ドキュメントに加えて、Vircadia の `Discord サーバー <https://discordapp.com/invite/Pvx2vke>`"
-"__ |Discord| に参加できます。"
+"ドキュメントに加えて、Vircadia の `Discord サーバー "
+"<https://discordapp.com/invite/Pvx2vke>`__ |Discord| に参加できます。"
 
 #: ../../source/home.rst:35
 msgid "This documentation is authored in `English <https://docs.vircadia.dev/>`_."
@@ -122,22 +115,27 @@ msgid "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
 #: ../../source/home.rst:40
+#, fuzzy
+msgid "`Español <https://docs.vircadia.dev/es/>`_ |es_trans|"
+msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
+
+#: ../../source/home.rst:41
 msgid "`Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 msgstr "`Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 
-#: ../../source/home.rst:41
+#: ../../source/home.rst:42
 msgid "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
-#: ../../source/home.rst:57
+#: ../../source/home.rst:62
 msgid "What can I do?"
 msgstr "Vircadiaで出来ること"
 
-#: ../../source/home.rst:59
+#: ../../source/home.rst:64
 msgid "You have the power to shape your VR experience in Vircadia."
 msgstr "あなたは、VircadiaでのVR体験そのものを思い通りにする力を持っています。"
 
-#: ../../source/home.rst:61
+#: ../../source/home.rst:66
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
@@ -145,38 +143,39 @@ msgstr ""
 ":doc:`探す <explore>`: "
 "Metaverseのドメイン間を行き来したり、イベントに参加したり、他のユーザーが何をしているかをチェックしたりしましょう。"
 
-#: ../../source/home.rst:62
+#: ../../source/home.rst:67
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
 msgstr ":doc:`作る<create>`: アバターやドメイン、タブレットアプリなどを作成できます。"
 
-#: ../../source/home.rst:63
+#: ../../source/home.rst:68
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
 msgstr ""
-":doc:`スクリプト<script>`: 高度なスクリプトをMetaverseのエンティティやアバターに適用することで、創造性を発揮することができます。"
+":doc:`スクリプト<script>`: "
+"高度なスクリプトをMetaverseのエンティティやアバターに適用することで、創造性を発揮することができます。"
 
-#: ../../source/home.rst:64
+#: ../../source/home.rst:69
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
 msgstr ":doc:`ホスト<host>`: 自分のインスタンスを構築し、イマーシブな体験をあなたの観客へ届けましょう。"
 
-#: ../../source/home.rst:65
+#: ../../source/home.rst:70
 msgid ""
 ":doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source "
 "code in the repository."
 msgstr ":doc:`コントリビュート<contribute>`: プロジェクトのソースコードをリポジトリで閲覧し、貢献することができます。"
 
-#: ../../source/home.rst:66
+#: ../../source/home.rst:71
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
 msgstr ":doc:`デベロッパー<developer>`: 自分のニーズに合わせてプロジェクトをカスタマイズできます。"
 
-#: ../../source/home.rst:67
+#: ../../source/home.rst:72
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
@@ -224,3 +223,4 @@ msgstr ":doc:`セキュリティ<security>`: プロジェクトとその構成�
 #~ " host live VR events, and much "
 #~ "more."
 #~ msgstr ""
+

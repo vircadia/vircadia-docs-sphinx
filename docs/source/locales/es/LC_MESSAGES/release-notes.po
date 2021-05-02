@@ -8,18 +8,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-04-01 17:33+0200\n"
+"POT-Creation-Date: 2021-04-10 09:21+0000\n"
 "PO-Revision-Date: 2021-04-18 00:01+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/release-notes/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/release-notes/es/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/release-notes.rst:7
+msgid "Release 2021.1.1 Eos (2021-04-08)"
+msgstr ""
 
 #: ../../source/release-notes.rst:7
 msgid "Release 2021.1.0 Eos (2021-02-21)"
@@ -146,6 +149,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:5
 #: ../../source/release-notes/2020-3-3-Demeter.md:5
 #: ../../source/release-notes/2021-1-0-Eos.md:5
+#: ../../source/release-notes/2021-1-1-Eos.md:5
 msgid "Interface (Codename Athena)"
 msgstr ""
 
@@ -170,6 +174,8 @@ msgstr ""
 #: ../../source/release-notes/2020-3-3-Demeter.md:55
 #: ../../source/release-notes/2021-1-0-Eos.md:7
 #: ../../source/release-notes/2021-1-0-Eos.md:50
+#: ../../source/release-notes/2021-1-1-Eos.md:7
+#: ../../source/release-notes/2021-1-1-Eos.md:57
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia "
 "repo."
@@ -196,6 +202,8 @@ msgstr ""
 #: ../../source/release-notes/2020-3-3-Demeter.md:57
 #: ../../source/release-notes/2021-1-0-Eos.md:9
 #: ../../source/release-notes/2021-1-0-Eos.md:52
+#: ../../source/release-notes/2021-1-1-Eos.md:9
+#: ../../source/release-notes/2021-1-1-Eos.md:59
 #: ../../source/release-notes/v86-k2.md:9
 #: ../../source/release-notes/v86-k2.md:62
 msgid "General"
@@ -562,6 +570,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:212
 #: ../../source/release-notes/2020-3-3-Demeter.md:127
 #: ../../source/release-notes/2021-1-0-Eos.md:147
+#: ../../source/release-notes/2021-1-1-Eos.md:128
 #: ../../source/release-notes/v86-k2.md:67
 msgid "Documentation"
 msgstr "Documentación"
@@ -1244,6 +1253,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:214
 #: ../../source/release-notes/2020-3-3-Demeter.md:129
 #: ../../source/release-notes/2021-1-0-Eos.md:149
+#: ../../source/release-notes/2021-1-1-Eos.md:130
 #: ../../source/release-notes/v86-k2.md:69
 msgid "User Docs"
 msgstr ""
@@ -1259,6 +1269,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:216
 #: ../../source/release-notes/2020-3-3-Demeter.md:131
 #: ../../source/release-notes/2021-1-0-Eos.md:151
+#: ../../source/release-notes/2021-1-1-Eos.md:132
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia-"
 "Docs-Sphinx repo."
@@ -1307,6 +1318,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:223
 #: ../../source/release-notes/2020-3-3-Demeter.md:138
 #: ../../source/release-notes/2021-1-0-Eos.md:161
+#: ../../source/release-notes/2021-1-1-Eos.md:141
 #: ../../source/release-notes/v86-k2.md:76
 msgid "API Docs"
 msgstr ""
@@ -1322,6 +1334,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:225
 #: ../../source/release-notes/2020-3-3-Demeter.md:140
 #: ../../source/release-notes/2021-1-0-Eos.md:163
+#: ../../source/release-notes/2021-1-1-Eos.md:143
 msgid ""
 "The API docs are generated from the software source repo. The latest live"
 " deployment source can be viewed here."
@@ -1560,6 +1573,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:69
 #: ../../source/release-notes/2020-3-3-Demeter.md:53
 #: ../../source/release-notes/2021-1-0-Eos.md:48
+#: ../../source/release-notes/2021-1-1-Eos.md:55
 msgid "Domain Server"
 msgstr ""
 
@@ -1712,6 +1726,8 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:57
 #: ../../source/release-notes/2020-3-3-Demeter.md:44
 #: ../../source/release-notes/2021-1-0-Eos.md:37
+#: ../../source/release-notes/2021-1-1-Eos.md:32
+#: ../../source/release-notes/2021-1-1-Eos.md:65
 msgid "Miscellaneous"
 msgstr ""
 
@@ -1776,6 +1792,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:208
 #: ../../source/release-notes/2020-3-3-Demeter.md:123
 #: ../../source/release-notes/2021-1-0-Eos.md:137
+#: ../../source/release-notes/2021-1-1-Eos.md:121
 msgid "Vircadia Launcher (Codename Pantheon)"
 msgstr ""
 
@@ -2329,6 +2346,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:79
 #: ../../source/release-notes/2020-3-3-Demeter.md:61
 #: ../../source/release-notes/2021-1-0-Eos.md:59
+#: ../../source/release-notes/2021-1-1-Eos.md:69
 msgid "Metaverse Server & Dashboard (Codename Iamus)"
 msgstr ""
 
@@ -2852,6 +2870,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:81
 #: ../../source/release-notes/2020-3-3-Demeter.md:63
 #: ../../source/release-notes/2021-1-0-Eos.md:61
+#: ../../source/release-notes/2021-1-1-Eos.md:71
 msgid "Iamus Metaverse Server"
 msgstr ""
 
@@ -2894,6 +2913,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:198
 #: ../../source/release-notes/2020-3-3-Demeter.md:114
 #: ../../source/release-notes/2021-1-0-Eos.md:125
+#: ../../source/release-notes/2021-1-1-Eos.md:113
 msgid "Iamus Metaverse Dashboard"
 msgstr ""
 
@@ -3608,6 +3628,329 @@ msgstr ""
 msgid "Fix typo in getPlatformTierNames UNKNWON -> UNKNOWN. (#982)"
 msgstr ""
 
+#: ../../source/release-notes/2021-1-1-Eos.md:1
+msgid "2021.1.1 Eos Release Notes"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:3
+msgid ""
+"This version of Vircadia is an update to 2021.1.0. It is compatible with "
+"the 2020.1.0 Eos protocol. This version was released on April 8th, 2021."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:11
+msgid ""
+"UI/UX: Add an onboarding wizard for first run configuration of Vircadia. "
+"(#999)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:12
+msgid ""
+"UI/UX: Add a manual noise reduction mode with a slider for adjustment. "
+"(#1007, #1097)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:13
+msgid ""
+"API: Controller.triggerHapticPulse now supports selecting an arbitrary "
+"device instead of triggering two hands every time. (#1013)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:14
+msgid ""
+"Application: Non-uniformly scaled sphere zones and models now behave like"
+" ellipsoids. (#1033)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:15
+msgid ""
+"API: Fix keepAspectRatio property of Image entities to correctly scale "
+"with any ratio. (#1050, #1141)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:16
+msgid "App: 'Create' app's tooltips have been fixed. (#1063)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:17
+msgid "Application: Fix a crash on shutdown for OSX. (#1064)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:18
+msgid ""
+"Application: Fix a crash on some avatars in VR due to an inverse "
+"kinematics error. (#1066)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:19
+msgid ""
+"App: 'Create' app has had a Broken URL Report utility added to it to aid "
+"in finding broken URLs on entity properties in a domain. (#1069, #1144)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:20
+msgid "Graphics: Material improvements package. (#1076)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:21
+msgid "Fix transparency issue on shape entities."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:22
+msgid "Gizmo, Image, and Text entities now support material entities on them."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:23
+msgid "Fix cullFaceMode not rendering correctly on unparented material entities."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:24
+msgid ""
+"Application: Rename 'Vircadia Sandbox' to 'Vircadia Server'; disable "
+"server shortcuts being created with an express install on Windows. "
+"(#1081)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:25
+msgid "App/API: Improved ban functionality. (#1090, #1155)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:26
+msgid ""
+"App: 'People' app now has a second ban button that kicks based on "
+"username, machine fingerprint, and IP address; the original ban button "
+"now kicks based on username and machine fingerprint."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:27
+msgid ""
+"API: Users.kick function now offers the ability to specify a banFlags "
+"property to indicate what should happen when kicking a user."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:28
+msgid "App: 'Chat' now has domain chat muted by default. (#1094)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:29
+msgid "Graphics: Fix glTF vertex colors. (#1123)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:30
+msgid "Graphics: Fix parts of avatars rotating incorrectly. (#1124)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:34
+msgid "Docs: Update build instructions for the Oculus Quest platform. (#800)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:35
+msgid "Docs: Add full packaging instructions for Linux-based servers. (#899)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:36
+msgid ""
+"Docs: Document addition of the RELEASE_NAME environment variable for "
+"versions. (#1014)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:37
+msgid "Application: Add names to some threads to aid in debugging. (#1040)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:38
+msgid "Docs: Remove nvtt workaround from the Linux build documentation. (#1044)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:39
+msgid "Application: Optimize and tidy up some code in the MyAvatar class. (#1047)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:40
+msgid ""
+"Build: Update Linux-based server packaging scripts to allow input of "
+"versions. (#1055)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:41
+msgid "Build: Add the release name to the end of installers' names. (#1057)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:42
+msgid ""
+"Application: Set resource total size to content size when using a qrc:// "
+"resource. (#1068)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:43
+msgid ""
+"Application: Fix 'General' settings privacy option text to correctly "
+"reference 'Vircadia'. (#1071)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:44
+msgid ""
+"Docs: Define code blocks to fix Sphinx warnings in Vircadia docs. (#1078,"
+" #1083)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:45
+msgid ""
+"Build: Add the ability to preload an entity script whitelist when "
+"building. (#1081)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:46
+msgid "Application: Implement machine fingerprints for Linux. (#1092)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:47
+msgid "Misc: Add 'Stale' bot configuration to the repository. (#1117)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:48
+msgid "Application: Fix VIRCADIA_MEMORY_DEBUGGING on Linux/gcc. (#1127)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:49
+msgid ""
+"Application: Fix a stack-use-after-return error in the "
+"RenderableModelEntityItem class. (#1132)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:50
+msgid ""
+"Application: Add a virtual destructor to TreeNodeBase of the ScriptsModel"
+" class; possibly fixes a crash on exit. (#1134)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:51
+msgid ""
+"Build: Add missing override keywords to the PacketReceiver and "
+"RenderableTextEntityItem classes to fix warnings on build. (#1143)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:52
+msgid ""
+"Application: Fix getRotateForPicking function in the ShapeEntityItem "
+"class. (#1145)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:53
+msgid ""
+"Application: Remove unused variable in the RenderableGizmoEntityItem "
+"class. (#1148)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:61
+msgid ""
+"Messaging Mixer: Add per-second rate limiting for all connected nodes. "
+"(#1084)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:62
+msgid ""
+"Avatar Mixer: Add 'Avatar Entities' checkbox next to 'Connect' in the "
+"security tables. This checkbox will allow/deny a user to use and share "
+"avatar entities on a server. (#1098)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:63
+msgid ""
+"Domain Server: Log events for access to the web management interface. "
+"(#1153)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:67
+msgid "Domain Server: Fix warning: 'NULL' used in arithmetic. (#1147)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:73
+msgid "Version 2.3.15"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:82
+msgid "Version 2.3.14"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:93
+msgid "Version 2.3.13"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:103
+msgid "Version 2.3.12"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:115
+msgid ""
+"Updates are reflected here. The Dashboard has been upgraded from version "
+"1.2.5 to version 1.2.8."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:117
+msgid "Add the ability to edit the roles of users as an administrator."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:118
+msgid "Add images, thumbnails, tags, and maturity for places."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:119
+msgid "Update places list view."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:123
+msgid ""
+"Vircadia's launcher updates can be found here. The launcher is on version"
+" 1.1.0."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:125
+msgid ""
+"Add functionality for the launcher to restore itself from the tray "
+"instead of opening a new instance."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:126
+msgid "Add auto-update feature for the launcher."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:134
+msgid "Mark outdated pages. (#120)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:135
+msgid "Remove outdated branding from architecture images. (#121)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:136
+msgid "Update README.md to use latest version of Sphinx. (#122)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:137
+msgid ""
+"Add \"--forceCrashReporting\" and \"INITIAL_STARTUP_LOCATION\" "
+"references. (#123)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:138
+msgid "Fix remaining Sphinx warnings. (#124)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:139
+msgid "Add Spanish language translation support. (#130)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:146
+msgid "Users API:"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:147
+msgid ""
+"kick function updated with more options and new default functionality. "
+"(#1090)"
+msgstr ""
+
 #: ../../source/release-notes/v80.md:1
 msgid "Beta Release 80"
 msgstr ""
@@ -3643,8 +3986,8 @@ msgstr ""
 
 #: ../../source/release-notes/v80.md:11
 msgid ""
-"DigitalOcean Password Reset: Domain Admin users can now reset their "
-"admin username and password on DigitalOcean Domain Servers. Go to "
+"Digital Ocean Password Reset: Domain Admin users can now reset their "
+"admin username and password on Digital Ocean Domain Servers. Go to "
 "highfidelity.com/user/cloud_domains, sign in to High Fidelity, and select"
 " the Reset Domain Server password option from the menu."
 msgstr ""
@@ -6410,3 +6753,15 @@ msgid ""
 "Many commits directly to master not put into PRs by Kalila L. & Keb "
 "Helion found here between February 26th & March 16th, 2020."
 msgstr ""
+
+#~ msgid ""
+#~ "DigitalOcean Password Reset: Domain Admin "
+#~ "users can now reset their admin "
+#~ "username and password on DigitalOcean "
+#~ "Domain Servers. Go to "
+#~ "highfidelity.com/user/cloud_domains, sign in to "
+#~ "High Fidelity, and select the Reset "
+#~ "Domain Server password option from the"
+#~ " menu."
+#~ msgstr ""
+
