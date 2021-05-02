@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-04-01 17:33+0200\n"
-"PO-Revision-Date: 2021-04-25 19:58+0000\n"
+"PO-Revision-Date: 2021-05-02 07:37+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -798,32 +798,36 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-model.rst:30
 msgid "Click 'Open this Domain's Asset Server'."
-msgstr ""
+msgstr "Click en \"Abrir este Servidor de Activos del dominio\"."
 
 #: ../../source/create/3d-models/import-model.rst:31
 msgid "In the Asset Browser, browse to the model you would like to import."
-msgstr ""
+msgstr "En el Navegador de Activos, busca el modelo que te gustaría importar."
 
 #: ../../source/create/3d-models/import-model.rst:32
 msgid ""
 "Click 'Add to World'. Then click 'Add' on the confirmation window that "
 "opens."
 msgstr ""
+"Haz clic en \"Agregar al mundo\". Luego haz clic en \"Agregar\" en la "
+"ventana de confirmación que se abre."
 
 #: ../../source/create/3d-models/import-model.rst:38
 #: ../../source/create/entities/create-fountain.rst:94
 msgid ":doc:`Create Tools <../tools>`"
-msgstr ""
+msgstr ": doc: `Crear herramientas ../ tools`"
 
 #: ../../source/create/3d-models/import-model.rst:39
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
-msgstr ""
+msgstr ":doc:`Crear Nuevas Entidades <../entities/create-entities>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:2
 msgid ""
 "This document is slightly outdated. FIXME: Blender material settings "
 "outdated"
 msgstr ""
+"Este documento está un poco desactualizado. FIXME: la configuración del "
+"material \"Blender\" está desactualizada"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:9
 msgid ""
@@ -832,10 +836,14 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light like how they would (approximately) in real life."
 msgstr ""
+"La apariencia de un modelo 3D está controlada por sus materiales. Los "
+"materiales admitidos en Vircadia son materiales de renderizado de base "
+"física (PBR). Esto significa que los materiales de un modelo 3D reflejarán o "
+"absorberán la luz como lo harían (aproximadamente) en la vida real."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:16
 msgid "Introduction to Materials, Textures, and Shading"
-msgstr ""
+msgstr "Introducción a Materiales, Texturas y Sombreado"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:18
 msgid ""
@@ -844,6 +852,11 @@ msgid ""
 "metallic it looks, and if its surface is bumpy or smooth. A 3D model of a"
 " brick wall will have material that determines its roughness and color."
 msgstr ""
+"La apariencia de un modelo 3D está controlada por sus materiales. Por "
+"ejemplo, un modelo 3D de una tecla utilizará un material que determina su "
+"color, qué tan metálico se ve y si su superficie es irregular o lisa. Un "
+"modelo 3D de una pared de ladrillos tendrá material que determina su "
+"rugosidad y color."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:20
 msgid ""
@@ -853,10 +866,16 @@ msgid ""
 " light that falls on it. The 3D model of a brick wall will not shine, but"
 " will reflect enough light for you to observe its colors and surface."
 msgstr ""
+"Vircadia admite materiales de renderizado basados en la física (PBR). Esto "
+"significa que tu modelo se comportará como un objeto del mundo real cuando "
+"se exponga a la luz. Por ejemplo, el mismo modelo 3D de una tecla brillará y "
+"reflejará cualquier luz que incida sobre ella. El modelo 3D de una pared de "
+"ladrillos no brillará, pero reflejará suficiente luz para que puedas "
+"observar sus colores y superficie."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:22
 msgid "A material contains texture and shading information."
-msgstr ""
+msgstr "Un material contiene información sobre la textura y el sombreado."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:28
 msgid ""
@@ -864,26 +883,30 @@ msgid ""
 "on how a 3D model's material looks. For example, a 3D model of a tree "
 "trunk will use a texture of bark to show what the surface looks like."
 msgstr ""
+"Las texturas son imágenes planas que se aplican a modelos 3D. Estos agregan "
+"detalles sobre cómo se ve el material de un modelo 3D. Por ejemplo, un "
+"modelo 3D del tronco de un árbol utilizará una textura de corteza para "
+"mostrar cómo se ve la superficie."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:30
 msgid "Vircadia supports the use of the following texture formats:"
-msgstr ""
+msgstr "Vircadia admite el uso de los siguientes formatos de textura:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:32
 msgid "PNG (recommended)"
-msgstr ""
+msgstr "PNG (recomendado)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:33
 msgid "JPEG, JPG (recommended)"
-msgstr ""
+msgstr "JPEG, JPG (recomendado)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:34
 msgid "TGA"
-msgstr ""
+msgstr "TGA"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:35
 msgid "TIFF, TIF"
-msgstr ""
+msgstr "TIFF, TIF"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:37
 msgid ""
@@ -891,10 +914,13 @@ msgid ""
 "/add-content/bake-content>` (including textures) before uploading it to "
 "Vircadia."
 msgstr ""
+"Para un mejor rendimiento, recomendamos: doc: `hornear todos los modelos 3D "
+"../../host/add-content/bake-content` (incluidas las texturas) antes de "
+"cargarlo en Vircadia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:41
 msgid "Shading"
-msgstr ""
+msgstr "Sombreado"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:43
 msgid ""
@@ -904,6 +930,12 @@ msgid ""
 "different light settings. The PBR shader has a set of material parameters"
 " or channels that can be modified to create different types of materials."
 msgstr ""
+"Dado que Vircadia admite materiales PBR, el sombreado utilizado es una "
+"representación precisa de cómo la luz interactúa con diferentes superficies "
+"de materiales. Esto significa que su modelo 3D no se verá igual bajo "
+"diferentes configuraciones de luz. El sombreador PBR tiene un conjunto de "
+"parámetros o canales de material que se pueden modificar para crear "
+"diferentes tipos de materiales."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:45
 msgid ""
@@ -915,10 +947,17 @@ msgid ""
 "at :doc:`Procedural Shaders for Models and Avatars <../materials"
 "/procedural-shaders>`."
 msgstr ""
+"Puede combinar sombreadores con entidades de material en entidades de forma "
+"y zona para aplicar sombreadores a modelos y avatares. Esta función se lanzó "
+"como ** función experimental ** y no se ha probado exhaustivamente a través "
+"de nuestros canales habituales. Si deseas intentar aplicar materiales "
+"procedurales a modelos o avatares * bajo su propio riesgo *, puede encontrar "
+"más información en: doc: `Sombras Procedurales para modelos y avatares ../"
+"materials/procedural-shaders`."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:47
 msgid "**Material Channels**"
-msgstr ""
+msgstr "** Canales de material **"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:49
 msgid ""
@@ -926,6 +965,8 @@ msgid ""
 "color of a material. You can determine the value of each channel in two "
 "ways:"
 msgstr ""
+"Los canales de material determinan varios parámetros como la rugosidad o el "
+"color de un material. Puedes determinar el valor de cada canal de dos formas:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:51
 msgid ""
@@ -936,6 +977,12 @@ msgid ""
 " different parts of an object to reflect varied roughness, you'll need to"
 " use a map."
 msgstr ""
+"** Establecer un valor: ** El valor de un canal es un valor establecido por "
+"un control deslizante. Establecer un valor es como apagar o encender un "
+"interruptor. Por ejemplo, si miras tu teléfono, algunas partes son "
+"brillantes y otras son mate. Cuando usas un valor, todo el objeto refleja "
+"ese valor. Si desea que diferentes partes de un objeto reflejen una "
+"rugosidad variada, deberá usar un mapa."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:52
 msgid ""
@@ -945,50 +992,61 @@ msgid ""
 "phone is shiny. You can use a map to set the case as matte and the phone "
 "as shiny."
 msgstr ""
+"** Usando un mapa: ** El mapa es una imagen que puedes importar para definir "
+"una propiedad. Utilizarás un mapa para aplicar una textura a tu modelo 3D. "
+"Por ejemplo, tu teléfono puede tener una carcasa mate, pero el resto de tu "
+"teléfono es brillante. Puedes usar un mapa para configurar la carcasa como "
+"mate y el teléfono como brillante."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:54
 msgid ""
 "All materials in Vircadia have the following channels that determine how "
 "they look:"
 msgstr ""
+"Todos los materiales en Vircadia tienen los siguientes canales que "
+"determinan su apariencia:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:57
 msgid "Channel Type"
-msgstr ""
+msgstr "Tipo de Canal"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:57
 #: ../../source/create/entities/create-fountain.rst:35
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:57
 msgid "Map"
-msgstr ""
+msgstr "Mapa"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:59
 msgid "Albedo"
-msgstr ""
+msgstr "Albedo"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:59
 msgid ""
 "This channel defines the material's color. You can pick any color value "
 "of your choice."
 msgstr ""
+"Este canal define el color del material. Puedes elegir cualquier valor de "
+"color de tu elección."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:59
 #: ../../source/create/3d-models/pbr-materials-guide.rst:77
 msgid "sRGB"
-msgstr ""
+msgstr "sRGB"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:62
 msgid "Metallic"
-msgstr ""
+msgstr "Metallic"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:62
 msgid ""
 "This channel determines if the material is metallic or not. You cannot "
 "have a material that is half metallic, it is either metallic or it isn't."
 msgstr ""
+"Este canal determina si el material es metálico o no. No se puede tener un "
+"material que sea medio metálico, o es metálico o no lo es."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:62
 #: ../../source/create/3d-models/pbr-materials-guide.rst:65
@@ -996,21 +1054,23 @@ msgstr ""
 #: ../../source/create/3d-models/pbr-materials-guide.rst:74
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "[0,1]"
-msgstr ""
+msgstr "[0,1]"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:65
 msgid "Roughness"
-msgstr ""
+msgstr "Roughness"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:65
 msgid ""
 "This determines how rough/matte or glossy/shiny an object is, using "
 "brightness levels."
 msgstr ""
+"Esto determina qué tan áspero/mate o reflectivo/brillante es un objeto, "
+"usando niveles de brillo."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
 msgid ""
@@ -1018,76 +1078,84 @@ msgid ""
 " For instance, normal would add bumps and other irregularities to a stone"
 " or ridges to a sea-shell."
 msgstr ""
+"Normal es un canal que muestra un objeto como si hubiera una geometría real. "
+"Por ejemplo, normal agregaría protuberancias y otras irregularidades a una "
+"piedra o crestas a una concha marina."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
 msgid "xyz"
-msgstr ""
+msgstr "xyz"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
 msgid "bump"
-msgstr ""
+msgstr "bump"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:72
 msgid "Opacity"
-msgstr ""
+msgstr "Opacity"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:72
 msgid "Opacity determines if an object is transparent or opaque."
-msgstr ""
+msgstr "La opacidad determina si un objeto es transparente u opaco."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:72
 msgid "mask, alpha"
-msgstr ""
+msgstr "mask, alpha"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:74
 msgid "Occlusion"
-msgstr ""
+msgstr "Occlusion"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:74
 msgid ""
 "This property approximates the shading to be as natural as possible. This"
 " means that it will reproduce how objects interact with light."
 msgstr ""
+"Esta propiedad se aproxima al sombreado para que sea lo más natural posible. "
+"Esto significa que mostrará cómo los objetos interactúan con la luz."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:74
 #: ../../source/create/3d-models/pbr-materials-guide.rst:82
 msgid "---"
-msgstr ""
+msgstr "---"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:77
 msgid "Emissive"
-msgstr ""
+msgstr "Emissive"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:77
 msgid "This channel controls the amount of light being reflected from an object."
-msgstr ""
+msgstr "Este canal controla la cantidad de luz que se refleja en un objeto."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 #: ../../source/create/avatars/scattering-tutorial.rst:47
 msgid "Scattering"
-msgstr ""
+msgstr "Scattering"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid ""
 "Scattering determines how light will behave when it hits human skin. This"
 " channel details how light is reflected or absorbed by human bodies."
 msgstr ""
+"El Scatering (Dispersión) determina cómo se comportará la luz cuando golpee "
+"la piel humana. Este canal detalla cómo la luz es reflejada o absorbida por "
+"los cuerpos humanos."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:82
 msgid "Material Type"
-msgstr ""
+msgstr "Material Type"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:82
 msgid "This channel decides if an object is lit or unlit."
-msgstr ""
+msgstr "Este canal decide si un objeto está encendido o apagado."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:82
 msgid "[lit, unlit]"
-msgstr ""
+msgstr "[lit, unlit]"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:85
 msgid "Notes:"
-msgstr ""
+msgstr "Notas:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:87
 msgid ""
@@ -1095,6 +1163,9 @@ msgid ""
 "be in the material’s albedo texture, as a PNG file with transparency and "
 "not as a separate transparency texture."
 msgstr ""
+"Si configuras la transparencia con una textura, la transparencia (alfa) debe "
+"estar en la textura de l material albedo, como un archivo PNG con "
+"transparencia y no como una textura de transparencia separada."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:88
 msgid ""
@@ -1103,6 +1174,11 @@ msgid ""
 "casts no shadows,) and \"mask\" (binary transparency, full shading of "
 "opaque surface, whole surface casts shadow.)"
 msgstr ""
+"El renderizador de Vircadia puede dibujar dos tipos diferentes de "
+"transparencia: \"alfa\" (255 pasos graduados de transparencia, sin sombreado "
+"en la superficie, sin proyectar sombras) y \"mask\" (transparencia binaria, "
+"sombreado completo de la superficie opaca, toda la superficie proyecta la "
+"sombra)."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid ""
@@ -1112,12 +1188,19 @@ msgid ""
 "binary transparency, while PNG-24 supports a range of transparency "
 "levels."
 msgstr ""
+"Para determinar si una textura se trata como una \"mask\" o como \"alfa\", "
+"el motor busca valores \"alfa\" entre 2% y 98%. Una forma fácil de crear una "
+"textura \"mask\" es guardar la imagen como PNG-8, ya que solo admite "
+"transparencia binaria, mientras que PNG-24 admite una variedad de niveles de "
+"transparencia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:90
 msgid ""
 "We support using a second UV set with the following texture channels "
 "only: Light Map and Ambient Occlusion."
 msgstr ""
+"Admitimos el uso de un segundo conjunto UV con los siguientes canales de "
+"textura únicamente: \"Light Map\" y \"Ambient Occlusion\"."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:94
 msgid "Sample Materials and Their Textures and Shading"
