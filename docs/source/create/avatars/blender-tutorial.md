@@ -26,12 +26,12 @@ In this tutorial, we will walk you through simple modifications you can make to 
     </div>
 7. When you're done changing your materials and textures, go to **File > Export > FBX (.fbx)**.
 8. Change the 'Path Mode' to 'Copy', then click the 'Embed Textures' icon. This makes sure that all of the textures are embedded into your model. ![](_images/blender-export.png)
-9. Give your avatar a unique name. 
+9. Give your avatar a unique name.
 10. Click the 'Export FBX' button.
 
 Now, you are ready to bring your avatar into High Fidelity.
 
-### Example: Update Eyelashes from an Image
+## Example: Update Eyelashes from an Image
 
 1. Save [this texture](http://hifi-content.s3.amazonaws.com/DomainContent/Event%20/Images/mixamo_eyelashes.png) to a directory where you will remember.
 2. From the Outliner, open the 'Armature' tree and select 'Eyelashes'.

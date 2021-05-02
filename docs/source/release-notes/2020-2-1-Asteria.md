@@ -6,7 +6,7 @@ This version of Vircadia is an update to 2020.2.0. It is compatible with the 202
 
 The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * Fix not being able to delete entities in serverless domains. (#425)
 * Fix visibility of values in Wearables dialog. (#426)
@@ -19,14 +19,14 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 
 ## Documentation
 
-#### User Docs
+### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx).
 
 * Release notes for 2020.2.0 and 2020.2.1. (#49, #50, #54)
 * Housekeeping for release notes, server links, etc. (#51)
 
-#### API Docs
+### API Docs
 
 The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
 The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
@@ -35,14 +35,14 @@ The latest live deployment source can be viewed [here](https://github.com/vircad
 
 ## Extra Applications
 
-#### Explore App (Interim Version)
+### Explore App (Interim Version)
 
 The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/vircadia/Decentralized_GoTo_Experimental).
 
 * Add navigation buttons. (#4)
 
-#### Community Apps
+### Community Apps
 
-The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/vircadia/community-apps). 
+The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/vircadia/community-apps).
 
 * Nothing new!

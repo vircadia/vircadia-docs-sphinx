@@ -6,7 +6,7 @@ This version of Vircadia is a new release. It is **not** compatible with the 202
 
 The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * Graphics: Fix procedural shaders applying to entities other than the target entity. (#309)
 * Application: Fix Interface shutdown deadlock. (#311)
@@ -21,7 +21,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 * App: Fix 'Chat' app opening when other users toggle their own & improve URL copying and pasting support. (#738)
 * Application: Fix GLB files not being able to be added to the world from the Asset Server (ATP). (#743)
 
-#### Miscellaneous
+### Miscellaneous
 
 * Application: Fix warnings emitted by GCC. (#349)
 * Application & Docs: Add ability to package Interface with a custom startup location and improve installer docs. (#640)
@@ -36,7 +36,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 
 The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * Server: Fix domain-server Docker packager's retrieval of a temp name. (#632)
 * Mixer: Fix assignment-client custom port and hostname parameters. (#667)
@@ -52,13 +52,13 @@ The metaverse server [Iamus](https://github.com/vircadia/iamus) is live at [http
 
 ## Documentation
 
-#### User Docs
+### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx).
 
 * Release notes for 2020.3.0 Demeter. (#83)
 
-#### API Docs
+### API Docs
 
 The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
 The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).

@@ -6,7 +6,7 @@ This version of Vircadia is an update to 2020.2.3. It is compatible with the 202
 
 The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * API: `Window.getUserAgent` has been added to return the Interface's user agent. (#520)
 * App: The Inventory app v2.0.2 has been merged as an unpublished script, to be deployed in the More app. (#521)
@@ -28,7 +28,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 * Graphics: The default "Automatic" maximum texture memory setting has been increased from 1GB to 2GB. (#594)
 * UI: The graphics settings dialog now has a button in the toolbar for clear and easy access. (#595)
 
-#### Miscellaneous
+### Miscellaneous
 
 * Docs: Packaging docs are more accurate now with respect to the requirements on Windows. (#537)
 * UX: The NSIS installer no longer defaults the options for the Sandbox (server-console) to start after install or start with Windows as true. (#596)
@@ -37,7 +37,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 
 The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * Security: Domains can now accept user logins via groups based on WordPress roles via OAuth2. (Alpha Feature) (#591)
 
@@ -51,15 +51,15 @@ The [metaverse server](https://github.com/vircadia/project-apollo) and [metavers
 
 ## Extra Applications
 
-#### Explore App (Interim Version)
+### Explore App (Interim Version)
 
 The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/vircadia/Decentralized_GoTo_Experimental).
 
 * Nothing new to report!
 
-#### Community Apps
+### Community Apps
 
-The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/vircadia/community-apps). 
+The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/vircadia/community-apps).
 
 * Add the initial release of the Inventory app. (#21)
 
@@ -67,15 +67,15 @@ The Slider app now has proper syncing with multiple users when viewing a present
 
 ## Documentation
 
-#### User Docs
+### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx).
 
 * Enable GitHub Actions support with auto deployment for the docs. (#67)
 * Translation configuration fixed. (#68)
 * Release notes for 2020.2.4 Asteria. (#71)
 
-#### API Docs
+### API Docs
 
 The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
 The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).

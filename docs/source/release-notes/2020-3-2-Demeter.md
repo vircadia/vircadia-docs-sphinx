@@ -6,7 +6,7 @@ This version of Vircadia is an update to 2020.3.1. It is compatible with the 202
 
 The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * Graphics: Add and enable automatic maximum texture size scaling by default. (#599)
 * Application: Add `Script.require` developer toggle to force cachebusting on every load. (#664)
@@ -54,7 +54,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
     * Fix entity list interpreting the last selected entity as the first selection in the selection stack.
 * Application: 'Local Entity' and self-owned 'Avatar Entity' scripts now run on their own separate script engines to improve performance and security. (#871)
 
-#### Miscellaneous
+### Miscellaneous
 
 * Application: Transition listener registration from member string names to member string pointers. (#613)
 * Build: GHA now generates builds for Android and Quest platforms. (#615)
@@ -70,11 +70,11 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 
 The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * Server: Append 'Vircadia' to the environment variable for the metadata exporter port. (#826)
 * UI/UX: Fix wrapping of "Enable Automatic Threading" in server setup wizard. (#844)
-* UI/UX: Fix 'Create new Domain ID' dialog. (#846) 
+* UI/UX: Fix 'Create new Domain ID' dialog. (#846)
 
 ## Metaverse Server & Dashboard (Codename Iamus)
 
@@ -211,16 +211,16 @@ Updates are reflected [here](https://dashboard.vircadia.com/).
 
 ## Documentation
 
-#### User Docs
+### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx).
 
 * Add description of `VIRCADIA_LOG_OPTIONS` environment variable. (#88)
 * Release notes for 2020.3.2 Demeter. (#97)
 * Document a multitude of missing environment variables for the Interface and Domain server. (#90)
 * Misc. name updates (Athena -> Vircadia) and documents `HIFI_DEBUG_HMD` environment variable for Interface. (#96)
 
-#### API Docs
+### API Docs
 
 The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
 The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
