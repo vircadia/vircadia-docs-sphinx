@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 09:21+0000\n"
+"POT-Creation-Date: 2021-05-02 08:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../source/release-notes.rst:7
 msgid "Release 2021.1.1 Eos (2021-04-08)"
@@ -131,9 +131,9 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:11
 msgid ""
-"For example, 2020.2.5-Asteria will be compatible with 2020.2.0-Asteria. "
-"Whereas 2020.3.0-Demeter will not be compatible with 2020.2.0-Asteria or "
-"2020.2.5-Asteria."
+"For example, **2020.2.5-Asteria** will be compatible with "
+"**2020.2.0-Asteria**. Whereas **2020.3.0-Demeter** will not be compatible"
+" with **2020.2.0-Asteria** or **2020.2.5-Asteria**."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:14
@@ -176,7 +176,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-1-Eos.md:57
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia "
-"repo."
+"[repo](https://github.com/vircadia/vircadia)."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:18
@@ -216,11 +216,11 @@ msgid "Now has tabs for entity properties. (#193)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:22
-msgid "\"Alpha\" property added to the \"Shape\" entity's editor. (#215)"
+msgid "**\"Alpha\"** property added to the **\"Shape\"** entity's editor. (#215)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:23
-msgid "\"renderWithZones\" property added to all entities. (#274, #369)"
+msgid "**\"renderWithZones\"** property added to all entities. (#274, #369)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:24
@@ -343,7 +343,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:54
 msgid ""
-"Fix many GLTF (*.glb) files being unable to be loaded due to bad URL "
+"Fix many GLTF (\\*.glb) files being unable to be loaded due to bad URL "
 "parsing. (#415)"
 msgstr ""
 
@@ -396,7 +396,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:70
 msgid ""
-"DEV-2769: Remove the \"acceleration\" entity property from Create app "
+"DEV-2769: Remove the \"acceleration\" entity property from Create app  "
 "It's a deprecated property that doesn't affect the entity. (#16497)"
 msgstr ""
 
@@ -418,10 +418,10 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:75
 msgid ""
-"Add automaticLookAt.js to developer scripts automaticLookAt.js is a "
+"Add automaticLookAt.js to developer scripts  `automaticLookAt.js` is a "
 "script that automatically controls the avatar's head and eye to simulate "
-"human interaction during group interactions. This PR adds that script to "
-"the developer script folder. (#16545)"
+"human interaction during group interactions.  This PR adds that script to"
+" the developer script folder. (#16545)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:80
@@ -434,8 +434,8 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:82
 msgid ""
-"Fix screenshare broadcast on MacOS DEV builds only - this is related to "
-"[DEV-2812], but doesn't fix the issue."
+"Fix screenshare broadcast on MacOS DEV builds _only_ - this is related to"
+" [DEV-2812], but doesn't fix the issue."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:83
@@ -649,27 +649,27 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:130
 msgid ""
-"Added missing numGlobalQueriesPending and numGlobalQueriesLoading "
-"properties' documentation to AnimationCache, ModelCache, SoundCache, and "
-"TextureCache."
+"Added missing `numGlobalQueriesPending` and `numGlobalQueriesLoading` "
+"properties' documentation to `AnimationCache`, `ModelCache`, "
+"`SoundCache`, and `TextureCache`."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:131
 msgid ""
-"Entities.MaterialResource type now appears in and is used in the JSDoc "
+"`Entities.MaterialResource` type now appears in and is used in the JSDoc "
 "output."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:132
-msgid "Entities.Material type now appears in and is used in the JSDoc output."
+msgid "`Entities.Material` type now appears in and is used in the JSDoc output."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:133
-msgid "RGBS global type now appears in and is used in the JSDoc output."
+msgid "`RGBS` global type now appears in and is used in the JSDoc output."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:134
-msgid "Revised recent Entities.Material JSDoc changes."
+msgid "Revised recent `Entities.Material` JSDoc changes."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:135
@@ -971,13 +971,13 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:219
 msgid ""
-"A check to help prevent an infinite loop in the _sequenceNumber "
+"A check to help prevent an infinite loop in the \\_sequenceNumber "
 "std::distance calculation. This is the main issue, in some cases "
 "backtrace is reporting the main thread as deadlocked. The stacktrace "
 "points to an issue with the std::distance() calculation. If the "
 "EntityQueryInitialResultsComplete is delayed significantly, there could "
-"be a rare case where the _sequenceNumber map grows large enough for the "
-"wraparound less then operator will no longer function correctly. This "
+"be a rare case where the \\_sequenceNumber map grows large enough for the"
+" wraparound less then operator will no longer function correctly. This "
 "will cause the std::distance calculation to never complete. I've added a "
 "guard to prevent this from happening and some logs to help diagnose this "
 "issue in the future."
@@ -1101,7 +1101,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:242
 msgid ""
-"Move \"away\" animation from S3 bucket to local resource Put away "
+"Move \"away\" animation from S3 bucket to local resource  Put away "
 "animation into compiled animation resource and update script to use local"
 " resource path. (#16523)"
 msgstr ""
@@ -1170,8 +1170,8 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:256
 msgid ""
-"Allow Linux interface to connect to domain when DISABLE_QML is true when "
-"built with DISABLE_QML true, Linux interface doesn't attempt to connect "
+"Allow Linux interface to connect to domain when DISABLE_QML is true  when"
+" built with DISABLE_QML true, Linux interface doesn't attempt to connect "
 "to domain. (#16566)"
 msgstr ""
 
@@ -1192,13 +1192,14 @@ msgstr ""
 #: ../../source/release-notes/2020-2-0-Asteria.md:260
 msgid ""
 "Included localPosition etc. properties in values returned by "
-"MyAvatar.getAvatarEntitiesVariant() and Avatar.getAvatarEntitiesData(), "
-"to match those returned by Entities.getEntityProperties()."
+"`MyAvatar.getAvatarEntitiesVariant()` and "
+"`Avatar.getAvatarEntitiesData()`, to match those returned by "
+"`Entities.getEntityProperties()`."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:261
 msgid ""
-"Removed now-unnecessary call to Entities.getEntityProperties() in "
+"Removed now-unnecessary call to `Entities.getEntityProperties()` in "
 "WebTablet.js."
 msgstr ""
 
@@ -1222,13 +1223,13 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:266
 msgid ""
-"Controller.Actions.CycleCamera fixed so that it doesn't get stuck in "
+"`Controller.Actions.CycleCamera` fixed so that it doesn't get stuck in "
 "third person (HMD mode) or selfie view (desktop mode)."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:267
 msgid ""
-"JSDoc for Controller.Actions.CycleCamera updated to reflect new camera "
+"JSDoc for `Controller.Actions.CycleCamera` updated to reflect new camera "
 "modes used."
 msgstr ""
 
@@ -1270,7 +1271,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-1-Eos.md:132
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia-"
-"Docs-Sphinx repo."
+"Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx)."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:278
@@ -1334,8 +1335,10 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:163
 #: ../../source/release-notes/2021-1-1-Eos.md:143
 msgid ""
-"The API docs are generated from the software source repo. The latest live"
-" deployment source can be viewed here."
+"The API docs are generated from the software source "
+"[repo](https://github.com/vircadia/vircadia). The latest live deployment "
+"source can be viewed [here](https://github.com/vircadia/vircadia-api-"
+"docs)."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:292
@@ -1376,7 +1379,8 @@ msgstr ""
 #: ../../source/release-notes/2020-2-4-Asteria.md:56
 msgid ""
 "The numbers at the end of each item are the PR numbers in the "
-"Decentralized GoTo repo."
+"Decentralized GoTo "
+"[repo](https://github.com/vircadia/Decentralized_GoTo_Experimental)."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:302
@@ -1405,7 +1409,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:57
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Community "
-"Apps repo."
+"Apps [repo](https://github.com/vircadia/community-apps)."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:309
@@ -1537,7 +1541,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-2-Asteria.md:14
 msgid ""
 "Controller API: fix various crashes and fix more than one controller not "
-"buzzing on triggerHapticPulse. (#399)"
+"buzzing on `triggerHapticPulse`. (#399)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:15
@@ -1620,8 +1624,8 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:12
 msgid ""
-"UI: The Help menu now has a Tutorial button which will teleport you to "
-"the serverless tutorial. (#459)"
+"UI: The `Help` menu now has a `Tutorial` button which will teleport you "
+"to the serverless tutorial. (#459)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:13
@@ -1690,7 +1694,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:27
 msgid ""
-"API: Entities.pasteEntities now allows you to paste to any host type, "
+"API: `Entities.pasteEntities` now allows you to paste to any host type, "
 "defaulting to domain if not specified. (#497)"
 msgstr ""
 
@@ -1702,7 +1706,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:29
 msgid ""
-"API: Entities.importEntities now allows you to import entities to your "
+"API: `Entities.importEntities` now allows you to import entities to your "
 "clipboard even if you have no create rights on the current domain. (#504)"
 msgstr ""
 
@@ -1764,22 +1768,23 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:50
 msgid ""
-"While the metaverse server is still in development, much progress has "
-"been made since starting. The project has over 150 commits at the time of"
-" publishing these release notes, with over 20 commits in the last two "
-"weeks (July 1st - July 14th, 2020). Building upon the foundation that "
-"Zontreck had placed, Misterblue has created a working prototype of the "
-"metaverse. After adequate testing and completion of the system is "
-"complete, we will begin the transition to our very own federated "
-"metaverse system!"
+"While the [metaverse server](https://github.com/vircadia/project-apollo) "
+"is still in development, much progress has been made since starting. The "
+"project has over **150 commits** at the time of publishing these release "
+"notes, with over 20 commits in the last two weeks (July 1st - July 14th, "
+"2020). Building upon the foundation that Zontreck had placed, Misterblue "
+"has created a working prototype of the metaverse. After adequate testing "
+"and completion of the system is complete, we will begin the transition to"
+" our very own federated metaverse system!"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:52
 msgid ""
-"The metaverse server interface has also gotten underway this month. It "
-"will serve as the UI foundation for admins and users alike to access and "
-"administrate their identities on the metaverse. It has had 18 commits in "
-"the last two weeks (July 1st - July 14th, 2020)."
+"The [metaverse server interface](https://github.com/vircadia/project-"
+"apollo-dashboard) has also gotten underway this month. It will serve as "
+"the UI foundation for admins and users alike to access and administrate "
+"their identities on the metaverse. It has had **18 commits** in the last "
+"two weeks (July 1st - July 14th, 2020)."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:54
@@ -1796,12 +1801,13 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:56
 msgid ""
-"Vircadia's launcher is at version 0.0.1r, steadily approaching version "
-"1.0.0. It currently features things such as one click downloading and "
-"updating, version management, easy settings control for Interface, event "
-"listings, and more. It has many planned features, such as world listings "
-"and further controls for sandboxes as well. It has over 130 commits at "
-"the time of publishing these release notes."
+"[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) is "
+"at version 0.0.1r, steadily approaching version 1.0.0. It currently "
+"features things such as one click downloading and updating, version "
+"management, easy settings control for Interface, event listings, and "
+"more. It has many planned features, such as world listings and further "
+"controls for sandboxes as well. It has over **130 commits** at the time "
+"of publishing these release notes."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:64
@@ -1871,7 +1877,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:97
 msgid ""
-"The Entities.enterEntity signal description has been improved to take "
+"The `Entities.enterEntity` signal description has been improved to take "
 "note of behavior when using it. (#507)"
 msgstr ""
 
@@ -1888,7 +1894,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:11
 msgid ""
-"API: Window.getUserAgent has been added to return the Interface's user "
+"API: `Window.getUserAgent` has been added to return the Interface's user "
 "agent. (#520)"
 msgstr ""
 
@@ -1944,13 +1950,13 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:21
 msgid ""
-"Graphics: Fix bug where renderWithZones doesn't work after reloading "
+"Graphics: Fix bug where `renderWithZones` doesn't work after reloading "
 "content. (#561)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:22
 msgid ""
-"Graphics: Fix bug where renderWithZones would not work when loading "
+"Graphics: Fix bug where `renderWithZones` would not work when loading "
 "content from a JSON file. (#564)"
 msgstr ""
 
@@ -2013,18 +2019,21 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:46
 msgid ""
-"The metaverse server and metaverse server interface are progressing well."
-" The metaverse server is currently being rewritten in TypeScript with "
-"Node.JS in order to improve its capabilities for the long term. As of now"
-" (8/6/2020) it is at feature parity with its original C# implementation."
+"The [metaverse server](https://github.com/vircadia/project-apollo) and "
+"[metaverse server interface](https://github.com/vircadia/project-apollo-"
+"dashboard) are progressing well. The metaverse server is currently being "
+"rewritten in TypeScript with Node.JS in order to improve its capabilities"
+" for the long term. As of now (8/6/2020) it is at feature parity with its"
+" original C# implementation."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:50
 msgid ""
-"Vircadia's launcher is at version 0.0.1u. The launcher now runs the "
-"Interface as a separate process by default. Because of this, it now has "
-"greatly improved stability when Interface is launched with it. The drag "
-"and drop feature as well as crash reporting now also work correctly."
+"[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) is "
+"at version 0.0.1u. The launcher now runs the Interface as a separate "
+"process by default. Because of this, it now has greatly improved "
+"stability when Interface is launched with it. The drag and drop feature "
+"as well as crash reporting now also work correctly."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:58
@@ -2040,7 +2049,8 @@ msgstr ""
 msgid ""
 "The Slider app now has proper syncing with multiple users when viewing a "
 "presenter's screen. Work is still underway to improve its use before "
-"merging. The PR can be viewed here."
+"merging. The PR can be viewed "
+"[here](https://github.com/vircadia/vircadia/pull/541)."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:74
@@ -2056,7 +2066,7 @@ msgid "Release notes for 2020.2.4 Asteria. (#71)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:83
-msgid "The Window.getUserAgent API call was created and documented. (#520)"
+msgid "The `Window.getUserAgent` API call was created and documented. (#520)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:1
@@ -2088,14 +2098,14 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:14
 msgid ""
-"App: Update the colorSpread color-picker and other misc. fixes in the "
+"App: Update the `colorSpread` color-picker and other misc. fixes in the "
 "Create app. (#606)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:15
 msgid ""
-"API: Add About JavaScript API to replace the now deprecated HifiAbout "
-"API. (#624)"
+"API: Add `About` JavaScript API to replace the now deprecated `HifiAbout`"
+" API. (#624)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:16
@@ -2165,7 +2175,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:37
 msgid ""
 "UI: Updated text references from High Fidelity -> Vircadia in the "
-"Assignment tab of the domain-server panel. (#641)"
+"`Assignment` tab of the domain-server panel. (#641)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:39
@@ -2174,15 +2184,17 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:41
 msgid ""
-"The metaverse server has been renamed to Iamus, known as Apollo's son in "
+"The metaverse server has been renamed to "
+"[Iamus](https://github.com/vircadia/iamus), known as Apollo's son in "
 "Greek mythology. It is beginning active testing with the wider Vircadia "
-"community. The metaverse server interface is under continued development."
+"community. The [metaverse server interface](https://github.com/vircadia"
+"/project-iamus-dashboard) is under continued development."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:45
 msgid ""
-"Vircadia's launcher has not had any updates since the last release "
-"(2020.2.4 Asteria)."
+"[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) has "
+"not had any updates since the last release (2020.2.4 Asteria)."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:49
@@ -2199,11 +2211,13 @@ msgid "Release notes for 2020.2.5 Asteria. (#76)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:74
-msgid "The Stats API was updated to include two new properties. (#276)"
+msgid "The `Stats` API was updated to include two new properties. (#276)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:75
-msgid "The About API was added to replace the deprecated HifiAbout API. (#624)"
+msgid ""
+"The `About` API was added to replace the deprecated `HifiAbout` API. "
+"(#624)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:1
@@ -2212,9 +2226,9 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:3
 msgid ""
-"This version of Vircadia is a new release. It is not compatible with the "
-"2020.2.0-Asteria protocol. This version was released on September 29th, "
-"2020."
+"This version of Vircadia is a new release. It is **not** compatible with "
+"the 2020.2.0-Asteria protocol. This version was released on September "
+"29th, 2020."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:11
@@ -2237,8 +2251,8 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:15
 msgid ""
-"API: Script.getExternalPath added to generate accessible URLs to Vircadia"
-" CDNs. (#668)"
+"API: `Script.getExternalPath` added to generate accessible URLs to "
+"Vircadia CDNs. (#668)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:16
@@ -2350,16 +2364,19 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:47
 msgid ""
-"The metaverse server Iamus is live at "
-"https://metaverse.vircadia.com/live, with the metaverse server interface "
-"live for user registration and interaction at on Vircadia's website."
+"The metaverse server [Iamus](https://github.com/vircadia/iamus) is live "
+"at "
+"[https://metaverse.vircadia.com/live](https://dashboard.vircadia.com/), "
+"with the [metaverse server interface](https://github.com/vircadia"
+"/project-iamus-dashboard) live for user registration and interaction at "
+"on Vircadia's [website](https://dashboard.vircadia.com/)."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:51
 msgid ""
-"Vircadia's launcher has added support for outputting log files, checking "
-"for updates on startup, and metaverse server switching with version "
-"0.0.1q."
+"[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) has "
+"added support for outputting log files, checking for updates on startup, "
+"and metaverse server switching with version 0.0.1q."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:59
@@ -2367,7 +2384,7 @@ msgid "Release notes for 2020.3.0 Demeter. (#83)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:66
-msgid "The Script.getExternalPath API was added. (#668)"
+msgid "The `Script.getExternalPath` API was added. (#668)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:1
@@ -2414,7 +2431,7 @@ msgid "Graphics: Fix handling of missing glTF blendshape target meshes. (#773)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:17
-msgid "API: Add url parameter to Window.openWebBrowser. (#778)"
+msgid "API: Add `url` parameter to `Window.openWebBrowser`. (#778)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:18
@@ -2446,7 +2463,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:26
-msgid "Application: Fix crash when using About.openUrl. (#778)"
+msgid "Application: Fix crash when using `About.openUrl`. (#778)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:27
@@ -2474,17 +2491,23 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:41
-msgid "Iamus Metaverse Server updates can be found here."
+msgid ""
+"Iamus [Metaverse Server](https://github.com/vircadia/iamus) updates can "
+"be found [here](https://github.com/vircadia/Iamus/commits/master)."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:43
-msgid "Iamus Metaverse Dashboard updates can be found here."
+msgid ""
+"Iamus [Metaverse Dashboard](https://github.com/vircadia/project-iamus-"
+"dashboard) updates can be found [here](https://dashboard.vircadia.com/)."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:47
 msgid ""
-"Vircadia's launcher updates can be found here. Some changes are listed "
-"below. The launcher is now on experimental version 0.0.1s."
+"[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) "
+"updates can be found [here](https://github.com/vircadia/pantheon-"
+"launcher/commits/master). Some changes are listed below. The launcher is "
+"now on experimental version 0.0.1s."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:49
@@ -2518,62 +2541,62 @@ msgid "Release notes for 2020.3.1 Demeter. (#91)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:69
-msgid "Script API:"
+msgid "`Script` API:"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:70
-msgid "type property documented. (#730)"
+msgid "`type` property documented. (#730)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:71
-msgid "Window API:"
+msgid "`Window` API:"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:72
-msgid "url parameter added to openWebBrowser. (#623)"
+msgid "`url` parameter added to `openWebBrowser`. (#623)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:73
 #: ../../source/release-notes/2021-1-0-Eos.md:166
-msgid "About API:"
+msgid "`About` API:"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:74
-msgid "openUrl documentation updated. (#623)"
+msgid "`openUrl` documentation updated. (#623)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:75
-msgid "Camera API:"
+msgid "`Camera` API:"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:76
-msgid "captureMouse and sensitivity properties added. (#677)"
+msgid "`captureMouse` and `sensitivity` properties added. (#677)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:77
 msgid ""
-"getCaptureMouse, setCaptureMouse, getSensitivity, and setSensitivity "
-"functions added. (#677)"
+"`getCaptureMouse`, `setCaptureMouse`, `getSensitivity`, and "
+"`setSensitivity` functions added. (#677)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:78
 #: ../../source/release-notes/2021-1-0-Eos.md:168
-msgid "Entities API:"
+msgid "`Entities` API:"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:79
 msgid ""
-"findEntities function documentation updated to specify caveats when used "
-"with an entity-server script. (#789)"
+"`findEntities` function documentation updated to specify caveats when "
+"used with an entity-server script. (#789)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:80
-msgid "Stats API:"
+msgid "`Stats` API:"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:81
 msgid ""
-"decimatedTextureCount property documentation updated to define maximum "
+"`decimatedTextureCount` property documentation updated to define maximum "
 "allowed dimensions '4096' -> '8192' pixels on desktop. (#821)"
 msgstr ""
 
@@ -2596,8 +2619,8 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:12
 msgid ""
-"Application: Add Script.require developer toggle to force cachebusting on"
-" every load. (#664)"
+"Application: Add `Script.require` developer toggle to force cachebusting "
+"on every load. (#664)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:13
@@ -2712,7 +2735,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:40
 msgid ""
-"Application: Add ability for Script.require to automatically cachebust "
+"Application: Add ability for `Script.require` to automatically cachebust "
 "itself when changes are made to the script on the local filesystem. "
 "(#848)"
 msgstr ""
@@ -2725,8 +2748,8 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:42
 msgid ""
-"API: Fix Entities.enterEntity and Entities.leaveEntity event not firing "
-"in entity script after content reload. (#853)"
+"API: Fix `Entities.enterEntity` and `Entities.leaveEntity` event not "
+"firing in entity script after content reload. (#853)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:43
@@ -2869,7 +2892,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-3-Demeter.md:63
 #: ../../source/release-notes/2021-1-0-Eos.md:61
 #: ../../source/release-notes/2021-1-1-Eos.md:71
-msgid "Iamus Metaverse Server"
+msgid "Iamus [Metaverse Server](https://github.com/vircadia/iamus)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:83
@@ -2912,11 +2935,13 @@ msgstr ""
 #: ../../source/release-notes/2020-3-3-Demeter.md:114
 #: ../../source/release-notes/2021-1-0-Eos.md:125
 #: ../../source/release-notes/2021-1-1-Eos.md:113
-msgid "Iamus Metaverse Dashboard"
+msgid ""
+"Iamus [Metaverse Dashboard](https://github.com/vircadia/project-iamus-"
+"dashboard)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:200
-msgid "Updates are reflected here."
+msgid "Updates are reflected [here](https://dashboard.vircadia.com/)."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:202
@@ -2942,12 +2967,13 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:210
 #: ../../source/release-notes/2020-3-3-Demeter.md:125
 msgid ""
-"Vircadia's launcher updates can be found here. The launcher is on "
-"experimental version 0.0.1s."
+"[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) "
+"updates can be found [here](https://github.com/vircadia/pantheon-"
+"launcher/commits/master). The launcher is on experimental version 0.0.1s."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:218
-msgid "Add description of VIRCADIA_LOG_OPTIONS environment variable. (#88)"
+msgid "Add description of `VIRCADIA_LOG_OPTIONS` environment variable. (#88)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:219
@@ -2962,7 +2988,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:221
 msgid ""
-"Misc. name updates (Athena -> Vircadia) and documents HIFI_DEBUG_HMD "
+"Misc. name updates (Athena -> Vircadia) and documents `HIFI_DEBUG_HMD` "
 "environment variable for Interface. (#96)"
 msgstr ""
 
@@ -3153,7 +3179,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:41
-msgid "image3D overlays used for the icons have been migrated to local entities."
+msgid ""
+"`image3D` overlays used for the icons have been migrated to local "
+"entities."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:42
@@ -3181,7 +3209,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:49
 msgid ""
-"Application: The --forceCrashReporting command-line parameter has been "
+"Application: The `--forceCrashReporting` command-line parameter has been "
 "added to enable crash reporting even if the settings have it off. (#879)"
 msgstr ""
 
@@ -3217,9 +3245,9 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:116
 msgid ""
-"Updates are reflected here. The Dashboard has been upgraded from version "
-"1.1.3 to version 1.2.2. (13 commits altering functionality, 18 commits "
-"total.)"
+"Updates are reflected [here](https://dashboard.vircadia.com/). The "
+"Dashboard has been upgraded from version 1.1.3 to version 1.2.2. (13 "
+"commits altering functionality, 18 commits total.)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:118
@@ -3260,8 +3288,8 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:143
 msgid ""
-"Fix typo Quat.fromPitchYawRollDgrees -> Quat.fromPitchYawRollDegrees. "
-"(#882)"
+"Fix typo `Quat.fromPitchYawRollDgrees` -> `Quat.fromPitchYawRollDegrees`."
+" (#882)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:1
@@ -3270,9 +3298,9 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:3
 msgid ""
-"This version of Vircadia is a new release. It is not compatible with the "
-"2020.3.0 Demeter protocol. This version was released on February 21st, "
-"2021."
+"This version of Vircadia is a new release. It is **not** compatible with "
+"the 2020.3.0 Demeter protocol. This version was released on February "
+"21st, 2021."
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:11
@@ -3344,9 +3372,9 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:20
 msgid ""
-"The logic controlling the direction of MyAvatar's action motor was hard "
-"to follow and maintain, as it was split between two functions. Now it's "
-"clearer and all done in calculateScaledDirection."
+"The logic controlling the direction of `MyAvatar`'s action motor was hard"
+" to follow and maintain, as it was split between two functions. Now it's "
+"clearer and all done in `calculateScaledDirection`."
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:21
@@ -3361,8 +3389,8 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:23
 msgid ""
-"API: Add useOriginalPivot property to model entities allowing entities to"
-" use their original pivot. (#951, #1029)"
+"API: Add `useOriginalPivot` property to model entities allowing entities "
+"to use their original pivot. (#951, #1029)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:24
@@ -3371,8 +3399,8 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:25
 msgid ""
-"API: Add billboardMode property for all entity types allowing entities to"
-" face the user as specified in the following modes: none, yaw, full. "
+"API: Add `billboardMode` property for all entity types allowing entities "
+"to face the user as specified in the following modes: none, yaw, full. "
 "(#961, #1041)"
 msgstr ""
 
@@ -3384,7 +3412,7 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:27
 msgid ""
-"API: Add userAgent property to web entities allowing the web entity to "
+"API: Add `userAgent` property to web entities allowing the web entity to "
 "use the specified user agent when browsing. (#998, #1017)"
 msgstr ""
 
@@ -3395,13 +3423,13 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:29
-msgid "API: Add releaseName property to the About API. (#996)"
+msgid "API: Add `releaseName` property to the `About` API. (#996)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:30
 msgid ""
-"API: Add alignment property to text entities allowing text to be aligned "
-"to 'left', 'center', and 'right'. (#1020)"
+"API: Add `alignment` property to text entities allowing text to be "
+"aligned to 'left', 'center', and 'right'. (#1020)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:31
@@ -3444,7 +3472,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:42
-msgid "Build: Vircadia now accepts the RELEASE_NAME env variable. (#975)"
+msgid "Build: Vircadia now accepts the `RELEASE_NAME` env variable. (#975)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:43
@@ -3510,8 +3538,8 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:127
 msgid ""
-"Updates are reflected here. The Dashboard has been upgraded from version "
-"1.2.2 to version 1.2.5."
+"Updates are reflected [here](https://dashboard.vircadia.com/). The "
+"Dashboard has been upgraded from version 1.2.2 to version 1.2.5."
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:129
@@ -3544,8 +3572,9 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:139
 msgid ""
-"Vircadia's launcher updates can be found here. The launcher is on version"
-" 1.0.1."
+"[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) "
+"updates can be found [here](https://github.com/vircadia/pantheon-"
+"launcher/commits/master). The launcher is on version 1.0.1."
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:141
@@ -3599,31 +3628,31 @@ msgid "Release notes for 2021.1.0 Eos. (#118)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:167
-msgid "releaseName property added. (#996)"
+msgid "`releaseName` property added. (#996)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:169
-msgid "useOriginalPivot property added to model entities. (#951)"
+msgid "`useOriginalPivot` property added to model entities. (#951)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:170
-msgid "billboardMode property added to all entities. (#961)"
+msgid "`billboardMode` property added to all entities. (#961)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:171
-msgid "userAgent property added to web entities. (#988)"
+msgid "`userAgent` property added to web entities. (#988)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:172
-msgid "alignment property added to text entities. (#1020)"
+msgid "`alignment` property added to text entities. (#1020)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:173
-msgid "PlatformInfo API:"
+msgid "`PlatformInfo` API:"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:174
-msgid "Fix typo in getPlatformTierNames UNKNWON -> UNKNOWN. (#982)"
+msgid "Fix typo in `getPlatformTierNames` `UNKNWON` -> `UNKNOWN`. (#982)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:1
@@ -3650,7 +3679,7 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:13
 msgid ""
-"API: Controller.triggerHapticPulse now supports selecting an arbitrary "
+"API: `Controller.triggerHapticPulse` now supports selecting an arbitrary "
 "device instead of triggering two hands every time. (#1013)"
 msgstr ""
 
@@ -3662,7 +3691,7 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:15
 msgid ""
-"API: Fix keepAspectRatio property of Image entities to correctly scale "
+"API: Fix `keepAspectRatio` property of Image entities to correctly scale "
 "with any ratio. (#1050, #1141)"
 msgstr ""
 
@@ -3699,7 +3728,9 @@ msgid "Gizmo, Image, and Text entities now support material entities on them."
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:23
-msgid "Fix cullFaceMode not rendering correctly on unparented material entities."
+msgid ""
+"Fix `cullFaceMode` not rendering correctly on unparented material "
+"entities."
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:24
@@ -3722,8 +3753,8 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:27
 msgid ""
-"API: Users.kick function now offers the ability to specify a banFlags "
-"property to indicate what should happen when kicking a user."
+"API: `Users.kick` function now offers the ability to specify a `banFlags`"
+" property to indicate what should happen when kicking a user."
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:28
@@ -3748,7 +3779,7 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:36
 msgid ""
-"Docs: Document addition of the RELEASE_NAME environment variable for "
+"Docs: Document addition of the `RELEASE_NAME` environment variable for "
 "versions. (#1014)"
 msgstr ""
 
@@ -3761,7 +3792,9 @@ msgid "Docs: Remove nvtt workaround from the Linux build documentation. (#1044)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:39
-msgid "Application: Optimize and tidy up some code in the MyAvatar class. (#1047)"
+msgid ""
+"Application: Optimize and tidy up some code in the `MyAvatar` class. "
+"(#1047)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:40
@@ -3776,8 +3809,8 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:42
 msgid ""
-"Application: Set resource total size to content size when using a qrc:// "
-"resource. (#1068)"
+"Application: Set resource total size to content size when using a "
+"`qrc://` resource. (#1068)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:43
@@ -3807,36 +3840,36 @@ msgid "Misc: Add 'Stale' bot configuration to the repository. (#1117)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:48
-msgid "Application: Fix VIRCADIA_MEMORY_DEBUGGING on Linux/gcc. (#1127)"
+msgid "Application: Fix `VIRCADIA_MEMORY_DEBUGGING` on Linux/gcc. (#1127)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:49
 msgid ""
 "Application: Fix a stack-use-after-return error in the "
-"RenderableModelEntityItem class. (#1132)"
+"`RenderableModelEntityItem` class. (#1132)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:50
 msgid ""
-"Application: Add a virtual destructor to TreeNodeBase of the ScriptsModel"
-" class; possibly fixes a crash on exit. (#1134)"
+"Application: Add a virtual destructor to `TreeNodeBase` of the "
+"`ScriptsModel` class; possibly fixes a crash on exit. (#1134)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:51
 msgid ""
-"Build: Add missing override keywords to the PacketReceiver and "
-"RenderableTextEntityItem classes to fix warnings on build. (#1143)"
+"Build: Add missing override keywords to the `PacketReceiver` and "
+"`RenderableTextEntityItem` classes to fix warnings on build. (#1143)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:52
 msgid ""
-"Application: Fix getRotateForPicking function in the ShapeEntityItem "
+"Application: Fix `getRotateForPicking` function in the `ShapeEntityItem` "
 "class. (#1145)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:53
 msgid ""
-"Application: Remove unused variable in the RenderableGizmoEntityItem "
+"Application: Remove unused variable in the `RenderableGizmoEntityItem` "
 "class. (#1148)"
 msgstr ""
 
@@ -3881,8 +3914,8 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:115
 msgid ""
-"Updates are reflected here. The Dashboard has been upgraded from version "
-"1.2.5 to version 1.2.8."
+"Updates are reflected [here](https://dashboard.vircadia.com/). The "
+"Dashboard has been upgraded from version 1.2.5 to version 1.2.8."
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:117
@@ -3899,8 +3932,9 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:123
 msgid ""
-"Vircadia's launcher updates can be found here. The launcher is on version"
-" 1.1.0."
+"[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) "
+"updates can be found [here](https://github.com/vircadia/pantheon-"
+"launcher/commits/master). The launcher is on version 1.1.0."
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:125
@@ -3940,12 +3974,12 @@ msgid "Add Spanish language translation support. (#130)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:146
-msgid "Users API:"
+msgid "`Users` API:"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:147
 msgid ""
-"kick function updated with more options and new default functionality. "
+"`kick` function updated with more options and new default functionality. "
 "(#1090)"
 msgstr ""
 
@@ -3970,50 +4004,52 @@ msgstr ""
 
 #: ../../source/release-notes/v80.md:9
 msgid ""
-"Added Clock to Tablet: Local time is displayed in the upper right of the "
-"tablet in HMD, above the username (or log in, if not logged in)."
+"**Added Clock to Tablet**: Local time is displayed in the upper right of "
+"the tablet in HMD, above the username (or log in, if not logged in)."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:10
 msgid ""
-"Downloadable Assets: Content creators can now download their assets for "
-"their Marketplace items, including both approved and invalidated items. "
-"This is supported on the web-based Marketplace by opening it in a "
+"**Downloadable Assets**: Content creators can now download their assets "
+"for their Marketplace items, including both approved and invalidated "
+"items. This is supported on the web-based Marketplace by opening it in a "
 "browser; it is not yet supported using the Market app."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:11
 msgid ""
-"Digital Ocean Password Reset: Domain Admin users can now reset their "
-"admin username and password on Digital Ocean Domain Servers. Go to "
-"highfidelity.com/user/cloud_domains, sign in to High Fidelity, and select"
-" the Reset Domain Server password option from the menu."
+"**DigitalOcean Password Reset**: Domain Admin users can now reset their "
+"admin username and password on DigitalOcean Domain Servers. Go to "
+"[highfidelity.com/user/cloud_domains](https://highfidelity.com/user/cloud_domains),"
+" sign in to High Fidelity, and select the Reset Domain Server password "
+"option from the menu."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:12
 msgid ""
-"Avatar Doctor: The Avatar Packager now contains error detection, aka the "
-"\"Avatar Doctor\". This tool will notify you of common errors before you "
-"upload your avatar files to our server for hosting. Coming in future "
-"releases: click on the error to view troubleshooting tips on how to "
+"**Avatar Doctor**: The Avatar Packager now contains error detection, aka "
+"the \"Avatar Doctor\". This tool will notify you of common errors before "
+"you upload your avatar files to our server for hosting. *Coming in future"
+" releases*: click on the error to view troubleshooting tips on how to "
 "resolve the error prior to uploading your avatar."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:13
 msgid ""
-"Creators Stocking Inventory: Allows creators to stock their inventory "
-"with their own NFS certified items and gift them to others."
+"**Creators Stocking Inventory**: Allows creators to stock their inventory"
+" with their own NFS certified items and gift them to others."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:14
-msgid "New and Updated Documentation:"
+msgid "**New and Updated Documentation**:"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:15
 msgid ""
 "The API Reference has been updated to a new, easy-to-read style that "
 "helps developers find what they’re looking for more easily, complete with"
-" a comprehensive search. It is available at https://apidocs.vircadia.dev."
+" a comprehensive search. It is available at "
+"[https://apidocs.vircadia.dev](https://apidocs.vircadia.dev)."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:16
@@ -4023,45 +4059,69 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v80.md:17
-msgid "Firewall Settings"
+msgid ""
+"[Firewall Settings](https://docs.highfidelity.com/host/your-domain"
+"/configure-settings.html#firewall-settings)"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:18
 msgid ""
-"Using High Fidelity with Android (Canny request: "
-"http://roadmap.highfidelity.com/feature-requests/p/requested-"
-"documentation-more-info-for-high-fidelity-on-android)"
+"[Using High Fidelity with Android](https://docs.highfidelity.com/explore"
+"/get-started/android.html) (Canny request: "
+"[http://roadmap.highfidelity.com/feature-requests/p/requested-"
+"documentation-more-info-for-high-fidelity-on-"
+"android](http://roadmap.highfidelity.com/feature-requests/p/requested-"
+"documentation-more-info-for-high-fidelity-on-android))"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:19
 msgid ""
-"Improved Documentation for Entity Filters and 'Protecting Your Domain "
-"Content' (Canny request: http://roadmap.highfidelity.com/feature-"
-"requests/p/improve-filter-documentation)"
+"Improved Documentation for [Entity Filters and 'Protecting Your Domain "
+"Content'](https://docs.highfidelity.com/host/secure-domain.html#protect-"
+"your-domain-s-content) (Canny request: [http://roadmap.highfidelity.com"
+"/feature-requests/p/improve-filter-"
+"documentation](http://roadmap.highfidelity.com/feature-requests/p"
+"/improve-filter-documentation))"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:20
-msgid "Add Your Place to the GoTo Menu"
+msgid ""
+"[Add Your Place to the GoTo Menu](https://docs.highfidelity.com/host"
+"/place-name.html#add-your-place-to-the-goto-directory)"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:21
-msgid "Tutorial: Build a Boom Box"
+msgid ""
+"[Tutorial: Build a Boom "
+"Box](https://docs.highfidelity.com/create/entities/boombox-tutorial.html)"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:22
-msgid "Tutorial: Create an Avatar Scaling Button"
+msgid ""
+"[Tutorial: Create an Avatar Scaling "
+"Button](https://docs.highfidelity.com/create/entities/avatar-scaling-"
+"tutorial.html)"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:23
-msgid "Tutorial: Open Web Page with Entities"
+msgid ""
+"[Tutorial: Open Web Page with "
+"Entities](https://docs.highfidelity.com/create/entities/open-tablet-page-"
+"tutorial.html)"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:24
-msgid "Tutorial: Build a Painting Set"
+msgid ""
+"[Tutorial: Build a Painting "
+"Set](https://docs.highfidelity.com/create/entities/primitive-painting-"
+"set-tutorial.html)"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:25
-msgid "Tutorial: Create a Purchase Button for Marketplace Sales"
+msgid ""
+"[Tutorial: Create a Purchase Button for Marketplace "
+"Sales](https://docs.highfidelity.com/create/entities/purchase-button-"
+"tutorial.html)"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:27
@@ -4073,9 +4133,9 @@ msgstr ""
 
 #: ../../source/release-notes/v80.md:29
 msgid ""
-"Content Creators: From now on, please use local entities instead of "
-"overlays. Any work you have that uses Overlays should be migrated to use "
-"local entities."
+"Content Creators: From now on, **please use local entities instead of "
+"overlays**. Any work you have that uses Overlays should be migrated to "
+"use local entities."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:31 ../../source/release-notes/v81.md:24
@@ -4100,8 +4160,9 @@ msgid ""
 "The Vircadia Avatar Exporter for Unity has been updated to notify you of "
 "texture and file errors you may encounter while using the tool. Download "
 "the updated exporter here: "
-"https://github.com/vircadia/vircadia/tree/master/tools/unity-avatar-"
-"exporter"
+"[https://github.com/vircadia/vircadia/tree/master/tools/unity-avatar-"
+"exporter](https://github.com/vircadia/vircadia/tree/master/tools/unity-"
+"avatar-exporter)"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:37 ../../source/release-notes/v80.md:60
@@ -4153,7 +4214,7 @@ msgstr ""
 #: ../../source/release-notes/v80.md:49
 msgid ""
 "During a custom install, you now have the ability to install only the "
-"Sandbox or only the Interface without uninstalling the other."
+"Sandbox or only the Interface **without uninstalling** the other."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:50
@@ -4193,7 +4254,9 @@ msgstr ""
 msgid ""
 "Fixed the ability to change animations of an FBX model entity by a script"
 " or via the Create menu (Canny Request: "
-"http://roadmap.highfidelity.com/bugs/p/fix-entity-model-animations)."
+"[http://roadmap.highfidelity.com/bugs/p/fix-entity-model-"
+"animations](http://roadmap.highfidelity.com/bugs/p/fix-entity-model-"
+"animations))."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:63
@@ -4215,15 +4278,17 @@ msgstr ""
 #: ../../source/release-notes/v80.md:69
 msgid ""
 "Tablet no longer disappears due to LOD issues (Canny Request: "
-"http://roadmap.highfidelity.com/bugs/p/make-overlayslocal-entities-not-"
-"effected-by-current-lod)"
+"[http://roadmap.highfidelity.com/bugs/p/make-overlayslocal-entities-not-"
+"effected-by-current-lod](http://roadmap.highfidelity.com/bugs/p/make-"
+"overlayslocal-entities-not-effected-by-current-lod))"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:70
 msgid ""
 "Entity properties are respected during far/near grab while in HMD (Canny "
-"Request: http://roadmap.highfidelity.com/bugs/p/entity-properties-not-"
-"set-in-vr)"
+"Request: [http://roadmap.highfidelity.com/bugs/p/entity-properties-not-"
+"set-in-vr](http://roadmap.highfidelity.com/bugs/p/entity-properties-not-"
+"set-in-vr))"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:71
@@ -4236,15 +4301,17 @@ msgstr ""
 #: ../../source/release-notes/v80.md:72
 msgid ""
 "Fixed an issue where you could fly in zones that had \"Flying Allowed\" "
-"set to off when creating a Zone in Create tool. (Canny Request: "
-"http://roadmap.highfidelity.com/bugs/p/avatar-dont-fall-and-can-start-to-"
-"fly-when-the-zone-is-set-to-no-fly)."
+"set to **off** when creating a Zone in Create tool. (Canny Request: "
+"[http://roadmap.highfidelity.com/bugs/p/avatar-dont-fall-and-can-start-"
+"to-fly-when-the-zone-is-set-to-no-"
+"fly](http://roadmap.highfidelity.com/bugs/p/avatar-dont-fall-and-can-"
+"start-to-fly-when-the-zone-is-set-to-no-fly))."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:73
 msgid ""
-"Continuing to improve and work on the issue of soft wearables flickering "
-"when worn."
+"Continuing to improve and work on the issue of soft wearables "
+"**flickering** when worn."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:74
@@ -4346,21 +4413,23 @@ msgstr ""
 
 #: ../../source/release-notes/v81.md:15
 msgid ""
-"Flow Technology: We have migrated High Fidelity's flow technology from "
-"JavaScript to C++. This improves performance across the board and makes "
-"it more accessible to non-programmers. To use it, download the new Flow "
-"app from the Marketplace, adjust the settings to configure physics such "
-"as gravity and elasticity, and copy the resulting code directly into your"
-" avatar's FST file."
+"**Flow Technology**: We have migrated High Fidelity's flow technology "
+"from JavaScript to C++. This improves performance across the board and "
+"makes it more accessible to non-programmers. To use it, download the new "
+"[Flow app from the "
+"Marketplace](https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410"
+"-9c5c-0ead86e69756), adjust the settings to configure physics such as "
+"gravity and elasticity, and copy the resulting code directly into your "
+"avatar's FST file."
 msgstr ""
 
 #: ../../source/release-notes/v81.md:16
-msgid "Microphone and Mute Experience:"
+msgid "**Microphone and Mute Experience**:"
 msgstr ""
 
 #: ../../source/release-notes/v81.md:17
 msgid ""
-"Push-to-Talk: Push-to-Talk will keep you muted except when you are "
+"**Push-to-Talk**: Push-to-Talk will keep you muted except when you are "
 "pressing buttons on either your keyboard or your controllers. Go to "
 "Settings > Audio > Push to Talk to enable. To talk in Desktop mode, press"
 " and hold the \"T\" button. To talk in VR, press and hold the grip "
@@ -4369,16 +4438,16 @@ msgstr ""
 
 #: ../../source/release-notes/v81.md:18
 msgid ""
-"Mute Notification: We now provide visual feedback when you try to speak "
-"in a muted state. You will see the word \"MUTED\" in red on your screen "
-"if you try to talk while muted."
+"**Mute Notification**: We now provide visual feedback when you try to "
+"speak in a muted state. You will see the word \"MUTED\" in red on your "
+"screen if you try to talk while muted."
 msgstr ""
 
 #: ../../source/release-notes/v81.md:19
 msgid ""
-"Test Microphone Settings: You can now test your microphone settings from "
-"within Interface. Go to Settings > Audio > Test Your Voice. You will see "
-"your voice input on the Audio Level Meter."
+"**Test Microphone Settings**: You can now test your microphone settings "
+"from within Interface. Go to Settings > Audio > Test Your Voice. You will"
+" see your voice input on the Audio Level Meter."
 msgstr ""
 
 #: ../../source/release-notes/v81.md:20
@@ -4387,12 +4456,13 @@ msgstr ""
 
 #: ../../source/release-notes/v81.md:21
 msgid ""
-"Track Hand Controllers in Oculus Home: When leaving High Fidelity to the "
-"Oculus Home, we now continue to track your hand position rather than "
+"**Track Hand Controllers in Oculus Home**: When leaving High Fidelity to "
+"the Oculus Home, we now continue to track your hand position rather than "
 "putting your in an \"Away\" state. Go to Settings > Controls > "
 "Calibration to turn this on or off. Thank you to our user Saracen! (Canny"
-" request: http://roadmap.highfidelity.com/feature-requests/p/track-hands-"
-"in-oculus-dash)"
+" request: [http://roadmap.highfidelity.com/feature-requests/p/track-"
+"hands-in-oculus-dash](http://roadmap.highfidelity.com/feature-requests/p"
+"/track-hands-in-oculus-dash))"
 msgstr ""
 
 #: ../../source/release-notes/v81.md:28
@@ -4412,8 +4482,10 @@ msgstr ""
 #: ../../source/release-notes/v81.md:31
 msgid ""
 "Download the updated exporter here (v0.4.0): "
-"https://github.com/highfidelity/hifi/raw/77ea47a9dbbb49c626e3ccae79fbcd34645fffd1/tools"
-"/unity-avatar-exporter/avatarExporter.unitypackage"
+"[https://github.com/highfidelity/hifi/raw/77ea47a9dbbb49c626e3ccae79fbcd34645fffd1/tools"
+"/unity-avatar-"
+"exporter/avatarExporter.unitypackage](https://github.com/highfidelity/hifi/raw/77ea47a9dbbb49c626e3ccae79fbcd34645fffd1/tools"
+"/unity-avatar-exporter/avatarExporter.unitypackage)"
 msgstr ""
 
 #: ../../source/release-notes/v81.md:32
@@ -4457,22 +4529,26 @@ msgstr ""
 msgid ""
 "Choose whether wearables can be grabbed while being worn using the Lock "
 "icon on the Avatar app. (Canny request: "
-"https://highfidelity.canny.io/bugs/p/wearables-can-get-moved-by-grabbing)"
+"[https://highfidelity.canny.io/bugs/p/wearables-can-get-moved-by-"
+"grabbing](https://highfidelity.canny.io/bugs/p/wearables-can-get-moved-"
+"by-grabbing))"
 msgstr ""
 
 #: ../../source/release-notes/v81.md:44
 msgid ""
 "We've removed grab scaling. We'll work on ways to improve this in a "
 "future release and turn it back on. (Canny request: "
-"http://roadmap.highfidelity.com/feature-requests/p/ability-to-prevent-"
-"grab-scaling)"
+"[http://roadmap.highfidelity.com/feature-requests/p/ability-to-prevent-"
+"grab-scaling](http://roadmap.highfidelity.com/feature-requests/p/ability-"
+"to-prevent-grab-scaling))"
 msgstr ""
 
 #: ../../source/release-notes/v81.md:45
 msgid ""
 "New toggle determines whether or not wearables can be adjusted by hand "
-"(Canny request: http://roadmap.highfidelity.com/bugs/p/wearables-are-"
-"detaching-from-avatars)"
+"(Canny request: [http://roadmap.highfidelity.com/bugs/p/wearables-are-"
+"detaching-from-avatars](http://roadmap.highfidelity.com/bugs/p/wearables-"
+"are-detaching-from-avatars))"
 msgstr ""
 
 #: ../../source/release-notes/v81.md:46
@@ -4481,12 +4557,15 @@ msgid ""
 " a single domain. For example, someone can buy a single tree, then rez it"
 " multiple times to create a forest. When submitting an item to the "
 "Marketplace, content creators control whether or not an item can be "
-"rezz'd multiple times in the JSON file (Read documentation here). Coming "
-"in future releases: We'll make it easier to mark which items can be "
-"rezz'd multiple times, along with visual indications of these items in "
-"your inventory. (Canny request: http://roadmap.highfidelity.com/feature-"
-"requests/p/allow-marketplace-items-to-specify-the-number-of-copies-or-"
-"infinite-a-buyer-can-)"
+"rezz'd multiple times in the JSON file ([Read documentation here](../sell"
+"/add-item.html#unlimited-rezzing-of-your-item)). Coming in future "
+"releases: We'll make it easier to mark which items can be rezz'd multiple"
+" times, along with visual indications of these items in your inventory. "
+"(Canny request: [http://roadmap.highfidelity.com/feature-requests/p"
+"/allow-marketplace-items-to-specify-the-number-of-copies-or-infinite-a"
+"-buyer-can-](http://roadmap.highfidelity.com/feature-requests/p/allow-"
+"marketplace-items-to-specify-the-number-of-copies-or-infinite-a-buyer-"
+"can-))"
 msgstr ""
 
 #: ../../source/release-notes/v81.md:52
@@ -4502,16 +4581,20 @@ msgstr ""
 #: ../../source/release-notes/v81.md:54
 msgid ""
 "Fixed a bug which caused avatar entities to not persist. (Canny requests:"
-" http://roadmap.highfidelity.com/bugs/p/entity-bones-reset-locally-on-"
-"teleport-but-not-remotely and http://roadmap.highfidelity.com/bugs/p"
-"/windowdomainchanged-does-not-work-on-avatar-entities)"
+" [http://roadmap.highfidelity.com/bugs/p/entity-bones-reset-locally-on-"
+"teleport-but-not-remotely](http://roadmap.highfidelity.com/bugs/p/entity-"
+"bones-reset-locally-on-teleport-but-not-remotely) and "
+"[http://roadmap.highfidelity.com/bugs/p/windowdomainchanged-does-not-"
+"work-on-avatar-entities](http://roadmap.highfidelity.com/bugs/p"
+"/windowdomainchanged-does-not-work-on-avatar-entities))"
 msgstr ""
 
 #: ../../source/release-notes/v81.md:59
 msgid ""
 "The Escape key now consistently places the user in \"Away\" mode. (Canny "
-"request: http://roadmap.highfidelity.com/bugs/p/escape-key-doesnt-set-"
-"avatar-to-away-mode)"
+"request: [http://roadmap.highfidelity.com/bugs/p/escape-key-doesnt-set-"
+"avatar-to-away-mode](http://roadmap.highfidelity.com/bugs/p/escape-key-"
+"doesnt-set-avatar-to-away-mode))"
 msgstr ""
 
 #: ../../source/release-notes/v81.md:60
@@ -4524,8 +4607,8 @@ msgstr ""
 msgid ""
 "In a web entity, you can now input text in a web text box or text field. "
 "This fixes the ability to use the 3D keyboard to type in web entities. "
-"(Canny request: http://roadmap.highfidelity.com/bugs/p/web-entity-"
-"keyboard)"
+"(Canny request: [http://roadmap.highfidelity.com/bugs/p/web-entity-"
+"keyboard](http://roadmap.highfidelity.com/bugs/p/web-entity-keyboard))"
 msgstr ""
 
 #: ../../source/release-notes/v81.md:62
@@ -4560,8 +4643,8 @@ msgstr ""
 
 #: ../../source/release-notes/v82.md:11
 msgid ""
-"Note: There is a protocol change in this version. All Clients and Servers"
-" need to update to this latest release."
+"**Note: There is a protocol change in this version.** All Clients and "
+"Servers need to update to this latest release."
 msgstr ""
 
 #: ../../source/release-notes/v82.md:13
@@ -4584,10 +4667,12 @@ msgstr ""
 
 #: ../../source/release-notes/v82.md:19
 msgid ""
-"Improved Locomotion: With new controls in both VR and Desktop mode, "
+"**Improved Locomotion**: With new controls in both VR and Desktop mode, "
 "movement is easier and more intuitive! Customize your settings by going "
-"to Settings > Controls. (Canny request: http://roadmap.highfidelity.com"
-"/feature-requests/p/improved-locomotion-numerous-features)"
+"to Settings > Controls. (Canny request: [http://roadmap.highfidelity.com"
+"/feature-requests/p/improved-locomotion-numerous-"
+"features](http://roadmap.highfidelity.com/feature-requests/p/improved-"
+"locomotion-numerous-features))"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:20
@@ -4630,16 +4715,17 @@ msgstr ""
 
 #: ../../source/release-notes/v82.md:27
 msgid ""
-"New Audio Settings: In this version, we introduced independent volume "
-"controls for avatars, ambient background volume, and overall system "
+"**New Audio Settings**: In this version, we introduced independent volume"
+" controls for avatars, ambient background volume, and overall system "
 "sound. The audio level meter is smaller and takes up less space in the "
 "window. Go to Settings > Audio to change your settings. (Canny Request: "
-"http://roadmap.highfidelity.com/feature-requests/p/implement-2-main-"
-"volume-sliders)"
+"[http://roadmap.highfidelity.com/feature-requests/p/implement-2-main-"
+"volume-sliders](http://roadmap.highfidelity.com/feature-"
+"requests/p/implement-2-main-volume-sliders))"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:28
-msgid "Additional Controls for Entities:"
+msgid "**Additional Controls for Entities**:"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:29
@@ -4662,9 +4748,9 @@ msgstr ""
 
 #: ../../source/release-notes/v82.md:33
 msgid ""
-"Features Added to Avatar \"Hero\" Zones: The Hero zone was introduced in "
-"v0.79.1, where avatars within the zone receive more bandwidth over other "
-"avatars in the domain. Additional features have bene added:"
+"**Features Added to Avatar \"Hero\" Zones**: The Hero zone was introduced"
+" in v0.79.1, where avatars within the zone receive more bandwidth over "
+"other avatars in the domain. Additional features have bene added:"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:34
@@ -4678,8 +4764,8 @@ msgstr ""
 msgid ""
 "Domain owners can now specify the amount of bandwidth that is dedicated "
 "to Hero zones set up in their domain. Go to "
-"http://localhost:40100/settings > Avatar Mixer > Advanced Settings > Hero"
-" Bandwidth to set the bandwidth."
+"[http://localhost:40100/settings](http://localhost:40100/settings) > "
+"Avatar Mixer > Advanced Settings > Hero Bandwidth to set the bandwidth."
 msgstr ""
 
 #: ../../source/release-notes/v82.md:36
@@ -4689,35 +4775,52 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v82.md:37 ../../source/release-notes/v83.md:33
-msgid "New Documentation includes:"
+msgid "**New Documentation includes**:"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:38
-msgid "Prioritize Zones within Your Domain"
+msgid ""
+"[Prioritize Zones within Your "
+"Domain](https://docs.highfidelity.com/create/entities/hero-zone.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:39
-msgid "Create Avatar Entities"
+msgid ""
+"[Create Avatar Entities](https://docs.highfidelity.com/create/entities"
+"/avatar-interactions.html#create-avatar-entities)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:40
-msgid "Create a Custom Avatar Animation JSON file"
+msgid ""
+"[Create a Custom Avatar Animation JSON "
+"file](https://docs.highfidelity.com/create/avatars/custom-"
+"animations.html#create-a-custom-avatar-animation-json-file)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:41
-msgid "Bake Your Content Using the Oven"
+msgid ""
+"[Bake Your Content Using the "
+"Oven](https://docs.highfidelity.com/host/oven.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:42
-msgid "Run Your Domain Using Docker"
+msgid ""
+"[Run Your Domain Using Docker](https://docs.highfidelity.com/en/rc82/host"
+"/run-domain-docker.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:43
-msgid "Best Practices for Hosting Events"
+msgid ""
+"[Best Practices for Hosting "
+"Events](https://docs.highfidelity.com/en/rc82/host/domain-settings-"
+"event.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:44
-msgid "Tutorial: Create a Smoke Fountain (learn how to use Particle entities)"
+msgid ""
+"[Tutorial: Create a Smoke "
+"Fountain](https://docs.highfidelity.com/create/entities/create-"
+"fountain.html) (learn how to use Particle entities)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:50
@@ -4728,8 +4831,8 @@ msgstr ""
 
 #: ../../source/release-notes/v82.md:54
 msgid ""
-"New support for the OpenEXR high dynamic range image file format on "
-"skyboxes and ambient maps."
+"New support for the [OpenEXR high dynamic range image file "
+"format](http://www.openexr.com) on skyboxes and ambient maps."
 msgstr ""
 
 #: ../../source/release-notes/v82.md:55
@@ -4763,7 +4866,7 @@ msgstr ""
 #: ../../source/release-notes/v82.md:63
 msgid ""
 "View updated documentation at "
-"https://docs.highfidelity.com/host/oven.html."
+"[https://docs.highfidelity.com/host/oven.html](https://docs.highfidelity.com/host/oven.html)."
 msgstr ""
 
 #: ../../source/release-notes/v82.md:65 ../../source/release-notes/v83.md:68
@@ -4775,48 +4878,47 @@ msgid "Documentation is now updated and complete for the following APIs:"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:67
-msgid "AnimationCache"
+msgid "[AnimationCache](https://apidocs.vircadia.dev/AnimationCache.html)"
 msgstr ""
 
-#: ../../source/release-notes/v82.md:68 ../../source/release-notes/v83.md:118
-#: ../../source/release-notes/v85.md:52 ../../source/release-notes/v86.md:48
-msgid "Audio"
+#: ../../source/release-notes/v82.md:68
+msgid "[Audio](https://apidocs.vircadia.dev/Audio.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:69
-msgid "AvatarList"
+msgid "[AvatarList](https://apidocs.vircadia.dev/AvatarList.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:70
-msgid "AvatarManager"
+msgid "[AvatarManager](https://apidocs.vircadia.dev/AvatarManager.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:71
-msgid "Camera"
+msgid "[Camera](https://apidocs.vircadia.dev/Camera.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:72
-msgid "HMD"
+msgid "[HMD](https://apidocs.vircadia.dev/HMD.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:73
-msgid "Menu"
+msgid "[Menu](https://apidocs.vircadia.dev/Menu.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:74
-msgid "Messages"
+msgid "[Messages](https://apidocs.vircadia.dev/Messages.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:75
-msgid "ModelCache"
+msgid "[ModelCache](https://apidocs.vircadia.dev/ModelCache.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:76
-msgid "SoundCache"
+msgid "[SoundCache](https://apidocs.vircadia.dev/SoundCache.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:77
-msgid "TextureCache"
+msgid "[TextureCache](https://apidocs.vircadia.dev/TextureCache.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:81
@@ -4834,8 +4936,10 @@ msgid ""
 "The High Fidelity Avatar Exporter for Unity includes fixes and "
 "improvements to the warnings and errors. Download the updated exporter "
 "here (v0.4.1): "
-"https://github.com/highfidelity/hifi/raw/57c3620587ae1ec4638a58988909b46602c14633/tools"
-"/unity-avatar-exporter/avatarExporter.unitypackage"
+"[https://github.com/highfidelity/hifi/raw/57c3620587ae1ec4638a58988909b46602c14633/tools"
+"/unity-avatar-"
+"exporter/avatarExporter.unitypackage](https://github.com/highfidelity/hifi/raw/57c3620587ae1ec4638a58988909b46602c14633/tools"
+"/unity-avatar-exporter/avatarExporter.unitypackage)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:88
@@ -5030,8 +5134,8 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:14
 msgid ""
-"Many efforts have been made to improve stability and performance in this "
-"release:"
+"**Many efforts have been made to improve stability and performance in "
+"this release**:"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:15
@@ -5078,8 +5182,8 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:22
 msgid ""
-"Auto-Optimization for Rendering and Graphics: In this release, we add "
-"controls for world detail, rendering effects, and refresh rate to "
+"**Auto-Optimization for Rendering and Graphics**: In this release, we add"
+" controls for world detail, rendering effects, and refresh rate to "
 "optimize your experience. By default, you will be loaded into the "
 "recommended settings based on your hardware configuration. You can "
 "further refine these settings by going to Settings > Graphics."
@@ -5087,19 +5191,21 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:23
 msgid ""
-"Welcome back the webcam and microphone access! In a previous release, we "
-"completely removed any access to webcams and mics due to security "
+"**Welcome back the webcam and microphone access!** In a previous release,"
+" we completely removed any access to webcams and mics due to security "
 "concerns. We've since addressed and fixed those security issues. In "
 "addition, if a webcam or microphone need access at any time, you will see"
 " an access control dialogue where you can either grant or deny this. "
-"(Canny request: https://highfidelity.canny.io/bugs/p/embeded-chromium-"
-"browser-are-not-enumerating-camera-and-microphone-inputs)."
+"(Canny request: [https://highfidelity.canny.io/bugs/p/embeded-chromium-"
+"browser-are-not-enumerating-camera-and-microphone-"
+"inputs](https://highfidelity.canny.io/bugs/p/embeded-chromium-browser-"
+"are-not-enumerating-camera-and-microphone-inputs))."
 msgstr ""
 
 #: ../../source/release-notes/v83.md:24
 msgid ""
-"Comfort Mode: Comfort Mode is designed to decrease the effects of motion "
-"sickness in VR mode by:"
+"**Comfort Mode**: Comfort Mode is designed to decrease the effects of "
+"motion sickness in VR mode by:"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:25
@@ -5118,7 +5224,7 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:28
 msgid ""
-"Avatar Theft Protection: Users are no longer able to wear certified "
+"**Avatar Theft Protection**: Users are no longer able to wear certified "
 "avatars that they do not own. If someone attempts to wear a certified "
 "avatar that they don't own, they instead will wear a generic avatar and "
 "given instructions on how to change to another avatar."
@@ -5126,14 +5232,14 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:29
 msgid ""
-"Baking of Avatars: Avatars uploaded through our Avatar Packager will now "
-"be automatically sent through our Oven process and baked. This provides "
-"for better optimization and performance."
+"**Baking of Avatars**: Avatars uploaded through our Avatar Packager will "
+"now be automatically sent through our Oven process and baked. This "
+"provides for better optimization and performance."
 msgstr ""
 
 #: ../../source/release-notes/v83.md:30
 msgid ""
-"Simultaneous Editing of Objects: In Create mode, you can now "
+"**Simultaneous Editing of Objects**: In Create mode, you can now "
 "simultaneously edit multiple entities at once. Select the entities you "
 "want to change, then modify the properties. For certain properties (such "
 "as color and behavioral properties), changing the value will change it "
@@ -5143,28 +5249,35 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:31
 msgid ""
-"New User Experience: We've returned to our previous start-up behavior so "
-"that new users will start their HiFi journey in a local domain by "
+"**New User Experience**: We've returned to our previous start-up behavior"
+" so that new users will start their HiFi journey in a local domain by "
 "themselves. The updated content introduces the movement controls and "
 "teaches users how to use High Fidelity."
 msgstr ""
 
 #: ../../source/release-notes/v83.md:32
 msgid ""
-"Update to QT 5.12.3: This update fixes bugs and errors related to the "
-"outdated QT APIs that were in use."
+"**Update to QT 5.12.3**: This update fixes bugs and errors related to the"
+" outdated QT APIs that were in use."
 msgstr ""
 
 #: ../../source/release-notes/v83.md:34
-msgid "Upgrade High Fidelity"
+msgid ""
+"[Upgrade High Fidelity](https://docs.highfidelity.com/en/rc83/explore"
+"/get-started/install.html#upgrade-high-fidelity)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:35
-msgid "Comfort Mode"
+msgid ""
+"[Comfort Mode](https://docs.highfidelity.com/en/rc83/explore/get-started"
+"/vr-controls.html#comfort-mode)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:36
-msgid "FAQ for High Fidelity Coin (HFC)"
+msgid ""
+"[FAQ for High Fidelity Coin "
+"(HFC)](https://docs.highfidelity.com/en/rc83/faq.html#high-fidelity-coin-"
+"hfc)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:43
@@ -5182,7 +5295,9 @@ msgstr ""
 msgid ""
 "Added more talks, idles and fidgets, and polish system to hide loops and "
 "repetition of animations, and also to reduce glitches as the component "
-"animations blend in and out. See this PR for technical details."
+"animations blend in and out. [See this "
+"PR](https://github.com/highfidelity/hifi/pull/15445) for technical "
+"details."
 msgstr ""
 
 #: ../../source/release-notes/v83.md:46
@@ -5196,22 +5311,24 @@ msgid ""
 "Reworked all locomotions to match movement speeds that were changed by "
 "design to be 2.5 m/s for walk and 5.2 m/s for run. Polish the animations "
 "to work for authored height (Artemis) and also the short wolf avatars. "
-"See this PR for more details."
+"[See this PR](https://github.com/highfidelity/hifi/pull/15806) for more "
+"details."
 msgstr ""
 
 #: ../../source/release-notes/v83.md:48
 msgid ""
 "We added the ability to override animations for the right and left hand. "
-"This enables users to create scripts for custom hand poses. See this PR "
-"for more information on hooking in your scripts."
+"This enables users to create scripts for custom hand poses. [See this "
+"PR](https://github.com/highfidelity/hifi/pull/15271) for more information"
+" on hooking in your scripts."
 msgstr ""
 
 #: ../../source/release-notes/v83.md:49
 msgid ""
 "Improved our safe landing code to properly find local entities when "
 "teleporting or entering a domain. This prevents avatars from showing up "
-"in undesirable locations when moving around. Many thanks to Oren Hurvitz "
-"for the code!"
+"in undesirable locations when moving around. Many thanks to [Oren "
+"Hurvitz](https://github.com/highfidelity/hifi/pull/15282) for the code!"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:50
@@ -5250,8 +5367,9 @@ msgstr ""
 #, python-format
 msgid ""
 "Improved CPU usage by optimizing avatars and the _Blender tasks "
-"associated with rendering. This dropped CPU 10% on Windows. See this PR "
-"for more technical information."
+"associated with rendering. This dropped CPU 10% on Windows. [See this "
+"PR](https://github.com/highfidelity/hifi/pull/15517) for more technical "
+"information."
 msgstr ""
 
 #: ../../source/release-notes/v83.md:62
@@ -5265,7 +5383,9 @@ msgstr ""
 msgid ""
 "Improve gLTF importer correctness and support for the following features:"
 " mesh deformer, unnamed materials and vertex colors, sparse accessors, "
-"thin bounding boxes. Many thanks to SaracenOne for your contribution!"
+"thin bounding boxes. Many thanks to "
+"[SaracenOne](https://github.com/highfidelity/hifi/pull/14366) for your "
+"contribution!"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:64
@@ -5286,125 +5406,127 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v83.md:71
-msgid "AvatarBookmarks"
+msgid "[AvatarBookmarks](https://apidocs.vircadia.dev/AvatarBookmarks.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:72
-msgid "AvatarInputs"
+msgid "[AvatarInputs](https://apidocs.vircadia.dev/AvatarInputs.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:73
-msgid "Clipboard"
+msgid "[Clipboard](https://apidocs.vircadia.dev/Clipboard.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:74
-msgid "Controller"
+msgid "[Controller](https://apidocs.vircadia.dev/Controller.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:75
-msgid "Desktop"
+msgid "[Desktop](https://apidocs.vircadia.dev/Desktop.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:76
-msgid "Entities"
+msgid "[Entities](https://apidocs.vircadia.dev/Entities.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:77
-msgid "location"
+msgid "[location](https://apidocs.vircadia.dev/location.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:78
-msgid "LocationBookmarks"
+msgid "[LocationBookmarks](https://apidocs.vircadia.dev/LocationBookmarks.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:79
-msgid "Midi"
+msgid "[Midi](https://apidocs.vircadia.dev/Midi.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:80
-msgid "Overlays"
+msgid "[Overlays](https://apidocs.vircadia.dev/Overlays.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:81
-msgid "Paths"
+msgid "[Paths](https://apidocs.vircadia.dev/Paths.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:82
-msgid "PlatformInfo"
+msgid "[PlatformInfo](https://apidocs.vircadia.dev/PlatformInfo.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:83
-msgid "Picks"
+msgid "[Picks](https://apidocs.vircadia.dev/Picks.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:84
-msgid "PickType"
+msgid "[PickType](https://apidocs.vircadia.dev/PickType.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:85
-msgid "Pointers"
+msgid "[Pointers](https://apidocs.vircadia.dev/Pointers.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:86
-msgid "Quat"
+msgid "[Quat](https://apidocs.vircadia.dev/Quat.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:87
-msgid "RayPick"
+msgid "[RayPick](https://apidocs.vircadia.dev/RayPick.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:88
-msgid "ResourceRequestObserver"
+msgid "[ResourceRequestObserver](https://apidocs.vircadia.dev/ResourceRequestObserver.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:89
-msgid "Reticle"
+msgid "[Reticle](https://apidocs.vircadia.dev/Reticle.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:90
-msgid "Scene"
+msgid "[Scene](https://apidocs.vircadia.dev/Scene.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:91
-msgid "Script"
+msgid "[Script](https://apidocs.vircadia.dev/Script.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:92
-msgid "Selection"
+msgid "[Selection](https://apidocs.vircadia.dev/Selection.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:93
-msgid "Settings"
+msgid "[Settings](https://apidocs.vircadia.dev/Settings.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:94
-msgid "Snapshot"
+msgid "[Snapshot](https://apidocs.vircadia.dev/Snapshot.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:95
-msgid "Tablet"
+msgid "[Tablet](https://apidocs.vircadia.dev/Tablet.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:96
-msgid "Users"
+msgid "[Users](https://apidocs.vircadia.dev/Users.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:97
-msgid "Uuid"
+msgid "[Uuid](https://apidocs.vircadia.dev/Uuid.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:98
-msgid "Vec3"
+msgid "[Vec3](https://apidocs.vircadia.dev/Vec3.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:99
-msgid "Window"
+msgid "[Window](https://apidocs.vircadia.dev/Window.html)"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:103
 msgid ""
 "Now allow users to disable automatic flying (Settings > Controls > Hover "
-"When Unsupported).  Many thanks SaracenOne for the contribution."
+"When Unsupported).  Many thanks "
+"[SaracenOne](https://github.com/highfidelity/hifi/pull/15361) for the "
+"contribution."
 msgstr ""
 
 #: ../../source/release-notes/v83.md:104
@@ -5432,7 +5554,7 @@ msgstr ""
 #: ../../source/release-notes/v83.md:108
 msgid ""
 "Cleaned up some warnings in syntax-error.js that were appearing in Visual"
-" Studio. Thanks to Oren Hurvitz!"
+" Studio. Thanks to [Oren Hurvitz](https://github.com/orenh1)!"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:109
@@ -5440,7 +5562,7 @@ msgid ""
 "Improved loading by fixing up some race conditions that could trigger "
 "waiting for login to complete, even when it already did, edit.js would "
 "fail to load as scripts started running before the Keyboard had been "
-"initialized. Thanks Oren Hurvitz!"
+"initialized. Thanks [Oren Hurvitz](https://github.com/orenh1)!"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:110
@@ -5466,6 +5588,11 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:113
 msgid "Updated our installer icons."
+msgstr ""
+
+#: ../../source/release-notes/v83.md:118 ../../source/release-notes/v85.md:52
+#: ../../source/release-notes/v86.md:48
+msgid "Audio"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:120
@@ -5495,8 +5622,10 @@ msgstr ""
 #: ../../source/release-notes/v83.md:124
 msgid ""
 "Plugging and unplugging USB headsets no longer cause Interface to hang or"
-" freeze. (Canny request: https://highfidelity.canny.io/bugs/p/unplugging-"
-"headphones-with-hifi-open-causes-freeze)"
+" freeze. (Canny request: [https://highfidelity.canny.io/bugs/p"
+"/unplugging-headphones-with-hifi-open-causes-"
+"freeze](https://highfidelity.canny.io/bugs/p/unplugging-headphones-with-"
+"hifi-open-causes-freeze))"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:125
@@ -5523,8 +5652,9 @@ msgstr ""
 msgid ""
 "In cases where avatars have no eye joints, eyes no longer pop out of "
 "joint and the camera view no longer appears inside the avatar's head. "
-"(Canny request: https://highfidelity.canny.io/bugs/p/head-flashes-into-"
-"view-while-in-hmd)"
+"(Canny request: [https://highfidelity.canny.io/bugs/p/head-flashes-into-"
+"view-while-in-hmd](https://highfidelity.canny.io/bugs/p/head-flashes-"
+"into-view-while-in-hmd))"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:132
@@ -5555,8 +5685,10 @@ msgstr ""
 #: ../../source/release-notes/v83.md:136
 msgid ""
 "Equipping a wearable on a missing joint no longer duplicates the "
-"wearable. (Canny request: https://highfidelity.canny.io/bugs/p/clicking-"
-"cancel-in-wearable-app-causes-problems)"
+"wearable. (Canny request: [https://highfidelity.canny.io/bugs/p/clicking-"
+"cancel-in-wearable-app-causes-"
+"problems](https://highfidelity.canny.io/bugs/p/clicking-cancel-in-"
+"wearable-app-causes-problems))"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:137
@@ -5570,7 +5702,8 @@ msgstr ""
 msgid ""
 "In the Create app, Copy/Paste now works on grandchildren of entities. "
 "Before this fix, only an entity's direct children were copied, but not "
-"their children. Thanks to Oren Hurvitz!"
+"their children. Thanks to [Oren "
+"Hurvitz](https://github.com/highfidelity/hifi/pull/15281)!"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:142
@@ -5598,16 +5731,19 @@ msgstr ""
 msgid ""
 "Switching between HMD and desktop modes now works seamlessly. Users will "
 "no longer be stuck in desktop mode permanently. (Canny request: "
-"https://highfidelity.canny.io/bugs/p/fix-moving-between-desktop-and-hmd-"
-"on-oculus)"
+"[https://highfidelity.canny.io/bugs/p/fix-moving-between-desktop-and-hmd-"
+"on-oculus](https://highfidelity.canny.io/bugs/p/fix-moving-between-"
+"desktop-and-hmd-on-oculus))"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:149
 msgid ""
 "Fixed the issue where we were artificially clipping the FOV in Oculus "
 "devices, resulting in a black border appearing around your field of view."
-" (Canny request: https://highfidelity.canny.io/bugs/p/black-border-"
-"appears-at-all-times-in-vr-at-least-on-oculus)"
+" (Canny request: [https://highfidelity.canny.io/bugs/p/black-border-"
+"appears-at-all-times-in-vr-at-least-on-"
+"oculus](https://highfidelity.canny.io/bugs/p/black-border-appears-at-all-"
+"times-in-vr-at-least-on-oculus))"
 msgstr ""
 
 #: ../../source/release-notes/v83.md:153
@@ -5701,11 +5837,13 @@ msgstr ""
 
 #: ../../source/release-notes/v84.md:9
 msgid ""
-"Acoustic Echo Cancellation: In this release, we implemented Acoustic Echo"
-" Cancellation (AEC), which improves voice quality by preventing the echo "
-"that results in open mic setups. By default, AEC is turned on, and you "
-"can turn it off in Settings > Audio. Documentation is available at "
-"Acoustic Echo Cancellation."
+"**Acoustic Echo Cancellation**: In this release, we implemented Acoustic "
+"Echo Cancellation (AEC), which improves voice quality by preventing the "
+"echo that results in open mic setups. By default, AEC is turned on, and "
+"you can turn it off in Settings > Audio. Documentation is available at "
+"[Acoustic Echo "
+"Cancellation](https://docs.highfidelity.com/en/rc84/explore/get-started"
+"/adjust-settings.html#id1)."
 msgstr ""
 
 #: ../../source/release-notes/v84.md:15
@@ -5740,7 +5878,7 @@ msgstr ""
 #: ../../source/release-notes/v84.md:25
 msgid ""
 "Improved performance when any entity needs to be re-rendered (thanks to "
-"HifiExperiments!)."
+"[HifiExperiments](https://github.com/HifiExperiments)!)."
 msgstr ""
 
 #: ../../source/release-notes/v84.md:26
@@ -5824,7 +5962,7 @@ msgid ""
 "Introduced new build-time environment variable HIFI_VCPKG_BOOTSTRAP that "
 "will allow developers using Visual Studio 2019 to build the High Fidelity"
 " binaries. See the updated build guide for Windows here: "
-"https://github.com/vircadia/vircadia/blob/master/BUILD_WIN.md"
+"[https://github.com/vircadia/vircadia/blob/master/BUILD_WIN.md](https://raw.githubusercontent.com/highfidelity/hifi/master/BUILD_WIN.md)"
 msgstr ""
 
 #: ../../source/release-notes/v84.md:46
@@ -5923,7 +6061,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v84.md:77
-msgid "8-Channel audio output works again in Interface (thanks to ctrlaltdavid!)"
+msgid ""
+"8-Channel audio output works again in Interface (thanks to "
+"[ctrlaltdavid](https://github.com/ctrlaltdavid)!)"
 msgstr ""
 
 #: ../../source/release-notes/v84.md:78
@@ -5974,7 +6114,7 @@ msgstr ""
 
 #: ../../source/release-notes/v84.md:91
 msgid ""
-"Using the ScriptDiscoveryService.scriptsModel property and trying to "
+"Using the `ScriptDiscoveryService.scriptsModel` property and trying to "
 "access data for a non-existent row in the model"
 msgstr ""
 
@@ -6008,8 +6148,8 @@ msgstr ""
 
 #: ../../source/release-notes/v85.md:14
 msgid ""
-"Free Look Camera: The desktop and HMD controls to \"look around\" now "
-"control the camera direction rather than the direction your avatar is "
+"**Free Look Camera**: The desktop and HMD controls to \"look around\" now"
+" control the camera direction rather than the direction your avatar is "
 "facing. For small rotations, the avatar will follow the camera with only "
 "its head and shoulders, rather than its entire body. Avatars now have a "
 "more natural and relaxed appearance in-world, while allowing you to "
@@ -6019,15 +6159,15 @@ msgstr ""
 
 #: ../../source/release-notes/v85.md:15
 msgid ""
-"Selfie Mode: Mirror mode (accessible with the \"2\" key in desktop mode) "
-"has been replaced with a new selfie mode. Unlike mirror mode in past "
-"versions, you can now move around while looking at yourself and use the "
-"camera to look around."
+"**Selfie Mode**: Mirror mode (accessible with the \"2\" key in desktop "
+"mode) has been replaced with a new selfie mode. Unlike mirror mode in "
+"past versions, you can now move around while looking at yourself and use "
+"the camera to look around."
 msgstr ""
 
 #: ../../source/release-notes/v85.md:21
 msgid ""
-"Use Computer Default Audio: You now have the option to use your "
+"**Use Computer Default Audio**: You now have the option to use your "
 "computer's default input and output devices as your High Fidelity audio "
 "settings. For new installations, this is the default. Using this new "
 "setting, Interface will use whatever your computer's audio settings are, "
@@ -6037,7 +6177,9 @@ msgstr ""
 #: ../../source/release-notes/v85.md:27
 msgid ""
 "Migrated face and eye-tracking from separate classes to a standard input "
-"system. See https://github.com/highfidelity/hifi/pull/16157 for details."
+"system. See "
+"[https://github.com/highfidelity/hifi/pull/16157](https://github.com/highfidelity/hifi/pull/16157)"
+" for details."
 msgstr ""
 
 #: ../../source/release-notes/v85.md:28
@@ -6183,7 +6325,8 @@ msgstr ""
 #: ../../source/release-notes/v85.md:81
 msgid ""
 "Steam release notes link now correctly directs to our release notes page "
-"at https://docs.highfidelity.com/release-notes.html."
+"at [https://docs.highfidelity.com/release-"
+"notes.html](https://docs.highfidelity.com/release-notes.html)."
 msgstr ""
 
 #: ../../source/release-notes/v85.md:82
@@ -6231,20 +6374,21 @@ msgstr ""
 
 #: ../../source/release-notes/v86.md:9
 msgid ""
-"New \"Away From Keyboard\" animation: There is a new AFK animation! We've"
-" moved away from the squatting animation and have updated it with an "
-"\"I'm busy on my phone\" animation. When you press ESC, your bubble will "
-"still be activated and you will automatically be muted."
+"**New \"Away From Keyboard\" animation**: There is a new AFK animation! "
+"We've moved away from the squatting animation and have updated it with an"
+" \"I'm busy on my phone\" animation. When you press ESC, your bubble will"
+" still be activated and you will automatically be muted."
 msgstr ""
 
 #: ../../source/release-notes/v86.md:10
 msgid ""
-"Blend shape support for ARKit compatibility: We've added new blend shapes"
-" and add support for up to 10 custom blend shapes with this release. In "
-"addition, there are now Controller actions to drive all blend shapes from"
-" the input system. See more details for naming conventions in "
-"https://github.com/highfidelity/hifi/pull/16400. Details are also "
-"mentioned in the notes below."
+"**Blend shape support for ARKit compatibility**: We've added new blend "
+"shapes and add support for up to 10 custom blend shapes with this "
+"release. In addition, there are now Controller actions to drive all blend"
+" shapes from the input system. See more details for naming conventions in"
+" "
+"[https://github.com/highfidelity/hifi/pull/16400](https://github.com/highfidelity/hifi/pull/16400)."
+" Details are also mentioned in the notes below."
 msgstr ""
 
 #: ../../source/release-notes/v86.md:16
@@ -6254,10 +6398,12 @@ msgstr ""
 #: ../../source/release-notes/v86.md:17
 msgid ""
 "The run/sprint speed for VR mode now matches the run/sprint speed for "
-"desktop users. Thanks to orenh1 for the contribution. (Canny: "
-"]https://highfidelity.canny.io/bugs/p/avatar-locomotion-speed-is-"
-"unnatural-after-beta-82](https://highfidelity.canny.io/bugs/p/avatar-"
-"locomotion-speed-is-unnatural-after-beta-82))"
+"desktop users. Thanks to "
+"[orenh1](https://github.com/highfidelity/hifi/pull/16390) for the "
+"contribution. (Canny: ]https://highfidelity.canny.io/bugs/p/avatar-"
+"locomotion-speed-is-unnatural-after-"
+"beta-82](https://highfidelity.canny.io/bugs/p/avatar-locomotion-speed-is-"
+"unnatural-after-beta-82))"
 msgstr ""
 
 #: ../../source/release-notes/v86.md:18
@@ -6297,15 +6443,17 @@ msgid ""
 "In the Create Tool's Properties, increased the range for a zone's 'Haze "
 "Base' and 'Haze Ceiling' to (-16000 to 16000). Previously, this was "
 "capped to (-5000 to 5000). (Canny issue: "
-"https://highfidelity.canny.io/bugs/p/editor-zone-haze-altitude-value-"
-"floor-at-5000)"
+"[https://highfidelity.canny.io/bugs/p/editor-zone-haze-altitude-value-"
+"floor-at-5000](https://highfidelity.canny.io/bugs/p/editor-zone-haze-"
+"altitude-value-floor-at-5000))"
 msgstr ""
 
 #: ../../source/release-notes/v86.md:27
 msgid ""
 "Incorporated an experimental custom shader feature, which allows users to"
-" apply shaders to models and avatars. Thanks to HiFiExperiments for the "
-"contribution."
+" apply shaders to models and avatars. Thanks to "
+"[HiFiExperiments](https://github.com/highfidelity/hifi/pull/16399) for "
+"the contribution."
 msgstr ""
 
 #: ../../source/release-notes/v86.md:29
@@ -6318,7 +6466,7 @@ msgid ""
 "level of world detail detail via scripting. Previously, the level of "
 "detail was set using a numerical range (0-1), which resulted in "
 "inconsistent/unexpected target FPS values. For more information, see "
-"https://apidocs.vircadia.dev/LODManager.html#.WorldDetailQuality."
+"[https://apidocs.vircadia.dev/LODManager.html#.WorldDetailQuality](https://apidocs.vircadia.dev/LODManager.html#.WorldDetailQuality)."
 msgstr ""
 
 #: ../../source/release-notes/v86.md:32
@@ -6409,7 +6557,9 @@ msgid ""
 "When loading avatar bookmarks, avatar entities are now attached after the"
 " skeleton has finished loading. Previously, avatar entities may have "
 "erroneously been attached to incorrect joints due to old skeleton "
-"structures. Thanks to orenh1 for the contribution."
+"structures. Thanks to "
+"[orenh1](https://github.com/highfidelity/hifi/pull/16392) for the "
+"contribution."
 msgstr ""
 
 #: ../../source/release-notes/v86.md:62
@@ -6460,9 +6610,11 @@ msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:7
 #: ../../source/release-notes/v86-k2.md:60
+#, python-format
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia "
-"GitHub repo."
+"[GitHub "
+"repo](https://github.com/vircadia/vircadia/pulls?utf8=%E2%9C%93&q=milestone%3Av0860-k2)."
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:11
@@ -6529,7 +6681,8 @@ msgstr ""
 #: ../../source/release-notes/v86-k2.md:21
 msgid ""
 "Add a \"More\" app that lists and installs community-made scripts and "
-"apps directly from a GitHub repo. (#187)"
+"apps directly from a [GitHub repo](https://github.com/vircadia/community-"
+"apps). (#187)"
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:22
@@ -6557,7 +6710,7 @@ msgid "Add support for GLTF alphaModes. (#15)"
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:29
-msgid "Fix opacityMapModes for GLTF. (#15)"
+msgid "Fix opacityMapModes for GLTF. (#15) ![](_images/0860_k2_opacity.png)"
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:31
@@ -6601,7 +6754,7 @@ msgid "VCPKG modernization. (#53)"
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:43
-msgid "Fix Linux Building with export HIFI_MEMORY_DEBUGGING=1. (#54)"
+msgid "Fix Linux Building with `export HIFI_MEMORY_DEBUGGING=1`. (#54)"
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:44
@@ -6663,19 +6816,21 @@ msgid "Added environment variables to change domain server ports. (#15)"
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:65
-msgid "Fix server log spam ///. (#175)"
+msgid "Fix server log spam `///`. (#175)"
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:71
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia-"
-"Docs-Sphinx GitHub repo."
+"Docs-Sphinx [GitHub repo](https://github.com/vircadia/vircadia-docs-"
+"sphinx)."
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:73
 msgid ""
 "Added initial shader documentation that can be found under Create > "
-"Materials, or here. (#17)"
+"Materials, or [here](https://docs.vircadia.dev/create/materials"
+"/procedural-shaders.html). (#17)"
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:74
@@ -6685,9 +6840,12 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:78
+#, python-format
 msgid ""
-"The API docs are generated by from the software source GitHub repo. "
-"Additionally, the latest deployment source can be viewed here."
+"The API docs are generated by from the software source [GitHub "
+"repo](https://github.com/vircadia/vircadia/pulls?utf8=%E2%9C%93&q=milestone%3Av0860-k2)."
+" Additionally, the latest deployment source can be viewed "
+"[here](https://github.com/vircadia/vircadia-api-docs)."
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:81
@@ -6707,9 +6865,11 @@ msgstr ""
 #: ../../source/release-notes/v86-k2.md:90
 msgid ""
 "The numbers at the end of each item are the PR numbers in the "
-"Decentralized GoTo GitHub repo. This app is temporary and created under "
-"the name of \"Explore\" app. The Explore app name and icon will be used "
-"again for the \"Decentralized GoTo\" successor."
+"Decentralized GoTo [GitHub "
+"repo](https://github.com/vircadia/Decentralized_GoTo_Experimental). This "
+"app is temporary and created under the name of \"Explore\" app. The "
+"Explore app name and icon will be used again for the \"Decentralized "
+"GoTo\" successor."
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:92
@@ -6720,14 +6880,15 @@ msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:93
 msgid ""
-"Many commits directly to master not put into PRs by Kalila L. found here "
-"between February 24th & March 12th, 2020."
+"Many commits directly to master not put into PRs by Kalila L. found "
+"[here](https://github.com/vircadia/Decentralized_GoTo_Experimental/commits/master)"
+" between February 24th & March 12th, 2020."
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:98
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Community "
-"Apps GitHub repo."
+"Apps [GitHub repo](https://github.com/vircadia/community-apps)."
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:100
@@ -6749,7 +6910,9 @@ msgstr ""
 #: ../../source/release-notes/v86-k2.md:104
 msgid ""
 "Many commits directly to master not put into PRs by Kalila L. & Keb "
-"Helion found here between February 26th & March 16th, 2020."
+"Helion found "
+"[here](https://github.com/vircadia/Decentralized_GoTo_Experimental/commits/master)"
+" between February 26th & March 16th, 2020."
 msgstr ""
 
 #~ msgid "Vive Pro Eye support added. (#350)"
@@ -6924,5 +7087,1669 @@ msgstr ""
 #~ "High Fidelity, and select the Reset "
 #~ "Domain Server password option from the"
 #~ " menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For example, 2020.2.5-Asteria will be "
+#~ "compatible with 2020.2.0-Asteria. Whereas "
+#~ "2020.3.0-Demeter will not be compatible "
+#~ "with 2020.2.0-Asteria or 2020.2.5-Asteria."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The numbers at the end of each "
+#~ "item are the PR numbers in the "
+#~ "Vircadia repo."
+#~ msgstr ""
+
+#~ msgid "\"Alpha\" property added to the \"Shape\" entity's editor. (#215)"
+#~ msgstr ""
+
+#~ msgid "\"renderWithZones\" property added to all entities. (#274, #369)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fix many GLTF (*.glb) files being "
+#~ "unable to be loaded due to bad "
+#~ "URL parsing. (#415)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "DEV-2769: Remove the \"acceleration\" entity"
+#~ " property from Create app It's a "
+#~ "deprecated property that doesn't affect "
+#~ "the entity. (#16497)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add automaticLookAt.js to developer scripts"
+#~ " automaticLookAt.js is a script that "
+#~ "automatically controls the avatar's head "
+#~ "and eye to simulate human interaction"
+#~ " during group interactions. This PR "
+#~ "adds that script to the developer "
+#~ "script folder. (#16545)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fix screenshare broadcast on MacOS DEV"
+#~ " builds only - this is related "
+#~ "to [DEV-2812], but doesn't fix the "
+#~ "issue."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added missing numGlobalQueriesPending and "
+#~ "numGlobalQueriesLoading properties' documentation to"
+#~ " AnimationCache, ModelCache, SoundCache, and "
+#~ "TextureCache."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Entities.MaterialResource type now appears in"
+#~ " and is used in the JSDoc "
+#~ "output."
+#~ msgstr ""
+
+#~ msgid "Entities.Material type now appears in and is used in the JSDoc output."
+#~ msgstr ""
+
+#~ msgid "RGBS global type now appears in and is used in the JSDoc output."
+#~ msgstr ""
+
+#~ msgid "Revised recent Entities.Material JSDoc changes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A check to help prevent an "
+#~ "infinite loop in the _sequenceNumber "
+#~ "std::distance calculation. This is the "
+#~ "main issue, in some cases backtrace "
+#~ "is reporting the main thread as "
+#~ "deadlocked. The stacktrace points to an"
+#~ " issue with the std::distance() "
+#~ "calculation. If the "
+#~ "EntityQueryInitialResultsComplete is delayed "
+#~ "significantly, there could be a rare "
+#~ "case where the _sequenceNumber map grows"
+#~ " large enough for the wraparound less"
+#~ " then operator will no longer "
+#~ "function correctly. This will cause the"
+#~ " std::distance calculation to never "
+#~ "complete. I've added a guard to "
+#~ "prevent this from happening and some "
+#~ "logs to help diagnose this issue "
+#~ "in the future."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Move \"away\" animation from S3 bucket"
+#~ " to local resource Put away animation"
+#~ " into compiled animation resource and "
+#~ "update script to use local resource "
+#~ "path. (#16523)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Allow Linux interface to connect to "
+#~ "domain when DISABLE_QML is true when "
+#~ "built with DISABLE_QML true, Linux "
+#~ "interface doesn't attempt to connect to"
+#~ " domain. (#16566)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Included localPosition etc. properties in "
+#~ "values returned by "
+#~ "MyAvatar.getAvatarEntitiesVariant() and "
+#~ "Avatar.getAvatarEntitiesData(), to match those "
+#~ "returned by Entities.getEntityProperties()."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Removed now-unnecessary call to "
+#~ "Entities.getEntityProperties() in WebTablet.js."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Controller.Actions.CycleCamera fixed so that "
+#~ "it doesn't get stuck in third "
+#~ "person (HMD mode) or selfie view "
+#~ "(desktop mode)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "JSDoc for Controller.Actions.CycleCamera updated "
+#~ "to reflect new camera modes used."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The numbers at the end of each "
+#~ "item are the PR numbers in the "
+#~ "Vircadia-Docs-Sphinx repo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The API docs are generated from "
+#~ "the software source repo. The latest "
+#~ "live deployment source can be viewed "
+#~ "here."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The numbers at the end of each "
+#~ "item are the PR numbers in the "
+#~ "Decentralized GoTo repo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The numbers at the end of each "
+#~ "item are the PR numbers in the "
+#~ "Community Apps repo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Controller API: fix various crashes and"
+#~ " fix more than one controller not "
+#~ "buzzing on triggerHapticPulse. (#399)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "UI: The Help menu now has a "
+#~ "Tutorial button which will teleport you"
+#~ " to the serverless tutorial. (#459)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Entities.pasteEntities now allows you "
+#~ "to paste to any host type, "
+#~ "defaulting to domain if not specified."
+#~ " (#497)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Entities.importEntities now allows you"
+#~ " to import entities to your clipboard"
+#~ " even if you have no create "
+#~ "rights on the current domain. (#504)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While the metaverse server is still "
+#~ "in development, much progress has been"
+#~ " made since starting. The project has"
+#~ " over 150 commits at the time "
+#~ "of publishing these release notes, with"
+#~ " over 20 commits in the last "
+#~ "two weeks (July 1st - July 14th,"
+#~ " 2020). Building upon the foundation "
+#~ "that Zontreck had placed, Misterblue has"
+#~ " created a working prototype of the"
+#~ " metaverse. After adequate testing and "
+#~ "completion of the system is complete,"
+#~ " we will begin the transition to "
+#~ "our very own federated metaverse system!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The metaverse server interface has also"
+#~ " gotten underway this month. It will"
+#~ " serve as the UI foundation for "
+#~ "admins and users alike to access "
+#~ "and administrate their identities on the"
+#~ " metaverse. It has had 18 commits "
+#~ "in the last two weeks (July 1st"
+#~ " - July 14th, 2020)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia's launcher is at version "
+#~ "0.0.1r, steadily approaching version 1.0.0."
+#~ " It currently features things such as"
+#~ " one click downloading and updating, "
+#~ "version management, easy settings control "
+#~ "for Interface, event listings, and more."
+#~ " It has many planned features, such"
+#~ " as world listings and further "
+#~ "controls for sandboxes as well. It "
+#~ "has over 130 commits at the time"
+#~ " of publishing these release notes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Entities.enterEntity signal description "
+#~ "has been improved to take note of"
+#~ " behavior when using it. (#507)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Window.getUserAgent has been added "
+#~ "to return the Interface's user agent."
+#~ " (#520)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Graphics: Fix bug where renderWithZones "
+#~ "doesn't work after reloading content. "
+#~ "(#561)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Graphics: Fix bug where renderWithZones "
+#~ "would not work when loading content "
+#~ "from a JSON file. (#564)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The metaverse server and metaverse "
+#~ "server interface are progressing well. "
+#~ "The metaverse server is currently being"
+#~ " rewritten in TypeScript with Node.JS "
+#~ "in order to improve its capabilities "
+#~ "for the long term. As of now "
+#~ "(8/6/2020) it is at feature parity "
+#~ "with its original C# implementation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia's launcher is at version "
+#~ "0.0.1u. The launcher now runs the "
+#~ "Interface as a separate process by "
+#~ "default. Because of this, it now "
+#~ "has greatly improved stability when "
+#~ "Interface is launched with it. The "
+#~ "drag and drop feature as well as"
+#~ " crash reporting now also work "
+#~ "correctly."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Slider app now has proper "
+#~ "syncing with multiple users when viewing"
+#~ " a presenter's screen. Work is still"
+#~ " underway to improve its use before"
+#~ " merging. The PR can be viewed "
+#~ "here."
+#~ msgstr ""
+
+#~ msgid "The Window.getUserAgent API call was created and documented. (#520)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "App: Update the colorSpread color-picker"
+#~ " and other misc. fixes in the "
+#~ "Create app. (#606)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Add About JavaScript API to "
+#~ "replace the now deprecated HifiAbout "
+#~ "API. (#624)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "UI: Updated text references from High"
+#~ " Fidelity -> Vircadia in the "
+#~ "Assignment tab of the domain-server "
+#~ "panel. (#641)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The metaverse server has been renamed"
+#~ " to Iamus, known as Apollo's son "
+#~ "in Greek mythology. It is beginning "
+#~ "active testing with the wider Vircadia"
+#~ " community. The metaverse server interface"
+#~ " is under continued development."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia's launcher has not had any "
+#~ "updates since the last release (2020.2.4"
+#~ " Asteria)."
+#~ msgstr ""
+
+#~ msgid "The Stats API was updated to include two new properties. (#276)"
+#~ msgstr ""
+
+#~ msgid "The About API was added to replace the deprecated HifiAbout API. (#624)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This version of Vircadia is a new"
+#~ " release. It is not compatible with"
+#~ " the 2020.2.0-Asteria protocol. This "
+#~ "version was released on September 29th,"
+#~ " 2020."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Script.getExternalPath added to generate"
+#~ " accessible URLs to Vircadia CDNs. "
+#~ "(#668)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The metaverse server Iamus is live "
+#~ "at https://metaverse.vircadia.com/live, with the "
+#~ "metaverse server interface live for user"
+#~ " registration and interaction at on "
+#~ "Vircadia's website."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia's launcher has added support "
+#~ "for outputting log files, checking for"
+#~ " updates on startup, and metaverse "
+#~ "server switching with version 0.0.1q."
+#~ msgstr ""
+
+#~ msgid "The Script.getExternalPath API was added. (#668)"
+#~ msgstr ""
+
+#~ msgid "API: Add url parameter to Window.openWebBrowser. (#778)"
+#~ msgstr ""
+
+#~ msgid "Application: Fix crash when using About.openUrl. (#778)"
+#~ msgstr ""
+
+#~ msgid "Iamus Metaverse Server updates can be found here."
+#~ msgstr ""
+
+#~ msgid "Iamus Metaverse Dashboard updates can be found here."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia's launcher updates can be found"
+#~ " here. Some changes are listed below."
+#~ " The launcher is now on experimental"
+#~ " version 0.0.1s."
+#~ msgstr ""
+
+#~ msgid "Script API:"
+#~ msgstr ""
+
+#~ msgid "type property documented. (#730)"
+#~ msgstr ""
+
+#~ msgid "Window API:"
+#~ msgstr ""
+
+#~ msgid "url parameter added to openWebBrowser. (#623)"
+#~ msgstr ""
+
+#~ msgid "About API:"
+#~ msgstr ""
+
+#~ msgid "openUrl documentation updated. (#623)"
+#~ msgstr ""
+
+#~ msgid "Camera API:"
+#~ msgstr ""
+
+#~ msgid "captureMouse and sensitivity properties added. (#677)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "getCaptureMouse, setCaptureMouse, getSensitivity, "
+#~ "and setSensitivity functions added. (#677)"
+#~ msgstr ""
+
+#~ msgid "Entities API:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "findEntities function documentation updated to"
+#~ " specify caveats when used with an"
+#~ " entity-server script. (#789)"
+#~ msgstr ""
+
+#~ msgid "Stats API:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "decimatedTextureCount property documentation updated"
+#~ " to define maximum allowed dimensions "
+#~ "'4096' -> '8192' pixels on desktop. "
+#~ "(#821)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Application: Add Script.require developer "
+#~ "toggle to force cachebusting on every"
+#~ " load. (#664)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Application: Add ability for Script.require"
+#~ " to automatically cachebust itself when "
+#~ "changes are made to the script on"
+#~ " the local filesystem. (#848)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Fix Entities.enterEntity and "
+#~ "Entities.leaveEntity event not firing in "
+#~ "entity script after content reload. "
+#~ "(#853)"
+#~ msgstr ""
+
+#~ msgid "Iamus Metaverse Server"
+#~ msgstr ""
+
+#~ msgid "Iamus Metaverse Dashboard"
+#~ msgstr ""
+
+#~ msgid "Updates are reflected here."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia's launcher updates can be found"
+#~ " here. The launcher is on "
+#~ "experimental version 0.0.1s."
+#~ msgstr ""
+
+#~ msgid "Add description of VIRCADIA_LOG_OPTIONS environment variable. (#88)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Misc. name updates (Athena -> Vircadia)"
+#~ " and documents HIFI_DEBUG_HMD environment "
+#~ "variable for Interface. (#96)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "image3D overlays used for the icons "
+#~ "have been migrated to local entities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Application: The --forceCrashReporting command-"
+#~ "line parameter has been added to "
+#~ "enable crash reporting even if the "
+#~ "settings have it off. (#879)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Updates are reflected here. The "
+#~ "Dashboard has been upgraded from version"
+#~ " 1.1.3 to version 1.2.2. (13 commits"
+#~ " altering functionality, 18 commits total.)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fix typo Quat.fromPitchYawRollDgrees -> "
+#~ "Quat.fromPitchYawRollDegrees. (#882)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This version of Vircadia is a new"
+#~ " release. It is not compatible with"
+#~ " the 2020.3.0 Demeter protocol. This "
+#~ "version was released on February 21st,"
+#~ " 2021."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The logic controlling the direction of"
+#~ " MyAvatar's action motor was hard to"
+#~ " follow and maintain, as it was "
+#~ "split between two functions. Now it's"
+#~ " clearer and all done in "
+#~ "calculateScaledDirection."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Add useOriginalPivot property to "
+#~ "model entities allowing entities to use"
+#~ " their original pivot. (#951, #1029)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Add billboardMode property for all"
+#~ " entity types allowing entities to "
+#~ "face the user as specified in the"
+#~ " following modes: none, yaw, full. "
+#~ "(#961, #1041)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Add userAgent property to web "
+#~ "entities allowing the web entity to "
+#~ "use the specified user agent when "
+#~ "browsing. (#998, #1017)"
+#~ msgstr ""
+
+#~ msgid "API: Add releaseName property to the About API. (#996)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Add alignment property to text "
+#~ "entities allowing text to be aligned "
+#~ "to 'left', 'center', and 'right'. "
+#~ "(#1020)"
+#~ msgstr ""
+
+#~ msgid "Build: Vircadia now accepts the RELEASE_NAME env variable. (#975)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Updates are reflected here. The "
+#~ "Dashboard has been upgraded from version"
+#~ " 1.2.2 to version 1.2.5."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia's launcher updates can be found"
+#~ " here. The launcher is on version "
+#~ "1.0.1."
+#~ msgstr ""
+
+#~ msgid "releaseName property added. (#996)"
+#~ msgstr ""
+
+#~ msgid "useOriginalPivot property added to model entities. (#951)"
+#~ msgstr ""
+
+#~ msgid "billboardMode property added to all entities. (#961)"
+#~ msgstr ""
+
+#~ msgid "userAgent property added to web entities. (#988)"
+#~ msgstr ""
+
+#~ msgid "alignment property added to text entities. (#1020)"
+#~ msgstr ""
+
+#~ msgid "PlatformInfo API:"
+#~ msgstr ""
+
+#~ msgid "Fix typo in getPlatformTierNames UNKNWON -> UNKNOWN. (#982)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Controller.triggerHapticPulse now supports "
+#~ "selecting an arbitrary device instead of"
+#~ " triggering two hands every time. "
+#~ "(#1013)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Fix keepAspectRatio property of "
+#~ "Image entities to correctly scale with"
+#~ " any ratio. (#1050, #1141)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fix cullFaceMode not rendering correctly "
+#~ "on unparented material entities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "API: Users.kick function now offers the"
+#~ " ability to specify a banFlags "
+#~ "property to indicate what should happen"
+#~ " when kicking a user."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Docs: Document addition of the "
+#~ "RELEASE_NAME environment variable for "
+#~ "versions. (#1014)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Application: Optimize and tidy up some"
+#~ " code in the MyAvatar class. (#1047)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Application: Set resource total size to"
+#~ " content size when using a qrc:// "
+#~ "resource. (#1068)"
+#~ msgstr ""
+
+#~ msgid "Application: Fix VIRCADIA_MEMORY_DEBUGGING on Linux/gcc. (#1127)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Application: Fix a stack-use-after-"
+#~ "return error in the RenderableModelEntityItem"
+#~ " class. (#1132)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Application: Add a virtual destructor to"
+#~ " TreeNodeBase of the ScriptsModel class;"
+#~ " possibly fixes a crash on exit. "
+#~ "(#1134)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Build: Add missing override keywords to"
+#~ " the PacketReceiver and RenderableTextEntityItem"
+#~ " classes to fix warnings on build."
+#~ " (#1143)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Application: Fix getRotateForPicking function "
+#~ "in the ShapeEntityItem class. (#1145)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Application: Remove unused variable in "
+#~ "the RenderableGizmoEntityItem class. (#1148)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Updates are reflected here. The "
+#~ "Dashboard has been upgraded from version"
+#~ " 1.2.5 to version 1.2.8."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia's launcher updates can be found"
+#~ " here. The launcher is on version "
+#~ "1.1.0."
+#~ msgstr ""
+
+#~ msgid "Users API:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "kick function updated with more options"
+#~ " and new default functionality. (#1090)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added Clock to Tablet: Local time "
+#~ "is displayed in the upper right of"
+#~ " the tablet in HMD, above the "
+#~ "username (or log in, if not logged"
+#~ " in)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Downloadable Assets: Content creators can "
+#~ "now download their assets for their "
+#~ "Marketplace items, including both approved "
+#~ "and invalidated items. This is supported"
+#~ " on the web-based Marketplace by "
+#~ "opening it in a browser; it is "
+#~ "not yet supported using the Market "
+#~ "app."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Digital Ocean Password Reset: Domain "
+#~ "Admin users can now reset their "
+#~ "admin username and password on Digital"
+#~ " Ocean Domain Servers. Go to "
+#~ "highfidelity.com/user/cloud_domains, sign in to "
+#~ "High Fidelity, and select the Reset "
+#~ "Domain Server password option from the"
+#~ " menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Avatar Doctor: The Avatar Packager now"
+#~ " contains error detection, aka the "
+#~ "\"Avatar Doctor\". This tool will notify"
+#~ " you of common errors before you "
+#~ "upload your avatar files to our "
+#~ "server for hosting. Coming in future "
+#~ "releases: click on the error to "
+#~ "view troubleshooting tips on how to "
+#~ "resolve the error prior to uploading "
+#~ "your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creators Stocking Inventory: Allows creators"
+#~ " to stock their inventory with their"
+#~ " own NFS certified items and gift "
+#~ "them to others."
+#~ msgstr ""
+
+#~ msgid "New and Updated Documentation:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The API Reference has been updated "
+#~ "to a new, easy-to-read style "
+#~ "that helps developers find what they’re"
+#~ " looking for more easily, complete "
+#~ "with a comprehensive search. It is "
+#~ "available at https://apidocs.vircadia.dev."
+#~ msgstr ""
+
+#~ msgid "Firewall Settings"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using High Fidelity with Android (Canny"
+#~ " request: http://roadmap.highfidelity.com/feature-"
+#~ "requests/p/requested-documentation-more-info-"
+#~ "for-high-fidelity-on-android)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Improved Documentation for Entity Filters "
+#~ "and 'Protecting Your Domain Content' "
+#~ "(Canny request: http://roadmap.highfidelity.com"
+#~ "/feature-requests/p/improve-filter-documentation)"
+#~ msgstr ""
+
+#~ msgid "Add Your Place to the GoTo Menu"
+#~ msgstr ""
+
+#~ msgid "Tutorial: Build a Boom Box"
+#~ msgstr ""
+
+#~ msgid "Tutorial: Create an Avatar Scaling Button"
+#~ msgstr ""
+
+#~ msgid "Tutorial: Open Web Page with Entities"
+#~ msgstr ""
+
+#~ msgid "Tutorial: Build a Painting Set"
+#~ msgstr ""
+
+#~ msgid "Tutorial: Create a Purchase Button for Marketplace Sales"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Content Creators: From now on, please"
+#~ " use local entities instead of "
+#~ "overlays. Any work you have that "
+#~ "uses Overlays should be migrated to "
+#~ "use local entities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Vircadia Avatar Exporter for Unity"
+#~ " has been updated to notify you "
+#~ "of texture and file errors you may"
+#~ " encounter while using the tool. "
+#~ "Download the updated exporter here: "
+#~ "https://github.com/vircadia/vircadia/tree/master/tools/unity-"
+#~ "avatar-exporter"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "During a custom install, you now "
+#~ "have the ability to install only "
+#~ "the Sandbox or only the Interface "
+#~ "without uninstalling the other."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed the ability to change animations"
+#~ " of an FBX model entity by a"
+#~ " script or via the Create menu "
+#~ "(Canny Request: http://roadmap.highfidelity.com/bugs/p"
+#~ "/fix-entity-model-animations)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tablet no longer disappears due to "
+#~ "LOD issues (Canny Request: "
+#~ "http://roadmap.highfidelity.com/bugs/p/make-overlayslocal-"
+#~ "entities-not-effected-by-current-lod)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Entity properties are respected during "
+#~ "far/near grab while in HMD (Canny "
+#~ "Request: http://roadmap.highfidelity.com/bugs/p/entity-"
+#~ "properties-not-set-in-vr)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed an issue where you could fly"
+#~ " in zones that had \"Flying Allowed\""
+#~ " set to off when creating a "
+#~ "Zone in Create tool. (Canny Request: "
+#~ "http://roadmap.highfidelity.com/bugs/p/avatar-dont-"
+#~ "fall-and-can-start-to-fly-when-"
+#~ "the-zone-is-set-to-no-fly)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Continuing to improve and work on "
+#~ "the issue of soft wearables flickering"
+#~ " when worn."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Flow Technology: We have migrated High"
+#~ " Fidelity's flow technology from JavaScript"
+#~ " to C++. This improves performance "
+#~ "across the board and makes it more"
+#~ " accessible to non-programmers. To "
+#~ "use it, download the new Flow app"
+#~ " from the Marketplace, adjust the "
+#~ "settings to configure physics such as"
+#~ " gravity and elasticity, and copy the"
+#~ " resulting code directly into your "
+#~ "avatar's FST file."
+#~ msgstr ""
+
+#~ msgid "Microphone and Mute Experience:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Push-to-Talk: Push-to-Talk will"
+#~ " keep you muted except when you "
+#~ "are pressing buttons on either your "
+#~ "keyboard or your controllers. Go to "
+#~ "Settings > Audio > Push to Talk"
+#~ " to enable. To talk in Desktop "
+#~ "mode, press and hold the \"T\" "
+#~ "button. To talk in VR, press and"
+#~ " hold the grip triggers on both "
+#~ "of your controllers."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mute Notification: We now provide visual"
+#~ " feedback when you try to speak "
+#~ "in a muted state. You will see "
+#~ "the word \"MUTED\" in red on your"
+#~ " screen if you try to talk "
+#~ "while muted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Test Microphone Settings: You can now"
+#~ " test your microphone settings from "
+#~ "within Interface. Go to Settings > "
+#~ "Audio > Test Your Voice. You will"
+#~ " see your voice input on the "
+#~ "Audio Level Meter."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Track Hand Controllers in Oculus Home:"
+#~ " When leaving High Fidelity to the"
+#~ " Oculus Home, we now continue to "
+#~ "track your hand position rather than "
+#~ "putting your in an \"Away\" state. "
+#~ "Go to Settings > Controls > "
+#~ "Calibration to turn this on or "
+#~ "off. Thank you to our user "
+#~ "Saracen! (Canny request: "
+#~ "http://roadmap.highfidelity.com/feature-requests/p/track-"
+#~ "hands-in-oculus-dash)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the updated exporter here "
+#~ "(v0.4.0): "
+#~ "https://github.com/highfidelity/hifi/raw/77ea47a9dbbb49c626e3ccae79fbcd34645fffd1/tools"
+#~ "/unity-avatar-exporter/avatarExporter.unitypackage"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Choose whether wearables can be grabbed"
+#~ " while being worn using the Lock "
+#~ "icon on the Avatar app. (Canny "
+#~ "request: https://highfidelity.canny.io/bugs/p/wearables-"
+#~ "can-get-moved-by-grabbing)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We've removed grab scaling. We'll work"
+#~ " on ways to improve this in a"
+#~ " future release and turn it back "
+#~ "on. (Canny request: http://roadmap.highfidelity.com"
+#~ "/feature-requests/p/ability-to-prevent-grab-"
+#~ "scaling)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "New toggle determines whether or not "
+#~ "wearables can be adjusted by hand "
+#~ "(Canny request: http://roadmap.highfidelity.com/bugs/p"
+#~ "/wearables-are-detaching-from-avatars)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Marketplace items now have the ability"
+#~ " to be rezz'd multiple times within"
+#~ " a single domain. For example, "
+#~ "someone can buy a single tree, "
+#~ "then rez it multiple times to "
+#~ "create a forest. When submitting an "
+#~ "item to the Marketplace, content "
+#~ "creators control whether or not an "
+#~ "item can be rezz'd multiple times "
+#~ "in the JSON file (Read documentation "
+#~ "here). Coming in future releases: We'll"
+#~ " make it easier to mark which "
+#~ "items can be rezz'd multiple times, "
+#~ "along with visual indications of these"
+#~ " items in your inventory. (Canny "
+#~ "request: http://roadmap.highfidelity.com/feature-"
+#~ "requests/p/allow-marketplace-items-to-"
+#~ "specify-the-number-of-copies-or-"
+#~ "infinite-a-buyer-can-)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug which caused avatar "
+#~ "entities to not persist. (Canny "
+#~ "requests: http://roadmap.highfidelity.com/bugs/p/entity-"
+#~ "bones-reset-locally-on-teleport-but-"
+#~ "not-remotely and http://roadmap.highfidelity.com/bugs/p"
+#~ "/windowdomainchanged-does-not-work-on-"
+#~ "avatar-entities)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Escape key now consistently places"
+#~ " the user in \"Away\" mode. (Canny"
+#~ " request: http://roadmap.highfidelity.com/bugs/p/escape-"
+#~ "key-doesnt-set-avatar-to-away-"
+#~ "mode)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In a web entity, you can now "
+#~ "input text in a web text box "
+#~ "or text field. This fixes the "
+#~ "ability to use the 3D keyboard to"
+#~ " type in web entities. (Canny "
+#~ "request: http://roadmap.highfidelity.com/bugs/p/web-"
+#~ "entity-keyboard)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note: There is a protocol change "
+#~ "in this version. All Clients and "
+#~ "Servers need to update to this "
+#~ "latest release."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Improved Locomotion: With new controls "
+#~ "in both VR and Desktop mode, "
+#~ "movement is easier and more intuitive!"
+#~ " Customize your settings by going to"
+#~ " Settings > Controls. (Canny request: "
+#~ "http://roadmap.highfidelity.com/feature-requests/p/improved-"
+#~ "locomotion-numerous-features)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "New Audio Settings: In this version, "
+#~ "we introduced independent volume controls "
+#~ "for avatars, ambient background volume, "
+#~ "and overall system sound. The audio "
+#~ "level meter is smaller and takes "
+#~ "up less space in the window. Go"
+#~ " to Settings > Audio to change "
+#~ "your settings. (Canny Request: "
+#~ "http://roadmap.highfidelity.com/feature-requests/p/implement-2"
+#~ "-main-volume-sliders)"
+#~ msgstr ""
+
+#~ msgid "Additional Controls for Entities:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Features Added to Avatar \"Hero\" Zones:"
+#~ " The Hero zone was introduced in "
+#~ "v0.79.1, where avatars within the zone"
+#~ " receive more bandwidth over other "
+#~ "avatars in the domain. Additional "
+#~ "features have bene added:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Domain owners can now specify the "
+#~ "amount of bandwidth that is dedicated"
+#~ " to Hero zones set up in their"
+#~ " domain. Go to http://localhost:40100/settings"
+#~ " > Avatar Mixer > Advanced Settings"
+#~ " > Hero Bandwidth to set the "
+#~ "bandwidth."
+#~ msgstr ""
+
+#~ msgid "New Documentation includes:"
+#~ msgstr ""
+
+#~ msgid "Prioritize Zones within Your Domain"
+#~ msgstr ""
+
+#~ msgid "Create Avatar Entities"
+#~ msgstr ""
+
+#~ msgid "Create a Custom Avatar Animation JSON file"
+#~ msgstr ""
+
+#~ msgid "Bake Your Content Using the Oven"
+#~ msgstr ""
+
+#~ msgid "Run Your Domain Using Docker"
+#~ msgstr ""
+
+#~ msgid "Best Practices for Hosting Events"
+#~ msgstr ""
+
+#~ msgid "Tutorial: Create a Smoke Fountain (learn how to use Particle entities)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "New support for the OpenEXR high "
+#~ "dynamic range image file format on "
+#~ "skyboxes and ambient maps."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "View updated documentation at "
+#~ "https://docs.highfidelity.com/host/oven.html."
+#~ msgstr ""
+
+#~ msgid "AnimationCache"
+#~ msgstr ""
+
+#~ msgid "AvatarList"
+#~ msgstr ""
+
+#~ msgid "AvatarManager"
+#~ msgstr ""
+
+#~ msgid "Camera"
+#~ msgstr ""
+
+#~ msgid "HMD"
+#~ msgstr ""
+
+#~ msgid "Menu"
+#~ msgstr ""
+
+#~ msgid "Messages"
+#~ msgstr ""
+
+#~ msgid "ModelCache"
+#~ msgstr ""
+
+#~ msgid "SoundCache"
+#~ msgstr ""
+
+#~ msgid "TextureCache"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The High Fidelity Avatar Exporter for"
+#~ " Unity includes fixes and improvements "
+#~ "to the warnings and errors. Download "
+#~ "the updated exporter here (v0.4.1): "
+#~ "https://github.com/highfidelity/hifi/raw/57c3620587ae1ec4638a58988909b46602c14633/tools"
+#~ "/unity-avatar-exporter/avatarExporter.unitypackage"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Many efforts have been made to "
+#~ "improve stability and performance in "
+#~ "this release:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Auto-Optimization for Rendering and "
+#~ "Graphics: In this release, we add "
+#~ "controls for world detail, rendering "
+#~ "effects, and refresh rate to optimize"
+#~ " your experience. By default, you "
+#~ "will be loaded into the recommended "
+#~ "settings based on your hardware "
+#~ "configuration. You can further refine "
+#~ "these settings by going to Settings "
+#~ "> Graphics."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Welcome back the webcam and microphone"
+#~ " access! In a previous release, we"
+#~ " completely removed any access to "
+#~ "webcams and mics due to security "
+#~ "concerns. We've since addressed and "
+#~ "fixed those security issues. In "
+#~ "addition, if a webcam or microphone "
+#~ "need access at any time, you will"
+#~ " see an access control dialogue where"
+#~ " you can either grant or deny "
+#~ "this. (Canny request: "
+#~ "https://highfidelity.canny.io/bugs/p/embeded-chromium-"
+#~ "browser-are-not-enumerating-camera-and-"
+#~ "microphone-inputs)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Comfort Mode: Comfort Mode is designed"
+#~ " to decrease the effects of motion"
+#~ " sickness in VR mode by:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Avatar Theft Protection: Users are no"
+#~ " longer able to wear certified "
+#~ "avatars that they do not own. If"
+#~ " someone attempts to wear a certified"
+#~ " avatar that they don't own, they "
+#~ "instead will wear a generic avatar "
+#~ "and given instructions on how to "
+#~ "change to another avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Baking of Avatars: Avatars uploaded "
+#~ "through our Avatar Packager will now "
+#~ "be automatically sent through our Oven"
+#~ " process and baked. This provides for"
+#~ " better optimization and performance."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Simultaneous Editing of Objects: In "
+#~ "Create mode, you can now simultaneously"
+#~ " edit multiple entities at once. "
+#~ "Select the entities you want to "
+#~ "change, then modify the properties. For"
+#~ " certain properties (such as color "
+#~ "and behavioral properties), changing the "
+#~ "value will change it for all "
+#~ "selected entities. Other properties (such "
+#~ "as spatial properties) will offset the"
+#~ " original values by the changed "
+#~ "value."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "New User Experience: We've returned to"
+#~ " our previous start-up behavior so"
+#~ " that new users will start their "
+#~ "HiFi journey in a local domain by"
+#~ " themselves. The updated content introduces"
+#~ " the movement controls and teaches "
+#~ "users how to use High Fidelity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Update to QT 5.12.3: This update "
+#~ "fixes bugs and errors related to "
+#~ "the outdated QT APIs that were in"
+#~ " use."
+#~ msgstr ""
+
+#~ msgid "Upgrade High Fidelity"
+#~ msgstr ""
+
+#~ msgid "Comfort Mode"
+#~ msgstr ""
+
+#~ msgid "FAQ for High Fidelity Coin (HFC)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added more talks, idles and fidgets, "
+#~ "and polish system to hide loops "
+#~ "and repetition of animations, and also"
+#~ " to reduce glitches as the component"
+#~ " animations blend in and out. See "
+#~ "this PR for technical details."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Reworked all locomotions to match "
+#~ "movement speeds that were changed by "
+#~ "design to be 2.5 m/s for walk "
+#~ "and 5.2 m/s for run. Polish the"
+#~ " animations to work for authored "
+#~ "height (Artemis) and also the short "
+#~ "wolf avatars. See this PR for more"
+#~ " details."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We added the ability to override "
+#~ "animations for the right and left "
+#~ "hand. This enables users to create "
+#~ "scripts for custom hand poses. See "
+#~ "this PR for more information on "
+#~ "hooking in your scripts."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Improved our safe landing code to "
+#~ "properly find local entities when "
+#~ "teleporting or entering a domain. This"
+#~ " prevents avatars from showing up in"
+#~ " undesirable locations when moving around."
+#~ " Many thanks to Oren Hurvitz for "
+#~ "the code!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Improved CPU usage by optimizing avatars"
+#~ " and the _Blender tasks associated "
+#~ "with rendering. This dropped CPU 10% "
+#~ "on Windows. See this PR for more"
+#~ " technical information."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Improve gLTF importer correctness and "
+#~ "support for the following features: mesh"
+#~ " deformer, unnamed materials and vertex "
+#~ "colors, sparse accessors, thin bounding "
+#~ "boxes. Many thanks to SaracenOne for "
+#~ "your contribution!"
+#~ msgstr ""
+
+#~ msgid "AvatarBookmarks"
+#~ msgstr ""
+
+#~ msgid "AvatarInputs"
+#~ msgstr ""
+
+#~ msgid "Clipboard"
+#~ msgstr ""
+
+#~ msgid "Controller"
+#~ msgstr ""
+
+#~ msgid "Desktop"
+#~ msgstr ""
+
+#~ msgid "Entities"
+#~ msgstr ""
+
+#~ msgid "location"
+#~ msgstr ""
+
+#~ msgid "LocationBookmarks"
+#~ msgstr ""
+
+#~ msgid "Midi"
+#~ msgstr ""
+
+#~ msgid "Overlays"
+#~ msgstr ""
+
+#~ msgid "Paths"
+#~ msgstr ""
+
+#~ msgid "PlatformInfo"
+#~ msgstr ""
+
+#~ msgid "Picks"
+#~ msgstr ""
+
+#~ msgid "PickType"
+#~ msgstr ""
+
+#~ msgid "Pointers"
+#~ msgstr ""
+
+#~ msgid "Quat"
+#~ msgstr ""
+
+#~ msgid "RayPick"
+#~ msgstr ""
+
+#~ msgid "ResourceRequestObserver"
+#~ msgstr ""
+
+#~ msgid "Reticle"
+#~ msgstr ""
+
+#~ msgid "Scene"
+#~ msgstr ""
+
+#~ msgid "Script"
+#~ msgstr ""
+
+#~ msgid "Selection"
+#~ msgstr ""
+
+#~ msgid "Settings"
+#~ msgstr ""
+
+#~ msgid "Snapshot"
+#~ msgstr ""
+
+#~ msgid "Tablet"
+#~ msgstr ""
+
+#~ msgid "Users"
+#~ msgstr ""
+
+#~ msgid "Uuid"
+#~ msgstr ""
+
+#~ msgid "Vec3"
+#~ msgstr ""
+
+#~ msgid "Window"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Now allow users to disable automatic "
+#~ "flying (Settings > Controls > Hover "
+#~ "When Unsupported).  Many thanks SaracenOne "
+#~ "for the contribution."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Cleaned up some warnings in syntax-"
+#~ "error.js that were appearing in Visual"
+#~ " Studio. Thanks to Oren Hurvitz!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Improved loading by fixing up some "
+#~ "race conditions that could trigger "
+#~ "waiting for login to complete, even "
+#~ "when it already did, edit.js would "
+#~ "fail to load as scripts started "
+#~ "running before the Keyboard had been "
+#~ "initialized. Thanks Oren Hurvitz!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Plugging and unplugging USB headsets no"
+#~ " longer cause Interface to hang or"
+#~ " freeze. (Canny request: "
+#~ "https://highfidelity.canny.io/bugs/p/unplugging-headphones-"
+#~ "with-hifi-open-causes-freeze)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In cases where avatars have no eye"
+#~ " joints, eyes no longer pop out "
+#~ "of joint and the camera view no"
+#~ " longer appears inside the avatar's "
+#~ "head. (Canny request: "
+#~ "https://highfidelity.canny.io/bugs/p/head-flashes-into-"
+#~ "view-while-in-hmd)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Equipping a wearable on a missing "
+#~ "joint no longer duplicates the wearable."
+#~ " (Canny request: https://highfidelity.canny.io/bugs/p"
+#~ "/clicking-cancel-in-wearable-app-causes-"
+#~ "problems)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Create app, Copy/Paste now "
+#~ "works on grandchildren of entities. "
+#~ "Before this fix, only an entity's "
+#~ "direct children were copied, but not "
+#~ "their children. Thanks to Oren Hurvitz!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Switching between HMD and desktop modes"
+#~ " now works seamlessly. Users will no"
+#~ " longer be stuck in desktop mode "
+#~ "permanently. (Canny request: "
+#~ "https://highfidelity.canny.io/bugs/p/fix-moving-"
+#~ "between-desktop-and-hmd-on-oculus)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed the issue where we were "
+#~ "artificially clipping the FOV in Oculus"
+#~ " devices, resulting in a black border"
+#~ " appearing around your field of view."
+#~ " (Canny request: https://highfidelity.canny.io/bugs/p"
+#~ "/black-border-appears-at-all-times-"
+#~ "in-vr-at-least-on-oculus)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Acoustic Echo Cancellation: In this "
+#~ "release, we implemented Acoustic Echo "
+#~ "Cancellation (AEC), which improves voice "
+#~ "quality by preventing the echo that "
+#~ "results in open mic setups. By "
+#~ "default, AEC is turned on, and you"
+#~ " can turn it off in Settings >"
+#~ " Audio. Documentation is available at "
+#~ "Acoustic Echo Cancellation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Improved performance when any entity "
+#~ "needs to be re-rendered (thanks to"
+#~ " HifiExperiments!)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Introduced new build-time environment "
+#~ "variable HIFI_VCPKG_BOOTSTRAP that will allow"
+#~ " developers using Visual Studio 2019 "
+#~ "to build the High Fidelity binaries. "
+#~ "See the updated build guide for "
+#~ "Windows here: "
+#~ "https://github.com/vircadia/vircadia/blob/master/BUILD_WIN.md"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "8-Channel audio output works again in"
+#~ " Interface (thanks to ctrlaltdavid!)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using the ScriptDiscoveryService.scriptsModel "
+#~ "property and trying to access data "
+#~ "for a non-existent row in the "
+#~ "model"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Free Look Camera: The desktop and "
+#~ "HMD controls to \"look around\" now "
+#~ "control the camera direction rather than"
+#~ " the direction your avatar is facing."
+#~ " For small rotations, the avatar will"
+#~ " follow the camera with only its "
+#~ "head and shoulders, rather than its "
+#~ "entire body. Avatars now have a "
+#~ "more natural and relaxed appearance "
+#~ "in-world, while allowing you to "
+#~ "manipulate the camera more freely in "
+#~ "third person camera mode. All movement"
+#~ " and camera controls remain the same"
+#~ " from previous versions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Selfie Mode: Mirror mode (accessible "
+#~ "with the \"2\" key in desktop "
+#~ "mode) has been replaced with a new"
+#~ " selfie mode. Unlike mirror mode in"
+#~ " past versions, you can now move "
+#~ "around while looking at yourself and "
+#~ "use the camera to look around."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use Computer Default Audio: You now "
+#~ "have the option to use your "
+#~ "computer's default input and output "
+#~ "devices as your High Fidelity audio "
+#~ "settings. For new installations, this is"
+#~ " the default. Using this new setting,"
+#~ " Interface will use whatever your "
+#~ "computer's audio settings are, even if"
+#~ " you change them at the operating "
+#~ "system level."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Migrated face and eye-tracking from "
+#~ "separate classes to a standard input "
+#~ "system. See "
+#~ "https://github.com/highfidelity/hifi/pull/16157 for "
+#~ "details."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Steam release notes link now correctly"
+#~ " directs to our release notes page"
+#~ " at https://docs.highfidelity.com/release-notes.html."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "New \"Away From Keyboard\" animation: "
+#~ "There is a new AFK animation! "
+#~ "We've moved away from the squatting "
+#~ "animation and have updated it with "
+#~ "an \"I'm busy on my phone\" "
+#~ "animation. When you press ESC, your "
+#~ "bubble will still be activated and "
+#~ "you will automatically be muted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Blend shape support for ARKit "
+#~ "compatibility: We've added new blend "
+#~ "shapes and add support for up to"
+#~ " 10 custom blend shapes with this "
+#~ "release. In addition, there are now "
+#~ "Controller actions to drive all blend"
+#~ " shapes from the input system. See"
+#~ " more details for naming conventions "
+#~ "in https://github.com/highfidelity/hifi/pull/16400. "
+#~ "Details are also mentioned in the "
+#~ "notes below."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The run/sprint speed for VR mode "
+#~ "now matches the run/sprint speed for "
+#~ "desktop users. Thanks to orenh1 for "
+#~ "the contribution. (Canny: "
+#~ "]https://highfidelity.canny.io/bugs/p/avatar-locomotion-"
+#~ "speed-is-unnatural-after-"
+#~ "beta-82](https://highfidelity.canny.io/bugs/p/avatar-"
+#~ "locomotion-speed-is-unnatural-after-"
+#~ "beta-82))"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Create Tool's Properties, "
+#~ "increased the range for a zone's "
+#~ "'Haze Base' and 'Haze Ceiling' to "
+#~ "(-16000 to 16000). Previously, this was"
+#~ " capped to (-5000 to 5000). (Canny"
+#~ " issue: https://highfidelity.canny.io/bugs/p/editor-"
+#~ "zone-haze-altitude-value-floor-at-5000)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Incorporated an experimental custom shader "
+#~ "feature, which allows users to apply "
+#~ "shaders to models and avatars. Thanks"
+#~ " to HiFiExperiments for the contribution."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added the LODManager.worldDetailQuality type "
+#~ "definition to define the level of "
+#~ "world detail detail via scripting. "
+#~ "Previously, the level of detail was "
+#~ "set using a numerical range (0-1), "
+#~ "which resulted in inconsistent/unexpected "
+#~ "target FPS values. For more information,"
+#~ " see "
+#~ "https://apidocs.vircadia.dev/LODManager.html#.WorldDetailQuality."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When loading avatar bookmarks, avatar "
+#~ "entities are now attached after the "
+#~ "skeleton has finished loading. Previously, "
+#~ "avatar entities may have erroneously "
+#~ "been attached to incorrect joints due"
+#~ " to old skeleton structures. Thanks "
+#~ "to orenh1 for the contribution."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The numbers at the end of each "
+#~ "item are the PR numbers in the "
+#~ "Vircadia GitHub repo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add a \"More\" app that lists and"
+#~ " installs community-made scripts and "
+#~ "apps directly from a GitHub repo. "
+#~ "(#187)"
+#~ msgstr ""
+
+#~ msgid "Fix opacityMapModes for GLTF. (#15)"
+#~ msgstr ""
+
+#~ msgid "Fix Linux Building with export HIFI_MEMORY_DEBUGGING=1. (#54)"
+#~ msgstr ""
+
+#~ msgid "Fix server log spam ///. (#175)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The numbers at the end of each "
+#~ "item are the PR numbers in the "
+#~ "Vircadia-Docs-Sphinx GitHub repo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added initial shader documentation that "
+#~ "can be found under Create > "
+#~ "Materials, or here. (#17)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The API docs are generated by from"
+#~ " the software source GitHub repo. "
+#~ "Additionally, the latest deployment source "
+#~ "can be viewed here."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The numbers at the end of each "
+#~ "item are the PR numbers in the "
+#~ "Decentralized GoTo GitHub repo. This app"
+#~ " is temporary and created under the"
+#~ " name of \"Explore\" app. The Explore"
+#~ " app name and icon will be used"
+#~ " again for the \"Decentralized GoTo\" "
+#~ "successor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Many commits directly to master not "
+#~ "put into PRs by Kalila L. found"
+#~ " here between February 24th & March"
+#~ " 12th, 2020."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The numbers at the end of each "
+#~ "item are the PR numbers in the "
+#~ "Community Apps GitHub repo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Many commits directly to master not "
+#~ "put into PRs by Kalila L. & "
+#~ "Keb Helion found here between February"
+#~ " 26th & March 16th, 2020."
 #~ msgstr ""
 

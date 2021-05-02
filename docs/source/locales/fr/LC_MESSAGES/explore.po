@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-04-10 23:49+0000\n"
+"POT-Creation-Date: 2021-05-02 08:26+0000\n"
 "PO-Revision-Date: 2021-01-31 20:19+0000\n"
 "Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language: fr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
 msgid "Gallery"
@@ -33,7 +33,6 @@ msgid "Personalize Your Experience"
 msgstr "Personnaliser votre Expérience"
 
 #: ../../source/explore.rst:11 ../../source/explore/socialize.rst:3
-#: ../../source/explore/travel.md:41
 msgid "Socialize with Others"
 msgstr "Socialiser avec les Autres"
 
@@ -135,7 +134,11 @@ msgstr "Vircadia fonctionant sous Linux Mint 19.3, 29 septembre 2020."
 #: ../../source/explore/get-started/architecture.rst:105
 #: ../../source/explore/get-started/install.rst:214
 #: ../../source/explore/get-started/vr-controls.rst:224
+#: ../../source/explore/interact.md:42
 #: ../../source/explore/personalize/add-wearables.rst:35
+#: ../../source/explore/personalize/change-avatar.md:31
+#: ../../source/explore/personalize/install-apps.md:102
+#: ../../source/explore/travel.md:40
 msgid "**See Also**"
 msgstr "**Voir Aussi**"
 
@@ -3397,10 +3400,10 @@ msgstr ":doc:`Explorer dans Mode Clavier <desktop>`"
 #: ../../source/explore/interact.md:3
 msgid ""
 "In Vircadia, your experiences are shaped the world around you. When you "
-"enter a domain, all of the space around you is built with entities, or "
-"the building blocks of your environments. The walls of your room, the "
-"tree in the distance, or the animated butterfly that flew past are all "
-"entities."
+"enter a domain, all of the space around you is built with "
+"[entities](../create/entities), or the building blocks of your "
+"environments. The walls of your room, the tree in the distance, or the "
+"animated butterfly that flew past are all entities."
 msgstr ""
 
 #: ../../source/explore/interact.md:5
@@ -3416,27 +3419,32 @@ msgstr ""
 #: ../../source/explore/personalize/change-avatar.md:10
 #: ../../source/explore/personalize/install-apps.md:12
 #: ../../source/explore/travel.md:10
-msgid "On This Page:"
+#, fuzzy
+msgid "**On This Page:**"
 msgstr "Sur cette Page :"
 
-#: ../../source/explore/interact.md:9 ../../source/explore/interact.md:14
+#: ../../source/explore/interact.md:9
+msgid "[Grab Objects](#grab-objects)"
+msgstr ""
+
+#: ../../source/explore/interact.md:10
+msgid "[Collisions](#collisions)"
+msgstr ""
+
+#: ../../source/explore/interact.md:11
+msgid "[Triggered Entities](#triggered-entities)"
+msgstr ""
+
+#: ../../source/explore/interact.md:14
 msgid "Grab Objects"
 msgstr "Saisir des Objets"
-
-#: ../../source/explore/interact.md:10 ../../source/explore/interact.md:28
-msgid "Collisions"
-msgstr "Collisions"
-
-#: ../../source/explore/interact.md:11 ../../source/explore/interact.md:36
-msgid "Triggered Entities"
-msgstr "Entités Déclenchées"
 
 #: ../../source/explore/interact.md:16
 #, fuzzy
 msgid ""
 "You can grab objects in Vircadia using your mouse or hand controllers. "
 "You can grab an entity, hold it, throw it, and drop it depending on the "
-"entity's properties."
+"[entity's properties](../create/entities/entity-behavior)."
 msgstr ""
 "Vous pouvez saisir des objets dans Vircadia à l'aide de votre souris ou "
 "de vos contrôleurs manuels. Vous pouvez saisir une entité, la tenir, la "
@@ -3459,12 +3467,21 @@ msgstr ""
 "\"Grab\". L'emplacement de ce bouton dépend des contrôleurs que vous "
 "utilisez."
 
+#: ../../source/explore/interact.md:21
+msgid "![](_images/grab-button.png)"
+msgstr ""
+
+#: ../../source/explore/interact.md:28
+msgid "Collisions"
+msgstr "Collisions"
+
 #: ../../source/explore/interact.md:30
 #, fuzzy
 msgid ""
 "You can collide (or run into) objects and other avatars in Vircadia. "
-"Likewise, objects can collide with one another. We use physics to govern "
-"how entities behave when they collide with each other or with avatars."
+"Likewise, objects can collide with one another. We use [physics to govern"
+" how entities behave](../create/entities/entity-physics) when they "
+"collide with each other or with avatars."
 msgstr ""
 "Vous pouvez entrer en collision (ou heurter) des objets et d'autres "
 "avatars dans Vircadia. De même, les objets peuvent entrer en collision "
@@ -3485,12 +3502,18 @@ msgstr ""
 "activées selon que vous pouvez ou non les traverser."
 
 #: ../../source/explore/interact.md:34
+#, fuzzy
 msgid ""
-"When creating your own entities, you can set the Collision property to "
-"turn on or off collisions."
+"When creating your own entities, you can [set the Collision "
+"property](../create/entities/entity-behavior.html#entity-collision-"
+"behavior) to turn on or off collisions."
 msgstr ""
 "Lorsque vous créez vos propres entités, vous pouvez définir la propriété "
 "de collision pour activer ou désactiver les collisions."
+
+#: ../../source/explore/interact.md:36
+msgid "Triggered Entities"
+msgstr "Entités Déclenchées"
 
 #: ../../source/explore/interact.md:38
 msgid ""
@@ -3517,28 +3540,21 @@ msgstr ""
 "vous encourageons à explorer et à découvrir toutes les manières cool "
 "d'interagir avec vos alentours."
 
-#: ../../source/explore/interact.md:42
-#: ../../source/explore/personalize/change-avatar.md:31
-#: ../../source/explore/personalize/install-apps.md:102
-#: ../../source/explore/travel.md:40
-msgid "See Also"
-msgstr "Voir Aussi"
-
 #: ../../source/explore/interact.md:44
-msgid "Apply Physics to Entities"
-msgstr "Appliquer la Physique aux Entités"
+msgid "[Apply Physics to Entities](../create/entities/entity-physics)"
+msgstr ""
 
 #: ../../source/explore/interact.md:45
-msgid "Define an Entity's Behavior"
-msgstr "Définir le Comportement d'une Entité"
+msgid "[Define an Entity's Behavior](../create/entities/entity-behavior)"
+msgstr ""
 
 #: ../../source/explore/interact.md:46
-msgid "Add Sound to Entities"
-msgstr "Ajouter du Son aux Entités"
+msgid "[Add Sound to Entities](../create/entities/add-sounds)"
+msgstr ""
 
 #: ../../source/explore/interact.md:47
-msgid "Define Interactions with Avatars"
-msgstr "Définir les Interactions avec des Avatars"
+msgid "[Define Interactions with Avatars](../create/entities/avatar-interactions)"
+msgstr ""
 
 #: ../../source/explore/personalize.rst:9
 msgid "Put on Wearables"
@@ -3546,7 +3562,6 @@ msgstr "Porter des Vêtements"
 
 #: ../../source/explore/personalize.rst:9
 #: ../../source/explore/personalize/install-apps.md:6
-#: ../../source/explore/personalize/install-apps.md:14
 #: ../../source/explore/personalize/install-apps.md:22
 msgid "Install Tablet Apps"
 msgstr "Installer des Applications pour Tablet"
@@ -3616,6 +3631,7 @@ msgstr ""
 "mettez-le sur votre avatar :"
 
 #: ../../source/explore/personalize/add-wearables.rst:23
+#: ../../source/explore/personalize/change-avatar.md:26
 msgid "In Interface, pull up your tablet or HUD and click on **Avatar**."
 msgstr "Dans l'Interface, accédez à votre tablet ou HUD et cliquez sur **Avatar**."
 
@@ -3675,14 +3691,18 @@ msgstr ""
 "et parler à d'autres utilisateurs in-world par lui."
 
 #: ../../source/explore/personalize/change-avatar.md:12
+msgid "[Use Your Own Custom Avatar](#use-your-own-custom-avatar)"
+msgstr ""
+
 #: ../../source/explore/personalize/change-avatar.md:15
 msgid "Use Your Own Custom Avatar"
 msgstr "Utilisez votre Propre Avatar Personnalisé"
 
 #: ../../source/explore/personalize/change-avatar.md:17
+#, fuzzy
 msgid ""
 "You can use an avatar that you created. Learn more about how you can "
-"create your avatar here."
+"create your avatar [here](../../create/avatars/create-avatars)."
 msgstr ""
 "Vous pouvez utiliser un avatar que vous avez créé. Pour en savoir plus "
 "sur la façon de créer votre avatar, cliquez ici."
@@ -3693,14 +3713,11 @@ msgstr ""
 "Une fois que vous avez le fichier .fst de votre avatar, vous pouvez le "
 "télécharger."
 
-#: ../../source/explore/personalize/change-avatar.md:26
-msgid "In Interface, pull up your tablet or HUD and click on Avatar."
-msgstr ""
-"Dans l'Interface, accédez à votre tablet ou votre HUD et cliquez sur "
-"Avatar."
-
 #: ../../source/explore/personalize/change-avatar.md:27
-msgid "In the Avatar window, click the link icon next to your current avatar."
+#, fuzzy
+msgid ""
+"In the **Avatar** window, click the link icon next to your current "
+"avatar. ![](_images/avatar-link.png)"
 msgstr ""
 "Dans la fenêtre Avatar, cliquez sur l'icône de lien à côté de votre "
 "avatar actuel."
@@ -3720,16 +3737,16 @@ msgstr ""
 "Favorites' pour enregistrer les informations de l'avatar actuel."
 
 #: ../../source/explore/personalize/change-avatar.md:33
-msgid "Create Your Own Avatar"
-msgstr "Créez votre Propre Avatar"
+msgid "[Create Your Own Avatar](../../create/avatars/create-avatars)"
+msgstr ""
 
 #: ../../source/explore/personalize/change-avatar.md:34
-msgid "Find and Use an Existing Avatar"
-msgstr "Trouvez et Utilisez un Avatar Existant"
+msgid "[Find and Use an Existing Avatar](../../create/avatars/find-avatars)"
+msgstr ""
 
 #: ../../source/explore/personalize/change-avatar.md:35
-msgid "Package and Host Your Avatar"
-msgstr "Empaquetage et Hébergement de votre Avatar"
+msgid "[Package and Host Your Avatar](../../create/avatars/package-avatar)"
+msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:8
 msgid ""
@@ -3749,39 +3766,40 @@ msgstr ""
 "peuvent vous aider à personnaliser votre expérience in-world."
 
 #: ../../source/explore/personalize/install-apps.md:10
+#, fuzzy
 msgid ""
-"If you can't find an app for what you'd like to do, you can create your "
-"own and upload it to our Marketplace for your personal use or to sell to "
-"others."
+"If you can't find an app for what you'd like to do, you can [create your "
+"own](../../create/applications) and upload it to our Marketplace for your"
+" personal use or to sell to others."
 msgstr ""
 "Si vous ne trouvez pas d'application pour ce que vous aimeriez faire, "
 "vous pouvez créer la vôtre et la télécharger sur notre Marché pour votre "
 "usage personnel ou pour la vendre à d'autres."
 
+#: ../../source/explore/personalize/install-apps.md:14
+msgid "[Install Tablet Apps](#install-tablet-apps)"
+msgstr ""
+
 #: ../../source/explore/personalize/install-apps.md:15
-#: ../../source/explore/personalize/install-apps.md:32
-msgid "Update an App"
-msgstr "Mettre à Jour une Application"
+msgid "[Update an App](#update-an-app)"
+msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:16
-#: ../../source/explore/personalize/install-apps.md:52
-msgid "Our Marketplace Apps"
-msgstr "Nos Applications sur le Marché"
+msgid "[Our Marketplace Apps](#our-marketplace-apps)"
+msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:17
 #, fuzzy
-msgid "Spectator Cam: Record or Livestream in Vircadia"
+msgid "[Spectator Cam: Record or Livestream in Vircadia](#spectator-cam)"
 msgstr "Spectator Cam : Enregistrement ou Diffusion dans Vircadia"
 
 #: ../../source/explore/personalize/install-apps.md:18
-#: ../../source/explore/personalize/install-apps.md:73
-msgid "Finger Painting"
-msgstr "Peinture au Doigt"
+msgid "[Finger Painting](#finger-painting)"
+msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:19
-#: ../../source/explore/personalize/install-apps.md:84
-msgid "Text to Speech"
-msgstr "Text to Speech"
+msgid "[Text to Speech](#text-to-speech)"
+msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:23
 msgid ""
@@ -3793,10 +3811,9 @@ msgstr ""
 "installer une application :"
 
 #: ../../source/explore/personalize/install-apps.md:25
-msgid "In Interface, pull up your HUD or Tablet and go to Market."
-msgstr ""
-"Dans l'Interface, accédez à votre HUD ou votre tablet et allez sur le "
-"Marché."
+#, fuzzy
+msgid "In Interface, pull up your HUD or Tablet and go to **Market**."
+msgstr "Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/explore/personalize/install-apps.md:26
 msgid ""
@@ -3807,10 +3824,11 @@ msgstr ""
 "applications en sélectionnant la catégorie 'Apps, Scripts, & Tools'."
 
 #: ../../source/explore/personalize/install-apps.md:27
+#, fuzzy
 msgid ""
 "Click the app of your choice to purchase it and click the price of the "
-"item. Once you've purchased your app, you can view it in the Inventory "
-"app or 'Recent Activity'."
+"item. Once you've purchased your app, you can view it in the "
+"**Inventory** app or 'Recent Activity'."
 msgstr ""
 "Cliquez sur l'application de votre choix pour l'acheter et cliquez sur le"
 " prix de l'article. Une fois que vous avez acheté votre application, vous"
@@ -3834,11 +3852,16 @@ msgstr ""
 "Vous pouvez également accéder à l'application via votre HUD ou votre "
 "tablet."
 
+#: ../../source/explore/personalize/install-apps.md:32
+msgid "Update an App"
+msgstr "Mettre à Jour une Application"
+
 #: ../../source/explore/personalize/install-apps.md:33
+#, fuzzy
 msgid ""
 "When an app has an update available, a notification will pop up in the "
 "top right corner of the Interface when you open Vircadia. Additionally, a"
-" red dot will appear on the Inventory icon of your HUD or Tablet to "
+" red dot will appear on the **Inventory** icon of your HUD or Tablet to "
 "indicate an update is available to download."
 msgstr ""
 "Lorsqu'une application dispose d'une mise à jour, une notification "
@@ -3852,21 +3875,26 @@ msgid "To update your app:"
 msgstr "Pour mettre à jour votre application :"
 
 #: ../../source/explore/personalize/install-apps.md:36
-msgid "In Interface, pull up your HUD or Tablet and go to Inventory."
+#, fuzzy
+msgid "In Interface, pull up your HUD or Tablet and go to **Inventory**."
 msgstr ""
 "Dans l'Interface, accédez à votre HUD ou votre tablet et allez dans "
 "l'Inventaire."
 
 #: ../../source/explore/personalize/install-apps.md:37
+#, fuzzy
 msgid ""
-"In the Inventory app, click the notification that says \"You have X item "
-"updates available.\""
+"In the **Inventory** app, click the notification that says \"You have X "
+"item updates available.\""
 msgstr ""
 "Dans l'application Inventaire, cliquez sur la notification qui indique "
 "\"You have X item updates available.\""
 
 #: ../../source/explore/personalize/install-apps.md:38
-msgid "Scroll to the app you'd like to update and click on the menu."
+#, fuzzy
+msgid ""
+"Scroll to the app you'd like to update and click on the menu. ![](_images"
+"/update-menu.png)"
 msgstr ""
 "Faites défiler jusqu'à l'application que vous souhaitez mettre à jour et "
 "cliquez sur le menu."
@@ -3880,9 +3908,10 @@ msgid "Additional Notes on Updating"
 msgstr "Notes Supplémentaires sur la Mise à Jour"
 
 #: ../../source/explore/personalize/install-apps.md:47
+#, fuzzy
 msgid ""
 "If you decide not to update an item, the old product will still be valid "
-"and listed in Inventory."
+"and listed in **Inventory**."
 msgstr ""
 "Si vous décidez de ne pas mettre à jour un article, l'ancien produit sera"
 " toujours valable et inscrit dans l'Inventaire."
@@ -3896,9 +3925,10 @@ msgstr ""
 "produit ne sera plus disponible."
 
 #: ../../source/explore/personalize/install-apps.md:49
+#, fuzzy
 msgid ""
 "If you purchased multiple instances of an item, you need to individually "
-"update each instance of an item in your Inventory."
+"update each instance of an item in your **Inventory**."
 msgstr ""
 "Si vous avez acheté plusieurs instances d'un article, vous devez mettre à"
 " jour individuellement chaque instance d'un article dans votre "
@@ -3920,6 +3950,10 @@ msgstr ""
 "remplacera pas automatiquement in-world. Il appartient à l'utilisateur de"
 " remplacer les anciennes instances par les nouvelles."
 
+#: ../../source/explore/personalize/install-apps.md:52
+msgid "Our Marketplace Apps"
+msgstr "Nos Applications sur le Marché"
+
 #: ../../source/explore/personalize/install-apps.md:53
 msgid "We've listed some of the apps we created and how you can use them."
 msgstr ""
@@ -3934,19 +3968,17 @@ msgstr "Caméra de Spectateur"
 msgid ""
 "The Spectator Camera is a camera you can use to record or livestream what"
 " you and your friends do in Vircadia. It is only available in HMD mode, "
-"and requires a recording software such as Open Broadcaster Software (OBS)"
-" to work correctly. Check out their official overview guide for more "
-"details."
+"and requires a recording software such as [Open Broadcaster Software "
+"(OBS)](https://obsproject.com/) to work correctly. Check out their "
+"[official overview guide](https://obsproject.com/forum/threads/official-"
+"overview-guide.402/) for more details."
 msgstr ""
-"La Caméra de Spectateur est une caméra que vous pouvez utiliser pour "
-"enregistrer ou diffuser en direct ce que vous et vos amis faites dans "
-"Vircadia. Elle n'est disponible qu'en mode HMD et nécessite un logiciel "
-"d'enregistrement tel que l'Open Broadcaster Software (OBS) pour "
-"fonctionner correctement. Consultez leur guide officiel pour plus de "
-"détails."
 
 #: ../../source/explore/personalize/install-apps.md:58
-msgid "Use the instructions above to install the Spectator Camera app."
+#, fuzzy
+msgid ""
+"[Use the instructions above](#install-an-app) to install the Spectator "
+"Camera app."
 msgstr ""
 "Suivez les instructions ci-dessus pour installer l'application Caméra de "
 "Spectateur."
@@ -3956,17 +3988,19 @@ msgid "To use the Spectator Camera app:"
 msgstr "Pour utiliser l'application Caméra de Spectateur :"
 
 #: ../../source/explore/personalize/install-apps.md:66
-msgid "In Interface, pull up your HUD or Tablet and go to Spectator."
+#, fuzzy
+msgid "In Interface, pull up your HUD or Tablet and go to **Spectator**."
 msgstr ""
 "Dans l'Interface, accédez à votre HUD ou votre tablet et allez dans "
 "Spectator."
 
 #: ../../source/explore/personalize/install-apps.md:67
+#, fuzzy
 msgid ""
 "Turn on your Spectator Cam by moving the slider. You'll see the camera "
 "appear in-world. By default, the app's display shows you what you see in "
 "VR through your HMD. This is to show you what you're recording without "
-"having to take off your HMD."
+"having to take off your HMD. ![](_images/spec-cam-window.png)"
 msgstr ""
 "Allumez votre Caméra de Spectateur en déplaçant le curseur. Vous verrez "
 "la caméra apparaître in-world. Par défaut, l'écran de l'application vous "
@@ -3984,34 +4018,42 @@ msgstr ""
 "votre avatar en train de danser ou d'essayer différents vêtements."
 
 #: ../../source/explore/personalize/install-apps.md:69
+#, fuzzy
 msgid ""
-"Enable switching views with your controllers in the Spectator app on your"
-" HUD or Tablet."
+"Enable switching views with your controllers in the **Spectator** app on "
+"your HUD or Tablet."
 msgstr ""
 "Activez le changement de vue avec vos contrôleurs dans l'application "
 "Spectator de votre HUD ou de votre tablet."
 
 #: ../../source/explore/personalize/install-apps.md:70
+#, fuzzy
 msgid ""
-"Rift: If you're using Oculus Touch controllers, click the left thumbstick"
-" to switch views."
+"**Rift**: If you're using Oculus Touch controllers, click the left "
+"thumbstick to switch views."
 msgstr ""
 "Rift : si vous utilisez les contrôleurs Oculus Touch, cliquez sur la "
 "manette de gauche pour changer de vue."
 
 #: ../../source/explore/personalize/install-apps.md:71
+#, fuzzy
 msgid ""
-"Vive: If you're using HTC Vive controllers, press on the center of the "
-"thumb pad to switch views."
+"**Vive**: If you're using HTC Vive controllers, press on the center of "
+"the thumb pad to switch views."
 msgstr ""
 "Vive : Si vous utilisez les contrôleurs HTC Vive, appuyez sur la manette "
 "qui contrôle le pouce pour changer de vue."
 
+#: ../../source/explore/personalize/install-apps.md:73
+msgid "Finger Painting"
+msgstr "Peinture au Doigt"
+
 #: ../../source/explore/personalize/install-apps.md:75
+#, fuzzy
 msgid ""
 "The Fingerpaint app lets your paint your environment, your own avatar, or"
-" even another user's avatar. Use the instructions above to install the "
-"Fingerpaint app."
+" even another user's avatar. [Use the instructions above](#install-an-"
+"app) to install the Fingerpaint app."
 msgstr ""
 "L'application Peinture au Doigt (Fingerpaint) vous permet de peindre "
 "votre environnement, votre propre avatar, ou même celui d'un autre "
@@ -4023,7 +4065,8 @@ msgid "To use the Fingerpaint app:"
 msgstr "Pour utiliser l'application Fingerpaint :"
 
 #: ../../source/explore/personalize/install-apps.md:78
-msgid "In Interface, pull up your HUD or Tablet and go to Body Paint."
+#, fuzzy
+msgid "In Interface, pull up your HUD or Tablet and go to **Body Paint**."
 msgstr ""
 "Dans l'Interface, accédez à votre HUD ou votre tablet et allez dans Body "
 "Paint."
@@ -4043,12 +4086,17 @@ msgid "Click 'Palette' to select a color for your paint."
 msgstr "Cliquez sur 'Palette' pour sélectionner une couleur pour votre peinture."
 
 #: ../../source/explore/personalize/install-apps.md:81
+#, fuzzy
 msgid ""
 "Click 'Brushes' to select the settings for your brush, such as stroke "
-"width, type of brush, and special effects."
+"width, type of brush, and special effects. ![](_images/fingerpaint.png)"
 msgstr ""
 "Cliquez sur 'Brushes' pour sélectionner les paramètres de votre pinceau, "
 "tels que la largeur du trait, le type de pinceau et les effets spéciaux."
+
+#: ../../source/explore/personalize/install-apps.md:84
+msgid "Text to Speech"
+msgstr "Text to Speech"
 
 #: ../../source/explore/personalize/install-apps.md:86
 msgid ""
@@ -4062,7 +4110,10 @@ msgstr ""
 "êtes handicapé."
 
 #: ../../source/explore/personalize/install-apps.md:88
-msgid "Use the instructions above to install the Text to Speech app."
+#, fuzzy
+msgid ""
+"[Use the instructions above](#install-an-app) to install the Text to "
+"Speech app."
 msgstr ""
 "Suivez les instructions ci-dessus pour installer l'application Text to "
 "Speech."
@@ -4072,8 +4123,9 @@ msgid "To use the Text to Speech (TTS) app:"
 msgstr "Pour utiliser l'application Text to Speech (TTS) :"
 
 #: ../../source/explore/personalize/install-apps.md:96
-msgid "In Interface, pull up your HUD or Tablet and go to TTS."
-msgstr "Dans l'Interface, accédez à votre HUD ou votre tablet et allez dans TTS."
+#, fuzzy
+msgid "In Interface, pull up your HUD or Tablet and go to **TTS**."
+msgstr "Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/explore/personalize/install-apps.md:97
 msgid "In the app, select the Pitch and Speed of your choice."
@@ -4086,16 +4138,17 @@ msgid "Type in the text you'd like your avatar to speak."
 msgstr "Tapez le texte que vous souhaitez faire prononcer à votre avatar."
 
 #: ../../source/explore/personalize/install-apps.md:99
+#, fuzzy
 msgid ""
 "Hit 'Speak' to hear your text. Hit 'Stop Last' to stop your avatar from "
-"speaking."
+"speaking. ![](_images/tts.png)"
 msgstr ""
 "Cliquez sur 'Speak' pour entendre votre texte. Appuyez sur 'Stop Last' "
 "pour stopper votre avatar de parler."
 
 #: ../../source/explore/personalize/install-apps.md:103
-msgid "Create Tablet Apps"
-msgstr "Créer des Applications pour Tablet"
+msgid "[Create Tablet Apps](../../create/applications)"
+msgstr ""
 
 #: ../../source/explore/socialize.rst:5
 msgid ""
@@ -4583,18 +4636,23 @@ msgstr ""
 "été construits pour accueillir des événements et interagir avec les gens "
 "qui vous entourent."
 
-#: ../../source/explore/travel.md:11 ../../source/explore/travel.md:14
+#: ../../source/explore/travel.md:11
+msgid "[GoTo App](#goto-app)"
+msgstr ""
+
+#: ../../source/explore/travel.md:12
+msgid "[Visit a Friend](#visit-a-friend)"
+msgstr ""
+
+#: ../../source/explore/travel.md:14
 msgid "GoTo App"
 msgstr "Application GoTo"
 
-#: ../../source/explore/travel.md:12 ../../source/explore/travel.md:33
-msgid "Visit a Friend"
-msgstr "Visiter un Ami"
-
 #: ../../source/explore/travel.md:15
+#, fuzzy
 msgid ""
-"The GoTo app lets you travel between different places in the Vircadia "
-"metaverse. Many of our places are created by users just like you."
+"The **GoTo** app lets you travel between different places in the Vircadia"
+" metaverse. Many of our places are created by users just like you."
 msgstr ""
 "L'application GoTo vous permet de voyager entre différents endroits du "
 "métaverse Vircadia. Beaucoup de nos lieux sont créés par des utilisateurs"
@@ -4605,7 +4663,8 @@ msgid "To go and explore new places:"
 msgstr "Pour aller explorer de nouveaux endroits :"
 
 #: ../../source/explore/travel.md:18
-msgid "In Interface, pull up your tablet or HUD and go to GoTo."
+#, fuzzy
+msgid "In Interface, pull up your tablet or HUD and go to **GoTo**."
 msgstr "Dans l'Interface, sortez votre tablet ou votre HUD et allez à GoTo."
 
 #: ../../source/explore/travel.md:19
@@ -4628,10 +4687,15 @@ msgstr ""
 "vous avez les autorisations nécessaires, vous serez automatiquement "
 "transporté vers ce lieu."
 
+#: ../../source/explore/travel.md:27
+msgid "![](_images/goto-app.png)"
+msgstr ""
+
 #: ../../source/explore/travel.md:29
+#, fuzzy
 msgid ""
-"The GoTo app also shows you a visual feed of snapshots that people have "
-"taken and shared in the metaverse. Clicking on a snap will take you "
+"The **GoTo** app also shows you a visual feed of snapshots that people "
+"have taken and shared in the metaverse. Clicking on a snap will take you "
 "directly to the place where the picture was taken."
 msgstr ""
 "L'application GoTo vous montre également un flux visuel de clichés que "
@@ -4639,16 +4703,26 @@ msgstr ""
 "instantané, vous vous rendez directement à l'endroit où la photo a été "
 "prise."
 
+#: ../../source/explore/travel.md:31
+msgid "![](_images/goto-snaps.png)"
+msgstr ""
+
+#: ../../source/explore/travel.md:33
+msgid "Visit a Friend"
+msgstr "Visiter un Ami"
+
 #: ../../source/explore/travel.md:34
+#, fuzzy
 msgid ""
-"Once you've made a friend, you can see where they are and even teleport "
-"directly to them."
+"Once you've [made a friend](socialize.html#make-connections-and-friends),"
+" you can see where they are and even teleport directly to them."
 msgstr ""
 "Une fois que vous vous êtes fait un ami, vous pouvez voir où il se trouve"
 " et même vous téléporter directement vers lui."
 
 #: ../../source/explore/travel.md:36
-msgid "In Interface, open your tablet or HUD and go to People."
+#, fuzzy
+msgid "In Interface, open your tablet or HUD and go to **People**."
 msgstr "Dans Interface, ouvrez votre tablet ou votre HUD et allez à People."
 
 #: ../../source/explore/travel.md:37
@@ -4658,6 +4732,11 @@ msgstr "Cliquez sur 'Connections' et trouvez l'ami que vous voulez visiter."
 #: ../../source/explore/travel.md:38
 msgid "Select their name then 'Visit'."
 msgstr "Sélectionnez son nom, puis 'Visit'."
+
+#: ../../source/explore/travel.md:41
+#, fuzzy
+msgid "[Socialize with Others](socialize)"
+msgstr ":doc:`Socializez avec les Autres <../socialize>`"
 
 #~ msgid ""
 #~ "This is where your profile picture "
@@ -4895,4 +4974,83 @@ msgstr "Sélectionnez son nom, puis 'Visit'."
 
 #~ msgid "Add Your Avatar to the Marketplace"
 #~ msgstr "Ajoutez votre Avatar sur le Marché"
+
+#~ msgid ""
+#~ "In Vircadia, your experiences are shaped"
+#~ " the world around you. When you "
+#~ "enter a domain, all of the space"
+#~ " around you is built with entities,"
+#~ " or the building blocks of your "
+#~ "environments. The walls of your room,"
+#~ " the tree in the distance, or "
+#~ "the animated butterfly that flew past"
+#~ " are all entities."
+#~ msgstr ""
+
+#~ msgid "See Also"
+#~ msgstr "Voir Aussi"
+
+#~ msgid "Apply Physics to Entities"
+#~ msgstr "Appliquer la Physique aux Entités"
+
+#~ msgid "Define an Entity's Behavior"
+#~ msgstr "Définir le Comportement d'une Entité"
+
+#~ msgid "Add Sound to Entities"
+#~ msgstr "Ajouter du Son aux Entités"
+
+#~ msgid "Define Interactions with Avatars"
+#~ msgstr "Définir les Interactions avec des Avatars"
+
+#~ msgid "In Interface, pull up your tablet or HUD and click on Avatar."
+#~ msgstr ""
+#~ "Dans l'Interface, accédez à votre tablet"
+#~ " ou votre HUD et cliquez sur "
+#~ "Avatar."
+
+#~ msgid "Create Your Own Avatar"
+#~ msgstr "Créez votre Propre Avatar"
+
+#~ msgid "Find and Use an Existing Avatar"
+#~ msgstr "Trouvez et Utilisez un Avatar Existant"
+
+#~ msgid "Package and Host Your Avatar"
+#~ msgstr "Empaquetage et Hébergement de votre Avatar"
+
+#~ msgid "In Interface, pull up your HUD or Tablet and go to Market."
+#~ msgstr ""
+#~ "Dans l'Interface, accédez à votre HUD"
+#~ " ou votre tablet et allez sur "
+#~ "le Marché."
+
+#~ msgid ""
+#~ "The Spectator Camera is a camera "
+#~ "you can use to record or "
+#~ "livestream what you and your friends "
+#~ "do in Vircadia. It is only "
+#~ "available in HMD mode, and requires "
+#~ "a recording software such as Open "
+#~ "Broadcaster Software (OBS) to work "
+#~ "correctly. Check out their official "
+#~ "overview guide for more details."
+#~ msgstr ""
+#~ "La Caméra de Spectateur est une "
+#~ "caméra que vous pouvez utiliser pour "
+#~ "enregistrer ou diffuser en direct ce "
+#~ "que vous et vos amis faites dans"
+#~ " Vircadia. Elle n'est disponible qu'en "
+#~ "mode HMD et nécessite un logiciel "
+#~ "d'enregistrement tel que l'Open Broadcaster"
+#~ " Software (OBS) pour fonctionner "
+#~ "correctement. Consultez leur guide officiel"
+#~ " pour plus de détails."
+
+#~ msgid "In Interface, pull up your HUD or Tablet and go to TTS."
+#~ msgstr ""
+#~ "Dans l'Interface, accédez à votre HUD"
+#~ " ou votre tablet et allez dans "
+#~ "TTS."
+
+#~ msgid "Create Tablet Apps"
+#~ msgstr "Créer des Applications pour Tablet"
 

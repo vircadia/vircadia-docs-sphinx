@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-03-10 23:39+0000\n"
+"POT-Creation-Date: 2021-05-02 08:26+0000\n"
 "PO-Revision-Date: 2021-02-10 00:46+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
 "Language: de\n"
@@ -18,27 +18,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../source/script.rst:9
-#: ../../source/script/assignment-client-scripts.md:57
-#: ../../source/script/avatar-scripts.md:85
-#: ../../source/script/client-entity-scripts.md:46
 #: ../../source/script/get-started-with-scripting.rst:3
-#: ../../source/script/interface-scripts.md:39
-#: ../../source/script/server-entity-scripts.md:59
-#: ../../source/script/write-scripts.md:76
 msgid "Get Started with Scripting"
 msgstr ""
 
-#: ../../source/script.rst:9
-#: ../../source/script/assignment-client-scripts.md:58
-#: ../../source/script/avatar-scripts.md:86
-#: ../../source/script/client-entity-scripts.md:47
-#: ../../source/script/interface-scripts.md:40
-#: ../../source/script/js-tips.md:202
-#: ../../source/script/server-entity-scripts.md:60
-#: ../../source/script/write-scripts.md:1
+#: ../../source/script.rst:9 ../../source/script/write-scripts.md:1
 msgid "Write Your Own Scripts"
 msgstr ""
 
@@ -47,7 +34,6 @@ msgid "JavaScript Tips and Tricks"
 msgstr ""
 
 #: ../../source/script.rst:9 ../../source/script/interface-scripts.md:1
-#: ../../source/script/write-scripts.md:78
 msgid "Interface Scripts"
 msgstr ""
 
@@ -107,21 +93,22 @@ msgstr ""
 #: ../../source/script/assignment-client-scripts.md:7
 #: ../../source/script/avatar-scripts.md:7
 #: ../../source/script/client-entity-scripts.md:7
-#: ../../source/script/get-started-with-scripting.rst:10
 #: ../../source/script/interface-scripts.md:7
-#: ../../source/script/midi-tutorial.rst:12
 #: ../../source/script/server-entity-scripts.md:5
-msgid "On This Page"
+#, fuzzy
+msgid "**On This Page**"
 msgstr "Auf dieser Seite"
 
 #: ../../source/script/assignment-client-scripts.md:8
-#: ../../source/script/assignment-client-scripts.md:11
-msgid "Add an AC Script"
+msgid "[Add an AC Script](#add-an-ac-script)"
 msgstr ""
 
 #: ../../source/script/assignment-client-scripts.md:9
-#: ../../source/script/assignment-client-scripts.md:20
-msgid "Example of an AC Script"
+msgid "[Example of an AC Script](#example-of-an-ac-script)"
+msgstr ""
+
+#: ../../source/script/assignment-client-scripts.md:11
+msgid "Add an AC Script"
 msgstr ""
 
 #: ../../source/script/assignment-client-scripts.md:12
@@ -139,13 +126,13 @@ msgid ""
 msgstr ""
 
 #: ../../source/script/assignment-client-scripts.md:15
-msgid "From the menu, go to Content > Scripts."
+msgid "From the menu, go to **Content > Scripts**."
 msgstr ""
 
 #: ../../source/script/assignment-client-scripts.md:16
 msgid ""
-"In the Persistent Scripts section, click + and paste the URL to your "
-"script under 'Script URL'."
+"In the Persistent Scripts section, click **+** and paste the URL to your "
+"script under 'Script URL'.  ![](_images/ac-script.png)"
 msgstr ""
 
 #: ../../source/script/assignment-client-scripts.md:18
@@ -154,24 +141,48 @@ msgid ""
 "enter that domain, the AC script will be running."
 msgstr ""
 
+#: ../../source/script/assignment-client-scripts.md:20
+msgid "Example of an AC Script"
+msgstr ""
+
 #: ../../source/script/assignment-client-scripts.md:22
 msgid ""
 "The following script counts the number of entities found in a domain "
-"using High Fidelity's EntityViewer."
+"using High Fidelity's "
+"[EntityViewer](https://apidocs.vircadia.dev/EntityViewer.html)."
 msgstr ""
 
 #: ../../source/script/assignment-client-scripts.md:54
 #: ../../source/script/avatar-scripts.md:83
 #: ../../source/script/client-entity-scripts.md:44
+#: ../../source/script/get-started-with-scripting.rst:174
 #: ../../source/script/interface-scripts.md:37
-#: ../../source/script/js-tips.md:200
+#: ../../source/script/js-tips.md:200 ../../source/script/midi-tutorial.rst:176
 #: ../../source/script/server-entity-scripts.md:57
 #: ../../source/script/write-scripts.md:74
-msgid "See Also"
-msgstr ""
+msgid "**See Also**"
+msgstr "**Siehe auch**"
 
 #: ../../source/script/assignment-client-scripts.md:56
-msgid "Configure Your Domain Settings"
+msgid "[Configure Your Domain Settings](../host/configure-settings)"
+msgstr ""
+
+#: ../../source/script/assignment-client-scripts.md:57
+#: ../../source/script/avatar-scripts.md:85
+#: ../../source/script/client-entity-scripts.md:46
+#: ../../source/script/interface-scripts.md:39
+#: ../../source/script/server-entity-scripts.md:59
+#: ../../source/script/write-scripts.md:76
+msgid "[Get Started with Scripting](get-started-with-scripting)"
+msgstr ""
+
+#: ../../source/script/assignment-client-scripts.md:58
+#: ../../source/script/avatar-scripts.md:86
+#: ../../source/script/client-entity-scripts.md:47
+#: ../../source/script/interface-scripts.md:40
+#: ../../source/script/js-tips.md:202
+#: ../../source/script/server-entity-scripts.md:60
+msgid "[Write Your Own Scripts](write-scripts)"
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:3
@@ -190,13 +201,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:9
-#: ../../source/script/avatar-scripts.md:12
-msgid "Add an Avatar Script"
+msgid "[Add an Avatar Script](#add-an-avatar-script)"
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:10
-#: ../../source/script/avatar-scripts.md:32
-msgid "Example of an Avatar Script"
+msgid "[Example of an Avatar Script](#example-of-an-avatar-script)"
+msgstr ""
+
+#: ../../source/script/avatar-scripts.md:12
+msgid "Add an Avatar Script"
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:13
@@ -212,8 +225,8 @@ msgstr ""
 
 #: ../../source/script/avatar-scripts.md:21
 msgid ""
-"Create a folder called scripts in the same location as your FBX, GLB, or "
-"glTF file."
+"Create a folder called `scripts` in the same location as your FBX, GLB, "
+"or glTF file."
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:22
@@ -221,13 +234,13 @@ msgid "Copy your avatar script into this new folder."
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:23
-msgid "In Interface, go to Edit > Package Model as .fst"
+msgid "In Interface, go to **Edit > Package Model as .fst**"
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:24
 msgid ""
-"For 'Script Directory', enter the path to the scripts folder you created "
-"above."
+"For 'Script Directory', enter the path to the `scripts` folder you "
+"created above."
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:26
@@ -241,13 +254,17 @@ msgstr ""
 #: ../../source/script/avatar-scripts.md:28
 msgid ""
 "Add a line telling the avatar where to find the script file using the "
-"syntax script = [SCRIPT URL]."
+"syntax `script = [SCRIPT URL]`.![](_images/add-script.png)"
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:30
 msgid ""
-"You can add multiple scripts to your avatar by adding multiple script = "
-"url lines."
+"You can add multiple scripts to your avatar by adding multiple `script = "
+"url` lines."
+msgstr ""
+
+#: ../../source/script/avatar-scripts.md:32
+msgid "Example of an Avatar Script"
 msgstr ""
 
 #: ../../source/script/avatar-scripts.md:34
@@ -258,10 +275,13 @@ msgstr ""
 
 #: ../../source/script/avatar-scripts.md:81
 msgid ""
-"This example script uses the MyAvatar namespace to determine if your "
-"avatar's hand moves. Upon detecting movement, the script makes your "
-"avatar launch balls. It also uses some other namespaces such as Entities "
-"(to create the ball you will launch) and Vec3 (to determine the right "
+"This example script uses the "
+"[MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html) namespace to "
+"determine if your avatar's hand moves. Upon detecting movement, the "
+"script makes your avatar launch balls. It also uses some other namespaces"
+" such as [Entities](https://apidocs.vircadia.dev/Entities.html) (to "
+"create the ball you will launch) and "
+"[Vec3](https://apidocs.vircadia.dev/Vec3.html) (to determine the right "
 "positions and distances). Add it to your avatar to see how it works."
 msgstr ""
 
@@ -270,13 +290,13 @@ msgstr ""
 #: ../../source/script/js-tips.md:203
 #: ../../source/script/server-entity-scripts.md:61
 #: ../../source/script/write-scripts.md:79
-msgid "API Reference"
+msgid "[API Reference](https://apidocs.vircadia.dev)"
 msgstr ""
 
 #: ../../source/script/client-entity-scripts.md:3
 msgid ""
 "You can make content in Vircadia interactive by attaching scripts to "
-"entities. Client entity scripts are entity scripts that run locally on "
+"entities. *Client entity scripts* are entity scripts that run locally on "
 "each user's computer. When a user comes into contact with the entity, it "
 "will \"preload\" (or run) the script, then \"unload\" (or stop) the "
 "script when the user leaves."
@@ -289,13 +309,17 @@ msgid ""
 msgstr ""
 
 #: ../../source/script/client-entity-scripts.md:8
-#: ../../source/script/client-entity-scripts.md:11
-msgid "Attach a Client Entity Script to an Entity"
+msgid ""
+"[Attach a Client Entity Script to an Entity](#attach-a-client-entity-"
+"script-to-an-entity)"
 msgstr ""
 
 #: ../../source/script/client-entity-scripts.md:9
-#: ../../source/script/client-entity-scripts.md:23
-msgid "Example of a Client Entity Script"
+msgid "[Example of a Client Entity Script](#example-of-a-client-entity-script)"
+msgstr ""
+
+#: ../../source/script/client-entity-scripts.md:11
+msgid "Attach a Client Entity Script to an Entity"
 msgstr ""
 
 #: ../../source/script/client-entity-scripts.md:12
@@ -304,7 +328,7 @@ msgstr ""
 
 #: ../../source/script/client-entity-scripts.md:13
 #: ../../source/script/server-entity-scripts.md:12
-msgid "In Interface, pull up your tablet or HUD and go to Create."
+msgid "In Interface, pull up your tablet or HUD and go to **Create**."
 msgstr ""
 
 #: ../../source/script/client-entity-scripts.md:14
@@ -317,12 +341,16 @@ msgstr ""
 #: ../../source/script/client-entity-scripts.md:15
 #: ../../source/script/server-entity-scripts.md:14
 msgid ""
-"In the Create app, go to the 'Properties' tab and scroll down to the "
+"In the **Create** app, go to the 'Properties' tab and scroll down to the "
 "'Behavior' section."
 msgstr ""
 
 #: ../../source/script/client-entity-scripts.md:16
 msgid "For Script, enter the URL to your client entity script."
+msgstr ""
+
+#: ../../source/script/client-entity-scripts.md:23
+msgid "Example of a Client Entity Script"
 msgstr ""
 
 #: ../../source/script/client-entity-scripts.md:24
@@ -334,10 +362,11 @@ msgstr ""
 #: ../../source/script/client-entity-scripts.md:42
 msgid ""
 "This example is written as a JavaScript class prototype function, and it "
-"uses the mouse event clickDownOnEntity(). When the user clicks on an "
-"entity, clickDownOnEntity() triggers the function associated with that "
-"click event. In this case, it changes the entity's color back and forth "
-"between yellow and magenta."
+"uses the mouse event "
+"[clickDownOnEntity()](https://apidocs.vircadia.dev/Entities.html#.sendClickDownOnEntity)."
+" When the user clicks on an entity, `clickDownOnEntity()` triggers the "
+"function associated with that click event. In this case, it changes the "
+"entity's color back and forth between yellow and magenta."
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:5
@@ -353,6 +382,11 @@ msgid ""
 "This page ensures that you know what type of script to use and helps you "
 "get started running your own simple scripts."
 msgstr ""
+
+#: ../../source/script/get-started-with-scripting.rst:10
+#: ../../source/script/midi-tutorial.rst:12
+msgid "On This Page"
+msgstr "Auf dieser Seite"
 
 #: ../../source/script/get-started-with-scripting.rst:14
 msgid "JavaScript Basics in Vircadia"
@@ -613,7 +647,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:125
-#: ../../source/script/write-scripts.md:77
 msgid "Load and Run a Script"
 msgstr ""
 
@@ -741,11 +774,6 @@ msgid ""
 "visible, first go to the 'Settings' menu and click 'Developer' Menu."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:174
-#: ../../source/script/midi-tutorial.rst:176
-msgid "**See Also**"
-msgstr "**Siehe auch**"
-
 #: ../../source/script/get-started-with-scripting.rst:176
 msgid ":doc:`Interface Scripts <interface-scripts>`"
 msgstr ""
@@ -788,13 +816,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/script/interface-scripts.md:8
-#: ../../source/script/interface-scripts.md:11
-msgid "Load an Interface Script"
+msgid "[Load an Interface Script](#load-an-interface-script)"
 msgstr ""
 
 #: ../../source/script/interface-scripts.md:9
-#: ../../source/script/interface-scripts.md:18
-msgid "Example of an Interface Script"
+msgid "[Example of an Interface Script](#example-of-an-interface-script)"
+msgstr ""
+
+#: ../../source/script/interface-scripts.md:11
+msgid "Load an Interface Script"
 msgstr ""
 
 #: ../../source/script/interface-scripts.md:13
@@ -803,9 +833,13 @@ msgstr ""
 
 #: ../../source/script/interface-scripts.md:14
 msgid ""
-"In Interface, go to Edit > Running Scripts or press <kbd "
+"In Interface, go to **Edit > Running Scripts** or press <kbd "
 "class=\"keyboard\">Ctrl</kbd> + <kbd class=\"keyboard\">J</kbd> on your "
 "keyboard."
+msgstr ""
+
+#: ../../source/script/interface-scripts.md:18
+msgid "Example of an Interface Script"
 msgstr ""
 
 #: ../../source/script/interface-scripts.md:20
@@ -820,51 +854,62 @@ msgstr ""
 
 #: ../../source/script/js-tips.md:3
 msgid ""
-"Vircadia's robust JavaScript API provides the tools for you to build "
-"great content and user experiences in VR. We've compiled some advanced "
-"JavaScript tips you can use while scripting for Vircadia."
+"Vircadia's robust [JavaScript API](https://apidocs.vircadia.dev) provides"
+" the tools for you to build great content and user experiences in VR. "
+"We've compiled some advanced JavaScript tips you can use while scripting "
+"for Vircadia."
 msgstr ""
 
 #: ../../source/script/js-tips.md:5
 msgid ""
-"You can use the Scripting Console in Interface to try out the examples on"
-" this page. The output will be visible in the console itself."
+"You can use the [Scripting Console in Interface](get-started-with-"
+"scripting.html#scripting-console) to try out the examples on this page. "
+"The output will be visible in the console itself."
 msgstr ""
 
 #: ../../source/script/js-tips.md:7 ../../source/script/write-scripts.md:12
-msgid "On This Page:"
+#, fuzzy
+msgid "**On This Page:**"
+msgstr "Auf dieser Seite"
+
+#: ../../source/script/js-tips.md:9
+msgid "[Compute 3D Math Operations](#compute-3d-math-operations)"
 msgstr ""
 
-#: ../../source/script/js-tips.md:9 ../../source/script/js-tips.md:18
+#: ../../source/script/js-tips.md:10
+msgid "[Get Your Avatar's Position](#get-your-avatars-position)"
+msgstr ""
+
+#: ../../source/script/js-tips.md:11
+msgid "[Get Your Avatar's Orientation](#get-your-avatars-orientation)"
+msgstr ""
+
+#: ../../source/script/js-tips.md:12
+msgid ""
+"[Get the Direction Your Avatar is Facing](#get-the-direction-your-avatar-"
+"is-facing)"
+msgstr ""
+
+#: ../../source/script/js-tips.md:13
+msgid ""
+"[Make an Entity Appear Before Your Avatar](#make-an-entity-appear-before-"
+"your-avatar)"
+msgstr ""
+
+#: ../../source/script/js-tips.md:14
+msgid "[Include External JS and JSON Files](#include-external-js-and-json-files)"
+msgstr ""
+
+#: ../../source/script/js-tips.md:15
+msgid "[Equip an Item](#equip-an-item)"
+msgstr ""
+
+#: ../../source/script/js-tips.md:16
+msgid "[Connect a Signal to a Function](#connect-a-signal-to-a-function)"
+msgstr ""
+
+#: ../../source/script/js-tips.md:18
 msgid "Compute 3D Math Operations"
-msgstr ""
-
-#: ../../source/script/js-tips.md:10 ../../source/script/js-tips.md:26
-msgid "Get Your Avatar's Position"
-msgstr ""
-
-#: ../../source/script/js-tips.md:11 ../../source/script/js-tips.md:47
-msgid "Get Your Avatar's Orientation"
-msgstr ""
-
-#: ../../source/script/js-tips.md:12 ../../source/script/js-tips.md:66
-msgid "Get the Direction Your Avatar is Facing"
-msgstr ""
-
-#: ../../source/script/js-tips.md:13 ../../source/script/js-tips.md:77
-msgid "Make an Entity Appear Before Your Avatar"
-msgstr ""
-
-#: ../../source/script/js-tips.md:14 ../../source/script/js-tips.md:123
-msgid "Include External JS and JSON Files"
-msgstr ""
-
-#: ../../source/script/js-tips.md:15 ../../source/script/js-tips.md:160
-msgid "Equip an Item"
-msgstr ""
-
-#: ../../source/script/js-tips.md:16 ../../source/script/js-tips.md:174
-msgid "Connect a Signal to a Function"
 msgstr ""
 
 #: ../../source/script/js-tips.md:20
@@ -878,18 +923,24 @@ msgstr ""
 
 #: ../../source/script/js-tips.md:22
 msgid ""
-"Vec3: The Vec3 API has facilities for generating and manipulating "
-"3-dimensional vectors."
+"[Vec3](https://apidocs.vircadia.dev/Vec3.html): The Vec3 API has "
+"facilities for generating and manipulating 3-dimensional vectors."
 msgstr ""
 
 #: ../../source/script/js-tips.md:23
 msgid ""
-"Quat: The Quat API provides facilities for generating and manipulating "
-"quaternions."
+"[Quat](https://apidocs.vircadia.dev/Quat.html): The Quat API provides "
+"facilities for generating and manipulating quaternions."
 msgstr ""
 
 #: ../../source/script/js-tips.md:24
-msgid "MyAvatar: The MyAvatar API provides facilities for manipulating avatars."
+msgid ""
+"[MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html): The MyAvatar API "
+"provides facilities for manipulating avatars."
+msgstr ""
+
+#: ../../source/script/js-tips.md:26
+msgid "Get Your Avatar's Position"
 msgstr ""
 
 #: ../../source/script/js-tips.md:28
@@ -906,20 +957,25 @@ msgstr ""
 
 #: ../../source/script/js-tips.md:36
 msgid ""
-"To get your avatar's current position, use the MyAvatar namespace. "
+"To get your avatar's current position, use the "
+"[MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html) namespace. "
 "MyAvatar contains properties with information related to your avatar. Use"
-" the position property, MyAvatar.position, which returns an object."
+" the position property, `MyAvatar.position`, which returns an object."
 msgstr ""
 
 #: ../../source/script/js-tips.md:38
 msgid ""
 "In the following example, we are using the JSON.stringify method to "
-"convert the JavaScript object (returned by MyAvatar.position) to a data "
-"string that can be sent over the server."
+"convert the JavaScript object (returned by `MyAvatar.position`) to a data"
+" string that can be sent over the server."
 msgstr ""
 
 #: ../../source/script/js-tips.md:40
 msgid "Open your Scripting Console and find your avatar's position."
+msgstr ""
+
+#: ../../source/script/js-tips.md:47
+msgid "Get Your Avatar's Orientation"
 msgstr ""
 
 #: ../../source/script/js-tips.md:49
@@ -942,14 +998,23 @@ msgstr ""
 #: ../../source/script/js-tips.md:59
 msgid ""
 "Get your avatar's orientation in the Scripting Console by using the "
-"MyAvatar.orientation property:"
+"`MyAvatar.orientation` property:"
+msgstr ""
+
+#: ../../source/script/js-tips.md:66
+msgid "Get the Direction Your Avatar is Facing"
 msgstr ""
 
 #: ../../source/script/js-tips.md:68
 msgid ""
-"You can use the Quat namespace to get the direction which your avatar is "
-"facing. Pass your avatar's orientation to Quat.getForward to get a vector"
-" describing which direction you are facing on the world axis."
+"You can use the [Quat](https://apidocs.vircadia.dev/Quat.html) namespace "
+"to get the direction which your avatar is facing. Pass your avatar's "
+"orientation to `Quat.getForward` to get a vector describing which "
+"direction you are facing on the world axis."
+msgstr ""
+
+#: ../../source/script/js-tips.md:77
+msgid "Make an Entity Appear Before Your Avatar"
 msgstr ""
 
 #: ../../source/script/js-tips.md:79
@@ -960,9 +1025,9 @@ msgstr ""
 
 #: ../../source/script/js-tips.md:81
 msgid ""
-"Use the Vec3 namespace and the direction your avatar is facing to return "
-"the position at which you can make your entity appear. This position is "
-"1m away from your avatar."
+"Use the [Vec3](https://apidocs.vircadia.dev/Vec3.html) namespace and the "
+"direction your avatar is facing to return the position at which you can "
+"make your entity appear. This position is 1m away from your avatar."
 msgstr ""
 
 #: ../../source/script/js-tips.md:87
@@ -974,8 +1039,8 @@ msgstr ""
 
 #: ../../source/script/js-tips.md:93
 msgid ""
-"Use Vec3.sum to return a new vector representing how far away an entity "
-"will appear from your avatar."
+"Use `Vec3.sum` to return a new vector representing how far away an entity"
+" will appear from your avatar."
 msgstr ""
 
 #: ../../source/script/js-tips.md:99
@@ -984,14 +1049,18 @@ msgid ""
 "and run as a script."
 msgstr ""
 
+#: ../../source/script/js-tips.md:123
+msgid "Include External JS and JSON Files"
+msgstr ""
+
 #: ../../source/script/js-tips.md:125
 msgid ""
 "When writing a script in Vircadia, you might need to access the methods "
 "or objects in an external JS file or get information from a JSON file. "
 "For example, if you're writing a script to make your avatar wave, you "
 "might need to use some methods that already exist in an external JS file."
-" You can do this using the require method in the Scripts namespace of our"
-" API."
+" You can do this using the `require` method in the Scripts namespace of "
+"our API."
 msgstr ""
 
 #: ../../source/script/js-tips.md:127
@@ -1005,27 +1074,31 @@ msgid "Create a JS script that you want to access from your main script."
 msgstr ""
 
 #: ../../source/script/js-tips.md:131
-msgid "example.js"
+msgid "**example.js**"
 msgstr ""
 
 #: ../../source/script/js-tips.md:144
 msgid ""
-"In example.js, you are exporting two functions that print either Hello or"
-" Goodbye, depending on which function you call, to the console. Now, "
-"let's use require in your main script."
+"In **example.js**, you are exporting two functions that print either "
+"Hello or Goodbye, depending on which function you call, to the console. "
+"Now, let's use `require` in your main script."
 msgstr ""
 
 #: ../../source/script/js-tips.md:146
-msgid "Create a JS script called main.js."
+msgid "Create a JS script called **main.js**."
 msgstr ""
 
 #: ../../source/script/js-tips.md:153
 msgid ""
-"When you use the require method, you are making any function or object "
-"exported from example.js available to main.js. This means that main.js "
-"now has access to functions that will print either Hello or Goodbye to "
-"the console. In the above example, we are printing Hello to the console "
-"when we run main.js."
+"When you use the `require` method, you are making any function or object "
+"exported from **example.js** available to **main.js**. This means that "
+"**main.js** now has access to functions that will print either Hello or "
+"Goodbye to the console. In the above example, we are printing Hello to "
+"the console when we run **main.js**."
+msgstr ""
+
+#: ../../source/script/js-tips.md:160
+msgid "Equip an Item"
 msgstr ""
 
 #: ../../source/script/js-tips.md:161
@@ -1044,6 +1117,10 @@ msgstr ""
 msgid "To drop the entity from your avatar's hand:"
 msgstr ""
 
+#: ../../source/script/js-tips.md:174
+msgid "Connect a Signal to a Function"
+msgstr ""
+
 #: ../../source/script/js-tips.md:176
 msgid ""
 "Signals can be connected to functions. This means that every time a "
@@ -1055,8 +1132,9 @@ msgstr ""
 #: ../../source/script/js-tips.md:189
 msgid ""
 "Each signal usually gets passed in arguments, and you can refer to the "
-"API documentation to see what a signal will provide you, such as the "
-"enabled property passed into collision changed."
+"[API documentation](https://apidocs.vircadia.dev/MyAvatar.html) to see "
+"what a signal will provide you, such as the enabled property passed into "
+"collision changed."
 msgstr ""
 
 #: ../../source/script/js-tips.md:191
@@ -1411,27 +1489,30 @@ msgstr ""
 #: ../../source/script/server-entity-scripts.md:3
 msgid ""
 "You can make content in Vircadia interactive by attaching scripts to "
-"entities. Server entity scripts are entity scripts that run on the server"
-" (or domain) that hosts the entity. These scripts run persistently in a "
-"domain, even if there are no users present. This means that there is only"
-" one instance of the script is running at a time, and it is running on "
-"the server. Any behavior that is controlled by your script will be seen "
-"and heard by everyone in the domain."
+"entities. *Server entity scripts* are entity scripts that run on the "
+"server (or domain) that hosts the entity. These scripts run persistently "
+"in a domain, even if there are no users present. This means that there is"
+" only one instance of the script is running at a time, and it is running "
+"on the server. Any behavior that is controlled by your script will be "
+"seen and heard by everyone in the domain."
 msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:6
-#: ../../source/script/server-entity-scripts.md:10
-msgid "Attach a Server Entity Script to an Entity"
+msgid ""
+"[Attach a Server Entity Script to an Entity](#attach-a-server-entity-"
+"script-to-an-entity)"
 msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:7
-#: ../../source/script/server-entity-scripts.md:22
-msgid "Example of a Server Entity Script"
+msgid "[Example of a Server Entity Script](#example-of-a-server-entity-script)"
 msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:8
-#: ../../source/script/server-entity-scripts.md:51
-msgid "Script API"
+msgid "[Script API](#script-api)"
+msgstr ""
+
+#: ../../source/script/server-entity-scripts.md:10
+msgid "Attach a Server Entity Script to an Entity"
 msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:11
@@ -1440,6 +1521,10 @@ msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:15
 msgid "For 'Server Script', enter the URL to your server entity script."
+msgstr ""
+
+#: ../../source/script/server-entity-scripts.md:22
+msgid "Example of a Server Entity Script"
 msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:23
@@ -1457,6 +1542,10 @@ msgid ""
 "the light to flicker it."
 msgstr ""
 
+#: ../../source/script/server-entity-scripts.md:51
+msgid "Script API"
+msgstr ""
+
 #: ../../source/script/server-entity-scripts.md:53
 msgid ""
 "The Entity Script Server does not have access to all of the listed "
@@ -1466,83 +1555,111 @@ msgid ""
 msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:55
-msgid "Learn more about what APIs are available to server entity scripts here."
+msgid ""
+"Learn more about what APIs are available to server entity scripts "
+"[here](https://apidocs.vircadia.dev/Entities.html)."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:3
 msgid ""
-"Vircadia's robust JavaScript API provides the tools for you to build "
-"great content and user experiences in VR."
+"Vircadia's robust [JavaScript API](https://apidocs.vircadia.dev) provides"
+" the tools for you to build great content and user experiences in VR."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:5
 msgid ""
 "In this section, you can find simple code samples to do common tasks in "
 "Vircadia. To see these code samples in action, copy the code to a file, "
-"testScripts.js, saved somewhere on your computer."
+"`testScripts.js`, saved somewhere on your computer."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:14
+msgid "[Write to the Debug Window](#write-to-the-debug-window)"
+msgstr ""
+
+#: ../../source/script/write-scripts.md:15
+msgid "[Create an Entity](#create-an-entity)"
+msgstr ""
+
+#: ../../source/script/write-scripts.md:16
+msgid "[Edit an Entity](#edit-an-entity)"
+msgstr ""
+
 #: ../../source/script/write-scripts.md:18
 msgid "Write to the Debug Window"
 msgstr ""
 
-#: ../../source/script/write-scripts.md:15
-#: ../../source/script/write-scripts.md:29
-msgid "Create an Entity"
-msgstr ""
-
-#: ../../source/script/write-scripts.md:16
-#: ../../source/script/write-scripts.md:49
-msgid "Edit an Entity"
-msgstr ""
-
 #: ../../source/script/write-scripts.md:19
 msgid ""
-"This is an example of an interface script and cannot be attached to an "
-"entity. It shows you how to print something to the debug window . In this"
-" example, we'll start with a simple \"Hello, World\" script."
+"This is an example of an [interface script](interface-scripts) and cannot"
+" be attached to an entity. It shows you how to print something to the "
+"[debug window ](get-started-with-scripting.html#debug-window). In this "
+"example, we'll start with a simple \"Hello, World\" script."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:25
 #: ../../source/script/write-scripts.md:45
 #: ../../source/script/write-scripts.md:68
-msgid "Copy and paste this in a file testScript.js and save it on your computer."
+msgid ""
+"Copy and paste this in a file `testScript.js` and save it on your "
+"computer."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:26
 msgid ""
-"When you load and run this script, it will write the words \"Hello, "
-"World\" to the 'Debug Window' in High Fidelity."
+"When you [load and run this script](get-started-with-scripting.html#load-"
+"and-run-a-script), it will write the words \"Hello, World\" to the 'Debug"
+" Window' in High Fidelity. ![](_images/hello-world.png)"
+msgstr ""
+
+#: ../../source/script/write-scripts.md:29
+msgid "Create an Entity"
 msgstr ""
 
 #: ../../source/script/write-scripts.md:30
 msgid ""
-"Instead of using the Create app to add an entity, you can create one "
-"using an interface script."
+"Instead of [using the Create app to add an entity](../create/entities"
+"/create-entities), you can create one using an [interface script"
+"](interface-scripts)."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:46
 msgid ""
-"When you load and run this script, it will locate your avatar in the "
-"domain, create a new entity based on the customized properties that you "
-"set, then print a line to the 'Debug Window'. In this case, the entity "
-"will be a red box."
+"When you [load and run this script](get-started-with-scripting.html#load-"
+"and-run-a-script), it will locate your avatar in the domain, create a new"
+" entity based on the customized properties that you set, then print a "
+"line to the 'Debug Window'. In this case, the entity will be a red box. "
+"![](_images/add-entity.png)"
+msgstr ""
+
+#: ../../source/script/write-scripts.md:49
+msgid "Edit an Entity"
 msgstr ""
 
 #: ../../source/script/write-scripts.md:50
 msgid ""
-"To manipulate an entity's properties, you can use Entities.editEntityin "
-"an interface script."
+"To manipulate an entity's properties, you can use `Entities.editEntity`in"
+" an [interface script](interface-scripts)."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:69
 msgid ""
-"When you load and run this script, it will locate your avatar in the "
-"domain, create a new entity based on the customized properties that you "
-"set, then print the color of that entity to the 'Debug Window'. Then, the"
-" script changes the color of the entity to red, and prints the new color "
-"in the 'Debug Window'."
+"When you [load and run this script](get-started-with-scripting.html#load-"
+"and-run-a-script), it will locate your avatar in the domain, create a new"
+" entity based on the customized properties that you set, then print the "
+"color of that entity to the 'Debug Window'. Then, the script changes the "
+"color of the entity to red, and prints the new color in the 'Debug "
+"Window'. ![](_images/edit-entity.png)"
+msgstr ""
+
+#: ../../source/script/write-scripts.md:77
+msgid ""
+"[Load and Run a Script](get-started-with-scripting.html#load-and-"
+"run-a-script)"
+msgstr ""
+
+#: ../../source/script/write-scripts.md:78
+msgid "[Interface Scripts](interface-scripts)"
 msgstr ""
 
 #~ msgid "Tutorial: Transfer Money and Items"
@@ -2533,5 +2650,337 @@ msgstr ""
 #~ " the 'Debug Window'. In this case,"
 #~ " the entity will be a red "
 #~ "box.<br />"
+#~ msgstr ""
+
+#~ msgid "From the menu, go to Content > Scripts."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Persistent Scripts section, click"
+#~ " + and paste the URL to your"
+#~ " script under 'Script URL'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The following script counts the number"
+#~ " of entities found in a domain "
+#~ "using High Fidelity's EntityViewer."
+#~ msgstr ""
+
+#~ msgid "See Also"
+#~ msgstr ""
+
+#~ msgid "Configure Your Domain Settings"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create a folder called scripts in "
+#~ "the same location as your FBX, "
+#~ "GLB, or glTF file."
+#~ msgstr ""
+
+#~ msgid "In Interface, go to Edit > Package Model as .fst"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For 'Script Directory', enter the path"
+#~ " to the scripts folder you created"
+#~ " above."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add a line telling the avatar "
+#~ "where to find the script file "
+#~ "using the syntax script = [SCRIPT "
+#~ "URL]."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can add multiple scripts to "
+#~ "your avatar by adding multiple script"
+#~ " = url lines."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This example script uses the MyAvatar"
+#~ " namespace to determine if your "
+#~ "avatar's hand moves. Upon detecting "
+#~ "movement, the script makes your avatar"
+#~ " launch balls. It also uses some "
+#~ "other namespaces such as Entities (to"
+#~ " create the ball you will launch) "
+#~ "and Vec3 (to determine the right "
+#~ "positions and distances). Add it to "
+#~ "your avatar to see how it works."
+#~ msgstr ""
+
+#~ msgid "API Reference"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can make content in Vircadia "
+#~ "interactive by attaching scripts to "
+#~ "entities. Client entity scripts are "
+#~ "entity scripts that run locally on "
+#~ "each user's computer. When a user "
+#~ "comes into contact with the entity, "
+#~ "it will \"preload\" (or run) the "
+#~ "script, then \"unload\" (or stop) the"
+#~ " script when the user leaves."
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your tablet or HUD and go to Create."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Create app, go to the "
+#~ "'Properties' tab and scroll down to "
+#~ "the 'Behavior' section."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This example is written as a "
+#~ "JavaScript class prototype function, and "
+#~ "it uses the mouse event "
+#~ "clickDownOnEntity(). When the user clicks "
+#~ "on an entity, clickDownOnEntity() triggers "
+#~ "the function associated with that click"
+#~ " event. In this case, it changes "
+#~ "the entity's color back and forth "
+#~ "between yellow and magenta."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Interface, go to Edit > Running"
+#~ " Scripts or press <kbd "
+#~ "class=\"keyboard\">Ctrl</kbd> + <kbd "
+#~ "class=\"keyboard\">J</kbd> on your keyboard."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia's robust JavaScript API provides "
+#~ "the tools for you to build great"
+#~ " content and user experiences in VR."
+#~ " We've compiled some advanced JavaScript"
+#~ " tips you can use while scripting "
+#~ "for Vircadia."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the Scripting Console "
+#~ "in Interface to try out the "
+#~ "examples on this page. The output "
+#~ "will be visible in the console "
+#~ "itself."
+#~ msgstr ""
+
+#~ msgid "On This Page:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vec3: The Vec3 API has facilities "
+#~ "for generating and manipulating 3-dimensional"
+#~ " vectors."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Quat: The Quat API provides facilities"
+#~ " for generating and manipulating "
+#~ "quaternions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "MyAvatar: The MyAvatar API provides "
+#~ "facilities for manipulating avatars."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To get your avatar's current position,"
+#~ " use the MyAvatar namespace. MyAvatar "
+#~ "contains properties with information related"
+#~ " to your avatar. Use the position "
+#~ "property, MyAvatar.position, which returns an"
+#~ " object."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the following example, we are "
+#~ "using the JSON.stringify method to "
+#~ "convert the JavaScript object (returned "
+#~ "by MyAvatar.position) to a data string"
+#~ " that can be sent over the "
+#~ "server."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Get your avatar's orientation in the "
+#~ "Scripting Console by using the "
+#~ "MyAvatar.orientation property:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the Quat namespace to"
+#~ " get the direction which your avatar"
+#~ " is facing. Pass your avatar's "
+#~ "orientation to Quat.getForward to get a"
+#~ " vector describing which direction you "
+#~ "are facing on the world axis."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the Vec3 namespace and the "
+#~ "direction your avatar is facing to "
+#~ "return the position at which you "
+#~ "can make your entity appear. This "
+#~ "position is 1m away from your "
+#~ "avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use Vec3.sum to return a new "
+#~ "vector representing how far away an "
+#~ "entity will appear from your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When writing a script in Vircadia, "
+#~ "you might need to access the "
+#~ "methods or objects in an external "
+#~ "JS file or get information from a"
+#~ " JSON file. For example, if you're"
+#~ " writing a script to make your "
+#~ "avatar wave, you might need to use"
+#~ " some methods that already exist in"
+#~ " an external JS file. You can "
+#~ "do this using the require method "
+#~ "in the Scripts namespace of our "
+#~ "API."
+#~ msgstr ""
+
+#~ msgid "example.js"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In example.js, you are exporting two "
+#~ "functions that print either Hello or "
+#~ "Goodbye, depending on which function you"
+#~ " call, to the console. Now, let's "
+#~ "use require in your main script."
+#~ msgstr ""
+
+#~ msgid "Create a JS script called main.js."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you use the require method, "
+#~ "you are making any function or "
+#~ "object exported from example.js available "
+#~ "to main.js. This means that main.js "
+#~ "now has access to functions that "
+#~ "will print either Hello or Goodbye "
+#~ "to the console. In the above "
+#~ "example, we are printing Hello to "
+#~ "the console when we run main.js."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Each signal usually gets passed in "
+#~ "arguments, and you can refer to "
+#~ "the API documentation to see what "
+#~ "a signal will provide you, such as"
+#~ " the enabled property passed into "
+#~ "collision changed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can make content in Vircadia "
+#~ "interactive by attaching scripts to "
+#~ "entities. Server entity scripts are "
+#~ "entity scripts that run on the "
+#~ "server (or domain) that hosts the "
+#~ "entity. These scripts run persistently "
+#~ "in a domain, even if there are "
+#~ "no users present. This means that "
+#~ "there is only one instance of the"
+#~ " script is running at a time, "
+#~ "and it is running on the server."
+#~ " Any behavior that is controlled by"
+#~ " your script will be seen and "
+#~ "heard by everyone in the domain."
+#~ msgstr ""
+
+#~ msgid "Learn more about what APIs are available to server entity scripts here."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia's robust JavaScript API provides "
+#~ "the tools for you to build great"
+#~ " content and user experiences in VR."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this section, you can find "
+#~ "simple code samples to do common "
+#~ "tasks in Vircadia. To see these "
+#~ "code samples in action, copy the "
+#~ "code to a file, testScripts.js, saved"
+#~ " somewhere on your computer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is an example of an interface"
+#~ " script and cannot be attached to "
+#~ "an entity. It shows you how to "
+#~ "print something to the debug window "
+#~ ". In this example, we'll start "
+#~ "with a simple \"Hello, World\" script."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy and paste this in a file "
+#~ "testScript.js and save it on your "
+#~ "computer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you load and run this script,"
+#~ " it will write the words \"Hello, "
+#~ "World\" to the 'Debug Window' in "
+#~ "High Fidelity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Instead of using the Create app to"
+#~ " add an entity, you can create "
+#~ "one using an interface script."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you load and run this script,"
+#~ " it will locate your avatar in "
+#~ "the domain, create a new entity "
+#~ "based on the customized properties that"
+#~ " you set, then print a line to"
+#~ " the 'Debug Window'. In this case,"
+#~ " the entity will be a red box."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To manipulate an entity's properties, "
+#~ "you can use Entities.editEntityin an "
+#~ "interface script."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you load and run this script,"
+#~ " it will locate your avatar in "
+#~ "the domain, create a new entity "
+#~ "based on the customized properties that"
+#~ " you set, then print the color "
+#~ "of that entity to the 'Debug "
+#~ "Window'. Then, the script changes the"
+#~ " color of the entity to red, "
+#~ "and prints the new color in the"
+#~ " 'Debug Window'."
 #~ msgstr ""
 

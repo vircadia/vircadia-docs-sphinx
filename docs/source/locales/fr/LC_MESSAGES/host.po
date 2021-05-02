@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-03-29 01:19+0000\n"
+"POT-Creation-Date: 2021-05-02 08:26+0000\n"
 "PO-Revision-Date: 2021-01-28 12:28+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language: fr\n"
@@ -18,9 +18,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
-#: ../../source/host.rst:9 ../../source/host/start-hosting.rst:7
+#: ../../source/host.rst:9 ../../source/host/start-hosting.rst:3
 msgid "Get Started with Hosting"
 msgstr ""
 
@@ -92,7 +92,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/add-content.rst:7
-#: ../../source/host/configure-settings.rst:13
+#: ../../source/host/configure-settings.rst:12
 msgid "**In This Section**"
 msgstr "**Dans Cette Rubrique**"
 
@@ -120,7 +120,7 @@ msgstr ""
 #: ../../source/host/add-content/export-content.rst:21
 #: ../../source/host/configure-settings/audio-settings.rst:10
 #: ../../source/host/configure-settings/entity-filters.rst:9
-#: ../../source/host/configure-settings/network-settings.rst:14
+#: ../../source/host/configure-settings/network-settings.rst:10
 #: ../../source/host/configure-settings/permission-settings.rst:12
 #: ../../source/host/configure-settings/place-setting.rst:14
 #: ../../source/host/invite-users.rst:12
@@ -128,8 +128,8 @@ msgstr ""
 #: ../../source/host/maintain-domain/manage-visitors.rst:10
 #: ../../source/host/maintain-domain/script-maintenance.rst:8
 #: ../../source/host/maintain-domain/update-software.rst:8
-#: ../../source/host/server-setup/windows-server.rst:14
-#: ../../source/host/start-hosting.rst:12
+#: ../../source/host/server-setup/windows-server.rst:10
+#: ../../source/host/start-hosting.rst:8
 msgid "On This Page"
 msgstr "Sur Cette Page"
 
@@ -627,6 +627,7 @@ msgstr ""
 #: ../../source/host/maintain-domain/backup-domain.rst:78
 #: ../../source/host/maintain-domain/backup-domain.rst:104
 #: ../../source/host/maintain-domain/script-maintenance.rst:73
+#: ../../source/host/server-setup/windows-server.rst:33
 msgid ""
 "For local servers on Windows: Click on the Vircadia icon in the system "
 "tray, then click 'Settings'."
@@ -636,7 +637,6 @@ msgstr ""
 #: ../../source/host/add-content/export-content.rst:54
 #: ../../source/host/add-content/export-content.rst:79
 #: ../../source/host/add-content/upload-content.rst:13
-#: ../../source/host/configure-settings.rst:9
 #: ../../source/host/configure-settings/audio-settings.rst:35
 #: ../../source/host/configure-settings/authentication-setting.rst:13
 #: ../../source/host/configure-settings/entity-filters.rst:21
@@ -887,7 +887,6 @@ msgstr ""
 #: ../../source/host/maintain-domain/backup-domain.rst:80
 #: ../../source/host/maintain-domain/backup-domain.rst:106
 #: ../../source/host/maintain-domain/script-maintenance.rst:75
-#: ../../source/host/server-setup/windows-server.rst:42
 msgid ""
 "For any OS: Open a browser and enter the URL "
 "http://localhost:40100/settings."
@@ -1019,32 +1018,32 @@ msgid ""
 "be deployed in your domain."
 msgstr ""
 
-#: ../../source/host/configure-settings.rst:15
-#: ../../source/host/configure-settings/network-settings.rst:7
+#: ../../source/host/configure-settings.rst:14
+#: ../../source/host/configure-settings/network-settings.rst:3
 msgid "Define Your Network Settings"
 msgstr ""
 
-#: ../../source/host/configure-settings.rst:15
+#: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/place-setting.rst:7
 msgid "Set Up a Place Name"
 msgstr ""
 
-#: ../../source/host/configure-settings.rst:15
+#: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/permission-settings.rst:7
 msgid "Assign User Permissions"
 msgstr ""
 
-#: ../../source/host/configure-settings.rst:15
+#: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/authentication-setting.rst:3
 msgid "Secure Your Domain Settings"
 msgstr ""
 
-#: ../../source/host/configure-settings.rst:15
+#: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/entity-filters.rst:3
 msgid "Protect Your Domain's Content"
 msgstr ""
 
-#: ../../source/host/configure-settings.rst:15
+#: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/audio-settings.rst:3
 msgid "Define Your Audio Environment"
 msgstr ""
@@ -1056,7 +1055,8 @@ msgid ""
 "more. To access your domain settings:"
 msgstr ""
 
-#: ../../source/host/configure-settings.rst:10
+#: ../../source/host/configure-settings.rst:9
+#: ../../source/host/server-setup/windows-server.rst:34
 msgid ""
 "For local servers running on any OS, go to "
 "http://localhost:40100/settings."
@@ -1346,52 +1346,46 @@ msgid ""
 "filters::"
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:2
-msgid ""
-"This document is outdated. FIXME: mentions High Fidelity, mentions "
-"purchasing domain names, only mentions DigitalOcean"
-msgstr ""
-
-#: ../../source/host/configure-settings/network-settings.rst:9
+#: ../../source/host/configure-settings/network-settings.rst:5
 msgid ""
 "The **Metaverse/Networking** section of the Domain Settings defines all "
 "of the network settings for your domain."
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:11
+#: ../../source/host/configure-settings/network-settings.rst:7
 msgid ""
-"Changing any network settings will affect how High Fidelity's servers "
-"connects to your domain. Before making any changes to the settings, "
-"ensure that you have a basic understanding of networking concepts (IP, "
-"UDP, ports, etc) as changing these settings can impact visitors or (if "
-"you're running a local server) put your system at risk."
+"Changing any network settings will affect how the Metaverse Server and "
+"users will connect with your domain. Before making any changes to the "
+"settings, ensure that you have a basic understanding of networking "
+"concepts (IP, UDP, ports, etc) as changing these settings can impact "
+"visitors or (if you're running a local server) put your system at risk."
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:18
-msgid "Linked High Fidelity Account"
+#: ../../source/host/configure-settings/network-settings.rst:14
+msgid "Linked Metaverse Account"
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:20
+#: ../../source/host/configure-settings/network-settings.rst:16
 msgid ""
-"Every domain is linked to one High Fidelity account, who is the owner of "
+"Every domain can be linked to one Metaverse account, who is the owner of "
 "that domain. When you link your account, an OAuth access token is created"
 " and grants your account access to modify domain settings, and access "
 "groups necessary for domain operations. In addition, you can access your "
-"account-specific settings and purchases, such as place names."
+"account-specific settings, such as Place names."
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:22
+#: ../../source/host/configure-settings/network-settings.rst:18
 msgid ""
-"The status of your linked High Fidelity account is reflected at the top "
-"of the Metaverse/Networking section of the domain settings. You can also "
+"The status of your linked Metaverse account is reflected at the top of "
+"the Metaverse/Networking section of the domain settings. You can also "
 "view your access token on this page (under 'Advanced Options')."
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:28
+#: ../../source/host/configure-settings/network-settings.rst:24
 msgid "Automatic Networking"
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:30
+#: ../../source/host/configure-settings/network-settings.rst:26
 msgid ""
 "The automatic networking settings define how other nodes in the metaverse"
 " connect to your domain. These nodes include the avatar mixer, audio "
@@ -1399,27 +1393,18 @@ msgid ""
 "mixer."
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:32
-msgid ""
-"Do not change any network settings for cloud hosted domains. These are "
-"configured as part of the automatic setup process that occurs when you "
-"purchase a DigitalOcean droplet through High Fidelity. Changing any of "
-"these network settings may cause your cloud hosted domain to not work as "
-"intended."
-msgstr ""
-
-#: ../../source/host/configure-settings/network-settings.rst:34
+#: ../../source/host/configure-settings/network-settings.rst:28
 msgid "Choose from the following automatic networking options:"
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:36
+#: ../../source/host/configure-settings/network-settings.rst:30
 msgid ""
 "**None**: The network address and port displayed will be used to connect "
 "your domain. They are never automatically updated, and your domain must "
 "be reachable at the address and port you set."
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:37
+#: ../../source/host/configure-settings/network-settings.rst:31
 msgid ""
 "**IP Only**: Your domain will update the network address displayed to "
 "whatever it detects as your current IP address. The port displayed will "
@@ -1428,7 +1413,7 @@ msgid ""
 "a home network with a dynamically changing public IP address."
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:38
+#: ../../source/host/configure-settings/network-settings.rst:32
 msgid ""
 "**Full**: Your domain will provide the networking information to High "
 "Fidelity's servers, so that new clients can connect to it via UDP hole "
@@ -1436,13 +1421,13 @@ msgid ""
 "This may not work for all networks."
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:40
+#: ../../source/host/configure-settings/network-settings.rst:34
 msgid ""
 "Depending on the automatic networking method you choose, define the "
 "network address and/or port in the fields provided."
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:42
+#: ../../source/host/configure-settings/network-settings.rst:36
 msgid ""
 "If you intend to host multiple domains on the same network and router, be"
 " sure to set each domain to a separate UDP port. You can use the value "
@@ -1450,40 +1435,105 @@ msgid ""
 "port collisions."
 msgstr ""
 
+#: ../../source/host/configure-settings/network-settings.rst:42
+msgid "Networking Details (Advanced)"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:44
+msgid ""
+"A Vircadia domain reserves a range of four ports to operate on, usually "
+"starting at `40100`. (Note that the encrypted ports may not be "
+"implemented yet.) These ports are:"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:46
+msgid "40100 (+0): (tcp) administrative http connection"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:47
+msgid "40101 (+1): (tcp) administrative https (encrypted) connection"
+msgstr ""
+
 #: ../../source/host/configure-settings/network-settings.rst:48
+msgid "40102 (+2): (udp) main connection from clients"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:49
+msgid "40103 (+3): (udp) main connection from clients (encrypted)"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:51
+msgid ""
+"Generally speaking, only port `40102` must be publicly exposed to permit "
+"others to connect to a domain."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:53
+msgid ""
+"In addition there are six \"assignment clients\" that must run in order "
+"for the domain to be operational. These clients run alongside the domain "
+"server and must be able to connect with any outside user. These clients "
+"are:"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:55
+msgid "**asset-server**: stores object data to download to the user"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:56
+msgid "**audio-mixer**: controls what each user would hear"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:57
+msgid "**avatar-mixer**: allows users to see each other"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:58
+msgid "**entity-script-server**: runs actions inside the domain"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:59
+msgid "**entity-server**: describes the location of each object in the domain"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:60
+msgid "**messages-mixer**: passes messages between users in the domain"
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:62
+msgid ""
+"These assignment clients use UDP connections on a port number assigned by"
+" the operating system at launch. These ports will be within the "
+"`ephemeral port range <https://en.wikipedia.org/wiki/Ephemeral_port>`_."
+msgstr ""
+
+#: ../../source/host/configure-settings/network-settings.rst:66
 msgid "Domain ID"
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:50
+#: ../../source/host/configure-settings/network-settings.rst:68
 msgid ""
-"Each domain on the metaverse is assigned a unique domain ID. High "
-"Fidelity uses this ID to track where certified Marketplace items are "
-"rezz'd, to link domains to place names, to identify domain owners and "
-"more."
+"Each domain on the metaverse is assigned a unique domain ID. The "
+"Metaverse server uses this ID to help provide more advanced features to "
+"your world such as: allowing you to create Place names, identifying "
+"logged in users, and more."
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:52
+#: ../../source/host/configure-settings/network-settings.rst:70
 msgid ""
 "If you don't want your domain to be registered in the metaverse, leave "
 "the Domain ID field blank."
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:54
-msgid ""
-"Do not change the domain ID for cloud hosted domains. This is assigned to"
-" your domain when you purchase a DigitalOcean droplet through High "
-"Fidelity, and changing it may result in errors on your domain."
-msgstr ""
-
-#: ../../source/host/configure-settings/network-settings.rst:60
+#: ../../source/host/configure-settings/network-settings.rst:76
 msgid "Enable Packet Verification"
 msgstr ""
 
-#: ../../source/host/configure-settings/network-settings.rst:62
+#: ../../source/host/configure-settings/network-settings.rst:78
 msgid ""
-"When 'Enable Packet Verification' is turned on, High Fidelity sends "
-"secure checksums on communications that use the High Fidelity protocols. "
-"This increases security in your domain, but may slightly decrease domain "
+"When 'Enable Packet Verification' is turned on, Vircadia sends secure "
+"checksums on communications that use the Vircadia protocols. This "
+"increases security in your domain, but may slightly decrease domain "
 "performance for your visitors."
 msgstr ""
 
@@ -2455,7 +2505,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/maintain-domain/update-software.rst:27
-msgid "To update a local server on Windows or Mac:"
+msgid "To update a local server on Windows:"
 msgstr ""
 
 #: ../../source/host/maintain-domain/update-software.rst:29
@@ -2474,12 +2524,6 @@ msgid ""
 "On Windows: Click on the Vircadia icon in the system tray, then click "
 "'Quit'. Alternatively, end the ‘server-console’ background process using "
 "the Task Manager."
-msgstr ""
-
-#: ../../source/host/maintain-domain/update-software.rst:33
-msgid ""
-"On Mac: Right-click the Vircadia icon on the top menu bar, then click "
-"'Quit'."
 msgstr ""
 
 #: ../../source/host/maintain-domain/update-software.rst:34
@@ -2537,59 +2581,52 @@ msgstr ""
 msgid "**Mac**: ~/Library/Application Support/High Fidelity/Server Console/Logs"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:42
+#: ../../source/host/server-setup.rst:34
 msgid "Host a Domain from a Local Windows Server"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:42
-msgid "Host a Domain from a Local, Remote, *or* Cloud Linux Server"
+#: ../../source/host/server-setup.rst:34
+#: ../../source/host/server-setup/linux-server.md:1
+msgid "Host a Domain from a Local or Cloud Linux Server"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:2
-msgid ""
-"This document is outdated. FIXME: we do not have a partnership with "
-"DigitalOcean"
-msgstr ""
-
-#: ../../source/host/server-setup.rst:7
+#: ../../source/host/server-setup.rst:3
 msgid "Set up a Domain Server"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:9
+#: ../../source/host/server-setup.rst:5
 msgid ""
 "Depending on your requirements, you can host your domain on a physical "
 "computer (by turning it into a local server) or on cloud servers. In "
 "general, we recommend using local servers for private events and "
-"gatherings, and cloud services for larger public venues. To help with "
-"hosting your domains, we have a partnership with DigitalOcean to provide "
-"affordable, integrated cloud domain services for your use."
+"gatherings, and cloud services for larger public venues."
 msgstr ""
 
-#: ../../source/host/server-setup.rst:14
+#: ../../source/host/server-setup.rst:10
 msgid "Pros"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:14
+#: ../../source/host/server-setup.rst:10
 msgid "Cons"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:16
+#: ../../source/host/server-setup.rst:12
 msgid "Local Server"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:16
+#: ../../source/host/server-setup.rst:12
 msgid "No hosting or maintenance fees"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:17
+#: ../../source/host/server-setup.rst:13
 msgid "Control over the hosted environment"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:18
+#: ../../source/host/server-setup.rst:14
 msgid "Ideal for private domains"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:16
+#: ../../source/host/server-setup.rst:12
 msgid ""
 "Hardware and network must be able to handle visitor load and content set."
 " Depending on the complexity of your domain set and the number of "
@@ -2597,56 +2634,42 @@ msgid ""
 "requirements"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:22
-msgid "Responsible for security and maintenance of your server"
+#: ../../source/host/server-setup.rst:19
+msgid "Cloud Server"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:24
-msgid ""
-"Requires manual installation and configuration of Vircadia's Sandbox and "
-"domain"
-msgstr ""
-
-#: ../../source/host/server-setup.rst:27
-msgid "DigitalOcean Droplet"
-msgstr ""
-
-#: ../../source/host/server-setup.rst:27
+#: ../../source/host/server-setup.rst:19
 msgid "No need to have expensive hardware on hand to host a domain"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:29
+#: ../../source/host/server-setup.rst:21
 msgid ""
 "Ability to easily re-scale servers, adjusting memory or transfer to "
 "support more or less visitors"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:32
+#: ../../source/host/server-setup.rst:24
 msgid ""
 "A secure environment separate from your personal computer, protecting "
 "yourself from hacking attempts or griefers"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:36
+#: ../../source/host/server-setup.rst:28
 msgid "Ideal for large, public domains for hosting events or open gathering areas"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:27
+#: ../../source/host/server-setup.rst:19
 msgid "Monthly subscription cost"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:28
+#: ../../source/host/server-setup.rst:20
 msgid "Service outages may occur with the cloud provider"
 msgstr ""
 
-#: ../../source/host/server-setup.rst:40
+#: ../../source/host/server-setup.rst:32
 msgid ""
 "Once you've decided what hosting platform to use, you're ready to set it "
 "up:"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:1
-msgid "Host a Domain from a Local or Cloud Linux Server"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:3
@@ -2681,7 +2704,8 @@ msgstr ""
 #: ../../source/host/server-setup/linux-server.md:24
 msgid ""
 "If you do not see your distribution listed here, you may compile your own"
-" server from source using the Vircadia builder."
+" server from source using the [Vircadia "
+"builder](https://github.com/vircadia/vircadia-builder)."
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:26
@@ -2696,280 +2720,212 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:30
 msgid ""
+"For the list of network ports that you will need to open and manage, see "
+"[here](../configure-settings/network-settings)."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:32
+msgid ""
 "Connect a web browser to the server at port 40100. (If you are on the "
 "machine that the server is running on, this would be "
 "http://localhost:40100) Complete the initial setup wizard and you should "
 "have a functioning domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:32
-msgid "Networking"
-msgstr ""
-
 #: ../../source/host/server-setup/linux-server.md:34
-msgid ""
-"A Vircadia domain reserves a range of four ports to operate on, usually "
-"starting at 40100. (Note that the encrypted ports may not be implemented "
-"yet.) These ports are:"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:35
-msgid "40100 (+0) : (tcp) administrative http connection"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:36
-msgid "<del>40101 (+1): (tcp) administrative https (encrypted) connection</dev>"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:37
-msgid "40102 (+2): (udp) main connection from clients"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:38
-msgid "<del>40103 (+3): (udp) main connection from clients (encrypted)</dev>"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:40
-msgid ""
-"Generally speaking, only port 40102 must be publicly exposed to permit "
-"others to connect to a domain."
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:42
-msgid ""
-"In addition there are six \"assignment clients\" that must run in order "
-"for the domain to be operational.  These clients run alongside the domain"
-" server and must be able to connect with any outside user.  These clients"
-" are:"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:43
-msgid "asset-server: stores object data to download to the user"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:44
-msgid "audio-mixer: controls what each user would hear"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:45
-msgid "avatar-mixer: allows users to see each other"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:46
-msgid "entity-script-server: runs actions inside the domain"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:47
-msgid "entity-server: describes the location of each object in the domain"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:48
-msgid "messages-mixer: passes messages between users in the domain"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:50
-msgid ""
-"These assignment clients use UDP connections on a port number assigned by"
-" the operating system at launch (within the ephemeral port range)."
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:52
 msgid "Files"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:54
+#: ../../source/host/server-setup/linux-server.md:36
 msgid "The program files are installed in /opt/vircadia:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:55
-msgid "/opt/vircadia contains the executables"
+#: ../../source/host/server-setup/linux-server.md:37
+msgid "**/opt/vircadia** contains the executables"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:56
-msgid "/opt/vircadia/lib contains libraries required for operation"
+#: ../../source/host/server-setup/linux-server.md:38
+msgid "**/opt/vircadia/lib** contains libraries required for operation"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:57
-msgid "/opt/vircadia/plugins is currently used for audio codecs"
+#: ../../source/host/server-setup/linux-server.md:39
+msgid "**/opt/vircadia/plugins** is currently used for audio codecs"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:58
-msgid "/opt/vircadia/resources is required for the administrative website"
+#: ../../source/host/server-setup/linux-server.md:40
+msgid "**/opt/vircadia/resources** is required for the administrative website"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:60
+#: ../../source/host/server-setup/linux-server.md:42
 msgid ""
 "The executables in this folder (with the exception of <code>new-"
 "server</code>) cannot be launched from the command prompt without first "
 "setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:62
+#: ../../source/host/server-setup/linux-server.md:44
 msgid ""
 "The file <code>/etc/opt/vircadia/default.conf</code> contains any "
 "environment variables necessary to running the domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:64
+#: ../../source/host/server-setup/linux-server.md:46
 msgid ""
-"All content is stored under <code>/var/lib/vircadia/default</code>.  All "
+"All content is stored under <code>/var/lib/vircadia/default</code>. All "
 "files underneath <code>/var/lib/vircadia</code> are owned by the user "
 "<code>vircadia</code>, which is also the user that runs all domain-"
 "related processes."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:66
+#: ../../source/host/server-setup/linux-server.md:48
 msgid "Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:68
+#: ../../source/host/server-setup/linux-server.md:50
 msgid ""
 "The installation packages setup the following systemd services to manage "
 "the Vircadia domain:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:69
-msgid "vircadia-domain-server@default.service: Manages the core domain server"
+#: ../../source/host/server-setup/linux-server.md:51
+msgid "**vircadia-domain-server@default.service**: Manages the core domain server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:70
+#: ../../source/host/server-setup/linux-server.md:52
 msgid ""
-"vircadia-assignment-client@default.service: Spawns and manages the "
+"**vircadia-assignment-client@default.service**: Spawns and manages the "
 "assignment clients"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:71
+#: ../../source/host/server-setup/linux-server.md:53
 msgid ""
-"vircadia-server@default.target: Controls startup and shutdown of the "
+"**vircadia-server@default.target**: Controls startup and shutdown of the "
 "above services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:73
+#: ../../source/host/server-setup/linux-server.md:55
 msgid ""
 "The <code>vircadia-server@default.target</code> service is the only one "
 "that is set to auto-start. Starting or stopping it will bring the other "
 "two services down."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:75
+#: ../../source/host/server-setup/linux-server.md:57
 msgid ""
 "The first two services log a large amount of data to their service "
 "journal. Checking their logs (via <code>systemctl status</code>) is a "
 "good way to ensure they are operating properly."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:77
+#: ../../source/host/server-setup/linux-server.md:59
 msgid "Multiple domains"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:79
+#: ../../source/host/server-setup/linux-server.md:61
 msgid ""
 "The installation package is configured to permit multiple domains to run "
 "on a single server at different port numbers. New servers can be created "
 "using the following command:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:85
+#: ../../source/host/server-setup/linux-server.md:67
 msgid ""
 "where <code>name</code> is a word used to name and manage the domain and "
 "<code>base-port</code> must be the the first of a range of four "
 "contiguous port numbers not overlapping with any other use on the system."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:87
+#: ../../source/host/server-setup/linux-server.md:69
 msgid ""
-"Assuming you created a new server with the name second-bite, this would "
-"setup the following:"
+"Assuming you created a new server with the name **second-bite**, this "
+"would setup the following:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:88
-msgid "Environment variables in <code>/etc/opt/vircadia/second-bite.conf</code>"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:89
-msgid "Content stored in <code>/var/lib/vircadia/second-bite</code>"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:90
+#: ../../source/host/server-setup/linux-server.md:70
 msgid ""
-"Services launched as <code>vircadia-domain-server@second-"
-"bite.service</code>, <code>vircadia-assignment-client@second-"
-"bite.service</code>, and <code>vircadia-server@second-bite.target</code>"
+"Environment variables in <code>/etc/opt/vircadia/**second-"
+"bite**.conf</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:92
+#: ../../source/host/server-setup/linux-server.md:71
+msgid "Content stored in <code>/var/lib/vircadia/**second-bite**</code>"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:72
+msgid ""
+"Services launched as <code>vircadia-domain-server@**second-"
+"bite**.service</code>, <code>vircadia-assignment-client@**second-"
+"bite**.service</code>, and <code>vircadia-server@**second-"
+"bite**.target</code>"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:74
 msgid "Legacy Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:94
+#: ../../source/host/server-setup/linux-server.md:76
 msgid ""
 "There are a number of tweaks that are made to the default configuration "
 "to simplify storage and the ability to run multiple domains on one "
 "server. In case you would like to remove this logic and run the servers "
-"closer to how the original High Fidelity domain servers were running, "
+"closer to how the original *High Fidelity* domain servers were running, "
 "this is provided as an option."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:95
+#: ../../source/host/server-setup/linux-server.md:77
 msgid ""
 "Systemd services named <code>vircadia-domain-server.service</code>, <code"
 ">vircadia-assignment-client.service</code>, and <code>vircadia-"
-"server.target</code> (without the @name) have simplified configuration"
+"server.target</code> *(without the @name)* have simplified configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:96
+#: ../../source/host/server-setup/linux-server.md:78
 msgid "No file is provided to specify environment variables for the server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:97
+#: ../../source/host/server-setup/linux-server.md:79
 msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:2
-msgid ""
-"This document is outdated. FIXME: mentions purchasing domain names, only "
-"mentions DigitalOcean"
+#: ../../source/host/server-setup/windows-server.rst:3
+msgid "Host a Domain Locally on Windows"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:7
-msgid "Host a Domain from a Local Server"
-msgstr ""
-
-#: ../../source/host/server-setup/windows-server.rst:9
+#: ../../source/host/server-setup/windows-server.rst:5
 msgid ""
 "A local server lets you use your own computer to host your virtual domain"
 " on the metaverse."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:11
+#: ../../source/host/server-setup/windows-server.rst:7
 msgid ""
 "Hosting any kind of server from your home means exposing your network to "
 "the world. Therefore, we recommend using local servers only for private "
 "events and small gatherings. If you want to host a public domain or "
-"advertise your domain in the GoTo app, we recommend using a hosting "
-"provider such as DigitalOcean."
+"advertise your domain in the Explore app, we recommend using a cloud "
+"hosting provider such as DigitalOcean."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:18
+#: ../../source/host/server-setup/windows-server.rst:14
 msgid "Set Up Your Server"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:20
+#: ../../source/host/server-setup/windows-server.rst:16
 msgid ""
 "Before you set up a local server, you should have a basic understanding "
 "of computer and networking concepts. Specifically, familiarize yourself "
 "with:"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:22
+#: ../../source/host/server-setup/windows-server.rst:18
 msgid "Your system and hardware configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:23
+#: ../../source/host/server-setup/windows-server.rst:19
 msgid "Your network configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:25
+#: ../../source/host/server-setup/windows-server.rst:21
 msgid ""
 "At a minimum, the computer that you use for your server should meet our "
 "`minimum system requirements <../../explore/get-started/install.html"
@@ -2980,219 +2936,185 @@ msgid ""
 "and network bandwidth."
 msgstr ""
 
+#: ../../source/host/server-setup/windows-server.rst:23
+msgid ""
+"To host a domain on Windows, you must be running Vircadia's open source "
+"`Client + Server <https://vircadia.com/download-vircadia/#windows>`_ "
+"software."
+msgstr ""
+
 #: ../../source/host/server-setup/windows-server.rst:27
-msgid ""
-"To host a domain, you must be running Vircadia's open source `Client + "
-"Sandbox <https://vircadia.com/download-vircadia/#interface>`_ software."
-msgstr ""
-
-#: ../../source/host/server-setup/windows-server.rst:29
-msgid ""
-"While we do not publish an installer for Linux computers, you can still "
-"run a local domain server on a Linux machine. To do so, you will need to "
-"build the application from our code base. For more information, see our "
-"`Linux Build Guide "
-"<https://github.com/vircadia/vircadia/blob/master/BUILD_LINUX.md>`_."
-msgstr ""
-
-#: ../../source/host/server-setup/windows-server.rst:34
 msgid "Create a Domain"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:36
+#: ../../source/host/server-setup/windows-server.rst:29
 msgid "To set up a domain and host it on your local server:"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:38
+#: ../../source/host/server-setup/windows-server.rst:31
 msgid "Open the **Setup Wizard (Domain Server Settings)**."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:40
-msgid ""
-"For Windows: Click on the Vircadia icon in the system tray, then click "
-"'Settings'."
-msgstr ""
-
-#: ../../source/host/server-setup/windows-server.rst:41
-msgid ""
-"For Mac: Right-click the Vircadia icon on the top menu bar, then click "
-"'Settings'."
-msgstr ""
-
-#: ../../source/host/server-setup/windows-server.rst:43
+#: ../../source/host/server-setup/windows-server.rst:36
 msgid ""
 "Follow the steps of the Wizard to create a domain on the metaverse and "
 "connect it to your local server."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:45
+#: ../../source/host/server-setup/windows-server.rst:38
 msgid ""
-"**Step 1: Connect your Vircadia account**: When you connect your account,"
-" you become the owner of the new domain that is created for your server. "
-"The security token that you copy and paste gives Vircadia access to your "
-"domain settings, which are stored on your local server."
+"**Step 1: Connect your Metaverse account**: When you connect your "
+"account, you become the owner of the new domain ID that is created for "
+"your server. The security token that you copy and paste gives the "
+"Metaverse Server access to your domain settings, which are stored on your"
+" local server."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:46
+#: ../../source/host/server-setup/windows-server.rst:39
 msgid ""
-"**Step 2: Identify place name**: Your place name is how users will visit "
-"your domain in the metaverse. By default, you are assigned a temporary "
-"place name for your domain, such as turquoise-bandwidth-8162."
+"**Step 2: Create Place name**: Your Place name is how users will visit "
+"your domain in the metaverse. Alternatively, they can enter your domain's"
+" ID or IP address into the Explore app."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:48
+#: ../../source/host/server-setup/windows-server.rst:41
 msgid ""
-"Your temporary place name is only active while your domain is being "
-"staged. Permanant place names can be purchased on a subscription basis, "
-"and are renewed yearly. :doc:`Learn how to purchase a custom place name "
-"for your domain <../configure-settings/place-setting>`."
+"Learn :doc:`how to configure a Place name <../configure-settings/place-"
+"setting>`."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:50
+#: ../../source/host/server-setup/windows-server.rst:43
 msgid ""
 "**Step 3: Set up basic permissions**: By default, anyone logged on to "
-"your computer will have access to the domain settings for your domain. If"
-" you would like to extend administrator privileges to remote users (or "
-"allow yourself access from a remote location), then add the Vircadia "
-"usernames here. In addition, choose who will be able to connect or rez "
-"items."
+"your computer will have full access to your domain. If you would like to "
+"extend administrator privileges to remote users (or allow yourself access"
+" from a remote location), then add the Vircadia Metaverse usernames here."
+" In addition, choose who will be able to connect or rez items."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:51
+#: ../../source/host/server-setup/windows-server.rst:44
 msgid ""
 "Click **Finish** to close the Setup Wizard. You will automatically be "
 "redirected to the Domain Settings for your domain."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:53
+#: ../../source/host/server-setup/windows-server.rst:46
 msgid ""
 "At this point, you have staged a domain in the metaverse and connected it"
 " to your server. However, it is not yet \"live\", meaning that it exists "
 "only as a temporary or \"draft\" domain in the metaverse."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:57
+#: ../../source/host/server-setup/windows-server.rst:50
 msgid "Activate Your Domain"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:59
+#: ../../source/host/server-setup/windows-server.rst:52
 msgid "To activate your domain:"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:61
+#: ../../source/host/server-setup/windows-server.rst:54
 msgid ""
 "Return to the Domain Settings for your domain. If it isn't open, open a "
 "browser window and type http://localhost:40100/settings/ into the URL "
 "bar."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:62
+#: ../../source/host/server-setup/windows-server.rst:55
 msgid "Click 'Advanced Settings' under **Metaverse/Networking**."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:63
+#: ../../source/host/server-setup/windows-server.rst:56
 msgid "Click the 'Create new domain ID' button."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:65
+#: ../../source/host/server-setup/windows-server.rst:58
 msgid ""
 "This will assign your domain with a permanent, unique identification code"
-" that registers it in the metaverse. Your temporary place name will no "
-"longer work, and your domain is accessible through its purchased place "
-"name or your server's IP address."
+" that registers it in the metaverse. Your domain will now be accessible "
+"through the Place name or your server's IP address."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:67
+#: ../../source/host/server-setup/windows-server.rst:60
 msgid ""
-"If you did not purchase a permanent place name, the only way to access "
-"your domain is by your server's IP address. However, note that when your "
-"IP address changes, so too will the address of your domain and you will "
-"need to manually restart your domain each time you change networks. "
-"Therefore, if you are hosting your domain on a laptop or on a computer "
-"with a frequently changing IP address, we strongly recommend that you "
-"purchase a permanent place name for your domain. :doc:`Learn how to "
-"purchase a custom place name for your domain <../configure-settings"
-"/place-setting>`."
+"If you did not assign a Place name, the only way to access your domain is"
+" by your server's IP address. However, note that when your IP address "
+"changes, so too will the address of your domain. Therefore, if you are "
+"hosting your domain on a laptop or on a computer with a frequently "
+"changing IP address, we strongly recommend that you configure a Place "
+"name for your domain. Learn :doc:`how to configure a Place name "
+"<../configure-settings/place-setting>`."
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:69
+#: ../../source/host/server-setup/windows-server.rst:62
 msgid "Now, your domain is officially part of the expanding metaverse!"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:73
+#: ../../source/host/server-setup/windows-server.rst:66
 msgid "What's Next?"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:78
+#: ../../source/host/server-setup/windows-server.rst:71
 msgid "Visit Your Domain"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:78
+#: ../../source/host/server-setup/windows-server.rst:71
 msgid "Personalize Your Content"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:78
+#: ../../source/host/server-setup/windows-server.rst:71
 msgid "Configure More Settings"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:80
+#: ../../source/host/server-setup/windows-server.rst:73
 msgid ""
 "`Go visit your domain using the Explore app <../../explore/travel.html"
 "#goto-app>`_"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:82
+#: ../../source/host/server-setup/windows-server.rst:75
 msgid "`Invite people to your domain <../invite-us ers.html>`_"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:84
+#: ../../source/host/server-setup/windows-server.rst:77
 msgid ":doc:`Meet new people and explore other domains <../../explore/socialize>`"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:80
+#: ../../source/host/server-setup/windows-server.rst:73
 msgid ""
 "`Create a unique content set and upload it to your domain <../add-"
 "content.html>`_"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:80
-msgid ""
-"`Purchase a custom place name <../configure -settings/place-"
-"setting.html>`_"
+#: ../../source/host/server-setup/windows-server.rst:73
+msgid "`Create a Place name <../configure-settings /place-setting.html>`_"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:82
+#: ../../source/host/server-setup/windows-server.rst:75
 msgid ""
 "`Set additional user permissions <../config ure-settings/permission-"
 "settings.html>`_"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:84
+#: ../../source/host/server-setup/windows-server.rst:77
 msgid "`Adjust audio settings <../configure-settin gs/audio-settings.html>`_"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:86
+#: ../../source/host/server-setup/windows-server.rst:79
 msgid "`Backup your domain's content <../maintain- domain/backup-domain.html>`_"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:88
+#: ../../source/host/server-setup/windows-server.rst:81
 msgid ""
 "`Update for new Vircadia releases <../maintain-domain/update-"
 "software.html>`_"
 msgstr ""
 
-#: ../../source/host/server-setup/windows-server.rst:90
+#: ../../source/host/server-setup/windows-server.rst:83
 msgid "And more..."
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:2
-msgid ""
-"This document is outdated. FIXME: mentions Sandbox (which is now called "
-"Vircadia Server), links to High Fidelity download page, only mentions "
-"DigitalOcean as cloud provider"
-msgstr ""
-
-#: ../../source/host/start-hosting.rst:9
+#: ../../source/host/start-hosting.rst:5
 msgid ""
 "We are thrilled you've decided to host a custom domain with us on the "
 "metaverse! We also understand that setting up a server, configuring it, "
@@ -3202,85 +3124,80 @@ msgid ""
 "part of building a bigger, more expansive metaverse."
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:16
+#: ../../source/host/start-hosting.rst:12
 msgid "Overview of Hosting"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:18
+#: ../../source/host/start-hosting.rst:14
 msgid ""
 "Vircadia's hosting interface consists of the following components that "
 "work together to create an immersive VR experience for your visitors:"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:20
+#: ../../source/host/start-hosting.rst:16
 msgid ""
-"The *Sandbox* is a testing environment hosted locally on your computer "
-"that gives you a space to play around and build content without affecting"
-" any domains in the metaverse. Note that it is possible to configure "
-"Vircadia so that your Sandbox is also a registered domain that is hosted "
-"directly from your local computer. The Sandbox application can be "
-"download from the `Vircadia website "
-"<https://www.highfidelity.com/download#sandbox>`_."
+"The *Domain Server* is a virtual world that gives you a space to build "
+"content in."
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:21
+#: ../../source/host/start-hosting.rst:17
 msgid ""
-"A *domain* is a registered location in the metaverse. Each domain is "
-"assigned a unique ID to identify it. You can sign up for a new domain in "
-"one of two ways: either by setting up a Vircadia server or by logging "
-"into your account via the Vircadia website."
+"A *domain* is a server in the metaverse. Each domain is assigned a unique"
+" ID to identify it. You can connect your domain to the Vircadia Metaverse"
+" Server by logging into your account on the Vircadia website."
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:22
+#: ../../source/host/start-hosting.rst:18
+msgid ""
+"A *place* is a registered location in the metaverse. A place is connected"
+" to a domain; you can create multiple places per domain."
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:19
 msgid ""
 "A *server* hosts a domain, and processes incoming network requests for "
 "the domain. The server for your domain is either a physical computer or a"
-" cloud-hosted server."
+" cloud-hosted server such as one provided by DigitalOcean, Linode, AWS, "
+"and so on."
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:23
-msgid "A *droplet* or *cloud domain* is a cloud server hosted on DigitalOcean."
+#: ../../source/host/start-hosting.rst:20
+msgid "A *content set* is the content that you've added to your world."
 msgstr ""
 
 #: ../../source/host/start-hosting.rst:24
-msgid ""
-"A *content set* is the content that you've designed to make your domain "
-"unique and pretty."
-msgstr ""
-
-#: ../../source/host/start-hosting.rst:28
 msgid "The Hosting Process"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:30
+#: ../../source/host/start-hosting.rst:26
 msgid ""
 "Here is an overview of the steps you'll need to take to host your domain "
 "up and running on the metaverse:"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:32
+#: ../../source/host/start-hosting.rst:28
 msgid ""
-":doc:`Choose your hosting platform <start-hosting>` (local server, remote"
-" server, or cloud services)"
+":doc:`Choose your hosting platform <start-hosting>` (local server or "
+"cloud server)"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:33
+#: ../../source/host/start-hosting.rst:29
 msgid ":doc:`Set up your server and create your domain <server-setup>`"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:34
+#: ../../source/host/start-hosting.rst:30
 msgid ":doc:`Add content to your domain <add-content>`"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:35
+#: ../../source/host/start-hosting.rst:31
 msgid ":doc:`Set up user permissions <configure-settings/permission-settings>`"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:36
+#: ../../source/host/start-hosting.rst:32
 msgid ":doc:`Invite users to your domain <invite-users>`"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:38
+#: ../../source/host/start-hosting.rst:34
 msgid ""
 "Once your domain is running, we'll cover how to :doc:`configure your "
 "domain settings <configure-settings>`, from the most basic to the more "
@@ -3955,5 +3872,470 @@ msgstr ""
 #~ "using the package. Packages are "
 #~ "currently available for the following "
 #~ "distributions:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is outdated. FIXME: "
+#~ "mentions High Fidelity, mentions purchasing"
+#~ " domain names, only mentions DigitalOcean"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Changing any network settings will "
+#~ "affect how High Fidelity's servers "
+#~ "connects to your domain. Before making"
+#~ " any changes to the settings, ensure"
+#~ " that you have a basic understanding"
+#~ " of networking concepts (IP, UDP, "
+#~ "ports, etc) as changing these settings"
+#~ " can impact visitors or (if you're"
+#~ " running a local server) put your "
+#~ "system at risk."
+#~ msgstr ""
+
+#~ msgid "Linked High Fidelity Account"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Every domain is linked to one High"
+#~ " Fidelity account, who is the owner"
+#~ " of that domain. When you link "
+#~ "your account, an OAuth access token "
+#~ "is created and grants your account "
+#~ "access to modify domain settings, and"
+#~ " access groups necessary for domain "
+#~ "operations. In addition, you can access"
+#~ " your account-specific settings and "
+#~ "purchases, such as place names."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The status of your linked High "
+#~ "Fidelity account is reflected at the "
+#~ "top of the Metaverse/Networking section "
+#~ "of the domain settings. You can "
+#~ "also view your access token on "
+#~ "this page (under 'Advanced Options')."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Do not change any network settings "
+#~ "for cloud hosted domains. These are "
+#~ "configured as part of the automatic "
+#~ "setup process that occurs when you "
+#~ "purchase a DigitalOcean droplet through "
+#~ "High Fidelity. Changing any of these "
+#~ "network settings may cause your cloud"
+#~ " hosted domain to not work as "
+#~ "intended."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Each domain on the metaverse is "
+#~ "assigned a unique domain ID. High "
+#~ "Fidelity uses this ID to track "
+#~ "where certified Marketplace items are "
+#~ "rezz'd, to link domains to place "
+#~ "names, to identify domain owners and "
+#~ "more."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Do not change the domain ID for"
+#~ " cloud hosted domains. This is "
+#~ "assigned to your domain when you "
+#~ "purchase a DigitalOcean droplet through "
+#~ "High Fidelity, and changing it may "
+#~ "result in errors on your domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When 'Enable Packet Verification' is "
+#~ "turned on, High Fidelity sends secure"
+#~ " checksums on communications that use "
+#~ "the High Fidelity protocols. This "
+#~ "increases security in your domain, but"
+#~ " may slightly decrease domain performance"
+#~ " for your visitors."
+#~ msgstr ""
+
+#~ msgid "To update a local server on Windows or Mac:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On Mac: Right-click the Vircadia "
+#~ "icon on the top menu bar, then "
+#~ "click 'Quit'."
+#~ msgstr ""
+
+#~ msgid "Host a Domain from a Local, Remote, *or* Cloud Linux Server"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is outdated. FIXME: we "
+#~ "do not have a partnership with "
+#~ "DigitalOcean"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Depending on your requirements, you can"
+#~ " host your domain on a physical "
+#~ "computer (by turning it into a "
+#~ "local server) or on cloud servers. "
+#~ "In general, we recommend using local "
+#~ "servers for private events and "
+#~ "gatherings, and cloud services for "
+#~ "larger public venues. To help with "
+#~ "hosting your domains, we have a "
+#~ "partnership with DigitalOcean to provide "
+#~ "affordable, integrated cloud domain services"
+#~ " for your use."
+#~ msgstr ""
+
+#~ msgid "Responsible for security and maintenance of your server"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Requires manual installation and configuration"
+#~ " of Vircadia's Sandbox and domain"
+#~ msgstr ""
+
+#~ msgid "DigitalOcean Droplet"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you do not see your "
+#~ "distribution listed here, you may "
+#~ "compile your own server from source "
+#~ "using the Vircadia builder."
+#~ msgstr ""
+
+#~ msgid "Networking"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A Vircadia domain reserves a range "
+#~ "of four ports to operate on, "
+#~ "usually starting at 40100. (Note that"
+#~ " the encrypted ports may not be "
+#~ "implemented yet.) These ports are:"
+#~ msgstr ""
+
+#~ msgid "40100 (+0) : (tcp) administrative http connection"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<del>40101 (+1): (tcp) administrative https"
+#~ " (encrypted) connection</dev>"
+#~ msgstr ""
+
+#~ msgid "<del>40103 (+3): (udp) main connection from clients (encrypted)</dev>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Generally speaking, only port 40102 must"
+#~ " be publicly exposed to permit others"
+#~ " to connect to a domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In addition there are six \"assignment"
+#~ " clients\" that must run in order "
+#~ "for the domain to be operational.  "
+#~ "These clients run alongside the domain"
+#~ " server and must be able to "
+#~ "connect with any outside user.  These"
+#~ " clients are:"
+#~ msgstr ""
+
+#~ msgid "asset-server: stores object data to download to the user"
+#~ msgstr ""
+
+#~ msgid "audio-mixer: controls what each user would hear"
+#~ msgstr ""
+
+#~ msgid "avatar-mixer: allows users to see each other"
+#~ msgstr ""
+
+#~ msgid "entity-script-server: runs actions inside the domain"
+#~ msgstr ""
+
+#~ msgid "entity-server: describes the location of each object in the domain"
+#~ msgstr ""
+
+#~ msgid "messages-mixer: passes messages between users in the domain"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "These assignment clients use UDP "
+#~ "connections on a port number assigned"
+#~ " by the operating system at launch"
+#~ " (within the ephemeral port range)."
+#~ msgstr ""
+
+#~ msgid "/opt/vircadia contains the executables"
+#~ msgstr ""
+
+#~ msgid "/opt/vircadia/lib contains libraries required for operation"
+#~ msgstr ""
+
+#~ msgid "/opt/vircadia/plugins is currently used for audio codecs"
+#~ msgstr ""
+
+#~ msgid "/opt/vircadia/resources is required for the administrative website"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All content is stored under "
+#~ "<code>/var/lib/vircadia/default</code>.  All files "
+#~ "underneath <code>/var/lib/vircadia</code> are owned"
+#~ " by the user <code>vircadia</code>, which"
+#~ " is also the user that runs all"
+#~ " domain-related processes."
+#~ msgstr ""
+
+#~ msgid "vircadia-domain-server@default.service: Manages the core domain server"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "vircadia-assignment-client@default.service: Spawns"
+#~ " and manages the assignment clients"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "vircadia-server@default.target: Controls startup "
+#~ "and shutdown of the above services"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Assuming you created a new server "
+#~ "with the name second-bite, this "
+#~ "would setup the following:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Environment variables in <code>/etc/opt/vircadia"
+#~ "/second-bite.conf</code>"
+#~ msgstr ""
+
+#~ msgid "Content stored in <code>/var/lib/vircadia/second-bite</code>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Services launched as <code>vircadia-domain-"
+#~ "server@second-bite.service</code>, <code>vircadia-"
+#~ "assignment-client@second-bite.service</code>, and "
+#~ "<code>vircadia-server@second-bite.target</code>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are a number of tweaks that"
+#~ " are made to the default "
+#~ "configuration to simplify storage and "
+#~ "the ability to run multiple domains "
+#~ "on one server. In case you would"
+#~ " like to remove this logic and "
+#~ "run the servers closer to how the"
+#~ " original High Fidelity domain servers "
+#~ "were running, this is provided as "
+#~ "an option."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Systemd services named <code>vircadia-"
+#~ "domain-server.service</code>, <code>vircadia-"
+#~ "assignment-client.service</code>, and <code"
+#~ ">vircadia-server.target</code> (without the "
+#~ "@name) have simplified configuration"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is outdated. FIXME: "
+#~ "mentions purchasing domain names, only "
+#~ "mentions DigitalOcean"
+#~ msgstr ""
+
+#~ msgid "Host a Domain from a Local Server"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Hosting any kind of server from "
+#~ "your home means exposing your network"
+#~ " to the world. Therefore, we "
+#~ "recommend using local servers only for"
+#~ " private events and small gatherings. "
+#~ "If you want to host a public "
+#~ "domain or advertise your domain in "
+#~ "the GoTo app, we recommend using a"
+#~ " hosting provider such as DigitalOcean."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To host a domain, you must be "
+#~ "running Vircadia's open source `Client +"
+#~ " Sandbox <https://vircadia.com/download-"
+#~ "vircadia/#interface>`_ software."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While we do not publish an "
+#~ "installer for Linux computers, you can"
+#~ " still run a local domain server "
+#~ "on a Linux machine. To do so, "
+#~ "you will need to build the "
+#~ "application from our code base. For "
+#~ "more information, see our `Linux Build"
+#~ " Guide "
+#~ "<https://github.com/vircadia/vircadia/blob/master/BUILD_LINUX.md>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For Windows: Click on the Vircadia "
+#~ "icon in the system tray, then "
+#~ "click 'Settings'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For Mac: Right-click the Vircadia "
+#~ "icon on the top menu bar, then "
+#~ "click 'Settings'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Step 1: Connect your Vircadia "
+#~ "account**: When you connect your "
+#~ "account, you become the owner of "
+#~ "the new domain that is created for"
+#~ " your server. The security token that"
+#~ " you copy and paste gives Vircadia"
+#~ " access to your domain settings, "
+#~ "which are stored on your local "
+#~ "server."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Step 2: Identify place name**: Your"
+#~ " place name is how users will "
+#~ "visit your domain in the metaverse. "
+#~ "By default, you are assigned a "
+#~ "temporary place name for your domain,"
+#~ " such as turquoise-bandwidth-8162."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your temporary place name is only "
+#~ "active while your domain is being "
+#~ "staged. Permanant place names can be "
+#~ "purchased on a subscription basis, and"
+#~ " are renewed yearly. :doc:`Learn how "
+#~ "to purchase a custom place name "
+#~ "for your domain <../configure-settings"
+#~ "/place-setting>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Step 3: Set up basic permissions**:"
+#~ " By default, anyone logged on to "
+#~ "your computer will have access to "
+#~ "the domain settings for your domain. "
+#~ "If you would like to extend "
+#~ "administrator privileges to remote users "
+#~ "(or allow yourself access from a "
+#~ "remote location), then add the Vircadia"
+#~ " usernames here. In addition, choose "
+#~ "who will be able to connect or "
+#~ "rez items."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This will assign your domain with "
+#~ "a permanent, unique identification code "
+#~ "that registers it in the metaverse. "
+#~ "Your temporary place name will no "
+#~ "longer work, and your domain is "
+#~ "accessible through its purchased place "
+#~ "name or your server's IP address."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you did not purchase a "
+#~ "permanent place name, the only way "
+#~ "to access your domain is by your"
+#~ " server's IP address. However, note "
+#~ "that when your IP address changes, "
+#~ "so too will the address of your"
+#~ " domain and you will need to "
+#~ "manually restart your domain each time"
+#~ " you change networks. Therefore, if "
+#~ "you are hosting your domain on a"
+#~ " laptop or on a computer with a"
+#~ " frequently changing IP address, we "
+#~ "strongly recommend that you purchase a"
+#~ " permanent place name for your "
+#~ "domain. :doc:`Learn how to purchase a"
+#~ " custom place name for your domain"
+#~ " <../configure-settings/place-setting>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Purchase a custom place name "
+#~ "<../configure -settings/place-setting.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is outdated. FIXME: "
+#~ "mentions Sandbox (which is now called"
+#~ " Vircadia Server), links to High "
+#~ "Fidelity download page, only mentions "
+#~ "DigitalOcean as cloud provider"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *Sandbox* is a testing environment"
+#~ " hosted locally on your computer that"
+#~ " gives you a space to play "
+#~ "around and build content without "
+#~ "affecting any domains in the metaverse."
+#~ " Note that it is possible to "
+#~ "configure Vircadia so that your Sandbox"
+#~ " is also a registered domain that "
+#~ "is hosted directly from your local "
+#~ "computer. The Sandbox application can be"
+#~ " download from the `Vircadia website "
+#~ "<https://www.highfidelity.com/download#sandbox>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A *domain* is a registered location "
+#~ "in the metaverse. Each domain is "
+#~ "assigned a unique ID to identify "
+#~ "it. You can sign up for a "
+#~ "new domain in one of two ways: "
+#~ "either by setting up a Vircadia "
+#~ "server or by logging into your "
+#~ "account via the Vircadia website."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A *server* hosts a domain, and "
+#~ "processes incoming network requests for "
+#~ "the domain. The server for your "
+#~ "domain is either a physical computer "
+#~ "or a cloud-hosted server."
+#~ msgstr ""
+
+#~ msgid "A *droplet* or *cloud domain* is a cloud server hosted on DigitalOcean."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A *content set* is the content "
+#~ "that you've designed to make your "
+#~ "domain unique and pretty."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":doc:`Choose your hosting platform <start-"
+#~ "hosting>` (local server, remote server, "
+#~ "or cloud services)"
 #~ msgstr ""
 

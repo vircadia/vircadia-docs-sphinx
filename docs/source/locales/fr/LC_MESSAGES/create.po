@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-03-10 23:39+0000\n"
+"POT-Creation-Date: 2021-05-02 08:26+0000\n"
 "PO-Revision-Date: 2021-01-31 20:19+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language: fr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 msgid "Create Tools"
@@ -36,8 +36,8 @@ msgstr "Vêtements"
 msgid "Entities"
 msgstr "Entités"
 
-#: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:53
-#: ../../source/create/3d-models/get-model.rst:58
+#: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:54
+#: ../../source/create/3d-models/get-model.rst:59
 #: ../../source/create/materials.rst:3
 msgid "Materials"
 msgstr "Matériaux"
@@ -93,18 +93,16 @@ msgstr ""
 "la vie à votre propre expérience VR:"
 
 #: ../../source/create/3d-models.rst:11
-#: ../../source/create/3d-models/get-model.rst:7
-#: ../../source/create/wearables.md:43
+#: ../../source/create/3d-models/get-model.rst:3
 msgid "Get Your 3D Model"
 msgstr "Obtenir vos Modèles 3D"
 
 #: ../../source/create/3d-models.rst:11
-#: ../../source/create/entities/create-entities.md:41
 msgid "Import Your 3D Model"
 msgstr "Importer vos Modèles 3D"
 
 #: ../../source/create/3d-models.rst:11
-#: ../../source/create/3d-models/pbr-materials-guide.rst:7
+#: ../../source/create/3d-models/pbr-materials-guide.rst:5
 msgid "PBR Materials Guide"
 msgstr "Guide pour Matériaux PBR"
 
@@ -114,7 +112,7 @@ msgid "Procedural Shaders for Models and Avatars"
 msgstr "Nuanceurs Procéduraux pour Modèles et Avatars"
 
 #: ../../source/create/3d-models.rst:11
-#: ../../source/create/3d-models/import-animations.rst:7
+#: ../../source/create/3d-models/import-animations.rst:3
 msgid "Import Animations"
 msgstr "Import d'Animations"
 
@@ -150,13 +148,7 @@ msgstr ""
 msgid "**In This Section:**"
 msgstr "**Dans Cette Rubrique:**"
 
-#: ../../source/create/3d-models/get-model.rst:2
-msgid ""
-"This document is slightly outdated. FIXME: Mentions High Fidelity, could "
-"use slightly more \"Best Practices\""
-msgstr ""
-
-#: ../../source/create/3d-models/get-model.rst:9
+#: ../../source/create/3d-models/get-model.rst:5
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Vircadia."
@@ -164,10 +156,10 @@ msgstr ""
 "Tous les modèles 3D doivent être dans le format FBX, glTF ou OBJ et avec "
 "des matériaux supportés par Vircadia."
 
-#: ../../source/create/3d-models/get-model.rst:12
-#: ../../source/create/3d-models/import-animations.rst:12
+#: ../../source/create/3d-models/get-model.rst:8
+#: ../../source/create/3d-models/import-animations.rst:8
 #: ../../source/create/3d-models/import-model.rst:8
-#: ../../source/create/3d-models/pbr-materials-guide.rst:12
+#: ../../source/create/3d-models/pbr-materials-guide.rst:11
 #: ../../source/create/avatars/add-flow.rst:12
 #: ../../source/create/avatars/create-avatars.rst:20
 #: ../../source/create/avatars/custom-animations.rst:14
@@ -188,11 +180,11 @@ msgstr ""
 msgid "On This Page"
 msgstr "Sur Cette Page"
 
-#: ../../source/create/3d-models/get-model.rst:16
+#: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
 msgstr "Obtenir vos Modèles 3D par des Sites de Vente pour Contenu 3D"
 
-#: ../../source/create/3d-models/get-model.rst:18
+#: ../../source/create/3d-models/get-model.rst:14
 msgid ""
 "There are many online 3D content websites that contain models that you "
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
@@ -201,30 +193,27 @@ msgstr ""
 "Il y a beaucoup de sites de vente pour contenu 3D qui contiennent des "
 "modèles que vous pouvez acheter ou obtenir gratuitement."
 
-#: ../../source/create/3d-models/get-model.rst:20
+#: ../../source/create/3d-models/get-model.rst:17
 msgid ""
 "**Check Licensing Terms:** Make sure you check a model's licensing terms "
 "before you use it. It is your responsibility to ensure that you have "
-"sufficient rights to use the content. When you make a 3D model available "
-"on your Vircadia server, visitors are getting the links to those files in"
-" the same way as they would when viewing an image on a website. You "
-"should be comfortable that you have the rights to re-distribute the 3D "
-"content."
+"sufficient rights to use the content."
 msgstr ""
-"**Consultez les conditions de licence:** Assurez vous de consulter les "
-"conditions de licence du modèle avant de l'utiliser. Il est de votre "
-"résponsabilité de vous assurer que vous avez des droits suffisants "
-"d'utiliser le contenu. Quand vous mettez à disposition un modèle 3D sur "
-"un Vircadia serveur les visiteurs reçoivent le lien à ces fichiers de la "
-"même manière que si ils regardaient une image sur un site web. Vous devez"
-" vous sentir réassurré d'avoir le droit de redistribuer le contenu 3D."
 
-#: ../../source/create/3d-models/get-model.rst:21
+#: ../../source/create/3d-models/get-model.rst:17
+msgid ""
+"When you make a 3D model available on your Vircadia server, visitors are "
+"getting the links to those files in the same way as they would when "
+"viewing an image on a website. You should be comfortable that you have "
+"the rights to re-distribute the 3D content."
+msgstr ""
+
+#: ../../source/create/3d-models/get-model.rst:20
+#, fuzzy
 msgid ""
 "**Check Materials:** You might find that the model may be missing its "
 "textures. If that happens, first check to see if the textures are "
-"included. If a model loads into Vircadia and doesn't look right, you may "
-"also find error information in the Interface logs."
+"included."
 msgstr ""
 "**Testez les materiaux:** Il est possible que vous découvrez que les "
 "textures du modèle sont manquantes. Dans ce cas vérifiez d'abord que les "
@@ -232,11 +221,18 @@ msgstr ""
 "l'aire juste, plus d'informations sont peut-être disponibles dans le log "
 "de l'Interface."
 
-#: ../../source/create/3d-models/get-model.rst:25
+#: ../../source/create/3d-models/get-model.rst:20
+msgid ""
+"If a model loads into Vircadia and doesn't look right, you may also find "
+"error information in the Interface logs. See `Where do I find the "
+"Interface log files? <../../faq.html#interface-log-files>`_"
+msgstr ""
+
+#: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
 msgstr "Créer vos propres modèles 3D"
 
-#: ../../source/create/3d-models/get-model.rst:27
+#: ../../source/create/3d-models/get-model.rst:26
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
@@ -244,11 +240,11 @@ msgstr ""
 "Vous pouvez créer vos propres modèles 3D en utilisant des logiciels de "
 "modélisation 3D comme Blender ou Maya."
 
-#: ../../source/create/3d-models/get-model.rst:29
+#: ../../source/create/3d-models/get-model.rst:28
 msgid "The 3D model is in the FBX, glTF or OBJ format."
 msgstr "Le modèle est dans le format FBX, glTF ou OBJ."
 
-#: ../../source/create/3d-models/get-model.rst:30
+#: ../../source/create/3d-models/get-model.rst:29
 msgid ""
 "The 3D model materials are supported by Vircadia. Use our :doc:`materials"
 " guide <pbr-materials-guide>` to make sure that your materials load "
@@ -258,19 +254,20 @@ msgstr ""
 ":doc:`materials guide <pbr-materials-guide>` pour vous assurer que vos "
 "matériaux chargent correctement."
 
-#: ../../source/create/3d-models/get-model.rst:34
+#: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
 msgstr "Meilleures Pratiques"
 
-#: ../../source/create/3d-models/get-model.rst:36
+#: ../../source/create/3d-models/get-model.rst:35
+#, fuzzy
 msgid ""
-"Making 3D models for High Fidelity (and VR) is different than making "
-"models for films, videos, and games."
+"Making 3D models for Vircadia (and VR) is different than making models "
+"for films, videos, and games."
 msgstr ""
 "Créer des modèles pour Vircadia (ou pour VR) est différent que créer des "
 "modèles pour films, vidéos ou jeux."
 
-#: ../../source/create/3d-models/get-model.rst:38
+#: ../../source/create/3d-models/get-model.rst:37
 msgid ""
 "3D models for VR are rendered twice (for both right and left eyes): This "
 "means that the number of polygons on your model and the number of "
@@ -281,11 +278,13 @@ msgstr ""
 "polygones sur votre modèle et le nombre de matériaux que vous utilisés "
 "vont affecter la performance."
 
-#: ../../source/create/3d-models/get-model.rst:39
+#: ../../source/create/3d-models/get-model.rst:38
+#, fuzzy
 msgid ""
-"Most VR headsets run at 90Hz: You’ll have to keep your framerate at 90fps"
-" and be cautious about your model’s size. Models that are too big or very"
-" complex can slow down the framerate and make people feel nauseous."
+"Most VR headsets run at 90Hz or higher: You’ll have to keep your "
+"framerate at 90fps and be cautious about your model’s size. Models that "
+"are too big or very complex can slow down the framerate and make people "
+"feel nauseous."
 msgstr ""
 "La plupart des casques VR fonctionnent à 90Hz: vous allez devoir "
 "maintenir la fréquence d'images à 90Hz et être prudent avec la taille du "
@@ -293,7 +292,7 @@ msgstr ""
 "sont trop compliqués peuvent ralentir la fréquence d'images et causer des"
 " nausées aux porteurs de casque VR."
 
-#: ../../source/create/3d-models/get-model.rst:41
+#: ../../source/create/3d-models/get-model.rst:40
 msgid ""
 "We've listed the best practices for creating 3D models for Vircadia (and "
 "VR)."
@@ -301,8 +300,8 @@ msgstr ""
 "Nous avons répertorié les meilleures pratiques pour créer des modèles 3D "
 "pour Vircadia (et pour VR)."
 
-#: ../../source/create/3d-models/get-model.rst:44
-#: ../../source/create/3d-models/import-animations.rst:47
+#: ../../source/create/3d-models/get-model.rst:43
+#: ../../source/create/3d-models/import-animations.rst:43
 #: ../../source/create/entities/create-fountain.rst:35
 #: ../../source/create/entities/zone-entity.rst:18
 #: ../../source/create/entities/zone-entity.rst:60
@@ -312,18 +311,20 @@ msgstr ""
 msgid "Property"
 msgstr "Propriété"
 
-#: ../../source/create/3d-models/get-model.rst:44
+#: ../../source/create/3d-models/get-model.rst:43
 msgid "Best Practice"
 msgstr "Meilleures pratiques"
 
-#: ../../source/create/3d-models/get-model.rst:46
+#: ../../source/create/3d-models/get-model.rst:45
 msgid "Polycount"
 msgstr "Nombre de polygones"
 
-#: ../../source/create/3d-models/get-model.rst:46
+#: ../../source/create/3d-models/get-model.rst:45
+#, fuzzy
 msgid ""
 "Your count should resemble that of a model for a tablet game, not too "
-"high, but not too low either."
+"high, but not too low either. For example 50000 Polygons should be more "
+"than enough for a detailed avatar."
 msgstr ""
 "Le nombre idéal devrait être aux alentours d'un modèle fait pour un jeux "
 "sur tablet, pas trop haut, mais pas trop bas non plus."
@@ -341,12 +342,15 @@ msgid "Mesh"
 msgstr "Maillage"
 
 #: ../../source/create/3d-models/get-model.rst:51
-msgid "Clean the mesh to make sure there are no N-gons and no coplanar faces."
+#, fuzzy
+msgid ""
+"Clean the mesh to make sure there are no N-gons and no coplanar faces. "
+"Any good 3D modelling software should do this on export."
 msgstr ""
 "Nettoyer le maillage pour s'assurer qu'il ne contient pas de N-gons et de"
 " faces coplanar."
 
-#: ../../source/create/3d-models/get-model.rst:53
+#: ../../source/create/3d-models/get-model.rst:54
 msgid ""
 "Always try to create Atlas maps. When every piece of your content shares "
 "the same material and UV space, it is an Atlas map. For example, if you "
@@ -359,22 +363,24 @@ msgstr ""
 "devraient partager une texture UV au lieu d'attribuer à ses mains, pieds "
 "ou visage des matériaux et textures UV séparées."
 
-#: ../../source/create/3d-models/get-model.rst:58
-msgid "High Fidelity’s engine only supports one UV mapping per material."
+#: ../../source/create/3d-models/get-model.rst:59
+#, fuzzy
+msgid "Vircadia’s engine only supports one UV mapping per material."
 msgstr "L'engin Vircadia supporte seulement une texture UV par materiau."
 
-#: ../../source/create/3d-models/get-model.rst:60
-#: ../../source/create/3d-models/get-model.rst:63
-#: ../../source/create/3d-models/get-model.rst:65
-#: ../../source/create/3d-models/get-model.rst:68
-#: ../../source/create/3d-models/get-model.rst:71
-#: ../../source/create/3d-models/get-model.rst:73
-#: ../../source/create/3d-models/pbr-materials-guide.rst:26
+#: ../../source/create/3d-models/get-model.rst:61
+#: ../../source/create/3d-models/get-model.rst:64
+#: ../../source/create/3d-models/get-model.rst:66
+#: ../../source/create/3d-models/get-model.rst:69
+#: ../../source/create/3d-models/get-model.rst:72
+#: ../../source/create/3d-models/get-model.rst:74
+#: ../../source/create/3d-models/get-model.rst:77
+#: ../../source/create/3d-models/pbr-materials-guide.rst:27
 #: ../../source/create/avatars/avatar-standards.md:172
 msgid "Textures"
 msgstr "Textures"
 
-#: ../../source/create/3d-models/get-model.rst:60
+#: ../../source/create/3d-models/get-model.rst:61
 msgid ""
 "PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
 " TIFF formats."
@@ -382,13 +388,13 @@ msgstr ""
 "PNG, JPEG et JPG sont recommandés, mais nous supportons aussi les formats"
 " TGA, TIF et TIFF."
 
-#: ../../source/create/3d-models/get-model.rst:63
+#: ../../source/create/3d-models/get-model.rst:64
 msgid "Choose the color types wisely to minimize the size of the final file."
 msgstr ""
 "Choisissez précautionneusement les formats image afin de minimiser la "
 "grandeur du fichier final."
 
-#: ../../source/create/3d-models/get-model.rst:65
+#: ../../source/create/3d-models/get-model.rst:66
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
@@ -397,7 +403,7 @@ msgstr ""
 "couleurs, comme GIF), et peut être utiliser pour masquer de la "
 "transparence."
 
-#: ../../source/create/3d-models/get-model.rst:68
+#: ../../source/create/3d-models/get-model.rst:69
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
@@ -405,114 +411,131 @@ msgstr ""
 "Pour une plus haute résolution vous pouvez utiliser PNG-24. Pour des "
 "masques translucides ou des textures transparentes utiliser PNG-32."
 
-#: ../../source/create/3d-models/get-model.rst:71
-msgid "Do not use PNG-48 or PNG-64, as neither are supported by High Fidelity."
+#: ../../source/create/3d-models/get-model.rst:72
+#, fuzzy
+msgid "Do not use PNG-48 or PNG-64, as neither are supported by Vircadia."
 msgstr ""
 "N'utiliser pas PNG-48 ou PNG-64 car ceux-ci ne sont pas supportés par "
 "Vircadia."
 
-#: ../../source/create/3d-models/get-model.rst:73
+#: ../../source/create/3d-models/get-model.rst:74
+#, fuzzy
 msgid ""
 "When loaded in the engine, textures are automatically resized to a grid "
-"of 128x128. Pick sizes which are multiples of 128."
+"of 128x128. Pick sizes which are multiples of 128 to not waste any "
+"memory."
 msgstr ""
 "Quand les textures sont chargées dans l'engin elles sont automatiquement "
 "redimmensionnées sur une grille de 128x128. Choisissez des tailles qui "
 "sont des multiples de 128."
 
-#: ../../source/create/3d-models/get-model.rst:76
+#: ../../source/create/3d-models/get-model.rst:77
+msgid ""
+"While textures are automatically downscaled if they don't fit into the "
+"texture memory, it makes sense to use a resolution as low as possible to "
+"lower file sizes and lower the strain on low-end machines from "
+"downscaling and recompressing the textures. For example a 4096x4096 "
+"texture should be plenty for a detailed avatar. Normal maps, emission "
+"maps, etc. don't need to be nearly as high resolution as the main color "
+"texture."
+msgstr ""
+
+#: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw Calls"
 msgstr "Appels d'Extraction"
 
-#: ../../source/create/3d-models/get-model.rst:76
+#: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw calls happen before something gets rendered on screen."
 msgstr ""
 "Les appels d'extraction ont lieu avant que quelque chose est rendu sur "
 "l'écran."
 
-#: ../../source/create/3d-models/get-model.rst:78
+#: ../../source/create/3d-models/get-model.rst:86
 msgid "``1 model w/ 1 material = 1 draw call``"
 msgstr "``1 modèle avec 1 matériau = 1 appel d'extraction``"
 
-#: ../../source/create/3d-models/get-model.rst:80
+#: ../../source/create/3d-models/get-model.rst:88
 msgid ""
 "There are no definitive measures for a desirable polycount. You need to "
 "balance between draw calls and polys. Fewer draw calls means more room "
 "for polys. Smaller textures means more room for higher poly models."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:2
+#: ../../source/create/3d-models/get-model.rst:92
+#, fuzzy
+msgid "Baking"
+msgstr "Nuancement"
+
+#: ../../source/create/3d-models/get-model.rst:92
 msgid ""
-"This document is slightly outdated. FIXME: Mentions High Fidelity, "
-"spelling mistakes, only mentions FBX (check if more formats are "
-"supported), should framerate really be set to 30fps?"
+"Baking assets can be very effective at lowering loading times and "
+"lowering strain on the target CPU. Baked textures can be loaded straight "
+"into the video memory without the CPU having to read and compress them "
+"beforehand. (As long as they don't need to be downscaled.) Baked models "
+"might profit from slightly lower filesizes. See :doc:`Bake Your Content "
+"<../../host/add-content/bake-content>`."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:9
+#: ../../source/create/3d-models/import-animations.rst:5
 msgid ""
-"Enrich your High Fidelity experience by having 3D models in your domain "
-"with animations. For example, you can import the 3D model of a flag that "
+"Enrich your Vircadia experience by having 3D models in your domain with "
+"animations. For example, you can import the 3D model of a flag that "
 "appears to flutter with the wind using this feature."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:16
+#: ../../source/create/3d-models/import-animations.rst:12
 #: ../../source/create/avatars/custom-animations.rst:18
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:12
 #: ../../source/create/entities/boombox-tutorial.rst:16
 #: ../../source/create/entities/create-fountain.rst:13
-#: ../../source/create/entities/create-spotlight.md:7
 #: ../../source/create/entities/create-spotlight.md:12
-#: ../../source/create/entities/display-youtube.md:7
 #: ../../source/create/entities/display-youtube.md:11
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:12
-#: ../../source/create/entities/portal-tutorial.md:12
 #: ../../source/create/entities/portal-tutorial.md:17
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:7
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:12
-#: ../../source/create/entities/zone-tutorial.md:14
 #: ../../source/create/entities/zone-tutorial.md:22
 msgid "Prerequisites"
 msgstr "Conditions préalables"
 
-#: ../../source/create/3d-models/import-animations.rst:18
+#: ../../source/create/3d-models/import-animations.rst:14
 msgid ""
 "You need to be familiar with creating animations in 3D modeling tools "
-"such as Blender and Maya before importing an animation into High "
-"Fidelity."
+"such as Blender and Maya before importing an animation into Vircadia."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:22
+#: ../../source/create/3d-models/import-animations.rst:18
 msgid "Prepare a 3D Model Animation"
 msgstr "Préparer un Modèle d'Animation 3D"
 
-#: ../../source/create/3d-models/import-animations.rst:24
+#: ../../source/create/3d-models/import-animations.rst:20
+#, fuzzy
 msgid ""
-"Before you import an animation into High Fidelity, adjust some settings "
-"in the 3D modeling tool of your choice to ensure that it plays smoothly."
+"Before you import an animation into Vircadia, adjust some settings in the"
+" 3D modeling tool of your choice to ensure that it plays smoothly."
 msgstr ""
 "Avant d'importer une animation dans Vircadia ajustez les paramètres dans "
 "le logiciel de création 3D de votre choix pour vous assurer que "
 "l'animation est fluide et se déroule en douceur sans saccades."
 
-#: ../../source/create/3d-models/import-animations.rst:26
-msgid "Set the framerate to 30 fps for the best results (our recommendation)."
-msgstr ""
-"Pour les meilleurs résultats ajuster la fréquence d'images à 30 fps "
-"(notre recommendation)."
-
-#: ../../source/create/3d-models/import-animations.rst:27
+#: ../../source/create/3d-models/import-animations.rst:22
 msgid ""
-"Bake your animation channels, key frames, and inbetweens to ensure that "
-"High Fidelity reads everything. This is to ensure that your animation "
-"doesn't stop and start, but appears smooth and flows through each "
-"movement."
+"We recommend setting the framerate to 30 fps as a good compromise between"
+" smoothness and file size."
+msgstr ""
+
+#: ../../source/create/3d-models/import-animations.rst:23
+#, fuzzy
+msgid ""
+"Bake your animation channels, key frames, and in-betweens to ensure that "
+"Vircadia reads everything. This is to ensure that your animation doesn't "
+"stop and start, but appears smooth and flows through each movement."
 msgstr ""
 "Précalculez canaux, images-clefs et images intermédiaires pour vous "
 "assurer que Vircadia interprète tous comme il le faut. Ceci est pour "
 "s'assurer que votre animation apparait non-saccadée, en douceur et avec "
 "fluiditée entre les movements."
 
-#: ../../source/create/3d-models/import-animations.rst:28
+#: ../../source/create/3d-models/import-animations.rst:24
 msgid ""
 "Prepare to export the skeleton and frames that are being used in the "
 "animation."
@@ -520,45 +543,63 @@ msgstr ""
 "Preparez le skelette et les images utilisées dans l'animation à "
 "l'exportation."
 
-#: ../../source/create/3d-models/import-animations.rst:29
-msgid "Export your animation as an FBX file."
-msgstr "Exportez votre animation en format FBX."
+#: ../../source/create/3d-models/import-animations.rst:25
+msgid ""
+"Export your animation as an FBX file. (Reading animations from other "
+"formats like glTF is currently not supported.)"
+msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:30
-msgid "Upload this FBX file to a cloud server. Copy the URL."
+#: ../../source/create/3d-models/import-animations.rst:26
+#, fuzzy
+msgid "Upload this FBX file to a cloud server and copy the URL."
 msgstr "Chargez ce fichier FBX sur un serveur cloud. Copiez l'URL."
 
-#: ../../source/create/3d-models/import-animations.rst:34
+#: ../../source/create/3d-models/import-animations.rst:30
 msgid "Import an Animation"
 msgstr "Importer une Animation"
 
-#: ../../source/create/3d-models/import-animations.rst:36
+#: ../../source/create/3d-models/import-animations.rst:32
+#, fuzzy
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
-" 3D model and it's animation into High Fidelity."
+" 3D model and it's animation into Vircadia."
 msgstr ""
 "Une fois que le fichier FBX avec l'animation a été sauvé sur un serveur "
 "cloud vous pouvez importer le modèle 3D et son animation dans Vircadia."
 
-#: ../../source/create/3d-models/import-animations.rst:38
+#: ../../source/create/3d-models/import-animations.rst:34
 #: ../../source/create/3d-models/import-model.rst:17
-#: ../../source/create/3d-models/import-model.rst:29
+#: ../../source/create/3d-models/import-model.rst:30
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:43
 #: ../../source/create/entities/boombox-tutorial.rst:38
 #: ../../source/create/entities/boombox-tutorial.rst:69
 #: ../../source/create/entities/boombox-tutorial.rst:134
 #: ../../source/create/entities/boombox-tutorial.rst:147
 #: ../../source/create/entities/create-fountain.rst:30
+#: ../../source/create/entities/create-spotlight.md:23
+#: ../../source/create/entities/create-spotlight.md:43
+#: ../../source/create/entities/display-youtube.md:24
+#: ../../source/create/entities/display-youtube.md:36
 #: ../../source/create/entities/entity-behavior.rst:25
 #: ../../source/create/entities/entity-behavior.rst:129
 #: ../../source/create/entities/entity-physics.rst:22
 #: ../../source/create/entities/hero-zone.rst:15
 #: ../../source/create/entities/material-entity.rst:53
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:37
+#: ../../source/create/entities/portal-tutorial.md:41
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:36
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:44
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:64
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:73
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:104
+#: ../../source/create/entities/zone-tutorial.md:33
+#: ../../source/create/entities/zone-tutorial.md:60
+#: ../../source/create/entities/zone-tutorial.md:77
+#: ../../source/create/entities/zone-tutorial.md:105
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
 msgstr "Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
 
-#: ../../source/create/3d-models/import-animations.rst:39
+#: ../../source/create/3d-models/import-animations.rst:35
 msgid ""
 "Click on the 'MODEL' icon and enter your 3D model's URL. If you have "
 "saved your 3D model's FBX file with the animation, the model's URL and "
@@ -570,7 +611,7 @@ msgstr ""
 "pour l'animation est la même que pour le modèle. Autrement l'animation "
 "est sauvée avec un fichier séparé."
 
-#: ../../source/create/3d-models/import-animations.rst:40
+#: ../../source/create/3d-models/import-animations.rst:36
 msgid ""
 "In the 'Properties' tab, scroll down to 'Animation' and paste the "
 "animation's URL."
@@ -578,12 +619,12 @@ msgstr ""
 "Dans l'onglet 'Properties', faites défiler vers le bas jusqu'à "
 "'Animation' et collez l'URL de l'animation."
 
-#: ../../source/create/3d-models/import-animations.rst:44
+#: ../../source/create/3d-models/import-animations.rst:40
 msgid "You can edit the following animation properties:"
 msgstr "Vous pouvez modifier les propriétés des animations suivantes :"
 
-#: ../../source/create/3d-models/import-animations.rst:47
-#: ../../source/create/3d-models/pbr-materials-guide.rst:57
+#: ../../source/create/3d-models/import-animations.rst:43
+#: ../../source/create/3d-models/pbr-materials-guide.rst:64
 #: ../../source/create/avatars/add-flow.rst:46
 #: ../../source/create/avatars/add-flow.rst:66
 #: ../../source/create/avatars/add-flow.rst:92
@@ -611,11 +652,11 @@ msgstr "Vous pouvez modifier les propriétés des animations suivantes :"
 msgid "Description"
 msgstr "Description"
 
-#: ../../source/create/3d-models/import-animations.rst:49
+#: ../../source/create/3d-models/import-animations.rst:45
 msgid "Play Automatically"
 msgstr "Jouer automatiquement"
 
-#: ../../source/create/3d-models/import-animations.rst:49
+#: ../../source/create/3d-models/import-animations.rst:45
 msgid ""
 "Enable this to play your animation automatically when a user loads a "
 "domain."
@@ -623,21 +664,21 @@ msgstr ""
 "Activez cette option pour que votre animation soit jouée automatiquement "
 "lorsqu'un utilisateur charge un domaine."
 
-#: ../../source/create/3d-models/import-animations.rst:51
+#: ../../source/create/3d-models/import-animations.rst:47
 msgid "Loop"
 msgstr "Boucle Continue"
 
-#: ../../source/create/3d-models/import-animations.rst:51
+#: ../../source/create/3d-models/import-animations.rst:47
 msgid "Select this property to play your animation in a continuous loop."
 msgstr ""
 "Sélectionnez cette propriété pour jouer votre animation en boucle "
 "continue."
 
-#: ../../source/create/3d-models/import-animations.rst:53
+#: ../../source/create/3d-models/import-animations.rst:49
 msgid "Allow Transition"
 msgstr "Permettre Transition"
 
-#: ../../source/create/3d-models/import-animations.rst:53
+#: ../../source/create/3d-models/import-animations.rst:49
 msgid ""
 "Enable this to let the animation move through space. This means that the "
 "joints will not only rotate, but translate through three dimensions."
@@ -646,39 +687,39 @@ msgstr ""
 "l'espace. Cela signifie que les articulations ne vont pas seulement "
 "tourner, mais aussi se déplacer dans les trois dimensions."
 
-#: ../../source/create/3d-models/import-animations.rst:56
+#: ../../source/create/3d-models/import-animations.rst:52
 msgid "Hold"
 msgstr "Pause"
 
-#: ../../source/create/3d-models/import-animations.rst:56
+#: ../../source/create/3d-models/import-animations.rst:52
 msgid "Select to pause your animation at a particular frame."
 msgstr "Choisissez de mettre votre animation en pause à une image particulière."
 
-#: ../../source/create/3d-models/import-animations.rst:58
+#: ../../source/create/3d-models/import-animations.rst:54
 msgid "Animation Frame"
 msgstr "Image d'Animation"
 
-#: ../../source/create/3d-models/import-animations.rst:58
+#: ../../source/create/3d-models/import-animations.rst:54
 msgid "Enter the frame at which you want to pause or hold your animation."
 msgstr ""
 "Saisissez l'image à laquelle vous souhaitez mettre votre animation en "
 "pause ou la maintenir."
 
-#: ../../source/create/3d-models/import-animations.rst:60
+#: ../../source/create/3d-models/import-animations.rst:56
 msgid "First Frame"
 msgstr "Première Image"
 
-#: ../../source/create/3d-models/import-animations.rst:60
+#: ../../source/create/3d-models/import-animations.rst:56
 msgid "This is the first frame from when your want your animation to start."
 msgstr ""
 "Ceci est la première image à partir de laquelle vous voulez que votre "
 "animation commence."
 
-#: ../../source/create/3d-models/import-animations.rst:62
+#: ../../source/create/3d-models/import-animations.rst:58
 msgid "Last Frame"
 msgstr "Dernière Image"
 
-#: ../../source/create/3d-models/import-animations.rst:62
+#: ../../source/create/3d-models/import-animations.rst:58
 msgid ""
 "This is the last frame where you want your animation to stop. It will not"
 " play beyond this specified frame."
@@ -686,15 +727,15 @@ msgstr ""
 "Ceci est la dernière image où vous voulez que votre animation s'arrête. "
 "Elle ne sera pas jouée au-delà de cette image spécifiée."
 
-#: ../../source/create/3d-models/import-animations.rst:65
+#: ../../source/create/3d-models/import-animations.rst:61
 msgid "Animation FPS"
 msgstr "Animation FPS"
 
-#: ../../source/create/3d-models/import-animations.rst:65
+#: ../../source/create/3d-models/import-animations.rst:61
 msgid "This is the animation's framerate."
 msgstr "Ceci est la fréquence d'images."
 
-#: ../../source/create/3d-models/import-animations.rst:68
+#: ../../source/create/3d-models/import-animations.rst:64
 msgid ""
 "You can also control an animation's properties and when it starts playing"
 " with an :doc:`entity script <../../script/client-entity-scripts>`."
@@ -703,30 +744,43 @@ msgstr ""
 "moment où elle commence à jouer par un :doc:`entity script <../../script"
 "/client-entity-scripts>`."
 
-#: ../../source/create/3d-models/import-animations.rst:70
-#: ../../source/create/3d-models/import-model.rst:36
-#: ../../source/create/3d-models/pbr-materials-guide.rst:127
+#: ../../source/create/3d-models/import-animations.rst:66
+#: ../../source/create/3d-models/import-model.rst:37
+#: ../../source/create/3d-models/pbr-materials-guide.rst:153
 #: ../../source/create/applications.rst:297
 #: ../../source/create/avatars/add-flow.rst:127
+#: ../../source/create/avatars/avatar-standards.md:187
+#: ../../source/create/avatars/blender-tutorial.md:52
 #: ../../source/create/avatars/create-avatars.rst:76
 #: ../../source/create/avatars/custom-animations.rst:269
 #: ../../source/create/avatars/find-avatars.rst:177
+#: ../../source/create/avatars/fuse-tutorial.md:22
+#: ../../source/create/avatars/mixamo-tutorial.md:25
 #: ../../source/create/avatars/scattering-tutorial.rst:66
+#: ../../source/create/entities/add-sounds.md:24
+#: ../../source/create/entities/avatar-interactions.md:63
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:59
 #: ../../source/create/entities/boombox-tutorial.rst:165
+#: ../../source/create/entities/create-entities.md:36
 #: ../../source/create/entities/create-fountain.rst:90
+#: ../../source/create/entities/create-spotlight.md:60
+#: ../../source/create/entities/display-youtube.md:45
 #: ../../source/create/entities/entity-appearance.rst:154
 #: ../../source/create/entities/entity-behavior.rst:153
 #: ../../source/create/entities/entity-physics.rst:153
 #: ../../source/create/entities/material-entity.rst:103
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:61
+#: ../../source/create/entities/portal-tutorial.md:54
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:110
 #: ../../source/create/entities/web-entity-media.rst:160
 #: ../../source/create/entities/zone-entity.rst:167
+#: ../../source/create/entities/zone-tutorial.md:155
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:115
+#: ../../source/create/wearables.md:41
 msgid "**See Also**"
 msgstr "**Voir Aussi**"
 
-#: ../../source/create/3d-models/import-animations.rst:72
+#: ../../source/create/3d-models/import-animations.rst:68
 msgid ":doc:`Import Your 3D Model <import-model>`"
 msgstr ":doc:`Importez votre modèle 3D <import-model>`"
 
@@ -738,7 +792,7 @@ msgstr "Importer un modèle 3D"
 #, fuzzy
 msgid ""
 "You can import a 3D model into Vircadia that is hosted online or on your "
-"domain's Asset Server. Importing your model rezzes it into your domain "
+"domain's Asset Server. Importing your model brings it into your domain "
 "and adds it to your virtual world."
 msgstr ""
 "Vous pouvez importer un modèle 3D dans Vircadia qui est disponible sur un"
@@ -763,7 +817,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Locate and copy the URL of the model you would like to import. The model "
-"should be a OBJ, glTF, or FBX format."
+"should be an FBX, glTF, or OBJ file."
 msgstr ""
 "Localisez et copiez l'URL du modèle que vous souhaitez importer. Le "
 "modèle doit être du format OBJ, FBX ou glTF."
@@ -781,11 +835,12 @@ msgid "Import Models from the Asset Server"
 msgstr "Importer des Modèles depuis le Serveur de Ressources (Asset Server)"
 
 #: ../../source/create/3d-models/import-model.rst:27
+#, fuzzy
 msgid ""
 "The Asset Server hosts files or assets that can either be added as-is to "
 "a domain or that are referenced by existing entities and scripts already "
 "in a domain. To import assets from the Asset Server, you must have "
-"permissions to rez entities in the domain that the Asset Server is "
+"permissions to \"rez\" entities in the domain that the Asset Server is "
 "running on."
 msgstr ""
 "Le Serveur de Ressources héberge des fichiers ou des actifs qui peuvent "
@@ -795,17 +850,17 @@ msgstr ""
 "l'autorisation de référencer des entités dans le domaine sur lequel le "
 "Serveur de Ressources fonctionne."
 
-#: ../../source/create/3d-models/import-model.rst:30
+#: ../../source/create/3d-models/import-model.rst:31
 msgid "Click 'Open this Domain's Asset Server'."
 msgstr "Cliquez sur 'Open this Domain's Asset Server'."
 
-#: ../../source/create/3d-models/import-model.rst:31
+#: ../../source/create/3d-models/import-model.rst:32
 msgid "In the Asset Browser, browse to the model you would like to import."
 msgstr ""
 "Dans le navigateur de ressources, naviguez jusqu'au modèle que vous "
 "souhaitez importer."
 
-#: ../../source/create/3d-models/import-model.rst:32
+#: ../../source/create/3d-models/import-model.rst:33
 msgid ""
 "Click 'Add to World'. Then click 'Add' on the confirmation window that "
 "opens."
@@ -813,38 +868,33 @@ msgstr ""
 "Cliquez sur 'Add to World'. Cliquez ensuite sur 'Add' dans la fenêtre de "
 "confirmation qui s'ouvre."
 
-#: ../../source/create/3d-models/import-model.rst:38
+#: ../../source/create/3d-models/import-model.rst:39
 #: ../../source/create/entities/create-fountain.rst:94
 msgid ":doc:`Create Tools <../tools>`"
 msgstr ":doc:`Outils de Création <../tools>`"
 
-#: ../../source/create/3d-models/import-model.rst:39
+#: ../../source/create/3d-models/import-model.rst:40
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
 msgstr ":doc:`Créer de Nouvelles Entités <../entities/create-entities>`"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:2
-msgid ""
-"This document is slightly outdated. FIXME: Blender material settings "
-"outdated"
-msgstr ""
-
-#: ../../source/create/3d-models/pbr-materials-guide.rst:9
+#: ../../source/create/3d-models/pbr-materials-guide.rst:7
+#, fuzzy
 msgid ""
 "The appearance of a 3D model is controlled by its materials. The "
 "materials supported in Vircadia are physically-based rendering (PBR) "
 "materials. This means that a 3D model's materials will reflect or absorb "
-"light like how they would (approximately) in real life."
+"light (approximately) like how they would in real life."
 msgstr ""
 "L'apparence d'un modèle 3D est contrôlée par ses matériaux. Les matériaux"
 " supportés par Vircadia sont des matériaux de rendu physique (PBR). Cela "
 "signifie que les matériaux d'un modèle 3D vont réfléchir ou absorber la "
 "lumière comme ils le feraient (approximativement) dans la vie réelle."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:16
+#: ../../source/create/3d-models/pbr-materials-guide.rst:15
 msgid "Introduction to Materials, Textures, and Shading"
 msgstr "Introduction aux Matériaux, Textures et Nuancement"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:18
+#: ../../source/create/3d-models/pbr-materials-guide.rst:17
 msgid ""
 "A 3D model's appearance is controlled by its materials. For example, a 3D"
 " model of a key will use a material that determines its color, how "
@@ -859,69 +909,65 @@ msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:20
 msgid ""
-"Vircadia supports physically-based rendering (PBR) materials. This means "
-"that your model will behave like a real world object when exposed to "
-"light. For example, the same 3D model of a key will shine and reflect any"
-" light that falls on it. The 3D model of a brick wall will not shine, but"
-" will reflect enough light for you to observe its colors and surface."
+"Since Vircadia supports physically-based rendering (PBR) materials, your "
+"model will behave like a real world object when exposed to light. For "
+"example, the same 3D model of a key will shine and reflect any light that"
+" falls on it. The 3D model of a brick wall will not shine, but will "
+"reflect enough light for you to observe its colors and surface."
 msgstr ""
-"Vircadia soutient les matériaux de rendu basés sur la physique (PBR). "
-"Cela signifie que votre modèle se comportera comme un objet du monde réel"
-" lorsqu'il sera exposé à la lumière. Par exemple, le même modèle 3D d'une"
-" clé brillera et réfléchira toute lumière qui tombera dessus. Le modèle "
-"3D d'un mur en briques ne brillera pas, mais réfléchira suffisamment de "
-"lumière pour que vous puissiez observer ses couleurs et sa surface."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:22
+#: ../../source/create/3d-models/pbr-materials-guide.rst:23
 msgid "A material contains texture and shading information."
 msgstr "Un matériau contient des informations sur la texture et le nuancement."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:28
+#: ../../source/create/3d-models/pbr-materials-guide.rst:29
+#, fuzzy
 msgid ""
 "Textures are flat images that are applied to 3D models. These add detail "
 "on how a 3D model's material looks. For example, a 3D model of a tree "
-"trunk will use a texture of bark to show what the surface looks like."
+"trunk will use a bark texture to show what the surface looks like."
 msgstr ""
 "Les textures sont des images plates qui sont appliquées à des modèles 3D."
 " Elles ajoutent des détails sur l'apparence du matériau d'un modèle 3D. "
 "Par exemple, un modèle 3D d'un tronc d'arbre utilisera une texture "
 "d'écorce pour montrer à quoi ressemble la surface."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:30
+#: ../../source/create/3d-models/pbr-materials-guide.rst:31
 msgid "Vircadia supports the use of the following texture formats:"
 msgstr "Vircadia prend en charge l'utilisation des formats de texture suivants :"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:32
+#: ../../source/create/3d-models/pbr-materials-guide.rst:33
 msgid "PNG (recommended)"
 msgstr "PNG (recommendé)"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:33
+#: ../../source/create/3d-models/pbr-materials-guide.rst:34
 msgid "JPEG, JPG (recommended)"
 msgstr "JPEG, JPG (recommendé)"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:34
+#: ../../source/create/3d-models/pbr-materials-guide.rst:35
 msgid "TGA"
 msgstr "TGA"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:35
+#: ../../source/create/3d-models/pbr-materials-guide.rst:36
 msgid "TIFF, TIF"
 msgstr "TIFF, TIF"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:37
+#: ../../source/create/3d-models/pbr-materials-guide.rst:38
+#, fuzzy
 msgid ""
 "For best performance, we recommend :doc:`baking all 3D models <../../host"
-"/add-content/bake-content>` (including textures) before uploading it to "
+"/add-content/bake-content>` (including textures) before loading it into "
 "Vircadia."
 msgstr ""
 "Pour les meilleures performances, nous recommandons :doc:`Précalculer "
 "tous les modèles 3D <../../host/add-content/bake-content>` (y compris les"
 " textures) avant de le télécharger sur Vircadia."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:41
+#: ../../source/create/3d-models/pbr-materials-guide.rst:42
 msgid "Shading"
 msgstr "Nuancement"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:43
+#: ../../source/create/3d-models/pbr-materials-guide.rst:44
 msgid ""
 "Since Vircadia supports PBR materials, the shading used depicts an "
 "accurate representation of a how light interacts with different material "
@@ -936,15 +982,15 @@ msgstr ""
 "dispose d'un ensemble de paramètres ou de canaux de matériaux qui peuvent"
 " être modifiés pour créer différents types de matériaux."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:45
+#: ../../source/create/3d-models/pbr-materials-guide.rst:47
+#, fuzzy
 msgid ""
 "You can combine shaders with material entities on shape and zone entities"
 " to apply shaders to models and avatars. This feature was released as an "
-"**experimental feature** and has not been thoroughly tested through our "
-"normal channels. If you wish to try applying procedural materials to "
-"models or avatars *at your own risk*, then you can find more information "
-"at :doc:`Procedural Shaders for Models and Avatars <../materials"
-"/procedural-shaders>`."
+"**experimental feature** and has not been thoroughly tested. If you wish "
+"to try applying procedural materials to models or avatars *at your own "
+"risk*, then you can find more information at :doc:`Procedural Shaders for"
+" Models and Avatars <../materials/procedural-shaders>`."
 msgstr ""
 "Vous pouvez combiner des nuanceurs avec des entités de matériau sur des "
 "entités de forme et de zone pour appliquer des nuanceurs aux modèles et "
@@ -955,11 +1001,11 @@ msgstr ""
 "pouvez trouver plus d'informations sous :doc:`Nuanceurs procéduraux pour "
 "Modèles et Avatars<../materials/procedural-shaders>`."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:47
+#: ../../source/create/3d-models/pbr-materials-guide.rst:51
 msgid "**Material Channels**"
 msgstr "**Canaux de matériaux**"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:49
+#: ../../source/create/3d-models/pbr-materials-guide.rst:53
 msgid ""
 "Material channels determine various parameters such as the roughness or "
 "color of a material. You can determine the value of each channel in two "
@@ -969,30 +1015,25 @@ msgstr ""
 "rugosité ou la couleur d'un matériau. Vous pouvez déterminer la valeur de"
 " chaque canal de deux façons :"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:51
+#: ../../source/create/3d-models/pbr-materials-guide.rst:56
 msgid ""
 "**Setting a Value:** The value of a channel is a value set on a slider. "
-"Setting a value is like turning off or turning on a switch. For example, "
-"if you look at your phone, some parts of it are shiny and some are matte."
-" When you use a value, the entire object reflects that value. If you want"
-" different parts of an object to reflect varied roughness, you'll need to"
-" use a map."
+"Setting a value is like turning off or turning on a switch."
 msgstr ""
-"**Définir une valeur:** La valeur d'un canal est une valeur fixée sur un "
-"curseur. Définir une valeur est comme éteindre ou allumer un "
-"interrupteur. Par exemple, si vous regardez votre téléphone, certaines "
-"parties de celui-ci sont brillantes et d'autres sont mates. Lorsque vous "
-"utilisez une valeur, l'objet entier reflète cette valeur. Si vous voulez "
-"que différentes parties d'un objet reflètent des rugosités variées, vous "
-"devez utiliser une carte."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:52
+#: ../../source/create/3d-models/pbr-materials-guide.rst:56
+msgid ""
+"For example, if you look at your phone, some parts of it are shiny and "
+"some are matte. When you use a value, the entire object reflects that "
+"value. If you want different parts of an object to reflect varied "
+"roughness, you'll need to use a map."
+msgstr ""
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:59
+#, fuzzy
 msgid ""
 "**Using a Map:** The map is an image which you can import to define a "
-"property. You will use a map to apply a texture to your 3D model. For "
-"instance, your phone may have a case that is matte, but the rest of your "
-"phone is shiny. You can use a map to set the case as matte and the phone "
-"as shiny."
+"property. You will use a map to apply a texture to your 3D model."
 msgstr ""
 "**Utilisation d'une carte:** La carte est une image que vous pouvez "
 "importer pour définir une propriété. Vous utiliserez une carte pour "
@@ -1001,7 +1042,21 @@ msgstr ""
 "brillant. Vous pouvez utiliser une carte pour définir l'étui comme mat et"
 " le téléphone comme brillant."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:54
+#: ../../source/create/3d-models/pbr-materials-guide.rst:59
+#, fuzzy
+msgid ""
+"For instance, your phone may have a case that is matte, but the rest of "
+"your phone is shiny. You can use a map to set the case as matte and the "
+"phone as shiny."
+msgstr ""
+"**Utilisation d'une carte:** La carte est une image que vous pouvez "
+"importer pour définir une propriété. Vous utiliserez une carte pour "
+"appliquer une texture à votre modèle 3D. Par exemple, votre téléphone "
+"peut avoir un boîtier qui est mat, mais le reste de votre téléphone est "
+"brillant. Vous pouvez utiliser une carte pour définir l'étui comme mat et"
+" le téléphone comme brillant."
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:61
 msgid ""
 "All materials in Vircadia have the following channels that determine how "
 "they look:"
@@ -1009,24 +1064,24 @@ msgstr ""
 "Tous les matériaux dans Vircadia ont les canaux suivants qui déterminent "
 "leur aspect :"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:57
+#: ../../source/create/3d-models/pbr-materials-guide.rst:64
 msgid "Channel Type"
 msgstr "Type de Canal"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:57
+#: ../../source/create/3d-models/pbr-materials-guide.rst:64
 #: ../../source/create/entities/create-fountain.rst:35
 msgid "Value"
 msgstr "Valeur"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:57
+#: ../../source/create/3d-models/pbr-materials-guide.rst:64
 msgid "Map"
 msgstr "Carte"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:59
+#: ../../source/create/3d-models/pbr-materials-guide.rst:66
 msgid "Albedo"
 msgstr "Albédo"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:59
+#: ../../source/create/3d-models/pbr-materials-guide.rst:66
 msgid ""
 "This channel defines the material's color. You can pick any color value "
 "of your choice."
@@ -1034,16 +1089,16 @@ msgstr ""
 "Ce canal définit la couleur du matériau. Vous pouvez choisir la valeur de"
 " la couleur de votre choix."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:59
-#: ../../source/create/3d-models/pbr-materials-guide.rst:77
+#: ../../source/create/3d-models/pbr-materials-guide.rst:66
+#: ../../source/create/3d-models/pbr-materials-guide.rst:84
 msgid "sRGB"
 msgstr "sRGB"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:62
+#: ../../source/create/3d-models/pbr-materials-guide.rst:69
 msgid "Metallic"
 msgstr "Métallique"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:62
+#: ../../source/create/3d-models/pbr-materials-guide.rst:69
 msgid ""
 "This channel determines if the material is metallic or not. You cannot "
 "have a material that is half metallic, it is either metallic or it isn't."
@@ -1052,19 +1107,19 @@ msgstr ""
 "pas avoir un matériau qui est à moitié métallique, il est soit métallique"
 " ou non."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:62
-#: ../../source/create/3d-models/pbr-materials-guide.rst:65
+#: ../../source/create/3d-models/pbr-materials-guide.rst:69
 #: ../../source/create/3d-models/pbr-materials-guide.rst:72
-#: ../../source/create/3d-models/pbr-materials-guide.rst:74
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:81
+#: ../../source/create/3d-models/pbr-materials-guide.rst:86
 msgid "[0,1]"
 msgstr "[0,1]"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:65
+#: ../../source/create/3d-models/pbr-materials-guide.rst:72
 msgid "Roughness"
 msgstr "Rugosité"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:65
+#: ../../source/create/3d-models/pbr-materials-guide.rst:72
 msgid ""
 "This determines how rough/matte or glossy/shiny an object is, using "
 "brightness levels."
@@ -1072,11 +1127,11 @@ msgstr ""
 "Il détermine le degré de rugosité/mat ou de brillance/luisance d'un "
 "objet, en utilisant des niveaux de luminosité."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:68
+#: ../../source/create/3d-models/pbr-materials-guide.rst:75
 msgid "Normal"
 msgstr "Normal"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:68
+#: ../../source/create/3d-models/pbr-materials-guide.rst:75
 msgid ""
 "Normal is a channel that renders an object like there is actual geometry."
 " For instance, normal would add bumps and other irregularities to a stone"
@@ -1086,31 +1141,31 @@ msgstr ""
 "géométrie réelle. Par exemple, la carte normale ajouterait des bosses et "
 "d'autres irrégularités à une pierre ou des arêtes à un coquillage."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:68
+#: ../../source/create/3d-models/pbr-materials-guide.rst:75
 msgid "xyz"
 msgstr "xyz"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:68
+#: ../../source/create/3d-models/pbr-materials-guide.rst:75
 msgid "bump"
 msgstr "bosse"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:72
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "Opacity"
 msgstr "Opacité"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:72
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "Opacity determines if an object is transparent or opaque."
 msgstr "L'opacité détermine si un objet est transparent ou opaque."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:72
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "mask, alpha"
 msgstr "masque, alpha"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:74
+#: ../../source/create/3d-models/pbr-materials-guide.rst:81
 msgid "Occlusion"
 msgstr "Ombrage"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:74
+#: ../../source/create/3d-models/pbr-materials-guide.rst:81
 msgid ""
 "This property approximates the shading to be as natural as possible. This"
 " means that it will reproduce how objects interact with light."
@@ -1119,25 +1174,25 @@ msgstr ""
 " naturel que possible. Cela signifie qu'elle reproduira la façon dont les"
 " objets interagissent avec la lumière."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:74
-#: ../../source/create/3d-models/pbr-materials-guide.rst:82
+#: ../../source/create/3d-models/pbr-materials-guide.rst:81
+#: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "---"
 msgstr "---"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:77
+#: ../../source/create/3d-models/pbr-materials-guide.rst:84
 msgid "Emissive"
 msgstr "Emissive"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:77
+#: ../../source/create/3d-models/pbr-materials-guide.rst:84
 msgid "This channel controls the amount of light being reflected from an object."
 msgstr "Ce canal contrôle la quantité de lumière réfléchie par un objet."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:86
 #: ../../source/create/avatars/scattering-tutorial.rst:47
 msgid "Scattering"
 msgstr "Diffusion"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:86
 msgid ""
 "Scattering determines how light will behave when it hits human skin. This"
 " channel details how light is reflected or absorbed by human bodies."
@@ -1146,33 +1201,34 @@ msgstr ""
 "la peau humaine. Ce canal détaille la façon dont la lumière est réfléchie"
 " ou absorbée par le corps humain."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:82
+#: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "Material Type"
 msgstr "Type de Materiel"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:82
+#: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "This channel decides if an object is lit or unlit."
 msgstr "Ce canal décide si un objet est allumé ou non."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:82
+#: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "[lit, unlit]"
 msgstr "[lit, unlit]"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:85
+#: ../../source/create/3d-models/pbr-materials-guide.rst:92
 msgid "Notes:"
 msgstr "Notes :"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:87
+#: ../../source/create/3d-models/pbr-materials-guide.rst:94
+#, fuzzy
 msgid ""
-"If you set transparency with a texture, the transparency (alpha) should "
-"be in the material’s albedo texture, as a PNG file with transparency and "
-"not as a separate transparency texture."
+"If you set transparency with a texture, the transparency (alpha) must be "
+"in the material’s albedo texture, as a PNG file with transparency and "
+"*not* as a separate transparency texture."
 msgstr ""
 "Si vous définissez la transparence avec une texture, la transparence "
 "(alpha) doit être dans la texture d'albédo du matériau, comme un fichier "
 "PNG avec transparence et non comme une texture de transparence séparée."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:88
+#: ../../source/create/3d-models/pbr-materials-guide.rst:95
 msgid ""
 "Vircadia’s renderer can draw two different kinds of transparency: "
 "\"alpha\" (255 graduates steps of transparency, no shading on surface, "
@@ -1184,7 +1240,7 @@ msgstr ""
 " d'ombre) et \"masque\" (transparence binaire, ombrage complet de la "
 "surface opaque, toute la surface est ombrée.)"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:89
+#: ../../source/create/3d-models/pbr-materials-guide.rst:96
 msgid ""
 "To determine whether a texture is treated as a mask or as alpha, the "
 "engine looks for alpha values between 2% and 98%. An easy way to create a"
@@ -1199,19 +1255,20 @@ msgstr ""
 "tandis que le format PNG-24 prend en charge une gamme de niveaux de "
 "transparence."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:90
+#: ../../source/create/3d-models/pbr-materials-guide.rst:98
+#, fuzzy
 msgid ""
 "We support using a second UV set with the following texture channels "
-"only: Light Map and Ambient Occlusion."
+"only: Emissive Texture, Normal Map and Ambient Occlusion."
 msgstr ""
 "Nous soutenons l'utilisation d'un deuxième ensemble d'UV avec les canaux "
 "de texture suivants uniquement : Carte Lumineuse et Occlusion Ambiante."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:94
+#: ../../source/create/3d-models/pbr-materials-guide.rst:102
 msgid "Sample Materials and Their Textures and Shading"
 msgstr "Exemples de Matériaux et Leurs Textures et Nuancements"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:96
+#: ../../source/create/3d-models/pbr-materials-guide.rst:104
 msgid ""
 "Vircadia supports different types of materials. We've created sample "
 "objects with each material type. You can download each object from `this "
@@ -1230,79 +1287,64 @@ msgstr ""
 " dans Vircadia pour télécharger tous les exemples d'objets de votre "
 "domaine."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:98
+#: ../../source/create/3d-models/pbr-materials-guide.rst:111
 msgid ""
 "We've listed all material information (including textures, shading, and "
 "channel values and maps) for these sample objects `here "
-"<https://docs.google.com/spreadsheets/d/e/2PACX-1vRsPXURPsIYV_LeEz1A7IS-"
-"t44qdTMtbrq-gZ47BAoxhd0kLs_Yxh-i1G4Ukz-aunTj-"
-"nLVF7sjZd1n/pubhtml?gid=0&single=true>`_."
+"<../../_static/resources/3d-"
+"models/Sample_Material_Textures_and_Shading_Guide.html>`_."
 msgstr ""
-"Nous avons répertorié toutes les informations concernant les matériaux (y"
-" compris les textures, les nuancements, les valeurs des canaux et les "
-"cartes) pour ces objets échantillons `ici "
-"<https://docs.google.com/spreadsheets/d/e/2PACX-1vRsPXURPsIYV_LeEz1A7IS-"
-"t44qdTMtbrq-gZ47BAoxhd0kLs_Yxh-i1G4Ukz-aunTj-"
-"nLVF7sjZd1n/pubhtml?gid=0&single=true>`_."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:102
+#: ../../source/create/3d-models/pbr-materials-guide.rst:116
 msgid "Set Material Values in Blender"
 msgstr "Fixer les Valeurs de Matériaux dans Blender"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:104
-msgid ""
-"When you create a model in Blender, you have to export it in the FBX "
-"format to use in Vircadia. Additionally, you have to modify material "
-"properties and textures in Blender to match the PBR material textures in "
-"Vircadia."
+#: ../../source/create/3d-models/pbr-materials-guide.rst:121
+msgid "This section is outdated."
 msgstr ""
-"Lorsque vous créez un modèle dans Blender, vous devez l'exporter au "
-"format FBX pour l'utiliser dans Vircadia. En plus, vous devez modifier "
-"les propriétés et les textures des matériaux dans Blender pour qu'elles "
-"correspondent aux textures des matériaux PBR dans Vircadia."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:106
-msgid "Doing so ensures that your model appears like how you want it to."
+#: ../../source/create/3d-models/pbr-materials-guide.rst:123
+msgid ""
+"When you create a model in Blender, you have to export it in FBX, glTF, "
+"GLB or OBJ format to use in Vircadia. Additionally, you have to modify "
+"material properties and textures in Blender to match the PBR material "
+"textures in Vircadia."
+msgstr ""
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:125
+#, fuzzy
+msgid "Doing so ensures that your model appears how you intend it to."
 msgstr ""
 "En faisant ainsi vous vous assurez que votre modèle apparaît comme vous "
 "le souhaitez."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:108
+#: ../../source/create/3d-models/pbr-materials-guide.rst:127
 msgid ""
 "By default, any material property set with a texture will override a "
 "property set with a value. The only exception to this is in the case of "
-"the albedo color set with an RGB color value and a texture, in which case"
-" the albedo value and texture will multiplied together."
+"vertex color and a texture, in which case the vertex color and texture "
+"will multiplied together. This can be useful for creating highly "
+"performant colored models using grey-scale textures and vertex colors."
 msgstr ""
-"Par défaut, toute propriété de matériaux définie avec une texture "
-"remplacera une propriété définie avec une valeur. La seule exception à "
-"cette règle est le cas de l'ensemble de couleurs d'albédo avec une valeur"
-" de couleur RGB et une texture, auquel cas la valeur d'albédo et la "
-"texture seront multipliées ensemble."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:110
+#: ../../source/create/3d-models/pbr-materials-guide.rst:130
 msgid ""
 "We've included images where the fields corresponding to each supported "
 "PBR channel in Blender are highlighted, along with details about which "
 "values and colors correspond to the range corresponding with that "
-"channel.  It should be noted that all of the Blender material properties "
-"below only relate to exported FBX format models. Models exported as OBJ "
-"or other formats do not have full PBR material support in Vircadia yet."
+"channel. It should be noted that models exported as OBJ may not have full"
+" PBR material support in Vircadia yet."
 msgstr ""
-"Nous avons inclus des images où les champs correspondant à chaque canal "
-"PBR soutenus par Blender sont mis en évidence, ainsi que des détails sur "
-"les valeurs et les couleurs correspondant à la plage d'intervalle "
-"correspondant à ce canal.  Il convient de noter que toutes les propriétés"
-" du matériel Blender ci-dessous ne concernent que les modèles de format "
-"FBX exportés. Les modèles exportés en format OBJ ou autres formats ne "
-"bénéficient pas encore du soutient complet pour matériaux PBR dans "
-"Vircadia."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:118
+#: ../../source/create/3d-models/pbr-materials-guide.rst:139
 msgid "Set Material Values in Maya"
 msgstr "Fixer les Valeurs de Matériaux dans Maya"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:120
+#: ../../source/create/3d-models/pbr-materials-guide.rst:144
+msgid "This section hasn't been tested in a long while and might be outdated."
+msgstr ""
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:146
 msgid ""
 "Use the graphics below to set the right material values and textures in "
 "Maya."
@@ -1310,7 +1352,7 @@ msgstr ""
 "Utilisez les graphiques ci-dessous pour définir les bonnes valeurs et "
 "textures de matériaux dans Maya."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:129
+#: ../../source/create/3d-models/pbr-materials-guide.rst:155
 msgid ""
 ":doc:`Bake Your Content Using the Oven <../../host/add-content/bake-"
 "content>`"
@@ -1318,7 +1360,7 @@ msgstr ""
 ":doc:`Précalculez votre contenu en utilisant le four (Oven) <../../host"
 "/add-content/bake-content>`"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:130
+#: ../../source/create/3d-models/pbr-materials-guide.rst:156
 msgid ":doc:`Add a Material Entity <../entities/material-entity>`"
 msgstr ":doc:`Ajoutez une Entité de Matériau <../entities/material-entity>`"
 
@@ -1727,16 +1769,11 @@ msgid "`API Reference: Vec3 <https://apidocs.vircadia.dev/Vec3.html>`_"
 msgstr "`API Reference : Vec3 <https://apidocs.vircadia.dev/Vec3.html>`_"
 
 #: ../../source/create/avatars.rst:9
-#: ../../source/create/avatars/avatar-standards.md:189
-#: ../../source/create/avatars/blender-tutorial.md:56
 #: ../../source/create/avatars/create-avatars.rst:7
-#: ../../source/create/avatars/fuse-tutorial.md:26
-#: ../../source/create/avatars/mixamo-tutorial.md:29
 msgid "Create Your Own Avatar"
 msgstr "Créez votre Propre Avatar"
 
 #: ../../source/create/avatars.rst:9
-#: ../../source/create/avatars/avatar-standards.md:190
 #: ../../source/create/avatars/find-avatars.rst:7
 msgid "Find and Use an Existing Avatar"
 msgstr "Trouvez et Utilisez un Avatar Existant"
@@ -1747,7 +1784,6 @@ msgid "Package and Host Your Avatar"
 msgstr "Empaquetage et Hébergement de votre Avatar"
 
 #: ../../source/create/avatars.rst:9 ../../source/create/avatars/add-flow.rst:7
-#: ../../source/create/avatars/avatar-standards.md:191
 msgid "Add Flow to Your Avatar"
 msgstr ""
 
@@ -1757,9 +1793,7 @@ msgid "Customize Avatar Animations"
 msgstr ""
 
 #: ../../source/create/avatars.rst:9
-#: ../../source/create/avatars/blender-tutorial.md:54
 #: ../../source/create/avatars/fuse-tutorial.md:6
-#: ../../source/create/avatars/mixamo-tutorial.md:27
 msgid "Tutorial: Create an Avatar with Fuse"
 msgstr ""
 
@@ -2081,12 +2115,12 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:8
 msgid ""
-"This document outlines the standards you should follow when creating your"
-" avatar. Your avatar uses bones to animate the character's limbs and "
-"define the scale variable of limbs. You can add custom bones to further "
-"adjust the avatar's shape. Customization of your avatar can be fine-tuned"
-" using blendshapes to animate the face and scripting to define advanced "
-"behaviors."
+"This document outlines the standards you should follow when [creating "
+"your avatar](create-avatars). Your avatar uses bones to animate the "
+"character's limbs and define the scale variable of limbs. You can add "
+"custom bones to further adjust the avatar's shape. Customization of your "
+"avatar can be fine-tuned using blendshapes to animate the face and "
+"scripting to define advanced behaviors."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:10
@@ -2096,42 +2130,40 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:10
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:5
 #: ../../source/create/entities/zone-tutorial.md:12
-msgid "On This Page:"
+#, fuzzy
+msgid "**On This Page:**"
 msgstr "Sur cette Page :"
 
 #: ../../source/create/avatars/avatar-standards.md:11
-#: ../../source/create/avatars/avatar-standards.md:19
-msgid "Glossary"
+msgid "[Glossary](#glossary)"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:12
-#: ../../source/create/avatars/avatar-standards.md:31
-msgid "Reference Pose"
+msgid "[Reference Pose](#reference-pose)"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:13
-#: ../../source/create/avatars/avatar-standards.md:43
-msgid "Skeleton"
+msgid "[Skeleton](#skeleton)"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:14
-#: ../../source/create/avatars/avatar-standards.md:55
-msgid "Flow Bones"
+msgid "[Flow Bones](#flow-bones)"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:15
-#: ../../source/create/avatars/avatar-standards.md:86
-msgid "Look-at Vectors"
+msgid "[Look-at Vectors](#look-at-vectors)"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:16
-#: ../../source/create/avatars/avatar-standards.md:94
-msgid "Blendshapes"
+msgid "[Blendshapes](#blendshapes)"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:17
-#: ../../source/create/avatars/avatar-standards.md:167
-msgid "Other Considerations"
+msgid "[Other Considerations](#other-considerations)"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:19
+msgid "Glossary"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:20
@@ -2176,6 +2208,10 @@ msgid ""
 "skeleton, blendshapes, FBX file and textures used by an avatar."
 msgstr ""
 
+#: ../../source/create/avatars/avatar-standards.md:31
+msgid "Reference Pose"
+msgstr ""
+
 #: ../../source/create/avatars/avatar-standards.md:32
 msgid ""
 "For the Reference pose, use a T-Pose which complies with the "
@@ -2213,19 +2249,30 @@ msgid ""
 "toward the right leg or outward away from the right leg)."
 msgstr ""
 
+#: ../../source/create/avatars/avatar-standards.md:39
+msgid "![](_images/hifi-skel.png)"
+msgstr ""
+
 #: ../../source/create/avatars/avatar-standards.md:41
 msgid ""
-"You can download the standard High Fidelity skeleton here. This skeleton "
-"conforms to the specifications above."
+"You can download the standard High Fidelity skeleton [here](http://hifi-"
+"content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
+" This skeleton conforms to the specifications above."
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:43
+msgid "Skeleton"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:44
 msgid ""
-"The standard humanoid skeleton of your avatar should follow HumanIK "
-"Skeleton with some modifications made for Mixamo. This skeleton system "
-"will work with the input systems already in place in High Fidelity, and "
-"will allow users to use their input devices to control their avatar's arm"
-" and finger movements (if they have any)."
+"The standard humanoid skeleton of your avatar should follow [HumanIK "
+"Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files"
+"/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) with some modifications "
+"made for Mixamo. This skeleton system will work with the input systems "
+"already in place in High Fidelity, and will allow users to use their "
+"input devices to control their avatar's arm and finger movements (if they"
+" have any)."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:46
@@ -2234,12 +2281,20 @@ msgid ""
 "structure. Each of these joints can be animated."
 msgstr ""
 
+#: ../../source/create/avatars/avatar-standards.md:53
+msgid "![](_images/avatar-skeleton.png)"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:55
+msgid "Flow Bones"
+msgstr ""
+
 #: ../../source/create/avatars/avatar-standards.md:57
 msgid ""
-"The  sim and flow prefixes are reserved for flow bones, such as clothing,"
-" hair and tails. These bones should not be animated by an animator.  "
-"(Many thanks to Akazukin for the model Ouka Miko(櫻歌ミコ) used in this "
-"diagram!)"
+"The  `sim` and `flow` prefixes are reserved for flow bones, such as "
+"clothing, hair and tails. These bones should _not_ be animated by an "
+"animator. ![](_images/flow-bones.png) (Many thanks to Akazukin for the "
+"model Ouka Miko(櫻歌ミコ) used in this diagram!)"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:60
@@ -2248,8 +2303,12 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:73
 msgid ""
-"Alternatively, you can use the flow prefix, separating the name and joint"
-" number with an underscore. The same cape as above would look like:"
+"Alternatively, you can use the `flow` prefix, separating the name and "
+"joint number with an underscore. The same cape as above would look like:"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:86
+msgid "Look-at Vectors"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:88
@@ -2264,6 +2323,10 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:92
 msgid "The eye joints are defined in the FST."
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:94
+msgid "Blendshapes"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:96
@@ -2286,23 +2349,23 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:100
-msgid "Basic Blendshapes"
+msgid "**Basic Blendshapes**"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:102
-msgid "EyeBlink_L:  Blinking action for the left eye."
+msgid "`EyeBlink_L`:  Blinking action for the left eye."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:103
-msgid "EyeBlink_R: Blicking action for the right eye."
+msgid "`EyeBlink_R`: Blicking action for the right eye."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:104
-msgid "JawOpen: Opening of the jaw."
+msgid "`JawOpen`: Opening of the jaw."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:106
-msgid "Audio Blendshapes"
+msgid "**Audio Blendshapes**"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:108
@@ -2316,15 +2379,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:112
-msgid "BrowsU_C: Center of the brow going up"
+msgid "`BrowsU_C`: Center of the brow going up"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:113
-msgid "BrowsU_L: Outside corner of the left brow going up"
+msgid "`BrowsU_L`: Outside corner of the left brow going up"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:114
-msgid "BrowsU_R: Outside corner of the right brow going up"
+msgid "`BrowsU_R`: Outside corner of the right brow going up"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:116
@@ -2332,23 +2395,23 @@ msgid "Other audio blendshapes are randomly mixed when you speak. These include:
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:118
-msgid "MouthSmile_L: Left side of the mouth lifting up to a smile"
+msgid "`MouthSmile_L`: Left side of the mouth lifting up to a smile"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:119
-msgid "MouthSmile_R: Right side of the mouth lifting up to a smile"
+msgid "`MouthSmile_R`: Right side of the mouth lifting up to a smile"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:120
-msgid "LipsFunnel: Funneling of the lips, as when you say \"Oh!\""
+msgid "`LipsFunnel`: Funneling of the lips, as when you say \"Oh!\""
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:121
-msgid "LipsUpperClose:  Upper lips rolled inwards"
+msgid "`LipsUpperClose`:  Upper lips rolled inwards"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:123
-msgid "Eyelid Offset"
+msgid "**Eyelid Offset**"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:125
@@ -2359,27 +2422,27 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:127
-msgid "EyeBlink_L: Blinking action for the left eye"
+msgid "`EyeBlink_L`: Blinking action for the left eye"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:128
-msgid "EyeBlink_R: Blicking action for the right eye"
+msgid "`EyeBlink_R`: Blicking action for the right eye"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:129
-msgid "EyeOpen_L: Opening of left eye"
+msgid "`EyeOpen_L`: Opening of left eye"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:130
-msgid "EyeOpen_R: Opening of right eye"
+msgid "`EyeOpen_R`: Opening of right eye"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:131
-msgid "BrowsD_L: Outside corner of the left brow moving down"
+msgid "`BrowsD_L`: Outside corner of the left brow moving down"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:132
-msgid "BrowsD_R: Outside corner of the right brow moving down"
+msgid "`BrowsD_R`: Outside corner of the right brow moving down"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:135
@@ -2390,24 +2453,24 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:137
 msgid ""
-"If you are looking straight ahead: The EyeBlink and EyeOpen coefficients "
-"will be 0."
+"If you are looking straight ahead: The `EyeBlink` and `EyeOpen` "
+"coefficients will be `0`."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:138
 msgid ""
-"If your eyes begin to look upward: EyeBlink, EyeOpen, and BrowsU start "
-"changing in value, reaching the values of -1, 1, and 0.5 respectively at "
-"16.3 degrees. This will have the effect of raising your lids and brows as"
-" you look upward."
+"If your eyes begin to look upward: `EyeBlink`, `EyeOpen`, and `BrowsU` "
+"start changing in value, reaching the values of `-1`, `1`, and `0.5` "
+"respectively at `16.3` degrees. This will have the effect of raising your"
+" lids and brows as you look upward."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:139
 msgid ""
-"If your eyes begin to look downward: EyeBlink and EyeOpen start changing "
-"in value. EyeBlink reaches a value of 0.5 at 32 degrees. EyeOpen will "
-"reach a value of 0.5 at 27 degrees. This will have the effect of lowering"
-" your lids as you look downward."
+"If your eyes begin to look downward: `EyeBlink` and `EyeOpen` start "
+"changing in value. `EyeBlink` reaches a value of `0.5` at `32` degrees. "
+"`EyeOpen` will reach a value of `0.5` at 27 degrees. This will have the "
+"effect of lowering your lids as you look downward."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:142
@@ -2419,6 +2482,10 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:148
 msgid "Here is an example of modifying your blendshapes in your FST file:"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:167
+msgid "Other Considerations"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:169
@@ -2463,7 +2530,7 @@ msgstr ""
 #: ../../source/create/avatars/avatar-standards.md:177
 msgid ""
 "When you wear different avatars, you'll notice that each avatar has a "
-"different collision shape or collision hull. The collision hull is the "
+"different collision shape or _collision hull_. The collision hull is the "
 "invisible area around your avatar that is used to used to detect when "
 "other avatars or entities collide with you."
 msgstr ""
@@ -2488,29 +2555,27 @@ msgstr ""
 msgid ""
 "The Avatar app will look for a thumbnail with a .jpg extension with the "
 "same name and at the same URL location as your avatar's. For example, if "
-"your avatar is hosted at https://vircadia.dev/avatar.fbx, then it will "
-"look for a thumbnail at https://vircadia.dev/avatar.jpg."
+"your avatar is hosted at `https://vircadia.dev/avatar.fbx`, then it will "
+"look for a thumbnail at `https://vircadia.dev/avatar.jpg`."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:187
-#: ../../source/create/avatars/blender-tutorial.md:52
-#: ../../source/create/avatars/fuse-tutorial.md:22
-#: ../../source/create/avatars/mixamo-tutorial.md:25
-#: ../../source/create/entities/add-sounds.md:24
-#: ../../source/create/entities/avatar-interactions.md:63
-#: ../../source/create/entities/create-entities.md:36
-#: ../../source/create/entities/create-spotlight.md:60
-#: ../../source/create/entities/display-youtube.md:45
-#: ../../source/create/entities/portal-tutorial.md:54
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:110
-#: ../../source/create/entities/zone-tutorial.md:155
-#: ../../source/create/wearables.md:41
-msgid "See Also"
-msgstr "Voir Aussi"
+#: ../../source/create/avatars/avatar-standards.md:189
+#: ../../source/create/avatars/blender-tutorial.md:56
+#: ../../source/create/avatars/fuse-tutorial.md:26
+#: ../../source/create/avatars/mixamo-tutorial.md:29
+msgid "[Create Your Own Avatar](create-avatars)"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:190
+#, fuzzy
+msgid "[Find and Use an Existing Avatar](find-avatars)"
+msgstr ":doc:`Trouvez et Utilisez un Avatar Existant <find-avatars>`"
+
+#: ../../source/create/avatars/avatar-standards.md:191
+msgid "[Add Flow to Your Avatar](add-flow)"
+msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:6
-#: ../../source/create/avatars/fuse-tutorial.md:25
-#: ../../source/create/avatars/mixamo-tutorial.md:28
 msgid "Tutorial: Modify Materials and Textures Using Blender"
 msgstr ""
 
@@ -2525,24 +2590,25 @@ msgstr ""
 msgid ""
 "In this tutorial, we will walk you through simple modifications you can "
 "make to your avatar using Blender. You will need to import an FBX file "
-"for your avatar. If you don't have one, see our tutorials for Fuse and "
-"Mixamo."
+"for your avatar. If you don't have one, see our tutorials for [Fuse"
+"](fuse-tutorial) and [Mixamo](mixamo-tutorial)."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:12
-msgid "In Blender, go to File > Import > FBX (.fbx)."
+msgid "In Blender, go to **File > Import > FBX (.fbx)**."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:13
 msgid ""
 "Choose your avatar's FBX file and click 'Import FBX'. This will open your"
-" avatar in the main view."
+" avatar in the main view. ![](_images/import-avatar.png)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:14
 msgid ""
 "By default, you will not see the materials on your avatar. You can change"
-" your view using the toolbar at the bottom of the view."
+" your view using the toolbar at the bottom of the view. ![](_images/view-"
+"materials.png)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:15
@@ -2562,7 +2628,7 @@ msgid "Change the lamp to Sun."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:19
-msgid "Rotate the Lamp to light up your avatar."
+msgid "Rotate the Lamp to light up your avatar.![](_images/lamp-settings.png)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:20
@@ -2574,20 +2640,23 @@ msgstr ""
 #: ../../source/create/avatars/blender-tutorial.md:21
 msgid ""
 "Using the toolbox below, you can change the materials and texture of each"
-" body part as desired. We've included an example below that changes our "
-"avatar's eyelashes. You can follow similar steps for other avatar items."
+" body part as desired. We've included an example below that [changes our "
+"avatar's eyelashes](#example-update-eyelashes-from-an-image). You can "
+"follow similar steps for other avatar items.  ![](_images/texture-"
+"material.png)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:27
 msgid ""
-"When you're done changing your materials and textures, go to File > "
-"Export > FBX (.fbx)."
+"When you're done changing your materials and textures, go to **File > "
+"Export > FBX (.fbx)**."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:28
 msgid ""
 "Change the 'Path Mode' to 'Copy', then click the 'Embed Textures' icon. "
-"This makes sure that all of the textures are embedded into your model."
+"This makes sure that all of the textures are embedded into your model. "
+"![](_images/blender-export.png)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:29
@@ -2607,7 +2676,10 @@ msgid "Example: Update Eyelashes from an Image"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:36
-msgid "Save this texture to a directory where you will remember."
+msgid ""
+"Save [this texture](http://hifi-"
+"content.s3.amazonaws.com/DomainContent/Event%20/Images/mixamo_eyelashes.png)"
+" to a directory where you will remember."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:37
@@ -2615,7 +2687,9 @@ msgid "From the Outliner, open the 'Armature' tree and select 'Eyelashes'."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:38
-msgid "In the Toolbox below, click the 'Materials' icon."
+msgid ""
+"In the Toolbox below, click the 'Materials' icon. ![](_images/materials-"
+"tab.png)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:39
@@ -2633,7 +2707,9 @@ msgid "Rename the new material to 'lashes'."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:42
-msgid "At the bottom of the Blender window, switch to 'Edit Mode'."
+msgid ""
+"At the bottom of the Blender window, switch to 'Edit Mode'. ![](_images"
+"/edit-mode.png)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:43
@@ -2643,15 +2719,17 @@ msgstr ""
 #: ../../source/create/avatars/blender-tutorial.md:44
 msgid ""
 "Scroll to the 'Transparency' section. Check the Transparency box and "
-"change the 'Alpha' value to 0.00."
+"change the 'Alpha' value to `0.00`. ![](_images/transparency-setting.png)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:45
-msgid "Scroll to the 'Specular' section. Set the specular color to black."
+msgid ""
+"Scroll to the 'Specular' section. Set the specular color to black. "
+"![](_images/specular-setting.png)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:46
-msgid "Change to the 'Textures' view."
+msgid "Change to the 'Textures' view. ![](_images/texture-tab.png)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:47
@@ -2661,7 +2739,8 @@ msgstr ""
 #: ../../source/create/avatars/blender-tutorial.md:48
 msgid ""
 "Scroll to the Image section. Click 'Open' and find the lashes texture "
-"named 'mixamo_eyelashes' you previously downloaded. Click 'Open Image'."
+"named 'mixamo_eyelashes' you previously downloaded. Click 'Open Image'. "
+"![](_images/image-setting.png)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:49
@@ -2672,13 +2751,18 @@ msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:50
 msgid ""
-"Go to File > External Data > Pack All Into .blend. This will include the "
-"texture in your model."
+"Go to **File > External Data > Pack All Into .blend**. This will include "
+"the texture in your model."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:54
+#: ../../source/create/avatars/mixamo-tutorial.md:27
+msgid "[Tutorial: Create an Avatar with Fuse](fuse-tutorial)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:55
 #: ../../source/create/avatars/fuse-tutorial.md:24
-msgid "Tutorial: Rig Your Avatar in Mixamo"
+msgid "[Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:2
@@ -4048,14 +4132,14 @@ msgid "Launch Adobe Fuse."
 msgstr ""
 
 #: ../../source/create/avatars/fuse-tutorial.md:16
-msgid "Pick your default body parts."
+msgid "Pick your default body parts. ![](_images/fuse-assemble.png)"
 msgstr ""
 
 #: ../../source/create/avatars/fuse-tutorial.md:17
 msgid ""
 "Click 'Customize'. Here, you can customize the avatar. For example, you "
 "can customize how the eyebrows are shaped, facial expressions, how long "
-"the fingers are and much more."
+"the fingers are and much more. ![](_images/fuse-customize.png)"
 msgstr ""
 
 #: ../../source/create/avatars/fuse-tutorial.md:18
@@ -4063,17 +4147,22 @@ msgid ""
 "Click 'Clothing'. Here, you can choose the clothing you'd like. In "
 "addition, you can set hair and facial hair options. In the next step, you"
 " will be able to modify the materials, colors, and textures of each "
-"clothing item you choose."
+"clothing item you choose.![](_images/fuse-clothing.png)"
 msgstr ""
 
 #: ../../source/create/avatars/fuse-tutorial.md:19
 msgid ""
 "Click 'Texture'. Here, you can modify your clothing choices with custom "
-"materials and colors."
+"materials and colors. ![](_images/fuse-texture.png)"
 msgstr ""
 
 #: ../../source/create/avatars/fuse-tutorial.md:20
 msgid "Save your avatar."
+msgstr ""
+
+#: ../../source/create/avatars/fuse-tutorial.md:25
+#: ../../source/create/avatars/mixamo-tutorial.md:28
+msgid "[Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)"
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:8
@@ -4084,7 +4173,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:10
-msgid "In this tutorial, we will use the avatar that we created in Adobe Fuse."
+msgid ""
+"In this tutorial, we will use the avatar that we [created in Adobe Fuse"
+"](fuse-tutorial)."
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:12
@@ -4092,13 +4183,13 @@ msgid "Open your avatar in Adobe Fuse."
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:13
-msgid "Go to File > Animate with Mixamo."
+msgid "Go to **File > Animate with Mixamo**."
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:14
 msgid ""
 "Save your avatar with a name and wait while it is exported to the auto-"
-"rigger."
+"rigger.  ![](_images/character-upload.png)"
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:20
@@ -4106,7 +4197,7 @@ msgid ""
 "Once your avatar is processed, Mixamo's auto-rigger will show your "
 "animated avatar. Ensure that Facial Blendshapes are 'Enabled' and "
 "Skeleton LOD has been set to 'Standard'. These settings ensure that your "
-"avatar will work property in High Fidelity."
+"avatar will work property in High Fidelity. ![](_images/auto-rigger.png)"
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:21
@@ -4123,7 +4214,8 @@ msgstr ""
 msgid ""
 "Once your avatar has been successfully rigged, you can download it and "
 "modify it further using a 3D software of your choice. When prompted, "
-"select Format as 'FBX' and Pose as 'T-pose'."
+"select Format as 'FBX' and Pose as 'T-pose'. ![](_images/mixamo-"
+"download.png)"
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:2
@@ -4468,42 +4560,16 @@ msgstr ""
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/create-entities.md:1
-#: ../../source/create/entities/create-spotlight.md:16
-#: ../../source/create/entities/create-spotlight.md:62
-#: ../../source/create/entities/display-youtube.md:15
-#: ../../source/create/entities/display-youtube.md:47
-#: ../../source/create/entities/portal-tutorial.md:21
-#: ../../source/create/entities/portal-tutorial.md:56
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:16
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:112
-#: ../../source/create/entities/zone-tutorial.md:26
-#: ../../source/create/entities/zone-tutorial.md:157
 msgid "Create New Entities"
 msgstr ""
 
 #: ../../source/create/entities.rst:9
-#: ../../source/create/entities/create-entities.md:40
-#: ../../source/create/entities/create-spotlight.md:17
-#: ../../source/create/entities/create-spotlight.md:63
-#: ../../source/create/entities/display-youtube.md:16
-#: ../../source/create/entities/display-youtube.md:48
 #: ../../source/create/entities/entity-appearance.rst:3
-#: ../../source/create/entities/portal-tutorial.md:22
-#: ../../source/create/entities/portal-tutorial.md:57
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:17
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:113
-#: ../../source/create/entities/zone-tutorial.md:27
-#: ../../source/create/entities/zone-tutorial.md:158
 msgid "Change How Entities Look"
 msgstr ""
 
 #: ../../source/create/entities.rst:9
-#: ../../source/create/entities/avatar-interactions.md:65
 #: ../../source/create/entities/entity-behavior.rst:3
-#: ../../source/create/entities/portal-tutorial.md:23
-#: ../../source/create/entities/portal-tutorial.md:58
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:18
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:114
 msgid "Define an Entity's Behavior"
 msgstr "Définir le Comportement d'une Entité"
 
@@ -4513,7 +4579,6 @@ msgid "Apply Physics to Entities"
 msgstr "Appliquer la Physique aux Entités"
 
 #: ../../source/create/entities.rst:9
-#: ../../source/create/entities/create-entities.md:39
 #: ../../source/create/entities/material-entity.rst:3
 #: ../../source/create/entities/material-entity.rst:43
 msgid "Add a Material Entity"
@@ -4539,7 +4604,6 @@ msgid "Prioritize Zones Within Your Domain"
 msgstr ""
 
 #: ../../source/create/entities.rst:9
-#: ../../source/create/entities/create-entities.md:42
 #: ../../source/create/entities/web-entity-media.rst:7
 msgid "Play Media in a Web Entity"
 msgstr ""
@@ -4566,8 +4630,8 @@ msgstr "Ajouter du Son aux Entités"
 #: ../../source/create/entities/add-sounds.md:3
 msgid ""
 "Entities have the ability to add a collision sound, so that the entity "
-"will emit a sound every time it comes in contact, or collides, with "
-"another entity."
+"will emit a sound every time it comes in contact, or [collides, with "
+"another entity](entity-behavior)."
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:5
@@ -4575,8 +4639,9 @@ msgid "To add a sound:"
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:6
-msgid "In Interface, pull up your Tablet or HUD and go to Create."
-msgstr ""
+#, fuzzy
+msgid "In Interface, pull up your Tablet or HUD and go to **Create**."
+msgstr "Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/create/entities/add-sounds.md:7
 msgid "Select the entity."
@@ -4584,7 +4649,7 @@ msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:8
 msgid ""
-"In the Create app, click on 'Properties' and scroll down to the "
+"In the **Create** app, click on 'Properties' and scroll down to the "
 "'Collision' settings."
 msgstr ""
 
@@ -4609,32 +4674,33 @@ msgid "Create a wall to bounce your ball off of:"
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:15
-msgid "Add a cube entity to your domain."
+msgid "[Add a cube entity](create-entities) to your domain."
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:16
 msgid ""
-"Resize the entity to approximately 10m wide, 10m high and 1m deep (X:10, "
-"Y:10, Z:1)."
+"[Resize the entity](entity-appearance.html#set-the-size-of-an-entity) to "
+"approximately 10m wide, 10m high and 1m deep (X:10, Y:10, Z:1)."
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:17
 msgid ""
-"Create a ball by adding a sphere entity to your domain. Optionally, "
-"change the color of your ball, so that it is different than your wall."
+"Create a ball by [adding a sphere entity](create-entities) to your "
+"domain. Optionally, [change the color](entity-appearance.html#change-the-"
+"color-of-an-entity) of your ball, so that it is different than your wall."
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:18
 msgid ""
-"In the Create app, click on 'Properties' and scroll down to the "
+"In the **Create** app, click on 'Properties' and scroll down to the "
 "'Collision' settings. Check the box for 'Collides' and 'Dynamic'."
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:19
 msgid ""
 "For 'Collision Sound', enter the URL of your sound file. The sound must "
-"be a .wav file, uncompressed, 48Khz, 16 bit. The URL can be either a web "
-"address, or an ATP reference to the assets on this domain server."
+"be a *.wav* file, uncompressed, 48Khz, 16 bit. The URL can be either a "
+"web address, or an ATP reference to the assets on this domain server."
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:20
@@ -4653,13 +4719,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:26
-#: ../../source/create/entities/entity-behavior.rst:31
-msgid "Set Entity Behavior on Collision"
+msgid ""
+"[Set Entity Behavior on Collision](entity-behavior.html#set-entity-"
+"behavior-on-collision)"
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:27
-#: ../../source/create/entities/entity-physics.rst:139
-msgid "Set How an Entity Moves in a Gravitational Field"
+msgid ""
+"[Set How an Entity Moves in a Gravitational Field](entity-physics.html"
+"#set-how-an-entity-moves-in-a-gravitational-field)"
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:3
@@ -4675,13 +4743,17 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:6
-#: ../../source/create/entities/avatar-interactions.md:9
-msgid "Control Interactions with Entities using Scripts"
+msgid ""
+"[Control Interactions with Entities using Scripts](#control-interactions-"
+"with-entities-using-Scripts)"
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:7
-#: ../../source/create/entities/avatar-interactions.md:42
-msgid "Create Avatar Entities"
+msgid "[Create Avatar Entities](#create-avatar-entities)"
+msgstr ""
+
+#: ../../source/create/entities/avatar-interactions.md:9
+msgid "Control Interactions with Entities using Scripts"
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:11
@@ -4703,9 +4775,11 @@ msgstr ""
 #: ../../source/create/entities/avatar-interactions.md:15
 msgid ""
 "There are two methods you can use to script these interactions. "
-"Entities.enterEntity() occurs when the avatar contacts the bounding box, "
-"not the model itself. Similarly, Entities.leaveEntity() occurs when the "
-"avatar exits the bounding box."
+"[`Entities.enterEntity()`](https://apidocs.vircadia.dev/Entities.html#.enterEntity)"
+" occurs when the avatar contacts the bounding box, not the model itself. "
+"Similarly, "
+"[`Entities.leaveEntity()`](https://apidocs.vircadia.dev/Entities.html#.leaveEntity)"
+" occurs when the avatar exits the bounding box."
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:17
@@ -4722,21 +4796,21 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:21
-msgid "Create a cube entity."
+msgid "[Create a cube entity](create-entities).  ![](_images/add-entity.png)"
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:22
 msgid ""
 "The following script changes the color of the cube as you approach "
 "(yellow) or leave (pink) its bounding box. Save it to a file called "
-"interactions-example.js."
+"`interactions-example.js`."
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:37
 msgid ""
-"In the Create app, click on 'Properties' and scroll down to the 'Script' "
-"settings. Enter the path and file name to interactions-example.js that "
-"you created above. Press 'Enter'."
+"In the **Create** app, click on 'Properties' and scroll down to the "
+"'Script' settings. Enter the path and file name to `interactions-"
+"example.js` that you created above. Press 'Enter'."
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:39
@@ -4745,6 +4819,10 @@ msgid ""
 "Entities can be used as invisible sensors or expanded to cover an entire "
 "building with the functions running while you are inside, and stop when "
 "you walk out."
+msgstr ""
+
+#: ../../source/create/entities/avatar-interactions.md:42
+msgid "Create Avatar Entities"
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:44
@@ -4756,9 +4834,11 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:46
+#, fuzzy
 msgid ""
-"Avatar entities live on the Avatar Mixer, so they are connected to (and "
-"move with) your avatar. We've listed the ways you can create avatar "
+"Avatar entities live on the [Avatar Mixer](../../explore/get-"
+"started/architecture.html#assignment-clients), so they are connected to "
+"(and move with) your avatar. We've listed the ways you can create avatar "
 "entities with some examples:"
 msgstr ""
 "Les entités avatars vivent sur l'Avatar Mixer, elles sont donc connectées"
@@ -4766,18 +4846,19 @@ msgstr ""
 " dont vous pouvez créer des entités avatar avec quelques exemples :"
 
 #: ../../source/create/entities/avatar-interactions.md:48
-msgid "Create a wearable: All wearables are avatar entities."
+msgid "[Create a wearable:](../wearables) All wearables are avatar entities."
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:49
 msgid ""
-"Clone as an avatar entity: When you clone an entity as an avatar entity, "
-"you make a copy of the entity and attach it to your avatar. Every copy of"
-" that entity will now leave with the avatar when they leave the domain. "
-"For example, if you have a coffee shop in your domain, you can set all "
-"coffee cups to be cloned as avatar entities. Any user who clones a coffee"
-" cup will take the avatar entity with them when they exit the domain. You"
-" can keep your domain free of clutter using this property."
+"[Clone as an avatar entity:](entity-behavior.html#make-an-entity-"
+"cloneable) When you clone an entity as an avatar entity, you make a copy "
+"of the entity and attach it to your avatar. Every copy of that entity "
+"will now leave with the avatar when they leave the domain. For example, "
+"if you have a coffee shop in your domain, you can set all coffee cups to "
+"be cloned as avatar entities. Any user who clones a coffee cup will take "
+"the avatar entity with them when they exit the domain. You can keep your "
+"domain free of clutter using this property."
 msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:50
@@ -4791,22 +4872,33 @@ msgstr ""
 msgid "This example script adds a cube as an avatar entity to your domain."
 msgstr ""
 
+#: ../../source/create/entities/avatar-interactions.md:65
+#: ../../source/create/entities/portal-tutorial.md:23
+#: ../../source/create/entities/portal-tutorial.md:58
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:18
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:114
+#, fuzzy
+msgid "[Define an Entity's Behavior](entity-behavior)"
+msgstr "Définir le Comportement d'une Entité"
+
 #: ../../source/create/entities/avatar-interactions.md:66
 #: ../../source/create/entities/portal-tutorial.md:62
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:118
-msgid "Interact with Your Environment"
+#, fuzzy
+msgid "[Interact with Your Environment](../../explore/interact)"
 msgstr "Interagir avec votre Environnement"
 
 #: ../../source/create/entities/avatar-interactions.md:67
-msgid "API Reference: Entities"
-msgstr ""
+#, fuzzy
+msgid "[API Reference: Entities](https://apidocs.vircadia.dev/Entities.html)"
+msgstr "`API Reference : Entitiés <https://apidocs.vircadia.dev/Entities.html>`_"
 
 #: ../../source/create/entities/avatar-interactions.md:68
 #: ../../source/create/entities/portal-tutorial.md:24
 #: ../../source/create/entities/portal-tutorial.md:59
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:19
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:115
-msgid "Get Started with Scripting"
+msgid "[Get Started with Scripting](../../script/get-started-with-scripting)"
 msgstr ""
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:3
@@ -5359,7 +5451,7 @@ msgid ""
 "We are continually surprised by the ingenuity and creativity of the "
 "content creators in the community. You too can join this community by "
 "creating new entities. The easiest way to start building is to use "
-"Vircadia's Create app."
+"Vircadia's **Create** app."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:10
@@ -5367,11 +5459,14 @@ msgid "To add a new entity to your domain:"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:11
-msgid "In Interface, pull up your tablet or HUD and go to Create."
-msgstr ""
+#, fuzzy
+msgid "In Interface, pull up your tablet or HUD and go to **Create**."
+msgstr "Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/create/entities/create-entities.md:12
-msgid "In the Create app, select the type of entity you want to create."
+msgid ""
+"In the **Create** app, select the [type of entity](#types-of-entities) "
+"you want to create."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:13
@@ -5379,7 +5474,9 @@ msgid "Depending on the entity type, the behavior will be different:"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:14
-msgid "For model and material entities, enter the URL that you want to import."
+msgid ""
+"For model and [material entities](material-entity), enter the URL that "
+"you want to import."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:15
@@ -5390,8 +5487,12 @@ msgstr ""
 
 #: ../../source/create/entities/create-entities.md:16
 msgid ""
-"Edit the properties of your entity so that it looks and behaves like you "
-"want it to."
+"Edit the properties of your entity so that it [looks](entity-appearance) "
+"and [behaves](entity-behavior) like you want it to."
+msgstr ""
+
+#: ../../source/create/entities/create-entities.md:18
+msgid "![](_images/add-cube.png)"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:20
@@ -5403,76 +5504,99 @@ msgid "You can choose from the following entity types:"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:23
-msgid "MODEL entities are 3D models that you can import in-world."
+msgid "**MODEL** entities are 3D models that you can import in-world."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:24
-msgid "CUBE entities are used to create basic box shaped entities."
+msgid "**CUBE** entities are used to create basic box shaped entities."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:25
-msgid "SPHERE entities are used to create basic sphere shaped entities."
+msgid "**SPHERE** entities are used to create basic sphere shaped entities."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:26
 msgid ""
-"LIGHT entities are balls or beams of light that are used to add local "
-"lighting effects and spotlights to an area."
+"**LIGHT** entities are balls or beams of light that are used to add local"
+" lighting effects and spotlights to an area."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:27
 msgid ""
-"TEXT entities display text against a flat plane, similar to a whiteboard "
-"or blackboard."
+"**TEXT** entities display text against a flat plane, similar to a "
+"whiteboard or blackboard."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:28
-msgid "IMAGE entities display an image from a specified URL."
+msgid "**IMAGE** entities display an image from a specified URL."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:29
 msgid ""
-"WEB entities display a web page from a specified URL. Only 20 web "
+"**WEB** entities display a web page from a specified URL. Only 20 web "
 "entities can run at the same time in a domain."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:30
 msgid ""
-"ZONE entities are 3-dimensional areas that allow you to create a custom "
-"lighting environment."
+"**ZONE** entities are 3-dimensional areas that allow you to create a "
+"custom lighting environment."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:31
 msgid ""
-"PARTICLE entities create dynamic effects that are made of many small "
+"**PARTICLE** entities create dynamic effects that are made of many small "
 "parts, such as smoke clouds or falling water."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:32
 msgid ""
-"MATERIAL entities modify the existing materials on other entities and "
-"avatars."
+"**[MATERIAL](material-entity)** entities modify the existing materials on"
+" other entities and avatars."
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:38
-#: ../../source/create/tools.rst:16
-msgid "The Create App"
+msgid "[The Create App](../tools.html#the-create-app)"
+msgstr ""
+
+#: ../../source/create/entities/create-entities.md:39
+#, fuzzy
+msgid "[Add a Material Entity](material-entity)"
+msgstr ":doc:`Ajoutez une Entité de Matériau <../entities/material-entity>`"
+
+#: ../../source/create/entities/create-entities.md:40
+#: ../../source/create/entities/create-spotlight.md:17
+#: ../../source/create/entities/create-spotlight.md:63
+#: ../../source/create/entities/display-youtube.md:16
+#: ../../source/create/entities/display-youtube.md:48
+#: ../../source/create/entities/portal-tutorial.md:22
+#: ../../source/create/entities/portal-tutorial.md:57
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:17
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:113
+#: ../../source/create/entities/zone-tutorial.md:27
+#: ../../source/create/entities/zone-tutorial.md:158
+msgid "[Change How Entities Look](entity-appearance)"
+msgstr ""
+
+#: ../../source/create/entities/create-entities.md:41
+#, fuzzy
+msgid "[Import Your 3D Model](../3d-models/import-model)"
+msgstr ":doc:`Importez votre modèle 3D <import-model>`"
+
+#: ../../source/create/entities/create-entities.md:42
+msgid "[Play Media in a Web Entity](web-entity-media)"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:43
-#: ../../source/create/entities/create-spotlight.md:1
-#: ../../source/create/entities/tutorials.rst:7
-msgid "Tutorial: Create a Gold Spotlight"
+msgid "[Tutorial: Create a Gold Spotlight](create-spotlight)"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:44
-#: ../../source/create/entities/display-youtube.md:1
-#: ../../source/create/entities/tutorials.rst:7
-msgid "Tutorial: Display a YouTube Channel"
+msgid "[Tutorial: Display a YouTube Channel](display-youtube)"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:45
-msgid "Tutorial: Modify a Zone Entity's Properties"
+msgid "[Tutorial: Modify a Zone Entity's Properties](zone-tutorial)"
 msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:3
@@ -5697,6 +5821,11 @@ msgid ""
 " a waterfall, confetti gun, or falling leaves."
 msgstr ""
 
+#: ../../source/create/entities/create-spotlight.md:1
+#: ../../source/create/entities/tutorials.rst:7
+msgid "Tutorial: Create a Gold Spotlight"
+msgstr ""
+
 #: ../../source/create/entities/create-spotlight.md:3
 msgid ""
 "In this tutorial, you will learn how light entities work by creating a "
@@ -5705,37 +5834,43 @@ msgid ""
 "spotlights to an area."
 msgstr ""
 
+#: ../../source/create/entities/create-spotlight.md:7
+#: ../../source/create/entities/display-youtube.md:7
+msgid "[Prerequisites](#prerequisities)"
+msgstr ""
+
 #: ../../source/create/entities/create-spotlight.md:8
-#: ../../source/create/entities/create-spotlight.md:19
-msgid "Create a Wall to Shine the Light On"
+msgid ""
+"[Create a Wall to Shine the Light On](#create-a-wall-to-shine-the-light-"
+"on)"
 msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:9
-#: ../../source/create/entities/create-spotlight.md:34
-msgid "Create the Gold Spotlight"
+msgid "[Create the Gold Spotlight](#create-the-gold-spotlight)"
+msgstr ""
+
+#: ../../source/create/entities/create-spotlight.md:16
+#: ../../source/create/entities/create-spotlight.md:62
+#: ../../source/create/entities/display-youtube.md:15
+#: ../../source/create/entities/display-youtube.md:47
+#: ../../source/create/entities/portal-tutorial.md:21
+#: ../../source/create/entities/portal-tutorial.md:56
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:16
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:112
+#: ../../source/create/entities/zone-tutorial.md:26
+#: ../../source/create/entities/zone-tutorial.md:157
+#, fuzzy
+msgid "[Create New Entities](create-entities)"
+msgstr ":doc:`Créer de Nouvelles Entités <../entities/create-entities>`"
+
+#: ../../source/create/entities/create-spotlight.md:19
+msgid "Create a Wall to Shine the Light On"
 msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:21
 msgid ""
 "Your gold spotlight needs a surface to shine on. Create this surface or "
-"wall in the Create app:"
-msgstr ""
-
-#: ../../source/create/entities/create-spotlight.md:23
-#: ../../source/create/entities/create-spotlight.md:43
-#: ../../source/create/entities/display-youtube.md:24
-#: ../../source/create/entities/display-youtube.md:36
-#: ../../source/create/entities/portal-tutorial.md:41
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:36
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:44
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:64
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:73
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:104
-#: ../../source/create/entities/zone-tutorial.md:33
-#: ../../source/create/entities/zone-tutorial.md:60
-#: ../../source/create/entities/zone-tutorial.md:77
-#: ../../source/create/entities/zone-tutorial.md:105
-msgid "In Interface, pull up your HUD or Tablet and go to Create."
+"wall in the **Create** app:"
 msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:24
@@ -5771,7 +5906,11 @@ msgid "Z = '3.2000'"
 msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:32
-msgid "You've made your wall!"
+msgid "You've made your wall! ![](_images/teal-wall-prop.PNG)"
+msgstr ""
+
+#: ../../source/create/entities/create-spotlight.md:34
+msgid "Create the Gold Spotlight"
 msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:36
@@ -5842,7 +5981,7 @@ msgid ""
 "Rotate the spotlight so that it's facing down the wall by changing the "
 "'Local Rotation's' X value to '-90.0000'. A spotlight positioned like "
 "this can be used for a soft lighting effect over paintings or wall "
-"hangings in your world."
+"hangings in your world.  ![](_images/spotlight-prop.PNG)"
 msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:56
@@ -5852,8 +5991,18 @@ msgid ""
 "combinations for varied effects."
 msgstr ""
 
+#: ../../source/create/entities/create-spotlight.md:58
+msgid "![](_images/spotlight.PNG)"
+msgstr ""
+
 #: ../../source/create/entities/create-spotlight.md:64
-msgid "Creator Tools"
+#, fuzzy
+msgid "[Creator Tools](../tools)"
+msgstr ":doc:`Outils de Création <../tools>`"
+
+#: ../../source/create/entities/display-youtube.md:1
+#: ../../source/create/entities/tutorials.rst:7
+msgid "Tutorial: Display a YouTube Channel"
 msgstr ""
 
 #: ../../source/create/entities/display-youtube.md:3
@@ -5864,13 +6013,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/display-youtube.md:8
-#: ../../source/create/entities/display-youtube.md:18
-msgid "Create a Web Entity"
+msgid "[Create a Web Entity](#create-a-web-entity)"
 msgstr ""
 
 #: ../../source/create/entities/display-youtube.md:9
-#: ../../source/create/entities/display-youtube.md:32
-msgid "Display Vircadia's YouTube Channel"
+msgid "[Display Vircadia's YouTube Channel](#display-vircadia-s-youtube-channel)"
+msgstr ""
+
+#: ../../source/create/entities/display-youtube.md:18
+msgid "Create a Web Entity"
 msgstr ""
 
 #: ../../source/create/entities/display-youtube.md:20
@@ -5890,6 +6041,10 @@ msgid ""
 "always displays Vircadia's home page."
 msgstr ""
 
+#: ../../source/create/entities/display-youtube.md:32
+msgid "Display Vircadia's YouTube Channel"
+msgstr ""
+
 #: ../../source/create/entities/display-youtube.md:34
 msgid "You can make the web entity display Vircadia's YouTube channel."
 msgstr ""
@@ -5903,6 +6058,10 @@ msgid ""
 "Scroll down until you see the 'Source URL' option. Enter the Vircadia "
 "YouTube channel URL: https://www.youtube.com/channel/UC5gVObAP0ANbXr-"
 "lNCjP3xg. You should see the new page as soon as you hit 'Enter'."
+msgstr ""
+
+#: ../../source/create/entities/display-youtube.md:40
+msgid "![](_images/source-url.PNG) ![](_images/youtube-web-entity.PNG)"
 msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:5
@@ -6335,6 +6494,10 @@ msgstr ""
 msgid ""
 "Go to the 'Properties' tab, scroll down to 'Collision' and check "
 "'Dynamic'."
+msgstr ""
+
+#: ../../source/create/entities/entity-behavior.rst:31
+msgid "Set Entity Behavior on Collision"
 msgstr ""
 
 #: ../../source/create/entities/entity-behavior.rst:33
@@ -6914,6 +7077,10 @@ msgid ""
 "'Properties' tab. Change it to the value of your choice."
 msgstr ""
 
+#: ../../source/create/entities/entity-physics.rst:139
+msgid "Set How an Entity Moves in a Gravitational Field"
+msgstr ""
+
 #: ../../source/create/entities/entity-physics.rst:143
 msgid "**Unit:** meters/second²"
 msgstr ""
@@ -6970,6 +7137,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/hero-zone.rst:17
+#: ../../source/create/entities/zone-tutorial.md:35
 msgid ""
 "If you are unable to view the zone's bounding box, go to **Edit > Show "
 "Zones in Create mode** and select the option. Your zone should now be "
@@ -7213,39 +7381,53 @@ msgstr ""
 msgid ""
 "Portals in Vircadia transport you to the domain of your choice. You can "
 "use these portals to travel to a domain you visit frequently instead of "
-"using the GoTo app on your HUD or Tablet."
+"using the **GoTo** app on your HUD or Tablet."
+msgstr ""
+
+#: ../../source/create/entities/portal-tutorial.md:12
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:7
+#: ../../source/create/entities/zone-tutorial.md:14
+msgid "[Prerequisites](#prerequisites)"
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:13
-#: ../../source/create/entities/portal-tutorial.md:28
-msgid "Write a Script for the Portal"
+msgid "[Write a Script for the Portal](#write-a-script-for-the-portal)"
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:14
-#: ../../source/create/entities/portal-tutorial.md:37
-msgid "Create and Edit an Entity to Use as a Portal"
+msgid ""
+"[Create and Edit an Entity to Use as a Portal](#create-and-edit-an-"
+"entity-to-use-as-a-portal)"
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:25
 #: ../../source/create/entities/portal-tutorial.md:60
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:20
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:116
-msgid "Client Entity Scripts"
+msgid "[Client Entity Scripts](../../script/client-entity-scripts)"
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:26
 #: ../../source/create/entities/portal-tutorial.md:61
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:21
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:117
-msgid "Write Your Own Scripts"
+#, fuzzy
+msgid "[Write Your Own Scripts](../../script/write-scripts)"
+msgstr ":doc:`Rédigez vos propres scripts <../script/write-scripts>`"
+
+#: ../../source/create/entities/portal-tutorial.md:28
+msgid "Write a Script for the Portal"
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:30
 msgid ""
 "A portal is an entity with a script attached (entity script). This "
 "attached script defines what happens when a user comes in contact with "
-"the portal. We've used portal.js, the script used to teleport in Vircadia"
-" domains. You can also write your own script to suit your needs."
+"the portal. We've used "
+"[portal.js](https://raw.githubusercontent.com/vircadia/vircadia-"
+"content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js),"
+" the script used to teleport in Vircadia domains. You can also [write "
+"your own script](../../script/write-scripts) to suit your needs."
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:32
@@ -7254,8 +7436,8 @@ msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:33
 msgid ""
-"Uses Vircadia's JavaScript API to determine when a user walks into the "
-"entity and the teleport destination."
+"Uses Vircadia's [JavaScript API](https://apidocs.vircadia.dev) to "
+"determine when a user walks into the entity and the teleport destination."
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:34
@@ -7266,20 +7448,28 @@ msgstr ""
 msgid "Teleports a user to the specified destination."
 msgstr ""
 
+#: ../../source/create/entities/portal-tutorial.md:37
+msgid "Create and Edit an Entity to Use as a Portal"
+msgstr ""
+
 #: ../../source/create/entities/portal-tutorial.md:39
 msgid ""
-"Any entity you create to be used as a portal has to be collisionless so "
-"that the script can detect when you walk into the entity."
+"Any entity you create to be used as a portal has to be [collisionless"
+"](entity-behavior.html#set-entity-behavior-on-collision) so that the "
+"script can detect when you walk into the entity."
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:42
 msgid ""
-"Create an entity to be used as a portal. This can be a 3D model or a box "
-"or sphere entity."
+"[Create an entity](create-entities) to be used as a portal. This can be a"
+" 3D model or a box or sphere entity."
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:44
-msgid "Next to 'Script', paste the script URL. In this case, it is 'portal.js'."
+msgid ""
+"Next to 'Script', paste the script URL. In this case, it is "
+"'[portal.js](https://raw.githubusercontent.com/vircadia/vircadia-"
+"content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js)'."
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:45
@@ -7289,7 +7479,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:46
-msgid "Add hifi:// welcome (Vircadia's welcome domain) to the 'User Data' field."
+msgid ""
+"Add `hifi:// welcome` (Vircadia's welcome domain) to the 'User Data' "
+"field."
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:47
@@ -7299,7 +7491,11 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:48
-msgid "Exit Create mode and walk into the entity."
+msgid "Exit **Create** mode and walk into the entity."
+msgstr ""
+
+#: ../../source/create/entities/portal-tutorial.md:50
+msgid "![](_images/create-portal.png)"
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:52
@@ -7320,13 +7516,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:8
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:23
-msgid "Create a Painting Set"
+msgid "[Create a Painting Set](#create-a-painting-set)"
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:9
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:95
-msgid "Add a Paint Brush Script"
+msgid "[Add a Paint Brush Script](#add-a-paint-brush-script)"
+msgstr ""
+
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:23
+msgid "Create a Painting Set"
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:25
@@ -7334,15 +7532,17 @@ msgid "Our painting set comprises three elements:"
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:26
-msgid "A brush, made of a cylinder and a sphere object."
+msgid "[A brush, made of a cylinder and a sphere object](#create-a-paint-brush)."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:27
-msgid "A palette, made of an octagon and sphere object."
+msgid ""
+"[A palette, made of an octagon and sphere object](#create-a-paint-"
+"palette)."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:28
-msgid "A canvas, made of box entities."
+msgid "[A canvas, made of box entities](#create-a-pixel-canvas)."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:30
@@ -7370,8 +7570,8 @@ msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:37
 msgid ""
-"Create an entity to be used as the handle. This can be a box or sphere "
-"entity."
+"[Create an entity](create-entities) to be used as the handle. This can be"
+" a box or sphere entity."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:38
@@ -7402,8 +7602,8 @@ msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:45
 msgid ""
-"Click on the 'SPHERE' icon to create a sphere entity to be used as the "
-"brush head."
+"Click on the ['SPHERE' icon](create-entities) to create a sphere entity "
+"to be used as the brush head."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:46
@@ -7430,8 +7630,8 @@ msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:52
 msgid ""
-"In Create Tools app, select your brush handle and go to the 'Properties' "
-"tab."
+"In **Create** Tools app, select your brush handle and go to the "
+"'Properties' tab."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:53
@@ -7460,7 +7660,8 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:58
 msgid ""
 "We've detailed how you can add a script to use the brush to transfer "
-"color to other objects in Add a Paint Brush Script."
+"color to other objects in [Add a Paint Brush Script](#add-a-paint-brush-"
+"script)."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:60
@@ -7481,8 +7682,8 @@ msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:65
 msgid ""
-"Create an entity to be used as the palette base. This can be a box or "
-"sphere entity."
+"[Create an entity](create-entities) to be used as the palette base. This "
+"can be a box or sphere entity."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:66
@@ -7516,7 +7717,9 @@ msgid "To create the paint colors:"
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:74
-msgid "Create a sphere entity to be used as your first paint color."
+msgid ""
+"[Create a sphere entity](create-entities) to be used as your first paint "
+"color."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:75
@@ -7537,7 +7740,7 @@ msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:78
 msgid ""
-"In the Create Tools app, select your palette base and go to the "
+"In the **Create** Tools app, select your palette base and go to the "
 "'Properties' tab."
 msgstr ""
 
@@ -7577,11 +7780,14 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:90
-msgid "In Interface, go to Menu > Edit and select 'Import Entities from URL'."
+msgid "In Interface, go to **Menu > Edit** and select 'Import Entities from URL'."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:91
-msgid "Paste this URL into the dialog window and select 'OK'."
+msgid ""
+"Paste [this "
+"URL](https://docs.vircadia.dev/_static/resources/entities/canvas.json) "
+"into the dialog window and select 'OK'."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:93
@@ -7589,6 +7795,10 @@ msgid ""
 "The canvas is made up of box entities parented to a single backplate, but"
 " you could use any entities to create a scene that could be painted this "
 "way."
+msgstr ""
+
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:95
+msgid "Add a Paint Brush Script"
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:97
@@ -7624,13 +7834,13 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:107
 msgid ""
 "Next to 'Script', paste the script URL. In this case, it is "
-"'brushScript.js'."
+"'[brushScript.js](https://docs.vircadia.dev/_static/resources/entities/brushScript.js)'."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:108
 msgid ""
-"After you close the Create app, test it out by painting on the canvas in "
-"your domain!"
+"After you close the **Create** app, test it out by painting on the canvas"
+" in your domain!"
 msgstr ""
 
 #: ../../source/create/entities/tutorials.rst:7
@@ -8330,28 +8540,29 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:15
-#: ../../source/create/entities/zone-tutorial.md:29
-msgid "Create a Zone Entity"
+msgid "[Create a Zone Entity](#create-a-zone-entity)"
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:16
-#: ../../source/create/entities/zone-tutorial.md:38
-msgid "Create Nested Zones with Different Lighting"
+msgid ""
+"[Create Nested Zones with Different Lighting](#create-nested-zones-with-"
+"different-lighting)"
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:17
-#: ../../source/create/entities/zone-tutorial.md:87
-msgid "Change a Zone's Shape"
+msgid "[Change a Zone's Shape](#change-a-zones-shape)"
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:18
-#: ../../source/create/entities/zone-tutorial.md:100
-msgid "Add a Skybox to a Zone"
+msgid "[Add a Skybox to a Zone](#add-a-skybox-to-a-zone)"
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:19
-#: ../../source/create/entities/zone-tutorial.md:143
-msgid "Add Ambient Light to a Zone"
+msgid "[Add Ambient Light to a Zone](#add-ambient-light-to-a-zone)"
+msgstr ""
+
+#: ../../source/create/entities/zone-tutorial.md:29
+msgid "Create a Zone Entity"
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:31
@@ -8364,15 +8575,12 @@ msgid ""
 "shape showing the zone's bounding box."
 msgstr ""
 
-#: ../../source/create/entities/zone-tutorial.md:35
-msgid ""
-"If you are unable to view the zone's bounding box, go to Edit > Show "
-"Zones in Create mode and select the option. Your zone should now be "
-"visible."
-msgstr ""
-
 #: ../../source/create/entities/zone-tutorial.md:36
 msgid "Go to the 'Properties' tab, and add a name 'Zone-1' for your zone."
+msgstr ""
+
+#: ../../source/create/entities/zone-tutorial.md:38
+msgid "Create Nested Zones with Different Lighting"
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:40
@@ -8390,24 +8598,31 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:43
+msgid "[Create Two Zone Entities](#create-two-zone-entities)"
+msgstr ""
+
+#: ../../source/create/entities/zone-tutorial.md:44
+msgid "[Nest One Zone Inside the Other](#nest-one-zone-inside-the-other)"
+msgstr ""
+
+#: ../../source/create/entities/zone-tutorial.md:45
+msgid ""
+"[Add Different Lighting Effects to Each Zone](#add-different-lighting-"
+"effects-to-each-zone)"
+msgstr ""
+
 #: ../../source/create/entities/zone-tutorial.md:47
 msgid "Create Two Zone Entities"
 msgstr ""
 
-#: ../../source/create/entities/zone-tutorial.md:44
-#: ../../source/create/entities/zone-tutorial.md:56
-msgid "Nest One Zone Inside the Other"
-msgstr ""
-
-#: ../../source/create/entities/zone-tutorial.md:45
-#: ../../source/create/entities/zone-tutorial.md:65
-msgid "Add Different Lighting Effects to Each Zone"
-msgstr ""
-
 #: ../../source/create/entities/zone-tutorial.md:49
 msgid ""
-"Follow the steps to create a zone entity to create two zone entities "
-"named 'Zone-1' and 'Zone-2'."
+"Follow the steps to [create a zone entity](#create-a-zone-entity) to "
+"create two zone entities named 'Zone-1' and 'Zone-2'."
+msgstr ""
+
+#: ../../source/create/entities/zone-tutorial.md:56
+msgid "Nest One Zone Inside the Other"
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:58
@@ -8425,8 +8640,8 @@ msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:62
 msgid ""
-"In the 'Properties' tab, change the dimensions of 'Zone-1' to x=5, y=10, "
-"z=5."
+"In the 'Properties' tab, change the dimensions of 'Zone-1' to `x=5, y=10,"
+" z=5`."
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:63
@@ -8435,6 +8650,10 @@ msgid ""
 "change the zone's position. 'Zone-1' will already be inside 'Zone-2'. If "
 "you moved while creating the zones, select 'Zone-1' and move it inside "
 "'Zone-2'."
+msgstr ""
+
+#: ../../source/create/entities/zone-tutorial.md:65
+msgid "Add Different Lighting Effects to Each Zone"
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:67
@@ -8479,8 +8698,8 @@ msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:80
 msgid ""
-"Click on 'Key Light' color, and add these RGB (255,0,0) values to add a "
-"red key light."
+"Click on 'Key Light' color, and add these RGB (`255,0,0`) values to add a"
+" red key light."
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:81
@@ -8496,14 +8715,18 @@ msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:83
 msgid ""
-"Click on 'Key Light' color, and add these RGB (0,0,255) values to add a "
-"blue key light."
+"Click on 'Key Light' color, and add these RGB (`0,0,255`) values to add a"
+" blue key light."
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:85
 msgid ""
 "When your avatar walks from Zone-1 to Zone-2, you will see the lighting "
 "around change from red to blue."
+msgstr ""
+
+#: ../../source/create/entities/zone-tutorial.md:87
+msgid "Change a Zone's Shape"
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:89
@@ -8548,6 +8771,10 @@ msgstr ""
 msgid "All shapes will be stretched to fit the zone entity's dimensions."
 msgstr ""
 
+#: ../../source/create/entities/zone-tutorial.md:100
+msgid "Add a Skybox to a Zone"
+msgstr ""
+
 #: ../../source/create/entities/zone-tutorial.md:102
 msgid ""
 "A skybox determines the texture of the sky in your domain. The skybox can"
@@ -8568,8 +8795,8 @@ msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:108
 msgid ""
-"Click on 'Skybox' color, and add these RGB (0,0,255) values to add a blue"
-" key light."
+"Click on 'Skybox' color, and add these RGB (`0,0,255`) values to add a "
+"blue key light."
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:110
@@ -8598,6 +8825,10 @@ msgid ""
 "skybox."
 msgstr ""
 
+#: ../../source/create/entities/zone-tutorial.md:143
+msgid "Add Ambient Light to a Zone"
+msgstr ""
+
 #: ../../source/create/entities/zone-tutorial.md:145
 msgid ""
 "The ambient light in a zone is a source of light different from the key "
@@ -8612,7 +8843,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:150
-msgid "Change the 'Ambient Intensity' to 1.00."
+msgid "Change the 'Ambient Intensity' to `1.00`."
 msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:151
@@ -9165,6 +9396,10 @@ msgid ""
 "anything from a cool avatar or a baseball hat, to a magic themed domain."
 msgstr ""
 
+#: ../../source/create/tools.rst:16
+msgid "The Create App"
+msgstr ""
+
 #: ../../source/create/tools.rst:18
 msgid ""
 "Use the **Create** app to create any :doc:`type of entity <entities"
@@ -9297,7 +9532,7 @@ msgid ""
 "rigging to create simple animations for your avatar."
 msgstr ""
 
-#: ../../source/create/tools.rst:99 ../../source/create/wearables.md:16
+#: ../../source/create/tools.rst:99
 msgid "Blender"
 msgstr ""
 
@@ -9310,7 +9545,7 @@ msgid ""
 "Vircadia."
 msgstr ""
 
-#: ../../source/create/tools.rst:105 ../../source/create/wearables.md:17
+#: ../../source/create/tools.rst:105
 msgid "Maya"
 msgstr ""
 
@@ -9361,7 +9596,7 @@ msgid ""
 "Wearables are objects that attach to your avatar. They can be hats, "
 "skirts, glasses, headphones and anything else that can accessorize your "
 "look in-world. You can express your individuality by creating wearables "
-"of your own and putting them on."
+"of your own and [putting them on](../explore/personalize/add-wearables)."
 msgstr ""
 
 #: ../../source/create/wearables.md:10
@@ -9378,9 +9613,9 @@ msgstr ""
 
 #: ../../source/create/wearables.md:13
 msgid ""
-"Wearables are simply 3D models that are customized to fit on your avatar."
-" Therefore, the first step in creating your wearable is to build one or "
-"find an existing model that you want to use."
+"Wearables are simply [3D models](3d-models) that are customized to fit on"
+" your avatar. Therefore, the first step in creating your wearable is to "
+"build one or find an existing model that you want to use."
 msgstr ""
 
 #: ../../source/create/wearables.md:15
@@ -9389,16 +9624,24 @@ msgid ""
 "3D model for your wearable, including:"
 msgstr ""
 
+#: ../../source/create/wearables.md:16
+msgid "[Blender](https://www.blender.org)"
+msgstr ""
+
+#: ../../source/create/wearables.md:17
+msgid "[Maya](https://www.autodesk.com/products/maya/overview)"
+msgstr ""
+
 #: ../../source/create/wearables.md:18
-msgid "Google Blocks"
+msgid "[Google Blocks](https://vr.google.com/blocks)"
 msgstr ""
 
 #: ../../source/create/wearables.md:19
-msgid "Oculus Medium"
+msgid "[Oculus Medium](https://www.oculus.com/medium)"
 msgstr ""
 
 #: ../../source/create/wearables.md:20
-msgid "Tiltbrush"
+msgid "[Tiltbrush](https://www.tiltbrush.com)"
 msgstr ""
 
 #: ../../source/create/wearables.md:22
@@ -9438,21 +9681,25 @@ msgstr ""
 
 #: ../../source/create/wearables.md:31
 msgid ""
-"When building your model, be sure to follow these guidelines to ensure "
-"that it is compatible with Vircadia.  Once you're done editing your "
-"model, export the file as an FBX or OBJ file. You've now created your own"
-" custom model!"
+"When building your model, be sure to [follow these guidelines](3d-models"
+"/get-model) to ensure that it is compatible with Vircadia.  Once you're "
+"done editing your model, export the file as an FBX or OBJ file. You've "
+"now created your own custom model!"
 msgstr ""
 
 #: ../../source/create/wearables.md:33
 msgid ""
-"After hosting your wearable in the cloud or the Marketplace, put it on "
-"and adopt your new look."
+"After hosting your wearable in the cloud or the Marketplace, [put it "
+"on](../explore/personalize/add-wearables) and adopt your new look."
+msgstr ""
+
+#: ../../source/create/wearables.md:43
+msgid "[Get Your 3D Model](3d-models/get-model)"
 msgstr ""
 
 #: ../../source/create/wearables.md:44
-msgid "Put On Wearables"
-msgstr "Habillez vous de Vêtements"
+msgid "[Put On Wearables](../explore/personalize/add-wearables)"
+msgstr ""
 
 #~ msgid ""
 #~ "Vircadia supports different types of "
@@ -10040,4 +10287,954 @@ msgstr "Habillez vous de Vêtements"
 
 #~ msgid "Add Your Wearable"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: Mentions High Fidelity, could use"
+#~ " slightly more \"Best Practices\""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Check Licensing Terms:** Make sure you"
+#~ " check a model's licensing terms "
+#~ "before you use it. It is your "
+#~ "responsibility to ensure that you have"
+#~ " sufficient rights to use the "
+#~ "content. When you make a 3D model"
+#~ " available on your Vircadia server, "
+#~ "visitors are getting the links to "
+#~ "those files in the same way as "
+#~ "they would when viewing an image "
+#~ "on a website. You should be "
+#~ "comfortable that you have the rights "
+#~ "to re-distribute the 3D content."
+#~ msgstr ""
+#~ "**Consultez les conditions de licence:** "
+#~ "Assurez vous de consulter les conditions"
+#~ " de licence du modèle avant de "
+#~ "l'utiliser. Il est de votre "
+#~ "résponsabilité de vous assurer que vous"
+#~ " avez des droits suffisants d'utiliser "
+#~ "le contenu. Quand vous mettez à "
+#~ "disposition un modèle 3D sur un "
+#~ "Vircadia serveur les visiteurs reçoivent "
+#~ "le lien à ces fichiers de la "
+#~ "même manière que si ils regardaient "
+#~ "une image sur un site web. Vous"
+#~ " devez vous sentir réassurré d'avoir "
+#~ "le droit de redistribuer le contenu "
+#~ "3D."
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: Mentions High Fidelity, spelling "
+#~ "mistakes, only mentions FBX (check if"
+#~ " more formats are supported), should "
+#~ "framerate really be set to 30fps?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Enrich your High Fidelity experience by"
+#~ " having 3D models in your domain "
+#~ "with animations. For example, you can"
+#~ " import the 3D model of a flag"
+#~ " that appears to flutter with the "
+#~ "wind using this feature."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need to be familiar with "
+#~ "creating animations in 3D modeling tools"
+#~ " such as Blender and Maya before "
+#~ "importing an animation into High "
+#~ "Fidelity."
+#~ msgstr ""
+
+#~ msgid "Set the framerate to 30 fps for the best results (our recommendation)."
+#~ msgstr ""
+#~ "Pour les meilleurs résultats ajuster la"
+#~ " fréquence d'images à 30 fps (notre"
+#~ " recommendation)."
+
+#~ msgid "Export your animation as an FBX file."
+#~ msgstr "Exportez votre animation en format FBX."
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: Blender material settings outdated"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia supports physically-based rendering"
+#~ " (PBR) materials. This means that "
+#~ "your model will behave like a real"
+#~ " world object when exposed to light."
+#~ " For example, the same 3D model "
+#~ "of a key will shine and reflect"
+#~ " any light that falls on it. "
+#~ "The 3D model of a brick wall "
+#~ "will not shine, but will reflect "
+#~ "enough light for you to observe "
+#~ "its colors and surface."
+#~ msgstr ""
+#~ "Vircadia soutient les matériaux de rendu"
+#~ " basés sur la physique (PBR). Cela"
+#~ " signifie que votre modèle se "
+#~ "comportera comme un objet du monde "
+#~ "réel lorsqu'il sera exposé à la "
+#~ "lumière. Par exemple, le même modèle "
+#~ "3D d'une clé brillera et réfléchira "
+#~ "toute lumière qui tombera dessus. Le "
+#~ "modèle 3D d'un mur en briques ne"
+#~ " brillera pas, mais réfléchira suffisamment"
+#~ " de lumière pour que vous puissiez"
+#~ " observer ses couleurs et sa surface."
+
+#~ msgid ""
+#~ "**Setting a Value:** The value of "
+#~ "a channel is a value set on "
+#~ "a slider. Setting a value is like"
+#~ " turning off or turning on a "
+#~ "switch. For example, if you look "
+#~ "at your phone, some parts of it"
+#~ " are shiny and some are matte. "
+#~ "When you use a value, the entire"
+#~ " object reflects that value. If you"
+#~ " want different parts of an object"
+#~ " to reflect varied roughness, you'll "
+#~ "need to use a map."
+#~ msgstr ""
+#~ "**Définir une valeur:** La valeur d'un"
+#~ " canal est une valeur fixée sur "
+#~ "un curseur. Définir une valeur est "
+#~ "comme éteindre ou allumer un "
+#~ "interrupteur. Par exemple, si vous "
+#~ "regardez votre téléphone, certaines parties"
+#~ " de celui-ci sont brillantes et "
+#~ "d'autres sont mates. Lorsque vous "
+#~ "utilisez une valeur, l'objet entier "
+#~ "reflète cette valeur. Si vous voulez "
+#~ "que différentes parties d'un objet "
+#~ "reflètent des rugosités variées, vous "
+#~ "devez utiliser une carte."
+
+#~ msgid ""
+#~ "We've listed all material information "
+#~ "(including textures, shading, and channel "
+#~ "values and maps) for these sample "
+#~ "objects `here <https://docs.google.com/spreadsheets/d/e"
+#~ "/2PACX-1vRsPXURPsIYV_LeEz1A7IS-t44qdTMtbrq-"
+#~ "gZ47BAoxhd0kLs_Yxh-i1G4Ukz-aunTj-"
+#~ "nLVF7sjZd1n/pubhtml?gid=0&single=true>`_."
+#~ msgstr ""
+#~ "Nous avons répertorié toutes les "
+#~ "informations concernant les matériaux (y "
+#~ "compris les textures, les nuancements, "
+#~ "les valeurs des canaux et les "
+#~ "cartes) pour ces objets échantillons "
+#~ "`ici <https://docs.google.com/spreadsheets/d/e/2PACX-"
+#~ "1vRsPXURPsIYV_LeEz1A7IS-t44qdTMtbrq-gZ47BAoxhd0kLs_Yxh-"
+#~ "i1G4Ukz-aunTj-nLVF7sjZd1n/pubhtml?gid=0&single=true>`_."
+
+#~ msgid ""
+#~ "When you create a model in "
+#~ "Blender, you have to export it in"
+#~ " the FBX format to use in "
+#~ "Vircadia. Additionally, you have to "
+#~ "modify material properties and textures "
+#~ "in Blender to match the PBR "
+#~ "material textures in Vircadia."
+#~ msgstr ""
+#~ "Lorsque vous créez un modèle dans "
+#~ "Blender, vous devez l'exporter au format"
+#~ " FBX pour l'utiliser dans Vircadia. "
+#~ "En plus, vous devez modifier les "
+#~ "propriétés et les textures des matériaux"
+#~ " dans Blender pour qu'elles correspondent"
+#~ " aux textures des matériaux PBR dans"
+#~ " Vircadia."
+
+#~ msgid ""
+#~ "By default, any material property set"
+#~ " with a texture will override a "
+#~ "property set with a value. The "
+#~ "only exception to this is in the"
+#~ " case of the albedo color set "
+#~ "with an RGB color value and a "
+#~ "texture, in which case the albedo "
+#~ "value and texture will multiplied "
+#~ "together."
+#~ msgstr ""
+#~ "Par défaut, toute propriété de matériaux"
+#~ " définie avec une texture remplacera "
+#~ "une propriété définie avec une valeur."
+#~ " La seule exception à cette règle "
+#~ "est le cas de l'ensemble de "
+#~ "couleurs d'albédo avec une valeur de "
+#~ "couleur RGB et une texture, auquel "
+#~ "cas la valeur d'albédo et la "
+#~ "texture seront multipliées ensemble."
+
+#~ msgid ""
+#~ "We've included images where the fields"
+#~ " corresponding to each supported PBR "
+#~ "channel in Blender are highlighted, "
+#~ "along with details about which values"
+#~ " and colors correspond to the range"
+#~ " corresponding with that channel.  It "
+#~ "should be noted that all of the"
+#~ " Blender material properties below only "
+#~ "relate to exported FBX format models."
+#~ " Models exported as OBJ or other "
+#~ "formats do not have full PBR "
+#~ "material support in Vircadia yet."
+#~ msgstr ""
+#~ "Nous avons inclus des images où "
+#~ "les champs correspondant à chaque canal"
+#~ " PBR soutenus par Blender sont mis"
+#~ " en évidence, ainsi que des détails"
+#~ " sur les valeurs et les couleurs "
+#~ "correspondant à la plage d'intervalle "
+#~ "correspondant à ce canal.  Il convient"
+#~ " de noter que toutes les propriétés"
+#~ " du matériel Blender ci-dessous ne"
+#~ " concernent que les modèles de format"
+#~ " FBX exportés. Les modèles exportés "
+#~ "en format OBJ ou autres formats ne"
+#~ " bénéficient pas encore du soutient "
+#~ "complet pour matériaux PBR dans "
+#~ "Vircadia."
+
+#~ msgid ""
+#~ "This document outlines the standards you"
+#~ " should follow when creating your "
+#~ "avatar. Your avatar uses bones to "
+#~ "animate the character's limbs and define"
+#~ " the scale variable of limbs. You "
+#~ "can add custom bones to further "
+#~ "adjust the avatar's shape. Customization "
+#~ "of your avatar can be fine-tuned"
+#~ " using blendshapes to animate the "
+#~ "face and scripting to define advanced"
+#~ " behaviors."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can download the standard High "
+#~ "Fidelity skeleton here. This skeleton "
+#~ "conforms to the specifications above."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The standard humanoid skeleton of your"
+#~ " avatar should follow HumanIK Skeleton "
+#~ "with some modifications made for Mixamo."
+#~ " This skeleton system will work with"
+#~ " the input systems already in place"
+#~ " in High Fidelity, and will allow "
+#~ "users to use their input devices "
+#~ "to control their avatar's arm and "
+#~ "finger movements (if they have any)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The  sim and flow prefixes are "
+#~ "reserved for flow bones, such as "
+#~ "clothing, hair and tails. These bones"
+#~ " should not be animated by an "
+#~ "animator.  (Many thanks to Akazukin for"
+#~ " the model Ouka Miko(櫻歌ミコ) used in"
+#~ " this diagram!)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Alternatively, you can use the flow "
+#~ "prefix, separating the name and joint"
+#~ " number with an underscore. The same"
+#~ " cape as above would look like:"
+#~ msgstr ""
+
+#~ msgid "Basic Blendshapes"
+#~ msgstr ""
+
+#~ msgid "EyeBlink_L:  Blinking action for the left eye."
+#~ msgstr ""
+
+#~ msgid "EyeBlink_R: Blicking action for the right eye."
+#~ msgstr ""
+
+#~ msgid "JawOpen: Opening of the jaw."
+#~ msgstr ""
+
+#~ msgid "Audio Blendshapes"
+#~ msgstr ""
+
+#~ msgid "BrowsU_C: Center of the brow going up"
+#~ msgstr ""
+
+#~ msgid "BrowsU_L: Outside corner of the left brow going up"
+#~ msgstr ""
+
+#~ msgid "BrowsU_R: Outside corner of the right brow going up"
+#~ msgstr ""
+
+#~ msgid "MouthSmile_L: Left side of the mouth lifting up to a smile"
+#~ msgstr ""
+
+#~ msgid "MouthSmile_R: Right side of the mouth lifting up to a smile"
+#~ msgstr ""
+
+#~ msgid "LipsFunnel: Funneling of the lips, as when you say \"Oh!\""
+#~ msgstr ""
+
+#~ msgid "LipsUpperClose:  Upper lips rolled inwards"
+#~ msgstr ""
+
+#~ msgid "Eyelid Offset"
+#~ msgstr ""
+
+#~ msgid "EyeBlink_L: Blinking action for the left eye"
+#~ msgstr ""
+
+#~ msgid "EyeBlink_R: Blicking action for the right eye"
+#~ msgstr ""
+
+#~ msgid "EyeOpen_L: Opening of left eye"
+#~ msgstr ""
+
+#~ msgid "EyeOpen_R: Opening of right eye"
+#~ msgstr ""
+
+#~ msgid "BrowsD_L: Outside corner of the left brow moving down"
+#~ msgstr ""
+
+#~ msgid "BrowsD_R: Outside corner of the right brow moving down"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are looking straight ahead: "
+#~ "The EyeBlink and EyeOpen coefficients "
+#~ "will be 0."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If your eyes begin to look upward:"
+#~ " EyeBlink, EyeOpen, and BrowsU start "
+#~ "changing in value, reaching the values"
+#~ " of -1, 1, and 0.5 respectively "
+#~ "at 16.3 degrees. This will have "
+#~ "the effect of raising your lids "
+#~ "and brows as you look upward."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If your eyes begin to look "
+#~ "downward: EyeBlink and EyeOpen start "
+#~ "changing in value. EyeBlink reaches a"
+#~ " value of 0.5 at 32 degrees. "
+#~ "EyeOpen will reach a value of 0.5"
+#~ " at 27 degrees. This will have "
+#~ "the effect of lowering your lids "
+#~ "as you look downward."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you wear different avatars, you'll"
+#~ " notice that each avatar has a "
+#~ "different collision shape or collision "
+#~ "hull. The collision hull is the "
+#~ "invisible area around your avatar that"
+#~ " is used to used to detect when"
+#~ " other avatars or entities collide "
+#~ "with you."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Avatar app will look for a "
+#~ "thumbnail with a .jpg extension with "
+#~ "the same name and at the same "
+#~ "URL location as your avatar's. For "
+#~ "example, if your avatar is hosted "
+#~ "at https://vircadia.dev/avatar.fbx, then it "
+#~ "will look for a thumbnail at "
+#~ "https://vircadia.dev/avatar.jpg."
+#~ msgstr ""
+
+#~ msgid "See Also"
+#~ msgstr "Voir Aussi"
+
+#~ msgid ""
+#~ "In this tutorial, we will walk you"
+#~ " through simple modifications you can "
+#~ "make to your avatar using Blender. "
+#~ "You will need to import an FBX "
+#~ "file for your avatar. If you don't"
+#~ " have one, see our tutorials for "
+#~ "Fuse and Mixamo."
+#~ msgstr ""
+
+#~ msgid "In Blender, go to File > Import > FBX (.fbx)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Choose your avatar's FBX file and "
+#~ "click 'Import FBX'. This will open "
+#~ "your avatar in the main view."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By default, you will not see the"
+#~ " materials on your avatar. You can"
+#~ " change your view using the toolbar"
+#~ " at the bottom of the view."
+#~ msgstr ""
+
+#~ msgid "Rotate the Lamp to light up your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using the toolbox below, you can "
+#~ "change the materials and texture of "
+#~ "each body part as desired. We've "
+#~ "included an example below that changes"
+#~ " our avatar's eyelashes. You can "
+#~ "follow similar steps for other avatar"
+#~ " items."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you're done changing your materials"
+#~ " and textures, go to File > "
+#~ "Export > FBX (.fbx)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Change the 'Path Mode' to 'Copy', "
+#~ "then click the 'Embed Textures' icon."
+#~ " This makes sure that all of "
+#~ "the textures are embedded into your "
+#~ "model."
+#~ msgstr ""
+
+#~ msgid "Save this texture to a directory where you will remember."
+#~ msgstr ""
+
+#~ msgid "In the Toolbox below, click the 'Materials' icon."
+#~ msgstr ""
+
+#~ msgid "At the bottom of the Blender window, switch to 'Edit Mode'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Scroll to the 'Transparency' section. "
+#~ "Check the Transparency box and change"
+#~ " the 'Alpha' value to 0.00."
+#~ msgstr ""
+
+#~ msgid "Scroll to the 'Specular' section. Set the specular color to black."
+#~ msgstr ""
+
+#~ msgid "Change to the 'Textures' view."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Scroll to the Image section. Click "
+#~ "'Open' and find the lashes texture "
+#~ "named 'mixamo_eyelashes' you previously "
+#~ "downloaded. Click 'Open Image'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Go to File > External Data > "
+#~ "Pack All Into .blend. This will "
+#~ "include the texture in your model."
+#~ msgstr ""
+
+#~ msgid "Tutorial: Rig Your Avatar in Mixamo"
+#~ msgstr ""
+
+#~ msgid "Pick your default body parts."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Customize'. Here, you can "
+#~ "customize the avatar. For example, you"
+#~ " can customize how the eyebrows are"
+#~ " shaped, facial expressions, how long "
+#~ "the fingers are and much more."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Clothing'. Here, you can choose"
+#~ " the clothing you'd like. In "
+#~ "addition, you can set hair and "
+#~ "facial hair options. In the next "
+#~ "step, you will be able to modify"
+#~ " the materials, colors, and textures "
+#~ "of each clothing item you choose."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Texture'. Here, you can modify"
+#~ " your clothing choices with custom "
+#~ "materials and colors."
+#~ msgstr ""
+
+#~ msgid "In this tutorial, we will use the avatar that we created in Adobe Fuse."
+#~ msgstr ""
+
+#~ msgid "Go to File > Animate with Mixamo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Save your avatar with a name and"
+#~ " wait while it is exported to "
+#~ "the auto-rigger."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once your avatar is processed, Mixamo's"
+#~ " auto-rigger will show your animated"
+#~ " avatar. Ensure that Facial Blendshapes "
+#~ "are 'Enabled' and Skeleton LOD has "
+#~ "been set to 'Standard'. These settings"
+#~ " ensure that your avatar will work"
+#~ " property in High Fidelity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once your avatar has been successfully"
+#~ " rigged, you can download it and "
+#~ "modify it further using a 3D "
+#~ "software of your choice. When prompted,"
+#~ " select Format as 'FBX' and Pose "
+#~ "as 'T-pose'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Entities have the ability to add a"
+#~ " collision sound, so that the entity"
+#~ " will emit a sound every time "
+#~ "it comes in contact, or collides, "
+#~ "with another entity."
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your Tablet or HUD and go to Create."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Create app, click on "
+#~ "'Properties' and scroll down to the "
+#~ "'Collision' settings."
+#~ msgstr ""
+
+#~ msgid "Add a cube entity to your domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Resize the entity to approximately 10m"
+#~ " wide, 10m high and 1m deep "
+#~ "(X:10, Y:10, Z:1)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create a ball by adding a sphere"
+#~ " entity to your domain. Optionally, "
+#~ "change the color of your ball, so"
+#~ " that it is different than your "
+#~ "wall."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Create app, click on "
+#~ "'Properties' and scroll down to the "
+#~ "'Collision' settings. Check the box for"
+#~ " 'Collides' and 'Dynamic'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For 'Collision Sound', enter the URL "
+#~ "of your sound file. The sound must"
+#~ " be a .wav file, uncompressed, 48Khz,"
+#~ " 16 bit. The URL can be either"
+#~ " a web address, or an ATP "
+#~ "reference to the assets on this "
+#~ "domain server."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are two methods you can use"
+#~ " to script these interactions. "
+#~ "Entities.enterEntity() occurs when the avatar"
+#~ " contacts the bounding box, not the"
+#~ " model itself. Similarly, Entities.leaveEntity()"
+#~ " occurs when the avatar exits the "
+#~ "bounding box."
+#~ msgstr ""
+
+#~ msgid "Create a cube entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The following script changes the color"
+#~ " of the cube as you approach "
+#~ "(yellow) or leave (pink) its bounding"
+#~ " box. Save it to a file called"
+#~ " interactions-example.js."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Create app, click on "
+#~ "'Properties' and scroll down to the "
+#~ "'Script' settings. Enter the path and"
+#~ " file name to interactions-example.js "
+#~ "that you created above. Press 'Enter'."
+#~ msgstr ""
+
+#~ msgid "Create a wearable: All wearables are avatar entities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Clone as an avatar entity: When "
+#~ "you clone an entity as an avatar"
+#~ " entity, you make a copy of the"
+#~ " entity and attach it to your "
+#~ "avatar. Every copy of that entity "
+#~ "will now leave with the avatar "
+#~ "when they leave the domain. For "
+#~ "example, if you have a coffee shop"
+#~ " in your domain, you can set "
+#~ "all coffee cups to be cloned as"
+#~ " avatar entities. Any user who clones"
+#~ " a coffee cup will take the "
+#~ "avatar entity with them when they "
+#~ "exit the domain. You can keep your"
+#~ " domain free of clutter using this"
+#~ " property."
+#~ msgstr ""
+
+#~ msgid "API Reference: Entities"
+#~ msgstr ""
+
+#~ msgid "Get Started with Scripting"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We are continually surprised by the "
+#~ "ingenuity and creativity of the content"
+#~ " creators in the community. You too"
+#~ " can join this community by creating"
+#~ " new entities. The easiest way to "
+#~ "start building is to use Vircadia's "
+#~ "Create app."
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your tablet or HUD and go to Create."
+#~ msgstr ""
+
+#~ msgid "In the Create app, select the type of entity you want to create."
+#~ msgstr ""
+
+#~ msgid "For model and material entities, enter the URL that you want to import."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Edit the properties of your entity "
+#~ "so that it looks and behaves like"
+#~ " you want it to."
+#~ msgstr ""
+
+#~ msgid "MODEL entities are 3D models that you can import in-world."
+#~ msgstr ""
+
+#~ msgid "CUBE entities are used to create basic box shaped entities."
+#~ msgstr ""
+
+#~ msgid "SPHERE entities are used to create basic sphere shaped entities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "LIGHT entities are balls or beams "
+#~ "of light that are used to add "
+#~ "local lighting effects and spotlights to"
+#~ " an area."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "TEXT entities display text against a "
+#~ "flat plane, similar to a whiteboard "
+#~ "or blackboard."
+#~ msgstr ""
+
+#~ msgid "IMAGE entities display an image from a specified URL."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "WEB entities display a web page "
+#~ "from a specified URL. Only 20 web"
+#~ " entities can run at the same "
+#~ "time in a domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "ZONE entities are 3-dimensional areas "
+#~ "that allow you to create a custom"
+#~ " lighting environment."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "PARTICLE entities create dynamic effects "
+#~ "that are made of many small parts,"
+#~ " such as smoke clouds or falling "
+#~ "water."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "MATERIAL entities modify the existing "
+#~ "materials on other entities and avatars."
+#~ msgstr ""
+
+#~ msgid "Tutorial: Modify a Zone Entity's Properties"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your gold spotlight needs a surface "
+#~ "to shine on. Create this surface "
+#~ "or wall in the Create app:"
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your HUD or Tablet and go to Create."
+#~ msgstr ""
+
+#~ msgid "You've made your wall!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Rotate the spotlight so that it's "
+#~ "facing down the wall by changing "
+#~ "the 'Local Rotation's' X value to "
+#~ "'-90.0000'. A spotlight positioned like "
+#~ "this can be used for a soft "
+#~ "lighting effect over paintings or wall"
+#~ " hangings in your world."
+#~ msgstr ""
+
+#~ msgid "Creator Tools"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Portals in Vircadia transport you to "
+#~ "the domain of your choice. You can"
+#~ " use these portals to travel to "
+#~ "a domain you visit frequently instead"
+#~ " of using the GoTo app on your"
+#~ " HUD or Tablet."
+#~ msgstr ""
+
+#~ msgid "Client Entity Scripts"
+#~ msgstr ""
+
+#~ msgid "Write Your Own Scripts"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A portal is an entity with a "
+#~ "script attached (entity script). This "
+#~ "attached script defines what happens "
+#~ "when a user comes in contact with"
+#~ " the portal. We've used portal.js, "
+#~ "the script used to teleport in "
+#~ "Vircadia domains. You can also write "
+#~ "your own script to suit your "
+#~ "needs."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Uses Vircadia's JavaScript API to "
+#~ "determine when a user walks into "
+#~ "the entity and the teleport destination."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Any entity you create to be used"
+#~ " as a portal has to be "
+#~ "collisionless so that the script can "
+#~ "detect when you walk into the "
+#~ "entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create an entity to be used as "
+#~ "a portal. This can be a 3D "
+#~ "model or a box or sphere entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next to 'Script', paste the script "
+#~ "URL. In this case, it is "
+#~ "'portal.js'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add hifi:// welcome (Vircadia's welcome "
+#~ "domain) to the 'User Data' field."
+#~ msgstr ""
+
+#~ msgid "Exit Create mode and walk into the entity."
+#~ msgstr ""
+
+#~ msgid "A brush, made of a cylinder and a sphere object."
+#~ msgstr ""
+
+#~ msgid "A palette, made of an octagon and sphere object."
+#~ msgstr ""
+
+#~ msgid "A canvas, made of box entities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create an entity to be used as "
+#~ "the handle. This can be a box "
+#~ "or sphere entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click on the 'SPHERE' icon to "
+#~ "create a sphere entity to be used"
+#~ " as the brush head."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Create Tools app, select your "
+#~ "brush handle and go to the "
+#~ "'Properties' tab."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We've detailed how you can add a"
+#~ " script to use the brush to "
+#~ "transfer color to other objects in "
+#~ "Add a Paint Brush Script."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create an entity to be used as "
+#~ "the palette base. This can be a"
+#~ " box or sphere entity."
+#~ msgstr ""
+
+#~ msgid "Create a sphere entity to be used as your first paint color."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Create Tools app, select "
+#~ "your palette base and go to the"
+#~ " 'Properties' tab."
+#~ msgstr ""
+
+#~ msgid "In Interface, go to Menu > Edit and select 'Import Entities from URL'."
+#~ msgstr ""
+
+#~ msgid "Paste this URL into the dialog window and select 'OK'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next to 'Script', paste the script "
+#~ "URL. In this case, it is "
+#~ "'brushScript.js'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After you close the Create app, "
+#~ "test it out by painting on the "
+#~ "canvas in your domain!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are unable to view the "
+#~ "zone's bounding box, go to Edit >"
+#~ " Show Zones in Create mode and "
+#~ "select the option. Your zone should "
+#~ "now be visible."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Follow the steps to create a zone"
+#~ " entity to create two zone entities"
+#~ " named 'Zone-1' and 'Zone-2'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the 'Properties' tab, change the "
+#~ "dimensions of 'Zone-1' to x=5, y=10, "
+#~ "z=5."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click on 'Key Light' color, and "
+#~ "add these RGB (255,0,0) values to "
+#~ "add a red key light."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click on 'Key Light' color, and "
+#~ "add these RGB (0,0,255) values to "
+#~ "add a blue key light."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click on 'Skybox' color, and add "
+#~ "these RGB (0,0,255) values to add "
+#~ "a blue key light."
+#~ msgstr ""
+
+#~ msgid "Change the 'Ambient Intensity' to 1.00."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Wearables are objects that attach to "
+#~ "your avatar. They can be hats, "
+#~ "skirts, glasses, headphones and anything "
+#~ "else that can accessorize your look "
+#~ "in-world. You can express your "
+#~ "individuality by creating wearables of "
+#~ "your own and putting them on."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Wearables are simply 3D models that "
+#~ "are customized to fit on your "
+#~ "avatar. Therefore, the first step in "
+#~ "creating your wearable is to build "
+#~ "one or find an existing model that"
+#~ " you want to use."
+#~ msgstr ""
+
+#~ msgid "Google Blocks"
+#~ msgstr ""
+
+#~ msgid "Oculus Medium"
+#~ msgstr ""
+
+#~ msgid "Tiltbrush"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When building your model, be sure "
+#~ "to follow these guidelines to ensure "
+#~ "that it is compatible with Vircadia."
+#~ "  Once you're done editing your "
+#~ "model, export the file as an FBX"
+#~ " or OBJ file. You've now created "
+#~ "your own custom model!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After hosting your wearable in the "
+#~ "cloud or the Marketplace, put it "
+#~ "on and adopt your new look."
+#~ msgstr ""
+
+#~ msgid "Put On Wearables"
+#~ msgstr "Habillez vous de Vêtements"
 
