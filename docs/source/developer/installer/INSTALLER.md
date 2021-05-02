@@ -2,7 +2,7 @@
 
 *Last Updated on March 4, 2021*
 
-Follow the [build guide](BUILD.md) to figure out how to build Vircadia for your platform.
+Follow the [build guide](../build/BUILD.md) to figure out how to build Vircadia for your platform.
 
 During generation, CMake should produce an `install` target and a `package` target.
 
