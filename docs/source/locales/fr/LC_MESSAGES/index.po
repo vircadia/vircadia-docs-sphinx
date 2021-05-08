@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, High Fidelity. © Copyright 2020, Vircadia.
+# This file is distributed under the same license as the Vircadia Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vircadia Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-22 22:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/index.rst:29
+msgid "HOME"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "EXPLORE"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "CREATE"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "SCRIPT"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "HOST"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "CONTRIBUTE"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "DEVELOPER"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "SECURITY"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "RELEASE NOTES"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "API REFERENCE"
+msgstr ""
+
+#: ../../source/index.rst:8
+msgid "Home"
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid ""
+"Vircadia is an open-source software where you can create and share "
+"virtual reality (VR) experiences. You can create and host your own VR "
+"world, explore other worlds, meet and connect with other users, attend or"
+" host live VR events and much more."
+msgstr ""
+
+#: ../../source/index.rst:12
+msgid ""
+"The Vircadia metaverse provides built-in social features, including "
+"avatar interactions, spatialized audio and interactive physics. "
+"Additionally, you have the ability to import any 3D object into your "
+"virtual environment. No matter where you go in Vircadia, you will always "
+"be able to interact with your environment, engage with your friends, and "
+"listen to conversations just like you would in real life."
+msgstr ""
+
+#: ../../source/index.rst:16
+msgid "What can I do?"
+msgstr ""
+
+#: ../../source/index.rst:17
+msgid "You have the power to shape your VR experience in Vircadia."
+msgstr ""
+
+#: ../../source/index.rst:19
+msgid ""
+":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
+"attend events and check out what others are up to!"
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid ""
+":doc:`CREATE <create>` personal experiences by building avatars, domains,"
+" tablet apps, and more for you and others to enjoy."
+msgstr ""
+
+#: ../../source/index.rst:21
+msgid ""
+":doc:`SCRIPT <script>` and express your creativity by applying advanced "
+"scripting concepts to entities and avatars in the metaverse."
+msgstr ""
+
+#: ../../source/index.rst:22
+msgid ""
+":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
+"and connect with your audience."
+msgstr ""
+
+#: ../../source/index.rst:23
+msgid ""
+":doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source "
+"code in the repository."
+msgstr ""
+
+#: ../../source/index.rst:24
+msgid ""
+":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
+"just to help out."
+msgstr ""
+
+#: ../../source/index.rst:25
+msgid ""
+":doc:`SECURITY <security>` information about the project and its "
+"components."
+msgstr ""
+

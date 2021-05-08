@@ -1,0 +1,2221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, High Fidelity. © Copyright 2020, Vircadia.
+# This file is distributed under the same license as the Vircadia Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vircadia Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-22 22:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/sell.rst:11 ../../source/sell/add-item.rst:3
+msgid "Add Items to the Marketplace"
+msgstr ""
+
+#: ../../source/sell.rst:11 ../../source/sell/update-item.rst:3
+msgid "Update Your Marketplace Item"
+msgstr ""
+
+#: ../../source/sell.rst:11 ../../source/sell/own-item.rst:3
+msgid "Ownership of Your Items"
+msgstr ""
+
+#: ../../source/sell.rst:11 ../../source/sell/bill-of-rights.rst:3
+msgid "Marketplace Bill of Rights"
+msgstr ""
+
+#: ../../source/sell.rst:11 ../../source/sell/add-item/upload-audio.md:53
+#: ../../source/sell/add-item/upload-avatar.md:61
+#: ../../source/sell/add-item/upload-model.md:65
+#: ../../source/sell/add-item/upload-wearable.md:65
+#: ../../source/sell/submission-rules.rst:3
+msgid "Marketplace Submission Rules"
+msgstr ""
+
+#: ../../source/sell.rst:11 ../../source/sell/markdown-guide.rst:3
+msgid "Marketplace Markdown Guide"
+msgstr ""
+
+#: ../../source/sell.rst:11 ../../source/sell/certified-apps.md:1
+msgid "Certified App Design Guidelines"
+msgstr ""
+
+#: ../../source/sell.rst:3
+msgid "Sell"
+msgstr ""
+
+#: ../../source/sell.rst:5
+msgid ""
+"High Fidelity encourages you to :doc:`create and build experiences "
+"<create>` that you can share with others. Take the opportunity to share "
+"your creations, sell them to others, and make money in the metaverse with"
+" the Marketplace."
+msgstr ""
+
+#: ../../source/sell.rst:7
+#, python-format
+msgid ""
+"There is no fee to post your items for sale on the Marketplace. We help "
+"you host and certify your content, and we process your transactions and "
+"payments. In return, you retain 90% of each sale of your item, while we "
+"keep a 10% revenue share."
+msgstr ""
+
+#: ../../source/sell.rst:9
+msgid ""
+"Throughout this chapter, learn how you can upload your items to the "
+"Marketplace and make them available for purchase to all users in High "
+"Fidelity:"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:14
+#: ../../source/sell/add-item/upload-avatar.md:1
+msgid "Add Your Avatar"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:14
+#: ../../source/sell/add-item/upload-audio.md:52
+#: ../../source/sell/add-item/upload-model.md:1
+msgid "Add Your 3D Model"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:14
+#: ../../source/sell/add-item/upload-wearable.md:1
+msgid "Add Your Wearable"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:14
+#: ../../source/sell/add-item/upload-environment.rst:3
+msgid "Upload Your Environment"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:14
+#: ../../source/sell/add-item/upload-audio.md:1
+msgid "Add Your Audio"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:5
+msgid ""
+"Once you've created an avatar, wearable or entity, you have the option to"
+" sell it in the Marketplace. This guide walks you through the steps to "
+"upload it to the Marketplace so that you can start the process of having "
+"it reviewed and published."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:7
+msgid ""
+"Prior to adding your item to the Marketplace, we recommend that you use "
+"the `Marketplace Item Tester <../create/tools.html#marketplace-item-"
+"tester>`_ to ensure that your item works the way you expected and does "
+"not have any script errors."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:10
+#: ../../source/sell/add-item/upload-audio.md:10
+#: ../../source/sell/add-item/upload-avatar.md:11
+#: ../../source/sell/add-item/upload-model.md:10
+#: ../../source/sell/add-item/upload-wearable.md:10
+#: ../../source/sell/own-item.rst:8 ../../source/sell/submission-rules.rst:8
+#: ../../source/sell/update-item.rst:8
+msgid "On This Page"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:12
+msgid "**In This Section**"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:26
+msgid "Limited Edition Items"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:28
+msgid ""
+"You can choose to create a \"limited edition\" item by setting the "
+"quantity available. This ensures that only a specific number of your item"
+" is available for purchase on a first-come, first-serve basis."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:30
+msgid ""
+"To create a limited edition item, simply check the box \"Item is a "
+"limited edition\" when you fill out the form to submit your item to the "
+"Marketplace. Then, enter the number of items you want available for "
+"purchase. If you enter a number, say 25, you are saying that only 25 "
+"copies of your item will be available for purchase."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:34
+msgid "Unlimited Rezzing of Your Item"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:36
+msgid ""
+"When you submit your item to the Marketplace, you can allow users to rez "
+"your item multiple times within a single domain. This allows users to "
+"create forests from a single tree (that they purchased) or to rez "
+"multiple streetlights from a single item in their inventory."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:38
+msgid ""
+"This setting is exposed in the item's JSON file. To allow your item to be"
+" added multiple times within a domain, add ``\"certificateType\": "
+"\"domainUnlimited\"`` to your item's root JSON file prior to submitting "
+"your item."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:42
+msgid "Marketplace Categories"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:44
+msgid ""
+"All items submitted to the Marketplace must fall under one or more pre-"
+"defined categories. It's important to correctly categorize your items as "
+"it helps other users find your content in the Marketplace."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:46
+msgid ""
+"Our Marketplace team reviews each submission to ensure items are "
+"correctly labeled. Items may be declined if they are not accurately "
+"described or extraneous categories are marked."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:48
+msgid ""
+"Below, you'll find descriptions of each Marketplace category and examples"
+" of items they include."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:51 ../../source/sell/submission-rules.rst:92
+msgid "Category"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:51 ../../source/sell/submission-rules.rst:92
+msgid "Description"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:51
+msgid "Examples"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:53
+msgid "Animals"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:53
+msgid ""
+"Items depicting animals, including static 3D models of animals and "
+"functional content."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:53
+msgid ""
+"`Fetch App <https://highfidelity.com /marketplace/items/c66bae "
+"25-8345-4fd6-86db-bcebdc 441827>`_, `3D Animal Models <https: "
+"//highfidelity.com/market place/items/b86b3a26-8404 -4526-9faf-"
+"f0a923f4c563>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:63
+msgid "Animations"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:63
+msgid ""
+"Scripts and apps that modify or add animations to avatars, including "
+"inverse kinetics and flow manipulation."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:63
+msgid ""
+"`Dance App <https://highfi delity.com/marketplace/it ems/9a99c95a-"
+"85b3-4a6d-936 2-b56ad102ebe5>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:68
+msgid "Apps, Scripts, Tools"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:68
+msgid ""
+"Items composed primarily of JavaScript that add or modify functionality "
+"to High Fidelity's content and/or Interface. These can range from a "
+"single line of code that will change an entity's color to a full "
+"application that enables your avatar to dance. Proper apps must include "
+"an app.json root file."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:68
+msgid ""
+"`Sit Point <https://highfid elity.com/marketplace/items "
+"/7a1e051d-7974-4d8e-8756-2 1382e7397c7>`_, `TTS <https://highfidelity "
+".com/marketplace/items/568b 183d-db87-4618-9e40-aba840 ec3b26>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:77
+msgid "Architecture"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:77
+msgid ""
+"Structures or materials used to create structures including doors, walls,"
+" and flooring. This category does not include full environments like "
+"cities."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:77
+msgid ""
+"`Apartment Building <https://highfidelity.com/m "
+"arketplace/items/2baddb8b-9 ac5-47ed-b78c-5a1b2861b004>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:82
+msgid "Audio"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:82
+msgid "Scripted items that produce sound effects and/or music."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:82
+msgid ""
+"`Boombox <https://highfideli ty.com/marketplace/items/e9d "
+"a3d33-b937-4e07-bdf8-29dde58 1dfd1>`_, `Looping Sound Emitter "
+"<https://highfidelity.com/mar ketplace/items/4a29c38c-c091- "
+"434e-8085-025f7d299529>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:91
+msgid "Avatars"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:91
+msgid ""
+"3D models that are specifically rigged to work as an avatar. Proper "
+"avatars must include a .fst avatar root file."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:91
+msgid ""
+"`Artemis <https://highfideli ty.com/marketplace/items/e7694 6cc-c272"
+"-4adf-9bb6-02cde0a4b5 7d>`_, `Mountain Ogre <https://highfidelity.com/mar"
+" ketplace/items/9515f437-f4e1- 49a7-b6bf-0423873cd576>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:100
+msgid "Education"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:100
+msgid ""
+"Used to promote educational materials for anything through the medium of "
+"Virtual Reality."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:100
+msgid ""
+"`Laser Pointer Flashlight <https://highfidelity.com/mar ketplace/items"
+"/3d0dd29f-dbe7- 4f49-8fef-d95619a4b891>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:105
+msgid "Environments"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:105
+msgid ""
+"A collection of items meant to fill a domain, providing a complete "
+"setting or a base to build a new setting from. Environments must be "
+"entity archives, as produced by backup files from High Fidelity domains."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:105
+msgid ""
+"`Desert Oasis <https://highfidelity.com/mar "
+"ketplace/items/3b9eb431-564c-4 d03-bf1c-4eff7eb93fe0>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:110
+msgid "Fun & Games"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:110
+msgid "Interactive games and content, typically a scripted entity or app."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:110
+msgid ""
+"`Beach Ball <https://highfide lity.com/marketplace/items/91 035a3b-947d-"
+"4d03-8226-60d091a e173e>`_, `Holiday Blaster "
+"<https://highfidelity.com/mark etplace/items/9868f622-0c6b-4 60b-"
+"ad25-94c5521c0b65>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:119
+msgid "Furnishings"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:119
+msgid ""
+"Items used to decorate a space, usually furniture and other props for "
+"decoration."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:119
+msgid ""
+"`Mirror <https://highfidelity. com/marketplace/items/f9085148- "
+"02f3-401c-b823-1df9f616f362>`_, `Chairs <https://highfidelity.c "
+"om/marketplace/items/fbb76479- 1663-4914-b8b2-3b657fade384>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:126
+msgid "Light Systems"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:126
+msgid "Items that emit light, including furnishings and other content."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:126
+msgid ""
+"`Lamp <https://highfidelity.com /marketplace/items/24629f85-ba4 "
+"a-4311-9c50-b01c52371193>`_, `Torch <https://highfidelity.co "
+"m/marketplace/items/8114c307-c94 9-43fd-8c4d-f7d6b1e5d446>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:133
+msgid "Materials and Shaders"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:133
+msgid ""
+"Items users can use to customize shading or materials, including color "
+"and texture, on other entities."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:133
+msgid ""
+"`Materials Sets <https://highfidelity.com/market place/items/9e72fe33"
+"-61ca-4ca1- b6a5-c76930250634>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:138
+msgid "Misc"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:138
+msgid ""
+"Items that do not fit into any of the other categories. If marked Misc, "
+"items should not be marked with any other category."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:138
+msgid ""
+"`Particle Packs <https://highfidelity.com/market "
+"place/items/87706804-bcc0-4e75-a d16-6e30f2b63700>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:143
+msgid "Nature"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:143
+msgid "Items relating to or depicting nature and the outdoors."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:143
+msgid ""
+"`Plants & Pots <https://highfidelity.com/market place/items/e7a2f0ec-"
+"4dda-41d2- b17f-d4784ace27f6>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:148
+msgid "Open Source"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:148
+msgid ""
+"Free content available for the community to use and build upon. Items in "
+"this category require a source code link."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:148
+msgid ""
+"`Digital Picture Frame <https://highfidelity.com/market "
+"place/items/77f0eb70-beba-49df-9 e26-da1740bf6c9a>`_, `Drumset "
+"<https://highfidelity.co m/marketplace/items/658b506f-ff8 "
+"0-4f66-8dc3-578aa9bc1671>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:156
+msgid "Pets & Companions"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:156
+msgid ""
+"Items with scripted behavior or attachments that mimic a pet or "
+"companion. This category does not include static 3D models of animals "
+"commonly kept as pets."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:156
+msgid ""
+"`Jimi the Snail <https://highfidelity.com/marketp "
+"lace/items/a63c58d9-a8b2-4da7-91 d6-ae2f159d218c>`_, `Spirit Cat "
+"<https://highfidelity.com/marketp lace/items/b86b3a26-8404-4526-9f af-"
+"f0a923f4c563>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:165
+msgid "Vehicles"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:165
+msgid ""
+"Items that are rideable and/or appear rideable through attachments or "
+"scripted functionality. This category does not include static 3D models "
+"of vehicles."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:165
+msgid ""
+"`Skool Flyer <https://highfidelity.com/market "
+"place/items/f6ab09e8-8e29-4def- a957-19d8ebeac64c>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:170
+msgid "VR Only"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:170
+msgid ""
+"Items that require a VR headset and/or controllers to function properly "
+"and will not work with Interface in desktop-mode."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:170
+msgid ""
+"`Painting Set <https://highfidelity.com/market "
+"place/items/87d3d0f7-58f6-4e66- b432-66bc91251560>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:175
+msgid "Weapons"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:175
+msgid ""
+"Items depicting any kind of weapon, usually attachable. Both deadly and "
+"fun-loving weapons are permitted."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:175
+msgid ""
+"`Bow <https://highfidelity.com/m arketplace/items/f03ab3f1-7e87-4 6ef-"
+"a3f0-e362f94a43ea>`_, `Ping Pong Gun <https://highfidelity.com/marketp "
+"lace/items/d87f440e-b561-4d67-99 d3-f6c56c350ea7>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:183
+#: ../../source/sell/add-item/upload-wearable.md:63
+#: ../../source/sell/submission-rules.rst:102
+msgid "Wearables"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:183
+msgid ""
+"Items that attach to your avatar including hats, glasses, jewelry, and "
+"more."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:183
+msgid ""
+"`Cat Tail <https://highfidelity. com/marketplace/items/2e6a5418-e3 76"
+"-4bca-bfcd-712f9790913f>`_, `Backpack <https://highfidelity.c "
+"om/marketplace/items/908f8de2-2b9 a-4abf-a8a1-9a888ae57a15>`_, "
+"`Friendship Bracelet <https://highfidelity.com/marketp "
+"lace/items/f5c66f52-6f33-4303-ac 74-6e03df0ab254>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:194
+msgid "Zones & Skies"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:194
+msgid ""
+"Items primarily utilizing :doc:`zone entities <../create/entities/zone-"
+"tutorial>` in High Fidelity."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:194
+msgid ""
+"`Constellation Skybox <https://highfidelity.com/market "
+"place/items/208ba556-d457-4627-b db1-2185591c7031>`_, `Moon Skybox "
+"<https://highfidelity.com/market place/items/a8666e3d-01fd-4719-8 50c-"
+"b9c2acc49a65>`_"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:206 ../../source/sell/update-item.rst:30
+msgid "Additional Notes"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:208
+msgid "Follow these guidelines when uploading content to the Marketplace:"
+msgstr ""
+
+#: ../../source/sell/add-item.rst:210
+msgid "Use only content which you are legally entitled to."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:211
+msgid ""
+"Do not use a code obfuscator, our review team needs to be able to read "
+"your scripts."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:212
+msgid "Audio should sound clean and be 16-bit uncompressed WAV or MP3 files."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:213
+msgid ""
+"Items may not have .js root files. You should either make an app to run "
+"scripts, or attach scripts to entities that will be rezzed through a "
+".json file."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:214
+msgid ""
+"All entities must have a name, even if they are invisible or simple "
+"primitives."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:215
+msgid ""
+"Please use English in your package description, support text, and code "
+"comments."
+msgstr ""
+
+#: ../../source/sell/add-item.rst:216
+msgid ""
+"If needed, you may use :doc:`Markdown syntax <markdown-guide>` in your "
+"description text."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:3
+msgid ""
+"Once you've created music or ambient sounds for your domain, you need to "
+"add the sound and its assets to the Marketplace. To sell audio on the "
+"marketplace, you will need the following assets:"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:5
+msgid "WAV or MP3 file"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:6
+msgid "Script file (sound emitter script)"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:7
+msgid ""
+"FBX file (for the entity to which you will attach the sound emitter "
+"script)"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:8
+#: ../../source/sell/add-item/upload-model.md:6
+#: ../../source/sell/add-item/upload-wearable.md:6
+msgid "JSON file"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:12
+msgid "Prepare Your Entity's FBX File"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:13
+#: ../../source/sell/add-item/upload-audio.md:18
+msgid "Prepare Your Script File"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:14
+#: ../../source/sell/add-item/upload-audio.md:27
+#: ../../source/sell/add-item/upload-wearable.md:12
+#: ../../source/sell/add-item/upload-wearable.md:22
+msgid "Add Your Assets"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:15
+msgid "Generate the JSON File for Your Entity"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:16
+msgid "Upload Your Entity's JSON File"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:20
+msgid "In Interface, pull up your HUD or Tablet and go to Create."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:21
+msgid "Click on the entity you previously created to edit its properties."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:22
+msgid ""
+"In the 'Properties' tab, scroll down to 'Script' and your script's path "
+"or URL."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:23
+msgid "Test your script file to see if your audio plays in High Fidelity."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:25
+msgid ""
+"If you don't have a sound emitter script, you can create one by modifying"
+" this sample: soundLoopEmitter.js."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:29
+#: ../../source/sell/add-item/upload-model.md:28
+msgid ""
+"If your model could be re-imported without any issues, it is now ready to"
+" be uploaded to High Fidelity."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:31
+#: ../../source/sell/add-item/upload-avatar.md:17
+#: ../../source/sell/add-item/upload-environment.rst:8
+#: ../../source/sell/add-item/upload-model.md:30
+#: ../../source/sell/add-item/upload-wearable.md:25
+#: ../../source/sell/update-item.rst:16
+msgid ""
+"Go to https://highfidelity.com/marketplace/items/new to create a new "
+"item. If you're not logged in, you will be prompted to do so."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:32
+msgid ""
+"Enter your audio's name and select your category as 'Audio'. You can add "
+"the metadata now or later."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:33
+#: ../../source/sell/add-item/upload-avatar.md:19
+#: ../../source/sell/add-item/upload-environment.rst:11
+#: ../../source/sell/add-item/upload-model.md:32
+#: ../../source/sell/add-item/upload-wearable.md:27
+#: ../../source/sell/update-item.rst:19
+msgid "Click 'Save Draft'."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:34
+#: ../../source/sell/add-item/upload-avatar.md:20
+#: ../../source/sell/add-item/upload-environment.rst:12
+#: ../../source/sell/add-item/upload-model.md:33
+#: ../../source/sell/add-item/upload-wearable.md:28
+msgid "Scroll down to the 'Assets' section."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:35
+msgid ""
+"Click 'Choose Folder' and navigate to where your 3D model and audio file "
+"have been saved on your computer. Upload all related folders, including "
+"your FBX file and script file (in the scripts folder)."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:36
+#: ../../source/sell/add-item/upload-model.md:35
+#: ../../source/sell/add-item/upload-wearable.md:30
+msgid ""
+"Click your uploaded FBX file and copy the new Marketplace URL for the FBX"
+" file."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:38
+#: ../../source/sell/add-item/upload-model.md:14
+#: ../../source/sell/add-item/upload-model.md:49
+msgid "Upload Your Item's JSON File"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:40
+#: ../../source/sell/add-item/upload-model.md:50
+msgid ""
+"In High Fidelity, verify that your model looks correct. Open the Create "
+"Tools app, then click 'Import Entities (.JSON)' and navigate to your "
+"model's JSON file."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:41
+#: ../../source/sell/add-item/upload-avatar.md:46
+#: ../../source/sell/add-item/upload-model.md:51
+#: ../../source/sell/add-item/upload-wearable.md:51
+msgid ""
+"Go to https://highfidelity.com/marketplace. If you're not logged in, you "
+"will be prompted to do so."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:42
+#: ../../source/sell/add-item/upload-avatar.md:47
+#: ../../source/sell/add-item/upload-model.md:52
+#: ../../source/sell/add-item/upload-wearable.md:52
+msgid "Click on your user name, then on 'My Items'."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:43
+msgid "Locate your Audio in Draft mode and click on it."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:44
+#: ../../source/sell/add-item/upload-avatar.md:49
+#: ../../source/sell/add-item/upload-model.md:54
+#: ../../source/sell/add-item/upload-wearable.md:54
+msgid "Click 'Edit'."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:45
+msgid ""
+"In the 'Assets' section, click 'Choose Files' and navigate to where your "
+"model's JSON file is saved on your computer. Select your JSON file, click"
+" 'Open' and wait for it to upload."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:46
+msgid "Click the JSON file as your root file in the Asset Viewer."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:47
+#: ../../source/sell/add-item/upload-avatar.md:37
+#: ../../source/sell/add-item/upload-environment.rst:14
+#: ../../source/sell/add-item/upload-model.md:57
+#: ../../source/sell/add-item/upload-wearable.md:57
+msgid "Save your submission."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:49
+#: ../../source/sell/add-item/upload-avatar.md:57
+#: ../../source/sell/add-item/upload-model.md:61
+#: ../../source/sell/add-item/upload-wearable.md:61
+#: ../../source/sell/certified-apps.md:119
+msgid "See Also"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-audio.md:51
+#: ../../source/sell/add-item/upload-wearable.md:64
+#: ../../source/sell/submission-rules.rst:105
+msgid "3D Models"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:3
+msgid "Once you create an avatar, it should contain the following files:"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:4
+msgid "An FST file"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:5
+msgid "An FBX file"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:6
+msgid "Scripts folder (optional)"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:7
+msgid "Textures folder"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:9
+msgid "You will need to upload all these files to the Marketplace."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:12
+#: ../../source/sell/add-item/upload-avatar.md:15
+msgid "Add Your Avatar's Files"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:13
+#: ../../source/sell/add-item/upload-avatar.md:42
+msgid "Find Your Avatar's URL"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:18
+msgid ""
+"Enter your avatar's name and select your category as 'Avatars'. You can "
+"add the metadata now or later."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:21
+msgid ""
+"Click 'Choose Folder' and navigate to where your avatar is saved on your "
+"computer. Select the folder that contains your FBX file, click 'Upload' "
+"twice and wait for it to upload."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:22
+msgid ""
+"Click on the uploaded FBX file, and copy the Marketplace path including "
+"the unique hash for your avatar. Do not copy your folder name or the name"
+" of the file."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:23
+msgid ""
+"Open your FST file in the text editor of your choice. (Note that the FST "
+"file is a local file on your computer)"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:24
+msgid ""
+"Locate the relative path references to the FBX file, textures directory, "
+"and script file(s). Replace these with the absolute path references of "
+"the uploaded content."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:30
+msgid "Return to your avatar submission on the Marketplace."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:31
+msgid ""
+"In the 'Assets' section, click 'Choose Files' and navigate to where your "
+"avatar is saved on your computer. Select your updated FST file, click "
+"'Open' and wait for it to upload."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:36
+msgid "Click the FST file as your root file in the Asset Viewer."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:40
+msgid ""
+"At this time, we recommend that you test your avatar using the "
+"Marketplace Item Tester. If your avatar re-imports into Vircadia without "
+"any issues, it is now ready to be uploaded to the Marketplace."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:44
+msgid "Now you are ready to use your avatar! To locate the URL for your avatar:"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:48
+msgid "Locate your avatar in Draft mode and click on it."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:50
+msgid "Scroll down to the Assets section."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:51
+msgid "Click on the FST file. Below it, click the 'Copy URL' button."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:53
+msgid "This is the URL you will use when you change your avatar in Vircadia."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:55
+msgid ""
+"If you wish to sell your avatar on the Marketplace, be sure to fill out "
+"your metadata. You can format your item's description using Markdown "
+"syntax. Click \"Submit for Review\" to be verified and certified on the "
+"Marketplace."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:59
+msgid "Create Your Own Avatar"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-avatar.md:60
+msgid "Change Your Avatar"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-environment.rst:5
+msgid ""
+"Before uploading your environment to the Marketplace, make sure that you "
+"created the environment in a domain where you have access to the Domain "
+"Settings. Keep in mind that *all* content in the domain will be included "
+"in your upload. Once your domain is set up, you are ready to upload your "
+"environment."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-environment.rst:7
+msgid ""
+"`Create and download a manual content archive <../../host/add-content"
+"/export-content.html#create-a-manual-content-archive>`_."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-environment.rst:9
+msgid "Enter a name for your environment."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-environment.rst:10
+msgid "Under Categories, select 'Environments'."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-environment.rst:13
+msgid ""
+"Click 'Choose Files' and navigate to where your environment download is "
+"saved on your computer. Select the ZIP file, click 'Open' and wait for it"
+" to upload."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-environment.rst:16
+msgid ""
+"If you wish to sell your environment on the Marketplace, be sure to fill "
+"out your metadata. You can format your item's description using "
+":doc:`Markdown <../markdown-guide>` syntax. Click \"Submit for Review\" "
+"to be verified and certified on the Marketplace."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-environment.rst:18
+#: ../../source/sell/bill-of-rights.rst:24 ../../source/sell/own-item.rst:46
+#: ../../source/sell/submission-rules.rst:116
+#: ../../source/sell/update-item.rst:42
+msgid "**See Also**"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-environment.rst:20
+msgid ":doc:`Export Your Content <../../host/add-content/export-content>`"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-environment.rst:21
+msgid ":doc:`Marketplace Submission Rules <../submission-rules>`"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:3
+msgid ""
+"Once you've created your 3D model, you need to add the item and its "
+"assets in the Marketplace. At a minimum, your model will need the "
+"following assets:"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:5
+#: ../../source/sell/add-item/upload-wearable.md:5
+msgid "FBX file"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:8
+#: ../../source/sell/add-item/upload-wearable.md:8
+msgid ""
+"You will need to upload these files to the Marketplace, along with any "
+"supporting files, such as textures."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:11
+#: ../../source/sell/add-item/upload-model.md:16
+#: ../../source/sell/add-item/upload-wearable.md:11
+#: ../../source/sell/add-item/upload-wearable.md:16
+msgid "Prepare Your FBX File"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:12
+#: ../../source/sell/add-item/upload-model.md:27
+msgid "Add Your 3D Model Assets"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:13
+#: ../../source/sell/add-item/upload-model.md:39
+msgid "Generate Your Item's JSON File"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:18
+#: ../../source/sell/add-item/upload-wearable.md:18
+msgid ""
+"Export your file as an FBX file from your 3D modeling program. Do not "
+"export it as a default file type such as .mb or .blend."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:19
+#: ../../source/sell/add-item/upload-wearable.md:19
+msgid ""
+"If supported by your 3D modeling software, embed your textures into your "
+"FBX file to keep the process simpler."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:20
+#: ../../source/sell/add-item/upload-wearable.md:20
+msgid ""
+"As a practice and to catch any errors, re-import your FBX back into a new"
+" scene and check that it still looks right. Look for things like missing "
+"textures or normals, and smoothing issues. You may need to tweak your "
+"export settings if the re-imported model does not look right."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:31
+msgid ""
+"Enter your model's name and select your category. You can add the "
+"metadata now or later."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:34
+msgid ""
+"If your 3D model contains only an FBX file, click 'Choose Files' and "
+"navigate to where your 3D model has been saved on your computer. Upload "
+"your FBX file. If your 3D model contains multiple files like scripts or "
+"textures, click 'Choose Folder' and navigate to where your 3D model has "
+"been saved on your computer. Upload all related folders, including your "
+"FBX file."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:37
+msgid ""
+"At this time, we recommend that you test your item using the Marketplace "
+"Item Tester. If your model re-imports into High Fidelity without any "
+"issues, it is now ready to be uploaded to the Marketplace."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:41
+msgid "In Interface, pull up your tablet or HUD and select Create."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:42
+msgid "In the Create app, click on the 'Model' icon to import your 3D model."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:43
+msgid ""
+"Enter the URL you copied in step 6. You can only do this in a domain "
+"where you have the permission to add an entity."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:44
+msgid ""
+"Once your model appears before your avatar, check it and make any "
+"adjustments needed. Look for missing textures or normals, smoothing "
+"issues, issues with the scale of the model, and rotation problems. Make "
+"any changes in your 3D modeling software. Once your model looks as "
+"expected in High Fidelity, you are now ready to export your model data "
+"into a JSON file. Keep in mind that different types of software render "
+"models differently."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:45
+msgid ""
+"Back in the Create Tools app, find your model in the Entity List. While "
+"holding the <kbd class=\"keyboard\">CTRL</kbd>, select any other files "
+"that are are associated with your item."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:46
+#: ../../source/sell/add-item/upload-wearable.md:47
+msgid ""
+"Click 'Export Selection' and enter a name for your JSON. This JSON file "
+"contains information on how High Fidelity can access your item and its "
+"files, and needs to contain a reference to your item's location."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:47
+#: ../../source/sell/add-item/upload-wearable.md:48
+msgid ""
+"Open your JSON file in a text editor and check if the variable modelURL "
+"contains your FBX file's Marketplace URL. If it doesn't, you can edit it "
+"and paste the correct URL."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:53
+msgid "Locate your 3D model in Draft mode and click on it."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:55
+msgid ""
+"In the 'Assets' section, click 'Choose Files' and navigate to where your "
+"model's JSON file is saved on your computer. Select your JSON file, click"
+" 'Open' and wait for it to upload. Click the JSON file as your root file "
+"in the Asset Viewer."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:59
+msgid ""
+"If you wish to sell your 3D model on the Marketplace, be sure to fill out"
+" your metadata. You can format your item's description using Markdown "
+"syntax. Click \"Submit for Review\" to be verified and certified on the "
+"Marketplace."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:63
+msgid "Import Your 3D Model"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-model.md:64
+msgid "Introduction to Materials, Textures, and Shading"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:3
+msgid ""
+"Once you've created your wearable, you need to add the item and its "
+"assets in the Marketplace. At a minimum, your wearable will need the "
+"following assets:"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:13
+#: ../../source/sell/add-item/upload-wearable.md:32
+msgid "Generate the JSON File for Your Wearable"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:14
+#: ../../source/sell/add-item/upload-wearable.md:50
+msgid "Upload Your Wearable's JSON File"
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:23
+msgid ""
+"If your wearable could be re-imported without any issues, it is now ready"
+" to be uploaded to High Fidelity."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:26
+msgid ""
+"Enter a name for your wearable and set the category to 'Wearable'. You "
+"can add the metadata now or later."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:29
+msgid ""
+"If your wearable contains only an FBX file, click 'Choose Files' and "
+"navigate to where your model has been saved on your computer. Upload your"
+" FBX file. If your wearable contains multiple files like scripts or "
+"textures, click 'Choose Folder' and navigate to where your model has been"
+" saved on your computer. Upload all related folders, including your FBX "
+"file."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:34
+msgid "In Interface, pull up your tablet or HUD and click on Avatar."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:35
+msgid "In the Avatar window, click the hat icon next to 'Wearables'."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:36
+msgid "Click 'Add custom' at the top of the window."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:37
+msgid ""
+"Select the joint you'd like to use for your wearable. For example, a hat "
+"would be on your head, and fairy wings would be on your spine."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:38
+msgid "Click 'Save'."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:39
+msgid ""
+"Using the Create app, make any adjustments to your wearable. For example,"
+" you can give your wearable more depth, height or angle it differently."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:46
+msgid ""
+"Back in the Create app, find your model in the 'Entity List' and click on"
+" it."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:53
+msgid "Locate your wearable in Draft mode and click on it."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:55
+msgid ""
+"In the 'Assets' section, click 'Choose Files' and navigate to where your "
+"wearable's JSON file is saved on your computer. Select your JSON file, "
+"click 'Open' and wait for it to upload. Click the JSON file as your root "
+"file in the Asset Viewer."
+msgstr ""
+
+#: ../../source/sell/add-item/upload-wearable.md:59
+msgid ""
+"If you wish to sell your wearable on the Marketplace, be sure to fill out"
+" your metadata. You can format your item's description using Markdown "
+"syntax. Click \"Submit for Review\" to be verified and certified on the "
+"Marketplace."
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:5
+msgid ""
+"The Marketplace Bill of Rights states the privileges given to our "
+"creators and the rights High Fidelity holds over content."
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:7
+msgid "High Fidelity will:"
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:9
+msgid ""
+"Enforce the :doc:`Marketplace Guidelines <submission-rules>` fairly, "
+"without giving preference or other advantages to High Fidelity staff or "
+"affiliates."
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:10
+msgid ""
+"Review all submissions within seven (7) business days of their submission"
+" to the Marketplace, and communicate the result of the review to the "
+"creator."
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:12
+msgid ""
+"If 7 business days is not possible, we will contact the seller within "
+"this time frame to discuss any problems."
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:13
+msgid ""
+"Keep content in Draft mode accessible for 30 days. If an item is in Draft"
+" mode for longer than this, it will be removed. We strongly recommend "
+"keeping local backups of your content for this reason."
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:14
+msgid ""
+"Take action when we detect manipulative Marketplace practices, such as, "
+"but not limited to:"
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:16
+msgid "Flooding the market with sub-par items"
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:17
+msgid "Pricing manipulation"
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:18
+msgid "Misleading description and other presentation inconsistencies"
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:19
+msgid "Attempting to maliciously break or hack the Marketplace"
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:20
+msgid ""
+"Notify Marketplace creators via email and/or the High Fidelity forums in "
+"cases of major changes of policy, extended Marketplace downtime, and "
+"delays in review time."
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:21
+msgid ""
+"Ensure that no offensive, sexual, or generally NSFW content appears on "
+"the Marketplace and guarantee that anywhere this kind of content exists "
+"has ample warnings requiring explicit permission."
+msgstr ""
+
+#: ../../source/sell/bill-of-rights.rst:26
+msgid ":doc:`Marketplace Submission Rules <submission-rules>`"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:3
+msgid ""
+"Before submitting an app, make sure it follows our certified app "
+"guidelines below:"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:5
+msgid "A certified app requires 5 files: JSON, JavaScript, HTML, and two SVG"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:6
+msgid "A certified app must have a button that appears on the tablet or HUD"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:7
+msgid ""
+"A certified app must display a full screen UI in VR and a window in "
+"Desktop"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:8
+msgid "The UI for the certified app should explain how the app works"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:9
+msgid "A certified app must handle quitting gracefully"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:11
+msgid "Guideline Details"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:13
+msgid "1. A certified app consists of at least five files:"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:14
+msgid ""
+"A JSON file that points to the location of your app, named "
+"<code>*.app.json</code>"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:15
+msgid ""
+"A JavaScript file, <code>*.js</code> which contains the script(s) for "
+"your app"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:16
+msgid "An HTML page, <code>*.html</code> that defines the UI for your app"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:17
+msgid ""
+"an SVG or PNG image to display on the app button when the app is active, "
+"usually named <code>appName-a.svg</code>"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:18
+msgid ""
+"an SVG or PNG image to display on the app button when the app is "
+"inactive, usually named <code>appName-i.svg</code>"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:20
+msgid ""
+"The app.json file has two required properties: \"scriptURL\" (whose value"
+" must be the URL of the uploaded JavaScript file), and \"homeURL\" (whose"
+" value must be the URL to the uploaded HTML file) using explicit paths "
+"created upon upload of the files to the Marketplace."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:22
+msgid ""
+"Here is an example of the app.json file. You will need to replace the "
+"zeros with the path to your Marketplace item:"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:30
+msgid "To find the URL to your Marketplace bucket, follow these steps:"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:32
+msgid "First, upload a draft of your app to the Marketplace."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:33
+msgid ""
+"Click on the app.json file on the Edit screen and the URL will be "
+"displayed at the bottom of the screen."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:36
+msgid ""
+"2. A certified app has a button that appears on the tablet in VR, or the "
+"app bar in desktop mode."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:37
+msgid "The button of the app must:"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:38
+msgid "display an icon"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:39
+msgid "display the name of the certified app."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:41
+msgid "3. The app must display a full screen UI in VR and a window in Desktop."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:42
+msgid ""
+"When the user opens the app with the button on the tablet or HUD, you "
+"must display a full screen UI in VR and a standard sized window display "
+"on the desktop. Use the AppUI module to automatically add your app's "
+"button to the tablet or HUD and wire up handlers."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:44
+msgid "Below is an example of how to do this in your JavaScript file:"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:68
+msgid ""
+"If you want your app to do something specific when it is opened, you can "
+"use the AppUI module’s onOpened functionality. For example, you could:"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:69
+msgid "Query a server to get a response and determine what to show on the UI"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:70
+msgid "Start displaying a 3D interface separate from the tablet"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:71
+msgid ""
+"Determine the display mode (VR/Desktop) and change things to show on the "
+"UI"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:73
+msgid "Here's an example of using the onOpened functionality:"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:98
+msgid "4. The UI for the certified app should explain how the app works."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:99
+msgid ""
+"You should provide text on how the app works, and use familiar UI "
+"elements that a user knows how to interact with (such as buttons, scroll "
+"bars, and links)."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:101
+msgid "Here are some examples of a good app UI:"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:105
+msgid "5. When a user closes the app UI, you must close the app gracefully."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:107
+msgid "To close the app, you have two options:"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:108
+msgid "Stop the active functionality of the certified app."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:109
+msgid "If the app had 3D interfaces on user’s hand, they go away."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:110
+msgid ""
+"If the app was enhancing or modified the client using a script (e.g. "
+"Spectator Camera), that functionality will end."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:111
+msgid "Continue running some or all of the functions of the certified app."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:112
+msgid ""
+"If the app wants to persist the 3D interfaces on a user’s hand, it can "
+"keep them turned on."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:113
+msgid ""
+"If the app wants to keep enhancing or modifying the client using a "
+"script, it can keep doing that."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:115
+msgid ""
+"If you choose to stop all functionality (option 1), then the certified "
+"app needs to provide an affordance for the user to suspend the "
+"functionality of the certified app. For example, you will need to:"
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:116
+msgid ""
+"Turn off the 3D user interfaces. This can be achieved either by providing"
+" that functionality in the 3D user interface, or surfacing a button in "
+"the UI of the certified app that achieves the same function."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:117
+msgid ""
+"Stop the script from modifying or enhancing the client. This can be "
+"achieved by surfacing a button in the UI of the certified app."
+msgstr ""
+
+#: ../../source/sell/certified-apps.md:121
+msgid "Write Your Own Scripts"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:5
+msgid ""
+"When you submit an item to the Marketplace, you can format your item "
+"description using Markdown syntax. *Markdown* is a lightweight markup "
+"language with plain text formatting syntax. Its design allows it to be "
+"converted to many output formats, including HTML."
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:7
+msgid ""
+"Below, you can find the commands that we support for Markdown for "
+"Marketplace descriptions."
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:9
+msgid "`Headings`_"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:10
+msgid "`Emphasis`_"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:11
+msgid "`Line Breaks`_"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:12
+msgid "`Blockquotes`_"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:13
+msgid "`Lists`_"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:14
+msgid "`Images`_"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:15
+msgid "`Links`_"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:16
+msgid "`Code Samples`_"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:17
+msgid "`Horizontal Rules`_"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:21
+msgid "Headings"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:52
+msgid "Emphasis"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:53
+msgid ""
+"If more than one markdown syntax is listed, feel free to use any of them."
+" The output will be the same."
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:89
+msgid "Line Breaks"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:91
+msgid ""
+"To create paragraphs, use a blank line to separate one or more lines of "
+"text. You should not indent paragraphs with spaces or tabs."
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:93
+msgid ""
+"To create a line break, end a line with two or more spaces, and then hit "
+"return."
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:119
+msgid "Blockquotes"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:121
+msgid "To create a blockquote, add a > in front of a paragraph."
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:127
+#: ../../source/sell/markdown-guide.rst:141
+#: ../../source/sell/markdown-guide.rst:154
+msgid "The rendered output looks like this:"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:133
+msgid ""
+"Blockquotes can contain multiple paragraphs. Add a > on the blank lines "
+"between the paragraphs."
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:147
+msgid "You can also nest blockquotes:"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:164
+msgid "Lists"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:166
+msgid ""
+"To create an ordered list, add line items with numbers followed by "
+"periods. The numbers don’t have to be in numerical order, but the list "
+"should start with the number one."
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:168
+msgid ""
+"To create an unordered list, add dashes (-), asterisks (*), or plus signs"
+" (+) in front of line items. Indent one or more items to create a nested "
+"list."
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:172
+msgid "Images"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:192
+msgid "Links"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:222
+msgid "Code Samples"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:249
+msgid "Horizontal Rules"
+msgstr ""
+
+#: ../../source/sell/markdown-guide.rst:251
+msgid ""
+"If there is more than one markdown syntax listed, feel free to use any of"
+" them. The output will be the same."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:5
+msgid ""
+"In the metaverse, it can be tricky to verify the legitimacy or ownership "
+"of a piece of property. High Fidelity implemented a blockchain tracking "
+"system that allows content creators to certify their creations and "
+"records all transactions made using HFC."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:12
+msgid "Blockchain Protection"
+msgstr ""
+
+#: ../../source/sell/own-item.rst:14
+msgid ""
+"A blockchain is a type of database, one that is maintained by thousands "
+"of different people and companies, at the same time. Information written "
+"to that database is permanent, so it can’t be changed and it can't be "
+"lost."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:16
+msgid ""
+"High Fidelity's blockchain allows creators to permanently attach digital "
+"certificates to their creations that  securely identifies their origin "
+"and unique ownership when they are later encountered anywhere in the "
+"virtual world. The blockchain also gives control over the sale, ownership"
+" and transfer of certified goods completely over to their creators and "
+"owners — there is no way for intermediary agents (such as a company like "
+"High Fidelity or a VR server operator) to take action to change the "
+"status of something you own."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:18
+msgid ""
+"Once your Marketplace item is certified, you are permanently and "
+"indelibly recorded as its creator. Any instance of that item in the "
+"metaverse has a corresponding entry in the blockchain, and its "
+"authenticity, history, value, and ownership can be verified at any time. "
+"This makes it easy to differentiate the real deal from a counterfeit "
+"copy, and allows your property to retain its value."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:22
+msgid "PoP License and Certificate"
+msgstr ""
+
+#: ../../source/sell/own-item.rst:24
+msgid ""
+"High Fidelity uses a `Proof of Provenance License (PoP License) "
+"<https://digitalassetregistry.com/PoP-License/v1>`_ and certification to "
+"protect any digital goods or assets that you have created and sold. In "
+"its simplest form, Proof of Provenance (PoP) documents an asset’s chain "
+"of ownership, its characteristics, and its entire history, from "
+"certification onward."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:26
+msgid ""
+"When you put up an item for review on the Marketplace, it has to be "
+"approved by the digital asset registry to ensure that it is functional, "
+"that it is not obviously violating copyright laws, and that it is not a "
+"copy of any other item previously approved by the registry."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:28
+msgid ""
+"Once an item is approved by the registry, you (the user) will receive a "
+"PoP Certificate of edition 0 of the item. This PoP Certificate contains "
+"static properties about the item and cannot be altered. This means all "
+"the descriptors will always remain the same and your item's Certificate "
+"cannot be changed. It can only be changed when the PoP Certificate is "
+"transferred."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:30
+msgid ""
+"If you place this item on sale on the Marketplace, any other users "
+"purchasing your item will receive subsequent editions of your item. Every"
+" time a user purchases your item, it is certified and cryptographically "
+"signed by the Marketplace. The PoP Certificate proves that you possess an"
+" item through legal means."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:34
+msgid "Attributions"
+msgstr ""
+
+#: ../../source/sell/own-item.rst:36
+msgid ""
+"Attributions are often used to credit other users who have contributed to"
+" an item. They can also link to an external portfolio to display more of "
+"your work."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:38
+msgid ""
+"For some submissions, attributions are legally required by other content."
+" Some third party content will use licenses like MIT or Creative Commons,"
+" which require special attributions. When using third party content in "
+"your own items, make sure you understand the license (if any) used by the"
+" content and respect attribution requirements accordingly."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:40
+msgid ""
+"When you :doc:`add your item <add-item>` to the Marketplace, the form "
+"includes fields to insert any attributions for your submission."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:44
+msgid ""
+"Depending on the requirements of third party content licenses, you may "
+"need to include further information in the item's description, your code,"
+" or elsewhere as specified."
+msgstr ""
+
+#: ../../source/sell/own-item.rst:48
+msgid ":doc:`Add an Item to the Marketplace <add-item>`"
+msgstr ""
+
+#: ../../source/sell/own-item.rst:49 ../../source/sell/submission-rules.rst:118
+msgid ":doc:`Marketplace Bill of Rights <bill-of-rights>`"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:5
+msgid "All your submissions to our Marketplace must adhere to these rules."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:12
+msgid "General Rules"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:14
+msgid ""
+"The Marketplace Admin Team will have the final say on the publishing of "
+"all content."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:15
+msgid ""
+"Any content that follows all technical rules may still be rejected if it "
+"has severe quality issues."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:16
+msgid ""
+"Any content attempting to exploit loopholes or work around these rules "
+"will be rejected."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:18
+msgid ""
+"Content found to infringe on copyrights and content found to be malicious"
+" after being accepted will be invalidated. This will halt all access to "
+"the item and it will no longer be available for purchase or rezzing."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:22
+msgid "Presentation"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:24
+msgid "**Preview Image**"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:26
+msgid "A preview image must be included with all items."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:28
+msgid ""
+"Preview images must clearly show what is included in the package. Images "
+"providing context (avatars holding the item, nice backgrounds etc.) are "
+"permitted as long as it is still clear what the item is."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:29
+msgid ""
+"If the item doesn't have visual elements, the preview image must show "
+"context for the functionality of the item (e.g. including an image of a "
+"VR controller for a script that adds controller functionality)."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:31
+msgid "**Description Text**"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:33
+msgid ""
+"The description text must clearly state what is included in the item and "
+"describe all relevant functionality."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:35
+msgid ""
+"Descriptions must be in English and use proper grammar, spelling, and "
+"capitalization."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:36
+msgid ""
+"The Marketplace Admin Team may make minor modifications to the "
+"description for corrections or to provide clarity."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:38
+msgid "**Titles**"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:40
+msgid "Item titles must be properly capitalized and only include the item name."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:42
+msgid ""
+"Do not include subtext, taglines, or descriptive text in your title; "
+"these belong in the description text. This includes adding your username "
+"to the title as branding."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:46
+msgid "Documentation"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:48
+msgid ""
+"Any item that requires any kind of setup, special functionality, or "
+"important technical information must include documentation. This can be "
+"included in the description text and/or appear for the user when the item"
+" is rezzed in High Fidelity."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:49
+msgid ""
+"If your item requires any :doc:`special rez permissions <../host"
+"/configure-settings/permission-settings>`, this must be included in the "
+"documentation"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:53
+msgid "Licensing"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:55
+msgid ""
+"All Marketplace items are under the Proof of Provenance License (PoP "
+"License) v1.0. Custom or alternative licenses are not permitted, unless "
+"they are compatible with the PoP license, in which case the additional "
+"licenses need to be added to the description or as a comment in the code."
+" You can read more about the PoP license `here "
+"<https://digitalassetregistry.com/PoP-License/v1/>`_."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:57
+msgid ""
+"Items may make use of Creative Commons, Open Source, and other free "
+"public content. However, the item cannot be primarily composed of such "
+"free content. The free content must be either substantially modified or "
+"complement content that is entirely your own."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:61
+msgid "Copyright and Trademark"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:63
+msgid ""
+"Sellers must have absolute rights to the content submitted to the "
+"Marketplace. No material in violation of copyright law will be permitted."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:67
+msgid "Inappropriate Content"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:69
+msgid ""
+"**Nudify/Pornography**: No pornographic or overtly sexual content is "
+"permitted. Nudity in non-sexual context is permitted at the discretion of"
+" the Marketplace Admin Team. This can include content such as nude "
+"statues or paintings."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:70
+msgid ""
+"**Disturbing Content**: Content made to be excessively violent or cause "
+"extreme discomfort to users is not permitted. This includes excessive "
+"violence or gore."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:71
+msgid ""
+"**Hate Speech**: Absolutely no hate speech or imagery of any kind is "
+"permitted, including, but not limited to attacking race, religion, ethnic"
+" origin, national origin, gender, disability, or sexual orientation."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:75
+msgid "Restricted Content"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:77
+msgid ""
+"We accept limited versions of content that allow the user to experience "
+"the product prior to purchasing the full version (demo, trial, lite etc.)"
+" For these submissions, the item must be free and the description text "
+"must clearly state all limitations of the item."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:81
+msgid "Submissions with Scripts"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:83
+msgid ""
+"Your scripts must work as described in the Description Text of your item."
+" All code must be self-contained, and all libraries must be uploaded to "
+"the Marketplace alongside your item."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:87
+msgid "Root File"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:89
+msgid ""
+"All submissions must have a legitimate root file, based on the type of "
+"submission:"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:92
+msgid "Root File Type"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:94
+msgid "Avatar"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:94
+msgid "FST"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:94
+msgid ""
+"The main avatar file, which contains information about the skeleton, "
+"blendshapes, FBX file and textures used by an avatar."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:97
+msgid "Environment"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:97
+msgid "TAR.GZ"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:97
+msgid "A content archive file containing all of your domain content."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:99
+msgid "Tablet Apps"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:99
+msgid "APP.JSON"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:99
+msgid ""
+"A JSON file that defines the absolute paths of your JavaScript and HTML "
+"files."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:102
+#: ../../source/sell/submission-rules.rst:105
+msgid "JSON"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:102
+msgid ""
+"A JSON file, which contains information on how High Fidelity can access "
+"your wearable and its files."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:105
+msgid ""
+"A JSON file, which contains information on how High Fidelity can access "
+"your model and its related files."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:111
+msgid "Wearable-Specific Requirements"
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:113
+msgid ""
+"Wearables must have either a ``parentJointName`` or ``parentJointIndex`` "
+"property specifying the joint that the wearable will be attached to by "
+"default."
+msgstr ""
+
+#: ../../source/sell/submission-rules.rst:114
+msgid ""
+"Wearables must have ``userData`` defined that describes how it is to be "
+"worn."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:5
+msgid ""
+"Once you've :doc:`added an item <add-item>` to sell on the Marketplace, "
+"you can update it at any time. This ability lets you offer your customers"
+" a new and improved version of your item. When an item is updated, we "
+"create a chain of related certificates between old and new versions of "
+"your item."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:12
+msgid "Update Your Item in the Marketplace"
+msgstr ""
+
+#: ../../source/sell/update-item.rst:14
+msgid ""
+"All updates to your item must be reviewed, verified and certified by our "
+"Marketplace team. Once you have the new assets, you are ready to update "
+"your item. The process is similar to when you first :doc:`added your item"
+" <add-item>`."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:17
+msgid "Enter the name of your item and select your category."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:18
+msgid "Update the metadata for your item."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:20
+msgid ""
+"Scroll down to the 'Updates' section. Check the box 'Updates Existing "
+"Item' and select the old version from the drop-down."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:21
+msgid "Scroll down to the 'Assets' section and upload your assets."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:23
+msgid ""
+"Once you've created a new item and checked 'Update Existing Item', the "
+"Marketplace URL for your item will change. At this point, you need to "
+"manually edit all files that point to the URL, such as scripts and JSON "
+"files."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:24
+msgid "Click 'Submit for Review' to be verified and certified on the Marketplace."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:26
+msgid ""
+"Once your update is approved, a new certificate will be generated. The "
+"previous version of the item will be hidden from new customers on the "
+"Marketplace and replaced with the new version."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:32
+msgid ""
+"You cannot reference existing URLs in your updates. If you create an "
+"update, you must upload all the assets the product uses, even if they "
+"remain the same. For example, if the new version of your product uses a "
+".wav file that has not changed in the updated version, you must upload it"
+" again in the new item. This is because the certificate system needs to "
+"recertify all files used in the product together."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:33
+msgid ""
+"Once the update hits the blockchain, your customers will receive "
+"notification that an updated version is available. A red dot on the "
+"Inventory icon of your Tablet or HUD indicates there is an update "
+"available on at least one Marketplace item."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:36
+msgid ""
+"If a customer chooses not to update to the latest version, the old "
+"version will still be valid and listed in their Inventory."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:37
+msgid ""
+"Once a customer has updated an item to the latest version, they will not "
+"be able to retrieve an older version."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:38
+msgid ""
+"Rezzed items will not be automatically updated to the latest version. "
+"This means that an object in-world will remain intact (as the previous "
+"version). To update a rezzed item, the customer needs to manually import "
+"the new version of the item."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:39
+msgid ""
+"If a customer purchased mulitiple instances of an item, each one needs to"
+" be individually updated in their Inventory. This allows users to update "
+"one item, but leave the other ones as-is."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:40
+msgid "All of the above policies also apply to limited edition items."
+msgstr ""
+
+#: ../../source/sell/update-item.rst:44
+msgid ":doc:`Add Items to the Marketplace <add-item>`"
+msgstr ""
+
+#: ../../source/sell/update-item.rst:45
+msgid ":doc:`Ownership of Your Items <own-item>`"
+msgstr ""
+
