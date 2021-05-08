@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-05-02 08:26+0000\n"
+"POT-Creation-Date: 2021-05-08 17:56+0000\n"
 "PO-Revision-Date: 2021-02-10 00:46+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
 "Language: de\n"
@@ -6827,7 +6827,7 @@ msgstr ""
 #: ../../source/create/entities/material-entity.rst:7
 msgid ""
 "Before adding a material entity, make sure you have created a material "
-"using the `PBR Materials Guide <../3d-models/pbr-materials-guide>`_."
+"using the :doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`."
 msgstr ""
 
 #: ../../source/create/entities/material-entity.rst:14
@@ -11284,5 +11284,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Put On Wearables"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Before adding a material entity, make"
+#~ " sure you have created a material "
+#~ "using the `PBR Materials Guide "
+#~ "<../3d-models/pbr-materials-guide>`_."
 #~ msgstr ""
 
