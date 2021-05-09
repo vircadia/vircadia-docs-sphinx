@@ -15,7 +15,7 @@ set "BUILDANDROID=%SOURCEDIR%/developer/build/BUILD_ANDROID.md"
 set "BUILDLINUX=%SOURCEDIR%/developer/build/BUILD_LINUX.md"
 set "BUILDOSX=%SOURCEDIR%/developer/build/BUILD_OSX.md"
 set "BUILDWIN=%SOURCEDIR%/developer/build/BUILD_WIN.md"
-set "INSTALLER=%SOURCEDIR%/developer/installer/INSTALLER.md"
+set "INSTALLER=%SOURCEDIR%/developer/packaging/INSTALLER.md"
 curl -o %BUILDGENERAL% https://raw.githubusercontent.com/vircadia/vircadia/master/BUILD.md
 curl -o %BUILDANDROID% https://raw.githubusercontent.com/vircadia/vircadia/master/BUILD_ANDROID.md
 curl -o %BUILDLINUX% https://raw.githubusercontent.com/vircadia/vircadia/master/BUILD_LINUX.md

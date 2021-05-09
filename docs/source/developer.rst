@@ -12,8 +12,9 @@ Development Instructions
     :maxdepth: 1
     :titlesonly:
 
-    Build from Source <developer/build.rst>
-    Create an Installer <developer/installer.rst>
-    Interface <developer/interface.rst>
-    Domain Server <developer/domain-server.rst>
-    Assignment Client <developer/assignment-client.rst>
+    Build Vircadia <developer/build.rst>
+    Package Vircadia <developer/packaging.rst>
+    Command Line Parameters <developer/cli.rst>
+    Environment Variables <developer/environment-variables.rst>
+    Debugging <developer/debugging.md>
+    Dependencies <developer/dependencies.rst>

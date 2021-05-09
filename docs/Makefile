@@ -12,7 +12,7 @@ BUILDANDROID  = "$(SOURCEDIR)/developer/build/BUILD_ANDROID.md"
 BUILDLINUX    = "$(SOURCEDIR)/developer/build/BUILD_LINUX.md"
 BUILDOSX      = "$(SOURCEDIR)/developer/build/BUILD_OSX.md"
 BUILDWIN      = "$(SOURCEDIR)/developer/build/BUILD_WIN.md"
-INSTALLER     = "$(SOURCEDIR)/developer/installer/INSTALLER.md"
+INSTALLER     = "$(SOURCEDIR)/developer/packaging/INSTALLER.md"
 
 # Put it first so that "make" without argument is like "make help".
 help:
