@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-05-02 08:26+0000\n"
+"POT-Creation-Date: 2021-05-09 01:29+0000\n"
 "PO-Revision-Date: 2021-01-31 20:19+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language: fr\n"
@@ -386,8 +386,8 @@ msgstr "CMake téléchargera Qt 5.12.3 en utilisant vcpkg."
 msgid ""
 "To override this - i.e., use an installed Qt configuration - you need to "
 "set a QT_CMAKE_PREFIX_PATH environment variable pointing to your Qt "
-"**lib/cmake** folder.   This can either be entered directly into your "
-"shell session before you build or in your shell profile (e.g.: "
+"**lib/cmake** folder. This can either be entered directly into your shell"
+" session before you build or in your shell profile (e.g.: "
 "~/.bash_profile, ~/.bashrc, ~/.zshrc - this depends on your shell and "
 "environment).  The path it needs to be set to will depend on where and "
 "how Qt5 was installed."
@@ -424,7 +424,7 @@ msgstr ""
 #: ../../source/developer/build/BUILD.md:69
 msgid ""
 "Note: Installing the sources is optional but recommended if you have room"
-" for them (~3GB). You may also want the Qt debug  information files "
+" for them (~3GB). You may also want the Qt debug information files "
 "(~7GB)."
 msgstr ""
 
@@ -1880,7 +1880,7 @@ msgid "Step 6. Create VCPKG environment variable"
 msgstr "Étape 4. Créer une variable d'environnement VCPKG"
 
 #: ../../source/developer/build/BUILD_WIN.md:71
-#, fuzzy, python-format
+#, fuzzy
 msgid ""
 "In the next step, you will use CMake to build Vircadia. By default, the "
 "CMake process builds dependency files in Windows' `%TEMP%` directory, "
@@ -1949,8 +1949,8 @@ msgstr "Étape 5. Exécution de CMake pour Générer les Fichiers de Compilation
 #: ../../source/developer/build/BUILD_WIN.md:91
 #, fuzzy
 msgid ""
-"Run Command Prompt from Start and run the following commands:   `cd "
-"\"%VIRCADIA_DIR%\"`   `mkdir build`   `cd build`"
+"Run Command Prompt from Start and run the following commands: `cd "
+"\"%VIRCADIA_DIR%\"` `mkdir build` `cd build`"
 msgstr ""
 "Démarrez Command Prompt depuis le menu Start et exécuter les commandes "
 "suivantes:<br />cd \"%VIRCADIA_DIR%\"<br />mkdir build<br />cd build"
@@ -1961,7 +1961,7 @@ msgid "Run `cmake .. -G \"Visual Studio 16 2019\" -A x64`."
 msgstr "Exécutez cmake .. -G \"Visual Studio 16 2019\" -A x64."
 
 #: ../../source/developer/build/BUILD_WIN.md:99
-#, fuzzy, python-format
+#, fuzzy
 msgid "Where `%VIRCADIA_DIR%` is the directory for the Vircadia repository."
 msgstr "Où %VIRCADIA_DIR% est le répertoire du référentiel Vircadia."
 
@@ -3683,4 +3683,12 @@ msgstr ""
 #~ "Debugging et le bouton Local Windows "
 #~ "Debugger de la barre d'outils de "
 #~ "débogage lancera Interface."
+
+#~ msgid ""
+#~ "Note: Installing the sources is optional"
+#~ " but recommended if you have room "
+#~ "for them (~3GB). You may also want"
+#~ " the Qt debug  information files "
+#~ "(~7GB)."
+#~ msgstr ""
 
