@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-05-09 01:29+0000\n"
+"PO-Revision-Date: 2021-05-10 00:53+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -1844,7 +1844,7 @@ msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:16
 msgid "Prepare Your Avatar"
-msgstr ""
+msgstr "Prepara Tu Avatar"
 
 #: ../../source/create/avatars/add-flow.rst:18
 msgid ""
@@ -1852,12 +1852,17 @@ msgid ""
 "threads, which are sets of connected joints in your avatar. Each flow "
 "thread must comply with the following rules:"
 msgstr ""
+"Para utilizar la tecnología Flow, tu avatar debe contener hilos de flujo ("
+"flow threads), que son conjuntos de uniones conectadas en tu avatar. Cada "
+"hilo de flujo debe cumplir con las siguientes reglas:"
 
 #: ../../source/create/avatars/add-flow.rst:20
 msgid ""
 "The first joint is connected to an existing avatar joint, such as "
 "\"Hips\"."
 msgstr ""
+"La primera articulación está conectada a una articulación existente del "
+"avatar, como \"Hips\" (Las caderas)."
 
 #: ../../source/create/avatars/add-flow.rst:21
 msgid ""
@@ -1867,6 +1872,11 @@ msgid ""
 "thread is used to simulate a skirt, all the \"skirt\" joints are named "
 "flow_skirt_01, flow_skirt_02, etc."
 msgstr ""
+"Cada articulación en el hilo debe llamarse ``flow_[TYPE]_[INDEX]`` o "
+"``sim[TYPE][INDEX]``, donde **TYPE** define un grupo de articulaciones que "
+"comparten una configuración física común e **INDEX** es un número entero. "
+"Por ejemplo, si el hilo se utiliza para simular una falda, todas las uniones "
+"del tipo \"skirt\" (falda) se denominan flow_skirt_01, flow_skirt_02, etc."
 
 #: ../../source/create/avatars/add-flow.rst:25
 msgid ""
@@ -1874,11 +1884,14 @@ msgid ""
 "content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_,"
 " whose hair has flow threads already configured."
 msgstr ""
+"Mientras experimentas, siéntete libre de usar `Maniquí con cabello <https"
+"://hifi-content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/"
+"mannequinHairTest8.fst>`_, cuyo cabello ya tiene hilos de flujo configurados."
 
 #: ../../source/create/avatars/add-flow.rst:29
 #: ../../source/create/avatars/add-flow.rst:117
 msgid "Flow App"
-msgstr ""
+msgstr "Aplicación Flow"
 
 #: ../../source/create/avatars/add-flow.rst:31
 msgid ""
@@ -1886,16 +1899,21 @@ msgid ""
 "<https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-"
 "0ead86e69756>`_ to configure your flow settings."
 msgstr ""
+"Descarga y ejecuta la `Aplicación Flow <https://highfidelity.com/marketplace/"
+"items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_ para configurar tus ajustes de "
+"flujo (flow)."
 
 #: ../../source/create/avatars/add-flow.rst:33
 msgid ""
 "The Flow app will show up as an icon on your HUD or tablet. Click this "
 "icon to open the Flow app."
 msgstr ""
+"La aplicación Flow aparecerá como un ícono en tu HUD o tablet. Haz click en "
+"este icono para abrir la aplicación Flow."
 
 #: ../../source/create/avatars/add-flow.rst:39
 msgid "Display Panel"
-msgstr ""
+msgstr "Panel de Visualización"
 
 #: ../../source/create/avatars/add-flow.rst:41
 msgid ""
@@ -1903,69 +1921,79 @@ msgid ""
 " open. Using these options, you can choose to view meshes and collisions "
 "to help you determine what your final flow configuration will look like."
 msgstr ""
+"El panel de **Visualización** afecta el aspecto de tu avatar mientras la "
+"aplicación Flow está abierta. Con estas opciones, puedes elegir ver mallas y "
+"colisiones para ayudarte a determinar cómo se verá tu configuración de flujo "
+"final."
 
 #: ../../source/create/avatars/add-flow.rst:46
 #: ../../source/create/avatars/add-flow.rst:66
 #: ../../source/create/avatars/add-flow.rst:92
 msgid "Option"
-msgstr ""
+msgstr "Opción"
 
 #: ../../source/create/avatars/add-flow.rst:48
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #: ../../source/create/avatars/add-flow.rst:48
 msgid "Hides or displays the avatar mesh."
-msgstr ""
+msgstr "Oculta o muestra la malla del avatar."
 
 #: ../../source/create/avatars/add-flow.rst:50
 msgid "Collisions"
-msgstr ""
+msgstr "Colisiones"
 
 #: ../../source/create/avatars/add-flow.rst:50
 msgid "Activates or deactivates collisions."
-msgstr ""
+msgstr "Activa o desactiva las colisiones."
 
 #: ../../source/create/avatars/add-flow.rst:52
 msgid "Debug"
-msgstr ""
+msgstr "Debug"
 
 #: ../../source/create/avatars/add-flow.rst:52
 msgid "Hides or displays the debug shapes."
-msgstr ""
+msgstr "Oculta o muestra las formas de depuración."
 
 #: ../../source/create/avatars/add-flow.rst:54
 msgid "Solid"
-msgstr ""
+msgstr "Solid"
 
 #: ../../source/create/avatars/add-flow.rst:54
 msgid "Enables either a solid or wireframe display for debug shapes."
 msgstr ""
+"Habilita una visualización sólida o de estructura cableada para depurar "
+"formas."
 
 #: ../../source/create/avatars/add-flow.rst:59
 msgid "Joints Panel"
-msgstr ""
+msgstr "Panel de Articulaciones"
 
 #: ../../source/create/avatars/add-flow.rst:61
 msgid ""
 "The **Joints** panel lists all of the available flow threads, and lets "
 "you configure the behavior of your joints."
 msgstr ""
+"El panel de **Articulaciones** enumera todos los hilos de flujo disponibles "
+"y te permite configurar el comportamiento de tus articulaciones."
 
 #: ../../source/create/avatars/add-flow.rst:68
 #: ../../source/create/avatars/add-flow.rst:94
 msgid "Radius"
-msgstr ""
+msgstr "Radius"
 
 #: ../../source/create/avatars/add-flow.rst:68
 msgid ""
 "Determines the thickness of segments and knots (needed for collision "
 "testing)."
 msgstr ""
+"Determina el grosor de los segmentos y nudos (son necesarios para las "
+"pruebas de colisión)."
 
 #: ../../source/create/avatars/add-flow.rst:70
 msgid "Gravity"
-msgstr ""
+msgstr "Gravity"
 
 #: ../../source/create/avatars/add-flow.rst:70
 msgid ""
@@ -1974,6 +2002,10 @@ msgid ""
 "gravity and be pulled towards the ground. Larger values will cause the "
 "movement to happen more quickly."
 msgstr ""
+"Establece cómo responderá cada articulación a la gravedad. Un valor positivo "
+"elevará tus articulaciones en el aire, mientras que un valor negativo "
+"responderá a la gravedad y será empujado hacia el suelo. Los valores más "
+"altos harán que el movimiento ocurra más rápidamente."
 
 #: ../../source/create/avatars/add-flow.rst:74
 msgid "Stiffness"
