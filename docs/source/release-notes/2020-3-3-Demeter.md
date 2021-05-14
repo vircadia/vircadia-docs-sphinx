@@ -6,7 +6,7 @@ This version of Vircadia is an update to 2020.3.2. It is compatible with the 202
 
 The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * UI/UX: Remove "Console" options from the Interface-only installer on Windows. (#824)
 * Application: The collision hull of entities now updates when the model is replaced. (#830)
@@ -41,7 +41,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
     * `image3D` overlays used for the icons have been migrated to local entities.
     * All the entity icons (in-world non physical entities) have been updated to be more uniform. They now all have the same dark gray tone, with a white border to keep them visible under different lighting.
 
-#### Miscellaneous
+### Miscellaneous
 
 * Misc: Module updates for screenshare app. (#708, #905)
 * Application: Upgrade tbb (oneAPI Threading Building Blocks) to fix a startup crash on Fedora 32 and later. (#863)
@@ -54,7 +54,7 @@ The numbers at the end of each item are the PR numbers in the Vircadia [repo](ht
 
 The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * Server: The Domain server now sends its IP address and port to the Metaverse server with every heartbeat. (#877)
 
@@ -126,16 +126,16 @@ Updates are reflected [here](https://dashboard.vircadia.com/). The Dashboard has
 
 ## Documentation
 
-#### User Docs
+### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx).
 
 * Add docs video module and update some pages to .rst format. (#72, #105)
 * Add Weblate configuration instructions. (#98)
 * Update GitHub reference links. (#102)
 * Release notes for 2020.3.3 Demeter. (#106)
 
-#### API Docs
+### API Docs
 
 The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
 The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
