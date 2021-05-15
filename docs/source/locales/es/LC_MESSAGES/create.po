@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-05-10 00:53+0000\n"
+"PO-Revision-Date: 2021-05-15 17:35+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -2009,39 +2009,41 @@ msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:74
 msgid "Stiffness"
-msgstr ""
+msgstr "Stiffness"
 
 #: ../../source/create/avatars/add-flow.rst:74
 msgid "Defines how susceptible the flow threads are to movement."
-msgstr ""
+msgstr "Define que tan susceptible son los hilos de flujo al movimiento."
 
 #: ../../source/create/avatars/add-flow.rst:76
 msgid "Damping"
-msgstr ""
+msgstr "Damping"
 
 #: ../../source/create/avatars/add-flow.rst:76
 msgid "Determines how easily the bones oscillate or move around the joints."
 msgstr ""
+"Determina la facilidad con la que los huesos oscilan o se mueven alrededor "
+"de las articulaciones."
 
 #: ../../source/create/avatars/add-flow.rst:78
 msgid "Inertia"
-msgstr ""
+msgstr "Inertia"
 
 #: ../../source/create/avatars/add-flow.rst:78
 msgid "Changes the rotational velocity of the bones."
-msgstr ""
+msgstr "Cambia la velocidad de rotación de los huesos."
 
 #: ../../source/create/avatars/add-flow.rst:80
 msgid "Delta"
-msgstr ""
+msgstr "Delta"
 
 #: ../../source/create/avatars/add-flow.rst:80
 msgid "Controls the amount of time between each joint movement."
-msgstr ""
+msgstr "Controla la cantidad de tiempo entre cada movimiento articular."
 
 #: ../../source/create/avatars/add-flow.rst:85
 msgid "Collisions Panel"
-msgstr ""
+msgstr "Panel de Colisiones"
 
 #: ../../source/create/avatars/add-flow.rst:87
 msgid ""
@@ -2052,22 +2054,29 @@ msgid ""
 "distance between the flow thread and the joint. You can only have a "
 "maximum of 4 collisions defined for your avatar."
 msgstr ""
+"El panel de ** Colisiones ** controla las esferas de colisión que definen "
+"las interacciones entre los hilos de flujo y las articulaciones en tu "
+"avatar. Cada esfera de colisión se coloca utilizando una articulación de "
+"avatar existente y un desplazamiento: a medida que aumenta el radio de una "
+"esfera de colisión, aumenta la distancia entre el hilo de flujo y la "
+"articulación. Solo puedes tener un máximo de 4 colisiones definidas para tu "
+"avatar."
 
 #: ../../source/create/avatars/add-flow.rst:94
 msgid "Controls the collision sphere radius."
-msgstr ""
+msgstr "Controla el radio de la esfera de colisión."
 
 #: ../../source/create/avatars/add-flow.rst:96
 msgid "Offset"
-msgstr ""
+msgstr "Offset"
 
 #: ../../source/create/avatars/add-flow.rst:96
 msgid "Controls the collision sphere offset."
-msgstr ""
+msgstr "Controla el desplazamiento de la esfera de colisión."
 
 #: ../../source/create/avatars/add-flow.rst:101
 msgid "Output Panel"
-msgstr ""
+msgstr "Panel de salida"
 
 #: ../../source/create/avatars/add-flow.rst:103
 msgid ""
@@ -2075,64 +2084,78 @@ msgid ""
 "flow configuration, based on what you entered in the `Joints Panel`_ and "
 "the `Collisions Panel`_."
 msgstr ""
+"El panel de **Salida** muestra los datos FST resultantes para la "
+"configuración de flujo de tu avatar, según lo que ingresaste en el `Panel de "
+"Articulaciones`_ y el `Panel de Colisiones`_."
 
 #: ../../source/create/avatars/add-flow.rst:105
 msgid ""
 "Copy this data directly into your avatar's FST file to complete the flow "
 "process."
 msgstr ""
+"Copia estos datos directamente en el archivo FST de tu avatar para completar "
+"el proceso de flujo."
 
 #: ../../source/create/avatars/add-flow.rst:112
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
 #: ../../source/create/avatars/add-flow.rst:115
 #: ../../source/create/entities/boombox-tutorial.rst:99
 msgid "File"
-msgstr ""
+msgstr "Archivo"
 
 #: ../../source/create/avatars/add-flow.rst:115
 #: ../../source/create/entities/boombox-tutorial.rst:99
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../../source/create/avatars/add-flow.rst:117
 msgid ""
 "This app lets users easily update Flow settings without the need for "
 "scripting or advanced knowledge of avatars."
 msgstr ""
+"Esta aplicación permite a los usuarios actualizar fácilmente la "
+"configuración de Flow sin necesidad de secuencias de comandos o "
+"conocimientos avanzados de avatares."
 
 #: ../../source/create/avatars/add-flow.rst:117
 msgid ""
 "`flowAppCpp.js <https://highfidelity.com "
 "/marketplace/items/370b8ff7-d5ad-4410-9c5c -0ead86e69756>`_"
 msgstr ""
+"`flowAppCpp.js <https://highfidelity.com /marketplace/items/"
+"370b8ff7-d5ad-4410-9c5c -0ead86e69756>`_"
 
 #: ../../source/create/avatars/add-flow.rst:121
 msgid "Mannequin with Hair"
-msgstr ""
+msgstr "Maniquí con Cabello"
 
 #: ../../source/create/avatars/add-flow.rst:121
 msgid ""
 "This avatar is properly rigged to work with Flow. Use this as an example "
 "for your own avatar models."
 msgstr ""
+"Este avatar está correctamente preparado para funcionar con Flow. Usa esto "
+"como ejemplo para tus propios modelos de avatar."
 
 #: ../../source/create/avatars/add-flow.rst:121
 msgid ""
 "`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/"
 " Mannequin/hairTest/mannequinHairTest8. fst>`_"
 msgstr ""
+"`Maniquí con cabello <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/ "
+"Mannequin/hairTest/mannequinHairTest8. fst>`_"
 
 #: ../../source/create/avatars/add-flow.rst:129
 #: ../../source/create/avatars/custom-animations.rst:271
 msgid ":doc:`Avatar Standards Guide <avatar-standards>`"
-msgstr ""
+msgstr ":doc:`Guía de Estándares del Avatar <avatar-standards>`"
 
 #: ../../source/create/avatars/add-flow.rst:130
 #: ../../source/create/avatars/scattering-tutorial.rst:69
 msgid "`Package Your Avatar <create-avatars.html#package-your-avatar>`_"
-msgstr ""
+msgstr "`Empaqueta tu Avatar <create-avatars.html#package-your-avatar>`_"
 
 #: ../../source/create/avatars/add-flow.rst:131
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:64
@@ -2143,11 +2166,12 @@ msgid ""
 ":doc:`Get Started with Scripting <../../script/get-started-with-"
 "scripting>`"
 msgstr ""
+":doc:`Comienza con la Codificación <../../script/get-started-with-scripting>`"
 
 #: ../../source/create/avatars/avatar-standards.md:6
 #: ../../source/create/avatars/create-avatars.rst:24
 msgid "Avatar Standards Guide"
-msgstr ""
+msgstr "Guía de Estándares del Avatar"
 
 #: ../../source/create/avatars/avatar-standards.md:8
 msgid ""
@@ -2200,53 +2224,67 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:19
 msgid "Glossary"
-msgstr ""
+msgstr "Glosario"
 
 #: ../../source/create/avatars/avatar-standards.md:20
 msgid ""
 "As we delve deeper into creating custom avatars, we may use terminology "
 "that you are unfamiliar with. Here are some terms you might come across:"
 msgstr ""
+"A medida que profundizamos en la creación de avatares personalizados, es "
+"posible que usemos terminología con la que no estés familiarizado. A "
+"continuación, se muestran algunos términos con los que puedes encontrarte:"
 
 #: ../../source/create/avatars/avatar-standards.md:22
 msgid "Avatar - A virtual representation of a person or NPC."
-msgstr ""
+msgstr "Avatar - Una representación virtual de una persona o NPC."
 
 #: ../../source/create/avatars/avatar-standards.md:23
 msgid ""
 "Mesh - The collection of 3D vertices and triangles for the avatar model. "
 "Without this, the avatar is invisible."
 msgstr ""
+"Malla - La colección de vértices y triángulos 3D para el modelo del avatar. "
+"Sin esto, el avatar es invisible."
 
 #: ../../source/create/avatars/avatar-standards.md:24
 msgid ""
 "Bones - A component of a skeleton that defines a \"limb\" such as an arm,"
 " leg, etc. Each bone may be animated as a separate limb in your avatar."
 msgstr ""
+"Huesos - Un componente de un esqueleto que define una \"extremidad\" como un "
+"brazo, pierna, etc. Cada hueso podría ser animado como un extremidad "
+"separada de tu avatar."
 
 #: ../../source/create/avatars/avatar-standards.md:25
 msgid "Skeleton - A hierarchy of joints."
-msgstr ""
+msgstr "Esqueleto - Una jerarquía de articulaciones."
 
 #: ../../source/create/avatars/avatar-standards.md:26
 msgid "Rigging - The process of creating a skeleton of the avatar model."
 msgstr ""
+"Rigging: el proceso de creación de un esqueleto para el modelo del avatar."
 
 #: ../../source/create/avatars/avatar-standards.md:27
 msgid ""
 "Blendshapes - Variations of the topology that defines how the mesh is "
 "modified to create various \"shapes\"."
 msgstr ""
+"Blendshapes: Variaciones de la topología que define cómo se modifica la "
+"malla para crear varias \"formas\"."
 
 #: ../../source/create/avatars/avatar-standards.md:28
 msgid ""
 "FST file - The main avatar file, which contains information about the "
 "skeleton, blendshapes, FBX file and textures used by an avatar."
 msgstr ""
+"Archivo FST: El archivo principal del avatar, que contiene información sobre "
+"el esqueleto, las formas de combinación (blendshapes), el archivo FBX y las "
+"texturas utilizadas por un avatar."
 
 #: ../../source/create/avatars/avatar-standards.md:31
 msgid "Reference Pose"
-msgstr ""
+msgstr "Pose de Referencia"
 
 #: ../../source/create/avatars/avatar-standards.md:32
 msgid ""
@@ -2254,28 +2292,37 @@ msgid ""
 "specifications below. You may wish to refer to the properly configured "
 "example avatar fbx with source files."
 msgstr ""
+"Para la pose de referencia, usa una pose en T que cumpla con las "
+"especificaciones de a continuación. Es posible que quieras consultar el "
+"avatar fbx de ejemplo correctamente configurado con los archivos de origen."
 
 #: ../../source/create/avatars/avatar-standards.md:33
 msgid "The character must face along the positive direction of the Z-axis."
-msgstr ""
+msgstr "El personaje debe mirar a lo largo de la dirección positiva del eje Z."
 
 #: ../../source/create/avatars/avatar-standards.md:34
 msgid ""
 "The arms must be spread along the X-axis. The left arm should therefore "
 "be pointing along the positive direction of the X-axis."
 msgstr ""
+"Los brazos deben estar extendidos a lo largo del eje X. Por lo tanto, el "
+"brazo izquierdo debe apuntar a lo largo de la dirección positiva del eje X."
 
 #: ../../source/create/avatars/avatar-standards.md:35
 msgid ""
 "The top of the character's head must be up, in the positive direction of "
 "the Y-axis."
 msgstr ""
+"La parte superior de la cabeza del personaje debe estar hacia arriba, en la "
+"dirección positiva del eje Y."
 
 #: ../../source/create/avatars/avatar-standards.md:36
 msgid ""
 "The character's hands are flat, palms facing the ground, with the thumbs "
 "parallel to the X axis."
 msgstr ""
+"Las manos del personaje son planas, las palmas hacia el suelo, con los "
+"pulgares paralelos al eje X."
 
 #: ../../source/create/avatars/avatar-standards.md:37
 msgid ""
@@ -2284,6 +2331,11 @@ msgid ""
 "the Y-axis (meaning the toes of the left foot should not point inward "
 "toward the right leg or outward away from the right leg)."
 msgstr ""
+"Los pies del personaje deben estar perpendiculares a las piernas (con los "
+"dedos apuntando a lo largo del eje Z como se muestra). Los pies no deben "
+"rotarse alrededor del eje Y (lo que significa que los dedos del pie "
+"izquierdo no deben apuntar hacia adentro hacia la pierna derecha o hacia "
+"afuera alejándose de la pierna derecha)."
 
 #: ../../source/create/avatars/avatar-standards.md:39
 msgid "![](_images/hifi-skel.png)"
@@ -2298,7 +2350,7 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:43
 msgid "Skeleton"
-msgstr ""
+msgstr "Esqueleto"
 
 #: ../../source/create/avatars/avatar-standards.md:44
 msgid ""
@@ -2316,6 +2368,8 @@ msgid ""
 "High Fidelity avatars should match the following standard skeletal "
 "structure. Each of these joints can be animated."
 msgstr ""
+"Los avatares de HiFi deben coincidir con la siguiente estructura esquelética "
+"estándar. Cada una de estas articulaciones se puede animar."
 
 #: ../../source/create/avatars/avatar-standards.md:53
 msgid "![](_images/avatar-skeleton.png)"
@@ -2323,7 +2377,7 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:55
 msgid "Flow Bones"
-msgstr ""
+msgstr "Huesos de Flujo"
 
 #: ../../source/create/avatars/avatar-standards.md:57
 msgid ""
@@ -2335,7 +2389,7 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:60
 msgid "For example, consider a full cape that surrounds the avatar:"
-msgstr ""
+msgstr "Por ejemplo, considera una capa completa que rodea al avatar:"
 
 #: ../../source/create/avatars/avatar-standards.md:73
 msgid ""
@@ -2345,25 +2399,29 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:86
 msgid "Look-at Vectors"
-msgstr ""
+msgstr "Vectores de Mirada"
 
 #: ../../source/create/avatars/avatar-standards.md:88
 msgid "The look-at vectors are driven by the z-vector of the eye joints."
 msgstr ""
+"Los vectores de mirada son manejados por el vector z de las articulaciones "
+"del ojo."
 
 #: ../../source/create/avatars/avatar-standards.md:90
 msgid ""
 "The +z axis of the eye joints should go through the center of the pupil, "
 "and should continue to do so as the eye joint is rotated."
 msgstr ""
+"El eje +z de las articulaciones del ojo debe pasar por el centro de la "
+"pupila y debe continuar haciéndolo mientras se gira la articulación del ojo."
 
 #: ../../source/create/avatars/avatar-standards.md:92
 msgid "The eye joints are defined in the FST."
-msgstr ""
+msgstr "Las articulaciones del ojo se definen en el FST."
 
 #: ../../source/create/avatars/avatar-standards.md:94
 msgid "Blendshapes"
-msgstr ""
+msgstr "Blendshapes (Interpolación de Formas)"
 
 #: ../../source/create/avatars/avatar-standards.md:96
 msgid ""
@@ -2377,12 +2435,23 @@ msgid ""
 "modeling an avatar from scratch, you will likely need to specify your own"
 " facial expressions."
 msgstr ""
+"HiFi usa blendshapes para animar la cara de tu avatar. Blendshapes te "
+"permite especificar un nuevo estado para la malla de tu avatar, y las "
+"posiciones faciales se animan al moverse entre los diferentes estados de las "
+"expresiones de tu avatar. Los comportamientos del Blendshape se definen en "
+"el archivo FST de tu avatar y se agregan a la malla del avatar utilizando "
+"una herramienta de modelado 3D como Blender (Shape Keys) o Maya. El programa "
+"Fuse de Adobe y la pipeline de Mixamo te permiten exportar blendshapes como "
+"parte de tu FBX, pero si estás modelando un avatar desde cero, es probable "
+"que debas especificar tus propias expresiones faciales."
 
 #: ../../source/create/avatars/avatar-standards.md:98
 msgid ""
 "High Fidelity avatars support a number of blendshapes for creating "
 "different facial expressions."
 msgstr ""
+"Los avatares HiFi admiten un número de blendshapes para crear diferentes "
+"expresiones faciales."
 
 #: ../../source/create/avatars/avatar-standards.md:100
 msgid "**Basic Blendshapes**"
@@ -2406,13 +2475,15 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:108
 msgid "These blendshapes are used when you speak."
-msgstr ""
+msgstr "Estos blendshapes se utilizan cuando hablas."
 
 #: ../../source/create/avatars/avatar-standards.md:110
 msgid ""
 "Your eyebrows are blendshapes that react to a change in volume. They will"
 " move upwards when your voice gets louder. These include:"
 msgstr ""
+"Tus cejas son formas mixtas que reaccionan a un cambio de volumen. Se "
+"moverán hacia arriba cuando tu voz se vuelva más fuerte. Éstas incluyen:"
 
 #: ../../source/create/avatars/avatar-standards.md:112
 msgid "`BrowsU_C`: Center of the brow going up"
@@ -2429,6 +2500,8 @@ msgstr ""
 #: ../../source/create/avatars/avatar-standards.md:116
 msgid "Other audio blendshapes are randomly mixed when you speak. These include:"
 msgstr ""
+"Otros audios de blendshapes se mezclan aleatoriamente cuando hablas. Éstos "
+"incluyen:"
 
 #: ../../source/create/avatars/avatar-standards.md:118
 msgid "`MouthSmile_L`: Left side of the mouth lifting up to a smile"
@@ -2522,7 +2595,7 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:167
 msgid "Other Considerations"
-msgstr ""
+msgstr "Otras Consideraciones"
 
 #: ../../source/create/avatars/avatar-standards.md:169
 msgid "File Optimization"
