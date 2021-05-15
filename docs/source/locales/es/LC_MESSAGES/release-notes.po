@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-05-02 08:26+0000\n"
+"POT-Creation-Date: 2021-05-15 17:35+0000\n"
 "PO-Revision-Date: 2021-04-18 00:01+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language: es\n"
@@ -398,7 +398,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:70
 msgid ""
-"DEV-2769: Remove the \"acceleration\" entity property from Create app  "
+"DEV-2769: Remove the \"acceleration\" entity property from Create app "
 "It's a deprecated property that doesn't affect the entity. (#16497)"
 msgstr ""
 
@@ -420,10 +420,10 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:75
 msgid ""
-"Add automaticLookAt.js to developer scripts  `automaticLookAt.js` is a "
+"Add automaticLookAt.js to developer scripts `automaticLookAt.js` is a "
 "script that automatically controls the avatar's head and eye to simulate "
-"human interaction during group interactions.  This PR adds that script to"
-" the developer script folder. (#16545)"
+"human interaction during group interactions. This PR adds that script to "
+"the developer script folder. (#16545)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:80
@@ -1172,8 +1172,8 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:256
 msgid ""
-"Allow Linux interface to connect to domain when DISABLE_QML is true  when"
-" built with DISABLE_QML true, Linux interface doesn't attempt to connect "
+"Allow Linux interface to connect to domain when DISABLE_QML is true when "
+"built with DISABLE_QML true, Linux interface doesn't attempt to connect "
 "to domain. (#16566)"
 msgstr ""
 
@@ -8588,5 +8588,30 @@ msgstr ""
 #~ "put into PRs by Kalila L. & "
 #~ "Keb Helion found here between February"
 #~ " 26th & March 16th, 2020."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "DEV-2769: Remove the \"acceleration\" entity"
+#~ " property from Create app  It's a "
+#~ "deprecated property that doesn't affect "
+#~ "the entity. (#16497)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add automaticLookAt.js to developer scripts"
+#~ "  `automaticLookAt.js` is a script that "
+#~ "automatically controls the avatar's head "
+#~ "and eye to simulate human interaction"
+#~ " during group interactions.  This PR "
+#~ "adds that script to the developer "
+#~ "script folder. (#16545)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Allow Linux interface to connect to "
+#~ "domain when DISABLE_QML is true  when"
+#~ " built with DISABLE_QML true, Linux "
+#~ "interface doesn't attempt to connect to"
+#~ " domain. (#16566)"
 #~ msgstr ""
 
