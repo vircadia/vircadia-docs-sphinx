@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-05-15 17:35+0000\n"
+"PO-Revision-Date: 2021-05-16 05:24+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -2529,6 +2529,9 @@ msgid ""
 "used to track the current position of the eye along with your head "
 "orientation."
 msgstr ""
+"Para asegurarse de que la parte superior del párpado descanse sobre el iris, "
+"se utilizan blendshapes para rastrear la posición actual del ojo junto con "
+"la orientación de la cabeza."
 
 #: ../../source/create/avatars/avatar-standards.md:127
 msgid "`EyeBlink_L`: Blinking action for the left eye"
@@ -2559,6 +2562,8 @@ msgid ""
 "We apply a small procedural offset to the blendshape coefficients to "
 "prevent sleepy or crazy eye lids:"
 msgstr ""
+"Aplicamos un pequeño desplazamiento procedural a los coeficientes de "
+"blendshape para evitar párpados somnolientos o locos:"
 
 #: ../../source/create/avatars/avatar-standards.md:137
 msgid ""
@@ -2588,10 +2593,14 @@ msgid ""
 "directly in your avatar's FST file. In the FST file, blendshapes are "
 "defined with the syntax:"
 msgstr ""
+"Los ajustes a tus blendshapes se pueden realizar con una herramienta de "
+"modelado 3D o directamente en el archivo FST de tu avatar. En el archivo "
+"FST, los blendshapes se definen con la sintaxis:"
 
 #: ../../source/create/avatars/avatar-standards.md:148
 msgid "Here is an example of modifying your blendshapes in your FST file:"
 msgstr ""
+"Aquí hay un ejemplo de cómo modificar tus blendshapes en tu archivo FST:"
 
 #: ../../source/create/avatars/avatar-standards.md:167
 msgid "Other Considerations"
@@ -2599,7 +2608,7 @@ msgstr "Otras Consideraciones"
 
 #: ../../source/create/avatars/avatar-standards.md:169
 msgid "File Optimization"
-msgstr ""
+msgstr "Optimización de Archivos"
 
 #: ../../source/create/avatars/avatar-standards.md:170
 msgid ""
@@ -2609,6 +2618,12 @@ msgid ""
 " use, the more bandwidth you are using from your servers per load. "
 "Optimally, keep your avatar models under 20 MB."
 msgstr ""
+"Los creadores de contenido tendrán un ancho de banda limitado en los "
+"servidores (lee la letra pequeña en cualquier plan de host ilimitado) por lo "
+"que la optimización es importante, tanto para los usuarios finales como para "
+"los creadores de contenido. Cuantos más polígonos y texturas más grandes "
+"utilices, más ancho de banda estarás utilizando de tus servidores por carga. "
+"De manera óptima, mantén tus modelos de avatar por debajo de 20 MB."
 
 #: ../../source/create/avatars/avatar-standards.md:173
 msgid ""
@@ -2621,10 +2636,19 @@ msgid ""
 "smaller size than your roughness for best detail through light reflection"
 " instead of color variation."
 msgstr ""
+"Te recomendamos que intentes mantener el tamaño total de todas las texturas "
+"por avatar por debajo de 8 MB. Deben ser siempre menores de 1024x1024, a "
+"menos que todas las texturas estén en un solo archivo. Si usas varios "
+"archivos de textura, cuanto más pequeños, mejor, especialmente si puedes "
+"hacer que las texturas sean más pequeñas. Recuerda que puedes obtener muchos "
+"más detalles a través de la rugosidad y el mapeo normal, que solo con "
+"texturas. Se sugiere que mantengas Albedo en un tamaño más pequeño que su "
+"rugosidad para obtener el mejor detalle a través del reflejo de la luz en "
+"lugar de la variación de color."
 
 #: ../../source/create/avatars/avatar-standards.md:175
 msgid "Avatar Collision Hulls"
-msgstr ""
+msgstr "Cascos de Colisión de Avatar"
 
 #: ../../source/create/avatars/avatar-standards.md:177
 msgid ""
@@ -2645,10 +2669,18 @@ msgid ""
 "size of the collision hull, you can add skeleton joints to your avatar's "
 "tail."
 msgstr ""
+"Dependiendo del diseño del avatar, los cascos de colisión pueden ser muy "
+"grandes o pequeños. Esto ocurre porque HiFi (High Fidelity) analiza la forma "
+"del torso del avatar (desde las caderas hasta la cabeza) y trata de "
+"encontrar la mejor forma que encierra la malla. Por ejemplo, si tu avatar "
+"tiene caderas grandes o tal vez una cola completamente extendida, HiFi "
+"piensa que la punta de la cola es parte de tus caderas y crea un casco de "
+"colisión muy grande. Para reducir el tamaño del casco de colisión, puedes "
+"agregar articulaciones de esqueleto a la cola de tu avatar."
 
 #: ../../source/create/avatars/avatar-standards.md:182
 msgid "Avatar Thumbnails"
-msgstr ""
+msgstr "Miniaturas de Avatar"
 
 #: ../../source/create/avatars/avatar-standards.md:184
 msgid ""
@@ -2675,7 +2707,7 @@ msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:6
 msgid "Tutorial: Modify Materials and Textures Using Blender"
-msgstr ""
+msgstr "Tutorial: Modificar Materiales y Texturas usando Blender"
 
 #: ../../source/create/avatars/blender-tutorial.md:8
 msgid ""
@@ -2683,6 +2715,9 @@ msgid ""
 "your avatar and ensure that the materials and textures render correctly "
 "in High Fidelity."
 msgstr ""
+"Blender es una herramienta de modelado 3D de código abierto que puedes "
+"utilizar para ajustar tu avatar y asegurarte de que los materiales y "
+"texturas se representen correctamente en High Fidelity (HiFi)."
 
 #: ../../source/create/avatars/blender-tutorial.md:10
 msgid ""
@@ -2711,19 +2746,20 @@ msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:15
 msgid "To get a better view of your avatar, change the lamp settings:"
-msgstr ""
+msgstr "Para ver mejor tu avatar, cambia la configuración de lamp:"
 
 #: ../../source/create/avatars/blender-tutorial.md:16
 msgid "From the Outliner, click the Lamp node in Blender."
-msgstr ""
+msgstr "Desde el Esquema, haz click en el nodo Lamp en Blender."
 
 #: ../../source/create/avatars/blender-tutorial.md:17
 msgid "For 'Type of Active Data to display and edit', choose the 'Data' icon."
 msgstr ""
+"Para \"Type of Active Data to display and edit\", elije el icono \"Data\"."
 
 #: ../../source/create/avatars/blender-tutorial.md:18
 msgid "Change the lamp to Sun."
-msgstr ""
+msgstr "Cambia lamp (lámpara) a Sun (Sol)."
 
 #: ../../source/create/avatars/blender-tutorial.md:19
 msgid "Rotate the Lamp to light up your avatar.![](_images/lamp-settings.png)"
@@ -2734,6 +2770,9 @@ msgid ""
 "From the Outliner, open the 'Armature' tree and select the item you want "
 "to fine tune. You can also click on the item directly on your model."
 msgstr ""
+"Desde el Esquema, abra el árbol \"Armature\" y selecciona el elemento que "
+"deseas ajustar. También puedes hacer click en el elemento directamente en tu "
+"modelo."
 
 #: ../../source/create/avatars/blender-tutorial.md:21
 msgid ""
@@ -2759,19 +2798,19 @@ msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:29
 msgid "Give your avatar a unique name."
-msgstr ""
+msgstr "Dale a tu avatar un nombre único."
 
 #: ../../source/create/avatars/blender-tutorial.md:30
 msgid "Click the 'Export FBX' button."
-msgstr ""
+msgstr "Click en el botón \"Export FBX\"."
 
 #: ../../source/create/avatars/blender-tutorial.md:32
 msgid "Now, you are ready to bring your avatar into High Fidelity."
-msgstr ""
+msgstr "Ahora, estás listo para llevar tu avatar a HiFi."
 
 #: ../../source/create/avatars/blender-tutorial.md:34
 msgid "Example: Update Eyelashes from an Image"
-msgstr ""
+msgstr "Ejemplo: Actualizar Pestañas a partir de una imagen"
 
 #: ../../source/create/avatars/blender-tutorial.md:36
 msgid ""
@@ -2783,6 +2822,7 @@ msgstr ""
 #: ../../source/create/avatars/blender-tutorial.md:37
 msgid "From the Outliner, open the 'Armature' tree and select 'Eyelashes'."
 msgstr ""
+"Desde el Esquema, abra el árbol \"Armature\" y selecciona \"Eyelashes\"."
 
 #: ../../source/create/avatars/blender-tutorial.md:38
 msgid ""
@@ -2795,14 +2835,16 @@ msgid ""
 "Click the '+' button next to the material list to create a new material "
 "slot."
 msgstr ""
+"Haz clic en el botón \"+\" junto a la lista de materiales para crear una "
+"nueva ranura de material."
 
 #: ../../source/create/avatars/blender-tutorial.md:40
 msgid "Click '+ New' to add a new material."
-msgstr ""
+msgstr "Haz click en \"+ New\" para agregar un nuevo material."
 
 #: ../../source/create/avatars/blender-tutorial.md:41
 msgid "Rename the new material to 'lashes'."
-msgstr ""
+msgstr "Cambia el nombre del nuevo material a \"lashes\"."
 
 #: ../../source/create/avatars/blender-tutorial.md:42
 msgid ""
@@ -2812,7 +2854,7 @@ msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:43
 msgid "Under the material list, click 'Assign'."
-msgstr ""
+msgstr "Debajo de la lista de materiales, haz clic en \"Assign\"."
 
 #: ../../source/create/avatars/blender-tutorial.md:44
 msgid ""
@@ -2832,7 +2874,7 @@ msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:47
 msgid "Click '+ New' to add a new texture."
-msgstr ""
+msgstr "Haga clic en \"+ New' para agregar una nueva textura."
 
 #: ../../source/create/avatars/blender-tutorial.md:48
 msgid ""
