@@ -1,4 +1,4 @@
-name: Master CI Build
+name: Master CI Build & Deploy
 
 on:
   push:
@@ -135,53 +135,3 @@ jobs:
         printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
         chmod 600 private_key.pem
         ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/es/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-es.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/es/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-es.tar.gz"
-
-  check_warnings:
-    runs-on: ubuntu-20.04
-    strategy:
-      matrix:
-        python-version: [3.7]
-
-    name: Check for warnings
-    steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
-      with:
-        python-version: ${{ matrix.python-version }}
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install git+https://github.com/vircadia/video.git
-        pip install -U Sphinx==2.4.4
-        pip install --upgrade myst-parser
-        pip install sphinx_rtd_theme
-    - name: Check source documentation
-      shell: bash
-      run: |
-        cd docs
-        make SPHINXOPTS="-W --keep-going" html
-    - name: Check German documentation
-      if: ${{ success() || failure() }}
-      shell: bash
-      run: |
-        cd docs
-        make BUILDDIR=build-de SPHINXOPTS="-Dlanguage=de -W --keep-going" html
-    - name: Check French documentation
-      if: ${{ success() || failure() }}
-      shell: bash
-      run: |
-        cd docs
-        make BUILDDIR=build-fr SPHINXOPTS="-Dlanguage=fr -W --keep-going" html
-    - name: Check Japanese documentation
-      if: ${{ success() || failure() }}
-      shell: bash
-      run: |
-        cd docs
-        make BUILDDIR=build-jp SPHINXOPTS="-Dlanguage=jp -W --keep-going" html
-    - name: Check Spanish documentation
-      if: ${{ success() || failure() }}
-      shell: bash
-      run: |
-        cd docs
-        make BUILDDIR=build-es SPHINXOPTS="-Dlanguage=es -W --keep-going" html
