@@ -1,3 +1,7 @@
+# Status
+
+![Master CI Deploy](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_build.yml/badge.svg) ![Master CI Warnings](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_warnings.yml/badge.svg)
+
 # Overview of Vircadia's Documentation Tools
 
 For Vircadia's main documentation system, we use **Sphinx** to generate it, and a web server to publish/host it. GitHub is a helpful middleman and stores all of the docs.
