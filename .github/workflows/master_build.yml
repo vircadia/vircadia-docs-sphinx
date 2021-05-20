@@ -46,7 +46,7 @@ jobs:
     - name: Deploy english documentation
       shell: bash
       run: |
-        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "tar -xvzf /httpdocs/build-en.tar.gz -C /httpdocs/ && rm /httpdocs/build-en.tar.gz"
+        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" ssh -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "tar -xvzf /httpdocs/build-en.tar.gz -C /httpdocs/ && rm /httpdocs/build-en.tar.gz"
 
   build_translated_docs:
     runs-on: ubuntu-20.04
@@ -112,16 +112,16 @@ jobs:
     - name: Deploy german documentation
       shell: bash
       run: |
-        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/de/ && tar -xvzf /httpdocs/build-de.tar.gz -C /httpdocs/de/ && rm /httpdocs/build-de.tar.gz"
+        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" ssh -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/de/ && tar -xvzf /httpdocs/build-de.tar.gz -C /httpdocs/de/ && rm /httpdocs/build-de.tar.gz"
     - name: Deploy french documentation
       shell: bash
       run: |
-        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/fr/ && tar -xvzf /httpdocs/build-fr.tar.gz -C /httpdocs/fr/ && rm /httpdocs/build-fr.tar.gz"
+        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" ssh -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/fr/ && tar -xvzf /httpdocs/build-fr.tar.gz -C /httpdocs/fr/ && rm /httpdocs/build-fr.tar.gz"
     - name: Deploy japanese documentation
       shell: bash
       run: |
-        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/jp/ && tar -xvzf /httpdocs/build-jp.tar.gz -C /httpdocs/jp/ && rm /httpdocs/build-jp.tar.gz"
+        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" ssh -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/jp/ && tar -xvzf /httpdocs/build-jp.tar.gz -C /httpdocs/jp/ && rm /httpdocs/build-jp.tar.gz"
     - name: Deploy spanish documentation
       shell: bash
       run: |
-        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/es/ && tar -xvzf /httpdocs/build-es.tar.gz -C /httpdocs/es/ && rm /httpdocs/build-es.tar.gz"
+        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" ssh -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/es/ && tar -xvzf /httpdocs/build-es.tar.gz -C /httpdocs/es/ && rm /httpdocs/build-es.tar.gz"
