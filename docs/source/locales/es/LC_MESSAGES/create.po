@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-05-20 13:58+0000\n"
+"PO-Revision-Date: 2021-05-20 14:18+0000\n"
 "Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -251,7 +251,7 @@ msgid ""
 "correctly."
 msgstr ""
 "Los materiales del modelo 3D son admitidos por Vircadia. Utiliza nuestra : "
-"doc: `guía de materiales <pbr-materials-guide>` para asegurarte de que tus "
+"doc:`guía de materiales <pbr-materials-guide>` para asegurarte de que tus "
 "materiales se carguen correctamente."
 
 #: ../../source/create/3d-models/get-model.rst:33
@@ -608,7 +608,7 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:77
 #: ../../source/create/entities/zone-tutorial.md:105
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a **Crear**."
+msgstr "En la interfaz, trae tu HUD o tableta y ve a **Crear **."
 
 #: ../../source/create/3d-models/import-animations.rst:35
 msgid ""
