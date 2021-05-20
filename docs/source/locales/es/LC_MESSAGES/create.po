@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-05-20 15:07+0000\n"
+"PO-Revision-Date: 2021-05-20 23:07+0000\n"
 "Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -250,8 +250,8 @@ msgid ""
 " guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
-"Los materiales del modelo 3D son admitidos por Vircadia. Utiliza nuestra : "
-"doc:`guía de materiales <pbr-materials-guide>` para asegurarte de que tus "
+"Los materiales del modelo 3D son admitidos por Vircadia. Utiliza nuestra "
+":doc:`guía de materiales <pbr-materials-guide>` para asegurarte de que tus "
 "materiales se carguen correctamente."
 
 #: ../../source/create/3d-models/get-model.rst:33
@@ -748,8 +748,8 @@ msgid ""
 " with an :doc:`entity script <../../script/client-entity-scripts>`."
 msgstr ""
 "También puedes controlar las propiedades de una animación y cuándo comienzan "
-"a reproducirse con un :doc:`archivo de entidad ../../script/client-entity-"
-"scripts`."
+"a reproducirse con un :doc:`archivo de entidad <../../script/client-entity-"
+"scripts>`."
 
 #: ../../source/create/3d-models/import-animations.rst:66
 #: ../../source/create/3d-models/import-model.rst:37
@@ -874,7 +874,7 @@ msgstr ""
 #: ../../source/create/3d-models/import-model.rst:39
 #: ../../source/create/entities/create-fountain.rst:94
 msgid ":doc:`Create Tools <../tools>`"
-msgstr ":doc:`Crear herramientas ../ tools`"
+msgstr ":doc:`Crear herramientas <../tools>`"
 
 #: ../../source/create/3d-models/import-model.rst:40
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
