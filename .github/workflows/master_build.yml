@@ -35,7 +35,7 @@ jobs:
         cd build/html/
         tar -czvf ../../build-archives/build-en.tar.gz *
     - name: Upload documentation
-      uses: JulianGro/SFTP-Deploy-Action@v1.6
+      uses: JulianGro/SFTP-Deploy-Action@v1.7
       with:
         username: 'docs-vircadia-com'
         server: '192.64.118.213'
@@ -101,7 +101,7 @@ jobs:
         cd build-es/html/
         tar -czvf ../../build-archives/build-es.tar.gz *
     - name: Upload translated documentation
-      uses: JulianGro/SFTP-Deploy-Action@v1.6
+      uses: JulianGro/SFTP-Deploy-Action@v1.7
       with:
         username: 'docs-vircadia-com'
         server: '192.64.118.213'
