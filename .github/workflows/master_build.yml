@@ -35,20 +35,18 @@ jobs:
         cd build/html/
         tar -czvf ../../build-archives/build-en.tar.gz *
     - name: Upload documentation
-      uses: JulianGro/SFTP-Deploy-Action@v1.4
+      uses: JulianGro/SFTP-Deploy-Action@v1.5
       with:
-        username: 'gha'
-        server: 'vircadia.dev'
-        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        username: 'docs-vircadia-com'
+        server: '192.64.118.213'
+        ssh_password: ${{ secrets.GHA_DOCS_SSH_PASS }}
         local_path: 'docs/build-archives/*'
         remote_path: '/var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/'
         args: '-o ConnectTimeout=5'
     - name: Deploy english documentation
       shell: bash
       run: |
-        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
-        chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-en.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-en.tar.gz"
+        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-en.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-en.tar.gz"
 
   build_translated_docs:
     runs-on: ubuntu-20.04
@@ -105,33 +103,25 @@ jobs:
     - name: Upload translated documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.4
       with:
-        username: 'gha'
-        server: 'vircadia.dev'
-        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        username: 'docs-vircadia-com'
+        server: '192.64.118.213'
+        ssh_password: ${{ secrets.GHA_DOCS_SSH_PASS }}
         local_path: 'docs/build-archives/*'
         remote_path: '/var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/'
         args: '-o ConnectTimeout=5'
     - name: Deploy german documentation
       shell: bash
       run: |
-        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
-        chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/de/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-de.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/de/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-de.tar.gz"
+        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/de/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-de.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/de/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-de.tar.gz"
     - name: Deploy french documentation
       shell: bash
       run: |
-        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
-        chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/fr/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-fr.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/fr/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-fr.tar.gz"
+        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/fr/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-fr.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/fr/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-fr.tar.gz"
     - name: Deploy japanese documentation
       shell: bash
       run: |
-        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
-        chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/jp/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-jp.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/jp/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-jp.tar.gz"
+        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/jp/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-jp.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/jp/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-jp.tar.gz"
     - name: Deploy spanish documentation
       shell: bash
       run: |
-        printf "%s" "${{ secrets.SSH_PRIVATE_KEY }}" > private_key.pem
-        chmod 600 private_key.pem
-        ssh -o StrictHostKeyChecking=no -i private_key.pem gha@vircadia.dev "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/es/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-es.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/es/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-es.tar.gz"
+        sshpass -p "${{ secrets.GHA_DOCS_SSH_PASS }}" -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/es/ && tar -xvzf /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-es.tar.gz -C /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/es/ && rm /var/www/vhosts/vircadia.dev/docs.vircadia.dev/release/build-es.tar.gz"
