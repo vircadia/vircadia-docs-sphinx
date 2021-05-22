@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-05-20 23:07+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-05-22 22:53+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -2888,6 +2888,8 @@ msgid ""
 "Check the 'Alpha' options in the following sections: Image, Preview, "
 "Texture, Influence"
 msgstr ""
+"Revisa las opciones \"Alpha\" en las siguientes secciones: Image, Preview, "
+"Texture, Influence"
 
 #: ../../source/create/avatars/blender-tutorial.md:50
 msgid ""
@@ -2911,26 +2913,32 @@ msgid ""
 "even though their skeletons have never been supported (the Unity avatar "
 "exporter will not be able to fix that)"
 msgstr ""
+"Este documento está desactualizado. FIXME: menciona servicios como VRoid "
+"Studio a pesar de que sus esqueletos nunca han sido compatibles (el "
+"exportador de avatares de Unity no podrá arreglar eso)"
 
 #: ../../source/create/avatars/create-avatars.rst:9
 msgid "There are three ways to get your own avatar. You can either:"
-msgstr ""
+msgstr "Hay tres maneras de conseguir tu propio avatar. Puedes:"
 
 #: ../../source/create/avatars/create-avatars.rst:11
 msgid ""
 "Create your avatar from scratch using 3D modeling tools such as Adobe "
 "Fuse, Mixamo, and Blender"
 msgstr ""
+"Crea tu avatar desde cero usando herramientas de modelado 3D como Adobe "
+"Fuse, Mixamo y Blender"
 
 #: ../../source/create/avatars/create-avatars.rst:12
 msgid "Use MakeHuman or VRoid Studio to create a human or anime avatar"
-msgstr ""
+msgstr "Utiliza MakeHuman o VRoid Studio para crear un avatar humano o de anime"
 
 #: ../../source/create/avatars/create-avatars.rst:13
 msgid ""
 "Download an existing avatar from external sources such as TurboSquid or "
 "CGTrader"
 msgstr ""
+"Descarga un avatar existente de fuentes externas como TurboSquid o CGTrader"
 
 #: ../../source/create/avatars/create-avatars.rst:15
 msgid ""
@@ -2941,42 +2949,53 @@ msgid ""
 "avatars.html#vircadia-avatar-exporter-for-unity>`_ to correctly map the "
 "skeleton and package your avatar."
 msgstr ""
+"Si obtienes un avatar de una fuente externa como TurboSquid, CGTrader, "
+"MakeHuman o VRoid Studio, es probable que el esqueleto no coincida con "
+"nuestro :doc:`Estándares de Avatar <avatar-standards>`. Para usar estos "
+"avatares en Vircadia, utiliza el `Exportador de Avatares de Vircadia para "
+"Unity <find-avatars.html#vircadia-avatar-exporter-for-unity>`_ para mapear "
+"correctamente el esqueleto y empaquetar tu avatar."
 
 #: ../../source/create/avatars/create-avatars.rst:17
 msgid ""
 "If you want to create an avatar from scratch, this page covers the steps "
 "needed to create, rig, and package your avatar."
 msgstr ""
+"Si deseas crear un avatar desde cero, esta página cubre los pasos necesarios "
+"para crear, manipular y empaquetar tu avatar."
 
 #: ../../source/create/avatars/create-avatars.rst:22
 msgid "**In This Section**"
-msgstr ""
+msgstr "**En Esta Sección**"
 
 #: ../../source/create/avatars/create-avatars.rst:32
 msgid "Create an Avatar from Scratch"
-msgstr ""
+msgstr "Crea un Avatar desde Cero"
 
 #: ../../source/create/avatars/create-avatars.rst:34
 msgid "The steps involved in creating your avatar are:"
-msgstr ""
+msgstr "Los pasos involucrados en la creación de tu avatar son:"
 
 #: ../../source/create/avatars/create-avatars.rst:36
 msgid ""
 "Create an avatar with 3D character modeling tool such as Adobe Fuse, "
 "Blender or Maya."
 msgstr ""
+"Crea un avatar con una herramienta de modelado de personajes en 3D como "
+"Adobe Fuse, Blender o Maya."
 
 #: ../../source/create/avatars/create-avatars.rst:37
 msgid "Rig and animate your avatar with an animation tool such as Mixamo."
 msgstr ""
+"Construye y anima tu avatar con una herramienta de animación como Mixamo."
 
 #: ../../source/create/avatars/create-avatars.rst:38
 msgid "Fine tune your avatar using a tool such as Blender or Maya."
-msgstr ""
+msgstr "Refina tu avatar usando una herramienta como Blender o Maya."
 
 #: ../../source/create/avatars/create-avatars.rst:39
 msgid "Package the model in Vircadia for use as an avatar."
-msgstr ""
+msgstr "Empaqueta el modelo en Vircadia para usarlo como avatar."
 
 #: ../../source/create/avatars/create-avatars.rst:41
 msgid ""
@@ -2985,22 +3004,27 @@ msgid ""
 "our avatar automatically, and Blender to adjust the rendering on our "
 "avatar. We also have written instructions on the same process:"
 msgstr ""
+"Echa un vistazo a esta lista de reproducción de YouTube para conocer una "
+"forma de crear y personalizar tu propio avatar. Aquí, usamos Adobe Fuse para "
+"crear nuestro avatar, Mixamo para construir nuestro avatar automáticamente y "
+"Blender para ajustar el renderizado de nuestro avatar. También tenemos "
+"instrucciones escritas sobre el mismo proceso:"
 
 #: ../../source/create/avatars/create-avatars.rst:43
 msgid ":doc:`Create an Avatar with Fuse <fuse-tutorial>`"
-msgstr ""
+msgstr ":doc:`Crea un Avatar con Fuse <fuse-tutorial>`"
 
 #: ../../source/create/avatars/create-avatars.rst:44
 msgid ":doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`"
-msgstr ""
+msgstr ":doc:`Construye Tu Avatar en Mixamo <mixamo-tutorial>`"
 
 #: ../../source/create/avatars/create-avatars.rst:45
 msgid ":doc:`Modify Materials and Textures with Blender <blender-tutorial>`"
-msgstr ""
+msgstr ":doc:`Modifica Materiales y Texturas con Blender <blender-tutorial>`"
 
 #: ../../source/create/avatars/create-avatars.rst:55
 msgid "Community Tools for Avatars"
-msgstr ""
+msgstr "Herramientas de la Comunidad para Avatares"
 
 #: ../../source/create/avatars/create-avatars.rst:57
 msgid ""
@@ -3009,12 +3033,18 @@ msgid ""
 "toolkits, skeletons and more to help you create content, including "
 "avatars. Here are a few for you to play around with."
 msgstr ""
+"Mientras creas tu avatar, recuerda que Vircadia es un proyecto de código "
+"abierto. Muchos de los miembros de nuestra comunidad han creado plug-ins, "
+"add-ons, kits de herramientas, esqueletos y más para ayudarte a crear "
+"contenido, incluso avatares. Aquí hay algunos para que juegues."
 
 #: ../../source/create/avatars/create-avatars.rst:61
 msgid ""
 "`Blender Add-on by Menithal <https://github.com/Menithal/Blender-"
 "Metaverse-Addon>`_"
 msgstr ""
+"`Add-on de Blender por Menithal <https://github.com/Menithal/Blender-"
+"Metaverse-Addon>`_"
 
 #: ../../source/create/avatars/create-avatars.rst:63
 msgid ""
@@ -3022,12 +3052,18 @@ msgid ""
 "content creation and importing for the Vircadia Metaverse Platform. It "
 "features:"
 msgstr ""
+"El Plugin (\"Proyecto Hermes\") es un complemento para Blender que permite "
+"una creación de contenido e importación más fácil para la plataforma de "
+"Metaverso de Vircadia. Cuenta con:"
 
 #: ../../source/create/avatars/create-avatars.rst:65
 msgid ""
 "**Material Tools**: Allows for easier pipeline to apply materials to "
 "objects so that they are ready to use in Vircadia."
 msgstr ""
+"**Herramientas de Materiales**: Permite una tubería (segmentación) más "
+"sencilla para aplicar materiales a los objetos para que estén listos para "
+"usar en Vircadia."
 
 #: ../../source/create/avatars/create-avatars.rst:66
 msgid ""

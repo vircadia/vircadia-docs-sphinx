@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-04-02 18:53+0000\n"
-"PO-Revision-Date: 2021-05-20 23:07+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-05-22 22:53+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/home/es/>\n"
 "Language: es\n"
@@ -178,12 +178,12 @@ msgstr ""
 "metaverso."
 
 #: ../../source/home.rst:69
-#, fuzzy
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
 msgstr ""
-"CREE su propia instancia y brinde una experiencia inmersiva a su audiencia."
+":doc:`ALOJA <host>` y crea experiencias inmersivas para educar, entretener y "
+"conectar con tu audiencia."
 
 #: ../../source/home.rst:70
 msgid ""
