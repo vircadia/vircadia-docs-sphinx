@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-02 08:26+0000\n"
-"PO-Revision-Date: 2021-05-20 14:18+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-05-23 10:43+0000\n"
+"Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/fr/>\n"
 "Language: fr\n"
@@ -3417,9 +3417,8 @@ msgstr ""
 #: ../../source/explore/personalize/change-avatar.md:10
 #: ../../source/explore/personalize/install-apps.md:12
 #: ../../source/explore/travel.md:10
-#, fuzzy
 msgid "**On This Page:**"
-msgstr "Sur cette Page :"
+msgstr "**Sur cette Page :**"
 
 #: ../../source/explore/interact.md:9
 msgid "[Grab Objects](#grab-objects)"

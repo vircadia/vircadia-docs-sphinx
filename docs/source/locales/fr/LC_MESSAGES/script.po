@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-02 08:26+0000\n"
-"PO-Revision-Date: 2021-01-28 12:28+0000\n"
+"PO-Revision-Date: 2021-05-23 10:43+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
+"Language-Team: French <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/script/fr/>\n"
 "Language: fr\n"
-"Language-Team: French <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/script/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/script.rst:9
@@ -868,9 +869,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/script/js-tips.md:7 ../../source/script/write-scripts.md:12
-#, fuzzy
 msgid "**On This Page:**"
-msgstr "Sur cette Page :"
+msgstr "**Sur cette Page :**"
 
 #: ../../source/script/js-tips.md:9
 msgid "[Compute 3D Math Operations](#compute-3d-math-operations)"
@@ -2140,4 +2140,3 @@ msgstr ""
 #~ "and prints the new color in the"
 #~ " 'Debug Window'."
 #~ msgstr ""
-
