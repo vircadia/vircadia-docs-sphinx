@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-02 08:26+0000\n"
-"PO-Revision-Date: 2021-05-23 10:43+0000\n"
+"PO-Revision-Date: 2021-05-24 06:48+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language-Team: French <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/fr/>\n"
@@ -207,6 +207,10 @@ msgid ""
 " exist anymore, mentions security picture, says that lower graphics "
 "setting increase performance (not entirely true in our case)"
 msgstr ""
+"Ce document est légèrement dépassé. FIXME: certaines options de perspective "
+"n'existent plus, mentionne l'image de sécurité, dit que des paramètres "
+"graphiques plus bas augmentent les performances (pas entièrement vrai dans "
+"notre cas)"
 
 #: ../../source/explore/get-started/adjust-settings.rst:9
 msgid ""
@@ -241,9 +245,9 @@ msgid ""
 "/install-apps>`. Pull up the tablet by clicking the menu button on your "
 "controller."
 msgstr ""
-"En VR tous vos paramètres se trouvent dans votre **Tablet**. Le tablet vous "
+"En VR tous vos paramètres se trouvent dans votre **Tablet**. Le Tablet vous "
 "donne également un accès facile à toutes les applications :doc:`que vous "
-"installez <../personalize/install-apps>`. Tirez le tablet vers le haut en "
+"installez <../personalize/install-apps>`. Tirez le Tablet vers le haut en "
 "cliquant sur le bouton menu de votre contrôleur."
 
 #: ../../source/explore/get-started/adjust-settings.rst:22
@@ -805,6 +809,8 @@ msgid ""
 "This document is slightly outdated. FIXME: says that you can use an "
 "Android phone"
 msgstr ""
+"Ce document est légèrement dépassé. FIXME: dit que vous pouvez utiliser un "
+"téléphone Android"
 
 #: ../../source/explore/get-started/architecture.rst:9
 msgid ""
@@ -1694,7 +1700,7 @@ msgstr "Télécharger l'Installateur Vircadia"
 
 #: ../../source/explore/get-started/install.rst:58
 msgid "Windows |Windows|"
-msgstr ""
+msgstr "Windows |Windows|"
 
 #: ../../source/explore/get-started/install.rst:60
 msgid ""
@@ -1702,6 +1708,8 @@ msgid ""
 "<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.1-Eos.exe>`__ "
 "|DownloadWI|"
 msgstr ""
+"`Windows 64-bit - Eos v2021.1.1 Installer <https://cdn.vircadia.com/dist/"
+"release/Vircadia-2021.1.1-Eos.exe>`__ |DownloadWI|"
 
 #: ../../source/explore/get-started/install.rst:61
 msgid ""
@@ -1709,20 +1717,24 @@ msgid ""
 "<https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ "
 "|DownloadWL|"
 msgstr ""
+"`Windows 64-bit Launcher (Expérimental) <https://cdn.vircadia.com/dist/"
+"launcher/VircadiaLauncherSetup.exe>`__ |DownloadWL|"
 
 #: ../../source/explore/get-started/install.rst:63
 msgid "macOS |MacOS|"
-msgstr ""
+msgstr "macOS |MacOS|"
 
 #: ../../source/explore/get-started/install.rst:65
 msgid ""
 "`macOS Intel - Eos v2021.1.1 Installer <https://cdn.vircadia.com/dist"
 "/release-experimental/Vircadia-Interface-2021.1.1-Eos.dmg>`__ |DownloadM|"
 msgstr ""
+"`macOS Intel - Eos v2021.1.1 Installer <https://cdn.vircadia.com/dist/"
+"release-experimental/Vircadia-Interface-2021.1.1-Eos.dmg>`__ |DownloadM|"
 
 #: ../../source/explore/get-started/install.rst:67
 msgid "Linux |Ubuntu|"
-msgstr ""
+msgstr "Linux |Ubuntu|"
 
 #: ../../source/explore/get-started/install.rst:69
 msgid ""
@@ -1732,6 +1744,10 @@ msgid ""
 "<http://appimage.moto9000.moe/release/Vircadia-x86_64-release-"
 "latest.AppImage.zsync>`__ |DownloadLEUZ|)"
 msgstr ""
+"`EU Mirror: Linux amd64 - Eos v2021.1.1 AppImage <https://appimage.moto9000."
+"moe/release/Vircadia-x86_64_v2021.1.1-Eos.AppImage>`__ |DownloadLEU| (`zsync "
+"<http://appimage.moto9000.moe/release/Vircadia-x86_64-release-latest.AppImage"
+".zsync>`__ |DownloadLEUZ|)"
 
 #: ../../source/explore/get-started/install.rst:71
 msgid ""
@@ -1739,6 +1755,8 @@ msgid ""
 "<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.1-Eos.AppImage>`__"
 " |DownloadLUS|"
 msgstr ""
+"`US Mirror: Linux amd64 - Eos v2021.1.1 AppImage <https://cdn.vircadia.com/"
+"dist/release/Vircadia-2021.1.1-Eos.AppImage>`__ |DownloadLUS|"
 
 #: ../../source/explore/get-started/install.rst:73
 msgid ""
@@ -1747,6 +1765,10 @@ msgid ""
 "Vircadia. VR mode is not supported on macOS. The Oculus Runtime is not "
 "supported on Linux."
 msgstr ""
+"Si vous avez l'intention d'utiliser Vircadia en mode VR avec un HMD, assurez-"
+"vous que SteamVR ou Oculus Runtime est également installé sur votre système "
+"avant de lancer Vircadia. Le mode VR n'est pas pris en charge sur macOS. "
+"L'Oculus Runtime n'est pas pris en charge sur Linux."
 
 #: ../../source/explore/get-started/install.rst:121
 msgid ""
@@ -1848,13 +1870,12 @@ msgid "Linux Install"
 msgstr "Installation sous Linux"
 
 #: ../../source/explore/get-started/install.rst:152
-#, fuzzy
 msgid ""
 "Mark the downloaded AppImage file as executable. (for example, with "
 "``chmod +x Vircadia-x86_64_v2021.1.0-Eos.AppImage``.)"
 msgstr ""
-"Marquez le fichier AppImage téléchargé comme exécutable. (par exemple, "
-"avec ``chmod +x Vircadia-Alpha-2020.3.2-Asteria.AppImage``.)"
+"Marquez le fichier AppImage téléchargé comme exécutable. (par exemple, avec "
+"``chmod +x Vircadia-x86_64_v2021.1.0-Eos.AppImage``.)"
 
 #: ../../source/explore/get-started/install.rst:153
 msgid ""
@@ -2091,6 +2112,9 @@ msgid ""
 "most likely outdated, no mention that you should *not* use \"open mic\" "
 "setups without push to talk"
 msgstr ""
+"Ce document est légèrement dépassé. FIXME: les instructions pour Windows "
+"sont très probablement périmées, il n'est pas mentionné que vous ne devez "
+"*pas* utiliser les configurations \"open mic\" sans \"push to talk\""
 
 #: ../../source/explore/get-started/setup-audio.rst:9
 msgid ""
@@ -2724,6 +2748,10 @@ msgid ""
 "Oculus Runtime we support almost all HMDs and input devices on the "
 "market, we probably support alternatives to Vive Trackers"
 msgstr ""
+"Ce document est légèrement dépassé. FIXME: depuis que nous supportons OpenVR "
+"et Oculus Runtime, nous supportons presque tous les HMDs et les "
+"périphériques d'entrée sur le marché, nous supportons probablement les "
+"alternatives aux Vive Trackers"
 
 #: ../../source/explore/get-started/vr-controls.rst:9
 msgid ""
@@ -3403,6 +3431,11 @@ msgid ""
 "environments. The walls of your room, the tree in the distance, or the "
 "animated butterfly that flew past are all entities."
 msgstr ""
+"Dans Vircadia, vos expériences sont façonnées par le monde qui vous entoure. "
+"Lorsque vous entrez dans un domaine, tout l'espace qui vous entoure est "
+"construit avec des [entités](../create/entities), ou les blocs de "
+"construction de vos environnements. Les murs de votre chambre, l'arbre au "
+"loin ou le papillon animé qui est passé devant vous sont tous des entités."
 
 #: ../../source/explore/interact.md:5
 msgid ""
@@ -3422,30 +3455,30 @@ msgstr "**Sur cette Page :**"
 
 #: ../../source/explore/interact.md:9
 msgid "[Grab Objects](#grab-objects)"
-msgstr ""
+msgstr "[Saisir des Objets](#grab-objects)"
 
 #: ../../source/explore/interact.md:10
 msgid "[Collisions](#collisions)"
-msgstr ""
+msgstr "[Collisions](#collisions)"
 
 #: ../../source/explore/interact.md:11
 msgid "[Triggered Entities](#triggered-entities)"
-msgstr ""
+msgstr "[Entités Déclenchées](#triggered-entities)"
 
 #: ../../source/explore/interact.md:14
 msgid "Grab Objects"
 msgstr "Saisir des Objets"
 
 #: ../../source/explore/interact.md:16
-#, fuzzy
 msgid ""
 "You can grab objects in Vircadia using your mouse or hand controllers. "
 "You can grab an entity, hold it, throw it, and drop it depending on the "
 "[entity's properties](../create/entities/entity-behavior)."
 msgstr ""
-"Vous pouvez saisir des objets dans Vircadia à l'aide de votre souris ou "
-"de vos contrôleurs manuels. Vous pouvez saisir une entité, la tenir, la "
-"lancer et la lâcher en fonction des propriétés de l'entité."
+"Vous pouvez saisir des objets dans Vircadia à l'aide de votre souris ou de "
+"vos contrôleurs manuels. Vous pouvez saisir une entité, la tenir, la lancer "
+"et la lâcher en fonction des [propriétés de l'entité](../create/entities/"
+"entity-behavior)."
 
 #: ../../source/explore/interact.md:18
 msgid ""
@@ -3466,25 +3499,24 @@ msgstr ""
 
 #: ../../source/explore/interact.md:21
 msgid "![](_images/grab-button.png)"
-msgstr ""
+msgstr "![](_images/grab-button.png)"
 
 #: ../../source/explore/interact.md:28
 msgid "Collisions"
 msgstr "Collisions"
 
 #: ../../source/explore/interact.md:30
-#, fuzzy
 msgid ""
 "You can collide (or run into) objects and other avatars in Vircadia. "
 "Likewise, objects can collide with one another. We use [physics to govern"
 " how entities behave](../create/entities/entity-physics) when they "
 "collide with each other or with avatars."
 msgstr ""
-"Vous pouvez entrer en collision (ou heurter) des objets et d'autres "
-"avatars dans Vircadia. De même, les objets peuvent entrer en collision "
-"les uns avec les autres. Nous utilisons la physique pour régir le "
-"comportement des entités lorsqu'elles entrent en collision entre elles ou"
-" avec des avatars."
+"Vous pouvez entrer en collision (ou heurter) des objets et d'autres avatars "
+"dans Vircadia. De même, les objets peuvent entrer en collision les uns avec "
+"les autres. Nous utilisons [la physique pour régir le comportement des "
+"entités] (../create/entities/entity-physics) lorsqu'elles entrent en "
+"collision entre elles ou avec des avatars."
 
 #: ../../source/explore/interact.md:32
 msgid ""
@@ -3499,14 +3531,14 @@ msgstr ""
 "activées selon que vous pouvez ou non les traverser."
 
 #: ../../source/explore/interact.md:34
-#, fuzzy
 msgid ""
 "When creating your own entities, you can [set the Collision "
 "property](../create/entities/entity-behavior.html#entity-collision-"
 "behavior) to turn on or off collisions."
 msgstr ""
-"Lorsque vous créez vos propres entités, vous pouvez définir la propriété "
-"de collision pour activer ou désactiver les collisions."
+"Lorsque vous créez vos propres entités, vous pouvez [définir la propriété de "
+"collision](../create/entities/entity-behavior.html#entity-collision-behavior)"
+" pour activer ou désactiver les collisions."
 
 #: ../../source/explore/interact.md:36
 msgid "Triggered Entities"
@@ -3711,13 +3743,12 @@ msgstr ""
 "télécharger."
 
 #: ../../source/explore/personalize/change-avatar.md:27
-#, fuzzy
 msgid ""
 "In the **Avatar** window, click the link icon next to your current "
 "avatar. ![](_images/avatar-link.png)"
 msgstr ""
-"Dans la fenêtre Avatar, cliquez sur l'icône de lien à côté de votre "
-"avatar actuel."
+"Dans la fenêtre Avatar, cliquez sur l'icône de lien à côté de votre avatar "
+"actuel. ![](_images/avatar-link.png)"
 
 #: ../../source/explore/personalize/change-avatar.md:28
 msgid "Enter the .fst file's URL and click 'Confirm'."
@@ -3888,13 +3919,12 @@ msgstr ""
 "\"You have X item updates available.\""
 
 #: ../../source/explore/personalize/install-apps.md:38
-#, fuzzy
 msgid ""
 "Scroll to the app you'd like to update and click on the menu. ![](_images"
 "/update-menu.png)"
 msgstr ""
 "Faites défiler jusqu'à l'application que vous souhaitez mettre à jour et "
-"cliquez sur le menu."
+"cliquez sur le menu. ![](_images/update-menu.png)"
 
 #: ../../source/explore/personalize/install-apps.md:39
 msgid "Click the 'Update' button, then 'Update for Free'."
@@ -3992,17 +4022,17 @@ msgstr ""
 "Spectator."
 
 #: ../../source/explore/personalize/install-apps.md:67
-#, fuzzy
 msgid ""
 "Turn on your Spectator Cam by moving the slider. You'll see the camera "
 "appear in-world. By default, the app's display shows you what you see in "
 "VR through your HMD. This is to show you what you're recording without "
 "having to take off your HMD. ![](_images/spec-cam-window.png)"
 msgstr ""
-"Allumez votre Caméra de Spectateur en déplaçant le curseur. Vous verrez "
-"la caméra apparaître in-world. Par défaut, l'écran de l'application vous "
-"montre ce que vous voyez en VR par le biais de votre HMD. Cela vous "
-"permet de voir ce que vous enregistrez sans avoir à enlever votre HMD."
+"Allumez votre Caméra de Spectateur en déplaçant le curseur. Vous verrez la "
+"caméra apparaître in-world. Par défaut, l'écran de l'application vous montre "
+"ce que vous voyez en VR par le biais de votre HMD. Cela vous permet de voir "
+"ce que vous enregistrez sans avoir à enlever votre HMD. ![](_images/spec-cam-"
+"window.png)"
 
 #: ../../source/explore/personalize/install-apps.md:68
 msgid ""
@@ -4083,13 +4113,13 @@ msgid "Click 'Palette' to select a color for your paint."
 msgstr "Cliquez sur 'Palette' pour sélectionner une couleur pour votre peinture."
 
 #: ../../source/explore/personalize/install-apps.md:81
-#, fuzzy
 msgid ""
 "Click 'Brushes' to select the settings for your brush, such as stroke "
 "width, type of brush, and special effects. ![](_images/fingerpaint.png)"
 msgstr ""
 "Cliquez sur 'Brushes' pour sélectionner les paramètres de votre pinceau, "
-"tels que la largeur du trait, le type de pinceau et les effets spéciaux."
+"tels que la largeur du trait, le type de pinceau et les effets spéciaux. ![]("
+"_images/fingerpaint.png)"
 
 #: ../../source/explore/personalize/install-apps.md:84
 msgid "Text to Speech"
@@ -4135,13 +4165,12 @@ msgid "Type in the text you'd like your avatar to speak."
 msgstr "Tapez le texte que vous souhaitez faire prononcer à votre avatar."
 
 #: ../../source/explore/personalize/install-apps.md:99
-#, fuzzy
 msgid ""
 "Hit 'Speak' to hear your text. Hit 'Stop Last' to stop your avatar from "
 "speaking. ![](_images/tts.png)"
 msgstr ""
-"Cliquez sur 'Speak' pour entendre votre texte. Appuyez sur 'Stop Last' "
-"pour stopper votre avatar de parler."
+"Cliquez sur 'Speak' pour entendre votre texte. Appuyez sur 'Stop Last' pour "
+"stopper votre avatar de parler. ![](_images/tts.png)"
 
 #: ../../source/explore/personalize/install-apps.md:103
 msgid "[Create Tablet Apps](../../create/applications)"

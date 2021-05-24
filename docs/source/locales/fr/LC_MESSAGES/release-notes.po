@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-15 17:35+0000\n"
-"PO-Revision-Date: 2021-01-31 20:19+0000\n"
+"PO-Revision-Date: 2021-05-24 06:48+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
+"Language-Team: French <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/release-notes/fr/>\n"
 "Language: fr\n"
-"Language-Team: French <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/release-notes/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/release-notes.rst:7
@@ -2583,9 +2584,8 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:78
 #: ../../source/release-notes/2021-1-0-Eos.md:168
-#, fuzzy
 msgid "`Entities` API:"
-msgstr "Entités"
+msgstr "`Entities` API:"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:79
 msgid ""
@@ -8629,4 +8629,3 @@ msgstr ""
 #~ "interface doesn't attempt to connect to"
 #~ " domain. (#16566)"
 #~ msgstr ""
-

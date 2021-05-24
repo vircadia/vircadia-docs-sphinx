@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-09 01:29+0000\n"
-"PO-Revision-Date: 2021-01-31 20:19+0000\n"
+"PO-Revision-Date: 2021-05-24 06:48+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
+"Language-Team: French <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/developer/fr/>\n"
 "Language: fr\n"
-"Language-Team: French <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/developer/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/developer.rst:11
@@ -447,7 +448,6 @@ msgstr ""
 "n'avez pas besoin d'installer vcpkg."
 
 #: ../../source/developer/build/BUILD.md:79
-#, fuzzy
 msgid ""
 "Building the dependencies can be lengthy and the resulting files will be "
 "stored in your OS temp directory. However, those files can potentially "
@@ -458,18 +458,16 @@ msgstr ""
 "seront stockés dans le répertoire temporaire de votre système "
 "d'exploitation. Cependant, ces fichiers peuvent potentiellement être "
 "nettoyés par le système d'exploitation, donc pour éviter cela et devoir "
-"refaire la longue étape de compilation, vous pouvez définir la variable "
-"d'environnement suivante :"
+"refaire la longue étape de compilation, vous pouvez définir une variable "
+"d'environnement."
 
 #: ../../source/developer/build/BUILD.md:82
-#, fuzzy
 msgid "Linux:"
-msgstr "Système Linux"
+msgstr "Système Linux:"
 
 #: ../../source/developer/build/BUILD.md:88
-#, fuzzy
 msgid "Windows:"
-msgstr "Windows"
+msgstr "Windows:"
 
 #: ../../source/developer/build/BUILD.md:93
 #, fuzzy
@@ -1074,13 +1072,12 @@ msgstr ""
 " de commande, conformément à la documentation Gradle"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:133
-#, fuzzy
 msgid ""
 "If you encounter CMake issues, try adding the following system "
 "environment variable:"
 msgstr ""
-"Vous pouvez modifier la fonctionnalité du serveur de domaine en utilisant"
-" les variables d'environnement suivantes."
+"Si vous rencontrez des problèmes avec CMake, essayez d'ajouter la variable "
+"d'environnement système suivante :"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:135
 msgid ""
@@ -1539,17 +1536,16 @@ msgstr ""
 " si vous ne l'avez pas déjà fait."
 
 #: ../../source/developer/build/BUILD_OSX.md:47
-#, fuzzy
 msgid ""
 "If `cmake` complains about Python 3 being missing, you may need to update"
 " your CMake binary with command `brew upgrade cmake`, or by downloading "
 "and running the latest CMake installer, depending on how you originally "
 "installed CMake."
 msgstr ""
-"Si cmake se plaint de l'absence de Python 3, vous devrez peut-être mettre"
-" à jour votre binaire CMake avec la commande brew upgrade cmake, ou en "
-"téléchargeant et en exécutant le dernier installateur CMake, selon la "
-"façon dont vous avez installé CMake à l'origine"
+"Si cmake se plaint de l'absence de Python 3, vous devrez peut-être mettre à "
+"jour votre binaire CMake avec la commande `brew upgrade cmake`, ou en "
+"téléchargeant et en exécutant le dernier installateur CMake, selon la façon "
+"dont vous avez installé CMake à l'origine."
 
 #: ../../source/developer/build/BUILD_OSX.md:49
 msgid ""
@@ -1653,14 +1649,13 @@ msgstr ""
 "de parcourir ce guide."
 
 #: ../../source/developer/build/BUILD_WIN.md:10
-#, fuzzy
 msgid ""
 "**Note: The prerequisites will require about 10 GB of space on your "
 "drive. You will also need a system with at least 8GB of main memory.**"
 msgstr ""
-"Note : Les prérequis nécessiteront environ 10 Go d'espace sur votre "
+"**Note : Les prérequis nécessiteront environ 10 Go d'espace sur votre "
 "disque. Vous aurez également besoin d'un système avec au moins 8 Go de "
-"mémoire principale."
+"mémoire principale.**"
 
 #: ../../source/developer/build/BUILD_WIN.md:12
 msgid "Step 1. Visual Studio & Python 3.x"
@@ -1722,16 +1717,15 @@ msgid "Step 1a. Alternate Python"
 msgstr "Étape 1a. Alternate Python"
 
 #: ../../source/developer/build/BUILD_WIN.md:30
-#, fuzzy
 msgid ""
 "If you do not wish to use the Python installation bundled with Visual "
 "Studio, you can download the installer from "
 "[here](https://www.python.org/downloads/). Ensure that you get version "
 "3.6.6 or higher."
 msgstr ""
-"Si vous ne souhaitez pas utiliser l'installation Python fournie avec "
-"Visual Studio, vous pouvez télécharger l'installateur ici.  Assurez-vous "
-"d'obtenir la version 3.6.6 ou supérieure."
+"Si vous ne souhaitez pas utiliser l'installation Python fournie avec Visual "
+"Studio, vous pouvez télécharger l'installateur ici. Assurez-vous d'obtenir "
+"la version 3.6.6 ou supérieure."
 
 #: ../../source/developer/build/BUILD_WIN.md:32
 msgid "Step 2. Python Dependencies"
@@ -2058,9 +2052,8 @@ msgid "Restart your computer"
 msgstr "Redémarrez votre ordinateur"
 
 #: ../../source/developer/build/BUILD_WIN.md:128
-#, fuzzy
 msgid "Redownload the [repository](https://github.com/vircadia/vircadia)"
-msgstr "git clone https://github.com/vircadia/vircadia.git"
+msgstr "Téléchargez [repository](https://github.com/vircadia/vircadia)"
 
 #: ../../source/developer/build/BUILD_WIN.md:129
 #, fuzzy
@@ -3691,4 +3684,3 @@ msgstr ""
 #~ " the Qt debug  information files "
 #~ "(~7GB)."
 #~ msgstr ""
-
