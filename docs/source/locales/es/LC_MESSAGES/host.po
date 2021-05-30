@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-02 08:26+0000\n"
-"PO-Revision-Date: 2021-05-22 22:53+0000\n"
+"PO-Revision-Date: 2021-05-30 15:16+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -463,7 +463,7 @@ msgstr ""
 
 #: ../../source/host/add-content/create-content.rst:35
 msgid "Method"
-msgstr ""
+msgstr "Método"
 
 #: ../../source/host/add-content/create-content.rst:37
 msgid "`Make Live Updates`_"

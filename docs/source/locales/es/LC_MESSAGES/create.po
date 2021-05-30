@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-05-22 22:53+0000\n"
+"PO-Revision-Date: 2021-05-30 15:16+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -3070,51 +3070,67 @@ msgid ""
 "**Armature Tools**: Adds a skeleton that is compatible with Vircadia and "
 "let you configure bone names for use in advanced scripts."
 msgstr ""
+"**Herramientas de Armadura**: Agrega un esqueleto que es compatible con "
+"Vircadia y te permite configurar nombres de huesos para su uso en scripts "
+"avanzados."
 
 #: ../../source/create/avatars/create-avatars.rst:67
 msgid ""
 "**Avatar Converters**: Translates and fixes models and materials from MMD"
 " and Mixamo so that they work in Vircadia."
 msgstr ""
+"**Convertidores de Avatar**: Traduce y corrige modelos y materiales de MMD y "
+"Mixamo para que funcionen en Vircadia."
 
 #: ../../source/create/avatars/create-avatars.rst:68
 msgid ""
 "**Export Tools**: Exports avatars and scenes so that they can be used in "
 "Vircadia."
 msgstr ""
+"**Herramientas de Exportación**: Exporta avatares y escenas para que puedan "
+"ser usados en Vircadia."
 
 #: ../../source/create/avatars/create-avatars.rst:69
 msgid ""
 "**Import Tools**: Imports primitive entities from Vircadia so that you "
 "can make modifications to them."
 msgstr ""
+"**Herramientas de Importación**: Importa entidades primitivas de Vircadia "
+"para que puedas realizarles modificaciones."
 
 #: ../../source/create/avatars/create-avatars.rst:71
 msgid ""
 "Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon "
 "<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 msgstr ""
+"Instálalas aquí: `https://github.com/Menithal/Blender-Metaverse-Addon "
+"<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 
 #: ../../source/create/avatars/create-avatars.rst:73
 msgid ""
 "Have a project you've been working on that you'd like us to share? Let us"
 " know by editing this page in GitHub!"
 msgstr ""
+"¿Tienes un proyecto en el que has estado trabajando que te gustaría que "
+"compartiéramos? ¡Háznoslo saber editando esta página en GitHub!"
 
 #: ../../source/create/avatars/create-avatars.rst:78
 msgid ":doc:`Find and Use an Existing Avatar <find-avatars>`"
-msgstr ""
+msgstr ":doc:`Encuentra y Usa un Avatar Existente <find-avatars>`"
 
 #: ../../source/create/avatars/create-avatars.rst:79
 #: ../../source/create/avatars/find-avatars.rst:179
 msgid ":doc:`Package and Host Your Avatar <package-avatar>`"
-msgstr ""
+msgstr ":doc:`Empaqueta y Aloja Tu Avatar <package-avatar>`"
 
 #: ../../source/create/avatars/custom-animations.rst:2
 msgid ""
 "This document is slightly outdated. FIXME: Mentions only FBX (check if "
 "glTF is also supported), contains HiFi hosted content"
 msgstr ""
+"Este documento está un poco desactualizado. FIXME(A tener en cuenta): "
+"menciona solo FBX (verifica si glTF también es compatible), contiene "
+"contenido alojado en HiFi"
 
 #: ../../source/create/avatars/custom-animations.rst:9
 msgid ""
@@ -3123,6 +3139,10 @@ msgid ""
 "waving. Any custom animations you set up will be independent to each "
 "avatar you own and wear."
 msgstr ""
+"Puedes expresarte reemplazando el conjunto estándar de animaciones de "
+"Vircadia con tus propias animaciones personalizadas, como bailar, hacer "
+"malabarismos o saludar. Cualquier animación personalizada que configures "
+"será independiente de cada avatar que poseas y uses."
 
 #: ../../source/create/avatars/custom-animations.rst:11
 msgid ""
@@ -3131,6 +3151,11 @@ msgid ""
 "you may need to modify them in the future as our custom animation support"
 " continues to improve."
 msgstr ""
+"A menudo actualizamos nuestro proceso para importar animaciones "
+"personalizadas para que sea más fácil de usar. A medida que desarrolles "
+"animaciones personalizadas, ten en cuenta que es posible que debas "
+"modificarlas en el futuro a medida que nuestro soporte de animación "
+"personalizada continúe mejorando."
 
 #: ../../source/create/avatars/custom-animations.rst:20
 msgid ""
@@ -3138,14 +3163,17 @@ msgid ""
 "terminology that you are unfamiliar with. Here are some terms you might "
 "come across:"
 msgstr ""
+"A medida que profundizamos en la creación de animaciones personalizadas, es "
+"posible que usemos terminología con la que no estés familiarizado. A "
+"continuación, se muestran algunos términos con los que puedes encontrarte:"
 
 #: ../../source/create/avatars/custom-animations.rst:23
 msgid "Term"
-msgstr ""
+msgstr "Términos"
 
 #: ../../source/create/avatars/custom-animations.rst:25
 msgid "Avatar animations"
-msgstr ""
+msgstr "Animaciones de avatar"
 
 #: ../../source/create/avatars/custom-animations.rst:25
 msgid ""
@@ -3154,10 +3182,14 @@ msgid ""
 "ttps://github.com/vircadia/vircadia/blob/master/interface/resources/avatar/animations/turn_left.f"
 " bx>`_ is the standard animation file for your avatar turning left."
 msgstr ""
+"Las animaciones de avatar son archivos FBX que definen cómo se mueve tu "
+"avatar. Por ejemplo, `turn_left.fbx <h ttps://github.com/vircadia/vircadia/"
+"blob/master/interface/resources/avatar/animations/turn_left.f bx>`_ es el "
+"archivo de animación estándar para que tu avatar gire a la izquierda."
 
 #: ../../source/create/avatars/custom-animations.rst:29
 msgid "Animation roles"
-msgstr ""
+msgstr "Funciones de animación"
 
 #: ../../source/create/avatars/custom-animations.rst:29
 msgid ""
@@ -3168,10 +3200,16 @@ msgid ""
 "left arrow key or ``A`` in Desktop mode or using your hand controllers in"
 " VR mode."
 msgstr ""
+"Las funciones de animación son disparadores que se asignan a una acción que "
+"puede realizar un avatar. Por ejemplo, turnLeft es una función de animación "
+"que hace que tu avatar gire a la izquierda mientras está parado. Esta "
+"función de animación se asigna al archivo turn_left.fbx. Puedes ver esto en "
+"acción presionando la tecla de flecha izquierda o ``A`` en el modo "
+"Escritorio o usando los controladores de mano en el modo VR."
 
 #: ../../source/create/avatars/custom-animations.rst:35
 msgid "Avatar Animation JSON or Animation Graph File"
-msgstr ""
+msgstr "Animación de Avatar JSON o Archivo Gráfico de Animación"
 
 #: ../../source/create/avatars/custom-animations.rst:35
 msgid ""
@@ -3184,10 +3222,19 @@ msgid ""
 " same `Animation Graph file <https://github.com/vircadia/vircadi "
 "a/blob/master/interface/resources/avatar/avatar-animation.json>`_."
 msgstr ""
+"El sistema de animación estándar combina y superpone una serie de "
+"animaciones de archivos FBX utilizando un archivo de datos JSON. Este "
+"archivo JSON se denomina archivo gráfico de animación y especifica "
+"exactamente qué animaciones reproducir y cómo combinarlas. También determina "
+"el orden de las operaciones, de modo que operaciones como la cinemática "
+"inversa ocurren después de que el resto del cuerpo ha sido animado por "
+"medios tradicionales. Por defecto, cada avatar usa el mismo `Archivo Gráfico "
+"de Animación <https://github.com/vircadia/vircadi a/blob/master/interface/"
+"resources/avatar/avatar-animation.json>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:46
 msgid "Prepare Your Custom Animation"
-msgstr ""
+msgstr "Prepara Tu Animación Personalizada"
 
 #: ../../source/create/avatars/custom-animations.rst:48
 msgid ""
@@ -3195,20 +3242,27 @@ msgid ""
 "your custom animation file. Use our :doc:`Avatar Standards Guide <avatar-"
 "standards>` and keep the following guidelines in mind:"
 msgstr ""
+"Antes de reemplazar las animaciones estándar existentes, debes preparar tu "
+"archivo de animación personalizado. Utiliza nuestro :doc:`Guía de estándares "
+"de Avatar <avatar-standards>` y ten en cuenta las siguientes pautas:"
 
 #: ../../source/create/avatars/custom-animations.rst:50
 msgid "Animations must have standard joint names for Vircadia."
-msgstr ""
+msgstr "Las animaciones deben tener nombres comunes estándar para Vircadia."
 
 #: ../../source/create/avatars/custom-animations.rst:51
 msgid "Animations must have standard joint orientations (y down the bone)."
 msgstr ""
+"Las animaciones deben tener orientaciones articulares estándar (y hacia "
+"abajo del hueso)."
 
 #: ../../source/create/avatars/custom-animations.rst:52
 msgid ""
 "Key frames must have key frames for every joint at a uniform interval of "
 "30 frames per second."
 msgstr ""
+"Los fotogramas clave deben tener fotogramas clave para cada articulación a "
+"un intervalo uniforme de 30 fotogramas por segundo."
 
 #: ../../source/create/avatars/custom-animations.rst:53
 msgid ""
@@ -3216,46 +3270,59 @@ msgid ""
 "first frame. Try to match this phase if you want your locomotion "
 "animation to blend with the default set."
 msgstr ""
+"La fase de animación de locomoción tiene el tobillo izquierdo en posición de "
+"primer paso en el primer fotograma. Intenta hacer coincidir esta fase si "
+"quieres que tu animación de locomoción se mezcle con el conjunto "
+"predeterminado."
 
 #: ../../source/create/avatars/custom-animations.rst:55
 msgid "Once you create your animation:"
-msgstr ""
+msgstr "Una vez que creas tu animación:"
 
 #: ../../source/create/avatars/custom-animations.rst:57
 msgid ""
 "Export your animation from the external tool of your choice as an FBX "
 "file."
 msgstr ""
+"Exporta tu animación desde la herramienta externa de tu elección como un "
+"archivo FBX."
 
 #: ../../source/create/avatars/custom-animations.rst:58
 msgid "Upload your animation FBX file to a cloud server and copy the URL."
 msgstr ""
+"Sube tu archivo FBX de animación a un servidor en la nube y copia la URL."
 
 #: ../../source/create/avatars/custom-animations.rst:62
 msgid "Replace Standard Animations"
-msgstr ""
+msgstr "Reemplazar Animaciones Estándar"
 
 #: ../../source/create/avatars/custom-animations.rst:64
 msgid ""
 "You can have your avatar use your custom animations by overriding the "
 "default animations. There are two different ways to do this:"
 msgstr ""
+"Puedes hacer que tu avatar use tus animaciones personalizadas reemplazando "
+"las animaciones predeterminadas. Hay dos formas diferentes de hacer esto:"
 
 #: ../../source/create/avatars/custom-animations.rst:66
 msgid ""
 "`Override Using a Script`_: Write a script to override standard "
 "animations."
 msgstr ""
+"`Reemplázalas usando un Archivo Script`_: Escribe un script para anular las "
+"animaciones estándar."
 
 #: ../../source/create/avatars/custom-animations.rst:67
 msgid ""
 "`Create a Custom Avatar Animation JSON file`_: You can modify this file "
 "or create a new data file."
 msgstr ""
+"`Crear un archivo JSON de Animación de Avatar Personalizado`_: Puedes "
+"modificar este archivo o crear un nuevo archivo de datos."
 
 #: ../../source/create/avatars/custom-animations.rst:72
 msgid "Override Using a Script"
-msgstr ""
+msgstr "Reemplazar Usando un archivo Script"
 
 #: ../../source/create/avatars/custom-animations.rst:74
 msgid ""
@@ -3263,23 +3330,31 @@ msgid ""
 "`MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_ namespace to "
 "override an existing animation or animation role."
 msgstr ""
+"Puedes `escribir un script <../../script/write-scripts.html>`_ y usar el "
+"espacio de nombres (namespace) `MyAvatar <https://apidocs.vircadia.dev/"
+"MyAvatar.html>`_ para reemplazar una animación o función de animación "
+"existente."
 
 #: ../../source/create/avatars/custom-animations.rst:76
 msgid ""
 "We've listed the methods you can use to replace the standard animations "
 "on your avatar."
 msgstr ""
+"Hemos enumerado los métodos que puedes utilizar para reemplazar las "
+"animaciones estándar de tu avatar."
 
 #: ../../source/create/avatars/custom-animations.rst:79
 #: ../../source/create/environments.rst:15
 msgid "Method"
-msgstr ""
+msgstr "Método"
 
 #: ../../source/create/avatars/custom-animations.rst:81
 msgid ""
 "`MyAvatar.overrideAnimation <https://apidocs.vircadia.dev/ "
 "MyAvatar.html#.overrideAnimation>`_"
 msgstr ""
+"`MyAvatar.overrideAnimation <https://apidocs.vircadia.dev/ MyAvatar.html#."
+"overrideAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:81
 msgid ""
@@ -3288,12 +3363,19 @@ msgid ""
 "custom animation. For example, if your avatar is waving, this script will"
 " stop your avatar waving and play the custom animation provided."
 msgstr ""
+"Este método puede utilizarse para reproducir cualquier animación en el "
+"avatar actual. Se moverá suavemente desde la pose actual hasta el fotograma "
+"inicial de la animación personalizada. Por ejemplo, si su avatar está "
+"saludando, este script detendrá su avatar y reproducirá la animación "
+"personalizada proporcionada."
 
 #: ../../source/create/avatars/custom-animations.rst:86
 msgid ""
 "`AnimationCache.prefetch <https://apidocs.vircadia.dev/ "
 "AnimationCache.html#.prefetch>`_"
 msgstr ""
+"`AnimationCache.prefetch <https://apidocs.vircadia.dev/ AnimationCache.html#."
+"prefetch>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:86
 msgid ""
@@ -3302,18 +3384,27 @@ msgid ""
 "animations before playing them, you might see a t-pose appear briefly as "
 "the animation is downloaded."
 msgstr ""
+"Este método busca un recurso. Puedes usar esto para obtener una animación "
+"personalizada que hayas alojado en un servidor en la nube. Si no buscas "
+"previamente tus animaciones antes de reproducirlas, es posible que veas una "
+"pose en T brevemente mientras se descarga la animación."
 
 #: ../../source/create/avatars/custom-animations.rst:91
 msgid ""
 "`MyAvatar.restoreAnimation <https://apidocs.vircadia.dev/ "
 "MyAvatar.html#.restoreAnimation>`_"
 msgstr ""
+"`MyAvatar.restoreAnimation <https://apidocs.vircadia.dev/ MyAvatar.html#."
+"restoreAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:91
 msgid ""
 "This method stops the override function from playing any custom "
 "animation. Your avatar will go back to playing the standard animations."
 msgstr ""
+"Este método evita que la función de reemplazo (override) reproduzca "
+"cualquier animación personalizada. Tu avatar volverá a reproducir las "
+"animaciones estándar."
 
 #: ../../source/create/avatars/custom-animations.rst:96
 msgid ""
@@ -3321,10 +3412,14 @@ msgid ""
 "of all avatar joints. Inverse Kinematics of the hands and head of HMD "
 "users will be disabled."
 msgstr ""
+"Este proceso para reemplazar una animación existente tomará el control "
+"completo de todas las articulaciones del avatar. Se desactivará la "
+"cinemática inversa de las manos y la cabeza de los usuarios de HMD."
 
 #: ../../source/create/avatars/custom-animations.rst:98
 msgid "You can also override an existing animation role mapping:"
 msgstr ""
+"También puedes reemplazar una asignación de función de animación existente:"
 
 #: ../../source/create/avatars/custom-animations.rst:100
 msgid ""
@@ -3332,6 +3427,8 @@ msgid ""
 "<https://apidocs.vircadia.dev/MyAvatar.html#.getAnimationRoles>`_ to view"
 " the list of roles for the current avatar."
 msgstr ""
+"Usa `MyAvatar.getAnimationRoles <https://apidocs.vircadia.dev/MyAvatar.html#."
+"getAnimationRoles>`_ para ver la lista de funciones del avatar actual."
 
 #: ../../source/create/avatars/custom-animations.rst:101
 msgid ""
@@ -3339,6 +3436,9 @@ msgid ""
 "file) using `MyAvatar.overrideRoleAnimation "
 "<https://apidocs.vircadia.dev/MyAvatar.html#.overrideRoleAnimation>`_."
 msgstr ""
+"Puedes reemplazar la animación para cada función con una animación "
+"personalizada (archivo FBX) usando `MyAvatar.overrideRoleAnimation "
+"<https://apidocs.vircadia.dev/MyAvatar.html#.overrideRoleAnimation>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:103
 msgid ""
@@ -3349,221 +3449,237 @@ msgid ""
 "code repository on `GitHub "
 "<https://github.com/vircadia/vircadia/tree/master/interface/resources/avatar/animations>`_."
 msgstr ""
+"Hemos enumerado las funciones de animación y su descripción. Estas se "
+"actualizan con frecuencia, por lo que recomendamos usar ``MyAvatar."
+"getAnimationRoles`` para obtener las últimas funciones de animación antes de "
+"continuar. Los archivos FBX de animación estándar para estas funciones se "
+"pueden encontrar en el repositorio de código fuente de Vircadia en `GitHub "
+"<https://github.com/vircadia/vircadia/tree/master/interface/resources/avatar/"
+"animations>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:106
 msgid "Animation Roles"
-msgstr ""
+msgstr "Funciones de Animación"
 
 #: ../../source/create/avatars/custom-animations.rst:108
 msgid "rightHandGraspOpen"
-msgstr ""
+msgstr "rightHandGraspOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:108
 #: ../../source/create/avatars/custom-animations.rst:124
 msgid "When hand controller trigger is not squeezed."
-msgstr ""
+msgstr "Cuando no se aprieta el gatillo del controlador de mano."
 
 #: ../../source/create/avatars/custom-animations.rst:110
 msgid "rightHandGraspClosed"
-msgstr ""
+msgstr "rightHandGraspClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:110
 #: ../../source/create/avatars/custom-animations.rst:126
 msgid "When hand controller trigger is fully squeezed."
-msgstr ""
+msgstr "Cuando se aprieta completamente el gatillo del controlador de mano."
 
 #: ../../source/create/avatars/custom-animations.rst:112
 msgid "rightIndexPointOpen"
-msgstr ""
+msgstr "rightIndexPointOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:112
 #: ../../source/create/avatars/custom-animations.rst:128
 msgid "Point gesture."
-msgstr ""
+msgstr "Gesto de señalar."
 
 #: ../../source/create/avatars/custom-animations.rst:114
 msgid "rightIndexPointClosed"
-msgstr ""
+msgstr "rightIndexPointClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:114
 #: ../../source/create/avatars/custom-animations.rst:130
 msgid "Point gesture with trigger squeezed."
-msgstr ""
+msgstr "Gesto de señalar con el gatillo apretado."
 
 #: ../../source/create/avatars/custom-animations.rst:116
 msgid "rightThumbRaiseOpen"
-msgstr ""
+msgstr "rightThumbRaiseOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:116
 #: ../../source/create/avatars/custom-animations.rst:132
 msgid "Thumbs up gesture."
-msgstr ""
+msgstr "Gesto de pulgar hacia arriba."
 
 #: ../../source/create/avatars/custom-animations.rst:118
 msgid "rightThumbRaiseClosed"
-msgstr ""
+msgstr "rightThumbRaiseClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:118
 #: ../../source/create/avatars/custom-animations.rst:134
 msgid "Thumbs up gesture with trigger squeezed."
-msgstr ""
+msgstr "Gesto de pulgar hacia arriba con el gatillo apretado."
 
 #: ../../source/create/avatars/custom-animations.rst:120
 msgid "rightIndexPointAndThumbRaiseOpen"
-msgstr ""
+msgstr "rightIndexPointAndThumbRaiseOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:120
 #: ../../source/create/avatars/custom-animations.rst:136
 msgid "Simultaneous thumbs up and point gesture."
-msgstr ""
+msgstr "Pulgar hacia arriba y gesto de señalar simultáneamente."
 
 #: ../../source/create/avatars/custom-animations.rst:122
 msgid "rightIndexPointAndThumbRaiseClosed"
-msgstr ""
+msgstr "rightIndexPointAndThumbRaiseClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:122
 #: ../../source/create/avatars/custom-animations.rst:138
 msgid "Simultaneous thumbs up and point gesture, with trigger squeezed."
 msgstr ""
+"Pulgar hacia arriba y gesto de señalar simultáneamente, con el gatillo "
+"apretado."
 
 #: ../../source/create/avatars/custom-animations.rst:124
 msgid "leftHandGraspOpen"
-msgstr ""
+msgstr "leftHandGraspOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:126
 msgid "leftHandGraspClosed"
-msgstr ""
+msgstr "leftHandGraspClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:128
 msgid "leftIndexPointOpen"
-msgstr ""
+msgstr "leftIndexPointOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:130
 msgid "leftIndexPointClosed"
-msgstr ""
+msgstr "leftIndexPointClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:132
 msgid "leftThumbRaiseOpen"
-msgstr ""
+msgstr "leftThumbRaiseOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:134
 msgid "leftThumbRaiseClosed"
-msgstr ""
+msgstr "leftThumbRaiseClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:136
 msgid "leftIndexPointAndThumbRaiseOpen"
-msgstr ""
+msgstr "leftIndexPointAndThumbRaiseOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:138
 msgid "leftIndexPointAndThumbRaiseClosed"
-msgstr ""
+msgstr "leftIndexPointAndThumbRaiseClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:140
 msgid "idleStand"
-msgstr ""
+msgstr "idleStand"
 
 #: ../../source/create/avatars/custom-animations.rst:140
 msgid "Standing still, not talking."
-msgstr ""
+msgstr "Quedarse quieto, sin hablar."
 
 #: ../../source/create/avatars/custom-animations.rst:142
 msgid "idleTalk"
-msgstr ""
+msgstr "idleTalk"
 
 #: ../../source/create/avatars/custom-animations.rst:142
 msgid "Standing still, but avatar is talking."
-msgstr ""
+msgstr "Quedarse quieto, pero el avatar está hablando mientras tanto."
 
 #: ../../source/create/avatars/custom-animations.rst:144
 msgid "walkFwdShort_c"
-msgstr ""
+msgstr "walkFwdShort_c"
 
 #: ../../source/create/avatars/custom-animations.rst:144
 msgid "Walking forward at 0.5 m/s."
-msgstr ""
+msgstr "Caminando hacia adelante a 0.5 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:146
 msgid "walkFwdNormal_c, walkFwdFast_c"
-msgstr ""
+msgstr "walkFwdNormal_c, walkFwdFast_c"
 
 #: ../../source/create/avatars/custom-animations.rst:146
 msgid "Walking forward at 1.8 m/s. Walking forward at 2.3 m/s."
-msgstr ""
+msgstr "Caminando hacia adelante a 1.8 m/s. Caminando hacia adelante a 2.3 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:148
 msgid "walkFwdJog_c, walkFwdRun_c"
-msgstr ""
+msgstr "walkFwdJog_c, walkFwdRun_c"
 
 #: ../../source/create/avatars/custom-animations.rst:148
 msgid "Walking forward at 3.2 m/s. Walking forward at 4.5 m/s."
-msgstr ""
+msgstr "Caminando hacia adelante a 3.2 m/s. Caminando hacia adelante a 4.5 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:150
 msgid "idleToWalkFwd, idleSettle"
-msgstr ""
+msgstr "idleToWalkFwd, idleSettle"
 
 #: ../../source/create/avatars/custom-animations.rst:150
 msgid ""
 "Short transition from standing idle to walking forward. Transition from "
 "walk to idle."
 msgstr ""
+"Transición corta de estar inactivo a caminar hacia adelante. Transición de "
+"caminar a inactivo."
 
 #: ../../source/create/avatars/custom-animations.rst:153
 msgid "walkBwdShort_c"
-msgstr ""
+msgstr "walkBwdShort_c"
 
 #: ../../source/create/avatars/custom-animations.rst:153
 msgid "Walking backward at 0.6 m/s."
-msgstr ""
+msgstr "Caminando hacia atrás a 0,6 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:155
 msgid "walkBwdFast_c, jogBwd_c, runBwd_c"
-msgstr ""
+msgstr "walkBwdFast_c, jogBwd_c, runBwd_c"
 
 #: ../../source/create/avatars/custom-animations.rst:155
 msgid ""
 "Walking backward at 1.6 m/s. Jog backward at 2.3 m/s. Jog backward at 3.1"
 " m/s."
 msgstr ""
+"Caminando hacia atrás a 1,6 m/s. Trota hacia atrás a 2,3 m/s. Trota hacia "
+"atrás a 3,1 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:158
 msgid "turnLeft"
-msgstr ""
+msgstr "turnLeft"
 
 #: ../../source/create/avatars/custom-animations.rst:158
 #: ../../source/create/avatars/custom-animations.rst:160
 msgid "Standing turning in place animation."
-msgstr ""
+msgstr "Animación de pie girando en el lugar."
 
 #: ../../source/create/avatars/custom-animations.rst:160
 msgid "turnRight"
-msgstr ""
+msgstr "turnRight"
 
 #: ../../source/create/avatars/custom-animations.rst:162
 msgid "strafeLeftShortStep_c"
-msgstr ""
+msgstr "strafeLeftShortStep_c"
 
 #: ../../source/create/avatars/custom-animations.rst:162
 msgid "Sidestep at 0.1 m/s."
-msgstr ""
+msgstr "Paso lateral a 0,1 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:164
 msgid "strafeLeftStep_c, strafeLeftWalk_c, strafeLeftWalkFast_c, strafeLeftJog_c"
 msgstr ""
+"strafeLeftStep_c, strafeLeftWalk_c, strafeLeftWalkFast_c, strafeLeftJog_c"
 
 #: ../../source/create/avatars/custom-animations.rst:164
 msgid ""
 "Sidestep at 0.5 m/s. Side walk at 1.0 m/s. Side walk at 2.6 m/s. Side jog"
 " at 3.0 m/s."
 msgstr ""
+"Dar paso lateral a 0,5 m/s. Caminar de lado a 1,0 m/s. Caminar de lado a 2,6 "
+"m/s. Trote lateral a 3,0 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:167
 msgid "strafeRightShortStep_c, strafeRightStep_c"
-msgstr ""
+msgstr "strafeRightShortStep_c, strafeRightStep_c"
 
 #: ../../source/create/avatars/custom-animations.rst:167
 msgid "Sidestep at 0.1 m/s. Sidestep at 0.5 m/s."
-msgstr ""
+msgstr "Dar paso lateral a 0,1 m/s. Dar paso lateral a 0,5 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:169
 msgid ""
@@ -3571,6 +3687,9 @@ msgid ""
 "stepLeft_c, strafeLeftAnim_c, stepRightShort_c, stepRight_c, "
 "strafeRightAnim_c"
 msgstr ""
+"strafeRightWalk_c, strafeRightFast_c, strafeRightJog_c, stepLeftShort_c, "
+"stepLeft_c, strafeLeftAnim_c, stepRightShort_c, stepRight_c, "
+"strafeRightAnim_c"
 
 #: ../../source/create/avatars/custom-animations.rst:169
 msgid ""
@@ -3578,99 +3697,109 @@ msgid ""
 "at 0 m/s. HMD step left at 0.5 m/s. HMD strafe left at 2.5 m/s. HMD step "
 "right at 0 m/s. HMD step right at 0.5 m/s. HMD strafe right at 2.5 m/s."
 msgstr ""
+"Caminar de lado a 1 m/s. Caminar de lado a 2,6 m/s. Trote lateral a 3 m/s. "
+"Paso de HMD a la izquierda a 0 m/s. Paso de HMD a la izquierda a 0,5 m/s. "
+"Desplazamiento de HMD a la izquierda a 2,5 m/s. Paso de HMD a la derecha a 0 "
+"m/s. Paso de HMD a la derecha a 0,5 m/s. Desplazamiento de HMD a la derecha "
+"a 2,5 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:175
 msgid "fly"
-msgstr ""
+msgstr "fly"
 
 #: ../../source/create/avatars/custom-animations.rst:175
 msgid "Flying idle."
-msgstr ""
+msgstr "Volando inactivo."
 
 #: ../../source/create/avatars/custom-animations.rst:177
 msgid "takeoffStand"
-msgstr ""
+msgstr "takeoffStand"
 
 #: ../../source/create/avatars/custom-animations.rst:177
 msgid "Standing jump takeoff."
-msgstr ""
+msgstr "Pararse con salto de pies."
 
 #: ../../source/create/avatars/custom-animations.rst:179
 msgid "TAKEOFFRUN"
-msgstr ""
+msgstr "TAKEOFFRUN"
 
 #: ../../source/create/avatars/custom-animations.rst:179
+#, fuzzy
 msgid "Running jump takeoff."
-msgstr ""
+msgstr "Levantarse con salto rápidamente."
 
 #: ../../source/create/avatars/custom-animations.rst:181
 msgid "inAirStandPreApex"
-msgstr ""
+msgstr "inAirStandPreApex"
 
 #: ../../source/create/avatars/custom-animations.rst:181
 msgid "Standing jump in air on the way upward towards the jump apex."
 msgstr ""
+"Salto de pie en el aire en el camino hacia arriba hacia el vértice del salto."
 
 #: ../../source/create/avatars/custom-animations.rst:183
 msgid "inAirStandApex"
-msgstr ""
+msgstr "inAirStandApex"
 
 #: ../../source/create/avatars/custom-animations.rst:183
 msgid "Standing jump in air at apex of the jump."
-msgstr ""
+msgstr "Salto de pie en el aire en el vértice del salto."
 
 #: ../../source/create/avatars/custom-animations.rst:185
 msgid "inAirStandPostApex"
-msgstr ""
+msgstr "inAirStandPostApex"
 
 #: ../../source/create/avatars/custom-animations.rst:185
 msgid "Standing jump in air on the downward arc of the jump."
-msgstr ""
+msgstr "Salto de pie en el aire en el arco descendente del salto."
 
 #: ../../source/create/avatars/custom-animations.rst:187
 msgid "inAirRunPreApex"
-msgstr ""
+msgstr "inAirRunPreApex"
 
 #: ../../source/create/avatars/custom-animations.rst:187
 msgid "Running jump in air on the way upward towards the jump apex."
 msgstr ""
+"Saltar corriendo en el aire en el camino hacia arriba hacia el vértice del "
+"salto."
 
 #: ../../source/create/avatars/custom-animations.rst:189
 msgid "inAirRunApex"
-msgstr ""
+msgstr "inAirRunApex"
 
 #: ../../source/create/avatars/custom-animations.rst:189
 msgid "Running jump in air at apex of the jump."
-msgstr ""
+msgstr "Salto corriendo en el aire en el vértice del salto."
 
 #: ../../source/create/avatars/custom-animations.rst:191
 msgid "inAirRunPostApex"
-msgstr ""
+msgstr "inAirRunPostApex"
 
 #: ../../source/create/avatars/custom-animations.rst:191
 msgid "Running jump in air on the downward arc of the jump."
 msgstr ""
+"Saltar mientras se corre en el aire durante el arco descendente del salto."
 
 #: ../../source/create/avatars/custom-animations.rst:193
 msgid "landStandImpact"
-msgstr ""
+msgstr "landStandImpact"
 
 #: ../../source/create/avatars/custom-animations.rst:193
 #: ../../source/create/avatars/custom-animations.rst:195
 msgid "Standing land."
-msgstr ""
+msgstr "De pie sobre el piso."
 
 #: ../../source/create/avatars/custom-animations.rst:195
 msgid "landStand"
-msgstr ""
+msgstr "landStand"
 
 #: ../../source/create/avatars/custom-animations.rst:197
 msgid "LANDRUN"
-msgstr ""
+msgstr "LANDRUN"
 
 #: ../../source/create/avatars/custom-animations.rst:197
 msgid "Running land."
-msgstr ""
+msgstr "Corriendo sobre el piso."
 
 #: ../../source/create/avatars/custom-animations.rst:202
 msgid "Create a Custom Avatar Animation JSON file"
