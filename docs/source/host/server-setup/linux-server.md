@@ -9,8 +9,8 @@ You can run these same commands on an existing Vircadia domain to upgrade it if 
 ### Ubuntu Server 18.04 LTS
 
 ```sh
-wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2021.1.1-eos-20210405-1751a59-0ubuntu1-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./vircadia-server_2021.1.1-eos-20210405-1751a59-0ubuntu1-1_amd64.deb
+wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2021.1.2-20210525-b020558-0ubuntu1-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./vircadia-server_2021.1.2-20210525-b020558-0ubuntu1-1_amd64.deb
 ```
 
 ### Amazon Linux 2
@@ -22,7 +22,7 @@ sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircad
 ### Unlisted Distribution
 
 If you do not see your distribution listed here, you may compile your own server from source using the [Vircadia builder](https://github.com/vircadia/vircadia-builder).
-    
+
 ## Configuration
 
 The installation packages will create a domain at the default port location and configure a service to keep it running on that machine.
@@ -70,7 +70,7 @@ Assuming you created a new server with the name **second-bite**, this would setu
  - Environment variables in <code>/etc/opt/vircadia/**second-bite**.conf</code>
  - Content stored in <code>/var/lib/vircadia/**second-bite**</code>
  - Services launched as <code>vircadia-domain-server@**second-bite**.service</code>, <code>vircadia-assignment-client@**second-bite**.service</code>, and <code>vircadia-server@**second-bite**.target</code>
- 
+
 ## Legacy Services
 
 There are a number of tweaks that are made to the default configuration to simplify storage and the ability to run multiple domains on one server. In case you would like to remove this logic and run the servers closer to how the original *High Fidelity* domain servers were running, this is provided as an option.
