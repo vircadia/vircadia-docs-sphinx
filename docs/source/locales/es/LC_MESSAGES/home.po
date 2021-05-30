@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-04-02 18:53+0000\n"
-"PO-Revision-Date: 2021-05-22 22:53+0000\n"
+"PO-Revision-Date: 2021-05-30 10:01+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/home/es/>\n"
@@ -129,9 +129,8 @@ msgid "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 msgstr "`Alemán <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
 #: ../../source/home.rst:40
-#, fuzzy
 msgid "`Español <https://docs.vircadia.dev/es/>`_ |es_trans|"
-msgstr "`Alemán <https://docs.vircadia.dev/de/>`_ |de_trans|"
+msgstr "`Español <https://docs.vircadia.dev/es/>`_ |es_trans|"
 
 #: ../../source/home.rst:41
 msgid "`Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
