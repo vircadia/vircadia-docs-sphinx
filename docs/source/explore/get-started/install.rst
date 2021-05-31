@@ -62,7 +62,7 @@ Download Vircadia
 
 * macOS |MacOS|
 
-    * `macOS Intel - Eos v2021.1.1 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Interface-2021.1.1-Eos.dmg>`__ |DownloadM|
+    * `macOS Intel - Eos v2021.1.2 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Interface-2021.1.2-Eos.dmg>`__ |DownloadM|
 
 * Linux |Ubuntu|
 
@@ -96,7 +96,7 @@ VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
 .. |DownloadM| image:: _images/remixicon/download-2-fill.svg
               :class: inline
               :width: 20
-              :target: https://cdn.vircadia.com/dist/release-experimental/Vircadia-Interface-2021.1.1-Eos.dmg
+              :target: https://cdn.vircadia.com/dist/release-experimental/Vircadia-Interface-2021.1.2-Eos.dmg
 
 .. |DownloadLEU| image:: _images/remixicon/download-2-fill.svg
               :class: inline
