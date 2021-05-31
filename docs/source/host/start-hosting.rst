@@ -13,7 +13,7 @@ Overview of Hosting
 
 Vircadia's hosting interface consists of the following components that work together to create an immersive VR experience for your visitors:
 
-* The *Domain Server* is a virtual world that gives you a space to build content in.
+* The *Domain server* is a virtual world that gives you a space to build content in.
 * A *domain* is a server in the metaverse. Each domain is assigned a unique ID to identify it. You can connect your domain to the Vircadia Metaverse Server by logging into your account on the Vircadia website.
 * A *place* is a registered location in the metaverse. A place is connected to a domain; you can create multiple places per domain.
 * A *server* hosts a domain, and processes incoming network requests for the domain. The server for your domain is either a physical computer or a cloud-hosted server such as one provided by DigitalOcean, Linode, AWS, and so on.

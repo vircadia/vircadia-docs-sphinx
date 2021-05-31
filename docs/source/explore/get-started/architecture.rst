@@ -15,7 +15,7 @@ Vircadia's architecture shows how different parts of the system work together to
 Architecture Overview
 ----------------------------
 
-Vircadia's architecture consists of the following components that work together and send data to each other for your VR experience. 
+Vircadia's architecture consists of the following components that work together and send data to each other for your VR experience.
 
 + The `Vircadia Interface`_ runs your personal experience in the metaverse. With it, you can :doc:`visit VR worlds <../travel>`, :doc:`meet people <../socialize>`, `attend live events <../socialize.html#attend-live-events>`_ and more.
 + The `Domain Server`_ is the server that hosts a domain. The domain server hosts the content in the domain, and manages the :doc:`domain-wide settings <../../host/configure-settings>`, such as audio spatialization, user permissions, and running scripts.
@@ -27,9 +27,9 @@ Vircadia's architecture consists of the following components that work together 
 Vircadia Interface
 ---------------------------
 
-The Vircadia Interface (or simply 'Interface') is the main user interface for Vircadia. It is used to explore the metaverse and engage with people from around the world. When you enter a domain, your Interface connects with the `domain server`_ that is hosting the virtual world, alongside any `global services`_. 
+The Vircadia Interface (or simply 'Interface') is the main user interface for Vircadia. It is used to explore the metaverse and engage with people from around the world. When you enter a domain, your Interface connects with the `domain server`_ that is hosting the virtual world, alongside any `global services`_.
 
-You can download and use the Interface on your computer or your Android phone using the `Client-Only Installer <install.html#client-only-installer>`_. 
+You can download and use the Interface on your computer or your Android phone using the `Client-Only Installer <install.html#client-only-installer>`_.
 
 .. image:: _images/interface.png
 
@@ -37,7 +37,7 @@ You can download and use the Interface on your computer or your Android phone us
 Physics Engine
 ^^^^^^^^^^^^^^^^^^^^
 
-Your VR experience won't be realistic without some physics. Vircadia includes a `physics engine <http://bulletphysics.org>`_ that simulates behaviors of objects according to the Newtonian laws of physics. When an object falls to the ground and bounces, or when two or more objects collide, their movements are computed by the physics engine. 
+Your VR experience won't be realistic without some physics. Vircadia includes a `physics engine <http://bulletphysics.org>`_ that simulates behaviors of objects according to the Newtonian laws of physics. When an object falls to the ground and bounces, or when two or more objects collide, their movements are computed by the physics engine.
 
 Each Interface runs its own physics engine, and the entity server coordinates the results to produce a consistent simulation across the entire domain.
 
@@ -45,9 +45,9 @@ Each Interface runs its own physics engine, and the entity server coordinates th
 Domain Server
 ------------------------
 
-A domain is a spatial simulation in Vircadia that you can visit. It is computed by a stack of programs on one or more computers. You need a domain's :doc:`place name <../../host/configure-settings/place-setting>` to visit a domain, just like you would need a web address to visit a website. 
+A domain is a spatial simulation in Vircadia that you can visit. It is computed by a stack of programs on one or more computers. You need a domain's :doc:`place name <../../host/configure-settings/place-setting>` to visit a domain, just like you would need a web address to visit a website.
 
-You can :doc:`set up your own domain <../../host/server-setup>` and host it on your local machine or on a cloud server to make it available to other users. Your domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. Everything that you see, hear, and do in your domain is managed by the server stack. 
+You can :doc:`set up your own domain <../../host/server-setup>` and host it on your local machine or on a cloud server to make it available to other users. Your domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. Everything that you see, hear, and do in your domain is managed by the server stack.
 
 .. image:: _images/domain-server.png
 
@@ -55,12 +55,12 @@ You can :doc:`set up your own domain <../../host/server-setup>` and host it on y
 Server Stack
 ^^^^^^^^^^^^^^^^^^^^
 
-The Domain Server is at the top of this stack and its job is to give out assignments to the other components. These components are called Assignment Clients, because from the perspective of the domain server, they are clients that take on different roles.
+The Domain server is at the top of this stack and its job is to give out assignments to the other components. These components are called Assignment Clients, because from the perspective of the domain server, they are clients that take on different roles.
 
 The server stack is not only controlling, managing and computing your domain as you see it, but also how it is seen by anyone visiting your domain. This means that the domain server hands out simulation assignments and provides their IP addresses to connecting Interface clients. The domain server is a single executable that spawns assignment clients that become the different mixers as requested. Each assignment client can function as one of the six types mentioned. The domain server determines which assignment client functions as which mixer.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-Assignment Clients 
+Assignment Clients
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Assignment clients control and manage various aspects of a domain. They also communicate directly with the Interface clients connected to a domain. There are six types of assignment clients:
@@ -97,7 +97,7 @@ Assignment clients control and manage various aspects of a domain. They also com
 Global Services
 --------------------
 
-Vircadia maintains global services to connect different servers together. 
+Vircadia maintains global services to connect different servers together.
 
 .. image:: _images/services.png
 
