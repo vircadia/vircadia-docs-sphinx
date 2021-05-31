@@ -66,9 +66,9 @@ Download Vircadia
 
 * Linux |Ubuntu|
 
-    * `EU Mirror: Linux amd64 - Eos v2021.1.1 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLEU|
+    * `EU Mirror: Linux amd64 - Eos v2021.1.2 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLEU|
       (`zsync <http://appimage.moto9000.moe/release/Vircadia-x86_64-release-latest.AppImage.zsync>`__ |DownloadLEUZ|)
-    * `US Mirror: Linux amd64 - Eos v2021.1.1 AppImage <https://cdn.vircadia.com/dist/release/Vircadia-x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLUS|
+    * `US Mirror: Linux amd64 - Eos v2021.1.2 AppImage <https://cdn.vircadia.com/dist/release/Vircadia-x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLUS|
 
 If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Vircadia.
 VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
