@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-05-30 15:16+0000\n"
+"PO-Revision-Date: 2021-06-06 00:36+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -3803,13 +3803,16 @@ msgstr "Corriendo sobre el piso."
 
 #: ../../source/create/avatars/custom-animations.rst:202
 msgid "Create a Custom Avatar Animation JSON file"
-msgstr ""
+msgstr "Crear un Archivo JSON de animación de Avatar Personalizado"
 
 #: ../../source/create/avatars/custom-animations.rst:204
 msgid ""
 "If you're not comfortable using a script, you can edit or replace the "
 "existing Avatar Animation JSON file to override the standard animations."
 msgstr ""
+"Si no te sientes cómodo usando un script (archivo de código fuente), puedes "
+"editar o reemplazar el archivo JSON de Animación de Avatar existente para "
+"anular las animaciones estándar."
 
 #: ../../source/create/avatars/custom-animations.rst:206
 msgid ""
@@ -3817,6 +3820,10 @@ msgid ""
 "not inherit any updates made to the standard animations' JSON file. You "
 "can perform a text merge to the latest version at any time."
 msgstr ""
+"Si creas un archivo JSON personalizado para las animaciones de tu avatar, no "
+"heredará ninguna actualización hecha en el archivo JSON de las animaciones "
+"estándar. Puedes realizar modificaciones al texto de la última versión en "
+"cualquier momento."
 
 #: ../../source/create/avatars/custom-animations.rst:208
 msgid ""
@@ -3825,38 +3832,43 @@ msgid ""
 "animation's FBX files. Or, you can write a new JSON file with the new "
 "mappings for each animation role."
 msgstr ""
+"El archivo JSON muestra qué función de animación se asigna a qué archivo FBX "
+"de animación. Puedes reemplazar los archivos FBX de animación estándar con "
+"los archivos FBX de tu animación personalizada. O, puedes escribir un nuevo "
+"archivo JSON con las nuevas asignaciones para cada función de animación."
 
 #: ../../source/create/avatars/custom-animations.rst:210
 msgid "To replace standard animations:"
-msgstr ""
+msgstr "Para reemplazar animaciones estándar:"
 
 #: ../../source/create/avatars/custom-animations.rst:212
 msgid "Upload your custom JSON file to a cloud server and copy the URL."
 msgstr ""
+"Sube tu archivo JSON personalizado a un servidor en la nube y copia la URL."
 
 #: ../../source/create/avatars/custom-animations.rst:213
 msgid "In Interface, pull up your HUD or Tablet and go to **Avatar**."
-msgstr ""
+msgstr "En Interface, abre tu HUD o Tablet y ve a **Avatar**."
 
 #: ../../source/create/avatars/custom-animations.rst:214
 msgid "Click on the Settings icon on the top-right corner."
-msgstr ""
+msgstr "Haz clic en el icono de Configuración en la esquina superior derecha."
 
 #: ../../source/create/avatars/custom-animations.rst:215
 msgid "Under 'Avatar Animation JSON', paste the URL for your JSON file."
-msgstr ""
+msgstr "En \"Avatar Animation JSON\", pega la URL de tu archivo JSON."
 
 #: ../../source/create/avatars/custom-animations.rst:218
 msgid "OR"
-msgstr ""
+msgstr "O"
 
 #: ../../source/create/avatars/custom-animations.rst:220
 msgid "Open your avatar's FST file in a text editor."
-msgstr ""
+msgstr "Abre el archivo FST de tu avatar en un editor de texto."
 
 #: ../../source/create/avatars/custom-animations.rst:221
 msgid "Add your Animation Graph file's URL."
-msgstr ""
+msgstr "Agrega la URL de tu archivo de Gráfico de Animación."
 
 #: ../../source/create/avatars/custom-animations.rst:223
 msgid ""
@@ -3864,10 +3876,13 @@ msgid ""
 "<package-avatar.html#host-your-avatar>`_ to include the changes in your "
 "FST file."
 msgstr ""
+"Deberás ejecutar los archivos de tu avatar a través del paquete `"
+"Empaquetador de Avatar <package-avatar.html#host-your-avatar>`_ para incluir "
+"los cambios en tu archivo FST."
 
 #: ../../source/create/avatars/custom-animations.rst:232
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: ../../source/create/avatars/custom-animations.rst:234
 msgid ""
@@ -3875,6 +3890,9 @@ msgid ""
 "<https://github.com/vircadia/vircadia/blob/master/interface/resources/avatar"
 "/avatar-animation.json>`_ file."
 msgstr ""
+"Aquí está el archivo `avatar-animation.json <https://github.com/vircadia/"
+"vircadia/blob/master/interface/resources/avatar/avatar-animation.json>` "
+"predeterminado actual."
 
 #: ../../source/create/avatars/custom-animations.rst:235
 msgid ""
@@ -3883,10 +3901,14 @@ msgid ""
 "a sitting pose. This example shows how you can replace some of an "
 "avatar's default animations."
 msgstr ""
+"Este archivo `scoot-animation.json <https://s3.amazonaws.com/hifi-public/"
+"tony/scoot-animation.json>`_ reemplaza las animaciones de inactividad y "
+"caminata con una pose sentada. Este ejemplo muestra cómo puedes reemplazar "
+"algunas de las animaciones predeterminadas de un avatar."
 
 #: ../../source/create/avatars/custom-animations.rst:240
 msgid "Advanced Topic: AnimNode System"
-msgstr ""
+msgstr "Tema avanzado: Sistema AnimNode"
 
 #: ../../source/create/avatars/custom-animations.rst:242
 msgid ""
@@ -3894,6 +3916,9 @@ msgid ""
 "called the AnimNode System. The AnimNode system defines how an avatar "
 "moves and is described in the Animation Graph JSON file."
 msgstr ""
+"El archivo JSON de Animación de Avatar contiene un árbol jerárquico de nodos "
+"llamado Sistema AnimNode. El sistema AnimNode define cómo se mueve un avatar "
+"y se describe en el archivo JSON de Animación Gráfica."
 
 #: ../../source/create/avatars/custom-animations.rst:244
 msgid ""
@@ -3907,46 +3932,66 @@ msgid ""
 "unique animations and avatar configurations are possible. These "
 "functionalities are handled by the AnimNode system."
 msgstr ""
+"El movimiento de un avatar está determinado por una combinación compleja de "
+"animación de procedimiento, clips de animación pregrabados y cinemática "
+"inversa. Esta combinación se calcula en cada fotograma para garantizar que "
+"el cuerpo del avatar siga la física y la entrada del controlador lo más "
+"rápido posible. Debe manejar la animación para usuarios de escritorio, "
+"usuarios de HMD y usuarios que lleven un conjunto completo de rastreadores "
+"HTC Vive. Debe configurarse sobre la marcha a medida que se agregan y "
+"eliminan sensores del sistema. También debería estar abierto a extensiones "
+"para que sean posibles animaciones únicas y configuraciones de avatar. Estas "
+"funcionalidades son manejadas por el sistema AnimNode."
 
 #: ../../source/create/avatars/custom-animations.rst:246
 msgid "We've listed some features of the system:"
-msgstr ""
+msgstr "Hemos enumerado algunas características del sistema:"
 
 #: ../../source/create/avatars/custom-animations.rst:248
 msgid "The AnimNode system is a graph of nodes."
-msgstr ""
+msgstr "El sistema AnimNode es un gráfico de nodos."
 
 #: ../../source/create/avatars/custom-animations.rst:249
 msgid "Some nodes are output only, such as pre-recorded animation clips."
 msgstr ""
+"Algunos nodos solo tienen salida, como los clips de animación pregrabados."
 
 #: ../../source/create/avatars/custom-animations.rst:250
 msgid ""
 "Other nodes produce output by processing nodes below it in the graph and "
 "blending the results together."
 msgstr ""
+"Otros nodos producen resultados procesando los nodos debajo de él en el "
+"grafo y combinando los resultados."
 
 #: ../../source/create/avatars/custom-animations.rst:251
 msgid ""
 "By manipulating the node hierarchy, certain animation actions will occur "
 "before or after other animation actions."
 msgstr ""
+"Al manipular la jerarquía de nodos, ciertas acciones de animación ocurrirán "
+"antes o después de otras acciones de animación."
 
 #: ../../source/create/avatars/custom-animations.rst:252
 msgid ""
 "The node parameters can be dynamically changed at runtime. This "
 "flexibility is necessary to achieve good visual results."
 msgstr ""
+"Los parámetros del nodo se pueden cambiar dinámicamente en tiempo de "
+"ejecución. Esta flexibilidad es necesaria para lograr buenos resultados "
+"visuales."
 
 #: ../../source/create/avatars/custom-animations.rst:253
 msgid ""
 "The system is in the default Animation Graph JSON file and is loaded "
 "during avatar initialization."
 msgstr ""
+"El sistema está en el archivo JSON de Gráfico de Animación predeterminado y "
+"se carga durante la inicialización del avatar."
 
 #: ../../source/create/avatars/custom-animations.rst:255
 msgid "**Key Concepts**"
-msgstr ""
+msgstr "**Conceptos clave**"
 
 #: ../../source/create/avatars/custom-animations.rst:257
 msgid ""
@@ -3954,6 +3999,9 @@ msgid ""
 "the following expression: ``4 + 3 * 7 - (5 / (3 + 4)) + 6``, can be "
 "represented by the following parse tree."
 msgstr ""
+"El sistema AnimNode funciona como un árbol de análisis de expresiones. Por "
+"ejemplo, la siguiente expresión: ``4 + 3 * 7 - (5 / (3 + 4)) + 6``, se puede "
+"representar mediante el siguiente árbol de análisis."
 
 #: ../../source/create/avatars/custom-animations.rst:262
 msgid ""
@@ -3963,6 +4011,11 @@ msgid ""
 "The tree is evaluated until there is a single value remaining, which "
 "should be the result of the entire expression: ``30.2957142``."
 msgstr ""
+"Este árbol de análisis puede evaluarse en tiempo de ejecución para calcular "
+"el valor real. En este árbol, los nodos hoja son valores y los nodos "
+"interiores son operaciones que combinan dos o más subárboles y producen un "
+"nuevo valor. El árbol se evalúa hasta que quede un único valor, que debería "
+"ser el resultado de toda la expresión: ``30.2957142``."
 
 #: ../../source/create/avatars/custom-animations.rst:264
 msgid ""
