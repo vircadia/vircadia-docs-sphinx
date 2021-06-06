@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-05-15 17:35+0000\n"
+"POT-Creation-Date: 2021-06-06 00:36+0000\n"
 "PO-Revision-Date: 2021-04-18 00:01+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language: es\n"
@@ -19,6 +19,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+
+#: ../../source/release-notes.rst:7
+msgid "Release 2021.1.2 Eos (2021-05-30)"
+msgstr ""
 
 #: ../../source/release-notes.rst:7
 msgid "Release 2021.1.1 Eos (2021-04-08)"
@@ -176,6 +180,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:50
 #: ../../source/release-notes/2021-1-1-Eos.md:7
 #: ../../source/release-notes/2021-1-1-Eos.md:57
+#: ../../source/release-notes/2021-1-2-Eos.md:7
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia "
 "[repo](https://github.com/vircadia/vircadia)."
@@ -571,6 +576,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-3-Demeter.md:127
 #: ../../source/release-notes/2021-1-0-Eos.md:147
 #: ../../source/release-notes/2021-1-1-Eos.md:128
+#: ../../source/release-notes/2021-1-2-Eos.md:59
 #: ../../source/release-notes/v86-k2.md:67
 msgid "Documentation"
 msgstr "Documentación"
@@ -1255,6 +1261,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-3-Demeter.md:129
 #: ../../source/release-notes/2021-1-0-Eos.md:149
 #: ../../source/release-notes/2021-1-1-Eos.md:130
+#: ../../source/release-notes/2021-1-2-Eos.md:61
 #: ../../source/release-notes/v86-k2.md:69
 msgid "User Docs"
 msgstr ""
@@ -1271,6 +1278,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-3-Demeter.md:131
 #: ../../source/release-notes/2021-1-0-Eos.md:151
 #: ../../source/release-notes/2021-1-1-Eos.md:132
+#: ../../source/release-notes/2021-1-2-Eos.md:63
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia-"
 "Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx)."
@@ -1319,7 +1327,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:223
 #: ../../source/release-notes/2020-3-3-Demeter.md:138
 #: ../../source/release-notes/2021-1-0-Eos.md:161
-#: ../../source/release-notes/2021-1-1-Eos.md:141
+#: ../../source/release-notes/2021-1-1-Eos.md:142
 #: ../../source/release-notes/v86-k2.md:76
 msgid "API Docs"
 msgstr ""
@@ -1335,7 +1343,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-2-Demeter.md:225
 #: ../../source/release-notes/2020-3-3-Demeter.md:140
 #: ../../source/release-notes/2021-1-0-Eos.md:163
-#: ../../source/release-notes/2021-1-1-Eos.md:143
+#: ../../source/release-notes/2021-1-1-Eos.md:144
 msgid ""
 "The API docs are generated from the software source "
 "[repo](https://github.com/vircadia/vircadia). The latest live deployment "
@@ -1798,6 +1806,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-3-Demeter.md:123
 #: ../../source/release-notes/2021-1-0-Eos.md:137
 #: ../../source/release-notes/2021-1-1-Eos.md:121
+#: ../../source/release-notes/2021-1-2-Eos.md:53
 msgid "Vircadia Launcher (Codename Pantheon)"
 msgstr ""
 
@@ -2361,6 +2370,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-3-Demeter.md:61
 #: ../../source/release-notes/2021-1-0-Eos.md:59
 #: ../../source/release-notes/2021-1-1-Eos.md:69
+#: ../../source/release-notes/2021-1-2-Eos.md:41
 msgid "Metaverse Server & Dashboard (Codename Iamus)"
 msgstr ""
 
@@ -2895,6 +2905,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-3-Demeter.md:63
 #: ../../source/release-notes/2021-1-0-Eos.md:61
 #: ../../source/release-notes/2021-1-1-Eos.md:71
+#: ../../source/release-notes/2021-1-2-Eos.md:43
 msgid "Iamus [Metaverse Server](https://github.com/vircadia/iamus)"
 msgstr ""
 
@@ -2938,6 +2949,7 @@ msgstr ""
 #: ../../source/release-notes/2020-3-3-Demeter.md:114
 #: ../../source/release-notes/2021-1-0-Eos.md:125
 #: ../../source/release-notes/2021-1-1-Eos.md:113
+#: ../../source/release-notes/2021-1-2-Eos.md:47
 msgid ""
 "Iamus [Metaverse Dashboard](https://github.com/vircadia/project-iamus-"
 "dashboard)"
@@ -3976,14 +3988,239 @@ msgstr ""
 msgid "Add Spanish language translation support. (#130)"
 msgstr ""
 
-#: ../../source/release-notes/2021-1-1-Eos.md:146
-msgid "`Users` API:"
+#: ../../source/release-notes/2021-1-1-Eos.md:140
+msgid "Release notes for 2021.1.1 Eos. (#132)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:147
+msgid "`Users` API:"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-1-Eos.md:148
 msgid ""
 "`kick` function updated with more options and new default functionality. "
 "(#1090)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:1
+msgid "2021.1.2 Eos Release Notes"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:3
+msgid ""
+"This version of Vircadia is an update to 2021.1.1. It is compatible with "
+"the 2020.1.0 Eos protocol. This version was released on May 30th, 2021."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:5
+msgid "Native Interface & Domain Server (Codename Athena)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:9
+msgid "Enhancements"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:11
+msgid ""
+"[**osx**][**windows**] Hash Windows and Mac machine fingerprints. "
+"[#1126](https://github.com/vircadia/vircadia/pull/1126)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:12
+msgid ""
+"[**domain-server**] The domain server should see Packet ID=1 as a "
+"(broken) attempt to connect to the domain server. "
+"[#692](https://github.com/vircadia/vircadia/pull/692)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:13
+msgid ""
+"Create app: Copy-paste position and rotation. "
+"[#1213](https://github.com/vircadia/vircadia/pull/1213)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:14
+msgid ""
+"Add Doxygen tool for compiling C++ documentation. [#1212, "
+"#1220](https://github.com/vircadia/vircadia/pull/1212)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:15
+msgid ""
+"Include Vircadia Web app as a Git submodule. "
+"[#1202](https://github.com/vircadia/vircadia/pull/1202)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:16
+msgid ""
+"ReadyPlayerMe blendshapes support. "
+"[#1183](https://github.com/vircadia/vircadia/pull/1183)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:17
+msgid "Update to Qt 5.15.2. [#938](https://github.com/vircadia/vircadia/pull/938)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:18
+msgid ""
+"[**osx**] Revise OSX DMGs. "
+"[#1162](https://github.com/vircadia/vircadia/pull/1162)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:19
+msgid ""
+"Implement VIRCADIA_MEMORY_DEBUGGING for Windows. "
+"[#1171](https://github.com/vircadia/vircadia/pull/1171)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:21
+msgid "Bug Fixes"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:23
+msgid ""
+"[**linux**] Fix videos showing as white box on AMD Linux. (Issue #801) "
+"[#938](https://github.com/vircadia/vircadia/pull/938)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:24
+msgid ""
+"[**linux**] Link to pthread last. "
+"[#1188](https://github.com/vircadia/vircadia/pull/1188)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:25
+msgid ""
+"Update snapshot image metadata to refer to Vircadia. "
+"[#1193](https://github.com/vircadia/vircadia/pull/1193)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:26
+msgid ""
+"[**linux**] Add patch for building Qt 5.15 on gcc11. "
+"[#1218](https://github.com/vircadia/vircadia/pull/1218)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:27
+msgid ""
+"Fix mismatched if in CMake warning. "
+"[#1173](https://github.com/vircadia/vircadia/pull/1173)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:28
+msgid ""
+"[**android**] Fix PR autobuild for Ubuntu-18.04, android with correct "
+"cmake version. [#1225](https://github.com/vircadia/vircadia/pull/1225)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:29
+msgid ""
+"Fix GitHub Actions merge-to-master MacOS build. "
+"[#1199](https://github.com/vircadia/vircadia/pull/1199)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:30
+msgid ""
+"Fix settings (QML) spin box stepping. "
+"[#1161](https://github.com/vircadia/vircadia/pull/1161)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:31
+msgid ""
+"[**renderer**] Fix glTF mesh colors. "
+"[#1181](https://github.com/vircadia/vircadia/pull/1181)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:32
+msgid ""
+"Fix LOD manager defaults + settings not being saved correctly. "
+"[#1129](https://github.com/vircadia/vircadia/pull/1129)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:33
+msgid ""
+"Fix minitablet Goto. "
+"[#1182](https://github.com/vircadia/vircadia/pull/1182)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:35
+msgid "Docs"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:37
+msgid ""
+"Fix missed JSDoc tag change. "
+"[#1217](https://github.com/vircadia/vircadia/pull/1217)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:38
+msgid ""
+"Fix non-consecutive header level increases in build docs. "
+"[#1196](https://github.com/vircadia/vircadia/pull/1196)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:39
+msgid ""
+"Update BUILD_WIN.md with Qt Info. "
+"[#1177](https://github.com/vircadia/vircadia/pull/1177)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:45
+#: ../../source/release-notes/2021-1-2-Eos.md:57
+msgid "No new updates to report!"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:49
+msgid ""
+"Updates are reflected [here](https://dashboard.vircadia.com/). The "
+"Dashboard has been upgraded from version 1.2.8 to version 1.2.9."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:51
+msgid "Add email verification notification upon registration and login."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:55
+msgid ""
+"[Vircadia's Windows launcher](https://github.com/vircadia/pantheon-"
+"launcher) updates can be found [here](https://github.com/vircadia"
+"/pantheon-launcher/commits/master). The launcher is on version 1.1.0."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:65
+msgid "Update and fix various links. (#133, #134 #135, #142)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:66
+msgid "Update markdown parser from \"recommonmark\" -> \"myst-parser\". (#136)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:67
+msgid "Update 3D Model & FAQ docs. (#136)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:68
+msgid "Overhaul server documentation. (#138)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:69
+msgid "Update maintainer info. (#140)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:70
+msgid "Fix non-consecutive header level increases. (#141)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:71
+msgid "Add status badges to the README. (#146)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:72
+msgid "Fix merge to master deployments of documentation. (#147 - #153)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-2-Eos.md:73
+msgid "Release notes for 2021.1.2 Eos. (#154)"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:1
@@ -4022,9 +4259,9 @@ msgstr ""
 #: ../../source/release-notes/v80.md:11
 msgid ""
 "**DigitalOcean Password Reset**: Domain Admin users can now reset their "
-"admin username and password on DigitalOcean Domain Servers. Go to "
+"admin username and password on DigitalOcean Domain servers. Go to "
 "[highfidelity.com/user/cloud_domains](https://highfidelity.com/user/cloud_domains),"
-" sign in to High Fidelity, and select the Reset Domain Server password "
+" sign in to High Fidelity, and select the Reset Domain server password "
 "option from the menu."
 msgstr ""
 
@@ -8613,5 +8850,16 @@ msgstr ""
 #~ " built with DISABLE_QML true, Linux "
 #~ "interface doesn't attempt to connect to"
 #~ " domain. (#16566)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**DigitalOcean Password Reset**: Domain Admin"
+#~ " users can now reset their admin "
+#~ "username and password on DigitalOcean "
+#~ "Domain Servers. Go to "
+#~ "[highfidelity.com/user/cloud_domains](https://highfidelity.com/user/cloud_domains),"
+#~ " sign in to High Fidelity, and "
+#~ "select the Reset Domain Server password"
+#~ " option from the menu."
 #~ msgstr ""
 

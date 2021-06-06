@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-05-09 01:29+0000\n"
+"POT-Creation-Date: 2021-06-06 00:36+0000\n"
 "PO-Revision-Date: 2021-03-25 09:41+0000\n"
 "Last-Translator: 川音リオ <rio.kawane@gmail.com>\n"
 "Language: jp\n"
@@ -1810,7 +1810,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:3
-msgid "*Last Updated on March 4, 2021*"
+msgid "*Last Updated on May 25, 2021*"
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:5
@@ -2094,71 +2094,99 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:88
-msgid "OS X"
+msgid "MacOS"
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:90
-msgid "[npm](<https://www.npmjs.com/get-npm>)  Install version 12.16.3 LTS"
+msgid ""
+"Ensure you have all the prerequisites fulfilled from the [MacOS Build "
+"Guide](BUILD_OSX.md)."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:93
-msgid "Perform a clean CMake."
-msgstr ""
-
-#: ../../source/developer/installer/INSTALLER.md:94
-msgid "Perform a Release build of ALL_BUILD"
+#: ../../source/developer/installer/INSTALLER.md:91
+msgid "Perform a clean CMake in your build folder. e.g."
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:95
-msgid ""
-"Perform a Release build of `packaged-server-console`   This will add a "
-"folder to `build\\server-console\\` -    Sandbox-darwin-x64"
+msgid "Pick a method to build and package your release."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:98
-msgid ""
-"Perform a Release build of `package`   Installer is now available in "
-"`build/_CPack_Packages/Darwin/DragNDrop"
+#: ../../source/developer/installer/INSTALLER.md:97
+msgid "Option A: Use Xcode GUI"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:101
-msgid "Linux"
+#: ../../source/developer/installer/INSTALLER.md:99
+msgid "Perform a Release build of ALL_BUILD"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:100
+msgid ""
+"Perform a Release build of `packaged-server-console`    This will add a "
+"folder to `build\\server-console\\` -     Sandbox-darwin-x64"
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:103
+msgid ""
+"Perform a Release build of `package`    Installer is now available in "
+"`build/_CPack_Packages/Darwin/DragNDrop`"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:106
+msgid "Option B: Use Terminal"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:108
+msgid "Navigate to your build folder with your terminal."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:109
+msgid ""
+"`make -j4`, you can change the number to match the number of threads you "
+"would like to use."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:110
+msgid "`make package` to create the package."
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:112
+msgid "Linux"
+msgstr ""
+
+#: ../../source/developer/installer/INSTALLER.md:114
 msgid "Server"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:105
+#: ../../source/developer/installer/INSTALLER.md:116
 msgid "Ubuntu 18.04 | .deb"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:107
+#: ../../source/developer/installer/INSTALLER.md:118
 msgid ""
 "Ensure you are using an Ubuntu 18.04 system. There is no required minimum"
 " to the amount of CPU cores needed, however it's recommended that you use"
 " as many as you have available in order to have an efficient experience."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:112
-#: ../../source/developer/installer/INSTALLER.md:190
+#: ../../source/developer/installer/INSTALLER.md:123
+#: ../../source/developer/installer/INSTALLER.md:201
 msgid "Get and bootstrap Vircadia Builder."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:117
-#: ../../source/developer/installer/INSTALLER.md:196
+#: ../../source/developer/installer/INSTALLER.md:128
+#: ../../source/developer/installer/INSTALLER.md:207
 msgid "Run Vircadia Builder."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:121
-#: ../../source/developer/installer/INSTALLER.md:200
+#: ../../source/developer/installer/INSTALLER.md:132
+#: ../../source/developer/installer/INSTALLER.md:211
 msgid ""
 "If Vircadia Builder needed to install dependencies and asks you to run it"
 " again then do so. Otherwise, skip to the next step."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:125
-#: ../../source/developer/installer/INSTALLER.md:204
+#: ../../source/developer/installer/INSTALLER.md:136
+#: ../../source/developer/installer/INSTALLER.md:215
 msgid ""
 "Vircadia Builder will ask you to configure it to build the server. The "
 "values will be prefilled with defaults, the following steps will explain "
@@ -2167,50 +2195,50 @@ msgid ""
 "variables and settings.*"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:126
-#: ../../source/developer/installer/INSTALLER.md:205
+#: ../../source/developer/installer/INSTALLER.md:137
+#: ../../source/developer/installer/INSTALLER.md:216
 msgid ""
 "This value is the Git repository of Vircadia. You can set this URL to "
 "your fork of the Vircadia repository if you need to."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:132
+#: ../../source/developer/installer/INSTALLER.md:143
 msgid ""
 "This value is the tag on the repository. If you would like to use a "
 "specific version of Vircadia, typically tags will be named like this: "
 "\"v2021.1.0-rc\""
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:138
-#: ../../source/developer/installer/INSTALLER.md:217
+#: ../../source/developer/installer/INSTALLER.md:149
+#: ../../source/developer/installer/INSTALLER.md:228
 msgid ""
 "This value is the release type. For example, the options are "
 "`production`, `pr`, or `dev`. If you are making a build for yourself and "
 "others to use then use `production`."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:144
+#: ../../source/developer/installer/INSTALLER.md:155
 msgid ""
 "This value is the release version. Release numbers should be in a format "
 "of `YEAR-MAJORVERSION-MINORVERSION` which might look like this: "
 "`2021.1.0`."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:148
-#: ../../source/developer/installer/INSTALLER.md:227
+#: ../../source/developer/installer/INSTALLER.md:159
+#: ../../source/developer/installer/INSTALLER.md:238
 msgid ""
 "This value is the build number. We typically use the hash of the most "
 "recent commit on that Git tag which might look like this: `fd6973b`."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:152
-#: ../../source/developer/installer/INSTALLER.md:231
+#: ../../source/developer/installer/INSTALLER.md:163
+#: ../../source/developer/installer/INSTALLER.md:242
 msgid ""
 "This value is the directory that Vircadia will get installed to. You "
 "should leave this as the default value unless you are an advanced user."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:156
+#: ../../source/developer/installer/INSTALLER.md:167
 msgid ""
 "This value is the number of CPU cores that the Vircadia Builder will use "
 "to compile the Vircadia server. By default it will use all cores "
@@ -2218,7 +2246,7 @@ msgid ""
 "value it gives you for your build server."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:160
+#: ../../source/developer/installer/INSTALLER.md:171
 msgid ""
 "This value is the number of CPU cores that the Vircadia Builder will use "
 "to compile Qt5 (a required component for Vircadia). By default it will "
@@ -2226,8 +2254,8 @@ msgid ""
 "the default value it gives you for your build server."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:164
-#: ../../source/developer/installer/INSTALLER.md:243
+#: ../../source/developer/installer/INSTALLER.md:175
+#: ../../source/developer/installer/INSTALLER.md:254
 msgid ""
 "It will ask you if you would like to proceed with the specified values. "
 "If you're happy with the configuration, type `yes`, otherwise enter `no` "
@@ -2235,21 +2263,21 @@ msgid ""
 "on your keyboard to exit."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:165
-#: ../../source/developer/installer/INSTALLER.md:244
+#: ../../source/developer/installer/INSTALLER.md:176
+#: ../../source/developer/installer/INSTALLER.md:255
 msgid ""
 "Vircadia Builder will now run, it may take a while. See this "
 "[table](https://github.com/vircadia/vircadia-builder#how-long-does-it-"
 "take) for estimated times."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:166
-#: ../../source/developer/installer/INSTALLER.md:245
+#: ../../source/developer/installer/INSTALLER.md:177
+#: ../../source/developer/installer/INSTALLER.md:256
 msgid "Navigate to the `pkg-scripts` directory."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:170
-#: ../../source/developer/installer/INSTALLER.md:249
+#: ../../source/developer/installer/INSTALLER.md:181
+#: ../../source/developer/installer/INSTALLER.md:260
 msgid ""
 "Generate the .rpm package. Set `RPMVERSION` to the same version you "
 "entered for the `Release number` on Vircadia Builder. *Advanced users: "
@@ -2257,17 +2285,17 @@ msgid ""
 "dashes in it.*"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:174
+#: ../../source/developer/installer/INSTALLER.md:185
 msgid ""
 "If successful, the generated .deb package will be in the `pkg-scripts` "
 "folder."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:176
+#: ../../source/developer/installer/INSTALLER.md:187
 msgid "Amazon Linux 2 | .rpm"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:178
+#: ../../source/developer/installer/INSTALLER.md:189
 msgid ""
 "Ensure you are using an Amazon Linux 2 system. You will need many CPU "
 "cores to complete this process within a reasonable time. As an "
@@ -2276,25 +2304,25 @@ msgid ""
 "linux-2-virtual-machine.html). Here are the recommended specs:"
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:184
+#: ../../source/developer/installer/INSTALLER.md:195
 msgid "Update the system and install dependencies."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:211
+#: ../../source/developer/installer/INSTALLER.md:222
 msgid ""
 "This value is the tag on the repository. If you would like to use a "
 "specific version of Vircadia, typically tags will be named like this: "
 "\"v2021.1.0-rc\"."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:223
+#: ../../source/developer/installer/INSTALLER.md:234
 msgid ""
 "This value is the release version. Release numbers typically should be in"
 " a format of `YEAR-MAJORVERSION-MINORVERSION` which might look like this:"
 " `2021.1.0`."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:235
+#: ../../source/developer/installer/INSTALLER.md:246
 msgid ""
 "This value is the number of CPU cores that the Vircadia Builder will use "
 "to compile the Vircadia server. By default it will use all cores "
@@ -2302,7 +2330,7 @@ msgid ""
 "leave this as the default value it gives you for your build server."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:239
+#: ../../source/developer/installer/INSTALLER.md:250
 msgid ""
 "This value is the number of CPU cores that the Vircadia Builder will use "
 "to compile Qt5 (a required component for Vircadia). By default it will "
@@ -2311,7 +2339,7 @@ msgid ""
 "build server."
 msgstr ""
 
-#: ../../source/developer/installer/INSTALLER.md:253
+#: ../../source/developer/installer/INSTALLER.md:264
 msgid ""
 "If successful, the generated .rpm package will be in the `pkg-scripts` "
 "folder of the Vircadia source files."
@@ -4082,5 +4110,30 @@ msgstr ""
 #~ "run the following commands:   `cd "
 #~ "\"%VIRCADIA_DIR%\"`   `mkdir build`   `cd "
 #~ "build`"
+#~ msgstr ""
+
+#~ msgid "*Last Updated on March 4, 2021*"
+#~ msgstr ""
+
+#~ msgid "OS X"
+#~ msgstr ""
+
+#~ msgid "[npm](<https://www.npmjs.com/get-npm>)  Install version 12.16.3 LTS"
+#~ msgstr ""
+
+#~ msgid "Perform a clean CMake."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Perform a Release build of `packaged-"
+#~ "server-console`   This will add a "
+#~ "folder to `build\\server-console\\` -    "
+#~ "Sandbox-darwin-x64"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Perform a Release build of `package`"
+#~ "   Installer is now available in "
+#~ "`build/_CPack_Packages/Darwin/DragNDrop"
 #~ msgstr ""
 

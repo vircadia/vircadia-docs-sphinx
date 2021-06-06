@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-05-02 08:26+0000\n"
+"POT-Creation-Date: 2021-06-06 00:36+0000\n"
 "PO-Revision-Date: 2021-03-29 08:30+0000\n"
 "Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
 "Language: de\n"
@@ -833,7 +833,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/architecture.rst:58
 msgid ""
-"The Domain Server is at the top of this stack and its job is to give out "
+"The Domain server is at the top of this stack and its job is to give out "
 "assignments to the other components. These components are called "
 "Assignment Clients, because from the perspective of the domain server, "
 "they are clients that take on different roles."
@@ -1471,8 +1471,8 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:60
 msgid ""
-"`Windows 64-bit - Eos v2021.1.1 Installer "
-"<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.1-Eos.exe>`__ "
+"`Windows 64-bit - Eos v2021.1.2 Installer "
+"<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.2-Eos.exe>`__ "
 "|DownloadWI|"
 msgstr ""
 
@@ -1489,8 +1489,8 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:65
 msgid ""
-"`macOS Intel - Eos v2021.1.1 Installer <https://cdn.vircadia.com/dist"
-"/release-experimental/Vircadia-Interface-2021.1.1-Eos.dmg>`__ |DownloadM|"
+"`macOS Intel - Eos v2021.1.2 Installer <https://cdn.vircadia.com/dist"
+"/release-experimental/Vircadia-Interface-2021.1.2-Eos.dmg>`__ |DownloadM|"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:67
@@ -1499,18 +1499,18 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:69
 msgid ""
-"`EU Mirror: Linux amd64 - Eos v2021.1.1 AppImage "
+"`EU Mirror: Linux amd64 - Eos v2021.1.2 AppImage "
 "<https://appimage.moto9000.moe/release/Vircadia-"
-"x86_64_v2021.1.1-Eos.AppImage>`__ |DownloadLEU| (`zsync "
+"x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLEU| (`zsync "
 "<http://appimage.moto9000.moe/release/Vircadia-x86_64-release-"
 "latest.AppImage.zsync>`__ |DownloadLEUZ|)"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:71
 msgid ""
-"`US Mirror: Linux amd64 - Eos v2021.1.1 AppImage "
-"<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.1-Eos.AppImage>`__"
-" |DownloadLUS|"
+"`US Mirror: Linux amd64 - Eos v2021.1.2 AppImage "
+"<https://cdn.vircadia.com/dist/release/Vircadia-"
+"x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLUS|"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:73
@@ -4427,5 +4427,44 @@ msgstr "Mit anderen Nutzern Kontakte knüpfen"
 #~ msgstr ""
 
 #~ msgid "In Interface, open your tablet or HUD and go to People."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Domain Server is at the top"
+#~ " of this stack and its job is"
+#~ " to give out assignments to the "
+#~ "other components. These components are "
+#~ "called Assignment Clients, because from "
+#~ "the perspective of the domain server,"
+#~ " they are clients that take on "
+#~ "different roles."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Windows 64-bit - Eos v2021.1.1 "
+#~ "Installer "
+#~ "<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.1-Eos.exe>`__"
+#~ " |DownloadWI|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`macOS Intel - Eos v2021.1.1 Installer"
+#~ " <https://cdn.vircadia.com/dist/release-experimental"
+#~ "/Vircadia-Interface-2021.1.1-Eos.dmg>`__ |DownloadM|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`EU Mirror: Linux amd64 - Eos "
+#~ "v2021.1.1 AppImage <https://appimage.moto9000.moe/release"
+#~ "/Vircadia-x86_64_v2021.1.1-Eos.AppImage>`__ |DownloadLEU| "
+#~ "(`zsync <http://appimage.moto9000.moe/release/Vircadia-x86_64"
+#~ "-release-latest.AppImage.zsync>`__ |DownloadLEUZ|)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`US Mirror: Linux amd64 - Eos "
+#~ "v2021.1.1 AppImage "
+#~ "<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.1-Eos.AppImage>`__"
+#~ " |DownloadLUS|"
 #~ msgstr ""
 
