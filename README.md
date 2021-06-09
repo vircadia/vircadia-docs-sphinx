@@ -15,7 +15,7 @@ For Vircadia's main documentation system, we use **Sphinx** to generate it, and 
 * Index and Glossary support
 * Localization support
 
-Our main documentation is hosted at https://docs.vircadia.dev.
+Our main documentation is hosted at https://docs.vircadia.com.
 
 ## Translate
 

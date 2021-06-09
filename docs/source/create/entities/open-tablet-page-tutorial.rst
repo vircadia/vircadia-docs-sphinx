@@ -46,7 +46,7 @@ The entity you create for your button has to be `triggerable <entity-behavior.ht
   {
     "useConfirmDialog": true,
     "confirmDialogMessage": "Are you sure you want to open this link?",
-    "url": "https://docs.vircadia.dev/",
+    "url": "https://docs.vircadia.com/",
     // options are "interface" and "browser"
     // "interface" opens an overlay, "browser" opens the OS' external browser.
     "openIn": "interface",
