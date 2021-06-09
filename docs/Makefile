@@ -42,6 +42,7 @@ help:
 		@sed -i "s*(cmake/modules/)*(https://github.com/vircadia/vircadia/tree/master/cmake/modules)*g" "$(BUILDGENERAL)"
 		@sed -i "s*(interface/external)*(https://github.com/vircadia/vircadia/tree/master/interface/external)*g" "$(BUILDGENERAL)"
 		@sed -i "s*(BUILD.md)*(../build/BUILD.md)*g" "$(INSTALLER)"
+		@sed -i "s*(BUILD_OSX.md)*(../build/BUILD_OSX.md)*g" "$(INSTALLER)"
 		@echo "done"
 	@echo "\nHanding over to sphinx-build."
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
