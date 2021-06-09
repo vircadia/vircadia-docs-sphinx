@@ -30,7 +30,7 @@ Our painting set comprises three elements:
 All of the logic for our painting set is contained in the brush head. The rest of the content is made by parenting entities to one another to make our brush, palette, and canvas.
 
 ### Create a Paint Brush
-We'll start by creating the paint brush. The brush is comprised of two parts, the handle and the brush head. The brush handle is the parent of the brush head, so we can control the movement and color of the brush head using only the handle. 
+We'll start by creating the paint brush. The brush is comprised of two parts, the handle and the brush head. The brush handle is the parent of the brush head, so we can control the movement and color of the brush head using only the handle.
 
 To create the brush handle:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
@@ -47,7 +47,7 @@ To create the brush head:
 4. Name your entity 'Paint-Paintbrush-Head' by selecting the text box at the top of the 'Properties' tab.
 5. Scroll down to the 'Spatial' section. Change the local dimensions to {x: 0.05, y: 0.1, z: 0.05}.
 
-Once you've created the brush head, you can parent the brush handle to it: 
+Once you've created the brush head, you can parent the brush handle to it:
 
 1. In **Create** Tools app, select your brush handle and go to the 'Properties' tab.
 2. Copy the 'entityID'.
@@ -88,7 +88,7 @@ Repeat the above steps to create additional paint colors for your palette.
 The last component that makes up our painting set is the canvas we'll use for our "pixel" style painting. We've provided a JSON file for you to import a canvas so you don't need to go through each step individually, but you can import the grid multiple times to make a larger painting space, if desired.
 
 1. In Interface, go to **Menu > Edit** and select 'Import Entities from URL'.
-2. Paste [this URL](https://docs.vircadia.dev/_static/resources/entities/canvas.json) into the dialog window and select 'OK'.
+2. Paste [this URL](https://docs.vircadia.com/_static/resources/entities/canvas.json) into the dialog window and select 'OK'.
 
 The canvas is made up of box entities parented to a single backplate, but you could use any entities to create a scene that could be painted this way.
 
@@ -104,7 +104,7 @@ To add the paint brush script:
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Select the Paint-Brush-Head entity.
 3. Go to the 'Properties' tab and scroll down to 'Behavior'.
-4. Next to 'Script', paste the script URL. In this case, it is '[brushScript.js](https://docs.vircadia.dev/_static/resources/entities/brushScript.js)'.
+4. Next to 'Script', paste the script URL. In this case, it is '[brushScript.js](https://docs.vircadia.com/_static/resources/entities/brushScript.js)'.
 5. After you close the **Create** app, test it out by painting on the canvas in your domain!
 
 **See Also**

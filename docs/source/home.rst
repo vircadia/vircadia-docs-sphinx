@@ -32,14 +32,14 @@ In addition to the documentation, you can join the discussion on the Vircadia `D
               :target: https://discordapp.com/invite/Pvx2vke
 
 
-This documentation is authored in `English <https://docs.vircadia.dev/>`_.
+This documentation is authored in `English <https://docs.vircadia.com/>`_.
 
 The following translations are available:
 
-* `Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|
-* `Español <https://docs.vircadia.dev/es/>`_ |es_trans|
-* `Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|
-* `日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|
+* `Deutsch <https://docs.vircadia.com/de/>`_ |de_trans|
+* `Español <https://docs.vircadia.com/es/>`_ |es_trans|
+* `Français <https://docs.vircadia.com/fr/>`_ |fr_trans|
+* `日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|
 
 .. |de_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/de/svg-badge.svg
               :class: inline
