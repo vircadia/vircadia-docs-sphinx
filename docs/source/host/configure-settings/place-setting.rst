@@ -17,7 +17,7 @@ Once acquired, a place name can be transferred freely between any of your domain
 
 1. Go to https://dashboard.vircadia.com/places to get a place name. If you're not logged in, you will be prompted to do so.
 2. Click 'Create Place'.
-3. Type in your new Place Name. Place Names must be 4-64 characters in length. Letters, numbers and hyphens are allowed. You can use any place name that has not already been taken; however, please note that Vircadia reserves the right to reject any registration we deem obscene, offensive, or a copyright violation.
+3. Type in your new Place Name. You can use any place name that has not already been taken; however, please note that Vircadia reserves the right to reject any registration we deem obscene, offensive, or a copyright violation.
 4. Click 'Create'.
 
 -----------------------------
