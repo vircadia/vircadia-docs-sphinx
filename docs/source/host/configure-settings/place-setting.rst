@@ -10,14 +10,14 @@ Place names, on the other hand, make it easy to travel to your domain. They're m
     :depth: 2
 
 -----------------------------
-Purchase a Place Name
+Get a Place Name
 -----------------------------
 
 Once acquired, a place name can be transferred freely between any of your domains.
 
-1. Go to https://dashboard.vircadia.com/places to purchase a place name. If you're not logged in, you will be prompted to do so.
+1. Go to https://dashboard.vircadia.com/places to get a place name. If you're not logged in, you will be prompted to do so.
 2. Click 'Create Place'.
-3. Type in your new Place Name. Place Names must be 4-64 characters in length. Letters, numbers and hyphens are allowed. You can use any place name that has not been already purchases; however, please note that Vircadia reserves the right to reject any registration we deem obscene, offensive, or a copyright violation, and refund the corresponding registration fees.
+3. Type in your new Place Name. Place Names must be 4-64 characters in length. Letters, numbers and hyphens are allowed. You can use any place name that has not already been taken; however, please note that Vircadia reserves the right to reject any registration we deem obscene, offensive, or a copyright violation, and refund the corresponding registration fees.
 4. Click 'Create'.
 
 -----------------------------
