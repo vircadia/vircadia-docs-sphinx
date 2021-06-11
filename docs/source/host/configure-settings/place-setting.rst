@@ -52,8 +52,8 @@ This sets up your place name from your Vircadia account. Before moving forward, 
 2. Click the 'Edit' icon next to the place name you want to configure.
 3. For 'Points to', enter the domain ID of your domain.
 4. For 'Path', enter the coordinates where your visitors will spawn.
-5. (Optional) Enter a description for your domain. This shows up when a user clicks the info icon if your domain is displayed in the GoTo app.
-6. (Optional) Upload a preview image of your domain. This shows up when your domain is displayed in the GoTo app.
+5. (Optional) Enter a description for your domain. This shows up when a user clicks the info icon if your domain is displayed in the Explore app.
+6. (Optional) Upload a preview image of your domain. This shows up when your domain is displayed in the Explore app.
 7. Click 'Update Place'.
 
 .. image:: ../_images/my-places.png
