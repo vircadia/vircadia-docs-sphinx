@@ -28,7 +28,7 @@ While experimenting, feel free to use `Mannequin with Hair <https://hifi-content
 Flow App
 --------
 
-Download and run the `Flow app <https://docs.vircadia.com/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_ to configure your flow settings.
+Load the `Flow app <https://docs.vircadia.com/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_ into Vircadia to configure your flow settings. See :doc:`Load an Interface Script </script/interface-scripts>`
 
 The Flow app will show up as an icon on your HUD or tablet. Click this icon to open the Flow app.
 
