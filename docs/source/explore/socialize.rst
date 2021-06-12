@@ -74,8 +74,8 @@ As an administrator in a domain, you will have privileges to maintain a domain. 
 | Silence | You can click the icon to mute a user. This user will be muted for everyone in the domain.    |
 +---------+-----------------------------------------------------------------------------------------------+
 | Ban     | You can click here to ban a user from the current domain. The user will not be able to enter  |
-|         | the domain using the same account. The banned user will still have access to other High       |
-|         | Fidelity domains.                                                                             |
+|         | the domain using the same account. The banned user will still have access to other Vircadia   |
+|         | domains.                                                                             |
 +---------+-----------------------------------------------------------------------------------------------+
 
 
