@@ -1,18 +1,18 @@
 .. warning::
     This document is outdated.
-    FIXME: Mentions High Fidelity, links to HiFi hosted resources
+    FIXME: Links to HiFi hosted resources
 
 #######################
 Add Flow to Your Avatar
 #######################
 
-You can simulate physics on your avatar's hair, clothes, and body parts with a little bit of scripting and the help of High Fidelity's *Flow  technology*. The concept of "Flow" simply mimics the natural movement of hair and other attachments on your avatar. You can easily change your avatar's flow settings using the `Flow App <https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_. In order to use the Flow App, your avatar must contain flow threads. 
+You can simulate physics on your avatar's hair, clothes, and body parts with a little bit of scripting and the help of Vircadia's flow functionality. The concept of "Flow" simply mimics the natural movement of hair and other attachments on your avatar. You can easily change your avatar's flow settings using the `Flow App <https://docs.vircadia.com/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_. In order to use the Flow App, your avatar must contain flow threads.
 
 .. contents:: On This Page
     :depth: 2
 
 -------------------
-Prepare Your Avatar 
+Prepare Your Avatar
 -------------------
 
 In order to use the Flow technology, your avatar must contain flow threads, which are sets of connected joints in your avatar. Each flow thread must comply with the following rules:
@@ -28,7 +28,7 @@ While experimenting, feel free to use `Mannequin with Hair <https://hifi-content
 Flow App
 --------
 
-Download and run the `Flow app <https://highfidelity.com/marketplace/items/370b8ff7-d5ad-4410-9c5c-0ead86e69756>`_ to configure your flow settings. 
+Load the `Flow app <https://docs.vircadia.com/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_ into Vircadia to configure your flow settings. See :doc:`Load an Interface Script </script/interface-scripts>`
 
 The Flow app will show up as an icon on your HUD or tablet. Click this icon to open the Flow app.
 
@@ -38,7 +38,7 @@ The Flow app will show up as an icon on your HUD or tablet. Click this icon to o
 Display Panel
 ^^^^^^^^^^^^^
 
-The **Display** panel affects how your avatar looks while the Flow app is open. Using these options, you can choose to view meshes and collisions to help you determine what your final flow configuration will look like. 
+The **Display** panel affects how your avatar looks while the Flow app is open. Using these options, you can choose to view meshes and collisions to help you determine what your final flow configuration will look like.
 
 .. image:: _images/flow-display.png
 
@@ -58,7 +58,7 @@ The **Display** panel affects how your avatar looks while the Flow app is open. 
 Joints Panel
 ^^^^^^^^^^^^
 
-The **Joints** panel lists all of the available flow threads, and lets you configure the behavior of your joints. 
+The **Joints** panel lists all of the available flow threads, and lets you configure the behavior of your joints.
 
 .. image:: _images/flow-joints.png
 
@@ -84,7 +84,7 @@ The **Joints** panel lists all of the available flow threads, and lets you confi
 Collisions Panel
 ^^^^^^^^^^^^^^^^
 
-The **Collisions** panel controls the collision spheres that define the interactions between flow threads and the joints in your avatar. Each collision sphere is positioned using an existing avatar joint and offset: as you increase the radius of a collision sphere, you increase the distance between the flow thread and the joint. You can only have a maximum of 4 collisions defined for your avatar. 
+The **Collisions** panel controls the collision spheres that define the interactions between flow threads and the joints in your avatar. Each collision sphere is positioned using an existing avatar joint and offset: as you increase the radius of a collision sphere, you increase the distance between the flow thread and the joint. You can only have a maximum of 4 collisions defined for your avatar.
 
 .. image:: _images/flow-collisions.png
 
@@ -100,9 +100,9 @@ The **Collisions** panel controls the collision spheres that define the interact
 Output Panel
 ^^^^^^^^^^^^
 
-The **Output** panel displays the resulting FST data for your avatar's flow configuration, based on what you entered in the `Joints Panel`_ and the `Collisions Panel`_. 
+The **Output** panel displays the resulting FST data for your avatar's flow configuration, based on what you entered in the `Joints Panel`_ and the `Collisions Panel`_.
 
-Copy this data directly into your avatar's FST file to complete the flow process. 
+Copy this data directly into your avatar's FST file to complete the flow process.
 
 .. image:: _images/flow-fst.png
 
@@ -111,18 +111,18 @@ Copy this data directly into your avatar's FST file to complete the flow process
 Resources
 ------------------------------
 
-+---------------------+-------------------------------------------------------------+--------------------------------------------+
-| File                | Description                                                 | URL                                        |
-+=====================+=============================================================+============================================+
-| Flow App            | This app lets users easily update Flow settings without     | `flowAppCpp.js <https://highfidelity.com   |
-|                     | the need for scripting or advanced knowledge of avatars.    | /marketplace/items/370b8ff7-d5ad-4410-9c5c |
-|                     |                                                             | -0ead86e69756>`_                           |
-+---------------------+-------------------------------------------------------------+--------------------------------------------+
-| Mannequin with Hair | This avatar is properly rigged to work with Flow. Use this  | `Mannequin with Hair <https://hifi-c       |
-|                     | as an example for your own avatar models.                   | ontent.s3.amazonaws.com/jimi/avatar/       |
-|                     |                                                             | Mannequin/hairTest/mannequinHairTest8.     |
-|                     |                                                             | fst>`_                                     |
-+---------------------+-------------------------------------------------------------+--------------------------------------------+
++---------------------+-------------------------------------------------------------+-------------------------------------------+
+| File                | Description                                                 | URL                                       |
++=====================+=============================================================+===========================================+
+| Flow App            | This app lets users easily update Flow settings without     | `flowAppCpp.js <https://docs.vircadia.com/|
+|                     | the need for scripting or advanced knowledge of avatars.    | _static/resources/script/flow/flowAppCpp/ |
+|                     |                                                             | flowAppCpp.js>`_                          |
++---------------------+-------------------------------------------------------------+-------------------------------------------+
+| Mannequin with Hair | This avatar is properly rigged to work with Flow. Use this  | `Mannequin with Hair <https://hifi-c      |
+|                     | as an example for your own avatar models.                   | ontent.s3.amazonaws.com/jimi/avatar/      |
+|                     |                                                             | Mannequin/hairTest/mannequinHairTest8.    |
+|                     |                                                             | fst>`_                                    |
++---------------------+-------------------------------------------------------------+-------------------------------------------+
 
 **See Also**
 
