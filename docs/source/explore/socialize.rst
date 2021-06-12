@@ -75,7 +75,7 @@ As an administrator in a domain, you will have privileges to maintain a domain. 
 +---------+-----------------------------------------------------------------------------------------------+
 | Ban     | You can click here to ban a user from the current domain. The user will not be able to enter  |
 |         | the domain using the same account. The banned user will still have access to other Vircadia   |
-|         | domains.                                                                             |
+|         | domains.                                                                                      |
 +---------+-----------------------------------------------------------------------------------------------+
 
 
