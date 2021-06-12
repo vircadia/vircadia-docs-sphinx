@@ -30,7 +30,7 @@ When building soft wearables like clothes, ensure that you are making it to fit 
 
 When building your model, be sure to [follow these guidelines](3d-models/get-model) to ensure that it is compatible with Vircadia.  Once you're done editing your model, export the file as an FBX or OBJ file. You've now created your own custom model!
 
-After hosting your wearable in the cloud[put it on](../explore/personalize/add-wearables) and adopt your new look.
+After hosting your wearable in the cloud [put it on](../explore/personalize/add-wearables) and adopt your new look.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
