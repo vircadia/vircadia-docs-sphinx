@@ -1,32 +1,32 @@
 <div class="admonition warning">
     <p class="admonition-title">Warning</p>
-    <p>This document is outdated. FIXME: mentions marketplace, mentions old inventory, mentions apps which are not widely available anymore</p>
+    <p>This document is outdated. FIXME: mentions old inventory, mentions apps which are not widely available anymore</p>
 </div>
 
 # Install Tablet Apps
 
-You can enhance your experience in Vircadia by installing tablet apps from the Marketplace. These apps enable you to get more out of Vircadia. Do you want to record your avatar dancing, take selfies, or finger paint? Or are you looking to livestream to YouTube or make your avatar clap? Our Marketplace has a number of apps that can help you customize your experience in-world.
+You can enhance your experience in Vircadia by installing tablet apps. These apps enable you to get more out of Vircadia. Do you want to record your avatar dancing, take selfies, or finger paint? Or are you looking to livestream to YouTube or make your avatar clap? There's a number of apps that can help you customize your experience in-world.
 
-If you can't find an app for what you'd like to do, you can [create your own](../../create/applications) and upload it to our Marketplace for your personal use or to sell to others.
+If you can't find an app for what you'd like to do, you can [create your own](../../create/applications) and upload it for your personal use or to sell to others.
 
 **On This Page:**
 
 * [Install Tablet Apps](#install-tablet-apps)
 * [Update an App](#update-an-app)
-* [Our Marketplace Apps](#our-marketplace-apps)
+* [Our Apps](#our-marketplace-apps)
 	* [Spectator Cam: Record or Livestream in Vircadia](#spectator-cam)
 	* [Finger Painting](#finger-painting)
 	* [Text to Speech](#text-to-speech)
 
 
 ## Install Tablet Apps
-We and many users have created tablet apps that are available in Vircadia's Marketplace. To find and install an app:
+We and many users have created tablet apps that are available in Vircadia. To find and install an app:
 
-1. In Interface, pull up your HUD or Tablet and go to **Market**.
-2. Search for a specific app, or browse all apps by selecting the 'Apps, Scripts, & Tools' category.
-3. Click the app of your choice to purchase it and click the price of the item. Once you've purchased your app, you can view it in the **Inventory** app or 'Recent Activity'.
-4. After completing your purchase, click 'Install App' to start using the app in Vircadia.
-5. Once the app is installed, click 'Open App' to launch. You can also access the app through your HUD or Tablet.
+1. In Interface, pull up your HUD or Tablet and go to **More**.
+2. Search for a specific app, or browse all apps.
+3. Click the app of your choice to install it. Once you've installed your app, you can view it in the **Inventory** app or 'Recent Activity'.
+4. Once you find the app of your choice, click 'Install' to start using the app in Vircadia.
+5. Once the app is installed, you can access the app through your HUD or Tablet.
 
 
 ## Update an App
@@ -49,7 +49,7 @@ To update your app:
 * If you purchased multiple instances of an item, you need to individually update each instance of an item in your **Inventory**.
 * When you update a product with the old version already in-world, it will remain intact until it is replaced manually with the updated version. If you attempt to import an entities JSON which contains the old version, the system will ignore the item, and not automatically replace it in-world. It is up to the end-user to replace the old instances with the new.
 
-## Our Marketplace Apps
+## Our Apps
 We've listed some of the apps we created and how you can use them.
 
 ### Spectator Cam
