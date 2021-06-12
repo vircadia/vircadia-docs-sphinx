@@ -27,7 +27,7 @@ When you script for VR worlds like Vircadia, you need 3D math operations to comp
 
 When creating objects in world, it's often very helpful to know where your avatar currently is.
 
-High Fidelity uses a 3D Cartesian coordinate system where the position vector of an entity or avatar looks like this:
+Vircadia uses a 3D Cartesian coordinate system where the position vector of an entity or avatar looks like this:
 
 ```javascript
 { x: 0, y: 0, z: 0 }
@@ -154,7 +154,7 @@ When you use the `require` method, you are making any function or object exporte
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>We recommend using relative paths in your development so that you can easily move content without having to update absolute paths. However, in JSON files, you have to use absolute paths (e.g. in the event of a marketplace upload).</p>
+    <p>We recommend using relative paths in your development so that you can easily move content without having to update absolute paths. However, in JSON files, you have to use absolute paths (e.g. in the event of an upload).</p>
 </div>
 
 ## Equip an Item
