@@ -13,7 +13,7 @@ Set User Permissions
 
 Permissions can be assigned to standard user groups, custom user groups, specific users, users from a specific IP, and users from specific computers. 
 
-The permissions for a user will be the sum of all groups that the user is in. For example, let's say that all logged in users can connect and only localhost users can rez entities. If a user is both logged in and on  ocalhost, then they will be able to both connect and rez entities. Additionally, when you assign user permissions to a specific user, it will supersede any group-level permissions that otherwise might apply to that user.  
+The permissions for a user will be the sum of all groups that the user is in. For example, let's say that all logged in users can connect and only localhost users can rez entities. If a user is both logged in and on localhost, then they will be able to both connect and rez entities. Additionally, when you assign user permissions to a specific user, it will supersede any group-level permissions that otherwise might apply to that user.  
 
 To assign user permissions: 
 
