@@ -1,6 +1,6 @@
 <div class="admonition warning">
     <p class="admonition-title">Warning</p>
-    <p>This document might be outdated. FIXME: Check if Mixamo still works as no one uses it, mentions High Fidelity</p>
+    <p>This document might be outdated. FIXME: Check if Mixamo still works as no one uses it</p>
 </div>
 
 # Tutorial: Rig Avatars in Mixamo
@@ -17,7 +17,7 @@ In this tutorial, we will use the avatar that we [created in Adobe Fuse](fuse-tu
         <p class="admonition-title">Note</p>
         <p>Mixamo's auto-rigger will create a custom skeleton for your avatar so you can start animating. The auto-rigger algorithm can take up to 2 minutes, so be patient!</p>
     </div>
-4. Once your avatar is processed, Mixamo's auto-rigger will show your animated avatar. Ensure that Facial Blendshapes are 'Enabled' and Skeleton LOD has been set to 'Standard'. These settings ensure that your avatar will work property in High Fidelity. ![](_images/auto-rigger.png)  
+4. Once your avatar is processed, Mixamo's auto-rigger will show your animated avatar. Ensure that Facial Blendshapes are 'Enabled' and Skeleton LOD has been set to 'Standard'. These settings ensure that your avatar will work property in Vircadia. ![](_images/auto-rigger.png)  
 5. If you made changes to your settings, click 'Update Rig'. Mixamo will re-process your avatar with these updates.  
 6. Click 'Finish' to start applying animation.  
 7. Once your avatar has been successfully rigged, you can download it and modify it further using a 3D software of your choice. When prompted, select Format as 'FBX' and Pose as 'T-pose'. ![](_images/mixamo-download.png)  
