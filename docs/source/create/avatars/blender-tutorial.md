@@ -1,11 +1,11 @@
 <div class="admonition warning">
     <p class="admonition-title">Warning</p>
-    <p>This document is outdated. FIXME: Contains HiFi hosted content, mentions High Fidelity, only talks about FBX, Blender changed a LOT</p>
+    <p>This document is outdated. FIXME: Contains HiFi hosted content, only talks about FBX, Blender changed a LOT</p>
 </div>
 
 # Tutorial: Modify Materials and Textures Using Blender
 
-Blender is an open-source 3D modeling tool that you can use to fine tune your avatar and ensure that the materials and textures render correctly in High Fidelity.
+Blender is an open-source 3D modeling tool that you can use to fine tune your avatar and ensure that the materials and textures render correctly in Vircadia.
 
 In this tutorial, we will walk you through simple modifications you can make to your avatar using Blender. You will need to import an FBX file for your avatar. If you don't have one, see our tutorials for [Fuse](fuse-tutorial) and [Mixamo](mixamo-tutorial).
 
@@ -22,14 +22,14 @@ In this tutorial, we will walk you through simple modifications you can make to 
     ![](_images/texture-material.png)
     <div class="admonition note">
         <p class="admonition-title">Note</p>
-        <p>To remove a metallic feel to your avatar in High Fidelity, we recommend changing the default Specular Intensity for each of the main body parts from 0.500 to 0.000.</p>
+        <p>To remove a metallic feel to your avatar in Vircadia, we recommend changing the default Specular Intensity for each of the main body parts from 0.500 to 0.000.</p>
     </div>
 7. When you're done changing your materials and textures, go to **File > Export > FBX (.fbx)**.
 8. Change the 'Path Mode' to 'Copy', then click the 'Embed Textures' icon. This makes sure that all of the textures are embedded into your model. ![](_images/blender-export.png)
 9. Give your avatar a unique name.
 10. Click the 'Export FBX' button.
 
-Now, you are ready to bring your avatar into High Fidelity.
+Now, you are ready to bring your avatar into Vircadia.
 
 ## Example: Update Eyelashes from an Image
 
