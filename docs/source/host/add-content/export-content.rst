@@ -14,7 +14,6 @@ Many domain creation and maintenance tasks require content backups, including:
 * Importing content sets to new domains
 * Restoring content in case of corruption
 * Sharing content with others
-* Uploading content sets to the Marketplace
 
 
 .. contents:: On This Page
@@ -68,7 +67,6 @@ The final method of exporting your content is to create a manual content archive
 
 * Deploy your content to multiple domains
 * Share a copy of your custom content set with others
-* Sell your environment on the Marketplace
 
 To create a content archive and download it:
 
@@ -83,4 +81,4 @@ To create a content archive and download it:
 4. Enter a name for your archive and click 'Generate Archive'. It will appear just below the 'Generate New Archive' button. 
 5. From the Actions menu, click 'Download'.
 
-The content archive includes models.json.gz, along with other backup files. From here, you can upload your content archive to another domain, send it to others or upload it to the Marketplace.
+The content archive includes models.json.gz, along with other backup files. From here, you can upload your content archive to another domain or send it to others.
