@@ -1,6 +1,6 @@
 <div class="admonition warning">
     <p class="admonition-title">Warning</p>
-    <p>This document is outdated. FIXME: only mentions FBX format, mentions weight needing to be higher?, mentions marketplace</p>
+    <p>This document is outdated. FIXME: only mentions FBX format, mentions weight needing to be higher?</p>
 </div>
 
 # Wearables
@@ -30,11 +30,11 @@ When building soft wearables like clothes, ensure that you are making it to fit 
 
 When building your model, be sure to [follow these guidelines](3d-models/get-model) to ensure that it is compatible with Vircadia.  Once you're done editing your model, export the file as an FBX or OBJ file. You've now created your own custom model!
 
-After hosting your wearable in the cloud or the Marketplace, [put it on](../explore/personalize/add-wearables) and adopt your new look.
+After hosting your wearable in the cloud[put it on](../explore/personalize/add-wearables) and adopt your new look.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>If you're creating a wearable to <a href="../sell/add-item/upload-wearable.html">add to the Marketplace</a>, make sure it will fit the default wooden mannequin avatar (unless you are specifically making it to go with a very specific base avatar model). This will ensure that the wearable will work with most avatars in Vircadia.</p>
+    <p>If you're creating a wearable to share, make sure it will fit the default wooden mannequin avatar (unless you are specifically making it to go with a very specific base avatar model). This will ensure that the wearable will work with most avatars in Vircadia.</p>
 </div>
 
 
