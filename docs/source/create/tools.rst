@@ -45,11 +45,11 @@ When you select an entity in the Entity List, you can:
 	Shapes: Create in VR
 	------------------------
 
-	The Shapes app is a Marketplace app that lets you :doc:`add and edit basic shapes (entities) <entities/create-entities>` in Vircadia. You can use Shapes only in VR mode. 
+	The Shapes app is an app that lets you :doc:`add and edit basic shapes (entities) <entities/create-entities>` in Vircadia. You can use Shapes only in VR mode. 
 
 	To get the Shapes app: 
 
-	1. In Interface, pull up your HUD or Tablet and go to **Market**. 
+	1. In Interface, pull up your HUD or Tablet and go to **More**. 
 	2. Search for 'Shapes' and hit 'Get' to get it for free. 
 	3. Install the app. 
 
