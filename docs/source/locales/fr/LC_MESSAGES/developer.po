@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-06 00:36+0000\n"
+"POT-Creation-Date: 2021-06-13 15:03+0000\n"
 "PO-Revision-Date: 2021-05-24 06:48+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language: fr\n"
@@ -2552,7 +2552,7 @@ msgstr ""
 #: ../../source/developer/installer/INSTALLER.md:90
 msgid ""
 "Ensure you have all the prerequisites fulfilled from the [MacOS Build "
-"Guide](BUILD_OSX.md)."
+"Guide](../build/BUILD_OSX.md)."
 msgstr ""
 
 #: ../../source/developer/installer/INSTALLER.md:91
@@ -3723,4 +3723,10 @@ msgstr ""
 
 #~ msgid "Perform a clean CMake."
 #~ msgstr "Effectuez un CMake propre."
+
+#~ msgid ""
+#~ "Ensure you have all the prerequisites"
+#~ " fulfilled from the [MacOS Build "
+#~ "Guide](BUILD_OSX.md)."
+#~ msgstr ""
 

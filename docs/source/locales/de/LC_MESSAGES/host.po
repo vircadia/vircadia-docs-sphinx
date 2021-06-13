@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-06 00:36+0000\n"
+"POT-Creation-Date: 2021-06-13 15:03+0000\n"
 "PO-Revision-Date: 2021-02-10 00:46+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
 "Language: de\n"
@@ -121,8 +121,8 @@ msgstr ""
 #: ../../source/host/configure-settings/audio-settings.rst:10
 #: ../../source/host/configure-settings/entity-filters.rst:9
 #: ../../source/host/configure-settings/network-settings.rst:10
-#: ../../source/host/configure-settings/permission-settings.rst:12
-#: ../../source/host/configure-settings/place-setting.rst:14
+#: ../../source/host/configure-settings/permission-settings.rst:8
+#: ../../source/host/configure-settings/place-setting.rst:10
 #: ../../source/host/invite-users.rst:12
 #: ../../source/host/maintain-domain/backup-domain.rst:8
 #: ../../source/host/maintain-domain/manage-visitors.rst:10
@@ -155,7 +155,7 @@ msgstr ""
 #: ../../source/host/add-content/bake-content.rst:23
 #: ../../source/host/add-content/bake-content.rst:64
 #: ../../source/host/add-content/create-content.rst:35
-#: ../../source/host/configure-settings/permission-settings.rst:50
+#: ../../source/host/configure-settings/permission-settings.rst:46
 msgid "Description"
 msgstr "Beschreibung"
 
@@ -566,8 +566,8 @@ msgstr ""
 #: ../../source/host/configure-settings/audio-settings.rst:31
 #: ../../source/host/configure-settings/authentication-setting.rst:9
 #: ../../source/host/configure-settings/entity-filters.rst:17
-#: ../../source/host/configure-settings/permission-settings.rst:24
-#: ../../source/host/configure-settings/place-setting.rst:40
+#: ../../source/host/configure-settings/permission-settings.rst:20
+#: ../../source/host/configure-settings/place-setting.rst:33
 #: ../../source/host/maintain-domain/backup-domain.rst:16
 #: ../../source/host/maintain-domain/backup-domain.rst:30
 #: ../../source/host/maintain-domain/backup-domain.rst:41
@@ -587,8 +587,8 @@ msgstr ""
 #: ../../source/host/configure-settings/audio-settings.rst:33
 #: ../../source/host/configure-settings/authentication-setting.rst:11
 #: ../../source/host/configure-settings/entity-filters.rst:19
-#: ../../source/host/configure-settings/permission-settings.rst:26
-#: ../../source/host/configure-settings/place-setting.rst:42
+#: ../../source/host/configure-settings/permission-settings.rst:22
+#: ../../source/host/configure-settings/place-setting.rst:35
 #: ../../source/host/maintain-domain/backup-domain.rst:18
 #: ../../source/host/maintain-domain/backup-domain.rst:61
 #: ../../source/host/maintain-domain/backup-domain.rst:77
@@ -607,8 +607,8 @@ msgstr ""
 #: ../../source/host/configure-settings/audio-settings.rst:34
 #: ../../source/host/configure-settings/authentication-setting.rst:12
 #: ../../source/host/configure-settings/entity-filters.rst:20
-#: ../../source/host/configure-settings/permission-settings.rst:27
-#: ../../source/host/configure-settings/place-setting.rst:43
+#: ../../source/host/configure-settings/permission-settings.rst:23
+#: ../../source/host/configure-settings/place-setting.rst:36
 #: ../../source/host/maintain-domain/backup-domain.rst:19
 #: ../../source/host/maintain-domain/backup-domain.rst:44
 #: ../../source/host/maintain-domain/backup-domain.rst:62
@@ -628,8 +628,8 @@ msgstr ""
 #: ../../source/host/configure-settings/audio-settings.rst:35
 #: ../../source/host/configure-settings/authentication-setting.rst:13
 #: ../../source/host/configure-settings/entity-filters.rst:21
-#: ../../source/host/configure-settings/permission-settings.rst:28
-#: ../../source/host/configure-settings/place-setting.rst:44
+#: ../../source/host/configure-settings/permission-settings.rst:24
+#: ../../source/host/configure-settings/place-setting.rst:37
 #: ../../source/host/maintain-domain/backup-domain.rst:20
 #: ../../source/host/maintain-domain/backup-domain.rst:45
 #: ../../source/host/maintain-domain/backup-domain.rst:63
@@ -840,7 +840,7 @@ msgid "Browse to a folder location and enter a name for the exported JSON file."
 msgstr ""
 
 #: ../../source/host/add-content/export-content.rst:39
-#: ../../source/host/configure-settings/place-setting.rst:50
+#: ../../source/host/configure-settings/place-setting.rst:43
 msgid "Click 'Save'."
 msgstr ""
 
@@ -867,8 +867,8 @@ msgstr ""
 #: ../../source/host/configure-settings/audio-settings.rst:36
 #: ../../source/host/configure-settings/authentication-setting.rst:14
 #: ../../source/host/configure-settings/entity-filters.rst:22
-#: ../../source/host/configure-settings/permission-settings.rst:29
-#: ../../source/host/configure-settings/place-setting.rst:45
+#: ../../source/host/configure-settings/permission-settings.rst:25
+#: ../../source/host/configure-settings/place-setting.rst:38
 #: ../../source/host/maintain-domain/backup-domain.rst:21
 #: ../../source/host/maintain-domain/backup-domain.rst:46
 #: ../../source/host/maintain-domain/backup-domain.rst:64
@@ -1012,12 +1012,12 @@ msgid "Define Your Network Settings"
 msgstr ""
 
 #: ../../source/host/configure-settings.rst:14
-#: ../../source/host/configure-settings/place-setting.rst:7
+#: ../../source/host/configure-settings/place-setting.rst:3
 msgid "Set Up a Place Name"
 msgstr ""
 
 #: ../../source/host/configure-settings.rst:14
-#: ../../source/host/configure-settings/permission-settings.rst:7
+#: ../../source/host/configure-settings/permission-settings.rst:3
 msgid "Assign User Permissions"
 msgstr ""
 
@@ -1525,11 +1525,7 @@ msgid ""
 "performance for your visitors."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:2
-msgid "This document is outdated. FIXME: mentions High Fidelity, mentions GoTo"
-msgstr ""
-
-#: ../../source/host/configure-settings/permission-settings.rst:9
+#: ../../source/host/configure-settings/permission-settings.rst:5
 msgid ""
 "You can protect your domain by setting user permission for the visitors "
 "in your domain. In your domain settings, you control the types of users "
@@ -1538,49 +1534,49 @@ msgid ""
 "friends access to edit your domain content."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:16
+#: ../../source/host/configure-settings/permission-settings.rst:12
 msgid "Set User Permissions"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:18
+#: ../../source/host/configure-settings/permission-settings.rst:14
 msgid ""
 "Permissions can be assigned to standard user groups, custom user groups, "
 "specific users, users from a specific IP, and users from specific "
 "computers."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:20
+#: ../../source/host/configure-settings/permission-settings.rst:16
 msgid ""
 "The permissions for a user will be the sum of all groups that the user is"
 " in. For example, let's say that all logged in users can connect and only"
-" localhost users can rez entities. If a user is both logged in and on  "
-"ocalhost, then they will be able to both connect and rez entities. "
+" localhost users can rez entities. If a user is both logged in and on "
+"localhost, then they will be able to both connect and rez entities. "
 "Additionally, when you assign user permissions to a specific user, it "
 "will supersede any group-level permissions that otherwise might apply to "
 "that user."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:22
+#: ../../source/host/configure-settings/permission-settings.rst:18
 msgid "To assign user permissions:"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:30
+#: ../../source/host/configure-settings/permission-settings.rst:26
 msgid "Scroll to 'Domain-Wide User Permissions'."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:31
+#: ../../source/host/configure-settings/permission-settings.rst:27
 msgid ""
 "First, set any permissions for the `standard user groups`_. Check the box"
 " of all permissions you'd like to grant."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:32
+#: ../../source/host/configure-settings/permission-settings.rst:28
 msgid ""
 "To assign all other permissions, you need to add a custom group, specific"
 " user, etc individually to the correct permissions table:"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:34
+#: ../../source/host/configure-settings/permission-settings.rst:30
 msgid ""
 "**Add Group**: Enter the name of the custom group or list, then click the"
 " ``+`` icon. Save your domain settings to load ranks. Check the box of "
@@ -1588,13 +1584,13 @@ msgid ""
 " table you are adding the group to)."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:37
+#: ../../source/host/configure-settings/permission-settings.rst:33
 msgid ""
 "**Add Specific User**: Click the ``+`` icon, then enter a specific user "
 "name. Check the box of all permissions you'd like to grant."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:40
+#: ../../source/host/configure-settings/permission-settings.rst:36
 msgid ""
 "**Add IP Address, MAC Address, or Machine Fingerprint**: Click the ``+`` "
 "icon, then enter the information (based on the permissions table you are "
@@ -1602,41 +1598,41 @@ msgid ""
 "grant."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:41
+#: ../../source/host/configure-settings/permission-settings.rst:37
 msgid "Click 'Save' to save your domain settings."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:45
+#: ../../source/host/configure-settings/permission-settings.rst:41
 msgid "Standard User Groups"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:47
+#: ../../source/host/configure-settings/permission-settings.rst:43
 msgid ""
 "Your domain comes with four basic security groups that are already set "
 "up, based on the people that you will interact with in the metaverse. "
 "They are:"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:50
+#: ../../source/host/configure-settings/permission-settings.rst:46
 msgid "User Type"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:52
+#: ../../source/host/configure-settings/permission-settings.rst:48
 msgid "anonymous"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:52
+#: ../../source/host/configure-settings/permission-settings.rst:48
 msgid ""
 "A person who is not logged in and is using an instance of Vircadia's "
 "Interface. This is the default user type for someone who has downloaded "
 "Interface for the first time."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:56
+#: ../../source/host/configure-settings/permission-settings.rst:52
 msgid "friends"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:56
+#: ../../source/host/configure-settings/permission-settings.rst:52
 msgid ""
 "A user that you have connected with by shaking hands with their avatar "
 "and clicking on the 'Friends' checkbox in your **People** app. "
@@ -1645,22 +1641,22 @@ msgid ""
 "treated like anonymous users."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:61
+#: ../../source/host/configure-settings/permission-settings.rst:57
 msgid "localhost"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:61
+#: ../../source/host/configure-settings/permission-settings.rst:57
 msgid ""
 "A user who is running Interface on the same machine where the server is "
 "hosted. Localhost users do not need to be logged in and have permissions "
 "that override non-user-specific permissions."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:65
+#: ../../source/host/configure-settings/permission-settings.rst:61
 msgid "logged-in"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:65
+#: ../../source/host/configure-settings/permission-settings.rst:61
 msgid ""
 "A user that is logged into their Vircadia account while using Interface. "
 "They do not need to be a Friend or a Connection to have server rights. "
@@ -1668,20 +1664,20 @@ msgid ""
 "permissions."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:70
+#: ../../source/host/configure-settings/permission-settings.rst:66
 msgid ""
 "The 'Connect' permission for these standard user groups determine the "
 "privacy level of your domain:"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:72
+#: ../../source/host/configure-settings/permission-settings.rst:68
 msgid ""
 "**Public**: A public domain allows 'anonymous' and/or 'logged-in' users "
-"to connect to it. These domains may be featured in the GoTo app and in "
+"to connect to it. These domains may be shown in the Explore app and in "
 "other places around the metaverse."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:73
+#: ../../source/host/configure-settings/permission-settings.rst:69
 msgid ""
 "**Private**: A private domain does not allow 'anonymous' and/or 'logged-"
 "in' users to connect to it. Domain owners are responsible for promoting "
@@ -1689,55 +1685,55 @@ msgid ""
 "users to enter their domain."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:77
+#: ../../source/host/configure-settings/permission-settings.rst:73
 msgid "User Permissions"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:79
+#: ../../source/host/configure-settings/permission-settings.rst:75
 msgid "The actions that you can secure for each type of user are as follows:"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:82
+#: ../../source/host/configure-settings/permission-settings.rst:78
 msgid "Permissions"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:82
+#: ../../source/host/configure-settings/permission-settings.rst:78
 msgid "Definition"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:84
+#: ../../source/host/configure-settings/permission-settings.rst:80
 msgid "Connect"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:84
+#: ../../source/host/configure-settings/permission-settings.rst:80
 msgid "Sets whether a user can enter the domain."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:86
+#: ../../source/host/configure-settings/permission-settings.rst:82
 msgid "Lock/Unlock"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:86
+#: ../../source/host/configure-settings/permission-settings.rst:82
 msgid ""
 "Sets whether a user can change the \"locked\" property of an entity to "
 "prevent it from being modified."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:89
+#: ../../source/host/configure-settings/permission-settings.rst:85
 msgid "Rez"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:89
+#: ../../source/host/configure-settings/permission-settings.rst:85
 msgid ""
 "Sets whether a user can permanently create (or rez) new entities in the "
 "domain. These users will also have full access to the **Create** app."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:92
+#: ../../source/host/configure-settings/permission-settings.rst:88
 msgid "Rez Temporary"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:92
+#: ../../source/host/configure-settings/permission-settings.rst:88
 msgid ""
 "Sets whether a user can create (or rez) new entities with a finite "
 "lifetime (the lifetime is set in **Domain Settings > Entities > Advanced "
@@ -1745,71 +1741,71 @@ msgid ""
 "also have full access to the **Create** app."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:97
+#: ../../source/host/configure-settings/permission-settings.rst:93
 msgid "Rez Certified"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:97
+#: ../../source/host/configure-settings/permission-settings.rst:93
 msgid ""
 "Sets whether a user can permanently create (or rez) new entities that "
 "were purchased from the Marketplace."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:100
+#: ../../source/host/configure-settings/permission-settings.rst:96
 msgid "Rez Temporary Certified"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:100
+#: ../../source/host/configure-settings/permission-settings.rst:96
 msgid ""
 "Sets whether a user can create (or rez) new entities from the Marketplace"
 " for a finite lifetime (the lifetime is set in **Domain Settings > "
 "Entities > Advanced Settings > Maximum Lifetime of Temporary Entities**)."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:104
+#: ../../source/host/configure-settings/permission-settings.rst:100
 msgid "Write Assets"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:104
+#: ../../source/host/configure-settings/permission-settings.rst:100
 msgid ""
 "Sets whether a user can add assets (models, audio,  or other files) or "
 "make changes to the domain's asset server (your domain's file storage "
 "space)."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:107
+#: ../../source/host/configure-settings/permission-settings.rst:103
 msgid "Ignore Max Capacity"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:107
+#: ../../source/host/configure-settings/permission-settings.rst:103
 msgid ""
 "Sets whether a user can enter a domain even if it has reached or exceeded"
 " the specified capacity limit."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:110
+#: ../../source/host/configure-settings/permission-settings.rst:106
 msgid "Kick Users"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:110
+#: ../../source/host/configure-settings/permission-settings.rst:106
 msgid "Sets whether a user is allowed to ban other users from a domain."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:112
+#: ../../source/host/configure-settings/permission-settings.rst:108
 msgid "Replace Content"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:112
+#: ../../source/host/configure-settings/permission-settings.rst:108
 msgid ""
 "Sets whether a user can change the entire content set of a domain by "
 "wiping the existing content."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:115
+#: ../../source/host/configure-settings/permission-settings.rst:111
 msgid "Can Get and Set Private User Data"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:115
+#: ../../source/host/configure-settings/permission-settings.rst:111
 msgid ""
 "Sets whether a user can access and write to the 'Private User Data' "
 "property of entities in the domain. Private user data is a property of "
@@ -1819,13 +1815,7 @@ msgid ""
 "definition."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:2
-msgid ""
-"This document is outdated. FIXME: mentions High Fidelity, mentions "
-"purchasing domain names, mentions buying HFC, etc."
-msgstr ""
-
-#: ../../source/host/configure-settings/place-setting.rst:9
+#: ../../source/host/configure-settings/place-setting.rst:5
 msgid ""
 "While you can travel to a domain using its IP address, IP addresses are "
 "difficult to remember, often change depending on your network setup, and "
@@ -1834,7 +1824,7 @@ msgid ""
 "environment."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:11
+#: ../../source/host/configure-settings/place-setting.rst:7
 msgid ""
 "Place names, on the other hand, make it easy to travel to your domain. "
 "They're memorable, and give context to visitors to remember your virtual "
@@ -1843,60 +1833,43 @@ msgid ""
 "domain, Deerhaven."
 msgstr ""
 
+#: ../../source/host/configure-settings/place-setting.rst:14
+msgid "Get a Place Name"
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:16
+msgid ""
+"Once acquired, a place name can be transferred freely between any of your"
+" domains."
+msgstr ""
+
 #: ../../source/host/configure-settings/place-setting.rst:18
-msgid "Purchase a Place Name"
+msgid ""
+"Go to https://dashboard.vircadia.com/places to get a place name. If "
+"you're not logged in, you will be prompted to do so."
+msgstr ""
+
+#: ../../source/host/configure-settings/place-setting.rst:19
+msgid "Click 'Create Place'."
 msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:20
 msgid ""
-"Place names are purchased from Vircadia for $20/year. Once purchased, a "
-"place name can be transferred freely between any of your domains."
+"Type in your new Place Name. You can use any place name that has not "
+"already been taken; however, please note that Vircadia reserves the right"
+" to reject any registration we deem obscene, offensive, or a copyright "
+"violation."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:22
-msgid ""
-"If you would like to use HFC to purchase a place name, `schedule an "
-"appointment with the Vircadia banker "
-"<https://meetings.hubspot.com/highfidelity/high-fidelity-bank-"
-"appointment>`_. Here, you can purchase a coupon that can be used to "
-"purchase a place name using the process below."
-msgstr ""
-
-#: ../../source/host/configure-settings/place-setting.rst:24
-msgid ""
-"Go to https://highfidelity.com/user/places to purchase a place name. If "
-"you’re not logged in, you will be prompted to do so."
+#: ../../source/host/configure-settings/place-setting.rst:21
+msgid "Click 'Create'."
 msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:25
-msgid "Click 'Create a Place Name'."
-msgstr ""
-
-#: ../../source/host/configure-settings/place-setting.rst:26
-msgid ""
-"Type in your new Place Name. Place Names must be 4-64 characters in "
-"length. Letters, numbers and hyphens are allowed. You can use any place "
-"name that has not been already purchases; however, please note that "
-"Vircadia reserves the right to reject any registration we deem obscene, "
-"offensive, or a copyright violation, and refund the corresponding "
-"registration fees."
-msgstr ""
-
-#: ../../source/host/configure-settings/place-setting.rst:27
-msgid "Click 'Checkout Now'."
-msgstr ""
-
-#: ../../source/host/configure-settings/place-setting.rst:28
-msgid ""
-"Enter your credit card number, PayPal account information or a coupon "
-"code to complete the purchase."
-msgstr ""
-
-#: ../../source/host/configure-settings/place-setting.rst:32
 msgid "Configure Your Place Name"
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:34
+#: ../../source/host/configure-settings/place-setting.rst:27
 msgid ""
 "A place name points to a specific coordinate in the metaverse. Not only "
 "does it point to a domain, but it also defines the exact position  in "
@@ -1905,37 +1878,37 @@ msgid ""
 "thing."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:36
+#: ../../source/host/configure-settings/place-setting.rst:29
 msgid "**Method 1 - Use the Domain Settings**"
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:38
+#: ../../source/host/configure-settings/place-setting.rst:31
 msgid "This sets up your place name directly from your domain settings."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:46
+#: ../../source/host/configure-settings/place-setting.rst:39
 msgid "Scroll to 'Places'."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:47
+#: ../../source/host/configure-settings/place-setting.rst:40
 msgid "In the grid, click the ``+`` icon to add a place name to this domain."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:48
+#: ../../source/host/configure-settings/place-setting.rst:41
 msgid "Choose the place name you want to use from the dropdown list."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:49
+#: ../../source/host/configure-settings/place-setting.rst:42
 msgid ""
 "For 'Path or Viewpoint', enter the coordinates where your visitors will "
 "spawn."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:54
+#: ../../source/host/configure-settings/place-setting.rst:47
 msgid "**Method 2 - Use 'My Places'**"
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:56
+#: ../../source/host/configure-settings/place-setting.rst:49
 msgid ""
 "This sets up your place name from your Vircadia account. Before moving "
 "forward, make sure you have the `domain ID <network-settings.html#domain-"
@@ -1943,37 +1916,37 @@ msgid ""
 " domain."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:58
+#: ../../source/host/configure-settings/place-setting.rst:51
 msgid ""
-"Go to https://highfidelity.com/user/places. If you’re not logged in, you "
-"will be prompted to do so."
+"Go to https://dashboard.vircadia.com/places. If you're not logged in, you"
+" will be prompted to do so."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:59
+#: ../../source/host/configure-settings/place-setting.rst:52
 msgid "Click the 'Edit' icon next to the place name you want to configure."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:60
+#: ../../source/host/configure-settings/place-setting.rst:53
 msgid "For 'Points to', enter the domain ID of your domain."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:61
+#: ../../source/host/configure-settings/place-setting.rst:54
 msgid "For 'Path', enter the coordinates where your visitors will spawn."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:62
+#: ../../source/host/configure-settings/place-setting.rst:55
 msgid ""
 "(Optional) Enter a description for your domain. This shows up when a user"
-" clicks the info icon if your domain is displayed in the GoTo app."
+" clicks the info icon if your domain is displayed in the Explore app."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:63
+#: ../../source/host/configure-settings/place-setting.rst:56
 msgid ""
 "(Optional) Upload a preview image of your domain. This shows up when your"
-" domain is displayed in the GoTo app."
+" domain is displayed in the Explore app."
 msgstr ""
 
-#: ../../source/host/configure-settings/place-setting.rst:64
+#: ../../source/host/configure-settings/place-setting.rst:57
 msgid "Click 'Update Place'."
 msgstr ""
 
@@ -2531,7 +2504,7 @@ msgstr ""
 #: ../../source/host/maintain-domain/update-software.rst:40
 msgid ""
 "Run the very same commands that you had used to install your server `here"
-" <https://docs.vircadia.dev/host/server-setup/linux-"
+" <https://docs.vircadia.com/host/server-setup/linux-"
 "server.html#installation>`_."
 msgstr ""
 
@@ -4343,5 +4316,122 @@ msgstr ""
 #~ "The *Domain Server* is a virtual "
 #~ "world that gives you a space to"
 #~ " build content in."
+#~ msgstr ""
+
+#~ msgid "This document is outdated. FIXME: mentions High Fidelity, mentions GoTo"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The permissions for a user will be"
+#~ " the sum of all groups that the"
+#~ " user is in. For example, let's "
+#~ "say that all logged in users can"
+#~ " connect and only localhost users can"
+#~ " rez entities. If a user is "
+#~ "both logged in and on  ocalhost, "
+#~ "then they will be able to both "
+#~ "connect and rez entities. Additionally, "
+#~ "when you assign user permissions to "
+#~ "a specific user, it will supersede "
+#~ "any group-level permissions that "
+#~ "otherwise might apply to that user."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Public**: A public domain allows "
+#~ "'anonymous' and/or 'logged-in' users to"
+#~ " connect to it. These domains may "
+#~ "be featured in the GoTo app and"
+#~ " in other places around the "
+#~ "metaverse."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is outdated. FIXME: "
+#~ "mentions High Fidelity, mentions purchasing"
+#~ " domain names, mentions buying HFC, "
+#~ "etc."
+#~ msgstr ""
+
+#~ msgid "Purchase a Place Name"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Place names are purchased from Vircadia"
+#~ " for $20/year. Once purchased, a "
+#~ "place name can be transferred freely "
+#~ "between any of your domains."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you would like to use HFC "
+#~ "to purchase a place name, `schedule "
+#~ "an appointment with the Vircadia banker"
+#~ " <https://meetings.hubspot.com/highfidelity/high-fidelity-"
+#~ "bank-appointment>`_. Here, you can "
+#~ "purchase a coupon that can be used"
+#~ " to purchase a place name using "
+#~ "the process below."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Go to https://highfidelity.com/user/places to "
+#~ "purchase a place name. If you’re "
+#~ "not logged in, you will be "
+#~ "prompted to do so."
+#~ msgstr ""
+
+#~ msgid "Click 'Create a Place Name'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Type in your new Place Name. Place"
+#~ " Names must be 4-64 characters in "
+#~ "length. Letters, numbers and hyphens are"
+#~ " allowed. You can use any place "
+#~ "name that has not been already "
+#~ "purchases; however, please note that "
+#~ "Vircadia reserves the right to reject"
+#~ " any registration we deem obscene, "
+#~ "offensive, or a copyright violation, and"
+#~ " refund the corresponding registration "
+#~ "fees."
+#~ msgstr ""
+
+#~ msgid "Click 'Checkout Now'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Enter your credit card number, PayPal"
+#~ " account information or a coupon code"
+#~ " to complete the purchase."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Go to https://highfidelity.com/user/places. If "
+#~ "you’re not logged in, you will be"
+#~ " prompted to do so."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "(Optional) Enter a description for your"
+#~ " domain. This shows up when a "
+#~ "user clicks the info icon if your"
+#~ " domain is displayed in the GoTo "
+#~ "app."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "(Optional) Upload a preview image of "
+#~ "your domain. This shows up when "
+#~ "your domain is displayed in the "
+#~ "GoTo app."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Run the very same commands that "
+#~ "you had used to install your "
+#~ "server `here <https://docs.vircadia.dev/host/server-"
+#~ "setup/linux-server.html#installation>`_."
 #~ msgstr ""
 

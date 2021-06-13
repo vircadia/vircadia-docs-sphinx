@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-04-02 18:53+0000\n"
+"POT-Creation-Date: 2021-06-13 15:03+0000\n"
 "PO-Revision-Date: 2021-01-25 18:53+0000\n"
 "Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../source/home.rst:75
 msgid "HOME"
@@ -115,7 +115,8 @@ msgstr ""
 "|Discord| teilnehmen."
 
 #: ../../source/home.rst:35
-msgid "This documentation is authored in `English <https://docs.vircadia.dev/>`_."
+#, fuzzy
+msgid "This documentation is authored in `English <https://docs.vircadia.com/>`_."
 msgstr ""
 "Diese Dokumentation wird im Original auf `Englisch "
 "<https://docs.vircadia.dev/>`_ verfasst."
@@ -125,20 +126,23 @@ msgid "The following translations are available:"
 msgstr "Die folgenden Übersetzungen sind verfügbar:"
 
 #: ../../source/home.rst:39
-msgid "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
+#, fuzzy
+msgid "`Deutsch <https://docs.vircadia.com/de/>`_ |de_trans|"
 msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
 #: ../../source/home.rst:40
 #, fuzzy
-msgid "`Español <https://docs.vircadia.dev/es/>`_ |es_trans|"
+msgid "`Español <https://docs.vircadia.com/es/>`_ |es_trans|"
 msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
 #: ../../source/home.rst:41
-msgid "`Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
+#, fuzzy
+msgid "`Français <https://docs.vircadia.com/fr/>`_ |fr_trans|"
 msgstr "`Französisch <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 
 #: ../../source/home.rst:42
-msgid "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+#, fuzzy
+msgid "`日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|"
 msgstr "`Japanisch <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
 #: ../../source/home.rst:62
