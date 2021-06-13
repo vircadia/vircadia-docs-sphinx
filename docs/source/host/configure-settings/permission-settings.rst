@@ -90,12 +90,14 @@ The actions that you can secure for each type of user are as follows:
 |                         | Maximum Lifetime of Temporary Entities**). These users will also have full   |
 |                         | access to the **Create** app.                                                |
 +-------------------------+------------------------------------------------------------------------------+
-| Rez Certified           | Sets whether a user can permanently create (or rez) new entities that were   |
-|                         | purchased from the Marketplace.                                              |
+| Rez Certified           | This was used to set whether a user can permanently create (or rez) new      |
+|                         | entities that were purchased from the Marketplace. Right now it does         |
+|                         | nothing.                                                                     |
 +-------------------------+------------------------------------------------------------------------------+
-| Rez Temporary Certified | Sets whether a user can create (or rez) new entities from the Marketplace    |
-|                         | for a finite lifetime (the lifetime is set in **Domain Settings > Entities   |
-|                         | > Advanced Settings > Maximum Lifetime of Temporary Entities**).             |
+| Rez Temporary Certified | This was used to set whether a user can create (or rez) new entities from    |
+|                         | the Marketplace for a finite lifetime (the lifetime is set in **Domain       |
+|                         | Settings > Entities > Advanced Settings > Maximum Lifetime of Temporary      |
+|                         | Entities**). Right now it does nothing.                                      |
 +-------------------------+------------------------------------------------------------------------------+
 | Write Assets            | Sets whether a user can add assets (models, audio,  or other files) or make  |
 |                         | changes to the domain's asset server (your domain's file storage space).     |
