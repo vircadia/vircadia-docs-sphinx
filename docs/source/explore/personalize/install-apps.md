@@ -13,7 +13,7 @@ If you can't find an app for what you'd like to do, you can [create your own](..
 
 * [Install Tablet Apps](#install-tablet-apps)
 * [Update an App](#update-an-app)
-* [Our Marketplace Apps](#our-marketplace-apps)
+* [Our Apps](#our-apps)
 	* [Spectator Cam: Record or Livestream in Vircadia](#spectator-cam)
 	* [Finger Painting](#finger-painting)
 	* [Text to Speech](#text-to-speech)
@@ -49,7 +49,7 @@ To update your app:
 * If you purchased multiple instances of an item, you need to individually update each instance of an item in your **Inventory**.
 * When you update a product with the old version already in-world, it will remain intact until it is replaced manually with the updated version. If you attempt to import an entities JSON which contains the old version, the system will ignore the item, and not automatically replace it in-world. It is up to the end-user to replace the old instances with the new.
 
-## Our Marketplace Apps
+## Our Apps
 We've listed some of the apps we created and how you can use them.
 
 ### Spectator Cam
