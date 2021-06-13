@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-13 15:03+0000\n"
-"PO-Revision-Date: 2021-06-06 00:36+0000\n"
+"POT-Creation-Date: 2021-05-08 17:56+0000\n"
+"PO-Revision-Date: 2021-06-13 15:03+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language: es\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
@@ -4028,6 +4028,10 @@ msgid ""
 "tree, and then combining them with an arithmetic operation, such as "
 "addition or multiplication."
 msgstr ""
+"En la expresión del caso (expression case), el valor de salida de cada nodo "
+"es un número de punto flotante, y las operaciones se pueden implementar "
+"simplemente evaluando cada subárbol y luego combinándolos con una operación "
+"aritmética, como la suma o la multiplicación."
 
 #: ../../source/create/avatars/custom-animations.rst:266
 msgid ""
@@ -4038,20 +4042,30 @@ msgid ""
 " blending between two or more sub-trees, or combining the upper body of "
 "one animation with the lower body of another."
 msgstr ""
+"El sistema AnimNode funciona con un concepto similar. Excepto que el valor "
+"de cada nodo contiene todas las traslaciones y rotaciones de las "
+"articulaciones del avatar. Los nodos de hoja pueden ser poses del avatar "
+"estáticas, como la pose de T, o pueden ser un solo fotograma de un clip de "
+"animación. Los nodos interiores pueden realizar operaciones como combinar "
+"dos o más subárboles o combinar el cuerpo superior de una animación con el "
+"cuerpo inferior de otra."
 
 #: ../../source/create/avatars/custom-animations.rst:272
 msgid ":doc:`Script <../../script>`"
-msgstr ""
+msgstr ":doc:`Script <../../script>`"
 
 #: ../../source/create/avatars/custom-animations.rst:273
 msgid "`API Reference: MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_"
 msgstr ""
+"`Referencia de API: MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_"
 
 #: ../../source/create/avatars/find-avatars.rst:2
 msgid ""
 "This document is outdated. FIXME: Mentions Unity Avatar Exporter fixing "
 "all skeletons which it is unable to do"
 msgstr ""
+"Este documento es obsoleto. A tener en cuenta: Menciona Unity Avatar "
+"Exporter arreglando todos los esqueletos que no pueden hacerse"
 
 #: ../../source/create/avatars/find-avatars.rst:9
 msgid ""
@@ -4061,10 +4075,15 @@ msgid ""
 "into Unity, maps their skeleton using Unity's humanoid tool, and exports "
 "them as FST and FBX files to import in-world."
 msgstr ""
+"Puedes descargar avatares para usar desde fuentes externas como TurboSquid o "
+"CGTrader. Una vez que obtengas el avatar, deberás procesarlo en Unity "
+"utilizando Vircadia Avatar Exporter. Esta herramienta importa la mayoría de "
+"los avatares a Unity, mapea su esqueleto usando la herramienta humanoide de "
+"Unity y los exporta como archivos FST y FBX para importarlos al mundo."
 
 #: ../../source/create/avatars/find-avatars.rst:16
 msgid "Avatar Guidelines"
-msgstr ""
+msgstr "Pautas de Avatar"
 
 #: ../../source/create/avatars/find-avatars.rst:18
 msgid ""
@@ -4074,24 +4093,33 @@ msgid ""
 "compatible with Vircadia, we've compiled a list of guidelines to help you"
 " \"sanity check\" it prior to use."
 msgstr ""
+"Muchos sitios externos como TurboSquid y CGTrader proporcionan avatares que "
+"puedes utilizar. Sin embargo, ten en cuenta que no todos los avatares que "
+"encuentres pueden funcionar en Vircadia. Para mejorar las posibilidades de "
+"que tu avatar descargado sea compatible con Vircadia, hemos compilado una "
+"lista de pautas para ayudarte con tú \"chequeo sanitario\" antes de usarlo."
 
 #: ../../source/create/avatars/find-avatars.rst:20
 msgid "You should ensure that:"
-msgstr ""
+msgstr "Debes asegurarte de que:"
 
 #: ../../source/create/avatars/find-avatars.rst:22
 msgid ""
 "You downloaded a `real-time models <https://blog.turbosquid.com/real-"
 "time-models>`_ (rigged for run-time, not rigged for render)."
 msgstr ""
+"Descarga unos `modelos en tiempo real <https://blog.turbosquid.com/real-time-"
+"models>`_ (preparados para el tiempo de ejecución, no preparados para "
+"renderizar)."
 
 #: ../../source/create/avatars/find-avatars.rst:23
 msgid "You have the correct downloaded files"
-msgstr ""
+msgstr "Tienes descargados los archivos correctos"
 
 #: ../../source/create/avatars/find-avatars.rst:25
 msgid "An FBX model for your avatar. We do not support other 3D model formats."
 msgstr ""
+"Un modelo FBX para tu avatar. No admitimos otros formatos de modelos 3D."
 
 #: ../../source/create/avatars/find-avatars.rst:26
 msgid ""
@@ -4099,10 +4127,13 @@ msgid ""
 " Sometimes, these are already embedded in your FBX model and you won't "
 "have any additional image files in your download."
 msgstr ""
+"(Opcional) Uno o más archivos de imagen para darle color y textura a tu "
+"avatar. A veces, estos ya están incrustados en tu modelo FBX y no podrás "
+"tener ningún archivo de imagen adicional en tu descarga."
 
 #: ../../source/create/avatars/find-avatars.rst:27
 msgid "Your avatar is rigged."
-msgstr ""
+msgstr "Tu avatar está equipado."
 
 #: ../../source/create/avatars/find-avatars.rst:29
 msgid ""
@@ -4112,10 +4143,15 @@ msgid ""
 "support, you can use our `Avatar Packager <create-avatars.html#package-"
 "your-avatar>`_ to import your avatar into Vircadia."
 msgstr ""
+"Si su avatar no está equipado, puedes usar :doc:`Mixamo <mixamo-tutorial>` "
+"para equipártelo. Si usas Mixamo, no es necesario que uses Unity y el "
+"exportador de avatar. Debido a que Mixamo ya usa un esqueleto que "
+"soportamos, puedes usar nuestro `Empaquetador de Avatar <create-avatars.html"
+"#package-your-avatar>`_ para importar tu avatar a Vircadia."
 
 #: ../../source/create/avatars/find-avatars.rst:33
 msgid "Vircadia Avatar Exporter for Unity"
-msgstr ""
+msgstr "Exportador de Avatares de Vircadia para Unity"
 
 #: ../../source/create/avatars/find-avatars.rst:35
 msgid ""
@@ -4126,6 +4162,12 @@ msgid ""
 "limbs). The avatar exporter also automatically packages your avatar for "
 "use in Vircadia."
 msgstr ""
+"Vircadia admite solo un tipo estándar de aparejo para avatares. Debido a que "
+"muchos avatares no coinciden con este esqueleto, creamos Vircadia Avatar "
+"Exporter para Unity (también conocido como el \"exportador de avatares\") "
+"para convertir avatares de apariencia humana con una estructura ósea "
+"humanoide (cuerpo, cabeza y extremidades). El exportador de avatar también "
+"empaqueta automáticamente tu avatar para usarlo en Vircadia."
 
 #: ../../source/create/avatars/find-avatars.rst:37
 msgid ""
@@ -4135,10 +4177,15 @@ msgid ""
 " 3D modeling tool such as Blender or Maya and make modifications to your "
 "avatar prior to using the avatar exporter in Unity."
 msgstr ""
+"El exportador de avatares se escribió para mejorar el proceso de montaje y "
+"mapeo de la plataforma esquelética. Esto no afectará las animaciones ni los "
+"materiales de tu avatar. Para ajustar los materiales, deberá usar una "
+"herramienta de modelado 3D como Blender o Maya y realizar modificaciones en "
+"tu avatar antes de usar el exportador de avatar en Unity."
 
 #: ../../source/create/avatars/find-avatars.rst:39
 msgid "You will need the following to use this tool:"
-msgstr ""
+msgstr "Necesitarás lo siguiente para utilizar esta herramienta:"
 
 #: ../../source/create/avatars/find-avatars.rst:41
 msgid "Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)"
