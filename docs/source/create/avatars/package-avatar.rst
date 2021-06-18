@@ -407,7 +407,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
                     <p>This warning occurs when your avatar model is not a supported format. Vircadia only supports FBX, glTF, and GLB models for avatars.
                 </td>
                 <td>
-                    <p>This warning cannot be resolved in Unity or Vircadia. To fix it, you need to open your model in the 3D modeling tool of your choice, and export your model as an FBX model. </p>
+                    <p>This warning cannot be resolved in Unity or Vircadia. To fix it, you need to open your model in the 3D modeling tool of your choice, and export your model as an FBX, glTF, or GLB file. </p>
                 </td>
             </tr>
             <tr>
