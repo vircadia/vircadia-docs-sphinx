@@ -24,9 +24,8 @@ We and many users have created tablet apps that are available in Vircadia. To fi
 
 1. In Interface, pull up your HUD or Tablet and go to **More**.
 2. Search for a specific app, or browse all apps.
-3. Click the app of your choice to install it.
-4. Once you find the app of your choice, click 'Install' to start using the app in Vircadia.
-5. Once the app is installed, you can access the app through your HUD or Tablet.
+3. Once you find the app of your choice, click 'Install' to start using the app in Vircadia.
+4. Once the app is installed, you can access the app through your HUD or Tablet.
 
 
 ## Update an App
