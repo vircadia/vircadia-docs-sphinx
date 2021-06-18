@@ -154,7 +154,7 @@ When you use the `require` method, you are making any function or object exporte
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>We recommend using relative paths in your development so that you can easily move content without having to update absolute paths. However, in JSON files, you have to use absolute paths (e.g. in the event of an upload).</p>
+    <p>We recommend using relative paths in your development so that you can easily move content without having to update absolute paths.</p>
 </div>
 
 ## Equip an Item
