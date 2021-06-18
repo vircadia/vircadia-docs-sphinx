@@ -50,7 +50,7 @@ When you select an entity in the Entity List, you can:
 	To get the Shapes app: 
 
 	1. In Interface, pull up your HUD or Tablet and go to **More**. 
-	2. Search for 'Shapes' and hit 'Get' to get it for free. 
+	2. Search for 'Shapes' and hit 'Install' to get it for free. 
 	3. Install the app. 
 
 	^^^^^^^^^^^^^^^^^^^^^^^
