@@ -404,7 +404,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             <tr>
                 <td>
                     <p id="unsupported-format" style="color: orange;"><strong>Unsupported avatar model format</strong></p>
-                    <p>This warning occurs when your avatar model is not a supported format. Vircadia only supports FBX models for avatars.
+                    <p>This warning occurs when your avatar model is not a supported format. Vircadia only supports FBX, glTF, and GLB models for avatars.
                 </td>
                 <td>
                     <p>This warning cannot be resolved in Unity or Vircadia. To fix it, you need to open your model in the 3D modeling tool of your choice, and export your model as an FBX model. </p>
