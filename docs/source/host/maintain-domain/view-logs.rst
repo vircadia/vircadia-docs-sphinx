@@ -6,5 +6,5 @@ Your domain server logs list the different events relevant to your High Fidelity
 
 Server logs are stored directly on the server and can be accessed as follows:
 
-* **Windows**: Logs can be found in the directory "%AppData%/Local/Vircadia/Server Console/logs"
+* **Windows**: Logs can be found in the directory "%AppData%\Local\Vircadia\Server Console\logs"
 * **Linux**: Logs can be accessed by running the command "journalctl -u vircadia-domain-server@default.service"
