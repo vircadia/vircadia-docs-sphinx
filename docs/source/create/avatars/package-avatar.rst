@@ -6,7 +6,7 @@
 Package and Host Your Avatar
 ##################################
 
-At a minimum, avatars in Vircadia must have an FBX model and an associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are two ways you can create an avatar package: by using the `Avatar Packager`_ in Interface or the `High Fidelity Avatar Exporter for Unity`_ in Unity.
+At a minimum, avatars in Vircadia must have an FBX, glTF, or GLB model, and an associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are two ways you can create an avatar package: by using the `Avatar Packager`_ in Interface or the `High Fidelity Avatar Exporter for Unity`_ in Unity.
 
 Once you have packaged your avatar, you need to host it on the cloud so that Vircadia can access it and correctly render your avatar for all users.
 
@@ -53,23 +53,7 @@ At this point, you have successfully packaged your avatar. You can close the Ava
 Host Your Avatar
 ---------------------------
 
-Before you can use a custom avatar, you must first host its FST and FBX files in a place that is publicly accessible. You can use any cloud platform including Amazon S3, Google Cloud Storage, Microsoft Azure, Dropbox, etc.
-
-If you want to upload it to High Fidelity's servers or sell your avatar on the Marketplace, use the Avatar Packager:
-
-1. If this is a new avatar, first use the `Avatar Packager`_ to create an FST file. When you proceed with Step 3 below, you will upload this new project to our servers.
-2. If you want to host an avatar that has already been packaged: 
-
-    1. In Interface, go to **Edit > Avatar Packager**. 
-    2. In the Avatar Packager window that opens, click 'Open Project'.
-    3. Navigate to your FST file and click 'Open'.
-3. Click 'Upload' to upload your avatar's files to High Fidelity's servers. The `Avatar Packager <#troubleshooting-with-the-avatar-packager>`_ will display any errors or warnings that you may want to resolve prior to uploading. View `Troubleshooting with the Avatar Packager`_ to determine whether a fix is required to have a usable avatar. 
-4. Once your avatar is uploaded to the servers, click 'View in Inventory' to view your custom avatar. Unless you submit it for review, your custom avatar will remain in Draft mode, and will not be visible to others. To sell your avatar, you need to submit it for review on the Marketplace.
-
-.. image:: _images/inventory.png
-
-.. note:: If you make any changes to your custom avatar, you will need to update it through the Avatar Packager to see your changes. To update, select your project and click 'Open Project' in step 1. Follow the same steps to update your avatar.
-
+Before you can use a custom avatar, you must first host its FST and FBX/glTF/GLB files in a place that is publicly accessible. You can use any cloud platform including Amazon S3, Google Cloud Storage, Microsoft Azure, Dropbox, etc.
 
 -------------------------------------------
 Troubleshooting with the Avatar Packager 
