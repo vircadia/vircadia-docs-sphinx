@@ -81,7 +81,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
 
     Many of the errors you will encounter describe issues with the avatar's skeleton. The troubleshooting tips below will attempt to fix the errors in Unity. 
     
-    However, if the bone structure of the model does not resemble a humanoid skeleton (with two legs, two arms, hips, chest, spine, and head), then it is likely not compatible with Vircadia. You will not be able to fix these avatars in Unity alone. Instead, you will likely need advanced knowledge of building, rigging, and mapping bones in a 3D modeling tool such as Blender or Maya. 
+    However, if the bone structure of the model does not resemble a humanoid skeleton (with two legs, two arms, hips, chest, spine, and head), then it is likely not compatible with Vircadia out of the box. You will not be able to fix these avatars in Unity alone. Instead, you will likely need advanced knowledge of building, rigging, and mapping bones in a 3D modeling tool such as Blender or Maya. 
 
 
 .. raw:: html
@@ -449,4 +449,3 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             </tr>
        </tbody>
     </table>
-
