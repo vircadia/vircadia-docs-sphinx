@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-06-13 15:03+0000\n"
+"PO-Revision-Date: 2021-06-20 12:53+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/create/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/create/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -4189,11 +4190,11 @@ msgstr "Necesitarás lo siguiente para utilizar esta herramienta:"
 
 #: ../../source/create/avatars/find-avatars.rst:41
 msgid "Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)"
-msgstr ""
+msgstr "Unity (Versiones recomendadas: 2017.4.17f1 - 2018.2.12f1)"
 
 #: ../../source/create/avatars/find-avatars.rst:42
 msgid "Vircadia (v0.77.0 or higher)"
-msgstr ""
+msgstr "Vircadia (v0.77.0 o más actuales)"
 
 #: ../../source/create/avatars/find-avatars.rst:43
 msgid ""
@@ -4201,6 +4202,9 @@ msgid ""
 "<https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 msgstr ""
+"`Exportador de Avatar de Vircadia para Unity <https://github.com/vircadia/"
+"vircadia/blob/master/tools/unity-avatar-exporter/avatarExporter."
+"unitypackage?raw=true>`_ (v0.4.1)"
 
 #: ../../source/create/avatars/find-avatars.rst:45
 msgid ""
@@ -4211,10 +4215,17 @@ msgid ""
 "the drop-down. Click 'Apply' and 'Done'. We recommend doing this after "
 "correcting any issues with remapping bones."
 msgstr ""
+"Ten en cuenta que la versión recomendada de Unity no es la última versión. "
+"Si estás utilizando una versión más reciente de Unity, te recomendamos que "
+"apliques una T-Pose a tu avatar. Para hacerlo, ve al \"Inspector\" y haz "
+"clic en \"Pose\" cerca de la parte inferior del panel. Selecciona \"Enforce "
+"T-Pose\" en el menú desplegable. Haz click en \"Apply\" y \"Done\". "
+"Recomendamos hacer esto después de corregir cualquier problema con la "
+"reasignación de huesos."
 
 #: ../../source/create/avatars/find-avatars.rst:49
 msgid "Install the Avatar Exporter"
-msgstr ""
+msgstr "Instalar el Exportador de Avatar"
 
 #: ../../source/create/avatars/find-avatars.rst:51
 msgid ""
@@ -4222,6 +4233,9 @@ msgid ""
 "Keep in mind, however, that you can import and export multiple avatars in"
 " a single Unity project."
 msgstr ""
+"Necesitas instalar la extensión para cada proyecto de Unity que tengas. Sin "
+"embargo, ten en cuenta que puedes importar y exportar varios avatares en un "
+"solo proyecto de Unity."
 
 #: ../../source/create/avatars/find-avatars.rst:53
 msgid ""
@@ -4229,16 +4243,21 @@ msgid ""
 "<https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ from Vircadia."
 msgstr ""
+"Descarga el `exportador de avatar <https://github.com/vircadia/vircadia/blob/"
+"master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ "
+"desde Vircadia."
 
 #: ../../source/create/avatars/find-avatars.rst:54
 msgid "In Unity, open the 'Project' window at the bottom."
-msgstr ""
+msgstr "En Unity, abre la ventana \"Project\" en la parte inferior."
 
 #: ../../source/create/avatars/find-avatars.rst:58
 msgid ""
 "Right-click the 'Assets' folder, then select **Import Package > Custom "
 "Package**."
 msgstr ""
+"Click derecho en la carpeta \"Assets\", entonces selecciona **Import Package "
+"> Custom Package**."
 
 #: ../../source/create/avatars/find-avatars.rst:62
 msgid ""
@@ -4246,6 +4265,9 @@ msgid ""
 "extension). Click 'Open'. You can also double-click the package on your "
 "computer to import it automatically."
 msgstr ""
+"Navega hasta el paquete `avatarExporter` (con extensión .unitypackage). "
+"Click \"Open\". También puedes hacer doble click sobre el paquete en tu "
+"computadora para importarlo automáticamente."
 
 #: ../../source/create/avatars/find-avatars.rst:63
 msgid ""
@@ -4254,28 +4276,38 @@ msgid ""
 " conflict exists, save any local changes somewhere outside of your "
 "project."
 msgstr ""
+"En la ventana \"Importing Package\", revisa la lista de archivos que se "
+"importarán y verifica si hay conflictos con los archivos que ya están en tu "
+"proyecto. Si existe un conflicto, guarda los cambios locales en algún lugar "
+"fuera de tu proyecto."
 
 #: ../../source/create/avatars/find-avatars.rst:64
 msgid ""
 "Click 'Import'. The package's files are added to the Assets folder. You "
 "should now have a 'High Fidelity' menu in Unity."
 msgstr ""
+"Click en \"Import\". Los archivos del paquete se agregan a la carpeta "
+"\"Assets\". Ahora deberías tener un menú de \"HighFidelity\" en Unity."
 
 #: ../../source/create/avatars/find-avatars.rst:70
 msgid "Create an Avatar Package"
-msgstr ""
+msgstr "Crear un Paquete de Avatar"
 
 #: ../../source/create/avatars/find-avatars.rst:72
 msgid ""
 "If you don't already have your model open in Unity, you need to import "
 "your model. Use any of the following methods:"
 msgstr ""
+"Si aún no tienes tu modelo abierto en Unity, necesitas importar tu modelo. "
+"Utiliza cualquiera de los siguientes métodos:"
 
 #: ../../source/create/avatars/find-avatars.rst:74
 msgid ""
 "Drag and drop the FBX file into the 'Assets' folder of your 'Project' "
 "window."
 msgstr ""
+"Arrastra y suelta el archivo FBX en la carpeta \"Assets\" de tu ventana "
+"\"Proyect\"."
 
 #: ../../source/create/avatars/find-avatars.rst:75
 msgid ""
@@ -4283,12 +4315,17 @@ msgid ""
 "**Import Package > Import New Asset**. Navigate to the FBX file and click"
 " 'Import'."
 msgstr ""
+"En la ventana \"Project\", haz click derecho en la carpeta \"Assets\", luego "
+"selecciona **Import Package > Import New Asset**. Navega hasta el archivo "
+"FBX y haz click en \"Import\"."
 
 #: ../../source/create/avatars/find-avatars.rst:76
 msgid ""
 "In Unity, open the 'Assets' menu, then select **Import Package > Import "
 "New Asset**. Navigate to the FBX file and click 'Import'."
 msgstr ""
+"En Unity, abre el menú \"Assets\", luego selecciona **Import Package > "
+"Import New Asset**. Navega hasta el archivo FBX y haz click en \"Import\"."
 
 #: ../../source/create/avatars/find-avatars.rst:77
 msgid ""
@@ -4296,10 +4333,13 @@ msgid ""
 "'Inspector', open 'Rig'. For 'Animation Type', choose 'Humanoid' and then"
 " click 'Apply'."
 msgstr ""
+"En la ventana \"Project\", selecciona tus archivos FBX de avatar. En el "
+"\"Inspector\", abre 'Rig'. Para \"Animation Type\",elige \"Humanoid\" y "
+"luego haz click en \"Apply\"."
 
 #: ../../source/create/avatars/find-avatars.rst:85
 msgid "Click 'Configure' to investigate and tweak the mapping of your avatar."
-msgstr ""
+msgstr "Click en \"Configure\" para investigar y retocar el mapeo de tu avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:89
 msgid ""
@@ -4310,6 +4350,12 @@ msgid ""
 "can do this by dragging the bones from the 'Avatar Configuration' panel "
 "to the 'Inspector' panel."
 msgstr ""
+"Todos los huesos mapeados en Unity se resaltan en verde y se pueden "
+"seleccionar. Comprueba si falta algo. Cualquier error aparecerá en rojo. Los "
+"huesos mínimos requeridos para el mapeo son las caderas, la columna "
+"vertebral, el pecho y la cabeza. Si falta alguno de estos, debes agregar "
+"huesos manualmente antes de continuar. Puedes hacer esto arrastrando los "
+"huesos desde el panel \"Avatar Configuration\" al panel \"Inspector\"."
 
 #: ../../source/create/avatars/find-avatars.rst:94
 msgid ""
@@ -4320,14 +4366,20 @@ msgid ""
 "get an error and need to manually map a bone to the Chest from 'Avatar "
 "Configuration'."
 msgstr ""
+"Los avatares de Vircadia deben tener un hueso de pecho. Si tu avatar no "
+"tiene tórax, el exportador de avatar puede sugerir una alternativa adecuada "
+"desde el panel \"Avatar Configuration\". Si el exportador no sugiere una "
+"alternativa y Humanoid no asigna correctamente el Pecho, obtendrás un error "
+"y deberás asignar manualmente un hueso al Pecho desde \"Avatar "
+"Configuration\"."
 
 #: ../../source/create/avatars/find-avatars.rst:96
 msgid "If you made any changes, click 'Done'."
-msgstr ""
+msgstr "Si realizaste algún cambio, haz clic en \"Done\"."
 
 #: ../../source/create/avatars/find-avatars.rst:97
 msgid "Click on the FBX file in the 'Assets' manager."
-msgstr ""
+msgstr "Haz click sobre el archivo FBX en el administrador de \"Assets\"."
 
 #: ../../source/create/avatars/find-avatars.rst:101
 msgid ""
@@ -4335,6 +4387,9 @@ msgid ""
 "avatar-exporter>`_. Open the 'High Fidelity' menu in the top menu bar, "
 "then select 'Export New Avatar'."
 msgstr ""
+"Asegúrate de que tienes el `exportador de avatar instalado <#install-the-"
+"avatar-exporter>`_. Abre el menú de \"High Fidelity\" en la barra superior "
+"del menú, luego selecciona \"Export New Avatar\"."
 
 #: ../../source/create/avatars/find-avatars.rst:102
 msgid ""
@@ -4344,16 +4399,23 @@ msgid ""
 "avatars in this directory, you can change it to another location on your "
 "computer."
 msgstr ""
+"Dale a tu avatar un nombre de proyecto. La ubicación del proyecto por "
+"defecto es tu directorio local de usuario ``Documents\\High Fidelity "
+"Projects``, el cual es creado automáticamente para ti. Aunque te "
+"recomendamos que mantengas tus avatares en este directorio, puedes cambiarlo "
+"a otra ubicación en tu computadora."
 
 #: ../../source/create/avatars/find-avatars.rst:106
 msgid "Click 'Export'."
-msgstr ""
+msgstr "Haz click en \"Export\"."
 
 #: ../../source/create/avatars/find-avatars.rst:108
 msgid ""
 "Your avatar package has been created! The File Explorer will open to your"
 " new avatar project."
 msgstr ""
+"¡Tu paquete de avatar ha sido creado! El Explorador de archivos se abrirá en "
+"tu nuevo proyecto de avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:112
 msgid ""
@@ -4362,10 +4424,14 @@ msgid ""
 "Projects\\avatar\\<project name>\\textures`` directory. Otherwise, they "
 "may not show up on your avatar."
 msgstr ""
+"Si estás utilizando texturas externas con tu modelo de avatar, copia esas "
+"texturas en el directorio ``Documents\\High Fidelity Projects\\avatar\\"
+"<project name>\\textures`` de tu usuario local. De lo contrario, es posible "
+"que no aparezcan en tu avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:116
 msgid "Test Your Avatar"
-msgstr ""
+msgstr "Prueba tu Avatar"
 
 #: ../../source/create/avatars/find-avatars.rst:118
 msgid ""
@@ -4373,6 +4439,9 @@ msgid ""
 "it with the `Vircadia Avatar Exporter for Unity`_. Check for the "
 "following:"
 msgstr ""
+"Te recomendamos que realices una \"verificación puntual\" de tu avatar en "
+"Unity antes de exportarlo con el `Exportador de avatares de Vircadia para "
+"Unity`_. Comprueba lo siguiente:"
 
 #: ../../source/create/avatars/find-avatars.rst:120
 msgid ""
@@ -4382,6 +4451,11 @@ msgid ""
 "object included in the model. All extraneous objects will be imported "
 "into Vircadia and may affect the rendering or animation of your avatar."
 msgstr ""
+"Confirma que no haya objetos extraños adjuntos a tu modelo. Por ejemplo, "
+"este `Avatar de Mech <https://www.cgtrader.com/free-3d-models/character/"
+"sci-fi/low-poly-construction-mech>`_ tiene un objeto azul tierra incluido en "
+"el modelo. Todos los objetos extraños se importarán a Vircadia y pueden "
+"afectar la representación o animación de tu avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:121
 msgid ""
@@ -4390,6 +4464,10 @@ msgid ""
 "'Muscles & Settings' to test your avatar's bone configuration and ensure "
 "that it works as expected."
 msgstr ""
+"Pon a prueba tus movimientos óseos. En el \"Inspector\" de Unity, abre \"Rig"
+"\". Para \"Animation Type\", elije \"Humanoid\" y luego haz click en \"Apply"
+"\". Ve a \"Muscles & Settings\" para probar la configuración ósea de tu "
+"avatar y asegurarte de que funcione como esperabas."
 
 #: ../../source/create/avatars/find-avatars.rst:130
 msgid ""
@@ -4398,10 +4476,13 @@ msgid ""
 "<../../explore/personalize/change-avatar.html#use-your-own-custom-"
 "avatar>`_ to wear it."
 msgstr ""
+"Si todo se ve bien, necesitas `alojar tu avatar <package-avatar.html#host-"
+"your-avatar>`_ y luego `cambiar tu avatar <../../explore/personalize/change-"
+"avatar.html#use-your-own-custom-avatar>`_ para usarlo."
 
 #: ../../source/create/avatars/find-avatars.rst:134
 msgid "Troubleshooting Tips"
-msgstr ""
+msgstr "Consejos para solucionar Problemas"
 
 #: ../../source/create/avatars/find-avatars.rst:136
 msgid ""
@@ -4411,22 +4492,28 @@ msgid ""
 "packager>`_. Here are some other issues you may encounter after using a "
 "downloaded avatar and using the avatar exporter:"
 msgstr ""
+"Muchos de los errores que encontrarás describen problemas con el esqueleto "
+"del avatar. Estos están completamente documentados aquí: `Solución de "
+"problemas con el empaquetador de avatar <package-avatar.html#troubleshooting-"
+"with-the-avatar-packager>`_. Aquí hay algunos otros problemas que puedes "
+"encontrar después de usar un avatar descargado y usar el exportador de "
+"avatar:"
 
 #: ../../source/create/avatars/find-avatars.rst:139
 msgid "Issue"
-msgstr ""
+msgstr "Problema"
 
 #: ../../source/create/avatars/find-avatars.rst:139
 msgid "Troubleshooting Tip"
-msgstr ""
+msgstr "Consejo para solucionar el Problema"
 
 #: ../../source/create/avatars/find-avatars.rst:141
 msgid "*You receive a warning in Unity:*"
-msgstr ""
+msgstr "*Recibes una advertencia en Unity:*"
 
 #: ../../source/create/avatars/find-avatars.rst:143
 msgid "\"Character is not in T pose.\""
-msgstr ""
+msgstr "\"Character is not in T pose.\""
 
 #: ../../source/create/avatars/find-avatars.rst:141
 msgid ""
@@ -4435,52 +4522,66 @@ msgid ""
 "'Apply' and 'Done'. We recommend doing this after correcting any issues "
 "with remapping bones."
 msgstr ""
+"Ve a \"Inspector\", click en \"Configure\", y luego selecciona \"Pose\" "
+"cerca de la parte inferior del panel. Selecciona \"Enforce T-Pose\" desde la "
+"lista desplegable. Click en \"Apply\" y \"Done\". Recomendamos hacer esto "
+"después de corregir cualquier problema con la reasignación de huesos."
 
 #: ../../source/create/avatars/find-avatars.rst:145
 msgid "In Unity, your avatar is a solid color."
-msgstr ""
+msgstr "En Unity, tu avatar es de un color sólido."
 
 #: ../../source/create/avatars/find-avatars.rst:145
 msgid ""
 "This suggests that the materials or shaders you are using are not "
 "supported."
 msgstr ""
+"Esto sugiere que los materiales o sombreadores que estás usando no son "
+"compatibles."
 
 #: ../../source/create/avatars/find-avatars.rst:147
 msgid "Click and drag your model into the 'Scene' window."
-msgstr ""
+msgstr "Haz click y arrastra tu modelo dentro de la ventana \"Scene\"."
 
 #: ../../source/create/avatars/find-avatars.rst:148
 msgid ""
 "Select all of the unsupported materials. These will be one solid color, "
 "such as pink."
 msgstr ""
+"Selecciona todos los materiales no admitidos. Estos serán de un color "
+"sólido, como el rosa."
 
 #: ../../source/create/avatars/find-avatars.rst:150
 msgid ""
 "In the 'Inspector', change the 'Shader' to one of the 'Standard' options."
 " All materials should now show up correctly."
 msgstr ""
+"En el \"Inspector\", cambia el \"Shader\" a una de las opciones \"Standard\""
+". Todos los materiales deberían mostrarse ahora correctamente."
 
 #: ../../source/create/avatars/find-avatars.rst:153
 msgid "Your avatar is gray."
-msgstr ""
+msgstr "Tu avatar es gris."
 
 #: ../../source/create/avatars/find-avatars.rst:153
 msgid "One of the following issues could have occurred:"
-msgstr ""
+msgstr "Uno de los siguientes problemas pudo haber ocurrido:"
 
 #: ../../source/create/avatars/find-avatars.rst:155
 msgid ""
 "Make sure you copied your avatar's textures into the project’s textures "
 "folder"
 msgstr ""
+"Asegúrate de copiar las texturas de tu avatar en la carpeta de texturas del "
+"proyecto"
 
 #: ../../source/create/avatars/find-avatars.rst:156
 msgid ""
 "Verify that your textures are in a format that we support (PNG, JPEG, "
 "JPG, TGA, TIF, or TIFF)."
 msgstr ""
+"Verifica que las texturas están en un formato que admitamos (PNG, JPEG, JPG, "
+"TGA, TIF, o TIFF)."
 
 #: ../../source/create/avatars/find-avatars.rst:158
 msgid ""
@@ -4488,6 +4589,10 @@ msgid ""
 "'Inspector', and click 'Extract Textures'. Extract your textures into "
 "your asset's folder. You can do the same with Materials."
 msgstr ""
+"Si tus texturas están incrustadas en tu avatar: selecciona el archivo FBX, "
+"ve a \"Inspector\" y haz click en \"Extract Textures\". Extrae tus texturas "
+"en la carpeta de tus activos (Assets). Puedes hacer lo mismo con los "
+"Materiales."
 
 #: ../../source/create/avatars/find-avatars.rst:162
 msgid "Your avatar is tied up into knots or laying down."
@@ -11105,4 +11210,3 @@ msgstr ""
 #~ " `here <https://docs.vircadia.dev/create/entities"
 #~ "/material-entity.html>`_."
 #~ msgstr ""
-
