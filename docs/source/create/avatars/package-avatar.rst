@@ -6,7 +6,7 @@
 Package and Host Your Avatar
 ##################################
 
-At a minimum, avatars in Vircadia must have an FBX, glTF, or GLB model, and an associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are two ways you can create an avatar package: by using the `Avatar Packager`_ in Interface or the `Vircadia Avatar Exporter for Unity`_ in Unity.
+At a minimum, avatars in Vircadia must have an FBX, glTF, or GLB model, and an associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are two ways you can create an avatar package: by using the `Avatar Packager`_ in Interface or the `Vircadia Avatar Exporter for Unity (unmaintained)`_ in Unity.
 
 Once you have packaged your avatar, you need to host it on the cloud so that Vircadia can access it and correctly render your avatar for all users.
 
