@@ -6,7 +6,7 @@
 Package and Host Your Avatar
 ##################################
 
-At a minimum, avatars in Vircadia must have an FBX, glTF, or GLB model, and an associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are two ways you can create an avatar package: by using the `Avatar Packager`_ in Interface or the `High Fidelity Avatar Exporter for Unity`_ in Unity.
+At a minimum, avatars in Vircadia must have an FBX, glTF, or GLB model, and an associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are two ways you can create an avatar package: by using the `Avatar Packager`_ in Interface or the `Vircadia Avatar Exporter for Unity`_ in Unity.
 
 Once you have packaged your avatar, you need to host it on the cloud so that Vircadia can access it and correctly render your avatar for all users.
 
@@ -22,10 +22,10 @@ If you're reading this page, you likely already :doc:`built your own FBX model <
 We provide two ways to create an avatar package: either through Unity or through our Avatar Packager.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-High Fidelity Avatar Exporter for Unity
+Vircadia Avatar Exporter for Unity (unmaintained)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In some cases, you will want to :doc:`download an avatar from an external website <find-avatars>` and use that avatar in Vircadia. The High Fidelity Avatar Exporter for Unity (also known as the "avatar exporter") converts human-like avatars and packages them for use in Vircadia. 
+In some cases, you will want to :doc:`download an avatar from an external website <find-avatars>` and use that avatar in Vircadia. The Vircadia Avatar Exporter for Unity (also known as the "avatar exporter") converts human-like avatars and packages them for use in Vircadia. 
 
 Once you have successfully used the :doc:`avatar exporter <find-avatars>` to package your avatar, you must host it somewhere on the cloud. You can upload it to Amazon S3 or a webserver for example.
 
