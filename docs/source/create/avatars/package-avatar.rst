@@ -27,7 +27,7 @@ High Fidelity Avatar Exporter for Unity
 
 In some cases, you will want to :doc:`download an avatar from an external website <find-avatars>` and use that avatar in Vircadia. The High Fidelity Avatar Exporter for Unity (also known as the "avatar exporter") converts human-like avatars and packages them for use in Vircadia. 
 
-Once you have successfully used the :doc:`avatar exporter <find-avatars>` to package your avatar, you must host it somewhere on the cloud. You can host it on our servers (using the Avatar Packager), or simply copy the avatar package to your own servers. 
+Once you have successfully used the :doc:`avatar exporter <find-avatars>` to package your avatar, you must host it somewhere on the cloud. You can upload it to Amazon S3 or a webserver for example.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 Avatar Packager
