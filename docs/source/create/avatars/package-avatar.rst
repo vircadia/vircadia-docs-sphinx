@@ -21,9 +21,9 @@ If you're reading this page, you likely already :doc:`built your own FBX model <
 
 We provide two ways to create an avatar package: either through Unity or through our Avatar Packager.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Vircadia Avatar Exporter for Unity (unmaintained)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In some cases, you will want to :doc:`download an avatar from an external website <find-avatars>` and use that avatar in Vircadia. The Vircadia Avatar Exporter for Unity (also known as the "avatar exporter") converts human-like avatars and packages them for use in Vircadia. 
 
