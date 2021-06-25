@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-06-20 12:53+0000\n"
+"PO-Revision-Date: 2021-06-25 02:57+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -4596,7 +4596,7 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:162
 msgid "Your avatar is tied up into knots or laying down."
-msgstr ""
+msgstr "Tu avatar está atado en nudos o acostado."
 
 #: ../../source/create/avatars/find-avatars.rst:162
 msgid ""
@@ -4605,16 +4605,23 @@ msgid ""
 "Update your project in Unity (go to Update Existing Avatar, then browse "
 "to your avatar package)."
 msgstr ""
+"Esto podría significar que tu esqueleto no está bien. Reabre tu avatar en "
+"Unity y sigue los pasos 2-5 de `Crear un Paquete de Avatar`_ de nuevo. "
+"Actualiza tu proyecto en Unity (ve a \"Update Existing Avatar\", luego busca "
+"tu paquete de avatar)."
 
 #: ../../source/create/avatars/find-avatars.rst:167
 msgid ""
 "If it still doesn't work, ensure that you are testing the correct file "
 "that the avatar exporter created."
 msgstr ""
+"Si aún no funciona, asegúrate de que estás probando el archivo correcto que "
+"creó el exportador de avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:170
 msgid "Your avatar's skin doesn't move properly with animations."
 msgstr ""
+"La apariencia de tu avatar no se mueve correctamente con las animaciones."
 
 #: ../../source/create/avatars/find-avatars.rst:170
 msgid ""
@@ -4624,6 +4631,11 @@ msgid ""
 " such as Blender or Maya and fix the skin weighting on the avatar prior "
 "to using the avatar exporter in Unity."
 msgstr ""
+"El exportador de avatares fue escrito para mejorar el proceso de montaje y "
+"mapeo de la plataforma esquelética. Esto no afecta las animaciones de tu "
+"avatar. Para ajustar las animaciones, necesitarás usar una herramienta de "
+"modelado 3D como Blender o Maya y ajustar el peso/tamaño de la apariencia "
+"del avatar antes de usar el exportador de avatar en Unity."
 
 #: ../../source/create/avatars/fuse-tutorial.md:13
 msgid ""
@@ -4631,10 +4643,13 @@ msgid ""
 "torsos, arms and legs in Adobe Fuse can help you start your "
 "customization."
 msgstr ""
+"Utilizando Adobe Fuse, puedes crear un avatar personalizado. Las cabezas, "
+"torsos, brazos y piernas predeterminados en Adobe Fuse pueden ayudarte a "
+"comenzar tu personalización."
 
 #: ../../source/create/avatars/fuse-tutorial.md:15
 msgid "Launch Adobe Fuse."
-msgstr ""
+msgstr "Inicia Adobe Fuse."
 
 #: ../../source/create/avatars/fuse-tutorial.md:16
 msgid "Pick your default body parts. ![](_images/fuse-assemble.png)"
@@ -4663,7 +4678,7 @@ msgstr ""
 
 #: ../../source/create/avatars/fuse-tutorial.md:20
 msgid "Save your avatar."
-msgstr ""
+msgstr "Guarda tu avatar."
 
 #: ../../source/create/avatars/fuse-tutorial.md:25
 #: ../../source/create/avatars/mixamo-tutorial.md:28
