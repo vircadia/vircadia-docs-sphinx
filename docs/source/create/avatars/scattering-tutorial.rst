@@ -1,12 +1,12 @@
 .. warning::
     This document is slightly outdated.
-    FIXME: Mentions High Fidelity, HiFi hosted content
+    FIXME: HiFi hosted content
 
 ####################################
 Tutorial: Add a Scattering Effect
 ####################################
 
-Subsurface Scattering (SSS) is the diffuse reflection caused by light entering a material, being absorbed, scattered, and eventually exiting the material. It's critical for surfaces like paper, marble, wax, and realistic skin. You can add this effect to your avatar in High Fidelity.
+Subsurface Scattering (SSS) is the diffuse reflection caused by light entering a material, being absorbed, scattered, and eventually exiting the material. It's critical for surfaces like paper, marble, wax, and realistic skin. You can add this effect to your avatar in Vircadia.
 
 .. contents:: On This Page
     :depth: 2
@@ -37,7 +37,7 @@ You can easily add scattering to an avatar by adding the value and map to the av
 
    materialMap = { "body_mat": { "scattering": 1.0, "scatteringMap" : "![skinMap.jpg](http://.../skinMap.jpg)" } }
 
-5. Wear the avatar to observe the scattering effects in High Fidelity.
+5. Wear the avatar to observe the scattering effects in Vircadia.
 
 Here's an example of the scattering effect. The left image has no scattering and the right image has scattering. You can see the red diffuse reflection along the shadow line.
 

@@ -74,8 +74,8 @@ As an administrator in a domain, you will have privileges to maintain a domain. 
 | Silence | You can click the icon to mute a user. This user will be muted for everyone in the domain.    |
 +---------+-----------------------------------------------------------------------------------------------+
 | Ban     | You can click here to ban a user from the current domain. The user will not be able to enter  |
-|         | the domain using the same account. The banned user will still have access to other High       |
-|         | Fidelity domains.                                                                             |
+|         | the domain using the same account. The banned user will still have access to other Vircadia   |
+|         | domains.                                                                                      |
 +---------+-----------------------------------------------------------------------------------------------+
 
 
@@ -142,20 +142,3 @@ The script will start running and display a text chat window pop-up. You can use
 
 .. image:: _images/chat-screenshot.png
 
-
-
-^^^^^^^^^^^^^^^^^^^^
-COM Script Version 1
-^^^^^^^^^^^^^^^^^^^^
-
-AlphaVersionD has authored an equally powerful and friendly script that runs on a domain. All users that visit a domain with the script can chat with one another, without installing a separate app or script. With this script, you have the power to enable chat on any of your own domains.
-
-.. note:: You can run a script only in a domain where you have the right permissions. Ensure that you have the right permissions in a domain where you wish to use the COM Script.
-
-To install COM Script in your domain:
-
-1. In Interface, pull up your HUD or Tablet and go to **Create**. 
-2. Click the 'zone' icon to create a zone entity.
-3. In the 'Properties' tab of the zone entity, paste this `URL <http://metaversecafes.com/HighFidelity/QueenCity/A_2016_Q_wab/AQUI/COM_v1.0.js>`_.
-
-COM Script version 1 is now running in the zone in your domain!

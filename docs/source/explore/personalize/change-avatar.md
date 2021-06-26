@@ -1,6 +1,6 @@
 <div class="admonition warning">
     <p class="admonition-title">Warning</p>
-    <p>This document is outdated. FIXME: mentions only FST files, mentions marketplace</p>
+    <p>This document is outdated. FIXME: mentions only FST files</p>
 </div>
 
 # Change Your Avatar
@@ -18,7 +18,7 @@ You can use an avatar that you created. Learn more about how you can create your
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>All avatars must be hosted in the cloud before they can be used with Vircadia. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure. Alternatively, you can <a href="../../sell/add-item/upload-avatar.html">add your avatar to the Marketplace</a> to sell to other users.</p>
+    <p>All avatars must be hosted in the cloud before they can be used with Vircadia. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure.
 </div>
 
 Once you have your avatar's .fst file, you can upload it.
