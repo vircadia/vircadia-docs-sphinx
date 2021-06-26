@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-06-25 02:57+0000\n"
+"PO-Revision-Date: 2021-06-27 06:23+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -4691,6 +4691,9 @@ msgid ""
 "automatically for you. You do not need any advanced knowledge of rigging "
 "to create simple animations for your avatar."
 msgstr ""
+"Mixamo es un sistema de armado (rigging) que monta automáticamente el "
+"esqueleto de tu modelo. No necesitas ningún conocimiento avanzado de rigging "
+"para crear animaciones simples para tu avatar."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:10
 msgid ""
@@ -4700,7 +4703,7 @@ msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:12
 msgid "Open your avatar in Adobe Fuse."
-msgstr ""
+msgstr "Abre tu avatar en Adobe Fuse."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:13
 msgid "Go to **File > Animate with Mixamo**."
@@ -4725,10 +4728,12 @@ msgid ""
 "If you made changes to your settings, click 'Update Rig'. Mixamo will re-"
 "process your avatar with these updates."
 msgstr ""
+"Si realizaste cambios en tu configuración, haz click en \"Update Rig\". "
+"Mixamo volverá a procesar tu avatar con estas actualizaciones."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:22
 msgid "Click 'Finish' to start applying animation."
-msgstr ""
+msgstr "Haz click en \"Finish\" para comenzar a aplicar la animación."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:23
 msgid ""
@@ -4744,6 +4749,9 @@ msgid ""
 "FBX (glTF also supported), doesn't mention that you don't need to "
 "package, mentions Marketplace"
 msgstr ""
+"Este documento está desactualizado. A tener en cuenta: Menciona High "
+"Fidelity, solo menciona FBX (glTF también es compatible), no se menciona lo "
+"que no necesitas para empaquetar, menciona Marketplace"
 
 #: ../../source/create/avatars/package-avatar.rst:9
 msgid ""
@@ -4754,6 +4762,12 @@ msgid ""
 "avatar package: by using the `Avatar Packager`_ in Interface or the `High"
 " Fidelity Avatar Exporter for Unity`_ in Unity."
 msgstr ""
+"Como mínimo, los avatares en High Fidelity deben tener un modelo FBX y un "
+"archivo FST asociado que incluya información acerca de como se ve y se "
+"comporta tu avatar. Juntos, esos dos archivos (con cualquier textura o "
+"script) forman un \"paquete de avatar\". Hay dos maneras en la que puedes "
+"crear un paquete de avatar: utilizando el `Empaquetador de Avatar`_ en una "
+"interfaz o el `Exportador de Avatares de High Fidelity para Unity`_ en Unity."
 
 #: ../../source/create/avatars/package-avatar.rst:11
 msgid ""
@@ -4761,10 +4775,13 @@ msgid ""
 "that High Fidelity can access it and correctly render your avatar for all"
 " users."
 msgstr ""
+"Una vez que hayas empaquetado tu avatar, necesitas alojarlo en la nube para "
+"que High Fidelity pueda acceder a él y renderizar correctamente tu avatar "
+"para todos los usuarios."
 
 #: ../../source/create/avatars/package-avatar.rst:18
 msgid "Package Your Avatar"
-msgstr ""
+msgstr "Empaqueta Tu Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:20
 msgid ""
@@ -4775,16 +4792,24 @@ msgid ""
 "includes information about the skeleton, blendshapes, textures, and "
 "scripts used by your avatar."
 msgstr ""
+"Si estás leyendo esta página, probablemente ya :doc:`hayas construido tu "
+"propio modelo FBX <create-avatars>` o :doc:`encontrado y descargado un "
+"modelo <find-avatars>` que quieras usar en High Fidelity. Por lo tanto, todo "
+"lo que resta por hacer es empaquetar tu avatar y crear el archivo FST. Este "
+"archivo incluye información sobre el esqueleto, formas de expresiones, "
+"texturas y scripts usados por tu avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:22
 msgid ""
 "We provide two ways to create an avatar package: either through Unity or "
 "through our Avatar Packager."
 msgstr ""
+"Ofrecemos dos formas de crear un paquete de avatar: a través de Unity o "
+"mediante nuestro Empaquetador de Avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:26
 msgid "High Fidelity Avatar Exporter for Unity"
-msgstr ""
+msgstr "Exportador de Avatar de High Fidelity para Unity"
 
 #: ../../source/create/avatars/package-avatar.rst:28
 msgid ""
@@ -4794,6 +4819,11 @@ msgid ""
 "exporter\") converts human-like avatars and packages them for use in High"
 " Fidelity."
 msgstr ""
+"En algunos casos, necesitarás :doc:`descargar un avatar desde una página web "
+"externa <find-avatars>` y usar el avatar en High Fidelity. El Exportador de "
+"Avatar de High Fidelity para Unity (también conocido como \"exportador de "
+"avatar\") convierte avatares de apariencia humana y los empaqueta para "
+"usarlos en High Fidelity."
 
 #: ../../source/create/avatars/package-avatar.rst:30
 msgid ""
@@ -4802,10 +4832,14 @@ msgid ""
 " host it on our servers (using the Avatar Packager), or simply copy the "
 "avatar package to your own servers."
 msgstr ""
+"Una vez que hayas usado exitosamente el :doc:`exportador de avatar <find-"
+"avatars>`para empaquetar tu avatar, debes alojarlo en algún lugar de la "
+"nube. Puedes alojarlo en nuestros servidores (usando el empaquetador de "
+"Avatar) o simplemente copia el paquete del avatar en tus propios servidores."
 
 #: ../../source/create/avatars/package-avatar.rst:34
 msgid "Avatar Packager"
-msgstr ""
+msgstr "Empaquetador de Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:36
 msgid ""
@@ -4814,27 +4848,32 @@ msgid ""
 "Then, you can optionally use the Avatar Packager to upload your avatar to"
 " the Marketplace and host it on our servers."
 msgstr ""
+"El **Empaquetador de Avatar** es una herramienta en la interfaz que "
+"identifica potenciales errores en tu modelo de avatar FBX y luego crea un "
+"archivo FST para ti. Luego, puedes usar opcionalmente el Empaquetador de "
+"Avatar para cargar tu avatar al Marketplace y alojarlo en nuestros "
+"servidores."
 
 #: ../../source/create/avatars/package-avatar.rst:38
 msgid "To package your avatar using the Avatar Packager:"
-msgstr ""
+msgstr "Para empaquetar tu avatar usa el Empaquetador de Avatar:"
 
 #: ../../source/create/avatars/package-avatar.rst:40
 #: ../../source/create/avatars/package-avatar.rst:63
 msgid "In Interface, go to **Edit > Avatar Packager**."
-msgstr ""
+msgstr "En la interfaz, ve a **Edit > Avatar Packager**."
 
 #: ../../source/create/avatars/package-avatar.rst:41
 msgid "In the Avatar Packager window, click 'New Project'."
-msgstr ""
+msgstr "En la ventana del Empaquetador de Avatar, haz click en \"New Proyect\"."
 
 #: ../../source/create/avatars/package-avatar.rst:42
 msgid "In the Create Project window, fill in the following details:"
-msgstr ""
+msgstr "En la ventana de \"Create Proyect\", completa los siguientes detalles:"
 
 #: ../../source/create/avatars/package-avatar.rst:44
 msgid "Name: The name you want for your avatar."
-msgstr ""
+msgstr "Name: El nombre que quieres para tu avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:45
 msgid ""
@@ -4843,10 +4882,14 @@ msgid ""
 "location. The package will contain your FBX model, an FST file, and any "
 "scripts/textures in your avatar."
 msgstr ""
+"Project Location: La ruta de la carpeta donde se almacenan los archivos de "
+"tu avatar. El Empaquetador de Avatar creará una nueva carpeta para tu "
+"proyecto en esta ubicación. El paquete contendrá tu modelo FBX, un archivo "
+"FST y cualquier script/texturas en tu avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:46
 msgid "Avatar Model: The location of your avatar's FBX model."
-msgstr ""
+msgstr "Avatar Model: La ubicación del modelo FBX de tu avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:47
 msgid ""
@@ -4854,10 +4897,13 @@ msgid ""
 " the folder location. If your avatar's textures are embedded in the FBX, "
 "you do not need to specify anything."
 msgstr ""
+"Texture Folder: Si tu avatar tiene las texturas en una carpeta a parte, "
+"especifica la ubicación de la carpeta. Si las texturas de tu avatar están "
+"incorporadas en el FBX, no necesitas especificar nada."
 
 #: ../../source/create/avatars/package-avatar.rst:48
 msgid "Click 'Create'."
-msgstr ""
+msgstr "Haz click en \"Create\"."
 
 #: ../../source/create/avatars/package-avatar.rst:50
 msgid ""
@@ -4866,6 +4912,10 @@ msgid ""
 "Fidelity's servers), you can close the Avatar Packager here and upload "
 "your FST file and FBX model to the cloud location of your choice."
 msgstr ""
+"En este punto, haz empaquetado tu avatar exitosamente. Si eliges alojar tu "
+"avatar en la nube con tus propios servidores (y no usar los servidores de "
+"High Fidelity), puedes cerrar el Empaquetador de Avatar a partir de aquí y "
+"subir tu archivo FST y modelo FBX en la ubicación de la nube de tu elección."
 
 #: ../../source/create/avatars/package-avatar.rst:54
 msgid "Host Your Avatar"
