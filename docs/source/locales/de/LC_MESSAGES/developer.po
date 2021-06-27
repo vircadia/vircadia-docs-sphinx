@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-20 12:53+0000\n"
+"POT-Creation-Date: 2021-06-27 06:23+0000\n"
 "PO-Revision-Date: 2020-12-23 01:15+0000\n"
 "Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
 "Language: de\n"
@@ -29,7 +29,7 @@ msgid "Create an Installer"
 msgstr ""
 
 #: ../../source/developer.rst:11
-#: ../../source/developer/build/BUILD_LINUX.md:156
+#: ../../source/developer/build/BUILD_LINUX.md:159
 #: ../../source/developer/interface.rst:3
 msgid "Interface"
 msgstr ""
@@ -1119,52 +1119,49 @@ msgstr ""
 #: ../../source/developer/build/BUILD_LINUX.md:96
 msgid ""
 "Qt binaries are only provided for Ubuntu. In order to build on other "
-"distributions, a Qt5 install needs to be provided as follows:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:98
-msgid "Set `VIRCADIA_USE_PREBUILT_QT=1`"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:99
-msgid "Set `VIRCADIA_USE_QT_VERSION` to the Qt version (defaults to `5.12.3`)"
+"distributions, a Qt5 install needs to be provided by setting the "
+"`VIRCADIA_QT_PATH` environment variable to a directory containing a Qt "
+"install."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:100
-msgid "Set `HIFI_QT_BASE=/path/to/qt`"
+msgid "Using the system's Qt"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:102
 msgid ""
-"Qt must be installed in "
-"`$HIFI_QT_BASE/$VIRCADIA_USE_QT_VERSION/qt5-install`."
+"The system's Qt can be used, if the development packages are installed, "
+"by setting the `VIRCADIA_USE_SYSTEM_QT` environment variable. The minimum"
+" recommended version is Qt 5.15.2, which is also the last version "
+"available in the Qt 5 branch. It is expected that Linux distributions "
+"will have Qt 5.15.2 available for a long time."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:104
+#: ../../source/developer/build/BUILD_LINUX.md:107
 msgid "Compiling"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:106
+#: ../../source/developer/build/BUILD_LINUX.md:109
 msgid "Create the build directory:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:113
+#: ../../source/developer/build/BUILD_LINUX.md:116
 msgid "Prepare makefiles:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:118
+#: ../../source/developer/build/BUILD_LINUX.md:121
 msgid "If cmake fails with a vcpkg error - delete /tmp/hifi/vcpkg."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:120
+#: ../../source/developer/build/BUILD_LINUX.md:123
 msgid "Start compilation of the server and get a cup of coffee:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:125
+#: ../../source/developer/build/BUILD_LINUX.md:128
 msgid "To compile interface:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:130
+#: ../../source/developer/build/BUILD_LINUX.md:133
 msgid ""
 "The commands above will compile with a single thread. If you have enough "
 "memory, you can decrease your build time using the `-j` flag. Since most "
@@ -1172,43 +1169,43 @@ msgid ""
 "an example, if you have a 2 core machine, you could use:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:138
+#: ../../source/developer/build/BUILD_LINUX.md:141
 msgid "In a server, it does not make sense to compile interface."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:140
+#: ../../source/developer/build/BUILD_LINUX.md:143
 msgid "Running the software"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:142
+#: ../../source/developer/build/BUILD_LINUX.md:145
 msgid "Domain server"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:144
+#: ../../source/developer/build/BUILD_LINUX.md:147
 msgid "Running domain server:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:149
+#: ../../source/developer/build/BUILD_LINUX.md:152
 msgid "Assignment clients"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:151
+#: ../../source/developer/build/BUILD_LINUX.md:154
 msgid "Running assignment client:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:158
+#: ../../source/developer/build/BUILD_LINUX.md:161
 msgid "Running interface:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:163
+#: ../../source/developer/build/BUILD_LINUX.md:166
 msgid "Go to localhost in the running interface."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:165
+#: ../../source/developer/build/BUILD_LINUX.md:168
 msgid "Notes"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:167
+#: ../../source/developer/build/BUILD_LINUX.md:170
 msgid ""
 "If your goal is to set up a development environment, it is desirable to "
 "set the directory that vcpkg builds into with the `HIFI_VCPKG_BASE` "
@@ -4191,5 +4188,26 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "*Last Updated on May 25, 2021*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Qt binaries are only provided for "
+#~ "Ubuntu. In order to build on other"
+#~ " distributions, a Qt5 install needs "
+#~ "to be provided as follows:"
+#~ msgstr ""
+
+#~ msgid "Set `VIRCADIA_USE_PREBUILT_QT=1`"
+#~ msgstr ""
+
+#~ msgid "Set `VIRCADIA_USE_QT_VERSION` to the Qt version (defaults to `5.12.3`)"
+#~ msgstr ""
+
+#~ msgid "Set `HIFI_QT_BASE=/path/to/qt`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Qt must be installed in "
+#~ "`$HIFI_QT_BASE/$VIRCADIA_USE_QT_VERSION/qt5-install`."
 #~ msgstr ""
 
