@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-13 15:03+0000\n"
+"POT-Creation-Date: 2021-06-27 06:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -652,7 +652,7 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:160
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/entities/zone-tutorial.md:155
-#: ../../source/create/environments.rst:30 ../../source/create/tools.rst:115
+#: ../../source/create/environments.rst:30 ../../source/create/tools.rst:81
 #: ../../source/create/wearables.md:41
 msgid "**See Also**"
 msgstr ""
@@ -1911,7 +1911,7 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:41
 msgid ""
-"You can download the standard High Fidelity skeleton [here](http://hifi-"
+"You can download the standard Vircadia skeleton [here](http://hifi-"
 "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
 " This skeleton conforms to the specifications above."
 msgstr ""
@@ -1926,15 +1926,15 @@ msgid ""
 "Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files"
 "/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) with some modifications "
 "made for Mixamo. This skeleton system will work with the input systems "
-"already in place in High Fidelity, and will allow users to use their "
-"input devices to control their avatar's arm and finger movements (if they"
-" have any)."
+"already in place in Vircadia, and will allow users to use their input "
+"devices to control their avatar's arm and finger movements (if they have "
+"any)."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:46
 msgid ""
-"High Fidelity avatars should match the following standard skeletal "
-"structure. Each of these joints can be animated."
+"Vircadia avatars should match the following standard skeletal structure. "
+"Each of these joints can be animated."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:53
@@ -1987,8 +1987,8 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:96
 msgid ""
-"High Fidelity uses blendshapes to animate your avatar's face. Blendshapes"
-" allow you to specify a new state for your avatar's mesh, and facial "
+"Vircadia uses blendshapes to animate your avatar's face. Blendshapes "
+"allow you to specify a new state for your avatar's mesh, and facial "
 "positions are animated by moving between the different states of your "
 "avatar's expressions. Blendshape behaviors are defined in your avatar's "
 "FST file, and are added to the avatar mesh using a 3D modeling tool like "
@@ -2000,8 +2000,8 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:98
 msgid ""
-"High Fidelity avatars support a number of blendshapes for creating "
-"different facial expressions."
+"Vircadia avatars support a number of blendshapes for creating different "
+"facial expressions."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:100
@@ -2184,13 +2184,12 @@ msgstr ""
 #: ../../source/create/avatars/avatar-standards.md:179
 msgid ""
 "Depending on the avatar's design, the collision hulls can be very large "
-"or small. This occurs because High Fidelity analyzes the shape of the "
-"avatar's torso (from hips to head) and tries to find the best shape that "
-"encloses the mesh. For example, if your avatar has large hips or perhaps "
-"a fully extended tail, High Fidelity thinks that the tip of the tail is "
-"part of your hips, and makes a very large collision hull.  To reduce the "
-"size of the collision hull, you can add skeleton joints to your avatar's "
-"tail."
+"or small. This occurs because Vircadia analyzes the shape of the avatar's"
+" torso (from hips to head) and tries to find the best shape that encloses"
+" the mesh. For example, if your avatar has large hips or perhaps a fully "
+"extended tail, Vircadia thinks that the tip of the tail is part of your "
+"hips, and makes a very large collision hull.  To reduce the size of the "
+"collision hull, you can add skeleton joints to your avatar's tail."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:182
@@ -2228,7 +2227,7 @@ msgstr ""
 msgid ""
 "Blender is an open-source 3D modeling tool that you can use to fine tune "
 "your avatar and ensure that the materials and textures render correctly "
-"in High Fidelity."
+"in Vircadia."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:10
@@ -2313,7 +2312,7 @@ msgid "Click the 'Export FBX' button."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:32
-msgid "Now, you are ready to bring your avatar into High Fidelity."
+msgid "Now, you are ready to bring your avatar into Vircadia."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:34
@@ -3833,7 +3832,7 @@ msgid ""
 "Once your avatar is processed, Mixamo's auto-rigger will show your "
 "animated avatar. Ensure that Facial Blendshapes are 'Enabled' and "
 "Skeleton LOD has been set to 'Standard'. These settings ensure that your "
-"avatar will work property in High Fidelity. ![](_images/auto-rigger.png)"
+"avatar will work property in Vircadia. ![](_images/auto-rigger.png)"
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:21
@@ -3863,19 +3862,19 @@ msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:9
 msgid ""
-"At a minimum, avatars in High Fidelity must have an FBX model and an "
-"associated FST file that includes information about how your avatar looks"
-" and behaves. Together, these two files (with any optional texture or "
-"script) form an \"avatar package\". There are two ways you can create an "
-"avatar package: by using the `Avatar Packager`_ in Interface or the `High"
-" Fidelity Avatar Exporter for Unity`_ in Unity."
+"At a minimum, avatars in Vircadia must have an FBX, glTF, or GLB model, "
+"and an associated FST file that includes information about how your "
+"avatar looks and behaves. Together, these two files (with any optional "
+"texture or script) form an \"avatar package\". There are two ways you can"
+" create an avatar package: by using the `Avatar Packager`_ in Interface "
+"or the `Vircadia Avatar Exporter for Unity (unmaintained)`_ in Unity."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:11
 msgid ""
 "Once you have packaged your avatar, you need to host it on the cloud so "
-"that High Fidelity can access it and correctly render your avatar for all"
-" users."
+"that Vircadia can access it and correctly render your avatar for all "
+"users."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:18
@@ -3886,10 +3885,10 @@ msgstr ""
 msgid ""
 "If you're reading this page, you likely already :doc:`built your own FBX "
 "model <create-avatars>` or :doc:`found and downloaded a model <find-"
-"avatars>` that you want to use in High Fidelity. Therefore, all that "
-"remains is to package your avatar and create the FST file. This file "
-"includes information about the skeleton, blendshapes, textures, and "
-"scripts used by your avatar."
+"avatars>` that you want to use in Vircadia. Therefore, all that remains "
+"is to package your avatar and create the FST file. This file includes "
+"information about the skeleton, blendshapes, textures, and scripts used "
+"by your avatar."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:22
@@ -3899,24 +3898,22 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:26
-msgid "High Fidelity Avatar Exporter for Unity"
+msgid "Vircadia Avatar Exporter for Unity (unmaintained)"
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:28
 msgid ""
 "In some cases, you will want to :doc:`download an avatar from an external"
-" website <find-avatars>` and use that avatar in High Fidelity. The High "
-"Fidelity Avatar Exporter for Unity (also known as the \"avatar "
-"exporter\") converts human-like avatars and packages them for use in High"
-" Fidelity."
+" website <find-avatars>` and use that avatar in Vircadia. The Vircadia "
+"Avatar Exporter for Unity (also known as the \"avatar exporter\") "
+"converts human-like avatars and packages them for use in Vircadia."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:30
 msgid ""
 "Once you have successfully used the :doc:`avatar exporter <find-avatars>`"
 " to package your avatar, you must host it somewhere on the cloud. You can"
-" host it on our servers (using the Avatar Packager), or simply copy the "
-"avatar package to your own servers."
+" upload it to Amazon S3 or a webserver for example."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:34
@@ -3926,9 +3923,7 @@ msgstr ""
 #: ../../source/create/avatars/package-avatar.rst:36
 msgid ""
 "The **Avatar Packager** is a tool in Interface that identifies potential "
-"errors in your avatar's FBX model and then creates an FST file for you. "
-"Then, you can optionally use the Avatar Packager to upload your avatar to"
-" the Marketplace and host it on our servers."
+"errors in your avatar's FBX model and then creates an FST file for you."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:38
@@ -3936,7 +3931,6 @@ msgid "To package your avatar using the Avatar Packager:"
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:40
-#: ../../source/create/avatars/package-avatar.rst:63
 msgid "In Interface, go to **Edit > Avatar Packager**."
 msgstr ""
 
@@ -3977,10 +3971,9 @@ msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:50
 msgid ""
-"At this point, you have successfully packaged your avatar. If you choose "
-"to host your avatar on the cloud with your own servers (and not use High "
-"Fidelity's servers), you can close the Avatar Packager here and upload "
-"your FST file and FBX model to the cloud location of your choice."
+"At this point, you have successfully packaged your avatar. You can close "
+"the Avatar Packager here and upload your FST file and FBX model to the "
+"cloud location of your choice."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:54
@@ -3989,98 +3982,45 @@ msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:56
 msgid ""
-"Before you can use a custom avatar, you must first host its FST and FBX "
-"files in a place that is publicly accessible to High Fidelity. We "
-"recommend hosting them on our own servers using the **Avatar Packager**, "
-"but you can also use any cloud platform including Amazon S3, Google Cloud"
-" Storage, Microsoft Azure, Dropbox, etc."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:58
-msgid ""
-"If you want to upload it to High Fidelity's servers or sell your avatar "
-"on the Marketplace, use the Avatar Packager:"
+"Before you can use a custom avatar, you must first host its FST and "
+"FBX/glTF/GLB files in a place that is publicly accessible. You can use "
+"any cloud platform including Amazon S3, Google Cloud Storage, Microsoft "
+"Azure, Dropbox, etc."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:60
-msgid ""
-"If this is a new avatar, first use the `Avatar Packager`_ to create an "
-"FST file. When you proceed with Step 3 below, you will upload this new "
-"project to our servers."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:61
-msgid "If you want to host an avatar that has already been packaged:"
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:64
-msgid "In the Avatar Packager window that opens, click 'Open Project'."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:65
-msgid "Navigate to your FST file and click 'Open'."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:66
-msgid ""
-"Click 'Upload' to upload your avatar's files to High Fidelity's servers. "
-"The `Avatar Packager <#troubleshooting-with-the-avatar-packager>`_ will "
-"display any errors or warnings that you may want to resolve prior to "
-"uploading. View `Troubleshooting with the Avatar Packager`_ to determine "
-"whether a fix is required to have a usable avatar."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:67
-msgid ""
-"Once your avatar is uploaded to the servers, click 'View in Inventory' to"
-" view your custom avatar. Unless you submit it for review, your custom "
-"avatar will remain in Draft mode, and will not be visible to others. To "
-"sell your avatar, you need to submit it for review on the Marketplace."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:71
-msgid ""
-"If you make any changes to your custom avatar, you will need to update it"
-" through the Avatar Packager to see your changes. To update, select your "
-"project and click 'Open Project' in step 1. Follow the same steps to "
-"update your avatar."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:76
 msgid "Troubleshooting with the Avatar Packager"
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:78
+#: ../../source/create/avatars/package-avatar.rst:62
 msgid ""
 "The Avatar Packager will notify you of any errors or warnings that may "
-"affect the way your avatar looks and behaves in High Fidelity. This is a "
-"list of the errors you may encounter, along with basic instructions on "
-"how to fix your avatar. **Errors** (in red) must be fixed before you "
-"upload your avatar, while **Warnings** (in orange) may or may not affect "
-"whether your avatar will show up and behave correctly in High Fidelity."
+"affect the way your avatar looks and behaves in Vircadia. This is a list "
+"of the errors you may encounter, along with basic instructions on how to "
+"fix your avatar. **Errors** (in red) must be fixed before you upload your"
+" avatar, while **Warnings** (in orange) may or may not affect whether "
+"your avatar will show up and behave correctly in Vircadia."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:82
+#: ../../source/create/avatars/package-avatar.rst:66
 msgid ""
 "Many of the errors you will encounter describe issues with the avatar's "
 "skeleton. The troubleshooting tips below will attempt to fix the errors "
 "in Unity."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:84
+#: ../../source/create/avatars/package-avatar.rst:68
 msgid ""
 "However, if the bone structure of the model does not resemble a humanoid "
 "skeleton (with two legs, two arms, hips, chest, spine, and head), then it"
-" is likely not compatible with High Fidelity. You will not be able to fix"
-" these avatars in Unity alone. Instead, you will likely need advanced "
-"knowledge of building, rigging, and mapping bones in a 3D modeling tool "
-"such as Blender or Maya."
+" is likely not compatible with Vircadia out of the box. You will not be "
+"able to fix these avatars in Unity alone. Instead, you will likely need "
+"advanced knowledge of building, rigging, and mapping bones in a 3D "
+"modeling tool such as Blender or Maya."
 msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:2
-msgid ""
-"This document is slightly outdated. FIXME: Mentions High Fidelity, HiFi "
-"hosted content"
+msgid "This document is slightly outdated. FIXME: HiFi hosted content"
 msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:9
@@ -4088,7 +4028,7 @@ msgid ""
 "Subsurface Scattering (SSS) is the diffuse reflection caused by light "
 "entering a material, being absorbed, scattered, and eventually exiting "
 "the material. It's critical for surfaces like paper, marble, wax, and "
-"realistic skin. You can add this effect to your avatar in High Fidelity."
+"realistic skin. You can add this effect to your avatar in Vircadia."
 msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:16
@@ -4152,7 +4092,7 @@ msgid "Add scattering information to the avatar's FST file. For example:"
 msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:40
-msgid "Wear the avatar to observe the scattering effects in High Fidelity."
+msgid "Wear the avatar to observe the scattering effects in Vircadia."
 msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:42
@@ -9003,18 +8943,16 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/tools.rst:2
-msgid ""
-"This document is slightly outdated. FIXME: Mentions Shapes app, mentions "
-"supposedly know issues"
+msgid "This document is slightly outdated. FIXME: mentions supposedly know issues"
 msgstr ""
 
 #: ../../source/create/tools.rst:9
 msgid ""
 "To build and create things in Vircadia, you need to become familiar with "
 "the tools available to you. We've created our own custom tools (including"
-" the Create app and Shapes app). In addition, you can use many external "
-"tools to fine-tune your creations. These tools can help you create "
-"anything from a cool avatar or a baseball hat, to a magic themed domain."
+" the Create app). In addition, you can use many external tools to fine-"
+"tune your creations. These tools can help you create anything from a cool"
+" avatar or a baseball hat, to a magic themed domain."
 msgstr ""
 
 #: ../../source/create/tools.rst:16
@@ -9112,50 +9050,50 @@ msgid ""
 " top-right corner of the window."
 msgstr ""
 
-#: ../../source/create/tools.rst:79
+#: ../../source/create/tools.rst:45
 msgid "External Creator Tools"
 msgstr ""
 
-#: ../../source/create/tools.rst:81
+#: ../../source/create/tools.rst:47
 msgid ""
 "We've listed some external tools you might want to use to create avatars "
 "and 3D models."
 msgstr ""
 
-#: ../../source/create/tools.rst:85
+#: ../../source/create/tools.rst:51
 msgid "Adobe Fuse"
 msgstr ""
 
-#: ../../source/create/tools.rst:87
+#: ../../source/create/tools.rst:53
 msgid ""
 "There are community reports where users are unable to easily open Adobe "
 "Fuse once installed. To work around this issue, open it multiple times "
 "successively until you are able to open the application."
 msgstr ""
 
-#: ../../source/create/tools.rst:89
+#: ../../source/create/tools.rst:55
 msgid ""
 "Use `Adobe Fuse <https://www.adobe.com/in/products/fuse.html>`_ to create"
 " a custom avatar. The default heads, torsos, arms, and legs in Adobe Fuse"
 " can help you start your customization."
 msgstr ""
 
-#: ../../source/create/tools.rst:93
+#: ../../source/create/tools.rst:59
 msgid "Mixamo"
 msgstr ""
 
-#: ../../source/create/tools.rst:95
+#: ../../source/create/tools.rst:61
 msgid ""
 "`Mixamo <https://www.mixamo.com>`_ is a rigging system that will rig your"
 " avatar's skeleton for you. You do not need any advanced knowledge of "
 "rigging to create simple animations for your avatar."
 msgstr ""
 
-#: ../../source/create/tools.rst:99
+#: ../../source/create/tools.rst:65
 msgid "Blender"
 msgstr ""
 
-#: ../../source/create/tools.rst:101
+#: ../../source/create/tools.rst:67
 msgid ""
 "`Blender <https://www.blender.org>`_ is an open-source 3D modeling "
 "creation suite which supports everything from modeling and rigging, to "
@@ -9164,22 +9102,22 @@ msgid ""
 "Vircadia."
 msgstr ""
 
-#: ../../source/create/tools.rst:105
+#: ../../source/create/tools.rst:71
 msgid "Maya"
 msgstr ""
 
-#: ../../source/create/tools.rst:107
+#: ../../source/create/tools.rst:73
 msgid ""
 "`Maya <https://www.autodesk.in/products/maya/overview>`_ is a "
 "subscription based 3D modeling toolset that you can use to create 3D "
 "models to import into Vircadia."
 msgstr ""
 
-#: ../../source/create/tools.rst:111
+#: ../../source/create/tools.rst:77
 msgid "Blocks"
 msgstr ""
 
-#: ../../source/create/tools.rst:113
+#: ../../source/create/tools.rst:79
 msgid ""
 "`Blocks <https://vr.google.com/blocks>`_ is a 3D modeling tool you can "
 "use in VR. Blocks lets you create models easily regardless of your "
@@ -9188,23 +9126,23 @@ msgid ""
 " it for the VR equipment you are using."
 msgstr ""
 
-#: ../../source/create/tools.rst:117
+#: ../../source/create/tools.rst:83
 msgid ":doc:`Entities <entities>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:118
+#: ../../source/create/tools.rst:84
 msgid ":doc:`Create New Entities <entities/create-entities>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:119
+#: ../../source/create/tools.rst:85
 msgid ":doc:`Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:120
+#: ../../source/create/tools.rst:86
 msgid ":doc:`Tutorial: Rig Your Avatar in Mixamo <avatars/mixamo-tutorial>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:121
+#: ../../source/create/tools.rst:87
 msgid ""
 ":doc:`Tutorial: Modify Materials and Textures Using Blender <avatars"
 "/blender-tutorial>`"
@@ -9308,7 +9246,7 @@ msgstr ""
 
 #: ../../source/create/wearables.md:33
 msgid ""
-"After hosting your wearable in the cloud or the Marketplace, [put it "
+"After hosting your wearable in the cloud [put it "
 "on](../explore/personalize/add-wearables) and adopt your new look."
 msgstr ""
 
@@ -11250,5 +11188,337 @@ msgstr ""
 #~ "entities, you can find more information"
 #~ " `here <https://docs.vircadia.dev/create/entities"
 #~ "/material-entity.html>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can download the standard High "
+#~ "Fidelity skeleton [here](http://hifi-"
+#~ "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
+#~ " This skeleton conforms to the "
+#~ "specifications above."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The standard humanoid skeleton of your"
+#~ " avatar should follow [HumanIK "
+#~ "Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files"
+#~ "/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) with "
+#~ "some modifications made for Mixamo. This"
+#~ " skeleton system will work with the"
+#~ " input systems already in place in"
+#~ " High Fidelity, and will allow users"
+#~ " to use their input devices to "
+#~ "control their avatar's arm and finger"
+#~ " movements (if they have any)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "High Fidelity avatars should match the"
+#~ " following standard skeletal structure. "
+#~ "Each of these joints can be "
+#~ "animated."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "High Fidelity uses blendshapes to "
+#~ "animate your avatar's face. Blendshapes "
+#~ "allow you to specify a new state"
+#~ " for your avatar's mesh, and facial"
+#~ " positions are animated by moving "
+#~ "between the different states of your "
+#~ "avatar's expressions. Blendshape behaviors are"
+#~ " defined in your avatar's FST file,"
+#~ " and are added to the avatar "
+#~ "mesh using a 3D modeling tool like"
+#~ " Blender (Shape Keys) or Maya. "
+#~ "Adobe's Fuse program and Mixamo pipeline"
+#~ " allow you to export blendshapes as"
+#~ " part of your FBX, but if you"
+#~ " are modeling an avatar from scratch,"
+#~ " you will likely need to specify "
+#~ "your own facial expressions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "High Fidelity avatars support a number"
+#~ " of blendshapes for creating different "
+#~ "facial expressions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Depending on the avatar's design, the"
+#~ " collision hulls can be very large"
+#~ " or small. This occurs because High"
+#~ " Fidelity analyzes the shape of the"
+#~ " avatar's torso (from hips to head)"
+#~ " and tries to find the best "
+#~ "shape that encloses the mesh. For "
+#~ "example, if your avatar has large "
+#~ "hips or perhaps a fully extended "
+#~ "tail, High Fidelity thinks that the "
+#~ "tip of the tail is part of "
+#~ "your hips, and makes a very large"
+#~ " collision hull.  To reduce the size"
+#~ " of the collision hull, you can "
+#~ "add skeleton joints to your avatar's "
+#~ "tail."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Blender is an open-source 3D "
+#~ "modeling tool that you can use to"
+#~ " fine tune your avatar and ensure "
+#~ "that the materials and textures render"
+#~ " correctly in High Fidelity."
+#~ msgstr ""
+
+#~ msgid "Now, you are ready to bring your avatar into High Fidelity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once your avatar is processed, Mixamo's"
+#~ " auto-rigger will show your animated"
+#~ " avatar. Ensure that Facial Blendshapes "
+#~ "are 'Enabled' and Skeleton LOD has "
+#~ "been set to 'Standard'. These settings"
+#~ " ensure that your avatar will work"
+#~ " property in High Fidelity. ![](_images"
+#~ "/auto-rigger.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At a minimum, avatars in High "
+#~ "Fidelity must have an FBX model "
+#~ "and an associated FST file that "
+#~ "includes information about how your "
+#~ "avatar looks and behaves. Together, "
+#~ "these two files (with any optional "
+#~ "texture or script) form an \"avatar "
+#~ "package\". There are two ways you "
+#~ "can create an avatar package: by "
+#~ "using the `Avatar Packager`_ in "
+#~ "Interface or the `High Fidelity Avatar"
+#~ " Exporter for Unity`_ in Unity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have packaged your avatar, "
+#~ "you need to host it on the "
+#~ "cloud so that High Fidelity can "
+#~ "access it and correctly render your "
+#~ "avatar for all users."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you're reading this page, you "
+#~ "likely already :doc:`built your own FBX"
+#~ " model <create-avatars>` or :doc:`found "
+#~ "and downloaded a model <find-avatars>`"
+#~ " that you want to use in High"
+#~ " Fidelity. Therefore, all that remains "
+#~ "is to package your avatar and "
+#~ "create the FST file. This file "
+#~ "includes information about the skeleton, "
+#~ "blendshapes, textures, and scripts used "
+#~ "by your avatar."
+#~ msgstr ""
+
+#~ msgid "High Fidelity Avatar Exporter for Unity"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In some cases, you will want to"
+#~ " :doc:`download an avatar from an "
+#~ "external website <find-avatars>` and use"
+#~ " that avatar in High Fidelity. The"
+#~ " High Fidelity Avatar Exporter for "
+#~ "Unity (also known as the \"avatar "
+#~ "exporter\") converts human-like avatars "
+#~ "and packages them for use in High"
+#~ " Fidelity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have successfully used the "
+#~ ":doc:`avatar exporter <find-avatars>` to "
+#~ "package your avatar, you must host "
+#~ "it somewhere on the cloud. You can"
+#~ " host it on our servers (using "
+#~ "the Avatar Packager), or simply copy "
+#~ "the avatar package to your own "
+#~ "servers."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **Avatar Packager** is a tool "
+#~ "in Interface that identifies potential "
+#~ "errors in your avatar's FBX model "
+#~ "and then creates an FST file for"
+#~ " you. Then, you can optionally use"
+#~ " the Avatar Packager to upload your"
+#~ " avatar to the Marketplace and host"
+#~ " it on our servers."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At this point, you have successfully "
+#~ "packaged your avatar. If you choose "
+#~ "to host your avatar on the cloud"
+#~ " with your own servers (and not "
+#~ "use High Fidelity's servers), you can"
+#~ " close the Avatar Packager here and"
+#~ " upload your FST file and FBX "
+#~ "model to the cloud location of "
+#~ "your choice."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Before you can use a custom "
+#~ "avatar, you must first host its "
+#~ "FST and FBX files in a place "
+#~ "that is publicly accessible to High "
+#~ "Fidelity. We recommend hosting them on"
+#~ " our own servers using the **Avatar"
+#~ " Packager**, but you can also use "
+#~ "any cloud platform including Amazon S3,"
+#~ " Google Cloud Storage, Microsoft Azure, "
+#~ "Dropbox, etc."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want to upload it to "
+#~ "High Fidelity's servers or sell your "
+#~ "avatar on the Marketplace, use the "
+#~ "Avatar Packager:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If this is a new avatar, first "
+#~ "use the `Avatar Packager`_ to create "
+#~ "an FST file. When you proceed with"
+#~ " Step 3 below, you will upload "
+#~ "this new project to our servers."
+#~ msgstr ""
+
+#~ msgid "If you want to host an avatar that has already been packaged:"
+#~ msgstr ""
+
+#~ msgid "In the Avatar Packager window that opens, click 'Open Project'."
+#~ msgstr ""
+
+#~ msgid "Navigate to your FST file and click 'Open'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Upload' to upload your avatar's"
+#~ " files to High Fidelity's servers. "
+#~ "The `Avatar Packager <#troubleshooting-"
+#~ "with-the-avatar-packager>`_ will display"
+#~ " any errors or warnings that you "
+#~ "may want to resolve prior to "
+#~ "uploading. View `Troubleshooting with the "
+#~ "Avatar Packager`_ to determine whether a"
+#~ " fix is required to have a "
+#~ "usable avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once your avatar is uploaded to "
+#~ "the servers, click 'View in Inventory'"
+#~ " to view your custom avatar. Unless"
+#~ " you submit it for review, your "
+#~ "custom avatar will remain in Draft "
+#~ "mode, and will not be visible to"
+#~ " others. To sell your avatar, you "
+#~ "need to submit it for review on"
+#~ " the Marketplace."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you make any changes to your"
+#~ " custom avatar, you will need to "
+#~ "update it through the Avatar Packager"
+#~ " to see your changes. To update, "
+#~ "select your project and click 'Open "
+#~ "Project' in step 1. Follow the "
+#~ "same steps to update your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Avatar Packager will notify you "
+#~ "of any errors or warnings that may"
+#~ " affect the way your avatar looks "
+#~ "and behaves in High Fidelity. This "
+#~ "is a list of the errors you "
+#~ "may encounter, along with basic "
+#~ "instructions on how to fix your "
+#~ "avatar. **Errors** (in red) must be "
+#~ "fixed before you upload your avatar, "
+#~ "while **Warnings** (in orange) may or"
+#~ " may not affect whether your avatar"
+#~ " will show up and behave correctly"
+#~ " in High Fidelity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "However, if the bone structure of "
+#~ "the model does not resemble a "
+#~ "humanoid skeleton (with two legs, two"
+#~ " arms, hips, chest, spine, and head),"
+#~ " then it is likely not compatible "
+#~ "with High Fidelity. You will not "
+#~ "be able to fix these avatars in"
+#~ " Unity alone. Instead, you will "
+#~ "likely need advanced knowledge of "
+#~ "building, rigging, and mapping bones in"
+#~ " a 3D modeling tool such as "
+#~ "Blender or Maya."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: Mentions High Fidelity, HiFi "
+#~ "hosted content"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Subsurface Scattering (SSS) is the "
+#~ "diffuse reflection caused by light "
+#~ "entering a material, being absorbed, "
+#~ "scattered, and eventually exiting the "
+#~ "material. It's critical for surfaces "
+#~ "like paper, marble, wax, and realistic"
+#~ " skin. You can add this effect "
+#~ "to your avatar in High Fidelity."
+#~ msgstr ""
+
+#~ msgid "Wear the avatar to observe the scattering effects in High Fidelity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: Mentions Shapes app, mentions "
+#~ "supposedly know issues"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To build and create things in "
+#~ "Vircadia, you need to become familiar"
+#~ " with the tools available to you. "
+#~ "We've created our own custom tools "
+#~ "(including the Create app and Shapes "
+#~ "app). In addition, you can use "
+#~ "many external tools to fine-tune "
+#~ "your creations. These tools can help "
+#~ "you create anything from a cool "
+#~ "avatar or a baseball hat, to a "
+#~ "magic themed domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After hosting your wearable in the "
+#~ "cloud or the Marketplace, [put it "
+#~ "on](../explore/personalize/add-wearables) and adopt"
+#~ " your new look."
 #~ msgstr ""
 

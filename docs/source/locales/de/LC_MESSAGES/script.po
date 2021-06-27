@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-05-02 08:26+0000\n"
+"POT-Creation-Date: 2021-06-27 06:23+0000\n"
 "PO-Revision-Date: 2021-02-10 00:46+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
 "Language: de\n"
@@ -121,8 +121,8 @@ msgstr ""
 #: ../../source/script/assignment-client-scripts.md:14
 msgid ""
 "Open your 'Domain Administration Panel'. If you are on a local sandbox, "
-"open it by clicking on the High Fidelity icon in the taskbar "
-"notifications and 'click Settings'."
+"open it by clicking on the Vircadia icon in the taskbar notifications and"
+" 'click Settings'."
 msgstr ""
 
 #: ../../source/script/assignment-client-scripts.md:15
@@ -148,12 +148,12 @@ msgstr ""
 #: ../../source/script/assignment-client-scripts.md:22
 msgid ""
 "The following script counts the number of entities found in a domain "
-"using High Fidelity's "
+"using Vircadia's "
 "[EntityViewer](https://apidocs.vircadia.dev/EntityViewer.html)."
 msgstr ""
 
 #: ../../source/script/assignment-client-scripts.md:54
-#: ../../source/script/avatar-scripts.md:83
+#: ../../source/script/avatar-scripts.md:78
 #: ../../source/script/client-entity-scripts.md:44
 #: ../../source/script/get-started-with-scripting.rst:174
 #: ../../source/script/interface-scripts.md:37
@@ -168,7 +168,7 @@ msgid "[Configure Your Domain Settings](../host/configure-settings)"
 msgstr ""
 
 #: ../../source/script/assignment-client-scripts.md:57
-#: ../../source/script/avatar-scripts.md:85
+#: ../../source/script/avatar-scripts.md:80
 #: ../../source/script/client-entity-scripts.md:46
 #: ../../source/script/interface-scripts.md:39
 #: ../../source/script/server-entity-scripts.md:59
@@ -177,7 +177,7 @@ msgid "[Get Started with Scripting](get-started-with-scripting)"
 msgstr ""
 
 #: ../../source/script/assignment-client-scripts.md:58
-#: ../../source/script/avatar-scripts.md:86
+#: ../../source/script/avatar-scripts.md:81
 #: ../../source/script/client-entity-scripts.md:47
 #: ../../source/script/interface-scripts.md:40
 #: ../../source/script/js-tips.md:202
@@ -219,61 +219,61 @@ msgid ""
 "script."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:20
+#: ../../source/script/avatar-scripts.md:15
 msgid "To add an avatar script using the Package Model tools:"
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:21
+#: ../../source/script/avatar-scripts.md:16
 msgid ""
 "Create a folder called `scripts` in the same location as your FBX, GLB, "
 "or glTF file."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:22
+#: ../../source/script/avatar-scripts.md:17
 msgid "Copy your avatar script into this new folder."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:23
+#: ../../source/script/avatar-scripts.md:18
 msgid "In Interface, go to **Edit > Package Model as .fst**"
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:24
+#: ../../source/script/avatar-scripts.md:19
 msgid ""
 "For 'Script Directory', enter the path to the `scripts` folder you "
 "created above."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:26
+#: ../../source/script/avatar-scripts.md:21
 msgid "To add an avatar script manually:"
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:27
+#: ../../source/script/avatar-scripts.md:22
 msgid "Open the FST file for your avatar in the text editor of your choice."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:28
+#: ../../source/script/avatar-scripts.md:23
 msgid ""
 "Add a line telling the avatar where to find the script file using the "
 "syntax `script = [SCRIPT URL]`.![](_images/add-script.png)"
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:30
+#: ../../source/script/avatar-scripts.md:25
 msgid ""
 "You can add multiple scripts to your avatar by adding multiple `script = "
 "url` lines."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:32
+#: ../../source/script/avatar-scripts.md:27
 msgid "Example of an Avatar Script"
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:34
+#: ../../source/script/avatar-scripts.md:29
 msgid ""
 "The following script makes your avatar throw balls when its right hand "
 "moves."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:81
+#: ../../source/script/avatar-scripts.md:76
 msgid ""
 "This example script uses the "
 "[MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html) namespace to "
@@ -285,7 +285,7 @@ msgid ""
 "positions and distances). Add it to your avatar to see how it works."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:87
+#: ../../source/script/avatar-scripts.md:82
 #: ../../source/script/client-entity-scripts.md:48
 #: ../../source/script/js-tips.md:203
 #: ../../source/script/server-entity-scripts.md:61
@@ -951,8 +951,8 @@ msgstr ""
 
 #: ../../source/script/js-tips.md:30
 msgid ""
-"High Fidelity uses a 3D Cartesian coordinate system where the position "
-"vector of an entity or avatar looks like this:"
+"Vircadia uses a 3D Cartesian coordinate system where the position vector "
+"of an entity or avatar looks like this:"
 msgstr ""
 
 #: ../../source/script/js-tips.md:36
@@ -1609,7 +1609,7 @@ msgstr ""
 msgid ""
 "When you [load and run this script](get-started-with-scripting.html#load-"
 "and-run-a-script), it will write the words \"Hello, World\" to the 'Debug"
-" Window' in High Fidelity. ![](_images/hello-world.png)"
+" Window' in Vircadia. ![](_images/hello-world.png)"
 msgstr ""
 
 #: ../../source/script/write-scripts.md:29
@@ -2982,5 +2982,36 @@ msgstr ""
 #~ " color of the entity to red, "
 #~ "and prints the new color in the"
 #~ " 'Debug Window'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open your 'Domain Administration Panel'. "
+#~ "If you are on a local sandbox, "
+#~ "open it by clicking on the High"
+#~ " Fidelity icon in the taskbar "
+#~ "notifications and 'click Settings'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The following script counts the number"
+#~ " of entities found in a domain "
+#~ "using High Fidelity's "
+#~ "[EntityViewer](https://apidocs.vircadia.dev/EntityViewer.html)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "High Fidelity uses a 3D Cartesian "
+#~ "coordinate system where the position "
+#~ "vector of an entity or avatar "
+#~ "looks like this:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you [load and run this script"
+#~ "](get-started-with-scripting.html#load-and-"
+#~ "run-a-script), it will write the words"
+#~ " \"Hello, World\" to the 'Debug "
+#~ "Window' in High Fidelity. ![](_images"
+#~ "/hello-world.png)"
 #~ msgstr ""
 

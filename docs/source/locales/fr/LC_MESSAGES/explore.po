@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-06 00:36+0000\n"
+"POT-Creation-Date: 2021-06-27 06:23+0000\n"
 "PO-Revision-Date: 2021-05-30 15:34+0000\n"
 "Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
 "Language: fr\n"
@@ -137,7 +137,7 @@ msgstr "Vircadia fonctionant sous Linux Mint 19.3, 29 septembre 2020."
 #: ../../source/explore/interact.md:42
 #: ../../source/explore/personalize/add-wearables.rst:35
 #: ../../source/explore/personalize/change-avatar.md:31
-#: ../../source/explore/personalize/install-apps.md:102
+#: ../../source/explore/personalize/install-apps.md:101
 #: ../../source/explore/travel.md:40
 msgid "**See Also**"
 msgstr "**Voir Aussi**"
@@ -3790,27 +3790,19 @@ msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:8
 msgid ""
-"You can enhance your experience in Vircadia by installing tablet apps "
-"from the Marketplace. These apps enable you to get more out of Vircadia. "
-"Do you want to record your avatar dancing, take selfies, or finger paint?"
-" Or are you looking to livestream to YouTube or make your avatar clap? "
-"Our Marketplace has a number of apps that can help you customize your "
-"experience in-world."
+"You can enhance your experience in Vircadia by installing tablet apps. "
+"These apps enable you to get more out of Vircadia. Do you want to record "
+"your avatar dancing, take selfies, or finger paint? Or are you looking to"
+" livestream to YouTube or make your avatar clap? There's a number of apps"
+" that can help you customize your experience in-world."
 msgstr ""
-"Vous pouvez améliorer votre expérience dans Vircadia en installant des "
-"applications pour tablet sur le Marché. Ces applications vous permettent "
-"de profiter davantage de Vircadia. Vous voulez enregistrer la danse de "
-"votre avatar, prendre des selfies ou peindre avec vos doigts ? Ou bien "
-"vous voulez faire du streaming live sur YouTube ou faire applaudir votre "
-"avatar ? Notre Marché propose un certain nombre d'applications qui "
-"peuvent vous aider à personnaliser votre expérience in-world."
 
 #: ../../source/explore/personalize/install-apps.md:10
 #, fuzzy
 msgid ""
 "If you can't find an app for what you'd like to do, you can [create your "
-"own](../../create/applications) and upload it to our Marketplace for your"
-" personal use or to sell to others."
+"own](../../create/applications) and upload it for your personal use or to"
+" sell to others."
 msgstr ""
 "Si vous ne trouvez pas d'application pour ce que vous aimeriez faire, "
 "vous pouvez créer la vôtre et la télécharger sur notre Marché pour votre "
@@ -3825,7 +3817,7 @@ msgid "[Update an App](#update-an-app)"
 msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:16
-msgid "[Our Marketplace Apps](#our-marketplace-apps)"
+msgid "[Our Apps](#our-apps)"
 msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:17
@@ -3842,9 +3834,10 @@ msgid "[Text to Speech](#text-to-speech)"
 msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:23
+#, fuzzy
 msgid ""
 "We and many users have created tablet apps that are available in "
-"Vircadia's Marketplace. To find and install an app:"
+"Vircadia. To find and install an app:"
 msgstr ""
 "Avec de nombreux utilisateurs, nous avons créé des applications pour "
 "tablet qui sont disponibles sur le Marché de Vircadia. Pour trouver et "
@@ -3852,13 +3845,12 @@ msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:25
 #, fuzzy
-msgid "In Interface, pull up your HUD or Tablet and go to **Market**."
+msgid "In Interface, pull up your HUD or Tablet and go to **More**."
 msgstr "Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/explore/personalize/install-apps.md:26
-msgid ""
-"Search for a specific app, or browse all apps by selecting the 'Apps, "
-"Scripts, & Tools' category."
+#, fuzzy
+msgid "Search for a specific app, or browse all apps."
 msgstr ""
 "Recherchez une application spécifique, ou parcourez toutes les "
 "applications en sélectionnant la catégorie 'Apps, Scripts, & Tools'."
@@ -3866,37 +3858,27 @@ msgstr ""
 #: ../../source/explore/personalize/install-apps.md:27
 #, fuzzy
 msgid ""
-"Click the app of your choice to purchase it and click the price of the "
-"item. Once you've purchased your app, you can view it in the "
-"**Inventory** app or 'Recent Activity'."
-msgstr ""
-"Cliquez sur l'application de votre choix pour l'acheter et cliquez sur le"
-" prix de l'article. Une fois que vous avez acheté votre application, vous"
-" pouvez la consulter dans l'application Inventaire ou dans la catégorie "
-"'Recent Activity'."
-
-#: ../../source/explore/personalize/install-apps.md:28
-msgid ""
-"After completing your purchase, click 'Install App' to start using the "
+"Once you find the app of your choice, click 'Install' to start using the "
 "app in Vircadia."
 msgstr ""
 "Une fois votre achat terminé, cliquez sur 'Install App' pour commencer à "
 "utiliser l'application dans Vircadia."
 
-#: ../../source/explore/personalize/install-apps.md:29
+#: ../../source/explore/personalize/install-apps.md:28
+#, fuzzy
 msgid ""
-"Once the app is installed, click 'Open App' to launch. You can also "
-"access the app through your HUD or Tablet."
+"Once the app is installed, you can access the app through your HUD or "
+"Tablet."
 msgstr ""
 "Une fois l'application installée, cliquez sur 'Open App' pour la lancer. "
 "Vous pouvez également accéder à l'application via votre HUD ou votre "
 "tablet."
 
-#: ../../source/explore/personalize/install-apps.md:32
+#: ../../source/explore/personalize/install-apps.md:31
 msgid "Update an App"
 msgstr "Mettre à Jour une Application"
 
-#: ../../source/explore/personalize/install-apps.md:33
+#: ../../source/explore/personalize/install-apps.md:32
 #, fuzzy
 msgid ""
 "When an app has an update available, a notification will pop up in the "
@@ -3910,18 +3892,18 @@ msgstr ""
 "d'Inventaire de votre HUD ou tablet pour indiquer qu'une mise à jour est "
 "disponible au téléchargement."
 
-#: ../../source/explore/personalize/install-apps.md:35
+#: ../../source/explore/personalize/install-apps.md:34
 msgid "To update your app:"
 msgstr "Pour mettre à jour votre application :"
 
-#: ../../source/explore/personalize/install-apps.md:36
+#: ../../source/explore/personalize/install-apps.md:35
 #, fuzzy
 msgid "In Interface, pull up your HUD or Tablet and go to **Inventory**."
 msgstr ""
 "Dans l'Interface, accédez à votre HUD ou votre tablet et allez dans "
 "l'Inventaire."
 
-#: ../../source/explore/personalize/install-apps.md:37
+#: ../../source/explore/personalize/install-apps.md:36
 #, fuzzy
 msgid ""
 "In the **Inventory** app, click the notification that says \"You have X "
@@ -3930,7 +3912,7 @@ msgstr ""
 "Dans l'application Inventaire, cliquez sur la notification qui indique "
 "\"You have X item updates available.\""
 
-#: ../../source/explore/personalize/install-apps.md:38
+#: ../../source/explore/personalize/install-apps.md:37
 msgid ""
 "Scroll to the app you'd like to update and click on the menu. ![](_images"
 "/update-menu.png)"
@@ -3938,15 +3920,15 @@ msgstr ""
 "Faites défiler jusqu'à l'application que vous souhaitez mettre à jour et "
 "cliquez sur le menu. ![](_images/update-menu.png)"
 
-#: ../../source/explore/personalize/install-apps.md:39
+#: ../../source/explore/personalize/install-apps.md:38
 msgid "Click the 'Update' button, then 'Update for Free'."
 msgstr "Cliquez sur le bouton 'Update', puis sur 'Update for Free'."
 
-#: ../../source/explore/personalize/install-apps.md:46
+#: ../../source/explore/personalize/install-apps.md:45
 msgid "Additional Notes on Updating"
 msgstr "Notes Supplémentaires sur la Mise à Jour"
 
-#: ../../source/explore/personalize/install-apps.md:47
+#: ../../source/explore/personalize/install-apps.md:46
 #, fuzzy
 msgid ""
 "If you decide not to update an item, the old product will still be valid "
@@ -3955,7 +3937,7 @@ msgstr ""
 "Si vous décidez de ne pas mettre à jour un article, l'ancien produit sera"
 " toujours valable et inscrit dans l'Inventaire."
 
-#: ../../source/explore/personalize/install-apps.md:48
+#: ../../source/explore/personalize/install-apps.md:47
 msgid ""
 "Once you update an item, the previous version of the product will no "
 "longer be available."
@@ -3963,7 +3945,7 @@ msgstr ""
 "Une fois que vous avez mis à jour un article, la version précédente du "
 "produit ne sera plus disponible."
 
-#: ../../source/explore/personalize/install-apps.md:49
+#: ../../source/explore/personalize/install-apps.md:48
 #, fuzzy
 msgid ""
 "If you purchased multiple instances of an item, you need to individually "
@@ -3973,7 +3955,7 @@ msgstr ""
 " jour individuellement chaque instance d'un article dans votre "
 "Inventaire."
 
-#: ../../source/explore/personalize/install-apps.md:50
+#: ../../source/explore/personalize/install-apps.md:49
 msgid ""
 "When you update a product with the old version already in-world, it will "
 "remain intact until it is replaced manually with the updated version. If "
@@ -3989,21 +3971,22 @@ msgstr ""
 "remplacera pas automatiquement in-world. Il appartient à l'utilisateur de"
 " remplacer les anciennes instances par les nouvelles."
 
-#: ../../source/explore/personalize/install-apps.md:52
-msgid "Our Marketplace Apps"
-msgstr "Nos Applications sur le Marché"
+#: ../../source/explore/personalize/install-apps.md:51
+#, fuzzy
+msgid "Our Apps"
+msgstr "Sangles d'épaule"
 
-#: ../../source/explore/personalize/install-apps.md:53
+#: ../../source/explore/personalize/install-apps.md:52
 msgid "We've listed some of the apps we created and how you can use them."
 msgstr ""
 "Nous avons dressé la liste de certaines des applications que nous avons "
 "créées et de la manière dont vous pouvez les utiliser."
 
-#: ../../source/explore/personalize/install-apps.md:55
+#: ../../source/explore/personalize/install-apps.md:54
 msgid "Spectator Cam"
 msgstr "Caméra de Spectateur"
 
-#: ../../source/explore/personalize/install-apps.md:56
+#: ../../source/explore/personalize/install-apps.md:55
 msgid ""
 "The Spectator Camera is a camera you can use to record or livestream what"
 " you and your friends do in Vircadia. It is only available in HMD mode, "
@@ -4013,7 +3996,7 @@ msgid ""
 "overview-guide.402/) for more details."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:58
+#: ../../source/explore/personalize/install-apps.md:57
 #, fuzzy
 msgid ""
 "[Use the instructions above](#install-an-app) to install the Spectator "
@@ -4022,18 +4005,18 @@ msgstr ""
 "Suivez les instructions ci-dessus pour installer l'application Caméra de "
 "Spectateur."
 
-#: ../../source/explore/personalize/install-apps.md:65
+#: ../../source/explore/personalize/install-apps.md:64
 msgid "To use the Spectator Camera app:"
 msgstr "Pour utiliser l'application Caméra de Spectateur :"
 
-#: ../../source/explore/personalize/install-apps.md:66
+#: ../../source/explore/personalize/install-apps.md:65
 #, fuzzy
 msgid "In Interface, pull up your HUD or Tablet and go to **Spectator**."
 msgstr ""
 "Dans l'Interface, accédez à votre HUD ou votre tablet et allez dans "
 "Spectator."
 
-#: ../../source/explore/personalize/install-apps.md:67
+#: ../../source/explore/personalize/install-apps.md:66
 msgid ""
 "Turn on your Spectator Cam by moving the slider. You'll see the camera "
 "appear in-world. By default, the app's display shows you what you see in "
@@ -4046,7 +4029,7 @@ msgstr ""
 "permet de voir ce que vous enregistrez sans avoir à enlever votre HMD. "
 "![](_images/spec-cam-window.png)"
 
-#: ../../source/explore/personalize/install-apps.md:68
+#: ../../source/explore/personalize/install-apps.md:67
 msgid ""
 "To record yourself, switch your display from your HMD's view to the "
 "camera view. This lets you record videos of yourself, such as your avatar"
@@ -4056,7 +4039,7 @@ msgstr ""
 "caméra. Cela vous permet d'enregistrer des vidéos de vous-même, comme "
 "votre avatar en train de danser ou d'essayer différents vêtements."
 
-#: ../../source/explore/personalize/install-apps.md:69
+#: ../../source/explore/personalize/install-apps.md:68
 #, fuzzy
 msgid ""
 "Enable switching views with your controllers in the **Spectator** app on "
@@ -4065,7 +4048,7 @@ msgstr ""
 "Activez le changement de vue avec vos contrôleurs dans l'application "
 "Spectator de votre HUD ou de votre tablet."
 
-#: ../../source/explore/personalize/install-apps.md:70
+#: ../../source/explore/personalize/install-apps.md:69
 #, fuzzy
 msgid ""
 "**Rift**: If you're using Oculus Touch controllers, click the left "
@@ -4074,7 +4057,7 @@ msgstr ""
 "Rift : si vous utilisez les contrôleurs Oculus Touch, cliquez sur la "
 "manette de gauche pour changer de vue."
 
-#: ../../source/explore/personalize/install-apps.md:71
+#: ../../source/explore/personalize/install-apps.md:70
 #, fuzzy
 msgid ""
 "**Vive**: If you're using HTC Vive controllers, press on the center of "
@@ -4083,11 +4066,11 @@ msgstr ""
 "Vive : Si vous utilisez les contrôleurs HTC Vive, appuyez sur la manette "
 "qui contrôle le pouce pour changer de vue."
 
-#: ../../source/explore/personalize/install-apps.md:73
+#: ../../source/explore/personalize/install-apps.md:72
 msgid "Finger Painting"
 msgstr "Peinture au Doigt"
 
-#: ../../source/explore/personalize/install-apps.md:75
+#: ../../source/explore/personalize/install-apps.md:74
 #, fuzzy
 msgid ""
 "The Fingerpaint app lets your paint your environment, your own avatar, or"
@@ -4099,18 +4082,18 @@ msgstr ""
 "utilisateur. Utilisez les instructions ci-dessus pour installer "
 "l'application Fingerpaint."
 
-#: ../../source/explore/personalize/install-apps.md:77
+#: ../../source/explore/personalize/install-apps.md:76
 msgid "To use the Fingerpaint app:"
 msgstr "Pour utiliser l'application Fingerpaint :"
 
-#: ../../source/explore/personalize/install-apps.md:78
+#: ../../source/explore/personalize/install-apps.md:77
 #, fuzzy
 msgid "In Interface, pull up your HUD or Tablet and go to **Body Paint**."
 msgstr ""
 "Dans l'Interface, accédez à votre HUD ou votre tablet et allez dans Body "
 "Paint."
 
-#: ../../source/explore/personalize/install-apps.md:79
+#: ../../source/explore/personalize/install-apps.md:78
 msgid ""
 "First, click 'Options' to select what you would like to paint on - the "
 "world around you, your avatar, or another user's avatar (with their "
@@ -4120,11 +4103,11 @@ msgstr ""
 "vous souhaitez peindre - le monde qui vous entoure, votre avatar ou celui"
 " d'un autre utilisateur (avec sa permission)."
 
-#: ../../source/explore/personalize/install-apps.md:80
+#: ../../source/explore/personalize/install-apps.md:79
 msgid "Click 'Palette' to select a color for your paint."
 msgstr "Cliquez sur 'Palette' pour sélectionner une couleur pour votre peinture."
 
-#: ../../source/explore/personalize/install-apps.md:81
+#: ../../source/explore/personalize/install-apps.md:80
 msgid ""
 "Click 'Brushes' to select the settings for your brush, such as stroke "
 "width, type of brush, and special effects. ![](_images/fingerpaint.png)"
@@ -4133,11 +4116,11 @@ msgstr ""
 "tels que la largeur du trait, le type de pinceau et les effets spéciaux. "
 "![](_images/fingerpaint.png)"
 
-#: ../../source/explore/personalize/install-apps.md:84
+#: ../../source/explore/personalize/install-apps.md:83
 msgid "Text to Speech"
 msgstr "Text to Speech"
 
-#: ../../source/explore/personalize/install-apps.md:86
+#: ../../source/explore/personalize/install-apps.md:85
 msgid ""
 "The Text to Speech app synthesizes the text you type into speech. You can"
 " use this app if you don't wish to use your voice, have microphone "
@@ -4148,7 +4131,7 @@ msgstr ""
 "utiliser votre voix, si vous avez des problèmes de microphone ou si vous "
 "êtes handicapé."
 
-#: ../../source/explore/personalize/install-apps.md:88
+#: ../../source/explore/personalize/install-apps.md:87
 #, fuzzy
 msgid ""
 "[Use the instructions above](#install-an-app) to install the Text to "
@@ -4157,26 +4140,26 @@ msgstr ""
 "Suivez les instructions ci-dessus pour installer l'application Text to "
 "Speech."
 
-#: ../../source/explore/personalize/install-apps.md:95
+#: ../../source/explore/personalize/install-apps.md:94
 msgid "To use the Text to Speech (TTS) app:"
 msgstr "Pour utiliser l'application Text to Speech (TTS) :"
 
-#: ../../source/explore/personalize/install-apps.md:96
+#: ../../source/explore/personalize/install-apps.md:95
 #, fuzzy
 msgid "In Interface, pull up your HUD or Tablet and go to **TTS**."
 msgstr "Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
 
-#: ../../source/explore/personalize/install-apps.md:97
+#: ../../source/explore/personalize/install-apps.md:96
 msgid "In the app, select the Pitch and Speed of your choice."
 msgstr ""
 "Dans l'application, sélectionnez la hauteur et la vitesse du son de votre"
 " choix."
 
-#: ../../source/explore/personalize/install-apps.md:98
+#: ../../source/explore/personalize/install-apps.md:97
 msgid "Type in the text you'd like your avatar to speak."
 msgstr "Tapez le texte que vous souhaitez faire prononcer à votre avatar."
 
-#: ../../source/explore/personalize/install-apps.md:99
+#: ../../source/explore/personalize/install-apps.md:98
 msgid ""
 "Hit 'Speak' to hear your text. Hit 'Stop Last' to stop your avatar from "
 "speaking. ![](_images/tts.png)"
@@ -4184,7 +4167,7 @@ msgstr ""
 "Cliquez sur 'Speak' pour entendre votre texte. Appuyez sur 'Stop Last' "
 "pour stopper votre avatar de parler. ![](_images/tts.png)"
 
-#: ../../source/explore/personalize/install-apps.md:103
+#: ../../source/explore/personalize/install-apps.md:102
 msgid "[Create Tablet Apps](../../create/applications)"
 msgstr ""
 
@@ -4429,10 +4412,11 @@ msgid "Ban"
 msgstr "Bannir"
 
 #: ../../source/explore/socialize.rst:76
+#, fuzzy
 msgid ""
 "You can click here to ban a user from the current domain. The user will "
 "not be able to enter the domain using the same account. The banned user "
-"will still have access to other High Fidelity domains."
+"will still have access to other Vircadia domains."
 msgstr ""
 "Vous pouvez cliquer ici pour bannir un utilisateur du domaine en cours. "
 "L'utilisateur ne pourra pas entrer dans le domaine en utilisant le même "
@@ -4604,60 +4588,6 @@ msgstr ""
 " même domaine qui exécutent le même script. Si le chat textuel est "
 "important pour vous, vous pouvez l'ajouter à vos scripts par défaut pour "
 "qu'il soit toujours là."
-
-#: ../../source/explore/socialize.rst:149
-msgid "COM Script Version 1"
-msgstr "Script COM Version 1"
-
-#: ../../source/explore/socialize.rst:151
-msgid ""
-"AlphaVersionD has authored an equally powerful and friendly script that "
-"runs on a domain. All users that visit a domain with the script can chat "
-"with one another, without installing a separate app or script. With this "
-"script, you have the power to enable chat on any of your own domains."
-msgstr ""
-"AlphaVersionD est l'auteur d'un script tout aussi puissant et convivial "
-"qui fonctionne sur un domaine. Tous les utilisateurs qui visitent un "
-"domaine avec le script peuvent discuter entre eux, sans avoir à installer"
-" une application ou un script séparé. Avec ce script, vous avez la "
-"possibilité d'activer le chat sur n'importe lequel de vos propres "
-"domaines."
-
-#: ../../source/explore/socialize.rst:153
-msgid ""
-"You can run a script only in a domain where you have the right "
-"permissions. Ensure that you have the right permissions in a domain where"
-" you wish to use the COM Script."
-msgstr ""
-"Vous ne pouvez exécuter un script que dans un domaine où vous avez les "
-"bonnes autorisations. Assurez-vous que vous avez les bonnes autorisations"
-" dans un domaine où vous souhaitez utiliser le script COM."
-
-#: ../../source/explore/socialize.rst:155
-msgid "To install COM Script in your domain:"
-msgstr "Pour installer le COM Script dans votre domaine :"
-
-#: ../../source/explore/socialize.rst:157
-msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
-msgstr "Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
-
-#: ../../source/explore/socialize.rst:158
-msgid "Click the 'zone' icon to create a zone entity."
-msgstr "Cliquez sur l'icône 'zone' pour créer une entité de zone."
-
-#: ../../source/explore/socialize.rst:159
-msgid ""
-"In the 'Properties' tab of the zone entity, paste this `URL "
-"<http://metaversecafes.com/HighFidelity/QueenCity/A_2016_Q_wab/AQUI/COM_v1.0.js>`_."
-msgstr ""
-"Dans l'onglet 'Properties' de l'entité zone, collez ceci `URL "
-"<http://metaversecafes.com/HighFidelity/QueenCity/A_2016_Q_wab/AQUI/COM_v1.0.js>`_."
-
-#: ../../source/explore/socialize.rst:161
-msgid "COM Script version 1 is now running in the zone in your domain!"
-msgstr ""
-"Le COM Script version 1 est maintenant exécutée dans la zone de votre "
-"domaine !"
 
 #: ../../source/explore/travel.md:8
 msgid ""
@@ -5091,4 +5021,120 @@ msgstr ":doc:`Socializez avec les Autres <../socialize>`"
 
 #~ msgid "Create Tablet Apps"
 #~ msgstr "Créer des Applications pour Tablet"
+
+#~ msgid ""
+#~ "You can enhance your experience in "
+#~ "Vircadia by installing tablet apps from"
+#~ " the Marketplace. These apps enable "
+#~ "you to get more out of Vircadia."
+#~ " Do you want to record your "
+#~ "avatar dancing, take selfies, or finger"
+#~ " paint? Or are you looking to "
+#~ "livestream to YouTube or make your "
+#~ "avatar clap? Our Marketplace has a "
+#~ "number of apps that can help you"
+#~ " customize your experience in-world."
+#~ msgstr ""
+#~ "Vous pouvez améliorer votre expérience "
+#~ "dans Vircadia en installant des "
+#~ "applications pour tablet sur le Marché."
+#~ " Ces applications vous permettent de "
+#~ "profiter davantage de Vircadia. Vous "
+#~ "voulez enregistrer la danse de votre "
+#~ "avatar, prendre des selfies ou peindre"
+#~ " avec vos doigts ? Ou bien vous"
+#~ " voulez faire du streaming live sur"
+#~ " YouTube ou faire applaudir votre "
+#~ "avatar ? Notre Marché propose un "
+#~ "certain nombre d'applications qui peuvent "
+#~ "vous aider à personnaliser votre "
+#~ "expérience in-world."
+
+#~ msgid "[Our Marketplace Apps](#our-marketplace-apps)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the app of your choice to"
+#~ " purchase it and click the price "
+#~ "of the item. Once you've purchased "
+#~ "your app, you can view it in "
+#~ "the **Inventory** app or 'Recent "
+#~ "Activity'."
+#~ msgstr ""
+#~ "Cliquez sur l'application de votre choix"
+#~ " pour l'acheter et cliquez sur le "
+#~ "prix de l'article. Une fois que "
+#~ "vous avez acheté votre application, vous"
+#~ " pouvez la consulter dans l'application "
+#~ "Inventaire ou dans la catégorie 'Recent"
+#~ " Activity'."
+
+#~ msgid "Our Marketplace Apps"
+#~ msgstr "Nos Applications sur le Marché"
+
+#~ msgid "COM Script Version 1"
+#~ msgstr "Script COM Version 1"
+
+#~ msgid ""
+#~ "AlphaVersionD has authored an equally "
+#~ "powerful and friendly script that runs"
+#~ " on a domain. All users that "
+#~ "visit a domain with the script can"
+#~ " chat with one another, without "
+#~ "installing a separate app or script. "
+#~ "With this script, you have the "
+#~ "power to enable chat on any of "
+#~ "your own domains."
+#~ msgstr ""
+#~ "AlphaVersionD est l'auteur d'un script "
+#~ "tout aussi puissant et convivial qui "
+#~ "fonctionne sur un domaine. Tous les "
+#~ "utilisateurs qui visitent un domaine "
+#~ "avec le script peuvent discuter entre"
+#~ " eux, sans avoir à installer une "
+#~ "application ou un script séparé. Avec"
+#~ " ce script, vous avez la possibilité"
+#~ " d'activer le chat sur n'importe "
+#~ "lequel de vos propres domaines."
+
+#~ msgid ""
+#~ "You can run a script only in "
+#~ "a domain where you have the right"
+#~ " permissions. Ensure that you have "
+#~ "the right permissions in a domain "
+#~ "where you wish to use the COM "
+#~ "Script."
+#~ msgstr ""
+#~ "Vous ne pouvez exécuter un script "
+#~ "que dans un domaine où vous avez"
+#~ " les bonnes autorisations. Assurez-vous "
+#~ "que vous avez les bonnes autorisations"
+#~ " dans un domaine où vous souhaitez"
+#~ " utiliser le script COM."
+
+#~ msgid "To install COM Script in your domain:"
+#~ msgstr "Pour installer le COM Script dans votre domaine :"
+
+#~ msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
+#~ msgstr ""
+#~ "Dans l'Interface accédez à votre HUD "
+#~ "ou Tablet et sélectionnez **Create**."
+
+#~ msgid "Click the 'zone' icon to create a zone entity."
+#~ msgstr "Cliquez sur l'icône 'zone' pour créer une entité de zone."
+
+#~ msgid ""
+#~ "In the 'Properties' tab of the "
+#~ "zone entity, paste this `URL "
+#~ "<http://metaversecafes.com/HighFidelity/QueenCity/A_2016_Q_wab/AQUI/COM_v1.0.js>`_."
+#~ msgstr ""
+#~ "Dans l'onglet 'Properties' de l'entité "
+#~ "zone, collez ceci `URL "
+#~ "<http://metaversecafes.com/HighFidelity/QueenCity/A_2016_Q_wab/AQUI/COM_v1.0.js>`_."
+
+#~ msgid "COM Script version 1 is now running in the zone in your domain!"
+#~ msgstr ""
+#~ "Le COM Script version 1 est "
+#~ "maintenant exécutée dans la zone de "
+#~ "votre domaine !"
 
