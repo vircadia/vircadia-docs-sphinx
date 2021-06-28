@@ -19,3 +19,4 @@ When you first use Vircadia, you will be wearing the default avatar. Your avatar
     Tutorial: Rig Avatars in Mixamo <avatars/mixamo-tutorial>
     Tutorial: Modify Materials and Textures with Blender <avatars/blender-tutorial>
     Tutorial: Add a Scattering Effect <avatars/scattering-tutorial>
+    Avatar Cheat Sheet <avatars/avatar-cheat-sheet>
