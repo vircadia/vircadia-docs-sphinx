@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-06-27 06:23+0000\n"
+"PO-Revision-Date: 2021-06-29 00:24+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/create/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/create/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -209,16 +210,13 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/get-model.rst:20
-#, fuzzy
 msgid ""
 "**Check Materials:** You might find that the model may be missing its "
 "textures. If that happens, first check to see if the textures are "
 "included."
 msgstr ""
 "** Verifica los materiales: ** Es posible que al modelo le falten sus "
-"texturas. Si eso sucede, primero verifica si las texturas están "
-"incluidas. Si un modelo se carga en Vircadia y no se ve bien, también "
-"puede encontrar información del error en los registros de la interfaz."
+"texturas. Si eso sucede, primero verifica si las texturas están incluidas."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -258,13 +256,12 @@ msgid "Best Practices"
 msgstr "Mejores Prácticas"
 
 #: ../../source/create/3d-models/get-model.rst:35
-#, fuzzy
 msgid ""
 "Making 3D models for Vircadia (and VR) is different than making models "
 "for films, videos, and games."
 msgstr ""
-"Hacer modelos 3D para Alta Fidelidad (y Realidad Virtual) es diferente a "
-"hacer modelos para películas, videos y juegos."
+"Hacer modelos 3D para Vircadia (y Realidad Virtual) es diferente a hacer "
+"modelos para películas, videos y juegos."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
@@ -278,18 +275,17 @@ msgstr ""
 "afectarán a su rendimiento."
 
 #: ../../source/create/3d-models/get-model.rst:38
-#, fuzzy
 msgid ""
 "Most VR headsets run at 90Hz or higher: You’ll have to keep your "
 "framerate at 90fps and be cautious about your model’s size. Models that "
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
 msgstr ""
-"La mayoría de los visores de Realidad Virtual funcionan a 90 Hz: tendrás "
-"que mantener tu velocidad de fotogramas a 90 fps y tener cuidado con el "
-"tamaño de tu modelo. Los modelos que son demasiado grandes o muy "
-"complejos pueden ralentizar la velocidad de fotogramas y hacer que las "
-"personas sientan náuseas."
+"La mayoría de los visores de Realidad Virtual funcionan a 90 Hz: tendrás que "
+"mantener tu velocidad de fotogramas a 90fps y tener cuidado con el tamaño de "
+"tu modelo. Los modelos que son demasiado grandes o muy complejos pueden "
+"ralentizar la velocidad de fotogramas y hacer que las personas sientan "
+"náuseas."
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid ""
@@ -319,14 +315,14 @@ msgid "Polycount"
 msgstr "Polycount (Número de polígonos)"
 
 #: ../../source/create/3d-models/get-model.rst:45
-#, fuzzy
 msgid ""
 "Your count should resemble that of a model for a tablet game, not too "
 "high, but not too low either. For example 50000 Polygons should be more "
 "than enough for a detailed avatar."
 msgstr ""
-"Tu número (de polígonos ) debe parecerse a la de un modelo para un juego "
-"de tablet, no demasiado alto, pero tampoco demasiado bajo."
+"Tu recuento (de polígonos) debe parecerse al de un modelo para un juego de "
+"tablet, no demasiado alto, pero tampoco demasiado bajo. Por ejemplo, 50000 "
+"polígonos deberían ser más que suficientes para un avatar detallado."
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
@@ -341,13 +337,13 @@ msgid "Mesh"
 msgstr "Mesh (Malla)"
 
 #: ../../source/create/3d-models/get-model.rst:51
-#, fuzzy
 msgid ""
 "Clean the mesh to make sure there are no N-gons and no coplanar faces. "
 "Any good 3D modelling software should do this on export."
 msgstr ""
-"Limpia la malla para asegurarte de que no haya N-gons (polígonos con N "
-"caras) ni caras coplanares."
+"Limpia la malla para asegurarte de que no haya N-gons (polígonos con N caras)"
+" ni caras coplanares. Cualquier buen software de modelado 3D debería hacer "
+"esto al exportar."
 
 #: ../../source/create/3d-models/get-model.rst:54
 msgid ""
@@ -363,9 +359,8 @@ msgstr ""
 "separados."
 
 #: ../../source/create/3d-models/get-model.rst:59
-#, fuzzy
 msgid "Vircadia’s engine only supports one UV mapping per material."
-msgstr "El motor de Alta Fidelidad solo admite un mapeo UV por material."
+msgstr "El motor de Vircadia solo admite un mapeo UV por material."
 
 #: ../../source/create/3d-models/get-model.rst:61
 #: ../../source/create/3d-models/get-model.rst:64
@@ -410,22 +405,20 @@ msgstr ""
 "máscaras translúcidas o texturas transparentes, usa PNG-32."
 
 #: ../../source/create/3d-models/get-model.rst:72
-#, fuzzy
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Vircadia."
 msgstr ""
-"No utilices PNG-48 o PNG-64, ya que ninguno de los dos es compatible con "
-"Alta Fidelidad."
+"No utilices PNG-48 o PNG-64, ya que ninguno de los dos son compatibles con "
+"Vircadia."
 
 #: ../../source/create/3d-models/get-model.rst:74
-#, fuzzy
 msgid ""
 "When loaded in the engine, textures are automatically resized to a grid "
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
 "memory."
 msgstr ""
-"Cuando se cargan en el motor, las texturas se redimensionan "
-"automáticamente a una cuadrícula de 128x128. Elija tamaños que sean "
-"múltiplos de 128."
+"Cuando se cargan en el motor, las texturas se redimensionan automáticamente "
+"a una cuadrícula de 128x128. Elija tamaños que sean múltiplos de 128 para no "
+"desperdiciar memoria."
 
 #: ../../source/create/3d-models/get-model.rst:77
 msgid ""
@@ -464,9 +457,8 @@ msgstr ""
 "significan más espacio para modelos con un número de polígonos más alto."
 
 #: ../../source/create/3d-models/get-model.rst:92
-#, fuzzy
 msgid "Baking"
-msgstr "Sombreado"
+msgstr "Cocinado"
 
 #: ../../source/create/3d-models/get-model.rst:92
 msgid ""
@@ -479,15 +471,14 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:5
-#, fuzzy
 msgid ""
 "Enrich your Vircadia experience by having 3D models in your domain with "
 "animations. For example, you can import the 3D model of a flag that "
 "appears to flutter with the wind using this feature."
 msgstr ""
-"Enriquezca su experiencia de Alta Fidelidad al tener modelos 3D en su "
-"dominio con animaciones. Por ejemplo, puede importar el modelo 3D de una "
-"bandera que parece ondear con el viento usando esta función."
+"Enriquezca su experiencia en Vircadia al tener modelos 3D en su dominio con "
+"animaciones. Por ejemplo, puede importar el modelo 3D de una bandera que "
+"parece ondear con el viento usando esta función."
 
 #: ../../source/create/3d-models/import-animations.rst:12
 #: ../../source/create/avatars/custom-animations.rst:18
@@ -504,28 +495,25 @@ msgid "Prerequisites"
 msgstr "Prerrequisitos"
 
 #: ../../source/create/3d-models/import-animations.rst:14
-#, fuzzy
 msgid ""
 "You need to be familiar with creating animations in 3D modeling tools "
 "such as Blender and Maya before importing an animation into Vircadia."
 msgstr ""
-"Debe estar familiarizado con la creación de animaciones en herramientas "
-"de modelado 3D como Blender y Maya antes de importar una animación a Alta"
-" Fidelidad."
+"Debe estar familiarizado con la creación de animaciones en herramientas de "
+"modelado 3D como Blender y Maya antes de importar una animación en Vircadia."
 
 #: ../../source/create/3d-models/import-animations.rst:18
 msgid "Prepare a 3D Model Animation"
 msgstr "Preparar una Animación de Modelo 3D"
 
 #: ../../source/create/3d-models/import-animations.rst:20
-#, fuzzy
 msgid ""
 "Before you import an animation into Vircadia, adjust some settings in the"
 " 3D modeling tool of your choice to ensure that it plays smoothly."
 msgstr ""
-"Antes de importar una animación en Alta Fidelidad, ajuste algunas "
-"configuraciones en la herramienta de modelado 3D de su elección para "
-"asegurarse de que se reproduce sin problemas."
+"Antes de importar una animación a Vircadia, ajusta algunas configuraciones "
+"en la herramienta de modelado 3D de tu elección para asegurarte de que se "
+"reproduce sin problemas."
 
 #: ../../source/create/3d-models/import-animations.rst:22
 msgid ""
@@ -534,16 +522,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:23
-#, fuzzy
 msgid ""
 "Bake your animation channels, key frames, and in-betweens to ensure that "
 "Vircadia reads everything. This is to ensure that your animation doesn't "
 "stop and start, but appears smooth and flows through each movement."
 msgstr ""
 "Registra (Bake) tus canales de animación, fotogramas clave e intermedios "
-"para asegurarte de que Alta Fidelidad lo lea todo. Esto es para asegurar "
-"que tú animación no se detenga y comience, sino que parezca suave y fluya"
-" a través de cada movimiento."
+"para asegurarte de que Vircadia lo lea todo. Esto es para asegurar que tu "
+"animación no se detenga y comience, sino que parezca suave y fluya a través "
+"de cada movimiento."
 
 #: ../../source/create/3d-models/import-animations.rst:24
 msgid ""
@@ -560,22 +547,20 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:26
-#, fuzzy
 msgid "Upload this FBX file to a cloud server and copy the URL."
-msgstr "Carga este archivo FBX en un servidor de la nube. Copia la URL."
+msgstr "Carga este archivo FBX en un servidor de la nube y copia la URL."
 
 #: ../../source/create/3d-models/import-animations.rst:30
 msgid "Import an Animation"
 msgstr "Importar una Animación"
 
 #: ../../source/create/3d-models/import-animations.rst:32
-#, fuzzy
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
 " 3D model and it's animation into Vircadia."
 msgstr ""
-"Una vez que termine de cargarse el archivo FBX de tú animación, puedes "
-"importar el modelo 3D y tú animación en Alta Fidelidad."
+"Una vez que termine de cargarse el archivo FBX de tu animación, puedes "
+"importar el modelo 3D y tú animación a Vircadia."
 
 #: ../../source/create/3d-models/import-animations.rst:34
 #: ../../source/create/3d-models/import-model.rst:17
@@ -795,15 +780,14 @@ msgid "Import a 3D Model"
 msgstr "Importa un Modelo 3D"
 
 #: ../../source/create/3d-models/import-model.rst:5
-#, fuzzy
 msgid ""
 "You can import a 3D model into Vircadia that is hosted online or on your "
 "domain's Asset Server. Importing your model brings it into your domain "
 "and adds it to your virtual world."
 msgstr ""
-"Puedes importar un modelo 3D a Vircadia que esté alojado en línea o en el"
-" servidor de activos de tu dominio. La importación de tu modelo hace que "
-"aparezca en tu dominio y lo agrega a tu mundo virtual."
+"Puedes importar un modelo 3D a Vircadia que esté alojado en línea o en el "
+"servidor de activos de tu dominio. La importación de tu modelo lo lleva a tu "
+"dominio y lo agrega a tu mundo virtual."
 
 #: ../../source/create/3d-models/import-model.rst:12
 msgid "Import Models from the Cloud"
@@ -819,13 +803,12 @@ msgstr ""
 " la nube de tú elección."
 
 #: ../../source/create/3d-models/import-model.rst:16
-#, fuzzy
 msgid ""
 "Locate and copy the URL of the model you would like to import. The model "
 "should be an FBX, glTF, or OBJ file."
 msgstr ""
-"Busca y copia la URL del modelo que deseas importar. El modelo debe tener"
-" un formato OBJ, glTF o FBX."
+"Busca y copia la URL del modelo que deseas importar. El modelo debe ser un "
+"archivo FBX, glTF o OBJ."
 
 #: ../../source/create/3d-models/import-model.rst:18
 msgid "Select the 'Model' icon."
@@ -840,7 +823,6 @@ msgid "Import Models from the Asset Server"
 msgstr "Importa modelos desde el servidor de activos"
 
 #: ../../source/create/3d-models/import-model.rst:27
-#, fuzzy
 msgid ""
 "The Asset Server hosts files or assets that can either be added as-is to "
 "a domain or that are referenced by existing entities and scripts already "
@@ -848,11 +830,11 @@ msgid ""
 "permissions to \"rez\" entities in the domain that the Asset Server is "
 "running on."
 msgstr ""
-"El Servidor de Activos aloja archivos o activos que se pueden agregar tal"
-" cual están a un dominio o ser referenciados por entidades y archivos "
-"existentes que ya están en un dominio. Para importar activos desde el "
-"Servidor de Activos, debes tener permisos para invocar (\"rez\") "
-"entidades en el dominio en el que se ejecuta el Servidor de Activos ."
+"El Servidor de Activos aloja archivos o activos que se pueden agregar tal "
+"cual a un dominio o ser referenciados por entidades y scripts que ya están "
+"en un dominio. Para importar activos desde el Servidor de Activos, debes "
+"tener permisos para invocar entidades (\"rez\") en el dominio en el que se "
+"ejecuta el Servidor de Activos ."
 
 #: ../../source/create/3d-models/import-model.rst:31
 msgid "Click 'Open this Domain's Asset Server'."
@@ -880,7 +862,6 @@ msgid ":doc:`Create New Entities <../entities/create-entities>`"
 msgstr ":doc:`Crear Nuevas Entidades <../entities/create-entities>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:7
-#, fuzzy
 msgid ""
 "The appearance of a 3D model is controlled by its materials. The "
 "materials supported in Vircadia are physically-based rendering (PBR) "
@@ -889,9 +870,8 @@ msgid ""
 msgstr ""
 "La apariencia de un modelo 3D está controlada por sus materiales. Los "
 "materiales admitidos en Vircadia son materiales de renderizado de base "
-"física (PBR). Esto significa que los materiales de un modelo 3D "
-"reflejarán o absorberán la luz como lo harían (aproximadamente) en la "
-"vida real."
+"física (PBR). Esto significa que los materiales de un modelo 3D reflejarán o "
+"absorberán la luz como lo harían en la vida real (aproximadamente)."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:15
 msgid "Introduction to Materials, Textures, and Shading"
@@ -924,16 +904,15 @@ msgid "A material contains texture and shading information."
 msgstr "Un material contiene información sobre la textura y el sombreado."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:29
-#, fuzzy
 msgid ""
 "Textures are flat images that are applied to 3D models. These add detail "
 "on how a 3D model's material looks. For example, a 3D model of a tree "
 "trunk will use a bark texture to show what the surface looks like."
 msgstr ""
-"Las texturas son imágenes planas que se aplican a modelos 3D. Estos "
-"agregan detalles sobre cómo se ve el material de un modelo 3D. Por "
-"ejemplo, un modelo 3D del tronco de un árbol utilizará una textura de "
-"corteza para mostrar cómo se ve la superficie."
+"Las texturas son imágenes planas que se aplican a modelos 3D. Estos agregan "
+"detalles sobre cómo se ve el material de un modelo 3D. Por ejemplo, un "
+"modelo 3D del tronco de un árbol utilizará una textura de corteza para "
+"mostrar cómo se ve la superficie."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:31
 msgid "Vircadia supports the use of the following texture formats:"
@@ -956,15 +935,14 @@ msgid "TIFF, TIF"
 msgstr "TIFF, TIF"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:38
-#, fuzzy
 msgid ""
 "For best performance, we recommend :doc:`baking all 3D models <../../host"
 "/add-content/bake-content>` (including textures) before loading it into "
 "Vircadia."
 msgstr ""
-"Para un mejor rendimiento, recomendamos: doc: `hornear todos los modelos "
-"3D ../../host/add-content/bake-content` (incluidas las texturas) antes de"
-" cargarlo en Vircadia."
+"Para un mejor rendimiento, recomendamos :doc:`cocinar todos los modelos 3D "
+"<../../host/add-content/bake-content>` (incluidas las texturas) antes de "
+"cargarlo en Vircadia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:42
 msgid "Shading"
@@ -986,7 +964,6 @@ msgstr ""
 " crear diferentes tipos de materiales."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:47
-#, fuzzy
 msgid ""
 "You can combine shaders with material entities on shape and zone entities"
 " to apply shaders to models and avatars. This feature was released as an "
@@ -995,13 +972,12 @@ msgid ""
 "risk*, then you can find more information at :doc:`Procedural Shaders for"
 " Models and Avatars <../materials/procedural-shaders>`."
 msgstr ""
-"Puede combinar sombreadores con entidades de material en entidades de "
-"forma y zona para aplicar sombreadores a modelos y avatares. Esta función"
-" se lanzó como ** función experimental ** y no se ha probado "
-"exhaustivamente a través de nuestros canales habituales. Si deseas "
-"intentar aplicar materiales procedurales a modelos o avatares * bajo su "
-"propio riesgo *, puede encontrar más información en: doc: `Sombras "
-"Procedurales para modelos y avatares ../materials/procedural-shaders`."
+"Puedes combinar sombreadores con entidades de material en entidades de forma "
+"y zona para aplicar sombreadores a modelos y avatares. Esta función se lanzó "
+"como una **función experimental** y no se ha probado exhaustivamente. Si "
+"deseas intentar aplicar materiales procedurales a modelos o avatares *bajo "
+"tu propio riesgo*, puedes encontrar más información en :doc:`Sombras "
+"procedurales para Modelos y Avatares <../materials/procedural-shaders>`."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:51
 msgid "**Material Channels**"
@@ -1032,29 +1008,22 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:59
-#, fuzzy
 msgid ""
 "**Using a Map:** The map is an image which you can import to define a "
 "property. You will use a map to apply a texture to your 3D model."
 msgstr ""
-"** Usando un mapa: ** El mapa es una imagen que puedes importar para "
-"definir una propiedad. Utilizarás un mapa para aplicar una textura a tu "
-"modelo 3D. Por ejemplo, tu teléfono puede tener una carcasa mate, pero el"
-" resto de tu teléfono es brillante. Puedes usar un mapa para configurar "
-"la carcasa como mate y el teléfono como brillante."
+"**Usando un mapa:** El mapa es una imagen que puedes importar para definir "
+"una propiedad. Utilizarás un mapa para aplicar una textura a tu modelo 3D."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:59
-#, fuzzy
 msgid ""
 "For instance, your phone may have a case that is matte, but the rest of "
 "your phone is shiny. You can use a map to set the case as matte and the "
 "phone as shiny."
 msgstr ""
-"** Usando un mapa: ** El mapa es una imagen que puedes importar para "
-"definir una propiedad. Utilizarás un mapa para aplicar una textura a tu "
-"modelo 3D. Por ejemplo, tu teléfono puede tener una carcasa mate, pero el"
-" resto de tu teléfono es brillante. Puedes usar un mapa para configurar "
-"la carcasa como mate y el teléfono como brillante."
+"Por ejemplo, tu teléfono puede tener una carcasa que sea mate, pero el resto "
+"de tu teléfono es brillante. Puedes usar un mapa para configurar la carcasa "
+"como mate y el teléfono como brillante."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:61
 msgid ""
@@ -1217,15 +1186,14 @@ msgid "Notes:"
 msgstr "Notas:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:94
-#, fuzzy
 msgid ""
 "If you set transparency with a texture, the transparency (alpha) must be "
 "in the material’s albedo texture, as a PNG file with transparency and "
 "*not* as a separate transparency texture."
 msgstr ""
-"Si configuras la transparencia con una textura, la transparencia (alfa) "
-"debe estar en la textura de l material albedo, como un archivo PNG con "
-"transparencia y no como una textura de transparencia separada."
+"Si configuras la transparencia con una textura, la transparencia (alfa) debe "
+"estar en la textura del material albedo, como un archivo PNG con "
+"transparencia y *no* como una textura de transparencia separada."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:95
 msgid ""
@@ -1255,13 +1223,13 @@ msgstr ""
 "variedad de niveles de transparencia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:98
-#, fuzzy
 msgid ""
 "We support using a second UV set with the following texture channels "
 "only: Emissive Texture, Normal Map and Ambient Occlusion."
 msgstr ""
 "Admitimos el uso de un segundo conjunto UV con los siguientes canales de "
-"textura únicamente: \"Light Map\" y \"Ambient Occlusion\"."
+"textura solamente: Textura Emisiva (Emissive Texture), Mapa Normal (Normal "
+"Map) y Oclusión Ambiental."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:102
 msgid "Sample Materials and Their Textures and Shading"
@@ -1818,11 +1786,10 @@ msgstr ""
 "Vircadia pueda acceder a ellos."
 
 #: ../../source/create/avatars/add-flow.rst:2
-#, fuzzy
 msgid "This document is outdated. FIXME: Links to HiFi hosted resources"
 msgstr ""
-"Este documento está desactualizado. FIXME: menciona alta fidelidad "
-"(HiFi), enlaces a recursos alojados de alta fidelidad"
+"Este documento está desactualizado. A tener en cuenta: Enlaces a recursos "
+"alojados en HiFi (High Fidelity)"
 
 #: ../../source/create/avatars/add-flow.rst:9
 msgid ""
@@ -2183,9 +2150,8 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:10
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:5
 #: ../../source/create/entities/zone-tutorial.md:12
-#, fuzzy
 msgid "**On This Page:**"
-msgstr "**En Esta Sección:**"
+msgstr "**En Esta Página:**"
 
 #: ../../source/create/avatars/avatar-standards.md:11
 msgid "[Glossary](#glossary)"
@@ -2359,12 +2325,11 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:46
-#, fuzzy
 msgid ""
 "Vircadia avatars should match the following standard skeletal structure. "
 "Each of these joints can be animated."
 msgstr ""
-"Los avatares de HiFi deben coincidir con la siguiente estructura "
+"Los avatares de Vircadia deben coincidir con la siguiente estructura "
 "esquelética estándar. Cada una de estas articulaciones se puede animar."
 
 #: ../../source/create/avatars/avatar-standards.md:53
@@ -2434,13 +2399,12 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:98
-#, fuzzy
 msgid ""
 "Vircadia avatars support a number of blendshapes for creating different "
 "facial expressions."
 msgstr ""
-"Los avatares HiFi admiten un número de blendshapes para crear diferentes "
-"expresiones faciales."
+"Los avatares de Vircadia admiten un número de blendshapes (combinación de "
+"formas) para crear diferentes expresiones faciales."
 
 #: ../../source/create/avatars/avatar-standards.md:100
 msgid "**Basic Blendshapes**"
@@ -2690,7 +2654,6 @@ msgid "Tutorial: Modify Materials and Textures Using Blender"
 msgstr "Tutorial: Modificar Materiales y Texturas usando Blender"
 
 #: ../../source/create/avatars/blender-tutorial.md:8
-#, fuzzy
 msgid ""
 "Blender is an open-source 3D modeling tool that you can use to fine tune "
 "your avatar and ensure that the materials and textures render correctly "
@@ -2698,7 +2661,7 @@ msgid ""
 msgstr ""
 "Blender es una herramienta de modelado 3D de código abierto que puedes "
 "utilizar para ajustar tu avatar y asegurarte de que los materiales y "
-"texturas se representen correctamente en High Fidelity (HiFi)."
+"texturas se renderizen correctamente en Vircadia."
 
 #: ../../source/create/avatars/blender-tutorial.md:10
 msgid ""
@@ -2785,9 +2748,8 @@ msgid "Click the 'Export FBX' button."
 msgstr "Click en el botón \"Export FBX\"."
 
 #: ../../source/create/avatars/blender-tutorial.md:32
-#, fuzzy
 msgid "Now, you are ready to bring your avatar into Vircadia."
-msgstr "Ahora, estás listo para llevar tu avatar a HiFi."
+msgstr "Ahora, estás listo para traer tu avatar a Vircadia."
 
 #: ../../source/create/avatars/blender-tutorial.md:34
 msgid "Example: Update Eyelashes from an Image"
@@ -3709,9 +3671,8 @@ msgid "TAKEOFFRUN"
 msgstr "TAKEOFFRUN"
 
 #: ../../source/create/avatars/custom-animations.rst:179
-#, fuzzy
 msgid "Running jump takeoff."
-msgstr "Levantarse con salto rápidamente."
+msgstr "Saltar rápidamente al correr."
 
 #: ../../source/create/avatars/custom-animations.rst:181
 msgid "inAirStandPreApex"
@@ -4744,7 +4705,6 @@ msgstr ""
 "lo que no necesitas para empaquetar, menciona Marketplace"
 
 #: ../../source/create/avatars/package-avatar.rst:9
-#, fuzzy
 msgid ""
 "At a minimum, avatars in Vircadia must have an FBX, glTF, or GLB model, "
 "and an associated FST file that includes information about how your "
@@ -4753,24 +4713,23 @@ msgid ""
 " create an avatar package: by using the `Avatar Packager`_ in Interface "
 "or the `Vircadia Avatar Exporter for Unity (unmaintained)`_ in Unity."
 msgstr ""
-"Como mínimo, los avatares en High Fidelity deben tener un modelo FBX y un"
-" archivo FST asociado que incluya información acerca de como se ve y se "
+"Como mínimo, los avatares en Vircadia deben tener un modelo FBX, glTF, o GLB "
+"y un archivo FST asociado que incluya información acerca de como se ve y se "
 "comporta tu avatar. Juntos, esos dos archivos (con cualquier textura o "
-"script) forman un \"paquete de avatar\". Hay dos maneras en la que puedes"
-" crear un paquete de avatar: utilizando el `Empaquetador de Avatar`_ en "
-"una interfaz o el `Exportador de Avatares de High Fidelity para Unity`_ "
-"en Unity."
+"script opcional) forman un \"paquete de avatar\". Hay dos maneras en la que "
+"puedes crear un paquete de avatar: utilizando el `Empaquetador de Avatar`_ "
+"en una interfaz o el `Exportador de Avatares de Vircadia para Unity (sin "
+"mantenimiento)`_ en Unity."
 
 #: ../../source/create/avatars/package-avatar.rst:11
-#, fuzzy
 msgid ""
 "Once you have packaged your avatar, you need to host it on the cloud so "
 "that Vircadia can access it and correctly render your avatar for all "
 "users."
 msgstr ""
-"Una vez que hayas empaquetado tu avatar, necesitas alojarlo en la nube "
-"para que High Fidelity pueda acceder a él y renderizar correctamente tu "
-"avatar para todos los usuarios."
+"Una vez que hayas empaquetado tu avatar, necesitas alojarlo en la nube para "
+"que Vircadia pueda acceder a él y renderizar correctamente tu avatar para "
+"todos los usuarios."
 
 #: ../../source/create/avatars/package-avatar.rst:18
 msgid "Package Your Avatar"
@@ -4795,26 +4754,23 @@ msgstr ""
 "mediante nuestro Empaquetador de Avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:26
-#, fuzzy
 msgid "Vircadia Avatar Exporter for Unity (unmaintained)"
-msgstr "Exportador de Avatares de Vircadia para Unity"
+msgstr "Exportador de Avatares de Vircadia para Unity (sin mantenimiento)"
 
 #: ../../source/create/avatars/package-avatar.rst:28
-#, fuzzy
 msgid ""
 "In some cases, you will want to :doc:`download an avatar from an external"
 " website <find-avatars>` and use that avatar in Vircadia. The Vircadia "
 "Avatar Exporter for Unity (also known as the \"avatar exporter\") "
 "converts human-like avatars and packages them for use in Vircadia."
 msgstr ""
-"En algunos casos, necesitarás :doc:`descargar un avatar desde una página "
-"web externa <find-avatars>` y usar el avatar en High Fidelity. El "
-"Exportador de Avatar de High Fidelity para Unity (también conocido como "
-"\"exportador de avatar\") convierte avatares de apariencia humana y los "
-"empaqueta para usarlos en High Fidelity."
+"En algunos casos, necesitarás :doc:`descargar un avatar desde una página web "
+"externa <find-avatars>` y usar el avatar en Vircadia. El Exportador de "
+"Avatar de Vircadia para Unity (también conocido como \"exportador de avatar\""
+") convierte avatares de apariencia humana y los empaqueta para usarlos en "
+"Vircadia."
 
 #: ../../source/create/avatars/package-avatar.rst:30
-#, fuzzy
 msgid ""
 "Once you have successfully used the :doc:`avatar exporter <find-avatars>`"
 " to package your avatar, you must host it somewhere on the cloud. You can"
@@ -4822,25 +4778,20 @@ msgid ""
 msgstr ""
 "Una vez que hayas usado exitosamente el :doc:`exportador de avatar <find-"
 "avatars>`para empaquetar tu avatar, debes alojarlo en algún lugar de la "
-"nube. Puedes alojarlo en nuestros servidores (usando el empaquetador de "
-"Avatar) o simplemente copia el paquete del avatar en tus propios "
-"servidores."
+"nube. Puedes subirlo a Amazon S3 o un webserver por ejemplo."
 
 #: ../../source/create/avatars/package-avatar.rst:34
 msgid "Avatar Packager"
 msgstr "Empaquetador de Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:36
-#, fuzzy
 msgid ""
 "The **Avatar Packager** is a tool in Interface that identifies potential "
 "errors in your avatar's FBX model and then creates an FST file for you."
 msgstr ""
 "El **Empaquetador de Avatar** es una herramienta en la interfaz que "
-"identifica potenciales errores en tu modelo de avatar FBX y luego crea un"
-" archivo FST para ti. Luego, puedes usar opcionalmente el Empaquetador de"
-" Avatar para cargar tu avatar al Marketplace y alojarlo en nuestros "
-"servidores."
+"identifica potenciales errores en tu modelo de avatar FBX y luego crea un "
+"archivo FST para ti."
 
 #: ../../source/create/avatars/package-avatar.rst:38
 msgid "To package your avatar using the Avatar Packager:"
@@ -4893,17 +4844,14 @@ msgid "Click 'Create'."
 msgstr "Haz click en \"Create\"."
 
 #: ../../source/create/avatars/package-avatar.rst:50
-#, fuzzy
 msgid ""
 "At this point, you have successfully packaged your avatar. You can close "
 "the Avatar Packager here and upload your FST file and FBX model to the "
 "cloud location of your choice."
 msgstr ""
-"En este punto, haz empaquetado tu avatar exitosamente. Si eliges alojar "
-"tu avatar en la nube con tus propios servidores (y no usar los servidores"
-" de High Fidelity), puedes cerrar el Empaquetador de Avatar a partir de "
-"aquí y subir tu archivo FST y modelo FBX en la ubicación de la nube de tu"
-" elección."
+"En este punto, haz empaquetado tu avatar exitosamente. Puedes cerrar el "
+"Empaquetador de Avatar a partir de aquí y subir tu archivo FST y modelo FBX "
+"a una ubicación de la nube de tu elección."
 
 #: ../../source/create/avatars/package-avatar.rst:54
 msgid "Host Your Avatar"
@@ -4949,11 +4897,10 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:2
-#, fuzzy
 msgid "This document is slightly outdated. FIXME: HiFi hosted content"
 msgstr ""
-"Este documento está desactualizado. FIXME: menciona alta fidelidad "
-"(HiFi), enlaces a recursos alojados de alta fidelidad"
+"Este documento está desactualizado. A tener en cuenta: contenido alojado en "
+"HiFi (High Fidelity)"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:9
 msgid ""
@@ -5147,9 +5094,8 @@ msgid "To add a sound:"
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:6
-#, fuzzy
 msgid "In Interface, pull up your Tablet or HUD and go to **Create**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
+msgstr "En la interfaz, abre tu tableta o HUD y ve a **Crear**."
 
 #: ../../source/create/entities/add-sounds.md:7
 msgid "Select the entity."
@@ -5960,9 +5906,8 @@ msgid "To add a new entity to your domain:"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:11
-#, fuzzy
 msgid "In Interface, pull up your tablet or HUD and go to **Create**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
+msgstr "En la interfaz, abre tu tableta o HUD y ve a **Crear**."
 
 #: ../../source/create/entities/create-entities.md:12
 msgid ""
@@ -6079,9 +6024,8 @@ msgid "[Change How Entities Look](entity-appearance)"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:41
-#, fuzzy
 msgid "[Import Your 3D Model](../3d-models/import-model)"
-msgstr ": doc: `Importa tu modelo 3D <import-model>`"
+msgstr "[Importa Tu Modelo 3D](../3d-models/import-model)"
 
 #: ../../source/create/entities/create-entities.md:42
 msgid "[Play Media in a Web Entity](web-entity-media)"
@@ -6359,9 +6303,8 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:112
 #: ../../source/create/entities/zone-tutorial.md:26
 #: ../../source/create/entities/zone-tutorial.md:157
-#, fuzzy
 msgid "[Create New Entities](create-entities)"
-msgstr ":doc:`Crear Nuevas Entidades <../entities/create-entities>`"
+msgstr "[Crea Nuevas Entidades](create-entities)"
 
 #: ../../source/create/entities/create-spotlight.md:19
 msgid "Create a Wall to Shine the Light On"
@@ -6496,9 +6439,8 @@ msgid "![](_images/spotlight.PNG)"
 msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:64
-#, fuzzy
 msgid "[Creator Tools](../tools)"
-msgstr ": doc: `Crear herramientas ../ tools`"
+msgstr "[Herramientas para Creadores](../tools)"
 
 #: ../../source/create/entities/display-youtube.md:1
 #: ../../source/create/entities/tutorials.rst:7
@@ -11498,4 +11440,3 @@ msgstr ""
 #~ "on](../explore/personalize/add-wearables) and adopt"
 #~ " your new look."
 #~ msgstr ""
-

@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-04-25 19:58+0000\n"
+"PO-Revision-Date: 2021-06-29 00:24+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/script/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/script/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/script.rst:9
@@ -329,7 +330,7 @@ msgstr ""
 #: ../../source/script/client-entity-scripts.md:13
 #: ../../source/script/server-entity-scripts.md:12
 msgid "In Interface, pull up your tablet or HUD and go to **Create**."
-msgstr ""
+msgstr "En la interfaz, abre tu tableta o HUD y ve a **Crear**."
 
 #: ../../source/script/client-entity-scripts.md:14
 #: ../../source/script/server-entity-scripts.md:13
@@ -868,9 +869,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/script/js-tips.md:7 ../../source/script/write-scripts.md:12
-#, fuzzy
 msgid "**On This Page:**"
-msgstr "En Esta Página"
+msgstr "**En Esta Página:**"
 
 #: ../../source/script/js-tips.md:9
 msgid "[Compute 3D Math Operations](#compute-3d-math-operations)"
@@ -2024,4 +2024,3 @@ msgstr ""
 #~ "Window' in High Fidelity. ![](_images"
 #~ "/hello-world.png)"
 #~ msgstr ""
-
