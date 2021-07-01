@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-20 12:53+0000\n"
+"POT-Creation-Date: 2021-06-27 06:23+0000\n"
 "PO-Revision-Date: 2021-05-24 06:48+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language: fr\n"
@@ -29,7 +29,7 @@ msgid "Create an Installer"
 msgstr "Créer un Installateur"
 
 #: ../../source/developer.rst:11
-#: ../../source/developer/build/BUILD_LINUX.md:156
+#: ../../source/developer/build/BUILD_LINUX.md:159
 #: ../../source/developer/interface.rst:3
 msgid "Interface"
 msgstr "Interface"
@@ -1316,58 +1316,55 @@ msgid "Using a custom Qt build"
 msgstr "Utiliser une compilation Qt personnalisée"
 
 #: ../../source/developer/build/BUILD_LINUX.md:96
+#, fuzzy
 msgid ""
 "Qt binaries are only provided for Ubuntu. In order to build on other "
-"distributions, a Qt5 install needs to be provided as follows:"
+"distributions, a Qt5 install needs to be provided by setting the "
+"`VIRCADIA_QT_PATH` environment variable to a directory containing a Qt "
+"install."
 msgstr ""
 "Les binaires Qt ne sont fournis que pour Ubuntu. Afin de compiler sur "
 "d'autres distributions, une installation de Qt5 doit être fournie comme "
 "suit :"
 
-#: ../../source/developer/build/BUILD_LINUX.md:98
-msgid "Set `VIRCADIA_USE_PREBUILT_QT=1`"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:99
-#, fuzzy
-msgid "Set `VIRCADIA_USE_QT_VERSION` to the Qt version (defaults to `5.12.3`)"
-msgstr "Définissez VIRCADIA_USE_QT_VERSION sur la version Qt (par défaut 5.12.3)"
-
 #: ../../source/developer/build/BUILD_LINUX.md:100
-msgid "Set `HIFI_QT_BASE=/path/to/qt`"
+msgid "Using the system's Qt"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:102
 msgid ""
-"Qt must be installed in "
-"`$HIFI_QT_BASE/$VIRCADIA_USE_QT_VERSION/qt5-install`."
+"The system's Qt can be used, if the development packages are installed, "
+"by setting the `VIRCADIA_USE_SYSTEM_QT` environment variable. The minimum"
+" recommended version is Qt 5.15.2, which is also the last version "
+"available in the Qt 5 branch. It is expected that Linux distributions "
+"will have Qt 5.15.2 available for a long time."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:104
+#: ../../source/developer/build/BUILD_LINUX.md:107
 msgid "Compiling"
 msgstr "Compilation"
 
-#: ../../source/developer/build/BUILD_LINUX.md:106
+#: ../../source/developer/build/BUILD_LINUX.md:109
 msgid "Create the build directory:"
 msgstr "Créez le répertoire de compilation :"
 
-#: ../../source/developer/build/BUILD_LINUX.md:113
+#: ../../source/developer/build/BUILD_LINUX.md:116
 msgid "Prepare makefiles:"
 msgstr "Préparez les makefiles :"
 
-#: ../../source/developer/build/BUILD_LINUX.md:118
+#: ../../source/developer/build/BUILD_LINUX.md:121
 msgid "If cmake fails with a vcpkg error - delete /tmp/hifi/vcpkg."
 msgstr "Si cmake échoue avec une erreur vcpkg - supprimez /tmp/hifi/vcpkg."
 
-#: ../../source/developer/build/BUILD_LINUX.md:120
+#: ../../source/developer/build/BUILD_LINUX.md:123
 msgid "Start compilation of the server and get a cup of coffee:"
 msgstr "Lancez la compilation du serveur et prenez une tasse de café :"
 
-#: ../../source/developer/build/BUILD_LINUX.md:125
+#: ../../source/developer/build/BUILD_LINUX.md:128
 msgid "To compile interface:"
 msgstr "Compiler l'interface :"
 
-#: ../../source/developer/build/BUILD_LINUX.md:130
+#: ../../source/developer/build/BUILD_LINUX.md:133
 #, fuzzy
 msgid ""
 "The commands above will compile with a single thread. If you have enough "
@@ -1381,43 +1378,43 @@ msgstr ""
 " deux threads par core, cela correspond à CPU_COUNT*2. Par exemple, si "
 "vous avez une machine à deux cores, vous pouvez utiliser :"
 
-#: ../../source/developer/build/BUILD_LINUX.md:138
+#: ../../source/developer/build/BUILD_LINUX.md:141
 msgid "In a server, it does not make sense to compile interface."
 msgstr "Dans un serveur, cela ne fait pas de sense de compiler l'interface."
 
-#: ../../source/developer/build/BUILD_LINUX.md:140
+#: ../../source/developer/build/BUILD_LINUX.md:143
 msgid "Running the software"
 msgstr "Exécution du logiciel"
 
-#: ../../source/developer/build/BUILD_LINUX.md:142
+#: ../../source/developer/build/BUILD_LINUX.md:145
 msgid "Domain server"
 msgstr "Serveur de domaine"
 
-#: ../../source/developer/build/BUILD_LINUX.md:144
+#: ../../source/developer/build/BUILD_LINUX.md:147
 msgid "Running domain server:"
 msgstr "Exécution du serveur de domaine :"
 
-#: ../../source/developer/build/BUILD_LINUX.md:149
+#: ../../source/developer/build/BUILD_LINUX.md:152
 msgid "Assignment clients"
 msgstr "Clients d'Assignation"
 
-#: ../../source/developer/build/BUILD_LINUX.md:151
+#: ../../source/developer/build/BUILD_LINUX.md:154
 msgid "Running assignment client:"
 msgstr "Exécution d'un client d'assignation :"
 
-#: ../../source/developer/build/BUILD_LINUX.md:158
+#: ../../source/developer/build/BUILD_LINUX.md:161
 msgid "Running interface:"
 msgstr "Exécution de l'interface :"
 
-#: ../../source/developer/build/BUILD_LINUX.md:163
+#: ../../source/developer/build/BUILD_LINUX.md:166
 msgid "Go to localhost in the running interface."
 msgstr "Aller à localhost dans l'interface en cours d'exécution."
 
-#: ../../source/developer/build/BUILD_LINUX.md:165
+#: ../../source/developer/build/BUILD_LINUX.md:168
 msgid "Notes"
 msgstr "Notes"
 
-#: ../../source/developer/build/BUILD_LINUX.md:167
+#: ../../source/developer/build/BUILD_LINUX.md:170
 #, fuzzy
 msgid ""
 "If your goal is to set up a development environment, it is desirable to "
@@ -3778,4 +3775,20 @@ msgstr ""
 
 #~ msgid "*Last Updated on May 25, 2021*"
 #~ msgstr "Dernière mise à jour le 17 mai 2020"
+
+#~ msgid "Set `VIRCADIA_USE_PREBUILT_QT=1`"
+#~ msgstr ""
+
+#~ msgid "Set `VIRCADIA_USE_QT_VERSION` to the Qt version (defaults to `5.12.3`)"
+#~ msgstr ""
+#~ "Définissez VIRCADIA_USE_QT_VERSION sur la "
+#~ "version Qt (par défaut 5.12.3)"
+
+#~ msgid "Set `HIFI_QT_BASE=/path/to/qt`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Qt must be installed in "
+#~ "`$HIFI_QT_BASE/$VIRCADIA_USE_QT_VERSION/qt5-install`."
+#~ msgstr ""
 

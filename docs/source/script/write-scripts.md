@@ -23,7 +23,7 @@ print("Hello, World");
 ```
 
 1. Copy and paste this in a file `testScript.js` and save it on your computer.
-2. When you [load and run this script](get-started-with-scripting.html#load-and-run-a-script), it will write the words "Hello, World" to the 'Debug Window' in High Fidelity.
+2. When you [load and run this script](get-started-with-scripting.html#load-and-run-a-script), it will write the words "Hello, World" to the 'Debug Window' in Vircadia.
    ![](_images/hello-world.png)
 
 ## Create an Entity

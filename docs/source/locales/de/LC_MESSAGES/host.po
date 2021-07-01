@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-13 15:03+0000\n"
+"POT-Creation-Date: 2021-06-27 06:23+0000\n"
 "PO-Revision-Date: 2021-02-10 00:46+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
 "Language: de\n"
@@ -98,26 +98,25 @@ msgstr "**In diesem Abschnitt**"
 
 #: ../../source/host/add-content/bake-content.rst:2
 msgid ""
-"This document is outdated. FIXME: Mentions High Fidelity, mentions "
-"Sandbox, missing information about Linux (currently the oven is only "
-"shipped with the Server, not the AppImage), says that Oven has a GUI "
-"application (is news to me)"
+"This document is outdated. FIXME: Mentions Sandbox, missing information "
+"about Linux (currently the oven is only shipped with the Server, not the "
+"AppImage), says that Oven has a GUI application (is news to me)"
 msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:9
 msgid ""
-"Most content (avatars, entities, etc) in High Fidelity references "
-"external resources such as textures, models, scripts, and materials. When"
-" a user encounters any content in the domain, they need to download the "
-"content's resources. Many of these resources are not optimized and can "
-"take a while to download. *Baking* is the process of optimizing these "
-"resources to make them easier to transmit, store, and render, reducing "
-"load time significantly."
+"Most content (avatars, entities, etc) in Vircadia references external "
+"resources such as textures, models, scripts, and materials. When a user "
+"encounters any content in the domain, they need to download the content's"
+" resources. Many of these resources are not optimized and can take a "
+"while to download. *Baking* is the process of optimizing these resources "
+"to make them easier to transmit, store, and render, reducing load time "
+"significantly."
 msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:12
 #: ../../source/host/add-content/create-content.rst:12
-#: ../../source/host/add-content/export-content.rst:21
+#: ../../source/host/add-content/export-content.rst:20
 #: ../../source/host/configure-settings/audio-settings.rst:10
 #: ../../source/host/configure-settings/entity-filters.rst:9
 #: ../../source/host/configure-settings/network-settings.rst:10
@@ -560,8 +559,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/add-content/create-content.rst:70
-#: ../../source/host/add-content/export-content.rst:50
-#: ../../source/host/add-content/export-content.rst:75
+#: ../../source/host/add-content/export-content.rst:49
+#: ../../source/host/add-content/export-content.rst:73
 #: ../../source/host/add-content/upload-content.rst:9
 #: ../../source/host/configure-settings/audio-settings.rst:31
 #: ../../source/host/configure-settings/authentication-setting.rst:9
@@ -580,8 +579,8 @@ msgid "Open your domain settings."
 msgstr ""
 
 #: ../../source/host/add-content/create-content.rst:72
-#: ../../source/host/add-content/export-content.rst:52
-#: ../../source/host/add-content/export-content.rst:77
+#: ../../source/host/add-content/export-content.rst:51
+#: ../../source/host/add-content/export-content.rst:75
 #: ../../source/host/add-content/upload-content.rst:11
 #: ../../source/host/configure-settings.rst:7
 #: ../../source/host/configure-settings/audio-settings.rst:33
@@ -600,8 +599,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/add-content/create-content.rst:73
-#: ../../source/host/add-content/export-content.rst:53
-#: ../../source/host/add-content/export-content.rst:78
+#: ../../source/host/add-content/export-content.rst:52
+#: ../../source/host/add-content/export-content.rst:76
 #: ../../source/host/add-content/upload-content.rst:12
 #: ../../source/host/configure-settings.rst:8
 #: ../../source/host/configure-settings/audio-settings.rst:34
@@ -622,8 +621,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/add-content/create-content.rst:74
-#: ../../source/host/add-content/export-content.rst:54
-#: ../../source/host/add-content/export-content.rst:79
+#: ../../source/host/add-content/export-content.rst:53
+#: ../../source/host/add-content/export-content.rst:77
 #: ../../source/host/add-content/upload-content.rst:13
 #: ../../source/host/configure-settings/audio-settings.rst:35
 #: ../../source/host/configure-settings/authentication-setting.rst:13
@@ -784,42 +783,38 @@ msgstr ""
 msgid "Sharing content with others"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:17
-msgid "Uploading content sets to the Marketplace"
-msgstr ""
-
-#: ../../source/host/add-content/export-content.rst:25
+#: ../../source/host/add-content/export-content.rst:24
 msgid "Export Entities to JSON"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:27
+#: ../../source/host/add-content/export-content.rst:26
 msgid ""
 "The first method to export your content is to select specific entities "
 "from the Entity List and export them to a JSON file. Use this method if "
 "you want to:"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:29
+#: ../../source/host/add-content/export-content.rst:28
 msgid "Bake your domain's content"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:30
+#: ../../source/host/add-content/export-content.rst:29
 msgid "Back up content that is not yet live on a domain"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:31
+#: ../../source/host/add-content/export-content.rst:30
 msgid "Export only specific entities, rather than the entire domain's content set"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:33
+#: ../../source/host/add-content/export-content.rst:32
 msgid "To export entities:"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:35
+#: ../../source/host/add-content/export-content.rst:34
 msgid "In your Sandbox, pull up your tablet or HUD and go to **Create**."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:36
+#: ../../source/host/add-content/export-content.rst:35
 msgid ""
 "In the Entity List, select the entities you want to export. To select all"
 " of the entities, use the keyboard shortcut ``Ctrl`` + ``A``. To select "
@@ -829,26 +824,26 @@ msgid ""
 "entities you want to select."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:37
+#: ../../source/host/add-content/export-content.rst:36
 msgid ""
 "Once you've selected all of the entities you want to export, click "
 "'Export Selection'."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:38
+#: ../../source/host/add-content/export-content.rst:37
 msgid "Browse to a folder location and enter a name for the exported JSON file."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:39
+#: ../../source/host/add-content/export-content.rst:38
 #: ../../source/host/configure-settings/place-setting.rst:43
 msgid "Click 'Save'."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:44
+#: ../../source/host/add-content/export-content.rst:43
 msgid "Retrieve Automatic Content Archives"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:46
+#: ../../source/host/add-content/export-content.rst:45
 msgid ""
 "By default, Vircadia creates regular content archives of all active "
 "domains on the metaverse. This means that if you have a registered domain"
@@ -857,12 +852,12 @@ msgid ""
 "domain. These backup files are called *content archives*."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:48
+#: ../../source/host/add-content/export-content.rst:47
 msgid "To retrieve these backups:"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:55
-#: ../../source/host/add-content/export-content.rst:80
+#: ../../source/host/add-content/export-content.rst:54
+#: ../../source/host/add-content/export-content.rst:78
 #: ../../source/host/add-content/upload-content.rst:14
 #: ../../source/host/configure-settings/audio-settings.rst:36
 #: ../../source/host/configure-settings/authentication-setting.rst:14
@@ -880,8 +875,8 @@ msgid ""
 "http://localhost:40100/settings."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:56
-#: ../../source/host/add-content/export-content.rst:81
+#: ../../source/host/add-content/export-content.rst:55
+#: ../../source/host/add-content/export-content.rst:79
 #: ../../source/host/maintain-domain/backup-domain.rst:31
 #: ../../source/host/maintain-domain/backup-domain.rst:47
 #: ../../source/host/maintain-domain/backup-domain.rst:65
@@ -889,66 +884,62 @@ msgstr ""
 msgid "On the top menu bar, select **Content > Content Archives**."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:57
+#: ../../source/host/add-content/export-content.rst:56
 msgid ""
 "Under 'Automatic Content Archives', locate the archive you would like to "
 "download."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:58
-#: ../../source/host/add-content/export-content.rst:84
+#: ../../source/host/add-content/export-content.rst:57
+#: ../../source/host/add-content/export-content.rst:82
 #: ../../source/host/maintain-domain/backup-domain.rst:67
 msgid "From the Actions menu, click 'Download'."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:60
+#: ../../source/host/add-content/export-content.rst:59
 msgid ""
 "When you upzip the content archive, locate models.json.gz. This file "
 "contains all of the assets in your domain, along with their properties."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:65
+#: ../../source/host/add-content/export-content.rst:64
 msgid "Create a Manual Content Archive"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:67
+#: ../../source/host/add-content/export-content.rst:66
 msgid ""
 "The final method of exporting your content is to create a manual content "
 "archive of your domain. This is recommended if you want to:"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:69
+#: ../../source/host/add-content/export-content.rst:68
 msgid "Deploy your content to multiple domains"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:70
+#: ../../source/host/add-content/export-content.rst:69
 msgid "Share a copy of your custom content set with others"
 msgstr ""
 
 #: ../../source/host/add-content/export-content.rst:71
-msgid "Sell your environment on the Marketplace"
-msgstr ""
-
-#: ../../source/host/add-content/export-content.rst:73
 msgid "To create a content archive and download it:"
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:82
+#: ../../source/host/add-content/export-content.rst:80
 #: ../../source/host/maintain-domain/backup-domain.rst:48
 msgid "Under 'Manual Content Archives', click 'Generate New Archive'."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:83
+#: ../../source/host/add-content/export-content.rst:81
 msgid ""
 "Enter a name for your archive and click 'Generate Archive'. It will "
 "appear just below the 'Generate New Archive' button."
 msgstr ""
 
-#: ../../source/host/add-content/export-content.rst:86
+#: ../../source/host/add-content/export-content.rst:84
 msgid ""
 "The content archive includes models.json.gz, along with other backup "
-"files. From here, you can upload your content archive to another domain, "
-"send it to others or upload it to the Marketplace."
+"files. From here, you can upload your content archive to another domain "
+"or send it to others."
 msgstr ""
 
 #: ../../source/host/add-content/upload-content.rst:3
@@ -1403,8 +1394,8 @@ msgstr ""
 
 #: ../../source/host/configure-settings/network-settings.rst:32
 msgid ""
-"**Full**: Your domain will provide the networking information to High "
-"Fidelity's servers, so that new clients can connect to it via UDP hole "
+"**Full**: Your domain will provide the networking information to "
+"Vircadia's servers, so that new clients can connect to it via UDP hole "
 "punch without needing to make any changes to NAT or firewall settings. "
 "This may not work for all networks."
 msgstr ""
@@ -1747,65 +1738,67 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:93
 msgid ""
-"Sets whether a user can permanently create (or rez) new entities that "
-"were purchased from the Marketplace."
+"This was used to set whether a user can permanently create (or rez) new "
+"entities that were purchased from the Marketplace. Right now it does "
+"nothing."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:96
+#: ../../source/host/configure-settings/permission-settings.rst:97
 msgid "Rez Temporary Certified"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:96
+#: ../../source/host/configure-settings/permission-settings.rst:97
 msgid ""
-"Sets whether a user can create (or rez) new entities from the Marketplace"
-" for a finite lifetime (the lifetime is set in **Domain Settings > "
-"Entities > Advanced Settings > Maximum Lifetime of Temporary Entities**)."
+"This was used to set whether a user can create (or rez) new entities from"
+" the Marketplace for a finite lifetime (the lifetime is set in **Domain "
+"Settings > Entities > Advanced Settings > Maximum Lifetime of Temporary "
+"Entities**). Right now it does nothing."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:100
+#: ../../source/host/configure-settings/permission-settings.rst:102
 msgid "Write Assets"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:100
+#: ../../source/host/configure-settings/permission-settings.rst:102
 msgid ""
 "Sets whether a user can add assets (models, audio,  or other files) or "
 "make changes to the domain's asset server (your domain's file storage "
 "space)."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:103
+#: ../../source/host/configure-settings/permission-settings.rst:105
 msgid "Ignore Max Capacity"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:103
+#: ../../source/host/configure-settings/permission-settings.rst:105
 msgid ""
 "Sets whether a user can enter a domain even if it has reached or exceeded"
 " the specified capacity limit."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:106
+#: ../../source/host/configure-settings/permission-settings.rst:108
 msgid "Kick Users"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:106
+#: ../../source/host/configure-settings/permission-settings.rst:108
 msgid "Sets whether a user is allowed to ban other users from a domain."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:108
+#: ../../source/host/configure-settings/permission-settings.rst:110
 msgid "Replace Content"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:108
+#: ../../source/host/configure-settings/permission-settings.rst:110
 msgid ""
 "Sets whether a user can change the entire content set of a domain by "
 "wiping the existing content."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:111
+#: ../../source/host/configure-settings/permission-settings.rst:113
 msgid "Can Get and Set Private User Data"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:111
+#: ../../source/host/configure-settings/permission-settings.rst:113
 msgid ""
 "Sets whether a user can access and write to the 'Private User Data' "
 "property of entities in the domain. Private user data is a property of "
@@ -2130,7 +2123,7 @@ msgid "Maintain Your Domain with Scripts"
 msgstr ""
 
 #: ../../source/host/maintain-domain.rst:7
-#: ../../source/host/maintain-domain/view-logs.rst:7
+#: ../../source/host/maintain-domain/view-logs.rst:3
 msgid "View Domain Server Logs"
 msgstr ""
 
@@ -2514,32 +2507,32 @@ msgid ""
 "its running the most recent version."
 msgstr ""
 
-#: ../../source/host/maintain-domain/view-logs.rst:2
+#: ../../source/host/maintain-domain/view-logs.rst:5
 msgid ""
-"This document is outdated. FIXME: mentions High Fidelity, paths outdated,"
-" missing path for Linux servers"
-msgstr ""
-
-#: ../../source/host/maintain-domain/view-logs.rst:9
-msgid ""
-"Your domain server logs list the different events relevant to your High "
-"Fidelity domain. These can help you troubleshoot any issues with your "
+"Your domain server logs list the different events relevant to your "
+"Vircadia domain. These can help you troubleshoot any issues with your "
 "domain and understand how the different parts of your domain communicate "
 "with each other."
 msgstr ""
 
-#: ../../source/host/maintain-domain/view-logs.rst:11
+#: ../../source/host/maintain-domain/view-logs.rst:7
 msgid ""
-"Server logs are stored directly on the server in the following "
-"directories:"
+"Server logs are stored directly on the server and can be accessed as "
+"follows:"
 msgstr ""
 
-#: ../../source/host/maintain-domain/view-logs.rst:13
-msgid "**Windows**: %AppData%/Local/High Fidelity/Server Console/logs"
+#: ../../source/host/maintain-domain/view-logs.rst:9
+msgid ""
+"**Windows**: Logs can be found in the directory "
+"``%AppData%\\Local\\Vircadia\\Server Console\\logs``"
 msgstr ""
 
-#: ../../source/host/maintain-domain/view-logs.rst:14
-msgid "**Mac**: ~/Library/Application Support/High Fidelity/Server Console/Logs"
+#: ../../source/host/maintain-domain/view-logs.rst:10
+msgid ""
+"**Linux**: Logs can be accessed by running the command ``journalctl -u "
+"vircadia-domain-server@default.service`` for the domain server, or "
+"``journalctl -u vircadia-assignment-client@default.service`` for the "
+"assignment client."
 msgstr ""
 
 #: ../../source/host/server-setup.rst:34
@@ -4433,5 +4426,100 @@ msgstr ""
 #~ "you had used to install your "
 #~ "server `here <https://docs.vircadia.dev/host/server-"
 #~ "setup/linux-server.html#installation>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is outdated. FIXME: "
+#~ "Mentions High Fidelity, mentions Sandbox, "
+#~ "missing information about Linux (currently "
+#~ "the oven is only shipped with the"
+#~ " Server, not the AppImage), says that"
+#~ " Oven has a GUI application (is "
+#~ "news to me)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Most content (avatars, entities, etc) in"
+#~ " High Fidelity references external "
+#~ "resources such as textures, models, "
+#~ "scripts, and materials. When a user "
+#~ "encounters any content in the domain,"
+#~ " they need to download the content's"
+#~ " resources. Many of these resources "
+#~ "are not optimized and can take a"
+#~ " while to download. *Baking* is the"
+#~ " process of optimizing these resources "
+#~ "to make them easier to transmit, "
+#~ "store, and render, reducing load time"
+#~ " significantly."
+#~ msgstr ""
+
+#~ msgid "Uploading content sets to the Marketplace"
+#~ msgstr ""
+
+#~ msgid "Sell your environment on the Marketplace"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The content archive includes models.json.gz,"
+#~ " along with other backup files. From"
+#~ " here, you can upload your content"
+#~ " archive to another domain, send it"
+#~ " to others or upload it to the"
+#~ " Marketplace."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Full**: Your domain will provide the"
+#~ " networking information to High Fidelity's"
+#~ " servers, so that new clients can "
+#~ "connect to it via UDP hole punch"
+#~ " without needing to make any changes"
+#~ " to NAT or firewall settings. This"
+#~ " may not work for all networks."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets whether a user can permanently "
+#~ "create (or rez) new entities that "
+#~ "were purchased from the Marketplace."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets whether a user can create (or"
+#~ " rez) new entities from the "
+#~ "Marketplace for a finite lifetime (the"
+#~ " lifetime is set in **Domain Settings"
+#~ " > Entities > Advanced Settings > "
+#~ "Maximum Lifetime of Temporary Entities**)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is outdated. FIXME: "
+#~ "mentions High Fidelity, paths outdated, "
+#~ "missing path for Linux servers"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your domain server logs list the "
+#~ "different events relevant to your High"
+#~ " Fidelity domain. These can help you"
+#~ " troubleshoot any issues with your "
+#~ "domain and understand how the different"
+#~ " parts of your domain communicate "
+#~ "with each other."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Server logs are stored directly on "
+#~ "the server in the following directories:"
+#~ msgstr ""
+
+#~ msgid "**Windows**: %AppData%/Local/High Fidelity/Server Console/logs"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Mac**: ~/Library/Application Support/High "
+#~ "Fidelity/Server Console/Logs"
 #~ msgstr ""
 

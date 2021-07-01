@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-05-08 17:56+0000\n"
-"PO-Revision-Date: 2021-06-20 12:53+0000\n"
-"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"POT-Creation-Date: 2021-06-27 06:23+0000\n"
+"PO-Revision-Date: 2021-06-29 18:19+0000\n"
+"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -210,16 +210,13 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/get-model.rst:20
-#, fuzzy
 msgid ""
 "**Check Materials:** You might find that the model may be missing its "
 "textures. If that happens, first check to see if the textures are "
 "included."
 msgstr ""
 "** Verifica los materiales: ** Es posible que al modelo le falten sus "
-"texturas. Si eso sucede, primero verifica si las texturas están "
-"incluidas. Si un modelo se carga en Vircadia y no se ve bien, también "
-"puede encontrar información del error en los registros de la interfaz."
+"texturas. Si eso sucede, primero verifica si las texturas están incluidas."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -259,13 +256,12 @@ msgid "Best Practices"
 msgstr "Mejores Prácticas"
 
 #: ../../source/create/3d-models/get-model.rst:35
-#, fuzzy
 msgid ""
 "Making 3D models for Vircadia (and VR) is different than making models "
 "for films, videos, and games."
 msgstr ""
-"Hacer modelos 3D para Alta Fidelidad (y Realidad Virtual) es diferente a "
-"hacer modelos para películas, videos y juegos."
+"Hacer modelos 3D para Vircadia (y Realidad Virtual) es diferente a hacer "
+"modelos para películas, videos y juegos."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
@@ -279,18 +275,17 @@ msgstr ""
 "afectarán a su rendimiento."
 
 #: ../../source/create/3d-models/get-model.rst:38
-#, fuzzy
 msgid ""
 "Most VR headsets run at 90Hz or higher: You’ll have to keep your "
 "framerate at 90fps and be cautious about your model’s size. Models that "
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
 msgstr ""
-"La mayoría de los visores de Realidad Virtual funcionan a 90 Hz: tendrás "
-"que mantener tu velocidad de fotogramas a 90 fps y tener cuidado con el "
-"tamaño de tu modelo. Los modelos que son demasiado grandes o muy "
-"complejos pueden ralentizar la velocidad de fotogramas y hacer que las "
-"personas sientan náuseas."
+"La mayoría de los visores de Realidad Virtual funcionan a 90 Hz: tendrás que "
+"mantener tu velocidad de fotogramas a 90fps y tener cuidado con el tamaño de "
+"tu modelo. Los modelos que son demasiado grandes o muy complejos pueden "
+"ralentizar la velocidad de fotogramas y hacer que las personas sientan "
+"náuseas."
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid ""
@@ -320,14 +315,14 @@ msgid "Polycount"
 msgstr "Polycount (Número de polígonos)"
 
 #: ../../source/create/3d-models/get-model.rst:45
-#, fuzzy
 msgid ""
 "Your count should resemble that of a model for a tablet game, not too "
 "high, but not too low either. For example 50000 Polygons should be more "
 "than enough for a detailed avatar."
 msgstr ""
-"Tu número (de polígonos ) debe parecerse a la de un modelo para un juego "
-"de tablet, no demasiado alto, pero tampoco demasiado bajo."
+"Tu recuento (de polígonos) debe parecerse al de un modelo para un juego de "
+"tablet, no demasiado alto, pero tampoco demasiado bajo. Por ejemplo, 50000 "
+"polígonos deberían ser más que suficientes para un avatar detallado."
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
@@ -342,13 +337,13 @@ msgid "Mesh"
 msgstr "Mesh (Malla)"
 
 #: ../../source/create/3d-models/get-model.rst:51
-#, fuzzy
 msgid ""
 "Clean the mesh to make sure there are no N-gons and no coplanar faces. "
 "Any good 3D modelling software should do this on export."
 msgstr ""
-"Limpia la malla para asegurarte de que no haya N-gons (polígonos con N "
-"caras) ni caras coplanares."
+"Limpia la malla para asegurarte de que no haya N-gons (polígonos con N caras)"
+" ni caras coplanares. Cualquier buen software de modelado 3D debería hacer "
+"esto al exportar."
 
 #: ../../source/create/3d-models/get-model.rst:54
 msgid ""
@@ -364,9 +359,8 @@ msgstr ""
 "separados."
 
 #: ../../source/create/3d-models/get-model.rst:59
-#, fuzzy
 msgid "Vircadia’s engine only supports one UV mapping per material."
-msgstr "El motor de Alta Fidelidad solo admite un mapeo UV por material."
+msgstr "El motor de Vircadia solo admite un mapeo UV por material."
 
 #: ../../source/create/3d-models/get-model.rst:61
 #: ../../source/create/3d-models/get-model.rst:64
@@ -411,22 +405,20 @@ msgstr ""
 "máscaras translúcidas o texturas transparentes, usa PNG-32."
 
 #: ../../source/create/3d-models/get-model.rst:72
-#, fuzzy
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Vircadia."
 msgstr ""
-"No utilices PNG-48 o PNG-64, ya que ninguno de los dos es compatible con "
-"Alta Fidelidad."
+"No utilices PNG-48 o PNG-64, ya que ninguno de los dos son compatibles con "
+"Vircadia."
 
 #: ../../source/create/3d-models/get-model.rst:74
-#, fuzzy
 msgid ""
 "When loaded in the engine, textures are automatically resized to a grid "
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
 "memory."
 msgstr ""
-"Cuando se cargan en el motor, las texturas se redimensionan "
-"automáticamente a una cuadrícula de 128x128. Elija tamaños que sean "
-"múltiplos de 128."
+"Cuando se cargan en el motor, las texturas se redimensionan automáticamente "
+"a una cuadrícula de 128x128. Elija tamaños que sean múltiplos de 128 para no "
+"desperdiciar memoria."
 
 #: ../../source/create/3d-models/get-model.rst:77
 msgid ""
@@ -465,9 +457,8 @@ msgstr ""
 "significan más espacio para modelos con un número de polígonos más alto."
 
 #: ../../source/create/3d-models/get-model.rst:92
-#, fuzzy
 msgid "Baking"
-msgstr "Sombreado"
+msgstr "Cocinado"
 
 #: ../../source/create/3d-models/get-model.rst:92
 msgid ""
@@ -480,15 +471,14 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:5
-#, fuzzy
 msgid ""
 "Enrich your Vircadia experience by having 3D models in your domain with "
 "animations. For example, you can import the 3D model of a flag that "
 "appears to flutter with the wind using this feature."
 msgstr ""
-"Enriquezca su experiencia de Alta Fidelidad al tener modelos 3D en su "
-"dominio con animaciones. Por ejemplo, puede importar el modelo 3D de una "
-"bandera que parece ondear con el viento usando esta función."
+"Enriquezca su experiencia en Vircadia al tener modelos 3D en su dominio con "
+"animaciones. Por ejemplo, puede importar el modelo 3D de una bandera que "
+"parece ondear con el viento usando esta función."
 
 #: ../../source/create/3d-models/import-animations.rst:12
 #: ../../source/create/avatars/custom-animations.rst:18
@@ -505,28 +495,25 @@ msgid "Prerequisites"
 msgstr "Prerrequisitos"
 
 #: ../../source/create/3d-models/import-animations.rst:14
-#, fuzzy
 msgid ""
 "You need to be familiar with creating animations in 3D modeling tools "
 "such as Blender and Maya before importing an animation into Vircadia."
 msgstr ""
-"Debe estar familiarizado con la creación de animaciones en herramientas "
-"de modelado 3D como Blender y Maya antes de importar una animación a Alta"
-" Fidelidad."
+"Debe estar familiarizado con la creación de animaciones en herramientas de "
+"modelado 3D como Blender y Maya antes de importar una animación en Vircadia."
 
 #: ../../source/create/3d-models/import-animations.rst:18
 msgid "Prepare a 3D Model Animation"
 msgstr "Preparar una Animación de Modelo 3D"
 
 #: ../../source/create/3d-models/import-animations.rst:20
-#, fuzzy
 msgid ""
 "Before you import an animation into Vircadia, adjust some settings in the"
 " 3D modeling tool of your choice to ensure that it plays smoothly."
 msgstr ""
-"Antes de importar una animación en Alta Fidelidad, ajuste algunas "
-"configuraciones en la herramienta de modelado 3D de su elección para "
-"asegurarse de que se reproduce sin problemas."
+"Antes de importar una animación a Vircadia, ajusta algunas configuraciones "
+"en la herramienta de modelado 3D de tu elección para asegurarte de que se "
+"reproduce sin problemas."
 
 #: ../../source/create/3d-models/import-animations.rst:22
 msgid ""
@@ -535,16 +522,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:23
-#, fuzzy
 msgid ""
 "Bake your animation channels, key frames, and in-betweens to ensure that "
 "Vircadia reads everything. This is to ensure that your animation doesn't "
 "stop and start, but appears smooth and flows through each movement."
 msgstr ""
 "Registra (Bake) tus canales de animación, fotogramas clave e intermedios "
-"para asegurarte de que Alta Fidelidad lo lea todo. Esto es para asegurar "
-"que tú animación no se detenga y comience, sino que parezca suave y fluya"
-" a través de cada movimiento."
+"para asegurarte de que Vircadia lo lea todo. Esto es para asegurar que tu "
+"animación no se detenga y comience, sino que parezca suave y fluya a través "
+"de cada movimiento."
 
 #: ../../source/create/3d-models/import-animations.rst:24
 msgid ""
@@ -561,22 +547,20 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:26
-#, fuzzy
 msgid "Upload this FBX file to a cloud server and copy the URL."
-msgstr "Carga este archivo FBX en un servidor de la nube. Copia la URL."
+msgstr "Carga este archivo FBX en un servidor de la nube y copia la URL."
 
 #: ../../source/create/3d-models/import-animations.rst:30
 msgid "Import an Animation"
 msgstr "Importar una Animación"
 
 #: ../../source/create/3d-models/import-animations.rst:32
-#, fuzzy
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
 " 3D model and it's animation into Vircadia."
 msgstr ""
-"Una vez que termine de cargarse el archivo FBX de tú animación, puedes "
-"importar el modelo 3D y tú animación en Alta Fidelidad."
+"Una vez que termine de cargarse el archivo FBX de tu animación, puedes "
+"importar el modelo 3D y tú animación a Vircadia."
 
 #: ../../source/create/3d-models/import-animations.rst:34
 #: ../../source/create/3d-models/import-model.rst:17
@@ -782,7 +766,7 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:160
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/entities/zone-tutorial.md:155
-#: ../../source/create/environments.rst:30 ../../source/create/tools.rst:115
+#: ../../source/create/environments.rst:30 ../../source/create/tools.rst:81
 #: ../../source/create/wearables.md:41
 msgid "**See Also**"
 msgstr "**Ver también**"
@@ -796,15 +780,14 @@ msgid "Import a 3D Model"
 msgstr "Importa un Modelo 3D"
 
 #: ../../source/create/3d-models/import-model.rst:5
-#, fuzzy
 msgid ""
 "You can import a 3D model into Vircadia that is hosted online or on your "
 "domain's Asset Server. Importing your model brings it into your domain "
 "and adds it to your virtual world."
 msgstr ""
-"Puedes importar un modelo 3D a Vircadia que esté alojado en línea o en el"
-" servidor de activos de tu dominio. La importación de tu modelo hace que "
-"aparezca en tu dominio y lo agrega a tu mundo virtual."
+"Puedes importar un modelo 3D a Vircadia que esté alojado en línea o en el "
+"servidor de activos de tu dominio. La importación de tu modelo lo lleva a tu "
+"dominio y lo agrega a tu mundo virtual."
 
 #: ../../source/create/3d-models/import-model.rst:12
 msgid "Import Models from the Cloud"
@@ -820,13 +803,12 @@ msgstr ""
 " la nube de tú elección."
 
 #: ../../source/create/3d-models/import-model.rst:16
-#, fuzzy
 msgid ""
 "Locate and copy the URL of the model you would like to import. The model "
 "should be an FBX, glTF, or OBJ file."
 msgstr ""
-"Busca y copia la URL del modelo que deseas importar. El modelo debe tener"
-" un formato OBJ, glTF o FBX."
+"Busca y copia la URL del modelo que deseas importar. El modelo debe ser un "
+"archivo FBX, glTF o OBJ."
 
 #: ../../source/create/3d-models/import-model.rst:18
 msgid "Select the 'Model' icon."
@@ -841,7 +823,6 @@ msgid "Import Models from the Asset Server"
 msgstr "Importa modelos desde el servidor de activos"
 
 #: ../../source/create/3d-models/import-model.rst:27
-#, fuzzy
 msgid ""
 "The Asset Server hosts files or assets that can either be added as-is to "
 "a domain or that are referenced by existing entities and scripts already "
@@ -849,11 +830,11 @@ msgid ""
 "permissions to \"rez\" entities in the domain that the Asset Server is "
 "running on."
 msgstr ""
-"El Servidor de Activos aloja archivos o activos que se pueden agregar tal"
-" cual están a un dominio o ser referenciados por entidades y archivos "
-"existentes que ya están en un dominio. Para importar activos desde el "
-"Servidor de Activos, debes tener permisos para invocar (\"rez\") "
-"entidades en el dominio en el que se ejecuta el Servidor de Activos ."
+"El Servidor de Activos aloja archivos o activos que se pueden agregar tal "
+"cual a un dominio o ser referenciados por entidades y scripts que ya están "
+"en un dominio. Para importar activos desde el Servidor de Activos, debes "
+"tener permisos para invocar entidades (\"rez\") en el dominio en el que se "
+"ejecuta el Servidor de Activos ."
 
 #: ../../source/create/3d-models/import-model.rst:31
 msgid "Click 'Open this Domain's Asset Server'."
@@ -881,7 +862,6 @@ msgid ":doc:`Create New Entities <../entities/create-entities>`"
 msgstr ":doc:`Crear Nuevas Entidades <../entities/create-entities>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:7
-#, fuzzy
 msgid ""
 "The appearance of a 3D model is controlled by its materials. The "
 "materials supported in Vircadia are physically-based rendering (PBR) "
@@ -890,9 +870,8 @@ msgid ""
 msgstr ""
 "La apariencia de un modelo 3D está controlada por sus materiales. Los "
 "materiales admitidos en Vircadia son materiales de renderizado de base "
-"física (PBR). Esto significa que los materiales de un modelo 3D "
-"reflejarán o absorberán la luz como lo harían (aproximadamente) en la "
-"vida real."
+"física (PBR). Esto significa que los materiales de un modelo 3D reflejarán o "
+"absorberán la luz como lo harían en la vida real (aproximadamente)."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:15
 msgid "Introduction to Materials, Textures, and Shading"
@@ -925,16 +904,15 @@ msgid "A material contains texture and shading information."
 msgstr "Un material contiene información sobre la textura y el sombreado."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:29
-#, fuzzy
 msgid ""
 "Textures are flat images that are applied to 3D models. These add detail "
 "on how a 3D model's material looks. For example, a 3D model of a tree "
 "trunk will use a bark texture to show what the surface looks like."
 msgstr ""
-"Las texturas son imágenes planas que se aplican a modelos 3D. Estos "
-"agregan detalles sobre cómo se ve el material de un modelo 3D. Por "
-"ejemplo, un modelo 3D del tronco de un árbol utilizará una textura de "
-"corteza para mostrar cómo se ve la superficie."
+"Las texturas son imágenes planas que se aplican a modelos 3D. Estos agregan "
+"detalles sobre cómo se ve el material de un modelo 3D. Por ejemplo, un "
+"modelo 3D del tronco de un árbol utilizará una textura de corteza para "
+"mostrar cómo se ve la superficie."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:31
 msgid "Vircadia supports the use of the following texture formats:"
@@ -957,15 +935,14 @@ msgid "TIFF, TIF"
 msgstr "TIFF, TIF"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:38
-#, fuzzy
 msgid ""
 "For best performance, we recommend :doc:`baking all 3D models <../../host"
 "/add-content/bake-content>` (including textures) before loading it into "
 "Vircadia."
 msgstr ""
-"Para un mejor rendimiento, recomendamos: doc: `hornear todos los modelos "
-"3D ../../host/add-content/bake-content` (incluidas las texturas) antes de"
-" cargarlo en Vircadia."
+"Para un mejor rendimiento, recomendamos :doc:`cocinar todos los modelos 3D "
+"<../../host/add-content/bake-content>` (incluidas las texturas) antes de "
+"cargarlo en Vircadia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:42
 msgid "Shading"
@@ -987,7 +964,6 @@ msgstr ""
 " crear diferentes tipos de materiales."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:47
-#, fuzzy
 msgid ""
 "You can combine shaders with material entities on shape and zone entities"
 " to apply shaders to models and avatars. This feature was released as an "
@@ -996,13 +972,12 @@ msgid ""
 "risk*, then you can find more information at :doc:`Procedural Shaders for"
 " Models and Avatars <../materials/procedural-shaders>`."
 msgstr ""
-"Puede combinar sombreadores con entidades de material en entidades de "
-"forma y zona para aplicar sombreadores a modelos y avatares. Esta función"
-" se lanzó como ** función experimental ** y no se ha probado "
-"exhaustivamente a través de nuestros canales habituales. Si deseas "
-"intentar aplicar materiales procedurales a modelos o avatares * bajo su "
-"propio riesgo *, puede encontrar más información en: doc: `Sombras "
-"Procedurales para modelos y avatares ../materials/procedural-shaders`."
+"Puedes combinar sombreadores con entidades de material en entidades de forma "
+"y zona para aplicar sombreadores a modelos y avatares. Esta función se lanzó "
+"como una **función experimental** y no se ha probado exhaustivamente. Si "
+"deseas intentar aplicar materiales procedurales a modelos o avatares *bajo "
+"tu propio riesgo*, puedes encontrar más información en :doc:`Sombras "
+"procedurales para Modelos y Avatares <../materials/procedural-shaders>`."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:51
 msgid "**Material Channels**"
@@ -1033,29 +1008,22 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:59
-#, fuzzy
 msgid ""
 "**Using a Map:** The map is an image which you can import to define a "
 "property. You will use a map to apply a texture to your 3D model."
 msgstr ""
-"** Usando un mapa: ** El mapa es una imagen que puedes importar para "
-"definir una propiedad. Utilizarás un mapa para aplicar una textura a tu "
-"modelo 3D. Por ejemplo, tu teléfono puede tener una carcasa mate, pero el"
-" resto de tu teléfono es brillante. Puedes usar un mapa para configurar "
-"la carcasa como mate y el teléfono como brillante."
+"**Usando un mapa:** El mapa es una imagen que puedes importar para definir "
+"una propiedad. Utilizarás un mapa para aplicar una textura a tu modelo 3D."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:59
-#, fuzzy
 msgid ""
 "For instance, your phone may have a case that is matte, but the rest of "
 "your phone is shiny. You can use a map to set the case as matte and the "
 "phone as shiny."
 msgstr ""
-"** Usando un mapa: ** El mapa es una imagen que puedes importar para "
-"definir una propiedad. Utilizarás un mapa para aplicar una textura a tu "
-"modelo 3D. Por ejemplo, tu teléfono puede tener una carcasa mate, pero el"
-" resto de tu teléfono es brillante. Puedes usar un mapa para configurar "
-"la carcasa como mate y el teléfono como brillante."
+"Por ejemplo, tu teléfono puede tener una carcasa que sea mate, pero el resto "
+"de tu teléfono es brillante. Puedes usar un mapa para configurar la carcasa "
+"como mate y el teléfono como brillante."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:61
 msgid ""
@@ -1218,15 +1186,14 @@ msgid "Notes:"
 msgstr "Notas:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:94
-#, fuzzy
 msgid ""
 "If you set transparency with a texture, the transparency (alpha) must be "
 "in the material’s albedo texture, as a PNG file with transparency and "
 "*not* as a separate transparency texture."
 msgstr ""
-"Si configuras la transparencia con una textura, la transparencia (alfa) "
-"debe estar en la textura de l material albedo, como un archivo PNG con "
-"transparencia y no como una textura de transparencia separada."
+"Si configuras la transparencia con una textura, la transparencia (alfa) debe "
+"estar en la textura del material albedo, como un archivo PNG con "
+"transparencia y *no* como una textura de transparencia separada."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:95
 msgid ""
@@ -1256,13 +1223,13 @@ msgstr ""
 "variedad de niveles de transparencia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:98
-#, fuzzy
 msgid ""
 "We support using a second UV set with the following texture channels "
 "only: Emissive Texture, Normal Map and Ambient Occlusion."
 msgstr ""
 "Admitimos el uso de un segundo conjunto UV con los siguientes canales de "
-"textura únicamente: \"Light Map\" y \"Ambient Occlusion\"."
+"textura solamente: Textura Emisiva (Emissive Texture), Mapa Normal (Normal "
+"Map) y Oclusión Ambiental."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:102
 msgid "Sample Materials and Their Textures and Shading"
@@ -1819,11 +1786,10 @@ msgstr ""
 "Vircadia pueda acceder a ellos."
 
 #: ../../source/create/avatars/add-flow.rst:2
-#, fuzzy
 msgid "This document is outdated. FIXME: Links to HiFi hosted resources"
 msgstr ""
-"Este documento está desactualizado. FIXME: menciona alta fidelidad "
-"(HiFi), enlaces a recursos alojados de alta fidelidad"
+"Este documento está desactualizado. A tener en cuenta: Enlaces a recursos "
+"alojados en HiFi (High Fidelity)"
 
 #: ../../source/create/avatars/add-flow.rst:9
 msgid ""
@@ -2184,9 +2150,8 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:10
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:5
 #: ../../source/create/entities/zone-tutorial.md:12
-#, fuzzy
 msgid "**On This Page:**"
-msgstr "**En Esta Sección:**"
+msgstr "**En Esta Página:**"
 
 #: ../../source/create/avatars/avatar-standards.md:11
 msgid "[Glossary](#glossary)"
@@ -2339,7 +2304,7 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:41
 msgid ""
-"You can download the standard High Fidelity skeleton [here](http://hifi-"
+"You can download the standard Vircadia skeleton [here](http://hifi-"
 "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
 " This skeleton conforms to the specifications above."
 msgstr ""
@@ -2354,17 +2319,17 @@ msgid ""
 "Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files"
 "/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) with some modifications "
 "made for Mixamo. This skeleton system will work with the input systems "
-"already in place in High Fidelity, and will allow users to use their "
-"input devices to control their avatar's arm and finger movements (if they"
-" have any)."
+"already in place in Vircadia, and will allow users to use their input "
+"devices to control their avatar's arm and finger movements (if they have "
+"any)."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:46
 msgid ""
-"High Fidelity avatars should match the following standard skeletal "
-"structure. Each of these joints can be animated."
+"Vircadia avatars should match the following standard skeletal structure. "
+"Each of these joints can be animated."
 msgstr ""
-"Los avatares de HiFi deben coincidir con la siguiente estructura "
+"Los avatares de Vircadia deben coincidir con la siguiente estructura "
 "esquelética estándar. Cada una de estas articulaciones se puede animar."
 
 #: ../../source/create/avatars/avatar-standards.md:53
@@ -2422,8 +2387,8 @@ msgstr "Blendshapes (Interpolación de Formas)"
 
 #: ../../source/create/avatars/avatar-standards.md:96
 msgid ""
-"High Fidelity uses blendshapes to animate your avatar's face. Blendshapes"
-" allow you to specify a new state for your avatar's mesh, and facial "
+"Vircadia uses blendshapes to animate your avatar's face. Blendshapes "
+"allow you to specify a new state for your avatar's mesh, and facial "
 "positions are animated by moving between the different states of your "
 "avatar's expressions. Blendshape behaviors are defined in your avatar's "
 "FST file, and are added to the avatar mesh using a 3D modeling tool like "
@@ -2432,24 +2397,14 @@ msgid ""
 "modeling an avatar from scratch, you will likely need to specify your own"
 " facial expressions."
 msgstr ""
-"HiFi usa blendshapes para animar la cara de tu avatar. Blendshapes te "
-"permite especificar un nuevo estado para la malla de tu avatar, y las "
-"posiciones faciales se animan al moverse entre los diferentes estados de "
-"las expresiones de tu avatar. Los comportamientos del Blendshape se "
-"definen en el archivo FST de tu avatar y se agregan a la malla del avatar"
-" utilizando una herramienta de modelado 3D como Blender (Shape Keys) o "
-"Maya. El programa Fuse de Adobe y la pipeline de Mixamo te permiten "
-"exportar blendshapes como parte de tu FBX, pero si estás modelando un "
-"avatar desde cero, es probable que debas especificar tus propias "
-"expresiones faciales."
 
 #: ../../source/create/avatars/avatar-standards.md:98
 msgid ""
-"High Fidelity avatars support a number of blendshapes for creating "
-"different facial expressions."
+"Vircadia avatars support a number of blendshapes for creating different "
+"facial expressions."
 msgstr ""
-"Los avatares HiFi admiten un número de blendshapes para crear diferentes "
-"expresiones faciales."
+"Los avatares de Vircadia admiten un número de blendshapes (combinación de "
+"formas) para crear diferentes expresiones faciales."
 
 #: ../../source/create/avatars/avatar-standards.md:100
 msgid "**Basic Blendshapes**"
@@ -2659,23 +2614,13 @@ msgstr ""
 #: ../../source/create/avatars/avatar-standards.md:179
 msgid ""
 "Depending on the avatar's design, the collision hulls can be very large "
-"or small. This occurs because High Fidelity analyzes the shape of the "
-"avatar's torso (from hips to head) and tries to find the best shape that "
-"encloses the mesh. For example, if your avatar has large hips or perhaps "
-"a fully extended tail, High Fidelity thinks that the tip of the tail is "
-"part of your hips, and makes a very large collision hull.  To reduce the "
-"size of the collision hull, you can add skeleton joints to your avatar's "
-"tail."
+"or small. This occurs because Vircadia analyzes the shape of the avatar's"
+" torso (from hips to head) and tries to find the best shape that encloses"
+" the mesh. For example, if your avatar has large hips or perhaps a fully "
+"extended tail, Vircadia thinks that the tip of the tail is part of your "
+"hips, and makes a very large collision hull.  To reduce the size of the "
+"collision hull, you can add skeleton joints to your avatar's tail."
 msgstr ""
-"Dependiendo del diseño del avatar, los cascos de colisión pueden ser muy "
-"grandes o pequeños. Esto ocurre porque HiFi (High Fidelity) analiza la "
-"forma del torso del avatar (desde las caderas hasta la cabeza) y trata de"
-" encontrar la mejor forma que encierra la malla. Por ejemplo, si tu "
-"avatar tiene caderas grandes o tal vez una cola completamente extendida, "
-"HiFi piensa que la punta de la cola es parte de tus caderas y crea un "
-"casco de colisión muy grande. Para reducir el tamaño del casco de "
-"colisión, puedes agregar articulaciones de esqueleto a la cola de tu "
-"avatar."
 
 #: ../../source/create/avatars/avatar-standards.md:182
 msgid "Avatar Thumbnails"
@@ -2712,11 +2657,11 @@ msgstr "Tutorial: Modificar Materiales y Texturas usando Blender"
 msgid ""
 "Blender is an open-source 3D modeling tool that you can use to fine tune "
 "your avatar and ensure that the materials and textures render correctly "
-"in High Fidelity."
+"in Vircadia."
 msgstr ""
 "Blender es una herramienta de modelado 3D de código abierto que puedes "
 "utilizar para ajustar tu avatar y asegurarte de que los materiales y "
-"texturas se representen correctamente en High Fidelity (HiFi)."
+"texturas se renderizen correctamente en Vircadia."
 
 #: ../../source/create/avatars/blender-tutorial.md:10
 msgid ""
@@ -2803,8 +2748,8 @@ msgid "Click the 'Export FBX' button."
 msgstr "Click en el botón \"Export FBX\"."
 
 #: ../../source/create/avatars/blender-tutorial.md:32
-msgid "Now, you are ready to bring your avatar into High Fidelity."
-msgstr "Ahora, estás listo para llevar tu avatar a HiFi."
+msgid "Now, you are ready to bring your avatar into Vircadia."
+msgstr "Ahora, estás listo para traer tu avatar a Vircadia."
 
 #: ../../source/create/avatars/blender-tutorial.md:34
 msgid "Example: Update Eyelashes from an Image"
@@ -3726,9 +3671,8 @@ msgid "TAKEOFFRUN"
 msgstr "TAKEOFFRUN"
 
 #: ../../source/create/avatars/custom-animations.rst:179
-#, fuzzy
 msgid "Running jump takeoff."
-msgstr "Levantarse con salto rápidamente."
+msgstr "Saltar rápidamente al correr."
 
 #: ../../source/create/avatars/custom-animations.rst:181
 msgid "inAirStandPreApex"
@@ -4029,10 +3973,10 @@ msgid ""
 "tree, and then combining them with an arithmetic operation, such as "
 "addition or multiplication."
 msgstr ""
-"En la expresión del caso (expression case), el valor de salida de cada nodo "
-"es un número de punto flotante, y las operaciones se pueden implementar "
-"simplemente evaluando cada subárbol y luego combinándolos con una operación "
-"aritmética, como la suma o la multiplicación."
+"En la expresión del caso (expression case), el valor de salida de cada "
+"nodo es un número de punto flotante, y las operaciones se pueden "
+"implementar simplemente evaluando cada subárbol y luego combinándolos con"
+" una operación aritmética, como la suma o la multiplicación."
 
 #: ../../source/create/avatars/custom-animations.rst:266
 msgid ""
@@ -4043,13 +3987,13 @@ msgid ""
 " blending between two or more sub-trees, or combining the upper body of "
 "one animation with the lower body of another."
 msgstr ""
-"El sistema AnimNode funciona con un concepto similar. Excepto que el valor "
-"de cada nodo contiene todas las traslaciones y rotaciones de las "
+"El sistema AnimNode funciona con un concepto similar. Excepto que el "
+"valor de cada nodo contiene todas las traslaciones y rotaciones de las "
 "articulaciones del avatar. Los nodos de hoja pueden ser poses del avatar "
-"estáticas, como la pose de T, o pueden ser un solo fotograma de un clip de "
-"animación. Los nodos interiores pueden realizar operaciones como combinar "
-"dos o más subárboles o combinar el cuerpo superior de una animación con el "
-"cuerpo inferior de otra."
+"estáticas, como la pose de T, o pueden ser un solo fotograma de un clip "
+"de animación. Los nodos interiores pueden realizar operaciones como "
+"combinar dos o más subárboles o combinar el cuerpo superior de una "
+"animación con el cuerpo inferior de otra."
 
 #: ../../source/create/avatars/custom-animations.rst:272
 msgid ":doc:`Script <../../script>`"
@@ -4058,7 +4002,8 @@ msgstr ":doc:`Script <../../script>`"
 #: ../../source/create/avatars/custom-animations.rst:273
 msgid "`API Reference: MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_"
 msgstr ""
-"`Referencia de API: MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_"
+"`Referencia de API: MyAvatar "
+"<https://apidocs.vircadia.dev/MyAvatar.html>`_"
 
 #: ../../source/create/avatars/find-avatars.rst:2
 msgid ""
@@ -4076,11 +4021,12 @@ msgid ""
 "into Unity, maps their skeleton using Unity's humanoid tool, and exports "
 "them as FST and FBX files to import in-world."
 msgstr ""
-"Puedes descargar avatares para usar desde fuentes externas como TurboSquid o "
-"CGTrader. Una vez que obtengas el avatar, deberás procesarlo en Unity "
-"utilizando Vircadia Avatar Exporter. Esta herramienta importa la mayoría de "
-"los avatares a Unity, mapea su esqueleto usando la herramienta humanoide de "
-"Unity y los exporta como archivos FST y FBX para importarlos al mundo."
+"Puedes descargar avatares para usar desde fuentes externas como "
+"TurboSquid o CGTrader. Una vez que obtengas el avatar, deberás procesarlo"
+" en Unity utilizando Vircadia Avatar Exporter. Esta herramienta importa "
+"la mayoría de los avatares a Unity, mapea su esqueleto usando la "
+"herramienta humanoide de Unity y los exporta como archivos FST y FBX para"
+" importarlos al mundo."
 
 #: ../../source/create/avatars/find-avatars.rst:16
 msgid "Avatar Guidelines"
@@ -4094,11 +4040,12 @@ msgid ""
 "compatible with Vircadia, we've compiled a list of guidelines to help you"
 " \"sanity check\" it prior to use."
 msgstr ""
-"Muchos sitios externos como TurboSquid y CGTrader proporcionan avatares que "
-"puedes utilizar. Sin embargo, ten en cuenta que no todos los avatares que "
-"encuentres pueden funcionar en Vircadia. Para mejorar las posibilidades de "
-"que tu avatar descargado sea compatible con Vircadia, hemos compilado una "
-"lista de pautas para ayudarte con tú \"chequeo sanitario\" antes de usarlo."
+"Muchos sitios externos como TurboSquid y CGTrader proporcionan avatares "
+"que puedes utilizar. Sin embargo, ten en cuenta que no todos los avatares"
+" que encuentres pueden funcionar en Vircadia. Para mejorar las "
+"posibilidades de que tu avatar descargado sea compatible con Vircadia, "
+"hemos compilado una lista de pautas para ayudarte con tú \"chequeo "
+"sanitario\" antes de usarlo."
 
 #: ../../source/create/avatars/find-avatars.rst:20
 msgid "You should ensure that:"
@@ -4109,9 +4056,9 @@ msgid ""
 "You downloaded a `real-time models <https://blog.turbosquid.com/real-"
 "time-models>`_ (rigged for run-time, not rigged for render)."
 msgstr ""
-"Descarga unos `modelos en tiempo real <https://blog.turbosquid.com/real-time-"
-"models>`_ (preparados para el tiempo de ejecución, no preparados para "
-"renderizar)."
+"Descarga unos `modelos en tiempo real <https://blog.turbosquid.com/real-"
+"time-models>`_ (preparados para el tiempo de ejecución, no preparados "
+"para renderizar)."
 
 #: ../../source/create/avatars/find-avatars.rst:23
 msgid "You have the correct downloaded files"
@@ -4119,8 +4066,7 @@ msgstr "Tienes descargados los archivos correctos"
 
 #: ../../source/create/avatars/find-avatars.rst:25
 msgid "An FBX model for your avatar. We do not support other 3D model formats."
-msgstr ""
-"Un modelo FBX para tu avatar. No admitimos otros formatos de modelos 3D."
+msgstr "Un modelo FBX para tu avatar. No admitimos otros formatos de modelos 3D."
 
 #: ../../source/create/avatars/find-avatars.rst:26
 msgid ""
@@ -4144,11 +4090,11 @@ msgid ""
 "support, you can use our `Avatar Packager <create-avatars.html#package-"
 "your-avatar>`_ to import your avatar into Vircadia."
 msgstr ""
-"Si su avatar no está equipado, puedes usar :doc:`Mixamo <mixamo-tutorial>` "
-"para equipártelo. Si usas Mixamo, no es necesario que uses Unity y el "
-"exportador de avatar. Debido a que Mixamo ya usa un esqueleto que "
-"soportamos, puedes usar nuestro `Empaquetador de Avatar <create-avatars.html"
-"#package-your-avatar>`_ para importar tu avatar a Vircadia."
+"Si su avatar no está equipado, puedes usar :doc:`Mixamo <mixamo-"
+"tutorial>` para equipártelo. Si usas Mixamo, no es necesario que uses "
+"Unity y el exportador de avatar. Debido a que Mixamo ya usa un esqueleto "
+"que soportamos, puedes usar nuestro `Empaquetador de Avatar <create-"
+"avatars.html#package-your-avatar>`_ para importar tu avatar a Vircadia."
 
 #: ../../source/create/avatars/find-avatars.rst:33
 msgid "Vircadia Avatar Exporter for Unity"
@@ -4163,12 +4109,13 @@ msgid ""
 "limbs). The avatar exporter also automatically packages your avatar for "
 "use in Vircadia."
 msgstr ""
-"Vircadia admite solo un tipo estándar de aparejo para avatares. Debido a que "
-"muchos avatares no coinciden con este esqueleto, creamos Vircadia Avatar "
-"Exporter para Unity (también conocido como el \"exportador de avatares\") "
-"para convertir avatares de apariencia humana con una estructura ósea "
-"humanoide (cuerpo, cabeza y extremidades). El exportador de avatar también "
-"empaqueta automáticamente tu avatar para usarlo en Vircadia."
+"Vircadia admite solo un tipo estándar de aparejo para avatares. Debido a "
+"que muchos avatares no coinciden con este esqueleto, creamos Vircadia "
+"Avatar Exporter para Unity (también conocido como el \"exportador de "
+"avatares\") para convertir avatares de apariencia humana con una "
+"estructura ósea humanoide (cuerpo, cabeza y extremidades). El exportador "
+"de avatar también empaqueta automáticamente tu avatar para usarlo en "
+"Vircadia."
 
 #: ../../source/create/avatars/find-avatars.rst:37
 msgid ""
@@ -4178,11 +4125,12 @@ msgid ""
 " 3D modeling tool such as Blender or Maya and make modifications to your "
 "avatar prior to using the avatar exporter in Unity."
 msgstr ""
-"El exportador de avatares se escribió para mejorar el proceso de montaje y "
-"mapeo de la plataforma esquelética. Esto no afectará las animaciones ni los "
-"materiales de tu avatar. Para ajustar los materiales, deberá usar una "
-"herramienta de modelado 3D como Blender o Maya y realizar modificaciones en "
-"tu avatar antes de usar el exportador de avatar en Unity."
+"El exportador de avatares se escribió para mejorar el proceso de montaje "
+"y mapeo de la plataforma esquelética. Esto no afectará las animaciones ni"
+" los materiales de tu avatar. Para ajustar los materiales, deberá usar "
+"una herramienta de modelado 3D como Blender o Maya y realizar "
+"modificaciones en tu avatar antes de usar el exportador de avatar en "
+"Unity."
 
 #: ../../source/create/avatars/find-avatars.rst:39
 msgid "You will need the following to use this tool:"
@@ -4202,9 +4150,9 @@ msgid ""
 "<https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 msgstr ""
-"`Exportador de Avatar de Vircadia para Unity <https://github.com/vircadia/"
-"vircadia/blob/master/tools/unity-avatar-exporter/avatarExporter."
-"unitypackage?raw=true>`_ (v0.4.1)"
+"`Exportador de Avatar de Vircadia para Unity "
+"<https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-"
+"exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 
 #: ../../source/create/avatars/find-avatars.rst:45
 msgid ""
@@ -4215,13 +4163,13 @@ msgid ""
 "the drop-down. Click 'Apply' and 'Done'. We recommend doing this after "
 "correcting any issues with remapping bones."
 msgstr ""
-"Ten en cuenta que la versión recomendada de Unity no es la última versión. "
-"Si estás utilizando una versión más reciente de Unity, te recomendamos que "
-"apliques una T-Pose a tu avatar. Para hacerlo, ve al \"Inspector\" y haz "
-"clic en \"Pose\" cerca de la parte inferior del panel. Selecciona \"Enforce "
-"T-Pose\" en el menú desplegable. Haz click en \"Apply\" y \"Done\". "
-"Recomendamos hacer esto después de corregir cualquier problema con la "
-"reasignación de huesos."
+"Ten en cuenta que la versión recomendada de Unity no es la última "
+"versión. Si estás utilizando una versión más reciente de Unity, te "
+"recomendamos que apliques una T-Pose a tu avatar. Para hacerlo, ve al "
+"\"Inspector\" y haz clic en \"Pose\" cerca de la parte inferior del "
+"panel. Selecciona \"Enforce T-Pose\" en el menú desplegable. Haz click en"
+" \"Apply\" y \"Done\". Recomendamos hacer esto después de corregir "
+"cualquier problema con la reasignación de huesos."
 
 #: ../../source/create/avatars/find-avatars.rst:49
 msgid "Install the Avatar Exporter"
@@ -4233,9 +4181,9 @@ msgid ""
 "Keep in mind, however, that you can import and export multiple avatars in"
 " a single Unity project."
 msgstr ""
-"Necesitas instalar la extensión para cada proyecto de Unity que tengas. Sin "
-"embargo, ten en cuenta que puedes importar y exportar varios avatares en un "
-"solo proyecto de Unity."
+"Necesitas instalar la extensión para cada proyecto de Unity que tengas. "
+"Sin embargo, ten en cuenta que puedes importar y exportar varios avatares"
+" en un solo proyecto de Unity."
 
 #: ../../source/create/avatars/find-avatars.rst:53
 msgid ""
@@ -4243,9 +4191,9 @@ msgid ""
 "<https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ from Vircadia."
 msgstr ""
-"Descarga el `exportador de avatar <https://github.com/vircadia/vircadia/blob/"
-"master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ "
-"desde Vircadia."
+"Descarga el `exportador de avatar "
+"<https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-"
+"exporter/avatarExporter.unitypackage?raw=true>`_ desde Vircadia."
 
 #: ../../source/create/avatars/find-avatars.rst:54
 msgid "In Unity, open the 'Project' window at the bottom."
@@ -4256,8 +4204,8 @@ msgid ""
 "Right-click the 'Assets' folder, then select **Import Package > Custom "
 "Package**."
 msgstr ""
-"Click derecho en la carpeta \"Assets\", entonces selecciona **Import Package "
-"> Custom Package**."
+"Click derecho en la carpeta \"Assets\", entonces selecciona **Import "
+"Package > Custom Package**."
 
 #: ../../source/create/avatars/find-avatars.rst:62
 msgid ""
@@ -4277,9 +4225,9 @@ msgid ""
 "project."
 msgstr ""
 "En la ventana \"Importing Package\", revisa la lista de archivos que se "
-"importarán y verifica si hay conflictos con los archivos que ya están en tu "
-"proyecto. Si existe un conflicto, guarda los cambios locales en algún lugar "
-"fuera de tu proyecto."
+"importarán y verifica si hay conflictos con los archivos que ya están en "
+"tu proyecto. Si existe un conflicto, guarda los cambios locales en algún "
+"lugar fuera de tu proyecto."
 
 #: ../../source/create/avatars/find-avatars.rst:64
 msgid ""
@@ -4298,8 +4246,8 @@ msgid ""
 "If you don't already have your model open in Unity, you need to import "
 "your model. Use any of the following methods:"
 msgstr ""
-"Si aún no tienes tu modelo abierto en Unity, necesitas importar tu modelo. "
-"Utiliza cualquiera de los siguientes métodos:"
+"Si aún no tienes tu modelo abierto en Unity, necesitas importar tu "
+"modelo. Utiliza cualquiera de los siguientes métodos:"
 
 #: ../../source/create/avatars/find-avatars.rst:74
 msgid ""
@@ -4315,9 +4263,9 @@ msgid ""
 "**Import Package > Import New Asset**. Navigate to the FBX file and click"
 " 'Import'."
 msgstr ""
-"En la ventana \"Project\", haz click derecho en la carpeta \"Assets\", luego "
-"selecciona **Import Package > Import New Asset**. Navega hasta el archivo "
-"FBX y haz click en \"Import\"."
+"En la ventana \"Project\", haz click derecho en la carpeta \"Assets\", "
+"luego selecciona **Import Package > Import New Asset**. Navega hasta el "
+"archivo FBX y haz click en \"Import\"."
 
 #: ../../source/create/avatars/find-avatars.rst:76
 msgid ""
@@ -4325,7 +4273,8 @@ msgid ""
 "New Asset**. Navigate to the FBX file and click 'Import'."
 msgstr ""
 "En Unity, abre el menú \"Assets\", luego selecciona **Import Package > "
-"Import New Asset**. Navega hasta el archivo FBX y haz click en \"Import\"."
+"Import New Asset**. Navega hasta el archivo FBX y haz click en "
+"\"Import\"."
 
 #: ../../source/create/avatars/find-avatars.rst:77
 msgid ""
@@ -4351,8 +4300,8 @@ msgid ""
 "to the 'Inspector' panel."
 msgstr ""
 "Todos los huesos mapeados en Unity se resaltan en verde y se pueden "
-"seleccionar. Comprueba si falta algo. Cualquier error aparecerá en rojo. Los "
-"huesos mínimos requeridos para el mapeo son las caderas, la columna "
+"seleccionar. Comprueba si falta algo. Cualquier error aparecerá en rojo. "
+"Los huesos mínimos requeridos para el mapeo son las caderas, la columna "
 "vertebral, el pecho y la cabeza. Si falta alguno de estos, debes agregar "
 "huesos manualmente antes de continuar. Puedes hacer esto arrastrando los "
 "huesos desde el panel \"Avatar Configuration\" al panel \"Inspector\"."
@@ -4367,11 +4316,11 @@ msgid ""
 "Configuration'."
 msgstr ""
 "Los avatares de Vircadia deben tener un hueso de pecho. Si tu avatar no "
-"tiene tórax, el exportador de avatar puede sugerir una alternativa adecuada "
-"desde el panel \"Avatar Configuration\". Si el exportador no sugiere una "
-"alternativa y Humanoid no asigna correctamente el Pecho, obtendrás un error "
-"y deberás asignar manualmente un hueso al Pecho desde \"Avatar "
-"Configuration\"."
+"tiene tórax, el exportador de avatar puede sugerir una alternativa "
+"adecuada desde el panel \"Avatar Configuration\". Si el exportador no "
+"sugiere una alternativa y Humanoid no asigna correctamente el Pecho, "
+"obtendrás un error y deberás asignar manualmente un hueso al Pecho desde "
+"\"Avatar Configuration\"."
 
 #: ../../source/create/avatars/find-avatars.rst:96
 msgid "If you made any changes, click 'Done'."
@@ -4388,8 +4337,8 @@ msgid ""
 "then select 'Export New Avatar'."
 msgstr ""
 "Asegúrate de que tienes el `exportador de avatar instalado <#install-the-"
-"avatar-exporter>`_. Abre el menú de \"High Fidelity\" en la barra superior "
-"del menú, luego selecciona \"Export New Avatar\"."
+"avatar-exporter>`_. Abre el menú de \"High Fidelity\" en la barra "
+"superior del menú, luego selecciona \"Export New Avatar\"."
 
 #: ../../source/create/avatars/find-avatars.rst:102
 msgid ""
@@ -4402,8 +4351,8 @@ msgstr ""
 "Dale a tu avatar un nombre de proyecto. La ubicación del proyecto por "
 "defecto es tu directorio local de usuario ``Documents\\High Fidelity "
 "Projects``, el cual es creado automáticamente para ti. Aunque te "
-"recomendamos que mantengas tus avatares en este directorio, puedes cambiarlo "
-"a otra ubicación en tu computadora."
+"recomendamos que mantengas tus avatares en este directorio, puedes "
+"cambiarlo a otra ubicación en tu computadora."
 
 #: ../../source/create/avatars/find-avatars.rst:106
 msgid "Click 'Export'."
@@ -4414,8 +4363,8 @@ msgid ""
 "Your avatar package has been created! The File Explorer will open to your"
 " new avatar project."
 msgstr ""
-"¡Tu paquete de avatar ha sido creado! El Explorador de archivos se abrirá en "
-"tu nuevo proyecto de avatar."
+"¡Tu paquete de avatar ha sido creado! El Explorador de archivos se abrirá"
+" en tu nuevo proyecto de avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:112
 msgid ""
@@ -4424,10 +4373,10 @@ msgid ""
 "Projects\\avatar\\<project name>\\textures`` directory. Otherwise, they "
 "may not show up on your avatar."
 msgstr ""
-"Si estás utilizando texturas externas con tu modelo de avatar, copia esas "
-"texturas en el directorio ``Documents\\High Fidelity Projects\\avatar\\"
-"<project name>\\textures`` de tu usuario local. De lo contrario, es posible "
-"que no aparezcan en tu avatar."
+"Si estás utilizando texturas externas con tu modelo de avatar, copia esas"
+" texturas en el directorio ``Documents\\High Fidelity "
+"Projects\\avatar\\<project name>\\textures`` de tu usuario local. De lo "
+"contrario, es posible que no aparezcan en tu avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:116
 msgid "Test Your Avatar"
@@ -4439,9 +4388,9 @@ msgid ""
 "it with the `Vircadia Avatar Exporter for Unity`_. Check for the "
 "following:"
 msgstr ""
-"Te recomendamos que realices una \"verificación puntual\" de tu avatar en "
-"Unity antes de exportarlo con el `Exportador de avatares de Vircadia para "
-"Unity`_. Comprueba lo siguiente:"
+"Te recomendamos que realices una \"verificación puntual\" de tu avatar en"
+" Unity antes de exportarlo con el `Exportador de avatares de Vircadia "
+"para Unity`_. Comprueba lo siguiente:"
 
 #: ../../source/create/avatars/find-avatars.rst:120
 msgid ""
@@ -4452,10 +4401,10 @@ msgid ""
 "into Vircadia and may affect the rendering or animation of your avatar."
 msgstr ""
 "Confirma que no haya objetos extraños adjuntos a tu modelo. Por ejemplo, "
-"este `Avatar de Mech <https://www.cgtrader.com/free-3d-models/character/"
-"sci-fi/low-poly-construction-mech>`_ tiene un objeto azul tierra incluido en "
-"el modelo. Todos los objetos extraños se importarán a Vircadia y pueden "
-"afectar la representación o animación de tu avatar."
+"este `Avatar de Mech <https://www.cgtrader.com/free-3d-models/character"
+"/sci-fi/low-poly-construction-mech>`_ tiene un objeto azul tierra "
+"incluido en el modelo. Todos los objetos extraños se importarán a "
+"Vircadia y pueden afectar la representación o animación de tu avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:121
 msgid ""
@@ -4464,10 +4413,10 @@ msgid ""
 "'Muscles & Settings' to test your avatar's bone configuration and ensure "
 "that it works as expected."
 msgstr ""
-"Pon a prueba tus movimientos óseos. En el \"Inspector\" de Unity, abre \"Rig"
-"\". Para \"Animation Type\", elije \"Humanoid\" y luego haz click en \"Apply"
-"\". Ve a \"Muscles & Settings\" para probar la configuración ósea de tu "
-"avatar y asegurarte de que funcione como esperabas."
+"Pon a prueba tus movimientos óseos. En el \"Inspector\" de Unity, abre "
+"\"Rig\". Para \"Animation Type\", elije \"Humanoid\" y luego haz click en"
+" \"Apply\". Ve a \"Muscles & Settings\" para probar la configuración ósea"
+" de tu avatar y asegurarte de que funcione como esperabas."
 
 #: ../../source/create/avatars/find-avatars.rst:130
 msgid ""
@@ -4476,9 +4425,10 @@ msgid ""
 "<../../explore/personalize/change-avatar.html#use-your-own-custom-"
 "avatar>`_ to wear it."
 msgstr ""
-"Si todo se ve bien, necesitas `alojar tu avatar <package-avatar.html#host-"
-"your-avatar>`_ y luego `cambiar tu avatar <../../explore/personalize/change-"
-"avatar.html#use-your-own-custom-avatar>`_ para usarlo."
+"Si todo se ve bien, necesitas `alojar tu avatar <package-avatar.html"
+"#host-your-avatar>`_ y luego `cambiar tu avatar "
+"<../../explore/personalize/change-avatar.html#use-your-own-custom-"
+"avatar>`_ para usarlo."
 
 #: ../../source/create/avatars/find-avatars.rst:134
 msgid "Troubleshooting Tips"
@@ -4492,12 +4442,12 @@ msgid ""
 "packager>`_. Here are some other issues you may encounter after using a "
 "downloaded avatar and using the avatar exporter:"
 msgstr ""
-"Muchos de los errores que encontrarás describen problemas con el esqueleto "
-"del avatar. Estos están completamente documentados aquí: `Solución de "
-"problemas con el empaquetador de avatar <package-avatar.html#troubleshooting-"
-"with-the-avatar-packager>`_. Aquí hay algunos otros problemas que puedes "
-"encontrar después de usar un avatar descargado y usar el exportador de "
-"avatar:"
+"Muchos de los errores que encontrarás describen problemas con el "
+"esqueleto del avatar. Estos están completamente documentados aquí: "
+"`Solución de problemas con el empaquetador de avatar <package-avatar.html"
+"#troubleshooting-with-the-avatar-packager>`_. Aquí hay algunos otros "
+"problemas que puedes encontrar después de usar un avatar descargado y "
+"usar el exportador de avatar:"
 
 #: ../../source/create/avatars/find-avatars.rst:139
 msgid "Issue"
@@ -4523,9 +4473,10 @@ msgid ""
 "with remapping bones."
 msgstr ""
 "Ve a \"Inspector\", click en \"Configure\", y luego selecciona \"Pose\" "
-"cerca de la parte inferior del panel. Selecciona \"Enforce T-Pose\" desde la "
-"lista desplegable. Click en \"Apply\" y \"Done\". Recomendamos hacer esto "
-"después de corregir cualquier problema con la reasignación de huesos."
+"cerca de la parte inferior del panel. Selecciona \"Enforce T-Pose\" desde"
+" la lista desplegable. Click en \"Apply\" y \"Done\". Recomendamos hacer "
+"esto después de corregir cualquier problema con la reasignación de "
+"huesos."
 
 #: ../../source/create/avatars/find-avatars.rst:145
 msgid "In Unity, your avatar is a solid color."
@@ -4556,8 +4507,9 @@ msgid ""
 "In the 'Inspector', change the 'Shader' to one of the 'Standard' options."
 " All materials should now show up correctly."
 msgstr ""
-"En el \"Inspector\", cambia el \"Shader\" a una de las opciones \"Standard\""
-". Todos los materiales deberían mostrarse ahora correctamente."
+"En el \"Inspector\", cambia el \"Shader\" a una de las opciones "
+"\"Standard\". Todos los materiales deberían mostrarse ahora "
+"correctamente."
 
 #: ../../source/create/avatars/find-avatars.rst:153
 msgid "Your avatar is gray."
@@ -4572,16 +4524,16 @@ msgid ""
 "Make sure you copied your avatar's textures into the project’s textures "
 "folder"
 msgstr ""
-"Asegúrate de copiar las texturas de tu avatar en la carpeta de texturas del "
-"proyecto"
+"Asegúrate de copiar las texturas de tu avatar en la carpeta de texturas "
+"del proyecto"
 
 #: ../../source/create/avatars/find-avatars.rst:156
 msgid ""
 "Verify that your textures are in a format that we support (PNG, JPEG, "
 "JPG, TGA, TIF, or TIFF)."
 msgstr ""
-"Verifica que las texturas están en un formato que admitamos (PNG, JPEG, JPG, "
-"TGA, TIF, o TIFF)."
+"Verifica que las texturas están en un formato que admitamos (PNG, JPEG, "
+"JPG, TGA, TIF, o TIFF)."
 
 #: ../../source/create/avatars/find-avatars.rst:158
 msgid ""
@@ -4589,14 +4541,14 @@ msgid ""
 "'Inspector', and click 'Extract Textures'. Extract your textures into "
 "your asset's folder. You can do the same with Materials."
 msgstr ""
-"Si tus texturas están incrustadas en tu avatar: selecciona el archivo FBX, "
-"ve a \"Inspector\" y haz click en \"Extract Textures\". Extrae tus texturas "
-"en la carpeta de tus activos (Assets). Puedes hacer lo mismo con los "
-"Materiales."
+"Si tus texturas están incrustadas en tu avatar: selecciona el archivo "
+"FBX, ve a \"Inspector\" y haz click en \"Extract Textures\". Extrae tus "
+"texturas en la carpeta de tus activos (Assets). Puedes hacer lo mismo con"
+" los Materiales."
 
 #: ../../source/create/avatars/find-avatars.rst:162
 msgid "Your avatar is tied up into knots or laying down."
-msgstr ""
+msgstr "Tu avatar está atado en nudos o acostado."
 
 #: ../../source/create/avatars/find-avatars.rst:162
 msgid ""
@@ -4605,16 +4557,22 @@ msgid ""
 "Update your project in Unity (go to Update Existing Avatar, then browse "
 "to your avatar package)."
 msgstr ""
+"Esto podría significar que tu esqueleto no está bien. Reabre tu avatar en"
+" Unity y sigue los pasos 2-5 de `Crear un Paquete de Avatar`_ de nuevo. "
+"Actualiza tu proyecto en Unity (ve a \"Update Existing Avatar\", luego "
+"busca tu paquete de avatar)."
 
 #: ../../source/create/avatars/find-avatars.rst:167
 msgid ""
 "If it still doesn't work, ensure that you are testing the correct file "
 "that the avatar exporter created."
 msgstr ""
+"Si aún no funciona, asegúrate de que estás probando el archivo correcto "
+"que creó el exportador de avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:170
 msgid "Your avatar's skin doesn't move properly with animations."
-msgstr ""
+msgstr "La apariencia de tu avatar no se mueve correctamente con las animaciones."
 
 #: ../../source/create/avatars/find-avatars.rst:170
 msgid ""
@@ -4624,6 +4582,11 @@ msgid ""
 " such as Blender or Maya and fix the skin weighting on the avatar prior "
 "to using the avatar exporter in Unity."
 msgstr ""
+"El exportador de avatares fue escrito para mejorar el proceso de montaje "
+"y mapeo de la plataforma esquelética. Esto no afecta las animaciones de "
+"tu avatar. Para ajustar las animaciones, necesitarás usar una herramienta"
+" de modelado 3D como Blender o Maya y ajustar el peso/tamaño de la "
+"apariencia del avatar antes de usar el exportador de avatar en Unity."
 
 #: ../../source/create/avatars/fuse-tutorial.md:13
 msgid ""
@@ -4631,10 +4594,13 @@ msgid ""
 "torsos, arms and legs in Adobe Fuse can help you start your "
 "customization."
 msgstr ""
+"Utilizando Adobe Fuse, puedes crear un avatar personalizado. Las cabezas,"
+" torsos, brazos y piernas predeterminados en Adobe Fuse pueden ayudarte a"
+" comenzar tu personalización."
 
 #: ../../source/create/avatars/fuse-tutorial.md:15
 msgid "Launch Adobe Fuse."
-msgstr ""
+msgstr "Inicia Adobe Fuse."
 
 #: ../../source/create/avatars/fuse-tutorial.md:16
 msgid "Pick your default body parts. ![](_images/fuse-assemble.png)"
@@ -4663,7 +4629,7 @@ msgstr ""
 
 #: ../../source/create/avatars/fuse-tutorial.md:20
 msgid "Save your avatar."
-msgstr ""
+msgstr "Guarda tu avatar."
 
 #: ../../source/create/avatars/fuse-tutorial.md:25
 #: ../../source/create/avatars/mixamo-tutorial.md:28
@@ -4676,6 +4642,9 @@ msgid ""
 "automatically for you. You do not need any advanced knowledge of rigging "
 "to create simple animations for your avatar."
 msgstr ""
+"Mixamo es un sistema de armado (rigging) que monta automáticamente el "
+"esqueleto de tu modelo. No necesitas ningún conocimiento avanzado de "
+"rigging para crear animaciones simples para tu avatar."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:10
 msgid ""
@@ -4685,7 +4654,7 @@ msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:12
 msgid "Open your avatar in Adobe Fuse."
-msgstr ""
+msgstr "Abre tu avatar en Adobe Fuse."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:13
 msgid "Go to **File > Animate with Mixamo**."
@@ -4702,7 +4671,7 @@ msgid ""
 "Once your avatar is processed, Mixamo's auto-rigger will show your "
 "animated avatar. Ensure that Facial Blendshapes are 'Enabled' and "
 "Skeleton LOD has been set to 'Standard'. These settings ensure that your "
-"avatar will work property in High Fidelity. ![](_images/auto-rigger.png)"
+"avatar will work property in Vircadia. ![](_images/auto-rigger.png)"
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:21
@@ -4710,10 +4679,12 @@ msgid ""
 "If you made changes to your settings, click 'Update Rig'. Mixamo will re-"
 "process your avatar with these updates."
 msgstr ""
+"Si realizaste cambios en tu configuración, haz click en \"Update Rig\". "
+"Mixamo volverá a procesar tu avatar con estas actualizaciones."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:22
 msgid "Click 'Finish' to start applying animation."
-msgstr ""
+msgstr "Haz click en \"Finish\" para comenzar a aplicar la animación."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:23
 msgid ""
@@ -4729,36 +4700,49 @@ msgid ""
 "FBX (glTF also supported), doesn't mention that you don't need to "
 "package, mentions Marketplace"
 msgstr ""
+"Este documento está desactualizado. A tener en cuenta: Menciona High "
+"Fidelity, solo menciona FBX (glTF también es compatible), no se menciona "
+"lo que no necesitas para empaquetar, menciona Marketplace"
 
 #: ../../source/create/avatars/package-avatar.rst:9
 msgid ""
-"At a minimum, avatars in High Fidelity must have an FBX model and an "
-"associated FST file that includes information about how your avatar looks"
-" and behaves. Together, these two files (with any optional texture or "
-"script) form an \"avatar package\". There are two ways you can create an "
-"avatar package: by using the `Avatar Packager`_ in Interface or the `High"
-" Fidelity Avatar Exporter for Unity`_ in Unity."
+"At a minimum, avatars in Vircadia must have an FBX, glTF, or GLB model, "
+"and an associated FST file that includes information about how your "
+"avatar looks and behaves. Together, these two files (with any optional "
+"texture or script) form an \"avatar package\". There are two ways you can"
+" create an avatar package: by using the `Avatar Packager`_ in Interface "
+"or the `Vircadia Avatar Exporter for Unity (unmaintained)`_ in Unity."
 msgstr ""
+"Como mínimo, los avatares en Vircadia deben tener un modelo FBX, glTF, o GLB "
+"y un archivo FST asociado que incluya información acerca de como se ve y se "
+"comporta tu avatar. Juntos, esos dos archivos (con cualquier textura o "
+"script opcional) forman un \"paquete de avatar\". Hay dos maneras en la que "
+"puedes crear un paquete de avatar: utilizando el `Empaquetador de Avatar`_ "
+"en una interfaz o el `Exportador de Avatares de Vircadia para Unity (sin "
+"mantenimiento)`_ en Unity."
 
 #: ../../source/create/avatars/package-avatar.rst:11
 msgid ""
 "Once you have packaged your avatar, you need to host it on the cloud so "
-"that High Fidelity can access it and correctly render your avatar for all"
-" users."
+"that Vircadia can access it and correctly render your avatar for all "
+"users."
 msgstr ""
+"Una vez que hayas empaquetado tu avatar, necesitas alojarlo en la nube para "
+"que Vircadia pueda acceder a él y renderizar correctamente tu avatar para "
+"todos los usuarios."
 
 #: ../../source/create/avatars/package-avatar.rst:18
 msgid "Package Your Avatar"
-msgstr ""
+msgstr "Empaqueta Tu Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:20
 msgid ""
 "If you're reading this page, you likely already :doc:`built your own FBX "
 "model <create-avatars>` or :doc:`found and downloaded a model <find-"
-"avatars>` that you want to use in High Fidelity. Therefore, all that "
-"remains is to package your avatar and create the FST file. This file "
-"includes information about the skeleton, blendshapes, textures, and "
-"scripts used by your avatar."
+"avatars>` that you want to use in Vircadia. Therefore, all that remains "
+"is to package your avatar and create the FST file. This file includes "
+"information about the skeleton, blendshapes, textures, and scripts used "
+"by your avatar."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:22
@@ -4766,60 +4750,68 @@ msgid ""
 "We provide two ways to create an avatar package: either through Unity or "
 "through our Avatar Packager."
 msgstr ""
+"Ofrecemos dos formas de crear un paquete de avatar: a través de Unity o "
+"mediante nuestro Empaquetador de Avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:26
-msgid "High Fidelity Avatar Exporter for Unity"
-msgstr ""
+msgid "Vircadia Avatar Exporter for Unity (unmaintained)"
+msgstr "Exportador de Avatares de Vircadia para Unity (sin mantenimiento)"
 
 #: ../../source/create/avatars/package-avatar.rst:28
 msgid ""
 "In some cases, you will want to :doc:`download an avatar from an external"
-" website <find-avatars>` and use that avatar in High Fidelity. The High "
-"Fidelity Avatar Exporter for Unity (also known as the \"avatar "
-"exporter\") converts human-like avatars and packages them for use in High"
-" Fidelity."
+" website <find-avatars>` and use that avatar in Vircadia. The Vircadia "
+"Avatar Exporter for Unity (also known as the \"avatar exporter\") "
+"converts human-like avatars and packages them for use in Vircadia."
 msgstr ""
+"En algunos casos, necesitarás :doc:`descargar un avatar desde una página web "
+"externa <find-avatars>` y usar el avatar en Vircadia. El Exportador de "
+"Avatar de Vircadia para Unity (también conocido como \"exportador de avatar\""
+") convierte avatares de apariencia humana y los empaqueta para usarlos en "
+"Vircadia."
 
 #: ../../source/create/avatars/package-avatar.rst:30
 msgid ""
 "Once you have successfully used the :doc:`avatar exporter <find-avatars>`"
 " to package your avatar, you must host it somewhere on the cloud. You can"
-" host it on our servers (using the Avatar Packager), or simply copy the "
-"avatar package to your own servers."
+" upload it to Amazon S3 or a webserver for example."
 msgstr ""
+"Una vez que hayas usado exitosamente el :doc:`exportador de avatar <find-"
+"avatars>` para empaquetar tu avatar, debes alojarlo en algún lugar de la "
+"nube. Puedes subirlo a Amazon S3 o un webserver por ejemplo."
 
 #: ../../source/create/avatars/package-avatar.rst:34
 msgid "Avatar Packager"
-msgstr ""
+msgstr "Empaquetador de Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:36
 msgid ""
 "The **Avatar Packager** is a tool in Interface that identifies potential "
-"errors in your avatar's FBX model and then creates an FST file for you. "
-"Then, you can optionally use the Avatar Packager to upload your avatar to"
-" the Marketplace and host it on our servers."
+"errors in your avatar's FBX model and then creates an FST file for you."
 msgstr ""
+"El **Empaquetador de Avatar** es una herramienta en la interfaz que "
+"identifica potenciales errores en tu modelo de avatar FBX y luego crea un "
+"archivo FST para ti."
 
 #: ../../source/create/avatars/package-avatar.rst:38
 msgid "To package your avatar using the Avatar Packager:"
-msgstr ""
+msgstr "Para empaquetar tu avatar usa el Empaquetador de Avatar:"
 
 #: ../../source/create/avatars/package-avatar.rst:40
-#: ../../source/create/avatars/package-avatar.rst:63
 msgid "In Interface, go to **Edit > Avatar Packager**."
-msgstr ""
+msgstr "En la interfaz, ve a **Edit > Avatar Packager**."
 
 #: ../../source/create/avatars/package-avatar.rst:41
 msgid "In the Avatar Packager window, click 'New Project'."
-msgstr ""
+msgstr "En la ventana del Empaquetador de Avatar, haz click en \"New Proyect\"."
 
 #: ../../source/create/avatars/package-avatar.rst:42
 msgid "In the Create Project window, fill in the following details:"
-msgstr ""
+msgstr "En la ventana de \"Create Proyect\", completa los siguientes detalles:"
 
 #: ../../source/create/avatars/package-avatar.rst:44
 msgid "Name: The name you want for your avatar."
-msgstr ""
+msgstr "Name: El nombre que quieres para tu avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:45
 msgid ""
@@ -4828,10 +4820,14 @@ msgid ""
 "location. The package will contain your FBX model, an FST file, and any "
 "scripts/textures in your avatar."
 msgstr ""
+"Project Location: La ruta de la carpeta donde se almacenan los archivos "
+"de tu avatar. El Empaquetador de Avatar creará una nueva carpeta para tu "
+"proyecto en esta ubicación. El paquete contendrá tu modelo FBX, un "
+"archivo FST y cualquier script/texturas en tu avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:46
 msgid "Avatar Model: The location of your avatar's FBX model."
-msgstr ""
+msgstr "Avatar Model: La ubicación del modelo FBX de tu avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:47
 msgid ""
@@ -4839,18 +4835,23 @@ msgid ""
 " the folder location. If your avatar's textures are embedded in the FBX, "
 "you do not need to specify anything."
 msgstr ""
+"Texture Folder: Si tu avatar tiene las texturas en una carpeta a parte, "
+"especifica la ubicación de la carpeta. Si las texturas de tu avatar están"
+" incorporadas en el FBX, no necesitas especificar nada."
 
 #: ../../source/create/avatars/package-avatar.rst:48
 msgid "Click 'Create'."
-msgstr ""
+msgstr "Haz click en \"Create\"."
 
 #: ../../source/create/avatars/package-avatar.rst:50
 msgid ""
-"At this point, you have successfully packaged your avatar. If you choose "
-"to host your avatar on the cloud with your own servers (and not use High "
-"Fidelity's servers), you can close the Avatar Packager here and upload "
-"your FST file and FBX model to the cloud location of your choice."
+"At this point, you have successfully packaged your avatar. You can close "
+"the Avatar Packager here and upload your FST file and FBX model to the "
+"cloud location of your choice."
 msgstr ""
+"En este punto, haz empaquetado tu avatar exitosamente. Puedes cerrar el "
+"Empaquetador de Avatar a partir de aquí y subir tu archivo FST y modelo FBX "
+"a una ubicación de la nube de tu elección."
 
 #: ../../source/create/avatars/package-avatar.rst:54
 msgid "Host Your Avatar"
@@ -4858,106 +4859,55 @@ msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:56
 msgid ""
-"Before you can use a custom avatar, you must first host its FST and FBX "
-"files in a place that is publicly accessible to High Fidelity. We "
-"recommend hosting them on our own servers using the **Avatar Packager**, "
-"but you can also use any cloud platform including Amazon S3, Google Cloud"
-" Storage, Microsoft Azure, Dropbox, etc."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:58
-msgid ""
-"If you want to upload it to High Fidelity's servers or sell your avatar "
-"on the Marketplace, use the Avatar Packager:"
+"Before you can use a custom avatar, you must first host its FST and "
+"FBX/glTF/GLB files in a place that is publicly accessible. You can use "
+"any cloud platform including Amazon S3, Google Cloud Storage, Microsoft "
+"Azure, Dropbox, etc."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:60
-msgid ""
-"If this is a new avatar, first use the `Avatar Packager`_ to create an "
-"FST file. When you proceed with Step 3 below, you will upload this new "
-"project to our servers."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:61
-msgid "If you want to host an avatar that has already been packaged:"
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:64
-msgid "In the Avatar Packager window that opens, click 'Open Project'."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:65
-msgid "Navigate to your FST file and click 'Open'."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:66
-msgid ""
-"Click 'Upload' to upload your avatar's files to High Fidelity's servers. "
-"The `Avatar Packager <#troubleshooting-with-the-avatar-packager>`_ will "
-"display any errors or warnings that you may want to resolve prior to "
-"uploading. View `Troubleshooting with the Avatar Packager`_ to determine "
-"whether a fix is required to have a usable avatar."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:67
-msgid ""
-"Once your avatar is uploaded to the servers, click 'View in Inventory' to"
-" view your custom avatar. Unless you submit it for review, your custom "
-"avatar will remain in Draft mode, and will not be visible to others. To "
-"sell your avatar, you need to submit it for review on the Marketplace."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:71
-msgid ""
-"If you make any changes to your custom avatar, you will need to update it"
-" through the Avatar Packager to see your changes. To update, select your "
-"project and click 'Open Project' in step 1. Follow the same steps to "
-"update your avatar."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:76
 msgid "Troubleshooting with the Avatar Packager"
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:78
+#: ../../source/create/avatars/package-avatar.rst:62
 msgid ""
 "The Avatar Packager will notify you of any errors or warnings that may "
-"affect the way your avatar looks and behaves in High Fidelity. This is a "
-"list of the errors you may encounter, along with basic instructions on "
-"how to fix your avatar. **Errors** (in red) must be fixed before you "
-"upload your avatar, while **Warnings** (in orange) may or may not affect "
-"whether your avatar will show up and behave correctly in High Fidelity."
+"affect the way your avatar looks and behaves in Vircadia. This is a list "
+"of the errors you may encounter, along with basic instructions on how to "
+"fix your avatar. **Errors** (in red) must be fixed before you upload your"
+" avatar, while **Warnings** (in orange) may or may not affect whether "
+"your avatar will show up and behave correctly in Vircadia."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:82
+#: ../../source/create/avatars/package-avatar.rst:66
 msgid ""
 "Many of the errors you will encounter describe issues with the avatar's "
 "skeleton. The troubleshooting tips below will attempt to fix the errors "
 "in Unity."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:84
+#: ../../source/create/avatars/package-avatar.rst:68
 msgid ""
 "However, if the bone structure of the model does not resemble a humanoid "
 "skeleton (with two legs, two arms, hips, chest, spine, and head), then it"
-" is likely not compatible with High Fidelity. You will not be able to fix"
-" these avatars in Unity alone. Instead, you will likely need advanced "
-"knowledge of building, rigging, and mapping bones in a 3D modeling tool "
-"such as Blender or Maya."
+" is likely not compatible with Vircadia out of the box. You will not be "
+"able to fix these avatars in Unity alone. Instead, you will likely need "
+"advanced knowledge of building, rigging, and mapping bones in a 3D "
+"modeling tool such as Blender or Maya."
 msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:2
-msgid ""
-"This document is slightly outdated. FIXME: Mentions High Fidelity, HiFi "
-"hosted content"
+msgid "This document is slightly outdated. FIXME: HiFi hosted content"
 msgstr ""
+"Este documento está desactualizado. A tener en cuenta: contenido alojado en "
+"HiFi (High Fidelity)"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:9
 msgid ""
 "Subsurface Scattering (SSS) is the diffuse reflection caused by light "
 "entering a material, being absorbed, scattered, and eventually exiting "
 "the material. It's critical for surfaces like paper, marble, wax, and "
-"realistic skin. You can add this effect to your avatar in High Fidelity."
+"realistic skin. You can add this effect to your avatar in Vircadia."
 msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:16
@@ -5021,7 +4971,7 @@ msgid "Add scattering information to the avatar's FST file. For example:"
 msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:40
-msgid "Wear the avatar to observe the scattering effects in High Fidelity."
+msgid "Wear the avatar to observe the scattering effects in Vircadia."
 msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:42
@@ -5144,9 +5094,8 @@ msgid "To add a sound:"
 msgstr ""
 
 #: ../../source/create/entities/add-sounds.md:6
-#, fuzzy
 msgid "In Interface, pull up your Tablet or HUD and go to **Create**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
+msgstr "En la interfaz, abre tu tableta o HUD y ve a **Crear**."
 
 #: ../../source/create/entities/add-sounds.md:7
 msgid "Select the entity."
@@ -5957,9 +5906,8 @@ msgid "To add a new entity to your domain:"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:11
-#, fuzzy
 msgid "In Interface, pull up your tablet or HUD and go to **Create**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
+msgstr "En la interfaz, abre tu tableta o HUD y ve a **Crear**."
 
 #: ../../source/create/entities/create-entities.md:12
 msgid ""
@@ -6076,9 +6024,8 @@ msgid "[Change How Entities Look](entity-appearance)"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:41
-#, fuzzy
 msgid "[Import Your 3D Model](../3d-models/import-model)"
-msgstr ": doc: `Importa tu modelo 3D <import-model>`"
+msgstr "[Importa Tu Modelo 3D](../3d-models/import-model)"
 
 #: ../../source/create/entities/create-entities.md:42
 msgid "[Play Media in a Web Entity](web-entity-media)"
@@ -6356,9 +6303,8 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:112
 #: ../../source/create/entities/zone-tutorial.md:26
 #: ../../source/create/entities/zone-tutorial.md:157
-#, fuzzy
 msgid "[Create New Entities](create-entities)"
-msgstr ":doc:`Crear Nuevas Entidades <../entities/create-entities>`"
+msgstr "[Crea Nuevas Entidades](create-entities)"
 
 #: ../../source/create/entities/create-spotlight.md:19
 msgid "Create a Wall to Shine the Light On"
@@ -6493,9 +6439,8 @@ msgid "![](_images/spotlight.PNG)"
 msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:64
-#, fuzzy
 msgid "[Creator Tools](../tools)"
-msgstr ": doc: `Crear herramientas ../ tools`"
+msgstr "[Herramientas para Creadores](../tools)"
 
 #: ../../source/create/entities/display-youtube.md:1
 #: ../../source/create/entities/tutorials.rst:7
@@ -9877,18 +9822,16 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/tools.rst:2
-msgid ""
-"This document is slightly outdated. FIXME: Mentions Shapes app, mentions "
-"supposedly know issues"
+msgid "This document is slightly outdated. FIXME: mentions supposedly know issues"
 msgstr ""
 
 #: ../../source/create/tools.rst:9
 msgid ""
 "To build and create things in Vircadia, you need to become familiar with "
 "the tools available to you. We've created our own custom tools (including"
-" the Create app and Shapes app). In addition, you can use many external "
-"tools to fine-tune your creations. These tools can help you create "
-"anything from a cool avatar or a baseball hat, to a magic themed domain."
+" the Create app). In addition, you can use many external tools to fine-"
+"tune your creations. These tools can help you create anything from a cool"
+" avatar or a baseball hat, to a magic themed domain."
 msgstr ""
 
 #: ../../source/create/tools.rst:16
@@ -9986,50 +9929,50 @@ msgid ""
 " top-right corner of the window."
 msgstr ""
 
-#: ../../source/create/tools.rst:79
+#: ../../source/create/tools.rst:45
 msgid "External Creator Tools"
 msgstr ""
 
-#: ../../source/create/tools.rst:81
+#: ../../source/create/tools.rst:47
 msgid ""
 "We've listed some external tools you might want to use to create avatars "
 "and 3D models."
 msgstr ""
 
-#: ../../source/create/tools.rst:85
+#: ../../source/create/tools.rst:51
 msgid "Adobe Fuse"
 msgstr ""
 
-#: ../../source/create/tools.rst:87
+#: ../../source/create/tools.rst:53
 msgid ""
 "There are community reports where users are unable to easily open Adobe "
 "Fuse once installed. To work around this issue, open it multiple times "
 "successively until you are able to open the application."
 msgstr ""
 
-#: ../../source/create/tools.rst:89
+#: ../../source/create/tools.rst:55
 msgid ""
 "Use `Adobe Fuse <https://www.adobe.com/in/products/fuse.html>`_ to create"
 " a custom avatar. The default heads, torsos, arms, and legs in Adobe Fuse"
 " can help you start your customization."
 msgstr ""
 
-#: ../../source/create/tools.rst:93
+#: ../../source/create/tools.rst:59
 msgid "Mixamo"
 msgstr ""
 
-#: ../../source/create/tools.rst:95
+#: ../../source/create/tools.rst:61
 msgid ""
 "`Mixamo <https://www.mixamo.com>`_ is a rigging system that will rig your"
 " avatar's skeleton for you. You do not need any advanced knowledge of "
 "rigging to create simple animations for your avatar."
 msgstr ""
 
-#: ../../source/create/tools.rst:99
+#: ../../source/create/tools.rst:65
 msgid "Blender"
 msgstr ""
 
-#: ../../source/create/tools.rst:101
+#: ../../source/create/tools.rst:67
 msgid ""
 "`Blender <https://www.blender.org>`_ is an open-source 3D modeling "
 "creation suite which supports everything from modeling and rigging, to "
@@ -10038,22 +9981,22 @@ msgid ""
 "Vircadia."
 msgstr ""
 
-#: ../../source/create/tools.rst:105
+#: ../../source/create/tools.rst:71
 msgid "Maya"
 msgstr ""
 
-#: ../../source/create/tools.rst:107
+#: ../../source/create/tools.rst:73
 msgid ""
 "`Maya <https://www.autodesk.in/products/maya/overview>`_ is a "
 "subscription based 3D modeling toolset that you can use to create 3D "
 "models to import into Vircadia."
 msgstr ""
 
-#: ../../source/create/tools.rst:111
+#: ../../source/create/tools.rst:77
 msgid "Blocks"
 msgstr ""
 
-#: ../../source/create/tools.rst:113
+#: ../../source/create/tools.rst:79
 msgid ""
 "`Blocks <https://vr.google.com/blocks>`_ is a 3D modeling tool you can "
 "use in VR. Blocks lets you create models easily regardless of your "
@@ -10062,23 +10005,23 @@ msgid ""
 " it for the VR equipment you are using."
 msgstr ""
 
-#: ../../source/create/tools.rst:117
+#: ../../source/create/tools.rst:83
 msgid ":doc:`Entities <entities>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:118
+#: ../../source/create/tools.rst:84
 msgid ":doc:`Create New Entities <entities/create-entities>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:119
+#: ../../source/create/tools.rst:85
 msgid ":doc:`Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:120
+#: ../../source/create/tools.rst:86
 msgid ":doc:`Tutorial: Rig Your Avatar in Mixamo <avatars/mixamo-tutorial>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:121
+#: ../../source/create/tools.rst:87
 msgid ""
 ":doc:`Tutorial: Modify Materials and Textures Using Blender <avatars"
 "/blender-tutorial>`"
@@ -10182,7 +10125,7 @@ msgstr ""
 
 #: ../../source/create/wearables.md:33
 msgid ""
-"After hosting your wearable in the cloud or the Marketplace, [put it "
+"After hosting your wearable in the cloud [put it "
 "on](../explore/personalize/add-wearables) and adopt your new look."
 msgstr ""
 
@@ -11209,4 +11152,291 @@ msgstr ""
 #~ "entities, you can find more information"
 #~ " `here <https://docs.vircadia.dev/create/entities"
 #~ "/material-entity.html>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can download the standard High "
+#~ "Fidelity skeleton [here](http://hifi-"
+#~ "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
+#~ " This skeleton conforms to the "
+#~ "specifications above."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The standard humanoid skeleton of your"
+#~ " avatar should follow [HumanIK "
+#~ "Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files"
+#~ "/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) with "
+#~ "some modifications made for Mixamo. This"
+#~ " skeleton system will work with the"
+#~ " input systems already in place in"
+#~ " High Fidelity, and will allow users"
+#~ " to use their input devices to "
+#~ "control their avatar's arm and finger"
+#~ " movements (if they have any)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "High Fidelity uses blendshapes to "
+#~ "animate your avatar's face. Blendshapes "
+#~ "allow you to specify a new state"
+#~ " for your avatar's mesh, and facial"
+#~ " positions are animated by moving "
+#~ "between the different states of your "
+#~ "avatar's expressions. Blendshape behaviors are"
+#~ " defined in your avatar's FST file,"
+#~ " and are added to the avatar "
+#~ "mesh using a 3D modeling tool like"
+#~ " Blender (Shape Keys) or Maya. "
+#~ "Adobe's Fuse program and Mixamo pipeline"
+#~ " allow you to export blendshapes as"
+#~ " part of your FBX, but if you"
+#~ " are modeling an avatar from scratch,"
+#~ " you will likely need to specify "
+#~ "your own facial expressions."
+#~ msgstr ""
+#~ "HiFi usa blendshapes para animar la "
+#~ "cara de tu avatar. Blendshapes te "
+#~ "permite especificar un nuevo estado para"
+#~ " la malla de tu avatar, y las"
+#~ " posiciones faciales se animan al "
+#~ "moverse entre los diferentes estados de"
+#~ " las expresiones de tu avatar. Los"
+#~ " comportamientos del Blendshape se definen"
+#~ " en el archivo FST de tu avatar"
+#~ " y se agregan a la malla del"
+#~ " avatar utilizando una herramienta de "
+#~ "modelado 3D como Blender (Shape Keys)"
+#~ " o Maya. El programa Fuse de "
+#~ "Adobe y la pipeline de Mixamo te"
+#~ " permiten exportar blendshapes como parte"
+#~ " de tu FBX, pero si estás "
+#~ "modelando un avatar desde cero, es "
+#~ "probable que debas especificar tus "
+#~ "propias expresiones faciales."
+
+#~ msgid ""
+#~ "Depending on the avatar's design, the"
+#~ " collision hulls can be very large"
+#~ " or small. This occurs because High"
+#~ " Fidelity analyzes the shape of the"
+#~ " avatar's torso (from hips to head)"
+#~ " and tries to find the best "
+#~ "shape that encloses the mesh. For "
+#~ "example, if your avatar has large "
+#~ "hips or perhaps a fully extended "
+#~ "tail, High Fidelity thinks that the "
+#~ "tip of the tail is part of "
+#~ "your hips, and makes a very large"
+#~ " collision hull.  To reduce the size"
+#~ " of the collision hull, you can "
+#~ "add skeleton joints to your avatar's "
+#~ "tail."
+#~ msgstr ""
+#~ "Dependiendo del diseño del avatar, los"
+#~ " cascos de colisión pueden ser muy"
+#~ " grandes o pequeños. Esto ocurre "
+#~ "porque HiFi (High Fidelity) analiza la"
+#~ " forma del torso del avatar (desde"
+#~ " las caderas hasta la cabeza) y "
+#~ "trata de encontrar la mejor forma "
+#~ "que encierra la malla. Por ejemplo, "
+#~ "si tu avatar tiene caderas grandes "
+#~ "o tal vez una cola completamente "
+#~ "extendida, HiFi piensa que la punta "
+#~ "de la cola es parte de tus "
+#~ "caderas y crea un casco de "
+#~ "colisión muy grande. Para reducir el "
+#~ "tamaño del casco de colisión, puedes "
+#~ "agregar articulaciones de esqueleto a la"
+#~ " cola de tu avatar."
+
+#~ msgid ""
+#~ "Once your avatar is processed, Mixamo's"
+#~ " auto-rigger will show your animated"
+#~ " avatar. Ensure that Facial Blendshapes "
+#~ "are 'Enabled' and Skeleton LOD has "
+#~ "been set to 'Standard'. These settings"
+#~ " ensure that your avatar will work"
+#~ " property in High Fidelity. ![](_images"
+#~ "/auto-rigger.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you're reading this page, you "
+#~ "likely already :doc:`built your own FBX"
+#~ " model <create-avatars>` or :doc:`found "
+#~ "and downloaded a model <find-avatars>`"
+#~ " that you want to use in High"
+#~ " Fidelity. Therefore, all that remains "
+#~ "is to package your avatar and "
+#~ "create the FST file. This file "
+#~ "includes information about the skeleton, "
+#~ "blendshapes, textures, and scripts used "
+#~ "by your avatar."
+#~ msgstr ""
+#~ "Si estás leyendo esta página, "
+#~ "probablemente ya :doc:`hayas construido tu "
+#~ "propio modelo FBX <create-avatars>` o"
+#~ " :doc:`encontrado y descargado un modelo"
+#~ " <find-avatars>` que quieras usar en"
+#~ " High Fidelity. Por lo tanto, todo"
+#~ " lo que resta por hacer es "
+#~ "empaquetar tu avatar y crear el "
+#~ "archivo FST. Este archivo incluye "
+#~ "información sobre el esqueleto, formas "
+#~ "de expresiones, texturas y scripts "
+#~ "usados por tu avatar."
+
+#~ msgid "High Fidelity Avatar Exporter for Unity"
+#~ msgstr "Exportador de Avatar de High Fidelity para Unity"
+
+#~ msgid ""
+#~ "Before you can use a custom "
+#~ "avatar, you must first host its "
+#~ "FST and FBX files in a place "
+#~ "that is publicly accessible to High "
+#~ "Fidelity. We recommend hosting them on"
+#~ " our own servers using the **Avatar"
+#~ " Packager**, but you can also use "
+#~ "any cloud platform including Amazon S3,"
+#~ " Google Cloud Storage, Microsoft Azure, "
+#~ "Dropbox, etc."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want to upload it to "
+#~ "High Fidelity's servers or sell your "
+#~ "avatar on the Marketplace, use the "
+#~ "Avatar Packager:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If this is a new avatar, first "
+#~ "use the `Avatar Packager`_ to create "
+#~ "an FST file. When you proceed with"
+#~ " Step 3 below, you will upload "
+#~ "this new project to our servers."
+#~ msgstr ""
+
+#~ msgid "If you want to host an avatar that has already been packaged:"
+#~ msgstr ""
+
+#~ msgid "In the Avatar Packager window that opens, click 'Open Project'."
+#~ msgstr ""
+
+#~ msgid "Navigate to your FST file and click 'Open'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Upload' to upload your avatar's"
+#~ " files to High Fidelity's servers. "
+#~ "The `Avatar Packager <#troubleshooting-"
+#~ "with-the-avatar-packager>`_ will display"
+#~ " any errors or warnings that you "
+#~ "may want to resolve prior to "
+#~ "uploading. View `Troubleshooting with the "
+#~ "Avatar Packager`_ to determine whether a"
+#~ " fix is required to have a "
+#~ "usable avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once your avatar is uploaded to "
+#~ "the servers, click 'View in Inventory'"
+#~ " to view your custom avatar. Unless"
+#~ " you submit it for review, your "
+#~ "custom avatar will remain in Draft "
+#~ "mode, and will not be visible to"
+#~ " others. To sell your avatar, you "
+#~ "need to submit it for review on"
+#~ " the Marketplace."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you make any changes to your"
+#~ " custom avatar, you will need to "
+#~ "update it through the Avatar Packager"
+#~ " to see your changes. To update, "
+#~ "select your project and click 'Open "
+#~ "Project' in step 1. Follow the "
+#~ "same steps to update your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Avatar Packager will notify you "
+#~ "of any errors or warnings that may"
+#~ " affect the way your avatar looks "
+#~ "and behaves in High Fidelity. This "
+#~ "is a list of the errors you "
+#~ "may encounter, along with basic "
+#~ "instructions on how to fix your "
+#~ "avatar. **Errors** (in red) must be "
+#~ "fixed before you upload your avatar, "
+#~ "while **Warnings** (in orange) may or"
+#~ " may not affect whether your avatar"
+#~ " will show up and behave correctly"
+#~ " in High Fidelity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "However, if the bone structure of "
+#~ "the model does not resemble a "
+#~ "humanoid skeleton (with two legs, two"
+#~ " arms, hips, chest, spine, and head),"
+#~ " then it is likely not compatible "
+#~ "with High Fidelity. You will not "
+#~ "be able to fix these avatars in"
+#~ " Unity alone. Instead, you will "
+#~ "likely need advanced knowledge of "
+#~ "building, rigging, and mapping bones in"
+#~ " a 3D modeling tool such as "
+#~ "Blender or Maya."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: Mentions High Fidelity, HiFi "
+#~ "hosted content"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Subsurface Scattering (SSS) is the "
+#~ "diffuse reflection caused by light "
+#~ "entering a material, being absorbed, "
+#~ "scattered, and eventually exiting the "
+#~ "material. It's critical for surfaces "
+#~ "like paper, marble, wax, and realistic"
+#~ " skin. You can add this effect "
+#~ "to your avatar in High Fidelity."
+#~ msgstr ""
+
+#~ msgid "Wear the avatar to observe the scattering effects in High Fidelity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: Mentions Shapes app, mentions "
+#~ "supposedly know issues"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To build and create things in "
+#~ "Vircadia, you need to become familiar"
+#~ " with the tools available to you. "
+#~ "We've created our own custom tools "
+#~ "(including the Create app and Shapes "
+#~ "app). In addition, you can use "
+#~ "many external tools to fine-tune "
+#~ "your creations. These tools can help "
+#~ "you create anything from a cool "
+#~ "avatar or a baseball hat, to a "
+#~ "magic themed domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After hosting your wearable in the "
+#~ "cloud or the Marketplace, [put it "
+#~ "on](../explore/personalize/add-wearables) and adopt"
+#~ " your new look."
 #~ msgstr ""

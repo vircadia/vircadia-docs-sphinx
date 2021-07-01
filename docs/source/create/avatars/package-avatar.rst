@@ -6,9 +6,9 @@
 Package and Host Your Avatar
 ##################################
 
-At a minimum, avatars in High Fidelity must have an FBX model and an associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are two ways you can create an avatar package: by using the `Avatar Packager`_ in Interface or the `High Fidelity Avatar Exporter for Unity`_ in Unity.
+At a minimum, avatars in Vircadia must have an FBX, glTF, or GLB model, and an associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are two ways you can create an avatar package: by using the `Avatar Packager`_ in Interface or the `Vircadia Avatar Exporter for Unity (unmaintained)`_ in Unity.
 
-Once you have packaged your avatar, you need to host it on the cloud so that High Fidelity can access it and correctly render your avatar for all users.
+Once you have packaged your avatar, you need to host it on the cloud so that Vircadia can access it and correctly render your avatar for all users.
 
 .. contents:: On This Page
     :depth: 2
@@ -17,23 +17,23 @@ Once you have packaged your avatar, you need to host it on the cloud so that Hig
 Package Your Avatar
 ---------------------------
 
-If you're reading this page, you likely already :doc:`built your own FBX model <create-avatars>` or :doc:`found and downloaded a model <find-avatars>` that you want to use in High Fidelity. Therefore, all that remains is to package your avatar and create the FST file. This file includes information about the skeleton, blendshapes, textures, and scripts used by your avatar.
+If you're reading this page, you likely already :doc:`built your own FBX model <create-avatars>` or :doc:`found and downloaded a model <find-avatars>` that you want to use in Vircadia. Therefore, all that remains is to package your avatar and create the FST file. This file includes information about the skeleton, blendshapes, textures, and scripts used by your avatar.
 
 We provide two ways to create an avatar package: either through Unity or through our Avatar Packager.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-High Fidelity Avatar Exporter for Unity
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Vircadia Avatar Exporter for Unity (unmaintained)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In some cases, you will want to :doc:`download an avatar from an external website <find-avatars>` and use that avatar in High Fidelity. The High Fidelity Avatar Exporter for Unity (also known as the "avatar exporter") converts human-like avatars and packages them for use in High Fidelity. 
+In some cases, you will want to :doc:`download an avatar from an external website <find-avatars>` and use that avatar in Vircadia. The Vircadia Avatar Exporter for Unity (also known as the "avatar exporter") converts human-like avatars and packages them for use in Vircadia. 
 
-Once you have successfully used the :doc:`avatar exporter <find-avatars>` to package your avatar, you must host it somewhere on the cloud. You can host it on our servers (using the Avatar Packager), or simply copy the avatar package to your own servers. 
+Once you have successfully used the :doc:`avatar exporter <find-avatars>` to package your avatar, you must host it somewhere on the cloud. You can upload it to Amazon S3 or a webserver for example.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 Avatar Packager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The **Avatar Packager** is a tool in Interface that identifies potential errors in your avatar's FBX model and then creates an FST file for you. Then, you can optionally use the Avatar Packager to upload your avatar to the Marketplace and host it on our servers. 
+The **Avatar Packager** is a tool in Interface that identifies potential errors in your avatar's FBX model and then creates an FST file for you.
 
 To package your avatar using the Avatar Packager:
 
@@ -47,41 +47,25 @@ To package your avatar using the Avatar Packager:
    * Texture Folder: If your avatar has textures in a separate folder, specify the folder location. If your avatar's textures are embedded in the FBX, you do not need to specify anything. 
 4. Click 'Create'.
 
-At this point, you have successfully packaged your avatar. If you choose to host your avatar on the cloud with your own servers (and not use High Fidelity's servers), you can close the Avatar Packager here and upload your FST file and FBX model to the cloud location of your choice. 
+At this point, you have successfully packaged your avatar. You can close the Avatar Packager here and upload your FST file and FBX model to the cloud location of your choice. 
 
 ---------------------------
 Host Your Avatar
 ---------------------------
 
-Before you can use a custom avatar, you must first host its FST and FBX files in a place that is publicly accessible to High Fidelity. We recommend hosting them on our own servers using the **Avatar Packager**, but you can also use any cloud platform including Amazon S3, Google Cloud Storage, Microsoft Azure, Dropbox, etc.
-
-If you want to upload it to High Fidelity's servers or sell your avatar on the Marketplace, use the Avatar Packager:
-
-1. If this is a new avatar, first use the `Avatar Packager`_ to create an FST file. When you proceed with Step 3 below, you will upload this new project to our servers.
-2. If you want to host an avatar that has already been packaged: 
-
-    1. In Interface, go to **Edit > Avatar Packager**. 
-    2. In the Avatar Packager window that opens, click 'Open Project'.
-    3. Navigate to your FST file and click 'Open'.
-3. Click 'Upload' to upload your avatar's files to High Fidelity's servers. The `Avatar Packager <#troubleshooting-with-the-avatar-packager>`_ will display any errors or warnings that you may want to resolve prior to uploading. View `Troubleshooting with the Avatar Packager`_ to determine whether a fix is required to have a usable avatar. 
-4. Once your avatar is uploaded to the servers, click 'View in Inventory' to view your custom avatar. Unless you submit it for review, your custom avatar will remain in Draft mode, and will not be visible to others. To sell your avatar, you need to submit it for review on the Marketplace.
-
-.. image:: _images/inventory.png
-
-.. note:: If you make any changes to your custom avatar, you will need to update it through the Avatar Packager to see your changes. To update, select your project and click 'Open Project' in step 1. Follow the same steps to update your avatar.
-
+Before you can use a custom avatar, you must first host its FST and FBX/glTF/GLB files in a place that is publicly accessible. You can use any cloud platform including Amazon S3, Google Cloud Storage, Microsoft Azure, Dropbox, etc.
 
 -------------------------------------------
 Troubleshooting with the Avatar Packager 
 -------------------------------------------
 
-The Avatar Packager will notify you of any errors or warnings that may affect the way your avatar looks and behaves in High Fidelity. This is a list of the errors you may encounter, along with basic instructions on how to fix your avatar. **Errors** (in red) must be fixed before you upload your avatar, while **Warnings** (in orange) may or may not affect whether your avatar will show up and behave correctly in High Fidelity.
+The Avatar Packager will notify you of any errors or warnings that may affect the way your avatar looks and behaves in Vircadia. This is a list of the errors you may encounter, along with basic instructions on how to fix your avatar. **Errors** (in red) must be fixed before you upload your avatar, while **Warnings** (in orange) may or may not affect whether your avatar will show up and behave correctly in Vircadia.
 
 .. note:: 
 
     Many of the errors you will encounter describe issues with the avatar's skeleton. The troubleshooting tips below will attempt to fix the errors in Unity. 
     
-    However, if the bone structure of the model does not resemble a humanoid skeleton (with two legs, two arms, hips, chest, spine, and head), then it is likely not compatible with High Fidelity. You will not be able to fix these avatars in Unity alone. Instead, you will likely need advanced knowledge of building, rigging, and mapping bones in a 3D modeling tool such as Blender or Maya. 
+    However, if the bone structure of the model does not resemble a humanoid skeleton (with two legs, two arms, hips, chest, spine, and head), then it is likely not compatible with Vircadia out of the box. You will not be able to fix these avatars in Unity alone. Instead, you will likely need advanced knowledge of building, rigging, and mapping bones in a 3D modeling tool such as Blender or Maya. 
 
 
 .. raw:: html
@@ -203,7 +187,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             <tr>
                 <td>
                     <p id="multiple-children" style="color: orange;"><strong>Multiple top-level joints found</strong></p>
-                    <p>High Fidelity's standard avatar skeleton has one root bone (typically the hips) that every other bone is connected to, either directly or indirectly. This bone is known as the "parent", "root", or "top-level" bone and it defines the center of your avatar. <a href="avatar-standards.html#skeleton">Click here to view our standard avatar skeleton.</a></p>
+                    <p>Vircadia's standard avatar skeleton has one root bone (typically the hips) that every other bone is connected to, either directly or indirectly. This bone is known as the "parent", "root", or "top-level" bone and it defines the center of your avatar. <a href="avatar-standards.html#skeleton">Click here to view our standard avatar skeleton.</a></p>
                     <p>This error occurs when you have more than one of these "top-level" bones defined in your avatar's skeleton. Rather than a hierarchy of joints, you will likely see many bones at the same root level in your skeleton.</p>
                 </td>
                 <td>
@@ -247,7 +231,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             <tr>
                 <td>
                     <p id="spine-not-child" style="color: orange;"><strong>Spine is not a child of Hips</strong></p>
-                    <p>High Fidelity's standard avatar skeleton has one root bone, and every other bone is a descendent of that bone (either directly or indirectly). In the standard skeleton, the spine must be a direct descendent of the hips. <a href="avatar-standards.html#skeleton">Click here to view our standard avatar skeleton.</a></p>
+                    <p>Vircadia's standard avatar skeleton has one root bone, and every other bone is a descendent of that bone (either directly or indirectly). In the standard skeleton, the spine must be a direct descendent of the hips. <a href="avatar-standards.html#skeleton">Click here to view our standard avatar skeleton.</a></p>
                     <p>This warning occurs when the spine is not a direct descendent of the hip bone. </p>                    
                 </td>
                 <td>
@@ -265,7 +249,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             <tr>
                 <td>
                     <p id="spine1-not-child" style="color: orange;"><strong>Spine1 is not a child of Spine</strong></p>
-                    <p>High Fidelity's standard avatar skeleton has one root bone, and every other bone is a descendent of that bone (either directly or indirectly). In the standard skeleton, the chest bone (or Spine1) must be a direct descendent of the spine. <a href="avatar-standards.html#skeleton">Click here to view our standard avatar skeleton.</a></p>
+                    <p>Vircadia's standard avatar skeleton has one root bone, and every other bone is a descendent of that bone (either directly or indirectly). In the standard skeleton, the chest bone (or Spine1) must be a direct descendent of the spine. <a href="avatar-standards.html#skeleton">Click here to view our standard avatar skeleton.</a></p>
                     <p>This warning occurs when the chest is not a direct descendent of the spine bone. </p>                                        
                 </td>
                 <td>
@@ -283,7 +267,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             <tr>
                 <td>
                     <p id="head-not-child" style="color: orange;"><strong>Head is not a child of Spine1</strong></p>
-                    <p>High Fidelity's standard avatar skeleton has one root bone, and every other bone is a descendent of that bone (either directly or indirectly). In the standard skeleton, the head bone must be a direct descendent of the chest (or Spine1). <a href="avatar-standards.html#skeleton">Click here to view our standard avatar skeleton.</a></p>
+                    <p>Vircadia's standard avatar skeleton has one root bone, and every other bone is a descendent of that bone (either directly or indirectly). In the standard skeleton, the head bone must be a direct descendent of the chest (or Spine1). <a href="avatar-standards.html#skeleton">Click here to view our standard avatar skeleton.</a></p>
                     <p>This warning occurs when the head is not a direct descendent of the chest bone. </p>                                        
                 </td>
                 <td>
@@ -319,7 +303,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             <tr>
                 <td>
                     <p id="overlap-error" style="color: orange;"><strong>Hips/Spine/Chest Overlap</strong></p>
-                    <p>High Fidelity's standard avatar skeleton requires that each bone is placed at different locations on the body. For example, the hips cannot be positioned at the same location as the chest. This error occurs when either the hips, spine, and/or chest bones have overlapping positions.</p>
+                    <p>Vircadia's standard avatar skeleton requires that each bone is placed at different locations on the body. For example, the hips cannot be positioned at the same location as the chest. This error occurs when either the hips, spine, and/or chest bones have overlapping positions.</p>
                 </td>
                 <td>
                     <ol class="first arabic simple">
@@ -339,13 +323,13 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
                     <p>This warning occurs when you have more than the maximum number of bones allowed (which is 256 bones).</p>
                 </td>
                 <td>
-                    <p>This warning cannot be resolved in Unity or High Fidelity. To fix it, you need to remove bones from your skeleton using a 3D modeling tool of your choice.</p>
+                    <p>This warning cannot be resolved in Unity or Vircadia. To fix it, you need to remove bones from your skeleton using a 3D modeling tool of your choice.</p>
                 </td>
             </tr>
             <tr>
                 <td>
                     <p id="missing-textures" style="color: orange;"><strong>Missing # texture(s)</strong></p>
-                    <p>This warning occurs when High Fidelity cannot find textures for your avatar. This will affect the appearance of your avatar, and it may appear grey when you try to use it.</p>
+                    <p>This warning occurs when Vircadia cannot find textures for your avatar. This will affect the appearance of your avatar, and it may appear grey when you try to use it.</p>
                 </td>
                 <td>
                     <p>After you package your avatar, copy all external textures to the 'Textures' folder that we create for you. Then, update your project using the Avatar Packager.</p>
@@ -354,7 +338,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
              <tr>
                 <td>
                     <p id="unsupported-textures" style="color: orange;"><strong># unsupported texture(s) found</strong></p>
-                    <p>This warning occurs when your textures are not supported by High Fidelity. Supported image formats include PNG, JPG, JPEG, TGA, TIF, and TIFF files.</p>
+                    <p>This warning occurs when your textures are not supported by Vircadia. Supported image formats include PNG, JPG, JPEG, TGA, TIF, and TIFF files.</p>
                 </td>
                 <td>
                     <ol class="first arabic simple">
@@ -404,16 +388,16 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             <tr>
                 <td>
                     <p id="unsupported-format" style="color: orange;"><strong>Unsupported avatar model format</strong></p>
-                    <p>This warning occurs when your avatar model is not a supported format. High Fidelity only supports FBX models for avatars.
+                    <p>This warning occurs when your avatar model is not a supported format. Vircadia only supports FBX, glTF, and GLB models for avatars.
                 </td>
                 <td>
-                    <p>This warning cannot be resolved in Unity or High Fidelity. To fix it, you need to open your model in the 3D modeling tool of your choice, and export your model as an FBX model. </p>
+                    <p>This warning cannot be resolved in Unity or Vircadia. To fix it, you need to open your model in the 3D modeling tool of your choice, and export your model as an FBX, glTF, or GLB file. </p>
                 </td>
             </tr>
             <tr>
                 <td>
                     <p id="short-avatar" style="color: orange;"><strong>Avatar is possibly too short</strong></p>
-                    <p>This warning occurs when High Fidelity detects that your avatar will appear very small when you use it.</p>
+                    <p>This warning occurs when Vircadia detects that your avatar will appear very small when you use it.</p>
                 </td>
                 <td>
                     <ol class="first arabic simple">
@@ -427,7 +411,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
             <tr>
                 <td>
                     <p id="tall-avatar" style="color: orange;"><strong>Avatar is possibly too tall</strong></p>
-                    <p>This warning occurs when High Fidelity detects that your avatar will appear very large when you use it.</p>                    
+                    <p>This warning occurs when Vircadia detects that your avatar will appear very large when you use it.</p>                    
                 </td>
                 <td>
                      <ol class="first arabic simple">
@@ -444,9 +428,8 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
                     <p>This warning occurs when your avatar is not rigged.</p>
                 </td>
                 <td>
-                    <p>This warning cannot be resolved in Unity or High Fidelity. To fix it, we recommend running your avatar model through an auto-rigging tool such as Mixamo. </p>
+                    <p>This warning cannot be resolved in Unity or Vircadia. To fix it, we recommend running your avatar model through an auto-rigging tool such as Mixamo. </p>
                 </td>
             </tr>
        </tbody>
     </table>
-

@@ -29,7 +29,7 @@ Choose from the following automatic networking options:
 
 * **None**: The network address and port displayed will be used to connect your domain. They are never automatically updated, and your domain must be reachable at the address and port you set.
 * **IP Only**: Your domain will update the network address displayed to whatever it detects as your current IP address. The port displayed will not be automatically changed, so your domain must be reachable on the specified port. This option is recommended for a local server running on a home network with a dynamically changing public IP address.
-* **Full**: Your domain will provide the networking information to High Fidelity's servers, so that new clients can connect to it via UDP hole punch without needing to make any changes to NAT or firewall settings. This may not work for all networks.
+* **Full**: Your domain will provide the networking information to Vircadia's servers, so that new clients can connect to it via UDP hole punch without needing to make any changes to NAT or firewall settings. This may not work for all networks.
 
 Depending on the automatic networking method you choose, define the network address and/or port in the fields provided. 
 
