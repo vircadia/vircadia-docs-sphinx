@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-06-29 18:19+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-07-04 15:53+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -200,6 +200,9 @@ msgid ""
 "before you use it. It is your responsibility to ensure that you have "
 "sufficient rights to use the content."
 msgstr ""
+"**Verifica los términos de licencia:** Asegúrate de revisar los términos de "
+"licencia de un modelo antes de usarlo. Es tu responsabilidad asegurarte de "
+"tener los derechos suficientes para utilizar el contenido."
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -208,6 +211,10 @@ msgid ""
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
 msgstr ""
+"Cuando hagas que un modelo 3D esté disponible en tu servidor de Vircadia, "
+"los visitantes obtienen los links a esos archivos de la misma que lo harían "
+"al ver una imagen dentro de un sitio web. Deberías asegurarte de que tienes "
+"los derechos para redistribuir el contenido 3D."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -224,6 +231,10 @@ msgid ""
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
+"Si un modelo se carga dentro de Vircadia y no se ve correctamente, también "
+"podrías encontrar la información asociada al error en la interfaz de \"logs\""
+" (registros). Mira `Donde puedo encontrar los archivos de registro de la "
+"interfaz? <../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
@@ -430,6 +441,13 @@ msgid ""
 "maps, etc. don't need to be nearly as high resolution as the main color "
 "texture."
 msgstr ""
+"Si bien las texturas se reducen automáticamente si no encajan en la memoria "
+"de texturas, tiene sentido usar una resolución lo más baja posible para "
+"reducir el tamaño de los archivos y reducir la tensión en las máquinas de "
+"gama baja al reducir la escala y recomprimir las texturas. Por ejemplo una "
+"textura de 4096x4096 debería ser suficiente para detallar un avatar. Los "
+"mapas normales, mapas de emisión, etc. no necesitan tener una resolución tan "
+"alta como la textura de color principal."
 
 #: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw Calls"
@@ -469,6 +487,13 @@ msgid ""
 "might profit from slightly lower filesizes. See :doc:`Bake Your Content "
 "<../../host/add-content/bake-content>`."
 msgstr ""
+"Los activos de horneado pueden ser muy efectivos para reducir los tiempos de "
+"carga y reducir la tensión en la CPU de destino. Las texturas horneadas se "
+"pueden cargar directamente en la memoria de video sin que la CPU tenga que "
+"leerlas y comprimirlas de antemano. (También ellas no necesitan ser "
+"reducidas). Los modelos horneados pueden beneficiarse de tamaños de archivo "
+"ligeramente inferiores. Mira :doc:`Hornear Tu Contenido <../../host/"
+"add-content/bake-content>`."
 
 #: ../../source/create/3d-models/import-animations.rst:5
 msgid ""
@@ -520,6 +545,8 @@ msgid ""
 "We recommend setting the framerate to 30 fps as a good compromise between"
 " smoothness and file size."
 msgstr ""
+"Recomendamos establecer la velocidad de fotogramas (framerate) en 30 fps "
+"como un buen compromiso entre la suavidad y el tamaño del archivo."
 
 #: ../../source/create/3d-models/import-animations.rst:23
 msgid ""
@@ -545,6 +572,8 @@ msgid ""
 "Export your animation as an FBX file. (Reading animations from other "
 "formats like glTF is currently not supported.)"
 msgstr ""
+"Exporta tu animación como un archivo FBX. (Actualmente, no es compatible "
+"leer animaciones de otros formatos como hlTF)"
 
 #: ../../source/create/3d-models/import-animations.rst:26
 msgid "Upload this FBX file to a cloud server and copy the URL."
@@ -898,6 +927,12 @@ msgid ""
 " falls on it. The 3D model of a brick wall will not shine, but will "
 "reflect enough light for you to observe its colors and surface."
 msgstr ""
+"Dado que Vircadia admite materiales de renderizado basados en la física (PBR)"
+", tú modelo se comportará como un objeto del mundo real cuando se exponga a "
+"la luz. Por ejemplo, el mismo modelo 3D de una llave brillará y reflejará "
+"cualquier luz que incida sobre ella. El modelo 3D de una pared de ladrillos "
+"no brillará, pero reflejará la suficiente luz para que observes sus colores "
+"y superficie."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:23
 msgid "A material contains texture and shading information."
@@ -998,6 +1033,9 @@ msgid ""
 "**Setting a Value:** The value of a channel is a value set on a slider. "
 "Setting a value is like turning off or turning on a switch."
 msgstr ""
+"**Establecer un Valor:** El valor de un canal es un valor establecido por un "
+"control deslizante. Establecer un valor es como apagar o encender un "
+"interruptor."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:56
 msgid ""
@@ -1006,6 +1044,10 @@ msgid ""
 "value. If you want different parts of an object to reflect varied "
 "roughness, you'll need to use a map."
 msgstr ""
+"Por ejemplo, si miras tu teléfono, algunas partes son brillantes y otras son "
+"mate. Cuando usas un valor, todo el objeto refleja ese valor. Si quieres que "
+"diferentes partes de un objeto reflejen una rugosidad variada, deberás usar "
+"un mapa."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:59
 msgid ""
@@ -1260,6 +1302,10 @@ msgid ""
 "<../../_static/resources/3d-"
 "models/Sample_Material_Textures_and_Shading_Guide.html>`_."
 msgstr ""
+"Hemos listado toda la información del material (incluidas las texturas, el "
+"sombreado y los valores de canal y mapas) para estos objetos de muestra `"
+"aquí <../../_static/resources/3d-models/"
+"Sample_Material_Textures_and_Shading_Guide.html>`_."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:116
 msgid "Set Material Values in Blender"
@@ -1267,7 +1313,7 @@ msgstr "Establecer valores del Material en Blender"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:121
 msgid "This section is outdated."
-msgstr ""
+msgstr "Esta sección está desactualizada."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:123
 msgid ""
@@ -1276,10 +1322,14 @@ msgid ""
 "material properties and textures in Blender to match the PBR material "
 "textures in Vircadia."
 msgstr ""
+"Cuando creas un modelo en Blender, debes exportarlo en formato FBX, glTF, "
+"GLB u OBJ para usarlo en Vircadia. Además, debes modificar las propiedades y "
+"texturas del material en Blender para que coincidan con las texturas del "
+"material PBR en Vircadia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:125
 msgid "Doing so ensures that your model appears how you intend it to."
-msgstr ""
+msgstr "Al hacerlo, te aseguras de que tu modelo se vea como lo deseas."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:127
 msgid ""
@@ -1289,6 +1339,12 @@ msgid ""
 "will multiplied together. This can be useful for creating highly "
 "performant colored models using grey-scale textures and vertex colors."
 msgstr ""
+"Por defecto, cualquier propiedad de material establecida con una textura "
+"anulará una propiedad establecida con un valor. La única excepción a esto es "
+"en el caso del color del vértice y una textura, en cuyo caso el color del "
+"vértice y la textura se multiplicarán juntos. Esto puede resultar útil para "
+"crear modelos de colores de alto rendimiento utilizando texturas de escala "
+"de grises y colores de vértice."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:130
 msgid ""
@@ -1298,6 +1354,11 @@ msgid ""
 "channel. It should be noted that models exported as OBJ may not have full"
 " PBR material support in Vircadia yet."
 msgstr ""
+"Hemos incluido imágenes donde se resaltan los campos correspondientes a cada "
+"canal PBR admitido en Blender, junto con detalles sobre qué valores y "
+"colores corresponden al rango correspondiente de ese canal. Cabe señalar que "
+"es posible que los modelos exportados como OBJ aún no tengan soporte de "
+"material PBR completo en Vircadia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:139
 msgid "Set Material Values in Maya"
@@ -1306,6 +1367,7 @@ msgstr "Conjunto de Valores del Material en Maya"
 #: ../../source/create/3d-models/pbr-materials-guide.rst:144
 msgid "This section hasn't been tested in a long while and might be outdated."
 msgstr ""
+"Esta sección no se ha probado en mucho tiempo y podría estar desactualizada."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:146
 msgid ""
@@ -1801,6 +1863,14 @@ msgid ""
 "<https://docs.vircadia.com/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_."
 " In order to use the Flow App, your avatar must contain flow threads."
 msgstr ""
+"Puedes simular la física en el cabello, la ropa y las partes del cuerpo de "
+"tu avatar con un poco de programación y la ayuda de la funcionalidad flow de "
+"Vircadia. El concepto de \"Flow\" se trata simplemente de imitar el "
+"movimiento natural del cabello y otros accesorios de su avatar. Puedes "
+"cambiar fácilmente la configuración de flow de tu avatar utilizando la `"
+"Aplicación Flow <https://docs.vircadia.com/_static/resources/script/flow/"
+"flowAppCpp/flowAppCpp.js>`_. Para utilizar la aplicación Flow, tu avatar "
+"debe contener hilos de flujo (flow threads)."
 
 #: ../../source/create/avatars/add-flow.rst:16
 msgid "Prepare Your Avatar"
@@ -1862,6 +1932,10 @@ msgid ""
 " into Vircadia to configure your flow settings. See :doc:`Load an "
 "Interface Script </script/interface-scripts>`"
 msgstr ""
+"Carga la `aplicación Flow <https://docs.vircadia.com/_static/resources/"
+"script/flow/flowAppCpp/flowAppCpp.js>`_ en Vircadia para configurar tus "
+"ajustes de flujo. Mira :doc:`Cargar un script de Interfaz</script/interface-"
+"scripts>`"
 
 #: ../../source/create/avatars/add-flow.rst:33
 msgid ""
@@ -2085,6 +2159,8 @@ msgid ""
 "`flowAppCpp.js <https://docs.vircadia.com/ "
 "_static/resources/script/flow/flowAppCpp/ flowAppCpp.js>`_"
 msgstr ""
+"`flowAppCpp.js <https://docs.vircadia.com/ _static/resources/script/flow/"
+"flowAppCpp/ flowAppCpp.js>`_"
 
 #: ../../source/create/avatars/add-flow.rst:121
 msgid "Mannequin with Hair"
@@ -2142,6 +2218,13 @@ msgid ""
 "avatar can be fine-tuned using blendshapes to animate the face and "
 "scripting to define advanced behaviors."
 msgstr ""
+"Este documento describe los estándares que debes seguir cuando [creas tu "
+"avatar](create-avatars). Tu avatar usa huesos para animar las extremidades "
+"del personaje y definir la escala variable de las extremidades. Puedes "
+"agregar huesos personalizados para ajustar aún más la forma del avatar. La "
+"personalización de tu avatar se puede ajustar utilizando combinaciones de "
+"formas (blendshapes) para animar la cara y scripts (secuencias de comandos) "
+"para definir comportamientos avanzados."
 
 #: ../../source/create/avatars/avatar-standards.md:10
 #: ../../source/create/entities/avatar-interactions.md:5
@@ -2155,31 +2238,31 @@ msgstr "**En Esta Página:**"
 
 #: ../../source/create/avatars/avatar-standards.md:11
 msgid "[Glossary](#glossary)"
-msgstr ""
+msgstr "[Glosario](#glossary)"
 
 #: ../../source/create/avatars/avatar-standards.md:12
 msgid "[Reference Pose](#reference-pose)"
-msgstr ""
+msgstr "[Pose de Referencia](#reference-pose)"
 
 #: ../../source/create/avatars/avatar-standards.md:13
 msgid "[Skeleton](#skeleton)"
-msgstr ""
+msgstr "[Esqueleto](#skeleton)"
 
 #: ../../source/create/avatars/avatar-standards.md:14
 msgid "[Flow Bones](#flow-bones)"
-msgstr ""
+msgstr "[Huesos de Flow](#flow-bones)"
 
 #: ../../source/create/avatars/avatar-standards.md:15
 msgid "[Look-at Vectors](#look-at-vectors)"
-msgstr ""
+msgstr "[Ver Vectores](#look-at-vectors)"
 
 #: ../../source/create/avatars/avatar-standards.md:16
 msgid "[Blendshapes](#blendshapes)"
-msgstr ""
+msgstr "[Combinaciones de Forma (blendshapes)](#blendshapes)"
 
 #: ../../source/create/avatars/avatar-standards.md:17
 msgid "[Other Considerations](#other-considerations)"
-msgstr ""
+msgstr "[Otras consideraciones](#other-considerations)"
 
 #: ../../source/create/avatars/avatar-standards.md:19
 msgid "Glossary"
@@ -2300,7 +2383,7 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:39
 msgid "![](_images/hifi-skel.png)"
-msgstr ""
+msgstr "![](_images/hifi-skel.png)"
 
 #: ../../source/create/avatars/avatar-standards.md:41
 msgid ""
@@ -2308,6 +2391,9 @@ msgid ""
 "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
 " This skeleton conforms to the specifications above."
 msgstr ""
+"Puedes descargar el esqueleto estándar de Vircadia [aquí](http://hifi-content"
+".s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx). "
+"Este esqueleto se ajusta a las especificaciones anteriores."
 
 #: ../../source/create/avatars/avatar-standards.md:43
 msgid "Skeleton"
@@ -2323,6 +2409,13 @@ msgid ""
 "devices to control their avatar's arm and finger movements (if they have "
 "any)."
 msgstr ""
+"El esqueleto humanoide estándar de tu avatar debe seguir el [Esqueleto "
+"HumanIK](http://download.autodesk.com/global/docs/maya2014/en_us/index."
+"html?url=files/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) con algunas "
+"modificaciones hechas para Mixamo. Este sistema de esqueleto funcionará con "
+"los sistemas de entrada que ya existen en Vircadia y permitirá a los "
+"usuarios usar sus dispositivos de entrada para controlar los movimientos de "
+"los dedos y los brazos de su avatar (si los tienen)."
 
 #: ../../source/create/avatars/avatar-standards.md:46
 msgid ""
@@ -2334,7 +2427,7 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:53
 msgid "![](_images/avatar-skeleton.png)"
-msgstr ""
+msgstr "![](_images/avatar-skeleton.png)"
 
 #: ../../source/create/avatars/avatar-standards.md:55
 msgid "Flow Bones"
@@ -2347,6 +2440,10 @@ msgid ""
 "animator. ![](_images/flow-bones.png) (Many thanks to Akazukin for the "
 "model Ouka Miko(櫻歌ミコ) used in this diagram!)"
 msgstr ""
+"Los prefijos `sim` and `flow` están reservados para los huesos de flujo ("
+"flow bones), como ropa, cabello y colas. Estos huesos _no_ deben ser "
+"animados por un animador. ![](_images/flow-bones.png) (Muchas gracias a "
+"Akazukin por el modelo Ouka Miko(櫻歌ミコ) utilizado en este diagrama!)"
 
 #: ../../source/create/avatars/avatar-standards.md:60
 msgid "For example, consider a full cape that surrounds the avatar:"
