@@ -77,6 +77,7 @@ Uninstall the package.
 
 ```sh
 # Ubuntu
+# Note: 'apt-get purge' will remove configuration files as well. Use 'apt-get remove' to keep them.
 sudo apt-get purge vircadia-server
 # Amazon Linux 2
 sudo yum remove vircadia-server
