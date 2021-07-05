@@ -10,19 +10,6 @@ if "%SPHINXBUILD%" == "" (
 set SOURCEDIR=source
 set BUILDDIR=build
 
-set "BUILDGENERAL=%SOURCEDIR%/developer/build/BUILD.md"
-set "BUILDANDROID=%SOURCEDIR%/developer/build/BUILD_ANDROID.md"
-set "BUILDLINUX=%SOURCEDIR%/developer/build/BUILD_LINUX.md"
-set "BUILDOSX=%SOURCEDIR%/developer/build/BUILD_OSX.md"
-set "BUILDWIN=%SOURCEDIR%/developer/build/BUILD_WIN.md"
-set "INSTALLER=%SOURCEDIR%/developer/installer/INSTALLER.md"
-curl -o %BUILDGENERAL% https://raw.githubusercontent.com/vircadia/vircadia/master/BUILD.md
-curl -o %BUILDANDROID% https://raw.githubusercontent.com/vircadia/vircadia/master/BUILD_ANDROID.md
-curl -o %BUILDLINUX% https://raw.githubusercontent.com/vircadia/vircadia/master/BUILD_LINUX.md
-curl -o %BUILDOSX% https://raw.githubusercontent.com/vircadia/vircadia/master/BUILD_OSX.md
-curl -o %BUILDWIN% https://raw.githubusercontent.com/vircadia/vircadia/master/BUILD_WIN.md
-curl -o %INSTALLER% https://raw.githubusercontent.com/vircadia/vircadia/master/INSTALLER.md
-
 if "%1" == "" goto help
 
 %SPHINXBUILD% >NUL 2>NUL
