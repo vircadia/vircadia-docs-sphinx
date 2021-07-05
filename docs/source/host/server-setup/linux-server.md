@@ -31,7 +31,7 @@ For the list of network ports that you will need to open and manage, see [here](
 
 Connect a web browser to the server at port 40100. (If you are on the machine that the server is running on, this would be http://localhost:40100) Complete the initial setup wizard and you should have a functioning domain.
 
-## Files and Package Configuration
+## Files and Server Configuration
 
 The program files are installed in /opt/vircadia:
  - **/opt/vircadia** contains the executables
