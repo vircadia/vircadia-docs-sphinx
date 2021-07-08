@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-27 06:23+0000\n"
+"POT-Creation-Date: 2021-07-08 21:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2685,7 +2685,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:34
-msgid "Files"
+msgid "Files and Server Configuration"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:36
@@ -2770,7 +2770,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:59
-msgid "Multiple domains"
+msgid "Multiple Domains"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:61
@@ -2789,53 +2789,87 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:69
 msgid ""
-"Assuming you created a new server with the name **second-bite**, this "
+"Assuming you created a new server with the name **my-server-two**, this "
 "would setup the following:"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:70
 msgid ""
-"Environment variables in <code>/etc/opt/vircadia/**second-"
-"bite**.conf</code>"
+"Environment variables in <code>/etc/opt/vircadia/**my-server-"
+"two**.conf</code>"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:71
-msgid "Content stored in <code>/var/lib/vircadia/**second-bite**</code>"
+msgid "Content stored in <code>/var/lib/vircadia/**my-server-two**</code>"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:72
 msgid ""
-"Services launched as <code>vircadia-domain-server@**second-"
-"bite**.service</code>, <code>vircadia-assignment-client@**second-"
-"bite**.service</code>, and <code>vircadia-server@**second-"
-"bite**.target</code>"
+"Services launched as <code>vircadia-domain-server@**my-server-"
+"two**.service</code>, <code>vircadia-assignment-client@**my-server-"
+"two**.service</code>, and <code>vircadia-server@**my-server-"
+"two**.target</code>"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:74
-msgid "Legacy Services"
+msgid "Deleting a Vircadia Server"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:76
+msgid "Uninstall the package."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:86
+msgid "Deleting a Domain from a Multiple Domain Installation"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:88
+msgid "Find the name of the domain that you want to remove."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:94
+msgid ""
+"Pick the name of the domain that you want to remove from the list and "
+"then stop it."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:100
+msgid "Disable the service for the domain."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:106
+msgid "Remove the associated environment variables."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:112
+msgid "Remove all data and configurations."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:119
+msgid "Legacy Services"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:121
 msgid ""
 "There are a number of tweaks that are made to the default configuration "
 "to simplify storage and the ability to run multiple domains on one "
 "server. In case you would like to remove this logic and run the servers "
-"closer to how the original *High Fidelity* domain servers were running, "
-"this is provided as an option."
+"closer to how a Vircadia server compiled from source would run, this is "
+"provided as an option."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:77
+#: ../../source/host/server-setup/linux-server.md:122
 msgid ""
 "Systemd services named <code>vircadia-domain-server.service</code>, <code"
 ">vircadia-assignment-client.service</code>, and <code>vircadia-"
 "server.target</code> *(without the @name)* have simplified configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:78
+#: ../../source/host/server-setup/linux-server.md:123
 msgid "No file is provided to specify environment variables for the server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:79
+#: ../../source/host/server-setup/linux-server.md:124
 msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
 msgstr ""
 
@@ -4519,5 +4553,46 @@ msgstr ""
 #~ msgid ""
 #~ "**Mac**: ~/Library/Application Support/High "
 #~ "Fidelity/Server Console/Logs"
+#~ msgstr ""
+
+#~ msgid "Files"
+#~ msgstr ""
+
+#~ msgid "Multiple domains"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Assuming you created a new server "
+#~ "with the name **second-bite**, this "
+#~ "would setup the following:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Environment variables in <code>/etc/opt/vircadia"
+#~ "/**second-bite**.conf</code>"
+#~ msgstr ""
+
+#~ msgid "Content stored in <code>/var/lib/vircadia/**second-bite**</code>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Services launched as <code>vircadia-domain-"
+#~ "server@**second-bite**.service</code>, <code>vircadia-"
+#~ "assignment-client@**second-bite**.service</code>, "
+#~ "and <code>vircadia-server@**second-"
+#~ "bite**.target</code>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are a number of tweaks that"
+#~ " are made to the default "
+#~ "configuration to simplify storage and "
+#~ "the ability to run multiple domains "
+#~ "on one server. In case you would"
+#~ " like to remove this logic and "
+#~ "run the servers closer to how the"
+#~ " original *High Fidelity* domain servers"
+#~ " were running, this is provided as"
+#~ " an option."
 #~ msgstr ""
 
