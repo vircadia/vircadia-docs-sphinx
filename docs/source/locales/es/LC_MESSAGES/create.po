@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-07-04 15:53+0000\n"
+"PO-Revision-Date: 2021-07-08 21:24+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -2454,6 +2454,8 @@ msgid ""
 "Alternatively, you can use the `flow` prefix, separating the name and "
 "joint number with an underscore. The same cape as above would look like:"
 msgstr ""
+"Alternativamente, puede usar el prefijo `flow`, separando el nombre y el "
+"número de conjunto con un guión bajo. La misma capa de arriba se vería así:"
 
 #: ../../source/create/avatars/avatar-standards.md:86
 msgid "Look-at Vectors"
@@ -2494,6 +2496,16 @@ msgid ""
 "modeling an avatar from scratch, you will likely need to specify your own"
 " facial expressions."
 msgstr ""
+"Vircadia usa blendshapes (formas de combinación) para animar la cara de tu "
+"avatar. Blendshapes te permite especificar un nuevo estado para la malla de "
+"tu avatar, y las posiciones faciales se animan al moverse entre los "
+"diferentes estados de las expresiones de tu avatar. Los comportamientos de "
+"Blendshape se definen en el archivo FST de tu avatar y se agregan a la malla "
+"del avatar utilizando una herramienta de modelado 3D como Blender (Shape "
+"Keys) o Maya. El programa Fuse de Adobe y la canalización de Mixamo te "
+"permiten exportar blendshapes como parte de tu FBX, pero si estás modelando "
+"un avatar desde cero, es probable que debas especificar sus propias "
+"expresiones faciales."
 
 #: ../../source/create/avatars/avatar-standards.md:98
 msgid ""
@@ -2505,23 +2517,23 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:100
 msgid "**Basic Blendshapes**"
-msgstr ""
+msgstr "**Blendshapes Básicos**"
 
 #: ../../source/create/avatars/avatar-standards.md:102
 msgid "`EyeBlink_L`:  Blinking action for the left eye."
-msgstr ""
+msgstr "`EyeBlink_L`:  Acción de parpadeo para el ojo izquierdo."
 
 #: ../../source/create/avatars/avatar-standards.md:103
 msgid "`EyeBlink_R`: Blicking action for the right eye."
-msgstr ""
+msgstr "`EyeBlink_R`: Acción de parpadeo para el ojo derecho."
 
 #: ../../source/create/avatars/avatar-standards.md:104
 msgid "`JawOpen`: Opening of the jaw."
-msgstr ""
+msgstr "`JawOpen`: Apertura de la mandíbula."
 
 #: ../../source/create/avatars/avatar-standards.md:106
 msgid "**Audio Blendshapes**"
-msgstr ""
+msgstr "**Blendshapes de Audio**"
 
 #: ../../source/create/avatars/avatar-standards.md:108
 msgid "These blendshapes are used when you speak."
@@ -2537,15 +2549,15 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:112
 msgid "`BrowsU_C`: Center of the brow going up"
-msgstr ""
+msgstr "`BrowsU_C`: Elevación del Centro de la ceja"
 
 #: ../../source/create/avatars/avatar-standards.md:113
 msgid "`BrowsU_L`: Outside corner of the left brow going up"
-msgstr ""
+msgstr "`BrowsU_L`: Elevación de la esquina exterior de la ceja izquierda"
 
 #: ../../source/create/avatars/avatar-standards.md:114
 msgid "`BrowsU_R`: Outside corner of the right brow going up"
-msgstr ""
+msgstr "`BrowsU_R`: Elevación de la esquina exterior de la ceja derecha"
 
 #: ../../source/create/avatars/avatar-standards.md:116
 msgid "Other audio blendshapes are randomly mixed when you speak. These include:"
@@ -2555,23 +2567,23 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:118
 msgid "`MouthSmile_L`: Left side of the mouth lifting up to a smile"
-msgstr ""
+msgstr "`MouthSmile_L`: El lado izquierdo de la boca se levanta en una sonrisa"
 
 #: ../../source/create/avatars/avatar-standards.md:119
 msgid "`MouthSmile_R`: Right side of the mouth lifting up to a smile"
-msgstr ""
+msgstr "`MouthSmile_R`: El lado derecho de la boca se levanta en una sonrisa"
 
 #: ../../source/create/avatars/avatar-standards.md:120
 msgid "`LipsFunnel`: Funneling of the lips, as when you say \"Oh!\""
-msgstr ""
+msgstr "`LipsFunnel`: Embudo de labios, como cuando dices \"¡Oh!\""
 
 #: ../../source/create/avatars/avatar-standards.md:121
 msgid "`LipsUpperClose`:  Upper lips rolled inwards"
-msgstr ""
+msgstr "`LipsUpperClose`: Labios superiores enrollados hacia adentro"
 
 #: ../../source/create/avatars/avatar-standards.md:123
 msgid "**Eyelid Offset**"
-msgstr ""
+msgstr "**Desplazamiento del Párpado**"
 
 #: ../../source/create/avatars/avatar-standards.md:125
 msgid ""
@@ -2585,27 +2597,28 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:127
 msgid "`EyeBlink_L`: Blinking action for the left eye"
-msgstr ""
+msgstr "`EyeBlink_L`: Acción de parpadeo para el ojo izquierdo"
 
 #: ../../source/create/avatars/avatar-standards.md:128
 msgid "`EyeBlink_R`: Blicking action for the right eye"
-msgstr ""
+msgstr "`EyeBlink_R`: Acción de parpadeo para el ojo derecho"
 
 #: ../../source/create/avatars/avatar-standards.md:129
 msgid "`EyeOpen_L`: Opening of left eye"
-msgstr ""
+msgstr "`EyeOpen_L`: Apertura del ojo izquierdo"
 
 #: ../../source/create/avatars/avatar-standards.md:130
 msgid "`EyeOpen_R`: Opening of right eye"
-msgstr ""
+msgstr "`EyeOpen_R`: Apertura del ojo derecho"
 
 #: ../../source/create/avatars/avatar-standards.md:131
 msgid "`BrowsD_L`: Outside corner of the left brow moving down"
 msgstr ""
+"`BrowsD_L`: Esquina exterior de la ceja izquierda moviéndose hacia abajo"
 
 #: ../../source/create/avatars/avatar-standards.md:132
 msgid "`BrowsD_R`: Outside corner of the right brow moving down"
-msgstr ""
+msgstr "`BrowsD_R`: Esquina exterior de la ceja derecha moviéndose hacia abajo"
 
 #: ../../source/create/avatars/avatar-standards.md:135
 msgid ""
@@ -2620,6 +2633,8 @@ msgid ""
 "If you are looking straight ahead: The `EyeBlink` and `EyeOpen` "
 "coefficients will be `0`."
 msgstr ""
+"Si estás mirando al frente: Los coeficientes `EyeBlink` y `EyeOpen` serán "
+"`0`."
 
 #: ../../source/create/avatars/avatar-standards.md:138
 msgid ""
@@ -2628,6 +2643,10 @@ msgid ""
 "respectively at `16.3` degrees. This will have the effect of raising your"
 " lids and brows as you look upward."
 msgstr ""
+"Si tus ojos comienzan a mirar hacia arriba: `EyeBlink`, `EyeOpen` y `BrowsU` "
+"comienzan a cambiar de valor, alcanzando los valores de `-1`, `1` y `0.5` "
+"respectivamente a `16.3` grados. Esto tendrá el efecto de levantar los "
+"párpados y las cejas al mirar hacia arriba."
 
 #: ../../source/create/avatars/avatar-standards.md:139
 msgid ""
@@ -2636,6 +2655,10 @@ msgid ""
 "`EyeOpen` will reach a value of `0.5` at 27 degrees. This will have the "
 "effect of lowering your lids as you look downward."
 msgstr ""
+"Si tus ojos comienzan a mirar hacia abajo: `EyeBlink` y `EyeOpen` comienzan "
+"a cambiar de valor. `EyeBlink` alcanza un valor de `0.5` a `32` grados. "
+"`EyeOpen` alcanzará un valor de `0.5` a 27 grados. Esto tendrá el efecto de "
+"bajar los párpados mientras mira hacia abajo."
 
 #: ../../source/create/avatars/avatar-standards.md:142
 msgid ""
@@ -2707,6 +2730,10 @@ msgid ""
 "invisible area around your avatar that is used to used to detect when "
 "other avatars or entities collide with you."
 msgstr ""
+"Cuando uses diferentes avatares, notarás que cada avatar tiene una forma de "
+"colisión o _casco de colisión_ diferente. El casco de colisión es el área "
+"invisible alrededor de tu avatar que se usa para detectar cuando otros "
+"avatares o entidades chocan contigo."
 
 #: ../../source/create/avatars/avatar-standards.md:179
 msgid ""
@@ -2718,6 +2745,14 @@ msgid ""
 "hips, and makes a very large collision hull.  To reduce the size of the "
 "collision hull, you can add skeleton joints to your avatar's tail."
 msgstr ""
+"Dependiendo del diseño del avatar, los cascos de colisión pueden ser muy "
+"grandes o pequeños. Esto ocurre porque Vircadia analiza la forma del torso "
+"del avatar (desde las caderas hasta la cabeza) y trata de encontrar la mejor "
+"forma que rodee a la malla. Por ejemplo, si tu avatar tiene caderas grandes "
+"o tal vez una cola completamente extendida, Vircadia piensa que la punta de "
+"la cola es parte de sus caderas y crea un casco de colisión muy grande. Para "
+"reducir el tamaño del casco de colisión, puede agregar uniones de esqueleto "
+"a la cola de tu avatar."
 
 #: ../../source/create/avatars/avatar-standards.md:182
 msgid "Avatar Thumbnails"
@@ -2730,21 +2765,25 @@ msgid ""
 "your avatar is hosted at `https://vircadia.dev/avatar.fbx`, then it will "
 "look for a thumbnail at `https://vircadia.dev/avatar.jpg`."
 msgstr ""
+"La aplicación de Avatar buscará una miniatura con una extensión .jpg con el "
+"mismo nombre y en la misma ubicación URL que la de tu avatar. Por ejemplo, "
+"si tu avatar está alojado en `https://vircadia.dev/avatar.fbx`, luego "
+"buscará una miniatura en `https://vircadia.dev/avatar.jpg`."
 
 #: ../../source/create/avatars/avatar-standards.md:189
 #: ../../source/create/avatars/blender-tutorial.md:56
 #: ../../source/create/avatars/fuse-tutorial.md:26
 #: ../../source/create/avatars/mixamo-tutorial.md:29
 msgid "[Create Your Own Avatar](create-avatars)"
-msgstr ""
+msgstr "[Crea Tu Propio Avatar](create-avatars)"
 
 #: ../../source/create/avatars/avatar-standards.md:190
 msgid "[Find and Use an Existing Avatar](find-avatars)"
-msgstr ""
+msgstr "[Encontrar y Usar un Avatar Existente](find-avatars)"
 
 #: ../../source/create/avatars/avatar-standards.md:191
 msgid "[Add Flow to Your Avatar](add-flow)"
-msgstr ""
+msgstr "[Agrega Flujo a Tu Avatar](add-flow)"
 
 #: ../../source/create/avatars/blender-tutorial.md:6
 msgid "Tutorial: Modify Materials and Textures Using Blender"
