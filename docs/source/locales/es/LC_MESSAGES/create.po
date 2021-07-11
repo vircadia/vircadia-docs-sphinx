@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-07-08 21:24+0000\n"
+"PO-Revision-Date: 2021-07-11 16:53+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -2806,16 +2806,22 @@ msgid ""
 "for your avatar. If you don't have one, see our tutorials for [Fuse"
 "](fuse-tutorial) and [Mixamo](mixamo-tutorial)."
 msgstr ""
+"En este tutorial, te guiaremos a través de modificaciones simples que puedes "
+"realizar a tu avatar usando Blender. Deberás importar un archivo FBX para tu "
+"avatar. Si no tienes uno, consulta nuestros tutoriales para [Fuse](fuse-"
+"tutorial) y [Mixamo](mixamo-tutorial)."
 
 #: ../../source/create/avatars/blender-tutorial.md:12
 msgid "In Blender, go to **File > Import > FBX (.fbx)**."
-msgstr ""
+msgstr "En Blender, ve a **File > Import > FBX (.fbx)**."
 
 #: ../../source/create/avatars/blender-tutorial.md:13
 msgid ""
 "Choose your avatar's FBX file and click 'Import FBX'. This will open your"
 " avatar in the main view. ![](_images/import-avatar.png)"
 msgstr ""
+"Elije el archivo FBX de tu avatar y haz clic en \"Import FBX\". Esto abrirá "
+"tu avatar en la vista principal. ![](_images/import-avatar.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:14
 msgid ""
@@ -2823,6 +2829,9 @@ msgid ""
 " your view using the toolbar at the bottom of the view. ![](_images/view-"
 "materials.png)"
 msgstr ""
+"Por defecto, no verás los materiales en tu avatar. Puedes cambiar tu vista "
+"usando la barra de herramientas en la parte inferior de la vista. ![]("
+"_images/view-materials.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:15
 msgid "To get a better view of your avatar, change the lamp settings:"
@@ -2842,7 +2851,7 @@ msgstr "Cambia lamp (lámpara) a Sun (Sol)."
 
 #: ../../source/create/avatars/blender-tutorial.md:19
 msgid "Rotate the Lamp to light up your avatar.![](_images/lamp-settings.png)"
-msgstr ""
+msgstr "Gira la lámpara para iluminar tu avatar.![](_images/lamp-settings.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:20
 msgid ""
@@ -2861,12 +2870,19 @@ msgid ""
 "follow similar steps for other avatar items.  ![](_images/texture-"
 "material.png)"
 msgstr ""
+"Con la caja de herramientas a continuación, puedes cambiar los materiales y "
+"la textura de cada parte del cuerpo como desees. Hemos incluido un ejemplo a "
+"continuación que [Cambia las pestañas de nuestro avatar](#example-update-"
+"eyelashes-from-an-image). Puedes seguir pasos similares para otros elementos "
+"de avatar. ![](_images/texture-material.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:27
 msgid ""
 "When you're done changing your materials and textures, go to **File > "
 "Export > FBX (.fbx)**."
 msgstr ""
+"Cuando hayas terminado de cambiar tus materiales y texturas, ve a **File > "
+"Export > FBX (.fbx)**."
 
 #: ../../source/create/avatars/blender-tutorial.md:28
 msgid ""
@@ -2874,6 +2890,9 @@ msgid ""
 "This makes sure that all of the textures are embedded into your model. "
 "![](_images/blender-export.png)"
 msgstr ""
+"Cambia el \"Path Mode\" a \"Copy\", luego haz click en el icono de \"Embed "
+"Textures\". Esto asegura que todas las texturas estén incrustadas en tu "
+"modelo. ![](_images/blender-export.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:29
 msgid "Give your avatar a unique name."
@@ -2897,6 +2916,8 @@ msgid ""
 "content.s3.amazonaws.com/DomainContent/Event%20/Images/mixamo_eyelashes.png)"
 " to a directory where you will remember."
 msgstr ""
+"Guarda [esta textura](http://hifi-content.s3.amazonaws.com/DomainContent/"
+"Event%20/Images/mixamo_eyelashes.png) en un directorio que recordarás."
 
 #: ../../source/create/avatars/blender-tutorial.md:37
 msgid "From the Outliner, open the 'Armature' tree and select 'Eyelashes'."
@@ -2907,6 +2928,8 @@ msgid ""
 "In the Toolbox below, click the 'Materials' icon. ![](_images/materials-"
 "tab.png)"
 msgstr ""
+"En la caja de herramientas a continuación, haz click en el icono \"Materials"
+"\". ![](_images/materials-tab.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:39
 msgid ""
@@ -2929,6 +2952,8 @@ msgid ""
 "At the bottom of the Blender window, switch to 'Edit Mode'. ![](_images"
 "/edit-mode.png)"
 msgstr ""
+"En la parte inferior de la ventana de Blender, cambia a \"Edit Mode\". ![]("
+"_images/edit-mode.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:43
 msgid "Under the material list, click 'Assign'."
@@ -2939,16 +2964,21 @@ msgid ""
 "Scroll to the 'Transparency' section. Check the Transparency box and "
 "change the 'Alpha' value to `0.00`. ![](_images/transparency-setting.png)"
 msgstr ""
+"Desplázate hasta la sección \"Transparency\". Marca la casilla de "
+"\"Transparency\" y cambia el valor \"Alpha\" a `0.00`. ![](_images/"
+"transparency-setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:45
 msgid ""
 "Scroll to the 'Specular' section. Set the specular color to black. "
 "![](_images/specular-setting.png)"
 msgstr ""
+"Desplázate a la sección \"Specular\". Establece el color especular en negro. "
+"![](_images/specular-setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:46
 msgid "Change to the 'Textures' view. ![](_images/texture-tab.png)"
-msgstr ""
+msgstr "Cambia a la vista \"Textures\". ![](_images/texture-tab.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:47
 msgid "Click '+ New' to add a new texture."
@@ -2960,6 +2990,9 @@ msgid ""
 "named 'mixamo_eyelashes' you previously downloaded. Click 'Open Image'. "
 "![](_images/image-setting.png)"
 msgstr ""
+"Desplázate hasta la sección \"Image\". Haz click en \"Open\" y busca la "
+"textura de las pestañas llamada \"mixamo_eyelashes\" que descargaste "
+"anteriormente. Haz clic en \"Open Image\".![](_images/image-setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:49
 msgid ""
@@ -2974,16 +3007,18 @@ msgid ""
 "Go to **File > External Data > Pack All Into .blend**. This will include "
 "the texture in your model."
 msgstr ""
+"Ve a **File > External Data > Pack All Into .blend**. Esto incluirá la "
+"textura en tu modelo."
 
 #: ../../source/create/avatars/blender-tutorial.md:54
 #: ../../source/create/avatars/mixamo-tutorial.md:27
 msgid "[Tutorial: Create an Avatar with Fuse](fuse-tutorial)"
-msgstr ""
+msgstr "[Tutorial: Crear un Avatar con Fuse](fuse-tutorial)"
 
 #: ../../source/create/avatars/blender-tutorial.md:55
 #: ../../source/create/avatars/fuse-tutorial.md:24
 msgid "[Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)"
-msgstr ""
+msgstr "[Tutorial: Arma tu Avatar en Mixamo](mixamo-tutorial)"
 
 #: ../../source/create/avatars/create-avatars.rst:2
 msgid ""
@@ -4741,6 +4776,7 @@ msgstr "Inicia Adobe Fuse."
 #: ../../source/create/avatars/fuse-tutorial.md:16
 msgid "Pick your default body parts. ![](_images/fuse-assemble.png)"
 msgstr ""
+"Elije las partes predeterminadas de tu cuerpo. ![](_images/fuse-assemble.png)"
 
 #: ../../source/create/avatars/fuse-tutorial.md:17
 msgid ""
@@ -4748,6 +4784,10 @@ msgid ""
 "can customize how the eyebrows are shaped, facial expressions, how long "
 "the fingers are and much more. ![](_images/fuse-customize.png)"
 msgstr ""
+"Haz click en \"Customize\". Aquí, puedes personalizar el avatar. Por "
+"ejemplo, puedes personalizar la forma de las cejas, las expresiones "
+"faciales, la longitud de los dedos y mucho más. ![](_images/fuse-customize."
+"png)"
 
 #: ../../source/create/avatars/fuse-tutorial.md:18
 msgid ""
@@ -4756,12 +4796,18 @@ msgid ""
 " will be able to modify the materials, colors, and textures of each "
 "clothing item you choose.![](_images/fuse-clothing.png)"
 msgstr ""
+"Haz click en \"Clothing\". Aquí, puedes elegir la ropa que te guste. Además, "
+"puedes configurar las opciones de vello facial y de cabello. En el siguiente "
+"paso, podrás modificar los materiales, colores y texturas de cada prenda que "
+"elijas.![](_images/fuse-clothing.png)"
 
 #: ../../source/create/avatars/fuse-tutorial.md:19
 msgid ""
 "Click 'Texture'. Here, you can modify your clothing choices with custom "
 "materials and colors. ![](_images/fuse-texture.png)"
 msgstr ""
+"Haz click en \"Texture\". Aquí, puedes modificar tus opciones de ropa con "
+"materiales y colores personalizados. ![](_images/fuse-texture.png)"
 
 #: ../../source/create/avatars/fuse-tutorial.md:20
 msgid "Save your avatar."
@@ -4771,6 +4817,7 @@ msgstr "Guarda tu avatar."
 #: ../../source/create/avatars/mixamo-tutorial.md:28
 msgid "[Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)"
 msgstr ""
+"[Tutorial: Modificar Materiales y Texturas con Blender](blender-tutorial)"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:8
 msgid ""
@@ -4787,6 +4834,8 @@ msgid ""
 "In this tutorial, we will use the avatar that we [created in Adobe Fuse"
 "](fuse-tutorial)."
 msgstr ""
+"En este tutorial, usaremos el avatar que [creamos en Adobe Fuse](fuse-"
+"tutorial)."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:12
 msgid "Open your avatar in Adobe Fuse."
@@ -4794,13 +4843,15 @@ msgstr "Abre tu avatar en Adobe Fuse."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:13
 msgid "Go to **File > Animate with Mixamo**."
-msgstr ""
+msgstr "Ve a **File > Animate with Mixamo**."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:14
 msgid ""
 "Save your avatar with a name and wait while it is exported to the auto-"
 "rigger.  ![](_images/character-upload.png)"
 msgstr ""
+"Guarda tu avatar con un nombre y espera mientras se exporta al auto-armado "
+"(aparejo). ![](_images/character-upload.png)"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:20
 msgid ""
@@ -4809,6 +4860,11 @@ msgid ""
 "Skeleton LOD has been set to 'Standard'. These settings ensure that your "
 "avatar will work property in Vircadia. ![](_images/auto-rigger.png)"
 msgstr ""
+"Una vez que se procese tu avatar, el auto-armado de Mixamo mostrará tu "
+"avatar animado. Asegúrate de que las formas de mezcla faciales (Facial "
+"Blendshapes) estén \"Enabled\" y que el LOD del esqueleto se haya "
+"establecido en \"Standard\". Esta configuración garantiza que tu avatar "
+"funcione correctamente en Vircadia. ![](_images/auto-rigger.png)"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:21
 msgid ""
@@ -4829,6 +4885,10 @@ msgid ""
 "select Format as 'FBX' and Pose as 'T-pose'. ![](_images/mixamo-"
 "download.png)"
 msgstr ""
+"Una vez que tu avatar se haya armado con éxito, puedes descargarlo y "
+"modificarlo aún más utilizando un software 3D de tu elección. Cuando se te "
+"solicite, selecciona Formatear como \"FBX\" y Pose como \"T-pose\". ![]("
+"_images/mixamo-download.png)"
 
 #: ../../source/create/avatars/package-avatar.rst:2
 msgid ""
@@ -4880,6 +4940,12 @@ msgid ""
 "information about the skeleton, blendshapes, textures, and scripts used "
 "by your avatar."
 msgstr ""
+"Si está leyendo esta página, probablemente ya :doc:`construiste tu propio "
+"modelo FBX <create-avatars>` o :doc:`encontraste y descargaste un modelo "
+"<find-avatars>`que quieras usar en Vircadia. Por lo tanto, todo lo que queda "
+"es empaquetar tu avatar y crear el archivo FST. Este archivo incluye "
+"información sobre el esqueleto, las combinaciones de formas (blendshapes), "
+"las texturas y los scripts utilizados por tu avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:22
 msgid ""
@@ -4991,7 +5057,7 @@ msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:54
 msgid "Host Your Avatar"
-msgstr ""
+msgstr "Aloja Tu Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:56
 msgid ""
@@ -5000,10 +5066,14 @@ msgid ""
 "any cloud platform including Amazon S3, Google Cloud Storage, Microsoft "
 "Azure, Dropbox, etc."
 msgstr ""
+"Antes de poder utilizar un avatar personalizado, primero debes alojar sus "
+"archivos FST y FBX/glTF/GLB en un lugar de acceso público. Puedes utilizar "
+"cualquier plataforma en la nube, incluidos Amazon S3, Google Cloud Storage, "
+"Microsoft Azure, Dropbox, etc."
 
 #: ../../source/create/avatars/package-avatar.rst:60
 msgid "Troubleshooting with the Avatar Packager"
-msgstr ""
+msgstr "Solución de problemas con el Empaquetador de Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:62
 msgid ""
