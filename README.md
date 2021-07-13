@@ -17,6 +17,8 @@ For Vircadia's main documentation system, we use **Sphinx** to generate it, and 
 
 Our main documentation is hosted at https://docs.vircadia.com.
 
+**Please take a moment to thank or donate to the [active maintainers](https://vircadia.com/contributors-redirector/?redirect=vircadia/vircadia-docs-sphinx) of this repository! ❤️**
+
 ## Translate
 
 There are two ways to help with the translation of Vircadia's documentation:
