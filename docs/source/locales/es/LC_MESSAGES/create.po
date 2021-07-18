@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-07-14 22:31+0000\n"
+"PO-Revision-Date: 2021-07-18 03:21+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -5274,52 +5274,52 @@ msgstr "Crear Nuevas Entidades"
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/entity-appearance.rst:3
 msgid "Change How Entities Look"
-msgstr ""
+msgstr "Cambiar el Aspecto de las Entidades"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/entity-behavior.rst:3
 msgid "Define an Entity's Behavior"
-msgstr ""
+msgstr "Definir el Comportamiento de una Entidad"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/entity-physics.rst:3
 msgid "Apply Physics to Entities"
-msgstr ""
+msgstr "Aplicar la Física a las Entidades"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/material-entity.rst:3
 #: ../../source/create/entities/material-entity.rst:43
 msgid "Add a Material Entity"
-msgstr ""
+msgstr "Agregar una Entidad Material"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/zone-entity.rst:3
 msgid "Add a Zone Entity"
-msgstr ""
+msgstr "Agregar una Entidad de Zona"
 
 #: ../../source/create/entities.rst:9
 msgid "Add Sounds to Entities"
-msgstr ""
+msgstr "Agregar Sonidos a las Entidades"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/avatar-interactions.md:1
 msgid "Define Interactions with Avatars"
-msgstr ""
+msgstr "Definir Interacciones con Avatares"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/hero-zone.rst:3
 msgid "Prioritize Zones Within Your Domain"
-msgstr ""
+msgstr "Priorizar las Zonas dentro de Tu Dominio"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/web-entity-media.rst:7
 msgid "Play Media in a Web Entity"
-msgstr ""
+msgstr "Reproducir Multimedia en una Entidad Web"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/tutorials.rst:3
 msgid "Entity Tutorials"
-msgstr ""
+msgstr "Tutoriales de Entidades"
 
 #: ../../source/create/entities.rst:5
 msgid ""
@@ -5330,10 +5330,17 @@ msgid ""
 " as butterflies and stereo equipment. Each entity type has its own set of"
 " properties that define its appearance and behavior."
 msgstr ""
+"Para crear cualquier contenido en Vircadia, ya sea un objeto con el que "
+"interactuar o un dominio para albergar un evento, necesitas entidades. Las "
+"*Entidades* son los bloques de construcción del mundo virtual y se utilizan "
+"para construir elementos tan simples como cajas y cuadrados para elementos "
+"animados complejos como mariposas y equipo estéreo. Cada tipo de entidad "
+"tiene su propio conjunto de propiedades que definen su apariencia y "
+"comportamiento."
 
 #: ../../source/create/entities/add-sounds.md:1
 msgid "Add Sound to Entities"
-msgstr ""
+msgstr "Agregar Sonido a las Entidades"
 
 #: ../../source/create/entities/add-sounds.md:3
 msgid ""
@@ -5341,10 +5348,13 @@ msgid ""
 "will emit a sound every time it comes in contact, or [collides, with "
 "another entity](entity-behavior)."
 msgstr ""
+"Las entidades tienen la capacidad de agregar un sonido de colisión, de modo "
+"que la entidad emitirá un sonido cada vez que entre en contacto, o ["
+"colisione, con otra entidad](entity-behavior)."
 
 #: ../../source/create/entities/add-sounds.md:5
 msgid "To add a sound:"
-msgstr ""
+msgstr "Para agregar un sonido:"
 
 #: ../../source/create/entities/add-sounds.md:6
 msgid "In Interface, pull up your Tablet or HUD and go to **Create**."
@@ -5352,43 +5362,52 @@ msgstr "En la interfaz, abre tu tableta o HUD y ve a **Crear**."
 
 #: ../../source/create/entities/add-sounds.md:7
 msgid "Select the entity."
-msgstr ""
+msgstr "Selecciona la entidad."
 
 #: ../../source/create/entities/add-sounds.md:8
 msgid ""
 "In the **Create** app, click on 'Properties' and scroll down to the "
 "'Collision' settings."
 msgstr ""
+"En la aplicación **Create**, haz clic en \"Properties\" y desplázate hacia "
+"abajo hasta la configuración de \"Collision\"."
 
 #: ../../source/create/entities/add-sounds.md:9
 msgid ""
 "Check the box for 'Collides', then enter the URL of the audio file for "
 "'Collision Sound'."
 msgstr ""
+"Marca la casilla para \"Collides\", luego ingresa la URL del archivo de "
+"audio en \"Collision Sound\"."
 
 #: ../../source/create/entities/add-sounds.md:11
 msgid "Tutorial: Create a Bouncing Ball"
-msgstr ""
+msgstr "Tutorial: Crea una Pelota que Rebota"
 
 #: ../../source/create/entities/add-sounds.md:12
 msgid ""
 "In this example, we will walk through the steps to create a bouncing ball"
 " that emits a sound every time it hits a wall."
 msgstr ""
+"En este ejemplo, recorreremos los pasos para crear una pelota que rebota y "
+"que emite un sonido cada vez que golpea una pared."
 
 #: ../../source/create/entities/add-sounds.md:14
 msgid "Create a wall to bounce your ball off of:"
-msgstr ""
+msgstr "Crea una pared en la que rebotar tu pelota:"
 
 #: ../../source/create/entities/add-sounds.md:15
 msgid "[Add a cube entity](create-entities) to your domain."
-msgstr ""
+msgstr "[Agrega una entidad de cubo](create-entities) a tu dominio."
 
 #: ../../source/create/entities/add-sounds.md:16
 msgid ""
 "[Resize the entity](entity-appearance.html#set-the-size-of-an-entity) to "
 "approximately 10m wide, 10m high and 1m deep (X:10, Y:10, Z:1)."
 msgstr ""
+"[Cambia el tamaño de la entidad](entity-appearance.html#set-the-size-of-an-"
+"entity) hasta aproximadamente 10m de ancho, 10m de alto y 1m de profundidad "
+"(X: 10, Y: 10, Z: 1)."
 
 #: ../../source/create/entities/add-sounds.md:17
 msgid ""
@@ -5396,12 +5415,18 @@ msgid ""
 "domain. Optionally, [change the color](entity-appearance.html#change-the-"
 "color-of-an-entity) of your ball, so that it is different than your wall."
 msgstr ""
+"Crea una pelota [agregando una entidad de esfera](create-entities) a tu "
+"domino. Opcionalmente, [cambia el color](entity-appearance.html#change-the-"
+"color-of-an-entity) de tu pelota, para que sea diferente a tu pared."
 
 #: ../../source/create/entities/add-sounds.md:18
 msgid ""
 "In the **Create** app, click on 'Properties' and scroll down to the "
 "'Collision' settings. Check the box for 'Collides' and 'Dynamic'."
 msgstr ""
+"En la aplicación **Create**, haz click en \"Properties\" y desplázate hacia "
+"abajo hasta la configuración de \"Collision\". Marca la casilla de \"Collides"
+"\" y \"Dynamic\"."
 
 #: ../../source/create/entities/add-sounds.md:19
 msgid ""
@@ -5409,6 +5434,10 @@ msgid ""
 "be a *.wav* file, uncompressed, 48Khz, 16 bit. The URL can be either a "
 "web address, or an ATP reference to the assets on this domain server."
 msgstr ""
+"En \"Collision Sound\", ingresa la URL de tu archivo de sonido. El sonido "
+"debe ser un archivo *.wav*, descomprimido, de 48 Khz y de 16 bits. La URL "
+"puede ser una dirección web o una referencia ATP a los activos en este "
+"servidor de dominio."
 
 #: ../../source/create/entities/add-sounds.md:20
 msgid ""
@@ -5417,6 +5446,10 @@ msgid ""
 "earth (use -9.8 if you want that). Gravity is in units of "
 "m/s<sup>2</sup>."
 msgstr ""
+"Desplázate hasta la configuración de \"Physics\". Establece el valor de Y de "
+"\"Gravity\" a -5. Esto hará que tu pelota caiga un poco más lentamente que "
+"las cosas en la tierra (usa -9.8 si lo desea). Gravity (gravedad) está en "
+"unidades de m/s<sup>2</sup>."
 
 #: ../../source/create/entities/add-sounds.md:22
 msgid ""
@@ -5424,18 +5457,25 @@ msgid ""
 "fall downwards. When it hits the floor, it should stop or bounce a little"
 " and the sound should play."
 msgstr ""
+"Tan pronto como sueltes la pelota, la gravedad hará que la bola caiga hacia "
+"abajo. Cuando golpee el suelo, debería detenerse o rebotar un poco y el "
+"sonido debería reproducirse."
 
 #: ../../source/create/entities/add-sounds.md:26
 msgid ""
 "[Set Entity Behavior on Collision](entity-behavior.html#set-entity-"
 "behavior-on-collision)"
 msgstr ""
+"[Establecer el Comportamiento de la Entidad en caso de Colisión](entity-"
+"behavior.html#set-entity-behavior-on-collision)"
 
 #: ../../source/create/entities/add-sounds.md:27
 msgid ""
 "[Set How an Entity Moves in a Gravitational Field](entity-physics.html"
 "#set-how-an-entity-moves-in-a-gravitational-field)"
 msgstr ""
+"[Establecer Cómo se Mueve una Entidad en un campo Gravitacional](entity-"
+"physics.html#set-how-an-entity-moves-in-a-gravitational-field)"
 
 #: ../../source/create/entities/avatar-interactions.md:3
 msgid ""
