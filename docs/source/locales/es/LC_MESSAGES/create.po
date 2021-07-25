@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-07-18 03:21+0000\n"
+"PO-Revision-Date: 2021-07-25 08:42+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -5488,26 +5488,38 @@ msgid ""
 "behavior and collision properties, so that objects are grabbable, "
 "triggerable, or dynamic."
 msgstr ""
+"En la vida real, interactúas con objetos a diario. En Vircadia, tu avatar "
+"también puede interactuar con objetos (entidades) en el metaverso. Hay "
+"varias maneras de definir las interacciones que tienes con los objetos: "
+"puedes escribir scripts para cambiar las propiedades de una entidad. Puedes "
+"crear entidades que sean exclusivas de tu avatar (las llamamos \"entidades "
+"de avatar\") . Y no olvides que puedes establecer el comportamiento de una "
+"entidad y las propiedades de colisión, de modo que los objetos sean "
+"manipulables, activables o dinámicos."
 
 #: ../../source/create/entities/avatar-interactions.md:6
 msgid ""
 "[Control Interactions with Entities using Scripts](#control-interactions-"
 "with-entities-using-Scripts)"
 msgstr ""
+"[Controlar las Interacciones con las Entidades mediante Scripts](#control-"
+"interactions-with-entities-using-Scripts)"
 
 #: ../../source/create/entities/avatar-interactions.md:7
 msgid "[Create Avatar Entities](#create-avatar-entities)"
-msgstr ""
+msgstr "[Crear Entidades de Avatar](#create-avatar-entities)"
 
 #: ../../source/create/entities/avatar-interactions.md:9
 msgid "Control Interactions with Entities using Scripts"
-msgstr ""
+msgstr "Controlar las Interacciones con las Entidades mediante Scripts"
 
 #: ../../source/create/entities/avatar-interactions.md:11
 msgid ""
 "When your avatar comes in contact with an entity, you can control its "
 "interactions with the entity using simple scripts."
 msgstr ""
+"Cuando tu avatar entra en contacto con una entidad, puedes controlar sus "
+"interacciones con la entidad usando scripts simples."
 
 #: ../../source/create/entities/avatar-interactions.md:13
 msgid ""
@@ -5518,6 +5530,13 @@ msgid ""
 "However, in the case of more complex objects, the bounds might be larger "
 "than the actual mesh model."
 msgstr ""
+"Una interacción entre un avatar y una entidad ocurre cuando el avatar entra "
+"en contacto con el cuadro delimitador de una entidad (boundy box). El cuadro "
+"delimitador (o límites) es el marco que se encuentra alrededor del exterior "
+"de la entidad. En el caso de un cubo, los límites (bounds) son del tamaño y "
+"la forma exactos de la entidad. Sin embargo, en el caso de objetos más "
+"complejos, los límites pueden ser más grandes que el modelo de malla real ("
+"mesh model)."
 
 #: ../../source/create/entities/avatar-interactions.md:15
 msgid ""
@@ -5528,10 +5547,16 @@ msgid ""
 "[`Entities.leaveEntity()`](https://apidocs.vircadia.dev/Entities.html#.leaveEntity)"
 " occurs when the avatar exits the bounding box."
 msgstr ""
+"Hay dos métodos que puedes utilizar para programar estas interacciones. "
+"[`Entities.enterEntity()`](https://apidocs.vircadia.dev/Entities.html#."
+"enterEntity) ocurre cuando el avatar entra en contacto con el cuadro "
+"delimitador, no con el modelo en sí. De manera similar, [`Entities."
+"leaveEntity()`](https://apidocs.vircadia.dev/Entities.html#.leaveEntity) "
+"ocurre cuando el avatar sale del cuadro delimitador."
 
 #: ../../source/create/entities/avatar-interactions.md:17
 msgid "Tutorial: Enter a Box to Change Its Color"
-msgstr ""
+msgstr "Tutorial: Añade una Caja para Cambiar su Color"
 
 #: ../../source/create/entities/avatar-interactions.md:19
 msgid ""
@@ -5541,10 +5566,15 @@ msgid ""
 "color. When your avatar moves away, the box will return to its original "
 "color."
 msgstr ""
+"El siguiente ejemplo te guía a través del proceso de crear una entidad "
+"simple y programar una interacción entre la entidad y tu avatar. Cuando tu "
+"avatar entre en contacto con la caja, la caja cambiará de color. Cuando tu "
+"avatar se aleje, la caja volverá a su color original."
 
 #: ../../source/create/entities/avatar-interactions.md:21
 msgid "[Create a cube entity](create-entities).  ![](_images/add-entity.png)"
 msgstr ""
+"[Crear una entidad de cubo](create-entities).  ![](_images/add-entity.png)"
 
 #: ../../source/create/entities/avatar-interactions.md:22
 msgid ""
@@ -5552,6 +5582,8 @@ msgid ""
 "(yellow) or leave (pink) its bounding box. Save it to a file called "
 "`interactions-example.js`."
 msgstr ""
+"La siguiente secuencia de comandos cambia el color del cubo a medida que te "
+"acercas (amarillo) o te alejas (rosa) de su cuadro delimitador."
 
 #: ../../source/create/entities/avatar-interactions.md:37
 msgid ""
@@ -5559,6 +5591,10 @@ msgid ""
 "'Script' settings. Enter the path and file name to `interactions-"
 "example.js` that you created above. Press 'Enter'."
 msgstr ""
+"En la aplicación **Create**, haz click sobre \"Properties\" y desplázate "
+"hacia abajo hasta la configuración del \"Script\". Ingresa la ruta y nombre "
+"de archivo a `interactions-example.js` que creaste anteriormente. Presiona "
+"\"Enter\"."
 
 #: ../../source/create/entities/avatar-interactions.md:39
 msgid ""
@@ -5567,10 +5603,14 @@ msgid ""
 "building with the functions running while you are inside, and stop when "
 "you walk out."
 msgstr ""
+"Un rango completo de parámetros de entidad se pueden controlar con estas "
+"funciones. Las entidades se pueden usar como sensores invisibles o "
+"expandirse para cubrir un edificio completo con las funciones ejecutándose "
+"mientras estás adentro, y detenerse cuando sales."
 
 #: ../../source/create/entities/avatar-interactions.md:42
 msgid "Create Avatar Entities"
-msgstr ""
+msgstr "Crear Entidades de Avatar"
 
 #: ../../source/create/entities/avatar-interactions.md:44
 msgid ""
@@ -5579,6 +5619,11 @@ msgid ""
 "they travel with your avatar when you go to other domains. Examples of "
 "avatar entities include wearables such as glasses or hats."
 msgstr ""
+"Tu avatar también interactuará con entidades de avatar. Las entidades de "
+"avatar son entidades que se adjuntan a tu avatar y, a diferencia de las "
+"entidades de dominio, viajan con tu avatar cuando va a otros dominios. Los "
+"ejemplos de entidades de avatar incluyen dispositivos portátiles como gafas "
+"o sombreros."
 
 #: ../../source/create/entities/avatar-interactions.md:46
 msgid ""
@@ -5587,10 +5632,16 @@ msgid ""
 "(and move with) your avatar. We've listed the ways you can create avatar "
 "entities with some examples:"
 msgstr ""
+"Las entidades Avatar viven en el [Avatar Mixer](../../explore/get-started/"
+"architecture.html#assignment-clients) (mezclador de avatares), para que "
+"estén conectados a (y se muevan con) tu avatar. Hemos enumerado las formas "
+"en que puedes crear entidades de avatar con algunos ejemplos:"
 
 #: ../../source/create/entities/avatar-interactions.md:48
 msgid "[Create a wearable:](../wearables) All wearables are avatar entities."
 msgstr ""
+"[Crear un equipable:](../wearables) Todos los equipables (wearable) son "
+"entidades de avatar."
 
 #: ../../source/create/entities/avatar-interactions.md:49
 msgid ""
@@ -5603,6 +5654,13 @@ msgid ""
 "the avatar entity with them when they exit the domain. You can keep your "
 "domain free of clutter using this property."
 msgstr ""
+"[Clonar como una entidad de avatar:](entity-behavior.html#make-an-entity-"
+"cloneable) Cuando clonas una entidad como entidad avatar, haces una copia de "
+"la entidad y la adjuntas a tu avatar. Cada copia de esa entidad se irá ahora "
+"con el avatar cuando abandones el dominio. Por ejemplo, si tienes una "
+"cafetería en tu dominio, puedes configurar todas las tazas de café para que "
+"se clonen como entidades avatar. Cualquier usuario que clone una taza de "
+"café se llevará la entidad de avatar cuando salga del dominio."
 
 #: ../../source/create/entities/avatar-interactions.md:50
 msgid ""
@@ -5610,10 +5668,14 @@ msgid ""
 "scripts. For example, you can create a script to have a pet (avatar "
 "entity) follow you around as you explore Vircadia."
 msgstr ""
+"Agregar una entidad de avatar usando un script: Puedes agregar una entidad "
+"de avatar usando scripts. Por ejemplo, puedes crear un script para que una "
+"mascota (entidad avatar) te siga mientras exploras Vircadia."
 
 #: ../../source/create/entities/avatar-interactions.md:52
 msgid "This example script adds a cube as an avatar entity to your domain."
 msgstr ""
+"Este script de ejemplo agrega un cubo como entidad de avatar a tu dominio."
 
 #: ../../source/create/entities/avatar-interactions.md:65
 #: ../../source/create/entities/portal-tutorial.md:23
@@ -5621,17 +5683,18 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:18
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:114
 msgid "[Define an Entity's Behavior](entity-behavior)"
-msgstr ""
+msgstr "[Definir el Comportamiento de una Entidad](entity-behavior)"
 
 #: ../../source/create/entities/avatar-interactions.md:66
 #: ../../source/create/entities/portal-tutorial.md:62
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:118
 msgid "[Interact with Your Environment](../../explore/interact)"
-msgstr ""
+msgstr "[Interactuar con Tu Entorno](../../explore/interact)"
 
 #: ../../source/create/entities/avatar-interactions.md:67
 msgid "[API Reference: Entities](https://apidocs.vircadia.dev/Entities.html)"
 msgstr ""
+"[Referencia de API: Entidades](https://apidocs.vircadia.dev/Entities.html)"
 
 #: ../../source/create/entities/avatar-interactions.md:68
 #: ../../source/create/entities/portal-tutorial.md:24
@@ -5639,12 +5702,12 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:19
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:115
 msgid "[Get Started with Scripting](../../script/get-started-with-scripting)"
-msgstr ""
+msgstr "[Comienza con el Scripting](../../script/get-started-with-scripting)"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:3
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Create an Avatar Scaling Button"
-msgstr ""
+msgstr "Tutorial: Crear un Botón de Escalado de Avatar"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:5
 msgid ""
@@ -5654,6 +5717,11 @@ msgid ""
 "scaling button to your domain. This will help users fit into the spaces "
 "you design."
 msgstr ""
+"Puedes crear contenido en Vircadia que rompa las leyes de los límites "
+"físicos haciéndolos sobredimensionados o extremadamente pequeños. Para que "
+"cualquier usuario visitante acceda a dicha experiencia, puedes agregar un "
+"botón de escalado de avatar a tu dominio. Esto ayudará a los usuarios a "
+"adaptarse a los espacios que diseñes."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:14
 #: ../../source/create/entities/create-fountain.rst:15
@@ -5667,40 +5735,42 @@ msgid ""
 "Consider getting familiar with the following concepts before starting "
 "this tutorial:"
 msgstr ""
+"Considera familiarizarte con los siguientes conceptos antes de comenzar este "
+"tutorial:"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:16
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:16
 msgid "`Create New Entities <create-entities>`_"
-msgstr ""
+msgstr "`Crear Nuevas Entidades <create-entities>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:17
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:17
 msgid "`Change How Entities Look <entity-appearance>`_"
-msgstr ""
+msgstr "`Cambiar Cómo se Ven las Entidades <entity-appearance>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:18
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:18
 msgid "`Define an Entity's Behavior <entity-behavior>`_"
-msgstr ""
+msgstr "`Definir el Comportamiento de una Entidad <entity-behavior>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:19
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:19
 msgid "`Get Started with Scripting <../../script/get-started-with-scripting>`_"
-msgstr ""
+msgstr "`Comenzar con el Scripting <../../script/get-started-with-scripting>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:20
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:20
 msgid "`Client Entity Scripts <../../script/client-entity-scripts>`_"
-msgstr ""
+msgstr "`Scripts de Entidad de Cliente <../../script/client-entity-scripts>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:21
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:21
 msgid "`Write Your Own Scripts <../../script/write-scripts>`_"
-msgstr ""
+msgstr "`Escribe Tus Propios Scripts <../../script/write-scripts>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:25
 msgid "Write an Avatar Scaling Script"
-msgstr ""
+msgstr "Escribe un Script de Escalado de Avatar"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:27
 msgid ""
