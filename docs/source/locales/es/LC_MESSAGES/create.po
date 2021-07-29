@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-07-25 08:42+0000\n"
+"PO-Revision-Date: 2021-07-29 10:22+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -5777,18 +5777,21 @@ msgid ""
 "To define the behavior of your avatar and the button, you need to write a"
 " client entity script that:"
 msgstr ""
+"Para definir el comportamiento de tu avatar y el botón, necesitas escribir "
+"un script de entidad de cliente que:"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:29
 msgid "attaches to an entity (a button in your domain)."
-msgstr ""
+msgstr "se adjunte a una entidad (un botón en tu dominio)."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:30
 msgid "shrinks or increases the size of an avatar."
-msgstr ""
+msgstr "reduzca o aumente el tamaño de un avatar."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:31
 msgid "defines what happens when a user clicks on or triggers the entity."
 msgstr ""
+"defina lo que suceda cuando un usuario haga click sobre o active la entidad."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:33
 msgid ""
@@ -5798,6 +5801,11 @@ msgid ""
 " tiny size. You can use this script, modify it, or `write your own "
 "<../../script/write-scripts>`_ to suit your needs."
 msgstr ""
+"En este tutorial, usamos `shrink-avatar.js <../../_static/resources/entities/"
+"entity-client-script-shrink-avatar.js>`_, un script de escalado de avatar "
+"utilizado para reducir un avatar a un tamaño pequeño. Puedes utilizar este "
+"script, modificarlo o `escribir uno por tu cuenta <../../script/write-"
+"scripts>`_ para satisfacer tus necesidades."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:35
 msgid ""
@@ -5806,11 +5814,15 @@ msgid ""
 " mouse or triggers the entity with their hand controllers. It then scales"
 " the avatar to one-tenth its original size."
 msgstr ""
+"El shrink-avatar.js usa la `API JavaScript <https://apidocs.vircadia.dev>`"
+"_de Vircadia para determinar cuándo un usuario hace click con el mouse o "
+"activa la entidad con sus controladores de mano. Luego escala el avatar a "
+"una décima parte de su tamaño original."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:39
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:33
 msgid "Create an Entity to Use as a Button"
-msgstr ""
+msgstr "Crear una Entidad para Usar como Botón"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:41
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:35
@@ -5819,6 +5831,10 @@ msgid ""
 "behavior.html#set-an-entity-to-trigger-scripts>`_ so that the script can "
 "detect when you trigger or push the button with your hand controllers."
 msgstr ""
+"La entidad que creaste para tu botón tiene que ser `activable (triggerable) "
+"<entity-behavior.html#set-an-entity-to-trigger-scripts>`_ para que el script "
+"pueda detectar cuando tu actives o presiones el botón con los controladores "
+"de mano."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:44
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:38
@@ -5826,12 +5842,15 @@ msgid ""
 "`Create an entity <create-entities>`_ to be used as a button. This can be"
 " a 3D model, cube, or sphere entity."
 msgstr ""
+"`Crear una entidad <create-entities>`_ para ser usada como botón. Puede ser "
+"un modelo 3D, un cubo o una entidad de esfera."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:45
 #: ../../source/create/entities/portal-tutorial.md:43
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:106
 msgid "Go to the 'Properties' tab and scroll down to 'Behavior'."
 msgstr ""
+"Ve a a la pestaña \"Properties\" y desplázate hacia abajo hasta \"Behavior\"."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:46
 msgid ""
@@ -5839,16 +5858,21 @@ msgid ""
 "avatar.js <../../_static/resources/entities/entity-client-script-shrink-"
 "avatar.js>`_'."
 msgstr ""
+"Al lado de \"Script\", pega la URL del script. En este caso, es '`shrink-"
+"avatar.js <../../_static/resources/entities/entity-client-script-shrink-"
+"avatar.js>`_'."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:47
 msgid "Ensure that 'Triggerable' is selected."
-msgstr ""
+msgstr "Asegúrate de que \"Triggerable\" esté seleccionado."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:48
 msgid ""
 "After you exit the **Create** app, test your script by clicking or "
 "triggering the button to observe your avatar scale down."
 msgstr ""
+"Después de que salgas de la apliacación \"Crear\", prueba tu script haciendo "
+"click o activando el botón hasta observar que tu avatar se reduzca en escala."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:61
 #: ../../source/create/entities/boombox-tutorial.rst:18
@@ -5857,7 +5881,7 @@ msgstr ""
 #: ../../source/create/entities/material-entity.rst:105
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:63
 msgid ":doc:`Create New Entities <create-entities>`"
-msgstr ""
+msgstr ":doc:`Crear Nuevas Entidades <create-entities>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:62
 #: ../../source/create/entities/boombox-tutorial.rst:19
@@ -5867,7 +5891,7 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:165
 #: ../../source/create/entities/zone-entity.rst:172
 msgid ":doc:`Change How Entities Look <entity-appearance>`"
-msgstr ""
+msgstr ":doc:`Cambiar el Aspecto de las Entidades <entity-appearance>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:63
 #: ../../source/create/entities/boombox-tutorial.rst:20
@@ -5878,7 +5902,7 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:164
 #: ../../source/create/entities/zone-entity.rst:171
 msgid ":doc:`Define an Entity's Behavior <entity-behavior>`"
-msgstr ""
+msgstr ":doc:`Definir el Comportamiento de una Entidad <entity-behavior>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:65
 #: ../../source/create/entities/boombox-tutorial.rst:22
@@ -5886,13 +5910,14 @@ msgstr ""
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:67
 msgid ":doc:`Client Entity Scripts <../../script/client-entity-scripts>`"
 msgstr ""
+":doc:`Scripts de Entidad de Cliente <../../script/client-entity-scripts>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:66
 #: ../../source/create/entities/boombox-tutorial.rst:23
 #: ../../source/create/entities/boombox-tutorial.rst:172
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:68
 msgid ":doc:`Write Your Own Scripts <../../script/write-scripts>`"
-msgstr ""
+msgstr ":doc:`Escribe Tus Propios Scripts <../../script/write-scripts>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:67
 #: ../../source/create/entities/boombox-tutorial.rst:173
@@ -5901,52 +5926,62 @@ msgstr ""
 #: ../../source/create/entities/entity-physics.rst:156
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:69
 msgid ":doc:`Interact with Your Environment <../../explore/interact>`"
-msgstr ""
+msgstr ":doc:`Interactuar con Tu Entorno <../../explore/interact>`"
 
 #: ../../source/create/entities/boombox-tutorial.rst:2
 msgid ""
 "This document is outdated. FIXME: Mentions HiFi hosted content, mentions "
 "Oculus Quest even though it is not supported yet"
 msgstr ""
+"Este documento está desactualizado. A tener en Cuenta: se menciona contenido "
+"alojado en HiFi, se menciona Oculus Quest aunque todavía no es compatible"
 
 #: ../../source/create/entities/boombox-tutorial.rst:7
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Create a Boombox"
-msgstr ""
+msgstr "Tutorial: Crear un BoomBox"
 
 #: ../../source/create/entities/boombox-tutorial.rst:9
 msgid ""
 "You can create a music player that plays all your favorite tracks and "
 "also syncs the audio for other users in your domain."
 msgstr ""
+"Puedes crear un reproductor de música que reproduzca todas tus pistas "
+"favoritas y también sincronizar el audio para otros usuarios de tu dominio."
 
 #: ../../source/create/entities/boombox-tutorial.rst:27
 msgid "Create a Boombox Entity"
-msgstr ""
+msgstr "Crear una Entidad de Boombox"
 
 #: ../../source/create/entities/boombox-tutorial.rst:29
 msgid "Your BoomBox will consist of:"
-msgstr ""
+msgstr "Tu Boombox consitirá en:"
 
 #: ../../source/create/entities/boombox-tutorial.rst:31
 msgid "A boombox base model: A model entity that runs an entity server script."
 msgstr ""
+"Un modelo base de boombox: Una entidad de modelo que ejecuta un script de "
+"entidad del servidor."
 
 #: ../../source/create/entities/boombox-tutorial.rst:32
 msgid ""
 "An 'ON/OFF' button: A child entity runs a client entity script to allow "
 "users to interact with the boombox."
 msgstr ""
+"Un botón de \"ON/OFF\": Una entidad secundaria que ejecuta un script de "
+"entidad de cliente para permitir que los usuarios interactúen con el boombox."
 
 #: ../../source/create/entities/boombox-tutorial.rst:34
 msgid ""
 "The boombox will start playing when users click or trigger the ON/OFF "
 "button."
 msgstr ""
+"El boombox comenzará a reproducir cuando los usuarios hagan click o activen "
+"el botón ON/OFF."
 
 #: ../../source/create/entities/boombox-tutorial.rst:36
 msgid "To create a boombox:"
-msgstr ""
+msgstr "Para crear un boombox:"
 
 #: ../../source/create/entities/boombox-tutorial.rst:39
 msgid ""
@@ -5955,12 +5990,18 @@ msgid ""
 " `use one we've created <https://github.com/misslivirose/happy-"
 "boombox/blob/master/BoomBox.fbx>`_."
 msgstr ""
+"Usa la aplicación **Crear** para :doc:`importar la entidad de modelo 3D "
+"<../3d-models/import-model>`. Puedes crear tu propio modelo 3D para la base "
+"del boombox o `usar uno que hemos creado <https://github.com/misslivirose/"
+"happy-boombox/blob/master/BoomBox.fbx>`_."
 
 #: ../../source/create/entities/boombox-tutorial.rst:40
 msgid ""
 "Next, :doc:`create the button entity <create-entities>` that users will "
 "interact with. This can be a cube entity."
 msgstr ""
+"Siguiente paso, :doc:`crea el botón de entidad <create-entities>`con el que "
+"los usuarios interactuarán. Puede ser una entidad de cubo."
 
 #: ../../source/create/entities/boombox-tutorial.rst:41
 msgid ""
@@ -5968,24 +6009,33 @@ msgid ""
 " from 'Box' to 'Octagon' or 'Cylinder' depending on your aesthetic "
 "preferences."
 msgstr ""
+"Ve a la pestaña \"Properties\" para la entidad de botón. Cambia la propiedad "
+"\"Shape\" de \"Box\" a \"Octagon\" o \"Cylinder\" dependiendo de tus "
+"preferencias estéticas."
 
 #: ../../source/create/entities/boombox-tutorial.rst:42
 msgid ""
 "Scroll down to the 'Behavior' section and ensure that 'Grabbable' and "
 "'Triggerable' are checked."
 msgstr ""
+"Desplázate hacia abajo hasta la sección \"Behavior\" y asegúrate de que "
+"\"Grabbable\" y \"Triggerable\" estén marcados."
 
 #: ../../source/create/entities/boombox-tutorial.rst:43
 msgid ""
 "Scale, rotate, and move your button to align it to the desired position "
 "on the model."
 msgstr ""
+"Escala, rota y mueve tu botón para alinearlo a la posición deseada del "
+"modelo."
 
 #: ../../source/create/entities/boombox-tutorial.rst:47
 msgid ""
 "With the **Create** app open, select the 3D model of the boombox. Go to "
 "the 'Properties' tab and copy the 'ID' under 'Name'."
 msgstr ""
+"Con la aplicación **Crear** abierta, selecciona el modelo 3D de tu boombox. "
+"Ve a la pesataña \"Properties\" y copia el \"ID\" en \"Name\"."
 
 #: ../../source/create/entities/boombox-tutorial.rst:48
 msgid ""
@@ -5993,10 +6043,13 @@ msgid ""
 " the copied entity ID in the 'Parent' field. This makes your boombox "
 "model entity the parent of your button entity."
 msgstr ""
+"Selecciona la entidad de cubo que creaste, ve a la pestaña de \"Properties\" "
+"y pega el ID de entidad copiado en el campo \"Parent\". Esto hace que tu "
+"entidad de modelo de boombox sea el padre de tú entidad de botón."
 
 #: ../../source/create/entities/boombox-tutorial.rst:52
 msgid "Add User Data to Your Boombox"
-msgstr ""
+msgstr "Agrega Datos de Usuario a Tu Boombox"
 
 #: ../../source/create/entities/boombox-tutorial.rst:54
 msgid ""
@@ -6005,48 +6058,64 @@ msgid ""
 "variables the same for all users in a domain. In this case, User Data "
 "will contain:"
 msgstr ""
+"La propiedad \"User Data\" (Datos de usuario) es un objeto JSON que se puede "
+"personalizar para adaptarse a las necesidades de un script. User Data "
+"también ayuda a sincronizar y mantener las mismas variables para todos los "
+"usuarios de un dominio. En este caso, User Data contendrá:"
 
 #: ../../source/create/entities/boombox-tutorial.rst:56
 msgid ""
 "Song List: All URLs of the songs you want played on your boombox. You can"
 " also use MP3 or WAV files stored on your local machine."
 msgstr ""
+"Lista de Canciones: Todas las URLs de las canciones que quieras reproducir "
+"en tu boombox. También puedes usar archivos MP3 o WAV almacenados en tu "
+"máquina local."
 
 #: ../../source/create/entities/boombox-tutorial.rst:57
 msgid ""
 "Music player volume information: You can change this as per your "
 "preference."
 msgstr ""
+"Información sobre el volumen del reproductor de Música: puedes cambiar esto "
+"según tus preferencias."
 
 #: ../../source/create/entities/boombox-tutorial.rst:61
 msgid ""
 "User Data can store information only up to a certain size. We recommend "
 "keeping the limit of 10 songs. We support the following formats:"
 msgstr ""
+"User Data puede almacenar información sólo hasta un cierto tamaño. "
+"Recomendamos mantener el límite de 10 canciones. Soportamos los siguientes "
+"formatos:"
 
 #: ../../source/create/entities/boombox-tutorial.rst:63
 msgid ""
 "WAV: 16-bit uncompressed WAV at any sample rate, with 1 (mono), "
 "2(stereo), or 4 (ambisonic) channels."
 msgstr ""
+"WAV: WAV sin comprimir de 16 bits a cualquier frecuencia de muestreo con 1 "
+"(mono), 2 (stereo) o 4 (ambisónico) canales."
 
 #: ../../source/create/entities/boombox-tutorial.rst:64
 msgid "MP3: Mono or stereo, at any sample rate."
-msgstr ""
+msgstr "MP3: Mono o estéreo, a cualquier frecuencia de muestreo."
 
 #: ../../source/create/entities/boombox-tutorial.rst:65
 msgid ""
 "RAW: 48khz 16-bit mono or stereo. Filename must include \".stereo\" to be"
 " interpreted as stereo."
 msgstr ""
+"RAW: 48 kHz de 16 bits mono o estéreo. El nombre de archivo debe incluir \"."
+"stereo\" para ser interpretado como estéreo."
 
 #: ../../source/create/entities/boombox-tutorial.rst:67
 msgid "To add User Data to your boombox:"
-msgstr ""
+msgstr "Para agregar Datos de Usuario (User Data) a tu boombox:"
 
 #: ../../source/create/entities/boombox-tutorial.rst:70
 msgid "Select your boombox entity, not the button."
-msgstr ""
+msgstr "Selecciona la entidad de tu boombox, no el botón."
 
 #: ../../source/create/entities/boombox-tutorial.rst:71
 msgid ""
@@ -6055,20 +6124,26 @@ msgid ""
 "volume setting. You can use your own songs and change the volume "
 "setting::"
 msgstr ""
+"Ve a la pestaña de \"Properties\". Desplázate hacia abajo a \"User Data\" y "
+"pega la siguiente información JSON. Estos datos JSON consisten de 10 "
+"canciones y la configuración de volumen. Puede usar tus propias canciones y "
+"cambiar la configuración del volumen:"
 
 #: ../../source/create/entities/boombox-tutorial.rst:94
 msgid "Write Music Player Scripts"
-msgstr ""
+msgstr "Escribir Scripts de Reproductores de Música"
 
 #: ../../source/create/entities/boombox-tutorial.rst:96
 msgid ""
 "The boombox system contains the following scripts and files that allows a"
 " user to control audio playback:"
 msgstr ""
+"El sistema boombox contiene los siguientes scripts y archivos que permiten "
+"al usuario controlar la reproducción de audio:"
 
 #: ../../source/create/entities/boombox-tutorial.rst:101
 msgid "Entity Server Script"
-msgstr ""
+msgstr "Script del Servidor de Entidades"
 
 #: ../../source/create/entities/boombox-tutorial.rst:101
 msgid ""
@@ -6079,6 +6154,14 @@ msgid ""
 "requests for each remotely callable function to execute on the server, "
 "and the server script handles the audio playback accordingly."
 msgstr ""
+"Este script del servidor maneja el estado del reproductor de música y "
+"reproduce el audio para que esté sincronizado con todos los usuarios. Las "
+"acciones y los comportamientos de las entidades que deben estar en el mismo "
+"estado para todos los usuarios deben ejecutarse en el servidor. EL script "
+"del cliente que se ejecuta en el botón transmite las solicitudes de cada "
+"función a las que se puede llamar de forma remota para que se ejecuten en el "
+"servidor, y el script del servidor maneja la reproducción de audio en "
+"consecuencia."
 
 #: ../../source/create/entities/boombox-tutorial.rst:101
 msgid ""
@@ -6086,10 +6169,12 @@ msgid ""
 "content.com/misslivirose/ happy-boombox/master/boom "
 "BoxEntityServerScript.js>`_"
 msgstr ""
+"`boomBoxEntityServerScript.js <https://raw.githubuser content.com/"
+"misslivirose/ happy-boombox/master/boom BoxEntityServerScript.js>`_"
 
 #: ../../source/create/entities/boombox-tutorial.rst:111
 msgid "Client Entity Script"
-msgstr ""
+msgstr "Script de Entidad de Cliente"
 
 #: ../../source/create/entities/boombox-tutorial.rst:111
 msgid ""
@@ -6099,16 +6184,24 @@ msgid ""
 " displays the controls, and serves as a relay mechanic between the HTML "
 "page and the boombox entity server script."
 msgstr ""
+"Este script de cliente maneja las interacciones entre usuarios y muestra la "
+"interfaz de usuario (UI) para controlar el boombox a través de una página "
+"HTML utilizando la interfaz de script de la tableta. Escucha los clicks del "
+"mouse y los activadores del controlador, muestra los controles y sirve como "
+"un mecanismo de retransmisión entre la página HTML y el script del servidor "
+"de entidad del boombox."
 
 #: ../../source/create/entities/boombox-tutorial.rst:111
 msgid ""
 "`boomBoxEntityScript.js <https://raw.githubuser content.com/misslivirose/"
 " happy-boombox/master/boom BoxEntityScript.js>`_"
 msgstr ""
+"`boomBoxEntityScript.js <https://raw.githubuser content.com/misslivirose/ "
+"happy-boombox/master/boom BoxEntityScript.js>`_"
 
 #: ../../source/create/entities/boombox-tutorial.rst:119
 msgid "HTML and CSS"
-msgstr ""
+msgstr "HTML y CSS"
 
 #: ../../source/create/entities/boombox-tutorial.rst:119
 msgid ""
@@ -6118,32 +6211,43 @@ msgid ""
 "boombox entity script, which in turns calls entity server methods "
 "depending on the `EventBridge` message contents."
 msgstr ""
+"La página HTML muestra la interfaz de usuario del controlador para boombox a "
+"través de la interfaz de script de la tableta y está diseñada con CSS. "
+"Utiliza `EventBridge` para enviar la entrada del usuario desde los elementos "
+"HTML al script de entidad boombox, que a su vez llama a los métodos del "
+"servidor de entidad dependiendo del contenido del mensaje `EventBridge`."
 
 #: ../../source/create/entities/boombox-tutorial.rst:119
 msgid ""
 "`boomBoxController.html <https://raw.githubusercontent .com/misslivirose"
 "/happy-boom box/master/app/boomBoxControll er.html>`_"
 msgstr ""
+"`boomBoxController.html <https://raw.githubusercontent .com/misslivirose/"
+"happy-boom box/master/app/boomBoxControll er.html>`_"
 
 #: ../../source/create/entities/boombox-tutorial.rst:125
 msgid ""
 "`styles.css <https://raw.github usercontent.com/misslivirose/ha ppy-"
 "boombox/master/app/styles.css>`_"
 msgstr ""
+"`styles.css <https://raw.github usercontent.com/misslivirose/ha ppy-boombox/"
+"master/app/styles.css>`_"
 
 #: ../../source/create/entities/boombox-tutorial.rst:130
 msgid ""
 "You can use the existing versions of our scripts, modify them, or "
 ":doc:`write your own scripts <../../script/write-scripts>`."
 msgstr ""
+"Puedes utilizar las versiones existentes de nuestros scripts, modificarlos o "
+":doc:`escribir tus propios scripts <../../script/write-scripts>`."
 
 #: ../../source/create/entities/boombox-tutorial.rst:132
 msgid "If you're using the existing versions of our scripts:"
-msgstr ""
+msgstr "Si estás utilizando las versiones existentes de nuestros scripts:"
 
 #: ../../source/create/entities/boombox-tutorial.rst:135
 msgid "Select your boombox model and go to the 'Properties' tab."
-msgstr ""
+msgstr "Selecciona tu modelo de boombox y ve a la pestaña \"Properties\"."
 
 #: ../../source/create/entities/boombox-tutorial.rst:136
 msgid ""

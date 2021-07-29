@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-06-29 00:24+0000\n"
+"PO-Revision-Date: 2021-07-29 10:22+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/es/>\n"
@@ -514,7 +514,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:68
 msgid "Client Entity Script"
-msgstr ""
+msgstr "Script de Entidad de Cliente"
 
 #: ../../source/script/get-started-with-scripting.rst:68
 msgid ""
