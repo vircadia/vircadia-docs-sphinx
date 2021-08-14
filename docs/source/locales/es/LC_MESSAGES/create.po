@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-07-29 19:34+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-08-14 13:40+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -6255,10 +6255,14 @@ msgid ""
 "boombox/master/boomBoxEntityServerScript.js>`_ into the 'Server Script' "
 "field."
 msgstr ""
+"Desplázate hacia abajo hasta la sección de \"Behavior\" (comportamiento) y "
+"pega la `URL del script del servidor de entidad <https://raw."
+"githubusercontent.com/misslivirose/happy-boombox/master/"
+"boomBoxEntityServerScript.js>`_ dentro del campo \"Server Script\"."
 
 #: ../../source/create/entities/boombox-tutorial.rst:137
 msgid "Select your button entity and go to the 'Properties' tab."
-msgstr ""
+msgstr "Selecciona tu botón de entidad y ve a la pestaña \"Properties\"."
 
 #: ../../source/create/entities/boombox-tutorial.rst:138
 msgid ""
@@ -6266,18 +6270,25 @@ msgid ""
 "script's URL <https://raw.githubusercontent.com/misslivirose/happy-"
 "boombox/master/boomBoxEntityScript.js>`_ into the 'Script' field."
 msgstr ""
+"Desplázate hacia abajo hasta la sección \"Behavior\" y pega la `URL del "
+"script de la entidad cliente<https://raw.githubusercontent.com/misslivirose/"
+"happy-boombox/master/boomBoxEntityScript.js>`_ dentro del campo \"Script\"."
 
 #: ../../source/create/entities/boombox-tutorial.rst:140
 msgid ""
 "If you're writing your own scripts or modifying the existing ones, and "
 "want to host these in the 'Asset Browser':"
 msgstr ""
+"Si estás escribiendo tus propios scripts o modificando algunos que ya "
+"existen, y quieres alojarlos en el \"Asset Browser\" (Explorador de Activos):"
 
 #: ../../source/create/entities/boombox-tutorial.rst:142
 msgid ""
 "On your computer, create a folder called 'BoomBox'. You'll save your "
 "files here with the following structure."
 msgstr ""
+"En tu computadora, crea una carpeta llamada \"BoomBox\". Guardarás tus "
+"archivos aquí con la siguiente estructura."
 
 #: ../../source/create/entities/boombox-tutorial.rst:146
 msgid ""
@@ -6291,46 +6302,65 @@ msgid ""
 "<https://raw.githubusercontent.com/misslivirose/happy-"
 "boombox/master/app/styles.css>`_ to the folder in your computer."
 msgstr ""
+"Guarda el `script del servidor de entidad <https://raw.githubusercontent.com/"
+"misslivirose/happy-boombox/master/boomBoxEntityServerScript.js>`_, `script "
+"de entidad cliente <https://raw.githubusercontent.com/misslivirose/"
+"happy-boombox/master/boomBoxEntityScript.js>`_,`archivo HTML <https://raw."
+"githubusercontent.com/misslivirose/happy-boombox/master/app/boomBoxController"
+".html>`_, y `archivo CSS <https://raw.githubusercontent.com/misslivirose/"
+"happy-boombox/master/app/styles.css>`_ en la carpeta de tu computadora."
 
 #: ../../source/create/entities/boombox-tutorial.rst:148
 msgid ""
 "In the **Create** app, click 'Open This Domain's Asset Server' to view "
 "the Asset Browser."
 msgstr ""
+"En la aplicación **Create**, haz click en \"Open This Domain's Asset Server\""
+" para ver el Asset Browser."
 
 #: ../../source/create/entities/boombox-tutorial.rst:149
 msgid ""
 "Create the same boombox directory in your 'Asset Browser' and upload your"
 " files."
 msgstr ""
+"Crea el mismo directorio de boombox en tu \"Asset Browser\" y sube tus "
+"archivos."
 
 #: ../../source/create/entities/boombox-tutorial.rst:150
 msgid ""
 "Use the **Create** app and select your boombox model and go to the "
 "'Properties' tab."
 msgstr ""
+"Utiliza la aplicación **Create** y selecciona tu modelo boombox y ve a la "
+"pestaña de \"Properties\"."
 
 #: ../../source/create/entities/boombox-tutorial.rst:151
 msgid ""
 "Scroll down to the 'Behavior' section and paste the entity server "
 "script's URL into the 'Server Script' field."
 msgstr ""
+"Desplázate hacia abajo hasta la sección de \"Behavior\" y pega la URL del "
+"script del servidor de entidad dentro del campo \"Server Script\"."
 
 #: ../../source/create/entities/boombox-tutorial.rst:152
 msgid ""
 "Use the **Create** app and select your button entity and go to the "
 "'Properties' tab."
 msgstr ""
+"Utiliza la aplicación **Create** y selecciona tu botón de entidad y ve a la "
+"pestaña de \"Properties\"."
 
 #: ../../source/create/entities/boombox-tutorial.rst:153
 msgid ""
 "Scroll down to the 'Behavior' section and paste the client entity "
 "script's URL into the 'Script' field."
 msgstr ""
+"Desplázate hacia abajo hasta la sección de \"Behavior\" y pega la URL del "
+"script de entidad cliente dentro del campo \"Script\"."
 
 #: ../../source/create/entities/boombox-tutorial.rst:157
 msgid "Some additional notes:"
-msgstr ""
+msgstr "Algunas notas adicionales:"
 
 #: ../../source/create/entities/boombox-tutorial.rst:159
 msgid ""
@@ -6339,6 +6369,11 @@ msgid ""
 "move things around, make sure you also update the links in the scripts "
 "themselves to reference the new file location."
 msgstr ""
+"Los scripts vinculados anteriormente usan rutas relativas para vincularse "
+"entre sí, por lo que es importante preservar la estructura de carpetas "
+"proporcionada. Si quieres mover las cosas, asegúrate de actualizar también "
+"los enlaces en los propios scripts para hacer referencia a la nueva "
+"ubicación del archivo."
 
 #: ../../source/create/entities/boombox-tutorial.rst:160
 msgid ""
@@ -6346,18 +6381,26 @@ msgid ""
 "re-upload them to the asset browser. Reload all content and reload your "
 "entity server scripts to see changes take effect after modifying files."
 msgstr ""
+"Si quieres hacer modificaciones a tus archivos de script, necesitarás re-"
+"subirlos al asset browser. Resubir todo el contenido y resubir tus scripts "
+"del servidor de entidad para ver que los cambios surtan efectos después de "
+"modificar los archivos."
 
 #: ../../source/create/entities/boombox-tutorial.rst:161
 msgid ""
 "Entity server scripts do not have access to mouse press or controller "
 "events, since these are all handled on the client side."
 msgstr ""
+"Los scripts del servidor de entidad no tienen acceso por pulsación del mouse "
+"o eventos del controlador, ya que todos se manejan desde el lado del cliente."
 
 #: ../../source/create/entities/boombox-tutorial.rst:162
 msgid ""
 "HTML pages will not render in the Oculus Quest, so only desktop users "
 "will be able to interact with the boombox controls."
 msgstr ""
+"Las páginas HTML no se mostrarán en el Oculus Quest, entonces solamente los "
+"usuarios de escritorio podrán interactuar con los controles del boombox."
 
 #: ../../source/create/entities/create-entities.md:3
 msgid ""
@@ -6366,10 +6409,14 @@ msgid ""
 "creating new entities. The easiest way to start building is to use "
 "Vircadia's **Create** app."
 msgstr ""
+"Continuamente nos sorprende el ingenio y la creatividad de los creadores de "
+"contenido de la comunidad. Tú también puedes unirte a esta comunidad creando "
+"nuevas entidades. La forma más fácil de comenzar a construir es usar la "
+"aplicación **Create** de Vircadia."
 
 #: ../../source/create/entities/create-entities.md:10
 msgid "To add a new entity to your domain:"
-msgstr ""
+msgstr "Para agregar una nueva entidad a tu dominio:"
 
 #: ../../source/create/entities/create-entities.md:11
 msgid "In Interface, pull up your tablet or HUD and go to **Create**."
@@ -6380,40 +6427,48 @@ msgid ""
 "In the **Create** app, select the [type of entity](#types-of-entities) "
 "you want to create."
 msgstr ""
+"En la aplicación **Create**, selecciona el [tipo de entidad](#types-of-"
+"entities) que quieras crear."
 
 #: ../../source/create/entities/create-entities.md:13
 msgid "Depending on the entity type, the behavior will be different:"
-msgstr ""
+msgstr "Dependiendo del tipo de entidad, el comportamiento será diferente:"
 
 #: ../../source/create/entities/create-entities.md:14
 msgid ""
 "For model and [material entities](material-entity), enter the URL that "
 "you want to import."
 msgstr ""
+"Para modelos y [materiales de entidad](material-entity), ingresa la URL que "
+"quieras importar."
 
 #: ../../source/create/entities/create-entities.md:15
 msgid ""
 "For all other entities, an entity with the default settings will appear "
 "in front of your avatar."
 msgstr ""
+"Para todas las demás entidades, una entidad con la configuración "
+"predeterminada aparecerá frente a tu avatar."
 
 #: ../../source/create/entities/create-entities.md:16
 msgid ""
 "Edit the properties of your entity so that it [looks](entity-appearance) "
 "and [behaves](entity-behavior) like you want it to."
 msgstr ""
+"Edita las propiedades de tu avatar para que se [vea](entity-appearance) y "
+"comporte(entity-behavior) como tu quieras."
 
 #: ../../source/create/entities/create-entities.md:18
 msgid "![](_images/add-cube.png)"
-msgstr ""
+msgstr "![](_images/add-cube.png)"
 
 #: ../../source/create/entities/create-entities.md:20
 msgid "Types of Entities"
-msgstr ""
+msgstr "Tipos de Entidades"
 
 #: ../../source/create/entities/create-entities.md:21
 msgid "You can choose from the following entity types:"
-msgstr ""
+msgstr "Puedes elegir entre los siguientes tipos de entidad:"
 
 #: ../../source/create/entities/create-entities.md:23
 msgid "**MODEL** entities are 3D models that you can import in-world."
