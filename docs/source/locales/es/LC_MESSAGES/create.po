@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-08-14 13:40+0000\n"
+"PO-Revision-Date: 2021-08-15 17:47+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -6473,62 +6473,79 @@ msgstr "Puedes elegir entre los siguientes tipos de entidad:"
 #: ../../source/create/entities/create-entities.md:23
 msgid "**MODEL** entities are 3D models that you can import in-world."
 msgstr ""
+"Las entidades de **MODELO** son modelos 3D que puedes importar en el mundo."
 
 #: ../../source/create/entities/create-entities.md:24
 msgid "**CUBE** entities are used to create basic box shaped entities."
 msgstr ""
+"Las entidades de **CUBO** son utilizadas para crear entidades básicas en "
+"forma de caja."
 
 #: ../../source/create/entities/create-entities.md:25
 msgid "**SPHERE** entities are used to create basic sphere shaped entities."
 msgstr ""
+"Las entidades de **ESFERA** se utilizan para crear entidades básicas en "
+"forma de esfera."
 
 #: ../../source/create/entities/create-entities.md:26
 msgid ""
 "**LIGHT** entities are balls or beams of light that are used to add local"
 " lighting effects and spotlights to an area."
 msgstr ""
+"Las entidades de **LUZ** son pelotas o haces de luz que se utilizan para "
+"añadir efectos de iluminación local y focos a un área."
 
 #: ../../source/create/entities/create-entities.md:27
 msgid ""
 "**TEXT** entities display text against a flat plane, similar to a "
 "whiteboard or blackboard."
 msgstr ""
+"Las entidades de **TEXTO** muestran texto en un plano, similar a una pizarra "
+"o pizarrón."
 
 #: ../../source/create/entities/create-entities.md:28
 msgid "**IMAGE** entities display an image from a specified URL."
-msgstr ""
+msgstr "Las entidades de **IMAGEN** muestran una imagen de una URL específica."
 
 #: ../../source/create/entities/create-entities.md:29
 msgid ""
 "**WEB** entities display a web page from a specified URL. Only 20 web "
 "entities can run at the same time in a domain."
 msgstr ""
+"Las entidades **WEB** muestran una página web de una URL específica. Solo 20 "
+"entidades web pueden ejecutarse a la vez en un dominio."
 
 #: ../../source/create/entities/create-entities.md:30
 msgid ""
 "**ZONE** entities are 3-dimensional areas that allow you to create a "
 "custom lighting environment."
 msgstr ""
+"Las entidades de **ZONA** son áreas de 3 dimensiones que te permiten crear "
+"un entorno de iluminación personalizado."
 
 #: ../../source/create/entities/create-entities.md:31
 msgid ""
 "**PARTICLE** entities create dynamic effects that are made of many small "
 "parts, such as smoke clouds or falling water."
 msgstr ""
+"Las entidades de **PARTÍCULA** crean efectos dinámicos que se componen de "
+"muchas partes pequeñas, como nubes de humo o agua que cae."
 
 #: ../../source/create/entities/create-entities.md:32
 msgid ""
 "**[MATERIAL](material-entity)** entities modify the existing materials on"
 " other entities and avatars."
 msgstr ""
+"Las entidades de **[MATERIAL](material-entity)** modifican los materiales "
+"existentes en otras entidades y avatars."
 
 #: ../../source/create/entities/create-entities.md:38
 msgid "[The Create App](../tools.html#the-create-app)"
-msgstr ""
+msgstr "[La Aplicación de Creación](../tools.html#the-create-app)"
 
 #: ../../source/create/entities/create-entities.md:39
 msgid "[Add a Material Entity](material-entity)"
-msgstr ""
+msgstr "[Añadir una Entidad de Material](material-entity)"
 
 #: ../../source/create/entities/create-entities.md:40
 #: ../../source/create/entities/create-spotlight.md:17
@@ -6542,7 +6559,7 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:27
 #: ../../source/create/entities/zone-tutorial.md:158
 msgid "[Change How Entities Look](entity-appearance)"
-msgstr ""
+msgstr "[Cambiar el Aspecto de las Entidades](entity-appearance)"
 
 #: ../../source/create/entities/create-entities.md:41
 msgid "[Import Your 3D Model](../3d-models/import-model)"
@@ -6550,24 +6567,25 @@ msgstr "[Importa Tu Modelo 3D](../3d-models/import-model)"
 
 #: ../../source/create/entities/create-entities.md:42
 msgid "[Play Media in a Web Entity](web-entity-media)"
-msgstr ""
+msgstr "[Reproducir Archivos Multimedia en una Entidad Web](web-entity-media)"
 
 #: ../../source/create/entities/create-entities.md:43
 msgid "[Tutorial: Create a Gold Spotlight](create-spotlight)"
-msgstr ""
+msgstr "[Tutorial: Crear un Foco Dorado](create-spotlight)"
 
 #: ../../source/create/entities/create-entities.md:44
 msgid "[Tutorial: Display a YouTube Channel](display-youtube)"
-msgstr ""
+msgstr "[Tutorial: Mostrar un Canal de YouTube](display-youtube)"
 
 #: ../../source/create/entities/create-entities.md:45
 msgid "[Tutorial: Modify a Zone Entity's Properties](zone-tutorial)"
 msgstr ""
+"[Tutorial: Modificar las Propiedades de una Entidad de Zona](zone-tutorial)"
 
 #: ../../source/create/entities/create-fountain.rst:3
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Create a Smoke Fountain"
-msgstr ""
+msgstr "Tutorial: Crear una Fuente de Humo"
 
 #: ../../source/create/entities/create-fountain.rst:5
 msgid ""
@@ -6576,18 +6594,22 @@ msgid ""
 " create effects made up of many small particles, such as smoke, confetti,"
 " or falling leaves."
 msgstr ""
+"En este tutorial, aprenderás cómo funcionan las entidades de partículas "
+"creando una fuente de humo que emite varios colores. Las entidades de "
+"partículas se utilizan para crear efectos compuestos por muchas partículas "
+"pequeñas, como humo, confeti u hojas que caen."
 
 #: ../../source/create/entities/create-fountain.rst:17
 msgid "`Create New Entities <create-entities.html>`_"
-msgstr ""
+msgstr "`Crear Nuevas Entidades <create-entities.html>`_"
 
 #: ../../source/create/entities/create-fountain.rst:18
 msgid "`Change How Entities Look <entity-appearance.html>`_"
-msgstr ""
+msgstr "`Cambiar el Aspecto de las Entidades <entity-appearance.html>`_"
 
 #: ../../source/create/entities/create-fountain.rst:23
 msgid "Create a Smoke Fountain"
-msgstr ""
+msgstr "Crear una Fuente de Humo"
 
 #: ../../source/create/entities/create-fountain.rst:25
 msgid ""
@@ -6599,40 +6621,48 @@ msgid ""
 " but you can replace this texture with your own to create your desired "
 "effect."
 msgstr ""
+"Las entidades de partículas se utilizan para crear efectos que se componen "
+"de partes más pequeñas, como humo, confeti u hojas que caen. El efecto y la "
+"apariencia de la entidad se definen por su textura. La textura por defecto "
+"es una `tenue textura de humo<https://cdn-1.vircadia.com/us-e-1/Bazaar/"
+"Assets/Textures/Defaults/Interface/default_particle.png>`_, pero puedes "
+"reemplazar esta textura con la tuya para crear el efecto deseado."
 
 #: ../../source/create/entities/create-fountain.rst:27
 msgid "To create your smoke fountain using a particle entity:"
-msgstr ""
+msgstr "Para crear tu fuente de humo usando una entidad de partículas:"
 
 #: ../../source/create/entities/create-fountain.rst:31
 msgid ""
 "Click the 'Particle' icon to create the particle entity. By default, the "
 "particle entity emits smoke."
 msgstr ""
+"Haz click en el ícono \"Particle\" para crear la entidad de partícula. Por "
+"defecto, la partícula de entidad emite humo."
 
 #: ../../source/create/entities/create-fountain.rst:32
 msgid "Go to the 'Properties' tab, and set the following values:"
-msgstr ""
+msgstr "Ve a la pestaña de \"Properties\", y establece los siguientes valores:"
 
 #: ../../source/create/entities/create-fountain.rst:37
 msgid "Lifespan"
-msgstr ""
+msgstr "Lifespan (Duración)"
 
 #: ../../source/create/entities/create-fountain.rst:37
 msgid "``1.20``"
-msgstr ""
+msgstr "``1.20``"
 
 #: ../../source/create/entities/create-fountain.rst:37
 msgid "This property defines how long each particle lives, in seconds."
-msgstr ""
+msgstr "Esta propiedad define cuánto tiempo vive cada partícula, en segundos."
 
 #: ../../source/create/entities/create-fountain.rst:39
 msgid "Max Particles"
-msgstr ""
+msgstr "Max Particles"
 
 #: ../../source/create/entities/create-fountain.rst:39
 msgid "``356``"
-msgstr ""
+msgstr "``356``"
 
 #: ../../source/create/entities/create-fountain.rst:39
 msgid ""
@@ -6640,26 +6670,31 @@ msgid ""
 "particles, whose lifespans are completed, are swapped out for newer ones."
 " Increase this value to increase the number of particles for your effect."
 msgstr ""
+"Max particles define cuántas partículas se renderizan a la vez. Las "
+"partículas más antiguas, cuya vida útil se ha completado, se intercambian "
+"por otras más nuevas. Aumenta este valor para aumentar la cantidad de "
+"partículas para su efecto."
 
 #: ../../source/create/entities/create-fountain.rst:44
 msgid "Emit Rate"
-msgstr ""
+msgstr "Emit Rate"
 
 #: ../../source/create/entities/create-fountain.rst:44
 msgid "``524``"
-msgstr ""
+msgstr "``524``"
 
 #: ../../source/create/entities/create-fountain.rst:44
 msgid "The emit rate defines how many particles are emitted per second."
 msgstr ""
+"Emit rate (Tasa de emisión) define cuántas partículas se emiten por segundo."
 
 #: ../../source/create/entities/create-fountain.rst:46
 msgid "Speed Spread"
-msgstr ""
+msgstr "Speed Spread"
 
 #: ../../source/create/entities/create-fountain.rst:46
 msgid "``2.10``"
-msgstr ""
+msgstr "``2.10``"
 
 #: ../../source/create/entities/create-fountain.rst:46
 msgid ""
@@ -6668,28 +6703,34 @@ msgid ""
 "Spread is ``1``, the particles will have speeds that range from ``4`` to "
 "``6``."
 msgstr ""
+"Esto define el rango de velocidades en el que se emitirán las partículas, "
+"que cambia según el Emit Speed. Por ejemplo, si Emit Speed es ``5`` y Speed "
+"Spread es ``1``, las partículas tendrán velocidades que van desde ``4`` a "
+"``6``."
 
 #: ../../source/create/entities/create-fountain.rst:50
 msgid "Emit Dimensions"
-msgstr ""
+msgstr "Emit Dimensions"
 
 #: ../../source/create/entities/create-fountain.rst:50
 msgid "x = ``0.60``, y = ``10.00``, z = ``0.30``"
-msgstr ""
+msgstr "x = ``0.60``, y = ``10.00``, z = ``0.30``"
 
 #: ../../source/create/entities/create-fountain.rst:50
 msgid ""
 "Particles are emitted from a radius. This property defines the outer "
 "limit of that radius."
 msgstr ""
+"Las partículas se emiten desde un radio. Esta propiedad define el límite "
+"exterior de ese radio."
 
 #: ../../source/create/entities/create-fountain.rst:53
 msgid "Size"
-msgstr ""
+msgstr "Size"
 
 #: ../../source/create/entities/create-fountain.rst:53
 msgid "Start = ``0.40``, Middle = ``0.80``, Finish = ``0.80``"
-msgstr ""
+msgstr "Start = ``0.40``, Middle = ``0.80``, Finish = ``0.80``"
 
 #: ../../source/create/entities/create-fountain.rst:53
 msgid ""
@@ -6697,87 +6738,98 @@ msgid ""
 "from emission to end of life. Here, it starts at ``0.4`` and when its "
 "life is completed, the particle has increased in size to ``0.8``."
 msgstr ""
+"Esta propiedad determina el tamaño de cada partícula y cómo cambia desde la "
+"emisión hasta el final de su vida útil. Aquí, comienza en ``0.4`` y cuando "
+"se completa su vida, la partícula ha aumentado de tamaño a ``0.8``."
 
 #: ../../source/create/entities/create-fountain.rst:57
 #: ../../source/create/entities/entity-appearance.rst:28
 msgid "Color"
-msgstr ""
+msgstr "Color"
 
 #: ../../source/create/entities/create-fountain.rst:57
 msgid "Start = ``#000000``, Middle = ``#FFFFFF``, Finish = ``#000000``"
-msgstr ""
+msgstr "Start = ``#000000``, Middle = ``#FFFFFF``, Finish = ``#000000``"
 
 #: ../../source/create/entities/create-fountain.rst:57
 msgid ""
 "This determines the colors the particles will emit. Start, middle, and "
 "finish define the color spectrum to be emitted."
 msgstr ""
+"Esto determina los colores que emitirán las partículas. Inicio (start), "
+"medio (middle) y final (finish) definen el espectro de color que se emitirá."
 
 #: ../../source/create/entities/create-fountain.rst:60
 msgid "Color Spread"
-msgstr ""
+msgstr "Color Spread"
 
 #: ../../source/create/entities/create-fountain.rst:60
 msgid "``#FFFFFF``"
-msgstr ""
+msgstr "``#FFFFFF``"
 
 #: ../../source/create/entities/create-fountain.rst:60
 msgid "This determines the color spectrum of the particles."
-msgstr ""
+msgstr "Esto determina el espectro de color de las partículas."
 
 #: ../../source/create/entities/create-fountain.rst:62
 msgid "Emit Acceleration"
-msgstr ""
+msgstr "Emit Acceleration"
 
 #: ../../source/create/entities/create-fountain.rst:62
 msgid "x = ``0``, y = ``-9.09``, z = ``0``"
-msgstr ""
+msgstr "x = ``0``, y = ``-9.09``, z = ``0``"
 
 #: ../../source/create/entities/create-fountain.rst:62
 msgid "This is the acceleration of each particle during its lifetime."
-msgstr ""
+msgstr "Esta es la aceleración de cada partícula durante su vida."
 
 #: ../../source/create/entities/create-fountain.rst:64
 msgid "Spin Spread"
-msgstr ""
+msgstr "Spin Spread"
 
 #: ../../source/create/entities/create-fountain.rst:64
 msgid "``147.40``"
-msgstr ""
+msgstr "``147.40``"
 
 #: ../../source/create/entities/create-fountain.rst:64
 msgid ""
 "The spread in spins for the particle entity. Changing this value results "
 "in a variety of spins for different particles."
 msgstr ""
+"Es la propagación en giros para la entidad de partículas. Cambiar este valor "
+"da como resultado una variedad de giros para diferentes partículas."
 
 #: ../../source/create/entities/create-fountain.rst:67
 msgid "Horizontal Angle"
-msgstr ""
+msgstr "Horizontal Angle"
 
 #: ../../source/create/entities/create-fountain.rst:67
 msgid "Start = ``0``, Finish = ``180``"
-msgstr ""
+msgstr "Start = ``0``, Finish = ``180``"
 
 #: ../../source/create/entities/create-fountain.rst:67
 msgid ""
 "This is the angle range in degrees at which the particles are emitted "
 "along the z axis and rotated around on the y axis."
 msgstr ""
+"Este es el rango de ángulos en grados en el que las partículas se emiten a "
+"lo largo del eje z y giran alrededor del eje y."
 
 #: ../../source/create/entities/create-fountain.rst:70
 msgid "Vertical angle"
-msgstr ""
+msgstr "Vertical angle"
 
 #: ../../source/create/entities/create-fountain.rst:70
 msgid "Start = ``150``, Finish = ``180.``"
-msgstr ""
+msgstr "Start = ``150``, Finish = ``180.``"
 
 #: ../../source/create/entities/create-fountain.rst:70
 msgid ""
 "This is the angle range in degrees at which the particles are emitted "
 "along the x axis and rotated around on the z axis."
 msgstr ""
+"Este es el rango de ángulos en grados en el que las partículas se emiten a "
+"lo largo del eje x y giran alrededor del eje z."
 
 #: ../../source/create/entities/create-fountain.rst:83
 msgid ""
@@ -6785,11 +6837,14 @@ msgid ""
 "experiment with different settings to simulate particle movement, such as"
 " a waterfall, confetti gun, or falling leaves."
 msgstr ""
+"¡Felicidades! ¡Has creado una fuente de humo multicolor! Puedes experimentar "
+"con diferentes configuraciones para simular el movimiento de partículas, "
+"como una cascada, una pistola de confeti u hojas que caen."
 
 #: ../../source/create/entities/create-spotlight.md:1
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Create a Gold Spotlight"
-msgstr ""
+msgstr "Tutorial: Crear un Foco Dorado"
 
 #: ../../source/create/entities/create-spotlight.md:3
 msgid ""
@@ -6798,21 +6853,25 @@ msgid ""
 "ball or a beam of light, and is used to add local lighting effects or "
 "spotlights to an area."
 msgstr ""
+"En este tutorial, aprenderás cómo funcionan las entidades de luz creando un "
+"foco dorado que ilumina una pared. Una entidad de luz se comporta como una "
+"bola o un haz de luz y se utiliza para agregar efectos de iluminación local "
+"o focos a un área."
 
 #: ../../source/create/entities/create-spotlight.md:7
 #: ../../source/create/entities/display-youtube.md:7
 msgid "[Prerequisites](#prerequisities)"
-msgstr ""
+msgstr "[Prerrequisitos](#prerequisities)"
 
 #: ../../source/create/entities/create-spotlight.md:8
 msgid ""
 "[Create a Wall to Shine the Light On](#create-a-wall-to-shine-the-light-"
 "on)"
-msgstr ""
+msgstr "[Crear una Pared para Iluminar](#create-a-wall-to-shine-the-light-on)"
 
 #: ../../source/create/entities/create-spotlight.md:9
 msgid "[Create the Gold Spotlight](#create-the-gold-spotlight)"
-msgstr ""
+msgstr "[Crear el Foco Dorado](#create-the-gold-spotlight)"
 
 #: ../../source/create/entities/create-spotlight.md:16
 #: ../../source/create/entities/create-spotlight.md:62
@@ -6829,7 +6888,7 @@ msgstr "[Crea Nuevas Entidades](create-entities)"
 
 #: ../../source/create/entities/create-spotlight.md:19
 msgid "Create a Wall to Shine the Light On"
-msgstr ""
+msgstr "Crear una Pared para Iluminar"
 
 #: ../../source/create/entities/create-spotlight.md:21
 msgid ""
