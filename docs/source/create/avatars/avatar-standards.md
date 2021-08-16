@@ -166,82 +166,84 @@ Here is an example of modifying your blendshapes in your FST file:
 
 **ReadyPlayerMe Blendshape**
 
-ReadyPlayerMe blendshapes are also converted into Vircadia blendshapes automatically using a default mapping as follows:
+ReadyPlayerMe blendshapes are converted into Vircadia blendshapes automatically using a default mapping as follows:
 
-<div class="block">
-const QHash<QString, QPair<QString, float>> READYPLAYERME_BLENDSHAPES_MAP = {
-    // ReadyPlayerMe blendshape default mapping.
-    { "mouthOpen", { "JawOpen", 1.0f } },
-    { "eyeBlinkLeft", { "EyeBlink_L", 1.0f } },
-    ...`
-</div>
+ `const QHash<QString, QPair<QString, float>> READYPLAYERME_BLENDSHAPES_MAP = {`
 
-**Blendshapes List**
+**eyes Blendshapes**
 
-<div class="block">
-"EyeBlink_L",
-"EyeBlink_R",
-"EyeSquint_L",
-"EyeSquint_R",
-"EyeDown_L",
-"EyeDown_R",
-"EyeIn_L",
-"EyeIn_R",
-"EyeOpen_L",
-"EyeOpen_R",
-"EyeOut_L",
-"EyeOut_R",
-"EyeUp_L",
-"EyeUp_R",
-"BrowsD_L",
-"BrowsD_R",
-"BrowsU_C",
-"BrowsU_L",
-"BrowsU_R",
-"JawFwd",
-"JawLeft",
-"JawOpen",
-"JawRight",
-"MouthLeft",
-"MouthRight",
-"MouthFrown_L",
-"MouthFrown_R",
-"MouthSmile_L",
-"MouthSmile_R",
-"MouthDimple_L",
-"MouthDimple_R",
-"LipsStretch_L",
-"LipsStretch_R",
-"LipsUpperClose",
-"LipsLowerClose",
-"LipsFunnel",
-"LipsPucker",
-"Puff",
-"CheekSquint_L",
-"CheekSquint_R",
-"MouthClose",
-"MouthUpperUp_L",
-"MouthUpperUp_R",
-"MouthLowerDown_L",
-"MouthLowerDown_R",
-"MouthPress_L",
-"MouthPress_R",
-"MouthShrugLower",
-"MouthShrugUpper",
-"NoseSneer_L",
-"NoseSneer_R",
-"TongueOut",
-"UserBlendshape0",
-"UserBlendshape1",
-"UserBlendshape2",
-"UserBlendshape3",
-"UserBlendshape4",
-"UserBlendshape5",
-"UserBlendshape6",
-"UserBlendshape7",
-"UserBlendshape8",
-"UserBlendshape9",
-</div>
+* "EyeBlink_L"
+* "EyeBlink_R"
+* "EyeSquint_L"
+* "EyeSquint_R"
+* "EyeDown_L"
+* "EyeDown_R"
+* "EyeIn_L"
+* "EyeIn_R"
+* "EyeOpen_L"
+* "EyeOpen_R"
+* "EyeOut_L"
+* "EyeOut_R"
+* "EyeUp_L"
+* "EyeUp_R"
+* "BrowsD_L"
+* "BrowsD_R"
+* "BrowsU_C"
+* "BrowsU_L"
+* "BrowsU_R"
+
+**Jaw Blendshapes**
+
+* "JawFwd"
+* "JawLeft"
+* "JawOpen"
+* "JawRight"
+* "MouthLeft"
+* "MouthRight"
+* "MouthFrown_L"
+* "MouthFrown_R"
+* "MouthSmile_L"
+* "MouthSmile_R"
+* "MouthDimple_L"
+* "MouthDimple_R"
+
+**Lip Blendshapes**
+
+* "LipsStretch_L"
+* "LipsStretch_R"
+* "LipsUpperClose"
+* "LipsLowerClose"
+* "LipsFunnel"
+* "LipsPucker"
+* "Puff"
+
+**Mouth, Cheek and User Blendshapes**
+
+* "CheekSquint_L"
+* "CheekSquint_R"
+* "MouthClose"
+* "MouthUpperUp_L"
+*  "MouthUpperUp_R"
+* "MouthLowerDown_L"
+* "MouthLowerDown_R"
+* "MouthPress_L"
+* "MouthPress_R"
+* "MouthShrugLower"
+* "MouthShrugUpper"
+* "NoseSneer_L"
+* "NoseSneer_R"
+* "TongueOut"
+* "UserBlendshape0"
+* "UserBlendshape1"
+* "UserBlendshape2"
+* "UserBlendshape3"
+* "UserBlendshape4"
+* "UserBlendshape5"
+* "UserBlendshape6"
+* "UserBlendshape7"
+* "UserBlendshape8"
+* "UserBlendshape9"
+
 
 ## Other Considerations
 
