@@ -192,3 +192,11 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+
+# Variables
+
+rst_prolog = """
+.. |serverdeb| replace:: https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2021.1.2-20210525-b020558-0ubuntu1-1_amd64.deb
+.. |serverdebfile| replace:: vircadia-server_2021.1.2-20210525-b020558-0ubuntu1-1_amd64.deb
+.. |serverrpm| replace:: https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2021.1.1_EOS_20210405_1751a59-1.amzn2.x86_64.rpm
+"""
