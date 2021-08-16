@@ -22,8 +22,12 @@ Before you import an animation into Vircadia, adjust some settings in the 3D mod
 1. We recommend setting the framerate to 30 fps as a good compromise between smoothness and file size.
 2. Bake your animation channels, key frames, and in-betweens to ensure that Vircadia reads everything. This is to ensure that your animation doesn't stop and start, but appears smooth and flows through each movement.
 3. Prepare to export the skeleton and frames that are being used in the animation.
-4. Export your animation as an FBX file. (Reading animations from other formats like glTF is currently not supported.)
-5. Upload this FBX file to a cloud server and copy the URL.
+4. Disable any kind of keyframe reduction. For example, in Blender, set the "simplify" setting to 0.00 when exporting an FBX file otherwise the animation may not play correctly.
+
+.. image:: _images/keyframe-reduction.png
+
+5. Export your animation as an FBX file. (Reading animations from other formats like glTF is currently not supported.)
+6. Upload this FBX file to a cloud server and copy the URL.
 
 ------------------------
 Import an Animation
@@ -61,10 +65,8 @@ Once you complete uploading your animation's FBX file, you can import the 3D mod
     | Animation FPS      | This is the animation's framerate.                                           |
     +--------------------+------------------------------------------------------------------------------+
 
-5. You can also control an animation's properties and when it starts playing with an :doc:`entity script <../../script/client-entity-scripts>`. 
+5. You can also control an animation's properties and when it starts playing with an :doc:`entity script <../../script/client-entity-scripts>`.
 
 **See Also**
 
 + :doc:`Import Your 3D Model <import-model>`
-
-  
