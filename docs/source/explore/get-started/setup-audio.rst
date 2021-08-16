@@ -1,3 +1,7 @@
+.. warning::
+    This document is slightly outdated.
+    FIXME: instructions for Windows are most likely outdated, no mention that you should *not* use "open mic" setups without push to talk
+
 #################################
 Set Up Your Audio Devices
 #################################

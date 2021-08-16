@@ -2,7 +2,7 @@
 Set up a Domain Server
 ######################
 
-Depending on your requirements, you can host your domain on a physical computer (by turning it into a local server) or on cloud servers. In general, we recommend using local servers for private events and gatherings, and cloud services for larger public venues. To help with hosting your domains, we have a partnership with DigitalOcean to provide affordable, integrated cloud domain services for your use.
+Depending on your requirements, you can host your domain on a physical computer (by turning it into a local server) or on cloud servers. In general, we recommend using local servers for private events and gatherings, and cloud services for larger public venues.
 
 .. rst-class:: list-table
 
@@ -15,12 +15,8 @@ Depending on your requirements, you can host your domain on a physical computer 
 |                      |                                           |   domain set and the number of visitors           |
 |                      |                                           |   you plan to have, you may need more than        |
 |                      |                                           |   the minimum requirements                        |
-|                      |                                           | * Responsible for security and maintenance        |
-|                      |                                           |   of your server                                  |
-|                      |                                           | * Requires manual installation and configuration  |
-|                      |                                           |   of Vircadia's Sandbox and domain                |
 +----------------------+-------------------------------------------+---------------------------------------------------+
-| DigitalOcean Droplet | * No need to have expensive hardware      | * Monthly subscription cost                       |
+| Cloud Server         | * No need to have expensive hardware      | * Monthly subscription cost                       |
 |                      |   on hand to host a domain                | * Service outages may occur with the cloud        |
 |                      | * Ability to easily re-scale servers,     |   provider                                        |
 |                      |   adjusting memory or transfer to         |                                                   |
@@ -40,5 +36,5 @@ Once you've decided what hosting platform to use, you're ready to set it up:
     :titlesonly:
 
     Host a Domain from a Local Windows Server <server-setup/windows-server>
-    Host a Domain from a Local, Remote, *or* Cloud Linux Server <server-setup/linux-server>
+    Host a Domain from a Local or Cloud Linux Server <server-setup/linux-server>
 

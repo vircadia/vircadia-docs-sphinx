@@ -1,5 +1,9 @@
+.. warning::
+    This document is outdated.
+    FIXME: mentions Sandbox
+
 ##############################
-Build and Add Your Own Content 
+Build and Add Your Own Content
 ##############################
 
 Maybe you've wandered around the metaverse, and you're inspired by the creativity of others. Or maybe none of the other domains really fit the atmosphere of what you have in mind. Whatever the reason, you're ready to branch out and build content of your own. If you don't know where to begin, this is a great place to start.
@@ -93,7 +97,7 @@ The final technique for building a content set follows a basic development workf
 
 We recommend using this method if you want to avoid interruption to your domain while you build your content, deploy your content set to multiple domains, or test your content before you deploy.
 
-1. Install Vircadia's open source `Client + Sandbox <https://www.highfidelity.com/download#sandbox>`_ software on a computer that is _not_ running as a local server. 
+1. Install Vircadia's open source `Client + Sandbox <https://vircadia.com/deploy-a-server/>`_ software on a computer that is _not_ running as a local server. 
 2. Open a Sandbox not connected to a local server.
 3. Build your content set in the Sandbox.
 4. `Export your content to JSON <export-content.html#export-entities-to-json>`_.

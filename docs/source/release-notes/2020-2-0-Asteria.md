@@ -13,9 +13,9 @@ For example, **2020.2.5-Asteria** will be compatible with **2020.2.0-Asteria**. 
 
 ## Interface (Codename Athena)
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * Create App
     * Now has tabs for entity properties. (#193)
@@ -27,13 +27,13 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Grabbable property on entities is now disabled by default. (#344)
 * Flying in VR is now enabled by default in new Interface installations. (#394)
 
-#### Graphics
+### Graphics
 
 * Zone Occlusion feature added. You can now have entities within a zone become culled if you are not within specified zones. (#78)
 * Models now support flipped normals on double sided geometry. (#301)
 * Models now support blendshapes. (#62)
 
-#### Technicals
+### Technicals
 
 * Package scripts: rename to Vircadia, add deletion and migration functionality. (#273)
 * VS2019 (Version 16.5.1) build fix. (#279)
@@ -60,33 +60,33 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## High Fidelity -> Vircadia Master Merge (#285)
 
-(v0.86.0 -> v0.87.0) 
+(v0.86.0 -> v0.87.0)
 
 High Fidelity's v0.87.0 was merged with Vircadia's v0.86.0 codebase. PR numbers here relate to the original High Fidelity repo and can only be retrieved if you have a backup of that repo before it was set to private.
 
-#### General
+### General
 
 * DEV-2330: Improved attenuation zones. Redefine an audio zone attenuation coefficient = 1.0 to mean "silent at any distance" instead of extreme falloff with distance. This ensures that chatterboxes are not audible outside of their boundary. Include code-health improvements to the HRTF. New functionality (parametric occlusion/lowpass effect) is not currently used, as it will require a new audio zone type to enable. (#16480)
-* DEV-2769: Remove the "acceleration" entity property from Create app 
+* DEV-2769: Remove the "acceleration" entity property from Create app
 It's a deprecated property that doesn't affect the entity. (#16497)
 * Added animedit avatar-animation.json graph editor tool. Animedit is a developer tool used to inspect and edit avatar animation graphs. Note: this is an independent application, separate from the main application. (#16532)
 * Use Alt to clone entities on Mac. (#16443)
 * Add display name field to the log in screen. (#15334)
-* Add automaticLookAt.js to developer scripts 
-`automaticLookAt.js` is a script that automatically controls the avatar's head and eye to simulate human interaction during group interactions. 
+* Add automaticLookAt.js to developer scripts
+`automaticLookAt.js` is a script that automatically controls the avatar's head and eye to simulate human interaction during group interactions.
 This PR adds that script to the developer script folder. (#16545)
 
 
 * Screenshare in Interface! (#16429)
     * Fix a few Screenshare bugs. (#16534)
-        - Fix screenshare broadcast on MacOS DEV builds _only_ - this is related to [DEV-2812], but doesn't fix the issue. 
+        - Fix screenshare broadcast on MacOS DEV builds _only_ - this is related to [DEV-2812], but doesn't fix the issue.
         - Fix z-fighting on smartboard in screenshare mode [DEV-2484].
     * Ignore anonymous screenshare zone entry. (#16544)
     * DEV-2700: Add screenshare property to zones and evaluate in avatar mixer. (#16540)
     * DEV-2858: White screen displayed when using screenshare. (#16555)
     * Attempt to fix DEV-2859 with tighter constraints on screenshare resolution and framerate. (#16554)
     * DEV-2832, DEV-2816, DEV-2843: Auto-minimize Screen Share; enable switching between windows; prevent video dropout. (#16549)
-    
+
 * Important bug fixes.
     * DEV-2663: Adding safeguard in case device list is empty. (#16481)
     * DEV-2742: Fix Graphics.exportModelToOBJ() JavaScript crash. (#16490)
@@ -95,12 +95,12 @@ This PR adds that script to the developer script folder. (#16545)
     * DEV-2760: Fix Realtime Unfocused to be 60 Hz. When choosing "Realtime" rendering in custom graphics or if you're using the High Quality graphics setting, the render/game rate should still target 60hz even when the window is focused. This is so that people doing streaming can still have high frame rate rendering when using apps like OBS. (#16496)
     * DEV-2649: Fix entities list "filter to frustum" eye button. (#16461)
 
-#### GitHub Actions
+### GitHub Actions
 
 * GitHub actions initial work. (#16401)
 * Switching Windows builds over to a self-hosted runner. (#16582)
 * GitHub Actions workflow clean-up.
-    - Add step to clear out working directory before starting build 
+    - Add step to clear out working directory before starting build
     - Change "find" path for symbol packaging in hopes of fixing that error. (#16584)
 * Add apt-update step to refresh the apt repository index for Linux builds. (#16575)
 * Enable label based PR builds. (#16569)
@@ -110,13 +110,13 @@ This PR adds that script to the developer script folder. (#16545)
 * Remove upload step and unlabel job from builds. (#16524)
 
 
-#### Documentation
+### Documentation
 
 * DOC-209: AudioStats JSDoc. (#16495)
-    * Namespaces: 
-        - AudioStats 
-    * Classes: 
-        - AudioStreamStats 
+    * Namespaces:
+        - AudioStats
+    * Classes:
+        - AudioStreamStats
 * DOC-208: Revisions to JSDoc added by developers since July 2019.
     * pull/15974 - Sitting API.
     * pull/16025 - Debug API for Picks/Pointers.
@@ -124,78 +124,78 @@ This PR adds that script to the developer script folder. (#16545)
     * pull/16245 - Directional blending for point reaction.
     * pull/16399 - Updated blend shape support with ARKit compatibility.
 * DOC-233: MaterialCache JSDoc (#16541)
-    * Namespaces: 
-        - MaterialCache 
-    * Also: 
-        - Added missing `numGlobalQueriesPending` and `numGlobalQueriesLoading` properties' documentation to `AnimationCache`, `ModelCache`, `SoundCache`, and `TextureCache`. 
-        - `Entities.MaterialResource` type now appears in and is used in the JSDoc output. 
-        - `Entities.Material` type now appears in and is used in the JSDoc output. 
-        - `RGBS` global type now appears in and is used in the JSDoc output. 
-        - Revised recent `Entities.Material` JSDoc changes.     
-* DOC-227: Stats JSDoc (#16539)
-    * Namespaces: 
-        - Stats 
-    * Globals: 
-        - RefreshRateProfile 
-        - RefreshRateRegime 
-        - UXMode
-* DOC-237: DialogsManager JSDoc (#16560) 
     * Namespaces:
-        - DialogsManager 
+        - MaterialCache
+    * Also:
+        - Added missing `numGlobalQueriesPending` and `numGlobalQueriesLoading` properties' documentation to `AnimationCache`, `ModelCache`, `SoundCache`, and `TextureCache`.
+        - `Entities.MaterialResource` type now appears in and is used in the JSDoc output.
+        - `Entities.Material` type now appears in and is used in the JSDoc output.
+        - `RGBS` global type now appears in and is used in the JSDoc output.
+        - Revised recent `Entities.Material` JSDoc changes.
+* DOC-227: Stats JSDoc (#16539)
+    * Namespaces:
+        - Stats
+    * Globals:
+        - RefreshRateProfile
+        - RefreshRateRegime
+        - UXMode
+* DOC-237: DialogsManager JSDoc (#16560)
+    * Namespaces:
+        - DialogsManager
 * DOC-238: AddressManager JSDoc (#16561)
     * Namespaces:
         - AddressManager
 * DOC-235: DriveKeys JSDoc (#16556)
-    * Namespaces: 
-        - DriveKeys 
-    * Also: 
+    * Namespaces:
+        - DriveKeys
+    * Also:
         - Type MyAvatar.DriveKeys renamed to (global) type DriveKey.
         - MyAvatar.disableDriveKey() example updated to use DriveKeys API.
 * DOC-198: OffscreenFlags JSDoc (#16563)
-    * Namespaces: 
-        - OffscreenFlags 
+    * Namespaces:
+        - OffscreenFlags
 * DOC-240: console JSDoc (#16567)
-    * Namespaces: 
-        - console 
-    * Also: 
-        - Updated Script API accordingly. 
+    * Namespaces:
+        - console
+    * Also:
+        - Updated Script API accordingly.
         - Fixed global print function's JSDoc.
 * DOC-239: Rates JSDoc (#16564)
     - Rates
 * DOC-244: OverlayWindow and OverlayWebWindow JSDoc (#16573)
-    * Classes: 
-        - OverlayWindow 
-        - OverlayWebWindow 
-    * Also: 
+    * Classes:
+        - OverlayWindow
+        - OverlayWebWindow
+    * Also:
         - Fixed up some related InteractiveWindow JSDoc.
 * DOC-243: EntityScriptServerLog JSDoc (#16571)
-* DOC-241: ContextOverlay JSDoc (#16570) 
-    * Namespaces: 
-        - ContextOverlay 
-    * Also: 
-        - Updated WalletScripingInteface JSDoc with links to a relevant ContextOverlay method. 
-* DOC-242: WebSocket and WebSocketServer JSDoc (#16574) 
-    * Namespaces: 
-        - WebSocket 
-        - WebsocketServer
-* DOC-157: LODManager and Performance JSDoc 
+* DOC-241: ContextOverlay JSDoc (#16570)
     * Namespaces:
-        - LODManager 
-        - Performance 
+        - ContextOverlay
     * Also:
-        - Update the Stats API JSDoc to match. 
+        - Updated WalletScripingInteface JSDoc with links to a relevant ContextOverlay method.
+* DOC-242: WebSocket and WebSocketServer JSDoc (#16574)
+    * Namespaces:
+        - WebSocket
+        - WebsocketServer
+* DOC-157: LODManager and Performance JSDoc
+    * Namespaces:
+        - LODManager
+        - Performance
+    * Also:
+        - Update the Stats API JSDoc to match.
 * DOC-55: XMLHttpRequest JSDoc (#16577)
     * Namespaces:
-        - XMLHttpRequest 
-    * Also: 
-        - A few minor fixes to the WebSocket API JSDoc. 
+        - XMLHttpRequest
+    * Also:
+        - A few minor fixes to the WebSocket API JSDoc.
 * Combined API docs update. Condenses the following PRs into a single PR and resolves the merge conflicts. (#16583)
-    - pull/16578 
-    - pull/16579 
-    - pull/16580 
+    - pull/16578
+    - pull/16579
+    - pull/16580
     - pull/16581
 
-#### Technical / Other Changes
+### Technical / Other Changes
 
 * Fix handleUrl helper regex. (#16511)
 * Reduce fidgety motions in seated fidgets; remove jitter and bounce from several seated idles and fidgets, also reduce look-around cone. (#16464)
@@ -253,27 +253,27 @@ Put away animation into compiled animation resource and update script to use loc
 * DEV-2729: Airpods starve on startup. (#16550)
 * DEV-2812: Broadcasting from MacOS won't work. (#16553)
 * Dump installer logs on failure. (#16559)
-* Allow Linux interface to connect to domain when DISABLE_QML is true 
+* Allow Linux interface to connect to domain when DISABLE_QML is true
 when built with DISABLE_QML true, Linux interface doesn't attempt to connect to domain. (#16566)
 * DEV-1943: Make MyAvatar.getAvatarEntityData() return all properties. Make MyAvatar.getAvatarEntityData() return all properties rather than just changed properties. (#16551)
-    - Fixed string property values to be returned as string primitives instead of String objects. (So the JSON.stringify() produces the expected results.) 
+    - Fixed string property values to be returned as string primitives instead of String objects. (So the JSON.stringify() produces the expected results.)
     - Included localPosition etc. properties in values returned by `MyAvatar.getAvatarEntitiesVariant()` and `Avatar.getAvatarEntitiesData()`, to match those returned by `Entities.getEntityProperties()`.
-    - Removed now-unnecessary call to `Entities.getEntityProperties()` in WebTablet.js. 
+    - Removed now-unnecessary call to `Entities.getEntityProperties()` in WebTablet.js.
     - Make Agent.getAvatarEntityData() return all properties.
 * DEV-2810: Rename Stats.audioAudioInboundPPS to Stats.audioInboundPPS. (#16557)
 * DEV-2442: Fix main gamepad (XBox controller) controls. (#16562)
-    * General fixes: 
-        - `Controller.Actions.CycleCamera` fixed so that it doesn't get stuck in third person (HMD mode) or selfie view (desktop mode). 
-        - JSDoc for `Controller.Actions.CycleCamera` updated to reflect new camera modes used. 
+    * General fixes:
+        - `Controller.Actions.CycleCamera` fixed so that it doesn't get stuck in third person (HMD mode) or selfie view (desktop mode).
+        - JSDoc for `Controller.Actions.CycleCamera` updated to reflect new camera modes used.
     * Gamepad-specific fixes:
         - Reinstated teleporting on "Y" button.
 
 
 ## Documentation
 
-#### User Docs
+### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/kasenvr/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx).
 
 * Explore section updates with further rebranding. (#21, #40)
 * Build Docs support added to the main documentation repo. (#25)
@@ -284,10 +284,10 @@ The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphi
 * Videos in web entities documentation added. (#36)
 * Meta documentation updated. (#37, #45)
 
-#### API Docs
+### API Docs
 
-The API docs are generated from the software source [repo](https://github.com/kasenvr/project-athena).
-The latest live deployment source can be viewed [here](https://github.com/kasenvr/vircadia-api-docs).
+The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
+The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
 
 * Various API docs updates. (#277, #278)
 * Various API docs fixes. (#320)
@@ -295,16 +295,16 @@ The latest live deployment source can be viewed [here](https://github.com/kasenv
 
 ## Extra Applications
 
-#### Explore App (Interim Version)
+### Explore App (Interim Version)
 
-The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/kasenvr/Decentralized_GoTo_Experimental).
+The numbers at the end of each item are the PR numbers in the Decentralized GoTo [repo](https://github.com/vircadia/Decentralized_GoTo_Experimental).
 
 * Nothing new!
 
 
-#### Community Apps
+### Community Apps
 
-The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/kasenvr/community-apps). 
+The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/vircadia/community-apps).
 
 * VR Grab Scale app updated. (#17)
     * Gizmo entities updated to avatar entities.

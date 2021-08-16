@@ -4,9 +4,9 @@ This version of Vircadia is an update to 2020.2.4. It is compatible with the 202
 
 ## Interface (Codename Athena)
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * Application: Improve performance of entity updates. (#276)
 * Application: Enable resolving of relative URLs when importing entities with JSON. (#586, #672)
@@ -18,7 +18,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * App: Add update notification message on Interface start if a new version is available. (#658)
 * Graphics: Fix and extend glTF blendshapes support. (#671)
 
-#### Miscellaneous
+### Miscellaneous
 
 * Application: Code-signing has been re-enabled on Windows installers. (#303)
 * Application: Improve the handling of C++ exceptions by Crashpad on Windows. (#441)
@@ -28,9 +28,9 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Domain Server
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * Server: Improve performance of entity updates. (#276)
 * UX: New metadata fields added to improve domain details alongside the addition of an HTTP exporter that makes this data publicly available as JSON over HTTP if desired. (#465)
@@ -38,7 +38,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Metaverse Server (Codename Iamus)
 
-The metaverse server has been renamed to [Iamus](https://github.com/kasenvr/iamus), known as Apollo's son in Greek mythology. It is beginning active testing with the wider Vircadia community. The [metaverse server interface](https://github.com/vircadia/project-iamus-dashboard) is under continued development.
+The metaverse server has been renamed to [Iamus](https://github.com/vircadia/iamus), known as Apollo's son in Greek mythology. It is beginning active testing with the wider Vircadia community. The [metaverse server interface](https://github.com/vircadia/project-iamus-dashboard) is under continued development.
 
 ## Vircadia Launcher (Codename Pantheon)
 
@@ -46,30 +46,30 @@ The metaverse server has been renamed to [Iamus](https://github.com/kasenvr/iamu
 
 ## Extra Applications
 
-#### Explore App
+### Explore App
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
 * Nothing new to report, yet!
 
-#### Community Apps
+### Community Apps
 
-The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/kasenvr/community-apps). 
+The numbers at the end of each item are the PR numbers in the Community Apps [repo](https://github.com/vircadia/community-apps).
 
 * Nothing new to report, yet!
 
 ## Documentation
 
-#### User Docs
+### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/kasenvr/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx).
 
 * Release notes for 2020.2.5 Asteria. (#76)
 
-#### API Docs
+### API Docs
 
-The API docs are generated from the software source [repo](https://github.com/kasenvr/project-athena).
-The latest live deployment source can be viewed [here](https://github.com/kasenvr/vircadia-api-docs).
+The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
+The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
 
 * The `Stats` API was updated to include two new properties. (#276)
 * The `About` API was added to replace the deprecated `HifiAbout` API. (#624)

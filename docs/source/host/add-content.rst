@@ -14,4 +14,3 @@ Your domain is your own personal virtual world. In it, you can express your crea
     Bake Your Content <add-content/bake-content>
     Export Your Content <add-content/export-content>
     Upload Content to Your Domain <add-content/upload-content>
-    Get an Environment from the Marketplace <add-content/marketplace-environment>

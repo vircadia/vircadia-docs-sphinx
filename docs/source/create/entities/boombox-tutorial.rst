@@ -1,3 +1,7 @@
+.. warning::
+    This document is outdated.
+    FIXME: Mentions HiFi hosted content, mentions Oculus Quest even though it is not supported yet
+
 ##############################
 Tutorial: Create a Boombox
 ##############################

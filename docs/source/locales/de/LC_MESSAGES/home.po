@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2020-07-22 22:19+0000\n"
-"PO-Revision-Date: 2020-06-26 20:58+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"POT-Creation-Date: 2021-06-13 15:03+0000\n"
+"PO-Revision-Date: 2021-01-25 18:53+0000\n"
+"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language: de\n"
 "Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
 "documentation/home/de/>\n"
@@ -20,50 +20,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/home.rst:39
-#, fuzzy
+#: ../../source/home.rst:75
 msgid "HOME"
 msgstr "Start"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:75
 msgid "EXPLORE"
-msgstr ""
+msgstr "Entdecken"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:75
 msgid "CREATE"
-msgstr ""
+msgstr "Erschaffen"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:75
 msgid "SCRIPT"
-msgstr ""
+msgstr "Skript"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:75
 msgid "HOST"
-msgstr ""
+msgstr "Host"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:75
 msgid "CONTRIBUTE"
-msgstr ""
+msgstr "Mitwirken"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:75
 msgid "DEVELOPER"
-msgstr ""
+msgstr "Entwickler"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:75
 msgid "SECURITY"
-msgstr ""
+msgstr "Sicherheit"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:75
 msgid "FAQ"
-msgstr ""
+msgstr "Häufig gestellte Fragen"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:75
 msgid "RELEASE NOTES"
-msgstr ""
+msgstr "Versionshinweise"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:75
 msgid "API REFERENCE"
-msgstr ""
+msgstr "API-Referenz"
 
 #: ../../source/home.rst:3
 msgid "Home"
@@ -71,90 +70,175 @@ msgstr "Start"
 
 #: ../../source/home.rst:5
 msgid ""
-"Vircadia is an open-source software where you can create and share "
-"virtual reality (VR) experiences. You can create and host your own VR "
-"world, explore other worlds, meet and connect with other users, attend or"
-" host live VR events and much more."
+"Vircadia™ is open-source software which enables you to create and share "
+"virtual worlds as virtual reality (VR) and desktop experiences. You can "
+"create and host your own virtual world, explore other worlds, meet and "
+"connect with other users, attend or host live VR events, and much more."
 msgstr ""
+"Vircadia ist eine freie Open-Source Software die es Ihnen ermöglicht "
+"virtuelle Welten in der virtuellen Realität (VR) oder auf dem Desktop-"
+"Computer zu erstellen, teilen und zu erleben."
 
-#: ../../source/home.rst:7
+#: ../../source/home.rst:8
 msgid ""
 "The Vircadia metaverse provides built-in social features, including "
-"avatar interactions, spatialized audio and interactive physics. "
+"avatar interactions, spatialized audio, and interactive physics. "
 "Additionally, you have the ability to import any 3D object into your "
 "virtual environment. No matter where you go in Vircadia, you will always "
 "be able to interact with your environment, engage with your friends, and "
 "listen to conversations just like you would in real life."
 msgstr ""
+"Das Vircadia Metaversum stellt eingebaute soziale Funktionen wie Avatar-"
+"Interaktionen, räumlichen Ton und interaktive Physik bereit. Zusätzlich "
+"haben Sie die Möglichkeit jegliche 3D-Modelle in Ihrer virtuellen "
+"Umgebung einzubringen. Egal wo Sie sich in Vircadia befinden, Sie werden "
+"immer in der Lage sein mit Ihrer Umgebung zu interagieren, Ihre Freunde "
+"zu treffen und Konversationen zu führen genau wie in der echten Welt."
 
-#: ../../source/home.rst:9
-msgid "This documentation is authored in `English <https://docs.vircadia.dev/>`_."
+#: ../../source/home.rst:12
+msgid ""
+":doc:`Get Vircadia <explore/get-started/install>` |Download| or take a "
+"look at our :doc:`Gallery <explore/gallery>` |Gallery|."
 msgstr ""
-
-#: ../../source/home.rst:11
-msgid "The following translations are available:"
-msgstr ""
-
-#: ../../source/home.rst:13
-msgid "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
-msgstr ""
-
-#: ../../source/home.rst:14
-msgid "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
-msgstr ""
+":doc:`Holen Sie sich Vircadia <explore/get-started/install>` |Download| "
+"oder schauen Sie sich unsere :doc:`Galerie <explore/gallery>` |Gallery| "
+"an."
 
 #: ../../source/home.rst:26
+msgid ""
+"In addition to the documentation, you can join the discussion on the "
+"Vircadia `Discord server <https://discordapp.com/invite/Pvx2vke>`__ "
+"|Discord|."
+msgstr ""
+"Neben dieser Dokumentation können Sie auch an der Diskussion auf dem "
+"Vircadia `Discord Server <https://discordapp.com/invite/Pvx2vke>`__ "
+"|Discord| teilnehmen."
+
+#: ../../source/home.rst:35
+#, fuzzy
+msgid "This documentation is authored in `English <https://docs.vircadia.com/>`_."
+msgstr ""
+"Diese Dokumentation wird im Original auf `Englisch "
+"<https://docs.vircadia.dev/>`_ verfasst."
+
+#: ../../source/home.rst:37
+msgid "The following translations are available:"
+msgstr "Die folgenden Übersetzungen sind verfügbar:"
+
+#: ../../source/home.rst:39
+#, fuzzy
+msgid "`Deutsch <https://docs.vircadia.com/de/>`_ |de_trans|"
+msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
+
+#: ../../source/home.rst:40
+#, fuzzy
+msgid "`Español <https://docs.vircadia.com/es/>`_ |es_trans|"
+msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
+
+#: ../../source/home.rst:41
+#, fuzzy
+msgid "`Français <https://docs.vircadia.com/fr/>`_ |fr_trans|"
+msgstr "`Französisch <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
+
+#: ../../source/home.rst:42
+#, fuzzy
+msgid "`日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|"
+msgstr "`Japanisch <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+
+#: ../../source/home.rst:62
 msgid "What can I do?"
 msgstr "Was kann ich machen?"
 
-#: ../../source/home.rst:28
+#: ../../source/home.rst:64
 msgid "You have the power to shape your VR experience in Vircadia."
-msgstr ""
+msgstr "Sie können Ihr VR-Erlebnis in Vircadia selbst gestallten."
 
-#: ../../source/home.rst:30
+#: ../../source/home.rst:66
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
 msgstr ""
+":doc:`Erkunden <explore>` Sie verschiedene Welten im Metaversum, besuchen"
+" Sie Veranstaltungen und machen Sie neue Bekanntschaften."
 
-#: ../../source/home.rst:31
+#: ../../source/home.rst:67
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
 msgstr ""
+":doc:`Erschaffen <create>` Sie Ihr persönliches Erlebnis indem Sie "
+"Avatare, Welten, Tablet-Apps und vieles mehr für sich und andere "
+"erstellen."
 
-#: ../../source/home.rst:32
+#: ../../source/home.rst:68
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
 msgstr ""
+":doc:`Skripten <script>` Sie und zeigen Sie Ihre Kreativität indem Sie "
+"fortgeschrittene Konzepte auf Entitäten und Avatare im Metaversum "
+"anwenden."
 
-#: ../../source/home.rst:33
+#: ../../source/home.rst:69
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
 msgstr ""
+":doc:`Hosten <host>` und erstellen Sie immersive Erlebnisse um Ihr "
+"Publikum zu unterrichten, unterhalten und sich mit ihm zu binden."
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:70
 msgid ""
 ":doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source "
 "code in the repository."
 msgstr ""
+":doc:`Wirken Sie mit <contribute>` bei unserer Mission indem Sie sich an "
+"der Entwicklung auf Ihre eigene Art beteiligen."
 
-#: ../../source/home.rst:35
+#: ../../source/home.rst:71
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
 msgstr ""
+":doc:`Entwickeln <developer>` Sie das Projekt mit und passen Sie es an "
+"Ihre Bedürfnisse an."
 
-#: ../../source/home.rst:36
+#: ../../source/home.rst:72
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
 msgstr ""
+":doc:`Sicherheitshinweise <security>` für das Projekt und seine "
+"Komponenten."
 
 #~ msgid ""
 #~ "This documentation is authored in "
 #~ "`english <https://docs.vircadia.dev/>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia is an open-source software "
+#~ "where you can create and share "
+#~ "virtual reality (VR) experiences. You "
+#~ "can create and host your own VR"
+#~ " world, explore other worlds, meet "
+#~ "and connect with other users, attend "
+#~ "or host live VR events and much"
+#~ " more."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Vircadia metaverse provides built-in"
+#~ " social features, including avatar "
+#~ "interactions, spatialized audio and "
+#~ "interactive physics. Additionally, you have"
+#~ " the ability to import any 3D "
+#~ "object into your virtual environment. No"
+#~ " matter where you go in Vircadia, "
+#~ "you will always be able to "
+#~ "interact with your environment, engage "
+#~ "with your friends, and listen to "
+#~ "conversations just like you would in "
+#~ "real life."
 #~ msgstr ""
 

@@ -4,9 +4,9 @@ This version of Vircadia is an update to 2020.3.0. It is compatible with the 202
 
 ## Interface (Codename Athena)
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * Application: Update shortcut names to include "Vircadia" in them. (#651)
 * UI: Add a checkbox for more details to messages logged in entity scripts such as the script URL and function with line numbers. (#669)
@@ -19,7 +19,7 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 * Application: Add 'Valve Index' workaround to allow calibration for full body tracking. (#808)
 * App: 'Explore' app now references 'Location Name' when adding a location. (#814)
 
-#### Miscellaneous
+### Miscellaneous
 
 * Application: Fix build warnings. (#761)
 * Application: Set GL preference to 'GLVND' from being undefined (LEGACY) then revert functionality to 'LEGACY'. (#763, #806)
@@ -28,9 +28,9 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Domain Server
 
-The numbers at the end of each item are the PR numbers in the Project Athena [repo](https://github.com/kasenvr/project-athena/).
+The numbers at the end of each item are the PR numbers in the Vircadia [repo](https://github.com/vircadia/vircadia).
 
-#### General
+### General
 
 * UI/UX: Add wizard step to enable/disable automatic threading for the avatar and audio mixers. (#546)
 * UI/UX: Hide temp place name button, places table, and places wizard step. Add step during account connection to label the domain. (#803)
@@ -38,9 +38,9 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Metaverse Server & Dashboard (Codename Iamus)
 
-[Iamus](https://github.com/kasenvr/iamus) Metaverse Server updates can be found [here](https://github.com/kasenvr/Iamus/commits/master).
+Iamus [Metaverse Server](https://github.com/vircadia/iamus) updates can be found [here](https://github.com/vircadia/Iamus/commits/master).
 
-[Iamus Metaverse Dashboard](https://github.com/vircadia/project-iamus-dashboard) updates can be found [here](https://dashboard.vircadia.com/).
+Iamus [Metaverse Dashboard](https://github.com/vircadia/project-iamus-dashboard) updates can be found [here](https://dashboard.vircadia.com/).
 
 ## Vircadia Launcher (Codename Pantheon)
 
@@ -53,29 +53,29 @@ The numbers at the end of each item are the PR numbers in the Project Athena [re
 
 ## Documentation
 
-#### User Docs
+### User Docs
 
-The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/kasenvr/vircadia-docs-sphinx). 
+The numbers at the end of each item are the PR numbers in the Vircadia-Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx).
 
 * Expand 'Home' page with more details. (#86)
 * Add 'Gallery' page. (#85)
 * Release notes for 2020.3.1 Demeter. (#91)
 
-#### API Docs
+### API Docs
 
-The API docs are generated from the software source [repo](https://github.com/kasenvr/project-athena).
-The latest live deployment source can be viewed [here](https://github.com/kasenvr/vircadia-api-docs).
+The API docs are generated from the software source [repo](https://github.com/vircadia/vircadia).
+The latest live deployment source can be viewed [here](https://github.com/vircadia/vircadia-api-docs).
 
-* `Script` API: 
+* `Script` API:
     * `type` property documented. (#730)
-* `Window` API: 
+* `Window` API:
     * `url` parameter added to `openWebBrowser`. (#623)
-* `About` API: 
+* `About` API:
     * `openUrl` documentation updated. (#623)
-* `Camera` API: 
+* `Camera` API:
     * `captureMouse` and `sensitivity` properties added. (#677)
     * `getCaptureMouse`, `setCaptureMouse`, `getSensitivity`, and `setSensitivity` functions added. (#677)
-* `Entities` API: 
+* `Entities` API:
     * `findEntities` function documentation updated to specify caveats when used with an entity-server script. (#789)
-* `Stats` API: 
+* `Stats` API:
     * `decimatedTextureCount` property documentation updated to define maximum allowed dimensions '4096' -> '8192' pixels on desktop. (#821)

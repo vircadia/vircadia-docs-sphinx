@@ -13,7 +13,7 @@ Set User Permissions
 
 Permissions can be assigned to standard user groups, custom user groups, specific users, users from a specific IP, and users from specific computers. 
 
-The permissions for a user will be the sum of all groups that the user is in. For example, let's say that all logged in users can connect and only localhost users can rez entities. If a user is both logged in and on  ocalhost, then they will be able to both connect and rez entities. Additionally, when you assign user permissions to a specific user, it will supersede any group-level permissions that otherwise might apply to that user.  
+The permissions for a user will be the sum of all groups that the user is in. For example, let's say that all logged in users can connect and only localhost users can rez entities. If a user is both logged in and on localhost, then they will be able to both connect and rez entities. Additionally, when you assign user permissions to a specific user, it will supersede any group-level permissions that otherwise might apply to that user.  
 
 To assign user permissions: 
 
@@ -27,7 +27,7 @@ To assign user permissions:
 3. First, set any permissions for the `standard user groups`_. Check the box of all permissions you'd like to grant.
 4. To assign all other permissions, you need to add a custom group, specific user, etc individually to the correct permissions table:
 
-    * **Add Group**: Enter the name of the :doc:`custom group or list <user-groups>`, then click the ``+`` icon. Save your domain settings to load ranks. Check the box of all permissions you'd like to grant or deny (depending on the permissions table you are adding the group to).
+    * **Add Group**: Enter the name of the custom group or list, then click the ``+`` icon. Save your domain settings to load ranks. Check the box of all permissions you'd like to grant or deny (depending on the permissions table you are adding the group to).
     
         .. image:: ../_images/group-permissions.png 
     * **Add Specific User**: Click the ``+`` icon, then enter a specific user name. Check the box of all permissions you'd like to grant.
@@ -65,7 +65,7 @@ Your domain comes with four basic security groups that are already set up, based
 
 The 'Connect' permission for these standard user groups determine the privacy level of your domain:
 
-* **Public**: A public domain allows 'anonymous' and/or 'logged-in' users to connect to it. These domains may be featured in the GoTo app and in other places around the metaverse. 
+* **Public**: A public domain allows 'anonymous' and/or 'logged-in' users to connect to it. These domains may be shown in the Explore app and in other places around the metaverse. 
 * **Private**: A private domain does not allow 'anonymous' and/or 'logged-in' users to connect to it. Domain owners are responsible for promoting their domains to other users and maintaining connect permissions for users to enter their domain.
 
 ----------------
@@ -90,12 +90,14 @@ The actions that you can secure for each type of user are as follows:
 |                         | Maximum Lifetime of Temporary Entities**). These users will also have full   |
 |                         | access to the **Create** app.                                                |
 +-------------------------+------------------------------------------------------------------------------+
-| Rez Certified           | Sets whether a user can permanently create (or rez) new entities that were   |
-|                         | purchased from the Marketplace.                                              |
+| Rez Certified           | This was used to set whether a user can permanently create (or rez) new      |
+|                         | entities that were purchased from the Marketplace. Right now it does         |
+|                         | nothing.                                                                     |
 +-------------------------+------------------------------------------------------------------------------+
-| Rez Temporary Certified | Sets whether a user can create (or rez) new entities from the Marketplace    |
-|                         | for a finite lifetime (the lifetime is set in **Domain Settings > Entities   |
-|                         | > Advanced Settings > Maximum Lifetime of Temporary Entities**).             |
+| Rez Temporary Certified | This was used to set whether a user can create (or rez) new entities from    |
+|                         | the Marketplace for a finite lifetime (the lifetime is set in **Domain       |
+|                         | Settings > Entities > Advanced Settings > Maximum Lifetime of Temporary      |
+|                         | Entities**). Right now it does nothing.                                      |
 +-------------------------+------------------------------------------------------------------------------+
 | Write Assets            | Sets whether a user can add assets (models, audio,  or other files) or make  |
 |                         | changes to the domain's asset server (your domain's file storage space).     |
@@ -115,4 +117,3 @@ The actions that you can secure for each type of user are as follows:
 |                         | <https://apidocs.vircadia.dev/Entities.html#.EntityProperties>`_ type        |
 |                         | definition.                                                                  |
 +-------------------------+------------------------------------------------------------------------------+
-

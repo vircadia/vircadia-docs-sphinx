@@ -29,12 +29,12 @@ HMD.displayModeChanged.connect(function(isHMDMode) {
     }
 });
 
-}()); 
+}());
 ```
 
 
 
 **See Also**
 
-+ [Get Started with Scripting](get-started-with-scripting.html)
-+ [Write Your Own Scripts](write-scripts.html)
++ [Get Started with Scripting](get-started-with-scripting)
++ [Write Your Own Scripts](write-scripts)

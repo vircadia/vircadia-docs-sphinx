@@ -1,6 +1,6 @@
 # Server Entity Scripts
 
-You can make content in High Fidelity interactive by attaching scripts to entities. *Server entity scripts* are entity scripts that run on the server (or domain) that hosts the entity. These scripts run persistently in a domain, even if there are no users present. This means that there is only one instance of the script is running at a time, and it is running on the server. Any behavior that is controlled by your script will be seen and heard by everyone in the domain.
+You can make content in Vircadia interactive by attaching scripts to entities. *Server entity scripts* are entity scripts that run on the server (or domain) that hosts the entity. These scripts run persistently in a domain, even if there are no users present. This means that there is only one instance of the script is running at a time, and it is running on the server. Any behavior that is controlled by your script will be seen and heard by everyone in the domain.
 
 **On This Page**
 * [Attach a Server Entity Script to an Entity](#attach-a-server-entity-script-to-an-entity)
@@ -8,11 +8,11 @@ You can make content in High Fidelity interactive by attaching scripts to entiti
 * [Script API](#script-api)
 
 ## Attach a Server Entity Script to an Entity
-To attach a server entity script to an entity: 
+To attach a server entity script to an entity:
 1. In Interface, pull up your tablet or HUD and go to **Create**.
 2. Select the entity you'd like to script by either clicking on it in Interface or finding it in the 'Entity List'.
-3. In the **Create** app, go to the 'Properties' tab and scroll down to the 'Behavior' section. 
-4. For 'Server Script', enter the URL to your server entity script. 
+3. In the **Create** app, go to the 'Properties' tab and scroll down to the 'Behavior' section.
+4. For 'Server Script', enter the URL to your server entity script.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
@@ -56,6 +56,6 @@ Learn more about what APIs are available to server entity scripts [here](https:/
 
 **See Also**
 
-- [Get Started with Scripting](get-started-with-scripting.html)
-- [Write Your Own Scripts](write-scripts.html)
+- [Get Started with Scripting](get-started-with-scripting)
+- [Write Your Own Scripts](write-scripts)
 - [API Reference](https://apidocs.vircadia.dev)

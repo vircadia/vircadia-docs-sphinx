@@ -11,7 +11,7 @@ With AC scripts, you can do things like coordinate actions between entities and 
 ## Add an AC Script
 Once you've written and hosted your script, you need to add it to a domain, either your own or one where you have permissions to run an AC script.
 
-1. Open your 'Domain Administration Panel'. If you are on a local sandbox, open it by clicking on the High Fidelity icon in the taskbar notifications and 'click Settings'.
+1. Open your 'Domain Administration Panel'. If you are on a local sandbox, open it by clicking on the Vircadia icon in the taskbar notifications and 'click Settings'.
 2. From the menu, go to **Content > Scripts**.
 3. In the Persistent Scripts section, click **+** and paste the URL to your script under 'Script URL'. 
 ![](_images/ac-script.png)
@@ -19,7 +19,7 @@ Once you've written and hosted your script, you need to add it to a domain, eith
 
 ## Example of an AC Script
 
-The following script counts the number of entities found in a domain using High Fidelity's [EntityViewer](https://apidocs.vircadia.dev/EntityViewer.html).
+The following script counts the number of entities found in a domain using Vircadia's [EntityViewer](https://apidocs.vircadia.dev/EntityViewer.html).
 
 ```javascript
 var SEARCH_CENTER = {x: 0, y: -10, z: 0};
@@ -53,6 +53,6 @@ Script.update.connect(update);
 
 **See Also**
 
-+ [Configure Your Domain Settings](../host/configure-settings.html)
-+ [Get Started with Scripting](get-started-with-scripting.html)
-+ [Write Your Own Scripts](write-scripts.html)
++ [Configure Your Domain Settings](../host/configure-settings)
++ [Get Started with Scripting](get-started-with-scripting)
++ [Write Your Own Scripts](write-scripts)

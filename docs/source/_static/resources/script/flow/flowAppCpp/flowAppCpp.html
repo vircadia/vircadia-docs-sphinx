@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script>    
+        //
+        //  Created by Luis Cuenca on 1/31/18
+        //  Copyright 2018 High Fidelity, Inc.
+        //
+        //
+        //  Distributed under the Apache License, Version 2.0.
+        //  See the accompanying file LICENSE or http://www.apache.org/licenses/LICENSE-2.0.html
+        //
+
+        /* jslint bitwise: true */
+
+        /* global $, EventBridge
+        */
+        $(function () {
+        
+            var MSG_DOCUMENT_LOADED = 0;
+            var MSG_JOINT_INPUT_DATA = 1;
+            var MSG_COLLISION_DATA = 2;
+            var MSG_COLLISION_INPUT_DATA = 3;
+            var MSG_DISPLAY_DATA = 4;
+            var MSG_CREATE = 5;
+            var MSG_UPDATE_DATA = 6;
+            
+            var KIND_JOINT = "joint";
+            var KIND_COLLISION = "collision";
+            var KIND_DISPLAY = "display";
+
+            var OUTPUT_MODES = {"fst" : 0};
+            
+            var groupData, collisionData;
+            
+            function createInput(kind, group, name, type, config) {
+                var input = $("<input>").attr("type", type).attr("data-name", name).attr("data-group", group).attr("data-kind", kind);
+                var inputId = kind + "-" + group + "-" + type + "-" + name;
+                input.attr("id", inputId).attr("name", inputId);
+                if (type === "range") {
+                    input.attr("step", config.step).attr("value", config.value).attr("min", config.min).attr("max", config.max);
+                } else if (type === "checkbox" && config.checked) {
+                    input.attr("checked", "checked");
+                }
+                return input;
+            }
+            
+            function createElement(kind, group, name, type, config) {
+                var element = $("<div>").addClass("unit-config half");
+                var input = createInput(kind, group, name, type, config);
+                var label = $("<label>").text(name).attr("for", input.attr("id"));
+                element.append(label).append(input);
+                return element;
+            }
+            
+            function createGroupContainer(name, type) {
+                var groupContainer = $("<div>").addClass("ui-corner-all custom-corners");
+                var bartype = type ? "ui-bar-" + type : "ui-bar-b";
+                var headContainer = $("<div>").addClass("ui-bar " + bartype);
+                var header = $("<h3>").addClass("header-text").text(name);
+                var contentContainer = $("<div>").addClass("group-content ui-body ui-body-a");
+                headContainer.append(header);
+                groupContainer.append(headContainer).append(contentContainer);
+                return groupContainer;
+            }
+            
+            function createGroup(kind, name, elements, type) {
+                var group = createGroupContainer(name, type);
+                var content = group.find(".group-content");
+                for (var i = 0; i < elements.length; i++){
+                    if (elements[i].type) {
+                        content.append(createElement(kind, name, elements[i].name, elements[i].type, elements[i].config));
+                    } else {
+                        content.append(elements[i]);
+                    }
+                }
+                return group;
+            }
+            
+            function getGroupJSON(mode) {
+                var result = "";
+                var groupDataClone = JSON.parse(JSON.stringify(groupData));
+                Object.keys(groupData).forEach(function(key){
+                    delete groupDataClone[key].jointIndices;
+                });
+                switch (mode) {
+                    case OUTPUT_MODES.flow:
+                        result = "CUSTOM_FLOW_DATA = " + JSON.stringify(groupDataClone) + ";\n";
+                        break;
+                    case OUTPUT_MODES.fst:
+                        Object.keys(groupDataClone).forEach(function(group) {
+                            var fstline = {};
+                            fstline[group] = groupDataClone[group];
+                            result += "flowPhysicsData = " + JSON.stringify(fstline) + "\n";
+                        });
+                        break;
+                    default:
+                        break;
+                }
+                return result;                
+            }
+
+            function getCollisionJSON(mode) {
+                var result = "";
+                var collisionDataClone = JSON.parse(JSON.stringify(collisionData));
+                Object.keys(collisionData).forEach(function(key){
+                    collisionDataClone[key]["type"] = "sphere";
+                    delete collisionDataClone[key].jointIndex;
+                });
+                switch (mode) {
+                    case OUTPUT_MODES.flow:
+                        result = "CUSTOM_COLLISION_DATA = " + JSON.stringify(collisionDataClone) + ";\n";
+                        break;
+                    case OUTPUT_MODES.fst:
+                        Object.keys(collisionDataClone).forEach(function(jointName) {
+                            if (jointName != "LeftHandMiddle1" && jointName != "LeftHandMiddle3" && jointName != "LeftHandThumb3"
+                                && jointName != "RightHandMiddle1" && jointName != "RightHandMiddle3" && jointName != "RightHandThumb3") {
+                                    var fstline = {};
+                                    fstline[jointName] = collisionDataClone[jointName];
+                                    result += "flowCollisionsData = " + JSON.stringify(fstline) + "\n";
+                            }
+
+                        });
+                        break;
+                    default:
+                        break;
+                }
+                return result;  
+            }
+            
+            function createDump(label, id, addon) {
+                var group = createGroupContainer(label);
+                if (addon) {
+                    var bar = group.find(".ui-bar");
+                    var barAddon = $("<span>").addClass("bar-addon").addClass("right").text(addon);
+                    bar.append(barAddon);
+                }                
+                var content = group.find(".group-content");
+                var dumpBox = $("<textarea>").attr("wrap","off").attr("rows", 11).attr("id", id);
+                content.append(dumpBox);
+                return group;
+            }
+            
+            function updateDump() {
+                if (groupData) {
+                    var modes = Object.keys(OUTPUT_MODES);
+                    for (i = 0; i < modes.length; i++) {
+                        var mode = OUTPUT_MODES[modes[i]];
+                        var isCollisionEnabled = $("#display-display-checkbox-collisions").prop("checked");
+                        var collisionCount = Object.keys(collisionData).length;
+                        var groupCount = Object.keys(groupData).length;
+                        var hasCollisions = isCollisionEnabled && collisionCount > 0;
+                        var rows = mode === OUTPUT_MODES.flow ? 3 : collisionCount + groupCount + 1;
+                        $("#dump-box-" + modes[i]).addClass("dump-box").attr("rows", rows).val(getGroupJSON(mode) + getCollisionJSON(mode));
+                    }
+                }                   
+            }
+            
+            function createJointDropdown(joints, parentElement) {
+                var container = $("<fieldset data-role='controlgroup' data-type='horizontal'>");
+                var select = $("<select>").attr("id", "joint-select");
+                for (var i = 0; i < joints.length; i++) {
+                    var option = $("<option>").attr("value", joints[i]).text(joints[i]);
+                    select.append(option);
+                }
+                var button = $("<button>").addClass("add-joint").text("Add").click(function(){
+                    var joint = $("#joint-select").val();
+                    EventBridge.emitWebEvent(JSON.stringify({type:MSG_COLLISION_DATA, name: "add", value: joint}));
+                });
+                container.append(select);
+                container.append(button);
+                var group = createGroup(KIND_COLLISION, "Manage Collisions", [container]); 
+                parentElement.append(group);
+            }
+            
+            function createCollisionGroup(name, collisionSettings) {
+                var controls = [
+                                {name: "radius", type: "range", config: {"step": 0.01, "value": collisionSettings.radius, "min":0.01, "max":0.5}},
+                                {name: "offset", type: "range", config: {"step": 0.05, "value": collisionSettings.offset.y, "min":-0.3, "max":0.3}}
+                            ];
+                var groupElement = createGroup(KIND_COLLISION, name, controls, "a");
+                var headbar = groupElement.find(".ui-bar");
+                headbar.data("joint", name).addClass("ui-nodisc-icon ui-alt-icon");
+                var deleteBtn = $("<a>").addClass("ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-delete ui-btn-icon-notext thin right");
+                deleteBtn.click(function(){
+                    var parent = $(this).parent();
+                    var joint = parent.data("joint");
+                    parent.parent().remove();
+                    EventBridge.emitWebEvent(JSON.stringify({type:MSG_COLLISION_DATA, name: "remove", value: joint}));
+                    delete collisionData[joint];
+                });
+                headbar.append(deleteBtn);
+                return groupElement;
+            }
+            
+            function configureInputs(selector) {
+                $(selector).find("input").change(function() {
+                    var kind = $(this).data("kind");
+                    var group = $(this).data("group");
+                    var name = $(this).data("name");
+                    var value = this.value;
+                    var type;
+                    
+                    switch(kind) {
+                        case KIND_COLLISION:
+                            type = MSG_COLLISION_INPUT_DATA;
+                            if (name === "offset") {
+                                collisionData[group].offset.y = eval(value);
+                            } else {
+                                collisionData[group][name] = eval(value);
+                            }
+                            break;
+                        case KIND_JOINT: {
+                            type = MSG_JOINT_INPUT_DATA;
+                            if (name === "active") {
+                                value = $(this).prop("checked");
+                                groupData[group][name] = eval(value);
+                            } else {
+                                groupData[group][name] = eval(value);
+                            }
+                            break;
+                        }
+                        case KIND_DISPLAY: {
+                            type = MSG_DISPLAY_DATA;
+                            break;
+                        }
+                    }
+                    EventBridge.emitWebEvent(JSON.stringify({type: type, group: group, name: name, value: value}));
+                });
+            }
+
+            EventBridge.scriptEventReceived.connect(function (msg) {
+                var message = JSON.parse(msg);          
+                if (message.type === MSG_CREATE) {
+                    $("#joints-panel").empty();
+                    $("#collisions-panel").empty();
+                    $("#display-panel").empty();
+                    groupData = message.data.group;
+                    var filterKeys = Object.keys(groupData);
+                    var controls;
+                    for (var i = 0; i < filterKeys.length; i++) {
+                        var parameters = groupData[filterKeys[i]];
+                        controls = [
+                            {name: "radius", type: "range", config: {"step": 0.01, "value": parameters.radius, "min":0.01, "max":0.1}},
+                            {name: "stiffness", type: "range", config: {"step": 0.05, "value": parameters.stiffness, "min":0.0, "max":1.0}},
+                            {name: "gravity", type: "range", config: {"step": 0.0001, "value": parameters.gravity, "min":-0.05, "max":0.05}},
+                            {name: "damping", type: "range", config: {"step": 0.05, "value": parameters.damping, "min":0.0, "max":1.0}},
+                            {name: "inertia", type: "range", config: {"step": 0.05, "value": parameters.inertia, "min":0.0, "max":1.0}},
+                            {name: "delta", type: "range", config: {"step": 0.05, "value": parameters.delta, "min":0.0, "max":1.0}}
+                        ];
+                        var groupElement = createGroup(KIND_JOINT, filterKeys[i], controls);
+                        var enabler = createInput(KIND_JOINT, filterKeys[i], "active", "checkbox", {"checked": parameters.active}).addClass("joint-enabler");
+                        $(groupElement).find(".ui-bar").append(enabler);
+                        $("#joints-panel").append(groupElement);
+                    }
+                    controls = [
+                        {name: "avatar", type: "checkbox", config: {"checked": message.data.display.avatar}},
+                        {name: "collisions", type: "checkbox", config: {"checked": message.data.display.collisions}},
+                        {name: "debug", type: "checkbox", config: {"checked": message.data.display.debug}},
+                        {name: "solid", type: "checkbox", config: {"checked": message.data.display.solid}}
+                    ];
+                    groupElement = createGroup(KIND_DISPLAY, "display", controls);
+                    $("#display-panel").append(groupElement);
+                    createJointDropdown(message.data.joints, $("#collisions-panel"));
+
+                    collisionData = message.data.collisions;
+                    var collisionKeys = Object.keys(collisionData);
+                    for (i = 0; i < collisionKeys.length; i++) {
+                        var jointName = collisionKeys[i];
+                        var collisionGroup = createCollisionGroup(jointName, collisionData[jointName]);
+                        $("#collisions-panel").append(collisionGroup);
+                    }
+
+                    $("#json-panel").append(createDump("FST", "dump-box-fst", "Add these lines to your .fst file"));                 
+                    
+                    $("#joints-panel").trigger('create');
+                    $("#collisions-panel").trigger('create');
+                    $("#display-panel").trigger('create');
+                    
+                    configureInputs("#joints-panel, #collisions-panel");
+                    configureInputs("#display-panel");
+                    
+                    $("#collisions-panel").hide();
+                    $("#json-panel").hide();
+                } else if (message.type === MSG_COLLISION_DATA) {
+                    collisionData[message.name] = message.data;
+                    collisionGroup = createCollisionGroup(message.name, message.data);
+                    $("#collisions-panel").append(collisionGroup);
+                    collisionGroup.trigger('create');
+                    configureInputs(collisionGroup);
+                }
+            });
+            
+            $(".nav-text").click(function() {
+                var index = $(this).data("idx");
+                if (index === 0) {
+                    $("#display-panel").show();
+                    $("#collisions-panel").hide();
+                    $("#joints-panel").show();
+                    $("#json-panel").hide();
+                } else if (index === 1){
+                    $("#display-panel").show();
+                    $("#collisions-panel").show();
+                    $("#joints-panel").hide();
+                    $("#json-panel").hide();
+                } else {
+                    $("#display-panel").hide();
+                    $("#collisions-panel").hide();
+                    $("#joints-panel").hide();
+                    updateDump();
+                    $("#json-panel").show();
+                }
+            });
+            EventBridge.emitWebEvent(JSON.stringify({type: MSG_DOCUMENT_LOADED}));
+
+        });
+    </script>
+    
+    <head>
+        <meta charset="utf-8" />
+        <style>
+            .container {
+                margin:10px;
+            }
+            .unit-config.third{
+                width: 33%;
+                display: inline-block;
+            }
+            .unit-config.half{
+                width: 49.5%;
+                display: inline-block;
+            }
+            .nav-bar{
+                width: 440px;
+            }
+            .nav-text > a {
+                font-size: 20px !important; 
+                
+            }
+            .ui-controlgroup-controls {
+                width:100% !important;
+            }
+            .ui-select {
+                width:80% !important;
+            } 
+            .right {
+                float: right;
+            }
+            .thin {
+                margin: 0px !important;
+                padding: 0px !important;
+            }
+            .joint-enabler {
+                margin-left: 390px !important;
+                margin-top: -25px !important;
+            }
+            .dump-box {
+                font-size: 14px;
+                font-family: monospace;
+                width:100%;
+                resize: none;
+            }
+            .bar-addon {
+                font-size: 12px;
+            }
+        </style>
+        <body>
+            <div id="nav-panel" style="margin:10px">
+                <div data-role="navbar" class="nav-bar">
+                    <ul>
+                        <li class="nav-text" data-idx=0 ><a href="#" class="ui-btn-active">Joints</a></li>
+                        <li class="nav-text" data-idx=1 ><a href="#" >Collisions</a></li>
+                        <li class="nav-text" data-idx=2 ><a href="#" >Output</a></li>
+                    </ul>
+                </div><!-- /navbar -->
+            </div>
+            <div id="display-panel" class="container">
+            
+            </div>
+            <div id="joints-panel" class="container">
+
+            </div>
+            <div id="collisions-panel" class="container">
+
+            </div>
+            <div id="json-panel" class="container">
+
+            </div>
+        </body>
+    </head>
+</html>

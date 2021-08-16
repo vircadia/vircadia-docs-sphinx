@@ -19,10 +19,10 @@ An environment consists different types of 3D models and a skybox following the 
 |                        | <3d-models/import-model.html#import-3d-models-using-the-asset-server>`_.                            |
 +------------------------+-----------------------------------------------------------------------------------------------------+
 | Your 3D Models         | You can use 3D modeling software like Blender or Maya to create your own 3D models and              |
-|                        | `import them into your Athena domain                                                                |
+|                        | `import them into your Vircadia Domain                                                              |
 |                        | <3d-models/import-model.html#import-3d-models-using-the-asset-server>`_.                            |
 +------------------------+-----------------------------------------------------------------------------------------------------+
-| A Content Archive File | Athena domain settings have downloadable content archives. These archives are zip                   |
+| A Content Archive File | Vircadia Domain settings have downloadable content archives. These archives are zip                 |
 |                        | files containing all domain content information. You can `use a backup file of your own or one      |
 |                        | sent to you by a user <../host/maintain-domain/backup-domain.html>`_.                               |
 +------------------------+-----------------------------------------------------------------------------------------------------+
@@ -31,4 +31,4 @@ An environment consists different types of 3D models and a skybox following the 
 
 + :doc:`Get Your 3D Model <3d-models/get-model>`
 + `Import 3D Models Using the Asset Server <3d-models/import-model.html#import-models-from-the-asset-server>`_
-+ :doc:`Backup and Restore Your Domain <../host/maintain-domain/backup-domain.html>`
++ :doc:`Backup and Restore Your Domain <../host/maintain-domain/backup-domain>`

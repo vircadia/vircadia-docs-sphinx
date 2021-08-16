@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, High Fidelity. © Copyright 2020, Vircadia.
+# This file is distributed under the same license as the Vircadia Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
+"POT-Creation-Date: 2021-05-02 08:26+0000\n"
+"PO-Revision-Date: 2021-05-24 06:48+0000\n"
+"Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
+"Language-Team: French <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/security/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/security.rst:7 ../../source/security/crash-reporting.rst:3
+msgid "Crash Reporting"
+msgstr "Rapports de Crash"
+
+#: ../../source/security.rst:3
+msgid "Security"
+msgstr "Sécurité"
+
+#: ../../source/security.rst:5
+msgid ""
+"Security information about the project and its components: Interface, "
+"server, and the metaverse server."
+msgstr ""
+"Informations de sécurité sur le projet et ses composantes : Interface, "
+"serveur, et le serveur métaverse."
+
+#: ../../source/security/crash-reporting.rst:5
+#: ../../source/security/reporting/crash-reporting.md:1
+msgid "Crash Reporting Privacy"
+msgstr "Confidentialité des Rapports de Crash"
+
+#: ../../source/security/reporting/crash-reporting.md:3
+msgid ""
+"Your interface has crash reporting disabled by default. You can "
+"enable/disable this in the **Settings > General** menu. When this is "
+"enabled, interface will send a minidump of information to the reporting "
+"server that the Vircadia developers have access to. The current crash "
+"management server is called [Sentry](https://sentry.io/)."
+msgstr ""
+"Par défaut, le rapport d'accident est désactivé dans votre interface. Vous "
+"pouvez activer/désactiver cette fonction dans le menu **Settings > General**"
+". Lorsque cette option est activée, l'interface envoie un minidump "
+"d'informations au serveur de rapports auquel les développeurs de Vircadia "
+"ont accès. Le serveur actuel de gestion des crashs s'appelle [Sentry] "
+"(https://sentry.io/)."
+
+#: ../../source/security/reporting/crash-reporting.md:5
+msgid ""
+"Here is [information](https://docs.sentry.io/platforms/native/minidump"
+"/#what-is-a-minidump) on what a minidump is and how it's handled by "
+"Sentry."
+msgstr ""
+"Voici des [informations](https://docs.sentry.io/platforms/native/minidump/"
+"#what-is-a-minidump) sur ce qu'est un minidump et comment il est traité par "
+"Sentry."
+
+#: ../../source/security/reporting/crash-reporting.md:7
+msgid "Here is a list of extra metadata that is collected with a crash report:"
+msgstr ""
+"Voici une liste de métadonnées supplémentaires qui sont collectées avec "
+"un rapport de crash :"
+
+#: ../../source/security/reporting/crash-reporting.md:9
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: ../../source/security/reporting/crash-reporting.md:10
+msgid "Domain + location"
+msgstr "Domaine + Endroit"
+
+#: ../../source/security/reporting/crash-reporting.md:11
+msgid "Avatar URL"
+msgstr "URL de l'Avatar"
+
+#: ../../source/security/reporting/crash-reporting.md:12
+msgid "Build type"
+msgstr "Type de Système"
+
+#: ../../source/security/reporting/crash-reporting.md:13
+msgid "Display plugin"
+msgstr "Plugin d'Affichage"
+
+#: ../../source/security/reporting/crash-reporting.md:14
+msgid "GPU model + GPU memory"
+msgstr "Modèle GPU + Mémoire GPU"
+
+#: ../../source/security/reporting/crash-reporting.md:15
+msgid "Desktop/VR mode"
+msgstr "Mode Clavier/VR"
+
+#: ../../source/security/reporting/crash-reporting.md:16
+msgid "Machine fingerprint"
+msgstr "Empreinte de la Machine"
+
+#: ../../source/security/reporting/crash-reporting.md:17
+msgid "Metaverse session UUID"
+msgstr "Séance de métaverse UUID"
+
+#~ msgid ""
+#~ "Your interface has crash reporting "
+#~ "disabled by default. You can "
+#~ "enable/disable this in the Settings >"
+#~ " General menu. When this is enabled,"
+#~ " interface will send a minidump of"
+#~ " information to the reporting server "
+#~ "that the Vircadia developers have access"
+#~ " to. The current crash management "
+#~ "server is called Sentry."
+#~ msgstr ""
+#~ "Par défaut, le rapport de crash "
+#~ "est désactivé dans votre Interface. Vous"
+#~ " pouvez l'activer/désactiver dans le menu"
+#~ " Settings > General. Lorsque cette "
+#~ "option est activée, l'Interface enverra "
+#~ "un minidump d'informations au serveur de"
+#~ " rapports auquel les développeurs de "
+#~ "Vircadia ont accès. Le serveur actuel"
+#~ " de gestion de crash est appelé "
+#~ "Sentry."

@@ -1,3 +1,7 @@
+.. warning::
+    This document is outdated.
+    FIXME: Mentions services like VRoid Studio even though their skeletons have never been supported (the Unity avatar exporter will not be able to fix that)
+
 ##############################
 Create Your Own Avatar
 ##############################
@@ -8,7 +12,7 @@ There are three ways to get your own avatar. You can either:
 * Use MakeHuman or VRoid Studio to create a human or anime avatar
 * Download an existing avatar from external sources such as TurboSquid or CGTrader 
 
-.. note:: If you get an avatar from an external source such as TurboSquid, CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with Vircadia, use the `Vircadia Avatar Exporter for Unity <find-avatars.html#project-athena-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar. 
+.. note:: If you get an avatar from an external source such as TurboSquid, CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with Vircadia, use the `Vircadia Avatar Exporter for Unity <find-avatars.html#vircadia-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar. 
 
 If you want to create an avatar from scratch, this page covers the steps needed to create, rig, and package your avatar. 
 
@@ -58,11 +62,11 @@ As you're creating your avatar, remember that Vircadia is an open-source project
 
 Plugin ("Project Hermes") is a plugin for Blender to allow for easier content creation and importing for the Vircadia Metaverse Platform. It features: 
 
-- **Material Tools**: Allows for easier pipeline to apply materials to objects so that they are ready to use in Athena.
-- **Armature Tools**: Adds a skeleton that is compatible with Athena and let you configure bone names for use in advanced scripts.
-- **Avatar Converters**: Translates and fixes models and materials from MMD and Mixamo so that they work in Athena.
-- **Export Tools**: Exports avatars and scenes so that they can be used in Athena.
-- **Import Tools**: Imports primitive entities from Athena so that you can make modifications to them.
+- **Material Tools**: Allows for easier pipeline to apply materials to objects so that they are ready to use in Vircadia.
+- **Armature Tools**: Adds a skeleton that is compatible with Vircadia and let you configure bone names for use in advanced scripts.
+- **Avatar Converters**: Translates and fixes models and materials from MMD and Mixamo so that they work in Vircadia.
+- **Export Tools**: Exports avatars and scenes so that they can be used in Vircadia.
+- **Import Tools**: Imports primitive entities from Vircadia so that you can make modifications to them.
 
 Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon <https://github.com/Menithal/Blender-Metaverse-Addon>`_
 

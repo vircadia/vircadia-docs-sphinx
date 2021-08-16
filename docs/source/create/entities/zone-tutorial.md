@@ -1,8 +1,13 @@
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This document is potentially slightly outdated. FIXME: Only mentions FBX and OBJ (check if glTF is also supported on compound shapes)</p>
+</div>
+
 # Tutorial: Modify a Zone Entity
 
-A zone entity is a 3D area where you can create custom lighting environments. You can define zone boundaries using shapes and customize the zone’s light properties such as its intensity, direction, and color to create different effects. 
+A zone entity is a 3D area where you can create custom lighting environments. You can define zone boundaries using shapes and customize the zone’s light properties such as its intensity, direction, and color to create different effects.
 
-The mini tutorials on this page show you how zone entities work and how you can edit their properties to create areas with different lighting effects. 
+The mini tutorials on this page show you how zone entities work and how you can edit their properties to create areas with different lighting effects.
 
 **On This Page:**
 
@@ -18,8 +23,8 @@ The mini tutorials on this page show you how zone entities work and how you can 
 
 Consider getting familiar with the following concepts before starting this tutorial:
 
-- [Create New Entities](create-entities.html)
-- [Change How Entities Look](entity-appearance.html)
+- [Create New Entities](create-entities)
+- [Change How Entities Look](entity-appearance)
 
 ## Create a Zone Entity
 
@@ -149,5 +154,5 @@ Your zone's ambient lighting will change to the image you've provided.
 
 **See Also**
 
-- [Create New Entities](create-entities.html)
-- [Change How Entities Look](entity-appearance.html)
+- [Create New Entities](create-entities)
+- [Change How Entities Look](entity-appearance)

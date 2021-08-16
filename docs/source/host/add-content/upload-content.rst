@@ -2,14 +2,14 @@
 Upload Content to your Domain
 ##################################
 
-Whether you've created your own content set, baked some content, or gotten a content set from a friend, you'll need to upload it to your domain. Once you upload a content set, you will overwrite all existing content in your domain. Keep in mind that the existing backup files of your domain's content will not immediately be changed, so if you don't like your domain's new look, you can restore your old content at any time. 
+Whether you've created your own content set, baked some content, or gotten a content set from a friend, you'll need to upload it to your domain. Once you upload a content set, you will overwrite all existing content in your domain. Keep in mind that the existing backup files of your domain's content will not immediately be changed, so if you don't like your domain's new look, you can restore your old content at any time.
 
-To upload and install new content to your domain: 
+To upload and install new content to your domain:
 
 1. Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
-    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
+    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'.
     * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. On the top menu bar, select **Content > Upload Content**.

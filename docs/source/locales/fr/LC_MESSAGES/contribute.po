@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, High Fidelity. © Copyright 2020, Vircadia.
+# This file is distributed under the same license as the Vircadia Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
+"POT-Creation-Date: 2021-01-17 15:55+0100\n"
+"PO-Revision-Date: 2021-05-24 06:48+0000\n"
+"Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
+"Language-Team: French <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/contribute/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/contribute.rst:3
+msgid "Contribute"
+msgstr "Contribuer"
+
+#: ../../source/contribute.rst:5
+msgid ""
+"Vircadia is an open-source project, so all of our code and documentation "
+"is available for you to look at. You too can contribute to our endeavor "
+"for the metaverse! Our main `git repository "
+"<https://github.com/vircadia/vircadia>`_ contains the source to many of "
+"the components of our software for creating virtual worlds. There are "
+"plenty of ways you can contribute to the various parts that make up "
+"Vircadia."
+msgstr ""
+"Vircadia est un projet Open Source, notre code informatique et toute la "
+"documentation est à votre disposition. Vous pouvez contribuer à notre effort "
+"pour le métaverse! Notre principal `référentiel git <https://github.com/"
+"vircadia/vircadia>`_ contient la source de beaucoup de composantes de notre "
+"logiciel pour créer des mondes virtuels. Il y a beaucoup de possibilités qui "
+"vous sont ouvertes pour contribuer aux différentes parties qui constituent "
+"Vircadia."
+
+#: ../../source/contribute.rst:10
+msgid "On This Page"
+msgstr "Sur Cette Page"
+
+#: ../../source/contribute.rst:14
+msgid "Documentation"
+msgstr "Documentation"
+
+#: ../../source/contribute.rst:15
+msgid "You can help create and maintain the documentation in several ways:"
+msgstr ""
+"Vous pouvez aider à créer et maintenir à jour la documentation de plusieurs "
+"façons :"
+
+#: ../../source/contribute.rst:17
+msgid ""
+"Report errors or missing information to the `GitHub issue tracker "
+"<https://github.com/vircadia/vircadia-docs-sphinx/issues>`_."
+msgstr ""
+"Signaler des erreurs ou des informations manquantes sur le site `GitHub "
+"issue tracker <https://github.com/vircadia/vircadia-docs-sphinx/issues>`_."
+
+#: ../../source/contribute.rst:18
+msgid ""
+"Create or change documentation pages and open a `PR (pull request) on "
+"GitHub <https://github.com/vircadia/vircadia-docs-sphinx/pulls>`_."
+msgstr ""
+"Créer ou changer des pages de documentation et ouvrir un `PR (pull request) "
+"on GitHub <https://github.com/vircadia/vircadia-docs-sphinx/pulls>`_."
+
+#: ../../source/contribute.rst:19
+msgid ""
+"`Review changes <https://github.com/vircadia/vircadia-docs-"
+"sphinx/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ to the "
+"documentation on Github. We would like to have two reviewers for most "
+"changes, as there are always things that the writer and the first "
+"reviewer overlook."
+msgstr ""
+"`Réviser des changements <https://github.com/vircadia/vircadia-docs-sphinx/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ à la documentation sur "
+"Github. Nous préférons avoir 2 réviseurs pour la plupart des changements car "
+"il ya toujours des choses que l'auteur et le premier réviseur peuvent "
+"manquer."
+
+#: ../../source/contribute.rst:24
+msgid "Translation"
+msgstr "Traduction"
+
+#: ../../source/contribute.rst:25
+msgid ""
+"As an international project, Vircadia relies on translators to be able to"
+" reach users that do not speak English. Currently the only component that"
+" has translation support is the documentation. You can help translating "
+"using our online translation system `Weblate "
+"<https://weblate.vircadia.dev>`_ by either submitting translations or "
+"becoming a maintainer for your language and checking translations before "
+"they make it into the documentation. More information on translating the "
+"documentation can be found in its `README <https://github.com/vircadia"
+"/vircadia-docs-sphinx/blob/master/README.md>`_."
+msgstr ""
+"En tant que projet international Vircadia dépend de traducteurs capabables "
+"d'atteindre des utilisateurs qui ne parlent pas Anglais. A ce jour la seule "
+"composante qui dispose d'un support de traduction est la documentation. Vous "
+"pouvez aider avec la traduction en utilisant le système online `Weblate "
+"<https://weblate.vircadia.dev>`_ soit en soumettant des traductions ou en "
+"devenant un réviseur pour votre language avant que les traductions sont "
+"publiées. De plus amples informations à ce sujet se trouvent dans la "
+"documentation `README <https://github.com/vircadia/vircadia-docs-sphinx/blob/"
+"master/README.md>`_."
+
+#: ../../source/contribute.rst:32
+msgid "Donations"
+msgstr "Donations"
+
+#: ../../source/contribute.rst:33
+msgid ""
+"Vircadia is primarily driven by the voluntary contributions of its "
+"community and core team. While we do not have an entity to manage "
+"donations, you can donate to specific members of the team via various "
+"services like PayPal, Patreon, or Github Sponsors."
+msgstr ""
+"Vircadia est en premier lieu supporté par les contributions volontaires de "
+"la part de sa communauté et de son équipe de base. Bien que nous ne "
+"disposons pas d'une entité qui gère les donations, vous pouvez faire des "
+"dons à des membres individuels de l'équipe par des services comme PayPal, "
+"Patreon, ou Github Sponsors."
+
+#: ../../source/contribute.rst:36
+msgid ""
+"You can also put bounties on specific features you want to see "
+"implemented or issues you want to see fixed, by leaving a comment on our "
+"`issue tracker <https://github.com/vircadia/vircadia/issues>`_. Of "
+"course, bounties are also an option for other parts of the project like "
+"the documentation. Bounties are created and assigned based on trust, so "
+"if you are unsure about something regarding one then speak to a core "
+"developer or bring it up at a community or developer meeting. Most of the"
+" developers are highly trained and experienced, normally earning upwards "
+"of US$40 an hour in the free market. Keep that in mind if you want to see"
+" something accomplished that no one else is personally interested in."
+msgstr ""
+"Vous pouvez aussi offrir des primes si vous aimeriez voir des "
+"fonctionnalités spécifiques implementées ou des bugs résolus en laissant un "
+"commentaire sur notre `issue tracker <https://github.com/vircadia/vircadia/"
+"issues>`_. Des primes sont bien sûr aussi une option pour des autres parties "
+"du projet comme la documentation. Les primes sont crées et attribuées sur la "
+"base de la confiance, si vous avez des questions à ce sujet n'hésitez pas à "
+"parler avec un membre de l'équipe de base ou de les soulever pendant les "
+"réunions régulières de la communauté ou des développeurs."
+
+#: ../../source/contribute.rst:43
+msgid "Development"
+msgstr "Développement"
+
+#: ../../source/contribute.rst:44
+msgid ""
+"You can help the general development of the Vircadia project without "
+"being a developer yourself by:"
+msgstr ""
+"Vous pouvez aider au développement général du projet Vircadia sans être un "
+"développeur de logiciel en :"
+
+#: ../../source/contribute.rst:46
+msgid ""
+"filing issues on our `issue tracker "
+"<https://github.com/vircadia/vircadia/issues>`_,"
+msgstr ""
+"soumettant des bugs avec notre `issue tracker <https://github.com/vircadia/"
+"vircadia/issues>`_,"
+
+#: ../../source/contribute.rst:47
+msgid "helping to narrow down those issues,"
+msgstr "aidant à résoudre ces bugs,"
+
+#: ../../source/contribute.rst:48
+msgid ""
+"or `testing pull requests "
+"<https://github.com/vircadia/vircadia/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
+msgstr ""
+"en testant des `pull requests <https://github.com/vircadia/vircadia/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
+
+#: ../../source/contribute.rst:50
+msgid ""
+"If you are a developer, you can contribute directly to the project via "
+"pull requests. Keep the `guidelines "
+"<https://github.com/vircadia/vircadia/blob/master/CONTRIBUTING.md>`_ in "
+"mind when contributing to the main software. Some additional information "
+"can be found in the :doc:`Developer Section <developer>`. An important "
+"job for developers that have become more accustomed to the platform is "
+"`code reviews "
+"<https://github.com/vircadia/vircadia/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
+" of open pull requests."
+msgstr ""
+"Si vous êtes un développeur, vous pouvez contribuer directement au projet "
+"via des demandes de pull. Gardez les `directives <https://github.com/"
+"vircadia/vircadia/blob/master/CONTRIBUTING.md>`_ à l'esprit lorsque vous "
+"contribuez au logiciel principal. Quelques informations supplémentaires "
+"peuvent être trouvées dans la :doc:`Section développeur <developer>`. Une "
+"tâche importante pour les développeurs qui se sont habitués à la plateforme "
+"est la `révision de code <https://github.com/vircadia/vircadia/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A \"needs+CR+(code+review)\">`_ des pull "
+"requests ouverts."
+
+#: ../../source/contribute.rst:56
+msgid "Miscellaneous Work"
+msgstr "Travaux divers"
+
+#: ../../source/contribute.rst:57
+msgid ""
+"There is also a lot of miscellaneous work that comes up every now and "
+"then:"
+msgstr ""
+"Il y a aussi beaucoup de travaux divers qui peuvent apparaître de temps en "
+"temps :"
+
+#: ../../source/contribute.rst:59
+msgid "2D art like posters or banners,"
+msgstr "Art 2D comme affiches et banneaux,"
+
+#: ../../source/contribute.rst:60
+msgid "3D models,"
+msgstr "Modèles 3D,"
+
+#: ../../source/contribute.rst:61
+msgid "scripts,"
+msgstr "scripts,"
+
+#: ../../source/contribute.rst:62
+msgid "video editing,"
+msgstr "montages vidéo,"
+
+#: ../../source/contribute.rst:63
+msgid "and so on."
+msgstr "etc."
+
+#: ../../source/contribute.rst:65
+msgid ""
+"It is tremendously helpful for developers to have someone that they can "
+"ask for assistance when they need work done that is outside their area of"
+" expertise."
+msgstr ""
+"Il est énormément important pour les développeurs de pouvoir demander de "
+"l'assistance quand un travail en dehors de leur domaine de compétence est "
+"nécessaire."

@@ -15,19 +15,19 @@ You can use the [Scripting Console in Interface](get-started-with-scripting.html
 + [Equip an Item](#equip-an-item)
 + [Connect a Signal to a Function](#connect-a-signal-to-a-function)
 
-## Compute 3D Math Operations 
+## Compute 3D Math Operations
 
-When you script for VR worlds like High Fidelity, you need 3D math operations to compute the position and orientation of 3D objects and avatars in-world. We cannot simply add two vectors. To script 3D math operations and to determine position and orientation information of avatars, you can use the following namespaces in our JavaScript API:
+When you script for VR worlds like Vircadia, you need 3D math operations to compute the position and orientation of 3D objects and avatars in-world. We cannot simply add two vectors. To script 3D math operations and to determine position and orientation information of avatars, you can use the following namespaces in our JavaScript API:
 
-+ [Vec3](https://apidocs.vircadia.dev/Vec3.html): The Vec3 API has facilities for generating and manipulating 3-dimensional vectors. 
-+ [Quat](https://apidocs.vircadia.dev/Quat.html): The Quat API provides facilities for generating and manipulating quaternions. 
-+ [MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html): The MyAvatar API provides facilities for manipulating avatars.  
++ [Vec3](https://apidocs.vircadia.dev/Vec3.html): The Vec3 API has facilities for generating and manipulating 3-dimensional vectors.
++ [Quat](https://apidocs.vircadia.dev/Quat.html): The Quat API provides facilities for generating and manipulating quaternions.
++ [MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html): The MyAvatar API provides facilities for manipulating avatars.
 
 ### Get Your Avatar's Position
 
 When creating objects in world, it's often very helpful to know where your avatar currently is.
 
-High Fidelity uses a 3D Cartesian coordinate system where the position vector of an entity or avatar looks like this:
+Vircadia uses a 3D Cartesian coordinate system where the position vector of an entity or avatar looks like this:
 
 ```javascript
 { x: 0, y: 0, z: 0 }
@@ -122,11 +122,11 @@ getPositionInFrontOfMe(8.0); // { x: 0, y: 0, z: -8 }
 
 ## Include External JS and JSON Files
 
-When writing a script in High Fidelity, you might need to access the methods or objects in an external JS file or get information from a JSON file. For example, if you're writing a script to make your avatar wave, you might need to use some methods that already exist in an external JS file. You can do this using the `require` method in the Scripts namespace of our API.
+When writing a script in Vircadia, you might need to access the methods or objects in an external JS file or get information from a JSON file. For example, if you're writing a script to make your avatar wave, you might need to use some methods that already exist in an external JS file. You can do this using the `require` method in the Scripts namespace of our API.
 
-Any script that you try to retrieve using this method must export either a function or an object. Let's try this using an example. 
+Any script that you try to retrieve using this method must export either a function or an object. Let's try this using an example.
 
-Create a JS script that you want to access from your main script. 
+Create a JS script that you want to access from your main script.
 
 **example.js**
 
@@ -154,21 +154,21 @@ When you use the `require` method, you are making any function or object exporte
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>We recommend using relative paths in your development so that you can easily move content without having to update absolute paths. However, in JSON files, you have to use absolute paths (e.g. in the event of a marketplace upload).</p>
+    <p>We recommend using relative paths in your development so that you can easily move content without having to update absolute paths.</p>
 </div>
 
 ## Equip an Item
-You can equip an item by grabbing and holding an entity without pressing the grab button or trigger continuously. For example, you could equip a paint brush to your avatar's hand and drop it only when you're done painting. 
+You can equip an item by grabbing and holding an entity without pressing the grab button or trigger continuously. For example, you could equip a paint brush to your avatar's hand and drop it only when you're done painting.
 
 You can equip an item using a script:
 
 ```javascript
-Messages.sendLocalMessage('Hifi-Hand-Grab', JSON.stringify({hand: 'XXX', entityID: 'YYY'})); \\ where XXX is either the left or right hand and YYY is entityID to equip
+Messages.sendLocalMessage('Hifi-Hand-Grab', JSON.stringify({hand: 'XXX', entityID: 'YYY'})); // where XXX is either the left or right hand and YYY is entityID to equip
 ```
 
 To drop the entity from your avatar's hand:
 ```javascript
-Messages.sendLocalMessage('Hifi-Hand-Drop', 'XXX'); \\ where XXX is either the left or right hand
+Messages.sendLocalMessage('Hifi-Hand-Drop', 'XXX'); // where XXX is either the left or right hand
 ```
 
 ## Connect a Signal to a Function
@@ -199,5 +199,5 @@ MyAvatar.collsionEnabledChanged.disconnect(collsionChanged);
 
 **See Also**
 
-+ [Write Your Own Scripts](write-scripts.html)
++ [Write Your Own Scripts](write-scripts)
 + [API Reference](https://apidocs.vircadia.dev)

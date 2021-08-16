@@ -24,28 +24,28 @@ However, we understand that our equation may not match exactly what you're looki
 Audio Zones
 ^^^^^^^^^^^
 
-A "zone" is a 3D area where you can define custom properties. In the case of an audio zone, it is a 3D area with its own unique attenuation and reverb properties defined. For example, an audio zone could be used to create two separate rooms in the same domain, where the sound does not migrate over into the other room. 
+A "zone" is a 3D area where you can define custom properties. In the case of an audio zone, it is a 3D area with its own unique attenuation and reverb properties defined. For example, an audio zone could be used to create two separate rooms in the same domain, where the sound does not migrate over into the other room.
 
-To define an audio zone: 
+To define an audio zone:
 
 1. Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
-    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
+    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'.
     * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
-    * For any OS: Open a browser and enter the URL http://localhost:40100/settings.    
+    * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. On the top menu bar, select **Content > Audio Environment**.
-3. Under 'Zones', click the ``+`` icon. 
+3. Under 'Zones', click the ``+`` icon.
 4. Enter a name for the zone, along with the zone's coordinates.
-5. (Optional) If you have more than one zone, then you can set up the attenuation relationship between two specific zones. This relationship is known as the "attenuation coefficient". When the attenuation coefficient is 0, there is no change to the attenuation between zones; at 1, you won't be able to hear someone in another zone. 
-6. Under 'Reverb Settings', click the ``+`` icon, enter the zone name from step 4, and define the reverb levels for the zone.  
+5. (Optional) If you have more than one zone, then you can set up the attenuation relationship between two specific zones. This relationship is known as the "attenuation coefficient". When the attenuation coefficient is 0, there is no change to the attenuation between zones; at 1, you won't be able to hear someone in another zone.
+6. Under 'Reverb Settings', click the ``+`` icon, enter the zone name from step 4, and define the reverb levels for the zone.
 7. Save your domain settings.
 
 ---------------------------
 Audio Threading and Buffers
 ---------------------------
 
-The 'Audio Threading' and 'Audio Buffer' sections of the Domain Settings define the server configuration for the audio mixer. Here, you can determine the number of threads the audio mixer uses to process audio, and when to throttle or buffer a heavy-loaded system. 
+The 'Audio Threading' and 'Audio Buffer' sections of the Domain Settings define the server configuration for the audio mixer. Here, you can determine the number of threads the audio mixer uses to process audio, and when to throttle or buffer a heavy-loaded system.
 
 .. note:: These are advanced domain server settings. Do not modify without prior technical knowledge of servers.
 

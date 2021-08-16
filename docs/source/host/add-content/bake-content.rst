@@ -1,8 +1,12 @@
+.. warning::
+    This document is outdated.
+    FIXME: Mentions Sandbox, missing information about Linux (currently the oven is only shipped with the Server, not the AppImage), says that Oven has a GUI application (is news to me)
+
 #############################
-Bake Your Content 
+Bake Your Content
 #############################
 
-Most content (avatars, entities, etc) in High Fidelity references external resources such as textures, models, scripts, and materials. When a user encounters any content in the domain, they need to download the content's resources. Many of these resources are not optimized and can take a while to download. *Baking* is the process of optimizing these resources to make them easier to transmit, store, and render, reducing load time significantly. 
+Most content (avatars, entities, etc) in Vircadia references external resources such as textures, models, scripts, and materials. When a user encounters any content in the domain, they need to download the content's resources. Many of these resources are not optimized and can take a while to download. *Baking* is the process of optimizing these resources to make them easier to transmit, store, and render, reducing load time significantly.
 
 .. contents:: On This Page
     :depth: 2
@@ -11,7 +15,7 @@ Most content (avatars, entities, etc) in High Fidelity references external resou
 The Oven
 ---------------------
 
-The Oven is a standalone application that is packaged as part of High Fidelity `Client + Sandbox <https://www.highfidelity.com/download#sandbox>`_ installer. Once installed, locate ``oven.exe`` (Windows) or ``oven.app`` (Mac).
+The Oven is a standalone application that is packaged as part of Vircadia `Client + Sandbox <https://vircadia.com/deploy-a-server/>`_ installer. Once installed, locate ``oven.exe`` (Windows) or ``oven.app`` (Mac).
 
 With the oven, you can bake the following types of content: 
 
@@ -107,5 +111,4 @@ To bake a 3D model through the Oven's command line interface::
 To bake a material through the Oven's command line interface::
 
     >> oven.exe -i %path to material json% -o %output directory% -t material
-
 

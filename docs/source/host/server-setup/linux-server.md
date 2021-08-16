@@ -4,52 +4,34 @@ The Vircadia packages can help you get your own domain up and running quickly.
 
 ## Installation
 
-Alongside installation, these packages can also migrate an "Athena" domain to Vircadia. You can run them on an existing Vircadia domain to upgrade it if the original was installed using the package. Packages are currently available for the following distributions:
+You can run these same commands on an existing Vircadia domain to upgrade it if the original domain was installed using the package. Packages are currently available for the following distributions:
 
 ### Ubuntu Server 18.04 LTS
 
 ```sh
-wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2020.3.1-demeter-20201026-5c945c1-0ubuntu1-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./vircadia-server_2020.3.1-demeter-20201026-5c945c1-0ubuntu1-1_amd64.deb
+wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2021.1.2-20210525-b020558-0ubuntu1-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./vircadia-server_2021.1.2-20210525-b020558-0ubuntu1-1_amd64.deb
 ```
 
 ### Amazon Linux 2
 
 ```sh
-sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2020.3.1_DEMETER_20201026_5c945c1-1.amzn2.x86_64.rpm
+sudo yum install https://cdn.vircadia.com/dist/domain-server/amazon-linux/vircadia-server-2021.1.1_EOS_20210405_1751a59-1.amzn2.x86_64.rpm
 ```
 
 ### Unlisted Distribution
 
-If you do not see your distribution listed here, you may compile your own server from source using the [Vircadia builder](https://github.com/kasenvr/vircadia-builder).
-    
+If you do not see your distribution listed here, you may compile your own server from source using the [Vircadia builder](https://github.com/vircadia/vircadia-builder).
+
 ## Configuration
 
 The installation packages will create a domain at the default port location and configure a service to keep it running on that machine.
 
+For the list of network ports that you will need to open and manage, see [here](../configure-settings/network-settings).
+
 Connect a web browser to the server at port 40100. (If you are on the machine that the server is running on, this would be http://localhost:40100) Complete the initial setup wizard and you should have a functioning domain.
 
-## Networking
-
-A Vircadia domain reserves a range of four ports to operate on, usually starting at 40100. (Note that the encrypted ports may not be implemented yet.) These ports are:
- - 40100 (+0) : (tcp) administrative http connection
- - <del>40101 (+1): (tcp) administrative https (encrypted) connection</dev>
- - 40102 (+2): (udp) main connection from clients
- - <del>40103 (+3): (udp) main connection from clients (encrypted)</dev>
-
-Generally speaking, only port 40102 must be publicly exposed to permit others to connect to a domain.
-
-In addition there are six "assignment clients" that must run in order for the domain to be operational.  These clients run alongside the domain server and must be able to connect with any outside user.  These clients are:
-- **asset-server**: stores object data to download to the user
-- **audio-mixer**: controls what each user would hear
-- **avatar-mixer**: allows users to see each other
-- **entity-script-server**: runs actions inside the domain
-- **entity-server**: describes the location of each object in the domain
-- **messages-mixer**: passes messages between users in the domain
-
-These assignment clients use UDP connections on a port number assigned by the operating system at launch (within [the ephemeral port range](https://en.wikipedia.org/wiki/Ephemeral_port)).
-
-## Files
+## Files and Server Configuration
 
 The program files are installed in /opt/vircadia:
  - **/opt/vircadia** contains the executables
@@ -61,7 +43,7 @@ The executables in this folder (with the exception of <code>new-server</code>) c
 
 The file <code>/etc/opt/vircadia/default.conf</code> contains any environment variables necessary to running the domain.
 
-All content is stored under <code>/var/lib/vircadia/default</code>.  All files underneath <code>/var/lib/vircadia</code> are owned by the user <code>vircadia</code>, which is also the user that runs all domain-related processes.
+All content is stored under <code>/var/lib/vircadia/default</code>. All files underneath <code>/var/lib/vircadia</code> are owned by the user <code>vircadia</code>, which is also the user that runs all domain-related processes.
 
 ## Services
 
@@ -74,22 +56,69 @@ The <code>vircadia-server@default.target</code> service is the only one that is 
 
 The first two services log a large amount of data to their service journal. Checking their logs (via <code>systemctl status</code>) is a good way to ensure they are operating properly.
 
-## Multiple domains
+## Multiple Domains
 
 The installation package is configured to permit multiple domains to run on a single server at different port numbers. New servers can be created using the following command:
 
-    /opt/vircadia/new-server <name> <base-port>
+```sh
+/opt/vircadia/new-server <name> <base-port>
+```
 
 where <code>name</code> is a word used to name and manage the domain and <code>base-port</code> must be the the first of a range of four contiguous port numbers not overlapping with any other use on the system.
 
-Assuming you created a new server with the name **second-bite**, this would setup the following:
- - Environment variables in <code>/etc/opt/vircadia/**second-bite**.conf</code>
- - Content stored in <code>/var/lib/vircadia/**second-bite**</code>
- - Services launched as <code>vircadia-domain-server@**second-bite**.service</code>, <code>vircadia-assignment-client@**second-bite**.service</code>, and <code>vircadia-server@**second-bite**.target</code>
- 
+Assuming you created a new server with the name **my-server-two**, this would setup the following:
+ - Environment variables in <code>/etc/opt/vircadia/**my-server-two**.conf</code>
+ - Content stored in <code>/var/lib/vircadia/**my-server-two**</code>
+ - Services launched as <code>vircadia-domain-server@**my-server-two**.service</code>, <code>vircadia-assignment-client@**my-server-two**.service</code>, and <code>vircadia-server@**my-server-two**.target</code>
+
+## Deleting a Vircadia Server
+
+Uninstall the package.
+
+```sh
+# Ubuntu
+# Note: 'apt-get purge' will remove configuration files as well. Use 'apt-get remove' to keep them.
+sudo apt-get purge vircadia-server
+# Amazon Linux 2
+sudo yum remove vircadia-server
+```
+
+### Deleting a Domain from a Multiple Domain Installation
+
+Find the name of the domain that you want to remove.
+
+```sh
+sudo ls ~vircadia
+```
+
+Pick the name of the domain that you want to remove from the list and then stop it.
+
+```sh
+sudo systemctl stop vircadia-server@<INSERT NAME HERE>.target
+```
+
+Disable the service for the domain.
+
+```sh
+sudo systemctl disable vircadia-server@<INSERT NAME HERE>.target
+```
+
+Remove the associated environment variables.
+
+```sh
+sudo rm /etc/opt/vircadia/<INSERT NAME HERE>.conf
+```
+
+Remove all data and configurations.
+
+```sh
+sudo rm -rf ~vircadia/<INSERT NAME HERE>
+sudo rm -rf /var/lib/vircadia/<INSERT NAME HERE>
+```
+
 ## Legacy Services
 
-There are a number of tweaks that are made to the default configuration to simplify storage and the ability to run multiple domains on one server. In case you would like to remove this logic and run the servers closer to how the original *High Fidelity* domain servers were running, this is provided as an option.
+There are a number of tweaks that are made to the default configuration to simplify storage and the ability to run multiple domains on one server. In case you would like to remove this logic and run the servers closer to how a Vircadia server compiled from source would run, this is provided as an option.
  - Systemd services named <code>vircadia-domain-server.service</code>, <code>vircadia-assignment-client.service</code>, and <code>vircadia-server.target</code> *(without the @name)* have simplified configuration
  - No file is provided to specify environment variables for the server
  - Content would be stored in <code>/var/lib/vircadia/.local</code>

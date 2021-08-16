@@ -2,7 +2,7 @@
 Frequently Asked Questions
 ##########################
 
-We get a lot of questions from our users! If you have questions about our product, feel free to browse through this page to learn more.
+We get a lot of questions from our users! If you have questions about Vircadia, feel free to browse through this page to learn more.
 
 .. contents:: On This Page
     :depth: 2
@@ -12,18 +12,16 @@ We get a lot of questions from our users! If you have questions about our produc
 Content Creation
 ----------------
 
-+ `What video codecs do you support? <#video-codecs>`_
++ `What video formats do you support? <#video-formats>`_
 
 +-----------------------------------------------------------------------------------------------------+
-| .. _video-codecs:                                                                                   |
+| .. _video-formats:                                                                                  |
 |                                                                                                     |
-| What video codecs do you support?                                                                   |
+| What video formats do you support?                                                                  |
 +=====================================================================================================+
-| We support the following video codecs:                                                              |
-|                                                                                                     |
-| * WebM VP8                                                                                          |
-| * H.264, WebM                                                                                       |
-| * WebM, H.264                                                                                       |
+| We support most open video formats. Proprietary formats like H.264 are currently not supported.     |
+| The VP9 format is recommended because of its good quality and low file sizes.                       |
+| See :doc:`Play Media in a Web Entity <create/entities/web-entity-media>` for a more information.    |
 +-----------------------------------------------------------------------------------------------------+
 
 --------------
@@ -38,28 +36,57 @@ Domain Hosting
 | How do I get into my domain settings if I set up `authentication                                    |
 | <host/configure-settings/authentication-setting.html>`_ but forgot my username and/or password?     |
 +=====================================================================================================+
-| * For cloud domains, you can reset the username and password to a temporary one through your High   |
-|   Fidelity account settings. To do so, go to https://metaverse.highfidelity.com/user/cloud_domains  |
-|   and log in if prompted. Click the "More Options" menu (3 dots on the right-side of the row), then |
-|   click 'Reset Domain Server password'. Once the username and password are reset, log in to your    |
-|   domain settings with the temporary credentials. We recommend `setting a new username and password |
-|   <host/configure-settings/authentication-setting.html>`_ at this time.                             |
-| * For local servers, the authentication settings for your domain are encrypted into a configuration |
-|   file on the local server's file system. To 'reset' the authentication settings, you need to       |
-|   manually remove the HTTP security settings ('http_password' and 'http_username') from             |
-|   config.json. The config file is stored on the server in the following directories:                |
+| The authentication settings for your domain are encrypted into a configuration                      |
+| file on the server's file system. To 'reset' the authentication settings, you need to               |
+| manually remove the HTTP security settings ('http_password' and 'http_username') from               |
+| config.json. The config file is stored on the server in the following directories:                  |
 |                                                                                                     |
-|     * **Windows**: %AppData%/Roaming/Project Athena/domain-server                                   |
-|     * **Mac**: ~/Library/Application Support/Project Athena/domain-server                           |
+| * **Windows**: ``%AppData%\Roaming\Vircadia\domain-server\``                                        |
+| * **Mac**: ``~/Library/Application Support/Vircadia/domain-server/``                                |
+| * **Linux**: ``/var/lib/vircadia/default/domain-server/``                                           |
 +-----------------------------------------------------------------------------------------------------+
 
 ---------------
 Troubleshooting
 ---------------
 
++ `Where do I find the Interface log files? <#interface-log-files>`_
++ `How do I access the hidden folders that most Vircadia files are stored in? <#file-manager-help>`_
 + `Why can't I connect to a domain? <#cannot-connect>`_
 + `No one can hear me! <#no-input>`_
 + `I can't hear anything in Vircadia <#no-output>`_
+
++-----------------------------------------------------------------------------------------------------+
+| .. _interface-log-files:                                                                            |
+|                                                                                                     |
+| Where do I find the Interface log files?                                                            |
++=====================================================================================================+
+| The Interfaces log files can be found in the following directories:                                 |
+|                                                                                                     |
+| * **Windows**: ``%AppData%\Local\Vircadia\Interface\Logs\``                                         |
+| * **Mac**: ``~/Library/Application Support/Vircadia/Interface/Logs/``                               |
+| * **Linux**: ``~/.local/share/Vircadia/Interface/Logs/``                                            |
+|                                                                                                     |
+| The Vircadia folder name might be different on development or testing builds.                       |
+| E.g. ``Vircadia - dev``.                                                                            |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _file-manager-help:                                                                              |
+|                                                                                                     |
+| How do I access the hidden folders that most Vircadia files are stored in?                          |
++=====================================================================================================+
+| On all currently supported operating systems the folders that Vircadia stores most of its data in   |
+| are hidden.                                                                                         |
+|                                                                                                     |
+| The easiest way to access them is to just copy the path and paste it into your systems file manager.|
+| Most (if not all) of them have a bar at the top.                                                    |
+|                                                                                                     |
+| .. image:: _images/file-manager-path.png                                                            |
+|                                                                                                     |
+| Even if it doesn't look like you can paste anything into the bar, still hover over it and try       |
+| pasting with a shortcut like Ctrl + V.                                                              |
++-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _cannot-connect:                                                                                 |
@@ -125,7 +152,7 @@ Troubleshooting
 |   Vircadia and click 'Properties'. On the 'Levels' tab, adjust the 'Microphone Level' and/or        |
 |   'Microphone Boost'.                                                                               |
 | * On Mac, go to **System Preferences > Sound > Input** tab. Choose the device you are using with    |
-|   Vircadia and adjust the 'Input volume'.                                                           | 
+|   Vircadia and adjust the 'Input volume'.                                                           |
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+

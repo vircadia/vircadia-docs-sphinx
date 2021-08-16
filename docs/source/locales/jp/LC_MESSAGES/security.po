@@ -4,15 +4,16 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-03 14:57+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
+"POT-Creation-Date: 2021-05-02 08:26+0000\n"
+"PO-Revision-Date: 2021-03-30 16:37+0000\n"
+"Last-Translator: 川音リオ <rio.kawane@gmail.com>\n"
+"Language: jp\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/security/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,73 +21,91 @@ msgstr ""
 
 #: ../../source/security.rst:7 ../../source/security/crash-reporting.rst:3
 msgid "Crash Reporting"
-msgstr ""
+msgstr "クラッシュレポート"
 
 #: ../../source/security.rst:3
 msgid "Security"
-msgstr ""
+msgstr "セキュリティ"
 
 #: ../../source/security.rst:5
 msgid ""
 "Security information about the project and its components: Interface, "
 "server, and the metaverse server."
-msgstr ""
+msgstr "Vircadiaプロジェクトとその構成要素（インターフェースやサーバーなど）に関するセキュリティ情報。"
 
 #: ../../source/security/crash-reporting.rst:5
 #: ../../source/security/reporting/crash-reporting.md:1
 msgid "Crash Reporting Privacy"
-msgstr ""
+msgstr "クラッシュレポートのプライバシーについて"
 
 #: ../../source/security/reporting/crash-reporting.md:3
 msgid ""
 "Your interface has crash reporting disabled by default. You can "
-"enable/disable this in the Settings > General menu. When this is enabled,"
-" interface will send a minidump of information to the reporting server "
-"that the Vircadia developers have access to. The current crash management"
-" server is called Sentry."
+"enable/disable this in the **Settings > General** menu. When this is "
+"enabled, interface will send a minidump of information to the reporting "
+"server that the Vircadia developers have access to. The current crash "
+"management server is called [Sentry](https://sentry.io/)."
 msgstr ""
 
 #: ../../source/security/reporting/crash-reporting.md:5
-msgid "Here is information on what a minidump is and how it's handled by Sentry."
-msgstr ""
+#, fuzzy
+msgid ""
+"Here is [information](https://docs.sentry.io/platforms/native/minidump"
+"/#what-is-a-minidump) on what a minidump is and how it's handled by "
+"Sentry."
+msgstr "ミニダンプとは何か、そしてそれは Sentry によってどのように処理されるかの解説はこちら。"
 
 #: ../../source/security/reporting/crash-reporting.md:7
 msgid "Here is a list of extra metadata that is collected with a crash report:"
-msgstr ""
+msgstr "クラッシュレポートで収集される追加メタデータのリストは次のとおりです。"
 
 #: ../../source/security/reporting/crash-reporting.md:9
 msgid "Username"
-msgstr ""
+msgstr "ユーザーネーム"
 
 #: ../../source/security/reporting/crash-reporting.md:10
 msgid "Domain + location"
-msgstr ""
+msgstr "ドメインと位置情報"
 
 #: ../../source/security/reporting/crash-reporting.md:11
 msgid "Avatar URL"
-msgstr ""
+msgstr "アバターのURL"
 
 #: ../../source/security/reporting/crash-reporting.md:12
 msgid "Build type"
-msgstr ""
+msgstr "ビルドタイプ"
 
 #: ../../source/security/reporting/crash-reporting.md:13
 msgid "Display plugin"
-msgstr ""
+msgstr "ディスプレイブラグイン"
 
 #: ../../source/security/reporting/crash-reporting.md:14
 msgid "GPU model + GPU memory"
-msgstr ""
+msgstr "GPUのモデルとメモリ"
 
 #: ../../source/security/reporting/crash-reporting.md:15
 msgid "Desktop/VR mode"
-msgstr ""
+msgstr "デスクトップモードかVRモード"
 
 #: ../../source/security/reporting/crash-reporting.md:16
 msgid "Machine fingerprint"
-msgstr ""
+msgstr "デジタル指紋データ（マシンフィンガープリント）"
 
 #: ../../source/security/reporting/crash-reporting.md:17
 msgid "Metaverse session UUID"
-msgstr ""
+msgstr "メタバースセッションUUID"
+
+#~ msgid ""
+#~ "Your interface has crash reporting "
+#~ "disabled by default. You can "
+#~ "enable/disable this in the Settings >"
+#~ " General menu. When this is enabled,"
+#~ " interface will send a minidump of"
+#~ " information to the reporting server "
+#~ "that the Vircadia developers have access"
+#~ " to. The current crash management "
+#~ "server is called Sentry."
+#~ msgstr ""
+#~ "クラッシュレポートはデフォルトで無効になっています。これは、メニューの「設定」>「一般」から切り替えることができます。有効にすると、Vircadiaの開発者がアクセスできるレポートサーバーに情報のミニダンプを送信します。現在のクラッシュ管理サーバーの名称は"
+#~ " Sentry です。"
 

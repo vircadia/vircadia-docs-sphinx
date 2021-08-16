@@ -20,7 +20,7 @@ In order to run Vircadia, ensure that your computer meets these system requireme
 
   * Windows 8.1, 64-bit or Windows 10, 64-bit
   * MacOS High Sierra (10.13) or newer
-  * Ubuntu 18.04 64 bit or any other modern Linux distribution
+  * Ubuntu 18.04 64 bit or most other modern Linux distributions
 
 * CPU:
 
@@ -52,15 +52,66 @@ In addition, your network must have enough internet bandwidth to run Vircadia:
 .. note:: Running Vircadia on a high resolution display or in VR mode will need a much better graphics adapter, depending on your display's resolution and targeted frame rate.
 
 -----------------------------------
-Download Vircadia Installer
+Download Vircadia
 -----------------------------------
 
-You can download Vircadia through our website:
+* Windows |Windows|
 
-* `Download the Client Installer <https://vircadia.com/download-vircadia/#interface>`_
+    * `Windows 64-bit - Eos v2021.1.2 Installer <https://cdn.vircadia.com/dist/release/Vircadia-2021.1.2-Eos.exe>`__ |DownloadWI|
+    * `Windows 64-bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ |DownloadWL|
 
+* macOS |MacOS|
+
+    * `macOS Intel - Eos v2021.1.2 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Interface-2021.1.2-Eos.dmg>`__ |DownloadM|
+
+* Linux |Ubuntu|
+
+    * `EU Mirror: Linux amd64 - Eos v2021.1.2 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLEU|
+      (`zsync <http://appimage.moto9000.moe/release/Vircadia-x86_64-release-latest.AppImage.zsync>`__ |DownloadLEUZ|)
+    * `US Mirror: Linux amd64 - Eos v2021.1.2 AppImage <https://cdn.vircadia.com/dist/release/Vircadia-x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLUS|
 
 If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Vircadia.
+VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
+
+
+.. |Windows| image:: _images/remixicon/windows-fill.svg
+              :class: inline
+
+.. |MacOS| image:: _images/remixicon/finder-fill.svg
+              :class: inline
+
+.. |Ubuntu| image:: _images/remixicon/ubuntu-fill.svg
+              :class: inline
+
+.. |DownloadWI| image:: _images/remixicon/download-2-fill.svg
+              :class: inline
+              :width: 20
+              :target: https://cdn.vircadia.com/dist/release/Vircadia-2021.1.2-Eos.exe
+
+.. |DownloadWL| image:: _images/remixicon/download-2-fill.svg
+              :class: inline
+              :width: 20
+              :target: https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe
+
+.. |DownloadM| image:: _images/remixicon/download-2-fill.svg
+              :class: inline
+              :width: 20
+              :target: https://cdn.vircadia.com/dist/release-experimental/Vircadia-Interface-2021.1.2-Eos.dmg
+
+.. |DownloadLEU| image:: _images/remixicon/download-2-fill.svg
+              :class: inline
+              :width: 20
+              :target: https://appimage.moto9000.moe/release/Vircadia-x86_64_v2021.1.2-Eos.AppImage
+
+.. |DownloadLEUZ| image:: _images/remixicon/refresh-fill.svg
+              :class: inline
+              :width: 20
+              :target: http://appimage.moto9000.moe/release/Vircadia-x86_64-release-latest.AppImage.zsync
+
+.. |DownloadLUS| image:: _images/remixicon/download-2-fill.svg
+              :class: inline
+              :width: 20
+              :target: https://cdn.vircadia.com/dist/release/Vircadia-x86_64_v2021.1.2-Eos.AppImage
 
 
 ---------------------------------
@@ -98,7 +149,7 @@ At this point, Interface will open and you will be able to log in and begin expl
 Linux Install
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Mark the downloaded AppImage file as executable. (for example, with ``chmod +x Vircadia-Alpha-2020.2.5-Asteria.AppImage``.)
+1. Mark the downloaded AppImage file as executable. (for example, with ``chmod +x Vircadia-x86_64_v2021.1.0-Eos.AppImage``.)
 2. (Optional) If you want the AppImage to be integrated into your system, install `AppImageLauncher <https://github.com/TheAssassin/AppImageLauncher>`_.
 3. Execute AppImage.
 

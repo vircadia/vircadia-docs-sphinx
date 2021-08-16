@@ -2,7 +2,7 @@
 Home
 ####
 
-Vircadia is open-source software which enables you to create and share virtual worlds as virtual reality (VR) and desktop experiences. You can create and host your own virtual world,
+Vircadia™ is open-source software which enables you to create and share virtual worlds as virtual reality (VR) and desktop experiences. You can create and host your own virtual world,
 explore other worlds, meet and connect with other users, attend or host live VR events, and much more.
 
 The Vircadia metaverse provides built-in social features, including avatar interactions, spatialized audio, and interactive physics.
@@ -32,16 +32,26 @@ In addition to the documentation, you can join the discussion on the Vircadia `D
               :target: https://discordapp.com/invite/Pvx2vke
 
 
-This documentation is authored in `English <https://docs.vircadia.dev/>`_.
+This documentation is authored in `English <https://docs.vircadia.com/>`_.
 
 The following translations are available:
 
-* `Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|
-* `日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|
+* `Deutsch <https://docs.vircadia.com/de/>`_ |de_trans|
+* `Español <https://docs.vircadia.com/es/>`_ |es_trans|
+* `Français <https://docs.vircadia.com/fr/>`_ |fr_trans|
+* `日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|
 
 .. |de_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/de/svg-badge.svg
               :class: inline
               :target: https://weblate.vircadia.dev/engage/vircadia-documentation/de/?utm_source=widget
+
+.. |es_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/es/svg-badge.svg
+              :class: inline
+              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/es/?utm_source=widget
+
+.. |fr_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/fr/svg-badge.svg
+              :class: inline
+              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/fr/?utm_source=widget
 
 .. |jp_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/ja/svg-badge.svg
               :class: inline
