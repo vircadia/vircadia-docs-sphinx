@@ -166,11 +166,9 @@ Here is an example of modifying your blendshapes in your FST file:
 
 **ReadyPlayerMe Blendshape**
 
-ReadyPlayerMe blendshapes are converted into Vircadia blendshapes automatically using a default mapping as follows:
+ReadyPlayerMe blendshapes are converted into Vircadia blendshapes automatically using a default mapping
 
- `const QHash<QString, QPair<QString, float>> READYPLAYERME_BLENDSHAPES_MAP = {`
-
-**eyes Blendshapes**
+**Eye Blendshapes**
 
 * "EyeBlink_L"
 * "EyeBlink_R"
