@@ -22,7 +22,7 @@ Before you import an animation into Vircadia, adjust some settings in the 3D mod
 1. We recommend setting the framerate to 30 fps as a good compromise between smoothness and file size.
 2. Bake your animation channels, key frames, and in-betweens to ensure that Vircadia reads everything. This is to ensure that your animation doesn't stop and start, but appears smooth and flows through each movement.
 3. Prepare to export the skeleton and frames that are being used in the animation.
-4. Disable any kind of keyframe reduction. In Blender, set the "simplify" setting to 0.00 when exporting an FBX file since this will cause the animation to not play properly.
+4. Disable any kind of keyframe reduction. For example, in Blender, set the "simplify" setting to 0.00 when exporting an FBX file otherwise the animation may not play correctly.
 
 .. image:: _images/keyframe-reduction.png
 
