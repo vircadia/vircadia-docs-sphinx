@@ -166,7 +166,11 @@ Here is an example of modifying your blendshapes in your FST file:
 
 **ReadyPlayerMe Blendshape**
 
-ReadyPlayerMe blendshapes are converted into Vircadia blendshapes automatically using a default mapping
+ReadyPlayerMe blendshapes are converted into Vircadia blendshapes automatically using a default mapping.
+
+**Unsupported Blendshapes**
+
+Utilizing Unsupported blendshapes present on models or avatars must match one of the blendshapes below. Alternatively, the utilization of a .fst file can be used in order to remap the blendshapes into any of the ones below.
 
 **Eye Blendshapes**
 
