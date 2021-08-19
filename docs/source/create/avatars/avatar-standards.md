@@ -164,7 +164,7 @@ Here is an example of modifying your blendshapes in your FST file:
     bs = LipsUpperClose = head_BS_mouth_down = 0.1  <br />
 </div>
 
-**ReadyPlayerMe Blendshape**
+**ReadyPlayerMe Blendshapes**
 
 ReadyPlayerMe blendshapes are converted into Vircadia blendshapes automatically using a default mapping.
 
