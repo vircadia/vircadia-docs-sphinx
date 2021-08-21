@@ -166,7 +166,7 @@ Here is an example of modifying your blendshapes in your FST file:
 
 **ReadyPlayerMe Blendshapes**
 
-ReadyPlayerMe blendshapes are converted into Vircadia blendshapes automatically using a default mapping.
+ReadyPlayerMe blendshapes are converted into Vircadia blendshapes automatically.
 
 **Unsupported Blendshapes**
 
