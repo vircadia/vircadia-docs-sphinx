@@ -79,7 +79,7 @@ We encourage you to compile the documentation locally on your computer prior to 
 ## Compile Vircadia Documentation Locally
 
 1. Fork and clone https://github.com/vircadia/vircadia-docs-sphinx.
-2. Using a command line, cd to your local repository, then the docs folder.
+2. Using a command line, `cd` to your local repository, then `cd` to the "docs" folder within it.
 3. Compile with the command `make html`.
 
 The HTML output will be in build\html. Open home.html in a browser to view the docs.
