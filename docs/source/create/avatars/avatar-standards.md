@@ -170,7 +170,7 @@ ReadyPlayerMe blendshapes are converted into Vircadia blendshapes automatically.
 
 **Unsupported Blendshapes**
 
-Utilizing Unsupported blendshapes present on models or avatars must match one of the blendshapes below. Alternatively, the utilization of a .fst file can be used in order to remap the blendshapes into any of the ones below.
+To utilize blendshapes present on avatars, they must match the blendshapes below. Alternatively, an .fst file can be used to remap the blendshapes to any of the ones below.
 
 **Eye Blendshapes**
 
