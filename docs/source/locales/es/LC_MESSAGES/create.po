@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-08-22 20:46+0000\n"
-"PO-Revision-Date: 2021-08-15 17:47+0000\n"
+"POT-Creation-Date: 2021-06-27 06:23+0000\n"
+"PO-Revision-Date: 2021-08-22 20:46+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language: es\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
@@ -6937,54 +6937,61 @@ msgid ""
 "Your gold spotlight needs a surface to shine on. Create this surface or "
 "wall in the **Create** app:"
 msgstr ""
+"Tu foco dorado necesita una superficie sobre la que brillar. Crea esta "
+"superficie o pared en la aplicación **Crear**:"
 
 #: ../../source/create/entities/create-spotlight.md:24
 msgid "Click the 'Cube' icon to create a cube entity."
-msgstr ""
+msgstr "Haz click en el ícono de \"Cubo\" para crear una entidad de cubo."
 
 #: ../../source/create/entities/create-spotlight.md:25
 msgid "Go to the 'Properties' tab and make the following changes:"
-msgstr ""
+msgstr "Ve a la pestaña de \"Propiedades\" y realiza los siguientes cambios:"
 
 #: ../../source/create/entities/create-spotlight.md:26
 msgid ""
 "Change the color of the cube to teal (Red = '0', Green = '128', Blue = "
 "'128')."
 msgstr ""
+"Cambia el color del cubo a verde azulado (Red = '0', Green = '128', Blue = "
+"'128')."
 
 #: ../../source/create/entities/create-spotlight.md:27
 msgid ""
 "Change the dimensions of the cube to make it bigger and look more like a "
 "wall. We've used the following local dimensions:"
 msgstr ""
+"Cambia las dimensiones del cubo para hacerlo más grande y parecerse más a "
+"una pared. Hemos usado las siguientes dimensiones locales:"
 
 #: ../../source/create/entities/create-spotlight.md:28
 msgid "X = '0.1300'"
-msgstr ""
+msgstr "X = '0.1300'"
 
 #: ../../source/create/entities/create-spotlight.md:29
 msgid "Y = '2.4000'"
-msgstr ""
+msgstr "Y = '2.4000'"
 
 #: ../../source/create/entities/create-spotlight.md:30
 msgid "Z = '3.2000'"
-msgstr ""
+msgstr "Z = '3.2000'"
 
 #: ../../source/create/entities/create-spotlight.md:32
 msgid "You've made your wall! ![](_images/teal-wall-prop.PNG)"
-msgstr ""
+msgstr "¡Has hecho tu pared! ![](_images/teal-wall-prop.PNG)"
 
 #: ../../source/create/entities/create-spotlight.md:34
 msgid "Create the Gold Spotlight"
-msgstr ""
+msgstr "Crear el Foco Dorado"
 
 #: ../../source/create/entities/create-spotlight.md:36
 msgid "Create and edit the light entity to get a soft gold spotlight."
 msgstr ""
+"Crea y edita la entidad de luz para conseguir un foco de luz dorada suave."
 
 #: ../../source/create/entities/create-spotlight.md:44
 msgid "Click the 'Light' icon to create the light entity."
-msgstr ""
+msgstr "Haz click en el ícono \"Light\" para crear la entidad de luz."
 
 #: ../../source/create/entities/create-spotlight.md:45
 msgid ""
@@ -6994,16 +7001,24 @@ msgid ""
 " all directions equally. It is meant for general area lighting as it has "
 "a bright point in the middle and fades as it radiates out."
 msgstr ""
+"Agarra y mueve la entidad a la parte superior y centro de la pared. Notarás "
+"que hay una luz blanca brillando en la pared. La luz es pequeña debido al "
+"bajo brillo. Este tipo de luz es una luz puntual y emana en todas "
+"direcciones por igual. Está destinado a la iluminación de áreas en general, "
+"ya que tiene un punto brillante en el medio y se desvanece a medida que se "
+"irradia."
 
 #: ../../source/create/entities/create-spotlight.md:46
 msgid ""
 "Go to the 'Properties' tab and modify the light entity to make a gold "
 "spotlight:"
 msgstr ""
+"Ve a la pestaña de \"Properties\" y modifica la entidad de luz para hacer un "
+"foco dorado:"
 
 #: ../../source/create/entities/create-spotlight.md:47
 msgid "Change the color of the light to gold (R = '255', G = '215', B = '0')."
-msgstr ""
+msgstr "Cambia el color de la luz a dorado (R = '255', G = '215', B = '0')."
 
 #: ../../source/create/entities/create-spotlight.md:48
 msgid ""
@@ -7011,6 +7026,9 @@ msgid ""
 "the 'Intensity' to '100'. You'll see that the light is now covering a "
 "larger area and is much brighter."
 msgstr ""
+"Puedes hacer que la entidad de luz sea más brillante cambiando su "
+"intensidad. Cambia la \"Intensity\" a \"100\". Verás que la luz ahora cubre "
+"un área grande y es mucho más brillante."
 
 #: ../../source/create/entities/create-spotlight.md:49
 msgid ""
@@ -7021,12 +7039,20 @@ msgid ""
 " the light at which the intensity is reduced by '25%'. Change this value "
 "to '0.5'."
 msgstr ""
+"Puedes modificar el \"Fall-off Radius\" (Radio de caída) de la entidad de "
+"luz para que se atenúe gradualmente hacia los bordes. El \"Fall-off Radius\" "
+"define la forma de curvatura de la luz. Un radio más grande simulará una luz "
+"más grande, la cual hará que se caiga (fall-off), o atenúe, más "
+"gradualmente. Es la distancia de la luz a la que la intensidad se reduce en "
+"un \"25%\". Cambia este valor a '0.5'."
 
 #: ../../source/create/entities/create-spotlight.md:50
 msgid ""
 "Select the 'Spotlight' checkbox to convert the light entity to a "
 "spotlight."
 msgstr ""
+"Selecciona el checkbox \"Spotlight\" para convertir la entidad de luz en un "
+"foco."
 
 #: ../../source/create/entities/create-spotlight.md:51
 msgid ""
@@ -7034,12 +7060,18 @@ msgid ""
 "radius of the spotlight. A higher cut-off value corresponds with a larger"
 " spotlight radius. You should see the beam tighten get smaller."
 msgstr ""
+"Cambia el \"Spotlight Cut-off\" (Límite de foco) a '50'. Esta propiedad "
+"determina el radio del foco. Un valor límite más alto se corresponde con un "
+"radio de foco más grande. Deberías ver que el haz de tensión se vuelve más "
+"pequeño."
 
 #: ../../source/create/entities/create-spotlight.md:52
 msgid ""
 "Change the 'Spotlight Exponent' to '5'. This property affects the "
 "softness of the beam. You should see the edge of the beam soften."
 msgstr ""
+"Cambia el \"Spotlight Exponent\" (Exponente de Foco) a '5'. Esta propiedad "
+"afecta la suavidad del haz. Deberías ver que el borde del haz se ablanda."
 
 #: ../../source/create/entities/create-spotlight.md:53
 msgid ""
@@ -7048,6 +7080,10 @@ msgid ""
 "this can be used for a soft lighting effect over paintings or wall "
 "hangings in your world.  ![](_images/spotlight-prop.PNG)"
 msgstr ""
+"Gira el foco para que mire hacia abajo de la pared cambiando el valor \"Local"
+" Rotation's\" de X a '-90.0000'. Un foco colocado de esta manera puede ser "
+"usado como un efecto de iluminación suave sobre cuadros o tapices de pared "
+"en tu mundo. ![](_images/spotlight-prop.PNG)"
 
 #: ../../source/create/entities/create-spotlight.md:56
 msgid ""
@@ -7055,10 +7091,13 @@ msgid ""
 " with different spotlight exponents, cutoff values, and intensity "
 "combinations for varied effects."
 msgstr ""
+"¡Felicidades! ¡Has creado un foco/reflector dorado suave! Puedes "
+"experimentar con diferentes exponentes de foco, valores límite y "
+"combinaciones de intensidad para obtener efectos variados."
 
 #: ../../source/create/entities/create-spotlight.md:58
 msgid "![](_images/spotlight.PNG)"
-msgstr ""
+msgstr "![](_images/spotlight.PNG)"
 
 #: ../../source/create/entities/create-spotlight.md:64
 msgid "[Creator Tools](../tools)"
@@ -7067,7 +7106,7 @@ msgstr "[Herramientas para Creadores](../tools)"
 #: ../../source/create/entities/display-youtube.md:1
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Display a YouTube Channel"
-msgstr ""
+msgstr "Tutorial: Mostrar un Canal de YouTube"
 
 #: ../../source/create/entities/display-youtube.md:3
 msgid ""
