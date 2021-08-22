@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-27 06:23+0000\n"
+"POT-Creation-Date: 2021-08-22 20:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -246,7 +246,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/get-model.rst:43
-#: ../../source/create/3d-models/import-animations.rst:43
+#: ../../source/create/3d-models/import-animations.rst:47
 #: ../../source/create/entities/create-fountain.rst:35
 #: ../../source/create/entities/zone-entity.rst:18
 #: ../../source/create/entities/zone-entity.rst:60
@@ -448,25 +448,32 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:25
 msgid ""
+"Disable any kind of keyframe reduction. For example, in Blender, set the "
+"\"simplify\" setting to 0.00 when exporting an FBX file otherwise the "
+"animation may not play correctly."
+msgstr ""
+
+#: ../../source/create/3d-models/import-animations.rst:29
+msgid ""
 "Export your animation as an FBX file. (Reading animations from other "
 "formats like glTF is currently not supported.)"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:26
+#: ../../source/create/3d-models/import-animations.rst:30
 msgid "Upload this FBX file to a cloud server and copy the URL."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:30
+#: ../../source/create/3d-models/import-animations.rst:34
 msgid "Import an Animation"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:32
+#: ../../source/create/3d-models/import-animations.rst:36
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
 " 3D model and it's animation into Vircadia."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:34
+#: ../../source/create/3d-models/import-animations.rst:38
 #: ../../source/create/3d-models/import-model.rst:17
 #: ../../source/create/3d-models/import-model.rst:30
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:43
@@ -498,7 +505,7 @@ msgstr ""
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:35
+#: ../../source/create/3d-models/import-animations.rst:39
 msgid ""
 "Click on the 'MODEL' icon and enter your 3D model's URL. If you have "
 "saved your 3D model's FBX file with the animation, the model's URL and "
@@ -506,17 +513,17 @@ msgid ""
 "as a separate FBX file."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:36
+#: ../../source/create/3d-models/import-animations.rst:40
 msgid ""
 "In the 'Properties' tab, scroll down to 'Animation' and paste the "
 "animation's URL."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:40
+#: ../../source/create/3d-models/import-animations.rst:44
 msgid "You can edit the following animation properties:"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:43
+#: ../../source/create/3d-models/import-animations.rst:47
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
 #: ../../source/create/avatars/add-flow.rst:46
 #: ../../source/create/avatars/add-flow.rst:66
@@ -545,83 +552,83 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:45
+#: ../../source/create/3d-models/import-animations.rst:49
 msgid "Play Automatically"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:45
+#: ../../source/create/3d-models/import-animations.rst:49
 msgid ""
 "Enable this to play your animation automatically when a user loads a "
 "domain."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:47
+#: ../../source/create/3d-models/import-animations.rst:51
 msgid "Loop"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:47
+#: ../../source/create/3d-models/import-animations.rst:51
 msgid "Select this property to play your animation in a continuous loop."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:49
+#: ../../source/create/3d-models/import-animations.rst:53
 msgid "Allow Transition"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:49
+#: ../../source/create/3d-models/import-animations.rst:53
 msgid ""
 "Enable this to let the animation move through space. This means that the "
 "joints will not only rotate, but translate through three dimensions."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:52
+#: ../../source/create/3d-models/import-animations.rst:56
 msgid "Hold"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:52
+#: ../../source/create/3d-models/import-animations.rst:56
 msgid "Select to pause your animation at a particular frame."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:54
+#: ../../source/create/3d-models/import-animations.rst:58
 msgid "Animation Frame"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:54
+#: ../../source/create/3d-models/import-animations.rst:58
 msgid "Enter the frame at which you want to pause or hold your animation."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:56
+#: ../../source/create/3d-models/import-animations.rst:60
 msgid "First Frame"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:56
+#: ../../source/create/3d-models/import-animations.rst:60
 msgid "This is the first frame from when your want your animation to start."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:58
+#: ../../source/create/3d-models/import-animations.rst:62
 msgid "Last Frame"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:58
+#: ../../source/create/3d-models/import-animations.rst:62
 msgid ""
 "This is the last frame where you want your animation to stop. It will not"
 " play beyond this specified frame."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:61
+#: ../../source/create/3d-models/import-animations.rst:65
 msgid "Animation FPS"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:61
+#: ../../source/create/3d-models/import-animations.rst:65
 msgid "This is the animation's framerate."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:64
+#: ../../source/create/3d-models/import-animations.rst:68
 msgid ""
 "You can also control an animation's properties and when it starts playing"
 " with an :doc:`entity script <../../script/client-entity-scripts>`."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:66
+#: ../../source/create/3d-models/import-animations.rst:70
 #: ../../source/create/3d-models/import-model.rst:37
 #: ../../source/create/3d-models/pbr-materials-guide.rst:153
 #: ../../source/create/applications.rst:297
@@ -657,7 +664,7 @@ msgstr ""
 msgid "**See Also**"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:68
+#: ../../source/create/3d-models/import-animations.rst:72
 msgid ":doc:`Import Your 3D Model <import-model>`"
 msgstr ""
 
