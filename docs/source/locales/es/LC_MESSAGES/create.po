@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-27 06:23+0000\n"
+"POT-Creation-Date: 2021-08-28 20:20+0000\n"
 "PO-Revision-Date: 2021-08-28 20:20+0000\n"
 "Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/create/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/create/es/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -383,7 +382,7 @@ msgstr "El motor de Vircadia solo admite un mapeo UV por material."
 #: ../../source/create/3d-models/get-model.rst:74
 #: ../../source/create/3d-models/get-model.rst:77
 #: ../../source/create/3d-models/pbr-materials-guide.rst:27
-#: ../../source/create/avatars/avatar-standards.md:172
+#: ../../source/create/avatars/avatar-standards.md:257
 msgid "Textures"
 msgstr "Texturas"
 
@@ -780,7 +779,7 @@ msgstr ""
 #: ../../source/create/3d-models/pbr-materials-guide.rst:153
 #: ../../source/create/applications.rst:297
 #: ../../source/create/avatars/add-flow.rst:127
-#: ../../source/create/avatars/avatar-standards.md:187
+#: ../../source/create/avatars/avatar-standards.md:272
 #: ../../source/create/avatars/blender-tutorial.md:52
 #: ../../source/create/avatars/create-avatars.rst:76
 #: ../../source/create/avatars/custom-animations.rst:269
@@ -2691,14 +2690,316 @@ msgid "Here is an example of modifying your blendshapes in your FST file:"
 msgstr "Aquí hay un ejemplo de cómo modificar tus blendshapes en tu archivo FST:"
 
 #: ../../source/create/avatars/avatar-standards.md:167
+#, fuzzy
+msgid "**ReadyPlayerMe Blendshapes**"
+msgstr "**Blendshapes Básicos**"
+
+#: ../../source/create/avatars/avatar-standards.md:169
+msgid ""
+"ReadyPlayerMe blendshapes are converted into Vircadia blendshapes "
+"automatically."
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:171
+#, fuzzy
+msgid "**Unsupported Blendshapes**"
+msgstr "**Blendshapes de Audio**"
+
+#: ../../source/create/avatars/avatar-standards.md:173
+msgid ""
+"To utilize blendshapes present on avatars, they must match the "
+"blendshapes below. Alternatively, an .fst file can be used to remap the "
+"blendshapes to any of the ones below."
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:175
+#, fuzzy
+msgid "**Eye Blendshapes**"
+msgstr "**Blendshapes Básicos**"
+
+#: ../../source/create/avatars/avatar-standards.md:177
+msgid "EyeBlink_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:178
+msgid "EyeBlink_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:179
+msgid "EyeSquint_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:180
+msgid "EyeSquint_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:181
+msgid "EyeDown_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:182
+msgid "EyeDown_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:183
+msgid "EyeIn_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:184
+msgid "EyeIn_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:185
+msgid "EyeOpen_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:186
+msgid "EyeOpen_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:187
+msgid "EyeOut_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:188
+msgid "EyeOut_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:189
+msgid "EyeUp_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:190
+msgid "EyeUp_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:191
+msgid "BrowsD_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:192
+msgid "BrowsD_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:193
+msgid "BrowsU_C"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:194
+msgid "BrowsU_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:195
+msgid "BrowsU_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:197
+#, fuzzy
+msgid "**Jaw Blendshapes**"
+msgstr "**Blendshapes Básicos**"
+
+#: ../../source/create/avatars/avatar-standards.md:199
+msgid "JawFwd"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:200
+msgid "JawLeft"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:201
+msgid "JawOpen"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:202
+#, fuzzy
+msgid "JawRight"
+msgstr "Light"
+
+#: ../../source/create/avatars/avatar-standards.md:203
+msgid "MouthLeft"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:204
+#, fuzzy
+msgid "MouthRight"
+msgstr "turnRight"
+
+#: ../../source/create/avatars/avatar-standards.md:205
+msgid "MouthFrown_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:206
+msgid "MouthFrown_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:207
+msgid "MouthSmile_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:208
+msgid "MouthSmile_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:209
+msgid "MouthDimple_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:210
+msgid "MouthDimple_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:212
+#, fuzzy
+msgid "**Lip Blendshapes**"
+msgstr "**Blendshapes Básicos**"
+
+#: ../../source/create/avatars/avatar-standards.md:214
+msgid "LipsStretch_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:215
+msgid "LipsStretch_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:216
+msgid "LipsUpperClose"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:217
+msgid "LipsLowerClose"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:218
+msgid "LipsFunnel"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:219
+msgid "LipsPucker"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:220
+msgid "Puff"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:222
+msgid "**Mouth, Cheek and User Blendshapes**"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:224
+msgid "CheekSquint_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:225
+msgid "CheekSquint_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:227
+msgid "MouthClose"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:228
+msgid "MouthUpperUp_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:229
+msgid "MouthUpperUp_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:230
+msgid "MouthLowerDown_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:231
+msgid "MouthLowerDown_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:232
+msgid "MouthPress_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:233
+msgid "MouthPress_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:234
+msgid "MouthShrugLower"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:235
+msgid "MouthShrugUpper"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:236
+msgid "NoseSneer_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:237
+msgid "NoseSneer_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:238
+msgid "TongueOut"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:240
+#, fuzzy
+msgid "UserBlendshape0"
+msgstr "Blendshapes (Interpolación de Formas)"
+
+#: ../../source/create/avatars/avatar-standards.md:241
+#, fuzzy
+msgid "UserBlendshape1"
+msgstr "Blendshapes (Interpolación de Formas)"
+
+#: ../../source/create/avatars/avatar-standards.md:242
+#, fuzzy
+msgid "UserBlendshape2"
+msgstr "Blendshapes (Interpolación de Formas)"
+
+#: ../../source/create/avatars/avatar-standards.md:243
+#, fuzzy
+msgid "UserBlendshape3"
+msgstr "Blendshapes (Interpolación de Formas)"
+
+#: ../../source/create/avatars/avatar-standards.md:244
+#, fuzzy
+msgid "UserBlendshape4"
+msgstr "Blendshapes (Interpolación de Formas)"
+
+#: ../../source/create/avatars/avatar-standards.md:245
+#, fuzzy
+msgid "UserBlendshape5"
+msgstr "Blendshapes (Interpolación de Formas)"
+
+#: ../../source/create/avatars/avatar-standards.md:246
+#, fuzzy
+msgid "UserBlendshape6"
+msgstr "Blendshapes (Interpolación de Formas)"
+
+#: ../../source/create/avatars/avatar-standards.md:247
+#, fuzzy
+msgid "UserBlendshape7"
+msgstr "Blendshapes (Interpolación de Formas)"
+
+#: ../../source/create/avatars/avatar-standards.md:248
+#, fuzzy
+msgid "UserBlendshape8"
+msgstr "Blendshapes (Interpolación de Formas)"
+
+#: ../../source/create/avatars/avatar-standards.md:249
+#, fuzzy
+msgid "UserBlendshape9"
+msgstr "Blendshapes (Interpolación de Formas)"
+
+#: ../../source/create/avatars/avatar-standards.md:252
 msgid "Other Considerations"
 msgstr "Otras Consideraciones"
 
-#: ../../source/create/avatars/avatar-standards.md:169
+#: ../../source/create/avatars/avatar-standards.md:254
 msgid "File Optimization"
 msgstr "Optimización de Archivos"
 
-#: ../../source/create/avatars/avatar-standards.md:170
+#: ../../source/create/avatars/avatar-standards.md:255
 msgid ""
 "Content creators will have limited bandwidth on servers (read small print"
 " on any unlimited host plans) so optimization is important, for both the "
@@ -2714,7 +3015,7 @@ msgstr ""
 "servidores por carga. De manera óptima, mantén tus modelos de avatar por "
 "debajo de 20 MB."
 
-#: ../../source/create/avatars/avatar-standards.md:173
+#: ../../source/create/avatars/avatar-standards.md:258
 msgid ""
 "We recommend that you try to keep total size of all the textures per "
 "avatar below 8 MB. They should be always smaller than 1024x1024, unless "
@@ -2735,11 +3036,11 @@ msgstr ""
 " en un tamaño más pequeño que su rugosidad para obtener el mejor detalle "
 "a través del reflejo de la luz en lugar de la variación de color."
 
-#: ../../source/create/avatars/avatar-standards.md:175
+#: ../../source/create/avatars/avatar-standards.md:260
 msgid "Avatar Collision Hulls"
 msgstr "Cascos de Colisión de Avatar"
 
-#: ../../source/create/avatars/avatar-standards.md:177
+#: ../../source/create/avatars/avatar-standards.md:262
 msgid ""
 "When you wear different avatars, you'll notice that each avatar has a "
 "different collision shape or _collision hull_. The collision hull is the "
@@ -2751,7 +3052,7 @@ msgstr ""
 "área invisible alrededor de tu avatar que se usa para detectar cuando "
 "otros avatares o entidades chocan contigo."
 
-#: ../../source/create/avatars/avatar-standards.md:179
+#: ../../source/create/avatars/avatar-standards.md:264
 msgid ""
 "Depending on the avatar's design, the collision hulls can be very large "
 "or small. This occurs because Vircadia analyzes the shape of the avatar's"
@@ -2770,11 +3071,11 @@ msgstr ""
 " colisión muy grande. Para reducir el tamaño del casco de colisión, puede"
 " agregar uniones de esqueleto a la cola de tu avatar."
 
-#: ../../source/create/avatars/avatar-standards.md:182
+#: ../../source/create/avatars/avatar-standards.md:267
 msgid "Avatar Thumbnails"
 msgstr "Miniaturas de Avatar"
 
-#: ../../source/create/avatars/avatar-standards.md:184
+#: ../../source/create/avatars/avatar-standards.md:269
 msgid ""
 "The Avatar app will look for a thumbnail with a .jpg extension with the "
 "same name and at the same URL location as your avatar's. For example, if "
@@ -2786,18 +3087,18 @@ msgstr ""
 "ejemplo, si tu avatar está alojado en `https://vircadia.dev/avatar.fbx`, "
 "luego buscará una miniatura en `https://vircadia.dev/avatar.jpg`."
 
-#: ../../source/create/avatars/avatar-standards.md:189
+#: ../../source/create/avatars/avatar-standards.md:274
 #: ../../source/create/avatars/blender-tutorial.md:56
 #: ../../source/create/avatars/fuse-tutorial.md:26
 #: ../../source/create/avatars/mixamo-tutorial.md:29
 msgid "[Create Your Own Avatar](create-avatars)"
 msgstr "[Crea Tu Propio Avatar](create-avatars)"
 
-#: ../../source/create/avatars/avatar-standards.md:190
+#: ../../source/create/avatars/avatar-standards.md:275
 msgid "[Find and Use an Existing Avatar](find-avatars)"
 msgstr "[Encontrar y Usar un Avatar Existente](find-avatars)"
 
-#: ../../source/create/avatars/avatar-standards.md:191
+#: ../../source/create/avatars/avatar-standards.md:276
 msgid "[Add Flow to Your Avatar](add-flow)"
 msgstr "[Agrega Flujo a Tu Avatar](add-flow)"
 
@@ -6302,8 +6603,9 @@ msgid ""
 "boombox/master/boomBoxEntityScript.js>`_ into the 'Script' field."
 msgstr ""
 "Desplázate hacia abajo hasta la sección \"Behavior\" y pega la `URL del "
-"script de la entidad cliente <https://raw.githubusercontent.com/misslivirose/"
-"happy-boombox/master/boomBoxEntityScript.js>`_ dentro del campo \"Script\"."
+"script de la entidad cliente "
+"<https://raw.githubusercontent.com/misslivirose/happy-"
+"boombox/master/boomBoxEntityScript.js>`_ dentro del campo \"Script\"."
 
 #: ../../source/create/entities/boombox-tutorial.rst:140
 msgid ""
@@ -6659,12 +6961,13 @@ msgid ""
 " but you can replace this texture with your own to create your desired "
 "effect."
 msgstr ""
-"Las entidades de partículas se utilizan para crear efectos que se componen "
-"de partes más pequeñas, como humo, confeti u hojas que caen. El efecto y la "
-"apariencia de la entidad se definen por su textura. La textura por defecto "
-"es una `tenue textura de humo <https://cdn-1.vircadia.com/us-e-1/Bazaar/"
-"Assets/Textures/Defaults/Interface/default_particle.png>`_, pero puedes "
-"reemplazar esta textura con la tuya para crear el efecto deseado."
+"Las entidades de partículas se utilizan para crear efectos que se "
+"componen de partes más pequeñas, como humo, confeti u hojas que caen. El "
+"efecto y la apariencia de la entidad se definen por su textura. La "
+"textura por defecto es una `tenue textura de humo "
+"<https://cdn-1.vircadia.com/us-e-1/Bazaar/Assets/Textures/Defaults/Interface/default_particle.png>`_,"
+" pero puedes reemplazar esta textura con la tuya para crear el efecto "
+"deseado."
 
 #: ../../source/create/entities/create-fountain.rst:27
 msgid "To create your smoke fountain using a particle entity:"
@@ -6952,16 +7255,16 @@ msgid ""
 "Change the color of the cube to teal (Red = '0', Green = '128', Blue = "
 "'128')."
 msgstr ""
-"Cambia el color del cubo a verde azulado (Red = '0', Green = '128', Blue = "
-"'128')."
+"Cambia el color del cubo a verde azulado (Red = '0', Green = '128', Blue "
+"= '128')."
 
 #: ../../source/create/entities/create-spotlight.md:27
 msgid ""
 "Change the dimensions of the cube to make it bigger and look more like a "
 "wall. We've used the following local dimensions:"
 msgstr ""
-"Cambia las dimensiones del cubo para hacerlo más grande y parecerse más a "
-"una pared. Hemos usado las siguientes dimensiones locales:"
+"Cambia las dimensiones del cubo para hacerlo más grande y parecerse más a"
+" una pared. Hemos usado las siguientes dimensiones locales:"
 
 #: ../../source/create/entities/create-spotlight.md:28
 msgid "X = '0.1300'"
@@ -6985,8 +7288,7 @@ msgstr "Crear el Foco Dorado"
 
 #: ../../source/create/entities/create-spotlight.md:36
 msgid "Create and edit the light entity to get a soft gold spotlight."
-msgstr ""
-"Crea y edita la entidad de luz para conseguir un foco de luz dorada suave."
+msgstr "Crea y edita la entidad de luz para conseguir un foco de luz dorada suave."
 
 #: ../../source/create/entities/create-spotlight.md:44
 msgid "Click the 'Light' icon to create the light entity."
@@ -7000,20 +7302,20 @@ msgid ""
 " all directions equally. It is meant for general area lighting as it has "
 "a bright point in the middle and fades as it radiates out."
 msgstr ""
-"Agarra y mueve la entidad a la parte superior y centro de la pared. Notarás "
-"que hay una luz blanca brillando en la pared. La luz es pequeña debido al "
-"bajo brillo. Este tipo de luz es una luz puntual y emana en todas "
-"direcciones por igual. Está destinado a la iluminación de áreas en general, "
-"ya que tiene un punto brillante en el medio y se desvanece a medida que se "
-"irradia."
+"Agarra y mueve la entidad a la parte superior y centro de la pared. "
+"Notarás que hay una luz blanca brillando en la pared. La luz es pequeña "
+"debido al bajo brillo. Este tipo de luz es una luz puntual y emana en "
+"todas direcciones por igual. Está destinado a la iluminación de áreas en "
+"general, ya que tiene un punto brillante en el medio y se desvanece a "
+"medida que se irradia."
 
 #: ../../source/create/entities/create-spotlight.md:46
 msgid ""
 "Go to the 'Properties' tab and modify the light entity to make a gold "
 "spotlight:"
 msgstr ""
-"Ve a la pestaña de \"Properties\" y modifica la entidad de luz para hacer un "
-"foco dorado:"
+"Ve a la pestaña de \"Properties\" y modifica la entidad de luz para hacer"
+" un foco dorado:"
 
 #: ../../source/create/entities/create-spotlight.md:47
 msgid "Change the color of the light to gold (R = '255', G = '215', B = '0')."
@@ -7026,8 +7328,8 @@ msgid ""
 "larger area and is much brighter."
 msgstr ""
 "Puedes hacer que la entidad de luz sea más brillante cambiando su "
-"intensidad. Cambia la \"Intensity\" a \"100\". Verás que la luz ahora cubre "
-"un área grande y es mucho más brillante."
+"intensidad. Cambia la \"Intensity\" a \"100\". Verás que la luz ahora "
+"cubre un área grande y es mucho más brillante."
 
 #: ../../source/create/entities/create-spotlight.md:49
 msgid ""
@@ -7038,20 +7340,20 @@ msgid ""
 " the light at which the intensity is reduced by '25%'. Change this value "
 "to '0.5'."
 msgstr ""
-"Puedes modificar el \"Fall-off Radius\" (Radio de caída) de la entidad de "
-"luz para que se atenúe gradualmente hacia los bordes. El \"Fall-off Radius\" "
-"define la forma de curvatura de la luz. Un radio más grande simulará una luz "
-"más grande, la cual hará que se caiga (fall-off), o atenúe, más "
-"gradualmente. Es la distancia de la luz a la que la intensidad se reduce en "
-"un \"25%\". Cambia este valor a '0.5'."
+"Puedes modificar el \"Fall-off Radius\" (Radio de caída) de la entidad de"
+" luz para que se atenúe gradualmente hacia los bordes. El \"Fall-off "
+"Radius\" define la forma de curvatura de la luz. Un radio más grande "
+"simulará una luz más grande, la cual hará que se caiga (fall-off), o "
+"atenúe, más gradualmente. Es la distancia de la luz a la que la "
+"intensidad se reduce en un \"25%\". Cambia este valor a '0.5'."
 
 #: ../../source/create/entities/create-spotlight.md:50
 msgid ""
 "Select the 'Spotlight' checkbox to convert the light entity to a "
 "spotlight."
 msgstr ""
-"Selecciona el checkbox \"Spotlight\" para convertir la entidad de luz en un "
-"foco."
+"Selecciona el checkbox \"Spotlight\" para convertir la entidad de luz en "
+"un foco."
 
 #: ../../source/create/entities/create-spotlight.md:51
 msgid ""
@@ -7060,17 +7362,18 @@ msgid ""
 " spotlight radius. You should see the beam tighten get smaller."
 msgstr ""
 "Cambia el \"Spotlight Cut-off\" (Límite de foco) a '50'. Esta propiedad "
-"determina el radio del foco. Un valor límite más alto se corresponde con un "
-"radio de foco más grande. Deberías ver que el haz de tensión se vuelve más "
-"pequeño."
+"determina el radio del foco. Un valor límite más alto se corresponde con "
+"un radio de foco más grande. Deberías ver que el haz de tensión se vuelve"
+" más pequeño."
 
 #: ../../source/create/entities/create-spotlight.md:52
 msgid ""
 "Change the 'Spotlight Exponent' to '5'. This property affects the "
 "softness of the beam. You should see the edge of the beam soften."
 msgstr ""
-"Cambia el \"Spotlight Exponent\" (Exponente de Foco) a '5'. Esta propiedad "
-"afecta la suavidad del haz. Deberías ver que el borde del haz se ablanda."
+"Cambia el \"Spotlight Exponent\" (Exponente de Foco) a '5'. Esta "
+"propiedad afecta la suavidad del haz. Deberías ver que el borde del haz "
+"se ablanda."
 
 #: ../../source/create/entities/create-spotlight.md:53
 msgid ""
@@ -7079,10 +7382,10 @@ msgid ""
 "this can be used for a soft lighting effect over paintings or wall "
 "hangings in your world.  ![](_images/spotlight-prop.PNG)"
 msgstr ""
-"Gira el foco para que mire hacia abajo de la pared cambiando el valor \"Local"
-" Rotation's\" de X a '-90.0000'. Un foco colocado de esta manera puede ser "
-"usado como un efecto de iluminación suave sobre cuadros o tapices de pared "
-"en tu mundo. ![](_images/spotlight-prop.PNG)"
+"Gira el foco para que mire hacia abajo de la pared cambiando el valor "
+"\"Local Rotation's\" de X a '-90.0000'. Un foco colocado de esta manera "
+"puede ser usado como un efecto de iluminación suave sobre cuadros o "
+"tapices de pared en tu mundo. ![](_images/spotlight-prop.PNG)"
 
 #: ../../source/create/entities/create-spotlight.md:56
 msgid ""
@@ -7113,9 +7416,9 @@ msgid ""
 "displaying a YouTube channel. You can watch videos in Vircadia using this"
 " web entity."
 msgstr ""
-"En este tutorial, aprenderás cómo funcionan las entidades web creando una "
-"que muestre un canal de YouTube. Puedes ver videos en Vircadia usando esta "
-"entidad web."
+"En este tutorial, aprenderás cómo funcionan las entidades web creando una"
+" que muestre un canal de YouTube. Puedes ver videos en Vircadia usando "
+"esta entidad web."
 
 #: ../../source/create/entities/display-youtube.md:8
 msgid "[Create a Web Entity](#create-a-web-entity)"
@@ -7137,9 +7440,9 @@ msgid ""
 "choosing. A web entity lets you access the internet from inside your "
 "domain."
 msgstr ""
-"Una entidad web es un objeto plano en el que puedes ver cualquier sitio web "
-"que elijas. Una entidad web te permite acceder a internet desde dentro de tu "
-"dominio."
+"Una entidad web es un objeto plano en el que puedes ver cualquier sitio "
+"web que elijas. Una entidad web te permite acceder a internet desde "
+"dentro de tu dominio."
 
 #: ../../source/create/entities/display-youtube.md:22
 msgid "To create a web entity:"
@@ -7150,8 +7453,8 @@ msgid ""
 "Click the 'Web' icon to create a web entity. By default, a web entity "
 "always displays Vircadia's home page."
 msgstr ""
-"Haz click en el ícono \"Web\" para crear una entidad web. Por defecto, una "
-"entidad web siempre muestra la página principal de Vircadia."
+"Haz click en el ícono \"Web\" para crear una entidad web. Por defecto, "
+"una entidad web siempre muestra la página principal de Vircadia."
 
 #: ../../source/create/entities/display-youtube.md:32
 msgid "Display Vircadia's YouTube Channel"
@@ -7159,8 +7462,7 @@ msgstr "Mostrar el Canal de YouTube de Vircadia"
 
 #: ../../source/create/entities/display-youtube.md:34
 msgid "You can make the web entity display Vircadia's YouTube channel."
-msgstr ""
-"Puedes hacer que la entidad web muestre el canal de YouTube de Vircadia."
+msgstr "Puedes hacer que la entidad web muestre el canal de YouTube de Vircadia."
 
 #: ../../source/create/entities/display-youtube.md:37
 msgid "Select your web entity and go to the 'Properties' tab."
@@ -7173,8 +7475,8 @@ msgid ""
 "lNCjP3xg. You should see the new page as soon as you hit 'Enter'."
 msgstr ""
 "Desplázate hacia abajo hasta que veas la opción \"Source URL\". Entra al "
-"canal de Youtube de Vircadia, URL: https://www.youtube.com/channel/"
-"UC5gVObAP0ANbXr-lNCjP3xg. Deberías ver la nueva página tan pronto como "
+"canal de Youtube de Vircadia, URL: https://www.youtube.com/channel"
+"/UC5gVObAP0ANbXr-lNCjP3xg. Deberías ver la nueva página tan pronto como "
 "presiones \"Enter\"."
 
 #: ../../source/create/entities/display-youtube.md:40
@@ -7188,10 +7490,10 @@ msgid ""
 "#the-create-app>`_ and either select the entity or find it in the Entity "
 "List."
 msgstr ""
-"Puedes editar el tamaño, el color, la posición y la rotación de una entidad "
-"usando tu mouse o trackpad. Para editar una entidad, abre la `aplicación "
-"Crear <../tools.html#the-create-app>`_ y selecciona la entidad o búscala en "
-"la lista de entidades."
+"Puedes editar el tamaño, el color, la posición y la rotación de una "
+"entidad usando tu mouse o trackpad. Para editar una entidad, abre la "
+"`aplicación Crear <../tools.html#the-create-app>`_ y selecciona la "
+"entidad o búscala en la lista de entidades."
 
 #: ../../source/create/entities/entity-appearance.rst:8
 #: ../../source/create/entities/entity-behavior.rst:8
@@ -7213,8 +7515,8 @@ msgid ""
 msgstr ""
 "Números: Al usar el control deslizante (slider), se aplicará un "
 "desplazamiento (offset) a cada uno de los valores originales. Cuando se "
-"escribe, el nuevo valor reemplazará los valores originales de las entidades "
-"seleccionadas."
+"escribe, el nuevo valor reemplazará los valores originales de las "
+"entidades seleccionadas."
 
 #: ../../source/create/entities/entity-appearance.rst:11
 #: ../../source/create/entities/entity-behavior.rst:11
@@ -7237,10 +7539,11 @@ msgid ""
 "the 'Color' settings. Here are the different color settings you can "
 "configure:"
 msgstr ""
-"Puedes cambiar manualmente el color de la mayoría de tipos de entidad en la "
-"aplicación **Crear**. Con la entidad seleccionada, haz click en \"Properties"
-"\" y desplázate hacia abajo hasta la configuración \"Color\". Aquí están las "
-"diferentes configuraciones de color que puedes configurar:"
+"Puedes cambiar manualmente el color de la mayoría de tipos de entidad en "
+"la aplicación **Crear**. Con la entidad seleccionada, haz click en "
+"\"Properties\" y desplázate hacia abajo hasta la configuración \"Color\"."
+" Aquí están las diferentes configuraciones de color que puedes "
+"configurar:"
 
 #: ../../source/create/entities/entity-appearance.rst:26
 #: ../../source/create/entities/entity-appearance.rst:75
@@ -7311,9 +7614,9 @@ msgid ""
 "The color of the lighting in the zone. Select 'Inherit' to keep the "
 "lighting of the domain, or 'Off' to remove all lighting."
 msgstr ""
-"El color de la iluminación de la zona. Selecciona \"Inherit\" para mantener "
-"la iluminación del dominio, o \"off\" (el apagado) para eliminar toda la "
-"iluminación."
+"El color de la iluminación de la zona. Selecciona \"Inherit\" para "
+"mantener la iluminación del dominio, o \"off\" (el apagado) para eliminar"
+" toda la iluminación."
 
 #: ../../source/create/entities/entity-appearance.rst:36
 #: ../../source/create/entities/entity-appearance.rst:39
@@ -7333,8 +7636,8 @@ msgid ""
 "The color of the ceiling in the zone. Select 'Inherit' to keep the color "
 "of the domain, or 'Off' to remove all color."
 msgstr ""
-"El color del techo en la zona. Selecciona \"Inherit\" para mantener el color "
-"del dominio, o \"off\" (desactivado) para eliminar todo el color."
+"El color del techo en la zona. Selecciona \"Inherit\" para mantener el "
+"color del dominio, o \"off\" (desactivado) para eliminar todo el color."
 
 #: ../../source/create/entities/entity-appearance.rst:42
 #: ../../source/create/entities/zone-entity.rst:37
@@ -7365,8 +7668,8 @@ msgstr "*Haze* > Glare Color"
 #: ../../source/create/entities/entity-appearance.rst:47
 msgid "When Haze is turned on, the color of the glare based on the key light."
 msgstr ""
-"Cuando se enciende Haze (neblina), el color del resplandor se basa en la luz "
-"de la tecla."
+"Cuando se enciende Haze (neblina), el color del resplandor se basa en la "
+"luz de la tecla."
 
 #: ../../source/create/entities/entity-appearance.rst:50
 #: ../../source/create/entities/zone-entity.rst:42
@@ -7387,8 +7690,8 @@ msgid ""
 "As the particle moves, sets the color of the particle at the start, "
 "middle, and finish."
 msgstr ""
-"A medida que la partícula se mueve, establece el color de la partícula al "
-"principio, en el medio y al final."
+"A medida que la partícula se mueve, establece el color de la partícula al"
+" principio, en el medio y al final."
 
 #: ../../source/create/entities/entity-appearance.rst:52
 #: ../../source/create/entities/entity-appearance.rst:55
@@ -12144,3 +12447,4 @@ msgstr ""
 #~ "on](../explore/personalize/add-wearables) and adopt"
 #~ " your new look."
 #~ msgstr ""
+

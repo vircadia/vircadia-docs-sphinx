@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-08-22 20:46+0000\n"
+"POT-Creation-Date: 2021-08-28 20:20+0000\n"
 "PO-Revision-Date: 2021-02-10 00:46+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
 "Language: de\n"
@@ -311,7 +311,7 @@ msgstr ""
 #: ../../source/create/3d-models/get-model.rst:74
 #: ../../source/create/3d-models/get-model.rst:77
 #: ../../source/create/3d-models/pbr-materials-guide.rst:27
-#: ../../source/create/avatars/avatar-standards.md:172
+#: ../../source/create/avatars/avatar-standards.md:257
 msgid "Textures"
 msgstr ""
 
@@ -635,7 +635,7 @@ msgstr ""
 #: ../../source/create/3d-models/pbr-materials-guide.rst:153
 #: ../../source/create/applications.rst:297
 #: ../../source/create/avatars/add-flow.rst:127
-#: ../../source/create/avatars/avatar-standards.md:187
+#: ../../source/create/avatars/avatar-standards.md:272
 #: ../../source/create/avatars/blender-tutorial.md:52
 #: ../../source/create/avatars/create-avatars.rst:76
 #: ../../source/create/avatars/custom-animations.rst:269
@@ -2151,14 +2151,299 @@ msgid "Here is an example of modifying your blendshapes in your FST file:"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:167
-msgid "Other Considerations"
+msgid "**ReadyPlayerMe Blendshapes**"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:169
+msgid ""
+"ReadyPlayerMe blendshapes are converted into Vircadia blendshapes "
+"automatically."
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:171
+msgid "**Unsupported Blendshapes**"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:173
+msgid ""
+"To utilize blendshapes present on avatars, they must match the "
+"blendshapes below. Alternatively, an .fst file can be used to remap the "
+"blendshapes to any of the ones below."
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:175
+msgid "**Eye Blendshapes**"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:177
+msgid "EyeBlink_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:178
+msgid "EyeBlink_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:179
+msgid "EyeSquint_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:180
+msgid "EyeSquint_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:181
+msgid "EyeDown_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:182
+msgid "EyeDown_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:183
+msgid "EyeIn_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:184
+msgid "EyeIn_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:185
+msgid "EyeOpen_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:186
+msgid "EyeOpen_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:187
+msgid "EyeOut_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:188
+msgid "EyeOut_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:189
+msgid "EyeUp_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:190
+msgid "EyeUp_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:191
+msgid "BrowsD_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:192
+msgid "BrowsD_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:193
+msgid "BrowsU_C"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:194
+msgid "BrowsU_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:195
+msgid "BrowsU_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:197
+msgid "**Jaw Blendshapes**"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:199
+msgid "JawFwd"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:200
+msgid "JawLeft"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:201
+msgid "JawOpen"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:202
+msgid "JawRight"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:203
+msgid "MouthLeft"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:204
+msgid "MouthRight"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:205
+msgid "MouthFrown_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:206
+msgid "MouthFrown_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:207
+msgid "MouthSmile_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:208
+msgid "MouthSmile_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:209
+msgid "MouthDimple_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:210
+msgid "MouthDimple_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:212
+msgid "**Lip Blendshapes**"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:214
+msgid "LipsStretch_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:215
+msgid "LipsStretch_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:216
+msgid "LipsUpperClose"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:217
+msgid "LipsLowerClose"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:218
+msgid "LipsFunnel"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:219
+msgid "LipsPucker"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:220
+msgid "Puff"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:222
+msgid "**Mouth, Cheek and User Blendshapes**"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:224
+msgid "CheekSquint_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:225
+msgid "CheekSquint_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:227
+msgid "MouthClose"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:228
+msgid "MouthUpperUp_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:229
+msgid "MouthUpperUp_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:230
+msgid "MouthLowerDown_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:231
+msgid "MouthLowerDown_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:232
+msgid "MouthPress_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:233
+msgid "MouthPress_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:234
+msgid "MouthShrugLower"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:235
+msgid "MouthShrugUpper"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:236
+msgid "NoseSneer_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:237
+msgid "NoseSneer_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:238
+msgid "TongueOut"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:240
+msgid "UserBlendshape0"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:241
+msgid "UserBlendshape1"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:242
+msgid "UserBlendshape2"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:243
+msgid "UserBlendshape3"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:244
+msgid "UserBlendshape4"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:245
+msgid "UserBlendshape5"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:246
+msgid "UserBlendshape6"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:247
+msgid "UserBlendshape7"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:248
+msgid "UserBlendshape8"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:249
+msgid "UserBlendshape9"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:252
+msgid "Other Considerations"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:254
 msgid "File Optimization"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:170
+#: ../../source/create/avatars/avatar-standards.md:255
 msgid ""
 "Content creators will have limited bandwidth on servers (read small print"
 " on any unlimited host plans) so optimization is important, for both the "
@@ -2167,7 +2452,7 @@ msgid ""
 "Optimally, keep your avatar models under 20 MB."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:173
+#: ../../source/create/avatars/avatar-standards.md:258
 msgid ""
 "We recommend that you try to keep total size of all the textures per "
 "avatar below 8 MB. They should be always smaller than 1024x1024, unless "
@@ -2179,11 +2464,11 @@ msgid ""
 " instead of color variation."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:175
+#: ../../source/create/avatars/avatar-standards.md:260
 msgid "Avatar Collision Hulls"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:177
+#: ../../source/create/avatars/avatar-standards.md:262
 msgid ""
 "When you wear different avatars, you'll notice that each avatar has a "
 "different collision shape or _collision hull_. The collision hull is the "
@@ -2191,7 +2476,7 @@ msgid ""
 "other avatars or entities collide with you."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:179
+#: ../../source/create/avatars/avatar-standards.md:264
 msgid ""
 "Depending on the avatar's design, the collision hulls can be very large "
 "or small. This occurs because Vircadia analyzes the shape of the avatar's"
@@ -2202,11 +2487,11 @@ msgid ""
 "collision hull, you can add skeleton joints to your avatar's tail."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:182
+#: ../../source/create/avatars/avatar-standards.md:267
 msgid "Avatar Thumbnails"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:184
+#: ../../source/create/avatars/avatar-standards.md:269
 msgid ""
 "The Avatar app will look for a thumbnail with a .jpg extension with the "
 "same name and at the same URL location as your avatar's. For example, if "
@@ -2214,18 +2499,18 @@ msgid ""
 "look for a thumbnail at `https://vircadia.dev/avatar.jpg`."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:189
+#: ../../source/create/avatars/avatar-standards.md:274
 #: ../../source/create/avatars/blender-tutorial.md:56
 #: ../../source/create/avatars/fuse-tutorial.md:26
 #: ../../source/create/avatars/mixamo-tutorial.md:29
 msgid "[Create Your Own Avatar](create-avatars)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:190
+#: ../../source/create/avatars/avatar-standards.md:275
 msgid "[Find and Use an Existing Avatar](find-avatars)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:191
+#: ../../source/create/avatars/avatar-standards.md:276
 msgid "[Add Flow to Your Avatar](add-flow)"
 msgstr ""
 
