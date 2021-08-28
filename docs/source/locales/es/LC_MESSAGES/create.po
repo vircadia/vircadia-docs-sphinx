@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-08-22 20:46+0000\n"
+"PO-Revision-Date: 2021-08-28 05:38+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/create/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/create/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -7114,18 +7115,23 @@ msgid ""
 "displaying a YouTube channel. You can watch videos in Vircadia using this"
 " web entity."
 msgstr ""
+"En este tutorial, aprenderás cómo funcionan las entidades web creando una "
+"que muestre un canal de YouTube. Puedes ver videos en Vircadia usando esta "
+"entidad web."
 
 #: ../../source/create/entities/display-youtube.md:8
 msgid "[Create a Web Entity](#create-a-web-entity)"
-msgstr ""
+msgstr "[Crear una Entidad Web](#create-a-web-entity)"
 
 #: ../../source/create/entities/display-youtube.md:9
 msgid "[Display Vircadia's YouTube Channel](#display-vircadia-s-youtube-channel)"
 msgstr ""
+"[Mostrar el Canal de YouTube de Vircadia](#display-vircadia-s-youtube-"
+"channel)"
 
 #: ../../source/create/entities/display-youtube.md:18
 msgid "Create a Web Entity"
-msgstr ""
+msgstr "Crear una Entidad Web"
 
 #: ../../source/create/entities/display-youtube.md:20
 msgid ""
@@ -7133,28 +7139,34 @@ msgid ""
 "choosing. A web entity lets you access the internet from inside your "
 "domain."
 msgstr ""
+"Una entidad web es un objeto plano en el que puedes ver cualquier sitio web "
+"que elijas. Una entidad web te permite acceder a internet desde dentro de tu "
+"dominio."
 
 #: ../../source/create/entities/display-youtube.md:22
 msgid "To create a web entity:"
-msgstr ""
+msgstr "Para crear una entidad web:"
 
 #: ../../source/create/entities/display-youtube.md:25
 msgid ""
 "Click the 'Web' icon to create a web entity. By default, a web entity "
 "always displays Vircadia's home page."
 msgstr ""
+"Haz click en el ícono \"Web\" para crear una entidad web. Por defecto, una "
+"entidad web siempre muestra la página principal de Vircadia."
 
 #: ../../source/create/entities/display-youtube.md:32
 msgid "Display Vircadia's YouTube Channel"
-msgstr ""
+msgstr "Mostrar el Canal de YouTube de Vircadia"
 
 #: ../../source/create/entities/display-youtube.md:34
 msgid "You can make the web entity display Vircadia's YouTube channel."
 msgstr ""
+"Puedes hacer que la entidad web muestre el canal de YouTube de Vircadia."
 
 #: ../../source/create/entities/display-youtube.md:37
 msgid "Select your web entity and go to the 'Properties' tab."
-msgstr ""
+msgstr "Selecciona tu entidad web y ve a la pestaña \"Properties\"."
 
 #: ../../source/create/entities/display-youtube.md:38
 msgid ""
@@ -7162,10 +7174,14 @@ msgid ""
 "YouTube channel URL: https://www.youtube.com/channel/UC5gVObAP0ANbXr-"
 "lNCjP3xg. You should see the new page as soon as you hit 'Enter'."
 msgstr ""
+"Desplázate hacia abajo hasta que veas la opción \"Source URL\". Entra al "
+"canal de Youtube de Vircadia, URL: https://www.youtube.com/channel/"
+"UC5gVObAP0ANbXr-lNCjP3xg. Deberías ver la nueva página tan pronto como "
+"presiones \"Enter\"."
 
 #: ../../source/create/entities/display-youtube.md:40
 msgid "![](_images/source-url.PNG) ![](_images/youtube-web-entity.PNG)"
-msgstr ""
+msgstr "![](_images/source-url.PNG) ![](_images/youtube-web-entity.PNG)"
 
 #: ../../source/create/entities/entity-appearance.rst:5
 msgid ""
@@ -7174,6 +7190,10 @@ msgid ""
 "#the-create-app>`_ and either select the entity or find it in the Entity "
 "List."
 msgstr ""
+"Puedes editar el tamaño, el color, la posición y la rotación de una entidad "
+"usando tu mouse o trackpad. Para editar una entidad, abre la `aplicación "
+"Crear <../tools.html#the-create-app>`_ y selecciona la entidad o búscala en "
+"la lista de entidades."
 
 #: ../../source/create/entities/entity-appearance.rst:8
 #: ../../source/create/entities/entity-behavior.rst:8
@@ -7182,6 +7202,8 @@ msgid ""
 "You can select and edit multiple entities at once. The behavior will be "
 "different based on the type of property you'd like to set:"
 msgstr ""
+"Puedes seleccionar y editar varias entidades a la vez. El comportamiento "
+"será diferente según el tipo de propiedad que te gustaría establecer:"
 
 #: ../../source/create/entities/entity-appearance.rst:10
 #: ../../source/create/entities/entity-behavior.rst:10
@@ -7191,6 +7213,10 @@ msgid ""
 "original values. When typed in, the new value will replace the original "
 "values for the selected entities."
 msgstr ""
+"Números: Al usar el control deslizante (slider), se aplicará un "
+"desplazamiento (offset) a cada uno de los valores originales. Cuando se "
+"escribe, el nuevo valor reemplazará los valores originales de las entidades "
+"seleccionadas."
 
 #: ../../source/create/entities/entity-appearance.rst:11
 #: ../../source/create/entities/entity-behavior.rst:11
@@ -7199,10 +7225,12 @@ msgid ""
 "All other field types (checkboxes, input fields, etc): The new value will"
 " replace the original values for the selected entities."
 msgstr ""
+"Todos los demás tipos de campo (checkboxes, input fields, etc): El nuevo "
+"valor reemplazará los valores originales de las entidades seleccionadas."
 
 #: ../../source/create/entities/entity-appearance.rst:21
 msgid "Change the Color of an Entity"
-msgstr ""
+msgstr "Cambiar el Color de una Entidad"
 
 #: ../../source/create/entities/entity-appearance.rst:23
 msgid ""
@@ -7211,76 +7239,83 @@ msgid ""
 "the 'Color' settings. Here are the different color settings you can "
 "configure:"
 msgstr ""
+"Puedes cambiar manualmente el color de la mayoría de tipos de entidad en la "
+"aplicación **Crear**. Con la entidad seleccionada, haz click en \"Properties"
+"\" y desplázate hacia abajo hasta la configuración \"Color\". Aquí están las "
+"diferentes configuraciones de color que puedes configurar:"
 
 #: ../../source/create/entities/entity-appearance.rst:26
 #: ../../source/create/entities/entity-appearance.rst:75
 #: ../../source/create/entities/entity-appearance.rst:119
 #: ../../source/create/entities/entity-appearance.rst:144
 msgid "Setting"
-msgstr ""
+msgstr "Ajustes"
 
 #: ../../source/create/entities/entity-appearance.rst:26
 #: ../../source/create/entities/entity-appearance.rst:75
 #: ../../source/create/entities/entity-appearance.rst:119
 #: ../../source/create/entities/entity-appearance.rst:144
 msgid "Supported Entity Type(s)"
-msgstr ""
+msgstr "Tipo(s) de Entidad(es) Admitida(s)"
 
 #: ../../source/create/entities/entity-appearance.rst:28
 msgid "The color of an entity."
-msgstr ""
+msgstr "El color de una entidad."
 
 #: ../../source/create/entities/entity-appearance.rst:28
 msgid "Cube, Sphere"
-msgstr ""
+msgstr "Cube, Sphere"
 
 #: ../../source/create/entities/entity-appearance.rst:30
 msgid "Light Color"
-msgstr ""
+msgstr "Light Color"
 
 #: ../../source/create/entities/entity-appearance.rst:30
 msgid "The color of the light."
-msgstr ""
+msgstr "El color de la luz."
 
 #: ../../source/create/entities/entity-appearance.rst:30
 #: ../../source/create/entities/entity-appearance.rst:86
 #: ../../source/create/entities/entity-appearance.rst:89
 msgid "Light"
-msgstr ""
+msgstr "Light"
 
 #: ../../source/create/entities/entity-appearance.rst:32
 msgid "Text Color"
-msgstr ""
+msgstr "Text Color"
 
 #: ../../source/create/entities/entity-appearance.rst:32
 msgid "The color of the text."
-msgstr ""
+msgstr "El color del texto."
 
 #: ../../source/create/entities/entity-appearance.rst:32
 #: ../../source/create/entities/entity-appearance.rst:34
 #: ../../source/create/entities/entity-appearance.rst:92
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: ../../source/create/entities/entity-appearance.rst:34
 msgid "Background Color"
-msgstr ""
+msgstr "Background Color"
 
 #: ../../source/create/entities/entity-appearance.rst:34
 msgid "The color of the background of the text."
-msgstr ""
+msgstr "El color del fondo del texto."
 
 #: ../../source/create/entities/entity-appearance.rst:36
 #: ../../source/create/entities/zone-entity.rst:31
 #: ../../source/create/entities/zone-entity.rst:54
 msgid "Key Light"
-msgstr ""
+msgstr "Key Light"
 
 #: ../../source/create/entities/entity-appearance.rst:36
 msgid ""
 "The color of the lighting in the zone. Select 'Inherit' to keep the "
 "lighting of the domain, or 'Off' to remove all lighting."
 msgstr ""
+"El color de la iluminación de la zona. Selecciona \"Inherit\" para mantener "
+"la iluminación del dominio, o \"off\" (el apagado) para eliminar toda la "
+"iluminación."
 
 #: ../../source/create/entities/entity-appearance.rst:36
 #: ../../source/create/entities/entity-appearance.rst:39
@@ -7289,65 +7324,73 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:47
 #: ../../source/create/entities/entity-appearance.rst:50
 msgid "Zone"
-msgstr ""
+msgstr "Zone"
 
 #: ../../source/create/entities/entity-appearance.rst:39
 msgid "Sky Box"
-msgstr ""
+msgstr "Sky Box"
 
 #: ../../source/create/entities/entity-appearance.rst:39
 msgid ""
 "The color of the ceiling in the zone. Select 'Inherit' to keep the color "
 "of the domain, or 'Off' to remove all color."
 msgstr ""
+"El color del techo en la zona. Selecciona \"Inherit\" para mantener el color "
+"del dominio, o \"off\" (desactivado) para eliminar todo el color."
 
 #: ../../source/create/entities/entity-appearance.rst:42
 #: ../../source/create/entities/zone-entity.rst:37
 #: ../../source/create/entities/zone-entity.rst:100
 msgid "Ambient Light"
-msgstr ""
+msgstr "Ambient Light"
 
 #: ../../source/create/entities/entity-appearance.rst:42
 msgid ""
 "Configures the amount of ambient light in the zone. Ambient light "
 "reflects on content within your zone."
 msgstr ""
+"Configura la cantidad de luz ambiental en la zona. La luz ambiental se "
+"refleja en el contenido de su zona."
 
 #: ../../source/create/entities/entity-appearance.rst:45
 msgid "*Haze* > Haze Color"
-msgstr ""
+msgstr "*Haze* > Haze Color"
 
 #: ../../source/create/entities/entity-appearance.rst:45
 msgid "When Haze is turned on, the color of the haze in the zone."
-msgstr ""
+msgstr "Cuando se enciende Haze (neblina), hay color de neblina en la zona."
 
 #: ../../source/create/entities/entity-appearance.rst:47
 msgid "*Haze* > Glare Color"
-msgstr ""
+msgstr "*Haze* > Glare Color"
 
 #: ../../source/create/entities/entity-appearance.rst:47
 msgid "When Haze is turned on, the color of the glare based on the key light."
 msgstr ""
+"Cuando se enciende Haze (neblina), el color del resplandor se basa en la luz "
+"de la tecla."
 
 #: ../../source/create/entities/entity-appearance.rst:50
 #: ../../source/create/entities/zone-entity.rst:42
 #: ../../source/create/entities/zone-entity.rst:151
 msgid "Bloom"
-msgstr ""
+msgstr "Bloom"
 
 #: ../../source/create/entities/entity-appearance.rst:50
 msgid "Configures how much the bright areas of the scene glow."
-msgstr ""
+msgstr "Configura cuánto brillan las áreas brillantes de la escena."
 
 #: ../../source/create/entities/entity-appearance.rst:52
 msgid "*Color* > Color"
-msgstr ""
+msgstr "*Color* > Color"
 
 #: ../../source/create/entities/entity-appearance.rst:52
 msgid ""
 "As the particle moves, sets the color of the particle at the start, "
 "middle, and finish."
 msgstr ""
+"A medida que la partícula se mueve, establece el color de la partícula al "
+"principio, en el medio y al final."
 
 #: ../../source/create/entities/entity-appearance.rst:52
 #: ../../source/create/entities/entity-appearance.rst:55
@@ -7356,17 +7399,19 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:98
 #: ../../source/create/entities/entity-appearance.rst:100
 msgid "Particle"
-msgstr ""
+msgstr "Particle"
 
 #: ../../source/create/entities/entity-appearance.rst:55
 msgid "*Color* > Color Spread"
-msgstr ""
+msgstr "*Color* > Color Spread"
 
 #: ../../source/create/entities/entity-appearance.rst:55
 msgid ""
 "The spread of color that each particle is given, resulting in a variety "
 "of colors."
 msgstr ""
+"La extensión del color que se le da a cada partícula, resulta en una "
+"variedad de colores."
 
 #: ../../source/create/entities/entity-appearance.rst:61
 msgid "Set the Size of an Entity"
@@ -12101,4 +12146,3 @@ msgstr ""
 #~ "on](../explore/personalize/add-wearables) and adopt"
 #~ " your new look."
 #~ msgstr ""
-

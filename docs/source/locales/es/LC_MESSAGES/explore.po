@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-06-29 00:24+0000\n"
+"PO-Revision-Date: 2021-08-28 05:38+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -283,7 +283,7 @@ msgstr ""
 #: ../../source/explore/get-started/setup-audio.rst:135
 #: ../../source/explore/get-started/vr-controls.rst:64
 msgid "Setting"
-msgstr ""
+msgstr "Ajustes"
 
 #: ../../source/explore/get-started/adjust-settings.rst:49
 #: ../../source/explore/get-started/adjust-settings.rst:93
