@@ -41,7 +41,7 @@ For the Reference pose, use a T-Pose which complies with the specifications belo
 You can download the standard Vircadia skeleton [here](http://hifi-content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx). This skeleton conforms to the specifications above.
 
 ## Skeleton
-The standard humanoid skeleton of your avatar should follow [HumanIK Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) with some modifications made for Mixamo. This skeleton system will work with the input systems already in place in Vircadia, and will allow users to use their input devices to control their avatar's arm and finger movements (if they have any). 
+The standard humanoid skeleton of your avatar should follow [HumanIK Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) with some modifications made for Mixamo. This skeleton system will work with the input systems already in place in Vircadia, and will allow users to use their input devices to control their avatar's arm and finger movements (if they have any).
 
 Vircadia avatars should match the following standard skeletal structure. Each of these joints can be animated.
 
@@ -57,17 +57,17 @@ Vircadia avatars should match the following standard skeletal structure. Each of
 The  `sim` and `flow` prefixes are reserved for flow bones, such as clothing, hair and tails. These bones should _not_ be animated by an animator. ![](_images/flow-bones.png)
 (Many thanks to Akazukin for the model Ouka Miko(櫻歌ミコ) used in this diagram!)
 
-For example, consider a full cape that surrounds the avatar: 
+For example, consider a full cape that surrounds the avatar:
 
 <div class="block">
     simBackCape1 - first bone of the cape, center back  <br />
     simBackCape# - additional bone(s) of the cape, center back  <br />
     simFrontCape1 - first bone of the cape, center front  <br />
-    simFrontCape# - additional bone(s) of the cape, center front <br /> 
+    simFrontCape# - additional bone(s) of the cape, center front <br />
     simLeftCape1 - first bone of the cape, left  <br />
-    simLeftCape# - additional bone(s) of the cape, left <br /> 
+    simLeftCape# - additional bone(s) of the cape, left <br />
     simRightCape1 - first bone of the cape, right  <br />
-    simRightCape# - additional bone(s) of the cape, right <br /> 
+    simRightCape# - additional bone(s) of the cape, right <br />
 </div>
 
 Alternatively, you can use the `flow` prefix, separating the name and joint number with an underscore. The same cape as above would look like:
@@ -103,9 +103,9 @@ Vircadia avatars support a number of blendshapes for creating different facial e
 - `EyeBlink_R`: Blicking action for the right eye.
 - `JawOpen`: Opening of the jaw.
 
-**Audio Blendshapes** 
- 
-These blendshapes are used when you speak. 
+**Audio Blendshapes**
+
+These blendshapes are used when you speak.
 
 Your eyebrows are blendshapes that react to a change in volume. They will move upwards when your voice gets louder. These include:
 
@@ -139,7 +139,7 @@ We apply a small procedural offset to the blendshape coefficients to prevent sle
 - If your eyes begin to look downward: `EyeBlink` and `EyeOpen` start changing in value. `EyeBlink` reaches a value of `0.5` at `32` degrees. `EyeOpen` will reach a value of `0.5` at 27 degrees. This will have the effect of lowering your lids as you look downward.
 
 
-Tweaks to your blendshapes can be made with a 3D modeling tool, or directly in your avatar's FST file. In the FST file, blendshapes are defined with the syntax: 
+Tweaks to your blendshapes can be made with a 3D modeling tool, or directly in your avatar's FST file. In the FST file, blendshapes are defined with the syntax:
 
 <div class="block">
     bs = [blendshape constant] = [your key/blendshape name] = [value between 0 and 1]
@@ -164,6 +164,91 @@ Here is an example of modifying your blendshapes in your FST file:
     bs = LipsUpperClose = head_BS_mouth_down = 0.1  <br />
 </div>
 
+**ReadyPlayerMe Blendshapes**
+
+ReadyPlayerMe blendshapes are converted into Vircadia blendshapes automatically.
+
+**Unsupported Blendshapes**
+
+To utilize blendshapes present on avatars, they must match the blendshapes below. Alternatively, an .fst file can be used to remap the blendshapes to any of the ones below.
+
+**Eye Blendshapes**
+
+* EyeBlink_L
+* EyeBlink_R
+* EyeSquint_L
+* EyeSquint_R
+* EyeDown_L
+* EyeDown_R
+* EyeIn_L
+* EyeIn_R
+* EyeOpen_L
+* EyeOpen_R
+* EyeOut_L
+* EyeOut_R
+* EyeUp_L
+* EyeUp_R
+* BrowsD_L
+* BrowsD_R
+* BrowsU_C
+* BrowsU_L
+* BrowsU_R
+
+**Jaw Blendshapes**
+
+* JawFwd
+* JawLeft
+* JawOpen
+* JawRight
+* MouthLeft
+* MouthRight
+* MouthFrown_L
+* MouthFrown_R
+* MouthSmile_L
+* MouthSmile_R
+* MouthDimple_L
+* MouthDimple_R
+
+**Lip Blendshapes**
+
+* LipsStretch_L
+* LipsStretch_R
+* LipsUpperClose
+* LipsLowerClose
+* LipsFunnel
+* LipsPucker
+* Puff
+
+**Mouth, Cheek and User Blendshapes**
+
+* CheekSquint_L
+* CheekSquint_R
+
+* MouthClose
+* MouthUpperUp_L
+* MouthUpperUp_R
+* MouthLowerDown_L
+* MouthLowerDown_R
+* MouthPress_L
+* MouthPress_R
+* MouthShrugLower
+* MouthShrugUpper
+* NoseSneer_L
+* NoseSneer_R
+* TongueOut
+
+* UserBlendshape0
+* UserBlendshape1
+* UserBlendshape2
+* UserBlendshape3
+* UserBlendshape4
+* UserBlendshape5
+* UserBlendshape6
+* UserBlendshape7
+* UserBlendshape8
+* UserBlendshape9
+
+
 ## Other Considerations
 
 ### File Optimization
@@ -174,9 +259,9 @@ We recommend that you try to keep total size of all the textures per avatar belo
 
 ### Avatar Collision Hulls
 
-When you wear different avatars, you'll notice that each avatar has a different collision shape or _collision hull_. The collision hull is the invisible area around your avatar that is used to used to detect when other avatars or entities collide with you. 
+When you wear different avatars, you'll notice that each avatar has a different collision shape or _collision hull_. The collision hull is the invisible area around your avatar that is used to used to detect when other avatars or entities collide with you.
 
-Depending on the avatar's design, the collision hulls can be very large or small. This occurs because Vircadia analyzes the shape of the avatar's torso (from hips to head) and tries to find the best shape that encloses the mesh. For example, if your avatar has large hips or perhaps a fully extended tail, Vircadia thinks that the tip of the tail is part of your hips, and makes a very large collision hull.  To reduce the size of the collision hull, you can add skeleton joints to your avatar's tail. 
+Depending on the avatar's design, the collision hulls can be very large or small. This occurs because Vircadia analyzes the shape of the avatar's torso (from hips to head) and tries to find the best shape that encloses the mesh. For example, if your avatar has large hips or perhaps a fully extended tail, Vircadia thinks that the tip of the tail is part of your hips, and makes a very large collision hull.  To reduce the size of the collision hull, you can add skeleton joints to your avatar's tail.
 
 
 ### Avatar Thumbnails
