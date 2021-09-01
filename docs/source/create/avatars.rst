@@ -2,9 +2,9 @@
 Avatars
 ###########################
 
-When you first use Vircadia, you will be wearing the default avatar. Your avatar is a representation of you in the metaverse. You can make your time in Vircadia unique by creating an avatar of your own. All custom avatars must be hosted somewhere in the cloud so that Vircadia can access it. 
+When you first use Vircadia, you will be wearing the default avatar. Your avatar is a representation of you in the metaverse. You can make your time in Vircadia unique by creating an avatar of your own. All custom avatars must be hosted somewhere in the cloud so that Vircadia can access it.
 
-**In This Section:** 
+**In This Section:**
 
 .. toctree::
     :maxdepth: 2
@@ -15,7 +15,6 @@ When you first use Vircadia, you will be wearing the default avatar. Your avatar
     Package and Host Your Avatar <avatars/package-avatar>
     Add Flow to Your Avatar <avatars/add-flow>
     Customize Avatar Animations <avatars/custom-animations>
-    Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>
     Tutorial: Rig Avatars in Mixamo <avatars/mixamo-tutorial>
     Tutorial: Modify Materials and Textures with Blender <avatars/blender-tutorial>
     Tutorial: Add a Scattering Effect <avatars/scattering-tutorial>
