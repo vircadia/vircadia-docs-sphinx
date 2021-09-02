@@ -4,18 +4,21 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-13 15:03+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-09-02 01:22+0000\n"
+"Last-Translator: Nick <origamimars@gmail.com>\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/release-notes/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/release-notes.rst:7
@@ -577,7 +580,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-2-Eos.md:59
 #: ../../source/release-notes/v86-k2.md:67
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:115
 msgid "DOC-209: AudioStats JSDoc. (#16495)"
@@ -4390,7 +4393,7 @@ msgstr ""
 #: ../../source/release-notes/v85.md:56 ../../source/release-notes/v86.md:14
 #: ../../source/release-notes/v86.md:54
 msgid "Avatars"
-msgstr ""
+msgstr "Avatare"
 
 #: ../../source/release-notes/v80.md:35
 msgid ""
@@ -6097,7 +6100,7 @@ msgstr ""
 #: ../../source/release-notes/v85.md:63 ../../source/release-notes/v86.md:23
 #: ../../source/release-notes/v86.md:60
 msgid "Create"
-msgstr ""
+msgstr "Kreieren"
 
 #: ../../source/release-notes/v84.md:20
 msgid ""
@@ -9033,4 +9036,3 @@ msgstr ""
 #~ "[here](https://docs.vircadia.dev/create/materials/procedural-"
 #~ "shaders.html). (#17)"
 #~ msgstr ""
-

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-08-05 17:59+0000\n"
+"PO-Revision-Date: 2021-09-02 01:22+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
 "Language-Team: German <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/de/>\n"
@@ -3031,7 +3031,7 @@ msgstr ""
 
 #: ../../source/explore/personalize.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**In diesem Abschnitt:**"
 
 #: ../../source/explore/personalize/add-wearables.rst:2
 msgid "This document is slightly outdated. FIXME: only mentions FBX files"

@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-08-28 20:20+0000\n"
-"PO-Revision-Date: 2021-02-10 00:46+0000\n"
+"PO-Revision-Date: 2021-09-02 01:22+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/create/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/create/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -26,11 +27,11 @@ msgstr ""
 
 #: ../../source/create.rst:11 ../../source/create/avatars.rst:3
 msgid "Avatars"
-msgstr ""
+msgstr "Avatare"
 
 #: ../../source/create.rst:11 ../../source/create/wearables.md:6
 msgid "Wearables"
-msgstr ""
+msgstr "Kleidung"
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
 msgid "Entities"
@@ -40,15 +41,15 @@ msgstr ""
 #: ../../source/create/3d-models/get-model.rst:59
 #: ../../source/create/materials.rst:3
 msgid "Materials"
-msgstr ""
+msgstr "Materialien"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models.rst:3
 msgid "3D Models"
-msgstr ""
+msgstr "3D Modelle"
 
 #: ../../source/create.rst:11 ../../source/create/environments.rst:3
 msgid "Environments"
-msgstr ""
+msgstr "Umgebungen"
 
 #: ../../source/create.rst:11 ../../source/create/applications.rst:7
 msgid "Tablet Apps"
@@ -56,7 +57,7 @@ msgstr ""
 
 #: ../../source/create.rst:3
 msgid "Create"
-msgstr ""
+msgstr "Kreieren"
 
 #: ../../source/create.rst:5
 msgid ""
@@ -67,42 +68,50 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Vircadia engine is encouraged!"
 msgstr ""
+"Vircadia gibt Menschen mit den gleichen Interessen die Möglichkeit sich zu "
+"treffen, und sich zusammen kreativ auszudrücken. Wir laden Sie dazu ein, "
+"ihre Erfahrung zu personalisieren, indem Sie ihre eigenen Avatare oder "
+"eigenen Content kreieren, oder indem Sie Apps oder Skripte Entwickeln!"
 
 #: ../../source/create.rst:7
 msgid ""
 "No matter your level of expertise, Vircadia provides the tools you need "
 "to create anything you can imagine."
 msgstr ""
+"Egal wieviel Expertiese Sie haben, Vircadia bietet die Werkzeuge die Sie "
+"benötigen, um alles zu Kreieren, was Sie sich vorstellen können."
 
 #: ../../source/create.rst:9
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
 msgstr ""
+"In diesem Kapitel lernen Sie, wie Sie Kreieren, Bauen, und ihr VR Erlebnis "
+"lebendig gestalten können:"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
 msgid "Get Your 3D Model"
-msgstr ""
+msgstr "3D Modelle bekommen"
 
 #: ../../source/create/3d-models.rst:11
 msgid "Import Your 3D Model"
-msgstr ""
+msgstr "Ihre 3D Modelle importieren"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:5
 msgid "PBR Materials Guide"
-msgstr ""
+msgstr "Anleitung für PBR Materialien"
 
 #: ../../source/create/3d-models.rst:11 ../../source/create/materials.rst:9
 #: ../../source/create/materials/procedural-shaders.rst:3
 msgid "Procedural Shaders for Models and Avatars"
-msgstr ""
+msgstr "Prozess-Shader für Modelle und Avatare"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/import-animations.rst:3
 msgid "Import Animations"
-msgstr ""
+msgstr "Animationen importieren"
 
 #: ../../source/create/3d-models.rst:5
 msgid ""
@@ -111,6 +120,11 @@ msgid ""
 " You can get your 3D model by creating your own or sourcing it "
 "externally. We only support 3D models in the OBJ, FBX, and glTF formats."
 msgstr ""
+"3D Modelle sind :doc:`entities <entities>` die ein Objekt repräsentieren, "
+"das Sie ingame sehen wollen, wie zum Beispiel eine Wasser Fontäne, eine Burg "
+"oder eine Kaffee Tasse. Sie können eigene 3D Modelle verwenden, indem Sie "
+"diese selbst Erstellen, oder externe Quellen verwenden. Wir unterstützen nur "
+"Modelle in diesen Formaten: OBJ, FBX, und glTF."
 
 #: ../../source/create/3d-models.rst:7
 msgid ""
@@ -119,17 +133,23 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light as they would (approximately) in real life."
 msgstr ""
+"Das Aussehen von 3D Modellen wird von deren Materialien bestimmt. Die "
+"Materialien die in Vircadia verwendet werden können sind Physically-based "
+"Rendering (PBR). Das bedeutet, das Materialien ungefähr so viel Licht "
+"absorbieren oder reflektieren, wie im echten Leben."
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**In diesem Abschnitt:**"
 
 #: ../../source/create/3d-models/get-model.rst:5
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Vircadia."
 msgstr ""
+"Alle 3D Modelle sollten in einem von diesen Formaten sein: FBX, glTF oder "
+"OBJ. Außerdem sollten die Materialien von Vircadia unterstützt sein."
 
 #: ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -157,7 +177,7 @@ msgstr "Auf dieser Seite"
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
-msgstr ""
+msgstr "3D-Modelle von 3D-Content-Verkaufsseiten Beziehen"
 
 #: ../../source/create/3d-models/get-model.rst:14
 msgid ""
@@ -165,6 +185,9 @@ msgid ""
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
 " models from such sites:"
 msgstr ""
+"Es gibt viele 3D Content Websites, die viele Modelle enthalten, die Sie "
+"Kaufen oder kostenlos erhalten können. Denken Sie an folgendes wenn sie 3D "
+"Modelle von solchen Websites beziehen:"
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -172,6 +195,10 @@ msgid ""
 "before you use it. It is your responsibility to ensure that you have "
 "sufficient rights to use the content."
 msgstr ""
+"**Nutzungs Bedingungen Überprüfen:** Stellen Sie sicher, dass Sie die "
+"Nutzungs Bedingungen von 3D Modellen überprüfen, bevor Sie diese verwenden. "
+"Es liegt in Ihrer Verantwortung, zu überprüfen, ob Sie die Zulässigen Rechte "
+"haben um diesen Content zu verwenden."
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -180,6 +207,10 @@ msgid ""
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
 msgstr ""
+"Wenn Sie ein 3D-Modell auf ihrem eigenen Vircadia-Server zur Verfügung "
+"stellen, erhalten die Besucher die Links zu diesen Dateien auf die gleiche "
+"Weise, wie wenn sie ein Bild auf einer Website ansehen würden. Sie sollten "
+"sicher sein, dass Sie die Rechte zur Weiterverbreitung der 3D-Inhalte haben."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -187,6 +218,9 @@ msgid ""
 "textures. If that happens, first check to see if the textures are "
 "included."
 msgstr ""
+"**Materialien Überprüfen:** Es könnte passieren, die Texturen von 3D "
+"Modellen fehlen. Wenn dies der Fall ist, überprüfen Sie, ob die Texturen "
+"enthalten sind."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -194,20 +228,26 @@ msgid ""
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
+"Wenn ein Modell in Vircadia nicht korrekt geladen wird, könnenen Sie auch "
+"Fehler Informationen aus den Interface logs enthalten. `Wie finde ich die "
+"Interface log Dateien?<../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
-msgstr ""
+msgstr "Erstellen Sie Ihre eigenen 3d Modelle"
 
 #: ../../source/create/3d-models/get-model.rst:26
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
 msgstr ""
+"Sie können eigene 3d Modelle erstellen, indem Sie 3D Programme wie zum "
+"Beispiel Blender oder Maya verwenden. Benutzen Sie die Software Ihrer Wahl, "
+"solange:"
 
 #: ../../source/create/3d-models/get-model.rst:28
 msgid "The 3D model is in the FBX, glTF or OBJ format."
-msgstr ""
+msgstr "Das 3d Modell im FBX, glTF, oder OBJ Format ist."
 
 #: ../../source/create/3d-models/get-model.rst:29
 msgid ""
@@ -215,16 +255,21 @@ msgid ""
 " guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
+"Die Materialien des 3D Modells von Vircadia unterstützt werden. Schauen Sie "
+"im :doc:`materials guide <pbr-materials-guide>` nach, um zu überprüfen, ob "
+"Ihre Materialien korrekt geladen werden können."
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
-msgstr ""
+msgstr "Die beste Herangehensweise"
 
 #: ../../source/create/3d-models/get-model.rst:35
 msgid ""
 "Making 3D models for Vircadia (and VR) is different than making models "
 "for films, videos, and games."
 msgstr ""
+"3D Modelle für Vircadia (und für VR) zu erstellen ist anders, als Modelle "
+"für Videos oder Computerspiele zu machen."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
@@ -232,6 +277,9 @@ msgid ""
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
 msgstr ""
+"3D Modelle für VR werden doppelt geladen (Für das linke und rechte Auge): "
+"Das bedeutet, dass die Anzahl der Flächen und die Anzahl der verwendeten "
+"Materialien die Performance stark beeinflussen."
 
 #: ../../source/create/3d-models/get-model.rst:38
 msgid ""
@@ -240,12 +288,19 @@ msgid ""
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
 msgstr ""
+"Die meisten VR Headsets laufen mit 90Hz oder mehr, was bedeutet, dass Ihre "
+"Framerate bei mindestens 90 FPS bleiben muss. Seien Sie also vorsichtig mit "
+"der Größe ihrer Modelle. 3D Modelle die zu groß oder zu komplex sind können "
+"die Framerate unter 90 FPS bringen, was bei VR Nutzern Schwindel Gefühle "
+"auslösen könnte."
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid ""
 "We've listed the best practices for creating 3D models for Vircadia (and "
 "VR)."
 msgstr ""
+"Wir haben die besten Herangehensweisen um 3D Modelle für Vircadia (und für "
+"VR) zu erstellen aufgelistet."
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -256,15 +311,15 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 msgid "Property"
-msgstr ""
+msgstr "Eigentum"
 
 #: ../../source/create/3d-models/get-model.rst:43
 msgid "Best Practice"
-msgstr ""
+msgstr "Beste Herangehensweise"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid "Polycount"
-msgstr ""
+msgstr "Anzahl der Polygone bzw. Flächen"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid ""
@@ -272,14 +327,17 @@ msgid ""
 "high, but not too low either. For example 50000 Polygons should be more "
 "than enough for a detailed avatar."
 msgstr ""
+"Ihre Anzahl sollte der eines Modells für ein Tablet Spiel entsprechen, das "
+"heißt, weder zu hoch, noch zu gering. 50 000 Polygone bzw Flächen sollten "
+"mehr als genug für einen detailierten Avatar sein."
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
-msgstr ""
+msgstr "Kanten Ringe"
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Remove edge loops that are not needed."
-msgstr ""
+msgstr "Entfernen Sie Kanten Ringe, die nicht notwendig sind."
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid "Mesh"
@@ -290,6 +348,11 @@ msgid ""
 "Clean the mesh to make sure there are no N-gons and no coplanar faces. "
 "Any good 3D modelling software should do this on export."
 msgstr ""
+"Arbeiten Sie beim Erstellen des 3D Mesh sauber, und achten Sie darauf, dass "
+"es keine coplanar faces gibt. (Coplanar faces sind Flächen die genau "
+"aufeinander liegen, und zu Render Bugs führen können. Die meisten guten 3D "
+"Programme sollten diese beim Exportieren auch automatisch entfernen.) "
+"Vermeiden Sie es, Flächen mit sehr vielen Kanten zu verwenden."
 
 #: ../../source/create/3d-models/get-model.rst:54
 msgid ""
@@ -298,10 +361,15 @@ msgid ""
 "create a robot, all its pieces should share one UV map, instead of giving"
 " its hands, feet, or face separate materials and UV maps."
 msgstr ""
+"Versuchen Sie immer Atlas maps zu verwenden. Wen jedes Objekt von Ihrem "
+"Content dieselben Materialien und denselben UV space hat, dann ist dies eine "
+"Atlas map. Wenn Sie zum Beispiel einen Roboter erstellen, dann sollten sich "
+"alle Teile des Roboters auf einer UV Map befinden, anstatt den Händen, "
+"Füßen, oder Gesicht jeweils separate Materialien und UV Maps zu geben."
 
 #: ../../source/create/3d-models/get-model.rst:59
 msgid "Vircadia’s engine only supports one UV mapping per material."
-msgstr ""
+msgstr "Vircadias Engine unterstützt nur ein UV Mapping pro Material."
 
 #: ../../source/create/3d-models/get-model.rst:61
 #: ../../source/create/3d-models/get-model.rst:64
@@ -313,33 +381,44 @@ msgstr ""
 #: ../../source/create/3d-models/pbr-materials-guide.rst:27
 #: ../../source/create/avatars/avatar-standards.md:257
 msgid "Textures"
-msgstr ""
+msgstr "Texturen"
 
 #: ../../source/create/3d-models/get-model.rst:61
 msgid ""
 "PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
 " TIFF formats."
 msgstr ""
+"PNG, JPEG und JPG Dateien sind empfohlen, aber wir unterstützen auch TGA, "
+"TIF und TIFF."
 
 #: ../../source/create/3d-models/get-model.rst:64
 msgid "Choose the color types wisely to minimize the size of the final file."
 msgstr ""
+"Wählen Sie die Farb Typen begrenzt, um die Größe der fertigen Datei zu "
+"minimieren."
 
 #: ../../source/create/3d-models/get-model.rst:66
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
 msgstr ""
+"PNG-8 hat nur ON/OFF transparency, und eine Farbauswahl von 256 Farben ("
+"genau wie bei GIF Dateien), und kann dazu verwendet werden, Transparenz zu "
+"maskieren."
 
 #: ../../source/create/3d-models/get-model.rst:69
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
 msgstr ""
+"Für mehr Farben Auflösung, können Sie PNG-24 verwenden. Für durchsichtige "
+"masken, oder transparente texturen können Sie PNG-32 verwenden."
 
 #: ../../source/create/3d-models/get-model.rst:72
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Vircadia."
 msgstr ""
+"Verwenden Sie weder PNG-48 noch PNG-64, da diese nicht von Vircadia "
+"unterstützt werden."
 
 #: ../../source/create/3d-models/get-model.rst:74
 msgid ""
@@ -347,6 +426,9 @@ msgid ""
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
 "memory."
 msgstr ""
+"Wenn Texturen in der Engine geladen werden, dann werden diese automatisch "
+"auf eine Größe von 128 x 128 skaliert. Verwenden Sie Vielfache von 128 um "
+"keinen Speicherplatz zu verschwenden."
 
 #: ../../source/create/3d-models/get-model.rst:77
 msgid ""
@@ -11923,4 +12005,3 @@ msgstr ""
 #~ "on](../explore/personalize/add-wearables) and adopt"
 #~ " your new look."
 #~ msgstr ""
-
