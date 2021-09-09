@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-08-28 20:20+0000\n"
-"PO-Revision-Date: 2021-08-28 20:53+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-09-09 03:49+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -7717,7 +7717,7 @@ msgstr ""
 
 #: ../../source/create/entities/entity-appearance.rst:61
 msgid "Set the Size of an Entity"
-msgstr ""
+msgstr "Establecer el Tamaño de una Entidad"
 
 #: ../../source/create/entities/entity-appearance.rst:63
 msgid ""
@@ -7725,6 +7725,9 @@ msgid ""
 "directly in your environment by selecting and dragging the small boxes "
 "inside the object."
 msgstr ""
+"Para entidades de cubo, esfera, texto, imagen y web, puedes cambiar su "
+"tamaño directamente en tu entorno seleccionando y arrastrando los pequeños "
+"cuadros dentro del objeto."
 
 #: ../../source/create/entities/entity-appearance.rst:72
 msgid ""
@@ -7733,10 +7736,14 @@ msgid ""
 "the 'Size' settings. Here are the different size settings you can "
 "configure:"
 msgstr ""
+"Para todas las entidades, también puedes establecer el tamaño manualmente en "
+"la aplicación **Crear**. Con la entidad seleccionada, haz clic en "
+"\"Properties\" y desplázate hacia abajo hasta la configuración de \"Size\". "
+"Aquí están los diferentes ajustes de tamaño que puedes configurar:"
 
 #: ../../source/create/entities/entity-appearance.rst:77
 msgid "*Spatial* > Local Dimensions"
-msgstr ""
+msgstr "*Spatial* > Local Dimensions"
 
 #: ../../source/create/entities/entity-appearance.rst:77
 msgid ""
@@ -7744,6 +7751,9 @@ msgid ""
 "value remains the original dimensions value while the avatar scale "
 "changes."
 msgstr ""
+"El tamaño de la entidad. Si la entidad está vinculada a un avatar, este "
+"valor sigue siendo el valor de las dimensiones originales mientras cambia la "
+"escala del avatar."
 
 #: ../../source/create/entities/entity-appearance.rst:77
 #: ../../source/create/entities/entity-appearance.rst:81
@@ -7753,93 +7763,102 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:146
 #: ../../source/create/entities/entity-appearance.rst:148
 msgid "All"
-msgstr ""
+msgstr "All (Todas)"
 
 #: ../../source/create/entities/entity-appearance.rst:81
 msgid "*Spatial* > Dimensions"
-msgstr ""
+msgstr "*Spatial* > Dimensions"
 
 #: ../../source/create/entities/entity-appearance.rst:81
 msgid ""
 "The size of the entity. If the entity is parented to an avatar, this "
 "value will change if the avatar scale changes"
 msgstr ""
+"El tamaño de la entidad. Si la entidad está vinculada a un avatar, este "
+"valor cambiará si cambia la escala del avatar."
 
 #: ../../source/create/entities/entity-appearance.rst:84
 msgid "*Spatial* > Scale"
-msgstr ""
+msgstr "*Spatial* > Scale"
 
 #: ../../source/create/entities/entity-appearance.rst:84
 msgid "Sets the size of the entity as a percentage of its original size."
 msgstr ""
+"Establece el tamaño de la entidad como porcentaje de su tamaño original."
 
 #: ../../source/create/entities/entity-appearance.rst:86
 msgid "Fall-Off Radius"
-msgstr ""
+msgstr "Fall-Off Radius"
 
 #: ../../source/create/entities/entity-appearance.rst:86
 msgid "The distance from the light's center where the intensity is reduced."
-msgstr ""
+msgstr "La distancia desde el centro de la luz donde se reduce la intensidad."
 
 #: ../../source/create/entities/entity-appearance.rst:89
 msgid "Spotlight Cut-Off"
-msgstr ""
+msgstr "Spotlight Cut-Off"
 
 #: ../../source/create/entities/entity-appearance.rst:89
 msgid ""
 "Affects the size of the spotlight's beam; the higher the value, the "
 "larger the beam."
 msgstr ""
+"Afecta el tamaño del haz del foco; Cuanto mayor sea el valor, mayor será el "
+"haz."
 
 #: ../../source/create/entities/entity-appearance.rst:92
 msgid "Line Height"
-msgstr ""
+msgstr "Line Height"
 
 #: ../../source/create/entities/entity-appearance.rst:92
 msgid "The height of each line of text."
-msgstr ""
+msgstr "La altura de cada línea de texto."
 
 #: ../../source/create/entities/entity-appearance.rst:94
 msgid "*Emit* > Dimensions"
-msgstr ""
+msgstr "*Emit* > Dimensions"
 
 #: ../../source/create/entities/entity-appearance.rst:94
 msgid "The outer limit radius that particles can be emitted from."
-msgstr ""
+msgstr "El radio límite exterior desde el que se pueden emitir partículas."
 
 #: ../../source/create/entities/entity-appearance.rst:96
 msgid "*Emit* > Radius Start"
-msgstr ""
+msgstr "*Emit* > Radius Start"
 
 #: ../../source/create/entities/entity-appearance.rst:96
 msgid "The inner limit radius that particles can start emitting from."
 msgstr ""
+"El radio límite interno desde el que las partículas pueden comenzar a "
+"emitirse."
 
 #: ../../source/create/entities/entity-appearance.rst:98
 msgid "*Size* > Size"
-msgstr ""
+msgstr "*Size* > Size"
 
 #: ../../source/create/entities/entity-appearance.rst:98
 msgid "The size of each individual particle in the entity."
-msgstr ""
+msgstr "El tamaño de cada partícula individual de la entidad."
 
 #: ../../source/create/entities/entity-appearance.rst:100
 msgid "*Size* > Size Spread"
-msgstr ""
+msgstr "*Size* > Size Spread"
 
 #: ../../source/create/entities/entity-appearance.rst:100
 msgid "How far apart a particle is from other particles."
-msgstr ""
+msgstr "Qué tan lejos está una partícula de otras partículas."
 
 #: ../../source/create/entities/entity-appearance.rst:105
 msgid "Rotate an Entity"
-msgstr ""
+msgstr "Rotar una Entidad"
 
 #: ../../source/create/entities/entity-appearance.rst:107
 msgid ""
 "All entities can be rotated directly in your environment by selecting and"
 " dragging the circles around the object."
 msgstr ""
+"Todas las entidades se pueden rotar directamente en tu entorno seleccionando "
+"y arrastrando los círculos alrededor del objeto."
 
 #: ../../source/create/entities/entity-appearance.rst:116
 msgid ""
@@ -7847,22 +7866,26 @@ msgid ""
 "entity selected, click on 'Properties' and scroll down to the 'Rotation' "
 "settings. Here are the different rotation settings you can configure:"
 msgstr ""
+"También puedes configurar la rotación manualmente en la aplicación **Crear**"
+". Con la entidad seleccionada, haz click en \"Properties\" y desplázate "
+"hacia abajo hasta la configuración de \"Rotation\". Estos son los diferentes "
+"ajustes de rotación que puedes configurar:"
 
 #: ../../source/create/entities/entity-appearance.rst:121
 msgid "*Spatial* > Local Rotation"
-msgstr ""
+msgstr "*Spatial* > Local Rotation"
 
 #: ../../source/create/entities/entity-appearance.rst:121
 msgid "The orientation of the entity relative to its parent."
-msgstr ""
+msgstr "La orientación de la entidad en relación con su matriz."
 
 #: ../../source/create/entities/entity-appearance.rst:123
 msgid "*Spatial* > Rotation"
-msgstr ""
+msgstr "*Spatial* > Rotation"
 
 #: ../../source/create/entities/entity-appearance.rst:123
 msgid "The orientation of the entity with respect to world coordinates."
-msgstr ""
+msgstr "La orientación de la entidad con respecto a las coordenadas mundiales."
 
 #: ../../source/create/entities/entity-appearance.rst:126
 #: ../../source/create/entities/entity-appearance.rst:151
@@ -7870,10 +7893,12 @@ msgid ""
 "You can switch between 'Local' and 'World' using the keyboard shortcut "
 "``T``."
 msgstr ""
+"Puedes cambiar entre \"Local\" y \"World\" (mundial) usando el atajo de "
+"teclado ``T``."
 
 #: ../../source/create/entities/entity-appearance.rst:130
 msgid "Move an Entity"
-msgstr ""
+msgstr "Mover una Entidad"
 
 #: ../../source/create/entities/entity-appearance.rst:132
 msgid ""
@@ -7881,6 +7906,9 @@ msgid ""
 "dragging the object to the correct location. Alternatively, you can use "
 "the arrows around the object to move it in only one direction."
 msgstr ""
+"Todas las entidades se pueden mover directamente en tu entorno seleccionando "
+"y arrastrando el objeto a la ubicación correcta. Alternativamente, puedes "
+"usar las flechas de alrededor del objeto para moverlo en una sola dirección."
 
 #: ../../source/create/entities/entity-appearance.rst:141
 msgid ""
@@ -7888,28 +7916,32 @@ msgid ""
 "entity selected, click on 'Properties' and scroll down to the 'Position' "
 "settings. Here are the different position settings you can configure:"
 msgstr ""
+"También puedes establecer la posición manualmente en la aplicación **Crear**"
+". Con la entidad seleccionada, haz click en \"Properties\" y desplázate "
+"hacia abajo hasta la configuración de \"Position\". Estos son los diferentes "
+"ajustes de posición que puedes configurar:"
 
 #: ../../source/create/entities/entity-appearance.rst:146
 msgid "*Spatial* > Local Position"
-msgstr ""
+msgstr "*Spatial* > Local Position"
 
 #: ../../source/create/entities/entity-appearance.rst:146
 msgid "The position of the entity relative to its parent."
-msgstr ""
+msgstr "La posición de la entidad en relación con su matriz."
 
 #: ../../source/create/entities/entity-appearance.rst:148
 msgid "*Spatial* > Position"
-msgstr ""
+msgstr "*Spatial* > Position"
 
 #: ../../source/create/entities/entity-appearance.rst:148
 msgid "The position of the entity with respect to world coordinates."
-msgstr ""
+msgstr "La posición de la entidad con respecto a las coordenadas mundiales."
 
 #: ../../source/create/entities/entity-appearance.rst:157
 #: ../../source/create/entities/web-entity-media.rst:163
 #: ../../source/create/entities/zone-entity.rst:170
 msgid "`The Create App <../tools.html#the-create-app>`_"
-msgstr ""
+msgstr "`La Aplicación Crear <../tools.html#the-create-app>`_"
 
 #: ../../source/create/entities/entity-behavior.rst:5
 msgid ""
@@ -7918,10 +7950,15 @@ msgid ""
 " entities and avatars, or can a change in the domain's gravity affect it?"
 " You can check and change an entity's behavior by editing its properties."
 msgstr ""
+"El comportamiento de una entidad controla sus interacciones con otras "
+"entidades y avatares en Vircadia. ¿Se puede agarrar/tomar una entidad, choca "
+"con otras entidades y avatares, o puede afectarla un cambio en la gravedad "
+"del dominio? Puedes verificar y cambiar el comportamiento de una entidad "
+"editando sus propiedades."
 
 #: ../../source/create/entities/entity-behavior.rst:19
 msgid "Set an Entity to Respond to Physics"
-msgstr ""
+msgstr "Establecer una Entidad para Responder a la Física"
 
 #: ../../source/create/entities/entity-behavior.rst:21
 msgid ""
@@ -7931,24 +7968,33 @@ msgid ""
 "an entity is not dynamic, it is static and has no gravity and no "
 "velocity. It can only be moved by a user."
 msgstr ""
+"Si quieres que una entidad :doc:`responda a la física <entity-physics>` u "
+"otras entidades y avatares, necesitas hacerlas dinámicas. Esto permite que "
+"una caja responda a la gravedad o que una pelota rebote cuando golpea el "
+"suelo. Si una entidad no es dinámica, es estática y no tiene gravedad ni "
+"velocidad. Solo puede moverla un usuario."
 
 #: ../../source/create/entities/entity-behavior.rst:23
 msgid "To make an entity dynamic:"
-msgstr ""
+msgstr "Para hacer una entidad dinámica:"
 
 #: ../../source/create/entities/entity-behavior.rst:26
 msgid "Select your entity on the 'Entity List' window or just click on it."
 msgstr ""
+"Selecciona tu entidad en la ventana \"Entity List\" o simplemente haz click "
+"en ella."
 
 #: ../../source/create/entities/entity-behavior.rst:27
 msgid ""
 "Go to the 'Properties' tab, scroll down to 'Collision' and check "
 "'Dynamic'."
 msgstr ""
+"Ve a la pestaña \"Properties\", desplázate hacia abajo hasta \"Collision\" y "
+"marca \"Dynamic\"."
 
 #: ../../source/create/entities/entity-behavior.rst:31
 msgid "Set Entity Behavior on Collision"
-msgstr ""
+msgstr "Establecer el Comportamiento de la Entidad en caso de Colisión"
 
 #: ../../source/create/entities/entity-behavior.rst:33
 msgid ""
@@ -7958,18 +8004,25 @@ msgid ""
 "collision properties need to be changed. With the entity selected, click "
 "on 'Properties' and scroll down to the 'Collision' settings."
 msgstr ""
+"Cuando una entidad no tiene propiedades de colisión, se mueve a través de "
+"otras entidades y avatares como si no fuera un objeto sólido. Para que una "
+"entidad choque cuando entra en contacto con otra entidad o avatar, es "
+"necesario cambiar sus propiedades de colisión. Con la entidad seleccionada, "
+"haz click en \"Properties\" y desplázate hacia abajo hasta la configuración "
+"de \"Collision\"."
 
 #: ../../source/create/entities/entity-behavior.rst:35
 msgid "Here are the different collision settings you can configure:"
 msgstr ""
+"Aquí están las diferentes configuraciones de colisión que puedes configurar:"
 
 #: ../../source/create/entities/entity-behavior.rst:38
 msgid "Collides With"
-msgstr ""
+msgstr "Colisiona Con"
 
 #: ../../source/create/entities/entity-behavior.rst:40
 msgid "Static Entities"
-msgstr ""
+msgstr "Static Entities (Entidades Estáticas)"
 
 #: ../../source/create/entities/entity-behavior.rst:40
 msgid ""
@@ -7977,10 +8030,13 @@ msgid ""
 "entity is a static entity, it will not collide with another static "
 "entity. Only a dynamic entity can collide with a static entity."
 msgstr ""
+"Tu entidad chocará con entidades estáticas. Ten en cuenta que si tu entidad "
+"es una entidad estática, no chocará con otra entidad estática. Solo una "
+"entidad dinámica puede chocar con una entidad estática."
 
 #: ../../source/create/entities/entity-behavior.rst:44
 msgid "Kinematic Entities"
-msgstr ""
+msgstr "Entidades Cinemáticas (Kinematic Entities)"
 
 #: ../../source/create/entities/entity-behavior.rst:44
 msgid ""
@@ -7988,44 +8044,49 @@ msgid ""
 " velocity, but are not dynamic. Their behavior is controlled by an "
 "external script."
 msgstr ""
+"Tu entidad chocará con entidades cinemáticas. Las entidades cinemáticas "
+"tienen velocidad, pero no son dinámicas. Su comportamiento está controlado "
+"por un script externo."
 
 #: ../../source/create/entities/entity-behavior.rst:48
 msgid "Dynamic Entities"
-msgstr ""
+msgstr "Entidades Dinámicas (Dynamic Entities)"
 
 #: ../../source/create/entities/entity-behavior.rst:48
 msgid "Your entity will collide with other dynamic entities."
-msgstr ""
+msgstr "Tu entidad chocará con otras entidades dinámicas."
 
 #: ../../source/create/entities/entity-behavior.rst:50
 msgid "My avatar"
-msgstr ""
+msgstr "Mi Avatar (My avatar)"
 
 #: ../../source/create/entities/entity-behavior.rst:50
 msgid "Your entity will :doc:`collide with your avatar <avatar-interactions>`."
-msgstr ""
+msgstr "Tu entidad :doc:`colisionará con tú avatar <avatar-interactions>`."
 
 #: ../../source/create/entities/entity-behavior.rst:52
 msgid "Other avatars"
-msgstr ""
+msgstr "Otros Avatares (Other Avatars)"
 
 #: ../../source/create/entities/entity-behavior.rst:52
 msgid "Your entity will collide with other user's avatars."
-msgstr ""
+msgstr "Tu entidad colisionará con los avatares de otros usuarios."
 
 #: ../../source/create/entities/entity-behavior.rst:54
 msgid "Collision Sound"
-msgstr ""
+msgstr "Sonido de Colisión (Collision Sound)"
 
 #: ../../source/create/entities/entity-behavior.rst:54
 msgid ""
 "You can make your entity :doc:`emit a sound <add-sounds>` whenever it "
 "collides with other entities."
 msgstr ""
+"Puedes hacer que tu entidad :doc:`emita un sonido <add-sounds>`siempre que "
+"colisione con otras entidades."
 
 #: ../../source/create/entities/entity-behavior.rst:60
 msgid "Make an Entity Grabbable"
-msgstr ""
+msgstr "Hacer que una Entidad se pueda Agarrar/Sujetar"
 
 #: ../../source/create/entities/entity-behavior.rst:62
 msgid ""
@@ -8033,29 +8094,33 @@ msgid ""
 "another user interacts with it. By default, 'Grabbable' and 'Follow "
 "Controller' are checked."
 msgstr ""
+"Las propiedades de captura de tu entidad determinan cómo se comporta cuando "
+"tú u otro usuario interactúa con ella. De forma predeterminada, las opciones "
+"\"Grabbable\" (Agarrable/Sujetable) y \"Follow Controller\" (Seguir al "
+"Controlador) están marcadas."
 
 #: ../../source/create/entities/entity-behavior.rst:64
 msgid "Here are the different grab settings you can configure:"
-msgstr ""
+msgstr "Aquí están los diferentes ajustes de agarre que puedes configurar:"
 
 #: ../../source/create/entities/entity-behavior.rst:67
 #: ../../source/create/entities/entity-behavior.rst:86
 #: ../../source/create/entities/entity-behavior.rst:101
 #: ../../source/create/entities/entity-behavior.rst:147
 msgid "Behavior"
-msgstr ""
+msgstr "Comportamiento"
 
 #: ../../source/create/entities/entity-behavior.rst:69
 msgid "Grabbable"
-msgstr ""
+msgstr "Agarrable/Sujetable (Grabbable)"
 
 #: ../../source/create/entities/entity-behavior.rst:69
 msgid "You or other users can grab this entity."
-msgstr ""
+msgstr "Tú u otros usuarios pueden apoderarse de esta entidad."
 
 #: ../../source/create/entities/entity-behavior.rst:71
 msgid "Follow Controller"
-msgstr ""
+msgstr "Seguir al Controlador (Follow Controller)"
 
 #: ../../source/create/entities/entity-behavior.rst:71
 msgid ""
@@ -8064,10 +8129,14 @@ msgid ""
 "arms, your entity will be grabbed where the controller is (at a distance "
 "from your avatar's hands)."
 msgstr ""
+"Tu entidad seguirá los movimientos de tu controlador de mano en lugar de las "
+"manos de tu avatar. Si los brazos de tu avatar son más cortos que tus brazos "
+"reales, tu entidad será agarrada donde está el controlador (a una distancia "
+"de las manos de tu avatar)."
 
 #: ../../source/create/entities/entity-behavior.rst:79
 msgid "Set an Entity to Trigger Scripts"
-msgstr ""
+msgstr "Establecer una Entidad para Activar Scripts"
 
 #: ../../source/create/entities/entity-behavior.rst:81
 msgid ""
@@ -8075,20 +8144,25 @@ msgid ""
 "other entities come in contact with it, you can do so by editing its "
 "properties."
 msgstr ""
+"Si quieres que tu entidad active un script cuando tú, otros usuarios u otras "
+"entidades entren en contacto con él, puedes hacerlo editando sus propiedades."
 
 #: ../../source/create/entities/entity-behavior.rst:83
 msgid "Here are the different trigger settings you can configure:"
-msgstr ""
+msgstr "Estos son los diferentes ajustes de activación que puedes configurar:"
 
 #: ../../source/create/entities/entity-behavior.rst:88
 msgid "Triggerable"
-msgstr ""
+msgstr "Activable (Triggerable)"
 
 #: ../../source/create/entities/entity-behavior.rst:88
 msgid ""
 "Your entity can trigger a script. For instance, you can trigger a cube "
 "entity to run a script asking for a tip every time you click it."
 msgstr ""
+"Tu entidad puede activar un script. Por ejemplo, puedes activar una entidad "
+"de cubo para que ejecute un script pidiendo un consejo cada vez que hagas "
+"click en él."
 
 #: ../../source/create/entities/entity-behavior.rst:94
 msgid "Make an Entity Cloneable"
