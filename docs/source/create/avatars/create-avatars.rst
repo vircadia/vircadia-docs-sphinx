@@ -1,5 +1,5 @@
 .. warning::
-    This document is outdated.
+    This document is outdated and will be revisited in the future.
     FIXME: Mentions services like VRoid Studio even though their skeletons have never been supported (the Unity avatar exporter will not be able to fix that)
 
 ##############################

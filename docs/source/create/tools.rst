@@ -1,5 +1,5 @@
 .. warning::
-    This document is slightly outdated.
+    This document is outdated and will be revisited in the future. 
     FIXME: mentions supposedly know issues
 
 ######################
