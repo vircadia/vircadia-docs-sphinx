@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-08-28 20:20+0000\n"
-"PO-Revision-Date: 2021-09-13 20:56+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-09-19 22:11+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -8166,7 +8166,7 @@ msgstr ""
 
 #: ../../source/create/entities/entity-behavior.rst:94
 msgid "Make an Entity Cloneable"
-msgstr ""
+msgstr "Hacer una Entidad Clonable"
 
 #: ../../source/create/entities/entity-behavior.rst:96
 msgid ""
@@ -8175,54 +8175,65 @@ msgid ""
 "exist, how many clones you can create, how the clone responds to physics,"
 " and if the clone is an avatar entity."
 msgstr ""
+"Puedes clonar tu entidad para crear otras entidades con las mismas "
+"propiedades que la tuya. Mientras creas clones, puedes establecer cuánto "
+"tiempo existirán, cuántos clones puedes crear, cómo responde el clon a la "
+"física y si el clon es una entidad de avatar."
 
 #: ../../source/create/entities/entity-behavior.rst:98
 msgid "Here are the different clone settings you can configure:"
 msgstr ""
+"Aquí están las diferentes configuraciones de clonación que puedes configurar:"
 
 #: ../../source/create/entities/entity-behavior.rst:103
 msgid "Cloneable"
-msgstr ""
+msgstr "Cloneable"
 
 #: ../../source/create/entities/entity-behavior.rst:103
 msgid ""
 "Your entity can be cloned. You can change the 'Clone' settings to "
 "manipulate your cloned entity's behavior."
 msgstr ""
+"Tu entidad puede clonarse. Puedes cambiar la configuración de \"Clonar\" "
+"(Clone) para manipular el comportamiento de tu entidad clonada."
 
 #: ../../source/create/entities/entity-behavior.rst:106
 msgid "*Cloneable* > Clone Lifetime"
-msgstr ""
+msgstr "*Cloneable* > Clone Lifetime"
 
 #: ../../source/create/entities/entity-behavior.rst:106
 msgid "Select this option to set how long (in seconds) your clone will exist."
 msgstr ""
+"Selecciona esta opción para establecer cuánto tiempo (en segundos) existirá "
+"tu clon."
 
 #: ../../source/create/entities/entity-behavior.rst:109
 msgid "*Cloneable* >"
-msgstr ""
+msgstr "*Cloneable* >"
 
 #: ../../source/create/entities/entity-behavior.rst:111
 msgid "Clone Limit"
-msgstr ""
+msgstr "Clone Limit"
 
 #: ../../source/create/entities/entity-behavior.rst:109
 msgid ""
 "Select to set a limit to how many clones you can create. If you don't "
 "want to have a limit, set the value to 0  ."
 msgstr ""
+"Selecciónalo para establecer un límite a la cantidad de clones que puedes "
+"crear. Si no quieres tener un límite, establece el valor en 0."
 
 #: ../../source/create/entities/entity-behavior.rst:113
 msgid "*Cloneable* > Clone Dynamic"
-msgstr ""
+msgstr "*Cloneable* > Clone Dynamic"
 
 #: ../../source/create/entities/entity-behavior.rst:113
 msgid "Select to make the clone entity a dynamic entity."
-msgstr ""
+msgstr "Selecciónalo para convertir la entidad clonada en una entidad dinámica."
 
 #: ../../source/create/entities/entity-behavior.rst:116
 msgid "*Cloneable* > Clone Avatar Entity"
-msgstr ""
+msgstr "*Cloneable* > Clone Avatar Entity"
 
 #: ../../source/create/entities/entity-behavior.rst:116
 msgid ""
@@ -8234,6 +8245,14 @@ msgid ""
 "their avatar, ensuring there isn't any clutter left behind. This feature "
 "ensures that your entity is cloned locally for each avatar."
 msgstr ""
+"Selecciónalo para especificar si una entidad clonada se crea como entidad de "
+"avatar. No existe una entidad de avatar en Entity Server. Sin embargo, es "
+"específico para el cliente de interfaz de un usuario. Por ejemplo, "
+"supongamos que un usuario visita la cafetería de tu dominio. El usuario toma "
+"una taza de café que ha sido clonada. Una vez que el usuario termina la "
+"visita, la entidad clonada se va con su avatar, asegurándose de que no quede "
+"ningún desorden. Esta característica asegura que tu entidad se clona "
+"localmente para cada avatar."
 
 #: ../../source/create/entities/entity-behavior.rst:125
 msgid ""
@@ -8241,20 +8260,27 @@ msgid ""
 "settings/permission-settings>` to clone an entity or edit an unlocked "
 "entity."
 msgstr ""
+"Un usuario no necesita :doc:`crear permisos <../../host/configure-settings/"
+"permission-settings>` para clonar una entidad o editar una entidad "
+"desbloqueada."
 
 #: ../../source/create/entities/entity-behavior.rst:127
 msgid ""
 "To make entities cloneable in your domain (this can only be done with "
 "unlocked entities):"
 msgstr ""
+"Para hacer que las entidades se puedan clonar en tu dominio (esto solo se "
+"puede hacer con entidades desbloqueadas):"
 
 #: ../../source/create/entities/entity-behavior.rst:130
 msgid "Select the entity of your choice in the 'Entity List' window."
-msgstr ""
+msgstr "Selecciona la entidad de tu elección en la ventana \"Entity List\"."
 
 #: ../../source/create/entities/entity-behavior.rst:131
 msgid "Go to the 'Properties' tab, scroll down, and check 'Cloneable'."
 msgstr ""
+"Ve a la pestaña \"Properties\", desplázate hacia abajo, y marca \"Cloneable\""
+"."
 
 #: ../../source/create/entities/entity-behavior.rst:133
 msgid ""
@@ -8262,6 +8288,10 @@ msgid ""
 " If you don't want any users to clone your entity or any entities in your"
 " domain, you can do one of the following:"
 msgstr ""
+"Ten en cuenta que ahora cualquier usuario puede clonar las entidades que "
+"sean clonables. Si no quieres que ningún usuario clone tu entidad o "
+"cualquier entidad de tu dominio, puedes realizar una de las siguientes "
+"acciones:"
 
 #: ../../source/create/entities/entity-behavior.rst:135
 msgid ""
@@ -8269,14 +8299,19 @@ msgid ""
 "permissions <../../host/configure-settings/permission-settings>` to the "
 "users of your choice."
 msgstr ""
+"Bloquea las entidades que no quieras clonar, entonces :doc:`restringe los "
+"permisos de \"Lock\" (Bloqueo) del usuario <../../host/configure-settings/"
+"permission-settings>` para los usuarios de tu elección."
 
 #: ../../source/create/entities/entity-behavior.rst:136
 msgid "Set entity filters to prevent users from editing entities in your domain."
 msgstr ""
+"Establece filtros de entidad para evitar que los usuarios editen entidades "
+"en tu dominio."
 
 #: ../../source/create/entities/entity-behavior.rst:140
 msgid "Set an Entity to Cast a Shadow"
-msgstr ""
+msgstr "Establecer una Entidad para Proyectar una Sombra"
 
 #: ../../source/create/entities/entity-behavior.rst:142
 msgid ""
@@ -8285,31 +8320,37 @@ msgid ""
 "shadows only from the key light, not from the light entities. The key "
 "light is a parallel source of light, like the sun."
 msgstr ""
+"Puedes hacer que tu entidad se comporte como un objeto del mundo real "
+"haciendo que proyecte una sombra sobre otras entidades y avatares. En "
+"Vircadia, las entidades proyectan sombras solo desde la luz clave (key light)"
+", no desde las entidades de luz. La luz clave es una fuente de luz paralela, "
+"como el sol."
 
 #: ../../source/create/entities/entity-behavior.rst:144
 msgid "Here are the different shadow settings you can configure:"
 msgstr ""
+"Aquí están las diferentes configuraciones de sombra que puedes configurar:"
 
 #: ../../source/create/entities/entity-behavior.rst:149
 msgid "Cast Shadow"
-msgstr ""
+msgstr "Cast Shadow"
 
 #: ../../source/create/entities/entity-behavior.rst:149
 msgid "Your entity will cast a shadow on other objects and avatars."
-msgstr ""
+msgstr "Tu entidad proyectará una sombra sobre otros objetos y avatares."
 
 #: ../../source/create/entities/entity-behavior.rst:155
 msgid ":doc:`Apply Physics to Entities <entity-physics>`"
-msgstr ""
+msgstr ":doc:`Aplicar la Física a las Entidades <entity-physics>`"
 
 #: ../../source/create/entities/entity-behavior.rst:156
 #: ../../source/create/entities/entity-physics.rst:157
 msgid ":doc:`Define Interactions with Avatars <avatar-interactions>`"
-msgstr ""
+msgstr ":doc:`Definir Interacciones con Avatares <avatar-interactions>`"
 
 #: ../../source/create/entities/entity-behavior.rst:157
 msgid ":doc:`Add Sound to Entities <add-sounds>`"
-msgstr ""
+msgstr ":doc:`Añadir Sonido a las Entidades <add-sounds>`"
 
 #: ../../source/create/entities/entity-physics.rst:5
 msgid ""
@@ -8321,18 +8362,26 @@ msgid ""
 " after collision. You can modify an entity's physics behavior using the "
 "Create app."
 msgstr ""
+"Tu experiencia Vircadia VR se hace realista con la ayuda de un `motor de "
+"física <https://pybullet.org/wordpress>`_. Vircadia utiliza este motor para "
+"simular el comportamiento de un objeto de acuerdo con las leyes de la física "
+"newtoniana. Por ejemplo, si golpea una pelota con un bate en Vircadia, el "
+"motor de física calcula estos movimientos y hace que la pelota gire "
+"alejándose del bate después de la colisión. Puedes modificar el "
+"comportamiento físico de una entidad mediante la aplicación Crear (Create "
+"App)."
 
 #: ../../source/create/entities/entity-physics.rst:18
 msgid "Apply Physics to an Entity"
-msgstr ""
+msgstr "Aplicar la Física a una Entidad"
 
 #: ../../source/create/entities/entity-physics.rst:20
 msgid "To apply physics properties to an entity:"
-msgstr ""
+msgstr "Para aplicar propiedades físicas a una entidad:"
 
 #: ../../source/create/entities/entity-physics.rst:23
 msgid "Select or add any entity of your choice."
-msgstr ""
+msgstr "Selecciona o añade una entidad de tu elección."
 
 #: ../../source/create/entities/entity-physics.rst:24
 msgid ""
@@ -8340,10 +8389,14 @@ msgid ""
 " first create an entity, the physics properties are set to the default "
 "values you can see in the image below."
 msgstr ""
+"En la pestaña \"Properties\", desplázate hacia abajo a la sección de "
+"**Físicas**. Cuando creas una entidad por primera vez, las propiedades "
+"físicas se establecen en los valores predeterminados que puedes ver en la "
+"imagen a continuación."
 
 #: ../../source/create/entities/entity-physics.rst:30
 msgid "Change an Entity's Velocity"
-msgstr ""
+msgstr "Cambiar la Velocidad de una Entidad"
 
 #: ../../source/create/entities/entity-physics.rst:32
 msgid ""
@@ -8351,6 +8404,10 @@ msgid ""
 "that have a position and orientation in Vircadia will have linear and "
 "angular velocity. These velocities might be zero, but they still exist."
 msgstr ""
+"\"Velocity\" es la velocidad de un objeto en una determinada dirección. "
+"Todas las entidades que tienen una posición y orientación en Vircadia "
+"tendrán velocidad lineal y angular. Estas velocidades pueden ser cero, pero "
+"aún existen."
 
 #: ../../source/create/entities/entity-physics.rst:36
 msgid "Linear Velocity"
