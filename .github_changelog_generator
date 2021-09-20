@@ -1,0 +1,11 @@
+# This generator is a Ruby Gem called " github-changelog-generator"
+# https://github.com/github-changelog-generator/github-changelog-generator
+#
+# Here's the command that you would typically use:
+# github_changelog_generator -u vircadia -p vircadia-docs-sphinx --since-tag <<insert last version tag here>>
+#
+
+issues=false
+author=false
+pr-wo-labels=false
+configure-sections={"documentation":{"prefix":"**Documentation:**","labels":["documentation"]},"bugfix":{"prefix":"**Bug Fixes:**","labels":["bugfix"]},"enhancement":{"prefix":"**Enhancements:**","labels":["enhancement"]}}
