@@ -9,8 +9,8 @@ You can run these same commands on an existing Vircadia domain to upgrade it if 
 ### Ubuntu Server 18.04 LTS
 
 ```sh
-wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2021.1.2-20210525-b020558-0ubuntu1-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./vircadia-server_2021.1.2-20210525-b020558-0ubuntu1-1_amd64.deb
+wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2021.1.3-eos-20210921-e5e2872-0ubuntu1-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./vircadia-server_2021.1.3-eos-20210921-e5e2872-0ubuntu1-1_amd64.deb
 ```
 
 ### Amazon Linux 2
