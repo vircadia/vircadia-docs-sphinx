@@ -57,18 +57,18 @@ Download Vircadia
 
 * Windows |Windows|
 
-    * `Windows 64-bit - Eos v2021.1.2 Installer <https://cdn.vircadia.com/dist/release/Vircadia-2021.1.3-Eos.exe>`__ |DownloadWI|
+    * `Windows 64-bit - Eos v2021.1.3 Installer <https://cdn.vircadia.com/dist/release/Vircadia-2021.1.3-Eos.exe>`__ |DownloadWI|
     * `Windows 64-bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ |DownloadWL|
 
 * macOS |MacOS|
 
-    * `macOS Intel - Eos v2021.1.2 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Interface-2021.1.3-Eos.dmg>`__ |DownloadM|
+    * `macOS Intel - Eos v2021.1.3 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Interface-2021.1.3-Eos.dmg>`__ |DownloadM|
 
 * Linux |Ubuntu|
 
-    * `EU Mirror: Linux amd64 - Eos v2021.1.2 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2021.1.3-Eos.AppImage>`__ |DownloadLEU|
+    * `EU Mirror: Linux amd64 - Eos v2021.1.3 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2021.1.3-Eos.AppImage>`__ |DownloadLEU|
       (`zsync <http://appimage.moto9000.moe/release/Vircadia-x86_64-release-latest.AppImage.zsync>`__ |DownloadLEUZ|)
-    * `US Mirror: Linux amd64 - Eos v2021.1.2 AppImage <https://cdn.vircadia.com/dist/release/Vircadia-x86_64_v2021.1.3-Eos.AppImage>`__ |DownloadLUS|
+    * `US Mirror: Linux amd64 - Eos v2021.1.3 AppImage <https://cdn.vircadia.com/dist/release/Vircadia-x86_64_v2021.1.3-Eos.AppImage>`__ |DownloadLUS|
 
 If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Vircadia.
 VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
