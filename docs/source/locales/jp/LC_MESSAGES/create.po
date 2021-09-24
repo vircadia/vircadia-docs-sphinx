@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-08-28 20:20+0000\n"
-"PO-Revision-Date: 2021-09-21 19:37+0000\n"
+"PO-Revision-Date: 2021-09-24 20:40+0000\n"
 "Last-Translator: 川音リオ <rio.kawane@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/ja/>\n"
@@ -60,6 +60,7 @@ msgid "Create"
 msgstr "作る"
 
 #: ../../source/create.rst:5
+#, fuzzy
 msgid ""
 "Vircadia enables people connected by interest, community, and friendship "
 "to come together and express their creativity with each other. We invite "
@@ -68,42 +69,47 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Vircadia engine is encouraged!"
 msgstr ""
+"Vircadiaでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザーが集まり、お互いの創造性を表現することができます。ここではアバターや"
+"コンテンツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならではのものへとパーソナライズすることが可能です。メタバースを自分の好きな"
+"世界へ変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Vircadiaエンジン」を使って没入型のプロジェクトを構築することをオスス"
+"メします。"
 
 #: ../../source/create.rst:7
 msgid ""
 "No matter your level of expertise, Vircadia provides the tools you need "
 "to create anything you can imagine."
-msgstr ""
+msgstr "専門知識のレベルに関わらず、Vircadiaはあなたが想像できるあらゆるものを作成するために必要なツールを提供します。"
 
 #: ../../source/create.rst:9
+#, fuzzy
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
-msgstr ""
+msgstr "この章ではエンティティの作成や環境の構築方法を学ぶことができます。"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
 msgid "Get Your 3D Model"
-msgstr ""
+msgstr "3Dモデルの入手"
 
 #: ../../source/create/3d-models.rst:11
 msgid "Import Your 3D Model"
-msgstr ""
+msgstr "3Dモデルのエクスポート"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:5
 msgid "PBR Materials Guide"
-msgstr ""
+msgstr "PBRマテリアルガイド"
 
 #: ../../source/create/3d-models.rst:11 ../../source/create/materials.rst:9
 #: ../../source/create/materials/procedural-shaders.rst:3
 msgid "Procedural Shaders for Models and Avatars"
-msgstr ""
+msgstr "モデルやアバター用の手続型(プロシージャル)シェーダー"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/import-animations.rst:3
 msgid "Import Animations"
-msgstr ""
+msgstr "アニメーションのインポート"
 
 #: ../../source/create/3d-models.rst:5
 msgid ""
