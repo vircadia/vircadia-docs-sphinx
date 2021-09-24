@@ -8,18 +8,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-13 15:03+0000\n"
+"POT-Creation-Date: 2021-09-24 20:40+0000\n"
 "PO-Revision-Date: 2021-09-02 01:22+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/release-notes/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/release-notes/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
+
+#: ../../source/release-notes.rst:7
+msgid "Release 2021.1.3 Eos (2021-09-22)"
+msgstr ""
 
 #: ../../source/release-notes.rst:7
 msgid "Release 2021.1.2 Eos (2021-05-30)"
@@ -578,6 +581,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:147
 #: ../../source/release-notes/2021-1-1-Eos.md:128
 #: ../../source/release-notes/2021-1-2-Eos.md:59
+#: ../../source/release-notes/2021-1-3-Eos.md:238
 #: ../../source/release-notes/v86-k2.md:67
 msgid "Documentation"
 msgstr "Dokumentation"
@@ -1263,6 +1267,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:149
 #: ../../source/release-notes/2021-1-1-Eos.md:130
 #: ../../source/release-notes/2021-1-2-Eos.md:61
+#: ../../source/release-notes/2021-1-3-Eos.md:240
 #: ../../source/release-notes/v86-k2.md:69
 msgid "User Docs"
 msgstr ""
@@ -2372,6 +2377,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:59
 #: ../../source/release-notes/2021-1-1-Eos.md:69
 #: ../../source/release-notes/2021-1-2-Eos.md:41
+#: ../../source/release-notes/2021-1-3-Eos.md:115
 msgid "Metaverse Server & Dashboard (Codename Iamus)"
 msgstr ""
 
@@ -2906,6 +2912,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:61
 #: ../../source/release-notes/2021-1-1-Eos.md:71
 #: ../../source/release-notes/2021-1-2-Eos.md:43
+#: ../../source/release-notes/2021-1-3-Eos.md:117
 msgid "Iamus [Metaverse Server](https://github.com/vircadia/iamus)"
 msgstr ""
 
@@ -2950,6 +2957,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:125
 #: ../../source/release-notes/2021-1-1-Eos.md:113
 #: ../../source/release-notes/2021-1-2-Eos.md:47
+#: ../../source/release-notes/2021-1-3-Eos.md:234
 msgid ""
 "Iamus [Metaverse Dashboard](https://github.com/vircadia/project-iamus-"
 "dashboard)"
@@ -4017,6 +4025,9 @@ msgid "Native Interface & Domain Server (Codename Athena)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-2-Eos.md:9
+#: ../../source/release-notes/2021-1-3-Eos.md:7
+#: ../../source/release-notes/2021-1-3-Eos.md:72
+#: ../../source/release-notes/2021-1-3-Eos.md:91
 msgid "Enhancements"
 msgstr ""
 
@@ -4074,6 +4085,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2021-1-2-Eos.md:21
+#: ../../source/release-notes/2021-1-3-Eos.md:31
+#: ../../source/release-notes/2021-1-3-Eos.md:85
 msgid "Bug Fixes"
 msgstr ""
 
@@ -4144,6 +4157,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2021-1-2-Eos.md:35
+#: ../../source/release-notes/2021-1-3-Eos.md:48
 msgid "Docs"
 msgstr ""
 
@@ -4167,6 +4181,7 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-2-Eos.md:45
 #: ../../source/release-notes/2021-1-2-Eos.md:57
+#: ../../source/release-notes/2021-1-3-Eos.md:236
 msgid "No new updates to report!"
 msgstr ""
 
@@ -4221,6 +4236,687 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-2-Eos.md:73
 msgid "Release notes for 2021.1.2 Eos. (#154)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:1
+msgid "2021.1.3 Eos Release Notes"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:3
+msgid ""
+"This version of Vircadia is an update to 2021.1.2. It is compatible with "
+"the 2020.1.0 Eos protocol. This version was released on September 22nd, "
+"2021."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:5
+msgid ""
+"[Native Interface & Domain Server](https://github.com/vircadia/vircadia/)"
+" (Codename Athena)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:9
+msgid ""
+"[**linux**] Add crash handler support for Linux. "
+"[#365](https://github.com/vircadia/vircadia/pull/365)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:10
+msgid ""
+"[**windows**] Update WebRTC package for Windows. "
+"[#1258](https://github.com/vircadia/vircadia/pull/1258)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:11
+msgid ""
+"Rename \"HifiSockAddr\" to \"SockAddr\". "
+"[#1283](https://github.com/vircadia/vircadia/pull/1283)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:12
+msgid ""
+"Improve Qt handling in CMake. "
+"[#936](https://github.com/vircadia/vircadia/pull/936)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:13
+msgid ""
+"[**docs**][**housekeeping**] Add \"gren\" configuration for easy "
+"changelog generation. "
+"[#1226](https://github.com/vircadia/vircadia/pull/1226)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:14
+msgid ""
+"[**docs**] Add minimal documentation for classes declared in script-"
+"engine. [#1223](https://github.com/vircadia/vircadia/pull/1223)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:15
+msgid ""
+"[**docs**][**renderer**] Material System Improvements Part 2: Reference "
+"textures/materials by entity ID. "
+"[#1102](https://github.com/vircadia/vircadia/pull/1102)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:16
+msgid ""
+"Put generated resources and docs into the build directory. "
+"[#943](https://github.com/vircadia/vircadia/pull/943)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:17
+msgid ""
+"Don't use LeapMotion by default. "
+"[#1268](https://github.com/vircadia/vircadia/pull/1268)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:18
+msgid ""
+"Replace uses of \"endl\" on Qt classes with \"Qt::endl\". "
+"[#1270](https://github.com/vircadia/vircadia/pull/1270)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:19
+msgid ""
+"[**scripting api change**] Drop remaining references to "
+"\"QScriptEngineDebugger\". "
+"[#1206](https://github.com/vircadia/vircadia/pull/1206)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:20
+msgid ""
+"Archive CMake logs on Github Actions for debugging. "
+"[#1274](https://github.com/vircadia/vircadia/pull/1274)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:21
+msgid ""
+"Disable cloning of Git submodules with GitHub Actions. "
+"[#1276](https://github.com/vircadia/vircadia/pull/1276)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:22
+msgid ""
+"Create app: Add \"Reset Rotation\" button. "
+"[#1316](https://github.com/vircadia/vircadia/pull/1316)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:23
+msgid ""
+"Update \"Explore\" app to load Metaverse places in parallel. "
+"[#1315](https://github.com/vircadia/vircadia/pull/1315)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:24
+msgid ""
+"Make the HUD bubble/shield button optional. "
+"[#1314](https://github.com/vircadia/vircadia/pull/1314)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:25
+msgid ""
+"Log the location of the primary resources file. "
+"[#1309](https://github.com/vircadia/vircadia/pull/1309)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:26
+msgid ""
+"Add \"Talk\" link to \"Help\" menu. "
+"[#1288](https://github.com/vircadia/vircadia/pull/1288)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:27
+msgid ""
+"Update OpenVR to 1.16.8. "
+"[#1322](https://github.com/vircadia/vircadia/pull/1322)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:28
+msgid ""
+"Reduce stale-bot's aggressiveness. "
+"[#1285](https://github.com/vircadia/vircadia/pull/1285)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:29
+msgid ""
+"Make Zone Selector for \"renderWithZones\" in \"Create\" app HMD "
+"Compliant. [#1252](https://github.com/vircadia/vircadia/pull/1252)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:33
+msgid ""
+"[**linux**] Get \"make-deb-server\" working again with Qt changes to "
+"Vircadia builder. [#1356](https://github.com/vircadia/vircadia/pull/1356)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:34
+msgid ""
+"[**macos**] Fix for nvtt on MacOS. "
+"[#1275](https://github.com/vircadia/vircadia/pull/1275)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:35
+msgid ""
+"[**windows**] Copy resources to Interface's primary directory. "
+"[#1311](https://github.com/vircadia/vircadia/pull/1311)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:36
+msgid ""
+"Fix an avatar crash. "
+"[#1326](https://github.com/vircadia/vircadia/pull/1326)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:37
+msgid ""
+"[**docs**] Correct metadata for the APIDocs. "
+"[#1236](https://github.com/vircadia/vircadia/pull/1236)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:38
+msgid ""
+"[**windows**] Fix \"Ninja does not support toolset specification\" on "
+"Windows. [#1289](https://github.com/vircadia/vircadia/pull/1289)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:39
+msgid ""
+"[**linux**] Fix draco compilation on gcc11. "
+"[#1207](https://github.com/vircadia/vircadia/pull/1207)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:40
+msgid ""
+"[**domain-server**] Add \"disable domain port auto discovery\" option for"
+" assignment clients. "
+"[#1251](https://github.com/vircadia/vircadia/pull/1251)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:41
+msgid ""
+"Replace deprecated QAbstractsocket::error with "
+"QAbstractSocket::errorOccurred. "
+"[#1303](https://github.com/vircadia/vircadia/pull/1303)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:42
+msgid ""
+"Fix nvtt on x86 platforms. "
+"[#1255](https://github.com/vircadia/vircadia/pull/1255)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:43
+msgid ""
+"Fix QString::SplitBehavior deprecation, replace QString::SkipEmptyParts "
+"with Qt::SkipEmptyParts. "
+"[#1302](https://github.com/vircadia/vircadia/pull/1302)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:44
+msgid ""
+"Fix QDir::operator= is deprecated. "
+"[#1301](https://github.com/vircadia/vircadia/pull/1301)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:45
+msgid ""
+"[**docs**] Update user docs links \"docs.vircadia.dev\" -> "
+"\"docs.vircadia.com\". "
+"[#1249](https://github.com/vircadia/vircadia/pull/1249)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:46
+msgid ""
+"Add ability for 'handleLookupString' to have spaces. "
+"[#1244](https://github.com/vircadia/vircadia/pull/1244)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:50
+msgid ""
+"[**docs**] Fix typo in WebSocket~onMessageCallback API documention. "
+"[#1254](https://github.com/vircadia/vircadia/pull/1254)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:51
+msgid ""
+"[**docs**][**windows**] Add basic MSIX instructions to INSTALLER.md. "
+"[#1245](https://github.com/vircadia/vircadia/pull/1245)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:52
+msgid ""
+"[**docs**][**macos**] Update MacOS packaging instructions. "
+"[#1227](https://github.com/vircadia/vircadia/pull/1227)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:53
+msgid ""
+"[**docs**] Update Doxygen group tags to use /// format. "
+"[#1266](https://github.com/vircadia/vircadia/pull/1266)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:54
+msgid ""
+"[**docs**] Quiet Doxygen output. "
+"[#1277](https://github.com/vircadia/vircadia/pull/1277)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:55
+msgid ""
+"[**docs**] Update supporter info for README.md. "
+"[#1293](https://github.com/vircadia/vircadia/pull/1293)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:56
+msgid ""
+"[**docs**] Misc fixes to AddressManager JSDoc. "
+"[#1278](https://github.com/vircadia/vircadia/pull/1278)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:58
+msgid "In Development"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:59
+msgid ""
+"These are changes merged under an active development branch but are not "
+"included in this release."
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:61
+msgid ""
+"[**packet version change**][**web sdk**] Enable Assignment client WebRTC "
+"connections. [#1313](https://github.com/vircadia/vircadia/pull/1313)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:62
+msgid ""
+"[**web sdk**] Fix some WebRTC Doxygen typos. "
+"[#1299](https://github.com/vircadia/vircadia/pull/1299)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:63
+msgid ""
+"[**web sdk**] Implement WebRTC Data Channel. "
+"[#1238](https://github.com/vircadia/vircadia/pull/1238)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:64
+msgid ""
+"[**web sdk**] First exchange of Vircadia protocol packets with the "
+"Vircadia Web SDK. [#1259](https://github.com/vircadia/vircadia/pull/1259)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:65
+msgid ""
+"[**web sdk**] Enable Anonymous Web SDK connection to the Domain server. "
+"[#1300](https://github.com/vircadia/vircadia/pull/1300)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:66
+msgid ""
+"[**web sdk**] Update \"webapp\" branch with master. "
+"[#1329](https://github.com/vircadia/vircadia/pull/1329)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:67
+msgid ""
+"[**web sdk**] Update \"webapp\" branch with master. "
+"[#1296](https://github.com/vircadia/vircadia/pull/1296)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:68
+msgid ""
+"[**web sdk**] Add WebRTC Signaling Channel. "
+"[#1219](https://github.com/vircadia/vircadia/pull/1219)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:70
+msgid ""
+"[Web Interface](https://github.com/vircadia/vircadia-web) (Codename "
+"Aether)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:74
+msgid ""
+"Re-initialize vircadia-web w/ Quasar CLI w/ TypeScript support. "
+"[#15](https://github.com/vircadia/vircadia-web/pull/15)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:75
+msgid ""
+"Bootstrap Babylon.js as the renderer. [#4](https://github.com/vircadia"
+"/vircadia-web/pull/4)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:76
+msgid ""
+"Setup entity & debug modules; update Quasar to stable with Vue 3. "
+"[#12](https://github.com/vircadia/vircadia-web/pull/12)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:77
+msgid ""
+"Refactor code; update dependencies; update UI & modules. "
+"[#10](https://github.com/vircadia/vircadia-web/pull/10)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:78
+msgid ""
+"Update the Audio component's layout. [#9](https://github.com/vircadia"
+"/vircadia-web/pull/9)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:79
+msgid ""
+"Add Vuex and some Metaverse functionality. "
+"[#7](https://github.com/vircadia/vircadia-web/pull/7)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:80
+msgid ""
+"Add test utils to dev environment; Add 'People' component and update "
+"various UI functionality & components. [#6](https://github.com/vircadia"
+"/vircadia-web/pull/6)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:81
+msgid ""
+"Bootstrap UI Framework with Quasar CLI. [#3](https://github.com/vircadia"
+"/vircadia-web/pull/3)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:82
+msgid ""
+"Bootstrap repository with Vue 3. [#1](https://github.com/vircadia"
+"/vircadia-web/pull/1)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:83
+msgid ""
+"WIP: Creating Core UI Modules. [#5](https://github.com/vircadia/vircadia-"
+"web/pull/5)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:87
+msgid ""
+"Change case of include so App.vue compiles on Linux. "
+"[#19](https://github.com/vircadia/vircadia-web/pull/19)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:89
+msgid "[Web SDK](https://github.com/vircadia/vircadia-web-sdk) (Codename Ananke)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:93
+msgid ""
+"[**packet version change**] Setup support for Assignment client WebRTC "
+"connections. [#25](https://github.com/vircadia/vircadia-web-sdk/pull/25)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:94
+msgid ""
+"Move Domain-specific namespaces to be objects in a Domain context. "
+"[#24](https://github.com/vircadia/vircadia-web-sdk/pull/24)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:95
+msgid ""
+"Setup support for Anonymous Web SDK connections to the Domain server. "
+"[#23](https://github.com/vircadia/vircadia-web-sdk/pull/23)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:96
+msgid ""
+"Switch the SDK to TypeScript. [#20](https://github.com/vircadia/vircadia-"
+"web-sdk/pull/20)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:97
+msgid ""
+"Package the Web SDK as a module. [#19](https://github.com/vircadia"
+"/vircadia-web-sdk/pull/19)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:98
+msgid ""
+"[**docs**] Reorganize the SDK files & update documentation. "
+"[#13](https://github.com/vircadia/vircadia-web-sdk/pull/13)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:99
+msgid ""
+"Make connection closes more robust. [#10](https://github.com/vircadia"
+"/vircadia-web-sdk/pull/10)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:100
+msgid ""
+"First exchange of Vircadia protocol packets with the Domain server. "
+"[#9](https://github.com/vircadia/vircadia-web-sdk/pull/9)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:101
+msgid ""
+"Setup Webpack with Babel and ESLint. [#1](https://github.com/vircadia"
+"/vircadia-web-sdk/pull/1)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:102
+msgid ""
+"Setup JSDoc for generating SDK user docs from code comments. "
+"[#3](https://github.com/vircadia/vircadia-web-sdk/pull/3)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:103
+msgid ""
+"[**docs**] Document WebRTC signaling and data channels. "
+"[#7](https://github.com/vircadia/vircadia-web-sdk/pull/7)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:104
+msgid ""
+"Setup WebRTC Data Channel support. [#6](https://github.com/vircadia"
+"/vircadia-web-sdk/pull/6)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:105
+msgid ""
+"Add WebRTC Signaling Channel support. [#5](https://github.com/vircadia"
+"/vircadia-web-sdk/pull/5)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:106
+msgid ""
+"Further modifications to SDK Tooling. [#4](https://github.com/vircadia"
+"/vircadia-web-sdk/pull/4)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:107
+msgid ""
+"Setup SDK stub generation. [#2](https://github.com/vircadia/vircadia-web-"
+"sdk/pull/2)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:109
+msgid "Housekeeping"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:111
+msgid ""
+"Some various housekeeping updates. [#26](https://github.com/vircadia"
+"/vircadia-web-sdk/pull/26)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:112
+msgid ""
+"Fix whitespace. [#18](https://github.com/vircadia/vircadia-web-"
+"sdk/pull/18)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:113
+msgid ""
+"Rename HifiSockAddr to SockAddr. [#15](https://github.com/vircadia"
+"/vircadia-web-sdk/pull/15)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:119
+msgid "Version 2.4.7"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:128
+msgid "Version 2.4.6"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:141
+msgid "Version 2.4.5"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:153
+msgid "Version 2.4.4"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:164
+msgid "Version 2.4.3"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:175
+msgid "Version 2.4.2"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:187
+msgid "Version 2.4.1"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:195
+msgid "Version 2.3.17"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:210
+msgid "Version 2.3.16"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:242
+msgid ""
+"[Full Changelog](https://github.com/vircadia/vircadia-docs-"
+"sphinx/compare/v2021.1.2...v2021.1.3)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:244
+#, fuzzy
+msgid "**Documentation:**"
+msgstr "Dokumentation"
+
+#: ../../source/release-notes/2021-1-3-Eos.md:246
+msgid ""
+"Update documentation repository instructions. "
+"[\\#173](https://github.com/vircadia/vircadia-docs-sphinx/pull/173)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:247
+msgid ""
+"Update Avatar Standards documentation. "
+"[\\#171](https://github.com/vircadia/vircadia-docs-sphinx/pull/171)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:248
+msgid ""
+"Update instructions for animation. [\\#170](https://github.com/vircadia"
+"/vircadia-docs-sphinx/pull/170)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:249
+msgid ""
+"Add contributor note to README.md. [\\#168](https://github.com/vircadia"
+"/vircadia-docs-sphinx/pull/168)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:250
+msgid ""
+"Update Linux Server docs and remove Developer Docs \\(moved to .dev "
+"TLD\\). [\\#166](https://github.com/vircadia/vircadia-docs-"
+"sphinx/pull/166)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:251
+msgid ""
+"Bump Sphinx version to keep compatability with upstream myst-parser. "
+"[\\#163](https://github.com/vircadia/vircadia-docs-sphinx/pull/163)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:252
+msgid ""
+"Remove references for \"Marketplace\" and \"High Fidelity\". "
+"[\\#162](https://github.com/vircadia/vircadia-docs-sphinx/pull/162)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:253
+msgid ""
+"Fix typo for permission settings. [\\#161](https://github.com/vircadia"
+"/vircadia-docs-sphinx/pull/161)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:254
+msgid ""
+"Assign User Permissions: replaced reference to GoTo with Explore. "
+"[\\#160](https://github.com/vircadia/vircadia-docs-sphinx/pull/160)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:255
+msgid ""
+"Set Up a Place Name: fixed dead links and removed references to paying. "
+"[\\#159](https://github.com/vircadia/vircadia-docs-sphinx/pull/159)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:256
+msgid ""
+"Fix links for the Flow app. [\\#158](https://github.com/vircadia"
+"/vircadia-docs-sphinx/pull/158)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:257
+msgid ""
+"Fix URLs \"docs.vircadia.dev\" -\\> \"docs.vircadia.com\". "
+"[\\#157](https://github.com/vircadia/vircadia-docs-sphinx/pull/157)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:258
+msgid ""
+"Update download links for 2021.1.2 Eos release. "
+"[\\#155](https://github.com/vircadia/vircadia-docs-sphinx/pull/155)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:259
+msgid ""
+"Add release notes for 2021.1.2 Eos. [\\#154](https://github.com/vircadia"
+"/vircadia-docs-sphinx/pull/154)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:261
+msgid "**Bug Fixes:**"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:263
+msgid ""
+"Fix search on Sphinx 3.4.x. [\\#164](https://github.com/vircadia"
+"/vircadia-docs-sphinx/pull/164)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:264
+msgid ""
+"Fix SSH for automated documentation deployment. "
+"[\\#153](https://github.com/vircadia/vircadia-docs-sphinx/pull/153)"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:266
+msgid "Developer Docs"
+msgstr ""
+
+#: ../../source/release-notes/2021-1-3-Eos.md:268
+msgid ""
+"Now live at https://docs.vircadia.dev/ and managed in this "
+"[repository](https://github.com/vircadia/vircadia-dev-docs)."
 msgstr ""
 
 #: ../../source/release-notes/v80.md:1
@@ -9036,3 +9732,4 @@ msgstr ""
 #~ "[here](https://docs.vircadia.dev/create/materials/procedural-"
 #~ "shaders.html). (#17)"
 #~ msgstr ""
+
