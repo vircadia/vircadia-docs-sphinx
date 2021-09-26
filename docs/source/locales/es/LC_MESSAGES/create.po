@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-08-28 20:20+0000\n"
-"PO-Revision-Date: 2021-09-19 22:11+0000\n"
+"PO-Revision-Date: 2021-09-26 23:19+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -8411,21 +8411,21 @@ msgstr ""
 
 #: ../../source/create/entities/entity-physics.rst:36
 msgid "Linear Velocity"
-msgstr ""
+msgstr "Velocidad Lineal (Linear Velocity)"
 
 #: ../../source/create/entities/entity-physics.rst:38
 msgid "**Type**: 3D Vector"
-msgstr ""
+msgstr "**Tipo:** Vector 3D"
 
 #: ../../source/create/entities/entity-physics.rst:40
 msgid "**Unit:** meters/second"
-msgstr ""
+msgstr "**Unidad:** metros/segundo"
 
 #: ../../source/create/entities/entity-physics.rst:42
 #: ../../source/create/entities/entity-physics.rst:58
 #: ../../source/create/entities/entity-physics.rst:145
 msgid "**Default Value:** (0,0,0)"
-msgstr ""
+msgstr "**Valor por Defecto:** (0,0,0)"
 
 #: ../../source/create/entities/entity-physics.rst:44
 msgid ""
@@ -8436,37 +8436,51 @@ msgid ""
 "space. Every time your entity moves, its x, y, and z coordinates change "
 "to show you the new position. To change an entity's linear velocity:"
 msgstr ""
+"Puedes elegir hacer que una entidad se mueva en una dirección específica "
+"cambiando su velocidad lineal. La dirección se determina utilizando las "
+"coordenadas x, y o z en un sistema de coordenadas cartesianas 3D. El sistema "
+"de coordenadas cartesianas 3D te ayuda a determinar la posición de tu "
+"entidad en el espacio. Cada vez que tu entidad se mueve, sus coordenadas x, "
+"y y z cambian para mostrarte la nueva posición. Para cambiar la velocidad "
+"lineal de una entidad:"
 
 #: ../../source/create/entities/entity-physics.rst:46
 msgid ""
 "In the 'Properties' tab, scroll down to 'Linear Velocity' property. The "
 "default value is `0.0000`."
 msgstr ""
+"En la pestaña \"Properties\", desplázate hacia abajo hasta la propiedad "
+"\"Linear Velocity\". El valor por defecto es `0.0000`."
 
 #: ../../source/create/entities/entity-physics.rst:47
 msgid ""
 "Say you want to move a cube entity upwards in a straight line. Change the"
 " Y value for linear velocity to `0.1000` and see your cube start moving."
 msgstr ""
+"Supongamos que quieres mover una entidad de cubo hacia arriba en línea "
+"recta. Cambia el valor de Y para la velocidad lineal a `0.1000` y observa "
+"cómo tu cubo comienza a moverse."
 
 #: ../../source/create/entities/entity-physics.rst:48
 msgid ""
 "If you want your cube to change direction, change the x and z values to "
 "`0.1000`."
 msgstr ""
+"Si quieres que tu cubo cambie de dirección, cambie los valores X y Z a `0."
+"1000`."
 
 #: ../../source/create/entities/entity-physics.rst:52
 msgid "Angular Velocity"
-msgstr ""
+msgstr "Velocidad angular (Angular Velocity)"
 
 #: ../../source/create/entities/entity-physics.rst:54
 #: ../../source/create/entities/entity-physics.rst:141
 msgid "**Type:** 3D Vector"
-msgstr ""
+msgstr "**Tipo:** Vector 3D"
 
 #: ../../source/create/entities/entity-physics.rst:56
 msgid "**Unit:** degrees/second"
-msgstr ""
+msgstr "**Unidad:** grados/segundo"
 
 #: ../../source/create/entities/entity-physics.rst:60
 msgid ""
@@ -8474,44 +8488,54 @@ msgid ""
 " direction. It is measured in degrees/second. To change an entity's "
 "angular velocity:"
 msgstr ""
+"La velocidad angular es la velocidad a la que un objeto gira en una "
+"determinada dirección. Se mide en grados/segundo. Para cambiar la velocidad "
+"angular de una entidad:"
 
 #: ../../source/create/entities/entity-physics.rst:62
 msgid ""
 "In the 'Properties' tab, scroll down to the 'Angular Velocity' property. "
 "The default value is `0.0000`."
 msgstr ""
+"En la pestaña \"Properties\", desplázate hacia abajo hasta la propiedad "
+"\"Angular Velocity\". El valor por defecto es `0.0000`."
 
 #: ../../source/create/entities/entity-physics.rst:63
 msgid "Change the X value to see your cube entity start rotating around an axis."
 msgstr ""
+"Cambie el valor de X para ver que tu entidad de cubo comience a girar "
+"alrededor de un eje."
 
 #: ../../source/create/entities/entity-physics.rst:64
 msgid ""
 "If you want your cube entity to change its angular velocity direction, "
 "change the Y and Z values."
 msgstr ""
+"Si quieres que tu entidad de cubo cambie su dirección de velocidad angular, "
+"cambie los valores de Y y Z."
 
 #: ../../source/create/entities/entity-physics.rst:66
 msgid "The scripting engine uses radials/second instead of degrees/second."
 msgstr ""
+"El motor de scripting utiliza radiales/segundo en lugar de grados/segundo."
 
 #: ../../source/create/entities/entity-physics.rst:70
 msgid "Set How a Moving Entity Slows Down"
-msgstr ""
+msgstr "Establecer Cómo se Ralentiza una Entidad en Movimiento"
 
 #: ../../source/create/entities/entity-physics.rst:72
 #: ../../source/create/entities/entity-physics.rst:123
 msgid "**Type**: Scalar"
-msgstr ""
+msgstr "**Tipo:** Escalar"
 
 #: ../../source/create/entities/entity-physics.rst:74
 #: ../../source/create/entities/entity-physics.rst:103
 msgid "**Range:** 0 - 1"
-msgstr ""
+msgstr "**Rango:** 0 - 1"
 
 #: ../../source/create/entities/entity-physics.rst:76
 msgid "**Default Value:** 0.00"
-msgstr ""
+msgstr "**Valor por Defecto:** 0.00"
 
 #: ../../source/create/entities/entity-physics.rst:78
 msgid ""
@@ -8524,20 +8548,34 @@ msgid ""
 " lose all its velocity and stop immediately. If you want to throw a ball "
 "and have it slow down over time, you can add a damping value to do so."
 msgstr ""
+"En Vircadia, la amortiguación representa la cantidad de velocidad lineal o "
+"angular de una entidad que se pierde con el tiempo. Todos los objetos en "
+"movimiento que vemos en el mundo real experimentan cierta fricción con el "
+"aire, reduciendo sus velocidades con el tiempo. La amortiguación se utiliza "
+"para aproximar este efecto del mundo real en Vircadia. Entonces, si la "
+"amortiguación de un objeto es`0.00`, no perderá nada velocidad y no se "
+"ralentizará. Si la amortiguación de un objeto es`1.00`, perderá toda su "
+"velocidad y se detendrá inmediatamente. Si quieres lanzar una pelota y hacer "
+"que se ralentice con el tiempo, puedes agregar un valor de amortiguación "
+"para hacerlo."
 
 #: ../../source/create/entities/entity-physics.rst:80
 msgid "To set the linear damping of an object:"
-msgstr ""
+msgstr "Para establecer la amortiguación lineal de un objeto:"
 
 #: ../../source/create/entities/entity-physics.rst:82
 msgid ""
 "In the 'Properties' tab, scroll down to the 'Linear Damping' property. "
 "The default value is `0.00`."
 msgstr ""
+"En la pestaña de \"Properties\", desplázate hacia la propiedad "
+"\"Amortiguación lineal\". Es valor por defecto es `0.00`."
 
 #: ../../source/create/entities/entity-physics.rst:83
 msgid "`Change the linear velocity <#linear-velocity>`_ of a cube to any value."
 msgstr ""
+"`Cambiar la velocidad lineal <#linear-velocity>`_ de un cubo a cualquier "
+"valor."
 
 #: ../../source/create/entities/entity-physics.rst:84
 msgid ""
@@ -8545,20 +8583,28 @@ msgid ""
 " You can change this value to anything between `0.00` and `1.00` to make "
 "an entity slow down over time."
 msgstr ""
+"Cambia el valor de \"Linear Damping\" (Amortiguación Lineal) a `1.00` para "
+"hacer que el cubo deje de moverse. Puedes cambiar este valor a cualquier "
+"valor entre `0.00` y `1.00` para hacer que una entidad se ralentice con el "
+"tiempo."
 
 #: ../../source/create/entities/entity-physics.rst:86
 msgid "To set the angular damping of an object:"
-msgstr ""
+msgstr "Para establecer la amortiguación angular de un objeto:"
 
 #: ../../source/create/entities/entity-physics.rst:88
 msgid ""
 "In the 'Properties' tab, scroll down to the 'Angular Damping' property. "
 "The default value is `0.00`."
 msgstr ""
+"En la pestaña de \"Properties\", desplázate hacia la propiedad \"Angular "
+"Damping\". El valor por defecto es `0.00`."
 
 #: ../../source/create/entities/entity-physics.rst:89
 msgid "`Change the angular velocity <#angular-velocity>`_ of a cube to any value."
 msgstr ""
+"`Cambiar la velocidad angular <#angular-velocity>`_ de un cubo a cualquier "
+"valor."
 
 #: ../../source/create/entities/entity-physics.rst:90
 msgid ""
@@ -8566,14 +8612,17 @@ msgid ""
 "moving. You can change this value to anything between `0.00` and `1.00` "
 "to make an entity slow down over time."
 msgstr ""
+"Cambia el valor de \"Angular Damping\" (Amortiguación angular) a `1.00`para "
+"hacer que el cubo deje de moverse. Puedes cambiar este valor entre `0.00` y "
+"`1.00`para que la entidad se ralentice con el tiempo."
 
 #: ../../source/create/entities/entity-physics.rst:101
 msgid "Set an Entity's Friction and Bounciness"
-msgstr ""
+msgstr "Establecer la Fricción y el Rebote de una Entidad"
 
 #: ../../source/create/entities/entity-physics.rst:105
 msgid "**Default Value:** 0.5000"
-msgstr ""
+msgstr "**Valor por Defecto:** 0.5000"
 
 #: ../../source/create/entities/entity-physics.rst:107
 msgid ""
@@ -8582,6 +8631,10 @@ msgid ""
 "for friction and bounciness determine this reaction. By default, both "
 "values are `0.5000`."
 msgstr ""
+"Cuando una entidad dinámica choca con otra entidad, puede reaccionar de "
+"varias formas dependiendo de sus propiedades físicas. Los valores que "
+"establezcas para la fricción y el rebote determinan esta reacción. Por "
+"defecto, ambos valores son `0.5000`."
 
 #: ../../source/create/entities/entity-physics.rst:109
 msgid ""
@@ -8590,10 +8643,16 @@ msgid ""
 "distance before coming to a stop. On the other hand, an entity with high "
 "friction will slow down much faster. To set the friction of an entity:"
 msgstr ""
+"La fricción es una medida de cuán resbaladizo es un objeto. Cuando una "
+"entidad con baja fricción choca contra otro objeto, se deslizará una buena "
+"distancia antes de detenerse. Por otro lado, una entidad con alta fricción "
+"se ralentizará mucho más rápido. Para establecer la fricción de una entidad:"
 
 #: ../../source/create/entities/entity-physics.rst:111
 msgid "In the 'Properties' tab, scroll down to the 'Friction' property."
 msgstr ""
+"En la pestaña de \"Properties\", desplázate hasta la propiedad \"Friction\" "
+"(Fricción)."
 
 #: ../../source/create/entities/entity-physics.rst:112
 msgid ""
@@ -8601,6 +8660,9 @@ msgid ""
 "with a friction of `0.0000` will be very slippery, while an entity with a"
 " friction of `1.0000` will have a coarse or sticky surface."
 msgstr ""
+"Cambia el valor a cualquiera entre `0,0000` y `1,0000`. Una entidad con una "
+"fricción de `0.0000` será muy resbaladiza, mientras que una entidad con una "
+"fricción de `1.0000` tendrá una superficie áspera o pegajosa."
 
 #: ../../source/create/entities/entity-physics.rst:114
 msgid ""
@@ -8608,10 +8670,14 @@ msgid ""
 "example, a ball will conserve more energy and bounce more than a heavy "
 "cube. To set the bounciness:"
 msgstr ""
+"El rebote es la energía que una entidad conserva durante una colisión. Por "
+"ejemplo, una pelota conservará más energía y rebotará más que un cubo "
+"pesado. Para configurar el rebote:"
 
 #: ../../source/create/entities/entity-physics.rst:116
 msgid "In the 'Properties' tab, scroll down to the 'Bounciness' property."
 msgstr ""
+"En la pestaña \"Properties\", desplázate hacia la propiedad \"Bounciness\"."
 
 #: ../../source/create/entities/entity-physics.rst:117
 msgid ""
@@ -8619,6 +8685,9 @@ msgid ""
 "with a bounciness of `0.0000` will conserve no energy, while an entity "
 "with a bounciness of `1.0000` will conserve all of its energy."
 msgstr ""
+"Cambia el valor a cualquiera entre`0.0000` y `1.0000`. Una entidad con un "
+"rebote de`0.0000`no conservará energía, mientras que una entidad con un "
+"rebote de `1.0000` conservará toda su energía."
 
 #: ../../source/create/entities/entity-physics.rst:121
 msgid "Set an Entity's Density"
