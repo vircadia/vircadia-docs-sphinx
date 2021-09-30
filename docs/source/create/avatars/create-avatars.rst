@@ -38,16 +38,10 @@ The steps involved in creating your avatar are:
 3. Fine tune your avatar using a tool such as Blender or Maya.
 4. Package the model in Vircadia for use as an avatar.
 
-Check out this YouTube playlist for one way to create and customize your own avatar. Here, we use Mixamo to rig our avatar automatically, and Blender to adjust the rendering on our avatar. We also have written instructions on the same process:
-
 * :doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`
 * :doc:`Modify Materials and Textures with Blender <blender-tutorial>`
 
 .. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/6NfiH4rdVRM" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 100px; width: 70%; height: 70%;"></iframe>
-    </div>
 
 -------------------------------
 Community Tools for Avatars
