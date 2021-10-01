@@ -4,33 +4,38 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-05-02 08:26+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-10-01 20:29+0000\n"
+"Last-Translator: jose manuel <elmanytas@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/security/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/security.rst:7 ../../source/security/crash-reporting.rst:3
 msgid "Crash Reporting"
-msgstr ""
+msgstr "Reporte de Errores"
 
 #: ../../source/security.rst:3
 msgid "Security"
-msgstr ""
+msgstr "Seguridad"
 
 #: ../../source/security.rst:5
 msgid ""
 "Security information about the project and its components: Interface, "
 "server, and the metaverse server."
 msgstr ""
+"Información de seguridad sobre el proyecto y sus componentes: Interfaz, "
+"servidor y el servidor de metaverso."
 
 #: ../../source/security/crash-reporting.rst:5
 #: ../../source/security/reporting/crash-reporting.md:1
@@ -45,6 +50,11 @@ msgid ""
 "server that the Vircadia developers have access to. The current crash "
 "management server is called [Sentry](https://sentry.io/)."
 msgstr ""
+"Tu interfaz tiene el reporte de errores desactivado por defecto. Puedes "
+"activarlo/desactivarlo en el menú **Settings > General. Cuando esté "
+"activado, la interfaz enviará un minidump de información al servidor de "
+"reportes al que los desarrolladores de Vircadia tienen acceso. El actual "
+"servidor de gestion de errores se llama [Sentry](https://sentry.io/)."
 
 #: ../../source/security/reporting/crash-reporting.md:5
 msgid ""
@@ -52,22 +62,26 @@ msgid ""
 "/#what-is-a-minidump) on what a minidump is and how it's handled by "
 "Sentry."
 msgstr ""
+"Aquí hay [información](https://docs.sentry.io/platforms/native/minidump/"
+"#what-is-a-minidump) sobre que es un minidump y como es tratado por Sentry."
 
 #: ../../source/security/reporting/crash-reporting.md:7
 msgid "Here is a list of extra metadata that is collected with a crash report:"
 msgstr ""
+"Aquí hay una lista de metadatos extras que se recolectan en un reporte de "
+"errores:"
 
 #: ../../source/security/reporting/crash-reporting.md:9
 msgid "Username"
-msgstr ""
+msgstr "Nombre de Usuario"
 
 #: ../../source/security/reporting/crash-reporting.md:10
 msgid "Domain + location"
-msgstr ""
+msgstr "Dominio + localización"
 
 #: ../../source/security/reporting/crash-reporting.md:11
 msgid "Avatar URL"
-msgstr ""
+msgstr "URL de Avatar"
 
 #: ../../source/security/reporting/crash-reporting.md:12
 msgid "Build type"
@@ -83,7 +97,7 @@ msgstr ""
 
 #: ../../source/security/reporting/crash-reporting.md:15
 msgid "Desktop/VR mode"
-msgstr ""
+msgstr "Escritorio/modo VR"
 
 #: ../../source/security/reporting/crash-reporting.md:16
 msgid "Machine fingerprint"
@@ -91,7 +105,7 @@ msgstr ""
 
 #: ../../source/security/reporting/crash-reporting.md:17
 msgid "Metaverse session UUID"
-msgstr ""
+msgstr "UUID de sesión en Metaverso"
 
 #~ msgid ""
 #~ "Your interface has crash reporting "
@@ -110,4 +124,3 @@ msgstr ""
 #~ "minidump is and how it's handled "
 #~ "by Sentry."
 #~ msgstr ""
-

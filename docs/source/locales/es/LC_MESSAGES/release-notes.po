@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-09-24 20:40+0000\n"
-"PO-Revision-Date: 2021-04-18 00:01+0000\n"
-"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"PO-Revision-Date: 2021-10-01 20:29+0000\n"
+"Last-Translator: jose manuel <elmanytas@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/release-notes/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/release-notes/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/release-notes.rst:7
@@ -5442,7 +5443,7 @@ msgstr ""
 
 #: ../../source/release-notes/v81.md:35
 msgid "Security"
-msgstr ""
+msgstr "Seguridad"
 
 #: ../../source/release-notes/v81.md:37
 msgid ""
@@ -9567,4 +9568,3 @@ msgstr ""
 #~ "[here](https://docs.vircadia.dev/create/materials/procedural-"
 #~ "shaders.html). (#17)"
 #~ msgstr ""
-
