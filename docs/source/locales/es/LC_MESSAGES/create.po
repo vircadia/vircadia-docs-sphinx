@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-08-28 20:20+0000\n"
-"PO-Revision-Date: 2021-09-27 01:52+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-10-03 09:57+0000\n"
+"Last-Translator: jose manuel <elmanytas@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -3399,7 +3399,7 @@ msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:22
 msgid "**In This Section**"
-msgstr "**En Esta Sección**"
+msgstr "**En esta Sección**"
 
 #: ../../source/create/avatars/create-avatars.rst:32
 msgid "Create an Avatar from Scratch"
@@ -8691,19 +8691,19 @@ msgstr ""
 
 #: ../../source/create/entities/entity-physics.rst:121
 msgid "Set an Entity's Density"
-msgstr ""
+msgstr "Ajusta la Densidad de una Entidad"
 
 #: ../../source/create/entities/entity-physics.rst:125
 msgid "**Unit:** kg/meter³"
-msgstr ""
+msgstr "**Unidad:** kg/metro³"
 
 #: ../../source/create/entities/entity-physics.rst:127
 msgid "**Range:** 100 - 10000"
-msgstr ""
+msgstr "**Rango:** 100 - 10000"
 
 #: ../../source/create/entities/entity-physics.rst:129
 msgid "**Default Value:** 1000.0000"
-msgstr ""
+msgstr "**Valor por Omisión:** 1000.0000"
 
 #: ../../source/create/entities/entity-physics.rst:131
 msgid ""
