@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-09-26 23:19+0000\n"
-"PO-Revision-Date: 2021-10-01 20:29+0000\n"
+"PO-Revision-Date: 2021-10-03 06:25+0000\n"
 "Last-Translator: jose manuel <elmanytas@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -160,12 +160,12 @@ msgstr "Configura tus Dispositivos de Audio"
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/vr-controls.rst:7
 msgid "Use Your VR Equipment"
-msgstr "Usa Tu Equipamiento VR"
+msgstr "Usa tu Equipamiento VR"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/desktop.rst:3
 msgid "Explore in Desktop Mode"
-msgstr "Explora en Modo Desktop"
+msgstr "Explora en Modo Escritorio"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/adjust-settings.rst:7
@@ -175,7 +175,7 @@ msgstr "Ajusta tus Preferencias"
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/android.rst:3
 msgid "Get Our Android App"
-msgstr "Consigue Tu App para Android"
+msgstr "Consigue tu App para Android"
 
 #: ../../source/explore/get-started.rst:5
 msgid ""
@@ -192,7 +192,7 @@ msgstr ""
 
 #: ../../source/explore/get-started.rst:7
 msgid "**In This Section**"
-msgstr "**En Esta Sección**"
+msgstr "**En esta Sección**"
 
 #: ../../source/explore/get-started/adjust-settings.rst:2
 msgid ""
