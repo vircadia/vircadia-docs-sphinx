@@ -31,7 +31,7 @@ Windows
 5. In your Vircadia Interface, open the `Explore` app and enter `localhost` (or the server's IP address) to get there.
 
 ----------------------------
-Linux .rpm
+Amazon Linux 2 (.rpm)
 ----------------------------
 
 1. Open your terminal.
@@ -43,15 +43,15 @@ Linux .rpm
 5. In your Vircadia Interface, open the `Explore` app and enter your server's IP address to get there.
 
 ----------------------------
-Linux .deb
+Ubuntu 18.04 Linux (.deb)
 ----------------------------
 
 1. Open your terminal.
-2. Run the following command to download the server:
+2. Run the following command to download the server package:
 
     wget |serverdeb|
 
-3. Then run this command to update and install the server: 
+3. Then run this command to update the package index and install the server: 
 
     sudo apt-get update && sudo apt-get install ./|serverdebfile|
 
