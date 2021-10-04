@@ -4,59 +4,63 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
+"POT-Creation-Date: 2021-08-28 20:20+0000\n"
+"PO-Revision-Date: 2021-09-24 20:40+0000\n"
+"Last-Translator: 川音リオ <rio.kawane@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/create/ja/>\n"
+"Language: jp\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 msgid "Create Tools"
-msgstr ""
+msgstr "クリエイターツール"
 
 #: ../../source/create.rst:11 ../../source/create/avatars.rst:3
 msgid "Avatars"
-msgstr ""
+msgstr "アバター"
 
 #: ../../source/create.rst:11 ../../source/create/wearables.md:6
 msgid "Wearables"
-msgstr ""
+msgstr "装飾品"
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
 msgid "Entities"
-msgstr ""
+msgstr "エンティティー"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:54
 #: ../../source/create/3d-models/get-model.rst:59
 #: ../../source/create/materials.rst:3
 msgid "Materials"
-msgstr ""
+msgstr "マテリアル"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models.rst:3
 msgid "3D Models"
-msgstr ""
+msgstr "3Dモデル"
 
 #: ../../source/create.rst:11 ../../source/create/environments.rst:3
 msgid "Environments"
-msgstr ""
+msgstr "環境"
 
 #: ../../source/create.rst:11 ../../source/create/applications.rst:7
 msgid "Tablet Apps"
-msgstr ""
+msgstr "タブアプリ"
 
 #: ../../source/create.rst:3
 msgid "Create"
-msgstr ""
+msgstr "作る"
 
 #: ../../source/create.rst:5
+#, fuzzy
 msgid ""
 "Vircadia enables people connected by interest, community, and friendship "
 "to come together and express their creativity with each other. We invite "
@@ -65,42 +69,47 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Vircadia engine is encouraged!"
 msgstr ""
+"Vircadiaでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザーが集まり、お互いの創造性を表現することができます。ここではアバターや"
+"コンテンツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならではのものへとパーソナライズすることが可能です。メタバースを自分の好きな"
+"世界へ変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Vircadiaエンジン」を使って没入型のプロジェクトを構築することをオスス"
+"メします。"
 
 #: ../../source/create.rst:7
 msgid ""
 "No matter your level of expertise, Vircadia provides the tools you need "
 "to create anything you can imagine."
-msgstr ""
+msgstr "専門知識のレベルに関わらず、Vircadiaはあなたが想像できるあらゆるものを作成するために必要なツールを提供します。"
 
 #: ../../source/create.rst:9
+#, fuzzy
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
-msgstr ""
+msgstr "この章ではエンティティの作成や環境の構築方法を学ぶことができます。"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
 msgid "Get Your 3D Model"
-msgstr ""
+msgstr "3Dモデルの入手"
 
 #: ../../source/create/3d-models.rst:11
 msgid "Import Your 3D Model"
-msgstr ""
+msgstr "3Dモデルのエクスポート"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:5
 msgid "PBR Materials Guide"
-msgstr ""
+msgstr "PBRマテリアルガイド"
 
 #: ../../source/create/3d-models.rst:11 ../../source/create/materials.rst:9
 #: ../../source/create/materials/procedural-shaders.rst:3
 msgid "Procedural Shaders for Models and Avatars"
-msgstr ""
+msgstr "モデルやアバター用の手続型(プロシージャル)シェーダー"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/import-animations.rst:3
 msgid "Import Animations"
-msgstr ""
+msgstr "アニメーションのインポート"
 
 #: ../../source/create/3d-models.rst:5
 msgid ""
@@ -246,7 +255,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/get-model.rst:43
-#: ../../source/create/3d-models/import-animations.rst:43
+#: ../../source/create/3d-models/import-animations.rst:47
 #: ../../source/create/entities/create-fountain.rst:35
 #: ../../source/create/entities/zone-entity.rst:18
 #: ../../source/create/entities/zone-entity.rst:60
@@ -309,7 +318,7 @@ msgstr ""
 #: ../../source/create/3d-models/get-model.rst:74
 #: ../../source/create/3d-models/get-model.rst:77
 #: ../../source/create/3d-models/pbr-materials-guide.rst:27
-#: ../../source/create/avatars/avatar-standards.md:172
+#: ../../source/create/avatars/avatar-standards.md:257
 msgid "Textures"
 msgstr ""
 
@@ -448,25 +457,32 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:25
 msgid ""
+"Disable any kind of keyframe reduction. For example, in Blender, set the "
+"\"simplify\" setting to 0.00 when exporting an FBX file otherwise the "
+"animation may not play correctly."
+msgstr ""
+
+#: ../../source/create/3d-models/import-animations.rst:29
+msgid ""
 "Export your animation as an FBX file. (Reading animations from other "
 "formats like glTF is currently not supported.)"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:26
+#: ../../source/create/3d-models/import-animations.rst:30
 msgid "Upload this FBX file to a cloud server and copy the URL."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:30
+#: ../../source/create/3d-models/import-animations.rst:34
 msgid "Import an Animation"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:32
+#: ../../source/create/3d-models/import-animations.rst:36
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
 " 3D model and it's animation into Vircadia."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:34
+#: ../../source/create/3d-models/import-animations.rst:38
 #: ../../source/create/3d-models/import-model.rst:17
 #: ../../source/create/3d-models/import-model.rst:30
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:43
@@ -498,7 +514,7 @@ msgstr ""
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:35
+#: ../../source/create/3d-models/import-animations.rst:39
 msgid ""
 "Click on the 'MODEL' icon and enter your 3D model's URL. If you have "
 "saved your 3D model's FBX file with the animation, the model's URL and "
@@ -506,17 +522,17 @@ msgid ""
 "as a separate FBX file."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:36
+#: ../../source/create/3d-models/import-animations.rst:40
 msgid ""
 "In the 'Properties' tab, scroll down to 'Animation' and paste the "
 "animation's URL."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:40
+#: ../../source/create/3d-models/import-animations.rst:44
 msgid "You can edit the following animation properties:"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:43
+#: ../../source/create/3d-models/import-animations.rst:47
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
 #: ../../source/create/avatars/add-flow.rst:46
 #: ../../source/create/avatars/add-flow.rst:66
@@ -545,88 +561,88 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:45
+#: ../../source/create/3d-models/import-animations.rst:49
 msgid "Play Automatically"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:45
+#: ../../source/create/3d-models/import-animations.rst:49
 msgid ""
 "Enable this to play your animation automatically when a user loads a "
 "domain."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:47
+#: ../../source/create/3d-models/import-animations.rst:51
 msgid "Loop"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:47
+#: ../../source/create/3d-models/import-animations.rst:51
 msgid "Select this property to play your animation in a continuous loop."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:49
+#: ../../source/create/3d-models/import-animations.rst:53
 msgid "Allow Transition"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:49
+#: ../../source/create/3d-models/import-animations.rst:53
 msgid ""
 "Enable this to let the animation move through space. This means that the "
 "joints will not only rotate, but translate through three dimensions."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:52
+#: ../../source/create/3d-models/import-animations.rst:56
 msgid "Hold"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:52
+#: ../../source/create/3d-models/import-animations.rst:56
 msgid "Select to pause your animation at a particular frame."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:54
+#: ../../source/create/3d-models/import-animations.rst:58
 msgid "Animation Frame"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:54
+#: ../../source/create/3d-models/import-animations.rst:58
 msgid "Enter the frame at which you want to pause or hold your animation."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:56
+#: ../../source/create/3d-models/import-animations.rst:60
 msgid "First Frame"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:56
+#: ../../source/create/3d-models/import-animations.rst:60
 msgid "This is the first frame from when your want your animation to start."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:58
+#: ../../source/create/3d-models/import-animations.rst:62
 msgid "Last Frame"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:58
+#: ../../source/create/3d-models/import-animations.rst:62
 msgid ""
 "This is the last frame where you want your animation to stop. It will not"
 " play beyond this specified frame."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:61
+#: ../../source/create/3d-models/import-animations.rst:65
 msgid "Animation FPS"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:61
+#: ../../source/create/3d-models/import-animations.rst:65
 msgid "This is the animation's framerate."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:64
+#: ../../source/create/3d-models/import-animations.rst:68
 msgid ""
 "You can also control an animation's properties and when it starts playing"
 " with an :doc:`entity script <../../script/client-entity-scripts>`."
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:66
+#: ../../source/create/3d-models/import-animations.rst:70
 #: ../../source/create/3d-models/import-model.rst:37
 #: ../../source/create/3d-models/pbr-materials-guide.rst:153
 #: ../../source/create/applications.rst:297
 #: ../../source/create/avatars/add-flow.rst:127
-#: ../../source/create/avatars/avatar-standards.md:187
+#: ../../source/create/avatars/avatar-standards.md:272
 #: ../../source/create/avatars/blender-tutorial.md:52
 #: ../../source/create/avatars/create-avatars.rst:76
 #: ../../source/create/avatars/custom-animations.rst:269
@@ -657,7 +673,7 @@ msgstr ""
 msgid "**See Also**"
 msgstr ""
 
-#: ../../source/create/3d-models/import-animations.rst:68
+#: ../../source/create/3d-models/import-animations.rst:72
 msgid ":doc:`Import Your 3D Model <import-model>`"
 msgstr ""
 
@@ -2141,14 +2157,299 @@ msgid "Here is an example of modifying your blendshapes in your FST file:"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:167
-msgid "Other Considerations"
+msgid "**ReadyPlayerMe Blendshapes**"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:169
+msgid ""
+"ReadyPlayerMe blendshapes are converted into Vircadia blendshapes "
+"automatically."
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:171
+msgid "**Unsupported Blendshapes**"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:173
+msgid ""
+"To utilize blendshapes present on avatars, they must match the "
+"blendshapes below. Alternatively, an .fst file can be used to remap the "
+"blendshapes to any of the ones below."
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:175
+msgid "**Eye Blendshapes**"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:177
+msgid "EyeBlink_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:178
+msgid "EyeBlink_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:179
+msgid "EyeSquint_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:180
+msgid "EyeSquint_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:181
+msgid "EyeDown_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:182
+msgid "EyeDown_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:183
+msgid "EyeIn_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:184
+msgid "EyeIn_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:185
+msgid "EyeOpen_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:186
+msgid "EyeOpen_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:187
+msgid "EyeOut_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:188
+msgid "EyeOut_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:189
+msgid "EyeUp_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:190
+msgid "EyeUp_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:191
+msgid "BrowsD_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:192
+msgid "BrowsD_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:193
+msgid "BrowsU_C"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:194
+msgid "BrowsU_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:195
+msgid "BrowsU_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:197
+msgid "**Jaw Blendshapes**"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:199
+msgid "JawFwd"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:200
+msgid "JawLeft"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:201
+msgid "JawOpen"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:202
+msgid "JawRight"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:203
+msgid "MouthLeft"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:204
+msgid "MouthRight"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:205
+msgid "MouthFrown_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:206
+msgid "MouthFrown_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:207
+msgid "MouthSmile_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:208
+msgid "MouthSmile_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:209
+msgid "MouthDimple_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:210
+msgid "MouthDimple_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:212
+msgid "**Lip Blendshapes**"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:214
+msgid "LipsStretch_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:215
+msgid "LipsStretch_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:216
+msgid "LipsUpperClose"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:217
+msgid "LipsLowerClose"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:218
+msgid "LipsFunnel"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:219
+msgid "LipsPucker"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:220
+msgid "Puff"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:222
+msgid "**Mouth, Cheek and User Blendshapes**"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:224
+msgid "CheekSquint_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:225
+msgid "CheekSquint_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:227
+msgid "MouthClose"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:228
+msgid "MouthUpperUp_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:229
+msgid "MouthUpperUp_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:230
+msgid "MouthLowerDown_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:231
+msgid "MouthLowerDown_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:232
+msgid "MouthPress_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:233
+msgid "MouthPress_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:234
+msgid "MouthShrugLower"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:235
+msgid "MouthShrugUpper"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:236
+msgid "NoseSneer_L"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:237
+msgid "NoseSneer_R"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:238
+msgid "TongueOut"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:240
+msgid "UserBlendshape0"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:241
+msgid "UserBlendshape1"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:242
+msgid "UserBlendshape2"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:243
+msgid "UserBlendshape3"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:244
+msgid "UserBlendshape4"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:245
+msgid "UserBlendshape5"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:246
+msgid "UserBlendshape6"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:247
+msgid "UserBlendshape7"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:248
+msgid "UserBlendshape8"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:249
+msgid "UserBlendshape9"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:252
+msgid "Other Considerations"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:254
 msgid "File Optimization"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:170
+#: ../../source/create/avatars/avatar-standards.md:255
 msgid ""
 "Content creators will have limited bandwidth on servers (read small print"
 " on any unlimited host plans) so optimization is important, for both the "
@@ -2157,7 +2458,7 @@ msgid ""
 "Optimally, keep your avatar models under 20 MB."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:173
+#: ../../source/create/avatars/avatar-standards.md:258
 msgid ""
 "We recommend that you try to keep total size of all the textures per "
 "avatar below 8 MB. They should be always smaller than 1024x1024, unless "
@@ -2169,11 +2470,11 @@ msgid ""
 " instead of color variation."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:175
+#: ../../source/create/avatars/avatar-standards.md:260
 msgid "Avatar Collision Hulls"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:177
+#: ../../source/create/avatars/avatar-standards.md:262
 msgid ""
 "When you wear different avatars, you'll notice that each avatar has a "
 "different collision shape or _collision hull_. The collision hull is the "
@@ -2181,7 +2482,7 @@ msgid ""
 "other avatars or entities collide with you."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:179
+#: ../../source/create/avatars/avatar-standards.md:264
 msgid ""
 "Depending on the avatar's design, the collision hulls can be very large "
 "or small. This occurs because Vircadia analyzes the shape of the avatar's"
@@ -2192,11 +2493,11 @@ msgid ""
 "collision hull, you can add skeleton joints to your avatar's tail."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:182
+#: ../../source/create/avatars/avatar-standards.md:267
 msgid "Avatar Thumbnails"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:184
+#: ../../source/create/avatars/avatar-standards.md:269
 msgid ""
 "The Avatar app will look for a thumbnail with a .jpg extension with the "
 "same name and at the same URL location as your avatar's. For example, if "
@@ -2204,18 +2505,18 @@ msgid ""
 "look for a thumbnail at `https://vircadia.dev/avatar.jpg`."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:189
+#: ../../source/create/avatars/avatar-standards.md:274
 #: ../../source/create/avatars/blender-tutorial.md:56
 #: ../../source/create/avatars/fuse-tutorial.md:26
 #: ../../source/create/avatars/mixamo-tutorial.md:29
 msgid "[Create Your Own Avatar](create-avatars)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:190
+#: ../../source/create/avatars/avatar-standards.md:275
 msgid "[Find and Use an Existing Avatar](find-avatars)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:191
+#: ../../source/create/avatars/avatar-standards.md:276
 msgid "[Add Flow to Your Avatar](add-flow)"
 msgstr ""
 
@@ -11521,4 +11822,3 @@ msgstr ""
 #~ "on](../explore/personalize/add-wearables) and adopt"
 #~ " your new look."
 #~ msgstr ""
-

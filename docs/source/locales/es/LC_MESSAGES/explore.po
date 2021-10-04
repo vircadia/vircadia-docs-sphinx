@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-06-29 00:24+0000\n"
-"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"POT-Creation-Date: 2021-09-26 23:19+0000\n"
+"PO-Revision-Date: 2021-10-03 06:25+0000\n"
+"Last-Translator: jose manuel <elmanytas@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
 "Language: es\n"
@@ -23,31 +23,31 @@ msgstr ""
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
 msgid "Gallery"
-msgstr ""
+msgstr "Galería"
 
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 msgid "Get Started with Vircadia"
-msgstr ""
+msgstr "Comenzar con Vircadia"
 
 #: ../../source/explore.rst:11 ../../source/explore/personalize.rst:3
 msgid "Personalize Your Experience"
-msgstr ""
+msgstr "Personaliza tu Experiencia"
 
 #: ../../source/explore.rst:11 ../../source/explore/socialize.rst:3
 msgid "Socialize with Others"
-msgstr ""
+msgstr "Socializa con Otros"
 
 #: ../../source/explore.rst:11 ../../source/explore/travel.md:6
 msgid "Travel Between Worlds"
-msgstr ""
+msgstr "Viaja Entre Mundos"
 
 #: ../../source/explore.rst:11 ../../source/explore/interact.md:1
 msgid "Interact with Your Environment"
-msgstr ""
+msgstr "Interactúa con Tu Entorno"
 
 #: ../../source/explore.rst:3
 msgid "Explore"
-msgstr ""
+msgstr "Explora"
 
 #: ../../source/explore.rst:5
 msgid ""
@@ -57,6 +57,11 @@ msgid ""
 "events, and learn about creation in virtuality. It's an immersive and "
 "interactive experience with realistic visuals and audio."
 msgstr ""
+"Vircadia es un metaverso al que puedes conectarte y crear con otros. Te "
+"invitamos a explorar los mundos creados en Vircadia e interactuar con otros "
+"usuarios. Puedes visitar mundos virtuales de amigos, conocer gente, ir a "
+"eventos, y aprender sobre la creación en un entorno virtual. Es una "
+"experiencia inmersiva e interactiva con visualización y audio realistas."
 
 #: ../../source/explore.rst:7
 msgid ""
@@ -67,16 +72,26 @@ msgid ""
 " metaverse. If you've visited Vircadia before, you will return to the "
 "location where you last visited."
 msgstr ""
+"Si es tu primera vez usando Vircadia, puedes empezar tu viaje en un tutorial "
+"en un espacio local por ti mismo, donde puedes experimentar con los "
+"controles y aprender sobre la Interfaz. Cuando estés listo, prueba a "
+"explorar otros Dominios usando la app de Exploración y socializar con "
+"personas alrededor del metaverso. Si visitaste Vircadia antes, volverás al "
+"lugar que visitaste por última vez."
 
 #: ../../source/explore.rst:9
 msgid "Throughout this chapter, learn how to make the most of your exploration:"
 msgstr ""
+"A lo largo de este capítulo, aprende como conseguir lo máximo de tu "
+"exploración:"
 
 #: ../../source/explore/gallery.rst:5
 msgid ""
 "This gallery showcases the Vircadia Interface and some past events and "
 "locations attended with it."
 msgstr ""
+"Esta galería muestra la Interfaz de Vircadia y algunos eventos pasados y "
+"lugares a los que asistió."
 
 #: ../../source/explore/gallery.rst:12
 msgid ""
@@ -124,43 +139,43 @@ msgstr "**Ver también**"
 
 #: ../../source/explore/gallery.rst:60
 msgid ":doc:`Install Vircadia <get-started/install>`"
-msgstr ""
+msgstr ":doc:`Instala Vircadia <get-started/install>`"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/install.rst:3
 #: ../../source/explore/get-started/install.rst:119
 msgid "Install Vircadia"
-msgstr ""
+msgstr "Instala Vircadia"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/architecture.rst:7
 msgid "Understand the Architecture"
-msgstr ""
+msgstr "Comprende la Arquitectura"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/setup-audio.rst:7
 msgid "Set Up Your Audio Devices"
-msgstr ""
+msgstr "Configura tus Dispositivos de Audio"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/vr-controls.rst:7
 msgid "Use Your VR Equipment"
-msgstr ""
+msgstr "Usa tu Equipamiento VR"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/desktop.rst:3
 msgid "Explore in Desktop Mode"
-msgstr ""
+msgstr "Explora en Modo Escritorio"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/adjust-settings.rst:7
 msgid "Adjust Your Settings"
-msgstr ""
+msgstr "Ajusta tus Preferencias"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/android.rst:3
 msgid "Get Our Android App"
-msgstr ""
+msgstr "Consigue tu App para Android"
 
 #: ../../source/explore/get-started.rst:5
 msgid ""
@@ -170,10 +185,14 @@ msgid ""
 "application, so that you can begin making friends and exploring the "
 "metaverse."
 msgstr ""
+"Sabemos que comenzar con una nueva aplicación puede ser difícil: instalar el "
+"software y aprender los controles es nuevo y divertido. Por suerte, esta "
+"sección te ayudará a familiarizarte con nuestra aplicación, para que puedas "
+"empezar a hacer amigos y explorar el metaverso."
 
 #: ../../source/explore/get-started.rst:7
 msgid "**In This Section**"
-msgstr "**En Esta Sección**"
+msgstr "**En esta Sección**"
 
 #: ../../source/explore/get-started/adjust-settings.rst:2
 msgid ""
@@ -181,6 +200,10 @@ msgid ""
 " exist anymore, mentions security picture, says that lower graphics "
 "setting increase performance (not entirely true in our case)"
 msgstr ""
+"Este documento está un poco desactualizado. FIXME: algunas opciones de "
+"perspectiva ya no existen, se hace mención a la imagen de seguridad, dice "
+"que unos ajustes gráficos menores aumentan el performance (no es totalmente "
+"cierto en nuestro caso)"
 
 #: ../../source/explore/get-started/adjust-settings.rst:9
 msgid ""
@@ -283,7 +306,7 @@ msgstr ""
 #: ../../source/explore/get-started/setup-audio.rst:135
 #: ../../source/explore/get-started/vr-controls.rst:64
 msgid "Setting"
-msgstr ""
+msgstr "Ajustes"
 
 #: ../../source/explore/get-started/adjust-settings.rst:49
 #: ../../source/explore/get-started/adjust-settings.rst:93
@@ -1409,8 +1432,8 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:60
 msgid ""
-"`Windows 64-bit - Eos v2021.1.2 Installer "
-"<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.2-Eos.exe>`__ "
+"`Windows 64-bit - Eos v2021.1.3 Installer "
+"<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.3-Eos.exe>`__ "
 "|DownloadWI|"
 msgstr ""
 
@@ -1427,8 +1450,8 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:65
 msgid ""
-"`macOS Intel - Eos v2021.1.2 Installer <https://cdn.vircadia.com/dist"
-"/release-experimental/Vircadia-Interface-2021.1.2-Eos.dmg>`__ |DownloadM|"
+"`macOS Intel - Eos v2021.1.3 Installer <https://cdn.vircadia.com/dist"
+"/release-experimental/Vircadia-Interface-2021.1.3-Eos.dmg>`__ |DownloadM|"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:67
@@ -1437,18 +1460,18 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:69
 msgid ""
-"`EU Mirror: Linux amd64 - Eos v2021.1.2 AppImage "
+"`EU Mirror: Linux amd64 - Eos v2021.1.3 AppImage "
 "<https://appimage.moto9000.moe/release/Vircadia-"
-"x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLEU| (`zsync "
+"x86_64_v2021.1.3-Eos.AppImage>`__ |DownloadLEU| (`zsync "
 "<http://appimage.moto9000.moe/release/Vircadia-x86_64-release-"
 "latest.AppImage.zsync>`__ |DownloadLEUZ|)"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:71
 msgid ""
-"`US Mirror: Linux amd64 - Eos v2021.1.2 AppImage "
+"`US Mirror: Linux amd64 - Eos v2021.1.3 AppImage "
 "<https://cdn.vircadia.com/dist/release/Vircadia-"
-"x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLUS|"
+"x86_64_v2021.1.3-Eos.AppImage>`__ |DownloadLUS|"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:73
@@ -4118,4 +4141,31 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "COM Script version 1 is now running in the zone in your domain!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Windows 64-bit - Eos v2021.1.2 "
+#~ "Installer "
+#~ "<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.2-Eos.exe>`__"
+#~ " |DownloadWI|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`macOS Intel - Eos v2021.1.2 Installer"
+#~ " <https://cdn.vircadia.com/dist/release-experimental"
+#~ "/Vircadia-Interface-2021.1.2-Eos.dmg>`__ |DownloadM|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`EU Mirror: Linux amd64 - Eos "
+#~ "v2021.1.2 AppImage <https://appimage.moto9000.moe/release"
+#~ "/Vircadia-x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLEU| "
+#~ "(`zsync <http://appimage.moto9000.moe/release/Vircadia-x86_64"
+#~ "-release-latest.AppImage.zsync>`__ |DownloadLEUZ|)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`US Mirror: Linux amd64 - Eos "
+#~ "v2021.1.2 AppImage <https://cdn.vircadia.com/dist/release"
+#~ "/Vircadia-x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLUS|"
 #~ msgstr ""

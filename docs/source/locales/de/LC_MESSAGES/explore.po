@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-03-29 08:30+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"POT-Creation-Date: 2021-09-26 23:19+0000\n"
+"PO-Revision-Date: 2021-09-02 01:22+0000\n"
+"Last-Translator: Nick <origamimars@gmail.com>\n"
 "Language: de\n"
 "Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
 "documentation/explore/de/>\n"
@@ -395,68 +395,85 @@ msgid ""
 "Select this to change what you see through scripting instead of avatar's "
 "movements."
 msgstr ""
+"Wählen Sie diese Option, um zu ändern, was Sie durch Skripte anstelle von"
+" Avatar-Bewegungen sehen."
 
 #: ../../source/explore/get-started/adjust-settings.rst:62
 msgid "Entity Mode"
-msgstr ""
+msgstr "Objekt Modus"
 
 #: ../../source/explore/get-started/adjust-settings.rst:62
 msgid ""
 "Select this to set your perspective to a specific entity, allowing you to"
 " move with entity as it moves."
 msgstr ""
+"Wählen Sie diese Option aus, um die Perspektive von anderen Objekten "
+"einzunehmen. Ihre Kamera Position folgt dann automatisch der Position des"
+" ausgewählten Objekts."
 
 #: ../../source/explore/get-started/adjust-settings.rst:68
 msgid "Other Miscellaneous Settings"
-msgstr ""
+msgstr "Weitere Einstellungen"
 
 #: ../../source/explore/get-started/adjust-settings.rst:70
 msgid ""
 "Here are some other settings you may like to change to optimize your "
 "experience."
 msgstr ""
+"Hier sind noch weitere Einstellungen, die Sie ändern können, um ihre "
+"Erfahrung zu optimieren."
 
 #: ../../source/explore/get-started/adjust-settings.rst:74
 msgid "General Settings"
-msgstr ""
+msgstr "Allgemeine Einstellungen"
 
 #: ../../source/explore/get-started/adjust-settings.rst:76
 msgid ""
 "You can modify general settings such user interface and privacy settings "
 "in Vircadia."
 msgstr ""
+"Sie können allgemeine Einstellungen wie Benutzeroberfläche und "
+"Datenschutzeinstellungen in Vircadia ändern."
 
 #: ../../source/explore/get-started/adjust-settings.rst:78
 msgid ""
 "In Desktop mode, go to **Settings > General** in the menu on the top left"
 " corner."
 msgstr ""
+"Gehen Sie im Desktop-Modus im Menü in der oberen linken Ecke zu "
+"**Settings > General**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:79
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > General**."
 msgstr ""
+"Im VR Modus, öffnen sie ihr Tablet, und gehen sie zu **Menu > Settings > "
+"General**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:85
 msgid "In-World Graphics Settings"
-msgstr ""
+msgstr "In-World Grafik Einstellungen"
 
 #: ../../source/explore/get-started/adjust-settings.rst:87
 msgid "You can make changes to the graphics in Vircadia."
-msgstr ""
+msgstr "In Vircadia können Sie Änderungen an der Grafik vornehmen."
 
 #: ../../source/explore/get-started/adjust-settings.rst:89
 msgid ""
 "In Desktop mode, go to **Settings > Graphics** in the menu on the top "
 "left corner."
 msgstr ""
+"Gehen Sie im Desktop Modus mithilfe des Menüs in der oberen linken Ecke "
+"zu **Settings > Graphics** ."
 
 #: ../../source/explore/get-started/adjust-settings.rst:90
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Graphics**."
 msgstr ""
+"Im VR Modus, öffnen Sie ihr Tablet, und gehen Sie zu **Menu > Settings > "
+"Graphics**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:95
 msgid "Graphics Settings"
-msgstr ""
+msgstr "Grafik Einstellungen"
 
 #: ../../source/explore/get-started/adjust-settings.rst:95
 msgid ""
@@ -465,64 +482,87 @@ msgid ""
 "increased performance and optimization. **Custom** lets you configure the"
 " world detail, rendering effects, refresh rate, and resolution yourself."
 msgstr ""
+"Wählen Sie ihre Grafik Einstellungen anhand der Leistungsfähigkeit ihres "
+"Computers. Wenn Sie niedrige Grafik Einstellungen wählen, werden in der "
+"Welt weniger Details und weniger Grafik Effekte geladen, aber dafür muss "
+"ihr Computer bei diesen Einstellungen weniger Rechenleistung aufbringen, "
+"was zu einer besseren Performance und kürzeren Ladezeiten führt. Mit "
+"**Custom** können Sie das Laden von Effekten und Details, die "
+"Aktualisierungsrate, und die Auflösung selbst auswählen."
 
 #: ../../source/explore/get-started/adjust-settings.rst:100
 msgid "World Detail"
-msgstr ""
+msgstr "Welt Details"
 
 #: ../../source/explore/get-started/adjust-settings.rst:100
 msgid ""
 "Control the level of detail visible to you in Vircadia by moving this "
 "slider."
 msgstr ""
+"Stellen Sie mithilfe des Schiebereglers ein, wie Detailreich die Welt in "
+"Vircadia geladen werden soll."
 
 #: ../../source/explore/get-started/adjust-settings.rst:102
 msgid "Rendering Effects"
-msgstr ""
+msgstr "Rendering Effekte"
 
 #: ../../source/explore/get-started/adjust-settings.rst:102
 msgid ""
 "Choose the level of rendering effects that are present in Vircadia. Local"
 " lights, fog, bloom, and shadows are all examples of rendering effects."
 msgstr ""
+"Wählen Sie aus, wie viele Effekte in Vircadia geladen werden sollen. "
+"Rendering Effekte sind zum Beispiel: Lokale Lichter, Nebel, dekorative "
+"Pflanzen und Schatten."
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
 msgid "Refresh Rate"
-msgstr ""
+msgstr "Aktualisierungsrate"
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
 msgid ""
 "Choose the frequency that Vircadia updates its graphics buffers. Most "
 "mid-range computers run well on 'Interactive'."
 msgstr ""
+"Wählen Sie die Frequenz aus, mit der Vircadia die Grafik Zwischenspeicher"
+" aktualisieren soll. Die meisten Standard Computer funktionieren gut mit "
+"der Einstellung 'Interactive'."
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
 msgid "Resolution"
-msgstr ""
+msgstr "Auflösung"
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
 msgid ""
 "Adjust the resolution using the slider. This affects how clear Vircadia "
 "appears on your monitor or screen."
 msgstr ""
+"Passen Sie die Auflösung mithilfe des Schiebereglers an. Dies beeinflusst"
+" wie klar die Welt auf dem Bildschirm erscheint."
 
 #: ../../source/explore/get-started/adjust-settings.rst:114
 msgid "Account Security Settings"
-msgstr ""
+msgstr "Sicherheits Einstellungen"
 
 #: ../../source/explore/get-started/adjust-settings.rst:116
 msgid "You can change your account security settings in Vircadia."
 msgstr ""
+"Sie können in Vircadia die Sicherheits-Einstellungen ihres Accounts "
+"ändern."
 
 #: ../../source/explore/get-started/adjust-settings.rst:118
 msgid ""
 "In Desktop mode, go to **Settings > Security** in the menu on the top "
 "left corner."
 msgstr ""
+"Gehen Sie im Desktop Modus mithilfe des Menüs in der oberen linken Ecke "
+"zu **Settings > Security**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:119
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Security**."
 msgstr ""
+"Öffnen Sie im VR Modus ihr Tablet, und gehen Sie zu **Menu > Settings > "
+"Security**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:124
 msgid "Account"
@@ -533,18 +573,22 @@ msgid ""
 "Enable to stay logged in (in the current device) even if you exit "
 "Vircadia."
 msgstr ""
+"Aktivieren Sie diese Option, um eingeloggt zu bleiben, selbst wenn sie "
+"Vircadia beenden."
 
 #: ../../source/explore/get-started/adjust-settings.rst:126
 msgid "Secure Transactions"
-msgstr ""
+msgstr "Sichere Transaktionen"
 
 #: ../../source/explore/get-started/adjust-settings.rst:126
 msgid "Change your security picture."
-msgstr ""
+msgstr "Ändern Sie Ihr Sicherheits Bild."
 
 #: ../../source/explore/get-started/adjust-settings.rst:131
 msgid ":doc:`Configure Your Domain Settings <../../host/configure-settings>`"
 msgstr ""
+":doc:`Konfigurieren Sie ihre Domain Einstellungen <../../host/configure-"
+"settings>`"
 
 #: ../../source/explore/get-started/android.rst:5
 msgid ""
@@ -552,6 +596,10 @@ msgid ""
 "development work has been done but the work required to get it back "
 "rolling has to be taken into consideration."
 msgstr ""
+"In der Zukunft wird eine Vircadia-Android-App in Betracht gezogen. Die "
+"meisten Entwicklungsarbeiten sind abgeschlossen, aber die Arbeit, die "
+"erforderlich ist, um die App wieder zum Laufen zu bringen, muss "
+"berücksichtigt werden."
 
 #: ../../source/explore/get-started/android.rst:7
 msgid ""
@@ -559,10 +607,13 @@ msgid ""
 "cannot be used in Daydream View and is only available as a 2D "
 "application."
 msgstr ""
+"Die App ist nur für Daydream-ready Telefone konzipiert. Beachten Sie, "
+"dass es nicht in Daydream View verwendet werden kann und nur als 2D-"
+"Anwendung verfügbar ist."
 
 #: ../../source/explore/get-started/android.rst:15
 msgid "Visit Different Worlds"
-msgstr ""
+msgstr "Verschiedene Welten besuchen"
 
 #: ../../source/explore/get-started/android.rst:17
 msgid ""
@@ -571,15 +622,19 @@ msgid ""
 " of Vircadia's most popular virtual worlds to make them more accessible "
 "to Android users."
 msgstr ""
+"Vircadia hat viele virtuelle Orte, an denen Sie mit anderen Benutzern "
+"interagieren und an vielen Aktivitäten teilnehmen können. Wir haben "
+"Einige beliebte Welten so modifiziert, dass diese auch für Android "
+"Benutzer Verfügbar sind."
 
 #: ../../source/explore/get-started/android.rst:19
 msgid "Find these domains by going to the **Home** tab in the menu."
-msgstr ""
+msgstr "Sie finden diese Domains indem Sie im Menü zu **Home** gehen."
 
 #: ../../source/explore/get-started/android.rst:26
 #: ../../source/explore/get-started/desktop.rst:14
 msgid "Movement Controls"
-msgstr ""
+msgstr "Bewegungs Steuerung"
 
 #: ../../source/explore/get-started/android.rst:29
 #: ../../source/explore/get-started/android.rst:45
@@ -591,55 +646,64 @@ msgstr ""
 #: ../../source/explore/get-started/desktop.rst:99
 #: ../../source/explore/get-started/desktop.rst:115
 msgid "Action"
-msgstr ""
+msgstr "Bewegung"
 
 #: ../../source/explore/get-started/android.rst:29
 #: ../../source/explore/get-started/android.rst:45
 #: ../../source/explore/get-started/android.rst:57
 #: ../../source/explore/get-started/android.rst:70
 msgid "Controls"
-msgstr ""
+msgstr "Steuerung"
 
 #: ../../source/explore/get-started/android.rst:31
 msgid "Walking"
-msgstr ""
+msgstr "Laufen"
 
 #: ../../source/explore/get-started/android.rst:31
 msgid ""
 "When exploring a virtual world, use the arrows in the bottom left corner "
 "to turn and/or walk."
 msgstr ""
+"Wenn Sie eine virtuelle Welt erkunden, benutzen sie die Pfeile in der "
+"unteren Ecke um zu laufen, und sich zu drehen."
 
 #: ../../source/explore/get-started/android.rst:33
 msgid "Turning"
-msgstr ""
+msgstr "Drehen"
 
 #: ../../source/explore/get-started/android.rst:33
 msgid "Drag your finger left or right across the screen to make your avatar turn."
 msgstr ""
+"Wischen sie mit Ihrem Finger auf dem Bildschirm nach rechts oder links, "
+"um ihren Avatar zu drehen."
 
 #: ../../source/explore/get-started/android.rst:35
 msgid "Look up/down"
-msgstr ""
+msgstr "Nach oben/unten schauen"
 
 #: ../../source/explore/get-started/android.rst:35
 msgid "Drag your finger up or down to change the angle of the camera."
 msgstr ""
+"Wischen Sie mit Ihrem Finger nach oben/unten, um den Winkel ihrer Kamera "
+"zu verändern."
 
 #: ../../source/explore/get-started/android.rst:37
 msgid "Flying"
-msgstr ""
+msgstr "Fliegen"
 
 #: ../../source/explore/get-started/android.rst:37
 msgid ""
 "Press the button on the bottom right with the winged avatar to fly (the "
 "longer you hold it, the higher you go!)."
 msgstr ""
+"Verwenden Sie den Knopf unten links, der einen Avatar mit Flügeln als "
+"Symbol hat, um zu fliegen (Je länger Sie gedrückt halten, desto höher "
+"fliegen Sie)."
 
 #: ../../source/explore/get-started/android.rst:42
 #: ../../source/explore/get-started/desktop.rst:44
 msgid "In-World Controls"
-msgstr ""
+msgstr "In-World Steuerungen"
 
 #: ../../source/explore/get-started/android.rst:47
 msgid "View"
@@ -1471,8 +1535,8 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:60
 msgid ""
-"`Windows 64-bit - Eos v2021.1.2 Installer "
-"<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.2-Eos.exe>`__ "
+"`Windows 64-bit - Eos v2021.1.3 Installer "
+"<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.3-Eos.exe>`__ "
 "|DownloadWI|"
 msgstr ""
 
@@ -1489,8 +1553,8 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:65
 msgid ""
-"`macOS Intel - Eos v2021.1.2 Installer <https://cdn.vircadia.com/dist"
-"/release-experimental/Vircadia-Interface-2021.1.2-Eos.dmg>`__ |DownloadM|"
+"`macOS Intel - Eos v2021.1.3 Installer <https://cdn.vircadia.com/dist"
+"/release-experimental/Vircadia-Interface-2021.1.3-Eos.dmg>`__ |DownloadM|"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:67
@@ -1499,18 +1563,18 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:69
 msgid ""
-"`EU Mirror: Linux amd64 - Eos v2021.1.2 AppImage "
+"`EU Mirror: Linux amd64 - Eos v2021.1.3 AppImage "
 "<https://appimage.moto9000.moe/release/Vircadia-"
-"x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLEU| (`zsync "
+"x86_64_v2021.1.3-Eos.AppImage>`__ |DownloadLEU| (`zsync "
 "<http://appimage.moto9000.moe/release/Vircadia-x86_64-release-"
 "latest.AppImage.zsync>`__ |DownloadLEUZ|)"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:71
 msgid ""
-"`US Mirror: Linux amd64 - Eos v2021.1.2 AppImage "
+"`US Mirror: Linux amd64 - Eos v2021.1.3 AppImage "
 "<https://cdn.vircadia.com/dist/release/Vircadia-"
-"x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLUS|"
+"x86_64_v2021.1.3-Eos.AppImage>`__ |DownloadLUS|"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:73
@@ -1635,7 +1699,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:160
 msgid "Upgrade Vircadia"
-msgstr ""
+msgstr "Vircadia Updaten"
 
 #: ../../source/explore/get-started/install.rst:162
 msgid ""
@@ -1644,6 +1708,11 @@ msgid ""
 " you can download the latest release from our `website "
 "<https://vircadia.com/download-vircadia/#interface>`_."
 msgstr ""
+"Vircadia verändert sich ständig, da wir daran arbeiten, die Performance "
+"zu verbessern und neue Features hinzuzufügen, um Ihre Erfahrungen im "
+"Metaversum zu verbessern. Sie können jeder Zeit die neuste Version von "
+"Vircadia auf unserer `website <https://vircadia.com/download-"
+"vircadia/#interface>`_ downloaden."
 
 #: ../../source/explore/get-started/install.rst:165
 msgid ""
@@ -1652,6 +1721,11 @@ msgid ""
 "before upgrading. Keep in mind that Vircadia Server could be running in "
 "the background."
 msgstr ""
+"Sie können Vircadia unter Windows nicht aktualisieren, wenn auf Ihrem "
+"Computer ein Vircadia Interface oder ein Server ausgeführt wird. Stellen "
+"Sie sicher, dass Sie alle Vircadia Programme beenden, bevor Sie Vircadia "
+"updaten. Beachten Sie, dass auf ihrem Computer ein Vircadia Server "
+"möglicherweise im Hintergrund läuft."
 
 #: ../../source/explore/get-started/install.rst:168
 msgid ""
@@ -2958,7 +3032,7 @@ msgstr ""
 
 #: ../../source/explore/personalize.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**In diesem Abschnitt:**"
 
 #: ../../source/explore/personalize/add-wearables.rst:2
 msgid "This document is slightly outdated. FIXME: only mentions FBX files"
@@ -4534,5 +4608,32 @@ msgstr "Mit anderen Nutzern Kontakte knüpfen"
 #~ msgstr ""
 
 #~ msgid "COM Script version 1 is now running in the zone in your domain!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Windows 64-bit - Eos v2021.1.2 "
+#~ "Installer "
+#~ "<https://cdn.vircadia.com/dist/release/Vircadia-2021.1.2-Eos.exe>`__"
+#~ " |DownloadWI|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`macOS Intel - Eos v2021.1.2 Installer"
+#~ " <https://cdn.vircadia.com/dist/release-experimental"
+#~ "/Vircadia-Interface-2021.1.2-Eos.dmg>`__ |DownloadM|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`EU Mirror: Linux amd64 - Eos "
+#~ "v2021.1.2 AppImage <https://appimage.moto9000.moe/release"
+#~ "/Vircadia-x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLEU| "
+#~ "(`zsync <http://appimage.moto9000.moe/release/Vircadia-x86_64"
+#~ "-release-latest.AppImage.zsync>`__ |DownloadLEUZ|)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`US Mirror: Linux amd64 - Eos "
+#~ "v2021.1.2 AppImage <https://cdn.vircadia.com/dist/release"
+#~ "/Vircadia-x86_64_v2021.1.2-Eos.AppImage>`__ |DownloadLUS|"
 #~ msgstr ""
 

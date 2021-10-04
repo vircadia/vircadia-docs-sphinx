@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-13 15:03+0000\n"
-"PO-Revision-Date: 2021-05-30 10:01+0000\n"
-"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"PO-Revision-Date: 2021-10-01 20:29+0000\n"
+"Last-Translator: jose manuel <elmanytas@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/home/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/home/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/home.rst:75
@@ -116,23 +117,21 @@ msgstr ""
 "<https://discordapp.com/invite/Pvx2vke>`__ |Discord|."
 
 #: ../../source/home.rst:35
-#, fuzzy
 msgid "This documentation is authored in `English <https://docs.vircadia.com/>`_."
-msgstr "Esta documentación está escrita en `Inglés <https://docs.vircadia.dev/>`_."
+msgstr ""
+"Esta documentación está escrita en `Inglés <https://docs.vircadia.com/>`_."
 
 #: ../../source/home.rst:37
 msgid "The following translations are available:"
 msgstr "Están disponibles las siguientes traducciones:"
 
 #: ../../source/home.rst:39
-#, fuzzy
 msgid "`Deutsch <https://docs.vircadia.com/de/>`_ |de_trans|"
-msgstr "`Alemán <https://docs.vircadia.dev/de/>`_ |de_trans|"
+msgstr "`Alemán <https://docs.vircadia.com/de/>`_ |de_trans|"
 
 #: ../../source/home.rst:40
-#, fuzzy
 msgid "`Español <https://docs.vircadia.com/es/>`_ |es_trans|"
-msgstr "`Español <https://docs.vircadia.dev/es/>`_ |es_trans|"
+msgstr "`Español <https://docs.vircadia.com/es/>`_ |es_trans|"
 
 #: ../../source/home.rst:41
 #, fuzzy
@@ -211,4 +210,3 @@ msgid ""
 msgstr ""
 ":doc:`SEGURIDAD <security>` información sobre el proyecto y sus "
 "componentes."
-

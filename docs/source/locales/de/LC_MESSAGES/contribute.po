@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2020-12-19 04:53+0000\n"
-"PO-Revision-Date: 2021-02-10 00:46+0000\n"
-"Last-Translator: Nick <origamimars@gmail.com>\n"
+"PO-Revision-Date: 2021-09-02 01:37+0000\n"
+"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
 "Language-Team: German <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/contribute/de/>\n"
 "Language: de\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/contribute.rst:3
 msgid "Contribute"
-msgstr ""
+msgstr "Beiträge leisten"
 
 #: ../../source/contribute.rst:5
 msgid ""
@@ -35,6 +35,12 @@ msgid ""
 "plenty of ways you can contribute to the various parts that make up "
 "Vircadia."
 msgstr ""
+"Vircadia ist ein Open-Source-Projekt, daher steht Ihnen unser gesamter Code "
+"und unsere Dokumentation zur Verfügung. Auch Sie können zu unserem Bemühen "
+"um das Metaverse beitragen! Unser Haupt-`git-Repository <https://github.com/"
+"vircadia/vircadia>`_ enthält die Quelle vieler Komponenten unserer Software "
+"zum Erstellen virtueller Welten. Es gibt viele Möglichkeiten, wie Sie zu den "
+"verschiedenen Teilen von Vircadia beitragen können."
 
 #: ../../source/contribute.rst:10
 msgid "On This Page"
@@ -42,23 +48,30 @@ msgstr "Auf dieser Seite"
 
 #: ../../source/contribute.rst:14
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #: ../../source/contribute.rst:15
 msgid "You can help create and maintain the documentation in several ways:"
 msgstr ""
+"Sie können auf verschiedene Arten bei der Erstellung und Wartung der "
+"Dokumentation mithelfen:"
 
 #: ../../source/contribute.rst:17
 msgid ""
 "Report errors or missing information to the `GitHub issue tracker "
 "<https://github.com/vircadia/vircadia-docs-sphinx/issues>`_."
 msgstr ""
+"Melden Sie Fehler oder fehlende Informationen bei unserer `GitHub Problem-"
+"Meldung <https://github.com/vircadia/vircadia-docs-sphinx/issues>`_."
 
 #: ../../source/contribute.rst:18
 msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/vircadia/vircadia-docs-sphinx/pulls>`_."
 msgstr ""
+"Erstellen oder bearbeiten Sie Seiten der Dokumentation, indem Sie eine `PR ("
+"pull request) auf GitHub öffnen <https://github.com/vircadia/"
+"vircadia-docs-sphinx/pulls>`_ ."
 
 #: ../../source/contribute.rst:19
 msgid ""
@@ -68,10 +81,15 @@ msgid ""
 "changes, as there are always things that the writer and the first "
 "reviewer overlook."
 msgstr ""
+"`Überprüfen Sie Änderungen <https://github.com/vircadia/vircadia-docs-sphinx/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ an der Dokumentation "
+"mithilfe von Github. Unser Ziel ist es, für Jede Änderung zwei Überprüfer zu "
+"haben, weil es immer Dinge gibt, die der Verfasser und der erste Überprüfer "
+"übersehen."
 
 #: ../../source/contribute.rst:24
 msgid "Translation"
-msgstr ""
+msgstr "Übersetzung"
 
 #: ../../source/contribute.rst:25
 msgid ""
@@ -85,10 +103,17 @@ msgid ""
 "documentation can be found in its `README <https://github.com/vircadia"
 "/vircadia-docs-sphinx/blob/master/README.md>`_."
 msgstr ""
+"Als ein internationales Projekt, verlässt sich Vircadia auf Übersetzer, um "
+"auch Benutzer zu erreichen, die nicht Englisch sprechen. Momentan ist die "
+"Dokumentation die einzige Komponente, die eine Übersetzungs Funktion hat. "
+"Sie können beim Übersetzen mithelfen, indem sie unser online Übersetzungs "
+"System `Weblate <https://weblate.vircadia.dev>`_ benutzen. Sie haben die "
+"Möglichkeit neue Übersetzungen einzuspeichern, oder bereits übersetzte Texte "
+"auf Fehler zu überprüfen."
 
 #: ../../source/contribute.rst:32
 msgid "Donations"
-msgstr ""
+msgstr "Spenden"
 
 #: ../../source/contribute.rst:33
 msgid ""
@@ -97,6 +122,10 @@ msgid ""
 "donations, you can donate to specific members of the team via various "
 "services like PayPal, Patreon, or Github Sponsors."
 msgstr ""
+"Vircadia wird hauptsächlich finanziert durch Beiträge von freiwilligen und "
+"von dem Haupt Team. Da wir keine zentrale Verwaltung für Spenden haben, "
+"können Sie Spenden direkt an Team Mitglieder übergeben. Dazu können sie "
+"Dienste wie zum Beispiel PayPal, Patreon, oder Github Sponsors verwenden."
 
 #: ../../source/contribute.rst:36
 msgid ""
@@ -111,32 +140,46 @@ msgid ""
 "of US$40 an hour in the free market. Keep that in mind if you want to see"
 " something accomplished that no one else is personally interested in."
 msgstr ""
+"Sie können auch Prämien anbieten, wenn Sie bestimmte Funktionen "
+"implementiert oder Fehler behoben sehen möchten, indem Sie einen Kommentar "
+"in unserer `GitHub Problem-Meldung <https://github.com/vircadia/vircadia/"
+"issues>`_ hinterlassen. Prämien sind natürlich auch eine Option für andere "
+"Teile des Projekts wie die Dokumentation. Belohnungen werden auf "
+"Vertrauensbasis erstellt und vergeben. Wenn Sie Fragen dazu haben, zögern "
+"Sie nicht, mit einem Mitglied des Kern-Teams zu sprechen oder sie bei "
+"regelmäßigen Community- oder Entwicklertreffen anzusprechen."
 
 #: ../../source/contribute.rst:43
 msgid "Development"
-msgstr ""
+msgstr "Entwicklung"
 
 #: ../../source/contribute.rst:44
 msgid ""
 "You can help the general development of the Vircadia project without "
 "being a developer yourself by:"
 msgstr ""
+"Sie können bei der allgemeinen Entwicklung von Vircadia mithelfen, ohne ein "
+"Software Entwickler zu sein indem Sie:"
 
 #: ../../source/contribute.rst:46
 msgid ""
 "filing issues on our `issue tracker "
 "<https://github.com/vircadia/vircadia/issues>`_,"
 msgstr ""
+"Fehler oder Bugs bei unserer `GitHub Fehlermeldung <https://github.com/"
+"vircadia/vircadia/issues>`_ eintragen,"
 
 #: ../../source/contribute.rst:47
 msgid "helping to narrow down those issues,"
-msgstr ""
+msgstr "dabei helfen genauer zu bestimmen, wo der Ursprung dieser Fehler liegt,"
 
 #: ../../source/contribute.rst:48
 msgid ""
 "or `testing pull requests "
 "<https://github.com/vircadia/vircadia/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 msgstr ""
+"Oder indem Sie `pull requests <https://github.com/vircadia/vircadia/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_ testen."
 
 #: ../../source/contribute.rst:50
 msgid ""
@@ -150,36 +193,46 @@ msgid ""
 "<https://github.com/vircadia/vircadia/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
 " of open pull requests."
 msgstr ""
+"Wenn Sie ein Software Entwickler sind, können Sie direkt mithilfe von pull "
+"requests Beiträge leisten. Denken Sie an die `Richtlinien <https://github."
+"com/vircadia/vircadia/blob/master/CONTRIBUTING.md>`_ wenn Sie an der Haupt "
+"Software arbeiten. Weitere Informationen finden Sie in der :doc:`Developer "
+"Section <developer>`. Ein wichtiger Auftrag der Software Entwickler ist es, `"
+"code reviews <https://github.com/vircadia/vircadia/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_ von offenen "
+"Pull Requests durchzuführen."
 
 #: ../../source/contribute.rst:56
 msgid "Miscellaneous Work"
-msgstr ""
+msgstr "Weitere Arbeit"
 
 #: ../../source/contribute.rst:57
 msgid ""
 "There is also a lot of miscellaneous work that comes up every now and "
 "then:"
 msgstr ""
+"Es gibt auch noch viel Arbeit verschiedenster Art, die hier und dort "
+"manchmal aufkommt:"
 
 #: ../../source/contribute.rst:59
 msgid "2D art like posters or banners,"
-msgstr ""
+msgstr "2D Kunst wie zum Beispiel Poster oder Banner,"
 
 #: ../../source/contribute.rst:60
 msgid "3D models,"
-msgstr ""
+msgstr "3d Modelle"
 
 #: ../../source/contribute.rst:61
 msgid "scripts,"
-msgstr ""
+msgstr "Skripte,"
 
 #: ../../source/contribute.rst:62
 msgid "video editing,"
-msgstr ""
+msgstr "Video Bearbeitung,"
 
 #: ../../source/contribute.rst:63
 msgid "and so on."
-msgstr ""
+msgstr "Und so Weiter."
 
 #: ../../source/contribute.rst:65
 msgid ""
@@ -187,6 +240,9 @@ msgid ""
 "ask for assistance when they need work done that is outside their area of"
 " expertise."
 msgstr ""
+"Es ist enorm hilfreich, wenn Software Entwickler jemanden haben, den sie um "
+"Unterstützung bitten können, wenn sie Dinge außerhalb ihrer Expertise "
+"erledigen müssen."
 
 #~ msgid ""
 #~ "Vircadia is an open-source project, "
