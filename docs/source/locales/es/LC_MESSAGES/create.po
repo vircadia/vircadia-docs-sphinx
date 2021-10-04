@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-08-28 20:20+0000\n"
-"PO-Revision-Date: 2021-10-03 09:57+0000\n"
-"Last-Translator: jose manuel <elmanytas@gmail.com>\n"
+"PO-Revision-Date: 2021-10-04 08:30+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -8711,6 +8711,10 @@ msgid ""
 "an entity with low density is made of light materials such as wood, while"
 " an entity with high density is made of dense materials such as iron."
 msgstr ""
+"La densidad de una entidad es la relación entre su masa y su volumen. Por "
+"ejemplo, una entidad con baja densidad está hecha de materiales livianos "
+"como la madera, mientras que una entidad con alta densidad está hecha de "
+"materiales densos como el hierro."
 
 #: ../../source/create/entities/entity-physics.rst:133
 msgid ""
@@ -8720,20 +8724,28 @@ msgid ""
 "feather and an iron ball). To help keep the environment stable, we picked"
 " conservative density limits."
 msgstr ""
+"En Vircadia, los valores máximos (`10000`) y mínimos (`100`) de densidad "
+"fueron elegidos por la estabilidad. Es difícil realizar cálculos físicos "
+"estables entre objetos de masas muy dispares (como una pluma ligera y una "
+"bola de hierro). Para ayudar a mantener estable el medio ambiente, elegimos "
+"límites de densidad conservadores."
 
 #: ../../source/create/entities/entity-physics.rst:135
 msgid ""
 "To change this value, scroll down to the 'Density' property in the "
 "'Properties' tab. Change it to the value of your choice."
 msgstr ""
+"Para cambiar este valor, desplázate hacia bajao hasta la propiedad \"Density"
+"\" (Densidad) en la pestaña \"Properties\". Cambia el valor según tu "
+"elección."
 
 #: ../../source/create/entities/entity-physics.rst:139
 msgid "Set How an Entity Moves in a Gravitational Field"
-msgstr ""
+msgstr "Establece Como se Mueve una Entidad en un Campo Cravitacional"
 
 #: ../../source/create/entities/entity-physics.rst:143
 msgid "**Unit:** meters/second²"
-msgstr ""
+msgstr "**Unidad:** metros/segundo²"
 
 #: ../../source/create/entities/entity-physics.rst:147
 msgid ""
@@ -8743,12 +8755,19 @@ msgid ""
 " ball is floating in zero gravity, it will float downwards when you "
 "increase gravity downwards."
 msgstr ""
+"En la aplicación **Crear** (Create App), \"Gravity\" (Gravedad) es la "
+"aceleración de la entidad, como si estuviera en un campo gravitacional "
+"uniforme. Esta propiedad controla cómo se comporta una entidad cuando cambia "
+"la gravedad de un dominio. Por ejemplo, si una bola está flotando en "
+"gravedad cero, flotará hacia abajo cuando aumente la gravedad hacia abajo."
 
 #: ../../source/create/entities/entity-physics.rst:149
 msgid ""
 "To change this value, scroll down to the 'Gravity' property in the "
 "'Properties' tab. Change it to the value of your choice."
 msgstr ""
+"Para cambiar este valor, desplázate hacia abajo hasta la propiedad \"Gravity"
+"\" en la pestaña \"Properties\". Cambia este valor según tu elección."
 
 #: ../../source/create/entities/hero-zone.rst:5
 msgid ""
@@ -8761,10 +8780,19 @@ msgid ""
 "within the zone are known as \"heroes\". Examples of heroes include a "
 "keynote speaker at an event or performers at a concert."
 msgstr ""
+"Cada vez que alguien ingresa a tu dominio, debe cargar todo el contenido del "
+"dominio, incluidos los avatares, modelos, texturas y recursos externos que "
+"se utilizan en el dominio. Muchos de estos recursos no están optimizados y "
+"pueden tardar un poco en cargarse, especialmente en dominios grandes o "
+"eventos con muchos avatares. En estas situaciones, puedes priorizar una zona "
+"para que todos los avatares dentro de esa zona se muevan sin problemas hacia "
+"todos los observadores. Los avatares dentro de la zona se conocen como "
+"\"héroes\". Los ejemplos de héroes incluyen un orador principal en un evento "
+"o artistas intérpretes en un concierto."
 
 #: ../../source/create/entities/hero-zone.rst:9
 msgid "Avatar Hero Zones"
-msgstr ""
+msgstr "Zonas de Héroes de Avatar"
 
 #: ../../source/create/entities/hero-zone.rst:11
 msgid ""
@@ -8775,16 +8803,25 @@ msgid ""
 "http://localhost:40100/settings and scroll to **Avatar Mixer > Advanced "
 "Settings > Hero Bandwidth** to set the bandwidth."
 msgstr ""
+"A todos los avatares en las zonas de héroe se les asigna un ancho de banda "
+"adicional, lo que les permite cargarse completamente y moverse sin problemas "
+"dentro de la zona. Puedes establecer la cantidad de ancho de banda que se "
+"dedica a tus zonas de héroe en tus :doc:`configuraciones de dominio <../../"
+"host/configure-settings>`. Ve a http://localhost:40100/settings y desplázate "
+"hasta **Avatar Mixer > Advanced Settings > Hero Bandwidth** para establecer "
+"el ancho de banda."
 
 #: ../../source/create/entities/hero-zone.rst:13
 msgid "To create an avatar hero zone:"
-msgstr ""
+msgstr "Para crear una zona de héroe de avatar:"
 
 #: ../../source/create/entities/hero-zone.rst:16
 msgid ""
 "Click the 'Zone' icon to create a zone entity. You’ll see a wireframe "
 "shape showing the zone's bounding box."
 msgstr ""
+"Haz click en el ícono de \"Zone\" para crear una entidad de zona. Verás una "
+"forma de estructura alámbrica que muestra el cuadro delimitador de la zona."
 
 #: ../../source/create/entities/hero-zone.rst:17
 #: ../../source/create/entities/zone-tutorial.md:35
@@ -8793,16 +8830,22 @@ msgid ""
 "Zones in Create mode** and select the option. Your zone should now be "
 "visible."
 msgstr ""
+"Si no puedes ver el cuadro delimitador de la zona, ve a **Edit > Show Zones "
+"in Create mode** y selecciona la opción. Tu zona ahora debería estar visible."
 
 #: ../../source/create/entities/hero-zone.rst:18
 msgid ""
 "Go to the 'Properties' tab. Here, we recommend that you add a name to "
 "your zone."
 msgstr ""
+"Ve a la pestaña de \"Properties\". Aquí, te recomendamos que agregues un "
+"nombre a tu zona."
 
 #: ../../source/create/entities/hero-zone.rst:19
 msgid "For 'Avatar Priority', choose the desired setting:"
 msgstr ""
+"Para \"Avatar Priority\" (Prioridad de avatar), Elije la configuración "
+"deseada:"
 
 #: ../../source/create/entities/hero-zone.rst:21
 msgid ""
@@ -8810,10 +8853,13 @@ msgid ""
 "the priority of the parent zone. For single zones that are not nested, "
 "this option defaults to \"Crowd\"."
 msgstr ""
+"Heredar: si la zona está anidada dentro de otra zona, heredará la prioridad "
+"de la zona principal. Para zonas individuales que no están anidadas, esta "
+"opción tiene como valor predeterminado \"Crowd\" (Multitud)."
 
 #: ../../source/create/entities/hero-zone.rst:22
 msgid "Crowd: The zone will not be prioritized in any way."
-msgstr ""
+msgstr "Crowd: La zona no se priorizará de ninguna manera."
 
 #: ../../source/create/entities/hero-zone.rst:23
 msgid ""
@@ -8821,12 +8867,18 @@ msgid ""
 "bandwidth will be given to heroes within the zone. This ensures that all "
 "avatars within the zone will load completely and move smoothly."
 msgstr ""
+"Héroe: La zona recibirá un trato preferencial y se otorgará ancho de banda "
+"adicional a los héroes dentro de la zona. Esto asegura que todos los "
+"avatares dentro de la zona se cargarán completamente y se moverán sin "
+"problemas."
 
 #: ../../source/create/entities/hero-zone.rst:24
 msgid ""
 "Like all entities, you can customize your zone by changing the lighting, "
 "size, or shape of the zone."
 msgstr ""
+"Como todas las entidades, puedes personalizar tu zona cambiando la "
+"iluminación, el tamaño o la forma de la zona."
 
 #: ../../source/create/entities/hero-zone.rst:26
 msgid ""
@@ -8834,6 +8886,9 @@ msgid ""
 "changes will take place immediately, and the zone will be updated to "
 "match your new settings."
 msgstr ""
+"En cualquier momento, puedes cambiar las propiedades de tu zona de héroe. "
+"Estos cambios se llevarán a cabo de inmediato y la zona se actualizará para "
+"que coincida con tu nueva configuración."
 
 #: ../../source/create/entities/material-entity.rst:5
 msgid ""
@@ -8844,16 +8899,25 @@ msgid ""
 "stone. You can do this by adding a castle wall material entity to your "
 "walls."
 msgstr ""
+"Puedes agregar una entidad material a un objeto en tu dominio. Una entidad "
+"de material contiene datos de material específicos que determinan la textura "
+"y el sombreado de un objeto. Por ejemplo, si quieres crear un castillo en tu "
+"dominio, necesitas que tus paredes parezcan hechas de piedra gris áspera. "
+"Puedes hacer esto agregando una entidad de material de muro de castillo a "
+"tus muros."
 
 #: ../../source/create/entities/material-entity.rst:7
 msgid ""
 "Before adding a material entity, make sure you have created a material "
 "using the :doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`."
 msgstr ""
+"Antes de agregar una entidad de material, asegúrate de haber creado un "
+"material usando la :doc:`Guía de Materiales de PBR <../3d-models/pbr-"
+"materials-guide>`."
 
 #: ../../source/create/entities/material-entity.rst:14
 msgid "Generate a Material Entity"
-msgstr ""
+msgstr "Generar una Entidad Material"
 
 #: ../../source/create/entities/material-entity.rst:16
 msgid ""
@@ -8861,6 +8925,9 @@ msgid ""
 "material data in a JSON file or add the material directly into the "
 "**Create** app."
 msgstr ""
+"Para agregar un material a tu objeto en Vircadia, debes especificar los "
+"datos del material en un archivo JSON o agregar el material directamente en "
+"la aplicación **Crear**."
 
 #: ../../source/create/entities/material-entity.rst:18
 msgid ""
@@ -8870,6 +8937,11 @@ msgid ""
 " models as FBX or glTF files if you are facing difficulties generating a "
 "JSON file."
 msgstr ""
+"Somos conscientes de las dificultades que involucra la conversión de los "
+"datos de tu material a un archivo JSON y estamos trabajando para facilitar "
+"el proceso a nuestros usuarios. Mientras tanto, recomendamos incrustar/"
+"embeber tus datos de material en tus modelos como archivos FBX o glTF si "
+"tienes dificultades para generar un archivo JSON."
 
 #: ../../source/create/entities/material-entity.rst:20
 msgid ""
@@ -8877,6 +8949,9 @@ msgid ""
 "<https://docs.vircadia.com/_static/resources/material-"
 "entity/CastleWall.hfm.json>`_ looks like:"
 msgstr ""
+"Es así como se ve el archivo JSON para una muestra de `material de muro de "
+"castillo <https://docs.vircadia.com/_static/resources/material-entity/"
+"CastleWall.hfm.json>`_:"
 
 #: ../../source/create/entities/material-entity.rst:39
 msgid ""
@@ -8888,16 +8963,25 @@ msgid ""
 "<https://apidocs.vircadia.dev/Entities.html#.EntityProperties-"
 "Material>`_."
 msgstr ""
+"Este archivo contiene todos los datos de materiales relacionados, como el "
+"color, la rugosidad y otra información de textura y sombreado. Ten en cuenta "
+"que puedes editar esta información mediante programación con el `Material` `"
+"EntityType <https://apidocs.vircadia.dev/Entities.html#.EntityType>`_ ("
+"Material de Tipo de Entidad) en nuestra API, y definir sus propiedades "
+"usando el `EntityProperties-Material <https://apidocs.vircadia.dev/Entities."
+"html#.EntityProperties-Material>`_ (Material de Propiedad de Entidad)."
 
 #: ../../source/create/entities/material-entity.rst:47
 msgid "Use the Material Entity JSON File"
-msgstr ""
+msgstr "Usar el Archivo JSON de Entidad de Material"
 
 #: ../../source/create/entities/material-entity.rst:49
 msgid ""
 "At this time, we have no way to automatically generate a JSON file with "
 "another tool, and you will need to write your own JSON file."
 msgstr ""
+"En este momento, no tenemos forma de generar automáticamente un archivo JSON "
+"con otra herramienta, por lo cual deberás escribir tu propio archivo JSON."
 
 #: ../../source/create/entities/material-entity.rst:51
 msgid ""
@@ -8906,12 +8990,18 @@ msgid ""
 "<https://docs.vircadia.com/_static/resources/material-"
 "entity/CastleWall.hfm.json>`_ to a box entity in your domain."
 msgstr ""
+"Una vez que tengas tu archivo JSON de entidad material, puedes agregarlo a "
+"un objeto en Vircadia. Agreguemos el `material de muro de castillo "
+"<https://docs.vircadia.com/_static/resources/material-entity/CastleWall.hfm."
+"json>`_ a una entidad de caja en tu dominio."
 
 #: ../../source/create/entities/material-entity.rst:54
 msgid ""
 "Create a wall. Click the 'Cube' icon to add a box entity and change the "
 "dimensions to make it resemble a wall."
 msgstr ""
+"Crea un muro. Haz click en el ícono de \"Cube\" (Cubo) para añadir una "
+"entidad de caja y cambia las dimensiones para que se parezca a una pared."
 
 #: ../../source/create/entities/material-entity.rst:55
 msgid ""
@@ -8919,6 +9009,10 @@ msgid ""
 "material entity. Enter the material's JSON file URL when prompted. You "
 "will see the material entity represented as a small sphere."
 msgstr ""
+"Ve a la pestaña **Crear** y haz click en el ícono \"Material\" para agregar "
+"una entidad de material. Ingresa la URL del archivo JSON del material cuando "
+"se te lo solicite. Verás la entidad material representada como una pequeña "
+"esfera."
 
 #: ../../source/create/entities/material-entity.rst:56
 msgid ""
