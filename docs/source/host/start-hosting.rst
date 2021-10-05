@@ -4,6 +4,8 @@ Get Started with Hosting
 
 We are thrilled you've decided to host a custom domain with us on the metaverse! We also understand that setting up a server, configuring it, and creating a domain takes some time and technical knowledge. Hopefully, this section will help you become familiar with the basics of hosting domains in Vircadia, so that you can create the space you want and be a part of building a bigger, more expansive metaverse.
 
+You can also follow the :doc:`quick start guide <quick-start>` to boot up a Domain right away.
+
 .. contents:: On This Page
     :depth: 2
 
