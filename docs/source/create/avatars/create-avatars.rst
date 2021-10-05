@@ -41,8 +41,6 @@ The steps involved in creating your avatar are:
 * :doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`
 * :doc:`Modify Materials and Textures with Blender <blender-tutorial>`
 
-.. raw:: html
-
 -------------------------------
 Community Tools for Avatars
 -------------------------------
