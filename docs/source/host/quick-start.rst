@@ -31,7 +31,7 @@ Windows
 5. In your Vircadia Interface, open the `Explore` app and enter `localhost` (or the server's IP address) to get there.
 
 ----------------------------
-Amazon Linux 2 (.rpm)
+Amazon Linux 2 (.rpm) (Deprecated)
 ----------------------------
 
 1. Open your terminal.
