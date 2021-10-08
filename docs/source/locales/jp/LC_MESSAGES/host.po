@@ -8,40 +8,42 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-07-08 21:24+0000\n"
+"POT-Creation-Date: 2021-10-08 14:51+0000\n"
 "PO-Revision-Date: 2021-09-21 19:37+0000\n"
 "Last-Translator: 川音リオ <rio.kawane@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/host/ja/>\n"
 "Language: jp\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/host/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/host.rst:9 ../../source/host/start-hosting.rst:3
+#: ../../source/host.rst:11
+msgid "Quick Start Guide"
+msgstr ""
+
+#: ../../source/host.rst:11 ../../source/host/start-hosting.rst:3
 msgid "Get Started with Hosting"
 msgstr ""
 
-#: ../../source/host.rst:9
+#: ../../source/host.rst:11
 msgid "Set Up a Domain Server"
 msgstr ""
 
-#: ../../source/host.rst:9 ../../source/host/configure-settings.rst:3
+#: ../../source/host.rst:11 ../../source/host/configure-settings.rst:3
 msgid "Configure Your Domain Settings"
 msgstr ""
 
-#: ../../source/host.rst:9 ../../source/host/add-content.rst:3
+#: ../../source/host.rst:11 ../../source/host/add-content.rst:3
 msgid "Add Content to Your Domain"
 msgstr ""
 
-#: ../../source/host.rst:9 ../../source/host/invite-users.rst:7
+#: ../../source/host.rst:11 ../../source/host/invite-users.rst:7
 msgid "Bring Visitors to Your Domain"
 msgstr ""
 
-#: ../../source/host.rst:9 ../../source/host/maintain-domain.rst:3
+#: ../../source/host.rst:11 ../../source/host/maintain-domain.rst:3
 msgid "Maintain Your Domain"
 msgstr ""
 
@@ -52,7 +54,7 @@ msgstr ""
 #: ../../source/host.rst:5
 msgid ""
 "Vircadia's vision is a decentralized network of virtual worlds, created "
-"and controlled by our users. To achieve this vision, we want you to have "
+"and controlled by its users. To achieve this vision, we want you to have "
 "the power to express your creativity, build your own virtual worlds, and "
 "be a part of an expanding metaverse."
 msgstr ""
@@ -62,6 +64,13 @@ msgid ""
 "Throughout this chapter, learn what its like to create your own domain, "
 "host it on a server, and maintain it so that it can be enjoyed by users "
 "for years to come."
+msgstr ""
+
+#: ../../source/host.rst:9
+msgid ""
+"If you want to jump right in, consider reading the :doc:`quick start "
+"guide <host/quick-start>`. Otherwise, let's :doc:`get started <host"
+"/start-hosting>`."
 msgstr ""
 
 #: ../../source/host/add-content.rst:9
@@ -128,8 +137,9 @@ msgstr ""
 #: ../../source/host/maintain-domain/manage-visitors.rst:10
 #: ../../source/host/maintain-domain/script-maintenance.rst:8
 #: ../../source/host/maintain-domain/update-software.rst:8
+#: ../../source/host/quick-start.rst:6
 #: ../../source/host/server-setup/windows-server.rst:10
-#: ../../source/host/start-hosting.rst:8
+#: ../../source/host/start-hosting.rst:10
 msgid "On This Page"
 msgstr ""
 
@@ -2536,6 +2546,119 @@ msgid ""
 "assignment client."
 msgstr ""
 
+#: ../../source/host/quick-start.rst:3
+msgid "Hosting Quick Start"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:10
+msgid "Notice: Port Forwarding"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:12
+msgid "There are two ways to make a domain accessible from the outside Internet."
+msgstr ""
+
+#: ../../source/host/quick-start.rst:14
+msgid ""
+"You may register your domain with the Metaverse server by creating a "
+"`Domain ID` in the domain's web panel found at http://localhost:40100/. "
+"(Experimental)"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:15
+msgid ""
+"Alternatively, you can manually open the following ports on your router "
+"and firewall:"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:17
+msgid "40100 : (tcp) administration web portal"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:18
+msgid "40102 : (udp) main connection for clients"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:22
+msgid "Windows"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:24
+msgid "Download Vircadia (full, not Interface only)."
+msgstr ""
+
+#: ../../source/host/quick-start.rst:25
+msgid ""
+"Use the `Custom` install option and ensure that both the `Vircadia "
+"Interface` and `Vircadia Server` options are checked. Vircadia Server is "
+"the Domain server."
+msgstr ""
+
+#: ../../source/host/quick-start.rst:29
+msgid "In your start menu, search for and run `Vircadia Server`."
+msgstr ""
+
+#: ../../source/host/quick-start.rst:30
+msgid ""
+"Go to ``http://localhost:40100/`` in your web browser and complete the "
+"wizard to set up your domain. If the server is on a different machine, "
+"then replace 'localhost' with its IP address."
+msgstr ""
+
+#: ../../source/host/quick-start.rst:31
+msgid ""
+"In your Vircadia Interface, open the `Explore` app and enter `localhost` "
+"(or the server's IP address) to get there."
+msgstr ""
+
+#: ../../source/host/quick-start.rst:35
+msgid "Amazon Linux 2 (.rpm) (Deprecated)"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:37 ../../source/host/quick-start.rst:49
+msgid "Open your terminal."
+msgstr ""
+
+#: ../../source/host/quick-start.rst:38
+msgid "Run the following command to download and install the server:"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:40
+msgid "sudo yum install |serverrpm|"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:42 ../../source/host/quick-start.rst:58
+msgid ""
+"Go to ``http://[IP address of your server]:40100/`` in your web browser "
+"and complete the wizard to set up your domain."
+msgstr ""
+
+#: ../../source/host/quick-start.rst:43 ../../source/host/quick-start.rst:59
+msgid ""
+"In your Vircadia Interface, open the `Explore` app and enter your "
+"server's IP address to get there."
+msgstr ""
+
+#: ../../source/host/quick-start.rst:47
+msgid "Ubuntu 18.04 Linux (.deb)"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:50
+msgid "Run the following command to download the server package:"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:52
+msgid "wget |serverdeb|"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:54
+msgid "Then run this command to update the package index and install the server:"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:56
+msgid "sudo apt-get update && sudo apt-get install ./|serverdebfile|"
+msgstr ""
+
 #: ../../source/host/server-setup.rst:34
 msgid "Host a Domain from a Local Windows Server"
 msgstr ""
@@ -3113,36 +3236,42 @@ msgid ""
 "part of building a bigger, more expansive metaverse."
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:12
-msgid "Overview of Hosting"
+#: ../../source/host/start-hosting.rst:7
+msgid ""
+"You can also follow the :doc:`quick start guide <quick-start>` to boot up"
+" a Domain right away."
 msgstr ""
 
 #: ../../source/host/start-hosting.rst:14
+msgid "Overview of Hosting"
+msgstr ""
+
+#: ../../source/host/start-hosting.rst:16
 msgid ""
 "Vircadia's hosting interface consists of the following components that "
 "work together to create an immersive VR experience for your visitors:"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:16
+#: ../../source/host/start-hosting.rst:18
 msgid ""
 "The *Domain server* is a virtual world that gives you a space to build "
 "content in."
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:17
+#: ../../source/host/start-hosting.rst:19
 msgid ""
 "A *domain* is a server in the metaverse. Each domain is assigned a unique"
 " ID to identify it. You can connect your domain to the Vircadia Metaverse"
 " Server by logging into your account on the Vircadia website."
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:18
+#: ../../source/host/start-hosting.rst:20
 msgid ""
 "A *place* is a registered location in the metaverse. A place is connected"
 " to a domain; you can create multiple places per domain."
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:19
+#: ../../source/host/start-hosting.rst:21
 msgid ""
 "A *server* hosts a domain, and processes incoming network requests for "
 "the domain. The server for your domain is either a physical computer or a"
@@ -3150,43 +3279,43 @@ msgid ""
 "and so on."
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:20
+#: ../../source/host/start-hosting.rst:22
 msgid "A *content set* is the content that you've added to your world."
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:24
+#: ../../source/host/start-hosting.rst:26
 msgid "The Hosting Process"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:26
+#: ../../source/host/start-hosting.rst:28
 msgid ""
 "Here is an overview of the steps you'll need to take to host your domain "
 "up and running on the metaverse:"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:28
+#: ../../source/host/start-hosting.rst:30
 msgid ""
 ":doc:`Choose your hosting platform <start-hosting>` (local server or "
 "cloud server)"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:29
+#: ../../source/host/start-hosting.rst:31
 msgid ":doc:`Set up your server and create your domain <server-setup>`"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:30
+#: ../../source/host/start-hosting.rst:32
 msgid ":doc:`Add content to your domain <add-content>`"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:31
+#: ../../source/host/start-hosting.rst:33
 msgid ":doc:`Set up user permissions <configure-settings/permission-settings>`"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:32
+#: ../../source/host/start-hosting.rst:34
 msgid ":doc:`Invite users to your domain <invite-users>`"
 msgstr ""
 
-#: ../../source/host/start-hosting.rst:34
+#: ../../source/host/start-hosting.rst:36
 msgid ""
 "Once your domain is running, we'll cover how to :doc:`configure your "
 "domain settings <configure-settings>`, from the most basic to the more "
@@ -4598,3 +4727,15 @@ msgstr ""
 #~ " were running, this is provided as"
 #~ " an option."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Vircadia's vision is a decentralized "
+#~ "network of virtual worlds, created and"
+#~ " controlled by our users. To achieve"
+#~ " this vision, we want you to "
+#~ "have the power to express your "
+#~ "creativity, build your own virtual "
+#~ "worlds, and be a part of an "
+#~ "expanding metaverse."
+#~ msgstr ""
+
