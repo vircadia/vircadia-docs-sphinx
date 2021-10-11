@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-08-28 20:20+0000\n"
-"PO-Revision-Date: 2021-10-08 14:51+0000\n"
-"Last-Translator: jose manuel <elmanytas@gmail.com>\n"
+"PO-Revision-Date: 2021-10-11 03:09+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -9019,6 +9019,8 @@ msgid ""
 "Click and select the wall. Go to the 'Properties' tab and copy the parent"
 " ID under the 'Name' box."
 msgstr ""
+"Haz click y selecciona la pared. Ve a la pestaña \"Properties\" y copia el "
+"ID del padre debajo del campo \"Name\"."
 
 #: ../../source/create/entities/material-entity.rst:57
 msgid ""
@@ -9027,10 +9029,14 @@ msgid ""
 " applied to the wall. In this step, you are parenting or applying a "
 "material to an entity."
 msgstr ""
+"Haz click y selecciona el material de la entidad. Ve a la pestaña "
+"\"Properties\" y pega el ID padre copiado en el campo \"Parent\". Verás el "
+"material aplicado al muro. En este paso, estás familiarizando o aplicando el "
+"material a la entidad."
 
 #: ../../source/create/entities/material-entity.rst:68
 msgid "Use the materialData Field"
-msgstr ""
+msgstr "Usar el Campo materialData (Datos del material)"
 
 #: ../../source/create/entities/material-entity.rst:70
 msgid ""
@@ -9047,19 +9053,33 @@ msgid ""
 "'Material Data' field. Click 'Clear Material Data' and then paste the "
 "following JSON data:"
 msgstr ""
+"Para agregar una entidad material directamente en la aplicación de "
+"herramientas de **Create**: 1. En la Interfaz, abre tu HUD o tableta y ve a "
+"**Create**. 2. Crea una pared. Haz click en el icono \"Cube\" para agregar "
+"una entidad de caja y cambia sus dimensiones para que se parezca a una "
+"pared. 3. Ve a la pestaña **Create** y haz click en el icono \"Material\" "
+"para agregar una entidad de material. 4. Introduce `materialData` cuando se "
+"te solicite una \"URL material\" (URL de material). 5. Haz click y "
+"selecciona la pared. Ve a la pestaña \"Properties\" y copia el ID del padre "
+"debajo del campo \"Name\". 6. Haz click y selecciona la entidad material. Ve "
+"a la pestaña \"Properties\" y pega el ID del padre copiado en el campo "
+"\"Parent\" (Padre). En este paso, estás emparentando/familizarizando o "
+"aplicando un material a una entidad. 7. Desplázate hacia abajo hasta el "
+"campo \"Material Data\" (Datos de material). Haz clic en \"Clear Material "
+"Data\" (Borrar datos de material) y luego pegua los siguientes datos JSON:"
 
 #: ../../source/create/entities/material-entity.rst:106
 msgid ":doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`"
-msgstr ""
+msgstr ":doc:`Guía de Materiales PBR <../3d-models/pbr-materials-guide>`"
 
 #: ../../source/create/entities/material-entity.rst:107
 msgid "`Introduction to JSON <https://www.w3schools.com/js/js_json_intro.asp>`_"
-msgstr ""
+msgstr "`Introducción a JSON <https://www.w3schools.com/js/js_json_intro.asp>`_"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:3
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Open Web Page with Entities"
-msgstr ""
+msgstr "Tutorial: Abrir Página Web con Entidades"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:5
 msgid ""
@@ -9069,10 +9089,16 @@ msgid ""
 "web page on your tablet. You can use this tutorial to do things like "
 "directing your visitors to an external shop for purchasing an item."
 msgstr ""
+"Las entidades se utilizan a menudo para agregar objetos a tu entorno. Sin "
+"embargo, puedes hacer mucho más con esto cuando usas secuencias de comandos "
+"(scripting) para definir su comportamiento. En este tutorial, usaremos una "
+"entidad como un botón para abrir una página web en tu tableta. Puedes usar "
+"este tutorial para hacer cosas como dirigir a tus visitantes a una tienda "
+"externa para comprar un artículo."
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:25
 msgid "Write a Script to Open a Web Page"
-msgstr ""
+msgstr "Escribir un Script para Abrir una Página Web"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:27
 msgid ""
@@ -9082,22 +9108,31 @@ msgid ""
 " an entity/item is triggered. The script looks for the URL in the 'User "
 "data' property of the entity."
 msgstr ""
+"El script utilizado aquí abre una página web en la Tableta o el navegador "
+"web externo cuando un usuario hace click o activa una entidad. En este "
+"ejemplo, hemos escrito un script de entidad cliente que abre la "
+"documentación de Vircadia cuando se activa una entidad/elemento. El script "
+"busca la URL en la propiedad \"User Data\" (Datos de usuario) de la entidad."
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:29
 msgid ""
 "You can get the script `here <https://vircadia-content-"
 "public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
 msgstr ""
+"Puedes conseguir el script `aquí <https://vircadia-content-public.s3."
+"amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:39
 msgid ""
 "Go to the 'Properties' tab at the top and down to the 'Behavior' tab on "
 "the left of the window."
 msgstr ""
+"Ve a la pestaña \"Properties\" en la parte superior y baje a la pestaña "
+"\"Behavior\" (Comportamiento) sobre el lado izquierdo de la ventana."
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:40
 msgid "Set it as 'Triggerable'."
-msgstr ""
+msgstr "Configúralo como \"Triggerable\" (Activable)."
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:41
 msgid ""
@@ -9105,21 +9140,26 @@ msgid ""
 " `clickToOpenBrowser.js <https://vircadia-content-"
 "public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
 msgstr ""
+"A continuación, ve a la pestaña \"Script\" y pega la URL del script. En este "
+"caso, es `clickToOpenBrowser.js <https://vircadia-content-public.s3.amazonaws"
+".com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:42
 msgid "Paste the following JSON data into the 'User data' field for your entity:"
-msgstr ""
+msgstr "Pega los siguientes datos JSON en el campo \"User Data\" de tu entidad:"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:59
 msgid ""
 "After you exit the **Create** app, test your script by clicking or "
 "triggering the button to open the web page."
 msgstr ""
+"Después de que salgas de la aplicación **Create**, prueba tu script "
+"cliqueando o activando el botón para abrir la página web."
 
 #: ../../source/create/entities/portal-tutorial.md:6
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Create a Portal"
-msgstr ""
+msgstr "Tutorial: Crear un Portal"
 
 #: ../../source/create/entities/portal-tutorial.md:8
 msgid ""
@@ -9127,40 +9167,45 @@ msgid ""
 "use these portals to travel to a domain you visit frequently instead of "
 "using the **GoTo** app on your HUD or Tablet."
 msgstr ""
+"Los portales de Vircadia te transportan al dominio de tu elección. Puedes "
+"usar estos portales para viajar a un dominio que visites con frecuencia en "
+"lugar de usar la aplicación **GoTo** en tu HUD o tableta."
 
 #: ../../source/create/entities/portal-tutorial.md:12
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:7
 #: ../../source/create/entities/zone-tutorial.md:14
 msgid "[Prerequisites](#prerequisites)"
-msgstr ""
+msgstr "[Prerrequisitos](#prerequisites)"
 
 #: ../../source/create/entities/portal-tutorial.md:13
 msgid "[Write a Script for the Portal](#write-a-script-for-the-portal)"
-msgstr ""
+msgstr "[Escribe un Script para el Portal](#write-a-script-for-the-portal)"
 
 #: ../../source/create/entities/portal-tutorial.md:14
 msgid ""
 "[Create and Edit an Entity to Use as a Portal](#create-and-edit-an-"
 "entity-to-use-as-a-portal)"
 msgstr ""
+"[Crea y Edita una Entidad para usarla como un Portal](#create-and-edit-an-"
+"entity-to-use-as-a-portal)"
 
 #: ../../source/create/entities/portal-tutorial.md:25
 #: ../../source/create/entities/portal-tutorial.md:60
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:20
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:116
 msgid "[Client Entity Scripts](../../script/client-entity-scripts)"
-msgstr ""
+msgstr "[Scripts de Entidad Cliente](../../script/client-entity-scripts)"
 
 #: ../../source/create/entities/portal-tutorial.md:26
 #: ../../source/create/entities/portal-tutorial.md:61
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:21
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:117
 msgid "[Write Your Own Scripts](../../script/write-scripts)"
-msgstr ""
+msgstr "[Escribe Tus Propios Scripts](../../script/write-scripts)"
 
 #: ../../source/create/entities/portal-tutorial.md:28
 msgid "Write a Script for the Portal"
-msgstr ""
+msgstr "Escribe un Script para el Portal"
 
 #: ../../source/create/entities/portal-tutorial.md:30
 msgid ""
@@ -9172,24 +9217,35 @@ msgid ""
 " the script used to teleport in Vircadia domains. You can also [write "
 "your own script](../../script/write-scripts) to suit your needs."
 msgstr ""
+"Un portal es una entidad con un script adjunto (script de entidad). Este "
+"script adjunto define lo que sucede cuando un usuario entra en contacto con "
+"el portal. Usamos [portal.js](https://raw.githubusercontent.com/vircadia/"
+"vircadia-content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/"
+"portal.js), el script utilizado para teletransportarse en los dominios de "
+"Vircadia. También puedes [escribir tu propio script] (../../ script / write-"
+"scripts) para adaptarlo a tus necesidades."
 
 #: ../../source/create/entities/portal-tutorial.md:32
 msgid "The portal.js script we've used:"
-msgstr ""
+msgstr "El script portal.js que hemos utilizado:"
 
 #: ../../source/create/entities/portal-tutorial.md:33
 msgid ""
 "Uses Vircadia's [JavaScript API](https://apidocs.vircadia.dev) to "
 "determine when a user walks into the entity and the teleport destination."
 msgstr ""
+"Utiliza la [API de JavaScript](https://apidocs.vircadia.dev) de Vircadia "
+"para determinar cuándo un usuario ingresa a la entidad y el destino del "
+"teletransporte."
 
 #: ../../source/create/entities/portal-tutorial.md:34
 msgid "Includes a sound that will played every time a user uses the portal."
 msgstr ""
+"Incluye un sonido que se reproducirá cada vez que un usuario use el portal."
 
 #: ../../source/create/entities/portal-tutorial.md:35
 msgid "Teleports a user to the specified destination."
-msgstr ""
+msgstr "Teletransporta a un usuario al destino especificado."
 
 #: ../../source/create/entities/portal-tutorial.md:37
 msgid "Create and Edit an Entity to Use as a Portal"
