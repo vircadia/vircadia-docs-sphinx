@@ -55,6 +55,8 @@ Troubleshooting
 + `Why can't I connect to a domain? <#cannot-connect>`_
 + `No one can hear me! <#no-input>`_
 + `I can't hear anything in Vircadia <#no-output>`_
++ `I have a problem using Vircadia on my AMD graphics card on Windows <#amd-problem>`_
++ `How do I install a different AMD graphics driver on Windows? <#amd-downgrade>`_
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _interface-log-files:                                                                            |
@@ -177,4 +179,67 @@ Troubleshooting
 |   the **Audio** app and make sure the right headset, speakers, and/or microphone are selected.      |
 | * Volume is turned down or off in Vircadia. Open the **Audio** app and check your volume            |
 |   settings.                                                                                         |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _amd-problem:                                                                                    |
+|                                                                                                     |
+| I have a problem with Vircadia on my AMD graphics card on Windows.                                  |
++=====================================================================================================+
+| AMD regularly introduces issues into their Windows graphics card drivers.                           |
+| If you run into a new issue like mangled graphics or a crash on startup on your AMD graphics card,  |
+| chances are that a driver update was installed in the background.                                   |
+|                                                                                                     |
+| Known broken driver versions include:                                                               |
+|                                                                                                     |
+| * ``21.9.2 30.0.13017.5006`` - ``21.10.2 21.30.25.05`` (mangled graphics)                           |
+| * ``20.11.2 27.20.14501.18003`` (crashing)                                                          |
+|                                                                                                     |
+| To fix this kind of issue you generally need to                                                     |
+| `downgrade you graphics card driver <#amd-downgrade>`_ to an older working version.                 |
+|                                                                                                     |
+| If you do run into an issue like this please consider opening an issue on our                       |
+| `GitHub issue tracker <https://github.com/vircadia/vircadia/issues>`_.                              |
+| If you are fairly sure that this is an AMD driver issue, please consider                            |
+| `reporting the issue to AMD <https://www.amd.com/report>`_.                                         |
++-----------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------------+
+| .. _amd-downgrade:                                                                                  |
+|                                                                                                     |
+| How do I install a different AMD graphics driver on Windows?                                        |
++=====================================================================================================+
+| First you should check which driver version and graphics card you are actually using.               |
+| To do this, open your Adrenalin Control Panel either by clicking the tray icon, or by searching     |
+| for "AMD Radeon Software" in your start menu.                                                       |
+| Then you open your Settings -> System tab and check the "Radeon Software Version"                   |
+|                                                                                                     |
+| .. image:: _images/amd-radeon-software.png                                                          |
+|                                                                                                     |
+| Check what drivers are available for your AMD graphics card via the                                 |
+| `AMD website <https://www.amd.com/en/support>`_.                                                    |
+|                                                                                                     |
+| .. image:: _images/amd-driver-search.png                                                            |
+|                                                                                                     |
+| Compare the driver version from the Adrenalin Control Panel with the recommended Radeon             |
+| Adrenalin Software version.                                                                         |
+|                                                                                                     |
+| .. image:: _images/amd-compare-version.png                                                          |
+|                                                                                                     |
+| If the version if lower, then please try upgrading to that version by clicking the appropriate      |
+| download button and installing it. If the installer says it will continue after a restart           |
+| and doesn't do so, just start it again.                                                             |
+|                                                                                                     |
+| If you are on the same version, then try downgrading your driver by clicking the small              |
+| "Previous Drivers" link at the bottom left of the list, and choosing an older recommended version.  |
+|                                                                                                     |
+| .. image:: _images/amd-previous.png                                                                 |
+|                                                                                                     |
+| .. image:: _images/amd-choose-driver.png                                                            |
+|                                                                                                     |
+| Just download and run the driver installer.                                                         |
+|                                                                                                     |
+| If you are on a newer version, then please try downgrading to the "Recommended" driver version.     |
+| Just download and install same as above.                                                            |
+|                                                                                                     |
 +-----------------------------------------------------------------------------------------------------+
