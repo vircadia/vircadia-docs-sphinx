@@ -1,5 +1,5 @@
 .. warning::
-    This document is outdated.
+    This document is outdated and will be revisited in the future.
     FIXME: Mentions services like VRoid Studio even though their skeletons have never been supported (the Unity avatar exporter will not be able to fix that)
 
 ##############################
@@ -8,13 +8,13 @@ Create Your Own Avatar
 
 There are three ways to get your own avatar. You can either:
 
-* Create your avatar from scratch using 3D modeling tools such as Adobe Fuse, Mixamo, and Blender
+* Create your avatar from scratch using 3D modeling tools such as Mixamo and Blender
 * Use MakeHuman or VRoid Studio to create a human or anime avatar
-* Download an existing avatar from external sources such as TurboSquid or CGTrader 
+* Download an existing avatar from external sources such as TurboSquid or CGTrader
 
-.. note:: If you get an avatar from an external source such as TurboSquid, CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with Vircadia, use the `Vircadia Avatar Exporter for Unity <find-avatars.html#vircadia-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar. 
+.. note:: If you get an avatar from an external source such as TurboSquid, CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with Vircadia, use the `Vircadia Avatar Exporter for Unity <find-avatars.html#vircadia-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar.
 
-If you want to create an avatar from scratch, this page covers the steps needed to create, rig, and package your avatar. 
+If you want to create an avatar from scratch, this page covers the steps needed to create, rig, and package your avatar.
 
 .. contents:: On This Page
     :depth: 2
@@ -33,22 +33,13 @@ Create an Avatar from Scratch
 
 The steps involved in creating your avatar are:
 
-1. Create an avatar with 3D character modeling tool such as Adobe Fuse, Blender or Maya. 
+1. Create an avatar with 3D character modeling tool such as Blender or Maya.
 2. Rig and animate your avatar with an animation tool such as Mixamo.
 3. Fine tune your avatar using a tool such as Blender or Maya.
-4. Package the model in Vircadia for use as an avatar.  
+4. Package the model in Vircadia for use as an avatar.
 
-Check out this YouTube playlist for one way to create and customize your own avatar. Here, we use Adobe Fuse to create our avatar, Mixamo to rig our avatar automatically, and Blender to adjust the rendering on our avatar. We also have written instructions on the same process: 
-
-* :doc:`Create an Avatar with Fuse <fuse-tutorial>`
 * :doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`
 * :doc:`Modify Materials and Textures with Blender <blender-tutorial>`
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/6NfiH4rdVRM" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 100px; width: 70%; height: 70%;"></iframe>
-    </div>
 
 -------------------------------
 Community Tools for Avatars
@@ -60,7 +51,7 @@ As you're creating your avatar, remember that Vircadia is an open-source project
 `Blender Add-on by Menithal <https://github.com/Menithal/Blender-Metaverse-Addon>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Plugin ("Project Hermes") is a plugin for Blender to allow for easier content creation and importing for the Vircadia Metaverse Platform. It features: 
+Plugin ("Project Hermes") is a plugin for Blender to allow for easier content creation and importing for the Vircadia Metaverse Platform. It features:
 
 - **Material Tools**: Allows for easier pipeline to apply materials to objects so that they are ready to use in Vircadia.
 - **Armature Tools**: Adds a skeleton that is compatible with Vircadia and let you configure bone names for use in advanced scripts.
@@ -70,7 +61,7 @@ Plugin ("Project Hermes") is a plugin for Blender to allow for easier content cr
 
 Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon <https://github.com/Menithal/Blender-Metaverse-Addon>`_
 
-Have a project you've been working on that you'd like us to share? Let us know by editing this page in GitHub! 
+Have a project you've been working on that you'd like us to share? Let us know by editing this page in GitHub!
 
 
 **See Also**
