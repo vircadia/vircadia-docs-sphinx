@@ -1,6 +1,6 @@
 # Status
 
-![Master CI Deploy](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_build.yml/badge.svg) ![Master CI Warnings](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_warnings.yml/badge.svg)
+![Master CI Deploy](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_build.yml/badge.svg) ![Master CI Warnings](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_warnings.yml/badge.svg) ![Master CI Linkcheck](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_linkcheck.yml/badge.svg)
 
 # Overview of Vircadia's Documentation Tools
 
