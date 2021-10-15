@@ -192,7 +192,7 @@ Troubleshooting
 |                                                                                                     |
 | Known broken driver versions include:                                                               |
 |                                                                                                     |
-| * ``21.9.2 30.0.13017.5006`` - ``21.10.2 21.30.25.05`` (mangled graphics)                           |
+| * ``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (mangled graphics)                          |
 | * ``20.11.2 27.20.14501.18003`` (crashing)                                                          |
 |                                                                                                     |
 | To fix this kind of issue you generally need to                                                     |
@@ -225,6 +225,8 @@ Troubleshooting
 | Adrenalin Software version.                                                                         |
 |                                                                                                     |
 | .. image:: _images/amd-compare-version.png                                                          |
+|                                                                                                     |
+| Take a look `further up <#amd-problem>`_ to see a list of known broken driver versions.             |
 |                                                                                                     |
 | If the version if lower, then please try upgrading to that version by clicking the appropriate      |
 | download button and installing it. If the installer says it will continue after a restart           |
