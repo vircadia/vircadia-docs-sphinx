@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-08-28 20:20+0000\n"
-"PO-Revision-Date: 2021-10-11 11:14+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-10-18 01:33+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -9249,7 +9249,7 @@ msgstr "Teletransporta a un usuario al destino especificado."
 
 #: ../../source/create/entities/portal-tutorial.md:37
 msgid "Create and Edit an Entity to Use as a Portal"
-msgstr ""
+msgstr "Crear y Editar una Entidad para Usar como Portal"
 
 #: ../../source/create/entities/portal-tutorial.md:39
 msgid ""
@@ -9257,12 +9257,17 @@ msgid ""
 "](entity-behavior.html#set-entity-behavior-on-collision) so that the "
 "script can detect when you walk into the entity."
 msgstr ""
+"Cualquier entidad que creas para ser utilizada como portal tiene que ser sin "
+"colisiones[collisionless](entity-behavior.html # set-entity-behavior-on-"
+"collision) para que el script pueda detectar cuando ingreses a la entidad."
 
 #: ../../source/create/entities/portal-tutorial.md:42
 msgid ""
 "[Create an entity](create-entities) to be used as a portal. This can be a"
 " 3D model or a box or sphere entity."
 msgstr ""
+"[Crear una entidad] (create-entities) para usar como portal. Puede ser un "
+"modelo 3D o una entidad de caja o esfera."
 
 #: ../../source/create/entities/portal-tutorial.md:44
 msgid ""
@@ -9270,41 +9275,50 @@ msgid ""
 "'[portal.js](https://raw.githubusercontent.com/vircadia/vircadia-"
 "content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js)'."
 msgstr ""
+"Junto a \"Script\", pega la URL del script. En este caso, es '[portal."
+"js](https://raw.githubusercontent.com/vircadia/vircadia-content/"
+"44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js)'."
 
 #: ../../source/create/entities/portal-tutorial.md:45
 msgid ""
 "The script takes the location you want to teleport to from the 'User "
 "Data' field under 'Behavior'."
 msgstr ""
+"El script toma la ubicación a la que deseas teletransportarte desde el campo "
+"\"User Data\" debajo de \"Behavior\"."
 
 #: ../../source/create/entities/portal-tutorial.md:46
 msgid ""
 "Add `hifi:// welcome` (Vircadia's welcome domain) to the 'User Data' "
 "field."
 msgstr ""
+"Añade `hifi:// welcome` (Dominio de bienvenida de Vircadia) al campo \"User "
+"Data\"."
 
 #: ../../source/create/entities/portal-tutorial.md:47
 msgid ""
 "Scroll down to 'Collision' and uncheck 'Collides'. This is so that a user"
 " can walk into the entity and trigger the script."
 msgstr ""
+"Desplázate hacia abajo hasta \"Collision\" y desmarca \"Collides\" (Choque). "
+"Esto es para que un usuario pueda ingresar a la entidad y activar el script."
 
 #: ../../source/create/entities/portal-tutorial.md:48
 msgid "Exit **Create** mode and walk into the entity."
-msgstr ""
+msgstr "Sal del modo **Crear** y camina hacia dentro de la entidad."
 
 #: ../../source/create/entities/portal-tutorial.md:50
 msgid "![](_images/create-portal.png)"
-msgstr ""
+msgstr "![](_images/create-portal.png)"
 
 #: ../../source/create/entities/portal-tutorial.md:52
 msgid "You will be teleported to Vircadia's welcome domain."
-msgstr ""
+msgstr "Serás teletransportado al dominio de bienvenida de Vircadia."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:1
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Build a Painting Set"
-msgstr ""
+msgstr "Tutorial: Construir un Conjunto de Pintura"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:3
 msgid ""
@@ -9313,36 +9327,44 @@ msgid ""
 " users to \"paint\" pictures on a canvas made out of \"pixels\" that are "
 "box entities."
 msgstr ""
+"Hay diferentes formas de crear juegos y experiencias en Vircadia. En este "
+"tutorial, cubriremos cómo hacer un conjunto de pintura similar a un píxel "
+"para permitir a los usuarios \"pintar\" imágenes en un lienzo hecho de "
+"\"píxeles\" que son entidades de caja."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:8
 msgid "[Create a Painting Set](#create-a-painting-set)"
-msgstr ""
+msgstr "[Crear un Conjunto de Pintura](#create-a-painting-set)"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:9
 msgid "[Add a Paint Brush Script](#add-a-paint-brush-script)"
-msgstr ""
+msgstr "[Agregar un Script de Pincel de Pintura](#add-a-paint-brush-script)"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:23
 msgid "Create a Painting Set"
-msgstr ""
+msgstr "Crear un Conjunto de Pintura"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:25
 msgid "Our painting set comprises three elements:"
-msgstr ""
+msgstr "Nuestro set de pintura consta de tres elementos:"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:26
 msgid "[A brush, made of a cylinder and a sphere object](#create-a-paint-brush)."
 msgstr ""
+"[Un pincel, hecho de un cilindro y un objeto de esfera.](#create-a-paint-"
+"brush)."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:27
 msgid ""
 "[A palette, made of an octagon and sphere object](#create-a-paint-"
 "palette)."
 msgstr ""
+"[Una paleta, hecha de un octágono y un objeto de esfera.](#create-a-paint-"
+"palette)."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:28
 msgid "[A canvas, made of box entities](#create-a-pixel-canvas)."
-msgstr ""
+msgstr "[Un lienzo, hecho de entidades de caja.](#create-a-pixel-canvas)."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:30
 msgid ""
@@ -9350,10 +9372,13 @@ msgid ""
 " rest of the content is made by parenting entities to one another to make"
 " our brush, palette, and canvas."
 msgstr ""
+"Toda la lógica de nuestro juego de pintura está contenida en el cabezal del "
+"pincel. El resto del contenido se crea emparentando entidades entre sí para "
+"crear nuestro pincel, paleta y lienzo."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:32
 msgid "Create a Paint Brush"
-msgstr ""
+msgstr "Crear un Pincel de Pintura"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:33
 msgid ""
@@ -9362,99 +9387,129 @@ msgid ""
 "the brush head, so we can control the movement and color of the brush "
 "head using only the handle."
 msgstr ""
+"Empezaremos creando el pincel de pintura. El pincel se compone de dos "
+"partes, el mango y el cabezal del pincel. El mango del pincel es el padre "
+"del cabezal del pincel, por lo que podemos controlar el movimiento y el "
+"color del cabezal del pincel usando solo el mango."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:35
 msgid "To create the brush handle:"
-msgstr ""
+msgstr "Para crear el mango del pincel:"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:37
 msgid ""
 "[Create an entity](create-entities) to be used as the handle. This can be"
 " a box or sphere entity."
 msgstr ""
+"[Crea una entidad](create-entities) para ser utilizado como mango. Puede ser "
+"una entidad de caja o esfera."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:38
 msgid ""
 "Go to the 'Properties' tab and select the 'Shape' drop down. Change the "
 "shape of the entity to a 'cylinder'."
 msgstr ""
+"Ve a la pestaña de \"Properties\" y selecciona el menú desplegable \"Shape\" "
+"(Forma). Cambia la forma de la entidad a un \"cylinder\" (Cilindro)."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:39
 msgid ""
 "Name your entity 'Paint-Paintbrush-Tube' by selecting the text box at the"
 " top of the 'Properties' tab."
 msgstr ""
+"Nombra tu entidad \"Paint-Paintbrush-Tube\" seleccionando el cuadro de texto "
+"en la parte superior de la pestaña \"Properties\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:40
 msgid "Select your desired handle color from the 'Color' picker."
-msgstr ""
+msgstr "Selecciona el color del mango que quieras en el selector \"Color\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:41
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to: {x:"
 " 0.025, y: 0.5, z: 0.025}."
 msgstr ""
+"Desplázate hacia abajo hasta la sección \"Spatial\" (Espacial). Cambia las "
+"dimensiones locales a: {x: 0.025, y: 0.5, z: 0.025}."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:43
 msgid "To create the brush head:"
-msgstr ""
+msgstr "Para crear el cabezal del pincel:"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:45
 msgid ""
 "Click on the ['SPHERE' icon](create-entities) to create a sphere entity "
 "to be used as the brush head."
 msgstr ""
+"Haz click en el [ícono de \"SPHERE\"](create-entities) para crear una "
+"entidad de esfera que se utilizará como cabezal del pincel."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:46
 msgid ""
 "Go to the 'Properties' tab and select your desired brush head color from "
 "the 'Color' picker."
 msgstr ""
+"Ve a la pestaña de \"Properties\" y selecciona el color del cabezal del "
+"pincel que quieras en el selector \"Color\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:47
 msgid ""
 "Name your entity 'Paint-Paintbrush-Head' by selecting the text box at the"
 " top of the 'Properties' tab."
 msgstr ""
+"Nombra a tu entidad como \"Paint-Paintbrush-Head\" seleccionando el cuadro "
+"de texto en la parte superior de la pestaña \"Properties\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:48
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.05, y: 0.1, z: 0.05}."
 msgstr ""
+"Desplázate hacia abajo hasta la sección \"Spatial\". Cambia las dimensiones "
+"locales a: {x: 0.05, y: 0.1, z: 0.05}."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:50
 msgid "Once you've created the brush head, you can parent the brush handle to it:"
 msgstr ""
+"Una vez que hayas creado el cabezal del pincel, puedes vincularlo con el "
+"mango del pincel:"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:52
 msgid ""
 "In **Create** Tools app, select your brush handle and go to the "
 "'Properties' tab."
 msgstr ""
+"En la aplicación Herramientas de **Crear**, selecciona el mango de tu pincel "
+"y ve a la pestaña \"Properties\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:53
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:79
 msgid "Copy the 'entityID'."
-msgstr ""
+msgstr "Copia el \"entityID\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:54
 msgid ""
 "From the Entity List window, select the brush head and go to the "
 "'Properties' tab."
 msgstr ""
+"Desde la ventana \"Entity List\" (Lista de entidades), selecciona el cabezal "
+"del pincel y ve a la pestaña \"Properties\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:55
 msgid ""
 "In the 'Parent' text box, paste the entityID of the brush handle "
 "(Paintbrush-Tube) entity."
 msgstr ""
+"En el cuadro de texto \"Parent\" (Padre), pega el entityID de la entidad del "
+"controlador del pincel (Paintbrush-Tube)."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:56
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local position to {x: 0,"
 " y: 0.2, z: 0}."
 msgstr ""
+"Desplázate hacia abajo hasta la sección \"Spatial\". Cambia la posición "
+"local a: {x: 0, y: 0.2, z: 0}."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:58
 msgid ""
@@ -9462,6 +9517,9 @@ msgid ""
 "color to other objects in [Add a Paint Brush Script](#add-a-paint-brush-"
 "script)."
 msgstr ""
+"Hemos detallado cómo puedes agregar un script para usar el pincel para "
+"transferir color a otros objetos en [Agregar un script de pincel de "
+"pintura](#add-a-paint-brush-script)."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:60
 msgid "Create a Paint Palette"
