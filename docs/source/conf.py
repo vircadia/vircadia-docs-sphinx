@@ -21,7 +21,7 @@
 
 project = 'Vircadia Docs'
 copyright = '2019, High Fidelity. © Copyright 2021, Vircadia.'
-author = 'Vircadia Team'
+author = 'Vircadia Contributors'
 
 # The short X.Y version
 version = ''

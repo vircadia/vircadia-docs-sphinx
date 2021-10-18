@@ -67,7 +67,7 @@ You have the power to shape your VR experience in Vircadia.
 * :doc:`CREATE <create>` personal experiences by building avatars, domains, tablet apps, and more for you and others to enjoy.
 * :doc:`SCRIPT <script>` and express your creativity by applying advanced scripting concepts to entities and avatars in the metaverse.
 * :doc:`HOST <host>` and make immersive experiences to educate, entertain, and connect with your audience.
-* :doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source code in the repository.
+* :doc:`CONTRIBUTE <contribute>` to the project's endeavor.
 * :doc:`DEVELOP <developer>` the project and tailor it to your needs, or just to help out.
 * :doc:`SECURITY <security>` information about the project and its components.
 
@@ -83,7 +83,7 @@ You have the power to shape your VR experience in Vircadia.
     SCRIPT <script>
     HOST <host>
     CONTRIBUTE <contribute>
-    DEVELOPER <developer>
+    DEVELOP <developer>
     SECURITY <security>
     FAQ <faq>
     RELEASE NOTES <release-notes>
