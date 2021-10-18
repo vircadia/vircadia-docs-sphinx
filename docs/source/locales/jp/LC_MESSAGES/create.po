@@ -8,17 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-08-28 20:20+0000\n"
+"POT-Creation-Date: 2021-10-18 01:33+0000\n"
 "PO-Revision-Date: 2021-09-24 20:40+0000\n"
 "Last-Translator: 川音リオ <rio.kawane@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/create/ja/>\n"
 "Language: jp\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/create/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -68,11 +66,7 @@ msgid ""
 "or developing apps and scripts. To truly make the metaverse your own, "
 "creating your own world or building your immersive project using the free"
 " and openly licensed Vircadia engine is encouraged!"
-msgstr ""
-"Vircadiaでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザーが集まり、お互いの創造性を表現することができます。ここではアバターや"
-"コンテンツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならではのものへとパーソナライズすることが可能です。メタバースを自分の好きな"
-"世界へ変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Vircadiaエンジン」を使って没入型のプロジェクトを構築することをオスス"
-"メします。"
+msgstr "Vircadiaでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザーが集まり、お互いの創造性を表現することができます。ここではアバターやコンテンツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならではのものへとパーソナライズすることが可能です。メタバースを自分の好きな世界へ変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Vircadiaエンジン」を使って没入型のプロジェクトを構築することをオススメします。"
 
 #: ../../source/create.rst:7
 msgid ""
@@ -644,11 +638,10 @@ msgstr ""
 #: ../../source/create/avatars/add-flow.rst:127
 #: ../../source/create/avatars/avatar-standards.md:272
 #: ../../source/create/avatars/blender-tutorial.md:52
-#: ../../source/create/avatars/create-avatars.rst:76
+#: ../../source/create/avatars/create-avatars.rst:67
 #: ../../source/create/avatars/custom-animations.rst:269
 #: ../../source/create/avatars/find-avatars.rst:177
-#: ../../source/create/avatars/fuse-tutorial.md:22
-#: ../../source/create/avatars/mixamo-tutorial.md:25
+#: ../../source/create/avatars/mixamo-tutorial.md:24
 #: ../../source/create/avatars/scattering-tutorial.rst:66
 #: ../../source/create/entities/add-sounds.md:24
 #: ../../source/create/entities/avatar-interactions.md:63
@@ -668,7 +661,7 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:160
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/entities/zone-tutorial.md:155
-#: ../../source/create/environments.rst:30 ../../source/create/tools.rst:81
+#: ../../source/create/environments.rst:30 ../../source/create/tools.rst:71
 #: ../../source/create/wearables.md:41
 msgid "**See Also**"
 msgstr ""
@@ -1465,11 +1458,6 @@ msgstr ""
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/custom-animations.rst:7
 msgid "Customize Avatar Animations"
-msgstr ""
-
-#: ../../source/create/avatars.rst:9
-#: ../../source/create/avatars/fuse-tutorial.md:6
-msgid "Tutorial: Create an Avatar with Fuse"
 msgstr ""
 
 #: ../../source/create/avatars.rst:9
@@ -2506,9 +2494,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:274
-#: ../../source/create/avatars/blender-tutorial.md:56
-#: ../../source/create/avatars/fuse-tutorial.md:26
-#: ../../source/create/avatars/mixamo-tutorial.md:29
+#: ../../source/create/avatars/blender-tutorial.md:55
+#: ../../source/create/avatars/mixamo-tutorial.md:27
 msgid "[Create Your Own Avatar](create-avatars)"
 msgstr ""
 
@@ -2535,8 +2522,8 @@ msgstr ""
 msgid ""
 "In this tutorial, we will walk you through simple modifications you can "
 "make to your avatar using Blender. You will need to import an FBX file "
-"for your avatar. If you don't have one, see our tutorials for [Fuse"
-"](fuse-tutorial) and [Mixamo](mixamo-tutorial)."
+"for your avatar. If you don't have one, see our tutorial for [Mixamo"
+"](mixamo-tutorial)."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:12
@@ -2701,20 +2688,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:54
-#: ../../source/create/avatars/mixamo-tutorial.md:27
-msgid "[Tutorial: Create an Avatar with Fuse](fuse-tutorial)"
-msgstr ""
-
-#: ../../source/create/avatars/blender-tutorial.md:55
-#: ../../source/create/avatars/fuse-tutorial.md:24
 msgid "[Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:2
 msgid ""
-"This document is outdated. FIXME: Mentions services like VRoid Studio "
-"even though their skeletons have never been supported (the Unity avatar "
-"exporter will not be able to fix that)"
+"This document is outdated and will be revisited in the future. FIXME: "
+"Mentions services like VRoid Studio even though their skeletons have "
+"never been supported (the Unity avatar exporter will not be able to fix "
+"that)"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:9
@@ -2723,8 +2705,8 @@ msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:11
 msgid ""
-"Create your avatar from scratch using 3D modeling tools such as Adobe "
-"Fuse, Mixamo, and Blender"
+"Create your avatar from scratch using 3D modeling tools such as Mixamo "
+"and Blender"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:12
@@ -2766,9 +2748,7 @@ msgid "The steps involved in creating your avatar are:"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:36
-msgid ""
-"Create an avatar with 3D character modeling tool such as Adobe Fuse, "
-"Blender or Maya."
+msgid "Create an avatar with 3D character modeling tool such as Blender or Maya."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:37
@@ -2784,30 +2764,18 @@ msgid "Package the model in Vircadia for use as an avatar."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:41
-msgid ""
-"Check out this YouTube playlist for one way to create and customize your "
-"own avatar. Here, we use Adobe Fuse to create our avatar, Mixamo to rig "
-"our avatar automatically, and Blender to adjust the rendering on our "
-"avatar. We also have written instructions on the same process:"
-msgstr ""
-
-#: ../../source/create/avatars/create-avatars.rst:43
-msgid ":doc:`Create an Avatar with Fuse <fuse-tutorial>`"
-msgstr ""
-
-#: ../../source/create/avatars/create-avatars.rst:44
 msgid ":doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:45
+#: ../../source/create/avatars/create-avatars.rst:42
 msgid ":doc:`Modify Materials and Textures with Blender <blender-tutorial>`"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:55
+#: ../../source/create/avatars/create-avatars.rst:46
 msgid "Community Tools for Avatars"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:57
+#: ../../source/create/avatars/create-avatars.rst:48
 msgid ""
 "As you're creating your avatar, remember that Vircadia is an open-source "
 "project. Many of our community members have created plug-ins, add-ons, "
@@ -2815,66 +2783,66 @@ msgid ""
 "avatars. Here are a few for you to play around with."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:61
+#: ../../source/create/avatars/create-avatars.rst:52
 msgid ""
 "`Blender Add-on by Menithal <https://github.com/Menithal/Blender-"
 "Metaverse-Addon>`_"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:63
+#: ../../source/create/avatars/create-avatars.rst:54
 msgid ""
 "Plugin (\"Project Hermes\") is a plugin for Blender to allow for easier "
 "content creation and importing for the Vircadia Metaverse Platform. It "
 "features:"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:65
+#: ../../source/create/avatars/create-avatars.rst:56
 msgid ""
 "**Material Tools**: Allows for easier pipeline to apply materials to "
 "objects so that they are ready to use in Vircadia."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:66
+#: ../../source/create/avatars/create-avatars.rst:57
 msgid ""
 "**Armature Tools**: Adds a skeleton that is compatible with Vircadia and "
 "let you configure bone names for use in advanced scripts."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:67
+#: ../../source/create/avatars/create-avatars.rst:58
 msgid ""
 "**Avatar Converters**: Translates and fixes models and materials from MMD"
 " and Mixamo so that they work in Vircadia."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:68
+#: ../../source/create/avatars/create-avatars.rst:59
 msgid ""
 "**Export Tools**: Exports avatars and scenes so that they can be used in "
 "Vircadia."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:69
+#: ../../source/create/avatars/create-avatars.rst:60
 msgid ""
 "**Import Tools**: Imports primitive entities from Vircadia so that you "
 "can make modifications to them."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:71
+#: ../../source/create/avatars/create-avatars.rst:62
 msgid ""
 "Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon "
 "<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:73
+#: ../../source/create/avatars/create-avatars.rst:64
 msgid ""
 "Have a project you've been working on that you'd like us to share? Let us"
 " know by editing this page in GitHub!"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:78
+#: ../../source/create/avatars/create-avatars.rst:69
 msgid ":doc:`Find and Use an Existing Avatar <find-avatars>`"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:79
+#: ../../source/create/avatars/create-avatars.rst:70
 #: ../../source/create/avatars/find-avatars.rst:179
 msgid ":doc:`Package and Host Your Avatar <package-avatar>`"
 msgstr ""
@@ -4056,51 +4024,6 @@ msgid ""
 "to using the avatar exporter in Unity."
 msgstr ""
 
-#: ../../source/create/avatars/fuse-tutorial.md:13
-msgid ""
-"Using Adobe Fuse, you can create a custom avatar. The default heads, "
-"torsos, arms and legs in Adobe Fuse can help you start your "
-"customization."
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:15
-msgid "Launch Adobe Fuse."
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:16
-msgid "Pick your default body parts. ![](_images/fuse-assemble.png)"
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:17
-msgid ""
-"Click 'Customize'. Here, you can customize the avatar. For example, you "
-"can customize how the eyebrows are shaped, facial expressions, how long "
-"the fingers are and much more. ![](_images/fuse-customize.png)"
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:18
-msgid ""
-"Click 'Clothing'. Here, you can choose the clothing you'd like. In "
-"addition, you can set hair and facial hair options. In the next step, you"
-" will be able to modify the materials, colors, and textures of each "
-"clothing item you choose.![](_images/fuse-clothing.png)"
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:19
-msgid ""
-"Click 'Texture'. Here, you can modify your clothing choices with custom "
-"materials and colors. ![](_images/fuse-texture.png)"
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:20
-msgid "Save your avatar."
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:25
-#: ../../source/create/avatars/mixamo-tutorial.md:28
-msgid "[Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)"
-msgstr ""
-
 #: ../../source/create/avatars/mixamo-tutorial.md:8
 msgid ""
 "Mixamo is a rigging system that will rig your model's skeleton "
@@ -4109,26 +4032,20 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:10
-msgid ""
-"In this tutorial, we will use the avatar that we [created in Adobe Fuse"
-"](fuse-tutorial)."
+msgid "In this tutorial, we will use an avatar"
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:12
-msgid "Open your avatar in Adobe Fuse."
-msgstr ""
-
-#: ../../source/create/avatars/mixamo-tutorial.md:13
 msgid "Go to **File > Animate with Mixamo**."
 msgstr ""
 
-#: ../../source/create/avatars/mixamo-tutorial.md:14
+#: ../../source/create/avatars/mixamo-tutorial.md:13
 msgid ""
 "Save your avatar with a name and wait while it is exported to the auto-"
 "rigger.  ![](_images/character-upload.png)"
 msgstr ""
 
-#: ../../source/create/avatars/mixamo-tutorial.md:20
+#: ../../source/create/avatars/mixamo-tutorial.md:19
 msgid ""
 "Once your avatar is processed, Mixamo's auto-rigger will show your "
 "animated avatar. Ensure that Facial Blendshapes are 'Enabled' and "
@@ -4136,22 +4053,26 @@ msgid ""
 "avatar will work property in Vircadia. ![](_images/auto-rigger.png)"
 msgstr ""
 
-#: ../../source/create/avatars/mixamo-tutorial.md:21
+#: ../../source/create/avatars/mixamo-tutorial.md:20
 msgid ""
 "If you made changes to your settings, click 'Update Rig'. Mixamo will re-"
 "process your avatar with these updates."
 msgstr ""
 
-#: ../../source/create/avatars/mixamo-tutorial.md:22
+#: ../../source/create/avatars/mixamo-tutorial.md:21
 msgid "Click 'Finish' to start applying animation."
 msgstr ""
 
-#: ../../source/create/avatars/mixamo-tutorial.md:23
+#: ../../source/create/avatars/mixamo-tutorial.md:22
 msgid ""
 "Once your avatar has been successfully rigged, you can download it and "
 "modify it further using a 3D software of your choice. When prompted, "
 "select Format as 'FBX' and Pose as 'T-pose'. ![](_images/mixamo-"
 "download.png)"
+msgstr ""
+
+#: ../../source/create/avatars/mixamo-tutorial.md:26
+msgid "[Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)"
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:2
@@ -9244,7 +9165,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/tools.rst:2
-msgid "This document is slightly outdated. FIXME: mentions supposedly know issues"
+msgid ""
+"This document is outdated and will be revisited in the future. FIXME: "
+"mentions supposedly know issues"
 msgstr ""
 
 #: ../../source/create/tools.rst:9
@@ -9292,25 +9215,17 @@ msgid ""
 "the Create app. In Desktop mode, the Entity List is its own window."
 msgstr ""
 
-#: ../../source/create/tools.rst:25
-msgid ""
-"We have received reports that Interface may crash when using a laptop and"
-" external monitor with the Create app. If you experience the crash, we "
-"recommend that you either a) disable the Nahimic service on your laptop "
-"or b) always use the Create Tools on your primary monitor."
-msgstr ""
-
-#: ../../source/create/tools.rst:29
+#: ../../source/create/tools.rst:27
 msgid "Entity List"
 msgstr ""
 
-#: ../../source/create/tools.rst:31
+#: ../../source/create/tools.rst:29
 msgid ""
 "The Entity List shows you all entities in the local domain. You can "
 "filter by entity type and by distance from the current location."
 msgstr ""
 
-#: ../../source/create/tools.rst:33
+#: ../../source/create/tools.rst:31
 msgid ""
 "At the top of the Entity List, you can switch between 'Local' and 'World'"
 " view. When set to 'Local', the position, size, and rotation settings for"
@@ -9318,83 +9233,65 @@ msgid ""
 " these settings are set in reference to the world's default position."
 msgstr ""
 
-#: ../../source/create/tools.rst:35
+#: ../../source/create/tools.rst:33
 msgid "When you select an entity in the Entity List, you can:"
 msgstr ""
 
-#: ../../source/create/tools.rst:37
+#: ../../source/create/tools.rst:35
 msgid ""
 "Find an entity: You can double-click an entity on the list to view it in "
 "your domain. You will see the entity with a bounding box and arrows "
 "around it."
 msgstr ""
 
-#: ../../source/create/tools.rst:38
+#: ../../source/create/tools.rst:36
 msgid ""
 "Lock an entity: A locked entity cannot be edited. Select an entity and "
 "click the lock icon on the top of the window."
 msgstr ""
 
-#: ../../source/create/tools.rst:39
+#: ../../source/create/tools.rst:37
 msgid ""
 "Change visibility: You can hide or make an entity visible. Select an "
 "entity and click the eye icon on the top of the window."
 msgstr ""
 
-#: ../../source/create/tools.rst:40
+#: ../../source/create/tools.rst:38
 msgid "Name an entity: Name an entity when you select it on the list."
 msgstr ""
 
-#: ../../source/create/tools.rst:41
+#: ../../source/create/tools.rst:39
 msgid ""
 "Delete an entity: Delete an entity by clicking on the red bin icon on the"
 " top-right corner of the window."
 msgstr ""
 
-#: ../../source/create/tools.rst:45
+#: ../../source/create/tools.rst:43
 msgid "External Creator Tools"
 msgstr ""
 
-#: ../../source/create/tools.rst:47
+#: ../../source/create/tools.rst:45
 msgid ""
 "We've listed some external tools you might want to use to create avatars "
 "and 3D models."
 msgstr ""
 
-#: ../../source/create/tools.rst:51
-msgid "Adobe Fuse"
-msgstr ""
-
-#: ../../source/create/tools.rst:53
-msgid ""
-"There are community reports where users are unable to easily open Adobe "
-"Fuse once installed. To work around this issue, open it multiple times "
-"successively until you are able to open the application."
-msgstr ""
-
-#: ../../source/create/tools.rst:55
-msgid ""
-"Use `Adobe Fuse <https://www.adobe.com/in/products/fuse.html>`_ to create"
-" a custom avatar. The default heads, torsos, arms, and legs in Adobe Fuse"
-" can help you start your customization."
-msgstr ""
-
-#: ../../source/create/tools.rst:59
+#: ../../source/create/tools.rst:49
 msgid "Mixamo"
 msgstr ""
 
-#: ../../source/create/tools.rst:61
+#: ../../source/create/tools.rst:51
 msgid ""
 "`Mixamo <https://www.mixamo.com>`_ is a rigging system that will rig your"
 " avatar's skeleton for you. You do not need any advanced knowledge of "
 "rigging to create simple animations for your avatar."
 msgstr ""
 
-#: ../../source/create/tools.rst:65
+#: ../../source/create/tools.rst:55
 msgid "Blender"
 msgstr ""
 
-#: ../../source/create/tools.rst:67
+#: ../../source/create/tools.rst:57
 msgid ""
 "`Blender <https://www.blender.org>`_ is an open-source 3D modeling "
 "creation suite which supports everything from modeling and rigging, to "
@@ -9403,22 +9300,22 @@ msgid ""
 "Vircadia."
 msgstr ""
 
-#: ../../source/create/tools.rst:71
+#: ../../source/create/tools.rst:61
 msgid "Maya"
 msgstr ""
 
-#: ../../source/create/tools.rst:73
+#: ../../source/create/tools.rst:63
 msgid ""
 "`Maya <https://www.autodesk.in/products/maya/overview>`_ is a "
 "subscription based 3D modeling toolset that you can use to create 3D "
 "models to import into Vircadia."
 msgstr ""
 
-#: ../../source/create/tools.rst:77
+#: ../../source/create/tools.rst:67
 msgid "Blocks"
 msgstr ""
 
-#: ../../source/create/tools.rst:79
+#: ../../source/create/tools.rst:69
 msgid ""
 "`Blocks <https://vr.google.com/blocks>`_ is a 3D modeling tool you can "
 "use in VR. Blocks lets you create models easily regardless of your "
@@ -9427,23 +9324,19 @@ msgid ""
 " it for the VR equipment you are using."
 msgstr ""
 
-#: ../../source/create/tools.rst:83
+#: ../../source/create/tools.rst:73
 msgid ":doc:`Entities <entities>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:84
+#: ../../source/create/tools.rst:74
 msgid ":doc:`Create New Entities <entities/create-entities>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:85
-msgid ":doc:`Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>`"
-msgstr ""
-
-#: ../../source/create/tools.rst:86
+#: ../../source/create/tools.rst:75
 msgid ":doc:`Tutorial: Rig Your Avatar in Mixamo <avatars/mixamo-tutorial>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:87
+#: ../../source/create/tools.rst:76
 msgid ""
 ":doc:`Tutorial: Modify Materials and Textures Using Blender <avatars"
 "/blender-tutorial>`"
@@ -11822,3 +11715,150 @@ msgstr ""
 #~ "on](../explore/personalize/add-wearables) and adopt"
 #~ " your new look."
 #~ msgstr ""
+
+#~ msgid "Tutorial: Create an Avatar with Fuse"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this tutorial, we will walk you"
+#~ " through simple modifications you can "
+#~ "make to your avatar using Blender. "
+#~ "You will need to import an FBX "
+#~ "file for your avatar. If you don't"
+#~ " have one, see our tutorials for "
+#~ "[Fuse](fuse-tutorial) and [Mixamo](mixamo-"
+#~ "tutorial)."
+#~ msgstr ""
+
+#~ msgid "[Tutorial: Create an Avatar with Fuse](fuse-tutorial)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is outdated. FIXME: "
+#~ "Mentions services like VRoid Studio even"
+#~ " though their skeletons have never "
+#~ "been supported (the Unity avatar "
+#~ "exporter will not be able to fix"
+#~ " that)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create your avatar from scratch using"
+#~ " 3D modeling tools such as Adobe "
+#~ "Fuse, Mixamo, and Blender"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create an avatar with 3D character "
+#~ "modeling tool such as Adobe Fuse, "
+#~ "Blender or Maya."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Check out this YouTube playlist for "
+#~ "one way to create and customize "
+#~ "your own avatar. Here, we use "
+#~ "Adobe Fuse to create our avatar, "
+#~ "Mixamo to rig our avatar automatically,"
+#~ " and Blender to adjust the rendering"
+#~ " on our avatar. We also have "
+#~ "written instructions on the same "
+#~ "process:"
+#~ msgstr ""
+
+#~ msgid ":doc:`Create an Avatar with Fuse <fuse-tutorial>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using Adobe Fuse, you can create a"
+#~ " custom avatar. The default heads, "
+#~ "torsos, arms and legs in Adobe "
+#~ "Fuse can help you start your "
+#~ "customization."
+#~ msgstr ""
+
+#~ msgid "Launch Adobe Fuse."
+#~ msgstr ""
+
+#~ msgid "Pick your default body parts. ![](_images/fuse-assemble.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Customize'. Here, you can "
+#~ "customize the avatar. For example, you"
+#~ " can customize how the eyebrows are"
+#~ " shaped, facial expressions, how long "
+#~ "the fingers are and much more. "
+#~ "![](_images/fuse-customize.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Clothing'. Here, you can choose"
+#~ " the clothing you'd like. In "
+#~ "addition, you can set hair and "
+#~ "facial hair options. In the next "
+#~ "step, you will be able to modify"
+#~ " the materials, colors, and textures "
+#~ "of each clothing item you "
+#~ "choose.![](_images/fuse-clothing.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Texture'. Here, you can modify"
+#~ " your clothing choices with custom "
+#~ "materials and colors. ![](_images/fuse-"
+#~ "texture.png)"
+#~ msgstr ""
+
+#~ msgid "Save your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this tutorial, we will use the"
+#~ " avatar that we [created in Adobe "
+#~ "Fuse](fuse-tutorial)."
+#~ msgstr ""
+
+#~ msgid "Open your avatar in Adobe Fuse."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: mentions supposedly know issues"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We have received reports that Interface"
+#~ " may crash when using a laptop "
+#~ "and external monitor with the Create "
+#~ "app. If you experience the crash, "
+#~ "we recommend that you either a) "
+#~ "disable the Nahimic service on your "
+#~ "laptop or b) always use the Create"
+#~ " Tools on your primary monitor."
+#~ msgstr ""
+
+#~ msgid "Adobe Fuse"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are community reports where users"
+#~ " are unable to easily open Adobe "
+#~ "Fuse once installed. To work around "
+#~ "this issue, open it multiple times "
+#~ "successively until you are able to "
+#~ "open the application."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use `Adobe Fuse "
+#~ "<https://www.adobe.com/in/products/fuse.html>`_ to create"
+#~ " a custom avatar. The default heads,"
+#~ " torsos, arms, and legs in Adobe "
+#~ "Fuse can help you start your "
+#~ "customization."
+#~ msgstr ""
+
+#~ msgid ":doc:`Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>`"
+#~ msgstr ""
+

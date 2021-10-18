@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-08-28 20:20+0000\n"
+"POT-Creation-Date: 2021-10-18 01:33+0000\n"
 "PO-Revision-Date: 2021-09-07 03:55+0000\n"
 "Last-Translator: Nick <origamimars@gmail.com>\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/create/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/create/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -68,10 +67,11 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Vircadia engine is encouraged!"
 msgstr ""
-"Vircadia gibt Menschen mit den gleichen Interessen die Möglichkeit sich zu "
-"treffen, und sich zusammen kreativ auszudrücken. Wir laden Sie dazu ein, "
-"ihre Erfahrung zu personalisieren, indem Sie ihre eigenen Avatare oder "
-"eigenen Content kreieren, oder indem Sie Apps oder Skripte Entwickeln!"
+"Vircadia gibt Menschen mit den gleichen Interessen die Möglichkeit sich "
+"zu treffen, und sich zusammen kreativ auszudrücken. Wir laden Sie dazu "
+"ein, ihre Erfahrung zu personalisieren, indem Sie ihre eigenen Avatare "
+"oder eigenen Content kreieren, oder indem Sie Apps oder Skripte "
+"Entwickeln!"
 
 #: ../../source/create.rst:7
 msgid ""
@@ -86,8 +86,8 @@ msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
 msgstr ""
-"In diesem Kapitel lernen Sie, wie Sie Kreieren, Bauen, und ihr VR Erlebnis "
-"lebendig gestalten können:"
+"In diesem Kapitel lernen Sie, wie Sie Kreieren, Bauen, und ihr VR "
+"Erlebnis lebendig gestalten können:"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
@@ -120,11 +120,11 @@ msgid ""
 " You can get your 3D model by creating your own or sourcing it "
 "externally. We only support 3D models in the OBJ, FBX, and glTF formats."
 msgstr ""
-"3D Modelle sind :doc:`entities <entities>` die ein Objekt repräsentieren, "
-"das Sie ingame sehen wollen, wie zum Beispiel eine Wasser Fontäne, eine Burg "
-"oder eine Kaffee Tasse. Sie können eigene 3D Modelle verwenden, indem Sie "
-"diese selbst Erstellen, oder externe Quellen verwenden. Wir unterstützen nur "
-"Modelle in diesen Formaten: OBJ, FBX, und glTF."
+"3D Modelle sind :doc:`entities <entities>` die ein Objekt repräsentieren,"
+" das Sie ingame sehen wollen, wie zum Beispiel eine Wasser Fontäne, eine "
+"Burg oder eine Kaffee Tasse. Sie können eigene 3D Modelle verwenden, "
+"indem Sie diese selbst Erstellen, oder externe Quellen verwenden. Wir "
+"unterstützen nur Modelle in diesen Formaten: OBJ, FBX, und glTF."
 
 #: ../../source/create/3d-models.rst:7
 msgid ""
@@ -134,8 +134,8 @@ msgid ""
 "light as they would (approximately) in real life."
 msgstr ""
 "Das Aussehen von 3D Modellen wird von deren Materialien bestimmt. Die "
-"Materialien die in Vircadia verwendet werden können sind Physically-based "
-"Rendering (PBR). Das bedeutet, das Materialien ungefähr so viel Licht "
+"Materialien die in Vircadia verwendet werden können sind Physically-based"
+" Rendering (PBR). Das bedeutet, das Materialien ungefähr so viel Licht "
 "absorbieren oder reflektieren, wie im echten Leben."
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
@@ -148,8 +148,8 @@ msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Vircadia."
 msgstr ""
-"Alle 3D Modelle sollten in einem von diesen Formaten sein: FBX, glTF oder "
-"OBJ. Außerdem sollten die Materialien von Vircadia unterstützt sein."
+"Alle 3D Modelle sollten in einem von diesen Formaten sein: FBX, glTF oder"
+" OBJ. Außerdem sollten die Materialien von Vircadia unterstützt sein."
 
 #: ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -186,8 +186,8 @@ msgid ""
 " models from such sites:"
 msgstr ""
 "Es gibt viele 3D Content Websites, die viele Modelle enthalten, die Sie "
-"Kaufen oder kostenlos erhalten können. Denken Sie an folgendes wenn sie 3D "
-"Modelle von solchen Websites beziehen:"
+"Kaufen oder kostenlos erhalten können. Denken Sie an folgendes wenn sie "
+"3D Modelle von solchen Websites beziehen:"
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -196,9 +196,9 @@ msgid ""
 "sufficient rights to use the content."
 msgstr ""
 "**Nutzungs Bedingungen Überprüfen:** Stellen Sie sicher, dass Sie die "
-"Nutzungs Bedingungen von 3D Modellen überprüfen, bevor Sie diese verwenden. "
-"Es liegt in Ihrer Verantwortung, zu überprüfen, ob Sie die Zulässigen Rechte "
-"haben um diesen Content zu verwenden."
+"Nutzungs Bedingungen von 3D Modellen überprüfen, bevor Sie diese "
+"verwenden. Es liegt in Ihrer Verantwortung, zu überprüfen, ob Sie die "
+"Zulässigen Rechte haben um diesen Content zu verwenden."
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -208,9 +208,10 @@ msgid ""
 "the rights to re-distribute the 3D content."
 msgstr ""
 "Wenn Sie ein 3D-Modell auf ihrem eigenen Vircadia-Server zur Verfügung "
-"stellen, erhalten die Besucher die Links zu diesen Dateien auf die gleiche "
-"Weise, wie wenn sie ein Bild auf einer Website ansehen würden. Sie sollten "
-"sicher sein, dass Sie die Rechte zur Weiterverbreitung der 3D-Inhalte haben."
+"stellen, erhalten die Besucher die Links zu diesen Dateien auf die "
+"gleiche Weise, wie wenn sie ein Bild auf einer Website ansehen würden. "
+"Sie sollten sicher sein, dass Sie die Rechte zur Weiterverbreitung der "
+"3D-Inhalte haben."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -229,8 +230,8 @@ msgid ""
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
 "Wenn ein Modell in Vircadia nicht korrekt geladen wird, können Sie auch "
-"Fehler Informationen in den Interface Logs finden. Siehe `Wo finde ich die "
-"Interface Log Dateien? <../../faq.html#interface-log-files>`_"
+"Fehler Informationen in den Interface Logs finden. Siehe `Wo finde ich "
+"die Interface Log Dateien? <../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
@@ -242,8 +243,8 @@ msgid ""
 "Blender or Maya. Use any software of your choice as long as:"
 msgstr ""
 "Sie können eigene 3d Modelle erstellen, indem Sie 3D Programme wie zum "
-"Beispiel Blender oder Maya verwenden. Benutzen Sie die Software Ihrer Wahl, "
-"solange:"
+"Beispiel Blender oder Maya verwenden. Benutzen Sie die Software Ihrer "
+"Wahl, solange:"
 
 #: ../../source/create/3d-models/get-model.rst:28
 msgid "The 3D model is in the FBX, glTF or OBJ format."
@@ -255,9 +256,9 @@ msgid ""
 " guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
-"Die Materialien des 3D Modells von Vircadia unterstützt werden. Schauen Sie "
-"im :doc:`materials guide <pbr-materials-guide>` nach, um zu überprüfen, ob "
-"Ihre Materialien korrekt geladen werden können."
+"Die Materialien des 3D Modells von Vircadia unterstützt werden. Schauen "
+"Sie im :doc:`materials guide <pbr-materials-guide>` nach, um zu "
+"überprüfen, ob Ihre Materialien korrekt geladen werden können."
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
@@ -268,8 +269,8 @@ msgid ""
 "Making 3D models for Vircadia (and VR) is different than making models "
 "for films, videos, and games."
 msgstr ""
-"3D Modelle für Vircadia (und für VR) zu erstellen ist anders, als Modelle "
-"für Videos oder Computerspiele zu machen."
+"3D Modelle für Vircadia (und für VR) zu erstellen ist anders, als Modelle"
+" für Videos oder Computerspiele zu machen."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
@@ -277,9 +278,9 @@ msgid ""
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
 msgstr ""
-"3D Modelle für VR werden doppelt geladen (Für das linke und rechte Auge): "
-"Das bedeutet, dass die Anzahl der Flächen und die Anzahl der verwendeten "
-"Materialien die Performance stark beeinflussen."
+"3D Modelle für VR werden doppelt geladen (Für das linke und rechte Auge):"
+" Das bedeutet, dass die Anzahl der Flächen und die Anzahl der verwendeten"
+" Materialien die Performance stark beeinflussen."
 
 #: ../../source/create/3d-models/get-model.rst:38
 msgid ""
@@ -288,19 +289,19 @@ msgid ""
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
 msgstr ""
-"Die meisten VR Headsets laufen mit 90Hz oder mehr, was bedeutet, dass Ihre "
-"Framerate bei mindestens 90 FPS bleiben muss. Seien Sie also vorsichtig mit "
-"der Größe ihrer Modelle. 3D Modelle die zu groß oder zu komplex sind können "
-"die Framerate unter 90 FPS bringen, was bei VR Nutzern Schwindel Gefühle "
-"auslösen könnte."
+"Die meisten VR Headsets laufen mit 90Hz oder mehr, was bedeutet, dass "
+"Ihre Framerate bei mindestens 90 FPS bleiben muss. Seien Sie also "
+"vorsichtig mit der Größe ihrer Modelle. 3D Modelle die zu groß oder zu "
+"komplex sind können die Framerate unter 90 FPS bringen, was bei VR "
+"Nutzern Schwindel Gefühle auslösen könnte."
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid ""
 "We've listed the best practices for creating 3D models for Vircadia (and "
 "VR)."
 msgstr ""
-"Wir haben die besten Herangehensweisen um 3D Modelle für Vircadia (und für "
-"VR) zu erstellen aufgelistet."
+"Wir haben die besten Herangehensweisen um 3D Modelle für Vircadia (und "
+"für VR) zu erstellen aufgelistet."
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -327,9 +328,9 @@ msgid ""
 "high, but not too low either. For example 50000 Polygons should be more "
 "than enough for a detailed avatar."
 msgstr ""
-"Ihre Anzahl sollte der eines Modells für ein Tablet Spiel entsprechen, das "
-"heißt, weder zu hoch, noch zu gering. 50 000 Polygone bzw Flächen sollten "
-"mehr als genug für einen detailierten Avatar sein."
+"Ihre Anzahl sollte der eines Modells für ein Tablet Spiel entsprechen, "
+"das heißt, weder zu hoch, noch zu gering. 50 000 Polygone bzw Flächen "
+"sollten mehr als genug für einen detailierten Avatar sein."
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
@@ -348,10 +349,10 @@ msgid ""
 "Clean the mesh to make sure there are no N-gons and no coplanar faces. "
 "Any good 3D modelling software should do this on export."
 msgstr ""
-"Arbeiten Sie beim Erstellen des 3D Mesh sauber, und achten Sie darauf, dass "
-"es keine coplanar faces gibt. (Coplanar faces sind Flächen die genau "
-"aufeinander liegen, und zu Render Bugs führen können. Die meisten guten 3D "
-"Programme sollten diese beim Exportieren auch automatisch entfernen.) "
+"Arbeiten Sie beim Erstellen des 3D Mesh sauber, und achten Sie darauf, "
+"dass es keine coplanar faces gibt. (Coplanar faces sind Flächen die genau"
+" aufeinander liegen, und zu Render Bugs führen können. Die meisten guten "
+"3D Programme sollten diese beim Exportieren auch automatisch entfernen.) "
 "Vermeiden Sie es, Flächen mit sehr vielen Kanten zu verwenden."
 
 #: ../../source/create/3d-models/get-model.rst:54
@@ -362,10 +363,11 @@ msgid ""
 " its hands, feet, or face separate materials and UV maps."
 msgstr ""
 "Versuchen Sie immer Atlas maps zu verwenden. Wen jedes Objekt von Ihrem "
-"Content dieselben Materialien und denselben UV space hat, dann ist dies eine "
-"Atlas map. Wenn Sie zum Beispiel einen Roboter erstellen, dann sollten sich "
-"alle Teile des Roboters auf einer UV Map befinden, anstatt den Händen, "
-"Füßen, oder Gesicht jeweils separate Materialien und UV Maps zu geben."
+"Content dieselben Materialien und denselben UV space hat, dann ist dies "
+"eine Atlas map. Wenn Sie zum Beispiel einen Roboter erstellen, dann "
+"sollten sich alle Teile des Roboters auf einer UV Map befinden, anstatt "
+"den Händen, Füßen, oder Gesicht jeweils separate Materialien und UV Maps "
+"zu geben."
 
 #: ../../source/create/3d-models/get-model.rst:59
 msgid "Vircadia’s engine only supports one UV mapping per material."
@@ -388,8 +390,8 @@ msgid ""
 "PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
 " TIFF formats."
 msgstr ""
-"PNG, JPEG und JPG Dateien sind empfohlen, aber wir unterstützen auch TGA, "
-"TIF und TIFF."
+"PNG, JPEG und JPG Dateien sind empfohlen, aber wir unterstützen auch TGA,"
+" TIF und TIFF."
 
 #: ../../source/create/3d-models/get-model.rst:64
 msgid "Choose the color types wisely to minimize the size of the final file."
@@ -402,17 +404,17 @@ msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
 msgstr ""
-"PNG-8 hat nur ON/OFF transparency, und eine Farbauswahl von 256 Farben ("
-"genau wie bei GIF Dateien), und kann dazu verwendet werden, Transparenz zu "
-"maskieren."
+"PNG-8 hat nur ON/OFF transparency, und eine Farbauswahl von 256 Farben "
+"(genau wie bei GIF Dateien), und kann dazu verwendet werden, Transparenz "
+"zu maskieren."
 
 #: ../../source/create/3d-models/get-model.rst:69
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
 msgstr ""
-"Für mehr Farben Auflösung, können Sie PNG-24 verwenden. Für durchsichtige "
-"masken, oder transparente texturen können Sie PNG-32 verwenden."
+"Für mehr Farben Auflösung, können Sie PNG-24 verwenden. Für durchsichtige"
+" masken, oder transparente texturen können Sie PNG-32 verwenden."
 
 #: ../../source/create/3d-models/get-model.rst:72
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Vircadia."
@@ -426,9 +428,9 @@ msgid ""
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
 "memory."
 msgstr ""
-"Wenn Texturen in der Engine geladen werden, dann werden diese automatisch "
-"auf eine Größe von 128 x 128 skaliert. Verwenden Sie Vielfache von 128 um "
-"keinen Speicherplatz zu verschwenden."
+"Wenn Texturen in der Engine geladen werden, dann werden diese automatisch"
+" auf eine Größe von 128 x 128 skaliert. Verwenden Sie Vielfache von 128 "
+"um keinen Speicherplatz zu verschwenden."
 
 #: ../../source/create/3d-models/get-model.rst:77
 msgid ""
@@ -719,11 +721,10 @@ msgstr ""
 #: ../../source/create/avatars/add-flow.rst:127
 #: ../../source/create/avatars/avatar-standards.md:272
 #: ../../source/create/avatars/blender-tutorial.md:52
-#: ../../source/create/avatars/create-avatars.rst:76
+#: ../../source/create/avatars/create-avatars.rst:67
 #: ../../source/create/avatars/custom-animations.rst:269
 #: ../../source/create/avatars/find-avatars.rst:177
-#: ../../source/create/avatars/fuse-tutorial.md:22
-#: ../../source/create/avatars/mixamo-tutorial.md:25
+#: ../../source/create/avatars/mixamo-tutorial.md:24
 #: ../../source/create/avatars/scattering-tutorial.rst:66
 #: ../../source/create/entities/add-sounds.md:24
 #: ../../source/create/entities/avatar-interactions.md:63
@@ -743,7 +744,7 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:160
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/entities/zone-tutorial.md:155
-#: ../../source/create/environments.rst:30 ../../source/create/tools.rst:81
+#: ../../source/create/environments.rst:30 ../../source/create/tools.rst:71
 #: ../../source/create/wearables.md:41
 msgid "**See Also**"
 msgstr "**Siehe auch**"
@@ -1540,11 +1541,6 @@ msgstr ""
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/custom-animations.rst:7
 msgid "Customize Avatar Animations"
-msgstr ""
-
-#: ../../source/create/avatars.rst:9
-#: ../../source/create/avatars/fuse-tutorial.md:6
-msgid "Tutorial: Create an Avatar with Fuse"
 msgstr ""
 
 #: ../../source/create/avatars.rst:9
@@ -2582,9 +2578,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:274
-#: ../../source/create/avatars/blender-tutorial.md:56
-#: ../../source/create/avatars/fuse-tutorial.md:26
-#: ../../source/create/avatars/mixamo-tutorial.md:29
+#: ../../source/create/avatars/blender-tutorial.md:55
+#: ../../source/create/avatars/mixamo-tutorial.md:27
 msgid "[Create Your Own Avatar](create-avatars)"
 msgstr ""
 
@@ -2611,8 +2606,8 @@ msgstr ""
 msgid ""
 "In this tutorial, we will walk you through simple modifications you can "
 "make to your avatar using Blender. You will need to import an FBX file "
-"for your avatar. If you don't have one, see our tutorials for [Fuse"
-"](fuse-tutorial) and [Mixamo](mixamo-tutorial)."
+"for your avatar. If you don't have one, see our tutorial for [Mixamo"
+"](mixamo-tutorial)."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:12
@@ -2777,20 +2772,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:54
-#: ../../source/create/avatars/mixamo-tutorial.md:27
-msgid "[Tutorial: Create an Avatar with Fuse](fuse-tutorial)"
-msgstr ""
-
-#: ../../source/create/avatars/blender-tutorial.md:55
-#: ../../source/create/avatars/fuse-tutorial.md:24
 msgid "[Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:2
 msgid ""
-"This document is outdated. FIXME: Mentions services like VRoid Studio "
-"even though their skeletons have never been supported (the Unity avatar "
-"exporter will not be able to fix that)"
+"This document is outdated and will be revisited in the future. FIXME: "
+"Mentions services like VRoid Studio even though their skeletons have "
+"never been supported (the Unity avatar exporter will not be able to fix "
+"that)"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:9
@@ -2799,8 +2789,8 @@ msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:11
 msgid ""
-"Create your avatar from scratch using 3D modeling tools such as Adobe "
-"Fuse, Mixamo, and Blender"
+"Create your avatar from scratch using 3D modeling tools such as Mixamo "
+"and Blender"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:12
@@ -2842,9 +2832,7 @@ msgid "The steps involved in creating your avatar are:"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:36
-msgid ""
-"Create an avatar with 3D character modeling tool such as Adobe Fuse, "
-"Blender or Maya."
+msgid "Create an avatar with 3D character modeling tool such as Blender or Maya."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:37
@@ -2860,30 +2848,18 @@ msgid "Package the model in Vircadia for use as an avatar."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:41
-msgid ""
-"Check out this YouTube playlist for one way to create and customize your "
-"own avatar. Here, we use Adobe Fuse to create our avatar, Mixamo to rig "
-"our avatar automatically, and Blender to adjust the rendering on our "
-"avatar. We also have written instructions on the same process:"
-msgstr ""
-
-#: ../../source/create/avatars/create-avatars.rst:43
-msgid ":doc:`Create an Avatar with Fuse <fuse-tutorial>`"
-msgstr ""
-
-#: ../../source/create/avatars/create-avatars.rst:44
 msgid ":doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:45
+#: ../../source/create/avatars/create-avatars.rst:42
 msgid ":doc:`Modify Materials and Textures with Blender <blender-tutorial>`"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:55
+#: ../../source/create/avatars/create-avatars.rst:46
 msgid "Community Tools for Avatars"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:57
+#: ../../source/create/avatars/create-avatars.rst:48
 msgid ""
 "As you're creating your avatar, remember that Vircadia is an open-source "
 "project. Many of our community members have created plug-ins, add-ons, "
@@ -2891,66 +2867,66 @@ msgid ""
 "avatars. Here are a few for you to play around with."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:61
+#: ../../source/create/avatars/create-avatars.rst:52
 msgid ""
 "`Blender Add-on by Menithal <https://github.com/Menithal/Blender-"
 "Metaverse-Addon>`_"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:63
+#: ../../source/create/avatars/create-avatars.rst:54
 msgid ""
 "Plugin (\"Project Hermes\") is a plugin for Blender to allow for easier "
 "content creation and importing for the Vircadia Metaverse Platform. It "
 "features:"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:65
+#: ../../source/create/avatars/create-avatars.rst:56
 msgid ""
 "**Material Tools**: Allows for easier pipeline to apply materials to "
 "objects so that they are ready to use in Vircadia."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:66
+#: ../../source/create/avatars/create-avatars.rst:57
 msgid ""
 "**Armature Tools**: Adds a skeleton that is compatible with Vircadia and "
 "let you configure bone names for use in advanced scripts."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:67
+#: ../../source/create/avatars/create-avatars.rst:58
 msgid ""
 "**Avatar Converters**: Translates and fixes models and materials from MMD"
 " and Mixamo so that they work in Vircadia."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:68
+#: ../../source/create/avatars/create-avatars.rst:59
 msgid ""
 "**Export Tools**: Exports avatars and scenes so that they can be used in "
 "Vircadia."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:69
+#: ../../source/create/avatars/create-avatars.rst:60
 msgid ""
 "**Import Tools**: Imports primitive entities from Vircadia so that you "
 "can make modifications to them."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:71
+#: ../../source/create/avatars/create-avatars.rst:62
 msgid ""
 "Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon "
 "<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:73
+#: ../../source/create/avatars/create-avatars.rst:64
 msgid ""
 "Have a project you've been working on that you'd like us to share? Let us"
 " know by editing this page in GitHub!"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:78
+#: ../../source/create/avatars/create-avatars.rst:69
 msgid ":doc:`Find and Use an Existing Avatar <find-avatars>`"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:79
+#: ../../source/create/avatars/create-avatars.rst:70
 #: ../../source/create/avatars/find-avatars.rst:179
 msgid ":doc:`Package and Host Your Avatar <package-avatar>`"
 msgstr ""
@@ -4132,51 +4108,6 @@ msgid ""
 "to using the avatar exporter in Unity."
 msgstr ""
 
-#: ../../source/create/avatars/fuse-tutorial.md:13
-msgid ""
-"Using Adobe Fuse, you can create a custom avatar. The default heads, "
-"torsos, arms and legs in Adobe Fuse can help you start your "
-"customization."
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:15
-msgid "Launch Adobe Fuse."
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:16
-msgid "Pick your default body parts. ![](_images/fuse-assemble.png)"
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:17
-msgid ""
-"Click 'Customize'. Here, you can customize the avatar. For example, you "
-"can customize how the eyebrows are shaped, facial expressions, how long "
-"the fingers are and much more. ![](_images/fuse-customize.png)"
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:18
-msgid ""
-"Click 'Clothing'. Here, you can choose the clothing you'd like. In "
-"addition, you can set hair and facial hair options. In the next step, you"
-" will be able to modify the materials, colors, and textures of each "
-"clothing item you choose.![](_images/fuse-clothing.png)"
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:19
-msgid ""
-"Click 'Texture'. Here, you can modify your clothing choices with custom "
-"materials and colors. ![](_images/fuse-texture.png)"
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:20
-msgid "Save your avatar."
-msgstr ""
-
-#: ../../source/create/avatars/fuse-tutorial.md:25
-#: ../../source/create/avatars/mixamo-tutorial.md:28
-msgid "[Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)"
-msgstr ""
-
 #: ../../source/create/avatars/mixamo-tutorial.md:8
 msgid ""
 "Mixamo is a rigging system that will rig your model's skeleton "
@@ -4185,26 +4116,20 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:10
-msgid ""
-"In this tutorial, we will use the avatar that we [created in Adobe Fuse"
-"](fuse-tutorial)."
+msgid "In this tutorial, we will use an avatar"
 msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:12
-msgid "Open your avatar in Adobe Fuse."
-msgstr ""
-
-#: ../../source/create/avatars/mixamo-tutorial.md:13
 msgid "Go to **File > Animate with Mixamo**."
 msgstr ""
 
-#: ../../source/create/avatars/mixamo-tutorial.md:14
+#: ../../source/create/avatars/mixamo-tutorial.md:13
 msgid ""
 "Save your avatar with a name and wait while it is exported to the auto-"
 "rigger.  ![](_images/character-upload.png)"
 msgstr ""
 
-#: ../../source/create/avatars/mixamo-tutorial.md:20
+#: ../../source/create/avatars/mixamo-tutorial.md:19
 msgid ""
 "Once your avatar is processed, Mixamo's auto-rigger will show your "
 "animated avatar. Ensure that Facial Blendshapes are 'Enabled' and "
@@ -4212,22 +4137,26 @@ msgid ""
 "avatar will work property in Vircadia. ![](_images/auto-rigger.png)"
 msgstr ""
 
-#: ../../source/create/avatars/mixamo-tutorial.md:21
+#: ../../source/create/avatars/mixamo-tutorial.md:20
 msgid ""
 "If you made changes to your settings, click 'Update Rig'. Mixamo will re-"
 "process your avatar with these updates."
 msgstr ""
 
-#: ../../source/create/avatars/mixamo-tutorial.md:22
+#: ../../source/create/avatars/mixamo-tutorial.md:21
 msgid "Click 'Finish' to start applying animation."
 msgstr ""
 
-#: ../../source/create/avatars/mixamo-tutorial.md:23
+#: ../../source/create/avatars/mixamo-tutorial.md:22
 msgid ""
 "Once your avatar has been successfully rigged, you can download it and "
 "modify it further using a 3D software of your choice. When prompted, "
 "select Format as 'FBX' and Pose as 'T-pose'. ![](_images/mixamo-"
 "download.png)"
+msgstr ""
+
+#: ../../source/create/avatars/mixamo-tutorial.md:26
+msgid "[Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)"
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:2
@@ -9324,7 +9253,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/tools.rst:2
-msgid "This document is slightly outdated. FIXME: mentions supposedly know issues"
+msgid ""
+"This document is outdated and will be revisited in the future. FIXME: "
+"mentions supposedly know issues"
 msgstr ""
 
 #: ../../source/create/tools.rst:9
@@ -9372,25 +9303,17 @@ msgid ""
 "the Create app. In Desktop mode, the Entity List is its own window."
 msgstr ""
 
-#: ../../source/create/tools.rst:25
-msgid ""
-"We have received reports that Interface may crash when using a laptop and"
-" external monitor with the Create app. If you experience the crash, we "
-"recommend that you either a) disable the Nahimic service on your laptop "
-"or b) always use the Create Tools on your primary monitor."
-msgstr ""
-
-#: ../../source/create/tools.rst:29
+#: ../../source/create/tools.rst:27
 msgid "Entity List"
 msgstr ""
 
-#: ../../source/create/tools.rst:31
+#: ../../source/create/tools.rst:29
 msgid ""
 "The Entity List shows you all entities in the local domain. You can "
 "filter by entity type and by distance from the current location."
 msgstr ""
 
-#: ../../source/create/tools.rst:33
+#: ../../source/create/tools.rst:31
 msgid ""
 "At the top of the Entity List, you can switch between 'Local' and 'World'"
 " view. When set to 'Local', the position, size, and rotation settings for"
@@ -9398,83 +9321,65 @@ msgid ""
 " these settings are set in reference to the world's default position."
 msgstr ""
 
-#: ../../source/create/tools.rst:35
+#: ../../source/create/tools.rst:33
 msgid "When you select an entity in the Entity List, you can:"
 msgstr ""
 
-#: ../../source/create/tools.rst:37
+#: ../../source/create/tools.rst:35
 msgid ""
 "Find an entity: You can double-click an entity on the list to view it in "
 "your domain. You will see the entity with a bounding box and arrows "
 "around it."
 msgstr ""
 
-#: ../../source/create/tools.rst:38
+#: ../../source/create/tools.rst:36
 msgid ""
 "Lock an entity: A locked entity cannot be edited. Select an entity and "
 "click the lock icon on the top of the window."
 msgstr ""
 
-#: ../../source/create/tools.rst:39
+#: ../../source/create/tools.rst:37
 msgid ""
 "Change visibility: You can hide or make an entity visible. Select an "
 "entity and click the eye icon on the top of the window."
 msgstr ""
 
-#: ../../source/create/tools.rst:40
+#: ../../source/create/tools.rst:38
 msgid "Name an entity: Name an entity when you select it on the list."
 msgstr ""
 
-#: ../../source/create/tools.rst:41
+#: ../../source/create/tools.rst:39
 msgid ""
 "Delete an entity: Delete an entity by clicking on the red bin icon on the"
 " top-right corner of the window."
 msgstr ""
 
-#: ../../source/create/tools.rst:45
+#: ../../source/create/tools.rst:43
 msgid "External Creator Tools"
 msgstr ""
 
-#: ../../source/create/tools.rst:47
+#: ../../source/create/tools.rst:45
 msgid ""
 "We've listed some external tools you might want to use to create avatars "
 "and 3D models."
 msgstr ""
 
-#: ../../source/create/tools.rst:51
-msgid "Adobe Fuse"
-msgstr ""
-
-#: ../../source/create/tools.rst:53
-msgid ""
-"There are community reports where users are unable to easily open Adobe "
-"Fuse once installed. To work around this issue, open it multiple times "
-"successively until you are able to open the application."
-msgstr ""
-
-#: ../../source/create/tools.rst:55
-msgid ""
-"Use `Adobe Fuse <https://www.adobe.com/in/products/fuse.html>`_ to create"
-" a custom avatar. The default heads, torsos, arms, and legs in Adobe Fuse"
-" can help you start your customization."
-msgstr ""
-
-#: ../../source/create/tools.rst:59
+#: ../../source/create/tools.rst:49
 msgid "Mixamo"
 msgstr ""
 
-#: ../../source/create/tools.rst:61
+#: ../../source/create/tools.rst:51
 msgid ""
 "`Mixamo <https://www.mixamo.com>`_ is a rigging system that will rig your"
 " avatar's skeleton for you. You do not need any advanced knowledge of "
 "rigging to create simple animations for your avatar."
 msgstr ""
 
-#: ../../source/create/tools.rst:65
+#: ../../source/create/tools.rst:55
 msgid "Blender"
 msgstr ""
 
-#: ../../source/create/tools.rst:67
+#: ../../source/create/tools.rst:57
 msgid ""
 "`Blender <https://www.blender.org>`_ is an open-source 3D modeling "
 "creation suite which supports everything from modeling and rigging, to "
@@ -9483,22 +9388,22 @@ msgid ""
 "Vircadia."
 msgstr ""
 
-#: ../../source/create/tools.rst:71
+#: ../../source/create/tools.rst:61
 msgid "Maya"
 msgstr ""
 
-#: ../../source/create/tools.rst:73
+#: ../../source/create/tools.rst:63
 msgid ""
 "`Maya <https://www.autodesk.in/products/maya/overview>`_ is a "
 "subscription based 3D modeling toolset that you can use to create 3D "
 "models to import into Vircadia."
 msgstr ""
 
-#: ../../source/create/tools.rst:77
+#: ../../source/create/tools.rst:67
 msgid "Blocks"
 msgstr ""
 
-#: ../../source/create/tools.rst:79
+#: ../../source/create/tools.rst:69
 msgid ""
 "`Blocks <https://vr.google.com/blocks>`_ is a 3D modeling tool you can "
 "use in VR. Blocks lets you create models easily regardless of your "
@@ -9507,23 +9412,19 @@ msgid ""
 " it for the VR equipment you are using."
 msgstr ""
 
-#: ../../source/create/tools.rst:83
+#: ../../source/create/tools.rst:73
 msgid ":doc:`Entities <entities>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:84
+#: ../../source/create/tools.rst:74
 msgid ":doc:`Create New Entities <entities/create-entities>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:85
-msgid ":doc:`Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>`"
-msgstr ""
-
-#: ../../source/create/tools.rst:86
+#: ../../source/create/tools.rst:75
 msgid ":doc:`Tutorial: Rig Your Avatar in Mixamo <avatars/mixamo-tutorial>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:87
+#: ../../source/create/tools.rst:76
 msgid ""
 ":doc:`Tutorial: Modify Materials and Textures Using Blender <avatars"
 "/blender-tutorial>`"
@@ -12005,3 +11906,150 @@ msgstr ""
 #~ "on](../explore/personalize/add-wearables) and adopt"
 #~ " your new look."
 #~ msgstr ""
+
+#~ msgid "Tutorial: Create an Avatar with Fuse"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this tutorial, we will walk you"
+#~ " through simple modifications you can "
+#~ "make to your avatar using Blender. "
+#~ "You will need to import an FBX "
+#~ "file for your avatar. If you don't"
+#~ " have one, see our tutorials for "
+#~ "[Fuse](fuse-tutorial) and [Mixamo](mixamo-"
+#~ "tutorial)."
+#~ msgstr ""
+
+#~ msgid "[Tutorial: Create an Avatar with Fuse](fuse-tutorial)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is outdated. FIXME: "
+#~ "Mentions services like VRoid Studio even"
+#~ " though their skeletons have never "
+#~ "been supported (the Unity avatar "
+#~ "exporter will not be able to fix"
+#~ " that)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create your avatar from scratch using"
+#~ " 3D modeling tools such as Adobe "
+#~ "Fuse, Mixamo, and Blender"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create an avatar with 3D character "
+#~ "modeling tool such as Adobe Fuse, "
+#~ "Blender or Maya."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Check out this YouTube playlist for "
+#~ "one way to create and customize "
+#~ "your own avatar. Here, we use "
+#~ "Adobe Fuse to create our avatar, "
+#~ "Mixamo to rig our avatar automatically,"
+#~ " and Blender to adjust the rendering"
+#~ " on our avatar. We also have "
+#~ "written instructions on the same "
+#~ "process:"
+#~ msgstr ""
+
+#~ msgid ":doc:`Create an Avatar with Fuse <fuse-tutorial>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using Adobe Fuse, you can create a"
+#~ " custom avatar. The default heads, "
+#~ "torsos, arms and legs in Adobe "
+#~ "Fuse can help you start your "
+#~ "customization."
+#~ msgstr ""
+
+#~ msgid "Launch Adobe Fuse."
+#~ msgstr ""
+
+#~ msgid "Pick your default body parts. ![](_images/fuse-assemble.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Customize'. Here, you can "
+#~ "customize the avatar. For example, you"
+#~ " can customize how the eyebrows are"
+#~ " shaped, facial expressions, how long "
+#~ "the fingers are and much more. "
+#~ "![](_images/fuse-customize.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Clothing'. Here, you can choose"
+#~ " the clothing you'd like. In "
+#~ "addition, you can set hair and "
+#~ "facial hair options. In the next "
+#~ "step, you will be able to modify"
+#~ " the materials, colors, and textures "
+#~ "of each clothing item you "
+#~ "choose.![](_images/fuse-clothing.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Texture'. Here, you can modify"
+#~ " your clothing choices with custom "
+#~ "materials and colors. ![](_images/fuse-"
+#~ "texture.png)"
+#~ msgstr ""
+
+#~ msgid "Save your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this tutorial, we will use the"
+#~ " avatar that we [created in Adobe "
+#~ "Fuse](fuse-tutorial)."
+#~ msgstr ""
+
+#~ msgid "Open your avatar in Adobe Fuse."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: mentions supposedly know issues"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We have received reports that Interface"
+#~ " may crash when using a laptop "
+#~ "and external monitor with the Create "
+#~ "app. If you experience the crash, "
+#~ "we recommend that you either a) "
+#~ "disable the Nahimic service on your "
+#~ "laptop or b) always use the Create"
+#~ " Tools on your primary monitor."
+#~ msgstr ""
+
+#~ msgid "Adobe Fuse"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are community reports where users"
+#~ " are unable to easily open Adobe "
+#~ "Fuse once installed. To work around "
+#~ "this issue, open it multiple times "
+#~ "successively until you are able to "
+#~ "open the application."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use `Adobe Fuse "
+#~ "<https://www.adobe.com/in/products/fuse.html>`_ to create"
+#~ " a custom avatar. The default heads,"
+#~ " torsos, arms, and legs in Adobe "
+#~ "Fuse can help you start your "
+#~ "customization."
+#~ msgstr ""
+
+#~ msgid ":doc:`Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>`"
+#~ msgstr ""
+

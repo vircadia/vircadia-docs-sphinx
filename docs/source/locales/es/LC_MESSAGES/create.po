@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-08-28 20:20+0000\n"
+"POT-Creation-Date: 2021-10-18 01:33+0000\n"
 "PO-Revision-Date: 2021-10-18 01:33+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/create/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/create/es/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -782,11 +781,10 @@ msgstr ""
 #: ../../source/create/avatars/add-flow.rst:127
 #: ../../source/create/avatars/avatar-standards.md:272
 #: ../../source/create/avatars/blender-tutorial.md:52
-#: ../../source/create/avatars/create-avatars.rst:76
+#: ../../source/create/avatars/create-avatars.rst:67
 #: ../../source/create/avatars/custom-animations.rst:269
 #: ../../source/create/avatars/find-avatars.rst:177
-#: ../../source/create/avatars/fuse-tutorial.md:22
-#: ../../source/create/avatars/mixamo-tutorial.md:25
+#: ../../source/create/avatars/mixamo-tutorial.md:24
 #: ../../source/create/avatars/scattering-tutorial.rst:66
 #: ../../source/create/entities/add-sounds.md:24
 #: ../../source/create/entities/avatar-interactions.md:63
@@ -806,7 +804,7 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:160
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/entities/zone-tutorial.md:155
-#: ../../source/create/environments.rst:30 ../../source/create/tools.rst:81
+#: ../../source/create/environments.rst:30 ../../source/create/tools.rst:71
 #: ../../source/create/wearables.md:41
 msgid "**See Also**"
 msgstr "**Ver también**"
@@ -1828,11 +1826,6 @@ msgstr "Agrega Flujo a Tu Avatar"
 #: ../../source/create/avatars/custom-animations.rst:7
 msgid "Customize Avatar Animations"
 msgstr "Personaliza las Animaciones del Avatar"
-
-#: ../../source/create/avatars.rst:9
-#: ../../source/create/avatars/fuse-tutorial.md:6
-msgid "Tutorial: Create an Avatar with Fuse"
-msgstr "Tutorial: Crea un Avatar con Fuse"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/mixamo-tutorial.md:6
@@ -3089,9 +3082,8 @@ msgstr ""
 "luego buscará una miniatura en `https://vircadia.dev/avatar.jpg`."
 
 #: ../../source/create/avatars/avatar-standards.md:274
-#: ../../source/create/avatars/blender-tutorial.md:56
-#: ../../source/create/avatars/fuse-tutorial.md:26
-#: ../../source/create/avatars/mixamo-tutorial.md:29
+#: ../../source/create/avatars/blender-tutorial.md:55
+#: ../../source/create/avatars/mixamo-tutorial.md:27
 msgid "[Create Your Own Avatar](create-avatars)"
 msgstr "[Crea Tu Propio Avatar](create-avatars)"
 
@@ -3118,11 +3110,12 @@ msgstr ""
 "texturas se renderizen correctamente en Vircadia."
 
 #: ../../source/create/avatars/blender-tutorial.md:10
+#, fuzzy
 msgid ""
 "In this tutorial, we will walk you through simple modifications you can "
 "make to your avatar using Blender. You will need to import an FBX file "
-"for your avatar. If you don't have one, see our tutorials for [Fuse"
-"](fuse-tutorial) and [Mixamo](mixamo-tutorial)."
+"for your avatar. If you don't have one, see our tutorial for [Mixamo"
+"](mixamo-tutorial)."
 msgstr ""
 "En este tutorial, te guiaremos a través de modificaciones simples que "
 "puedes realizar a tu avatar usando Blender. Deberás importar un archivo "
@@ -3330,20 +3323,16 @@ msgstr ""
 "textura en tu modelo."
 
 #: ../../source/create/avatars/blender-tutorial.md:54
-#: ../../source/create/avatars/mixamo-tutorial.md:27
-msgid "[Tutorial: Create an Avatar with Fuse](fuse-tutorial)"
-msgstr "[Tutorial: Crear un Avatar con Fuse](fuse-tutorial)"
-
-#: ../../source/create/avatars/blender-tutorial.md:55
-#: ../../source/create/avatars/fuse-tutorial.md:24
 msgid "[Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)"
 msgstr "[Tutorial: Arma tu Avatar en Mixamo](mixamo-tutorial)"
 
 #: ../../source/create/avatars/create-avatars.rst:2
+#, fuzzy
 msgid ""
-"This document is outdated. FIXME: Mentions services like VRoid Studio "
-"even though their skeletons have never been supported (the Unity avatar "
-"exporter will not be able to fix that)"
+"This document is outdated and will be revisited in the future. FIXME: "
+"Mentions services like VRoid Studio even though their skeletons have "
+"never been supported (the Unity avatar exporter will not be able to fix "
+"that)"
 msgstr ""
 "Este documento está desactualizado. FIXME: menciona servicios como VRoid "
 "Studio a pesar de que sus esqueletos nunca han sido compatibles (el "
@@ -3354,9 +3343,10 @@ msgid "There are three ways to get your own avatar. You can either:"
 msgstr "Hay tres maneras de conseguir tu propio avatar. Puedes:"
 
 #: ../../source/create/avatars/create-avatars.rst:11
+#, fuzzy
 msgid ""
-"Create your avatar from scratch using 3D modeling tools such as Adobe "
-"Fuse, Mixamo, and Blender"
+"Create your avatar from scratch using 3D modeling tools such as Mixamo "
+"and Blender"
 msgstr ""
 "Crea tu avatar desde cero usando herramientas de modelado 3D como Adobe "
 "Fuse, Mixamo y Blender"
@@ -3410,9 +3400,8 @@ msgid "The steps involved in creating your avatar are:"
 msgstr "Los pasos involucrados en la creación de tu avatar son:"
 
 #: ../../source/create/avatars/create-avatars.rst:36
-msgid ""
-"Create an avatar with 3D character modeling tool such as Adobe Fuse, "
-"Blender or Maya."
+#, fuzzy
+msgid "Create an avatar with 3D character modeling tool such as Blender or Maya."
 msgstr ""
 "Crea un avatar con una herramienta de modelado de personajes en 3D como "
 "Adobe Fuse, Blender o Maya."
@@ -3430,35 +3419,18 @@ msgid "Package the model in Vircadia for use as an avatar."
 msgstr "Empaqueta el modelo en Vircadia para usarlo como avatar."
 
 #: ../../source/create/avatars/create-avatars.rst:41
-msgid ""
-"Check out this YouTube playlist for one way to create and customize your "
-"own avatar. Here, we use Adobe Fuse to create our avatar, Mixamo to rig "
-"our avatar automatically, and Blender to adjust the rendering on our "
-"avatar. We also have written instructions on the same process:"
-msgstr ""
-"Echa un vistazo a esta lista de reproducción de YouTube para conocer una "
-"forma de crear y personalizar tu propio avatar. Aquí, usamos Adobe Fuse "
-"para crear nuestro avatar, Mixamo para construir nuestro avatar "
-"automáticamente y Blender para ajustar el renderizado de nuestro avatar. "
-"También tenemos instrucciones escritas sobre el mismo proceso:"
-
-#: ../../source/create/avatars/create-avatars.rst:43
-msgid ":doc:`Create an Avatar with Fuse <fuse-tutorial>`"
-msgstr ":doc:`Crea un Avatar con Fuse <fuse-tutorial>`"
-
-#: ../../source/create/avatars/create-avatars.rst:44
 msgid ":doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`"
 msgstr ":doc:`Construye Tu Avatar en Mixamo <mixamo-tutorial>`"
 
-#: ../../source/create/avatars/create-avatars.rst:45
+#: ../../source/create/avatars/create-avatars.rst:42
 msgid ":doc:`Modify Materials and Textures with Blender <blender-tutorial>`"
 msgstr ":doc:`Modifica Materiales y Texturas con Blender <blender-tutorial>`"
 
-#: ../../source/create/avatars/create-avatars.rst:55
+#: ../../source/create/avatars/create-avatars.rst:46
 msgid "Community Tools for Avatars"
 msgstr "Herramientas de la Comunidad para Avatares"
 
-#: ../../source/create/avatars/create-avatars.rst:57
+#: ../../source/create/avatars/create-avatars.rst:48
 msgid ""
 "As you're creating your avatar, remember that Vircadia is an open-source "
 "project. Many of our community members have created plug-ins, add-ons, "
@@ -3470,7 +3442,7 @@ msgstr ""
 " add-ons, kits de herramientas, esqueletos y más para ayudarte a crear "
 "contenido, incluso avatares. Aquí hay algunos para que juegues."
 
-#: ../../source/create/avatars/create-avatars.rst:61
+#: ../../source/create/avatars/create-avatars.rst:52
 msgid ""
 "`Blender Add-on by Menithal <https://github.com/Menithal/Blender-"
 "Metaverse-Addon>`_"
@@ -3478,7 +3450,7 @@ msgstr ""
 "`Add-on de Blender por Menithal <https://github.com/Menithal/Blender-"
 "Metaverse-Addon>`_"
 
-#: ../../source/create/avatars/create-avatars.rst:63
+#: ../../source/create/avatars/create-avatars.rst:54
 msgid ""
 "Plugin (\"Project Hermes\") is a plugin for Blender to allow for easier "
 "content creation and importing for the Vircadia Metaverse Platform. It "
@@ -3488,7 +3460,7 @@ msgstr ""
 "permite una creación de contenido e importación más fácil para la "
 "plataforma de Metaverso de Vircadia. Cuenta con:"
 
-#: ../../source/create/avatars/create-avatars.rst:65
+#: ../../source/create/avatars/create-avatars.rst:56
 msgid ""
 "**Material Tools**: Allows for easier pipeline to apply materials to "
 "objects so that they are ready to use in Vircadia."
@@ -3497,7 +3469,7 @@ msgstr ""
 "sencilla para aplicar materiales a los objetos para que estén listos para"
 " usar en Vircadia."
 
-#: ../../source/create/avatars/create-avatars.rst:66
+#: ../../source/create/avatars/create-avatars.rst:57
 msgid ""
 "**Armature Tools**: Adds a skeleton that is compatible with Vircadia and "
 "let you configure bone names for use in advanced scripts."
@@ -3506,7 +3478,7 @@ msgstr ""
 "Vircadia y te permite configurar nombres de huesos para su uso en scripts"
 " avanzados."
 
-#: ../../source/create/avatars/create-avatars.rst:67
+#: ../../source/create/avatars/create-avatars.rst:58
 msgid ""
 "**Avatar Converters**: Translates and fixes models and materials from MMD"
 " and Mixamo so that they work in Vircadia."
@@ -3514,7 +3486,7 @@ msgstr ""
 "**Convertidores de Avatar**: Traduce y corrige modelos y materiales de "
 "MMD y Mixamo para que funcionen en Vircadia."
 
-#: ../../source/create/avatars/create-avatars.rst:68
+#: ../../source/create/avatars/create-avatars.rst:59
 msgid ""
 "**Export Tools**: Exports avatars and scenes so that they can be used in "
 "Vircadia."
@@ -3522,7 +3494,7 @@ msgstr ""
 "**Herramientas de Exportación**: Exporta avatares y escenas para que "
 "puedan ser usados en Vircadia."
 
-#: ../../source/create/avatars/create-avatars.rst:69
+#: ../../source/create/avatars/create-avatars.rst:60
 msgid ""
 "**Import Tools**: Imports primitive entities from Vircadia so that you "
 "can make modifications to them."
@@ -3530,7 +3502,7 @@ msgstr ""
 "**Herramientas de Importación**: Importa entidades primitivas de Vircadia"
 " para que puedas realizarles modificaciones."
 
-#: ../../source/create/avatars/create-avatars.rst:71
+#: ../../source/create/avatars/create-avatars.rst:62
 msgid ""
 "Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon "
 "<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
@@ -3538,7 +3510,7 @@ msgstr ""
 "Instálalas aquí: `https://github.com/Menithal/Blender-Metaverse-Addon "
 "<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 
-#: ../../source/create/avatars/create-avatars.rst:73
+#: ../../source/create/avatars/create-avatars.rst:64
 msgid ""
 "Have a project you've been working on that you'd like us to share? Let us"
 " know by editing this page in GitHub!"
@@ -3546,11 +3518,11 @@ msgstr ""
 "¿Tienes un proyecto en el que has estado trabajando que te gustaría que "
 "compartiéramos? ¡Háznoslo saber editando esta página en GitHub!"
 
-#: ../../source/create/avatars/create-avatars.rst:78
+#: ../../source/create/avatars/create-avatars.rst:69
 msgid ":doc:`Find and Use an Existing Avatar <find-avatars>`"
 msgstr ":doc:`Encuentra y Usa un Avatar Existente <find-avatars>`"
 
-#: ../../source/create/avatars/create-avatars.rst:79
+#: ../../source/create/avatars/create-avatars.rst:70
 #: ../../source/create/avatars/find-avatars.rst:179
 msgid ":doc:`Package and Host Your Avatar <package-avatar>`"
 msgstr ":doc:`Empaqueta y Aloja Tu Avatar <package-avatar>`"
@@ -5078,66 +5050,6 @@ msgstr ""
 " de modelado 3D como Blender o Maya y ajustar el peso/tamaño de la "
 "apariencia del avatar antes de usar el exportador de avatar en Unity."
 
-#: ../../source/create/avatars/fuse-tutorial.md:13
-msgid ""
-"Using Adobe Fuse, you can create a custom avatar. The default heads, "
-"torsos, arms and legs in Adobe Fuse can help you start your "
-"customization."
-msgstr ""
-"Utilizando Adobe Fuse, puedes crear un avatar personalizado. Las cabezas,"
-" torsos, brazos y piernas predeterminados en Adobe Fuse pueden ayudarte a"
-" comenzar tu personalización."
-
-#: ../../source/create/avatars/fuse-tutorial.md:15
-msgid "Launch Adobe Fuse."
-msgstr "Inicia Adobe Fuse."
-
-#: ../../source/create/avatars/fuse-tutorial.md:16
-msgid "Pick your default body parts. ![](_images/fuse-assemble.png)"
-msgstr ""
-"Elije las partes predeterminadas de tu cuerpo. ![](_images/fuse-"
-"assemble.png)"
-
-#: ../../source/create/avatars/fuse-tutorial.md:17
-msgid ""
-"Click 'Customize'. Here, you can customize the avatar. For example, you "
-"can customize how the eyebrows are shaped, facial expressions, how long "
-"the fingers are and much more. ![](_images/fuse-customize.png)"
-msgstr ""
-"Haz click en \"Customize\". Aquí, puedes personalizar el avatar. Por "
-"ejemplo, puedes personalizar la forma de las cejas, las expresiones "
-"faciales, la longitud de los dedos y mucho más. ![](_images/fuse-"
-"customize.png)"
-
-#: ../../source/create/avatars/fuse-tutorial.md:18
-msgid ""
-"Click 'Clothing'. Here, you can choose the clothing you'd like. In "
-"addition, you can set hair and facial hair options. In the next step, you"
-" will be able to modify the materials, colors, and textures of each "
-"clothing item you choose.![](_images/fuse-clothing.png)"
-msgstr ""
-"Haz click en \"Clothing\". Aquí, puedes elegir la ropa que te guste. "
-"Además, puedes configurar las opciones de vello facial y de cabello. En "
-"el siguiente paso, podrás modificar los materiales, colores y texturas de"
-" cada prenda que elijas.![](_images/fuse-clothing.png)"
-
-#: ../../source/create/avatars/fuse-tutorial.md:19
-msgid ""
-"Click 'Texture'. Here, you can modify your clothing choices with custom "
-"materials and colors. ![](_images/fuse-texture.png)"
-msgstr ""
-"Haz click en \"Texture\". Aquí, puedes modificar tus opciones de ropa con"
-" materiales y colores personalizados. ![](_images/fuse-texture.png)"
-
-#: ../../source/create/avatars/fuse-tutorial.md:20
-msgid "Save your avatar."
-msgstr "Guarda tu avatar."
-
-#: ../../source/create/avatars/fuse-tutorial.md:25
-#: ../../source/create/avatars/mixamo-tutorial.md:28
-msgid "[Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)"
-msgstr "[Tutorial: Modificar Materiales y Texturas con Blender](blender-tutorial)"
-
 #: ../../source/create/avatars/mixamo-tutorial.md:8
 msgid ""
 "Mixamo is a rigging system that will rig your model's skeleton "
@@ -5149,22 +5061,14 @@ msgstr ""
 "rigging para crear animaciones simples para tu avatar."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:10
-msgid ""
-"In this tutorial, we will use the avatar that we [created in Adobe Fuse"
-"](fuse-tutorial)."
+msgid "In this tutorial, we will use an avatar"
 msgstr ""
-"En este tutorial, usaremos el avatar que [creamos en Adobe Fuse](fuse-"
-"tutorial)."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:12
-msgid "Open your avatar in Adobe Fuse."
-msgstr "Abre tu avatar en Adobe Fuse."
-
-#: ../../source/create/avatars/mixamo-tutorial.md:13
 msgid "Go to **File > Animate with Mixamo**."
 msgstr "Ve a **File > Animate with Mixamo**."
 
-#: ../../source/create/avatars/mixamo-tutorial.md:14
+#: ../../source/create/avatars/mixamo-tutorial.md:13
 msgid ""
 "Save your avatar with a name and wait while it is exported to the auto-"
 "rigger.  ![](_images/character-upload.png)"
@@ -5172,7 +5076,7 @@ msgstr ""
 "Guarda tu avatar con un nombre y espera mientras se exporta al auto-"
 "armado (aparejo). ![](_images/character-upload.png)"
 
-#: ../../source/create/avatars/mixamo-tutorial.md:20
+#: ../../source/create/avatars/mixamo-tutorial.md:19
 msgid ""
 "Once your avatar is processed, Mixamo's auto-rigger will show your "
 "animated avatar. Ensure that Facial Blendshapes are 'Enabled' and "
@@ -5185,7 +5089,7 @@ msgstr ""
 "establecido en \"Standard\". Esta configuración garantiza que tu avatar "
 "funcione correctamente en Vircadia. ![](_images/auto-rigger.png)"
 
-#: ../../source/create/avatars/mixamo-tutorial.md:21
+#: ../../source/create/avatars/mixamo-tutorial.md:20
 msgid ""
 "If you made changes to your settings, click 'Update Rig'. Mixamo will re-"
 "process your avatar with these updates."
@@ -5193,11 +5097,11 @@ msgstr ""
 "Si realizaste cambios en tu configuración, haz click en \"Update Rig\". "
 "Mixamo volverá a procesar tu avatar con estas actualizaciones."
 
-#: ../../source/create/avatars/mixamo-tutorial.md:22
+#: ../../source/create/avatars/mixamo-tutorial.md:21
 msgid "Click 'Finish' to start applying animation."
 msgstr "Haz click en \"Finish\" para comenzar a aplicar la animación."
 
-#: ../../source/create/avatars/mixamo-tutorial.md:23
+#: ../../source/create/avatars/mixamo-tutorial.md:22
 msgid ""
 "Once your avatar has been successfully rigged, you can download it and "
 "modify it further using a 3D software of your choice. When prompted, "
@@ -5208,6 +5112,10 @@ msgstr ""
 "modificarlo aún más utilizando un software 3D de tu elección. Cuando se "
 "te solicite, selecciona Formatear como \"FBX\" y Pose como \"T-pose\". "
 "![](_images/mixamo-download.png)"
+
+#: ../../source/create/avatars/mixamo-tutorial.md:26
+msgid "[Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)"
+msgstr "[Tutorial: Modificar Materiales y Texturas con Blender](blender-tutorial)"
 
 #: ../../source/create/avatars/package-avatar.rst:2
 msgid ""
@@ -6794,8 +6702,8 @@ msgid ""
 "Edit the properties of your entity so that it [looks](entity-appearance) "
 "and [behaves](entity-behavior) like you want it to."
 msgstr ""
-"Edita las propiedades de tu avatar para que se [vea](entity-appearance) y "
-"[comporte](entity-behavior) como tu quieras."
+"Edita las propiedades de tu avatar para que se [vea](entity-appearance) y"
+" [comporte](entity-behavior) como tu quieras."
 
 #: ../../source/create/entities/create-entities.md:18
 msgid "![](_images/add-cube.png)"
@@ -7726,8 +7634,8 @@ msgid ""
 "inside the object."
 msgstr ""
 "Para entidades de cubo, esfera, texto, imagen y web, puedes cambiar su "
-"tamaño directamente en tu entorno seleccionando y arrastrando los pequeños "
-"cuadros dentro del objeto."
+"tamaño directamente en tu entorno seleccionando y arrastrando los "
+"pequeños cuadros dentro del objeto."
 
 #: ../../source/create/entities/entity-appearance.rst:72
 msgid ""
@@ -7736,10 +7644,11 @@ msgid ""
 "the 'Size' settings. Here are the different size settings you can "
 "configure:"
 msgstr ""
-"Para todas las entidades, también puedes establecer el tamaño manualmente en "
-"la aplicación **Crear**. Con la entidad seleccionada, haz clic en "
-"\"Properties\" y desplázate hacia abajo hasta la configuración de \"Size\". "
-"Aquí están los diferentes ajustes de tamaño que puedes configurar:"
+"Para todas las entidades, también puedes establecer el tamaño manualmente"
+" en la aplicación **Crear**. Con la entidad seleccionada, haz clic en "
+"\"Properties\" y desplázate hacia abajo hasta la configuración de "
+"\"Size\". Aquí están los diferentes ajustes de tamaño que puedes "
+"configurar:"
 
 #: ../../source/create/entities/entity-appearance.rst:77
 msgid "*Spatial* > Local Dimensions"
@@ -7752,8 +7661,8 @@ msgid ""
 "changes."
 msgstr ""
 "El tamaño de la entidad. Si la entidad está vinculada a un avatar, este "
-"valor sigue siendo el valor de las dimensiones originales mientras cambia la "
-"escala del avatar."
+"valor sigue siendo el valor de las dimensiones originales mientras cambia"
+" la escala del avatar."
 
 #: ../../source/create/entities/entity-appearance.rst:77
 #: ../../source/create/entities/entity-appearance.rst:81
@@ -7783,8 +7692,7 @@ msgstr "*Spatial* > Scale"
 
 #: ../../source/create/entities/entity-appearance.rst:84
 msgid "Sets the size of the entity as a percentage of its original size."
-msgstr ""
-"Establece el tamaño de la entidad como porcentaje de su tamaño original."
+msgstr "Establece el tamaño de la entidad como porcentaje de su tamaño original."
 
 #: ../../source/create/entities/entity-appearance.rst:86
 msgid "Fall-Off Radius"
@@ -7803,8 +7711,8 @@ msgid ""
 "Affects the size of the spotlight's beam; the higher the value, the "
 "larger the beam."
 msgstr ""
-"Afecta el tamaño del haz del foco; Cuanto mayor sea el valor, mayor será el "
-"haz."
+"Afecta el tamaño del haz del foco; Cuanto mayor sea el valor, mayor será "
+"el haz."
 
 #: ../../source/create/entities/entity-appearance.rst:92
 msgid "Line Height"
@@ -7857,8 +7765,8 @@ msgid ""
 "All entities can be rotated directly in your environment by selecting and"
 " dragging the circles around the object."
 msgstr ""
-"Todas las entidades se pueden rotar directamente en tu entorno seleccionando "
-"y arrastrando los círculos alrededor del objeto."
+"Todas las entidades se pueden rotar directamente en tu entorno "
+"seleccionando y arrastrando los círculos alrededor del objeto."
 
 #: ../../source/create/entities/entity-appearance.rst:116
 msgid ""
@@ -7866,10 +7774,10 @@ msgid ""
 "entity selected, click on 'Properties' and scroll down to the 'Rotation' "
 "settings. Here are the different rotation settings you can configure:"
 msgstr ""
-"También puedes configurar la rotación manualmente en la aplicación **Crear**"
-". Con la entidad seleccionada, haz click en \"Properties\" y desplázate "
-"hacia abajo hasta la configuración de \"Rotation\". Estos son los diferentes "
-"ajustes de rotación que puedes configurar:"
+"También puedes configurar la rotación manualmente en la aplicación "
+"**Crear**. Con la entidad seleccionada, haz click en \"Properties\" y "
+"desplázate hacia abajo hasta la configuración de \"Rotation\". Estos son "
+"los diferentes ajustes de rotación que puedes configurar:"
 
 #: ../../source/create/entities/entity-appearance.rst:121
 msgid "*Spatial* > Local Rotation"
@@ -7906,9 +7814,10 @@ msgid ""
 "dragging the object to the correct location. Alternatively, you can use "
 "the arrows around the object to move it in only one direction."
 msgstr ""
-"Todas las entidades se pueden mover directamente en tu entorno seleccionando "
-"y arrastrando el objeto a la ubicación correcta. Alternativamente, puedes "
-"usar las flechas de alrededor del objeto para moverlo en una sola dirección."
+"Todas las entidades se pueden mover directamente en tu entorno "
+"seleccionando y arrastrando el objeto a la ubicación correcta. "
+"Alternativamente, puedes usar las flechas de alrededor del objeto para "
+"moverlo en una sola dirección."
 
 #: ../../source/create/entities/entity-appearance.rst:141
 msgid ""
@@ -7916,10 +7825,10 @@ msgid ""
 "entity selected, click on 'Properties' and scroll down to the 'Position' "
 "settings. Here are the different position settings you can configure:"
 msgstr ""
-"También puedes establecer la posición manualmente en la aplicación **Crear**"
-". Con la entidad seleccionada, haz click en \"Properties\" y desplázate "
-"hacia abajo hasta la configuración de \"Position\". Estos son los diferentes "
-"ajustes de posición que puedes configurar:"
+"También puedes establecer la posición manualmente en la aplicación "
+"**Crear**. Con la entidad seleccionada, haz click en \"Properties\" y "
+"desplázate hacia abajo hasta la configuración de \"Position\". Estos son "
+"los diferentes ajustes de posición que puedes configurar:"
 
 #: ../../source/create/entities/entity-appearance.rst:146
 msgid "*Spatial* > Local Position"
@@ -7951,10 +7860,10 @@ msgid ""
 " You can check and change an entity's behavior by editing its properties."
 msgstr ""
 "El comportamiento de una entidad controla sus interacciones con otras "
-"entidades y avatares en Vircadia. ¿Se puede agarrar/tomar una entidad, choca "
-"con otras entidades y avatares, o puede afectarla un cambio en la gravedad "
-"del dominio? Puedes verificar y cambiar el comportamiento de una entidad "
-"editando sus propiedades."
+"entidades y avatares en Vircadia. ¿Se puede agarrar/tomar una entidad, "
+"choca con otras entidades y avatares, o puede afectarla un cambio en la "
+"gravedad del dominio? Puedes verificar y cambiar el comportamiento de una"
+" entidad editando sus propiedades."
 
 #: ../../source/create/entities/entity-behavior.rst:19
 msgid "Set an Entity to Respond to Physics"
@@ -7968,11 +7877,11 @@ msgid ""
 "an entity is not dynamic, it is static and has no gravity and no "
 "velocity. It can only be moved by a user."
 msgstr ""
-"Si quieres que una entidad :doc:`responda a la física <entity-physics>` u "
-"otras entidades y avatares, necesitas hacerlas dinámicas. Esto permite que "
-"una caja responda a la gravedad o que una pelota rebote cuando golpea el "
-"suelo. Si una entidad no es dinámica, es estática y no tiene gravedad ni "
-"velocidad. Solo puede moverla un usuario."
+"Si quieres que una entidad :doc:`responda a la física <entity-physics>` u"
+" otras entidades y avatares, necesitas hacerlas dinámicas. Esto permite "
+"que una caja responda a la gravedad o que una pelota rebote cuando golpea"
+" el suelo. Si una entidad no es dinámica, es estática y no tiene gravedad"
+" ni velocidad. Solo puede moverla un usuario."
 
 #: ../../source/create/entities/entity-behavior.rst:23
 msgid "To make an entity dynamic:"
@@ -7981,16 +7890,16 @@ msgstr "Para hacer una entidad dinámica:"
 #: ../../source/create/entities/entity-behavior.rst:26
 msgid "Select your entity on the 'Entity List' window or just click on it."
 msgstr ""
-"Selecciona tu entidad en la ventana \"Entity List\" o simplemente haz click "
-"en ella."
+"Selecciona tu entidad en la ventana \"Entity List\" o simplemente haz "
+"click en ella."
 
 #: ../../source/create/entities/entity-behavior.rst:27
 msgid ""
 "Go to the 'Properties' tab, scroll down to 'Collision' and check "
 "'Dynamic'."
 msgstr ""
-"Ve a la pestaña \"Properties\", desplázate hacia abajo hasta \"Collision\" y "
-"marca \"Dynamic\"."
+"Ve a la pestaña \"Properties\", desplázate hacia abajo hasta "
+"\"Collision\" y marca \"Dynamic\"."
 
 #: ../../source/create/entities/entity-behavior.rst:31
 msgid "Set Entity Behavior on Collision"
@@ -8004,17 +7913,18 @@ msgid ""
 "collision properties need to be changed. With the entity selected, click "
 "on 'Properties' and scroll down to the 'Collision' settings."
 msgstr ""
-"Cuando una entidad no tiene propiedades de colisión, se mueve a través de "
-"otras entidades y avatares como si no fuera un objeto sólido. Para que una "
-"entidad choque cuando entra en contacto con otra entidad o avatar, es "
-"necesario cambiar sus propiedades de colisión. Con la entidad seleccionada, "
-"haz click en \"Properties\" y desplázate hacia abajo hasta la configuración "
-"de \"Collision\"."
+"Cuando una entidad no tiene propiedades de colisión, se mueve a través de"
+" otras entidades y avatares como si no fuera un objeto sólido. Para que "
+"una entidad choque cuando entra en contacto con otra entidad o avatar, es"
+" necesario cambiar sus propiedades de colisión. Con la entidad "
+"seleccionada, haz click en \"Properties\" y desplázate hacia abajo hasta "
+"la configuración de \"Collision\"."
 
 #: ../../source/create/entities/entity-behavior.rst:35
 msgid "Here are the different collision settings you can configure:"
 msgstr ""
-"Aquí están las diferentes configuraciones de colisión que puedes configurar:"
+"Aquí están las diferentes configuraciones de colisión que puedes "
+"configurar:"
 
 #: ../../source/create/entities/entity-behavior.rst:38
 msgid "Collides With"
@@ -8030,9 +7940,9 @@ msgid ""
 "entity is a static entity, it will not collide with another static "
 "entity. Only a dynamic entity can collide with a static entity."
 msgstr ""
-"Tu entidad chocará con entidades estáticas. Ten en cuenta que si tu entidad "
-"es una entidad estática, no chocará con otra entidad estática. Solo una "
-"entidad dinámica puede chocar con una entidad estática."
+"Tu entidad chocará con entidades estáticas. Ten en cuenta que si tu "
+"entidad es una entidad estática, no chocará con otra entidad estática. "
+"Solo una entidad dinámica puede chocar con una entidad estática."
 
 #: ../../source/create/entities/entity-behavior.rst:44
 msgid "Kinematic Entities"
@@ -8045,8 +7955,8 @@ msgid ""
 "external script."
 msgstr ""
 "Tu entidad chocará con entidades cinemáticas. Las entidades cinemáticas "
-"tienen velocidad, pero no son dinámicas. Su comportamiento está controlado "
-"por un script externo."
+"tienen velocidad, pero no son dinámicas. Su comportamiento está "
+"controlado por un script externo."
 
 #: ../../source/create/entities/entity-behavior.rst:48
 msgid "Dynamic Entities"
@@ -8081,8 +7991,8 @@ msgid ""
 "You can make your entity :doc:`emit a sound <add-sounds>` whenever it "
 "collides with other entities."
 msgstr ""
-"Puedes hacer que tu entidad :doc:`emita un sonido <add-sounds>` siempre que "
-"colisione con otras entidades."
+"Puedes hacer que tu entidad :doc:`emita un sonido <add-sounds>` siempre "
+"que colisione con otras entidades."
 
 #: ../../source/create/entities/entity-behavior.rst:60
 msgid "Make an Entity Grabbable"
@@ -8094,10 +8004,10 @@ msgid ""
 "another user interacts with it. By default, 'Grabbable' and 'Follow "
 "Controller' are checked."
 msgstr ""
-"Las propiedades de captura de tu entidad determinan cómo se comporta cuando "
-"tú u otro usuario interactúa con ella. De forma predeterminada, las opciones "
-"\"Grabbable\" (Agarrable/Sujetable) y \"Follow Controller\" (Seguir al "
-"Controlador) están marcadas."
+"Las propiedades de captura de tu entidad determinan cómo se comporta "
+"cuando tú u otro usuario interactúa con ella. De forma predeterminada, "
+"las opciones \"Grabbable\" (Agarrable/Sujetable) y \"Follow Controller\" "
+"(Seguir al Controlador) están marcadas."
 
 #: ../../source/create/entities/entity-behavior.rst:64
 msgid "Here are the different grab settings you can configure:"
@@ -8129,10 +8039,10 @@ msgid ""
 "arms, your entity will be grabbed where the controller is (at a distance "
 "from your avatar's hands)."
 msgstr ""
-"Tu entidad seguirá los movimientos de tu controlador de mano en lugar de las "
-"manos de tu avatar. Si los brazos de tu avatar son más cortos que tus brazos "
-"reales, tu entidad será agarrada donde está el controlador (a una distancia "
-"de las manos de tu avatar)."
+"Tu entidad seguirá los movimientos de tu controlador de mano en lugar de "
+"las manos de tu avatar. Si los brazos de tu avatar son más cortos que tus"
+" brazos reales, tu entidad será agarrada donde está el controlador (a una"
+" distancia de las manos de tu avatar)."
 
 #: ../../source/create/entities/entity-behavior.rst:79
 msgid "Set an Entity to Trigger Scripts"
@@ -8144,8 +8054,9 @@ msgid ""
 "other entities come in contact with it, you can do so by editing its "
 "properties."
 msgstr ""
-"Si quieres que tu entidad active un script cuando tú, otros usuarios u otras "
-"entidades entren en contacto con él, puedes hacerlo editando sus propiedades."
+"Si quieres que tu entidad active un script cuando tú, otros usuarios u "
+"otras entidades entren en contacto con él, puedes hacerlo editando sus "
+"propiedades."
 
 #: ../../source/create/entities/entity-behavior.rst:83
 msgid "Here are the different trigger settings you can configure:"
@@ -8160,9 +8071,9 @@ msgid ""
 "Your entity can trigger a script. For instance, you can trigger a cube "
 "entity to run a script asking for a tip every time you click it."
 msgstr ""
-"Tu entidad puede activar un script. Por ejemplo, puedes activar una entidad "
-"de cubo para que ejecute un script pidiendo un consejo cada vez que hagas "
-"click en él."
+"Tu entidad puede activar un script. Por ejemplo, puedes activar una "
+"entidad de cubo para que ejecute un script pidiendo un consejo cada vez "
+"que hagas click en él."
 
 #: ../../source/create/entities/entity-behavior.rst:94
 msgid "Make an Entity Cloneable"
@@ -8177,13 +8088,14 @@ msgid ""
 msgstr ""
 "Puedes clonar tu entidad para crear otras entidades con las mismas "
 "propiedades que la tuya. Mientras creas clones, puedes establecer cuánto "
-"tiempo existirán, cuántos clones puedes crear, cómo responde el clon a la "
-"física y si el clon es una entidad de avatar."
+"tiempo existirán, cuántos clones puedes crear, cómo responde el clon a la"
+" física y si el clon es una entidad de avatar."
 
 #: ../../source/create/entities/entity-behavior.rst:98
 msgid "Here are the different clone settings you can configure:"
 msgstr ""
-"Aquí están las diferentes configuraciones de clonación que puedes configurar:"
+"Aquí están las diferentes configuraciones de clonación que puedes "
+"configurar:"
 
 #: ../../source/create/entities/entity-behavior.rst:103
 msgid "Cloneable"
@@ -8204,8 +8116,8 @@ msgstr "*Cloneable* > Clone Lifetime"
 #: ../../source/create/entities/entity-behavior.rst:106
 msgid "Select this option to set how long (in seconds) your clone will exist."
 msgstr ""
-"Selecciona esta opción para establecer cuánto tiempo (en segundos) existirá "
-"tu clon."
+"Selecciona esta opción para establecer cuánto tiempo (en segundos) "
+"existirá tu clon."
 
 #: ../../source/create/entities/entity-behavior.rst:109
 msgid "*Cloneable* >"
@@ -8220,8 +8132,8 @@ msgid ""
 "Select to set a limit to how many clones you can create. If you don't "
 "want to have a limit, set the value to 0  ."
 msgstr ""
-"Selecciónalo para establecer un límite a la cantidad de clones que puedes "
-"crear. Si no quieres tener un límite, establece el valor en 0."
+"Selecciónalo para establecer un límite a la cantidad de clones que puedes"
+" crear. Si no quieres tener un límite, establece el valor en 0."
 
 #: ../../source/create/entities/entity-behavior.rst:113
 msgid "*Cloneable* > Clone Dynamic"
@@ -8245,14 +8157,14 @@ msgid ""
 "their avatar, ensuring there isn't any clutter left behind. This feature "
 "ensures that your entity is cloned locally for each avatar."
 msgstr ""
-"Selecciónalo para especificar si una entidad clonada se crea como entidad de "
-"avatar. No existe una entidad de avatar en Entity Server. Sin embargo, es "
-"específico para el cliente de interfaz de un usuario. Por ejemplo, "
-"supongamos que un usuario visita la cafetería de tu dominio. El usuario toma "
-"una taza de café que ha sido clonada. Una vez que el usuario termina la "
-"visita, la entidad clonada se va con su avatar, asegurándose de que no quede "
-"ningún desorden. Esta característica asegura que tu entidad se clona "
-"localmente para cada avatar."
+"Selecciónalo para especificar si una entidad clonada se crea como entidad"
+" de avatar. No existe una entidad de avatar en Entity Server. Sin "
+"embargo, es específico para el cliente de interfaz de un usuario. Por "
+"ejemplo, supongamos que un usuario visita la cafetería de tu dominio. El "
+"usuario toma una taza de café que ha sido clonada. Una vez que el usuario"
+" termina la visita, la entidad clonada se va con su avatar, asegurándose "
+"de que no quede ningún desorden. Esta característica asegura que tu "
+"entidad se clona localmente para cada avatar."
 
 #: ../../source/create/entities/entity-behavior.rst:125
 msgid ""
@@ -8260,17 +8172,17 @@ msgid ""
 "settings/permission-settings>` to clone an entity or edit an unlocked "
 "entity."
 msgstr ""
-"Un usuario no necesita :doc:`crear permisos <../../host/configure-settings/"
-"permission-settings>` para clonar una entidad o editar una entidad "
-"desbloqueada."
+"Un usuario no necesita :doc:`crear permisos <../../host/configure-"
+"settings/permission-settings>` para clonar una entidad o editar una "
+"entidad desbloqueada."
 
 #: ../../source/create/entities/entity-behavior.rst:127
 msgid ""
 "To make entities cloneable in your domain (this can only be done with "
 "unlocked entities):"
 msgstr ""
-"Para hacer que las entidades se puedan clonar en tu dominio (esto solo se "
-"puede hacer con entidades desbloqueadas):"
+"Para hacer que las entidades se puedan clonar en tu dominio (esto solo se"
+" puede hacer con entidades desbloqueadas):"
 
 #: ../../source/create/entities/entity-behavior.rst:130
 msgid "Select the entity of your choice in the 'Entity List' window."
@@ -8279,8 +8191,8 @@ msgstr "Selecciona la entidad de tu elección en la ventana \"Entity List\"."
 #: ../../source/create/entities/entity-behavior.rst:131
 msgid "Go to the 'Properties' tab, scroll down, and check 'Cloneable'."
 msgstr ""
-"Ve a la pestaña \"Properties\", desplázate hacia abajo, y marca \"Cloneable\""
-"."
+"Ve a la pestaña \"Properties\", desplázate hacia abajo, y marca "
+"\"Cloneable\"."
 
 #: ../../source/create/entities/entity-behavior.rst:133
 msgid ""
@@ -8299,15 +8211,15 @@ msgid ""
 "permissions <../../host/configure-settings/permission-settings>` to the "
 "users of your choice."
 msgstr ""
-"Bloquea las entidades que no quieras clonar, entonces :doc:`restringe los "
-"permisos de \"Lock\" (Bloqueo) del usuario <../../host/configure-settings/"
-"permission-settings>` para los usuarios de tu elección."
+"Bloquea las entidades que no quieras clonar, entonces :doc:`restringe los"
+" permisos de \"Lock\" (Bloqueo) del usuario <../../host/configure-"
+"settings/permission-settings>` para los usuarios de tu elección."
 
 #: ../../source/create/entities/entity-behavior.rst:136
 msgid "Set entity filters to prevent users from editing entities in your domain."
 msgstr ""
-"Establece filtros de entidad para evitar que los usuarios editen entidades "
-"en tu dominio."
+"Establece filtros de entidad para evitar que los usuarios editen "
+"entidades en tu dominio."
 
 #: ../../source/create/entities/entity-behavior.rst:140
 msgid "Set an Entity to Cast a Shadow"
@@ -8322,14 +8234,13 @@ msgid ""
 msgstr ""
 "Puedes hacer que tu entidad se comporte como un objeto del mundo real "
 "haciendo que proyecte una sombra sobre otras entidades y avatares. En "
-"Vircadia, las entidades proyectan sombras solo desde la luz clave (key light)"
-", no desde las entidades de luz. La luz clave es una fuente de luz paralela, "
-"como el sol."
+"Vircadia, las entidades proyectan sombras solo desde la luz clave (key "
+"light), no desde las entidades de luz. La luz clave es una fuente de luz "
+"paralela, como el sol."
 
 #: ../../source/create/entities/entity-behavior.rst:144
 msgid "Here are the different shadow settings you can configure:"
-msgstr ""
-"Aquí están las diferentes configuraciones de sombra que puedes configurar:"
+msgstr "Aquí están las diferentes configuraciones de sombra que puedes configurar:"
 
 #: ../../source/create/entities/entity-behavior.rst:149
 msgid "Cast Shadow"
@@ -8363,13 +8274,13 @@ msgid ""
 "Create app."
 msgstr ""
 "Tu experiencia Vircadia VR se hace realista con la ayuda de un `motor de "
-"física <https://pybullet.org/wordpress>`_. Vircadia utiliza este motor para "
-"simular el comportamiento de un objeto de acuerdo con las leyes de la física "
-"newtoniana. Por ejemplo, si golpea una pelota con un bate en Vircadia, el "
-"motor de física calcula estos movimientos y hace que la pelota gire "
-"alejándose del bate después de la colisión. Puedes modificar el "
-"comportamiento físico de una entidad mediante la aplicación Crear (Create "
-"App)."
+"física <https://pybullet.org/wordpress>`_. Vircadia utiliza este motor "
+"para simular el comportamiento de un objeto de acuerdo con las leyes de "
+"la física newtoniana. Por ejemplo, si golpea una pelota con un bate en "
+"Vircadia, el motor de física calcula estos movimientos y hace que la "
+"pelota gire alejándose del bate después de la colisión. Puedes modificar "
+"el comportamiento físico de una entidad mediante la aplicación Crear "
+"(Create App)."
 
 #: ../../source/create/entities/entity-physics.rst:18
 msgid "Apply Physics to an Entity"
@@ -8391,8 +8302,8 @@ msgid ""
 msgstr ""
 "En la pestaña \"Properties\", desplázate hacia abajo a la sección de "
 "**Físicas**. Cuando creas una entidad por primera vez, las propiedades "
-"físicas se establecen en los valores predeterminados que puedes ver en la "
-"imagen a continuación."
+"físicas se establecen en los valores predeterminados que puedes ver en la"
+" imagen a continuación."
 
 #: ../../source/create/entities/entity-physics.rst:30
 msgid "Change an Entity's Velocity"
@@ -8406,8 +8317,8 @@ msgid ""
 msgstr ""
 "\"Velocity\" es la velocidad de un objeto en una determinada dirección. "
 "Todas las entidades que tienen una posición y orientación en Vircadia "
-"tendrán velocidad lineal y angular. Estas velocidades pueden ser cero, pero "
-"aún existen."
+"tendrán velocidad lineal y angular. Estas velocidades pueden ser cero, "
+"pero aún existen."
 
 #: ../../source/create/entities/entity-physics.rst:36
 msgid "Linear Velocity"
@@ -8438,11 +8349,11 @@ msgid ""
 msgstr ""
 "Puedes elegir hacer que una entidad se mueva en una dirección específica "
 "cambiando su velocidad lineal. La dirección se determina utilizando las "
-"coordenadas x, y o z en un sistema de coordenadas cartesianas 3D. El sistema "
-"de coordenadas cartesianas 3D te ayuda a determinar la posición de tu "
-"entidad en el espacio. Cada vez que tu entidad se mueve, sus coordenadas x, "
-"y y z cambian para mostrarte la nueva posición. Para cambiar la velocidad "
-"lineal de una entidad:"
+"coordenadas x, y o z en un sistema de coordenadas cartesianas 3D. El "
+"sistema de coordenadas cartesianas 3D te ayuda a determinar la posición "
+"de tu entidad en el espacio. Cada vez que tu entidad se mueve, sus "
+"coordenadas x, y y z cambian para mostrarte la nueva posición. Para "
+"cambiar la velocidad lineal de una entidad:"
 
 #: ../../source/create/entities/entity-physics.rst:46
 msgid ""
@@ -8458,16 +8369,16 @@ msgid ""
 " Y value for linear velocity to `0.1000` and see your cube start moving."
 msgstr ""
 "Supongamos que quieres mover una entidad de cubo hacia arriba en línea "
-"recta. Cambia el valor de Y para la velocidad lineal a `0.1000` y observa "
-"cómo tu cubo comienza a moverse."
+"recta. Cambia el valor de Y para la velocidad lineal a `0.1000` y observa"
+" cómo tu cubo comienza a moverse."
 
 #: ../../source/create/entities/entity-physics.rst:48
 msgid ""
 "If you want your cube to change direction, change the x and z values to "
 "`0.1000`."
 msgstr ""
-"Si quieres que tu cubo cambie de dirección, cambie los valores X y Z a `0."
-"1000`."
+"Si quieres que tu cubo cambie de dirección, cambie los valores X y Z a "
+"`0.1000`."
 
 #: ../../source/create/entities/entity-physics.rst:52
 msgid "Angular Velocity"
@@ -8489,8 +8400,8 @@ msgid ""
 "angular velocity:"
 msgstr ""
 "La velocidad angular es la velocidad a la que un objeto gira en una "
-"determinada dirección. Se mide en grados/segundo. Para cambiar la velocidad "
-"angular de una entidad:"
+"determinada dirección. Se mide en grados/segundo. Para cambiar la "
+"velocidad angular de una entidad:"
 
 #: ../../source/create/entities/entity-physics.rst:62
 msgid ""
@@ -8511,13 +8422,12 @@ msgid ""
 "If you want your cube entity to change its angular velocity direction, "
 "change the Y and Z values."
 msgstr ""
-"Si quieres que tu entidad de cubo cambie su dirección de velocidad angular, "
-"cambie los valores de Y y Z."
+"Si quieres que tu entidad de cubo cambie su dirección de velocidad "
+"angular, cambie los valores de Y y Z."
 
 #: ../../source/create/entities/entity-physics.rst:66
 msgid "The scripting engine uses radials/second instead of degrees/second."
-msgstr ""
-"El motor de scripting utiliza radiales/segundo en lugar de grados/segundo."
+msgstr "El motor de scripting utiliza radiales/segundo en lugar de grados/segundo."
 
 #: ../../source/create/entities/entity-physics.rst:70
 msgid "Set How a Moving Entity Slows Down"
@@ -8548,16 +8458,16 @@ msgid ""
 " lose all its velocity and stop immediately. If you want to throw a ball "
 "and have it slow down over time, you can add a damping value to do so."
 msgstr ""
-"En Vircadia, la amortiguación representa la cantidad de velocidad lineal o "
-"angular de una entidad que se pierde con el tiempo. Todos los objetos en "
-"movimiento que vemos en el mundo real experimentan cierta fricción con el "
-"aire, reduciendo sus velocidades con el tiempo. La amortiguación se utiliza "
-"para aproximar este efecto del mundo real en Vircadia. Entonces, si la "
-"amortiguación de un objeto es`0.00`, no perderá nada velocidad y no se "
-"ralentizará. Si la amortiguación de un objeto es`1.00`, perderá toda su "
-"velocidad y se detendrá inmediatamente. Si quieres lanzar una pelota y hacer "
-"que se ralentice con el tiempo, puedes agregar un valor de amortiguación "
-"para hacerlo."
+"En Vircadia, la amortiguación representa la cantidad de velocidad lineal "
+"o angular de una entidad que se pierde con el tiempo. Todos los objetos "
+"en movimiento que vemos en el mundo real experimentan cierta fricción con"
+" el aire, reduciendo sus velocidades con el tiempo. La amortiguación se "
+"utiliza para aproximar este efecto del mundo real en Vircadia. Entonces, "
+"si la amortiguación de un objeto es`0.00`, no perderá nada velocidad y no"
+" se ralentizará. Si la amortiguación de un objeto es`1.00`, perderá toda "
+"su velocidad y se detendrá inmediatamente. Si quieres lanzar una pelota y"
+" hacer que se ralentice con el tiempo, puedes agregar un valor de "
+"amortiguación para hacerlo."
 
 #: ../../source/create/entities/entity-physics.rst:80
 msgid "To set the linear damping of an object:"
@@ -8583,10 +8493,10 @@ msgid ""
 " You can change this value to anything between `0.00` and `1.00` to make "
 "an entity slow down over time."
 msgstr ""
-"Cambia el valor de \"Linear Damping\" (Amortiguación Lineal) a `1.00` para "
-"hacer que el cubo deje de moverse. Puedes cambiar este valor a cualquier "
-"valor entre `0.00` y `1.00` para hacer que una entidad se ralentice con el "
-"tiempo."
+"Cambia el valor de \"Linear Damping\" (Amortiguación Lineal) a `1.00` "
+"para hacer que el cubo deje de moverse. Puedes cambiar este valor a "
+"cualquier valor entre `0.00` y `1.00` para hacer que una entidad se "
+"ralentice con el tiempo."
 
 #: ../../source/create/entities/entity-physics.rst:86
 msgid "To set the angular damping of an object:"
@@ -8603,8 +8513,8 @@ msgstr ""
 #: ../../source/create/entities/entity-physics.rst:89
 msgid "`Change the angular velocity <#angular-velocity>`_ of a cube to any value."
 msgstr ""
-"`Cambiar la velocidad angular <#angular-velocity>`_ de un cubo a cualquier "
-"valor."
+"`Cambiar la velocidad angular <#angular-velocity>`_ de un cubo a "
+"cualquier valor."
 
 #: ../../source/create/entities/entity-physics.rst:90
 msgid ""
@@ -8612,9 +8522,9 @@ msgid ""
 "moving. You can change this value to anything between `0.00` and `1.00` "
 "to make an entity slow down over time."
 msgstr ""
-"Cambia el valor de \"Angular Damping\" (Amortiguación angular) a `1.00` para "
-"hacer que el cubo deje de moverse. Puedes cambiar este valor entre `0.00` y "
-"`1.00` para que la entidad se ralentice con el tiempo."
+"Cambia el valor de \"Angular Damping\" (Amortiguación angular) a `1.00` "
+"para hacer que el cubo deje de moverse. Puedes cambiar este valor entre "
+"`0.00` y `1.00` para que la entidad se ralentice con el tiempo."
 
 #: ../../source/create/entities/entity-physics.rst:101
 msgid "Set an Entity's Friction and Bounciness"
@@ -8644,15 +8554,16 @@ msgid ""
 "friction will slow down much faster. To set the friction of an entity:"
 msgstr ""
 "La fricción es una medida de cuán resbaladizo es un objeto. Cuando una "
-"entidad con baja fricción choca contra otro objeto, se deslizará una buena "
-"distancia antes de detenerse. Por otro lado, una entidad con alta fricción "
-"se ralentizará mucho más rápido. Para establecer la fricción de una entidad:"
+"entidad con baja fricción choca contra otro objeto, se deslizará una "
+"buena distancia antes de detenerse. Por otro lado, una entidad con alta "
+"fricción se ralentizará mucho más rápido. Para establecer la fricción de "
+"una entidad:"
 
 #: ../../source/create/entities/entity-physics.rst:111
 msgid "In the 'Properties' tab, scroll down to the 'Friction' property."
 msgstr ""
-"En la pestaña de \"Properties\", desplázate hasta la propiedad \"Friction\" "
-"(Fricción)."
+"En la pestaña de \"Properties\", desplázate hasta la propiedad "
+"\"Friction\" (Fricción)."
 
 #: ../../source/create/entities/entity-physics.rst:112
 msgid ""
@@ -8660,9 +8571,9 @@ msgid ""
 "with a friction of `0.0000` will be very slippery, while an entity with a"
 " friction of `1.0000` will have a coarse or sticky surface."
 msgstr ""
-"Cambia el valor a cualquiera entre `0,0000` y `1,0000`. Una entidad con una "
-"fricción de `0.0000` será muy resbaladiza, mientras que una entidad con una "
-"fricción de `1.0000` tendrá una superficie áspera o pegajosa."
+"Cambia el valor a cualquiera entre `0,0000` y `1,0000`. Una entidad con "
+"una fricción de `0.0000` será muy resbaladiza, mientras que una entidad "
+"con una fricción de `1.0000` tendrá una superficie áspera o pegajosa."
 
 #: ../../source/create/entities/entity-physics.rst:114
 msgid ""
@@ -8670,14 +8581,15 @@ msgid ""
 "example, a ball will conserve more energy and bounce more than a heavy "
 "cube. To set the bounciness:"
 msgstr ""
-"El rebote es la energía que una entidad conserva durante una colisión. Por "
-"ejemplo, una pelota conservará más energía y rebotará más que un cubo "
-"pesado. Para configurar el rebote:"
+"El rebote es la energía que una entidad conserva durante una colisión. "
+"Por ejemplo, una pelota conservará más energía y rebotará más que un cubo"
+" pesado. Para configurar el rebote:"
 
 #: ../../source/create/entities/entity-physics.rst:116
 msgid "In the 'Properties' tab, scroll down to the 'Bounciness' property."
 msgstr ""
-"En la pestaña \"Properties\", desplázate hacia la propiedad \"Bounciness\"."
+"En la pestaña \"Properties\", desplázate hacia la propiedad "
+"\"Bounciness\"."
 
 #: ../../source/create/entities/entity-physics.rst:117
 msgid ""
@@ -8685,8 +8597,8 @@ msgid ""
 "with a bounciness of `0.0000` will conserve no energy, while an entity "
 "with a bounciness of `1.0000` will conserve all of its energy."
 msgstr ""
-"Cambia el valor a cualquiera entre`0.0000` y `1.0000`. Una entidad con un "
-"rebote de`0.0000`no conservará energía, mientras que una entidad con un "
+"Cambia el valor a cualquiera entre`0.0000` y `1.0000`. Una entidad con un"
+" rebote de`0.0000`no conservará energía, mientras que una entidad con un "
 "rebote de `1.0000` conservará toda su energía."
 
 #: ../../source/create/entities/entity-physics.rst:121
@@ -8711,10 +8623,10 @@ msgid ""
 "an entity with low density is made of light materials such as wood, while"
 " an entity with high density is made of dense materials such as iron."
 msgstr ""
-"La densidad de una entidad es la relación entre su masa y su volumen. Por "
-"ejemplo, una entidad con baja densidad está hecha de materiales livianos "
-"como la madera, mientras que una entidad con alta densidad está hecha de "
-"materiales densos como el hierro."
+"La densidad de una entidad es la relación entre su masa y su volumen. Por"
+" ejemplo, una entidad con baja densidad está hecha de materiales livianos"
+" como la madera, mientras que una entidad con alta densidad está hecha de"
+" materiales densos como el hierro."
 
 #: ../../source/create/entities/entity-physics.rst:133
 msgid ""
@@ -8726,18 +8638,18 @@ msgid ""
 msgstr ""
 "En Vircadia, los valores máximos (`10000`) y mínimos (`100`) de densidad "
 "fueron elegidos por la estabilidad. Es difícil realizar cálculos físicos "
-"estables entre objetos de masas muy dispares (como una pluma ligera y una "
-"bola de hierro). Para ayudar a mantener estable el medio ambiente, elegimos "
-"límites de densidad conservadores."
+"estables entre objetos de masas muy dispares (como una pluma ligera y una"
+" bola de hierro). Para ayudar a mantener estable el medio ambiente, "
+"elegimos límites de densidad conservadores."
 
 #: ../../source/create/entities/entity-physics.rst:135
 msgid ""
 "To change this value, scroll down to the 'Density' property in the "
 "'Properties' tab. Change it to the value of your choice."
 msgstr ""
-"Para cambiar este valor, desplázate hacia abajo hasta la propiedad \"Density"
-"\" (Densidad) en la pestaña \"Properties\". Cambia el valor según tu "
-"elección."
+"Para cambiar este valor, desplázate hacia abajo hasta la propiedad "
+"\"Density\" (Densidad) en la pestaña \"Properties\". Cambia el valor "
+"según tu elección."
 
 #: ../../source/create/entities/entity-physics.rst:139
 msgid "Set How an Entity Moves in a Gravitational Field"
@@ -8757,17 +8669,19 @@ msgid ""
 msgstr ""
 "En la aplicación **Crear** (Create App), \"Gravity\" (Gravedad) es la "
 "aceleración de la entidad, como si estuviera en un campo gravitacional "
-"uniforme. Esta propiedad controla cómo se comporta una entidad cuando cambia "
-"la gravedad de un dominio. Por ejemplo, si una bola está flotando en "
-"gravedad cero, flotará hacia abajo cuando aumente la gravedad hacia abajo."
+"uniforme. Esta propiedad controla cómo se comporta una entidad cuando "
+"cambia la gravedad de un dominio. Por ejemplo, si una bola está flotando "
+"en gravedad cero, flotará hacia abajo cuando aumente la gravedad hacia "
+"abajo."
 
 #: ../../source/create/entities/entity-physics.rst:149
 msgid ""
 "To change this value, scroll down to the 'Gravity' property in the "
 "'Properties' tab. Change it to the value of your choice."
 msgstr ""
-"Para cambiar este valor, desplázate hacia abajo hasta la propiedad \"Gravity"
-"\" en la pestaña \"Properties\". Cambia este valor según tu elección."
+"Para cambiar este valor, desplázate hacia abajo hasta la propiedad "
+"\"Gravity\" en la pestaña \"Properties\". Cambia este valor según tu "
+"elección."
 
 #: ../../source/create/entities/hero-zone.rst:5
 msgid ""
@@ -8780,15 +8694,15 @@ msgid ""
 "within the zone are known as \"heroes\". Examples of heroes include a "
 "keynote speaker at an event or performers at a concert."
 msgstr ""
-"Cada vez que alguien ingresa a tu dominio, debe cargar todo el contenido del "
-"dominio, incluidos los avatares, modelos, texturas y recursos externos que "
-"se utilizan en el dominio. Muchos de estos recursos no están optimizados y "
-"pueden tardar un poco en cargarse, especialmente en dominios grandes o "
-"eventos con muchos avatares. En estas situaciones, puedes priorizar una zona "
-"para que todos los avatares dentro de esa zona se muevan sin problemas hacia "
-"todos los observadores. Los avatares dentro de la zona se conocen como "
-"\"héroes\". Los ejemplos de héroes incluyen un orador principal en un evento "
-"o artistas intérpretes en un concierto."
+"Cada vez que alguien ingresa a tu dominio, debe cargar todo el contenido "
+"del dominio, incluidos los avatares, modelos, texturas y recursos "
+"externos que se utilizan en el dominio. Muchos de estos recursos no están"
+" optimizados y pueden tardar un poco en cargarse, especialmente en "
+"dominios grandes o eventos con muchos avatares. En estas situaciones, "
+"puedes priorizar una zona para que todos los avatares dentro de esa zona "
+"se muevan sin problemas hacia todos los observadores. Los avatares dentro"
+" de la zona se conocen como \"héroes\". Los ejemplos de héroes incluyen "
+"un orador principal en un evento o artistas intérpretes en un concierto."
 
 #: ../../source/create/entities/hero-zone.rst:9
 msgid "Avatar Hero Zones"
@@ -8803,13 +8717,13 @@ msgid ""
 "http://localhost:40100/settings and scroll to **Avatar Mixer > Advanced "
 "Settings > Hero Bandwidth** to set the bandwidth."
 msgstr ""
-"A todos los avatares en las zonas de héroe se les asigna un ancho de banda "
-"adicional, lo que les permite cargarse completamente y moverse sin problemas "
-"dentro de la zona. Puedes establecer la cantidad de ancho de banda que se "
-"dedica a tus zonas de héroe en tus :doc:`configuraciones de dominio <../../"
-"host/configure-settings>`. Ve a http://localhost:40100/settings y desplázate "
-"hasta **Avatar Mixer > Advanced Settings > Hero Bandwidth** para establecer "
-"el ancho de banda."
+"A todos los avatares en las zonas de héroe se les asigna un ancho de "
+"banda adicional, lo que les permite cargarse completamente y moverse sin "
+"problemas dentro de la zona. Puedes establecer la cantidad de ancho de "
+"banda que se dedica a tus zonas de héroe en tus :doc:`configuraciones de "
+"dominio <../../host/configure-settings>`. Ve a "
+"http://localhost:40100/settings y desplázate hasta **Avatar Mixer > "
+"Advanced Settings > Hero Bandwidth** para establecer el ancho de banda."
 
 #: ../../source/create/entities/hero-zone.rst:13
 msgid "To create an avatar hero zone:"
@@ -8820,8 +8734,9 @@ msgid ""
 "Click the 'Zone' icon to create a zone entity. You’ll see a wireframe "
 "shape showing the zone's bounding box."
 msgstr ""
-"Haz click en el ícono de \"Zone\" para crear una entidad de zona. Verás una "
-"forma de estructura alámbrica que muestra el cuadro delimitador de la zona."
+"Haz click en el ícono de \"Zone\" para crear una entidad de zona. Verás "
+"una forma de estructura alámbrica que muestra el cuadro delimitador de la"
+" zona."
 
 #: ../../source/create/entities/hero-zone.rst:17
 #: ../../source/create/entities/zone-tutorial.md:35
@@ -8830,8 +8745,9 @@ msgid ""
 "Zones in Create mode** and select the option. Your zone should now be "
 "visible."
 msgstr ""
-"Si no puedes ver el cuadro delimitador de la zona, ve a **Edit > Show Zones "
-"in Create mode** y selecciona la opción. Tu zona ahora debería estar visible."
+"Si no puedes ver el cuadro delimitador de la zona, ve a **Edit > Show "
+"Zones in Create mode** y selecciona la opción. Tu zona ahora debería "
+"estar visible."
 
 #: ../../source/create/entities/hero-zone.rst:18
 msgid ""
@@ -8853,9 +8769,10 @@ msgid ""
 "the priority of the parent zone. For single zones that are not nested, "
 "this option defaults to \"Crowd\"."
 msgstr ""
-"Heredar: si la zona está anidada dentro de otra zona, heredará la prioridad "
-"de la zona principal. Para zonas individuales que no están anidadas, esta "
-"opción tiene como valor predeterminado \"Crowd\" (Multitud)."
+"Heredar: si la zona está anidada dentro de otra zona, heredará la "
+"prioridad de la zona principal. Para zonas individuales que no están "
+"anidadas, esta opción tiene como valor predeterminado \"Crowd\" "
+"(Multitud)."
 
 #: ../../source/create/entities/hero-zone.rst:22
 msgid "Crowd: The zone will not be prioritized in any way."
@@ -8867,10 +8784,10 @@ msgid ""
 "bandwidth will be given to heroes within the zone. This ensures that all "
 "avatars within the zone will load completely and move smoothly."
 msgstr ""
-"Héroe: La zona recibirá un trato preferencial y se otorgará ancho de banda "
-"adicional a los héroes dentro de la zona. Esto asegura que todos los "
-"avatares dentro de la zona se cargarán completamente y se moverán sin "
-"problemas."
+"Héroe: La zona recibirá un trato preferencial y se otorgará ancho de "
+"banda adicional a los héroes dentro de la zona. Esto asegura que todos "
+"los avatares dentro de la zona se cargarán completamente y se moverán sin"
+" problemas."
 
 #: ../../source/create/entities/hero-zone.rst:24
 msgid ""
@@ -8886,9 +8803,9 @@ msgid ""
 "changes will take place immediately, and the zone will be updated to "
 "match your new settings."
 msgstr ""
-"En cualquier momento, puedes cambiar las propiedades de tu zona de héroe. "
-"Estos cambios se llevarán a cabo de inmediato y la zona se actualizará para "
-"que coincida con tu nueva configuración."
+"En cualquier momento, puedes cambiar las propiedades de tu zona de héroe."
+" Estos cambios se llevarán a cabo de inmediato y la zona se actualizará "
+"para que coincida con tu nueva configuración."
 
 #: ../../source/create/entities/material-entity.rst:5
 msgid ""
@@ -8899,12 +8816,12 @@ msgid ""
 "stone. You can do this by adding a castle wall material entity to your "
 "walls."
 msgstr ""
-"Puedes agregar una entidad material a un objeto en tu dominio. Una entidad "
-"de material contiene datos de material específicos que determinan la textura "
-"y el sombreado de un objeto. Por ejemplo, si quieres crear un castillo en tu "
-"dominio, necesitas que tus paredes parezcan hechas de piedra gris áspera. "
-"Puedes hacer esto agregando una entidad de material de muro de castillo a "
-"tus muros."
+"Puedes agregar una entidad material a un objeto en tu dominio. Una "
+"entidad de material contiene datos de material específicos que determinan"
+" la textura y el sombreado de un objeto. Por ejemplo, si quieres crear un"
+" castillo en tu dominio, necesitas que tus paredes parezcan hechas de "
+"piedra gris áspera. Puedes hacer esto agregando una entidad de material "
+"de muro de castillo a tus muros."
 
 #: ../../source/create/entities/material-entity.rst:7
 msgid ""
@@ -8926,8 +8843,8 @@ msgid ""
 "**Create** app."
 msgstr ""
 "Para agregar un material a tu objeto en Vircadia, debes especificar los "
-"datos del material en un archivo JSON o agregar el material directamente en "
-"la aplicación **Crear**."
+"datos del material en un archivo JSON o agregar el material directamente "
+"en la aplicación **Crear**."
 
 #: ../../source/create/entities/material-entity.rst:18
 msgid ""
@@ -8938,10 +8855,10 @@ msgid ""
 "JSON file."
 msgstr ""
 "Somos conscientes de las dificultades que involucra la conversión de los "
-"datos de tu material a un archivo JSON y estamos trabajando para facilitar "
-"el proceso a nuestros usuarios. Mientras tanto, recomendamos incrustar/"
-"embeber tus datos de material en tus modelos como archivos FBX o glTF si "
-"tienes dificultades para generar un archivo JSON."
+"datos de tu material a un archivo JSON y estamos trabajando para "
+"facilitar el proceso a nuestros usuarios. Mientras tanto, recomendamos "
+"incrustar/embeber tus datos de material en tus modelos como archivos FBX "
+"o glTF si tienes dificultades para generar un archivo JSON."
 
 #: ../../source/create/entities/material-entity.rst:20
 msgid ""
@@ -8949,9 +8866,9 @@ msgid ""
 "<https://docs.vircadia.com/_static/resources/material-"
 "entity/CastleWall.hfm.json>`_ looks like:"
 msgstr ""
-"Es así como se ve el archivo JSON para una muestra de `material de muro de "
-"castillo <https://docs.vircadia.com/_static/resources/material-entity/"
-"CastleWall.hfm.json>`_:"
+"Es así como se ve el archivo JSON para una muestra de `material de muro "
+"de castillo <https://docs.vircadia.com/_static/resources/material-"
+"entity/CastleWall.hfm.json>`_:"
 
 #: ../../source/create/entities/material-entity.rst:39
 msgid ""
@@ -8963,13 +8880,14 @@ msgid ""
 "<https://apidocs.vircadia.dev/Entities.html#.EntityProperties-"
 "Material>`_."
 msgstr ""
-"Este archivo contiene todos los datos de materiales relacionados, como el "
-"color, la rugosidad y otra información de textura y sombreado. Ten en cuenta "
-"que puedes editar esta información mediante programación con el `Material` `"
-"EntityType <https://apidocs.vircadia.dev/Entities.html#.EntityType>`_ ("
-"Material de Tipo de Entidad) en nuestra API, y definir sus propiedades "
-"usando el `EntityProperties-Material <https://apidocs.vircadia.dev/Entities."
-"html#.EntityProperties-Material>`_ (Material de Propiedad de Entidad)."
+"Este archivo contiene todos los datos de materiales relacionados, como el"
+" color, la rugosidad y otra información de textura y sombreado. Ten en "
+"cuenta que puedes editar esta información mediante programación con el "
+"`Material` `EntityType "
+"<https://apidocs.vircadia.dev/Entities.html#.EntityType>`_ (Material de "
+"Tipo de Entidad) en nuestra API, y definir sus propiedades usando el "
+"`EntityProperties-Material <https://apidocs.vircadia.dev/Entities.html"
+"#.EntityProperties-Material>`_ (Material de Propiedad de Entidad)."
 
 #: ../../source/create/entities/material-entity.rst:47
 msgid "Use the Material Entity JSON File"
@@ -8980,8 +8898,9 @@ msgid ""
 "At this time, we have no way to automatically generate a JSON file with "
 "another tool, and you will need to write your own JSON file."
 msgstr ""
-"En este momento, no tenemos forma de generar automáticamente un archivo JSON "
-"con otra herramienta, por lo cual deberás escribir tu propio archivo JSON."
+"En este momento, no tenemos forma de generar automáticamente un archivo "
+"JSON con otra herramienta, por lo cual deberás escribir tu propio archivo"
+" JSON."
 
 #: ../../source/create/entities/material-entity.rst:51
 msgid ""
@@ -8990,10 +8909,10 @@ msgid ""
 "<https://docs.vircadia.com/_static/resources/material-"
 "entity/CastleWall.hfm.json>`_ to a box entity in your domain."
 msgstr ""
-"Una vez que tengas tu archivo JSON de entidad material, puedes agregarlo a "
-"un objeto en Vircadia. Agreguemos el `material de muro de castillo "
-"<https://docs.vircadia.com/_static/resources/material-entity/CastleWall.hfm."
-"json>`_ a una entidad de caja en tu dominio."
+"Una vez que tengas tu archivo JSON de entidad material, puedes agregarlo "
+"a un objeto en Vircadia. Agreguemos el `material de muro de castillo "
+"<https://docs.vircadia.com/_static/resources/material-"
+"entity/CastleWall.hfm.json>`_ a una entidad de caja en tu dominio."
 
 #: ../../source/create/entities/material-entity.rst:54
 msgid ""
@@ -9009,18 +8928,18 @@ msgid ""
 "material entity. Enter the material's JSON file URL when prompted. You "
 "will see the material entity represented as a small sphere."
 msgstr ""
-"Ve a la pestaña **Crear** y haz click en el ícono \"Material\" para agregar "
-"una entidad de material. Ingresa la URL del archivo JSON del material cuando "
-"se te lo solicite. Verás la entidad material representada como una pequeña "
-"esfera."
+"Ve a la pestaña **Crear** y haz click en el ícono \"Material\" para "
+"agregar una entidad de material. Ingresa la URL del archivo JSON del "
+"material cuando se te lo solicite. Verás la entidad material representada"
+" como una pequeña esfera."
 
 #: ../../source/create/entities/material-entity.rst:56
 msgid ""
 "Click and select the wall. Go to the 'Properties' tab and copy the parent"
 " ID under the 'Name' box."
 msgstr ""
-"Haz click y selecciona la pared. Ve a la pestaña \"Properties\" y copia el "
-"ID del padre debajo del campo \"Name\"."
+"Haz click y selecciona la pared. Ve a la pestaña \"Properties\" y copia "
+"el ID del padre debajo del campo \"Name\"."
 
 #: ../../source/create/entities/material-entity.rst:57
 msgid ""
@@ -9030,9 +8949,9 @@ msgid ""
 "material to an entity."
 msgstr ""
 "Haz click y selecciona el material de la entidad. Ve a la pestaña "
-"\"Properties\" y pega el ID padre copiado en el campo \"Parent\". Verás el "
-"material aplicado al muro. En este paso, estás familiarizando o aplicando el "
-"material a la entidad."
+"\"Properties\" y pega el ID padre copiado en el campo \"Parent\". Verás "
+"el material aplicado al muro. En este paso, estás familiarizando o "
+"aplicando el material a la entidad."
 
 #: ../../source/create/entities/material-entity.rst:68
 msgid "Use the materialData Field"
@@ -9054,19 +8973,20 @@ msgid ""
 "following JSON data:"
 msgstr ""
 "Para agregar una entidad material directamente en la aplicación de "
-"herramientas de **Create**: 1. En la Interfaz, abre tu HUD o tableta y ve a "
-"**Create**. 2. Crea una pared. Haz click en el icono \"Cube\" para agregar "
-"una entidad de caja y cambia sus dimensiones para que se parezca a una "
-"pared. 3. Ve a la pestaña **Create** y haz click en el icono \"Material\" "
-"para agregar una entidad de material. 4. Introduce `materialData` cuando se "
-"te solicite una \"URL material\" (URL de material). 5. Haz click y "
-"selecciona la pared. Ve a la pestaña \"Properties\" y copia el ID del padre "
-"debajo del campo \"Name\". 6. Haz click y selecciona la entidad material. Ve "
-"a la pestaña \"Properties\" y pega el ID del padre copiado en el campo "
-"\"Parent\" (Padre). En este paso, estás emparentando/familizarizando o "
-"aplicando un material a una entidad. 7. Desplázate hacia abajo hasta el "
-"campo \"Material Data\" (Datos de material). Haz clic en \"Clear Material "
-"Data\" (Borrar datos de material) y luego pegua los siguientes datos JSON:"
+"herramientas de **Create**: 1. En la Interfaz, abre tu HUD o tableta y ve"
+" a **Create**. 2. Crea una pared. Haz click en el icono \"Cube\" para "
+"agregar una entidad de caja y cambia sus dimensiones para que se parezca "
+"a una pared. 3. Ve a la pestaña **Create** y haz click en el icono "
+"\"Material\" para agregar una entidad de material. 4. Introduce "
+"`materialData` cuando se te solicite una \"URL material\" (URL de "
+"material). 5. Haz click y selecciona la pared. Ve a la pestaña "
+"\"Properties\" y copia el ID del padre debajo del campo \"Name\". 6. Haz "
+"click y selecciona la entidad material. Ve a la pestaña \"Properties\" y "
+"pega el ID del padre copiado en el campo \"Parent\" (Padre). En este "
+"paso, estás emparentando/familizarizando o aplicando un material a una "
+"entidad. 7. Desplázate hacia abajo hasta el campo \"Material Data\" "
+"(Datos de material). Haz clic en \"Clear Material Data\" (Borrar datos de"
+" material) y luego pegua los siguientes datos JSON:"
 
 #: ../../source/create/entities/material-entity.rst:106
 msgid ":doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`"
@@ -9089,12 +9009,12 @@ msgid ""
 "web page on your tablet. You can use this tutorial to do things like "
 "directing your visitors to an external shop for purchasing an item."
 msgstr ""
-"Las entidades se utilizan a menudo para agregar objetos a tu entorno. Sin "
-"embargo, puedes hacer mucho más con esto cuando usas secuencias de comandos "
-"(scripting) para definir su comportamiento. En este tutorial, usaremos una "
-"entidad como un botón para abrir una página web en tu tableta. Puedes usar "
-"este tutorial para hacer cosas como dirigir a tus visitantes a una tienda "
-"externa para comprar un artículo."
+"Las entidades se utilizan a menudo para agregar objetos a tu entorno. Sin"
+" embargo, puedes hacer mucho más con esto cuando usas secuencias de "
+"comandos (scripting) para definir su comportamiento. En este tutorial, "
+"usaremos una entidad como un botón para abrir una página web en tu "
+"tableta. Puedes usar este tutorial para hacer cosas como dirigir a tus "
+"visitantes a una tienda externa para comprar un artículo."
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:25
 msgid "Write a Script to Open a Web Page"
@@ -9108,19 +9028,20 @@ msgid ""
 " an entity/item is triggered. The script looks for the URL in the 'User "
 "data' property of the entity."
 msgstr ""
-"El script utilizado aquí abre una página web en la Tableta o el navegador "
-"web externo cuando un usuario hace click o activa una entidad. En este "
+"El script utilizado aquí abre una página web en la Tableta o el navegador"
+" web externo cuando un usuario hace click o activa una entidad. En este "
 "ejemplo, hemos escrito un script de entidad cliente que abre la "
-"documentación de Vircadia cuando se activa una entidad/elemento. El script "
-"busca la URL en la propiedad \"User Data\" (Datos de usuario) de la entidad."
+"documentación de Vircadia cuando se activa una entidad/elemento. El "
+"script busca la URL en la propiedad \"User Data\" (Datos de usuario) de "
+"la entidad."
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:29
 msgid ""
 "You can get the script `here <https://vircadia-content-"
 "public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
 msgstr ""
-"Puedes conseguir el script `aquí <https://vircadia-content-public.s3."
-"amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
+"Puedes conseguir el script `aquí <https://vircadia-content-"
+"public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:39
 msgid ""
@@ -9140,9 +9061,9 @@ msgid ""
 " `clickToOpenBrowser.js <https://vircadia-content-"
 "public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
 msgstr ""
-"A continuación, ve a la pestaña \"Script\" y pega la URL del script. En este "
-"caso, es `clickToOpenBrowser.js <https://vircadia-content-public.s3.amazonaws"
-".com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
+"A continuación, ve a la pestaña \"Script\" y pega la URL del script. En "
+"este caso, es `clickToOpenBrowser.js <https://vircadia-content-"
+"public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:42
 msgid "Paste the following JSON data into the 'User data' field for your entity:"
@@ -9167,9 +9088,9 @@ msgid ""
 "use these portals to travel to a domain you visit frequently instead of "
 "using the **GoTo** app on your HUD or Tablet."
 msgstr ""
-"Los portales de Vircadia te transportan al dominio de tu elección. Puedes "
-"usar estos portales para viajar a un dominio que visites con frecuencia en "
-"lugar de usar la aplicación **GoTo** en tu HUD o tableta."
+"Los portales de Vircadia te transportan al dominio de tu elección. Puedes"
+" usar estos portales para viajar a un dominio que visites con frecuencia "
+"en lugar de usar la aplicación **GoTo** en tu HUD o tableta."
 
 #: ../../source/create/entities/portal-tutorial.md:12
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:7
@@ -9186,8 +9107,8 @@ msgid ""
 "[Create and Edit an Entity to Use as a Portal](#create-and-edit-an-"
 "entity-to-use-as-a-portal)"
 msgstr ""
-"[Crea y Edita una Entidad para usarla como un Portal](#create-and-edit-an-"
-"entity-to-use-as-a-portal)"
+"[Crea y Edita una Entidad para usarla como un Portal](#create-and-edit-"
+"an-entity-to-use-as-a-portal)"
 
 #: ../../source/create/entities/portal-tutorial.md:25
 #: ../../source/create/entities/portal-tutorial.md:60
@@ -9218,12 +9139,13 @@ msgid ""
 "your own script](../../script/write-scripts) to suit your needs."
 msgstr ""
 "Un portal es una entidad con un script adjunto (script de entidad). Este "
-"script adjunto define lo que sucede cuando un usuario entra en contacto con "
-"el portal. Usamos [portal.js](https://raw.githubusercontent.com/vircadia/"
-"vircadia-content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/"
-"portal.js), el script utilizado para teletransportarse en los dominios de "
-"Vircadia. También puedes [escribir tu propio script](../../script/write-"
-"scripts) para adaptarlo a tus necesidades."
+"script adjunto define lo que sucede cuando un usuario entra en contacto "
+"con el portal. Usamos "
+"[portal.js](https://raw.githubusercontent.com/vircadia/vircadia-"
+"content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js),"
+" el script utilizado para teletransportarse en los dominios de Vircadia. "
+"También puedes [escribir tu propio script](../../script/write-scripts) "
+"para adaptarlo a tus necesidades."
 
 #: ../../source/create/entities/portal-tutorial.md:32
 msgid "The portal.js script we've used:"
@@ -9241,7 +9163,8 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:34
 msgid "Includes a sound that will played every time a user uses the portal."
 msgstr ""
-"Incluye un sonido que se reproducirá cada vez que un usuario use el portal."
+"Incluye un sonido que se reproducirá cada vez que un usuario use el "
+"portal."
 
 #: ../../source/create/entities/portal-tutorial.md:35
 msgid "Teleports a user to the specified destination."
@@ -9257,17 +9180,18 @@ msgid ""
 "](entity-behavior.html#set-entity-behavior-on-collision) so that the "
 "script can detect when you walk into the entity."
 msgstr ""
-"Cualquier entidad que creas para ser utilizada como portal tiene que ser sin "
-"colisiones[collisionless](entity-behavior.html # set-entity-behavior-on-"
-"collision) para que el script pueda detectar cuando ingreses a la entidad."
+"Cualquier entidad que creas para ser utilizada como portal tiene que ser "
+"sin colisiones[collisionless](entity-behavior.html # set-entity-behavior-"
+"on-collision) para que el script pueda detectar cuando ingreses a la "
+"entidad."
 
 #: ../../source/create/entities/portal-tutorial.md:42
 msgid ""
 "[Create an entity](create-entities) to be used as a portal. This can be a"
 " 3D model or a box or sphere entity."
 msgstr ""
-"[Crear una entidad] (create-entities) para usar como portal. Puede ser un "
-"modelo 3D o una entidad de caja o esfera."
+"[Crear una entidad] (create-entities) para usar como portal. Puede ser un"
+" modelo 3D o una entidad de caja o esfera."
 
 #: ../../source/create/entities/portal-tutorial.md:44
 msgid ""
@@ -9275,33 +9199,34 @@ msgid ""
 "'[portal.js](https://raw.githubusercontent.com/vircadia/vircadia-"
 "content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js)'."
 msgstr ""
-"Junto a \"Script\", pega la URL del script. En este caso, es '[portal."
-"js](https://raw.githubusercontent.com/vircadia/vircadia-content/"
-"44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js)'."
+"Junto a \"Script\", pega la URL del script. En este caso, es "
+"'[portal.js](https://raw.githubusercontent.com/vircadia/vircadia-"
+"content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js)'."
 
 #: ../../source/create/entities/portal-tutorial.md:45
 msgid ""
 "The script takes the location you want to teleport to from the 'User "
 "Data' field under 'Behavior'."
 msgstr ""
-"El script toma la ubicación a la que deseas teletransportarte desde el campo "
-"\"User Data\" debajo de \"Behavior\"."
+"El script toma la ubicación a la que deseas teletransportarte desde el "
+"campo \"User Data\" debajo de \"Behavior\"."
 
 #: ../../source/create/entities/portal-tutorial.md:46
 msgid ""
 "Add `hifi:// welcome` (Vircadia's welcome domain) to the 'User Data' "
 "field."
 msgstr ""
-"Añade `hifi:// welcome` (Dominio de bienvenida de Vircadia) al campo \"User "
-"Data\"."
+"Añade `hifi:// welcome` (Dominio de bienvenida de Vircadia) al campo "
+"\"User Data\"."
 
 #: ../../source/create/entities/portal-tutorial.md:47
 msgid ""
 "Scroll down to 'Collision' and uncheck 'Collides'. This is so that a user"
 " can walk into the entity and trigger the script."
 msgstr ""
-"Desplázate hacia abajo hasta \"Collision\" y desmarca \"Collides\" (Choque). "
-"Esto es para que un usuario pueda ingresar a la entidad y activar el script."
+"Desplázate hacia abajo hasta \"Collision\" y desmarca \"Collides\" "
+"(Choque). Esto es para que un usuario pueda ingresar a la entidad y "
+"activar el script."
 
 #: ../../source/create/entities/portal-tutorial.md:48
 msgid "Exit **Create** mode and walk into the entity."
@@ -9327,10 +9252,10 @@ msgid ""
 " users to \"paint\" pictures on a canvas made out of \"pixels\" that are "
 "box entities."
 msgstr ""
-"Hay diferentes formas de crear juegos y experiencias en Vircadia. En este "
-"tutorial, cubriremos cómo hacer un conjunto de pintura similar a un píxel "
-"para permitir a los usuarios \"pintar\" imágenes en un lienzo hecho de "
-"\"píxeles\" que son entidades de caja."
+"Hay diferentes formas de crear juegos y experiencias en Vircadia. En este"
+" tutorial, cubriremos cómo hacer un conjunto de pintura similar a un "
+"píxel para permitir a los usuarios \"pintar\" imágenes en un lienzo hecho"
+" de \"píxeles\" que son entidades de caja."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:8
 msgid "[Create a Painting Set](#create-a-painting-set)"
@@ -9359,8 +9284,8 @@ msgid ""
 "[A palette, made of an octagon and sphere object](#create-a-paint-"
 "palette)."
 msgstr ""
-"[Una paleta, hecha de un octágono y un objeto de esfera.](#create-a-paint-"
-"palette)."
+"[Una paleta, hecha de un octágono y un objeto de esfera.](#create-a"
+"-paint-palette)."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:28
 msgid "[A canvas, made of box entities](#create-a-pixel-canvas)."
@@ -9372,9 +9297,9 @@ msgid ""
 " rest of the content is made by parenting entities to one another to make"
 " our brush, palette, and canvas."
 msgstr ""
-"Toda la lógica de nuestro juego de pintura está contenida en el cabezal del "
-"pincel. El resto del contenido se crea emparentando entidades entre sí para "
-"crear nuestro pincel, paleta y lienzo."
+"Toda la lógica de nuestro juego de pintura está contenida en el cabezal "
+"del pincel. El resto del contenido se crea emparentando entidades entre "
+"sí para crear nuestro pincel, paleta y lienzo."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:32
 msgid "Create a Paint Brush"
@@ -9388,8 +9313,8 @@ msgid ""
 "head using only the handle."
 msgstr ""
 "Empezaremos creando el pincel de pintura. El pincel se compone de dos "
-"partes, el mango y el cabezal del pincel. El mango del pincel es el padre "
-"del cabezal del pincel, por lo que podemos controlar el movimiento y el "
+"partes, el mango y el cabezal del pincel. El mango del pincel es el padre"
+" del cabezal del pincel, por lo que podemos controlar el movimiento y el "
 "color del cabezal del pincel usando solo el mango."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:35
@@ -9401,24 +9326,25 @@ msgid ""
 "[Create an entity](create-entities) to be used as the handle. This can be"
 " a box or sphere entity."
 msgstr ""
-"[Crea una entidad](create-entities) para ser utilizado como mango. Puede ser "
-"una entidad de caja o esfera."
+"[Crea una entidad](create-entities) para ser utilizado como mango. Puede "
+"ser una entidad de caja o esfera."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:38
 msgid ""
 "Go to the 'Properties' tab and select the 'Shape' drop down. Change the "
 "shape of the entity to a 'cylinder'."
 msgstr ""
-"Ve a la pestaña de \"Properties\" y selecciona el menú desplegable \"Shape\" "
-"(Forma). Cambia la forma de la entidad a un \"cylinder\" (Cilindro)."
+"Ve a la pestaña de \"Properties\" y selecciona el menú desplegable "
+"\"Shape\" (Forma). Cambia la forma de la entidad a un \"cylinder\" "
+"(Cilindro)."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:39
 msgid ""
 "Name your entity 'Paint-Paintbrush-Tube' by selecting the text box at the"
 " top of the 'Properties' tab."
 msgstr ""
-"Nombra tu entidad \"Paint-Paintbrush-Tube\" seleccionando el cuadro de texto "
-"en la parte superior de la pestaña \"Properties\"."
+"Nombra tu entidad \"Paint-Paintbrush-Tube\" seleccionando el cuadro de "
+"texto en la parte superior de la pestaña \"Properties\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:40
 msgid "Select your desired handle color from the 'Color' picker."
@@ -9429,8 +9355,8 @@ msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to: {x:"
 " 0.025, y: 0.5, z: 0.025}."
 msgstr ""
-"Desplázate hacia abajo hasta la sección \"Spatial\" (Espacial). Cambia las "
-"dimensiones locales a: {x: 0.025, y: 0.5, z: 0.025}."
+"Desplázate hacia abajo hasta la sección \"Spatial\" (Espacial). Cambia "
+"las dimensiones locales a: {x: 0.025, y: 0.5, z: 0.025}."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:43
 msgid "To create the brush head:"
@@ -9457,16 +9383,16 @@ msgid ""
 "Name your entity 'Paint-Paintbrush-Head' by selecting the text box at the"
 " top of the 'Properties' tab."
 msgstr ""
-"Nombra a tu entidad como \"Paint-Paintbrush-Head\" seleccionando el cuadro "
-"de texto en la parte superior de la pestaña \"Properties\"."
+"Nombra a tu entidad como \"Paint-Paintbrush-Head\" seleccionando el "
+"cuadro de texto en la parte superior de la pestaña \"Properties\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:48
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.05, y: 0.1, z: 0.05}."
 msgstr ""
-"Desplázate hacia abajo hasta la sección \"Spatial\". Cambia las dimensiones "
-"locales a: {x: 0.05, y: 0.1, z: 0.05}."
+"Desplázate hacia abajo hasta la sección \"Spatial\". Cambia las "
+"dimensiones locales a: {x: 0.05, y: 0.1, z: 0.05}."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:50
 msgid "Once you've created the brush head, you can parent the brush handle to it:"
@@ -9479,8 +9405,8 @@ msgid ""
 "In **Create** Tools app, select your brush handle and go to the "
 "'Properties' tab."
 msgstr ""
-"En la aplicación Herramientas de **Crear**, selecciona el mango de tu pincel "
-"y ve a la pestaña \"Properties\"."
+"En la aplicación Herramientas de **Crear**, selecciona el mango de tu "
+"pincel y ve a la pestaña \"Properties\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:53
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:79
@@ -9492,16 +9418,16 @@ msgid ""
 "From the Entity List window, select the brush head and go to the "
 "'Properties' tab."
 msgstr ""
-"Desde la ventana \"Entity List\" (Lista de entidades), selecciona el cabezal "
-"del pincel y ve a la pestaña \"Properties\"."
+"Desde la ventana \"Entity List\" (Lista de entidades), selecciona el "
+"cabezal del pincel y ve a la pestaña \"Properties\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:55
 msgid ""
 "In the 'Parent' text box, paste the entityID of the brush handle "
 "(Paintbrush-Tube) entity."
 msgstr ""
-"En el cuadro de texto \"Parent\" (Padre), pega el entityID de la entidad del "
-"controlador del pincel (Paintbrush-Tube)."
+"En el cuadro de texto \"Parent\" (Padre), pega el entityID de la entidad "
+"del controlador del pincel (Paintbrush-Tube)."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:56
 msgid ""
@@ -11238,7 +11164,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/tools.rst:2
-msgid "This document is slightly outdated. FIXME: mentions supposedly know issues"
+msgid ""
+"This document is outdated and will be revisited in the future. FIXME: "
+"mentions supposedly know issues"
 msgstr ""
 
 #: ../../source/create/tools.rst:9
@@ -11286,25 +11214,17 @@ msgid ""
 "the Create app. In Desktop mode, the Entity List is its own window."
 msgstr ""
 
-#: ../../source/create/tools.rst:25
-msgid ""
-"We have received reports that Interface may crash when using a laptop and"
-" external monitor with the Create app. If you experience the crash, we "
-"recommend that you either a) disable the Nahimic service on your laptop "
-"or b) always use the Create Tools on your primary monitor."
-msgstr ""
-
-#: ../../source/create/tools.rst:29
+#: ../../source/create/tools.rst:27
 msgid "Entity List"
 msgstr ""
 
-#: ../../source/create/tools.rst:31
+#: ../../source/create/tools.rst:29
 msgid ""
 "The Entity List shows you all entities in the local domain. You can "
 "filter by entity type and by distance from the current location."
 msgstr ""
 
-#: ../../source/create/tools.rst:33
+#: ../../source/create/tools.rst:31
 msgid ""
 "At the top of the Entity List, you can switch between 'Local' and 'World'"
 " view. When set to 'Local', the position, size, and rotation settings for"
@@ -11312,83 +11232,65 @@ msgid ""
 " these settings are set in reference to the world's default position."
 msgstr ""
 
-#: ../../source/create/tools.rst:35
+#: ../../source/create/tools.rst:33
 msgid "When you select an entity in the Entity List, you can:"
 msgstr ""
 
-#: ../../source/create/tools.rst:37
+#: ../../source/create/tools.rst:35
 msgid ""
 "Find an entity: You can double-click an entity on the list to view it in "
 "your domain. You will see the entity with a bounding box and arrows "
 "around it."
 msgstr ""
 
-#: ../../source/create/tools.rst:38
+#: ../../source/create/tools.rst:36
 msgid ""
 "Lock an entity: A locked entity cannot be edited. Select an entity and "
 "click the lock icon on the top of the window."
 msgstr ""
 
-#: ../../source/create/tools.rst:39
+#: ../../source/create/tools.rst:37
 msgid ""
 "Change visibility: You can hide or make an entity visible. Select an "
 "entity and click the eye icon on the top of the window."
 msgstr ""
 
-#: ../../source/create/tools.rst:40
+#: ../../source/create/tools.rst:38
 msgid "Name an entity: Name an entity when you select it on the list."
 msgstr ""
 
-#: ../../source/create/tools.rst:41
+#: ../../source/create/tools.rst:39
 msgid ""
 "Delete an entity: Delete an entity by clicking on the red bin icon on the"
 " top-right corner of the window."
 msgstr ""
 
-#: ../../source/create/tools.rst:45
+#: ../../source/create/tools.rst:43
 msgid "External Creator Tools"
 msgstr ""
 
-#: ../../source/create/tools.rst:47
+#: ../../source/create/tools.rst:45
 msgid ""
 "We've listed some external tools you might want to use to create avatars "
 "and 3D models."
 msgstr ""
 
-#: ../../source/create/tools.rst:51
-msgid "Adobe Fuse"
-msgstr ""
-
-#: ../../source/create/tools.rst:53
-msgid ""
-"There are community reports where users are unable to easily open Adobe "
-"Fuse once installed. To work around this issue, open it multiple times "
-"successively until you are able to open the application."
-msgstr ""
-
-#: ../../source/create/tools.rst:55
-msgid ""
-"Use `Adobe Fuse <https://www.adobe.com/in/products/fuse.html>`_ to create"
-" a custom avatar. The default heads, torsos, arms, and legs in Adobe Fuse"
-" can help you start your customization."
-msgstr ""
-
-#: ../../source/create/tools.rst:59
+#: ../../source/create/tools.rst:49
 msgid "Mixamo"
 msgstr ""
 
-#: ../../source/create/tools.rst:61
+#: ../../source/create/tools.rst:51
 msgid ""
 "`Mixamo <https://www.mixamo.com>`_ is a rigging system that will rig your"
 " avatar's skeleton for you. You do not need any advanced knowledge of "
 "rigging to create simple animations for your avatar."
 msgstr ""
 
-#: ../../source/create/tools.rst:65
+#: ../../source/create/tools.rst:55
 msgid "Blender"
 msgstr ""
 
-#: ../../source/create/tools.rst:67
+#: ../../source/create/tools.rst:57
 msgid ""
 "`Blender <https://www.blender.org>`_ is an open-source 3D modeling "
 "creation suite which supports everything from modeling and rigging, to "
@@ -11397,22 +11299,22 @@ msgid ""
 "Vircadia."
 msgstr ""
 
-#: ../../source/create/tools.rst:71
+#: ../../source/create/tools.rst:61
 msgid "Maya"
 msgstr ""
 
-#: ../../source/create/tools.rst:73
+#: ../../source/create/tools.rst:63
 msgid ""
 "`Maya <https://www.autodesk.in/products/maya/overview>`_ is a "
 "subscription based 3D modeling toolset that you can use to create 3D "
 "models to import into Vircadia."
 msgstr ""
 
-#: ../../source/create/tools.rst:77
+#: ../../source/create/tools.rst:67
 msgid "Blocks"
 msgstr ""
 
-#: ../../source/create/tools.rst:79
+#: ../../source/create/tools.rst:69
 msgid ""
 "`Blocks <https://vr.google.com/blocks>`_ is a 3D modeling tool you can "
 "use in VR. Blocks lets you create models easily regardless of your "
@@ -11421,23 +11323,19 @@ msgid ""
 " it for the VR equipment you are using."
 msgstr ""
 
-#: ../../source/create/tools.rst:83
+#: ../../source/create/tools.rst:73
 msgid ":doc:`Entities <entities>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:84
+#: ../../source/create/tools.rst:74
 msgid ":doc:`Create New Entities <entities/create-entities>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:85
-msgid ":doc:`Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>`"
-msgstr ""
-
-#: ../../source/create/tools.rst:86
+#: ../../source/create/tools.rst:75
 msgid ":doc:`Tutorial: Rig Your Avatar in Mixamo <avatars/mixamo-tutorial>`"
 msgstr ""
 
-#: ../../source/create/tools.rst:87
+#: ../../source/create/tools.rst:76
 msgid ""
 ":doc:`Tutorial: Modify Materials and Textures Using Blender <avatars"
 "/blender-tutorial>`"
@@ -12856,3 +12754,156 @@ msgstr ""
 #~ "on](../explore/personalize/add-wearables) and adopt"
 #~ " your new look."
 #~ msgstr ""
+
+#~ msgid "Tutorial: Create an Avatar with Fuse"
+#~ msgstr "Tutorial: Crea un Avatar con Fuse"
+
+#~ msgid "[Tutorial: Create an Avatar with Fuse](fuse-tutorial)"
+#~ msgstr "[Tutorial: Crear un Avatar con Fuse](fuse-tutorial)"
+
+#~ msgid ""
+#~ "Check out this YouTube playlist for "
+#~ "one way to create and customize "
+#~ "your own avatar. Here, we use "
+#~ "Adobe Fuse to create our avatar, "
+#~ "Mixamo to rig our avatar automatically,"
+#~ " and Blender to adjust the rendering"
+#~ " on our avatar. We also have "
+#~ "written instructions on the same "
+#~ "process:"
+#~ msgstr ""
+#~ "Echa un vistazo a esta lista de"
+#~ " reproducción de YouTube para conocer "
+#~ "una forma de crear y personalizar "
+#~ "tu propio avatar. Aquí, usamos Adobe "
+#~ "Fuse para crear nuestro avatar, Mixamo"
+#~ " para construir nuestro avatar "
+#~ "automáticamente y Blender para ajustar "
+#~ "el renderizado de nuestro avatar. "
+#~ "También tenemos instrucciones escritas sobre"
+#~ " el mismo proceso:"
+
+#~ msgid ":doc:`Create an Avatar with Fuse <fuse-tutorial>`"
+#~ msgstr ":doc:`Crea un Avatar con Fuse <fuse-tutorial>`"
+
+#~ msgid ""
+#~ "Using Adobe Fuse, you can create a"
+#~ " custom avatar. The default heads, "
+#~ "torsos, arms and legs in Adobe "
+#~ "Fuse can help you start your "
+#~ "customization."
+#~ msgstr ""
+#~ "Utilizando Adobe Fuse, puedes crear un"
+#~ " avatar personalizado. Las cabezas, torsos,"
+#~ " brazos y piernas predeterminados en "
+#~ "Adobe Fuse pueden ayudarte a comenzar"
+#~ " tu personalización."
+
+#~ msgid "Launch Adobe Fuse."
+#~ msgstr "Inicia Adobe Fuse."
+
+#~ msgid "Pick your default body parts. ![](_images/fuse-assemble.png)"
+#~ msgstr ""
+#~ "Elije las partes predeterminadas de tu"
+#~ " cuerpo. ![](_images/fuse-assemble.png)"
+
+#~ msgid ""
+#~ "Click 'Customize'. Here, you can "
+#~ "customize the avatar. For example, you"
+#~ " can customize how the eyebrows are"
+#~ " shaped, facial expressions, how long "
+#~ "the fingers are and much more. "
+#~ "![](_images/fuse-customize.png)"
+#~ msgstr ""
+#~ "Haz click en \"Customize\". Aquí, puedes"
+#~ " personalizar el avatar. Por ejemplo, "
+#~ "puedes personalizar la forma de las "
+#~ "cejas, las expresiones faciales, la "
+#~ "longitud de los dedos y mucho más."
+#~ " ![](_images/fuse-customize.png)"
+
+#~ msgid ""
+#~ "Click 'Clothing'. Here, you can choose"
+#~ " the clothing you'd like. In "
+#~ "addition, you can set hair and "
+#~ "facial hair options. In the next "
+#~ "step, you will be able to modify"
+#~ " the materials, colors, and textures "
+#~ "of each clothing item you "
+#~ "choose.![](_images/fuse-clothing.png)"
+#~ msgstr ""
+#~ "Haz click en \"Clothing\". Aquí, puedes"
+#~ " elegir la ropa que te guste. "
+#~ "Además, puedes configurar las opciones "
+#~ "de vello facial y de cabello. En"
+#~ " el siguiente paso, podrás modificar "
+#~ "los materiales, colores y texturas de"
+#~ " cada prenda que elijas.![](_images/fuse-"
+#~ "clothing.png)"
+
+#~ msgid ""
+#~ "Click 'Texture'. Here, you can modify"
+#~ " your clothing choices with custom "
+#~ "materials and colors. ![](_images/fuse-"
+#~ "texture.png)"
+#~ msgstr ""
+#~ "Haz click en \"Texture\". Aquí, puedes"
+#~ " modificar tus opciones de ropa con"
+#~ " materiales y colores personalizados. "
+#~ "![](_images/fuse-texture.png)"
+
+#~ msgid "Save your avatar."
+#~ msgstr "Guarda tu avatar."
+
+#~ msgid ""
+#~ "In this tutorial, we will use the"
+#~ " avatar that we [created in Adobe "
+#~ "Fuse](fuse-tutorial)."
+#~ msgstr ""
+#~ "En este tutorial, usaremos el avatar "
+#~ "que [creamos en Adobe Fuse](fuse-"
+#~ "tutorial)."
+
+#~ msgid "Open your avatar in Adobe Fuse."
+#~ msgstr "Abre tu avatar en Adobe Fuse."
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: mentions supposedly know issues"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We have received reports that Interface"
+#~ " may crash when using a laptop "
+#~ "and external monitor with the Create "
+#~ "app. If you experience the crash, "
+#~ "we recommend that you either a) "
+#~ "disable the Nahimic service on your "
+#~ "laptop or b) always use the Create"
+#~ " Tools on your primary monitor."
+#~ msgstr ""
+
+#~ msgid "Adobe Fuse"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are community reports where users"
+#~ " are unable to easily open Adobe "
+#~ "Fuse once installed. To work around "
+#~ "this issue, open it multiple times "
+#~ "successively until you are able to "
+#~ "open the application."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use `Adobe Fuse "
+#~ "<https://www.adobe.com/in/products/fuse.html>`_ to create"
+#~ " a custom avatar. The default heads,"
+#~ " torsos, arms, and legs in Adobe "
+#~ "Fuse can help you start your "
+#~ "customization."
+#~ msgstr ""
+
+#~ msgid ":doc:`Tutorial: Create an Avatar with Fuse <avatars/fuse-tutorial>`"
+#~ msgstr ""
+
