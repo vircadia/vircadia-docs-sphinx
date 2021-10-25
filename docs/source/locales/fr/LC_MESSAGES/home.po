@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-13 15:03+0000\n"
+"POT-Creation-Date: 2021-10-25 04:52+0000\n"
 "PO-Revision-Date: 2021-05-24 06:48+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language: fr\n"
@@ -45,8 +45,8 @@ msgid "CONTRIBUTE"
 msgstr "CONTRIBUER"
 
 #: ../../source/home.rst:75
-msgid "DEVELOPER"
-msgstr "DÉVELOPPEUR"
+msgid "DEVELOP"
+msgstr ""
 
 #: ../../source/home.rst:75
 msgid "SECURITY"
@@ -191,12 +191,8 @@ msgstr ""
 " divertir et connecter avec votre public."
 
 #: ../../source/home.rst:70
-msgid ""
-":doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source "
-"code in the repository."
+msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ""
-":doc:`CONTRIBUER <contribute>` à notre effort en parcourant notre code "
-"source dans le référentiel."
 
 #: ../../source/home.rst:71
 msgid ""
@@ -228,4 +224,16 @@ msgstr ""
 #~ " host live VR events, and much "
 #~ "more."
 #~ msgstr ""
+
+#~ msgid "DEVELOPER"
+#~ msgstr "DÉVELOPPEUR"
+
+#~ msgid ""
+#~ ":doc:`CONTRIBUTE <contribute>` to our endeavor"
+#~ " by browsing our source code in "
+#~ "the repository."
+#~ msgstr ""
+#~ ":doc:`CONTRIBUER <contribute>` à notre effort"
+#~ " en parcourant notre code source dans"
+#~ " le référentiel."
 

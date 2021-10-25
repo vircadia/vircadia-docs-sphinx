@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-06-13 15:03+0000\n"
+"POT-Creation-Date: 2021-10-25 04:52+0000\n"
 "PO-Revision-Date: 2021-10-01 20:29+0000\n"
 "Last-Translator: jose manuel <elmanytas@gmail.com>\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/home/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/home/es/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/home.rst:75
@@ -46,8 +45,8 @@ msgid "CONTRIBUTE"
 msgstr "CONTRIBUIR"
 
 #: ../../source/home.rst:75
-msgid "DEVELOPER"
-msgstr "DESARROLLAR"
+msgid "DEVELOP"
+msgstr ""
 
 #: ../../source/home.rst:75
 msgid "SECURITY"
@@ -118,8 +117,7 @@ msgstr ""
 
 #: ../../source/home.rst:35
 msgid "This documentation is authored in `English <https://docs.vircadia.com/>`_."
-msgstr ""
-"Esta documentación está escrita en `Inglés <https://docs.vircadia.com/>`_."
+msgstr "Esta documentación está escrita en `Inglés <https://docs.vircadia.com/>`_."
 
 #: ../../source/home.rst:37
 msgid "The following translations are available:"
@@ -188,12 +186,8 @@ msgstr ""
 "entretener y conectar con tu audiencia."
 
 #: ../../source/home.rst:70
-msgid ""
-":doc:`CONTRIBUTE <contribute>` to our endeavor by browsing our source "
-"code in the repository."
+msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ""
-":doc:`CONTRIBUYE <contribute>` a nuestro esfuerzo navegando por nuestro "
-"código fuente en el repositorio."
 
 #: ../../source/home.rst:71
 msgid ""
@@ -210,3 +204,16 @@ msgid ""
 msgstr ""
 ":doc:`SEGURIDAD <security>` información sobre el proyecto y sus "
 "componentes."
+
+#~ msgid "DEVELOPER"
+#~ msgstr "DESARROLLAR"
+
+#~ msgid ""
+#~ ":doc:`CONTRIBUTE <contribute>` to our endeavor"
+#~ " by browsing our source code in "
+#~ "the repository."
+#~ msgstr ""
+#~ ":doc:`CONTRIBUYE <contribute>` a nuestro "
+#~ "esfuerzo navegando por nuestro código "
+#~ "fuente en el repositorio."
+
