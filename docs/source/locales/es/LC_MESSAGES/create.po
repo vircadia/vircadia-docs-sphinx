@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2021-10-18 01:47+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-10-25 04:52+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -577,6 +577,10 @@ msgid ""
 "\"simplify\" setting to 0.00 when exporting an FBX file otherwise the "
 "animation may not play correctly."
 msgstr ""
+"Desactiva cualquier tipo de reducción de fotogramas clave. Por ejemplo, en "
+"Blender, establece la configuración \"simplify\" (simplificar) en 0.00 al "
+"exportar un archivo FBX; de lo contrario, es posible que la animación no se "
+"reproduzca correctamente."
 
 #: ../../source/create/3d-models/import-animations.rst:29
 msgid ""
@@ -2685,20 +2689,20 @@ msgid "Here is an example of modifying your blendshapes in your FST file:"
 msgstr "Aquí hay un ejemplo de cómo modificar tus blendshapes en tu archivo FST:"
 
 #: ../../source/create/avatars/avatar-standards.md:167
-#, fuzzy
 msgid "**ReadyPlayerMe Blendshapes**"
-msgstr "**Blendshapes Básicos**"
+msgstr "**Blendshapes de ReadyPlayerMe**"
 
 #: ../../source/create/avatars/avatar-standards.md:169
 msgid ""
 "ReadyPlayerMe blendshapes are converted into Vircadia blendshapes "
 "automatically."
 msgstr ""
+"Los blendshapes de ReadyPlayerMe se convierten automáticamente en "
+"blendshapes de Vircadia."
 
 #: ../../source/create/avatars/avatar-standards.md:171
-#, fuzzy
 msgid "**Unsupported Blendshapes**"
-msgstr "**Blendshapes de Audio**"
+msgstr "**Blendshapes no Soportados**"
 
 #: ../../source/create/avatars/avatar-standards.md:173
 msgid ""
@@ -2706,285 +2710,274 @@ msgid ""
 "blendshapes below. Alternatively, an .fst file can be used to remap the "
 "blendshapes to any of the ones below."
 msgstr ""
+"Para utilizar los blendshapes (interpolación de formas o malla deformada) "
+"presentes en los avatares, deben coincidir con los blenshapes de a "
+"continuación. Alternativamente, se puede usar un archivo .fst para reasignar "
+"los blendshapes a cualquiera de los siguientes."
 
 #: ../../source/create/avatars/avatar-standards.md:175
-#, fuzzy
 msgid "**Eye Blendshapes**"
-msgstr "**Blendshapes Básicos**"
+msgstr "**Blendshapes de Ojo**"
 
 #: ../../source/create/avatars/avatar-standards.md:177
 msgid "EyeBlink_L"
-msgstr ""
+msgstr "EyeBlink_L"
 
 #: ../../source/create/avatars/avatar-standards.md:178
 msgid "EyeBlink_R"
-msgstr ""
+msgstr "EyeBlink_R"
 
 #: ../../source/create/avatars/avatar-standards.md:179
 msgid "EyeSquint_L"
-msgstr ""
+msgstr "EyeSquint_L"
 
 #: ../../source/create/avatars/avatar-standards.md:180
 msgid "EyeSquint_R"
-msgstr ""
+msgstr "EyeSquint_R"
 
 #: ../../source/create/avatars/avatar-standards.md:181
 msgid "EyeDown_L"
-msgstr ""
+msgstr "EyeDown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:182
 msgid "EyeDown_R"
-msgstr ""
+msgstr "EyeDown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:183
 msgid "EyeIn_L"
-msgstr ""
+msgstr "EyeIn_L"
 
 #: ../../source/create/avatars/avatar-standards.md:184
 msgid "EyeIn_R"
-msgstr ""
+msgstr "EyeIn_R"
 
 #: ../../source/create/avatars/avatar-standards.md:185
 msgid "EyeOpen_L"
-msgstr ""
+msgstr "EyeOpen_L"
 
 #: ../../source/create/avatars/avatar-standards.md:186
 msgid "EyeOpen_R"
-msgstr ""
+msgstr "EyeOpen_R"
 
 #: ../../source/create/avatars/avatar-standards.md:187
 msgid "EyeOut_L"
-msgstr ""
+msgstr "EyeOut_L"
 
 #: ../../source/create/avatars/avatar-standards.md:188
 msgid "EyeOut_R"
-msgstr ""
+msgstr "EyeOut_R"
 
 #: ../../source/create/avatars/avatar-standards.md:189
 msgid "EyeUp_L"
-msgstr ""
+msgstr "EyeUp_L"
 
 #: ../../source/create/avatars/avatar-standards.md:190
 msgid "EyeUp_R"
-msgstr ""
+msgstr "EyeUp_R"
 
 #: ../../source/create/avatars/avatar-standards.md:191
 msgid "BrowsD_L"
-msgstr ""
+msgstr "BrowsD_L"
 
 #: ../../source/create/avatars/avatar-standards.md:192
 msgid "BrowsD_R"
-msgstr ""
+msgstr "BrowsD_R"
 
 #: ../../source/create/avatars/avatar-standards.md:193
 msgid "BrowsU_C"
-msgstr ""
+msgstr "BrowsU_C"
 
 #: ../../source/create/avatars/avatar-standards.md:194
 msgid "BrowsU_L"
-msgstr ""
+msgstr "BrowsU_L"
 
 #: ../../source/create/avatars/avatar-standards.md:195
 msgid "BrowsU_R"
-msgstr ""
+msgstr "BrowsU_R"
 
 #: ../../source/create/avatars/avatar-standards.md:197
-#, fuzzy
 msgid "**Jaw Blendshapes**"
-msgstr "**Blendshapes Básicos**"
+msgstr "**Blendshapes de Mandíbula**"
 
 #: ../../source/create/avatars/avatar-standards.md:199
 msgid "JawFwd"
-msgstr ""
+msgstr "JawFwd"
 
 #: ../../source/create/avatars/avatar-standards.md:200
 msgid "JawLeft"
-msgstr ""
+msgstr "JawLeft"
 
 #: ../../source/create/avatars/avatar-standards.md:201
 msgid "JawOpen"
-msgstr ""
+msgstr "JawOpen"
 
 #: ../../source/create/avatars/avatar-standards.md:202
-#, fuzzy
 msgid "JawRight"
-msgstr "Light"
+msgstr "JawRight"
 
 #: ../../source/create/avatars/avatar-standards.md:203
 msgid "MouthLeft"
-msgstr ""
+msgstr "MouthLeft"
 
 #: ../../source/create/avatars/avatar-standards.md:204
-#, fuzzy
 msgid "MouthRight"
-msgstr "turnRight"
+msgstr "MouthRight"
 
 #: ../../source/create/avatars/avatar-standards.md:205
 msgid "MouthFrown_L"
-msgstr ""
+msgstr "MouthFrown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:206
 msgid "MouthFrown_R"
-msgstr ""
+msgstr "MouthFrown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:207
 msgid "MouthSmile_L"
-msgstr ""
+msgstr "MouthSmile_L"
 
 #: ../../source/create/avatars/avatar-standards.md:208
 msgid "MouthSmile_R"
-msgstr ""
+msgstr "MouthSmile_R"
 
 #: ../../source/create/avatars/avatar-standards.md:209
 msgid "MouthDimple_L"
-msgstr ""
+msgstr "MouthDimple_L"
 
 #: ../../source/create/avatars/avatar-standards.md:210
 msgid "MouthDimple_R"
-msgstr ""
+msgstr "MouthDimple_R"
 
 #: ../../source/create/avatars/avatar-standards.md:212
-#, fuzzy
 msgid "**Lip Blendshapes**"
-msgstr "**Blendshapes Básicos**"
+msgstr "**Blendshapes de Labios**"
 
 #: ../../source/create/avatars/avatar-standards.md:214
 msgid "LipsStretch_L"
-msgstr ""
+msgstr "LipsStretch_L"
 
 #: ../../source/create/avatars/avatar-standards.md:215
 msgid "LipsStretch_R"
-msgstr ""
+msgstr "LipsStretch_R"
 
 #: ../../source/create/avatars/avatar-standards.md:216
 msgid "LipsUpperClose"
-msgstr ""
+msgstr "LipsUpperClose"
 
 #: ../../source/create/avatars/avatar-standards.md:217
 msgid "LipsLowerClose"
-msgstr ""
+msgstr "LipsLowerClose"
 
 #: ../../source/create/avatars/avatar-standards.md:218
 msgid "LipsFunnel"
-msgstr ""
+msgstr "LipsFunnel"
 
 #: ../../source/create/avatars/avatar-standards.md:219
 msgid "LipsPucker"
-msgstr ""
+msgstr "LipsPucker"
 
 #: ../../source/create/avatars/avatar-standards.md:220
 msgid "Puff"
-msgstr ""
+msgstr "Puff"
 
 #: ../../source/create/avatars/avatar-standards.md:222
 msgid "**Mouth, Cheek and User Blendshapes**"
-msgstr ""
+msgstr "**Blendshapes de Boca, Mejilla y de Usuario**"
 
 #: ../../source/create/avatars/avatar-standards.md:224
 msgid "CheekSquint_L"
-msgstr ""
+msgstr "CheekSquint_L"
 
 #: ../../source/create/avatars/avatar-standards.md:225
 msgid "CheekSquint_R"
-msgstr ""
+msgstr "CheekSquint_R"
 
 #: ../../source/create/avatars/avatar-standards.md:227
 msgid "MouthClose"
-msgstr ""
+msgstr "MouthClose"
 
 #: ../../source/create/avatars/avatar-standards.md:228
 msgid "MouthUpperUp_L"
-msgstr ""
+msgstr "MouthUpperUp_L"
 
 #: ../../source/create/avatars/avatar-standards.md:229
 msgid "MouthUpperUp_R"
-msgstr ""
+msgstr "MouthUpperUp_R"
 
 #: ../../source/create/avatars/avatar-standards.md:230
 msgid "MouthLowerDown_L"
-msgstr ""
+msgstr "MouthLowerDown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:231
 msgid "MouthLowerDown_R"
-msgstr ""
+msgstr "MouthLowerDown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:232
 msgid "MouthPress_L"
-msgstr ""
+msgstr "MouthPress_L"
 
 #: ../../source/create/avatars/avatar-standards.md:233
 msgid "MouthPress_R"
-msgstr ""
+msgstr "MouthPress_R"
 
 #: ../../source/create/avatars/avatar-standards.md:234
 msgid "MouthShrugLower"
-msgstr ""
+msgstr "MouthShrugLower"
 
 #: ../../source/create/avatars/avatar-standards.md:235
 msgid "MouthShrugUpper"
-msgstr ""
+msgstr "MouthShrugUpper"
 
 #: ../../source/create/avatars/avatar-standards.md:236
 msgid "NoseSneer_L"
-msgstr ""
+msgstr "NoseSneer_L"
 
 #: ../../source/create/avatars/avatar-standards.md:237
 msgid "NoseSneer_R"
-msgstr ""
+msgstr "NoseSneer_R"
 
 #: ../../source/create/avatars/avatar-standards.md:238
 msgid "TongueOut"
-msgstr ""
+msgstr "TongueOut"
 
 #: ../../source/create/avatars/avatar-standards.md:240
-#, fuzzy
 msgid "UserBlendshape0"
-msgstr "Blendshapes (Interpolación de Formas)"
+msgstr "UserBlendshape0"
 
 #: ../../source/create/avatars/avatar-standards.md:241
-#, fuzzy
 msgid "UserBlendshape1"
-msgstr "Blendshapes (Interpolación de Formas)"
+msgstr "UserBlendshape1"
 
 #: ../../source/create/avatars/avatar-standards.md:242
-#, fuzzy
 msgid "UserBlendshape2"
-msgstr "Blendshapes (Interpolación de Formas)"
+msgstr "UserBlendshape2"
 
 #: ../../source/create/avatars/avatar-standards.md:243
-#, fuzzy
 msgid "UserBlendshape3"
-msgstr "Blendshapes (Interpolación de Formas)"
+msgstr "UserBlendshape3"
 
 #: ../../source/create/avatars/avatar-standards.md:244
-#, fuzzy
 msgid "UserBlendshape4"
-msgstr "Blendshapes (Interpolación de Formas)"
+msgstr "UserBlendshape4"
 
 #: ../../source/create/avatars/avatar-standards.md:245
-#, fuzzy
 msgid "UserBlendshape5"
-msgstr "Blendshapes (Interpolación de Formas)"
+msgstr "UserBlendshape5"
 
 #: ../../source/create/avatars/avatar-standards.md:246
-#, fuzzy
 msgid "UserBlendshape6"
-msgstr "Blendshapes (Interpolación de Formas)"
+msgstr "UserBlendshape6"
 
 #: ../../source/create/avatars/avatar-standards.md:247
-#, fuzzy
 msgid "UserBlendshape7"
-msgstr "Blendshapes (Interpolación de Formas)"
+msgstr "UserBlendshape7"
 
 #: ../../source/create/avatars/avatar-standards.md:248
-#, fuzzy
 msgid "UserBlendshape8"
-msgstr "Blendshapes (Interpolación de Formas)"
+msgstr "UserBlendshape8"
 
 #: ../../source/create/avatars/avatar-standards.md:249
-#, fuzzy
 msgid "UserBlendshape9"
-msgstr "Blendshapes (Interpolación de Formas)"
+msgstr "UserBlendshape9"
 
 #: ../../source/create/avatars/avatar-standards.md:252
 msgid "Other Considerations"
@@ -3111,17 +3104,16 @@ msgstr ""
 "texturas se renderizen correctamente en Vircadia."
 
 #: ../../source/create/avatars/blender-tutorial.md:10
-#, fuzzy
 msgid ""
 "In this tutorial, we will walk you through simple modifications you can "
 "make to your avatar using Blender. You will need to import an FBX file "
 "for your avatar. If you don't have one, see our tutorial for [Mixamo"
 "](mixamo-tutorial)."
 msgstr ""
-"En este tutorial, te guiaremos a través de modificaciones simples que "
-"puedes realizar a tu avatar usando Blender. Deberás importar un archivo "
-"FBX para tu avatar. Si no tienes uno, consulta nuestros tutoriales para "
-"[Fuse](fuse-tutorial) y [Mixamo](mixamo-tutorial)."
+"En este tutorial, te guiaremos a través de modificaciones simples que puedes "
+"realizar a tu avatar usando Blender. Necesitarás importar un archivo FBX "
+"para tu avatar. Si no tienes uno, mira nuestro tutorial para [Mixamo](mixamo-"
+"tutorial)."
 
 #: ../../source/create/avatars/blender-tutorial.md:12
 msgid "In Blender, go to **File > Import > FBX (.fbx)**."
@@ -3328,29 +3320,27 @@ msgid "[Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)"
 msgstr "[Tutorial: Arma tu Avatar en Mixamo](mixamo-tutorial)"
 
 #: ../../source/create/avatars/create-avatars.rst:2
-#, fuzzy
 msgid ""
 "This document is outdated and will be revisited in the future. FIXME: "
 "Mentions services like VRoid Studio even though their skeletons have "
 "never been supported (the Unity avatar exporter will not be able to fix "
 "that)"
 msgstr ""
-"Este documento está desactualizado. FIXME: menciona servicios como VRoid "
-"Studio a pesar de que sus esqueletos nunca han sido compatibles (el "
-"exportador de avatares de Unity no podrá arreglar eso)"
+"Este documento está desactualizado y será revisado en el futuro. FIXME: "
+"Menciona servicios como VRoid Studio a pesar de que sus esqueletos nunca han "
+"sido compatibles (el exportador de avatares de Unity no podrá arreglar eso)"
 
 #: ../../source/create/avatars/create-avatars.rst:9
 msgid "There are three ways to get your own avatar. You can either:"
 msgstr "Hay tres maneras de conseguir tu propio avatar. Puedes:"
 
 #: ../../source/create/avatars/create-avatars.rst:11
-#, fuzzy
 msgid ""
 "Create your avatar from scratch using 3D modeling tools such as Mixamo "
 "and Blender"
 msgstr ""
-"Crea tu avatar desde cero usando herramientas de modelado 3D como Adobe "
-"Fuse, Mixamo y Blender"
+"Crea tu avatar desde cero usando herramientas de modelado 3D como Mixamo y "
+"Blender"
 
 #: ../../source/create/avatars/create-avatars.rst:12
 msgid "Use MakeHuman or VRoid Studio to create a human or anime avatar"
@@ -3401,11 +3391,10 @@ msgid "The steps involved in creating your avatar are:"
 msgstr "Los pasos involucrados en la creación de tu avatar son:"
 
 #: ../../source/create/avatars/create-avatars.rst:36
-#, fuzzy
 msgid "Create an avatar with 3D character modeling tool such as Blender or Maya."
 msgstr ""
 "Crea un avatar con una herramienta de modelado de personajes en 3D como "
-"Adobe Fuse, Blender o Maya."
+"Blender o Maya."
 
 #: ../../source/create/avatars/create-avatars.rst:37
 msgid "Rig and animate your avatar with an animation tool such as Mixamo."
@@ -5063,7 +5052,7 @@ msgstr ""
 
 #: ../../source/create/avatars/mixamo-tutorial.md:10
 msgid "In this tutorial, we will use an avatar"
-msgstr ""
+msgstr "En este tutorial usaremos un avatar"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:12
 msgid "Go to **File > Animate with Mixamo**."
@@ -9450,7 +9439,7 @@ msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:60
 msgid "Create a Paint Palette"
-msgstr ""
+msgstr "Crear una Paleta de Pintura"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:61
 msgid ""
