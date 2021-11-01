@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2021-10-25 04:52+0000\n"
+"PO-Revision-Date: 2021-11-01 15:52+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -9448,100 +9448,131 @@ msgid ""
 "Once you have the base of the palette created, you can repeat the process"
 " of adding paints until you are satisfied with the end result."
 msgstr ""
+"La segunda parte de nuestro set de pinturas es la paleta. Aquí es donde "
+"puedes ser creativo y agregar tantos (o tan pocos) colores de pintura como "
+"desees. Una vez que hayas creado la base de la paleta, puedes repetir el "
+"proceso de agregar pinturas hasta que estés satisfecho con el resultado "
+"final."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:63
 msgid "To create the palette base:"
-msgstr ""
+msgstr "Para crear la base de la paleta:"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:65
 msgid ""
 "[Create an entity](create-entities) to be used as the palette base. This "
 "can be a box or sphere entity."
 msgstr ""
+"[Crear una entidad](create-entities) para ser utilizada como base de la "
+"paleta. Puede ser una entidad de caja o esfera."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:66
 msgid ""
 "Go to the 'Properties' tab and select the 'Shape' drop down. Change the "
 "shape to an 'octagon'."
 msgstr ""
+"Ve a la pestaña \"Properties\" y selecciona el menú desplegable \"Shape\". "
+"Cambia la selección \"Shape\" a \"Octagon\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:67
 msgid ""
 "Name your entity 'Paint-Palette-Base' by selecting the text box at the "
 "top of the 'Properties' tab."
 msgstr ""
+"Nombra a tu entidad como \"'Paint-Palette-Base\" seleccionando el campo de "
+"texto en la parte superior de la pestaña \"Properties\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:68
 msgid "Select your desired palette color from the 'Color' picker."
-msgstr ""
+msgstr "Selecciona el color de la paleta que deseas en el selector \"Color\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:69
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.55, y: 0.5, z: 0.55}."
 msgstr ""
+"Desplázate hacia abajo hasta la sección \"Spatial\". Cambia las dimensiones "
+"locales a {x: 0.55, y: 0.5, z: 0.55}."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:70
 msgid "Scroll down to the 'Behavior' section.  Check 'Grabbable'."
 msgstr ""
+"Desplázate hacia abajo hasta la seccón \"Behavior\". Marca el campo "
+"\"Grabbable\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:72
 msgid "To create the paint colors:"
-msgstr ""
+msgstr "Para crear los colores de pintura:"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:74
 msgid ""
 "[Create a sphere entity](create-entities) to be used as your first paint "
 "color."
 msgstr ""
+"[Crear una entidad de esfera](create-entities) para ser utilizada como tu "
+"primer color de pintura."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:75
 msgid ""
 "Go to the 'Properties' tab and name your entity 'Paint-Color' by "
 "selecting the text box at the top of the tab."
 msgstr ""
+"Ve a la pestaña \"Properties\" y nombra a tu entidad como \"Paint-Color\" "
+"seleccionando el campo de texto en la parte superior de la pestaña."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:76
 msgid "Select your desired paint color from the 'Color' picker."
-msgstr ""
+msgstr "Selecciona el color de pintura que deseas en el selector \"Color\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:77
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.1, y: 0.05, z: 0.1}"
 msgstr ""
+"Desplázate hasta la sección \"Spatial\". Cambia las dimensiones locales a {x:"
+" 0.1, y: 0.05, z: 0.1}"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:78
 msgid ""
 "In the **Create** Tools app, select your palette base and go to the "
 "'Properties' tab."
 msgstr ""
+"En la aplicación de Herramientas de **Crear**, selecciona la base de tu "
+"paleta y ve a la pestaña \"Properties\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:80
 msgid "Select your paint color and go to the 'Properties' tab."
-msgstr ""
+msgstr "Selecciona tu color de pintura y ve a la pestaña \"Properties\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:81
 msgid "In the 'Parent' text box, paste the palette base entityID."
 msgstr ""
+"En el campo de texto \"Parent\", pega el \"entityID\" de la base de tu "
+"paleta."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:82
 msgid ""
 "Use the grab handles to adjust the position and size of the paint on the "
 "palette."
 msgstr ""
+"Utiliza las asas de agarre (grab handless) para ajustar la posición y el "
+"tamaño de la pintura en la paleta."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:83
 msgid "Scroll down to the 'Behavior' section and uncheck 'Grabbable'."
 msgstr ""
+"Desplázate hacia abajo hasta la sección \"Behavior\" y des-selecciona el "
+"campo \"Grabbable\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:85
 msgid "Repeat the above steps to create additional paint colors for your palette."
 msgstr ""
+"Repite los pasos anteriores para crear colores de pintura adicionales para "
+"tu paleta."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:87
 msgid "Create a \"Pixel\" Canvas"
-msgstr ""
+msgstr "Crear un lienzo de \"Pixeles\" (Pixel Canvas)"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:88
 msgid ""
@@ -9551,10 +9582,17 @@ msgid ""
 "but you can import the grid multiple times to make a larger painting "
 "space, if desired."
 msgstr ""
+"El último componente que compone nuestro conjunto de pintura es el lienzo "
+"que usaremos para nuestra pintura de estilo \"píxel\". Te proporcionamos un "
+"archivo JSON para que importes un lienzo, por lo que no necesitas realizar "
+"cada paso individualmente, pero puedes importar la cuadrícula varias veces "
+"para crear un espacio de pintura más grande, si así lo deseas."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:90
 msgid "In Interface, go to **Menu > Edit** and select 'Import Entities from URL'."
 msgstr ""
+"En la interfaz, ve a **Menu > Edit** y selecciona \"Import Entities from "
+"URL\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:91
 msgid ""
@@ -9562,6 +9600,8 @@ msgid ""
 "URL](https://docs.vircadia.com/_static/resources/entities/canvas.json) "
 "into the dialog window and select 'OK'."
 msgstr ""
+"Pega [esta URL](https://docs.vircadia.com/_static/resources/entities/canvas."
+"json) dentro de la ventana de diáologo y selecciona \"OK\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:93
 msgid ""
@@ -9569,99 +9609,118 @@ msgid ""
 " you could use any entities to create a scene that could be painted this "
 "way."
 msgstr ""
+"El lienzo está formado por entidades de caja vinculadas a una sola placa "
+"posterior, pero puedes usar cualquier entidad para crear una escena que "
+"pueda pintarse de esta manera."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:95
 msgid "Add a Paint Brush Script"
-msgstr ""
+msgstr "Agregar un Script de Pincel de Pintura"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:97
 msgid ""
 "To start painting on the canvas, you have to write a paint brush script "
 "that serves as our 'painting' logic. This script will:"
 msgstr ""
+"Para comenzar a pintar en el lienzo, debes escribir un guión de pincel que "
+"sirva como nuestra lógica de \"pintura\". Este script:"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:98
 msgid "Check if the paint brush head has collided with another entity."
-msgstr ""
+msgstr "Comprueba si el cabezal del pincel ha chocado con otra entidad."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:99
 msgid ""
 "Check if this entity is a paint color, and change the color of the brush "
 "head."
 msgstr ""
+"Comprueba si esta entidad es un color de pintura y cambia el color del "
+"cabezal del pincel."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:100
 msgid ""
 "Check if the entity is a different entity. If it is not a paint color, "
 "the script will \"transfer\" it's color over to the other entity."
 msgstr ""
+"Comprueba si la entidad es una entidad diferente. Si no es un color de "
+"pintura, el script \"transferirá\" su color a la otra entidad."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:102
 msgid "To add the paint brush script:"
-msgstr ""
+msgstr "Para agregar el script del pincel:"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:105
 msgid "Select the Paint-Brush-Head entity."
-msgstr ""
+msgstr "Selecciona la entidad Paint-Brush-Head."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:107
 msgid ""
 "Next to 'Script', paste the script URL. In this case, it is "
 "'[brushScript.js](https://docs.vircadia.com/_static/resources/entities/brushScript.js)'."
 msgstr ""
+"Junto a \"Script\", pega la URL del script. En este caso, es \"[brushScript."
+"js](https://docs.vircadia.com/_static/resources/entities/brushScript.js)\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:108
 msgid ""
 "After you close the **Create** app, test it out by painting on the canvas"
 " in your domain!"
 msgstr ""
+"Después de cerrar la apliación **Crear**, ¡Pruébalo pintando en el lienzo de "
+"tu dominio!"
 
 #: ../../source/create/entities/tutorials.rst:7
 #: ../../source/create/entities/zone-tutorial.md:6
 msgid "Tutorial: Modify a Zone Entity"
-msgstr ""
+msgstr "Tutorial: Modificar una Entidad de Zona"
 
 #: ../../source/create/entities/tutorials.rst:5
 msgid ""
 "Walk through our online tutorials to get a deeper understanding of "
 "entities and their role in the metaverse."
 msgstr ""
+"Recorre nuestros tutoriales en línea para obtener una comprensión más "
+"profunda de las entidades y su papel en el metaverso."
 
 #: ../../source/create/entities/web-entity-media.rst:2
 msgid ""
 "This document is slightly outdated. FIXME: should mention the video sync "
 "script"
 msgstr ""
+"Este documento está un poco desactualizado. A tener en cuenta: debería "
+"mencionar el script de sincronización de video"
 
 #: ../../source/create/entities/web-entity-media.rst:9
 msgid ""
 "Web entities can play a number of different media formats through "
 "embedded players."
 msgstr ""
+"Las entidades web pueden reproducir varios formatos de medios diferentes a "
+"través de reproductores integrados."
 
 #: ../../source/create/entities/web-entity-media.rst:16
 msgid "Supported Media Formats"
-msgstr ""
+msgstr "Formatos de Medios Admitidos"
 
 #: ../../source/create/entities/web-entity-media.rst:18
 msgid "Currently, exclusively open source formats are supported:"
-msgstr ""
+msgstr "Actualmente, se admiten formatos exclusivamente de código abierto:"
 
 #: ../../source/create/entities/web-entity-media.rst:21
 msgid "Container format"
-msgstr ""
+msgstr "Formato contenedor"
 
 #: ../../source/create/entities/web-entity-media.rst:21
 msgid "Supported codecs"
-msgstr ""
+msgstr "Códecs compatibles"
 
 #: ../../source/create/entities/web-entity-media.rst:21
 msgid "File extension(s)"
-msgstr ""
+msgstr "Extension(es) de archivo"
 
 #: ../../source/create/entities/web-entity-media.rst:23
 msgid "WebM"
-msgstr ""
+msgstr "WebM"
 
 #: ../../source/create/entities/web-entity-media.rst:23
 msgid "Video: VP8, VP9       Audio: Vorbis, Opus"
