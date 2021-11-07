@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2021-11-01 15:52+0000\n"
+"PO-Revision-Date: 2021-11-07 21:34+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -9724,69 +9724,69 @@ msgstr "WebM"
 
 #: ../../source/create/entities/web-entity-media.rst:23
 msgid "Video: VP8, VP9       Audio: Vorbis, Opus"
-msgstr ""
+msgstr "Video: VP8, VP9; Audio: Vorbis, Opus"
 
 #: ../../source/create/entities/web-entity-media.rst:23
 msgid ".webm"
-msgstr ""
+msgstr ".webm"
 
 #: ../../source/create/entities/web-entity-media.rst:25
 #: ../../source/create/entities/web-entity-media.rst:39
 #: ../../source/create/entities/web-entity-media.rst:51
 msgid "Matroska"
-msgstr ""
+msgstr "Matroska"
 
 #: ../../source/create/entities/web-entity-media.rst:25
 msgid "Video: Theora, VP8, VP9       Audio: Vorbis, Opus, FLAC, MP3"
-msgstr ""
+msgstr "Video: Theora, VP8, VP9; Audio: Vorbis, Opus, FLAC, MP3"
 
 #: ../../source/create/entities/web-entity-media.rst:25
 msgid ".mkv, .mk3d, .mka, .mks"
-msgstr ""
+msgstr ".mkv, .mk3d, .mka, .mks"
 
 #: ../../source/create/entities/web-entity-media.rst:27
 msgid "Ogg"
-msgstr ""
+msgstr "Ogg"
 
 #: ../../source/create/entities/web-entity-media.rst:27
 msgid "Video: Theora, VP8       Audio: Vorbis, Opus, FLAC"
-msgstr ""
+msgstr "Video: Theora, VP8; Audio: Vorbis, Opus, FLAC"
 
 #: ../../source/create/entities/web-entity-media.rst:27
 msgid ".ogg, .oga, .ogv"
-msgstr ""
+msgstr ".ogg, .oga, .ogv"
 
 #: ../../source/create/entities/web-entity-media.rst:31
 msgid "Video codec"
-msgstr ""
+msgstr "Video codec (códec de Video)"
 
 #: ../../source/create/entities/web-entity-media.rst:31
 #: ../../source/create/entities/web-entity-media.rst:43
 #: ../../source/create/entities/web-entity-media.rst:61
 msgid "Comments"
-msgstr ""
+msgstr "Comentarios"
 
 #: ../../source/create/entities/web-entity-media.rst:31
 #: ../../source/create/entities/web-entity-media.rst:43
 msgid "Supported containers"
-msgstr ""
+msgstr "Contenedores compatibles"
 
 #: ../../source/create/entities/web-entity-media.rst:33
 msgid "VP9 (recommended)"
-msgstr ""
+msgstr "VP9 (recomendado)"
 
 #: ../../source/create/entities/web-entity-media.rst:33
 msgid "Good quality, slow encoding."
-msgstr ""
+msgstr "Buena calidad, codificación lenta."
 
 #: ../../source/create/entities/web-entity-media.rst:33
 #: ../../source/create/entities/web-entity-media.rst:35
 msgid "WebM, Matroska"
-msgstr ""
+msgstr "WebM, Matroska"
 
 #: ../../source/create/entities/web-entity-media.rst:35
 msgid "VP8"
-msgstr ""
+msgstr "VP8"
 
 #: ../../source/create/entities/web-entity-media.rst:35
 msgid ""
@@ -9794,85 +9794,92 @@ msgid ""
 "not VP9. Slightly faster than VP9. Slightly lower quality to compression "
 "ratio than VP9."
 msgstr ""
+"Recomendado si tu APU tiene codificación acelerada por hardware para VP8, "
+"pero no para VP9. Es ligeramente más rápido que VP9. La Relación calidad/"
+"compresión es ligeramente inferior a la del VP9."
 
 #: ../../source/create/entities/web-entity-media.rst:39
 msgid "Theora"
-msgstr ""
+msgstr "Theora"
 
 #: ../../source/create/entities/web-entity-media.rst:39
 msgid "Low quality, low compression, outdated."
-msgstr ""
+msgstr "Baja calidad, baja compresión, desactualizado."
 
 #: ../../source/create/entities/web-entity-media.rst:43
 msgid "Audio codec"
-msgstr ""
+msgstr "Audio codec (códec de Audio)"
 
 #: ../../source/create/entities/web-entity-media.rst:45
 msgid "Opus"
-msgstr ""
+msgstr "Opus"
 
 #: ../../source/create/entities/web-entity-media.rst:45
 msgid "Recommended, works well with high and low bitrate."
-msgstr ""
+msgstr "Recomendado, funciona bien con un bitrate alto y bajo."
 
 #: ../../source/create/entities/web-entity-media.rst:45
 #: ../../source/create/entities/web-entity-media.rst:47
 msgid "WebM, Matroska, Ogg"
-msgstr ""
+msgstr "WebM, Matroska, Ogg"
 
 #: ../../source/create/entities/web-entity-media.rst:47
 msgid "Vorbis"
-msgstr ""
+msgstr "Vorbis"
 
 #: ../../source/create/entities/web-entity-media.rst:47
 msgid "Lower quality to compression ratio than Opus."
-msgstr ""
+msgstr "Menor relación calidad/compresión que Opus."
 
 #: ../../source/create/entities/web-entity-media.rst:49
 msgid "FLAC"
-msgstr ""
+msgstr "FLAC"
 
 #: ../../source/create/entities/web-entity-media.rst:49
 msgid "Lossless, bigger files."
-msgstr ""
+msgstr "Archivos más grandes y sin pérdidas."
 
 #: ../../source/create/entities/web-entity-media.rst:49
 msgid "Matroska, Ogg"
-msgstr ""
+msgstr "Matroska, Ogg"
 
 #: ../../source/create/entities/web-entity-media.rst:51
 msgid "MP3"
-msgstr ""
+msgstr "MP3"
 
 #: ../../source/create/entities/web-entity-media.rst:51
 msgid "Lower quality to compression ratio than Opus and Vorbis."
-msgstr ""
+msgstr "Menor relación calidad/compresión que Opus y Vorbis."
 
 #: ../../source/create/entities/web-entity-media.rst:56
 msgid "Re-encode Media with FFmpeg"
-msgstr ""
+msgstr "Re-codificación de Medios con FFmpeg"
 
 #: ../../source/create/entities/web-entity-media.rst:58
 msgid "Here are some example commands for reencoding video files using FFmpeg."
 msgstr ""
+"Aquí hay algunos comandos de ejemplo para volver a codificar archivos de "
+"video usando FFmpeg."
 
 #: ../../source/create/entities/web-entity-media.rst:61
 msgid "Encode"
-msgstr ""
+msgstr "Codificador"
 
 #: ../../source/create/entities/web-entity-media.rst:61
 msgid "Command"
-msgstr ""
+msgstr "Comando"
 
 #: ../../source/create/entities/web-entity-media.rst:63
 msgid "VP9, Opus, WebM"
-msgstr ""
+msgstr "VP9, Opus, WebM"
 
 #: ../../source/create/entities/web-entity-media.rst:63
 msgid ""
 "ffmpeg -i \"INPUTFILE\" -c:v libvpx-vp9 -b:v 0 -crf 5 -vf scale=-2:600 "
 "-cpu-used 5 -row-mt 1 -c:a libopus -b:a 96K \"OUTPUTFILE.webm\""
 msgstr ""
+"ffmpeg -i \"INPUTFILE\" -c:v libvpx-vp9 -b:v 0 -crf 5 -vf scale=-2:600 -cpu-"
+"used 5 -row-mt 1 -c:a libopus -b:a 96K \"OUTPUTFILE.webm\""
 
 #: ../../source/create/entities/web-entity-media.rst:63
 msgid ""
@@ -9881,16 +9888,22 @@ msgid ""
 " 63, lower being better. For the constant quality to work the bitrate has"
 " to be set to \"0\" via \"-b:v 0\"."
 msgstr ""
+"\"-vf scale=-2:600\" reduce el video a una resolución vertical de 600p "
+"manteniendo la relación de aspecto. \"-crf 5\" es la calidad del video de 0 "
+"a 63, más bajo es mejor. Para que la calidad constante funcione, la tasa de "
+"bits debe establecerse en \"0\" por medio de \"-b:v 0\"."
 
 #: ../../source/create/entities/web-entity-media.rst:76
 msgid "VP9 (Hardware accelerated), Opus, WebM"
-msgstr ""
+msgstr "VP9 (Acelerado por hardware), Opus, WebM"
 
 #: ../../source/create/entities/web-entity-media.rst:76
 msgid ""
 "ffmpeg -i \"INPUTFILE\" -c:v vp9_vaapi -b:v 2000k -c:a libopus -b:a 96K "
 "\"OUTPUTFILE.webm\""
 msgstr ""
+"ffmpeg -i \"INPUTFILE\" -c:v vp9_vaapi -b:v 2000k -c:a libopus -b:a 96K "
+"\"OUTPUTFILE.webm\""
 
 #: ../../source/create/entities/web-entity-media.rst:76
 msgid ""
@@ -9898,86 +9911,103 @@ msgid ""
 "or newer APUs. Hardware accelerated VP9 does not have a constant quality "
 "setting, so bitrate needs to be used instead."
 msgstr ""
+"Actualmente, la aceleración de hardware VP9 solo es compatible con Intel "
+"Kaby Lake o APU más recientes. VP9 acelerado por hardware no tiene una "
+"configuración de calidad constante, por lo que se debe usar la tasa de bits "
+"en su lugar."
 
 #: ../../source/create/entities/web-entity-media.rst:87
 msgid "VP8 (Hardware accelerated), Opus, WebM"
-msgstr ""
+msgstr "VP8 (Acelerado por hardware), Opus, WebM"
 
 #: ../../source/create/entities/web-entity-media.rst:87
 msgid ""
 "ffmpeg -i \"INPUTFILE\" -c:v vp8_vaapi -b:v 2000k -vf scale=-2:600 -c:a "
 "libopus -b:a 96K \"OUTPUTFILE.webm\""
 msgstr ""
+"ffmpeg -i \"INPUTFILE\" -c:v vp8_vaapi -b:v 2000k -vf scale=-2:600 -c:a "
+"libopus -b:a 96K \"OUTPUTFILE.webm\""
 
 #: ../../source/create/entities/web-entity-media.rst:87
 msgid ""
 "VP8 hardware acceleration is currently only supported by Intel "
 "Cherryview/Braswell and newer APUs."
 msgstr ""
+"Actualmente, la aceleración de hardware VP8 solo es compatible con Intel "
+"Cherryview/Braswell y las APU's más nuevas."
 
 #: ../../source/create/entities/web-entity-media.rst:94
 msgid "Theora, Opus, Matroska"
-msgstr ""
+msgstr "Theora, Opus, Matroska"
 
 #: ../../source/create/entities/web-entity-media.rst:94
 msgid ""
 "ffmpeg -i \"INPUTFILE\" -c:v libtheora -q:v 10 -vf scale=-2:600 -c:a "
 "libopus -b:a 96K \"OUTPUTFILE.mkv\""
 msgstr ""
+"ffmpeg -i \"INPUTFILE\" -c:v libtheora -q:v 10 -vf scale=-2:600 -c:a libopus "
+"-b:a 96K \"OUTPUTFILE.mkv\""
 
 #: ../../source/create/entities/web-entity-media.rst:94
 msgid "\"-q:v 10\" is the quality from 0 to 10, higher being better."
-msgstr ""
+msgstr "\"-q:v 10\" es la calidad de 0 a 10, cuanto mayor es mejor."
 
 #: ../../source/create/entities/web-entity-media.rst:99
 msgid "You can use the ``ffmpeg -codecs`` command to see supported codecs."
 msgstr ""
+"Puedes usar el comando ``ffmpeg -codecs`` para ver los códecs compatibles."
 
 #: ../../source/create/entities/web-entity-media.rst:101
 msgid "Additional info can be found with the command ``ffmpeg -h``"
-msgstr ""
+msgstr "Puede encontrarse información adicional con el comando ``ffmpeg -h``"
 
 #: ../../source/create/entities/web-entity-media.rst:103
 msgid "Alternatively you can explore these links:"
-msgstr ""
+msgstr "Alternativamente, puedes explorar estos enlaces:"
 
 #: ../../source/create/entities/web-entity-media.rst:105
 msgid "https://trac.ffmpeg.org/wiki"
-msgstr ""
+msgstr "https://trac.ffmpeg.org/wiki"
 
 #: ../../source/create/entities/web-entity-media.rst:106
 msgid "https://ffmpeg.org"
-msgstr ""
+msgstr "https://ffmpeg.org"
 
 #: ../../source/create/entities/web-entity-media.rst:107
 msgid ""
 "https://wiki.archlinux.org/index.php/Hardware_video_acceleration#VA-"
 "API_drivers"
 msgstr ""
+"https://wiki.archlinux.org/index.php/Hardware_video_acceleration#VA-"
+"API_drivers"
 
 #: ../../source/create/entities/web-entity-media.rst:111
 msgid "Batch Processing"
-msgstr ""
+msgstr "Procesamiento por Lotes"
 
 #: ../../source/create/entities/web-entity-media.rst:113
 msgid ""
 "Here is an example shell script to batch reencode the contents of a "
 "folder on Linux using FFmpeg:"
 msgstr ""
+"Aquí hay un script de shell de ejemplo para volver a codificar por lotes el "
+"contenido de una carpeta en Linux usando FFmpeg:"
 
 #: ../../source/create/entities/web-entity-media.rst:115
 msgid "You can name it: ``vircadia_reencode.sh``"
-msgstr ""
+msgstr "Puedes nombrarlo como: ``vircadia_reencode.sh``"
 
 #: ../../source/create/entities/web-entity-media.rst:117
 msgid "With this code in it:"
-msgstr ""
+msgstr "Con este código en él:"
 
 #: ../../source/create/entities/web-entity-media.rst:145
 msgid ""
 "Do not forget to set the script as executable on Linux using something "
 "like `chmod +x vircadia_reencode.sh`"
 msgstr ""
+"No te olvides de configurar el script como ejecutable en Linux usando algo "
+"como el siguiente comando: `chmod +x vircadia_reencode.sh`"
 
 #: ../../source/create/entities/web-entity-media.rst:149
 msgid "Video Player"
