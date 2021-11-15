@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2021-11-07 21:34+0000\n"
+"PO-Revision-Date: 2021-11-15 14:44+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -10011,18 +10011,21 @@ msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:149
 msgid "Video Player"
-msgstr ""
+msgstr "Reproductor de Video"
 
 #: ../../source/create/entities/web-entity-media.rst:151
 msgid ""
 "You can embed videos using the HTML5 video tag. This example code can be "
 "put into an HTML file on a web server and be used in a Web entity."
 msgstr ""
+"Puedes incrustar videos usando la etiqueta de video de HTML5. Este código de "
+"ejemplo se puede poner en un archivo HTML en un servidor web y usarse en una "
+"entidad web."
 
 #: ../../source/create/entities/web-entity-media.rst:162
 #: ../../source/create/entities/zone-entity.rst:169
 msgid ":doc:`Create New Entites <create-entities>`"
-msgstr ""
+msgstr ":doc:`Crear Nuevas Entidades <create-entities>`"
 
 #: ../../source/create/entities/zone-entity.rst:5
 msgid ""
@@ -10030,40 +10033,50 @@ msgid ""
 "properties include: flying, ghosting, key lighting, skybox, ambient "
 "lighting, haze, bloom, and avatar priorities."
 msgstr ""
+"Una entidad de zona te permite establecer propiedades en un área específica. "
+"Estas propiedades incluyen: vuelo, efecto fantasma, iluminación clave, "
+"palco, iluminación ambiental, neblina, floración y prioridades de avatar."
 
 #: ../../source/create/entities/zone-entity.rst:13
 msgid "Explanation of Properties"
-msgstr ""
+msgstr "Explicación de Propiedades"
 
 #: ../../source/create/entities/zone-entity.rst:15
 msgid ""
 "The number of properties might seem intimidating at first. However, they "
 "all serve their own goals and have reason to exist:"
 msgstr ""
+"La cantidad de propiedades puede parecer intimidante al principio. Sin "
+"embargo, todos sirven a sus propios objetivos y tienen una razón de ser:"
 
 #: ../../source/create/entities/zone-entity.rst:20
 msgid "Flying Allowed"
-msgstr ""
+msgstr "Flying Allowed"
 
 #: ../../source/create/entities/zone-entity.rst:20
 msgid ""
 "Enables or disables flying for people inside the zone. This makes sense "
 "for game modes, or if you just don't want people to break your immersion."
 msgstr ""
+"Habilita o deshabilita el vuelo para personas dentro de la zona. Esto tiene "
+"sentido para los modos de juego, o si simplemente no quieres que la gente "
+"rompa tu inmersión."
 
 #: ../../source/create/entities/zone-entity.rst:23
 msgid "Ghosting Allowed"
-msgstr ""
+msgstr "Ghosting Allowed"
 
 #: ../../source/create/entities/zone-entity.rst:23
 msgid ""
 "Enables or disables the ability to pass through entities by disabling the"
 " environment collisions. Useful for creating labyrinths, for example."
 msgstr ""
+"Habilita o deshabilita la capacidad de atravesar entidades deshabilitando "
+"las colisiones del entorno. Es útil para crear laberintos, por ejemplo."
 
 #: ../../source/create/entities/zone-entity.rst:26
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #: ../../source/create/entities/zone-entity.rst:26
 msgid ""
@@ -10072,23 +10085,31 @@ msgid ""
 " such a script. See `Protect Your Domain’s Content <../../host/configure-"
 "settings/entity-filters.html>`_ for more information."
 msgstr ""
+"Los filtros (Filters) son funciones de JavaScript especializadas que evitan "
+"modificaciones no deseadas en entidades dentro de la zona. Esta propiedad "
+"lleva la URL a dicho script. Mira `Proteje el contenido de tu dominio<../../"
+"host/configure-settings/entity-filters.html>`_ para más información."
 
 #: ../../source/create/entities/zone-entity.rst:31
 msgid ""
 "This sets a directional light for the entire zone, e.g. this can simulate"
 " a sun casting light."
 msgstr ""
+"Esto establece una luz direccional para toda la zona, por ejemplo, esto "
+"puede simular una luz solar."
 
 #: ../../source/create/entities/zone-entity.rst:34
 #: ../../source/create/entities/zone-entity.rst:80
 msgid "Skybox"
-msgstr ""
+msgstr "Palco"
 
 #: ../../source/create/entities/zone-entity.rst:34
 msgid ""
 "This lets you set a so called \"Skybox\". This is commonly used to apply "
 "a sky texture to the zone."
 msgstr ""
+"Esto te permite configurar un Palco (Skybox). Esto se usa comúnmente para "
+"aplicar una textura de cielo a la zona."
 
 #: ../../source/create/entities/zone-entity.rst:37
 msgid ""
@@ -10096,25 +10117,30 @@ msgid ""
 "have light coming from more than just a sun. For example if you have "
 "multiple suns."
 msgstr ""
+"Se utiliza para aplicar la luz procedente del skybox. Esto se usa si tienes "
+"luz proveniente de algo más que un sol. Por ejemplo, si tienes varios soles."
 
 #: ../../source/create/entities/zone-entity.rst:40
 #: ../../source/create/entities/zone-entity.rst:118
 msgid "Haze"
-msgstr ""
+msgstr "Haze"
 
 #: ../../source/create/entities/zone-entity.rst:40
 msgid "Creates fog or mist."
-msgstr ""
+msgstr "Crea niebla o neblina."
 
 #: ../../source/create/entities/zone-entity.rst:42
 msgid ""
 "This enables a visual effect known as \"bloom\". A slight bloom effect "
 "could be used to make zones appear bright."
 msgstr ""
+"Esto permite un efecto visual conocido como \"florecimiento\" (bloom). Se "
+"podría usar un ligero efecto de floración para hacer que las zonas parezcan "
+"brillantes."
 
 #: ../../source/create/entities/zone-entity.rst:45
 msgid "Avatar Priority"
-msgstr ""
+msgstr "Avatar Priority"
 
 #: ../../source/create/entities/zone-entity.rst:45
 msgid ""
@@ -10123,14 +10149,21 @@ msgid ""
 "used on live events to have entertainers' avatar movements still be "
 "smooth, even with a huge crowd also being updated."
 msgstr ""
+"Esta propiedad cambia la prioridad de actualización de los movimientos de "
+"avatar al asignar más ancho de banda reservado por el mezclador de avatar ("
+"avatar mixer). Se usa comúnmente en eventos en vivo para que los movimientos "
+"de avatar de los artistas sigan siendo suaves, incluso con una gran multitud "
+"que también se está actualizando."
 
 #: ../../source/create/entities/zone-entity.rst:49
 msgid "Screen-share"
-msgstr ""
+msgstr "Screen-share"
 
 #: ../../source/create/entities/zone-entity.rst:49
 msgid "Enabling allows people to use screen-share inside the zone."
 msgstr ""
+"Su habilitación permite a las personas utilizar la función de compartir "
+"pantalla dentro de la zona."
 
 #: ../../source/create/entities/zone-entity.rst:56
 msgid ""
@@ -10138,54 +10171,65 @@ msgid ""
 " as a sun which illuminates a zone from a specific direction. The "
 "following properties are available for key lighting:"
 msgstr ""
+"La iluminación clave se utiliza para iluminar una zona. Puedes pensar en la "
+"luz clave como un sol que ilumina una zona desde una dirección específica. "
+"Las siguientes propiedades están disponibles para la iluminación clave:"
 
 #: ../../source/create/entities/zone-entity.rst:62
 msgid "Key Light Color"
-msgstr ""
+msgstr "Key Light Color"
 
 #: ../../source/create/entities/zone-entity.rst:62
 msgid ""
 "Sets the color of the key light. This could be used to simulate the color"
 " of a sunset."
 msgstr ""
+"Establece el color de la luz clave. Esto podría usarse para simular el color "
+"de una puesta de sol."
 
 #: ../../source/create/entities/zone-entity.rst:64
 msgid "Light Intensity"
-msgstr ""
+msgstr "Light Intensity"
 
 #: ../../source/create/entities/zone-entity.rst:64
 msgid "This changes the intensity of the key lighting."
-msgstr ""
+msgstr "Esto cambia la intensidad de la iluminación clave."
 
 #: ../../source/create/entities/zone-entity.rst:66
 msgid "Light Horizontal Angle"
-msgstr ""
+msgstr "Light Horizontal Angle"
 
 #: ../../source/create/entities/zone-entity.rst:66
 msgid "Sets the rotation around the zone's y axis and starts in its -z direction."
 msgstr ""
+"Establece la rotación alrededor del eje \"y\" de la zona y comienza en su "
+"dirección \"-z\"."
 
 #: ../../source/create/entities/zone-entity.rst:68
 msgid "Light Vertical Angle"
-msgstr ""
+msgstr "Light Vertical Angle"
 
 #: ../../source/create/entities/zone-entity.rst:68
 msgid "Sets the rotation around the zone's x axis and starts in its -z direction."
 msgstr ""
+"Establece la rotación alrededor del eje \"x\" de la zona y comienza en su "
+"dirección \"-z\"."
 
 #: ../../source/create/entities/zone-entity.rst:70
 msgid "Cast Shadows"
-msgstr ""
+msgstr "Cast Shadows"
 
 #: ../../source/create/entities/zone-entity.rst:70
 msgid ""
 "This enables shadows, while still respecting the \"Cast Shadows\" "
 "property of other entities."
 msgstr ""
+"Esto habilita las sombras (shadows), sin dejar de respetar la propiedad "
+"\"Cast Shadows\" (Proyectar Sombras) de otras entidades."
 
 #: ../../source/create/entities/zone-entity.rst:72
 msgid "Shadow Bias"
-msgstr ""
+msgstr "Shadow Bias"
 
 #: ../../source/create/entities/zone-entity.rst:72
 msgid ""
@@ -10193,16 +10237,22 @@ msgid ""
 "cause so called \"shadow acne\", while too high values can cause so "
 "called \"peter panning\"."
 msgstr ""
+"Esto controla el sesgo de la sombra (shadow bias) y debe ajustarse con "
+"precisión. Los valores demasiado bajos pueden causar el llamado \"shadow "
+"acne\" (acné en la sombra), mientras que los valores demasiado altos pueden "
+"causar el llamado \"peter panning\"."
 
 #: ../../source/create/entities/zone-entity.rst:75
 msgid "Shadow Max Distance"
-msgstr ""
+msgstr "Shadow Max Distance"
 
 #: ../../source/create/entities/zone-entity.rst:75
 msgid ""
 "Sets the maximum distance in meters from your view at which shadows will "
 "be shown."
 msgstr ""
+"Establece la distancia máxima en metros desde tu vista a la que se mostrarán "
+"las sombras."
 
 #: ../../source/create/entities/zone-entity.rst:82
 msgid ""

@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-08 14:51+0000\n"
-"PO-Revision-Date: 2021-10-03 07:51+0000\n"
-"Last-Translator: jose manuel <elmanytas@gmail.com>\n"
+"PO-Revision-Date: 2021-11-15 14:44+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/host/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/host/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/host.rst:11
@@ -313,7 +314,7 @@ msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:77
 msgid "Skybox"
-msgstr ""
+msgstr "Palco"
 
 #: ../../source/host/add-content/bake-content.rst:77
 msgid "Enter the file or URL path for your skybox file(s)."
@@ -4057,4 +4058,3 @@ msgstr ""
 #~ "worlds, and be a part of an "
 #~ "expanding metaverse."
 #~ msgstr ""
-
