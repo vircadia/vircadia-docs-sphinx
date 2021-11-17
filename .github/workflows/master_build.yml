@@ -100,6 +100,14 @@ jobs:
         mkdir -p build-archives
         cd build-es/html/
         tar -czvf ../../build-archives/build-es.tar.gz *
+    - name: Build korean documentation
+      shell: bash
+      run: |
+        cd docs
+        make BUILDDIR=build-ko SPHINXOPTS="-Dlanguage=ko" html
+        mkdir -p build-archives
+        cd build-ko/html/
+        tar -czvf ../../build-archives/build-ko.tar.gz *
     - name: Upload translated documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.8
       with:
@@ -125,3 +133,7 @@ jobs:
       shell: bash
       run: |
         sshpass -p '${{ secrets.GHA_DOCS_SSH_PASS }}' ssh -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/es/ && tar -xvzf /httpdocs/build-es.tar.gz -C /httpdocs/es/ && rm /httpdocs/build-es.tar.gz"
+    - name: Deploy korean documentation
+      shell: bash
+      run: |
+        sshpass -p '${{ secrets.GHA_DOCS_SSH_PASS }}' ssh -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/ko/ && tar -xvzf /httpdocs/build-ko.tar.gz -C /httpdocs/ko/ && rm /httpdocs/build-ko.tar.gz"

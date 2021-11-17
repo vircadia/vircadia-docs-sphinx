@@ -40,6 +40,7 @@ The following translations are available:
 * `Español <https://docs.vircadia.com/es/>`_ |es_trans|
 * `Français <https://docs.vircadia.com/fr/>`_ |fr_trans|
 * `日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|
+* `한국어 <https://docs.vircadia.com/ko/>`_ |ko_trans|
 
 .. |de_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/de/svg-badge.svg
               :class: inline
@@ -56,6 +57,10 @@ The following translations are available:
 .. |jp_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/ja/svg-badge.svg
               :class: inline
               :target: https://weblate.vircadia.dev/engage/vircadia-documentation/ja/?utm_source=widget
+
+.. |ko_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/ko/svg-badge.svg
+              :class: inline
+              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/ko/?utm_source=widget
 
 -------------------------
 What can I do?
