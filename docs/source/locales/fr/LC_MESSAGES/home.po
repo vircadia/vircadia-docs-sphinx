@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-10-25 04:52+0000\n"
+"POT-Creation-Date: 2021-11-18 00:26+0000\n"
 "PO-Revision-Date: 2021-05-24 06:48+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language: fr\n"
@@ -20,47 +20,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "HOME"
 msgstr "ACCUEIL"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "EXPLORE"
 msgstr "EXPLORER"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "CREATE"
 msgstr "CRÉER"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "SCRIPT"
 msgstr "PROGRAMMER"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "HOST"
 msgstr "HÉBERGER"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "CONTRIBUTE"
 msgstr "CONTRIBUER"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "DEVELOP"
 msgstr ""
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "SECURITY"
 msgstr "SÉCURITÉ"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "FAQ"
 msgstr "FAQ"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "RELEASE NOTES"
 msgstr "NOTES DE VERSION"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "API REFERENCE"
 msgstr "RÉFÉRENCE API"
 
@@ -148,15 +148,20 @@ msgstr "`Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 msgid "`日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|"
 msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
-#: ../../source/home.rst:62
+#: ../../source/home.rst:43
+#, fuzzy
+msgid "`한국어 <https://docs.vircadia.com/ko/>`_ |ko_trans|"
+msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+
+#: ../../source/home.rst:67
 msgid "What can I do?"
 msgstr "Que puis-je faire ?"
 
-#: ../../source/home.rst:64
+#: ../../source/home.rst:69
 msgid "You have the power to shape your VR experience in Vircadia."
 msgstr "Vous avez le pouvoir de façonner votre expérience VR dans Vircadia."
 
-#: ../../source/home.rst:66
+#: ../../source/home.rst:71
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
@@ -164,7 +169,7 @@ msgstr ""
 ":doc:`EXPLORER <explore>` en sautant d'un domaine à l'autre dans le "
 "métaverse, assistez à des événements et regardez ce que font les autres !"
 
-#: ../../source/home.rst:67
+#: ../../source/home.rst:72
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
@@ -173,7 +178,7 @@ msgstr ""
 " des domaines, des applications pour tablet, et bien d'autres choses "
 "encore, pour votre plus grand plaisir et celui des autres."
 
-#: ../../source/home.rst:68
+#: ../../source/home.rst:73
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
@@ -182,7 +187,7 @@ msgstr ""
 " concepts de script avancés à des entités et des avatars dans le "
 "métaverse."
 
-#: ../../source/home.rst:69
+#: ../../source/home.rst:74
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
@@ -190,11 +195,11 @@ msgstr ""
 ":doc:`HÉBERGER <host>` et offrir des expériences immersives pour éduquer,"
 " divertir et connecter avec votre public."
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ""
 
-#: ../../source/home.rst:71
+#: ../../source/home.rst:76
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
@@ -202,7 +207,7 @@ msgstr ""
 ":doc:`DÉVELOPPER <developer>` le projet et l'adapter à vos besoins, ou "
 "simplement pour donner un coup de main."
 
-#: ../../source/home.rst:72
+#: ../../source/home.rst:77
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."

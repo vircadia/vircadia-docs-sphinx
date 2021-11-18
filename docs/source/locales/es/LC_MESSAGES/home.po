@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-10-25 04:52+0000\n"
+"POT-Creation-Date: 2021-11-18 00:26+0000\n"
 "PO-Revision-Date: 2021-10-01 20:29+0000\n"
 "Last-Translator: jose manuel <elmanytas@gmail.com>\n"
 "Language: es\n"
@@ -20,47 +20,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "HOME"
 msgstr "INICIO"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "EXPLORE"
 msgstr "EXPLORAR"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "CREATE"
 msgstr "CREAR"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "SCRIPT"
 msgstr "CODIFICAR"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "HOST"
 msgstr "ALOJAR"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "CONTRIBUTE"
 msgstr "CONTRIBUIR"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "DEVELOP"
 msgstr ""
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "SECURITY"
 msgstr "SEGURIDAD"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "FAQ"
 msgstr "PREGUNTAS FRECUENTES"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "RELEASE NOTES"
 msgstr "NOTAS DE VERSION"
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:80
 msgid "API REFERENCE"
 msgstr "REFERENCIA DE API"
 
@@ -141,17 +141,22 @@ msgstr "`Francés <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 msgid "`日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|"
 msgstr "`Japonés <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
-#: ../../source/home.rst:62
+#: ../../source/home.rst:43
+#, fuzzy
+msgid "`한국어 <https://docs.vircadia.com/ko/>`_ |ko_trans|"
+msgstr "`Japonés <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+
+#: ../../source/home.rst:67
 msgid "What can I do?"
 msgstr "¿Qué puedo hacer?"
 
-#: ../../source/home.rst:64
+#: ../../source/home.rst:69
 msgid "You have the power to shape your VR experience in Vircadia."
 msgstr ""
 "Tienes el poder darle forma a tu experiencia de Realidad Virtual en "
 "Vircadia."
 
-#: ../../source/home.rst:66
+#: ../../source/home.rst:71
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
@@ -159,7 +164,7 @@ msgstr ""
 ":doc:`EXPLORA <explore>` saltando entre dominios en el metaverso, asiste "
 "a eventos y mira lo que otros están haciendo!"
 
-#: ../../source/home.rst:67
+#: ../../source/home.rst:72
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
@@ -168,7 +173,7 @@ msgstr ""
 "avatars, dominios, aplicaciones para tablet y más para que tú y otros "
 "disfruten."
 
-#: ../../source/home.rst:68
+#: ../../source/home.rst:73
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
@@ -177,7 +182,7 @@ msgstr ""
 "de conceptos avanzados de codificación a entidades y avatares en el "
 "metaverso."
 
-#: ../../source/home.rst:69
+#: ../../source/home.rst:74
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
@@ -185,11 +190,11 @@ msgstr ""
 ":doc:`ALOJA <host>` y crea experiencias inmersivas para educar, "
 "entretener y conectar con tu audiencia."
 
-#: ../../source/home.rst:70
+#: ../../source/home.rst:75
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ""
 
-#: ../../source/home.rst:71
+#: ../../source/home.rst:76
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
@@ -197,7 +202,7 @@ msgstr ""
 ":doc:`DESARROLLE <developer>` el proyecto y adáptelo a sus necesidades, o"
 " simplemente puede hacerlo para ayudar."
 
-#: ../../source/home.rst:72
+#: ../../source/home.rst:77
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
