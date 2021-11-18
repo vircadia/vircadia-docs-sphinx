@@ -184,11 +184,11 @@ Troubleshooting
 +-----------------------------------------------------------------------------------------------------+
 | .. _amd-problem:                                                                                    |
 |                                                                                                     |
-| I have a problem with Vircadia on Windows with my AMD graphics card.                                  |
+| I have a problem with Vircadia on Windows with my AMD graphics card.                                |
 +=====================================================================================================+
-| AMD can sometimes introduce issues into their graphics card drivers on Windows.                           |
+| AMD can sometimes introduce issues into their graphics card drivers on Windows.                     |
 | If you run into a new issue like mangled graphics or a crash on startup on your AMD graphics card,  |
-| there is a chance that a driver update is at fault.                                   |
+| there is a chance that a driver update is at fault.                                                 |
 |                                                                                                     |
 | Known broken driver versions include:                                                               |
 |                                                                                                     |
@@ -212,7 +212,7 @@ Troubleshooting
 | First you should check which driver version and graphics card you are actually using.               |
 | To do this, open your Adrenalin Control Panel either by clicking the tray icon, or by searching     |
 | for "AMD Radeon Software" in your start menu.                                                       |
-| Then open your **Settings -> System** tab and check the "Radeon Software Version".                   |
+| Then open your **Settings -> System** tab and check the "Radeon Software Version".                  |
 |                                                                                                     |
 | .. image:: _images/amd-radeon-software.png                                                          |
 |                                                                                                     |
@@ -242,6 +242,6 @@ Troubleshooting
 | Just download and run the driver installer.                                                         |
 |                                                                                                     |
 | If you are on a newer version, then please try downgrading to the "Recommended" driver version.     |
-| Simply download and install using the same steps as above.                                                            |
+| Simply download and install using the same steps as above.                                          |
 |                                                                                                     |
 +-----------------------------------------------------------------------------------------------------+
