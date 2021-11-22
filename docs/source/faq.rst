@@ -55,7 +55,7 @@ Troubleshooting
 + `Why can't I connect to a domain? <#cannot-connect>`_
 + `No one can hear me! <#no-input>`_
 + `I can't hear anything in Vircadia <#no-output>`_
-+ `I have a problem using Vircadia on my AMD graphics card on Windows <#amd-problem>`_
++ `I have a problem using Vircadia on Windows with my AMD graphics card <#amd-problem>`_
 + `How do I install a different AMD graphics driver on Windows? <#amd-downgrade>`_
 
 +-----------------------------------------------------------------------------------------------------+
@@ -200,7 +200,7 @@ Troubleshooting
 |                                                                                                     |
 | If you do run into an issue like this please consider opening an issue on our                       |
 | `GitHub issue tracker <https://github.com/vircadia/vircadia/issues>`_.                              |
-| If you are fairly sure that this is an AMD driver issue, please consider                            |
+| If you are fairly sure that this is an AMD driver issue, please also consider                       |
 | `reporting the issue to AMD <https://www.amd.com/report>`_.                                         |
 +-----------------------------------------------------------------------------------------------------+
 
