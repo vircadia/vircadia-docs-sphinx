@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2021-11-15 20:50+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2021-11-22 03:32+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
 "Language: es\n"
@@ -10261,46 +10261,59 @@ msgid ""
 "the type of image. Images with a differing aspect ratio or a resolution "
 "higher than 4096 pixels are not displayed."
 msgstr ""
+"Los Skyboxes se utilizan para definir el fondo de una zona. Hay dos tipos de "
+"imágenes de skybox que se pueden utilizar. La relación de aspecto (aspect "
+"ratio) se utiliza para definir el tipo de imagen. Las imágenes con una "
+"relación de aspecto diferente o una resolución superior a 4096 píxeles no se "
+"muestran."
 
 #: ../../source/create/entities/zone-entity.rst:85
 msgid "Types:"
-msgstr ""
+msgstr "Tipos:"
 
 #: ../../source/create/entities/zone-entity.rst:87
 msgid ""
 "Cubemaps have an aspect ratio of 4:3 and consist of 6 sides, which are "
 "projected onto a cube."
 msgstr ""
+"Los mapas de cubos (Cubemaps) tienen una relación de aspecto de 4:3 y "
+"constan de 6 lados, que se proyectan en un cubo."
 
 #: ../../source/create/entities/zone-entity.rst:91
 msgid ""
 "Equirectanglar images have an aspect ratio of 2:1 and are projected onto "
 "a sphere."
 msgstr ""
+"Las imágenes equirrectanglares tienen una relación de aspecto de 2:1 y se "
+"proyectan sobre una esfera."
 
 #: ../../source/create/entities/zone-entity.rst:95
 msgid ""
 "Supported texture formats are PNG, JPG, JPEG, TGA, TIF and TIFF. PNG-48 "
 "or PNG-64 are not supported."
 msgstr ""
+"Los formatos de textura admitidos son PNG, JPG, JPEG, TGA, TIF y TIFF. PNG-"
+"48 o PNG-64 no son compatibles."
 
 #: ../../source/create/entities/zone-entity.rst:102
 msgid ""
 "Ambient lighting illuminates the view according to the brightness and "
 "color of a texture. Accepted properties are:"
 msgstr ""
+"La iluminación ambiental ilumina la vista de acuerdo con el brillo y el "
+"color de una textura. Las propiedades aceptadas son:"
 
 #: ../../source/create/entities/zone-entity.rst:108
 msgid "Ambient Intensity"
-msgstr ""
+msgstr "Ambient Intensity"
 
 #: ../../source/create/entities/zone-entity.rst:108
 msgid "This sets the intensity of the illumination."
-msgstr ""
+msgstr "Esto establece la intensidad de la iluminación."
 
 #: ../../source/create/entities/zone-entity.rst:110
 msgid "Ambient Source"
-msgstr ""
+msgstr "Ambient Source"
 
 #: ../../source/create/entities/zone-entity.rst:110
 msgid ""
@@ -10309,6 +10322,10 @@ msgid ""
 " be a space station that is illuminated my multiple suns and reflections "
 "from different colored planets."
 msgstr ""
+"Esto toma la URL de una textura similar a la del skybox. También puede usar "
+"la misma URL que el skybox. Un escenario en el que esto podría ser útil "
+"sería una estación espacial que está iluminada por mis múltiples soles y "
+"reflejos de planetas de diferentes colores."
 
 #: ../../source/create/entities/zone-entity.rst:120
 msgid ""
@@ -10316,38 +10333,45 @@ msgid ""
 " atmospheric, but is also useful for hiding distant geometry. Properties "
 "available for haze:"
 msgstr ""
+"Haze (neblina) crea niebla dentro de una Zona. Esto se puede usar para hacer "
+"que las cosas se vean más atmosféricas, pero también es útil para ocultar "
+"geometría distante. Propiedades disponibles para haze:"
 
 #: ../../source/create/entities/zone-entity.rst:126
 msgid "Range"
-msgstr ""
+msgstr "Range"
 
 #: ../../source/create/entities/zone-entity.rst:126
 msgid ""
 "This sets how far the haze extends in meters. Use this to influence "
 "viewing distance and thickness."
 msgstr ""
+"Esto establece qué tan lejos se extiende la neblina en metros. Utiliza esto "
+"para influir en la distancia y el grosor de visualización."
 
 #: ../../source/create/entities/zone-entity.rst:129
 msgid "Use Altitude"
-msgstr ""
+msgstr "Use Altitude"
 
 #: ../../source/create/entities/zone-entity.rst:129
 msgid ""
 "This changes the haze intensity depending on altitude. Higher altitude "
 "means more fog."
 msgstr ""
+"Esto cambia la intensidad de la neblina en función de la altitud. Una mayor "
+"altitud significa más niebla."
 
 #: ../../source/create/entities/zone-entity.rst:131
 msgid "Base"
-msgstr ""
+msgstr "Base"
 
 #: ../../source/create/entities/zone-entity.rst:131
 msgid "This is the base of the altitude range."
-msgstr ""
+msgstr "Esta es la base del rango de altitud."
 
 #: ../../source/create/entities/zone-entity.rst:133
 msgid "Ceiling"
-msgstr ""
+msgstr "Ceiling"
 
 #: ../../source/create/entities/zone-entity.rst:133
 msgid ""
@@ -10355,28 +10379,33 @@ msgid ""
 "ceiling can be lower than the base to have the effect upside down; lower "
 "altitude meaning less fog."
 msgstr ""
+"Este es el techo del rango de altitud. Independientemente del nombre, el "
+"techo puede ser más bajo que la base para tener el efecto contrario o al "
+"revés; menor altitud significa menos niebla."
 
 #: ../../source/create/entities/zone-entity.rst:136
 msgid "Haze Color"
-msgstr ""
+msgstr "Haze Color"
 
 #: ../../source/create/entities/zone-entity.rst:136
 msgid "Sets the color of the haze."
-msgstr ""
+msgstr "Establece el color de la neblina."
 
 #: ../../source/create/entities/zone-entity.rst:138
 msgid "Background Blend"
-msgstr ""
+msgstr "Background Blend"
 
 #: ../../source/create/entities/zone-entity.rst:138
 msgid ""
 "This controls how much of the skybox is visible through the haze. Higher "
 "values showing more skybox."
 msgstr ""
+"Esto controla qué parte del skybox es visible a través de la neblina. Los "
+"valores más altos muestran más skybox."
 
 #: ../../source/create/entities/zone-entity.rst:141
 msgid "Glare"
-msgstr ""
+msgstr "Glare"
 
 #: ../../source/create/entities/zone-entity.rst:141
 msgid ""
@@ -10384,22 +10413,25 @@ msgid ""
 "is coming from. This is mainly useful for making a sun look especially "
 "bright."
 msgstr ""
+"El deslumbramiento (gare) se puede utilizar para mostrar un efecto en la "
+"dirección de la que proviene la luz clave. Esto es principalmente útil para "
+"hacer que el sol luzca especialmente brillante."
 
 #: ../../source/create/entities/zone-entity.rst:144
 msgid "Glare Color"
-msgstr ""
+msgstr "Glare Color"
 
 #: ../../source/create/entities/zone-entity.rst:144
 msgid "Sets the color of the glare effect."
-msgstr ""
+msgstr "Establece el color del efecto de deslumbramiento."
 
 #: ../../source/create/entities/zone-entity.rst:146
 msgid "Glare Angle"
-msgstr ""
+msgstr "Glare Angle"
 
 #: ../../source/create/entities/zone-entity.rst:146
 msgid "This changes the size of the glare effect."
-msgstr ""
+msgstr "Esto cambia el tamaño del efecto de deslumbramiento."
 
 #: ../../source/create/entities/zone-entity.rst:153
 msgid ""
@@ -10407,34 +10439,42 @@ msgid ""
 "example, this effect could be used to make a streetlight at night appear "
 "like it is illuminating light. It has the following properties:"
 msgstr ""
+"El efecto de floración (bloom effect) se utiliza para hacer brillar las "
+"áreas y los objetos brillantes. Por ejemplo, este efecto podría usarse para "
+"hacer que una farola en la noche parezca que está radiando luz. Tiene las "
+"siguientes propiedades:"
 
 #: ../../source/create/entities/zone-entity.rst:159
 msgid "Bloom Intensity"
-msgstr ""
+msgstr "Bloom Intensity"
 
 #: ../../source/create/entities/zone-entity.rst:159
 msgid "Sets the intensity or brightness of the bloom effect."
-msgstr ""
+msgstr "Establece la intensidad o el brillo del efecto de floración."
 
 #: ../../source/create/entities/zone-entity.rst:161
 msgid "Bloom Threshold"
-msgstr ""
+msgstr "Bloom Threshold"
 
 #: ../../source/create/entities/zone-entity.rst:161
 msgid ""
 "This decides how bright something has to be to start glowing. The lower "
 "the value, the more areas start glowing."
 msgstr ""
+"Esto decide qué tan brillante debe ser algo para comenzar a brillar. Cuanto "
+"menor sea el valor, más áreas comenzarán a brillar."
 
 #: ../../source/create/entities/zone-entity.rst:164
 msgid "Bloom Size"
-msgstr ""
+msgstr "Bloom Size"
 
 #: ../../source/create/entities/zone-entity.rst:164
 msgid ""
 "Sets the radius of the bloom effect. The higher the value, the larger the"
 " glowing effect."
 msgstr ""
+"Establece el radio del efecto de floración. Cuanto mayor sea el valor, mayor "
+"será el efecto de brillo."
 
 #: ../../source/create/entities/zone-tutorial.md:8
 msgid ""
@@ -10443,6 +10483,10 @@ msgid ""
 "the zone’s light properties such as its intensity, direction, and color "
 "to create different effects."
 msgstr ""
+"Una entidad de zona es un área 3D donde puedes crear entornos de iluminación "
+"personalizados. Puedes definir los límites de la zona utilizando formas y "
+"personalizar las propiedades de luz de la zona, como su intensidad, "
+"dirección y color para crear diferentes efectos."
 
 #: ../../source/create/entities/zone-tutorial.md:10
 msgid ""
@@ -10450,28 +10494,33 @@ msgid ""
 "you can edit their properties to create areas with different lighting "
 "effects."
 msgstr ""
+"Los mini tutoriales de esta página te muestran cómo funcionan las entidades "
+"de zona y cómo puedes editar sus propiedades para crear áreas con diferentes "
+"efectos de iluminación."
 
 #: ../../source/create/entities/zone-tutorial.md:15
 msgid "[Create a Zone Entity](#create-a-zone-entity)"
-msgstr ""
+msgstr "[Crear una Entidad de Zona](#create-a-zone-entity)"
 
 #: ../../source/create/entities/zone-tutorial.md:16
 msgid ""
 "[Create Nested Zones with Different Lighting](#create-nested-zones-with-"
 "different-lighting)"
 msgstr ""
+"[Crear Zonas Anidadas con Diferente Iluminación](#create-nested-zones-with-"
+"different-lighting)"
 
 #: ../../source/create/entities/zone-tutorial.md:17
 msgid "[Change a Zone's Shape](#change-a-zones-shape)"
-msgstr ""
+msgstr "[Cambiar la Forma de una Zona](#change-a-zones-shape)"
 
 #: ../../source/create/entities/zone-tutorial.md:18
 msgid "[Add a Skybox to a Zone](#add-a-skybox-to-a-zone)"
-msgstr ""
+msgstr "[Agregar un Skybox a una Zona](#add-a-skybox-to-a-zone)"
 
 #: ../../source/create/entities/zone-tutorial.md:19
 msgid "[Add Ambient Light to a Zone](#add-ambient-light-to-a-zone)"
-msgstr ""
+msgstr "[Agregar luz Ambiental a una Zona](#add-ambient-light-to-a-zone)"
 
 #: ../../source/create/entities/zone-tutorial.md:29
 msgid "Create a Zone Entity"
