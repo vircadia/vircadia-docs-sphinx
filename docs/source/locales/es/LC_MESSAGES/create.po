@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2021-11-22 03:32+0000\n"
+"PO-Revision-Date: 2021-11-27 17:25+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -10524,25 +10524,29 @@ msgstr "[Agregar luz Ambiental a una Zona](#add-ambient-light-to-a-zone)"
 
 #: ../../source/create/entities/zone-tutorial.md:29
 msgid "Create a Zone Entity"
-msgstr ""
+msgstr "Crear una Entidad de Zona"
 
 #: ../../source/create/entities/zone-tutorial.md:31
 msgid "To create a zone entity:"
-msgstr ""
+msgstr "Para crear una entidad de zona:"
 
 #: ../../source/create/entities/zone-tutorial.md:34
 msgid ""
 "Click the 'Zone' icon to create a zone entity. You'll see a wireframe "
 "shape showing the zone's bounding box."
 msgstr ""
+"Haz click en el ícono \"Zone\" (zona) para crear una entidad de zona. Verás "
+"una forma de estructura alámbrica que muestra el cuadro delimitador de la "
+"zona."
 
 #: ../../source/create/entities/zone-tutorial.md:36
 msgid "Go to the 'Properties' tab, and add a name 'Zone-1' for your zone."
 msgstr ""
+"Ve a la pestaña \"Properties\", y añade un nombre \"Zone-1\" para tu zona."
 
 #: ../../source/create/entities/zone-tutorial.md:38
 msgid "Create Nested Zones with Different Lighting"
-msgstr ""
+msgstr "Crear Zonas Anidadas con Iluminación Diferente"
 
 #: ../../source/create/entities/zone-tutorial.md:40
 msgid ""
@@ -10551,46 +10555,59 @@ msgid ""
 "properties. In the case of nested or overlapping zones, you will "
 "experience the properties of the smallest zone you are currently inside."
 msgstr ""
+"Cada entidad de zona que crees puede tener diferentes propiedades. Cuando tu "
+"avatar se mueva por diferentes zonas, experimentarás las propiedades de cada "
+"zona. En el caso de las zonas anidadas o superpuestas, experimentarás las "
+"propiedades de la zona más pequeña en la que te encuentres actualmente."
 
 #: ../../source/create/entities/zone-tutorial.md:42
 msgid ""
 "You can understand how an avatar experiences lighting in a zone using "
 "this mini tutorial:"
 msgstr ""
+"Puedes comprender cómo un avatar experimenta la iluminación en una zona con "
+"este mini tutorial:"
 
 #: ../../source/create/entities/zone-tutorial.md:43
 msgid "[Create Two Zone Entities](#create-two-zone-entities)"
-msgstr ""
+msgstr "[Crear Dos Entidades de Zona](#create-two-zone-entities)"
 
 #: ../../source/create/entities/zone-tutorial.md:44
 msgid "[Nest One Zone Inside the Other](#nest-one-zone-inside-the-other)"
-msgstr ""
+msgstr "[Anidar Una Zona Dentro de la Otra](#nest-one-zone-inside-the-other)"
 
 #: ../../source/create/entities/zone-tutorial.md:45
 msgid ""
 "[Add Different Lighting Effects to Each Zone](#add-different-lighting-"
 "effects-to-each-zone)"
 msgstr ""
+"[Agregar Diferentes Efectos de Iluminación a Cada Zona](#add-different-"
+"lighting-effects-to-each-zone)"
 
 #: ../../source/create/entities/zone-tutorial.md:47
 msgid "Create Two Zone Entities"
-msgstr ""
+msgstr "Crear Dos Entidades de Zona"
 
 #: ../../source/create/entities/zone-tutorial.md:49
 msgid ""
 "Follow the steps to [create a zone entity](#create-a-zone-entity) to "
 "create two zone entities named 'Zone-1' and 'Zone-2'."
 msgstr ""
+"Sigue los pasos para [crear una zona de entidad](#create-a-zone-entity) para "
+"así poder crear dos zonas de entidad llamadas 'Zone-1' y 'Zone-2'."
 
 #: ../../source/create/entities/zone-tutorial.md:56
 msgid "Nest One Zone Inside the Other"
-msgstr ""
+msgstr "Anidar Una Zona Dentro de la Otra"
 
 #: ../../source/create/entities/zone-tutorial.md:58
 msgid ""
 "To nest a zone, you have to resize one zone to make it smaller than the "
 "other, and change its position to bring it inside the larger zone."
 msgstr ""
+"Para anidar una zona, debes cambiar el tamaño de una zona para hacerla más "
+"pequeña que la otra y cambiar su posición para llevarla dentro de la zona "
+"más grande."
 
 #: ../../source/create/entities/zone-tutorial.md:61
 #: ../../source/create/entities/zone-tutorial.md:78
@@ -10598,12 +10615,16 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:136
 msgid "Select 'Zone-1' either from the Entity List or directly in Interface."
 msgstr ""
+"Selecciona \"Zone-1\" de la lista de entidades o directamente desde la "
+"interfaz."
 
 #: ../../source/create/entities/zone-tutorial.md:62
 msgid ""
 "In the 'Properties' tab, change the dimensions of 'Zone-1' to `x=5, y=10,"
 " z=5`."
 msgstr ""
+"En la pestaña \"Properties\", cambia las dimensiones de \"Zone-1\" a `x=5, "
+"y=10, z=5`."
 
 #: ../../source/create/entities/zone-tutorial.md:63
 msgid ""
@@ -10612,10 +10633,14 @@ msgid ""
 "you moved while creating the zones, select 'Zone-1' and move it inside "
 "'Zone-2'."
 msgstr ""
+"Si creaste ambas zonas sin mover tu avatar, no necesitas cambiar la posición "
+"de la zona. \"Zone-1\" ya estará dentro de \"Zone-2\". Si lo moviste "
+"mientras creabas las zonas, selecciona \"Zone-1\" y muévelo dentro de \"Zone-"
+"2\"."
 
 #: ../../source/create/entities/zone-tutorial.md:65
 msgid "Add Different Lighting Effects to Each Zone"
-msgstr ""
+msgstr "Agregar Diferentes Efectos de Iluminación a Cada Zona"
 
 #: ../../source/create/entities/zone-tutorial.md:67
 msgid ""
@@ -10624,97 +10649,123 @@ msgid ""
 "properties of your domain. You won't notice when you are entering or "
 "leaving a zone."
 msgstr ""
+"Cuando creas una zona, hereda las propiedades de la zona en la que estaba tu "
+"avatar. Esto significa que ambas zonas heredan las propiedades de "
+"iluminación de tu dominio. No te darás cuenta cuando ingreses o salgas de "
+"una zona."
 
 #: ../../source/create/entities/zone-tutorial.md:69
 msgid "All lighting effects have three modes:"
-msgstr ""
+msgstr "Todos los efectos de iluminación tienen tres modos:"
 
 #: ../../source/create/entities/zone-tutorial.md:71
 msgid ""
 "Inherit: The property is inherited from the zone bounding the current "
 "zone."
 msgstr ""
+"Inherit (Heredar): la propiedad se hereda de la zona que delimita la zona "
+"actual."
 
 #: ../../source/create/entities/zone-tutorial.md:72
 msgid "Off: The lighting effect is turned off."
-msgstr ""
+msgstr "Off (apagado): El efecto de iluminación se apaga."
 
 #: ../../source/create/entities/zone-tutorial.md:73
 msgid ""
 "On: The lighting effect is turned on and can be changed to values of your"
 " choice."
 msgstr ""
+"On (encendido): El efecto de iluminación se enciende y se puede cambiar a "
+"los valores que elijas."
 
 #: ../../source/create/entities/zone-tutorial.md:75
 msgid ""
 "The keylight represents a parallel source of light, such as the sun. "
 "Let's change the keylight properties for each zone:"
 msgstr ""
+"La luz clave (keylight) representa una fuente de luz paralela, como el sol. "
+"Cambiemos las propiedades de la luz clave para cada zona:"
 
 #: ../../source/create/entities/zone-tutorial.md:79
 msgid ""
 "In the 'Properties' tab, change the 'Key Light' property to 'On' from the"
 " drop-down."
 msgstr ""
+"En la pestaña \"Properties\", cambia la propiedad \"Key Light\" a \"On\" "
+"desde el menú desplegable."
 
 #: ../../source/create/entities/zone-tutorial.md:80
 msgid ""
 "Click on 'Key Light' color, and add these RGB (`255,0,0`) values to add a"
 " red key light."
 msgstr ""
+"Haz click en el color de \"Key Light\", y añade estos valores RGB (`255,0,0`)"
+" para añadir una luz clave roja."
 
 #: ../../source/create/entities/zone-tutorial.md:81
 #: ../../source/create/entities/zone-tutorial.md:149
 msgid "Select 'Zone-2' either from the Entity List or directly in Interface."
 msgstr ""
+"Selecciona \"Zone-2\" ya sea de la lista de entidades o directamente desde "
+"la interfaz."
 
 #: ../../source/create/entities/zone-tutorial.md:82
 msgid ""
 "In the 'Properties' tab, change the 'Key Light' property by selecting "
 "'On' from the drop-down."
 msgstr ""
+"En la pestaña \"Properties\", cambia la propiedad \"Key Light\" "
+"seleccionando \"On\" desde el menú desplegable."
 
 #: ../../source/create/entities/zone-tutorial.md:83
 msgid ""
 "Click on 'Key Light' color, and add these RGB (`0,0,255`) values to add a"
 " blue key light."
 msgstr ""
+"Haz click en el color de \"Key Light\", y añade estos valores RGB (`0,0,255`)"
+" para añadir una luz clave azul."
 
 #: ../../source/create/entities/zone-tutorial.md:85
 msgid ""
 "When your avatar walks from Zone-1 to Zone-2, you will see the lighting "
 "around change from red to blue."
 msgstr ""
+"Cuando tu avatar caminr de Zone-1 a Zone-2, verás que la iluminación de "
+"alrededor cambia de rojo a azul."
 
 #: ../../source/create/entities/zone-tutorial.md:87
 msgid "Change a Zone's Shape"
-msgstr ""
+msgstr "Cambiar la Forma de una Zona"
 
 #: ../../source/create/entities/zone-tutorial.md:89
 msgid ""
 "By default, a zone's shape is a cube, like its bounding box. You can "
 "change a zone's shape to the following:"
 msgstr ""
+"Por defecto, la forma de una zona es un cubo, como su cuadro delimitador. "
+"Puedes cambiar la forma de una zona a lo siguiente:"
 
 #: ../../source/create/entities/zone-tutorial.md:91
 msgid "None: This will be the default shape (cube)."
-msgstr ""
+msgstr "None: Esta será la forma por defecto (cubo)."
 
 #: ../../source/create/entities/zone-tutorial.md:92
 msgid "Box: The zone's shape will be a box."
-msgstr ""
+msgstr "Box (Caja): La forma de la zona será una caja."
 
 #: ../../source/create/entities/zone-tutorial.md:93
 msgid "Sphere: The zone entity's shape will be a stretched sphere."
 msgstr ""
+"Sphere (esfera): La forma de la entidad de zona será una esfera estirada."
 
 #: ../../source/create/entities/zone-tutorial.md:94
 msgid "Ellipsoid: The zone entity will take the shape of an ellipsoid."
 msgstr ""
+"Ellipsoid (elipsoide): La entidad de zona tomará la forma de un elipsoide."
 
 #: ../../source/create/entities/zone-tutorial.md:95
 msgid "Cylinder: The zone entity's shape will be a cylinder."
-msgstr ""
+msgstr "Cylinder (cilindro): La forma de la entidad de zona será un cilindro."
 
 #: ../../source/create/entities/zone-tutorial.md:96
 msgid ""
@@ -10727,14 +10778,25 @@ msgid ""
 "properties when in the center of the bowl. Upload your FBX or OBJ file to"
 " a cloud server, copy the URL, and paste it in 'Compound Shape URL'."
 msgstr ""
+"Compound (compuesto): La forma de la entidad de zona será una malla convexa "
+"que es un archivo FBX u OBJ. Estas complejas formas convexas deben estar "
+"compuestas por múltiples formas. No podemos verificar los volúmenes "
+"interiores ahuecados. Por ejemplo, si deseas una zona con forma de cuenco/"
+"bowl, tendrás que construirla a partir de otros elementos. Puedes incluir "
+"elementos como lados y un piso, especialmente si deseas que un usuario "
+"experimente las propiedades de colisión correctas cuando esté en el centro "
+"del cuenco/bowl. Sube tu archivo FBX u OBJ a un servidor en la nube, copia "
+"la URL y pégala en \"Compound Shape URL\"."
 
 #: ../../source/create/entities/zone-tutorial.md:98
 msgid "All shapes will be stretched to fit the zone entity's dimensions."
 msgstr ""
+"Todas las formas se estirarán para ajustarse a las dimensiones de la entidad "
+"de zona."
 
 #: ../../source/create/entities/zone-tutorial.md:100
 msgid "Add a Skybox to a Zone"
-msgstr ""
+msgstr "Agregar un Skybox (palco) a una Zona"
 
 #: ../../source/create/entities/zone-tutorial.md:102
 msgid ""
@@ -10742,10 +10804,13 @@ msgid ""
 " be just a color, or an image from a URL. For example, you can have a "
 "blue sky or use an image of the night sky with stars as a skybox."
 msgstr ""
+"Un skybox determina la textura del cielo en tu dominio. El skybox puede ser "
+"solo un color, o una imagen de una URL. Por ejemplo, puedes tener un cielo "
+"azul o utilizar una imagen del cielo nocturno con estrellas como skybox."
 
 #: ../../source/create/entities/zone-tutorial.md:104
 msgid "To add a blue sky to your zone:"
-msgstr ""
+msgstr "Para agregar un cielo azul a tu zona:"
 
 #: ../../source/create/entities/zone-tutorial.md:107
 #: ../../source/create/entities/zone-tutorial.md:137
@@ -10753,38 +10818,46 @@ msgid ""
 "In the 'Properties' tab, change the 'Skybox' property by selecting 'On' "
 "from the drop-down."
 msgstr ""
+"En la pestaña \"Properties\", cambia la propiedad \"Skybox\" seleccionando "
+"\"On\" desde el menú desplegable."
 
 #: ../../source/create/entities/zone-tutorial.md:108
 msgid ""
 "Click on 'Skybox' color, and add these RGB (`0,0,255`) values to add a "
 "blue key light."
 msgstr ""
+"Haz click en el color de \"Skybox\", y añade estos valores RGB (`0,0,255`) "
+"para añadir una luz clave azul."
 
 #: ../../source/create/entities/zone-tutorial.md:110
 msgid "To add an image of the night sky to your zone:"
-msgstr ""
+msgstr "Para agregar una imagen del cielo nocturno a tu zona:"
 
 #: ../../source/create/entities/zone-tutorial.md:111
 msgid "Host your image on a cloud service and copy the URL."
-msgstr ""
+msgstr "Aloja tu imagen en un servicio en la nube y copia la URL."
 
 #: ../../source/create/entities/zone-tutorial.md:112
 msgid "Create a JSON file that refers to the URL and other skybox properties."
 msgstr ""
+"Crea un archivo JSON que haga referencia a la URL y otras propiedades del "
+"skybox."
 
 #: ../../source/create/entities/zone-tutorial.md:135
 msgid "Host the JSON file on a cloud service. Copy its URL."
-msgstr ""
+msgstr "Aloja el archivo JSON en un servicio en la nube. Copia su URL."
 
 #: ../../source/create/entities/zone-tutorial.md:138
 msgid "In 'Skybox source', add the JSON file's URL."
-msgstr ""
+msgstr "En \"Skybox source\", añade la URL del archivo JSON."
 
 #: ../../source/create/entities/zone-tutorial.md:140
 msgid ""
 "You'll see your zone's lighting change to the image you specified in the "
 "skybox."
 msgstr ""
+"Verás que la iluminación de tu zona cambia a la imagen que especificaste en "
+"el skybox."
 
 #: ../../source/create/entities/zone-tutorial.md:143
 msgid "Add Ambient Light to a Zone"
