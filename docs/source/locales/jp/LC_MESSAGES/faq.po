@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-02 08:26+0000\n"
+"POT-Creation-Date: 2021-11-27 17:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,112 +116,124 @@ msgstr ""
 msgid "`I can't hear anything in Vircadia <#no-output>`_"
 msgstr ""
 
-#: ../../source/faq.rst:62
-msgid "Where do I find the Interface log files?"
+#: ../../source/faq.rst:58
+msgid ""
+"`I have a problem using Vircadia on Windows with my AMD graphics card "
+"<#amd-problem>`_"
+msgstr ""
+
+#: ../../source/faq.rst:59
+msgid ""
+"`How do I install a different AMD graphics driver on Windows? <#amd-"
+"downgrade>`_"
 msgstr ""
 
 #: ../../source/faq.rst:64
-msgid "The Interfaces log files can be found in the following directories:"
+msgid "Where do I find the Interface log files?"
 msgstr ""
 
 #: ../../source/faq.rst:66
-msgid "**Windows**: ``%AppData%\\Local\\Vircadia\\Interface\\Logs\\``"
-msgstr ""
-
-#: ../../source/faq.rst:67
-msgid "**Mac**: ``~/Library/Application Support/Vircadia/Interface/Logs/``"
+msgid "The Interfaces log files can be found in the following directories:"
 msgstr ""
 
 #: ../../source/faq.rst:68
-msgid "**Linux**: ``~/.local/share/Vircadia/Interface/Logs/``"
+msgid "**Windows**: ``%AppData%\\Local\\Vircadia\\Interface\\Logs\\``"
+msgstr ""
+
+#: ../../source/faq.rst:69
+msgid "**Mac**: ``~/Library/Application Support/Vircadia/Interface/Logs/``"
 msgstr ""
 
 #: ../../source/faq.rst:70
+msgid "**Linux**: ``~/.local/share/Vircadia/Interface/Logs/``"
+msgstr ""
+
+#: ../../source/faq.rst:72
 msgid ""
 "The Vircadia folder name might be different on development or testing "
 "builds. E.g. ``Vircadia - dev``."
 msgstr ""
 
-#: ../../source/faq.rst:77
+#: ../../source/faq.rst:79
 msgid "How do I access the hidden folders that most Vircadia files are stored in?"
 msgstr ""
 
-#: ../../source/faq.rst:79
+#: ../../source/faq.rst:81
 msgid ""
 "On all currently supported operating systems the folders that Vircadia "
 "stores most of its data in are hidden."
 msgstr ""
 
-#: ../../source/faq.rst:82
+#: ../../source/faq.rst:84
 msgid ""
 "The easiest way to access them is to just copy the path and paste it into"
 " your systems file manager. Most (if not all) of them have a bar at the "
 "top."
 msgstr ""
 
-#: ../../source/faq.rst:87
+#: ../../source/faq.rst:89
 msgid ""
 "Even if it doesn't look like you can paste anything into the bar, still "
 "hover over it and try pasting with a shortcut like Ctrl + V."
 msgstr ""
 
-#: ../../source/faq.rst:94
+#: ../../source/faq.rst:96
 msgid "Why can't I connect to a domain?"
 msgstr ""
 
-#: ../../source/faq.rst:96
+#: ../../source/faq.rst:98
 msgid ""
 "If you cannot connect to your virtual workplace, follow these steps to "
 "resolve the issue:"
 msgstr ""
 
-#: ../../source/faq.rst:98
+#: ../../source/faq.rst:100
 msgid ""
 "Check your internet connection, and ensure that your bandwidth is at "
 "least 10Mbps download, 2Mbps upload."
 msgstr ""
 
-#: ../../source/faq.rst:100
+#: ../../source/faq.rst:102
 msgid ""
 "You may not have permissions to enter the domain. If you know the domain "
 "owner, contact them to gain access to the domain."
 msgstr ""
 
-#: ../../source/faq.rst:102
+#: ../../source/faq.rst:104
 msgid "Ensure that your firewall settings allow you to run Vircadia."
 msgstr ""
 
-#: ../../source/faq.rst:104
+#: ../../source/faq.rst:106
 msgid ""
 "For Windows: In your firewall settings, open the  port 40102, and add "
 "'interface.exe' to the list of allowed apps."
 msgstr ""
 
-#: ../../source/faq.rst:106
+#: ../../source/faq.rst:108
 msgid ""
 "For Mac: In your firewall settings, add 'interface.app' (**Library > "
 "Application Support > Launcher > interface.app**) and allow incoming "
 "connections for that application."
 msgstr ""
 
-#: ../../source/faq.rst:113
+#: ../../source/faq.rst:115
 msgid "No one can hear me!"
 msgstr ""
 
-#: ../../source/faq.rst:115
+#: ../../source/faq.rst:117
 msgid ""
 "If other users in the domain can't hear you, then you are likely muted or"
 " your microphone gain is set too low. Here are some steps to troubleshoot"
 " your issue:"
 msgstr ""
 
-#: ../../source/faq.rst:118
+#: ../../source/faq.rst:120
 msgid ""
 "**Are you muted in Vircadia?** When logged in, check the upper left "
 "corner. If you're muted, click the microphone to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:120
+#: ../../source/faq.rst:122
 msgid ""
 "**Is your physical output device muted or turned off?** Some headsets and"
 " microphones have a 'Power' and/or 'Mute' switch directly on the device "
@@ -230,14 +242,14 @@ msgid ""
 "turned on or the mute button may have been pressed."
 msgstr ""
 
-#: ../../source/faq.rst:127
+#: ../../source/faq.rst:129
 msgid ""
 "**Is your mic muted or disabled on your computer?** Lastly, your device "
 "might be muted or disabled by your operating system. Check your operating"
 " system's input device settings:"
 msgstr ""
 
-#: ../../source/faq.rst:130
+#: ../../source/faq.rst:132
 msgid ""
 "On Windows, go to **Control Panel > Sound > Recording** tab. Choose the "
 "device you are using with Vircadia and click 'Properties'. On the "
@@ -246,7 +258,7 @@ msgid ""
 "muted, click the icon to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:134
+#: ../../source/faq.rst:136
 msgid ""
 "On Mac, go to **System Preferences > Sound > Input** tab. Choose the "
 "device you are using with Vircadia. If the 'Input volume' is turned all "
@@ -254,7 +266,7 @@ msgid ""
 "volume to re-enable your microphone."
 msgstr ""
 
-#: ../../source/faq.rst:137
+#: ../../source/faq.rst:139
 msgid ""
 "**Have you allowed Vircadia access to the microphone?** Some operating "
 "systems require you to give explicit permission to apps to take advantage"
@@ -262,20 +274,20 @@ msgid ""
 "your microphone permissions in your operating system settings:"
 msgstr ""
 
-#: ../../source/faq.rst:142
+#: ../../source/faq.rst:144
 msgid ""
 "On Windows, go to **Settings > Privacy > Microphone**. Make sure that "
 "'Allow desktop apps to access your microphone' is turned on."
 msgstr ""
 
-#: ../../source/faq.rst:144
+#: ../../source/faq.rst:146
 msgid ""
 "On Mac, go to **System Preferences > Security & Privacy > Privacy**, then"
 " select 'Microphone'. Ensure that the checkbox next to Vircadia is "
 "selected."
 msgstr ""
 
-#: ../../source/faq.rst:147
+#: ../../source/faq.rst:149
 msgid ""
 "If your input device is turned on, and you are not muted in the "
 "application, device, or operating system, then it is likely that your "
@@ -283,68 +295,164 @@ msgid ""
 "operating system settings:"
 msgstr ""
 
-#: ../../source/faq.rst:151
+#: ../../source/faq.rst:153
 msgid ""
 "On Windows, go to **Control Panel > Sound > Recording** tab. Choose the "
 "device you are using with Vircadia and click 'Properties'. On the "
 "'Levels' tab, adjust the 'Microphone Level' and/or 'Microphone Boost'."
 msgstr ""
 
-#: ../../source/faq.rst:154
+#: ../../source/faq.rst:156
 msgid ""
 "On Mac, go to **System Preferences > Sound > Input** tab. Choose the "
 "device you are using with Vircadia and adjust the 'Input volume'."
 msgstr ""
 
-#: ../../source/faq.rst:161
+#: ../../source/faq.rst:163
 msgid "I can't hear anything in Vircadia."
 msgstr ""
 
-#: ../../source/faq.rst:163
+#: ../../source/faq.rst:165
 msgid "Here are some reasons you might not have audio:"
 msgstr ""
 
-#: ../../source/faq.rst:165
+#: ../../source/faq.rst:167
 msgid "Your headset or speakers are turned off."
 msgstr ""
 
-#: ../../source/faq.rst:166
+#: ../../source/faq.rst:168
 msgid ""
 "Your headset or speakers may be muted or disabled by your operating "
 "system. Check your operating system's output device settings:"
 msgstr ""
 
-#: ../../source/faq.rst:169
+#: ../../source/faq.rst:171
 msgid ""
 "On Windows, click the volume icon in the taskbar and select your audio "
 "device. The speaker icon will tell you whether or not your headset or "
 "speakers are disabled. Click the icon to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:172
+#: ../../source/faq.rst:174
 msgid ""
 "On Mac, go to **System Preferences > Sound > Output** tab. Choose the "
 "device you are using with Vircadia. At the bottom of the dialog, uncheck "
 "'Mute' to un-mute yourself."
 msgstr ""
 
-#: ../../source/faq.rst:174
+#: ../../source/faq.rst:176
 msgid ""
 "Your headset or speakers have a volume control of their own. Check that "
 "the volume is turned up on the device."
 msgstr ""
 
-#: ../../source/faq.rst:176
+#: ../../source/faq.rst:178
 msgid ""
 "In Vircadia, you have a different audio device selected than the one you "
 "want to use. Open the **Audio** app and make sure the right headset, "
 "speakers, and/or microphone are selected."
 msgstr ""
 
-#: ../../source/faq.rst:178
+#: ../../source/faq.rst:180
 msgid ""
 "Volume is turned down or off in Vircadia. Open the **Audio** app and "
 "check your volume settings."
+msgstr ""
+
+#: ../../source/faq.rst:187
+msgid "I have a problem with Vircadia on Windows with my AMD graphics card."
+msgstr ""
+
+#: ../../source/faq.rst:189
+msgid ""
+"AMD can sometimes introduce issues into their graphics card drivers on "
+"Windows. If you run into a new issue like mangled graphics or a crash on "
+"startup on your AMD graphics card, there is a chance that a driver update"
+" is at fault."
+msgstr ""
+
+#: ../../source/faq.rst:193
+msgid "Known broken driver versions include:"
+msgstr ""
+
+#: ../../source/faq.rst:195
+msgid "``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (mangled graphics)"
+msgstr ""
+
+#: ../../source/faq.rst:196
+msgid "``20.11.2 27.20.14501.18003`` (crashing)"
+msgstr ""
+
+#: ../../source/faq.rst:198
+msgid ""
+"To fix this kind of issue you generally need to `downgrade you graphics "
+"card driver <#amd-downgrade>`_ to an older working version."
+msgstr ""
+
+#: ../../source/faq.rst:201
+msgid ""
+"If you do run into an issue like this please consider opening an issue on"
+" our `GitHub issue tracker "
+"<https://github.com/vircadia/vircadia/issues>`_. If you are fairly sure "
+"that this is an AMD driver issue, please also consider `reporting the "
+"issue to AMD <https://www.amd.com/report>`_."
+msgstr ""
+
+#: ../../source/faq.rst:210
+msgid "How do I install a different AMD graphics driver on Windows?"
+msgstr ""
+
+#: ../../source/faq.rst:212
+msgid ""
+"First you should check which driver version and graphics card you are "
+"actually using. To do this, open your Adrenalin Control Panel either by "
+"clicking the tray icon, or by searching for \"AMD Radeon Software\" in "
+"your start menu. Then open your **Settings -> System** tab and check the "
+"\"Radeon Software Version\"."
+msgstr ""
+
+#: ../../source/faq.rst:219
+msgid ""
+"Check what drivers are available for your AMD graphics card via the `AMD "
+"website <https://www.amd.com/en/support>`_."
+msgstr ""
+
+#: ../../source/faq.rst:224
+msgid ""
+"Compare the driver version from the Adrenalin Control Panel with the "
+"recommended Radeon Adrenalin Software version."
+msgstr ""
+
+#: ../../source/faq.rst:229
+msgid ""
+"Take a look `further up <#amd-problem>`_ to see a list of known broken "
+"driver versions."
+msgstr ""
+
+#: ../../source/faq.rst:231
+msgid ""
+"If the version is lower, then please try upgrading to that version by "
+"clicking the appropriate download button and installing it. If the "
+"installer says it will continue after a restart and doesn't do so, just "
+"start it again."
+msgstr ""
+
+#: ../../source/faq.rst:235
+msgid ""
+"If you are on the same version, then try downgrading your driver by "
+"clicking the small \"Previous Drivers\" link at the bottom left of the "
+"list, and choosing an older recommended version."
+msgstr ""
+
+#: ../../source/faq.rst:242
+msgid "Just download and run the driver installer."
+msgstr ""
+
+#: ../../source/faq.rst:244
+msgid ""
+"If you are on a newer version, then please try downgrading to the "
+"\"Recommended\" driver version. Simply download and install using the "
+"same steps as above."
 msgstr ""
 
 #~ msgid ""
