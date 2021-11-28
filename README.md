@@ -2,9 +2,9 @@
 
 ![Master CI Deploy](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_build.yml/badge.svg) ![Master CI Warnings](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_warnings.yml/badge.svg) ![Master CI Linkcheck](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_linkcheck.yml/badge.svg)
 
-# Overview of Vircadia's Documentation Tools
+# Overview of Vircadia's User Documentation Tools
 
-For Vircadia's main documentation system, we use **Sphinx** to generate it, and a web server to publish/host it. GitHub is a helpful middleman and stores all of the docs.
+For Vircadia's user documentation system, we use **Sphinx** to generate it, and a web server to publish/host it. GitHub is a helpful middleman and stores all of the docs.
 
 **Sphinx** is an open-source, robust solution for software documentation that includes features that writers expect, like:
 
@@ -78,7 +78,7 @@ We encourage you to compile the documentation locally on your computer prior to 
 
 ## Compile Vircadia Documentation Locally
 
-1. Fork and clone https://github.com/vircadia/vircadia-docs-sphinx.
+1. Fork and clone `https://github.com/vircadia/vircadia-docs-sphinx`.
 2. Using a command line, `cd` to your local repository, then `cd` to the "docs" folder within it.
 3. Compile with the command `make html`.
 
@@ -100,15 +100,20 @@ A valuable resource for RST is the [official documentation](https://docutils.sou
 
 ## Using videos
 
-When adding videos to the documentation, it is important to use h264 *and* vp9 to ensure that they can be played it all major web browsers.
-To convert videos and animated images to vp9 you can use following command in ffmpeg:
+The `muted` property is needed for autoplay to work in Chrome.
 
-    ```
-    ffmpeg -i INPUTFILE -c:v libvpx-vp9 -b:v 0 -crf 5 -vf "scale=-2:'min(600,ih)'" -cpu-used 5 -row-mt 1 -c:a libopus -b:a 96K _static/videos/OUTPUTFILE.webm
-    ```
-Or to convert to h264:
+### Format & Conversion
 
-    ```
-    ffmpeg -i INPUTFILE -c:v libx264 -b:v 0 -crf 18 -vf "scale=-2:'min(600,ih)'" -c:a libfdk_aac -b:a 96K _static/videos/OUTPUTFILE.mp4
-    ```
-Keep in mind that the `:muted:` property is needed for autoplay in Chrome.
+When adding videos to the documentation, it is important to use H.264 *and* VP9 to ensure that they can be played in all major web browsers.
+
+To convert videos and animated images to VP9 you can use following command in ffmpeg:
+
+```
+ffmpeg -i INPUTFILE -c:v libvpx-vp9 -b:v 0 -crf 5 -vf "scale=-2:'min(600,ih)'" -cpu-used 5 -row-mt 1 -c:a libopus -b:a 96K _static/videos/OUTPUTFILE.webm
+```
+
+And to convert to H.264:
+
+```
+ffmpeg -i INPUTFILE -c:v libx264 -b:v 0 -crf 18 -vf "scale=-2:'min(600,ih)'" -c:a libfdk_aac -b:a 96K _static/videos/OUTPUTFILE.mp4
+```
