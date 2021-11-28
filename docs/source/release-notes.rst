@@ -1,8 +1,10 @@
-#############
-Release Notes
-#############
+#########################
+Release Notes (2019-2021)
+#########################
 
-See what's been released in Vircadia.
+The latest release notes for Vircadia's ecosystem can be found for each project `here <https://docs.vircadia.dev/>`__.
+
+Release notes from 2019 through 2021 can be found below.
 
 .. toctree::
     :maxdepth: 2
