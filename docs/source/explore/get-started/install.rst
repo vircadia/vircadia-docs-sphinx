@@ -62,7 +62,7 @@ Download Vircadia
 
 * macOS |MacOS|
 
-    * `macOS Intel - Selene v2022.1.0 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-Interface-2022.1.0-Selene.dmg>`__ |DownloadM|
+    * `macOS Intel - Selene v2022.1.0 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-2022.1.0-Selene.dmg>`__ |DownloadM|
 
 * Linux |Ubuntu|
 
@@ -96,7 +96,7 @@ VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
 .. |DownloadM| image:: _images/remixicon/download-2-fill.svg
               :class: inline
               :width: 20
-              :target: https://cdn.vircadia.com/dist/release-experimental/Vircadia-Interface-2022.1.0-Selene.dmg
+              :target: https://cdn.vircadia.com/dist/release-experimental/Vircadia-2022.1.0-Selene.dmg
 
 .. |DownloadLEU| image:: _images/remixicon/download-2-fill.svg
               :class: inline
