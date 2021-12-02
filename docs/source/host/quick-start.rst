@@ -4,7 +4,7 @@ Hosting Quick Start
 
 .. contents:: On This Page
     :depth: 2
-    
+
 ----------------------------
 Notice: Port Forwarding
 ----------------------------
@@ -30,18 +30,6 @@ Windows
 4. Go to ``http://localhost:40100/`` in your web browser and complete the wizard to set up your domain. If the server is on a different machine, then replace 'localhost' with its IP address.
 5. In your Vircadia Interface, open the `Explore` app and enter `localhost` (or the server's IP address) to get there.
 
-----------------------------------
-Amazon Linux 2 (.rpm) (Deprecated)
-----------------------------------
-
-1. Open your terminal.
-2. Run the following command to download and install the server:
-
-    sudo yum install |serverrpm|
-
-4. Go to ``http://[IP address of your server]:40100/`` in your web browser and complete the wizard to set up your domain.
-5. In your Vircadia Interface, open the `Explore` app and enter your server's IP address to get there.
-
 ----------------------------
 Ubuntu 18.04 Linux (.deb)
 ----------------------------
@@ -51,7 +39,7 @@ Ubuntu 18.04 Linux (.deb)
 
     wget |serverdeb|
 
-3. Then run this command to update the package index and install the server: 
+3. Then run this command to update the package index and install the server:
 
     sudo apt-get update && sudo apt-get install ./|serverdebfile|
 
