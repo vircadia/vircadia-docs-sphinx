@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-10-08 14:51+0000\n"
+"POT-Creation-Date: 2021-12-04 14:41+0000\n"
 "PO-Revision-Date: 2021-01-28 12:28+0000\n"
 "Last-Translator: Michael van Haarlem <michaelvanhaarlem@gmail.com>\n"
 "Language: fr\n"
@@ -2626,51 +2626,39 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/quick-start.rst:35
-msgid "Amazon Linux 2 (.rpm) (Deprecated)"
+msgid "Ubuntu 18.04 Linux (.deb)"
 msgstr ""
 
-#: ../../source/host/quick-start.rst:37 ../../source/host/quick-start.rst:49
+#: ../../source/host/quick-start.rst:37
 msgid "Open your terminal."
 msgstr ""
 
 #: ../../source/host/quick-start.rst:38
-msgid "Run the following command to download and install the server:"
+msgid "Run the following command to download the server package:"
 msgstr ""
 
 #: ../../source/host/quick-start.rst:40
-msgid "sudo yum install |serverrpm|"
+msgid "wget |serverdeb|"
 msgstr ""
 
-#: ../../source/host/quick-start.rst:42 ../../source/host/quick-start.rst:58
+#: ../../source/host/quick-start.rst:42
+msgid "Then run this command to update the package index and install the server:"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:44
+msgid "sudo apt-get update && sudo apt-get install ./|serverdebfile|"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:46
 msgid ""
 "Go to ``http://[IP address of your server]:40100/`` in your web browser "
 "and complete the wizard to set up your domain."
 msgstr ""
 
-#: ../../source/host/quick-start.rst:43 ../../source/host/quick-start.rst:59
+#: ../../source/host/quick-start.rst:47
 msgid ""
 "In your Vircadia Interface, open the `Explore` app and enter your "
 "server's IP address to get there."
-msgstr ""
-
-#: ../../source/host/quick-start.rst:47
-msgid "Ubuntu 18.04 Linux (.deb)"
-msgstr ""
-
-#: ../../source/host/quick-start.rst:50
-msgid "Run the following command to download the server package:"
-msgstr ""
-
-#: ../../source/host/quick-start.rst:52
-msgid "wget |serverdeb|"
-msgstr ""
-
-#: ../../source/host/quick-start.rst:54
-msgid "Then run this command to update the package index and install the server:"
-msgstr ""
-
-#: ../../source/host/quick-start.rst:56
-msgid "sudo apt-get update && sudo apt-get install ./|serverdebfile|"
 msgstr ""
 
 #: ../../source/host/server-setup.rst:34
@@ -2786,37 +2774,33 @@ msgid "Ubuntu Server 18.04 LTS"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:16
-msgid "Amazon Linux 2"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:22
 msgid "Unlisted Distribution"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:24
+#: ../../source/host/server-setup/linux-server.md:18
 msgid ""
 "If you do not see your distribution listed here, you may compile your own"
 " server from source using the [Vircadia "
 "builder](https://github.com/vircadia/vircadia-builder)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:26
+#: ../../source/host/server-setup/linux-server.md:20
 msgid "Configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:28
+#: ../../source/host/server-setup/linux-server.md:22
 msgid ""
 "The installation packages will create a domain at the default port "
 "location and configure a service to keep it running on that machine."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:30
+#: ../../source/host/server-setup/linux-server.md:24
 msgid ""
 "For the list of network ports that you will need to open and manage, see "
 "[here](../configure-settings/network-settings)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:32
+#: ../../source/host/server-setup/linux-server.md:26
 msgid ""
 "Connect a web browser to the server at port 40100. (If you are on the "
 "machine that the server is running on, this would be "
@@ -2824,44 +2808,44 @@ msgid ""
 "have a functioning domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:34
+#: ../../source/host/server-setup/linux-server.md:28
 msgid "Files and Server Configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:36
+#: ../../source/host/server-setup/linux-server.md:30
 msgid "The program files are installed in /opt/vircadia:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:37
+#: ../../source/host/server-setup/linux-server.md:31
 msgid "**/opt/vircadia** contains the executables"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:38
+#: ../../source/host/server-setup/linux-server.md:32
 msgid "**/opt/vircadia/lib** contains libraries required for operation"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:39
+#: ../../source/host/server-setup/linux-server.md:33
 msgid "**/opt/vircadia/plugins** is currently used for audio codecs"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:40
+#: ../../source/host/server-setup/linux-server.md:34
 msgid "**/opt/vircadia/resources** is required for the administrative website"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:42
+#: ../../source/host/server-setup/linux-server.md:36
 msgid ""
 "The executables in this folder (with the exception of <code>new-"
 "server</code>) cannot be launched from the command prompt without first "
 "setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:44
+#: ../../source/host/server-setup/linux-server.md:38
 msgid ""
 "The file <code>/etc/opt/vircadia/default.conf</code> contains any "
 "environment variables necessary to running the domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:46
+#: ../../source/host/server-setup/linux-server.md:40
 msgid ""
 "All content is stored under <code>/var/lib/vircadia/default</code>. All "
 "files underneath <code>/var/lib/vircadia</code> are owned by the user "
@@ -2869,81 +2853,81 @@ msgid ""
 "related processes."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:48
+#: ../../source/host/server-setup/linux-server.md:42
 msgid "Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:50
+#: ../../source/host/server-setup/linux-server.md:44
 msgid ""
 "The installation packages setup the following systemd services to manage "
 "the Vircadia domain:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:51
+#: ../../source/host/server-setup/linux-server.md:45
 msgid "**vircadia-domain-server@default.service**: Manages the core domain server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:52
+#: ../../source/host/server-setup/linux-server.md:46
 msgid ""
 "**vircadia-assignment-client@default.service**: Spawns and manages the "
 "assignment clients"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:53
+#: ../../source/host/server-setup/linux-server.md:47
 msgid ""
 "**vircadia-server@default.target**: Controls startup and shutdown of the "
 "above services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:55
+#: ../../source/host/server-setup/linux-server.md:49
 msgid ""
 "The <code>vircadia-server@default.target</code> service is the only one "
 "that is set to auto-start. Starting or stopping it will bring the other "
 "two services down."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:57
+#: ../../source/host/server-setup/linux-server.md:51
 msgid ""
 "The first two services log a large amount of data to their service "
 "journal. Checking their logs (via <code>systemctl status</code>) is a "
 "good way to ensure they are operating properly."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:59
+#: ../../source/host/server-setup/linux-server.md:53
 msgid "Multiple Domains"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:61
+#: ../../source/host/server-setup/linux-server.md:55
 msgid ""
 "The installation package is configured to permit multiple domains to run "
 "on a single server at different port numbers. New servers can be created "
 "using the following command:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:67
+#: ../../source/host/server-setup/linux-server.md:61
 msgid ""
 "where <code>name</code> is a word used to name and manage the domain and "
 "<code>base-port</code> must be the the first of a range of four "
 "contiguous port numbers not overlapping with any other use on the system."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:69
+#: ../../source/host/server-setup/linux-server.md:63
 msgid ""
 "Assuming you created a new server with the name **my-server-two**, this "
 "would setup the following:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:70
+#: ../../source/host/server-setup/linux-server.md:64
 msgid ""
 "Environment variables in <code>/etc/opt/vircadia/**my-server-"
 "two**.conf</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:71
+#: ../../source/host/server-setup/linux-server.md:65
 msgid "Content stored in <code>/var/lib/vircadia/**my-server-two**</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:72
+#: ../../source/host/server-setup/linux-server.md:66
 msgid ""
 "Services launched as <code>vircadia-domain-server@**my-server-"
 "two**.service</code>, <code>vircadia-assignment-client@**my-server-"
@@ -2951,45 +2935,45 @@ msgid ""
 "two**.target</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:74
+#: ../../source/host/server-setup/linux-server.md:68
 msgid "Deleting a Vircadia Server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:76
+#: ../../source/host/server-setup/linux-server.md:70
 msgid "Uninstall the package."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:86
+#: ../../source/host/server-setup/linux-server.md:80
 msgid "Deleting a Domain from a Multiple Domain Installation"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:88
+#: ../../source/host/server-setup/linux-server.md:82
 msgid "Find the name of the domain that you want to remove."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:94
+#: ../../source/host/server-setup/linux-server.md:88
 msgid ""
 "Pick the name of the domain that you want to remove from the list and "
 "then stop it."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:100
+#: ../../source/host/server-setup/linux-server.md:94
 msgid "Disable the service for the domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:106
+#: ../../source/host/server-setup/linux-server.md:100
 msgid "Remove the associated environment variables."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:112
+#: ../../source/host/server-setup/linux-server.md:106
 msgid "Remove all data and configurations."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:119
+#: ../../source/host/server-setup/linux-server.md:113
 msgid "Legacy Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:121
+#: ../../source/host/server-setup/linux-server.md:115
 msgid ""
 "There are a number of tweaks that are made to the default configuration "
 "to simplify storage and the ability to run multiple domains on one "
@@ -2998,18 +2982,18 @@ msgid ""
 "provided as an option."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:122
+#: ../../source/host/server-setup/linux-server.md:116
 msgid ""
 "Systemd services named <code>vircadia-domain-server.service</code>, <code"
 ">vircadia-assignment-client.service</code>, and <code>vircadia-"
 "server.target</code> *(without the @name)* have simplified configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:123
+#: ../../source/host/server-setup/linux-server.md:117
 msgid "No file is provided to specify environment variables for the server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:124
+#: ../../source/host/server-setup/linux-server.md:118
 msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
 msgstr ""
 
@@ -4739,5 +4723,17 @@ msgstr ""
 #~ "creativity, build your own virtual "
 #~ "worlds, and be a part of an "
 #~ "expanding metaverse."
+#~ msgstr ""
+
+#~ msgid "Amazon Linux 2 (.rpm) (Deprecated)"
+#~ msgstr ""
+
+#~ msgid "Run the following command to download and install the server:"
+#~ msgstr ""
+
+#~ msgid "sudo yum install |serverrpm|"
+#~ msgstr ""
+
+#~ msgid "Amazon Linux 2"
 #~ msgstr ""
 
