@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2021-11-27 17:25+0000\n"
+"PO-Revision-Date: 2021-12-04 14:41+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -10861,7 +10861,7 @@ msgstr ""
 
 #: ../../source/create/entities/zone-tutorial.md:143
 msgid "Add Ambient Light to a Zone"
-msgstr ""
+msgstr "Añadir Luz Ambiental a una Zona"
 
 #: ../../source/create/entities/zone-tutorial.md:145
 msgid ""
@@ -10869,26 +10869,34 @@ msgid ""
 "light and provides background lighting. For example, warm sunlight coming"
 " from a sunset in your domain is ambient light."
 msgstr ""
+"La luz ambiental en una zona es una fuente de luz diferente de la luz clave "
+"y proporciona iluminación de fondo. Por ejemplo, la luz solar cálida que "
+"proviene de una puesta de sol en tu dominio es luz ambiental."
 
 #: ../../source/create/entities/zone-tutorial.md:147
 msgid ""
 "Similar to the skybox, your ambient light image can be added as a JSON "
 "file."
 msgstr ""
+"Similar al skybox, tu imagen de luz ambiental se puede agregar como un "
+"archivo JSON."
 
 #: ../../source/create/entities/zone-tutorial.md:150
 msgid "Change the 'Ambient Intensity' to `1.00`."
-msgstr ""
+msgstr "Cambiar el \"Ambient Intensity\" (Intensidad Ambiental) a `1.00`."
 
 #: ../../source/create/entities/zone-tutorial.md:151
 msgid ""
 "In 'Ambient Source', add your ambient light JSON file, or click 'Copy "
 "from Skybox' to use the same image as the skybox."
 msgstr ""
+"En \"Ambient Source\" (Fuente Ambiental), añade tu archivo de luz ambiental, "
+"o haz click en \"Copy from Skybox\" para usar la misma imagen que el skybox."
 
 #: ../../source/create/entities/zone-tutorial.md:153
 msgid "Your zone's ambient lighting will change to the image you've provided."
 msgstr ""
+"La iluminación ambiental de tu zona cambiará a la imagen que proporcionaste."
 
 #: ../../source/create/environments.rst:5
 msgid ""
@@ -10897,20 +10905,26 @@ msgid ""
 "assets, and more. You could have a domain with a deserted island "
 "environment or a cyberpunk apartment environment."
 msgstr ""
+"Un dominio de Vircadia puede tener un entorno para expresar un tema. Los "
+"entornos incluyen todo el contenido del dominio, como entidades, skyboxes, "
+"activos (assets) y más. Podrías tener un dominio con un entorno de isla "
+"desierta o un entorno de apartamento cyberpunk."
 
 #: ../../source/create/environments.rst:10
 msgid "Create an Environment"
-msgstr ""
+msgstr "Crea un Ambiente"
 
 #: ../../source/create/environments.rst:12
 msgid ""
 "An environment consists different types of 3D models and a skybox "
 "following the theme of your choice. You can create an environment using:"
 msgstr ""
+"Un entorno consta de diferentes tipos de modelos 3D y un skybox siguiendo el "
+"tema de tu elección. Puedes crear un entorno usando:"
 
 #: ../../source/create/environments.rst:17
 msgid "3D Models Available"
-msgstr ""
+msgstr "Modelos 3D Disponibles"
 
 #: ../../source/create/environments.rst:17
 msgid ""
@@ -10919,10 +10933,14 @@ msgid ""
 "Asset Server <3d-models/import-model.html#import-3d-models-using-the-"
 "asset-server>`_."
 msgstr ""
+"Puedes comprar o :doc:`conseguri modelos 3D <3d-models/get-model>` de sitios "
+"web con contenido 3D en línea. Entonces, puedes `importar estos modelos "
+"usando el Asset Server <3d-models/import-model.html#import-3d-models-using-"
+"the-asset-server>`_."
 
 #: ../../source/create/environments.rst:21
 msgid "Your 3D Models"
-msgstr ""
+msgstr "Tus Modelos 3D"
 
 #: ../../source/create/environments.rst:21
 msgid ""
@@ -10930,10 +10948,13 @@ msgid ""
 "3D models and `import them into your Vircadia Domain <3d-models/import-"
 "model.html#import-3d-models-using-the-asset-server>`_."
 msgstr ""
+"Puedes utilizar software de modelado 3D como Blender o Maya para crear tus "
+"propios modelos 3D e `importarlos a tu dominio de Vircadia <3d-models/import-"
+"model.html#import-3d-models-using-the-asset-server>`_."
 
 #: ../../source/create/environments.rst:25
 msgid "A Content Archive File"
-msgstr ""
+msgstr "Un Archivo de Contenido"
 
 #: ../../source/create/environments.rst:25
 msgid ""
@@ -10942,10 +10963,15 @@ msgid ""
 " `use a backup file of your own or one sent to you by a user <../host"
 "/maintain-domain/backup-domain.html>`_."
 msgstr ""
+"La configuración del dominio de Vircadia tiene archivos de contenido "
+"descargables. Estos archivos son archivos zip que contienen toda la "
+"información del contenido del dominio. Puedes `utilizar un archivo de copia "
+"de seguridad propio o uno que te haya enviado un usuario <../host/"
+"maintain-domain/backup-domain.html>`_."
 
 #: ../../source/create/environments.rst:32
 msgid ":doc:`Get Your 3D Model <3d-models/get-model>`"
-msgstr ""
+msgstr ":doc:`Obtén Tu Modelo 3D <3d-models/get-model>`"
 
 #: ../../source/create/environments.rst:33
 msgid ""
