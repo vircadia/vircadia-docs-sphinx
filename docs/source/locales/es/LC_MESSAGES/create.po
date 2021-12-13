@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2021-12-04 20:09+0000\n"
+"PO-Revision-Date: 2021-12-13 15:58+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -11172,6 +11172,11 @@ msgid ""
 "DirectX programs. Although these languages share a lot of similarities, "
 "you cannot use HLSL code in an OpenGL application without modification."
 msgstr ""
+"Lo primero que debes tener en cuenta es que existen algunos lenguajes de "
+"sombreado. GLSL es uno que utiliza OpenGL, y los shaders (sombreadores) de "
+"Vircadia se basan en este lenguaje. Otro común es HLSL, que se usa a menudo "
+"para programas DirectX. Aunque estos lenguajes comparten muchas similitudes, "
+"no puedes usar código HLSL en una aplicación OpenGL sin modificaciones."
 
 #: ../../source/create/materials/procedural-shaders.rst:43
 msgid ""
@@ -11180,10 +11185,14 @@ msgid ""
 "GLSL, and a custom set of naming conventions for fragment or vertex "
 "components."
 msgstr ""
+"Otra consideración es que Vircadia no expone la gama completa de lo que GLSL "
+"ofrece a los scripters. En cambio, a los usuarios se les ofrece un "
+"subconjunto de GLSL y un conjunto personalizado de convenciones de "
+"nomenclatura para componentes de fragmentos o vértices."
 
 #: ../../source/create/materials/procedural-shaders.rst:47
 msgid "Basic Method for Using Shaders"
-msgstr ""
+msgstr "Método Básico para Usar Sombreadores"
 
 #: ../../source/create/materials/procedural-shaders.rst:49
 msgid ""
@@ -11191,6 +11200,10 @@ msgid ""
 "the file extension ***.fs** or ***.frag** and vertex shaders will usually"
 " have the ***.vs** or ***.vert** file extension."
 msgstr ""
+"El código de los sombreadores se almacena como un archivo. Los sombreadores "
+"de fragmentos normalmente tendrán la extensión de archivo ***.fs** o ***."
+"frag** y los sombreadores de vértices suelen tener la extensión de archivo "
+"***.vs** or ***.vert**."
 
 #: ../../source/create/materials/procedural-shaders.rst:51
 msgid ""
@@ -11198,12 +11211,17 @@ msgid ""
 " material. That material is then attached to your entity or avatar, "
 "therefore applying the shader as intended."
 msgstr ""
+"Los sombreadores se aplican a entidades y avatares adjuntándolos a un "
+"material. Luego, ese material se adjunta a su entidad o avatar, por lo que "
+"se aplica el sombreador según lo previsto."
 
 #: ../../source/create/materials/procedural-shaders.rst:53
 msgid ""
 "If you are unfamiliar with material entities, you can find more "
 "information :doc:`here <../entities/material-entity>`."
 msgstr ""
+"Si no estás familiarizado con las entidades materiales, puedes encontrar más "
+"información :doc:`aquí <../entities/material-entity>`."
 
 #: ../../source/create/materials/procedural-shaders.rst:55
 msgid ""
@@ -11211,12 +11229,17 @@ msgid ""
 "have a property called ``materialData``. The ``materialData`` property "
 "requires ``model`` and ``procedural`` fields. Here is an example::"
 msgstr ""
+"Las entidades materiales tienen datos que se almacenan en formato JSON y "
+"tienen una propiedad llamada ``materialData``. La propiedad ``materialData``"
+"requiere los campos ``model`` y ``procedural``. Aquí hay un ejemplo::"
 
 #: ../../source/create/materials/procedural-shaders.rst:67
 msgid ""
 "The ``materialData`` JSON can be applied either via the Vircadia "
 "Interface’s edit tools or with a script. Here's another example::"
 msgstr ""
+"El JSON ``materialData`` se puede aplicar a través de las herramientas de "
+"edición de Interfaz de Vircadia o con un script. Aquí hay otro ejemplo::"
 
 #: ../../source/create/materials/procedural-shaders.rst:84
 msgid ""
@@ -11225,6 +11248,10 @@ msgid ""
 "``fragmentShaderURL`` (or ``shaderUrl``). To provide a vertex shader, set"
 " ``vertexShaderURL``."
 msgstr ""
+"Debes especificar el material ``model`` como ``\"hifi_shader_simple\"`` y "
+"proporcionar un enlace de sombreado (shader link). Para proporcionar un "
+"sombreador de fragmentos, establece ``fragmentShaderURL`` (o ``shaderUrl``). "
+"Para proporcionar un sombreador de vértices, establece ``vertexShaderURL``."
 
 #: ../../source/create/materials/procedural-shaders.rst:86
 msgid ""
@@ -11233,10 +11260,14 @@ msgid ""
 "JSON.stringify'd version of the materialData as shown above into the "
 "field."
 msgstr ""
+"Para establecer el ``materialData`` utilizando las herramientas de edición, "
+"querrás establecer ``materialURL`` equivalente a ``\"materialData\"``. Luego "
+"ingresa la versión JSON.stringify teniendo materialData como se muestra "
+"arriba en el campo."
 
 #: ../../source/create/materials/procedural-shaders.rst:90
 msgid "Shader Template"
-msgstr ""
+msgstr "Plantilla de Sombreado"
 
 #: ../../source/create/materials/procedural-shaders.rst:92
 msgid ""
@@ -11245,6 +11276,10 @@ msgid ""
 " specific function name that must be called. Which function is used "
 "depends on which version of the shader you use."
 msgstr ""
+"Cuando aprendas sobre sombreadores para otras aplicaciones, el sombreador "
+"puede tener una función como ``main ()`` que se ejecuta primero. Por el "
+"contrario, Vircadia tiene un nombre de función específico que debe llamarse. "
+"La función que se utilice depende de la versión del sombreador que utilices."
 
 #: ../../source/create/materials/procedural-shaders.rst:94
 msgid ""
@@ -11256,6 +11291,15 @@ msgid ""
 "most computationally expensive. Therefore it is recommended to use "
 "version 3 if that extra feature from version 4 is not needed."
 msgstr ""
+"A medida que se desarrollaron los sombreadores, sus características "
+"evolucionaron un poco con el tiempo. Como resultado, hay varias versiones de "
+"sombreado y cada versión tiene una firma de llamada diferente (call "
+"signature). **Las Versiones 1 y 2** son las más viejas y seguirán "
+"funcionando. **Las Versiones 3 y 4** son las más nuevas y exponen más "
+"funciones. La versión 4 proporciona posiciones por fragmento, sin embargo, "
+"también es la más costosa desde el punto de vista computacional. Por lo "
+"tanto, se recomienda utilizar la versión 3 si esa característica adicional "
+"de la versión 4 no es necesaria."
 
 #: ../../source/create/materials/procedural-shaders.rst:96
 msgid ""
@@ -11264,12 +11308,18 @@ msgid ""
 "that assist in that processing logic (which must go above the main "
 "function)."
 msgstr ""
+"Un sombreador consta de dos piezas principales: **la función principal** que "
+"es responsable de colorear el píxel y cualquier **función auxiliar** deseada "
+"que ayude en esa lógica de procesamiento (que debe ir por encima de la "
+"función principal)."
 
 #: ../../source/create/materials/procedural-shaders.rst:98
 msgid ""
 "A basic template for a shader without helper functions looks something "
 "like this example::"
 msgstr ""
+"Una plantilla básica para un sombreador sin funciones auxiliares se parece a "
+"este ejemplo::"
 
 #: ../../source/create/materials/procedural-shaders.rst:111
 msgid ""
@@ -11280,10 +11330,16 @@ msgid ""
 " the ``data`` struct which is outlined in `Provided Methods, Constants, "
 "and Structs`_."
 msgstr ""
+"La función ``getProceduralFragment()`` es el punto de entrada principal por "
+"defecto para el sombreador de fragmentos. Debido a que el compilador siempre "
+"lee los sombreadores de arriba hacia abajo, esta función siempre debe ser la "
+"última en tu código de sombreado. También necesitarás saber qué está "
+"disponible para ti en la estructura ``data`` que se describe en `Métodos, "
+"constantes y estructuras proporcionadas`_."
 
 #: ../../source/create/materials/procedural-shaders.rst:115
 msgid "Global Variables"
-msgstr ""
+msgstr "Variables Globales"
 
 #: ../../source/create/materials/procedural-shaders.rst:117
 msgid ""
@@ -11291,36 +11347,44 @@ msgid ""
 "are a number of global variables that provide useful data when "
 "calculating procedural effects."
 msgstr ""
+"Además de los valores proporcionados por los argumentos de la función de "
+"sombreado, hay una serie de variables globales que proporcionan datos útiles "
+"al calcular los efectos de procedimiento."
 
 #: ../../source/create/materials/procedural-shaders.rst:119
 msgid "The following global variables are provided::"
-msgstr ""
+msgstr "Se proporcionan las siguientes variables globales::"
 
 #: ../../source/create/materials/procedural-shaders.rst:132
 msgid "The following variables are defined but currently not implemented::"
 msgstr ""
+"Las siguientes variables están definidas pero actualmente no implementadas::"
 
 #: ../../source/create/materials/procedural-shaders.rst:139
 msgid ""
 "The following per-fragment uniforms are also provided in all shader "
 "versions::"
 msgstr ""
+"Los siguientes uniformes por fragmento también se proporcionan en todas las "
+"versiones de sombreado::"
 
 #: ../../source/create/materials/procedural-shaders.rst:150
 msgid "Provided Methods, Constants, and Structs"
-msgstr ""
+msgstr "Métodos, Constantes y Estructuras Proporcionadas"
 
 #: ../../source/create/materials/procedural-shaders.rst:152
 msgid "Here is a full list of the provided methods, constants, and structs::"
 msgstr ""
+"Aquí hay una lista completa de los métodos, constantes y estructuras "
+"proporcionadas::"
 
 #: ../../source/create/materials/procedural-shaders.rst:215
 msgid "Shader Version 1"
-msgstr ""
+msgstr "Versión 1 del Sombreador"
 
 #: ../../source/create/materials/procedural-shaders.rst:222
 msgid "Shader Version 2"
-msgstr ""
+msgstr "Versión 2 del Sombreador"
 
 #: ../../source/create/materials/procedural-shaders.rst:228
 msgid ""
@@ -11329,18 +11393,22 @@ msgid ""
 "return value is ``emissiveAmount``. If the returned value is greater than"
 " ``0``, the object will be treated as emissive."
 msgstr ""
+"Opcionalmente, el método puede establecerse con diffuse (difuso), specular "
+"(especular) y shininess (brillo), pero no tiene por qué hacerlo. El rango de "
+"brillo va desde ``0`` a ``128``. El valor de retorno es ``emissiveAmount``. "
+"Si el valor devuelto es mayor que ``0``, el objeto será tratado como emisivo."
 
 #: ../../source/create/materials/procedural-shaders.rst:233
 msgid "Shader Version 3"
-msgstr ""
+msgstr "Versión 3 del Sombreador"
 
 #: ../../source/create/materials/procedural-shaders.rst:239
 msgid "``ProceduralFragment`` **struct**::"
-msgstr ""
+msgstr "**Estructura** del ``ProceduralFragment``::"
 
 #: ../../source/create/materials/procedural-shaders.rst:253
 msgid "The default values for some of these are::"
-msgstr ""
+msgstr "Los valores predeterminados para algunos de estos son::"
 
 #: ../../source/create/materials/procedural-shaders.rst:264
 msgid ""
@@ -11348,14 +11416,18 @@ msgid ""
 "the output. The return value is ``emissiveAmount``. If the returned value"
 " is greater than ``0``, the object will be treated as emissive."
 msgstr ""
+"El método puede establecer opcionalmente cualquiera de los valores en la "
+"estructura para afectar la salida. El valor de retorno es ``emissiveAmount``"
+". Si el valor devuelto es mayor que ``0``, el objeto será tratado como "
+"emisivo."
 
 #: ../../source/create/materials/procedural-shaders.rst:268
 msgid "Shader Version 4"
-msgstr ""
+msgstr "Versión 4 del Sombreador"
 
 #: ../../source/create/materials/procedural-shaders.rst:274
 msgid "``ProceduralFragmentWithPosition`` **struct**::"
-msgstr ""
+msgstr "**Estructura** del ``ProceduralFragmentWithPosition``::"
 
 #: ../../source/create/materials/procedural-shaders.rst:289
 msgid ""
@@ -11365,6 +11437,12 @@ msgid ""
 "and is dynamically lit by light entities. The trade-off is that this "
 "version is much more computationally expensive than version 3."
 msgstr ""
+"Es lo mismo que la versión 3 del sombreador pero con posición por fragmento. "
+"Al modificar la posición, puedes modificar la profundidad por fragmento. "
+"Esto te permite crear cosas como geometría de rayos que realizan pruebas de "
+"profundidad correctamente y se iluminan dinámicamente con entidades de luz. "
+"La compensación es que esta versión es mucho más costosa computacionalmente "
+"que la versión 3."
 
 #: ../../source/create/materials/procedural-shaders.rst:293
 msgid "Zone Entities"
