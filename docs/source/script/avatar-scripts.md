@@ -29,7 +29,7 @@ You can add multiple scripts to your avatar by adding multiple `script = url` li
 The following script makes your avatar throw balls when its right hand moves.
 
 ```javascript
-function(){
+(function(){
     var triggerDistance = 0.0;
     var TRIGGER_THRESHOLD = 0.9;
     var LOAD_THRESHOLD = 0.6
@@ -70,7 +70,7 @@ function(){
     MyAvatar.scaleChanged.connect(function () {
         triggerDistance = 0.0;
     });
-})()
+}());
 ```
 
 This example script uses the [MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html) namespace to determine if your avatar's hand moves. Upon detecting movement, the script makes your avatar launch balls. It also uses some other namespaces such as [Entities](https://apidocs.vircadia.dev/Entities.html) (to create the ball you will launch) and [Vec3](https://apidocs.vircadia.dev/Vec3.html) (to determine the right positions and distances). Add it to your avatar to see how it works.
