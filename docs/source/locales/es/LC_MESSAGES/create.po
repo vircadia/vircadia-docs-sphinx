@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2021-12-13 15:58+0000\n"
+"PO-Revision-Date: 2021-12-20 14:36+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/es/>\n"
@@ -11446,7 +11446,7 @@ msgstr ""
 
 #: ../../source/create/materials/procedural-shaders.rst:293
 msgid "Zone Entities"
-msgstr ""
+msgstr "Entidades de Zona"
 
 #: ../../source/create/materials/procedural-shaders.rst:295
 msgid ""
@@ -11454,64 +11454,80 @@ msgid ""
 "defines but not the provided methods or constants. They also provide the "
 "following inputs: ::"
 msgstr ""
+"Las entidades de zona operan de manera ligeramente diferente. Admiten las "
+"mismas definiciones globales pero no los métodos o constantes "
+"proporcionados. También proporcionan las siguientes entradas: ::"
 
 #: ../../source/create/materials/procedural-shaders.rst:302
 msgid "And must implement the following method, regardless of version: ::"
 msgstr ""
+"Y debes implementar el siguiente método, independientemente de la versión: ::"
 
 #: ../../source/create/materials/procedural-shaders.rst:307
 msgid ""
 "Zones also support custom uniforms and textures (currently only 2D "
 "textures)."
 msgstr ""
+"Las zonas también admiten uniformes y texturas personalizadas (actualmente "
+"solo texturas 2D)."
 
 #: ../../source/create/materials/procedural-shaders.rst:311
 msgid "Vertex Shaders"
-msgstr ""
+msgstr "Sombreadores de Vértices"
 
 #: ../../source/create/materials/procedural-shaders.rst:313
 msgid "A vertex shader must implement::"
-msgstr ""
+msgstr "Un sombreador de vértices debe implementar::"
 
 #: ../../source/create/materials/procedural-shaders.rst:317
 msgid "And will include this struct::"
-msgstr ""
+msgstr "E incluirá esta estructura::"
 
 #: ../../source/create/materials/procedural-shaders.rst:332
 msgid "For Both Fragment and Vertex Shaders"
-msgstr ""
+msgstr "Para Ambos Sombreadores de Fragmentos y Vértices"
 
 #: ../../source/create/materials/procedural-shaders.rst:336
 msgid "Custom Uniforms and Textures"
-msgstr ""
+msgstr "Texturas y Uniformes Personalizados"
 
 #: ../../source/create/materials/procedural-shaders.rst:338
 msgid ""
 "Procedural materials also support up to 4 custom textures and many custom"
 " uniforms. These can be defined as follows::"
 msgstr ""
+"Los materiales de procedimiento también admiten hasta 4 texturas "
+"personalizadas y muchos uniformes personalizados. Estos se pueden definir de "
+"la siguiente manera::"
 
 #: ../../source/create/materials/procedural-shaders.rst:357
 msgid ""
 "When texture URLs are provided, iChannel0 - iChannel3 will be populated, "
 "as well as iChannelResolution[0] - iChannelResolution[3]."
 msgstr ""
+"Cuando se proporciona la URL de textura, iChannel0 - iChannel3 serán "
+"llenados, así cómo iChannelResolution[0] - iChannelResolution[3]."
 
 #: ../../source/create/materials/procedural-shaders.rst:359
 msgid ""
 "When you provide uniforms, you must also include them at the top of your "
 "shader file, with optional defaults::"
 msgstr ""
+"Cuando proporciones uniformes (uniforms), también debes incluirlos en la "
+"parte superior de tu archivo de sombreado, con valores predeterminados "
+"opcionales::"
 
 #: ../../source/create/materials/procedural-shaders.rst:366
 msgid ""
 "Supported uniform types are: ``float``, ``vec2``, ``vec3``, and ``vec4``."
 " (Multiple values are provided as arrays.)"
 msgstr ""
+"Los tipos de uniformes admitidos son: ``float``, ``vec2``, ``vec3``, and "
+"``vec4``. (Se proporcionan varios valores como arrays)"
 
 #: ../../source/create/materials/procedural-shaders.rst:370
 msgid "Alpha Effects (Transparency)"
-msgstr ""
+msgstr "Efectos Alfa (Transparencia)"
 
 #: ../../source/create/materials/procedural-shaders.rst:372
 msgid ""
@@ -11521,10 +11537,15 @@ msgid ""
 "than ``1.0``, or a material property setting opacity to less than "
 "``1.0``."
 msgstr ""
+"Los Sombreadores que hacen uso del valor de ``proceduralData.alpha``no "
+"mostrarán alfa por sí mismos. Para que el alfa de un sombreador esté activo, "
+"la entidad a la que se aplica primero debe tener su propiedad alfa menor que "
+"``1.0``, o una propiedad del material que establece la opacidad a menos de "
+"``1.0``."
 
 #: ../../source/create/materials/procedural-shaders.rst:376
 msgid "Debugging Shaders"
-msgstr ""
+msgstr "Depuración de Sombreadores"
 
 #: ../../source/create/materials/procedural-shaders.rst:378
 msgid ""
@@ -11532,6 +11553,9 @@ msgid ""
 " file. Shader compilation errors will appear in this log, and can help "
 "with locating issues."
 msgstr ""
+"La única forma de depurar sombreadores en este momento es mirar el archivo "
+"de registro de Interface. Los errores de compilación del sombreador (shader) "
+"aparecerán en este registro y pueden ayudar a localizar problemas."
 
 #: ../../source/create/materials/procedural-shaders.rst:380
 msgid ""
@@ -11541,20 +11565,28 @@ msgid ""
 " a result, you will need to locate the shader code that corresponds to "
 "your shader at the end of the larger internal shader context."
 msgstr ""
+"Porque un sombreador creado por el usuario se integra en última instancia en "
+"un marco de sombreado interno más grande, notarás que un error en un "
+"sombreador de 20 líneas se informará en un número de línea mucho más alto, "
+"generalmente mayor que 1000. Como resultado, deberás ubicar el código de "
+"sombreado que corresponde a tu sombreador al final del contexto de sombreado "
+"interno más grande."
 
 #: ../../source/create/materials/procedural-shaders.rst:384
 msgid "Shader Examples by Version"
-msgstr ""
+msgstr "Ejemplos de Sombreador por Versión"
 
 #: ../../source/create/materials/procedural-shaders.rst:424
 msgid ""
 "For further details on each version, see `Provided Methods, Constants, "
 "and Structs`_."
 msgstr ""
+"Para obtener más detalles sobre cada versión, consulta `Métodos, constantes "
+"y estructuras proporcionadas`_."
 
 #: ../../source/create/materials/procedural-shaders.rst:428
 msgid "A Cautionary Note on Shaders"
-msgstr ""
+msgstr "Una Nota de Advertencia sobre los Sombreadores"
 
 #: ../../source/create/materials/procedural-shaders.rst:430
 msgid ""
@@ -11565,6 +11597,13 @@ msgid ""
 "by a bad actor can slow things down to a crawl or interfere with a user’s"
 " view of the virtual world."
 msgstr ""
+"Vircadia no habilita la visualización de sombreadores de procedimiento por "
+"defecto. Esto se debe a que actualmente son una función experimental. Los "
+"sombreadores son una herramienta muy poderosa y, cuando se usan "
+"incorrectamente, pueden dañar la experiencia del usuario para todos en el "
+"dominio. Un sombreador mal escrito o un sombreador creado por un mal actor "
+"pueden ralentizar las cosas o interferir con la visión del mundo virtual del "
+"usuario."
 
 #: ../../source/create/materials/procedural-shaders.rst:432
 msgid ""
@@ -11574,18 +11613,27 @@ msgid ""
 "shader that has hundreds of lines of code, consider trimming it down if "
 "possible."
 msgstr ""
+"Los sombreadores se utilizan mejor como una especia muy fuerte en una "
+"receta. Intenta mantenerlos pequeños y eficientes. Los sombreadores pueden "
+"producir efectos maravillosos y alucinantes, pero el uso excesivo puede "
+"estropear el efecto final deseado. Si creas un sombreador que tiene cientos "
+"de líneas de código, considera recortarlo si es posible."
 
 #: ../../source/create/materials/procedural-shaders.rst:434
 msgid ""
 "If you find yourself in a position where a shader is causing trouble for "
 "you, remember that you can disable them in the Vircadia Interface."
 msgstr ""
+"Si te encuentras en una posición en la que un sombreador te está causando "
+"problemas, recuerda que puedes deshabilitarlos en la Interfaz de Vircadia."
 
 #: ../../source/create/tools.rst:2
 msgid ""
 "This document is outdated and will be revisited in the future. FIXME: "
 "mentions supposedly know issues"
 msgstr ""
+"Este documento está desactualizado y se revisará en el futuro. COMENTARIO: "
+"supuestamente se mencionan problemas conocidos"
 
 #: ../../source/create/tools.rst:9
 msgid ""
@@ -11595,10 +11643,16 @@ msgid ""
 "tune your creations. These tools can help you create anything from a cool"
 " avatar or a baseball hat, to a magic themed domain."
 msgstr ""
+"Para construir y crear cosas en Vircadia, debes familiarizarte con las "
+"herramientas disponibles. Hemos creado nuestras propias herramientas "
+"personalizadas (incluida la aplicación Crear). Además, puedes utilizar "
+"muchas herramientas externas para perfeccionar tus creaciones. Estas "
+"herramientas pueden ayudarte a crear cualquier cosa, desde un avatar genial "
+"o una gorra de béisbol, hasta un dominio temático mágico."
 
 #: ../../source/create/tools.rst:16
 msgid "The Create App"
-msgstr ""
+msgstr "La Aplicación Crear"
 
 #: ../../source/create/tools.rst:18
 msgid ""
@@ -11606,6 +11660,9 @@ msgid ""
 "/create-entities>`. In Interface, pull up your HUD or Tablet and go to "
 "**Create** to get started. With the Create app, you can:"
 msgstr ""
+"Utiliza la apliación **Crear** (Create App) para crear cualquier :doc:`tipo "
+"de entidad <entities/create-entities>`. En la interfaz, abre tu HUD o "
+"tableta y ve a **Create** para comenzar. Con la aplicación Crear, puedes:"
 
 #: ../../source/create/tools.rst:20
 msgid ""
@@ -11613,6 +11670,9 @@ msgid ""
 "externally created :doc:`models <3d-models/import-model>` and "
 ":doc:`materials <entities/material-entity>`."
 msgstr ""
+":doc:`Agregar cualquier tipo de entidad <entities/create-entities>` e "
+"importar :doc:`modelos <3d-models/import-model>` y :doc:`materiales <"
+"entities/material-entity>` creados externamente ."
 
 #: ../../source/create/tools.rst:21
 msgid ""
@@ -11620,10 +11680,15 @@ msgid ""
 "appearance>`, `position <entities/entity-appearance.html#move-an-"
 "entity>`_, and :doc:`behavior <entities/entity-behavior>`."
 msgstr ""
+"Edita las propiedades de la entidad, como su :doc:`apariencia <entities/"
+"entity-appearance>`, `posición <entities/entity-appearance.html#move-an-"
+"entity>`_, y :doc:`comportamiento <entities/entity-behavior>`."
 
 #: ../../source/create/tools.rst:22
 msgid "Expose a grid that assists you with the layout and placement of entities."
 msgstr ""
+"Expone una cuadrícula que te ayude con el diseño y la ubicación de las "
+"entidades."
 
 #: ../../source/create/tools.rst:23
 msgid ""
@@ -11631,16 +11696,22 @@ msgid ""
 "When you're using an HMD, the entity list will be an additional tab in "
 "the Create app. In Desktop mode, the Entity List is its own window."
 msgstr ""
+"Muestra la `Lista de Entidades`_, las cuales listan todas las entidades del "
+"dominio. Cuando uses un HMD, la lista de entidades será una pestaña "
+"adicional en la aplicación Crear. En el modo de escritorio, la Lista de "
+"Entidades es tu propia ventana."
 
 #: ../../source/create/tools.rst:27
 msgid "Entity List"
-msgstr ""
+msgstr "Lista de Entidades"
 
 #: ../../source/create/tools.rst:29
 msgid ""
 "The Entity List shows you all entities in the local domain. You can "
 "filter by entity type and by distance from the current location."
 msgstr ""
+"La lista de entidades te muestra todas las entidades en el dominio local. "
+"Puedes filtrar por tipo de entidad y por distancia desde la ubicación actual."
 
 #: ../../source/create/tools.rst:31
 msgid ""
@@ -11649,10 +11720,15 @@ msgid ""
 " entities are set in reference to the parent entity. When set to 'World',"
 " these settings are set in reference to the world's default position."
 msgstr ""
+"En la parte superior de la lista de entidades, puedes cambiar entre la vista "
+"\"Local\" y \"World\" (Mundial). Cuando se establece en \"Local\", la "
+"configuración de posición, tamaño y rotación de las entidades se establece "
+"en referencia a la entidad principal. Cuando se establece en\"World\", estos "
+"ajustes se establecen en referencia a la posición predeterminada del mundo."
 
 #: ../../source/create/tools.rst:33
 msgid "When you select an entity in the Entity List, you can:"
-msgstr ""
+msgstr "Cuando seleccionas una entidad en la Lista de Entidades, puedes:"
 
 #: ../../source/create/tools.rst:35
 msgid ""
@@ -11660,42 +11736,56 @@ msgid ""
 "your domain. You will see the entity with a bounding box and arrows "
 "around it."
 msgstr ""
+"Buscar una entidad: puedes hacer doble click en una entidad de la lista para "
+"verla en tu dominio. Verás la entidad con un cuadro delimitador y flechas a "
+"su alrededor."
 
 #: ../../source/create/tools.rst:36
 msgid ""
 "Lock an entity: A locked entity cannot be edited. Select an entity and "
 "click the lock icon on the top of the window."
 msgstr ""
+"Bloquear una entidad: una entidad bloqueada no se puede editar. Selecciona "
+"una entidad y haz click en el icono de candado en la parte superior de la "
+"ventana."
 
 #: ../../source/create/tools.rst:37
 msgid ""
 "Change visibility: You can hide or make an entity visible. Select an "
 "entity and click the eye icon on the top of the window."
 msgstr ""
+"Cambiar la visibilidad: puedes ocultar o hacer visible una entidad. "
+"Selecciona una entidad y haz click en el icono del ojo en la parte superior "
+"de la ventana."
 
 #: ../../source/create/tools.rst:38
 msgid "Name an entity: Name an entity when you select it on the list."
 msgstr ""
+"Nombrar una entidad: nombra una entidad cuando la selecciones en la lista."
 
 #: ../../source/create/tools.rst:39
 msgid ""
 "Delete an entity: Delete an entity by clicking on the red bin icon on the"
 " top-right corner of the window."
 msgstr ""
+"Eliminar una entidad: elimina una entidad haciendo click en el icono de la "
+"papelera roja en la esquina superior derecha de la ventana."
 
 #: ../../source/create/tools.rst:43
 msgid "External Creator Tools"
-msgstr ""
+msgstr "Herramientas de Creación Externas"
 
 #: ../../source/create/tools.rst:45
 msgid ""
 "We've listed some external tools you might want to use to create avatars "
 "and 3D models."
 msgstr ""
+"Hemos enumerado algunas herramientas externas que quizás desees utilizar "
+"para crear avatares y modelos 3D."
 
 #: ../../source/create/tools.rst:49
 msgid "Mixamo"
-msgstr ""
+msgstr "Mixamo"
 
 #: ../../source/create/tools.rst:51
 msgid ""
@@ -11703,10 +11793,14 @@ msgid ""
 " avatar's skeleton for you. You do not need any advanced knowledge of "
 "rigging to create simple animations for your avatar."
 msgstr ""
+"`Mixamo <https://www.mixamo.com>`_ es un sistema de manipulación que "
+"manipulará el esqueleto de tu avatar por ti. No necesitas ningún "
+"conocimiento avanzado de rigging (manipulación y ensamblado) para crear "
+"animaciones simples para tu avatar."
 
 #: ../../source/create/tools.rst:55
 msgid "Blender"
-msgstr ""
+msgstr "Blender"
 
 #: ../../source/create/tools.rst:57
 msgid ""
@@ -11716,10 +11810,15 @@ msgid ""
 "avatar, and ensure that the materials and textures render correctly in "
 "Vircadia."
 msgstr ""
+"`Blender <https://www.blender.org>`_ es una suite de creación de modelado 3D "
+"de código abierto que admite todo, desde modelado y rigging, hasta animación "
+"y simulación. También puedes usar Blender para ajustar tu avatar y "
+"asegurarte de que los materiales y texturas se representen correctamente en "
+"Vircadia."
 
 #: ../../source/create/tools.rst:61
 msgid "Maya"
-msgstr ""
+msgstr "Maya"
 
 #: ../../source/create/tools.rst:63
 msgid ""
@@ -11727,10 +11826,13 @@ msgid ""
 "subscription based 3D modeling toolset that you can use to create 3D "
 "models to import into Vircadia."
 msgstr ""
+"`Maya <https://www.autodesk.in/products/maya/overview>`_ es un conjunto de "
+"herramientas de modelado 3D basado en suscripción que puedes utilizar para "
+"crear modelos 3D para importarlos a Vircadia."
 
 #: ../../source/create/tools.rst:67
 msgid "Blocks"
-msgstr ""
+msgstr "Blocks"
 
 #: ../../source/create/tools.rst:69
 msgid ""
@@ -11740,24 +11842,32 @@ msgid ""
 "<http://store.steampowered.com/app/533970/Blocks_by_Google>`_ or download"
 " it for the VR equipment you are using."
 msgstr ""
+"`Blocks <https://vr.google.com/blocks>`_ es una herramienta de modelado 3D "
+"que puedes utilizar en realidad virtual. Blocks te permite crear modelos "
+"fácilmente independientemente de tu experiencia. Puedes crear algo en `"
+"Blocks através de Steam <http://store.steampowered.com/app/533970/"
+"Blocks_by_Google>`_ o descárgalo para el equipo de realidad virtual que "
+"estás utilizando."
 
 #: ../../source/create/tools.rst:73
 msgid ":doc:`Entities <entities>`"
-msgstr ""
+msgstr ":doc:`Entidades <entities>`"
 
 #: ../../source/create/tools.rst:74
 msgid ":doc:`Create New Entities <entities/create-entities>`"
-msgstr ""
+msgstr ":doc:`Crear Nuevas Entidades <entities/create-entities>`"
 
 #: ../../source/create/tools.rst:75
 msgid ":doc:`Tutorial: Rig Your Avatar in Mixamo <avatars/mixamo-tutorial>`"
-msgstr ""
+msgstr ":doc:`Tutorial: Ensambla Tu Avatar en Mixamo <avatars/mixamo-tutorial>`"
 
 #: ../../source/create/tools.rst:76
 msgid ""
 ":doc:`Tutorial: Modify Materials and Textures Using Blender <avatars"
 "/blender-tutorial>`"
 msgstr ""
+":doc:`Tutorial: Modificar Materiales y Texturas con Blender <avatars/blender-"
+"tutorial>`"
 
 #: ../../source/create/wearables.md:8
 msgid ""
@@ -11766,6 +11876,10 @@ msgid ""
 "look in-world. You can express your individuality by creating wearables "
 "of your own and [putting them on](../explore/personalize/add-wearables)."
 msgstr ""
+"Los wearables son objetos que se adhieren a tu avatar. Pueden ser sombreros, "
+"faldas, anteojos, auriculares y cualquier otra cosa que pueda complementar "
+"tu look en el mundo. Puedes expresar tu individualidad creando tus propios "
+"wearables y [poniéndotelos](../explore/personalize/add-wearables)."
 
 #: ../../source/create/wearables.md:10
 msgid ""
@@ -11774,10 +11888,14 @@ msgid ""
 "use any cloud platforms including Amazon S3, Google Cloud Storage, "
 "Microsoft Azure, Dropbox, etc."
 msgstr ""
+"Antes de poder usar un wearable personalizado, primero debes alojar tus "
+"archivos FBX y JSON en un lugar que sea de acceso público para Vircadia. "
+"Puedes utilizar cualquier plataforma en la nube, incluidas Amazon S3, Google "
+"Cloud Storage, Microsoft Azure, Dropbox, etc."
 
 #: ../../source/create/wearables.md:12
 msgid "Build a Custom Wearable"
-msgstr ""
+msgstr "Construye un Wearable Personalizado"
 
 #: ../../source/create/wearables.md:13
 msgid ""
@@ -11785,38 +11903,45 @@ msgid ""
 " your avatar. Therefore, the first step in creating your wearable is to "
 "build one or find an existing model that you want to use."
 msgstr ""
+"Los wearables son simplemente [modelos 3D](3d-models) que están "
+"personalizados para adaptarse a tu avatar. Por lo tanto, el primer paso para "
+"crear tu wearable es crear uno o encontrar un modelo existente que desees "
+"utilizar."
 
 #: ../../source/create/wearables.md:15
 msgid ""
 "There are a few different applications you can use to build and edit the "
 "3D model for your wearable, including:"
 msgstr ""
+"Hay algunas aplicaciones diferentes que puedes usar para crear y editar el "
+"modelo 3D para tu wearable, que incluyen:"
 
 #: ../../source/create/wearables.md:16
 msgid "[Blender](https://www.blender.org)"
-msgstr ""
+msgstr "[Blender](https://www.blender.org)"
 
 #: ../../source/create/wearables.md:17
 msgid "[Maya](https://www.autodesk.com/products/maya/overview)"
-msgstr ""
+msgstr "[Maya](https://www.autodesk.com/products/maya/overview)"
 
 #: ../../source/create/wearables.md:18
 msgid "[Google Blocks](https://vr.google.com/blocks)"
-msgstr ""
+msgstr "[Google Blocks](https://vr.google.com/blocks)"
 
 #: ../../source/create/wearables.md:19
 msgid "[Oculus Medium](https://www.oculus.com/medium)"
-msgstr ""
+msgstr "[Oculus Medium](https://www.oculus.com/medium)"
 
 #: ../../source/create/wearables.md:20
 msgid "[Tiltbrush](https://www.tiltbrush.com)"
-msgstr ""
+msgstr "[Tiltbrush](https://www.tiltbrush.com)"
 
 #: ../../source/create/wearables.md:22
 msgid ""
 "Some guidelines to follow when you're building soft wearables like "
 "clothes:"
 msgstr ""
+"Algunas pautas a seguir cuando construyes wearables suaves como la ropa:"
 
 #: ../../source/create/wearables.md:24
 msgid ""
@@ -11824,6 +11949,9 @@ msgid ""
 " Since avatars vary in size and structure, a soft wearable designed to "
 "fit one avatar may not fit another one as well."
 msgstr ""
+"Tu wearable suave debe estar diseñado para adaptarse a un tipo particular de "
+"avatar. Dado que los avatares varían en tamaño y estructura, es posible que "
+"un wearable diseñado para adaptarse a un avatar no se ajuste a otro."
 
 #: ../../source/create/wearables.md:25
 msgid ""
@@ -11831,14 +11959,17 @@ msgid ""
 "clipping. Clipping is when one 3D object goes through another 3D object "
 "without colliding."
 msgstr ""
+"El wearable suave debe ser un poco más grande que el avatar para evitar "
+"recortes. El recorte es cuando un objeto 3D atraviesa otro objeto 3D sin "
+"chocar."
 
 #: ../../source/create/wearables.md:26
 msgid "Your soft wearable's shape should match the avatar's."
-msgstr ""
+msgstr "La forma de wearable suave debe coincidir con la del avatar."
 
 #: ../../source/create/wearables.md:27
 msgid "The soft wearable should have similar or the same weights as the avatar."
-msgstr ""
+msgstr "El wearable suave debe tener un peso similar o igual al del avatar."
 
 #: ../../source/create/wearables.md:29
 msgid ""
@@ -11846,6 +11977,9 @@ msgid ""
 "to fit the avatar well. Its mesh should match the avatar's and have a "
 "higher weight."
 msgstr ""
+"Cuando construyas wearables suaves como la ropa, asegúrate de hacerlo para "
+"que se ajuste bien al avatar. Su malla debe coincidir con la del avatar y "
+"tener un peso mayor."
 
 #: ../../source/create/wearables.md:31
 msgid ""
@@ -11854,20 +11988,26 @@ msgid ""
 "done editing your model, export the file as an FBX or OBJ file. You've "
 "now created your own custom model!"
 msgstr ""
+"Cuando crees tu modelo, asegúrate de [seguir estas pautas](3d-models/get-"
+"model) para asegurarte de que sea compatible con Vircadia. Una vez que hayas "
+"terminado de editar tu modelo, exporta el archivo como un archivo FBX u OBJ. "
+"¡Ya haz creado tu propio modelo personalizado!"
 
 #: ../../source/create/wearables.md:33
 msgid ""
 "After hosting your wearable in the cloud [put it "
 "on](../explore/personalize/add-wearables) and adopt your new look."
 msgstr ""
+"Después de alojar tu wearable en la nube [póntelo](../explore/personalize/"
+"add-wearables) y adopta tu nueva apariencia."
 
 #: ../../source/create/wearables.md:43
 msgid "[Get Your 3D Model](3d-models/get-model)"
-msgstr ""
+msgstr "[Obtén Tu modelo 3D](3d-models/get-model)"
 
 #: ../../source/create/wearables.md:44
 msgid "[Put On Wearables](../explore/personalize/add-wearables)"
-msgstr ""
+msgstr "[Equiparse Wearables](../explore/personalize/add-wearables)"
 
 #~ msgid ""
 #~ "This document is slightly outdated. "
