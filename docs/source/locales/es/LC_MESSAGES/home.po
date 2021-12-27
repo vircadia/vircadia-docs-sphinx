@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-18 00:26+0000\n"
-"PO-Revision-Date: 2021-10-01 20:29+0000\n"
+"PO-Revision-Date: 2021-12-27 01:23+0000\n"
 "Last-Translator: jose manuel <elmanytas@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/home/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/home/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/home.rst:80
@@ -132,14 +133,12 @@ msgid "`Español <https://docs.vircadia.com/es/>`_ |es_trans|"
 msgstr "`Español <https://docs.vircadia.com/es/>`_ |es_trans|"
 
 #: ../../source/home.rst:41
-#, fuzzy
 msgid "`Français <https://docs.vircadia.com/fr/>`_ |fr_trans|"
-msgstr "`Francés <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
+msgstr "`Francés <https://docs.vircadia.com/fr/>`_ |fr_trans|"
 
 #: ../../source/home.rst:42
-#, fuzzy
 msgid "`日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|"
-msgstr "`Japonés <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+msgstr "`Japonés <https://docs.vircadia.com/jp/>`_ |jp_trans|"
 
 #: ../../source/home.rst:43
 #, fuzzy
@@ -221,4 +220,3 @@ msgstr ""
 #~ ":doc:`CONTRIBUYE <contribute>` a nuestro "
 #~ "esfuerzo navegando por nuestro código "
 #~ "fuente en el repositorio."
-
