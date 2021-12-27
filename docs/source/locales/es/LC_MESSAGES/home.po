@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-18 00:26+0000\n"
 "PO-Revision-Date: 2021-12-27 01:23+0000\n"
-"Last-Translator: jose manuel <elmanytas@gmail.com>\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/home/es/>\n"
 "Language: es\n"
@@ -47,7 +47,7 @@ msgstr "CONTRIBUIR"
 
 #: ../../source/home.rst:80
 msgid "DEVELOP"
-msgstr ""
+msgstr "DESARROLLAR"
 
 #: ../../source/home.rst:80
 msgid "SECURITY"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../source/home.rst:75
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
-msgstr ""
+msgstr ":doc:`CONTRIBUIR <contribute>` al esfuerzo del proyecto."
 
 #: ../../source/home.rst:76
 msgid ""
