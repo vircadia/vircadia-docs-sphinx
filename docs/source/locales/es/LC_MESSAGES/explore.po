@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2021-10-03 06:25+0000\n"
-"Last-Translator: jose manuel <elmanytas@gmail.com>\n"
+"PO-Revision-Date: 2021-12-27 01:23+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/explore/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/explore/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
@@ -97,30 +98,36 @@ msgid ""
 "Maker Meeting, 28th September 2020, on the \"El Papa Viejo\" (meaning "
 "\"The Old Pope\")."
 msgstr ""
+"Reunión de Creadores (Maker Meeting), 28 de septiembre de 2020, en \"El Papa "
+"Viejo\"."
 
 #: ../../source/explore/gallery.rst:19
 msgid "Startup Lab Lagoon Koza booth at Startup Asia X, 12th June 2020."
 msgstr ""
+"Stand de la Startup Lab Lagoon Koza en la Startup Asia X, 12 de Junio de "
+"2020."
 
 #: ../../source/explore/gallery.rst:26
 msgid "Group photo at the end of Startup Asia X, 12th June 2020."
-msgstr ""
+msgstr "Foto grupal durante el final de la Startup Asia X, 12 de Junio de 2020."
 
 #: ../../source/explore/gallery.rst:33
 msgid "Dale Glass speaking at the Developer Meeting, 20th September 2020."
 msgstr ""
+"Dale Glass hablando en la reunión de desarrolladores (Developer Meeting), 20 "
+"de Septiembre de 2020."
 
 #: ../../source/explore/gallery.rst:40
 msgid "Mannequin army, 13th July 2020."
-msgstr ""
+msgstr "Ejército de Maniquíes, 13 de Julio de 2020."
 
 #: ../../source/explore/gallery.rst:47
 msgid "Pictionary in the old Hub, 5th July 2020."
-msgstr ""
+msgstr "Pictionary en el antiguo Hub, 5 de julio de 2020."
 
 #: ../../source/explore/gallery.rst:54
 msgid "Vircadia running on Linux Mint 19.3, 29th September 2020."
-msgstr ""
+msgstr "Vircadia ejecutándose sobre Linux Mint 19.3, 29 de Septiembre de 2020."
 
 #: ../../source/explore/gallery.rst:58
 #: ../../source/explore/get-started/adjust-settings.rst:129
@@ -210,6 +217,9 @@ msgid ""
 "preferences. Many of these settings are changed using the HUD (in Desktop"
 " mode) or Tablet (in VR mode)."
 msgstr ""
+"Puedes ajustar varias configuraciones en Vircadia para que se ejecute según "
+"tus preferencias. Muchas de estas configuraciones se cambian utilizando el "
+"HUD (en el modo de escritorio) o la Tableta (en el modo de realidad virtual)."
 
 #: ../../source/explore/get-started/adjust-settings.rst:12
 #: ../../source/explore/get-started/android.rst:11
@@ -225,7 +235,7 @@ msgstr "En Esta Página"
 
 #: ../../source/explore/get-started/adjust-settings.rst:16
 msgid "The Tablet and HUD"
-msgstr ""
+msgstr "La Tableta y HUD"
 
 #: ../../source/explore/get-started/adjust-settings.rst:18
 msgid ""
@@ -234,6 +244,10 @@ msgid ""
 "/install-apps>`. Pull up the tablet by clicking the menu button on your "
 "controller."
 msgstr ""
+"En VR (Realidad Virtual), todas tus configuraciones se encuentran en tu "
+"**Tableta**. La tableta también te brinda fácil acceso a cualquier :doc:`"
+"apliación que instales <../personalize/install-apps>`. Abre la tableta "
+"haciendo click en el botón de menú en tu controlador."
 
 #: ../../source/explore/get-started/adjust-settings.rst:22
 msgid ""
@@ -244,10 +258,17 @@ msgid ""
 "**Developer** menu by going to **Settings > Developer Menu**. Then, go to"
 " **Developer > UI > Desktop Tablet Becomes Toolbar**."
 msgstr ""
+"En el Modo de Escritorio, tienes la opción de usar la Tableta o una versión "
+"más pequeña llamada \"Heads-up Display\" (Pantalla de Visualización Frontal) "
+"o HUD. Contiene exactamente las mismas opciones que la Tableta ("
+"configuraciones, aplicaciones, etc.), pero ocupa menos espacio en la "
+"pantalla. Para habilitar el HUD, primero habilita el menú **Desarrollador** "
+"yendo a **Settings > Developer Menu**. Luego, ve a **Developer > UI > "
+"Desktop Tablet Becomes Toolbar**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:28
 msgid "Enter or Exit VR Mode"
-msgstr ""
+msgstr "Entrar o Salir del Modo VR"
 
 #: ../../source/explore/get-started/adjust-settings.rst:30
 msgid ""
@@ -256,6 +277,11 @@ msgid ""
 "contains many of Vircadia's features such as audio, basic movements and "
 "gestures, and the ability to travel to different domains."
 msgstr ""
+"Puedes disfrutar de Vircadia con o sin equipos de realidad virtual, como "
+"pantallas montadas en la cabeza (HMD), controladores de mano y auriculares "
+"de audio. Nuestro modo de escritorio contiene muchas de las funciones de "
+"Vircadia, como audio, movimientos y gestos básicos, y la capacidad de viajar "
+"a diferentes dominios."
 
 #: ../../source/explore/get-started/adjust-settings.rst:32
 msgid ""
@@ -266,20 +292,29 @@ msgid ""
 " between VR mode and Desktop mode. To switch to VR mode, use one of the "
 "following methods:"
 msgstr ""
+"Sin embargo, ten en cuenta que la experiencia más inmersiva y poderosa es "
+"cuando usas equipos de VR. Solo entonces podrás interactuar con personas en "
+"3D, realizar un seguimiento de los movimientos corporales y relacionarte "
+"fácilmente con los objetos que te rodean. Una vez que hayas configurado tu "
+"equipo de VR, puedes cambiar fácilmente entre el modo VR y el modo de "
+"escritorio. Para cambiar al modo VR, utiliza uno de los siguientes métodos:"
 
 #: ../../source/explore/get-started/adjust-settings.rst:34
 msgid "From the HUD, click **Enter VR**."
-msgstr ""
+msgstr "Desde el HUD, haz click en **Enter VR**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:35
 msgid "Click the **Display** menu, then select your VR device."
 msgstr ""
+"Haz click en el menú **Display**, luego selecciona tu dispositivo de VR."
 
 #: ../../source/explore/get-started/adjust-settings.rst:37
 msgid ""
 "To exit from VR mode, remove your headset, click **Exit VR** on the HUD "
 "or press ``ESC`` on your keyboard."
 msgstr ""
+"Para salir del modo VR, quítate los auriculares, haz click en **Exit VR** en "
+"el HUD o presiona ``ESC`` en tu teclado."
 
 #: ../../source/explore/get-started/adjust-settings.rst:41
 msgid "Set Your Perspective"
@@ -3084,9 +3119,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:25
-#, fuzzy
 msgid "In Interface, pull up your HUD or Tablet and go to **More**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
+msgstr "En la interfaz, abre tu HUD o Tableta y ve a **More**."
 
 #: ../../source/explore/personalize/install-apps.md:26
 msgid "Search for a specific app, or browse all apps."
@@ -3121,9 +3155,8 @@ msgid "To update your app:"
 msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:35
-#, fuzzy
 msgid "In Interface, pull up your HUD or Tablet and go to **Inventory**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
+msgstr "En la interfaz, abre tu HUD o Tableta y ve a **Inventory**."
 
 #: ../../source/explore/personalize/install-apps.md:36
 msgid ""
@@ -3206,9 +3239,8 @@ msgid "To use the Spectator Camera app:"
 msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:65
-#, fuzzy
 msgid "In Interface, pull up your HUD or Tablet and go to **Spectator**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
+msgstr "En la interfaz, abre tu HUD o Tableta y ve a **Spectator**."
 
 #: ../../source/explore/personalize/install-apps.md:66
 msgid ""
@@ -3259,9 +3291,8 @@ msgid "To use the Fingerpaint app:"
 msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:77
-#, fuzzy
 msgid "In Interface, pull up your HUD or Tablet and go to **Body Paint**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
+msgstr "En la interfaz, abre tu HUD o Tableta y ve a **Body Paint**."
 
 #: ../../source/explore/personalize/install-apps.md:78
 msgid ""
@@ -3302,9 +3333,8 @@ msgid "To use the Text to Speech (TTS) app:"
 msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:95
-#, fuzzy
 msgid "In Interface, pull up your HUD or Tablet and go to **TTS**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
+msgstr "En la interfaz, abre tu HUD o Tableta y ve a **TTS**."
 
 #: ../../source/explore/personalize/install-apps.md:96
 msgid "In the app, select the Pitch and Speed of your choice."
@@ -3662,9 +3692,8 @@ msgid "To go and explore new places:"
 msgstr ""
 
 #: ../../source/explore/travel.md:18
-#, fuzzy
 msgid "In Interface, pull up your tablet or HUD and go to **GoTo**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
+msgstr "En la interfaz, trae tu HUD o Tableta y ve a **GoTo**."
 
 #: ../../source/explore/travel.md:19
 msgid ""
@@ -3705,9 +3734,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/travel.md:36
-#, fuzzy
 msgid "In Interface, open your tablet or HUD and go to **People**."
-msgstr "En la interfaz, trae tu HUD o tableta y ve a ** Crear **."
+msgstr "En la interfaz, abre tu HUD o Tableta y ve a **People**."
 
 #: ../../source/explore/travel.md:37
 msgid "Click 'Connections' and find the friend you want to visit."
@@ -4195,4 +4223,3 @@ msgstr ""
 #~ "v2021.1.3 AppImage <https://cdn.vircadia.com/dist/release"
 #~ "/Vircadia-x86_64_v2021.1.3-Eos.AppImage>`__ |DownloadLUS|"
 #~ msgstr ""
-
