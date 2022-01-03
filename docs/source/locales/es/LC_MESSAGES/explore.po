@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2021-12-27 01:23+0000\n"
+"PO-Revision-Date: 2022-01-03 02:18+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -318,21 +318,25 @@ msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:41
 msgid "Set Your Perspective"
-msgstr ""
+msgstr "Establece Tu Perspectiva"
 
 #: ../../source/explore/get-started/adjust-settings.rst:43
 msgid ""
 "You can choose how you view things around you by changing your "
 "perspective. To change your perspective:"
 msgstr ""
+"Puedes elegir cómo ver las cosas a tu alrededor cambiando tu perspectiva. "
+"Para cambiar tu perspectiva:"
 
 #: ../../source/explore/get-started/adjust-settings.rst:45
 msgid "In Desktop mode, go to **View** in the menu on the top left corner."
 msgstr ""
+"En modo Escritorio, ve a **View** (Vista) en el menú de la parte superior "
+"izquierda."
 
 #: ../../source/explore/get-started/adjust-settings.rst:46
 msgid "In VR mode, open your Tablet and go to **Menu > View**."
-msgstr ""
+msgstr "En Modo VR (Realidad Virtual), abre tu Tableta y ve a **Menu > View**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:49
 #: ../../source/explore/get-started/adjust-settings.rst:93
@@ -354,7 +358,7 @@ msgstr "Descripción"
 
 #: ../../source/explore/get-started/adjust-settings.rst:51
 msgid "First Person"
-msgstr ""
+msgstr "First Person"
 
 #: ../../source/explore/get-started/adjust-settings.rst:51
 msgid ""
@@ -362,98 +366,117 @@ msgid ""
 " first person. In this view, you will not see yourself, only the "
 "environment around you."
 msgstr ""
+"Selecciona esta configuración si quieres cambiar tu perspectiva en Vircadia "
+"a primera persona. En esta vista, no te verás a tí mismo, solo el entorno "
+"que te rodea."
 
 #: ../../source/explore/get-started/adjust-settings.rst:54
 msgid "Third Person"
-msgstr ""
+msgstr "Third Person"
 
 #: ../../source/explore/get-started/adjust-settings.rst:54
 msgid ""
 "Select this setting to change your perspective to third person. In this "
 "view, you will see yourself, as well as the environment around you."
 msgstr ""
+"Selecciona esta configuración para cambiar tu perspectiva a tercera persona. "
+"En esta vista, te verás a tí mismo, así como al entorno que te rodea."
 
 #: ../../source/explore/get-started/adjust-settings.rst:57
 msgid "Selfie"
-msgstr ""
+msgstr "Selfie"
 
 #: ../../source/explore/get-started/adjust-settings.rst:57
 msgid ""
 "Select this to change your perspective to look at yourself. In this view,"
 " you will see yourself and the space behind you."
 msgstr ""
+"Selecciona esto para cambiar tu perspectiva y verte a tí mismo. En esta "
+"vista, te verás a tí mismo y al espacio detrás de ti."
 
 #: ../../source/explore/get-started/adjust-settings.rst:60
 msgid "Independent Mode"
-msgstr ""
+msgstr "Independent Mode"
 
 #: ../../source/explore/get-started/adjust-settings.rst:60
 msgid ""
 "Select this to change what you see through scripting instead of avatar's "
 "movements."
 msgstr ""
+"Selecciona esta opción para cambiar lo que ves a través de secuencias de "
+"comandos en lugar de los movimientos del avatar."
 
 #: ../../source/explore/get-started/adjust-settings.rst:62
 msgid "Entity Mode"
-msgstr ""
+msgstr "Entity Mode"
 
 #: ../../source/explore/get-started/adjust-settings.rst:62
 msgid ""
 "Select this to set your perspective to a specific entity, allowing you to"
 " move with entity as it moves."
 msgstr ""
+"Selecciona esto para establecer tu perspectiva a una entidad específica, "
+"permitiéndote moverte con la entidad a medida que te mueves."
 
 #: ../../source/explore/get-started/adjust-settings.rst:68
 msgid "Other Miscellaneous Settings"
-msgstr ""
+msgstr "Otras Configuraciones Varias"
 
 #: ../../source/explore/get-started/adjust-settings.rst:70
 msgid ""
 "Here are some other settings you may like to change to optimize your "
 "experience."
 msgstr ""
+"Aquí hay algunas otras configuraciones que podría gustarte cambiar para "
+"optimizar tu experiencia."
 
 #: ../../source/explore/get-started/adjust-settings.rst:74
 msgid "General Settings"
-msgstr ""
+msgstr "Configuraciones Generales"
 
 #: ../../source/explore/get-started/adjust-settings.rst:76
 msgid ""
 "You can modify general settings such user interface and privacy settings "
 "in Vircadia."
 msgstr ""
+"Puedes modificar la configuración general, como la interfaz de usuario y la "
+"configuración de privacidad en Vircadia."
 
 #: ../../source/explore/get-started/adjust-settings.rst:78
 msgid ""
 "In Desktop mode, go to **Settings > General** in the menu on the top left"
 " corner."
 msgstr ""
+"En el modo Escritorio, ve a **Settings > General** en el menu de la esquina "
+"superior izquierda."
 
 #: ../../source/explore/get-started/adjust-settings.rst:79
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > General**."
-msgstr ""
+msgstr "En el modo VR, abre tu Tableta y ve a **Menu > Settings > General**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:85
 msgid "In-World Graphics Settings"
-msgstr ""
+msgstr "Configuraciones Gráficas en el Mundo"
 
 #: ../../source/explore/get-started/adjust-settings.rst:87
 msgid "You can make changes to the graphics in Vircadia."
-msgstr ""
+msgstr "Puedes realizar cambios a los gráficos en Vircadia."
 
 #: ../../source/explore/get-started/adjust-settings.rst:89
 msgid ""
 "In Desktop mode, go to **Settings > Graphics** in the menu on the top "
 "left corner."
 msgstr ""
+"En el modo Escritorio, ve a **Settings > Graphics** en el menú de la esquina "
+"superior izquierda."
 
 #: ../../source/explore/get-started/adjust-settings.rst:90
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Graphics**."
-msgstr ""
+msgstr "En el modo VR, abre tu Tableta y ve a **Menu > Settings > Graphics**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:95
 msgid "Graphics Settings"
-msgstr ""
+msgstr "Graphics Settings"
 
 #: ../../source/explore/get-started/adjust-settings.rst:95
 msgid ""
@@ -462,26 +485,36 @@ msgid ""
 "increased performance and optimization. **Custom** lets you configure the"
 " world detail, rendering effects, refresh rate, and resolution yourself."
 msgstr ""
+"Elije la configuración de gráfica acorde a tú computadora. En general, una "
+"configuración de gráficos baja sacrifica los detalles artísticos y los "
+"efectos de renderizado para un mayor rendimiento y optimización. **Custom** "
+"te permite configurar los detalles del mundo, los efectos de renderizado, la "
+"frecuencia de actualización y la resolución por tí mismo."
 
 #: ../../source/explore/get-started/adjust-settings.rst:100
 msgid "World Detail"
-msgstr ""
+msgstr "World Detail"
 
 #: ../../source/explore/get-started/adjust-settings.rst:100
 msgid ""
 "Control the level of detail visible to you in Vircadia by moving this "
 "slider."
 msgstr ""
+"Controla el nivel de detalle visible para ti en Vircadia moviendo este "
+"control deslizante."
 
 #: ../../source/explore/get-started/adjust-settings.rst:102
 msgid "Rendering Effects"
-msgstr ""
+msgstr "Efectos de Renderizado"
 
 #: ../../source/explore/get-started/adjust-settings.rst:102
 msgid ""
 "Choose the level of rendering effects that are present in Vircadia. Local"
 " lights, fog, bloom, and shadows are all examples of rendering effects."
 msgstr ""
+"Elije el nivel de efectos de renderizado que están presentes en Vircadia. "
+"Las luces locales, la niebla, la floración y las sombras son ejemplos de "
+"efectos de renderizado."
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
 msgid "Refresh Rate"
