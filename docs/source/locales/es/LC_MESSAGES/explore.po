@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-01-03 02:18+0000\n"
+"PO-Revision-Date: 2022-01-10 02:48+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -518,63 +518,73 @@ msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
 msgid "Refresh Rate"
-msgstr ""
+msgstr "Refresh Rate"
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
 msgid ""
 "Choose the frequency that Vircadia updates its graphics buffers. Most "
 "mid-range computers run well on 'Interactive'."
 msgstr ""
+"Elije la frecuencia con la que Vircadia actualiza sus búferes gráficos. La "
+"mayoría de las computadoras de gama media funcionan bien en \"Interactivo\" "
+"(Interactive)."
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
 msgid "Resolution"
-msgstr ""
+msgstr "Resolution"
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
 msgid ""
 "Adjust the resolution using the slider. This affects how clear Vircadia "
 "appears on your monitor or screen."
 msgstr ""
+"Ajusta la resolución con el control deslizante. Esto afecta la claridad de "
+"Vircadia en tu monitor o pantalla."
 
 #: ../../source/explore/get-started/adjust-settings.rst:114
 msgid "Account Security Settings"
-msgstr ""
+msgstr "Configuración de Seguridad de la Cuenta"
 
 #: ../../source/explore/get-started/adjust-settings.rst:116
 msgid "You can change your account security settings in Vircadia."
-msgstr ""
+msgstr "Puedes cambiar la configuración de seguridad de tu cuenta en Vircadia."
 
 #: ../../source/explore/get-started/adjust-settings.rst:118
 msgid ""
 "In Desktop mode, go to **Settings > Security** in the menu on the top "
 "left corner."
 msgstr ""
+"En el modo Escritorio, ve a **Settings > Security** en el menú de la esquina "
+"superior izquierda."
 
 #: ../../source/explore/get-started/adjust-settings.rst:119
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Security**."
-msgstr ""
+msgstr "En el modo VR, abre tu Tableta y ve a **Menu > Settings > Security**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:124
 msgid "Account"
-msgstr ""
+msgstr "Account"
 
 #: ../../source/explore/get-started/adjust-settings.rst:124
 msgid ""
 "Enable to stay logged in (in the current device) even if you exit "
 "Vircadia."
 msgstr ""
+"Habilita para permanecer conectado (en el dispositivo actual) incluso si "
+"sales de Vircadia."
 
 #: ../../source/explore/get-started/adjust-settings.rst:126
 msgid "Secure Transactions"
-msgstr ""
+msgstr "Secure Transactions"
 
 #: ../../source/explore/get-started/adjust-settings.rst:126
 msgid "Change your security picture."
-msgstr ""
+msgstr "Cambia tu imagen de seguridad."
 
 #: ../../source/explore/get-started/adjust-settings.rst:131
 msgid ":doc:`Configure Your Domain Settings <../../host/configure-settings>`"
 msgstr ""
+":doc:`Configura los Ajustes de Tu Dominio <../../host/configure-settings>`"
 
 #: ../../source/explore/get-started/android.rst:5
 msgid ""
@@ -582,6 +592,9 @@ msgid ""
 "development work has been done but the work required to get it back "
 "rolling has to be taken into consideration."
 msgstr ""
+"Se está considerando una aplicación de Vircadia para Android para la hoja de "
+"ruta (roadmap), se ha realizado la mayor parte del trabajo de desarrollo, "
+"pero debe tenerse en cuenta el trabajo necesario para que vuelva a funcionar."
 
 #: ../../source/explore/get-started/android.rst:7
 msgid ""
@@ -589,10 +602,13 @@ msgid ""
 "cannot be used in Daydream View and is only available as a 2D "
 "application."
 msgstr ""
+"La aplicación está diseñada solo para teléfonos compatibles con Daydream. "
+"Ten en cuenta que no se puede usar en Daydream View y solo está disponible "
+"como una aplicación 2D."
 
 #: ../../source/explore/get-started/android.rst:15
 msgid "Visit Different Worlds"
-msgstr ""
+msgstr "Visita Diferentes Mundos"
 
 #: ../../source/explore/get-started/android.rst:17
 msgid ""
@@ -601,15 +617,19 @@ msgid ""
 " of Vircadia's most popular virtual worlds to make them more accessible "
 "to Android users."
 msgstr ""
+"Vircadia tiene muchos lugares virtuales donde puedes interactuar con otros "
+"usuarios y participar en diversas actividades o eventos. Hemos modificado "
+"varios de los mundos virtuales más populares de Vircadia para hacerlos más "
+"accesibles para los usuarios de Android."
 
 #: ../../source/explore/get-started/android.rst:19
 msgid "Find these domains by going to the **Home** tab in the menu."
-msgstr ""
+msgstr "Encuentra estos dominios yendo a la pestaña **Home** en el menú."
 
 #: ../../source/explore/get-started/android.rst:26
 #: ../../source/explore/get-started/desktop.rst:14
 msgid "Movement Controls"
-msgstr ""
+msgstr "Controles de Movimiento"
 
 #: ../../source/explore/get-started/android.rst:29
 #: ../../source/explore/get-started/android.rst:45
@@ -621,108 +641,123 @@ msgstr ""
 #: ../../source/explore/get-started/desktop.rst:99
 #: ../../source/explore/get-started/desktop.rst:115
 msgid "Action"
-msgstr ""
+msgstr "Acción"
 
 #: ../../source/explore/get-started/android.rst:29
 #: ../../source/explore/get-started/android.rst:45
 #: ../../source/explore/get-started/android.rst:57
 #: ../../source/explore/get-started/android.rst:70
 msgid "Controls"
-msgstr ""
+msgstr "Controles"
 
 #: ../../source/explore/get-started/android.rst:31
 msgid "Walking"
-msgstr ""
+msgstr "Walking"
 
 #: ../../source/explore/get-started/android.rst:31
 msgid ""
 "When exploring a virtual world, use the arrows in the bottom left corner "
 "to turn and/or walk."
 msgstr ""
+"Al explorar un mundo virtual, usa las flechas en la esquina inferior "
+"izquierda para girar y/o caminar."
 
 #: ../../source/explore/get-started/android.rst:33
 msgid "Turning"
-msgstr ""
+msgstr "Turning"
 
 #: ../../source/explore/get-started/android.rst:33
 msgid "Drag your finger left or right across the screen to make your avatar turn."
 msgstr ""
+"Arrastra tu dedo hacia la izquierda o hacia la derecha por la pantalla para "
+"que tu avatar gire."
 
 #: ../../source/explore/get-started/android.rst:35
 msgid "Look up/down"
-msgstr ""
+msgstr "Look up/down"
 
 #: ../../source/explore/get-started/android.rst:35
 msgid "Drag your finger up or down to change the angle of the camera."
 msgstr ""
+"Arrastra tu dedo hacia arriba o hacia abajo para cambiar el ángulo de la "
+"cámara."
 
 #: ../../source/explore/get-started/android.rst:37
 msgid "Flying"
-msgstr ""
+msgstr "Flying"
 
 #: ../../source/explore/get-started/android.rst:37
 msgid ""
 "Press the button on the bottom right with the winged avatar to fly (the "
 "longer you hold it, the higher you go!)."
 msgstr ""
+"Presiona el botón en la parte inferior derecha con el avatar alado para "
+"volar (¡cuanto más lo sostengas, más alto subes!)."
 
 #: ../../source/explore/get-started/android.rst:42
 #: ../../source/explore/get-started/desktop.rst:44
 msgid "In-World Controls"
-msgstr ""
+msgstr "Controles en el Mundo"
 
 #: ../../source/explore/get-started/android.rst:47
 msgid "View"
-msgstr ""
+msgstr "View"
 
 #: ../../source/explore/get-started/android.rst:47
 msgid ""
 "Switch to a bird's eye view camera by pressing the **My View** button on "
 "the top right corner of the screen."
 msgstr ""
+"Cambia a una cámara a vista de pájaro presionando el botón **My View** en la "
+"esquina superior derecha de la pantalla."
 
 #: ../../source/explore/get-started/android.rst:49
 msgid "Mute"
-msgstr ""
+msgstr "Mute"
 
 #: ../../source/explore/get-started/android.rst:49
 msgid ""
 "Your avatar in muted by default when you open the app. Press the mic "
 "button on the top right corner to unmute."
 msgstr ""
+"Tu avatar está silenciado de forma predeterminada cuando abres la "
+"aplicación. Presiona el botón del micrófono en la esquina superior derecha "
+"para desmutearte."
 
 #: ../../source/explore/get-started/android.rst:54
 msgid "Avatar Controls"
-msgstr ""
+msgstr "Controles del Avatar"
 
 #: ../../source/explore/get-started/android.rst:59
 #: ../../source/explore/personalize.rst:9
 #: ../../source/explore/personalize/change-avatar.md:6
 msgid "Change Your Avatar"
-msgstr ""
+msgstr "Change Your Avatar"
 
 #: ../../source/explore/get-started/android.rst:59
 msgid ""
 "Change your avatar to one available in the list in the **Avatar** tab in "
 "the menu."
 msgstr ""
+"Cambia tu avatar a uno disponible en la lista de la pestaña **Avatar** en el "
+"menú."
 
 #: ../../source/explore/get-started/android.rst:61
 msgid "Set Display Name"
-msgstr ""
+msgstr "Set Display Name"
 
 #: ../../source/explore/get-started/android.rst:61
 msgid "Set your display name in the **Avatar** tab in the menu"
-msgstr ""
+msgstr "Establece tu nombre visible en la pestaña **Avatar** en el menú"
 
 #: ../../source/explore/get-started/android.rst:67
 msgid "Discover and Make Friends"
-msgstr ""
+msgstr "Descrubrir y Hacer Amigos"
 
 #: ../../source/explore/get-started/android.rst:72
 #: ../../source/explore/get-started/desktop.rst:49
 msgid "Handshake"
-msgstr ""
+msgstr "Handshake"
 
 #: ../../source/explore/get-started/android.rst:72
 msgid ""
@@ -730,24 +765,31 @@ msgid ""
 "friends>`_ by shaking their hand. Press the handshake button which is "
 "above the flight button in the bottom right corner of your screen."
 msgstr ""
+"`Agrega personas a tus conexiones <../socialize.html#make-connections-and-"
+"friends>`_ estrechándoles la mano (handshake). Presiona el botón de apretón "
+"de manos que está encima del botón de vuelo en la esquina inferior derecha "
+"de la pantalla."
 
 #: ../../source/explore/get-started/android.rst:75
 msgid "Connections List"
-msgstr ""
+msgstr "Connections List"
 
 #: ../../source/explore/get-started/android.rst:75
 msgid "Open the **People** tab in the menu to view your Connections."
-msgstr ""
+msgstr "Abre la pestaña **People** en el menú para ver tus Conexiones."
 
 #: ../../source/explore/get-started/android.rst:79
 msgid ""
 "Additional functionality such as opening the Tablet, using the **Create**"
 " Tools app, adding wearables, etc. are not yet available."
 msgstr ""
+"Funcionalidad adicional como abrir la Tableta, usar la aplicación de "
+"Herramientas Crear (Create App), agregar usables/vestibles, etc. aún no "
+"están disponibles."
 
 #: ../../source/explore/get-started/android.rst:84
 msgid ":doc:`Socialize with Others <../socialize>`"
-msgstr ""
+msgstr ":doc:`Socializar con Otros <../socialize>`"
 
 #: ../../source/explore/get-started/architecture.rst:2
 msgid ""
