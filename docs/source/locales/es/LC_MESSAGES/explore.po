@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-01-10 02:48+0000\n"
+"PO-Revision-Date: 2022-01-16 14:53+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -796,22 +796,28 @@ msgid ""
 "This document is slightly outdated. FIXME: says that you can use an "
 "Android phone"
 msgstr ""
+"Este documento está desactualizado. A tener en cuenta: puedes usar tu "
+"teléfono android"
 
 #: ../../source/explore/get-started/architecture.rst:9
 msgid ""
 "Vircadia's architecture shows how different parts of the system work "
 "together to give you the best VR experience."
 msgstr ""
+"La arquitectura de Vircadia muestra cómo las diferentes partes del sistema "
+"funcionan juntas para brindarte la mejor experiencia de VR."
 
 #: ../../source/explore/get-started/architecture.rst:16
 msgid "Architecture Overview"
-msgstr ""
+msgstr "Descripción de la Arquitectura"
 
 #: ../../source/explore/get-started/architecture.rst:18
 msgid ""
 "Vircadia's architecture consists of the following components that work "
 "together and send data to each other for your VR experience."
 msgstr ""
+"La arquitectura de Vircadia consiste de los siguientes componentes que "
+"funcionan juntos y se envían datos entre sí para tu experiencia de VR."
 
 #: ../../source/explore/get-started/architecture.rst:20
 msgid ""
@@ -820,6 +826,10 @@ msgid ""
 "<../socialize>`, `attend live events <../socialize.html#attend-live-"
 "events>`_ and more."
 msgstr ""
+"La `Intefaz de Vircadia`_ ejecuta tu experiencia personal en el metaverso. "
+"Con ella, puedes :doc:`visitar mundos de VR <../travel>`, :doc:`conocer "
+"gente <../socialize>`, `asisitir a eventos en vivo<../socialize.html#attend-"
+"live-events>`_ y más."
 
 #: ../../source/explore/get-started/architecture.rst:21
 msgid ""
@@ -828,6 +838,10 @@ msgid ""
 "settings <../../host/configure-settings>`, such as audio spatialization, "
 "user permissions, and running scripts."
 msgstr ""
+"El `Servidor de Dominios`_ es el servidor que aloja un dominio. El servidor "
+"de dominio aloja el contenido en el dominio, y gestiona :doc:`la "
+"configuración de todo el dominio <../../host/configure-settings>`, como "
+"espacialización de audio, permisos de usuario y scripts en ejecución."
 
 #: ../../source/explore/get-started/architecture.rst:22
 msgid ""
@@ -835,10 +849,13 @@ msgid ""
 "of these services are maintained by Vircadia so that you can sign in and "
 "move seamlessly between places."
 msgstr ""
+"Los `Servicios Globales`_ (Global Services) conectan todos los servidores "
+"entre sí. Vircadia mantiene una instancia de estos servicios para que puedas "
+"iniciar sesión y moverte sin problemas entre lugares."
 
 #: ../../source/explore/get-started/architecture.rst:28
 msgid "Vircadia Interface"
-msgstr ""
+msgstr "Interfaz de Vircadia"
 
 #: ../../source/explore/get-started/architecture.rst:30
 msgid ""
@@ -848,6 +865,11 @@ msgid ""
 "with the `domain server`_ that is hosting the virtual world, alongside "
 "any `global services`_."
 msgstr ""
+"La Interfaz de Vircadia (o simplemente \"interfaz\") es la interfaz de "
+"usuario principal de Vircadia. Se utiliza para explorar el metaverso e "
+"interactuar con personas de todo el mundo. Cuando ingresas a un dominio, tu "
+"Interfaz se conecta con el `servidor de dominio`_ que alberga el mundo "
+"virtual, por medio de cualquier `servicio global`_."
 
 #: ../../source/explore/get-started/architecture.rst:32
 msgid ""
@@ -855,10 +877,13 @@ msgid ""
 "phone using the `Client-Only Installer <install.html#client-only-"
 "installer>`_."
 msgstr ""
+"Puedes descargar y usar la Interfaz en tu computadora o en tu teléfono "
+"Android usando el `Instalador sólo para clientes <install.html#client-only-"
+"installer>`_."
 
 #: ../../source/explore/get-started/architecture.rst:38
 msgid "Physics Engine"
-msgstr ""
+msgstr "Motor de Física"
 
 #: ../../source/explore/get-started/architecture.rst:40
 msgid ""
@@ -868,6 +893,11 @@ msgid ""
 "object falls to the ground and bounces, or when two or more objects "
 "collide, their movements are computed by the physics engine."
 msgstr ""
+"Tu experiencia de VR no será realista sin algo de física. Vircadia incluye "
+"un `motor de física <http://bulletphysics.org>`_ que simula comportamientos "
+"de objetos según las leyes newtonianas de la física. Cuando un objeto cae al "
+"suelo y rebota, o cuando dos o más objetos chocan, el motor de física "
+"calcula sus movimientos."
 
 #: ../../source/explore/get-started/architecture.rst:42
 msgid ""
@@ -875,10 +905,13 @@ msgid ""
 "coordinates the results to produce a consistent simulation across the "
 "entire domain."
 msgstr ""
+"Cada Interfaz ejecuta su propio motor de física, y el servidor de entidades "
+"coordina los resultados para producir una simulación consistente en todo el "
+"dominio."
 
 #: ../../source/explore/get-started/architecture.rst:46
 msgid "Domain Server"
-msgstr ""
+msgstr "Servidor de Dominio"
 
 #: ../../source/explore/get-started/architecture.rst:48
 msgid ""
@@ -888,6 +921,11 @@ msgid ""
 "to visit a domain, just like you would need a web address to visit a "
 "website."
 msgstr ""
+"Un dominio es una simulación espacial en Vircadia que puedes visitar. Se "
+"calcula mediante una pila de programas en una o más computadoras. Necesitas "
+"el :doc:`nombre del lugar del dominio <../../host/configure-settings/place-"
+"setting>` para visitar un dominio, al igual que necesitarás una dirección "
+"web para visitar un sitio web."
 
 #: ../../source/explore/get-started/architecture.rst:50
 msgid ""
@@ -898,10 +936,16 @@ msgid ""
 "entities, and avatars. Everything that you see, hear, and do in your "
 "domain is managed by the server stack."
 msgstr ""
+"Puedes :doc:`configurar tu propio dominio <../../host/server-setup>` y "
+"alojarlo en tu máquina local o en un servidor en la nube para que esté "
+"disponible para otros usuarios. La pila de servidores de tu dominio es un "
+"conjunto de componentes que simulan y administran diferentes aspectos del "
+"dominio, como audio, entidades y avatares. La pila del servidor administra "
+"todo lo que ves, escuchas y haces en tu dominio."
 
 #: ../../source/explore/get-started/architecture.rst:56
 msgid "Server Stack"
-msgstr ""
+msgstr "Pila de Servidor"
 
 #: ../../source/explore/get-started/architecture.rst:58
 msgid ""
@@ -910,6 +954,10 @@ msgid ""
 "Assignment Clients, because from the perspective of the domain server, "
 "they are clients that take on different roles."
 msgstr ""
+"El servidor de Dominio está en la parte superior de esta pila y su trabajo "
+"es dar asignaciones a los otros componentes. Estos componentes se denominan "
+"Clientes de Asignación, porque desde la perspectiva del servidor de dominio, "
+"son clientes que asumen diferentes roles."
 
 #: ../../source/explore/get-started/architecture.rst:60
 msgid ""
@@ -922,10 +970,19 @@ msgid ""
 "client can function as one of the six types mentioned. The domain server "
 "determines which assignment client functions as which mixer."
 msgstr ""
+"La pila del servidor no solo controla, administra y calcula tu dominio tal "
+"como lo ves, sino también cómo lo ve cualquier persona que visite tu "
+"dominio. Esto significa que el servidor de dominio entrega asignaciones de "
+"simulación y proporciona sus direcciones IP a los clientes de interfaz que "
+"se conectan. El servidor de dominio es un ejecutable único que genera "
+"clientes de asignación que se convierten en los diferentes mezcladores según "
+"se solicite. Cada cliente de asignación puede funcionar como uno de los seis "
+"tipos mencionados. El servidor de dominio determina qué cliente de "
+"asignación funciona como qué mezclador."
 
 #: ../../source/explore/get-started/architecture.rst:64
 msgid "Assignment Clients"
-msgstr ""
+msgstr "Clientes de Asignación"
 
 #: ../../source/explore/get-started/architecture.rst:66
 msgid ""
@@ -933,14 +990,17 @@ msgid ""
 "also communicate directly with the Interface clients connected to a "
 "domain. There are six types of assignment clients:"
 msgstr ""
+"Los clientes de asignación controlan y administran varios aspectos de un "
+"dominio. También se comunican directamente con los clientes de la interfaz "
+"conectados a un dominio. Hay seis tipos de clientes de asignación:"
 
 #: ../../source/explore/get-started/architecture.rst:69
 msgid "Assignment Client"
-msgstr ""
+msgstr "Cliente de Asignación"
 
 #: ../../source/explore/get-started/architecture.rst:71
 msgid "Avatar Mixer"
-msgstr ""
+msgstr "Avatar Mixer"
 
 #: ../../source/explore/get-started/architecture.rst:71
 msgid ""
@@ -949,10 +1009,14 @@ msgid ""
 "around the domain. For example, it tracks how you move your head while "
 "wearing a Head Mounted Display (HMD)."
 msgstr ""
+"Este mezclador se encarga de tu presencia virtual en cualquier dominio. "
+"Realiza un seguimiento de en donde te encuentras, qué avatar llevas puesto y "
+"cómo te mueves por el dominio. Por ejemplo, rastrea cómo mueves la cabeza "
+"mientras usas una Pantalla Montada en la Cabeza ( Head Mounted Display, HMD)."
 
 #: ../../source/explore/get-started/architecture.rst:75
 msgid "Audio Mixer"
-msgstr ""
+msgstr "Audio Mixer"
 
 #: ../../source/explore/get-started/architecture.rst:75
 msgid ""
@@ -961,10 +1025,14 @@ msgid ""
 "Audio mixer can customize a stereo mix for you based on your position "
 "relative to the audio source."
 msgstr ""
+"Mezcla todos los sonidos, ya sea de voz o ambientales. Y lo hace no solo "
+"para los avatares, sino también para todas las entidades de un dominio. El "
+"mezclador de audio puede personalizar una mezcla estéreo para ti en función "
+"de tu posición relativa a la fuente de audio."
 
 #: ../../source/explore/get-started/architecture.rst:79
 msgid "Entity Server"
-msgstr ""
+msgstr "Entity Server"
 
 #: ../../source/explore/get-started/architecture.rst:79
 msgid ""
@@ -974,10 +1042,15 @@ msgid ""
 "server, which in turn relays the information to all clients currently "
 "visiting the domain."
 msgstr ""
+"Realiza un seguimiento de todas las entidades y sus propiedades en un "
+"dominio, desde su descripción y posición, hasta cualquier comportamiento "
+"asociado a ellas en un script. Si se modifica una entidad, el cambio se "
+"comunica al servidor de la entidad, que a su vez transmite la información a "
+"todos los clientes que actualmente visitan el dominio."
 
 #: ../../source/explore/get-started/architecture.rst:84
 msgid "Asset Server"
-msgstr ""
+msgstr "Asset Server"
 
 #: ../../source/explore/get-started/architecture.rst:84
 msgid ""
@@ -985,10 +1058,13 @@ msgid ""
 " by the domain. It functions like a Web server, but using protocols tuned"
 " to Vircadia's architecture."
 msgstr ""
+"Proporciona copias de los modelos, archivos de audio, guiones y otros medios "
+"utilizados por el dominio. Funciona como un servidor Web, pero utilizando "
+"protocolos ajustados a la arquitectura de Vircadia."
 
 #: ../../source/explore/get-started/architecture.rst:87
 msgid "Agent"
-msgstr ""
+msgstr "Agent"
 
 #: ../../source/explore/get-started/architecture.rst:87
 msgid ""
@@ -996,16 +1072,21 @@ msgid ""
 "get your avatar to clap, or create a bowling alley, the Agent will "
 "execute it. It can see entities, avatars, and send audio."
 msgstr ""
+"Ejecuta programas de usuario escritos en JavaScript. Si has escrito un "
+"script para que tu avatar aplauda o cree una bolera, el Agent (Agente) lo "
+"ejecutará. Puede ver entidades, avatares y enviar audio."
 
 #: ../../source/explore/get-started/architecture.rst:90
 msgid "Messages Mixer"
-msgstr ""
+msgstr "Messages Mixer"
 
 #: ../../source/explore/get-started/architecture.rst:90
 msgid ""
 "Provides communication between scripts running in different programs "
 "connected to the domain, which could be Interfaces or Agents."
 msgstr ""
+"Proporciona comunicación entre scripts que se ejecutan en diferentes "
+"programas conectados al dominio, que pueden ser Interfaces o Agentes."
 
 #: ../../source/explore/get-started/architecture.rst:94
 msgid ""
@@ -1017,26 +1098,35 @@ msgid ""
 " multiple audio mixers could be used to mix the audio in different "
 "geographic regions of the domain."
 msgstr ""
+"Sandbox gestiona todos estos componentes en el servidor de dominio, cinco "
+"clientes de asignación dedicados y tantos clientes de asignación de agentes "
+"como se necesiten. Sin embargo, es posible distribuir los clientes de "
+"asignación en varias computadoras e incluso dividir cada función entre una "
+"jerarquía de componentes de asignación, que pueden estar en diferentes "
+"computadoras. Por ejemplo, se podrían usar múltiples mezcladores de audio "
+"para mezclar el audio en diferentes regiones geográficas del dominio."
 
 #: ../../source/explore/get-started/architecture.rst:98
 msgid "Global Services"
-msgstr ""
+msgstr "Servicios Globales"
 
 #: ../../source/explore/get-started/architecture.rst:100
 msgid "Vircadia maintains global services to connect different servers together."
 msgstr ""
+"Vircadia mantiene servicios globales para conectar diferentes servidores "
+"entre sí."
 
 #: ../../source/explore/get-started/architecture.rst:107
 msgid ":doc:`Install Vircadia <install>`"
-msgstr ""
+msgstr ":doc:`Instalar Vircadia <install>`"
 
 #: ../../source/explore/get-started/architecture.rst:108
 msgid ":doc:`Host Your Domain <../../host>`"
-msgstr ""
+msgstr ":doc:`Aloja Tu Dominio <../../host>`"
 
 #: ../../source/explore/get-started/architecture.rst:109
 msgid ":doc:`Travel Between Worlds <../travel>`"
-msgstr ""
+msgstr ":doc:`Viaja Entre Mundos <../travel>`"
 
 #: ../../source/explore/get-started/desktop.rst:5
 msgid ""
