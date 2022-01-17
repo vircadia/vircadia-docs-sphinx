@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-18 00:26+0000\n"
-"PO-Revision-Date: 2021-12-25 20:38+0000\n"
-"Last-Translator: Marion Süß <yoursecondworld@gmx.de>\n"
+"PO-Revision-Date: 2022-01-17 07:55+0000\n"
+"Last-Translator: Julian <bestlinuxgamers@gmail.com>\n"
 "Language-Team: German <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/home/de/>\n"
 "Language: de\n"
@@ -126,7 +126,6 @@ msgid "The following translations are available:"
 msgstr "Die folgenden Übersetzungen sind verfügbar:"
 
 #: ../../source/home.rst:39
-#, fuzzy
 msgid "`Deutsch <https://docs.vircadia.com/de/>`_ |de_trans|"
 msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
@@ -135,12 +134,10 @@ msgid "`Español <https://docs.vircadia.com/es/>`_ |es_trans|"
 msgstr "`Spanisch <https://docs.vircadia.dev/es/>`_ |de_trans|"
 
 #: ../../source/home.rst:41
-#, fuzzy
 msgid "`Français <https://docs.vircadia.com/fr/>`_ |fr_trans|"
 msgstr "`Französisch <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 
 #: ../../source/home.rst:42
-#, fuzzy
 msgid "`日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|"
 msgstr "`Japanisch <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
@@ -193,7 +190,7 @@ msgstr ""
 
 #: ../../source/home.rst:75
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
-msgstr ""
+msgstr ":doc:`Beitragen <contribute>`zum Projekt."
 
 #: ../../source/home.rst:76
 msgid ""
