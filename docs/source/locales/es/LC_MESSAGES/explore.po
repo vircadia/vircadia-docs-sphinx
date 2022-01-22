@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-01-16 14:53+0000\n"
+"PO-Revision-Date: 2022-01-22 23:52+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -1134,6 +1134,9 @@ msgid ""
 "things in Vircadia. On this page, you can find all of the shortcuts so "
 "that you can enjoy your experience in Vircadia to the fullest."
 msgstr ""
+"Usuarios de Escritorio están restringidos a usar su teclado y ratón para "
+"hacer cosas en Vircadia. En esta página puedes encontrar todos los accesos "
+"directos para que disfrutes al máximo de tu experiencia en Vircadia."
 
 #: ../../source/explore/get-started/desktop.rst:7
 msgid ""
@@ -1141,6 +1144,9 @@ msgid ""
 "running on a Mac, use the same commands, substituting the ``Command`` key"
 " for the ``Ctrl`` key."
 msgstr ""
+"Los accesos directos de acontinuación son para computadoras con Windows y "
+"Linux. Si lo estás ejecutando en una Mac, usa los mismos comandos, "
+"sustituyendo la tecla ``Command`` por la tecla ``Ctrl``."
 
 #: ../../source/explore/get-started/desktop.rst:19
 #: ../../source/explore/get-started/desktop.rst:47
@@ -1148,178 +1154,181 @@ msgstr ""
 #: ../../source/explore/get-started/desktop.rst:99
 #: ../../source/explore/get-started/desktop.rst:115
 msgid "Key"
-msgstr ""
+msgstr "Tecla"
 
 #: ../../source/explore/get-started/desktop.rst:21
 msgid "Walk Forward"
-msgstr ""
+msgstr "Caminar hacia Adelante"
 
 #: ../../source/explore/get-started/desktop.rst:21
 msgid "``W`` or ``UP ARROW``"
-msgstr ""
+msgstr "``W`` o ``FLECHA ARRIBA``"
 
 #: ../../source/explore/get-started/desktop.rst:23
 msgid "Walk Backward"
-msgstr ""
+msgstr "Caminar hacia Atrás"
 
 #: ../../source/explore/get-started/desktop.rst:23
 msgid "``S`` or ``DOWN ARROW``"
-msgstr ""
+msgstr "``S`` o ``FLECHA ABAJO``"
 
 #: ../../source/explore/get-started/desktop.rst:25
 msgid "Run"
-msgstr ""
+msgstr "Correr"
 
 #: ../../source/explore/get-started/desktop.rst:25
 msgid "Hold ``SHIFT`` while using any shortcut to walk"
-msgstr ""
+msgstr "Mantén presionado ``SHIFT`` mientras usas cualquier tecla para caminar"
 
 #: ../../source/explore/get-started/desktop.rst:27
 msgid "Side Step to the Left"
-msgstr ""
+msgstr "Paso Lateral a la Izquierda"
 
 #: ../../source/explore/get-started/desktop.rst:27
 msgid "``Q`` or Right Click + ``A``  or ``SHIFT`` + ``LEFT ARROW``"
-msgstr ""
+msgstr "``Q`` o Click Derecho + ``A`` o ``SHIFT`` + ``FLECHA IZQUIERDA``"
 
 #: ../../source/explore/get-started/desktop.rst:29
 msgid "Side Step to the Right"
-msgstr ""
+msgstr "Paso Lateral a la Derecha"
 
 #: ../../source/explore/get-started/desktop.rst:29
 msgid "``E`` or Right Click + ``D`` or ``SHIFT`` + ``RIGHT ARROW``"
-msgstr ""
+msgstr "``E`` o Click Derecho + ``D`` o ``SHIFT`` + ``FLECHA DERECHA``"
 
 #: ../../source/explore/get-started/desktop.rst:31
 msgid "Turn Left"
-msgstr ""
+msgstr "Giro a la Izquierda"
 
 #: ../../source/explore/get-started/desktop.rst:31
 msgid "``A`` or ``LEFT ARROW``"
-msgstr ""
+msgstr "``A`` o ``FLECHA IZQUIERDA``"
 
 #: ../../source/explore/get-started/desktop.rst:33
 msgid "Turn Right"
-msgstr ""
+msgstr "Giro a la Derecha"
 
 #: ../../source/explore/get-started/desktop.rst:33
 msgid "``D`` or ``RIGHT ARROW``"
-msgstr ""
+msgstr "``D`` o ``FLECHA DERECHA``"
 
 #: ../../source/explore/get-started/desktop.rst:35
 msgid "Jump"
-msgstr ""
+msgstr "Salto"
 
 #: ../../source/explore/get-started/desktop.rst:35
 msgid "``SPACE`` or ``PGUP``"
-msgstr ""
+msgstr "``ESPACIO`` o ``PGUP``"
 
 #: ../../source/explore/get-started/desktop.rst:37
 msgid "Fly"
-msgstr ""
+msgstr "Volar"
 
 #: ../../source/explore/get-started/desktop.rst:37
 msgid "Hold ``SPACE`` or ``PGUP``"
-msgstr ""
+msgstr "Mantener ``ESPACIO`` o ``PGUP``"
 
 #: ../../source/explore/get-started/desktop.rst:39
 msgid "Fly Down"
-msgstr ""
+msgstr "Volar hacia Abajo"
 
 #: ../../source/explore/get-started/desktop.rst:39
 msgid "``C`` or ``PGDN``"
-msgstr ""
+msgstr "``C`` o ``PGDN``"
 
 #: ../../source/explore/get-started/desktop.rst:49
 msgid "``X``"
-msgstr ""
+msgstr "``X``"
 
 #: ../../source/explore/get-started/desktop.rst:51
 msgid "Toggle Privacy Shield"
-msgstr ""
+msgstr "Alternar Escudo de Privacidad"
 
 #: ../../source/explore/get-started/desktop.rst:51
+#, fuzzy
 msgid "``CTRL`` + ``N``"
-msgstr ""
+msgstr "``CTRL`` + ``N``"
 
 #: ../../source/explore/get-started/desktop.rst:53
 msgid "Open Tablet"
-msgstr ""
+msgstr "Abrir Tableta"
 
 #: ../../source/explore/get-started/desktop.rst:53
 msgid "``TAB`` *(when 'Desktop becomes toolbar' is not checked)*"
 msgstr ""
+"``TAB`` *(cuando \"El escritorio se convierte en barra de herramientas\" no "
+"está marcado)*"
 
 #: ../../source/explore/get-started/desktop.rst:55
 msgid "Select Item"
-msgstr ""
+msgstr "Seleccionar Item"
 
 #: ../../source/explore/get-started/desktop.rst:55
 #: ../../source/explore/get-started/desktop.rst:57
 msgid "Left Click"
-msgstr ""
+msgstr "Click Izquierdo"
 
 #: ../../source/explore/get-started/desktop.rst:57
 msgid "Grab Item"
-msgstr ""
+msgstr "Agarrar Item"
 
 #: ../../source/explore/get-started/desktop.rst:59
 msgid "Inspect Item"
-msgstr ""
+msgstr "Inspeccionar Item"
 
 #: ../../source/explore/get-started/desktop.rst:59
 msgid "Right Click"
-msgstr ""
+msgstr "Click Derecho"
 
 #: ../../source/explore/get-started/desktop.rst:61
 msgid "Open Browser"
-msgstr ""
+msgstr "Abrir Navegador"
 
 #: ../../source/explore/get-started/desktop.rst:61
 msgid "``CTRL`` + ``B``"
-msgstr ""
+msgstr "``CTRL`` + ``B``"
 
 #: ../../source/explore/get-started/desktop.rst:63
 msgid "Toggle 'Away from Keyboard'"
-msgstr ""
+msgstr "Alternar \"Lejos del teclado\""
 
 #: ../../source/explore/get-started/desktop.rst:63
 msgid "``ESC``"
-msgstr ""
+msgstr "``ESC``"
 
 #: ../../source/explore/get-started/desktop.rst:65
 msgid "Toggle 'Mute Mic'"
-msgstr ""
+msgstr "Alternar \"Silenciar Micrófono\""
 
 #: ../../source/explore/get-started/desktop.rst:65
 msgid "``CTRL`` + ``M``"
-msgstr ""
+msgstr "``CTRL`` + ``M``"
 
 #: ../../source/explore/get-started/desktop.rst:67
 msgid "Toggle 'Show Statistics'"
-msgstr ""
+msgstr "Alternar \"Mostrar Estadísticas\""
 
 #: ../../source/explore/get-started/desktop.rst:67
 msgid "``/``"
-msgstr ""
+msgstr "``/``"
 
 #: ../../source/explore/get-started/desktop.rst:69
 msgid "Screenshot"
-msgstr ""
+msgstr "Captura de Pantalla"
 
 #: ../../source/explore/get-started/desktop.rst:69
 #: ../../source/explore/get-started/desktop.rst:91
 msgid "``P``"
-msgstr ""
+msgstr "``P``"
 
 #: ../../source/explore/get-started/desktop.rst:71
 msgid "Push to Talk"
-msgstr ""
+msgstr "Presionar para Hablar"
 
 #: ../../source/explore/get-started/desktop.rst:71
 #: ../../source/explore/get-started/desktop.rst:137
 msgid "``T``"
-msgstr ""
+msgstr "``T``"
 
 #: ../../source/explore/get-started/desktop.rst:76
 msgid "Camera Controls"
