@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-01-16 14:53+0000\n"
+"PO-Revision-Date: 2022-01-29 18:15+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/release-notes/es/>\n"
@@ -2668,11 +2668,11 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:17
 msgid "Undo"
-msgstr ""
+msgstr "Deshacer"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:18
 msgid "Redo"
-msgstr ""
+msgstr "Rehacer"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:19
 msgid "Cut"
@@ -2700,7 +2700,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:25
 msgid "Unparent Entity"
-msgstr ""
+msgstr "Desemparentar Entidad"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:26
 msgid "Move Selected Entities to Avatar"
