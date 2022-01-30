@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-01-22 23:52+0000\n"
+"PO-Revision-Date: 2022-01-30 00:59+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -1245,7 +1245,6 @@ msgid "Toggle Privacy Shield"
 msgstr "Alternar Escudo de Privacidad"
 
 #: ../../source/explore/get-started/desktop.rst:51
-#, fuzzy
 msgid "``CTRL`` + ``N``"
 msgstr "``CTRL`` + ``N``"
 
@@ -1332,178 +1331,180 @@ msgstr "``T``"
 
 #: ../../source/explore/get-started/desktop.rst:76
 msgid "Camera Controls"
-msgstr ""
+msgstr "Controles de Cámara"
 
 #: ../../source/explore/get-started/desktop.rst:81
 msgid "First Person View"
-msgstr ""
+msgstr "Vista en Primera Persona"
 
 #: ../../source/explore/get-started/desktop.rst:81
 msgid "``1``"
-msgstr ""
+msgstr "``1``"
 
 #: ../../source/explore/get-started/desktop.rst:83
 msgid "Third Person View"
-msgstr ""
+msgstr "Vista en Tercera Persona"
 
 #: ../../source/explore/get-started/desktop.rst:83
 msgid "``3``"
-msgstr ""
+msgstr "``3``"
 
 #: ../../source/explore/get-started/desktop.rst:85
 msgid "Mirror View"
-msgstr ""
+msgstr "Vista de Espejo"
 
 #: ../../source/explore/get-started/desktop.rst:85
 msgid "``2``"
-msgstr ""
+msgstr "``2``"
 
 #: ../../source/explore/get-started/desktop.rst:87
 msgid "Pan In/Out"
-msgstr ""
+msgstr "Panorámica de Entrada/Salida"
 
 #: ../../source/explore/get-started/desktop.rst:87
 msgid "With mouse, use mouse wheel."
-msgstr ""
+msgstr "Con el ratón, utiliza la rueda del ratón."
 
 #: ../../source/explore/get-started/desktop.rst:89
 msgid "On trackpad, drag two fingers up or down."
-msgstr ""
+msgstr "En el trackpad, arrastra dos dedos hacia arriba o hacia abajo."
 
 #: ../../source/explore/get-started/desktop.rst:91
 msgid "Take Screenshot"
-msgstr ""
+msgstr "Tomar Captura de Pantalla"
 
 #: ../../source/explore/get-started/desktop.rst:96
 msgid "Avatar Sizing Controls"
-msgstr ""
+msgstr "Controles de Tamaño del Avatar"
 
 #: ../../source/explore/get-started/desktop.rst:101
 msgid "Decrease Avatar Size"
-msgstr ""
+msgstr "Disminuir Tamaño de Avatar"
 
 #: ../../source/explore/get-started/desktop.rst:101
 msgid "``-``"
-msgstr ""
+msgstr "``-``"
 
 #: ../../source/explore/get-started/desktop.rst:103
 msgid "Increase Avatar Size"
-msgstr ""
+msgstr "Incrementar Tamaño de Avatar"
 
 #: ../../source/explore/get-started/desktop.rst:103
 msgid "``+``"
-msgstr ""
+msgstr "``+``"
 
 #: ../../source/explore/get-started/desktop.rst:105
 msgid "Reset Avatar Size"
-msgstr ""
+msgstr "Reestablacer Tamaño de Avatar"
 
 #: ../../source/explore/get-started/desktop.rst:105
 msgid "``=``"
-msgstr ""
+msgstr "``=``"
 
 #: ../../source/explore/get-started/desktop.rst:110
 msgid "Create and Edit Mode"
-msgstr ""
+msgstr "Modo Crear y Editar"
 
 #: ../../source/explore/get-started/desktop.rst:112
 msgid "These controls work when the **Create** app is open."
-msgstr ""
+msgstr "Estos controles funcionan cuando la aplicación **Crear** está abierta."
 
 #: ../../source/explore/get-started/desktop.rst:117
 msgid "Undo"
-msgstr ""
+msgstr "Deshacer"
 
 #: ../../source/explore/get-started/desktop.rst:117
 msgid "``CTRL`` + ``Z``"
-msgstr ""
+msgstr "``CTRL`` + ``Z``"
 
 #: ../../source/explore/get-started/desktop.rst:119
 msgid "Redo"
-msgstr ""
+msgstr "Rehacer"
 
 #: ../../source/explore/get-started/desktop.rst:119
 msgid "``CTRL`` + ``Y``"
-msgstr ""
+msgstr "``CTRL`` + ``Y``"
 
 #: ../../source/explore/get-started/desktop.rst:121
 msgid "Delete Entity"
-msgstr ""
+msgstr "Eliminar Entidad"
 
 #: ../../source/explore/get-started/desktop.rst:121
 msgid "``DEL``"
-msgstr ""
+msgstr "``DEL``"
 
 #: ../../source/explore/get-started/desktop.rst:123
 msgid "Focus on Selected Entity"
-msgstr ""
+msgstr "Centrarse en la Entidad Seleccionada"
 
 #: ../../source/explore/get-started/desktop.rst:123
 msgid "``F``"
-msgstr ""
+msgstr "``F``"
 
 #: ../../source/explore/get-started/desktop.rst:125
 msgid "Align Grid to Bottom of Selected Entities"
-msgstr ""
+msgstr "Alinear la Grilla con la parte Inferior de las Entidades Seleccionadas"
 
 #: ../../source/explore/get-started/desktop.rst:125
 msgid "``G``"
-msgstr ""
+msgstr "``G``"
 
 #: ../../source/explore/get-started/desktop.rst:127
 msgid "Duplicate Entity"
-msgstr ""
+msgstr "Duplicar Entidad"
 
 #: ../../source/explore/get-started/desktop.rst:127
 msgid "``CTRL`` + Left Click + Drag"
-msgstr ""
+msgstr "``CTRL`` + Click Izquierdo + Arrastre"
 
 #: ../../source/explore/get-started/desktop.rst:129
 msgid "Parent Entity"
-msgstr ""
+msgstr "Emparentar Entidad"
 
 #: ../../source/explore/get-started/desktop.rst:129
 msgid "``CTRL`` + ``P``"
-msgstr ""
+msgstr "``CTRL`` + ``P``"
 
 #: ../../source/explore/get-started/desktop.rst:131
 msgid "Unparent Entity"
-msgstr ""
+msgstr "Desemparentar Entidad"
 
 #: ../../source/explore/get-started/desktop.rst:131
 msgid "``CTRL`` + ``SHIFT`` + ``P``"
-msgstr ""
+msgstr "``CTRL`` + ``SHIFT`` + ``P``"
 
 #: ../../source/explore/get-started/desktop.rst:133
 msgid "Copy Entity"
-msgstr ""
+msgstr "Copiar Entidad"
 
 #: ../../source/explore/get-started/desktop.rst:133
 msgid "``CTRL`` + ``C``"
-msgstr ""
+msgstr "``CTRL`` + ``C``"
 
 #: ../../source/explore/get-started/desktop.rst:135
 msgid "Paste Entity"
-msgstr ""
+msgstr "Pegar Entidad"
 
 #: ../../source/explore/get-started/desktop.rst:135
 msgid "``CTRL`` + ``V``"
-msgstr ""
+msgstr "``CTRL`` + ``V``"
 
 #: ../../source/explore/get-started/desktop.rst:137
 msgid "Toggle Global/Local Translation"
-msgstr ""
+msgstr "Alternar Traducción Global/Local"
 
 #: ../../source/explore/get-started/desktop.rst:143
 #: ../../source/explore/get-started/vr-controls.rst:217
 msgid "Gamepad"
-msgstr ""
+msgstr "Mando"
 
 #: ../../source/explore/get-started/desktop.rst:145
 msgid ""
 "Instead of a keyboard, you can use a gamepad while experiencing Vircadia "
 "in desktop mode."
 msgstr ""
+"En lugar de un teclado, puedes usar un mando o gamepad mientras experimentas "
+"Vircadia en modo de escritorio."
 
 #: ../../source/explore/get-started/install.rst:5
 msgid ""
@@ -1516,90 +1517,109 @@ msgid ""
 "provided for Windows. For Linux see: :doc:`Host a Domain from a Local or "
 "Cloud Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
+"Vircadia tiene dos instaladores diferentes. El *Client Installer* que viene "
+"con todo lo que necesitas para ver e interactuar con el contenido y los "
+"usuarios de Vircadia. Sin embargo, no puedes alojar contenido con este "
+"instalador. El *Client + Server Installer* que tiene todo lo que hace el "
+"instalador del cliente, pero también te permite :doc:`alojar tu propio "
+"contenido ../../host` y compartirlo con el mundo. La descarga del *Client + "
+"Server Installer* solo se proporciona para Windows. Para Linux, consulta: "
+":doc:`Aloja un dominio desde un Servidor Linux Local o en la Nube ../../host/"
+"server-setup/linux-server`."
 
 #: ../../source/explore/get-started/install.rst:15
 msgid "System Requirements"
-msgstr ""
+msgstr "Requerimientos de Sistema"
 
 #: ../../source/explore/get-started/install.rst:17
 msgid ""
 "In order to run Vircadia, ensure that your computer meets these system "
 "requirements:"
 msgstr ""
+"Para ejecutar Vircadia, asegúrate de que tu computadora cumpla con estos "
+"requisitos del sistema:"
 
 #: ../../source/explore/get-started/install.rst:19
 msgid "Operating system:"
-msgstr ""
+msgstr "Sistema operativo:"
 
 #: ../../source/explore/get-started/install.rst:21
 msgid "Windows 8.1, 64-bit or Windows 10, 64-bit"
-msgstr ""
+msgstr "Windows 8.1, 64-bit o Windows 10, 64-bit"
 
 #: ../../source/explore/get-started/install.rst:22
 msgid "MacOS High Sierra (10.13) or newer"
-msgstr ""
+msgstr "MacOS High Sierra (10.13) o más reciente"
 
 #: ../../source/explore/get-started/install.rst:23
 msgid "Ubuntu 18.04 64 bit or most other modern Linux distributions"
 msgstr ""
+"Ubuntu 18.04 de 64 bits o la mayoría de las distribuciones modernas de Linux"
 
 #: ../../source/explore/get-started/install.rst:25
 msgid "CPU:"
-msgstr ""
+msgstr "CPU:"
 
 #: ../../source/explore/get-started/install.rst:27
 msgid "**Minimum:** Quad-core"
-msgstr ""
+msgstr "**Mínimo:** Cuatro Núcleos"
 
 #: ../../source/explore/get-started/install.rst:28
 msgid "**Recommended:** Quad-core with hyper-threading or better"
-msgstr ""
+msgstr "**Recomendado:** Cuatro Núcleos con Hyper-threading o mejor"
 
 #: ../../source/explore/get-started/install.rst:30
 msgid "System memory:"
-msgstr ""
+msgstr "Memoria de Sistema:"
 
 #: ../../source/explore/get-started/install.rst:32
 msgid "**Minimum:** 8GB"
-msgstr ""
+msgstr "**Mínimo:** 8GB"
 
 #: ../../source/explore/get-started/install.rst:34
 msgid "Graphics adapter:"
-msgstr ""
+msgstr "Adaptador gráfico:"
 
 #: ../../source/explore/get-started/install.rst:36
 msgid "**Minimum:** Nvidia 600 series"
-msgstr ""
+msgstr "**Mínimo:** Nvidia 600 series"
 
 #: ../../source/explore/get-started/install.rst:37
 msgid "**Recommended:** Nvidia 900 series or higher"
-msgstr ""
+msgstr "**Recomendado:** Nvidia 900 series o más alto"
 
 #: ../../source/explore/get-started/install.rst:38
 msgid "**Minimum:** AMD Radeon HD 87XX series"
-msgstr ""
+msgstr "**Mínimo:** AMD Radeon HD 87XX series"
 
 #: ../../source/explore/get-started/install.rst:39
 msgid "**Recommended:** AMD Radeon HD 89XX series or higher"
-msgstr ""
+msgstr "**Recomendado:** AMD Radeon HD 89XX series o más alto"
 
 #: ../../source/explore/get-started/install.rst:40
 msgid ""
 "**Minimum:** Intel 5th generation CPU integrated Iris graphics. Using "
 "Intel integrated graphics is not recommended."
 msgstr ""
+"**Mínimo:** CPU Intel de 5ta generacion con gráficos Iris Integrados. No se "
+"recomienda el uso de gráficos integrados de Intel."
 
 #: ../../source/explore/get-started/install.rst:42
 msgid ""
 "The listed graphics adapters support OpenGL 4.1 and above. This is a "
 "requirement for any graphics adapter running Vircadia."
 msgstr ""
+"Los adaptadores de gráficos enumerados son compatibles con OpenGL 4.1 y "
+"superior. Este es un requisito para cualquier adaptador de gráficos que "
+"ejecute Vircadia."
 
 #: ../../source/explore/get-started/install.rst:44
 msgid ""
 "In addition, your network must have enough internet bandwidth to run "
 "Vircadia:"
 msgstr ""
+"Además, tu red debe tener suficiente ancho de banda de Internet para "
+"ejecutar Vircadia:"
 
 #: ../../source/explore/get-started/install.rst:46
 msgid ""
@@ -1607,6 +1627,9 @@ msgid ""
 " have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s "
 "upload**."
 msgstr ""
+"Si estás utilizando la Interface solo para explorar el metaverso, entonces "
+"deberías tener una velocidad de internet de por lo menos **10 Mbit/s de "
+"descarga** y **2 Mbit/s de subida**."
 
 #: ../../source/explore/get-started/install.rst:47
 msgid ""
@@ -1616,12 +1639,20 @@ msgid ""
 "Mbit/s upload** per user if you host your assets on an external web "
 "server rather than your domain server."
 msgstr ""
+"Si estás alojando un servidor de dominio en una máquina remota o en tu "
+"computadora local, debes agregar **una carga de 10 Mbit/s** para cada "
+"usuario al que permitas visitar tu dominio simultáneamente. Solo necesitarás "
+"**2 Mbit/s de carga** por usuario si alojas tus activos en un servidor web "
+"externo en lugar de tu servidor de dominio."
 
 #: ../../source/explore/get-started/install.rst:50
 msgid ""
 "A world that is specifically built for low-end systems might run fine on "
 "a system with slightly less memory or a lower CPU core count."
 msgstr ""
+"Un mundo creado específicamente para sistemas de gama baja podría funcionar "
+"bien en un sistema con un poco menos de memoria o una cantidad de núcleos de "
+"CPU más bajo."
 
 #: ../../source/explore/get-started/install.rst:52
 msgid ""
@@ -1629,14 +1660,17 @@ msgid ""
 "much better graphics adapter, depending on your display's resolution and "
 "targeted frame rate."
 msgstr ""
+"Ejecutar Vircadia en una pantalla de alta resolución o en modo VR necesitará "
+"un adaptador de gráficos mucho mejor, según la resolución de tu pantalla y "
+"la velocidad de fotogramas objetivo."
 
 #: ../../source/explore/get-started/install.rst:56
 msgid "Download Vircadia"
-msgstr ""
+msgstr "Descargar Vircadia"
 
 #: ../../source/explore/get-started/install.rst:58
 msgid "Windows |Windows|"
-msgstr ""
+msgstr "Windows |Windows|"
 
 #: ../../source/explore/get-started/install.rst:60
 msgid ""
@@ -1651,10 +1685,12 @@ msgid ""
 "<https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ "
 "|DownloadWL|"
 msgstr ""
+"`Ejecutable para Windows 64-bit (Experimental) <https://cdn.vircadia.com/"
+"dist/launcher/VircadiaLauncherSetup.exe>`__ |DownloadWL|"
 
 #: ../../source/explore/get-started/install.rst:63
 msgid "macOS |MacOS|"
-msgstr ""
+msgstr "macOS |MacOS|"
 
 #: ../../source/explore/get-started/install.rst:65
 msgid ""
@@ -1664,7 +1700,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:67
 msgid "Linux |Ubuntu|"
-msgstr ""
+msgstr "Linux |Ubuntu|"
 
 #: ../../source/explore/get-started/install.rst:69
 msgid ""
@@ -1689,16 +1725,22 @@ msgid ""
 "Vircadia. VR mode is not supported on macOS. The Oculus Runtime is not "
 "supported on Linux."
 msgstr ""
+"Si tienes la intención de usar Vircadia en modo VR con un HMD, asegúrate de "
+"que SteamVR u Oculus Runtime también estén instalados en tu sistema antes de "
+"iniciar Vircadia. El modo VR no es compatible con macOS. Oculus Runtime no "
+"es compatible con Linux."
 
 #: ../../source/explore/get-started/install.rst:121
 msgid ""
 "Once you've downloaded the installer, you're ready to install Vircadia. "
 "The process will be different based on your operating system:"
 msgstr ""
+"Una vez que hayas descargado el instalador, estarás listo para instalar "
+"Vircadia. El proceso será diferente según tu sistema operativo:"
 
 #: ../../source/explore/get-started/install.rst:125
 msgid "Windows Install"
-msgstr ""
+msgstr "Instalacion en Windows"
 
 #: ../../source/explore/get-started/install.rst:127
 msgid ""
@@ -1707,72 +1749,91 @@ msgid ""
 "finish the install process, Interface will open, and you will be able to "
 "log in and begin exploring the metaverse."
 msgstr ""
+"Para instalar en Windows, simplemente haz doble click en el archivo de "
+"instalación descargado para abrirlo. Ejecuta las indicaciones del "
+"instalador. Una vez que termine el proceso de instalación, se abrirá la "
+"interfaz y podrás iniciar sesión y comenzar a explorar el metaverso."
 
 #: ../../source/explore/get-started/install.rst:132
 msgid "Mac Install"
-msgstr ""
+msgstr "Instalación en Mac"
 
 #: ../../source/explore/get-started/install.rst:134
 msgid ""
 "At this time, the Vircadia installer for Mac is unsigned, so you will "
 "need give the OS permission to install the application."
 msgstr ""
+"En este momento, el instalador de Vircadia para Mac no está firmado, por lo "
+"que deberás otorgar permiso al sistema operativo para instalar la aplicación."
 
 #: ../../source/explore/get-started/install.rst:136
 msgid "Open the downloaded installer dmg file."
-msgstr ""
+msgstr "Abre el archivo dmg del instalador descargado."
 
 #: ../../source/explore/get-started/install.rst:137
 msgid "Agree to the License Agreement."
-msgstr ""
+msgstr "Acepta el Acuerdo de licencia."
 
 #: ../../source/explore/get-started/install.rst:138
 msgid "Drag Vircadia to the Applications folder."
-msgstr ""
+msgstr "Arrastra Vircadia a la carpeta Aplicaciones."
 
 #: ../../source/explore/get-started/install.rst:139
 msgid ""
 "Try opening Interface.app. You will be prompted that macOS will not open "
 "the file because it is unsigned."
 msgstr ""
+"Intenta abrir Interface.app. Se te indicará que macOS no abrirá el archivo "
+"porque no está firmado."
 
 #: ../../source/explore/get-started/install.rst:140
 msgid ""
 "Open **System Preferences > Security & Privacy**. On older macOS versions"
 " this might be in **System Preferences > General**."
 msgstr ""
+"Abre **Preferencias del Sistema > Seguridad y Privacidad**. En versiones "
+"anteriores de macOS, esto podría estar en **Preferencias de Sistema > "
+"General**."
 
 #: ../../source/explore/get-started/install.rst:141
 msgid ""
 "Next to the warning indicating that Interface is blocked, click 'Open "
 "Anyway'."
 msgstr ""
+"Junto a la advertencia que indica que la interfaz está bloqueada, haz click "
+"en '\"Abrir de todos modos\"."
 
 #: ../../source/explore/get-started/install.rst:142
 msgid "Confirm that you want to open the application."
-msgstr ""
+msgstr "Confirma que deseas abrir la aplicación."
 
 #: ../../source/explore/get-started/install.rst:143
 msgid ""
 "Allow microphone access if prompted, in order to be able to talk inside "
 "the application."
 msgstr ""
+"Permite el acceso al micrófono si se te solicita, para poder hablar dentro "
+"de la aplicación."
 
 #: ../../source/explore/get-started/install.rst:145
 msgid ""
 "At this point, Interface will open and you will be able to log in and "
 "begin exploring the metaverse."
 msgstr ""
+"En este punto, se abrirá la interfaz y podrás iniciar sesión y comenzar a "
+"explorar el metaverso."
 
 #: ../../source/explore/get-started/install.rst:150
 msgid "Linux Install"
-msgstr ""
+msgstr "Instalación en Linux"
 
 #: ../../source/explore/get-started/install.rst:152
 msgid ""
 "Mark the downloaded AppImage file as executable. (for example, with "
 "``chmod +x Vircadia-x86_64_v2021.1.0-Eos.AppImage``.)"
 msgstr ""
+"Marca el archivo AppImage descargado como ejecutable. (por ejemplo, con ``"
+"chmod +x Vircadia-x86_64_v2021.1.0-Eos.AppImage``.)"
 
 #: ../../source/explore/get-started/install.rst:153
 msgid ""
@@ -1780,10 +1841,12 @@ msgid ""
 "install `AppImageLauncher "
 "<https://github.com/TheAssassin/AppImageLauncher>`_."
 msgstr ""
+"(Opcional) Si deseas que AppImage se integre en tu sistema, instala `"
+"AppImageLauncher <https://github.com/TheAssassin/AppImageLauncher>`_."
 
 #: ../../source/explore/get-started/install.rst:154
 msgid "Execute AppImage."
-msgstr ""
+msgstr "Ejecuta AppImage."
 
 #: ../../source/explore/get-started/install.rst:156
 msgid ""
@@ -1791,10 +1854,13 @@ msgid ""
 " a domain, please refer to :doc:`Host a Domain from a Local or Cloud "
 "Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
+"Actualmente, el servidor no forma parte de la AppImage de la interfaz de "
+"Linux. Para alojar un dominio, consulta :doc:`Alojar un Dominio desde un "
+"Servidor Local o en la Nube <../../host/server-setup/linux-server>`."
 
 #: ../../source/explore/get-started/install.rst:160
 msgid "Upgrade Vircadia"
-msgstr ""
+msgstr "Actualizar Vircadia"
 
 #: ../../source/explore/get-started/install.rst:162
 msgid ""
@@ -1803,6 +1869,10 @@ msgid ""
 " you can download the latest release from our `website "
 "<https://vircadia.com/download-vircadia/#interface>`_."
 msgstr ""
+"Vircadia siempre está cambiando, ya que trabajamos para mejorar el "
+"rendimiento y agregar funciones que mejorarán tu experiencia en el "
+"metaverso. En cualquier momento, puedes descargar la última versión de "
+"nuestro `sitio web <https://vircadia.com/download-vircadia/#interface>`_."
 
 #: ../../source/explore/get-started/install.rst:165
 msgid ""
@@ -1811,6 +1881,10 @@ msgid ""
 "before upgrading. Keep in mind that Vircadia Server could be running in "
 "the background."
 msgstr ""
+"No puedes actualizar Vircadia en Windows si tiene la interfaz o el servidor "
+"de Vircadia ejecutándose en tu computadora. Asegúrate de salir de estas "
+"aplicaciones antes de actualizar. Ten en cuenta que Vircadia Server podría "
+"estar ejecutándose en segundo plano."
 
 #: ../../source/explore/get-started/install.rst:168
 msgid ""
@@ -1818,12 +1892,18 @@ msgid ""
 "the icon and select 'Quit'. Alternatively, end the 'server-console' "
 "background process using the Task Manager."
 msgstr ""
+"Para Windows, busca la aplicación Vircadia en la bandeja del sistema. Haz "
+"clic con el botón derecho en el icono y selecciona \"Salir\". "
+"Alternativamente, finaliza el proceso en segundo plano de la \"consola del "
+"servidor\" utilizando el Administrador de tareas."
 
 #: ../../source/explore/get-started/install.rst:170
 msgid ""
 "For more information on the latest releases, see our :doc:`Release Notes "
 "<../../release-notes>`."
 msgstr ""
+"Para obtener más información sobre los últimos lanzamientos, consulta "
+"nuestras :doc:`Notas de Lanzamientos<../../release-notes>`."
 
 #: ../../source/explore/get-started/install.rst:175
 msgid "Perform a Clean Install"
