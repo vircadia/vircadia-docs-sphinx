@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-01-30 00:59+0000\n"
+"PO-Revision-Date: 2022-02-06 15:34+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -1907,7 +1907,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:175
 msgid "Perform a Clean Install"
-msgstr ""
+msgstr "Realizar una Instalación Limpia"
 
 #: ../../source/explore/get-started/install.rst:177
 msgid ""
@@ -1916,6 +1916,10 @@ msgid ""
 "multiple files and settings that you may need once you install Vircadia "
 "again."
 msgstr ""
+"Si tienes problemas al cargar la interfaz o el servidor local, puedes "
+"intentar realizar una instalación limpia (Perform a Clean Install). Una "
+"instalación limpia elimina varios archivos y configuraciones que podrías "
+"necesitar si alguna vez vuelves a instalar Vircadia."
 
 #: ../../source/explore/get-started/install.rst:180
 msgid ""
@@ -1923,20 +1927,25 @@ msgid ""
 "Favorites, Wearables, Server content, and Entities. These settings will "
 "be deleted during the clean install."
 msgstr ""
+"Asegúrate de hacer una copia de seguridad de los siguientes archivos antes "
+"de una instalación limpia: Favoritos, Wearables, Contenido del servidor y "
+"Entidades. Esta configuración se eliminará durante la instalación limpia."
 
 #: ../../source/explore/get-started/install.rst:184
 msgid "Windows Clean Install"
-msgstr ""
+msgstr "Instalación Limpia en Windows"
 
 #: ../../source/explore/get-started/install.rst:186
 msgid ""
 "Click on the Start menu and type \"Add or Remove Programs\" in your "
 "Windows search bar."
 msgstr ""
+"Haz click sobre el menú de Inicio y escribe \"Añadir o Remover Programas\" "
+"en tu barra de búsqueda de Windows."
 
 #: ../../source/explore/get-started/install.rst:187
 msgid "Uninstall any versions of Vircadia that are visible."
-msgstr ""
+msgstr "Desinstala cualquier versión de Vircadia que esté visible."
 
 #: ../../source/explore/get-started/install.rst:188
 #, python-format
@@ -1944,6 +1953,8 @@ msgid ""
 "Once Vircadia is uninstalled, browse to your %Program Files% directory. "
 "Delete all folders related to Vircadia."
 msgstr ""
+"Una vez que Vircadia esté desinstalado, navega a tu directorio de %Program "
+"Files%. Elimina todas las carpetas relacionadas con Vircadia."
 
 #: ../../source/explore/get-started/install.rst:192
 msgid ""
@@ -1952,6 +1963,10 @@ msgid ""
 "client to another location on your computer before proceeding. Repeat for"
 " %AppData%/Roaming/Vircadia/assignment-client."
 msgstr ""
+"Los próximos 3 pasos eliminarán permanentemente el contenido de tu servidor "
+"local. Si deseas mantener este contenido, copia %AppData%/Local/Vircadia/"
+"assignment-client a otra ubicación de tu computadora antes de seguir. "
+"Repítelo para %AppData%/Roaming/Vircadia/assignment-client."
 
 #: ../../source/explore/get-started/install.rst:196
 #, python-format
@@ -1962,6 +1977,11 @@ msgid ""
 "View and make sure \"Hidden Items\" is checked. Delete all folders "
 "related to Vircadia."
 msgstr ""
+"Ve a tu carpeta local %AppData% (usualmente ubicada en ``C:/Users/"
+"<tu_nombredeusuario>/AppData/Local``). Si no ves la carpeta, asegúrate de "
+"que puedes ver las carpetas ocultas: en el Explorador de Archivos, haz click "
+"en \"Vista\" (View) y asegúrate que la casilla \"Elementos Ocultos\" este "
+"marcada con una tilde. Elimina todas las carpetas relacionadas con Vircadia."
 
 #: ../../source/explore/get-started/install.rst:198
 #, python-format
@@ -1970,6 +1990,9 @@ msgid ""
 "``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related"
 " to Vircadia."
 msgstr ""
+"Navega a tu carpeta %AppData% (usualmente ubicada en ``C:/Users/"
+"<tu_nombredeusuario>/AppData/Roaming``). Elimina todas las carpetas "
+"relacionadas con Vircadia."
 
 #: ../../source/explore/get-started/install.rst:199
 msgid ""
@@ -1977,14 +2000,18 @@ msgid ""
 " content, copy the ``assignment-client`` folders you previously saved "
 "back into to their respective locations."
 msgstr ""
+"Re-instala Vircadia siguiendo los pasos anteriores. Para restaurar el "
+"contenido de tu servidor local, copia las carpetas de ``assignment-client`` "
+"que guardaste previamente en sus respectivas ubicaciones."
 
 #: ../../source/explore/get-started/install.rst:203
 msgid "Mac Clean Install"
-msgstr ""
+msgstr "Instalación Limpia en Mac"
 
 #: ../../source/explore/get-started/install.rst:205
 msgid "Open your Applications folder and delete the Vircadia folder."
 msgstr ""
+"Abre tu carpeta Aplicaciones (o Applications) y elimina la carpeta Vircadia."
 
 #: ../../source/explore/get-started/install.rst:206
 msgid ""
@@ -1992,10 +2019,13 @@ msgid ""
 "accessible by going to *Go > Home*. Press the keyboard shortcut ``Command"
 " + Shift + .`` (period)."
 msgstr ""
+"Abre la carpeta ``<username>/.config``. Esta es una carpeta oculta a la que "
+"se puede acceder yendo a *Go > Home*. Presiona el atajo de teclado ``Command "
+"+ Shift + .``(secuencialmente)."
 
 #: ../../source/explore/get-started/install.rst:207
 msgid "Delete the ``vircadia.com`` folder."
-msgstr ""
+msgstr "Elimina la carpeta ``vircadia.com``."
 
 #: ../../source/explore/get-started/install.rst:208
 msgid ""
@@ -2003,24 +2033,28 @@ msgid ""
 "'Go' menu while in the Finder. The Library option should appear in the "
 "menu."
 msgstr ""
+"Abre la carpeta ``~/Library`` manteniendo presionada la tecla \"Option\" y "
+"haciendo click en el menu \"Go\" mientras estás en Finder. La opción "
+"\"Library\" debería aparecer en el menú."
 
 #: ../../source/explore/get-started/install.rst:209
 msgid ""
 "Browse to ``~/Library/Application Support`` and delete the Vircadia "
 "folder."
 msgstr ""
+"Navega a ``~/Library/Application Support`` y elimina la carpeta de Vircadia."
 
 #: ../../source/explore/get-started/install.rst:210
 msgid "Empty the Trash."
-msgstr ""
+msgstr "Vacía la Papelera."
 
 #: ../../source/explore/get-started/install.rst:211
 msgid "Re-install Vircadia using the steps above."
-msgstr ""
+msgstr "Re-instala Vircadia usando los pasos anteriores."
 
 #: ../../source/explore/get-started/install.rst:216
 msgid ":doc:`Install Your Domain <../../host/server-setup>`"
-msgstr ""
+msgstr ":doc:`Instala Tu Dominio <../../host/server-setup>`"
 
 #: ../../source/explore/get-started/setup-audio.rst:2
 msgid ""
@@ -2028,6 +2062,10 @@ msgid ""
 "most likely outdated, no mention that you should *not* use \"open mic\" "
 "setups without push to talk"
 msgstr ""
+"Este documento está ligeramente desactualizado. A tener en cuenta: Lo más "
+"probable es que las instrucciones para Windows estén desactualizadas, sin "
+"mencionar que *no* debes usar configuraciones de \"micrófono abierto\" sin "
+"pulsar para hablar"
 
 #: ../../source/explore/get-started/setup-audio.rst:9
 msgid ""
@@ -2036,16 +2074,24 @@ msgid ""
 " Usually, your computer will automatically detect a plugged in headset "
 "and you will not need to configure your audio devices any further."
 msgstr ""
+"Cuando inicies sesión en Vircadia por primera vez, detectaremos "
+"automáticamente los dispositivos de audio predeterminados de tu computadora "
+"y los usaremos para Vircadia. Por lo general, tu computadora detectará "
+"automáticamente un auricular conectado y no necesitarás configurar más tus "
+"dispositivos de audio."
 
 #: ../../source/explore/get-started/setup-audio.rst:11
 msgid ""
 "However, some audio setups do require additional configuration. If you "
 "need to change your audio settings, read on to find out more."
 msgstr ""
+"Sin embargo, algunas configuraciones de audio requieren una configuración "
+"adicional. Si necesitas cambiar la configuración de audio, sigue leyendo "
+"para obtener más información."
 
 #: ../../source/explore/get-started/setup-audio.rst:19
 msgid "Audio \"At a Glance\""
-msgstr ""
+msgstr "Audio \"De un vistazo\""
 
 #: ../../source/explore/get-started/setup-audio.rst:21
 msgid ""
@@ -2054,10 +2100,14 @@ msgid ""
 "turned on or off in your Audio settings (from the Tablet or HUD, click "
 "**Audio**)."
 msgstr ""
+"Tu configuración básica de audio se muestra en la esquina superior izquierda "
+"de la ventana de tu interfaz. Esto se llama \"Audio Level Meter\" (Medidor "
+"de Nivel de Audio) y se puede activar o desactivar en la configuración de "
+"audio (desde la Tableta o HUD, haciendo click en **Audio**)."
 
 #: ../../source/explore/get-started/setup-audio.rst:27
 msgid "Change your Input or Output Device"
-msgstr ""
+msgstr "Cambia Tu Dispositivo de Entrada o Salida"
 
 #: ../../source/explore/get-started/setup-audio.rst:30
 msgid ""
@@ -2070,6 +2120,15 @@ msgid ""
 "applications on your computer, then you can change your device in the "
 "application."
 msgstr ""
+"Se garantiza que el audio espacializado en 3D de Vircadia mejorará tu "
+"experiencia en el metaverso, ya sea que estés en modo de Escritorio o usando "
+"equipo de VR. Por defecto, seleccionaremos los dispositivos de audio "
+"predeterminados que tu sistema operativo o auriculares hayan detectado.Si "
+"quieres utilizar un auricular o una configuración de audio diferente a la "
+"predeterminada, puedes cambiar el dispositivo predeterminado de tu "
+"computadora. Si necesitas usar un dispositivo diferente al de otras "
+"aplicaciones en tu computadora para Vircadia , entonces puedes cambiar tu "
+"dispositivo en la aplicación."
 
 #: ../../source/explore/get-started/setup-audio.rst:32
 msgid ""
@@ -2080,6 +2139,13 @@ msgid ""
 "Hear\" device (think of these sound card devices as if they were "
 "microphones being held up to your speakers while they output sound)."
 msgstr ""
+"Un *audio input device* (dispositivo de entrada de audio) es cualquier "
+"dispositivo que captura sonido y genera una señal a la que pueden acceder "
+"otros dispositivos. Los ejemplos de dispositivos de entrada de audio "
+"incluyen un micrófono USB o un auricular con micrófono que está conectado a "
+"tu computadora, o el dispositivo \"Stereo Mix\" o \"What U Hear\" de tu "
+"tarjeta de sonido (piensa en estos dispositivos de tarjeta de sonido como si "
+"fueran micrófonos sostenidos por tus parlantes mientras emiten sonido)."
 
 #: ../../source/explore/get-started/setup-audio.rst:33
 msgid ""
@@ -2088,6 +2154,11 @@ msgid ""
 " output devices include your desktop computer speakers, headphones, or "
 "huge speakers in a movie theater."
 msgstr ""
+"Un *audio output device* (dispositivo de salida de audio) es cualquier "
+"dispositivo que recibe información de archivos de audio y la convierte en "
+"señales sonoras audibles. Ejemplos de dispositivos de salida de audio "
+"incluyen los parlantes de tu computadora de escritorio, los auriculares o "
+"los parlantes enormes en una sala de cine."
 
 #: ../../source/explore/get-started/setup-audio.rst:35
 msgid ""
@@ -2097,25 +2168,31 @@ msgid ""
 " different. In these cases, we encourage you to enable `acoustic echo "
 "cancellation <#id1>`_ for improved audio quality."
 msgstr ""
+"Si usas auriculares con micrófono, es probable que tus dispositivos de "
+"entrada y salida sean el mismo dispositivo. Sin embargo, si estás utilizando "
+"altavoces externos o alguna otra configuración de micrófono abierto, estos "
+"dispositivos pueden ser diferentes. En estos casos, te recomendamos que "
+"habilites `acoustic echo cancellation <#id1>`_ para mejorar la calida de "
+"audio."
 
 #: ../../source/explore/get-started/setup-audio.rst:37
 msgid "To change your audio devices:"
-msgstr ""
+msgstr "Para cambiar tus dispositivos de audio:"
 
 #: ../../source/explore/get-started/setup-audio.rst:39
 #: ../../source/explore/get-started/setup-audio.rst:91
 #: ../../source/explore/get-started/setup-audio.rst:109
 #: ../../source/explore/get-started/setup-audio.rst:122
 msgid "From the Tablet or HUD, click **Audio**."
-msgstr ""
+msgstr "Desde la Tableta o HUD, haz click en **Audio**."
 
 #: ../../source/explore/get-started/setup-audio.rst:40
 msgid "Choose your desired input device."
-msgstr ""
+msgstr "Elije tu dispositivo de entrada deseado."
 
 #: ../../source/explore/get-started/setup-audio.rst:41
 msgid "Choose your desired output device."
-msgstr ""
+msgstr "Elije tu dispositivo de salida deseado."
 
 #: ../../source/explore/get-started/setup-audio.rst:45
 msgid "Using Bluetooth Headsets"
