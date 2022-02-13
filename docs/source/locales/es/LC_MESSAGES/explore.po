@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-02-06 15:34+0000\n"
+"PO-Revision-Date: 2022-02-13 19:34+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -2196,7 +2196,7 @@ msgstr "Elije tu dispositivo de salida deseado."
 
 #: ../../source/explore/get-started/setup-audio.rst:45
 msgid "Using Bluetooth Headsets"
-msgstr ""
+msgstr "Uso de Auriculares Bluetooth"
 
 #: ../../source/explore/get-started/setup-audio.rst:47
 msgid ""
@@ -2206,12 +2206,19 @@ msgid ""
 "connection. On a 2.4Ghz connection, you may experience audio breakup and "
 "occasional disconnects."
 msgstr ""
+"Puedes usar auriculares bluetooth, como AirPods con Vircadia. Sin embargo, "
+"ten en cuenta que hay limitaciones para usarlos, y pueden no funcionar en "
+"todos los entornos. Si usas WiFi, asegúrate de estar usando una conexión "
+"WiFi de 5Ghz. En una conexión de 2,4 Ghz, es posible que experimentes cortes "
+"de audio y desconexiones ocasionales."
 
 #: ../../source/explore/get-started/setup-audio.rst:49
 msgid ""
 "Unfortunately, bluetooth audio devices do not currently support stereo "
 "input. Therefore, you have two options:"
 msgstr ""
+"Desafortunadamente, los dispositivos de audio bluetooth actualmente no "
+"admiten entrada estéreo. Por lo tanto, tienes dos opciones:"
 
 #: ../../source/explore/get-started/setup-audio.rst:51
 msgid ""
@@ -2219,6 +2226,8 @@ msgid ""
 "microphone for input. This allows you to take advantage of the stereo "
 "audio."
 msgstr ""
+"Utilice los auriculares bluetooth solo como dispositivo de salida y utilice "
+"otro micrófono para la entrada. Esto te permite aprovechar el audio estéreo."
 
 #: ../../source/explore/get-started/setup-audio.rst:52
 msgid ""
@@ -2226,10 +2235,13 @@ msgid ""
 "users will only experience mono sound coming from you, rather than the "
 "normal stereo audio."
 msgstr ""
+"Utilice el micrófono integrado de los auriculares bluetooth. En este caso, "
+"otros usuarios solo experimentarán un monosonido proveniente de ti, en lugar "
+"del audio estéreo normal."
 
 #: ../../source/explore/get-started/setup-audio.rst:56
 msgid "Acoustic Echo Cancellation"
-msgstr ""
+msgstr "Cancelación de Eco Acústico"
 
 #: ../../source/explore/get-started/setup-audio.rst:58
 msgid ""
@@ -2239,6 +2251,11 @@ msgid ""
 "microphone and speakers (i.e. an \"open mic\"), rather than a detached "
 "headset."
 msgstr ""
+"El eco acústico es el proceso mediante el cual los sonidos de los altavoces "
+"son captados y transmitidos por el micrófono, lo que da como resultado un "
+"efecto de eco. Esto es común cuando usas Vircadia con el micrófono y los "
+"parlantes incorporados de una computadora portátil (es decie, un \"micrófono "
+"abierto\"), en lugar de un auricular separado."
 
 #: ../../source/explore/get-started/setup-audio.rst:60
 msgid ""
@@ -2247,28 +2264,41 @@ msgid ""
 "default, acoustic echo cancellation is turned on, and you can turn it off"
 " in the **Audio** app."
 msgstr ""
+"La \"cancelación de eco acústico\" es una tecnología que mejora la calidad "
+"de la voz al evitar el eco que resulta en configuraciones de micrófono "
+"abierto. Por defecto, la cancelación de eco acústico está activada y puedes "
+"desactivarla en la aplicación **Audio**."
 
 #: ../../source/explore/get-started/setup-audio.rst:62
 msgid ""
 "Acoustic echo cancellation will not run when using input devices with "
 "high sample rates (greater than 96khz) or more than 2 channels."
 msgstr ""
+"La cancelación de eco acústico no se ejecutará cuando se utilicen "
+"dispositivos de entrada con frecuencias de muestreo altas (superior a 96khz) "
+"o más de 2 canales."
 
 #: ../../source/explore/get-started/setup-audio.rst:64
 msgid "For best performance with open mic setups, ensure that you:"
 msgstr ""
+"Para obtener el mejor rendimiento con configuraciones de micrófono abierto, "
+"asegúrate de:"
 
 #: ../../source/explore/get-started/setup-audio.rst:66
 msgid ""
 "Disable any processing and effects on the input and output devices. This "
 "includes:"
 msgstr ""
+"Deshabilite cualquier procesamiento y efectos en los dispositivos de entrada "
+"y salida. Esto incluye:"
 
 #: ../../source/explore/get-started/setup-audio.rst:68
 msgid ""
 "On Mac: Turn off 'Ambient noise reduction' (System Preferences > Sound > "
 "Input > Use ambient noise reduction)"
 msgstr ""
+"En Mac: Desactivar \"Reducción de ruido ambiental\" ((System Preferences > "
+"Sound > Input > Use ambient noise reduction)"
 
 #: ../../source/explore/get-started/setup-audio.rst:69
 msgid ""
@@ -2276,30 +2306,40 @@ msgid ""
 "Recording tab > click on your device > Properties button > Enhancements "
 "tab)"
 msgstr ""
+"En Windows: Desactivar todas las \"Mejoras\" o \"Enhancements\" (Control "
+"Panel > Sound > Recording tab > click on your device > Properties button > "
+"Enhancements tab)"
 
 #: ../../source/explore/get-started/setup-audio.rst:71
 msgid ""
 "On Mac devices, set the balance of the output device to either the left "
 "or the right (System Preferences > Sound > Output > Balance)"
 msgstr ""
+"En dispositivos Mac, configura el balance del dispositivo de salida a la "
+"izquierda o a la derecha (System Preferences > Sound > Output > Balance)"
 
 #: ../../source/explore/get-started/setup-audio.rst:72
 msgid ""
 "Lower the microphone's physical gain setting to approximately 3/4 of the "
 "maximum"
 msgstr ""
+"Baja el ajuste de ganancia física del micrófono a aproximadamente 3/4 del "
+"máximo"
 
 #: ../../source/explore/get-started/setup-audio.rst:73
 msgid ""
 "Lower the speaker's physical volume level to approximately 3/4 of the "
 "maximum"
 msgstr ""
+"Baja el nivel de volumen físico del altavoz a aproximadamente 3/4 del máximo"
 
 #: ../../source/explore/get-started/setup-audio.rst:74
 msgid ""
 "If you are not using your laptop's audio devices, move and point the "
 "microphone away from the speakers"
 msgstr ""
+"Si no estás utilizando los dispositivos de audio de tu computadora portátil, "
+"mueve y apunta el micrófono lejos de los altavoces"
 
 #: ../../source/explore/get-started/setup-audio.rst:76
 msgid ""
@@ -2309,24 +2349,31 @@ msgid ""
 " if you hear a little bit of echoing...it will lessen as the technology "
 "learns your voice and the voices of the people around you!"
 msgstr ""
+"La tecnología de cancelación de eco acústico capta los sonidos a tu "
+"alrededor e intenta identificar los sonidos de eco a medida que la usas. "
+"Esto significa que mejorará y será más preciso con el tiempo.Así que no te "
+"desesperes si escuchas un poco de eco... disminuirá a medida que la "
+"tecnología aprenda tu voz y las voces de las personas que te rodean!"
 
 #: ../../source/explore/get-started/setup-audio.rst:78
 msgid "To speed up this \"learning\" process, you can:"
-msgstr ""
+msgstr "Para acelerar este proceso de \"aprendizaje\", puedes:"
 
 #: ../../source/explore/get-started/setup-audio.rst:80
 msgid "Avoid turning your avatar while talking"
-msgstr ""
+msgstr "Evitar girar tu avatar mientras hablas"
 
 #: ../../source/explore/get-started/setup-audio.rst:81
 msgid ""
 "Leave your microphone muted while another person talks for 10 seconds at "
 "a time"
 msgstr ""
+"Dejar tu micrófono silenciado mientras otra persona habla durante 10 "
+"segundos a la vez"
 
 #: ../../source/explore/get-started/setup-audio.rst:85
 msgid "Test Your Audio Devices"
-msgstr ""
+msgstr "Prueba Tus Dispositivos de Audio"
 
 #: ../../source/explore/get-started/setup-audio.rst:87
 msgid ""
@@ -2337,6 +2384,14 @@ msgid ""
 "word you said! The good news is that you can test your audio setup to "
 "make sure that both your input and output devices are working correctly."
 msgstr ""
+"El audio es una parte integral de la experiencia de realidad virtual social, "
+"por lo que, por supuesto, queremos asegurarnos de que tus dispositivos "
+"funcionen correctamente y que todos puedan escucharte. ¡No hay nada más "
+"molesto que acercarte a un grupo de amigos en un mundo virtual, solo para "
+"darte cuenta de que no han escuchado una palabra de lo que dijiste! Las "
+"buenas noticia son que puedes probar tu configuración de audio para "
+"asegurarte de que tanto los dispositivos de entrada como los de salida "
+"funcionen correctamente."
 
 #: ../../source/explore/get-started/setup-audio.rst:89
 msgid ""
@@ -2344,6 +2399,9 @@ msgid ""
 "recommend muting yourself prior to checking your voice input if you do "
 "not want others to hear your microphone check."
 msgstr ""
+"¡La función \"Prueba tu voz\" no silencia automáticamente tu voz! "
+"Recomendamos silenciarte antes de verificar tu entrada de voz si no quieres "
+"que otros escuchen la verificación de tu micrófono."
 
 #: ../../source/explore/get-started/setup-audio.rst:92
 msgid ""
@@ -2352,32 +2410,43 @@ msgid ""
 "output device. Make any adjustments to your input device to achieve your "
 "desired sound."
 msgstr ""
+"Haz click en \"Probar tu voz\" (Test Your Voice) para probar tu dispositivo "
+"de entrada. Habla a tu micrófono y el sonido se reproducirá directamente a "
+"través del dispositivo de salida seleccionado. Realiza cualquier ajuste a tu "
+"dispositivo de entrada para lograr el sonido deseado."
 
 #: ../../source/explore/get-started/setup-audio.rst:93
 msgid ""
 "Click 'Test Your Sound' to test your output device. Adjust the headset "
 "and/or application volume until the sound is a comfortable volume."
 msgstr ""
+"Haz click en \"Test Your Sound\" para probar tu dispositivo de salida. "
+"Ajusta el volumen de los auriculares y/o de la aplicación hasta que el "
+"sonido sea un volumen cómodo."
 
 #: ../../source/explore/get-started/setup-audio.rst:97
 msgid "Adjust In-World Volume"
-msgstr ""
+msgstr "Ajustar el Volumen del Mundo"
 
 #: ../../source/explore/get-started/setup-audio.rst:99
 msgid "There are three different types of “sounds” in Vircadia:"
-msgstr ""
+msgstr "Hay tres tipos diferentes de \"sonidos\" en Vircadia:"
 
 #: ../../source/explore/get-started/setup-audio.rst:101
 msgid ""
 "People: The sound you hear when people in the domain are talking through "
 "their microphones"
 msgstr ""
+"Personas: El sonido que escuchas cuando las personas del dominio hablan a "
+"través de sus micrófonos"
 
 #: ../../source/explore/get-started/setup-audio.rst:102
 msgid ""
 "Environment: The ambient sounds in the domain, running as scripts in the "
 "background"
 msgstr ""
+"Entorno: Los sonidos ambientales en el dominio, ejecutándose como scripts en "
+"segundo plano"
 
 #: ../../source/explore/get-started/setup-audio.rst:103
 msgid ""
@@ -2385,31 +2454,43 @@ msgid ""
 "application window (such as the “clicking” you hear when you hover over "
 "an icon)"
 msgstr ""
+"Sonido del Sistema: El sonido que hace tu computadora cuando interactúas con "
+"la ventana de la aplicación (como el \"click\" que escuchas cuando pasas el "
+"mouse sobre un ícono)"
 
 #: ../../source/explore/get-started/setup-audio.rst:105
 msgid ""
 "To change the volume of all of these at once, simply change the volume of"
 " your headset or output device."
 msgstr ""
+"Para cambiar el volumen de todos estos a la vez, simplemente cambia el "
+"volumen de tus auriculares o dispositivo de salida."
 
 #: ../../source/explore/get-started/setup-audio.rst:107
 msgid "To change one or more of these sound types independently of the others:"
 msgstr ""
+"Para cambiar uno o más de estos tipos de sonido independientemente de los "
+"demás:"
 
 #: ../../source/explore/get-started/setup-audio.rst:110
 #: ../../source/explore/get-started/setup-audio.rst:123
 msgid "Choose 'Desktop' or 'VR' depending on the mode you are in."
 msgstr ""
+"Selecciona \"Desktop\" o \"VR\" dependiendo del modo en el que te encuentres."
 
 #: ../../source/explore/get-started/setup-audio.rst:111
 msgid "Scroll down to 'Choose Output Device'."
 msgstr ""
+"Desplázate hacia abajo hasta \"Choose Output Device\" (Elegir Dispositivo de "
+"Salida)."
 
 #: ../../source/explore/get-started/setup-audio.rst:112
 msgid ""
 "Adjust the sliders to the desired volume levels for each of the sound "
 "types."
 msgstr ""
+"Ajusta los controles deslizantes a los niveles de volumen deseados para cada "
+"uno de los tipos de sonido."
 
 #: ../../source/explore/get-started/setup-audio.rst:116
 msgid "Enable Push to Talk (PTT)"
