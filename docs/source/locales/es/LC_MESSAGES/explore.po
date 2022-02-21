@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-02-13 19:34+0000\n"
+"PO-Revision-Date: 2022-02-21 00:14+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -2494,7 +2494,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/setup-audio.rst:116
 msgid "Enable Push to Talk (PTT)"
-msgstr ""
+msgstr "Habilitar Push to Talk (PTT)"
 
 #: ../../source/explore/get-started/setup-audio.rst:118
 msgid ""
@@ -2502,14 +2502,18 @@ msgid ""
 "press a button to have others hear you in the environment. When you’re "
 "not pressing the button, you are muted and will not be heard."
 msgstr ""
+"\"Push to Talk\" (Pulsar para Hablar) es como tener un walkie talkie en la "
+"mano. Debes presionar un botón para que otros lo escuchen en el entorno. "
+"Cuando no estés presionando el botón, estarás silenciado y no se te "
+"escuchará."
 
 #: ../../source/explore/get-started/setup-audio.rst:120
 msgid "To turn on ‘Push to Talk’:"
-msgstr ""
+msgstr "Para activar \"Push to Talk\":"
 
 #: ../../source/explore/get-started/setup-audio.rst:124
 msgid "Toggle 'Push to Talk' on."
-msgstr ""
+msgstr "Activa \"Push to Talk\"."
 
 #: ../../source/explore/get-started/setup-audio.rst:126
 msgid ""
@@ -2518,10 +2522,14 @@ msgid ""
 "controllers to talk. This feature works only when you are focused on the "
 "Interface window."
 msgstr ""
+"En el modo de escritorio, mantén presionada la tecla \"T\" de tu teclado "
+"para hablar. Al usar un HMD en modo VR, mantén presionados los gatillos de "
+"agarre de tus controladores para hablar. Esta función solo funciona cuando "
+"estás enfocado en la ventana de la interfaz."
 
 #: ../../source/explore/get-started/setup-audio.rst:130
 msgid "Adjust Vircadia Audio Settings"
-msgstr ""
+msgstr "Ajustar la Configuración de Audio de Vircadia"
 
 #: ../../source/explore/get-started/setup-audio.rst:132
 msgid ""
@@ -2529,56 +2537,67 @@ msgid ""
 "experience in Vircadia. To change these, open your Tablet or HUD and go "
 "to **Audio**."
 msgstr ""
+"Hay una serie de ajustes que puedes configurar para personalizar tu "
+"experiencia de audio en Vircadia. Para cambiarlos, abre tu tableta o HUD y "
+"ve a **Audio**."
 
 #: ../../source/explore/get-started/setup-audio.rst:137
 msgid "Mute microphone"
-msgstr ""
+msgstr "Mute microphone"
 
 #: ../../source/explore/get-started/setup-audio.rst:137
 msgid "Mute or unmute your microphone."
-msgstr ""
+msgstr "Silencia o reactiva el micrófono."
 
 #: ../../source/explore/get-started/setup-audio.rst:139
+#, fuzzy
 msgid "HMD Mute Warning (VR)"
-msgstr ""
+msgstr "HMD Mute Warning (VR)"
 
 #: ../../source/explore/get-started/setup-audio.rst:139
 msgid ""
 "Enable to receive a warning when your microphone is muted when wearing a "
 "HMD device."
 msgstr ""
+"Habilitalo para recibir una advertencia cuando tu micrófono esté silenciado "
+"cuando uses un dispositivo HMD (Head Mount Display)."
 
 #: ../../source/explore/get-started/setup-audio.rst:141
 msgid "Noise reduction"
-msgstr ""
+msgstr "Noise reduction"
 
 #: ../../source/explore/get-started/setup-audio.rst:141
 msgid ""
 "Enable to turn on noise reduction. This removes outside noise from audio "
 "signals."
 msgstr ""
+"Habilitalo para activar la reducción de ruido. Esto elimina el ruido "
+"exterior de las señales de audio."
 
 #: ../../source/explore/get-started/setup-audio.rst:143
 msgid "Audio level meter"
-msgstr ""
+msgstr "Audio level meter"
 
 #: ../../source/explore/get-started/setup-audio.rst:143
 msgid ""
 "By default, the audio level meter is visible on the top left corner of "
 "your screen. Uncheck this box to hide the meter."
 msgstr ""
+"Por defecto, el medidor de nivel de audio está visible en la esquina "
+"superior izquierda de tu pantalla. Desmarca esta casilla para ocultar el "
+"medidor."
 
 #: ../../source/explore/get-started/setup-audio.rst:146
 msgid "Echo Cancellation"
-msgstr ""
+msgstr "Echo Cancellation"
 
 #: ../../source/explore/get-started/setup-audio.rst:146
 msgid "Enable or disable `acoustic echo cancellation <#id1>`_."
-msgstr ""
+msgstr "Habilita o deshabilita la `cancelación de eco acústico <#id1>`_."
 
 #: ../../source/explore/get-started/setup-audio.rst:148
 msgid "Stereo input"
-msgstr ""
+msgstr "Stereo input"
 
 #: ../../source/explore/get-started/setup-audio.rst:148
 msgid ""
@@ -2586,10 +2605,13 @@ msgid ""
 " audio channels. This means that you will hear sound from various "
 "directions, like how you would in the real world."
 msgstr ""
+"Activa o desactiva la entrada estéreo (stereo input). Estéreo reproduce "
+"sonido utilizando dos o más canales de audio. Esto significa que escucharás "
+"el sonido desde varias direcciones, como lo harías en el mundo real."
 
 #: ../../source/explore/get-started/setup-audio.rst:156
 msgid "Adjust OS Audio Settings"
-msgstr ""
+msgstr "Ajustar la Configuración de Audio del Sistema Operativo (OS)"
 
 #: ../../source/explore/get-started/setup-audio.rst:158
 msgid ""
@@ -2600,10 +2622,18 @@ msgid ""
 "with any of the above settings, then try adjusting your operating "
 "system's device settings:"
 msgstr ""
+"Muchas configuraciones del dispositivo, como los niveles de entrada, el "
+"impulso, las ganancias y las mejoras, no se pueden configurar en Vircadia. "
+"Estas configuraciones solo se pueden ajustar a nivel del sistema operativo o "
+"con el software externo de un dispositivo. Si experimentas problemas con el "
+"audio que no se pueden resolver con ninguna de las configuraciones "
+"anteriores, intenta ajustar la configuración del dispositivo de tu sistema "
+"operativo:"
 
 #: ../../source/explore/get-started/setup-audio.rst:160
 msgid "**Update the driver software for your audio devices**:"
 msgstr ""
+"**Actualiza el software del controlador para tus dispositivos de audio**:"
 
 #: ../../source/explore/get-started/setup-audio.rst:162
 msgid ""
@@ -2611,6 +2641,10 @@ msgid ""
 "updates, click on the Apple icon in the top-left corner of the screen and"
 " select 'Software Update'."
 msgstr ""
+"En Mac: Apple maneja todas las actualizaciones de controladores en tu "
+"computadora. Para buscar actualizaciones, haz click en el ícono de Apple en "
+"la esquina superior izquierda de la pantalla y selecciona \"Software Update\""
+"."
 
 #: ../../source/explore/get-started/setup-audio.rst:163
 msgid ""
@@ -2618,36 +2652,42 @@ msgid ""
 "**Sound, audio and game controllers**. Right-click on your audio device "
 "and select 'Update driver'."
 msgstr ""
+"En Windows: Abre el **Administrador de Dispositivos** y selecciona la flecha "
+"junto a **Controladores de audio, sonido y juegos**. Haz click derecho en tu "
+"dispositivo de audio y selecciona \"Actualizar controlador\"."
 
 #: ../../source/explore/get-started/setup-audio.rst:164
 msgid "**Adjust microphone levels and/or boost**:"
-msgstr ""
+msgstr "**Ajusta los niveles y/o realza el micrófono**:"
 
 #: ../../source/explore/get-started/setup-audio.rst:166
 msgid "On Mac: Go to **System Preferences > Sound > Input**."
-msgstr ""
+msgstr "En Mac: Ve a **System Preferences > Sound > Input**."
 
 #: ../../source/explore/get-started/setup-audio.rst:167
 msgid ""
 "On Windows: Go to **Control Panel > Sound > Recording**. Choose your "
 "microphone and click 'Properties'."
 msgstr ""
+"En Windows: ve a **Panel de Control > Sonido > Grabación**. Elije tu "
+"micrófono y haz clic en \"Propiedades\"."
 
 #: ../../source/explore/get-started/setup-audio.rst:168
 msgid "**Adjust other advanced sound settings**:"
-msgstr ""
+msgstr "**Ajustar otras configuraciones de sonido avanzadas**:"
 
 #: ../../source/explore/get-started/setup-audio.rst:170
 msgid "Go to **Control Panel > Sound**"
-msgstr ""
+msgstr "Ve a **Panel de Control > Sonido**"
 
 #: ../../source/explore/get-started/setup-audio.rst:171
 msgid "Go to **Settings > System > Sound**"
-msgstr ""
+msgstr "Ve a **Configuraciones > Sistema > Sonido**"
 
 #: ../../source/explore/get-started/setup-audio.rst:172
 msgid "Go to **Control Panel > Hardware and Sound > Adjust System Volume**"
 msgstr ""
+"Ve a **Panel de Control > Hardware y Sonido > Ajustar Volumen del Sistem**"
 
 #: ../../source/explore/get-started/vr-controls.rst:2
 msgid ""
@@ -2655,6 +2695,10 @@ msgid ""
 "Oculus Runtime we support almost all HMDs and input devices on the "
 "market, we probably support alternatives to Vive Trackers"
 msgstr ""
+"Este documento está ligeramente desactualizado. A tener en cuenta: dado que "
+"admitimos OpenVR y Oculus Runtime, admitimos casi todos los HMD y "
+"dispositivos de entrada del mercado, probablemente admitimos alternativas a "
+"Vive Trackers"
 
 #: ../../source/explore/get-started/vr-controls.rst:9
 msgid ""
@@ -2664,34 +2708,41 @@ msgid ""
 "people in 3D, track body movements, and engage with the objects around "
 "you. We support the following VR equipment:"
 msgstr ""
+"Para obtener la mejor y más inmersiva experiencia en Vircadia, te alentamos "
+"a usar equipos de realidad virtual, como Oculus Rift o HTC Vive. Con estos "
+"dispositivos HMD y controladores manuales, podrás interactuar con personas "
+"en 3D, realizar un seguimiento de los movimientos del cuerpo e interactuar "
+"con los objetos que te rodean. Admitimos los siguientes equipos de realidad "
+"virtual:"
 
 #: ../../source/explore/get-started/vr-controls.rst:12
 msgid "Head Mounted Displays"
-msgstr ""
+msgstr "Pantallas Montadas en la Cabeza"
 
 #: ../../source/explore/get-started/vr-controls.rst:12
 msgid "Hand Controllers"
-msgstr ""
+msgstr "Controladores de Mano"
 
 #: ../../source/explore/get-started/vr-controls.rst:14
 msgid "Oculus Rift (CV1 and S)"
-msgstr ""
+msgstr "Oculus Rift (CV1 y S)"
 
 #: ../../source/explore/get-started/vr-controls.rst:14
 msgid "Oculus Touch"
-msgstr ""
+msgstr "Oculus Touch"
 
 #: ../../source/explore/get-started/vr-controls.rst:16
 msgid "HTC Vive"
-msgstr ""
+msgstr "HTC Vive"
 
 #: ../../source/explore/get-started/vr-controls.rst:18
 msgid "Windows MR"
-msgstr ""
+msgstr "Windows MR"
 
 #: ../../source/explore/get-started/vr-controls.rst:18
+#, fuzzy
 msgid "XBox One Controller"
-msgstr ""
+msgstr "XBox One Controller"
 
 #: ../../source/explore/get-started/vr-controls.rst:27
 msgid "VR Controls"
