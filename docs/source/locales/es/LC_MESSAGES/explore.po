@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-02-21 00:14+0000\n"
+"PO-Revision-Date: 2022-02-27 19:51+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -2550,7 +2550,6 @@ msgid "Mute or unmute your microphone."
 msgstr "Silencia o reactiva el micrófono."
 
 #: ../../source/explore/get-started/setup-audio.rst:139
-#, fuzzy
 msgid "HMD Mute Warning (VR)"
 msgstr "HMD Mute Warning (VR)"
 
@@ -2740,17 +2739,16 @@ msgid "Windows MR"
 msgstr "Windows MR"
 
 #: ../../source/explore/get-started/vr-controls.rst:18
-#, fuzzy
 msgid "XBox One Controller"
 msgstr "XBox One Controller"
 
 #: ../../source/explore/get-started/vr-controls.rst:27
 msgid "VR Controls"
-msgstr ""
+msgstr "Controles VR"
 
 #: ../../source/explore/get-started/vr-controls.rst:38
 msgid "Comfort Mode"
-msgstr ""
+msgstr "Modo Confort"
 
 #: ../../source/explore/get-started/vr-controls.rst:40
 msgid ""
@@ -2759,30 +2757,39 @@ msgid ""
 "while your body stands still. If you experience motion sickness and "
 "discomfort using VR equipment, you are not alone."
 msgstr ""
+"El mareo por movimiento es un problema real para muchas personas cuando se "
+"ponen un HMD y entran en VR. Esto sucede porque tus ojos experimentan "
+"movimiento en la realidad virtual, mientras que tu cuerpo permanece inmóvil. "
+"Si experimentas mareos e incomodidad al usar el equipo de realidad virtual, "
+"no estás solo."
 
 #: ../../source/explore/get-started/vr-controls.rst:42
 msgid ""
 "\"Comfort mode\" is designed to decrease the effects of motion sickness "
 "while using Vircadia. This mode:"
 msgstr ""
+"\"Modo Confort\" está diseñado para disminuir los efectos de mareo del "
+"movimiento mientras estás en Vircadia. Este modo:"
 
 #: ../../source/explore/get-started/vr-controls.rst:44
 msgid "Disables sharp turns"
-msgstr ""
+msgstr "Desactiva los giros bruscos"
 
 #: ../../source/explore/get-started/vr-controls.rst:45
 msgid "Decreases your field of vision by darkening the edges of the screen"
-msgstr ""
+msgstr "Disminuye tu campo de visión al oscurecer los bordes de la pantalla"
 
 #: ../../source/explore/get-started/vr-controls.rst:46
 msgid "Adds a ground plane and grid"
-msgstr ""
+msgstr "Añade un plano de tierra y una cuadrícula"
 
 #: ../../source/explore/get-started/vr-controls.rst:48
 msgid ""
 "All of these features were developed to help you orient yourself when "
 "moving around in VR."
 msgstr ""
+"Todas estas funciones se desarrollaron para ayudarte a orientarte cuando te "
+"mueves en la VR."
 
 #: ../../source/explore/get-started/vr-controls.rst:50
 msgid ""
@@ -2790,122 +2797,140 @@ msgid ""
 "tablet. Use the slider to adjust how much of the environment you see in "
 "VR."
 msgstr ""
+"Para habilitar el modo confort, ve a **Menu > Settings > Controls** en tu "
+"tableta. Utiliza el control deslizante para ajustar la cantidad de entorno "
+"que ves en la VR."
 
 #: ../../source/explore/get-started/vr-controls.rst:56
 msgid "Change How You Move in VR"
-msgstr ""
+msgstr "Cambiar la Forma en que Te Mueves en VR"
 
 #: ../../source/explore/get-started/vr-controls.rst:58
 msgid ""
 "You can change many avatar movement settings in VR such as jumping, "
 "flying, and leaning behavior. To do so:"
 msgstr ""
+"Puedes cambiar muchas configuraciones de movimiento de avatar en VR, como el "
+"comportamiento de salto, vuelo e inclinación. Para hacerlo:"
 
 #: ../../source/explore/get-started/vr-controls.rst:60
 msgid "In Desktop mode, go to **Settings > Controls** in the menu bar."
-msgstr ""
+msgstr "En modo Escritorio, ve a **Settings > Controls** en la barra de menú."
 
 #: ../../source/explore/get-started/vr-controls.rst:61
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Controls**."
-msgstr ""
+msgstr "En modo VR, abre tu Tableta y ve a **Menu > Settings > Controls**."
 
 #: ../../source/explore/get-started/vr-controls.rst:66
 msgid "*VR Movement* > Teleporting"
-msgstr ""
+msgstr "*VR Movement* > Teleporting"
 
 #: ../../source/explore/get-started/vr-controls.rst:66
 msgid ""
 "Enables teleport controls to move seamlessly between positions within a "
 "domain."
 msgstr ""
+"Permite que los controles de teletransporte se muevan sin problemas entre "
+"posiciones dentro de un dominio."
 
 #: ../../source/explore/get-started/vr-controls.rst:69
 msgid "*VR Movement* > Walking"
-msgstr ""
+msgstr "*VR Movement* > Walking"
 
 #: ../../source/explore/get-started/vr-controls.rst:69
 msgid "Enables walking controls to move within a domain."
-msgstr ""
+msgstr "Permite que los controles para caminar se muevan dentro de un dominio."
 
 #: ../../source/explore/get-started/vr-controls.rst:72
 msgid "*VR Movement* > Strafing"
-msgstr ""
+msgstr "*VR Movement* > Strafing"
 
 #: ../../source/explore/get-started/vr-controls.rst:72
 msgid "Enables strafing controls (to walk sideways)."
-msgstr ""
+msgstr "Habilita los controles de ametrallamiento (caminar de lado)."
 
 #: ../../source/explore/get-started/vr-controls.rst:75
 msgid "*VR Movement* > Jumping and flying"
-msgstr ""
+msgstr "*VR Movement* > Jumping and flying"
 
 #: ../../source/explore/get-started/vr-controls.rst:75
 msgid "Enables jump and fly controls."
-msgstr ""
+msgstr "Habilita los controles de salto y vuelo."
 
 #: ../../source/explore/get-started/vr-controls.rst:78
 msgid "*VR Movement* > Movement Direction"
-msgstr ""
+msgstr "*VR Movement* > Movement Direction"
 
 #: ../../source/explore/get-started/vr-controls.rst:78
 msgid "This setting controls which direction you move in:"
-msgstr ""
+msgstr "Esta configuración controla en qué dirección te mueves:"
 
 #: ../../source/explore/get-started/vr-controls.rst:80
 msgid "**HMD-Relative**: Move in the direction your head is pointing."
-msgstr ""
+msgstr "**HMD-Relative**: Muévete en la dirección que apunta tu cabeza."
 
 #: ../../source/explore/get-started/vr-controls.rst:81
 msgid "**Hand-Relative**: Move in the direction your dominant hand is pointing."
 msgstr ""
+"**Hand-Relative**: Muévete en la dirección que apunta tu mano dominante."
 
 #: ../../source/explore/get-started/vr-controls.rst:82
 msgid ""
 "**Hand-Relative (Leveled)**: Move in the direction your hand is pointing,"
 " without taking pitch into account."
 msgstr ""
+"**Hand-Relative (Leveled)**: Muévete en la dirección que apunta tu mano, sin "
+"tener en cuenta el cabeceo."
 
 #: ../../source/explore/get-started/vr-controls.rst:85
 msgid "*VR Movement* > Dominant Hand"
-msgstr ""
+msgstr "*VR Movement* > Dominant Hand"
 
 #: ../../source/explore/get-started/vr-controls.rst:85
 msgid ""
 "Select 'Left' or 'Right'. Teleport and turn controls move to the "
 "controller in the dominant hand."
 msgstr ""
+"Selecciona \"Izquierda\" o \"Derecha\". Los controles de teletransporte y "
+"giro se mueven al controlador de la mano dominante."
 
 #: ../../source/explore/get-started/vr-controls.rst:88
 msgid "*VR Movement* > Rotation Mode"
-msgstr ""
+msgstr "*VR Movement* > Rotation Mode"
 
 #: ../../source/explore/get-started/vr-controls.rst:88
 msgid "This setting controls how you turn in VR:"
-msgstr ""
+msgstr "Esta configuración controla cómo giras en la VR:"
 
 #: ../../source/explore/get-started/vr-controls.rst:90
 msgid "**Snap turn**: Rotate your avatar sharply to the left or the right."
 msgstr ""
+"**Snap turn**: Gira tu avatar bruscamente hacia la izquierda o hacia la "
+"derecha."
 
 #: ../../source/explore/get-started/vr-controls.rst:91
 msgid ""
 "**Smooth turn**: Rotate your avatar smoothly as you turn to the left or "
 "right."
 msgstr ""
+"**Smooth turn**: Gira tu avatar suavemente mientras giras hacia la izquierda "
+"o hacia la derecha."
 
 #: ../../source/explore/get-started/vr-controls.rst:93
 msgid ""
 "**Comfort mode**: Enable `comfort mode`_ and decrease the field of vision"
 " while moving in VR mode."
 msgstr ""
+"**Comfort mode**: Habilita el `modo confort`_ y disminuye el campo de visión "
+"mientras te mueves en modo VR."
 
 #: ../../source/explore/get-started/vr-controls.rst:96
 msgid "*VR Movement* > Control Scheme Selection"
-msgstr ""
+msgstr "*VR Movement* > Control Scheme Selection"
 
 #: ../../source/explore/get-started/vr-controls.rst:96
 msgid "This setting determines how you control your walking speed:"
-msgstr ""
+msgstr "Esta configuración determina cómo controlas tu velocidad al caminar:"
 
 #: ../../source/explore/get-started/vr-controls.rst:98
 msgid ""
@@ -2913,6 +2938,9 @@ msgid ""
 "forward you push your controller's joystick. Fully pushing the joystick "
 "forward will make your avatar run."
 msgstr ""
+"**Default**: Tu velocidad al caminar seguirá siendo la misma, sin importar "
+"qué tan lejos empujes el joystick de tu controlador. Empujar completamente "
+"el joystick hacia adelante hará que tu avatar corra."
 
 #: ../../source/explore/get-started/vr-controls.rst:101
 msgid ""
@@ -2920,6 +2948,9 @@ msgid ""
 "your controller's joystick. Fully pushing your joystick forward will make"
 " your avatar run."
 msgstr ""
+"**Analog**: Tu velocidad al caminar cambia según la distancia hacia adelante "
+"que empujas el joystick de tu controlador. Empujar completamente el joystick "
+"hacia adelante hará que tu avatar corra."
 
 #: ../../source/explore/get-started/vr-controls.rst:104
 msgid ""
@@ -2928,52 +2959,65 @@ msgid ""
 "maximum walking speed in meters/second. Fully pushing your joystick "
 "forward will make your avatar run."
 msgstr ""
+"**Analog++**: Tu velocidad al caminar cambia basado en qué tan lejos empujas "
+"el joystick de tu controlador. Puedes usar el control deslizante para "
+"cambiar la velocidad máxima de caminata en metros/segundo. Empujar "
+"completamente el joystick hacia adelante hará que tu avatar corra."
 
 #: ../../source/explore/get-started/vr-controls.rst:109
 msgid "*VR Movement* > Avatar leaning behavior"
-msgstr ""
+msgstr "*VR Movement* > Avatar leaning behavior"
 
 #: ../../source/explore/get-started/vr-controls.rst:109
 msgid "This setting controls if and when your avatar leans in VR mode."
 msgstr ""
+"Esta configuración controla si tu avatar se inclina en el modo VR y cuándo."
 
 #: ../../source/explore/get-started/vr-controls.rst:111
 msgid ""
 "**Auto**: This is the default setting. Your avatar will lean if you are "
 "standing in the real world."
 msgstr ""
+"**Auto**: Esta es la configuración predeterminada. Tu avatar se inclinará si "
+"estás parado en el mundo real."
 
 #: ../../source/explore/get-started/vr-controls.rst:113
 msgid ""
 "**Seated**: Your avatar will not lean if you are sitting in the real "
 "world."
 msgstr ""
+"**Seated**: Tu avatar no se inclinará si estás sentado en el mundo real."
 
 #: ../../source/explore/get-started/vr-controls.rst:114
 msgid "**Standing**: Your avatar will lean if you are sitting in the real world."
-msgstr ""
+msgstr "**Standing**: Tu avatar se inclinará si estás sentado en el mundo real."
 
 #: ../../source/explore/get-started/vr-controls.rst:115
 msgid "**Disabled**: Your avatar can sit on the floor (experimental)."
-msgstr ""
+msgstr "**Disabled**: Tu avatar puede sentarse en el suelo (experimental)."
 
 #: ../../source/explore/get-started/vr-controls.rst:117
 msgid "User real world height (in meters)"
-msgstr ""
+msgstr "User real world height (en metros)"
 
 #: ../../source/explore/get-started/vr-controls.rst:117
 msgid "You can change your real world height for better tracking in VR mode."
 msgstr ""
+"Puedes cambiar tu altura en el mundo real para un mejor seguimiento en el "
+"modo VR."
 
 #: ../../source/explore/get-started/vr-controls.rst:125
 msgid "Motion Capture Using Vive Trackers"
-msgstr ""
+msgstr "Captura de Movimiento Usando Rastreadores Vive (Vive Trackers)"
 
 #: ../../source/explore/get-started/vr-controls.rst:127
 msgid ""
 "You can enhance your Vircadia experience using full body motion capture "
 "(mocap). Vircadia currently supports mocap using HTC Vive Trackers."
 msgstr ""
+"Puedes mejorar tu experiencia en Vircadia utilizando la captura de "
+"movimiento de cuerpo completo (mocap). Vircadia actualmente admite mocap "
+"usando Rastreadores HTC Vive."
 
 #: ../../source/explore/get-started/vr-controls.rst:129
 msgid ""
@@ -2981,102 +3025,109 @@ msgid ""
 " can replace the HMD and hand controllers with trackers if you only need "
 "to track the movement of your head and hands."
 msgstr ""
+"Los rastreadores Vive deben estar atados a la parte del cuerpo que deseas "
+"rastrear. Puedes reemplazar los controladores HMD y manuales con "
+"rastreadores si solo necesitas rastrear el movimiento de tu cabeza y manos."
 
 #: ../../source/explore/get-started/vr-controls.rst:131
 msgid "You can set up different mocap systems:"
-msgstr ""
+msgstr "Puede configurar diferentes sistemas de mocap:"
 
 #: ../../source/explore/get-started/vr-controls.rst:134
 msgid "Mocap System"
-msgstr ""
+msgstr "Sistema Mocap"
 
 #: ../../source/explore/get-started/vr-controls.rst:134
 msgid "Equipment Needed"
-msgstr ""
+msgstr "Equipamiento Necesario"
 
 #: ../../source/explore/get-started/vr-controls.rst:134
 msgid "Recommended Straps"
-msgstr ""
+msgstr "Correas Recomendadas"
 
 #: ../../source/explore/get-started/vr-controls.rst:136
 msgid "Head"
-msgstr ""
+msgstr "Head"
 
 #: ../../source/explore/get-started/vr-controls.rst:136
 msgid "HMD or 1 Vive Tracker"
-msgstr ""
+msgstr "HMD o 1 Rastreador Vive"
 
 #: ../../source/explore/get-started/vr-controls.rst:136
 msgid "Head strap for Vive Tracker"
-msgstr ""
+msgstr "Correa para la cabeza del Rastreador Vive"
 
 #: ../../source/explore/get-started/vr-controls.rst:138
 msgid "Hands"
-msgstr ""
+msgstr "Hands"
 
 #: ../../source/explore/get-started/vr-controls.rst:138
 msgid "Hand controllers or 2 Vive Trackers"
-msgstr ""
+msgstr "Controladores de Mano o 2 Rastreadores Vive"
 
 #: ../../source/explore/get-started/vr-controls.rst:138
 msgid "Hand strap for Vive Tracker"
-msgstr ""
+msgstr "Correa de mano para Rastreador Vive"
 
 #: ../../source/explore/get-started/vr-controls.rst:141
 msgid "Head + Hands + Feet"
-msgstr ""
+msgstr "Head + Hands + Feet"
 
 #: ../../source/explore/get-started/vr-controls.rst:141
 msgid "2 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "2 Rastreadores Vive + HMD + 2 Controladores de Mano"
 
 #: ../../source/explore/get-started/vr-controls.rst:141
 msgid "Foot straps"
-msgstr ""
+msgstr "Correas para los pies"
 
 #: ../../source/explore/get-started/vr-controls.rst:144
 msgid "Head + Hands + Feet + Hips"
-msgstr ""
+msgstr "Head + Hands + Feet + Hips"
 
 #: ../../source/explore/get-started/vr-controls.rst:144
 msgid "3 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "3 Rastreadores Vive + HMD + 2 Controladores de Mano"
 
 #: ../../source/explore/get-started/vr-controls.rst:144
 msgid ""
 "Hip Strap: Drill a hole in the back of a thick leather belt and attach "
 "the tracker using a 1/4\" screw."
 msgstr ""
+"Correa de Cadera: perfora un agujero en la parte posterior de un cinturón "
+"grueso de cuero y fija el rastreador con un tornillo de 1/4 pulgadas."
 
 #: ../../source/explore/get-started/vr-controls.rst:147
 msgid "Head + Hands + Feet + Hips + Chest"
-msgstr ""
+msgstr "Head + Hands + Feet + Hips + Chest"
 
 #: ../../source/explore/get-started/vr-controls.rst:147
 msgid "4 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "4 Rastreadores Vive + HMD + 2 Controladores de Mano"
 
 #: ../../source/explore/get-started/vr-controls.rst:147
 msgid "Chest straps"
-msgstr ""
+msgstr "Correas de pecho"
 
 #: ../../source/explore/get-started/vr-controls.rst:150
 msgid "Head + Hands + Feet + Hips + Shoulders"
-msgstr ""
+msgstr "Head + Hands + Feet + Hips + Shoulders"
 
 #: ../../source/explore/get-started/vr-controls.rst:150
 msgid "5 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "5 Rastreadores Vive + HMD + 2 Controladores de Mano"
 
 #: ../../source/explore/get-started/vr-controls.rst:150
 msgid "Shoulder straps"
-msgstr ""
+msgstr "Correas de hombro"
 
 #: ../../source/explore/get-started/vr-controls.rst:155
 msgid ""
 "You can replace the HMD and hand controllers with trackers if you only "
 "need to track the movement of your head and hands."
 msgstr ""
+"Puedes reemplazar los controladores HMD y manuales con rastreadores si solo "
+"necesitas rastrear el movimiento de tu cabeza y manos."
 
 #: ../../source/explore/get-started/vr-controls.rst:161
 msgid "Configure Your Mocap System"
