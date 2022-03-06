@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-02-27 19:51+0000\n"
+"PO-Revision-Date: 2022-03-06 21:00+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -3131,25 +3131,27 @@ msgstr ""
 
 #: ../../source/explore/get-started/vr-controls.rst:161
 msgid "Configure Your Mocap System"
-msgstr ""
+msgstr "Configura Tu Sistema Mocap"
 
 #: ../../source/explore/get-started/vr-controls.rst:163
 msgid "Strap your Vive trackers to your body as shown in the image."
-msgstr ""
+msgstr "Ata tus rastreadores Vive a tu cuerpo tal como se muestra en la imagen."
 
 #: ../../source/explore/get-started/vr-controls.rst:164
 msgid "Connect your trackers, HMD, and controllers to SteamVR."
-msgstr ""
+msgstr "Conecta tus rastreadores, HMD y controladores a SteamVR."
 
 #: ../../source/explore/get-started/vr-controls.rst:165
 msgid ""
 "In Interface, pull up your HUD or Tablet and go to **Menu > Settings > "
 "Calibration**."
 msgstr ""
+"En la Interfaz, abre tu HUD o Tableta y ve a**Menu > Settings > "
+"Calibration**."
 
 #: ../../source/explore/get-started/vr-controls.rst:166
 msgid "Configure your mocap system by:"
-msgstr ""
+msgstr "Configura tu sistema mocap de la siguiente manera:"
 
 #: ../../source/explore/get-started/vr-controls.rst:168
 msgid ""
@@ -3157,36 +3159,41 @@ msgid ""
 "head tracker instead of an HMD, click 'Use HTC Vive Devices in Desktop "
 "Mode'."
 msgstr ""
+"Seleccionar el dispositivo adecuado para la cabeza y las manos. Si estás "
+"utilizando un rastreador de cabeza en lugar de un HMD, haz click en \"Use "
+"HTC Vive Devices in Desktop Mode\"."
 
 #: ../../source/explore/get-started/vr-controls.rst:169
 msgid "Selecting the body position of any additional trackers."
-msgstr ""
+msgstr "Seleccionar la posición del cuerpo de cualquier rastreador adicional."
 
 #: ../../source/explore/get-started/vr-controls.rst:173
 msgid "Click 'Apply and Calibrate'."
-msgstr ""
+msgstr "Haz click en \"Apply and Calibrate\"."
 
 #: ../../source/explore/get-started/vr-controls.rst:174
 msgid "Stand in a T-Pose until the timer counts down to zero:"
-msgstr ""
+msgstr "Párate en una pose en T hasta que el cronómetro cuente hasta cero:"
 
 #: ../../source/explore/get-started/vr-controls.rst:176
 msgid "Feet together"
-msgstr ""
+msgstr "Pies juntos"
 
 #: ../../source/explore/get-started/vr-controls.rst:177
 msgid "Arms out"
-msgstr ""
+msgstr "Brazos extendidos hacia afuera"
 
 #: ../../source/explore/get-started/vr-controls.rst:178
 msgid "Head looking straight ahead."
-msgstr ""
+msgstr "Cabeza mirando al frente."
 
 #: ../../source/explore/get-started/vr-controls.rst:180
 msgid ""
 "Check to see that each tracker is tracking the corresponding joint on "
 "your avatar."
 msgstr ""
+"Verifica que cada rastreador esté rastreando la articulación correspondiente "
+"en tu avatar."
 
 #: ../../source/explore/get-started/vr-controls.rst:181
 msgid ""
@@ -3196,6 +3203,12 @@ msgid ""
 "Button, Right Menu Button. You can press the same buttons together for a "
 "second to remove your calibration from the trackers."
 msgstr ""
+"También puedes calibrar tus rastreadores sin usar tu tableta. Una vez que "
+"apliques tu configuración, párate en una postura en T y manten presionados "
+"los siguientes cuatro botones durante 1 segundo: Gatillo izquierdo, Gatillo "
+"derecho, Botón de menú izquierdo, Botón de menú derecho. Puedes presionar "
+"los mismos botones juntos durante un segundo para eliminar su calibración de "
+"los rastreadores."
 
 #: ../../source/explore/get-started/vr-controls.rst:183
 msgid ""
@@ -3205,10 +3218,15 @@ msgid ""
 "System Menu Button and look on the ground for a marker. This is important"
 " to make sure your joints are oriented correctly."
 msgstr ""
+"Cuando configuras tu Vive, eliges en qué dirección apuntar la flecha como "
+"referencia. Durante la calibración, es importante que mires en la misma "
+"dirección. Si no puede recordar la dirección de la flecha, presiona el botón "
+"de menú del sistema Vive y busca un marcador en el suelo. Esto es importante "
+"para asegurarte de que tus articulaciones estén orientadas correctamente."
 
 #: ../../source/explore/get-started/vr-controls.rst:187
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Solución de Problemas"
 
 #: ../../source/explore/get-started/vr-controls.rst:190
 msgid "Issue"
@@ -3216,31 +3234,38 @@ msgstr "Problema"
 
 #: ../../source/explore/get-started/vr-controls.rst:190
 msgid "Troubleshooting Steps"
-msgstr ""
+msgstr "Pasos para la Resolución de Problemas"
 
 #: ../../source/explore/get-started/vr-controls.rst:192
 msgid "My calibration failed"
-msgstr ""
+msgstr "Mi calibración falló"
 
 #: ../../source/explore/get-started/vr-controls.rst:192
 msgid "Check if your trackers are properly connected in SteamVR."
 msgstr ""
+"Comprueba si tus rastreadores están correctamente conectados en SteamVR."
 
 #: ../../source/explore/get-started/vr-controls.rst:193
 msgid ""
 "Have you selected the correct configuration in your tablet and do you "
 "have enough number of trackers to support that configuration?"
 msgstr ""
+"¿Has seleccionado la configuración correcta en tu tableta y tienes "
+"suficiente cantidad de rastreadores para admitir esa configuración?"
 
 #: ../../source/explore/get-started/vr-controls.rst:195
 msgid ""
 "If you are performing and not in HMD, did you select to 'Use HTC Vive in "
 "Desktop Mode'?"
 msgstr ""
+"Si estás actuando y no en HMD, ¿Seleccionaste \"Use HTC Vive in Desktop "
+"Mode\"?"
 
 #: ../../source/explore/get-started/vr-controls.rst:196
 msgid "Are any of the trackers blinking? If so, they may need to be paired again."
 msgstr ""
+"¿Está parpadeando alguno de los rastreadores? Si es así, es posible que "
+"deban emparejarse de nuevo."
 
 #: ../../source/explore/get-started/vr-controls.rst:197
 msgid ""
@@ -3248,48 +3273,59 @@ msgid ""
 "You will need one dongle per tracker. If you are performing with all 7, "
 "then you may need a USB hub to handle them."
 msgstr ""
+"¿Tienes el número correcto de dongles conectados a tu computadora? "
+"Necesitarás un dongle por rastreador. Si estás actuando con los 7, es "
+"posible que necesites un concentrador USB (hub USB) para manejarlos."
 
 #: ../../source/explore/get-started/vr-controls.rst:201
 msgid "My sensor is jiggling a lot"
-msgstr ""
+msgstr "Mi sensor se mueve mucho"
 
 #: ../../source/explore/get-started/vr-controls.rst:201
 msgid "Make sure the straps on the sensor are tightened."
-msgstr ""
+msgstr "Asegúrate de que las correas del sensor estén apretadas."
 
 #: ../../source/explore/get-started/vr-controls.rst:203
 msgid "My sensor keeps losing tracking"
-msgstr ""
+msgstr "Mi sensor sigue perdiendo el seguimiento"
 
 #: ../../source/explore/get-started/vr-controls.rst:203
 msgid ""
 "If it’s the hip tracker, is your shirt is tucked in and not covering the "
 "puck? Also make sure your headphone cord isn’t covering the puck."
 msgstr ""
+"Si es el rastreador de cadera, ¿tu camisa está metida y no cubre el disco? "
+"También asegúrate de que el cable de tus auriculares no cubra el disco."
 
 #: ../../source/explore/get-started/vr-controls.rst:205
 msgid "Can the base stations clearly see the tracker?"
-msgstr ""
+msgstr "¿Pueden las estaciones base ver claramente el rastreador?"
 
 #: ../../source/explore/get-started/vr-controls.rst:206
 msgid ""
 "Is the signal from the base station conflicting with another Vive setup "
 "nearby?"
 msgstr ""
+"¿La señal de la estación base entra en conflicto con otra configuración de "
+"Vive cercana?"
 
 #: ../../source/explore/get-started/vr-controls.rst:207
 msgid ""
 "Are you clear of reflective surfaces nearby? (such as picture frames, "
 "whiteboards, shiny tables)."
 msgstr ""
+"¿Estás libre de superficies reflectantes cercanas? (como marcos de cuadros, "
+"pizarras blancas, mesas brillantes)."
 
 #: ../../source/explore/get-started/vr-controls.rst:209
 msgid "Is the lighting consistent across the room (minimal outdoor lighting)?"
 msgstr ""
+"¿La iluminación es uniforme en toda la habitación (iluminación exterior "
+"mínima)?"
 
 #: ../../source/explore/get-started/vr-controls.rst:210
 msgid "Try restarting SteamVR."
-msgstr ""
+msgstr "Intenta reiniciando SteamVR."
 
 #: ../../source/explore/get-started/vr-controls.rst:213
 msgid ""
@@ -3297,6 +3333,9 @@ msgid ""
 "don't have to deal with a low battery tracker negatively impacting your "
 "performance."
 msgstr ""
+"Recuerda cargar tus rastreadores cuando no los estés usando para que no "
+"tengas que lidiar con un rastreador con poca batería que afecte "
+"negativamente su rendimiento."
 
 #: ../../source/explore/get-started/vr-controls.rst:219
 msgid ""
@@ -3304,14 +3343,17 @@ msgid ""
 "gamepad. However, Vircadia is best experienced with VR equipment or the "
 "keyboard in Desktop mode."
 msgstr ""
+"Si tu HMD no viene equipado con controladores manuales, puede usar un "
+"gamepad. Sin embargo, Vircadia se experimenta mejor con equipos de realidad "
+"virtual o el teclado en modo de escritorio."
 
 #: ../../source/explore/get-started/vr-controls.rst:226
 msgid ":doc:`Interact with Your Environment <../interact>`"
-msgstr ""
+msgstr ":doc:`Interactúa con Tu Ambiente <../interact>`"
 
 #: ../../source/explore/get-started/vr-controls.rst:227
 msgid ":doc:`Explore in Desktop Mode <desktop>`"
-msgstr ""
+msgstr ":doc:`Explora en Modo Escritorio <desktop>`"
 
 #: ../../source/explore/interact.md:3
 msgid ""
@@ -3321,12 +3363,19 @@ msgid ""
 "environments. The walls of your room, the tree in the distance, or the "
 "animated butterfly that flew past are all entities."
 msgstr ""
+"En Vircadia, tus experiencias dan forma al mundo que te rodea. Cuando "
+"ingresas a un dominio, todo el espacio a tu alrededor se construye con "
+"[entidades](../create/entities), o los componentes básicos de sus entornos. "
+"Las paredes de tu habitación, el árbol en la distancia o la mariposa animada "
+"que pasó volando son todas entidades."
 
 #: ../../source/explore/interact.md:5
 msgid ""
 "Just like in the real world, you can interact with your environment by "
 "grabbing items or colliding with objects."
 msgstr ""
+"Al igual que en el mundo real, puede interactuar con su entorno agarrando "
+"elementos o chocando con objetos."
 
 #: ../../source/explore/interact.md:7
 #: ../../source/explore/personalize/change-avatar.md:10
@@ -3337,15 +3386,15 @@ msgstr "**En Esta Página:**"
 
 #: ../../source/explore/interact.md:9
 msgid "[Grab Objects](#grab-objects)"
-msgstr ""
+msgstr "[Agarrar Objetos](#grab-objects)"
 
 #: ../../source/explore/interact.md:10
 msgid "[Collisions](#collisions)"
-msgstr ""
+msgstr "[Colisiones](#collisions)"
 
 #: ../../source/explore/interact.md:11
 msgid "[Triggered Entities](#triggered-entities)"
-msgstr ""
+msgstr "[Entidades Activadoras](#triggered-entities)"
 
 #: ../../source/explore/interact.md:14
 msgid "Grab Objects"
