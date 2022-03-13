@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-03-06 21:00+0000\n"
+"PO-Revision-Date: 2022-03-13 21:11+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -3398,7 +3398,7 @@ msgstr "[Entidades Activadoras](#triggered-entities)"
 
 #: ../../source/explore/interact.md:14
 msgid "Grab Objects"
-msgstr ""
+msgstr "Sujetar Objetos"
 
 #: ../../source/explore/interact.md:16
 msgid ""
@@ -3406,22 +3406,31 @@ msgid ""
 "You can grab an entity, hold it, throw it, and drop it depending on the "
 "[entity's properties](../create/entities/entity-behavior)."
 msgstr ""
+"Puedes sujetar objetos en Vircadia usando tu mouse o controladores manuales. "
+"Puedes sujetar una entidad, sostenerla, lanzarla y dejarla caer dependiendo "
+"de las [propiedades de la entidad](../create/entities/entity-behavior)."
 
 #: ../../source/explore/interact.md:18
 msgid ""
 "In Desktop mode, click and hold the left mouse button to grab and hold an"
 " entity."
 msgstr ""
+"En el modo Escritorio, haz click y mantén presionado el botón izquierdo del "
+"mouse para agarrar y sostener una entidad."
 
 #: ../../source/explore/interact.md:19
 msgid ""
 "In VR mode, reach out towards the object and press the Grab button. The "
 "location of this button depends on the controllers you are using."
 msgstr ""
+"En el modo VR, acércate hacia el objeto y presiona el botón Sujetar (Grab "
+"button). La ubicación de este botón depende de los controladores que estés "
+"utilizando."
 
 #: ../../source/explore/interact.md:21
+#, fuzzy
 msgid "![](_images/grab-button.png)"
-msgstr ""
+msgstr "![](_images/grab-button.png)"
 
 #: ../../source/explore/interact.md:28
 msgid "Collisions"
@@ -3434,6 +3443,10 @@ msgid ""
 " how entities behave](../create/entities/entity-physics) when they "
 "collide with each other or with avatars."
 msgstr ""
+"Puedes chocar (o toparte) con objetos y otros avatares en Vircadia. "
+"Asimismo, los objetos pueden chocar entre sí. Usamos [física para gobernar "
+"cómo se comportan las entidades](../create/entities/entity-physics) when "
+"they collide with each other or with avatars."
 
 #: ../../source/explore/interact.md:32
 msgid ""
@@ -3442,6 +3455,10 @@ msgid ""
 "note on which objects have collisions enabled based on whether or not you"
 " can walk through them."
 msgstr ""
+"Sin este conjunto de propiedades de colisión, los objetos se moverán "
+"directamente a través de otras entidades y avatares. A medida que "
+"interactúas con tu entorno, toma nota de qué objetos tienen habilitadas las "
+"colisiones en función de si puedes atravesarlos o no."
 
 #: ../../source/explore/interact.md:34
 msgid ""
@@ -3449,10 +3466,13 @@ msgid ""
 "property](../create/entities/entity-behavior.html#entity-collision-"
 "behavior) to turn on or off collisions."
 msgstr ""
+"Al crear tus propias entidades, puedes [establecer la propiedad de "
+"Colisión](../create/entities/entity-behavior.html#entity-collision-behavior) "
+"para activar o desactivar las colisiones."
 
 #: ../../source/explore/interact.md:36
 msgid "Triggered Entities"
-msgstr ""
+msgstr "Entidades Activables"
 
 #: ../../source/explore/interact.md:38
 msgid ""
@@ -3461,6 +3481,10 @@ msgid ""
 "switch to turn on or off when your hand passes through it, or make a pet "
 "walk when you grab its leash."
 msgstr ""
+"Algunas entidades tienen scripts (o triggers) que hacen que se comporten de "
+"cierta manera cuando interactúas con ellas. Por ejemplo, puedes activar un "
+"interruptor de luz para que se encienda o apague cuando tu mano lo "
+"atraviese, o hacer que una mascota camine cuando sujetas su correa."
 
 #: ../../source/explore/interact.md:40
 msgid ""
@@ -3469,32 +3493,39 @@ msgid ""
 "explore and discover all of the cool ways you can interact with your "
 "surroundings."
 msgstr ""
+"Estos disparadores (o triggers) están escritos en las propias entidades por "
+"sus creadores. Debido a esto, el posible comportamiento es infinito. Te "
+"alentamos a explorar y descubrir todas las formas geniales en las que puedes "
+"interactuar con tu entorno."
 
 #: ../../source/explore/interact.md:44
 msgid "[Apply Physics to Entities](../create/entities/entity-physics)"
-msgstr ""
+msgstr "[Aplicar Físicas a Entidades](../create/entities/entity-physics)"
 
 #: ../../source/explore/interact.md:45
 msgid "[Define an Entity's Behavior](../create/entities/entity-behavior)"
 msgstr ""
+"[Define el Comportamiento de las Entidades](../create/entities/entity-"
+"behavior)"
 
 #: ../../source/explore/interact.md:46
 msgid "[Add Sound to Entities](../create/entities/add-sounds)"
-msgstr ""
+msgstr "[Añade Sonido a Entidades](../create/entities/add-sounds)"
 
 #: ../../source/explore/interact.md:47
 msgid "[Define Interactions with Avatars](../create/entities/avatar-interactions)"
 msgstr ""
+"[Define Interacciones con Avatares](../create/entities/avatar-interactions)"
 
 #: ../../source/explore/personalize.rst:9
 msgid "Put on Wearables"
-msgstr ""
+msgstr "Ponte Accesorios"
 
 #: ../../source/explore/personalize.rst:9
 #: ../../source/explore/personalize/install-apps.md:6
 #: ../../source/explore/personalize/install-apps.md:22
 msgid "Install Tablet Apps"
-msgstr ""
+msgstr "Instalar Aplicaciones para Tabletas"
 
 #: ../../source/explore/personalize.rst:5
 msgid ""
@@ -3502,6 +3533,10 @@ msgid ""
 "experience and make it your own. You can customize everything from the "
 "hardware you use, to the way the app works, to how you appear to others."
 msgstr ""
+"Incluso antes de ingresar a Vircadia, hay muchas maneras de personalizar tu "
+"experiencia y hacerla propia. Puedes personalizar todo, desde el hardware "
+"que usas, hasta la forma en que funciona la aplicación, hasta cómo apareces "
+"ante los demás."
 
 #: ../../source/explore/personalize.rst:7
 msgid "**In This Section:**"
@@ -3510,10 +3545,12 @@ msgstr "**En Esta Sección:**"
 #: ../../source/explore/personalize/add-wearables.rst:2
 msgid "This document is slightly outdated. FIXME: only mentions FBX files"
 msgstr ""
+"Este documento está ligeramente desactualizado. A tener en cuenta: solo se "
+"mencionan archivos FBX"
 
 #: ../../source/explore/personalize/add-wearables.rst:7
 msgid "Put On Wearables"
-msgstr ""
+msgstr "Ponte Wearables (Accesorios)"
 
 #: ../../source/explore/personalize/add-wearables.rst:9
 msgid ""
@@ -3521,10 +3558,14 @@ msgid ""
 " pirate's hat, a pair of sunglasses, or even a pair of trousers that you "
 "designed. Like avatars, you can use your imagination to create your own."
 msgstr ""
+"Puedes personalizar la apariencia de tu avatar agregando accesorios "
+"portátiles, como un sombrero de pirata, un par de gafas de sol o incluso un "
+"par de pantalones que hayas diseñado. Al igual que los avatares, puedes usar "
+"tu imaginación para crear los tuyos propios."
 
 #: ../../source/explore/personalize/add-wearables.rst:17
 msgid "Wear Your Own Wearable"
-msgstr ""
+msgstr "Usa Tu Propio Wearable"
 
 #: ../../source/explore/personalize/add-wearables.rst:19
 msgid ""
@@ -3533,53 +3574,67 @@ msgid ""
 "before they can be used with Vircadia. Examples of cloud storage options "
 "include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure."
 msgstr ""
+"Puedes ponerte un :doc:`wearable que hayas creado <../../create/wearables>`. "
+"Todos los dispositivos portátiles deben estar alojados en la nube antes de "
+"que puedan usarse con Vircadia. Los ejemplos de opciones de almacenamiento "
+"en la nube incluyen Amazon S3, Google Cloud Storage, GitHub o Microsoft "
+"Azure."
 
 #: ../../source/explore/personalize/add-wearables.rst:21
 msgid ""
 "Once you know the URL for your wearable's FBX file, then put it on your "
 "avatar:"
 msgstr ""
+"Una vez que sepas la URL del archivo FBX de tu wearable, pónlo en tu avatar:"
 
 #: ../../source/explore/personalize/add-wearables.rst:23
 #: ../../source/explore/personalize/change-avatar.md:26
 msgid "In Interface, pull up your tablet or HUD and click on **Avatar**."
-msgstr ""
+msgstr "En la Interfaz, levanta tu tableta o HUD y haz click en **Avatar**."
 
 #: ../../source/explore/personalize/add-wearables.rst:24
 msgid "In the **Avatar** window, click the hat icon next to 'Wearables'."
 msgstr ""
+"En la ventana de **Avatar**, haz click en el ícono del sombrero junto a "
+"\"Wearables\"."
 
 #: ../../source/explore/personalize/add-wearables.rst:27
 msgid "Click 'Add custom' at the top of the window."
-msgstr ""
+msgstr "Haz click en \"Add custom\" en la parte superior de la ventana."
 
 #: ../../source/explore/personalize/add-wearables.rst:28
 msgid "Enter the .fbx file's URL and click 'Confirm'."
-msgstr ""
+msgstr "Ingresa la URL del archivo .fbx y haz click en \"Confirm\"."
 
 #: ../../source/explore/personalize/add-wearables.rst:29
 msgid ""
 "Select the joint you'd like to use for your wearable. For example, a hat "
 "would be on your head, and fairy wings would be on your spine."
 msgstr ""
+"Selecciona la articulación que te gustaría usar para equiparte tu wearable. "
+"Por ejemplo, un sombrero estaría en tu cabeza y alas de hadas en tu columna "
+"vertebral."
 
 #: ../../source/explore/personalize/add-wearables.rst:30
 msgid "Fine tune the placement using the 'Position' and 'Rotation' options."
-msgstr ""
+msgstr "Afina la ubicación con las opciones de \"Position\" y \"Rotation\"."
 
 #: ../../source/explore/personalize/add-wearables.rst:31
 msgid ""
 "Check 'Is soft' if the item is rigged with your skeleton. This allows the"
 " item to move and bend with the avatar as it moves."
 msgstr ""
+"Marca \"Is soft\" (Es suave) si el artículo está amañado (Bien posicionado) "
+"con tu esqueleto. Esto permite que el elemento se mueva y se doble con el "
+"avatar mientras se mueve."
 
 #: ../../source/explore/personalize/add-wearables.rst:32
 msgid "Click 'Save'."
-msgstr ""
+msgstr "Haz click en \"Save\"."
 
 #: ../../source/explore/personalize/add-wearables.rst:37
 msgid ":doc:`Create Wearables <../../create/wearables>`"
-msgstr ""
+msgstr ":doc:`Crear Accesorios <../../create/wearables>`"
 
 #: ../../source/explore/personalize/change-avatar.md:8
 msgid ""
@@ -3587,34 +3642,42 @@ msgid ""
 "Woody. Your avatar is a representation of you in the metaverse. You can "
 "control how your avatar moves and speak to other users in-world using it."
 msgstr ""
+"Cuando uses Vircadia por primera vez, usarás el avatar predeterminado, "
+"Woody. Tu avatar es una representación tuya en el metaverso. Puedes "
+"controlar cómo se mueve tu avatar y hablar con otros usuarios en el mundo "
+"mientras lo uses."
 
 #: ../../source/explore/personalize/change-avatar.md:12
 msgid "[Use Your Own Custom Avatar](#use-your-own-custom-avatar)"
-msgstr ""
+msgstr "[Utiliza Tu Propio Avatar Personalizado](#use-your-own-custom-avatar)"
 
 #: ../../source/explore/personalize/change-avatar.md:15
 msgid "Use Your Own Custom Avatar"
-msgstr ""
+msgstr "Utiliza Tu Propio Avatar Personalizado"
 
 #: ../../source/explore/personalize/change-avatar.md:17
 msgid ""
 "You can use an avatar that you created. Learn more about how you can "
 "create your avatar [here](../../create/avatars/create-avatars)."
 msgstr ""
+"Puedes usar un avatar que hayas creado. Obtén más información sobre cómo "
+"puedes crear tu avatar [aquí](../../create/avatars/create-avatars)."
 
 #: ../../source/explore/personalize/change-avatar.md:24
 msgid "Once you have your avatar's .fst file, you can upload it."
-msgstr ""
+msgstr "Una vez que tengas el archivo .fst de tu avatar, puedes cargarlo."
 
 #: ../../source/explore/personalize/change-avatar.md:27
 msgid ""
 "In the **Avatar** window, click the link icon next to your current "
 "avatar. ![](_images/avatar-link.png)"
 msgstr ""
+"En la ventana **Avatar**, haz click en el ícono de enlace junto a tu avatar "
+"actual. ![](_images/avatar-link.png)"
 
 #: ../../source/explore/personalize/change-avatar.md:28
 msgid "Enter the .fst file's URL and click 'Confirm'."
-msgstr ""
+msgstr "Ingresa la URL del archivo .fst y haz click en \"Confirm\"."
 
 #: ../../source/explore/personalize/change-avatar.md:29
 msgid ""
@@ -3622,18 +3685,22 @@ msgid ""
 "information again, you can click on 'Add to Favorites' to save the "
 "current avatar information."
 msgstr ""
+"Si deseas acceder a este avatar más tarde sin volver a cargar la información "
+"del archivo .fst, puedes hacer click en \"Add to Favorites\" para guardar la "
+"información actual."
 
 #: ../../source/explore/personalize/change-avatar.md:33
 msgid "[Create Your Own Avatar](../../create/avatars/create-avatars)"
-msgstr ""
+msgstr "[Crea Tu Propio Avatar](../../create/avatars/create-avatars)"
 
 #: ../../source/explore/personalize/change-avatar.md:34
 msgid "[Find and Use an Existing Avatar](../../create/avatars/find-avatars)"
 msgstr ""
+"[Encuentra y Utiliza un Avatar Existente](../../create/avatars/find-avatars)"
 
 #: ../../source/explore/personalize/change-avatar.md:35
 msgid "[Package and Host Your Avatar](../../create/avatars/package-avatar)"
-msgstr ""
+msgstr "[Empaqueta y Aloja Tu Avatar](../../create/avatars/package-avatar)"
 
 #: ../../source/explore/personalize/install-apps.md:8
 msgid ""
