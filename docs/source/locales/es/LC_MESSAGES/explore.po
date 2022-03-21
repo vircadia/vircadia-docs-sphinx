@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-03-13 21:11+0000\n"
+"PO-Revision-Date: 2022-03-21 22:52+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -3710,6 +3710,12 @@ msgid ""
 " livestream to YouTube or make your avatar clap? There's a number of apps"
 " that can help you customize your experience in-world."
 msgstr ""
+"Puedes mejorar tu experiencia en Vircadia instalando aplicaciones para la "
+"tableta. Estas aplicaciones te permiten sacar más partido a Vircadia. ¿"
+"Quieres grabar a tu avatar bailando, hacerte selfies o pintar con los dedos? "
+"¿O quieres transmitir en directo a YouTube o hacer que tu avatar aplauda? "
+"Hay una serie de aplicaciones que pueden ayudarte a personalizar tu "
+"experiencia en el mundo."
 
 #: ../../source/explore/personalize/install-apps.md:10
 msgid ""
@@ -3717,36 +3723,41 @@ msgid ""
 "own](../../create/applications) and upload it for your personal use or to"
 " sell to others."
 msgstr ""
+"Si no encuentras una aplicación para lo que te gustaría hacer, puedes [crear "
+"una propia](../../crear/aplicaciones) y subirla para tu uso personal o para "
+"venderla a otros."
 
 #: ../../source/explore/personalize/install-apps.md:14
 msgid "[Install Tablet Apps](#install-tablet-apps)"
-msgstr ""
+msgstr "[Instalar Aplicaciones de Tableta](#install-tablet-apps)"
 
 #: ../../source/explore/personalize/install-apps.md:15
 msgid "[Update an App](#update-an-app)"
-msgstr ""
+msgstr "[Actualizar una Aplicación](#update-an-app)"
 
 #: ../../source/explore/personalize/install-apps.md:16
 msgid "[Our Apps](#our-apps)"
-msgstr ""
+msgstr "[Nuestras Aplicaciones](#our-apps)"
 
 #: ../../source/explore/personalize/install-apps.md:17
 msgid "[Spectator Cam: Record or Livestream in Vircadia](#spectator-cam)"
-msgstr ""
+msgstr "[Spectator Cam: Graba o Transmite en Vivo en Vircadia](#spectator-cam)"
 
 #: ../../source/explore/personalize/install-apps.md:18
 msgid "[Finger Painting](#finger-painting)"
-msgstr ""
+msgstr "[Finger Painting](#finger-painting)"
 
 #: ../../source/explore/personalize/install-apps.md:19
 msgid "[Text to Speech](#text-to-speech)"
-msgstr ""
+msgstr "[Text to Speech](#text-to-speech)"
 
 #: ../../source/explore/personalize/install-apps.md:23
 msgid ""
 "We and many users have created tablet apps that are available in "
 "Vircadia. To find and install an app:"
 msgstr ""
+"Nosotros y muchos usuarios hemos creado aplicaciones para tabletas que están "
+"disponibles en Vircadia. Para buscar e instalar una aplicación:"
 
 #: ../../source/explore/personalize/install-apps.md:25
 msgid "In Interface, pull up your HUD or Tablet and go to **More**."
@@ -3754,23 +3765,27 @@ msgstr "En la interfaz, abre tu HUD o Tableta y ve a **More**."
 
 #: ../../source/explore/personalize/install-apps.md:26
 msgid "Search for a specific app, or browse all apps."
-msgstr ""
+msgstr "Busca una aplicación específica o explora todas las aplicaciones."
 
 #: ../../source/explore/personalize/install-apps.md:27
 msgid ""
 "Once you find the app of your choice, click 'Install' to start using the "
 "app in Vircadia."
 msgstr ""
+"Una vez que encuentres la aplicación de tu elección, haz click en \"Install\""
+" para comenzar a usar la aplicación en Vircadia."
 
 #: ../../source/explore/personalize/install-apps.md:28
 msgid ""
 "Once the app is installed, you can access the app through your HUD or "
 "Tablet."
 msgstr ""
+"Una vez que la aplicación esté instalada, puedes acceder a la aplicación a "
+"través de tu HUD o Tableta."
 
 #: ../../source/explore/personalize/install-apps.md:31
 msgid "Update an App"
-msgstr ""
+msgstr "Actualizar una Aplicación"
 
 #: ../../source/explore/personalize/install-apps.md:32
 msgid ""
@@ -3779,10 +3794,15 @@ msgid ""
 " red dot will appear on the **Inventory** icon of your HUD or Tablet to "
 "indicate an update is available to download."
 msgstr ""
+"Cuando una aplicación tiene una actualización disponible, aparecerá una "
+"notificación en la esquina superior derecha de la interfaz cuando abras "
+"Vircadia. Adicionalmente, un punto rojo aparecerá en el ícono del "
+"**Inventario** de tu HUD o Tableta para indicar que una actualización está "
+"disponible para descargar."
 
 #: ../../source/explore/personalize/install-apps.md:34
 msgid "To update your app:"
-msgstr ""
+msgstr "Para actualizar tu aplicación:"
 
 #: ../../source/explore/personalize/install-apps.md:35
 msgid "In Interface, pull up your HUD or Tablet and go to **Inventory**."
@@ -3793,38 +3813,48 @@ msgid ""
 "In the **Inventory** app, click the notification that says \"You have X "
 "item updates available.\""
 msgstr ""
+"En la aplicación **Inventory**, haz click en la notificación que dice \"You "
+"have X item updates available.\""
 
 #: ../../source/explore/personalize/install-apps.md:37
 msgid ""
 "Scroll to the app you'd like to update and click on the menu. ![](_images"
 "/update-menu.png)"
 msgstr ""
+"Desplázate hasta la aplicación que deseas actualizar y haz click en el menú. "
+"![](_images/update-menu.png)"
 
 #: ../../source/explore/personalize/install-apps.md:38
 msgid "Click the 'Update' button, then 'Update for Free'."
-msgstr ""
+msgstr "Haz click en el botón \"Update\", luego en \"Update for Free\"."
 
 #: ../../source/explore/personalize/install-apps.md:45
 msgid "Additional Notes on Updating"
-msgstr ""
+msgstr "Notas Adicionales al Actualizar"
 
 #: ../../source/explore/personalize/install-apps.md:46
 msgid ""
 "If you decide not to update an item, the old product will still be valid "
 "and listed in **Inventory**."
 msgstr ""
+"Si decides no actualizar un artículo, el producto anterior seguirá siendo "
+"válido y se incluirá en **Inventory**."
 
 #: ../../source/explore/personalize/install-apps.md:47
 msgid ""
 "Once you update an item, the previous version of the product will no "
 "longer be available."
 msgstr ""
+"Una vez que actualices un artículo, la versión anterior del producto ya no "
+"estará disponible."
 
 #: ../../source/explore/personalize/install-apps.md:48
 msgid ""
 "If you purchased multiple instances of an item, you need to individually "
 "update each instance of an item in your **Inventory**."
 msgstr ""
+"Si compraste varias instancias de un artículo, necesitas actualizar "
+"individualmente cada instancia de un item en tu **Inventory**."
 
 #: ../../source/explore/personalize/install-apps.md:49
 msgid ""
@@ -3835,18 +3865,26 @@ msgid ""
 "world. It is up to the end-user to replace the old instances with the "
 "new."
 msgstr ""
+"Cuando actualizas un producto con la versión anterior que ya está en el "
+"mundo, permanecerá intacto hasta que se reemplace manualmente con la versión "
+"actualizada. Si intentas importar un JSON de entidades que contiene una "
+"versión anterior, el sistema ignorará el ítem y no lo reemplazará "
+"automáticamente en el mundo. Depende del usuario final reemplazar las "
+"instancias antiguas por las nuevas."
 
 #: ../../source/explore/personalize/install-apps.md:51
 msgid "Our Apps"
-msgstr ""
+msgstr "Nuestras Aplicaciones"
 
 #: ../../source/explore/personalize/install-apps.md:52
 msgid "We've listed some of the apps we created and how you can use them."
 msgstr ""
+"Hemos listado algunas apliaciones que creamos junto con el cómo puedes "
+"usarlas."
 
 #: ../../source/explore/personalize/install-apps.md:54
 msgid "Spectator Cam"
-msgstr ""
+msgstr "Spectator Cam"
 
 #: ../../source/explore/personalize/install-apps.md:55
 msgid ""
@@ -3857,16 +3895,24 @@ msgid ""
 "[official overview guide](https://obsproject.com/forum/threads/official-"
 "overview-guide.402/) for more details."
 msgstr ""
+"El Spectator Camera es una cámara que puedes usar para grabar o transmitir "
+"en vivo lo que tu y tus amigos hacen en Vircadia. Solo está disponible en "
+"modo HMD y requiere un software de grabación como [Open Broadcaster Software "
+"(OBS)](https://obsproject.com/) para funcionar correctamente. Echa un "
+"vistazo a su [guía oficial general](https://obsproject.com/forum/threads/"
+"official-overview-guide.402/) para más detalles."
 
 #: ../../source/explore/personalize/install-apps.md:57
 msgid ""
 "[Use the instructions above](#install-an-app) to install the Spectator "
 "Camera app."
 msgstr ""
+"[Usa las instrucciones anteriores](#install-an-app) para instalar la "
+"apliación Spectator Camera."
 
 #: ../../source/explore/personalize/install-apps.md:64
 msgid "To use the Spectator Camera app:"
-msgstr ""
+msgstr "Para usar la aplicación Spectator Camera:"
 
 #: ../../source/explore/personalize/install-apps.md:65
 msgid "In Interface, pull up your HUD or Tablet and go to **Spectator**."
@@ -3879,6 +3925,11 @@ msgid ""
 "VR through your HMD. This is to show you what you're recording without "
 "having to take off your HMD. ![](_images/spec-cam-window.png)"
 msgstr ""
+"Enciende tu Spectator Cam moviendo el control deslizante. Verás que la "
+"cámara aparece en el mundo. Por defecto, la pantalla de la aplicación te "
+"muestra lo que ves en VR a través de tu HMD. Esto es para mostrarte lo que "
+"estás grabando sin tener que quitarte el HMD. ![](_images/spec-cam-window."
+"png)"
 
 #: ../../source/explore/personalize/install-apps.md:67
 msgid ""
@@ -3886,28 +3937,37 @@ msgid ""
 "camera view. This lets you record videos of yourself, such as your avatar"
 " dancing or trying on different wearables."
 msgstr ""
+"Para grabarte a ti mismo, cambia la pantalla de la vista de tu HMD a la "
+"vista de la cámara. Esto te permite grabar videos de tí mismo, como tu "
+"avatar bailando o probándote diferentes accesorios o wearables."
 
 #: ../../source/explore/personalize/install-apps.md:68
 msgid ""
 "Enable switching views with your controllers in the **Spectator** app on "
 "your HUD or Tablet."
 msgstr ""
+"Habilita el cambio de vistas con tus controladores en la aplicación "
+"**Spectator** en tu HUD o tableta."
 
 #: ../../source/explore/personalize/install-apps.md:69
 msgid ""
 "**Rift**: If you're using Oculus Touch controllers, click the left "
 "thumbstick to switch views."
 msgstr ""
+"**Rift**: Si estás utilizando controladores Oculus Touch, haz clic en el "
+"joystick izquierdo para cambiar de vista."
 
 #: ../../source/explore/personalize/install-apps.md:70
 msgid ""
 "**Vive**: If you're using HTC Vive controllers, press on the center of "
 "the thumb pad to switch views."
 msgstr ""
+"**Vive**: Si estás utilizando controladores HTC Vive, presiona en el centro "
+"del teclado para cambiar de vista."
 
 #: ../../source/explore/personalize/install-apps.md:72
 msgid "Finger Painting"
-msgstr ""
+msgstr "Finger Painting"
 
 #: ../../source/explore/personalize/install-apps.md:74
 msgid ""
@@ -3915,10 +3975,13 @@ msgid ""
 " even another user's avatar. [Use the instructions above](#install-an-"
 "app) to install the Fingerpaint app."
 msgstr ""
+"La aplicación Fingerpaint te permite pintar tu entorno, tu propio avatar o "
+"incluso el avatar de otro usuario. [Utiliza las instrucciones anteriores"
+"](#install-an-app) para instalar la aplicación Fingerpaint."
 
 #: ../../source/explore/personalize/install-apps.md:76
 msgid "To use the Fingerpaint app:"
-msgstr ""
+msgstr "Para usar la aplicación Fingerpaint:"
 
 #: ../../source/explore/personalize/install-apps.md:77
 msgid "In Interface, pull up your HUD or Tablet and go to **Body Paint**."
@@ -3930,16 +3993,22 @@ msgid ""
 "world around you, your avatar, or another user's avatar (with their "
 "permission)."
 msgstr ""
+"Primero, haz click en \"Options\" para seleccionar lo que te gustaría pintar "
+"en - el mundo que te rodea, tu avatar o el avatar de otro usuario (con su "
+"permiso)."
 
 #: ../../source/explore/personalize/install-apps.md:79
 msgid "Click 'Palette' to select a color for your paint."
-msgstr ""
+msgstr "Haz click en la \"Palette\" para seleccionar un color para tu pintura."
 
 #: ../../source/explore/personalize/install-apps.md:80
 msgid ""
 "Click 'Brushes' to select the settings for your brush, such as stroke "
 "width, type of brush, and special effects. ![](_images/fingerpaint.png)"
 msgstr ""
+"Haz click en \"Brushes\" para seleccionar la configuración para tu pincel, "
+"como ancho de trazo, tipo de pincel y efectos especiales. ![](_images/"
+"fingerpaint.png)"
 
 #: ../../source/explore/personalize/install-apps.md:83
 msgid "Text to Speech"
