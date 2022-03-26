@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-03-21 22:52+0000\n"
+"PO-Revision-Date: 2022-03-26 21:29+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/es/>\n"
@@ -3428,7 +3428,6 @@ msgstr ""
 "utilizando."
 
 #: ../../source/explore/interact.md:21
-#, fuzzy
 msgid "![](_images/grab-button.png)"
 msgstr "![](_images/grab-button.png)"
 
@@ -4012,7 +4011,7 @@ msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:83
 msgid "Text to Speech"
-msgstr ""
+msgstr "Text to Speech"
 
 #: ../../source/explore/personalize/install-apps.md:85
 msgid ""
@@ -4020,16 +4019,21 @@ msgid ""
 " use this app if you don't wish to use your voice, have microphone "
 "issues, or have disabilities."
 msgstr ""
+"La aplicación Text to Speech sintetiza el texto que escribes en voz. Puedes "
+"usar esta aplicación si no deseas usar tu voz, tiene problemas con el "
+"micrófono o tienes discapacidades."
 
 #: ../../source/explore/personalize/install-apps.md:87
 msgid ""
 "[Use the instructions above](#install-an-app) to install the Text to "
 "Speech app."
 msgstr ""
+"[Usa las instrucciones anteriores]](#install-an-app) para instalar la "
+"aplicación Text to Speech."
 
 #: ../../source/explore/personalize/install-apps.md:94
 msgid "To use the Text to Speech (TTS) app:"
-msgstr ""
+msgstr "Para usar la aplicación Text to Speech (TTS):"
 
 #: ../../source/explore/personalize/install-apps.md:95
 msgid "In Interface, pull up your HUD or Tablet and go to **TTS**."
@@ -4037,21 +4041,23 @@ msgstr "En la interfaz, abre tu HUD o Tableta y ve a **TTS**."
 
 #: ../../source/explore/personalize/install-apps.md:96
 msgid "In the app, select the Pitch and Speed of your choice."
-msgstr ""
+msgstr "En la aplicación, selecciona el tono y la velocidad de tu elección."
 
 #: ../../source/explore/personalize/install-apps.md:97
 msgid "Type in the text you'd like your avatar to speak."
-msgstr ""
+msgstr "Escribe el texto que te gustaría que hablara tu avatar."
 
 #: ../../source/explore/personalize/install-apps.md:98
 msgid ""
 "Hit 'Speak' to hear your text. Hit 'Stop Last' to stop your avatar from "
 "speaking. ![](_images/tts.png)"
 msgstr ""
+"Presiona \"Speak\" para escuchar tu texto. Presiona \"Stop Last\" para que "
+"tu avatar deje de hablar. ![](_images/tts.png)"
 
 #: ../../source/explore/personalize/install-apps.md:102
 msgid "[Create Tablet Apps](../../create/applications)"
-msgstr ""
+msgstr "[Crear aplicaciones de Tableta](../../create/applications)"
 
 #: ../../source/explore/socialize.rst:5
 msgid ""
@@ -4059,10 +4065,13 @@ msgid ""
 "with them. Vircadia enables people connected by interest, community, and "
 "friendship to come together from anywhere in the world."
 msgstr ""
+"Vircadia tiene que ver con las personas que conoces y las experiencias que "
+"tienes con ellas. Vircadia permite que personas conectadas por intereses, "
+"comunidad y amistad se reúnan desde cualquier parte del mundo."
 
 #: ../../source/explore/socialize.rst:12
 msgid "Make Connections and Friends"
-msgstr ""
+msgstr "Hacer Conexiones y Amigos"
 
 #: ../../source/explore/socialize.rst:14
 msgid ""
@@ -4071,6 +4080,10 @@ msgid ""
 "other and hold the grip button. Desktop users can press and hold ``X`` on"
 " their keyboard."
 msgstr ""
+"En Vircadia, puedes establecer una conexión con otra persona estrechándole "
+"la mano. Con tus controladores de mano, coloca tus manos cerca una de la "
+"otra y mantén presionado el botón de agarre. Los usuarios de escritorio "
+"pueden mantener presionada la letra ``X`` en su teclado."
 
 #: ../../source/explore/socialize.rst:16
 msgid ""
@@ -4079,6 +4092,10 @@ msgid ""
 "of connections. You will be able to see where they are in the metaverse, "
 "and you can travel to them at any time."
 msgstr ""
+"Una vez que establezcas una conexión con alguien, aparecerá en Conexiones en "
+"la `aplicación The People`_ (Contactos). También aparecerás en su lista de "
+"conexiones. Podrás ver dónde se encuentra en el metaverso y podrás viajar "
+"hasta ellos en cualquier momento."
 
 #: ../../source/explore/socialize.rst:18
 msgid ""
@@ -4086,10 +4103,13 @@ msgid ""
 " People app. You can make yourself available to only your friends using "
 "the People app."
 msgstr ""
+"Para marcar una conexión como amigo, marca la casilla junto a su nombre en "
+"la aplicación People. Puedes estar disponible solo para tus amigos usando la "
+"aplicación People."
 
 #: ../../source/explore/socialize.rst:24
 msgid "The People App"
-msgstr ""
+msgstr "Aplicación The People"
 
 #: ../../source/explore/socialize.rst:26
 msgid ""
@@ -4098,14 +4118,18 @@ msgid ""
 "people nearby (in the same domain as you), and gives you easy access to "
 "all of your connections. From the People app, you can:"
 msgstr ""
+"La aplicación The People proporciona un conjunto de herramientas que ayudan "
+"a los usuarios a administrar sus interacciones con personas en el metaverso. "
+"Te brinda una lista de las personas cercanas (en el mismo dominio que tú) y "
+"te brinda fácil acceso a todas tus conexiones:"
 
 #: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
 msgid "Feature"
-msgstr ""
+msgstr "Característica"
 
 #: ../../source/explore/socialize.rst:33
 msgid "Profile Picture"
-msgstr ""
+msgstr "Profile Picture"
 
 #: ../../source/explore/socialize.rst:33
 msgid ""
@@ -4113,20 +4137,26 @@ msgid ""
 " view your profile. You can change this image on our `website "
 "<https://dashboard.vircadia.com/>`_."
 msgstr ""
+"Aquí es donde se verá tu foto de perfil. Haz click en la imagen para ver tu "
+"perfil. Puedes cambiar esta imagen en nuestro `sitio web <https://dashboard."
+"vircadia.com/>`_."
 
 #: ../../source/explore/socialize.rst:36
 msgid "Display Name"
-msgstr ""
+msgstr "Display Name"
 
 #: ../../source/explore/socialize.rst:36
 msgid ""
 "You can change your display name at any time. By default, it will be "
 "'anonymous'. In the image above, the display name is 'HiFi Docs'."
 msgstr ""
+"Puedes cambiar tu nombre visible en cualquier momento. Por defecto, será "
+"\"anonymous\". En la imagen de arriba, el nombre para mostrar es \"HiFi "
+"Docs\"."
 
 #: ../../source/explore/socialize.rst:39
 msgid "Set Availability"
-msgstr ""
+msgstr "Set Availability"
 
 #: ../../source/explore/socialize.rst:39
 msgid ""
@@ -4135,54 +4165,66 @@ msgid ""
 "users you appear online to will also be able to teleport to your "
 "location."
 msgstr ""
+"Esta función te permite aparecer en línea para seleccionar grupos de "
+"usuarios: Todos, Amigos y conexiones, Solo amigos o Aparecer sin conexión. "
+"Los usuarios a los que apareces en línea también podrán teletransportarse a "
+"tu ubicación."
 
 #: ../../source/explore/socialize.rst:43
 msgid "Master Volume"
-msgstr ""
+msgstr "Master Volume"
 
 #: ../../source/explore/socialize.rst:43
 msgid "Set the volume of your audio in Vircadia."
-msgstr ""
+msgstr "Establece el volumen de tu audio en Vircadia."
 
 #: ../../source/explore/socialize.rst:45
 msgid "Nearby"
-msgstr ""
+msgstr "Nearby"
 
 #: ../../source/explore/socialize.rst:45
 msgid "This is the list of users who are nearby in the same domain as you."
 msgstr ""
+"Esta es la lista de usuarios que están cerca en el mismo dominio en el que "
+"estás tú."
 
 #: ../../source/explore/socialize.rst:47
 msgid "In View"
-msgstr ""
+msgstr "In View"
 
 #: ../../source/explore/socialize.rst:47
 msgid ""
 "You can check this box to view only the users in front of you in a "
 "domain. This is useful when a domain has a lot of users."
 msgstr ""
+"Puedes marcar esta casilla para ver solo los usuarios que tienes delante en "
+"un dominio. Esto es útil cuando un dominio tiene muchos usuarios."
 
 #: ../../source/explore/socialize.rst:50
 msgid "Refresh Button"
-msgstr ""
+msgstr "Botón Refresh"
 
 #: ../../source/explore/socialize.rst:50
 msgid "Click this button to refresh the list of users currently in the domain."
 msgstr ""
+"Haz click en este botón para actualizar la lista de usuarios actuales en el "
+"dominio."
 
 #: ../../source/explore/socialize.rst:52
 msgid "Connections"
-msgstr ""
+msgstr "Connections"
 
 #: ../../source/explore/socialize.rst:52
 msgid ""
 "This is the list of users who are your friends and connections. You can "
 "also teleport to their location from this list."
 msgstr ""
+"Esta es la lista de usuarios que son tus amigos y conexiones. También puedes "
+"teletransportarse a su ubicación desde esta lista."
 
 #: ../../source/explore/socialize.rst:55
 msgid "Loud"
-msgstr ""
+msgstr "Loud"
 
 #: ../../source/explore/socialize.rst:55
 msgid ""
@@ -4190,30 +4232,37 @@ msgid ""
 " only for you, not for other users in the domain. The icon also displays "
 "how loudly a user is speaking."
 msgstr ""
+"Haz click en este icono junto al usuario que deseas silenciar. El usuario se "
+"silenciará solo para ti, no para otros usuarios del dominio. El icono "
+"también muestra el volumen de voz de un usuario."
 
 #: ../../source/explore/socialize.rst:58
 msgid "Names"
-msgstr ""
+msgstr "Names"
 
 #: ../../source/explore/socialize.rst:58
 msgid ""
 "This is the list of users available in the domain. You will only see "
 "their display names."
 msgstr ""
+"Esta es la lista de usuarios disponibles en el dominio. Solo verás sus "
+"nombres visibles."
 
 #: ../../source/explore/socialize.rst:60
 msgid "Ignore"
-msgstr ""
+msgstr "Ignore"
 
 #: ../../source/explore/socialize.rst:60
 msgid ""
 "If you check this box next to a user, you and the user will not be able "
 "to see or hear each other."
 msgstr ""
+"Si marcas esta casilla junto a un usuario, tú y el usuario no podrán verse "
+"ni escucharse."
 
 #: ../../source/explore/socialize.rst:65
 msgid "Use the People App as an Admin"
-msgstr ""
+msgstr "Usar la aplicación The People como Administrador"
 
 #: ../../source/explore/socialize.rst:67
 msgid ""
@@ -4221,20 +4270,26 @@ msgid ""
 "domain. The People app will have an additional column that allows an "
 "admin to silence and ban users in the same domain."
 msgstr ""
+"Como administrador de un dominio, tendrás privilegios para mantener un "
+"dominio. La aplicación The People tendrá una columna adicional que le "
+"permite a un administrador silenciar y prohibir a los usuarios en el mismo "
+"dominio."
 
 #: ../../source/explore/socialize.rst:74
 msgid "Silence"
-msgstr ""
+msgstr "Silence"
 
 #: ../../source/explore/socialize.rst:74
 msgid ""
 "You can click the icon to mute a user. This user will be muted for "
 "everyone in the domain."
 msgstr ""
+"Puedes hacer click en el icono para silenciar a un usuario. Este usuario "
+"será silenciado para todos en el dominio."
 
 #: ../../source/explore/socialize.rst:76
 msgid "Ban"
-msgstr ""
+msgstr "Ban"
 
 #: ../../source/explore/socialize.rst:76
 msgid ""
@@ -4242,10 +4297,14 @@ msgid ""
 "not be able to enter the domain using the same account. The banned user "
 "will still have access to other Vircadia domains."
 msgstr ""
+"Puedes hacer click aquí para prohibir/banear a un usuario del dominio "
+"actual. El usuario no podrá ingresar al dominio usando la misma cuenta. El "
+"usuario prohibido/baneado seguirá teniendo acceso a otros dominios de "
+"Vircadia."
 
 #: ../../source/explore/socialize.rst:84
 msgid "Your Privacy Shield"
-msgstr ""
+msgstr "Tu Escudo de Privacidad"
 
 #: ../../source/explore/socialize.rst:86
 msgid ""
@@ -4255,6 +4314,12 @@ msgid ""
 "it, pull up your tablet or HUD and click **Shield**. In Desktop mode, you"
 " can also use the keyboard shortcut ``CTRL`` + ``N``."
 msgstr ""
+"Puede habilitar un escudo de privacidad (Privacy Shield) que protege tu "
+"espacio personal en el metaverso. Cuando está habilitado, otras personas "
+"desaparecerán si se acercan demasiado a ti. Tu escudo de privacidad está "
+"deshabilitado por defecto. Para habilitarlo, abre tu tableta o HUD y haz "
+"click en **Shield**. En el modo de escritorio, también puedes usar el atajo "
+"de teclado ``CTRL`` + ``N``."
 
 #: ../../source/explore/socialize.rst:88
 msgid ""
@@ -4262,10 +4327,13 @@ msgid ""
 "window, next to the audio icon, that can be used to toggle your privacy "
 "shield."
 msgstr ""
+"También hay un ícono de escudo en la esquina superior izquierda de la "
+"ventana de tu interfaz, junto al ícono de audio, que se puedes usar para "
+"alternar tu escudo de privacidad."
 
 #: ../../source/explore/socialize.rst:95
 msgid "Attend Live Events"
-msgstr ""
+msgstr "Asistir a Eventos en Vivo"
 
 #: ../../source/explore/socialize.rst:97
 msgid ""
@@ -4275,16 +4343,24 @@ msgid ""
 "events on the Vircadia website. Events are a great place to meet others "
 "and share experiences with others around the world."
 msgstr ""
+"Una de las mejores cosas de la realidad virtual es que puedes asistir a "
+"eventos. Vircadia organiza regularmente eventos como talleres, conferencias "
+"sobre realidad virtual y reuniones públicas para conocer a nuestro equipo. "
+"Puedes ver todos los próximos eventos en el sitio web de Vircadia. Los "
+"eventos son un gran lugar para conocer a otras personas y compartir "
+"experiencias con otras personas de todo el mundo."
 
 #: ../../source/explore/socialize.rst:99
 msgid ""
 "To attend an event, simply go to the hosted domain at the time of the "
 "event."
 msgstr ""
+"Para asistir a un evento, simplemente ve al dominio que lo aloja en el "
+"momento del evento."
 
 #: ../../source/explore/socialize.rst:104
 msgid "Express Yourself"
-msgstr ""
+msgstr "Exprésate"
 
 #: ../../source/explore/socialize.rst:106
 msgid ""
@@ -4292,6 +4368,8 @@ msgid ""
 "animating the mouth of your avatar or using gestures in the **Emote** "
 "app."
 msgstr ""
+"Hay muchas maneras de expresarse en Vircadia, como animar la boca de tu "
+"avatar o usar gestos en la aplicación **Emote**."
 
 #: ../../source/explore/socialize.rst:108
 msgid ""
@@ -4300,10 +4378,14 @@ msgid ""
 "you are using a VR controller, your avatar will automatically mimic your "
 "hand gestures and movements."
 msgstr ""
+"Por defecto, todos los avatares utilizarán un conjunto estándar de "
+"animaciones, como el parpadeo de los ojos o la apertura y cierre de la boca "
+"mientras habla. Cuando estés utilizando un controlador VR, tu avatar imitará "
+"automáticamente los gestos y movimientos de tus manos."
 
 #: ../../source/explore/socialize.rst:113
 msgid "The Emote App"
-msgstr ""
+msgstr "La aplicación Emote"
 
 #: ../../source/explore/socialize.rst:115
 msgid ""
@@ -4312,10 +4394,14 @@ msgid ""
 " acting surprised, dancing, cheering, waving, falling, pointing, "
 "clapping, sitting, or showing love."
 msgstr ""
+"La aplicación Emote es una forma para que los usuarios de escritorio se "
+"expresen sin usar controladores VR. Con esta aplicación, puedes mostrar "
+"sentimientos al: llorar, mostrarse sorprendido, bailar, animar, saludar, "
+"caerse, señalar, aplaudir, sentarse o mostrar amor."
 
 #: ../../source/explore/socialize.rst:123
 msgid "Chat with Users"
-msgstr ""
+msgstr "Chatear con Usuarios"
 
 #: ../../source/explore/socialize.rst:125
 msgid ""
@@ -4326,30 +4412,41 @@ msgid ""
 "chat. There are some great scripts for chat that have already been built "
 "by community members, and a few are described below."
 msgstr ""
+"Vircadia tiene una opción de chat de texto predeterminada que funciona bien "
+"para los usuarios de escritorio. Actualmente, la compatibilidad con el chat "
+"de texto en VR no está a la altura. Afortunadamente, nuestra interfaz de "
+"usuario y secuencias de comandos de código abierto extensibles te brindan la "
+"capacidad de crear las funciones que deseas, incluida la mejora del chat de "
+"texto. Hay algunas secuencias de comandos excelentes para el chat que ya han "
+"sido creadas por miembros de la comunidad, y algunas se describen a "
+"continuación."
 
 #: ../../source/explore/socialize.rst:130
 msgid "Alternative Local Chat"
-msgstr ""
+msgstr "Chat Local Alternativo"
 
 #: ../../source/explore/socialize.rst:132
 msgid ""
 "This clean, reliable, and well-written chat script was created by alpha "
 "user ctrlaltdavid."
 msgstr ""
+"Este script de chat limpio, confiable y bien escrito fue creado por el "
+"usuario alfa ctrlaltdavid."
 
 #: ../../source/explore/socialize.rst:136
 msgid "To run the script:"
-msgstr ""
+msgstr "Para ejecutar el script:"
 
 #: ../../source/explore/socialize.rst:138
 msgid "In Interface, go to **Edit > Open and Run Script from URL**."
-msgstr ""
+msgstr "En la Interfaz, ve a **Edit > Open and Run Script from URL**."
 
 #: ../../source/explore/socialize.rst:139
 msgid ""
 "Paste this `URL "
 "<http://ctrlaltstudio.com/downloads/hifi/scripts/chat.js>`__."
 msgstr ""
+"Pega esta `URL <http://ctrlaltstudio.com/downloads/hifi/scripts/chat.js>`__."
 
 #: ../../source/explore/socialize.rst:141
 msgid ""
@@ -4358,6 +4455,11 @@ msgid ""
 "running the same script. If text chat is important to you, you can add "
 "this to your default scripts so it's always there."
 msgstr ""
+"El script comenzará a ejecutarse y mostrará una ventana emergente de chat de "
+"texto. Puedes usar esta ventana para chatear con otros usuarios en el mismo "
+"dominio que ejecutan el mismo script. Si el chat de texto es importante para "
+"ti, puedes agregarlo a tus scripts predeterminados para que siempre esté "
+"allí."
 
 #: ../../source/explore/travel.md:8
 msgid ""
@@ -4367,28 +4469,36 @@ msgid ""
 "time, while others were built to host events and engage with the people "
 "around you."
 msgstr ""
+"Vircadia se compone de muchos lugares virtuales que te permiten participar "
+"en actividades e interactuar con las personas que te rodean. Muchos de estos "
+"lugares son mundos bellamente detallados que son interesantes para explorar "
+"en cualquier momento, mientras que otros se crearon para albergar eventos e "
+"interactuar con las personas que te rodean."
 
 #: ../../source/explore/travel.md:11
 msgid "[GoTo App](#goto-app)"
-msgstr ""
+msgstr "[Aplicación GoTo](#goto-app)"
 
 #: ../../source/explore/travel.md:12
 msgid "[Visit a Friend](#visit-a-friend)"
-msgstr ""
+msgstr "[Visita un Amigo](#visit-a-friend)"
 
 #: ../../source/explore/travel.md:14
 msgid "GoTo App"
-msgstr ""
+msgstr "Aplicación GoTo"
 
 #: ../../source/explore/travel.md:15
 msgid ""
 "The **GoTo** app lets you travel between different places in the Vircadia"
 " metaverse. Many of our places are created by users just like you."
 msgstr ""
+"La aplicación **GoTo** te permite viajar entre diferentes lugares en el "
+"metaverso de Vircadia. Muchos de nuestros lugares son creados por usuarios "
+"como tú."
 
 #: ../../source/explore/travel.md:17
 msgid "To go and explore new places:"
-msgstr ""
+msgstr "Para ir y explorar nuevos lugares:"
 
 #: ../../source/explore/travel.md:18
 msgid "In Interface, pull up your tablet or HUD and go to **GoTo**."
@@ -4400,16 +4510,21 @@ msgid ""
 " As you type, the matching places will show up. Otherwise, browse the "
 "open places under 'Featured' and 'Places'."
 msgstr ""
+"Si sabes a dónde quieres ir, ingresa la dirección del dominio o el nombre "
+"del lugar. A medida que escribas, aparecerán los lugares coincidentes. De lo "
+"contrario, explora los lugares abiertos en \"Featured\" y \"Places\"."
 
 #: ../../source/explore/travel.md:20
 msgid ""
 "Click on a place name to go to the place. If you have permissions, you "
 "will be transported to that location automatically."
 msgstr ""
+"Haz click en el nombre de un lugar para ir al lugar. Si tienes permisos, "
+"serás transportado a esa ubicación automáticamente."
 
 #: ../../source/explore/travel.md:27
 msgid "![](_images/goto-app.png)"
-msgstr ""
+msgstr "![](_images/goto-app.png)"
 
 #: ../../source/explore/travel.md:29
 msgid ""
@@ -4417,20 +4532,27 @@ msgid ""
 "have taken and shared in the metaverse. Clicking on a snap will take you "
 "directly to the place where the picture was taken."
 msgstr ""
+"La aplicación **GoTo** también te muestra una fuente visual de capturas de "
+"pantalla que las personas tomaron y compartieron en el metaverso. Al hacer "
+"click en una captura, te llevará directamente al lugar donde se tomó la "
+"imagen."
 
 #: ../../source/explore/travel.md:31
 msgid "![](_images/goto-snaps.png)"
-msgstr ""
+msgstr "![](_images/goto-snaps.png)"
 
 #: ../../source/explore/travel.md:33
 msgid "Visit a Friend"
-msgstr ""
+msgstr "Visitar a un Amigo"
 
 #: ../../source/explore/travel.md:34
 msgid ""
 "Once you've [made a friend](socialize.html#make-connections-and-friends),"
 " you can see where they are and even teleport directly to them."
 msgstr ""
+"Una vez que hayas [hecho un amigo](socialize.html#make-connections-and-"
+"friends), puedes ver dónde están e incluso teletransportarte directamente a "
+"ellos."
 
 #: ../../source/explore/travel.md:36
 msgid "In Interface, open your tablet or HUD and go to **People**."
@@ -4438,15 +4560,15 @@ msgstr "En la interfaz, abre tu HUD o Tableta y ve a **People**."
 
 #: ../../source/explore/travel.md:37
 msgid "Click 'Connections' and find the friend you want to visit."
-msgstr ""
+msgstr "Haz click en \"Connections\" y busca el amigo que deseas visitar."
 
 #: ../../source/explore/travel.md:38
 msgid "Select their name then 'Visit'."
-msgstr ""
+msgstr "Selecciona su nombre y luego \"Visit\"."
 
 #: ../../source/explore/travel.md:41
 msgid "[Socialize with Others](socialize)"
-msgstr ""
+msgstr "[Socializar con Otros](socialize)"
 
 #~ msgid ""
 #~ "`Windows 64-bit - Eos v2021.1.0 "
