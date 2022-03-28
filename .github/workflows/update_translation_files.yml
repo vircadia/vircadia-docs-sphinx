@@ -1,0 +1,46 @@
+name: Translation files CI update
+
+on:
+  push:
+    branches:
+      - master
+    # Only run if something other than locales are updated.
+    # This is to prevent this workflow from running when Weblate commits new translations.
+    paths-ignore:
+      - 'docs/source/locales/**'
+
+jobs:
+  regenerate_locales_docs:
+    runs-on: ubuntu-20.04
+
+    name: Update translation files
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install git+https://github.com/vircadia/video.git
+        pip install -U Sphinx==3.5.4
+        pip install --upgrade myst-parser
+        pip install sphinx_rtd_theme
+    - name: Regenerate translation files
+      shell: bash
+      run: |
+        cd docs
+        make gettext
+        sphinx-intl update -l de
+        sphinx-intl update -l es
+        sphinx-intl update -l fr
+        sphinx-intl update -l jp
+        sphinx-intl update -l ko
+    - name: Commit changes
+      uses: actions-x/commit@v2
+      with:
+        name: AnimatedMannequin
+        email: julian.gro@overte.org
+        message: Automatically updated locales
+        files: docs/source/locales/**
