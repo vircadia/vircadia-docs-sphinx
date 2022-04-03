@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-27 17:25+0000\n"
-"PO-Revision-Date: 2022-03-06 21:00+0000\n"
+"PO-Revision-Date: 2022-04-03 05:38+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/faq/es/>\n"
@@ -23,13 +23,15 @@ msgstr ""
 
 #: ../../source/faq.rst:3
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Preguntas Frecuentes"
 
 #: ../../source/faq.rst:5
 msgid ""
 "We get a lot of questions from our users! If you have questions about "
 "Vircadia, feel free to browse through this page to learn more."
 msgstr ""
+"¡Recibimos muchas preguntas de nuestros usuarios! Si tienes preguntas sobre "
+"Vircadia, no dudes en navegar por esta página para obtener más información."
 
 #: ../../source/faq.rst:9
 msgid "On This Page"
@@ -37,15 +39,15 @@ msgstr "En Esta Página"
 
 #: ../../source/faq.rst:13
 msgid "Content Creation"
-msgstr ""
+msgstr "Creación de Contenido"
 
 #: ../../source/faq.rst:15
 msgid "`What video formats do you support? <#video-formats>`_"
-msgstr ""
+msgstr "`¿Qué formatos de vídeo se admiten? <#video-formats>`_"
 
 #: ../../source/faq.rst:20
 msgid "What video formats do you support?"
-msgstr ""
+msgstr "¿Qué formatos de vídeo se admiten?"
 
 #: ../../source/faq.rst:22
 msgid ""
@@ -54,16 +56,23 @@ msgid ""
 "good quality and low file sizes. See :doc:`Play Media in a Web Entity "
 "<create/entities/web-entity-media>` for a more information."
 msgstr ""
+"Admitimos la mayoría de los formatos de video abiertos. Los formatos "
+"propietarios como H.264 actualmente no son compatibles. Se recomienda el "
+"formato VP9 debido a su buena calidad y tamaño de archivo reducido. Mira "
+":doc:`Reproducir Multimedia en una Entidad Web <create/entities/web-entity-"
+"media>` para más información."
 
 #: ../../source/faq.rst:29
 msgid "Domain Hosting"
-msgstr ""
+msgstr "Alojamiento de Dominio"
 
 #: ../../source/faq.rst:31
 msgid ""
 "`How do I get into my domain settings if I set up authentication but "
 "forgot my username and/or password? <#reset-password>`_"
 msgstr ""
+"`¿Cómo accedo a la configuración de mi dominio si configuré la autenticación "
+"pero olvidé mi nombre de usuario y/o contraseña? <#reset-password>`_"
 
 #: ../../source/faq.rst:36
 msgid ""
@@ -71,6 +80,9 @@ msgid ""
 "/configure-settings/authentication-setting.html>`_ but forgot my username"
 " and/or password?"
 msgstr ""
+"¿Cómo accedo a la configuración de mi dominio si configuré `la autenticación "
+"<host/configure-settings/authentication-setting.html>`_ pero olvidé mi "
+"nombre de usuario y/o contraseña?"
 
 #: ../../source/faq.rst:39
 msgid ""
@@ -80,18 +92,24 @@ msgid ""
 "settings ('http_password' and 'http_username') from config.json. The "
 "config file is stored on the server in the following directories:"
 msgstr ""
+"La configuración de autenticación de tu dominio se cifra en un archivo de "
+"configuración en el sistema de archivos del servidor. Para \"restablecer\" "
+"la configuración de autenticación, debes eliminar manualmente la "
+"configuración de seguridad HTTP (\"http_password\" y \"http_username\") del "
+"config.json. El archivo de configuración se almacena en el servidor en los "
+"siguientes directorios:"
 
 #: ../../source/faq.rst:44
 msgid "**Windows**: ``%AppData%\\Roaming\\Vircadia\\domain-server\\``"
-msgstr ""
+msgstr "**Windows**: ``%AppData%\\Roaming\\Vircadia\\domain-server\\``"
 
 #: ../../source/faq.rst:45
 msgid "**Mac**: ``~/Library/Application Support/Vircadia/domain-server/``"
-msgstr ""
+msgstr "**Mac**: ``~/Library/Application Support/Vircadia/domain-server/``"
 
 #: ../../source/faq.rst:46
 msgid "**Linux**: ``/var/lib/vircadia/default/domain-server/``"
-msgstr ""
+msgstr "**Linux**: ``/var/lib/vircadia/default/domain-server/``"
 
 #: ../../source/faq.rst:51
 msgid "Troubleshooting"
@@ -100,24 +118,28 @@ msgstr "Solución de Problemas"
 #: ../../source/faq.rst:53
 msgid "`Where do I find the Interface log files? <#interface-log-files>`_"
 msgstr ""
+"`¿Dónde encuentro los archivos de registro de la interfaz? <#interface-log-"
+"files>`_"
 
 #: ../../source/faq.rst:54
 msgid ""
 "`How do I access the hidden folders that most Vircadia files are stored "
 "in? <#file-manager-help>`_"
 msgstr ""
+"`¿Cómo accedo a las carpetas ocultas en las que se almacenan la mayoría de "
+"los archivos de Vircadia? <#file-manager-help>`_"
 
 #: ../../source/faq.rst:55
 msgid "`Why can't I connect to a domain? <#cannot-connect>`_"
-msgstr ""
+msgstr "`¿Por qué no puedo conectarme a un dominio? <#cannot-connect>`_"
 
 #: ../../source/faq.rst:56
 msgid "`No one can hear me! <#no-input>`_"
-msgstr ""
+msgstr "`¡Nadie puede oírme! <#no-input>`_"
 
 #: ../../source/faq.rst:57
 msgid "`I can't hear anything in Vircadia <#no-output>`_"
-msgstr ""
+msgstr "`No puedo escuchar nada en Vircadia <#no-output>`_"
 
 #: ../../source/faq.rst:58
 msgid ""
@@ -133,39 +155,47 @@ msgstr ""
 
 #: ../../source/faq.rst:64
 msgid "Where do I find the Interface log files?"
-msgstr ""
+msgstr "¿Dónde encuentro los archivos de registro de la interfaz?"
 
 #: ../../source/faq.rst:66
 msgid "The Interfaces log files can be found in the following directories:"
 msgstr ""
+"Los archivos de registro de Interfaces se pueden encontrar en los siguientes "
+"directorios:"
 
 #: ../../source/faq.rst:68
 msgid "**Windows**: ``%AppData%\\Local\\Vircadia\\Interface\\Logs\\``"
-msgstr ""
+msgstr "**Windows**: ``%AppData%\\Local\\Vircadia\\Interface\\Logs\\``"
 
 #: ../../source/faq.rst:69
 msgid "**Mac**: ``~/Library/Application Support/Vircadia/Interface/Logs/``"
-msgstr ""
+msgstr "**Mac**: ``~/Library/Application Support/Vircadia/Interface/Logs/``"
 
 #: ../../source/faq.rst:70
 msgid "**Linux**: ``~/.local/share/Vircadia/Interface/Logs/``"
-msgstr ""
+msgstr "**Linux**: ``~/.local/share/Vircadia/Interface/Logs/``"
 
 #: ../../source/faq.rst:72
 msgid ""
 "The Vircadia folder name might be different on development or testing "
 "builds. E.g. ``Vircadia - dev``."
 msgstr ""
+"El nombre de la carpeta de Vircadia puede ser diferente en las compilaciones "
+"de desarrollo o de prueba. P. ej. ``Vircadia - dev``."
 
 #: ../../source/faq.rst:79
 msgid "How do I access the hidden folders that most Vircadia files are stored in?"
 msgstr ""
+"¿Cómo accedo a las carpetas ocultas en las que se almacenan la mayoría de "
+"los archivos de Vircadia?"
 
 #: ../../source/faq.rst:81
 msgid ""
 "On all currently supported operating systems the folders that Vircadia "
 "stores most of its data in are hidden."
 msgstr ""
+"En todos los sistemas operativos compatibles actualmente, las carpetas en "
+"las que Vircadia almacena la mayoría de sus datos están ocultas."
 
 #: ../../source/faq.rst:84
 msgid ""
@@ -173,44 +203,59 @@ msgid ""
 " your systems file manager. Most (if not all) of them have a bar at the "
 "top."
 msgstr ""
+"La forma más fácil de acceder a ellos es simplemente copiar la ruta y "
+"pegarla en el administrador de archivos de tu sistema. La mayoría (si no "
+"todos) de ellos tienen una barra en la parte superior."
 
 #: ../../source/faq.rst:89
 msgid ""
 "Even if it doesn't look like you can paste anything into the bar, still "
 "hover over it and try pasting with a shortcut like Ctrl + V."
 msgstr ""
+"Incluso si parece que no puedes pegar nada en la barra, pasa el cursor sobre "
+"ella e intenta pegar con un atajo como Ctrl + V."
 
 #: ../../source/faq.rst:96
 msgid "Why can't I connect to a domain?"
-msgstr ""
+msgstr "¿Por qué no puedo conectarme a un dominio?"
 
 #: ../../source/faq.rst:98
 msgid ""
 "If you cannot connect to your virtual workplace, follow these steps to "
 "resolve the issue:"
 msgstr ""
+"Si no puedes conectarte a tu lugar de trabajo virtual, sigue estos pasos "
+"para resolver el problema:"
 
 #: ../../source/faq.rst:100
 msgid ""
 "Check your internet connection, and ensure that your bandwidth is at "
 "least 10Mbps download, 2Mbps upload."
 msgstr ""
+"Verifica tu conexión a Internet y asegúrate de que tu ancho de banda sea de "
+"al menos 10Mbps de descarga, 2Mbps de carga."
 
 #: ../../source/faq.rst:102
 msgid ""
 "You may not have permissions to enter the domain. If you know the domain "
 "owner, contact them to gain access to the domain."
 msgstr ""
+"Es posible que no tengas permisos para ingresar al dominio. Si conoces al "
+"propietario del dominio, comunícate con él para obtener acceso al dominio."
 
 #: ../../source/faq.rst:104
 msgid "Ensure that your firewall settings allow you to run Vircadia."
 msgstr ""
+"Asegúrate de que la configuración de tu firewall te permita ejecutar "
+"Vircadia."
 
 #: ../../source/faq.rst:106
 msgid ""
 "For Windows: In your firewall settings, open the  port 40102, and add "
 "'interface.exe' to the list of allowed apps."
 msgstr ""
+"Para Windows: En la configuración de tu firewall, abre el puerto 40102 y "
+"añade \"interface.exe\" a la lista de aplicaciones permitidas."
 
 #: ../../source/faq.rst:108
 msgid ""
@@ -218,10 +263,13 @@ msgid ""
 "Application Support > Launcher > interface.app**) and allow incoming "
 "connections for that application."
 msgstr ""
+"Para Mac: en la configuración de tu firewall, añade \"interface.app\" (**"
+"Library > Application Support > Launcher > interface.app**) y permite "
+"conexiones entrantes para esa aplicación."
 
 #: ../../source/faq.rst:115
 msgid "No one can hear me!"
-msgstr ""
+msgstr "¡Nadie puede oírme!"
 
 #: ../../source/faq.rst:117
 msgid ""
@@ -229,12 +277,18 @@ msgid ""
 " your microphone gain is set too low. Here are some steps to troubleshoot"
 " your issue:"
 msgstr ""
+"Si otros usuarios en el dominio no pueden escucharte, es probable que estés "
+"silenciado o que la ganancia de tu micrófono sea demasiado baja. Estos son "
+"algunos pasos para solucionar tu problema:"
 
 #: ../../source/faq.rst:120
 msgid ""
 "**Are you muted in Vircadia?** When logged in, check the upper left "
 "corner. If you're muted, click the microphone to un-mute yourself."
 msgstr ""
+"**¿Estás silenciado en Vircadia?** Cuando inicies sesión, consulta la "
+"esquina superior izquierda. Si estás silenciado, haz click en el micrófono "
+"para cancelar el silencio."
 
 #: ../../source/faq.rst:122
 msgid ""
@@ -244,6 +298,12 @@ msgid ""
 " so even if you're not muted in Vircadia, your device itself may not be "
 "turned on or the mute button may have been pressed."
 msgstr ""
+"**¿Tu dispositivo de salida física está silenciado o apagado?** Algunos "
+"auriculares y micrófonos tienen un interruptor de \"Encendido\" y/o "
+"\"Silencio\" directamente en el propio dispositivo. Esta configuración es "
+"completamente independiente de la opción de silencio de Vircadia, por lo "
+"tanto, incluso si no estás silenciado en Vircadia, es posible que tu "
+"dispositivo no esté encendido o que se haya presionado el botón de silencio."
 
 #: ../../source/faq.rst:129
 msgid ""
@@ -251,6 +311,9 @@ msgid ""
 "might be muted or disabled by your operating system. Check your operating"
 " system's input device settings:"
 msgstr ""
+"**¿Tu micrófono está silenciado o deshabilitado en tu computadora?** Por "
+"último, tu sistema operativo puede silenciar o deshabilitar tu dispositivo. "
+"Verifica la configuración del dispositivo de entrada de tu sistema operativo:"
 
 #: ../../source/faq.rst:132
 msgid ""
@@ -260,6 +323,11 @@ msgid ""
 "icon will tell you whether your headset/microphone is muted. If you're "
 "muted, click the icon to un-mute yourself."
 msgstr ""
+"En Windows, ve a la pestaña **Control Panel > Sound > Recording**. Elije el "
+"dispositivo que estás utilizando con Vircadia y haz clic en \"Propiedades\". "
+"En la pestaña \"Levels\", marca el icono junto al medidor de volumen. El "
+"icono del micrófono te indicará si tu auricular/micrófono está silenciado. "
+"Si estás silenciado, haz click en el icono para cancelar el silencio."
 
 #: ../../source/faq.rst:136
 msgid ""
@@ -268,6 +336,10 @@ msgid ""
 "of the way down, then your input device is disabled. Turn up the input "
 "volume to re-enable your microphone."
 msgstr ""
+"En Mac, ve a la pestaña **System Preferences > Sound > Input**. Elije el "
+"dispositivo que está utilizando con Vircadia. Si el \"Input volume\" está al "
+"mínimo, entonces tu dispositivo de entrada está deshabilitado. Sube el "
+"volumen de entrada para volver a habilitar tu micrófono."
 
 #: ../../source/faq.rst:139
 msgid ""
@@ -276,12 +348,20 @@ msgid ""
 " of specific hardware or software capabilities on your computer. Check "
 "your microphone permissions in your operating system settings:"
 msgstr ""
+"**¿Has permitido que Vircadia acceda al micrófono?** Algunos sistemas "
+"operativos requieren que otorgues permiso explícito a las aplicaciones para "
+"aprovechar capacidades específicas de hardware o software en tu computadora. "
+"Verifica los permisos de tu micrófono en la configuración de tu sistema "
+"operativo:"
 
 #: ../../source/faq.rst:144
 msgid ""
 "On Windows, go to **Settings > Privacy > Microphone**. Make sure that "
 "'Allow desktop apps to access your microphone' is turned on."
 msgstr ""
+"En Windows, ve a **Settings > Privacy > Microphone**. Asegúrate que \"Allow "
+"desktop apps to access your microphone\" (Permitir que las aplicaciones de "
+"escritorio accedan a tu micrófono) esté activada."
 
 #: ../../source/faq.rst:146
 msgid ""
@@ -289,6 +369,9 @@ msgid ""
 " select 'Microphone'. Ensure that the checkbox next to Vircadia is "
 "selected."
 msgstr ""
+"En Mac, ve a **System Preferences > Security & Privacy > Privacy**, luego "
+"selecciona \"Microphone\". Asegúrate de que la casilla de verificación junto "
+"a Vircadia esté seleccionada."
 
 #: ../../source/faq.rst:149
 msgid ""
@@ -297,6 +380,10 @@ msgid ""
 "microphone volume needs to be adjusted or boosted. This is done in your "
 "operating system settings:"
 msgstr ""
+"Si tu dispositivo de entrada está encendido y no está silenciado en la "
+"aplicación, el dispositivo o el sistema operativo, es probable que debas "
+"ajustar o aumentar el volumen de tu micrófono. Esto se hace en la "
+"configuración de tu sistema operativo:"
 
 #: ../../source/faq.rst:153
 msgid ""
@@ -304,30 +391,39 @@ msgid ""
 "device you are using with Vircadia and click 'Properties'. On the "
 "'Levels' tab, adjust the 'Microphone Level' and/or 'Microphone Boost'."
 msgstr ""
+"En Windows, ve a la pestaña **Control Panel > Sound > Recording**. Elije el "
+"dispositivo que estás utilizando con Vircadia y haz click en \"Properties\". "
+"En la pestaña \"Levels\", ajusta el \"Microphone Level\" y/o el \"Microphone "
+"Boost\"."
 
 #: ../../source/faq.rst:156
 msgid ""
 "On Mac, go to **System Preferences > Sound > Input** tab. Choose the "
 "device you are using with Vircadia and adjust the 'Input volume'."
 msgstr ""
+"En Mac, ve a la pestaña **System Preferences > Sound > Input**. Elije el "
+"dispositivo que estás utilizando con Vircadia y ajusta el \"Input volume\"."
 
 #: ../../source/faq.rst:163
 msgid "I can't hear anything in Vircadia."
-msgstr ""
+msgstr "No puedo oír nada en Vircadia."
 
 #: ../../source/faq.rst:165
 msgid "Here are some reasons you might not have audio:"
-msgstr ""
+msgstr "Estas son algunas razones por las que es posible que no tengas audio:"
 
 #: ../../source/faq.rst:167
 msgid "Your headset or speakers are turned off."
-msgstr ""
+msgstr "Tus auriculares o altavoces están apagados."
 
 #: ../../source/faq.rst:168
 msgid ""
 "Your headset or speakers may be muted or disabled by your operating "
 "system. Check your operating system's output device settings:"
 msgstr ""
+"Tu sistema operativo puede estar silenciando o deshabilitando tus "
+"auriculares o parlantes. Verifica la configuración del dispositivo de salida "
+"de tu sistema operativo:"
 
 #: ../../source/faq.rst:171
 msgid ""
@@ -335,6 +431,10 @@ msgid ""
 "device. The speaker icon will tell you whether or not your headset or "
 "speakers are disabled. Click the icon to un-mute yourself."
 msgstr ""
+"En Windows, haz click en el icono de volumen en la barra de tareas y "
+"selecciona tu dispositivo de audio. El icono del altavoz te indicará si tus "
+"auriculares o altavoces están desactivados o no. Haz click en el icono para "
+"dejar de silenciarte."
 
 #: ../../source/faq.rst:174
 msgid ""
@@ -342,12 +442,17 @@ msgid ""
 "device you are using with Vircadia. At the bottom of the dialog, uncheck "
 "'Mute' to un-mute yourself."
 msgstr ""
+"En Mac, ve a la pestaña **System Preferences > Sound > Output**. Elije el "
+"dispositivo que estás utilizando con Vircadia. En la parte inferior del "
+"cuadro de diálogo, desmarca \"Mute\" para desmutearte."
 
 #: ../../source/faq.rst:176
 msgid ""
 "Your headset or speakers have a volume control of their own. Check that "
 "the volume is turned up on the device."
 msgstr ""
+"Tus auriculares o altavoces tienen un control de volumen propio. Verifica "
+"que el volumen esté subido en el dispositivo."
 
 #: ../../source/faq.rst:178
 msgid ""
@@ -355,12 +460,17 @@ msgid ""
 "want to use. Open the **Audio** app and make sure the right headset, "
 "speakers, and/or microphone are selected."
 msgstr ""
+"En Vircadia, tienes seleccionado un dispositivo de audio diferente al que "
+"quieres usar. Abre la aplicación **Audio** y asegúrate de seleccionar los "
+"auriculares, altavoces y/o micrófono correctos."
 
 #: ../../source/faq.rst:180
 msgid ""
 "Volume is turned down or off in Vircadia. Open the **Audio** app and "
 "check your volume settings."
 msgstr ""
+"El volumen está bajo o apagado en Vircadia. Abre la aplicación **Audio** y "
+"comprueba la configuración de volumen."
 
 #: ../../source/faq.rst:187
 msgid "I have a problem with Vircadia on Windows with my AMD graphics card."
