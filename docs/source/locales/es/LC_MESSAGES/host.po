@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-03-13 21:11+0000\n"
+"PO-Revision-Date: 2022-04-10 12:24+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -23,35 +23,35 @@ msgstr ""
 
 #: ../../source/host.rst:11
 msgid "Quick Start Guide"
-msgstr ""
+msgstr "Guía de Inicio Rápido"
 
 #: ../../source/host.rst:11 ../../source/host/start-hosting.rst:3
 msgid "Get Started with Hosting"
-msgstr ""
+msgstr "Comienza con el Hosting"
 
 #: ../../source/host.rst:11
 msgid "Set Up a Domain Server"
-msgstr ""
+msgstr "Configura un Servidor de Dominio"
 
 #: ../../source/host.rst:11 ../../source/host/configure-settings.rst:3
 msgid "Configure Your Domain Settings"
-msgstr ""
+msgstr "Configura los Ajustes de Tu Dominio"
 
 #: ../../source/host.rst:11 ../../source/host/add-content.rst:3
 msgid "Add Content to Your Domain"
-msgstr ""
+msgstr "Agrega Contenido a Tu Dominio"
 
 #: ../../source/host.rst:11 ../../source/host/invite-users.rst:7
 msgid "Bring Visitors to Your Domain"
-msgstr ""
+msgstr "Trae Visitantes a Tu Dominio"
 
 #: ../../source/host.rst:11 ../../source/host/maintain-domain.rst:3
 msgid "Maintain Your Domain"
-msgstr ""
+msgstr "Mantén Tu Dominio"
 
 #: ../../source/host.rst:3
 msgid "Host"
-msgstr ""
+msgstr "Alojamiento"
 
 #: ../../source/host.rst:5
 msgid ""
@@ -60,6 +60,10 @@ msgid ""
 "the power to express your creativity, build your own virtual worlds, and "
 "be a part of an expanding metaverse."
 msgstr ""
+"La visión de Vircadia es ser una red descentralizada de mundos virtuales, "
+"creada y controlada por sus usuarios. Para lograr esta visión, queremos que "
+"tengas el poder de expresar tu creatividad, construir tus propios mundos "
+"virtuales y ser parte de un metaverso en expansión."
 
 #: ../../source/host.rst:7
 msgid ""
@@ -67,6 +71,9 @@ msgid ""
 "host it on a server, and maintain it so that it can be enjoyed by users "
 "for years to come."
 msgstr ""
+"A lo largo de este capítulo, aprenderás cómo crear tu propio dominio, "
+"alojarlo en un servidor y mantenerlo para que los usuarios puedan "
+"disfrutarlo en los años venideros."
 
 #: ../../source/host.rst:9
 msgid ""
@@ -74,25 +81,28 @@ msgid ""
 "guide <host/quick-start>`. Otherwise, let's :doc:`get started <host"
 "/start-hosting>`."
 msgstr ""
+"Si quieres saltar directamente a ello, considera leer la :doc:`guía de "
+"inicio rápido <host/quick-start>`. De otra maneta, :doc:`comencemos <host/"
+"start-hosting>`."
 
 #: ../../source/host/add-content.rst:9
 #: ../../source/host/add-content/create-content.rst:7
 msgid "Build and Add Your Own Content"
-msgstr ""
+msgstr "Crea y Agregua Tu Propio Contenido"
 
 #: ../../source/host/add-content.rst:9
 #: ../../source/host/add-content/bake-content.rst:7
 msgid "Bake Your Content"
-msgstr ""
+msgstr "Haz Tu Contenido"
 
 #: ../../source/host/add-content.rst:9
 #: ../../source/host/add-content/export-content.rst:7
 msgid "Export Your Content"
-msgstr ""
+msgstr "Exporta Tu Contenido"
 
 #: ../../source/host/add-content.rst:9
 msgid "Upload Content to Your Domain"
-msgstr ""
+msgstr "Sube Contenido a Tu Dominio"
 
 #: ../../source/host/add-content.rst:5
 msgid ""
@@ -102,6 +112,12 @@ msgid ""
 "hang out with friends, or even an office space, we invite you to create "
 "your own Vircadia experience by tailoring the content to your needs."
 msgstr ""
+"Tu dominio es tu propio mundo virtual personal. En él, puedes expresar tu "
+"creatividad y crear tu propio contenido, luego compartirlo con el mundo. Ya "
+"sea que hayas creado un dominio para organizar un evento, como un lugar para "
+"pasar el rato con amigos o incluso como un espacio de oficina, te invitamos "
+"a crear tu propia experiencia Vircadia adaptando el contenido a tus "
+"necesidades."
 
 #: ../../source/host/add-content.rst:7
 #: ../../source/host/configure-settings.rst:12
@@ -114,6 +130,10 @@ msgid ""
 "about Linux (currently the oven is only shipped with the Server, not the "
 "AppImage), says that Oven has a GUI application (is news to me)"
 msgstr ""
+"Este documento está desactualizado. A tener en cuenta: Se menciona a "
+"Sandbox, información faltante sobre Linux (Actualmente, el \"oven\" solo se "
+"envía con el servidor, no con la AppImage), dice que Oven tiene una "
+"aplicación GUI)"
 
 #: ../../source/host/add-content/bake-content.rst:9
 msgid ""
@@ -125,6 +145,13 @@ msgid ""
 "to make them easier to transmit, store, and render, reducing load time "
 "significantly."
 msgstr ""
+"La mayoría del contenido (avatares, entidades, etc.) en Vircadia hace "
+"referencia a recursos externos como texturas, modelos, scripts y materiales. "
+"Cuando un usuario encuentra cualquier contenido en el dominio, necesitan "
+"descargar los recursos del contenido. Muchos de estos recursos no están "
+"optimizados y pueden tardar un poco en descargarse. *Baking* es el proceso "
+"de optimizar estos recursos para hacerlos más fáciles de transmitir, "
+"almacenar y renderizar, reduciendo significativamente el tiempo de carga."
 
 #: ../../source/host/add-content/bake-content.rst:12
 #: ../../source/host/add-content/create-content.rst:12
@@ -147,7 +174,7 @@ msgstr "En Esta Página"
 
 #: ../../source/host/add-content/bake-content.rst:16
 msgid "The Oven"
-msgstr ""
+msgstr "El Oven"
 
 #: ../../source/host/add-content/bake-content.rst:18
 msgid ""
