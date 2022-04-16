@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-04-10 12:24+0000\n"
+"PO-Revision-Date: 2022-04-16 10:57+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -182,14 +182,19 @@ msgid ""
 " `Client + Sandbox <https://vircadia.com/deploy-a-server/>`_ installer. "
 "Once installed, locate ``oven.exe`` (Windows) or ``oven.app`` (Mac)."
 msgstr ""
+"El Oven es una aplicación independiente que es empaquetada como parte del "
+"instalador `Cliente + Sandbox <https://vircadia.com/deploy-a-server/>`_ de "
+"Vircadia. Una vez instalada, busca ``oven.exe`` (Windows) u ``oven.app`` "
+"(Mac)."
 
 #: ../../source/host/add-content/bake-content.rst:20
 msgid "With the oven, you can bake the following types of content:"
 msgstr ""
+"Con el oven, puedes \"hornear\" (bake) los siguientes tipos de contenido:"
 
 #: ../../source/host/add-content/bake-content.rst:23
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: ../../source/host/add-content/bake-content.rst:23
 #: ../../source/host/add-content/bake-content.rst:64
@@ -214,6 +219,16 @@ msgid ""
 " recommend using PNG or JPEG (JPG) textures. However, we also support "
 "textures in following formats: TGA, TIF, and TIFF."
 msgstr ""
+"Cuando horneas una textura, la carpeta resultante contendrá un archivo ."
+"texmeta.json, varias imágenes .ktx y la textura original. El horneado puede "
+"introducir algunos artefactos de compresión, pero estos suelen ser menores. "
+"Hornear una textura produce mapas MIP, que te permiten cargar texturas "
+"progresivamente y comprimir los resultados. Hornear texturas grandes como "
+"skyboxes puede llevar un tiempo, pero los beneficios en tiempo de ejecución "
+"para todos los que carguen la imagen de skybox serán significativos. Para "
+"obtener la mejor experiencia, recomendamos usar texturas PNG o JPEG (JPG). "
+"Sin embargo, también admitimos texturas en los siguientes formatos: TGA, TIF "
+"y TIFF."
 
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "Materials"
@@ -226,6 +241,10 @@ msgid ""
 "`material entity JSON file <../../create/entities/mate rial-"
 "entity.html#generate-a-material-entity>`_."
 msgstr ""
+"Hornear un material producirá un archivo .baked.json y también horneará "
+"todas las texturas del material. Actualmente, solo admitimos hornear un `"
+"archivo JSON de entidad material <../../create/entities/mate rial-entity."
+"html#generate-a-material-entity>`_."
 
 #: ../../source/host/add-content/bake-content.rst:37
 msgid "3D Models"
@@ -245,6 +264,17 @@ msgid ""
 "file. We support the following formats: FBX, OBJ, and FST (that points to"
 " a supported type)."
 msgstr ""
+"Hornear un modelo producirá una malla geométrica `comprimida Draco "
+"<https://github.com/google/draco>`_ y también horneará todos los materiales "
+"del modelo. La compresión de la malla puede alterar ligeramente la geometría "
+"del modelo original, pero suele ser menor. Tu carpeta de salida contendrá un "
+"archivo .baked.fst, un archivo .baked.fbx (el formato original de tu modelo "
+"puede ser diferente) y un archivo .baked.json (materiales). Debido a que el "
+"archivo JSON de materiales horneados hace referencia a los archivos de "
+"texturas horneadas, todas las texturas se eliminan del archivo .baked.fbx. "
+"Se hace referencia a este archivo JSON en el campo `materialMap` en el "
+"archivo .baked.fst. Admitimos los siguientes formatos: FBX, OBJ y FST (que "
+"apunta a un tipo compatible)."
 
 #: ../../source/host/add-content/bake-content.rst:45
 msgid "Avatars"
@@ -256,65 +286,73 @@ msgid ""
 "above. Use the resulting .baked.fst file to `host and wear your baked "
 "avatar <../../create/avatars/package-avatar.html#host-your-avatar>`_."
 msgstr ""
+"Como los avatares son modelos 3D, puedes hornear avatares con los mismos "
+"resultados que arriba. Utiliza el archivo .baked.fst resultante para `alojar "
+"y vestir tu avatar horneado <../../create/avatars/package-avatar.html#host-"
+"your-avatar>`_."
 
 #: ../../source/host/add-content/bake-content.rst:49
 msgid ""
 "The Oven has two different interfaces: an application and a command line "
 "interface. Use the one that best fits your needs."
 msgstr ""
+"El Oven tiene dos interfaces diferentes: una aplicación y una interfaz de "
+"línea de comandos. Utiliza el que mejor se adapte a tus necesidades."
 
 #: ../../source/host/add-content/bake-content.rst:53
 msgid "Using the Oven Application"
-msgstr ""
+msgstr "Usando la Aplicación Oven"
 
 #: ../../source/host/add-content/bake-content.rst:55
 msgid "The Oven application has three baking options:"
-msgstr ""
+msgstr "La aplicación Oven tiene tres opciones de horneado:"
 
 #: ../../source/host/add-content/bake-content.rst:57
 msgid "Bake all assets in your domain"
-msgstr ""
+msgstr "Hornear todos los activos en tu dominio"
 
 #: ../../source/host/add-content/bake-content.rst:58
 msgid "Bake individual 3D models and avatars"
-msgstr ""
+msgstr "Hornear modelos 3D y avatares individuales"
 
 #: ../../source/host/add-content/bake-content.rst:59
 msgid "Bake skybox files"
-msgstr ""
+msgstr "Hornear archivos skybox"
 
 #: ../../source/host/add-content/bake-content.rst:61
 msgid ""
 "After you choose what you would like to bake, you'll need to fill in some"
 " information:"
 msgstr ""
+"Después de elegir lo que te gustaría hornear, deberás completar cierta "
+"información:"
 
 #: ../../source/host/add-content/bake-content.rst:64
 msgid "Field"
-msgstr ""
+msgstr "Campo"
 
 #: ../../source/host/add-content/bake-content.rst:64
 msgid "Baking Option"
-msgstr ""
+msgstr "Opción de Hornear"
 
 #: ../../source/host/add-content/bake-content.rst:67
 msgid "Domain Name"
-msgstr ""
+msgstr "Domain Name"
 
 #: ../../source/host/add-content/bake-content.rst:67
 #: ../../source/host/add-content/bake-content.rst:70
 #: ../../source/host/add-content/bake-content.rst:83
 #: ../../source/host/add-content/bake-content.rst:88
 msgid "Domain"
-msgstr ""
+msgstr "Domain"
 
 #: ../../source/host/add-content/bake-content.rst:67
 msgid "Enter your domain's name."
-msgstr ""
+msgstr "Introduce el nombre de tu dominio."
 
 #: ../../source/host/add-content/bake-content.rst:70
 msgid "Entities File"
-msgstr ""
+msgstr "Entities File"
 
 #: ../../source/host/add-content/bake-content.rst:70
 msgid ""
@@ -322,22 +360,25 @@ msgid ""
 " by `exporting your content to JSON <export-content.html#export-entities-"
 "to-json>`_."
 msgstr ""
+"Carga un .json o .json.gz de los activos en tu dominio. Esto se puede hacer `"
+"exportando tu contenido a JSON <export-content.html#export-entities-to-"
+"json>`_."
 
 #: ../../source/host/add-content/bake-content.rst:74
 msgid "Model File(s)"
-msgstr ""
+msgstr "Model File(s)"
 
 #: ../../source/host/add-content/bake-content.rst:74
 msgid "Model"
-msgstr ""
+msgstr "Model"
 
 #: ../../source/host/add-content/bake-content.rst:74
 msgid "Enter the file or URL path for your model file(s)."
-msgstr ""
+msgstr "Ingresa el archivo o la ruta URL para tu(s) archivo(s) modelo(s)."
 
 #: ../../source/host/add-content/bake-content.rst:77
 msgid "Skybox File(s)"
-msgstr ""
+msgstr "Skybox File(s)"
 
 #: ../../source/host/add-content/bake-content.rst:77
 msgid "Skybox"
@@ -345,23 +386,23 @@ msgstr "Palco"
 
 #: ../../source/host/add-content/bake-content.rst:77
 msgid "Enter the file or URL path for your skybox file(s)."
-msgstr ""
+msgstr "Ingresa el archivo o la ruta de la URL para tu(s) archivo(s) de skybox."
 
 #: ../../source/host/add-content/bake-content.rst:80
 msgid "Output Directory"
-msgstr ""
+msgstr "Output Directory"
 
 #: ../../source/host/add-content/bake-content.rst:80
 msgid "Domain, Model, Skybox"
-msgstr ""
+msgstr "Domain, Model, Skybox"
 
 #: ../../source/host/add-content/bake-content.rst:80
 msgid "This is where the baked content will be saved."
-msgstr ""
+msgstr "Aquí es donde se guardará el contenido horneado."
 
 #: ../../source/host/add-content/bake-content.rst:83
 msgid "Destination URL Path"
-msgstr ""
+msgstr "Destination URL Path"
 
 #: ../../source/host/add-content/bake-content.rst:83
 msgid ""
@@ -369,16 +410,21 @@ msgid ""
 "baking. For example, if you store custom 3D models on a cloud hosting "
 "service, enter that URL here."
 msgstr ""
+"Ingresa las rutas absolutas de dónde se cargarán tus recursos después de "
+"hornear. Por ejemplo, si almacenas modelos 3D personalizados en un servicio "
+"de alojamiento en la nube, ingresa esa URL aquí."
 
 #: ../../source/host/add-content/bake-content.rst:88
 msgid "Re-bake Originals"
-msgstr ""
+msgstr "Re-bake Originals"
 
 #: ../../source/host/add-content/bake-content.rst:88
 msgid ""
 "Check if you want to re-bake any baked content that the oven finds in "
 "your content archive."
 msgstr ""
+"Comprueba si deseas volver a hornear cualquier contenido horneado que el "
+"horno encuentre en tu archivo de contenido."
 
 #: ../../source/host/add-content/bake-content.rst:92
 msgid ""
@@ -387,24 +433,31 @@ msgid ""
 "This ensures that all content will load correctly when you :doc:`upload "
 "the baked content set <upload-content>` to your domain."
 msgstr ""
+"Después de hornear un dominio, no olvides cargar todo el contenido horneado ("
+"modelos 3D, skyboxes, etc.) a la URL especificada para \"Destination URL "
+"Path\". Esto asegura que todo el contenido se cargue correctamente cuando "
+":doc:`subas el conjunto de contenido horneado <upload-content>` a tu dominio."
 
 #: ../../source/host/add-content/bake-content.rst:97
 msgid "Using the Commmand Line Interface"
-msgstr ""
+msgstr "Uso de la Interfaz de Línea de Comandos"
 
 #: ../../source/host/add-content/bake-content.rst:99
 msgid ""
 "You can also use a command line interface instead of the GUI to bake "
 "single assets (not domains). We support the following attributes:"
 msgstr ""
+"También puedes usar una interfaz de línea de comandos en lugar de la GUI "
+"para crear activos individuales (no dominios). Admitimos los siguientes "
+"atributos:"
 
 #: ../../source/host/add-content/bake-content.rst:101
 msgid "i: Path to file that you would like to bake."
-msgstr ""
+msgstr "i: Ruta al archivo que te gustaría hornear."
 
 #: ../../source/host/add-content/bake-content.rst:102
 msgid "o: Path to folder that will be used as the output directory."
-msgstr ""
+msgstr "o: Ruta a la carpeta que se usará como directorio de salida."
 
 #: ../../source/host/add-content/bake-content.rst:103
 msgid ""
@@ -415,6 +468,12 @@ msgid ""
 "emissive, cube (same as skybox), skybox, ambient, occlusion, scattering, "
 "and lightmap."
 msgstr ""
+"t: Tipo de activo (asset). El valor puede ser \"model\" (para cualquier tipo "
+"de modelo) y \"material\" (para una descripción JSON de material). Para las "
+"texturas, los valores difieren según el tipo de textura que quieras hornear, "
+"como por defecto, strict, albedo, normal, bump, specular, metallic, "
+"roughness, gloss, emissive, cube (misma que skybox), skybox, ambient, "
+"occlusion, scattering, and lightmap."
 
 #: ../../source/host/add-content/bake-content.rst:104
 msgid ""
@@ -422,19 +481,26 @@ msgid ""
 "Use this only if the texture compression is introducing too many "
 "artifacts."
 msgstr ""
+"disable-texture-compression: Deshabilita la compresión de texturas para "
+"cualquier tipo. Usa esto solo si la compresión de textura está introduciendo "
+"demasiados artefactos."
 
 #: ../../source/host/add-content/bake-content.rst:106
 msgid "To bake a 3D model through the Oven's command line interface::"
 msgstr ""
+"Para hornear un modelo 3D a través de la interfaz de línea de comandos de "
+"Oven:"
 
 #: ../../source/host/add-content/bake-content.rst:111
 msgid "To bake a material through the Oven's command line interface::"
 msgstr ""
+"Para hornear un material a través de la interfaz de línea de comandos de "
+"Oven::"
 
 #: ../../source/host/add-content/create-content.rst:2
 #: ../../source/host/add-content/export-content.rst:2
 msgid "This document is outdated. FIXME: mentions Sandbox"
-msgstr ""
+msgstr "Este documento está desactualizad. A tener en cuenta: menciona Sandbox"
 
 #: ../../source/host/add-content/create-content.rst:9
 msgid ""
