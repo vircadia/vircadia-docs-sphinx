@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-04-16 10:57+0000\n"
+"PO-Revision-Date: 2022-04-23 21:24+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -510,10 +510,15 @@ msgid ""
 " branch out and build content of your own. If you don't know where to "
 "begin, this is a great place to start."
 msgstr ""
+"Tal vez hayas vagado por el metaverso y estés inspirado por la creatividad "
+"de los demás. O tal vez ninguno de los otros dominios se ajuste realmente a "
+"la atmósfera de lo que tienes en mente. Sea cual sea el motivo, estás listo "
+"para diversificarte y crear tu propio contenido. Si no sabe por dónde "
+"empezar, este es un gran lugar para comenzar."
 
 #: ../../source/host/add-content/create-content.rst:16
 msgid "Tools for Creating Content"
-msgstr ""
+msgstr "Herramientas para Crear Contenido"
 
 #: ../../source/host/add-content/create-content.rst:18
 msgid ""
@@ -522,30 +527,35 @@ msgid ""
 "our :doc:`Create <../../create>` section to learn more about the "
 "available tools and examples of how to make your environment more alive:"
 msgstr ""
+"Un conjunto de contenido es simplemente una colección de muchas entidades, "
+"modelos y scripts diferentes que trabajan juntos para formar un entorno "
+"interactivo. Visita nuestra sección :doc:`Crear <../../create>`para obtener "
+"más información sobre las herramientas disponibles y ejemplos de cómo hacer "
+"que tu entorno sea más vivo:"
 
 #: ../../source/host/add-content/create-content.rst:20
 msgid ":doc:`Create Tools <../../create/tools>`"
-msgstr ""
+msgstr ":doc:`Herramientas de Creación <../../create/tools>`"
 
 #: ../../source/host/add-content/create-content.rst:21
 msgid ":doc:`All About Entities <../../create/entities>`"
-msgstr ""
+msgstr ":doc:`Todo Sobre Entidades <../../create/entities>`"
 
 #: ../../source/host/add-content/create-content.rst:22
 msgid ":doc:`Add Sounds to Entities <../../create/entities/add-sounds>`"
-msgstr ""
+msgstr ":doc:`Añadir Sonido a Entidades <../../create/entities/add-sounds>`"
 
 #: ../../source/host/add-content/create-content.rst:23
 msgid ":doc:`Build and Import 3D Models <../../create/3d-models>`"
-msgstr ""
+msgstr ":doc:`Construir e Importar Modelos 3D <../../create/3d-models>`"
 
 #: ../../source/host/add-content/create-content.rst:24
 msgid ":doc:`Get Started with Scripting <../../script>`"
-msgstr ""
+msgstr ":doc:`Comienza con el Scripting <../../script>`"
 
 #: ../../source/host/add-content/create-content.rst:28
 msgid "Techniques for Creating Content Sets"
-msgstr ""
+msgstr "Técnicas para Crear Conjuntos de Contenido"
 
 #: ../../source/host/add-content/create-content.rst:30
 msgid ""
@@ -556,6 +566,12 @@ msgid ""
 "want to wait to show off their creation until the final build is "
 "complete."
 msgstr ""
+"Crear un conjunto de contenido (content set) puede ser complicado porque "
+"estás diseñando un entorno completo, en lugar de un solo elemento. Es como "
+"construir una ciudad entera, que se compone de muchos edificios, árboles y "
+"caminos. Algunos artistas quieren compartir su progreso, cada paso del "
+"camino recorrido. Otros quieren esperar para mostrar su creación hasta que "
+"se complete la construcción final."
 
 #: ../../source/host/add-content/create-content.rst:32
 msgid ""
@@ -564,6 +580,10 @@ msgid ""
 "the approach you use to build your content. Choose the method that fits "
 "you best to learn more:"
 msgstr ""
+"Te permitimos elegir cómo deseas crear e implementar tu contenido. El "
+"proceso para actualizar el conjunto de contenido en tu dominio diferirá "
+"según el enfoque que utilices para crear tu contenido. Elije el método que "
+"te parezca mejor para seguir aprendiendo más:"
 
 #: ../../source/host/add-content/create-content.rst:35
 msgid "Method"
@@ -571,7 +591,7 @@ msgstr "Método"
 
 #: ../../source/host/add-content/create-content.rst:37
 msgid "`Make Live Updates`_"
-msgstr ""
+msgstr "`Hacer Actualizaciones en Vivo`_"
 
 #: ../../source/host/add-content/create-content.rst:37
 msgid ""
@@ -579,10 +599,13 @@ msgid ""
 " domain in the metaverse. This means that any visitors in your domain "
 "will see the changes as they happen."
 msgstr ""
+"A medida que realices un cambio en tu contenido, aparecerá inmediatamente en "
+"tu dominio en el metaverso. Esto significa que todos los visitantes de tu "
+"dominio verán los cambios a medida que se produzcan."
 
 #: ../../source/host/add-content/create-content.rst:40
 msgid "`Under Construction`_"
-msgstr ""
+msgstr "`Bajo Construcción`_"
 
 #: ../../source/host/add-content/create-content.rst:40
 msgid ""
@@ -590,10 +613,13 @@ msgid ""
 " offline to outside visitors. Users will be unable to visit your domain "
 "while it is under construction."
 msgstr ""
+"Durante el tiempo que estás construyendo tu conjunto de contenido, tu "
+"dominio figura como no disponible (offline) para los visitantes externos. "
+"Los usuarios no podrán visitar tu dominio mientras esté en construcción."
 
 #: ../../source/host/add-content/create-content.rst:43
 msgid "`Create and Deploy`_"
-msgstr ""
+msgstr "`Crear e Implementar`_"
 
 #: ../../source/host/add-content/create-content.rst:43
 msgid ""
@@ -602,10 +628,15 @@ msgid ""
 "file, then deploy it to your domain. Visitors can continue visiting your "
 "domain with any placeholder content while you design your custom content."
 msgstr ""
+"Aquí, prefieres crear tu contenido en un entorno offline. Una vez que se "
+"complete, deberás exportar tu conjunto de contenido a un archivo externo y "
+"luego implementarlo en tu dominio. Los visitantes pueden continuar visitando "
+"tu dominio con cualquier contenido de marcador de posición mientras diseñas "
+"tu contenido personalizado."
 
 #: ../../source/host/add-content/create-content.rst:51
 msgid "Make Live Updates"
-msgstr ""
+msgstr "Hacer Actualizaciones en Vivo"
 
 #: ../../source/host/add-content/create-content.rst:53
 msgid ""
@@ -613,6 +644,9 @@ msgid ""
 "changes to the content. In order to make changes, a user must have the "
 "'Rez' permission turned on."
 msgstr ""
+"Las actualizaciones en vivo se realizan cada vez que tú o cualquier otro "
+"usuario de tu dominio realiza cambios en el contenido. Para realizar "
+"cambios, un usuario debe tener activado el permiso \"Rez\"."
 
 #: ../../source/host/add-content/create-content.rst:55
 msgid ""
@@ -623,6 +657,13 @@ msgid ""
 " To update your content, all you need to is visit your domain and start "
 "making changes using the :doc:`Create Tools <../../create/tools>`."
 msgstr ""
+"Antes de seguir esta ruta, decide a quién (si es que hay alguien) te "
+"gustaría modificarle tu propio conjunto de contenido, y :doc:`verificar que "
+"sus permisos rez estén configurados correctamente <../configure-settings/"
+"permission-settings>`. Si vas a ser tú quien realice los cambios, asegúrate "
+"de tener derechos rez. Para actualizar tu contenido, todo lo que necesitas "
+"es visitar tu dominio y comenzar a hacer cambios usando las :doc:`"
+"Herramientas de Creación <../../create/tools>`."
 
 #: ../../source/host/add-content/create-content.rst:57
 #: ../../source/host/add-content/create-content.rst:82
@@ -631,6 +672,10 @@ msgid ""
 "your Domain Settings to :doc:`view and download the backups of your "
 "content sets <../maintain-domain/backup-domain>` over time."
 msgstr ""
+"Tu servidor crea archivos regulares del contenido de tu dominio. Visita la "
+"configuración de tu dominio para :doc:`ver y descargar las copias de "
+"seguridad de tus conjuntos de contenido <../maintain-domain/backup-domain>` "
+"con tiempo."
 
 #: ../../source/host/add-content/create-content.rst:59
 msgid ""
@@ -644,10 +689,19 @@ msgid ""
 "create their own content in your domain, but not be able to change your "
 "domain's content set."
 msgstr ""
+"**Tip**: Es posible \"bloquear\" el contenido que has creado, para que los "
+"visitantes puedan crear contenido nuevo sin modificar tu contenido "
+"personalizado. Por ejemplo, puedes bloquear las paredes y el piso de una "
+"habitación, pero dejar que tus visitantes creen sus propias mesas y sillas. "
+"Para proteger tu propio conjunto de contenido personalizado, bloquea las "
+"entidades que creaste. Cuando configures tus permisos para tus visitantes, "
+"niégales el acceso a \"Bloquear/Desbloquear\", pero concédeles permisos "
+"'Rez'. Podrán crear su propio contenido en tu dominio, pero no podrán "
+"cambiar el conjunto de contenido de tu dominio."
 
 #: ../../source/host/add-content/create-content.rst:64
 msgid "Under Construction"
-msgstr ""
+msgstr "Bajo Construcción"
 
 #: ../../source/host/add-content/create-content.rst:66
 msgid ""
@@ -655,6 +709,9 @@ msgid ""
 " temporarily and prevent users from visiting while it is under "
 "construction."
 msgstr ""
+"Mientras realizas cambios en a tu conjunto de contenido, puedes eliminar tu "
+"dominio temporalmente y evitar que los usuarios lo visiten mientras está en "
+"construcción."
 
 #: ../../source/host/add-content/create-content.rst:68
 msgid ""
@@ -663,6 +720,10 @@ msgid ""
 "When you are done, all you need to do is re-enable the 'Connect' "
 "permission."
 msgstr ""
+"Para hacer esto, simplemente elimina el permiso \"Connect\" para todos los "
+"usuarios menos para ti (y cualquier otro co-creador que trabaje contigo). "
+"Cuando hayas terminado, todo lo que necesita hacer es volver a habilitar el "
+"permiso \"Connect\"."
 
 #: ../../source/host/add-content/create-content.rst:70
 #: ../../source/host/add-content/export-content.rst:49
@@ -682,7 +743,7 @@ msgstr ""
 #: ../../source/host/maintain-domain/backup-domain.rst:101
 #: ../../source/host/maintain-domain/script-maintenance.rst:70
 msgid "Open your domain settings."
-msgstr ""
+msgstr "Abre la configuración de tu dominio."
 
 #: ../../source/host/add-content/create-content.rst:72
 #: ../../source/host/add-content/export-content.rst:51
@@ -703,6 +764,9 @@ msgid ""
 "For cloud hosted domains: Open a browser and enter the URL http://<insert"
 " your server's IP address here>:40100/settings. Log in when prompted."
 msgstr ""
+"Para dominios alojados en la nube: abre un navegador e ingresa la URL http://"
+"<inserta la dirección IP de tu servidor aquí>:40100/settings. Inicia sesión "
+"cuando se te solicite."
 
 #: ../../source/host/add-content/create-content.rst:73
 #: ../../source/host/add-content/export-content.rst:52
@@ -725,6 +789,8 @@ msgid ""
 "For local servers on Windows: Click on the Vircadia icon in the system "
 "tray, then click 'Settings'."
 msgstr ""
+"Para servidores locales en Windows: Haz click en el ícono de Vircadia en la "
+"bandeja del sistema, luego haz click en \"Settings\"."
 
 #: ../../source/host/add-content/create-content.rst:74
 #: ../../source/host/add-content/export-content.rst:53
@@ -745,14 +811,16 @@ msgid ""
 "For local servers on Mac: Right-click the Vircadia icon on the top menu "
 "bar, then click 'Settings'."
 msgstr ""
+"Para servidores locales en Mac: haz click derecho en el ícono de Vircadia en "
+"la barra de menú superior, luego haz click en \"Settings\"."
 
 #: ../../source/host/add-content/create-content.rst:75
 msgid "On the top menu bar, select **Settings > Security**."
-msgstr ""
+msgstr "En la barra de menú superior, selecciona **Settings > Security**."
 
 #: ../../source/host/add-content/create-content.rst:76
 msgid "Scroll to 'Standard Permissions'."
-msgstr ""
+msgstr "Desplázate hasta \"Standard Permissions\"."
 
 #: ../../source/host/add-content/create-content.rst:77
 msgid ""
@@ -760,10 +828,13 @@ msgid ""
 "users and groups (except yourself and anyone else working on the "
 "content)."
 msgstr ""
+"Para cada grupo de Permisos, desmarca el permiso \"Connect\" para todos los "
+"usuarios y grupos (excepto para ti y cualquier otra persona que trabaje en "
+"el contenido)."
 
 #: ../../source/host/add-content/create-content.rst:78
 msgid "Click 'Save' and close the Domain Settings page."
-msgstr ""
+msgstr "Haz clik en \"Save\" y cierra la página de Configuraciones del Dominio."
 
 #: ../../source/host/add-content/create-content.rst:80
 msgid ""
@@ -772,6 +843,10 @@ msgid ""
 "recommend locking all of your content so that it cannot be modified by "
 "visitors to your domain."
 msgstr ""
+"Una vez que hayas establecido los permisos, visita tu dominio y comienza a "
+"crear tu conjunto de contenido utilizando las :doc:`Herramientas de Creación "
+"<../../create/tools>`. Recomendamos bloquear todo tu contenido para que los "
+"visitantes de tu dominio no puedan modificarlo."
 
 #: ../../source/host/add-content/create-content.rst:84
 msgid ""
@@ -779,32 +854,37 @@ msgid ""
 "permission for your visitors. These users will be able to visit your "
 "domain again with the server's IP address or place name."
 msgstr ""
+"Cuando haya terminado, sigue los pasos anteriores para volver a habilitar el "
+"permiso de conexión para tus visitantes. Estos usuarios podrán volver a "
+"visitar tu dominio con la dirección IP del servidor o el nombre del lugar."
 
 #: ../../source/host/add-content/create-content.rst:89
 msgid "Create and Deploy"
-msgstr ""
+msgstr "Crear e Implementar"
 
 #: ../../source/host/add-content/create-content.rst:91
 msgid ""
 "The final technique for building a content set follows a basic "
 "development workflow:"
 msgstr ""
+"La técnica final para crear un conjunto de contenido sigue un flujo de "
+"trabajo de desarrollo básico:"
 
 #: ../../source/host/add-content/create-content.rst:93
 msgid "Build content in an offline environment"
-msgstr ""
+msgstr "Crea contenido en un entorno offline"
 
 #: ../../source/host/add-content/create-content.rst:94
 msgid "(Optional) Build and test it"
-msgstr ""
+msgstr "(Opcional) Construye y pruébalo"
 
 #: ../../source/host/add-content/create-content.rst:95
 msgid "Export the content set to a file"
-msgstr ""
+msgstr "Exportar el conjunto de contenido a un archivo"
 
 #: ../../source/host/add-content/create-content.rst:96
 msgid "Upload the exported content set to your domain"
-msgstr ""
+msgstr "Carga el conjunto de contenido exportado a tu dominio"
 
 #: ../../source/host/add-content/create-content.rst:98
 msgid ""
@@ -812,6 +892,9 @@ msgid ""
 "domain while you build your content, deploy your content set to multiple "
 "domains, or test your content before you deploy."
 msgstr ""
+"Recomendamos usar este método si deseas evitar la interrupción de tu dominio "
+"mientras creas tu contenido, implementa tu conjunto de contenido en varios "
+"dominios o prueba tu contenido antes de implementarlo."
 
 #: ../../source/host/add-content/create-content.rst:100
 msgid ""
@@ -819,26 +902,32 @@ msgid ""
 "<https://vircadia.com/deploy-a-server/>`_ software on a computer that is "
 "_not_ running as a local server."
 msgstr ""
+"Instala el software de código abierto de Vircadia `Client + Sandbox "
+"<https://vircadia.com/deploy-a-server/>`_ en una computadora que "
+"no_este_ejecutando como servidor local."
 
 #: ../../source/host/add-content/create-content.rst:101
 msgid "Open a Sandbox not connected to a local server."
-msgstr ""
+msgstr "Abre un Sandbox que no esté conectado a un servidor local."
 
 #: ../../source/host/add-content/create-content.rst:102
 msgid "Build your content set in the Sandbox."
-msgstr ""
+msgstr "Construye tu conjunto de contenido en Sandbox."
 
 #: ../../source/host/add-content/create-content.rst:103
 msgid ""
 "`Export your content to JSON <export-content.html#export-entities-to-"
 "json>`_."
 msgstr ""
+"`Exporta tu contenido a JSON <export-content.html#export-entities-to-json>`_."
 
 #: ../../source/host/add-content/create-content.rst:104
 msgid ""
 "(Optional) To optimize your content set, :doc:`bake your content <bake-"
 "content>`."
 msgstr ""
+"(Opcional) Para optimizar tu conjunto de contenido, :doc:`hornea tu "
+"contenido <bake-content>`."
 
 #: ../../source/host/add-content/create-content.rst:105
 msgid ""
@@ -846,18 +935,25 @@ msgid ""
 "JSON to your local server. Switch computers so you're back on your local "
 "server."
 msgstr ""
+"(Solo servidores locales) Transfiere el archivo comprimido descargado o el "
+"JSON horneado a tu servidor local. Cambia de computadora para volver a tu "
+"servidor local."
 
 #: ../../source/host/add-content/create-content.rst:106
 msgid ""
 "Log in to your server's domain settings and :doc:`upload your exported or"
 " baked JSON to your domain <upload-content>`."
 msgstr ""
+"Inicia sesión en la configuración de dominio de tu servidor y :doc:`sube tu "
+"archivo JSON exportado u horneado a tu dominio <upload-content>`."
 
 #: ../../source/host/add-content/create-content.rst:108
 msgid ""
 "Once your content is uploaded, your domain will automatically restart "
 "with your new custom content."
 msgstr ""
+"Una vez que se cargue tu contenido, tu dominio se reiniciará automáticamente "
+"con tu nuevo contenido personalizado."
 
 #: ../../source/host/add-content/export-content.rst:9
 msgid ""
