@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-04-23 21:24+0000\n"
+"PO-Revision-Date: 2022-05-02 01:13+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -962,32 +962,39 @@ msgid ""
 "make up your domain: the asset types, dimensions, positions, physics, "
 "resource URLs and every other property entity property."
 msgstr ""
+"Para crear una copia de seguridad de tu contenido, debes exportarlo a un "
+"archivo externo. Este archivo contiene toda la información sobre los activos "
+"que componen tu dominio: los tipos de activos, las dimensiones, las "
+"posiciones, la física, las URL de los recursos y todas las demás propiedades "
+"de la entidad de propiedad."
 
 #: ../../source/host/add-content/export-content.rst:11
 msgid ""
 "Many domain creation and maintenance tasks require content backups, "
 "including:"
 msgstr ""
+"Muchas tareas de creación y mantenimiento de dominios requieren copias de "
+"seguridad de contenido, que incluyen:"
 
 #: ../../source/host/add-content/export-content.rst:13
 msgid "Baking content for optimization"
-msgstr ""
+msgstr "Hornear contenido para optimizar"
 
 #: ../../source/host/add-content/export-content.rst:14
 msgid "Importing content sets to new domains"
-msgstr ""
+msgstr "Importación de conjuntos de contenido a nuevos dominios"
 
 #: ../../source/host/add-content/export-content.rst:15
 msgid "Restoring content in case of corruption"
-msgstr ""
+msgstr "Restauración de contenido en caso de corrupción"
 
 #: ../../source/host/add-content/export-content.rst:16
 msgid "Sharing content with others"
-msgstr ""
+msgstr "Compartir contenido con otros"
 
 #: ../../source/host/add-content/export-content.rst:24
 msgid "Export Entities to JSON"
-msgstr ""
+msgstr "Exportar Entidades a JSON"
 
 #: ../../source/host/add-content/export-content.rst:26
 msgid ""
@@ -995,26 +1002,33 @@ msgid ""
 "from the Entity List and export them to a JSON file. Use this method if "
 "you want to:"
 msgstr ""
+"El primer método para exportar tu contenido es seleccionar entidades "
+"específicas de la Lista de entidades (Entity List) y exportarlas a un "
+"archivo JSON. Usa este método si así lo quieres:"
 
 #: ../../source/host/add-content/export-content.rst:28
 msgid "Bake your domain's content"
-msgstr ""
+msgstr "Hornea el contenido de tu dominio"
 
 #: ../../source/host/add-content/export-content.rst:29
 msgid "Back up content that is not yet live on a domain"
 msgstr ""
+"Hacer una copia de seguridad del contenido que aún no está activo en un "
+"dominio"
 
 #: ../../source/host/add-content/export-content.rst:30
 msgid "Export only specific entities, rather than the entire domain's content set"
 msgstr ""
+"Exporta solo entidades específicas, en lugar de todo el conjunto de "
+"contenido del dominio"
 
 #: ../../source/host/add-content/export-content.rst:32
 msgid "To export entities:"
-msgstr ""
+msgstr "Para exportar entidades:"
 
 #: ../../source/host/add-content/export-content.rst:34
 msgid "In your Sandbox, pull up your tablet or HUD and go to **Create**."
-msgstr ""
+msgstr "En tu Sandbox, abre tu tableta o HUD y ve a **Create**."
 
 #: ../../source/host/add-content/export-content.rst:35
 msgid ""
@@ -1025,16 +1039,27 @@ msgid ""
 "non-adjacent entity, hold down the ``Ctrl`` key while clicking the "
 "entities you want to select."
 msgstr ""
+"En la Lista de entidades, selecciona las entidades que quieres exportar. "
+"Para seleccionar todas las entidades, usa el atajo de teclado ``Ctrl`` + "
+"``A``. Para seleccionar más de una entidad adyacente, haz click en la "
+"primera entidad, mantén presionada la tecla ``Shift``, luego haz click en la "
+"última entidad. Para seleccionar más de una entidad no adyacente, mantén "
+"presionada la tecla ``Ctrl`` mientras haces click en las entidades que "
+"quieres seleccionar."
 
 #: ../../source/host/add-content/export-content.rst:36
 msgid ""
 "Once you've selected all of the entities you want to export, click "
 "'Export Selection'."
 msgstr ""
+"Una vez que haya seleccionado todas las entidades que deseas exportar, haz "
+"click en \"Export Selection\"."
 
 #: ../../source/host/add-content/export-content.rst:37
 msgid "Browse to a folder location and enter a name for the exported JSON file."
 msgstr ""
+"Navega a una ubicación de carpeta e ingresa un nombre para el archivo JSON "
+"exportado."
 
 #: ../../source/host/add-content/export-content.rst:38
 #: ../../source/host/configure-settings/place-setting.rst:43
@@ -1043,7 +1068,7 @@ msgstr "Haz click en \"Save\"."
 
 #: ../../source/host/add-content/export-content.rst:43
 msgid "Retrieve Automatic Content Archives"
-msgstr ""
+msgstr "Recuperar Archivos de Contenido Automático"
 
 #: ../../source/host/add-content/export-content.rst:45
 msgid ""
@@ -1053,10 +1078,16 @@ msgid ""
 "have already created a backup of the content that is installed in your "
 "domain. These backup files are called *content archives*."
 msgstr ""
+"Por defecto, Vircadia crea archivos de contenido regulares de todos los "
+"dominios activos en el metaverso. Esto significa que si tienes un dominio "
+"registrado en el metaverso (ya sea a través de un servidor local o "
+"DigitalOcean), entonces ya hemos creado una copia de seguridad del contenido "
+"que está instalado en tu dominio. Estos archivos de copia de seguridad se "
+"denominan *content archives*."
 
 #: ../../source/host/add-content/export-content.rst:47
 msgid "To retrieve these backups:"
-msgstr ""
+msgstr "Para recuperar estas copias de seguridad:"
 
 #: ../../source/host/add-content/export-content.rst:54
 #: ../../source/host/add-content/export-content.rst:78
@@ -1076,6 +1107,8 @@ msgid ""
 "For any OS: Open a browser and enter the URL "
 "http://localhost:40100/settings."
 msgstr ""
+"Para cualquier Sistema Operativo: Abre un navegador e ingresa la URL: "
+"http://localhost:40100/settings."
 
 #: ../../source/host/add-content/export-content.rst:55
 #: ../../source/host/add-content/export-content.rst:79
@@ -1085,57 +1118,67 @@ msgstr ""
 #: ../../source/host/maintain-domain/backup-domain.rst:81
 msgid "On the top menu bar, select **Content > Content Archives**."
 msgstr ""
+"En la barra de menú superior, selecciona **Content > Content Archives**."
 
 #: ../../source/host/add-content/export-content.rst:56
 msgid ""
 "Under 'Automatic Content Archives', locate the archive you would like to "
 "download."
 msgstr ""
+"Debajo de \"Automatic Content Archives\", localiza el archivo que te "
+"gustaría descargar."
 
 #: ../../source/host/add-content/export-content.rst:57
 #: ../../source/host/add-content/export-content.rst:82
 #: ../../source/host/maintain-domain/backup-domain.rst:67
 msgid "From the Actions menu, click 'Download'."
-msgstr ""
+msgstr "Desde el menú de Acciones, haz click en \"Download\"."
 
 #: ../../source/host/add-content/export-content.rst:59
 msgid ""
 "When you upzip the content archive, locate models.json.gz. This file "
 "contains all of the assets in your domain, along with their properties."
 msgstr ""
+"Cuando comprimas el archivo de contenido, busca \"models.json.gz\". Este "
+"archivo contiene todos los recursos de tu dominio, junto con sus propiedades."
 
 #: ../../source/host/add-content/export-content.rst:64
 msgid "Create a Manual Content Archive"
-msgstr ""
+msgstr "Crear un Archivo de Contenido Manual"
 
 #: ../../source/host/add-content/export-content.rst:66
 msgid ""
 "The final method of exporting your content is to create a manual content "
 "archive of your domain. This is recommended if you want to:"
 msgstr ""
+"El método final para exportar tu contenido es crear un archivo de contenido "
+"manual de tu dominio. Esto se recomienda si deseas:"
 
 #: ../../source/host/add-content/export-content.rst:68
 msgid "Deploy your content to multiple domains"
-msgstr ""
+msgstr "Implementar tu contenido en múltiples dominios"
 
 #: ../../source/host/add-content/export-content.rst:69
 msgid "Share a copy of your custom content set with others"
-msgstr ""
+msgstr "Compartir una copia de tu conjunto de contenido personalizado con otros"
 
 #: ../../source/host/add-content/export-content.rst:71
 msgid "To create a content archive and download it:"
-msgstr ""
+msgstr "Para crear un archivo de contenido y descargarlo:"
 
 #: ../../source/host/add-content/export-content.rst:80
 #: ../../source/host/maintain-domain/backup-domain.rst:48
 msgid "Under 'Manual Content Archives', click 'Generate New Archive'."
 msgstr ""
+"Debajo de \"Manual Content Archives\", haz clik en \"Generate New Archive\"."
 
 #: ../../source/host/add-content/export-content.rst:81
 msgid ""
 "Enter a name for your archive and click 'Generate Archive'. It will "
 "appear just below the 'Generate New Archive' button."
 msgstr ""
+"Ingresa un nombre para tu archivo y haz click en \"Generate Archive\". "
+"Aparecerá justo debajo del botón \"Generate New Archive\"."
 
 #: ../../source/host/add-content/export-content.rst:84
 msgid ""
@@ -1143,6 +1186,9 @@ msgid ""
 "files. From here, you can upload your content archive to another domain "
 "or send it to others."
 msgstr ""
+"El archivo de contenido incluye \"models.json.gz\", junto con otros archivos "
+"de respaldo. Desde aquí, puedes cargar tu archivo de contenido a otro "
+"dominio o enviarlo a otros."
 
 #: ../../source/host/add-content/upload-content.rst:3
 msgid "Upload Content to your Domain"
