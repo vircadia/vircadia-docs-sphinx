@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-05-02 01:13+0000\n"
+"PO-Revision-Date: 2022-05-07 16:19+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -1192,7 +1192,7 @@ msgstr ""
 
 #: ../../source/host/add-content/upload-content.rst:3
 msgid "Upload Content to your Domain"
-msgstr ""
+msgstr "Sube Contenido a tu Dominio"
 
 #: ../../source/host/add-content/upload-content.rst:5
 msgid ""
@@ -1204,20 +1204,27 @@ msgid ""
 "like your domain's new look, you can restore your old content at any "
 "time."
 msgstr ""
+"Ya sea que hayas creado tu propio conjunto de contenido, horneado (bake) "
+"contenido u obtenido un conjunto de contenido de un amigo, deberás cargarlo "
+"en tu dominio. Una vez que cargues un conjunto de contenido, sobrescribirá "
+"todo el contenido existente en tu dominio. Ten en cuenta que los archivos de "
+"respaldo existentes del contenido de tu dominio no se cambiarán de "
+"inmediato, por lo que si no te gusta la nueva apariencia de tu dominio, "
+"puedes restaurar tu contenido anterior en cualquier momento."
 
 #: ../../source/host/add-content/upload-content.rst:7
 msgid "To upload and install new content to your domain:"
-msgstr ""
+msgstr "Para cargar e instalar contenido nuevo en tu dominio:"
 
 #: ../../source/host/add-content/upload-content.rst:15
 #: ../../source/host/maintain-domain/backup-domain.rst:89
 msgid "On the top menu bar, select **Content > Upload Content**."
-msgstr ""
+msgstr "En la barra de menú superior, selecciona **Content > Upload Content**."
 
 #: ../../source/host/add-content/upload-content.rst:16
 #: ../../source/host/maintain-domain/backup-domain.rst:90
 msgid "Under 'Upload Content', click 'Choose File'."
-msgstr ""
+msgstr "Debajo de \"Upload Content\", haz click en \"Choose File\"."
 
 #: ../../source/host/add-content/upload-content.rst:17
 msgid ""
@@ -1227,53 +1234,62 @@ msgid ""
 "archive>`_, or a `content archive <export-content.html#create-a-manual-"
 "content-archive>`_ itself."
 msgstr ""
+"Busca tu archivo de contenido. Esto puede ser un `.json de entidades "
+"exportadas <export-content.html#export-entities-to-json>`_, un .json.gz de "
+"un `archivo de contenido extraído <export-content.html#create-a-manual-"
+"content-archive>`_, o un `archivo de contenido <export-content.html#create-a"
+"-manual-content-archive>`_ mismo."
 
 #: ../../source/host/add-content/upload-content.rst:18
 #: ../../source/host/maintain-domain/backup-domain.rst:92
 msgid "Click 'Upload Content'."
-msgstr ""
+msgstr "Haz click en \"Upload Content\"."
 
 #: ../../source/host/add-content/upload-content.rst:19
 msgid ""
 "Confirm that you are sure that you want to replace your current content "
 "with the new content set."
 msgstr ""
+"Confirma que estás seguro de que deseas reemplazar tu contenido actual con "
+"el nuevo conjunto de contenido."
 
 #: ../../source/host/add-content/upload-content.rst:21
 msgid ""
 "At this point, your domain server will restart and the new content will "
 "be deployed in your domain."
 msgstr ""
+"En este punto, tu servidor de dominio se reiniciará y el nuevo contenido se "
+"implementará en tu dominio."
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/network-settings.rst:3
 msgid "Define Your Network Settings"
-msgstr ""
+msgstr "Define la Configuración de tu Red"
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/place-setting.rst:3
 msgid "Set Up a Place Name"
-msgstr ""
+msgstr "Configurar un Nombre de Lugar"
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/permission-settings.rst:3
 msgid "Assign User Permissions"
-msgstr ""
+msgstr "Asignar Permisos de Usuario"
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/authentication-setting.rst:3
 msgid "Secure Your Domain Settings"
-msgstr ""
+msgstr "Protege la Configuración de Tu Dominio"
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/entity-filters.rst:3
 msgid "Protect Your Domain's Content"
-msgstr ""
+msgstr "Protege el Contenido de Tu Dominio"
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/audio-settings.rst:3
 msgid "Define Your Audio Environment"
-msgstr ""
+msgstr "Define Tu Entorno de Audio"
 
 #: ../../source/host/configure-settings.rst:5
 msgid ""
@@ -1281,6 +1297,9 @@ msgid ""
 "let you customize its networking properties, security, behavior, and "
 "more. To access your domain settings:"
 msgstr ""
+"Tu dominio viene con un conjunto completo de opciones de configuración que "
+"te permiten personalizar tus propiedades de red, seguridad, comportamiento y "
+"más. Para acceder a la configuración de tu dominio:"
 
 #: ../../source/host/configure-settings.rst:9
 #: ../../source/host/server-setup/windows-server.rst:34
@@ -1288,6 +1307,8 @@ msgid ""
 "For local servers running on any OS, go to "
 "http://localhost:40100/settings."
 msgstr ""
+"Para servidores locales que se ejecutan en cualquier sistema operativo, ve a "
+"http://localhost:40100/settings."
 
 #: ../../source/host/configure-settings/audio-settings.rst:5
 msgid ""
@@ -1296,6 +1317,10 @@ msgid ""
 "and it has a meaningful impact on a user's sense of immersion and "
 "presence in the world."
 msgstr ""
+"El audio es una parte integral de la experiencia de un visitante en tu "
+"dominio. El audio de calidad es esencial para facilitar la comunicación "
+"entre personas reales y tiene un impacto significativo en la sensación de "
+"inmersión y presencia en el mundo del usuario."
 
 #: ../../source/host/configure-settings/audio-settings.rst:7
 msgid ""
@@ -1307,10 +1332,17 @@ msgid ""
 "amplified stages for presentations. All of this is possible by changing "
 "the audio settings in your domain settings."
 msgstr ""
+"Tú defines exactamente cómo se implementa en tu dominio el audio estéreo "
+"inmersivo 3D de Vircadia. No solo puedes controlar la configuración del "
+"mezclador de audio del servidor hasta cierto punto, sino que también tienes "
+"control total sobre los niveles de atenuación y reverberación en todo el "
+"dominio. Al definir zonas, puedes definir áreas insonorizadas para reuniones "
+"privadas y escenarios amplificados para presentaciones. Todo esto es posible "
+"cambiando la configuración de audio en la configuración de tu dominio."
 
 #: ../../source/host/configure-settings/audio-settings.rst:14
 msgid "Audio Environment"
-msgstr ""
+msgstr "Entorno de Audio"
 
 #: ../../source/host/configure-settings/audio-settings.rst:16
 msgid ""
@@ -1321,6 +1353,12 @@ msgid ""
 "volume of sound based on the distance between the source and the "
 "listener."
 msgstr ""
+"El entorno de audio define cómo se transmite el sonido a lo largo de tu "
+"dominio. Hemos diseñado nuestra configuración de audio predeterminada para "
+"imitar la realidad, es decir, intentamos lograr una sensación de presencia "
+"reflejando voces y sonidos en las superficies del espacio virtual. Además, "
+"ajustamos el volumen del sonido en función de la distancia entre la fuente y "
+"el oyente."
 
 #: ../../source/host/configure-settings/audio-settings.rst:18
 msgid ""
@@ -1329,6 +1367,10 @@ msgid ""
 "settings by adjusting the attenuation and the reverb levels (go to "
 "**Domain Settings > Content > Audio Environment**)."
 msgstr ""
+"Sin embargo, entendemos que nuestra ecuación puede no coincidir exactamente "
+"con lo que estás buscando en tu dominio. Puedes cambiar la configuración de "
+"audio de todo el dominio ajustando la atenuación y los niveles de "
+"reverberación (ve a **Domain Settings > Content > Audio Environment**)."
 
 #: ../../source/host/configure-settings/audio-settings.rst:20
 msgid ""
@@ -1343,6 +1385,18 @@ msgid ""
 "volume. Likewise, the default attenuation for a domain can be set very "
 "high (to a max value of 1), making only things very near to you audible."
 msgstr ""
+"*Atenuación* determina cuánto más silenciosos se vuelven los sonidos a lo "
+"largo de la distancia. La atenuación de dominio predeterminada es la "
+"cantidad de reducción de ruido que está habilitada en todo el entorno del "
+"dominio. Los dominios de Vircadia tienen por defecto una curva de atenuación "
+"de distancia más o menos como en el mundo real. Si ves dos avatares hablando "
+"a la distancia, puedes escucharlos, pero no muy bien. Si te acercas a ellos, "
+"se vuelven más audibles de una manera que se aproxima a lo que probablemente "
+"estás acostumbrado. Si la atenuación predeterminada es 0, no importa qué tan "
+"lejos esté la fuente de sonido, seguirá reproduciéndose a todo volumen. Del "
+"mismo modo, la atenuación predeterminada para un dominio se puede configurar "
+"muy alta (hasta un valor máximo de 1), haciendo que solo se escuchen las "
+"cosas que están muy cerca de ti."
 
 #: ../../source/host/configure-settings/audio-settings.rst:21
 msgid ""
@@ -1355,10 +1409,20 @@ msgid ""
 "results. For a very thick reverb, you might try a value as high as 50% "
 "where the reverb is nearly as loud as the original signal."
 msgstr ""
+"*Reverberación* habilita efectos de eco en tu dominio. Puedes dar el efecto "
+"de sonar como si estuvieras en una gran habitación vacía, en el interior de "
+"una gran cueva o dentro de una pequeña habitación como una ducha con "
+"azulejos. El \"Tiempo de caída de reverberación\" (Reverb Decay Time) define "
+"cuánto tiempo puedes escuchar un eco después del sonido inicial. \"Wet/Dry "
+"Mix\" establece el porcentaje de mezcla de la cola de reverberación en "
+"relación con la señal \"seca\" (dry) original. Los niveles entre 5-25% "
+"generalmente te darán resultados útiles. Para una reverberación muy espesa, "
+"puedes probar un valor de hasta el 50 %, donde la reverberación es casi tan "
+"fuerte como la señal original."
 
 #: ../../source/host/configure-settings/audio-settings.rst:25
 msgid "Audio Zones"
-msgstr ""
+msgstr "Zonas de Audio"
 
 #: ../../source/host/configure-settings/audio-settings.rst:27
 msgid ""
@@ -1368,22 +1432,28 @@ msgid ""
 "to create two separate rooms in the same domain, where the sound does not"
 " migrate over into the other room."
 msgstr ""
+"Una \"zona\" es un área 3D donde puedes definir propiedades personalizadas. "
+"En el caso de una zona de audio, es un área 3D con tus propias propiedades "
+"únicas de atenuación y reverberación definidas. Por ejemplo, una zona de "
+"audio podría usarse para crear dos salas separadas en el mismo dominio, "
+"donde el sonido no migra a la otra sala."
 
 #: ../../source/host/configure-settings/audio-settings.rst:29
 msgid "To define an audio zone:"
-msgstr ""
+msgstr "Para definir una zona de audio:"
 
 #: ../../source/host/configure-settings/audio-settings.rst:37
 msgid "On the top menu bar, select **Content > Audio Environment**."
 msgstr ""
+"En la barra de menú superior, selecciona **Content > Audio Environment**."
 
 #: ../../source/host/configure-settings/audio-settings.rst:38
 msgid "Under 'Zones', click the ``+`` icon."
-msgstr ""
+msgstr "Debajo de \"Zones\", haz click en el ícono ``+``."
 
 #: ../../source/host/configure-settings/audio-settings.rst:39
 msgid "Enter a name for the zone, along with the zone's coordinates."
-msgstr ""
+msgstr "Introduce un nombre para la zona, junto con las coordenadas de la zona."
 
 #: ../../source/host/configure-settings/audio-settings.rst:40
 msgid ""
@@ -1393,21 +1463,29 @@ msgid ""
 "coefficient is 0, there is no change to the attenuation between zones; at"
 " 1, you won't be able to hear someone in another zone."
 msgstr ""
+"(Opcional) Si tiene más de una zona, puedes configurar la relación de "
+"atenuación entre dos zonas específicas. Esta relación se conoce como el "
+"\"coeficiente de atenuación\". Cuando el coeficiente de atenuación es 0, no "
+"hay cambio en la atenuación entre zonas; si es 1, no podrás escuchar a nadie "
+"en otra zona."
 
 #: ../../source/host/configure-settings/audio-settings.rst:41
 msgid ""
 "Under 'Reverb Settings', click the ``+`` icon, enter the zone name from "
 "step 4, and define the reverb levels for the zone."
 msgstr ""
+"Debajo de \"Reverb Settings\", haz click en el ícono ``+``, ingresa el "
+"nombre de la zona del paso 4 y define los niveles de reverberación para la "
+"zona."
 
 #: ../../source/host/configure-settings/audio-settings.rst:42
 #: ../../source/host/maintain-domain/backup-domain.rst:26
 msgid "Save your domain settings."
-msgstr ""
+msgstr "Guarda la configuración de tu dominio."
 
 #: ../../source/host/configure-settings/audio-settings.rst:46
 msgid "Audio Threading and Buffers"
-msgstr ""
+msgstr "Subprocesos de Audio y Búferes"
 
 #: ../../source/host/configure-settings/audio-settings.rst:48
 msgid ""
@@ -1416,12 +1494,19 @@ msgid ""
 "determine the number of threads the audio mixer uses to process audio, "
 "and when to throttle or buffer a heavy-loaded system."
 msgstr ""
+"Las secciones de \"Audio Threading\" y \"Audio Buffer\" de la configuración "
+"del dominio definen la configuración del servidor para el mezclador de "
+"audio. Aquí, puedes determinar la cantidad de subprocesos que utiliza el "
+"mezclador de audio para procesar el audio y cuándo acelerar o almacenar en "
+"búfer un sistema con mucha carga."
 
 #: ../../source/host/configure-settings/audio-settings.rst:50
 msgid ""
 "These are advanced domain server settings. Do not modify without prior "
 "technical knowledge of servers."
 msgstr ""
+"Estas son configuraciones avanzadas del servidor de dominio. No modificar "
+"sin conocimientos técnicos previos de servidores."
 
 #: ../../source/host/configure-settings/authentication-setting.rst:5
 msgid ""
@@ -1430,20 +1515,29 @@ msgid ""
 "modify your domain settings will need the username and password to make "
 "changes."
 msgstr ""
+"Agrega autenticación (es decir, un nombre de usuario y una contraseña) para "
+"proteger la configuración de tu dominio de ser modificada por usuarios no "
+"autorizados. Cualquier persona que intente modificar la configuración de tu "
+"dominio necesitará el nombre de usuario y la contraseña para realizar "
+"cambios."
 
 #: ../../source/host/configure-settings/authentication-setting.rst:7
 msgid "To set up and/or change the authentication for your domain settings:"
 msgstr ""
+"Para configurar y/o cambiar la autenticación para la configuración de tu "
+"dominio:"
 
 #: ../../source/host/configure-settings/authentication-setting.rst:15
 msgid "Scroll to 'Security'."
-msgstr ""
+msgstr "Desplázate a \"Security\"."
 
 #: ../../source/host/configure-settings/authentication-setting.rst:16
 msgid ""
 "For 'HTTP Username' and 'HTTP Password', enter a username and password "
 "for basic HTTP authentication."
 msgstr ""
+"Para \"HTTP Username\" y \"HTTP Password\", ingresa un nombre de usuario y "
+"una contraseña para la autenticación HTTP básica."
 
 #: ../../source/host/configure-settings/authentication-setting.rst:18
 msgid ""
@@ -1451,10 +1545,13 @@ msgid ""
 "account, and is used only to access the settings for this specific cloud "
 "domain."
 msgstr ""
+"Este nombre de usuario y contraseña no están conectados de ninguna manera a "
+"tu cuenta de Metaverso y se usan solo para acceder a la configuración de "
+"este dominio de nube específico."
 
 #: ../../source/host/configure-settings/authentication-setting.rst:20
 msgid "Re-enter your password into 'Verify HTTP Password'."
-msgstr ""
+msgstr "Vuelve a ingresar tu contraseña en \"Verify HTTP Password\"."
 
 #: ../../source/host/configure-settings/entity-filters.rst:5
 msgid ""
