@@ -4,40 +4,43 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-05-11 15:57+0000\n"
+"Last-Translator: Nakkie <z.kanie@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/script/ja/>\n"
+"Language: jp\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/script.rst:9
 #: ../../source/script/get-started-with-scripting.rst:3
 msgid "Get Started with Scripting"
-msgstr ""
+msgstr "スクリプトをはじめよう"
 
 #: ../../source/script.rst:9 ../../source/script/write-scripts.md:1
 msgid "Write Your Own Scripts"
-msgstr ""
+msgstr "スクリプトを作成する"
 
 #: ../../source/script.rst:9
 msgid "JavaScript Tips and Tricks"
-msgstr ""
+msgstr "JavaScriptのヒントとテクニック"
 
 #: ../../source/script.rst:9 ../../source/script/interface-scripts.md:1
 msgid "Interface Scripts"
-msgstr ""
+msgstr "インターフェイススクリプト"
 
 #: ../../source/script.rst:9 ../../source/script/assignment-client-scripts.md:1
 msgid "Assignment Client Scripts"
-msgstr ""
+msgstr "割り当てクライアントスクリプト"
 
 #: ../../source/script.rst:9 ../../source/script/avatar-scripts.md:1
 msgid "Avatar Scripts"
@@ -65,6 +68,8 @@ msgid ""
 "things: creating content, moving your avatar, playing audio at a specific"
 " location, wearing an avatar attachment, and much more."
 msgstr ""
+"Vircadiaでは、コンテンツの作成、アバターの移動、特定の場所での音声再生、アバターの装着など、さまざまなことでスクリプト（JavaScript）を使"
+"っています。"
 
 #: ../../source/script.rst:7
 msgid ""
@@ -383,7 +388,7 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:10
 #: ../../source/script/midi-tutorial.rst:12
 msgid "On This Page"
-msgstr ""
+msgstr "コンテンツ"
 
 #: ../../source/script/get-started-with-scripting.rst:14
 msgid "JavaScript Basics in Vircadia"
@@ -2170,4 +2175,3 @@ msgstr ""
 #~ "Window' in High Fidelity. ![](_images"
 #~ "/hello-world.png)"
 #~ msgstr ""
-

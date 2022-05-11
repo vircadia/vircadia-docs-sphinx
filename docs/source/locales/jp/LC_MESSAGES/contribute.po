@@ -4,29 +4,32 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-25 04:52+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-05-11 15:57+0000\n"
+"Last-Translator: Nakkie <z.kanie@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/contribute/ja/>\n"
+"Language: jp\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/contribute.rst:3
 msgid "Contribute"
-msgstr ""
+msgstr "貢献する"
 
 #: ../../source/contribute.rst:5
 msgid ""
 "Learn how you can contribute to the project `here "
 "<https://vircadia.com/contribute/>`_."
-msgstr ""
+msgstr "プロジェクトへの貢献方法については、`こちら <https://vircadia.com/contribute/>`を参照してください。"
 
 #~ msgid ""
 #~ "Vircadia is an open-source project, "
@@ -347,4 +350,3 @@ msgstr ""
 #~ "need work done that is outside "
 #~ "their area of expertise."
 #~ msgstr ""
-
