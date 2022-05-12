@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-27 17:25+0000\n"
-"PO-Revision-Date: 2022-05-11 15:57+0000\n"
+"PO-Revision-Date: 2022-05-12 11:58+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/faq/ja/>\n"
@@ -286,6 +286,9 @@ msgid ""
 "icon will tell you whether your headset/microphone is muted. If you're "
 "muted, click the icon to un-mute yourself."
 msgstr ""
+"Windowsの場合、**[コントロールパネル]>[サウンド]>[録音]タブ** に移動します。Vircadiaで使用しているデバイスを選択し、[プロパテ"
+"ィ]をクリックします。[レベル]タブで、ボリュームメーターの横にあるアイコンを確認します。マイクアイコンは、ヘッドセット/マイクがミュートされているかどう"
+"かを示します。ミュートされている場合は、アイコンをクリックしてミュートを解除します。"
 
 #: ../../source/faq.rst:136
 msgid ""
@@ -294,6 +297,8 @@ msgid ""
 "of the way down, then your input device is disabled. Turn up the input "
 "volume to re-enable your microphone."
 msgstr ""
+"Macの場合、**[システム環境設定]>[サウンド]>[入力 ]タブ** に移動します。Vircadiaで使用しているデバイスを選択してください。「入力音"
+"量」を完全に下げると、入力デバイスは無効になります。入力音量を上げて、マイクを再度有効にします。"
 
 #: ../../source/faq.rst:139
 msgid ""
@@ -302,12 +307,16 @@ msgid ""
 " of specific hardware or software capabilities on your computer. Check "
 "your microphone permissions in your operating system settings:"
 msgstr ""
+"**Vircadiaにマイクへのアクセスを許可しましたか？** 一部のオペレーティングシステムでは、コンピューターの特定のハードウェアまたはソフトウェア機"
+"能を利用するために、アプリに明示的なアクセス許可を与える必要があります。オペレーティングシステムの設定でマイクの権限を確認してください。"
 
 #: ../../source/faq.rst:144
 msgid ""
 "On Windows, go to **Settings > Privacy > Microphone**. Make sure that "
 "'Allow desktop apps to access your microphone' is turned on."
 msgstr ""
+"Windowsの場合、 **[設定]>[プライバシー]>[マイク]** "
+"に移動します。[アプリがマイクにアクセスできるようにする]がオンになっていることを確認します。"
 
 #: ../../source/faq.rst:146
 msgid ""
@@ -315,6 +324,8 @@ msgid ""
 " select 'Microphone'. Ensure that the checkbox next to Vircadia is "
 "selected."
 msgstr ""
+"Macの場合、 **[システム環境設定]>[セキュリティとプライバシー]>[プライバシー]** "
+"に移動し、[マイク]を選択します。Vircadiaの横のチェックボックスが選択されていることを確認します。"
 
 #: ../../source/faq.rst:149
 msgid ""
@@ -323,6 +334,8 @@ msgid ""
 "microphone volume needs to be adjusted or boosted. This is done in your "
 "operating system settings:"
 msgstr ""
+"入力デバイスがオンになっており、アプリケーション、デバイス、またはオペレーティングシステムでミュートになっていない場合、マイクの音量を調整またはブーストす"
+"ることが必要な場合があります。これは、オペレーティングシステムの設定で行います。"
 
 #: ../../source/faq.rst:153
 msgid ""
@@ -330,30 +343,36 @@ msgid ""
 "device you are using with Vircadia and click 'Properties'. On the "
 "'Levels' tab, adjust the 'Microphone Level' and/or 'Microphone Boost'."
 msgstr ""
+"Windowsの場合、**[コントロールパネル]>[サウンド]>[録音 ]タブ** に移動します。Vircadiaで使用しているデバイスを選択し、[プロパ"
+"ティ]をクリックします。[レベル]タブで、[マイクレベル]または[マイクブースト]、あるいはその両方を調整します。"
 
 #: ../../source/faq.rst:156
 msgid ""
 "On Mac, go to **System Preferences > Sound > Input** tab. Choose the "
 "device you are using with Vircadia and adjust the 'Input volume'."
 msgstr ""
+"Macの場合、**[システム環境設定]>[サウンド]>[入力 ]タブ** "
+"に移動します。Vircadiaで使用しているデバイスを選択し、「入力音量」を調整します。"
 
 #: ../../source/faq.rst:163
 msgid "I can't hear anything in Vircadia."
-msgstr ""
+msgstr "Vircadiaアプリから何も聞こえません。"
 
 #: ../../source/faq.rst:165
 msgid "Here are some reasons you might not have audio:"
-msgstr ""
+msgstr "音声がない理由は次のとおりです。"
 
 #: ../../source/faq.rst:167
 msgid "Your headset or speakers are turned off."
-msgstr ""
+msgstr "ヘッドセットまたはスピーカーの電源がオフになっている。"
 
 #: ../../source/faq.rst:168
 msgid ""
 "Your headset or speakers may be muted or disabled by your operating "
 "system. Check your operating system's output device settings:"
 msgstr ""
+"お使いのオペレーティングシステムによって、ヘッドセットまたはスピーカーがミュートされているか、無効になっている可能性があります。お使いのオペレーティングシ"
+"ステムの出力デバイスの設定を確認してください。"
 
 #: ../../source/faq.rst:171
 msgid ""
@@ -361,6 +380,8 @@ msgid ""
 "device. The speaker icon will tell you whether or not your headset or "
 "speakers are disabled. Click the icon to un-mute yourself."
 msgstr ""
+"Windowsの場合、タスクバーのボリュームアイコンをクリックし、オーディオデバイスを選択します。スピーカーのアイコンをクリックすると、ヘッドセットまたは"
+"スピーカーが無効になっているかどうかが表示されます。アイコンをクリックすると、ミュートが解除されます。"
 
 #: ../../source/faq.rst:174
 msgid ""
@@ -368,12 +389,14 @@ msgid ""
 "device you are using with Vircadia. At the bottom of the dialog, uncheck "
 "'Mute' to un-mute yourself."
 msgstr ""
+"Macの場合、**[システム環境設定]>[サウンド]>[出力]タブ** "
+"に移動します。Vircadiaで使用しているデバイスを選択してください。ダイアログの下部にある[ミュート]のチェックを外して、自分のミュートを解除します。"
 
 #: ../../source/faq.rst:176
 msgid ""
 "Your headset or speakers have a volume control of their own. Check that "
 "the volume is turned up on the device."
-msgstr ""
+msgstr "ヘッドセットやスピーカーには、それ自体の音量調節機能があります。機器のボリュームが上がっていることを確認してください。"
 
 #: ../../source/faq.rst:178
 msgid ""
@@ -381,12 +404,14 @@ msgid ""
 "want to use. Open the **Audio** app and make sure the right headset, "
 "speakers, and/or microphone are selected."
 msgstr ""
+"Vircadiaでは、使用したいオーディオデバイスとは別のデバイスが選択されています。**オーディオアプリ** "
+"を開き、正しいヘッドセット、スピーカー、マイクが選択されていることを確認してください。"
 
 #: ../../source/faq.rst:180
 msgid ""
 "Volume is turned down or off in Vircadia. Open the **Audio** app and "
 "check your volume settings."
-msgstr ""
+msgstr "Vircadiaで音量が小さくなっている、またはオフになっている。**オーディオアプリ** を開き、音量設定を確認してください。"
 
 #: ../../source/faq.rst:187
 msgid "I have a problem with Vircadia on Windows with my AMD graphics card."
