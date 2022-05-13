@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-05-11 15:57+0000\n"
+"PO-Revision-Date: 2022-05-13 12:09+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/ja/>\n"
@@ -114,6 +114,8 @@ msgid ""
 " You can get your 3D model by creating your own or sourcing it "
 "externally. We only support 3D models in the OBJ, FBX, and glTF formats."
 msgstr ""
+"3Dモデルとは、噴水、城、コーヒーカップなど、vircadiae世界（インワールド）で見たいオブジェクトを表現した:doc:`エンティティ<entitie"
+"s>`です。3Dモデルは、自分で作成するか、外部で調達することができます。3Dモデルは、OBJ、FBX、glTFの各フォーマットのみサポートしています。"
 
 #: ../../source/create/3d-models.rst:7
 msgid ""
@@ -122,17 +124,19 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light as they would (approximately) in real life."
 msgstr ""
+"3Dモデルの外観はマテリアルによって制御されます。Vircadiaでサポートされているマテリアルは、物理ベースレンダリング（PBR）マテリアルです。これは"
+"、3Dモデルのマテリアルが実際の生活と同じように（おおよそ）光を反射したり吸収したりすることを意味します。"
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**セクション**"
 
 #: ../../source/create/3d-models/get-model.rst:5
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Vircadia."
-msgstr ""
+msgstr "3DモデルはすべてFBX、glTF、OBJのいずれかのフォーマットで、Vircadiaがサポートするマテリアルを持つ必要があります。"
 
 #: ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -160,7 +164,7 @@ msgstr "コンテンツ"
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
-msgstr ""
+msgstr "3Dコンテンツストアから3Dモデルを入手する"
 
 #: ../../source/create/3d-models/get-model.rst:14
 msgid ""
@@ -168,6 +172,8 @@ msgid ""
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
 " models from such sites:"
 msgstr ""
+"オンライン3Dコンテンツのウェブサイトには、購入したり無料で入手できるモデルが多数掲載されています。このようなサイトから3Dモデルを調達する際には、以下の"
+"点に注意してください。"
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -175,6 +181,8 @@ msgid ""
 "before you use it. It is your responsibility to ensure that you have "
 "sufficient rights to use the content."
 msgstr ""
+"**ライセンス条項を確認する** 使用する前に、モデルのライセンス条項を必ず確認してください。コンテンツを使用するための十分な権利を有しているかどうかは、"
+"お客様の責任においてご確認ください。"
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -183,6 +191,8 @@ msgid ""
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
 msgstr ""
+"Vircadiaサーバーで3Dモデルを利用できるようにすると、訪問者はウェブサイト上で画像を見るときと同じように、それらのファイルへのリンクを取得すること"
+"になります。3Dコンテンツを再配布する権利を持っていることを認識する必要があります。"
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -190,6 +200,7 @@ msgid ""
 "textures. If that happens, first check to see if the textures are "
 "included."
 msgstr ""
+"**マテリアルを確認する** モデルのテクスチャが欠落している場合があります。そのような場合は、まずテクスチャが含まれているかどうかを確認します。"
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -197,20 +208,22 @@ msgid ""
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
+"モデルがVircadiaにロードされ、正しく表示されない場合、インターフェースログにエラー情報を見つけることができるかもしれません。こちらを参照ください "
+"`インターフェイスログファイルはどこにありますか？ <../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
-msgstr ""
+msgstr "3Dモデルを作成する"
 
 #: ../../source/create/3d-models/get-model.rst:26
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
-msgstr ""
+msgstr "BlenderやMayaなどの3Dモデリングソフトを使用して、ご自身の3Dモデルを作成することができます。お好きなソフトをお使いください。"
 
 #: ../../source/create/3d-models/get-model.rst:28
 msgid "The 3D model is in the FBX, glTF or OBJ format."
-msgstr ""
+msgstr "3Dモデルは、FBX、glTF、OBJのいずれかの形式です。"
 
 #: ../../source/create/3d-models/get-model.rst:29
 msgid ""
@@ -218,16 +231,18 @@ msgid ""
 " guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
+"3DモデルマテリアルはVircadiaでサポートされています。:doc:`マテリアルガイド <pbr-materials-"
+"guide>`を使用して、マテリアルが正しく読み込まれることを確認してください。"
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
-msgstr ""
+msgstr "ベストプラクティス"
 
 #: ../../source/create/3d-models/get-model.rst:35
 msgid ""
 "Making 3D models for Vircadia (and VR) is different than making models "
 "for films, videos, and games."
-msgstr ""
+msgstr "Vircadia（およびVR）用の3Dモデルを作ることは、映画やビデオ、ゲーム用のモデルを作ることとは異なります。"
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
@@ -235,6 +250,7 @@ msgid ""
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
 msgstr ""
+"VR用の3Dモデルは2回レンダリングされます（右目用と左目用の両方）。つまり、モデルのポリゴン数や使用するマテリアルの数がパフォーマンスに影響します。"
 
 #: ../../source/create/3d-models/get-model.rst:38
 msgid ""
@@ -243,12 +259,14 @@ msgid ""
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
 msgstr ""
+"ほとんどのVRヘッドセットは90Hz以上で動作します。フレームレートを90fpsに保ち、モデルのサイズに注意する必要があります。大きすぎるモデルや非常に複"
+"雑なモデルは、フレームレートを低下させ、不自然な動きになる可能性があります。"
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid ""
 "We've listed the best practices for creating 3D models for Vircadia (and "
 "VR)."
-msgstr ""
+msgstr "Vircadia（およびVR）用の3Dモデルを作成するためのベストプラクティスをリストアップしました。"
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -259,15 +277,15 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 msgid "Property"
-msgstr ""
+msgstr "プロパティ"
 
 #: ../../source/create/3d-models/get-model.rst:43
 msgid "Best Practice"
-msgstr ""
+msgstr "ベストプラクティス"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid "Polycount"
-msgstr ""
+msgstr "ポリカウント"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid ""
@@ -275,24 +293,27 @@ msgid ""
 "high, but not too low either. For example 50000 Polygons should be more "
 "than enough for a detailed avatar."
 msgstr ""
+"タブレットゲーム用のモデルのように、多すぎず少なすぎずでお願いします。例えば、5万ポリゴンは、詳細なアバターには十分すぎるほどの精度があります。"
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
-msgstr ""
+msgstr "エッジループ"
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Remove edge loops that are not needed."
-msgstr ""
+msgstr "不要なエッジループを削除する。"
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid "Mesh"
-msgstr ""
+msgstr "メッシュ"
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid ""
 "Clean the mesh to make sure there are no N-gons and no coplanar faces. "
 "Any good 3D modelling software should do this on export."
 msgstr ""
+"メッシュをきれいにして、Nゴンやコプレーナーフェースがないことを確認します。優れた3Dモデリングソフトウェアであれば、エクスポート時にこの作業を行うはずで"
+"す。"
 
 #: ../../source/create/3d-models/get-model.rst:54
 msgid ""
