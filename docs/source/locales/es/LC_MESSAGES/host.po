@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-05-07 16:19+0000\n"
+"PO-Revision-Date: 2022-05-15 13:12+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -1559,10 +1559,13 @@ msgid ""
 " modifications to entities in your domain. They can be applied to a whole"
 " server or to specific zones within a domain."
 msgstr ""
+"Los Filtros de Entidades son funciones especializadas de JavaScript que "
+"evitan modificaciones no deseadas en las entidades de tu dominio. Se pueden "
+"aplicar a un servidor completo o a zonas específicas dentro de un dominio."
 
 #: ../../source/host/configure-settings/entity-filters.rst:13
 msgid "Add an Entity Filter to Your Domain"
-msgstr ""
+msgstr "Añade un Filtro de Entidad a Tu Dominio"
 
 #: ../../source/host/configure-settings/entity-filters.rst:15
 msgid ""
@@ -1571,28 +1574,36 @@ msgid ""
 "own), upload it to your ATP server or a cloud hosting service of your "
 "choice. Then:"
 msgstr ""
+"Tu dominio puede conectarse a cualquier filtro de entidad que esté alojado "
+"en tu Servidor de Activos o en la nube. Una vez que hayas escrito un script ("
+"o uses uno propio), cárgalo en tu servidor ATP o en un servicio de "
+"alojamiento en la nube de tu elección. Entonces:"
 
 #: ../../source/host/configure-settings/entity-filters.rst:23
 msgid "On the top menu bar, select **Content > Entities**."
-msgstr ""
+msgstr "En la barra de menú superior, selecciona **Content > Entities**."
 
 #: ../../source/host/configure-settings/entity-filters.rst:24
 msgid "Click the 'Advanced Settings' button."
-msgstr ""
+msgstr "Haz click en el botón \"Advanced Settings\"."
 
 #: ../../source/host/configure-settings/entity-filters.rst:25
 msgid "Under 'Filter Entity Edits', enter the URL of your entity filter script."
 msgstr ""
+"Debajo de \"Filter Entity Edits\", ingresa la URL de tu script de filtro de "
+"entidad."
 
 #: ../../source/host/configure-settings/entity-filters.rst:30
 msgid "Add an Entity Filter to a Zone in Your Domain"
-msgstr ""
+msgstr "Añade un Filtro de Entidad a una Zona en Tu Dominio"
 
 #: ../../source/host/configure-settings/entity-filters.rst:32
 msgid ""
 "You can choose to apply an entity filter to a specific zone within your "
 "domain, rather than to the entire domain. To do this:"
 msgstr ""
+"Puedes optar por aplicar un filtro de entidad a una zona específica dentro "
+"de tu dominio, en lugar de a todo el dominio. Para hacer esto:"
 
 #: ../../source/host/configure-settings/entity-filters.rst:34
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
@@ -1601,80 +1612,97 @@ msgstr "En la interfaz, trae tu HUD o tableta y ve a **Crear**."
 #: ../../source/host/configure-settings/entity-filters.rst:35
 msgid "In the Entity List, locate and select the zone you want to protect."
 msgstr ""
+"En la Lista de Entidades, busca y selecciona la zona que quieras proteger."
 
 #: ../../source/host/configure-settings/entity-filters.rst:36
 msgid "In the Create Tools, click on the 'Properties' tab."
 msgstr ""
+"En las Herramientas de Creación (Create Tools), haz click en la pestaña "
+"\"Properties\"."
 
 #: ../../source/host/configure-settings/entity-filters.rst:37
 msgid "For 'Filter', enter the URL of your entity filter script."
-msgstr ""
+msgstr "Para \"Filter\", ingresa la URL de tu script de filtro de entidad."
 
 #: ../../source/host/configure-settings/entity-filters.rst:42
 msgid "Included Entity Filters"
-msgstr ""
+msgstr "Filtros de Entidad Incluidos"
 
 #: ../../source/host/configure-settings/entity-filters.rst:44
 msgid ""
 "Vircadia comes installed with a number of sample entity filter scripts. "
 "These are located in the following directories:"
 msgstr ""
+"Vircadia viene instalado con una serie de scripts de filtro de entidades de "
+"muestra. Estos se encuentran en los siguientes directorios:"
 
 #: ../../source/host/configure-settings/entity-filters.rst:46
 msgid ""
 "**Windows:** %Program "
 "Files%/Local/Vircadia/scripts/tutorials/entity_edit_filters"
 msgstr ""
+"**Windows:** %Program Files%/Local/Vircadia/scripts/tutorials/"
+"entity_edit_filters"
 
 #: ../../source/host/configure-settings/entity-filters.rst:47
 msgid ""
 "**Mac:** "
 "~/Applications/Vircadia/interface/Contents/Resources/scripts/tutorials/entity_edit_filters"
 msgstr ""
+"**Mac:** ~/Applications/Vircadia/interface/Contents/Resources/scripts/"
+"tutorials/entity_edit_filters"
 
 #: ../../source/host/configure-settings/entity-filters.rst:49
 msgid ""
 "These sample scripts show you how protect domain content by doing things "
 "like:"
 msgstr ""
+"Estos scripts de muestra te muestran cómo proteger el contenido del dominio "
+"haciendo cosas como:"
 
 #: ../../source/host/configure-settings/entity-filters.rst:51
 msgid "Keep an entity inside a bounding box"
-msgstr ""
+msgstr "Mantener una entidad dentro de un cuadro delimitador"
 
 #: ../../source/host/configure-settings/entity-filters.rst:52
 msgid "Only allow entities to be moved 5 meters or less"
-msgstr ""
+msgstr "Solo permite que las entidades se muevan 5 metros o menos"
 
 #: ../../source/host/configure-settings/entity-filters.rst:53
 msgid "Prevent the addition of entities named \"Bob\""
-msgstr ""
+msgstr "Impedir la adición de entidades denominadas \"Bob\""
 
 #: ../../source/host/configure-settings/entity-filters.rst:54
 msgid "Prevent entities from being deleted"
-msgstr ""
+msgstr "Evitar que se eliminen entidades"
 
 #: ../../source/host/configure-settings/entity-filters.rst:56
 msgid ""
 "Feel free to use these entity filters as-is or modify them to meet your "
 "own security needs for your domain."
 msgstr ""
+"Siéntete libre de usar estos filtros de entidades tal cual o modifícalos "
+"para satisfacer tus propias necesidades de seguridad para tu dominio."
 
 #: ../../source/host/configure-settings/entity-filters.rst:60
 msgid "Additional Script Examples"
-msgstr ""
+msgstr "Ejemplos Adicionales de Scripts"
 
 #: ../../source/host/configure-settings/entity-filters.rst:62
 msgid ""
 "Here are a few more script examples to help you create your own entity "
 "filters::"
 msgstr ""
+"Aquí hay algunos ejemplos de scripts más para ayudarte a crear tus propios "
+"filtros de entidad::"
 
 #: ../../source/host/configure-settings/network-settings.rst:5
 msgid ""
 "The **Metaverse/Networking** section of the Domain Settings defines all "
 "of the network settings for your domain."
 msgstr ""
+"La sección **Metaverse/Networking** de la Configuracion del Dominio define "
+"todas las configuraciones de red para tu dominio."
 
 #: ../../source/host/configure-settings/network-settings.rst:7
 msgid ""
@@ -1684,10 +1712,16 @@ msgid ""
 "concepts (IP, UDP, ports, etc) as changing these settings can impact "
 "visitors or (if you're running a local server) put your system at risk."
 msgstr ""
+"Cambiar cualquier configuración de red afectará la forma en que el Servidor "
+"de Metaverso y los usuarios se conectarán con tu dominio. Antes de realizar "
+"cualquier cambio en la configuración, asegúrate de tener una comprensión "
+"básica de los conceptos de red (IP, UDP, puertos, etc) ya que cambiar esta "
+"configuración puede afectar a los visitantes o (si estás ejecutando un "
+"servidor local) poner en riesgo tu sistema."
 
 #: ../../source/host/configure-settings/network-settings.rst:14
 msgid "Linked Metaverse Account"
-msgstr ""
+msgstr "Cuenta de Metaverso Vinculada"
 
 #: ../../source/host/configure-settings/network-settings.rst:16
 msgid ""
@@ -1697,6 +1731,12 @@ msgid ""
 "groups necessary for domain operations. In addition, you can access your "
 "account-specific settings, such as Place names."
 msgstr ""
+"Cada dominio se puede vincular a una cuenta de Metaverso, que es el "
+"propietario de ese dominio. Cuando vinculas tu cuenta, se crea un token de "
+"acceso OAuth y te otorga acceso a tu cuenta para modificar la configuración "
+"del dominio y acceder a los grupos necesarios para las operaciones del "
+"dominio. Además, puedes acceder a la configuración específica de tu cuenta, "
+"como los Place Names."
 
 #: ../../source/host/configure-settings/network-settings.rst:18
 msgid ""
@@ -1704,10 +1744,14 @@ msgid ""
 "the Metaverse/Networking section of the domain settings. You can also "
 "view your access token on this page (under 'Advanced Options')."
 msgstr ""
+"El estado de tu cuenta de Metaverso vinculada se refleja en la parte "
+"superior de la sección \"Metaverse/Networking\" de la configuración del "
+"dominio. También puedes ver tu token de acceso en esta página (debajo de "
+"\"Advanced Options\")."
 
 #: ../../source/host/configure-settings/network-settings.rst:24
 msgid "Automatic Networking"
-msgstr ""
+msgstr "Red Automática"
 
 #: ../../source/host/configure-settings/network-settings.rst:26
 msgid ""
@@ -1716,10 +1760,14 @@ msgid ""
 "mixer, entity server, asset server, entity script server and messages "
 "mixer."
 msgstr ""
+"La configuración de red automática define cómo otros nodos en el metaverso "
+"se conectan a tu dominio. Estos nodos incluyen el mezclador de avatar, el "
+"mezclador de audio, el servidor de entidades, el servidor de activos, el "
+"servidor de scripts de entidades y el mezclador de mensajes."
 
 #: ../../source/host/configure-settings/network-settings.rst:28
 msgid "Choose from the following automatic networking options:"
-msgstr ""
+msgstr "Elije entre las siguientes opciones de red automática:"
 
 #: ../../source/host/configure-settings/network-settings.rst:30
 msgid ""
@@ -1727,6 +1775,9 @@ msgid ""
 "your domain. They are never automatically updated, and your domain must "
 "be reachable at the address and port you set."
 msgstr ""
+"**None**: La dirección de red y el puerto que se muestran se utilizarán para "
+"conectar tu dominio. Nunca se actualizan automáticamente, y tu dominio debe "
+"estar accesible en la dirección y el puerto que establezcas."
 
 #: ../../source/host/configure-settings/network-settings.rst:31
 msgid ""
@@ -1736,6 +1787,12 @@ msgid ""
 "specified port. This option is recommended for a local server running on "
 "a home network with a dynamically changing public IP address."
 msgstr ""
+"**IP Only**: Tu dominio actualizará la dirección de red que se muestra a lo "
+"que detecte como tu dirección IP actual. El puerto que se muestra no se "
+"cambiará automáticamente, por lo que tu dominio debe estar accesible en el "
+"puerto especificado. Esta opción se recomienda para un servidor local que se "
+"ejecuta en una red doméstica con una dirección IP pública que cambia "
+"dinámicamente."
 
 #: ../../source/host/configure-settings/network-settings.rst:32
 msgid ""
@@ -1744,12 +1801,19 @@ msgid ""
 "punch without needing to make any changes to NAT or firewall settings. "
 "This may not work for all networks."
 msgstr ""
+"**Full**: Tu dominio proporcionará la información de la red a los servidores "
+"de Vircadia, de modo que los nuevos clientes puedan conectarse a través de "
+"perforaciones UDP sin necesidad de realizar ningún cambio en la "
+"configuración de NAT o firewall. Es posible que esto no funcione para todas "
+"las redes."
 
 #: ../../source/host/configure-settings/network-settings.rst:34
 msgid ""
 "Depending on the automatic networking method you choose, define the "
 "network address and/or port in the fields provided."
 msgstr ""
+"Según el método de red automático que elijas, defines la dirección de red y/"
+"o el puerto en los campos proporcionados."
 
 #: ../../source/host/configure-settings/network-settings.rst:36
 msgid ""
@@ -1758,6 +1822,10 @@ msgid ""
 "\"0\" to have your domain select a random port, which will help prevent "
 "port collisions."
 msgstr ""
+"Si tienes la intención de alojar varios dominios en la misma red y router, "
+"asegúrate de configurar cada dominio en un puerto UDP separado. Puedes usar "
+"el valor \"0\" para que tu dominio seleccione un puerto aleatorio, lo que "
+"ayudará a evitar colisiones de puertos."
 
 #: ../../source/host/configure-settings/network-settings.rst:42
 msgid "Networking Details (Advanced)"
