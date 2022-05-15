@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2022-05-11 15:57+0000\n"
+"PO-Revision-Date: 2022-05-15 19:15+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/ja/>\n"
@@ -44,23 +44,23 @@ msgstr "割り当てクライアントスクリプト"
 
 #: ../../source/script.rst:9 ../../source/script/avatar-scripts.md:1
 msgid "Avatar Scripts"
-msgstr ""
+msgstr "アバタースクリプト"
 
 #: ../../source/script.rst:9 ../../source/script/client-entity-scripts.md:1
 msgid "Client Entity Scripts"
-msgstr ""
+msgstr "クライアントエンティティスクリプト"
 
 #: ../../source/script.rst:9 ../../source/script/server-entity-scripts.md:1
 msgid "Server Entity Scripts"
-msgstr ""
+msgstr "サーバーエンティティスクリプト"
 
 #: ../../source/script.rst:9 ../../source/script/midi-tutorial.rst:3
 msgid "Tutorial: Use MIDI to Control Your Environment"
-msgstr ""
+msgstr "チュートリアル：MIDIを使用して環境を制御する"
 
 #: ../../source/script.rst:3
 msgid "Script"
-msgstr ""
+msgstr "スクリプト"
 
 #: ../../source/script.rst:5
 msgid ""
@@ -75,7 +75,7 @@ msgstr ""
 msgid ""
 "Throughout this chapter, learn about the different types of scripts and "
 "how you can use them to create new experiences:"
-msgstr ""
+msgstr "この章全体を通して、さまざまな種類のスクリプトと、それらを使用して新しいエクスペリエンスを作成する方法について学習します。"
 
 #: ../../source/script/assignment-client-scripts.md:3
 msgid ""
@@ -85,6 +85,9 @@ msgid ""
 "script will continue to run until you either remove the script from the "
 "domain or you shut down the domain entirely."
 msgstr ""
+"割り当てクライアント（AC）スクリプト（「永続スクリプト」とも呼ばれます）は、ドメイン内で永続的に実行され、他のスクリプトの影響を受けません。これらのスク"
+"リプトは、インターフェイスとは別の割り当てクライアントで実行されるため、ドメインからスクリプトを削除するか、ドメインを完全にシャットダウンするまで、スクリ"
+"プトは実行され続けます。"
 
 #: ../../source/script/assignment-client-scripts.md:5
 msgid ""
@@ -92,6 +95,7 @@ msgid ""
 "entities and avatars, and add virtual pets to greet visitors to your "
 "domain."
 msgstr ""
+"ACスクリプトを使用すると、エンティティとアバター間のアクションを調整したり、仮想ペットを追加してドメインへの訪問者を迎えたりすることができます。"
 
 #: ../../source/script/assignment-client-scripts.md:7
 #: ../../source/script/avatar-scripts.md:7
@@ -99,26 +103,26 @@ msgstr ""
 #: ../../source/script/interface-scripts.md:7
 #: ../../source/script/server-entity-scripts.md:5
 msgid "**On This Page**"
-msgstr ""
+msgstr "**コンテンツ**"
 
 #: ../../source/script/assignment-client-scripts.md:8
 msgid "[Add an AC Script](#add-an-ac-script)"
-msgstr ""
+msgstr "[ACスクリプトを追加](＃add-an-ac-script)"
 
 #: ../../source/script/assignment-client-scripts.md:9
 msgid "[Example of an AC Script](#example-of-an-ac-script)"
-msgstr ""
+msgstr "[ACスクリプトの例](#example-of-an-ac-script)"
 
 #: ../../source/script/assignment-client-scripts.md:11
 msgid "Add an AC Script"
-msgstr ""
+msgstr "ACスクリプトを追加する"
 
 #: ../../source/script/assignment-client-scripts.md:12
 msgid ""
 "Once you've written and hosted your script, you need to add it to a "
 "domain, either your own or one where you have permissions to run an AC "
 "script."
-msgstr ""
+msgstr "スクリプトを書き、ホスティングしたら、自分のドメインか、ACスクリプトを実行する権限があるドメインにスクリプトを追加する必要があります。"
 
 #: ../../source/script/assignment-client-scripts.md:14
 msgid ""
@@ -126,10 +130,12 @@ msgid ""
 "open it by clicking on the Vircadia icon in the taskbar notifications and"
 " 'click Settings'."
 msgstr ""
+"「ドメイン管理パネル」を開きます。ローカルサンドボックスを使用している場合は、タスクバー通知のVircadiaアイコンをクリックしてサンドボックスを開き、"
+"[設定]をクリックします。"
 
 #: ../../source/script/assignment-client-scripts.md:15
 msgid "From the menu, go to **Content > Scripts**."
-msgstr ""
+msgstr "メニューから、**コンテンツ>スクリプト**を選択します。"
 
 #: ../../source/script/assignment-client-scripts.md:16
 msgid ""
