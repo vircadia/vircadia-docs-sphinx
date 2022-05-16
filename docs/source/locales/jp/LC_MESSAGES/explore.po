@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-05-13 12:09+0000\n"
+"PO-Revision-Date: 2022-05-16 15:10+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/ja/>\n"
@@ -120,7 +120,7 @@ msgstr ""
 #: ../../source/explore/personalize/install-apps.md:101
 #: ../../source/explore/travel.md:40
 msgid "**See Also**"
-msgstr ""
+msgstr "**関連項目**"
 
 #: ../../source/explore/gallery.rst:60
 msgid ":doc:`Install Vircadia <get-started/install>`"

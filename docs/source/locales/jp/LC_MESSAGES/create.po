@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-05-13 12:09+0000\n"
+"PO-Revision-Date: 2022-05-16 15:10+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/ja/>\n"
@@ -687,7 +687,7 @@ msgstr ""
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:71
 #: ../../source/create/wearables.md:41
 msgid "**See Also**"
-msgstr ""
+msgstr "**関連項目**"
 
 #: ../../source/create/3d-models/import-animations.rst:72
 msgid ":doc:`Import Your 3D Model <import-model>`"
@@ -5273,7 +5273,7 @@ msgstr ""
 
 #: ../../source/create/entities/create-entities.md:11
 msgid "In Interface, pull up your tablet or HUD and go to **Create**."
-msgstr ""
+msgstr "インターフェイスにおいて、タブレットまたはHUDをプルアップし、**作成**に移動します。"
 
 #: ../../source/create/entities/create-entities.md:12
 msgid ""

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2022-05-15 19:15+0000\n"
+"PO-Revision-Date: 2022-05-16 15:10+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/ja/>\n"
@@ -147,11 +147,11 @@ msgstr ""
 msgid ""
 "At the top of the page, click 'Save and Restart'. Now, every time you "
 "enter that domain, the AC script will be running."
-msgstr ""
+msgstr "ページの上部にある[保存して再起動]をクリックします。今後は、そのドメインに入るたびに、ACスクリプトが実行されます。"
 
 #: ../../source/script/assignment-client-scripts.md:20
 msgid "Example of an AC Script"
-msgstr ""
+msgstr "ACスクリプトの例"
 
 #: ../../source/script/assignment-client-scripts.md:22
 msgid ""
@@ -159,6 +159,8 @@ msgid ""
 "using Vircadia's "
 "[EntityViewer](https://apidocs.vircadia.dev/EntityViewer.html)."
 msgstr ""
+"次のスクリプトは、Vircadiaの[エンティティビューワ] (https://apidocs.vircadia.dev/EntityViewer."
+"html)を使用してドメインで見つかったエンティティの数をカウントします。"
 
 #: ../../source/script/assignment-client-scripts.md:54
 #: ../../source/script/avatar-scripts.md:78
@@ -169,11 +171,11 @@ msgstr ""
 #: ../../source/script/server-entity-scripts.md:57
 #: ../../source/script/write-scripts.md:74
 msgid "**See Also**"
-msgstr ""
+msgstr "**関連項目**"
 
 #: ../../source/script/assignment-client-scripts.md:56
 msgid "[Configure Your Domain Settings](../host/configure-settings)"
-msgstr ""
+msgstr "[ドメイン設定を構成する](../host/configure-settings)"
 
 #: ../../source/script/assignment-client-scripts.md:57
 #: ../../source/script/avatar-scripts.md:80
@@ -182,7 +184,7 @@ msgstr ""
 #: ../../source/script/server-entity-scripts.md:59
 #: ../../source/script/write-scripts.md:76
 msgid "[Get Started with Scripting](get-started-with-scripting)"
-msgstr ""
+msgstr "[スクリプトをはじめよう](get-started-with-scripting)"
 
 #: ../../source/script/assignment-client-scripts.md:58
 #: ../../source/script/avatar-scripts.md:81
@@ -191,7 +193,7 @@ msgstr ""
 #: ../../source/script/js-tips.md:202
 #: ../../source/script/server-entity-scripts.md:60
 msgid "[Write Your Own Scripts](write-scripts)"
-msgstr ""
+msgstr "[スクリプトを書いてみよう](write-scripts)"
 
 #: ../../source/script/avatar-scripts.md:3
 msgid ""
@@ -201,85 +203,90 @@ msgid ""
 "able to see the script in action, but they will not be able to run the "
 "script themselves."
 msgstr ""
+"アバタースクリプトはアバターにバインドされます。つまり、ユーザーが特定のアバターを身につけたときに実行されます。同様に、アバタースクリプトはアバターが削除"
+"されたり変更されたりすると、実行を停止します。ドメイン内の他のユーザーは、スクリプトの動作を見ることができますが、自分でスクリプトを実行することはできませ"
+"ん。"
 
 #: ../../source/script/avatar-scripts.md:5
 msgid ""
 "With avatar scripts, you can do things like make your hair flow or create"
 " particle clouds around your avatar."
-msgstr ""
+msgstr "アバタースクリプトを使えば、髪をなびかせたり、アバターの周りにパーティクルクラウドを発生させたりすることができます。"
 
 #: ../../source/script/avatar-scripts.md:9
 msgid "[Add an Avatar Script](#add-an-avatar-script)"
-msgstr ""
+msgstr "[アバタースクリプトの追加](#add-an-avatar-script)"
 
 #: ../../source/script/avatar-scripts.md:10
 msgid "[Example of an Avatar Script](#example-of-an-avatar-script)"
-msgstr ""
+msgstr "[アバタースクリプトの例](#example-of-an-avatar-script)"
 
 #: ../../source/script/avatar-scripts.md:12
 msgid "Add an Avatar Script"
-msgstr ""
+msgstr "アバタースクリプトを追加する"
 
 #: ../../source/script/avatar-scripts.md:13
 msgid ""
 "There are two different ways you can add an avatar script to your FST "
 "file: either by using our Package Model tool or by manually adding the "
 "script."
-msgstr ""
+msgstr "FSTファイルにアバタースクリプトを追加するには、パッケージモデルツールを使用する方法と、手動でスクリプトを追加する方法の2種類があります。"
 
 #: ../../source/script/avatar-scripts.md:15
 msgid "To add an avatar script using the Package Model tools:"
-msgstr ""
+msgstr "パッケージモデルツールを使用してアバタースクリプトを追加するには："
 
 #: ../../source/script/avatar-scripts.md:16
 msgid ""
 "Create a folder called `scripts` in the same location as your FBX, GLB, "
 "or glTF file."
-msgstr ""
+msgstr "FBX、GLB、またはglTFファイルと同じ場所に`scripts`というフォルダを作成します。"
 
 #: ../../source/script/avatar-scripts.md:17
 msgid "Copy your avatar script into this new folder."
-msgstr ""
+msgstr "アバタースクリプトをこの新しいフォルダーにコピーします。"
 
 #: ../../source/script/avatar-scripts.md:18
 msgid "In Interface, go to **Edit > Package Model as .fst**"
-msgstr ""
+msgstr "インターフェイスにおいて、**[編集]>[パッケージモデル]**に移動します"
 
 #: ../../source/script/avatar-scripts.md:19
 msgid ""
 "For 'Script Directory', enter the path to the `scripts` folder you "
 "created above."
-msgstr ""
+msgstr "[スクリプトディレクトリ]には、上記で作成した`scripts`フォルダへのパスを入力します。"
 
 #: ../../source/script/avatar-scripts.md:21
 msgid "To add an avatar script manually:"
-msgstr ""
+msgstr "アバタースクリプトを手動で追加するには："
 
 #: ../../source/script/avatar-scripts.md:22
 msgid "Open the FST file for your avatar in the text editor of your choice."
-msgstr ""
+msgstr "選択したテキストエディタでアバターのFSTファイルを開きます。"
 
 #: ../../source/script/avatar-scripts.md:23
 msgid ""
 "Add a line telling the avatar where to find the script file using the "
 "syntax `script = [SCRIPT URL]`.![](_images/add-script.png)"
 msgstr ""
+"構文`script = [SCRIPT URL]`を使用して、アバターにスクリプトファイルの場所を示す行を追加します。![](_images/add-"
+"script.png)"
 
 #: ../../source/script/avatar-scripts.md:25
 msgid ""
 "You can add multiple scripts to your avatar by adding multiple `script = "
 "url` lines."
-msgstr ""
+msgstr "複数の`script = url`行を追加することで、アバターに複数のスクリプトを追加できます。"
 
 #: ../../source/script/avatar-scripts.md:27
 msgid "Example of an Avatar Script"
-msgstr ""
+msgstr "アバタースクリプトの例"
 
 #: ../../source/script/avatar-scripts.md:29
 msgid ""
 "The following script makes your avatar throw balls when its right hand "
 "moves."
-msgstr ""
+msgstr "次のスクリプトは、右手が動いたときにアバターにボールを投げさせます。"
 
 #: ../../source/script/avatar-scripts.md:76
 msgid ""
@@ -292,6 +299,11 @@ msgid ""
 "[Vec3](https://apidocs.vircadia.dev/Vec3.html) (to determine the right "
 "positions and distances). Add it to your avatar to see how it works."
 msgstr ""
+"このサンプルスクリプトは、[MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html)名前空間を使用して、"
+"アバターの手が動くかどうかを判断します。動きを検出すると、スクリプトはアバターにボールを発射させます。また、[Entities](https://apid"
+"ocs.vircadia.dev/Entities.html)(起動するボールを作成するため)や[Vec3](https://apidocs."
+"vircadia.dev/)などの他の名前も使用します。[Vec3](https://apidocs.vircadia.dev/Vec3.html) "
+"(適切な位置と距離を決定するため)。それをアバターに追加して、どのように機能するかを確認してください。"
 
 #: ../../source/script/avatar-scripts.md:82
 #: ../../source/script/client-entity-scripts.md:48
@@ -299,7 +311,7 @@ msgstr ""
 #: ../../source/script/server-entity-scripts.md:61
 #: ../../source/script/write-scripts.md:79
 msgid "[API Reference](https://apidocs.vircadia.dev)"
-msgstr ""
+msgstr "[APIリファレンス](https://apidocs.vircadia.dev)"
 
 #: ../../source/script/client-entity-scripts.md:3
 msgid ""
@@ -309,63 +321,70 @@ msgid ""
 "will \"preload\" (or run) the script, then \"unload\" (or stop) the "
 "script when the user leaves."
 msgstr ""
+"スクリプトをエンティティに添付することで、Vircadiaのコンテンツをインタラクティブにすることができます。*クライアントエンティティスクリプト*は、各"
+"ユーザーのコンピューターでローカルに実行されるエンティティスクリプトです。ユーザーがエンティティに接触すると、スクリプトが「プリロード」（または実行）され"
+"、ユーザーが離れるときにスクリプトが「アンロード」（または停止）されます。"
 
 #: ../../source/script/client-entity-scripts.md:5
 msgid ""
 "There can be (and typically are) multiple entities in a domain, and each "
 "one can have a different client entity script associated with it."
 msgstr ""
+"ドメインには複数のエンティティが存在する可能性があり（通常は存在します）、各エンティティに異なるクライアントエンティティスクリプトを関連付けることができま"
+"す。"
 
 #: ../../source/script/client-entity-scripts.md:8
 msgid ""
 "[Attach a Client Entity Script to an Entity](#attach-a-client-entity-"
 "script-to-an-entity)"
 msgstr ""
+"[クライアントエンティティスクリプトをエンティティにアタッチする](＃attach-a-client-entity-script-to-an-"
+"entity)"
 
 #: ../../source/script/client-entity-scripts.md:9
 msgid "[Example of a Client Entity Script](#example-of-a-client-entity-script)"
-msgstr ""
+msgstr "[クライアントエンティティスクリプトの例](#example-of-a-client-entity-script)"
 
 #: ../../source/script/client-entity-scripts.md:11
 msgid "Attach a Client Entity Script to an Entity"
-msgstr ""
+msgstr "クライアントエンティティスクリプトをエンティティに添付する"
 
 #: ../../source/script/client-entity-scripts.md:12
 msgid "To attach a client entity script to an entity:"
-msgstr ""
+msgstr "クライアントエンティティスクリプトをエンティティにアタッチするには："
 
 #: ../../source/script/client-entity-scripts.md:13
 #: ../../source/script/server-entity-scripts.md:12
 msgid "In Interface, pull up your tablet or HUD and go to **Create**."
-msgstr ""
+msgstr "インターフェイスにおいて、タブレットまたはHUDをプルアップし、**作成**に移動します。"
 
 #: ../../source/script/client-entity-scripts.md:14
 #: ../../source/script/server-entity-scripts.md:13
 msgid ""
 "Select the entity you'd like to script by either clicking on it in "
 "Interface or finding it in the 'Entity List'."
-msgstr ""
+msgstr "インターフェースでクリックするか、[エンティティリスト]で検索して、スクリプトを作成するエンティティを選択します。"
 
 #: ../../source/script/client-entity-scripts.md:15
 #: ../../source/script/server-entity-scripts.md:14
 msgid ""
 "In the **Create** app, go to the 'Properties' tab and scroll down to the "
 "'Behavior' section."
-msgstr ""
+msgstr "**作成**アプリで、[プロパティ]タブに移動し、[動作]セクションまで下にスクロールします。"
 
 #: ../../source/script/client-entity-scripts.md:16
 msgid "For Script, enter the URL to your client entity script."
-msgstr ""
+msgstr "スクリプトに、クライアントエンティティスクリプトのURLを入力します。"
 
 #: ../../source/script/client-entity-scripts.md:23
 msgid "Example of a Client Entity Script"
-msgstr ""
+msgstr "クライアントエンティティスクリプトの例"
 
 #: ../../source/script/client-entity-scripts.md:24
 msgid ""
 "The following script changes the color of a non-model entity (such as a "
 "box or a sphere) when you click on it:"
-msgstr ""
+msgstr "次のスクリプトは、モデル以外のエンティティ（ボックスや球など）をクリックすると、その色を変更します。"
 
 #: ../../source/script/client-entity-scripts.md:42
 msgid ""
@@ -376,6 +395,10 @@ msgid ""
 "function associated with that click event. In this case, it changes the "
 "entity's color back and forth between yellow and magenta."
 msgstr ""
+"この例は、JavaScriptクラスのプロトタイプ関数として記述されており、マウスイベント[clickDownOnEntity()](https://ap"
+"idocs.vircadia.dev/Entities.html#."
+"sendClickDownOnEntity)を使用しています。ユーザーがエンティティをクリックすると、 `clickDownOnEntity()`がそのク"
+"リックイベントに関連付けられた関数をトリガーします。この場合、エンティティの色が黄色とマゼンタの間で前後に変化します。"
 
 #: ../../source/script/get-started-with-scripting.rst:5
 msgid ""
@@ -384,12 +407,14 @@ msgid ""
 "behavior, you may need to :doc:`write your own scripts <write-scripts>` "
 "to make sure everything works correctly."
 msgstr ""
+"Vircadiaのスクリプトの多くは舞台裏で実行されているため、実行されていることすらわかりません。ただし、高度な動作を作成する場合は、すべてが正しく機能"
+"することを確認するために、:doc:`独自のスクリプト <write-scripts>` を作成する必要があります。"
 
 #: ../../source/script/get-started-with-scripting.rst:7
 msgid ""
 "This page ensures that you know what type of script to use and helps you "
 "get started running your own simple scripts."
-msgstr ""
+msgstr "このページでは、使用するスクリプトの種類を確認し、独自の簡単なスクリプトの実行を開始するのに役立ちます。"
 
 #: ../../source/script/get-started-with-scripting.rst:10
 #: ../../source/script/midi-tutorial.rst:12
