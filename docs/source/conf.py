@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Vircadia Docs'
-copyright = '2019, High Fidelity. © Copyright 2021, Vircadia.'
-author = 'Vircadia Contributors'
+copyright = '2019, High Fidelity. © Copyright 2019-2022, DigiSomni. © Copyright 2019-2022, Vircadia contributors.'
+author = 'Vircadia contributors'
 
 # The short X.Y version
 version = ''
@@ -196,6 +196,6 @@ epub_exclude_files = ['search.html']
 # Variables
 
 rst_prolog = """
-.. |serverdeb| replace:: https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2022.1.0-selene-20211126-aabcdea-0ubuntu1-1_amd64.deb
-.. |serverdebfile| replace:: vircadia-server_2022.1.0-selene-20211126-aabcdea-0ubuntu1-1_amd64.deb
+.. |serverdeb| replace:: https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2022.1.1-selene-20220303-beb7bd4-0ubuntu1-1_amd64.deb
+.. |serverdebfile| replace:: vircadia-server_2022.1.1-selene-20220303-beb7bd4-0ubuntu1-1_amd64.deb
 """

@@ -6,16 +6,23 @@ The Vircadia packages can help you get your own domain up and running quickly.
 
 You can run these same commands on an existing Vircadia domain to upgrade it if the original domain was installed using the package. Packages are currently available for the following distributions:
 
-### Ubuntu Server 18.04 LTS
+### Ubuntu Server 18.04 LTS (2022.1.0 Selene)
 
 ```sh
 wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2022.1.0-selene-20211126-aabcdea-0ubuntu1-1_amd64.deb
 sudo apt-get update && sudo apt-get install ./vircadia-server_2022.1.0-selene-20211126-aabcdea-0ubuntu1-1_amd64.deb
 ```
 
+### Ubuntu Server 20.04 LTS (2022.1.1 Selene) (Preview)
+
+```sh
+wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2022.1.1-selene-20220303-beb7bd4-0ubuntu1-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./vircadia-server_2022.1.1-selene-20220303-beb7bd4-0ubuntu1-1_amd64.deb
+```
+
 ### Unlisted Distribution
 
-If you do not see your distribution listed here, you may compile your own server from source using the [Vircadia builder](https://github.com/vircadia/vircadia-builder).
+If you do not see your distribution listed here, you may compile your own server from source with the [Linux build guide](https://github.com/vircadia/vircadia/blob/master/BUILD_LINUX.md).
 
 ## Configuration
 

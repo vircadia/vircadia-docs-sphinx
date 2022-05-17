@@ -57,18 +57,16 @@ Download Vircadia
 
 * Windows |Windows|
 
-    * `Windows 64-bit - Selene v2022.1.0 Installer <https://cdn.vircadia.com/dist/release/Vircadia-2022.1.0-Selene.exe>`__ |DownloadWI|
+    * `Windows 64-bit - Selene 2022.1.1 Installer <https://github.com/vircadia/vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.exe>`__ |DownloadWI|
     * `Windows 64-bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ |DownloadWL|
 
 * macOS |MacOS|
 
-    * `macOS Intel - Selene v2022.1.0 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-2022.1.0-Selene.dmg>`__ |DownloadM|
+    * `macOS Intel - Selene 2022.1.1 Installer <https://github.com/vircadia/vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.dmg>`__ |DownloadM|
 
 * Linux |Ubuntu|
 
-    * `EU Mirror: Linux amd64 - Selene v2022.1.0 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2022.1.0-Selene.AppImage>`__ |DownloadLEU|
-      (`zsync <http://appimage.moto9000.moe/release/Vircadia-x86_64-release-latest.AppImage.zsync>`__ |DownloadLEUZ|)
-    * `US Mirror: Linux amd64 - Selene v2022.1.0 AppImage <https://cdn.vircadia.com/dist/release/Vircadia-x86_64_v2022.1.0-Selene.AppImage>`__ |DownloadLUS|
+    * `Linux amd64 - Selene 2022.1.1 AppImage <https://github.com/vircadia/vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.AppImage>`__ |DownloadLUS|
 
 If you intend to use Vircadia in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Vircadia.
 VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
@@ -86,7 +84,7 @@ VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
 .. |DownloadWI| image:: _images/remixicon/download-2-fill.svg
               :class: inline
               :width: 20
-              :target: https://cdn.vircadia.com/dist/release/Vircadia-2022.1.0-Selene.exe
+              :target: https://github.com/vircadia/vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.exe
 
 .. |DownloadWL| image:: _images/remixicon/download-2-fill.svg
               :class: inline
@@ -96,22 +94,12 @@ VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
 .. |DownloadM| image:: _images/remixicon/download-2-fill.svg
               :class: inline
               :width: 20
-              :target: https://cdn.vircadia.com/dist/release-experimental/Vircadia-2022.1.0-Selene.dmg
-
-.. |DownloadLEU| image:: _images/remixicon/download-2-fill.svg
-              :class: inline
-              :width: 20
-              :target: https://appimage.moto9000.moe/release/Vircadia-x86_64_v2022.1.0-Selene.AppImage
-
-.. |DownloadLEUZ| image:: _images/remixicon/refresh-fill.svg
-              :class: inline
-              :width: 20
-              :target: http://appimage.moto9000.moe/release/Vircadia-x86_64-release-latest.AppImage.zsync
+              :target: https://github.com/vircadia/vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.dmg
 
 .. |DownloadLUS| image:: _images/remixicon/download-2-fill.svg
               :class: inline
               :width: 20
-              :target: https://cdn.vircadia.com/dist/release/Vircadia-x86_64_v2022.1.0-Selene.AppImage
+              :target: https://github.com/vircadia/vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.AppImage
 
 
 ---------------------------------
