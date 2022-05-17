@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2022-05-17 04:31+0000\n"
+"PO-Revision-Date: 2022-05-17 17:39+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/ja/>\n"
@@ -811,6 +811,8 @@ msgid ""
 "Add your script to this file to make it run with other default scripts. "
 "Ensure the folder path to your script is correct."
 msgstr ""
+"このファイルにあなたのスクリプトを追加して、他のデフォルトスクリプトと一緒に実行できるようにします。スクリプトのフォルダパスが正しいことを確認してください"
+"。"
 
 #: ../../source/script/get-started-with-scripting.rst:156
 msgid ""
@@ -819,10 +821,12 @@ msgid ""
 "the file will be overwritten. You can avoid this by writing and running a"
 " 'loader' script to load scripts on start up."
 msgstr ""
+"[defaultScripts.js]ファイルは、インターフェイスを最新のリリースバージョンに更新するたびに更新されます。これは、ファイルに加えた変更がす"
+"べて上書きされることを意味します。これを回避するには、[ローダー]スクリプトを記述して実行し、起動時にスクリプトをロードします。"
 
 #: ../../source/script/get-started-with-scripting.rst:160
 msgid "Scripting Console"
-msgstr ""
+msgstr "スクリプトコンソール"
 
 #: ../../source/script/get-started-with-scripting.rst:162
 msgid ""
@@ -832,10 +836,13 @@ msgid ""
 "is not visible, first go to the 'Settings' menu and click 'Developer' "
 "Menu."
 msgstr ""
+"スクリプトコンソールを使用すると、Vircadiaで短いスクリプトスニペットをすばやくテストして実行し、それらがどのように機能するかを確認できます。コンソ"
+"ールを開くには、[開発者]メニューに移動し、**[スクリプト]>[コンソール]**に移動します。[開発者]メニューが表示されていない場合は、最初に[設定]"
+"メニューに移動し、[開発者]メニューをクリックします。"
 
 #: ../../source/script/get-started-with-scripting.rst:168
 msgid "Debug Window"
-msgstr ""
+msgstr "デバッグ画面"
 
 #: ../../source/script/get-started-with-scripting.rst:170
 msgid ""
@@ -847,30 +854,34 @@ msgid ""
 "**Scripting > Script Log** (HMD Friendly). If the Developer menu is not "
 "visible, first go to the 'Settings' menu and click 'Developer' Menu."
 msgstr ""
+"デバッグウィンドウには、実行中のスクリプトによって生成された出力が表示されます。これにより、スクリプトの動作を監視し、スクリプトが意図したとおりに実行され"
+"ていることを確認できます。スクリプトが失敗した場合、デバッガーは何が問題だったかを特定し、エラーが発生した特定のコード行を示すのに役立ちます。デバッグウィ"
+"ンドウを開くには、[開発者]メニューに移動し、[**スクリプト]> [スクリプトログ]**（HMD対応）に移動します。開発者メニューが表示されていない場合"
+"は、最初に[設定]メニューに移動し、[開発者]メニューをクリックします。"
 
 #: ../../source/script/get-started-with-scripting.rst:176
 msgid ":doc:`Interface Scripts <interface-scripts>`"
-msgstr ""
+msgstr ":doc:`インターフェイススクリプト <interface-scripts>`"
 
 #: ../../source/script/get-started-with-scripting.rst:177
 msgid ":doc:`Assignment Client Scripts <assignment-client-scripts>`"
-msgstr ""
+msgstr ":doc:`割り当てクライアントスクリプト <assignment-client-scripts>`"
 
 #: ../../source/script/get-started-with-scripting.rst:178
 msgid ":doc:`Avatar Scripts <avatar-scripts>`"
-msgstr ""
+msgstr ":doc:`アバタースクリプト <avatar-scripts>`"
 
 #: ../../source/script/get-started-with-scripting.rst:179
 msgid ":doc:`Client Entity Scripts <client-entity-scripts>`"
-msgstr ""
+msgstr ":doc:`クライアントエンティティスクリプト <client-entity-scripts>`"
 
 #: ../../source/script/get-started-with-scripting.rst:180
 msgid ":doc:`Server Entity Scripts <server-entity-scripts>`"
-msgstr ""
+msgstr ":doc:`サーバーエンティティスクリプト <server-entity-scripts>`"
 
 #: ../../source/script/get-started-with-scripting.rst:181
 msgid ":doc:`Write Your Own Scripts <write-scripts>`"
-msgstr ""
+msgstr ":doc:`独自のスクリプトを作成する <write-scripts>`"
 
 #: ../../source/script/interface-scripts.md:3
 msgid ""
@@ -882,28 +893,34 @@ msgid ""
 "communicate that information to the Entity Server, which will communicate"
 " it to whoever is visiting the domain."
 msgstr ""
+"Interfaceスクリプトは、Interfaceが起動している限り、あなたのローカルマシン上で実行されます。各ユーザーは、インターフェイススクリプトの開"
+"始と停止を完全に制御することができます。結果（スクリプトがボックスの色を変更した場合など）はドメイン内の全員が見ることができますが、スクリプト自体はあなた"
+"のローカルマシンで実行されます。あなたのInterfaceはその情報をEntity Serverに伝え、Entity "
+"Serverはドメインを訪れている人にその情報を伝達します。"
 
 #: ../../source/script/interface-scripts.md:5
 msgid ""
 "With interface scripts, you can do things like add new menus to the "
 "Interface, add plug-ins, or add 3D overlays that you have control over."
 msgstr ""
+"インターフェーススクリプトを使うと、インターフェースに新しいメニューを追加したり、プラグインを追加したり、3Dオーバーレイを追加したりと、自分でコントロー"
+"ルすることができます。"
 
 #: ../../source/script/interface-scripts.md:8
 msgid "[Load an Interface Script](#load-an-interface-script)"
-msgstr ""
+msgstr "[インターフェイススクリプトをロードする](#load-an-interface-script)"
 
 #: ../../source/script/interface-scripts.md:9
 msgid "[Example of an Interface Script](#example-of-an-interface-script)"
-msgstr ""
+msgstr "[インターフェイススクリプトの例](#example-of-an-interface-script)"
 
 #: ../../source/script/interface-scripts.md:11
 msgid "Load an Interface Script"
-msgstr ""
+msgstr "インターフェイススクリプトのロード"
 
 #: ../../source/script/interface-scripts.md:13
 msgid "To load and run an interface script:"
-msgstr ""
+msgstr "インターフェイススクリプトをロードして実行するには："
 
 #: ../../source/script/interface-scripts.md:14
 msgid ""
@@ -911,20 +928,22 @@ msgid ""
 "class=\"keyboard\">Ctrl</kbd> + <kbd class=\"keyboard\">J</kbd> on your "
 "keyboard."
 msgstr ""
+"インターフェイスで、**[編集]>[スクリプトの実行]**に移動するか、キーボードから <kbd class=\"keyboard\">Ctrl</"
+"kbd> + <kbd class=\"keyboard\">J</kbd>を押します。"
 
 #: ../../source/script/interface-scripts.md:18
 msgid "Example of an Interface Script"
-msgstr ""
+msgstr "インターフェイススクリプトの例"
 
 #: ../../source/script/interface-scripts.md:20
 msgid ""
 "The following script automatically enters a first person perspective when"
 " you enter VR mode with a HMD."
-msgstr ""
+msgstr "次のスクリプトは、HMDでVRモードに入ると、自動的に一人称視点になります。"
 
 #: ../../source/script/js-tips.md:1
 msgid "JavaScript Tips & Tricks"
-msgstr ""
+msgstr "JavaScriptのヒントとコツ"
 
 #: ../../source/script/js-tips.md:3
 msgid ""
@@ -933,6 +952,8 @@ msgid ""
 "We've compiled some advanced JavaScript tips you can use while scripting "
 "for Vircadia."
 msgstr ""
+"Vircadiaの堅牢な[JavaScriptAPI](https://apidocs.vircadia.dev)は、VRで優れたコンテンツとユーザーエク"
+"スペリエンスを構築するためのツールを提供します。Vircadiaのスクリプト作成中に使用できる高度なJavaScriptのヒントをいくつかまとめました。"
 
 #: ../../source/script/js-tips.md:5
 msgid ""
@@ -940,50 +961,52 @@ msgid ""
 "scripting.html#scripting-console) to try out the examples on this page. "
 "The output will be visible in the console itself."
 msgstr ""
+"[インターフェイスのスクリプトコンソール](get-started-with-scripting.html＃scripting-"
+"console)を使用して、このページの例を試すことができます。出力はコンソール上に表示されます。"
 
 #: ../../source/script/js-tips.md:7 ../../source/script/write-scripts.md:12
 msgid "**On This Page:**"
-msgstr ""
+msgstr "**コンテンツ**"
 
 #: ../../source/script/js-tips.md:9
 msgid "[Compute 3D Math Operations](#compute-3d-math-operations)"
-msgstr ""
+msgstr "[3次元数学演算の計算](#compute-3d-math-operations)"
 
 #: ../../source/script/js-tips.md:10
 msgid "[Get Your Avatar's Position](#get-your-avatars-position)"
-msgstr ""
+msgstr "[アバターの位置を取得](#get-your-avatars-position)"
 
 #: ../../source/script/js-tips.md:11
 msgid "[Get Your Avatar's Orientation](#get-your-avatars-orientation)"
-msgstr ""
+msgstr "[アバターの向きを取得](#get-your-avatars-orientation)"
 
 #: ../../source/script/js-tips.md:12
 msgid ""
 "[Get the Direction Your Avatar is Facing](#get-the-direction-your-avatar-"
 "is-facing)"
-msgstr ""
+msgstr "[アバターの向きの取得](#get-the-direction-your-avatar-is-facing)"
 
 #: ../../source/script/js-tips.md:13
 msgid ""
 "[Make an Entity Appear Before Your Avatar](#make-an-entity-appear-before-"
 "your-avatar)"
-msgstr ""
+msgstr "[アバターの前のエンティティ表示](#make-an-entity-appear-before-your-avatar)"
 
 #: ../../source/script/js-tips.md:14
 msgid "[Include External JS and JSON Files](#include-external-js-and-json-files)"
-msgstr ""
+msgstr "[外部JS、JSONファイルのインクルード](#include-external-js-and-json-files)"
 
 #: ../../source/script/js-tips.md:15
 msgid "[Equip an Item](#equip-an-item)"
-msgstr ""
+msgstr "[アイテムの装備](#equip-an-item)"
 
 #: ../../source/script/js-tips.md:16
 msgid "[Connect a Signal to a Function](#connect-a-signal-to-a-function)"
-msgstr ""
+msgstr "[シグナルと機能の接続](#connect-a-signal-to-a-function)"
 
 #: ../../source/script/js-tips.md:18
 msgid "Compute 3D Math Operations"
-msgstr ""
+msgstr "3次元数学演算の計算"
 
 #: ../../source/script/js-tips.md:20
 msgid ""
@@ -993,40 +1016,49 @@ msgid ""
 " to determine position and orientation information of avatars, you can "
 "use the following namespaces in our JavaScript API:"
 msgstr ""
+"VircadiaのようなVRワールドでスクリプトを書く場合、インワールドの3Dオブジェクトやアバターの位置や向きを計算するために、3Dの数学演算が必要にな"
+"ります。単純に2つのベクトルを足すだけでは不十分です。3D数学演算のスクリプトや、アバターの位置や向きの情報を求めるには、JavaScript API "
+"の以下の名前空間を利用できます。"
 
 #: ../../source/script/js-tips.md:22
 msgid ""
 "[Vec3](https://apidocs.vircadia.dev/Vec3.html): The Vec3 API has "
 "facilities for generating and manipulating 3-dimensional vectors."
 msgstr ""
+"[Vec3](https://apidocs.vircadia.dev/Vec3.html):Vec3 "
+"APIには、3次元ベクトルを生成および操作するための機能があります。"
 
 #: ../../source/script/js-tips.md:23
 msgid ""
 "[Quat](https://apidocs.vircadia.dev/Quat.html): The Quat API provides "
 "facilities for generating and manipulating quaternions."
 msgstr ""
+"[Quat](https://apidocs.vircadia.dev/Quat.html): Quat "
+"APIは、四元数を生成・操作するための機能を提供します。"
 
 #: ../../source/script/js-tips.md:24
 msgid ""
 "[MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html): The MyAvatar API "
 "provides facilities for manipulating avatars."
 msgstr ""
+"[MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html): MyAvatar "
+"APIは、アバターを操作するための機能を提供します。"
 
 #: ../../source/script/js-tips.md:26
 msgid "Get Your Avatar's Position"
-msgstr ""
+msgstr "アバターの位置を取得する"
 
 #: ../../source/script/js-tips.md:28
 msgid ""
 "When creating objects in world, it's often very helpful to know where "
 "your avatar currently is."
-msgstr ""
+msgstr "Vircadia世界でオブジェクトを作成するとき、アバターが現在どこにあるかを知ることはしばしば非常に役に立ちます。"
 
 #: ../../source/script/js-tips.md:30
 msgid ""
 "Vircadia uses a 3D Cartesian coordinate system where the position vector "
 "of an entity or avatar looks like this:"
-msgstr ""
+msgstr "Vircadiaは3次元直交座標系を使用しており、エンティティやアバターの位置ベクトルはこのようになります。"
 
 #: ../../source/script/js-tips.md:36
 msgid ""
@@ -1035,6 +1067,9 @@ msgid ""
 "MyAvatar contains properties with information related to your avatar. Use"
 " the position property, `MyAvatar.position`, which returns an object."
 msgstr ""
+"アバターの現在の位置を取得するには、名前空間を使用[MyAvatar](https://apidocs.vircadia.dev/MyAvatar.htm"
+"l)します。MyAvatarには、アバターに関連する情報を含むプロパティが含まれています。オブジェクトを返すpositionプロパティ`MyAvatar."
+"position`を使用します。"
 
 #: ../../source/script/js-tips.md:38
 msgid ""
@@ -1042,20 +1077,22 @@ msgid ""
 "convert the JavaScript object (returned by `MyAvatar.position`) to a data"
 " string that can be sent over the server."
 msgstr ""
+"次の例では、JSON.stringifyメソッドを使用して、JavaScriptオブジェクト( `MyAvatar."
+"position`によって返される)をサーバー経由で送信できるデータ文字列に変換しています。"
 
 #: ../../source/script/js-tips.md:40
 msgid "Open your Scripting Console and find your avatar's position."
-msgstr ""
+msgstr "スクリプトコンソールを開き、アバターの位置を見つけます。"
 
 #: ../../source/script/js-tips.md:47
 msgid "Get Your Avatar's Orientation"
-msgstr ""
+msgstr "アバターの向きを取得する"
 
 #: ../../source/script/js-tips.md:49
 msgid ""
 "If you want an object to appear in front of you, you need to know how "
 "your avatar is currently oriented in-world."
-msgstr ""
+msgstr "物体を目の前に表示させるには、自分のアバターが現在どのような向きでインワールドにいるか知る必要があります。"
 
 #: ../../source/script/js-tips.md:51
 msgid ""
@@ -1063,20 +1100,22 @@ msgid ""
 "Quaternions help simplify calculations in three dimensional space. They "
 "add an extra dimension of 'w' and the values are normalized (-1,1)."
 msgstr ""
+"回転は、クォータニオンと呼ばれる数体系で処理されます。四元数とは、3次元空間での計算を簡単にするためのものです。四元数では、[w]という次元が追加され、値"
+"は(-1,1)に正規化されます。"
 
 #: ../../source/script/js-tips.md:53
 msgid "Quaternions are represented in the form:"
-msgstr ""
+msgstr "クォータニオンは次の形式で表されます。"
 
 #: ../../source/script/js-tips.md:59
 msgid ""
 "Get your avatar's orientation in the Scripting Console by using the "
 "`MyAvatar.orientation` property:"
-msgstr ""
+msgstr "`MyAvatar.orientation`プロパティを使用して、スクリプトコンソールでアバターの向きを取得します。"
 
 #: ../../source/script/js-tips.md:66
 msgid "Get the Direction Your Avatar is Facing"
-msgstr ""
+msgstr "アバターが向いている方向を取得する"
 
 #: ../../source/script/js-tips.md:68
 msgid ""
@@ -1085,16 +1124,19 @@ msgid ""
 "orientation to `Quat.getForward` to get a vector describing which "
 "direction you are facing on the world axis."
 msgstr ""
+"[Quat](https://apidocs.vircadia.dev/Quat.html) "
+"名前空間を使って、アバターが向いている方向を取得することができます。アバターの向きを `Quat.getForward` "
+"に渡すと、世界軸のどの方向に向いているかを表すベクトルを得ることができます。"
 
 #: ../../source/script/js-tips.md:77
 msgid "Make an Entity Appear Before Your Avatar"
-msgstr ""
+msgstr "アバターの前にエンティティを表示させる"
 
 #: ../../source/script/js-tips.md:79
 msgid ""
 "You can make an entity appear before your avatar and also control the "
 "distance at which it appears."
-msgstr ""
+msgstr "エンティティをアバターの前に表示させたり、表示される距離を制御したりできます。"
 
 #: ../../source/script/js-tips.md:81
 msgid ""
@@ -1102,6 +1144,8 @@ msgid ""
 "direction your avatar is facing to return the position at which you can "
 "make your entity appear. This position is 1m away from your avatar."
 msgstr ""
+"[Vec3](https://apidocs.vircadia.dev/Vec3."
+"html)名前空間とアバターが向いている方向を使用して、エンティティを表示できる位置を返します。この位置はアバターから1m離れています。"
 
 #: ../../source/script/js-tips.md:87
 msgid ""
@@ -1109,22 +1153,24 @@ msgid ""
 "using the default distance of 1m. First, multiply the vector representing"
 " the direction your avatar is facing and the distance."
 msgstr ""
+"また、エンティティを表示する際の距離をデフォルトの1mではなく、コントロールすることができます。まず、アバターが向いている方向と距離を表すベクトルを掛け合"
+"わせます。"
 
 #: ../../source/script/js-tips.md:93
 msgid ""
 "Use `Vec3.sum` to return a new vector representing how far away an entity"
 " will appear from your avatar."
-msgstr ""
+msgstr "`Vec3.sum`を使用して、エンティティがアバターからどれだけ離れているかを表す新しいベクトルを返します。"
 
 #: ../../source/script/js-tips.md:99
 msgid ""
 "We've included the above operations in a function below for you to save "
 "and run as a script."
-msgstr ""
+msgstr "上記の操作を以下の関数にまとめましたので、スクリプトとして保存し、実行してください。"
 
 #: ../../source/script/js-tips.md:123
 msgid "Include External JS and JSON Files"
-msgstr ""
+msgstr "外部JSおよびJSONファイルを含める"
 
 #: ../../source/script/js-tips.md:125
 msgid ""
@@ -1135,20 +1181,24 @@ msgid ""
 " You can do this using the `require` method in the Scripts namespace of "
 "our API."
 msgstr ""
+"Vircadiaでスクリプトを書くとき、外部のJSファイルにあるメソッドやオブジェクトにアクセスしたり、JSONファイルから情報を取得する必要がある場合が"
+"あります。例えば、アバターを振るスクリプトを書く場合、外部のJSファイルにすでに存在するいくつかのメソッドを使用する必要があるかもしれません。このような場"
+"合は、API の Scripts ネームスペースにある `require` メソッドを使用します。"
 
 #: ../../source/script/js-tips.md:127
 msgid ""
 "Any script that you try to retrieve using this method must export either "
 "a function or an object. Let's try this using an example."
 msgstr ""
+"このメソッドを使って取得しようとするスクリプトは、関数かオブジェクトのどちらかをエクスポートする必要があります。例として、これを試してみましょう。"
 
 #: ../../source/script/js-tips.md:129
 msgid "Create a JS script that you want to access from your main script."
-msgstr ""
+msgstr "メインスクリプトからアクセスするJSスクリプトを作成します。"
 
 #: ../../source/script/js-tips.md:131
 msgid "**example.js**"
-msgstr ""
+msgstr "**example.js**"
 
 #: ../../source/script/js-tips.md:144
 msgid ""
@@ -1156,10 +1206,12 @@ msgid ""
 "Hello or Goodbye, depending on which function you call, to the console. "
 "Now, let's use `require` in your main script."
 msgstr ""
+"** example.js **では、呼び出す関数に応じて、HelloまたはGoodbyeのいずれかを出力する2つの関数をコンソールにエクスポートしていま"
+"す。それでは、メインスクリプトで`require`を使用しましょう。"
 
 #: ../../source/script/js-tips.md:146
 msgid "Create a JS script called **main.js**."
-msgstr ""
+msgstr "**main.js**というJSスクリプトを作成します。"
 
 #: ../../source/script/js-tips.md:153
 msgid ""
@@ -1169,10 +1221,14 @@ msgid ""
 "Goodbye to the console. In the above example, we are printing Hello to "
 "the console when we run **main.js**."
 msgstr ""
+"`require`メソッドを使用すると、**example.js**からエクスポートされた関数またはオブジェクトを**main."
+"js**で使用できるようになります。これは、** main.js "
+"**が、HelloまたはGoodbyeをコンソールに出力する関数にアクセスできるようになったことを意味します。上記の例では、** main.js "
+"**を実行すると、コンソールにHelloが出力されます。"
 
 #: ../../source/script/js-tips.md:160
 msgid "Equip an Item"
-msgstr ""
+msgstr "アイテムの装備"
 
 #: ../../source/script/js-tips.md:161
 msgid ""
@@ -1181,18 +1237,20 @@ msgid ""
 "paint brush to your avatar's hand and drop it only when you're done "
 "painting."
 msgstr ""
+"グラブボタンやトリガーを連続して押さなくても、エンティティをつかんで保持することでアイテムを装備できます。たとえば、アバターの手にペイントブラシを装備し、"
+"ペイントが完了したときにのみドロップすることができます。"
 
 #: ../../source/script/js-tips.md:163
 msgid "You can equip an item using a script:"
-msgstr ""
+msgstr "スクリプトを使用してアイテムを装備できます。"
 
 #: ../../source/script/js-tips.md:169
 msgid "To drop the entity from your avatar's hand:"
-msgstr ""
+msgstr "アバターの手からエンティティをドロップするには："
 
 #: ../../source/script/js-tips.md:174
 msgid "Connect a Signal to a Function"
-msgstr ""
+msgstr "シグナルを関数に接続する"
 
 #: ../../source/script/js-tips.md:176
 msgid ""
@@ -1201,6 +1259,8 @@ msgid ""
 "changes when collisions are enabled or disabled, you can connect a "
 "function to react to this specific event such as:"
 msgstr ""
+"シグナルは関数に接続することができます。これは、シグナルがトリガーされるたびに関数が実行されることを意味します。例えば、衝突が有効または無効になったときに"
+"アバターが変化する場合、この特定のイベントに反応するように次のような関数を接続することができます。"
 
 #: ../../source/script/js-tips.md:189
 msgid ""
@@ -1209,12 +1269,14 @@ msgid ""
 "what a signal will provide you, such as the enabled property passed into "
 "collision changed."
 msgstr ""
+"通常、各シグナルは引数で渡されます。[APIドキュメント](https://apidocs.vircadia.dev/MyAvatar."
+"html)を参照して、衝突に渡された有効なプロパティなど、シグナルが提供するものを確認できます。"
 
 #: ../../source/script/js-tips.md:191
 msgid ""
 "It's good practice to disconnect from signals, but you can only do that "
 "if you name your function."
-msgstr ""
+msgstr "シグナルから切断することをお勧めしますが、関数に名前を付けた場合にのみ切断できます。"
 
 #: ../../source/script/midi-tutorial.rst:5
 msgid ""
@@ -1227,6 +1289,9 @@ msgid ""
 "organized specification that is heavily tested and adopted for a "
 "multitude of purposes."
 msgstr ""
+"MIDI (Musical Instrument Digital Interface) は、デジタルツールと電子機器（仮想および物理）が相互に通信するため"
+"のプロトコル（電気コネクタとデジタルインターフェース）です。MIDIは通常、音楽シーケンサーとして使用されます。元々、このフォーマットは楽器同士が通信する"
+"方法として80年代に作られましたが、この30年の間に高度に組織化された仕様に進化し、多くの目的でテストされ採用されています。"
 
 #: ../../source/script/midi-tutorial.rst:7
 msgid ""
@@ -1235,14 +1300,16 @@ msgid ""
 "For example, we used MIDI to control lighting in a domain for a music "
 "show."
 msgstr ""
+"私たちは、Vircadiaで環境を制御するために使用できるMIDIクラスを（コミュニティメンバーの一人であるBrainstormerの助けを借りて）作りま"
+"した。例えば、音楽番組のドメイン内の照明を制御するためにMIDIを使いました。"
 
 #: ../../source/script/midi-tutorial.rst:9
 msgid "Currently, we support the MIDI class only on Windows."
-msgstr ""
+msgstr "現在、MIDIクラスはWindowsでのみサポートされています。"
 
 #: ../../source/script/midi-tutorial.rst:16
 msgid "MIDI Class Basics"
-msgstr ""
+msgstr "MIDIクラスの基本"
 
 #: ../../source/script/midi-tutorial.rst:18
 msgid ""
@@ -1251,6 +1318,8 @@ msgid ""
 "unit of data and can contain an integer value ranging from ``0`` to "
 "``4,294,967,295``."
 msgstr ""
+"私たちのMIDIクラスは、Microsoft Windowsに固有のデータ型であるDWORD（ダブルワード）をメッセージとして渡すことによって機能します。"
+"これは符号なし32ビットのデータ単位であり、``0``から``4,294,967,295``の範囲の整数値を含めることができます。"
 
 #: ../../source/script/midi-tutorial.rst:20
 msgid ""
@@ -1258,50 +1327,52 @@ msgid ""
 "down a pad, you are creating a MIDI message that says what channel, what "
 "note, what velocity, and what is the status/command to run."
 msgstr ""
+"レバーを動かしたり、ノブを回したり、キーを押したり離したり、パッドを押し下げたりするたびに、実行するチャンネル、ノート、ベロシティ、ステータス/コマンドを"
+"示すMIDIメッセージが作成されます。"
 
 #: ../../source/script/midi-tutorial.rst:22
 msgid "Each byte in this message describes a different type's value."
-msgstr ""
+msgstr "このメッセージの各バイトは、異なるタイプの値を示しています。"
 
 #: ../../source/script/midi-tutorial.rst:25
 msgid "00000000"
-msgstr ""
+msgstr "00000000"
 
 #: ../../source/script/midi-tutorial.rst:25
 msgid "0vvvvvvv"
-msgstr ""
+msgstr "0vvvvvvv"
 
 #: ../../source/script/midi-tutorial.rst:25
 msgid "0nnnnnnn"
-msgstr ""
+msgstr "0nnnnnnn"
 
 #: ../../source/script/midi-tutorial.rst:25
 msgid "1sss"
-msgstr ""
+msgstr "1sss"
 
 #: ../../source/script/midi-tutorial.rst:25
 msgid "cccc"
-msgstr ""
+msgstr "cccc"
 
 #: ../../source/script/midi-tutorial.rst:28
 msgid "Where:"
-msgstr ""
+msgstr "どこ:"
 
 #: ../../source/script/midi-tutorial.rst:30
 msgid "v = velocity"
-msgstr ""
+msgstr "v=速度"
 
 #: ../../source/script/midi-tutorial.rst:31
 msgid "n = notes"
-msgstr ""
+msgstr "n=メモ"
 
 #: ../../source/script/midi-tutorial.rst:32
 msgid "s = status"
-msgstr ""
+msgstr "s=ステータス"
 
 #: ../../source/script/midi-tutorial.rst:33
 msgid "c = channel"
-msgstr ""
+msgstr "c=チャネル"
 
 #: ../../source/script/midi-tutorial.rst:35
 msgid ""
@@ -1311,86 +1382,88 @@ msgid ""
 "unique values (1+2+4+8+16+32+64), status can represent 8 unique values, "
 "and channel can represent 16 values."
 msgstr ""
+"上位ビットの数字（最初の数字）は、コマンド（1）かデータ（0）かを示します。残りの数値は、タイプの値を決定します。つまり、ベロシティとノートは128の一意"
+"の値（1 + 2 + 4 + 8 + 16 + 32 + 64）を表し、ステータスは8つの一意の値を表し、チャネルは16の値を表すことができます。"
 
 #: ../../source/script/midi-tutorial.rst:37
 msgid "The different status types we support are:"
-msgstr ""
+msgstr "サポートされているさまざまなステータスタイプは次のとおりです。"
 
 #: ../../source/script/midi-tutorial.rst:40
 msgid "Status"
-msgstr ""
+msgstr "状態"
 
 #: ../../source/script/midi-tutorial.rst:40
 msgid "Types"
-msgstr ""
+msgstr "タイプ"
 
 #: ../../source/script/midi-tutorial.rst:42
 msgid "08"
-msgstr ""
+msgstr "08"
 
 #: ../../source/script/midi-tutorial.rst:42
 msgid "note off"
-msgstr ""
+msgstr "書き留める"
 
 #: ../../source/script/midi-tutorial.rst:44
 msgid "09"
-msgstr ""
+msgstr "09"
 
 #: ../../source/script/midi-tutorial.rst:44
 msgid "note on"
-msgstr ""
+msgstr "注意"
 
 #: ../../source/script/midi-tutorial.rst:46
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../../source/script/midi-tutorial.rst:46
 msgid "polyphonic key pressure"
-msgstr ""
+msgstr "ポリフォニックキープレッシャー"
 
 #: ../../source/script/midi-tutorial.rst:48
 msgid "11"
-msgstr ""
+msgstr "11"
 
 #: ../../source/script/midi-tutorial.rst:48
 msgid "control change"
-msgstr ""
+msgstr "コントロールの変更"
 
 #: ../../source/script/midi-tutorial.rst:50
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../source/script/midi-tutorial.rst:50
 msgid "program change"
-msgstr ""
+msgstr "プログラムの変更"
 
 #: ../../source/script/midi-tutorial.rst:52
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #: ../../source/script/midi-tutorial.rst:52
 msgid "channel pressure"
-msgstr ""
+msgstr "チャネルプレッシャー"
 
 #: ../../source/script/midi-tutorial.rst:54
 msgid "14"
-msgstr ""
+msgstr "14"
 
 #: ../../source/script/midi-tutorial.rst:54
 msgid "pitch bend"
-msgstr ""
+msgstr "ピッチベンド"
 
 #: ../../source/script/midi-tutorial.rst:56
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #: ../../source/script/midi-tutorial.rst:56
 msgid "system message"
-msgstr ""
+msgstr "システムメッセージ"
 
 #: ../../source/script/midi-tutorial.rst:61
 msgid "Connect Your Controller Device"
-msgstr ""
+msgstr "コントローラデバイスを接続する"
 
 #: ../../source/script/midi-tutorial.rst:63
 msgid ""
@@ -1398,10 +1471,12 @@ msgid ""
 "your environment in Vircadia, or create a virtual one that will help you "
 "connect to other virtual devices."
 msgstr ""
+"Vircadiaで環境を制御するために使用する実際のコントローラーデバイスを接続するか、他の仮想デバイスとの接続を補助する仮想のものを作成することができま"
+"す。"
 
 #: ../../source/script/midi-tutorial.rst:67
 msgid "Connect Ableton Live to Interface"
-msgstr ""
+msgstr "Ableton Liveとインターフェイスを接続する"
 
 #: ../../source/script/midi-tutorial.rst:69
 msgid ""
@@ -1409,6 +1484,8 @@ msgid ""
 "us/articles/209774225-Using-virtual-MIDI-buses>`_ directly to Vircadia’s "
 "Interface client, we recommend the following virtual tools:"
 msgstr ""
+"`Ableton Live <https://help.ableton.com/hc/en-us/articles/209774225-Using-"
+"virtual-MIDI-buses>` _をVircadiaのインターフェイスクライアントに直接接続するには、次の仮想ツールをお勧めします。"
 
 #: ../../source/script/midi-tutorial.rst:71
 msgid ""
@@ -1416,6 +1493,8 @@ msgid ""
 " will create a virtual in/out port to send information into and out of "
 "HiFi"
 msgstr ""
+"`loopMIDI <https://www.tobias-erichsen.de/software/loopmidi.html>` _："
+"loopMIDI より、HiFiとの間で情報を送受信するための仮想入力/出力ポートが作成されます"
 
 #: ../../source/script/midi-tutorial.rst:72
 msgid ""
@@ -1423,10 +1502,12 @@ msgid ""
 "being pressed or sliders/knobs being manipulated if you do not have a "
 "controller."
 msgstr ""
+"`VMP <http://vmpk.sourceforge.net>` "
+"_：これを使用して、コントローラーがない場合に、押されているキーや操作されているスライダー/ノブをシミュレートできます。"
 
 #: ../../source/script/midi-tutorial.rst:76
 msgid "Connect an iPad or iPhone to Interface"
-msgstr ""
+msgstr "iPadまたはiPhoneをインターフェースに接続する"
 
 #: ../../source/script/midi-tutorial.rst:78
 msgid ""
@@ -1435,22 +1516,24 @@ msgid ""
 "Device`_ and `Example: Change the Color of a Cube using MIDI`_ before "
 "reading these instructions."
 msgstr ""
+"iPadまたはiPhoneを、ボタン、ノブ、およびスライダーを備えたタッチスクリーンコントローラーとして使用できます。これらの手順を読む前に、`MIDIデ"
+"バイスの構成`および`例：MIDIを使用してキューブの色を変更する`のセクションをお読みください。"
 
 #: ../../source/script/midi-tutorial.rst:80
 msgid ""
 "Download our recommended app `touchosc "
 "<https://hexler.net/software/touchosc>`_."
-msgstr ""
+msgstr "おすすめのアプリ`touchosc<https://hexler.net/software/touchosc>`_をダウンロードしてください。"
 
 #: ../../source/script/midi-tutorial.rst:81
 msgid "Download the Windows bridge."
-msgstr ""
+msgstr "Windowsブリッジをダウンロードします。"
 
 #: ../../source/script/midi-tutorial.rst:82
 msgid ""
 "Set up either through USB or through your local WIFI network in the "
 "settings menu."
-msgstr ""
+msgstr "設定メニューで、USBまたはローカルWIFIネットワークを介してセットアップします。"
 
 #: ../../source/script/midi-tutorial.rst:83
 msgid ""
@@ -1458,20 +1541,21 @@ msgid ""
 "can see which knobs send what information that you can use to call custom"
 " functions."
 msgstr ""
+"着信メッセージをログに記録するように`onEventReceived`を設定すると、カスタム関数の呼び出しに使用できる情報を送信するノブを確認できます。"
 
 #: ../../source/script/midi-tutorial.rst:84
 msgid ""
 "There are some interesting components like the accelerometer which you "
 "can use as well!"
-msgstr ""
+msgstr "加速度センサーのような面白い部品もあるので、それも使ってみてください!"
 
 #: ../../source/script/midi-tutorial.rst:88
 msgid "Configure Your MIDI Device"
-msgstr ""
+msgstr "MIDIデバイスを構成する"
 
 #: ../../source/script/midi-tutorial.rst:90
 msgid "Once you've set up your MIDI Controller Device, you need to configure it."
-msgstr ""
+msgstr "MIDIコントローラーデバイスをセットアップしたら、設定を行う必要があります。"
 
 #: ../../source/script/midi-tutorial.rst:92
 msgid ""
@@ -1479,34 +1563,35 @@ msgid ""
 "script. With it, you can see a list of MIDI devices that are currently "
 "connected::"
 msgstr ""
+"スクリプトで実行できる一般的に推奨されるMIDI構成関数は次のとおりです。これを使用すると、現在接続されているMIDIデバイスのリストを表示できます。"
 
 #: ../../source/script/midi-tutorial.rst:117
 msgid ""
 "After you run the configuration function, you will want to connect to "
 "``midiMessages``::"
-msgstr ""
+msgstr "設定関数を実行した後、``midiMessages`` に接続します。"
 
 #: ../../source/script/midi-tutorial.rst:133
 msgid "Example: Change the Color of a Cube using MIDI"
-msgstr ""
+msgstr "例：MIDIを使用して立方体の色を変更する"
 
 #: ../../source/script/midi-tutorial.rst:135
 msgid "Let's change the color of a cube entity in Vircadia using MIDI."
-msgstr ""
+msgstr "MIDIを使用して、Vircadiaの立方体エンティティの色を変更してみましょう。"
 
 #: ../../source/script/midi-tutorial.rst:137
 msgid ""
 "Use this method to figure out the MIDI range of ``0`` to ``127`` to be "
 "any other output range you want using linear interpolation::"
-msgstr ""
+msgstr "この方法を使用して、``0``ら``127``までのMIDI範囲を、線形補間を使用して必要な他の出力範囲に設定します。"
 
 #: ../../source/script/midi-tutorial.rst:144
 msgid "Since colors go from ``0`` to ``255``, we could do the following::"
-msgstr ""
+msgstr "色は``0``から``255``になるので、次のことができます。"
 
 #: ../../source/script/midi-tutorial.rst:153
 msgid "Then use ``onEventReceived`` to change the color of the cube::"
-msgstr ""
+msgstr "次に、``onEventReceived``を使用して、立方体の色を変更します。"
 
 #: ../../source/script/midi-tutorial.rst:161
 msgid ""
@@ -1515,6 +1600,8 @@ msgid ""
 " about how to route the right key, slider, knob, or button to to your "
 "intended JavaScript functions."
 msgstr ""
+"各コントローラとその出力を見るために、 ``onEventReceived`` 関数で ``eventData`` を出力してください。これにより、正しい"
+"キー、スライダー、ノブ、ボタンを目的のJavaScript関数にルーティングするための必要な情報を得ることができます。"
 
 #: ../../source/script/midi-tutorial.rst:163
 msgid ""
@@ -1522,14 +1609,16 @@ msgid ""
 "directly call a MIDI event to control something in Vircadia, you can use "
 "the function::"
 msgstr ""
+"Vircadiaの外部で何かを制御するために使用する場合、またはVircadiaで何かを制御するためにMIDIイベントを直接呼び出すために使用する場合は、"
+"次の関数を使用できます。"
 
 #: ../../source/script/midi-tutorial.rst:170
 msgid "Other Ways to Use MIDI in Vircadia"
-msgstr ""
+msgstr "VircadiaでMIDIを使用する他の方法"
 
 #: ../../source/script/midi-tutorial.rst:172
 msgid "Use Ableton to sequence out entire animations of your domain."
-msgstr ""
+msgstr "Abletonを使用して、ドメインのアニメーション全体をシーケンス処理します。"
 
 #: ../../source/script/midi-tutorial.rst:173
 msgid ""

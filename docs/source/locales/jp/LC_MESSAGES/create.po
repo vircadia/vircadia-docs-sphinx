@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-05-17 04:31+0000\n"
+"PO-Revision-Date: 2022-05-17 17:39+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/ja/>\n"
@@ -1815,7 +1815,7 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:5
 #: ../../source/create/entities/zone-tutorial.md:12
 msgid "**On This Page:**"
-msgstr ""
+msgstr "**コンテンツ**"
 
 #: ../../source/create/avatars/avatar-standards.md:11
 msgid "[Glossary](#glossary)"
