@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2022-05-16 15:10+0000\n"
+"PO-Revision-Date: 2022-05-17 04:31+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/ja/>\n"
@@ -142,6 +142,8 @@ msgid ""
 "In the Persistent Scripts section, click **+** and paste the URL to your "
 "script under 'Script URL'.  ![](_images/ac-script.png)"
 msgstr ""
+"[永続スクリプト]セクションで、[** + **]をクリックし、[スクリプトURL]の下のスクリプトにURLを貼り付けます。![](_ images / "
+"ac-script.png)"
 
 #: ../../source/script/assignment-client-scripts.md:18
 msgid ""
@@ -423,11 +425,11 @@ msgstr "コンテンツ"
 
 #: ../../source/script/get-started-with-scripting.rst:14
 msgid "JavaScript Basics in Vircadia"
-msgstr ""
+msgstr "VircadiaにおけるJavaScriptの基本"
 
 #: ../../source/script/get-started-with-scripting.rst:16
 msgid "Vircadia scripting runs on a JavaScript engine that is provided with Qt."
-msgstr ""
+msgstr "Vircadiaスクリプトは、Qtで提供されるJavaScriptエンジンで実行されます。"
 
 #: ../../source/script/get-started-with-scripting.rst:18
 msgid ""
@@ -436,24 +438,26 @@ msgid ""
 "Vircadia. For this reason, you cannot use JavaScript frameworks such as "
 "Angular, React, Express, jQuery, Vue, etc."
 msgstr ""
+"Webページで実行される機能（Cookie、ローカルストレージ、データベースなど）は、Vircadiaなどの3D環境では機能しないことに注意してください。"
+"このため、Angular、React、Express、jQuery、VueなどのJavaScriptフレームワークは使用できません。"
 
 #: ../../source/script/get-started-with-scripting.rst:20
 msgid "You are likely to interface most with these Vircadia APIs:"
-msgstr ""
+msgstr "これらのVircadiaのAPIを最もよく使うことになるでしょう。"
 
 #: ../../source/script/get-started-with-scripting.rst:23
 msgid "API(s)"
-msgstr ""
+msgstr "API"
 
 #: ../../source/script/get-started-with-scripting.rst:23
 #: ../../source/script/get-started-with-scripting.rst:56
 #: ../../source/script/get-started-with-scripting.rst:102
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: ../../source/script/get-started-with-scripting.rst:25
 msgid "`Entities <https://apidocs.vircadia.dev/Entities.html>`_"
-msgstr ""
+msgstr "`エンティティ<https://apidocs.vircadia.dev/Entities.html>`_"
 
 #: ../../source/script/get-started-with-scripting.rst:25
 msgid ""
@@ -462,18 +466,20 @@ msgid ""
 "Everyone has access to ``get`` properties of an entity, and can be used "
 "to find Entities in range, direction, collision, or raytrace."
 msgstr ""
+"権限がある限り、周囲のエンティティを操作できます。これは、エンティティを追加、削除、および編集できることを意味します。誰もがエンティティの``get``プ"
+"ロパティにアクセスでき、範囲、方向、衝突、またはレイトレースでエンティティを検索するために使用できます。"
 
 #: ../../source/script/get-started-with-scripting.rst:32
 msgid "`AvatarList <https://apidocs.vircadia.dev/AvatarList.html>`_"
-msgstr ""
+msgstr "`アバターリスト <https://apidocs.vircadia.dev/AvatarList.html>` _"
 
 #: ../../source/script/get-started-with-scripting.rst:34
 msgid "`AvatarManager <https://apidocs.vircadia.dev/AvatarManager.html>`_"
-msgstr ""
+msgstr "`アバターマネージャ <https://apidocs.vircadia.dev/AvatarManager.html>`_"
 
 #: ../../source/script/get-started-with-scripting.rst:36
 msgid "`MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_"
-msgstr ""
+msgstr "`私のアバター <https://apidocs.vircadia.dev/MyAvatar.html>`_"
 
 #: ../../source/script/get-started-with-scripting.rst:32
 msgid ""
@@ -483,10 +489,13 @@ msgid ""
 " information here will be always the avatar information of the client "
 "running the script. AvatarList and AvatarManager are basically the same."
 msgstr ""
+"`アバター <https://apidocs.vircadia.dev/Avatar.html>`に関する情報を取得したり、独自のクライアント専用の`"
+"私のアバター <https://apidocs.vircadia.dev/MyAvatar.html>`を操作したりできます。ここでの情報は、常にスクリプ"
+"トを実行しているクライアントのアバター情報になります。アバターリストとアバターマネージャは基本的に同じです。"
 
 #: ../../source/script/get-started-with-scripting.rst:40
 msgid "`Script <https://apidocs.vircadia.dev/Script.html>`_"
-msgstr ""
+msgstr "`スクリプト <https://apidocs.vircadia.dev/Script.html>`_"
 
 #: ../../source/script/get-started-with-scripting.rst:40
 msgid ""
@@ -496,6 +505,9 @@ msgid ""
 "(Script.relativePath), refer to other scripts (Script.include), or create"
 " events which occur when the script is turned off (Script.scriptEnding)."
 msgstr ""
+"クライアントからスクリプトへのコールバックの接続、例えば時間に依存する機能（Script.update, Script.setTime, "
+"Script.setInterval など）、アセットへの相対パス接続（Script.relativePath）、他のスクリプトへの参照（Script."
+"include）、あるいはスクリプトが停止したときに発生するイベント（Script.scriptEnding）を可能にします。"
 
 #: ../../source/script/get-started-with-scripting.rst:49
 msgid ""
@@ -503,18 +515,20 @@ msgid ""
 "and we encourage you to make sure use of them as you become more "
 "comfortable scripting in Vircadia."
 msgstr ""
+"`他にも多くのAPIがあります<https://apidocs.vircadia."
+"dev>`。Vircadiaでのスクリプト作成に慣れてきたら、それらを確実に利用することをお勧めします。"
 
 #: ../../source/script/get-started-with-scripting.rst:53
 msgid "Types of Scripts"
-msgstr ""
+msgstr "スクリプトの種類"
 
 #: ../../source/script/get-started-with-scripting.rst:56
 msgid "Script Type"
-msgstr ""
+msgstr "スクリプトタイプ"
 
 #: ../../source/script/get-started-with-scripting.rst:58
 msgid "Interface Script"
-msgstr ""
+msgstr "インターフェイススクリプト"
 
 #: ../../source/script/get-started-with-scripting.rst:58
 msgid ""
@@ -522,10 +536,12 @@ msgid ""
 " scripts, you can perform one-time creation tasks or modify the user "
 "experience with new menus, overlays, tweaks, plugins, and extensions."
 msgstr ""
+"*インターフェイススクリプト*は、インターフェイスが実行されている限り実行されます。これらのスクリプトを使用すると、1回限りの作成タスクを実行したり、新し"
+"いメニュー、オーバーレイ、微調整、プラグイン、および拡張機能を使用してユーザーエクスペリエンスを変更したりできます。"
 
 #: ../../source/script/get-started-with-scripting.rst:62
 msgid "Assignment Client Script"
-msgstr ""
+msgstr "割り当てクライアントスクリプト"
 
 #: ../../source/script/get-started-with-scripting.rst:62
 msgid ""
@@ -533,20 +549,22 @@ msgid ""
 "avatars in your domain. These scripts continue to run even when you shut "
 "down Interface."
 msgstr ""
+"*割り当てクライアントスクリプト*は、ドメイン内のエンティティとアバター間のアクションを調整します。これらのスクリプトは、インターフェイスをシャットダウン"
+"しても実行され続けます。"
 
 #: ../../source/script/get-started-with-scripting.rst:65
 msgid "Avatar Script"
-msgstr ""
+msgstr "アバタースクリプト"
 
 #: ../../source/script/get-started-with-scripting.rst:65
 msgid ""
 "*Avatar scripts* run on an avatar and can give it unique effects, such as"
 " flowing hair."
-msgstr ""
+msgstr "*アバタースクリプト*はアバター上で実行され、なびく髪などのユニークな効果を与えることができます。"
 
 #: ../../source/script/get-started-with-scripting.rst:68
 msgid "Client Entity Script"
-msgstr ""
+msgstr "クライアントエンティティスクリプト"
 
 #: ../../source/script/get-started-with-scripting.rst:68
 msgid ""
@@ -554,10 +572,12 @@ msgid ""
 " in response to a user in a domain. With these scripts, you can customize"
 " what happens when a user encounters an entity."
 msgstr ""
+"*クライアントエンティティスクリプト*は、ドメイン内のユーザーに応答してローカルで実行される、エンティティに添付されたスクリプトです。これらのスクリプトを"
+"使用すると、ユーザーがエンティティに遭遇したときの挙動をカスタマイズすることができます。"
 
 #: ../../source/script/get-started-with-scripting.rst:72
 msgid "Server Entity Script"
-msgstr ""
+msgstr "サーバーエンティティスクリプト"
 
 #: ../../source/script/get-started-with-scripting.rst:72
 msgid ""
@@ -565,10 +585,12 @@ msgid ""
 "require a user to trigger. These scripts control entities so that their "
 "behavior is seen and heard by everyone in the domain."
 msgstr ""
+"*サーバーエンティティスクリプト*は、ユーザーがトリガーする必要のないエンティティに添付されたスクリプトです。これらのスクリプトは、ドメイン内のすべての人"
+"はその動作が把握できるようにエンティティを制御します。"
 
 #: ../../source/script/get-started-with-scripting.rst:79
 msgid "Scripting Permissions"
-msgstr ""
+msgstr "スクリプトのアクセス許可"
 
 #: ../../source/script/get-started-with-scripting.rst:81
 msgid ""
@@ -579,10 +601,13 @@ msgid ""
 "However, you will still see the script listed in the Running Scripts "
 "window."
 msgstr ""
+"各ドメインの所有者は、`作成と編集の権限を制限 <../host/configure-settings/permission-settings>`すること"
+"ができます。実行したいスクリプトがエンティティを追加または編集する権限を持っていない場合、オブジェクトが作成または変更される様子は表示されません。ただし、"
+"Running Scripts ウィンドウにそのスクリプトが表示されます。"
 
 #: ../../source/script/get-started-with-scripting.rst:85
 msgid "Running Scripts Window"
-msgstr ""
+msgstr "スクリプトウィンドウの実行"
 
 #: ../../source/script/get-started-with-scripting.rst:87
 msgid ""
@@ -590,16 +615,19 @@ msgid ""
 " a URL or from a disk drive. Vircadia also provides a number of sample "
 "scripts for you to try out."
 msgstr ""
+"[スクリプトの実行]ウィンドウを使用して、URLまたはディスクドライブからスクリプトをロード、実行、および停止できます。Vircadiaには、試してみるた"
+"めのサンプルスクリプトも多数用意されています。"
 
 #: ../../source/script/get-started-with-scripting.rst:89
 msgid ""
 "To open the *Running Scripts* window, go to **Edit > Running Scripts** or"
 " press ``Ctrl`` + ``J`` on your keyboard."
 msgstr ""
+"[スクリプトの実行]ウィンドウを開くには、**[編集]> [スクリプトの実行]**に移動するか、キーボードの ``Ctrl`` + ``J``を押します。"
 
 #: ../../source/script/get-started-with-scripting.rst:93
 msgid "Sample Scripts"
-msgstr ""
+msgstr "サンプルスクリプト"
 
 #: ../../source/script/get-started-with-scripting.rst:95
 msgid ""
@@ -608,6 +636,8 @@ msgid ""
 "We encourage you to look at these scripts as a resource to learn how to "
 "code your own."
 msgstr ""
+"Vircadiaには、ユーザー体験を向上させ、独自のコンテンツを開発するためのツールを提供するために設計されたスクリプトのコレクションが付属しています。こ"
+"れらのスクリプトは、あなた自身のコーディング方法を学ぶためのリソースとしてご覧いただくことをお勧めします。"
 
 #: ../../source/script/get-started-with-scripting.rst:97
 msgid ""
@@ -617,26 +647,29 @@ msgid ""
 "window, click the 'Reveal Scripts' folder and browse to the JavaScript "
 "file that you want to view."
 msgstr ""
+"スクリプトをロード（または実行）すると、動作確認や機能テストとして、その挙動を確認することができます。実際のコードを表示したい場合は、お好みのテキストエデ"
+"ィターでファイルを開く必要があります。[Running Scripts]ウィンドウで、「Reveal "
+"Scripts」フォルダをクリックし、表示したいJavaScriptファイルをブラウズしてください。"
 
 #: ../../source/script/get-started-with-scripting.rst:99
 msgid "These are the scripts we have available:"
-msgstr ""
+msgstr "利用可能なスクリプトは次のとおりです。"
 
 #: ../../source/script/get-started-with-scripting.rst:102
 msgid "Scripts Folder"
-msgstr ""
+msgstr "スクリプトフォルダ"
 
 #: ../../source/script/get-started-with-scripting.rst:104
 msgid "``android``"
-msgstr ""
+msgstr "``Android``"
 
 #: ../../source/script/get-started-with-scripting.rst:104
 msgid "These scripts were built to run on Android devices."
-msgstr ""
+msgstr "これらのスクリプトは、Androidデバイスで実行するために作成されました。"
 
 #: ../../source/script/get-started-with-scripting.rst:106
 msgid "``developer``"
-msgstr ""
+msgstr "``開発者``"
 
 #: ../../source/script/get-started-with-scripting.rst:106
 msgid ""
@@ -645,10 +678,12 @@ msgid ""
 "content. These scripts are not \"entry-level\" and are not guaranteed to "
 "work or be documented."
 msgstr ""
+"これらのスクリプトは、内部使用とデバッグのために作成されましたが、上級開発者がコンテンツを作成する際に役立つと思われるため、公開しています。これらのスクリ"
+"プトは「入門用」ではなく、動作やドキュメントを保証するものではありません。"
 
 #: ../../source/script/get-started-with-scripting.rst:110
 msgid "``modules``"
-msgstr ""
+msgstr "``モジュール``"
 
 #: ../../source/script/get-started-with-scripting.rst:110
 msgid ""
@@ -656,10 +691,12 @@ msgid ""
 "For example, the AppUI module helps you create a tablet app, while the "
 "Request module processes HTTP requests."
 msgstr ""
+"これらのスクリプトは Vircadia でのスクリプト作成を簡素化する外部ツールを作成する。例えば、AppUI "
+"モジュールはタブレットアプリの作成を支援し、Request モジュールは HTTP リクエストを操作します。"
 
 #: ../../source/script/get-started-with-scripting.rst:114
 msgid "``system``"
-msgstr ""
+msgstr "``システム``"
 
 #: ../../source/script/get-started-with-scripting.rst:114
 msgid ""
@@ -667,10 +704,12 @@ msgid ""
 "Making changes to these scripts is not recommended, nor is it easy, as "
 "you may need 'administrative' privileges."
 msgstr ""
+"これらのスクリプトはVircadiaの安定性と使いやすさに不可欠です。これらのスクリプトに変更を加えることは推奨されませんし、「管理者」権限が必要な場合も"
+"あり、簡単ではありません。"
 
 #: ../../source/script/get-started-with-scripting.rst:118
 msgid "``tutorials``"
-msgstr ""
+msgstr "``チュートリアル``"
 
 #: ../../source/script/get-started-with-scripting.rst:118
 msgid ""
@@ -678,92 +717,94 @@ msgid ""
 "Vircadia. Examples include: creating butterflies, making your avatar "
 "clap, and adding ambient sound to your domain."
 msgstr ""
+"これらのスクリプトは、Vircadiaでスクリプトを使ってできることの例を示しています。例えば、蝶々を作ったり、アバターを拍手させたり、アンビエントサウン"
+"ドをあなたのドメインに追加したりすることができます。"
 
 #: ../../source/script/get-started-with-scripting.rst:125
 msgid "Load and Run a Script"
-msgstr ""
+msgstr "スクリプトのロードと実行"
 
 #: ../../source/script/get-started-with-scripting.rst:127
 msgid "To run a script:"
-msgstr ""
+msgstr "スクリプトを実行するには："
 
 #: ../../source/script/get-started-with-scripting.rst:129
 msgid "Open the 'Running Scripts' window."
-msgstr ""
+msgstr "[スクリプトの実行]ウィンドウを開きます。"
 
 #: ../../source/script/get-started-with-scripting.rst:130
 #: ../../source/script/interface-scripts.md:15
 msgid ""
 "For scripts hosted in the cloud, click 'From URL'. Enter the URL of your "
 "script file and click 'OK'."
-msgstr ""
+msgstr "クラウドでホストされているスクリプトの場合は、[URLから]をクリックします。スクリプトファイルのURLを入力し、[OK]をクリックします。"
 
 #: ../../source/script/get-started-with-scripting.rst:131
 #: ../../source/script/interface-scripts.md:16
 msgid ""
 "For scripts on your local computer, click 'From Disk'. Browse to your "
 "script file and click 'Open'."
-msgstr ""
+msgstr "ローカルコンピュータのスクリプトについては、[ディスクから]をクリックします。スクリプトファイルを参照し、[開く]をクリックします。"
 
 #: ../../source/script/get-started-with-scripting.rst:132
 msgid ""
 "To load a sample script, browse to the script at the bottom of the "
 "'Running Scripts' window."
-msgstr ""
+msgstr "サンプルスクリプトをロードするには、[スクリプトの実行]ウィンドウの下部にあるスクリプトを参照します。"
 
 #: ../../source/script/get-started-with-scripting.rst:136
 msgid "Reload or Stop a Script"
-msgstr ""
+msgstr "スクリプトのリロードと停止"
 
 #: ../../source/script/get-started-with-scripting.rst:138
 msgid ""
 "To reload or stop a script, open the 'Running Scripts' window and do one "
 "of the following:"
-msgstr ""
+msgstr "スクリプトをリロードまたは停止するには、[スクリプトの実行]ウィンドウを開き、次のいずれかを実行します。"
 
 #: ../../source/script/get-started-with-scripting.rst:140
 msgid ""
 "To reload all running scripts, click the 'Reload All' button at the top "
 "of the 'Running Scripts' window."
-msgstr ""
+msgstr "実行中のすべてのスクリプトを再ロードするには、[実行中のスクリプト]ウィンドウの上部にある[すべて再ロード]ボタンをクリックします。"
 
 #: ../../source/script/get-started-with-scripting.rst:141
 msgid "To reload a specific script, click the circular arrow next to the script."
-msgstr ""
+msgstr "特定のスクリプトを再ロードするには、スクリプトの横にある円形の矢印をクリックします。"
 
 #: ../../source/script/get-started-with-scripting.rst:142
 msgid ""
 "To stop all running scripts, click the 'Stop All' button at the top of "
 "the 'Running Scripts' window."
-msgstr ""
+msgstr "実行中のすべてのスクリプトを停止するには、[実行中のスクリプト]ウィンドウの上部にある[すべて停止]ボタンをクリックします。"
 
 #: ../../source/script/get-started-with-scripting.rst:143
 msgid "To stop a specific script, click the 'X' next to the script."
-msgstr ""
+msgstr "特定のスクリプトを停止するには、スクリプトの横にある[X]をクリックします。"
 
 #: ../../source/script/get-started-with-scripting.rst:147
 msgid "Add a Script to the Default Scripts"
-msgstr ""
+msgstr "デフォルトのスクリプトにスクリプトを追加する"
 
 #: ../../source/script/get-started-with-scripting.rst:149
 msgid ""
 "You can add a script to the default scripts to run every time you start "
 "Interface."
-msgstr ""
+msgstr "デフォルトのスクリプトにスクリプトを追加して、インターフェイスを起動するたびに実行することができます。"
 
 #: ../../source/script/get-started-with-scripting.rst:151
 msgid ""
 "In Interface, pull up your Tablet or HUD and go to **Menu > Edit > "
 "Running Scripts**."
-msgstr ""
+msgstr "インターフェイスで、タブレットまたはHUDをプルアップし、**[メニュー]>[編集]>[スクリプトの実行]**に移動します。"
 
 #: ../../source/script/get-started-with-scripting.rst:152
 msgid "Click 'Reveal Scripts Folder' at the bottom."
-msgstr ""
+msgstr "下部にある[RevealScriptsFolder]をクリックします。"
 
 #: ../../source/script/get-started-with-scripting.rst:153
 msgid "In the file explorer window, open the 'defaultScripts.js' file."
-msgstr ""
+msgstr "ファイルエクスプローラウィンドウで、[defaultScripts.js]ファイルを開きます。"
 
 #: ../../source/script/get-started-with-scripting.rst:154
 msgid ""

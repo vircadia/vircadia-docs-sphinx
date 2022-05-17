@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-05-16 15:10+0000\n"
+"PO-Revision-Date: 2022-05-17 04:31+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/ja/>\n"
@@ -576,7 +576,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:157
 #: ../../source/create/environments.rst:15
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid "Play Automatically"
@@ -5092,7 +5092,7 @@ msgstr ""
 
 #: ../../source/create/entities/boombox-tutorial.rst:111
 msgid "Client Entity Script"
-msgstr ""
+msgstr "クライアントエンティティスクリプト"
 
 #: ../../source/create/entities/boombox-tutorial.rst:111
 msgid ""

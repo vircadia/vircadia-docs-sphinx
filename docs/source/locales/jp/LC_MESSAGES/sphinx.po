@@ -4,24 +4,27 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2020-07-03 14:57+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-05-17 04:31+0000\n"
+"Last-Translator: Nakkie <z.kanie@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/sphinx/ja/>\n"
+"Language: jp\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/_templates/breadcrumbs.html:50
 #: ../../source/_templates/breadcrumbs.html:52
 msgid "Edit on GitHub"
-msgstr ""
+msgstr "GitHubで編集"
 
 #: ../../source/_templates/breadcrumbs.html:57
 #: ../../source/_templates/breadcrumbs.html:59
@@ -146,4 +149,3 @@ msgid ""
 "Free document hosting provided by <a "
 "href=\"http://www.readthedocs.org\">Read the Docs</a>."
 msgstr ""
-
