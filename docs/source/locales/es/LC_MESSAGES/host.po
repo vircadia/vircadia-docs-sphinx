@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2021-12-04 14:41+0000\n"
+"POT-Creation-Date: 2022-05-17 04:33+0000\n"
 "PO-Revision-Date: 2022-05-15 13:12+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/host/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/host/es/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/host.rst:11
@@ -60,10 +59,10 @@ msgid ""
 "the power to express your creativity, build your own virtual worlds, and "
 "be a part of an expanding metaverse."
 msgstr ""
-"La visión de Vircadia es ser una red descentralizada de mundos virtuales, "
-"creada y controlada por sus usuarios. Para lograr esta visión, queremos que "
-"tengas el poder de expresar tu creatividad, construir tus propios mundos "
-"virtuales y ser parte de un metaverso en expansión."
+"La visión de Vircadia es ser una red descentralizada de mundos virtuales,"
+" creada y controlada por sus usuarios. Para lograr esta visión, queremos "
+"que tengas el poder de expresar tu creatividad, construir tus propios "
+"mundos virtuales y ser parte de un metaverso en expansión."
 
 #: ../../source/host.rst:7
 msgid ""
@@ -82,8 +81,8 @@ msgid ""
 "/start-hosting>`."
 msgstr ""
 "Si quieres saltar directamente a ello, considera leer la :doc:`guía de "
-"inicio rápido <host/quick-start>`. De otra maneta, :doc:`comencemos <host/"
-"start-hosting>`."
+"inicio rápido <host/quick-start>`. De otra maneta, :doc:`comencemos <host"
+"/start-hosting>`."
 
 #: ../../source/host/add-content.rst:9
 #: ../../source/host/add-content/create-content.rst:7
@@ -112,12 +111,12 @@ msgid ""
 "hang out with friends, or even an office space, we invite you to create "
 "your own Vircadia experience by tailoring the content to your needs."
 msgstr ""
-"Tu dominio es tu propio mundo virtual personal. En él, puedes expresar tu "
-"creatividad y crear tu propio contenido, luego compartirlo con el mundo. Ya "
-"sea que hayas creado un dominio para organizar un evento, como un lugar para "
-"pasar el rato con amigos o incluso como un espacio de oficina, te invitamos "
-"a crear tu propia experiencia Vircadia adaptando el contenido a tus "
-"necesidades."
+"Tu dominio es tu propio mundo virtual personal. En él, puedes expresar tu"
+" creatividad y crear tu propio contenido, luego compartirlo con el mundo."
+" Ya sea que hayas creado un dominio para organizar un evento, como un "
+"lugar para pasar el rato con amigos o incluso como un espacio de oficina,"
+" te invitamos a crear tu propia experiencia Vircadia adaptando el "
+"contenido a tus necesidades."
 
 #: ../../source/host/add-content.rst:7
 #: ../../source/host/configure-settings.rst:12
@@ -131,8 +130,8 @@ msgid ""
 "AppImage), says that Oven has a GUI application (is news to me)"
 msgstr ""
 "Este documento está desactualizado. A tener en cuenta: Se menciona a "
-"Sandbox, información faltante sobre Linux (Actualmente, el \"oven\" solo se "
-"envía con el servidor, no con la AppImage), dice que Oven tiene una "
+"Sandbox, información faltante sobre Linux (Actualmente, el \"oven\" solo "
+"se envía con el servidor, no con la AppImage), dice que Oven tiene una "
 "aplicación GUI)"
 
 #: ../../source/host/add-content/bake-content.rst:9
@@ -146,12 +145,13 @@ msgid ""
 "significantly."
 msgstr ""
 "La mayoría del contenido (avatares, entidades, etc.) en Vircadia hace "
-"referencia a recursos externos como texturas, modelos, scripts y materiales. "
-"Cuando un usuario encuentra cualquier contenido en el dominio, necesitan "
-"descargar los recursos del contenido. Muchos de estos recursos no están "
-"optimizados y pueden tardar un poco en descargarse. *Baking* es el proceso "
-"de optimizar estos recursos para hacerlos más fáciles de transmitir, "
-"almacenar y renderizar, reduciendo significativamente el tiempo de carga."
+"referencia a recursos externos como texturas, modelos, scripts y "
+"materiales. Cuando un usuario encuentra cualquier contenido en el "
+"dominio, necesitan descargar los recursos del contenido. Muchos de estos "
+"recursos no están optimizados y pueden tardar un poco en descargarse. "
+"*Baking* es el proceso de optimizar estos recursos para hacerlos más "
+"fáciles de transmitir, almacenar y renderizar, reduciendo "
+"significativamente el tiempo de carga."
 
 #: ../../source/host/add-content/bake-content.rst:12
 #: ../../source/host/add-content/create-content.rst:12
@@ -182,15 +182,14 @@ msgid ""
 " `Client + Sandbox <https://vircadia.com/deploy-a-server/>`_ installer. "
 "Once installed, locate ``oven.exe`` (Windows) or ``oven.app`` (Mac)."
 msgstr ""
-"El Oven es una aplicación independiente que es empaquetada como parte del "
-"instalador `Cliente + Sandbox <https://vircadia.com/deploy-a-server/>`_ de "
-"Vircadia. Una vez instalada, busca ``oven.exe`` (Windows) u ``oven.app`` "
-"(Mac)."
+"El Oven es una aplicación independiente que es empaquetada como parte del"
+" instalador `Cliente + Sandbox <https://vircadia.com/deploy-a-server/>`_ "
+"de Vircadia. Una vez instalada, busca ``oven.exe`` (Windows) u "
+"``oven.app`` (Mac)."
 
 #: ../../source/host/add-content/bake-content.rst:20
 msgid "With the oven, you can bake the following types of content:"
-msgstr ""
-"Con el oven, puedes \"hornear\" (bake) los siguientes tipos de contenido:"
+msgstr "Con el oven, puedes \"hornear\" (bake) los siguientes tipos de contenido:"
 
 #: ../../source/host/add-content/bake-content.rst:23
 msgid "Type"
@@ -219,16 +218,16 @@ msgid ""
 " recommend using PNG or JPEG (JPG) textures. However, we also support "
 "textures in following formats: TGA, TIF, and TIFF."
 msgstr ""
-"Cuando horneas una textura, la carpeta resultante contendrá un archivo ."
-"texmeta.json, varias imágenes .ktx y la textura original. El horneado puede "
-"introducir algunos artefactos de compresión, pero estos suelen ser menores. "
-"Hornear una textura produce mapas MIP, que te permiten cargar texturas "
-"progresivamente y comprimir los resultados. Hornear texturas grandes como "
-"skyboxes puede llevar un tiempo, pero los beneficios en tiempo de ejecución "
-"para todos los que carguen la imagen de skybox serán significativos. Para "
-"obtener la mejor experiencia, recomendamos usar texturas PNG o JPEG (JPG). "
-"Sin embargo, también admitimos texturas en los siguientes formatos: TGA, TIF "
-"y TIFF."
+"Cuando horneas una textura, la carpeta resultante contendrá un archivo "
+".texmeta.json, varias imágenes .ktx y la textura original. El horneado "
+"puede introducir algunos artefactos de compresión, pero estos suelen ser "
+"menores. Hornear una textura produce mapas MIP, que te permiten cargar "
+"texturas progresivamente y comprimir los resultados. Hornear texturas "
+"grandes como skyboxes puede llevar un tiempo, pero los beneficios en "
+"tiempo de ejecución para todos los que carguen la imagen de skybox serán "
+"significativos. Para obtener la mejor experiencia, recomendamos usar "
+"texturas PNG o JPEG (JPG). Sin embargo, también admitimos texturas en los"
+" siguientes formatos: TGA, TIF y TIFF."
 
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "Materials"
@@ -242,9 +241,9 @@ msgid ""
 "entity.html#generate-a-material-entity>`_."
 msgstr ""
 "Hornear un material producirá un archivo .baked.json y también horneará "
-"todas las texturas del material. Actualmente, solo admitimos hornear un `"
-"archivo JSON de entidad material <../../create/entities/mate rial-entity."
-"html#generate-a-material-entity>`_."
+"todas las texturas del material. Actualmente, solo admitimos hornear un "
+"`archivo JSON de entidad material <../../create/entities/mate rial-"
+"entity.html#generate-a-material-entity>`_."
 
 #: ../../source/host/add-content/bake-content.rst:37
 msgid "3D Models"
@@ -265,16 +264,17 @@ msgid ""
 " a supported type)."
 msgstr ""
 "Hornear un modelo producirá una malla geométrica `comprimida Draco "
-"<https://github.com/google/draco>`_ y también horneará todos los materiales "
-"del modelo. La compresión de la malla puede alterar ligeramente la geometría "
-"del modelo original, pero suele ser menor. Tu carpeta de salida contendrá un "
-"archivo .baked.fst, un archivo .baked.fbx (el formato original de tu modelo "
-"puede ser diferente) y un archivo .baked.json (materiales). Debido a que el "
-"archivo JSON de materiales horneados hace referencia a los archivos de "
-"texturas horneadas, todas las texturas se eliminan del archivo .baked.fbx. "
-"Se hace referencia a este archivo JSON en el campo `materialMap` en el "
-"archivo .baked.fst. Admitimos los siguientes formatos: FBX, OBJ y FST (que "
-"apunta a un tipo compatible)."
+"<https://github.com/google/draco>`_ y también horneará todos los "
+"materiales del modelo. La compresión de la malla puede alterar "
+"ligeramente la geometría del modelo original, pero suele ser menor. Tu "
+"carpeta de salida contendrá un archivo .baked.fst, un archivo .baked.fbx "
+"(el formato original de tu modelo puede ser diferente) y un archivo "
+".baked.json (materiales). Debido a que el archivo JSON de materiales "
+"horneados hace referencia a los archivos de texturas horneadas, todas las"
+" texturas se eliminan del archivo .baked.fbx. Se hace referencia a este "
+"archivo JSON en el campo `materialMap` en el archivo .baked.fst. "
+"Admitimos los siguientes formatos: FBX, OBJ y FST (que apunta a un tipo "
+"compatible)."
 
 #: ../../source/host/add-content/bake-content.rst:45
 msgid "Avatars"
@@ -287,17 +287,17 @@ msgid ""
 "avatar <../../create/avatars/package-avatar.html#host-your-avatar>`_."
 msgstr ""
 "Como los avatares son modelos 3D, puedes hornear avatares con los mismos "
-"resultados que arriba. Utiliza el archivo .baked.fst resultante para `alojar "
-"y vestir tu avatar horneado <../../create/avatars/package-avatar.html#host-"
-"your-avatar>`_."
+"resultados que arriba. Utiliza el archivo .baked.fst resultante para "
+"`alojar y vestir tu avatar horneado <../../create/avatars/package-"
+"avatar.html#host-your-avatar>`_."
 
 #: ../../source/host/add-content/bake-content.rst:49
 msgid ""
 "The Oven has two different interfaces: an application and a command line "
 "interface. Use the one that best fits your needs."
 msgstr ""
-"El Oven tiene dos interfaces diferentes: una aplicación y una interfaz de "
-"línea de comandos. Utiliza el que mejor se adapte a tus necesidades."
+"El Oven tiene dos interfaces diferentes: una aplicación y una interfaz de"
+" línea de comandos. Utiliza el que mejor se adapte a tus necesidades."
 
 #: ../../source/host/add-content/bake-content.rst:53
 msgid "Using the Oven Application"
@@ -360,9 +360,9 @@ msgid ""
 " by `exporting your content to JSON <export-content.html#export-entities-"
 "to-json>`_."
 msgstr ""
-"Carga un .json o .json.gz de los activos en tu dominio. Esto se puede hacer `"
-"exportando tu contenido a JSON <export-content.html#export-entities-to-"
-"json>`_."
+"Carga un .json o .json.gz de los activos en tu dominio. Esto se puede "
+"hacer `exportando tu contenido a JSON <export-content.html#export-"
+"entities-to-json>`_."
 
 #: ../../source/host/add-content/bake-content.rst:74
 msgid "Model File(s)"
@@ -411,8 +411,8 @@ msgid ""
 "service, enter that URL here."
 msgstr ""
 "Ingresa las rutas absolutas de dónde se cargarán tus recursos después de "
-"hornear. Por ejemplo, si almacenas modelos 3D personalizados en un servicio "
-"de alojamiento en la nube, ingresa esa URL aquí."
+"hornear. Por ejemplo, si almacenas modelos 3D personalizados en un "
+"servicio de alojamiento en la nube, ingresa esa URL aquí."
 
 #: ../../source/host/add-content/bake-content.rst:88
 msgid "Re-bake Originals"
@@ -433,10 +433,11 @@ msgid ""
 "This ensures that all content will load correctly when you :doc:`upload "
 "the baked content set <upload-content>` to your domain."
 msgstr ""
-"Después de hornear un dominio, no olvides cargar todo el contenido horneado ("
-"modelos 3D, skyboxes, etc.) a la URL especificada para \"Destination URL "
-"Path\". Esto asegura que todo el contenido se cargue correctamente cuando "
-":doc:`subas el conjunto de contenido horneado <upload-content>` a tu dominio."
+"Después de hornear un dominio, no olvides cargar todo el contenido "
+"horneado (modelos 3D, skyboxes, etc.) a la URL especificada para "
+"\"Destination URL Path\". Esto asegura que todo el contenido se cargue "
+"correctamente cuando :doc:`subas el conjunto de contenido horneado "
+"<upload-content>` a tu dominio."
 
 #: ../../source/host/add-content/bake-content.rst:97
 msgid "Using the Commmand Line Interface"
@@ -468,12 +469,12 @@ msgid ""
 "emissive, cube (same as skybox), skybox, ambient, occlusion, scattering, "
 "and lightmap."
 msgstr ""
-"t: Tipo de activo (asset). El valor puede ser \"model\" (para cualquier tipo "
-"de modelo) y \"material\" (para una descripción JSON de material). Para las "
-"texturas, los valores difieren según el tipo de textura que quieras hornear, "
-"como por defecto, strict, albedo, normal, bump, specular, metallic, "
-"roughness, gloss, emissive, cube (misma que skybox), skybox, ambient, "
-"occlusion, scattering, and lightmap."
+"t: Tipo de activo (asset). El valor puede ser \"model\" (para cualquier "
+"tipo de modelo) y \"material\" (para una descripción JSON de material). "
+"Para las texturas, los valores difieren según el tipo de textura que "
+"quieras hornear, como por defecto, strict, albedo, normal, bump, "
+"specular, metallic, roughness, gloss, emissive, cube (misma que skybox), "
+"skybox, ambient, occlusion, scattering, and lightmap."
 
 #: ../../source/host/add-content/bake-content.rst:104
 msgid ""
@@ -482,14 +483,14 @@ msgid ""
 "artifacts."
 msgstr ""
 "disable-texture-compression: Deshabilita la compresión de texturas para "
-"cualquier tipo. Usa esto solo si la compresión de textura está introduciendo "
-"demasiados artefactos."
+"cualquier tipo. Usa esto solo si la compresión de textura está "
+"introduciendo demasiados artefactos."
 
 #: ../../source/host/add-content/bake-content.rst:106
 msgid "To bake a 3D model through the Oven's command line interface::"
 msgstr ""
-"Para hornear un modelo 3D a través de la interfaz de línea de comandos de "
-"Oven:"
+"Para hornear un modelo 3D a través de la interfaz de línea de comandos de"
+" Oven:"
 
 #: ../../source/host/add-content/bake-content.rst:111
 msgid "To bake a material through the Oven's command line interface::"
@@ -510,11 +511,11 @@ msgid ""
 " branch out and build content of your own. If you don't know where to "
 "begin, this is a great place to start."
 msgstr ""
-"Tal vez hayas vagado por el metaverso y estés inspirado por la creatividad "
-"de los demás. O tal vez ninguno de los otros dominios se ajuste realmente a "
-"la atmósfera de lo que tienes en mente. Sea cual sea el motivo, estás listo "
-"para diversificarte y crear tu propio contenido. Si no sabe por dónde "
-"empezar, este es un gran lugar para comenzar."
+"Tal vez hayas vagado por el metaverso y estés inspirado por la "
+"creatividad de los demás. O tal vez ninguno de los otros dominios se "
+"ajuste realmente a la atmósfera de lo que tienes en mente. Sea cual sea "
+"el motivo, estás listo para diversificarte y crear tu propio contenido. "
+"Si no sabe por dónde empezar, este es un gran lugar para comenzar."
 
 #: ../../source/host/add-content/create-content.rst:16
 msgid "Tools for Creating Content"
@@ -527,11 +528,11 @@ msgid ""
 "our :doc:`Create <../../create>` section to learn more about the "
 "available tools and examples of how to make your environment more alive:"
 msgstr ""
-"Un conjunto de contenido es simplemente una colección de muchas entidades, "
-"modelos y scripts diferentes que trabajan juntos para formar un entorno "
-"interactivo. Visita nuestra sección :doc:`Crear <../../create>`para obtener "
-"más información sobre las herramientas disponibles y ejemplos de cómo hacer "
-"que tu entorno sea más vivo:"
+"Un conjunto de contenido es simplemente una colección de muchas "
+"entidades, modelos y scripts diferentes que trabajan juntos para formar "
+"un entorno interactivo. Visita nuestra sección :doc:`Crear "
+"<../../create>`para obtener más información sobre las herramientas "
+"disponibles y ejemplos de cómo hacer que tu entorno sea más vivo:"
 
 #: ../../source/host/add-content/create-content.rst:20
 msgid ":doc:`Create Tools <../../create/tools>`"
@@ -567,11 +568,11 @@ msgid ""
 "complete."
 msgstr ""
 "Crear un conjunto de contenido (content set) puede ser complicado porque "
-"estás diseñando un entorno completo, en lugar de un solo elemento. Es como "
-"construir una ciudad entera, que se compone de muchos edificios, árboles y "
-"caminos. Algunos artistas quieren compartir su progreso, cada paso del "
-"camino recorrido. Otros quieren esperar para mostrar su creación hasta que "
-"se complete la construcción final."
+"estás diseñando un entorno completo, en lugar de un solo elemento. Es "
+"como construir una ciudad entera, que se compone de muchos edificios, "
+"árboles y caminos. Algunos artistas quieren compartir su progreso, cada "
+"paso del camino recorrido. Otros quieren esperar para mostrar su creación"
+" hasta que se complete la construcción final."
 
 #: ../../source/host/add-content/create-content.rst:32
 msgid ""
@@ -582,8 +583,8 @@ msgid ""
 msgstr ""
 "Te permitimos elegir cómo deseas crear e implementar tu contenido. El "
 "proceso para actualizar el conjunto de contenido en tu dominio diferirá "
-"según el enfoque que utilices para crear tu contenido. Elije el método que "
-"te parezca mejor para seguir aprendiendo más:"
+"según el enfoque que utilices para crear tu contenido. Elije el método "
+"que te parezca mejor para seguir aprendiendo más:"
 
 #: ../../source/host/add-content/create-content.rst:35
 msgid "Method"
@@ -599,9 +600,9 @@ msgid ""
 " domain in the metaverse. This means that any visitors in your domain "
 "will see the changes as they happen."
 msgstr ""
-"A medida que realices un cambio en tu contenido, aparecerá inmediatamente en "
-"tu dominio en el metaverso. Esto significa que todos los visitantes de tu "
-"dominio verán los cambios a medida que se produzcan."
+"A medida que realices un cambio en tu contenido, aparecerá inmediatamente"
+" en tu dominio en el metaverso. Esto significa que todos los visitantes "
+"de tu dominio verán los cambios a medida que se produzcan."
 
 #: ../../source/host/add-content/create-content.rst:40
 msgid "`Under Construction`_"
@@ -614,8 +615,8 @@ msgid ""
 "while it is under construction."
 msgstr ""
 "Durante el tiempo que estás construyendo tu conjunto de contenido, tu "
-"dominio figura como no disponible (offline) para los visitantes externos. "
-"Los usuarios no podrán visitar tu dominio mientras esté en construcción."
+"dominio figura como no disponible (offline) para los visitantes externos."
+" Los usuarios no podrán visitar tu dominio mientras esté en construcción."
 
 #: ../../source/host/add-content/create-content.rst:43
 msgid "`Create and Deploy`_"
@@ -629,10 +630,10 @@ msgid ""
 "domain with any placeholder content while you design your custom content."
 msgstr ""
 "Aquí, prefieres crear tu contenido en un entorno offline. Una vez que se "
-"complete, deberás exportar tu conjunto de contenido a un archivo externo y "
-"luego implementarlo en tu dominio. Los visitantes pueden continuar visitando "
-"tu dominio con cualquier contenido de marcador de posición mientras diseñas "
-"tu contenido personalizado."
+"complete, deberás exportar tu conjunto de contenido a un archivo externo "
+"y luego implementarlo en tu dominio. Los visitantes pueden continuar "
+"visitando tu dominio con cualquier contenido de marcador de posición "
+"mientras diseñas tu contenido personalizado."
 
 #: ../../source/host/add-content/create-content.rst:51
 msgid "Make Live Updates"
@@ -658,12 +659,12 @@ msgid ""
 "making changes using the :doc:`Create Tools <../../create/tools>`."
 msgstr ""
 "Antes de seguir esta ruta, decide a quién (si es que hay alguien) te "
-"gustaría modificarle tu propio conjunto de contenido, y :doc:`verificar que "
-"sus permisos rez estén configurados correctamente <../configure-settings/"
-"permission-settings>`. Si vas a ser tú quien realice los cambios, asegúrate "
-"de tener derechos rez. Para actualizar tu contenido, todo lo que necesitas "
-"es visitar tu dominio y comenzar a hacer cambios usando las :doc:`"
-"Herramientas de Creación <../../create/tools>`."
+"gustaría modificarle tu propio conjunto de contenido, y :doc:`verificar "
+"que sus permisos rez estén configurados correctamente <../configure-"
+"settings/permission-settings>`. Si vas a ser tú quien realice los "
+"cambios, asegúrate de tener derechos rez. Para actualizar tu contenido, "
+"todo lo que necesitas es visitar tu dominio y comenzar a hacer cambios "
+"usando las :doc:`Herramientas de Creación <../../create/tools>`."
 
 #: ../../source/host/add-content/create-content.rst:57
 #: ../../source/host/add-content/create-content.rst:82
@@ -672,10 +673,10 @@ msgid ""
 "your Domain Settings to :doc:`view and download the backups of your "
 "content sets <../maintain-domain/backup-domain>` over time."
 msgstr ""
-"Tu servidor crea archivos regulares del contenido de tu dominio. Visita la "
-"configuración de tu dominio para :doc:`ver y descargar las copias de "
-"seguridad de tus conjuntos de contenido <../maintain-domain/backup-domain>` "
-"con tiempo."
+"Tu servidor crea archivos regulares del contenido de tu dominio. Visita "
+"la configuración de tu dominio para :doc:`ver y descargar las copias de "
+"seguridad de tus conjuntos de contenido <../maintain-domain/backup-"
+"domain>` con tiempo."
 
 #: ../../source/host/add-content/create-content.rst:59
 msgid ""
@@ -689,15 +690,15 @@ msgid ""
 "create their own content in your domain, but not be able to change your "
 "domain's content set."
 msgstr ""
-"**Tip**: Es posible \"bloquear\" el contenido que has creado, para que los "
-"visitantes puedan crear contenido nuevo sin modificar tu contenido "
+"**Tip**: Es posible \"bloquear\" el contenido que has creado, para que "
+"los visitantes puedan crear contenido nuevo sin modificar tu contenido "
 "personalizado. Por ejemplo, puedes bloquear las paredes y el piso de una "
-"habitación, pero dejar que tus visitantes creen sus propias mesas y sillas. "
-"Para proteger tu propio conjunto de contenido personalizado, bloquea las "
-"entidades que creaste. Cuando configures tus permisos para tus visitantes, "
-"niégales el acceso a \"Bloquear/Desbloquear\", pero concédeles permisos "
-"'Rez'. Podrán crear su propio contenido en tu dominio, pero no podrán "
-"cambiar el conjunto de contenido de tu dominio."
+"habitación, pero dejar que tus visitantes creen sus propias mesas y "
+"sillas. Para proteger tu propio conjunto de contenido personalizado, "
+"bloquea las entidades que creaste. Cuando configures tus permisos para "
+"tus visitantes, niégales el acceso a \"Bloquear/Desbloquear\", pero "
+"concédeles permisos 'Rez'. Podrán crear su propio contenido en tu "
+"dominio, pero no podrán cambiar el conjunto de contenido de tu dominio."
 
 #: ../../source/host/add-content/create-content.rst:64
 msgid "Under Construction"
@@ -709,9 +710,9 @@ msgid ""
 " temporarily and prevent users from visiting while it is under "
 "construction."
 msgstr ""
-"Mientras realizas cambios en a tu conjunto de contenido, puedes eliminar tu "
-"dominio temporalmente y evitar que los usuarios lo visiten mientras está en "
-"construcción."
+"Mientras realizas cambios en a tu conjunto de contenido, puedes eliminar "
+"tu dominio temporalmente y evitar que los usuarios lo visiten mientras "
+"está en construcción."
 
 #: ../../source/host/add-content/create-content.rst:68
 msgid ""
@@ -720,10 +721,10 @@ msgid ""
 "When you are done, all you need to do is re-enable the 'Connect' "
 "permission."
 msgstr ""
-"Para hacer esto, simplemente elimina el permiso \"Connect\" para todos los "
-"usuarios menos para ti (y cualquier otro co-creador que trabaje contigo). "
-"Cuando hayas terminado, todo lo que necesita hacer es volver a habilitar el "
-"permiso \"Connect\"."
+"Para hacer esto, simplemente elimina el permiso \"Connect\" para todos "
+"los usuarios menos para ti (y cualquier otro co-creador que trabaje "
+"contigo). Cuando hayas terminado, todo lo que necesita hacer es volver a "
+"habilitar el permiso \"Connect\"."
 
 #: ../../source/host/add-content/create-content.rst:70
 #: ../../source/host/add-content/export-content.rst:49
@@ -764,9 +765,9 @@ msgid ""
 "For cloud hosted domains: Open a browser and enter the URL http://<insert"
 " your server's IP address here>:40100/settings. Log in when prompted."
 msgstr ""
-"Para dominios alojados en la nube: abre un navegador e ingresa la URL http://"
-"<inserta la dirección IP de tu servidor aquí>:40100/settings. Inicia sesión "
-"cuando se te solicite."
+"Para dominios alojados en la nube: abre un navegador e ingresa la URL "
+"http://<inserta la dirección IP de tu servidor aquí>:40100/settings. "
+"Inicia sesión cuando se te solicite."
 
 #: ../../source/host/add-content/create-content.rst:73
 #: ../../source/host/add-content/export-content.rst:52
@@ -789,8 +790,8 @@ msgid ""
 "For local servers on Windows: Click on the Vircadia icon in the system "
 "tray, then click 'Settings'."
 msgstr ""
-"Para servidores locales en Windows: Haz click en el ícono de Vircadia en la "
-"bandeja del sistema, luego haz click en \"Settings\"."
+"Para servidores locales en Windows: Haz click en el ícono de Vircadia en "
+"la bandeja del sistema, luego haz click en \"Settings\"."
 
 #: ../../source/host/add-content/create-content.rst:74
 #: ../../source/host/add-content/export-content.rst:53
@@ -811,8 +812,8 @@ msgid ""
 "For local servers on Mac: Right-click the Vircadia icon on the top menu "
 "bar, then click 'Settings'."
 msgstr ""
-"Para servidores locales en Mac: haz click derecho en el ícono de Vircadia en "
-"la barra de menú superior, luego haz click en \"Settings\"."
+"Para servidores locales en Mac: haz click derecho en el ícono de Vircadia"
+" en la barra de menú superior, luego haz click en \"Settings\"."
 
 #: ../../source/host/add-content/create-content.rst:75
 msgid "On the top menu bar, select **Settings > Security**."
@@ -828,9 +829,9 @@ msgid ""
 "users and groups (except yourself and anyone else working on the "
 "content)."
 msgstr ""
-"Para cada grupo de Permisos, desmarca el permiso \"Connect\" para todos los "
-"usuarios y grupos (excepto para ti y cualquier otra persona que trabaje en "
-"el contenido)."
+"Para cada grupo de Permisos, desmarca el permiso \"Connect\" para todos "
+"los usuarios y grupos (excepto para ti y cualquier otra persona que "
+"trabaje en el contenido)."
 
 #: ../../source/host/add-content/create-content.rst:78
 msgid "Click 'Save' and close the Domain Settings page."
@@ -843,10 +844,10 @@ msgid ""
 "recommend locking all of your content so that it cannot be modified by "
 "visitors to your domain."
 msgstr ""
-"Una vez que hayas establecido los permisos, visita tu dominio y comienza a "
-"crear tu conjunto de contenido utilizando las :doc:`Herramientas de Creación "
-"<../../create/tools>`. Recomendamos bloquear todo tu contenido para que los "
-"visitantes de tu dominio no puedan modificarlo."
+"Una vez que hayas establecido los permisos, visita tu dominio y comienza "
+"a crear tu conjunto de contenido utilizando las :doc:`Herramientas de "
+"Creación <../../create/tools>`. Recomendamos bloquear todo tu contenido "
+"para que los visitantes de tu dominio no puedan modificarlo."
 
 #: ../../source/host/add-content/create-content.rst:84
 msgid ""
@@ -854,9 +855,10 @@ msgid ""
 "permission for your visitors. These users will be able to visit your "
 "domain again with the server's IP address or place name."
 msgstr ""
-"Cuando haya terminado, sigue los pasos anteriores para volver a habilitar el "
-"permiso de conexión para tus visitantes. Estos usuarios podrán volver a "
-"visitar tu dominio con la dirección IP del servidor o el nombre del lugar."
+"Cuando haya terminado, sigue los pasos anteriores para volver a habilitar"
+" el permiso de conexión para tus visitantes. Estos usuarios podrán volver"
+" a visitar tu dominio con la dirección IP del servidor o el nombre del "
+"lugar."
 
 #: ../../source/host/add-content/create-content.rst:89
 msgid "Create and Deploy"
@@ -892,9 +894,9 @@ msgid ""
 "domain while you build your content, deploy your content set to multiple "
 "domains, or test your content before you deploy."
 msgstr ""
-"Recomendamos usar este método si deseas evitar la interrupción de tu dominio "
-"mientras creas tu contenido, implementa tu conjunto de contenido en varios "
-"dominios o prueba tu contenido antes de implementarlo."
+"Recomendamos usar este método si deseas evitar la interrupción de tu "
+"dominio mientras creas tu contenido, implementa tu conjunto de contenido "
+"en varios dominios o prueba tu contenido antes de implementarlo."
 
 #: ../../source/host/add-content/create-content.rst:100
 msgid ""
@@ -919,7 +921,8 @@ msgid ""
 "`Export your content to JSON <export-content.html#export-entities-to-"
 "json>`_."
 msgstr ""
-"`Exporta tu contenido a JSON <export-content.html#export-entities-to-json>`_."
+"`Exporta tu contenido a JSON <export-content.html#export-entities-to-"
+"json>`_."
 
 #: ../../source/host/add-content/create-content.rst:104
 msgid ""
@@ -935,25 +938,25 @@ msgid ""
 "JSON to your local server. Switch computers so you're back on your local "
 "server."
 msgstr ""
-"(Solo servidores locales) Transfiere el archivo comprimido descargado o el "
-"JSON horneado a tu servidor local. Cambia de computadora para volver a tu "
-"servidor local."
+"(Solo servidores locales) Transfiere el archivo comprimido descargado o "
+"el JSON horneado a tu servidor local. Cambia de computadora para volver a"
+" tu servidor local."
 
 #: ../../source/host/add-content/create-content.rst:106
 msgid ""
 "Log in to your server's domain settings and :doc:`upload your exported or"
 " baked JSON to your domain <upload-content>`."
 msgstr ""
-"Inicia sesión en la configuración de dominio de tu servidor y :doc:`sube tu "
-"archivo JSON exportado u horneado a tu dominio <upload-content>`."
+"Inicia sesión en la configuración de dominio de tu servidor y :doc:`sube "
+"tu archivo JSON exportado u horneado a tu dominio <upload-content>`."
 
 #: ../../source/host/add-content/create-content.rst:108
 msgid ""
 "Once your content is uploaded, your domain will automatically restart "
 "with your new custom content."
 msgstr ""
-"Una vez que se cargue tu contenido, tu dominio se reiniciará automáticamente "
-"con tu nuevo contenido personalizado."
+"Una vez que se cargue tu contenido, tu dominio se reiniciará "
+"automáticamente con tu nuevo contenido personalizado."
 
 #: ../../source/host/add-content/export-content.rst:9
 msgid ""
@@ -963,18 +966,18 @@ msgid ""
 "resource URLs and every other property entity property."
 msgstr ""
 "Para crear una copia de seguridad de tu contenido, debes exportarlo a un "
-"archivo externo. Este archivo contiene toda la información sobre los activos "
-"que componen tu dominio: los tipos de activos, las dimensiones, las "
-"posiciones, la física, las URL de los recursos y todas las demás propiedades "
-"de la entidad de propiedad."
+"archivo externo. Este archivo contiene toda la información sobre los "
+"activos que componen tu dominio: los tipos de activos, las dimensiones, "
+"las posiciones, la física, las URL de los recursos y todas las demás "
+"propiedades de la entidad de propiedad."
 
 #: ../../source/host/add-content/export-content.rst:11
 msgid ""
 "Many domain creation and maintenance tasks require content backups, "
 "including:"
 msgstr ""
-"Muchas tareas de creación y mantenimiento de dominios requieren copias de "
-"seguridad de contenido, que incluyen:"
+"Muchas tareas de creación y mantenimiento de dominios requieren copias de"
+" seguridad de contenido, que incluyen:"
 
 #: ../../source/host/add-content/export-content.rst:13
 msgid "Baking content for optimization"
@@ -1042,24 +1045,24 @@ msgstr ""
 "En la Lista de entidades, selecciona las entidades que quieres exportar. "
 "Para seleccionar todas las entidades, usa el atajo de teclado ``Ctrl`` + "
 "``A``. Para seleccionar más de una entidad adyacente, haz click en la "
-"primera entidad, mantén presionada la tecla ``Shift``, luego haz click en la "
-"última entidad. Para seleccionar más de una entidad no adyacente, mantén "
-"presionada la tecla ``Ctrl`` mientras haces click en las entidades que "
-"quieres seleccionar."
+"primera entidad, mantén presionada la tecla ``Shift``, luego haz click en"
+" la última entidad. Para seleccionar más de una entidad no adyacente, "
+"mantén presionada la tecla ``Ctrl`` mientras haces click en las entidades"
+" que quieres seleccionar."
 
 #: ../../source/host/add-content/export-content.rst:36
 msgid ""
 "Once you've selected all of the entities you want to export, click "
 "'Export Selection'."
 msgstr ""
-"Una vez que haya seleccionado todas las entidades que deseas exportar, haz "
-"click en \"Export Selection\"."
+"Una vez que haya seleccionado todas las entidades que deseas exportar, "
+"haz click en \"Export Selection\"."
 
 #: ../../source/host/add-content/export-content.rst:37
 msgid "Browse to a folder location and enter a name for the exported JSON file."
 msgstr ""
-"Navega a una ubicación de carpeta e ingresa un nombre para el archivo JSON "
-"exportado."
+"Navega a una ubicación de carpeta e ingresa un nombre para el archivo "
+"JSON exportado."
 
 #: ../../source/host/add-content/export-content.rst:38
 #: ../../source/host/configure-settings/place-setting.rst:43
@@ -1079,11 +1082,11 @@ msgid ""
 "domain. These backup files are called *content archives*."
 msgstr ""
 "Por defecto, Vircadia crea archivos de contenido regulares de todos los "
-"dominios activos en el metaverso. Esto significa que si tienes un dominio "
-"registrado en el metaverso (ya sea a través de un servidor local o "
-"DigitalOcean), entonces ya hemos creado una copia de seguridad del contenido "
-"que está instalado en tu dominio. Estos archivos de copia de seguridad se "
-"denominan *content archives*."
+"dominios activos en el metaverso. Esto significa que si tienes un dominio"
+" registrado en el metaverso (ya sea a través de un servidor local o "
+"DigitalOcean), entonces ya hemos creado una copia de seguridad del "
+"contenido que está instalado en tu dominio. Estos archivos de copia de "
+"seguridad se denominan *content archives*."
 
 #: ../../source/host/add-content/export-content.rst:47
 msgid "To retrieve these backups:"
@@ -1117,8 +1120,7 @@ msgstr ""
 #: ../../source/host/maintain-domain/backup-domain.rst:65
 #: ../../source/host/maintain-domain/backup-domain.rst:81
 msgid "On the top menu bar, select **Content > Content Archives**."
-msgstr ""
-"En la barra de menú superior, selecciona **Content > Content Archives**."
+msgstr "En la barra de menú superior, selecciona **Content > Content Archives**."
 
 #: ../../source/host/add-content/export-content.rst:56
 msgid ""
@@ -1140,7 +1142,8 @@ msgid ""
 "contains all of the assets in your domain, along with their properties."
 msgstr ""
 "Cuando comprimas el archivo de contenido, busca \"models.json.gz\". Este "
-"archivo contiene todos los recursos de tu dominio, junto con sus propiedades."
+"archivo contiene todos los recursos de tu dominio, junto con sus "
+"propiedades."
 
 #: ../../source/host/add-content/export-content.rst:64
 msgid "Create a Manual Content Archive"
@@ -1151,8 +1154,8 @@ msgid ""
 "The final method of exporting your content is to create a manual content "
 "archive of your domain. This is recommended if you want to:"
 msgstr ""
-"El método final para exportar tu contenido es crear un archivo de contenido "
-"manual de tu dominio. Esto se recomienda si deseas:"
+"El método final para exportar tu contenido es crear un archivo de "
+"contenido manual de tu dominio. Esto se recomienda si deseas:"
 
 #: ../../source/host/add-content/export-content.rst:68
 msgid "Deploy your content to multiple domains"
@@ -1170,7 +1173,8 @@ msgstr "Para crear un archivo de contenido y descargarlo:"
 #: ../../source/host/maintain-domain/backup-domain.rst:48
 msgid "Under 'Manual Content Archives', click 'Generate New Archive'."
 msgstr ""
-"Debajo de \"Manual Content Archives\", haz clik en \"Generate New Archive\"."
+"Debajo de \"Manual Content Archives\", haz clik en \"Generate New "
+"Archive\"."
 
 #: ../../source/host/add-content/export-content.rst:81
 msgid ""
@@ -1186,9 +1190,9 @@ msgid ""
 "files. From here, you can upload your content archive to another domain "
 "or send it to others."
 msgstr ""
-"El archivo de contenido incluye \"models.json.gz\", junto con otros archivos "
-"de respaldo. Desde aquí, puedes cargar tu archivo de contenido a otro "
-"dominio o enviarlo a otros."
+"El archivo de contenido incluye \"models.json.gz\", junto con otros "
+"archivos de respaldo. Desde aquí, puedes cargar tu archivo de contenido a"
+" otro dominio o enviarlo a otros."
 
 #: ../../source/host/add-content/upload-content.rst:3
 msgid "Upload Content to your Domain"
@@ -1205,12 +1209,12 @@ msgid ""
 "time."
 msgstr ""
 "Ya sea que hayas creado tu propio conjunto de contenido, horneado (bake) "
-"contenido u obtenido un conjunto de contenido de un amigo, deberás cargarlo "
-"en tu dominio. Una vez que cargues un conjunto de contenido, sobrescribirá "
-"todo el contenido existente en tu dominio. Ten en cuenta que los archivos de "
-"respaldo existentes del contenido de tu dominio no se cambiarán de "
-"inmediato, por lo que si no te gusta la nueva apariencia de tu dominio, "
-"puedes restaurar tu contenido anterior en cualquier momento."
+"contenido u obtenido un conjunto de contenido de un amigo, deberás "
+"cargarlo en tu dominio. Una vez que cargues un conjunto de contenido, "
+"sobrescribirá todo el contenido existente en tu dominio. Ten en cuenta "
+"que los archivos de respaldo existentes del contenido de tu dominio no se"
+" cambiarán de inmediato, por lo que si no te gusta la nueva apariencia de"
+" tu dominio, puedes restaurar tu contenido anterior en cualquier momento."
 
 #: ../../source/host/add-content/upload-content.rst:7
 msgid "To upload and install new content to your domain:"
@@ -1235,10 +1239,10 @@ msgid ""
 "content-archive>`_ itself."
 msgstr ""
 "Busca tu archivo de contenido. Esto puede ser un `.json de entidades "
-"exportadas <export-content.html#export-entities-to-json>`_, un .json.gz de "
-"un `archivo de contenido extraído <export-content.html#create-a-manual-"
-"content-archive>`_, o un `archivo de contenido <export-content.html#create-a"
-"-manual-content-archive>`_ mismo."
+"exportadas <export-content.html#export-entities-to-json>`_, un .json.gz "
+"de un `archivo de contenido extraído <export-content.html#create-a"
+"-manual-content-archive>`_, o un `archivo de contenido <export-"
+"content.html#create-a-manual-content-archive>`_ mismo."
 
 #: ../../source/host/add-content/upload-content.rst:18
 #: ../../source/host/maintain-domain/backup-domain.rst:92
@@ -1250,16 +1254,16 @@ msgid ""
 "Confirm that you are sure that you want to replace your current content "
 "with the new content set."
 msgstr ""
-"Confirma que estás seguro de que deseas reemplazar tu contenido actual con "
-"el nuevo conjunto de contenido."
+"Confirma que estás seguro de que deseas reemplazar tu contenido actual "
+"con el nuevo conjunto de contenido."
 
 #: ../../source/host/add-content/upload-content.rst:21
 msgid ""
 "At this point, your domain server will restart and the new content will "
 "be deployed in your domain."
 msgstr ""
-"En este punto, tu servidor de dominio se reiniciará y el nuevo contenido se "
-"implementará en tu dominio."
+"En este punto, tu servidor de dominio se reiniciará y el nuevo contenido "
+"se implementará en tu dominio."
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/network-settings.rst:3
@@ -1297,9 +1301,9 @@ msgid ""
 "let you customize its networking properties, security, behavior, and "
 "more. To access your domain settings:"
 msgstr ""
-"Tu dominio viene con un conjunto completo de opciones de configuración que "
-"te permiten personalizar tus propiedades de red, seguridad, comportamiento y "
-"más. Para acceder a la configuración de tu dominio:"
+"Tu dominio viene con un conjunto completo de opciones de configuración "
+"que te permiten personalizar tus propiedades de red, seguridad, "
+"comportamiento y más. Para acceder a la configuración de tu dominio:"
 
 #: ../../source/host/configure-settings.rst:9
 #: ../../source/host/server-setup/windows-server.rst:34
@@ -1307,8 +1311,8 @@ msgid ""
 "For local servers running on any OS, go to "
 "http://localhost:40100/settings."
 msgstr ""
-"Para servidores locales que se ejecutan en cualquier sistema operativo, ve a "
-"http://localhost:40100/settings."
+"Para servidores locales que se ejecutan en cualquier sistema operativo, "
+"ve a http://localhost:40100/settings."
 
 #: ../../source/host/configure-settings/audio-settings.rst:5
 msgid ""
@@ -1319,8 +1323,8 @@ msgid ""
 msgstr ""
 "El audio es una parte integral de la experiencia de un visitante en tu "
 "dominio. El audio de calidad es esencial para facilitar la comunicación "
-"entre personas reales y tiene un impacto significativo en la sensación de "
-"inmersión y presencia en el mundo del usuario."
+"entre personas reales y tiene un impacto significativo en la sensación de"
+" inmersión y presencia en el mundo del usuario."
 
 #: ../../source/host/configure-settings/audio-settings.rst:7
 msgid ""
@@ -1334,11 +1338,12 @@ msgid ""
 msgstr ""
 "Tú defines exactamente cómo se implementa en tu dominio el audio estéreo "
 "inmersivo 3D de Vircadia. No solo puedes controlar la configuración del "
-"mezclador de audio del servidor hasta cierto punto, sino que también tienes "
-"control total sobre los niveles de atenuación y reverberación en todo el "
-"dominio. Al definir zonas, puedes definir áreas insonorizadas para reuniones "
-"privadas y escenarios amplificados para presentaciones. Todo esto es posible "
-"cambiando la configuración de audio en la configuración de tu dominio."
+"mezclador de audio del servidor hasta cierto punto, sino que también "
+"tienes control total sobre los niveles de atenuación y reverberación en "
+"todo el dominio. Al definir zonas, puedes definir áreas insonorizadas "
+"para reuniones privadas y escenarios amplificados para presentaciones. "
+"Todo esto es posible cambiando la configuración de audio en la "
+"configuración de tu dominio."
 
 #: ../../source/host/configure-settings/audio-settings.rst:14
 msgid "Audio Environment"
@@ -1354,11 +1359,11 @@ msgid ""
 "listener."
 msgstr ""
 "El entorno de audio define cómo se transmite el sonido a lo largo de tu "
-"dominio. Hemos diseñado nuestra configuración de audio predeterminada para "
-"imitar la realidad, es decir, intentamos lograr una sensación de presencia "
-"reflejando voces y sonidos en las superficies del espacio virtual. Además, "
-"ajustamos el volumen del sonido en función de la distancia entre la fuente y "
-"el oyente."
+"dominio. Hemos diseñado nuestra configuración de audio predeterminada "
+"para imitar la realidad, es decir, intentamos lograr una sensación de "
+"presencia reflejando voces y sonidos en las superficies del espacio "
+"virtual. Además, ajustamos el volumen del sonido en función de la "
+"distancia entre la fuente y el oyente."
 
 #: ../../source/host/configure-settings/audio-settings.rst:18
 msgid ""
@@ -1367,10 +1372,11 @@ msgid ""
 "settings by adjusting the attenuation and the reverb levels (go to "
 "**Domain Settings > Content > Audio Environment**)."
 msgstr ""
-"Sin embargo, entendemos que nuestra ecuación puede no coincidir exactamente "
-"con lo que estás buscando en tu dominio. Puedes cambiar la configuración de "
-"audio de todo el dominio ajustando la atenuación y los niveles de "
-"reverberación (ve a **Domain Settings > Content > Audio Environment**)."
+"Sin embargo, entendemos que nuestra ecuación puede no coincidir "
+"exactamente con lo que estás buscando en tu dominio. Puedes cambiar la "
+"configuración de audio de todo el dominio ajustando la atenuación y los "
+"niveles de reverberación (ve a **Domain Settings > Content > Audio "
+"Environment**)."
 
 #: ../../source/host/configure-settings/audio-settings.rst:20
 msgid ""
@@ -1385,18 +1391,19 @@ msgid ""
 "volume. Likewise, the default attenuation for a domain can be set very "
 "high (to a max value of 1), making only things very near to you audible."
 msgstr ""
-"*Atenuación* determina cuánto más silenciosos se vuelven los sonidos a lo "
-"largo de la distancia. La atenuación de dominio predeterminada es la "
-"cantidad de reducción de ruido que está habilitada en todo el entorno del "
-"dominio. Los dominios de Vircadia tienen por defecto una curva de atenuación "
-"de distancia más o menos como en el mundo real. Si ves dos avatares hablando "
-"a la distancia, puedes escucharlos, pero no muy bien. Si te acercas a ellos, "
-"se vuelven más audibles de una manera que se aproxima a lo que probablemente "
-"estás acostumbrado. Si la atenuación predeterminada es 0, no importa qué tan "
-"lejos esté la fuente de sonido, seguirá reproduciéndose a todo volumen. Del "
-"mismo modo, la atenuación predeterminada para un dominio se puede configurar "
-"muy alta (hasta un valor máximo de 1), haciendo que solo se escuchen las "
-"cosas que están muy cerca de ti."
+"*Atenuación* determina cuánto más silenciosos se vuelven los sonidos a lo"
+" largo de la distancia. La atenuación de dominio predeterminada es la "
+"cantidad de reducción de ruido que está habilitada en todo el entorno del"
+" dominio. Los dominios de Vircadia tienen por defecto una curva de "
+"atenuación de distancia más o menos como en el mundo real. Si ves dos "
+"avatares hablando a la distancia, puedes escucharlos, pero no muy bien. "
+"Si te acercas a ellos, se vuelven más audibles de una manera que se "
+"aproxima a lo que probablemente estás acostumbrado. Si la atenuación "
+"predeterminada es 0, no importa qué tan lejos esté la fuente de sonido, "
+"seguirá reproduciéndose a todo volumen. Del mismo modo, la atenuación "
+"predeterminada para un dominio se puede configurar muy alta (hasta un "
+"valor máximo de 1), haciendo que solo se escuchen las cosas que están muy"
+" cerca de ti."
 
 #: ../../source/host/configure-settings/audio-settings.rst:21
 msgid ""
@@ -1409,16 +1416,16 @@ msgid ""
 "results. For a very thick reverb, you might try a value as high as 50% "
 "where the reverb is nearly as loud as the original signal."
 msgstr ""
-"*Reverberación* habilita efectos de eco en tu dominio. Puedes dar el efecto "
-"de sonar como si estuvieras en una gran habitación vacía, en el interior de "
-"una gran cueva o dentro de una pequeña habitación como una ducha con "
-"azulejos. El \"Tiempo de caída de reverberación\" (Reverb Decay Time) define "
-"cuánto tiempo puedes escuchar un eco después del sonido inicial. \"Wet/Dry "
-"Mix\" establece el porcentaje de mezcla de la cola de reverberación en "
-"relación con la señal \"seca\" (dry) original. Los niveles entre 5-25% "
-"generalmente te darán resultados útiles. Para una reverberación muy espesa, "
-"puedes probar un valor de hasta el 50 %, donde la reverberación es casi tan "
-"fuerte como la señal original."
+"*Reverberación* habilita efectos de eco en tu dominio. Puedes dar el "
+"efecto de sonar como si estuvieras en una gran habitación vacía, en el "
+"interior de una gran cueva o dentro de una pequeña habitación como una "
+"ducha con azulejos. El \"Tiempo de caída de reverberación\" (Reverb Decay"
+" Time) define cuánto tiempo puedes escuchar un eco después del sonido "
+"inicial. \"Wet/Dry Mix\" establece el porcentaje de mezcla de la cola de "
+"reverberación en relación con la señal \"seca\" (dry) original. Los "
+"niveles entre 5-25% generalmente te darán resultados útiles. Para una "
+"reverberación muy espesa, puedes probar un valor de hasta el 50 %, donde "
+"la reverberación es casi tan fuerte como la señal original."
 
 #: ../../source/host/configure-settings/audio-settings.rst:25
 msgid "Audio Zones"
@@ -1432,11 +1439,11 @@ msgid ""
 "to create two separate rooms in the same domain, where the sound does not"
 " migrate over into the other room."
 msgstr ""
-"Una \"zona\" es un área 3D donde puedes definir propiedades personalizadas. "
-"En el caso de una zona de audio, es un área 3D con tus propias propiedades "
-"únicas de atenuación y reverberación definidas. Por ejemplo, una zona de "
-"audio podría usarse para crear dos salas separadas en el mismo dominio, "
-"donde el sonido no migra a la otra sala."
+"Una \"zona\" es un área 3D donde puedes definir propiedades "
+"personalizadas. En el caso de una zona de audio, es un área 3D con tus "
+"propias propiedades únicas de atenuación y reverberación definidas. Por "
+"ejemplo, una zona de audio podría usarse para crear dos salas separadas "
+"en el mismo dominio, donde el sonido no migra a la otra sala."
 
 #: ../../source/host/configure-settings/audio-settings.rst:29
 msgid "To define an audio zone:"
@@ -1444,8 +1451,7 @@ msgstr "Para definir una zona de audio:"
 
 #: ../../source/host/configure-settings/audio-settings.rst:37
 msgid "On the top menu bar, select **Content > Audio Environment**."
-msgstr ""
-"En la barra de menú superior, selecciona **Content > Audio Environment**."
+msgstr "En la barra de menú superior, selecciona **Content > Audio Environment**."
 
 #: ../../source/host/configure-settings/audio-settings.rst:38
 msgid "Under 'Zones', click the ``+`` icon."
@@ -1465,9 +1471,9 @@ msgid ""
 msgstr ""
 "(Opcional) Si tiene más de una zona, puedes configurar la relación de "
 "atenuación entre dos zonas específicas. Esta relación se conoce como el "
-"\"coeficiente de atenuación\". Cuando el coeficiente de atenuación es 0, no "
-"hay cambio en la atenuación entre zonas; si es 1, no podrás escuchar a nadie "
-"en otra zona."
+"\"coeficiente de atenuación\". Cuando el coeficiente de atenuación es 0, "
+"no hay cambio en la atenuación entre zonas; si es 1, no podrás escuchar a"
+" nadie en otra zona."
 
 #: ../../source/host/configure-settings/audio-settings.rst:41
 msgid ""
@@ -1475,8 +1481,8 @@ msgid ""
 "step 4, and define the reverb levels for the zone."
 msgstr ""
 "Debajo de \"Reverb Settings\", haz click en el ícono ``+``, ingresa el "
-"nombre de la zona del paso 4 y define los niveles de reverberación para la "
-"zona."
+"nombre de la zona del paso 4 y define los niveles de reverberación para "
+"la zona."
 
 #: ../../source/host/configure-settings/audio-settings.rst:42
 #: ../../source/host/maintain-domain/backup-domain.rst:26
@@ -1494,19 +1500,19 @@ msgid ""
 "determine the number of threads the audio mixer uses to process audio, "
 "and when to throttle or buffer a heavy-loaded system."
 msgstr ""
-"Las secciones de \"Audio Threading\" y \"Audio Buffer\" de la configuración "
-"del dominio definen la configuración del servidor para el mezclador de "
-"audio. Aquí, puedes determinar la cantidad de subprocesos que utiliza el "
-"mezclador de audio para procesar el audio y cuándo acelerar o almacenar en "
-"búfer un sistema con mucha carga."
+"Las secciones de \"Audio Threading\" y \"Audio Buffer\" de la "
+"configuración del dominio definen la configuración del servidor para el "
+"mezclador de audio. Aquí, puedes determinar la cantidad de subprocesos "
+"que utiliza el mezclador de audio para procesar el audio y cuándo "
+"acelerar o almacenar en búfer un sistema con mucha carga."
 
 #: ../../source/host/configure-settings/audio-settings.rst:50
 msgid ""
 "These are advanced domain server settings. Do not modify without prior "
 "technical knowledge of servers."
 msgstr ""
-"Estas son configuraciones avanzadas del servidor de dominio. No modificar "
-"sin conocimientos técnicos previos de servidores."
+"Estas son configuraciones avanzadas del servidor de dominio. No modificar"
+" sin conocimientos técnicos previos de servidores."
 
 #: ../../source/host/configure-settings/authentication-setting.rst:5
 msgid ""
@@ -1515,11 +1521,11 @@ msgid ""
 "modify your domain settings will need the username and password to make "
 "changes."
 msgstr ""
-"Agrega autenticación (es decir, un nombre de usuario y una contraseña) para "
-"proteger la configuración de tu dominio de ser modificada por usuarios no "
-"autorizados. Cualquier persona que intente modificar la configuración de tu "
-"dominio necesitará el nombre de usuario y la contraseña para realizar "
-"cambios."
+"Agrega autenticación (es decir, un nombre de usuario y una contraseña) "
+"para proteger la configuración de tu dominio de ser modificada por "
+"usuarios no autorizados. Cualquier persona que intente modificar la "
+"configuración de tu dominio necesitará el nombre de usuario y la "
+"contraseña para realizar cambios."
 
 #: ../../source/host/configure-settings/authentication-setting.rst:7
 msgid "To set up and/or change the authentication for your domain settings:"
@@ -1536,8 +1542,8 @@ msgid ""
 "For 'HTTP Username' and 'HTTP Password', enter a username and password "
 "for basic HTTP authentication."
 msgstr ""
-"Para \"HTTP Username\" y \"HTTP Password\", ingresa un nombre de usuario y "
-"una contraseña para la autenticación HTTP básica."
+"Para \"HTTP Username\" y \"HTTP Password\", ingresa un nombre de usuario "
+"y una contraseña para la autenticación HTTP básica."
 
 #: ../../source/host/configure-settings/authentication-setting.rst:18
 msgid ""
@@ -1545,9 +1551,9 @@ msgid ""
 "account, and is used only to access the settings for this specific cloud "
 "domain."
 msgstr ""
-"Este nombre de usuario y contraseña no están conectados de ninguna manera a "
-"tu cuenta de Metaverso y se usan solo para acceder a la configuración de "
-"este dominio de nube específico."
+"Este nombre de usuario y contraseña no están conectados de ninguna manera"
+" a tu cuenta de Metaverso y se usan solo para acceder a la configuración "
+"de este dominio de nube específico."
 
 #: ../../source/host/configure-settings/authentication-setting.rst:20
 msgid "Re-enter your password into 'Verify HTTP Password'."
@@ -1560,8 +1566,9 @@ msgid ""
 " server or to specific zones within a domain."
 msgstr ""
 "Los Filtros de Entidades son funciones especializadas de JavaScript que "
-"evitan modificaciones no deseadas en las entidades de tu dominio. Se pueden "
-"aplicar a un servidor completo o a zonas específicas dentro de un dominio."
+"evitan modificaciones no deseadas en las entidades de tu dominio. Se "
+"pueden aplicar a un servidor completo o a zonas específicas dentro de un "
+"dominio."
 
 #: ../../source/host/configure-settings/entity-filters.rst:13
 msgid "Add an Entity Filter to Your Domain"
@@ -1574,10 +1581,10 @@ msgid ""
 "own), upload it to your ATP server or a cloud hosting service of your "
 "choice. Then:"
 msgstr ""
-"Tu dominio puede conectarse a cualquier filtro de entidad que esté alojado "
-"en tu Servidor de Activos o en la nube. Una vez que hayas escrito un script ("
-"o uses uno propio), cárgalo en tu servidor ATP o en un servicio de "
-"alojamiento en la nube de tu elección. Entonces:"
+"Tu dominio puede conectarse a cualquier filtro de entidad que esté "
+"alojado en tu Servidor de Activos o en la nube. Una vez que hayas escrito"
+" un script (o uses uno propio), cárgalo en tu servidor ATP o en un "
+"servicio de alojamiento en la nube de tu elección. Entonces:"
 
 #: ../../source/host/configure-settings/entity-filters.rst:23
 msgid "On the top menu bar, select **Content > Entities**."
@@ -1590,8 +1597,8 @@ msgstr "Haz click en el botón \"Advanced Settings\"."
 #: ../../source/host/configure-settings/entity-filters.rst:25
 msgid "Under 'Filter Entity Edits', enter the URL of your entity filter script."
 msgstr ""
-"Debajo de \"Filter Entity Edits\", ingresa la URL de tu script de filtro de "
-"entidad."
+"Debajo de \"Filter Entity Edits\", ingresa la URL de tu script de filtro "
+"de entidad."
 
 #: ../../source/host/configure-settings/entity-filters.rst:30
 msgid "Add an Entity Filter to a Zone in Your Domain"
@@ -1602,8 +1609,8 @@ msgid ""
 "You can choose to apply an entity filter to a specific zone within your "
 "domain, rather than to the entire domain. To do this:"
 msgstr ""
-"Puedes optar por aplicar un filtro de entidad a una zona específica dentro "
-"de tu dominio, en lugar de a todo el dominio. Para hacer esto:"
+"Puedes optar por aplicar un filtro de entidad a una zona específica "
+"dentro de tu dominio, en lugar de a todo el dominio. Para hacer esto:"
 
 #: ../../source/host/configure-settings/entity-filters.rst:34
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
@@ -1611,8 +1618,7 @@ msgstr "En la interfaz, trae tu HUD o tableta y ve a **Crear**."
 
 #: ../../source/host/configure-settings/entity-filters.rst:35
 msgid "In the Entity List, locate and select the zone you want to protect."
-msgstr ""
-"En la Lista de Entidades, busca y selecciona la zona que quieras proteger."
+msgstr "En la Lista de Entidades, busca y selecciona la zona que quieras proteger."
 
 #: ../../source/host/configure-settings/entity-filters.rst:36
 msgid "In the Create Tools, click on the 'Properties' tab."
@@ -1633,32 +1639,32 @@ msgid ""
 "Vircadia comes installed with a number of sample entity filter scripts. "
 "These are located in the following directories:"
 msgstr ""
-"Vircadia viene instalado con una serie de scripts de filtro de entidades de "
-"muestra. Estos se encuentran en los siguientes directorios:"
+"Vircadia viene instalado con una serie de scripts de filtro de entidades "
+"de muestra. Estos se encuentran en los siguientes directorios:"
 
 #: ../../source/host/configure-settings/entity-filters.rst:46
 msgid ""
 "**Windows:** %Program "
 "Files%/Local/Vircadia/scripts/tutorials/entity_edit_filters"
 msgstr ""
-"**Windows:** %Program Files%/Local/Vircadia/scripts/tutorials/"
-"entity_edit_filters"
+"**Windows:** %Program "
+"Files%/Local/Vircadia/scripts/tutorials/entity_edit_filters"
 
 #: ../../source/host/configure-settings/entity-filters.rst:47
 msgid ""
 "**Mac:** "
 "~/Applications/Vircadia/interface/Contents/Resources/scripts/tutorials/entity_edit_filters"
 msgstr ""
-"**Mac:** ~/Applications/Vircadia/interface/Contents/Resources/scripts/"
-"tutorials/entity_edit_filters"
+"**Mac:** "
+"~/Applications/Vircadia/interface/Contents/Resources/scripts/tutorials/entity_edit_filters"
 
 #: ../../source/host/configure-settings/entity-filters.rst:49
 msgid ""
 "These sample scripts show you how protect domain content by doing things "
 "like:"
 msgstr ""
-"Estos scripts de muestra te muestran cómo proteger el contenido del dominio "
-"haciendo cosas como:"
+"Estos scripts de muestra te muestran cómo proteger el contenido del "
+"dominio haciendo cosas como:"
 
 #: ../../source/host/configure-settings/entity-filters.rst:51
 msgid "Keep an entity inside a bounding box"
@@ -1693,16 +1699,16 @@ msgid ""
 "Here are a few more script examples to help you create your own entity "
 "filters::"
 msgstr ""
-"Aquí hay algunos ejemplos de scripts más para ayudarte a crear tus propios "
-"filtros de entidad::"
+"Aquí hay algunos ejemplos de scripts más para ayudarte a crear tus "
+"propios filtros de entidad::"
 
 #: ../../source/host/configure-settings/network-settings.rst:5
 msgid ""
 "The **Metaverse/Networking** section of the Domain Settings defines all "
 "of the network settings for your domain."
 msgstr ""
-"La sección **Metaverse/Networking** de la Configuracion del Dominio define "
-"todas las configuraciones de red para tu dominio."
+"La sección **Metaverse/Networking** de la Configuracion del Dominio "
+"define todas las configuraciones de red para tu dominio."
 
 #: ../../source/host/configure-settings/network-settings.rst:7
 msgid ""
@@ -1712,12 +1718,12 @@ msgid ""
 "concepts (IP, UDP, ports, etc) as changing these settings can impact "
 "visitors or (if you're running a local server) put your system at risk."
 msgstr ""
-"Cambiar cualquier configuración de red afectará la forma en que el Servidor "
-"de Metaverso y los usuarios se conectarán con tu dominio. Antes de realizar "
-"cualquier cambio en la configuración, asegúrate de tener una comprensión "
-"básica de los conceptos de red (IP, UDP, puertos, etc) ya que cambiar esta "
-"configuración puede afectar a los visitantes o (si estás ejecutando un "
-"servidor local) poner en riesgo tu sistema."
+"Cambiar cualquier configuración de red afectará la forma en que el "
+"Servidor de Metaverso y los usuarios se conectarán con tu dominio. Antes "
+"de realizar cualquier cambio en la configuración, asegúrate de tener una "
+"comprensión básica de los conceptos de red (IP, UDP, puertos, etc) ya que"
+" cambiar esta configuración puede afectar a los visitantes o (si estás "
+"ejecutando un servidor local) poner en riesgo tu sistema."
 
 #: ../../source/host/configure-settings/network-settings.rst:14
 msgid "Linked Metaverse Account"
@@ -1732,11 +1738,11 @@ msgid ""
 "account-specific settings, such as Place names."
 msgstr ""
 "Cada dominio se puede vincular a una cuenta de Metaverso, que es el "
-"propietario de ese dominio. Cuando vinculas tu cuenta, se crea un token de "
-"acceso OAuth y te otorga acceso a tu cuenta para modificar la configuración "
-"del dominio y acceder a los grupos necesarios para las operaciones del "
-"dominio. Además, puedes acceder a la configuración específica de tu cuenta, "
-"como los Place Names."
+"propietario de ese dominio. Cuando vinculas tu cuenta, se crea un token "
+"de acceso OAuth y te otorga acceso a tu cuenta para modificar la "
+"configuración del dominio y acceder a los grupos necesarios para las "
+"operaciones del dominio. Además, puedes acceder a la configuración "
+"específica de tu cuenta, como los Place Names."
 
 #: ../../source/host/configure-settings/network-settings.rst:18
 msgid ""
@@ -1760,10 +1766,10 @@ msgid ""
 "mixer, entity server, asset server, entity script server and messages "
 "mixer."
 msgstr ""
-"La configuración de red automática define cómo otros nodos en el metaverso "
-"se conectan a tu dominio. Estos nodos incluyen el mezclador de avatar, el "
-"mezclador de audio, el servidor de entidades, el servidor de activos, el "
-"servidor de scripts de entidades y el mezclador de mensajes."
+"La configuración de red automática define cómo otros nodos en el "
+"metaverso se conectan a tu dominio. Estos nodos incluyen el mezclador de "
+"avatar, el mezclador de audio, el servidor de entidades, el servidor de "
+"activos, el servidor de scripts de entidades y el mezclador de mensajes."
 
 #: ../../source/host/configure-settings/network-settings.rst:28
 msgid "Choose from the following automatic networking options:"
@@ -1775,9 +1781,9 @@ msgid ""
 "your domain. They are never automatically updated, and your domain must "
 "be reachable at the address and port you set."
 msgstr ""
-"**None**: La dirección de red y el puerto que se muestran se utilizarán para "
-"conectar tu dominio. Nunca se actualizan automáticamente, y tu dominio debe "
-"estar accesible en la dirección y el puerto que establezcas."
+"**None**: La dirección de red y el puerto que se muestran se utilizarán "
+"para conectar tu dominio. Nunca se actualizan automáticamente, y tu "
+"dominio debe estar accesible en la dirección y el puerto que establezcas."
 
 #: ../../source/host/configure-settings/network-settings.rst:31
 msgid ""
@@ -1787,12 +1793,12 @@ msgid ""
 "specified port. This option is recommended for a local server running on "
 "a home network with a dynamically changing public IP address."
 msgstr ""
-"**IP Only**: Tu dominio actualizará la dirección de red que se muestra a lo "
-"que detecte como tu dirección IP actual. El puerto que se muestra no se "
-"cambiará automáticamente, por lo que tu dominio debe estar accesible en el "
-"puerto especificado. Esta opción se recomienda para un servidor local que se "
-"ejecuta en una red doméstica con una dirección IP pública que cambia "
-"dinámicamente."
+"**IP Only**: Tu dominio actualizará la dirección de red que se muestra a "
+"lo que detecte como tu dirección IP actual. El puerto que se muestra no "
+"se cambiará automáticamente, por lo que tu dominio debe estar accesible "
+"en el puerto especificado. Esta opción se recomienda para un servidor "
+"local que se ejecuta en una red doméstica con una dirección IP pública "
+"que cambia dinámicamente."
 
 #: ../../source/host/configure-settings/network-settings.rst:32
 msgid ""
@@ -1801,19 +1807,19 @@ msgid ""
 "punch without needing to make any changes to NAT or firewall settings. "
 "This may not work for all networks."
 msgstr ""
-"**Full**: Tu dominio proporcionará la información de la red a los servidores "
-"de Vircadia, de modo que los nuevos clientes puedan conectarse a través de "
-"perforaciones UDP sin necesidad de realizar ningún cambio en la "
-"configuración de NAT o firewall. Es posible que esto no funcione para todas "
-"las redes."
+"**Full**: Tu dominio proporcionará la información de la red a los "
+"servidores de Vircadia, de modo que los nuevos clientes puedan conectarse"
+" a través de perforaciones UDP sin necesidad de realizar ningún cambio en"
+" la configuración de NAT o firewall. Es posible que esto no funcione para"
+" todas las redes."
 
 #: ../../source/host/configure-settings/network-settings.rst:34
 msgid ""
 "Depending on the automatic networking method you choose, define the "
 "network address and/or port in the fields provided."
 msgstr ""
-"Según el método de red automático que elijas, defines la dirección de red y/"
-"o el puerto en los campos proporcionados."
+"Según el método de red automático que elijas, defines la dirección de red"
+" y/o el puerto en los campos proporcionados."
 
 #: ../../source/host/configure-settings/network-settings.rst:36
 msgid ""
@@ -1822,10 +1828,10 @@ msgid ""
 "\"0\" to have your domain select a random port, which will help prevent "
 "port collisions."
 msgstr ""
-"Si tienes la intención de alojar varios dominios en la misma red y router, "
-"asegúrate de configurar cada dominio en un puerto UDP separado. Puedes usar "
-"el valor \"0\" para que tu dominio seleccione un puerto aleatorio, lo que "
-"ayudará a evitar colisiones de puertos."
+"Si tienes la intención de alojar varios dominios en la misma red y "
+"router, asegúrate de configurar cada dominio en un puerto UDP separado. "
+"Puedes usar el valor \"0\" para que tu dominio seleccione un puerto "
+"aleatorio, lo que ayudará a evitar colisiones de puertos."
 
 #: ../../source/host/configure-settings/network-settings.rst:42
 msgid "Networking Details (Advanced)"
@@ -3158,37 +3164,41 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:9
-msgid "Ubuntu Server 18.04 LTS"
+msgid "Ubuntu Server 18.04 LTS (2022.1.0 Selene)"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:16
+msgid "Ubuntu Server 20.04 LTS (2022.1.1 Selene) (Preview)"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:23
 msgid "Unlisted Distribution"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:18
+#: ../../source/host/server-setup/linux-server.md:25
 msgid ""
 "If you do not see your distribution listed here, you may compile your own"
-" server from source using the [Vircadia "
-"builder](https://github.com/vircadia/vircadia-builder)."
+" server from source with the [Linux build "
+"guide](https://github.com/vircadia/vircadia/blob/master/BUILD_LINUX.md)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:20
+#: ../../source/host/server-setup/linux-server.md:27
 msgid "Configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:22
+#: ../../source/host/server-setup/linux-server.md:29
 msgid ""
 "The installation packages will create a domain at the default port "
 "location and configure a service to keep it running on that machine."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:24
+#: ../../source/host/server-setup/linux-server.md:31
 msgid ""
 "For the list of network ports that you will need to open and manage, see "
 "[here](../configure-settings/network-settings)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:26
+#: ../../source/host/server-setup/linux-server.md:33
 msgid ""
 "Connect a web browser to the server at port 40100. (If you are on the "
 "machine that the server is running on, this would be "
@@ -3196,44 +3206,44 @@ msgid ""
 "have a functioning domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:28
+#: ../../source/host/server-setup/linux-server.md:35
 msgid "Files and Server Configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:30
+#: ../../source/host/server-setup/linux-server.md:37
 msgid "The program files are installed in /opt/vircadia:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:31
+#: ../../source/host/server-setup/linux-server.md:38
 msgid "**/opt/vircadia** contains the executables"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:32
+#: ../../source/host/server-setup/linux-server.md:39
 msgid "**/opt/vircadia/lib** contains libraries required for operation"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:33
+#: ../../source/host/server-setup/linux-server.md:40
 msgid "**/opt/vircadia/plugins** is currently used for audio codecs"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:34
+#: ../../source/host/server-setup/linux-server.md:41
 msgid "**/opt/vircadia/resources** is required for the administrative website"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:36
+#: ../../source/host/server-setup/linux-server.md:43
 msgid ""
 "The executables in this folder (with the exception of <code>new-"
 "server</code>) cannot be launched from the command prompt without first "
 "setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:38
+#: ../../source/host/server-setup/linux-server.md:45
 msgid ""
 "The file <code>/etc/opt/vircadia/default.conf</code> contains any "
 "environment variables necessary to running the domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:40
+#: ../../source/host/server-setup/linux-server.md:47
 msgid ""
 "All content is stored under <code>/var/lib/vircadia/default</code>. All "
 "files underneath <code>/var/lib/vircadia</code> are owned by the user "
@@ -3241,81 +3251,81 @@ msgid ""
 "related processes."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:42
+#: ../../source/host/server-setup/linux-server.md:49
 msgid "Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:44
+#: ../../source/host/server-setup/linux-server.md:51
 msgid ""
 "The installation packages setup the following systemd services to manage "
 "the Vircadia domain:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:45
+#: ../../source/host/server-setup/linux-server.md:52
 msgid "**vircadia-domain-server@default.service**: Manages the core domain server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:46
+#: ../../source/host/server-setup/linux-server.md:53
 msgid ""
 "**vircadia-assignment-client@default.service**: Spawns and manages the "
 "assignment clients"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:47
+#: ../../source/host/server-setup/linux-server.md:54
 msgid ""
 "**vircadia-server@default.target**: Controls startup and shutdown of the "
 "above services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:49
+#: ../../source/host/server-setup/linux-server.md:56
 msgid ""
 "The <code>vircadia-server@default.target</code> service is the only one "
 "that is set to auto-start. Starting or stopping it will bring the other "
 "two services down."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:51
+#: ../../source/host/server-setup/linux-server.md:58
 msgid ""
 "The first two services log a large amount of data to their service "
 "journal. Checking their logs (via <code>systemctl status</code>) is a "
 "good way to ensure they are operating properly."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:53
+#: ../../source/host/server-setup/linux-server.md:60
 msgid "Multiple Domains"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:55
+#: ../../source/host/server-setup/linux-server.md:62
 msgid ""
 "The installation package is configured to permit multiple domains to run "
 "on a single server at different port numbers. New servers can be created "
 "using the following command:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:61
+#: ../../source/host/server-setup/linux-server.md:68
 msgid ""
 "where <code>name</code> is a word used to name and manage the domain and "
 "<code>base-port</code> must be the the first of a range of four "
 "contiguous port numbers not overlapping with any other use on the system."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:63
+#: ../../source/host/server-setup/linux-server.md:70
 msgid ""
 "Assuming you created a new server with the name **my-server-two**, this "
 "would setup the following:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:64
+#: ../../source/host/server-setup/linux-server.md:71
 msgid ""
 "Environment variables in <code>/etc/opt/vircadia/**my-server-"
 "two**.conf</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:65
+#: ../../source/host/server-setup/linux-server.md:72
 msgid "Content stored in <code>/var/lib/vircadia/**my-server-two**</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:66
+#: ../../source/host/server-setup/linux-server.md:73
 msgid ""
 "Services launched as <code>vircadia-domain-server@**my-server-"
 "two**.service</code>, <code>vircadia-assignment-client@**my-server-"
@@ -3323,45 +3333,45 @@ msgid ""
 "two**.target</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:68
+#: ../../source/host/server-setup/linux-server.md:75
 msgid "Deleting a Vircadia Server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:70
+#: ../../source/host/server-setup/linux-server.md:77
 msgid "Uninstall the package."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:80
+#: ../../source/host/server-setup/linux-server.md:87
 msgid "Deleting a Domain from a Multiple Domain Installation"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:82
+#: ../../source/host/server-setup/linux-server.md:89
 msgid "Find the name of the domain that you want to remove."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:88
+#: ../../source/host/server-setup/linux-server.md:95
 msgid ""
 "Pick the name of the domain that you want to remove from the list and "
 "then stop it."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:94
+#: ../../source/host/server-setup/linux-server.md:101
 msgid "Disable the service for the domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:100
+#: ../../source/host/server-setup/linux-server.md:107
 msgid "Remove the associated environment variables."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:106
+#: ../../source/host/server-setup/linux-server.md:113
 msgid "Remove all data and configurations."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:113
+#: ../../source/host/server-setup/linux-server.md:120
 msgid "Legacy Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:115
+#: ../../source/host/server-setup/linux-server.md:122
 msgid ""
 "There are a number of tweaks that are made to the default configuration "
 "to simplify storage and the ability to run multiple domains on one "
@@ -3370,18 +3380,18 @@ msgid ""
 "provided as an option."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:116
+#: ../../source/host/server-setup/linux-server.md:123
 msgid ""
 "Systemd services named <code>vircadia-domain-server.service</code>, <code"
 ">vircadia-assignment-client.service</code>, and <code>vircadia-"
 "server.target</code> *(without the @name)* have simplified configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:117
+#: ../../source/host/server-setup/linux-server.md:124
 msgid "No file is provided to specify environment variables for the server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:118
+#: ../../source/host/server-setup/linux-server.md:125
 msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
 msgstr ""
 
@@ -4454,3 +4464,15 @@ msgstr ""
 
 #~ msgid "Amazon Linux 2"
 #~ msgstr ""
+
+#~ msgid "Ubuntu Server 18.04 LTS"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you do not see your "
+#~ "distribution listed here, you may "
+#~ "compile your own server from source "
+#~ "using the [Vircadia "
+#~ "builder](https://github.com/vircadia/vircadia-builder)."
+#~ msgstr ""
+
