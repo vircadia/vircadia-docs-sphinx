@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2022-05-17 17:39+0000\n"
+"PO-Revision-Date: 2022-05-18 02:46+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/ja/>\n"
@@ -1624,29 +1624,29 @@ msgstr "Abletonを使用して、ドメインのアニメーション全体を�
 msgid ""
 "Control real world devices by the movements things make in Vircadia and "
 "vice versa (think update loop)"
-msgstr ""
+msgstr "Vircadiaでの動きで現実世界の機器を制御し、逆にVircadiaでの動きで現実世界の機器を制御します（更新ループを考えてください）"
 
 #: ../../source/script/midi-tutorial.rst:174
 msgid ""
 "Setup your iPad to be a whole group of buttons that you can press at any "
 "time to trigger events in your domain at will."
-msgstr ""
+msgstr "iPadをボタン群として設定し、いつでも押せるようにすることで、ドメイン内のイベントを自在に発火させることができます。"
 
 #: ../../source/script/midi-tutorial.rst:178
 msgid "`API Reference: MIDI <https://apidocs.vircadia.dev/Midi.html>`_"
-msgstr ""
+msgstr "`APIリファレンス：MIDI <https://apidocs.vircadia.dev/Midi.html>` _"
 
 #: ../../source/script/midi-tutorial.rst:179
 msgid "`MIDI-API <../_static/resources/script/MidiAPI.txt>`_"
-msgstr ""
+msgstr "`MIDI-API <../_static/resources/script/MidiAPI.txt>`_"
 
 #: ../../source/script/midi-tutorial.rst:180
 msgid "`MIDI-Test <../_static/resources/script/midiTest.js>`_"
-msgstr ""
+msgstr "`MIDI-Test <../_static/resources/script/midiTest.js>`_"
 
 #: ../../source/script/midi-tutorial.rst:181
 msgid "`MIDI-Examples <../_static/resources/script/MIDI-Example.js>`_"
-msgstr ""
+msgstr "`MIDI-サンプル <../_static/resources/script/MIDI-Example.js>`_"
 
 #: ../../source/script/server-entity-scripts.md:3
 msgid ""
@@ -1658,42 +1658,47 @@ msgid ""
 "on the server. Any behavior that is controlled by your script will be "
 "seen and heard by everyone in the domain."
 msgstr ""
+"Vircadiaのコンテンツは、エンティティにスクリプトを添付することでインタラクティブにすることができます。*サーバエンティティスクリプト*は、エンティ"
+"ティをホストするサーバ（またはドメイン）上で実行されるエンティティスクリプトです。これらのスクリプトは、ユーザーがいない場合でも、ドメイン内で永続的に実行"
+"されます。つまり、一度に実行されるスクリプトのインスタンスは1つだけであり、サーバー上で実行されます。クリプトによって制御される動作は、ドメイン内のすべて"
+"の人に表示され、聞こえます。"
 
 #: ../../source/script/server-entity-scripts.md:6
 msgid ""
 "[Attach a Server Entity Script to an Entity](#attach-a-server-entity-"
 "script-to-an-entity)"
 msgstr ""
+"[サーバーエンティティスクリプトをエンティティにアタッチする](#attach-a-server-entity-script-to-an-entity)"
 
 #: ../../source/script/server-entity-scripts.md:7
 msgid "[Example of a Server Entity Script](#example-of-a-server-entity-script)"
-msgstr ""
+msgstr "[サーバーエンティティスクリプトの例](#example-of-a-server-entity-script)"
 
 #: ../../source/script/server-entity-scripts.md:8
 msgid "[Script API](#script-api)"
-msgstr ""
+msgstr "[スクリプト API](#script-api)"
 
 #: ../../source/script/server-entity-scripts.md:10
 msgid "Attach a Server Entity Script to an Entity"
-msgstr ""
+msgstr "サーバーエンティティスクリプトをエンティティに添付する"
 
 #: ../../source/script/server-entity-scripts.md:11
 msgid "To attach a server entity script to an entity:"
-msgstr ""
+msgstr "サーバーエンティティスクリプトをエンティティにアタッチするには："
 
 #: ../../source/script/server-entity-scripts.md:15
 msgid "For 'Server Script', enter the URL to your server entity script."
-msgstr ""
+msgstr "[サーバースクリプト]には、サーバーエンティティスクリプトへのURLを入力します。"
 
 #: ../../source/script/server-entity-scripts.md:22
 msgid "Example of a Server Entity Script"
-msgstr ""
+msgstr "サーバーエンティティスクリプトの例"
 
 #: ../../source/script/server-entity-scripts.md:23
 msgid ""
 "The following script modifies the intensity of a light entity, so that it"
 " flickers tea lights."
-msgstr ""
+msgstr "次のスクリプトは、ライトエンティティの強度を変更して、ティーライトを点滅させます。"
 
 #: ../../source/script/server-entity-scripts.md:49
 msgid ""
@@ -1703,10 +1708,13 @@ msgid ""
 "see the tea light would be editing the entity to vary the intensity of "
 "the light to flicker it."
 msgstr ""
+"このスクリプトは、光の強さを更新するのに必要なアクターは1つだけなので、サーバーエンティティのスクリプトの良い例と言えます。同じスクリプトをエンティティク"
+"ライアントスクリプトとして添付することもできますが、ティーライトを見ることができるすべてのクライアントが、ライトの強さを変化させて明滅させるためにエンティ"
+"ティを編集することになります。"
 
 #: ../../source/script/server-entity-scripts.md:51
 msgid "Script API"
-msgstr ""
+msgstr "スクリプトAPI"
 
 #: ../../source/script/server-entity-scripts.md:53
 msgid ""
@@ -1715,18 +1723,24 @@ msgid ""
 "overlays, and mouse and keyboard events are not available in the Entity "
 "Script Server."
 msgstr ""
+"エンティティスクリプトサーバーは、APIのリストされたコンポーネントのすべてにアクセスできるわけではありません。アバター、コントローラー、記録、オーバーレ"
+"イ、およびマウスとキーボードのイベント用のAPIは、エンティティスクリプトサーバーでは使用できません。"
 
 #: ../../source/script/server-entity-scripts.md:55
 msgid ""
 "Learn more about what APIs are available to server entity scripts "
 "[here](https://apidocs.vircadia.dev/Entities.html)."
 msgstr ""
+"サーバーエンティティスクリプトで使用できるAPIの詳細については、[こちら](https://apidocs.vircadia.dev/Entities."
+"html)をご覧ください。"
 
 #: ../../source/script/write-scripts.md:3
 msgid ""
 "Vircadia's robust [JavaScript API](https://apidocs.vircadia.dev) provides"
 " the tools for you to build great content and user experiences in VR."
 msgstr ""
+"Vircadiaの堅牢な[JavaScriptAPI](https://apidocs.vircadia."
+"dev)は、VRで優れたコンテンツとユーザーエクスペリエンスを構築するためのツールを提供します。"
 
 #: ../../source/script/write-scripts.md:5
 msgid ""
@@ -1734,22 +1748,24 @@ msgid ""
 "Vircadia. To see these code samples in action, copy the code to a file, "
 "`testScripts.js`, saved somewhere on your computer."
 msgstr ""
+"このセクションでは、Vircadiaで一般的なタスクを実行するための簡単なコードサンプルを見つけることができます。これらのコードサンプルの動作を確認するに"
+"は、コードをコンピューターのどこかに保存されている`testScripts.js`ファイルにコピーします。"
 
 #: ../../source/script/write-scripts.md:14
 msgid "[Write to the Debug Window](#write-to-the-debug-window)"
-msgstr ""
+msgstr "[デバッグウィンドウへの書き込み](#write-to-the-debug-window)"
 
 #: ../../source/script/write-scripts.md:15
 msgid "[Create an Entity](#create-an-entity)"
-msgstr ""
+msgstr "[エンティティを作成](#create-an-entity)"
 
 #: ../../source/script/write-scripts.md:16
 msgid "[Edit an Entity](#edit-an-entity)"
-msgstr ""
+msgstr "[エンティティの編集](#edit-an-entity)"
 
 #: ../../source/script/write-scripts.md:18
 msgid "Write to the Debug Window"
-msgstr ""
+msgstr "デバッグウィンドウへの出力"
 
 #: ../../source/script/write-scripts.md:19
 msgid ""
