@@ -9,47 +9,49 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-17 04:33+0000\n"
-"PO-Revision-Date: 2022-05-17 04:31+0000\n"
+"PO-Revision-Date: 2022-05-19 00:09+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/host/ja/>\n"
 "Language: jp\n"
-"Language-Team: Japanese <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/host/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/host.rst:11
 msgid "Quick Start Guide"
-msgstr ""
+msgstr "クイックスタートガイド"
 
 #: ../../source/host.rst:11 ../../source/host/start-hosting.rst:3
 msgid "Get Started with Hosting"
-msgstr ""
+msgstr "ホスティングを始めましょう"
 
 #: ../../source/host.rst:11
 msgid "Set Up a Domain Server"
-msgstr ""
+msgstr "ドメインサーバーの設定"
 
 #: ../../source/host.rst:11 ../../source/host/configure-settings.rst:3
 msgid "Configure Your Domain Settings"
-msgstr ""
+msgstr "ドメイン設定の構成"
 
 #: ../../source/host.rst:11 ../../source/host/add-content.rst:3
 msgid "Add Content to Your Domain"
-msgstr ""
+msgstr "ドメインへのコンテンツの追加"
 
 #: ../../source/host.rst:11 ../../source/host/invite-users.rst:7
 msgid "Bring Visitors to Your Domain"
-msgstr ""
+msgstr "ドメインへの利用者の招き方"
 
 #: ../../source/host.rst:11 ../../source/host/maintain-domain.rst:3
 msgid "Maintain Your Domain"
-msgstr ""
+msgstr "ドメインの維持"
 
 #: ../../source/host.rst:3
 msgid "Host"
-msgstr ""
+msgstr "ホスト"
 
 #: ../../source/host.rst:5
 msgid ""
@@ -58,13 +60,15 @@ msgid ""
 "the power to express your creativity, build your own virtual worlds, and "
 "be a part of an expanding metaverse."
 msgstr ""
+"Vircadiaのビジョンは、ユーザーによって創造され、コントロールされる仮想世界の分散型ネットワークです。このビジョンを達成するために、皆様には創造性を"
+"発揮し、独自の仮想世界を構築し、拡大するメタバースの一部となる力をお持ちいただきたいと考えています。"
 
 #: ../../source/host.rst:7
 msgid ""
 "Throughout this chapter, learn what its like to create your own domain, "
 "host it on a server, and maintain it so that it can be enjoyed by users "
 "for years to come."
-msgstr ""
+msgstr "この章では、独自ドメインを作成し、サーバーでホストし、ユーザーが末永く楽しめるように維持管理することについて学びます。"
 
 #: ../../source/host.rst:9
 msgid ""
@@ -72,25 +76,28 @@ msgid ""
 "guide <host/quick-start>`. Otherwise, let's :doc:`get started <host"
 "/start-hosting>`."
 msgstr ""
+"すぐに参加したい場合は、 :doc:`クイックスタートガイド <host/quick-"
+"start>`を読むことを検討してください。それ以外の場合は、:doc:`ホスティングを始めましょう <host/start-"
+"hosting>`を参照してください。"
 
 #: ../../source/host/add-content.rst:9
 #: ../../source/host/add-content/create-content.rst:7
 msgid "Build and Add Your Own Content"
-msgstr ""
+msgstr "独自コンテンツのビルドと追加"
 
 #: ../../source/host/add-content.rst:9
 #: ../../source/host/add-content/bake-content.rst:7
 msgid "Bake Your Content"
-msgstr ""
+msgstr "コンテンツの最適化(ベイク処理)"
 
 #: ../../source/host/add-content.rst:9
 #: ../../source/host/add-content/export-content.rst:7
 msgid "Export Your Content"
-msgstr ""
+msgstr "コンテンツのエクスポート"
 
 #: ../../source/host/add-content.rst:9
 msgid "Upload Content to Your Domain"
-msgstr ""
+msgstr "ドメインへのコンテンツのアップロード"
 
 #: ../../source/host/add-content.rst:5
 msgid ""
@@ -100,11 +107,14 @@ msgid ""
 "hang out with friends, or even an office space, we invite you to create "
 "your own Vircadia experience by tailoring the content to your needs."
 msgstr ""
+"あなたのドメインは、あなただけの仮想世界です。その中で、あなたの創造性を発揮し、独自のコンテンツを作成し、それを世界に発信することができます。イベントを開"
+"催するため、友人と過ごす場所として、あるいはオフィススペースとして、あなたのニーズに合わせてコンテンツを作成し、あなただけのVircadiaを体験してくだ"
+"さい。"
 
 #: ../../source/host/add-content.rst:7
 #: ../../source/host/configure-settings.rst:12
 msgid "**In This Section**"
-msgstr ""
+msgstr "**セクション**"
 
 #: ../../source/host/add-content/bake-content.rst:2
 msgid ""
@@ -112,6 +122,8 @@ msgid ""
 "about Linux (currently the oven is only shipped with the Server, not the "
 "AppImage), says that Oven has a GUI application (is news to me)"
 msgstr ""
+"このドキュメントは古くなっています。FIXME：Linuxに関する情報が欠落しているサンドボックスに言及（現在、オーブンはサーバーにのみ付属しており、Ap"
+"pImageは付属していません）、オーブンにはGUIアプリケーションがあると述べています（私にとってはニュースです）"
 
 #: ../../source/host/add-content/bake-content.rst:9
 msgid ""
@@ -123,6 +135,9 @@ msgid ""
 "to make them easier to transmit, store, and render, reducing load time "
 "significantly."
 msgstr ""
+"Vircadiaのほとんどのコンテンツ（アバター、エンティティなど）は、テクスチャ、モデル、スクリプト、マテリアルなどの外部リソースを参照しています。ユー"
+"ザーがドメイン内のコンテンツに遭遇した場合、コンテンツのリソースをダウンロードする必要があります。これらのリソースの多くは最適化されておらず、ダウンロード"
+"に時間がかかる場合があります。*ベイク処理*は、これらのリソースを最適化して、送信、保存、レンダリングを容易にし、ロード時間を大幅に短縮するプロセスです。"
 
 #: ../../source/host/add-content/bake-content.rst:12
 #: ../../source/host/add-content/create-content.rst:12
@@ -145,7 +160,7 @@ msgstr "コンテンツ"
 
 #: ../../source/host/add-content/bake-content.rst:16
 msgid "The Oven"
-msgstr ""
+msgstr "オーブン"
 
 #: ../../source/host/add-content/bake-content.rst:18
 msgid ""
@@ -153,14 +168,17 @@ msgid ""
 " `Client + Sandbox <https://vircadia.com/deploy-a-server/>`_ installer. "
 "Once installed, locate ``oven.exe`` (Windows) or ``oven.app`` (Mac)."
 msgstr ""
+"オーブンはVircadia `Client + Sandbox <https://vircadia.com/deploy-a-server/"
+">`のインストーラの一部としてパッケージされているスタンドアロンアプリケーションです。インストールしたパスから、 ``oven.exe`` "
+"(Windows) または ``oven.app`` (Mac)を探してください。"
 
 #: ../../source/host/add-content/bake-content.rst:20
 msgid "With the oven, you can bake the following types of content:"
-msgstr ""
+msgstr "オーブンを使用すると、次の種類のコンテンツを最適化（ベイク）できます。"
 
 #: ../../source/host/add-content/bake-content.rst:23
 msgid "Type"
-msgstr ""
+msgstr "タイプ"
 
 #: ../../source/host/add-content/bake-content.rst:23
 #: ../../source/host/add-content/bake-content.rst:64
@@ -171,7 +189,7 @@ msgstr "説明"
 
 #: ../../source/host/add-content/bake-content.rst:25
 msgid "Textures"
-msgstr ""
+msgstr "テクスチャ"
 
 #: ../../source/host/add-content/bake-content.rst:25
 msgid ""
@@ -185,6 +203,11 @@ msgid ""
 " recommend using PNG or JPEG (JPG) textures. However, we also support "
 "textures in following formats: TGA, TIF, and TIFF."
 msgstr ""
+"テクスチャをベイクすると、結果のフォルダには .texmeta.json ファイル、さまざまな .ktx イメージ、および元のテクスチャが含まれます。ベイ"
+"クすると、圧縮によるデータの歪が発生する場合がありますが、通常は軽微なものです。テクスチャをベイクすると、メインデータに付随してそれを様々な大きさに縮小し"
+"フィルタリングしたデータ群が生成され、その結果が圧縮されます。スカイボックスのような大きなテクスチャのベイクには時間がかかりますが、スカイボックスイメージ"
+"をロードするすべての人のランタイムでの利点は大きくなります。最高の体験を得るには、PNG または "
+"JPEG（JPG）テクスチャを使用することをお勧めします。サポートしているテクスチャファイルフォーマット:TGA、TIF、および TIFF。"
 
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "Materials"
@@ -197,6 +220,10 @@ msgid ""
 "`material entity JSON file <../../create/entities/mate rial-"
 "entity.html#generate-a-material-entity>`_."
 msgstr ""
+"マテリアルをベイク処理すると、.baked."
+"jsonファイルが生成され、マテリアル内のすべてのテクスチャもベイク処理されます。現在、`マテリアルエンティティJSONファイル<../../"
+"create/entities/material-entity.html#generate-a-material-"
+"entity>`_のベイク処理のみがサポートされています。"
 
 #: ../../source/host/add-content/bake-content.rst:37
 msgid "3D Models"
@@ -216,6 +243,12 @@ msgid ""
 "file. We support the following formats: FBX, OBJ, and FST (that points to"
 " a supported type)."
 msgstr ""
+"モデルをベイク処理すると、`Draco圧縮<https://github.com/google/draco>`_ジオメトリックメッシュが生成され、モデル内"
+"のすべてのマテリアルもベイク処理されます。メッシュ圧縮により、元のモデルのジオメトリがわずかに変更される可能性がありますが、通常は軽微です。出力フォルダー"
+"には、.baked.fstファイル、.baked.fbxファイル（モデルの元の形式は異なる場合があります）、および.baked."
+"jsonファイル（マテリアル）が含まれます。ベイクされたマテリアルのJSONファイルはベイクされたテクスチャファイルを参照するため、すべてのテクスチャが."
+"baked.fbxファイルから削除されます。このJSONファイルは、.baked.fstファイルの`materialMap`フィールドで参照されます。次の"
+"形式をサポートしています：FBX、OBJ、およびFST（サポートされているタイプを指します）。"
 
 #: ../../source/host/add-content/bake-content.rst:45
 msgid "Avatars"
@@ -227,65 +260,68 @@ msgid ""
 "above. Use the resulting .baked.fst file to `host and wear your baked "
 "avatar <../../create/avatars/package-avatar.html#host-your-avatar>`_."
 msgstr ""
+"アバターは3Dモデルであるため、上記と同じ結果でアバターをベイク処理できます。結果の.baked."
+"fstファイルを使用して、`ベイクしたアバターをホストして着用します<../../create/avatars/package-avatar.html"
+"#host-your-avatar>`_。"
 
 #: ../../source/host/add-content/bake-content.rst:49
 msgid ""
 "The Oven has two different interfaces: an application and a command line "
 "interface. Use the one that best fits your needs."
-msgstr ""
+msgstr "オーブンには、アプリケーションとコマンドラインインターフェイスの2つの異なるインターフェイスがあります。ニーズに最適なものを使用してください。"
 
 #: ../../source/host/add-content/bake-content.rst:53
 msgid "Using the Oven Application"
-msgstr ""
+msgstr "オーブンアプリケーションの使用"
 
 #: ../../source/host/add-content/bake-content.rst:55
 msgid "The Oven application has three baking options:"
-msgstr ""
+msgstr "オーブンアプリケーションには、次の3つのベーキングオプションがあります。"
 
 #: ../../source/host/add-content/bake-content.rst:57
 msgid "Bake all assets in your domain"
-msgstr ""
+msgstr "ドメイン内のすべてのアセットのベイク"
 
 #: ../../source/host/add-content/bake-content.rst:58
 msgid "Bake individual 3D models and avatars"
-msgstr ""
+msgstr "個々の3Dモデルとアバターのベイク"
 
 #: ../../source/host/add-content/bake-content.rst:59
 msgid "Bake skybox files"
-msgstr ""
+msgstr "スカイボックスファイルのベイク"
 
 #: ../../source/host/add-content/bake-content.rst:61
 msgid ""
 "After you choose what you would like to bake, you'll need to fill in some"
 " information:"
-msgstr ""
+msgstr "ベイクするものを選択後、いくつかの情報を入力する必要があります。"
 
 #: ../../source/host/add-content/bake-content.rst:64
 msgid "Field"
-msgstr ""
+msgstr "分野"
 
 #: ../../source/host/add-content/bake-content.rst:64
 msgid "Baking Option"
-msgstr ""
+msgstr "ベーキングオプション"
 
 #: ../../source/host/add-content/bake-content.rst:67
 msgid "Domain Name"
-msgstr ""
+msgstr "ドメイン名"
 
 #: ../../source/host/add-content/bake-content.rst:67
 #: ../../source/host/add-content/bake-content.rst:70
 #: ../../source/host/add-content/bake-content.rst:83
 #: ../../source/host/add-content/bake-content.rst:88
 msgid "Domain"
-msgstr ""
+msgstr "ドメイン"
 
 #: ../../source/host/add-content/bake-content.rst:67
 msgid "Enter your domain's name."
-msgstr ""
+msgstr "ドメイン名を入力します。"
 
 #: ../../source/host/add-content/bake-content.rst:70
 msgid "Entities File"
-msgstr ""
+msgstr "エンティティファイル"
 
 #: ../../source/host/add-content/bake-content.rst:70
 msgid ""
@@ -293,46 +329,48 @@ msgid ""
 " by `exporting your content to JSON <export-content.html#export-entities-"
 "to-json>`_."
 msgstr ""
+"ドメイン内のアセットの.jsonまたは.json.gzをアップロードします。これは、`コンテンツをJSON<export-content.html"
+"#export-entities-to-json>`_にエクスポートすることで実行できます。"
 
 #: ../../source/host/add-content/bake-content.rst:74
 msgid "Model File(s)"
-msgstr ""
+msgstr "モデルファイル"
 
 #: ../../source/host/add-content/bake-content.rst:74
 msgid "Model"
-msgstr ""
+msgstr "モデル"
 
 #: ../../source/host/add-content/bake-content.rst:74
 msgid "Enter the file or URL path for your model file(s)."
-msgstr ""
+msgstr "モデルファイルのファイルまたはURLパスを入力します。"
 
 #: ../../source/host/add-content/bake-content.rst:77
 msgid "Skybox File(s)"
-msgstr ""
+msgstr "スカイボックスファイル"
 
 #: ../../source/host/add-content/bake-content.rst:77
 msgid "Skybox"
-msgstr ""
+msgstr "スカイボックス"
 
 #: ../../source/host/add-content/bake-content.rst:77
 msgid "Enter the file or URL path for your skybox file(s)."
-msgstr ""
+msgstr "スカイボックスファイルのファイルまたはURLパスを入力します。"
 
 #: ../../source/host/add-content/bake-content.rst:80
 msgid "Output Directory"
-msgstr ""
+msgstr "出力ディレクトリ"
 
 #: ../../source/host/add-content/bake-content.rst:80
 msgid "Domain, Model, Skybox"
-msgstr ""
+msgstr "ドメイン、モデル、スカイボックス"
 
 #: ../../source/host/add-content/bake-content.rst:80
 msgid "This is where the baked content will be saved."
-msgstr ""
+msgstr "これは、ベイクされたコンテンツが保存される場所です。"
 
 #: ../../source/host/add-content/bake-content.rst:83
 msgid "Destination URL Path"
-msgstr ""
+msgstr "宛先URLパス"
 
 #: ../../source/host/add-content/bake-content.rst:83
 msgid ""
@@ -340,16 +378,18 @@ msgid ""
 "baking. For example, if you store custom 3D models on a cloud hosting "
 "service, enter that URL here."
 msgstr ""
+"ベイク後にリソースをアップロードする場所の絶対パスを入力します。例えば、カスタム3Dモデルをクラウドホスティングサービスに保存する場合、そのURLを入力し"
+"ます。"
 
 #: ../../source/host/add-content/bake-content.rst:88
 msgid "Re-bake Originals"
-msgstr ""
+msgstr "オリジナルをベイクし直す"
 
 #: ../../source/host/add-content/bake-content.rst:88
 msgid ""
 "Check if you want to re-bake any baked content that the oven finds in "
 "your content archive."
-msgstr ""
+msgstr "オーブンがコンテンツアーカイブで見つけたベイク処理されたコンテンツを再ベイクするかどうかを確認します。"
 
 #: ../../source/host/add-content/bake-content.rst:92
 msgid ""
@@ -358,24 +398,28 @@ msgid ""
 "This ensures that all content will load correctly when you :doc:`upload "
 "the baked content set <upload-content>` to your domain."
 msgstr ""
+"ドメインをベイク処理した後、ベイク処理されたすべてのコンテンツ（3Dモデル、スカイボックスなど）を「宛先URLパス」に指定されたURLにアップロードするこ"
+"とを忘れないでください。これにより、:doc:`ベイクされたコンテンツセット<upload-"
+"content>`をドメインにアップロードするときに、すべてのコンテンツが正しく読み込まれるようになります。"
 
 #: ../../source/host/add-content/bake-content.rst:97
 msgid "Using the Commmand Line Interface"
-msgstr ""
+msgstr "コマンドラインインターフェイスの使用"
 
 #: ../../source/host/add-content/bake-content.rst:99
 msgid ""
 "You can also use a command line interface instead of the GUI to bake "
 "single assets (not domains). We support the following attributes:"
 msgstr ""
+"GUIの代わりにコマンドラインインターフェイスを使用して、（ドメインではなく）単一のアセットをベイク処理することもできます。次の属性をサポートします。"
 
 #: ../../source/host/add-content/bake-content.rst:101
 msgid "i: Path to file that you would like to bake."
-msgstr ""
+msgstr "i: ベイクしたいファイルへのパス。"
 
 #: ../../source/host/add-content/bake-content.rst:102
 msgid "o: Path to folder that will be used as the output directory."
-msgstr ""
+msgstr "o: 出力ディレクトリとして使用されるフォルダへのパス。"
 
 #: ../../source/host/add-content/bake-content.rst:103
 msgid ""
@@ -386,6 +430,9 @@ msgid ""
 "emissive, cube (same as skybox), skybox, ambient, occlusion, scattering, "
 "and lightmap."
 msgstr ""
+"t: アセットのタイプ。値は、「model」（任意のモデルタイプの場合）および「material」（マテリアルのJSON記述の場合）にすることができます。"
+"テクスチャの場合、値は、ベイク処理するテクスチャのタイプ（デフォルト、ストリクト、アルベド、ノーマル、バンプ、スペキュラー、メタリック、ラフネス、グロス、"
+"エミッション、キューブ（スカイボックスと同じ）、スカイボックス、アンビエント、オクルージョン、散乱、およびライトマップ。"
 
 #: ../../source/host/add-content/bake-content.rst:104
 msgid ""
@@ -393,19 +440,21 @@ msgid ""
 "Use this only if the texture compression is introducing too many "
 "artifacts."
 msgstr ""
+"disable-texture-"
+"compression：すべてのタイプのテクスチャ圧縮を無効にします。これは、テクスチャ圧縮によってアーティファクトが多すぎる場合にのみ使用してください。"
 
 #: ../../source/host/add-content/bake-content.rst:106
 msgid "To bake a 3D model through the Oven's command line interface::"
-msgstr ""
+msgstr "オーブンのコマンドラインインターフェイスを介して3Dモデルをベイク処理するには:"
 
 #: ../../source/host/add-content/bake-content.rst:111
 msgid "To bake a material through the Oven's command line interface::"
-msgstr ""
+msgstr "オーブンのコマンドラインインターフェイスを介してマテリアルをベイク処理するには:"
 
 #: ../../source/host/add-content/create-content.rst:2
 #: ../../source/host/add-content/export-content.rst:2
 msgid "This document is outdated. FIXME: mentions Sandbox"
-msgstr ""
+msgstr "このドキュメントは古くなっています。FIXME：サンドボックスについて言及"
 
 #: ../../source/host/add-content/create-content.rst:9
 msgid ""
@@ -415,10 +464,13 @@ msgid ""
 " branch out and build content of your own. If you don't know where to "
 "begin, this is a great place to start."
 msgstr ""
+"おそらく、あなたはメタバースをさまよっており、他の人の創造性に触発されたのかもしれません。あるいは、他のどのドメインも、あなたが考えていることの雰囲気に合"
+"わないのかもしれません。どんな理由であれ、あなたは自分自身のコンテンツを構築する準備ができているのです。何から始めたらいいのかわからないという方は、ここか"
+"ら始めるといいでしょう。"
 
 #: ../../source/host/add-content/create-content.rst:16
 msgid "Tools for Creating Content"
-msgstr ""
+msgstr "コンテンツを作成するためのツール"
 
 #: ../../source/host/add-content/create-content.rst:18
 msgid ""
@@ -427,30 +479,33 @@ msgid ""
 "our :doc:`Create <../../create>` section to learn more about the "
 "available tools and examples of how to make your environment more alive:"
 msgstr ""
+"コンテンツセットは、インタラクティブな環境を形成するために連携して機能する多くの異なるエンティティ、モデル、およびスクリプトの単なるコレクションです。:d"
+"oc:`作成 <../../ "
+"create>`セクションにアクセスして、使用可能なツールの詳細と、環境をより活気のある状態にする方法の例を確認してください。"
 
 #: ../../source/host/add-content/create-content.rst:20
 msgid ":doc:`Create Tools <../../create/tools>`"
-msgstr ""
+msgstr ":doc:`作成ツール <../../create/tools>`"
 
 #: ../../source/host/add-content/create-content.rst:21
 msgid ":doc:`All About Entities <../../create/entities>`"
-msgstr ""
+msgstr ":doc:`すべてのエンティティ <../../create/entities>`"
 
 #: ../../source/host/add-content/create-content.rst:22
 msgid ":doc:`Add Sounds to Entities <../../create/entities/add-sounds>`"
-msgstr ""
+msgstr ":doc:`エンティティへの音の追加 <../../create/entities/add-sounds>`"
 
 #: ../../source/host/add-content/create-content.rst:23
 msgid ":doc:`Build and Import 3D Models <../../create/3d-models>`"
-msgstr ""
+msgstr ":doc:`3Dモデルの構築とインポート <../../create/3d-models>`"
 
 #: ../../source/host/add-content/create-content.rst:24
 msgid ":doc:`Get Started with Scripting <../../script>`"
-msgstr ""
+msgstr ":doc:`スクリプトの開始 <../../script>`"
 
 #: ../../source/host/add-content/create-content.rst:28
 msgid "Techniques for Creating Content Sets"
-msgstr ""
+msgstr "コンテンツセットを作成するためのテクニック"
 
 #: ../../source/host/add-content/create-content.rst:30
 msgid ""
@@ -461,6 +516,9 @@ msgid ""
 "want to wait to show off their creation until the final build is "
 "complete."
 msgstr ""
+"コンテンツセットの作成は、1つのアイテムではなく、環境全体をデザインすることになるため、複雑になることがあります。例えば、多くの建物や木々、道路で構成され"
+"る街全体を作るようなものです。アーティストによっては、制作の各段階の進捗を公開したいと思う人もいます。また、最終的に完成するまで、自分の作品を披露するのを"
+"待ちたいと思う人もいます。"
 
 #: ../../source/host/add-content/create-content.rst:32
 msgid ""
@@ -469,14 +527,16 @@ msgid ""
 "the approach you use to build your content. Choose the method that fits "
 "you best to learn more:"
 msgstr ""
+"コンテンツの構築方法と展開方法を選択できます。ドメインに設定されたコンテンツを更新するプロセスは、コンテンツの作成に使用するアプローチによって異なります。"
+"詳細については、最適な方法を選択してください。"
 
 #: ../../source/host/add-content/create-content.rst:35
 msgid "Method"
-msgstr ""
+msgstr "メソッド"
 
 #: ../../source/host/add-content/create-content.rst:37
 msgid "`Make Live Updates`_"
-msgstr ""
+msgstr "`ライブアップデートを行う`_"
 
 #: ../../source/host/add-content/create-content.rst:37
 msgid ""
@@ -484,6 +544,8 @@ msgid ""
 " domain in the metaverse. This means that any visitors in your domain "
 "will see the changes as they happen."
 msgstr ""
+"コンテンツに変更を加えると、メタバースのドメインにすぐに表示されます。これは、ドメイン内のすべての訪問者が変更が発生したときにそれを確認できることを意味し"
+"ます。"
 
 #: ../../source/host/add-content/create-content.rst:40
 msgid "`Under Construction`_"
@@ -4749,4 +4811,3 @@ msgstr ""
 #~ "using the [Vircadia "
 #~ "builder](https://github.com/vircadia/vircadia-builder)."
 #~ msgstr ""
-

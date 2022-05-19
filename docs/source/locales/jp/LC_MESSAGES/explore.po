@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-17 04:33+0000\n"
-"PO-Revision-Date: 2022-05-17 17:39+0000\n"
+"PO-Revision-Date: 2022-05-19 00:09+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/ja/>\n"
@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../source/explore/get-started.rst:7
 msgid "**In This Section**"
-msgstr ""
+msgstr "**セクション**"
 
 #: ../../source/explore/get-started/adjust-settings.rst:2
 msgid ""

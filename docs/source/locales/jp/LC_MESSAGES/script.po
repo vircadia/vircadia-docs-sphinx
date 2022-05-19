@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2022-05-18 02:46+0000\n"
+"PO-Revision-Date: 2022-05-19 00:09+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/ja/>\n"
@@ -107,7 +107,7 @@ msgstr "**コンテンツ**"
 
 #: ../../source/script/assignment-client-scripts.md:8
 msgid "[Add an AC Script](#add-an-ac-script)"
-msgstr "[ACスクリプトを追加](＃add-an-ac-script)"
+msgstr "[ACスクリプトを追加](#add-an-ac-script)"
 
 #: ../../source/script/assignment-client-scripts.md:9
 msgid "[Example of an AC Script](#example-of-an-ac-script)"
@@ -142,8 +142,8 @@ msgid ""
 "In the Persistent Scripts section, click **+** and paste the URL to your "
 "script under 'Script URL'.  ![](_images/ac-script.png)"
 msgstr ""
-"[永続スクリプト]セクションで、[** + **]をクリックし、[スクリプトURL]の下のスクリプトにURLを貼り付けます。![](_ images / "
-"ac-script.png)"
+"[永続スクリプト]セクションで、[** + **]をクリックし、[スクリプトURL]の下のスクリプトにURLを貼り付けます。![](_images/ac-"
+"script.png)"
 
 #: ../../source/script/assignment-client-scripts.md:18
 msgid ""
@@ -340,7 +340,7 @@ msgid ""
 "[Attach a Client Entity Script to an Entity](#attach-a-client-entity-"
 "script-to-an-entity)"
 msgstr ""
-"[クライアントエンティティスクリプトをエンティティにアタッチする](＃attach-a-client-entity-script-to-an-"
+"[クライアントエンティティスクリプトをエンティティにアタッチする](#attach-a-client-entity-script-to-an-"
 "entity)"
 
 #: ../../source/script/client-entity-scripts.md:9
@@ -961,7 +961,7 @@ msgid ""
 "scripting.html#scripting-console) to try out the examples on this page. "
 "The output will be visible in the console itself."
 msgstr ""
-"[インターフェイスのスクリプトコンソール](get-started-with-scripting.html＃scripting-"
+"[インターフェイスのスクリプトコンソール](get-started-with-scripting.html#scripting-"
 "console)を使用して、このページの例を試すことができます。出力はコンソール上に表示されます。"
 
 #: ../../source/script/js-tips.md:7 ../../source/script/write-scripts.md:12
@@ -1774,6 +1774,9 @@ msgid ""
 "[debug window ](get-started-with-scripting.html#debug-window). In this "
 "example, we'll start with a simple \"Hello, World\" script."
 msgstr ""
+"これは[インターフェイススクリプト](interface-scripts)の例であり、エンティティにアタッチすることはできない。これは、何かを["
+"デバッグウィンドウ ](get-started-with-scripting.html#debug-window) "
+"に出力する方法を示しています。この例では、まず単純な「Hello, World」スクリプトから始めます。"
 
 #: ../../source/script/write-scripts.md:25
 #: ../../source/script/write-scripts.md:45
@@ -1781,7 +1784,7 @@ msgstr ""
 msgid ""
 "Copy and paste this in a file `testScript.js` and save it on your "
 "computer."
-msgstr ""
+msgstr "これをコピーして`testScript.js`ファイルに貼り付け、コンピューターに保存します。"
 
 #: ../../source/script/write-scripts.md:26
 msgid ""
@@ -1789,10 +1792,13 @@ msgid ""
 "and-run-a-script), it will write the words \"Hello, World\" to the 'Debug"
 " Window' in Vircadia. ![](_images/hello-world.png)"
 msgstr ""
+"このスクリプトを [ロードして実行](get-started-with-scripting.html#load-and-run-a-script) "
+"すると、Vircadia の [デバッグウィンドウ] に 「Hello, World」 という文字が出力されます。![](_images/hello-"
+"world.png)"
 
 #: ../../source/script/write-scripts.md:29
 msgid "Create an Entity"
-msgstr ""
+msgstr "エンティティの作成"
 
 #: ../../source/script/write-scripts.md:30
 msgid ""
@@ -1800,6 +1806,8 @@ msgid ""
 "/create-entities), you can create one using an [interface script"
 "](interface-scripts)."
 msgstr ""
+"[Createアプリを使用してエンティティを追加する](../create/entities/create-entities)の代わりに、["
+"interface script](interface-scripts)を使用して作成できます。"
 
 #: ../../source/script/write-scripts.md:46
 msgid ""
@@ -1809,16 +1817,21 @@ msgid ""
 "line to the 'Debug Window'. In this case, the entity will be a red box. "
 "![](_images/add-entity.png)"
 msgstr ""
+"[このスクリプトを読み込んで実行](get-started-with-scripting.html#load-and-run-a-script)すると、ド"
+"メイン内のアバターが検索され、カスタマイズされたプロパティに基づいて新しいエンティティが作成されます。設定してから、[デバッグウィンドウ]に1行出力します"
+"。この場合、エンティティは赤いボックスになります。![](_images/add-entity.png)"
 
 #: ../../source/script/write-scripts.md:49
 msgid "Edit an Entity"
-msgstr ""
+msgstr "エンティティの編集"
 
 #: ../../source/script/write-scripts.md:50
 msgid ""
 "To manipulate an entity's properties, you can use `Entities.editEntity`in"
 " an [interface script](interface-scripts)."
 msgstr ""
+"エンティティのプロパティを操作するには、[interface script](interface-scripts)で`Entities."
+"editEntity`を使用できます。"
 
 #: ../../source/script/write-scripts.md:69
 msgid ""
@@ -1829,16 +1842,20 @@ msgid ""
 "color of the entity to red, and prints the new color in the 'Debug "
 "Window'. ![](_images/edit-entity.png)"
 msgstr ""
+"[このスクリプトを読み込んで実行](get-started-with-scripting.html#load-and-run-a-script)すると、ド"
+"メイン内のアバターが検索され、カスタマイズされたプロパティに基づいて新しいエンティティが作成されます。設定してから、そのエンティティの色が[デバッグウィン"
+"ドウ]に出力されます。次に、スクリプトはエンティティの色を赤に変更し、[デバッグウィンドウ]に新しい色が出力されます。![](_images/edit-"
+"entity.png)"
 
 #: ../../source/script/write-scripts.md:77
 msgid ""
 "[Load and Run a Script](get-started-with-scripting.html#load-and-"
 "run-a-script)"
-msgstr ""
+msgstr "[スクリプトの読み込みと実行](get-started-with-scripting.html#load-and-run-a-script)"
 
 #: ../../source/script/write-scripts.md:78
 msgid "[Interface Scripts](interface-scripts)"
-msgstr ""
+msgstr "[インターフェーススクリプト](interface-scripts)"
 
 #~ msgid ""
 #~ "`MIDI-API "

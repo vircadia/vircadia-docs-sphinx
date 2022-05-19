@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-05-17 17:39+0000\n"
+"PO-Revision-Date: 2022-05-19 00:09+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/ja/>\n"
@@ -337,7 +337,7 @@ msgstr ""
 #: ../../source/create/3d-models/pbr-materials-guide.rst:27
 #: ../../source/create/avatars/avatar-standards.md:257
 msgid "Textures"
-msgstr ""
+msgstr "テクスチャ"
 
 #: ../../source/create/3d-models/get-model.rst:61
 msgid ""
@@ -2760,7 +2760,7 @@ msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:22
 msgid "**In This Section**"
-msgstr ""
+msgstr "**セクション**"
 
 #: ../../source/create/avatars/create-avatars.rst:32
 msgid "Create an Avatar from Scratch"
@@ -3033,7 +3033,7 @@ msgstr ""
 #: ../../source/create/avatars/custom-animations.rst:79
 #: ../../source/create/environments.rst:15
 msgid "Method"
-msgstr ""
+msgstr "メソッド"
 
 #: ../../source/create/avatars/custom-animations.rst:81
 msgid ""
@@ -8027,7 +8027,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:34
 #: ../../source/create/entities/zone-entity.rst:80
 msgid "Skybox"
-msgstr ""
+msgstr "スカイボックス"
 
 #: ../../source/create/entities/zone-entity.rst:34
 msgid ""
