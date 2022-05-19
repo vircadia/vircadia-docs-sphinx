@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-17 04:33+0000\n"
-"PO-Revision-Date: 2022-05-19 00:09+0000\n"
+"PO-Revision-Date: 2022-05-19 03:20+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/ja/>\n"
@@ -549,7 +549,7 @@ msgstr ""
 
 #: ../../source/host/add-content/create-content.rst:40
 msgid "`Under Construction`_"
-msgstr ""
+msgstr "`工事中`_"
 
 #: ../../source/host/add-content/create-content.rst:40
 msgid ""
@@ -557,10 +557,12 @@ msgid ""
 " offline to outside visitors. Users will be unable to visit your domain "
 "while it is under construction."
 msgstr ""
+"コンテンツ・セットを構築している間、あなたのドメインは外部からの訪問者に対してオフラインになります。ユーザーは、構築中のドメインにアクセスすることができま"
+"せん。"
 
 #: ../../source/host/add-content/create-content.rst:43
 msgid "`Create and Deploy`_"
-msgstr ""
+msgstr "`作成とデプロイ`_"
 
 #: ../../source/host/add-content/create-content.rst:43
 msgid ""
@@ -569,10 +571,12 @@ msgid ""
 "file, then deploy it to your domain. Visitors can continue visiting your "
 "domain with any placeholder content while you design your custom content."
 msgstr ""
+"ここでは、オフライン環境でコンテンツを作成することをお勧めします。完了したら、コンテンツセットを外部ファイルにエクスポートしてから、ドメインにデプロイする"
+"必要があります。カスタムコンテンツをデザインしている間、訪問者は任意のプレースホルダーコンテンツを使用してドメインにアクセスし続けることができます。"
 
 #: ../../source/host/add-content/create-content.rst:51
 msgid "Make Live Updates"
-msgstr ""
+msgstr "ライブアップデートの実施"
 
 #: ../../source/host/add-content/create-content.rst:53
 msgid ""
@@ -580,6 +584,8 @@ msgid ""
 "changes to the content. In order to make changes, a user must have the "
 "'Rez' permission turned on."
 msgstr ""
+"ライブアップデートは、あなたやあなたのドメイン内の他のユーザーがコンテンツに変更を加えたときにいつでも行われます。変更を加えるには、ユーザーが「Rez」パ"
+"ーミッションをオンにしている必要があります。"
 
 #: ../../source/host/add-content/create-content.rst:55
 msgid ""
@@ -590,6 +596,10 @@ msgid ""
 " To update your content, all you need to is visit your domain and start "
 "making changes using the :doc:`Create Tools <../../create/tools>`."
 msgstr ""
+"この方法を取る前に、コンテンツセットを変更したい人（もし誰かいるならば）を決め、:doc:`その人のrez権限が正しく設定されている "
+"<../configure-settings/permission-settings>`ことを確認します。もし、あなたが変更を行うのであれば、あなたがre"
+"z権限を持っていることを確認してください。コンテンツを更新するには、自分のドメインにアクセスして、 :doc:`ツールの作成<../../create/"
+"tools>` を使って変更を開始するだけです。"
 
 #: ../../source/host/add-content/create-content.rst:57
 #: ../../source/host/add-content/create-content.rst:82
