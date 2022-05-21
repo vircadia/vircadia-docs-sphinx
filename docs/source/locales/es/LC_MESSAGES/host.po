@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-17 04:33+0000\n"
-"PO-Revision-Date: 2022-05-15 13:12+0000\n"
+"PO-Revision-Date: 2022-05-21 18:31+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/host/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/host/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/host.rst:11
@@ -1835,7 +1836,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/network-settings.rst:42
 msgid "Networking Details (Advanced)"
-msgstr ""
+msgstr "Detalles de Red (avanzado)"
 
 #: ../../source/host/configure-settings/network-settings.rst:44
 msgid ""
@@ -1843,28 +1844,33 @@ msgid ""
 "starting at `40100`. (Note that the encrypted ports may not be "
 "implemented yet.) These ports are:"
 msgstr ""
+"Un dominio de Vircadia reserva un rango de cuatro puertos para operar, "
+"generalmente comenzando en `40100`. (Ten en cuenta que es posible que los "
+"puertos cifrados aún no se hayan implementado). Estos puertos son:"
 
 #: ../../source/host/configure-settings/network-settings.rst:46
 msgid "40100 (+0): (tcp) administrative http connection"
-msgstr ""
+msgstr "40100 (+0): (tcp) conexión http administrativa"
 
 #: ../../source/host/configure-settings/network-settings.rst:47
 msgid "40101 (+1): (tcp) administrative https (encrypted) connection"
-msgstr ""
+msgstr "40101 (+1): (tcp) conexión administrativa https (cifrada)"
 
 #: ../../source/host/configure-settings/network-settings.rst:48
 msgid "40102 (+2): (udp) main connection from clients"
-msgstr ""
+msgstr "40102 (+2): (udp) conexión principal de los clientes"
 
 #: ../../source/host/configure-settings/network-settings.rst:49
 msgid "40103 (+3): (udp) main connection from clients (encrypted)"
-msgstr ""
+msgstr "40103 (+3): (udp) conexión principal de los clientes (cifrada)"
 
 #: ../../source/host/configure-settings/network-settings.rst:51
 msgid ""
 "Generally speaking, only port `40102` must be publicly exposed to permit "
 "others to connect to a domain."
 msgstr ""
+"En términos generales, solo el puerto '40102' debe exponerse públicamente "
+"para permitir que otros se conecten a un dominio."
 
 #: ../../source/host/configure-settings/network-settings.rst:53
 msgid ""
@@ -1873,30 +1879,35 @@ msgid ""
 "server and must be able to connect with any outside user. These clients "
 "are:"
 msgstr ""
+"Además, hay seis \"clientes de asignación\" que deben ejecutarse para que el "
+"dominio esté operativo. Estos clientes se ejecutan junto con el servidor de "
+"dominio y deben poder conectarse con cualquier usuario externo. Estos "
+"clientes son:"
 
 #: ../../source/host/configure-settings/network-settings.rst:55
 msgid "**asset-server**: stores object data to download to the user"
 msgstr ""
+"**asset-server**: almacena datos de objetos para descargarlos al usuario"
 
 #: ../../source/host/configure-settings/network-settings.rst:56
 msgid "**audio-mixer**: controls what each user would hear"
-msgstr ""
+msgstr "**audio-mixer**: controla lo que escucharía cada usuario"
 
 #: ../../source/host/configure-settings/network-settings.rst:57
 msgid "**avatar-mixer**: allows users to see each other"
-msgstr ""
+msgstr "**avatar-mixer**: permite que los usuarios se vean"
 
 #: ../../source/host/configure-settings/network-settings.rst:58
 msgid "**entity-script-server**: runs actions inside the domain"
-msgstr ""
+msgstr "**entity-script-server**: ejecuta acciones dentro del dominio"
 
 #: ../../source/host/configure-settings/network-settings.rst:59
 msgid "**entity-server**: describes the location of each object in the domain"
-msgstr ""
+msgstr "**entity-server**: describe la ubicación de cada objeto en el dominio"
 
 #: ../../source/host/configure-settings/network-settings.rst:60
 msgid "**messages-mixer**: passes messages between users in the domain"
-msgstr ""
+msgstr "**messages-mixer**: pasa mensajes entre usuarios en el dominio"
 
 #: ../../source/host/configure-settings/network-settings.rst:62
 msgid ""
@@ -1904,10 +1915,14 @@ msgid ""
 " the operating system at launch. These ports will be within the "
 "`ephemeral port range <https://en.wikipedia.org/wiki/Ephemeral_port>`_."
 msgstr ""
+"Estos clientes de asignación utilizan conexiones UDP en un número de puerto "
+"asignado por el sistema operativo en el momento del lanzamiento. Estos "
+"puertos estarán dentro del `rango de puertos efímeros <https://en.wikipedia."
+"org/wiki/Ephemeral_port>`_."
 
 #: ../../source/host/configure-settings/network-settings.rst:66
 msgid "Domain ID"
-msgstr ""
+msgstr "ID de Dominio"
 
 #: ../../source/host/configure-settings/network-settings.rst:68
 msgid ""
@@ -1916,16 +1931,22 @@ msgid ""
 "your world such as: allowing you to create Place names, identifying "
 "logged in users, and more."
 msgstr ""
+"A cada dominio del metaverso se le asigna un ID de dominio único. El "
+"servidor Metaverse usa este ID para ayudar a proporcionar funciones más "
+"avanzadas a tu mundo, como: permitirte crear nombres de lugares, identificar "
+"usuarios registrados y más."
 
 #: ../../source/host/configure-settings/network-settings.rst:70
 msgid ""
 "If you don't want your domain to be registered in the metaverse, leave "
 "the Domain ID field blank."
 msgstr ""
+"Si no deseas que tu dominio se registre en el metaverso, deja el campo ID de "
+"dominio en blanco."
 
 #: ../../source/host/configure-settings/network-settings.rst:76
 msgid "Enable Packet Verification"
-msgstr ""
+msgstr "Habilitar Verificación de Paquetes"
 
 #: ../../source/host/configure-settings/network-settings.rst:78
 msgid ""
@@ -1934,6 +1955,10 @@ msgid ""
 "increases security in your domain, but may slightly decrease domain "
 "performance for your visitors."
 msgstr ""
+"Cuando se activa \"Habilitar Verificación de Paquetes\", Vircadia envía "
+"sumas de verificación (checksums) seguras en las comunicaciones que utilizan "
+"los protocolos de Vircadia. Esto aumenta la seguridad en tu dominio, pero "
+"puede disminuir ligeramente el rendimiento del dominio para tus visitantes."
 
 #: ../../source/host/configure-settings/permission-settings.rst:5
 msgid ""
@@ -1943,10 +1968,16 @@ msgid ""
 " example, you can let anyone connect to your domain, but only give "
 "friends access to edit your domain content."
 msgstr ""
+"Puedes proteger tu dominio configurando los permisos de usuario para los "
+"visitantes de tu dominio. En la configuración de tu dominio, tú controlas "
+"los tipos de usuarios que tienen acceso a tu dominio y los permisos que se "
+"les otorgan. Por ejemplo, puedes permitir que cualquier persona se conecte a "
+"tu dominio, pero solo dar acceso a amigos para editar el contenido de tu "
+"dominio."
 
 #: ../../source/host/configure-settings/permission-settings.rst:12
 msgid "Set User Permissions"
-msgstr ""
+msgstr "Asignar Permisos de Usuario"
 
 #: ../../source/host/configure-settings/permission-settings.rst:14
 msgid ""
@@ -1954,6 +1985,9 @@ msgid ""
 "specific users, users from a specific IP, and users from specific "
 "computers."
 msgstr ""
+"Los permisos se pueden asignar a grupos de usuarios estándar, grupos de "
+"usuarios personalizados, usuarios específicos, usuarios de una IP específica "
+"y usuarios de computadoras específicas."
 
 #: ../../source/host/configure-settings/permission-settings.rst:16
 msgid ""
@@ -1965,26 +1999,37 @@ msgid ""
 "will supersede any group-level permissions that otherwise might apply to "
 "that user."
 msgstr ""
+"Los permisos para un usuario serán la suma de todos los grupos en los que se "
+"encuentra el usuario. Por ejemplo, supongamos que todos los usuarios "
+"registrados pueden conectarse y solo los usuarios de host local pueden "
+"activar entidades. Si un usuario ha iniciado sesión y está en localhost, "
+"entonces podrá conectarse y rez (activar) entidades. Además, cuando se "
+"asignan permisos de usuario a un usuario específico, reemplazará a cualquier "
+"permiso a nivel de grupo que de otro modo podría aplicarse a ese usuario."
 
 #: ../../source/host/configure-settings/permission-settings.rst:18
 msgid "To assign user permissions:"
-msgstr ""
+msgstr "Para asignar permisos de usuario:"
 
 #: ../../source/host/configure-settings/permission-settings.rst:26
 msgid "Scroll to 'Domain-Wide User Permissions'."
-msgstr ""
+msgstr "Desplázate hasta \"Domain-Wide User Permissions\"."
 
 #: ../../source/host/configure-settings/permission-settings.rst:27
 msgid ""
 "First, set any permissions for the `standard user groups`_. Check the box"
 " of all permissions you'd like to grant."
 msgstr ""
+"Primero, configura los permisos para los `grupos de usuarios estándar`_. "
+"Marca la casilla de todos los permisos que quieras otorgar."
 
 #: ../../source/host/configure-settings/permission-settings.rst:28
 msgid ""
 "To assign all other permissions, you need to add a custom group, specific"
 " user, etc individually to the correct permissions table:"
 msgstr ""
+"Para asignar todos los demás permisos, debes agregar un grupo personalizado, "
+"un usuario específico, etc. individualmente a la tabla de permisos correcta:"
 
 #: ../../source/host/configure-settings/permission-settings.rst:30
 msgid ""
@@ -1993,12 +2038,20 @@ msgid ""
 "all permissions you'd like to grant or deny (depending on the permissions"
 " table you are adding the group to)."
 msgstr ""
+"**Añadir Grupo**: Ingresa el nombre del grupo o lista personalizada, luego "
+"haz click en el ícono ``+``. Guarda la configuración de tu dominio para "
+"cargar rangos. Marca la casilla de todos los permisos que te gustaría "
+"otorgar o denegar (dependiendo de la tabla de permisos a la que estés "
+"agregando el grupo)."
 
 #: ../../source/host/configure-settings/permission-settings.rst:33
 msgid ""
 "**Add Specific User**: Click the ``+`` icon, then enter a specific user "
 "name. Check the box of all permissions you'd like to grant."
 msgstr ""
+"**Añadir un Usuario Específico**: Haz click en el ícono ``+``, luego ingresa "
+"un nombre de usuario específico. Marca la casilla de todos los permisos que "
+"te gustaría otorgar."
 
 #: ../../source/host/configure-settings/permission-settings.rst:36
 msgid ""
@@ -2007,14 +2060,18 @@ msgid ""
 "adding permission to). Check the box of all permissions you'd like to "
 "grant."
 msgstr ""
+"**Añadir una Dirección IP, una Dirección MAC o Huella dactilar de la "
+"Máquina**: Haz click en el ícono ``+``, luego ingresa la información (según "
+"la tabla de permisos a la que estés agregando permisos). Marca la casilla de "
+"todos los permisos que te gustaría otorgar."
 
 #: ../../source/host/configure-settings/permission-settings.rst:37
 msgid "Click 'Save' to save your domain settings."
-msgstr ""
+msgstr "Haz clic en \"Save\" para guardar la configuración de tu dominio."
 
 #: ../../source/host/configure-settings/permission-settings.rst:41
 msgid "Standard User Groups"
-msgstr ""
+msgstr "Grupos de Usuarios Estándar"
 
 #: ../../source/host/configure-settings/permission-settings.rst:43
 msgid ""
@@ -2022,14 +2079,17 @@ msgid ""
 "up, based on the people that you will interact with in the metaverse. "
 "They are:"
 msgstr ""
+"Tu dominio viene con cuatro grupos de seguridad básicos que ya están "
+"configurados, en función de las personas con las que interactuarás en el "
+"metaverso. Ellos son:"
 
 #: ../../source/host/configure-settings/permission-settings.rst:46
 msgid "User Type"
-msgstr ""
+msgstr "Tipo de usuario"
 
 #: ../../source/host/configure-settings/permission-settings.rst:48
 msgid "anonymous"
-msgstr ""
+msgstr "anonymous"
 
 #: ../../source/host/configure-settings/permission-settings.rst:48
 msgid ""
@@ -2037,10 +2097,13 @@ msgid ""
 "Interface. This is the default user type for someone who has downloaded "
 "Interface for the first time."
 msgstr ""
+"Una persona que no ha iniciado sesión y está utilizando una instancia de la "
+"interfaz de Vircadia. Este es el tipo de usuario predeterminado para alguien "
+"que ha descargado la Interface por primera vez."
 
 #: ../../source/host/configure-settings/permission-settings.rst:52
 msgid "friends"
-msgstr ""
+msgstr "friends"
 
 #: ../../source/host/configure-settings/permission-settings.rst:52
 msgid ""
@@ -2050,6 +2113,11 @@ msgid ""
 "permissions in your domains than your Connections. Connections are "
 "treated like anonymous users."
 msgstr ""
+"Un usuario con el que te hayas conectado estrechando la mano de su avatar y "
+"haciendo click en la casilla de verificación \"Friends\" en tu aplicación "
+"**People**. Las conexiones son diferentes de los amigos. Por defecto, los "
+"Amigos (friends) tienen más permisos en tus dominios que tus Conexiones "
+"(Connections). Las conexiones se tratan como usuarios anónimos."
 
 #: ../../source/host/configure-settings/permission-settings.rst:57
 msgid "localhost"
@@ -4475,4 +4543,3 @@ msgstr ""
 #~ "using the [Vircadia "
 #~ "builder](https://github.com/vircadia/vircadia-builder)."
 #~ msgstr ""
-
