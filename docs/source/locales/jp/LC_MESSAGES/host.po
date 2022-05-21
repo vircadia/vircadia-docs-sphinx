@@ -8,17 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2022-05-17 04:33+0000\n"
+"POT-Creation-Date: 2022-05-21 18:31+0000\n"
 "PO-Revision-Date: 2022-05-19 03:20+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/host/ja/>\n"
 "Language: jp\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/host/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/host.rst:11
@@ -59,9 +57,7 @@ msgid ""
 "and controlled by its users. To achieve this vision, we want you to have "
 "the power to express your creativity, build your own virtual worlds, and "
 "be a part of an expanding metaverse."
-msgstr ""
-"Vircadiaのビジョンは、ユーザーによって創造され、コントロールされる仮想世界の分散型ネットワークです。このビジョンを達成するために、皆様には創造性を"
-"発揮し、独自の仮想世界を構築し、拡大するメタバースの一部となる力をお持ちいただきたいと考えています。"
+msgstr "Vircadiaのビジョンは、ユーザーによって創造され、コントロールされる仮想世界の分散型ネットワークです。このビジョンを達成するために、皆様には創造性を発揮し、独自の仮想世界を構築し、拡大するメタバースの一部となる力をお持ちいただきたいと考えています。"
 
 #: ../../source/host.rst:7
 msgid ""
@@ -106,10 +102,7 @@ msgid ""
 "world. Whether you've created a domain to host an event, as a place to "
 "hang out with friends, or even an office space, we invite you to create "
 "your own Vircadia experience by tailoring the content to your needs."
-msgstr ""
-"あなたのドメインは、あなただけの仮想世界です。その中で、あなたの創造性を発揮し、独自のコンテンツを作成し、それを世界に発信することができます。イベントを開"
-"催するため、友人と過ごす場所として、あるいはオフィススペースとして、あなたのニーズに合わせてコンテンツを作成し、あなただけのVircadiaを体験してくだ"
-"さい。"
+msgstr "あなたのドメインは、あなただけの仮想世界です。その中で、あなたの創造性を発揮し、独自のコンテンツを作成し、それを世界に発信することができます。イベントを開催するため、友人と過ごす場所として、あるいはオフィススペースとして、あなたのニーズに合わせてコンテンツを作成し、あなただけのVircadiaを体験してください。"
 
 #: ../../source/host/add-content.rst:7
 #: ../../source/host/configure-settings.rst:12
@@ -121,9 +114,7 @@ msgid ""
 "This document is outdated. FIXME: Mentions Sandbox, missing information "
 "about Linux (currently the oven is only shipped with the Server, not the "
 "AppImage), says that Oven has a GUI application (is news to me)"
-msgstr ""
-"このドキュメントは古くなっています。FIXME：Linuxに関する情報が欠落しているサンドボックスに言及（現在、オーブンはサーバーにのみ付属しており、Ap"
-"pImageは付属していません）、オーブンにはGUIアプリケーションがあると述べています（私にとってはニュースです）"
+msgstr "このドキュメントは古くなっています。FIXME：Linuxに関する情報が欠落しているサンドボックスに言及（現在、オーブンはサーバーにのみ付属しており、AppImageは付属していません）、オーブンにはGUIアプリケーションがあると述べています（私にとってはニュースです）"
 
 #: ../../source/host/add-content/bake-content.rst:9
 msgid ""
@@ -134,10 +125,7 @@ msgid ""
 "while to download. *Baking* is the process of optimizing these resources "
 "to make them easier to transmit, store, and render, reducing load time "
 "significantly."
-msgstr ""
-"Vircadiaのほとんどのコンテンツ（アバター、エンティティなど）は、テクスチャ、モデル、スクリプト、マテリアルなどの外部リソースを参照しています。ユー"
-"ザーがドメイン内のコンテンツに遭遇した場合、コンテンツのリソースをダウンロードする必要があります。これらのリソースの多くは最適化されておらず、ダウンロード"
-"に時間がかかる場合があります。*ベイク処理*は、これらのリソースを最適化して、送信、保存、レンダリングを容易にし、ロード時間を大幅に短縮するプロセスです。"
+msgstr "Vircadiaのほとんどのコンテンツ（アバター、エンティティなど）は、テクスチャ、モデル、スクリプト、マテリアルなどの外部リソースを参照しています。ユーザーがドメイン内のコンテンツに遭遇した場合、コンテンツのリソースをダウンロードする必要があります。これらのリソースの多くは最適化されておらず、ダウンロードに時間がかかる場合があります。*ベイク処理*は、これらのリソースを最適化して、送信、保存、レンダリングを容易にし、ロード時間を大幅に短縮するプロセスです。"
 
 #: ../../source/host/add-content/bake-content.rst:12
 #: ../../source/host/add-content/create-content.rst:12
@@ -168,9 +156,9 @@ msgid ""
 " `Client + Sandbox <https://vircadia.com/deploy-a-server/>`_ installer. "
 "Once installed, locate ``oven.exe`` (Windows) or ``oven.app`` (Mac)."
 msgstr ""
-"オーブンはVircadia `Client + Sandbox <https://vircadia.com/deploy-a-server/"
-">`のインストーラの一部としてパッケージされているスタンドアロンアプリケーションです。インストールしたパスから、 ``oven.exe`` "
-"(Windows) または ``oven.app`` (Mac)を探してください。"
+"オーブンはVircadia `Client + Sandbox "
+"<https://vircadia.com/deploy-a-server/>`のインストーラの一部としてパッケージされているスタンドアロンアプリケーションです。インストールしたパスから、"
+" ``oven.exe`` (Windows) または ``oven.app`` (Mac)を探してください。"
 
 #: ../../source/host/add-content/bake-content.rst:20
 msgid "With the oven, you can bake the following types of content:"
@@ -203,11 +191,10 @@ msgid ""
 " recommend using PNG or JPEG (JPG) textures. However, we also support "
 "textures in following formats: TGA, TIF, and TIFF."
 msgstr ""
-"テクスチャをベイクすると、結果のフォルダには .texmeta.json ファイル、さまざまな .ktx イメージ、および元のテクスチャが含まれます。ベイ"
-"クすると、圧縮によるデータの歪が発生する場合がありますが、通常は軽微なものです。テクスチャをベイクすると、メインデータに付随してそれを様々な大きさに縮小し"
-"フィルタリングしたデータ群が生成され、その結果が圧縮されます。スカイボックスのような大きなテクスチャのベイクには時間がかかりますが、スカイボックスイメージ"
-"をロードするすべての人のランタイムでの利点は大きくなります。最高の体験を得るには、PNG または "
-"JPEG（JPG）テクスチャを使用することをお勧めします。サポートしているテクスチャファイルフォーマット:TGA、TIF、および TIFF。"
+"テクスチャをベイクすると、結果のフォルダには .texmeta.json ファイル、さまざまな .ktx "
+"イメージ、および元のテクスチャが含まれます。ベイクすると、圧縮によるデータの歪が発生する場合がありますが、通常は軽微なものです。テクスチャをベイクすると、メインデータに付随してそれを様々な大きさに縮小しフィルタリングしたデータ群が生成され、その結果が圧縮されます。スカイボックスのような大きなテクスチャのベイクには時間がかかりますが、スカイボックスイメージをロードするすべての人のランタイムでの利点は大きくなります。最高の体験を得るには、PNG"
+" または JPEG（JPG）テクスチャを使用することをお勧めします。サポートしているテクスチャファイルフォーマット:TGA、TIF、および "
+"TIFF。"
 
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "Materials"
@@ -220,10 +207,8 @@ msgid ""
 "`material entity JSON file <../../create/entities/mate rial-"
 "entity.html#generate-a-material-entity>`_."
 msgstr ""
-"マテリアルをベイク処理すると、.baked."
-"jsonファイルが生成され、マテリアル内のすべてのテクスチャもベイク処理されます。現在、`マテリアルエンティティJSONファイル<../../"
-"create/entities/material-entity.html#generate-a-material-"
-"entity>`_のベイク処理のみがサポートされています。"
+"マテリアルをベイク処理すると、.baked.jsonファイルが生成され、マテリアル内のすべてのテクスチャもベイク処理されます。現在、`マテリアルエンティティJSONファイル<../../create/entities"
+"/material-entity.html#generate-a-material-entity>`_のベイク処理のみがサポートされています。"
 
 #: ../../source/host/add-content/bake-content.rst:37
 msgid "3D Models"
@@ -242,13 +227,7 @@ msgid ""
 "JSON file is referenced in the `materialMap` field in the .baked.fst "
 "file. We support the following formats: FBX, OBJ, and FST (that points to"
 " a supported type)."
-msgstr ""
-"モデルをベイク処理すると、`Draco圧縮<https://github.com/google/draco>`_ジオメトリックメッシュが生成され、モデル内"
-"のすべてのマテリアルもベイク処理されます。メッシュ圧縮により、元のモデルのジオメトリがわずかに変更される可能性がありますが、通常は軽微です。出力フォルダー"
-"には、.baked.fstファイル、.baked.fbxファイル（モデルの元の形式は異なる場合があります）、および.baked."
-"jsonファイル（マテリアル）が含まれます。ベイクされたマテリアルのJSONファイルはベイクされたテクスチャファイルを参照するため、すべてのテクスチャが."
-"baked.fbxファイルから削除されます。このJSONファイルは、.baked.fstファイルの`materialMap`フィールドで参照されます。次の"
-"形式をサポートしています：FBX、OBJ、およびFST（サポートされているタイプを指します）。"
+msgstr "モデルをベイク処理すると、`Draco圧縮<https://github.com/google/draco>`_ジオメトリックメッシュが生成され、モデル内のすべてのマテリアルもベイク処理されます。メッシュ圧縮により、元のモデルのジオメトリがわずかに変更される可能性がありますが、通常は軽微です。出力フォルダーには、.baked.fstファイル、.baked.fbxファイル（モデルの元の形式は異なる場合があります）、および.baked.jsonファイル（マテリアル）が含まれます。ベイクされたマテリアルのJSONファイルはベイクされたテクスチャファイルを参照するため、すべてのテクスチャが.baked.fbxファイルから削除されます。このJSONファイルは、.baked.fstファイルの`materialMap`フィールドで参照されます。次の形式をサポートしています：FBX、OBJ、およびFST（サポートされているタイプを指します）。"
 
 #: ../../source/host/add-content/bake-content.rst:45
 msgid "Avatars"
@@ -260,9 +239,8 @@ msgid ""
 "above. Use the resulting .baked.fst file to `host and wear your baked "
 "avatar <../../create/avatars/package-avatar.html#host-your-avatar>`_."
 msgstr ""
-"アバターは3Dモデルであるため、上記と同じ結果でアバターをベイク処理できます。結果の.baked."
-"fstファイルを使用して、`ベイクしたアバターをホストして着用します<../../create/avatars/package-avatar.html"
-"#host-your-avatar>`_。"
+"アバターは3Dモデルであるため、上記と同じ結果でアバターをベイク処理できます。結果の.baked.fstファイルを使用して、`ベイクしたアバターをホストして着用します<../../create/avatars"
+"/package-avatar.html#host-your-avatar>`_。"
 
 #: ../../source/host/add-content/bake-content.rst:49
 msgid ""
@@ -377,9 +355,7 @@ msgid ""
 "Enter the absolute paths of where your resources will be uploaded after "
 "baking. For example, if you store custom 3D models on a cloud hosting "
 "service, enter that URL here."
-msgstr ""
-"ベイク後にリソースをアップロードする場所の絶対パスを入力します。例えば、カスタム3Dモデルをクラウドホスティングサービスに保存する場合、そのURLを入力し"
-"ます。"
+msgstr "ベイク後にリソースをアップロードする場所の絶対パスを入力します。例えば、カスタム3Dモデルをクラウドホスティングサービスに保存する場合、そのURLを入力します。"
 
 #: ../../source/host/add-content/bake-content.rst:88
 msgid "Re-bake Originals"
@@ -398,9 +374,8 @@ msgid ""
 "This ensures that all content will load correctly when you :doc:`upload "
 "the baked content set <upload-content>` to your domain."
 msgstr ""
-"ドメインをベイク処理した後、ベイク処理されたすべてのコンテンツ（3Dモデル、スカイボックスなど）を「宛先URLパス」に指定されたURLにアップロードするこ"
-"とを忘れないでください。これにより、:doc:`ベイクされたコンテンツセット<upload-"
-"content>`をドメインにアップロードするときに、すべてのコンテンツが正しく読み込まれるようになります。"
+"ドメインをベイク処理した後、ベイク処理されたすべてのコンテンツ（3Dモデル、スカイボックスなど）を「宛先URLパス」に指定されたURLにアップロードすることを忘れないでください。これにより、:doc:`ベイクされたコンテンツセット"
+"<upload-content>`をドメインにアップロードするときに、すべてのコンテンツが正しく読み込まれるようになります。"
 
 #: ../../source/host/add-content/bake-content.rst:97
 msgid "Using the Commmand Line Interface"
@@ -410,8 +385,7 @@ msgstr "コマンドラインインターフェイスの使用"
 msgid ""
 "You can also use a command line interface instead of the GUI to bake "
 "single assets (not domains). We support the following attributes:"
-msgstr ""
-"GUIの代わりにコマンドラインインターフェイスを使用して、（ドメインではなく）単一のアセットをベイク処理することもできます。次の属性をサポートします。"
+msgstr "GUIの代わりにコマンドラインインターフェイスを使用して、（ドメインではなく）単一のアセットをベイク処理することもできます。次の属性をサポートします。"
 
 #: ../../source/host/add-content/bake-content.rst:101
 msgid "i: Path to file that you would like to bake."
@@ -430,9 +404,8 @@ msgid ""
 "emissive, cube (same as skybox), skybox, ambient, occlusion, scattering, "
 "and lightmap."
 msgstr ""
-"t: アセットのタイプ。値は、「model」（任意のモデルタイプの場合）および「material」（マテリアルのJSON記述の場合）にすることができます。"
-"テクスチャの場合、値は、ベイク処理するテクスチャのタイプ（デフォルト、ストリクト、アルベド、ノーマル、バンプ、スペキュラー、メタリック、ラフネス、グロス、"
-"エミッション、キューブ（スカイボックスと同じ）、スカイボックス、アンビエント、オクルージョン、散乱、およびライトマップ。"
+"t: "
+"アセットのタイプ。値は、「model」（任意のモデルタイプの場合）および「material」（マテリアルのJSON記述の場合）にすることができます。テクスチャの場合、値は、ベイク処理するテクスチャのタイプ（デフォルト、ストリクト、アルベド、ノーマル、バンプ、スペキュラー、メタリック、ラフネス、グロス、エミッション、キューブ（スカイボックスと同じ）、スカイボックス、アンビエント、オクルージョン、散乱、およびライトマップ。"
 
 #: ../../source/host/add-content/bake-content.rst:104
 msgid ""
@@ -463,10 +436,7 @@ msgid ""
 "atmosphere of what you have in mind. Whatever the reason, you're ready to"
 " branch out and build content of your own. If you don't know where to "
 "begin, this is a great place to start."
-msgstr ""
-"おそらく、あなたはメタバースをさまよっており、他の人の創造性に触発されたのかもしれません。あるいは、他のどのドメインも、あなたが考えていることの雰囲気に合"
-"わないのかもしれません。どんな理由であれ、あなたは自分自身のコンテンツを構築する準備ができているのです。何から始めたらいいのかわからないという方は、ここか"
-"ら始めるといいでしょう。"
+msgstr "おそらく、あなたはメタバースをさまよっており、他の人の創造性に触発されたのかもしれません。あるいは、他のどのドメインも、あなたが考えていることの雰囲気に合わないのかもしれません。どんな理由であれ、あなたは自分自身のコンテンツを構築する準備ができているのです。何から始めたらいいのかわからないという方は、ここから始めるといいでしょう。"
 
 #: ../../source/host/add-content/create-content.rst:16
 msgid "Tools for Creating Content"
@@ -479,9 +449,8 @@ msgid ""
 "our :doc:`Create <../../create>` section to learn more about the "
 "available tools and examples of how to make your environment more alive:"
 msgstr ""
-"コンテンツセットは、インタラクティブな環境を形成するために連携して機能する多くの異なるエンティティ、モデル、およびスクリプトの単なるコレクションです。:d"
-"oc:`作成 <../../ "
-"create>`セクションにアクセスして、使用可能なツールの詳細と、環境をより活気のある状態にする方法の例を確認してください。"
+"コンテンツセットは、インタラクティブな環境を形成するために連携して機能する多くの異なるエンティティ、モデル、およびスクリプトの単なるコレクションです。:doc:`作成"
+" <../../ create>`セクションにアクセスして、使用可能なツールの詳細と、環境をより活気のある状態にする方法の例を確認してください。"
 
 #: ../../source/host/add-content/create-content.rst:20
 msgid ":doc:`Create Tools <../../create/tools>`"
@@ -515,10 +484,7 @@ msgid ""
 "artists want to share their progress, each step along the way. Others "
 "want to wait to show off their creation until the final build is "
 "complete."
-msgstr ""
-"コンテンツセットの作成は、1つのアイテムではなく、環境全体をデザインすることになるため、複雑になることがあります。例えば、多くの建物や木々、道路で構成され"
-"る街全体を作るようなものです。アーティストによっては、制作の各段階の進捗を公開したいと思う人もいます。また、最終的に完成するまで、自分の作品を披露するのを"
-"待ちたいと思う人もいます。"
+msgstr "コンテンツセットの作成は、1つのアイテムではなく、環境全体をデザインすることになるため、複雑になることがあります。例えば、多くの建物や木々、道路で構成される街全体を作るようなものです。アーティストによっては、制作の各段階の進捗を公開したいと思う人もいます。また、最終的に完成するまで、自分の作品を披露するのを待ちたいと思う人もいます。"
 
 #: ../../source/host/add-content/create-content.rst:32
 msgid ""
@@ -526,9 +492,7 @@ msgid ""
 "process for updating the content set on your domain will differ based on "
 "the approach you use to build your content. Choose the method that fits "
 "you best to learn more:"
-msgstr ""
-"コンテンツの構築方法と展開方法を選択できます。ドメインに設定されたコンテンツを更新するプロセスは、コンテンツの作成に使用するアプローチによって異なります。"
-"詳細については、最適な方法を選択してください。"
+msgstr "コンテンツの構築方法と展開方法を選択できます。ドメインに設定されたコンテンツを更新するプロセスは、コンテンツの作成に使用するアプローチによって異なります。詳細については、最適な方法を選択してください。"
 
 #: ../../source/host/add-content/create-content.rst:35
 msgid "Method"
@@ -543,9 +507,7 @@ msgid ""
 "As you make a change to your content, it will show up immediately in your"
 " domain in the metaverse. This means that any visitors in your domain "
 "will see the changes as they happen."
-msgstr ""
-"コンテンツに変更を加えると、メタバースのドメインにすぐに表示されます。これは、ドメイン内のすべての訪問者が変更が発生したときにそれを確認できることを意味し"
-"ます。"
+msgstr "コンテンツに変更を加えると、メタバースのドメインにすぐに表示されます。これは、ドメイン内のすべての訪問者が変更が発生したときにそれを確認できることを意味します。"
 
 #: ../../source/host/add-content/create-content.rst:40
 msgid "`Under Construction`_"
@@ -556,9 +518,7 @@ msgid ""
 "During the time that you're constructing your content set, your domain is"
 " offline to outside visitors. Users will be unable to visit your domain "
 "while it is under construction."
-msgstr ""
-"コンテンツ・セットを構築している間、あなたのドメインは外部からの訪問者に対してオフラインになります。ユーザーは、構築中のドメインにアクセスすることができま"
-"せん。"
+msgstr "コンテンツ・セットを構築している間、あなたのドメインは外部からの訪問者に対してオフラインになります。ユーザーは、構築中のドメインにアクセスすることができません。"
 
 #: ../../source/host/add-content/create-content.rst:43
 msgid "`Create and Deploy`_"
@@ -570,9 +530,7 @@ msgid ""
 "it is completed, you will need to export your content set to an external "
 "file, then deploy it to your domain. Visitors can continue visiting your "
 "domain with any placeholder content while you design your custom content."
-msgstr ""
-"ここでは、オフライン環境でコンテンツを作成することをお勧めします。完了したら、コンテンツセットを外部ファイルにエクスポートしてから、ドメインにデプロイする"
-"必要があります。カスタムコンテンツをデザインしている間、訪問者は任意のプレースホルダーコンテンツを使用してドメインにアクセスし続けることができます。"
+msgstr "ここでは、オフライン環境でコンテンツを作成することをお勧めします。完了したら、コンテンツセットを外部ファイルにエクスポートしてから、ドメインにデプロイする必要があります。カスタムコンテンツをデザインしている間、訪問者は任意のプレースホルダーコンテンツを使用してドメインにアクセスし続けることができます。"
 
 #: ../../source/host/add-content/create-content.rst:51
 msgid "Make Live Updates"
@@ -583,9 +541,7 @@ msgid ""
 "Live updates are made anytime you or any other user in your domain makes "
 "changes to the content. In order to make changes, a user must have the "
 "'Rez' permission turned on."
-msgstr ""
-"ライブアップデートは、あなたやあなたのドメイン内の他のユーザーがコンテンツに変更を加えたときにいつでも行われます。変更を加えるには、ユーザーが「Rez」パ"
-"ーミッションをオンにしている必要があります。"
+msgstr "ライブアップデートは、あなたやあなたのドメイン内の他のユーザーがコンテンツに変更を加えたときにいつでも行われます。変更を加えるには、ユーザーが「Rez」パーミッションをオンにしている必要があります。"
 
 #: ../../source/host/add-content/create-content.rst:55
 msgid ""
@@ -597,9 +553,9 @@ msgid ""
 "making changes using the :doc:`Create Tools <../../create/tools>`."
 msgstr ""
 "この方法を取る前に、コンテンツセットを変更したい人（もし誰かいるならば）を決め、:doc:`その人のrez権限が正しく設定されている "
-"<../configure-settings/permission-settings>`ことを確認します。もし、あなたが変更を行うのであれば、あなたがre"
-"z権限を持っていることを確認してください。コンテンツを更新するには、自分のドメインにアクセスして、 :doc:`ツールの作成<../../create/"
-"tools>` を使って変更を開始するだけです。"
+"<../configure-settings/permission-"
+"settings>`ことを確認します。もし、あなたが変更を行うのであれば、あなたがrez権限を持っていることを確認してください。コンテンツを更新するには、自分のドメインにアクセスして、"
+" :doc:`ツールの作成<../../create/tools>` を使って変更を開始するだけです。"
 
 #: ../../source/host/add-content/create-content.rst:57
 #: ../../source/host/add-content/create-content.rst:82
@@ -2828,41 +2784,45 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:9
-msgid "Ubuntu Server 18.04 LTS (2022.1.0 Selene)"
+msgid "Ubuntu Server 18.04 LTS (2022.1.1 Selene)"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:16
-msgid "Ubuntu Server 20.04 LTS (2022.1.1 Selene) (Preview)"
+msgid "Ubuntu Server 20.04 LTS (2022.1.1 Selene)"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:23
+msgid "Rocky Linux 8.x (2022.1.1 Selene)"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:29
 msgid "Unlisted Distribution"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:25
+#: ../../source/host/server-setup/linux-server.md:31
 msgid ""
 "If you do not see your distribution listed here, you may compile your own"
 " server from source with the [Linux build "
 "guide](https://github.com/vircadia/vircadia/blob/master/BUILD_LINUX.md)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:27
+#: ../../source/host/server-setup/linux-server.md:33
 msgid "Configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:29
+#: ../../source/host/server-setup/linux-server.md:35
 msgid ""
 "The installation packages will create a domain at the default port "
 "location and configure a service to keep it running on that machine."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:31
+#: ../../source/host/server-setup/linux-server.md:37
 msgid ""
 "For the list of network ports that you will need to open and manage, see "
 "[here](../configure-settings/network-settings)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:33
+#: ../../source/host/server-setup/linux-server.md:39
 msgid ""
 "Connect a web browser to the server at port 40100. (If you are on the "
 "machine that the server is running on, this would be "
@@ -2870,44 +2830,44 @@ msgid ""
 "have a functioning domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:35
+#: ../../source/host/server-setup/linux-server.md:41
 msgid "Files and Server Configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:37
+#: ../../source/host/server-setup/linux-server.md:43
 msgid "The program files are installed in /opt/vircadia:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:38
+#: ../../source/host/server-setup/linux-server.md:44
 msgid "**/opt/vircadia** contains the executables"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:39
+#: ../../source/host/server-setup/linux-server.md:45
 msgid "**/opt/vircadia/lib** contains libraries required for operation"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:40
+#: ../../source/host/server-setup/linux-server.md:46
 msgid "**/opt/vircadia/plugins** is currently used for audio codecs"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:41
+#: ../../source/host/server-setup/linux-server.md:47
 msgid "**/opt/vircadia/resources** is required for the administrative website"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:43
+#: ../../source/host/server-setup/linux-server.md:49
 msgid ""
 "The executables in this folder (with the exception of <code>new-"
 "server</code>) cannot be launched from the command prompt without first "
 "setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:45
+#: ../../source/host/server-setup/linux-server.md:51
 msgid ""
 "The file <code>/etc/opt/vircadia/default.conf</code> contains any "
 "environment variables necessary to running the domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:47
+#: ../../source/host/server-setup/linux-server.md:53
 msgid ""
 "All content is stored under <code>/var/lib/vircadia/default</code>. All "
 "files underneath <code>/var/lib/vircadia</code> are owned by the user "
@@ -2915,81 +2875,81 @@ msgid ""
 "related processes."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:49
+#: ../../source/host/server-setup/linux-server.md:55
 msgid "Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:51
+#: ../../source/host/server-setup/linux-server.md:57
 msgid ""
 "The installation packages setup the following systemd services to manage "
 "the Vircadia domain:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:52
+#: ../../source/host/server-setup/linux-server.md:58
 msgid "**vircadia-domain-server@default.service**: Manages the core domain server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:53
+#: ../../source/host/server-setup/linux-server.md:59
 msgid ""
 "**vircadia-assignment-client@default.service**: Spawns and manages the "
 "assignment clients"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:54
+#: ../../source/host/server-setup/linux-server.md:60
 msgid ""
 "**vircadia-server@default.target**: Controls startup and shutdown of the "
 "above services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:56
+#: ../../source/host/server-setup/linux-server.md:62
 msgid ""
 "The <code>vircadia-server@default.target</code> service is the only one "
 "that is set to auto-start. Starting or stopping it will bring the other "
 "two services down."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:58
+#: ../../source/host/server-setup/linux-server.md:64
 msgid ""
 "The first two services log a large amount of data to their service "
 "journal. Checking their logs (via <code>systemctl status</code>) is a "
 "good way to ensure they are operating properly."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:60
+#: ../../source/host/server-setup/linux-server.md:66
 msgid "Multiple Domains"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:62
+#: ../../source/host/server-setup/linux-server.md:68
 msgid ""
 "The installation package is configured to permit multiple domains to run "
 "on a single server at different port numbers. New servers can be created "
 "using the following command:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:68
+#: ../../source/host/server-setup/linux-server.md:74
 msgid ""
 "where <code>name</code> is a word used to name and manage the domain and "
 "<code>base-port</code> must be the the first of a range of four "
 "contiguous port numbers not overlapping with any other use on the system."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:70
+#: ../../source/host/server-setup/linux-server.md:76
 msgid ""
 "Assuming you created a new server with the name **my-server-two**, this "
 "would setup the following:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:71
+#: ../../source/host/server-setup/linux-server.md:77
 msgid ""
 "Environment variables in <code>/etc/opt/vircadia/**my-server-"
 "two**.conf</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:72
+#: ../../source/host/server-setup/linux-server.md:78
 msgid "Content stored in <code>/var/lib/vircadia/**my-server-two**</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:73
+#: ../../source/host/server-setup/linux-server.md:79
 msgid ""
 "Services launched as <code>vircadia-domain-server@**my-server-"
 "two**.service</code>, <code>vircadia-assignment-client@**my-server-"
@@ -2997,45 +2957,45 @@ msgid ""
 "two**.target</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:75
+#: ../../source/host/server-setup/linux-server.md:81
 msgid "Deleting a Vircadia Server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:77
+#: ../../source/host/server-setup/linux-server.md:83
 msgid "Uninstall the package."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:87
+#: ../../source/host/server-setup/linux-server.md:93
 msgid "Deleting a Domain from a Multiple Domain Installation"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:89
+#: ../../source/host/server-setup/linux-server.md:95
 msgid "Find the name of the domain that you want to remove."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:95
+#: ../../source/host/server-setup/linux-server.md:101
 msgid ""
 "Pick the name of the domain that you want to remove from the list and "
 "then stop it."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:101
+#: ../../source/host/server-setup/linux-server.md:107
 msgid "Disable the service for the domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:107
+#: ../../source/host/server-setup/linux-server.md:113
 msgid "Remove the associated environment variables."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:113
+#: ../../source/host/server-setup/linux-server.md:119
 msgid "Remove all data and configurations."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:120
+#: ../../source/host/server-setup/linux-server.md:126
 msgid "Legacy Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:122
+#: ../../source/host/server-setup/linux-server.md:128
 msgid ""
 "There are a number of tweaks that are made to the default configuration "
 "to simplify storage and the ability to run multiple domains on one "
@@ -3044,18 +3004,18 @@ msgid ""
 "provided as an option."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:123
+#: ../../source/host/server-setup/linux-server.md:129
 msgid ""
 "Systemd services named <code>vircadia-domain-server.service</code>, <code"
 ">vircadia-assignment-client.service</code>, and <code>vircadia-"
 "server.target</code> *(without the @name)* have simplified configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:124
+#: ../../source/host/server-setup/linux-server.md:130
 msgid "No file is provided to specify environment variables for the server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:125
+#: ../../source/host/server-setup/linux-server.md:131
 msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
 msgstr ""
 
@@ -4821,3 +4781,10 @@ msgstr ""
 #~ "using the [Vircadia "
 #~ "builder](https://github.com/vircadia/vircadia-builder)."
 #~ msgstr ""
+
+#~ msgid "Ubuntu Server 18.04 LTS (2022.1.0 Selene)"
+#~ msgstr ""
+
+#~ msgid "Ubuntu Server 20.04 LTS (2022.1.1 Selene) (Preview)"
+#~ msgstr ""
+

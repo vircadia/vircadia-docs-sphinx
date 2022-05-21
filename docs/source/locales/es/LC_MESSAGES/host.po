@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2022-05-17 04:33+0000\n"
+"POT-Creation-Date: 2022-05-21 18:31+0000\n"
 "PO-Revision-Date: 2022-05-21 18:31+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/host/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/host/es/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/host.rst:11
@@ -1845,8 +1844,8 @@ msgid ""
 "implemented yet.) These ports are:"
 msgstr ""
 "Un dominio de Vircadia reserva un rango de cuatro puertos para operar, "
-"generalmente comenzando en `40100`. (Ten en cuenta que es posible que los "
-"puertos cifrados aún no se hayan implementado). Estos puertos son:"
+"generalmente comenzando en `40100`. (Ten en cuenta que es posible que los"
+" puertos cifrados aún no se hayan implementado). Estos puertos son:"
 
 #: ../../source/host/configure-settings/network-settings.rst:46
 msgid "40100 (+0): (tcp) administrative http connection"
@@ -1869,8 +1868,8 @@ msgid ""
 "Generally speaking, only port `40102` must be publicly exposed to permit "
 "others to connect to a domain."
 msgstr ""
-"En términos generales, solo el puerto '40102' debe exponerse públicamente "
-"para permitir que otros se conecten a un dominio."
+"En términos generales, solo el puerto '40102' debe exponerse públicamente"
+" para permitir que otros se conecten a un dominio."
 
 #: ../../source/host/configure-settings/network-settings.rst:53
 msgid ""
@@ -1879,15 +1878,14 @@ msgid ""
 "server and must be able to connect with any outside user. These clients "
 "are:"
 msgstr ""
-"Además, hay seis \"clientes de asignación\" que deben ejecutarse para que el "
-"dominio esté operativo. Estos clientes se ejecutan junto con el servidor de "
-"dominio y deben poder conectarse con cualquier usuario externo. Estos "
-"clientes son:"
+"Además, hay seis \"clientes de asignación\" que deben ejecutarse para que"
+" el dominio esté operativo. Estos clientes se ejecutan junto con el "
+"servidor de dominio y deben poder conectarse con cualquier usuario "
+"externo. Estos clientes son:"
 
 #: ../../source/host/configure-settings/network-settings.rst:55
 msgid "**asset-server**: stores object data to download to the user"
-msgstr ""
-"**asset-server**: almacena datos de objetos para descargarlos al usuario"
+msgstr "**asset-server**: almacena datos de objetos para descargarlos al usuario"
 
 #: ../../source/host/configure-settings/network-settings.rst:56
 msgid "**audio-mixer**: controls what each user would hear"
@@ -1915,10 +1913,10 @@ msgid ""
 " the operating system at launch. These ports will be within the "
 "`ephemeral port range <https://en.wikipedia.org/wiki/Ephemeral_port>`_."
 msgstr ""
-"Estos clientes de asignación utilizan conexiones UDP en un número de puerto "
-"asignado por el sistema operativo en el momento del lanzamiento. Estos "
-"puertos estarán dentro del `rango de puertos efímeros <https://en.wikipedia."
-"org/wiki/Ephemeral_port>`_."
+"Estos clientes de asignación utilizan conexiones UDP en un número de "
+"puerto asignado por el sistema operativo en el momento del lanzamiento. "
+"Estos puertos estarán dentro del `rango de puertos efímeros "
+"<https://en.wikipedia.org/wiki/Ephemeral_port>`_."
 
 #: ../../source/host/configure-settings/network-settings.rst:66
 msgid "Domain ID"
@@ -1933,16 +1931,16 @@ msgid ""
 msgstr ""
 "A cada dominio del metaverso se le asigna un ID de dominio único. El "
 "servidor Metaverse usa este ID para ayudar a proporcionar funciones más "
-"avanzadas a tu mundo, como: permitirte crear nombres de lugares, identificar "
-"usuarios registrados y más."
+"avanzadas a tu mundo, como: permitirte crear nombres de lugares, "
+"identificar usuarios registrados y más."
 
 #: ../../source/host/configure-settings/network-settings.rst:70
 msgid ""
 "If you don't want your domain to be registered in the metaverse, leave "
 "the Domain ID field blank."
 msgstr ""
-"Si no deseas que tu dominio se registre en el metaverso, deja el campo ID de "
-"dominio en blanco."
+"Si no deseas que tu dominio se registre en el metaverso, deja el campo ID"
+" de dominio en blanco."
 
 #: ../../source/host/configure-settings/network-settings.rst:76
 msgid "Enable Packet Verification"
@@ -1956,9 +1954,10 @@ msgid ""
 "performance for your visitors."
 msgstr ""
 "Cuando se activa \"Habilitar Verificación de Paquetes\", Vircadia envía "
-"sumas de verificación (checksums) seguras en las comunicaciones que utilizan "
-"los protocolos de Vircadia. Esto aumenta la seguridad en tu dominio, pero "
-"puede disminuir ligeramente el rendimiento del dominio para tus visitantes."
+"sumas de verificación (checksums) seguras en las comunicaciones que "
+"utilizan los protocolos de Vircadia. Esto aumenta la seguridad en tu "
+"dominio, pero puede disminuir ligeramente el rendimiento del dominio para"
+" tus visitantes."
 
 #: ../../source/host/configure-settings/permission-settings.rst:5
 msgid ""
@@ -1969,11 +1968,11 @@ msgid ""
 "friends access to edit your domain content."
 msgstr ""
 "Puedes proteger tu dominio configurando los permisos de usuario para los "
-"visitantes de tu dominio. En la configuración de tu dominio, tú controlas "
-"los tipos de usuarios que tienen acceso a tu dominio y los permisos que se "
-"les otorgan. Por ejemplo, puedes permitir que cualquier persona se conecte a "
-"tu dominio, pero solo dar acceso a amigos para editar el contenido de tu "
-"dominio."
+"visitantes de tu dominio. En la configuración de tu dominio, tú controlas"
+" los tipos de usuarios que tienen acceso a tu dominio y los permisos que "
+"se les otorgan. Por ejemplo, puedes permitir que cualquier persona se "
+"conecte a tu dominio, pero solo dar acceso a amigos para editar el "
+"contenido de tu dominio."
 
 #: ../../source/host/configure-settings/permission-settings.rst:12
 msgid "Set User Permissions"
@@ -1986,8 +1985,8 @@ msgid ""
 "computers."
 msgstr ""
 "Los permisos se pueden asignar a grupos de usuarios estándar, grupos de "
-"usuarios personalizados, usuarios específicos, usuarios de una IP específica "
-"y usuarios de computadoras específicas."
+"usuarios personalizados, usuarios específicos, usuarios de una IP "
+"específica y usuarios de computadoras específicas."
 
 #: ../../source/host/configure-settings/permission-settings.rst:16
 msgid ""
@@ -1999,13 +1998,14 @@ msgid ""
 "will supersede any group-level permissions that otherwise might apply to "
 "that user."
 msgstr ""
-"Los permisos para un usuario serán la suma de todos los grupos en los que se "
-"encuentra el usuario. Por ejemplo, supongamos que todos los usuarios "
+"Los permisos para un usuario serán la suma de todos los grupos en los que"
+" se encuentra el usuario. Por ejemplo, supongamos que todos los usuarios "
 "registrados pueden conectarse y solo los usuarios de host local pueden "
 "activar entidades. Si un usuario ha iniciado sesión y está en localhost, "
 "entonces podrá conectarse y rez (activar) entidades. Además, cuando se "
-"asignan permisos de usuario a un usuario específico, reemplazará a cualquier "
-"permiso a nivel de grupo que de otro modo podría aplicarse a ese usuario."
+"asignan permisos de usuario a un usuario específico, reemplazará a "
+"cualquier permiso a nivel de grupo que de otro modo podría aplicarse a "
+"ese usuario."
 
 #: ../../source/host/configure-settings/permission-settings.rst:18
 msgid "To assign user permissions:"
@@ -2028,8 +2028,9 @@ msgid ""
 "To assign all other permissions, you need to add a custom group, specific"
 " user, etc individually to the correct permissions table:"
 msgstr ""
-"Para asignar todos los demás permisos, debes agregar un grupo personalizado, "
-"un usuario específico, etc. individualmente a la tabla de permisos correcta:"
+"Para asignar todos los demás permisos, debes agregar un grupo "
+"personalizado, un usuario específico, etc. individualmente a la tabla de "
+"permisos correcta:"
 
 #: ../../source/host/configure-settings/permission-settings.rst:30
 msgid ""
@@ -2038,20 +2039,20 @@ msgid ""
 "all permissions you'd like to grant or deny (depending on the permissions"
 " table you are adding the group to)."
 msgstr ""
-"**Añadir Grupo**: Ingresa el nombre del grupo o lista personalizada, luego "
-"haz click en el ícono ``+``. Guarda la configuración de tu dominio para "
-"cargar rangos. Marca la casilla de todos los permisos que te gustaría "
-"otorgar o denegar (dependiendo de la tabla de permisos a la que estés "
-"agregando el grupo)."
+"**Añadir Grupo**: Ingresa el nombre del grupo o lista personalizada, "
+"luego haz click en el ícono ``+``. Guarda la configuración de tu dominio "
+"para cargar rangos. Marca la casilla de todos los permisos que te "
+"gustaría otorgar o denegar (dependiendo de la tabla de permisos a la que "
+"estés agregando el grupo)."
 
 #: ../../source/host/configure-settings/permission-settings.rst:33
 msgid ""
 "**Add Specific User**: Click the ``+`` icon, then enter a specific user "
 "name. Check the box of all permissions you'd like to grant."
 msgstr ""
-"**Añadir un Usuario Específico**: Haz click en el ícono ``+``, luego ingresa "
-"un nombre de usuario específico. Marca la casilla de todos los permisos que "
-"te gustaría otorgar."
+"**Añadir un Usuario Específico**: Haz click en el ícono ``+``, luego "
+"ingresa un nombre de usuario específico. Marca la casilla de todos los "
+"permisos que te gustaría otorgar."
 
 #: ../../source/host/configure-settings/permission-settings.rst:36
 msgid ""
@@ -2061,9 +2062,9 @@ msgid ""
 "grant."
 msgstr ""
 "**Añadir una Dirección IP, una Dirección MAC o Huella dactilar de la "
-"Máquina**: Haz click en el ícono ``+``, luego ingresa la información (según "
-"la tabla de permisos a la que estés agregando permisos). Marca la casilla de "
-"todos los permisos que te gustaría otorgar."
+"Máquina**: Haz click en el ícono ``+``, luego ingresa la información "
+"(según la tabla de permisos a la que estés agregando permisos). Marca la "
+"casilla de todos los permisos que te gustaría otorgar."
 
 #: ../../source/host/configure-settings/permission-settings.rst:37
 msgid "Click 'Save' to save your domain settings."
@@ -2097,9 +2098,9 @@ msgid ""
 "Interface. This is the default user type for someone who has downloaded "
 "Interface for the first time."
 msgstr ""
-"Una persona que no ha iniciado sesión y está utilizando una instancia de la "
-"interfaz de Vircadia. Este es el tipo de usuario predeterminado para alguien "
-"que ha descargado la Interface por primera vez."
+"Una persona que no ha iniciado sesión y está utilizando una instancia de "
+"la interfaz de Vircadia. Este es el tipo de usuario predeterminado para "
+"alguien que ha descargado la Interface por primera vez."
 
 #: ../../source/host/configure-settings/permission-settings.rst:52
 msgid "friends"
@@ -2113,11 +2114,12 @@ msgid ""
 "permissions in your domains than your Connections. Connections are "
 "treated like anonymous users."
 msgstr ""
-"Un usuario con el que te hayas conectado estrechando la mano de su avatar y "
-"haciendo click en la casilla de verificación \"Friends\" en tu aplicación "
-"**People**. Las conexiones son diferentes de los amigos. Por defecto, los "
-"Amigos (friends) tienen más permisos en tus dominios que tus Conexiones "
-"(Connections). Las conexiones se tratan como usuarios anónimos."
+"Un usuario con el que te hayas conectado estrechando la mano de su avatar"
+" y haciendo click en la casilla de verificación \"Friends\" en tu "
+"aplicación **People**. Las conexiones son diferentes de los amigos. Por "
+"defecto, los Amigos (friends) tienen más permisos en tus dominios que tus"
+" Conexiones (Connections). Las conexiones se tratan como usuarios "
+"anónimos."
 
 #: ../../source/host/configure-settings/permission-settings.rst:57
 msgid "localhost"
@@ -3232,41 +3234,45 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:9
-msgid "Ubuntu Server 18.04 LTS (2022.1.0 Selene)"
+msgid "Ubuntu Server 18.04 LTS (2022.1.1 Selene)"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:16
-msgid "Ubuntu Server 20.04 LTS (2022.1.1 Selene) (Preview)"
+msgid "Ubuntu Server 20.04 LTS (2022.1.1 Selene)"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:23
+msgid "Rocky Linux 8.x (2022.1.1 Selene)"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:29
 msgid "Unlisted Distribution"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:25
+#: ../../source/host/server-setup/linux-server.md:31
 msgid ""
 "If you do not see your distribution listed here, you may compile your own"
 " server from source with the [Linux build "
 "guide](https://github.com/vircadia/vircadia/blob/master/BUILD_LINUX.md)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:27
+#: ../../source/host/server-setup/linux-server.md:33
 msgid "Configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:29
+#: ../../source/host/server-setup/linux-server.md:35
 msgid ""
 "The installation packages will create a domain at the default port "
 "location and configure a service to keep it running on that machine."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:31
+#: ../../source/host/server-setup/linux-server.md:37
 msgid ""
 "For the list of network ports that you will need to open and manage, see "
 "[here](../configure-settings/network-settings)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:33
+#: ../../source/host/server-setup/linux-server.md:39
 msgid ""
 "Connect a web browser to the server at port 40100. (If you are on the "
 "machine that the server is running on, this would be "
@@ -3274,44 +3280,44 @@ msgid ""
 "have a functioning domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:35
+#: ../../source/host/server-setup/linux-server.md:41
 msgid "Files and Server Configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:37
+#: ../../source/host/server-setup/linux-server.md:43
 msgid "The program files are installed in /opt/vircadia:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:38
+#: ../../source/host/server-setup/linux-server.md:44
 msgid "**/opt/vircadia** contains the executables"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:39
+#: ../../source/host/server-setup/linux-server.md:45
 msgid "**/opt/vircadia/lib** contains libraries required for operation"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:40
+#: ../../source/host/server-setup/linux-server.md:46
 msgid "**/opt/vircadia/plugins** is currently used for audio codecs"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:41
+#: ../../source/host/server-setup/linux-server.md:47
 msgid "**/opt/vircadia/resources** is required for the administrative website"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:43
+#: ../../source/host/server-setup/linux-server.md:49
 msgid ""
 "The executables in this folder (with the exception of <code>new-"
 "server</code>) cannot be launched from the command prompt without first "
 "setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:45
+#: ../../source/host/server-setup/linux-server.md:51
 msgid ""
 "The file <code>/etc/opt/vircadia/default.conf</code> contains any "
 "environment variables necessary to running the domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:47
+#: ../../source/host/server-setup/linux-server.md:53
 msgid ""
 "All content is stored under <code>/var/lib/vircadia/default</code>. All "
 "files underneath <code>/var/lib/vircadia</code> are owned by the user "
@@ -3319,81 +3325,81 @@ msgid ""
 "related processes."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:49
+#: ../../source/host/server-setup/linux-server.md:55
 msgid "Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:51
+#: ../../source/host/server-setup/linux-server.md:57
 msgid ""
 "The installation packages setup the following systemd services to manage "
 "the Vircadia domain:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:52
+#: ../../source/host/server-setup/linux-server.md:58
 msgid "**vircadia-domain-server@default.service**: Manages the core domain server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:53
+#: ../../source/host/server-setup/linux-server.md:59
 msgid ""
 "**vircadia-assignment-client@default.service**: Spawns and manages the "
 "assignment clients"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:54
+#: ../../source/host/server-setup/linux-server.md:60
 msgid ""
 "**vircadia-server@default.target**: Controls startup and shutdown of the "
 "above services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:56
+#: ../../source/host/server-setup/linux-server.md:62
 msgid ""
 "The <code>vircadia-server@default.target</code> service is the only one "
 "that is set to auto-start. Starting or stopping it will bring the other "
 "two services down."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:58
+#: ../../source/host/server-setup/linux-server.md:64
 msgid ""
 "The first two services log a large amount of data to their service "
 "journal. Checking their logs (via <code>systemctl status</code>) is a "
 "good way to ensure they are operating properly."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:60
+#: ../../source/host/server-setup/linux-server.md:66
 msgid "Multiple Domains"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:62
+#: ../../source/host/server-setup/linux-server.md:68
 msgid ""
 "The installation package is configured to permit multiple domains to run "
 "on a single server at different port numbers. New servers can be created "
 "using the following command:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:68
+#: ../../source/host/server-setup/linux-server.md:74
 msgid ""
 "where <code>name</code> is a word used to name and manage the domain and "
 "<code>base-port</code> must be the the first of a range of four "
 "contiguous port numbers not overlapping with any other use on the system."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:70
+#: ../../source/host/server-setup/linux-server.md:76
 msgid ""
 "Assuming you created a new server with the name **my-server-two**, this "
 "would setup the following:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:71
+#: ../../source/host/server-setup/linux-server.md:77
 msgid ""
 "Environment variables in <code>/etc/opt/vircadia/**my-server-"
 "two**.conf</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:72
+#: ../../source/host/server-setup/linux-server.md:78
 msgid "Content stored in <code>/var/lib/vircadia/**my-server-two**</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:73
+#: ../../source/host/server-setup/linux-server.md:79
 msgid ""
 "Services launched as <code>vircadia-domain-server@**my-server-"
 "two**.service</code>, <code>vircadia-assignment-client@**my-server-"
@@ -3401,45 +3407,45 @@ msgid ""
 "two**.target</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:75
+#: ../../source/host/server-setup/linux-server.md:81
 msgid "Deleting a Vircadia Server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:77
+#: ../../source/host/server-setup/linux-server.md:83
 msgid "Uninstall the package."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:87
+#: ../../source/host/server-setup/linux-server.md:93
 msgid "Deleting a Domain from a Multiple Domain Installation"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:89
+#: ../../source/host/server-setup/linux-server.md:95
 msgid "Find the name of the domain that you want to remove."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:95
+#: ../../source/host/server-setup/linux-server.md:101
 msgid ""
 "Pick the name of the domain that you want to remove from the list and "
 "then stop it."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:101
+#: ../../source/host/server-setup/linux-server.md:107
 msgid "Disable the service for the domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:107
+#: ../../source/host/server-setup/linux-server.md:113
 msgid "Remove the associated environment variables."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:113
+#: ../../source/host/server-setup/linux-server.md:119
 msgid "Remove all data and configurations."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:120
+#: ../../source/host/server-setup/linux-server.md:126
 msgid "Legacy Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:122
+#: ../../source/host/server-setup/linux-server.md:128
 msgid ""
 "There are a number of tweaks that are made to the default configuration "
 "to simplify storage and the ability to run multiple domains on one "
@@ -3448,18 +3454,18 @@ msgid ""
 "provided as an option."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:123
+#: ../../source/host/server-setup/linux-server.md:129
 msgid ""
 "Systemd services named <code>vircadia-domain-server.service</code>, <code"
 ">vircadia-assignment-client.service</code>, and <code>vircadia-"
 "server.target</code> *(without the @name)* have simplified configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:124
+#: ../../source/host/server-setup/linux-server.md:130
 msgid "No file is provided to specify environment variables for the server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:125
+#: ../../source/host/server-setup/linux-server.md:131
 msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
 msgstr ""
 
@@ -4543,3 +4549,10 @@ msgstr ""
 #~ "using the [Vircadia "
 #~ "builder](https://github.com/vircadia/vircadia-builder)."
 #~ msgstr ""
+
+#~ msgid "Ubuntu Server 18.04 LTS (2022.1.0 Selene)"
+#~ msgstr ""
+
+#~ msgid "Ubuntu Server 20.04 LTS (2022.1.1 Selene) (Preview)"
+#~ msgstr ""
+
