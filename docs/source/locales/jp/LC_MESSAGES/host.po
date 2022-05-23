@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-05-19 03:20+0000\n"
+"PO-Revision-Date: 2022-05-23 09:55+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/host/ja/>\n"
 "Language: jp\n"
-"Language-Team: Japanese <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/host/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/host.rst:11
@@ -564,6 +566,8 @@ msgid ""
 "your Domain Settings to :doc:`view and download the backups of your "
 "content sets <../maintain-domain/backup-domain>` over time."
 msgstr ""
+"サーバーは、ドメイン内のコンテンツを定期的にアーカイブを作成します。ドメイン設定にアクセスして、:doc:`コンテンツセットのバックアップを表示およびダウ"
+"ンロードします<../maintain-domain/backup-domain>`。"
 
 #: ../../source/host/add-content/create-content.rst:59
 msgid ""
@@ -577,17 +581,22 @@ msgid ""
 "create their own content in your domain, but not be able to change your "
 "domain's content set."
 msgstr ""
+"**ヒント**：作成したコンテンツを「ロックダウン」して、訪問者にカスタムコンテンツを変更させずに新しいコンテンツを作成できるようにすることができます。た"
+"とえば、部屋の壁や床などのカスタムコンテンツをロックダウンして訪問者にカスタムコンテンツを変更させることなく、訪問者はテーブルと椅子など独自のコンテンツを"
+"作成ができるようになります。独自のカスタムコンテンツを保護するには、作成したエンティティをロックします。訪問者のアクセス権を設定する際、「ロック/アンロッ"
+"ク」設定のアクセス権限は不許可にしてください。ただし、「Rez」へのアクセスは許可してください。これらの設定により、訪問者は、あなたのドメインに独自のコン"
+"テンツを作成することはできますが、あなたのドメインのコンテンツセットを変更することができなくなります。"
 
 #: ../../source/host/add-content/create-content.rst:64
 msgid "Under Construction"
-msgstr ""
+msgstr "工事中"
 
 #: ../../source/host/add-content/create-content.rst:66
 msgid ""
 "While you make changes to your content set, you can take down your domain"
 " temporarily and prevent users from visiting while it is under "
 "construction."
-msgstr ""
+msgstr "コンテンツセットを変更する間、一時的にドメインを停止し、停止期間中にユーザーが訪問できないようにすることができます。"
 
 #: ../../source/host/add-content/create-content.rst:68
 msgid ""
@@ -596,6 +605,8 @@ msgid ""
 "When you are done, all you need to do is re-enable the 'Connect' "
 "permission."
 msgstr ""
+"これを行うには、自分以外のすべてのユーザー（およびあなたと一緒に作業している他の共同作成者）の「接続」権限を不許可にするだけです。完了したら、「接続」権限"
+"を再度許可に変更します。"
 
 #: ../../source/host/add-content/create-content.rst:70
 #: ../../source/host/add-content/export-content.rst:49
@@ -615,7 +626,7 @@ msgstr ""
 #: ../../source/host/maintain-domain/backup-domain.rst:101
 #: ../../source/host/maintain-domain/script-maintenance.rst:70
 msgid "Open your domain settings."
-msgstr ""
+msgstr "ドメイン設定を開く。"
 
 #: ../../source/host/add-content/create-content.rst:72
 #: ../../source/host/add-content/export-content.rst:51
@@ -636,6 +647,8 @@ msgid ""
 "For cloud hosted domains: Open a browser and enter the URL http://<insert"
 " your server's IP address here>:40100/settings. Log in when prompted."
 msgstr ""
+"クラウドでホストされているドメインの場合：ブラウザを開き、URL http://<ここにサーバーのIPアドレスを挿入>:40100/"
+"settingsを入力します。プロンプトが表示されたらログインします。"
 
 #: ../../source/host/add-content/create-content.rst:73
 #: ../../source/host/add-content/export-content.rst:52
@@ -657,7 +670,7 @@ msgstr ""
 msgid ""
 "For local servers on Windows: Click on the Vircadia icon in the system "
 "tray, then click 'Settings'."
-msgstr ""
+msgstr "Windows上のローカルサーバーの場合：システムトレイのVircadiaアイコンをクリックしてから、[設定]をクリックします。"
 
 #: ../../source/host/add-content/create-content.rst:74
 #: ../../source/host/add-content/export-content.rst:53
@@ -677,15 +690,15 @@ msgstr ""
 msgid ""
 "For local servers on Mac: Right-click the Vircadia icon on the top menu "
 "bar, then click 'Settings'."
-msgstr ""
+msgstr "Macのローカルサーバーの場合：上部のメニューバーにあるVircadiaアイコンを右クリックし、[設定]をクリックします。"
 
 #: ../../source/host/add-content/create-content.rst:75
 msgid "On the top menu bar, select **Settings > Security**."
-msgstr ""
+msgstr "上部のメニューバーで、**[設定]>[セキュリティ]**を選択します。"
 
 #: ../../source/host/add-content/create-content.rst:76
 msgid "Scroll to 'Standard Permissions'."
-msgstr ""
+msgstr "[標準のアクセス許可]までスクロールします。"
 
 #: ../../source/host/add-content/create-content.rst:77
 msgid ""
@@ -693,10 +706,11 @@ msgid ""
 "users and groups (except yourself and anyone else working on the "
 "content)."
 msgstr ""
+"アクセス許可グループごとに、すべてのユーザーとグループ（自分自身とコンテンツで作業している他の人を除く）の[接続]アクセス許可のチェックを外します。"
 
 #: ../../source/host/add-content/create-content.rst:78
 msgid "Click 'Save' and close the Domain Settings page."
-msgstr ""
+msgstr "[保存]をクリックして、[ドメイン設定]ページを閉じます。"
 
 #: ../../source/host/add-content/create-content.rst:80
 msgid ""
@@ -705,6 +719,8 @@ msgid ""
 "recommend locking all of your content so that it cannot be modified by "
 "visitors to your domain."
 msgstr ""
+"権限を設定したら、ドメインにアクセスし、:doc:`作成ツール <../../create/tools>`を使用してコンテンツセットの作成を開始します。ド"
+"メインへの訪問者がコンテンツを変更できないように、すべてのコンテンツをロックすることをお勧めします。"
 
 #: ../../source/host/add-content/create-content.rst:84
 msgid ""
@@ -712,32 +728,34 @@ msgid ""
 "permission for your visitors. These users will be able to visit your "
 "domain again with the server's IP address or place name."
 msgstr ""
+"完了したら、上記の手順に従って、訪問者の接続権限を再度有効にします。これらのユーザーは、サーバーのIPアドレスまたは地名を使用してドメインに再度アクセスで"
+"きるようになります。"
 
 #: ../../source/host/add-content/create-content.rst:89
 msgid "Create and Deploy"
-msgstr ""
+msgstr "作成とデプロイ"
 
 #: ../../source/host/add-content/create-content.rst:91
 msgid ""
 "The final technique for building a content set follows a basic "
 "development workflow:"
-msgstr ""
+msgstr "コンテンツセットを構築するための最後の手法は、基本的な開発ワークフローに従います。"
 
 #: ../../source/host/add-content/create-content.rst:93
 msgid "Build content in an offline environment"
-msgstr ""
+msgstr "オフライン環境でのコンテンツ構築"
 
 #: ../../source/host/add-content/create-content.rst:94
 msgid "(Optional) Build and test it"
-msgstr ""
+msgstr "(オプション) ビルドとテスト"
 
 #: ../../source/host/add-content/create-content.rst:95
 msgid "Export the content set to a file"
-msgstr ""
+msgstr "コンテンツセットのファイルへの書き出し"
 
 #: ../../source/host/add-content/create-content.rst:96
 msgid "Upload the exported content set to your domain"
-msgstr ""
+msgstr "エクスポートしたコンテンツセットを自分のドメインにアップロードする"
 
 #: ../../source/host/add-content/create-content.rst:98
 msgid ""
@@ -745,6 +763,8 @@ msgid ""
 "domain while you build your content, deploy your content set to multiple "
 "domains, or test your content before you deploy."
 msgstr ""
+"コンテンツの作成中、コンテンツセットを複数のドメインに展開するとき、または展開する前にコンテンツをテストするときにドメインが中断されないようにする場合は、"
+"この方法を使用することをお勧めします。"
 
 #: ../../source/host/add-content/create-content.rst:100
 msgid ""
@@ -752,26 +772,29 @@ msgid ""
 "<https://vircadia.com/deploy-a-server/>`_ software on a computer that is "
 "_not_ running as a local server."
 msgstr ""
+"Vircadiaのオープンソース `Client + Sandbox <https://vircadia.com/deploy-a-server/>`_ "
+"ソフトウェアを、ローカルサーバとして動作していないコンピュータにインストールしてください。"
 
 #: ../../source/host/add-content/create-content.rst:101
 msgid "Open a Sandbox not connected to a local server."
-msgstr ""
+msgstr "ローカルサーバーに接続されていないサンドボックスを開きます。"
 
 #: ../../source/host/add-content/create-content.rst:102
 msgid "Build your content set in the Sandbox."
-msgstr ""
+msgstr "サンドボックスでコンテンツセットを作成します。"
 
 #: ../../source/host/add-content/create-content.rst:103
 msgid ""
 "`Export your content to JSON <export-content.html#export-entities-to-"
 "json>`_."
 msgstr ""
+"`コンテンツをJSON形式にエクスポートします <export-content.html#export-entities-to-json>`_。"
 
 #: ../../source/host/add-content/create-content.rst:104
 msgid ""
 "(Optional) To optimize your content set, :doc:`bake your content <bake-"
 "content>`."
-msgstr ""
+msgstr "（オプション）コンテンツセットを最適化するには、:doc:`コンテンツをベイクします<bake-content>`。"
 
 #: ../../source/host/add-content/create-content.rst:105
 msgid ""
@@ -779,18 +802,22 @@ msgid ""
 "JSON to your local server. Switch computers so you're back on your local "
 "server."
 msgstr ""
+"(ローカルサーバーのみ）ダウンロードしたアーカイブファイルまたはベイクしたJSONをローカルサーバーに転送します。その後、転送したローカルサーバに戻ります"
+"。"
 
 #: ../../source/host/add-content/create-content.rst:106
 msgid ""
 "Log in to your server's domain settings and :doc:`upload your exported or"
 " baked JSON to your domain <upload-content>`."
 msgstr ""
+"サーバーのドメイン設定にログインし、:doc:`エクスポートまたはベイクしたJSONをドメイン<upload-"
+"content>`にアップロードしてください。"
 
 #: ../../source/host/add-content/create-content.rst:108
 msgid ""
 "Once your content is uploaded, your domain will automatically restart "
 "with your new custom content."
-msgstr ""
+msgstr "コンテンツのアップロードが完了すると、ドメインは自動的に新しいカスタムコンテンツで再スタートします。"
 
 #: ../../source/host/add-content/export-content.rst:9
 msgid ""
@@ -799,32 +826,34 @@ msgid ""
 "make up your domain: the asset types, dimensions, positions, physics, "
 "resource URLs and every other property entity property."
 msgstr ""
+"コンテンツのバックアップを作成するには、コンテンツを外部ファイルにエクスポートする必要があります。このファイルには、ドメインを構成するアセットに関するすべ"
+"ての情報（アセットタイプ、寸法、位置、物理、リソースURL、その他あらゆるプロパティの実体プロパティ）が含まれています。"
 
 #: ../../source/host/add-content/export-content.rst:11
 msgid ""
 "Many domain creation and maintenance tasks require content backups, "
 "including:"
-msgstr ""
+msgstr "ドメインの作成・保守作業の多くは、コンテンツのバックアップが必要です。"
 
 #: ../../source/host/add-content/export-content.rst:13
 msgid "Baking content for optimization"
-msgstr ""
+msgstr "最適化のためのベーキングコンテンツ"
 
 #: ../../source/host/add-content/export-content.rst:14
 msgid "Importing content sets to new domains"
-msgstr ""
+msgstr "コンテンツセットを新しいドメインにインポートする"
 
 #: ../../source/host/add-content/export-content.rst:15
 msgid "Restoring content in case of corruption"
-msgstr ""
+msgstr "破損した場合のコンテンツの復元"
 
 #: ../../source/host/add-content/export-content.rst:16
 msgid "Sharing content with others"
-msgstr ""
+msgstr "他の利用者とコンテンツを共有する"
 
 #: ../../source/host/add-content/export-content.rst:24
 msgid "Export Entities to JSON"
-msgstr ""
+msgstr "エンティティをJSONにエクスポートする"
 
 #: ../../source/host/add-content/export-content.rst:26
 msgid ""
@@ -832,14 +861,16 @@ msgid ""
 "from the Entity List and export them to a JSON file. Use this method if "
 "you want to:"
 msgstr ""
+"コンテンツをエクスポートする最初の方法は、エンティティリストから特定のエンティティを選択し、JSONファイルにエクスポートすることです。必要に応じて、この"
+"方法を使用してください。"
 
 #: ../../source/host/add-content/export-content.rst:28
 msgid "Bake your domain's content"
-msgstr ""
+msgstr "ドメインのコンテンツをベイクします"
 
 #: ../../source/host/add-content/export-content.rst:29
 msgid "Back up content that is not yet live on a domain"
-msgstr ""
+msgstr "ドメインにまだ公開されていないコンテンツをバックアップする"
 
 #: ../../source/host/add-content/export-content.rst:30
 msgid "Export only specific entities, rather than the entire domain's content set"
@@ -4787,4 +4818,3 @@ msgstr ""
 
 #~ msgid "Ubuntu Server 20.04 LTS (2022.1.1 Selene) (Preview)"
 #~ msgstr ""
-
