@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-17 04:33+0000\n"
-"PO-Revision-Date: 2022-05-19 00:09+0000\n"
+"PO-Revision-Date: 2022-05-24 06:04+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/ja/>\n"
@@ -2947,7 +2947,7 @@ msgstr ""
 
 #: ../../source/explore/personalize/add-wearables.rst:32
 msgid "Click 'Save'."
-msgstr ""
+msgstr "[保存]をクリックします。"
 
 #: ../../source/explore/personalize/add-wearables.rst:37
 msgid ":doc:`Create Wearables <../../create/wearables>`"

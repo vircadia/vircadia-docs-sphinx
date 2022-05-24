@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-05-23 09:55+0000\n"
+"PO-Revision-Date: 2022-05-24 06:04+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/ja/>\n"
@@ -874,15 +874,15 @@ msgstr "ドメインにまだ公開されていないコンテンツをバック
 
 #: ../../source/host/add-content/export-content.rst:30
 msgid "Export only specific entities, rather than the entire domain's content set"
-msgstr ""
+msgstr "ドメインのコンテンツセット全体ではなく、特定のエンティティのみをエクスポートする"
 
 #: ../../source/host/add-content/export-content.rst:32
 msgid "To export entities:"
-msgstr ""
+msgstr "エンティティをエクスポートするには："
 
 #: ../../source/host/add-content/export-content.rst:34
 msgid "In your Sandbox, pull up your tablet or HUD and go to **Create**."
-msgstr ""
+msgstr "サンドボックスで、タブレットまたはHUDをプルアップし、**作成**に移動します。"
 
 #: ../../source/host/add-content/export-content.rst:35
 msgid ""
@@ -893,25 +893,28 @@ msgid ""
 "non-adjacent entity, hold down the ``Ctrl`` key while clicking the "
 "entities you want to select."
 msgstr ""
+"エンティティリストで、エクスポートするエンティティを選択します。すべてのエンティティを選択するには、キーボードショートカット `` Ctrl`` +``A"
+"``を使用します。複数の隣接するエンティティを選択するには、最初のエンティティをクリックし、``Shift``キーを押しながら最後のエンティティをクリック"
+"します。隣接していない複数のエンティティを選択するには、``Ctrl``キーを押しながら、選択するエンティティをクリックします。"
 
 #: ../../source/host/add-content/export-content.rst:36
 msgid ""
 "Once you've selected all of the entities you want to export, click "
 "'Export Selection'."
-msgstr ""
+msgstr "エクスポートするすべてのエンティティを選択したら、[選択範囲のエクスポート]をクリックします。"
 
 #: ../../source/host/add-content/export-content.rst:37
 msgid "Browse to a folder location and enter a name for the exported JSON file."
-msgstr ""
+msgstr "フォルダの場所を参照し、エクスポートされたJSONファイルの名前を入力します。"
 
 #: ../../source/host/add-content/export-content.rst:38
 #: ../../source/host/configure-settings/place-setting.rst:43
 msgid "Click 'Save'."
-msgstr ""
+msgstr "[保存]をクリックします。"
 
 #: ../../source/host/add-content/export-content.rst:43
 msgid "Retrieve Automatic Content Archives"
-msgstr ""
+msgstr "自動コンテンツアーカイブを取得する"
 
 #: ../../source/host/add-content/export-content.rst:45
 msgid ""
@@ -921,10 +924,13 @@ msgid ""
 "have already created a backup of the content that is installed in your "
 "domain. These backup files are called *content archives*."
 msgstr ""
+"デフォルトでは、Vircadiaはメタバース上のすべてのアクティブなドメインの定期的なコンテンツアーカイブを作成します。これは、メタバースに（ローカルサー"
+"バーまたはDigitalOceanを介して）ドメインが登録されている場合、ドメインにインストールされているコンテンツのバックアップがすでに作成されているこ"
+"とを意味します。これらのバックアップファイルは*コンテンツアーカイブ*と呼ばれます。"
 
 #: ../../source/host/add-content/export-content.rst:47
 msgid "To retrieve these backups:"
-msgstr ""
+msgstr "これらのバックアップを取得するには："
 
 #: ../../source/host/add-content/export-content.rst:54
 #: ../../source/host/add-content/export-content.rst:78
@@ -943,7 +949,7 @@ msgstr ""
 msgid ""
 "For any OS: Open a browser and enter the URL "
 "http://localhost:40100/settings."
-msgstr ""
+msgstr "任意のOSの場合：ブラウザを開きhttp://localhost:40100/settingsを入力します。"
 
 #: ../../source/host/add-content/export-content.rst:55
 #: ../../source/host/add-content/export-content.rst:79
@@ -952,58 +958,60 @@ msgstr ""
 #: ../../source/host/maintain-domain/backup-domain.rst:65
 #: ../../source/host/maintain-domain/backup-domain.rst:81
 msgid "On the top menu bar, select **Content > Content Archives**."
-msgstr ""
+msgstr "上部のメニューバーで、**[コンテンツ]>[コンテンツアーカイブ]**を選択します。"
 
 #: ../../source/host/add-content/export-content.rst:56
 msgid ""
 "Under 'Automatic Content Archives', locate the archive you would like to "
 "download."
-msgstr ""
+msgstr "[自動コンテンツアーカイブ]で、ダウンロードするアーカイブを見つけます。"
 
 #: ../../source/host/add-content/export-content.rst:57
 #: ../../source/host/add-content/export-content.rst:82
 #: ../../source/host/maintain-domain/backup-domain.rst:67
 msgid "From the Actions menu, click 'Download'."
-msgstr ""
+msgstr "[アクション]メニューから、[ダウンロード]をクリックします。"
 
 #: ../../source/host/add-content/export-content.rst:59
 msgid ""
 "When you upzip the content archive, locate models.json.gz. This file "
 "contains all of the assets in your domain, along with their properties."
 msgstr ""
+"コンテンツアーカイブをアップジップするときは、models.json."
+"gzを見つけます。このファイルには、ドメイン内のすべてのアセットとそのプロパティが含まれています。"
 
 #: ../../source/host/add-content/export-content.rst:64
 msgid "Create a Manual Content Archive"
-msgstr ""
+msgstr "手動コンテンツアーカイブを作成する"
 
 #: ../../source/host/add-content/export-content.rst:66
 msgid ""
 "The final method of exporting your content is to create a manual content "
 "archive of your domain. This is recommended if you want to:"
-msgstr ""
+msgstr "コンテンツをエクスポートする最後の方法は、ドメインの手動コンテンツアーカイブを作成することです。これは、次の場合に推奨されます。"
 
 #: ../../source/host/add-content/export-content.rst:68
 msgid "Deploy your content to multiple domains"
-msgstr ""
+msgstr "コンテンツを複数のドメインにデプロイする"
 
 #: ../../source/host/add-content/export-content.rst:69
 msgid "Share a copy of your custom content set with others"
-msgstr ""
+msgstr "カスタムコンテンツセットのコピーを他の人と共有する"
 
 #: ../../source/host/add-content/export-content.rst:71
 msgid "To create a content archive and download it:"
-msgstr ""
+msgstr "コンテンツアーカイブを作成してダウンロードするには："
 
 #: ../../source/host/add-content/export-content.rst:80
 #: ../../source/host/maintain-domain/backup-domain.rst:48
 msgid "Under 'Manual Content Archives', click 'Generate New Archive'."
-msgstr ""
+msgstr "[手動コンテンツアーカイブ]で、[新しいアーカイブの生成]をクリックします。"
 
 #: ../../source/host/add-content/export-content.rst:81
 msgid ""
 "Enter a name for your archive and click 'Generate Archive'. It will "
 "appear just below the 'Generate New Archive' button."
-msgstr ""
+msgstr "アーカイブの名前を入力し、[アーカイブの生成]をクリックします。[新しいアーカイブの生成]ボタンのすぐ下に表示されます。"
 
 #: ../../source/host/add-content/export-content.rst:84
 msgid ""
@@ -1011,10 +1019,12 @@ msgid ""
 "files. From here, you can upload your content archive to another domain "
 "or send it to others."
 msgstr ""
+"コンテンツアーカイブには、models.json."
+"gzと他のバックアップファイルが含まれています。ここから、コンテンツアーカイブを別のドメインにアップロードしたり、他のドメインに送信したりできます。"
 
 #: ../../source/host/add-content/upload-content.rst:3
 msgid "Upload Content to your Domain"
-msgstr ""
+msgstr "ドメインにコンテンツをアップロードする"
 
 #: ../../source/host/add-content/upload-content.rst:5
 msgid ""
@@ -1026,20 +1036,23 @@ msgid ""
 "like your domain's new look, you can restore your old content at any "
 "time."
 msgstr ""
+"自分でコンテンツセットを作成した場合でも、コンテンツをベイクした場合でも、友人からコンテンツセットを入手した場合でも、それを自分のドメインにアップロードす"
+"る必要があります。コンテンツセットをアップロードすると、ドメイン内の既存のコンテンツはすべて上書きされます。ドメインのコンテンツの既存のバックアップファイ"
+"ルはすぐに変更されないので、ドメインの新しい外観が気に入らない場合は、いつでも古いコンテンツを復元できることを覚えておいてください。"
 
 #: ../../source/host/add-content/upload-content.rst:7
 msgid "To upload and install new content to your domain:"
-msgstr ""
+msgstr "ドメインに新しいコンテンツをアップロードしてインストールするには："
 
 #: ../../source/host/add-content/upload-content.rst:15
 #: ../../source/host/maintain-domain/backup-domain.rst:89
 msgid "On the top menu bar, select **Content > Upload Content**."
-msgstr ""
+msgstr "上部のメニューバーで、**[コンテンツ]>[コンテンツのアップロード]**を選択します。"
 
 #: ../../source/host/add-content/upload-content.rst:16
 #: ../../source/host/maintain-domain/backup-domain.rst:90
 msgid "Under 'Upload Content', click 'Choose File'."
-msgstr ""
+msgstr "[コンテンツのアップロード]で、[ファイルの選択]をクリックします。"
 
 #: ../../source/host/add-content/upload-content.rst:17
 msgid ""
@@ -1049,53 +1062,57 @@ msgid ""
 "archive>`_, or a `content archive <export-content.html#create-a-manual-"
 "content-archive>`_ itself."
 msgstr ""
+"コンテンツファイルを参照します。これは、`エクスポートされたエンティティのjson <export-content.html#export-"
+"entities-to-json>`_ 、抽出された `コンテンツアーカイブの .json.gz <export-content."
+"html#create-a-manual-content-archive>`_ 、または `コンテンツアーカイブ <export-content."
+"html#create-a-manual-accive>`_ 自体のいずれでも可能です。"
 
 #: ../../source/host/add-content/upload-content.rst:18
 #: ../../source/host/maintain-domain/backup-domain.rst:92
 msgid "Click 'Upload Content'."
-msgstr ""
+msgstr "[コンテンツのアップロード]をクリックします。"
 
 #: ../../source/host/add-content/upload-content.rst:19
 msgid ""
 "Confirm that you are sure that you want to replace your current content "
 "with the new content set."
-msgstr ""
+msgstr "現在のコンテンツを新しいコンテンツセットに置き換えたいことを確認してください。"
 
 #: ../../source/host/add-content/upload-content.rst:21
 msgid ""
 "At this point, your domain server will restart and the new content will "
 "be deployed in your domain."
-msgstr ""
+msgstr "この時点で、ドメインサーバーが再起動し、新しいコンテンツがドメインにデプロイされます。"
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/network-settings.rst:3
 msgid "Define Your Network Settings"
-msgstr ""
+msgstr "ネットワーク設定を定義する"
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/place-setting.rst:3
 msgid "Set Up a Place Name"
-msgstr ""
+msgstr "地名を設定する"
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/permission-settings.rst:3
 msgid "Assign User Permissions"
-msgstr ""
+msgstr "ユーザー権限の割り当て"
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/authentication-setting.rst:3
 msgid "Secure Your Domain Settings"
-msgstr ""
+msgstr "ドメイン設定を保護する"
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/entity-filters.rst:3
 msgid "Protect Your Domain's Content"
-msgstr ""
+msgstr "ドメインのコンテンツを保護する"
 
 #: ../../source/host/configure-settings.rst:14
 #: ../../source/host/configure-settings/audio-settings.rst:3
 msgid "Define Your Audio Environment"
-msgstr ""
+msgstr "オーディオ環境を定義する"
 
 #: ../../source/host/configure-settings.rst:5
 msgid ""
@@ -1103,13 +1120,15 @@ msgid ""
 "let you customize its networking properties, security, behavior, and "
 "more. To access your domain settings:"
 msgstr ""
+"ドメインには、ネットワークプロパティ、セキュリティ、動作などをカスタマイズできる包括的な構成オプションのセットが付属しています。ドメイン設定にアクセスする"
+"には："
 
 #: ../../source/host/configure-settings.rst:9
 #: ../../source/host/server-setup/windows-server.rst:34
 msgid ""
 "For local servers running on any OS, go to "
 "http://localhost:40100/settings."
-msgstr ""
+msgstr "任意のOSで実行されているローカルサーバーについては、http://localhost:40100/settingsにアクセスしてください。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:5
 msgid ""
@@ -1118,6 +1137,8 @@ msgid ""
 "and it has a meaningful impact on a user's sense of immersion and "
 "presence in the world."
 msgstr ""
+"オーディオは、ドメインでの訪問者のエクスペリエンスの不可欠な部分です。高品質のオーディオは、実在の人々間のコミュニケーションを容易にするために不可欠であり"
+"、ユーザーの世界への没入感と存在感に有意義な影響を与えます。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:7
 msgid ""
@@ -1129,10 +1150,14 @@ msgid ""
 "amplified stages for presentations. All of this is possible by changing "
 "the audio settings in your domain settings."
 msgstr ""
+"Vircadiaの3Dイマーシブ・ステレオオーディオがあなたのドメインにどのように実装されるかを正確に定義します。オーディオミキサーのサーバー構成をある程"
+"度コントロールできるだけでなく、ドメイン全体の減衰と残響レベルを完全にコントロールすることができます。ゾーンを定義することで、プライベートなミーティングの"
+"ための防音エリアや、プレゼンテーションのための増幅されたステージを定義することができます。これらのことはすべて、ドメイン設定でオーディオ設定を変更すること"
+"で可能になります。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:14
 msgid "Audio Environment"
-msgstr ""
+msgstr "オーディオ環境"
 
 #: ../../source/host/configure-settings/audio-settings.rst:16
 msgid ""
@@ -1143,6 +1168,8 @@ msgid ""
 "volume of sound based on the distance between the source and the "
 "listener."
 msgstr ""
+"オーディオ環境は、ドメイン内での音の伝わり方を定義します。つまり、仮想空間の表面に声や音を反射させることで、臨場感を得ようとしているのです。さらに、音源と"
+"リスナーとの距離に応じて音の大きさを調整します。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:18
 msgid ""
@@ -1190,6 +1217,8 @@ msgid ""
 "to create two separate rooms in the same domain, where the sound does not"
 " migrate over into the other room."
 msgstr ""
+"「ゾーン」とは、カスタムプロパティを定義できる3Dエリアのことです。オーディオゾーンの場合、独自の減衰とリバーブのプロパティを定義した3Dエリアとなります"
+"。例えば、オーディオゾーンを使えば、同じドメイン内に2つの独立した部屋を作ることができ、音がもう一方の部屋に移動しないようにすることができます。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:29
 msgid "To define an audio zone:"
@@ -1215,6 +1244,8 @@ msgid ""
 "coefficient is 0, there is no change to the attenuation between zones; at"
 " 1, you won't be able to hear someone in another zone."
 msgstr ""
+"(オプション）複数のゾーンがある場合、特定の2つのゾーン間の減衰関係を設定することができます。この関係は「減衰係数」と呼ばれます。減衰係数が0の場合、ゾー"
+"ン間の減衰に変化はなく、1の場合、他のゾーンにいる人の声が聞こえなくなります。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:41
 msgid ""
@@ -1409,6 +1440,9 @@ msgid ""
 "concepts (IP, UDP, ports, etc) as changing these settings can impact "
 "visitors or (if you're running a local server) put your system at risk."
 msgstr ""
+"ネットワーク設定を変更すると、メタバースサーバーやユーザーがドメインに接続する方法に影響します。設定を変更する前に、ネットワークの概念（IP、UDP、ポー"
+"トなど）の基本的な理解があることを確認してください。これらの設定を変更すると、訪問者に影響を与えたり、（ローカルサーバーを実行している場合）システムが危険"
+"にさらされる可能性があります。"
 
 #: ../../source/host/configure-settings/network-settings.rst:14
 msgid "Linked Metaverse Account"
@@ -1422,6 +1456,9 @@ msgid ""
 "groups necessary for domain operations. In addition, you can access your "
 "account-specific settings, such as Place names."
 msgstr ""
+"すべてのドメインは、そのドメインの所有者である1つのメタバースアカウントにリンクできます。アカウントをリンクすると、OAuthアクセストークンが作成され、"
+"ドメイン設定を変更するためのアカウントアクセスと、ドメイン操作に必要なアクセスグループが付与されます。さらに、地名などのアカウント固有の設定にアクセスでき"
+"ます。"
 
 #: ../../source/host/configure-settings/network-settings.rst:18
 msgid ""
@@ -1461,6 +1498,9 @@ msgid ""
 "specified port. This option is recommended for a local server running on "
 "a home network with a dynamically changing public IP address."
 msgstr ""
+"** IPのみ**：ドメインは、表示されているネットワークアドレスを、現在のIPアドレスとして検出したものに更新します。表示されるポートは自動的に変更され"
+"ないため、ドメインは指定されたポートで到達可能である必要があります。このオプションは、動的に変更されるパブリックIPアドレスを持つホームネットワークで実行"
+"されているローカルサーバーに推奨されます。"
 
 #: ../../source/host/configure-settings/network-settings.rst:32
 msgid ""
@@ -1594,6 +1634,9 @@ msgid ""
 " example, you can let anyone connect to your domain, but only give "
 "friends access to edit your domain content."
 msgstr ""
+"ドメイン内の訪問者にユーザー権限を設定することで、ドメインを保護できます。ドメイン設定では、ドメインにアクセスできるユーザーの種類と、それらに付与されるア"
+"クセス許可を制御します。たとえば、誰でもドメインに接続できるようにすることができますが、ドメインコンテンツを編集するためのアクセス権は友達にのみ与えること"
+"ができます。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:12
 msgid "Set User Permissions"
@@ -1616,6 +1659,10 @@ msgid ""
 "will supersede any group-level permissions that otherwise might apply to "
 "that user."
 msgstr ""
+"ユーザーの権限は、そのユーザーが所属しているすべてのグループの合計になります。たとえば、ログインしているすべてのユーザーが接続でき、localhostのユ"
+"ーザーだけがエンティティをrezできるとします。あるユーザーがログインしており、かつlocalhostにいる場合、そのユーザーは接続とエンティティのrez"
+"の両方を行うことができるようになります。さらに、特定のユーザーにユーザー権限を割り当てると、そのユーザーに適用される可能性のあるグループレベルの権限よりも"
+"優先されます。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:18
 msgid "To assign user permissions:"
@@ -1886,6 +1933,8 @@ msgid ""
 "minutes at IP address ...\" just doesn't cut it in a fun, virtual "
 "environment."
 msgstr ""
+"IPアドレスを使用してドメインに移動することはできますが、IPアドレスは覚えるのが難しく、ネットワークの設定によって変わることが多く、あまり魅力的ではあり"
+"ません。友達に「IPアドレスで20分で会いましょう...」と言っても、楽しい仮想環境ではうまくいきません。"
 
 #: ../../source/host/configure-settings/place-setting.rst:7
 msgid ""
@@ -1895,6 +1944,9 @@ msgid ""
 " night!\" and you can smile knowing that they're talking about your "
 "domain, Deerhaven."
 msgstr ""
+"一方、地名を使用すると、ドメインに簡単に移動できます。それらは記憶に残り、訪問者にあなたの仮想世界を思い出すためのコンテキストを提供します。「昨夜、ディア"
+"ヘブンで素晴らしい時間を過ごしました！」と誰かが言っていると想像してみてください。そして、彼らがあなたのドメイン、ディアヘブンについて話していることを知っ"
+"て、あなたは微笑むことができます。"
 
 #: ../../source/host/configure-settings/place-setting.rst:14
 msgid "Get a Place Name"
@@ -1940,6 +1992,8 @@ msgid ""
 "ways to configure your place name settings, and they achieve the same "
 "thing."
 msgstr ""
+"プレースネームは、メタバース内の特定の座標を指し示すものです。ドメインを指すだけでなく、訪問者が出現するドメイン内の正確な位置も定義されます。プレースネー"
+"ムの設定には、2つの異なる方法がありますが、どちらも同じことを実現します。"
 
 #: ../../source/host/configure-settings/place-setting.rst:29
 msgid "**Method 1 - Use the Domain Settings**"
@@ -2172,6 +2226,8 @@ msgid ""
 "where the picture was taken within the metaverse (if they have Interface "
 "installed)."
 msgstr ""
+"FacebookまたはTwitterフィードのストーリーをクリックすると、ドメインに関する詳細情報を提供するページに移動します。そのページの写真または「訪"
+"問」ボタンをクリックすると、メタバース内で写真が撮影された場所に移動します（インターフェイスがインストールされている場合）。"
 
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/backup-domain.rst:3
@@ -2205,6 +2261,9 @@ msgid ""
 "creating backups, managing unruly visitors, updating software, and "
 "cleaning the domain of unnecessary entities and extraneous content."
 msgstr ""
+"ドメインサーバーは、一般的に管理者が管理・保守を行っています。ドメインの所有者として、サーバーを良好な状態で稼働させるために、何らかの責任を負う必要がある"
+"可能性があります。バックアップの作成、手に負えない訪問者の管理、ソフトウェアの更新、不要なエンティティや余計なコンテンツの削除など、さまざまなタスクがあり"
+"ます。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:5
 msgid ""
@@ -2215,6 +2274,9 @@ msgid ""
 "that you periodically download copies of these backups to your computer "
 "as a secondary backup."
 msgstr ""
+"データ損失やグリーフに備え、ドメインのバックアップを取ることをお勧めします。ドメインサーバーは定期的にドメインのコンテンツの自動バックアップを実行しますが"
+"、これらのバックアップが実行される頻度を設定するのはお客様次第です。また、二次的なバックアップとして、定期的にバックアップのコピーをコンピュータにダウンロ"
+"ードすることをお勧めします。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:12
 msgid "Automatic Content Archives"
@@ -2370,6 +2432,8 @@ msgid ""
 "background noise, and white noise are audio issues people have when they "
 "first download Vircadia)."
 msgstr ""
+"多くの場合、ドメイン内の訪問者は、コンピューターで正しいオーディオ設定を定義していないだけです。その結果、不快な音がドメインに出力される可能性があります（"
+"激しい呼吸、タイピング、バックグラウンドノイズ、およびホワイトノイズは、Vircadiaを最初にダウンロードしたときに発生するオーディオの問題です）。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:18
 msgid "To silence a specific user in your domain:"
@@ -2429,6 +2493,9 @@ msgid ""
 "help you inspect the contents of your domain, or identify loud avatars  "
 "and them in your domain."
 msgstr ""
+"ドメインのメンテナンスタスクを定期的に実行する :doc: `割り当てクライアントスクリプト <../../script/assignment-"
+"client-scripts>`を使用すると、ドメインを「クリーンアップ」することができます。たとえば、スクリプトはデフォルトのコンテンツセットに含まれな"
+"いエンティティを削除したり、ドメインのコンテンツを検査するためのツールをロードしたり、ドメイン内のラウドアバターとそれらを特定したりすることができます。"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:12
 msgid "Write a Script"
@@ -2443,6 +2510,9 @@ msgid ""
 "state every 1 hour. This means that any other entities rezz'd in our "
 "domain will be deleted within the hour by the script::"
 msgstr ""
+"スクリプトでは、`JavaScript API <https://apidocs.vircadia.dev>`_ を使って、あなたのプログラミングの専門知"
+"識と創造力でどんなタスクでも自由にコーディングすることができます。ここでは、1時間ごとにドメインのコンテンツをデフォルトの状態に戻す、割り当てクライアント"
+"スクリプトの例を書いています。これは、私たちのドメインでrezz'dされた他のエンティティは、スクリプトによって1時間以内に削除されることを意味します::"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:65
 msgid "Add Assignment Client Script to Domain"
@@ -2527,6 +2597,9 @@ msgid ""
 " your version), we strongly recommend that you upgrade your domain server"
 " to the newest release."
 msgstr ""
+"Vircadiaのすべてのユーザーは最新リリースにアップデートすることが推奨されているため、あなたの訪問者の大多数はVircadiaの最新バージョンを実行"
+"している可能性が高いと思われます。したがって、もしプロトコルの変更があった場合（あなたのバージョンの :doc:`Release Notes "
+"<../../release-notes>` をチェックしてください）、ドメインサーバーを最新リリースにアップグレードすることを強くお勧めします。"
 
 #: ../../source/host/maintain-domain/update-software.rst:27
 msgid "To update a local server on Windows:"
@@ -3034,6 +3107,8 @@ msgid ""
 "closer to how a Vircadia server compiled from source would run, this is "
 "provided as an option."
 msgstr ""
+"ストレージを簡素化し、1台のサーバーで複数のドメインを実行する機能を簡素化するために、デフォルト構成にいくつかの調整が加えられています。このロジックを削除"
+"して、ソースからコンパイルされたVircadiaサーバーの実行方法に近いサーバーを実行する場合は、これがオプションとして提供されます。"
 
 #: ../../source/host/server-setup/linux-server.md:129
 msgid ""
@@ -3068,6 +3143,9 @@ msgid ""
 "advertise your domain in the Explore app, we recommend using a cloud "
 "hosting provider such as DigitalOcean."
 msgstr ""
+"自宅からあらゆる種類のサーバーをホストするということは、ネットワークを世界に公開することを意味します。したがって、ローカルサーバーはプライベートイベントや"
+"小規模な集まりにのみ使用することをお勧めします。パブリックドメインをホストしたり、Exploreアプリでドメインをアドバタイズしたりする場合は、Digit"
+"alOceanなどのクラウドホスティングプロバイダーを使用することをお勧めします。"
 
 #: ../../source/host/server-setup/windows-server.rst:14
 msgid "Set Up Your Server"
@@ -3098,6 +3176,10 @@ msgid ""
 "create a complex content set, we encourage you to increase your memory "
 "and network bandwidth."
 msgstr ""
+"サーバーに使用するコンピュータは、最低限、弊社の`最小システム要件 <../../explore/get-started/install.html"
+"#minimum-system-requirements>`を満たしている必要があります。しかし、あなたのドメインに多くの訪問者を追加すると、あなたのリソ"
+"ースへの需要が増加することに留意してください。そのため、大規模なグループ（15人以上）を招待する場合や、複雑なコンテンツセットを作成する場合は、メモリとネ"
+"ットワークの帯域幅を増やすことをお勧めします。"
 
 #: ../../source/host/server-setup/windows-server.rst:23
 msgid ""
@@ -3132,6 +3214,8 @@ msgid ""
 "Metaverse Server access to your domain settings, which are stored on your"
 " local server."
 msgstr ""
+"**ステップ1：メタバースアカウントを接続する**：アカウントを接続すると、サーバー用に作成された新しいドメインIDの所有者になります。コピーして貼り付け"
+"るセキュリティトークンにより、メタバースサーバーはローカルサーバーに保存されているドメイン設定にアクセスできます。"
 
 #: ../../source/host/server-setup/windows-server.rst:39
 msgid ""
@@ -3154,6 +3238,9 @@ msgid ""
 " from a remote location), then add the Vircadia Metaverse usernames here."
 " In addition, choose who will be able to connect or rez items."
 msgstr ""
+"**ステップ3：基本的なアクセス許可を設定する**：デフォルトでは、コンピューターにログオンしているユーザーは誰でもドメインに完全にアクセスできます。管理"
+"者権限をリモートユーザーに拡張する（またはリモートの場所からのアクセスを許可する）場合は、ここにVircadiaMetaverseのユーザー名を追加します"
+"。さらに、アイテムを接続またはrezできるユーザーを選択します。"
 
 #: ../../source/host/server-setup/windows-server.rst:44
 msgid ""
@@ -3208,6 +3295,10 @@ msgid ""
 "name for your domain. Learn :doc:`how to configure a Place name "
 "<../configure-settings/place-setting>`."
 msgstr ""
+"プレースネームを割り当てなかった場合、ドメインにアクセスする唯一の方法は、サーバーのIPアドレスを使用することです。しかし、IPアドレスが変更されると、ド"
+"メインのアドレスも変更されることに注意してください。したがって、ラップトップやIPアドレスが頻繁に変更されるコンピュータでドメインをホストしている場合、ド"
+"メインにプレースネームを設定することを強くお勧めします。:doc:`プレースネームの設定方法 <../configure-settings/place-"
+"setting>` を参照してください。"
 
 #: ../../source/host/server-setup/windows-server.rst:62
 msgid "Now, your domain is officially part of the expanding metaverse!"
@@ -3286,6 +3377,9 @@ msgid ""
 "domains in Vircadia, so that you can create the space you want and be a "
 "part of building a bigger, more expansive metaverse."
 msgstr ""
+"メタバースでカスタムドメインをホストすることを決定していただき、大変うれしく思います。また、サーバーのセットアップ、設定、ドメインの作成には、ある程度の時"
+"間と技術的な知識が必要であることも理解しています。このセクションでは、Vircadiaでドメインをホストするための基本的な知識を身につけ、あなたが望むスペ"
+"ースを作り、より広大なメタバース構築の一部になれることを願っています。"
 
 #: ../../source/host/start-hosting.rst:7
 msgid ""
