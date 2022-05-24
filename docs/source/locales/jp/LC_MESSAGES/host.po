@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-05-24 06:04+0000\n"
+"PO-Revision-Date: 2022-05-24 22:34+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/ja/>\n"
@@ -1178,6 +1178,8 @@ msgid ""
 "settings by adjusting the attenuation and the reverb levels (go to "
 "**Domain Settings > Content > Audio Environment**)."
 msgstr ""
+"ただし、私たちの方程式は、ドメインで探しているものと正確に一致しない場合があることを理解しています。減衰とリバーブのレベルを調整することで、ドメイン全体の"
+"オーディオ設定を変更できます（**[ドメイン設定]>[コンテンツ]>[オーディオ環境]**に移動します）。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:20
 msgid ""
@@ -1192,6 +1194,11 @@ msgid ""
 "volume. Likewise, the default attenuation for a domain can be set very "
 "high (to a max value of 1), making only things very near to you audible."
 msgstr ""
+"*減衰*は、距離が離れるとどの程度音が小さくなるかを決定します。ドメイン減衰のデフォルトは、ドメイン環境全体で有効になっているノイズリダクションの量です。"
+"Vircadiaドメインのデフォルトは、現実世界とほぼ同じ距離減衰カーブになっています。2人のアバターが遠くで話しているのが見えると、その声が聞こえますが"
+"、あまりよく聞こえません。2人に近づくと、あなたが慣れ親しんでいるような方法で、より聞き取りやすくなります。減衰の初期値を0に設定すると、音源がどれだけ離"
+"れていても、フルボリュームで再生されます。同様に、ドメインのデフォルト減衰を非常に大きく設定すると（最大値1）、非常に近くにあるものだけが聞こえるようにな"
+"ります。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:21
 msgid ""
@@ -1251,7 +1258,7 @@ msgstr ""
 msgid ""
 "Under 'Reverb Settings', click the ``+`` icon, enter the zone name from "
 "step 4, and define the reverb levels for the zone."
-msgstr ""
+msgstr "[リバーブ設定]で、``+``アイコンをクリックし、手順4のゾーン名を入力して、ゾーンのリバーブレベルを定義します。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:42
 #: ../../source/host/maintain-domain/backup-domain.rst:26
@@ -1269,6 +1276,8 @@ msgid ""
 "determine the number of threads the audio mixer uses to process audio, "
 "and when to throttle or buffer a heavy-loaded system."
 msgstr ""
+"ドメイン設定の「オーディオスレッド」セクションと「オーディオバッファ」セクションは、オーディオミキサーのサーバー構成を定義します。ここでは、オーディオミキ"
+"サーがオーディオの処理に使用するスレッドの数と、高負荷のシステムをいつスロットルまたはバッファリングするかを決定できます。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:50
 msgid ""
@@ -1283,6 +1292,8 @@ msgid ""
 "modify your domain settings will need the username and password to make "
 "changes."
 msgstr ""
+"認証（ユーザー名とパスワードなど）を追加して、不正なユーザーによるドメイン設定の変更を防止します。ドメイン設定を変更しようとする人は、変更するためにユーザ"
+"ー名とパスワードが必要になります。"
 
 #: ../../source/host/configure-settings/authentication-setting.rst:7
 msgid "To set up and/or change the authentication for your domain settings:"
@@ -1304,6 +1315,7 @@ msgid ""
 "account, and is used only to access the settings for this specific cloud "
 "domain."
 msgstr ""
+"このユーザー名とパスワードは、Metaverseのアカウントとは一切関係なく、この特定のクラウドドメインの設定にアクセスするためにのみ使用されます。"
 
 #: ../../source/host/configure-settings/authentication-setting.rst:20
 msgid "Re-enter your password into 'Verify HTTP Password'."
@@ -1315,6 +1327,8 @@ msgid ""
 " modifications to entities in your domain. They can be applied to a whole"
 " server or to specific zones within a domain."
 msgstr ""
+"エンティティフィルターは、ドメイン内のエンティティに対する不要な変更を防止するための特別なJavaScript関数です。サーバー全体、またはドメイン内の特"
+"定のゾーンに適用することができます。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:13
 msgid "Add an Entity Filter to Your Domain"
@@ -1327,6 +1341,8 @@ msgid ""
 "own), upload it to your ATP server or a cloud hosting service of your "
 "choice. Then:"
 msgstr ""
+"ドメインは、AssetServerまたはクラウドでホストされている任意のエンティティフィルターに接続できます。スクリプトを作成したら（または独自のスクリプ"
+"トを使用して）、それをATPサーバーまたは選択したクラウドホスティングサービスにアップロードします。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:23
 msgid "On the top menu bar, select **Content > Entities**."
@@ -1348,7 +1364,7 @@ msgstr ""
 msgid ""
 "You can choose to apply an entity filter to a specific zone within your "
 "domain, rather than to the entire domain. To do this:"
-msgstr ""
+msgstr "ドメイン全体ではなく、ドメイン内の特定のゾーンにエンティティフィルターを適用することができます。以下の操作を参照："
 
 #: ../../source/host/configure-settings/entity-filters.rst:34
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
@@ -1466,6 +1482,8 @@ msgid ""
 "the Metaverse/Networking section of the domain settings. You can also "
 "view your access token on this page (under 'Advanced Options')."
 msgstr ""
+"リンクされたメタバースアカウントのステータスは、ドメイン設定のメタバース/ネットワーキングセクションの上部に反映されます。このページ（[詳細オプション]の"
+"下）でアクセストークンを表示することもできます。"
 
 #: ../../source/host/configure-settings/network-settings.rst:24
 msgid "Automatic Networking"
@@ -1478,6 +1496,8 @@ msgid ""
 "mixer, entity server, asset server, entity script server and messages "
 "mixer."
 msgstr ""
+"自動ネットワーク設定は、メタバース内の他のノードがドメインに接続する方法を定義します。これらのノードには、アバターミキサー、オーディオミキサー、エンティテ"
+"ィサーバー、アセットサーバー、エンティティスクリプトサーバー、メッセージミキサーが含まれます。"
 
 #: ../../source/host/configure-settings/network-settings.rst:28
 msgid "Choose from the following automatic networking options:"
@@ -1489,6 +1509,8 @@ msgid ""
 "your domain. They are never automatically updated, and your domain must "
 "be reachable at the address and port you set."
 msgstr ""
+"**None**：表示されたネットワークアドレスとポートは、ドメインの接続に使用されます。これらは自動的に更新されることはなく、ドメインは設定したアドレス"
+"とポートで到達可能である必要があります。"
 
 #: ../../source/host/configure-settings/network-settings.rst:31
 msgid ""
@@ -1509,6 +1531,8 @@ msgid ""
 "punch without needing to make any changes to NAT or firewall settings. "
 "This may not work for all networks."
 msgstr ""
+"**Full**:お客様のドメインは、Vircadiaのサーバーにネットワーク情報を提供します。これにより、新しいクライアントはNATやファイアウォールの"
+"設定を変更することなく、UDPホールパンチングで接続することができます。ただし、これはすべてのネットワークで機能するとは限りません。"
 
 #: ../../source/host/configure-settings/network-settings.rst:34
 msgid ""
@@ -1523,6 +1547,8 @@ msgid ""
 "\"0\" to have your domain select a random port, which will help prevent "
 "port collisions."
 msgstr ""
+"同じネットワークとルーターで複数のドメインをホストする場合は、必ず各ドメインを個別のUDPポートに設定してください。値「0」を使用して、ドメインにランダム"
+"なポートを選択させることができます。これにより、ポートの衝突を防ぐことができます。"
 
 #: ../../source/host/configure-settings/network-settings.rst:42
 msgid "Networking Details (Advanced)"
@@ -1534,6 +1560,8 @@ msgid ""
 "starting at `40100`. (Note that the encrypted ports may not be "
 "implemented yet.) These ports are:"
 msgstr ""
+"Vircadiaドメインは、4つのポートの範囲を予約しており、通常は「40100」から始まります。（暗号化されたポートはまだ実装されていない可能性があるこ"
+"とに注意してください）これらのポートは次のとおりです。"
 
 #: ../../source/host/configure-settings/network-settings.rst:46
 msgid "40100 (+0): (tcp) administrative http connection"
@@ -1564,6 +1592,8 @@ msgid ""
 "server and must be able to connect with any outside user. These clients "
 "are:"
 msgstr ""
+"さらに、ドメインが機能するために実行する必要がある6つの「割り当てクライアント」があります。これらのクライアントはドメインサーバーと一緒に実行され、外部ユ"
+"ーザーと接続できる必要があります。これらのクライアントは次のとおりです。"
 
 #: ../../source/host/configure-settings/network-settings.rst:55
 msgid "**asset-server**: stores object data to download to the user"
@@ -1595,6 +1625,8 @@ msgid ""
 " the operating system at launch. These ports will be within the "
 "`ephemeral port range <https://en.wikipedia.org/wiki/Ephemeral_port>`_."
 msgstr ""
+"これらの割り当てクライアントは、起動時にオペレーティングシステムによって割り当てられたポート番号でUDP接続を使用します。これらのポートは、`エフェメラル"
+"ポートの範囲<https://en.wikipedia.org/wiki/Ephemeral_port>`_内にあります。"
 
 #: ../../source/host/configure-settings/network-settings.rst:66
 msgid "Domain ID"
@@ -1607,6 +1639,8 @@ msgid ""
 "your world such as: allowing you to create Place names, identifying "
 "logged in users, and more."
 msgstr ""
+"メタバースの各ドメインには、一意のドメインIDが割り当てられます。Metaverseサーバーは、このIDを使用して、地名の作成、ログインしたユーザーの識別"
+"など、より高度な機能を世界に提供します。"
 
 #: ../../source/host/configure-settings/network-settings.rst:70
 msgid ""
@@ -1625,6 +1659,8 @@ msgid ""
 "increases security in your domain, but may slightly decrease domain "
 "performance for your visitors."
 msgstr ""
+"[パケット検証を有効にする]がオンになっている場合、VircadiaはVircadiaプロトコルを使用する通信で安全なチェックサムを送信します。これにより"
+"、ドメインのセキュリティが向上しますが、訪問者のドメインパフォーマンスがわずかに低下する可能性があります。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:5
 msgid ""
@@ -1648,6 +1684,8 @@ msgid ""
 "specific users, users from a specific IP, and users from specific "
 "computers."
 msgstr ""
+"アクセス許可は、標準ユーザーグループ、カスタムユーザーグループ、特定のユーザー、特定のIPのユーザー、および特定のコンピューターのユーザーに割り当てること"
+"ができます。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:16
 msgid ""
@@ -1682,7 +1720,7 @@ msgstr ""
 msgid ""
 "To assign all other permissions, you need to add a custom group, specific"
 " user, etc individually to the correct permissions table:"
-msgstr ""
+msgstr "他のすべての権限を割り当てるには、カスタムグループ、特定のユーザーなどを個別に正しい権限テーブルに追加する必要があります。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:30
 msgid ""
@@ -1691,12 +1729,16 @@ msgid ""
 "all permissions you'd like to grant or deny (depending on the permissions"
 " table you are adding the group to)."
 msgstr ""
+"**グループの追加**：カスタムグループまたはリストの名前を入力し、「+」アイコンをクリックします。ドメイン設定を保存してランクを読み込みます。付与または"
+"拒否するすべてのアクセス許可のチェックボックスをオンにします（グループを追加するアクセス許可テーブルによって異なります）。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:33
 msgid ""
 "**Add Specific User**: Click the ``+`` icon, then enter a specific user "
 "name. Check the box of all permissions you'd like to grant."
 msgstr ""
+"**特定のユーザーを追加**：「+」アイコンをクリックして、特定のユーザー名を入力します。権限を付与する場合、権限チェックボックスから当該権限を選択しオン"
+"にします。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:36
 msgid ""
@@ -1705,6 +1747,8 @@ msgid ""
 "adding permission to). Check the box of all permissions you'd like to "
 "grant."
 msgstr ""
+"** IPアドレス、MACアドレス、またはマシンフィンガープリントの追加**：``+``アイコンをクリックして、情報を入力します（アクセス許可を追加するア"
+"クセス許可テーブルに基づいて）。付与するすべての権限のチェックボックスをオンにします。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:37
 msgid "Click 'Save' to save your domain settings."
@@ -1719,7 +1763,7 @@ msgid ""
 "Your domain comes with four basic security groups that are already set "
 "up, based on the people that you will interact with in the metaverse. "
 "They are:"
-msgstr ""
+msgstr "ドメインには、メタバースでやり取りするユーザーに基づいて、すでに設定されている4つの基本的なセキュリティグループが付属しています。以下参照："
 
 #: ../../source/host/configure-settings/permission-settings.rst:46
 msgid "User Type"
@@ -1735,6 +1779,8 @@ msgid ""
 "Interface. This is the default user type for someone who has downloaded "
 "Interface for the first time."
 msgstr ""
+"ログインしておらず、Vircadiaのインターフェイスのインスタンスを使用している人。これは、インターフェイスを初めてダウンロードした人のデフォルトのユー"
+"ザータイプです。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:52
 msgid "friends"
@@ -1748,6 +1794,8 @@ msgid ""
 "permissions in your domains than your Connections. Connections are "
 "treated like anonymous users."
 msgstr ""
+"アバターと握手をして、**People**アプリの「友達」チェックボックスをクリックすることでつながったユーザーのことです。コネクションは、フレンズとは異"
+"なります。デフォルトでは、「友だち」は「つながり」よりも多くの権限をあなたのドメインで持っています。コネクションは匿名ユーザーのように扱われます。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:57
 msgid "localhost"
@@ -1759,6 +1807,8 @@ msgid ""
 "hosted. Localhost users do not need to be logged in and have permissions "
 "that override non-user-specific permissions."
 msgstr ""
+"サーバーがホストされているのと同じマシンでInterfaceを実行しているユーザー。ローカルホストユーザーはログインする必要がなく、ユーザー固有でないパー"
+"ミッションを上書きするパーミッションを持ちます。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:61
 msgid "logged-in"
@@ -1771,6 +1821,8 @@ msgid ""
 "Permissions that are granted to a specific user override all other "
 "permissions."
 msgstr ""
+"インターフェイスを使用している間、Vircadiaアカウントにログインしているユーザーのことです。友人やコネクションでなくても、サーバーの権利を持つことが"
+"できます。特定のユーザーに与えられた権限は、他のすべての権限より優先されます。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:66
 msgid ""
@@ -1784,6 +1836,8 @@ msgid ""
 "to connect to it. These domains may be shown in the Explore app and in "
 "other places around the metaverse."
 msgstr ""
+"**パブリック**：パブリックドメインは、「匿名」および/または「ログイン」ユーザーがそれに接続することを許可します。これらのドメインは、Exploreア"
+"プリやメタバース周辺の他の場所に表示される場合があります。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:69
 msgid ""
@@ -1792,6 +1846,8 @@ msgid ""
 "their domains to other users and maintaining connect permissions for "
 "users to enter their domain."
 msgstr ""
+"**プライベート**：プライベートドメインでは、「匿名」および/または「ログイン」したユーザーがドメインに接続することはできません。ドメイン所有者は、自分"
+"のドメインを他のユーザーに昇格させ、ユーザーが自分のドメインに入るための接続権限を維持する責任があります。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:73
 msgid "User Permissions"
@@ -1836,6 +1892,8 @@ msgid ""
 "Sets whether a user can permanently create (or rez) new entities in the "
 "domain. These users will also have full access to the **Create** app."
 msgstr ""
+"ユーザーがドメイン内に新しいエンティティを永続的に作成（またはrez）できるかどうかを設定します。これらのユーザーは、**作成**アプリにも完全にアクセス"
+"できます。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:88
 msgid "Rez Temporary"
@@ -1848,6 +1906,8 @@ msgid ""
 "Settings > Maximum Lifetime of Temporary Entities**). These users will "
 "also have full access to the **Create** app."
 msgstr ""
+"ユーザーが有限の有効期間で新しいエンティティを作成（またはrez）できるかどうかを設定します（有効期間は**[ドメイン設定]>[エンティティ]>[詳細設定"
+"]>[一時エンティティの最大有効期間]**で設定されます）。これらのユーザーは、**作成**アプリにも完全にアクセスできます。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:93
 msgid "Rez Certified"
@@ -1859,6 +1919,8 @@ msgid ""
 "entities that were purchased from the Marketplace. Right now it does "
 "nothing."
 msgstr ""
+"これは、Marketplaceから購入した新しいエンティティをユーザーが永続的に作成（またはrez）できるかどうかを設定するために使用されました。今は何も"
+"作用しません。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:97
 msgid "Rez Temporary Certified"
@@ -1871,6 +1933,8 @@ msgid ""
 "Settings > Entities > Advanced Settings > Maximum Lifetime of Temporary "
 "Entities**). Right now it does nothing."
 msgstr ""
+"これは、ユーザーがマーケットプレイスから有限の有効期間で新しいエンティティを作成（またはrez）できるかどうかを設定するために使用されました（有効期間は、"
+"**[ドメイン設定]>[エンティティ]>[詳細設定]>[一時エンティティの最大有効期間]**で設定されます）。今は何も影響はありません。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:102
 msgid "Write Assets"
@@ -1882,6 +1946,8 @@ msgid ""
 "make changes to the domain's asset server (your domain's file storage "
 "space)."
 msgstr ""
+"ユーザーがアセット（モデル、オーディオ、その他のファイル）を追加したり、ドメインのアセットサーバー（ドメインのファイル保存領域）に変更を加えることができる"
+"かどうかを設定します。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:105
 msgid "Ignore Max Capacity"
@@ -1924,6 +1990,10 @@ msgid ""
 "<https://apidocs.vircadia.dev/Entities.html#.EntityProperties>`_ type "
 "definition."
 msgstr ""
+"ユーザーがドメイン内のエンティティの 'プライベートユーザーデータ' "
+"プロパティにアクセスし、書き込むことができるかどうかを設定します。プライベートユーザーデータはエンティティのプロパティで、スクリプトによって `"
+"EntityProperties <https://apidocs.vircadia.dev/Entities.html#."
+"EntityProperties>`_ タイプ定義の ``privateUserData`` プロパティを通してのみ設定および取得することができます。"
 
 #: ../../source/host/configure-settings/place-setting.rst:5
 msgid ""
@@ -1975,6 +2045,8 @@ msgid ""
 " to reject any registration we deem obscene, offensive, or a copyright "
 "violation."
 msgstr ""
+"新しい地名を入力します。まだ使用されていない地名を使用できます。ただし、Vircadiaは、わいせつ、攻撃的、または著作権侵害と見なされる登録を拒否する権"
+"利を留保することに注意してください。"
 
 #: ../../source/host/configure-settings/place-setting.rst:21
 msgid "Click 'Create'."
@@ -2032,6 +2104,8 @@ msgid ""
 "id>`_ of your domain. You will need this to point your place name to your"
 " domain."
 msgstr ""
+"これにより、Vircadiaアカウントから地名が設定されます。先に進む前に、ドメインの `ドメインID<network-settings.html"
+"＃domain-id>`_を持っていることを確認してください。これは、地名をドメインにポイントするために必要になります。"
 
 #: ../../source/host/configure-settings/place-setting.rst:51
 msgid ""
@@ -2056,6 +2130,8 @@ msgid ""
 "(Optional) Enter a description for your domain. This shows up when a user"
 " clicks the info icon if your domain is displayed in the Explore app."
 msgstr ""
+"（オプション）ドメインの説明を入力します。これは、ドメインがExploreアプリに表示されている場合に、ユーザーが情報アイコンをクリックしたときに表示され"
+"ます。"
 
 #: ../../source/host/configure-settings/place-setting.rst:56
 msgid ""
@@ -2073,6 +2149,8 @@ msgid ""
 " Blast functionality, mentions social media share linking to a domain "
 "info page (I assume that this functionality hasn't been restored)"
 msgstr ""
+"このドキュメントは古くなっています。FIXME：文法エラー、GoToについての言及、Blast機能についての言及、ドメイン情報ページへのソーシャルメディア"
+"共有リンクについての言及（この機能は復元されていないと思います）"
 
 #: ../../source/host/invite-users.rst:9
 msgid ""
@@ -2080,6 +2158,8 @@ msgid ""
 "to your domain and create your community in the virtual world. Here are "
 "some ways to bring more visitors in to your domain."
 msgstr ""
+"ドメインを取得し、運営を開始したら、次は、あなたのドメインに人々を招き入れ、バーチャルな世界にあなたのコミュニティを作り上げる番です。ここでは、より多くの"
+"訪問者をあなたのドメインに呼び込むための方法をいくつか紹介します。"
 
 #: ../../source/host/invite-users.rst:16
 msgid "Invite Your Friends"
@@ -2091,6 +2171,8 @@ msgid ""
 "exciting, new place in the metaverse! Invite your friends with a personal"
 " message to visit your domain."
 msgstr ""
+"メタバースの新しい場所を見に来てください！という個人的な招待ほど魅力的なものはありません。個性ある魅力的なメッセージであなたの友人をドメインに招待してくだ"
+"さい。"
 
 #: ../../source/host/invite-users.rst:20
 msgid ""
@@ -2098,6 +2180,8 @@ msgid ""
 " a Vircadia account can enter the IP address or place name directly into "
 "the GoTo app to teleport directly to your domain."
 msgstr ""
+"IPアドレスまたは地名を指定して、ドメインを共有します。Vircadiaアカウントを持っている人は誰でも、IPアドレスまたは地名をGoToアプリに直接入力"
+"して、ドメインに直接移動できます。"
 
 #: ../../source/host/invite-users.rst:24
 msgid ""
@@ -2107,6 +2191,9 @@ msgid ""
 "link, they will be prompted to open Interface.exe and land at the spawn "
 "point in your domain."
 msgstr ""
+"ヒント：他のVircadiaユーザーに、あなたのドメインに直接送られるクリック可能なURLを送ることができます。``https://hifi.place/"
+"<domain IP | place name>``というURLを送るだけです。リンクをクリックすると、Interface."
+"exeを開くように指示され、あなたのドメインの地点に着陸します。"
 
 #: ../../source/host/invite-users.rst:28
 msgid "Add Your Domain to the Explore App"
@@ -2129,6 +2216,10 @@ msgid ""
 "'Standard Permissions', either the 'anonymous' or 'logged-in' group must "
 "have the Connect permission."
 msgstr ""
+"VircadiaのExploreアプリで紹介されるには、アプリを開いて、人々にスポーンしてもらいたいあなたのドメインのスポットに行き、ロケーションマーカー"
+"を追加する必要があります。アプリの一番下までスクロールして、「Add Location」ボタンをクリックし、必要事項を記入すれば完了です。ログインしている"
+"ユーザーや誰でも利用できるように、ドメインを一般に公開したい場合があります。この場合、ドメイン設定の「標準権限」で、「匿名」または「ログイン」グループのい"
+"ずれかに接続権限が必要です。"
 
 #: ../../source/host/invite-users.rst:34
 msgid ""
@@ -2136,6 +2227,8 @@ msgid ""
 " users without permission to connect to your domain. This can be set up "
 "by username, IP address, MAC address or machine fingerprint."
 msgstr ""
+"ドメインへのアクセスを制限するには、ドメインへの接続を許可されていないユーザーのブラックリストを作成する必要があります。これは、ユーザー名、IPアドレス、"
+"MACアドレス、またはマシンのフィンガープリントによって設定することができます。"
 
 #: ../../source/host/invite-users.rst:38
 msgid "Promote Your Community Event with Vircadia"
@@ -2148,6 +2241,8 @@ msgid ""
 "`Discord<https://discordapp.com/invite/Pvx2vke>` server and reaching out "
 "to a Core Team Member."
 msgstr ""
+"イベントや体験をウェブサイトのカレンダーに追加するには、 `Discord <https://discordapp.com/invite/"
+"Pvx2vke>`サーバーに参加してコアチームに連絡し記入して送信してください。"
 
 #: ../../source/host/invite-users.rst:42
 msgid "It will then be:"
@@ -2173,6 +2268,9 @@ msgid ""
 "and friends <../explore/socialize.html#make-connections-and-friends>`_ "
 "will get notified whenever they come online."
 msgstr ""
+"Vircadiaの仲間全員に今起こっていることを知らせたい場合、あなたのコネクション全てにアナウンスを流すことができます。約1分以内に、興味のあるすべての"
+"`コネクションと友達 <.../explore/socialize.html#make-connections and-friends>`_ "
+"がオンラインになったときに通知されます。"
 
 #: ../../source/host/invite-users.rst:53
 msgid "To send a blast notification:"
@@ -2201,6 +2299,8 @@ msgid ""
 " them directly to the place where the picture was taken within the "
 "metaverse."
 msgstr ""
+"友人または接続が通知をクリックすると、スナップショットが利用可能な状態でGoToアプリが開きます。スナップショットをクリックすると、メタバース内で写真が撮"
+"影された場所に直接移動します。"
 
 #: ../../source/host/invite-users.rst:65
 msgid "Post a Snapshot on Social Media"
@@ -2288,6 +2388,8 @@ msgid ""
 "By default, it saves a backup rolling every 30 days, every week, every "
 "day, and every half hour. To change the frequency of these backups:"
 msgstr ""
+"ドメインサーバーは、ドメイン内のコンテンツの定期的なアーカイブを作成します。デフォルトでは、30日ごと、毎週、毎日、および30分ごとにバックアップが保存さ"
+"れます。これらのバックアップの頻度を変更するには："
 
 #: ../../source/host/maintain-domain/backup-domain.rst:22
 msgid "On the top menu bar, select **Settings > Automatic Content Archives**."
@@ -2301,7 +2403,7 @@ msgstr ""
 msgid ""
 "Enter a name for the rule, along with the backup interval (in seconds) "
 "and the number of backups to store on the server."
-msgstr ""
+msgstr "ルールの名前、バックアップ間隔（秒単位）、およびサーバーに保存するバックアップの数を入力します。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:25
 msgid "Click the ``X`` icon next to any rule you want to delete."
@@ -2329,6 +2431,8 @@ msgid ""
 " your server's IP address here>:40100/cloud_domains. Log in when "
 "prompted."
 msgstr ""
+"クラウドでホストされているドメインの場合：ブラウザを開き、URL http://<ここにサーバーのIPアドレスを挿入>:40100/"
+"cloud_domainsを入力します。プロンプトが表示されたらログインします。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:49
 msgid "Enter a name for your archive and click 'Generate Archive'."
@@ -2373,6 +2477,8 @@ msgid ""
 "with the restored content set. At this point, your domain server will "
 "restart and the new content will be deployed in your domain."
 msgstr ""
+"現在のコンテンツを復元されたコンテンツセットで置き換えてよいかを確認します。この時点で、ドメインサーバーが再起動し、新しいコンテンツがドメインに配備されま"
+"す。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:86
 msgid "To restore content from a downloaded content archive:"
@@ -2411,6 +2517,8 @@ msgid ""
 "being rude and uncooperative, you have the ability to silence or ban "
 "users from your domain."
 msgstr ""
+"時折、あなたのドメインに行儀が悪い訪問者が現れることがあります。正しいユーザー権限を設定し忘れていることに起因する場合や、その訪問者が無作法な場合、その訪"
+"問者をドメインから追放することができます。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:7
 msgid ""
@@ -2419,6 +2527,8 @@ msgid ""
 ":doc:`user permission enabled <../configure-settings/permission-"
 "settings>` before attempting to monitor the users in your domain."
 msgstr ""
+"ドメインからのユーザーのサイレンシングと禁止のこれらの管理機能には、「ユーザーのキック」権限が必要です。ドメイン内のユーザーを監視する前に、この:doc:"
+"`ユーザー権限が有効になっていることを確認してください<../configure-settings/permission-settings>`。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:14
 msgid "Silence a User in Your Domain"
@@ -2482,7 +2592,7 @@ msgstr ""
 msgid ""
 "The user will not be able to enter the domain using the same account; "
 "however, they will still have access to other Vircadia domains."
-msgstr ""
+msgstr "ユーザーは同じアカウントを使用してドメインに入ることができなくなります。ただし、他のVircadiaドメインには引き続きアクセスできます。"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:5
 msgid ""
@@ -2546,7 +2656,7 @@ msgstr ""
 msgid ""
 "Now, the script will be running persistently on your domain until you "
 "either remove it or shut down the domain entirely."
-msgstr ""
+msgstr "これで、スクリプトを削除するか、ドメインを完全にシャットダウンするまで、スクリプトはドメインで永続的に実行されます。"
 
 #: ../../source/host/maintain-domain/update-software.rst:5
 msgid ""
@@ -2555,6 +2665,8 @@ msgid ""
 "version has been released, all of our users will be prompted to update to"
 " the latest (and most stable) release."
 msgstr ""
+"Vircadiaは常に変化しています。パフォーマンスを改善し、メタバースでのエクスペリエンスを向上させる機能を追加するために取り組んでいます。新しいバージ"
+"ョンがリリースされた場合、すべてのユーザーは最新の（そして最も安定した）リリースに更新するように求められます。"
 
 #: ../../source/host/maintain-domain/update-software.rst:12
 msgid "Protocol Compatibility"
@@ -2567,6 +2679,8 @@ msgid ""
 "across versions. Some of our releases include protocol changes, and will "
 "affect the visitors who can visit your domain."
 msgstr ""
+"Vircadiaでは、クライアントとサーバー（訪問者がインストールしたソフトウェアとサーバーのソフトウェア）がバージョン間でプロトコルの互換性を維持する必"
+"要があります。一部のリリースにはプロトコルの変更が含まれており、ドメインにアクセスできる訪問者に影響します。"
 
 #: ../../source/host/maintain-domain/update-software.rst:16
 msgid ""
@@ -2622,6 +2736,8 @@ msgid ""
 "'Quit'. Alternatively, end the ‘server-console’ background process using "
 "the Task Manager."
 msgstr ""
+"Windowsの場合：システムトレイのVircadiaアイコンをクリックしてから、[終了]をクリックします。または、タスクマネージャを使用して"
+"[server-console]バックグラウンドプロセスを終了します。"
 
 #: ../../source/host/maintain-domain/update-software.rst:34
 msgid "Run the installer."
@@ -2657,6 +2773,8 @@ msgid ""
 "domain and understand how the different parts of your domain communicate "
 "with each other."
 msgstr ""
+"ドメインサーバーのログは、Vircadiaドメインに関連するさまざまなイベントをリストアップします。これらは、ドメインに関するあらゆる問題のトラブルシュー"
+"ティングに役立ち、ドメインのさまざまな部分がどのように互いに通信しているかを理解することができます。"
 
 #: ../../source/host/maintain-domain/view-logs.rst:7
 msgid ""
@@ -2677,6 +2795,9 @@ msgid ""
 "``journalctl -u vircadia-assignment-client@default.service`` for the "
 "assignment client."
 msgstr ""
+"** Linux **：ログにアクセスするには、ドメインサーバーに対してコマンド `` journalctl -u vircadia-domain-"
+"server@default.service``を実行するか、割り当てクライアントの場合`` journalctl -u vircadia-"
+"assignment-client@default.service ``を実行します。"
 
 #: ../../source/host/quick-start.rst:3
 msgid "Hosting Quick Start"
@@ -2696,6 +2817,8 @@ msgid ""
 "`Domain ID` in the domain's web panel found at http://localhost:40100/. "
 "(Experimental)"
 msgstr ""
+"http://localhost:40100/"
+"にあるドメインのWebパネルで`ドメインID`を作成することにより、ドメインをMetaverseサーバーに登録できます。（実験的）"
 
 #: ../../source/host/quick-start.rst:15
 msgid ""
@@ -2725,6 +2848,8 @@ msgid ""
 "Interface` and `Vircadia Server` options are checked. Vircadia Server is "
 "the Domain server."
 msgstr ""
+"`カスタム`インストールオプションを使用し、`Vircadia Interface`オプションと`Vircadia "
+"Server`オプションの両方がチェックされていることを確認します。Vircadiaサーバーはドメインサーバーです。"
 
 #: ../../source/host/quick-start.rst:29
 msgid "In your start menu, search for and run `Vircadia Server`."
@@ -2736,6 +2861,8 @@ msgid ""
 "wizard to set up your domain. If the server is on a different machine, "
 "then replace 'localhost' with its IP address."
 msgstr ""
+"Webブラウザで``http://localhost:40100/"
+"``に移動し、ウィザードを完了してドメインを設定します。サーバーが別のマシン上にある場合は、「localhost」をそのIPアドレスに置き換えます。"
 
 #: ../../source/host/quick-start.rst:31
 msgid ""
@@ -2799,6 +2926,8 @@ msgid ""
 "general, we recommend using local servers for private events and "
 "gatherings, and cloud services for larger public venues."
 msgstr ""
+"要件に応じて、ドメインを物理コンピューター（ローカルサーバーに変換することにより）またはクラウドサーバーでホストできます。一般的に、プライベートイベントや"
+"集会にはローカルサーバーを使用し、大規模な公共の場にはクラウドサービスを使用することをお勧めします。"
 
 #: ../../source/host/server-setup.rst:10
 msgid "Pros"
@@ -2831,6 +2960,8 @@ msgid ""
 "visitors you plan to have, you may need more than the minimum "
 "requirements"
 msgstr ""
+"ハードウェアとネットワークは、訪問者の負荷とコンテンツセットに対応できるものでなければなりません。ドメインセットの複雑さや訪問者の数によっては、最低要件以"
+"上のものが必要になる場合があります"
 
 #: ../../source/host/server-setup.rst:19
 msgid "Cloud Server"
@@ -2886,6 +3017,8 @@ msgid ""
 " it if the original domain was installed using the package. Packages are "
 "currently available for the following distributions:"
 msgstr ""
+"元のドメインがパッケージを使用してインストールされている場合は、既存のVircadiaドメインでこれらの同じコマンドを実行して、ドメインをアップグレードで"
+"きます。パッケージは現在、次のディストリビューションで利用できます。"
 
 #: ../../source/host/server-setup/linux-server.md:9
 msgid "Ubuntu Server 18.04 LTS (2022.1.1 Selene)"
@@ -2909,6 +3042,8 @@ msgid ""
 " server from source with the [Linux build "
 "guide](https://github.com/vircadia/vircadia/blob/master/BUILD_LINUX.md)."
 msgstr ""
+"ここにディストリビューションが表示されない場合は、[Linux build guide](https://github.com/vircadia/"
+"vircadia/blob/master/BUILD_LINUX.md)を使用してソースから独自のサーバーをコンパイルできます。"
 
 #: ../../source/host/server-setup/linux-server.md:33
 msgid "Configuration"
@@ -2918,7 +3053,7 @@ msgstr ""
 msgid ""
 "The installation packages will create a domain at the default port "
 "location and configure a service to keep it running on that machine."
-msgstr ""
+msgstr "インストールパッケージは、デフォルトのポートの場所にドメインを作成し、そのマシンで実行し続けるようにサービスを構成します。"
 
 #: ../../source/host/server-setup/linux-server.md:37
 msgid ""
@@ -2933,6 +3068,8 @@ msgid ""
 "http://localhost:40100) Complete the initial setup wizard and you should "
 "have a functioning domain."
 msgstr ""
+"Webブラウザをポート40100でサーバーに接続します（サーバーが実行されているマシンを使用している場合、これはhttp://localhost:4010"
+"0になります）初期設定ウィザードを完了すると、ドメインが機能していることでしょう。"
 
 #: ../../source/host/server-setup/linux-server.md:41
 msgid "Files and Server Configuration"
@@ -2978,6 +3115,8 @@ msgid ""
 "<code>vircadia</code>, which is also the user that runs all domain-"
 "related processes."
 msgstr ""
+"すべてのコンテンツは<code>/var/lib/vircadia/default</code>の下に保存されます。<code>/var/lib/"
+"vircadia</code>の下のすべてのファイルは<code>vircadiaドメイン関連のプロセスを実行するユーザー</code>に所有されます。"
 
 #: ../../source/host/server-setup/linux-server.md:55
 msgid "Services"
@@ -3011,6 +3150,8 @@ msgid ""
 "that is set to auto-start. Starting or stopping it will bring the other "
 "two services down."
 msgstr ""
+"<code>vircadia-server@default.target</code> "
+"サービスだけが自動起動に設定されています。このサービスを開始または停止すると、他の2つのサービスが停止します。"
 
 #: ../../source/host/server-setup/linux-server.md:64
 msgid ""
@@ -3018,6 +3159,8 @@ msgid ""
 "journal. Checking their logs (via <code>systemctl status</code>) is a "
 "good way to ensure they are operating properly."
 msgstr ""
+"最初の2つのサービスは、サービスジャーナルに大量のデータを記録します。これらのサービスを<code>systemctl "
+"status</code>により確認することにより、動作状況と直近で出力されたログメッセージをチェックすることができます。"
 
 #: ../../source/host/server-setup/linux-server.md:66
 msgid "Multiple Domains"
@@ -3029,6 +3172,8 @@ msgid ""
 "on a single server at different port numbers. New servers can be created "
 "using the following command:"
 msgstr ""
+"インストールパッケージは、複数のドメインを単一のサーバー上で異なるポート番号で実行できるように構成されています。次のコマンドを使用して、新しいサーバーを作"
+"成できます。"
 
 #: ../../source/host/server-setup/linux-server.md:74
 msgid ""
@@ -3036,6 +3181,8 @@ msgid ""
 "<code>base-port</code> must be the the first of a range of four "
 "contiguous port numbers not overlapping with any other use on the system."
 msgstr ""
+"ここで、<code>name</code>はドメインを命名し管理するための単語であり、<code>base-"
+"port</code>はシステム上の他の用途と重複しない連続した4つのポート番号の範囲の最初のものでなければなりません。"
 
 #: ../../source/host/server-setup/linux-server.md:76
 msgid ""
@@ -3157,6 +3304,7 @@ msgid ""
 "of computer and networking concepts. Specifically, familiarize yourself "
 "with:"
 msgstr ""
+"ローカルサーバーをセットアップする前に、コンピューターとネットワークの概念の基本を理解しておく必要があります。具体的には、次のことをよく理解してください。"
 
 #: ../../source/host/server-setup/windows-server.rst:18
 msgid "Your system and hardware configuration"
@@ -3223,6 +3371,8 @@ msgid ""
 "your domain in the metaverse. Alternatively, they can enter your domain's"
 " ID or IP address into the Explore app."
 msgstr ""
+"**ステップ2：プレイスネームの作成**。プレースネームは、ユーザーがメタバース内であなたのドメインにアクセスする方法です。または、Exploreアプリに"
+"ドメインのIDまたはIPアドレスを入力することもできます。"
 
 #: ../../source/host/server-setup/windows-server.rst:41
 msgid ""
@@ -3254,6 +3404,8 @@ msgid ""
 " to your server. However, it is not yet \"live\", meaning that it exists "
 "only as a temporary or \"draft\" domain in the metaverse."
 msgstr ""
+"この時点で、メタバースでドメインをステージングし、サーバーに接続しました。ただし、まだ「ライブ」ではありません。つまり、メタバースの一時的なドメインまたは"
+"「ドラフト」ドメインとしてのみ存在します。"
 
 #: ../../source/host/server-setup/windows-server.rst:50
 msgid "Activate Your Domain"
@@ -3269,6 +3421,8 @@ msgid ""
 "browser window and type http://localhost:40100/settings/ into the URL "
 "bar."
 msgstr ""
+"ドメインのドメイン設定に戻ります。開いていない場合は、ブラウザウィンドウを開き、URLバーにhttp://localhost:40100/"
+"settings/と入力します。"
 
 #: ../../source/host/server-setup/windows-server.rst:55
 msgid "Click 'Advanced Settings' under **Metaverse/Networking**."
@@ -3284,6 +3438,8 @@ msgid ""
 " that registers it in the metaverse. Your domain will now be accessible "
 "through the Place name or your server's IP address."
 msgstr ""
+"これにより、あなたのドメインに永久的でユニークな識別コードが割り当てられ、メタバースに登録されます。これで、あなたのドメインは、プレースネームまたはサーバ"
+"ーのIPアドレスからアクセスできるようになります。"
 
 #: ../../source/host/server-setup/windows-server.rst:60
 msgid ""
@@ -3409,12 +3565,14 @@ msgid ""
 " ID to identify it. You can connect your domain to the Vircadia Metaverse"
 " Server by logging into your account on the Vircadia website."
 msgstr ""
+"*ドメイン*はメタバースのサーバーです。各ドメインには、それを識別するための一意のIDが割り当てられます。Vircadia "
+"Webサイトでアカウントにログインすることにより、ドメインをVircadiaMetaverseServerに接続できます。"
 
 #: ../../source/host/start-hosting.rst:20
 msgid ""
 "A *place* is a registered location in the metaverse. A place is connected"
 " to a domain; you can create multiple places per domain."
-msgstr ""
+msgstr "*場所*は、メタバースに登録されているエリアです。このエリアはドメインに接続されています。ドメインごとに複数のエリアを作成できます。"
 
 #: ../../source/host/start-hosting.rst:21
 msgid ""
@@ -3423,6 +3581,8 @@ msgid ""
 " cloud-hosted server such as one provided by DigitalOcean, Linode, AWS, "
 "and so on."
 msgstr ""
+"*サーバー*は、ドメインをホストし、ドメインに対する要求を処理します。ドメインのサーバーは、物理的なコンピューターか、DigitalOcean、Linod"
+"e、AWSなどが提供するクラウドホスティングのサーバーのいずれかです。"
 
 #: ../../source/host/start-hosting.rst:22
 msgid "A *content set* is the content that you've added to your world."
@@ -3466,6 +3626,8 @@ msgid ""
 "domain settings <configure-settings>`, from the most basic to the more "
 "advanced, and how to :doc:`maintain your domain <maintain-domain>`."
 msgstr ""
+"ドメインを取得した後は、 :doc:`基本的な設定から高度な設定 <configure-settings>`まで、:doc:`ドメインの管理方法"
+"<maintain-domain>`について説明します。"
 
 #~ msgid ""
 #~ "While we do not publish an "
