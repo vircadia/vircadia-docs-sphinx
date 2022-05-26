@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-05-24 22:34+0000\n"
+"PO-Revision-Date: 2022-05-26 21:50+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/ja/>\n"
@@ -1211,6 +1211,10 @@ msgid ""
 "results. For a very thick reverb, you might try a value as high as 50% "
 "where the reverb is nearly as loud as the original signal."
 msgstr ""
+"*リバーブ*は、ドメイン内でエコーのような効果を有効にします。それはあなたが大きな空の部屋、大きな洞窟の奥深く、またはタイル張りのシャワーのような小さな部"
+"屋の中にいるように聞こえる効果を与えることができます。「Reverb Decay Time」は、最初のサウンドの後にエコーが聞こえる時間を定義します。「"
+"Wet/DryMix」は、元の「Dry」信号に対するリバーブテールのパーセンテージミックスを設定します。5〜25％のレベルでは、ほどよいエコーの効果を感じ"
+"られます。非常に高いリバーブの場合、リバーブが元の信号とほぼ同じ大きさである50％までの値を試すことができます。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:25
 msgid "Audio Zones"
@@ -1430,7 +1434,7 @@ msgstr ""
 msgid ""
 "Feel free to use these entity filters as-is or modify them to meet your "
 "own security needs for your domain."
-msgstr ""
+msgstr "これらのエンティティフィルターをそのまま使用するか、ドメインの独自のセキュリティニーズに合わせて変更してください。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:60
 msgid "Additional Script Examples"
@@ -1714,7 +1718,7 @@ msgstr ""
 msgid ""
 "First, set any permissions for the `standard user groups`_. Check the box"
 " of all permissions you'd like to grant."
-msgstr ""
+msgstr "まず、`標準ユーザーグループ`の権限を設定します。付与するすべての権限のチェックボックスをオンにします。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:28
 msgid ""
@@ -1957,7 +1961,7 @@ msgstr ""
 msgid ""
 "Sets whether a user can enter a domain even if it has reached or exceeded"
 " the specified capacity limit."
-msgstr ""
+msgstr "ドメインが指定された容量制限に達している、または超えている場合でも、ユーザーがドメインに入ることができるかどうかを設定します。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:108
 msgid "Kick Users"
@@ -2033,6 +2037,8 @@ msgid ""
 "Go to https://dashboard.vircadia.com/places to get a place name. If "
 "you're not logged in, you will be prompted to do so."
 msgstr ""
+"https://dashboard.vircadia.com/"
+"placesにアクセスして、地名を取得します。ログインしていない場合は、ログインするように求められます。"
 
 #: ../../source/host/configure-settings/place-setting.rst:19
 msgid "Click 'Create Place'."
@@ -2137,7 +2143,7 @@ msgstr ""
 msgid ""
 "(Optional) Upload a preview image of your domain. This shows up when your"
 " domain is displayed in the Explore app."
-msgstr ""
+msgstr "（オプション）ドメインのプレビュー画像をアップロードします。これは、ドメインがExploreアプリに表示されたときに表示されます。"
 
 #: ../../source/host/configure-settings/place-setting.rst:57
 msgid "Click 'Update Place'."
@@ -2692,7 +2698,7 @@ msgstr ""
 msgid ""
 "A client running an older version will be unable to connect to a domain "
 "that is running a new version."
-msgstr ""
+msgstr "古いバージョンを実行しているクライアントは、新しいバージョンを実行しているドメインに接続できなくなります。"
 
 #: ../../source/host/maintain-domain/update-software.rst:19
 msgid "Both of these will result in an error message \"Protocol Mismatch\"."
@@ -2898,7 +2904,7 @@ msgstr ""
 msgid ""
 "Go to ``http://[IP address of your server]:40100/`` in your web browser "
 "and complete the wizard to set up your domain."
-msgstr ""
+msgstr "Webブラウザで``http://[サーバのIPアドレス]:40100/``に移動し、ウィザードを完了してドメインを設定します。"
 
 #: ../../source/host/quick-start.rst:47
 msgid ""
@@ -3101,6 +3107,9 @@ msgid ""
 "server</code>) cannot be launched from the command prompt without first "
 "setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
 msgstr ""
+"このフォルダーにある実行ファイル（<code>new-server</code>を除く）は、LD_LIBRARY_PATHに/opt/vircadia/"
+"libを設定（<code>LD_LIBRARY_PATH=/opt/vircadia/"
+"lib</code>）することにより、コマンドプロンプトから起動することができます。"
 
 #: ../../source/host/server-setup/linux-server.md:51
 msgid ""
@@ -3352,7 +3361,7 @@ msgstr ""
 msgid ""
 "Follow the steps of the Wizard to create a domain on the metaverse and "
 "connect it to your local server."
-msgstr ""
+msgstr "ウィザードの手順に従って、メタバースにドメインを作成し、ローカルサーバーに接続します。"
 
 #: ../../source/host/server-setup/windows-server.rst:38
 msgid ""
@@ -3396,7 +3405,7 @@ msgstr ""
 msgid ""
 "Click **Finish** to close the Setup Wizard. You will automatically be "
 "redirected to the Domain Settings for your domain."
-msgstr ""
+msgstr "**Finish**をクリックしてセットアップウィザードを閉じます。ドメインのドメイン設定に自動的にリダイレクトされます。"
 
 #: ../../source/host/server-setup/windows-server.rst:46
 msgid ""
@@ -3552,6 +3561,7 @@ msgid ""
 "Vircadia's hosting interface consists of the following components that "
 "work together to create an immersive VR experience for your visitors:"
 msgstr ""
+"Vircadiaのホスティングインターフェースは、訪問者に没入感のあるVR体験を作成するために連携して機能する次のコンポーネントで構成されています。"
 
 #: ../../source/host/start-hosting.rst:18
 msgid ""
@@ -3596,7 +3606,7 @@ msgstr ""
 msgid ""
 "Here is an overview of the steps you'll need to take to host your domain "
 "up and running on the metaverse:"
-msgstr ""
+msgstr "ドメインをホストしてメタバースで実行するために必要な手順の概要は次のとおりです。"
 
 #: ../../source/host/start-hosting.rst:30
 msgid ""
