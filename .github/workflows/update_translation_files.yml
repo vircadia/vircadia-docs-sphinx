@@ -31,6 +31,7 @@ jobs:
         pip install 'myst-parser==0.16.0'
         pip install  attr
         pip install attrs
+        pip install sphinx-intl
     - name: Regenerate translation files
       shell: bash
       run: |
