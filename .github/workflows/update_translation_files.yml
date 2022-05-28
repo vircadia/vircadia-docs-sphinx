@@ -27,6 +27,10 @@ jobs:
         pip install -U Sphinx==3.5.4
         pip install --upgrade myst-parser
         pip install sphinx_rtd_theme
+        pip install 'jinja2<3.1'
+        pip install 'myst-parser==0.16.0'
+        pip install  attr
+        pip install attrs
     - name: Regenerate translation files
       shell: bash
       run: |
