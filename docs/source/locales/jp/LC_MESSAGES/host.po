@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-05-26 21:50+0000\n"
+"PO-Revision-Date: 2022-05-28 04:00+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/ja/>\n"
@@ -1287,7 +1287,7 @@ msgstr ""
 msgid ""
 "These are advanced domain server settings. Do not modify without prior "
 "technical knowledge of servers."
-msgstr ""
+msgstr "これらは、ドメインサーバーの高度な設定です。サーバーに関する専門的な知識がない場合は、変更しないでください。"
 
 #: ../../source/host/configure-settings/authentication-setting.rst:5
 msgid ""
@@ -1311,7 +1311,7 @@ msgstr ""
 msgid ""
 "For 'HTTP Username' and 'HTTP Password', enter a username and password "
 "for basic HTTP authentication."
-msgstr ""
+msgstr "「HTTP Username」と「HTTP Password'」には、Basic HTTP認証用のユーザー名とパスワードを入力します。"
 
 #: ../../source/host/configure-settings/authentication-setting.rst:18
 msgid ""
@@ -1358,7 +1358,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/entity-filters.rst:25
 msgid "Under 'Filter Entity Edits', enter the URL of your entity filter script."
-msgstr ""
+msgstr "[Filter Entity Edits]の下に、エンティティフィルタースクリプトのURLを入力します。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:30
 msgid "Add an Entity Filter to a Zone in Your Domain"
@@ -1372,11 +1372,11 @@ msgstr "ドメイン全体ではなく、ドメイン内の特定のゾーンに
 
 #: ../../source/host/configure-settings/entity-filters.rst:34
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
-msgstr ""
+msgstr "インターフェイスで、HUDまたはタブレットをプルアップして**Create**に移動します。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:35
 msgid "In the Entity List, locate and select the zone you want to protect."
-msgstr ""
+msgstr "エンティティリストで、保護するゾーンを見つけて選択します。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:36
 msgid "In the Create Tools, click on the 'Properties' tab."
@@ -1394,7 +1394,7 @@ msgstr ""
 msgid ""
 "Vircadia comes installed with a number of sample entity filter scripts. "
 "These are located in the following directories:"
-msgstr ""
+msgstr "Vircadiaには、多数のサンプルエンティティフィルタースクリプトがインストールされています。これらは次のディレクトリにあります。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:46
 msgid ""
@@ -1412,7 +1412,7 @@ msgstr ""
 msgid ""
 "These sample scripts show you how protect domain content by doing things "
 "like:"
-msgstr ""
+msgstr "これらのサンプルスクリプトは、次のようにしてドメインコンテンツを保護する方法を示しています。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:51
 msgid "Keep an entity inside a bounding box"
@@ -1444,13 +1444,13 @@ msgstr ""
 msgid ""
 "Here are a few more script examples to help you create your own entity "
 "filters::"
-msgstr ""
+msgstr "独自のエンティティフィルターを作成するのに役立つスクリプトの例をさらにいくつか示します。"
 
 #: ../../source/host/configure-settings/network-settings.rst:5
 msgid ""
 "The **Metaverse/Networking** section of the Domain Settings defines all "
 "of the network settings for your domain."
-msgstr ""
+msgstr "ドメイン設定の**Metaverse/Networking** セクションは、ドメインのすべてのネットワーク設定を定義します。"
 
 #: ../../source/host/configure-settings/network-settings.rst:7
 msgid ""
@@ -1542,7 +1542,7 @@ msgstr ""
 msgid ""
 "Depending on the automatic networking method you choose, define the "
 "network address and/or port in the fields provided."
-msgstr ""
+msgstr "選択した自動ネットワーク方法に応じて、表示されたフィールドにネットワークアドレスやポートを定義します。"
 
 #: ../../source/host/configure-settings/network-settings.rst:36
 msgid ""
@@ -1587,7 +1587,7 @@ msgstr ""
 msgid ""
 "Generally speaking, only port `40102` must be publicly exposed to permit "
 "others to connect to a domain."
-msgstr ""
+msgstr "一般的に、他のユーザーがドメインに接続できるようにするには、ポート`40102`のみを公開する必要があります。"
 
 #: ../../source/host/configure-settings/network-settings.rst:53
 msgid ""
@@ -1650,7 +1650,7 @@ msgstr ""
 msgid ""
 "If you don't want your domain to be registered in the metaverse, leave "
 "the Domain ID field blank."
-msgstr ""
+msgstr "ドメインをメタバースに登録したくない場合は、[ドメインID]フィールドを空白のままにします。"
 
 #: ../../source/host/configure-settings/network-settings.rst:76
 msgid "Enable Packet Verification"
@@ -1832,7 +1832,7 @@ msgstr ""
 msgid ""
 "The 'Connect' permission for these standard user groups determine the "
 "privacy level of your domain:"
-msgstr ""
+msgstr "これらの標準ユーザーグループの「Connect」権限によって、ドメインのプライバシーレベルが決まります。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:68
 msgid ""
@@ -1859,7 +1859,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:75
 msgid "The actions that you can secure for each type of user are as follows:"
-msgstr ""
+msgstr "ユーザーのタイプごとに保護できるアクションは次のとおりです。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:78
 msgid "Permissions"
@@ -1885,7 +1885,7 @@ msgstr ""
 msgid ""
 "Sets whether a user can change the \"locked\" property of an entity to "
 "prevent it from being modified."
-msgstr ""
+msgstr "ユーザがエンティティの 「locked」プロパティを変更できないようにするかどうかを設定します。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:85
 msgid "Rez"
@@ -1969,7 +1969,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:108
 msgid "Sets whether a user is allowed to ban other users from a domain."
-msgstr ""
+msgstr "ユーザーが他のユーザーをドメインから追放することを許可するかどうかを設定します。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:110
 msgid "Replace Content"
@@ -1979,7 +1979,7 @@ msgstr ""
 msgid ""
 "Sets whether a user can change the entire content set of a domain by "
 "wiping the existing content."
-msgstr ""
+msgstr "ユーザーが既存のコンテンツをワイプしてドメインのコンテンツセット全体を変更できるかどうかを設定します。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:113
 msgid "Can Get and Set Private User Data"
@@ -2030,7 +2030,7 @@ msgstr ""
 msgid ""
 "Once acquired, a place name can be transferred freely between any of your"
 " domains."
-msgstr ""
+msgstr "取得すると、地名を任意のドメイン間で自由に移管できます。"
 
 #: ../../source/host/configure-settings/place-setting.rst:18
 msgid ""
@@ -2087,7 +2087,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:40
 msgid "In the grid, click the ``+`` icon to add a place name to this domain."
-msgstr ""
+msgstr "グリッドで、``+``アイコンをクリックして、このドメインに場所の名前を追加します。"
 
 #: ../../source/host/configure-settings/place-setting.rst:41
 msgid "Choose the place name you want to use from the dropdown list."
@@ -2118,10 +2118,11 @@ msgid ""
 "Go to https://dashboard.vircadia.com/places. If you're not logged in, you"
 " will be prompted to do so."
 msgstr ""
+"https://dashboard.vircadia.com/placesにアクセスします。ログインしていない場合は、ログインするように求められます。"
 
 #: ../../source/host/configure-settings/place-setting.rst:52
 msgid "Click the 'Edit' icon next to the place name you want to configure."
-msgstr ""
+msgstr "設定する地名の横にある[Edit]アイコンをクリックします。"
 
 #: ../../source/host/configure-settings/place-setting.rst:53
 msgid "For 'Points to', enter the domain ID of your domain."
@@ -2292,7 +2293,7 @@ msgstr ""
 
 #: ../../source/host/invite-users.rst:58 ../../source/host/invite-users.rst:72
 msgid "In the Snapshot app, press the large red circle to capture a snapshot."
-msgstr ""
+msgstr "スナップショットアプリで、大きな赤い円を押してスナップショットをキャプチャします。"
 
 #: ../../source/host/invite-users.rst:59
 msgid "Choose to 'Share: Blast to Connections'."
@@ -2314,7 +2315,7 @@ msgstr ""
 
 #: ../../source/host/invite-users.rst:67
 msgid "You can also share your domain directly to Twitter or Facebook. To do so:"
-msgstr ""
+msgstr "ドメインをTwitterまたはFacebookに直接共有することもできます。以下を参照："
 
 #: ../../source/host/invite-users.rst:73
 msgid "Choose to 'Share to Facebook' or 'Share to Twitter'."
@@ -2429,7 +2430,7 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/backup-domain.rst:39
 msgid "In the case you need a backup on demand, you can create one:"
-msgstr ""
+msgstr "オンデマンドでバックアップが必要な場合は、次のバックアップを作成できます。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:43
 msgid ""
@@ -2502,7 +2503,7 @@ msgstr ""
 msgid ""
 "To backup your domain's so you can quickly configure another domain or "
 "restore them later:"
-msgstr ""
+msgstr "ドメインをバックアップして、別のドメインをすばやく構成したり、後で復元したりできるようにするには、次の手順に従います。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:107
 msgid "On the top menu bar, select **Settings > Setting Backup /Restore**."
@@ -2584,7 +2585,7 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:31
 msgid "In some cases, a user may cause themselves to be unwelcome in your domain."
-msgstr ""
+msgstr "場合によっては、ユーザーがあなたのドメインで歓迎されない存在になる可能性があります。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:33
 msgid "To permanently ban a visitor from your domain:"
@@ -2692,7 +2693,7 @@ msgstr ""
 msgid ""
 "An updated client version will be unable to connect to a domain that is "
 "not updated."
-msgstr ""
+msgstr "更新されたクライアントバージョンは、更新されていないドメインに接続できなくなります。"
 
 #: ../../source/host/maintain-domain/update-software.rst:17
 msgid ""
@@ -2731,6 +2732,8 @@ msgid ""
 "/download-vircadia/#server>`_ from Vircadia's website or download the "
 "upgrade when prompted to on your server."
 msgstr ""
+"最新の`Client + Sandbox installer <https://vircadia.com/download-vircadia/"
+"#server>`をVircadiaのWebサイトからダウンロードするか、サーバーでプロンプトが表示されたらアップグレードをダウンロードします。"
 
 #: ../../source/host/maintain-domain/update-software.rst:30
 msgid "On your local server, quit Sandbox:"
@@ -2753,7 +2756,7 @@ msgstr ""
 msgid ""
 "After installation, check your local server's domain settings to ensure "
 "that its running the most recent version."
-msgstr ""
+msgstr "インストール後、ローカルサーバーのドメイン設定をチェックして、最新バージョンが実行されていることを確認します。"
 
 #: ../../source/host/maintain-domain/update-software.rst:38
 msgid "To update a server on Linux:"
@@ -2765,12 +2768,14 @@ msgid ""
 " <https://docs.vircadia.com/host/server-setup/linux-"
 "server.html#installation>`_."
 msgstr ""
+"サーバーをインストールしたときとまったく同じコマンドを`ここ <https://docs.vircadia.com/host/server-setup/"
+"linux-server.html#installation>`で実行します。"
 
 #: ../../source/host/maintain-domain/update-software.rst:42
 msgid ""
 "After installation, check your server's domain settings to ensure that "
 "its running the most recent version."
-msgstr ""
+msgstr "インストール後、サーバーのドメイン設定をチェックして、サーバーが最新バージョンを実行していることを確認します。"
 
 #: ../../source/host/maintain-domain/view-logs.rst:5
 msgid ""
@@ -2786,7 +2791,7 @@ msgstr ""
 msgid ""
 "Server logs are stored directly on the server and can be accessed as "
 "follows:"
-msgstr ""
+msgstr "サーバーログはサーバーに直接保存され、次のようにアクセスできます。"
 
 #: ../../source/host/maintain-domain/view-logs.rst:9
 msgid ""
@@ -2815,7 +2820,7 @@ msgstr ""
 
 #: ../../source/host/quick-start.rst:12
 msgid "There are two ways to make a domain accessible from the outside Internet."
-msgstr ""
+msgstr "ドメインを外部インターネットからアクセス可能にする方法は2つあります。"
 
 #: ../../source/host/quick-start.rst:14
 msgid ""
@@ -2830,7 +2835,7 @@ msgstr ""
 msgid ""
 "Alternatively, you can manually open the following ports on your router "
 "and firewall:"
-msgstr ""
+msgstr "または、ルーターとファイアウォールで次のポートを手動で開くこともできます。"
 
 #: ../../source/host/quick-start.rst:17
 msgid "40100 : (tcp) administration web portal"
@@ -2875,6 +2880,8 @@ msgid ""
 "In your Vircadia Interface, open the `Explore` app and enter `localhost` "
 "(or the server's IP address) to get there."
 msgstr ""
+"Vircadia "
+"Interfaceで、`Explore`アプリを開き、`localhost`(またはサーバのIPアドレス)を入力すると、目的の場所に行くことができます。"
 
 #: ../../source/host/quick-start.rst:35
 msgid "Ubuntu 18.04 Linux (.deb)"
@@ -2894,7 +2901,7 @@ msgstr ""
 
 #: ../../source/host/quick-start.rst:42
 msgid "Then run this command to update the package index and install the server:"
-msgstr ""
+msgstr "次に、次のコマンドを実行してパッケージインデックスを更新し、サーバーをインストールします。"
 
 #: ../../source/host/quick-start.rst:44
 msgid "sudo apt-get update && sudo apt-get install ./|serverdebfile|"
@@ -2910,7 +2917,7 @@ msgstr "Webブラウザで``http://[サーバのIPアドレス]:40100/``に移�
 msgid ""
 "In your Vircadia Interface, open the `Explore` app and enter your "
 "server's IP address to get there."
-msgstr ""
+msgstr "Vircadia Interfaceで、`Explore`アプリを開き、サーバーのIPアドレスを入力すると、そこに行くことができます。"
 
 #: ../../source/host/server-setup.rst:34
 msgid "Host a Domain from a Local Windows Server"
@@ -2981,13 +2988,13 @@ msgstr ""
 msgid ""
 "Ability to easily re-scale servers, adjusting memory or transfer to "
 "support more or less visitors"
-msgstr ""
+msgstr "サーバーを簡単にリスケールでき、メモリや転送量を調整することで、訪問者の増減に対応することができます"
 
 #: ../../source/host/server-setup.rst:24
 msgid ""
 "A secure environment separate from your personal computer, protecting "
 "yourself from hacking attempts or griefers"
-msgstr ""
+msgstr "個人のコンピューターとは別の安全な環境で、ハッキングの試みやグリーフィングから身を守ります"
 
 #: ../../source/host/server-setup.rst:28
 msgid "Ideal for large, public domains for hosting events or open gathering areas"
@@ -3005,13 +3012,13 @@ msgstr ""
 msgid ""
 "Once you've decided what hosting platform to use, you're ready to set it "
 "up:"
-msgstr ""
+msgstr "使用するホスティングプラットフォームを決定したら、次に設定する準備が整います。"
 
 #: ../../source/host/server-setup/linux-server.md:3
 msgid ""
 "The Vircadia packages can help you get your own domain up and running "
 "quickly."
-msgstr ""
+msgstr "Vircadiaパッケージは、独自のドメインをすばやく立ち上げて実行するのに役立ちます。"
 
 #: ../../source/host/server-setup/linux-server.md:5
 msgid "Installation"
@@ -3066,6 +3073,8 @@ msgid ""
 "For the list of network ports that you will need to open and manage, see "
 "[here](../configure-settings/network-settings)."
 msgstr ""
+"開いて管理する必要のあるネットワークポートのリストについては、[こちら](../configure-settings/network-"
+"settings)を参照してください。"
 
 #: ../../source/host/server-setup/linux-server.md:39
 msgid ""
@@ -3135,7 +3144,7 @@ msgstr ""
 msgid ""
 "The installation packages setup the following systemd services to manage "
 "the Vircadia domain:"
-msgstr ""
+msgstr "インストールパッケージは、Vircadiaドメインを管理するために次のsystemdサービスをセットアップします。"
 
 #: ../../source/host/server-setup/linux-server.md:58
 msgid "**vircadia-domain-server@default.service**: Manages the core domain server"
@@ -3197,7 +3206,7 @@ msgstr ""
 msgid ""
 "Assuming you created a new server with the name **my-server-two**, this "
 "would setup the following:"
-msgstr ""
+msgstr "**my-server-two **という名前の新しいサーバーを作成したとすると、次のように設定されます。"
 
 #: ../../source/host/server-setup/linux-server.md:77
 msgid ""
@@ -3237,7 +3246,7 @@ msgstr ""
 msgid ""
 "Pick the name of the domain that you want to remove from the list and "
 "then stop it."
-msgstr ""
+msgstr "リストから削除するドメインの名前を選択して、停止します。"
 
 #: ../../source/host/server-setup/linux-server.md:107
 msgid "Disable the service for the domain."
@@ -3272,6 +3281,9 @@ msgid ""
 ">vircadia-assignment-client.service</code>, and <code>vircadia-"
 "server.target</code> *(without the @name)* have simplified configuration"
 msgstr ""
+"<code>vircadia-domain-server.service</code>, <code>vircadia-assignment-client"
+".service</code>, <code>vircadia-server.target</code> *(@name なし)* という名前の "
+"Systemd サービスは設定が簡素化されています"
 
 #: ../../source/host/server-setup/linux-server.md:130
 msgid "No file is provided to specify environment variables for the server"
@@ -3289,7 +3301,7 @@ msgstr ""
 msgid ""
 "A local server lets you use your own computer to host your virtual domain"
 " on the metaverse."
-msgstr ""
+msgstr "ローカルサーバーを使用すると、独自のコンピューターを使用して、メタバースで仮想ドメインをホストできます。"
 
 #: ../../source/host/server-setup/windows-server.rst:7
 msgid ""
@@ -3344,6 +3356,8 @@ msgid ""
 "`Client + Server <https://vircadia.com/download-vircadia/#windows>`_ "
 "software."
 msgstr ""
+"Windowsでドメインをホストするには、Vircadiaのオープンソースの `Client + Server <https://vircadia."
+"com/download-vircadia/#windows>`_ソフトウェアを実行している必要があります。"
 
 #: ../../source/host/server-setup/windows-server.rst:27
 msgid "Create a Domain"
@@ -3550,7 +3564,7 @@ msgstr ""
 msgid ""
 "You can also follow the :doc:`quick start guide <quick-start>` to boot up"
 " a Domain right away."
-msgstr ""
+msgstr ":doc:`クイックスタートガイド <quick-start>`に従って、ドメインをすぐに起動することもできます。"
 
 #: ../../source/host/start-hosting.rst:14
 msgid "Overview of Hosting"
@@ -3567,7 +3581,7 @@ msgstr ""
 msgid ""
 "The *Domain server* is a virtual world that gives you a space to build "
 "content in."
-msgstr ""
+msgstr "*Domain server*は、コンテンツを構築するためのスペースを提供する仮想世界です。"
 
 #: ../../source/host/start-hosting.rst:19
 msgid ""
