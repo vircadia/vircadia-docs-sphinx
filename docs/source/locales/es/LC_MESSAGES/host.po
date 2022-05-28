@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-05-21 18:31+0000\n"
+"PO-Revision-Date: 2022-05-28 04:00+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/host/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/host/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/host.rst:11
@@ -2123,7 +2124,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:57
 msgid "localhost"
-msgstr ""
+msgstr "localhost"
 
 #: ../../source/host/configure-settings/permission-settings.rst:57
 msgid ""
@@ -2131,10 +2132,13 @@ msgid ""
 "hosted. Localhost users do not need to be logged in and have permissions "
 "that override non-user-specific permissions."
 msgstr ""
+"Un usuario que está ejecutando la Interface en la misma máquina donde está "
+"alojado el servidor. Los usuarios de localhost no necesitan iniciar sesión y "
+"tener permisos que anulen los permisos no específicos del usuario."
 
 #: ../../source/host/configure-settings/permission-settings.rst:61
 msgid "logged-in"
-msgstr ""
+msgstr "logged-in"
 
 #: ../../source/host/configure-settings/permission-settings.rst:61
 msgid ""
@@ -2143,12 +2147,18 @@ msgid ""
 "Permissions that are granted to a specific user override all other "
 "permissions."
 msgstr ""
+"Un usuario que ha iniciado sesión en su cuenta de Vircadia mientras usa la "
+"Interface. No necesitan ser un Amigo (Friend) o una Conexión (Connection) "
+"para tener derechos de servidor. Los permisos que se otorgan a un usuario "
+"específico anulan todos los demás permisos."
 
 #: ../../source/host/configure-settings/permission-settings.rst:66
 msgid ""
 "The 'Connect' permission for these standard user groups determine the "
 "privacy level of your domain:"
 msgstr ""
+"El permiso \"Connect\" para esos grupos de usuarios estándar determina el "
+"nivel de privacidad de tu dominio:"
 
 #: ../../source/host/configure-settings/permission-settings.rst:68
 msgid ""
@@ -2156,6 +2166,9 @@ msgid ""
 "to connect to it. These domains may be shown in the Explore app and in "
 "other places around the metaverse."
 msgstr ""
+"**Public**: Un dominio público permite que los usuarios \"anónimos\" y/o "
+"\"registrados\" se conecten a él. Estos dominios pueden mostrarse en la "
+"aplicación Explorar (Explore App) y en otros lugares del metaverso."
 
 #: ../../source/host/configure-settings/permission-settings.rst:69
 msgid ""
@@ -2164,54 +2177,64 @@ msgid ""
 "their domains to other users and maintaining connect permissions for "
 "users to enter their domain."
 msgstr ""
+"**Private**: Un dominio privado no permite que los usuarios \"anónimos\" y/o "
+"\"registrados\" se conecten a él. Los propietarios de dominios son "
+"responsables de promocionar sus dominios a otros usuarios y mantener los "
+"permisos de conexión para que los usuarios ingresen a su dominio."
 
 #: ../../source/host/configure-settings/permission-settings.rst:73
 msgid "User Permissions"
-msgstr ""
+msgstr "Permisos de Usuario"
 
 #: ../../source/host/configure-settings/permission-settings.rst:75
 msgid "The actions that you can secure for each type of user are as follows:"
 msgstr ""
+"Las acciones que puedes otorgar para cada tipo de usuario son las siguientes:"
 
 #: ../../source/host/configure-settings/permission-settings.rst:78
 msgid "Permissions"
-msgstr ""
+msgstr "Permisos"
 
 #: ../../source/host/configure-settings/permission-settings.rst:78
 msgid "Definition"
-msgstr ""
+msgstr "Definición"
 
 #: ../../source/host/configure-settings/permission-settings.rst:80
 msgid "Connect"
-msgstr ""
+msgstr "Connect"
 
 #: ../../source/host/configure-settings/permission-settings.rst:80
 msgid "Sets whether a user can enter the domain."
-msgstr ""
+msgstr "Establece si un usuario puede ingresar al dominio."
 
 #: ../../source/host/configure-settings/permission-settings.rst:82
 msgid "Lock/Unlock"
-msgstr ""
+msgstr "Lock/Unlock"
 
 #: ../../source/host/configure-settings/permission-settings.rst:82
 msgid ""
 "Sets whether a user can change the \"locked\" property of an entity to "
 "prevent it from being modified."
 msgstr ""
+"Establece si un usuario puede cambiar la propiedad \"locked\" (bloqueado) de "
+"una entidad para evitar que se modifique."
 
 #: ../../source/host/configure-settings/permission-settings.rst:85
 msgid "Rez"
-msgstr ""
+msgstr "Rez"
 
 #: ../../source/host/configure-settings/permission-settings.rst:85
 msgid ""
 "Sets whether a user can permanently create (or rez) new entities in the "
 "domain. These users will also have full access to the **Create** app."
 msgstr ""
+"Establece si un usuario puede crear (o invocar) permanentemente nuevas "
+"entidades en el dominio. Estos usuarios también tendrán acceso completo a la "
+"aplicación **Crear**."
 
 #: ../../source/host/configure-settings/permission-settings.rst:88
 msgid "Rez Temporary"
-msgstr ""
+msgstr "Rez Temporary"
 
 #: ../../source/host/configure-settings/permission-settings.rst:88
 msgid ""
@@ -2220,10 +2243,14 @@ msgid ""
 "Settings > Maximum Lifetime of Temporary Entities**). These users will "
 "also have full access to the **Create** app."
 msgstr ""
+"Establece si un usuario puede crear (o invocar) nuevas entidades con un "
+"tiempo de vida finito (el tiempo de vida se establece en **Domain Settings > "
+"Entities > Advanced Settings > Maximum Lifetime of Temporary Entities**). "
+"Estos usuarios también tendrán acceso completo a la aplicación **Crear**."
 
 #: ../../source/host/configure-settings/permission-settings.rst:93
 msgid "Rez Certified"
-msgstr ""
+msgstr "Rez Certified"
 
 #: ../../source/host/configure-settings/permission-settings.rst:93
 msgid ""
@@ -2231,10 +2258,13 @@ msgid ""
 "entities that were purchased from the Marketplace. Right now it does "
 "nothing."
 msgstr ""
+"Esto se usó para establecer si un usuario puede crear (o invocar) "
+"permanentemente nuevas entidades que se compraron en Marketplace. Ahora "
+"mismo no hace nada."
 
 #: ../../source/host/configure-settings/permission-settings.rst:97
 msgid "Rez Temporary Certified"
-msgstr ""
+msgstr "Rez Temporary Certified"
 
 #: ../../source/host/configure-settings/permission-settings.rst:97
 msgid ""
@@ -2243,10 +2273,14 @@ msgid ""
 "Settings > Entities > Advanced Settings > Maximum Lifetime of Temporary "
 "Entities**). Right now it does nothing."
 msgstr ""
+"Esto se usó para establecer si un usuario puede crear (o invocar) nuevas "
+"entidades desde Marketplace por un tiempo de vida finito (el tiempo de vida "
+"se establece en **Domain Settings > Entities > Advanced Settings > Maximum "
+"Lifetime of Temporary Entities**). Ahora mismo no hace nada."
 
 #: ../../source/host/configure-settings/permission-settings.rst:102
 msgid "Write Assets"
-msgstr ""
+msgstr "Write Assets"
 
 #: ../../source/host/configure-settings/permission-settings.rst:102
 msgid ""
@@ -2254,38 +2288,45 @@ msgid ""
 "make changes to the domain's asset server (your domain's file storage "
 "space)."
 msgstr ""
+"Establece si un usuario puede agregar activos (modelos, audio u otros "
+"archivos) o realizar cambios en el servidor de activos del dominio (el "
+"espacio de almacenamiento de archivos de tu dominio)."
 
 #: ../../source/host/configure-settings/permission-settings.rst:105
 msgid "Ignore Max Capacity"
-msgstr ""
+msgstr "Ignore Max Capacity"
 
 #: ../../source/host/configure-settings/permission-settings.rst:105
 msgid ""
 "Sets whether a user can enter a domain even if it has reached or exceeded"
 " the specified capacity limit."
 msgstr ""
+"Establece si un usuario puede ingresar a un dominio incluso si ha alcanzado "
+"o excedido el límite de capacidad especificado."
 
 #: ../../source/host/configure-settings/permission-settings.rst:108
 msgid "Kick Users"
-msgstr ""
+msgstr "Kick Users"
 
 #: ../../source/host/configure-settings/permission-settings.rst:108
 msgid "Sets whether a user is allowed to ban other users from a domain."
-msgstr ""
+msgstr "Establece si un usuario puede banear a otros usuarios de un dominio."
 
 #: ../../source/host/configure-settings/permission-settings.rst:110
 msgid "Replace Content"
-msgstr ""
+msgstr "Replace Content"
 
 #: ../../source/host/configure-settings/permission-settings.rst:110
 msgid ""
 "Sets whether a user can change the entire content set of a domain by "
 "wiping the existing content."
 msgstr ""
+"Establece si un usuario puede cambiar todo el conjunto de contenido de un "
+"dominio borrando el contenido existente."
 
 #: ../../source/host/configure-settings/permission-settings.rst:113
 msgid "Can Get and Set Private User Data"
-msgstr ""
+msgstr "Can Get and Set Private User Data"
 
 #: ../../source/host/configure-settings/permission-settings.rst:113
 msgid ""
@@ -2296,6 +2337,12 @@ msgid ""
 "<https://apidocs.vircadia.dev/Entities.html#.EntityProperties>`_ type "
 "definition."
 msgstr ""
+"Establece si un usuario puede acceder y escribir en la propiedad \"Private "
+"User Data\" de las entidades en el dominio. Los datos de usuario privados ("
+"Private User Data) son una propiedad de las entidades que solo se pueden "
+"establecer y recuperar a través de scripts por medio de la propiedad "
+"``privateUserData`` de la definición de tipo `EntityProperties "
+"<https://apidocs.vircadia.dev/Entities.html#.EntityProperties>`_."
 
 #: ../../source/host/configure-settings/place-setting.rst:5
 msgid ""
@@ -2305,6 +2352,11 @@ msgid ""
 "minutes at IP address ...\" just doesn't cut it in a fun, virtual "
 "environment."
 msgstr ""
+"Si bien puedes viajar a un dominio usando su dirección IP, las direcciones "
+"IP son difíciles de recordar, a menudo cambian según la configuración de tu "
+"red y no suenan muy atractivas. Decirle a un amigo \"Nos vemos en 20 minutos "
+"en la dirección IP...\" simplemente no funciona en un entorno virtual "
+"divertido."
 
 #: ../../source/host/configure-settings/place-setting.rst:7
 msgid ""
@@ -2314,26 +2366,35 @@ msgid ""
 " night!\" and you can smile knowing that they're talking about your "
 "domain, Deerhaven."
 msgstr ""
+"Los Place names (Nombres de lugares), por otro lado, facilitan viajar a tu "
+"dominio. Son memorables y brindan contexto a los visitantes para que "
+"recuerden tu mundo virtual. Imagina a alguien diciendo \"¡Guau, la pasé muy "
+"bien en Deerhaven anoche!\" y puedes sonreír sabiendo que están hablando de "
+"tu dominio, Deerhaven."
 
 #: ../../source/host/configure-settings/place-setting.rst:14
 msgid "Get a Place Name"
-msgstr ""
+msgstr "Conseguir un Place Name"
 
 #: ../../source/host/configure-settings/place-setting.rst:16
 msgid ""
 "Once acquired, a place name can be transferred freely between any of your"
 " domains."
 msgstr ""
+"Una vez adquirido, un place name puede transferirse libremente entre "
+"cualquiera de tus dominios."
 
 #: ../../source/host/configure-settings/place-setting.rst:18
 msgid ""
 "Go to https://dashboard.vircadia.com/places to get a place name. If "
 "you're not logged in, you will be prompted to do so."
 msgstr ""
+"Ve a https://dashboard.vircadia.com/places para conseguir un place name. Si "
+"no has iniciado sesión, se te pedirá que lo hagas."
 
 #: ../../source/host/configure-settings/place-setting.rst:19
 msgid "Click 'Create Place'."
-msgstr ""
+msgstr "Haz click en \"Create Place\"."
 
 #: ../../source/host/configure-settings/place-setting.rst:20
 msgid ""
@@ -2342,6 +2403,10 @@ msgid ""
 " to reject any registration we deem obscene, offensive, or a copyright "
 "violation."
 msgstr ""
+"Escribe tu nuevo Place Name. Puedes usar cualquier Place Name que aún no se "
+"haya tomado; sin embargo, ten en cuenta que Vircadia se reserva el derecho "
+"de rechazar cualquier registro que consideremos obsceno, ofensivo o una "
+"violación de los derechos de autor."
 
 #: ../../source/host/configure-settings/place-setting.rst:21
 msgid "Click 'Create'."
@@ -2349,7 +2414,7 @@ msgstr "Haz click en \"Create\"."
 
 #: ../../source/host/configure-settings/place-setting.rst:25
 msgid "Configure Your Place Name"
-msgstr ""
+msgstr "Configura Tu Place Name"
 
 #: ../../source/host/configure-settings/place-setting.rst:27
 msgid ""
@@ -2359,36 +2424,46 @@ msgid ""
 "ways to configure your place name settings, and they achieve the same "
 "thing."
 msgstr ""
+"Un place name apunta a una coordenada específica en el metaverso. No solo "
+"apunta a un dominio, sino que también define la posición exacta en tu "
+"dominio donde se generarán tus visitantes. Hay dos formas diferentes de "
+"configurar los ajustes del place name, y logran lo mismo."
 
 #: ../../source/host/configure-settings/place-setting.rst:29
 msgid "**Method 1 - Use the Domain Settings**"
-msgstr ""
+msgstr "**Método 1 - Usando la Configuración del Dominio**"
 
 #: ../../source/host/configure-settings/place-setting.rst:31
 msgid "This sets up your place name directly from your domain settings."
 msgstr ""
+"Esto configura tu place name directamente desde la configuración de tu "
+"dominio."
 
 #: ../../source/host/configure-settings/place-setting.rst:39
 msgid "Scroll to 'Places'."
-msgstr ""
+msgstr "Desplázate hasta \"Places\"."
 
 #: ../../source/host/configure-settings/place-setting.rst:40
 msgid "In the grid, click the ``+`` icon to add a place name to this domain."
 msgstr ""
+"En la cuadrícula, haz clic en el icono ``+`` para agregar un place name a "
+"este dominio."
 
 #: ../../source/host/configure-settings/place-setting.rst:41
 msgid "Choose the place name you want to use from the dropdown list."
-msgstr ""
+msgstr "Elije el place name que quieras usar de la lista desplegable."
 
 #: ../../source/host/configure-settings/place-setting.rst:42
 msgid ""
 "For 'Path or Viewpoint', enter the coordinates where your visitors will "
 "spawn."
 msgstr ""
+"Para \"Path o Viewpoint\", ingresa las coordenadas donde aparecerán tus "
+"visitantes."
 
 #: ../../source/host/configure-settings/place-setting.rst:47
 msgid "**Method 2 - Use 'My Places'**"
-msgstr ""
+msgstr "**Método 2 - Usando \"My Places\"**"
 
 #: ../../source/host/configure-settings/place-setting.rst:49
 msgid ""
@@ -2397,40 +2472,52 @@ msgid ""
 "id>`_ of your domain. You will need this to point your place name to your"
 " domain."
 msgstr ""
+"Esto configura el place name desde tu cuenta de Vircadia. Antes de "
+"continuar, asegúrate de tener el `domain ID <network-settings.html#domain-"
+"id>`_ de tu dominio. Necesitarás esto para apuntar tu place name a tu "
+"dominio."
 
 #: ../../source/host/configure-settings/place-setting.rst:51
 msgid ""
 "Go to https://dashboard.vircadia.com/places. If you're not logged in, you"
 " will be prompted to do so."
 msgstr ""
+"Ve a https://dashboard.vircadia.com/places. Si no has iniciado sesión, se te "
+"pedirá que lo hagas."
 
 #: ../../source/host/configure-settings/place-setting.rst:52
 msgid "Click the 'Edit' icon next to the place name you want to configure."
 msgstr ""
+"Haz click en el ícono \"Edit\" junto al place name que quieres configurar."
 
 #: ../../source/host/configure-settings/place-setting.rst:53
 msgid "For 'Points to', enter the domain ID of your domain."
-msgstr ""
+msgstr "Para \"Points to\", ingresa el ID de dominio de tu dominio."
 
 #: ../../source/host/configure-settings/place-setting.rst:54
 msgid "For 'Path', enter the coordinates where your visitors will spawn."
-msgstr ""
+msgstr "Para \"Path\", ingresa las coordenadas donde aparecerán tus visitantes."
 
 #: ../../source/host/configure-settings/place-setting.rst:55
 msgid ""
 "(Optional) Enter a description for your domain. This shows up when a user"
 " clicks the info icon if your domain is displayed in the Explore app."
 msgstr ""
+"(Opcional) Introduce una descripción para tu dominio. Esto aparece cuando un "
+"usuario hace click en el ícono de información si tu dominio se muestra en la "
+"aplicación Explorar (Explore App)."
 
 #: ../../source/host/configure-settings/place-setting.rst:56
 msgid ""
 "(Optional) Upload a preview image of your domain. This shows up when your"
 " domain is displayed in the Explore app."
 msgstr ""
+"(Opcional) Carga una imagen de vista previa de tu dominio. Esto aparece "
+"cuando tu dominio se muestra en la aplicación Explorar."
 
 #: ../../source/host/configure-settings/place-setting.rst:57
 msgid "Click 'Update Place'."
-msgstr ""
+msgstr "Haz click en \"Update Place\"."
 
 #: ../../source/host/invite-users.rst:2
 msgid ""
@@ -4555,4 +4642,3 @@ msgstr ""
 
 #~ msgid "Ubuntu Server 20.04 LTS (2022.1.1 Selene) (Preview)"
 #~ msgstr ""
-
