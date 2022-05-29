@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-05-28 04:00+0000\n"
+"PO-Revision-Date: 2022-05-29 20:58+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/ja/>\n"
@@ -74,9 +74,8 @@ msgid ""
 "guide <host/quick-start>`. Otherwise, let's :doc:`get started <host"
 "/start-hosting>`."
 msgstr ""
-"すぐに参加したい場合は、 :doc:`クイックスタートガイド <host/quick-"
-"start>`を読むことを検討してください。それ以外の場合は、:doc:`ホスティングを始めましょう <host/start-"
-"hosting>`を参照してください。"
+"すぐに参加したい場合は、 :doc:`クイックスタートガイド <host/quick-start>` を読むことを検討してください。それ以外の場合は、 "
+":doc:`ホスティングを始めましょう <host/start-hosting>` を参照してください。"
 
 #: ../../source/host/add-content.rst:9
 #: ../../source/host/add-content/create-content.rst:7
@@ -2091,13 +2090,13 @@ msgstr "グリッドで、``+``アイコンをクリックして、このドメ�
 
 #: ../../source/host/configure-settings/place-setting.rst:41
 msgid "Choose the place name you want to use from the dropdown list."
-msgstr ""
+msgstr "ドロップダウンリストから、使用する地名を選択します。"
 
 #: ../../source/host/configure-settings/place-setting.rst:42
 msgid ""
 "For 'Path or Viewpoint', enter the coordinates where your visitors will "
 "spawn."
-msgstr ""
+msgstr "[Path or Viewpoint]に、訪問者がスポーンする座標を入力します。"
 
 #: ../../source/host/configure-settings/place-setting.rst:47
 msgid "**Method 2 - Use 'My Places'**"
@@ -2210,7 +2209,7 @@ msgstr ""
 msgid ""
 "The Explore app is designed to advertise public domains across the "
 "metaverse."
-msgstr ""
+msgstr "Exploreアプリは、メタバース全体でパブリックドメインをアドバタイズするように設計されています。"
 
 #: ../../source/host/invite-users.rst:32
 msgid ""
