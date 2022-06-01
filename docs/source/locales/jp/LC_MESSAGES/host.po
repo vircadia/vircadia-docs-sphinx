@@ -74,9 +74,8 @@ msgid ""
 "guide <host/quick-start>`. Otherwise, let's :doc:`get started <host"
 "/start-hosting>`."
 msgstr ""
-"すぐに参加したい場合は、 :doc:`クイックスタートガイド <host/quick-"
-"start>` を読むことを検討してください。それ以外の場合は、 :doc:`ホスティングを始めましょう <host/start-"
-"hosting>` を参照してください。"
+"すぐに参加したい場合は、 :doc:`クイックスタートガイド <host/quick-start>` を読むことを検討してください。それ以外の場合は、 "
+":doc:`ホスティングを始めましょう <host/start-hosting>` を参照してください。"
 
 #: ../../source/host/add-content.rst:9
 #: ../../source/host/add-content/create-content.rst:7
@@ -127,7 +126,7 @@ msgid ""
 "while to download. *Baking* is the process of optimizing these resources "
 "to make them easier to transmit, store, and render, reducing load time "
 "significantly."
-msgstr "Vircadiaのほとんどのコンテンツ（アバター、エンティティなど）は、テクスチャ、モデル、スクリプト、マテリアルなどの外部リソースを参照しています。ユーザーがドメイン内のコンテンツに遭遇した場合、コンテンツのリソースをダウンロードする必要があります。これらのリソースの多くは最適化されておらず、ダウンロードに時間がかかる場合があります。 *ベイク処理* は、これらのリソースを最適化して、送信、保存、レンダリングを容易にし、ロード時間を大幅に短縮するプロセスです。"
+msgstr "Vircadiaのほとんどのコンテンツ（アバター、エンティティなど）は、テクスチャ、モデル、スクリプト、マテリアルなどの外部リソースを参照しています。ユーザーがドメイン内のコンテンツに遭遇した場合、コンテンツのリソースをダウンロードする必要があります。これらのリソースの多くは最適化されておらず、ダウンロードに時間がかかる場合があります。*ベイク処理*は、これらのリソースを最適化して、送信、保存、レンダリングを容易にし、ロード時間を大幅に短縮するプロセスです。"
 
 #: ../../source/host/add-content/bake-content.rst:12
 #: ../../source/host/add-content/create-content.rst:12
@@ -209,8 +208,8 @@ msgid ""
 "`material entity JSON file <../../create/entities/mate rial-"
 "entity.html#generate-a-material-entity>`_."
 msgstr ""
-"マテリアルをベイク処理すると、.baked.jsonファイルが生成され、マテリアル内のすべてのテクスチャもベイク処理されます。現在、 `マテリアルエンティティJSONファイル<../../create/entities"
-"/material-entity.html#generate-a-material-entity>` のベイク処理のみがサポートされています。"
+"マテリアルをベイク処理すると、.baked.jsonファイルが生成され、マテリアル内のすべてのテクスチャもベイク処理されます。現在、`マテリアルエンティティJSONファイル<../../create/entities"
+"/material-entity.html#generate-a-material-entity>`_のベイク処理のみがサポートされています。"
 
 #: ../../source/host/add-content/bake-content.rst:37
 msgid "3D Models"
@@ -229,7 +228,7 @@ msgid ""
 "JSON file is referenced in the `materialMap` field in the .baked.fst "
 "file. We support the following formats: FBX, OBJ, and FST (that points to"
 " a supported type)."
-msgstr "モデルをベイク処理すると、 `Draco圧縮<https://github.com/google/draco>` ジオメトリックメッシュが生成され、モデル内のすべてのマテリアルもベイク処理されます。メッシュ圧縮により、元のモデルのジオメトリがわずかに変更される可能性がありますが、通常は軽微です。出力フォルダーには、.baked.fstファイル、.baked.fbxファイル（モデルの元の形式は異なる場合があります）、および.baked.jsonファイル（マテリアル）が含まれます。ベイクされたマテリアルのJSONファイルはベイクされたテクスチャファイルを参照するため、すべてのテクスチャが.baked.fbxファイルから削除されます。このJSONファイルは、.baked.fstファイルの `materialMap` フィールドで参照されます。次の形式をサポートしています：FBX、OBJ、およびFST（サポートされているタイプを指します）。"
+msgstr "モデルをベイク処理すると、`Draco圧縮<https://github.com/google/draco>`_ジオメトリックメッシュが生成され、モデル内のすべてのマテリアルもベイク処理されます。メッシュ圧縮により、元のモデルのジオメトリがわずかに変更される可能性がありますが、通常は軽微です。出力フォルダーには、.baked.fstファイル、.baked.fbxファイル（モデルの元の形式は異なる場合があります）、および.baked.jsonファイル（マテリアル）が含まれます。ベイクされたマテリアルのJSONファイルはベイクされたテクスチャファイルを参照するため、すべてのテクスチャが.baked.fbxファイルから削除されます。このJSONファイルは、.baked.fstファイルの`materialMap`フィールドで参照されます。次の形式をサポートしています：FBX、OBJ、およびFST（サポートされているタイプを指します）。"
 
 #: ../../source/host/add-content/bake-content.rst:45
 msgid "Avatars"
@@ -241,8 +240,8 @@ msgid ""
 "above. Use the resulting .baked.fst file to `host and wear your baked "
 "avatar <../../create/avatars/package-avatar.html#host-your-avatar>`_."
 msgstr ""
-"アバターは3Dモデルであるため、上記と同じ結果でアバターをベイク処理できます。結果の.baked.fstファイルを使用して、 `ベイクしたアバターをホストして着用します <../../create/avatars"
-"/package-avatar.html#host-your-avatar>` 。"
+"アバターは3Dモデルであるため、上記と同じ結果でアバターをベイク処理できます。結果の.baked.fstファイルを使用して、`ベイクしたアバターをホストして着用します<../../create/avatars"
+"/package-avatar.html#host-your-avatar>`_。"
 
 #: ../../source/host/add-content/bake-content.rst:49
 msgid ""
@@ -309,8 +308,8 @@ msgid ""
 " by `exporting your content to JSON <export-content.html#export-entities-"
 "to-json>`_."
 msgstr ""
-"ドメイン内のアセットの.jsonまたは.json.gzをアップロードします。これは、 `コンテンツをJSON<export-content.html"
-"#export-entities-to-json>` にエクスポートすることで実行できます。"
+"ドメイン内のアセットの.jsonまたは.json.gzをアップロードします。これは、`コンテンツをJSON<export-content.html"
+"#export-entities-to-json>`_にエクスポートすることで実行できます。"
 
 #: ../../source/host/add-content/bake-content.rst:74
 msgid "Model File(s)"
@@ -376,8 +375,8 @@ msgid ""
 "This ensures that all content will load correctly when you :doc:`upload "
 "the baked content set <upload-content>` to your domain."
 msgstr ""
-"ドメインをベイク処理した後、ベイク処理されたすべてのコンテンツ（3Dモデル、スカイボックスなど）を「宛先URLパス」に指定されたURLにアップロードすることを忘れないでください。これにより、 :doc:`ベイクされたコンテンツセット"
-"<upload-content>` をドメインにアップロードするときに、すべてのコンテンツが正しく読み込まれるようになります。"
+"ドメインをベイク処理した後、ベイク処理されたすべてのコンテンツ（3Dモデル、スカイボックスなど）を「宛先URLパス」に指定されたURLにアップロードすることを忘れないでください。これにより、:doc:`ベイクされたコンテンツセット"
+"<upload-content>`をドメインにアップロードするときに、すべてのコンテンツが正しく読み込まれるようになります。"
 
 #: ../../source/host/add-content/bake-content.rst:97
 msgid "Using the Commmand Line Interface"
@@ -451,8 +450,8 @@ msgid ""
 "our :doc:`Create <../../create>` section to learn more about the "
 "available tools and examples of how to make your environment more alive:"
 msgstr ""
-"コンテンツセットは、インタラクティブな環境を形成するために連携して機能する多くの異なるエンティティ、モデル、およびスクリプトの単なるコレクションです。 :doc:`作成"
-" <../../create>` セクションにアクセスして、使用可能なツールの詳細と、環境をより活気のある状態にする方法の例を確認してください。"
+"コンテンツセットは、インタラクティブな環境を形成するために連携して機能する多くの異なるエンティティ、モデル、およびスクリプトの単なるコレクションです。:doc:`作成"
+" <../../ create>`セクションにアクセスして、使用可能なツールの詳細と、環境をより活気のある状態にする方法の例を確認してください。"
 
 #: ../../source/host/add-content/create-content.rst:20
 msgid ":doc:`Create Tools <../../create/tools>`"
@@ -554,10 +553,10 @@ msgid ""
 " To update your content, all you need to is visit your domain and start "
 "making changes using the :doc:`Create Tools <../../create/tools>`."
 msgstr ""
-"この方法を取る前に、コンテンツセットを変更したい人（もし誰かいるならば）を決め、 :doc:`その人のrez権限が正しく設定されている "
+"この方法を取る前に、コンテンツセットを変更したい人（もし誰かいるならば）を決め、:doc:`その人のrez権限が正しく設定されている "
 "<../configure-settings/permission-"
-"settings>` ことを確認します。もし、あなたが変更を行うのであれば、あなたがrez権限を持っていることを確認してください。コンテンツを更新するには、自分のドメインにアクセスして、"
-" :doc:`ツールの作成 <../../create/tools>` を使って変更を開始するだけです。"
+"settings>`ことを確認します。もし、あなたが変更を行うのであれば、あなたがrez権限を持っていることを確認してください。コンテンツを更新するには、自分のドメインにアクセスして、"
+" :doc:`ツールの作成<../../create/tools>` を使って変更を開始するだけです。"
 
 #: ../../source/host/add-content/create-content.rst:57
 #: ../../source/host/add-content/create-content.rst:82
@@ -694,7 +693,7 @@ msgstr "Macのローカルサーバーの場合：上部のメニューバーに
 
 #: ../../source/host/add-content/create-content.rst:75
 msgid "On the top menu bar, select **Settings > Security**."
-msgstr "上部のメニューバーで、 **[Settings]>[Security]** を選択します。"
+msgstr "上部のメニューバーで、**[設定]>[セキュリティ]**を選択します。"
 
 #: ../../source/host/add-content/create-content.rst:76
 msgid "Scroll to 'Standard Permissions'."
@@ -719,7 +718,7 @@ msgid ""
 "recommend locking all of your content so that it cannot be modified by "
 "visitors to your domain."
 msgstr ""
-"権限を設定したら、ドメインにアクセスし、 :doc:`作成ツール <../../create/tools>` を使用してコンテンツセットの作成を開始します。ド"
+"権限を設定したら、ドメインにアクセスし、:doc:`作成ツール <../../create/tools>`を使用してコンテンツセットの作成を開始します。ド"
 "メインへの訪問者がコンテンツを変更できないように、すべてのコンテンツをロックすることをお勧めします。"
 
 #: ../../source/host/add-content/create-content.rst:84
@@ -810,8 +809,8 @@ msgid ""
 "Log in to your server's domain settings and :doc:`upload your exported or"
 " baked JSON to your domain <upload-content>`."
 msgstr ""
-"サーバーのドメイン設定にログインし、 :doc:`エクスポートまたはベイクしたJSONをドメイン<upload-"
-"content>` にアップロードしてください。"
+"サーバーのドメイン設定にログインし、:doc:`エクスポートまたはベイクしたJSONをドメイン<upload-"
+"content>`にアップロードしてください。"
 
 #: ../../source/host/add-content/create-content.rst:108
 msgid ""
@@ -882,7 +881,7 @@ msgstr "エンティティをエクスポートするには："
 
 #: ../../source/host/add-content/export-content.rst:34
 msgid "In your Sandbox, pull up your tablet or HUD and go to **Create**."
-msgstr "サンドボックスで、タブレットまたはHUDをプルアップし、 **Create** に移動します。"
+msgstr "サンドボックスで、タブレットまたはHUDをプルアップし、**作成**に移動します。"
 
 #: ../../source/host/add-content/export-content.rst:35
 msgid ""
@@ -893,9 +892,9 @@ msgid ""
 "non-adjacent entity, hold down the ``Ctrl`` key while clicking the "
 "entities you want to select."
 msgstr ""
-"エンティティリストで、エクスポートするエンティティを選択します。すべてのエンティティを選択するには、キーボードショートカット `` Ctrl`` + ``A"
-"`` を使用します。複数の隣接するエンティティを選択するには、最初のエンティティをクリックし、 ``Shift`` キーを押しながら最後のエンティティをクリック"
-"します。隣接していない複数のエンティティを選択するには、 ``Ctrl`` キーを押しながら、選択するエンティティをクリックします。"
+"エンティティリストで、エクスポートするエンティティを選択します。すべてのエンティティを選択するには、キーボードショートカット `` Ctrl`` +``A"
+"``を使用します。複数の隣接するエンティティを選択するには、最初のエンティティをクリックし、``Shift``キーを押しながら最後のエンティティをクリック"
+"します。隣接していない複数のエンティティを選択するには、``Ctrl``キーを押しながら、選択するエンティティをクリックします。"
 
 #: ../../source/host/add-content/export-content.rst:36
 msgid ""
@@ -958,7 +957,7 @@ msgstr "任意のOSの場合：ブラウザを開きhttp://localhost:40100/setti
 #: ../../source/host/maintain-domain/backup-domain.rst:65
 #: ../../source/host/maintain-domain/backup-domain.rst:81
 msgid "On the top menu bar, select **Content > Content Archives**."
-msgstr "上部のメニューバーで、 **[Content]>[Content Archives]** を選択します。"
+msgstr "上部のメニューバーで、**[コンテンツ]>[コンテンツアーカイブ]**を選択します。"
 
 #: ../../source/host/add-content/export-content.rst:56
 msgid ""
@@ -1047,7 +1046,7 @@ msgstr "ドメインに新しいコンテンツをアップロードしてイン
 #: ../../source/host/add-content/upload-content.rst:15
 #: ../../source/host/maintain-domain/backup-domain.rst:89
 msgid "On the top menu bar, select **Content > Upload Content**."
-msgstr "上部のメニューバーで、 **[Content]>[Upload Content]** を選択します。"
+msgstr "上部のメニューバーで、**[コンテンツ]>[コンテンツのアップロード]**を選択します。"
 
 #: ../../source/host/add-content/upload-content.rst:16
 #: ../../source/host/maintain-domain/backup-domain.rst:90
@@ -1179,7 +1178,7 @@ msgid ""
 "**Domain Settings > Content > Audio Environment**)."
 msgstr ""
 "ただし、私たちの方程式は、ドメインで探しているものと正確に一致しない場合があることを理解しています。減衰とリバーブのレベルを調整することで、ドメイン全体の"
-"オーディオ設定を変更できます（ **[Domain Settings]>[Content]>[Audio Environment]** に移動します）。"
+"オーディオ設定を変更できます（**[ドメイン設定]>[コンテンツ]>[オーディオ環境]**に移動します）。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:20
 msgid ""
@@ -1194,7 +1193,7 @@ msgid ""
 "volume. Likewise, the default attenuation for a domain can be set very "
 "high (to a max value of 1), making only things very near to you audible."
 msgstr ""
-"*減衰* は、距離が離れるとどの程度音が小さくなるかを決定します。ドメイン減衰のデフォルトは、ドメイン環境全体で有効になっているノイズリダクションの量です。"
+"*減衰*は、距離が離れるとどの程度音が小さくなるかを決定します。ドメイン減衰のデフォルトは、ドメイン環境全体で有効になっているノイズリダクションの量です。"
 "Vircadiaドメインのデフォルトは、現実世界とほぼ同じ距離減衰カーブになっています。2人のアバターが遠くで話しているのが見えると、その声が聞こえますが"
 "、あまりよく聞こえません。2人に近づくと、あなたが慣れ親しんでいるような方法で、より聞き取りやすくなります。減衰の初期値を0に設定すると、音源がどれだけ離"
 "れていても、フルボリュームで再生されます。同様に、ドメインのデフォルト減衰を非常に大きく設定すると（最大値1）、非常に近くにあるものだけが聞こえるようにな"
@@ -1211,7 +1210,7 @@ msgid ""
 "results. For a very thick reverb, you might try a value as high as 50% "
 "where the reverb is nearly as loud as the original signal."
 msgstr ""
-"*リバーブ* は、ドメイン内でエコーのような効果を有効にします。それはあなたが大きな空の部屋、大きな洞窟の奥深く、またはタイル張りのシャワーのような小さな部"
+"*リバーブ*は、ドメイン内でエコーのような効果を有効にします。それはあなたが大きな空の部屋、大きな洞窟の奥深く、またはタイル張りのシャワーのような小さな部"
 "屋の中にいるように聞こえる効果を与えることができます。「Reverb Decay Time」は、最初のサウンドの後にエコーが聞こえる時間を定義します。「"
 "Wet/DryMix」は、元の「Dry」信号に対するリバーブテールのパーセンテージミックスを設定します。5〜25％のレベルでは、ほどよいエコーの効果を感じ"
 "られます。非常に高いリバーブの場合、リバーブが元の信号とほぼ同じ大きさである50％までの値を試すことができます。"
@@ -1262,7 +1261,7 @@ msgstr ""
 msgid ""
 "Under 'Reverb Settings', click the ``+`` icon, enter the zone name from "
 "step 4, and define the reverb levels for the zone."
-msgstr "[Reverb Settings]で、 ``+`` アイコンをクリックし、手順4のゾーン名を入力して、ゾーンのリバーブレベルを定義します。"
+msgstr "[リバーブ設定]で、``+``アイコンをクリックし、手順4のゾーン名を入力して、ゾーンのリバーブレベルを定義します。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:42
 #: ../../source/host/maintain-domain/backup-domain.rst:26
@@ -1629,8 +1628,8 @@ msgid ""
 " the operating system at launch. These ports will be within the "
 "`ephemeral port range <https://en.wikipedia.org/wiki/Ephemeral_port>`_."
 msgstr ""
-"これらの割り当てクライアントは、起動時にオペレーティングシステムによって割り当てられたポート番号でUDP接続を使用します。これらのポートは、 `エフェメラル"
-"ポートの範囲<https://en.wikipedia.org/wiki/Ephemeral_port>` 内にあります。"
+"これらの割り当てクライアントは、起動時にオペレーティングシステムによって割り当てられたポート番号でUDP接続を使用します。これらのポートは、`エフェメラル"
+"ポートの範囲<https://en.wikipedia.org/wiki/Ephemeral_port>`_内にあります。"
 
 #: ../../source/host/configure-settings/network-settings.rst:66
 msgid "Domain ID"
@@ -1718,7 +1717,7 @@ msgstr ""
 msgid ""
 "First, set any permissions for the `standard user groups`_. Check the box"
 " of all permissions you'd like to grant."
-msgstr "まず、 `標準ユーザーグループ`_ の権限を設定します。付与するすべての権限のチェックボックスをオンにします。"
+msgstr "まず、`標準ユーザーグループ`の権限を設定します。付与するすべての権限のチェックボックスをオンにします。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:28
 msgid ""
@@ -1751,7 +1750,7 @@ msgid ""
 "adding permission to). Check the box of all permissions you'd like to "
 "grant."
 msgstr ""
-"**IPアドレス、MACアドレス、またはマシンフィンガープリントの追加**： ``+`` アイコンをクリックして、情報を入力します（アクセス許可を追加するア"
+"** IPアドレス、MACアドレス、またはマシンフィンガープリントの追加**：``+``アイコンをクリックして、情報を入力します（アクセス許可を追加するア"
 "クセス許可テーブルに基づいて）。付与するすべての権限のチェックボックスをオンにします。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:37
@@ -1798,7 +1797,7 @@ msgid ""
 "permissions in your domains than your Connections. Connections are "
 "treated like anonymous users."
 msgstr ""
-"アバターと握手をして、 **People** アプリの「友達」チェックボックスをクリックすることでつながったユーザーのことです。コネクションは、フレンズとは異"
+"アバターと握手をして、**People**アプリの「友達」チェックボックスをクリックすることでつながったユーザーのことです。コネクションは、フレンズとは異"
 "なります。デフォルトでは、「友だち」は「つながり」よりも多くの権限をあなたのドメインで持っています。コネクションは匿名ユーザーのように扱われます。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:57
@@ -1896,7 +1895,7 @@ msgid ""
 "Sets whether a user can permanently create (or rez) new entities in the "
 "domain. These users will also have full access to the **Create** app."
 msgstr ""
-"ユーザーがドメイン内に新しいエンティティを永続的に作成（またはrez）できるかどうかを設定します。これらのユーザーは、 **作成** アプリにも完全にアクセス"
+"ユーザーがドメイン内に新しいエンティティを永続的に作成（またはrez）できるかどうかを設定します。これらのユーザーは、**作成**アプリにも完全にアクセス"
 "できます。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:88
@@ -1910,8 +1909,8 @@ msgid ""
 "Settings > Maximum Lifetime of Temporary Entities**). These users will "
 "also have full access to the **Create** app."
 msgstr ""
-"ユーザーが有限の有効期間で新しいエンティティを作成（またはrez）できるかどうかを設定します（有効期間は **[Domain Settings]>[Entities]>[Advanced Settings]"
-"]>[Maximum Lifetime of Temporary Entities]** で設定されます）。これらのユーザーは、 **作成** アプリにも完全にアクセスできます。"
+"ユーザーが有限の有効期間で新しいエンティティを作成（またはrez）できるかどうかを設定します（有効期間は**[ドメイン設定]>[エンティティ]>[詳細設定"
+"]>[一時エンティティの最大有効期間]**で設定されます）。これらのユーザーは、**作成**アプリにも完全にアクセスできます。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:93
 msgid "Rez Certified"
@@ -1938,7 +1937,7 @@ msgid ""
 "Entities**). Right now it does nothing."
 msgstr ""
 "これは、ユーザーがマーケットプレイスから有限の有効期間で新しいエンティティを作成（またはrez）できるかどうかを設定するために使用されました（有効期間は、"
-" **[Domain Settings ]>[Entities]>[Advanced Settings]>[Maximum Lifetime of Temporary]** で設定されます）。今は何も影響はありません。"
+"**[ドメイン設定]>[エンティティ]>[詳細設定]>[一時エンティティの最大有効期間]**で設定されます）。今は何も影響はありません。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:102
 msgid "Write Assets"
@@ -2087,7 +2086,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:40
 msgid "In the grid, click the ``+`` icon to add a place name to this domain."
-msgstr "グリッドで、 ``+`` アイコンをクリックして、このドメインに場所の名前を追加します。"
+msgstr "グリッドで、``+``アイコンをクリックして、このドメインに場所の名前を追加します。"
 
 #: ../../source/host/configure-settings/place-setting.rst:41
 msgid "Choose the place name you want to use from the dropdown list."
@@ -2110,8 +2109,8 @@ msgid ""
 "id>`_ of your domain. You will need this to point your place name to your"
 " domain."
 msgstr ""
-"これにより、Vircadiaアカウントから地名が設定されます。先に進む前に、ドメインの `ドメインID <network-settings.html"
-"#domain-id>`_ を持っていることを確認してください。これは、地名をドメインにポイントするために必要になります。"
+"これにより、Vircadiaアカウントから地名が設定されます。先に進む前に、ドメインの `ドメインID<network-settings.html"
+"＃domain-id>`_を持っていることを確認してください。これは、地名をドメインにポイントするために必要になります。"
 
 #: ../../source/host/configure-settings/place-setting.rst:51
 msgid ""
@@ -2198,8 +2197,8 @@ msgid ""
 "link, they will be prompted to open Interface.exe and land at the spawn "
 "point in your domain."
 msgstr ""
-"ヒント：他のVircadiaユーザーに、あなたのドメインに直接送られるクリック可能なURLを送ることができます。 ``https://hifi.place/"
-"<domain IP | place name>`` というURLを送るだけです。リンクをクリックすると、Interface."
+"ヒント：他のVircadiaユーザーに、あなたのドメインに直接送られるクリック可能なURLを送ることができます。``https://hifi.place/"
+"<domain IP | place name>``というURLを送るだけです。リンクをクリックすると、Interface."
 "exeを開くように指示され、あなたのドメインの地点に着陸します。"
 
 #: ../../source/host/invite-users.rst:28
@@ -2249,7 +2248,7 @@ msgid ""
 "to a Core Team Member."
 msgstr ""
 "イベントや体験をウェブサイトのカレンダーに追加するには、 `Discord <https://discordapp.com/invite/"
-"Pvx2vke>` サーバーに参加してコアチームに連絡し記入して送信してください。"
+"Pvx2vke>`サーバーに参加してコアチームに連絡し記入して送信してください。"
 
 #: ../../source/host/invite-users.rst:42
 msgid "It will then be:"
@@ -2534,8 +2533,8 @@ msgid ""
 ":doc:`user permission enabled <../configure-settings/permission-"
 "settings>` before attempting to monitor the users in your domain."
 msgstr ""
-"ドメインからのユーザーのサイレンシングと禁止のこれらの管理機能には、「ユーザーのキック」権限が必要です。ドメイン内のユーザーを監視する前に、この :doc:"
-"`ユーザー権限が有効になっていることを確認してください<../configure-settings/permission-settings>` 。"
+"ドメインからのユーザーのサイレンシングと禁止のこれらの管理機能には、「ユーザーのキック」権限が必要です。ドメイン内のユーザーを監視する前に、この:doc:"
+"`ユーザー権限が有効になっていることを確認してください<../configure-settings/permission-settings>`。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:14
 msgid "Silence a User in Your Domain"
@@ -2610,8 +2609,8 @@ msgid ""
 "help you inspect the contents of your domain, or identify loud avatars  "
 "and them in your domain."
 msgstr ""
-"ドメインのメンテナンスタスクを定期的に実行する :doc:`割り当てクライアントスクリプト <../../script/assignment-"
-"client-scripts>` を使用すると、ドメインを「クリーンアップ」することができます。たとえば、スクリプトはデフォルトのコンテンツセットに含まれな"
+"ドメインのメンテナンスタスクを定期的に実行する :doc: `割り当てクライアントスクリプト <../../script/assignment-"
+"client-scripts>`を使用すると、ドメインを「クリーンアップ」することができます。たとえば、スクリプトはデフォルトのコンテンツセットに含まれな"
 "いエンティティを削除したり、ドメインのコンテンツを検査するためのツールをロードしたり、ドメイン内のラウドアバターとそれらを特定したりすることができます。"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:12
@@ -2806,9 +2805,9 @@ msgid ""
 "``journalctl -u vircadia-assignment-client@default.service`` for the "
 "assignment client."
 msgstr ""
-" ** Linux ** ：ログにアクセスするには、ドメインサーバーに対してコマンド ``journalctl -u vircadia-domain-"
-"server@default.service`` を実行するか、割り当てクライアントの場合 ``journalctl -u vircadia-"
-"assignment-client@default.service`` を実行します。"
+"** Linux **：ログにアクセスするには、ドメインサーバーに対してコマンド `` journalctl -u vircadia-domain-"
+"server@default.service``を実行するか、割り当てクライアントの場合`` journalctl -u vircadia-"
+"assignment-client@default.service ``を実行します。"
 
 #: ../../source/host/quick-start.rst:3
 msgid "Hosting Quick Start"
@@ -2859,8 +2858,8 @@ msgid ""
 "Interface` and `Vircadia Server` options are checked. Vircadia Server is "
 "the Domain server."
 msgstr ""
-" `Custom` インストールオプションを使用し、 `Vircadia Interface` オプションと `Vircadia "
-"Server` オプションの両方がチェックされていることを確認します。Vircadiaサーバーはドメインサーバーです。"
+"`カスタム`インストールオプションを使用し、`Vircadia Interface`オプションと`Vircadia "
+"Server`オプションの両方がチェックされていることを確認します。Vircadiaサーバーはドメインサーバーです。"
 
 #: ../../source/host/quick-start.rst:29
 msgid "In your start menu, search for and run `Vircadia Server`."
@@ -2872,8 +2871,8 @@ msgid ""
 "wizard to set up your domain. If the server is on a different machine, "
 "then replace 'localhost' with its IP address."
 msgstr ""
-"Webブラウザで ``http://localhost:40100/"
-"`` に移動し、ウィザードを完了してドメインを設定します。サーバーが別のマシン上にある場合は、「localhost」をそのIPアドレスに置き換えます。"
+"Webブラウザで``http://localhost:40100/"
+"``に移動し、ウィザードを完了してドメインを設定します。サーバーが別のマシン上にある場合は、「localhost」をそのIPアドレスに置き換えます。"
 
 #: ../../source/host/quick-start.rst:31
 msgid ""
@@ -2881,7 +2880,7 @@ msgid ""
 "(or the server's IP address) to get there."
 msgstr ""
 "Vircadia "
-"Interfaceで、 `Explore` アプリを開き、 `localhost` (またはサーバのIPアドレス)を入力すると、目的の場所に行くことができます。"
+"Interfaceで、`Explore`アプリを開き、`localhost`(またはサーバのIPアドレス)を入力すると、目的の場所に行くことができます。"
 
 #: ../../source/host/quick-start.rst:35
 msgid "Ubuntu 18.04 Linux (.deb)"
@@ -2911,13 +2910,13 @@ msgstr ""
 msgid ""
 "Go to ``http://[IP address of your server]:40100/`` in your web browser "
 "and complete the wizard to set up your domain."
-msgstr "Webブラウザで ``http://[サーバのIPアドレス]:40100/`` に移動し、ウィザードを完了してドメインを設定します。"
+msgstr "Webブラウザで``http://[サーバのIPアドレス]:40100/``に移動し、ウィザードを完了してドメインを設定します。"
 
 #: ../../source/host/quick-start.rst:47
 msgid ""
 "In your Vircadia Interface, open the `Explore` app and enter your "
 "server's IP address to get there."
-msgstr "Vircadia Interfaceで、 `Explore` アプリを開き、サーバーのIPアドレスを入力すると、そこに行くことができます。"
+msgstr "Vircadia Interfaceで、`Explore`アプリを開き、サーバーのIPアドレスを入力すると、そこに行くことができます。"
 
 #: ../../source/host/server-setup.rst:34
 msgid "Host a Domain from a Local Windows Server"
@@ -3357,7 +3356,7 @@ msgid ""
 "software."
 msgstr ""
 "Windowsでドメインをホストするには、Vircadiaのオープンソースの `Client + Server <https://vircadia."
-"com/download-vircadia/#windows>`_ ソフトウェアを実行している必要があります。"
+"com/download-vircadia/#windows>`_ソフトウェアを実行している必要があります。"
 
 #: ../../source/host/server-setup/windows-server.rst:27
 msgid "Create a Domain"
@@ -3419,7 +3418,7 @@ msgstr ""
 msgid ""
 "Click **Finish** to close the Setup Wizard. You will automatically be "
 "redirected to the Domain Settings for your domain."
-msgstr " **Finish** をクリックしてセットアップウィザードを閉じます。ドメインのドメイン設定に自動的にリダイレクトされます。"
+msgstr "**Finish**をクリックしてセットアップウィザードを閉じます。ドメインのドメイン設定に自動的にリダイレクトされます。"
 
 #: ../../source/host/server-setup/windows-server.rst:46
 msgid ""
@@ -3564,7 +3563,7 @@ msgstr ""
 msgid ""
 "You can also follow the :doc:`quick start guide <quick-start>` to boot up"
 " a Domain right away."
-msgstr " :doc:`クイックスタートガイド <quick-start>` に従って、ドメインをすぐに起動することもできます。"
+msgstr ":doc:`クイックスタートガイド <quick-start>`に従って、ドメインをすぐに起動することもできます。"
 
 #: ../../source/host/start-hosting.rst:14
 msgid "Overview of Hosting"
@@ -3581,7 +3580,7 @@ msgstr ""
 msgid ""
 "The *Domain server* is a virtual world that gives you a space to build "
 "content in."
-msgstr " *Domain server* は、コンテンツを構築するためのスペースを提供する仮想世界です。"
+msgstr "*Domain server*は、コンテンツを構築するためのスペースを提供する仮想世界です。"
 
 #: ../../source/host/start-hosting.rst:19
 msgid ""
@@ -3589,14 +3588,14 @@ msgid ""
 " ID to identify it. You can connect your domain to the Vircadia Metaverse"
 " Server by logging into your account on the Vircadia website."
 msgstr ""
-" *ドメイン* はメタバースのサーバーです。各ドメインには、それを識別するための一意のIDが割り当てられます。Vircadia "
+"*ドメイン*はメタバースのサーバーです。各ドメインには、それを識別するための一意のIDが割り当てられます。Vircadia "
 "Webサイトでアカウントにログインすることにより、ドメインをVircadiaMetaverseServerに接続できます。"
 
 #: ../../source/host/start-hosting.rst:20
 msgid ""
 "A *place* is a registered location in the metaverse. A place is connected"
 " to a domain; you can create multiple places per domain."
-msgstr " *場所* は、メタバースに登録されているエリアです。このエリアはドメインに接続されています。ドメインごとに複数のエリアを作成できます。"
+msgstr "*場所*は、メタバースに登録されているエリアです。このエリアはドメインに接続されています。ドメインごとに複数のエリアを作成できます。"
 
 #: ../../source/host/start-hosting.rst:21
 msgid ""
@@ -3605,7 +3604,7 @@ msgid ""
 " cloud-hosted server such as one provided by DigitalOcean, Linode, AWS, "
 "and so on."
 msgstr ""
-" *サーバー* は、ドメインをホストし、ドメインに対する要求を処理します。ドメインのサーバーは、物理的なコンピューターか、DigitalOcean、Linod"
+"*サーバー*は、ドメインをホストし、ドメインに対する要求を処理します。ドメインのサーバーは、物理的なコンピューターか、DigitalOcean、Linod"
 "e、AWSなどが提供するクラウドホスティングのサーバーのいずれかです。"
 
 #: ../../source/host/start-hosting.rst:22
@@ -3650,8 +3649,8 @@ msgid ""
 "domain settings <configure-settings>`, from the most basic to the more "
 "advanced, and how to :doc:`maintain your domain <maintain-domain>`."
 msgstr ""
-"ドメインを取得した後は、 :doc:`基本的な設定から高度な設定 <configure-settings>` まで、 :doc:`ドメインの管理方法"
-"<maintain-domain>` について説明します。"
+"ドメインを取得した後は、 :doc:`基本的な設定から高度な設定 <configure-settings>`まで、:doc:`ドメインの管理方法"
+"<maintain-domain>`について説明します。"
 
 #~ msgid ""
 #~ "While we do not publish an "
