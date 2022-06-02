@@ -41,7 +41,7 @@ msgstr "コンテンツの作成"
 
 #: ../../source/faq.rst:15
 msgid "`What video formats do you support? <#video-formats>`_"
-msgstr "`どのビデオフォーマットをサポートしていますか？<#video-formats>`_"
+msgstr " `どのビデオフォーマットをサポートしていますか？<#video-formats>` "
 
 #: ../../source/faq.rst:20
 msgid "What video formats do you support?"
@@ -55,8 +55,8 @@ msgid ""
 "<create/entities/web-entity-media>` for a more information."
 msgstr ""
 "ほとんどのオープンビデオフォーマットをサポートしています。H.264のような独自のフォーマットは現在サポートされていません。VP9形式は、品質が高く、ファ"
-"イルサイズが小さいため、推奨されます。詳細については、:doc:`Webエンティティでのメディアの再生 <create/entities/web-"
-"entity-media>`を参照してください。"
+"イルサイズが小さいため、推奨されます。詳細については、 :doc:`Webエンティティでのメディアの再生 <create/entities/web-"
+"entity-media>` を参照してください。"
 
 #: ../../source/faq.rst:29
 msgid "Domain Hosting"
@@ -67,7 +67,7 @@ msgid ""
 "`How do I get into my domain settings if I set up authentication but "
 "forgot my username and/or password? <#reset-password>`_"
 msgstr ""
-"`認証を設定したが、ユーザー名やパスワードを忘れてしまった場合、どのようにドメイン設定にアクセスすればよいですか？<#reset-password>`_"
+" `認証を設定したが、ユーザー名やパスワードを忘れてしまった場合、どのようにドメイン設定にアクセスすればよいですか？<#reset-password>` "
 
 #: ../../source/faq.rst:36
 msgid ""
@@ -75,8 +75,8 @@ msgid ""
 "/configure-settings/authentication-setting.html>`_ but forgot my username"
 " and/or password?"
 msgstr ""
-"`認証 <host/configure-settings/authentication-setting."
-"html>`を設定したが、ユーザー名やパスワードを忘れてしまった場合、どのようにドメイン設定にアクセスすればよいですか？"
+" `認証 <host/configure-settings/authentication-setting."
+"html>` を設定したが、ユーザー名やパスワードを忘れてしまった場合、どのようにドメイン設定にアクセスすればよいですか？"
 
 #: ../../source/faq.rst:39
 msgid ""
