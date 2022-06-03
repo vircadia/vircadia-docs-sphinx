@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-05-29 20:58+0000\n"
+"PO-Revision-Date: 2022-06-03 05:26+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/ja/>\n"
@@ -1218,7 +1218,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/audio-settings.rst:25
 msgid "Audio Zones"
-msgstr ""
+msgstr "オーディオゾーン"
 
 #: ../../source/host/configure-settings/audio-settings.rst:27
 msgid ""
