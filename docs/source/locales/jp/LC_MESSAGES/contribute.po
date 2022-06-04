@@ -29,7 +29,7 @@ msgstr "貢献する"
 msgid ""
 "Learn how you can contribute to the project `here "
 "<https://vircadia.com/contribute/>`_."
-msgstr "プロジェクトへの貢献方法については、 `こちら <https://vircadia.com/contribute/>` を参照してください。"
+msgstr "プロジェクトへの貢献方法については、`こちら <https://vircadia.com/contribute/>`を参照してください。"
 
 #~ msgid ""
 #~ "Vircadia is an open-source project, "

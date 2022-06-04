@@ -457,7 +457,7 @@ msgstr "説明"
 
 #: ../../source/script/get-started-with-scripting.rst:25
 msgid "`Entities <https://apidocs.vircadia.dev/Entities.html>`_"
-msgstr "`エンティティ <https://apidocs.vircadia.dev/Entities.html>`_"
+msgstr "`エンティティ<https://apidocs.vircadia.dev/Entities.html>`_"
 
 #: ../../source/script/get-started-with-scripting.rst:25
 msgid ""
@@ -466,12 +466,12 @@ msgid ""
 "Everyone has access to ``get`` properties of an entity, and can be used "
 "to find Entities in range, direction, collision, or raytrace."
 msgstr ""
-"権限がある限り、周囲のエンティティを操作できます。これは、エンティティを追加、削除、および編集できることを意味します。誰もがエンティティの ``get`` プ"
+"権限がある限り、周囲のエンティティを操作できます。これは、エンティティを追加、削除、および編集できることを意味します。誰もがエンティティの``get``プ"
 "ロパティにアクセスでき、範囲、方向、衝突、またはレイトレースでエンティティを検索するために使用できます。"
 
 #: ../../source/script/get-started-with-scripting.rst:32
 msgid "`AvatarList <https://apidocs.vircadia.dev/AvatarList.html>`_"
-msgstr " `アバターリスト <https://apidocs.vircadia.dev/AvatarList.html>`_ "
+msgstr "`アバターリスト <https://apidocs.vircadia.dev/AvatarList.html>` _"
 
 #: ../../source/script/get-started-with-scripting.rst:34
 msgid "`AvatarManager <https://apidocs.vircadia.dev/AvatarManager.html>`_"
@@ -489,8 +489,8 @@ msgid ""
 " information here will be always the avatar information of the client "
 "running the script. AvatarList and AvatarManager are basically the same."
 msgstr ""
-" `アバター <https://apidocs.vircadia.dev/Avatar.html>` に関する情報を取得したり、独自のクライアント専用の `"
-"私のアバター <https://apidocs.vircadia.dev/MyAvatar.html>` を操作したりできます。ここでの情報は、常にスクリプ"
+"`アバター <https://apidocs.vircadia.dev/Avatar.html>`に関する情報を取得したり、独自のクライアント専用の`"
+"私のアバター <https://apidocs.vircadia.dev/MyAvatar.html>`を操作したりできます。ここでの情報は、常にスクリプ"
 "トを実行しているクライアントのアバター情報になります。アバターリストとアバターマネージャは基本的に同じです。"
 
 #: ../../source/script/get-started-with-scripting.rst:40
@@ -536,7 +536,7 @@ msgid ""
 " scripts, you can perform one-time creation tasks or modify the user "
 "experience with new menus, overlays, tweaks, plugins, and extensions."
 msgstr ""
-" *インターフェイススクリプト* は、インターフェイスが実行されている限り実行されます。これらのスクリプトを使用すると、1回限りの作成タスクを実行したり、新し"
+"*インターフェイススクリプト*は、インターフェイスが実行されている限り実行されます。これらのスクリプトを使用すると、1回限りの作成タスクを実行したり、新し"
 "いメニュー、オーバーレイ、微調整、プラグイン、および拡張機能を使用してユーザーエクスペリエンスを変更したりできます。"
 
 #: ../../source/script/get-started-with-scripting.rst:62
@@ -549,7 +549,7 @@ msgid ""
 "avatars in your domain. These scripts continue to run even when you shut "
 "down Interface."
 msgstr ""
-" *割り当てクライアントスクリプト* は、ドメイン内のエンティティとアバター間のアクションを調整します。これらのスクリプトは、インターフェイスをシャットダウン"
+"*割り当てクライアントスクリプト*は、ドメイン内のエンティティとアバター間のアクションを調整します。これらのスクリプトは、インターフェイスをシャットダウン"
 "しても実行され続けます。"
 
 #: ../../source/script/get-started-with-scripting.rst:65
@@ -560,7 +560,7 @@ msgstr "アバタースクリプト"
 msgid ""
 "*Avatar scripts* run on an avatar and can give it unique effects, such as"
 " flowing hair."
-msgstr "*アバタースクリプト* はアバター上で実行され、なびく髪などのユニークな効果を与えることができます。"
+msgstr "*アバタースクリプト*はアバター上で実行され、なびく髪などのユニークな効果を与えることができます。"
 
 #: ../../source/script/get-started-with-scripting.rst:68
 msgid "Client Entity Script"
@@ -572,7 +572,7 @@ msgid ""
 " in response to a user in a domain. With these scripts, you can customize"
 " what happens when a user encounters an entity."
 msgstr ""
-"*クライアントエンティティスクリプト* は、ドメイン内のユーザーに応答してローカルで実行される、エンティティに添付されたスクリプトです。これらのスクリプトを"
+"*クライアントエンティティスクリプト*は、ドメイン内のユーザーに応答してローカルで実行される、エンティティに添付されたスクリプトです。これらのスクリプトを"
 "使用すると、ユーザーがエンティティに遭遇したときの挙動をカスタマイズすることができます。"
 
 #: ../../source/script/get-started-with-scripting.rst:72
@@ -585,7 +585,7 @@ msgid ""
 "require a user to trigger. These scripts control entities so that their "
 "behavior is seen and heard by everyone in the domain."
 msgstr ""
-"*サーバーエンティティスクリプト* は、ユーザーがトリガーする必要のないエンティティに添付されたスクリプトです。これらのスクリプトは、ドメイン内のすべての人"
+"*サーバーエンティティスクリプト*は、ユーザーがトリガーする必要のないエンティティに添付されたスクリプトです。これらのスクリプトは、ドメイン内のすべての人"
 "はその動作が把握できるようにエンティティを制御します。"
 
 #: ../../source/script/get-started-with-scripting.rst:79
@@ -601,7 +601,7 @@ msgid ""
 "However, you will still see the script listed in the Running Scripts "
 "window."
 msgstr ""
-"各ドメインの所有者は、 :doc:`作成と編集の権限を制限 <../host/configure-settings/permission-settings>` すること"
+"各ドメインの所有者は、`作成と編集の権限を制限 <../host/configure-settings/permission-settings>`すること"
 "ができます。実行したいスクリプトがエンティティを追加または編集する権限を持っていない場合、オブジェクトが作成または変更される様子は表示されません。ただし、"
 "Running Scripts ウィンドウにそのスクリプトが表示されます。"
 
@@ -623,7 +623,7 @@ msgid ""
 "To open the *Running Scripts* window, go to **Edit > Running Scripts** or"
 " press ``Ctrl`` + ``J`` on your keyboard."
 msgstr ""
-"[Running Scripts]ウィンドウを開くには、**[Edit]> [Running Scripts]** に移動するか、キーボードの ``Ctrl`` + ``J`` を押します。"
+"[スクリプトの実行]ウィンドウを開くには、**[編集]> [スクリプトの実行]**に移動するか、キーボードの ``Ctrl`` + ``J``を押します。"
 
 #: ../../source/script/get-started-with-scripting.rst:93
 msgid "Sample Scripts"
@@ -796,7 +796,7 @@ msgstr "デフォルトのスクリプトにスクリプトを追加して、イ
 msgid ""
 "In Interface, pull up your Tablet or HUD and go to **Menu > Edit > "
 "Running Scripts**."
-msgstr "インターフェイスで、タブレットまたはHUDをプルアップし、**[メニュー]>[編集]>[スクリプトの実行]** に移動します。"
+msgstr "インターフェイスで、タブレットまたはHUDをプルアップし、**[メニュー]>[編集]>[スクリプトの実行]**に移動します。"
 
 #: ../../source/script/get-started-with-scripting.rst:152
 msgid "Click 'Reveal Scripts Folder' at the bottom."
@@ -837,7 +837,7 @@ msgid ""
 "Menu."
 msgstr ""
 "スクリプトコンソールを使用すると、Vircadiaで短いスクリプトスニペットをすばやくテストして実行し、それらがどのように機能するかを確認できます。コンソ"
-"ールを開くには、[開発者]メニューに移動し、**[スクリプト]>[コンソール]** に移動します。[開発者]メニューが表示されていない場合は、最初に[設定]"
+"ールを開くには、[開発者]メニューに移動し、**[スクリプト]>[コンソール]**に移動します。[開発者]メニューが表示されていない場合は、最初に[設定]"
 "メニューに移動し、[開発者]メニューをクリックします。"
 
 #: ../../source/script/get-started-with-scripting.rst:168
@@ -856,7 +856,7 @@ msgid ""
 msgstr ""
 "デバッグウィンドウには、実行中のスクリプトによって生成された出力が表示されます。これにより、スクリプトの動作を監視し、スクリプトが意図したとおりに実行され"
 "ていることを確認できます。スクリプトが失敗した場合、デバッガーは何が問題だったかを特定し、エラーが発生した特定のコード行を示すのに役立ちます。デバッグウィ"
-"ンドウを開くには、[開発者]メニューに移動し、**[スクリプト]> [スクリプトログ]** （HMD対応）に移動します。開発者メニューが表示されていない場合"
+"ンドウを開くには、[開発者]メニューに移動し、[**スクリプト]> [スクリプトログ]**（HMD対応）に移動します。開発者メニューが表示されていない場合"
 "は、最初に[設定]メニューに移動し、[開発者]メニューをクリックします。"
 
 #: ../../source/script/get-started-with-scripting.rst:176
@@ -1319,7 +1319,7 @@ msgid ""
 "``4,294,967,295``."
 msgstr ""
 "私たちのMIDIクラスは、Microsoft Windowsに固有のデータ型であるDWORD（ダブルワード）をメッセージとして渡すことによって機能します。"
-"これは符号なし32ビットのデータ単位であり、``0`` から``4,294,967,295`` の範囲の整数値を含めることができます。"
+"これは符号なし32ビットのデータ単位であり、``0``から``4,294,967,295``の範囲の整数値を含めることができます。"
 
 #: ../../source/script/midi-tutorial.rst:20
 msgid ""
@@ -1516,8 +1516,8 @@ msgid ""
 "Device`_ and `Example: Change the Color of a Cube using MIDI`_ before "
 "reading these instructions."
 msgstr ""
-"iPadまたはiPhoneを、ボタン、ノブ、およびスライダーを備えたタッチスクリーンコントローラーとして使用できます。これらの手順を読む前に、 `MIDIデ"
-"バイスの構成`_ および `例：MIDIを使用してキューブの色を変更する`_ のセクションをお読みください。"
+"iPadまたはiPhoneを、ボタン、ノブ、およびスライダーを備えたタッチスクリーンコントローラーとして使用できます。これらの手順を読む前に、`MIDIデ"
+"バイスの構成`および`例：MIDIを使用してキューブの色を変更する`のセクションをお読みください。"
 
 #: ../../source/script/midi-tutorial.rst:80
 msgid ""
@@ -1583,7 +1583,7 @@ msgstr "MIDIを使用して、Vircadiaの立方体エンティティの色を変
 msgid ""
 "Use this method to figure out the MIDI range of ``0`` to ``127`` to be "
 "any other output range you want using linear interpolation::"
-msgstr "この方法を使用して、``0`` ら``127`` までのMIDI範囲を、線形補間を使用して必要な他の出力範囲に設定します。"
+msgstr "この方法を使用して、``0``ら``127``までのMIDI範囲を、線形補間を使用して必要な他の出力範囲に設定します。"
 
 #: ../../source/script/midi-tutorial.rst:144
 msgid "Since colors go from ``0`` to ``255``, we could do the following::"
@@ -1591,7 +1591,7 @@ msgstr "色は``0``から``255``になるので、次のことができます。
 
 #: ../../source/script/midi-tutorial.rst:153
 msgid "Then use ``onEventReceived`` to change the color of the cube::"
-msgstr "次に、``onEventReceived`` を使用して、立方体の色を変更します。"
+msgstr "次に、``onEventReceived``を使用して、立方体の色を変更します。"
 
 #: ../../source/script/midi-tutorial.rst:161
 msgid ""
