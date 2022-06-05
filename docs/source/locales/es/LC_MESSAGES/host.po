@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-05-28 04:00+0000\n"
+"PO-Revision-Date: 2022-06-05 22:02+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -2525,6 +2525,10 @@ msgid ""
 " Blast functionality, mentions social media share linking to a domain "
 "info page (I assume that this functionality hasn't been restored)"
 msgstr ""
+"Este documento está desactualizado. A TENER EN CUENTA: errores gramaticales, "
+"menciona GoTo, menciona la funcionalidad Blast, menciona el enlace "
+"compartido de redes sociales a una página de información de dominio (se "
+"supone que esta funcionalidad no se ha restaurado)"
 
 #: ../../source/host/invite-users.rst:9
 msgid ""
@@ -2532,10 +2536,13 @@ msgid ""
 "to your domain and create your community in the virtual world. Here are "
 "some ways to bring more visitors in to your domain."
 msgstr ""
+"Ahora que tienes un dominio en funcionamiento, es hora de invitar a personas "
+"a tu dominio y crear tu comunidad en el mundo virtual. Aquí hay algunas "
+"formas de atraer más visitantes a tu dominio."
 
 #: ../../source/host/invite-users.rst:16
 msgid "Invite Your Friends"
-msgstr ""
+msgstr "Invita a Tus Amigos"
 
 #: ../../source/host/invite-users.rst:18
 msgid ""
@@ -2543,6 +2550,9 @@ msgid ""
 "exciting, new place in the metaverse! Invite your friends with a personal"
 " message to visit your domain."
 msgstr ""
+"¡Nada es más atractivo que una invitación personal para visitar un lugar "
+"nuevo y emocionante en el metaverso! Invita a tus amigos con un mensaje "
+"personal a visitar tu dominio."
 
 #: ../../source/host/invite-users.rst:20
 msgid ""
@@ -2550,6 +2560,10 @@ msgid ""
 " a Vircadia account can enter the IP address or place name directly into "
 "the GoTo app to teleport directly to your domain."
 msgstr ""
+"Comparte tu dominio dando tu dirección IP o el nombre del lugar. Cualquier "
+"persona con una cuenta de Vircadia puede ingresar la dirección IP o el "
+"nombre del lugar directamente en la aplicación GoTo para teletransportarse "
+"directamente a tu dominio."
 
 #: ../../source/host/invite-users.rst:24
 msgid ""
@@ -2559,16 +2573,23 @@ msgid ""
 "link, they will be prompted to open Interface.exe and land at the spawn "
 "point in your domain."
 msgstr ""
+"CONSEJO: Puedes enviar a otros usuarios de Vircadia una URL clickeable que "
+"los envíe directamente a tu dominio. Simplemente envíales la URL "
+"``https://hifi.place/<dominio IP | place name>``. Cuando hagan clic en el "
+"enlace, se les pedirá que abran Interface.exe y aparecerán en el punto de "
+"generación de tu dominio."
 
 #: ../../source/host/invite-users.rst:28
 msgid "Add Your Domain to the Explore App"
-msgstr ""
+msgstr "Añade tu Dominio a la Aplicación Explore"
 
 #: ../../source/host/invite-users.rst:30
 msgid ""
 "The Explore app is designed to advertise public domains across the "
 "metaverse."
 msgstr ""
+"La aplicación Explore está diseñada para anunciar dominios públicos en el "
+"metaverso."
 
 #: ../../source/host/invite-users.rst:32
 msgid ""
@@ -2581,6 +2602,15 @@ msgid ""
 "'Standard Permissions', either the 'anonymous' or 'logged-in' group must "
 "have the Connect permission."
 msgstr ""
+"Para aparecer en la aplicación Explore de Vircadia, debes agregar un "
+"marcador de ubicación al abrir la aplicación y dirigirte al lugar de tu "
+"dominio en el que quieras que aparezcan las personas. En tu aplicación, "
+"desplázate hasta la parte inferior y haz clic en el botón \"Add Location\", "
+"complétalo y deberías estar listo. Es posible que quieras abrir tu dominio "
+"al público, para estar abierto a usuarios registrados o a todos. Esto "
+"significa que, en la Configuración de tu dominio, en \"Standard Permissions\""
+", el grupo \"anonymous\" o \"logged-in\" debe tener el permiso Conectar ("
+"Connect Permission)."
 
 #: ../../source/host/invite-users.rst:34
 msgid ""
@@ -2588,10 +2618,14 @@ msgid ""
 " users without permission to connect to your domain. This can be set up "
 "by username, IP address, MAC address or machine fingerprint."
 msgstr ""
+"Para restringir el acceso a tu dominio, deberás crear una lista negra de "
+"usuarios sin permisos para conectarse a tu dominio. Esto se puede configurar "
+"por nombre de usuario, dirección IP, dirección MAC o huella digital de la "
+"máquina."
 
 #: ../../source/host/invite-users.rst:38
 msgid "Promote Your Community Event with Vircadia"
-msgstr ""
+msgstr "Promociona Tu Evento Comunitario con Vircadia"
 
 #: ../../source/host/invite-users.rst:40
 msgid ""
@@ -2600,22 +2634,28 @@ msgid ""
 "`Discord<https://discordapp.com/invite/Pvx2vke>` server and reaching out "
 "to a Core Team Member."
 msgstr ""
+"Para agregar tu evento o experiencia al calendario de nuestro sitio web, "
+"puedes pedirlo a través de nuestro servidor de `Discord<https://discordapp."
+"com/invite/Pvx2vke>` y poniéndote en contacto con un miembro del equipo "
+"central."
 
 #: ../../source/host/invite-users.rst:42
 msgid "It will then be:"
-msgstr ""
+msgstr "Entonces puedes:"
 
 #: ../../source/host/invite-users.rst:44
 msgid "Added to Vircadia's `Events Calendar <https://www.vircadia.com/events>`_"
 msgstr ""
+"Añadirlo al `Calendario de Eventos <https://www.vircadia.com/events>`_ de "
+"Vircadia"
 
 #: ../../source/host/invite-users.rst:45
 msgid "Promoted on Vircadia's social channels"
-msgstr ""
+msgstr "Promocionándolo en los canales sociales de Vircadia"
 
 #: ../../source/host/invite-users.rst:49
 msgid "Blast to Connections"
-msgstr ""
+msgstr "Anuncio a Conexiones"
 
 #: ../../source/host/invite-users.rst:51
 msgid ""
@@ -2625,26 +2665,33 @@ msgid ""
 "and friends <../explore/socialize.html#make-connections-and-friends>`_ "
 "will get notified whenever they come online."
 msgstr ""
+"Si quieres informar a todos tus colegas de Vircadia sobre algo que está "
+"sucediendo en este momento, puedes enviar un anuncio a todas sus conexiones. "
+"En aproximadamente un minuto, todas tus `conexiones y amigos interesados <../"
+"explore/socialize.html#make-connections-and-friends>`_ recibirán una "
+"notificación cada vez que se conecten."
 
 #: ../../source/host/invite-users.rst:53
 msgid "To send a blast notification:"
-msgstr ""
+msgstr "Para enviar una notificación de anuncio:"
 
 #: ../../source/host/invite-users.rst:55 ../../source/host/invite-users.rst:69
 msgid "Take a snapshot of your domain."
-msgstr ""
+msgstr "Toma una instantánea de tu dominio."
 
 #: ../../source/host/invite-users.rst:57 ../../source/host/invite-users.rst:71
 msgid "In Interface, pull up your Tablet or HUD and go to **Snap**."
-msgstr ""
+msgstr "En Interfaz, abre tu tableta o HUD y ve a **Snap**."
 
 #: ../../source/host/invite-users.rst:58 ../../source/host/invite-users.rst:72
 msgid "In the Snapshot app, press the large red circle to capture a snapshot."
 msgstr ""
+"En la aplicación Snapshot, presiona el círculo rojo grande para capturar una "
+"instantánea."
 
 #: ../../source/host/invite-users.rst:59
 msgid "Choose to 'Share: Blast to Connections'."
-msgstr ""
+msgstr "Elije \"Share: Blast to Connections\"."
 
 #: ../../source/host/invite-users.rst:61
 msgid ""
@@ -2653,22 +2700,28 @@ msgid ""
 " them directly to the place where the picture was taken within the "
 "metaverse."
 msgstr ""
+"Cuando un amigo o contacto haga click en la notificación, se abrirá la "
+"aplicación GoTo con tu instantánea disponible. Al hacer click en la "
+"instantánea, los llevará directamente al lugar donde se tomó la imagen "
+"dentro del metaverso."
 
 #: ../../source/host/invite-users.rst:65
 msgid "Post a Snapshot on Social Media"
-msgstr ""
+msgstr "Publicar una Instantánea en las Redes Sociales"
 
 #: ../../source/host/invite-users.rst:67
 msgid "You can also share your domain directly to Twitter or Facebook. To do so:"
 msgstr ""
+"También puedes compartir tu dominio directamente en Twitter o Facebook. Para "
+"hacerlo:"
 
 #: ../../source/host/invite-users.rst:73
 msgid "Choose to 'Share to Facebook' or 'Share to Twitter'."
-msgstr ""
+msgstr "Elije \"Share to Facebook\" o \"Share to Twitter\"."
 
 #: ../../source/host/invite-users.rst:74
 msgid "Log in to your social media account."
-msgstr ""
+msgstr "Inicia sesión en tus cuentas de redes sociales."
 
 #: ../../source/host/invite-users.rst:76
 msgid ""
@@ -2678,30 +2731,35 @@ msgid ""
 "where the picture was taken within the metaverse (if they have Interface "
 "installed)."
 msgstr ""
+"Cuando alguien haga click en la historia en tu feed de Facebook o Twitter, "
+"se lo lleva a una página que le brinda más información sobre el dominio. Al "
+"hacer click en la imagen o en el botón \"visit\" en esa página, los llevará "
+"al lugar donde se tomó la imagen dentro del metaverso (si tienen instalada "
+"la interfaz)."
 
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/backup-domain.rst:3
 msgid "Backup and Restore Your Domain"
-msgstr ""
+msgstr "Copia de Seguridad y Restauración de Tu Dominio"
 
 #: ../../source/host/maintain-domain.rst:7
 msgid "Manage Domain Visitors"
-msgstr ""
+msgstr "Administrar Disitantes del Dominio"
 
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/update-software.rst:3
 msgid "Update to the Latest Version"
-msgstr ""
+msgstr "Actualizar a la Última Versión"
 
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/script-maintenance.rst:3
 msgid "Maintain Your Domain with Scripts"
-msgstr ""
+msgstr "Mantener Tu Dominio con Scripts"
 
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/view-logs.rst:3
 msgid "View Domain Server Logs"
-msgstr ""
+msgstr "Ver Registros del Servidor de Dominio"
 
 #: ../../source/host/maintain-domain.rst:5
 msgid ""
@@ -2711,6 +2769,13 @@ msgid ""
 "creating backups, managing unruly visitors, updating software, and "
 "cleaning the domain of unnecessary entities and extraneous content."
 msgstr ""
+"Los servidores de dominio generalmente son administrados y mantenidos por "
+"administradores. Como propietario del dominio, es probable que debas asumir "
+"cierta responsabilidad para mantener tu servidor funcionando en buenas "
+"condiciones. Algunas de estas tareas incluyen la creación de copias de "
+"seguridad, la gestión de visitantes indisciplinados, la actualización de "
+"software y la limpieza del dominio de entidades innecesarias y contenido "
+"extraño."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:5
 msgid ""
@@ -2721,10 +2786,17 @@ msgid ""
 "that you periodically download copies of these backups to your computer "
 "as a secondary backup."
 msgstr ""
+"Te recomendamos que hagas copias de seguridad de tu dominio en caso de "
+"pérdida de datos o robo. Si bien el servidor de tu dominio realiza copias de "
+"seguridad automáticas periódicamente del contenido de tu dominio, depende de "
+"ti configurar la frecuencia con la que se realizan estas copias de "
+"seguridad. Además, te recomendamos que descargues periódicamente copias de "
+"estas copias de seguridad en tu computadora como una copia de seguridad "
+"secundaria."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:12
 msgid "Automatic Content Archives"
-msgstr ""
+msgstr "Archivos Automáticos de Contenido"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:14
 msgid ""
@@ -2732,40 +2804,54 @@ msgid ""
 "By default, it saves a backup rolling every 30 days, every week, every "
 "day, and every half hour. To change the frequency of these backups:"
 msgstr ""
+"Tu servidor de dominio realiza archivos periódicos del contenido de tu "
+"dominio. Por defecto, guarda una copia de seguridad cada 30 días, también "
+"puede hacerlo cada semana, cada día y cada media hora. Para cambiar la "
+"frecuencia de estas copias de seguridad:"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:22
 msgid "On the top menu bar, select **Settings > Automatic Content Archives**."
 msgstr ""
+"En la barra de menú superior, selecciona **Settings > Automatic Content "
+"Archives**."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:23
 msgid "Under 'Rolling Backup Rules', click the ``+`` icon."
-msgstr ""
+msgstr "Debajo de \"Rolling Backup Rules\", haz click en el ícono ``+``."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:24
 msgid ""
 "Enter a name for the rule, along with the backup interval (in seconds) "
 "and the number of backups to store on the server."
 msgstr ""
+"Ingresa un nombre para la regla, junto con el intervalo de copia de "
+"seguridad (en segundos) y la cantidad de copias de seguridad para almacenar "
+"en el servidor."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:25
 msgid "Click the ``X`` icon next to any rule you want to delete."
 msgstr ""
+"Haz click en el ícono ``X`` junto a cualquier regla que quieras eliminar."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:28
 msgid "To access your content archives:"
-msgstr ""
+msgstr "Para acceder a tus archivos de contenido:"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:33
 msgid "The automatic backups will be listed under 'Automatic Content Archives'."
 msgstr ""
+"Las copias de seguridad automáticas se enumerarán en \"Automatic Content "
+"Archives\"."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:37
 msgid "Manually Backup Your Domain Content"
-msgstr ""
+msgstr "Copia de Seguridad Manual del Contenido de Tu Dominio"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:39
 msgid "In the case you need a backup on demand, you can create one:"
 msgstr ""
+"En el caso de que necesites una copia de seguridad bajo demanda (on demand), "
+"puedes crear una:"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:43
 msgid ""
@@ -2773,14 +2859,18 @@ msgid ""
 " your server's IP address here>:40100/cloud_domains. Log in when "
 "prompted."
 msgstr ""
+"Para dominios alojados en la nube: abre un navegador e ingresa la URL http://"
+"<inserte la dirección IP de su servidor aquí>:40100/cloud_domains. Inicia "
+"sesión cuando te solicite."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:49
 msgid "Enter a name for your archive and click 'Generate Archive'."
 msgstr ""
+"Introduce un nombre para tu archivo y haz click en \"Generate Archive\"."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:51
 msgid "It will appear just below the 'Generate New Archive' button."
-msgstr ""
+msgstr "Aparecerá justo debajo del botón \"Generate New Archive\"."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:55
 msgid "Download Content Archives"
