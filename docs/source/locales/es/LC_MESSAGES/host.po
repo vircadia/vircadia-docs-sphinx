@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-06-05 22:02+0000\n"
+"PO-Revision-Date: 2022-06-12 19:56+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -2874,31 +2874,31 @@ msgstr "Aparecerá justo debajo del botón \"Generate New Archive\"."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:55
 msgid "Download Content Archives"
-msgstr ""
+msgstr "Descargar Archivos de Contenido"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:57
 msgid "To download any content archive (automatic or manual):"
-msgstr ""
+msgstr "Para descargar cualquier archivo de contenido (automático o manual):"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:66
 msgid "Locate the content archive you want to download."
-msgstr ""
+msgstr "Busca el archivo de contenido que quieras descargar."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:71
 msgid "Restore a Domain's Content"
-msgstr ""
+msgstr "Restaurar el Contenido de un Dominio"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:73
 msgid "To restore content to a previous archive on this domain:"
-msgstr ""
+msgstr "Para restaurar el contenido a un archivo previo en este dominio:"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:82
 msgid "Locate the content archive you want to restore."
-msgstr ""
+msgstr "Localiza el archivo de contenido que quieras restaurar."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:83
 msgid "From the Actions menu, click 'Restore from here'."
-msgstr ""
+msgstr "En el menú Acciones, haz click en \"Restore from here\"."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:84
 #: ../../source/host/maintain-domain/backup-domain.rst:93
@@ -2907,36 +2907,43 @@ msgid ""
 "with the restored content set. At this point, your domain server will "
 "restart and the new content will be deployed in your domain."
 msgstr ""
+"Confirma que estás seguro de que quieres reemplazar tu contenido actual con "
+"el conjunto de contenido restaurado. En este punto, tu servidor de dominio "
+"se reiniciará y el nuevo contenido se implementará en tu dominio."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:86
 msgid "To restore content from a downloaded content archive:"
-msgstr ""
+msgstr "Para restaurar contenido de un archivo de contenido descargado:"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:91
 msgid "Browse to the downloaded content archive."
-msgstr ""
+msgstr "Ve al archivo de contenido descargado."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:97
 msgid "Backup Your Domain Settings"
-msgstr ""
+msgstr "Copia de Seguridad de la Configuración de Tu Dominio"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:99
 msgid ""
 "To backup your domain's so you can quickly configure another domain or "
 "restore them later:"
 msgstr ""
+"Para hacer una copia de seguridad de tu dominio para que puedas configurar "
+"rápidamente otro dominio o restaurarlo más tarde:"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:107
 msgid "On the top menu bar, select **Settings > Setting Backup /Restore**."
 msgstr ""
+"En la barra de menú superior, selecciona **Settings > Setting Backup "
+"/Restore**."
 
 #: ../../source/host/maintain-domain/backup-domain.rst:108
 msgid "Click 'Download Domain Settings'."
-msgstr ""
+msgstr "Haz click en \"Download Domain Settings\"."
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:3
 msgid "Maintain Domain Visitors"
-msgstr ""
+msgstr "Mantener Visitantes del Dominio"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:5
 msgid ""
@@ -2945,6 +2952,10 @@ msgid ""
 "being rude and uncooperative, you have the ability to silence or ban "
 "users from your domain."
 msgstr ""
+"Ocasionalmente, puedes llegar a tener usuarios que no quieres en tu dominio. "
+"Ya sea que hayas olvidado establecer los permisos de usuario correctos o que "
+"la persona sea grosera y no coopere, tienes la capacidad de silenciar o "
+"prohibir el acceso de los usuarios a tu dominio."
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:7
 msgid ""
@@ -2953,10 +2964,14 @@ msgid ""
 ":doc:`user permission enabled <../configure-settings/permission-"
 "settings>` before attempting to monitor the users in your domain."
 msgstr ""
+"Estas funciones administrativas de silenciar y prohibir a los usuarios de un "
+"dominio requieren el permiso \"Kick Users\". Asegúrate de tener este :doc:`"
+"permiso de usuario habilitado <../configure-settings/permission-settings>`"
+"antes de intentar monitorear a los usuarios en tu dominio."
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:14
 msgid "Silence a User in Your Domain"
-msgstr ""
+msgstr "Silenciar a un Usuario en Tu Dominio"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:16
 msgid ""
@@ -2966,55 +2981,67 @@ msgid ""
 "background noise, and white noise are audio issues people have when they "
 "first download Vircadia)."
 msgstr ""
+"Muchas veces, un visitante en tu dominio simplemente no tiene la "
+"configuración de audio correcta definida en su computadora. Como resultado, "
+"es posible que emitan sonidos incómodos en tu dominio (la respiración "
+"agitada, el tecleo, el ruido de fondo y el ruido blanco son problemas de "
+"audio que tienen las personas cuando descargan Vircadia por primera vez)."
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:18
 msgid "To silence a specific user in your domain:"
-msgstr ""
+msgstr "Para silenciar a un usuario específico en tu dominio:"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:20
 #: ../../source/host/maintain-domain/manage-visitors.rst:35
 msgid "Visit your domain."
-msgstr ""
+msgstr "Visita tu dominio."
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:21
 #: ../../source/host/maintain-domain/manage-visitors.rst:36
 msgid "In Interface, pull up your Tablet or HUD and go to **People**."
-msgstr ""
+msgstr "En la interface, abre tu Tableta o HUD y ve a **People**."
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:22
 #: ../../source/host/maintain-domain/manage-visitors.rst:37
 msgid "Locate the user you would like to silence."
-msgstr ""
+msgstr "Localiza al usuario que quieras silenciar."
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:23
 msgid "Under the 'Admin' section, click the icon in the 'Silence' column."
 msgstr ""
+"Debajo de la sección \"Admin\", haz click en el ícono de la columna \"Silence"
+"\"."
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:25
 msgid "This will mute the user for everyone in the domain."
-msgstr ""
+msgstr "Esto silenciará al usuario para todos en el dominio."
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:29
 msgid "Ban a User from Your Domain"
-msgstr ""
+msgstr "Prohibir a un Usuario de Tu Dominio"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:31
 msgid "In some cases, a user may cause themselves to be unwelcome in your domain."
 msgstr ""
+"En algunos casos, un usuario puede provocar que ya no sea bienvenido en tu "
+"dominio."
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:33
 msgid "To permanently ban a visitor from your domain:"
-msgstr ""
+msgstr "Para prohibir permanentemente a un visitante de tu dominio:"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:38
 msgid "Under the 'Admin' section, click the icon in the 'Ban' column."
 msgstr ""
+"Debajo de la sección \"Admin\", haz clik en el ícono de la columna \"Ban\"."
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:40
 msgid ""
 "The user will not be able to enter the domain using the same account; "
 "however, they will still have access to other Vircadia domains."
 msgstr ""
+"El usuario no podrá ingresar al dominio utilizando la misma cuenta; sin "
+"embargo, seguirán teniendo acceso a otros dominios de Vircadia."
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:5
 msgid ""
@@ -3025,10 +3052,16 @@ msgid ""
 "help you inspect the contents of your domain, or identify loud avatars  "
 "and them in your domain."
 msgstr ""
+"Puedes \"limpiar\" tu dominio usando un :doc:`script de asignación de "
+"cliente <../../script/assignment-client-scripts>`que realice regularmente "
+"tareas de mantenimiento en tu dominio. Por ejemplo, un script puede eliminar "
+"entidades que no forman parte de tu conjunto de contenido predeterminado, "
+"cargar herramientas para ayudarte a inspeccionar el contenido de tu dominio "
+"o identificar avatares ruidosos en tu dominio."
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:12
 msgid "Write a Script"
-msgstr ""
+msgstr "Escribir un Script"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:14
 msgid ""
@@ -3039,40 +3072,49 @@ msgid ""
 "state every 1 hour. This means that any other entities rezz'd in our "
 "domain will be deleted within the hour by the script::"
 msgstr ""
+"Con los scripts, puedes usar nuestra amplia `API de JavaScript "
+"<https://apidocs.vircadia.dev>`_ para codificar cualquier tarea que tu "
+"experiencia en programación y creatividad puedan generar. Aquí, hemos "
+"escrito un script de asignación de cliente de ejemplo que devuelve el "
+"contenido de nuestro dominio a su estado predeterminado cada 1 hora. Esto "
+"significa que cualquier otra entidad invocada en nuestro dominio será "
+"eliminada dentro de una hora por el script::"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:65
 msgid "Add Assignment Client Script to Domain"
-msgstr ""
+msgstr "Añadir un Script de Asignación de Cliente al Dominio"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:67
 msgid "To run your script on your domain:"
-msgstr ""
+msgstr "Para ejecutar tu script en tu dominio:"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:69
 msgid "Save and upload your script to a cloud hosting site."
-msgstr ""
+msgstr "Guarda y carga tu script en un sitio de alojamiento en la nube."
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:76
 msgid "On the top menu bar, select **Content > Scripts**."
-msgstr ""
+msgstr "En la barra de menú superior, selecciona **Content > Scripts**."
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:77
 msgid "Under 'Persistent Scripts', click the ``+`` icon."
-msgstr ""
+msgstr "Debajo de \"Persistent Scripts\", haz click en el ícono ``+``."
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:78
 msgid "Paste the URL to your script under ‘Script URL’."
-msgstr ""
+msgstr "Pega la URL de tu script en \"Script URL\"."
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:79
 msgid "Save and restart your domain."
-msgstr ""
+msgstr "Guarda y reinicia tu dominio."
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:81
 msgid ""
 "Now, the script will be running persistently on your domain until you "
 "either remove it or shut down the domain entirely."
 msgstr ""
+"Ahora, el script se ejecutará de manera persistente en tu dominio hasta que "
+"lo elimines o cierres el dominio por completo."
 
 #: ../../source/host/maintain-domain/update-software.rst:5
 msgid ""
@@ -3081,6 +3123,10 @@ msgid ""
 "version has been released, all of our users will be prompted to update to"
 " the latest (and most stable) release."
 msgstr ""
+"Vircadia siempre está cambiando, ya que trabajamos para mejorar el "
+"rendimiento y agregar funciones que mejorarán tu experiencia en el "
+"metaverso. Si se ha lanzado una nueva versión, se pedirá a todos nuestros "
+"usuarios que actualicen a la versión más reciente (y más estable)."
 
 #: ../../source/host/maintain-domain/update-software.rst:12
 msgid "Protocol Compatibility"
