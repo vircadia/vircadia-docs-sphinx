@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-06-12 19:56+0000\n"
+"PO-Revision-Date: 2022-06-19 20:47+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -3130,7 +3130,7 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/update-software.rst:12
 msgid "Protocol Compatibility"
-msgstr ""
+msgstr "Compatibilidad de Protocolo"
 
 #: ../../source/host/maintain-domain/update-software.rst:14
 msgid ""
@@ -3139,26 +3139,37 @@ msgid ""
 "across versions. Some of our releases include protocol changes, and will "
 "affect the visitors who can visit your domain."
 msgstr ""
+"Vircadia requiere que el cliente y el servidor (el software instalado del "
+"visitante y el software del servidor) mantengan la compatibilidad del "
+"protocolo entre versiones. Algunos de nuestros comunicados (releases) "
+"incluyen cambios de protocolo y afectarán a los visitantes que pueden "
+"visitar tu dominio."
 
 #: ../../source/host/maintain-domain/update-software.rst:16
 msgid ""
 "An updated client version will be unable to connect to a domain that is "
 "not updated."
 msgstr ""
+"Una versión de cliente actualizada no podrá conectarse a un dominio que no "
+"esté actualizado."
 
 #: ../../source/host/maintain-domain/update-software.rst:17
 msgid ""
 "A client running an older version will be unable to connect to a domain "
 "that is running a new version."
 msgstr ""
+"Un cliente que ejecute una versión anterior no podrá conectarse a un dominio "
+"que esté ejecutando una nueva versión."
 
 #: ../../source/host/maintain-domain/update-software.rst:19
 msgid "Both of these will result in an error message \"Protocol Mismatch\"."
 msgstr ""
+"Ambos casos darán como resultado un mensaje de error \"Protocol Mismatch\" ("
+"Protocolo no coincide)."
 
 #: ../../source/host/maintain-domain/update-software.rst:23
 msgid "Upgrade Your Domain Server"
-msgstr ""
+msgstr "Actualiza Tu Servidor de Dominio"
 
 #: ../../source/host/maintain-domain/update-software.rst:25
 msgid ""
@@ -3169,10 +3180,16 @@ msgid ""
 " your version), we strongly recommend that you upgrade your domain server"
 " to the newest release."
 msgstr ""
+"Debido a que se recomienda a todos los usuarios de Vircadia que actualicen a "
+"la última versión, es muy probable que la mayoría de tus visitantes estén "
+"ejecutando la versión más reciente de Vircadia. Por lo tanto, si ha habido "
+"un cambio de protocolo (mira las :doc:`Notas de Release <../../release-"
+"notes>` para tu versión), le recomendamos enfáticamente que actualices tu "
+"servidor de dominio a la última versión."
 
 #: ../../source/host/maintain-domain/update-software.rst:27
 msgid "To update a local server on Windows:"
-msgstr ""
+msgstr "Para actualizar un servidor local en Windows:"
 
 #: ../../source/host/maintain-domain/update-software.rst:29
 msgid ""
@@ -3180,10 +3197,13 @@ msgid ""
 "/download-vircadia/#server>`_ from Vircadia's website or download the "
 "upgrade when prompted to on your server."
 msgstr ""
+"Descarga el último `instalador de Cliente + Sandbox <https://vircadia.com/"
+"download-vircadia/#server>`_ del sitio web de Vircadia o descarga la "
+"actualización cuando te lo solicite tu servidor."
 
 #: ../../source/host/maintain-domain/update-software.rst:30
 msgid "On your local server, quit Sandbox:"
-msgstr ""
+msgstr "En tu servidor local, sal de Sandbox:"
 
 #: ../../source/host/maintain-domain/update-software.rst:32
 msgid ""
@@ -3191,20 +3211,26 @@ msgid ""
 "'Quit'. Alternatively, end the ‘server-console’ background process using "
 "the Task Manager."
 msgstr ""
+"En Windows: Haz click en el ícono de Vircadia en la bandeja del sistema, "
+"luego haz click en \"Quit\". Alternativamente, finaliza el proceso en "
+"segundo plano de la \"server-console\" utilizando el Administrador de Tareas."
 
 #: ../../source/host/maintain-domain/update-software.rst:34
 msgid "Run the installer."
-msgstr ""
+msgstr "Ejecuta el instalador."
 
 #: ../../source/host/maintain-domain/update-software.rst:36
 msgid ""
 "After installation, check your local server's domain settings to ensure "
 "that its running the most recent version."
 msgstr ""
+"Después de la instalación, verifica la configuración de dominio de tu "
+"servidor local para asegurarte de que estés ejecutando la versión más "
+"reciente."
 
 #: ../../source/host/maintain-domain/update-software.rst:38
 msgid "To update a server on Linux:"
-msgstr ""
+msgstr "Para actualizar un servidor en Linux:"
 
 #: ../../source/host/maintain-domain/update-software.rst:40
 msgid ""
@@ -3212,12 +3238,17 @@ msgid ""
 " <https://docs.vircadia.com/host/server-setup/linux-"
 "server.html#installation>`_."
 msgstr ""
+"Ejecute los mismos comandos que usaste para instalar tu servidor `aquí "
+"<https://docs.vircadia.com/host/server-setup/linux-server."
+"html#installation>`_."
 
 #: ../../source/host/maintain-domain/update-software.rst:42
 msgid ""
 "After installation, check your server's domain settings to ensure that "
 "its running the most recent version."
 msgstr ""
+"Después de la instalación, verifica la configuración de dominio de tu "
+"servidor para asegurarte de que estés ejecutando la versión más reciente."
 
 #: ../../source/host/maintain-domain/view-logs.rst:5
 msgid ""
@@ -3226,18 +3257,26 @@ msgid ""
 "domain and understand how the different parts of your domain communicate "
 "with each other."
 msgstr ""
+"Los registros de nuestro servidor de dominio enumeran los diferentes eventos "
+"relevantes para tu dominio de Vircadia. Estos pueden ayudarte a solucionar "
+"cualquier problema con tu dominio y comprender cómo las diferentes partes de "
+"tu dominio se comunican entre sí."
 
 #: ../../source/host/maintain-domain/view-logs.rst:7
 msgid ""
 "Server logs are stored directly on the server and can be accessed as "
 "follows:"
 msgstr ""
+"Los registros del servidor se almacenan directamente en el servidor y se "
+"puede acceder a ellos de la siguiente manera:"
 
 #: ../../source/host/maintain-domain/view-logs.rst:9
 msgid ""
 "**Windows**: Logs can be found in the directory "
 "``%AppData%\\Local\\Vircadia\\Server Console\\logs``"
 msgstr ""
+"**Windows**: Los registros se pueden encontrar en el directorio ``%AppData%"
+"\\Local\\Vircadia\\Server Console\\logs``"
 
 #: ../../source/host/maintain-domain/view-logs.rst:10
 msgid ""
@@ -3246,18 +3285,24 @@ msgid ""
 "``journalctl -u vircadia-assignment-client@default.service`` for the "
 "assignment client."
 msgstr ""
+"**Linux**: Se puede acceder a los registros ejecutando el comando ``"
+"journalctl -u vircadia-domain-server@default.service`` para el servidor de "
+"dominio, o ``journalctl -u vircadia-assignment-client@default.service`` para "
+"el cliente de la asignación."
 
 #: ../../source/host/quick-start.rst:3
 msgid "Hosting Quick Start"
-msgstr ""
+msgstr "Inicio Rápido de Alojamiento (Hosting)"
 
 #: ../../source/host/quick-start.rst:10
 msgid "Notice: Port Forwarding"
-msgstr ""
+msgstr "Aviso: Reenvío de Puertos"
 
 #: ../../source/host/quick-start.rst:12
 msgid "There are two ways to make a domain accessible from the outside Internet."
 msgstr ""
+"Hay dos formas de hacer que un dominio sea accesible desde el exterior de "
+"Internet."
 
 #: ../../source/host/quick-start.rst:14
 msgid ""
@@ -3265,28 +3310,33 @@ msgid ""
 "`Domain ID` in the domain's web panel found at http://localhost:40100/. "
 "(Experimental)"
 msgstr ""
+"Puedes registrar tu dominio con el servidor de Metaverse creando un \"Domain "
+"ID\" en el panel web del dominio que se encuentra en http://localhost:40100/"
+". (Experimental)"
 
 #: ../../source/host/quick-start.rst:15
 msgid ""
 "Alternatively, you can manually open the following ports on your router "
 "and firewall:"
 msgstr ""
+"Alternativamente, puedes abrir manualmente los siguientes puertos en tu "
+"enrutador (router) y firewall:"
 
 #: ../../source/host/quick-start.rst:17
 msgid "40100 : (tcp) administration web portal"
-msgstr ""
+msgstr "40100 : (tcp) portal web de administracion"
 
 #: ../../source/host/quick-start.rst:18
 msgid "40102 : (udp) main connection for clients"
-msgstr ""
+msgstr "40102 : (udp) conexión principal para clientes"
 
 #: ../../source/host/quick-start.rst:22
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../source/host/quick-start.rst:24
 msgid "Download Vircadia (full, not Interface only)."
-msgstr ""
+msgstr "Descarga Vircadia (completa, no solo interfaz)."
 
 #: ../../source/host/quick-start.rst:25
 msgid ""
@@ -3294,10 +3344,13 @@ msgid ""
 "Interface` and `Vircadia Server` options are checked. Vircadia Server is "
 "the Domain server."
 msgstr ""
+"Usa la opción de instalación `Custom `y asegúrate de que tanto las opciones "
+"de `Vircadia Interface` y `Vircadia Server` estén marcadas. Vircadia Server "
+"es el servidor de Dominio."
 
 #: ../../source/host/quick-start.rst:29
 msgid "In your start menu, search for and run `Vircadia Server`."
-msgstr ""
+msgstr "En tu menú de inicio, busca y ejecuta `Vircadia Server`."
 
 #: ../../source/host/quick-start.rst:30
 msgid ""
@@ -3305,61 +3358,72 @@ msgid ""
 "wizard to set up your domain. If the server is on a different machine, "
 "then replace 'localhost' with its IP address."
 msgstr ""
+"Ve a ``http://localhost:40100/`` en tu navegador web y completa el asistente "
+"para configurar tu dominio. Si el servidor está en una máquina diferente, "
+"reemplaza 'localhost' con su dirección IP."
 
 #: ../../source/host/quick-start.rst:31
 msgid ""
 "In your Vircadia Interface, open the `Explore` app and enter `localhost` "
 "(or the server's IP address) to get there."
 msgstr ""
+"En tu interfaz de Vircadia, abre la aplicación `Explore` e ingresa "
+"`localhost` (o la dirección IP del servidor) para llegar allí."
 
 #: ../../source/host/quick-start.rst:35
 msgid "Ubuntu 18.04 Linux (.deb)"
-msgstr ""
+msgstr "Ubuntu 18.04 Linux (.deb)"
 
 #: ../../source/host/quick-start.rst:37
 msgid "Open your terminal."
-msgstr ""
+msgstr "Abre tu terminal."
 
 #: ../../source/host/quick-start.rst:38
 msgid "Run the following command to download the server package:"
-msgstr ""
+msgstr "Ejecuta el siguiente comando para descargar el paquete del servidor:"
 
 #: ../../source/host/quick-start.rst:40
 msgid "wget |serverdeb|"
-msgstr ""
+msgstr "wget |serverdeb|"
 
 #: ../../source/host/quick-start.rst:42
 msgid "Then run this command to update the package index and install the server:"
 msgstr ""
+"Luego ejecuta este comando para actualizar el índice del paquete e instalar "
+"el servidor:"
 
 #: ../../source/host/quick-start.rst:44
 msgid "sudo apt-get update && sudo apt-get install ./|serverdebfile|"
-msgstr ""
+msgstr "sudo apt-get update && sudo apt-get install ./|serverdebfile|"
 
 #: ../../source/host/quick-start.rst:46
 msgid ""
 "Go to ``http://[IP address of your server]:40100/`` in your web browser "
 "and complete the wizard to set up your domain."
 msgstr ""
+"Ve a ``http://[IP address of your server]:40100/`` en tu navegador web y "
+"completa el asistente para configurar tu dominio."
 
 #: ../../source/host/quick-start.rst:47
 msgid ""
 "In your Vircadia Interface, open the `Explore` app and enter your "
 "server's IP address to get there."
 msgstr ""
+"En tu interfaz de Vircadia, abre la aplicación `Explore` e ingresa la "
+"dirección IP de tu servidor para llegar allí."
 
 #: ../../source/host/server-setup.rst:34
 msgid "Host a Domain from a Local Windows Server"
-msgstr ""
+msgstr "Aloja un Dominio desde un Servidor Local de Windows"
 
 #: ../../source/host/server-setup.rst:34
 #: ../../source/host/server-setup/linux-server.md:1
 msgid "Host a Domain from a Local or Cloud Linux Server"
-msgstr ""
+msgstr "Aloja un Dominio desde un Servidor Linux Local o en la Nube"
 
 #: ../../source/host/server-setup.rst:3
 msgid "Set up a Domain Server"
-msgstr ""
+msgstr "Configurar un Servidor de Dominio"
 
 #: ../../source/host/server-setup.rst:5
 msgid ""
@@ -3368,14 +3432,18 @@ msgid ""
 "general, we recommend using local servers for private events and "
 "gatherings, and cloud services for larger public venues."
 msgstr ""
+"Dependiendo de tus requisitos, puedes alojar tu dominio en una computadora "
+"física (convirtiéndola en un servidor local) o en servidores en la nube. En "
+"general, recomendamos usar servidores locales para eventos y reuniones "
+"privadas, y servicios en la nube para lugares públicos más grandes."
 
 #: ../../source/host/server-setup.rst:10
 msgid "Pros"
-msgstr ""
+msgstr "Pros"
 
 #: ../../source/host/server-setup.rst:10
 msgid "Cons"
-msgstr ""
+msgstr "Contras"
 
 #: ../../source/host/server-setup.rst:12
 msgid "Local Server"
