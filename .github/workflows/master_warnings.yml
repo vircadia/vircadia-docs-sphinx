@@ -65,3 +65,9 @@ jobs:
       run: |
         cd docs
         make BUILDDIR=build-ko SPHINXOPTS="-Dlanguage=ko -W --keep-going" html
+    - name: Check Korean documentation
+      if: ${{ success() || failure() }}
+      shell: bash
+      run: |
+        cd docs
+        make BUILDDIR=build-zh_CN SPHINXOPTS="-Dlanguage=zh_CN -W --keep-going" html
