@@ -116,6 +116,15 @@ jobs:
         mkdir -p build-archives
         cd build-ko/html/
         tar -czvf ../../build-archives/build-ko.tar.gz *
+
+    - name: Build simplified chinese documentation
+      shell: bash
+      run: |
+        cd docs
+        make BUILDDIR=build-ko SPHINXOPTS="-Dlanguage=zh_CN" html
+        mkdir -p build-archives
+        cd build-zh_CN/html/
+        tar -czvf ../../build-archives/build-zh_CN.tar.gz *
     - name: Upload translated documentation
       uses: JulianGro/SFTP-Deploy-Action@v1.8
       with:
@@ -145,3 +154,7 @@ jobs:
       shell: bash
       run: |
         sshpass -p '${{ secrets.GHA_DOCS_SSH_PASS }}' ssh -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/ko/ && tar -xvzf /httpdocs/build-ko.tar.gz -C /httpdocs/ko/ && rm /httpdocs/build-ko.tar.gz"
+    - name: Deploy simplified chinese documentation
+      shell: bash
+      run: |
+        sshpass -p '${{ secrets.GHA_DOCS_SSH_PASS }}' ssh -o StrictHostKeyChecking=no docs-vircadia-com@192.64.118.213 "mkdir -p /httpdocs/zh_CN/ && tar -xvzf /httpdocs/build-zh_CN.tar.gz -C /httpdocs/zh_CN/ && rm /httpdocs/build-zh_CN.tar.gz"

@@ -62,6 +62,10 @@ The following translations are available:
               :class: inline
               :target: https://weblate.vircadia.dev/engage/vircadia-documentation/ko/?utm_source=widget
 
+.. |zh_CN_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/zh_Hans/svg-badge.svg
+              :class: inline
+              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/zh_Hans/?utm_source=widget
+
 -------------------------
 What can I do?
 -------------------------
