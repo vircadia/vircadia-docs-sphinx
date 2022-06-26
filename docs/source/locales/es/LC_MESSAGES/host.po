@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-06-19 20:47+0000\n"
+"PO-Revision-Date: 2022-06-26 18:44+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -3447,19 +3447,19 @@ msgstr "Contras"
 
 #: ../../source/host/server-setup.rst:12
 msgid "Local Server"
-msgstr ""
+msgstr "Servidor Local"
 
 #: ../../source/host/server-setup.rst:12
 msgid "No hosting or maintenance fees"
-msgstr ""
+msgstr "Sin tarifas de alojamiento o mantenimiento"
 
 #: ../../source/host/server-setup.rst:13
 msgid "Control over the hosted environment"
-msgstr ""
+msgstr "Control sobre el entorno alojado"
 
 #: ../../source/host/server-setup.rst:14
 msgid "Ideal for private domains"
-msgstr ""
+msgstr "Ideal para dominios privados"
 
 #: ../../source/host/server-setup.rst:12
 msgid ""
@@ -3468,54 +3468,69 @@ msgid ""
 "visitors you plan to have, you may need more than the minimum "
 "requirements"
 msgstr ""
+"El hardware y la red deben poder manejar la carga de visitantes y el "
+"conjunto de contenido. Según la complejidad de tu conjunto de dominio y la "
+"cantidad de visitantes que planeas tener, es posible que necesites más que "
+"los requisitos mínimos"
 
 #: ../../source/host/server-setup.rst:19
 msgid "Cloud Server"
-msgstr ""
+msgstr "Servidor en la Nube"
 
 #: ../../source/host/server-setup.rst:19
 msgid "No need to have expensive hardware on hand to host a domain"
-msgstr ""
+msgstr "No es necesario tener hardware costoso a mano para alojar un dominio"
 
 #: ../../source/host/server-setup.rst:21
 msgid ""
 "Ability to easily re-scale servers, adjusting memory or transfer to "
 "support more or less visitors"
 msgstr ""
+"Capacidad para volver a escalar fácilmente los servidores, ajustando la "
+"memoria o la transferencia para soportar más o menos visitantes"
 
 #: ../../source/host/server-setup.rst:24
 msgid ""
 "A secure environment separate from your personal computer, protecting "
 "yourself from hacking attempts or griefers"
 msgstr ""
+"Un entorno seguro separado de tu computadora personal, protegiéndote de "
+"intentos de piratería o acosadores"
 
 #: ../../source/host/server-setup.rst:28
 msgid "Ideal for large, public domains for hosting events or open gathering areas"
 msgstr ""
+"Ideal para grandes dominios públicos para alojar eventos o áreas de reunión "
+"abiertas"
 
 #: ../../source/host/server-setup.rst:19
 msgid "Monthly subscription cost"
-msgstr ""
+msgstr "Costo de suscripción mensual"
 
 #: ../../source/host/server-setup.rst:20
 msgid "Service outages may occur with the cloud provider"
 msgstr ""
+"Las interrupciones del servicio pueden ocurrir con el proveedor de la nube"
 
 #: ../../source/host/server-setup.rst:32
 msgid ""
 "Once you've decided what hosting platform to use, you're ready to set it "
 "up:"
 msgstr ""
+"Una vez que hayas decidido qué plataforma de alojamiento usar, estarás listo "
+"para configurarla:"
 
 #: ../../source/host/server-setup/linux-server.md:3
 msgid ""
 "The Vircadia packages can help you get your own domain up and running "
 "quickly."
 msgstr ""
+"Los paquetes de Vircadia pueden ayudarte a poner en marcha tu propio dominio "
+"rápidamente."
 
 #: ../../source/host/server-setup/linux-server.md:5
 msgid "Installation"
-msgstr ""
+msgstr "Instalación"
 
 #: ../../source/host/server-setup/linux-server.md:7
 msgid ""
@@ -3523,6 +3538,9 @@ msgid ""
 " it if the original domain was installed using the package. Packages are "
 "currently available for the following distributions:"
 msgstr ""
+"Puedes ejecutar estos mismos comandos en un dominio existente de Vircadia "
+"para actualizarlo si el dominio original se instaló usando el paquete. Los "
+"paquetes están actualmente disponibles para las siguientes distribuciones:"
 
 #: ../../source/host/server-setup/linux-server.md:9
 msgid "Ubuntu Server 18.04 LTS (2022.1.1 Selene)"
@@ -3538,7 +3556,7 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:29
 msgid "Unlisted Distribution"
-msgstr ""
+msgstr "Distribución No listada"
 
 #: ../../source/host/server-setup/linux-server.md:31
 msgid ""
@@ -3546,22 +3564,30 @@ msgid ""
 " server from source with the [Linux build "
 "guide](https://github.com/vircadia/vircadia/blob/master/BUILD_LINUX.md)."
 msgstr ""
+"Si no ves tu distribución listada aquí, puedes compilar tu propio servidor "
+"desde la fuente con la [Guía de compilación de Linux](https://github.com/"
+"vircadia/vircadia/blob/master/BUILD_LINUX.md)."
 
 #: ../../source/host/server-setup/linux-server.md:33
 msgid "Configuration"
-msgstr ""
+msgstr "Configuración"
 
 #: ../../source/host/server-setup/linux-server.md:35
 msgid ""
 "The installation packages will create a domain at the default port "
 "location and configure a service to keep it running on that machine."
 msgstr ""
+"Los paquetes de instalación crearán un dominio en la ubicación del puerto "
+"predeterminado y configurarán un servicio para que siga funcionando en esa "
+"máquina."
 
 #: ../../source/host/server-setup/linux-server.md:37
 msgid ""
 "For the list of network ports that you will need to open and manage, see "
 "[here](../configure-settings/network-settings)."
 msgstr ""
+"Para obtener la lista de puertos de red que deberás abrir y administrar, "
+"consulta [aquí](../configure-settings/network-settings)."
 
 #: ../../source/host/server-setup/linux-server.md:39
 msgid ""
@@ -3570,30 +3596,37 @@ msgid ""
 "http://localhost:40100) Complete the initial setup wizard and you should "
 "have a functioning domain."
 msgstr ""
+"Conecta un navegador web al servidor en el puerto 40100. (Si estás en la "
+"máquina en la que se ejecuta el servidor, sería http://localhost:40100) "
+"Complete el asistente de configuración inicial y deberías tener un dominio "
+"en funcionamiento."
 
 #: ../../source/host/server-setup/linux-server.md:41
 msgid "Files and Server Configuration"
-msgstr ""
+msgstr "Archivos y Configuración del Servidor"
 
 #: ../../source/host/server-setup/linux-server.md:43
 msgid "The program files are installed in /opt/vircadia:"
-msgstr ""
+msgstr "Los archivos del programa se instalan en /opt/vircadia:"
 
 #: ../../source/host/server-setup/linux-server.md:44
 msgid "**/opt/vircadia** contains the executables"
-msgstr ""
+msgstr "**/opt/vircadia** contiene los ejecutables"
 
 #: ../../source/host/server-setup/linux-server.md:45
 msgid "**/opt/vircadia/lib** contains libraries required for operation"
 msgstr ""
+"**/opt/vircadia/lib** contiene las bibliotecas necesarias para el "
+"funcionamiento"
 
 #: ../../source/host/server-setup/linux-server.md:46
 msgid "**/opt/vircadia/plugins** is currently used for audio codecs"
-msgstr ""
+msgstr "**/opt/vircadia/plugins** se utiliza actualmente para códecs de audio"
 
 #: ../../source/host/server-setup/linux-server.md:47
 msgid "**/opt/vircadia/resources** is required for the administrative website"
 msgstr ""
+"**/opt/vircadia/resources** se requiere para el sitio web administrativo"
 
 #: ../../source/host/server-setup/linux-server.md:49
 msgid ""
@@ -3601,12 +3634,17 @@ msgid ""
 "server</code>) cannot be launched from the command prompt without first "
 "setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
 msgstr ""
+"Los ejecutables en esta carpeta (con exclusión de <code>new-server</code>) "
+"no se pueden iniciar desde el símbolo del sistema sin configurar primero "
+"<code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
 
 #: ../../source/host/server-setup/linux-server.md:51
 msgid ""
 "The file <code>/etc/opt/vircadia/default.conf</code> contains any "
 "environment variables necessary to running the domain."
 msgstr ""
+"El archivo <code>/etc/opt/vircadia/default.conf</code> contiene las "
+"variables de entorno necesarias para ejecutar el dominio."
 
 #: ../../source/host/server-setup/linux-server.md:53
 msgid ""
@@ -3615,32 +3653,44 @@ msgid ""
 "<code>vircadia</code>, which is also the user that runs all domain-"
 "related processes."
 msgstr ""
+"Todo el contenido se almacena bajo <code>/var/lib/vircadia/default</code>. "
+"Todos los archivos debajo de <code>/var/lib/vircadia</code> son propiedad "
+"del usuario <code>vircadia</code>, que también es el usuario que ejecuta "
+"todos los procesos relacionados con el dominio."
 
 #: ../../source/host/server-setup/linux-server.md:55
 msgid "Services"
-msgstr ""
+msgstr "Servicios"
 
 #: ../../source/host/server-setup/linux-server.md:57
 msgid ""
 "The installation packages setup the following systemd services to manage "
 "the Vircadia domain:"
 msgstr ""
+"Los paquetes de instalación configuran los siguientes servicios de systemd "
+"para administrar el dominio de Vircadia:"
 
 #: ../../source/host/server-setup/linux-server.md:58
 msgid "**vircadia-domain-server@default.service**: Manages the core domain server"
 msgstr ""
+"**vircadia-domain-server@default.service**: Administra el servidor de "
+"dominio central"
 
 #: ../../source/host/server-setup/linux-server.md:59
 msgid ""
 "**vircadia-assignment-client@default.service**: Spawns and manages the "
 "assignment clients"
 msgstr ""
+"**vircadia-assignment-client@default.service**: Genera y administra los "
+"clientes de asignación"
 
 #: ../../source/host/server-setup/linux-server.md:60
 msgid ""
 "**vircadia-server@default.target**: Controls startup and shutdown of the "
 "above services"
 msgstr ""
+"**vircadia-server@default.target**: Controla el inicio y el apagado de los "
+"servicios anteriores"
 
 #: ../../source/host/server-setup/linux-server.md:62
 msgid ""
@@ -3648,6 +3698,9 @@ msgid ""
 "that is set to auto-start. Starting or stopping it will bring the other "
 "two services down."
 msgstr ""
+"El servicio <code>vircadia-server@default.target</code> es el único que está "
+"configurado para iniciarse automáticamente. Iniciarlo o detenerlo hará que "
+"los otros dos servicios se caigan."
 
 #: ../../source/host/server-setup/linux-server.md:64
 msgid ""
@@ -3655,10 +3708,14 @@ msgid ""
 "journal. Checking their logs (via <code>systemctl status</code>) is a "
 "good way to ensure they are operating properly."
 msgstr ""
+"Los dos primeros servicios registran una gran cantidad de datos en su diario "
+"de servicio. Comprobando sus registros (por medio de <code>systemctl "
+"status</code>) es una buena manera de asegurarse de que funcionan "
+"correctamente."
 
 #: ../../source/host/server-setup/linux-server.md:66
 msgid "Multiple Domains"
-msgstr ""
+msgstr "Dominios Múltiples"
 
 #: ../../source/host/server-setup/linux-server.md:68
 msgid ""
@@ -3666,6 +3723,9 @@ msgid ""
 "on a single server at different port numbers. New servers can be created "
 "using the following command:"
 msgstr ""
+"El paquete de instalación está configurado para permitir que múltiples "
+"dominios se ejecuten en un solo servidor en diferentes números de puerto. Se "
+"pueden crear nuevos servidores usando el siguiente comando:"
 
 #: ../../source/host/server-setup/linux-server.md:74
 msgid ""
@@ -3673,22 +3733,30 @@ msgid ""
 "<code>base-port</code> must be the the first of a range of four "
 "contiguous port numbers not overlapping with any other use on the system."
 msgstr ""
+"donde <code>name</code> es una palabra utilizada para nombrar y administrar "
+"el dominio y <code>base-port</code> debe ser el primero de un rango de "
+"cuatro números de puerto contiguos que no se superpongan con ningún otro uso "
+"en el sistema."
 
 #: ../../source/host/server-setup/linux-server.md:76
 msgid ""
 "Assuming you created a new server with the name **my-server-two**, this "
 "would setup the following:"
 msgstr ""
+"Suponiendo que hayas creado un nuevo servidor con el nombre **my-server-two**"
+", esto configuraría lo siguiente:"
 
 #: ../../source/host/server-setup/linux-server.md:77
 msgid ""
 "Environment variables in <code>/etc/opt/vircadia/**my-server-"
 "two**.conf</code>"
 msgstr ""
+"Variables de entorno en <code>/etc/opt/vircadia/**my-server-two**.conf</code>"
 
 #: ../../source/host/server-setup/linux-server.md:78
 msgid "Content stored in <code>/var/lib/vircadia/**my-server-two**</code>"
 msgstr ""
+"Contenido almacenado en <code>/var/lib/vircadia/**my-server-two**</code>"
 
 #: ../../source/host/server-setup/linux-server.md:79
 msgid ""
@@ -3697,6 +3765,9 @@ msgid ""
 "two**.service</code>, and <code>vircadia-server@**my-server-"
 "two**.target</code>"
 msgstr ""
+"Servicios lanzados como <code>vircadia-domain-server@**my-server-two**."
+"service</code>, <code>vircadia-assignment-client@**my-server-two**.service</"
+"code>, and <code>vircadia-server@**my-server-two**.target</code>"
 
 #: ../../source/host/server-setup/linux-server.md:81
 msgid "Deleting a Vircadia Server"
