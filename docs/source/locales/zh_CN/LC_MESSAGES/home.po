@@ -5,67 +5,70 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-06-30 07:52+0000\n"
+"Last-Translator: miaoxindong <xdmiao@msn.com>\n"
+"Language-Team: Chinese (Simplified) <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/home/zh_Hans/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: ../../source/home.rst:80
 msgid "HOME"
-msgstr ""
+msgstr "家"
 
 #: ../../source/home.rst:80
 msgid "EXPLORE"
-msgstr ""
+msgstr "探索"
 
 #: ../../source/home.rst:80
 msgid "CREATE"
-msgstr ""
+msgstr "创建"
 
 #: ../../source/home.rst:80
 msgid "SCRIPT"
-msgstr ""
+msgstr "脚本"
 
 #: ../../source/home.rst:80
 msgid "HOST"
-msgstr ""
+msgstr "主机"
 
 #: ../../source/home.rst:80
 msgid "CONTRIBUTE"
-msgstr ""
+msgstr "贡献"
 
 #: ../../source/home.rst:80
 msgid "DEVELOP"
-msgstr ""
+msgstr "开发"
 
 #: ../../source/home.rst:80
 msgid "SECURITY"
-msgstr ""
+msgstr "安全"
 
 #: ../../source/home.rst:80
 msgid "FAQ"
-msgstr ""
+msgstr "常见问题"
 
 #: ../../source/home.rst:80
 msgid "RELEASE NOTES"
-msgstr ""
+msgstr "版本说明"
 
 #: ../../source/home.rst:80
 msgid "API REFERENCE"
-msgstr ""
+msgstr "API参考"
 
 #: ../../source/home.rst:3
 msgid "Home"
-msgstr ""
+msgstr "首页"
 
 #: ../../source/home.rst:5
 msgid ""
@@ -74,6 +77,8 @@ msgid ""
 "create and host your own virtual world, explore other worlds, meet and "
 "connect with other users, attend or host live VR events, and much more."
 msgstr ""
+"维卡迪亚（Vircadia™）是一个开源软件，它使您能够创建和共享虚拟世界作为虚拟现实（VR）和桌面体验。您可以创建和主持自己的虚拟世界，探索其他世界，与"
+"其他用户会面和联系，参加或主持实时VR活动，等等。"
 
 #: ../../source/home.rst:8
 msgid ""
@@ -84,20 +89,23 @@ msgid ""
 "be able to interact with your environment, engage with your friends, and "
 "listen to conversations just like you would in real life."
 msgstr ""
+"维卡迪亚（Vircadia）元宇宙提供内置的社交功能，包括化身交互、空间化音频和交互物理。此外，您还可以将任何3D对象导入到虚拟环境中。无论你在维卡迪亚的"
+"哪个地方，你都能像在现实生活中一样与环境互动，与朋友互动，倾听对话。"
 
 #: ../../source/home.rst:12
 msgid ""
 ":doc:`Get Vircadia <explore/get-started/install>` |Download| or take a "
 "look at our :doc:`Gallery <explore/gallery>` |Gallery|."
 msgstr ""
+":doc:`获取维卡迪亚（Vircadia ） <浏览/如何开始/安装>` |下载| 或来看看我们的 :doc:`相册<浏览/相册>` |相册|."
 
 #: ../../source/home.rst
 msgid "Download"
-msgstr ""
+msgstr "下载"
 
 #: ../../source/home.rst
 msgid "Gallery"
-msgstr ""
+msgstr "相册"
 
 #: ../../source/home.rst:26
 msgid ""
@@ -105,18 +113,20 @@ msgid ""
 "Vircadia `Discord server <https://discordapp.com/invite/Pvx2vke>`__ "
 "|Discord|."
 msgstr ""
+"除了文档之外，您还可以加入维卡迪亚（Vircadia） ` Discord服务器上的讨论<https://discordapp.com/invite/"
+"Pvx2vke>`__|Discord|。"
 
 #: ../../source/home.rst
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: ../../source/home.rst:35
 msgid "This documentation is authored in `English <https://docs.vircadia.com/>`_."
-msgstr ""
+msgstr "本文档编写语言为`English <https://docs.vircadia.com/>`_."
 
 #: ../../source/home.rst:37
 msgid "The following translations are available:"
-msgstr ""
+msgstr "以下语言的翻译已经可获取了："
 
 #: ../../source/home.rst:39
 msgid "`Deutsch <https://docs.vircadia.com/de/>`_ |de_trans|"
@@ -160,11 +170,11 @@ msgstr ""
 
 #: ../../source/home.rst:67
 msgid "What can I do?"
-msgstr ""
+msgstr "我可以做什么？"
 
 #: ../../source/home.rst:69
 msgid "You have the power to shape your VR experience in Vircadia."
-msgstr ""
+msgstr "您有能力在维卡迪亚（Vircadia）塑造您的VR体验。"
 
 #: ../../source/home.rst:71
 msgid ""
@@ -205,4 +215,3 @@ msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
 msgstr ""
-
