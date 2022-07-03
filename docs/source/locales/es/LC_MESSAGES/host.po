@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-06-26 18:44+0000\n"
+"PO-Revision-Date: 2022-07-03 21:59+0000\n"
 "Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/es/>\n"
@@ -3771,41 +3771,42 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:81
 msgid "Deleting a Vircadia Server"
-msgstr ""
+msgstr "Eliminación de un Servidor de Vircadia"
 
 #: ../../source/host/server-setup/linux-server.md:83
 msgid "Uninstall the package."
-msgstr ""
+msgstr "Desinstalar el paquete."
 
 #: ../../source/host/server-setup/linux-server.md:93
 msgid "Deleting a Domain from a Multiple Domain Installation"
-msgstr ""
+msgstr "Eliminación de un Dominio de una Instalación Múltiple de Dominios"
 
 #: ../../source/host/server-setup/linux-server.md:95
 msgid "Find the name of the domain that you want to remove."
-msgstr ""
+msgstr "Encuentra el nombre del dominio que quieres eliminar."
 
 #: ../../source/host/server-setup/linux-server.md:101
 msgid ""
 "Pick the name of the domain that you want to remove from the list and "
 "then stop it."
 msgstr ""
+"Elije el nombre del dominio que desees eliminar de la lista y luego detenlo."
 
 #: ../../source/host/server-setup/linux-server.md:107
 msgid "Disable the service for the domain."
-msgstr ""
+msgstr "Deshabilita el servicio para el dominio."
 
 #: ../../source/host/server-setup/linux-server.md:113
 msgid "Remove the associated environment variables."
-msgstr ""
+msgstr "Quita las variables de entorno asociadas."
 
 #: ../../source/host/server-setup/linux-server.md:119
 msgid "Remove all data and configurations."
-msgstr ""
+msgstr "Elimina todos los datos y configuraciones."
 
 #: ../../source/host/server-setup/linux-server.md:126
 msgid "Legacy Services"
-msgstr ""
+msgstr "Servicios de Legado"
 
 #: ../../source/host/server-setup/linux-server.md:128
 msgid ""
@@ -3815,6 +3816,11 @@ msgid ""
 "closer to how a Vircadia server compiled from source would run, this is "
 "provided as an option."
 msgstr ""
+"Hay una serie de ajustes que se realizan en la configuración por defecto "
+"para simplificar el almacenamiento y la capacidad de ejecutar varios "
+"dominios en un servidor. En caso de que desees eliminar esta lógica y "
+"ejecutar los servidores más parecido a cómo se ejecutaría un servidor "
+"Vircadia compilado desde la fuente, esto se proporciona como una opción."
 
 #: ../../source/host/server-setup/linux-server.md:129
 msgid ""
@@ -3822,24 +3828,32 @@ msgid ""
 ">vircadia-assignment-client.service</code>, and <code>vircadia-"
 "server.target</code> *(without the @name)* have simplified configuration"
 msgstr ""
+"Los Servicios de Systemd nombrados como <code>vircadia-domain-server."
+"service</code>, <code>vircadia-assignment-client.service</code> y <code"
+">vircadia-server.target</code> *(sin el @name)* tienen una configuración "
+"simplificada"
 
 #: ../../source/host/server-setup/linux-server.md:130
 msgid "No file is provided to specify environment variables for the server"
 msgstr ""
+"No se proporciona ningún archivo para especificar variables de entorno para "
+"el servidor"
 
 #: ../../source/host/server-setup/linux-server.md:131
 msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
-msgstr ""
+msgstr "El contenido será almacenado en <code>/var/lib/vircadia/.local</code>"
 
 #: ../../source/host/server-setup/windows-server.rst:3
 msgid "Host a Domain Locally on Windows"
-msgstr ""
+msgstr "Alojar un Dominio Localmente en Windows"
 
 #: ../../source/host/server-setup/windows-server.rst:5
 msgid ""
 "A local server lets you use your own computer to host your virtual domain"
 " on the metaverse."
 msgstr ""
+"Un servidor local te permite usar tu propia computadora para hospedar tu "
+"dominio virtual en el metaverso."
 
 #: ../../source/host/server-setup/windows-server.rst:7
 msgid ""
@@ -3849,10 +3863,15 @@ msgid ""
 "advertise your domain in the Explore app, we recommend using a cloud "
 "hosting provider such as DigitalOcean."
 msgstr ""
+"Alojar cualquier tipo de servidor desde tu hogar significa exponer tu red al "
+"mundo. Por lo tanto, recomendamos usar servidores locales solo para eventos "
+"privados y reuniones pequeñas. Si quieres alojar un dominio público o "
+"anunciar tu dominio en la aplicación Explorar (Explore App), te recomendamos "
+"utilizar un proveedor de alojamiento en la nube como DigitalOcean."
 
 #: ../../source/host/server-setup/windows-server.rst:14
 msgid "Set Up Your Server"
-msgstr ""
+msgstr "Configura Tu Servidor"
 
 #: ../../source/host/server-setup/windows-server.rst:16
 msgid ""
@@ -3860,14 +3879,16 @@ msgid ""
 "of computer and networking concepts. Specifically, familiarize yourself "
 "with:"
 msgstr ""
+"Antes de configurar un servidor local, debes tener una comprensión básica de "
+"los conceptos informáticos y de redes. Específicamente, familiarízate con:"
 
 #: ../../source/host/server-setup/windows-server.rst:18
 msgid "Your system and hardware configuration"
-msgstr ""
+msgstr "Tu sistema y configuración de hardware"
 
 #: ../../source/host/server-setup/windows-server.rst:19
 msgid "Your network configuration"
-msgstr ""
+msgstr "Tu configuración de red"
 
 #: ../../source/host/server-setup/windows-server.rst:21
 msgid ""
@@ -3879,6 +3900,13 @@ msgid ""
 "create a complex content set, we encourage you to increase your memory "
 "and network bandwidth."
 msgstr ""
+"Como mínimo, la computadora que usas para tu servidor debe cumplir con "
+"nuestros `requisitos mínimos de sistema <../../explore/get-started/install."
+"html#minimum-system-requirements>`_. Sin embargo, ten en cuenta que a medida "
+"que agregues más visitantes a tu dominio, aumentará la demanda de tus "
+"recursos. Por lo tanto, si deseas invitar a un grupo grande (más de 15 "
+"visitantes) o crear un conjunto de contenido complejo, te alentamos a que "
+"aumentes tu memoria y el ancho de banda de tu red."
 
 #: ../../source/host/server-setup/windows-server.rst:23
 msgid ""
@@ -3886,24 +3914,31 @@ msgid ""
 "`Client + Server <https://vircadia.com/download-vircadia/#windows>`_ "
 "software."
 msgstr ""
+"Para alojar un dominio en Windows, debes ejecutar el código abierto de "
+"Vircadia `Client + Server <https://vircadia.com/download-vircadia/#windows>`"
+"_ software."
 
 #: ../../source/host/server-setup/windows-server.rst:27
 msgid "Create a Domain"
-msgstr ""
+msgstr "Crear un Dominio"
 
 #: ../../source/host/server-setup/windows-server.rst:29
 msgid "To set up a domain and host it on your local server:"
-msgstr ""
+msgstr "Para configurar un dominio y alojarlo en tu servidor local:"
 
 #: ../../source/host/server-setup/windows-server.rst:31
 msgid "Open the **Setup Wizard (Domain Server Settings)**."
 msgstr ""
+"Abre el **Asistente de Configuración (Configuración del Servidor de "
+"Dominio)**."
 
 #: ../../source/host/server-setup/windows-server.rst:36
 msgid ""
 "Follow the steps of the Wizard to create a domain on the metaverse and "
 "connect it to your local server."
 msgstr ""
+"Sigue los pasos del Asistente para crear un dominio en el metaverso y "
+"conéctalo a tu servidor local."
 
 #: ../../source/host/server-setup/windows-server.rst:38
 msgid ""
@@ -3913,6 +3948,11 @@ msgid ""
 "Metaverse Server access to your domain settings, which are stored on your"
 " local server."
 msgstr ""
+"**Paso 1: Conecta tu cuenta de Metaverso**: Cuando conectas tu cuenta, te "
+"conviertes en el propietario de la nueva ID de dominio que se crea para tu "
+"servidor. El token de seguridad que copias y pegas te da el acceso de "
+"Servidor de Metaverso para la configuración de tu dominio, que se almacena "
+"en tu servidor local."
 
 #: ../../source/host/server-setup/windows-server.rst:39
 msgid ""
@@ -3920,12 +3960,18 @@ msgid ""
 "your domain in the metaverse. Alternatively, they can enter your domain's"
 " ID or IP address into the Explore app."
 msgstr ""
+"**Paso 2: Crear el Place Name**: el nombre de lugar (place name) es la forma "
+"en que los usuarios visitarán tu dominio en el metaverso. Alternativamente, "
+"pueden ingresar la ID o la dirección IP de tu dominio en la aplicación "
+"Explore."
 
 #: ../../source/host/server-setup/windows-server.rst:41
 msgid ""
 "Learn :doc:`how to configure a Place name <../configure-settings/place-"
 "setting>`."
 msgstr ""
+"Aprende :doc:`como configurar un Place Name <../configure-settings/place-"
+"setting>`."
 
 #: ../../source/host/server-setup/windows-server.rst:43
 msgid ""
@@ -3935,12 +3981,20 @@ msgid ""
 " from a remote location), then add the Vircadia Metaverse usernames here."
 " In addition, choose who will be able to connect or rez items."
 msgstr ""
+"**Paso 3: Configura los permisos básicos**: Por defecto, cualquier persona "
+"que inicie sesión en tu computadora tendrá acceso total a tu dominio. Si "
+"quieres extender los privilegios de administrador a usuarios remotos (o "
+"permitirte el acceso desde una ubicación remota), agregua los nombres de "
+"usuario del Metaverso de Vircadia aquí. Además, elije quién podrá conectar o "
+"invocar elementos."
 
 #: ../../source/host/server-setup/windows-server.rst:44
 msgid ""
 "Click **Finish** to close the Setup Wizard. You will automatically be "
 "redirected to the Domain Settings for your domain."
 msgstr ""
+"Haz click en **Finish** para cerrar el Asistente de Configuración. Se te "
+"redirigirá automáticamente a la Configuración de Dominio de tu dominio."
 
 #: ../../source/host/server-setup/windows-server.rst:46
 msgid ""
@@ -3948,14 +4002,17 @@ msgid ""
 " to your server. However, it is not yet \"live\", meaning that it exists "
 "only as a temporary or \"draft\" domain in the metaverse."
 msgstr ""
+"Hasta este punto, has preparado un dominio en el metaverso y lo has "
+"conectado a tu servidor. Sin embargo, aún no está \"vivo\", lo que significa "
+"que existe solo como un dominio temporal o \"borrador\" en el metaverso."
 
 #: ../../source/host/server-setup/windows-server.rst:50
 msgid "Activate Your Domain"
-msgstr ""
+msgstr "Activa Tu Dominio"
 
 #: ../../source/host/server-setup/windows-server.rst:52
 msgid "To activate your domain:"
-msgstr ""
+msgstr "Para activar tu dominio:"
 
 #: ../../source/host/server-setup/windows-server.rst:54
 msgid ""
@@ -3963,14 +4020,17 @@ msgid ""
 "browser window and type http://localhost:40100/settings/ into the URL "
 "bar."
 msgstr ""
+"Regresa a la Configuración de Dominio para tu dominio. Si no está abierto, "
+"abre una ventana del navegador y escribe http://localhost:40100/settings/ "
+"dentro de la barra de URL."
 
 #: ../../source/host/server-setup/windows-server.rst:55
 msgid "Click 'Advanced Settings' under **Metaverse/Networking**."
-msgstr ""
+msgstr "Haz click en \"Advanced Settings\" debajo de **Metaverse/Networking**."
 
 #: ../../source/host/server-setup/windows-server.rst:56
 msgid "Click the 'Create new domain ID' button."
-msgstr ""
+msgstr "Haz click en el botón \"Create new domain ID\"."
 
 #: ../../source/host/server-setup/windows-server.rst:58
 msgid ""
@@ -3978,6 +4038,9 @@ msgid ""
 " that registers it in the metaverse. Your domain will now be accessible "
 "through the Place name or your server's IP address."
 msgstr ""
+"Esto asignará a tu dominio un código de identificación único y permanente "
+"que lo registra en el metaverso. Ahora se podrá acceder a tu dominio a "
+"través del Place Name o la dirección IP de tu servidor."
 
 #: ../../source/host/server-setup/windows-server.rst:60
 msgid ""
@@ -3989,74 +4052,94 @@ msgid ""
 "name for your domain. Learn :doc:`how to configure a Place name "
 "<../configure-settings/place-setting>`."
 msgstr ""
+"Si no asignaste un Place Name, la única forma de acceder a tu dominio es "
+"mediante la dirección IP de tu servidor. Sin embargo, ten en cuenta que "
+"cuando cambies tu dirección IP, también lo hará la dirección de tu dominio. "
+"Por lo tanto, si está salojando tu dominio en una computadora portátil o en "
+"una computadora con una dirección IP que cambia con frecuencia, te "
+"recomendamos que configures un Place Name para tu dominio. Aprende :doc:`"
+"como configurar un Place name <../configure-settings/place-setting>`."
 
 #: ../../source/host/server-setup/windows-server.rst:62
 msgid "Now, your domain is officially part of the expanding metaverse!"
-msgstr ""
+msgstr "¡Ahora, tu dominio es oficialmente parte del metaverso en expansión!"
 
 #: ../../source/host/server-setup/windows-server.rst:66
 msgid "What's Next?"
-msgstr ""
+msgstr "¿Que sigue?"
 
 #: ../../source/host/server-setup/windows-server.rst:71
 msgid "Visit Your Domain"
-msgstr ""
+msgstr "Visita Tu Dominio"
 
 #: ../../source/host/server-setup/windows-server.rst:71
 msgid "Personalize Your Content"
-msgstr ""
+msgstr "Personaliza Tu Contenido"
 
 #: ../../source/host/server-setup/windows-server.rst:71
 msgid "Configure More Settings"
-msgstr ""
+msgstr "Configurar Más Ajustes"
 
 #: ../../source/host/server-setup/windows-server.rst:73
 msgid ""
 "`Go visit your domain using the Explore app <../../explore/travel.html"
 "#goto-app>`_"
 msgstr ""
+"`Ve a visitar tu dominio usando la Explore app <../../explore/travel.html"
+"#goto-app>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:75
 msgid "`Invite people to your domain <../invite-us ers.html>`_"
-msgstr ""
+msgstr "`Invita gente a tu dominio <../invite-us ers.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:77
 msgid ":doc:`Meet new people and explore other domains <../../explore/socialize>`"
 msgstr ""
+":doc:`Conoce gente nueva y explora otros dominios <../../explore/socialize>`"
 
 #: ../../source/host/server-setup/windows-server.rst:73
 msgid ""
 "`Create a unique content set and upload it to your domain <../add-"
 "content.html>`_"
 msgstr ""
+"`Crea un conjunto de contenido único y súbelo a tu dominio <../add-content."
+"html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:73
 msgid "`Create a Place name <../configure-settings /place-setting.html>`_"
-msgstr ""
+msgstr "`Crea un Place name <../configure-settings /place-setting.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:75
 msgid ""
 "`Set additional user permissions <../config ure-settings/permission-"
 "settings.html>`_"
 msgstr ""
+"`Establece permisos de usuario adicionales <../config ure-settings/"
+"permission-settings.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:77
 msgid "`Adjust audio settings <../configure-settin gs/audio-settings.html>`_"
 msgstr ""
+"`Ajusta configuraciones de audio <../configure-settin gs/audio-settings."
+"html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:79
 msgid "`Backup your domain's content <../maintain- domain/backup-domain.html>`_"
 msgstr ""
+"`Backup del contenido de tu dominio <../maintain- domain/backup-domain."
+"html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:81
 msgid ""
 "`Update for new Vircadia releases <../maintain-domain/update-"
 "software.html>`_"
 msgstr ""
+"`Actualización para nuevos release de Vircadia <../maintain-domain/update-"
+"software.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:83
 msgid "And more..."
-msgstr ""
+msgstr "Y más..."
 
 #: ../../source/host/start-hosting.rst:5
 msgid ""
@@ -4067,28 +4150,42 @@ msgid ""
 "domains in Vircadia, so that you can create the space you want and be a "
 "part of building a bigger, more expansive metaverse."
 msgstr ""
+"¡Estamos encantados de que hayas decidido hospedar un dominio personalizado "
+"con nosotros en el metaverso! También entendemos que establecer un servidor, "
+"configurarlo y crear un dominio requiere tiempo y conocimientos técnicos. "
+"Con suerte, esta sección te ayudará a familiarizarte con los conceptos "
+"básicos del alojamiento de dominios en Vircadia, para que puedas crear el "
+"espacio que quieras y ser parte de la construcción de un metaverso más "
+"grande y expansivo."
 
 #: ../../source/host/start-hosting.rst:7
 msgid ""
 "You can also follow the :doc:`quick start guide <quick-start>` to boot up"
 " a Domain right away."
 msgstr ""
+"También puedes seguir la :doc:`guía de inicio rápido <quick-start>` para "
+"iniciar un Dominio de inmediato."
 
 #: ../../source/host/start-hosting.rst:14
 msgid "Overview of Hosting"
-msgstr ""
+msgstr "Descripción general del Alojamiento"
 
 #: ../../source/host/start-hosting.rst:16
 msgid ""
 "Vircadia's hosting interface consists of the following components that "
 "work together to create an immersive VR experience for your visitors:"
 msgstr ""
+"La interfaz de alojamiento de Vircadia consta de los siguientes componentes "
+"que funcionan juntos para crear una experiencia de realidad virtual "
+"inmersiva para tus visitantes:"
 
 #: ../../source/host/start-hosting.rst:18
 msgid ""
 "The *Domain server* is a virtual world that gives you a space to build "
 "content in."
 msgstr ""
+"El *Servidor de Dominio* es un mundo virtual que te brinda un espacio para "
+"crear contenido."
 
 #: ../../source/host/start-hosting.rst:19
 msgid ""
@@ -4096,12 +4193,18 @@ msgid ""
 " ID to identify it. You can connect your domain to the Vircadia Metaverse"
 " Server by logging into your account on the Vircadia website."
 msgstr ""
+"Un *dominio* es un servidor en el metaverso. A cada dominio se le asigna un "
+"ID único para identificarlo. Puedes conectar tu dominio al Servidor de "
+"Metaverso de Vircadia iniciando sesión con tu cuenta en el sitio web de "
+"Vircadia."
 
 #: ../../source/host/start-hosting.rst:20
 msgid ""
 "A *place* is a registered location in the metaverse. A place is connected"
 " to a domain; you can create multiple places per domain."
 msgstr ""
+"Un *lugar* (place) es una ubicación registrada en el metaverso. Un lugar "
+"está conectado a un dominio; puedes crear varios lugares por dominio."
 
 #: ../../source/host/start-hosting.rst:21
 msgid ""
@@ -4110,42 +4213,54 @@ msgid ""
 " cloud-hosted server such as one provided by DigitalOcean, Linode, AWS, "
 "and so on."
 msgstr ""
+"Un *servidor* aloja un dominio y procesa las solicitudes de red entrantes "
+"para el dominio. El servidor de tu dominio es una computadora física o un "
+"servidor alojado en la nube, como el proporcionado por DigitalOcean, Linode, "
+"AWS, etc."
 
 #: ../../source/host/start-hosting.rst:22
 msgid "A *content set* is the content that you've added to your world."
 msgstr ""
+"Un *conjunto de contenido* (content set) es el contenido que has agregado a "
+"tu mundo."
 
 #: ../../source/host/start-hosting.rst:26
 msgid "The Hosting Process"
-msgstr ""
+msgstr "El Proceso de Alojamiento"
 
 #: ../../source/host/start-hosting.rst:28
 msgid ""
 "Here is an overview of the steps you'll need to take to host your domain "
 "up and running on the metaverse:"
 msgstr ""
+"Aquí hay una descripción general de los pasos que deberás seguir para alojar "
+"tu dominio y ejecutarlo en el metaverso:"
 
 #: ../../source/host/start-hosting.rst:30
 msgid ""
 ":doc:`Choose your hosting platform <start-hosting>` (local server or "
 "cloud server)"
 msgstr ""
+":doc:`Elije tu plataforma de alojamiento <start-hosting>` (servidor local o "
+"servidor en la nube)"
 
 #: ../../source/host/start-hosting.rst:31
 msgid ":doc:`Set up your server and create your domain <server-setup>`"
-msgstr ""
+msgstr ":doc:`Configura tu servidor y crea tu dominio <server-setup>`"
 
 #: ../../source/host/start-hosting.rst:32
 msgid ":doc:`Add content to your domain <add-content>`"
-msgstr ""
+msgstr ":doc:`Agrega contenido a tu dominio <add-content>`"
 
 #: ../../source/host/start-hosting.rst:33
 msgid ":doc:`Set up user permissions <configure-settings/permission-settings>`"
 msgstr ""
+":doc:`Configurar permisos de usuario <configure-settings/permission-"
+"settings>`"
 
 #: ../../source/host/start-hosting.rst:34
 msgid ":doc:`Invite users to your domain <invite-users>`"
-msgstr ""
+msgstr ":doc:`Invita a usuarios a tu dominio <invite-users>`"
 
 #: ../../source/host/start-hosting.rst:36
 msgid ""
@@ -4153,6 +4268,9 @@ msgid ""
 "domain settings <configure-settings>`, from the most basic to the more "
 "advanced, and how to :doc:`maintain your domain <maintain-domain>`."
 msgstr ""
+"Una vez que tu dominio esté funcionando, cubriremos cómo :doc:`configurar "
+"los ajustes de tu dominio <configure-settings>`, desde lo más básico hasta "
+"lo más avanzado, y cómo :doc:`mantener tu dominio <maintain-domain>`."
 
 #~ msgid ""
 #~ "This document is outdated. FIXME: "
