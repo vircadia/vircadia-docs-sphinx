@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2021-07-29 10:22+0000\n"
-"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"PO-Revision-Date: 2022-07-04 20:22+0000\n"
+"Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/es/>\n"
 "Language: es\n"
@@ -24,19 +24,19 @@ msgstr ""
 #: ../../source/script.rst:9
 #: ../../source/script/get-started-with-scripting.rst:3
 msgid "Get Started with Scripting"
-msgstr ""
+msgstr "Primeros pasos con Scripting"
 
 #: ../../source/script.rst:9 ../../source/script/write-scripts.md:1
 msgid "Write Your Own Scripts"
-msgstr ""
+msgstr "Escribe tus propios Scripts"
 
 #: ../../source/script.rst:9
 msgid "JavaScript Tips and Tricks"
-msgstr ""
+msgstr "Trucos y consejos sobre JavaScript"
 
 #: ../../source/script.rst:9 ../../source/script/interface-scripts.md:1
 msgid "Interface Scripts"
-msgstr ""
+msgstr "Scripts de interfaz"
 
 #: ../../source/script.rst:9 ../../source/script/assignment-client-scripts.md:1
 msgid "Assignment Client Scripts"
