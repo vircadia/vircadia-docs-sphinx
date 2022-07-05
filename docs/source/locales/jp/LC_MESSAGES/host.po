@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-06-03 05:26+0000\n"
+"PO-Revision-Date: 2022-07-05 09:14+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/ja/>\n"
@@ -1233,7 +1233,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/audio-settings.rst:29
 msgid "To define an audio zone:"
-msgstr ""
+msgstr "オーディオゾーンを定義するには："
 
 #: ../../source/host/configure-settings/audio-settings.rst:37
 msgid "On the top menu bar, select **Content > Audio Environment**."
