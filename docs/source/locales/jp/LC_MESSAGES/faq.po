@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-27 17:25+0000\n"
-"PO-Revision-Date: 2022-05-19 00:09+0000\n"
+"PO-Revision-Date: 2022-07-09 15:34+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/faq/ja/>\n"
@@ -132,13 +132,13 @@ msgstr "`相手の声が聞こえない。 <#no-output>`_"
 msgid ""
 "`I have a problem using Vircadia on Windows with my AMD graphics card "
 "<#amd-problem>`_"
-msgstr ""
+msgstr "`AMDグラフィックカードを使用してWindowsでVircadiaを使用する際に問題が発生しました <#amd-problem>`_"
 
 #: ../../source/faq.rst:59
 msgid ""
 "`How do I install a different AMD graphics driver on Windows? <#amd-"
 "downgrade>`_"
-msgstr ""
+msgstr "`Windowsに別のAMDグラフィックスドライバーをインストールするにはどうすればよいですか？<#amd-downgrade>`_"
 
 #: ../../source/faq.rst:64
 msgid "Where do I find the Interface log files?"
@@ -415,7 +415,7 @@ msgstr "Vircadiaで音量が小さくなっている、またはオフになっ�
 
 #: ../../source/faq.rst:187
 msgid "I have a problem with Vircadia on Windows with my AMD graphics card."
-msgstr ""
+msgstr "AMDグラフィックカードを搭載したWindowsのVircadiaに問題があります。"
 
 #: ../../source/faq.rst:189
 msgid ""
@@ -424,24 +424,28 @@ msgid ""
 "startup on your AMD graphics card, there is a chance that a driver update"
 " is at fault."
 msgstr ""
+"AMDは、Windows上のグラフィックスカードドライバに問題を引き起こすことがあります。AMDグラフィックスカードで、グラフィックスが乱れる、起動時にク"
+"ラッシュするなどの新しい問題が発生した場合は、ドライバの更新が原因である可能性があります。"
 
 #: ../../source/faq.rst:193
 msgid "Known broken driver versions include:"
-msgstr ""
+msgstr "既知の障害のあるドライバのバージョンは以下の通りです。"
 
 #: ../../source/faq.rst:195
 msgid "``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (mangled graphics)"
-msgstr ""
+msgstr "`` 21.8.2 27.20.22025.1006`` - `` 21.10.221.30.25.05`` （グラフィックが不正）"
 
 #: ../../source/faq.rst:196
 msgid "``20.11.2 27.20.14501.18003`` (crashing)"
-msgstr ""
+msgstr "``20.11.2 27.20.14501.18003`` (動作停止)"
 
 #: ../../source/faq.rst:198
 msgid ""
 "To fix this kind of issue you generally need to `downgrade you graphics "
 "card driver <#amd-downgrade>`_ to an older working version."
 msgstr ""
+"この種の問題を解決するには、一般的に、グラフィックカードのドライバを `古い作業バージョンにダウングレード <#amd-downgrade>`_ "
+"する必要があります。"
 
 #: ../../source/faq.rst:201
 msgid ""
@@ -451,10 +455,13 @@ msgid ""
 "that this is an AMD driver issue, please also consider `reporting the "
 "issue to AMD <https://www.amd.com/report>`_."
 msgstr ""
+"もしこのような問題が発生した場合は、 `GitHub issue tracker <https://github.com/vircadia/"
+"vircadia/issues>`_ に問題をオープンすることを検討してください。もしこれがAMDドライバの問題であることが確実であれば、 `"
+"AMDに問題を報告 <https://www.amd.com/report>`_ することも検討してください。"
 
 #: ../../source/faq.rst:210
 msgid "How do I install a different AMD graphics driver on Windows?"
-msgstr ""
+msgstr "Windowsに別のAMDグラフィックスドライバーをインストールするにはどうすればよいですか？"
 
 #: ../../source/faq.rst:212
 msgid ""
@@ -464,24 +471,30 @@ msgid ""
 "your start menu. Then open your **Settings -> System** tab and check the "
 "\"Radeon Software Version\"."
 msgstr ""
+"まず、実際に使用しているドライバのバージョンとグラフィックカードを確認する必要があります。これを行うには、トレイアイコンをクリックするか、スタートメニュー"
+"で「AMD Radeon Software」を検索して、Radeon Softwareコントロールパネルを開きます。次に、 **[設定]-> "
+"[システム]** タブを開き、「Radeon Software Version」を確認します。"
 
 #: ../../source/faq.rst:219
 msgid ""
 "Check what drivers are available for your AMD graphics card via the `AMD "
 "website <https://www.amd.com/en/support>`_."
 msgstr ""
+"`AMDWebサイト <https://www.amd.com/en/support>`_ "
+"で、あなたが使用しているAMDグラフィックカードに使用できるドライバを確認してください。"
 
 #: ../../source/faq.rst:224
 msgid ""
 "Compare the driver version from the Adrenalin Control Panel with the "
 "recommended Radeon Adrenalin Software version."
 msgstr ""
+"Adrenalinコントロールパネルのドライバーバージョンを、推奨されるRadeon Adrenalin Software versionと比較します。"
 
 #: ../../source/faq.rst:229
 msgid ""
 "Take a look `further up <#amd-problem>`_ to see a list of known broken "
 "driver versions."
-msgstr ""
+msgstr "既知の障害のあるドライババージョンのリストを確認するには、 `さらに上へ <#amd-problem>`_ を参照してください。"
 
 #: ../../source/faq.rst:231
 msgid ""
@@ -490,6 +503,8 @@ msgid ""
 "installer says it will continue after a restart and doesn't do so, just "
 "start it again."
 msgstr ""
+"バージョンが低い場合は、適切なダウンロードボタンをクリックしてインストールし、そのバージョンにアップグレードしてみてください。インストーラーが再起動後も続"
+"行すると言っても実行しない場合は、再起動してください。"
 
 #: ../../source/faq.rst:235
 msgid ""
@@ -497,10 +512,12 @@ msgid ""
 "clicking the small \"Previous Drivers\" link at the bottom left of the "
 "list, and choosing an older recommended version."
 msgstr ""
+"同じバージョンを使用している場合は、リストの左下にある小さな[以前のドライバー]リンクをクリックし、古い推奨バージョンを選択して、ドライバーをダウングレー"
+"ドしてみてください。"
 
 #: ../../source/faq.rst:242
 msgid "Just download and run the driver installer."
-msgstr ""
+msgstr "ドライバインストーラをダウンロードして実行するだけです。"
 
 #: ../../source/faq.rst:244
 msgid ""
@@ -508,6 +525,7 @@ msgid ""
 "\"Recommended\" driver version. Simply download and install using the "
 "same steps as above."
 msgstr ""
+"新しいバージョンを使用している場合は、「推奨」ドライバーバージョンにダウングレードしてみてください。上記と同じ手順でダウンロードしてインストールします。"
 
 #~ msgid ""
 #~ "We get a lot of questions from "

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-06-01 11:36+0000\n"
+"PO-Revision-Date: 2022-07-09 15:34+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/ja/>\n"
@@ -4213,7 +4213,7 @@ msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:48
 msgid "Click 'Create'."
-msgstr ""
+msgstr "「Create」をクリックします。"
 
 #: ../../source/create/avatars/package-avatar.rst:50
 msgid ""

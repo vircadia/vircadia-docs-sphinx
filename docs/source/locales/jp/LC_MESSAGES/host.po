@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-07-05 09:14+0000\n"
+"PO-Revision-Date: 2022-07-09 15:34+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/ja/>\n"
@@ -1237,15 +1237,15 @@ msgstr "オーディオゾーンを定義するには："
 
 #: ../../source/host/configure-settings/audio-settings.rst:37
 msgid "On the top menu bar, select **Content > Audio Environment**."
-msgstr ""
+msgstr "上部のメニューバーで、 **Content > Audio Environment** を選択します。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:38
 msgid "Under 'Zones', click the ``+`` icon."
-msgstr ""
+msgstr "「ゾーン」の下で、 ``+`` アイコンをクリックします。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:39
 msgid "Enter a name for the zone, along with the zone's coordinates."
-msgstr ""
+msgstr "ゾーンの名前とゾーンの座標を入力します。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:40
 msgid ""
@@ -1267,11 +1267,11 @@ msgstr "[Reverb Settings]で、 ``+`` アイコンをクリックし、手順4�
 #: ../../source/host/configure-settings/audio-settings.rst:42
 #: ../../source/host/maintain-domain/backup-domain.rst:26
 msgid "Save your domain settings."
-msgstr ""
+msgstr "ドメイン設定を保存します。"
 
 #: ../../source/host/configure-settings/audio-settings.rst:46
 msgid "Audio Threading and Buffers"
-msgstr ""
+msgstr "オーディオスレッディングとバッファ"
 
 #: ../../source/host/configure-settings/audio-settings.rst:48
 msgid ""
@@ -1301,11 +1301,11 @@ msgstr ""
 
 #: ../../source/host/configure-settings/authentication-setting.rst:7
 msgid "To set up and/or change the authentication for your domain settings:"
-msgstr ""
+msgstr "ドメイン設定の認証を設定・変更するには :"
 
 #: ../../source/host/configure-settings/authentication-setting.rst:15
 msgid "Scroll to 'Security'."
-msgstr ""
+msgstr "「Security」までスクロールします。"
 
 #: ../../source/host/configure-settings/authentication-setting.rst:16
 msgid ""
@@ -1323,7 +1323,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/authentication-setting.rst:20
 msgid "Re-enter your password into 'Verify HTTP Password'."
-msgstr ""
+msgstr "「Verify HTTP Password」にパスワードを再入力します。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:5
 msgid ""
@@ -1336,7 +1336,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/entity-filters.rst:13
 msgid "Add an Entity Filter to Your Domain"
-msgstr ""
+msgstr "ドメインにEntity Filterを追加する"
 
 #: ../../source/host/configure-settings/entity-filters.rst:15
 msgid ""
@@ -1350,11 +1350,11 @@ msgstr ""
 
 #: ../../source/host/configure-settings/entity-filters.rst:23
 msgid "On the top menu bar, select **Content > Entities**."
-msgstr ""
+msgstr "上部のメニューバーで、 **Content > Entities** を選択します。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:24
 msgid "Click the 'Advanced Settings' button."
-msgstr ""
+msgstr "「Advanced Settings」ボタンをクリックします。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:25
 msgid "Under 'Filter Entity Edits', enter the URL of your entity filter script."
@@ -1362,7 +1362,7 @@ msgstr "[Filter Entity Edits]の下に、エンティティフィルタースク
 
 #: ../../source/host/configure-settings/entity-filters.rst:30
 msgid "Add an Entity Filter to a Zone in Your Domain"
-msgstr ""
+msgstr "ドメイン内のゾーンにEntity Filterを追加する"
 
 #: ../../source/host/configure-settings/entity-filters.rst:32
 msgid ""
@@ -1380,15 +1380,15 @@ msgstr "エンティティリストで、保護するゾーンを見つけて選
 
 #: ../../source/host/configure-settings/entity-filters.rst:36
 msgid "In the Create Tools, click on the 'Properties' tab."
-msgstr ""
+msgstr "Create Toolsで、「Properties」タブをクリックします。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:37
 msgid "For 'Filter', enter the URL of your entity filter script."
-msgstr ""
+msgstr "「Filter」には、エンティティフィルタースクリプトのURLを入力します。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:42
 msgid "Included Entity Filters"
-msgstr ""
+msgstr "あらかじめ用意されているエンティティフィルター"
 
 #: ../../source/host/configure-settings/entity-filters.rst:44
 msgid ""
@@ -1401,12 +1401,16 @@ msgid ""
 "**Windows:** %Program "
 "Files%/Local/Vircadia/scripts/tutorials/entity_edit_filters"
 msgstr ""
+"**Windows:** %Program Files%/Local/Vircadia/scripts/tutorials/"
+"entity_edit_filters"
 
 #: ../../source/host/configure-settings/entity-filters.rst:47
 msgid ""
 "**Mac:** "
 "~/Applications/Vircadia/interface/Contents/Resources/scripts/tutorials/entity_edit_filters"
 msgstr ""
+"**Mac:** ~/Applications/Vircadia/interface/Contents/Resources/scripts/"
+"tutorials/entity_edit_filters"
 
 #: ../../source/host/configure-settings/entity-filters.rst:49
 msgid ""
@@ -1416,19 +1420,19 @@ msgstr "これらのサンプルスクリプトは、次のようにしてドメ
 
 #: ../../source/host/configure-settings/entity-filters.rst:51
 msgid "Keep an entity inside a bounding box"
-msgstr ""
+msgstr "エンティティをバウンディングボックス内に保持する"
 
 #: ../../source/host/configure-settings/entity-filters.rst:52
 msgid "Only allow entities to be moved 5 meters or less"
-msgstr ""
+msgstr "エンティティは、5m以内の移動しか認めていません"
 
 #: ../../source/host/configure-settings/entity-filters.rst:53
 msgid "Prevent the addition of entities named \"Bob\""
-msgstr ""
+msgstr "「Bob」という名前のエンティティの追加を防止します"
 
 #: ../../source/host/configure-settings/entity-filters.rst:54
 msgid "Prevent entities from being deleted"
-msgstr ""
+msgstr "エンティティの削除を防止する"
 
 #: ../../source/host/configure-settings/entity-filters.rst:56
 msgid ""
@@ -1438,7 +1442,7 @@ msgstr "これらのエンティティフィルターをそのまま使用する
 
 #: ../../source/host/configure-settings/entity-filters.rst:60
 msgid "Additional Script Examples"
-msgstr ""
+msgstr "スクリプトを追加するサンプルコード"
 
 #: ../../source/host/configure-settings/entity-filters.rst:62
 msgid ""
@@ -1466,7 +1470,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/network-settings.rst:14
 msgid "Linked Metaverse Account"
-msgstr ""
+msgstr "リンクされたメタバースアカウント"
 
 #: ../../source/host/configure-settings/network-settings.rst:16
 msgid ""
@@ -1491,7 +1495,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/network-settings.rst:24
 msgid "Automatic Networking"
-msgstr ""
+msgstr "自動ネットワーキング"
 
 #: ../../source/host/configure-settings/network-settings.rst:26
 msgid ""
@@ -1505,7 +1509,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/network-settings.rst:28
 msgid "Choose from the following automatic networking options:"
-msgstr ""
+msgstr "次の自動ネットワークオプションから選択します :"
 
 #: ../../source/host/configure-settings/network-settings.rst:30
 msgid ""
@@ -1556,7 +1560,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/network-settings.rst:42
 msgid "Networking Details (Advanced)"
-msgstr ""
+msgstr "ネットワークの詳細（上級者向け）"
 
 #: ../../source/host/configure-settings/network-settings.rst:44
 msgid ""
@@ -1569,19 +1573,19 @@ msgstr ""
 
 #: ../../source/host/configure-settings/network-settings.rst:46
 msgid "40100 (+0): (tcp) administrative http connection"
-msgstr ""
+msgstr "40100 (+0): (tcp) 管理用http接続"
 
 #: ../../source/host/configure-settings/network-settings.rst:47
 msgid "40101 (+1): (tcp) administrative https (encrypted) connection"
-msgstr ""
+msgstr "40101 (+1): (tcp) 管理用https(暗号化)接続"
 
 #: ../../source/host/configure-settings/network-settings.rst:48
 msgid "40102 (+2): (udp) main connection from clients"
-msgstr ""
+msgstr "40102 (+2): (udp) クライアントからの主接続"
 
 #: ../../source/host/configure-settings/network-settings.rst:49
 msgid "40103 (+3): (udp) main connection from clients (encrypted)"
-msgstr ""
+msgstr "40103 (+3): (udp) クライアントからの主接続（暗号化）"
 
 #: ../../source/host/configure-settings/network-settings.rst:51
 msgid ""
@@ -1601,27 +1605,27 @@ msgstr ""
 
 #: ../../source/host/configure-settings/network-settings.rst:55
 msgid "**asset-server**: stores object data to download to the user"
-msgstr ""
+msgstr "**asset-server** : ユーザーにダウンロードされるオブジェクトデータを格納する"
 
 #: ../../source/host/configure-settings/network-settings.rst:56
 msgid "**audio-mixer**: controls what each user would hear"
-msgstr ""
+msgstr "**audio-mixer** : 各ユーザーに聞こえる音を制御します"
 
 #: ../../source/host/configure-settings/network-settings.rst:57
 msgid "**avatar-mixer**: allows users to see each other"
-msgstr ""
+msgstr "**avatar-mixer** : ユーザーがお互いを見ることができるようにします"
 
 #: ../../source/host/configure-settings/network-settings.rst:58
 msgid "**entity-script-server**: runs actions inside the domain"
-msgstr ""
+msgstr "**entity-script-server** : ドメイン内でアクションを実行します"
 
 #: ../../source/host/configure-settings/network-settings.rst:59
 msgid "**entity-server**: describes the location of each object in the domain"
-msgstr ""
+msgstr "**entity-server** : ドメイン内の各オブジェクトの場所を記述します"
 
 #: ../../source/host/configure-settings/network-settings.rst:60
 msgid "**messages-mixer**: passes messages between users in the domain"
-msgstr ""
+msgstr "**messages-mixer** : ドメイン内のユーザー間でメッセージを渡します"
 
 #: ../../source/host/configure-settings/network-settings.rst:62
 msgid ""
@@ -1634,7 +1638,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/network-settings.rst:66
 msgid "Domain ID"
-msgstr ""
+msgstr "ドメインID"
 
 #: ../../source/host/configure-settings/network-settings.rst:68
 msgid ""
@@ -1654,7 +1658,7 @@ msgstr "ドメインをメタバースに登録したくない場合は、[ド�
 
 #: ../../source/host/configure-settings/network-settings.rst:76
 msgid "Enable Packet Verification"
-msgstr ""
+msgstr "パケット検証を有効にする"
 
 #: ../../source/host/configure-settings/network-settings.rst:78
 msgid ""
@@ -1680,7 +1684,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:12
 msgid "Set User Permissions"
-msgstr ""
+msgstr "ユーザー権限を設定する"
 
 #: ../../source/host/configure-settings/permission-settings.rst:14
 msgid ""
@@ -1708,11 +1712,11 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:18
 msgid "To assign user permissions:"
-msgstr ""
+msgstr "ユーザーの権限を割り当てるには :"
 
 #: ../../source/host/configure-settings/permission-settings.rst:26
 msgid "Scroll to 'Domain-Wide User Permissions'."
-msgstr ""
+msgstr "「Domain-Wide User Permissions」までスクロールします。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:27
 msgid ""
@@ -1756,11 +1760,11 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:37
 msgid "Click 'Save' to save your domain settings."
-msgstr ""
+msgstr "「Save」をクリックして、ドメイン設定を保存します。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:41
 msgid "Standard User Groups"
-msgstr ""
+msgstr "標準ユーザーグループ"
 
 #: ../../source/host/configure-settings/permission-settings.rst:43
 msgid ""
@@ -1771,11 +1775,11 @@ msgstr "ドメインには、メタバースでやり取りするユーザーに
 
 #: ../../source/host/configure-settings/permission-settings.rst:46
 msgid "User Type"
-msgstr ""
+msgstr "ユーザータイプ"
 
 #: ../../source/host/configure-settings/permission-settings.rst:48
 msgid "anonymous"
-msgstr ""
+msgstr "匿名"
 
 #: ../../source/host/configure-settings/permission-settings.rst:48
 msgid ""
@@ -1788,7 +1792,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:52
 msgid "friends"
-msgstr ""
+msgstr "友達"
 
 #: ../../source/host/configure-settings/permission-settings.rst:52
 msgid ""
@@ -1803,7 +1807,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:57
 msgid "localhost"
-msgstr ""
+msgstr "localhost"
 
 #: ../../source/host/configure-settings/permission-settings.rst:57
 msgid ""
@@ -1816,7 +1820,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:61
 msgid "logged-in"
-msgstr ""
+msgstr "logged-in"
 
 #: ../../source/host/configure-settings/permission-settings.rst:61
 msgid ""
@@ -1855,7 +1859,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:73
 msgid "User Permissions"
-msgstr ""
+msgstr "ユーザー権限"
 
 #: ../../source/host/configure-settings/permission-settings.rst:75
 msgid "The actions that you can secure for each type of user are as follows:"
@@ -1863,23 +1867,23 @@ msgstr "ユーザーのタイプごとに保護できるアクションは次の
 
 #: ../../source/host/configure-settings/permission-settings.rst:78
 msgid "Permissions"
-msgstr ""
+msgstr "権限"
 
 #: ../../source/host/configure-settings/permission-settings.rst:78
 msgid "Definition"
-msgstr ""
+msgstr "内容"
 
 #: ../../source/host/configure-settings/permission-settings.rst:80
 msgid "Connect"
-msgstr ""
+msgstr "Connect"
 
 #: ../../source/host/configure-settings/permission-settings.rst:80
 msgid "Sets whether a user can enter the domain."
-msgstr ""
+msgstr "ユーザーがドメインに入ることができるかどうかを設定します。"
 
 #: ../../source/host/configure-settings/permission-settings.rst:82
 msgid "Lock/Unlock"
-msgstr ""
+msgstr "Lock/Unlock"
 
 #: ../../source/host/configure-settings/permission-settings.rst:82
 msgid ""
@@ -1889,7 +1893,7 @@ msgstr "ユーザがエンティティの 「locked」プロパティを変更�
 
 #: ../../source/host/configure-settings/permission-settings.rst:85
 msgid "Rez"
-msgstr ""
+msgstr "Rez"
 
 #: ../../source/host/configure-settings/permission-settings.rst:85
 msgid ""
@@ -1901,7 +1905,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:88
 msgid "Rez Temporary"
-msgstr ""
+msgstr "Rez Temporary"
 
 #: ../../source/host/configure-settings/permission-settings.rst:88
 msgid ""
@@ -1915,7 +1919,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:93
 msgid "Rez Certified"
-msgstr ""
+msgstr "Rez Certified"
 
 #: ../../source/host/configure-settings/permission-settings.rst:93
 msgid ""
@@ -1928,7 +1932,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:97
 msgid "Rez Temporary Certified"
-msgstr ""
+msgstr "Rez Temporary Certified"
 
 #: ../../source/host/configure-settings/permission-settings.rst:97
 msgid ""
@@ -1942,7 +1946,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:102
 msgid "Write Assets"
-msgstr ""
+msgstr "Write Assets"
 
 #: ../../source/host/configure-settings/permission-settings.rst:102
 msgid ""
@@ -1955,7 +1959,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:105
 msgid "Ignore Max Capacity"
-msgstr ""
+msgstr "Ignore Max Capacity"
 
 #: ../../source/host/configure-settings/permission-settings.rst:105
 msgid ""
@@ -1965,7 +1969,7 @@ msgstr "ドメインが指定された容量制限に達している、または
 
 #: ../../source/host/configure-settings/permission-settings.rst:108
 msgid "Kick Users"
-msgstr ""
+msgstr "Kick Users"
 
 #: ../../source/host/configure-settings/permission-settings.rst:108
 msgid "Sets whether a user is allowed to ban other users from a domain."
@@ -1973,7 +1977,7 @@ msgstr "ユーザーが他のユーザーをドメインから追放すること
 
 #: ../../source/host/configure-settings/permission-settings.rst:110
 msgid "Replace Content"
-msgstr ""
+msgstr "Replace Content"
 
 #: ../../source/host/configure-settings/permission-settings.rst:110
 msgid ""
@@ -1983,7 +1987,7 @@ msgstr "ユーザーが既存のコンテンツをワイプしてドメインの
 
 #: ../../source/host/configure-settings/permission-settings.rst:113
 msgid "Can Get and Set Private User Data"
-msgstr ""
+msgstr "Can Get and Set Private User Data"
 
 #: ../../source/host/configure-settings/permission-settings.rst:113
 msgid ""
@@ -2024,7 +2028,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:14
 msgid "Get a Place Name"
-msgstr ""
+msgstr "地名を取得する"
 
 #: ../../source/host/configure-settings/place-setting.rst:16
 msgid ""
@@ -2042,7 +2046,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:19
 msgid "Click 'Create Place'."
-msgstr ""
+msgstr "「Create Place」をクリックします。"
 
 #: ../../source/host/configure-settings/place-setting.rst:20
 msgid ""
@@ -2056,11 +2060,11 @@ msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:21
 msgid "Click 'Create'."
-msgstr ""
+msgstr "「Create」をクリックします。"
 
 #: ../../source/host/configure-settings/place-setting.rst:25
 msgid "Configure Your Place Name"
-msgstr ""
+msgstr "地名を設定する"
 
 #: ../../source/host/configure-settings/place-setting.rst:27
 msgid ""
@@ -2075,15 +2079,15 @@ msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:29
 msgid "**Method 1 - Use the Domain Settings**"
-msgstr ""
+msgstr "**方法1-ドメイン設定を使用する**"
 
 #: ../../source/host/configure-settings/place-setting.rst:31
 msgid "This sets up your place name directly from your domain settings."
-msgstr ""
+msgstr "これにより、ドメイン設定から直接地名が設定されます。"
 
 #: ../../source/host/configure-settings/place-setting.rst:39
 msgid "Scroll to 'Places'."
-msgstr ""
+msgstr "「Places」までスクロールします。"
 
 #: ../../source/host/configure-settings/place-setting.rst:40
 msgid "In the grid, click the ``+`` icon to add a place name to this domain."
@@ -2101,7 +2105,7 @@ msgstr "[Path or Viewpoint]に、訪問者がスポーンする座標を入力�
 
 #: ../../source/host/configure-settings/place-setting.rst:47
 msgid "**Method 2 - Use 'My Places'**"
-msgstr ""
+msgstr "**方法2-「My Places」を使用**"
 
 #: ../../source/host/configure-settings/place-setting.rst:49
 msgid ""
@@ -2126,11 +2130,11 @@ msgstr "設定する地名の横にある[Edit]アイコンをクリックしま
 
 #: ../../source/host/configure-settings/place-setting.rst:53
 msgid "For 'Points to', enter the domain ID of your domain."
-msgstr ""
+msgstr "「Points to」には、ドメインのドメインIDを入力します。"
 
 #: ../../source/host/configure-settings/place-setting.rst:54
 msgid "For 'Path', enter the coordinates where your visitors will spawn."
-msgstr ""
+msgstr "「Path」には、訪問者がスポーンする座標を入力します。"
 
 #: ../../source/host/configure-settings/place-setting.rst:55
 msgid ""
@@ -2148,7 +2152,7 @@ msgstr "（オプション）ドメインのプレビュー画像をアップロ
 
 #: ../../source/host/configure-settings/place-setting.rst:57
 msgid "Click 'Update Place'."
-msgstr ""
+msgstr "「Update Place」をクリックします。"
 
 #: ../../source/host/invite-users.rst:2
 msgid ""
@@ -2170,7 +2174,7 @@ msgstr ""
 
 #: ../../source/host/invite-users.rst:16
 msgid "Invite Your Friends"
-msgstr ""
+msgstr "友達を招待する"
 
 #: ../../source/host/invite-users.rst:18
 msgid ""
@@ -2204,7 +2208,7 @@ msgstr ""
 
 #: ../../source/host/invite-users.rst:28
 msgid "Add Your Domain to the Explore App"
-msgstr ""
+msgstr "ドメインをエクスプローラアプリに追加する"
 
 #: ../../source/host/invite-users.rst:30
 msgid ""
@@ -2289,7 +2293,7 @@ msgstr ""
 
 #: ../../source/host/invite-users.rst:57 ../../source/host/invite-users.rst:71
 msgid "In Interface, pull up your Tablet or HUD and go to **Snap**."
-msgstr ""
+msgstr "インターフェイスで、Tablet またはHUDをプルアップし、 **Snap** に移動します。"
 
 #: ../../source/host/invite-users.rst:58 ../../source/host/invite-users.rst:72
 msgid "In the Snapshot app, press the large red circle to capture a snapshot."
@@ -2414,7 +2418,7 @@ msgstr "ルールの名前、バックアップ間隔（秒単位）、および
 
 #: ../../source/host/maintain-domain/backup-domain.rst:25
 msgid "Click the ``X`` icon next to any rule you want to delete."
-msgstr ""
+msgstr "削除するルールの横にある ``X`` アイコンをクリックします。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:28
 msgid "To access your content archives:"
@@ -2564,7 +2568,7 @@ msgstr ""
 #: ../../source/host/maintain-domain/manage-visitors.rst:21
 #: ../../source/host/maintain-domain/manage-visitors.rst:36
 msgid "In Interface, pull up your Tablet or HUD and go to **People**."
-msgstr ""
+msgstr "インターフェイスで、Tablet またはHUDをプルアップし、 **People** に移動します。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:22
 #: ../../source/host/maintain-domain/manage-visitors.rst:37
@@ -2982,7 +2986,7 @@ msgstr ""
 
 #: ../../source/host/server-setup.rst:19
 msgid "No need to have expensive hardware on hand to host a domain"
-msgstr ""
+msgstr "ドメインをホストするために高価なハードウェアを手元に用意する必要はありません"
 
 #: ../../source/host/server-setup.rst:21
 msgid ""
@@ -2998,7 +3002,7 @@ msgstr "個人のコンピューターとは別の安全な環境で、ハッキ
 
 #: ../../source/host/server-setup.rst:28
 msgid "Ideal for large, public domains for hosting events or open gathering areas"
-msgstr ""
+msgstr "イベント開催やオープンな集会場など、大規模なパブリックドメインに最適です"
 
 #: ../../source/host/server-setup.rst:19
 msgid "Monthly subscription cost"
@@ -3125,6 +3129,8 @@ msgid ""
 "The file <code>/etc/opt/vircadia/default.conf</code> contains any "
 "environment variables necessary to running the domain."
 msgstr ""
+"このファイル <code>/etc/opt/vircadia/default.conf</code> "
+"には、ドメインを実行するために必要な環境変数が含まれています。"
 
 #: ../../source/host/server-setup/linux-server.md:53
 msgid ""
@@ -3517,7 +3523,7 @@ msgstr ""
 msgid ""
 "`Create a unique content set and upload it to your domain <../add-"
 "content.html>`_"
-msgstr ""
+msgstr "`独自のコンテンツセットを作成し、ドメインにアップロードします <../add-content.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:73
 msgid "`Create a Place name <../configure-settings /place-setting.html>`_"
