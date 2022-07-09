@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2022-07-04 20:22+0000\n"
-"Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
+"PO-Revision-Date: 2022-07-09 03:23+0000\n"
+"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/es/>\n"
 "Language: es\n"
@@ -40,27 +40,27 @@ msgstr "Scripts de interfaz"
 
 #: ../../source/script.rst:9 ../../source/script/assignment-client-scripts.md:1
 msgid "Assignment Client Scripts"
-msgstr ""
+msgstr "Scripts de Asignación de Clientes"
 
 #: ../../source/script.rst:9 ../../source/script/avatar-scripts.md:1
 msgid "Avatar Scripts"
-msgstr ""
+msgstr "Scripts de Avatar"
 
 #: ../../source/script.rst:9 ../../source/script/client-entity-scripts.md:1
 msgid "Client Entity Scripts"
-msgstr ""
+msgstr "Scripts de Entidad de Cliente"
 
 #: ../../source/script.rst:9 ../../source/script/server-entity-scripts.md:1
 msgid "Server Entity Scripts"
-msgstr ""
+msgstr "Scripts de la Entidad del Servidor"
 
 #: ../../source/script.rst:9 ../../source/script/midi-tutorial.rst:3
 msgid "Tutorial: Use MIDI to Control Your Environment"
-msgstr ""
+msgstr "Tutorial: Usa MIDI para Controlar Tu Entorno"
 
 #: ../../source/script.rst:3
 msgid "Script"
-msgstr ""
+msgstr "Script"
 
 #: ../../source/script.rst:5
 msgid ""
@@ -68,12 +68,17 @@ msgid ""
 "things: creating content, moving your avatar, playing audio at a specific"
 " location, wearing an avatar attachment, and much more."
 msgstr ""
+"Vircadia usa scripts (escritos en JavaScript) para varias cosas diferentes: "
+"crear contenido, mover tu avatar, reproducir audio en una ubicación "
+"específica, usar un archivo adjunto de avatar y mucho más."
 
 #: ../../source/script.rst:7
 msgid ""
 "Throughout this chapter, learn about the different types of scripts and "
 "how you can use them to create new experiences:"
 msgstr ""
+"A lo largo de este capítulo, aprende sobre los diferentes tipos de scripts y "
+"cómo puedes usarlos para crear nuevas experiencias:"
 
 #: ../../source/script/assignment-client-scripts.md:3
 msgid ""
@@ -83,6 +88,12 @@ msgid ""
 "script will continue to run until you either remove the script from the "
 "domain or you shut down the domain entirely."
 msgstr ""
+"Los scripts de Asignación de Cliente (AC) (también conocidos como \"scripts "
+"persistentes\") se ejecutan de forma persistente en un dominio y no se ven "
+"afectados por otros scripts. Estos scripts se ejecutan en un cliente de "
+"asignación independiente de la Interfaz, por lo que el script continuará "
+"ejecutándose hasta que se elimine del dominio o cierres el dominio por "
+"completo."
 
 #: ../../source/script/assignment-client-scripts.md:5
 msgid ""
@@ -90,23 +101,25 @@ msgid ""
 "entities and avatars, and add virtual pets to greet visitors to your "
 "domain."
 msgstr ""
+"Con los scripts de AC, puedes hacer cosas como coordinar acciones entre "
+"entidades y avatares, y agregar mascotas virtuales para saludar a los "
+"visitantes de tu dominio."
 
 #: ../../source/script/assignment-client-scripts.md:7
 #: ../../source/script/avatar-scripts.md:7
 #: ../../source/script/client-entity-scripts.md:7
 #: ../../source/script/interface-scripts.md:7
 #: ../../source/script/server-entity-scripts.md:5
-#, fuzzy
 msgid "**On This Page**"
-msgstr "En Esta Página"
+msgstr "**En Esta Página**"
 
 #: ../../source/script/assignment-client-scripts.md:8
 msgid "[Add an AC Script](#add-an-ac-script)"
-msgstr ""
+msgstr "[Añadir un Script AC](#add-an-ac-script)"
 
 #: ../../source/script/assignment-client-scripts.md:9
 msgid "[Example of an AC Script](#example-of-an-ac-script)"
-msgstr ""
+msgstr "[Ejemplo de un Script AC](#example-of-an-ac-script)"
 
 #: ../../source/script/assignment-client-scripts.md:11
 msgid "Add an AC Script"
