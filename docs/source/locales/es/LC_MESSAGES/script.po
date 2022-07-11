@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2022-07-09 03:23+0000\n"
-"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
+"PO-Revision-Date: 2022-07-11 21:20+0000\n"
+"Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/es/>\n"
 "Language: es\n"
@@ -123,7 +123,7 @@ msgstr "[Ejemplo de un Script AC](#example-of-an-ac-script)"
 
 #: ../../source/script/assignment-client-scripts.md:11
 msgid "Add an AC Script"
-msgstr ""
+msgstr "Añadir un Script AC"
 
 #: ../../source/script/assignment-client-scripts.md:12
 msgid ""
@@ -131,6 +131,9 @@ msgid ""
 "domain, either your own or one where you have permissions to run an AC "
 "script."
 msgstr ""
+"Una vez has escrito y alojado tu script, necesitas añadirlo a un dominio "
+"(microverso), ya sea el tuyo propio o uno en el que tengas permisos para "
+"ejecutar el script AC."
 
 #: ../../source/script/assignment-client-scripts.md:14
 msgid ""
@@ -138,26 +141,33 @@ msgid ""
 "open it by clicking on the Vircadia icon in the taskbar notifications and"
 " 'click Settings'."
 msgstr ""
+"Abre tu 'Panel de Administración de Dominio'. Si estás en un sandbox local, "
+"ábrelo haciendo clic en el icono de Vircadia en las notificaciones de la "
+"barra de tareas y haciendo clic en Configuración."
 
 #: ../../source/script/assignment-client-scripts.md:15
 msgid "From the menu, go to **Content > Scripts**."
-msgstr ""
+msgstr "En el menú, ves a **Contenido > Scripts**."
 
 #: ../../source/script/assignment-client-scripts.md:16
 msgid ""
 "In the Persistent Scripts section, click **+** and paste the URL to your "
 "script under 'Script URL'.  ![](_images/ac-script.png)"
 msgstr ""
+"En la sección de Scripts Persistentes, clica **+** y pega la URL a tu script "
+"debajo de 'Script URL'.  ![](_images/ac-script.png)"
 
 #: ../../source/script/assignment-client-scripts.md:18
 msgid ""
 "At the top of the page, click 'Save and Restart'. Now, every time you "
 "enter that domain, the AC script will be running."
 msgstr ""
+"En la parte superior de la página, clica en 'Guardar y reiniciar'. Ahora, "
+"cada vez que entres a ese dominio, se ejecutará el script AC."
 
 #: ../../source/script/assignment-client-scripts.md:20
 msgid "Example of an AC Script"
-msgstr ""
+msgstr "Ejemplo de un Script AC"
 
 #: ../../source/script/assignment-client-scripts.md:22
 msgid ""
@@ -165,6 +175,9 @@ msgid ""
 "using Vircadia's "
 "[EntityViewer](https://apidocs.vircadia.dev/EntityViewer.html)."
 msgstr ""
+"El siguiente script cuenta la cantidad de entidades encontradas en un "
+"dominio utilizando [EntityViewer](https://apidocs.vircadia.dev/EntityViewer."
+"html) de Vircadia."
 
 #: ../../source/script/assignment-client-scripts.md:54
 #: ../../source/script/avatar-scripts.md:78
@@ -179,7 +192,7 @@ msgstr "**Ver también**"
 
 #: ../../source/script/assignment-client-scripts.md:56
 msgid "[Configure Your Domain Settings](../host/configure-settings)"
-msgstr ""
+msgstr "[Configura tu Dominio](../host/configure-settings)"
 
 #: ../../source/script/assignment-client-scripts.md:57
 #: ../../source/script/avatar-scripts.md:80
@@ -188,7 +201,7 @@ msgstr ""
 #: ../../source/script/server-entity-scripts.md:59
 #: ../../source/script/write-scripts.md:76
 msgid "[Get Started with Scripting](get-started-with-scripting)"
-msgstr ""
+msgstr "[Primeros pasos con Scripting](primeros-pasos-con-scripting)"
 
 #: ../../source/script/assignment-client-scripts.md:58
 #: ../../source/script/avatar-scripts.md:81
@@ -197,7 +210,7 @@ msgstr ""
 #: ../../source/script/js-tips.md:202
 #: ../../source/script/server-entity-scripts.md:60
 msgid "[Write Your Own Scripts](write-scripts)"
-msgstr ""
+msgstr "[Escribe tus propios Scripts](escribe-scripts)"
 
 #: ../../source/script/avatar-scripts.md:3
 msgid ""
@@ -207,24 +220,31 @@ msgid ""
 "able to see the script in action, but they will not be able to run the "
 "script themselves."
 msgstr ""
+"Los scripts de avatar están vinculados y limitados a un avatar. Esto "
+"significa que se ejecutan cuando un usuario pone en escena un avatar "
+"específico. Del mismo modo, los scripts de avatar dejan de ejecutarse cuando "
+"se elimina o se cambia el avatar. Otros usuarios en el dominio podrán ver el "
+"script en acción, pero no podrán ejecutarlo ellos mismos."
 
 #: ../../source/script/avatar-scripts.md:5
 msgid ""
 "With avatar scripts, you can do things like make your hair flow or create"
 " particle clouds around your avatar."
 msgstr ""
+"Con los scripts de avatar, puedes hacer cosas como hacer que el cabello se "
+"mueva o crear nubes de partículas alrededor de tu avatar."
 
 #: ../../source/script/avatar-scripts.md:9
 msgid "[Add an Avatar Script](#add-an-avatar-script)"
-msgstr ""
+msgstr "[Añade un Script de Avatar](#add-an-avatar-script)"
 
 #: ../../source/script/avatar-scripts.md:10
 msgid "[Example of an Avatar Script](#example-of-an-avatar-script)"
-msgstr ""
+msgstr "[Ejemplo de un Script de Avatar](#example-of-an-avatar-script)"
 
 #: ../../source/script/avatar-scripts.md:12
 msgid "Add an Avatar Script"
-msgstr ""
+msgstr "Añade un Script de Avatar"
 
 #: ../../source/script/avatar-scripts.md:13
 msgid ""
