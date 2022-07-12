@@ -5,67 +5,70 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
+"Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 15:10+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-07-13 20:15+0000\n"
+"Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/"
+"vircadia-user-docs/home/ca/>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: ../../source/home.rst:84
 msgid "HOME"
-msgstr ""
+msgstr "INICI"
 
 #: ../../source/home.rst:84
 msgid "EXPLORE"
-msgstr ""
+msgstr "EXPLORAR"
 
 #: ../../source/home.rst:84
 msgid "CREATE"
-msgstr ""
+msgstr "CREAR"
 
 #: ../../source/home.rst:84
 msgid "SCRIPT"
-msgstr ""
+msgstr "SCRIPT"
 
 #: ../../source/home.rst:84
 msgid "HOST"
-msgstr ""
+msgstr "ALLOTJAR"
 
 #: ../../source/home.rst:84
 msgid "CONTRIBUTE"
-msgstr ""
+msgstr "CONTRIBUIR"
 
 #: ../../source/home.rst:84
 msgid "DEVELOP"
-msgstr ""
+msgstr "DESENVOLUPAR"
 
 #: ../../source/home.rst:84
 msgid "SECURITY"
-msgstr ""
+msgstr "SEGURETAT"
 
 #: ../../source/home.rst:84
 msgid "FAQ"
-msgstr ""
+msgstr "FAQs"
 
 #: ../../source/home.rst:84
 msgid "RELEASE NOTES"
-msgstr ""
+msgstr "NOTES DE LLANÇAMENT"
 
 #: ../../source/home.rst:84
 msgid "API REFERENCE"
-msgstr ""
+msgstr "REFERÈNCIA API"
 
 #: ../../source/home.rst:3
 msgid "Home"
-msgstr ""
+msgstr "Inici"
 
 #: ../../source/home.rst:5
 msgid ""
@@ -93,11 +96,11 @@ msgstr ""
 
 #: ../../source/home.rst
 msgid "Download"
-msgstr ""
+msgstr "Descarregar"
 
 #: ../../source/home.rst
 msgid "Gallery"
-msgstr ""
+msgstr "Galeria"
 
 #: ../../source/home.rst:26
 msgid ""
@@ -108,7 +111,7 @@ msgstr ""
 
 #: ../../source/home.rst
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: ../../source/home.rst:35
 msgid "This documentation is authored in `English <https://docs.vircadia.com/>`_."
@@ -209,4 +212,3 @@ msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
 msgstr ""
-
