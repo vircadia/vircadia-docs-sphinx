@@ -43,6 +43,7 @@ jobs:
         sphinx-intl update -l jp
         sphinx-intl update -l ko
         shpinx-intl update -l zn_CH
+        shpinx-intl update -l ca
     - name: Commit changes
       uses: actions-x/commit@v2
       with:

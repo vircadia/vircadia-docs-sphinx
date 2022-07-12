@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, High Fidelity. © Copyright 2019-2022, DigiSomni. ©
+# Copyright 2019-2022, Vircadia contributors.
+# This file is distributed under the same license as the Vircadia Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vircadia Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-22 22:42+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: ../../source/developer.rst:3
+msgid "Developer"
+msgstr ""
+
+#: ../../source/developer.rst:5
+msgid ""
+"Developer information such as how to build the project from source, "
+"develop, or technically manage it can be found `here "
+"<https://docs.vircadia.dev/>`_."
+msgstr ""
+
