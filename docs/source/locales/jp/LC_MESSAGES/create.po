@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-07-09 15:34+0000\n"
+"PO-Revision-Date: 2022-07-12 11:30+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/create/ja/>\n"
@@ -5923,7 +5923,7 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:119
 #: ../../source/create/entities/entity-appearance.rst:144
 msgid "Setting"
-msgstr ""
+msgstr "設定"
 
 #: ../../source/create/entities/entity-appearance.rst:26
 #: ../../source/create/entities/entity-appearance.rst:75

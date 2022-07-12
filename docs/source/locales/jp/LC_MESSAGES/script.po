@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-06-27 06:23+0000\n"
-"PO-Revision-Date: 2022-05-19 00:09+0000\n"
+"PO-Revision-Date: 2022-07-12 11:30+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/script/ja/>\n"
@@ -471,7 +471,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:32
 msgid "`AvatarList <https://apidocs.vircadia.dev/AvatarList.html>`_"
-msgstr " `アバターリスト <https://apidocs.vircadia.dev/AvatarList.html>`_ "
+msgstr "`アバターリスト <https://apidocs.vircadia.dev/AvatarList.html>`_"
 
 #: ../../source/script/get-started-with-scripting.rst:34
 msgid "`AvatarManager <https://apidocs.vircadia.dev/AvatarManager.html>`_"
@@ -489,9 +489,9 @@ msgid ""
 " information here will be always the avatar information of the client "
 "running the script. AvatarList and AvatarManager are basically the same."
 msgstr ""
-" `アバター <https://apidocs.vircadia.dev/Avatar.html>` に関する情報を取得したり、独自のクライアント専用の `"
-"私のアバター <https://apidocs.vircadia.dev/MyAvatar.html>` を操作したりできます。ここでの情報は、常にスクリプ"
-"トを実行しているクライアントのアバター情報になります。アバターリストとアバターマネージャは基本的に同じです。"
+"`アバター <https://apidocs.vircadia.dev/Avatar.html>` に関する情報を取得したり、独自のクライアント専用の `"
+"私のアバター <https://apidocs.vircadia.dev/MyAvatar.html>` を操作したりできます。ここでの情報は、常にスクリ"
+"プトを実行しているクライアントのアバター情報になります。アバターリストとアバターマネージャは基本的に同じです。"
 
 #: ../../source/script/get-started-with-scripting.rst:40
 msgid "`Script <https://apidocs.vircadia.dev/Script.html>`_"
@@ -536,8 +536,8 @@ msgid ""
 " scripts, you can perform one-time creation tasks or modify the user "
 "experience with new menus, overlays, tweaks, plugins, and extensions."
 msgstr ""
-" *インターフェイススクリプト* は、インターフェイスが実行されている限り実行されます。これらのスクリプトを使用すると、1回限りの作成タスクを実行したり、新し"
-"いメニュー、オーバーレイ、微調整、プラグイン、および拡張機能を使用してユーザーエクスペリエンスを変更したりできます。"
+"*インターフェイススクリプト* は、インターフェイスが実行されている限り実行されます。これらのスクリプトを使用すると、1回限りの作成タスクを実行したり、新"
+"しいメニュー、オーバーレイ、微調整、プラグイン、および拡張機能を使用してユーザーエクスペリエンスを変更したりできます。"
 
 #: ../../source/script/get-started-with-scripting.rst:62
 msgid "Assignment Client Script"
@@ -549,8 +549,8 @@ msgid ""
 "avatars in your domain. These scripts continue to run even when you shut "
 "down Interface."
 msgstr ""
-" *割り当てクライアントスクリプト* は、ドメイン内のエンティティとアバター間のアクションを調整します。これらのスクリプトは、インターフェイスをシャットダウン"
-"しても実行され続けます。"
+"*割り当てクライアントスクリプト* "
+"は、ドメイン内のエンティティとアバター間のアクションを調整します。これらのスクリプトは、インターフェイスをシャットダウンしても実行され続けます。"
 
 #: ../../source/script/get-started-with-scripting.rst:65
 msgid "Avatar Script"

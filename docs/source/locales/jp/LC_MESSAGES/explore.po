@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-17 04:33+0000\n"
-"PO-Revision-Date: 2022-05-24 06:04+0000\n"
+"PO-Revision-Date: 2022-07-12 11:30+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/explore/ja/>\n"
@@ -27,27 +27,27 @@ msgstr "ギャラリー"
 
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 msgid "Get Started with Vircadia"
-msgstr ""
+msgstr "Vircadiaを始めよう"
 
 #: ../../source/explore.rst:11 ../../source/explore/personalize.rst:3
 msgid "Personalize Your Experience"
-msgstr ""
+msgstr "カスタマイズ"
 
 #: ../../source/explore.rst:11 ../../source/explore/socialize.rst:3
 msgid "Socialize with Others"
-msgstr ""
+msgstr "他の人と交流する"
 
 #: ../../source/explore.rst:11 ../../source/explore/travel.md:6
 msgid "Travel Between Worlds"
-msgstr ""
+msgstr "世界と世界をつなぐ旅"
 
 #: ../../source/explore.rst:11 ../../source/explore/interact.md:1
 msgid "Interact with Your Environment"
-msgstr ""
+msgstr "あなたの環境と対話"
 
 #: ../../source/explore.rst:3
 msgid "Explore"
-msgstr ""
+msgstr "探検"
 
 #: ../../source/explore.rst:5
 msgid ""
@@ -57,6 +57,8 @@ msgid ""
 "events, and learn about creation in virtuality. It's an immersive and "
 "interactive experience with realistic visuals and audio."
 msgstr ""
+"Vircadiaは、他の人とつながり、創造することができるメタバースです。Vircadiaに作られた世界を探索し、他のユーザーと交流してください。友人の仮"
+"想世界を訪れ、人と会い、イベントに参加し、仮想における創造について学ぶことができます。リアルな映像と音声で、没入感のあるインタラクティブな体験ができます。"
 
 #: ../../source/explore.rst:7
 msgid ""
@@ -67,46 +69,49 @@ msgid ""
 " metaverse. If you've visited Vircadia before, you will return to the "
 "location where you last visited."
 msgstr ""
+"初めてVircadiaを使う場合は、ローカルのチュートリアルスペースで一人旅を始め、操作を試したりインターフェイスについて学んだりすることができます。準備"
+"ができたら、Exploreアプリを使って他のドメインを探検してみたり、メタバース周辺の人々と交流してみましょう。以前にVircadiaを訪れたことがある場"
+"合は、前回訪れた場所に戻ります。"
 
 #: ../../source/explore.rst:9
 msgid "Throughout this chapter, learn how to make the most of your exploration:"
-msgstr ""
+msgstr "この章を通して、探索を最大限に活用する方法を学びます :"
 
 #: ../../source/explore/gallery.rst:5
 msgid ""
 "This gallery showcases the Vircadia Interface and some past events and "
 "locations attended with it."
-msgstr ""
+msgstr "このギャラリーでは、Vircadia Interfaceと、それを使って参加した過去のイベントや場所を紹介しています。"
 
 #: ../../source/explore/gallery.rst:12
 msgid ""
 "Maker Meeting, 28th September 2020, on the \"El Papa Viejo\" (meaning "
 "\"The Old Pope\")."
-msgstr ""
+msgstr "2020年9月28日「El Papa Viejo」理事会。"
 
 #: ../../source/explore/gallery.rst:19
 msgid "Startup Lab Lagoon Koza booth at Startup Asia X, 12th June 2020."
-msgstr ""
+msgstr "2020年6月12日 Startup Lab Startup Asia X (Lagoon Koza boothにて)。"
 
 #: ../../source/explore/gallery.rst:26
 msgid "Group photo at the end of Startup Asia X, 12th June 2020."
-msgstr ""
+msgstr "2020年6月12日 StartupAsiaXの終わりの集合写真。"
 
 #: ../../source/explore/gallery.rst:33
 msgid "Dale Glass speaking at the Developer Meeting, 20th September 2020."
-msgstr ""
+msgstr "2020年9月20日 開発者会議で講演するDaleGlassさん。"
 
 #: ../../source/explore/gallery.rst:40
 msgid "Mannequin army, 13th July 2020."
-msgstr ""
+msgstr "2020年7月13日 マネキン軍。"
 
 #: ../../source/explore/gallery.rst:47
 msgid "Pictionary in the old Hub, 5th July 2020."
-msgstr ""
+msgstr "2020年7月5日 old HubでのPictionary。"
 
 #: ../../source/explore/gallery.rst:54
 msgid "Vircadia running on Linux Mint 19.3, 29th September 2020."
-msgstr ""
+msgstr "2020年9月29日 Linux Mint 19.3で実行されているVircadia。"
 
 #: ../../source/explore/gallery.rst:58
 #: ../../source/explore/get-started/adjust-settings.rst:129
@@ -124,43 +129,43 @@ msgstr "**関連項目**"
 
 #: ../../source/explore/gallery.rst:60
 msgid ":doc:`Install Vircadia <get-started/install>`"
-msgstr ""
+msgstr ":doc:`Vircadiaのインストール <get-started/install>`"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/install.rst:3
 #: ../../source/explore/get-started/install.rst:107
 msgid "Install Vircadia"
-msgstr ""
+msgstr "Vircadiaをインストールする"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/architecture.rst:7
 msgid "Understand the Architecture"
-msgstr ""
+msgstr "アーキテクチャを理解する"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/setup-audio.rst:7
 msgid "Set Up Your Audio Devices"
-msgstr ""
+msgstr "オーディオデバイスをセットアップする"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/vr-controls.rst:7
 msgid "Use Your VR Equipment"
-msgstr ""
+msgstr "VR機器を使用する"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/desktop.rst:3
 msgid "Explore in Desktop Mode"
-msgstr ""
+msgstr "デスクトップモードで探索する"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/adjust-settings.rst:7
 msgid "Adjust Your Settings"
-msgstr ""
+msgstr "設定を調整する"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/android.rst:3
 msgid "Get Our Android App"
-msgstr ""
+msgstr "Androidアプリの入手"
 
 #: ../../source/explore/get-started.rst:5
 msgid ""
@@ -170,6 +175,8 @@ msgid ""
 "application, so that you can begin making friends and exploring the "
 "metaverse."
 msgstr ""
+"新しいアプリケーションを使い始めるのは難しいものです。ソフトウェアをインストールし、操作を覚えるのは決して楽しいことではありません。このセクションでは、私"
+"たちのアプリケーションに慣れ親しみ、友達を作り、メタバースを探検し始めるための手助けになることを願っています。"
 
 #: ../../source/explore/get-started.rst:7
 msgid "**In This Section**"
@@ -181,6 +188,8 @@ msgid ""
 " exist anymore, mentions security picture, says that lower graphics "
 "setting increase performance (not entirely true in our case)"
 msgstr ""
+"このドキュメントは若干古くなっています。FIXME: いくつかのパースペクティブ・オプションはもう存在しません、セキュリティ画像について言及、低いグラフィ"
+"ック設定はパフォーマンスを上げると書いてあります。（私たちのケースでは完全に真実ではありません）"
 
 #: ../../source/explore/get-started/adjust-settings.rst:9
 msgid ""
@@ -188,6 +197,8 @@ msgid ""
 "preferences. Many of these settings are changed using the HUD (in Desktop"
 " mode) or Tablet (in VR mode)."
 msgstr ""
+"Vircadiaでは様々な設定を調整して、自分の好みに合わせて動作させることができます。これらの設定の多くは、HUD（デスクトップモード）またはタブレット"
+"（VRモード）を使って変更します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:12
 #: ../../source/explore/get-started/android.rst:11
@@ -203,7 +214,7 @@ msgstr "コンテンツ"
 
 #: ../../source/explore/get-started/adjust-settings.rst:16
 msgid "The Tablet and HUD"
-msgstr ""
+msgstr "タブレットとHUD"
 
 #: ../../source/explore/get-started/adjust-settings.rst:18
 msgid ""
@@ -212,6 +223,8 @@ msgid ""
 "/install-apps>`. Pull up the tablet by clicking the menu button on your "
 "controller."
 msgstr ""
+"VR では、すべての設定が **タブレット** で確認できます。また、 `タブレットからインストールしたアプリ <../personalize/"
+"install-apps>` に簡単にアクセスすることができます。タブレットを表示するには、コントローラのメニューボタンをクリックします。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:22
 msgid ""
@@ -222,10 +235,14 @@ msgid ""
 "**Developer** menu by going to **Settings > Developer Menu**. Then, go to"
 " **Developer > UI > Desktop Tablet Becomes Toolbar**."
 msgstr ""
+"デスクトップモードでは、タブレットまたは以前のバージョンからのHUD(Heads-up Display)と呼ばれるいずれかのオプションを使用することができ"
+"ます。HUDは、タブレットとまったく同じオプション（設定、アプリなど）が含まれていますが、画面上で占めるスペースは小さくなっています。HUDを有効にするに"
+"は、まず **Settings > Developer Menu** に進み、 **Developer** メニューを有効にします。次に、 **"
+"Developer > UI > Desktop Tablet Becomes Toolbar** に進みます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:28
 msgid "Enter or Exit VR Mode"
-msgstr ""
+msgstr "VRモードの開始または終了"
 
 #: ../../source/explore/get-started/adjust-settings.rst:30
 msgid ""
@@ -234,6 +251,8 @@ msgid ""
 "contains many of Vircadia's features such as audio, basic movements and "
 "gestures, and the ability to travel to different domains."
 msgstr ""
+"Vircadiaは、ヘッドマウントディスプレイ（HMD）、ハンドコントローラ、オーディオヘッドセットなどのVR機器と一緒に楽しむことができます。デスクトッ"
+"プモードでは、オーディオ、基本的な動きやジェスチャー、異なるドメインへの移動機能など、Vircadiaの多くの機能が搭載されています。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:32
 msgid ""
@@ -244,38 +263,42 @@ msgid ""
 " between VR mode and Desktop mode. To switch to VR mode, use one of the "
 "following methods:"
 msgstr ""
+"しかし、最も没入感のあるパワフルな体験ができるのは、VR機器を使用したときであることを念頭に置いておいてください。3Dで人と交流し、体の動きを追跡し、周囲"
+"のオブジェクトと簡単に関わることができるのは、VR機器を使用しているときだけです。VR機器をセットアップしたら、VRモードとデスクトップモードを簡単に切り"
+"替えることができます。VRモードへの切り替えは、以下のいずれかの方法で行います :"
 
 #: ../../source/explore/get-started/adjust-settings.rst:34
 msgid "From the HUD, click **Enter VR**."
-msgstr ""
+msgstr "HUDから、 ** Enter VR** をクリックします。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:35
 msgid "Click the **Display** menu, then select your VR device."
-msgstr ""
+msgstr "**Display** メニューをクリックして、VRデバイスを選択します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:37
 msgid ""
 "To exit from VR mode, remove your headset, click **Exit VR** on the HUD "
 "or press ``ESC`` on your keyboard."
 msgstr ""
+"VRモードを終了するには、ヘッドセットを取り外し、HUDの **Exit VR** をクリックするか、キーボードの ``ESC`` を押します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:41
 msgid "Set Your Perspective"
-msgstr ""
+msgstr "あなたの視点を設定する"
 
 #: ../../source/explore/get-started/adjust-settings.rst:43
 msgid ""
 "You can choose how you view things around you by changing your "
 "perspective. To change your perspective:"
-msgstr ""
+msgstr "視点を変えることで、身の回りのものをどう見るかを選ぶことができます。視点を変えるには :"
 
 #: ../../source/explore/get-started/adjust-settings.rst:45
 msgid "In Desktop mode, go to **View** in the menu on the top left corner."
-msgstr ""
+msgstr "デスクトップモードで、左上隅のメニューの **View** に移動します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:46
 msgid "In VR mode, open your Tablet and go to **Menu > View**."
-msgstr ""
+msgstr "VRモードで、タブレットを開き、 **Menu > View** に移動します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:49
 #: ../../source/explore/get-started/adjust-settings.rst:93
@@ -283,7 +306,7 @@ msgstr ""
 #: ../../source/explore/get-started/setup-audio.rst:135
 #: ../../source/explore/get-started/vr-controls.rst:64
 msgid "Setting"
-msgstr ""
+msgstr "設定"
 
 #: ../../source/explore/get-started/adjust-settings.rst:49
 #: ../../source/explore/get-started/adjust-settings.rst:93
@@ -297,106 +320,106 @@ msgstr "説明"
 
 #: ../../source/explore/get-started/adjust-settings.rst:51
 msgid "First Person"
-msgstr ""
+msgstr "First Person"
 
 #: ../../source/explore/get-started/adjust-settings.rst:51
 msgid ""
 "Select this setting if you want to change your perspective in Vircadia to"
 " first person. In this view, you will not see yourself, only the "
 "environment around you."
-msgstr ""
+msgstr "Vircadiaで一人称視点映像に変更したい場合は、この設定を選択します。この視点だと、自分自身は見えず、周りの環境だけが見えます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:54
 msgid "Third Person"
-msgstr ""
+msgstr "Third Person"
 
 #: ../../source/explore/get-started/adjust-settings.rst:54
 msgid ""
 "Select this setting to change your perspective to third person. In this "
 "view, you will see yourself, as well as the environment around you."
-msgstr ""
+msgstr "この設定を選択して、三人称視点映像に変更します。この視点では、自分自身だけでなく周囲の環境も見ることができます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:57
 msgid "Selfie"
-msgstr ""
+msgstr "Selfie"
 
 #: ../../source/explore/get-started/adjust-settings.rst:57
 msgid ""
 "Select this to change your perspective to look at yourself. In this view,"
 " you will see yourself and the space behind you."
-msgstr ""
+msgstr "これを選択すると、自分自身を見る視点に変わります。この視点では、自分自身と自分の後ろの空間を見ることになります。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:60
 msgid "Independent Mode"
-msgstr ""
+msgstr "Independent Mode"
 
 #: ../../source/explore/get-started/adjust-settings.rst:60
 msgid ""
 "Select this to change what you see through scripting instead of avatar's "
 "movements."
-msgstr ""
+msgstr "この設定に変更することにより、アバターによる視点の動作ではなく、スクリプトを介した視点になります。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:62
 msgid "Entity Mode"
-msgstr ""
+msgstr "Entity Mode"
 
 #: ../../source/explore/get-started/adjust-settings.rst:62
 msgid ""
 "Select this to set your perspective to a specific entity, allowing you to"
 " move with entity as it moves."
-msgstr ""
+msgstr "これを選択すると、視点を特定のエンティティに設定し、そのエンティティの動きに合わせて視点も動きます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:68
 msgid "Other Miscellaneous Settings"
-msgstr ""
+msgstr "その他各種設定"
 
 #: ../../source/explore/get-started/adjust-settings.rst:70
 msgid ""
 "Here are some other settings you may like to change to optimize your "
 "experience."
-msgstr ""
+msgstr "その他、最適化することができる設定をいくつか紹介します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:74
 msgid "General Settings"
-msgstr ""
+msgstr "一般設定"
 
 #: ../../source/explore/get-started/adjust-settings.rst:76
 msgid ""
 "You can modify general settings such user interface and privacy settings "
 "in Vircadia."
-msgstr ""
+msgstr "Vircadiaのユーザーインターフェイスやプライバシー設定などの一般的な設定を変更することができます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:78
 msgid ""
 "In Desktop mode, go to **Settings > General** in the menu on the top left"
 " corner."
-msgstr ""
+msgstr "デスクトップモードで、左上隅のメニューの **Settings > General** に移動します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:79
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > General**."
-msgstr ""
+msgstr "VRモードで、タブレットを開き、 **Menu > Settings > General** に移動します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:85
 msgid "In-World Graphics Settings"
-msgstr ""
+msgstr "インワールドのグラフィック設定"
 
 #: ../../source/explore/get-started/adjust-settings.rst:87
 msgid "You can make changes to the graphics in Vircadia."
-msgstr ""
+msgstr "Vircadiaのグラフィックに変更を加えることができます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:89
 msgid ""
 "In Desktop mode, go to **Settings > Graphics** in the menu on the top "
 "left corner."
-msgstr ""
+msgstr "デスクトップモードで、左上隅のメニューの **Settings > Graphics** に移動します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:90
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Graphics**."
-msgstr ""
+msgstr "VRモードで、タブレットを開き、 **Menu > Settings > Graphics** に移動します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:95
 msgid "Graphics Settings"
-msgstr ""
+msgstr "Graphics Settings"
 
 #: ../../source/explore/get-started/adjust-settings.rst:95
 msgid ""
@@ -405,82 +428,86 @@ msgid ""
 "increased performance and optimization. **Custom** lets you configure the"
 " world detail, rendering effects, refresh rate, and resolution yourself."
 msgstr ""
+"お使いのコンピュータの階層に合わせたグラフィックス設定を選択します。一般的に、グラフィックス設定を低くすると、アーティスティックなディテールやレンダリング"
+"効果が犠牲になり、パフォーマンスと最適化が向上します。カスタムでは、世界の細部、レンダリング効果、リフレッシュレート、および解像度を自分で設定することがで"
+"きます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:100
 msgid "World Detail"
-msgstr ""
+msgstr "World Detail"
 
 #: ../../source/explore/get-started/adjust-settings.rst:100
 msgid ""
 "Control the level of detail visible to you in Vircadia by moving this "
 "slider."
-msgstr ""
+msgstr "このスライダーを動かすことで、Vircadiaで見えるディテールのレベルをコントロールすることができます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:102
 msgid "Rendering Effects"
-msgstr ""
+msgstr "Rendering Effects"
 
 #: ../../source/explore/get-started/adjust-settings.rst:102
 msgid ""
 "Choose the level of rendering effects that are present in Vircadia. Local"
 " lights, fog, bloom, and shadows are all examples of rendering effects."
-msgstr ""
+msgstr "Vircadiaに存在するレンダリング効果のレベルを選択します。ローカルライト、フォグ、ブルーム、シャドウはすべてレンダリング効果の一例です。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
 msgid "Refresh Rate"
-msgstr ""
+msgstr "Refresh Rate"
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
 msgid ""
 "Choose the frequency that Vircadia updates its graphics buffers. Most "
 "mid-range computers run well on 'Interactive'."
 msgstr ""
+"Vircadiaがグラフィックバッファを更新する頻度を選択します。ほとんどのミッドレンジコンピュータは「Interactive」でうまく動きます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
 msgid "Resolution"
-msgstr ""
+msgstr "Resolution"
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
 msgid ""
 "Adjust the resolution using the slider. This affects how clear Vircadia "
 "appears on your monitor or screen."
-msgstr ""
+msgstr "スライダーで解像度を調整します。これは、あなたのモニターやスクリーンでVircadia空間画像がどれだけ鮮明に見えるかに影響します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:114
 msgid "Account Security Settings"
-msgstr ""
+msgstr "アカウントのセキュリティ設定"
 
 #: ../../source/explore/get-started/adjust-settings.rst:116
 msgid "You can change your account security settings in Vircadia."
-msgstr ""
+msgstr "Vircadiaでアカウントのセキュリティ設定を変更できます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:118
 msgid ""
 "In Desktop mode, go to **Settings > Security** in the menu on the top "
 "left corner."
-msgstr ""
+msgstr "デスクトップモードで、左上隅のメニューの **Settings > Security** に移動します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:119
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Security**."
-msgstr ""
+msgstr "VRモードで、タブレットを開き、 **Menu > Settings > Security** に移動します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:124
 msgid "Account"
-msgstr ""
+msgstr "Account"
 
 #: ../../source/explore/get-started/adjust-settings.rst:124
 msgid ""
 "Enable to stay logged in (in the current device) even if you exit "
 "Vircadia."
-msgstr ""
+msgstr "Vircadiaを終了しても（現在のデバイスに）ログインしたままにできるようにします。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:126
 msgid "Secure Transactions"
-msgstr ""
+msgstr "Secure Transactions"
 
 #: ../../source/explore/get-started/adjust-settings.rst:126
 msgid "Change your security picture."
-msgstr ""
+msgstr "セキュリティ画像を変更します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:131
 msgid ":doc:`Configure Your Domain Settings <../../host/configure-settings>`"

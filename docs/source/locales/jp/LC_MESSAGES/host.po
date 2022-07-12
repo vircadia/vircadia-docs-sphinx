@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-07-09 15:34+0000\n"
+"PO-Revision-Date: 2022-07-12 11:30+0000\n"
 "Last-Translator: Nakkie <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
 "vircadia-documentation/host/ja/>\n"
@@ -2243,7 +2243,7 @@ msgstr ""
 
 #: ../../source/host/invite-users.rst:38
 msgid "Promote Your Community Event with Vircadia"
-msgstr ""
+msgstr "Vircadiaでコミュニティイベントを宣伝する"
 
 #: ../../source/host/invite-users.rst:40
 msgid ""
@@ -2257,19 +2257,19 @@ msgstr ""
 
 #: ../../source/host/invite-users.rst:42
 msgid "It will then be:"
-msgstr ""
+msgstr "その場合、次のようになります :"
 
 #: ../../source/host/invite-users.rst:44
 msgid "Added to Vircadia's `Events Calendar <https://www.vircadia.com/events>`_"
-msgstr ""
+msgstr "追加された `Vircadia'sのイベントカレンダはこちら<https://www.vircadia.com/events>`_"
 
 #: ../../source/host/invite-users.rst:45
 msgid "Promoted on Vircadia's social channels"
-msgstr ""
+msgstr "Vircadiaのソーシャルチャネルで宣伝"
 
 #: ../../source/host/invite-users.rst:49
 msgid "Blast to Connections"
-msgstr ""
+msgstr "ブラストへ接続する"
 
 #: ../../source/host/invite-users.rst:51
 msgid ""
@@ -2285,11 +2285,11 @@ msgstr ""
 
 #: ../../source/host/invite-users.rst:53
 msgid "To send a blast notification:"
-msgstr ""
+msgstr "ブラスト通知を送信するには :"
 
 #: ../../source/host/invite-users.rst:55 ../../source/host/invite-users.rst:69
 msgid "Take a snapshot of your domain."
-msgstr ""
+msgstr "ドメインのスナップショットを取ります。"
 
 #: ../../source/host/invite-users.rst:57 ../../source/host/invite-users.rst:71
 msgid "In Interface, pull up your Tablet or HUD and go to **Snap**."
@@ -2301,7 +2301,7 @@ msgstr "スナップショットアプリで、大きな赤い円を押してス
 
 #: ../../source/host/invite-users.rst:59
 msgid "Choose to 'Share: Blast to Connections'."
-msgstr ""
+msgstr "「Share: Blast to Connections」を選択します。"
 
 #: ../../source/host/invite-users.rst:61
 msgid ""
@@ -2315,7 +2315,7 @@ msgstr ""
 
 #: ../../source/host/invite-users.rst:65
 msgid "Post a Snapshot on Social Media"
-msgstr ""
+msgstr "ソーシャルメディアにスナップショットを投稿する"
 
 #: ../../source/host/invite-users.rst:67
 msgid "You can also share your domain directly to Twitter or Facebook. To do so:"
@@ -2323,11 +2323,11 @@ msgstr "ドメインをTwitterまたはFacebookに直接共有することもで
 
 #: ../../source/host/invite-users.rst:73
 msgid "Choose to 'Share to Facebook' or 'Share to Twitter'."
-msgstr ""
+msgstr "「Facebookに共有」または「Twitterに共有」を選択します。"
 
 #: ../../source/host/invite-users.rst:74
 msgid "Log in to your social media account."
-msgstr ""
+msgstr "ソーシャルメディアアカウントにログインします。"
 
 #: ../../source/host/invite-users.rst:76
 msgid ""
@@ -2343,26 +2343,26 @@ msgstr ""
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/backup-domain.rst:3
 msgid "Backup and Restore Your Domain"
-msgstr ""
+msgstr "ドメインのバックアップと復元"
 
 #: ../../source/host/maintain-domain.rst:7
 msgid "Manage Domain Visitors"
-msgstr ""
+msgstr "ドメイン訪問者を管理する"
 
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/update-software.rst:3
 msgid "Update to the Latest Version"
-msgstr ""
+msgstr "最新バージョンに更新する"
 
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/script-maintenance.rst:3
 msgid "Maintain Your Domain with Scripts"
-msgstr ""
+msgstr "スクリプトでドメインを維持する"
 
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/view-logs.rst:3
 msgid "View Domain Server Logs"
-msgstr ""
+msgstr "ドメインサーバーログの表示"
 
 #: ../../source/host/maintain-domain.rst:5
 msgid ""
@@ -2391,7 +2391,7 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/backup-domain.rst:12
 msgid "Automatic Content Archives"
-msgstr ""
+msgstr "自動コンテンツアーカイブ"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:14
 msgid ""
@@ -2404,11 +2404,11 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/backup-domain.rst:22
 msgid "On the top menu bar, select **Settings > Automatic Content Archives**."
-msgstr ""
+msgstr "上部のメニューバーで、 **Settings > Automatic Content Archives** を選択します。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:23
 msgid "Under 'Rolling Backup Rules', click the ``+`` icon."
-msgstr ""
+msgstr "「Rolling Backup Rules」で、 ``+`` アイコンをクリックします。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:24
 msgid ""
@@ -2422,15 +2422,15 @@ msgstr "削除するルールの横にある ``X`` アイコンをクリック�
 
 #: ../../source/host/maintain-domain/backup-domain.rst:28
 msgid "To access your content archives:"
-msgstr ""
+msgstr "コンテンツアーカイブにアクセスするには :"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:33
 msgid "The automatic backups will be listed under 'Automatic Content Archives'."
-msgstr ""
+msgstr "自動バックアップは、「Automatic Content Archives」の下に一覧表示されます。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:37
 msgid "Manually Backup Your Domain Content"
-msgstr ""
+msgstr "ドメインコンテンツを手動でバックアップする"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:39
 msgid "In the case you need a backup on demand, you can create one:"
@@ -2447,39 +2447,39 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/backup-domain.rst:49
 msgid "Enter a name for your archive and click 'Generate Archive'."
-msgstr ""
+msgstr "アーカイブの名前を入力し、「Generate Archive」をクリックします。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:51
 msgid "It will appear just below the 'Generate New Archive' button."
-msgstr ""
+msgstr "「Generate New Archive」ボタンのすぐ下に表示されます。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:55
 msgid "Download Content Archives"
-msgstr ""
+msgstr "コンテンツアーカイブをダウンロードする"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:57
 msgid "To download any content archive (automatic or manual):"
-msgstr ""
+msgstr "コンテンツアーカイブ（自動または手動）をダウンロードするには :"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:66
 msgid "Locate the content archive you want to download."
-msgstr ""
+msgstr "ダウンロードするコンテンツアーカイブを見つけます。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:71
 msgid "Restore a Domain's Content"
-msgstr ""
+msgstr "ドメインのコンテンツを復元する"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:73
 msgid "To restore content to a previous archive on this domain:"
-msgstr ""
+msgstr "このドメインの以前のアーカイブにコンテンツを復元するには :"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:82
 msgid "Locate the content archive you want to restore."
-msgstr ""
+msgstr "復元するコンテンツアーカイブを見つけます。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:83
 msgid "From the Actions menu, click 'Restore from here'."
-msgstr ""
+msgstr "Actionsメニューから、「Restore from here'」をクリックします。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:84
 #: ../../source/host/maintain-domain/backup-domain.rst:93
@@ -2493,15 +2493,15 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/backup-domain.rst:86
 msgid "To restore content from a downloaded content archive:"
-msgstr ""
+msgstr "ダウンロードしたコンテンツアーカイブからコンテンツを復元するには :"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:91
 msgid "Browse to the downloaded content archive."
-msgstr ""
+msgstr "ダウンロードしたコンテンツアーカイブを参照します。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:97
 msgid "Backup Your Domain Settings"
-msgstr ""
+msgstr "ドメイン設定をバックアップする"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:99
 msgid ""
@@ -2511,15 +2511,15 @@ msgstr "ドメインをバックアップして、別のドメインをすばや
 
 #: ../../source/host/maintain-domain/backup-domain.rst:107
 msgid "On the top menu bar, select **Settings > Setting Backup /Restore**."
-msgstr ""
+msgstr "上部のメニューバーで、 **Settings > Setting Backup /Restore** を選択します。"
 
 #: ../../source/host/maintain-domain/backup-domain.rst:108
 msgid "Click 'Download Domain Settings'."
-msgstr ""
+msgstr "「Download Domain Settings」をクリックします。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:3
 msgid "Maintain Domain Visitors"
-msgstr ""
+msgstr "ドメイン訪問者を維持する"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:5
 msgid ""
@@ -2543,7 +2543,7 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:14
 msgid "Silence a User in Your Domain"
-msgstr ""
+msgstr "ドメイン内のユーザーを無音化する"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:16
 msgid ""
@@ -2558,12 +2558,12 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:18
 msgid "To silence a specific user in your domain:"
-msgstr ""
+msgstr "ドメイン内の特定のユーザーを無音化するには :"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:20
 #: ../../source/host/maintain-domain/manage-visitors.rst:35
 msgid "Visit your domain."
-msgstr ""
+msgstr "ドメインにアクセスします。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:21
 #: ../../source/host/maintain-domain/manage-visitors.rst:36
@@ -2573,19 +2573,19 @@ msgstr "インターフェイスで、Tablet またはHUDをプルアップし�
 #: ../../source/host/maintain-domain/manage-visitors.rst:22
 #: ../../source/host/maintain-domain/manage-visitors.rst:37
 msgid "Locate the user you would like to silence."
-msgstr ""
+msgstr "無音化するユーザーを見つけます。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:23
 msgid "Under the 'Admin' section, click the icon in the 'Silence' column."
-msgstr ""
+msgstr "「Admin」セクションで、「Silence」列のアイコンをクリックします。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:25
 msgid "This will mute the user for everyone in the domain."
-msgstr ""
+msgstr "これにより無音化されます。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:29
 msgid "Ban a User from Your Domain"
-msgstr ""
+msgstr "ユーザーをドメインから追放する"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:31
 msgid "In some cases, a user may cause themselves to be unwelcome in your domain."
@@ -2593,11 +2593,11 @@ msgstr "場合によっては、ユーザーがあなたのドメインで歓迎
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:33
 msgid "To permanently ban a visitor from your domain:"
-msgstr ""
+msgstr "訪問者をドメインから永久に追放するには :"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:38
 msgid "Under the 'Admin' section, click the icon in the 'Ban' column."
-msgstr ""
+msgstr "「Admin」セクションで、「Ban」列のアイコンをクリックします。"
 
 #: ../../source/host/maintain-domain/manage-visitors.rst:40
 msgid ""
@@ -2620,7 +2620,7 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:12
 msgid "Write a Script"
-msgstr ""
+msgstr "スクリプトを書く"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:14
 msgid ""
@@ -2637,31 +2637,31 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:65
 msgid "Add Assignment Client Script to Domain"
-msgstr ""
+msgstr "ドメインへの割り当てクライアントスクリプトの追加"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:67
 msgid "To run your script on your domain:"
-msgstr ""
+msgstr "ドメインでスクリプトを実行するには :"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:69
 msgid "Save and upload your script to a cloud hosting site."
-msgstr ""
+msgstr "スクリプトを保存して、クラウドホスティングサイトにアップロードします。"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:76
 msgid "On the top menu bar, select **Content > Scripts**."
-msgstr ""
+msgstr "上部のメニューバーで、 **Content > Scripts** を選択します。"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:77
 msgid "Under 'Persistent Scripts', click the ``+`` icon."
-msgstr ""
+msgstr "「Persistent Scripts」の下で、 ``+`` アイコンをクリックします。"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:78
 msgid "Paste the URL to your script under ‘Script URL’."
-msgstr ""
+msgstr "「Script URL」の下のスクリプトにURLを貼り付けます。"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:79
 msgid "Save and restart your domain."
-msgstr ""
+msgstr "ドメインを保存して再起動します。"
 
 #: ../../source/host/maintain-domain/script-maintenance.rst:81
 msgid ""
@@ -2681,7 +2681,7 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/update-software.rst:12
 msgid "Protocol Compatibility"
-msgstr ""
+msgstr "プロトコルの互換性"
 
 #: ../../source/host/maintain-domain/update-software.rst:14
 msgid ""
@@ -2707,11 +2707,11 @@ msgstr "古いバージョンを実行しているクライアントは、新し
 
 #: ../../source/host/maintain-domain/update-software.rst:19
 msgid "Both of these will result in an error message \"Protocol Mismatch\"."
-msgstr ""
+msgstr "これらの両方で、「Protocol Mismatch」というエラーメッセージが表示されます。"
 
 #: ../../source/host/maintain-domain/update-software.rst:23
 msgid "Upgrade Your Domain Server"
-msgstr ""
+msgstr "ドメインサーバーをアップグレードする"
 
 #: ../../source/host/maintain-domain/update-software.rst:25
 msgid ""
@@ -2728,7 +2728,7 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/update-software.rst:27
 msgid "To update a local server on Windows:"
-msgstr ""
+msgstr "Windowsでローカルサーバーを更新するには :"
 
 #: ../../source/host/maintain-domain/update-software.rst:29
 msgid ""
@@ -2741,7 +2741,7 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/update-software.rst:30
 msgid "On your local server, quit Sandbox:"
-msgstr ""
+msgstr "ローカルサーバーで、Sandboxを終了します。"
 
 #: ../../source/host/maintain-domain/update-software.rst:32
 msgid ""
@@ -2754,7 +2754,7 @@ msgstr ""
 
 #: ../../source/host/maintain-domain/update-software.rst:34
 msgid "Run the installer."
-msgstr ""
+msgstr "インストーラーを実行します。"
 
 #: ../../source/host/maintain-domain/update-software.rst:36
 msgid ""
@@ -2764,7 +2764,7 @@ msgstr "インストール後、ローカルサーバーのドメイン設定を
 
 #: ../../source/host/maintain-domain/update-software.rst:38
 msgid "To update a server on Linux:"
-msgstr ""
+msgstr "Linuxでサーバーを更新するには :"
 
 #: ../../source/host/maintain-domain/update-software.rst:40
 msgid ""
@@ -2802,6 +2802,8 @@ msgid ""
 "**Windows**: Logs can be found in the directory "
 "``%AppData%\\Local\\Vircadia\\Server Console\\logs``"
 msgstr ""
+"**Windows** : ログはディレクトリ ``%AppData%\\Local\\Vircadia\\Server Console\\logs`` "
+"にあります"
 
 #: ../../source/host/maintain-domain/view-logs.rst:10
 msgid ""
@@ -2810,17 +2812,17 @@ msgid ""
 "``journalctl -u vircadia-assignment-client@default.service`` for the "
 "assignment client."
 msgstr ""
-" ** Linux ** ：ログにアクセスするには、ドメインサーバーに対してコマンド ``journalctl -u vircadia-domain-"
+"** Linux ** ：ログにアクセスするには、ドメインサーバーに対してコマンド ``journalctl -u vircadia-domain-"
 "server@default.service`` を実行するか、割り当てクライアントの場合 ``journalctl -u vircadia-"
 "assignment-client@default.service`` を実行します。"
 
 #: ../../source/host/quick-start.rst:3
 msgid "Hosting Quick Start"
-msgstr ""
+msgstr "ホスティングQuick Start"
 
 #: ../../source/host/quick-start.rst:10
 msgid "Notice: Port Forwarding"
-msgstr ""
+msgstr "注意：ポートフォワーディング"
 
 #: ../../source/host/quick-start.rst:12
 msgid "There are two ways to make a domain accessible from the outside Internet."
@@ -2843,19 +2845,19 @@ msgstr "または、ルーターとファイアウォールで次のポートを
 
 #: ../../source/host/quick-start.rst:17
 msgid "40100 : (tcp) administration web portal"
-msgstr ""
+msgstr "40100 : (tcp) 管理Webポータル"
 
 #: ../../source/host/quick-start.rst:18
 msgid "40102 : (udp) main connection for clients"
-msgstr ""
+msgstr "40102 : (udp) クライアントのメイン接続"
 
 #: ../../source/host/quick-start.rst:22
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../source/host/quick-start.rst:24
 msgid "Download Vircadia (full, not Interface only)."
-msgstr ""
+msgstr "Vircadiaをダウンロードします（インターフェースのみではなく、全てのファイル）。"
 
 #: ../../source/host/quick-start.rst:25
 msgid ""
@@ -2863,12 +2865,12 @@ msgid ""
 "Interface` and `Vircadia Server` options are checked. Vircadia Server is "
 "the Domain server."
 msgstr ""
-" `Custom` インストールオプションを使用し、 `Vircadia Interface` オプションと `Vircadia "
-"Server` オプションの両方がチェックされていることを確認します。Vircadiaサーバーはドメインサーバーです。"
+"`Custom` インストールオプションを使用し、 `Vircadia Interface` オプションと `Vircadia Server` "
+"オプションの両方がチェックされていることを確認します。Vircadiaサーバーはドメインサーバーです。"
 
 #: ../../source/host/quick-start.rst:29
 msgid "In your start menu, search for and run `Vircadia Server`."
-msgstr ""
+msgstr "スタートメニューで、「Vircadia Server」を検索して実行します。"
 
 #: ../../source/host/quick-start.rst:30
 msgid ""
@@ -2889,19 +2891,19 @@ msgstr ""
 
 #: ../../source/host/quick-start.rst:35
 msgid "Ubuntu 18.04 Linux (.deb)"
-msgstr ""
+msgstr "Ubuntu 18.04 Linux (.deb)"
 
 #: ../../source/host/quick-start.rst:37
 msgid "Open your terminal."
-msgstr ""
+msgstr "ターミナルを開きます。"
 
 #: ../../source/host/quick-start.rst:38
 msgid "Run the following command to download the server package:"
-msgstr ""
+msgstr "次のコマンドを実行して、サーバーパッケージをダウンロードします。"
 
 #: ../../source/host/quick-start.rst:40
 msgid "wget |serverdeb|"
-msgstr ""
+msgstr "wget |serverdeb|"
 
 #: ../../source/host/quick-start.rst:42
 msgid "Then run this command to update the package index and install the server:"
@@ -2909,7 +2911,7 @@ msgstr "次に、次のコマンドを実行してパッケージインデック
 
 #: ../../source/host/quick-start.rst:44
 msgid "sudo apt-get update && sudo apt-get install ./|serverdebfile|"
-msgstr ""
+msgstr "sudo apt-get update && sudo apt-get install ./|serverdebfile|"
 
 #: ../../source/host/quick-start.rst:46
 msgid ""
@@ -2925,16 +2927,16 @@ msgstr "Vircadia Interfaceで、 `Explore` アプリを開き、サーバーのI
 
 #: ../../source/host/server-setup.rst:34
 msgid "Host a Domain from a Local Windows Server"
-msgstr ""
+msgstr "ローカルのWindows Serverからドメインをホストする"
 
 #: ../../source/host/server-setup.rst:34
 #: ../../source/host/server-setup/linux-server.md:1
 msgid "Host a Domain from a Local or Cloud Linux Server"
-msgstr ""
+msgstr "ローカルまたはクラウドのLinuxサーバーからドメインをホストする"
 
 #: ../../source/host/server-setup.rst:3
 msgid "Set up a Domain Server"
-msgstr ""
+msgstr "ドメインサーバーを設定する"
 
 #: ../../source/host/server-setup.rst:5
 msgid ""
@@ -2948,27 +2950,27 @@ msgstr ""
 
 #: ../../source/host/server-setup.rst:10
 msgid "Pros"
-msgstr ""
+msgstr "利点"
 
 #: ../../source/host/server-setup.rst:10
 msgid "Cons"
-msgstr ""
+msgstr "欠点"
 
 #: ../../source/host/server-setup.rst:12
 msgid "Local Server"
-msgstr ""
+msgstr "ローカルサーバー"
 
 #: ../../source/host/server-setup.rst:12
 msgid "No hosting or maintenance fees"
-msgstr ""
+msgstr "ホスティングやメンテナンスの費用はかかりません"
 
 #: ../../source/host/server-setup.rst:13
 msgid "Control over the hosted environment"
-msgstr ""
+msgstr "ホスト環境に対する制御性"
 
 #: ../../source/host/server-setup.rst:14
 msgid "Ideal for private domains"
-msgstr ""
+msgstr "プライベートドメインに最適"
 
 #: ../../source/host/server-setup.rst:12
 msgid ""
@@ -2982,7 +2984,7 @@ msgstr ""
 
 #: ../../source/host/server-setup.rst:19
 msgid "Cloud Server"
-msgstr ""
+msgstr "クラウドサーバー"
 
 #: ../../source/host/server-setup.rst:19
 msgid "No need to have expensive hardware on hand to host a domain"
@@ -3006,11 +3008,11 @@ msgstr "イベント開催やオープンな集会場など、大規模なパブ
 
 #: ../../source/host/server-setup.rst:19
 msgid "Monthly subscription cost"
-msgstr ""
+msgstr "月額のサブスクリプション費用の発生"
 
 #: ../../source/host/server-setup.rst:20
 msgid "Service outages may occur with the cloud provider"
-msgstr ""
+msgstr "クラウドプロバイダーでサービス停止が発生する可能性がある"
 
 #: ../../source/host/server-setup.rst:32
 msgid ""
@@ -3026,7 +3028,7 @@ msgstr "Vircadiaパッケージは、独自のドメインをすばやく立ち�
 
 #: ../../source/host/server-setup/linux-server.md:5
 msgid "Installation"
-msgstr ""
+msgstr "インストール"
 
 #: ../../source/host/server-setup/linux-server.md:7
 msgid ""
@@ -3039,19 +3041,19 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:9
 msgid "Ubuntu Server 18.04 LTS (2022.1.1 Selene)"
-msgstr ""
+msgstr "Ubuntu Server 18.04 LTS (2022.1.1 Selene)"
 
 #: ../../source/host/server-setup/linux-server.md:16
 msgid "Ubuntu Server 20.04 LTS (2022.1.1 Selene)"
-msgstr ""
+msgstr "Ubuntu Server 20.04 LTS (2022.1.1 Selene)"
 
 #: ../../source/host/server-setup/linux-server.md:23
 msgid "Rocky Linux 8.x (2022.1.1 Selene)"
-msgstr ""
+msgstr "Rocky Linux 8.x (2022.1.1 Selene)"
 
 #: ../../source/host/server-setup/linux-server.md:29
 msgid "Unlisted Distribution"
-msgstr ""
+msgstr "リストに無いディストリビューション"
 
 #: ../../source/host/server-setup/linux-server.md:31
 msgid ""
@@ -3064,7 +3066,7 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:33
 msgid "Configuration"
-msgstr ""
+msgstr "構成"
 
 #: ../../source/host/server-setup/linux-server.md:35
 msgid ""
@@ -3092,27 +3094,27 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:41
 msgid "Files and Server Configuration"
-msgstr ""
+msgstr "ファイルとサーバーの構成"
 
 #: ../../source/host/server-setup/linux-server.md:43
 msgid "The program files are installed in /opt/vircadia:"
-msgstr ""
+msgstr "プログラムファイル群は/opt/vircadiaにインストールされます。"
 
 #: ../../source/host/server-setup/linux-server.md:44
 msgid "**/opt/vircadia** contains the executables"
-msgstr ""
+msgstr "**/opt/vircadia** には実行可能ファイルが含まれています"
 
 #: ../../source/host/server-setup/linux-server.md:45
 msgid "**/opt/vircadia/lib** contains libraries required for operation"
-msgstr ""
+msgstr "**/opt/vircadia/lib** には、操作に必要なライブラリが含まれています"
 
 #: ../../source/host/server-setup/linux-server.md:46
 msgid "**/opt/vircadia/plugins** is currently used for audio codecs"
-msgstr ""
+msgstr "**/opt/vircadia/plugins** は現在オーディオコーデックに使用されています"
 
 #: ../../source/host/server-setup/linux-server.md:47
 msgid "**/opt/vircadia/resources** is required for the administrative website"
-msgstr ""
+msgstr "管理Webサイトには **/opt/vircadia/resources** が必要です"
 
 #: ../../source/host/server-setup/linux-server.md:49
 msgid ""
@@ -3144,7 +3146,7 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:55
 msgid "Services"
-msgstr ""
+msgstr "サービス"
 
 #: ../../source/host/server-setup/linux-server.md:57
 msgid ""
@@ -3154,19 +3156,19 @@ msgstr "インストールパッケージは、Vircadiaドメインを管理す�
 
 #: ../../source/host/server-setup/linux-server.md:58
 msgid "**vircadia-domain-server@default.service**: Manages the core domain server"
-msgstr ""
+msgstr "**vircadia-domain-server@default.service** : コアドメインサーバーを管理します"
 
 #: ../../source/host/server-setup/linux-server.md:59
 msgid ""
 "**vircadia-assignment-client@default.service**: Spawns and manages the "
 "assignment clients"
-msgstr ""
+msgstr "**vircadia-assignment-client@default.service** : 割り当てクライアントを生成および管理します"
 
 #: ../../source/host/server-setup/linux-server.md:60
 msgid ""
 "**vircadia-server@default.target**: Controls startup and shutdown of the "
 "above services"
-msgstr ""
+msgstr "**vircadia-server@default.target** : 上記のサービスの起動とシャットダウンを制御します"
 
 #: ../../source/host/server-setup/linux-server.md:62
 msgid ""
@@ -3188,7 +3190,7 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:66
 msgid "Multiple Domains"
-msgstr ""
+msgstr "複数のドメイン"
 
 #: ../../source/host/server-setup/linux-server.md:68
 msgid ""
@@ -3218,11 +3220,11 @@ msgstr "**my-server-two **という名前の新しいサーバーを作成した
 msgid ""
 "Environment variables in <code>/etc/opt/vircadia/**my-server-"
 "two**.conf</code>"
-msgstr ""
+msgstr "<code>/etc/opt/vircadia/**my-server-two**.conf</code> の環境変数"
 
 #: ../../source/host/server-setup/linux-server.md:78
 msgid "Content stored in <code>/var/lib/vircadia/**my-server-two**</code>"
-msgstr ""
+msgstr "<code>/var/lib/vircadia/**my-server-two**</code> に格納されたコンテンツ"
 
 #: ../../source/host/server-setup/linux-server.md:79
 msgid ""
@@ -3231,22 +3233,25 @@ msgid ""
 "two**.service</code>, and <code>vircadia-server@**my-server-"
 "two**.target</code>"
 msgstr ""
+"<code>vircadia-domain-server@**my-server-two**.service</code>, <code"
+">vircadia-assignment-client@**my-server-two**.service</code>, <code>vircadia-"
+"server@**my-server-two**.target</code> としてサービスを開始"
 
 #: ../../source/host/server-setup/linux-server.md:81
 msgid "Deleting a Vircadia Server"
-msgstr ""
+msgstr "Vircadiaサーバーの削除"
 
 #: ../../source/host/server-setup/linux-server.md:83
 msgid "Uninstall the package."
-msgstr ""
+msgstr "パッケージをアンインストールします。"
 
 #: ../../source/host/server-setup/linux-server.md:93
 msgid "Deleting a Domain from a Multiple Domain Installation"
-msgstr ""
+msgstr "複数ドメインのインストールからドメインを削除する"
 
 #: ../../source/host/server-setup/linux-server.md:95
 msgid "Find the name of the domain that you want to remove."
-msgstr ""
+msgstr "削除するドメインの名前を見つけます。"
 
 #: ../../source/host/server-setup/linux-server.md:101
 msgid ""
@@ -3256,19 +3261,19 @@ msgstr "リストから削除するドメインの名前を選択して、停止
 
 #: ../../source/host/server-setup/linux-server.md:107
 msgid "Disable the service for the domain."
-msgstr ""
+msgstr "ドメインのサービスを無効にします。"
 
 #: ../../source/host/server-setup/linux-server.md:113
 msgid "Remove the associated environment variables."
-msgstr ""
+msgstr "関連する環境変数を削除します。"
 
 #: ../../source/host/server-setup/linux-server.md:119
 msgid "Remove all data and configurations."
-msgstr ""
+msgstr "すべてのデータと構成を削除します。"
 
 #: ../../source/host/server-setup/linux-server.md:126
 msgid "Legacy Services"
-msgstr ""
+msgstr "レガシーサービス"
 
 #: ../../source/host/server-setup/linux-server.md:128
 msgid ""
@@ -3293,15 +3298,15 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:130
 msgid "No file is provided to specify environment variables for the server"
-msgstr ""
+msgstr "サーバーの環境変数を指定するためのファイルは提供されていません"
 
 #: ../../source/host/server-setup/linux-server.md:131
 msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
-msgstr ""
+msgstr "コンテンツは、 <code>/var/lib/vircadia/.local</code> に格納されます"
 
 #: ../../source/host/server-setup/windows-server.rst:3
 msgid "Host a Domain Locally on Windows"
-msgstr ""
+msgstr "Windowsでローカルにドメインをホストする"
 
 #: ../../source/host/server-setup/windows-server.rst:5
 msgid ""
@@ -3323,7 +3328,7 @@ msgstr ""
 
 #: ../../source/host/server-setup/windows-server.rst:14
 msgid "Set Up Your Server"
-msgstr ""
+msgstr "サーバーをセットアップする"
 
 #: ../../source/host/server-setup/windows-server.rst:16
 msgid ""
@@ -3335,11 +3340,11 @@ msgstr ""
 
 #: ../../source/host/server-setup/windows-server.rst:18
 msgid "Your system and hardware configuration"
-msgstr ""
+msgstr "システムとハードウェアの構成"
 
 #: ../../source/host/server-setup/windows-server.rst:19
 msgid "Your network configuration"
-msgstr ""
+msgstr "ネットワーク構成"
 
 #: ../../source/host/server-setup/windows-server.rst:21
 msgid ""
@@ -3367,15 +3372,15 @@ msgstr ""
 
 #: ../../source/host/server-setup/windows-server.rst:27
 msgid "Create a Domain"
-msgstr ""
+msgstr "ドメインを作成する"
 
 #: ../../source/host/server-setup/windows-server.rst:29
 msgid "To set up a domain and host it on your local server:"
-msgstr ""
+msgstr "ドメインを設定してローカルサーバーでホストするには :"
 
 #: ../../source/host/server-setup/windows-server.rst:31
 msgid "Open the **Setup Wizard (Domain Server Settings)**."
-msgstr ""
+msgstr "**Setup Wizard (Domain Server Settings)** を開きます。"
 
 #: ../../source/host/server-setup/windows-server.rst:36
 msgid ""
@@ -3408,6 +3413,8 @@ msgid ""
 "Learn :doc:`how to configure a Place name <../configure-settings/place-"
 "setting>`."
 msgstr ""
+":doc: `how to configure a Place name <../configure-settings/place-setting>` "
+"をご覧ください。"
 
 #: ../../source/host/server-setup/windows-server.rst:43
 msgid ""
@@ -3425,7 +3432,7 @@ msgstr ""
 msgid ""
 "Click **Finish** to close the Setup Wizard. You will automatically be "
 "redirected to the Domain Settings for your domain."
-msgstr " **Finish** をクリックしてセットアップウィザードを閉じます。ドメインのドメイン設定に自動的にリダイレクトされます。"
+msgstr "**Finish** をクリックしてセットアップウィザードを閉じます。ドメインのドメイン設定に自動的にリダイレクトされます。"
 
 #: ../../source/host/server-setup/windows-server.rst:46
 msgid ""
@@ -3438,11 +3445,11 @@ msgstr ""
 
 #: ../../source/host/server-setup/windows-server.rst:50
 msgid "Activate Your Domain"
-msgstr ""
+msgstr "ドメインをアクティブ化する"
 
 #: ../../source/host/server-setup/windows-server.rst:52
 msgid "To activate your domain:"
-msgstr ""
+msgstr "ドメインをアクティブ化するには :"
 
 #: ../../source/host/server-setup/windows-server.rst:54
 msgid ""
@@ -3455,11 +3462,11 @@ msgstr ""
 
 #: ../../source/host/server-setup/windows-server.rst:55
 msgid "Click 'Advanced Settings' under **Metaverse/Networking**."
-msgstr ""
+msgstr "**Metaverse/Networking** の下の「Advanced Settings」をクリックします。"
 
 #: ../../source/host/server-setup/windows-server.rst:56
 msgid "Click the 'Create new domain ID' button."
-msgstr ""
+msgstr "「Create new domain ID」ボタンをクリックします。"
 
 #: ../../source/host/server-setup/windows-server.rst:58
 msgid ""
@@ -3487,37 +3494,37 @@ msgstr ""
 
 #: ../../source/host/server-setup/windows-server.rst:62
 msgid "Now, your domain is officially part of the expanding metaverse!"
-msgstr ""
+msgstr "これで、あなたのドメインも正式にメタバースの一部となりました !"
 
 #: ../../source/host/server-setup/windows-server.rst:66
 msgid "What's Next?"
-msgstr ""
+msgstr "次は何をするのか ?"
 
 #: ../../source/host/server-setup/windows-server.rst:71
 msgid "Visit Your Domain"
-msgstr ""
+msgstr "ドメインにアクセス"
 
 #: ../../source/host/server-setup/windows-server.rst:71
 msgid "Personalize Your Content"
-msgstr ""
+msgstr "コンテンツをパーソナライズする"
 
 #: ../../source/host/server-setup/windows-server.rst:71
 msgid "Configure More Settings"
-msgstr ""
+msgstr "その他の設定を構成する"
 
 #: ../../source/host/server-setup/windows-server.rst:73
 msgid ""
 "`Go visit your domain using the Explore app <../../explore/travel.html"
 "#goto-app>`_"
-msgstr ""
+msgstr "`Exploreアプリを使用してドメインにアクセスします<../../explore/travel.html#goto-app>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:75
 msgid "`Invite people to your domain <../invite-us ers.html>`_"
-msgstr ""
+msgstr "`ドメインにユーザーを招待する <../invite-us ers.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:77
 msgid ":doc:`Meet new people and explore other domains <../../explore/socialize>`"
-msgstr ""
+msgstr ":doc:`新しい人に会い、他のドメインを探索する <../../explore/socialize>`"
 
 #: ../../source/host/server-setup/windows-server.rst:73
 msgid ""
@@ -3527,31 +3534,31 @@ msgstr "`独自のコンテンツセットを作成し、ドメインにアッ�
 
 #: ../../source/host/server-setup/windows-server.rst:73
 msgid "`Create a Place name <../configure-settings /place-setting.html>`_"
-msgstr ""
+msgstr "`地名を作成する <../configure-settings /place-setting.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:75
 msgid ""
 "`Set additional user permissions <../config ure-settings/permission-"
 "settings.html>`_"
-msgstr ""
+msgstr "`追加のユーザー権限を設定する <../config ure-settings/permission-settings.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:77
 msgid "`Adjust audio settings <../configure-settin gs/audio-settings.html>`_"
-msgstr ""
+msgstr "`オーディオ設定を調整する <../configure-settin gs/audio-settings.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:79
 msgid "`Backup your domain's content <../maintain- domain/backup-domain.html>`_"
-msgstr ""
+msgstr "`ドメインのコンテンツをバックアップする <../maintain- domain/backup-domain.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:81
 msgid ""
 "`Update for new Vircadia releases <../maintain-domain/update-"
 "software.html>`_"
-msgstr ""
+msgstr "`新しいVircadiaリリースの更新 <../maintain-domain/update-software.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:83
 msgid "And more..."
-msgstr ""
+msgstr "もっと..."
 
 #: ../../source/host/start-hosting.rst:5
 msgid ""
@@ -3570,11 +3577,11 @@ msgstr ""
 msgid ""
 "You can also follow the :doc:`quick start guide <quick-start>` to boot up"
 " a Domain right away."
-msgstr " :doc:`クイックスタートガイド <quick-start>` に従って、ドメインをすぐに起動することもできます。"
+msgstr ":doc:`クイックスタートガイド <quick-start>` に従って、ドメインをすぐに起動することもできます。"
 
 #: ../../source/host/start-hosting.rst:14
 msgid "Overview of Hosting"
-msgstr ""
+msgstr "ホスティングの概要"
 
 #: ../../source/host/start-hosting.rst:16
 msgid ""
@@ -3587,7 +3594,7 @@ msgstr ""
 msgid ""
 "The *Domain server* is a virtual world that gives you a space to build "
 "content in."
-msgstr " *Domain server* は、コンテンツを構築するためのスペースを提供する仮想世界です。"
+msgstr "*Domain server* は、コンテンツを構築するためのスペースを提供する仮想世界です。"
 
 #: ../../source/host/start-hosting.rst:19
 msgid ""
@@ -3595,14 +3602,14 @@ msgid ""
 " ID to identify it. You can connect your domain to the Vircadia Metaverse"
 " Server by logging into your account on the Vircadia website."
 msgstr ""
-" *ドメイン* はメタバースのサーバーです。各ドメインには、それを識別するための一意のIDが割り当てられます。Vircadia "
+"*ドメイン* はメタバースのサーバーです。各ドメインには、それを識別するための一意のIDが割り当てられます。Vircadia "
 "Webサイトでアカウントにログインすることにより、ドメインをVircadiaMetaverseServerに接続できます。"
 
 #: ../../source/host/start-hosting.rst:20
 msgid ""
 "A *place* is a registered location in the metaverse. A place is connected"
 " to a domain; you can create multiple places per domain."
-msgstr " *場所* は、メタバースに登録されているエリアです。このエリアはドメインに接続されています。ドメインごとに複数のエリアを作成できます。"
+msgstr "*場所* は、メタバースに登録されているエリアです。このエリアはドメインに接続されています。ドメインごとに複数のエリアを作成できます。"
 
 #: ../../source/host/start-hosting.rst:21
 msgid ""
@@ -3611,16 +3618,16 @@ msgid ""
 " cloud-hosted server such as one provided by DigitalOcean, Linode, AWS, "
 "and so on."
 msgstr ""
-" *サーバー* は、ドメインをホストし、ドメインに対する要求を処理します。ドメインのサーバーは、物理的なコンピューターか、DigitalOcean、Linod"
-"e、AWSなどが提供するクラウドホスティングのサーバーのいずれかです。"
+"*サーバー* は、ドメインをホストし、ドメインに対する要求を処理します。ドメインのサーバーは、物理的なコンピューターか、DigitalOcean、Lino"
+"de、AWSなどが提供するクラウドホスティングのサーバーのいずれかです。"
 
 #: ../../source/host/start-hosting.rst:22
 msgid "A *content set* is the content that you've added to your world."
-msgstr ""
+msgstr "*content set*は、自分の世界に追加したコンテンツです。"
 
 #: ../../source/host/start-hosting.rst:26
 msgid "The Hosting Process"
-msgstr ""
+msgstr "ホスティングプロセス"
 
 #: ../../source/host/start-hosting.rst:28
 msgid ""
@@ -3632,23 +3639,23 @@ msgstr "ドメインをホストしてメタバースで実行するために必
 msgid ""
 ":doc:`Choose your hosting platform <start-hosting>` (local server or "
 "cloud server)"
-msgstr ""
+msgstr ":doc:`ホスティングプラットフォームを選択 <start-hosting>` （ローカルサーバーまたはクラウドサーバー）"
 
 #: ../../source/host/start-hosting.rst:31
 msgid ":doc:`Set up your server and create your domain <server-setup>`"
-msgstr ""
+msgstr ":doc:`サーバーをセットアップし、ドメインを作成します <server-setup>`"
 
 #: ../../source/host/start-hosting.rst:32
 msgid ":doc:`Add content to your domain <add-content>`"
-msgstr ""
+msgstr ":doc:`ドメインにコンテンツを追加する <add-content>`"
 
 #: ../../source/host/start-hosting.rst:33
 msgid ":doc:`Set up user permissions <configure-settings/permission-settings>`"
-msgstr ""
+msgstr ":doc:`ユーザー権限を設定する <configure-settings/permission-settings>`"
 
 #: ../../source/host/start-hosting.rst:34
 msgid ":doc:`Invite users to your domain <invite-users>`"
-msgstr ""
+msgstr ":doc:`ユーザーをドメインに招待する <invite-users>`"
 
 #: ../../source/host/start-hosting.rst:36
 msgid ""

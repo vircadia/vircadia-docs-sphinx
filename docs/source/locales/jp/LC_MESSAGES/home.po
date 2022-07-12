@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-18 00:26+0000\n"
-"PO-Revision-Date: 2021-03-29 01:29+0000\n"
-"Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2022-07-12 11:30+0000\n"
+"Last-Translator: Nakkie <z.kanie@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
+"vircadia-documentation/home/ja/>\n"
 "Language: jp\n"
-"Language-Team: Japanese <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/home/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/home.rst:80
@@ -45,7 +47,7 @@ msgstr "コントリビュート"
 
 #: ../../source/home.rst:80
 msgid "DEVELOP"
-msgstr ""
+msgstr "開発"
 
 #: ../../source/home.rst:80
 msgid "SECURITY"
@@ -174,7 +176,7 @@ msgstr ":doc:`ホスト<host>`: 自分のインスタンスを構築し、イマ
 
 #: ../../source/home.rst:75
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
-msgstr ""
+msgstr "プロジェクトの取り組みに:doc:`貢献 <contribute>` する。"
 
 #: ../../source/home.rst:76
 msgid ""
@@ -239,4 +241,3 @@ msgstr ":doc:`セキュリティ<security>`: プロジェクトとその構成�
 #~ " by browsing our source code in "
 #~ "the repository."
 #~ msgstr ":doc:`コントリビュート<contribute>`: プロジェクトのソースコードをリポジトリで閲覧し、貢献することができます。"
-
