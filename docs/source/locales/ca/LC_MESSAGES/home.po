@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 15:10+0200\n"
-"PO-Revision-Date: 2022-07-13 20:15+0000\n"
+"PO-Revision-Date: 2022-07-15 20:20+0000\n"
 "Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/home/ca/>\n"
@@ -77,6 +77,11 @@ msgid ""
 "create and host your own virtual world, explore other worlds, meet and "
 "connect with other users, attend or host live VR events, and much more."
 msgstr ""
+"Vircadia™ és un programari de codi obert que permet crear i compartir mons "
+"virtuals com a Realitat Virtual (VR) i experiències d'escriptori. Pots crear "
+"i allotjar el teu propi món virtual, explorar altres mons, conèixer i "
+"connectar amb altres usuaris, assistir o organitzar esdeveniments de "
+"Realitat Virtual en directe i molt més."
 
 #: ../../source/home.rst:8
 msgid ""
@@ -87,12 +92,20 @@ msgid ""
 "be able to interact with your environment, engage with your friends, and "
 "listen to conversations just like you would in real life."
 msgstr ""
+"El metavers de Vircadia ofereix funcions socials integrades, com ara "
+"interaccions amb avatars, àudio espacialitzat i física interactiva. A més, "
+"tens la possibilitat d'importar qualsevol objecte 3D al vostre entorn "
+"virtual. No importa on vagis a Vircadia, sempre podràs interactuar amb el "
+"teu entorn, relacionar-te amb els teus amics i escoltar converses com ho "
+"faries a la vida real."
 
 #: ../../source/home.rst:12
 msgid ""
 ":doc:`Get Vircadia <explore/get-started/install>` |Download| or take a "
 "look at our :doc:`Gallery <explore/gallery>` |Gallery|."
 msgstr ""
+":doc:`Obté Vircadia <explore/get-started/install>` |Download| o fes una "
+"ullada a la nostra :doc:`Galeria <explore/gallery>` |Gallery|."
 
 #: ../../source/home.rst
 msgid "Download"
@@ -108,6 +121,8 @@ msgid ""
 "Vircadia `Discord server <https://discordapp.com/invite/Pvx2vke>`__ "
 "|Discord|."
 msgstr ""
+"A més de la documentació, pots unir-te a la discussió sobre Vircadia en `"
+"Discord server <https://discordapp.com/invite/Pvx2vke>`__ |Discord|."
 
 #: ../../source/home.rst
 msgid "Discord"
@@ -116,22 +131,24 @@ msgstr "Discord"
 #: ../../source/home.rst:35
 msgid "This documentation is authored in `English <https://docs.vircadia.com/>`_."
 msgstr ""
+"Aquesta documentació està redactada originalment en `Anglès <https://docs."
+"vircadia.com/>`_."
 
 #: ../../source/home.rst:37
 msgid "The following translations are available:"
-msgstr ""
+msgstr "Les següents traduccions estan disponibles:"
 
 #: ../../source/home.rst:39
 msgid "`Deutsch <https://docs.vircadia.com/de/>`_ |de_trans|"
-msgstr ""
+msgstr "`Alemany (Deutsch) <https://docs.vircadia.com/de/>`_ |de_trans|"
 
 #: ../../source/home.rst
 msgid "de_trans"
-msgstr ""
+msgstr "de_trans"
 
 #: ../../source/home.rst:40
 msgid "`Español <https://docs.vircadia.com/es/>`_ |es_trans|"
-msgstr ""
+msgstr "`Espanyol <https://docs.vircadia.com/es/>`_ |es_trans|"
 
 #: ../../source/home.rst
 msgid "es_trans"
