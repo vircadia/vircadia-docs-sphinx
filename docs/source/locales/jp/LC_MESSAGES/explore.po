@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-17 04:33+0000\n"
-"PO-Revision-Date: 2022-07-12 11:30+0000\n"
-"Last-Translator: Nakkie <z.kanie@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/explore/ja/>\n"
+"PO-Revision-Date: 2022-07-18 10:20+0000\n"
+"Last-Translator: xiejiang <z.kanie@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"vircadia-user-docs/explore/ja/>\n"
 "Language: jp\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
@@ -511,7 +511,7 @@ msgstr "セキュリティ画像を変更します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:131
 msgid ":doc:`Configure Your Domain Settings <../../host/configure-settings>`"
-msgstr ""
+msgstr ":doc:`ドメイン設定の構成 <../../host/configure-settings>`"
 
 #: ../../source/explore/get-started/android.rst:5
 msgid ""
@@ -519,6 +519,8 @@ msgid ""
 "development work has been done but the work required to get it back "
 "rolling has to be taken into consideration."
 msgstr ""
+"VircadiaのAndroidアプリは、ロードマップとして検討されており、開発作業はほとん"
+"ど終わっていますが、再稼働に必要な作業も考慮しなければなりません。"
 
 #: ../../source/explore/get-started/android.rst:7
 msgid ""
@@ -526,10 +528,12 @@ msgid ""
 "cannot be used in Daydream View and is only available as a 2D "
 "application."
 msgstr ""
+"このアプリはDaydream対応のスマホ専用に設計されています。Daydream "
+"Viewでは使用できず、2Dアプリとしてのみ利用可能であることにご留意ください。"
 
 #: ../../source/explore/get-started/android.rst:15
 msgid "Visit Different Worlds"
-msgstr ""
+msgstr "さまざまな世界を訪問"
 
 #: ../../source/explore/get-started/android.rst:17
 msgid ""
@@ -538,15 +542,18 @@ msgid ""
 " of Vircadia's most popular virtual worlds to make them more accessible "
 "to Android users."
 msgstr ""
+"Vircadiaには、他のユーザーと交流したり、さまざまな活動やイベントに参加できる"
+"仮想空間がたくさんあります。私たちは、Vircadiaの最も人気のあるバーチャルワー"
+"ルドのいくつかをAndroidユーザーがよりアクセスしやすくなるように修正しました。"
 
 #: ../../source/explore/get-started/android.rst:19
 msgid "Find these domains by going to the **Home** tab in the menu."
-msgstr ""
+msgstr "メニューの **Home** タブに移動して、これらのドメインを見つけます。"
 
 #: ../../source/explore/get-started/android.rst:26
 #: ../../source/explore/get-started/desktop.rst:14
 msgid "Movement Controls"
-msgstr ""
+msgstr "動きのコントロール"
 
 #: ../../source/explore/get-started/android.rst:29
 #: ../../source/explore/get-started/android.rst:45
@@ -558,108 +565,111 @@ msgstr ""
 #: ../../source/explore/get-started/desktop.rst:99
 #: ../../source/explore/get-started/desktop.rst:115
 msgid "Action"
-msgstr ""
+msgstr "アクション"
 
 #: ../../source/explore/get-started/android.rst:29
 #: ../../source/explore/get-started/android.rst:45
 #: ../../source/explore/get-started/android.rst:57
 #: ../../source/explore/get-started/android.rst:70
 msgid "Controls"
-msgstr ""
+msgstr "挙動"
 
 #: ../../source/explore/get-started/android.rst:31
 msgid "Walking"
-msgstr ""
+msgstr "ウォーキング"
 
 #: ../../source/explore/get-started/android.rst:31
 msgid ""
 "When exploring a virtual world, use the arrows in the bottom left corner "
 "to turn and/or walk."
-msgstr ""
+msgstr "仮想世界を探索するときは、左下の矢印で移動したり、歩いたりします。"
 
 #: ../../source/explore/get-started/android.rst:33
 msgid "Turning"
-msgstr ""
+msgstr "旋回"
 
 #: ../../source/explore/get-started/android.rst:33
 msgid "Drag your finger left or right across the screen to make your avatar turn."
-msgstr ""
+msgstr "指で画面を左右にドラッグすると、アバターが回転します。"
 
 #: ../../source/explore/get-started/android.rst:35
 msgid "Look up/down"
-msgstr ""
+msgstr "見上げる/見下ろす"
 
 #: ../../source/explore/get-started/android.rst:35
 msgid "Drag your finger up or down to change the angle of the camera."
-msgstr ""
+msgstr "指を上下にドラッグすると、カメラの角度を変えることができます。"
 
 #: ../../source/explore/get-started/android.rst:37
 msgid "Flying"
-msgstr ""
+msgstr "飛行"
 
 #: ../../source/explore/get-started/android.rst:37
 msgid ""
 "Press the button on the bottom right with the winged avatar to fly (the "
 "longer you hold it, the higher you go!)."
-msgstr ""
+msgstr "右下の翼のあるアバターでボタンを押すと、空を飛ぶことができます（長くボタンを"
+"押したままにするほど高く飛べます！）。"
 
 #: ../../source/explore/get-started/android.rst:42
 #: ../../source/explore/get-started/desktop.rst:44
 msgid "In-World Controls"
-msgstr ""
+msgstr "インワールドコントロール"
 
 #: ../../source/explore/get-started/android.rst:47
 msgid "View"
-msgstr ""
+msgstr "表示方法"
 
 #: ../../source/explore/get-started/android.rst:47
 msgid ""
 "Switch to a bird's eye view camera by pressing the **My View** button on "
 "the top right corner of the screen."
-msgstr ""
+msgstr "画面の右上隅にある **My View** "
+"ボタンを押して、バーズアイビューカメラに切り替えます。"
 
 #: ../../source/explore/get-started/android.rst:49
 msgid "Mute"
-msgstr ""
+msgstr "ミュート"
 
 #: ../../source/explore/get-started/android.rst:49
 msgid ""
 "Your avatar in muted by default when you open the app. Press the mic "
 "button on the top right corner to unmute."
-msgstr ""
+msgstr "アプリを開いたとき、アバターは初期状態でミュートになっています。ミュートを解"
+"除するには、右上のマイクボタンを押します。"
 
 #: ../../source/explore/get-started/android.rst:54
 msgid "Avatar Controls"
-msgstr ""
+msgstr "アバターコントロール"
 
 #: ../../source/explore/get-started/android.rst:59
 #: ../../source/explore/personalize.rst:9
 #: ../../source/explore/personalize/change-avatar.md:6
 msgid "Change Your Avatar"
-msgstr ""
+msgstr "アバターを変更する"
 
 #: ../../source/explore/get-started/android.rst:59
 msgid ""
 "Change your avatar to one available in the list in the **Avatar** tab in "
 "the menu."
-msgstr ""
+msgstr "メニューの **Avatar** タブのリストで利用可能なアバターに変更します。"
 
 #: ../../source/explore/get-started/android.rst:61
 msgid "Set Display Name"
-msgstr ""
+msgstr "表示名の設定"
 
 #: ../../source/explore/get-started/android.rst:61
 msgid "Set your display name in the **Avatar** tab in the menu"
-msgstr ""
+msgstr "メニューの **Avatar** タブで表示名を設定します"
 
 #: ../../source/explore/get-started/android.rst:67
 msgid "Discover and Make Friends"
-msgstr ""
+msgstr "友達を見つける、作る"
 
 #: ../../source/explore/get-started/android.rst:72
 #: ../../source/explore/get-started/desktop.rst:49
 msgid "Handshake"
-msgstr ""
+msgstr "ハンドシェーク"
 
 #: ../../source/explore/get-started/android.rst:72
 msgid ""
@@ -667,46 +677,51 @@ msgid ""
 "friends>`_ by shaking their hand. Press the handshake button which is "
 "above the flight button in the bottom right corner of your screen."
 msgstr ""
+"握手をして、 `コネクションに追加する <../socialize.html#make-connections-and-"
+"friends>`_ 。画面右下のフライトボタンの上にある握手ボタンを押します。"
 
 #: ../../source/explore/get-started/android.rst:75
 msgid "Connections List"
-msgstr ""
+msgstr "接続リスト"
 
 #: ../../source/explore/get-started/android.rst:75
 msgid "Open the **People** tab in the menu to view your Connections."
-msgstr ""
+msgstr "メニューの **People** タブを開いて、接続を表示します。"
 
 #: ../../source/explore/get-started/android.rst:79
 msgid ""
 "Additional functionality such as opening the Tablet, using the **Create**"
 " Tools app, adding wearables, etc. are not yet available."
-msgstr ""
+msgstr "タブレットを開く、ツールの **作成アプリを使用** "
+"する、ウェアラブルを追加するなどの追加機能はまだ利用できません。"
 
 #: ../../source/explore/get-started/android.rst:84
 msgid ":doc:`Socialize with Others <../socialize>`"
-msgstr ""
+msgstr ":doc:`他の人との付き合い <../socialize>`"
 
 #: ../../source/explore/get-started/architecture.rst:2
 msgid ""
 "This document is slightly outdated. FIXME: says that you can use an "
 "Android phone"
-msgstr ""
+msgstr "このドキュメントは少し古くなっています。FIXME: Android端末は使用できます"
 
 #: ../../source/explore/get-started/architecture.rst:9
 msgid ""
 "Vircadia's architecture shows how different parts of the system work "
 "together to give you the best VR experience."
-msgstr ""
+msgstr "Vircadiaのアーキテクチャは、システムのさまざまな部分がどのように連携して、最"
+"高のVR体験を提供するのかを示しています。"
 
 #: ../../source/explore/get-started/architecture.rst:16
 msgid "Architecture Overview"
-msgstr ""
+msgstr "アーキテクチャの概要"
 
 #: ../../source/explore/get-started/architecture.rst:18
 msgid ""
 "Vircadia's architecture consists of the following components that work "
 "together and send data to each other for your VR experience."
-msgstr ""
+msgstr "Vircadiaのアーキテクチャは、以下のコンポーネントで構成されており、相互に連携"
+"してデータを送信しVR体験を提供します。"
 
 #: ../../source/explore/get-started/architecture.rst:20
 msgid ""
@@ -715,6 +730,9 @@ msgid ""
 "<../socialize>`, `attend live events <../socialize.html#attend-live-"
 "events>`_ and more."
 msgstr ""
+"Vircadia Interfaceは、メタバースにおけるあなたの個人的な体験を実行します。こ"
+"れを使えば、 :doc:`VRワールドを訪れたり <../travel>`、 :doc:`人に会ったり "
+"<../socialize>`、ライブイベントに参加したりすることができます。"
 
 #: ../../source/explore/get-started/architecture.rst:21
 msgid ""
@@ -723,6 +741,10 @@ msgid ""
 "settings <../../host/configure-settings>`, such as audio spatialization, "
 "user permissions, and running scripts."
 msgstr ""
+"ドメインサーバーは、ドメインをホストするサーバーです。ドメインサーバーは、ド"
+"メイン内のコンテンツをホストし、オーディオの空間化、ユーザー権限、スクリプト"
+"の実行など、 :doc:`ドメイン全体の設定を管理 <../../host/configure-settings>` "
+"します。"
 
 #: ../../source/explore/get-started/architecture.rst:22
 msgid ""
@@ -730,10 +752,13 @@ msgid ""
 "of these services are maintained by Vircadia so that you can sign in and "
 "move seamlessly between places."
 msgstr ""
+"グローバルサービスは、すべてのサーバーを相互に接続します。これらのサービスの"
+"インスタンスはVircadiaによって維持されているため、サインインして場所間をシー"
+"ムレスに移動できます。"
 
 #: ../../source/explore/get-started/architecture.rst:28
 msgid "Vircadia Interface"
-msgstr ""
+msgstr "Vircadiaインターフェース"
 
 #: ../../source/explore/get-started/architecture.rst:30
 msgid ""
@@ -743,6 +768,10 @@ msgid ""
 "with the `domain server`_ that is hosting the virtual world, alongside "
 "any `global services`_."
 msgstr ""
+"Vircadiaインターフェイス（または単に「インターフェイス」）は、Vircadiaのメイ"
+"ンユーザーインターフェイスです。メタバースを探索し、世界中の人々と交流するた"
+"めに使用されます。ドメインに入ると、インターフェースは、仮想世界をホストして"
+"いる「ドメインサーバー」と「グローバルサービス」に接続します。"
 
 #: ../../source/explore/get-started/architecture.rst:32
 msgid ""
@@ -750,10 +779,13 @@ msgid ""
 "phone using the `Client-Only Installer <install.html#client-only-"
 "installer>`_."
 msgstr ""
+"`Client-Only Installer <install.html#client-only-installer>` を使って、"
+"パソコンまたは Android "
+"端末にインターフェイスをダウンロードし、使用することができます。"
 
 #: ../../source/explore/get-started/architecture.rst:38
 msgid "Physics Engine"
-msgstr ""
+msgstr "物理演算エンジン"
 
 #: ../../source/explore/get-started/architecture.rst:40
 msgid ""
@@ -763,6 +795,11 @@ msgid ""
 "object falls to the ground and bounces, or when two or more objects "
 "collide, their movements are computed by the physics engine."
 msgstr ""
+"VR体験は物理学がなければリアリティがありません。Vircadiaには、"
+"ニュートンの物理法則に従ってオブジェクトの挙動をシミュレートする `"
+"物理演算エンジン <http://bulletphysics.org>` が搭載されています。物体が地面に"
+"落ちたり跳ねたりするとき、あるいは二つ以上の物体が衝突するとき、それらの動き"
+"は物理エンジンによって計算されます。"
 
 #: ../../source/explore/get-started/architecture.rst:42
 msgid ""
@@ -770,10 +807,12 @@ msgid ""
 "coordinates the results to produce a consistent simulation across the "
 "entire domain."
 msgstr ""
+"各インターフェースはそれぞれ物理演算エンジンを実行し、エンティティサーバがそ"
+"の結果を調整することで、ドメイン全体で一貫したシミュレーションを実現します。"
 
 #: ../../source/explore/get-started/architecture.rst:46
 msgid "Domain Server"
-msgstr ""
+msgstr "ドメインサーバー"
 
 #: ../../source/explore/get-started/architecture.rst:48
 msgid ""
@@ -783,6 +822,11 @@ msgid ""
 "to visit a domain, just like you would need a web address to visit a "
 "website."
 msgstr ""
+"ドメインとは、あなたが訪れることのできるVircadiaの空間的なシミュレーションの"
+"ことです。ドメインは1台または複数のコンピュータのプログラムの積み重ねによって"
+"計算されます。ウェブサイトを訪問するためにウェブアドレスが必要なのと同じよう"
+"に、ドメインを訪問するためにはドメインのプ :doc:`レースネーム <../../host/"
+"configure-settings/place-setting>` が必要です。"
 
 #: ../../source/explore/get-started/architecture.rst:50
 msgid ""
@@ -793,10 +837,16 @@ msgid ""
 "entities, and avatars. Everything that you see, hear, and do in your "
 "domain is managed by the server stack."
 msgstr ""
+"独自の :doc:`ドメインを設定 <../../host/server-setup>` し、ローカルマシンまた"
+"はクラウドサーバーでホストして、他のユーザーが利用できるようにすることができ"
+"ます。ドメインのサーバースタックは、オーディオ、エンティティ、アバターなど、"
+"ドメインのさまざまな側面をシミュレートし管理するコンポーネントのセットです。"
+"ドメイン内で見たり聞いたりできることは、すべてサーバースタックによって管理さ"
+"れます。"
 
 #: ../../source/explore/get-started/architecture.rst:56
 msgid "Server Stack"
-msgstr ""
+msgstr "サーバースタック"
 
 #: ../../source/explore/get-started/architecture.rst:58
 msgid ""
@@ -805,6 +855,10 @@ msgid ""
 "Assignment Clients, because from the perspective of the domain server, "
 "they are clients that take on different roles."
 msgstr ""
+"ドメインサーバーはこのスタックの最上位にあり、その役割は他のコンポーネントに"
+"割り当てを行うことです。これらのコンポーネントは、ドメインサーバーの観点から"
+"、異なる役割を担うクライアントであるため、アサインメントクライアントと呼ばれ"
+"ます。"
 
 #: ../../source/explore/get-started/architecture.rst:60
 msgid ""
@@ -817,10 +871,17 @@ msgid ""
 "client can function as one of the six types mentioned. The domain server "
 "determines which assignment client functions as which mixer."
 msgstr ""
+"サーバースタックは、ドメインを制御、管理、計算するだけでなく、あなたのドメイ"
+"ンを訪れる人がどのように見えるかも制御しています。つまり、ドメインサーバーは"
+"シミュレーションの割り当てを行い、接続するインターフェイスクライアントにそのI"
+"Pアドレスを提供します。ドメインサーバーは単一の実行ファイルで、要求に応じて異"
+"なるミキサーとなるアサインメントクライアントを生成します。各アサインメントク"
+"ライアントは、前述の6種類のうちの1つとして機能します。ドメインサーバーは、ど"
+"のアサインメントクライアントがどのミキサーとして機能するかを決定します。"
 
 #: ../../source/explore/get-started/architecture.rst:64
 msgid "Assignment Clients"
-msgstr ""
+msgstr "アサインメントクライアント"
 
 #: ../../source/explore/get-started/architecture.rst:66
 msgid ""
@@ -828,14 +889,17 @@ msgid ""
 "also communicate directly with the Interface clients connected to a "
 "domain. There are six types of assignment clients:"
 msgstr ""
+"アサインメントクライアントは、ドメインのさまざまな側面を制御・管理します。ま"
+"た、ドメインに接続されているインターフェイスクライアントと直接通信を行います"
+"。アサインメントクライアントは以下6種類 :"
 
 #: ../../source/explore/get-started/architecture.rst:69
 msgid "Assignment Client"
-msgstr ""
+msgstr "アサインメントクライアント種類"
 
 #: ../../source/explore/get-started/architecture.rst:71
 msgid "Avatar Mixer"
-msgstr ""
+msgstr "Avatar Mixer"
 
 #: ../../source/explore/get-started/architecture.rst:71
 msgid ""
@@ -844,10 +908,14 @@ msgid ""
 "around the domain. For example, it tracks how you move your head while "
 "wearing a Head Mounted Display (HMD)."
 msgstr ""
+"このミキサーは、ドメインにおけるバーチャルな存在感を管理します。あなたがどこ"
+"にいて、どのアバターを着ていて、どのようにドメイン内を移動しているのかを記録"
+"します。例えば、ヘッドマウントディスプレイ（HMD）を装着しているときに、どのよ"
+"うに頭を動かしているかを追跡します。"
 
 #: ../../source/explore/get-started/architecture.rst:75
 msgid "Audio Mixer"
-msgstr ""
+msgstr "Audio Mixer"
 
 #: ../../source/explore/get-started/architecture.rst:75
 msgid ""
@@ -856,10 +924,14 @@ msgid ""
 "Audio mixer can customize a stereo mix for you based on your position "
 "relative to the audio source."
 msgstr ""
+"音声や環境音など、すべての音をミックスします。また、アバターだけでなく、ドメ"
+"イン内のすべてのエンティティに対してこれを行います。オーディオミキサーは、オ"
+"ーディオソースとの相対的な位置関係に基づいて、あなた用にステレオミックスをカ"
+"スタマイズすることができます。"
 
 #: ../../source/explore/get-started/architecture.rst:79
 msgid "Entity Server"
-msgstr ""
+msgstr "Entity Server"
 
 #: ../../source/explore/get-started/architecture.rst:79
 msgid ""
@@ -869,10 +941,14 @@ msgid ""
 "server, which in turn relays the information to all clients currently "
 "visiting the domain."
 msgstr ""
+"ドメイン内のすべてのエンティティとそのプロパティ、その説明や位置から、スクリ"
+"プトでそれらにアタッチされたすべての動作までを追跡します。エンティティが変更"
+"されると、その変更がエンティティサーバーに伝えられ、サーバーはそのドメインに"
+"現在アクセスしているすべてのクライアントに情報をリレーします。"
 
 #: ../../source/explore/get-started/architecture.rst:84
 msgid "Asset Server"
-msgstr ""
+msgstr "Asset Server"
 
 #: ../../source/explore/get-started/architecture.rst:84
 msgid ""
@@ -880,10 +956,13 @@ msgid ""
 " by the domain. It functions like a Web server, but using protocols tuned"
 " to Vircadia's architecture."
 msgstr ""
+"ドメインで使用されているモデル、オーディオファイル、スクリプト、その他のメデ"
+"ィアのコピーを提供します。ウェブサーバーのように機能するが、Vircadiaのアーキ"
+"テクチャに合わせたプロトコルを使用します。"
 
 #: ../../source/explore/get-started/architecture.rst:87
 msgid "Agent"
-msgstr ""
+msgstr "Agent"
 
 #: ../../source/explore/get-started/architecture.rst:87
 msgid ""
@@ -891,16 +970,20 @@ msgid ""
 "get your avatar to clap, or create a bowling alley, the Agent will "
 "execute it. It can see entities, avatars, and send audio."
 msgstr ""
+"ユーザーが書いた JavaScript プログラムを実行します。アバターに拍手させたり、"
+"ボーリング場を作ったりするスクリプトを書いたら、Agent がそれを実行します。エ"
+"ンティティやアバターを見たり、音声を送ったりすることができます。"
 
 #: ../../source/explore/get-started/architecture.rst:90
 msgid "Messages Mixer"
-msgstr ""
+msgstr "Messages Mixer"
 
 #: ../../source/explore/get-started/architecture.rst:90
 msgid ""
 "Provides communication between scripts running in different programs "
 "connected to the domain, which could be Interfaces or Agents."
-msgstr ""
+msgstr "ドメインに接続された異なるプログラム（インターフェイスまたはエージェント）で"
+"実行されているスクリプト間の通信を提供します。"
 
 #: ../../source/explore/get-started/architecture.rst:94
 msgid ""
@@ -912,26 +995,33 @@ msgid ""
 " multiple audio mixers could be used to mix the audio in different "
 "geographic regions of the domain."
 msgstr ""
+"Sandboxは、ドメインサーバー、5つの専用割り当てクライアント、必要な数のエージ"
+"ェント割り当てクライアントで、これらすべてのコンポーネントを管理します。しか"
+"し、割り当てクライアントを複数のコンピュータに分散させ、さらに各機能を割り当"
+"てコンポーネントの階層に分割することも可能で、その場合は異なるコンピュータに"
+"なる可能性があります。例えば、複数のオーディオミキサーを使用して、ドメインの"
+"異なる地理的な地域のオーディオをミキシングすることができます。"
 
 #: ../../source/explore/get-started/architecture.rst:98
 msgid "Global Services"
-msgstr ""
+msgstr "グローバルサービス"
 
 #: ../../source/explore/get-started/architecture.rst:100
 msgid "Vircadia maintains global services to connect different servers together."
-msgstr ""
+msgstr "Vircadiaは、さまざまなサーバーを相互に接続するためのグローバルサービスを維持"
+"しています。"
 
 #: ../../source/explore/get-started/architecture.rst:107
 msgid ":doc:`Install Vircadia <install>`"
-msgstr ""
+msgstr ":doc:`Vircadiaのインストール <install>`"
 
 #: ../../source/explore/get-started/architecture.rst:108
 msgid ":doc:`Host Your Domain <../../host>`"
-msgstr ""
+msgstr ":doc:`ドメインのホスティング <../../host>`"
 
 #: ../../source/explore/get-started/architecture.rst:109
 msgid ":doc:`Travel Between Worlds <../travel>`"
-msgstr ""
+msgstr ":doc:`世界間の旅 <../travel>`"
 
 #: ../../source/explore/get-started/desktop.rst:5
 msgid ""
@@ -939,6 +1029,9 @@ msgid ""
 "things in Vircadia. On this page, you can find all of the shortcuts so "
 "that you can enjoy your experience in Vircadia to the fullest."
 msgstr ""
+"デスクトップユーザーは、Vircadiaで操作をするために、キーボードとマウスを使う"
+"ことに制限されています。このページでは、Vircadiaを最大限に楽しむためのショー"
+"トカットを紹介しています。"
 
 #: ../../source/explore/get-started/desktop.rst:7
 msgid ""
@@ -946,6 +1039,8 @@ msgid ""
 "running on a Mac, use the same commands, substituting the ``Command`` key"
 " for the ``Ctrl`` key."
 msgstr ""
+"以下のショートカットは、WindowsとLinuxのコンピュータ用です。Macの場合は、 "
+"``Command`` キーを ``Ctrl`` キーに置き換えて、同じコマンドを使用します。"
 
 #: ../../source/explore/get-started/desktop.rst:19
 #: ../../source/explore/get-started/desktop.rst:47
@@ -953,206 +1048,206 @@ msgstr ""
 #: ../../source/explore/get-started/desktop.rst:99
 #: ../../source/explore/get-started/desktop.rst:115
 msgid "Key"
-msgstr ""
+msgstr "Key"
 
 #: ../../source/explore/get-started/desktop.rst:21
 msgid "Walk Forward"
-msgstr ""
+msgstr "前進"
 
 #: ../../source/explore/get-started/desktop.rst:21
 msgid "``W`` or ``UP ARROW``"
-msgstr ""
+msgstr "``W`` もしくは ``UP ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:23
 msgid "Walk Backward"
-msgstr ""
+msgstr "後進"
 
 #: ../../source/explore/get-started/desktop.rst:23
 msgid "``S`` or ``DOWN ARROW``"
-msgstr ""
+msgstr "``S`` もしくは ``DOWN ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:25
 msgid "Run"
-msgstr ""
+msgstr "走る"
 
 #: ../../source/explore/get-started/desktop.rst:25
 msgid "Hold ``SHIFT`` while using any shortcut to walk"
-msgstr ""
+msgstr "ショートカットを使用して歩く間、 ``SHIFT`` を押したままにします"
 
 #: ../../source/explore/get-started/desktop.rst:27
 msgid "Side Step to the Left"
-msgstr ""
+msgstr "サイドステップ（左方向）"
 
 #: ../../source/explore/get-started/desktop.rst:27
 msgid "``Q`` or Right Click + ``A``  or ``SHIFT`` + ``LEFT ARROW``"
-msgstr ""
+msgstr "``Q`` もしくは 右クリック + ``A``  もしくは ``SHIFT`` + ``LEFT ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:29
 msgid "Side Step to the Right"
-msgstr ""
+msgstr "サイドステップ（右方向）"
 
 #: ../../source/explore/get-started/desktop.rst:29
 msgid "``E`` or Right Click + ``D`` or ``SHIFT`` + ``RIGHT ARROW``"
-msgstr ""
+msgstr "``E`` もしくは右クリック + ``D`` または ``SHIFT`` + ``RIGHT ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:31
 msgid "Turn Left"
-msgstr ""
+msgstr "左折"
 
 #: ../../source/explore/get-started/desktop.rst:31
 msgid "``A`` or ``LEFT ARROW``"
-msgstr ""
+msgstr "``A`` または ``LEFT ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:33
 msgid "Turn Right"
-msgstr ""
+msgstr "右折"
 
 #: ../../source/explore/get-started/desktop.rst:33
 msgid "``D`` or ``RIGHT ARROW``"
-msgstr ""
+msgstr "``D`` または ``RIGHT ARROW``"
 
 #: ../../source/explore/get-started/desktop.rst:35
 msgid "Jump"
-msgstr ""
+msgstr "ジャンプ"
 
 #: ../../source/explore/get-started/desktop.rst:35
 msgid "``SPACE`` or ``PGUP``"
-msgstr ""
+msgstr "``SPACE`` または ``PGUP``"
 
 #: ../../source/explore/get-started/desktop.rst:37
 msgid "Fly"
-msgstr ""
+msgstr "飛行（上昇）"
 
 #: ../../source/explore/get-started/desktop.rst:37
 msgid "Hold ``SPACE`` or ``PGUP``"
-msgstr ""
+msgstr "``SPACE`` を押したままにする もしくは ``PGUP``"
 
 #: ../../source/explore/get-started/desktop.rst:39
 msgid "Fly Down"
-msgstr ""
+msgstr "飛行（下降）"
 
 #: ../../source/explore/get-started/desktop.rst:39
 msgid "``C`` or ``PGDN``"
-msgstr ""
+msgstr "``C`` または ``PGDN``"
 
 #: ../../source/explore/get-started/desktop.rst:49
 msgid "``X``"
-msgstr ""
+msgstr "``X``"
 
 #: ../../source/explore/get-started/desktop.rst:51
 msgid "Toggle Privacy Shield"
-msgstr ""
+msgstr "プライバシーシールドの切り替え"
 
 #: ../../source/explore/get-started/desktop.rst:51
 msgid "``CTRL`` + ``N``"
-msgstr ""
+msgstr "``CTRL`` + ``N``"
 
 #: ../../source/explore/get-started/desktop.rst:53
 msgid "Open Tablet"
-msgstr ""
+msgstr "タブレットを開く"
 
 #: ../../source/explore/get-started/desktop.rst:53
 msgid "``TAB`` *(when 'Desktop becomes toolbar' is not checked)*"
-msgstr ""
+msgstr "``TAB`` *(「Desktop becomes toolbar」にチェックが入っていない場合)*"
 
 #: ../../source/explore/get-started/desktop.rst:55
 msgid "Select Item"
-msgstr ""
+msgstr "アイテムの選択"
 
 #: ../../source/explore/get-started/desktop.rst:55
 #: ../../source/explore/get-started/desktop.rst:57
 msgid "Left Click"
-msgstr ""
+msgstr "左クリック"
 
 #: ../../source/explore/get-started/desktop.rst:57
 msgid "Grab Item"
-msgstr ""
+msgstr "アイテムを掴む"
 
 #: ../../source/explore/get-started/desktop.rst:59
 msgid "Inspect Item"
-msgstr ""
+msgstr "アイテムの検査"
 
 #: ../../source/explore/get-started/desktop.rst:59
 msgid "Right Click"
-msgstr ""
+msgstr "右クリック"
 
 #: ../../source/explore/get-started/desktop.rst:61
 msgid "Open Browser"
-msgstr ""
+msgstr "ブラウザを開く"
 
 #: ../../source/explore/get-started/desktop.rst:61
 msgid "``CTRL`` + ``B``"
-msgstr ""
+msgstr "``CTRL`` + ``B``"
 
 #: ../../source/explore/get-started/desktop.rst:63
 msgid "Toggle 'Away from Keyboard'"
-msgstr ""
+msgstr "キーボードからの切り替え"
 
 #: ../../source/explore/get-started/desktop.rst:63
 msgid "``ESC``"
-msgstr ""
+msgstr "``ESC``"
 
 #: ../../source/explore/get-started/desktop.rst:65
 msgid "Toggle 'Mute Mic'"
-msgstr ""
+msgstr "マイクミュートからの切り替え"
 
 #: ../../source/explore/get-started/desktop.rst:65
 msgid "``CTRL`` + ``M``"
-msgstr ""
+msgstr "``CTRL`` + ``M``"
 
 #: ../../source/explore/get-started/desktop.rst:67
 msgid "Toggle 'Show Statistics'"
-msgstr ""
+msgstr "統計情報の切り替え"
 
 #: ../../source/explore/get-started/desktop.rst:67
 msgid "``/``"
-msgstr ""
+msgstr "``/``"
 
 #: ../../source/explore/get-started/desktop.rst:69
 msgid "Screenshot"
-msgstr ""
+msgstr "スクリーンショット"
 
 #: ../../source/explore/get-started/desktop.rst:69
 #: ../../source/explore/get-started/desktop.rst:91
 msgid "``P``"
-msgstr ""
+msgstr "``P``"
 
 #: ../../source/explore/get-started/desktop.rst:71
 msgid "Push to Talk"
-msgstr ""
+msgstr "プッシュツートーク"
 
 #: ../../source/explore/get-started/desktop.rst:71
 #: ../../source/explore/get-started/desktop.rst:137
 msgid "``T``"
-msgstr ""
+msgstr "``T``"
 
 #: ../../source/explore/get-started/desktop.rst:76
 msgid "Camera Controls"
-msgstr ""
+msgstr "カメラコントロール"
 
 #: ../../source/explore/get-started/desktop.rst:81
 msgid "First Person View"
-msgstr ""
+msgstr "一人称視点"
 
 #: ../../source/explore/get-started/desktop.rst:81
 msgid "``1``"
-msgstr ""
+msgstr "``1``"
 
 #: ../../source/explore/get-started/desktop.rst:83
 msgid "Third Person View"
-msgstr ""
+msgstr "三人称視点"
 
 #: ../../source/explore/get-started/desktop.rst:83
 msgid "``3``"
-msgstr ""
+msgstr "``3``"
 
 #: ../../source/explore/get-started/desktop.rst:85
 msgid "Mirror View"
-msgstr ""
+msgstr "鏡視点"
 
 #: ../../source/explore/get-started/desktop.rst:85
 msgid "``2``"
-msgstr ""
+msgstr "``2``"
 
 #: ../../source/explore/get-started/desktop.rst:87
 msgid "Pan In/Out"
