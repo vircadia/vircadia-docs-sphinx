@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-07-18 10:20+0000\n"
+"PO-Revision-Date: 2022-07-19 11:20+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/host/ja/>\n"
@@ -2261,7 +2261,8 @@ msgstr "その場合、次のようになります :"
 
 #: ../../source/host/invite-users.rst:44
 msgid "Added to Vircadia's `Events Calendar <https://www.vircadia.com/events>`_"
-msgstr "追加された `Vircadia'sのイベントカレンダはこちら<https://www.vircadia.com/events>`_"
+msgstr "追加された `Vircadia'sのイベントカレンダはこちら <https://www.vircadia.com/"
+"events>`"
 
 #: ../../source/host/invite-users.rst:45
 msgid "Promoted on Vircadia's social channels"
