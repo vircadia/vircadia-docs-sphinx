@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-18 00:26+0000\n"
-"PO-Revision-Date: 2022-07-18 10:20+0000\n"
+"PO-Revision-Date: 2022-07-19 11:20+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/home/ja/>\n"
@@ -176,7 +176,7 @@ msgstr ":doc:`ホスト<host>`: 自分のインスタンスを構築し、イマ
 
 #: ../../source/home.rst:75
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
-msgstr "プロジェクトの取り組みに:doc:`貢献 <contribute>` する。"
+msgstr "プロジェクトの取り組みに :doc:`貢献 <contribute>` する。"
 
 #: ../../source/home.rst:76
 msgid ""
