@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-17 04:33+0000\n"
-"PO-Revision-Date: 2022-07-18 10:20+0000\n"
+"PO-Revision-Date: 2022-07-19 11:20+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/explore/ja/>\n"
@@ -223,8 +223,10 @@ msgid ""
 "/install-apps>`. Pull up the tablet by clicking the menu button on your "
 "controller."
 msgstr ""
-"VR では、すべての設定が **タブレット** で確認できます。また、 `タブレットからインストールしたアプリ <../personalize/"
-"install-apps>` に簡単にアクセスすることができます。タブレットを表示するには、コントローラのメニューボタンをクリックします。"
+"VR では、すべての設定が **タブレット** で確認できます。また、 :doc:`"
+"タブレットからインストールしたアプリ <../personalize/install-apps>` に簡単に"
+"アクセスすることができます。タブレットを表示するには、コントローラのメニュー"
+"ボタンをクリックします。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:22
 msgid ""
@@ -730,8 +732,9 @@ msgid ""
 "<../socialize>`, `attend live events <../socialize.html#attend-live-"
 "events>`_ and more."
 msgstr ""
-"Vircadia Interfaceは、メタバースにおけるあなたの個人的な体験を実行します。こ"
-"れを使えば、 :doc:`VRワールドを訪れたり <../travel>`、 :doc:`人に会ったり "
+"`Vircadia Interface` "
+"は、メタバースにおけるあなたの個人的な体験を実行します。これを使えば、 :doc:`"
+"VRワールドを訪れたり <../travel>`、 :doc:`人に会ったり "
 "<../socialize>`、ライブイベントに参加したりすることができます。"
 
 #: ../../source/explore/get-started/architecture.rst:21
@@ -741,10 +744,10 @@ msgid ""
 "settings <../../host/configure-settings>`, such as audio spatialization, "
 "user permissions, and running scripts."
 msgstr ""
-"ドメインサーバーは、ドメインをホストするサーバーです。ドメインサーバーは、ド"
-"メイン内のコンテンツをホストし、オーディオの空間化、ユーザー権限、スクリプト"
-"の実行など、 :doc:`ドメイン全体の設定を管理 <../../host/configure-settings>` "
-"します。"
+"`ドメインサーバー` は、ドメインをホストするサーバーです。ドメインサーバーは、"
+"ドメイン内のコンテンツをホストし、オーディオの空間化、ユーザー権限、スクリプ"
+"トの実行など、 :doc:`ドメイン全体の設定を管理 <../../host/configure-"
+"settings>` します。"
 
 #: ../../source/explore/get-started/architecture.rst:22
 msgid ""
@@ -770,8 +773,9 @@ msgid ""
 msgstr ""
 "Vircadiaインターフェイス（または単に「インターフェイス」）は、Vircadiaのメイ"
 "ンユーザーインターフェイスです。メタバースを探索し、世界中の人々と交流するた"
-"めに使用されます。ドメインに入ると、インターフェースは、仮想世界をホストして"
-"いる「ドメインサーバー」と「グローバルサービス」に接続します。"
+"めに使用されます。ドメインに入ると、インターフェースは、"
+"仮想世界をホストしている `ドメインサーバー` と `グローバルサービス` "
+"に接続します。"
 
 #: ../../source/explore/get-started/architecture.rst:32
 msgid ""
@@ -1251,150 +1255,152 @@ msgstr "``2``"
 
 #: ../../source/explore/get-started/desktop.rst:87
 msgid "Pan In/Out"
-msgstr ""
+msgstr "パンイン/パンアウト"
 
 #: ../../source/explore/get-started/desktop.rst:87
 msgid "With mouse, use mouse wheel."
-msgstr ""
+msgstr "マウスでは、マウスホイールを使用します。"
 
 #: ../../source/explore/get-started/desktop.rst:89
 msgid "On trackpad, drag two fingers up or down."
-msgstr ""
+msgstr "トラックパッドでは、2本の指で上下にドラッグします。"
 
 #: ../../source/explore/get-started/desktop.rst:91
 msgid "Take Screenshot"
-msgstr ""
+msgstr "スクリーンショットを撮る"
 
 #: ../../source/explore/get-started/desktop.rst:96
 msgid "Avatar Sizing Controls"
-msgstr ""
+msgstr "アバターのサイズ調整"
 
 #: ../../source/explore/get-started/desktop.rst:101
 msgid "Decrease Avatar Size"
-msgstr ""
+msgstr "アバターのサイズを小さくする"
 
 #: ../../source/explore/get-started/desktop.rst:101
 msgid "``-``"
-msgstr ""
+msgstr "``-``"
 
 #: ../../source/explore/get-started/desktop.rst:103
 msgid "Increase Avatar Size"
-msgstr ""
+msgstr "アバターのサイズを大きくする"
 
 #: ../../source/explore/get-started/desktop.rst:103
 msgid "``+``"
-msgstr ""
+msgstr "``+``"
 
 #: ../../source/explore/get-started/desktop.rst:105
 msgid "Reset Avatar Size"
-msgstr ""
+msgstr "アバターサイズをリセットする"
 
 #: ../../source/explore/get-started/desktop.rst:105
 msgid "``=``"
-msgstr ""
+msgstr "``=``"
 
 #: ../../source/explore/get-started/desktop.rst:110
 msgid "Create and Edit Mode"
-msgstr ""
+msgstr "作成および編集モード"
 
 #: ../../source/explore/get-started/desktop.rst:112
 msgid "These controls work when the **Create** app is open."
-msgstr ""
+msgstr "これらのコントロールは、 **Create** アプリが開いているときに機能します。"
 
 #: ../../source/explore/get-started/desktop.rst:117
 msgid "Undo"
-msgstr ""
+msgstr "元に戻す"
 
 #: ../../source/explore/get-started/desktop.rst:117
 msgid "``CTRL`` + ``Z``"
-msgstr ""
+msgstr "``CTRL`` + ``Z``"
 
 #: ../../source/explore/get-started/desktop.rst:119
 msgid "Redo"
-msgstr ""
+msgstr "やり直し"
 
 #: ../../source/explore/get-started/desktop.rst:119
 msgid "``CTRL`` + ``Y``"
-msgstr ""
+msgstr "``CTRL`` + ``Y``"
 
 #: ../../source/explore/get-started/desktop.rst:121
 msgid "Delete Entity"
-msgstr ""
+msgstr "エンティティの削除"
 
 #: ../../source/explore/get-started/desktop.rst:121
 msgid "``DEL``"
-msgstr ""
+msgstr "``DEL``"
 
 #: ../../source/explore/get-started/desktop.rst:123
 msgid "Focus on Selected Entity"
-msgstr ""
+msgstr "選択したエンティティに焦点を当てる"
 
 #: ../../source/explore/get-started/desktop.rst:123
 msgid "``F``"
-msgstr ""
+msgstr "``F``"
 
 #: ../../source/explore/get-started/desktop.rst:125
 msgid "Align Grid to Bottom of Selected Entities"
-msgstr ""
+msgstr "選択したエンティティの下にグリッドを合わせる"
 
 #: ../../source/explore/get-started/desktop.rst:125
 msgid "``G``"
-msgstr ""
+msgstr "``G``"
 
 #: ../../source/explore/get-started/desktop.rst:127
 msgid "Duplicate Entity"
-msgstr ""
+msgstr "重複するエンティティ"
 
 #: ../../source/explore/get-started/desktop.rst:127
 msgid "``CTRL`` + Left Click + Drag"
-msgstr ""
+msgstr "``CTRL`` + 左クリック + Drag"
 
 #: ../../source/explore/get-started/desktop.rst:129
 msgid "Parent Entity"
-msgstr ""
+msgstr "親エンティティ"
 
 #: ../../source/explore/get-started/desktop.rst:129
 msgid "``CTRL`` + ``P``"
-msgstr ""
+msgstr "``CTRL`` + ``P``"
 
 #: ../../source/explore/get-started/desktop.rst:131
 msgid "Unparent Entity"
-msgstr ""
+msgstr "親ではないエンティティ"
 
 #: ../../source/explore/get-started/desktop.rst:131
 msgid "``CTRL`` + ``SHIFT`` + ``P``"
-msgstr ""
+msgstr "``CTRL`` + ``SHIFT`` + ``P``"
 
 #: ../../source/explore/get-started/desktop.rst:133
 msgid "Copy Entity"
-msgstr ""
+msgstr "エンティティのコピー"
 
 #: ../../source/explore/get-started/desktop.rst:133
 msgid "``CTRL`` + ``C``"
-msgstr ""
+msgstr "``CTRL`` + ``C``"
 
 #: ../../source/explore/get-started/desktop.rst:135
 msgid "Paste Entity"
-msgstr ""
+msgstr "エンティティの貼り付け"
 
 #: ../../source/explore/get-started/desktop.rst:135
 msgid "``CTRL`` + ``V``"
-msgstr ""
+msgstr "``CTRL`` + ``V``"
 
 #: ../../source/explore/get-started/desktop.rst:137
+#, fuzzy
 msgid "Toggle Global/Local Translation"
-msgstr ""
+msgstr "グローバル/ローカル通訳の切替"
 
 #: ../../source/explore/get-started/desktop.rst:143
 #: ../../source/explore/get-started/vr-controls.rst:217
 msgid "Gamepad"
-msgstr ""
+msgstr "ゲームパッド"
 
 #: ../../source/explore/get-started/desktop.rst:145
 msgid ""
 "Instead of a keyboard, you can use a gamepad while experiencing Vircadia "
 "in desktop mode."
-msgstr ""
+msgstr "キーボードの代わりにゲームパッドを使って、デスクトップモードでVircadiaを体験"
+"することができます。"
 
 #: ../../source/explore/get-started/install.rst:5
 msgid ""
@@ -1407,90 +1413,105 @@ msgid ""
 "provided for Windows. For Linux see: :doc:`Host a Domain from a Local or "
 "Cloud Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
+"Vircadiaには2種類のインストーラーがあります。 *Client Installer* は、Vircadia"
+"のコンテンツやユーザーを表示、操作するために必要なものがすべて入っています。"
+"しかし、このインストーラを使用してコンテンツをホストすることはできません。 *"
+"Client + Server Installer* "
+"は、クライアントインストーラの機能をすべて備えていますが、 :doc:`"
+"あなた自身のコンテンツをホスト <../../host>` し、世界と共有することができます"
+"。クライアント＋サーバーインストーラーのダウンロードは、Windows用のみ提供され"
+"ています。Linuxについては、こちらをご覧ください : :doc:`"
+"ローカルまたはクラウドのLinuxサーバーからドメインをホストする <../../host/"
+"server-setup/linux-server>` 。"
 
 #: ../../source/explore/get-started/install.rst:15
 msgid "System Requirements"
-msgstr ""
+msgstr "動作環境"
 
 #: ../../source/explore/get-started/install.rst:17
 msgid ""
 "In order to run Vircadia, ensure that your computer meets these system "
 "requirements:"
-msgstr ""
+msgstr "Vircadiaを実行するためには、お使いのコンピューターが以下のシステム要件を満た"
+"していることを確認してください :"
 
 #: ../../source/explore/get-started/install.rst:19
 msgid "Operating system:"
-msgstr ""
+msgstr "対応OS:"
 
 #: ../../source/explore/get-started/install.rst:21
 msgid "Windows 8.1, 64-bit or Windows 10, 64-bit"
-msgstr ""
+msgstr "Windows 8.1, 64-bit or Windows 10, 64-bit"
 
 #: ../../source/explore/get-started/install.rst:22
 msgid "MacOS High Sierra (10.13) or newer"
-msgstr ""
+msgstr "MacOS High Sierra (10.13) 以上"
 
 #: ../../source/explore/get-started/install.rst:23
 msgid "Ubuntu 18.04 64 bit or most other modern Linux distributions"
-msgstr ""
+msgstr "Ubuntu 18.04 64 bit または他のほとんどの最新のLinuxディストリビューション"
 
 #: ../../source/explore/get-started/install.rst:25
 msgid "CPU:"
-msgstr ""
+msgstr "CPU:"
 
 #: ../../source/explore/get-started/install.rst:27
 msgid "**Minimum:** Quad-core"
-msgstr ""
+msgstr "**最低:** Quad-core"
 
 #: ../../source/explore/get-started/install.rst:28
 msgid "**Recommended:** Quad-core with hyper-threading or better"
-msgstr ""
+msgstr "**推奨:** ハイパースレッディング以上のクアッドコア"
 
 #: ../../source/explore/get-started/install.rst:30
 msgid "System memory:"
-msgstr ""
+msgstr "メインメモリ :"
 
 #: ../../source/explore/get-started/install.rst:32
 msgid "**Minimum:** 8GB"
-msgstr ""
+msgstr "**最小:** 8GB"
 
 #: ../../source/explore/get-started/install.rst:34
 msgid "Graphics adapter:"
-msgstr ""
+msgstr "グラフィックカード :"
 
 #: ../../source/explore/get-started/install.rst:36
 msgid "**Minimum:** Nvidia 600 series"
-msgstr ""
+msgstr "**最低:** Nvidia 600 series"
 
 #: ../../source/explore/get-started/install.rst:37
 msgid "**Recommended:** Nvidia 900 series or higher"
-msgstr ""
+msgstr "**推奨:** Nvidia 900 series 以上"
 
 #: ../../source/explore/get-started/install.rst:38
 msgid "**Minimum:** AMD Radeon HD 87XX series"
-msgstr ""
+msgstr "**最低:** AMD Radeon HD 87XX series"
 
 #: ../../source/explore/get-started/install.rst:39
 msgid "**Recommended:** AMD Radeon HD 89XX series or higher"
-msgstr ""
+msgstr "**推奨:** AMD Radeon HD 89XX series 以上"
 
 #: ../../source/explore/get-started/install.rst:40
 msgid ""
 "**Minimum:** Intel 5th generation CPU integrated Iris graphics. Using "
 "Intel integrated graphics is not recommended."
-msgstr ""
+msgstr "**最小:**Intel第5世代CPU Iris "
+"グラフィックス。Intel統合グラフィックスの使用はお勧めしません。"
 
 #: ../../source/explore/get-started/install.rst:42
 msgid ""
 "The listed graphics adapters support OpenGL 4.1 and above. This is a "
 "requirement for any graphics adapter running Vircadia."
 msgstr ""
+"リストされているグラフィックアダプタは、OpenGL4.1以降をサポートしています。こ"
+"れは、Vircadiaを実行しているすべてのグラフィックアダプタの要件です。"
 
 #: ../../source/explore/get-started/install.rst:44
 msgid ""
 "In addition, your network must have enough internet bandwidth to run "
 "Vircadia:"
-msgstr ""
+msgstr "また、Vircadiaを動作させるためには、ネットワークに十分なインターネット帯域幅"
+"が必要です。"
 
 #: ../../source/explore/get-started/install.rst:46
 msgid ""
@@ -1498,6 +1519,9 @@ msgid ""
 " have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s "
 "upload**."
 msgstr ""
+"メタバースを探索するためだけにInterfaceを使用している場合は、"
+"インターネット速度が少なくとも **10 Mbit/s download** および **2 Mbit/s "
+"upload** である必要があります。"
 
 #: ../../source/explore/get-started/install.rst:47
 msgid ""
@@ -1507,12 +1531,18 @@ msgid ""
 "Mbit/s upload** per user if you host your assets on an external web "
 "server rather than your domain server."
 msgstr ""
+"ドメインサーバをリモートマシンまたはローカルコンピュータでホストしている場合"
+"、ドメインへの同時アクセスを許可するユーザごとに "
+"**10Mビット/秒のアップロード** を追加する必要があります。ドメインサーバではな"
+"く外部のウェブサーバで資産をホストする場合は、ユーザごとに "
+"**2Mビット/秒のアップロード** だけが必要です。"
 
 #: ../../source/explore/get-started/install.rst:50
 msgid ""
 "A world that is specifically built for low-end systems might run fine on "
 "a system with slightly less memory or a lower CPU core count."
-msgstr ""
+msgstr "ローエンドシステム向けに特別に作られたVircadia世界は、メモリやCPUコア数が少し"
+"少ないシステムでも問題なく動作するかもしれません。"
 
 #: ../../source/explore/get-started/install.rst:52
 msgid ""
@@ -1520,14 +1550,17 @@ msgid ""
 "much better graphics adapter, depending on your display's resolution and "
 "targeted frame rate."
 msgstr ""
+"Vircadiaを高解像度ディスプレイやVRモードで動作させるには、ディスプレイの解像"
+"度や目標とするフレームレートに応じて、より優れたグラフィックカードが必要にな"
+"ります。"
 
 #: ../../source/explore/get-started/install.rst:56
 msgid "Download Vircadia"
-msgstr ""
+msgstr "Vircadiaのダウンロード"
 
 #: ../../source/explore/get-started/install.rst:58
 msgid "Windows |Windows|"
-msgstr ""
+msgstr "Windows |Windows|"
 
 #: ../../source/explore/get-started/install.rst:60
 msgid ""
@@ -1535,6 +1568,9 @@ msgid ""
 "<https://github.com/vircadia/vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.exe>`__"
 " |DownloadWI|"
 msgstr ""
+"`Windows 64-bit - Selene 2022.1.1 Installer <https://github.com/vircadia/"
+"vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.exe>`__ "
+"|DownloadWI|"
 
 #: ../../source/explore/get-started/install.rst:61
 msgid ""
@@ -1542,10 +1578,12 @@ msgid ""
 "<https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ "
 "|DownloadWL|"
 msgstr ""
+"`Windows 64-bit Launcher (Experimental) <https://cdn.vircadia.com/dist/"
+"launcher/VircadiaLauncherSetup.exe>`__ |DownloadWL|"
 
 #: ../../source/explore/get-started/install.rst:63
 msgid "macOS |MacOS|"
-msgstr ""
+msgstr "macOS |MacOS|"
 
 #: ../../source/explore/get-started/install.rst:65
 msgid ""
@@ -1553,10 +1591,13 @@ msgid ""
 "<https://github.com/vircadia/vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.dmg>`__"
 " |DownloadM|"
 msgstr ""
+"`macOS Intel - Selene 2022.1.1 Installer <https://github.com/vircadia/"
+"vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.dmg>`__ "
+"|DownloadM|"
 
 #: ../../source/explore/get-started/install.rst:67
 msgid "Linux |Ubuntu|"
-msgstr ""
+msgstr "Linux |Ubuntu|"
 
 #: ../../source/explore/get-started/install.rst:69
 msgid ""
@@ -1564,6 +1605,9 @@ msgid ""
 "<https://github.com/vircadia/vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.AppImage>`__"
 " |DownloadLUS|"
 msgstr ""
+"`Linux amd64 - Selene 2022.1.1 AppImage <https://github.com/vircadia/"
+"vircadia/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.AppImage>`__ "
+"|DownloadLUS|"
 
 #: ../../source/explore/get-started/install.rst:71
 msgid ""
@@ -1572,16 +1616,21 @@ msgid ""
 "Vircadia. VR mode is not supported on macOS. The Oculus Runtime is not "
 "supported on Linux."
 msgstr ""
+"HMDを使用してVircadiaをVRモードで使用する場合、Vircadiaを起動する前に、"
+"SteamVRまたはOculus Runtimeもシステムにインストールされていることを確認してく"
+"ださい。VRモードはmacOSではサポートされていません。Oculus "
+"Runtimeは、Linuxではサポートされていません。"
 
 #: ../../source/explore/get-started/install.rst:109
 msgid ""
 "Once you've downloaded the installer, you're ready to install Vircadia. "
 "The process will be different based on your operating system:"
-msgstr ""
+msgstr "インストーラーをダウンロードしたら、Vircadiaをインストールする準備ができてい"
+"ます。お使いのOSによって手順が異なります。"
 
 #: ../../source/explore/get-started/install.rst:113
 msgid "Windows Install"
-msgstr ""
+msgstr "Windowsにインストールする"
 
 #: ../../source/explore/get-started/install.rst:115
 msgid ""
@@ -1590,72 +1639,87 @@ msgid ""
 "finish the install process, Interface will open, and you will be able to "
 "log in and begin exploring the metaverse."
 msgstr ""
+"Windowsへのインストールは、ダウンロードしたインストーラーファイルをダブルクリ"
+"ックして開くだけです。インストーラーの指示にしたがって操作してください。イン"
+"ストールが完了すると、インターフェイスが起動し、ログインしてメタバースの探索"
+"を開始することができます。"
 
 #: ../../source/explore/get-started/install.rst:120
 msgid "Mac Install"
-msgstr ""
+msgstr "Macにインストールする"
 
 #: ../../source/explore/get-started/install.rst:122
 msgid ""
 "At this time, the Vircadia installer for Mac is unsigned, so you will "
 "need give the OS permission to install the application."
 msgstr ""
+"現時点では、Mac版Vircadiaのインストーラーは署名されていないため、OSにアプリケ"
+"ーションをインストールする許可を与える必要があります。"
 
 #: ../../source/explore/get-started/install.rst:124
 msgid "Open the downloaded installer dmg file."
-msgstr ""
+msgstr "ダウンロードしたインストーラーdmgファイルを開きます。"
 
 #: ../../source/explore/get-started/install.rst:125
 msgid "Agree to the License Agreement."
-msgstr ""
+msgstr "使用許諾契約に同意します。"
 
 #: ../../source/explore/get-started/install.rst:126
 msgid "Drag Vircadia to the Applications folder."
-msgstr ""
+msgstr "Vircadiaをアプリケーションフォルダにドラッグします。"
 
 #: ../../source/explore/get-started/install.rst:127
 msgid ""
 "Try opening Interface.app. You will be prompted that macOS will not open "
 "the file because it is unsigned."
-msgstr ""
+msgstr "Interface.appを開いてみてください。署名されていないため、macOSはファイルを開"
+"かないというプロンプトが表示されます。"
 
 #: ../../source/explore/get-started/install.rst:128
 msgid ""
 "Open **System Preferences > Security & Privacy**. On older macOS versions"
 " this might be in **System Preferences > General**."
 msgstr ""
+"**System Preferences > Security & Privacy** "
+"を開きます。古いmacOSバージョンでは、 **System Preferences > General** "
+"にある可能性があります。"
 
 #: ../../source/explore/get-started/install.rst:129
 msgid ""
 "Next to the warning indicating that Interface is blocked, click 'Open "
 "Anyway'."
-msgstr ""
+msgstr "インターフェイスがブロックされていることを示す警告の横にある「Open "
+"Anyway」をクリックします。"
 
 #: ../../source/explore/get-started/install.rst:130
 msgid "Confirm that you want to open the application."
-msgstr ""
+msgstr "アプリケーションを開くことを確認します。"
 
 #: ../../source/explore/get-started/install.rst:131
 msgid ""
 "Allow microphone access if prompted, in order to be able to talk inside "
 "the application."
-msgstr ""
+msgstr "アプリケーション内で会話できるようにするために、プロンプトが表示されたらマイ"
+"クへのアクセスを許可します。"
 
 #: ../../source/explore/get-started/install.rst:133
 msgid ""
 "At this point, Interface will open and you will be able to log in and "
 "begin exploring the metaverse."
-msgstr ""
+msgstr "この時、Interfaceが開き、ログインしてメタバースの探索を開始することができます"
+"。"
 
 #: ../../source/explore/get-started/install.rst:138
 msgid "Linux Install"
-msgstr ""
+msgstr "Linuxにインストールする"
 
 #: ../../source/explore/get-started/install.rst:140
 msgid ""
 "Mark the downloaded AppImage file as executable. (for example, with "
 "``chmod +x Vircadia-x86_64_v2021.1.0-Eos.AppImage``.)"
 msgstr ""
+"ダウンロードしたAppImageファイルを実行可能なファイルとしてマークします。(例え"
+"ば、 ``chmod +x Vircadia-x86_64_v2021.1.0-Eos.AppImage`` など。)"
 
 #: ../../source/explore/get-started/install.rst:141
 msgid ""
@@ -1663,10 +1727,13 @@ msgid ""
 "install `AppImageLauncher "
 "<https://github.com/TheAssassin/AppImageLauncher>`_."
 msgstr ""
+"(オプション) AppImageをシステムに統合したい場合は、 `AppImageLauncher "
+"<https://github.com/TheAssassin/AppImageLauncher>` "
+"をインストールしてください。"
 
 #: ../../source/explore/get-started/install.rst:142
 msgid "Execute AppImage."
-msgstr ""
+msgstr "AppImageを実行する。"
 
 #: ../../source/explore/get-started/install.rst:144
 msgid ""
@@ -1674,10 +1741,14 @@ msgid ""
 " a domain, please refer to :doc:`Host a Domain from a Local or Cloud "
 "Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
+"現在、サーバーはLinux Interface "
+"AppImageの一部ではありません。ドメインをホストするには、 :doc:`"
+"ローカルまたはクラウドLinuxサーバーからドメインをホストする <../../host/"
+"server-setup/linux-server>` を参照してください。"
 
 #: ../../source/explore/get-started/install.rst:148
 msgid "Upgrade Vircadia"
-msgstr ""
+msgstr "Vircadiaのアップグレード"
 
 #: ../../source/explore/get-started/install.rst:150
 msgid ""
@@ -1686,6 +1757,10 @@ msgid ""
 " you can download the latest release from our `website "
 "<https://vircadia.com/download-vircadia/#interface>`_."
 msgstr ""
+"Vircadiaは常に変化しています。パフォーマンスを改善し、メタバースでのエクスペ"
+"リエンスを向上させる機能を追加するために取り組んでいます。最新のリリースは、"
+"いつでも当社の `website <https://vircadia.com/download-vircadia/#interface>` "
+"からダウンロードできます。"
 
 #: ../../source/explore/get-started/install.rst:153
 msgid ""
@@ -1694,6 +1769,10 @@ msgid ""
 "before upgrading. Keep in mind that Vircadia Server could be running in "
 "the background."
 msgstr ""
+"Vircadia InterfaceまたはServerが起動している場合、Windows上のVircadiaをアップ"
+"グレードすることはできません。アップグレードする前に、必ずこれらのアプリケー"
+"ションを終了してください。Vircadia "
+"Serverがバックグラウンドで実行されている可能性があることに留意してください。"
 
 #: ../../source/explore/get-started/install.rst:156
 msgid ""
@@ -1701,16 +1780,20 @@ msgid ""
 "the icon and select 'Quit'. Alternatively, end the 'server-console' "
 "background process using the Task Manager."
 msgstr ""
+"Windowsの場合、システムトレイにあるVircadiaアプリを探します。アイコンを右クリ"
+"ックし、「終了」を選択します。または、タスクマネージャーを使用して「server-"
+"console」バックグラウンドプロセスを終了させます。"
 
 #: ../../source/explore/get-started/install.rst:158
 msgid ""
 "For more information on the latest releases, see our :doc:`Release Notes "
 "<../../release-notes>`."
-msgstr ""
+msgstr "最新リリースの詳細については、 :doc:`Release Notes <../../release-notes>` "
+"を参照してください。"
 
 #: ../../source/explore/get-started/install.rst:163
 msgid "Perform a Clean Install"
-msgstr ""
+msgstr "クリーンインストール"
 
 #: ../../source/explore/get-started/install.rst:165
 msgid ""
@@ -1719,6 +1802,9 @@ msgid ""
 "multiple files and settings that you may need once you install Vircadia "
 "again."
 msgstr ""
+"インターフェースやローカルサーバをロードする際に問題に直面した場合、クリーン"
+"インストールを実行してみてください。クリーンインストールは、Vircadiaを再イン"
+"ストールする際に必要となる複数のファイルや設定を削除します。"
 
 #: ../../source/explore/get-started/install.rst:168
 msgid ""
@@ -1726,20 +1812,25 @@ msgid ""
 "Favorites, Wearables, Server content, and Entities. These settings will "
 "be deleted during the clean install."
 msgstr ""
+"クリーンインストールする前に、"
+"以下のファイルをバックアップしていることを確認してください : "
+"Favorites、Wearables、Server "
+"content、Entitiesの設定は、クリーンインストール時に削除されます。"
 
 #: ../../source/explore/get-started/install.rst:172
 msgid "Windows Clean Install"
-msgstr ""
+msgstr "Windowsのクリーンインストール"
 
 #: ../../source/explore/get-started/install.rst:174
 msgid ""
 "Click on the Start menu and type \"Add or Remove Programs\" in your "
 "Windows search bar."
-msgstr ""
+msgstr "スタートメニューをクリックし、Windowsの検索バーに「プログラムの追加と削除」と"
+"入力します。"
 
 #: ../../source/explore/get-started/install.rst:175
 msgid "Uninstall any versions of Vircadia that are visible."
-msgstr ""
+msgstr "表示されているVircadiaのバージョンをすべてアンインストールします。"
 
 #: ../../source/explore/get-started/install.rst:176
 #, python-format
@@ -1747,6 +1838,8 @@ msgid ""
 "Once Vircadia is uninstalled, browse to your %Program Files% directory. "
 "Delete all folders related to Vircadia."
 msgstr ""
+"Vircadiaがアンインストールされたら、 %Program Files% "
+"フォルダを開きます。Vircadiaに関連するすべてのフォルダを削除します。"
 
 #: ../../source/explore/get-started/install.rst:180
 msgid ""
@@ -1755,6 +1848,10 @@ msgid ""
 "client to another location on your computer before proceeding. Repeat for"
 " %AppData%/Roaming/Vircadia/assignment-client."
 msgstr ""
+"次の3つのステップでローカルサーバーのコンテンツは完全に削除されます。このコン"
+"テンツを残しておきたい場合は、先に進む前に%AppData%/Local/Vircadia/"
+"Assignment-clientをコンピュータの別の場所にコピーしてください。%AppData%/"
+"Roaming/Vircadia/assignment-clientについても同様の操作をします。"
 
 #: ../../source/explore/get-started/install.rst:184
 #, python-format
@@ -1765,6 +1862,11 @@ msgid ""
 "View and make sure \"Hidden Items\" is checked. Delete all folders "
 "related to Vircadia."
 msgstr ""
+"ローカルの %AppData% フォルダ（通常は ``C:/Users/<your_username>/AppData/"
+"Local`` ）にアクセスします。もし、そのフォルダが見つからない場合は、隠しフォ"
+"ルダが表示できることを確認してください。ファイルエクスプローラで、表示をクリ"
+"ックし、「隠しアイテム」にチェックが入っていることを確認してください。Vircadi"
+"aに関連するすべてのフォルダを削除してください。"
 
 #: ../../source/explore/get-started/install.rst:186
 #, python-format
@@ -1773,6 +1875,9 @@ msgid ""
 "``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related"
 " to Vircadia."
 msgstr ""
+"ローミングの %AppData%フォルダをブラウズします(通常 ``C:/Users/"
+"<your_username>/AppData/Roaming`` ). "
+"Vircadiaに関連するすべてのフォルダを削除してください。"
 
 #: ../../source/explore/get-started/install.rst:187
 msgid ""
@@ -1780,14 +1885,17 @@ msgid ""
 " content, copy the ``assignment-client`` folders you previously saved "
 "back into to their respective locations."
 msgstr ""
+"上記の手順でVircadiaを再インストールしてください。ローカルサーバの内容を復元"
+"するには、以前に保存した ``assignment-client`` "
+"フォルダをそれぞれの場所にコピーしてください。"
 
 #: ../../source/explore/get-started/install.rst:191
 msgid "Mac Clean Install"
-msgstr ""
+msgstr "Macのクリーンインストール"
 
 #: ../../source/explore/get-started/install.rst:193
 msgid "Open your Applications folder and delete the Vircadia folder."
-msgstr ""
+msgstr "アプリケーションフォルダを開き、Vircadiaフォルダを削除します。"
 
 #: ../../source/explore/get-started/install.rst:194
 msgid ""
@@ -1795,10 +1903,13 @@ msgid ""
 "accessible by going to *Go > Home*. Press the keyboard shortcut ``Command"
 " + Shift + .`` (period)."
 msgstr ""
+"``<username>/.config`` フォルダーを開きます。これは、 *Go > Home* "
+"に移動してアクセスできる隠しフォルダーです。キーボードショートカットの ``"
+"Command + Shift + .`` (ピリオド) を押します。"
 
 #: ../../source/explore/get-started/install.rst:195
 msgid "Delete the ``vircadia.com`` folder."
-msgstr ""
+msgstr "``vircadia.com`` フォルダを削除します。"
 
 #: ../../source/explore/get-started/install.rst:196
 msgid ""
@@ -1806,31 +1917,37 @@ msgid ""
 "'Go' menu while in the Finder. The Library option should appear in the "
 "menu."
 msgstr ""
+"FinderでOptionキーを押しながら「Go」メニューをクリックして、 ``~/Library`` "
+"フォルダを開きます。ライブラリオプションがメニューに表示されます。"
 
 #: ../../source/explore/get-started/install.rst:197
 msgid ""
 "Browse to ``~/Library/Application Support`` and delete the Vircadia "
 "folder."
-msgstr ""
+msgstr "``~/Library/Application Support`` を参照し、Vircadiaフォルダーを削除します。"
 
 #: ../../source/explore/get-started/install.rst:198
 msgid "Empty the Trash."
-msgstr ""
+msgstr "ゴミ箱を空にします。"
 
 #: ../../source/explore/get-started/install.rst:199
 msgid "Re-install Vircadia using the steps above."
-msgstr ""
+msgstr "上記の手順を使用して、Vircadiaを再インストールします。"
 
 #: ../../source/explore/get-started/install.rst:204
 msgid ":doc:`Install Your Domain <../../host/server-setup>`"
-msgstr ""
+msgstr ":doc:`ドメインのインストール <../../host/server-setup>`"
 
 #: ../../source/explore/get-started/setup-audio.rst:2
+#, fuzzy
 msgid ""
 "This document is slightly outdated. FIXME: instructions for Windows are "
 "most likely outdated, no mention that you should *not* use \"open mic\" "
 "setups without push to talk"
 msgstr ""
+"このドキュメントは少し古くなっています。FIXME：Windowsの手順はおそらく時代遅"
+"れです。プッシュ・ツー・トークなしで「オープンマイク」セットアップを使用する"
+"べきではないことは言うまでもありません。"
 
 #: ../../source/explore/get-started/setup-audio.rst:9
 msgid ""
@@ -1839,16 +1956,21 @@ msgid ""
 " Usually, your computer will automatically detect a plugged in headset "
 "and you will not need to configure your audio devices any further."
 msgstr ""
+"Vircadiaに初めてログインすると、お使いのコンピュータのデフォルトのオーディオ"
+"デバイスが自動的に検出され、Vircadiaに使用されます。通常、コンピュータは接続"
+"されたヘッドセットを自動的に検出するので、それ以上オーディオデバイスを設定す"
+"る必要はありません。"
 
 #: ../../source/explore/get-started/setup-audio.rst:11
 msgid ""
 "However, some audio setups do require additional configuration. If you "
 "need to change your audio settings, read on to find out more."
-msgstr ""
+msgstr "ただし、一部のオーディオ設定では追加の構成が必要です。オーディオ設定を変更す"
+"る必要がある場合は、詳細をお読みください。"
 
 #: ../../source/explore/get-started/setup-audio.rst:19
 msgid "Audio \"At a Glance\""
-msgstr ""
+msgstr "オーディオの概要"
 
 #: ../../source/explore/get-started/setup-audio.rst:21
 msgid ""
@@ -1857,10 +1979,13 @@ msgid ""
 "turned on or off in your Audio settings (from the Tablet or HUD, click "
 "**Audio**)."
 msgstr ""
+"基本的なオーディオ設定は、インターフェイスウィンドウの左上に表示されます。こ"
+"れは「オーディオレベルメーター」と呼ばれ、オーディオ設定（タブレットまたはHUD"
+"から、 **Audio** をクリック）でオンまたはオフにすることができます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:27
 msgid "Change your Input or Output Device"
-msgstr ""
+msgstr "入力デバイスまたは出力デバイスを変更する"
 
 #: ../../source/explore/get-started/setup-audio.rst:30
 msgid ""
@@ -1873,6 +1998,13 @@ msgid ""
 "applications on your computer, then you can change your device in the "
 "application."
 msgstr ""
+"Vircadiaの3D空間化されたオーディオは、デスクトップモードでもVR機器を使用して"
+"いても、メタバースでの体験を向上させることが保証されています。デフォルトでは"
+"、お使いのオペレーティングシステムやヘッドセットが検出したデフォルトのオーデ"
+"ィオデバイスを選択します。デフォルトとは異なるヘッドセットやオーディオ設定を"
+"使用したい場合は、コンピュータのデフォルトデバイスを変更することができます。V"
+"ircadiaでコンピュータの他のアプリケーションと異なるデバイスを使用する必要があ"
+"る場合は、アプリケーションでデバイスを変更することができます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:32
 msgid ""
@@ -1883,6 +2015,12 @@ msgid ""
 "Hear\" device (think of these sound card devices as if they were "
 "microphones being held up to your speakers while they output sound)."
 msgstr ""
+"*オーディオ入力デバイス* とは、音を取り込み、他のデバイスがアクセスできる信号"
+"を生成するデバイスのことです。オーディオ入力デバイスの例としては、コンピュー"
+"ターに接続されたUSBマイクやマイクヘッドセット、サウンドカードの「Stereo "
+"Mix」や「What U Hear」デバイス（これらのサウンドカードのデバイスは、スピーカ"
+"ーにかざしながら音を出力するマイクのようなものだと考えてください）などが挙げ"
+"られます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:33
 msgid ""
@@ -1891,6 +2029,9 @@ msgid ""
 " output devices include your desktop computer speakers, headphones, or "
 "huge speakers in a movie theater."
 msgstr ""
+"*オーディオ出力機器* は、オーディオファイルから情報を受け取り、それを可聴音信"
+"号に変換するあらゆる機器です。音声出力機器の例としては、デスクトップパソコン"
+"のスピーカー、ヘッドフォン、映画館の巨大なスピーカーなどがあります。"
 
 #: ../../source/explore/get-started/setup-audio.rst:35
 msgid ""
@@ -1900,29 +2041,34 @@ msgid ""
 " different. In these cases, we encourage you to enable `acoustic echo "
 "cancellation <#id1>`_ for improved audio quality."
 msgstr ""
+"マイク付きヘッドセットを使用している場合、入力デバイスと出力デバイスは同じデ"
+"バイスになる可能性が高いです。しかし、外部スピーカーやその他のオープンマイク"
+"を使用している場合、これらのデバイスは異なる可能性があります。このような場合"
+"、音質を向上させるために、 `acoustic echo cancellation <#id1>` "
+"を有効にすることをお勧めします。"
 
 #: ../../source/explore/get-started/setup-audio.rst:37
 msgid "To change your audio devices:"
-msgstr ""
+msgstr "オーディオデバイスを変更するには："
 
 #: ../../source/explore/get-started/setup-audio.rst:39
 #: ../../source/explore/get-started/setup-audio.rst:91
 #: ../../source/explore/get-started/setup-audio.rst:109
 #: ../../source/explore/get-started/setup-audio.rst:122
 msgid "From the Tablet or HUD, click **Audio**."
-msgstr ""
+msgstr "タブレットまたはHUDから、 **Audio** をクリックします。"
 
 #: ../../source/explore/get-started/setup-audio.rst:40
 msgid "Choose your desired input device."
-msgstr ""
+msgstr "使用する入力デバイスを選択します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:41
 msgid "Choose your desired output device."
-msgstr ""
+msgstr "使用する出力デバイスを選択します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:45
 msgid "Using Bluetooth Headsets"
-msgstr ""
+msgstr "Bluetoothヘッドセットの使用"
 
 #: ../../source/explore/get-started/setup-audio.rst:47
 msgid ""
@@ -1932,12 +2078,17 @@ msgid ""
 "connection. On a 2.4Ghz connection, you may experience audio breakup and "
 "occasional disconnects."
 msgstr ""
+"Vircadiaでは、AirPodsなどのBluetoothヘッドセットを使用することができます。た"
+"だし、使用には制限があり、すべての環境で使用できない場合がありますので、ご注"
+"意ください。WiFiを使用する場合、5GhzのWiFi接続を使用していることを確認してく"
+"ださい。2.4Ghzの接続では、音声が途切れたり、時々切断されることがあります。"
 
 #: ../../source/explore/get-started/setup-audio.rst:49
 msgid ""
 "Unfortunately, bluetooth audio devices do not currently support stereo "
 "input. Therefore, you have two options:"
-msgstr ""
+msgstr "残念ながら、現在Bluetoothオーディオ機器は、ステレオ入力に対応していません。そ"
+"のため、2つの選択肢があります。"
 
 #: ../../source/explore/get-started/setup-audio.rst:51
 msgid ""
@@ -1945,6 +2096,8 @@ msgid ""
 "microphone for input. This allows you to take advantage of the stereo "
 "audio."
 msgstr ""
+"Bluetoothヘッドセットは出力デバイスとしてのみ使用し、入力には別のマイクを使用"
+"します。これにより、ステレオ音声を活用することができます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:52
 msgid ""
@@ -1952,10 +2105,12 @@ msgid ""
 "users will only experience mono sound coming from you, rather than the "
 "normal stereo audio."
 msgstr ""
+"Bluetoothヘッドセットの内蔵マイクを使用します。この場合、他のユーザーは、通常"
+"のステレオ音声ではなくモノラル音声のみを体験することになります。"
 
 #: ../../source/explore/get-started/setup-audio.rst:56
 msgid "Acoustic Echo Cancellation"
-msgstr ""
+msgstr "音響エコーキャンセレーション"
 
 #: ../../source/explore/get-started/setup-audio.rst:58
 msgid ""
@@ -1965,6 +2120,10 @@ msgid ""
 "microphone and speakers (i.e. an \"open mic\"), rather than a detached "
 "headset."
 msgstr ""
+"音響エコーとは、スピーカーからの音がマイクに拾われ、伝達され、結果としてエコ"
+"ー効果が発生することです。これは、Vircadiaを取り外し可能なヘッドセットではな"
+"く、ラップトップの内蔵マイクとスピーカー（つまり「オープンマイク」）で使用し"
+"た場合によく起こります。"
 
 #: ../../source/explore/get-started/setup-audio.rst:60
 msgid ""
@@ -1973,28 +2132,35 @@ msgid ""
 "default, acoustic echo cancellation is turned on, and you can turn it off"
 " in the **Audio** app."
 msgstr ""
+"「アコースティックエコーキャンセル」とは、オープンマイク設定時に発生するエコ"
+"ーを防止することで音声品質を向上させる技術です。デフォルトでは、音響エコーキ"
+"ャンセラはオンになっており、 **Audio** アプリでオフにすることができます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:62
 msgid ""
 "Acoustic echo cancellation will not run when using input devices with "
 "high sample rates (greater than 96khz) or more than 2 channels."
 msgstr ""
+"高いサンプルレート（96kHzを超える）または2チャンネルを超える入力デバイスを使"
+"用している場合、音響エコーキャンセレーションは実行されません。"
 
 #: ../../source/explore/get-started/setup-audio.rst:64
 msgid "For best performance with open mic setups, ensure that you:"
-msgstr ""
+msgstr "オープンマイクのセットアップで最高のパフォーマンスを得るには、"
+"次のことを確認してください :"
 
 #: ../../source/explore/get-started/setup-audio.rst:66
 msgid ""
 "Disable any processing and effects on the input and output devices. This "
 "includes:"
-msgstr ""
+msgstr "入力デバイスと出力デバイスの処理と効果を無効にします。以下になります :"
 
 #: ../../source/explore/get-started/setup-audio.rst:68
 msgid ""
 "On Mac: Turn off 'Ambient noise reduction' (System Preferences > Sound > "
 "Input > Use ambient noise reduction)"
-msgstr ""
+msgstr "Macの場合 : 「Ambient noise reduction」をオフにする（システム環境設定＞サウン"
+"ド＞入力＞環境ノイズ低減を使用）"
 
 #: ../../source/explore/get-started/setup-audio.rst:69
 msgid ""
@@ -2002,30 +2168,35 @@ msgid ""
 "Recording tab > click on your device > Properties button > Enhancements "
 "tab)"
 msgstr ""
+"Windowsの場合 :すべての「拡張機能」をオフにします（[コントロールパネル]>[サウ"
+"ンド]>[録音]タブ>デバイスをクリック>[プロパティ]ボタン>[詳細]タブ）"
 
 #: ../../source/explore/get-started/setup-audio.rst:71
 msgid ""
 "On Mac devices, set the balance of the output device to either the left "
 "or the right (System Preferences > Sound > Output > Balance)"
 msgstr ""
+"Macデバイスでは、出力デバイスのバランスを左または右に設定します（System "
+"Preferences > Sound > Output > Balance）"
 
 #: ../../source/explore/get-started/setup-audio.rst:72
 msgid ""
 "Lower the microphone's physical gain setting to approximately 3/4 of the "
 "maximum"
-msgstr ""
+msgstr "マイクの物理的なゲイン設定を最大値の約3/4に下げます"
 
 #: ../../source/explore/get-started/setup-audio.rst:73
 msgid ""
 "Lower the speaker's physical volume level to approximately 3/4 of the "
 "maximum"
-msgstr ""
+msgstr "スピーカーの物理的な音量レベルを最大値の約3/4に下げます"
 
 #: ../../source/explore/get-started/setup-audio.rst:74
 msgid ""
 "If you are not using your laptop's audio devices, move and point the "
 "microphone away from the speakers"
-msgstr ""
+msgstr "ノートパソコンのオーディオ機器を使用しない場合は、マイクをスピーカーから遠ざ"
+"けるように向けます"
 
 #: ../../source/explore/get-started/setup-audio.rst:76
 msgid ""
@@ -2035,24 +2206,28 @@ msgid ""
 " if you hear a little bit of echoing...it will lessen as the technology "
 "learns your voice and the voices of the people around you!"
 msgstr ""
+"音響エコーキャンセラの技術は、周囲の音を拾い、使っているうちに反響している音"
+"を識別しようとするものです。つまり、時間が経つにつれて改良され、より正確にな"
+"っていくのです。あなたの声や周りの人の声を学習していくので、"
+"多少の反響音は軽減されます !"
 
 #: ../../source/explore/get-started/setup-audio.rst:78
 msgid "To speed up this \"learning\" process, you can:"
-msgstr ""
+msgstr "この「学ぶ」プロセスを加速させるためには :"
 
 #: ../../source/explore/get-started/setup-audio.rst:80
 msgid "Avoid turning your avatar while talking"
-msgstr ""
+msgstr "会話中にアバターの向きを変えない"
 
 #: ../../source/explore/get-started/setup-audio.rst:81
 msgid ""
 "Leave your microphone muted while another person talks for 10 seconds at "
 "a time"
-msgstr ""
+msgstr "他の人が話している間、一度に10秒間マイクをミュートしたままにする"
 
 #: ../../source/explore/get-started/setup-audio.rst:85
 msgid "Test Your Audio Devices"
-msgstr ""
+msgstr "オーディオデバイスをテストする"
 
 #: ../../source/explore/get-started/setup-audio.rst:87
 msgid ""
@@ -2063,6 +2238,11 @@ msgid ""
 "word you said! The good news is that you can test your audio setup to "
 "make sure that both your input and output devices are working correctly."
 msgstr ""
+"オーディオはソーシャルVR体験に不可欠な要素なので、もちろんデバイスが正しく動"
+"作し、皆にあなたの声が聞こえることを確認したいと思います 仮想世界で友人たちに"
+"近づいていって、自分が言った言葉が聞こえないことに気づくほど、腹立たしいこと"
+"はないでしょう。オーディオセットアップをテストして、入力と出力の両方のデバイ"
+"スが正しく動作していることを確認することができます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:89
 msgid ""
@@ -2070,6 +2250,9 @@ msgid ""
 "recommend muting yourself prior to checking your voice input if you do "
 "not want others to hear your microphone check."
 msgstr ""
+"「音声テスト」機能は、自動的に音声をミュートしません! マイクチェックを他の人"
+"に聞かれたくない場合は、音声入力を確認する前にミュートすることをお勧めします"
+"。"
 
 #: ../../source/explore/get-started/setup-audio.rst:92
 msgid ""
@@ -2078,32 +2261,38 @@ msgid ""
 "output device. Make any adjustments to your input device to achieve your "
 "desired sound."
 msgstr ""
+"「音声をテスト」をクリックして、入力デバイスをテストします。マイクに向かって"
+"話すと、選択した出力デバイスを介してサウンドが再生されます。入力デバイスを調"
+"整して、目的のサウンドを実現します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:93
 msgid ""
 "Click 'Test Your Sound' to test your output device. Adjust the headset "
 "and/or application volume until the sound is a comfortable volume."
 msgstr ""
+"「Test Your Sound」をクリックして、出力デバイスをテストします。サウンドが快適"
+"な音量になるまで、ヘッドセットやアプリケーションの音量を調整します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:97
 msgid "Adjust In-World Volume"
-msgstr ""
+msgstr "インワールドボリュームを調整する"
 
 #: ../../source/explore/get-started/setup-audio.rst:99
 msgid "There are three different types of “sounds” in Vircadia:"
-msgstr ""
+msgstr "Vircadiaには3つの異なるタイプの「音」があります。"
 
 #: ../../source/explore/get-started/setup-audio.rst:101
 msgid ""
 "People: The sound you hear when people in the domain are talking through "
 "their microphones"
-msgstr ""
+msgstr "People :ドメイン内の人々がマイクを通して話しているときに聞こえる音"
 
 #: ../../source/explore/get-started/setup-audio.rst:102
 msgid ""
 "Environment: The ambient sounds in the domain, running as scripts in the "
 "background"
-msgstr ""
+msgstr "Environment：バックグラウンドでスクリプトとして実行されている、ドメイン内の周"
+"囲の音"
 
 #: ../../source/explore/get-started/setup-audio.rst:103
 msgid ""
@@ -2111,35 +2300,39 @@ msgid ""
 "application window (such as the “clicking” you hear when you hover over "
 "an icon)"
 msgstr ""
+"System Sound :アプリケーションウィンドウを操作するときにコンピューターが発す"
+"る音（アイコンにカーソルを合わせたときに聞こえる「クリック音」など）"
 
 #: ../../source/explore/get-started/setup-audio.rst:105
 msgid ""
 "To change the volume of all of these at once, simply change the volume of"
 " your headset or output device."
-msgstr ""
+msgstr "これらを一度に変更するには、ヘッドセットや出力機器のボリュームを変更するだけ"
+"です。"
 
 #: ../../source/explore/get-started/setup-audio.rst:107
 msgid "To change one or more of these sound types independently of the others:"
-msgstr ""
+msgstr "これらのサウンドタイプの1つまたは複数を、他のサウンドタイプとは独立して変更す"
+"るには："
 
 #: ../../source/explore/get-started/setup-audio.rst:110
 #: ../../source/explore/get-started/setup-audio.rst:123
 msgid "Choose 'Desktop' or 'VR' depending on the mode you are in."
-msgstr ""
+msgstr "現在のモードに応じて、「Desktop」または「VR」を選択します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:111
 msgid "Scroll down to 'Choose Output Device'."
-msgstr ""
+msgstr "「Choose Output Device」まで下にスクロールします。"
 
 #: ../../source/explore/get-started/setup-audio.rst:112
 msgid ""
 "Adjust the sliders to the desired volume levels for each of the sound "
 "types."
-msgstr ""
+msgstr "スライダーを各サウンドタイプの希望の音量レベルに調整します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:116
 msgid "Enable Push to Talk (PTT)"
-msgstr ""
+msgstr "プッシュツートーク（PTT）を有効にする"
 
 #: ../../source/explore/get-started/setup-audio.rst:118
 msgid ""
@@ -2147,14 +2340,17 @@ msgid ""
 "press a button to have others hear you in the environment. When you’re "
 "not pressing the button, you are muted and will not be heard."
 msgstr ""
+"「Push to Talk」は、手にトランシーバーを持っているようなものです。周囲の人に"
+"自分の声を聞いてもらうためには、ボタンを押す必要があります。ボタンを押してい"
+"ないときは、ミュートされ、あなたの声は聞こえません。"
 
 #: ../../source/explore/get-started/setup-audio.rst:120
 msgid "To turn on ‘Push to Talk’:"
-msgstr ""
+msgstr "「Push to Talk」をオンにするには："
 
 #: ../../source/explore/get-started/setup-audio.rst:124
 msgid "Toggle 'Push to Talk' on."
-msgstr ""
+msgstr "「Push to Talk」をオンに切り替えます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:126
 msgid ""
@@ -2163,10 +2359,14 @@ msgid ""
 "controllers to talk. This feature works only when you are focused on the "
 "Interface window."
 msgstr ""
+"デスクトップモードでは、キーボードの「T」キーを押しながら話してください。VRモ"
+"ードでHMDを使用している場合は、コントローラーのグリップトリガーを押しながら話"
+"してください。この機能は、Interfaceウィンドウにフォーカスしているときのみ機能"
+"します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:130
 msgid "Adjust Vircadia Audio Settings"
-msgstr ""
+msgstr "Vircadiaオーディオ設定を調整する"
 
 #: ../../source/explore/get-started/setup-audio.rst:132
 msgid ""
@@ -2174,56 +2374,62 @@ msgid ""
 "experience in Vircadia. To change these, open your Tablet or HUD and go "
 "to **Audio**."
 msgstr ""
+"Vircadiaでのオーディオ体験をカスタマイズするために、設定できる項目がいくつか"
+"あります。これらを変更するには、タブレットまたはHUDを開き、 **Audio** "
+"に進みます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:137
 msgid "Mute microphone"
-msgstr ""
+msgstr "Mute microphone"
 
 #: ../../source/explore/get-started/setup-audio.rst:137
 msgid "Mute or unmute your microphone."
-msgstr ""
+msgstr "マイクをミュートまたはミュート解除します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:139
 msgid "HMD Mute Warning (VR)"
-msgstr ""
+msgstr "HMD Mute Warning (VR)"
 
 #: ../../source/explore/get-started/setup-audio.rst:139
 msgid ""
 "Enable to receive a warning when your microphone is muted when wearing a "
 "HMD device."
-msgstr ""
+msgstr "HMDデバイスを装着しているときにマイクがミュートされたときに警告を受信できるよ"
+"うにします。"
 
 #: ../../source/explore/get-started/setup-audio.rst:141
 msgid "Noise reduction"
-msgstr ""
+msgstr "Noise reduction"
 
 #: ../../source/explore/get-started/setup-audio.rst:141
 msgid ""
 "Enable to turn on noise reduction. This removes outside noise from audio "
 "signals."
-msgstr ""
+msgstr "ノイズリダクションをオンにできるようにします。これにより、オーディオ信号から"
+"外部ノイズが除去されます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:143
 msgid "Audio level meter"
-msgstr ""
+msgstr "Audio level meter"
 
 #: ../../source/explore/get-started/setup-audio.rst:143
 msgid ""
 "By default, the audio level meter is visible on the top left corner of "
 "your screen. Uncheck this box to hide the meter."
-msgstr ""
+msgstr "デフォルトでは、オーディオレベルメーターは画面の左上隅に表示されます。メータ"
+"ーを非表示にするには、このボックスのチェックを外します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:146
 msgid "Echo Cancellation"
-msgstr ""
+msgstr "Echo Cancellation"
 
 #: ../../source/explore/get-started/setup-audio.rst:146
 msgid "Enable or disable `acoustic echo cancellation <#id1>`_."
-msgstr ""
+msgstr "`音響エコーキャンセレーション <#id1>` を有効または無効にします。"
 
 #: ../../source/explore/get-started/setup-audio.rst:148
 msgid "Stereo input"
-msgstr ""
+msgstr "ステレオ入力"
 
 #: ../../source/explore/get-started/setup-audio.rst:148
 msgid ""
@@ -2231,10 +2437,13 @@ msgid ""
 " audio channels. This means that you will hear sound from various "
 "directions, like how you would in the real world."
 msgstr ""
+"ステレオ入力を有効または無効にします。ステレオは、2つ以上のオーディオチャネル"
+"を使用してサウンドを再生します。これは、現実の世界と同じように、さまざまな方"
+"向から音が聞こえることを意味します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:156
 msgid "Adjust OS Audio Settings"
-msgstr ""
+msgstr "OSオーディオ設定を調整する"
 
 #: ../../source/explore/get-started/setup-audio.rst:158
 msgid ""
@@ -2245,10 +2454,15 @@ msgid ""
 "with any of the above settings, then try adjusting your operating "
 "system's device settings:"
 msgstr ""
+"入力レベル、ブースト、ゲイン、エンハンスメントなど、多くのデバイス設定はVirca"
+"diaで設定することはできません。これらの設定は、オペレーティング・システム・レ"
+"ベル、またはデバイスの外部ソフトウェアでのみ調整することができます。上記のど"
+"の設定でも解決できないオーディオの問題が発生した場合は、オペレーティングシス"
+"テムのデバイス設定を調整してみてください。"
 
 #: ../../source/explore/get-started/setup-audio.rst:160
 msgid "**Update the driver software for your audio devices**:"
-msgstr ""
+msgstr "**オーディオ機器のドライバソフトウェアアップデート** :"
 
 #: ../../source/explore/get-started/setup-audio.rst:162
 msgid ""
@@ -2256,6 +2470,9 @@ msgid ""
 "updates, click on the Apple icon in the top-left corner of the screen and"
 " select 'Software Update'."
 msgstr ""
+"Macの場合 :お使いのコンピュータのドライバーのアップデートは、すべてAppleが行"
+"っています。アップデートの有無を確認するには、画面左上のアップルマークをクリ"
+"ックし、「ソフトウェア・アップデート」を選択します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:163
 msgid ""
@@ -2263,36 +2480,42 @@ msgid ""
 "**Sound, audio and game controllers**. Right-click on your audio device "
 "and select 'Update driver'."
 msgstr ""
+"Windowsの場合 : **デバイスマネージャ**を開き、 "
+"**サウンド、オーディオ、およびゲームコントローラ** のツリーを展開します。ドラ"
+"イバを更新するオーディオデバイスを右クリックし、「ドライバの更新」を選択しま"
+"す。"
 
 #: ../../source/explore/get-started/setup-audio.rst:164
 msgid "**Adjust microphone levels and/or boost**:"
-msgstr ""
+msgstr "**マイクレベルの調整および/またはブースト** :"
 
 #: ../../source/explore/get-started/setup-audio.rst:166
 msgid "On Mac: Go to **System Preferences > Sound > Input**."
-msgstr ""
+msgstr "Macの場合 : **System Preferences > Sound > Input** に移動します。"
 
 #: ../../source/explore/get-started/setup-audio.rst:167
 msgid ""
 "On Windows: Go to **Control Panel > Sound > Recording**. Choose your "
 "microphone and click 'Properties'."
 msgstr ""
+"Windowsの場合 : **[コントロールパネル]>[サウンド]>[録音]** "
+"に移動します。マイクを選択して「プロパティ」をクリックします 。"
 
 #: ../../source/explore/get-started/setup-audio.rst:168
 msgid "**Adjust other advanced sound settings**:"
-msgstr ""
+msgstr "**その他の高度なサウンド設定の調整**："
 
 #: ../../source/explore/get-started/setup-audio.rst:170
 msgid "Go to **Control Panel > Sound**"
-msgstr ""
+msgstr "**Control Panel > Sound** へ移動します"
 
 #: ../../source/explore/get-started/setup-audio.rst:171
 msgid "Go to **Settings > System > Sound**"
-msgstr ""
+msgstr "**Settings > System > Sound** へ移動します"
 
 #: ../../source/explore/get-started/setup-audio.rst:172
 msgid "Go to **Control Panel > Hardware and Sound > Adjust System Volume**"
-msgstr ""
+msgstr "**Control Panel > Hardware and Sound > Adjust System Volume** へ移動します"
 
 #: ../../source/explore/get-started/vr-controls.rst:2
 msgid ""
@@ -2300,6 +2523,9 @@ msgid ""
 "Oculus Runtime we support almost all HMDs and input devices on the "
 "market, we probably support alternatives to Vive Trackers"
 msgstr ""
+"この文書は若干古くなっています。修正 :OpenVRとOculus Runtimeをサポートしてい"
+"るため、市場にあるほぼすべてのHMDと入力デバイスをサポートしており、"
+"おそらくVive Trackerの代替品もサポートしています"
 
 #: ../../source/explore/get-started/vr-controls.rst:9
 msgid ""
@@ -2309,42 +2535,46 @@ msgid ""
 "people in 3D, track body movements, and engage with the objects around "
 "you. We support the following VR equipment:"
 msgstr ""
+"Vircadiaで最高の没入感を得るために、Oculus RiftやHTC ViveなどのVR機器を使用す"
+"ることをお勧めします。これらのHMDデバイスとハンドコントローラーを使用すること"
+"で、3Dで人と交流したり、体の動きを追跡したり、周りのオブジェクトに関与したり"
+"することができます。弊社では、以下のVR機器に対応しています :"
 
 #: ../../source/explore/get-started/vr-controls.rst:12
 msgid "Head Mounted Displays"
-msgstr ""
+msgstr "ヘッドマウントディスプレイ"
 
 #: ../../source/explore/get-started/vr-controls.rst:12
 msgid "Hand Controllers"
-msgstr ""
+msgstr "ハンドコントローラー"
 
 #: ../../source/explore/get-started/vr-controls.rst:14
 msgid "Oculus Rift (CV1 and S)"
-msgstr ""
+msgstr "Oculus Rift (CV1 and S)"
 
 #: ../../source/explore/get-started/vr-controls.rst:14
 msgid "Oculus Touch"
-msgstr ""
+msgstr "Oculus Touch"
 
 #: ../../source/explore/get-started/vr-controls.rst:16
 msgid "HTC Vive"
-msgstr ""
+msgstr "HTC Vive"
 
 #: ../../source/explore/get-started/vr-controls.rst:18
 msgid "Windows MR"
-msgstr ""
+msgstr "Windows MR"
 
 #: ../../source/explore/get-started/vr-controls.rst:18
 msgid "XBox One Controller"
-msgstr ""
+msgstr "XBox One Controller"
 
 #: ../../source/explore/get-started/vr-controls.rst:27
 msgid "VR Controls"
-msgstr ""
+msgstr "VRコントローラー"
 
 #: ../../source/explore/get-started/vr-controls.rst:38
 msgid "Comfort Mode"
-msgstr ""
+msgstr "コンフォートモード"
 
 #: ../../source/explore/get-started/vr-controls.rst:40
 msgid ""
@@ -2353,30 +2583,35 @@ msgid ""
 "while your body stands still. If you experience motion sickness and "
 "discomfort using VR equipment, you are not alone."
 msgstr ""
+"HMDを装着してVRの世界に入ると、多くの人が悩むのが「乗り物酔い」です。これは、"
+"体は止まっているのに、目はVRの中で動きを体験するために起こります。VR機器を使"
+"って乗り物酔いや不快感を感じるのは、あなただけではありません。"
 
 #: ../../source/explore/get-started/vr-controls.rst:42
 msgid ""
 "\"Comfort mode\" is designed to decrease the effects of motion sickness "
 "while using Vircadia. This mode:"
-msgstr ""
+msgstr "「コンフォートモード」は、Vircadia使用中の乗り物酔いの影響を軽減するために設"
+"計されています。モードは以下 :"
 
 #: ../../source/explore/get-started/vr-controls.rst:44
 msgid "Disables sharp turns"
-msgstr ""
+msgstr "急カーブを無効にします"
 
 #: ../../source/explore/get-started/vr-controls.rst:45
 msgid "Decreases your field of vision by darkening the edges of the screen"
-msgstr ""
+msgstr "画面の端を暗くして視野を狭めます"
 
 #: ../../source/explore/get-started/vr-controls.rst:46
 msgid "Adds a ground plane and grid"
-msgstr ""
+msgstr "グランドプレーンとグリッドを追加します"
 
 #: ../../source/explore/get-started/vr-controls.rst:48
 msgid ""
 "All of these features were developed to help you orient yourself when "
 "moving around in VR."
-msgstr ""
+msgstr "これらの機能はすべて、VRで動き回るときに自分の向きを変えるのに役立つように開"
+"発されました。"
 
 #: ../../source/explore/get-started/vr-controls.rst:50
 msgid ""
@@ -2384,84 +2619,90 @@ msgid ""
 "tablet. Use the slider to adjust how much of the environment you see in "
 "VR."
 msgstr ""
+"コンフォートモードを有効にするには、タブレットの **Menu > Settings > "
+"Controls** "
+"に進みます。スライダーを使用して、VRで見る環境の量を調節してください。"
 
 #: ../../source/explore/get-started/vr-controls.rst:56
 msgid "Change How You Move in VR"
-msgstr ""
+msgstr "VRで動きを変える"
 
 #: ../../source/explore/get-started/vr-controls.rst:58
 msgid ""
 "You can change many avatar movement settings in VR such as jumping, "
 "flying, and leaning behavior. To do so:"
-msgstr ""
+msgstr "VRでは、ジャンプ、飛行、傾いた動作など、多くのアバターの動きの設定を変更でき"
+"ます。そうしようとするには :"
 
 #: ../../source/explore/get-started/vr-controls.rst:60
 msgid "In Desktop mode, go to **Settings > Controls** in the menu bar."
-msgstr ""
+msgstr "デスクトップモードで、メニューバーの **Settings > Controls** に移動します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:61
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Controls**."
-msgstr ""
+msgstr "VRモードで、タブレットを開き、 **Menu > Settings > Controls** に移動します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:66
 msgid "*VR Movement* > Teleporting"
-msgstr ""
+msgstr "*VR Movement* > Teleporting"
 
 #: ../../source/explore/get-started/vr-controls.rst:66
 msgid ""
 "Enables teleport controls to move seamlessly between positions within a "
 "domain."
-msgstr ""
+msgstr "ドメイン内のポジションをシームレスに移動するテレポート操作を可能にします。"
 
 #: ../../source/explore/get-started/vr-controls.rst:69
 msgid "*VR Movement* > Walking"
-msgstr ""
+msgstr "*VR Movement* > Walking"
 
 #: ../../source/explore/get-started/vr-controls.rst:69
+#, fuzzy
 msgid "Enables walking controls to move within a domain."
-msgstr ""
+msgstr "歩行コントロールがドメイン内を移動できるようにします。"
 
 #: ../../source/explore/get-started/vr-controls.rst:72
 msgid "*VR Movement* > Strafing"
-msgstr ""
+msgstr "*VR Movement* > Strafing"
 
 #: ../../source/explore/get-started/vr-controls.rst:72
 msgid "Enables strafing controls (to walk sideways)."
-msgstr ""
+msgstr "ストラフコントロールを有効にします（横向きに歩くため）。"
 
 #: ../../source/explore/get-started/vr-controls.rst:75
 msgid "*VR Movement* > Jumping and flying"
-msgstr ""
+msgstr "*VR Movement* > Jumping and flying"
 
 #: ../../source/explore/get-started/vr-controls.rst:75
 msgid "Enables jump and fly controls."
-msgstr ""
+msgstr "ジャンプとフライのコントロールを有効にします。"
 
 #: ../../source/explore/get-started/vr-controls.rst:78
 msgid "*VR Movement* > Movement Direction"
-msgstr ""
+msgstr "*VR Movement* > Movement Direction"
 
 #: ../../source/explore/get-started/vr-controls.rst:78
 msgid "This setting controls which direction you move in:"
-msgstr ""
+msgstr "この設定は、移動する方向を制御します :"
 
 #: ../../source/explore/get-started/vr-controls.rst:80
 msgid "**HMD-Relative**: Move in the direction your head is pointing."
-msgstr ""
+msgstr "**HMD-Relative**: 頭が指している方向に移動します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:81
 msgid "**Hand-Relative**: Move in the direction your dominant hand is pointing."
-msgstr ""
+msgstr "**Hand-Relative**: 利き手が指している方向に移動します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:82
 msgid ""
 "**Hand-Relative (Leveled)**: Move in the direction your hand is pointing,"
 " without taking pitch into account."
-msgstr ""
+msgstr "**Hand-Relative (Leveled)**: "
+"ピッチを考慮せずに、手が指している方向に移動します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:85
 msgid "*VR Movement* > Dominant Hand"
-msgstr ""
+msgstr "*VR Movement* > Dominant Hand"
 
 #: ../../source/explore/get-started/vr-controls.rst:85
 msgid ""
