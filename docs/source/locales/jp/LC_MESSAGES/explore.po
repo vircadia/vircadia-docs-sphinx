@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-17 04:33+0000\n"
-"PO-Revision-Date: 2022-07-19 11:20+0000\n"
+"PO-Revision-Date: 2022-07-21 08:19+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/explore/ja/>\n"
@@ -2705,42 +2705,45 @@ msgid "*VR Movement* > Dominant Hand"
 msgstr "*VR Movement* > Dominant Hand"
 
 #: ../../source/explore/get-started/vr-controls.rst:85
+#, fuzzy
 msgid ""
 "Select 'Left' or 'Right'. Teleport and turn controls move to the "
 "controller in the dominant hand."
-msgstr ""
+msgstr "「左」または「右」を選択します。テレポートとターンコントロールは利き手でコン"
+"トローラーに移動します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:88
 msgid "*VR Movement* > Rotation Mode"
-msgstr ""
+msgstr "*VR Movement* > Rotation Mode"
 
 #: ../../source/explore/get-started/vr-controls.rst:88
 msgid "This setting controls how you turn in VR:"
-msgstr ""
+msgstr "VRでの旋回方法を制御する設定 :"
 
 #: ../../source/explore/get-started/vr-controls.rst:90
 msgid "**Snap turn**: Rotate your avatar sharply to the left or the right."
-msgstr ""
+msgstr "**Snap turn**: アバターを左または右に鋭く回転させます。"
 
 #: ../../source/explore/get-started/vr-controls.rst:91
 msgid ""
 "**Smooth turn**: Rotate your avatar smoothly as you turn to the left or "
 "right."
-msgstr ""
+msgstr "**Smooth turn**: 左または右に曲がるときにアバターをスムーズに回転させます。"
 
 #: ../../source/explore/get-started/vr-controls.rst:93
 msgid ""
 "**Comfort mode**: Enable `comfort mode`_ and decrease the field of vision"
 " while moving in VR mode."
-msgstr ""
+msgstr "**Comfort mode**: `comfort mode` "
+"を有効にして、VRモードで移動しているときに視野を狭めます。"
 
 #: ../../source/explore/get-started/vr-controls.rst:96
 msgid "*VR Movement* > Control Scheme Selection"
-msgstr ""
+msgstr "*VR Movement* > Control Scheme Selection"
 
 #: ../../source/explore/get-started/vr-controls.rst:96
 msgid "This setting determines how you control your walking speed:"
-msgstr ""
+msgstr "歩行速度の制御方法の設定 :"
 
 #: ../../source/explore/get-started/vr-controls.rst:98
 msgid ""
@@ -2748,13 +2751,19 @@ msgid ""
 "forward you push your controller's joystick. Fully pushing the joystick "
 "forward will make your avatar run."
 msgstr ""
+"**Default**: コントローラーのジョイスティックをどれだけ前に出しても、歩行速度"
+"は変わりません。ジョイスティックを全開にすると、アバターが走ります。"
 
 #: ../../source/explore/get-started/vr-controls.rst:101
+#, fuzzy
 msgid ""
 "**Analog**: Your walking speed changes based on how far forward you push "
 "your controller's joystick. Fully pushing your joystick forward will make"
 " your avatar run."
 msgstr ""
+"**Analog**: コントローラーのジョイスティックをどれだけ前方に押すかによって、"
+"歩行速度が変化します。ジョイスティックを完全に前方に押すと、アバターが実行さ"
+"れます。"
 
 #: ../../source/explore/get-started/vr-controls.rst:104
 msgid ""
@@ -2763,52 +2772,60 @@ msgid ""
 "maximum walking speed in meters/second. Fully pushing your joystick "
 "forward will make your avatar run."
 msgstr ""
+"**Analog++**: コントローラーのジョイスティックをどれだけ前に押すかによって歩"
+"行速度が変化します。スライダーで最大歩行速度（m/"
+"s）を変更できます。ジョイスティックを全開にすると、アバターが走ります。"
 
 #: ../../source/explore/get-started/vr-controls.rst:109
 msgid "*VR Movement* > Avatar leaning behavior"
-msgstr ""
+msgstr "*VR Movement* > Avatar leaning behavior"
 
 #: ../../source/explore/get-started/vr-controls.rst:109
 msgid "This setting controls if and when your avatar leans in VR mode."
-msgstr ""
+msgstr "VRモードでアバターが傾くかどうか、また傾くタイミングを制御します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:111
 msgid ""
 "**Auto**: This is the default setting. Your avatar will lean if you are "
 "standing in the real world."
-msgstr ""
+msgstr "**Auto**: これはデフォルト設定です。あなたが現実の世界に立っている場合、あな"
+"たのアバターは傾くでしょう。"
 
 #: ../../source/explore/get-started/vr-controls.rst:113
 msgid ""
 "**Seated**: Your avatar will not lean if you are sitting in the real "
 "world."
-msgstr ""
+msgstr "**Seated**: 現実の世界に座っている場合、アバターは傾くことはありません。"
 
 #: ../../source/explore/get-started/vr-controls.rst:114
 msgid "**Standing**: Your avatar will lean if you are sitting in the real world."
-msgstr ""
+msgstr "**Standing**: 現実の世界に座っていると、アバターは傾くでしょう。"
 
 #: ../../source/explore/get-started/vr-controls.rst:115
 msgid "**Disabled**: Your avatar can sit on the floor (experimental)."
-msgstr ""
+msgstr "**Disabled**: アバターが床に座れるようになりました（実験的）。"
 
 #: ../../source/explore/get-started/vr-controls.rst:117
 msgid "User real world height (in meters)"
-msgstr ""
+msgstr "ユーザーの実世界の高さ（メートル単位）"
 
 #: ../../source/explore/get-started/vr-controls.rst:117
 msgid "You can change your real world height for better tracking in VR mode."
-msgstr ""
+msgstr "VRモードでは、現実世界の身長を変更して、より良い状態でトラッキングを行うこと"
+"ができます。"
 
 #: ../../source/explore/get-started/vr-controls.rst:125
 msgid "Motion Capture Using Vive Trackers"
-msgstr ""
+msgstr "Viveトラッカーを使用したモーションキャプチャ"
 
 #: ../../source/explore/get-started/vr-controls.rst:127
 msgid ""
 "You can enhance your Vircadia experience using full body motion capture "
 "(mocap). Vircadia currently supports mocap using HTC Vive Trackers."
 msgstr ""
+"全身モーションキャプチャ（mocap）を使用して、Vircadiaエクスペリエンスを向上さ"
+"せることができます。Vircadiaは現在、HTCViveTrackersを使用したモーションキャプ"
+"チャをサポートしています。"
 
 #: ../../source/explore/get-started/vr-controls.rst:129
 msgid ""
@@ -2816,124 +2833,130 @@ msgid ""
 " can replace the HMD and hand controllers with trackers if you only need "
 "to track the movement of your head and hands."
 msgstr ""
+"Viveトラッカーは、追跡する体の部分にストラップで固定する必要があります。頭と"
+"手の動きを追跡するだけでよい場合は、HMDとハンドコントローラーをトラッカーに置"
+"き換えることができます。"
 
 #: ../../source/explore/get-started/vr-controls.rst:131
 msgid "You can set up different mocap systems:"
-msgstr ""
+msgstr "さまざまなモーキャップシステムを設定することが可能 :"
 
 #: ../../source/explore/get-started/vr-controls.rst:134
 msgid "Mocap System"
-msgstr ""
+msgstr "モーションキャプチャシステム"
 
 #: ../../source/explore/get-started/vr-controls.rst:134
 msgid "Equipment Needed"
-msgstr ""
+msgstr "必要な機器"
 
 #: ../../source/explore/get-started/vr-controls.rst:134
 msgid "Recommended Straps"
-msgstr ""
+msgstr "おすすめのストラップ"
 
 #: ../../source/explore/get-started/vr-controls.rst:136
 msgid "Head"
-msgstr ""
+msgstr "頭"
 
 #: ../../source/explore/get-started/vr-controls.rst:136
 msgid "HMD or 1 Vive Tracker"
-msgstr ""
+msgstr "HMDまたは1つのViveトラッカー"
 
 #: ../../source/explore/get-started/vr-controls.rst:136
 msgid "Head strap for Vive Tracker"
-msgstr ""
+msgstr "ViveTracker用ヘッドストラップ"
 
 #: ../../source/explore/get-started/vr-controls.rst:138
 msgid "Hands"
-msgstr ""
+msgstr "手"
 
 #: ../../source/explore/get-started/vr-controls.rst:138
 msgid "Hand controllers or 2 Vive Trackers"
-msgstr ""
+msgstr "ハンドコントローラーまたは2つのViveトラッカー"
 
 #: ../../source/explore/get-started/vr-controls.rst:138
 msgid "Hand strap for Vive Tracker"
-msgstr ""
+msgstr "ViveTracker用ハンドストラップ"
 
 #: ../../source/explore/get-started/vr-controls.rst:141
 msgid "Head + Hands + Feet"
-msgstr ""
+msgstr "頭+手+足"
 
 #: ../../source/explore/get-started/vr-controls.rst:141
 msgid "2 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "2つのViveトラッカー+HMD+2つのハンドコントローラー"
 
 #: ../../source/explore/get-started/vr-controls.rst:141
 msgid "Foot straps"
-msgstr ""
+msgstr "フットストラップ"
 
 #: ../../source/explore/get-started/vr-controls.rst:144
 msgid "Head + Hands + Feet + Hips"
-msgstr ""
+msgstr "頭+手+足+腰"
 
 #: ../../source/explore/get-started/vr-controls.rst:144
 msgid "3 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "3つのViveトラッカー+HMD+2つのハンドコントローラー"
 
 #: ../../source/explore/get-started/vr-controls.rst:144
 msgid ""
 "Hip Strap: Drill a hole in the back of a thick leather belt and attach "
 "the tracker using a 1/4\" screw."
-msgstr ""
+msgstr "ヒップストラップ：厚い革ベルトの後ろに穴を開け、1/"
+"4\"ネジを使用してトラッカーを取り付けます。"
 
 #: ../../source/explore/get-started/vr-controls.rst:147
 msgid "Head + Hands + Feet + Hips + Chest"
-msgstr ""
+msgstr "頭+手+足+腰+胸"
 
 #: ../../source/explore/get-started/vr-controls.rst:147
 msgid "4 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "4つのViveトラッカー+HMD+2つのハンドコントローラー"
 
 #: ../../source/explore/get-started/vr-controls.rst:147
 msgid "Chest straps"
-msgstr ""
+msgstr "チェストストラップ"
 
 #: ../../source/explore/get-started/vr-controls.rst:150
 msgid "Head + Hands + Feet + Hips + Shoulders"
-msgstr ""
+msgstr "頭+手+足+腰+肩"
 
 #: ../../source/explore/get-started/vr-controls.rst:150
 msgid "5 Vive Trackers + HMD + 2 Hand Controllers"
-msgstr ""
+msgstr "5つのViveトラッカー+HMD+2つのハンドコントローラー"
 
 #: ../../source/explore/get-started/vr-controls.rst:150
 msgid "Shoulder straps"
-msgstr ""
+msgstr "ショルダーストラップ"
 
 #: ../../source/explore/get-started/vr-controls.rst:155
 msgid ""
 "You can replace the HMD and hand controllers with trackers if you only "
 "need to track the movement of your head and hands."
-msgstr ""
+msgstr "頭と手の動きを追跡するだけなら、HMDやハンドコントローラーをトラッカーに置き換"
+"えることも可能です。"
 
 #: ../../source/explore/get-started/vr-controls.rst:161
 msgid "Configure Your Mocap System"
-msgstr ""
+msgstr "モーションキャプチャシステムを構成する"
 
 #: ../../source/explore/get-started/vr-controls.rst:163
 msgid "Strap your Vive trackers to your body as shown in the image."
-msgstr ""
+msgstr "画像に示すように、Viveトラッカーを体にストラップで固定します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:164
 msgid "Connect your trackers, HMD, and controllers to SteamVR."
-msgstr ""
+msgstr "トラッカー、HMD、コントローラーをSteamVRに接続します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:165
 msgid ""
 "In Interface, pull up your HUD or Tablet and go to **Menu > Settings > "
 "Calibration**."
-msgstr ""
+msgstr "インターフェイスで、HUDまたはタブレットをプルアップし、 **Menu > Settings > "
+"Calibration** に移動します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:166
 msgid "Configure your mocap system by:"
-msgstr ""
+msgstr "モーキャップシステムの構成は以下の通りです :"
 
 #: ../../source/explore/get-started/vr-controls.rst:168
 msgid ""
@@ -2941,36 +2964,38 @@ msgid ""
 "head tracker instead of an HMD, click 'Use HTC Vive Devices in Desktop "
 "Mode'."
 msgstr ""
+"頭と手に適したデバイスを選択します。HMDの代わりにヘッドトラッカーを使用してい"
+"る場合は、[デスクトップモードでHTCViveデバイスを使用する]をクリックします。"
 
 #: ../../source/explore/get-started/vr-controls.rst:169
 msgid "Selecting the body position of any additional trackers."
-msgstr ""
+msgstr "追加のトラッカーの体の位置を選択します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:173
 msgid "Click 'Apply and Calibrate'."
-msgstr ""
+msgstr "「Apply and Calibrate」をクリックします。"
 
 #: ../../source/explore/get-started/vr-controls.rst:174
 msgid "Stand in a T-Pose until the timer counts down to zero:"
-msgstr ""
+msgstr "タイマーがゼロになるまでT字型のポーズで立ちます :"
 
 #: ../../source/explore/get-started/vr-controls.rst:176
 msgid "Feet together"
-msgstr ""
+msgstr "足と共に"
 
 #: ../../source/explore/get-started/vr-controls.rst:177
 msgid "Arms out"
-msgstr ""
+msgstr "腕を伸ばす"
 
 #: ../../source/explore/get-started/vr-controls.rst:178
 msgid "Head looking straight ahead."
-msgstr ""
+msgstr "頭はまっすぐ前を見る。"
 
 #: ../../source/explore/get-started/vr-controls.rst:180
 msgid ""
 "Check to see that each tracker is tracking the corresponding joint on "
 "your avatar."
-msgstr ""
+msgstr "各トラッカーがアバター上の対応するジョイントを追跡していることを確認します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:181
 msgid ""
@@ -2980,6 +3005,10 @@ msgid ""
 "Button, Right Menu Button. You can press the same buttons together for a "
 "second to remove your calibration from the trackers."
 msgstr ""
+"なお、タブレットを使用せずにトラッカーのキャリブレーションを行うことも可能で"
+"す。設定を適用したら、T字型のポーズで立ち、左トリガー、右トリガー、左メニュー"
+"ボタン、右メニューボタンの4つのボタンを1秒間一緒に押してください。同じボタン"
+"を1秒間押し続けることで、トラッカーから校正を解除することができます。"
 
 #: ../../source/explore/get-started/vr-controls.rst:183
 msgid ""
@@ -2989,6 +3018,10 @@ msgid ""
 "System Menu Button and look on the ground for a marker. This is important"
 " to make sure your joints are oriented correctly."
 msgstr ""
+"Viveをセットアップする際に、基準となる矢印をどの方向に向けるかを選択します。"
+"校正中は、同じ方向を向くことが重要です。矢印の向きを思い出せない場合は、Vive"
+"システムメニューボタンを押して、地面にある目印を探します。これは、関節の向き"
+"を確認するために重要です。"
 
 #: ../../source/explore/get-started/vr-controls.rst:187
 msgid "Troubleshooting"
@@ -2996,35 +3029,38 @@ msgstr "トラブルシューティング"
 
 #: ../../source/explore/get-started/vr-controls.rst:190
 msgid "Issue"
-msgstr ""
+msgstr "問題"
 
 #: ../../source/explore/get-started/vr-controls.rst:190
 msgid "Troubleshooting Steps"
-msgstr ""
+msgstr "トラブルシューティングの手順"
 
 #: ../../source/explore/get-started/vr-controls.rst:192
 msgid "My calibration failed"
-msgstr ""
+msgstr "校正の失敗"
 
 #: ../../source/explore/get-started/vr-controls.rst:192
 msgid "Check if your trackers are properly connected in SteamVR."
-msgstr ""
+msgstr "トラッカーがSteamVRに正しく接続されているかどうかを確認します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:193
 msgid ""
 "Have you selected the correct configuration in your tablet and do you "
 "have enough number of trackers to support that configuration?"
-msgstr ""
+msgstr "タブレットで正しい構成を選択し、その構成をサポートするために十分な数のトラッ"
+"カーを持っていますか？"
 
 #: ../../source/explore/get-started/vr-controls.rst:195
 msgid ""
 "If you are performing and not in HMD, did you select to 'Use HTC Vive in "
 "Desktop Mode'?"
-msgstr ""
+msgstr "HMDではなく、パフォーマンスを行っている場合、「Use HTC Vive in Desktop "
+"Mode」を選択しましたか？"
 
 #: ../../source/explore/get-started/vr-controls.rst:196
 msgid "Are any of the trackers blinking? If so, they may need to be paired again."
-msgstr ""
+msgstr "トラッカーのどれかが点滅していませんか？点滅している場合は、再度ペアリングが"
+"必要な可能性があります。"
 
 #: ../../source/explore/get-started/vr-controls.rst:197
 msgid ""
@@ -3032,48 +3068,55 @@ msgid ""
 "You will need one dongle per tracker. If you are performing with all 7, "
 "then you may need a USB hub to handle them."
 msgstr ""
+"コンピュータに接続されているドングルの数は正しいですか？トラッカー1台につきド"
+"ングルが1つ必要です。7つすべてを使用する場合は、USBハブが必要になる場合があり"
+"ます。"
 
 #: ../../source/explore/get-started/vr-controls.rst:201
 msgid "My sensor is jiggling a lot"
-msgstr ""
+msgstr "センサーが大きく揺れている"
 
 #: ../../source/explore/get-started/vr-controls.rst:201
 msgid "Make sure the straps on the sensor are tightened."
-msgstr ""
+msgstr "センサーのストラップが締まっていることを確認してください。"
 
 #: ../../source/explore/get-started/vr-controls.rst:203
 msgid "My sensor keeps losing tracking"
-msgstr ""
+msgstr "センサーが追尾不能になる"
 
 #: ../../source/explore/get-started/vr-controls.rst:203
 msgid ""
 "If it’s the hip tracker, is your shirt is tucked in and not covering the "
 "puck? Also make sure your headphone cord isn’t covering the puck."
 msgstr ""
+"ヒップトラッカーの場合、シャツをたくし上げて、パックを覆っていませんか？また"
+"、ヘッドフォンのコードがパックを覆っていないことを確認してください。"
 
 #: ../../source/explore/get-started/vr-controls.rst:205
 msgid "Can the base stations clearly see the tracker?"
-msgstr ""
+msgstr "ベースステーションからトラッカーがはっきりと見える位置にありますか？"
 
 #: ../../source/explore/get-started/vr-controls.rst:206
 msgid ""
 "Is the signal from the base station conflicting with another Vive setup "
 "nearby?"
-msgstr ""
+msgstr "ベースステーションからの信号は、近くにある他のViveのセットアップと競合してい"
+"ませんか？"
 
 #: ../../source/explore/get-started/vr-controls.rst:207
 msgid ""
 "Are you clear of reflective surfaces nearby? (such as picture frames, "
 "whiteboards, shiny tables)."
-msgstr ""
+msgstr "近くに反射するものはありませんか？(額縁、ホワイトボード、光沢のあるテーブルな"
+"ど)。"
 
 #: ../../source/explore/get-started/vr-controls.rst:209
 msgid "Is the lighting consistent across the room (minimal outdoor lighting)?"
-msgstr ""
+msgstr "部屋全体の照明は統一されていますか（屋外照明は最小限か）？"
 
 #: ../../source/explore/get-started/vr-controls.rst:210
 msgid "Try restarting SteamVR."
-msgstr ""
+msgstr "SteamVRを再起動してみてください。"
 
 #: ../../source/explore/get-started/vr-controls.rst:213
 msgid ""
@@ -3081,6 +3124,9 @@ msgid ""
 "don't have to deal with a low battery tracker negatively impacting your "
 "performance."
 msgstr ""
+"トラッカーを使用していないときは、充電することを忘れないでください。そうすれ"
+"ば、バッテリー残量が少なくてパフォーマンスに悪影響が出るようなことはありませ"
+"ん。"
 
 #: ../../source/explore/get-started/vr-controls.rst:219
 msgid ""
@@ -3088,14 +3134,17 @@ msgid ""
 "gamepad. However, Vircadia is best experienced with VR equipment or the "
 "keyboard in Desktop mode."
 msgstr ""
+"HMDにハンドコントローラーが装備されていない場合は、ゲームパッドを使用できます"
+"。ただし、Vircadiaは、VR機器またはデスクトップモードのキーボードを使用するの"
+"が最適です。"
 
 #: ../../source/explore/get-started/vr-controls.rst:226
 msgid ":doc:`Interact with Your Environment <../interact>`"
-msgstr ""
+msgstr ":doc:`環境との関わり方 <../interact>`"
 
 #: ../../source/explore/get-started/vr-controls.rst:227
 msgid ":doc:`Explore in Desktop Mode <desktop>`"
-msgstr ""
+msgstr ":doc:`デスクトップモードで探索 <desktop>`"
 
 #: ../../source/explore/interact.md:3
 msgid ""
@@ -3105,12 +3154,17 @@ msgid ""
 "environments. The walls of your room, the tree in the distance, or the "
 "animated butterfly that flew past are all entities."
 msgstr ""
+"Vircadiaでは、あなたの体験はあなたを取り巻く世界によって形作られます。ある領"
+"域に入ると、周囲の空間はすべて [entities](../create/entities)、つまりあなたの"
+"環境の構成要素で構築されています。部屋の壁も、遠くに見える木も、飛んできた蝶"
+"のアニメーションも、すべて実体なのです。"
 
 #: ../../source/explore/interact.md:5
 msgid ""
 "Just like in the real world, you can interact with your environment by "
 "grabbing items or colliding with objects."
-msgstr ""
+msgstr "現実世界と同じように、アイテムを掴んだり、オブジェクトに衝突させたりして、環"
+"境と触れ合うことができるのです。"
 
 #: ../../source/explore/interact.md:7
 #: ../../source/explore/personalize/change-avatar.md:10
@@ -3121,19 +3175,19 @@ msgstr "**コンテンツ**"
 
 #: ../../source/explore/interact.md:9
 msgid "[Grab Objects](#grab-objects)"
-msgstr ""
+msgstr "[オブジェクトを掴む](#grab-objects)"
 
 #: ../../source/explore/interact.md:10
 msgid "[Collisions](#collisions)"
-msgstr ""
+msgstr "[衝突](#collisions)"
 
 #: ../../source/explore/interact.md:11
 msgid "[Triggered Entities](#triggered-entities)"
-msgstr ""
+msgstr "[トリガを持つエンティティ](#triggered-entities)"
 
 #: ../../source/explore/interact.md:14
 msgid "Grab Objects"
-msgstr ""
+msgstr "オブジェクトをつかむ"
 
 #: ../../source/explore/interact.md:16
 msgid ""
@@ -3141,26 +3195,32 @@ msgid ""
 "You can grab an entity, hold it, throw it, and drop it depending on the "
 "[entity's properties](../create/entities/entity-behavior)."
 msgstr ""
+"Vircadiaではマウスやハンドコントローラを使ってオブジェクトをつかむことができ"
+"ます。[エンティティのプロパティ](../create/entities/entity-behavior)に従って"
+"、エンティティを掴んだり、保持したり、投げたり、落としたりすることができます"
+"。"
 
 #: ../../source/explore/interact.md:18
 msgid ""
 "In Desktop mode, click and hold the left mouse button to grab and hold an"
 " entity."
-msgstr ""
+msgstr "デスクトップモードでは、マウスの左ボタンをクリックしたままにすると、エンティ"
+"ティを掴んだまま保持します。"
 
 #: ../../source/explore/interact.md:19
 msgid ""
 "In VR mode, reach out towards the object and press the Grab button. The "
 "location of this button depends on the controllers you are using."
-msgstr ""
+msgstr "VRモードでは、オブジェクトに向かって手を伸ばし、Grabボタンを押します。このボ"
+"タンの位置は、使用しているコントローラによって異なります。"
 
 #: ../../source/explore/interact.md:21
 msgid "![](_images/grab-button.png)"
-msgstr ""
+msgstr "![](_images/grab-button.png)"
 
 #: ../../source/explore/interact.md:28
 msgid "Collisions"
-msgstr ""
+msgstr "衝突"
 
 #: ../../source/explore/interact.md:30
 msgid ""
@@ -3169,6 +3229,10 @@ msgid ""
 " how entities behave](../create/entities/entity-physics) when they "
 "collide with each other or with avatars."
 msgstr ""
+"Vircadiaでは、オブジェクトや他のアバターとぶつかることがあります。同様に、オ"
+"ブジェクト同士もぶつかることがあります。"
+"アバター同士やアバターとぶつかったときの [挙動を物理学的に制御](../create/"
+"entities/entity-physics) しています。"
 
 #: ../../source/explore/interact.md:32
 msgid ""
@@ -3177,6 +3241,10 @@ msgid ""
 "note on which objects have collisions enabled based on whether or not you"
 " can walk through them."
 msgstr ""
+"この衝突のプロパティを設定しないと、オブジェクトは他のエンティティやアバター"
+"の中をまっすぐ移動します。環境と対話しながら、どのオブジェクトがコリジョンを"
+"有効にしているか、そのオブジェクトを通り抜けることができるかどうか、注意して"
+"ください。"
 
 #: ../../source/explore/interact.md:34
 msgid ""
@@ -3184,10 +3252,13 @@ msgid ""
 "property](../create/entities/entity-behavior.html#entity-collision-"
 "behavior) to turn on or off collisions."
 msgstr ""
+"独自のエンティティを作成する場合、 [Collisionプロパティ](../create/entities/"
+"entity-behavior.html#entity-collision-behavior) を設定することで衝突のON/"
+"OFFを切り替えることができます。"
 
 #: ../../source/explore/interact.md:36
 msgid "Triggered Entities"
-msgstr ""
+msgstr "トリガーを持つエンティティ"
 
 #: ../../source/explore/interact.md:38
 msgid ""
@@ -3196,6 +3267,10 @@ msgid ""
 "switch to turn on or off when your hand passes through it, or make a pet "
 "walk when you grab its leash."
 msgstr ""
+"エンティティによっては、そのエンティティとの対話で特定の動作をさせるスクリプ"
+"ト（またはトリガー）を持っているものがあります。例えば、手を通すと電気のスイ"
+"ッチがついたり消えたり、リードをつかむとペットが歩いたりするようなトリガーが"
+"あります。"
 
 #: ../../source/explore/interact.md:40
 msgid ""
@@ -3204,32 +3279,36 @@ msgid ""
 "explore and discover all of the cool ways you can interact with your "
 "surroundings."
 msgstr ""
+"これらのトリガーは、クリエイターによってエンティティ自体にスクリプト化されて"
+"います。このため、可能な動作は無限大です。私たちは、あなたが周囲と相互作用で"
+"きる素晴らしい方法を探求し、発見することをお勧めします。"
 
 #: ../../source/explore/interact.md:44
+#, fuzzy
 msgid "[Apply Physics to Entities](../create/entities/entity-physics)"
-msgstr ""
+msgstr "[Apply Physics to Entities](../create/entities/entity-physics)"
 
 #: ../../source/explore/interact.md:45
 msgid "[Define an Entity's Behavior](../create/entities/entity-behavior)"
-msgstr ""
+msgstr "[エンティティの振る舞いを定義する](../create/entities/entity-behavior)"
 
 #: ../../source/explore/interact.md:46
 msgid "[Add Sound to Entities](../create/entities/add-sounds)"
-msgstr ""
+msgstr "[エンティティにサウンドを追加](../create/entities/add-sounds)"
 
 #: ../../source/explore/interact.md:47
 msgid "[Define Interactions with Avatars](../create/entities/avatar-interactions)"
-msgstr ""
+msgstr "[アバターとの相互作用を定義する](../create/entities/avatar-interactions)"
 
 #: ../../source/explore/personalize.rst:9
 msgid "Put on Wearables"
-msgstr ""
+msgstr "ウェアラブルを着用する"
 
 #: ../../source/explore/personalize.rst:9
 #: ../../source/explore/personalize/install-apps.md:6
 #: ../../source/explore/personalize/install-apps.md:22
 msgid "Install Tablet Apps"
-msgstr ""
+msgstr "タブレットアプリをインストールする"
 
 #: ../../source/explore/personalize.rst:5
 msgid ""
@@ -3237,6 +3316,9 @@ msgid ""
 "experience and make it your own. You can customize everything from the "
 "hardware you use, to the way the app works, to how you appear to others."
 msgstr ""
+"Vircadiaに入る前に、自分の体験をパーソナライズし、自分だけのものにする方法が"
+"たくさんあります。使用するハードウェアから、アプリの動作、他人からの見え方ま"
+"で、すべてをカスタマイズすることができます。"
 
 #: ../../source/explore/personalize.rst:7
 msgid "**In This Section:**"
@@ -3244,11 +3326,12 @@ msgstr "**セクション**"
 
 #: ../../source/explore/personalize/add-wearables.rst:2
 msgid "This document is slightly outdated. FIXME: only mentions FBX files"
-msgstr ""
+msgstr "このドキュメントは少し古くなっています。FIXME：FBXファイルについてのみ言及し"
+"ています"
 
 #: ../../source/explore/personalize/add-wearables.rst:7
 msgid "Put On Wearables"
-msgstr ""
+msgstr "ウェアラブルを身につける"
 
 #: ../../source/explore/personalize/add-wearables.rst:9
 msgid ""
@@ -3256,10 +3339,13 @@ msgid ""
 " pirate's hat, a pair of sunglasses, or even a pair of trousers that you "
 "designed. Like avatars, you can use your imagination to create your own."
 msgstr ""
+"海賊の帽子やサングラス、自分でデザインしたズボンなど、身につけるものを追加し"
+"て、アバターの外見をカスタマイズすることができます。アバターと同様、想像力を"
+"駆使して自分だけの一品を作り上げることができます。"
 
 #: ../../source/explore/personalize/add-wearables.rst:17
 msgid "Wear Your Own Wearable"
-msgstr ""
+msgstr "自分のウェアラブルを着用する"
 
 #: ../../source/explore/personalize/add-wearables.rst:19
 msgid ""
@@ -3268,35 +3354,42 @@ msgid ""
 "before they can be used with Vircadia. Examples of cloud storage options "
 "include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure."
 msgstr ""
+"作成したウェアラブルを装着することができます。すべてのウェアラブルは、Vircadi"
+"aで使用する前にクラウドでホストされている必要があります。クラウドストレージの"
+"例としては、Amazon S3、Google Cloud Storage、GitHub、またはMicrosoft "
+"Azureがあります。"
 
 #: ../../source/explore/personalize/add-wearables.rst:21
 msgid ""
 "Once you know the URL for your wearable's FBX file, then put it on your "
 "avatar:"
-msgstr ""
+msgstr "ウェアラブルのFBXファイルのURL確認とアバターへの装着 :"
 
 #: ../../source/explore/personalize/add-wearables.rst:23
 #: ../../source/explore/personalize/change-avatar.md:26
 msgid "In Interface, pull up your tablet or HUD and click on **Avatar**."
-msgstr ""
+msgstr "インターフェイスで、タブレットまたはHUDを引き上げ、 **Avatar** "
+"をクリックします。"
 
 #: ../../source/explore/personalize/add-wearables.rst:24
 msgid "In the **Avatar** window, click the hat icon next to 'Wearables'."
-msgstr ""
+msgstr "**Avatar** "
+"ウィンドウで、「Wearables」の横にある帽子のアイコンをクリックします。"
 
 #: ../../source/explore/personalize/add-wearables.rst:27
 msgid "Click 'Add custom' at the top of the window."
-msgstr ""
+msgstr "ウィンドウの上部にある「Add custom」をクリックします。"
 
 #: ../../source/explore/personalize/add-wearables.rst:28
 msgid "Enter the .fbx file's URL and click 'Confirm'."
-msgstr ""
+msgstr ".fbxファイルのURLを入力し、「Confirm」をクリックします。"
 
 #: ../../source/explore/personalize/add-wearables.rst:29
 msgid ""
 "Select the joint you'd like to use for your wearable. For example, a hat "
 "would be on your head, and fairy wings would be on your spine."
-msgstr ""
+msgstr "ウェアラブルに使用する関節部を選択します。例えば、帽子なら頭に、妖精の羽なら"
+"背中に。"
 
 #: ../../source/explore/personalize/add-wearables.rst:30
 msgid "Fine tune the placement using the 'Position' and 'Rotation' options."
