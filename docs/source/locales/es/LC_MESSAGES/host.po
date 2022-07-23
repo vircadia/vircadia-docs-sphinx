@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-07-03 21:59+0000\n"
-"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/host/es/>\n"
+"PO-Revision-Date: 2022-07-24 15:22+0000\n"
+"Last-Translator: Franco Rudy <rudyxptrent@hotmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/"
+"vircadia-user-docs/host/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/host.rst:11
@@ -3544,15 +3544,15 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:9
 msgid "Ubuntu Server 18.04 LTS (2022.1.1 Selene)"
-msgstr ""
+msgstr "Ubuntu Server 18.04 LTS (2022.1.1 Selene)"
 
 #: ../../source/host/server-setup/linux-server.md:16
 msgid "Ubuntu Server 20.04 LTS (2022.1.1 Selene)"
-msgstr ""
+msgstr "Ubuntu Server 20.04 LTS (2022.1.1 Selene)"
 
 #: ../../source/host/server-setup/linux-server.md:23
 msgid "Rocky Linux 8.x (2022.1.1 Selene)"
-msgstr ""
+msgstr "Rocky Linux 8.x (2022.1.1 Selene)"
 
 #: ../../source/host/server-setup/linux-server.md:29
 msgid "Unlisted Distribution"
