@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-27 17:25+0000\n"
-"PO-Revision-Date: 2022-04-03 05:38+0000\n"
-"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/faq/es/>\n"
+"PO-Revision-Date: 2022-07-24 15:22+0000\n"
+"Last-Translator: Franco Rudy <rudyxptrent@hotmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/"
+"vircadia-user-docs/faq/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/faq.rst:3
@@ -146,12 +146,16 @@ msgid ""
 "`I have a problem using Vircadia on Windows with my AMD graphics card "
 "<#amd-problem>`_"
 msgstr ""
+"`Tengo un problema al usar Vircadia en Windows con mi tarjeta gráfica AMD "
+"<#amd-problem>`_"
 
 #: ../../source/faq.rst:59
 msgid ""
 "`How do I install a different AMD graphics driver on Windows? <#amd-"
 "downgrade>`_"
 msgstr ""
+"`Como instalo un controlador de gráficos AMD diferente en Windows? <#amd-"
+"downgrade>`_"
 
 #: ../../source/faq.rst:64
 msgid "Where do I find the Interface log files?"
@@ -474,7 +478,7 @@ msgstr ""
 
 #: ../../source/faq.rst:187
 msgid "I have a problem with Vircadia on Windows with my AMD graphics card."
-msgstr ""
+msgstr "Tengo un problema con Vircadia en Windows con mi tarjeta gráfica AMD."
 
 #: ../../source/faq.rst:189
 msgid ""
@@ -483,24 +487,32 @@ msgid ""
 "startup on your AMD graphics card, there is a chance that a driver update"
 " is at fault."
 msgstr ""
+"AMD a veces puede introducir problemas en los controladores de tu tarjeta "
+"gráfica en Windows. Si te encuentras con un nuevo problema, como gráficos "
+"destrozados o un bloqueo al iniciar tu tarjeta gráfica AMD, existe la "
+"posibilidad de que la actualización del controlador tenga la culpa."
 
 #: ../../source/faq.rst:193
 msgid "Known broken driver versions include:"
-msgstr ""
+msgstr "Las versiones de controladores rotos conocidos incluyen:"
 
 #: ../../source/faq.rst:195
 msgid "``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (mangled graphics)"
 msgstr ""
+"``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (gráficos destrozados)"
 
 #: ../../source/faq.rst:196
 msgid "``20.11.2 27.20.14501.18003`` (crashing)"
-msgstr ""
+msgstr "``20.11.2 27.20.14501.18003`` (crashing)"
 
 #: ../../source/faq.rst:198
 msgid ""
 "To fix this kind of issue you generally need to `downgrade you graphics "
 "card driver <#amd-downgrade>`_ to an older working version."
 msgstr ""
+"Para solucionar este tipo de problema, por lo general necesitas `rebajar la "
+"versión del controlador de tu tarjeta gráfica <#amd-downgrade>`_ a una "
+"versión anterior que funcione."
 
 #: ../../source/faq.rst:201
 msgid ""
@@ -510,10 +522,15 @@ msgid ""
 "that this is an AMD driver issue, please also consider `reporting the "
 "issue to AMD <https://www.amd.com/report>`_."
 msgstr ""
+"Si te encuentras con un problema como este, considera abrir un problema en "
+"nuestro `GitHub issue tracker <https://github.com/vircadia/vircadia/issues>`"
+"_. Si estás bastante seguro de que se trata de un problema con el "
+"controlador de AMD, considera también`reportar el problema a AMD <https://www"
+".amd.com/report>`_."
 
 #: ../../source/faq.rst:210
 msgid "How do I install a different AMD graphics driver on Windows?"
-msgstr ""
+msgstr "¿Cómo instalo un controlador de gráficos AMD diferente en Windows?"
 
 #: ../../source/faq.rst:212
 msgid ""
@@ -523,24 +540,36 @@ msgid ""
 "your start menu. Then open your **Settings -> System** tab and check the "
 "\"Radeon Software Version\"."
 msgstr ""
+"Primero debes verificar qué versión de controlador y tarjeta gráfica estás "
+"utilizando realmente. Para hacer esto, abre tu Panel de control de "
+"adrenalina (Adrenalin Control Panel) haciendo click en el icono de la "
+"bandeja o buscando \"AMD Radeon Software\" en tu menú de inicio. Luego abre "
+"tu pestaña **Configuraciones -> Sistema** y revisa la \"Versión de Software "
+"Radeon\"."
 
 #: ../../source/faq.rst:219
 msgid ""
 "Check what drivers are available for your AMD graphics card via the `AMD "
 "website <https://www.amd.com/en/support>`_."
 msgstr ""
+"Comprueba qué controladores están disponibles para tu tarjeta gráfica AMD a "
+"través de la `sitio web de AMD <https://www.amd.com/en/support>`_."
 
 #: ../../source/faq.rst:224
 msgid ""
 "Compare the driver version from the Adrenalin Control Panel with the "
 "recommended Radeon Adrenalin Software version."
 msgstr ""
+"Compara la versión del controlador del Panel de control de Adrenalin con la "
+"versión recomendada del Software Radeon Adrenalin."
 
 #: ../../source/faq.rst:229
 msgid ""
 "Take a look `further up <#amd-problem>`_ to see a list of known broken "
 "driver versions."
 msgstr ""
+"Echa un vistazo `más arriba <#amd-problem>`_ para ver una lista de versiones "
+"de controladores defectuosos conocidos."
 
 #: ../../source/faq.rst:231
 msgid ""
@@ -549,6 +578,10 @@ msgid ""
 "installer says it will continue after a restart and doesn't do so, just "
 "start it again."
 msgstr ""
+"Si la versión es anterior, intenta actualizar a esa versión haciendo click "
+"en el botón de descarga correspondiente e instálala. Si el instalador dice "
+"que continuará después de un reinicio y no lo hace, simplemente inícialo de "
+"nuevo."
 
 #: ../../source/faq.rst:235
 msgid ""
@@ -556,10 +589,13 @@ msgid ""
 "clicking the small \"Previous Drivers\" link at the bottom left of the "
 "list, and choosing an older recommended version."
 msgstr ""
+"Si tienes la misma versión, intenta degradar la versión de tu controlador "
+"haciendo clikc en el pequeño link \"Previous Drivers\" en la parte inferior "
+"izquierda de la lista y eligiendo una versión anterior recomendada."
 
 #: ../../source/faq.rst:242
 msgid "Just download and run the driver installer."
-msgstr ""
+msgstr "Simplemente descarga y ejecuta el instalador del controlador."
 
 #: ../../source/faq.rst:244
 msgid ""
@@ -567,6 +603,9 @@ msgid ""
 "\"Recommended\" driver version. Simply download and install using the "
 "same steps as above."
 msgstr ""
+"Si tienes una versión más nueva, intenta degradarla a la versión del "
+"controlador \"Recomendada\". Simplemente descarga e instala siguiendo los "
+"mismos pasos que arriba."
 
 #~ msgid ""
 #~ "This document is slightly outdated. "
