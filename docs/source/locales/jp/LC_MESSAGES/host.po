@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-07-19 11:20+0000\n"
+"PO-Revision-Date: 2022-07-24 15:22+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/host/ja/>\n"
@@ -3625,7 +3625,7 @@ msgstr ""
 
 #: ../../source/host/start-hosting.rst:22
 msgid "A *content set* is the content that you've added to your world."
-msgstr "*content set*は、自分の世界に追加したコンテンツです。"
+msgstr "*content set* は、自分の世界に追加したコンテンツです。"
 
 #: ../../source/host/start-hosting.rst:26
 msgid "The Hosting Process"
