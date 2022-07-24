@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-07-21 08:19+0000\n"
+"PO-Revision-Date: 2022-07-24 15:22+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -323,10 +323,15 @@ msgid ""
 "create a robot, all its pieces should share one UV map, instead of giving"
 " its hands, feet, or face separate materials and UV maps."
 msgstr ""
+"常にアトラスマップを作成するようにしましょう。コンテンツのすべてのピースが同"
+"じマテリアルとUV空間を共有している場合、それはアトラスマップです。例えば、ロ"
+"ボットを作成する場合、その手、足、または顔に別々のマテリアルとUVマップを与え"
+"るのではなく、すべてのピースが1つのUVマップを共有する必要があります。"
 
 #: ../../source/create/3d-models/get-model.rst:59
 msgid "Vircadia’s engine only supports one UV mapping per material."
-msgstr ""
+msgstr "Vircadiaのエンジンは、1つのマテリアルにつき1つのUVマッピングしかサポートして"
+"いません。"
 
 #: ../../source/create/3d-models/get-model.rst:61
 #: ../../source/create/3d-models/get-model.rst:64
@@ -344,27 +349,31 @@ msgstr "テクスチャ"
 msgid ""
 "PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
 " TIFF formats."
-msgstr ""
+msgstr "PNG、JPEG、JPGファイルを推奨しますが、TGA、TIF、TIFFフォーマットにも対応しま"
+"す。"
 
 #: ../../source/create/3d-models/get-model.rst:64
 msgid "Choose the color types wisely to minimize the size of the final file."
-msgstr ""
+msgstr "色の種類を賢く選んで、最終的なファイルサイズを最小にしましょう。"
 
 #: ../../source/create/3d-models/get-model.rst:66
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
-msgstr ""
+msgstr "PNG-8は、透明度がON/"
+"OFFのみで、色のパレット（GIFと同じ256色）を持ち、透明度のマスクが可能です。"
 
 #: ../../source/create/3d-models/get-model.rst:69
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
-msgstr ""
+msgstr "色の解像度を上げたい場合は、PNG-24を使用します。半透明のマスクや透明なテクス"
+"チャを使用する場合は、PNG-32を使用してください。"
 
 #: ../../source/create/3d-models/get-model.rst:72
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Vircadia."
-msgstr ""
+msgstr "PNG-48、PNG-"
+"64はVircadiaではサポートされていませんので、使用しないでください。"
 
 #: ../../source/create/3d-models/get-model.rst:74
 msgid ""
@@ -372,6 +381,8 @@ msgid ""
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
 "memory."
 msgstr ""
+"エンジンにロードされると、テクスチャは自動的に 128x128 のグリッドにリサイズさ"
+"れます。128の倍数のサイズを選ぶと、メモリの無駄遣いになりません。"
 
 #: ../../source/create/3d-models/get-model.rst:77
 msgid ""
@@ -383,18 +394,24 @@ msgid ""
 "maps, etc. don't need to be nearly as high resolution as the main color "
 "texture."
 msgstr ""
+"テクスチャは、テクスチャメモリに収まらない場合は自動的にダウンスケールされま"
+"すが、ファイルサイズを小さくし、テクスチャのダウンスケールと再圧縮によるロー"
+"エンドマシンの負担を軽減するために、できるだけ低い解像度を使用することは理に"
+"かなっています。例えば、4096x4096のテクスチャは、詳細なアバターには十分でしょ"
+"う。ノーマルマップやエミッションマップなどは、メインカラーテクスチャほど高解"
+"像度である必要はありません。"
 
 #: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw Calls"
-msgstr ""
+msgstr "DrawCall"
 
 #: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw calls happen before something gets rendered on screen."
-msgstr ""
+msgstr "Draw callは、何かが画面にレンダリングされる前に発生します。"
 
 #: ../../source/create/3d-models/get-model.rst:86
 msgid "``1 model w/ 1 material = 1 draw call``"
-msgstr ""
+msgstr "``1 model w/ 1 material = 1 draw call``"
 
 #: ../../source/create/3d-models/get-model.rst:88
 msgid ""
@@ -402,10 +419,14 @@ msgid ""
 "balance between draw calls and polys. Fewer draw calls means more room "
 "for polys. Smaller textures means more room for higher poly models."
 msgstr ""
+"望ましいPoly Countの決定的な尺度はありません。Draw "
+"callとポリゴン数の間でバランスをとる必要があります。Draw "
+"callが少なければ、ポリゴン数に余裕があります。テクスチャが小さいと、High-"
+"Polyモデルのための領域が広くなります。"
 
 #: ../../source/create/3d-models/get-model.rst:92
 msgid "Baking"
-msgstr ""
+msgstr "Baking（ベイク）"
 
 #: ../../source/create/3d-models/get-model.rst:92
 msgid ""
@@ -416,6 +437,12 @@ msgid ""
 "might profit from slightly lower filesizes. See :doc:`Bake Your Content "
 "<../../host/add-content/bake-content>`."
 msgstr ""
+"アセットをベイクすることは、読み込み時間を短縮し、対象のCPUへの負担を軽減する"
+"のに非常に有効です。ベイクされたテクスチャは、CPUが事前に読み込んで圧縮するこ"
+"となく、ビデオメモリに直接読み込むことができます。(ダウンスケールする必要がな"
+"い限り)ベイクされたモデルは、ファイルサイズを少し小さくすることで利益を得られ"
+"るかもしれません。 :doc:`コンテンツをベイクする <../../host/add-content/bake-"
+"content>` を参照してください。"
 
 #: ../../source/create/3d-models/import-animations.rst:5
 msgid ""
@@ -423,6 +450,9 @@ msgid ""
 "animations. For example, you can import the 3D model of a flag that "
 "appears to flutter with the wind using this feature."
 msgstr ""
+"アニメーション付きの3Dモデルを自分のドメインに持つことで、Vircadiaの体験をよ"
+"り豊かなものにすることができます。例えば、この機能を使って、風になびくように"
+"見える旗の3Dモデルをインポートすることができます。"
 
 #: ../../source/create/3d-models/import-animations.rst:12
 #: ../../source/create/avatars/custom-animations.rst:18
@@ -436,29 +466,33 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:12
 #: ../../source/create/entities/zone-tutorial.md:22
 msgid "Prerequisites"
-msgstr ""
+msgstr "前提知識"
 
 #: ../../source/create/3d-models/import-animations.rst:14
 msgid ""
 "You need to be familiar with creating animations in 3D modeling tools "
 "such as Blender and Maya before importing an animation into Vircadia."
 msgstr ""
+"Vircadiaにアニメーションをインポートする前に、BlenderやMayaなどの3Dモデリング"
+"ツールでアニメーションを作成することに慣れておく必要があります。"
 
 #: ../../source/create/3d-models/import-animations.rst:18
 msgid "Prepare a 3D Model Animation"
-msgstr ""
+msgstr "3Dモデルアニメーションを準備する"
 
 #: ../../source/create/3d-models/import-animations.rst:20
 msgid ""
 "Before you import an animation into Vircadia, adjust some settings in the"
 " 3D modeling tool of your choice to ensure that it plays smoothly."
-msgstr ""
+msgstr "Vircadiaにアニメーションをインポートする前に、選択した3Dモデリングツールの設"
+"定をいくつか調整し、スムーズに再生できるようにします。"
 
 #: ../../source/create/3d-models/import-animations.rst:22
 msgid ""
 "We recommend setting the framerate to 30 fps as a good compromise between"
 " smoothness and file size."
-msgstr ""
+msgstr "滑らかさとファイルサイズの妥協点として、フレームレートを30fpsに設定することを"
+"お勧めします。"
 
 #: ../../source/create/3d-models/import-animations.rst:23
 msgid ""
@@ -466,12 +500,16 @@ msgid ""
 "Vircadia reads everything. This is to ensure that your animation doesn't "
 "stop and start, but appears smooth and flows through each movement."
 msgstr ""
+"Vircadiaがすべてを読み取ることができるように、アニメーションのチャンネル、キ"
+"ーフレーム、キーフレーム間の中間画像（In-between）をベイクしてください。これ"
+"は、アニメーションが止まったり始まったりせず、スムーズに見え、各動作が流れる"
+"ようにするためです。"
 
 #: ../../source/create/3d-models/import-animations.rst:24
 msgid ""
 "Prepare to export the skeleton and frames that are being used in the "
 "animation."
-msgstr ""
+msgstr "アニメーションで使用するスケルトンとフレームをエクスポートする準備をします。"
 
 #: ../../source/create/3d-models/import-animations.rst:25
 msgid ""
@@ -479,6 +517,9 @@ msgid ""
 "\"simplify\" setting to 0.00 when exporting an FBX file otherwise the "
 "animation may not play correctly."
 msgstr ""
+"あらゆる種類のキーフレーム削減を無効にします。例えば、Blenderでは、FBXファイ"
+"ルをエクスポートするときに、「simplify」設定を0.00に設定します。そうしないと"
+"、アニメーションが正しく再生されないことがあります。"
 
 #: ../../source/create/3d-models/import-animations.rst:29
 msgid ""
