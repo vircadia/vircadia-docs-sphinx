@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-18 00:26+0000\n"
-"PO-Revision-Date: 2022-07-19 11:20+0000\n"
+"PO-Revision-Date: 2022-07-24 15:22+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/home/ja/>\n"
@@ -139,7 +139,7 @@ msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
 #: ../../source/home.rst:67
 msgid "What can I do?"
-msgstr "Vircadiaで出来ること"
+msgstr "Vircadiaで出来ること？"
 
 #: ../../source/home.rst:69
 msgid "You have the power to shape your VR experience in Vircadia."
