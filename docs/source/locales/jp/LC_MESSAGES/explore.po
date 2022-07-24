@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-17 04:33+0000\n"
-"PO-Revision-Date: 2022-07-23 14:22+0000\n"
+"PO-Revision-Date: 2022-07-24 15:22+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/explore/ja/>\n"
@@ -732,7 +732,7 @@ msgid ""
 "<../socialize>`, `attend live events <../socialize.html#attend-live-"
 "events>`_ and more."
 msgstr ""
-"`Vircadia Interface` "
+"`Vircadia Interface`_ "
 "は、メタバースにおけるあなたの個人的な体験を実行します。これを使えば、 :doc:`"
 "VRワールドを訪れたり <../travel>`、 :doc:`人に会ったり "
 "<../socialize>`、ライブイベントに参加したりすることができます。"
@@ -1386,7 +1386,6 @@ msgid "``CTRL`` + ``V``"
 msgstr "``CTRL`` + ``V``"
 
 #: ../../source/explore/get-started/desktop.rst:137
-#, fuzzy
 msgid "Toggle Global/Local Translation"
 msgstr "グローバル/ローカル通訳の切替"
 
@@ -1495,7 +1494,7 @@ msgstr "**推奨:** AMD Radeon HD 89XX series 以上"
 msgid ""
 "**Minimum:** Intel 5th generation CPU integrated Iris graphics. Using "
 "Intel integrated graphics is not recommended."
-msgstr "**最小:**Intel第5世代CPU Iris "
+msgstr "**最小:** Intel第5世代CPU Iris "
 "グラフィックス。Intel統合グラフィックスの使用はお勧めしません。"
 
 #: ../../source/explore/get-started/install.rst:42
@@ -1939,7 +1938,6 @@ msgid ":doc:`Install Your Domain <../../host/server-setup>`"
 msgstr ":doc:`ドメインのインストール <../../host/server-setup>`"
 
 #: ../../source/explore/get-started/setup-audio.rst:2
-#, fuzzy
 msgid ""
 "This document is slightly outdated. FIXME: instructions for Windows are "
 "most likely outdated, no mention that you should *not* use \"open mic\" "
@@ -1947,7 +1945,7 @@ msgid ""
 msgstr ""
 "このドキュメントは少し古くなっています。FIXME：Windowsの手順はおそらく時代遅"
 "れです。プッシュ・ツー・トークなしで「オープンマイク」セットアップを使用する"
-"べきではないことは言うまでもありません。"
+"べきではないことは言うまでもありません"
 
 #: ../../source/explore/get-started/setup-audio.rst:9
 msgid ""
@@ -2657,9 +2655,8 @@ msgid "*VR Movement* > Walking"
 msgstr "*VR Movement* > Walking"
 
 #: ../../source/explore/get-started/vr-controls.rst:69
-#, fuzzy
 msgid "Enables walking controls to move within a domain."
-msgstr "歩行コントロールがドメイン内を移動できるようにします。"
+msgstr "ドメイン内で移動するための歩行制御を有効にします。"
 
 #: ../../source/explore/get-started/vr-controls.rst:72
 msgid "*VR Movement* > Strafing"
@@ -2705,12 +2702,11 @@ msgid "*VR Movement* > Dominant Hand"
 msgstr "*VR Movement* > Dominant Hand"
 
 #: ../../source/explore/get-started/vr-controls.rst:85
-#, fuzzy
 msgid ""
 "Select 'Left' or 'Right'. Teleport and turn controls move to the "
 "controller in the dominant hand."
-msgstr "「左」または「右」を選択します。テレポートとターンコントロールは利き手でコン"
-"トローラーに移動します。"
+msgstr "「左」または「右」を選択します。テレポートとターン制御が利き手のコントローラ"
+"ーに移動します。"
 
 #: ../../source/explore/get-started/vr-controls.rst:88
 msgid "*VR Movement* > Rotation Mode"
@@ -2755,15 +2751,13 @@ msgstr ""
 "は変わりません。ジョイスティックを全開にすると、アバターが走ります。"
 
 #: ../../source/explore/get-started/vr-controls.rst:101
-#, fuzzy
 msgid ""
 "**Analog**: Your walking speed changes based on how far forward you push "
 "your controller's joystick. Fully pushing your joystick forward will make"
 " your avatar run."
 msgstr ""
-"**Analog**: コントローラーのジョイスティックをどれだけ前方に押すかによって、"
-"歩行速度が変化します。ジョイスティックを完全に前方に押すと、アバターが実行さ"
-"れます。"
+"**Analog**: コントローラーのジョイスティックをどれだけ前に倒すかによって、歩"
+"くスピードが変わります。ジョイスティックを前に倒すと、アバターが走ります。"
 
 #: ../../source/explore/get-started/vr-controls.rst:104
 msgid ""
@@ -3284,9 +3278,8 @@ msgstr ""
 "きる素晴らしい方法を探求し、発見することをお勧めします。"
 
 #: ../../source/explore/interact.md:44
-#, fuzzy
 msgid "[Apply Physics to Entities](../create/entities/entity-physics)"
-msgstr "[Apply Physics to Entities](../create/entities/entity-physics)"
+msgstr "[エンティティに物理演算を適用する](../create/entities/entity-physics)"
 
 #: ../../source/explore/interact.md:45
 msgid "[Define an Entity's Behavior](../create/entities/entity-behavior)"
@@ -3354,10 +3347,10 @@ msgid ""
 "before they can be used with Vircadia. Examples of cloud storage options "
 "include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure."
 msgstr ""
-"作成したウェアラブルを装着することができます。すべてのウェアラブルは、Vircadi"
-"aで使用する前にクラウドでホストされている必要があります。クラウドストレージの"
-"例としては、Amazon S3、Google Cloud Storage、GitHub、またはMicrosoft "
-"Azureがあります。"
+":doc:`作成したウェアラブル <../../create/wearables>` を装着することができます"
+"。すべてのウェアラブルは、Vircadiaで使用する前にクラウドでホストされている必"
+"要があります。クラウドストレージの例としては、Amazon S3、Google Cloud "
+"Storage、GitHub、またはMicrosoft Azureがあります。"
 
 #: ../../source/explore/personalize/add-wearables.rst:21
 msgid ""
@@ -3393,13 +3386,16 @@ msgstr "ウェアラブルに使用する関節部を選択します。例えば
 
 #: ../../source/explore/personalize/add-wearables.rst:30
 msgid "Fine tune the placement using the 'Position' and 'Rotation' options."
-msgstr ""
+msgstr "「Position」および「Rotation」オプションを使用して、配置を微調整します。"
 
 #: ../../source/explore/personalize/add-wearables.rst:31
 msgid ""
 "Check 'Is soft' if the item is rigged with your skeleton. This allows the"
 " item to move and bend with the avatar as it moves."
 msgstr ""
+"アイテムがスケルトンで装備されている場合は、「Is soft」にチェックを入れます。"
+"これにより、アイテムが移動するときにアバターと一緒に移動したり曲がったりする"
+"ことができます。"
 
 #: ../../source/explore/personalize/add-wearables.rst:32
 msgid "Click 'Save'."
@@ -3407,7 +3403,7 @@ msgstr "[保存]をクリックします。"
 
 #: ../../source/explore/personalize/add-wearables.rst:37
 msgid ":doc:`Create Wearables <../../create/wearables>`"
-msgstr ""
+msgstr ":doc:`ウェアラブルの作成 <../../create/wearables>`"
 
 #: ../../source/explore/personalize/change-avatar.md:8
 msgid ""
@@ -3415,34 +3411,43 @@ msgid ""
 "Woody. Your avatar is a representation of you in the metaverse. You can "
 "control how your avatar moves and speak to other users in-world using it."
 msgstr ""
+"Vircadiaを初めて利用するときは、デフォルトのアバター「Woody」を装着しています"
+"。アバターは、メタバースにおけるあなたを表現するものです。アバターの動きをコ"
+"ントロールしたり、アバターを使ってインワールドの他のユーザーと会話することが"
+"できます。"
 
 #: ../../source/explore/personalize/change-avatar.md:12
 msgid "[Use Your Own Custom Avatar](#use-your-own-custom-avatar)"
-msgstr ""
+msgstr "[独自のカスタムアバターを使用する](#use-your-own-custom-avatar)"
 
 #: ../../source/explore/personalize/change-avatar.md:15
 msgid "Use Your Own Custom Avatar"
-msgstr ""
+msgstr "独自のカスタムアバターを使用する"
 
 #: ../../source/explore/personalize/change-avatar.md:17
 msgid ""
 "You can use an avatar that you created. Learn more about how you can "
 "create your avatar [here](../../create/avatars/create-avatars)."
 msgstr ""
+"作成したアバターを使用できます。アバターを作成する方法の詳細については、[こち"
+"ら](../../create/avatars/create-avatars)をご覧ください。"
 
 #: ../../source/explore/personalize/change-avatar.md:24
 msgid "Once you have your avatar's .fst file, you can upload it."
-msgstr ""
+msgstr "アバターの.fstファイルを入手したら、それをアップロードできます。"
 
 #: ../../source/explore/personalize/change-avatar.md:27
 msgid ""
 "In the **Avatar** window, click the link icon next to your current "
 "avatar. ![](_images/avatar-link.png)"
 msgstr ""
+"**Avatar** "
+"ウィンドウで、現在のアバターの横にあるリンクアイコンをクリックします。![]("
+"_images/avatar-link.png)"
 
 #: ../../source/explore/personalize/change-avatar.md:28
 msgid "Enter the .fst file's URL and click 'Confirm'."
-msgstr ""
+msgstr ".fstファイルのURLを入力し、[Confirm]をクリックします。"
 
 #: ../../source/explore/personalize/change-avatar.md:29
 msgid ""
@@ -3450,18 +3455,20 @@ msgid ""
 "information again, you can click on 'Add to Favorites' to save the "
 "current avatar information."
 msgstr ""
+"後で.fstファイル情報を再度ロードせずにこのアバターにアクセスする場合は、「"
+"Add to Favorites」をクリックして現在のアバター情報を保存できます。"
 
 #: ../../source/explore/personalize/change-avatar.md:33
 msgid "[Create Your Own Avatar](../../create/avatars/create-avatars)"
-msgstr ""
+msgstr "[独自のアバターを作成する](../../create/avatars/create-avatars)"
 
 #: ../../source/explore/personalize/change-avatar.md:34
 msgid "[Find and Use an Existing Avatar](../../create/avatars/find-avatars)"
-msgstr ""
+msgstr "[既存のアバターを見つけて使用する](../../create/avatars/find-avatars)"
 
 #: ../../source/explore/personalize/change-avatar.md:35
 msgid "[Package and Host Your Avatar](../../create/avatars/package-avatar)"
-msgstr ""
+msgstr "[アバターをパッケージ化してホストする](../../create/avatars/package-avatar)"
 
 #: ../../source/explore/personalize/install-apps.md:8
 msgid ""
@@ -3471,6 +3478,12 @@ msgid ""
 " livestream to YouTube or make your avatar clap? There's a number of apps"
 " that can help you customize your experience in-world."
 msgstr ""
+"タブレット用アプリケーションをインストールすることで、Vircadiaでの体験をより"
+"充実させることができます。これらのアプリケーションを使えば、Vircadiaをより楽"
+"しむことができます。アバターが踊るのを録画したり、自撮りしたり、"
+"指で絵を描いたりしたいですか? それとも、YouTubeにライブストリーミングしたり、"
+"アバターに拍手をさせたりしたいですか? "
+"インワールドでの体験をカスタマイズするのに役立つアプリがたくさんあります。"
 
 #: ../../source/explore/personalize/install-apps.md:10
 msgid ""
@@ -3478,60 +3491,67 @@ msgid ""
 "own](../../create/applications) and upload it for your personal use or to"
 " sell to others."
 msgstr ""
+"やりたいことのアプリが見つからない場合は、 [自分で作って](../../create/"
+"applications) "
+"アップロードし、個人で使ったり、他の人に売ったりすることもできます。"
 
 #: ../../source/explore/personalize/install-apps.md:14
 msgid "[Install Tablet Apps](#install-tablet-apps)"
-msgstr ""
+msgstr "[タブレットアプリのインストール](#install-tablet-apps)"
 
 #: ../../source/explore/personalize/install-apps.md:15
 msgid "[Update an App](#update-an-app)"
-msgstr ""
+msgstr "[アプリを更新する](#update-an-app)"
 
 #: ../../source/explore/personalize/install-apps.md:16
 msgid "[Our Apps](#our-apps)"
-msgstr ""
+msgstr "[私たちのアプリ](#our-apps)"
 
 #: ../../source/explore/personalize/install-apps.md:17
 msgid "[Spectator Cam: Record or Livestream in Vircadia](#spectator-cam)"
-msgstr ""
+msgstr "[Spectator Cam: Vircadiaで録画またはライブ配信を行う](#spectator-cam)"
 
 #: ../../source/explore/personalize/install-apps.md:18
 msgid "[Finger Painting](#finger-painting)"
-msgstr ""
+msgstr "[フィンガーペインティング](#finger-painting)"
 
 #: ../../source/explore/personalize/install-apps.md:19
 msgid "[Text to Speech](#text-to-speech)"
-msgstr ""
+msgstr "[テキスト読み上げ](#text-to-speech)"
 
 #: ../../source/explore/personalize/install-apps.md:23
 msgid ""
 "We and many users have created tablet apps that are available in "
 "Vircadia. To find and install an app:"
-msgstr ""
+msgstr "私たちや多くのユーザーが作成したタブレットアプリは、Vircadiaで利用可能です。"
+"アプリを探してインストールするには :"
 
 #: ../../source/explore/personalize/install-apps.md:25
 msgid "In Interface, pull up your HUD or Tablet and go to **More**."
-msgstr ""
+msgstr "インターフェイスで、HUDまたはタブレットをプルアップして **More** "
+"に移動します。"
 
 #: ../../source/explore/personalize/install-apps.md:26
 msgid "Search for a specific app, or browse all apps."
-msgstr ""
+msgstr "特定のアプリを検索するか、すべてのアプリを閲覧します。"
 
 #: ../../source/explore/personalize/install-apps.md:27
 msgid ""
 "Once you find the app of your choice, click 'Install' to start using the "
 "app in Vircadia."
-msgstr ""
+msgstr "お好みのアプリが見つかったら、「インストール」をクリックして、Vircadiaでアプ"
+"リの利用を開始します。"
 
 #: ../../source/explore/personalize/install-apps.md:28
 msgid ""
 "Once the app is installed, you can access the app through your HUD or "
 "Tablet."
-msgstr ""
+msgstr "アプリがインストールされると、HUDまたはタブレットからアプリにアクセスできます"
+"。"
 
 #: ../../source/explore/personalize/install-apps.md:31
 msgid "Update an App"
-msgstr ""
+msgstr "アプリを更新する"
 
 #: ../../source/explore/personalize/install-apps.md:32
 msgid ""
@@ -3540,52 +3560,60 @@ msgid ""
 " red dot will appear on the **Inventory** icon of your HUD or Tablet to "
 "indicate an update is available to download."
 msgstr ""
+"アプリにアップデートがある場合、Vircadiaを開くとインターフェイスの右上に通知"
+"が表示されます。また、HUDやタブレットの **Inventory** アイコンに赤い点が表示"
+"され、アップデートのダウンロードが可能であることが示されます。"
 
 #: ../../source/explore/personalize/install-apps.md:34
 msgid "To update your app:"
-msgstr ""
+msgstr "アプリを更新するには："
 
 #: ../../source/explore/personalize/install-apps.md:35
 msgid "In Interface, pull up your HUD or Tablet and go to **Inventory**."
-msgstr ""
+msgstr "インターフェイスで、HUDまたはタブレットをプルアップして **Inventory** "
+"に移動します。"
 
 #: ../../source/explore/personalize/install-apps.md:36
 msgid ""
 "In the **Inventory** app, click the notification that says \"You have X "
 "item updates available.\""
-msgstr ""
+msgstr "**Inventory** "
+"アプリで、「xxxアイテムの更新が利用可能です」という通知をクリックします"
 
 #: ../../source/explore/personalize/install-apps.md:37
 msgid ""
 "Scroll to the app you'd like to update and click on the menu. ![](_images"
 "/update-menu.png)"
-msgstr ""
+msgstr "更新するアプリまでスクロールして、メニューをクリックします。 ![](_images/"
+"update-menu.png)"
 
 #: ../../source/explore/personalize/install-apps.md:38
 msgid "Click the 'Update' button, then 'Update for Free'."
-msgstr ""
+msgstr "「Update」ボタンをクリックしてから、「Update for Free」をクリックします。"
 
 #: ../../source/explore/personalize/install-apps.md:45
 msgid "Additional Notes on Updating"
-msgstr ""
+msgstr "更新に関する追加の注意事項"
 
 #: ../../source/explore/personalize/install-apps.md:46
 msgid ""
 "If you decide not to update an item, the old product will still be valid "
 "and listed in **Inventory**."
-msgstr ""
+msgstr "商品を更新しないことにしても、旧商品は有効で、 **Inventory** "
+"にリストアップされます。"
 
 #: ../../source/explore/personalize/install-apps.md:47
 msgid ""
 "Once you update an item, the previous version of the product will no "
 "longer be available."
-msgstr ""
+msgstr "アイテムを更新すると、以前のバージョンの製品は使用できなくなります。"
 
 #: ../../source/explore/personalize/install-apps.md:48
 msgid ""
 "If you purchased multiple instances of an item, you need to individually "
 "update each instance of an item in your **Inventory**."
-msgstr ""
+msgstr "アイテムの複数のインスタンスを購入した場合は、 **Inventory** "
+"内のアイテムの各インスタンスを個別に更新する必要があります。"
 
 #: ../../source/explore/personalize/install-apps.md:49
 msgid ""
@@ -3596,18 +3624,23 @@ msgid ""
 "world. It is up to the end-user to replace the old instances with the "
 "new."
 msgstr ""
+"インワールドにある旧バージョンの商品を更新した場合、手動で更新したバージョン"
+"に置き換えるまで、その商品はそのまま残ります。旧バージョンを含むエンティティ"
+"のJSONをインポートしようとすると、システムはそのアイテムを無視し、インワール"
+"ドで自動的に置き換えない。古いインスタンスを新しいインスタンスに置き換えるの"
+"は、エンドユーザー次第です。"
 
 #: ../../source/explore/personalize/install-apps.md:51
 msgid "Our Apps"
-msgstr ""
+msgstr "私たちのアプリ"
 
 #: ../../source/explore/personalize/install-apps.md:52
 msgid "We've listed some of the apps we created and how you can use them."
-msgstr ""
+msgstr "作成したアプリのいくつかとその使用方法をリストしました。"
 
 #: ../../source/explore/personalize/install-apps.md:54
 msgid "Spectator Cam"
-msgstr ""
+msgstr "Spectator Cam"
 
 #: ../../source/explore/personalize/install-apps.md:55
 msgid ""
@@ -3618,20 +3651,29 @@ msgid ""
 "[official overview guide](https://obsproject.com/forum/threads/official-"
 "overview-guide.402/) for more details."
 msgstr ""
+"スペクテイターカメラは、あなたとあなたの友人がビルカディアで行っていることを"
+"記録またはライブストリーミングするために使用できるカメラです。これはHMDモード"
+"でのみ使用可能であり、正しく機能するには [Open Broadcaster Software "
+"(OBS)](https://obsproject.com/) "
+"などの記録ソフトウェアが必要です。詳細については、 [official overview "
+"guide](https://obsproject.com/forum/threads/official-overview-guide.402/) "
+"をご覧ください。"
 
 #: ../../source/explore/personalize/install-apps.md:57
 msgid ""
 "[Use the instructions above](#install-an-app) to install the Spectator "
 "Camera app."
-msgstr ""
+msgstr "[上記の手順を使用](#install-an-app) を使用して、Spectator "
+"Cameraアプリをインストールします。"
 
 #: ../../source/explore/personalize/install-apps.md:64
 msgid "To use the Spectator Camera app:"
-msgstr ""
+msgstr "Spectator Cameraアプリを使用するには :"
 
 #: ../../source/explore/personalize/install-apps.md:65
 msgid "In Interface, pull up your HUD or Tablet and go to **Spectator**."
-msgstr ""
+msgstr "インターフェースで、HUDまたはタブレットを引き上げて **Spectator** "
+"に移動します。"
 
 #: ../../source/explore/personalize/install-apps.md:66
 msgid ""
@@ -3640,35 +3682,43 @@ msgid ""
 "VR through your HMD. This is to show you what you're recording without "
 "having to take off your HMD. ![](_images/spec-cam-window.png)"
 msgstr ""
+"スライダーを動かして、Spectator CamをONにします。インワールドにカメラが表示さ"
+"れるのがわかると思います。デフォルトでは、アプリの表示には、HMDを通してVRで見"
+"たものが表示されます。これは、HMDを外さなくても、録画しているものを表示するた"
+"めです。 ![](_images/spec-cam-window.png)"
 
 #: ../../source/explore/personalize/install-apps.md:67
 msgid ""
 "To record yourself, switch your display from your HMD's view to the "
 "camera view. This lets you record videos of yourself, such as your avatar"
 " dancing or trying on different wearables."
-msgstr ""
+msgstr "自分の姿を録画するには、HMDの表示からカメラ表示に切り替えます。アバターが踊っ"
+"ている姿や、ウェアラブルを試着している姿などを撮影できます。"
 
 #: ../../source/explore/personalize/install-apps.md:68
 msgid ""
 "Enable switching views with your controllers in the **Spectator** app on "
 "your HUD or Tablet."
-msgstr ""
+msgstr "HUDまたはタブレットの **Spectator** "
+"アプリでコントローラーを使用してビューを切り替えることができます。"
 
 #: ../../source/explore/personalize/install-apps.md:69
 msgid ""
 "**Rift**: If you're using Oculus Touch controllers, click the left "
 "thumbstick to switch views."
-msgstr ""
+msgstr "**Rift**: Oculus Touchコントローラーを使用している場合は、左のサムスティック"
+"をクリックしてビューを切り替えます。"
 
 #: ../../source/explore/personalize/install-apps.md:70
 msgid ""
 "**Vive**: If you're using HTC Vive controllers, press on the center of "
 "the thumb pad to switch views."
-msgstr ""
+msgstr "**Vive**: HTC Viveコントローラーを使用している場合は、サムパッドの中央を押し"
+"てビューを切り替えます。"
 
 #: ../../source/explore/personalize/install-apps.md:72
 msgid "Finger Painting"
-msgstr ""
+msgstr "Finger Painting"
 
 #: ../../source/explore/personalize/install-apps.md:74
 msgid ""
@@ -3676,14 +3726,18 @@ msgid ""
 " even another user's avatar. [Use the instructions above](#install-an-"
 "app) to install the Fingerpaint app."
 msgstr ""
+"Fingerpaintアプリは、自分の環境、自分のアバター、他のユーザーのアバターなどを"
+"ペイントすることができます。 [上記の手順](#install-an-app) "
+"でFingerpaintアプリをインストールしてください。"
 
 #: ../../source/explore/personalize/install-apps.md:76
 msgid "To use the Fingerpaint app:"
-msgstr ""
+msgstr "フィンガーペイントアプリを使用するには :"
 
 #: ../../source/explore/personalize/install-apps.md:77
 msgid "In Interface, pull up your HUD or Tablet and go to **Body Paint**."
-msgstr ""
+msgstr "インターフェイスで、HUDまたはタブレットを引き上げて **Body Paint** "
+"に移動します。"
 
 #: ../../source/explore/personalize/install-apps.md:78
 msgid ""
@@ -3691,20 +3745,24 @@ msgid ""
 "world around you, your avatar, or another user's avatar (with their "
 "permission)."
 msgstr ""
+"まず、「Options」をクリックして、自分の周りの世界、自分のアバター、他のユーザ"
+"ーのアバター（本人の許可が必要）の中から、ペイントしたいものを選びます。"
 
 #: ../../source/explore/personalize/install-apps.md:79
 msgid "Click 'Palette' to select a color for your paint."
-msgstr ""
+msgstr "「Palette」をクリックして、色を選択します。"
 
 #: ../../source/explore/personalize/install-apps.md:80
 msgid ""
 "Click 'Brushes' to select the settings for your brush, such as stroke "
 "width, type of brush, and special effects. ![](_images/fingerpaint.png)"
 msgstr ""
+"「Brushes」をクリックして、ストローク幅、ブラシの種類、特殊効果など、ブラシの"
+"設定を選択します。 ![](_images/fingerpaint.png)"
 
 #: ../../source/explore/personalize/install-apps.md:83
 msgid "Text to Speech"
-msgstr ""
+msgstr "テキスト読み上げ"
 
 #: ../../source/explore/personalize/install-apps.md:85
 msgid ""
@@ -3712,38 +3770,45 @@ msgid ""
 " use this app if you don't wish to use your voice, have microphone "
 "issues, or have disabilities."
 msgstr ""
+"テキスト読み上げアプリは、入力したテキストを音声に合成するアプリです。音声を"
+"使いたくない方、マイクに問題がある方、障がいのある方などにご利用いただけます"
+"。"
 
 #: ../../source/explore/personalize/install-apps.md:87
 msgid ""
 "[Use the instructions above](#install-an-app) to install the Text to "
 "Speech app."
-msgstr ""
+msgstr "[上記の手順を使用](#install-an-"
+"app)を使用して、テキスト読み上げアプリをインストールします。"
 
 #: ../../source/explore/personalize/install-apps.md:94
 msgid "To use the Text to Speech (TTS) app:"
-msgstr ""
+msgstr "テキスト読み上げ（TTS）アプリを使用するには："
 
 #: ../../source/explore/personalize/install-apps.md:95
 msgid "In Interface, pull up your HUD or Tablet and go to **TTS**."
-msgstr ""
+msgstr "インターフェイスで、HUDまたはタブレットをプルアップして **TTS** "
+"に移動します。"
 
 #: ../../source/explore/personalize/install-apps.md:96
 msgid "In the app, select the Pitch and Speed of your choice."
-msgstr ""
+msgstr "アプリで、お好みのピッチと速度を選択します。"
 
 #: ../../source/explore/personalize/install-apps.md:97
 msgid "Type in the text you'd like your avatar to speak."
-msgstr ""
+msgstr "アバターに話してもらいたいテキストを入力します。"
 
 #: ../../source/explore/personalize/install-apps.md:98
 msgid ""
 "Hit 'Speak' to hear your text. Hit 'Stop Last' to stop your avatar from "
 "speaking. ![](_images/tts.png)"
 msgstr ""
+"あなたのテキストを聞くために「Speak」を押してください。「Stop "
+"Last」を押して、アバターが話すのを止めます。 ![](_images/tts.png)"
 
 #: ../../source/explore/personalize/install-apps.md:102
 msgid "[Create Tablet Apps](../../create/applications)"
-msgstr ""
+msgstr "[タブレットアプリの作成](../../create/applications)"
 
 #: ../../source/explore/socialize.rst:5
 msgid ""
@@ -3751,10 +3816,13 @@ msgid ""
 "with them. Vircadia enables people connected by interest, community, and "
 "friendship to come together from anywhere in the world."
 msgstr ""
+"Vircadiaは、あなたが出会う人々、そして彼らと共にする体験のすべてです。Vircadi"
+"aは、興味、コミュニティ、友情でつながった人々が、世界のどこからでも集まれるよ"
+"うにします。"
 
 #: ../../source/explore/socialize.rst:12
 msgid "Make Connections and Friends"
-msgstr ""
+msgstr "人脈と仲間をつくる"
 
 #: ../../source/explore/socialize.rst:14
 msgid ""
@@ -3763,6 +3831,9 @@ msgid ""
 "other and hold the grip button. Desktop users can press and hold ``X`` on"
 " their keyboard."
 msgstr ""
+"Vircadiaでは、相手と握手をすることでつながりを築くことができます。ハンドコン"
+"トローラでは、両手を近づけ、グリップボタンを押してください。デスクトップの場"
+"合は、キーボードの ``X`` を長押しします。"
 
 #: ../../source/explore/socialize.rst:16
 msgid ""
@@ -3771,6 +3842,9 @@ msgid ""
 "of connections. You will be able to see where they are in the metaverse, "
 "and you can travel to them at any time."
 msgstr ""
+"一度コネクションを作ると、その相手は「The People app」の「Connections 」に表"
+"示されます。また、その人のコネクションリストにも表示されます。相手がメタバー"
+"スのどこにいるかがわかり、いつでもその人のところに移動することができます。"
 
 #: ../../source/explore/socialize.rst:18
 msgid ""
@@ -3778,10 +3852,13 @@ msgid ""
 " People app. You can make yourself available to only your friends using "
 "the People app."
 msgstr ""
+"接続先を友だちとしてマークするには、Peopleアプリケーションで相手の名前の横に"
+"あるチェックボックスをオンにします。Peopleアプリケーションを使うと、自分自身"
+"を友だちだけに公開することができます。"
 
 #: ../../source/explore/socialize.rst:24
 msgid "The People App"
-msgstr ""
+msgstr "Peopleアプリ"
 
 #: ../../source/explore/socialize.rst:26
 msgid ""
@@ -3790,14 +3867,18 @@ msgid ""
 "people nearby (in the same domain as you), and gives you easy access to "
 "all of your connections. From the People app, you can:"
 msgstr ""
+"Peopleアプリは、ユーザーがメタバース内の人々との交流を管理するのに役立つツー"
+"ル群を提供します。このアプリは、近くにいる（あなたと同じドメインにいる）人々"
+"のリストを提供し、あなたのすべての接続に簡単にアクセスできるようにします。Peo"
+"pleアプリからは、以下のことが可能です :"
 
 #: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
 msgid "Feature"
-msgstr ""
+msgstr "特徴"
 
 #: ../../source/explore/socialize.rst:33
 msgid "Profile Picture"
-msgstr ""
+msgstr "プロフィールの写真"
 
 #: ../../source/explore/socialize.rst:33
 msgid ""
@@ -3805,20 +3886,25 @@ msgid ""
 " view your profile. You can change this image on our `website "
 "<https://dashboard.vircadia.com/>`_."
 msgstr ""
+"ここには、あなたのプロフィール画像が表示されます。画像をクリックすると、あな"
+"たのプロフィールが表示されます。この画像は、 `website <https://dashboard."
+"vircadia.com/>`_ で変更することができます。"
 
 #: ../../source/explore/socialize.rst:36
 msgid "Display Name"
-msgstr ""
+msgstr "表示名"
 
 #: ../../source/explore/socialize.rst:36
 msgid ""
 "You can change your display name at any time. By default, it will be "
 "'anonymous'. In the image above, the display name is 'HiFi Docs'."
 msgstr ""
+"表示名はいつでも変更することができます。デフォルトでは「anonymous」となってい"
+"ます。上の画像では、表示名は「HiFi Docs」になっています。"
 
 #: ../../source/explore/socialize.rst:39
 msgid "Set Availability"
-msgstr ""
+msgstr "拒否設定"
 
 #: ../../source/explore/socialize.rst:39
 msgid ""
@@ -3827,54 +3913,62 @@ msgid ""
 "users you appear online to will also be able to teleport to your "
 "location."
 msgstr ""
+"この機能により、選択したユーザーグループに対してオンラインに表示することがで"
+"きます。この機能は、「Everyone」「Friends and Connections」「Friends Only」「"
+"Appear Offline」の4つのグループに表示することができます。また、オンラインにな"
+"ったユーザーは、自分のいる場所にテレポートすることができます。"
 
 #: ../../source/explore/socialize.rst:43
 msgid "Master Volume"
-msgstr ""
+msgstr "Master Volume"
 
 #: ../../source/explore/socialize.rst:43
 msgid "Set the volume of your audio in Vircadia."
-msgstr ""
+msgstr "Vircadiaでオーディオの音量を設定します。"
 
 #: ../../source/explore/socialize.rst:45
 msgid "Nearby"
-msgstr ""
+msgstr "Nearby"
 
 #: ../../source/explore/socialize.rst:45
 msgid "This is the list of users who are nearby in the same domain as you."
-msgstr ""
+msgstr "あなたと同じドメインで近くにいるユーザーのリストです。"
 
 #: ../../source/explore/socialize.rst:47
 msgid "In View"
-msgstr ""
+msgstr "In View"
 
 #: ../../source/explore/socialize.rst:47
 msgid ""
 "You can check this box to view only the users in front of you in a "
 "domain. This is useful when a domain has a lot of users."
 msgstr ""
+"このボックスにチェックを入れると、ドメイン内で自分の前にいるユーザーのみを表"
+"示することができます。これは、ドメインに多くのユーザーがいる場合に有効です。"
 
 #: ../../source/explore/socialize.rst:50
 msgid "Refresh Button"
-msgstr ""
+msgstr "Refresh Button"
 
 #: ../../source/explore/socialize.rst:50
 msgid "Click this button to refresh the list of users currently in the domain."
-msgstr ""
+msgstr "このボタンをクリックすると、現在ドメイン内にいるユーザーのリストが更新されま"
+"す。"
 
 #: ../../source/explore/socialize.rst:52
 msgid "Connections"
-msgstr ""
+msgstr "Connections"
 
 #: ../../source/explore/socialize.rst:52
 msgid ""
 "This is the list of users who are your friends and connections. You can "
 "also teleport to their location from this list."
-msgstr ""
+msgstr "あなたのフレンドやコネクションになっているユーザーのリストです。また、このリ"
+"ストから相手の場所にテレポートすることができます。"
 
 #: ../../source/explore/socialize.rst:55
 msgid "Loud"
-msgstr ""
+msgstr "Loud"
 
 #: ../../source/explore/socialize.rst:55
 msgid ""
@@ -3882,30 +3976,34 @@ msgid ""
 " only for you, not for other users in the domain. The icon also displays "
 "how loudly a user is speaking."
 msgstr ""
+"ミュートしたいユーザーの横にあるこのアイコンをクリックします。ミュートされる"
+"のは自分だけで、ドメイン内の他のユーザーはミュートされません。また、このアイ"
+"コンには、そのユーザーが話している音量が表示されます。"
 
 #: ../../source/explore/socialize.rst:58
 msgid "Names"
-msgstr ""
+msgstr "Names"
 
 #: ../../source/explore/socialize.rst:58
 msgid ""
 "This is the list of users available in the domain. You will only see "
 "their display names."
-msgstr ""
+msgstr "ドメイン内で利用可能なユーザーの一覧です。表示名のみが表示されます。"
 
 #: ../../source/explore/socialize.rst:60
 msgid "Ignore"
-msgstr ""
+msgstr "Ignore"
 
 #: ../../source/explore/socialize.rst:60
 msgid ""
 "If you check this box next to a user, you and the user will not be able "
 "to see or hear each other."
-msgstr ""
+msgstr "ユーザーの横にあるこのボックスにチェックを入れると、あなたとそのユーザーはお"
+"互いに見たり聞いたりすることができなくなります。"
 
 #: ../../source/explore/socialize.rst:65
 msgid "Use the People App as an Admin"
-msgstr ""
+msgstr "管理者としてPeopleアプリを使用する"
 
 #: ../../source/explore/socialize.rst:67
 msgid ""
@@ -3913,20 +4011,25 @@ msgid ""
 "domain. The People app will have an additional column that allows an "
 "admin to silence and ban users in the same domain."
 msgstr ""
+"ドメインの管理者として、ドメインを維持するための権限を持つようになります。Peo"
+"pleアプリには、管理者が同じドメイン内のユーザーを黙らせたり、禁止したりするた"
+"めの列が追加されます。"
 
 #: ../../source/explore/socialize.rst:74
 msgid "Silence"
-msgstr ""
+msgstr "Silence"
 
 #: ../../source/explore/socialize.rst:74
 msgid ""
 "You can click the icon to mute a user. This user will be muted for "
 "everyone in the domain."
 msgstr ""
+"アイコンをクリックすると、ユーザーをミュートできます。ミュートされたユーザー"
+"は、ドメイン内のすべての他のユーザーに対してミュートされたままになります。"
 
 #: ../../source/explore/socialize.rst:76
 msgid "Ban"
-msgstr ""
+msgstr "Ban"
 
 #: ../../source/explore/socialize.rst:76
 msgid ""
@@ -3934,10 +4037,13 @@ msgid ""
 "not be able to enter the domain using the same account. The banned user "
 "will still have access to other Vircadia domains."
 msgstr ""
+"ここをクリックすると、そのユーザーを現在のドメインから追放することができます"
+"。このユーザーは同じアカウントでドメインに入ることができなくなります。禁止さ"
+"れたユーザーは、他のVircadiaドメインへのアクセスは可能です。"
 
 #: ../../source/explore/socialize.rst:84
 msgid "Your Privacy Shield"
-msgstr ""
+msgstr "プライバシーシールド"
 
 #: ../../source/explore/socialize.rst:86
 msgid ""
@@ -3947,17 +4053,24 @@ msgid ""
 "it, pull up your tablet or HUD and click **Shield**. In Desktop mode, you"
 " can also use the keyboard shortcut ``CTRL`` + ``N``."
 msgstr ""
+"メタバース内で自分のパーソナルスペースを保護するプライバシーシールドを有効に"
+"することができます。これを有効にすると、他の人があなたに近づきすぎた場合、姿"
+"を消します。プライバシーシールドはデフォルトで無効になっています。有効にする"
+"には、タブレットやHUDを立ち上げ、 **Shield** "
+"をクリックします。デスクトップモードでは、キーボードショートカット ``CTRL`` +"
+" ``N`` を使用することもできます。"
 
 #: ../../source/explore/socialize.rst:88
 msgid ""
 "There is also a Shield icon on the top-left corner of your Interface "
 "window, next to the audio icon, that can be used to toggle your privacy "
 "shield."
-msgstr ""
+msgstr "また、インターフェイスウィンドウの左上、オーディオアイコンの隣にあるシールド"
+"アイコンを使って、プライバシーシールドを切り替えることができます。"
 
 #: ../../source/explore/socialize.rst:95
 msgid "Attend Live Events"
-msgstr ""
+msgstr "ライブイベントへの参加"
 
 #: ../../source/explore/socialize.rst:97
 msgid ""
@@ -3967,16 +4080,21 @@ msgid ""
 "events on the Vircadia website. Events are a great place to meet others "
 "and share experiences with others around the world."
 msgstr ""
+"バーチャルリアリティの良さのひとつは、イベントに参加できることです。Vircadia"
+"では、ワークショップやVRに関する講演会、チームに会える町内会などのイベントを"
+"定期的に開催しています。今後開催されるイベントは、Vircadiaのウェブサイトで確"
+"認することができます。イベントは、他の人と出会い、世界中の人と経験を共有でき"
+"る素晴らしい場所です。"
 
 #: ../../source/explore/socialize.rst:99
 msgid ""
 "To attend an event, simply go to the hosted domain at the time of the "
 "event."
-msgstr ""
+msgstr "イベントへの参加は、イベント開催時に主催ドメインにアクセスするだけです。"
 
 #: ../../source/explore/socialize.rst:104
 msgid "Express Yourself"
-msgstr ""
+msgstr "自分らしさを表現"
 
 #: ../../source/explore/socialize.rst:106
 msgid ""
@@ -3984,6 +4102,8 @@ msgid ""
 "animating the mouth of your avatar or using gestures in the **Emote** "
 "app."
 msgstr ""
+"Vircadiaでは、アバターの口元をアニメーションで表現したり、 **Emote** "
+"アプリでジェスチャーを使ったりと、さまざまな表現が可能です。"
 
 #: ../../source/explore/socialize.rst:108
 msgid ""
@@ -3992,10 +4112,13 @@ msgid ""
 "you are using a VR controller, your avatar will automatically mimic your "
 "hand gestures and movements."
 msgstr ""
+"デフォルトでは、すべてのアバターが、目のまばたきや口の開閉などの標準的なアニ"
+"メーションを使用します。また、VRコントローラーを使用している場合は、アバター"
+"が自動的に手の動きを模倣します。"
 
 #: ../../source/explore/socialize.rst:113
 msgid "The Emote App"
-msgstr ""
+msgstr "Emoteアプリ"
 
 #: ../../source/explore/socialize.rst:115
 msgid ""
@@ -4004,10 +4127,13 @@ msgid ""
 " acting surprised, dancing, cheering, waving, falling, pointing, "
 "clapping, sitting, or showing love."
 msgstr ""
+"Emoteアプリは、デスクトップユーザーがVRコントローラーを使わずに自分を表現する"
+"ための方法です。このアプリでは、泣く、驚く、踊る、応援する、手を振る、倒れる"
+"、指差す、手を叩く、座る、愛情を示すなど、感情を表現することが可能です。"
 
 #: ../../source/explore/socialize.rst:123
 msgid "Chat with Users"
-msgstr ""
+msgstr "ユーザーとの会話"
 
 #: ../../source/explore/socialize.rst:125
 msgid ""
@@ -4018,30 +4144,39 @@ msgid ""
 "chat. There are some great scripts for chat that have already been built "
 "by community members, and a few are described below."
 msgstr ""
+"Vircadiaにはデフォルトでテキストチャットのオプションがあり、デスクトップユー"
+"ザーにはよく機能します。現在、VRのテキストチャットのサポートは標準的なもので"
+"はありません。幸い、私たちの拡張可能なオープンソースのスクリプトとUIは、テキ"
+"ストチャットの改良を含め、あなたが望む機能を作成する能力を与えてくれます。す"
+"でにコミュニティのメンバーによって作られたチャット用の素晴らしいスクリプトが"
+"いくつかあり、以下にそのいくつかを紹介します。"
 
 #: ../../source/explore/socialize.rst:130
 msgid "Alternative Local Chat"
-msgstr ""
+msgstr "代替ローカルチャット"
 
 #: ../../source/explore/socialize.rst:132
 msgid ""
 "This clean, reliable, and well-written chat script was created by alpha "
 "user ctrlaltdavid."
-msgstr ""
+msgstr "このクリーンで信頼性の高い、よくできたチャットスクリプトは、alpha ユーザーの "
+"ctrlaltdavid によって作成されました。"
 
 #: ../../source/explore/socialize.rst:136
 msgid "To run the script:"
-msgstr ""
+msgstr "スクリプトを実行するには :"
 
 #: ../../source/explore/socialize.rst:138
 msgid "In Interface, go to **Edit > Open and Run Script from URL**."
-msgstr ""
+msgstr "Interfaceで、 **Edit > Open and Run Script from URL** を実行します。"
 
 #: ../../source/explore/socialize.rst:139
 msgid ""
 "Paste this `URL "
 "<http://ctrlaltstudio.com/downloads/hifi/scripts/chat.js>`__."
 msgstr ""
+"この `URL <http://ctrlaltstudio.com/downloads/hifi/scripts/chat.js>`__ "
+"を貼り付けます。"
 
 #: ../../source/explore/socialize.rst:141
 msgid ""
@@ -4050,6 +4185,11 @@ msgid ""
 "running the same script. If text chat is important to you, you can add "
 "this to your default scripts so it's always there."
 msgstr ""
+"スクリプトの実行が開始され、テキストチャットウィンドウがポップアップで表示さ"
+"れます。このウィンドウを使って、同じドメインで同じスクリプトを実行している他"
+"のユーザーとチャットすることができます。テキストチャットを頻繁にする場合は、"
+"これをデフォルトのスクリプトに追加することで、常に表示されるようにすることが"
+"できます。"
 
 #: ../../source/explore/travel.md:8
 msgid ""
@@ -4059,32 +4199,39 @@ msgid ""
 "time, while others were built to host events and engage with the people "
 "around you."
 msgstr ""
+"Vircadiaは、アクティビティに参加したり、周囲の人々と交流できる多くのバーチャ"
+"ルな場所で構成されています。これらの場所の多くは、いつでも探検できるような美"
+"しいディテールの世界であり、また、イベントを開催したり、周囲の人々と関わるた"
+"めに作られた場所もあります。"
 
 #: ../../source/explore/travel.md:11
 msgid "[GoTo App](#goto-app)"
-msgstr ""
+msgstr "[GoToアプリ](#goto-app)"
 
 #: ../../source/explore/travel.md:12
 msgid "[Visit a Friend](#visit-a-friend)"
-msgstr ""
+msgstr "[友達を訪ねる](#visit-a-friend)"
 
 #: ../../source/explore/travel.md:14
 msgid "GoTo App"
-msgstr ""
+msgstr "GoToアプリ"
 
 #: ../../source/explore/travel.md:15
 msgid ""
 "The **GoTo** app lets you travel between different places in the Vircadia"
 " metaverse. Many of our places are created by users just like you."
 msgstr ""
+"**GoTo** アプリは、Vircadiaメタバース内のさまざまな場所を移動することができま"
+"す。多くの場所は、あなたのようなユーザーによって作成されています。"
 
 #: ../../source/explore/travel.md:17
 msgid "To go and explore new places:"
-msgstr ""
+msgstr "新しい場所に行って探索するには :"
 
 #: ../../source/explore/travel.md:18
 msgid "In Interface, pull up your tablet or HUD and go to **GoTo**."
-msgstr ""
+msgstr "インターフェイスで、タブレットまたはHUDをプルアップし、 **GoTo** "
+"に移動します。"
 
 #: ../../source/explore/travel.md:19
 msgid ""
@@ -4092,16 +4239,20 @@ msgid ""
 " As you type, the matching places will show up. Otherwise, browse the "
 "open places under 'Featured' and 'Places'."
 msgstr ""
+"行きたい場所が決まっている場合は、ドメインアドレスや地名を入力します。入力す"
+"ると、一致する場所が表示されます。そうでない場合は、「Featured」や「Places」"
+"で開いている場所を閲覧してください。"
 
 #: ../../source/explore/travel.md:20
 msgid ""
 "Click on a place name to go to the place. If you have permissions, you "
 "will be transported to that location automatically."
-msgstr ""
+msgstr "地名をクリックすると、その場所に移動します。権限がある場合は、自動的にその場"
+"所に移動します。"
 
 #: ../../source/explore/travel.md:27
 msgid "![](_images/goto-app.png)"
-msgstr ""
+msgstr "![](_images/goto-app.png)"
 
 #: ../../source/explore/travel.md:29
 msgid ""
@@ -4109,36 +4260,41 @@ msgid ""
 "have taken and shared in the metaverse. Clicking on a snap will take you "
 "directly to the place where the picture was taken."
 msgstr ""
+"また、 **GoTo** アプリは、人々が撮影しメタバースで共有したスナップショットの"
+"ビジュアルフィードを表示します。スナップ写真をクリックすると、その写真が撮影"
+"された場所に直接行くことができます。"
 
 #: ../../source/explore/travel.md:31
 msgid "![](_images/goto-snaps.png)"
-msgstr ""
+msgstr "![](_images/goto-snaps.png)"
 
 #: ../../source/explore/travel.md:33
 msgid "Visit a Friend"
-msgstr ""
+msgstr "友人を訪ねる"
 
 #: ../../source/explore/travel.md:34
 msgid ""
 "Once you've [made a friend](socialize.html#make-connections-and-friends),"
 " you can see where they are and even teleport directly to them."
 msgstr ""
+"一度 [友達になると](socialize.html#make-connections-and-friends) "
+"、相手の居場所を確認でき、直接テレポートすることも可能です。"
 
 #: ../../source/explore/travel.md:36
 msgid "In Interface, open your tablet or HUD and go to **People**."
-msgstr ""
+msgstr "インターフェイスで、タブレットまたはHUDを開き、 **People** に移動します。"
 
 #: ../../source/explore/travel.md:37
 msgid "Click 'Connections' and find the friend you want to visit."
-msgstr ""
+msgstr "「Connections」をクリックし、訪問したい友人を探します。"
 
 #: ../../source/explore/travel.md:38
 msgid "Select their name then 'Visit'."
-msgstr ""
+msgstr "名前を選択してから「Visit」を選択します。"
 
 #: ../../source/explore/travel.md:41
 msgid "[Socialize with Others](socialize)"
-msgstr ""
+msgstr "[他の人と交流する](socialize)"
 
 #~ msgid ""
 #~ "Vircadia is a metaverse where you "
