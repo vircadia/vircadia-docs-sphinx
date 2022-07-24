@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 15:10+0200\n"
-"PO-Revision-Date: 2022-07-15 20:20+0000\n"
+"PO-Revision-Date: 2022-07-25 20:15+0000\n"
 "Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/home/ca/>\n"
@@ -152,80 +152,94 @@ msgstr "`Espanyol <https://docs.vircadia.com/es/>`_ |es_trans|"
 
 #: ../../source/home.rst
 msgid "es_trans"
-msgstr ""
+msgstr "ca_trans"
 
 #: ../../source/home.rst:41
 msgid "`Français <https://docs.vircadia.com/fr/>`_ |fr_trans|"
-msgstr ""
+msgstr "`Francès <https://docs.vircadia.com/fr/>`_ |fr_trans|"
 
 #: ../../source/home.rst
 msgid "fr_trans"
-msgstr ""
+msgstr "fr_trans"
 
 #: ../../source/home.rst:42
 msgid "`日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|"
-msgstr ""
+msgstr "`Japonès <https://docs.vircadia.com/jp/>`_ |jp_trans|"
 
 #: ../../source/home.rst
 msgid "jp_trans"
-msgstr ""
+msgstr "jp_trans"
 
 #: ../../source/home.rst:43
 msgid "`한국어 <https://docs.vircadia.com/ko/>`_ |ko_trans|"
-msgstr ""
+msgstr "`Coreà <https://docs.vircadia.com/ko/>`_ |ko_trans|"
 
 #: ../../source/home.rst
 msgid "ko_trans"
-msgstr ""
+msgstr "ko_trans"
 
 #: ../../source/home.rst
 msgid "zh_CN_trans"
-msgstr ""
+msgstr "zh_CN_trans"
 
 #: ../../source/home.rst:71
 msgid "What can I do?"
-msgstr ""
+msgstr "Què puc fer?"
 
 #: ../../source/home.rst:73
 msgid "You have the power to shape your VR experience in Vircadia."
 msgstr ""
+"Tens el poder de donar-li forma a la teva experiència de Realitat Virtual a "
+"Vircadia."
 
 #: ../../source/home.rst:75
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
 msgstr ""
+":doc:`EXPLORE <explore>` saltant entre dominis del metavers, assistir a "
+"esdeveniments i comprovar què estan fent els altres!"
 
 #: ../../source/home.rst:76
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
 msgstr ""
+":doc:`CREATE <create>` experiències personals creant avatars, dominis, "
+"aplicacions per al menú i molt més, per a que tu i altres pugueu gaudir."
 
 #: ../../source/home.rst:77
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
 msgstr ""
+":doc:`SCRIPT <script>` i expresseu la vostra creativitat aplicant conceptes "
+"de scripting avançats a entitats i avatars del metavers."
 
 #: ../../source/home.rst:78
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
 msgstr ""
+":doc:`HOST <host>` i fes experiències immersives per educar, entretenir i "
+"connectar amb el teu públic."
 
 #: ../../source/home.rst:79
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
-msgstr ""
+msgstr ":doc:`CONTRIBUIR <contribute>` a l'esforç del projecte."
 
 #: ../../source/home.rst:80
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
 msgstr ""
+":doc:`DESENVOLUPA <developer> el projecte i adapta'l a les teves "
+"necessitats, o simplement per ajudar-te."
 
 #: ../../source/home.rst:81
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
 msgstr ""
+":doc:`SEGURETAT <security>` informació sobre el projecte i els seus "
+"components."
