@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-07-24 15:22+0000\n"
+"PO-Revision-Date: 2022-07-25 20:15+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -525,21 +525,23 @@ msgstr ""
 msgid ""
 "Export your animation as an FBX file. (Reading animations from other "
 "formats like glTF is currently not supported.)"
-msgstr ""
+msgstr "アニメーションをFBXファイルとしてエクスポートします。（glTFなどの他の形式から"
+"のアニメーションの読み取りは現在サポートされていません。）"
 
 #: ../../source/create/3d-models/import-animations.rst:30
 msgid "Upload this FBX file to a cloud server and copy the URL."
-msgstr ""
+msgstr "このFBXファイルをクラウドサーバーにアップロードし、URLをコピーします。"
 
 #: ../../source/create/3d-models/import-animations.rst:34
 msgid "Import an Animation"
-msgstr ""
+msgstr "アニメーションをインポートする"
 
 #: ../../source/create/3d-models/import-animations.rst:36
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
 " 3D model and it's animation into Vircadia."
-msgstr ""
+msgstr "アニメーションのFBXファイルのアップロードが完了したら、3Dモデルとそのアニメー"
+"ションをVircadiaにインポートできます。"
 
 #: ../../source/create/3d-models/import-animations.rst:38
 #: ../../source/create/3d-models/import-model.rst:17
@@ -580,16 +582,21 @@ msgid ""
 "the animation's URL will be the same. Otherwise, your animation is saved "
 "as a separate FBX file."
 msgstr ""
+"「MODEL」アイコンをクリックして、3DモデルのURLを入力します。3DモデルのFBXファ"
+"イルをアニメーションとともに保存した場合、モデルのURLとアニメーションのURLは"
+"同じになります。それ以外の場合、アニメーションは別のFBXファイルとして保存され"
+"ます。"
 
 #: ../../source/create/3d-models/import-animations.rst:40
 msgid ""
 "In the 'Properties' tab, scroll down to 'Animation' and paste the "
 "animation's URL."
-msgstr ""
+msgstr "「Properties」タブで、「Animation」まで下にスクロールし、アニメーションのURL"
+"を貼り付けます。"
 
 #: ../../source/create/3d-models/import-animations.rst:44
 msgid "You can edit the following animation properties:"
-msgstr ""
+msgstr "次のアニメーションプロパティを編集できます："
 
 #: ../../source/create/3d-models/import-animations.rst:47
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
@@ -622,79 +629,85 @@ msgstr "説明"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid "Play Automatically"
-msgstr ""
+msgstr "Play Automatically"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid ""
 "Enable this to play your animation automatically when a user loads a "
 "domain."
-msgstr ""
+msgstr "これを有効にすると、ユーザーがドメインを読み込んだときにアニメーションが自動"
+"的に再生されます。"
 
 #: ../../source/create/3d-models/import-animations.rst:51
 msgid "Loop"
-msgstr ""
+msgstr "Loop"
 
 #: ../../source/create/3d-models/import-animations.rst:51
 msgid "Select this property to play your animation in a continuous loop."
-msgstr ""
+msgstr "アニメーションを連続ループで再生するには、このプロパティを選択します。"
 
 #: ../../source/create/3d-models/import-animations.rst:53
 msgid "Allow Transition"
-msgstr ""
+msgstr "Allow Transition"
 
 #: ../../source/create/3d-models/import-animations.rst:53
 msgid ""
 "Enable this to let the animation move through space. This means that the "
 "joints will not only rotate, but translate through three dimensions."
-msgstr ""
+msgstr "これを有効にすると、アニメーションが空間を移動します。これは、ジョイントが回"
+"転するだけでなく、3次元で移動することを意味します。"
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "Hold"
-msgstr ""
+msgstr "Hold"
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "Select to pause your animation at a particular frame."
-msgstr ""
+msgstr "特定のフレームでアニメーションを一時停止する場合に選択します。"
 
 #: ../../source/create/3d-models/import-animations.rst:58
 msgid "Animation Frame"
-msgstr ""
+msgstr "Animation Frame"
 
 #: ../../source/create/3d-models/import-animations.rst:58
 msgid "Enter the frame at which you want to pause or hold your animation."
-msgstr ""
+msgstr "アニメーションを一時停止または保持するフレームを入力します。"
 
 #: ../../source/create/3d-models/import-animations.rst:60
 msgid "First Frame"
-msgstr ""
+msgstr "First Frame"
 
 #: ../../source/create/3d-models/import-animations.rst:60
 msgid "This is the first frame from when your want your animation to start."
-msgstr ""
+msgstr "これは、アニメーションを開始する最初のフレームです。"
 
 #: ../../source/create/3d-models/import-animations.rst:62
 msgid "Last Frame"
-msgstr ""
+msgstr "Last Frame"
 
 #: ../../source/create/3d-models/import-animations.rst:62
 msgid ""
 "This is the last frame where you want your animation to stop. It will not"
 " play beyond this specified frame."
-msgstr ""
+msgstr "これは、アニメーションを停止する最後のフレームです。この指定されたフレームを"
+"超えて再生されることはありません。"
 
 #: ../../source/create/3d-models/import-animations.rst:65
 msgid "Animation FPS"
-msgstr ""
+msgstr "Animation FPS"
 
 #: ../../source/create/3d-models/import-animations.rst:65
 msgid "This is the animation's framerate."
-msgstr ""
+msgstr "これはアニメーションのフレームレートです。"
 
 #: ../../source/create/3d-models/import-animations.rst:68
 msgid ""
 "You can also control an animation's properties and when it starts playing"
 " with an :doc:`entity script <../../script/client-entity-scripts>`."
 msgstr ""
+"また、アニメーションのプロパティや再生開始のタイミングは、 :doc:`"
+"エンティティスクリプト <../../script/client-entity-scripts>` "
+"で制御することができます。"
 
 #: ../../source/create/3d-models/import-animations.rst:70
 #: ../../source/create/3d-models/import-model.rst:37
@@ -733,11 +746,11 @@ msgstr "**関連項目**"
 
 #: ../../source/create/3d-models/import-animations.rst:72
 msgid ":doc:`Import Your 3D Model <import-model>`"
-msgstr ""
+msgstr ":doc:`3Dモデルをインポートする <import-model>`"
 
 #: ../../source/create/3d-models/import-model.rst:3
 msgid "Import a 3D Model"
-msgstr ""
+msgstr "3Dモデルをインポートする"
 
 #: ../../source/create/3d-models/import-model.rst:5
 msgid ""
@@ -745,34 +758,39 @@ msgid ""
 "domain's Asset Server. Importing your model brings it into your domain "
 "and adds it to your virtual world."
 msgstr ""
+"オンラインまたはドメインのアセットサーバーでホストされているVircadiaに3Dモデ"
+"ルをインポートできます。モデルをインポートすると、モデルがドメインに取り込ま"
+"れ、仮想世界に追加されます。"
 
 #: ../../source/create/3d-models/import-model.rst:12
 msgid "Import Models from the Cloud"
-msgstr ""
+msgstr "クラウドからモデルをインポートする"
 
 #: ../../source/create/3d-models/import-model.rst:14
 msgid ""
 "If you want your model available to users in other domains, we recommend "
 "uploading it to a cloud hosting service of your choice."
-msgstr ""
+msgstr "モデルを他のドメインのユーザーが利用できるようにする場合は、選択したクラウド"
+"ホスティングサービスにモデルをアップロードすることをお勧めします。"
 
 #: ../../source/create/3d-models/import-model.rst:16
 msgid ""
 "Locate and copy the URL of the model you would like to import. The model "
 "should be an FBX, glTF, or OBJ file."
-msgstr ""
+msgstr "インポートするモデルのURLを見つけてコピーします。モデルは、FBX、glTF、またはO"
+"BJファイルである必要があります。"
 
 #: ../../source/create/3d-models/import-model.rst:18
 msgid "Select the 'Model' icon."
-msgstr ""
+msgstr "「Model」アイコンを選択します。"
 
 #: ../../source/create/3d-models/import-model.rst:19
 msgid "Paste the model's URL and click 'Add'."
-msgstr ""
+msgstr "モデルのURLを貼り付けて、「Add」をクリックします。"
 
 #: ../../source/create/3d-models/import-model.rst:25
 msgid "Import Models from the Asset Server"
-msgstr ""
+msgstr "AssetServerからモデルをインポートする"
 
 #: ../../source/create/3d-models/import-model.rst:27
 msgid ""
@@ -782,29 +800,35 @@ msgid ""
 "permissions to \"rez\" entities in the domain that the Asset Server is "
 "running on."
 msgstr ""
+"アセットサーバーは、そのままドメインに追加できるファイルやアセット、またはド"
+"メイン内にすでに存在する既存のエンティティやスクリプトから参照されるファイル"
+"やアセットをホストしています。アセットサーバーからアセットをインポートするに"
+"は、アセットサーバーが稼働しているドメイン内のエンティティを「rez」する権限を"
+"持っている必要があります。"
 
 #: ../../source/create/3d-models/import-model.rst:31
 msgid "Click 'Open this Domain's Asset Server'."
-msgstr ""
+msgstr "「Open this Domain's Asset Server」をクリックします。"
 
 #: ../../source/create/3d-models/import-model.rst:32
 msgid "In the Asset Browser, browse to the model you would like to import."
-msgstr ""
+msgstr "アセットブラウザで、インポートするモデルを参照します。"
 
 #: ../../source/create/3d-models/import-model.rst:33
 msgid ""
 "Click 'Add to World'. Then click 'Add' on the confirmation window that "
 "opens."
-msgstr ""
+msgstr "「Add to World」をクリックします。次に、開いた確認ウィンドウで「Add」をクリッ"
+"クします。"
 
 #: ../../source/create/3d-models/import-model.rst:39
 #: ../../source/create/entities/create-fountain.rst:94
 msgid ":doc:`Create Tools <../tools>`"
-msgstr ""
+msgstr ":doc:`ツールの作成 <../tools>`"
 
 #: ../../source/create/3d-models/import-model.rst:40
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
-msgstr ""
+msgstr ":doc:`新しいエンティティの作成 <../entities/create-entities>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:7
 msgid ""
@@ -813,10 +837,14 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light (approximately) like how they would in real life."
 msgstr ""
+"3Dモデルの外観はマテリアルによって制御されます。Vircadiaでサポートされている"
+"マテリアルは、物理ベースレンダリング（PBR）マテリアルです。つまり、3Dモデルの"
+"マテリアルは、実際の環境と同じように（おおよそ）光を反射したり吸収したりしま"
+"す。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:15
 msgid "Introduction to Materials, Textures, and Shading"
-msgstr ""
+msgstr "マテリアル、テクスチャ、およびシェーディングの概要"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:17
 msgid ""
@@ -825,6 +853,10 @@ msgid ""
 "metallic it looks, and if its surface is bumpy or smooth. A 3D model of a"
 " brick wall will have material that determines its roughness and color."
 msgstr ""
+"3Dモデルの外観は、マテリアルによって制御されます。例えば、鍵の3Dモデルには、"
+"色、金属の見え方、表面がでこぼこしているか滑らかかを決定する材料が使用されま"
+"す。レンガの壁の3Dモデルには、その粗さと色を決定するマテリアルが使用されます"
+"。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:20
 msgid ""
@@ -834,10 +866,15 @@ msgid ""
 " falls on it. The 3D model of a brick wall will not shine, but will "
 "reflect enough light for you to observe its colors and surface."
 msgstr ""
+"Vircadiaは物理ベースレンダリング（PBR）マテリアルをサポートしているので、モデ"
+"ルに光が当たると、現実世界のオブジェクトと同じような振る舞いをします。例えば"
+"、同じ鍵の3Dモデルでも、そこに降り注ぐ光はすべて輝き、反射します。レンガの壁"
+"の3Dモデルは、光りませんが、その色と表面を確認するために十分な光を反射します"
+"。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:23
 msgid "A material contains texture and shading information."
-msgstr ""
+msgstr "マテリアルには、テクスチャとシェーディングの情報が含まれています。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:29
 msgid ""
@@ -845,26 +882,29 @@ msgid ""
 "on how a 3D model's material looks. For example, a 3D model of a tree "
 "trunk will use a bark texture to show what the surface looks like."
 msgstr ""
+"テクスチャは、3Dモデルに適用される平面画像です。3Dモデルの素材の見え方を詳細"
+"に表現します。例えば、木の幹の3Dモデルには、樹皮のテクスチャを使用して、表面"
+"がどのように見えるかを表現します。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:31
 msgid "Vircadia supports the use of the following texture formats:"
-msgstr ""
+msgstr "Vircadiaは、次のテクスチャ形式の使用をサポートしています："
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:33
 msgid "PNG (recommended)"
-msgstr ""
+msgstr "PNG (recommended)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:34
 msgid "JPEG, JPG (recommended)"
-msgstr ""
+msgstr "JPEG, JPG (recommended)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:35
 msgid "TGA"
-msgstr ""
+msgstr "TGA"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:36
 msgid "TIFF, TIF"
-msgstr ""
+msgstr "TIFF, TIF"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:38
 msgid ""
@@ -872,10 +912,13 @@ msgid ""
 "/add-content/bake-content>` (including textures) before loading it into "
 "Vircadia."
 msgstr ""
+"最高のパフォーマンスを得るために、 :doc:`すべての3Dモデル <../../host/"
+"add-content/bake-content>` "
+"（テクスチャを含む）をVircadiaにロードする前にベイクすることをお勧めします。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:42
 msgid "Shading"
-msgstr ""
+msgstr "Shading"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:44
 msgid ""
