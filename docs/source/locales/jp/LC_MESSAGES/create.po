@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-07-28 17:19+0000\n"
+"PO-Revision-Date: 2022-08-01 15:20+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -1126,29 +1126,32 @@ msgstr "オブジェクトから反射される光の量を制御するチャン
 #: ../../source/create/3d-models/pbr-materials-guide.rst:86
 #: ../../source/create/avatars/scattering-tutorial.rst:47
 msgid "Scattering"
-msgstr ""
+msgstr "スキャタリング（Scattering）"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:86
 msgid ""
 "Scattering determines how light will behave when it hits human skin. This"
 " channel details how light is reflected or absorbed by human bodies."
 msgstr ""
+"スキャタリングは、光が人間の皮膚に当たったときにどのような反応をするかを決定"
+"します。このチャンネルでは、人体で光がどのように反射・吸収されるかを詳しく説"
+"明します。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "Material Type"
-msgstr ""
+msgstr "素材の種類（Material Type）"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "This channel decides if an object is lit or unlit."
-msgstr ""
+msgstr "オブジェクトが点灯しているか否かを決定するチャンネルです。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "[lit, unlit]"
-msgstr ""
+msgstr "[lit, unlit]"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:92
 msgid "Notes:"
-msgstr ""
+msgstr "備考 :"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:94
 msgid ""
