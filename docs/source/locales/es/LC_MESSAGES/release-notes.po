@@ -9,123 +9,126 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-01-29 18:15+0000\n"
-"Last-Translator: Franco Ignacio Rudy <rudyxptrent@hotmail.com>\n"
-"Language-Team: Spanish <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/release-notes/es/>\n"
+"PO-Revision-Date: 2022-08-01 15:20+0000\n"
+"Last-Translator: Franco Rudy <rudyxptrent@hotmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/"
+"vircadia-user-docs/release-notes/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/release-notes.rst:9
 msgid "Release 2021.1.3 Eos (2021-09-22)"
-msgstr ""
+msgstr "Release 2021.1.3 Eos (2021-09-22)"
 
 #: ../../source/release-notes.rst:9
 msgid "Release 2021.1.2 Eos (2021-05-30)"
-msgstr ""
+msgstr "Release 2021.1.2 Eos (2021-05-30)"
 
 #: ../../source/release-notes.rst:9
 msgid "Release 2021.1.1 Eos (2021-04-08)"
-msgstr ""
+msgstr "Release 2021.1.1 Eos (2021-04-08)"
 
 #: ../../source/release-notes.rst:9
 msgid "Release 2021.1.0 Eos (2021-02-21)"
-msgstr ""
+msgstr "Release 2021.1.0 Eos (2021-02-21)"
 
 #: ../../source/release-notes.rst:9
 msgid "Alpha Release 2020.3.3 Demeter (2021-01-02)"
-msgstr ""
+msgstr "Alpha Release 2020.3.3 Demeter (2021-01-02)"
 
 #: ../../source/release-notes.rst:9
 msgid "Alpha Release 2020.3.2 Demeter (2020-12-01)"
-msgstr ""
+msgstr "Alpha Release 2020.3.2 Demeter (2020-12-01)"
 
 #: ../../source/release-notes.rst:9
 msgid "Alpha Release 2020.3.1 Demeter (2020-10-25)"
-msgstr ""
+msgstr "Alpha Release 2020.3.1 Demeter (2020-10-25)"
 
 #: ../../source/release-notes.rst:9
 msgid "Alpha Release 2020.3.0 Demeter (2020-09-29)"
-msgstr ""
+msgstr "Alpha Release 2020.3.0 Demeter (2020-09-29)"
 
 #: ../../source/release-notes.rst:9
 msgid "Alpha Release 2020.2.5 Asteria (2020-09-06)"
-msgstr ""
+msgstr "Alpha Release 2020.2.5 Asteria (2020-09-06)"
 
 #: ../../source/release-notes.rst:9
 msgid "Alpha Release 2020.2.4 Asteria (2020-08-06)"
-msgstr ""
+msgstr "Alpha Release 2020.2.4 Asteria (2020-08-06)"
 
 #: ../../source/release-notes.rst:9
 msgid "Alpha Release 2020.2.3 Asteria (2020-07-15)"
-msgstr ""
+msgstr "Alpha Release 2020.2.3 Asteria (2020-07-15)"
 
 #: ../../source/release-notes.rst:9
 msgid "Alpha Release 2020.2.2 Asteria (2020-06-26)"
-msgstr ""
+msgstr "Alpha Release 2020.2.2 Asteria (2020-06-26)"
 
 #: ../../source/release-notes.rst:9
 msgid "Alpha Release 2020.2.1 Asteria (2020-06-11)"
-msgstr ""
+msgstr "Alpha Release 2020.2.1 Asteria (2020-06-11)"
 
 #: ../../source/release-notes.rst:9
 msgid "Alpha Release 2020.2.0 Asteria (2020-06-08)"
-msgstr ""
+msgstr "Alpha Release 2020.2.0 Asteria (2020-06-08)"
 
 #: ../../source/release-notes.rst:9
 msgid "Alpha Release 86 K2 (2020-04-03)"
-msgstr ""
+msgstr "Alpha Release 86 K2 (2020-04-03)"
 
 #: ../../source/release-notes.rst:9
 msgid "Beta Release 86 (2019-11-14)"
-msgstr ""
+msgstr "Beta Release 86 (2019-11-14)"
 
 #: ../../source/release-notes.rst:9
 msgid "Beta Release 85 (2019-10-17)"
-msgstr ""
+msgstr "Beta Release 85 (2019-10-17)"
 
 #: ../../source/release-notes.rst:9
 msgid "Beta Release 84 (2019-09-23)"
-msgstr ""
+msgstr "Beta Release 84 (2019-09-23)"
 
 #: ../../source/release-notes.rst:9
 msgid "Beta Release 83 (2019-07-31)"
-msgstr ""
+msgstr "Beta Release 83 (2019-07-31)"
 
 #: ../../source/release-notes.rst:9
 msgid "Beta Release 82 (2019-04-30)"
-msgstr ""
+msgstr "Beta Release 82 (2019-04-30)"
 
 #: ../../source/release-notes.rst:9
 msgid "Beta Release 81 (2019-03-29)"
-msgstr ""
+msgstr "Beta Release 81 (2019-03-29)"
 
 #: ../../source/release-notes.rst:9
 msgid "Beta Release 80 (2019-03-19)"
-msgstr ""
+msgstr "Beta Release 80 (2019-03-19)"
 
 #: ../../source/release-notes.rst:3
 msgid "Release Notes (2019-2021)"
-msgstr ""
+msgstr "Release Notes (2019-2021)"
 
 #: ../../source/release-notes.rst:5
 msgid ""
 "The latest release notes for Vircadia's ecosystem can be found for each "
 "project `here <https://docs.vircadia.dev/>`__."
 msgstr ""
+"Las últimas notas de la versión del ecosistema de Vircadia se pueden "
+"encontrar para cada proyecto `aquí <https://docs.vircadia.dev/>`__."
 
 #: ../../source/release-notes.rst:7
 msgid "Release notes from 2019 through 2021 can be found below."
 msgstr ""
+"Las notas de la versión de 2019 a 2021 se pueden encontrar a continuación."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:1
 msgid "Alpha 2020.2.0 Asteria Release Notes"
-msgstr ""
+msgstr "Notas de versión de Alpha 2020.2.0 Asteria"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:3
 msgid ""
@@ -133,6 +136,9 @@ msgid ""
 "compatible with the v0.86.0 protocol. This version was released on June "
 "8th, 2020."
 msgstr ""
+"Esta versión de Vircadia es la versión de seguimiento de K2. No es "
+"compatible con el protocolo v0.86.0. Esta versión se lanzó el 8 de junio de "
+"2020."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:5
 msgid "The software version is denoted by the new versioning scheme:"
@@ -2607,9 +2613,8 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:78
 #: ../../source/release-notes/2021-1-0-Eos.md:168
-#, fuzzy
 msgid "`Entities` API:"
-msgstr "Entidades"
+msgstr "API de `Entidades`:"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:79
 msgid ""
