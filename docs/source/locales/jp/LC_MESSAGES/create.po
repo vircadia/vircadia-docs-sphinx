@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-08-01 15:20+0000\n"
+"PO-Revision-Date: 2022-08-08 22:52+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -60,7 +60,6 @@ msgid "Create"
 msgstr "作る"
 
 #: ../../source/create.rst:5
-#, fuzzy
 msgid ""
 "Vircadia enables people connected by interest, community, and friendship "
 "to come together and express their creativity with each other. We invite "
@@ -68,7 +67,13 @@ msgid ""
 "or developing apps and scripts. To truly make the metaverse your own, "
 "creating your own world or building your immersive project using the free"
 " and openly licensed Vircadia engine is encouraged!"
-msgstr "Vircadiaでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザーが集まり、お互いの創造性を表現することができます。ここではアバターやコンテンツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならではのものへとパーソナライズすることが可能です。メタバースを自分の好きな世界へ変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Vircadiaエンジン」を使って没入型のプロジェクトを構築することをオススメします。"
+msgstr ""
+"Vircadiaでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザ"
+"ーが集まり、お互いの創造性を表現することができます。ここではアバターやコンテ"
+"ンツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分なら"
+"ではのものへとパーソナライズすることが可能です。メタバースを自分の好きな世界"
+"へ変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Vir"
+"cadiaエンジン」を使って没入型のプロジェクトを構築することをオススメします！"
 
 #: ../../source/create.rst:7
 msgid ""
@@ -77,11 +82,10 @@ msgid ""
 msgstr "専門知識のレベルに関わらず、Vircadiaはあなたが想像できるあらゆるものを作成するために必要なツールを提供します。"
 
 #: ../../source/create.rst:9
-#, fuzzy
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
-msgstr "この章ではエンティティの作成や環境の構築方法を学ぶことができます。"
+msgstr "この章では、独自のVR体験を作り、構築し、実現する方法を学びます。"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
@@ -1159,6 +1163,9 @@ msgid ""
 "in the material’s albedo texture, as a PNG file with transparency and "
 "*not* as a separate transparency texture."
 msgstr ""
+"テクスチャで透明度を設定する場合、透明度（アルファ）はマテリアルのアルベドテ"
+"クスチャ(Albedo texture)に、透明度を持つPNGファイルとして、別の透明度テクスチ"
+"ャとしてではなく、含まれている必要があります。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:95
 msgid ""
@@ -1167,6 +1174,9 @@ msgid ""
 "casts no shadows,) and \"mask\" (binary transparency, full shading of "
 "opaque surface, whole surface casts shadow.)"
 msgstr ""
+"Vircadiaのレンダラーは2つの異なる種類の透明度を描画できます。「アルファ」(255"
+"段階の透明度、表面に影をつけない、影を落とさない)と「マスク」(2値の透明度、不"
+"透明な表面の完全な影、表面全体に影を落とす)です。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:96
 msgid ""
@@ -1176,16 +1186,22 @@ msgid ""
 "binary transparency, while PNG-24 supports a range of transparency "
 "levels."
 msgstr ""
+"テクスチャをマスクとして扱うかアルファとして扱うかを決定するために、エンジン"
+"は2%から98%の間のアルファ値を探します。PNG-8は2値の透明度しかサポートしていま"
+"せんが、PNG-24はさまざまな透明度をサポートしているからです。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:98
 msgid ""
 "We support using a second UV set with the following texture channels "
 "only: Emissive Texture, Normal Map and Ambient Occlusion."
 msgstr ""
+"以下のテクスチャチャンネルのみで2つ目のUVセットを使用することをサポートします"
+"： エミッシブマテリアル（Emissive Texture）、法線マップ（Normal "
+"Map）、アンビエントオクルージョン（Ambient Occlusion）。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:102
 msgid "Sample Materials and Their Textures and Shading"
-msgstr ""
+msgstr "サンプルマテリアルとそのテクスチャ、シェーディング"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:104
 msgid ""
@@ -1197,6 +1213,14 @@ msgid ""
 "<https://raw.githubusercontent.com/vircadia/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_"
 " in Vircadia to upload all sample objects in your domain."
 msgstr ""
+"Vircadiaは様々な種類のマテリアルをサポートしています。それぞれのマテリアルタ"
+"イプでサンプルオブジェクトを作成しました。GitHubの `このリポジトリ "
+"<https://github.com/vircadia/hifi_tests/tree/master/assets/models/"
+"material_matrix_models/fbx/blender>` から各オブジェクトをダウンロードするか、"
+"Vircadiaで `このスクリプト<https://raw.githubusercontent.com/vircadia/"
+"hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>` "
+"を実行すると、あなたのドメイン内のすべてのサンプルオブジェクトをアップロード"
+"することができます。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:111
 msgid ""
@@ -1205,14 +1229,18 @@ msgid ""
 "<../../_static/resources/3d-"
 "models/Sample_Material_Textures_and_Shading_Guide.html>`_."
 msgstr ""
+"これらのサンプルオブジェクトのすべてのマテリアル情報（テクスチャ、シェーディ"
+"ング、チャンネル値やマップを含む）を `ここに<../../_static/resources/"
+"3d-models/Sample_Material_Textures_and_Shading_Guide.html>` "
+"リストアップしました。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:116
 msgid "Set Material Values in Blender"
-msgstr ""
+msgstr "Blenderでマテリアル値を設定する"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:121
 msgid "This section is outdated."
-msgstr ""
+msgstr "このセクションは古くなっています。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:123
 msgid ""
@@ -1221,10 +1249,14 @@ msgid ""
 "material properties and textures in Blender to match the PBR material "
 "textures in Vircadia."
 msgstr ""
+"Blenderでモデルを作成したら、Vircadiaで使うためにFBX、glTF、GLBまたはOBJフォ"
+"ーマットでエクスポートする必要があります。さらに、VircadiaのPBRマテリアルテク"
+"スチャに合わせるために、Blenderのマテリアルプロパティとテクスチャを修正する必"
+"要があります。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:125
 msgid "Doing so ensures that your model appears how you intend it to."
-msgstr ""
+msgstr "そうすることで、意図したとおりにモデルが表示されるようになります。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:127
 msgid ""
@@ -1234,6 +1266,11 @@ msgid ""
 "will multiplied together. This can be useful for creating highly "
 "performant colored models using grey-scale textures and vertex colors."
 msgstr ""
+"デフォルトでは、テクスチャで設定されたマテリアルのプロパティは、値で設定され"
+"たプロパティより優先されます。唯一の例外は、頂点カラー(Vertex color)とテクス"
+"チャの場合で、この場合、頂点カラーとテクスチャは一緒に乗算されます。これは、"
+"グレースケールのテクスチャと頂点カラーを使用して、パフォーマンスの高いカラー"
+"モデルを作成する場合に便利です。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:130
 msgid ""
@@ -1243,36 +1280,45 @@ msgid ""
 "channel. It should be noted that models exported as OBJ may not have full"
 " PBR material support in Vircadia yet."
 msgstr ""
+"Blenderでサポートされている各PBRチャンネルに対応するフィールドがハイライトさ"
+"れている画像と、そのチャンネルに対応する範囲にどの値と色が対応しているかの詳"
+"細が含まれています。OBJとしてエクスポートされたモデルは、Vircadiaの完全なPBR"
+"マテリアルサポートをまだ持っていない可能性があることに留意してください。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:139
 msgid "Set Material Values in Maya"
-msgstr ""
+msgstr "Mayaでマテリアル値を設定する"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:144
 msgid "This section hasn't been tested in a long while and might be outdated."
-msgstr ""
+msgstr "このセクションは長い間テストされていないので、古くなっている可能性があります"
+"。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:146
 msgid ""
 "Use the graphics below to set the right material values and textures in "
 "Maya."
-msgstr ""
+msgstr "以下のグラフィックスを使用して、Mayaで適切なマテリアル値とテクスチャを設定し"
+"ます。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:155
 msgid ""
 ":doc:`Bake Your Content Using the Oven <../../host/add-content/bake-"
 "content>`"
 msgstr ""
+":doc:`オーブン(Oven)を使ってコンテンツをベイク(Bake)には <../../host/"
+"add-content/bake-content>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:156
 msgid ":doc:`Add a Material Entity <../entities/material-entity>`"
-msgstr ""
+msgstr ":doc:`マテリアルエンティティを追加するには <../entities/material-entity>`"
 
 #: ../../source/create/applications.rst:2
 msgid ""
 "This document is outdated. FIXME: Uses HiFi hosted resources, potentially"
 " more."
-msgstr ""
+msgstr "このドキュメントは古くなっています。改定: HiFi "
+"ホストされたリソースを使用するようになりました。"
 
 #: ../../source/create/applications.rst:9
 msgid ""
@@ -1280,6 +1326,9 @@ msgid ""
 " FOR REFERENCE ONLY UNTIL UPDATED. SEE `API "
 "DOCS<https://apidocs.vircadia.dev/>` FOR MORE."
 msgstr ""
+"このガイドは古くなりました。このコードは、概要通りに動作しない場合があります"
+"ので、更新されるまでは参考程度にご利用ください。詳細は `API "
+"DOCS<https://apidocs.vircadia.dev/>` を参照してください。"
 
 #: ../../source/create/applications.rst:11
 msgid ""
@@ -1289,64 +1338,72 @@ msgid ""
 "<https://apidocs.vircadia.dev>`_ and simplify it into a window with "
 "controls for others to use."
 msgstr ""
+"Vircadiaのタブレットアプリ(または「アプリ」)は、使いやすいユーザーインターフ"
+"ェイスで機能を公開するカスタマイズ可能なプログラムです。アプリでは、 `"
+"JavaScript API <https://apidocs.vircadia.dev>` から複雑なコードを取り出し、他"
+"の人が使えるようにコントロールを備えたウィンドウに簡素化することができます。"
 
 #: ../../source/create/applications.rst:15
 msgid ""
 "To create custom apps, you must have a basic knowledge of web development"
 " (HTML, CSS and JavaScript) and be able to navigate our API."
-msgstr ""
+msgstr "カスタムアプリを作成するには、Web開発の基礎知識（HTML、CSS、JavaScript）と、"
+"当社のAPIを使いこなせることが必要です。"
 
 #: ../../source/create/applications.rst:17
 msgid "The steps involved in creating a tablet app are:"
-msgstr ""
+msgstr "タブレット端末用アプリの作成手順は、以下の通りです。"
 
 #: ../../source/create/applications.rst:19
 msgid ""
 "`Create icons to show up on the tablet and HUD <#create-icons-to-show-up-"
 "on-the-tablet-and-hud>`_"
 msgstr ""
+"`タブレットとHUDに表示するアイコンを作成する <#create-icons-to-show-up-on-"
+"the-tablet-and-hud>`_"
 
 #: ../../source/create/applications.rst:20
 msgid ""
 "`Design your app's UI in HTML and CSS <#design-your-apps-ui-in-html-and-"
 "css>`_"
-msgstr ""
+msgstr "`アプリのUIをHTMLとCSSでデザインする <#design-your-apps-ui-in-html-and-css>`_"
 
 #: ../../source/create/applications.rst:21
 msgid ""
 "`Add event handlers to your HTML file <#add-event-handlers-to-your-html-"
 "file>`_"
-msgstr ""
+msgstr "`イベントハンドラをHTMLファイルに追加する <#add-event-handlers-to-your-html-"
+"file>`_"
 
 #: ../../source/create/applications.rst:22
 msgid "`Write a JavaScript file that: <#write-a-javascript-file>`_"
-msgstr ""
+msgstr "`JavaScriptファイルを書く <#write-a-javascript-file>`_"
 
 #: ../../source/create/applications.rst:24
 msgid "Adds a button to the tablet and HUD"
-msgstr ""
+msgstr "タブレットとHUDにボタンを追加する"
 
 #: ../../source/create/applications.rst:25
 msgid "Loads your app"
-msgstr ""
+msgstr "アプリをロードする"
 
 #: ../../source/create/applications.rst:26
 msgid "Closes your app"
-msgstr ""
+msgstr "アプリを終了する"
 
 #: ../../source/create/applications.rst:27
 msgid "Listens for events"
-msgstr ""
+msgstr "イベントを監視する"
 
 #: ../../source/create/applications.rst:28
 msgid ""
 "Runs your code (in this case, `create some gemstones <#create-"
 "gemstones>`_)"
-msgstr ""
+msgstr "コードを実行する( `create some gemstones <#create-gemstones>` )"
 
 #: ../../source/create/applications.rst:32
 msgid "Tutorial: Create Gemstone Switching Tablet App"
-msgstr ""
+msgstr "チュートリアル：宝石を交換するタブレットアプリを作成"
 
 #: ../../source/create/applications.rst:34
 msgid ""
@@ -1354,10 +1411,13 @@ msgid ""
 "called \"Gemstone Magic Maker\". This simple app lets you spawn colorful "
 "little gemstones in VR that you can share with your friends."
 msgstr ""
+"このチュートリアルでは、上記の手順を経て、「Gemstone Magic Maker」というアプ"
+"リを作成します。このシンプルなアプリでは、VRでカラフルな小さな宝石を産み出し"
+"、友達と共有することができます。"
 
 #: ../../source/create/applications.rst:38
 msgid "Create icons to show up on the tablet and HUD"
-msgstr ""
+msgstr "タブレットやHUDに表示させるアイコンを作成する"
 
 #: ../../source/create/applications.rst:40
 msgid ""
@@ -1366,34 +1426,41 @@ msgid ""
 "``<appName>-a.svg`` and another to display when the app is inactive, "
 "usually named ``<appName>-i.svg``."
 msgstr ""
+"タブレットとHUDに表示するアイコンが2つ必要です。アプリがアクティブなときにア"
+"プリボタンに表示するSVGまたはPNG画像で、通常 ``<appName>-a.svg`` "
+"という名前にします。また、"
+"アプリが非アクティブなときに表示するもう一つの画像で通常 ``<appName>-i.svg`` "
+"という名前にします。"
 
 #: ../../source/create/applications.rst:44
 msgid "We recommend the following specs for your icons:"
-msgstr ""
+msgstr "アイコンは以下の特性を推奨します。"
 
 #: ../../source/create/applications.rst:46
 msgid "Size: 50px by 50px"
-msgstr ""
+msgstr "Size: 50px × 50px"
 
 #: ../../source/create/applications.rst:47
 msgid ""
 "Color: White on a transparent background (for inactive icons) and black "
 "on a transparent background (for active icons)"
-msgstr ""
+msgstr "色：透明な背景に黒（アクティブアイコン用）、透明な背景に白（非アクティブアイ"
+"コン用）"
 
 #: ../../source/create/applications.rst:48
 msgid "File format: SVG or PNG"
-msgstr ""
+msgstr "ファイルフォーマット：SVG または PNG"
 
 #: ../../source/create/applications.rst:50
 msgid ""
 "You can create your own icon using graphic design software or any other "
 "online resources."
-msgstr ""
+msgstr "グラフィックデザインソフトウェアやその他のオンラインリソースを使用して、独自"
+"のアイコンを作成します。"
 
 #: ../../source/create/applications.rst:54
 msgid "Design your app's UI in HTML and CSS"
-msgstr ""
+msgstr "HTMLとCSSでアプリのUIをデザインする"
 
 #: ../../source/create/applications.rst:56
 msgid ""
@@ -1402,6 +1469,10 @@ msgid ""
 "scroll bars, and links). Keep in mind that the tablet screen dimensions "
 "are 480 x 720, so all of your UI should be confined to this space."
 msgstr ""
+"アプリのUIは、アプリの動作に関するテキストを提供し、ユーザーが操作方法を知っ"
+"ている馴染みのあるUI要素（ボタン、スクロールバー、リンクなど）を使用する必要"
+"があります。タブレットの画面サイズは480 x 720であるため、すべてのUIはこのスペ"
+"ースに収まるようにする必要があることに留意してください。"
 
 #: ../../source/create/applications.rst:58
 msgid ""
@@ -1412,10 +1483,16 @@ msgid ""
 "for your app title. With just a few simple modifications, you can create "
 "have a simple app UI within minutes."
 msgstr ""
+"これから使い始めるあたなに役立つように、再利用できる `クイック スタート HTML "
+"テンプレート <https://hifi-content.s3.amazonaws.com/faye/tablet-sample-app/"
+"quick_start_template.html>` をまとめました。メイン "
+"メニュー画面と同じレイアウト、スタイル、フォントが含まれており、アプリ "
+"タイトルのヘッダー バーがあります。いくつかの簡単な変更を加えるだけで、"
+"数分でシンプルなアプリ UI を作成できます。"
 
 #: ../../source/create/applications.rst:64
 msgid "Add event handlers to your HTML file"
-msgstr ""
+msgstr "イベント ハンドラーを HTML ファイルに追加する"
 
 #: ../../source/create/applications.rst:66
 msgid ""
@@ -1426,10 +1503,15 @@ msgid ""
 "``<script> </script>`` tags in the body of your HTML file to handle the "
 "button clicks::"
 msgstr ""
+"Tablet UIフレームワークは、EventBridgeという通信チャネルを提供しています。こ"
+"れにより、クライアントスクリプト (gemstoneApp.js) と Web アプリの JavaScript "
+"(gemstoneMagicMaker.html) の間で、イベントを送受信することができます。"
+"HTMLファイルの本文中の ``<script> </script>`` "
+"タグ内に以下のEventBridgeコードを記述して、ボタンのクリックを処理します::"
 
 #: ../../source/create/applications.rst:94
 msgid "Write a JavaScript file"
-msgstr ""
+msgstr "JavaScript ファイルを作成する"
 
 #: ../../source/create/applications.rst:96
 msgid ""
@@ -1439,44 +1521,52 @@ msgid ""
 "listens for events. Below, you will find code samples to do each of these"
 " things."
 msgstr ""
+"JavaScriptファイルには、アプリのコア機能がすべて含まれます。最低限、タブレッ"
+"トとHUDにボタンを追加し、アプリをロードし、アプリを適切に終了させ、イベントを"
+"待ち受けるコードを用意することが必要です。以下に、これらの各機能を実行するコ"
+"ードサンプルを示します。"
 
 #: ../../source/create/applications.rst:98
 msgid "**Add buttons to the tablet and HUD**"
-msgstr ""
+msgstr "**タブレットと HUD にボタンを追加**"
 
 #: ../../source/create/applications.rst:100
 msgid ""
 "Use the AppUI module to automatically add your app’s button to the tablet"
 " and HUD, and to wire button click handlers::"
-msgstr ""
+msgstr "AppUIモジュールを使って、アプリのボタンをタブレットやHUDに自動的に追加したり"
+"、ボタンのクリックハンドラを配備したりします："
 
 #: ../../source/create/applications.rst:116
 msgid "**Determine the app's startup behavior**"
-msgstr ""
+msgstr "**アプリの起動時の動作を決定する**"
 
 #: ../../source/create/applications.rst:118
 msgid ""
 "If you want your app to do something specific when it is opened, use the "
 "AppUI module's  ``onOpened`` functionality. For example, you could:"
 msgstr ""
+"もし、アプリが起動したときに何か特定の動作をさせたい場合は、"
+"AppUIモジュールの ``onOpened`` "
+"関数を使ってください。例えば、以下のようになります。"
 
 #: ../../source/create/applications.rst:120
 msgid "Query a server to get a response and determine what to show on the UI"
-msgstr ""
+msgstr "サーバーにクエリを実行して応答を取得し、UI に何を表示するかを決定します"
 
 #: ../../source/create/applications.rst:121
 msgid "Start displaying a 3D interface separate from the tablet"
-msgstr ""
+msgstr "タブレットとは別に3Dインターフェースの表示を開始"
 
 #: ../../source/create/applications.rst:122
 msgid ""
 "Determine the display mode (VR/Desktop) and change things to show on the "
 "UI"
-msgstr ""
+msgstr "表示モード（VR/Desktop）を決定し、UIに表示するものを変更する"
 
 #: ../../source/create/applications.rst:146
 msgid "**Close the app gracefully**"
-msgstr ""
+msgstr "**アプリを適切に終了する**"
 
 #: ../../source/create/applications.rst:148
 msgid ""
@@ -1485,18 +1575,21 @@ msgid ""
 "``onClosed`` functionality built into the AppUI module. For example, you "
 "could:"
 msgstr ""
+"AppUIモジュールは、アプリを確実に終了させます。しかし、アプリを閉じるときに何"
+"か他のことをしたい場合は、AppUIモジュールに組み込まれた ``onClosed`` "
+"機能を使用することができます。例えば、以下のようなことが可能です："
 
 #: ../../source/create/applications.rst:150
 msgid "Remove 3D interfaces"
-msgstr ""
+msgstr "3Dインターフェースの削除"
 
 #: ../../source/create/applications.rst:151
 msgid "Stop secondary scripts"
-msgstr ""
+msgstr "セカンダリースクリプトの停止"
 
 #: ../../source/create/applications.rst:180
 msgid "**Listen for events**"
-msgstr ""
+msgstr "**イベントを監視する**"
 
 #: ../../source/create/applications.rst:182
 msgid ""
@@ -1504,10 +1597,13 @@ msgid ""
 "files>`_ to your HTML file. Now, you need to add code to your JavaScript "
 "file to listen for the events::"
 msgstr ""
+"上記のステップ3では、 `イベントハンドラ <#add-event-handlers-to-your-files>` "
+"をHTMLファイルに追加しました。次に、JavaScriptファイルに、イベントをリッスン"
+"するコードを追加する必要があります："
 
 #: ../../source/create/applications.rst:191
 msgid "Create gemstones"
-msgstr ""
+msgstr "宝石を作成する"
 
 #: ../../source/create/applications.rst:193
 msgid ""
@@ -1516,24 +1612,29 @@ msgid ""
 "gemstone will be created as an entity, and we can change the gemstone's "
 "properties using the ``Entity`` namespace."
 msgstr ""
+"最後のステップは、JavaScript "
+"ファイルの動作をコーディングすることです。この場合、Vircadia の JavaScript "
+"API を使用して宝石を作成します。各宝石はエンティティとして作成され、エンティ"
+"ティ名前空間を使用して宝石のプロパティを変更できます。"
 
 #: ../../source/create/applications.rst:195
 msgid "**Calculate the position of each new gemstone**"
-msgstr ""
+msgstr "**新しい宝石の位置を計算する**"
 
 #: ../../source/create/applications.rst:197
 msgid "The following code gives us a position right in front of the user::"
-msgstr ""
+msgstr "次のコードは、ユーザーのすぐ前に位置を示します："
 
 #: ../../source/create/applications.rst:209
 msgid "**Set the gemstone's properties and add it**"
-msgstr ""
+msgstr "**宝石のプロパティを設定し、追加する**"
 
 #: ../../source/create/applications.rst:211
 msgid ""
 "The gemstone will be created when gemstoneApp.js receives click events "
 "from each of the buttons::"
-msgstr ""
+msgstr "宝石は、gemstoneApp."
+"jsが各ボタンからのクリックイベントを受信したときに作成されます："
 
 #: ../../source/create/applications.rst:289
 msgid ""
@@ -1542,78 +1643,83 @@ msgid ""
 " Storage, Microsoft Azure, etc. Once hosted, you can install it and use "
 "it:"
 msgstr ""
+"おめでとうございます！Vircadiaでアプリを作成することに成功しました。作成した"
+"アプリを使用するには、Amazon S3、Google Cloud Storage、Microsoft Azureなどの"
+"クラウドプラットフォームにアプリをアップロードしてください。一度ホストされる"
+"と、インストールして使用することができます。"
 
 #: ../../source/create/applications.rst:291
 msgid "In Interface, go to **Edit > Running Scripts**."
-msgstr ""
+msgstr "Interfaceで、 **Edit > Running Scripts** を選択します。"
 
 #: ../../source/create/applications.rst:292
 msgid ""
 "Under Load Scripts, click 'From URL' and enter the URL to your hosted "
 "JavaScript file."
-msgstr ""
+msgstr "「Load Scripts」から「From URL」をクリックし、ホストされている JavaScript "
+"ファイルへの URL を入力します。"
 
 #: ../../source/create/applications.rst:293
 msgid "Click the app icon on the tablet or HUD to open the app."
-msgstr ""
+msgstr "タブレットやHUDのアプリアイコンをクリックすると、アプリが起動します。"
 
 #: ../../source/create/applications.rst:299
 msgid ":doc:`Write Your Own Scripts <../script/write-scripts>`"
-msgstr ""
+msgstr ":doc:`スクリプトを作成する <../script/write-scripts>`"
 
 #: ../../source/create/applications.rst:300
 msgid "`API Reference: Entities <https://apidocs.vircadia.dev/Entities.html>`_"
-msgstr ""
+msgstr "`APIリファレンス：エンティティ <https://apidocs.vircadia.dev/Entities.html>`"
 
 #: ../../source/create/applications.rst:301
 msgid "`API Reference: Script <https://apidocs.vircadia.dev/Script.html>`_"
-msgstr ""
+msgstr "`API リファレンス: Script <https://apidocs.vircadia.dev/Script.html>`_"
 
 #: ../../source/create/applications.rst:302
 msgid "`API Reference: Quat <https://apidocs.vircadia.dev/Quat.html>`_"
-msgstr ""
+msgstr "`APIリファレンス：Quat <https://apidocs.vircadia.dev/Quat.html>`"
 
 #: ../../source/create/applications.rst:303
 msgid "`API Reference: Vec3 <https://apidocs.vircadia.dev/Vec3.html>`_"
-msgstr ""
+msgstr "`APIリファレンス：Vec3 <https://apidocs.vircadia.dev/Vec3.html>`"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/create-avatars.rst:7
 msgid "Create Your Own Avatar"
-msgstr ""
+msgstr "アバター作成"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/find-avatars.rst:7
 msgid "Find and Use an Existing Avatar"
-msgstr ""
+msgstr "既存のアバターを検索して利用する"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/package-avatar.rst:7
 msgid "Package and Host Your Avatar"
-msgstr ""
+msgstr "アバターのパッケージ化とホスティング"
 
 #: ../../source/create/avatars.rst:9 ../../source/create/avatars/add-flow.rst:7
 msgid "Add Flow to Your Avatar"
-msgstr ""
+msgstr "アバターに流れ(Flow)をつける"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/custom-animations.rst:7
 msgid "Customize Avatar Animations"
-msgstr ""
+msgstr "アバターアニメーションのカスタマイズ"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/mixamo-tutorial.md:6
 msgid "Tutorial: Rig Avatars in Mixamo"
-msgstr ""
+msgstr "チュートリアル: Mixamo のリグ アバター"
 
 #: ../../source/create/avatars.rst:9
 msgid "Tutorial: Modify Materials and Textures with Blender"
-msgstr ""
+msgstr "チュートリアル: Blender でマテリアルとテクスチャを変更する"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/scattering-tutorial.rst:7
 msgid "Tutorial: Add a Scattering Effect"
-msgstr ""
+msgstr "チュートリアル: 散乱効果を追加する"
 
 #: ../../source/create/avatars.rst:5
 msgid ""
@@ -1623,10 +1729,15 @@ msgid ""
 "avatars must be hosted somewhere in the cloud so that Vircadia can access"
 " it."
 msgstr ""
+"Vircadiaを初めて利用するときは、デフォルトのアバターを装着しています。アバタ"
+"ーは、メタバースにおけるあなたを表現するものです。自分のアバターを作成するこ"
+"とで、Vircadiaでの時間をユニークにすることができます。すべてのカスタムアバタ"
+"ーは、Vircadiaがアクセスできるように、クラウドのどこかにホストされている必要"
+"があります。"
 
 #: ../../source/create/avatars/add-flow.rst:2
 msgid "This document is outdated. FIXME: Links to HiFi hosted resources"
-msgstr ""
+msgstr "このドキュメントは古くなっています。FIXME: HiFi ホスト リソースへのリンク"
 
 #: ../../source/create/avatars/add-flow.rst:9
 msgid ""
@@ -1638,10 +1749,15 @@ msgid ""
 "<https://docs.vircadia.com/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_."
 " In order to use the Flow App, your avatar must contain flow threads."
 msgstr ""
+"Vircadiaのフロー機能を使えば、少しのスクリプトでアバターの髪、服、体のパーツ"
+"の物理をシミュレートすることができます。「フロー(Flow)」のコンセプトは、アバ"
+"ターの髪や他のアタッチメントの自然な動きを簡単に模倣することです。フローアプ"
+"リを使えば、アバターのフロー設定を簡単に変更することができます。フローアプリ"
+"を使うには、あなたのアバターにフロースレッドが含まれていなければなりません。"
 
 #: ../../source/create/avatars/add-flow.rst:16
 msgid "Prepare Your Avatar"
-msgstr ""
+msgstr "アバターの準備"
 
 #: ../../source/create/avatars/add-flow.rst:18
 msgid ""
@@ -1649,12 +1765,15 @@ msgid ""
 "threads, which are sets of connected joints in your avatar. Each flow "
 "thread must comply with the following rules:"
 msgstr ""
+"フロー技術を使用するには、アバター内にフロースレッド（接続されたジョイントの"
+"集合）が含まれている必要があります。各フロースレッドは、以下のルールに従わな"
+"ければなりません。"
 
 #: ../../source/create/avatars/add-flow.rst:20
 msgid ""
 "The first joint is connected to an existing avatar joint, such as "
 "\"Hips\"."
-msgstr ""
+msgstr "第一関節は、「腰」など既存のアバター関節に接続されます。"
 
 #: ../../source/create/avatars/add-flow.rst:21
 msgid ""
@@ -1664,6 +1783,12 @@ msgid ""
 "thread is used to simulate a skirt, all the \"skirt\" joints are named "
 "flow_skirt_01, flow_skirt_02, etc."
 msgstr ""
+"スレッドのすべてのジョイントは ``flow_[TYPE]_[INDEX]`` または "
+"``sim[TYPE][INDEX]`` という名前でなければなりません。ここで **TYPE** "
+"は共通の物理設定を共有するジョイントのグループ、 **INDEX** は整数値で定義され"
+"ます。例えば、このスレッドがスカートのシミュレーションに使用される場合、すべ"
+"ての「スカート」ジョイントは flow_skirt_01、 "
+"flow_skirt_02などと名付けられます。"
 
 #: ../../source/create/avatars/add-flow.rst:25
 msgid ""
@@ -1671,11 +1796,14 @@ msgid ""
 "content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_,"
 " whose hair has flow threads already configured."
 msgstr ""
+"髪の流れが設定されている `マネキン（Mannequin with Hair） <https://hifi-"
+"content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8."
+"fst>` を使って、試してみてください。"
 
 #: ../../source/create/avatars/add-flow.rst:29
 #: ../../source/create/avatars/add-flow.rst:117
 msgid "Flow App"
-msgstr ""
+msgstr "フロー（Flow）アプリ"
 
 #: ../../source/create/avatars/add-flow.rst:31
 msgid ""
@@ -1684,16 +1812,20 @@ msgid ""
 " into Vircadia to configure your flow settings. See :doc:`Load an "
 "Interface Script </script/interface-scripts>`"
 msgstr ""
+"Vircadiaに `Flowアプリ <https://docs.vircadia.com/_static/resources/script/"
+"flow/flowAppCpp/flowAppCpp.js>` をロードして、フロー設定を行います。 "
+":doc:`インターフェーススクリプトの読み込み</script/interface-scripts>` を参照"
 
 #: ../../source/create/avatars/add-flow.rst:33
 msgid ""
 "The Flow app will show up as an icon on your HUD or tablet. Click this "
 "icon to open the Flow app."
-msgstr ""
+msgstr "HUDやタブレットにFlowアプリがアイコンとして表示されます。このアイコンをクリッ"
+"クすると、Flowアプリが起動します。"
 
 #: ../../source/create/avatars/add-flow.rst:39
 msgid "Display Panel"
-msgstr ""
+msgstr "Displayパネル"
 
 #: ../../source/create/avatars/add-flow.rst:41
 msgid ""
@@ -1701,20 +1833,23 @@ msgid ""
 " open. Using these options, you can choose to view meshes and collisions "
 "to help you determine what your final flow configuration will look like."
 msgstr ""
+"**Display** パネルは、Flowアプリを開いている間のアバターの見え方に影響します"
+"。これらのオプションを使用して、メッシュとコリジョン(Collision)を表示すること"
+"を選択し、最終的なフロー構成がどのように見えるかを判断するのに役立ちます。"
 
 #: ../../source/create/avatars/add-flow.rst:46
 #: ../../source/create/avatars/add-flow.rst:66
 #: ../../source/create/avatars/add-flow.rst:92
 msgid "Option"
-msgstr ""
+msgstr "Option"
 
 #: ../../source/create/avatars/add-flow.rst:48
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #: ../../source/create/avatars/add-flow.rst:48
 msgid "Hides or displays the avatar mesh."
-msgstr ""
+msgstr "アバターメッシュの表示／非表示を切り替えます。"
 
 #: ../../source/create/avatars/add-flow.rst:50
 msgid "Collisions"
@@ -1722,48 +1857,49 @@ msgstr "衝突"
 
 #: ../../source/create/avatars/add-flow.rst:50
 msgid "Activates or deactivates collisions."
-msgstr ""
+msgstr "コリジョンを有効または無効にします。"
 
 #: ../../source/create/avatars/add-flow.rst:52
 msgid "Debug"
-msgstr ""
+msgstr "Debug"
 
 #: ../../source/create/avatars/add-flow.rst:52
 msgid "Hides or displays the debug shapes."
-msgstr ""
+msgstr "デバッグシェイプの表示／非表示を切り替えます。"
 
 #: ../../source/create/avatars/add-flow.rst:54
 msgid "Solid"
-msgstr ""
+msgstr "Solid"
 
 #: ../../source/create/avatars/add-flow.rst:54
 msgid "Enables either a solid or wireframe display for debug shapes."
-msgstr ""
+msgstr "デバッグ図形をソリッドまたはワイヤーフレームで表示することができます。"
 
 #: ../../source/create/avatars/add-flow.rst:59
 msgid "Joints Panel"
-msgstr ""
+msgstr "関節（Joint）パネル"
 
 #: ../../source/create/avatars/add-flow.rst:61
 msgid ""
 "The **Joints** panel lists all of the available flow threads, and lets "
 "you configure the behavior of your joints."
-msgstr ""
+msgstr "**関節（Joint）**パネルでは、利用可能なすべてのフロースレッドが一覧表示され、"
+"ジョイントの動作を設定することができます。"
 
 #: ../../source/create/avatars/add-flow.rst:68
 #: ../../source/create/avatars/add-flow.rst:94
 msgid "Radius"
-msgstr ""
+msgstr "Radius"
 
 #: ../../source/create/avatars/add-flow.rst:68
 msgid ""
 "Determines the thickness of segments and knots (needed for collision "
 "testing)."
-msgstr ""
+msgstr "セグメントとノット（衝突試験で必要）の厚さを決定します。"
 
 #: ../../source/create/avatars/add-flow.rst:70
 msgid "Gravity"
-msgstr ""
+msgstr "Gravity"
 
 #: ../../source/create/avatars/add-flow.rst:70
 msgid ""
@@ -1772,42 +1908,45 @@ msgid ""
 "gravity and be pulled towards the ground. Larger values will cause the "
 "movement to happen more quickly."
 msgstr ""
+"各ジョイントが重力に対してどのように反応するかを設定します。正の値を設定する"
+"と関節が空中に浮き上がり、負の値を設定すると重力に反応して地面に引っ張られま"
+"す。値を大きくすると、より素早く動作します。"
 
 #: ../../source/create/avatars/add-flow.rst:74
 msgid "Stiffness"
-msgstr ""
+msgstr "Stiffness"
 
 #: ../../source/create/avatars/add-flow.rst:74
 msgid "Defines how susceptible the flow threads are to movement."
-msgstr ""
+msgstr "フロースレッドがどの程度動きやすいかを定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:76
 msgid "Damping"
-msgstr ""
+msgstr "Damping"
 
 #: ../../source/create/avatars/add-flow.rst:76
 msgid "Determines how easily the bones oscillate or move around the joints."
-msgstr ""
+msgstr "ボーンがジョイントの周りでどのくらい簡単に振動または移動するかを定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:78
 msgid "Inertia"
-msgstr ""
+msgstr "Inertia"
 
 #: ../../source/create/avatars/add-flow.rst:78
 msgid "Changes the rotational velocity of the bones."
-msgstr ""
+msgstr "ボーンの回転速度を定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:80
 msgid "Delta"
-msgstr ""
+msgstr "Delta"
 
 #: ../../source/create/avatars/add-flow.rst:80
 msgid "Controls the amount of time between each joint movement."
-msgstr ""
+msgstr "各関節の動作の間隔を定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:85
 msgid "Collisions Panel"
-msgstr ""
+msgstr "コリジョン（Collision）パネル"
 
 #: ../../source/create/avatars/add-flow.rst:87
 msgid ""
@@ -1818,22 +1957,27 @@ msgid ""
 "distance between the flow thread and the joint. You can only have a "
 "maximum of 4 collisions defined for your avatar."
 msgstr ""
+"**コリジョン（Collision）** パネルは、フロースレッドとアバターのジョイントの"
+"間の相互作用を定義するコリジョンスフィア（Collision spher）をコントロールしま"
+"す。各コリジョン球は、既存のアバタージョイントとオフセットを使って配置されま"
+"す。コリジョン球の半径を大きくすると、フロースレッドとジョイントの間の距離が"
+"長くなります。アバターには最大4つのコリジョンしか定義できません。"
 
 #: ../../source/create/avatars/add-flow.rst:94
 msgid "Controls the collision sphere radius."
-msgstr ""
+msgstr "コリジョン球の半径を定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:96
 msgid "Offset"
-msgstr ""
+msgstr "Offset"
 
 #: ../../source/create/avatars/add-flow.rst:96
 msgid "Controls the collision sphere offset."
-msgstr ""
+msgstr "コリジョン球のオフセットを定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:101
 msgid "Output Panel"
-msgstr ""
+msgstr "出力パネル"
 
 #: ../../source/create/avatars/add-flow.rst:103
 msgid ""
@@ -1841,64 +1985,73 @@ msgid ""
 "flow configuration, based on what you entered in the `Joints Panel`_ and "
 "the `Collisions Panel`_."
 msgstr ""
+"**出力** パネルには、`Joints Panel` と `Collisions Panel` "
+"で入力した内容に基づいて、アバターのフロー設定に対する FST "
+"データの結果が表示されます。"
 
 #: ../../source/create/avatars/add-flow.rst:105
 msgid ""
 "Copy this data directly into your avatar's FST file to complete the flow "
 "process."
-msgstr ""
+msgstr "このデータをアバターのFSTファイルに直接コピーすれば、フロー処理は完了です。"
 
 #: ../../source/create/avatars/add-flow.rst:112
 msgid "Resources"
-msgstr ""
+msgstr "これらの資料"
 
 #: ../../source/create/avatars/add-flow.rst:115
 #: ../../source/create/entities/boombox-tutorial.rst:99
 msgid "File"
-msgstr ""
+msgstr "ファイル"
 
 #: ../../source/create/avatars/add-flow.rst:115
 #: ../../source/create/entities/boombox-tutorial.rst:99
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../../source/create/avatars/add-flow.rst:117
 msgid ""
 "This app lets users easily update Flow settings without the need for "
 "scripting or advanced knowledge of avatars."
-msgstr ""
+msgstr "このアプリは、スクリプトやアバターに関する高度な知識がなくても、ユーザーが簡"
+"単にFlowの設定を更新できるようにするものです。"
 
 #: ../../source/create/avatars/add-flow.rst:117
 msgid ""
 "`flowAppCpp.js <https://docs.vircadia.com/ "
 "_static/resources/script/flow/flowAppCpp/ flowAppCpp.js>`_"
 msgstr ""
+"`flowAppCpp.js <https://docs.vircadia.com/ _static/resources/script/flow/"
+"flowAppCpp/ flowAppCpp.js>`_"
 
 #: ../../source/create/avatars/add-flow.rst:121
 msgid "Mannequin with Hair"
-msgstr ""
+msgstr "Mannequin with Hair"
 
 #: ../../source/create/avatars/add-flow.rst:121
 msgid ""
 "This avatar is properly rigged to work with Flow. Use this as an example "
 "for your own avatar models."
-msgstr ""
+msgstr "このアバターは、Flowで動作するように適切に構成されています。あなた自身のアバ"
+"ターモデルの例としてお使いください。"
 
 #: ../../source/create/avatars/add-flow.rst:121
 msgid ""
 "`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/"
 " Mannequin/hairTest/mannequinHairTest8. fst>`_"
 msgstr ""
+"`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/ "
+"Mannequin/hairTest/mannequinHairTest8. fst>`_"
 
 #: ../../source/create/avatars/add-flow.rst:129
 #: ../../source/create/avatars/custom-animations.rst:271
 msgid ":doc:`Avatar Standards Guide <avatar-standards>`"
-msgstr ""
+msgstr ":doc:`アバタースタンダードガイド <avatar-standards>`"
 
 #: ../../source/create/avatars/add-flow.rst:130
 #: ../../source/create/avatars/scattering-tutorial.rst:69
 msgid "`Package Your Avatar <create-avatars.html#package-your-avatar>`_"
-msgstr ""
+msgstr "`アバターのパッケージ化 <create-avatars.html#package-your-avatar>`_"
 
 #: ../../source/create/avatars/add-flow.rst:131
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:64
@@ -1908,12 +2061,12 @@ msgstr ""
 msgid ""
 ":doc:`Get Started with Scripting <../../script/get-started-with-"
 "scripting>`"
-msgstr ""
+msgstr ":doc:`スクリプト作成を始めよう <../../script/get-started-with-scripting>`"
 
 #: ../../source/create/avatars/avatar-standards.md:6
 #: ../../source/create/avatars/create-avatars.rst:24
 msgid "Avatar Standards Guide"
-msgstr ""
+msgstr "アバタースタンダードガイド"
 
 #: ../../source/create/avatars/avatar-standards.md:8
 msgid ""
@@ -1924,6 +2077,12 @@ msgid ""
 "avatar can be fine-tuned using blendshapes to animate the face and "
 "scripting to define advanced behaviors."
 msgstr ""
+"この文書では、[アバターを作成する](create-avatars)ときに従うべき基準の概要を"
+"説明します。アバターはボーンを使って、キャラクターの手足をアニメーション化し"
+"、手足のスケール変数を定義します。カスタムボーンを追加して、アバターの形状を"
+"さらに調整することができます。アバターのカスタマイズは、ブレンドシェイプを使"
+"った顔のアニメーションや、スクリプトを使った高度な動作の定義で細かく調整する"
+"ことができます。"
 
 #: ../../source/create/avatars/avatar-standards.md:10
 #: ../../source/create/entities/avatar-interactions.md:5
@@ -1937,81 +2096,89 @@ msgstr "**コンテンツ**"
 
 #: ../../source/create/avatars/avatar-standards.md:11
 msgid "[Glossary](#glossary)"
-msgstr ""
+msgstr "[用語集](#glossary)"
 
 #: ../../source/create/avatars/avatar-standards.md:12
 msgid "[Reference Pose](#reference-pose)"
-msgstr ""
+msgstr "[基準ポーズ（Reference Pose）](#reference-pose)"
 
 #: ../../source/create/avatars/avatar-standards.md:13
 msgid "[Skeleton](#skeleton)"
-msgstr ""
+msgstr "[スケルトン（Skeleton）](#skeleton)"
 
 #: ../../source/create/avatars/avatar-standards.md:14
 msgid "[Flow Bones](#flow-bones)"
-msgstr ""
+msgstr "[フローボーン（Flow Bone）](#flow-bones)"
 
 #: ../../source/create/avatars/avatar-standards.md:15
 msgid "[Look-at Vectors](#look-at-vectors)"
-msgstr ""
+msgstr "[ルックアットベクトル（Look-at Vector）](#look-at-vectors)"
 
 #: ../../source/create/avatars/avatar-standards.md:16
 msgid "[Blendshapes](#blendshapes)"
-msgstr ""
+msgstr "[ブレンドシェイプ（Blendshapes）](#blendshapes)"
 
 #: ../../source/create/avatars/avatar-standards.md:17
 msgid "[Other Considerations](#other-considerations)"
-msgstr ""
+msgstr "[その他の考慮事項](#other-considerations)"
 
 #: ../../source/create/avatars/avatar-standards.md:19
 msgid "Glossary"
-msgstr ""
+msgstr "用語集"
 
 #: ../../source/create/avatars/avatar-standards.md:20
 msgid ""
 "As we delve deeper into creating custom avatars, we may use terminology "
 "that you are unfamiliar with. Here are some terms you might come across:"
-msgstr ""
+msgstr "カスタムアバターの制作を進めていくと、聞き慣れない用語が出てくることがありま"
+"す。ここでは、そのような用語について説明します。"
 
 #: ../../source/create/avatars/avatar-standards.md:22
 msgid "Avatar - A virtual representation of a person or NPC."
-msgstr ""
+msgstr "アバター（Avatar ） - 人物やNPCを仮想的に表現したもの。"
 
 #: ../../source/create/avatars/avatar-standards.md:23
 msgid ""
 "Mesh - The collection of 3D vertices and triangles for the avatar model. "
 "Without this, the avatar is invisible."
-msgstr ""
+msgstr "メッシュ（Mesh）- "
+"アバターモデルの3D頂点と三角形の集合体。これがないと、アバターは見えません。"
 
 #: ../../source/create/avatars/avatar-standards.md:24
 msgid ""
 "Bones - A component of a skeleton that defines a \"limb\" such as an arm,"
 " leg, etc. Each bone may be animated as a separate limb in your avatar."
 msgstr ""
+"ボーン（Bone） - 腕、脚などの「手足」を定義するスケルトンの構成要素。各ボーン"
+"は、アバターで個別の手足としてアニメーションさせることができます。"
 
 #: ../../source/create/avatars/avatar-standards.md:25
 msgid "Skeleton - A hierarchy of joints."
-msgstr ""
+msgstr "骨格（Skeleton） - 関節の階層構造。"
 
 #: ../../source/create/avatars/avatar-standards.md:26
 msgid "Rigging - The process of creating a skeleton of the avatar model."
-msgstr ""
+msgstr "リギング（Rigging） - アバターモデルのスケルトンを作成する工程。"
 
 #: ../../source/create/avatars/avatar-standards.md:27
 msgid ""
 "Blendshapes - Variations of the topology that defines how the mesh is "
 "modified to create various \"shapes\"."
 msgstr ""
+"ブレンドシェイプ（Blendshap） - 様々な「形状」を作成するためにメッシュをどの"
+"ように修正するかを定義するトポロジーのバリエーションです。"
 
 #: ../../source/create/avatars/avatar-standards.md:28
 msgid ""
 "FST file - The main avatar file, which contains information about the "
 "skeleton, blendshapes, FBX file and textures used by an avatar."
 msgstr ""
+"FSTファイル - アバターのメインファイル。アバターが使用するスケルトン、ブレン"
+"ドシェイプ、FBXファイル、テクスチャーに関する情報が含まれています。"
 
 #: ../../source/create/avatars/avatar-standards.md:31
 msgid "Reference Pose"
-msgstr ""
+msgstr "基準ポーズ（Reference Pose）"
 
 #: ../../source/create/avatars/avatar-standards.md:32
 msgid ""
@@ -2019,28 +2186,32 @@ msgid ""
 "specifications below. You may wish to refer to the properly configured "
 "example avatar fbx with source files."
 msgstr ""
+"Referenceポーズには、以下の仕様に準拠したT-Poseを使用します。正しく設定された"
+"アバターfbxのサンプルとソースファイルを参照してください。"
 
 #: ../../source/create/avatars/avatar-standards.md:33
 msgid "The character must face along the positive direction of the Z-axis."
-msgstr ""
+msgstr "キャラクタはZ軸の正の方向に沿って向いている必要があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:34
 msgid ""
 "The arms must be spread along the X-axis. The left arm should therefore "
 "be pointing along the positive direction of the X-axis."
-msgstr ""
+msgstr "両腕はX軸に沿って広げなければなりません。そのため、左腕はX軸の正の方向に沿っ"
+"て向ける必要があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:35
 msgid ""
 "The top of the character's head must be up, in the positive direction of "
 "the Y-axis."
-msgstr ""
+msgstr "キャラクターの頭頂部は、Y軸の正の方向で、上にある必要があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:36
 msgid ""
 "The character's hands are flat, palms facing the ground, with the thumbs "
 "parallel to the X axis."
-msgstr ""
+msgstr "キャラクターの手は平らで、手のひらを地面に向けて、親指がX軸と平行になるように"
+"します。"
 
 #: ../../source/create/avatars/avatar-standards.md:37
 msgid ""
@@ -2049,10 +2220,13 @@ msgid ""
 "the Y-axis (meaning the toes of the left foot should not point inward "
 "toward the right leg or outward away from the right leg)."
 msgstr ""
+"キャラクタの足は、脚に対して垂直である必要があります（図のようにつま先がZ軸に"
+"沿っている状態）。足はY軸を中心に回転してはいけません（つまり、左足のつま先が"
+"右足の内側を向いたり、右足の外側を向いたりしてはいけないということです）。"
 
 #: ../../source/create/avatars/avatar-standards.md:39
 msgid "![](_images/hifi-skel.png)"
-msgstr ""
+msgstr "![](_images/hifi-skel.png)"
 
 #: ../../source/create/avatars/avatar-standards.md:41
 msgid ""
@@ -2060,10 +2234,13 @@ msgid ""
 "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
 " This skeleton conforms to the specifications above."
 msgstr ""
+"Vircadiaの標準スケルトンは[こちら](http://hifi-content.s3.amazonaws.com/"
+"Examples%20Content/skeleton/standard_hifi_skeleton."
+"fbx)からダウンロードできます。このスケルトンは上記の仕様に準拠しています。"
 
 #: ../../source/create/avatars/avatar-standards.md:43
 msgid "Skeleton"
-msgstr ""
+msgstr "スケルトン（Skeleton）"
 
 #: ../../source/create/avatars/avatar-standards.md:44
 msgid ""
