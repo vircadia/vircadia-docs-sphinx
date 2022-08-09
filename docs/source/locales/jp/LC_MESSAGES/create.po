@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-08-08 22:52+0000\n"
+"PO-Revision-Date: 2022-08-10 07:20+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -2252,20 +2252,27 @@ msgid ""
 "devices to control their avatar's arm and finger movements (if they have "
 "any)."
 msgstr ""
+"アバターの標準的な人型スケルトンは [HumanIK Skeleton](http://download."
+"autodesk.com/global/docs/maya2014/en_us/index.html?url=files/GUID-"
+"945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) に従って、Mixamo用に若干の修正を加"
+"えたものであるべきです。このスケルトンシステムは、Vircadiaにすでにある入力シ"
+"ステムと連動しており、ユーザーは自分の入力デバイスを使って、アバターの腕や指"
+"の動きをコントロールすることができます（入力デバイスを持っていれば可能）。"
 
 #: ../../source/create/avatars/avatar-standards.md:46
 msgid ""
 "Vircadia avatars should match the following standard skeletal structure. "
 "Each of these joints can be animated."
-msgstr ""
+msgstr "Vircadiaアバターは、以下の標準的な骨格構造に一致する必要があります。これらの"
+"各関節はアニメーションさせることができます。"
 
 #: ../../source/create/avatars/avatar-standards.md:53
 msgid "![](_images/avatar-skeleton.png)"
-msgstr ""
+msgstr "![](_images/avatar-skeleton.png)"
 
 #: ../../source/create/avatars/avatar-standards.md:55
 msgid "Flow Bones"
-msgstr ""
+msgstr "フローボーン（Flow Bone）"
 
 #: ../../source/create/avatars/avatar-standards.md:57
 msgid ""
@@ -2274,30 +2281,40 @@ msgid ""
 "animator. ![](_images/flow-bones.png) (Many thanks to Akazukin for the "
 "model Ouka Miko(櫻歌ミコ) used in this diagram!)"
 msgstr ""
+"接頭辞 `sim` と `flow` "
+"は、服や髪、しっぽなどのフローボーン用に予約されています。"
+"これらのボーンはアニメーターによって "
+"_アニメーションされるべきではありません_ 。("
+"この図に使われている櫻歌ミコのモデルを提供してくださった Akazukin "
+"さんに感謝します!)"
 
 #: ../../source/create/avatars/avatar-standards.md:60
 msgid "For example, consider a full cape that surrounds the avatar:"
-msgstr ""
+msgstr "例えば、アバターを包む全身マントを考えてみましょう。"
 
 #: ../../source/create/avatars/avatar-standards.md:73
 msgid ""
 "Alternatively, you can use the `flow` prefix, separating the name and "
 "joint number with an underscore. The same cape as above would look like:"
 msgstr ""
+"また、名前とジョイント番号をアンダースコアで区切り、 `flow` というプレフィッ"
+"クスを使うこともできます。上記と同じケープを使用すると、次のようになります。"
 
 #: ../../source/create/avatars/avatar-standards.md:86
 msgid "Look-at Vectors"
-msgstr ""
+msgstr "視線（Look-at）ベクトル"
 
 #: ../../source/create/avatars/avatar-standards.md:88
 msgid "The look-at vectors are driven by the z-vector of the eye joints."
-msgstr ""
+msgstr "視線ベクトルは、目の関節の z ベクトルによって駆動します。"
 
 #: ../../source/create/avatars/avatar-standards.md:90
+#, fuzzy
 msgid ""
 "The +z axis of the eye joints should go through the center of the pupil, "
 "and should continue to do so as the eye joint is rotated."
-msgstr ""
+msgstr "眼球関節の +z "
+"軸は瞳孔の中心を通過し、眼球関節が回転する間も通過し続ける必要があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:92
 msgid "The eye joints are defined in the FST."
