@@ -5,18 +5,21 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
+"Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-08-10 07:20+0000\n"
+"Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/"
+"vircadia-user-docs/release-notes/ca/>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: ../../source/release-notes.rst:9
@@ -5445,7 +5448,7 @@ msgstr ""
 
 #: ../../source/release-notes/v81.md:35
 msgid "Security"
-msgstr ""
+msgstr "Seguretat"
 
 #: ../../source/release-notes/v81.md:37
 msgid ""
@@ -7854,4 +7857,3 @@ msgid ""
 "[here](https://github.com/vircadia/Decentralized_GoTo_Experimental/commits/master)"
 " between February 26th & March 16th, 2020."
 msgstr ""
-
