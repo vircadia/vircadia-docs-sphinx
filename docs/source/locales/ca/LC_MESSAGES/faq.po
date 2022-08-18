@@ -5,45 +5,50 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
+"Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-08-19 15:21+0000\n"
+"Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/"
+"vircadia-user-docs/faq/ca/>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: ../../source/faq.rst:3
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Preguntes freqüents (FAQs)"
 
 #: ../../source/faq.rst:5
 msgid ""
 "We get a lot of questions from our users! If you have questions about "
 "Vircadia, feel free to browse through this page to learn more."
 msgstr ""
+"Rebem moltes preguntes dels nostres usuaris! Si teniu preguntes sobre "
+"Vircadia, no dubteu a navegar per aquesta secció per obtenir més informació."
 
 #: ../../source/faq.rst:9
 msgid "On This Page"
-msgstr ""
+msgstr "En aquesta pàgina"
 
 #: ../../source/faq.rst:13
 msgid "Content Creation"
-msgstr ""
+msgstr "Creació de contingut"
 
 #: ../../source/faq.rst:15
 msgid "`What video formats do you support? <#video-formats>`_"
-msgstr ""
+msgstr "`Quins formats de vídeo estan suportats? <#video-formats>`_"
 
 #: ../../source/faq.rst:20
 msgid "What video formats do you support?"
-msgstr ""
+msgstr "Quins formats de vídeo estan suportats?"
 
 #: ../../source/faq.rst:22
 msgid ""
@@ -52,16 +57,23 @@ msgid ""
 "good quality and low file sizes. See :doc:`Play Media in a Web Entity "
 "<create/entities/web-entity-media>` for a more information."
 msgstr ""
+"Admetem la majoria de formats de vídeo oberts. Actualment no s'admeten "
+"formats propietaris com H.264. Es recomana el format VP9 per la seva bona "
+"qualitat i les mides petites de fitxer. Vegeu :doc:`Reproduir mitjans en una "
+"entitat web <create/entities/web-entity-media>` per obtenir més informació."
 
 #: ../../source/faq.rst:29
 msgid "Domain Hosting"
-msgstr ""
+msgstr "Allotjament de dominis"
 
 #: ../../source/faq.rst:31
 msgid ""
 "`How do I get into my domain settings if I set up authentication but "
 "forgot my username and/or password? <#reset-password>`_"
 msgstr ""
+"`Com puc entrar a la configuració del meu domini si he configurat "
+"l'autenticació però he oblidat el meu nom d'usuari i/o contrasenya? <#reset-"
+"password>`_"
 
 #: ../../source/faq.rst:36
 msgid ""
@@ -69,6 +81,9 @@ msgid ""
 "/configure-settings/authentication-setting.html>`_ but forgot my username"
 " and/or password?"
 msgstr ""
+"Com puc entrar a la configuració del meu domini si he configurat `"
+"autenticació <host/configure-settings/authentication-setting.html>`_ però he "
+"oblidat el meu nom d'usuari i/o contrasenya?"
 
 #: ../../source/faq.rst:39
 msgid ""
@@ -78,92 +93,113 @@ msgid ""
 "settings ('http_password' and 'http_username') from config.json. The "
 "config file is stored on the server in the following directories:"
 msgstr ""
+"La configuració d'autenticació del vostre domini es xifra en un fitxer de "
+"configuració al sistema de fitxers del servidor. Per \"restablir\" la "
+"configuració d'autenticació, heu d'eliminar manualment la configuració de "
+"seguretat HTTP (\"http_password\" i \"http_username\") de config.json. El "
+"fitxer de configuració s'emmagatzema al servidor en els directoris següents:"
 
 #: ../../source/faq.rst:44
 msgid "**Windows**: ``%AppData%\\Roaming\\Vircadia\\domain-server\\``"
-msgstr ""
+msgstr "**Windows**: ``%AppData%\\Roaming\\Vircadia\\domain-server\\``"
 
 #: ../../source/faq.rst:45
 msgid "**Mac**: ``~/Library/Application Support/Vircadia/domain-server/``"
-msgstr ""
+msgstr "**Mac**: ``~/Library/Application Support/Vircadia/domain-server/``"
 
 #: ../../source/faq.rst:46
 msgid "**Linux**: ``/var/lib/vircadia/default/domain-server/``"
-msgstr ""
+msgstr "**Linux**: ``/var/lib/vircadia/default/domain-server/``"
 
 #: ../../source/faq.rst:51
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Solució de problemes"
 
 #: ../../source/faq.rst:53
 msgid "`Where do I find the Interface log files? <#interface-log-files>`_"
 msgstr ""
+"`On puc trobar els fitxers de registre de la interfície? <#interface-log-"
+"files>`_"
 
 #: ../../source/faq.rst:54
 msgid ""
 "`How do I access the hidden folders that most Vircadia files are stored "
 "in? <#file-manager-help>`_"
 msgstr ""
+"`Com puc accedir a les carpetes ocultes on s'emmagatzemen la majoria dels "
+"fitxers de Vircadia? <#file-manager-help>`_"
 
 #: ../../source/faq.rst:55
 msgid "`Why can't I connect to a domain? <#cannot-connect>`_"
-msgstr ""
+msgstr "`Per què no em puc connectar a un domini? <#cannot-connect>`_"
 
 #: ../../source/faq.rst:56
 msgid "`No one can hear me! <#no-input>`_"
-msgstr ""
+msgstr "`Ningú em sent! <#no-input>`_"
 
 #: ../../source/faq.rst:57
 msgid "`I can't hear anything in Vircadia <#no-output>`_"
-msgstr ""
+msgstr "`No puc sentir res a Vircadia <#no-output>`_"
 
 #: ../../source/faq.rst:58
 msgid ""
 "`I have a problem using Vircadia on Windows with my AMD graphics card "
 "<#amd-problem>`_"
 msgstr ""
+"`Tinc un problema usant Vircadia a Windows amb la meva targeta gràfica AMD "
+"<#amd-problem>`_"
 
 #: ../../source/faq.rst:59
 msgid ""
 "`How do I install a different AMD graphics driver on Windows? <#amd-"
 "downgrade>`_"
 msgstr ""
+"`Com instal·lo un controlador diferent de gràfics AMD a Windows? <#amd-"
+"downgrade>`_"
 
 #: ../../source/faq.rst:64
 msgid "Where do I find the Interface log files?"
-msgstr ""
+msgstr "On trobo els fitxers de registre de la interfície?"
 
 #: ../../source/faq.rst:66
 msgid "The Interfaces log files can be found in the following directories:"
 msgstr ""
+"Els fitxers de registre de les interfícies es poden trobar als directoris "
+"següents:"
 
 #: ../../source/faq.rst:68
 msgid "**Windows**: ``%AppData%\\Local\\Vircadia\\Interface\\Logs\\``"
-msgstr ""
+msgstr "**Windows**: ``%AppData%\\Local\\Vircadia\\Interface\\Logs\\``"
 
 #: ../../source/faq.rst:69
 msgid "**Mac**: ``~/Library/Application Support/Vircadia/Interface/Logs/``"
-msgstr ""
+msgstr "**Mac**: ``~/Library/Application Support/Vircadia/Interface/Logs/``"
 
 #: ../../source/faq.rst:70
 msgid "**Linux**: ``~/.local/share/Vircadia/Interface/Logs/``"
-msgstr ""
+msgstr "**Linux**: ``~/.local/share/Vircadia/Interface/Logs/``"
 
 #: ../../source/faq.rst:72
 msgid ""
 "The Vircadia folder name might be different on development or testing "
 "builds. E.g. ``Vircadia - dev``."
 msgstr ""
+"El nom de la carpeta Vircadia pot ser diferent entre les compilacions de "
+"desenvolupament i les de prova. Per exemple. ``Vircadia - dev``."
 
 #: ../../source/faq.rst:79
 msgid "How do I access the hidden folders that most Vircadia files are stored in?"
 msgstr ""
+"Com puc accedir a les carpetes ocultes on s'emmagatzemen la majoria dels "
+"fitxers de Vircadia?"
 
 #: ../../source/faq.rst:81
 msgid ""
 "On all currently supported operating systems the folders that Vircadia "
 "stores most of its data in are hidden."
 msgstr ""
+"En tots els sistemes operatius compatibles actualment, les carpetes on "
+"Vircadia emmagatzema la majoria de les seves dades estan ocultes."
 
 #: ../../source/faq.rst:84
 msgid ""
@@ -171,44 +207,59 @@ msgid ""
 " your systems file manager. Most (if not all) of them have a bar at the "
 "top."
 msgstr ""
+"La manera més senzilla d'accedir-hi és copiar la ruta i enganxar-la al "
+"navegador de fitxers del vostre sistema. La majoria (si no tots) tenen una "
+"barra a la part superior on es pot veure i escriure la ruta."
 
 #: ../../source/faq.rst:89
 msgid ""
 "Even if it doesn't look like you can paste anything into the bar, still "
 "hover over it and try pasting with a shortcut like Ctrl + V."
 msgstr ""
+"Encara que no sembli que pugueu enganxar res a la barra, passeu el cursor "
+"per sobre i proveu d'enganxar amb una drecera com Ctrl + V."
 
 #: ../../source/faq.rst:96
 msgid "Why can't I connect to a domain?"
-msgstr ""
+msgstr "Per què no em puc connectar a un domini?"
 
 #: ../../source/faq.rst:98
 msgid ""
 "If you cannot connect to your virtual workplace, follow these steps to "
 "resolve the issue:"
 msgstr ""
+"Si no podeu connectar-vos al vostre lloc de treball virtual, seguiu aquests "
+"passos per resoldre el problema:"
 
 #: ../../source/faq.rst:100
 msgid ""
 "Check your internet connection, and ensure that your bandwidth is at "
 "least 10Mbps download, 2Mbps upload."
 msgstr ""
+"Comproveu la vostra connexió a Internet i assegureu-vos que l'ample de banda "
+"sigui d'almenys 10 Mbps de baixada i 2 Mbps de pujada."
 
 #: ../../source/faq.rst:102
 msgid ""
 "You may not have permissions to enter the domain. If you know the domain "
 "owner, contact them to gain access to the domain."
 msgstr ""
+"És possible que no tingueu permisos per entrar al domini. Si coneixeu el "
+"propietari del domini, poseu-vos en contacte amb ell per accedir al domini."
 
 #: ../../source/faq.rst:104
 msgid "Ensure that your firewall settings allow you to run Vircadia."
 msgstr ""
+"Assegureu-vos que la configuració del vostre tallafoc (firewall) us permet "
+"executar Vircadia."
 
 #: ../../source/faq.rst:106
 msgid ""
 "For Windows: In your firewall settings, open the  port 40102, and add "
 "'interface.exe' to the list of allowed apps."
 msgstr ""
+"En Windows: en la configuració del tallafoc, obriu el port 40102 i afegiu "
+"\"interface.exe\" a la llista d'aplicacions permeses."
 
 #: ../../source/faq.rst:108
 msgid ""
@@ -216,10 +267,13 @@ msgid ""
 "Application Support > Launcher > interface.app**) and allow incoming "
 "connections for that application."
 msgstr ""
+"En Mac: en la configuració del tallafoc, afegiu \"interface.app\" (**"
+"Biblioteca > Suport d'aplicacions > Llançador > interface.app**) i permeteu "
+"les connexions entrants per a aquesta aplicació."
 
 #: ../../source/faq.rst:115
 msgid "No one can hear me!"
-msgstr ""
+msgstr "Ningú em sent!"
 
 #: ../../source/faq.rst:117
 msgid ""
@@ -227,6 +281,9 @@ msgid ""
 " your microphone gain is set too low. Here are some steps to troubleshoot"
 " your issue:"
 msgstr ""
+"Si altres usuaris del domini no et poden sentir, és probable que estiguis "
+"silenciat o que el guany del micròfon estigui massa baix. Aquests són alguns "
+"passos per solucionar el problema:"
 
 #: ../../source/faq.rst:120
 msgid ""
@@ -455,4 +512,3 @@ msgid ""
 "\"Recommended\" driver version. Simply download and install using the "
 "same steps as above."
 msgstr ""
-
