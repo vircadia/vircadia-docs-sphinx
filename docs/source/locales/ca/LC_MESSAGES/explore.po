@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: 2022-07-13 20:15+0000\n"
+"PO-Revision-Date: 2022-08-19 15:21+0000\n"
 "Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/explore/ca/>\n"
@@ -224,7 +224,7 @@ msgstr ""
 #: ../../source/explore/personalize/add-wearables.rst:13
 #: ../../source/explore/socialize.rst:8
 msgid "On This Page"
-msgstr ""
+msgstr "En aquesta pàgina"
 
 #: ../../source/explore/get-started/adjust-settings.rst:16
 msgid "The Tablet and HUD"
@@ -2682,7 +2682,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/vr-controls.rst:187
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Solució de problemes"
 
 #: ../../source/explore/get-started/vr-controls.rst:190
 msgid "Issue"
@@ -2930,7 +2930,7 @@ msgstr ""
 
 #: ../../source/explore/personalize.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**En aquesta secció:**"
 
 #: ../../source/explore/personalize/add-wearables.rst:2
 msgid "This document is slightly outdated. FIXME: only mentions FBX files"
