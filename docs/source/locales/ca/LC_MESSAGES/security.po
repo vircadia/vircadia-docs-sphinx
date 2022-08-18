@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: 2022-08-10 07:20+0000\n"
+"PO-Revision-Date: 2022-08-19 15:21+0000\n"
 "Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/security/ca/>\n"
@@ -69,39 +69,41 @@ msgstr ""
 #: ../../source/security/reporting/crash-reporting.md:7
 msgid "Here is a list of extra metadata that is collected with a crash report:"
 msgstr ""
+"Aquesta és una llista de metadades addicionals que es recullen amb un "
+"informe d'error:"
 
 #: ../../source/security/reporting/crash-reporting.md:9
 msgid "Username"
-msgstr ""
+msgstr "Nom d'usuari/usuària"
 
 #: ../../source/security/reporting/crash-reporting.md:10
 msgid "Domain + location"
-msgstr ""
+msgstr "Domini + ubicació"
 
 #: ../../source/security/reporting/crash-reporting.md:11
 msgid "Avatar URL"
-msgstr ""
+msgstr "URL de l'avatar"
 
 #: ../../source/security/reporting/crash-reporting.md:12
 msgid "Build type"
-msgstr ""
+msgstr "Tipus de compilació/sistema"
 
 #: ../../source/security/reporting/crash-reporting.md:13
 msgid "Display plugin"
-msgstr ""
+msgstr "Complement (plugin) de visualització"
 
 #: ../../source/security/reporting/crash-reporting.md:14
 msgid "GPU model + GPU memory"
-msgstr ""
+msgstr "Model de GPU + momòria de GPU"
 
 #: ../../source/security/reporting/crash-reporting.md:15
 msgid "Desktop/VR mode"
-msgstr ""
+msgstr "Mode escriptori/VR"
 
 #: ../../source/security/reporting/crash-reporting.md:16
 msgid "Machine fingerprint"
-msgstr ""
+msgstr "Empremta digital de la màquina"
 
 #: ../../source/security/reporting/crash-reporting.md:17
 msgid "Metaverse session UUID"
-msgstr ""
+msgstr "UUID de sessió metavers"
