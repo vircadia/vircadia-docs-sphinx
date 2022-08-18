@@ -5,18 +5,21 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
+"Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-08-19 15:21+0000\n"
+"Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/"
+"vircadia-user-docs/script/ca/>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: ../../source/script.rst:9
@@ -384,7 +387,7 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:10
 #: ../../source/script/midi-tutorial.rst:12
 msgid "On This Page"
-msgstr ""
+msgstr "En aquesta pàgina"
 
 #: ../../source/script/get-started-with-scripting.rst:14
 msgid "JavaScript Basics in Vircadia"
@@ -1658,4 +1661,3 @@ msgstr ""
 #: ../../source/script/write-scripts.md:78
 msgid "[Interface Scripts](interface-scripts)"
 msgstr ""
-
