@@ -5,57 +5,61 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
+"Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-08-19 15:21+0000\n"
+"Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/"
+"vircadia-user-docs/create/ca/>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 msgid "Create Tools"
-msgstr ""
+msgstr "Eines de creació"
 
 #: ../../source/create.rst:11 ../../source/create/avatars.rst:3
 msgid "Avatars"
-msgstr ""
+msgstr "Avatars"
 
 #: ../../source/create.rst:11 ../../source/create/wearables.md:6
+#, fuzzy
 msgid "Wearables"
-msgstr ""
+msgstr "Complements portables"
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
 msgid "Entities"
-msgstr ""
+msgstr "Entitats"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:54
 #: ../../source/create/3d-models/get-model.rst:59
 #: ../../source/create/materials.rst:3
 msgid "Materials"
-msgstr ""
+msgstr "Materials"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models.rst:3
 msgid "3D Models"
-msgstr ""
+msgstr "Models 3D"
 
 #: ../../source/create.rst:11 ../../source/create/environments.rst:3
 msgid "Environments"
-msgstr ""
+msgstr "Entorns o ambients"
 
 #: ../../source/create.rst:11 ../../source/create/applications.rst:7
 msgid "Tablet Apps"
-msgstr ""
+msgstr "Aplicacions de tauleta"
 
 #: ../../source/create.rst:3
 msgid "Create"
-msgstr ""
+msgstr "Crear"
 
 #: ../../source/create.rst:5
 msgid ""
@@ -66,42 +70,53 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Vircadia engine is encouraged!"
 msgstr ""
+"Vircadia permet que persones connectades per interès, comunitat o amistat es "
+"reuneixin i expressin la seva creativitat entre elles i/o amb els altres. Et "
+"convidem a personalitzar la teva pròpia experiència creant avatars i "
+"contingut, o desenvolupant aplicacions i scripts. Us engresquem a fer el "
+"metavers realment vostre, crear el vostre propi món o crear el vostre "
+"projecte immersiu utilitzant el motor de Vircadia gratuït i amb llicència "
+"oberta!"
 
 #: ../../source/create.rst:7
 msgid ""
 "No matter your level of expertise, Vircadia provides the tools you need "
 "to create anything you can imagine."
 msgstr ""
+"No importa el vostre nivell d'expertesa; Vircadia ofereix les eines que "
+"necessiteu per crear qualsevol cosa que pugueu imaginar."
 
 #: ../../source/create.rst:9
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
 msgstr ""
+"Al llarg d'aquest capítol aprendreu a crear, compilar i donar vida a la "
+"vostra pròpia experiència de realitat virtual:"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
 msgid "Get Your 3D Model"
-msgstr ""
+msgstr "Obtenir el vostre model 3D"
 
 #: ../../source/create/3d-models.rst:11
 msgid "Import Your 3D Model"
-msgstr ""
+msgstr "Importa el teu model 3D"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:5
 msgid "PBR Materials Guide"
-msgstr ""
+msgstr "Guia de materials PBR"
 
 #: ../../source/create/3d-models.rst:11 ../../source/create/materials.rst:9
 #: ../../source/create/materials/procedural-shaders.rst:3
 msgid "Procedural Shaders for Models and Avatars"
-msgstr ""
+msgstr "Ombrejadors procedimentals per a models i avatars"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/import-animations.rst:3
 msgid "Import Animations"
-msgstr ""
+msgstr "Importar animacions"
 
 #: ../../source/create/3d-models.rst:5
 msgid ""
@@ -110,6 +125,10 @@ msgid ""
 " You can get your 3D model by creating your own or sourcing it "
 "externally. We only support 3D models in the OBJ, FBX, and glTF formats."
 msgstr ""
+"Els models 3D són :doc:`entitats <entities>` que representen objectes que us "
+"agradaria veure al món, com ara una font d'aigua, un castell o una tassa de "
+"cafè. Podeu obtenir el vostre model 3D creant-lo vostres mateixos o obtenint-"
+"lo de manera externa. Només s'admeten models 3D en formats OBJ, FBX i glTF."
 
 #: ../../source/create/3d-models.rst:7
 msgid ""
@@ -118,17 +137,24 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light as they would (approximately) in real life."
 msgstr ""
+"L'aspecte d'un model 3D està controlat pels seus materials. Els materials "
+"suportats a Vircadia són de Renderització Basada en Física (PBR, per les "
+"inicials en anglès). Això vol dir que els materials d'un model 3D "
+"reflectiran o absorbiran la llum com ho farien (aproximadament) a la vida "
+"real."
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**En aquesta secció:**"
 
 #: ../../source/create/3d-models/get-model.rst:5
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Vircadia."
 msgstr ""
+"Tots els models 3D han d'estar en format FBX, glTF o OBJ i tenir materials "
+"suportats per Vircadia."
 
 #: ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -152,11 +178,11 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:9
 #: ../../source/create/tools.rst:12
 msgid "On This Page"
-msgstr ""
+msgstr "En aquesta pàgina"
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
-msgstr ""
+msgstr "Obtenir models 3D a les botigues de contingut 3D"
 
 #: ../../source/create/3d-models/get-model.rst:14
 msgid ""
@@ -164,6 +190,9 @@ msgid ""
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
 " models from such sites:"
 msgstr ""
+"Hi ha molts llocs web de contingut 3D en línia que contenen models que podeu "
+"comprar o obtenir de forma gratuïta. Tingueu en compte el següent a l'hora "
+"d'obtenir models 3D d'aquests llocs:"
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -9449,4 +9478,3 @@ msgstr ""
 #: ../../source/create/wearables.md:44
 msgid "[Put On Wearables](../explore/personalize/add-wearables)"
 msgstr ""
-
