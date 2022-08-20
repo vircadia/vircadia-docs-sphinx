@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: 2022-08-19 15:21+0000\n"
+"PO-Revision-Date: 2022-08-22 08:21+0000\n"
 "Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ca/>\n"
@@ -31,9 +31,8 @@ msgid "Avatars"
 msgstr "Avatars"
 
 #: ../../source/create.rst:11 ../../source/create/wearables.md:6
-#, fuzzy
 msgid "Wearables"
-msgstr "Complements portables"
+msgstr "Complements portables (wearables)"
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
 msgid "Entities"
@@ -200,6 +199,10 @@ msgid ""
 "before you use it. It is your responsibility to ensure that you have "
 "sufficient rights to use the content."
 msgstr ""
+"**Comproveu les condicions de llicència:** assegureu-vos de comprovar les "
+"condicions de llicència d'un model abans d'utilitzar-lo. És la vostra "
+"responsabilitat assegurar-vos que teniu els drets suficients per utilitzar "
+"el contingut."
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -208,6 +211,10 @@ msgid ""
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
 msgstr ""
+"Quan feu disponible un model 3D al vostre servidor Vircadia, els visitants "
+"reben els enllaços a aquests fitxers de la mateixa manera que ho farien quan "
+"veuen una imatge en un lloc web. Hauríeu d'estar segurs que teniu els drets "
+"per redistribuir aquest contingut 3D."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -215,6 +222,9 @@ msgid ""
 "textures. If that happens, first check to see if the textures are "
 "included."
 msgstr ""
+"**Comproveu els materials:** és possible que trobeu que al model li poden "
+"faltar les seves textures. Si això passa, primer comproveu si les textures "
+"estan incloses."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -222,20 +232,26 @@ msgid ""
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
+"Si un model es carrega a Vircadia i no es veu bé, podeu també trobar "
+"informació d'error als registres de la interfície. Vegeu `On puc trobar els "
+"fitxers de registre de la interfície? <../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
-msgstr ""
+msgstr "Crear el vostre propi model 3D"
 
 #: ../../source/create/3d-models/get-model.rst:26
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
 msgstr ""
+"Podeu crear el vostre propi model 3D amb programari de modelatge 3D com ara "
+"Blender o Maya. Utilitzeu qualsevol programari de la vostra elecció sempre "
+"que:"
 
 #: ../../source/create/3d-models/get-model.rst:28
 msgid "The 3D model is in the FBX, glTF or OBJ format."
-msgstr ""
+msgstr "El model 3D estigui en format FBX, glTF o OBJ."
 
 #: ../../source/create/3d-models/get-model.rst:29
 msgid ""
@@ -243,16 +259,21 @@ msgid ""
 " guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
+"Els materials del model 3D siguin compatibles amb Vircadia. Utilitzeu la "
+"nostra :doc:`guia de materials <pbr-materials-guide>` per assegurar-vos que "
+"els materials es carreguen correctament."
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
-msgstr ""
+msgstr "Millors Pràctiques"
 
 #: ../../source/create/3d-models/get-model.rst:35
 msgid ""
 "Making 3D models for Vircadia (and VR) is different than making models "
 "for films, videos, and games."
 msgstr ""
+"Fer models en 3D per a Vircadia (i Realitat Virtual) és diferent de fer "
+"models per a pel·lícules, vídeos i jocs."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
