@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-08-10 07:20+0000\n"
+"PO-Revision-Date: 2022-08-22 08:21+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -2309,20 +2309,19 @@ msgid "The look-at vectors are driven by the z-vector of the eye joints."
 msgstr "視線ベクトルは、目の関節の z ベクトルによって駆動します。"
 
 #: ../../source/create/avatars/avatar-standards.md:90
-#, fuzzy
 msgid ""
 "The +z axis of the eye joints should go through the center of the pupil, "
 "and should continue to do so as the eye joint is rotated."
-msgstr "眼球関節の +z "
-"軸は瞳孔の中心を通過し、眼球関節が回転する間も通過し続ける必要があります。"
+msgstr "眼球の＋z軸は瞳孔の中心を通るようにし、眼球を回転させてもその軸が変わらないよ"
+"うにします。"
 
 #: ../../source/create/avatars/avatar-standards.md:92
 msgid "The eye joints are defined in the FST."
-msgstr ""
+msgstr "目の関節は FST で定義されます。"
 
 #: ../../source/create/avatars/avatar-standards.md:94
 msgid "Blendshapes"
-msgstr ""
+msgstr "ブレンドシェイプ（Blendshapes）"
 
 #: ../../source/create/avatars/avatar-standards.md:96
 msgid ""
@@ -2336,121 +2335,134 @@ msgid ""
 "modeling an avatar from scratch, you will likely need to specify your own"
 " facial expressions."
 msgstr ""
+"Vircadiaでは、アバターの顔のアニメーションにブレンドシェイプを使用しています"
+"。ブレンドシェイプは、アバターのメッシュに新しい状態を指定することができ、ア"
+"バターの表情の異なる状態の間を移動することで顔の位置がアニメーションされます"
+"。ブレンドシェイプ・ビヘイビアは、アバターのFSTファイルで定義され、Blender（"
+"Shape Keys）やMayaなどの3Dモデリングツールを使ってアバターメッシュに追加され"
+"ます。AdobeのFuseプログラムとMixamoパイプラインを使えば、ブレンドシェイプをFB"
+"Xの一部としてエクスポートできますが、アバターを一からモデリングする場合は、自"
+"分で顔の表情を指定する必要がある場合が多いでしょう。"
 
 #: ../../source/create/avatars/avatar-standards.md:98
 msgid ""
 "Vircadia avatars support a number of blendshapes for creating different "
 "facial expressions."
-msgstr ""
+msgstr "Vircadiaのアバターは、様々な表情を作るためのブレンドシェイプに対応しています"
+"。"
 
 #: ../../source/create/avatars/avatar-standards.md:100
 msgid "**Basic Blendshapes**"
-msgstr ""
+msgstr "**基本的なブレンドシェイプ（Blendshape）**"
 
 #: ../../source/create/avatars/avatar-standards.md:102
 msgid "`EyeBlink_L`:  Blinking action for the left eye."
-msgstr ""
+msgstr "`EyeBlink_L`: 左目のまばたき。"
 
 #: ../../source/create/avatars/avatar-standards.md:103
 msgid "`EyeBlink_R`: Blicking action for the right eye."
-msgstr ""
+msgstr "`EyeBlink_R`: 右目のまばたき。"
 
 #: ../../source/create/avatars/avatar-standards.md:104
 msgid "`JawOpen`: Opening of the jaw."
-msgstr ""
+msgstr "`JawOpen`: 顎の開き。"
 
 #: ../../source/create/avatars/avatar-standards.md:106
 msgid "**Audio Blendshapes**"
-msgstr ""
+msgstr "**オーディオ ブレンドシェイプ（Blendshape）**"
 
 #: ../../source/create/avatars/avatar-standards.md:108
 msgid "These blendshapes are used when you speak."
-msgstr ""
+msgstr "これらのブレンドシェイプは、話すときに使用されます。"
 
 #: ../../source/create/avatars/avatar-standards.md:110
 msgid ""
 "Your eyebrows are blendshapes that react to a change in volume. They will"
 " move upwards when your voice gets louder. These include:"
-msgstr ""
+msgstr "眉毛は、ボリュームの変化に反応するブレンドシェイプです。あなたの声が大きくな"
+"ると、それらは上に移動します。これらには以下が含まれます："
 
 #: ../../source/create/avatars/avatar-standards.md:112
 msgid "`BrowsU_C`: Center of the brow going up"
-msgstr ""
+msgstr "`BrowsU_C`: 眉の中心を上げる"
 
 #: ../../source/create/avatars/avatar-standards.md:113
 msgid "`BrowsU_L`: Outside corner of the left brow going up"
-msgstr ""
+msgstr "`BrowsU_L`: 左眉の外側の角を上げる"
 
 #: ../../source/create/avatars/avatar-standards.md:114
 msgid "`BrowsU_R`: Outside corner of the right brow going up"
-msgstr ""
+msgstr "`BrowsU_R`: 右眉の外側の角を上げる"
 
 #: ../../source/create/avatars/avatar-standards.md:116
 msgid "Other audio blendshapes are randomly mixed when you speak. These include:"
-msgstr ""
+msgstr "他のオーディオ ブレンドシェイプは、話すときにランダムにミックスされます。これ"
+"らには以下が含まれます："
 
 #: ../../source/create/avatars/avatar-standards.md:118
 msgid "`MouthSmile_L`: Left side of the mouth lifting up to a smile"
-msgstr ""
+msgstr "`MouthSmile_L`: 口の左側を上げて微笑む"
 
 #: ../../source/create/avatars/avatar-standards.md:119
 msgid "`MouthSmile_R`: Right side of the mouth lifting up to a smile"
-msgstr ""
+msgstr "`MouthSmile_R`: 口の右側を上げて微笑む"
 
 #: ../../source/create/avatars/avatar-standards.md:120
 msgid "`LipsFunnel`: Funneling of the lips, as when you say \"Oh!\""
-msgstr ""
+msgstr "`LipsFunnel`: 「ああ!」と言うときのように、唇の漏斗"
 
 #: ../../source/create/avatars/avatar-standards.md:121
 msgid "`LipsUpperClose`:  Upper lips rolled inwards"
-msgstr ""
+msgstr "`LipsUpperClose`: 上唇が内側に丸まる"
 
 #: ../../source/create/avatars/avatar-standards.md:123
 msgid "**Eyelid Offset**"
-msgstr ""
+msgstr "**まぶたのオフセット**"
 
 #: ../../source/create/avatars/avatar-standards.md:125
 msgid ""
 "To ensure that the top of the eyelid rests on the iris, blendshapes are "
 "used to track the current position of the eye along with your head "
 "orientation."
-msgstr ""
+msgstr "まぶたの上部が虹彩の上にあることを確認するために、ブレンドシェイプを使用して"
+"、頭の向きとともに目の現在の位置を追跡します。"
 
 #: ../../source/create/avatars/avatar-standards.md:127
 msgid "`EyeBlink_L`: Blinking action for the left eye"
-msgstr ""
+msgstr "`EyeBlink_L`: 左目のまばたき"
 
 #: ../../source/create/avatars/avatar-standards.md:128
 msgid "`EyeBlink_R`: Blicking action for the right eye"
-msgstr ""
+msgstr "`EyeBlink_R`: 右目のまばたき"
 
 #: ../../source/create/avatars/avatar-standards.md:129
 msgid "`EyeOpen_L`: Opening of left eye"
-msgstr ""
+msgstr "`EyeOpen_L`: 左目を開く"
 
 #: ../../source/create/avatars/avatar-standards.md:130
 msgid "`EyeOpen_R`: Opening of right eye"
-msgstr ""
+msgstr "`EyeOpen_R`: 右目を開く"
 
 #: ../../source/create/avatars/avatar-standards.md:131
 msgid "`BrowsD_L`: Outside corner of the left brow moving down"
-msgstr ""
+msgstr "`BrowsD_L`: 左眉の外側の角を下げる"
 
 #: ../../source/create/avatars/avatar-standards.md:132
 msgid "`BrowsD_R`: Outside corner of the right brow moving down"
-msgstr ""
+msgstr "`BrowsD_R`: 右眉の外側の角を下げる"
 
 #: ../../source/create/avatars/avatar-standards.md:135
 msgid ""
 "We apply a small procedural offset to the blendshape coefficients to "
 "prevent sleepy or crazy eye lids:"
-msgstr ""
+msgstr "ブレンドシェープの係数にわずかなプロシージャ的オフセットを適用し、眠そうなま"
+"ぶたやおかしなまぶたにならないようにしています。"
 
 #: ../../source/create/avatars/avatar-standards.md:137
 msgid ""
 "If you are looking straight ahead: The `EyeBlink` and `EyeOpen` "
 "coefficients will be `0`."
-msgstr ""
+msgstr "まっすぐ前を見ている場合: `EyeBlink` および `EyeOpen` 係数は `0` になります。"
 
 #: ../../source/create/avatars/avatar-standards.md:138
 msgid ""
@@ -2459,6 +2471,9 @@ msgid ""
 "respectively at `16.3` degrees. This will have the effect of raising your"
 " lids and brows as you look upward."
 msgstr ""
+"目が上を向き始めたら: `EyeBlink` , `EyeOpen` , `BrowsU` の値が変化し始め、"
+"それぞれ `-1` , `1` , `0.5` の値で `16.3` 度まで到達します。これは、上を向い"
+"たときにまぶたと眉毛を上げる効果があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:139
 msgid ""
@@ -2467,6 +2482,9 @@ msgid ""
 "`EyeOpen` will reach a value of `0.5` at 27 degrees. This will have the "
 "effect of lowering your lids as you look downward."
 msgstr ""
+"目が下を向き始めたら: `EyeBlink` と `EyeOpen` の値が変化し始める。 `EyeBlink`"
+" は `32` 度で `0.5` の値になります。 `EyeOpen` は27度で `0.5` "
+"の値になります。これは下を向くと瞼が下がるという効果があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:142
 msgid ""
@@ -2474,24 +2492,28 @@ msgid ""
 "directly in your avatar's FST file. In the FST file, blendshapes are "
 "defined with the syntax:"
 msgstr ""
+"ブレンドシェープの変更は、3Dモデリングツールで行うか、アバターのFSTファイルで"
+"直接行うことができます。FSTファイルでは、ブレンドシェイプは以下のシンタックス"
+"で定義されます。"
 
 #: ../../source/create/avatars/avatar-standards.md:148
 msgid "Here is an example of modifying your blendshapes in your FST file:"
-msgstr ""
+msgstr "FSTファイル内のブレンドシェイプを修正する例をご紹介します。"
 
 #: ../../source/create/avatars/avatar-standards.md:167
 msgid "**ReadyPlayerMe Blendshapes**"
-msgstr ""
+msgstr "**ReadyPlayerMe Blendshapes（ReadyPlayerMe ブレンドシェイプ）**"
 
 #: ../../source/create/avatars/avatar-standards.md:169
 msgid ""
 "ReadyPlayerMe blendshapes are converted into Vircadia blendshapes "
 "automatically."
-msgstr ""
+msgstr "ReadyPlayerMeのブレンドシェイプは、Vircadiaのブレンドシェイプに自動的に変換さ"
+"れます。"
 
 #: ../../source/create/avatars/avatar-standards.md:171
 msgid "**Unsupported Blendshapes**"
-msgstr ""
+msgstr "**サポートされていないブレンドシェイプ**"
 
 #: ../../source/create/avatars/avatar-standards.md:173
 msgid ""
@@ -2499,210 +2521,213 @@ msgid ""
 "blendshapes below. Alternatively, an .fst file can be used to remap the "
 "blendshapes to any of the ones below."
 msgstr ""
+"アバターでブレンドシェイプを使用するには、以下のブレンドシェイプと一致させる"
+"必要があります。また、.fstファイルを使用して、ブレンドシェイプを下記のどれか"
+"にリマップすることもできます。"
 
 #: ../../source/create/avatars/avatar-standards.md:175
 msgid "**Eye Blendshapes**"
-msgstr ""
+msgstr "**Eye ブレンドシェイプ**"
 
 #: ../../source/create/avatars/avatar-standards.md:177
 msgid "EyeBlink_L"
-msgstr ""
+msgstr "EyeBlink_L"
 
 #: ../../source/create/avatars/avatar-standards.md:178
 msgid "EyeBlink_R"
-msgstr ""
+msgstr "EyeBlink_R"
 
 #: ../../source/create/avatars/avatar-standards.md:179
 msgid "EyeSquint_L"
-msgstr ""
+msgstr "EyeSquint_L"
 
 #: ../../source/create/avatars/avatar-standards.md:180
 msgid "EyeSquint_R"
-msgstr ""
+msgstr "EyeSquint_R"
 
 #: ../../source/create/avatars/avatar-standards.md:181
 msgid "EyeDown_L"
-msgstr ""
+msgstr "EyeDown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:182
 msgid "EyeDown_R"
-msgstr ""
+msgstr "EyeDown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:183
 msgid "EyeIn_L"
-msgstr ""
+msgstr "EyeIn_L"
 
 #: ../../source/create/avatars/avatar-standards.md:184
 msgid "EyeIn_R"
-msgstr ""
+msgstr "EyeIn_R"
 
 #: ../../source/create/avatars/avatar-standards.md:185
 msgid "EyeOpen_L"
-msgstr ""
+msgstr "EyeOpen_L"
 
 #: ../../source/create/avatars/avatar-standards.md:186
 msgid "EyeOpen_R"
-msgstr ""
+msgstr "EyeOpen_R"
 
 #: ../../source/create/avatars/avatar-standards.md:187
 msgid "EyeOut_L"
-msgstr ""
+msgstr "EyeOut_L"
 
 #: ../../source/create/avatars/avatar-standards.md:188
 msgid "EyeOut_R"
-msgstr ""
+msgstr "EyeOut_R"
 
 #: ../../source/create/avatars/avatar-standards.md:189
 msgid "EyeUp_L"
-msgstr ""
+msgstr "EyeUp_L"
 
 #: ../../source/create/avatars/avatar-standards.md:190
 msgid "EyeUp_R"
-msgstr ""
+msgstr "EyeUp_R"
 
 #: ../../source/create/avatars/avatar-standards.md:191
 msgid "BrowsD_L"
-msgstr ""
+msgstr "BrowsD_L"
 
 #: ../../source/create/avatars/avatar-standards.md:192
 msgid "BrowsD_R"
-msgstr ""
+msgstr "BrowsD_R"
 
 #: ../../source/create/avatars/avatar-standards.md:193
 msgid "BrowsU_C"
-msgstr ""
+msgstr "BrowsU_C"
 
 #: ../../source/create/avatars/avatar-standards.md:194
 msgid "BrowsU_L"
-msgstr ""
+msgstr "BrowsU_L"
 
 #: ../../source/create/avatars/avatar-standards.md:195
 msgid "BrowsU_R"
-msgstr ""
+msgstr "BrowsU_R"
 
 #: ../../source/create/avatars/avatar-standards.md:197
 msgid "**Jaw Blendshapes**"
-msgstr ""
+msgstr "**顎のBlendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:199
 msgid "JawFwd"
-msgstr ""
+msgstr "JawFwd"
 
 #: ../../source/create/avatars/avatar-standards.md:200
 msgid "JawLeft"
-msgstr ""
+msgstr "JawLeft"
 
 #: ../../source/create/avatars/avatar-standards.md:201
 msgid "JawOpen"
-msgstr ""
+msgstr "JawOpen"
 
 #: ../../source/create/avatars/avatar-standards.md:202
 msgid "JawRight"
-msgstr ""
+msgstr "JawRight"
 
 #: ../../source/create/avatars/avatar-standards.md:203
 msgid "MouthLeft"
-msgstr ""
+msgstr "MouthLeft"
 
 #: ../../source/create/avatars/avatar-standards.md:204
 msgid "MouthRight"
-msgstr ""
+msgstr "MouthRight"
 
 #: ../../source/create/avatars/avatar-standards.md:205
 msgid "MouthFrown_L"
-msgstr ""
+msgstr "MouthFrown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:206
 msgid "MouthFrown_R"
-msgstr ""
+msgstr "MouthFrown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:207
 msgid "MouthSmile_L"
-msgstr ""
+msgstr "MouthSmile_L"
 
 #: ../../source/create/avatars/avatar-standards.md:208
 msgid "MouthSmile_R"
-msgstr ""
+msgstr "MouthSmile_R"
 
 #: ../../source/create/avatars/avatar-standards.md:209
 msgid "MouthDimple_L"
-msgstr ""
+msgstr "MouthDimple_L"
 
 #: ../../source/create/avatars/avatar-standards.md:210
 msgid "MouthDimple_R"
-msgstr ""
+msgstr "MouthDimple_R"
 
 #: ../../source/create/avatars/avatar-standards.md:212
 msgid "**Lip Blendshapes**"
-msgstr ""
+msgstr "**唇Blendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:214
 msgid "LipsStretch_L"
-msgstr ""
+msgstr "LipsStretch_L"
 
 #: ../../source/create/avatars/avatar-standards.md:215
 msgid "LipsStretch_R"
-msgstr ""
+msgstr "LipsStretch_R"
 
 #: ../../source/create/avatars/avatar-standards.md:216
 msgid "LipsUpperClose"
-msgstr ""
+msgstr "LipsUpperClose"
 
 #: ../../source/create/avatars/avatar-standards.md:217
 msgid "LipsLowerClose"
-msgstr ""
+msgstr "LipsLowerClose"
 
 #: ../../source/create/avatars/avatar-standards.md:218
 msgid "LipsFunnel"
-msgstr ""
+msgstr "LipsFunnel"
 
 #: ../../source/create/avatars/avatar-standards.md:219
 msgid "LipsPucker"
-msgstr ""
+msgstr "LipsPucker"
 
 #: ../../source/create/avatars/avatar-standards.md:220
 msgid "Puff"
-msgstr ""
+msgstr "Puff"
 
 #: ../../source/create/avatars/avatar-standards.md:222
 msgid "**Mouth, Cheek and User Blendshapes**"
-msgstr ""
+msgstr "**Mouth, Cheek and User Blendshape"
 
 #: ../../source/create/avatars/avatar-standards.md:224
 msgid "CheekSquint_L"
-msgstr ""
+msgstr "CheekSquint_L"
 
 #: ../../source/create/avatars/avatar-standards.md:225
 msgid "CheekSquint_R"
-msgstr ""
+msgstr "CheekSquint_R"
 
 #: ../../source/create/avatars/avatar-standards.md:227
 msgid "MouthClose"
-msgstr ""
+msgstr "MouthClose"
 
 #: ../../source/create/avatars/avatar-standards.md:228
 msgid "MouthUpperUp_L"
-msgstr ""
+msgstr "MouthUpperUp_L"
 
 #: ../../source/create/avatars/avatar-standards.md:229
 msgid "MouthUpperUp_R"
-msgstr ""
+msgstr "MouthUpperUp_R"
 
 #: ../../source/create/avatars/avatar-standards.md:230
 msgid "MouthLowerDown_L"
-msgstr ""
+msgstr "MouthLowerDown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:231
 msgid "MouthLowerDown_R"
-msgstr ""
+msgstr "MouthLowerDown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:232
 msgid "MouthPress_L"
-msgstr ""
+msgstr "MouthPress_L"
 
 #: ../../source/create/avatars/avatar-standards.md:233
 msgid "MouthPress_R"
-msgstr ""
+msgstr "MouthPress_R"
 
 #: ../../source/create/avatars/avatar-standards.md:234
 msgid "MouthShrugLower"
