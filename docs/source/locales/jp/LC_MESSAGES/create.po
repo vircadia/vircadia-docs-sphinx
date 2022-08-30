@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-08-22 08:21+0000\n"
+"PO-Revision-Date: 2022-08-31 16:22+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -2731,51 +2731,51 @@ msgstr "MouthPress_R"
 
 #: ../../source/create/avatars/avatar-standards.md:234
 msgid "MouthShrugLower"
-msgstr ""
+msgstr "MouthShrugLower"
 
 #: ../../source/create/avatars/avatar-standards.md:235
 msgid "MouthShrugUpper"
-msgstr ""
+msgstr "MouthShrugUpper"
 
 #: ../../source/create/avatars/avatar-standards.md:236
 msgid "NoseSneer_L"
-msgstr ""
+msgstr "NoseSneer_L"
 
 #: ../../source/create/avatars/avatar-standards.md:237
 msgid "NoseSneer_R"
-msgstr ""
+msgstr "NoseSneer_R"
 
 #: ../../source/create/avatars/avatar-standards.md:238
 msgid "TongueOut"
-msgstr ""
+msgstr "TongueOut"
 
 #: ../../source/create/avatars/avatar-standards.md:240
 msgid "UserBlendshape0"
-msgstr ""
+msgstr "UserBlendshape0"
 
 #: ../../source/create/avatars/avatar-standards.md:241
 msgid "UserBlendshape1"
-msgstr ""
+msgstr "UserBlendshape1"
 
 #: ../../source/create/avatars/avatar-standards.md:242
 msgid "UserBlendshape2"
-msgstr ""
+msgstr "UserBlendshape2"
 
 #: ../../source/create/avatars/avatar-standards.md:243
 msgid "UserBlendshape3"
-msgstr ""
+msgstr "UserBlendshape3"
 
 #: ../../source/create/avatars/avatar-standards.md:244
 msgid "UserBlendshape4"
-msgstr ""
+msgstr "UserBlendshape4"
 
 #: ../../source/create/avatars/avatar-standards.md:245
 msgid "UserBlendshape5"
-msgstr ""
+msgstr "UserBlendshape5"
 
 #: ../../source/create/avatars/avatar-standards.md:246
 msgid "UserBlendshape6"
-msgstr ""
+msgstr "UserBlendshape6"
 
 #: ../../source/create/avatars/avatar-standards.md:247
 msgid "UserBlendshape7"
