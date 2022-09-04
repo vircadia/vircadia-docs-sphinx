@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-08-31 16:22+0000\n"
+"PO-Revision-Date: 2022-09-05 14:21+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -2779,23 +2779,23 @@ msgstr "UserBlendshape6"
 
 #: ../../source/create/avatars/avatar-standards.md:247
 msgid "UserBlendshape7"
-msgstr ""
+msgstr "UserBlendshape7"
 
 #: ../../source/create/avatars/avatar-standards.md:248
 msgid "UserBlendshape8"
-msgstr ""
+msgstr "UserBlendshape8"
 
 #: ../../source/create/avatars/avatar-standards.md:249
 msgid "UserBlendshape9"
-msgstr ""
+msgstr "UserBlendshape9"
 
 #: ../../source/create/avatars/avatar-standards.md:252
 msgid "Other Considerations"
-msgstr ""
+msgstr "その他の考慮事項"
 
 #: ../../source/create/avatars/avatar-standards.md:254
 msgid "File Optimization"
-msgstr ""
+msgstr "ファイルの最適化"
 
 #: ../../source/create/avatars/avatar-standards.md:255
 msgid ""
@@ -2805,6 +2805,11 @@ msgid ""
 " use, the more bandwidth you are using from your servers per load. "
 "Optimally, keep your avatar models under 20 MB."
 msgstr ""
+"コンテンツ制作者は、サーバーの帯域幅に制限があるため（無制限ホストプランの小"
+"冊子を読んでください）、エンドユーザーとコンテンツ制作者の両方にとって、最適"
+"化が重要です。ポリゴン数が多く、テクスチャが大きければ大きいほど、1回の負荷で"
+"サーバーから使用する帯域幅が大きくなります。最適なのは、アバターモデルを20MB"
+"未満に抑えることです。"
 
 #: ../../source/create/avatars/avatar-standards.md:258
 msgid ""
@@ -2817,10 +2822,17 @@ msgid ""
 "smaller size than your roughness for best detail through light reflection"
 " instead of color variation."
 msgstr ""
+"アバター1つにつき、すべてのテクスチャの合計サイズを8MB以下に抑えることをお勧"
+"めします。すべてのテクスチャが1つのファイルに収まっている場合を除き、常に1024"
+"x1024より小さいサイズにする必要があります。複数のテクスチャファイルを使用する"
+"場合は、小さいほどよいでしょう。テクスチャだけでなく、ラフネスとノーマルマッ"
+"ピングによって、より多くの細部が表現できることに留意してください。色の変化で"
+"はなく、光の反射による最高のディテールを得るために、アルベドをラフネスよりも"
+"小さいサイズにしておくことをお勧めします。"
 
 #: ../../source/create/avatars/avatar-standards.md:260
 msgid "Avatar Collision Hulls"
-msgstr ""
+msgstr "アバター コリジョン ハル（Collision Hull）"
 
 #: ../../source/create/avatars/avatar-standards.md:262
 msgid ""
@@ -2829,6 +2841,10 @@ msgid ""
 "invisible area around your avatar that is used to used to detect when "
 "other avatars or entities collide with you."
 msgstr ""
+"異なるアバターを装着すると、それぞれのアバターが異なる衝突形状（_collision hu"
+"ll_）を持つことに気がつくでしょう。コリジョンハルとは、アバターの周りにある見"
+"えない領域のことで、他のアバターやエンティティがあなたと衝突したときに検出す"
+"るために使われるものです。"
 
 #: ../../source/create/avatars/avatar-standards.md:264
 msgid ""
@@ -2840,10 +2856,17 @@ msgid ""
 "hips, and makes a very large collision hull.  To reduce the size of the "
 "collision hull, you can add skeleton joints to your avatar's tail."
 msgstr ""
+"アバターのデザインによって、コリジョンハルは非常に大きくなったり小さくなった"
+"りします。これは、Vircadia がアバターの胴体（腰から頭まで）の形状を分析し、メ"
+"ッシュを囲む最適な形状を見つけようとするために起こります。例えば、アバターの"
+"腰が大きかったり、尻尾が伸びきっていたりすると、Vircadia は尻尾の先端が腰の一"
+"部であると考え、非常に大きなコリジョンハルを作ってしまいます。 コリジョンハル"
+"のサイズを小さくするには、アバターの尻尾にスケルトンジョイントを追加するとよ"
+"いでしょう。"
 
 #: ../../source/create/avatars/avatar-standards.md:267
 msgid "Avatar Thumbnails"
-msgstr ""
+msgstr "アバターのサムネイル"
 
 #: ../../source/create/avatars/avatar-standards.md:269
 msgid ""
@@ -2852,24 +2875,28 @@ msgid ""
 "your avatar is hosted at `https://vircadia.dev/avatar.fbx`, then it will "
 "look for a thumbnail at `https://vircadia.dev/avatar.jpg`."
 msgstr ""
+"アバターアプリは、あなたのアバターと同じ名前と同じURLの場所にある、拡張子が."
+"jpgのサムネイルを探します。例えば、あなたのアバターが `https://vircadia.dev/"
+"avatar.fbx` でホストされている場合、サムネイルは `https://vircadia.dev/avatar"
+".jpg` で検索されます。"
 
 #: ../../source/create/avatars/avatar-standards.md:274
 #: ../../source/create/avatars/blender-tutorial.md:55
 #: ../../source/create/avatars/mixamo-tutorial.md:27
 msgid "[Create Your Own Avatar](create-avatars)"
-msgstr ""
+msgstr "[アバターを作成する](create-avatars)"
 
 #: ../../source/create/avatars/avatar-standards.md:275
 msgid "[Find and Use an Existing Avatar](find-avatars)"
-msgstr ""
+msgstr "[アバターを見つけて使用する](find-avatars)"
 
 #: ../../source/create/avatars/avatar-standards.md:276
 msgid "[Add Flow to Your Avatar](add-flow)"
-msgstr ""
+msgstr "[アバターにフロー（Flow）を追加する](add-flow)"
 
 #: ../../source/create/avatars/blender-tutorial.md:6
 msgid "Tutorial: Modify Materials and Textures Using Blender"
-msgstr ""
+msgstr "チュートリアル: Blender を使用してマテリアルとテクスチャを変更する"
 
 #: ../../source/create/avatars/blender-tutorial.md:8
 msgid ""
@@ -2877,6 +2904,8 @@ msgid ""
 "your avatar and ensure that the materials and textures render correctly "
 "in Vircadia."
 msgstr ""
+"Blenderはオープンソースの3Dモデリングツールで、Vircadiaでアバターを微調整し、"
+"マテリアルやテクスチャを正しくレンダリングするために使用できます。"
 
 #: ../../source/create/avatars/blender-tutorial.md:10
 msgid ""
@@ -2885,16 +2914,22 @@ msgid ""
 "for your avatar. If you don't have one, see our tutorial for [Mixamo"
 "](mixamo-tutorial)."
 msgstr ""
+"このチュートリアルでは、Blenderを使ってアバターにできる簡単な改造を説明します"
+"。アバター用のFBXファイルをインポートする必要があります。お持ちでない方は、[M"
+"ixamo](mixamo-tutorial)のチュートリアルをご覧ください。"
 
 #: ../../source/create/avatars/blender-tutorial.md:12
 msgid "In Blender, go to **File > Import > FBX (.fbx)**."
-msgstr ""
+msgstr "Blender で、**File > Import > FBX (.fbx)** に移動します。"
 
 #: ../../source/create/avatars/blender-tutorial.md:13
 msgid ""
 "Choose your avatar's FBX file and click 'Import FBX'. This will open your"
 " avatar in the main view. ![](_images/import-avatar.png)"
 msgstr ""
+"アバターのFBXファイルを選択し、「Import "
+"FBX」をクリックします。これで、メインビューにアバターが表示されます。![]("
+"_images/import-avatar.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:14
 msgid ""
@@ -2902,32 +2937,35 @@ msgid ""
 " your view using the toolbar at the bottom of the view. ![](_images/view-"
 "materials.png)"
 msgstr ""
+"初期設定では、アバターには素材が表示されません。ビューの下にあるツールバーを"
+"使って変更できます。![](_images/view-materials.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:15
 msgid "To get a better view of your avatar, change the lamp settings:"
-msgstr ""
+msgstr "アバターを見やすくするために、ランプの設定を変更します。"
 
 #: ../../source/create/avatars/blender-tutorial.md:16
 msgid "From the Outliner, click the Lamp node in Blender."
-msgstr ""
+msgstr "Outlinerから、BlenderのLampノードをクリックします。"
 
 #: ../../source/create/avatars/blender-tutorial.md:17
 msgid "For 'Type of Active Data to display and edit', choose the 'Data' icon."
-msgstr ""
+msgstr "「Type of Active Data to display and edit」は、「Data」アイコンを選択します。"
 
 #: ../../source/create/avatars/blender-tutorial.md:18
 msgid "Change the lamp to Sun."
-msgstr ""
+msgstr "ランプをSunに変更します。"
 
 #: ../../source/create/avatars/blender-tutorial.md:19
 msgid "Rotate the Lamp to light up your avatar.![](_images/lamp-settings.png)"
-msgstr ""
+msgstr "ランプを回転させるとアバターが点灯します。![](_images/lamp-settings.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:20
 msgid ""
 "From the Outliner, open the 'Armature' tree and select the item you want "
 "to fine tune. You can also click on the item directly on your model."
-msgstr ""
+msgstr "アウトライナーから「Armature」ツリーを開き、微調整したい項目を選択します。ま"
+"た、モデル上で直接アイテムをクリックすることもできます。"
 
 #: ../../source/create/avatars/blender-tutorial.md:21
 msgid ""
@@ -2937,12 +2975,17 @@ msgid ""
 "follow similar steps for other avatar items.  ![](_images/texture-"
 "material.png)"
 msgstr ""
+"下のツールボックスを使って、各ボディパーツの素材や質感を自由に変更することが"
+"できます。以下に、[アバターのまつ毛を変更する例](#example-update-eyelashes-"
+"from-an-image)を掲載します。他のアバターアイテムも同様の手順で変更することが"
+"できます。"
 
 #: ../../source/create/avatars/blender-tutorial.md:27
 msgid ""
 "When you're done changing your materials and textures, go to **File > "
 "Export > FBX (.fbx)**."
-msgstr ""
+msgstr "マテリアルとテクスチャの変更が終わったら、 **File > Export > FBX (.fbx)** "
+"に移動します。"
 
 #: ../../source/create/avatars/blender-tutorial.md:28
 msgid ""
