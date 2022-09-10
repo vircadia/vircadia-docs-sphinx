@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-09-05 14:21+0000\n"
+"PO-Revision-Date: 2022-09-11 09:21+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -2993,22 +2993,25 @@ msgid ""
 "This makes sure that all of the textures are embedded into your model. "
 "![](_images/blender-export.png)"
 msgstr ""
+"「Path Mode」を「copy」に変更し、「Embed Textures」アイコンをクリックします。"
+"これで、すべてのテクスチャがモデルに埋め込まれたことになります。![](_images/"
+"blender-export.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:29
 msgid "Give your avatar a unique name."
-msgstr ""
+msgstr "アバターにはユニークな名前を付けましょう。"
 
 #: ../../source/create/avatars/blender-tutorial.md:30
 msgid "Click the 'Export FBX' button."
-msgstr ""
+msgstr "「Export FBX」ボタンをクリックします。"
 
 #: ../../source/create/avatars/blender-tutorial.md:32
 msgid "Now, you are ready to bring your avatar into Vircadia."
-msgstr ""
+msgstr "以上で、アバターをVircadiaに投入する準備が整いました。"
 
 #: ../../source/create/avatars/blender-tutorial.md:34
 msgid "Example: Update Eyelashes from an Image"
-msgstr ""
+msgstr "例： 画像からまつ毛を更新する"
 
 #: ../../source/create/avatars/blender-tutorial.md:36
 msgid ""
@@ -3016,10 +3019,12 @@ msgid ""
 "content.s3.amazonaws.com/DomainContent/Event%20/Images/mixamo_eyelashes.png)"
 " to a directory where you will remember."
 msgstr ""
+"[this texture](http://hifi-content.s3.amazonaws.com/DomainContent/Event%20/"
+"Images/mixamo_eyelashes.png)を任意のディレクトリに保存してください。"
 
 #: ../../source/create/avatars/blender-tutorial.md:37
 msgid "From the Outliner, open the 'Armature' tree and select 'Eyelashes'."
-msgstr ""
+msgstr "アウトライナーから「Armature」ツリーを開き、「Eyelashes」を選択します。"
 
 #: ../../source/create/avatars/blender-tutorial.md:38
 msgid ""
