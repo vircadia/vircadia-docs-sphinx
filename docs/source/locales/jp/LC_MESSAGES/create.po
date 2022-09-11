@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-09-11 09:21+0000\n"
+"PO-Revision-Date: 2022-09-12 14:21+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -3030,51 +3030,58 @@ msgstr "アウトライナーから「Armature」ツリーを開き、「Eyelash
 msgid ""
 "In the Toolbox below, click the 'Materials' icon. ![](_images/materials-"
 "tab.png)"
-msgstr ""
+msgstr "下のツールボックスで、「Materials」アイコンをクリックします。 ![](_images/"
+"materials-tab.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:39
 msgid ""
 "Click the '+' button next to the material list to create a new material "
 "slot."
-msgstr ""
+msgstr "材料リストの横にある「＋」ボタンをクリックすると、新しい材料スロットが作成さ"
+"れます。"
 
 #: ../../source/create/avatars/blender-tutorial.md:40
 msgid "Click '+ New' to add a new material."
-msgstr ""
+msgstr "新規に素材を追加する場合は、「+New」をクリックします。"
 
 #: ../../source/create/avatars/blender-tutorial.md:41
 msgid "Rename the new material to 'lashes'."
-msgstr ""
+msgstr "新しい素材の名前を「lashes」に変更します。"
 
 #: ../../source/create/avatars/blender-tutorial.md:42
 msgid ""
 "At the bottom of the Blender window, switch to 'Edit Mode'. ![](_images"
 "/edit-mode.png)"
-msgstr ""
+msgstr "Blenderウィンドウの下部で、「Edit Mode」に切り替えます。![](_images/edit-mode"
+".png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:43
 msgid "Under the material list, click 'Assign'."
-msgstr ""
+msgstr "素材リストの下にある「Assign」をクリックします。"
 
 #: ../../source/create/avatars/blender-tutorial.md:44
 msgid ""
 "Scroll to the 'Transparency' section. Check the Transparency box and "
 "change the 'Alpha' value to `0.00`. ![](_images/transparency-setting.png)"
 msgstr ""
+"「Transparency」セクションまでスクロールします。透明度'のボックスをチェックし"
+"、「Alpha」の値を `0.00` に変更します。![](_images/transparency-setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:45
 msgid ""
 "Scroll to the 'Specular' section. Set the specular color to black. "
 "![](_images/specular-setting.png)"
 msgstr ""
+"「Specular」セクションまでスクロールします。スペキュラカラーを黒に設定します"
+"。![](_images/specular-setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:46
 msgid "Change to the 'Textures' view. ![](_images/texture-tab.png)"
-msgstr ""
+msgstr "「Textures」ビューに変更します。![](_images/texture-tab.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:47
 msgid "Click '+ New' to add a new texture."
-msgstr ""
+msgstr "新規にテクスチャを追加する場合は、「+New」をクリックします。"
 
 #: ../../source/create/avatars/blender-tutorial.md:48
 msgid ""
@@ -3082,6 +3089,9 @@ msgid ""
 "named 'mixamo_eyelashes' you previously downloaded. Click 'Open Image'. "
 "![](_images/image-setting.png)"
 msgstr ""
+"「Image 」セクションにスクロールします。「開く」をクリックし、以前ダウンロー"
+"ドした「mixamo_eyelashes」という名前のまつ毛のテクスチャを見つけます。「画像"
+"を開く」をクリックします。![](_images/image-setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:49
 msgid ""
