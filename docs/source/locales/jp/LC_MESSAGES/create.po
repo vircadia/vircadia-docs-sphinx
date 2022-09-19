@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-09-12 14:21+0000\n"
+"PO-Revision-Date: 2022-09-19 14:22+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -3097,17 +3097,20 @@ msgstr ""
 msgid ""
 "Check the 'Alpha' options in the following sections: Image, Preview, "
 "Texture, Influence"
-msgstr ""
+msgstr "以下のセクションの「Alpha」オプションにチェックを入れます：Image, Preview, "
+"Texture, Influence"
 
 #: ../../source/create/avatars/blender-tutorial.md:50
 msgid ""
 "Go to **File > External Data > Pack All Into .blend**. This will include "
 "the texture in your model."
 msgstr ""
+"**File > External Data > Pack All Into ."
+"blend**に進みます。以上で、テクスチャがモデルに含まれるようになります。"
 
 #: ../../source/create/avatars/blender-tutorial.md:54
 msgid "[Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)"
-msgstr ""
+msgstr "[チュートリアル：Mixamoでアバターをリグる](mixamo-tutorial)"
 
 #: ../../source/create/avatars/create-avatars.rst:2
 msgid ""
@@ -3116,20 +3119,23 @@ msgid ""
 "never been supported (the Unity avatar exporter will not be able to fix "
 "that)"
 msgstr ""
+"この文書は古く、将来的に見直される予定です。FIXME: VRoid Studio "
+"のようなスケルトンがサポートされていないサービスについても言及しています（"
+"Unity アバターエクスポーターでは修正できません）"
 
 #: ../../source/create/avatars/create-avatars.rst:9
 msgid "There are three ways to get your own avatar. You can either:"
-msgstr ""
+msgstr "自分のアバターを手に入れるには、3つの方法があります。いずれかです："
 
 #: ../../source/create/avatars/create-avatars.rst:11
 msgid ""
 "Create your avatar from scratch using 3D modeling tools such as Mixamo "
 "and Blender"
-msgstr ""
+msgstr "MixamoやBlenderなどの3Dモデリングツールを使って、アバターを最初から作ります"
 
 #: ../../source/create/avatars/create-avatars.rst:12
 msgid "Use MakeHuman or VRoid Studio to create a human or anime avatar"
-msgstr ""
+msgstr "MakeHumanやVRoid Studioを使って人間やアニメのアバターを作成します"
 
 #: ../../source/create/avatars/create-avatars.rst:13
 msgid ""
