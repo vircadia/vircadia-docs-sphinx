@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-09-20 15:22+0000\n"
+"PO-Revision-Date: 2022-10-10 18:04+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -3173,39 +3173,40 @@ msgstr "**セクション**"
 
 #: ../../source/create/avatars/create-avatars.rst:32
 msgid "Create an Avatar from Scratch"
-msgstr ""
+msgstr "アバターをいちから作る"
 
 #: ../../source/create/avatars/create-avatars.rst:34
 msgid "The steps involved in creating your avatar are:"
-msgstr ""
+msgstr "アバターの作成手順は以下の通りです："
 
 #: ../../source/create/avatars/create-avatars.rst:36
 msgid "Create an avatar with 3D character modeling tool such as Blender or Maya."
-msgstr ""
+msgstr "BlenderやMayaなどの3Dキャラクターモデリングツールでアバターを作成する。"
 
 #: ../../source/create/avatars/create-avatars.rst:37
 msgid "Rig and animate your avatar with an animation tool such as Mixamo."
-msgstr ""
+msgstr "Mixamoなどのアニメーションツールを使って、アバターのリグやアニメーションを作"
+"成します。"
 
 #: ../../source/create/avatars/create-avatars.rst:38
 msgid "Fine tune your avatar using a tool such as Blender or Maya."
-msgstr ""
+msgstr "BlenderやMayaなどのツールを使って、アバターを微調整します。"
 
 #: ../../source/create/avatars/create-avatars.rst:39
 msgid "Package the model in Vircadia for use as an avatar."
-msgstr ""
+msgstr "アバターとして使用するために、モデルをVircadiaでパッケージングします。"
 
 #: ../../source/create/avatars/create-avatars.rst:41
 msgid ":doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`"
-msgstr ""
+msgstr ":doc:`Mixamo でアバターを作る <mixamo-tutorial>`"
 
 #: ../../source/create/avatars/create-avatars.rst:42
 msgid ":doc:`Modify Materials and Textures with Blender <blender-tutorial>`"
-msgstr ""
+msgstr ":doc:`Blenderでマテリアルとテクスチャを変更する <blender-tutorial>`"
 
 #: ../../source/create/avatars/create-avatars.rst:46
 msgid "Community Tools for Avatars"
-msgstr ""
+msgstr "アバター用コミュニティツール"
 
 #: ../../source/create/avatars/create-avatars.rst:48
 msgid ""
@@ -3214,12 +3215,18 @@ msgid ""
 "toolkits, skeletons and more to help you create content, including "
 "avatars. Here are a few for you to play around with."
 msgstr ""
+"アバターを作成する際には、Vircadiaがオープンソースのプロジェクトであることを"
+"思い出してください。コミュニティのメンバーの多くが、プラグイン、アドオン、ツ"
+"ールキット、スケルトンなどを作成し、アバターを含むコンテンツの作成に役立てて"
+"います。ここでは、そのいくつかをご紹介します。"
 
 #: ../../source/create/avatars/create-avatars.rst:52
 msgid ""
 "`Blender Add-on by Menithal <https://github.com/Menithal/Blender-"
 "Metaverse-Addon>`_"
 msgstr ""
+"Menithal による `Blender アドオン <https://github.com/Menithal/Blender-"
+"Metaverse-Addon>`"
 
 #: ../../source/create/avatars/create-avatars.rst:54
 msgid ""
