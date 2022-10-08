@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: 2022-08-19 15:21+0000\n"
+"PO-Revision-Date: 2022-10-10 18:04+0000\n"
 "Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/host/ca/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: ../../source/host.rst:11
@@ -174,7 +174,7 @@ msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:25
 msgid "Textures"
-msgstr ""
+msgstr "Textures"
 
 #: ../../source/host/add-content/bake-content.rst:25
 msgid ""
