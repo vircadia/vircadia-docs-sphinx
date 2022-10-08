@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: 2022-08-22 08:21+0000\n"
+"PO-Revision-Date: 2022-10-10 18:04+0000\n"
 "Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ca/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -281,6 +281,9 @@ msgid ""
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
 msgstr ""
+"Els models 3D per a la Realitat Virtual es representen dues vegades (per a "
+"l'ull dret i per a l'esquerra): això vol dir que el nombre de polígons del "
+"model i el nombre de materials que utilitzeu afectaran el rendiment."
 
 #: ../../source/create/3d-models/get-model.rst:38
 msgid ""
@@ -289,12 +292,18 @@ msgid ""
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
 msgstr ""
+"La majoria dels visors de Realitat Virtual funcionen a 90 Hz o més: haureu "
+"de mantenir la velocitat a 90 fps (fotogrames per segon) i anar amb compte "
+"amb la mida del vostre model. Els models massa grans o molt complexos poden "
+"alentir la velocitat de fotogrames i fer que la gent es maregi."
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid ""
 "We've listed the best practices for creating 3D models for Vircadia (and "
 "VR)."
 msgstr ""
+"Hem enumerat les millors pràctiques per crear models 3D per a Vircadia (i "
+"RV)."
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -305,15 +314,15 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 msgid "Property"
-msgstr ""
+msgstr "Propietat"
 
 #: ../../source/create/3d-models/get-model.rst:43
 msgid "Best Practice"
-msgstr ""
+msgstr "Millor Pràctica"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid "Polycount"
-msgstr ""
+msgstr "Policompte"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid ""
@@ -321,24 +330,30 @@ msgid ""
 "high, but not too low either. For example 50000 Polygons should be more "
 "than enough for a detailed avatar."
 msgstr ""
+"El recompte hauria de semblar-se al d'un model per a un joc de tauleta: no "
+"massa alt, però tampoc massa baix. Per exemple, 50.000 polígons haurien de "
+"ser més que suficients per a un avatar detallat."
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
-msgstr ""
+msgstr "Bucles de cantonada"
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Remove edge loops that are not needed."
-msgstr ""
+msgstr "Traieu els bucles de cantonada que no siguin necessaris."
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid "Mesh"
-msgstr ""
+msgstr "Malla"
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid ""
 "Clean the mesh to make sure there are no N-gons and no coplanar faces. "
 "Any good 3D modelling software should do this on export."
 msgstr ""
+"Netegeu la malla per assegurar-vos que no hi hagi cap N-gons ni cares "
+"coplanars. Qualsevol bon programari de modelatge 3D hauria de fer-ho a "
+"l'hora d'exportar."
 
 #: ../../source/create/3d-models/get-model.rst:54
 msgid ""
@@ -347,10 +362,15 @@ msgid ""
 "create a robot, all its pieces should share one UV map, instead of giving"
 " its hands, feet, or face separate materials and UV maps."
 msgstr ""
+"Intenteu sempre de crear mapes d'Atles. Quan cada part del vostre contingut "
+"comparteix el mateix material i espai UV, és un mapa d'Atles. Per exemple, "
+"si creeu un robot, totes les seves peces haurien de compartir un mapa UV, en "
+"lloc de donar-li a les mans, als peus o a la cara materials i mapes UV "
+"separats."
 
 #: ../../source/create/3d-models/get-model.rst:59
 msgid "Vircadia’s engine only supports one UV mapping per material."
-msgstr ""
+msgstr "El motor de Vircadia només admet un mapa UV per material."
 
 #: ../../source/create/3d-models/get-model.rst:61
 #: ../../source/create/3d-models/get-model.rst:64
@@ -362,7 +382,7 @@ msgstr ""
 #: ../../source/create/3d-models/pbr-materials-guide.rst:27
 #: ../../source/create/avatars/avatar-standards.md:257
 msgid "Textures"
-msgstr ""
+msgstr "Textures"
 
 #: ../../source/create/3d-models/get-model.rst:61
 msgid ""
