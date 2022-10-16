@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-10-10 18:04+0000\n"
+"PO-Revision-Date: 2022-10-17 05:59+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -3234,63 +3234,78 @@ msgid ""
 "content creation and importing for the Vircadia Metaverse Platform. It "
 "features:"
 msgstr ""
+"プラグイン(\"Project Hermes\") は、Vircadia Metaverse Platformのコンテンツ作"
+"成とインポートをより簡単にするためのBlender用プラグインです。特徴："
 
 #: ../../source/create/avatars/create-avatars.rst:56
 msgid ""
 "**Material Tools**: Allows for easier pipeline to apply materials to "
 "objects so that they are ready to use in Vircadia."
 msgstr ""
+"**Material Tools**: Vircadiaですぐに使えるように、オブジェクトにマテリアルを"
+"適用するパイプラインが簡単になりました。"
 
 #: ../../source/create/avatars/create-avatars.rst:57
 msgid ""
 "**Armature Tools**: Adds a skeleton that is compatible with Vircadia and "
 "let you configure bone names for use in advanced scripts."
 msgstr ""
+"**Armature Tools**: Vircadiaと互換性のあるスケルトンを追加し、高度なスクリプ"
+"トで使用するために骨の名前を設定することができます。"
 
 #: ../../source/create/avatars/create-avatars.rst:58
 msgid ""
 "**Avatar Converters**: Translates and fixes models and materials from MMD"
 " and Mixamo so that they work in Vircadia."
-msgstr ""
+msgstr "**Avatar Converters**: "
+"MMDやMixamoのモデルや素材をVircadiaで使えるように移行・修正します。"
 
 #: ../../source/create/avatars/create-avatars.rst:59
 msgid ""
 "**Export Tools**: Exports avatars and scenes so that they can be used in "
 "Vircadia."
-msgstr ""
+msgstr "**Export Tools**: "
+"アバターとシーンをエクスポートして、Vircadiaで使用できるようにします。"
 
 #: ../../source/create/avatars/create-avatars.rst:60
 msgid ""
 "**Import Tools**: Imports primitive entities from Vircadia so that you "
 "can make modifications to them."
 msgstr ""
+"**Import Tools**: Vircadiaからプリミティブなエンティティをインポートし、それ"
+"らに変更を加えることができるようにします。"
 
 #: ../../source/create/avatars/create-avatars.rst:62
 msgid ""
 "Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon "
 "<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 msgstr ""
+"こちらからインストールしてください：`https://github.com/Menithal/Blender-"
+"Metaverse-Addon <https://github.com/Menithal/Blender-Metaverse-Addon>`"
 
 #: ../../source/create/avatars/create-avatars.rst:64
 msgid ""
 "Have a project you've been working on that you'd like us to share? Let us"
 " know by editing this page in GitHub!"
-msgstr ""
+msgstr "あなたが取り組んでいるプロジェクトで、私たちに紹介してほしいものがありますか"
+"？GitHubでこのページを編集して教えてください！"
 
 #: ../../source/create/avatars/create-avatars.rst:69
 msgid ":doc:`Find and Use an Existing Avatar <find-avatars>`"
-msgstr ""
+msgstr ":doc:`既存のアバターを検索して使用する <find-avatars>`"
 
 #: ../../source/create/avatars/create-avatars.rst:70
 #: ../../source/create/avatars/find-avatars.rst:179
 msgid ":doc:`Package and Host Your Avatar <package-avatar>`"
-msgstr ""
+msgstr ":doc:`アバターをパッケージ化してホストする <package-avatar>`"
 
 #: ../../source/create/avatars/custom-animations.rst:2
 msgid ""
 "This document is slightly outdated. FIXME: Mentions only FBX (check if "
 "glTF is also supported), contains HiFi hosted content"
 msgstr ""
+"このドキュメントは若干古くなっています。修正: FBX のみ言及 (glTF "
+"もサポートされているか確認)、HiFi ホストされたコンテンツが含まれる"
 
 #: ../../source/create/avatars/custom-animations.rst:9
 msgid ""
@@ -3299,6 +3314,10 @@ msgid ""
 "waving. Any custom animations you set up will be independent to each "
 "avatar you own and wear."
 msgstr ""
+"Vircadiaの標準的なアニメーションを上書きして、ダンス、ジャグリング、ウェーブ"
+"などの独自のアニメーションを設定することで、自分自身を表現することができます"
+"。設定したカスタムアニメーションは、所有しているアバターと装着しているアバタ"
+"ーにそれぞれ適用されます。"
 
 #: ../../source/create/avatars/custom-animations.rst:11
 msgid ""
@@ -3307,21 +3326,26 @@ msgid ""
 "you may need to modify them in the future as our custom animation support"
 " continues to improve."
 msgstr ""
+"カスタムアニメーションのインポートプロセスは、より使いやすくするために頻繁に"
+"更新しています。カスタムアニメーションを開発する際には、カスタムアニメーショ"
+"ンのサポートが向上し続けるため、将来的に修正する必要があるかもしれないことを"
+"心に留めておいてください。"
 
 #: ../../source/create/avatars/custom-animations.rst:20
 msgid ""
 "As we delve deeper into creating custom animations, we may use "
 "terminology that you are unfamiliar with. Here are some terms you might "
 "come across:"
-msgstr ""
+msgstr "カスタムアニメーションの制作を進めていくと、聞きなれない専門用語が出てくるこ"
+"とがあります。ここでは、そのような用語について説明します："
 
 #: ../../source/create/avatars/custom-animations.rst:23
 msgid "Term"
-msgstr ""
+msgstr "Term"
 
 #: ../../source/create/avatars/custom-animations.rst:25
 msgid "Avatar animations"
-msgstr ""
+msgstr "アバターアニメーション（Avatar animations）"
 
 #: ../../source/create/avatars/custom-animations.rst:25
 msgid ""
@@ -3330,10 +3354,14 @@ msgid ""
 "ttps://github.com/vircadia/vircadia/blob/master/interface/resources/avatar/animations/turn_left.f"
 " bx>`_ is the standard animation file for your avatar turning left."
 msgstr ""
+"アバターアニメーションは、アバターの動きを定義する FBX "
+"ファイルです。例えば、`turn_left.fbx <h ttps://github.com/vircadia/vircadia/"
+"blob/master/interface/resources/avatar/animations/turn_left.f bx>` "
+"はアバターが左回転する標準のアニメーション・ファイルです。"
 
 #: ../../source/create/avatars/custom-animations.rst:29
 msgid "Animation roles"
-msgstr ""
+msgstr "アニメーションの役割（Animation roles）"
 
 #: ../../source/create/avatars/custom-animations.rst:29
 msgid ""
@@ -3344,10 +3372,18 @@ msgid ""
 "left arrow key or ``A`` in Desktop mode or using your hand controllers in"
 " VR mode."
 msgstr ""
+"アニメーションロールは、アバターが実行できるアクションにマッピングするトリガ"
+"ーです。例えば、turnLeft "
+"はアバターがその場に立ったまま左折するアニメーションのロールです。"
+"このアニメーションロールは turn_left.fbx ファイルにマップされています。"
+"Desktop モードでは左矢印キーまたは ``A`` を、VR "
+"モードではハンドコントローラを使って、このアクションを見ることができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:35
 msgid "Avatar Animation JSON or Animation Graph File"
 msgstr ""
+"アバターアニメーションJSONまたはアニメーショングラフファイル（Avatar "
+"Animation JSON、Animation Graph File）"
 
 #: ../../source/create/avatars/custom-animations.rst:35
 msgid ""
@@ -3360,10 +3396,18 @@ msgid ""
 " same `Animation Graph file <https://github.com/vircadia/vircadi "
 "a/blob/master/interface/resources/avatar/avatar-animation.json>`_."
 msgstr ""
+"標準のアニメーションシステムは、JSONデータファイルを使って、FBXファイルから一"
+"連のアニメーションを合成し、レイヤー化する。このJSONファイルはアニメーション"
+"グラフファイルと呼ばれ、どのアニメーションをどのように合成して再生するかを正"
+"確に指定する。また、操作の順番も決められるので、インバースキネマティクスなど"
+"の操作は、体の他の部分が従来の方法でアニメートされた後に行われます。デフォル"
+"トでは、全てのアバターは同じ `Animation Graph file <https://github.com/"
+"vircadia/vircadi a/blob/master/interface/resources/avatar/avatar-animation."
+"json>` を使用します。"
 
 #: ../../source/create/avatars/custom-animations.rst:46
 msgid "Prepare Your Custom Animation"
-msgstr ""
+msgstr "カスタムアニメーションの準備"
 
 #: ../../source/create/avatars/custom-animations.rst:48
 msgid ""
@@ -3371,20 +3415,24 @@ msgid ""
 "your custom animation file. Use our :doc:`Avatar Standards Guide <avatar-"
 "standards>` and keep the following guidelines in mind:"
 msgstr ""
+"既存の標準アニメーションを置き換える前に、カスタムアニメーションファイルを準"
+"備する必要があります。私たちの :doc:`Avatar Standards Guide <avatar-"
+"standards>` を利用し、以下のガイドラインに留意してください。"
 
 #: ../../source/create/avatars/custom-animations.rst:50
 msgid "Animations must have standard joint names for Vircadia."
-msgstr ""
+msgstr "アニメーションはVircadiaの標準的な関節名である必要があります。"
 
 #: ../../source/create/avatars/custom-animations.rst:51
 msgid "Animations must have standard joint orientations (y down the bone)."
-msgstr ""
+msgstr "アニメーションは、標準的な関節の向き（ボーン下部のy）である必要があります。"
 
 #: ../../source/create/avatars/custom-animations.rst:52
 msgid ""
 "Key frames must have key frames for every joint at a uniform interval of "
 "30 frames per second."
-msgstr ""
+msgstr "キーフレームは、毎秒30フレームの均一な間隔で、すべての関節に対してキーフレー"
+"ムを配置する必要があります。"
 
 #: ../../source/create/avatars/custom-animations.rst:53
 msgid ""
@@ -3392,46 +3440,55 @@ msgid ""
 "first frame. Try to match this phase if you want your locomotion "
 "animation to blend with the default set."
 msgstr ""
+"ロコモーション（Locomotion ）アニメーションのフェーズでは、最初のフレームで左"
+"足首が通過する位置にあります。もし、あなたのロコモーション・アニメーションを"
+"デフォルトの設定と調和させたいなら、この位相に合わせるようにしてください。"
 
 #: ../../source/create/avatars/custom-animations.rst:55
 msgid "Once you create your animation:"
-msgstr ""
+msgstr "アニメーションを作成したら："
 
 #: ../../source/create/avatars/custom-animations.rst:57
 msgid ""
 "Export your animation from the external tool of your choice as an FBX "
 "file."
-msgstr ""
+msgstr "お好みの外部ツールからアニメーションをFBXファイルとしてエクスポートします。"
 
 #: ../../source/create/avatars/custom-animations.rst:58
 msgid "Upload your animation FBX file to a cloud server and copy the URL."
-msgstr ""
+msgstr "アニメーションのFBXファイルをクラウドサーバーにアップロードし、URLをコピーし"
+"てください。"
 
 #: ../../source/create/avatars/custom-animations.rst:62
 msgid "Replace Standard Animations"
-msgstr ""
+msgstr "標準アニメーションの置き換え"
 
 #: ../../source/create/avatars/custom-animations.rst:64
 msgid ""
 "You can have your avatar use your custom animations by overriding the "
 "default animations. There are two different ways to do this:"
 msgstr ""
+"デフォルトのアニメーションをオーバーライドすることで、アバターにカスタムアニ"
+"メーションを使用させることができます。これには2つの異なる方法があります。"
 
 #: ../../source/create/avatars/custom-animations.rst:66
 msgid ""
 "`Override Using a Script`_: Write a script to override standard "
 "animations."
-msgstr ""
+msgstr "`Override Using a Script` : "
+"標準のアニメーションをオーバーライドするスクリプトを書く。"
 
 #: ../../source/create/avatars/custom-animations.rst:67
 msgid ""
 "`Create a Custom Avatar Animation JSON file`_: You can modify this file "
 "or create a new data file."
 msgstr ""
+"`Create a Custom Avatar Animation JSON file` "
+"：このファイルを修正するか、新しいデータファイルを作成することができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:72
 msgid "Override Using a Script"
-msgstr ""
+msgstr "スクリプトによるオーバーライド"
 
 #: ../../source/create/avatars/custom-animations.rst:74
 msgid ""
@@ -3439,12 +3496,16 @@ msgid ""
 "`MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_ namespace to "
 "override an existing animation or animation role."
 msgstr ""
+"`スクリプト<../../script/write-scripts.html>`_ を書き、 `MyAvatar "
+"<https://apidocs.vircadia.dev/MyAvatar.html>` 名前空間を使えば、既存のアニメ"
+"ーションやアニメーションロールをオーバーライドすることができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:76
 msgid ""
 "We've listed the methods you can use to replace the standard animations "
 "on your avatar."
-msgstr ""
+msgstr "アバターに標準搭載されているアニメーションを差し替える方法を一覧でご紹介して"
+"います。"
 
 #: ../../source/create/avatars/custom-animations.rst:79
 #: ../../source/create/environments.rst:15
@@ -3456,6 +3517,8 @@ msgid ""
 "`MyAvatar.overrideAnimation <https://apidocs.vircadia.dev/ "
 "MyAvatar.html#.overrideAnimation>`_"
 msgstr ""
+"`MyAvatar.overrideAnimation <https://apidocs.vircadia.dev/ MyAvatar.html#."
+"overrideAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:81
 msgid ""
@@ -3464,12 +3527,18 @@ msgid ""
 "custom animation. For example, if your avatar is waving, this script will"
 " stop your avatar waving and play the custom animation provided."
 msgstr ""
+"このメソッドは、現在のアバターに任意のアニメーションを再生するために使用でき"
+"ます。現在のポーズからカスタムアニメーションの開始フレームまでスムーズに移動"
+"します。例えば、アバターが手を振っている場合、このスクリプトはアバターが手を"
+"振るのを止め、提供されたカスタムアニメーションを再生します。"
 
 #: ../../source/create/avatars/custom-animations.rst:86
 msgid ""
 "`AnimationCache.prefetch <https://apidocs.vircadia.dev/ "
 "AnimationCache.html#.prefetch>`_"
 msgstr ""
+"`AnimationCache.prefetch <https://apidocs.vircadia.dev/ AnimationCache.html#."
+"prefetch>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:86
 msgid ""
@@ -3478,18 +3547,26 @@ msgid ""
 "animations before playing them, you might see a t-pose appear briefly as "
 "the animation is downloaded."
 msgstr ""
+"このメソッドは、リソースをフェッチします。これを使用して、クラウドサーバーで"
+"ホストしているカスタムアニメーションを取得することができます。アニメーション"
+"を再生する前にプリフェッチしない場合、"
+"アニメーションがダウンロードされるときに "
+"T-ポーズが短時間表示されることがあります。"
 
 #: ../../source/create/avatars/custom-animations.rst:91
 msgid ""
 "`MyAvatar.restoreAnimation <https://apidocs.vircadia.dev/ "
 "MyAvatar.html#.restoreAnimation>`_"
 msgstr ""
+"`MyAvatar.restoreAnimation <https://apidocs.vircadia.dev/ MyAvatar.html#."
+"restoreAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:91
 msgid ""
 "This method stops the override function from playing any custom "
 "animation. Your avatar will go back to playing the standard animations."
-msgstr ""
+msgstr "このメソッドは、オーバーライド関数がカスタムアニメーションを再生するのを防ぎ"
+"ます。アバターは標準のアニメーションの再生に戻ります。"
 
 #: ../../source/create/avatars/custom-animations.rst:96
 msgid ""
@@ -3497,10 +3574,13 @@ msgid ""
 "of all avatar joints. Inverse Kinematics of the hands and head of HMD "
 "users will be disabled."
 msgstr ""
+"既存のアニメーションを置き換えるこの処理では、すべてのアバタージョイントを完"
+"全に制御します。HMDユーザーの手と頭のインバースキネマティクスは無効となります"
+"。"
 
 #: ../../source/create/avatars/custom-animations.rst:98
 msgid "You can also override an existing animation role mapping:"
-msgstr ""
+msgstr "また、既存のアニメーションロールマッピングを上書きすることも可能です。"
 
 #: ../../source/create/avatars/custom-animations.rst:100
 msgid ""
@@ -3508,6 +3588,9 @@ msgid ""
 "<https://apidocs.vircadia.dev/MyAvatar.html#.getAnimationRoles>`_ to view"
 " the list of roles for the current avatar."
 msgstr ""
+"現在のアバターのロールのリストを見るには `MyAvatar.getAnimationRoles "
+"<https://apidocs.vircadia.dev/MyAvatar.html#.getAnimationRoles>` "
+"を使ってください。"
 
 #: ../../source/create/avatars/custom-animations.rst:101
 msgid ""
@@ -3515,6 +3598,9 @@ msgid ""
 "file) using `MyAvatar.overrideRoleAnimation "
 "<https://apidocs.vircadia.dev/MyAvatar.html#.overrideRoleAnimation>`_."
 msgstr ""
+"`MyAvatar.overrideRoleAnimation <https://apidocs.vircadia.dev/MyAvatar.html#."
+"overrideRoleAnimation>` を使用すると、各ロールのアニメーションをカスタムアニ"
+"メーション（FBXファイル）に置き換えることができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:103
 msgid ""
@@ -3525,32 +3611,38 @@ msgid ""
 "code repository on `GitHub "
 "<https://github.com/vircadia/vircadia/tree/master/interface/resources/avatar/animations>`_."
 msgstr ""
+"アニメーションの役割とその説明をリストアップしました。これらは頻繁に更新され"
+"ますので、先に進む前に ``MyAvatar.getAnimationRoles`` "
+"を使って最新のアニメーションロールを取得することをお勧めします。"
+"これらのロールの標準アニメーション FBX ファイルは、Vircadia "
+"ソースコードレポジトリの `GitHub <https://github.com/vircadia/vircadia/tree/"
+"master/interface/resources/avatar/animations>` で見ることができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:106
 msgid "Animation Roles"
-msgstr ""
+msgstr "Animation Roles"
 
 #: ../../source/create/avatars/custom-animations.rst:108
 msgid "rightHandGraspOpen"
-msgstr ""
+msgstr "rightHandGraspOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:108
 #: ../../source/create/avatars/custom-animations.rst:124
 msgid "When hand controller trigger is not squeezed."
-msgstr ""
+msgstr "ハンドコントローラーのトリガーを引いていない場合。"
 
 #: ../../source/create/avatars/custom-animations.rst:110
 msgid "rightHandGraspClosed"
-msgstr ""
+msgstr "rightHandGraspClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:110
 #: ../../source/create/avatars/custom-animations.rst:126
 msgid "When hand controller trigger is fully squeezed."
-msgstr ""
+msgstr "ハンドコントローラーのトリガーが完全に引かれたとき。"
 
 #: ../../source/create/avatars/custom-animations.rst:112
 msgid "rightIndexPointOpen"
-msgstr ""
+msgstr "rightIndexPointOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:112
 #: ../../source/create/avatars/custom-animations.rst:128
