@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: 2022-10-29 18:05+0000\n"
+"PO-Revision-Date: 2022-10-29 19:07+0000\n"
 "Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/explore/ca/>\n"
@@ -32,23 +32,23 @@ msgstr "Començar amb Vircadia"
 
 #: ../../source/explore.rst:11 ../../source/explore/personalize.rst:3
 msgid "Personalize Your Experience"
-msgstr ""
+msgstr "Personalitza la teva experiència"
 
 #: ../../source/explore.rst:11 ../../source/explore/socialize.rst:3
 msgid "Socialize with Others"
-msgstr ""
+msgstr "Socialitza amb altres"
 
 #: ../../source/explore.rst:11 ../../source/explore/travel.md:6
 msgid "Travel Between Worlds"
-msgstr ""
+msgstr "Viatja entre mons"
 
 #: ../../source/explore.rst:11 ../../source/explore/interact.md:1
 msgid "Interact with Your Environment"
-msgstr ""
+msgstr "Interacciona amb el teu entorn"
 
 #: ../../source/explore.rst:3
 msgid "Explore"
-msgstr ""
+msgstr "Explora"
 
 #: ../../source/explore.rst:5
 msgid ""
@@ -58,6 +58,11 @@ msgid ""
 "events, and learn about creation in virtuality. It's an immersive and "
 "interactive experience with realistic visuals and audio."
 msgstr ""
+"Vircadia és un metavers on pots connectar i crear amb els altres. Et "
+"convidem a explorar els mons creats a Vircadia i interactuar amb altres "
+"usuaris i usuàries. Podeu visitar els mons virtuals d'amics, conèixer gent, "
+"assistir a esdeveniments i aprendre sobre creació virtual. És una "
+"experiència immersiva i interactiva amb vistes i sons realistes."
 
 #: ../../source/explore.rst:7
 msgid ""
@@ -68,70 +73,82 @@ msgid ""
 " metaverse. If you've visited Vircadia before, you will return to the "
 "location where you last visited."
 msgstr ""
+"Si és la primera vegada que utilitzeu Vircadia, començareu el vostre viatge "
+"en un espai de tutorial local, on podreu experimentar amb els controls i "
+"aprendre sobre la interfície. Quan estigueu preparats, proveu d'explorar "
+"altres dominis (mons) amb l'aplicació «Explore» i socialitzeu amb persones "
+"arreu del metavers. Si heu visitat Vircadia abans, tornareu a la ubicació "
+"que vau visitar l'última vegada."
 
 #: ../../source/explore.rst:9
 msgid "Throughout this chapter, learn how to make the most of your exploration:"
 msgstr ""
+"Al llarg d'aquest capítol, aprendreu a treure el màxim profit de la vostra "
+"exploració:"
 
 #: ../../source/explore/gallery.rst:5
 msgid ""
 "This gallery showcases the Vircadia Interface and some past events and "
 "locations attended with it."
 msgstr ""
+"Aquesta galeria mostra la interfície de Vircadia i alguns esdeveniments i "
+"llocs que es van desenvolupar."
 
 #: ../../source/explore/gallery.rst:12
 msgid "Maker meeting 28th September 2020"
-msgstr ""
+msgstr "Reunió de creadors. 28 de setembre de 2020"
 
 #: ../../source/explore/gallery.rst:12
 msgid ""
 "Maker Meeting, 28th September 2020, on the \"El Papa Viejo\" (meaning "
 "\"The Old Pope\")."
-msgstr ""
+msgstr "Reunió de creadors, el 28 de setembre de 2020, en \"El Papa Viejo\"."
 
 #: ../../source/explore/gallery.rst:19 ../../source/explore/gallery.rst:26
 msgid "Startup Asia X 12th June 2020"
-msgstr ""
+msgstr "Startup Asia X. 12 de juny de 2020"
 
 #: ../../source/explore/gallery.rst:19
 msgid "Startup Lab Lagoon Koza booth at Startup Asia X, 12th June 2020."
 msgstr ""
+"Stand de “Startup Lab Lagoon Koza” a Startup Asia X, el 12 de juny de 2020."
 
 #: ../../source/explore/gallery.rst:26
 msgid "Group photo at the end of Startup Asia X, 12th June 2020."
-msgstr ""
+msgstr "Foto de grup al final de Startup Asia X, el 12 de juny de 2020."
 
 #: ../../source/explore/gallery.rst:33
 msgid "Developer Meeting 20th September 2020"
-msgstr ""
+msgstr "Reunió de desenvolupadors. 20 de setembre de 2020"
 
 #: ../../source/explore/gallery.rst:33
 msgid "Dale Glass speaking at the Developer Meeting, 20th September 2020."
 msgstr ""
+"“Dale Glass” parla a la reunió de desenvolupadors, el 20 de setembre de 2020."
 
 #: ../../source/explore/gallery.rst:40
 msgid "Community Meeting 13th July 2020"
-msgstr ""
+msgstr "Reunió de la comunitat. 13 de juliol de 2020"
 
 #: ../../source/explore/gallery.rst:40
 msgid "Mannequin army, 13th July 2020."
-msgstr ""
+msgstr "Exèrcit de maniquís, el 13 de juliol de 2020."
 
 #: ../../source/explore/gallery.rst:47
 msgid "Pictionary 5th July 2020"
-msgstr ""
+msgstr "Piccionari. 5 de juliol de 2020"
 
 #: ../../source/explore/gallery.rst:47
 msgid "Pictionary in the old Hub, 5th July 2020."
-msgstr ""
+msgstr "Piccionari a l'antic Hub, el 5 de juliol de 2020."
 
 #: ../../source/explore/gallery.rst:54
 msgid "29th September 2020"
-msgstr ""
+msgstr "29 de setembre de 2020"
 
 #: ../../source/explore/gallery.rst:54
 msgid "Vircadia running on Linux Mint 19.3, 29th September 2020."
-msgstr ""
+msgstr "Vircadia funcionant en Linux Mint 19.3, el 29 de setembre de 2020."
 
 #: ../../source/explore/gallery.rst:58
 #: ../../source/explore/get-started/adjust-settings.rst:129
@@ -145,47 +162,47 @@ msgstr ""
 #: ../../source/explore/personalize/install-apps.md:101
 #: ../../source/explore/travel.md:40
 msgid "**See Also**"
-msgstr ""
+msgstr "**Veure també**"
 
 #: ../../source/explore/gallery.rst:60
 msgid ":doc:`Install Vircadia <get-started/install>`"
-msgstr ""
+msgstr ":doc:`Instal·lar Vircadia <get-started/install>`"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/install.rst:3
 #: ../../source/explore/get-started/install.rst:107
 msgid "Install Vircadia"
-msgstr ""
+msgstr "Instal·lar Vircadia"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/architecture.rst:7
 msgid "Understand the Architecture"
-msgstr ""
+msgstr "Entendre l'Arquitectura"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/setup-audio.rst:7
 msgid "Set Up Your Audio Devices"
-msgstr ""
+msgstr "Configurar els Dispositius d'Àudio"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/vr-controls.rst:7
 msgid "Use Your VR Equipment"
-msgstr ""
+msgstr "Ús del Vostre Equipament de Realitat Virtual"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/desktop.rst:3
 msgid "Explore in Desktop Mode"
-msgstr ""
+msgstr "Explorar en Mode Escriptori"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/adjust-settings.rst:7
 msgid "Adjust Your Settings"
-msgstr ""
+msgstr "Ajustar la Vostra Configuració"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/android.rst:3
 msgid "Get Our Android App"
-msgstr ""
+msgstr "Obtenir l'aplicació per a Android"
 
 #: ../../source/explore/get-started.rst:5
 msgid ""
@@ -195,10 +212,14 @@ msgid ""
 "application, so that you can begin making friends and exploring the "
 "metaverse."
 msgstr ""
+"Sabem que començar amb una nova aplicació pot ser difícil: instal·lar el "
+"programari i aprendre els controls mai és divertit. Amb sort, aquesta secció "
+"us ajudarà a familiaritzar-vos amb la nostra aplicació i així podeu començar "
+"a fer amics i explorar el metavers."
 
 #: ../../source/explore/get-started.rst:7
 msgid "**In This Section**"
-msgstr ""
+msgstr "**En Aquesta Secció**"
 
 #: ../../source/explore/get-started/adjust-settings.rst:2
 msgid ""
@@ -206,6 +227,10 @@ msgid ""
 " exist anymore, mentions security picture, says that lower graphics "
 "setting increase performance (not entirely true in our case)"
 msgstr ""
+"Aquest document està una mica obsolet. CORREGIR: algunes opcions de "
+"perspectiva ja no existeixen, esmenta la imatge de seguretat, diu que la "
+"configuració de gràfics més baixa augmenta el rendiment (i no és del tot "
+"cert en el nostre cas)."
 
 #: ../../source/explore/get-started/adjust-settings.rst:9
 msgid ""
