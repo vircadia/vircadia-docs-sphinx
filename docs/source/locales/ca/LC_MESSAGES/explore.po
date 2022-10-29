@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: 2022-08-19 15:21+0000\n"
+"PO-Revision-Date: 2022-10-29 18:05+0000\n"
 "Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/explore/ca/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
@@ -28,7 +28,7 @@ msgstr "Galeria"
 
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 msgid "Get Started with Vircadia"
-msgstr ""
+msgstr "Començar amb Vircadia"
 
 #: ../../source/explore.rst:11 ../../source/explore/personalize.rst:3
 msgid "Personalize Your Experience"
