@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: 2022-10-10 18:04+0000\n"
+"PO-Revision-Date: 2022-10-29 19:07+0000\n"
 "Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ca/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -732,7 +732,7 @@ msgstr ""
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:71
 #: ../../source/create/wearables.md:41
 msgid "**See Also**"
-msgstr ""
+msgstr "**Veure també**"
 
 #: ../../source/create/3d-models/import-animations.rst:72
 msgid ":doc:`Import Your 3D Model <import-model>`"
@@ -2805,7 +2805,7 @@ msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:22
 msgid "**In This Section**"
-msgstr ""
+msgstr "**En Aquesta Secció**"
 
 #: ../../source/create/avatars/create-avatars.rst:32
 msgid "Create an Avatar from Scratch"
