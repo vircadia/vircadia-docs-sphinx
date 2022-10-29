@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 22:42+0200\n"
-"PO-Revision-Date: 2022-10-29 19:07+0000\n"
+"PO-Revision-Date: 2022-10-30 20:04+0000\n"
 "Last-Translator: Xavi P. <xavi.croat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/explore/ca/>\n"
@@ -48,7 +48,7 @@ msgstr "Interacciona amb el teu entorn"
 
 #: ../../source/explore.rst:3
 msgid "Explore"
-msgstr "Explora"
+msgstr "Explorar"
 
 #: ../../source/explore.rst:5
 msgid ""
@@ -238,6 +238,9 @@ msgid ""
 "preferences. Many of these settings are changed using the HUD (in Desktop"
 " mode) or Tablet (in VR mode)."
 msgstr ""
+"Podeu ajustar diversos paràmetres a Vircadia per a que funcioni segons les "
+"vostres preferències. Molts d'aquests paràmetres es canvien mitjançant l'HUD "
+"(en mode escriptori) o la Tauleta (en mode VR)."
 
 #: ../../source/explore/get-started/adjust-settings.rst:12
 #: ../../source/explore/get-started/android.rst:11
@@ -253,7 +256,7 @@ msgstr "En aquesta pàgina"
 
 #: ../../source/explore/get-started/adjust-settings.rst:16
 msgid "The Tablet and HUD"
-msgstr ""
+msgstr "La Tauleta i el HUD"
 
 #: ../../source/explore/get-started/adjust-settings.rst:18
 msgid ""
@@ -262,6 +265,10 @@ msgid ""
 "/install-apps>`. Pull up the tablet by clicking the menu button on your "
 "controller."
 msgstr ""
+"En Realitat Virtual (VR), tota la teva configuració es troba a la teva "
+"**Tauleta**. La Tauleta també us permet accedir fàcilment a qualsevol :doc:`"
+"aplicació que instal·leu <../personalize/install-apps>`. Aixeca la Tauleta "
+"fent clic al botó de menú en el controlador."
 
 #: ../../source/explore/get-started/adjust-settings.rst:22
 msgid ""
@@ -272,10 +279,17 @@ msgid ""
 "**Developer** menu by going to **Settings > Developer Menu**. Then, go to"
 " **Developer > UI > Desktop Tablet Becomes Toolbar**."
 msgstr ""
+"En el Mode d'Escriptori, teniu l'opció d'utilitzar la Tauleta o una versió "
+"més petita anomenada HUD (\"Heads-up Display\"). Conté exactament les "
+"mateixes opcions que la Tauleta (configuració, aplicacions, etc.), però "
+"ocupa menys espai a la pantalla. Per activar l'HUD, primer activeu el menú "
+"**Desenvolupador** anant a **Configuració > Menú desenvolupador** (Settings "
+"> Developer Menu). A continuació, aneu a **Developer > UI > Desktop Tablet "
+"Becomes Toolbar**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:28
 msgid "Enter or Exit VR Mode"
-msgstr ""
+msgstr "Entrar o Sortir del Mode VR"
 
 #: ../../source/explore/get-started/adjust-settings.rst:30
 msgid ""
@@ -284,6 +298,11 @@ msgid ""
 "contains many of Vircadia's features such as audio, basic movements and "
 "gestures, and the ability to travel to different domains."
 msgstr ""
+"Podeu gaudir de Vircadia amb equipament de Realitat Virtual (VR), com ara: "
+"pantalles muntades al cap (HMD), controladors manuals i auriculars d'àudio. "
+"El Mode d'Escriptori conté moltes de les funcions de Vircadia, com ara: "
+"àudio, moviments i gestos bàsics, i la possibilitat de viatjar a diferents "
+"dominis (mons virtuals)."
 
 #: ../../source/explore/get-started/adjust-settings.rst:32
 msgid ""
