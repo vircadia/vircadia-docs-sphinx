@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-10-28 13:07+0000\n"
+"PO-Revision-Date: 2022-11-21 15:48+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -3665,173 +3665,176 @@ msgstr "rightThumbRaiseOpen"
 #: ../../source/create/avatars/custom-animations.rst:116
 #: ../../source/create/avatars/custom-animations.rst:132
 msgid "Thumbs up gesture."
-msgstr ""
+msgstr "親指を立てる仕草。"
 
 #: ../../source/create/avatars/custom-animations.rst:118
 msgid "rightThumbRaiseClosed"
-msgstr ""
+msgstr "右手親指の上げ下げ"
 
 #: ../../source/create/avatars/custom-animations.rst:118
 #: ../../source/create/avatars/custom-animations.rst:134
 msgid "Thumbs up gesture with trigger squeezed."
-msgstr ""
+msgstr "引き金を引いて親指を立てる仕草。"
 
 #: ../../source/create/avatars/custom-animations.rst:120
 msgid "rightIndexPointAndThumbRaiseOpen"
-msgstr ""
+msgstr "rightIndexPointAndThumbRaiseOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:120
 #: ../../source/create/avatars/custom-animations.rst:136
 msgid "Simultaneous thumbs up and point gesture."
-msgstr ""
+msgstr "親指を立てるジェスチャーと指をさすジェスチャーを同時に行う。"
 
 #: ../../source/create/avatars/custom-animations.rst:122
 msgid "rightIndexPointAndThumbRaiseClosed"
-msgstr ""
+msgstr "rightIndexPointAndThumbRaiseClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:122
 #: ../../source/create/avatars/custom-animations.rst:138
 msgid "Simultaneous thumbs up and point gesture, with trigger squeezed."
-msgstr ""
+msgstr "親指を立てて指差すジェスチャーを同時に行い、トリガーを絞る。"
 
 #: ../../source/create/avatars/custom-animations.rst:124
 msgid "leftHandGraspOpen"
-msgstr ""
+msgstr "leftHandGraspOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:126
 msgid "leftHandGraspClosed"
-msgstr ""
+msgstr "leftHandGraspClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:128
 msgid "leftIndexPointOpen"
-msgstr ""
+msgstr "leftIndexPointOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:130
 msgid "leftIndexPointClosed"
-msgstr ""
+msgstr "leftIndexPointClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:132
 msgid "leftThumbRaiseOpen"
-msgstr ""
+msgstr "leftThumbRaiseOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:134
 msgid "leftThumbRaiseClosed"
-msgstr ""
+msgstr "leftThumbRaiseClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:136
 msgid "leftIndexPointAndThumbRaiseOpen"
-msgstr ""
+msgstr "leftIndexPointAndThumbRaiseOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:138
 msgid "leftIndexPointAndThumbRaiseClosed"
-msgstr ""
+msgstr "leftIndexPointAndThumbRaiseClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:140
 msgid "idleStand"
-msgstr ""
+msgstr "idleStand"
 
 #: ../../source/create/avatars/custom-animations.rst:140
 msgid "Standing still, not talking."
-msgstr ""
+msgstr "黙って立っている仕草。"
 
 #: ../../source/create/avatars/custom-animations.rst:142
 msgid "idleTalk"
-msgstr ""
+msgstr "idleTalk"
 
 #: ../../source/create/avatars/custom-animations.rst:142
 msgid "Standing still, but avatar is talking."
-msgstr ""
+msgstr "静止しているが、アバターが話している。"
 
 #: ../../source/create/avatars/custom-animations.rst:144
 msgid "walkFwdShort_c"
-msgstr ""
+msgstr "walkFwdShort_c"
 
 #: ../../source/create/avatars/custom-animations.rst:144
 msgid "Walking forward at 0.5 m/s."
-msgstr ""
+msgstr "0.5m/sで前方へ歩く。"
 
 #: ../../source/create/avatars/custom-animations.rst:146
 msgid "walkFwdNormal_c, walkFwdFast_c"
-msgstr ""
+msgstr "walkFwdNormal_c, walkFwdFast_c"
 
 #: ../../source/create/avatars/custom-animations.rst:146
 msgid "Walking forward at 1.8 m/s. Walking forward at 2.3 m/s."
-msgstr ""
+msgstr "1.8m/sで前進している状態。2.3m/sで前進している。"
 
 #: ../../source/create/avatars/custom-animations.rst:148
 msgid "walkFwdJog_c, walkFwdRun_c"
-msgstr ""
+msgstr "walkFwdJog_c, walkFwdRun_c"
 
 #: ../../source/create/avatars/custom-animations.rst:148
 msgid "Walking forward at 3.2 m/s. Walking forward at 4.5 m/s."
-msgstr ""
+msgstr "3.2m/sで前進している状態。4.5m/sで前進している。"
 
 #: ../../source/create/avatars/custom-animations.rst:150
 msgid "idleToWalkFwd, idleSettle"
-msgstr ""
+msgstr "idleToWalkFwd, idleSettle"
 
 #: ../../source/create/avatars/custom-animations.rst:150
 msgid ""
 "Short transition from standing idle to walking forward. Transition from "
 "walk to idle."
-msgstr ""
+msgstr "アイドル状態から前方歩行への短い移行。歩行からアイドル状態への移行。"
 
 #: ../../source/create/avatars/custom-animations.rst:153
 msgid "walkBwdShort_c"
-msgstr ""
+msgstr "walkBwdShort_c"
 
 #: ../../source/create/avatars/custom-animations.rst:153
 msgid "Walking backward at 0.6 m/s."
-msgstr ""
+msgstr "0.6m/sで後ろ向きに歩く。"
 
 #: ../../source/create/avatars/custom-animations.rst:155
 msgid "walkBwdFast_c, jogBwd_c, runBwd_c"
-msgstr ""
+msgstr "walkBwdFast_c, jogBwd_c, runBwd_c"
 
 #: ../../source/create/avatars/custom-animations.rst:155
 msgid ""
 "Walking backward at 1.6 m/s. Jog backward at 2.3 m/s. Jog backward at 3.1"
 " m/s."
-msgstr ""
+msgstr "1.6m/sで後方歩行。2.3 m/sで後方へジョギング。3.1m/s "
+"で後ろ向きにジョギングする。"
 
 #: ../../source/create/avatars/custom-animations.rst:158
 msgid "turnLeft"
-msgstr ""
+msgstr "turnLeft"
 
 #: ../../source/create/avatars/custom-animations.rst:158
 #: ../../source/create/avatars/custom-animations.rst:160
 msgid "Standing turning in place animation."
-msgstr ""
+msgstr "その場での立ち回りアニメーション。"
 
 #: ../../source/create/avatars/custom-animations.rst:160
 msgid "turnRight"
-msgstr ""
+msgstr "turnRight"
 
 #: ../../source/create/avatars/custom-animations.rst:162
 msgid "strafeLeftShortStep_c"
-msgstr ""
+msgstr "strafeLeftShortStep_c"
 
 #: ../../source/create/avatars/custom-animations.rst:162
 msgid "Sidestep at 0.1 m/s."
-msgstr ""
+msgstr "0.1m/sでサイドステップを行う。"
 
 #: ../../source/create/avatars/custom-animations.rst:164
 msgid "strafeLeftStep_c, strafeLeftWalk_c, strafeLeftWalkFast_c, strafeLeftJog_c"
 msgstr ""
+"strafeLeftStep_c, strafeLeftWalk_c, strafeLeftWalkFast_c, strafeLeftJog_c"
 
 #: ../../source/create/avatars/custom-animations.rst:164
 msgid ""
 "Sidestep at 0.5 m/s. Side walk at 1.0 m/s. Side walk at 2.6 m/s. Side jog"
 " at 3.0 m/s."
-msgstr ""
+msgstr "0.5m/sでサイドステップを行う。1.0m/sでサイドウォーク サイドウォーク 2.6 m/s。"
+"サイドジョグ 3.0m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:167
 msgid "strafeRightShortStep_c, strafeRightStep_c"
-msgstr ""
+msgstr "strafeRightShortStep_c, strafeRightStep_c"
 
 #: ../../source/create/avatars/custom-animations.rst:167
 msgid "Sidestep at 0.1 m/s. Sidestep at 0.5 m/s."
-msgstr ""
+msgstr "0.1m/sでサイドステップを行う。0.5m/sでサイドステップする。"
 
 #: ../../source/create/avatars/custom-animations.rst:169
 msgid ""
@@ -3839,6 +3842,9 @@ msgid ""
 "stepLeft_c, strafeLeftAnim_c, stepRightShort_c, stepRight_c, "
 "strafeRightAnim_c"
 msgstr ""
+"strafeRightWalk_c, strafeRightFast_c, strafeRightJog_c, stepLeftShort_c, "
+"stepLeft_c, strafeLeftAnim_c, stepRightShort_c, stepRight_c, "
+"strafeRightAnim_c"
 
 #: ../../source/create/avatars/custom-animations.rst:169
 msgid ""
@@ -3846,109 +3852,115 @@ msgid ""
 "at 0 m/s. HMD step left at 0.5 m/s. HMD strafe left at 2.5 m/s. HMD step "
 "right at 0 m/s. HMD step right at 0.5 m/s. HMD strafe right at 2.5 m/s."
 msgstr ""
+"サイドウォーク 1m/s サイドウォーク 2.6m/s サイドジョグ 3m/s。HMDステップ左 "
+"0m/s。HMDステップ左（0.5m/s）. HMD 左方向 2.5m/s HMDステップ右（0m/s "
+"HMDステップ右、速度0.5m/s HMD 右旋回 （2.5m/s）."
 
 #: ../../source/create/avatars/custom-animations.rst:175
 msgid "fly"
-msgstr ""
+msgstr "fly"
 
 #: ../../source/create/avatars/custom-animations.rst:175
 msgid "Flying idle."
-msgstr ""
+msgstr "Flying idle."
 
 #: ../../source/create/avatars/custom-animations.rst:177
 msgid "takeoffStand"
-msgstr ""
+msgstr "takeoffStand"
 
 #: ../../source/create/avatars/custom-animations.rst:177
 msgid "Standing jump takeoff."
-msgstr ""
+msgstr "スタンディングジャンプのテイクオフ。"
 
 #: ../../source/create/avatars/custom-animations.rst:179
 msgid "TAKEOFFRUN"
-msgstr ""
+msgstr "TAKEOFFRUN"
 
 #: ../../source/create/avatars/custom-animations.rst:179
 msgid "Running jump takeoff."
-msgstr ""
+msgstr "ランニングジャンプの離陸。"
 
 #: ../../source/create/avatars/custom-animations.rst:181
 msgid "inAirStandPreApex"
-msgstr ""
+msgstr "inAirStandPreApex"
 
 #: ../../source/create/avatars/custom-animations.rst:181
 msgid "Standing jump in air on the way upward towards the jump apex."
-msgstr ""
+msgstr "ジャンプの頂点に向かって上昇する途中、空中でスタンディングジャンプをする。"
 
 #: ../../source/create/avatars/custom-animations.rst:183
 msgid "inAirStandApex"
-msgstr ""
+msgstr "inAirStandApex"
 
 #: ../../source/create/avatars/custom-animations.rst:183
 msgid "Standing jump in air at apex of the jump."
-msgstr ""
+msgstr "ジャンプの頂点で空中に立つスタンディングジャンプ。"
 
 #: ../../source/create/avatars/custom-animations.rst:185
 msgid "inAirStandPostApex"
-msgstr ""
+msgstr "inAirStandPostApex"
 
 #: ../../source/create/avatars/custom-animations.rst:185
 msgid "Standing jump in air on the downward arc of the jump."
-msgstr ""
+msgstr "ジャンプの下降弧の空中でスタンディングジャンプをする。"
 
 #: ../../source/create/avatars/custom-animations.rst:187
 msgid "inAirRunPreApex"
-msgstr ""
+msgstr "inAirRunPreApex"
 
 #: ../../source/create/avatars/custom-animations.rst:187
 msgid "Running jump in air on the way upward towards the jump apex."
-msgstr ""
+msgstr "ジャンプの頂点に向かって上昇する途中の空中で、ランニングジャンプをする。"
 
 #: ../../source/create/avatars/custom-animations.rst:189
 msgid "inAirRunApex"
-msgstr ""
+msgstr "inAirRunApex"
 
 #: ../../source/create/avatars/custom-animations.rst:189
 msgid "Running jump in air at apex of the jump."
-msgstr ""
+msgstr "ジャンプの頂点で空中を走るランニングジャンプ。"
 
 #: ../../source/create/avatars/custom-animations.rst:191
 msgid "inAirRunPostApex"
-msgstr ""
+msgstr "inAirRunPostApex"
 
 #: ../../source/create/avatars/custom-animations.rst:191
 msgid "Running jump in air on the downward arc of the jump."
-msgstr ""
+msgstr "ジャンプの下降弧で空中を走るランニングジャンプ。"
 
 #: ../../source/create/avatars/custom-animations.rst:193
 msgid "landStandImpact"
-msgstr ""
+msgstr "landStandImpact"
 
 #: ../../source/create/avatars/custom-animations.rst:193
 #: ../../source/create/avatars/custom-animations.rst:195
 msgid "Standing land."
-msgstr ""
+msgstr "立地条件。"
 
 #: ../../source/create/avatars/custom-animations.rst:195
 msgid "landStand"
-msgstr ""
+msgstr "landStand"
 
 #: ../../source/create/avatars/custom-animations.rst:197
 msgid "LANDRUN"
-msgstr ""
+msgstr "LANDRUN"
 
 #: ../../source/create/avatars/custom-animations.rst:197
 msgid "Running land."
-msgstr ""
+msgstr "土地を走る。"
 
 #: ../../source/create/avatars/custom-animations.rst:202
 msgid "Create a Custom Avatar Animation JSON file"
-msgstr ""
+msgstr "カスタムアバターアニメーションのJSONファイルを作成する"
 
 #: ../../source/create/avatars/custom-animations.rst:204
 msgid ""
 "If you're not comfortable using a script, you can edit or replace the "
 "existing Avatar Animation JSON file to override the standard animations."
 msgstr ""
+"スクリプトを使うのが面倒な場合は、既存のアバター・アニメーションJSONファイル"
+"を編集するか置き換えることで、標準のアニメーションを上書きすることができます"
+"。"
 
 #: ../../source/create/avatars/custom-animations.rst:206
 msgid ""
@@ -3956,6 +3968,9 @@ msgid ""
 "not inherit any updates made to the standard animations' JSON file. You "
 "can perform a text merge to the latest version at any time."
 msgstr ""
+"アバターのアニメーション用にカスタムJSONファイルを作成した場合、標準アニメー"
+"ションのJSONファイルに行われた更新は引き継がれません。いつでも最新版へのテキ"
+"スト・マージを行うことができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:208
 msgid ""
@@ -3964,38 +3979,44 @@ msgid ""
 "animation's FBX files. Or, you can write a new JSON file with the new "
 "mappings for each animation role."
 msgstr ""
+"JSONファイルは、どのアニメーションのロールがどのアニメーションFBXファイルにマ"
+"ッピングされているかを示しています。標準のアニメーションFBXファイルを、カスタ"
+"ムアニメーションのFBXファイルで置き換えることができます。または、各アニメーシ"
+"ョンの役割のための新しいマッピングを持つ新しいJSONファイルを書くことができま"
+"す。"
 
 #: ../../source/create/avatars/custom-animations.rst:210
 msgid "To replace standard animations:"
-msgstr ""
+msgstr "標準的なアニメーションを置き換えるため。"
 
 #: ../../source/create/avatars/custom-animations.rst:212
 msgid "Upload your custom JSON file to a cloud server and copy the URL."
-msgstr ""
+msgstr "カスタムJSONファイルをクラウドサーバーにアップロードし、URLをコピーしてくださ"
+"い。"
 
 #: ../../source/create/avatars/custom-animations.rst:213
 msgid "In Interface, pull up your HUD or Tablet and go to **Avatar**."
-msgstr ""
+msgstr "インターフェースで、HUDまたはタブレットを立ち上げ、**Avatar**に進みます。"
 
 #: ../../source/create/avatars/custom-animations.rst:214
 msgid "Click on the Settings icon on the top-right corner."
-msgstr ""
+msgstr "右上の「設定」アイコンをクリックします。"
 
 #: ../../source/create/avatars/custom-animations.rst:215
 msgid "Under 'Avatar Animation JSON', paste the URL for your JSON file."
-msgstr ""
+msgstr "'Avatar Animation JSON'の下に、JSONファイルのURLを貼り付けます。"
 
 #: ../../source/create/avatars/custom-animations.rst:218
 msgid "OR"
-msgstr ""
+msgstr "OR"
 
 #: ../../source/create/avatars/custom-animations.rst:220
 msgid "Open your avatar's FST file in a text editor."
-msgstr ""
+msgstr "アバターのFSTファイルをテキストエディターで開きます。"
 
 #: ../../source/create/avatars/custom-animations.rst:221
 msgid "Add your Animation Graph file's URL."
-msgstr ""
+msgstr "Animation Graph ファイルの URL を追加します。"
 
 #: ../../source/create/avatars/custom-animations.rst:223
 msgid ""
@@ -4003,10 +4024,12 @@ msgid ""
 "<package-avatar.html#host-your-avatar>`_ to include the changes in your "
 "FST file."
 msgstr ""
+"アバターのファイルを `Avatar Packager <package-avatar.html#host-your-avatar>`"
+" に通して、FST ファイルに変更を含める必要があります。"
 
 #: ../../source/create/avatars/custom-animations.rst:232
 msgid "Examples"
-msgstr ""
+msgstr "Examples"
 
 #: ../../source/create/avatars/custom-animations.rst:234
 msgid ""
@@ -4014,6 +4037,9 @@ msgid ""
 "<https://github.com/vircadia/vircadia/blob/master/interface/resources/avatar"
 "/avatar-animation.json>`_ file."
 msgstr ""
+"以下は現在のデフォルトの `avatar-animation.json <https://github.com/vircadia/"
+"vircadia/blob/master/interface/resources/avatar/avatar-animation.json>` "
+"ファイルです。"
 
 #: ../../source/create/avatars/custom-animations.rst:235
 msgid ""
@@ -4022,10 +4048,14 @@ msgid ""
 "a sitting pose. This example shows how you can replace some of an "
 "avatar's default animations."
 msgstr ""
+"この `scoot-animation.json <https://s3.amazonaws.com/hifi-public/tony/scoot-"
+"animation.json>` ファイルは、アイドルとウォークのアニメーションを、座っている"
+"ポーズに置き換えたものです。この例では、アバターのデフォルトアニメーションを"
+"どのように置き換えることができるかを示しています。"
 
 #: ../../source/create/avatars/custom-animations.rst:240
 msgid "Advanced Topic: AnimNode System"
-msgstr ""
+msgstr "Advanced Topic: AnimNode System"
 
 #: ../../source/create/avatars/custom-animations.rst:242
 msgid ""
@@ -4033,6 +4063,9 @@ msgid ""
 "called the AnimNode System. The AnimNode system defines how an avatar "
 "moves and is described in the Animation Graph JSON file."
 msgstr ""
+"アバターアニメーションJSONファイルには、AnimNodeシステムと呼ばれるノードの階"
+"層的なツリーが含まれています。AnimNodeシステムは、アバターがどのように動くか"
+"を定義し、Animation Graph JSONファイルに記述されます。"
 
 #: ../../source/create/avatars/custom-animations.rst:244
 msgid ""
@@ -4046,42 +4079,55 @@ msgid ""
 "unique animations and avatar configurations are possible. These "
 "functionalities are handled by the AnimNode system."
 msgstr ""
+"アバターの動きは、プロシージャルアニメーション、録画されたアニメーションクリ"
+"ップ、インバースキネマティクスを複雑に組み合わせて決定されます。この組み合わ"
+"せは、アバターの体が物理演算とコントローラの入力にできるだけ速く追従するよう"
+"に、フレームごとに計算されます。デスクトップユーザー、HMDユーザー、そしてHTC "
+"Viveのトラッカー一式を装着したユーザーのアニメーションを処理しなければなりま"
+"せん。センサーがシステムに追加されたり削除されたりしても、即座に設定されなけ"
+"ればなりません。また、ユニークなアニメーションやアバターの構成が可能なように"
+"、拡張にオープンである必要があります。これらの機能は、AnimNodeシステムによっ"
+"て処理されます。"
 
 #: ../../source/create/avatars/custom-animations.rst:246
 msgid "We've listed some features of the system:"
-msgstr ""
+msgstr "その特徴を挙げてみました。"
 
 #: ../../source/create/avatars/custom-animations.rst:248
 msgid "The AnimNode system is a graph of nodes."
-msgstr ""
+msgstr "AnimNodeシステムは、ノードのグラフです。"
 
 #: ../../source/create/avatars/custom-animations.rst:249
 msgid "Some nodes are output only, such as pre-recorded animation clips."
-msgstr ""
+msgstr "録画済みのアニメーションクリップなど、出力のみのノードもあります。"
 
 #: ../../source/create/avatars/custom-animations.rst:250
 msgid ""
 "Other nodes produce output by processing nodes below it in the graph and "
 "blending the results together."
-msgstr ""
+msgstr "他のノードは、グラフ内のその下のノードを処理し、その結果を組み合わせて出力を"
+"生成します。"
 
 #: ../../source/create/avatars/custom-animations.rst:251
 msgid ""
 "By manipulating the node hierarchy, certain animation actions will occur "
 "before or after other animation actions."
-msgstr ""
+msgstr "ノード階層を操作することで、特定のアニメーションアクションを他のアニメーショ"
+"ンアクションの前や後に発生させることができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:252
 msgid ""
 "The node parameters can be dynamically changed at runtime. This "
 "flexibility is necessary to achieve good visual results."
-msgstr ""
+msgstr "ノードのパラメータは、実行時に動的に変更することができます。このような柔軟性"
+"は、良好なビジュアル結果を得るために必要です。"
 
 #: ../../source/create/avatars/custom-animations.rst:253
 msgid ""
 "The system is in the default Animation Graph JSON file and is loaded "
 "during avatar initialization."
-msgstr ""
+msgstr "このシステムは、デフォルトのAnimation Graph "
+"JSONファイルにあり、アバターの初期化時に読み込まれます。"
 
 #: ../../source/create/avatars/custom-animations.rst:255
 msgid "**Key Concepts**"
