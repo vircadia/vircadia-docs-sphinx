@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-11-21 15:48+0000\n"
+"PO-Revision-Date: 2022-11-23 17:48+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -4131,7 +4131,7 @@ msgstr "このシステムは、デフォルトのAnimation Graph "
 
 #: ../../source/create/avatars/custom-animations.rst:255
 msgid "**Key Concepts**"
-msgstr ""
+msgstr "**重要な概念**"
 
 #: ../../source/create/avatars/custom-animations.rst:257
 msgid ""
@@ -4148,6 +4148,10 @@ msgid ""
 "The tree is evaluated until there is a single value remaining, which "
 "should be the result of the entire expression: ``30.2957142``."
 msgstr ""
+"このパースツリーを実行時に評価することで、実際の値を計算することができる。こ"
+"のツリーでは、リーフノードが値で、内部ノードが2つ以上のサブツリーを結合して新"
+"しい値を生成する操作です。この木は1つの値が残るまで評価され、"
+"それが式全体の結果である ``30.2957142`` となります。"
 
 #: ../../source/create/avatars/custom-animations.rst:264
 msgid ""
@@ -4155,7 +4159,8 @@ msgid ""
 " number, and operations can be implemented simply by evaluating each sub-"
 "tree, and then combining them with an arithmetic operation, such as "
 "addition or multiplication."
-msgstr ""
+msgstr "式の場合、各ノードの出力値は浮動小数点数であり、演算は各サブツリーを評価し、"
+"加算や乗算などの算術演算と組み合わせるだけで実装ができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:266
 msgid ""
@@ -4166,20 +4171,28 @@ msgid ""
 " blending between two or more sub-trees, or combining the upper body of "
 "one animation with the lower body of another."
 msgstr ""
+"AnimNode システムも同じようなコンセプトで動いています。ただし、各ノードの値に"
+"はアバターのすべての関節の移動および回転が含まれます。リーフノードには、Tポー"
+"ズなどのアバターの静的なポーズや、アニメーションクリップの1フレームを指定する"
+"ことができます。内部ノードでは、2 つ以上のサブツリー間の合成や 1 つのアニメー"
+"ションの上半身と別のアニメーションの下半身の合成などの処理を行うことができま"
+"す。"
 
 #: ../../source/create/avatars/custom-animations.rst:272
 msgid ":doc:`Script <../../script>`"
-msgstr ""
+msgstr ":doc:`Script <../../script>`"
 
 #: ../../source/create/avatars/custom-animations.rst:273
 msgid "`API Reference: MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_"
-msgstr ""
+msgstr "`API リファレンス: MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_"
 
 #: ../../source/create/avatars/find-avatars.rst:2
 msgid ""
 "This document is outdated. FIXME: Mentions Unity Avatar Exporter fixing "
 "all skeletons which it is unable to do"
 msgstr ""
+"このドキュメントは古くなっています。修正: Unity Avatar Exporterがすべてのスケ"
+"ルトンを修正することに言及していますが、それは不可能です"
 
 #: ../../source/create/avatars/find-avatars.rst:9
 msgid ""
@@ -4189,10 +4202,15 @@ msgid ""
 "into Unity, maps their skeleton using Unity's humanoid tool, and exports "
 "them as FST and FBX files to import in-world."
 msgstr ""
+"TurboSquid や CGTrader などの外部ソースから使用するアバターをダウンロードする"
+"ことができます。アバターを入手したら、Vircadia Avatar Exporterを使用してUnity"
+"で加工する必要があります。このツールは、ほとんどのアバターをUnityにインポート"
+"し、Unityの人型ツールを使ってスケルトンをマッピングし、インワールドでインポー"
+"トするためのFSTとFBXファイルとしてエクスポートすることができます。"
 
 #: ../../source/create/avatars/find-avatars.rst:16
 msgid "Avatar Guidelines"
-msgstr ""
+msgstr "Avatar Guidelines"
 
 #: ../../source/create/avatars/find-avatars.rst:18
 msgid ""
