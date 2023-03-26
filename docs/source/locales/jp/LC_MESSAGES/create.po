@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2022-11-23 17:48+0000\n"
+"PO-Revision-Date: 2023-03-27 07:41+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -4139,6 +4139,9 @@ msgid ""
 "the following expression: ``4 + 3 * 7 - (5 / (3 + 4)) + 6``, can be "
 "represented by the following parse tree."
 msgstr ""
+"AnimNodeシステムは、式のパースツリーのように動作します。 "
+"例えば、次のような式です： ``4 + 3 * 7 - (5 / (3 + 4)) + 6`` "
+"は、次のような構文木で表すことができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:262
 msgid ""
@@ -4220,24 +4223,30 @@ msgid ""
 "compatible with Vircadia, we've compiled a list of guidelines to help you"
 " \"sanity check\" it prior to use."
 msgstr ""
+"TurboSquidやCGTraderなど、多くの外部サイトが使用可能なアバターを提供していま"
+"す。ただし、見つけたアバターがすべてVircadiaで動作するとは限らないことに注意"
+"してください。ダウンロードしたアバターがVircadiaとの互換性を高めるために、使"
+"用前に「健全性チェック」のためのガイドラインとしてリストにまとめました。"
 
 #: ../../source/create/avatars/find-avatars.rst:20
 msgid "You should ensure that:"
-msgstr ""
+msgstr "次のことを確認します:"
 
 #: ../../source/create/avatars/find-avatars.rst:22
 msgid ""
 "You downloaded a `real-time models <https://blog.turbosquid.com/real-"
 "time-models>`_ (rigged for run-time, not rigged for render)."
 msgstr ""
+"`リアルタイムモデル <https://blog.turbosquid.com/real-time-"
+"models>`のダウンロード(レンダリング用のリグではなく、ランタイム用のリグ)。"
 
 #: ../../source/create/avatars/find-avatars.rst:23
 msgid "You have the correct downloaded files"
-msgstr ""
+msgstr "ダウンロードしたファイルが正しいかどうか"
 
 #: ../../source/create/avatars/find-avatars.rst:25
 msgid "An FBX model for your avatar. We do not support other 3D model formats."
-msgstr ""
+msgstr "アバター用のFBXモデルです。その他の3Dモデル形式には対応していません。"
 
 #: ../../source/create/avatars/find-avatars.rst:26
 msgid ""
@@ -4245,10 +4254,13 @@ msgid ""
 " Sometimes, these are already embedded in your FBX model and you won't "
 "have any additional image files in your download."
 msgstr ""
+"(オプション）アバターに色や質感を与えるための1つ以上の画像ファイルです。これ"
+"らはすでにFBXモデルに埋め込まれていることもあり、ダウンロードの際に追加の画像"
+"ファイルを用意する必要はありません。"
 
 #: ../../source/create/avatars/find-avatars.rst:27
 msgid "Your avatar is rigged."
-msgstr ""
+msgstr "アバターが加工されている。"
 
 #: ../../source/create/avatars/find-avatars.rst:29
 msgid ""
@@ -4258,10 +4270,15 @@ msgid ""
 "support, you can use our `Avatar Packager <create-avatars.html#package-"
 "your-avatar>`_ to import your avatar into Vircadia."
 msgstr ""
+"アバターが装備されていない場合、 :doc:`Mixamo <mixamo-tutorial>` を使って装備"
+"することができます。Mixamoを使う場合、必ずしもUnityとアバターエクスポーターを"
+"使う必要はありません。Mixamoはすでにサポートするスケルトンを使っているので、 "
+"`Avatar Packager <create-avatars.html#package-your-avatar>`_ "
+"を使って、アバターをVircadiaにインポートすることが可能です。"
 
 #: ../../source/create/avatars/find-avatars.rst:33
 msgid "Vircadia Avatar Exporter for Unity"
-msgstr ""
+msgstr "Unity用のVircadia Avatar Exporter"
 
 #: ../../source/create/avatars/find-avatars.rst:35
 msgid ""
@@ -4272,6 +4289,12 @@ msgid ""
 "limbs). The avatar exporter also automatically packages your avatar for "
 "use in Vircadia."
 msgstr ""
+"Vircadiaはアバターのための標準的な1種類の装備のみをサポートしています。多くの"
+"アバターはこの骨格と一致しないため、ヒューマノイドの骨構造 (体、頭、手足) "
+"を持つ人間のようなアバターを変換するために、Unity 用の Vircadia Avatar "
+"Exporter (「アバター エクスポーター」とも呼ばれます) を作成しました。アバター"
+"エクスポーターは、Vircadiaで使用するためのアバターのパッケージも自動的に行い"
+"ます。"
 
 #: ../../source/create/avatars/find-avatars.rst:37
 msgid ""
@@ -4281,18 +4304,23 @@ msgid ""
 " 3D modeling tool such as Blender or Maya and make modifications to your "
 "avatar prior to using the avatar exporter in Unity."
 msgstr ""
+"アバターエクスポーターは、スケルトンリグのリギングとマッピングのプロセスを改"
+"善するために書かれました。これは、アバターのアニメーションやマテリアルに影響"
+"を与えることはありません。マテリアルを調整するには、Unityのアバターエクスポー"
+"ターを使用する前に、BlenderやMayaなどの3Dモデリングツールを使用し、アバターに"
+"修正を加える必要があります。"
 
 #: ../../source/create/avatars/find-avatars.rst:39
 msgid "You will need the following to use this tool:"
-msgstr ""
+msgstr "このツールを使用するには、次のものが必要です:"
 
 #: ../../source/create/avatars/find-avatars.rst:41
 msgid "Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)"
-msgstr ""
+msgstr "Unity (推奨バージョン: 2017.4.17f1 - 2018.2.12f1)"
 
 #: ../../source/create/avatars/find-avatars.rst:42
 msgid "Vircadia (v0.77.0 or higher)"
-msgstr ""
+msgstr "Vircadia (v0.77.0 もしくはこのバージョン以降)"
 
 #: ../../source/create/avatars/find-avatars.rst:43
 msgid ""
@@ -4300,6 +4328,8 @@ msgid ""
 "<https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 msgstr ""
+"`Vircadia Avatar Exporter <https://github.com/vircadia/vircadia/blob/master/"
+"tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 
 #: ../../source/create/avatars/find-avatars.rst:45
 msgid ""
@@ -4310,10 +4340,16 @@ msgid ""
 "the drop-down. Click 'Apply' and 'Done'. We recommend doing this after "
 "correcting any issues with remapping bones."
 msgstr ""
+"推奨するUnityのバージョンは、最新版ではありませんのでご注意ください。Unityの"
+"新しいバージョンをお使いの場合は、アバターにTポーズを適用することをお勧めしま"
+"す。これを行うには、「インスペクター」を開き、パネルの下部付近で「ポーズ」を"
+"クリックします。ドロップダウンから「Enforce T-Pose」を選択します。「適用」を"
+"クリックし、「完了」をクリックします。ボーンを再マッピングする際の問題を修正"
+"した後に、この作業を行うことをお勧めします。"
 
 #: ../../source/create/avatars/find-avatars.rst:49
 msgid "Install the Avatar Exporter"
-msgstr ""
+msgstr "Avatar Exporterのインストール"
 
 #: ../../source/create/avatars/find-avatars.rst:51
 msgid ""
@@ -4321,6 +4357,9 @@ msgid ""
 "Keep in mind, however, that you can import and export multiple avatars in"
 " a single Unity project."
 msgstr ""
+"あなたが持っているすべてのUnityプロジェクトに拡張機能をインストールする必要が"
+"あります。ただし、1つのUnityプロジェクトで複数のアバターをインポートおよびエ"
+"クスポートすることができることに留意してください。"
 
 #: ../../source/create/avatars/find-avatars.rst:53
 msgid ""
@@ -4328,16 +4367,20 @@ msgid ""
 "<https://github.com/vircadia/vircadia/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ from Vircadia."
 msgstr ""
+"Vircadiaから `avatar exporter <https://github.com/vircadia/vircadia/blob/"
+"master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>` "
+"のダウンロード。"
 
 #: ../../source/create/avatars/find-avatars.rst:54
 msgid "In Unity, open the 'Project' window at the bottom."
-msgstr ""
+msgstr "Unityで、下部の「プロジェクト」ウィンドウを開きます。"
 
 #: ../../source/create/avatars/find-avatars.rst:58
 msgid ""
 "Right-click the 'Assets' folder, then select **Import Package > Custom "
 "Package**."
-msgstr ""
+msgstr "「Assets」フォルダを右クリックし、**Import Package > Custom "
+"Package**を選択します。"
 
 #: ../../source/create/avatars/find-avatars.rst:62
 msgid ""
@@ -4345,6 +4388,9 @@ msgid ""
 "extension). Click 'Open'. You can also double-click the package on your "
 "computer to import it automatically."
 msgstr ""
+"`avatarExporter` パッケージ（拡張子が .unitypackage ）に移動します。'Open'を"
+"クリックします。コンピュータ上でパッケージをダブルクリックすると、自動的にイ"
+"ンポートすることもできます。"
 
 #: ../../source/create/avatars/find-avatars.rst:63
 msgid ""
@@ -4353,28 +4399,36 @@ msgid ""
 " conflict exists, save any local changes somewhere outside of your "
 "project."
 msgstr ""
+"'Importing Package'ウィンドウで、インポートするファイルのリストを確認し、プロ"
+"ジェクトにすでにあるファイルとの競合がないかをチェックします。競合がある場合"
+"は、ローカルでの変更をプロジェクト外のどこかに保存してください。"
 
 #: ../../source/create/avatars/find-avatars.rst:64
 msgid ""
 "Click 'Import'. The package's files are added to the Assets folder. You "
 "should now have a 'High Fidelity' menu in Unity."
 msgstr ""
+"'Import'をクリックします。パッケージのファイルが Assets "
+"フォルダに追加されます。これでUnityの'High "
+"Fidelity'メニューが出来上がりました。"
 
 #: ../../source/create/avatars/find-avatars.rst:70
 msgid "Create an Avatar Package"
-msgstr ""
+msgstr "アバターパッケージの作成"
 
 #: ../../source/create/avatars/find-avatars.rst:72
 msgid ""
 "If you don't already have your model open in Unity, you need to import "
 "your model. Use any of the following methods:"
-msgstr ""
+msgstr "Unityでまだモデルを開いていない場合は、モデルをインポートする必要があります。"
+"以下のいずれかの方法を使用してください："
 
 #: ../../source/create/avatars/find-avatars.rst:74
 msgid ""
 "Drag and drop the FBX file into the 'Assets' folder of your 'Project' "
 "window."
-msgstr ""
+msgstr "FBXファイルを「Project」ウィンドウの「Assets」フォルダーにドラッグ＆ドロップ"
+"します。"
 
 #: ../../source/create/avatars/find-avatars.rst:75
 msgid ""
@@ -4382,12 +4436,17 @@ msgid ""
 "**Import Package > Import New Asset**. Navigate to the FBX file and click"
 " 'Import'."
 msgstr ""
+"「Project」ウィンドウで「Assets」フォルダを右クリックし、**Import Package > "
+"Import New "
+"Asset**を選択します。FBXファイルに移動し、「Import」をクリックします。"
 
 #: ../../source/create/avatars/find-avatars.rst:76
 msgid ""
 "In Unity, open the 'Assets' menu, then select **Import Package > Import "
 "New Asset**. Navigate to the FBX file and click 'Import'."
 msgstr ""
+"Unityで「Assets」メニューを開き、**Import Package > Import New "
+"Asset**を選択します。FBXファイルに移動し、「Import」をクリックします。"
 
 #: ../../source/create/avatars/find-avatars.rst:77
 msgid ""
@@ -4395,10 +4454,14 @@ msgid ""
 "'Inspector', open 'Rig'. For 'Animation Type', choose 'Humanoid' and then"
 " click 'Apply'."
 msgstr ""
+"「Project」ウィンドウで、アバターの FBX "
+"ファイルを選択します。「Inspector」で、「Rig」を開きます。「Animation "
+"Type」で「Humanoid」を選択し、「Apply」をクリックします。"
 
 #: ../../source/create/avatars/find-avatars.rst:85
 msgid "Click 'Configure' to investigate and tweak the mapping of your avatar."
-msgstr ""
+msgstr "「Configure」をクリックすると、アバターのマッピングを調査・調整することができ"
+"ます。"
 
 #: ../../source/create/avatars/find-avatars.rst:89
 msgid ""
@@ -4409,6 +4472,12 @@ msgid ""
 "can do this by dragging the bones from the 'Avatar Configuration' panel "
 "to the 'Inspector' panel."
 msgstr ""
+"Unityでマッピングされたすべてのボーンが緑色でハイライトされ、選択できるように"
+"なっています。何か欠けているものがないか確認します。エラーがある場合は赤で表"
+"示されます。マッピングに最低限必要なボーンは、Hips、Spine、Chest、およびHead"
+"です。これらのいずれかが欠けている場合、続行する前に手動でボーンを追加する必"
+"要があります。「Avatar Configuration」パネルから「Inspector」パネルにボーンを"
+"ドラッグすることでこれを行うことができます。"
 
 #: ../../source/create/avatars/find-avatars.rst:94
 msgid ""
@@ -4419,14 +4488,19 @@ msgid ""
 "get an error and need to manually map a bone to the Chest from 'Avatar "
 "Configuration'."
 msgstr ""
+"Vircadiaのアバターには胸骨が必要です。アバターに胸骨がない場合、アバターエク"
+"スポーターは「Avatar Configuration」パネルから適切な代替品を提案することがで"
+"きます。エクスポーターが代替案を提案せず、Humanoidが胸部を正しくマッピングし"
+"ない場合、エラーが表示され、「Avatar "
+"Configuration」から胸部にボーンを手動でマッピングする必要があります。"
 
 #: ../../source/create/avatars/find-avatars.rst:96
 msgid "If you made any changes, click 'Done'."
-msgstr ""
+msgstr "変更した場合は、「Done」をクリックします。"
 
 #: ../../source/create/avatars/find-avatars.rst:97
 msgid "Click on the FBX file in the 'Assets' manager."
-msgstr ""
+msgstr "「Assets」マネージャーでFBXファイルをクリックします。"
 
 #: ../../source/create/avatars/find-avatars.rst:101
 msgid ""
@@ -4434,6 +4508,9 @@ msgid ""
 "avatar-exporter>`_. Open the 'High Fidelity' menu in the top menu bar, "
 "then select 'Export New Avatar'."
 msgstr ""
+"`アバターエクスポーターがインストールされていることを確認してください "
+"<#install-the-avatar-exporter>`_. 上部メニューバーの「High "
+"Fidelity」メニューを開き、「Export New Avatar」を選択します。"
 
 #: ../../source/create/avatars/find-avatars.rst:102
 msgid ""
@@ -4443,16 +4520,21 @@ msgid ""
 "avatars in this directory, you can change it to another location on your "
 "computer."
 msgstr ""
+"アバタープロジェクトに名前を付けます。デフォルトのプロジェクトの場所は、"
+"あなたのローカルユーザーの ``DocumentsHigh Fidelity Projects`` ディレクトリで"
+"、自動的に作成されます。アバターはこのディレクトリに置くことをお勧めしますが"
+"、コンピュータの他の場所に変更することもできます。"
 
 #: ../../source/create/avatars/find-avatars.rst:106
 msgid "Click 'Export'."
-msgstr ""
+msgstr "「Export」をクリックします。"
 
 #: ../../source/create/avatars/find-avatars.rst:108
 msgid ""
 "Your avatar package has been created! The File Explorer will open to your"
 " new avatar project."
-msgstr ""
+msgstr "アバターパッケージが作成されました！ファイルエクスプローラーを開くと、新しい"
+"アバタープロジェクトが表示されます。"
 
 #: ../../source/create/avatars/find-avatars.rst:112
 msgid ""
@@ -4461,10 +4543,14 @@ msgid ""
 "Projects\\avatar\\<project name>\\textures`` directory. Otherwise, they "
 "may not show up on your avatar."
 msgstr ""
+"アバターモデルに外部テクスチャを使用している場合、"
+"それらのテクスチャをローカルユーザーの ``DocumentsHigh Fidelity Projects``"
+"avatar<project name>textures``ディレクトリにコピーしてください。コピーしてい"
+"ない場合、アバターに表示されないことがあります。"
 
 #: ../../source/create/avatars/find-avatars.rst:116
 msgid "Test Your Avatar"
-msgstr ""
+msgstr "アバターのテスト"
 
 #: ../../source/create/avatars/find-avatars.rst:118
 msgid ""
@@ -4472,6 +4558,9 @@ msgid ""
 "it with the `Vircadia Avatar Exporter for Unity`_. Check for the "
 "following:"
 msgstr ""
+"`Vircadia Avatar Exporter for "
+"Unity`_でアバターをエクスポートする前に、Unityで「spot "
+"check」することをお勧めします。以下の点をチェックしてください："
 
 #: ../../source/create/avatars/find-avatars.rst:120
 msgid ""
@@ -4481,6 +4570,11 @@ msgid ""
 "object included in the model. All extraneous objects will be imported "
 "into Vircadia and may affect the rendering or animation of your avatar."
 msgstr ""
+"モデルに余計なオブジェクトが付属していないことを確認します。例えば、この `"
+"Mech avatar <https://www.cgtrader.com/free-3d-models/character/sci-fi/low-"
+"poly-construction-mech>`_ には、グラウンドブルーのオブジェクトがモデル内に含"
+"まれています。余計なオブジェクトはすべてVircadiaにインポートされ、アバターの"
+"レンダリングやアニメーションに影響を与える可能性があります。"
 
 #: ../../source/create/avatars/find-avatars.rst:121
 msgid ""
@@ -4489,6 +4583,10 @@ msgid ""
 "'Muscles & Settings' to test your avatar's bone configuration and ensure "
 "that it works as expected."
 msgstr ""
+"ボーンの動きをテストします。Unityの「Inspector」で、「Rig」を開きます。「"
+"Animation Type」で「Humanoid」を選択し、「Apply」をクリックします。「Muscles "
+"& Settings」でアバターのボーン構成をテストし、期待通りに動作することを確認し"
+"ます。"
 
 #: ../../source/create/avatars/find-avatars.rst:130
 msgid ""
@@ -4497,10 +4595,14 @@ msgid ""
 "<../../explore/personalize/change-avatar.html#use-your-own-custom-"
 "avatar>`_ to wear it."
 msgstr ""
+"問題がなければ、`アバターをホストする <package-avatar.html#host-your-"
+"avatar>`、_`アバターを変更する <../../explore/personalize/change-avatar.html"
+"#use-your-own-custom-avatar>` について\n"
+"、実施します。"
 
 #: ../../source/create/avatars/find-avatars.rst:134
 msgid "Troubleshooting Tips"
-msgstr ""
+msgstr "トラブルシューティング"
 
 #: ../../source/create/avatars/find-avatars.rst:136
 msgid ""
