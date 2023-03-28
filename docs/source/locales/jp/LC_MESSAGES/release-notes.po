@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2022-07-19 11:20+0000\n"
+"PO-Revision-Date: 2023-03-29 14:40+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/release-notes/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/release-notes.rst:9
@@ -118,14 +118,16 @@ msgid ""
 "The latest release notes for Vircadia's ecosystem can be found for each "
 "project `here <https://docs.vircadia.dev/>`__."
 msgstr ""
+"The latest release notes for Vircadia's ecosystem can be found for each "
+"project `here <https://docs.vircadia.dev/>`__."
 
 #: ../../source/release-notes.rst:7
 msgid "Release notes from 2019 through 2021 can be found below."
-msgstr ""
+msgstr "Release notes from 2019 through 2021 can be found below."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:1
 msgid "Alpha 2020.2.0 Asteria Release Notes"
-msgstr ""
+msgstr "Alpha 2020.2.0 Asteria Release Notes"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:3
 msgid ""
@@ -133,10 +135,13 @@ msgid ""
 "compatible with the v0.86.0 protocol. This version was released on June "
 "8th, 2020."
 msgstr ""
+"This version of Vircadia is the follow-up version to K2. It is not "
+"compatible with the v0.86.0 protocol. This version was released on June 8th, "
+"2020."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:5
 msgid "The software version is denoted by the new versioning scheme:"
-msgstr ""
+msgstr "The software version is denoted by the new versioning scheme:"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:9
 msgid ""
@@ -145,6 +150,10 @@ msgid ""
 " that will be compatible with its major version. The name of the release "
 "(Asteria, Demeter, etc.) changes when the major version changes."
 msgstr ""
+"The major version will denote a protocol bump and therefore incompatibility "
+"with other versions. A minor version is a patch or update that will be "
+"compatible with its major version. The name of the release (Asteria, "
+"Demeter, etc.) changes when the major version changes."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:11
 msgid ""
