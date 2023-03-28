@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-03-27 07:41+0000\n"
+"PO-Revision-Date: 2023-03-29 14:40+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -4612,6 +4612,12 @@ msgid ""
 "packager>`_. Here are some other issues you may encounter after using a "
 "downloaded avatar and using the avatar exporter:"
 msgstr ""
+"あなたが直面するエラーの多くは、アバターのスケルトンに関する問題を説明してい"
+"ます。これらについては、ここに完全に文書化されています： "
+"アバターパッケージャーのトラブルシューティング <package-avatar.html"
+"#troubleshooting-with-the-avatar-packager>`_. ダウンロードしたアバターを使用"
+"し、アバターエクスポーターを使用した後に起こりうるその他の問題をいくつか紹介"
+"します："
 
 #: ../../source/create/avatars/find-avatars.rst:139
 msgid "Issue"
@@ -4619,15 +4625,15 @@ msgstr "問題"
 
 #: ../../source/create/avatars/find-avatars.rst:139
 msgid "Troubleshooting Tip"
-msgstr ""
+msgstr "トラブルシューティングのポイント"
 
 #: ../../source/create/avatars/find-avatars.rst:141
 msgid "*You receive a warning in Unity:*"
-msgstr ""
+msgstr "*Unity での警告:*"
 
 #: ../../source/create/avatars/find-avatars.rst:143
 msgid "\"Character is not in T pose.\""
-msgstr ""
+msgstr "\"キャラクターがTポーズにならない\""
 
 #: ../../source/create/avatars/find-avatars.rst:141
 msgid ""
@@ -4636,52 +4642,62 @@ msgid ""
 "'Apply' and 'Done'. We recommend doing this after correcting any issues "
 "with remapping bones."
 msgstr ""
+"「Inspector」に移動し、「Configure」をクリックして、パネルの下部近くにある「P"
+"ose」を選択します。ドロップダウンから「Enforce T-Pose」を選択します。「Apply"
+"」と「Done」をクリックします。ボーンの再マッピングに関する問題を修正した後に"
+"これを行うことをお勧めします。"
 
 #: ../../source/create/avatars/find-avatars.rst:145
 msgid "In Unity, your avatar is a solid color."
-msgstr ""
+msgstr "アバターが単色。"
 
 #: ../../source/create/avatars/find-avatars.rst:145
 msgid ""
 "This suggests that the materials or shaders you are using are not "
 "supported."
-msgstr ""
+msgstr "これは、使用しているマテリアルやシェーダーがサポートされていないことを示唆し"
+"ています。"
 
 #: ../../source/create/avatars/find-avatars.rst:147
 msgid "Click and drag your model into the 'Scene' window."
-msgstr ""
+msgstr "モデルをクリックし、「Scene」ウィンドウにドラッグします。"
 
 #: ../../source/create/avatars/find-avatars.rst:148
 msgid ""
 "Select all of the unsupported materials. These will be one solid color, "
 "such as pink."
-msgstr ""
+msgstr "サポートされていないマテリアルをすべて選択します。これらは、ピンクなどの無地"
+"の1色になります。"
 
 #: ../../source/create/avatars/find-avatars.rst:150
 msgid ""
 "In the 'Inspector', change the 'Shader' to one of the 'Standard' options."
 " All materials should now show up correctly."
 msgstr ""
+"「Inspector」で「Shader」を「Standard」オプションのいずれかに変更します。これ"
+"ですべてのマテリアルが正しく表示されるはずです。"
 
 #: ../../source/create/avatars/find-avatars.rst:153
 msgid "Your avatar is gray."
-msgstr ""
+msgstr "アバターが灰色。"
 
 #: ../../source/create/avatars/find-avatars.rst:153
 msgid "One of the following issues could have occurred:"
-msgstr ""
+msgstr "以下のいずれかの問題が発生している可能性があります："
 
 #: ../../source/create/avatars/find-avatars.rst:155
 msgid ""
 "Make sure you copied your avatar's textures into the project’s textures "
 "folder"
-msgstr ""
+msgstr "アバターのテクスチャーをプロジェクトのテクスチャーフォルダーにコピーしたこと"
+"を確認してください"
 
 #: ../../source/create/avatars/find-avatars.rst:156
 msgid ""
 "Verify that your textures are in a format that we support (PNG, JPEG, "
 "JPG, TGA, TIF, or TIFF)."
-msgstr ""
+msgstr "テクスチャがVircadiaでサポートするフォーマット（PNG、JPEG、JPG、TGA、TIF、TIF"
+"F）であることを確認します。"
 
 #: ../../source/create/avatars/find-avatars.rst:158
 msgid ""
@@ -4689,10 +4705,13 @@ msgid ""
 "'Inspector', and click 'Extract Textures'. Extract your textures into "
 "your asset's folder. You can do the same with Materials."
 msgstr ""
+"テクスチャがアバターに埋め込まれている場合：FBXファイルを選択し、「Inspector"
+"」に移動して「Extract Textures」をクリックします。テクスチャをアセットのフォ"
+"ルダに展開します。マテリアルでも同じことができます。"
 
 #: ../../source/create/avatars/find-avatars.rst:162
 msgid "Your avatar is tied up into knots or laying down."
-msgstr ""
+msgstr "アバターに結び目ができたり、横向きになったりします。"
 
 #: ../../source/create/avatars/find-avatars.rst:162
 msgid ""
@@ -4701,16 +4720,21 @@ msgid ""
 "Update your project in Unity (go to Update Existing Avatar, then browse "
 "to your avatar package)."
 msgstr ""
+"これは、あなたのスケルトンが正しくないことを意味する可能性があります。Unityで"
+"アバターを開き直し、「Create an Avatar Package」のステップ2〜5をもう一度実行"
+"してください。Unityでプロジェクトを更新します（Update Existing "
+"Avatarに進み、アバターパッケージを参照します）。"
 
 #: ../../source/create/avatars/find-avatars.rst:167
 msgid ""
 "If it still doesn't work, ensure that you are testing the correct file "
 "that the avatar exporter created."
-msgstr ""
+msgstr "それでもうまくいかない場合は、アバターエクスポーターが作成した正しいファイル"
+"をテストしていることを確認してください。"
 
 #: ../../source/create/avatars/find-avatars.rst:170
 msgid "Your avatar's skin doesn't move properly with animations."
-msgstr ""
+msgstr "アバターの表面が、アニメーション時に正しく動きません。"
 
 #: ../../source/create/avatars/find-avatars.rst:170
 msgid ""
@@ -4720,6 +4744,11 @@ msgid ""
 " such as Blender or Maya and fix the skin weighting on the avatar prior "
 "to using the avatar exporter in Unity."
 msgstr ""
+"アバターエクスポーターは、スケルトンリグのリギングとマッピングのプロセスを改"
+"善するために書かれました。これは、アバターのアニメーションには影響しません。"
+"アニメーションを調整するには、Unityのアバターエクスポーターを使用する前に、Bl"
+"enderやMayaなどの3Dモデリングツールを使用し、アバターのスキンウェイトを修正す"
+"る必要があります。"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:8
 msgid ""
@@ -4727,20 +4756,25 @@ msgid ""
 "automatically for you. You do not need any advanced knowledge of rigging "
 "to create simple animations for your avatar."
 msgstr ""
+"Mixamoは、モデルのスケルトンを自動でリギングしてくれるリギングシステムです。"
+"リギングに関する高度な知識は必要なく、アバターの簡単なアニメーションを作成す"
+"ることができます。"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:10
 msgid "In this tutorial, we will use an avatar"
-msgstr ""
+msgstr "このチュートリアルでは、アバターを使用します"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:12
 msgid "Go to **File > Animate with Mixamo**."
-msgstr ""
+msgstr "**File > Animate with Mixamo**に進みます。"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:13
 msgid ""
 "Save your avatar with a name and wait while it is exported to the auto-"
 "rigger.  ![](_images/character-upload.png)"
 msgstr ""
+"アバターに名前を付けて保存し、auto-riggerに書き出されるのを待ちます。 ![]("
+"_images/character-upload.png)"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:19
 msgid ""
@@ -4749,16 +4783,21 @@ msgid ""
 "Skeleton LOD has been set to 'Standard'. These settings ensure that your "
 "avatar will work property in Vircadia. ![](_images/auto-rigger.png)"
 msgstr ""
+"アバターが処理されると、Mixamoのオートリガーにアニメーションが表示されます。"
+"Facial Blendshapesが「Enabled」になっていること、Skeleton LODが「Standard」に"
+"設定されていることを確認してください。これらの設定は、あなたのアバターがVirca"
+"diaで動作することを保証します。![](_images/auto-rigger.png)"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:20
 msgid ""
 "If you made changes to your settings, click 'Update Rig'. Mixamo will re-"
 "process your avatar with these updates."
-msgstr ""
+msgstr "設定を変更した場合は、「Update Rig」をクリックしてください。Mixamoがあなたの"
+"アバターをアップデートして再加工します。"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:21
 msgid "Click 'Finish' to start applying animation."
-msgstr ""
+msgstr "「Finish」をクリックしてアニメーションの適用を開始します。"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:22
 msgid ""
@@ -4767,10 +4806,15 @@ msgid ""
 "select Format as 'FBX' and Pose as 'T-pose'. ![](_images/mixamo-"
 "download.png)"
 msgstr ""
+"アバターのリギングが正常に完了したら、それをダウンロードして、選択した 3D ソ"
+"フトウェアを使用してさらに変更できます。プロンプトが表示されたら、「FBX」とし"
+"てフォーマットを選択し、「T ポーズ」としてポーズを選択します。![](_images/"
+"mixamo-download.png)"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:26
 msgid "[Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)"
-msgstr ""
+msgstr "[チュートリアル: Blender を使用してマテリアルとテクスチャを変更する](blender-"
+"tutorial)"
 
 #: ../../source/create/avatars/package-avatar.rst:2
 msgid ""
@@ -4788,6 +4832,13 @@ msgid ""
 " create an avatar package: by using the `Avatar Packager`_ in Interface "
 "or the `Vircadia Avatar Exporter for Unity (unmaintained)`_ in Unity."
 msgstr ""
+"少なくとも、Vircadia のアバターには、FBX、glTF、または GLB モデルと、"
+"アバターの外観と動作に関する情報を含む関連する FST ファイルが必要です。"
+"これら 2 つのファイル (任意のテクスチャまたはスクリプトを含む) を合わせて、「"
+"avatar package」を形成します。アバター パッケージを作成するには 2 "
+"つの方法があります。インターフェイスで `Avatar Packager`_ を使用するか、"
+"Unity で `Vircadia Avatar Exporter for Unity (unmaintained)`_ "
+"を使用する方法です。"
 
 #: ../../source/create/avatars/package-avatar.rst:11
 msgid ""
@@ -4795,10 +4846,13 @@ msgid ""
 "that Vircadia can access it and correctly render your avatar for all "
 "users."
 msgstr ""
+"アバターをパッケージ化したら、それをクラウド上でホストして、Vircadia がアクセ"
+"スし、すべてのユーザーに対してアバターを正しくレンダリングできるようにする必"
+"要があります。"
 
 #: ../../source/create/avatars/package-avatar.rst:18
 msgid "Package Your Avatar"
-msgstr ""
+msgstr "アバターをパッケージ化する"
 
 #: ../../source/create/avatars/package-avatar.rst:20
 msgid ""
@@ -4809,16 +4863,23 @@ msgid ""
 "information about the skeleton, blendshapes, textures, and scripts used "
 "by your avatar."
 msgstr ""
+"このページを読んでいる場合は、既に :doc:`独自の FBX モデル <create-avatars>` "
+"を作成しているか、:doc:`Vircadia で使用するモデル <find-avatars>` "
+"を見つけてダウンロードしている可能性があります。したがって、"
+"あとはアバターをパッケージ化して FST ファイルを作成するだけです。このファイル"
+"には、アバターが使用するスケルトン、ブレンドシェイプ、テクスチャ、およびスク"
+"リプトに関する情報が含まれています。"
 
 #: ../../source/create/avatars/package-avatar.rst:22
 msgid ""
 "We provide two ways to create an avatar package: either through Unity or "
 "through our Avatar Packager."
-msgstr ""
+msgstr "アバター パッケージを作成するには、Unity または Avatar Packager の 2 "
+"つの方法があります。"
 
 #: ../../source/create/avatars/package-avatar.rst:26
 msgid "Vircadia Avatar Exporter for Unity (unmaintained)"
-msgstr ""
+msgstr "Unity 用の Vircadia アバター エクスポーター (メンテナンスなし)"
 
 #: ../../source/create/avatars/package-avatar.rst:28
 msgid ""
@@ -4827,6 +4888,11 @@ msgid ""
 "Avatar Exporter for Unity (also known as the \"avatar exporter\") "
 "converts human-like avatars and packages them for use in Vircadia."
 msgstr ""
+"場合によっては、:doc:`外部 Web サイト <find-avatars>` "
+"からアバターをダウンロードし、そのアバターを Vircadia "
+"で使用したいことがあります。Unity 用の Vircadia Avatar Exporter (「アバター "
+"エクスポーター」とも呼ばれます) は、人間のようなアバターを変換し、Vircadia "
+"で使用できるようにパッケージ化します。"
 
 #: ../../source/create/avatars/package-avatar.rst:30
 msgid ""
@@ -4834,10 +4900,13 @@ msgid ""
 " to package your avatar, you must host it somewhere on the cloud. You can"
 " upload it to Amazon S3 or a webserver for example."
 msgstr ""
+":doc:`アバターエクスポーター <find-avatars>`を使用してアバターをパッケージ化"
+"したら、それをクラウド上のどこかにホストする必要があります。例えば、Amazon "
+"S3やWebサーバーにアップロードすることができます。"
 
 #: ../../source/create/avatars/package-avatar.rst:34
 msgid "Avatar Packager"
-msgstr ""
+msgstr "アバターパッケージャー"
 
 #: ../../source/create/avatars/package-avatar.rst:36
 msgid ""
