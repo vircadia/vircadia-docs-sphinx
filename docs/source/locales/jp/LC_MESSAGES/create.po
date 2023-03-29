@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-03-29 14:40+0000\n"
+"PO-Revision-Date: 2023-03-30 15:41+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -4822,6 +4822,10 @@ msgid ""
 "FBX (glTF also supported), doesn't mention that you don't need to "
 "package, mentions Marketplace"
 msgstr ""
+"このドキュメントは古くなっています。FIXME: High Fidelity について言及し、FBX "
+"についてのみ言及 (glTF "
+"もサポート)、パッケージ化する必要がないことについては言及せず、Marketplace "
+"について言及"
 
 #: ../../source/create/avatars/package-avatar.rst:9
 msgid ""
@@ -4913,26 +4917,28 @@ msgid ""
 "The **Avatar Packager** is a tool in Interface that identifies potential "
 "errors in your avatar's FBX model and then creates an FST file for you."
 msgstr ""
+"**Avatar Packager** は、アバターの FBX モデルの潜在的なエラーを特定し、FST "
+"ファイルを作成する Interface のツールです。"
 
 #: ../../source/create/avatars/package-avatar.rst:38
 msgid "To package your avatar using the Avatar Packager:"
-msgstr ""
+msgstr "アバターパッケージャーを使用してアバターをパッケージ化する場合："
 
 #: ../../source/create/avatars/package-avatar.rst:40
 msgid "In Interface, go to **Edit > Avatar Packager**."
-msgstr ""
+msgstr "Interfaceで、**Edit > Avatar Packager**と進みます。"
 
 #: ../../source/create/avatars/package-avatar.rst:41
 msgid "In the Avatar Packager window, click 'New Project'."
-msgstr ""
+msgstr "Avatar Packagerウィンドウで、「新規プロジェクト」をクリックします。"
 
 #: ../../source/create/avatars/package-avatar.rst:42
 msgid "In the Create Project window, fill in the following details:"
-msgstr ""
+msgstr "「プロジェクトの作成」ウィンドウで、以下の内容を入力します："
 
 #: ../../source/create/avatars/package-avatar.rst:44
 msgid "Name: The name you want for your avatar."
-msgstr ""
+msgstr "Name: アバターに付ける名前です。"
 
 #: ../../source/create/avatars/package-avatar.rst:45
 msgid ""
@@ -4941,10 +4947,14 @@ msgid ""
 "location. The package will contain your FBX model, an FST file, and any "
 "scripts/textures in your avatar."
 msgstr ""
+"Project Location: アバターのファイルが保存されているフォルダのパスです。アバ"
+"ターパッケージャは、この場所にプロジェクト用の新しいフォルダを作成します。こ"
+"のパッケージには、アバターのFBXモデル、FSTファイル、スクリプト／テクスチャが"
+"含まれます。"
 
 #: ../../source/create/avatars/package-avatar.rst:46
 msgid "Avatar Model: The location of your avatar's FBX model."
-msgstr ""
+msgstr "Avatar Model: アバターのFBXモデルの場所です。"
 
 #: ../../source/create/avatars/package-avatar.rst:47
 msgid ""
@@ -4952,6 +4962,9 @@ msgid ""
 " the folder location. If your avatar's textures are embedded in the FBX, "
 "you do not need to specify anything."
 msgstr ""
+"Texture Folder: アバターのテクスチャが別のフォルダにある場合は、そのフォルダ"
+"の場所を指定します。アバターのテクスチャがFBXに埋め込まれている場合は、何も指"
+"定する必要はありません。"
 
 #: ../../source/create/avatars/package-avatar.rst:48
 msgid "Click 'Create'."
@@ -4963,10 +4976,13 @@ msgid ""
 "the Avatar Packager here and upload your FST file and FBX model to the "
 "cloud location of your choice."
 msgstr ""
+"この時点で、アバターのパッケージ化は成功です。ここでアバターパッケージャーを"
+"閉じて、FSTファイルとFBXモデルをお好きなクラウドロケーションにアップロードし"
+"てください。"
 
 #: ../../source/create/avatars/package-avatar.rst:54
 msgid "Host Your Avatar"
-msgstr ""
+msgstr "アバターのホスティング"
 
 #: ../../source/create/avatars/package-avatar.rst:56
 msgid ""
@@ -4975,10 +4991,14 @@ msgid ""
 "any cloud platform including Amazon S3, Google Cloud Storage, Microsoft "
 "Azure, Dropbox, etc."
 msgstr ""
+"カスタムアバターを使用する前に、まずそのFSTとFBX/glTF/"
+"GLBファイルを一般にアクセス可能な場所にホストする必要があります。Amazon S3、"
+"Google Cloud Storage、Microsoft "
+"Azure、Dropboxなど、クラウドプラットフォームの利用も選択肢の１つです。"
 
 #: ../../source/create/avatars/package-avatar.rst:60
 msgid "Troubleshooting with the Avatar Packager"
-msgstr ""
+msgstr "Avatar Packagerのトラブルシューティング"
 
 #: ../../source/create/avatars/package-avatar.rst:62
 msgid ""
@@ -4989,6 +5009,12 @@ msgid ""
 " avatar, while **Warnings** (in orange) may or may not affect whether "
 "your avatar will show up and behave correctly in Vircadia."
 msgstr ""
+"アバターパッケージャは、あなたのアバターのVircadiaでの見た目や動作に影響を与"
+"える可能性のあるエラーや警告を通知します。これは、あなたが遭遇する可能性のあ"
+"るエラーのリストと、あなたのアバターを修正するための基本的な指示です。**Error"
+"s**（赤色）はアバターをアップロードする前に修正する必要があり、**Warnings**（"
+"オレンジ色）はあなたのアバターがVircadiaで表示されるかどうか、正しく動作する"
+"かどうかに影響することがあります。"
 
 #: ../../source/create/avatars/package-avatar.rst:66
 msgid ""
@@ -4996,6 +5022,9 @@ msgid ""
 "skeleton. The troubleshooting tips below will attempt to fix the errors "
 "in Unity."
 msgstr ""
+"あなたが遭遇するエラーの多くは、アバターのスケルトンに関する問題を説明してい"
+"ます。以下のトラブルシューティングヒントは、Unityのエラーを修正することを試み"
+"ます。"
 
 #: ../../source/create/avatars/package-avatar.rst:68
 msgid ""
@@ -5006,10 +5035,15 @@ msgid ""
 "advanced knowledge of building, rigging, and mapping bones in a 3D "
 "modeling tool such as Blender or Maya."
 msgstr ""
+"しかし、モデルの骨構造が人型スケルトン（2本の脚、2本の腕、腰、胸、背骨、頭を"
+"持つ）に似ていない場合、箱から出してもVircadiaと互換性がない可能性があります"
+"。これらのアバターをUnityだけで修正することはできません。代わりに、Blender "
+"や Maya などの 3D モデリングツールでボーンを構築、リギング、マッピングする高"
+"度な知識が必要になる可能性があります。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:2
 msgid "This document is slightly outdated. FIXME: HiFi hosted content"
-msgstr ""
+msgstr "このドキュメントは若干古くなっています。修正内容：HiFiホスト・コンテンツ"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:9
 msgid ""
@@ -5018,6 +5052,10 @@ msgid ""
 "the material. It's critical for surfaces like paper, marble, wax, and "
 "realistic skin. You can add this effect to your avatar in Vircadia."
 msgstr ""
+"サブサーフェススキャッタリング（SSS）とは、光が素材に入り、吸収、散乱され、最"
+"終的に素材から出ることで生じる乱反射のことです。紙、大理石、ワックス、リアル"
+"な肌のような表面には欠かせないものです。Vircadiaでは、この効果をアバターに追"
+"加することができます。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:16
 msgid "Subsurface Scattering Map and Value"
