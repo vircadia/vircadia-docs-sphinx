@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-03-30 15:41+0000\n"
+"PO-Revision-Date: 2023-04-03 15:46+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -3281,7 +3281,7 @@ msgid ""
 "<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 msgstr ""
 "こちらからインストールしてください：`https://github.com/Menithal/Blender-"
-"Metaverse-Addon <https://github.com/Menithal/Blender-Metaverse-Addon>`"
+"Metaverse-Addon <https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 
 #: ../../source/create/avatars/create-avatars.rst:64
 msgid ""
@@ -5059,7 +5059,7 @@ msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:16
 msgid "Subsurface Scattering Map and Value"
-msgstr ""
+msgstr "サブサーフェス スキャタリング マップと値"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:18
 msgid ""
@@ -5067,6 +5067,9 @@ msgid ""
 "thin translucent object like an avatar's skin. It causes the diffusion of"
 " light within the shallow top layer of skin."
 msgstr ""
+"サブサーフェス スキャッタリング (SSS) は、光がアバターの皮膚のような薄い半透"
+"明のオブジェクトを通過するときに顕著になります。皮膚の浅い最上層内で光の拡散"
+"を引き起こします。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:20
 msgid ""
@@ -5074,28 +5077,34 @@ msgid ""
 "map\". By setting the scattering value and map, you can influence how "
 "light scatters on the geometry of an avatar."
 msgstr ""
+"スキャッタリング(Scattering)は、「cattering value」と「scattering map」で構成"
+"されています。散乱値とマップを設定することで、アバターのジオメトリ上で光がど"
+"のように散乱するかをコントロールすることができます。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:22
 msgid ""
 "The scattering value is a ``[0,1]`` number which sets the amount of "
 "scatter."
-msgstr ""
+msgstr "スキャッタリング値は ``[0,1]`` 数値で、スキャッタリングの量を設定します。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:23
 msgid ""
 "The scattering map is gray scale image that masks the areas of scatter. "
 "It is based on the avatar's UV map."
 msgstr ""
+"スキャッタリングマップ(Scattering map)は、スキャッタリング領域をマスクするグ"
+"レースケール画像です。アバターのUVマップをベースにしています。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:27
 msgid "Add Scattering to an Avatar"
-msgstr ""
+msgstr "アバターにスキャッター(Scattering)を追加する"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:29
 msgid ""
 "You can easily add scattering to an avatar by adding the value and map to"
 " the avatar's FST file."
-msgstr ""
+msgstr "アバターのFSTファイルに値とマップを追加することで、簡単にアバターに散乱を追加"
+"することができます。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:31
 msgid ""
