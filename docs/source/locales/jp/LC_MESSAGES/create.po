@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-04-03 15:46+0000\n"
+"PO-Revision-Date: 2023-04-10 00:51+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -5111,118 +5111,128 @@ msgid ""
 ":doc:`Create a custom avatar <create-avatars>` and package it using the "
 "`Avatar Packager <create-avatars.html#package-your-avatar>`_."
 msgstr ""
+":doc:`Create a custom avatar <create-avatars>` を作成し、`Avatar Packager "
+"<create-avatars.html#package-your-avatar>`_ を使用してパッケージ化します。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:32
 msgid ""
 "Create a scattering map for the subsurface scattering in Adobe Photoshop "
 "or its equivalent."
-msgstr ""
+msgstr "Adobe Photoshopまたはそれに準ずるソフトで、表面下散乱用の散乱マップ（"
+"Scattering Map）を作成します。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:33
 msgid "Open your avatar's FST file in a text editor of your choice."
-msgstr ""
+msgstr "アバターのFSTファイルをお好みのテキストエディタで開きます。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:34
 msgid "Add scattering information to the avatar's FST file. For example:"
-msgstr ""
+msgstr "アバターのFSTファイルに散乱情報（Scattering "
+"Information）を追加します。例えば、以下のような感じです："
 
 #: ../../source/create/avatars/scattering-tutorial.rst:40
 msgid "Wear the avatar to observe the scattering effects in Vircadia."
-msgstr ""
+msgstr "アバターを装着して、Vircadiaでの散乱効果（Scattering "
+"Effects）を観察することができます。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:42
 msgid ""
 "Here's an example of the scattering effect. The left image has no "
 "scattering and the right image has scattering. You can see the red "
 "diffuse reflection along the shadow line."
-msgstr ""
+msgstr "散乱効果の一例をご紹介します。左の画像は散乱なし、右の画像は散乱ありです。シ"
+"ャドウラインに沿った赤い乱反射が確認できます。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:47
 msgid "No Scattering"
-msgstr ""
+msgstr "拡散無し"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:53
 msgid "Here are the scattering skin maps for this avatar."
-msgstr ""
+msgstr "このアバターのスキャッタリングスキンマップはこちらです。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:61
 msgid "You can also check out the following avatars that have scattering effects:"
-msgstr ""
+msgstr "また、散乱効果を持つ以下のアバターもご確認ください："
 
 #: ../../source/create/avatars/scattering-tutorial.rst:63
 msgid ""
 "`Matthew <https://hifi-"
 "public.s3.amazonaws.com/sam/models/skinRenderingTest/matthew/matthew.fst>`_"
 msgstr ""
+"`Matthew <https://hifi-public.s3.amazonaws.com/sam/models/skinRenderingTest/"
+"matthew/matthew.fst>`_"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:64
 msgid ""
 "`Priscilla <https://hifi-"
 "public.s3.amazonaws.com/sam/models/skinRenderingTest/priscilla/priscilla.fst>`_"
 msgstr ""
+"`Priscilla <https://hifi-public.s3.amazonaws.com/sam/models/"
+"skinRenderingTest/priscilla/priscilla.fst>`_"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:68
 msgid ":doc:`Create Your Own Avatar <create-avatars>`"
-msgstr ""
+msgstr ":doc:`アバター <create-avatars>`を作成する"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:70
 msgid ":doc:`PBR Materials <../3d-models/pbr-materials-guide>`"
-msgstr ""
+msgstr ":doc:`PBR Materials <../3d-models/pbr-materials-guide>`"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/create-entities.md:1
 msgid "Create New Entities"
-msgstr ""
+msgstr "新しいエンティティの作成"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/entity-appearance.rst:3
 msgid "Change How Entities Look"
-msgstr ""
+msgstr "エンティティの見え方の変更"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/entity-behavior.rst:3
 msgid "Define an Entity's Behavior"
-msgstr ""
+msgstr "エンティティの動作の定義"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/entity-physics.rst:3
 msgid "Apply Physics to Entities"
-msgstr ""
+msgstr "物理演算機能のエンティティへの適用"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/material-entity.rst:3
 #: ../../source/create/entities/material-entity.rst:43
 msgid "Add a Material Entity"
-msgstr ""
+msgstr "マテリアル・エンティティの追加"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/zone-entity.rst:3
 msgid "Add a Zone Entity"
-msgstr ""
+msgstr "ゾーンエンティティの追加"
 
 #: ../../source/create/entities.rst:9
 msgid "Add Sounds to Entities"
-msgstr ""
+msgstr "エンティティへサウンドの追加"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/avatar-interactions.md:1
 msgid "Define Interactions with Avatars"
-msgstr ""
+msgstr "アバターとのインタラクションの定義"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/hero-zone.rst:3
 msgid "Prioritize Zones Within Your Domain"
-msgstr ""
+msgstr "ドメイン内のゾーンの優先順位の決定"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/web-entity-media.rst:7
 msgid "Play Media in a Web Entity"
-msgstr ""
+msgstr "ウェブエントリでのメディアの再生"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/tutorials.rst:3
 msgid "Entity Tutorials"
-msgstr ""
+msgstr "エンティティ・チュートリアル"
 
 #: ../../source/create/entities.rst:5
 msgid ""
@@ -5233,10 +5243,15 @@ msgid ""
 " as butterflies and stereo equipment. Each entity type has its own set of"
 " properties that define its appearance and behavior."
 msgstr ""
+"Vircadiaでコンテンツを構築するには、対話するオブジェクトであれ、イベントを開"
+"催するためのドメインであれ、エンティティが必要です。*エンティティ*は仮想世界"
+"の構成要素で、箱や四角のような単純なものから、蝶やステレオ機器のような複雑な"
+"アニメーションのものまで作るのに使われます。各エンティティタイプには、その外"
+"観と動作を定義するプロパティのセットがあります。"
 
 #: ../../source/create/entities/add-sounds.md:1
 msgid "Add Sound to Entities"
-msgstr ""
+msgstr "エンティティーへのサウンドの追加"
 
 #: ../../source/create/entities/add-sounds.md:3
 msgid ""
@@ -5244,54 +5259,61 @@ msgid ""
 "will emit a sound every time it comes in contact, or [collides, with "
 "another entity](entity-behavior)."
 msgstr ""
+"エンティティには衝突音を追加する機能があり、エンティティが接触するたびに音を"
+"発するか、[別のエンティティと衝突](entity-behavior)します。"
 
 #: ../../source/create/entities/add-sounds.md:5
 msgid "To add a sound:"
-msgstr ""
+msgstr "音をつけるには："
 
 #: ../../source/create/entities/add-sounds.md:6
 msgid "In Interface, pull up your Tablet or HUD and go to **Create**."
-msgstr ""
+msgstr "Interfaceで、タブレットやHUDを立ち上げ、**Create**に進みます。"
 
 #: ../../source/create/entities/add-sounds.md:7
 msgid "Select the entity."
-msgstr ""
+msgstr "エンティティを選択します。"
 
 #: ../../source/create/entities/add-sounds.md:8
 msgid ""
 "In the **Create** app, click on 'Properties' and scroll down to the "
 "'Collision' settings."
-msgstr ""
+msgstr "**Create** "
+"アプリで「Properties」をクリックし、「Collision」設定までスクロールします。"
 
 #: ../../source/create/entities/add-sounds.md:9
 msgid ""
 "Check the box for 'Collides', then enter the URL of the audio file for "
 "'Collision Sound'."
-msgstr ""
+msgstr "「Collides」にチェックを入れ、「Collision "
+"Sound」に音声ファイルのURLを入力します。"
 
 #: ../../source/create/entities/add-sounds.md:11
 msgid "Tutorial: Create a Bouncing Ball"
-msgstr ""
+msgstr "チュートリアル：弾むボールを作る"
 
 #: ../../source/create/entities/add-sounds.md:12
 msgid ""
 "In this example, we will walk through the steps to create a bouncing ball"
 " that emits a sound every time it hits a wall."
-msgstr ""
+msgstr "この例では、壁にぶつかるたびに音が出るバウンドボールを作成する手順を説明しま"
+"す。"
 
 #: ../../source/create/entities/add-sounds.md:14
 msgid "Create a wall to bounce your ball off of:"
-msgstr ""
+msgstr "ボールを跳ね返すための壁を作る："
 
 #: ../../source/create/entities/add-sounds.md:15
 msgid "[Add a cube entity](create-entities) to your domain."
-msgstr ""
+msgstr "[キューブ・エンティティ](create-entities)をドメインに追加します。"
 
 #: ../../source/create/entities/add-sounds.md:16
 msgid ""
 "[Resize the entity](entity-appearance.html#set-the-size-of-an-entity) to "
 "approximately 10m wide, 10m high and 1m deep (X:10, Y:10, Z:1)."
 msgstr ""
+"[エンティティのサイズ](entity-appearance.html#set the-size-of-an-entity) "
+"を幅10m、高さ10m、奥行き1m程度（X：10、Y：10、Z：1）に変更します。"
 
 #: ../../source/create/entities/add-sounds.md:17
 msgid ""
@@ -5299,12 +5321,17 @@ msgid ""
 "domain. Optionally, [change the color](entity-appearance.html#change-the-"
 "color-of-an-entity) of your ball, so that it is different than your wall."
 msgstr ""
+"ドメインに[球体のエンティティを追加](create-"
+"entities)して、球を作成します。オプションで、[ボールの色を変更](entity-"
+"appearance.html#change-the-color-of-an-entity)して、壁と違う色にします。"
 
 #: ../../source/create/entities/add-sounds.md:18
 msgid ""
 "In the **Create** app, click on 'Properties' and scroll down to the "
 "'Collision' settings. Check the box for 'Collides' and 'Dynamic'."
 msgstr ""
+"**Create**アプリで「Properties」をクリックし、「Collision」の設定までスクロー"
+"ルダウンします。「Collides」と「Dynamic」のチェックボックスをオンにします。"
 
 #: ../../source/create/entities/add-sounds.md:19
 msgid ""
@@ -5312,6 +5339,10 @@ msgid ""
 "be a *.wav* file, uncompressed, 48Khz, 16 bit. The URL can be either a "
 "web address, or an ATP reference to the assets on this domain server."
 msgstr ""
+"「Collision "
+"Sound」には、サウンドファイルのURLを入力してください。サウンドは、*.wav*ファ"
+"イル、非圧縮、48Khz、16ビットでなければなりません。URLは、ウェブアドレス、ま"
+"たはこのドメインサーバー上の資産へのATPリファレンスのいずれかを指定できます。"
 
 #: ../../source/create/entities/add-sounds.md:20
 msgid ""
@@ -5320,25 +5351,33 @@ msgid ""
 "earth (use -9.8 if you want that). Gravity is in units of "
 "m/s<sup>2</sup>."
 msgstr ""
+"「Physics」設定までスクロールします。Y の「重力」を -5 "
+"に設定します。これにより、ボールは地上のものよりも少しゆっくりと落下します ("
+"必要な場合は -9.8 を使用してください)。重力の単位は m/s<sup>2</sup>."
 
 #: ../../source/create/entities/add-sounds.md:22
 msgid ""
 "As soon as you click off the ball, the gravity will cause the ball to "
 "fall downwards. When it hits the floor, it should stop or bounce a little"
 " and the sound should play."
-msgstr ""
+msgstr "ボールをクリックするとすぐに、重力によってボールが下に落ちます。床にぶつかる"
+"と、止まるか少し弾み、音が鳴るはずです。"
 
 #: ../../source/create/entities/add-sounds.md:26
 msgid ""
 "[Set Entity Behavior on Collision](entity-behavior.html#set-entity-"
 "behavior-on-collision)"
 msgstr ""
+"[衝突時のエンティティの動作を設定](entity-behavior.html#set-entity-behavior-"
+"on-collision)"
 
 #: ../../source/create/entities/add-sounds.md:27
 msgid ""
 "[Set How an Entity Moves in a Gravitational Field](entity-physics.html"
 "#set-how-an-entity-moves-in-a-gravitational-field)"
 msgstr ""
+"[重力場でのエンティティの移動方法を設定する](entity-physics.html#set-how-an-"
+"entity-moves-in-a-gravitational-field)"
 
 #: ../../source/create/entities/avatar-interactions.md:3
 msgid ""
@@ -5351,26 +5390,37 @@ msgid ""
 "behavior and collision properties, so that objects are grabbable, "
 "triggerable, or dynamic."
 msgstr ""
+"実生活では、日常的にオブジェクトとやり取りしています。Vircadia では、"
+"アバターはメタバース内のオブジェクト (エンティティ) と対話することもできます"
+"。オブジェクトとの相互作用を定義する方法はいくつかあります。スクリプトを記述"
+"して、エンティティのプロパティを変更できます。"
+"アバターに固有のエンティティを作成できます (これらを「アバター エンティティ」"
+"と呼びます)。また、オブジェクトがグラブ可能、トリガー可能、または動的になるよ"
+"うに、エンティティの動作と衝突のプロパティを設定できることを忘れないでくださ"
+"い。"
 
 #: ../../source/create/entities/avatar-interactions.md:6
 msgid ""
 "[Control Interactions with Entities using Scripts](#control-interactions-"
 "with-entities-using-Scripts)"
 msgstr ""
+"[スクリプトを使用してエンティティとのやり取りを制御する](#control-"
+"interactions-with-entities-using-Scripts)"
 
 #: ../../source/create/entities/avatar-interactions.md:7
 msgid "[Create Avatar Entities](#create-avatar-entities)"
-msgstr ""
+msgstr "[アバターエンティティの作成](#create-avatar-entities)"
 
 #: ../../source/create/entities/avatar-interactions.md:9
 msgid "Control Interactions with Entities using Scripts"
-msgstr ""
+msgstr "スクリプトを使用してエンティティとの相互作用を制御する"
 
 #: ../../source/create/entities/avatar-interactions.md:11
 msgid ""
 "When your avatar comes in contact with an entity, you can control its "
 "interactions with the entity using simple scripts."
-msgstr ""
+msgstr "アバターがエンティティと接触すると、簡単なスクリプトを使用してエンティティと"
+"のやり取りを制御できます。"
 
 #: ../../source/create/entities/avatar-interactions.md:13
 msgid ""
@@ -5381,6 +5431,11 @@ msgid ""
 "However, in the case of more complex objects, the bounds might be larger "
 "than the actual mesh model."
 msgstr ""
+"アバターとエンティティの相互作用は、アバターがエンティティの境界ボックスに接"
+"触したときに発生します。境界ボックス（またはバウンズ）は、エンティティの外側"
+"にある枠です。立方体の場合、バウンズはエンティティとまったく同じサイズと形状"
+"になります。しかし、より複雑なオブジェクトの場合、バウンズは実際のメッシュモ"
+"デルよりも大きくなる場合があります。"
 
 #: ../../source/create/entities/avatar-interactions.md:15
 msgid ""
@@ -5391,10 +5446,15 @@ msgid ""
 "[`Entities.leaveEntity()`](https://apidocs.vircadia.dev/Entities.html#.leaveEntity)"
 " occurs when the avatar exits the bounding box."
 msgstr ""
+"これらの対話をスクリプト化するために使用できる方法は 2 つあります。[`Entities"
+".enterEntity()`](https://apidocs.vircadia.dev/Entities.html#.enterEntity) は"
+"、モデル自体ではなく、アバターが境界ボックスに接触したときに発生します。同様"
+"に、[`Entities.leaveEntity()`](https://apidocs.vircadia.dev/Entities.html#."
+"leaveEntity) は、アバターが境界ボックスを出るときに発生します。"
 
 #: ../../source/create/entities/avatar-interactions.md:17
 msgid "Tutorial: Enter a Box to Change Its Color"
-msgstr ""
+msgstr "チュートリアル: ボックスに入って色を変更する"
 
 #: ../../source/create/entities/avatar-interactions.md:19
 msgid ""
@@ -5404,10 +5464,14 @@ msgid ""
 "color. When your avatar moves away, the box will return to its original "
 "color."
 msgstr ""
+"次の例では、シンプルなエンティティを作成し、エンティティとアバターの相互作用"
+"をスクリプトで作成するプロセスを説明します。アバターがボックスに接触すると、"
+"ボックスの色が変わります。アバターが離れると、ボックスは元の色に戻ります。"
 
 #: ../../source/create/entities/avatar-interactions.md:21
 msgid "[Create a cube entity](create-entities).  ![](_images/add-entity.png)"
-msgstr ""
+msgstr "[キューブ エンティティを作成する](create-entities).  ![](_images/add-entity."
+"png)"
 
 #: ../../source/create/entities/avatar-interactions.md:22
 msgid ""
@@ -5415,6 +5479,9 @@ msgid ""
 "(yellow) or leave (pink) its bounding box. Save it to a file called "
 "`interactions-example.js`."
 msgstr ""
+"次のスクリプトは、立方体のバウンディング ボックスに近づく (黄色) "
+"または離れる (ピンク) ときに、立方体の色を変更します。「interactions-example."
+"js」という名前のファイルに保存します。"
 
 #: ../../source/create/entities/avatar-interactions.md:37
 msgid ""
@@ -5422,6 +5489,9 @@ msgid ""
 "'Script' settings. Enter the path and file name to `interactions-"
 "example.js` that you created above. Press 'Enter'."
 msgstr ""
+"**Create** アプリで、「Properties」をクリックし、「Script」設定までスクロール"
+"します。上記で作成した「interactions-example."
+"js」へのパスとファイル名を入力します。「Enter」を押します。"
 
 #: ../../source/create/entities/avatar-interactions.md:39
 msgid ""
@@ -5430,10 +5500,13 @@ msgid ""
 "building with the functions running while you are inside, and stop when "
 "you walk out."
 msgstr ""
+"これらの関数を使用して、エンティティ パラメーターの全範囲を制御できます。エン"
+"ティティは、目に見えないセンサーとして使用することも、建物全体をカバーするよ"
+"うに拡張して、中にいる間は機能を実行し、外に出ると停止することもできます。"
 
 #: ../../source/create/entities/avatar-interactions.md:42
 msgid "Create Avatar Entities"
-msgstr ""
+msgstr "アバター エンティティの作成"
 
 #: ../../source/create/entities/avatar-interactions.md:44
 msgid ""
@@ -5442,6 +5515,11 @@ msgid ""
 "they travel with your avatar when you go to other domains. Examples of "
 "avatar entities include wearables such as glasses or hats."
 msgstr ""
+"アバターは、アバターエンティティとも関わり合いを持つことになります。アバター"
+"エンティティは、あなたのアバターに付随するエンティティで、ドメインエンティテ"
+"ィとは異なり、あなたが他のドメインに行くときにアバターと一緒に移動します。ア"
+"バターエンティティの例としては、メガネや帽子などのウェアラブルが挙げられます"
+"。"
 
 #: ../../source/create/entities/avatar-interactions.md:46
 msgid ""
@@ -5450,10 +5528,14 @@ msgid ""
 "(and move with) your avatar. We've listed the ways you can create avatar "
 "entities with some examples:"
 msgstr ""
+"アバターエンティティは[Avatar Mixer](../../explore/get-started/architecture."
+"html#assignment-clients)に配置されるので、あなたのアバターとつながっています"
+"（一緒に移動します）。アバターエンティティの作成方法を、いくつかの例とともに"
+"紹介します："
 
 #: ../../source/create/entities/avatar-interactions.md:48
 msgid "[Create a wearable:](../wearables) All wearables are avatar entities."
-msgstr ""
+msgstr "[Create a wearable:](../wearables) 全てのウェアラブルはアバターの実体です。"
 
 #: ../../source/create/entities/avatar-interactions.md:49
 msgid ""
@@ -5466,6 +5548,15 @@ msgid ""
 "the avatar entity with them when they exit the domain. You can keep your "
 "domain free of clutter using this property."
 msgstr ""
+"[アバターエンティティとしてクローンする:](entity-behavior.html#make-an-"
+"entity-cloneable) アバターエンティティとしてクローンすると、そのエンティティ"
+"のコピーを作ってアバターに付けます。そのエンティティのコピーはすべて、ドメイ"
+"ンを離れるときにアバターと一緒に出て行くようになります。たとえば、ドメイン内"
+"にコーヒーショップがある場合、すべてのコーヒーカップをアバターエンティティと"
+"してクローンするように設定することができます。コーヒーカップのクローンを作成"
+"したユーザーは、ドメインを離れるときにアバターエンティティを一緒に持っていき"
+"ます。このプロパティを使用すると、ドメインが散らからないようにすることができ"
+"ます。"
 
 #: ../../source/create/entities/avatar-interactions.md:50
 msgid ""
@@ -5473,6 +5564,10 @@ msgid ""
 "scripts. For example, you can create a script to have a pet (avatar "
 "entity) follow you around as you explore Vircadia."
 msgstr ""
+"スクリプトを使用してアバターエンティティを追加する： "
+"スクリプトを使用してアバターエンティティを追加することができます。例えば、"
+"Vircadia を探索するときにペット (アバター実体) "
+"に付いてきてもらうためのスクリプトを作成することができます。"
 
 #: ../../source/create/entities/avatar-interactions.md:52
 msgid "This example script adds a cube as an avatar entity to your domain."
