@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-18 00:26+0000\n"
-"PO-Revision-Date: 2022-07-24 15:22+0000\n"
+"PO-Revision-Date: 2023-04-10 00:51+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/home/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/home.rst:80
@@ -130,12 +130,12 @@ msgstr "`Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 #: ../../source/home.rst:42
 #, fuzzy
 msgid "`日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|"
-msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+msgstr "`日本語 <https://docs.vircadia.dev/jp/>` _ |jp_trans|"
 
 #: ../../source/home.rst:43
 #, fuzzy
 msgid "`한국어 <https://docs.vircadia.com/ko/>`_ |ko_trans|"
-msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+msgstr "`한국어 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
 #: ../../source/home.rst:67
 msgid "What can I do?"
