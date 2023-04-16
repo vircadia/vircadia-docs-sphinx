@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-04-10 00:51+0000\n"
+"PO-Revision-Date: 2023-04-17 03:52+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -5571,7 +5571,8 @@ msgstr ""
 
 #: ../../source/create/entities/avatar-interactions.md:52
 msgid "This example script adds a cube as an avatar entity to your domain."
-msgstr ""
+msgstr "このスクリプトの例では、ドメインにアバターエンティティとして立方体を追加しま"
+"す。"
 
 #: ../../source/create/entities/avatar-interactions.md:65
 #: ../../source/create/entities/portal-tutorial.md:23
@@ -5579,17 +5580,17 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:18
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:114
 msgid "[Define an Entity's Behavior](entity-behavior)"
-msgstr ""
+msgstr "[エンティティの振る舞いを定義する](entity-behavior)"
 
 #: ../../source/create/entities/avatar-interactions.md:66
 #: ../../source/create/entities/portal-tutorial.md:62
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:118
 msgid "[Interact with Your Environment](../../explore/interact)"
-msgstr ""
+msgstr "[環境との相互作用](../../explore/interact)"
 
 #: ../../source/create/entities/avatar-interactions.md:67
 msgid "[API Reference: Entities](https://apidocs.vircadia.dev/Entities.html)"
-msgstr ""
+msgstr "[API Reference: エンティティ](https://apidocs.vircadia.dev/Entities.html)"
 
 #: ../../source/create/entities/avatar-interactions.md:68
 #: ../../source/create/entities/portal-tutorial.md:24
@@ -5597,12 +5598,12 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:19
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:115
 msgid "[Get Started with Scripting](../../script/get-started-with-scripting)"
-msgstr ""
+msgstr "[スクリプティングをはじめよう](../../script/get-started-with-scripting)"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:3
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Create an Avatar Scaling Button"
-msgstr ""
+msgstr "チュートリアル：アバタースケーリングボタンの作成"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:5
 msgid ""
@@ -5612,6 +5613,10 @@ msgid ""
 "scaling button to your domain. This will help users fit into the spaces "
 "you design."
 msgstr ""
+"Vircadiaでは、物理的な制限を破るような大きさの異常に大きいまたは小さいコンテ"
+"ンツを作成することができます。このような体験を訪問するユーザーに提供するため"
+"に、あなたのドメインにアバター拡大縮小ボタンを追加することができます。これに"
+"より、ユーザーはあなたのデザインしたスペースにフィットしやすくなります。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:14
 #: ../../source/create/entities/create-fountain.rst:15
@@ -5624,59 +5629,61 @@ msgstr ""
 msgid ""
 "Consider getting familiar with the following concepts before starting "
 "this tutorial:"
-msgstr ""
+msgstr "このチュートリアルを始める前に、以下の概念に慣れておくことをご検討ください："
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:16
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:16
 msgid "`Create New Entities <create-entities>`_"
-msgstr ""
+msgstr "`新しいエンティティの作成 <create-entities>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:17
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:17
 msgid "`Change How Entities Look <entity-appearance>`_"
-msgstr ""
+msgstr "`エンティティの見え方を変える <entity-appearance>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:18
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:18
 msgid "`Define an Entity's Behavior <entity-behavior>`_"
-msgstr ""
+msgstr "`エンティティの動作を定義する <entity-behavior>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:19
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:19
 msgid "`Get Started with Scripting <../../script/get-started-with-scripting>`_"
-msgstr ""
+msgstr "`スクリプティングをはじめよう <../../script/get-started-with-scripting>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:20
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:20
 msgid "`Client Entity Scripts <../../script/client-entity-scripts>`_"
-msgstr ""
+msgstr "`クライアント・エンティティ・スクリプト <../../script/client-entity-"
+"scripts>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:21
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:21
 msgid "`Write Your Own Scripts <../../script/write-scripts>`_"
-msgstr ""
+msgstr "`独自のスクリプトを作成する <../../script/write-scripts>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:25
 msgid "Write an Avatar Scaling Script"
-msgstr ""
+msgstr "アバタースケーリングスクリプトの作成"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:27
 msgid ""
 "To define the behavior of your avatar and the button, you need to write a"
 " client entity script that:"
-msgstr ""
+msgstr "アバターとボタンの動作を定義するには、次のようなクライアント エンティティ "
+"スクリプトを作成する必要があります:"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:29
 msgid "attaches to an entity (a button in your domain)."
-msgstr ""
+msgstr "エンティティ(ドメイン内のボタン)にアタッチします。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:30
 msgid "shrinks or increases the size of an avatar."
-msgstr ""
+msgstr "アバターのサイズを縮小または拡大します。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:31
 msgid "defines what happens when a user clicks on or triggers the entity."
-msgstr ""
+msgstr "ユーザーがエンティティをクリックまたはトリガーしたときの動作を定義します。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:33
 msgid ""
@@ -5686,6 +5693,11 @@ msgid ""
 " tiny size. You can use this script, modify it, or `write your own "
 "<../../script/write-scripts>`_ to suit your needs."
 msgstr ""
+"このチュートリアルでは、アバターを小さくするためのアバタースケーリングスクリ"
+"プト、`shrink-avatar.js <../../_static/resources/entities/entity-client-"
+"script-shrink-avatar.js>` を使用しました。 `このスクリプト <../../script/"
+"write-scripts>`_ を使うか、修正するか、あるいはあなたのニーズに合わせて独自の"
+"スクリプトを書くことができます。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:35
 msgid ""
@@ -5694,11 +5706,15 @@ msgid ""
 " mouse or triggers the entity with their hand controllers. It then scales"
 " the avatar to one-tenth its original size."
 msgstr ""
+"Shrink-avatar.js は、Vircadia の `JavaScript API <https://apidocs.vircadia."
+"dev>`_ を使用して、ユーザーがマウスでクリックしたり、ハンド コントローラーで"
+"エンティティをトリガーしたりするタイミングを決定します。次に、"
+"アバターを元のサイズの 10 分の 1 にスケーリングします。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:39
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:33
 msgid "Create an Entity to Use as a Button"
-msgstr ""
+msgstr "ボタンとして使用するエンティティを作成する"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:41
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:35
@@ -5707,6 +5723,9 @@ msgid ""
 "behavior.html#set-an-entity-to-trigger-scripts>`_ so that the script can "
 "detect when you trigger or push the button with your hand controllers."
 msgstr ""
+"ボタンに作成するエンティティは、ハンドコントローラでボタンをトリガーまたはプ"
+"ッシュしたときにスクリプトが検出できるように、 `トリガーを有効 <entity-"
+"behavior.html#set-an-entity-to-trigger-scripts>`_ にしておきます。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:44
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:38
@@ -5714,12 +5733,14 @@ msgid ""
 "`Create an entity <create-entities>`_ to be used as a button. This can be"
 " a 3D model, cube, or sphere entity."
 msgstr ""
+"ボタンとして使用する `エンティティ <create-entities>`_ "
+"を作成します。立方体、球体のエンティティのような3Dモデルとなります。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:45
 #: ../../source/create/entities/portal-tutorial.md:43
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:106
 msgid "Go to the 'Properties' tab and scroll down to 'Behavior'."
-msgstr ""
+msgstr "「Properties」タブを開き、「Behavior」までスクロールしてください。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:46
 msgid ""
@@ -5727,16 +5748,20 @@ msgid ""
 "avatar.js <../../_static/resources/entities/entity-client-script-shrink-"
 "avatar.js>`_'."
 msgstr ""
+"つぎに、「Script」の横に、スクリプトのURLを貼り付けます。この場合のスクリプト"
+"は、こちら`shrink-avatar.js <../../_static/resources/entities/entity-client-"
+"script-shrink-avatar.js>` _ など。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:47
 msgid "Ensure that 'Triggerable' is selected."
-msgstr ""
+msgstr "「Triggerable」が選択されていることを確認します。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:48
 msgid ""
 "After you exit the **Create** app, test your script by clicking or "
 "triggering the button to observe your avatar scale down."
-msgstr ""
+msgstr "**Create** により終了したら、ボタンをクリックまたはトリガーしてスクリプトをテ"
+"ストし、アバターの縮小を確認します。"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:61
 #: ../../source/create/entities/boombox-tutorial.rst:18
@@ -5745,7 +5770,7 @@ msgstr ""
 #: ../../source/create/entities/material-entity.rst:105
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:63
 msgid ":doc:`Create New Entities <create-entities>`"
-msgstr ""
+msgstr ":doc:`新しいエンティティを作成する <create-entities>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:62
 #: ../../source/create/entities/boombox-tutorial.rst:19
@@ -5755,7 +5780,7 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:165
 #: ../../source/create/entities/zone-entity.rst:172
 msgid ":doc:`Change How Entities Look <entity-appearance>`"
-msgstr ""
+msgstr ":doc:`エンティティの外観を変更する <entity-appearance>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:63
 #: ../../source/create/entities/boombox-tutorial.rst:20
@@ -5766,21 +5791,22 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:164
 #: ../../source/create/entities/zone-entity.rst:171
 msgid ":doc:`Define an Entity's Behavior <entity-behavior>`"
-msgstr ""
+msgstr ":doc:`エンティティの動作を定義する <entity-behavior>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:65
 #: ../../source/create/entities/boombox-tutorial.rst:22
 #: ../../source/create/entities/boombox-tutorial.rst:171
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:67
 msgid ":doc:`Client Entity Scripts <../../script/client-entity-scripts>`"
-msgstr ""
+msgstr ":doc:`クライアント・エンティティ・スクリプト <../../script/client-entity-"
+"scripts>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:66
 #: ../../source/create/entities/boombox-tutorial.rst:23
 #: ../../source/create/entities/boombox-tutorial.rst:172
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:68
 msgid ":doc:`Write Your Own Scripts <../../script/write-scripts>`"
-msgstr ""
+msgstr ":doc:`独自のスクリプトを作成する <../../script/write-scripts>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:67
 #: ../../source/create/entities/boombox-tutorial.rst:173
@@ -5789,7 +5815,7 @@ msgstr ""
 #: ../../source/create/entities/entity-physics.rst:156
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:69
 msgid ":doc:`Interact with Your Environment <../../explore/interact>`"
-msgstr ""
+msgstr ":doc:`環境との相互作用 <../../explore/interact>`"
 
 #: ../../source/create/entities/boombox-tutorial.rst:2
 msgid ""
@@ -5956,7 +5982,7 @@ msgstr ""
 
 #: ../../source/create/entities/boombox-tutorial.rst:101
 msgid "Entity Server Script"
-msgstr ""
+msgstr "エンティティ サーバー スクリプト"
 
 #: ../../source/create/entities/boombox-tutorial.rst:101
 msgid ""
@@ -5967,6 +5993,12 @@ msgid ""
 "requests for each remotely callable function to execute on the server, "
 "and the server script handles the audio playback accordingly."
 msgstr ""
+"このサーバースクリプトは、音楽プレーヤーの状態を処理し、すべてのユーザーで同"
+"期されるようにオーディオを再生します。すべてのユーザーに対して同じ状態にする"
+"必要があるエンティティのアクションやビヘイビアは、サーバー上で実行する必要が"
+"あります。ボタン上で動作するクライアントスクリプトは、リモートで呼び出し可能"
+"な各関数の実行要求をサーバーに中継し、サーバースクリプトはそれに応じて音声再"
+"生を処理します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:101
 msgid ""
@@ -5974,6 +6006,8 @@ msgid ""
 "content.com/misslivirose/ happy-boombox/master/boom "
 "BoxEntityServerScript.js>`_"
 msgstr ""
+"`boomBoxEntityServerScript.js <https://raw.githubuser content.com/"
+"misslivirose/ happy-boombox/master/boom BoxEntityServerScript.js>`_"
 
 #: ../../source/create/entities/boombox-tutorial.rst:111
 msgid "Client Entity Script"
@@ -5987,16 +6021,23 @@ msgid ""
 " displays the controls, and serves as a relay mechanic between the HTML "
 "page and the boombox entity server script."
 msgstr ""
+"このクライアントスクリプトは、ユーザー間のインタラクションを処理し、Tablet "
+"Scripting Interfaceを使用してHTMLページを介してラジカセを制御するためのUIを表"
+"示します。マウスクリックやコントローラーのトリガーを聞き、コントロールを表示"
+"し、HTMLページとラジカセの実体サーバースクリプトの間の中継機構として機能しま"
+"す。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:111
 msgid ""
 "`boomBoxEntityScript.js <https://raw.githubuser content.com/misslivirose/"
 " happy-boombox/master/boom BoxEntityScript.js>`_"
 msgstr ""
+"`boomBoxEntityScript.js <https://raw.githubuser content.com/misslivirose/ "
+"happy-boombox/master/boom BoxEntityScript.js>`_"
 
 #: ../../source/create/entities/boombox-tutorial.rst:119
 msgid "HTML and CSS"
-msgstr ""
+msgstr "HTMLとCSS"
 
 #: ../../source/create/entities/boombox-tutorial.rst:119
 msgid ""
@@ -6006,24 +6047,34 @@ msgid ""
 "boombox entity script, which in turns calls entity server methods "
 "depending on the `EventBridge` message contents."
 msgstr ""
+"HTMLページは、Tablet Scripting Interfaceを通じてラジカセのコントローラUIを表"
+"示し、CSSでスタイリングされます。HTML要素からのユーザ入力を `EventBridge` "
+"を使って boombox エンティティスクリプトに送り、`EventBridge` "
+"メッセージの内容に応じてエンティティサーバのメソッドを呼び出します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:119
 msgid ""
 "`boomBoxController.html <https://raw.githubusercontent .com/misslivirose"
 "/happy-boom box/master/app/boomBoxControll er.html>`_"
 msgstr ""
+"`boomBoxController.html <https://raw.githubusercontent .com/misslivirose/"
+"happy-boom box/master/app/boomBoxControll er.html>`_"
 
 #: ../../source/create/entities/boombox-tutorial.rst:125
 msgid ""
 "`styles.css <https://raw.github usercontent.com/misslivirose/ha ppy-"
 "boombox/master/app/styles.css>`_"
 msgstr ""
+"`styles.css <https://raw.github usercontent.com/misslivirose/ha ppy-boombox/"
+"master/app/styles.css>`_"
 
 #: ../../source/create/entities/boombox-tutorial.rst:130
 msgid ""
 "You can use the existing versions of our scripts, modify them, or "
 ":doc:`write your own scripts <../../script/write-scripts>`."
 msgstr ""
+"私たちのスクリプトの既存のバージョンを使用したり、それらを変更したり、 :doc:`"
+"独自のスクリプト <../../script/write-scripts>` を作成することができます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:132
 msgid "If you're using the existing versions of our scripts:"
