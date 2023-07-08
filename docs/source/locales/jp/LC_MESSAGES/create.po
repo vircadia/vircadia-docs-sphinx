@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-04-17 03:52+0000\n"
+"PO-Revision-Date: 2023-07-09 03:48+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
@@ -5822,45 +5822,50 @@ msgid ""
 "This document is outdated. FIXME: Mentions HiFi hosted content, mentions "
 "Oculus Quest even though it is not supported yet"
 msgstr ""
+"このドキュメントは古くなっています。FIXME：HiFiのホストされたコンテンツに言及"
+"しており、Oculus Questについて言及していますが、まだサポートされていません。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:7
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Create a Boombox"
-msgstr ""
+msgstr "チュートリアル：ラジカセ（Boombox）の作成"
 
 #: ../../source/create/entities/boombox-tutorial.rst:9
 msgid ""
 "You can create a music player that plays all your favorite tracks and "
 "also syncs the audio for other users in your domain."
-msgstr ""
+msgstr "お気に入りのトラックを再生し、ドメイン内の他のユーザーのオーディオを同期する"
+"音楽プレーヤーを作成できます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:27
 msgid "Create a Boombox Entity"
-msgstr ""
+msgstr "ラジカセ・エンティティの作成"
 
 #: ../../source/create/entities/boombox-tutorial.rst:29
 msgid "Your BoomBox will consist of:"
-msgstr ""
+msgstr "ラジカセは次のもので構成されます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:31
 msgid "A boombox base model: A model entity that runs an entity server script."
-msgstr ""
+msgstr "ラジカセのベースモデル： "
+"エンティティサーバースクリプトを実行するモデルエンティティ。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:32
 msgid ""
 "An 'ON/OFF' button: A child entity runs a client entity script to allow "
 "users to interact with the boombox."
-msgstr ""
+msgstr "「ON/OFF」ボタン：子エンティティがクライアントエンティティスクリプトを実行し"
+"、ユーザーがラジカセと対話できるようにします。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:34
 msgid ""
 "The boombox will start playing when users click or trigger the ON/OFF "
 "button."
-msgstr ""
+msgstr "ON/OFFボタンをクリックまたはトリガーすると、ラジカセの再生が開始されます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:36
 msgid "To create a boombox:"
-msgstr ""
+msgstr "ラジカセを作成するには："
 
 #: ../../source/create/entities/boombox-tutorial.rst:39
 msgid ""
@@ -5869,12 +5874,19 @@ msgid ""
 " `use one we've created <https://github.com/misslivirose/happy-"
 "boombox/blob/master/BoomBox.fbx>`_."
 msgstr ""
+"**Create** アプリを使って、 doc:`3Dモデルのエンティティをインポートします"
+"。<../3d-models/import-model>` "
+"ラジカセのベースは、自分で3Dモデルを作成することも、 "
+"`私たちが作成したものを使用することもできます。 <https://github.com/"
+"misslivirose/happy-boombox/blob/master/BoomBox.fbx>`_."
 
 #: ../../source/create/entities/boombox-tutorial.rst:40
 msgid ""
 "Next, :doc:`create the button entity <create-entities>` that users will "
 "interact with. This can be a cube entity."
 msgstr ""
+"次に、 :doc:`ユーザが操作するボタン・エンティティ <create-entities>` "
+"を作成します。これは、キューブ・エンティティにすることができます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:41
 msgid ""
@@ -5882,24 +5894,29 @@ msgid ""
 " from 'Box' to 'Octagon' or 'Cylinder' depending on your aesthetic "
 "preferences."
 msgstr ""
+"ボタンエンティティの「Properties」タブに移動します。Shape'プロパティを'Box'か"
+"ら'Octagon'または'Cylinder'に変更します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:42
 msgid ""
 "Scroll down to the 'Behavior' section and ensure that 'Grabbable' and "
 "'Triggerable' are checked."
-msgstr ""
+msgstr "'Behavior'セクションまでスクロールダウンし、'Grabbable'と'Triggerable'がチェ"
+"ックされていることを確認する。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:43
 msgid ""
 "Scale, rotate, and move your button to align it to the desired position "
 "on the model."
-msgstr ""
+msgstr "ボタンを拡大縮小、回転、移動して、モデル上の希望の位置に合わせます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:47
 msgid ""
 "With the **Create** app open, select the 3D model of the boombox. Go to "
 "the 'Properties' tab and copy the 'ID' under 'Name'."
 msgstr ""
+"「Create」アプリを開いた状態で、ラジカセの3Dモデルを選択します。 "
+"'Properties'タブを開き、'Name'の下にある'ID'をコピーします。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:48
 msgid ""
@@ -5907,10 +5924,13 @@ msgid ""
 " the copied entity ID in the 'Parent' field. This makes your boombox "
 "model entity the parent of your button entity."
 msgstr ""
+"作成したキューブ・エンティティを選択し、'Properties' タブに移動して、"
+"コピーしたエンティティ ID を 'Parent' フィールドに貼り付けます。これで、ラジ"
+"カセ・モデル・エンティティがボタン・エンティティの親になります。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:52
 msgid "Add User Data to Your Boombox"
-msgstr ""
+msgstr "ユーザーデータをラジカセに追加する"
 
 #: ../../source/create/entities/boombox-tutorial.rst:54
 msgid ""
@@ -5919,48 +5939,57 @@ msgid ""
 "variables the same for all users in a domain. In this case, User Data "
 "will contain:"
 msgstr ""
+"User Dataプロパティは、スクリプトのニーズに合わせてカスタマイズできるJSONオブ"
+"ジェクトです。また、User Dataは、ドメイン内の全ユーザーの変数を同期して同じに"
+"保つのに役立ちます。この場合、User Dataには以下が含まれます："
 
 #: ../../source/create/entities/boombox-tutorial.rst:56
 msgid ""
 "Song List: All URLs of the songs you want played on your boombox. You can"
 " also use MP3 or WAV files stored on your local machine."
-msgstr ""
+msgstr "曲のリスト： ラジカセで再生したい曲の全URL。ローカルマシンに保存されているMP3"
+"やWAVファイルを使用することもできます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:57
 msgid ""
 "Music player volume information: You can change this as per your "
 "preference."
-msgstr ""
+msgstr "音楽プレーヤーの音量情報：ご自身の好みに応じて変更することができます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:61
 msgid ""
 "User Data can store information only up to a certain size. We recommend "
 "keeping the limit of 10 songs. We support the following formats:"
-msgstr ""
+msgstr "ユーザーデータは、一定のサイズまでしか情報を保存できません。おすすめの制限は1"
+"0曲です。以下の形式をサポートしています："
 
 #: ../../source/create/entities/boombox-tutorial.rst:63
 msgid ""
 "WAV: 16-bit uncompressed WAV at any sample rate, with 1 (mono), "
 "2(stereo), or 4 (ambisonic) channels."
 msgstr ""
+"WAV形式：16ビットの非圧縮WAV形式で、任意のサンプルレートで、1（モノラル）、2"
+"（ステレオ）、または4（アンビソニック）チャンネルをサポートしています。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:64
 msgid "MP3: Mono or stereo, at any sample rate."
-msgstr ""
+msgstr "MP3形式：モノラルまたはステレオで、任意のサンプルレートをサポートしています。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:65
 msgid ""
 "RAW: 48khz 16-bit mono or stereo. Filename must include \".stereo\" to be"
 " interpreted as stereo."
 msgstr ""
+"RAW形式：48kHzの16ビットモノラルまたはステレオをサポートしています。"
+"ファイル名に \".stereo\" を含めることで、ステレオとして解釈されます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:67
 msgid "To add User Data to your boombox:"
-msgstr ""
+msgstr "ラジカセにユーザーデータを追加するには："
 
 #: ../../source/create/entities/boombox-tutorial.rst:70
 msgid "Select your boombox entity, not the button."
-msgstr ""
+msgstr "ボタンではなく、ラジカセの実体を選択します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:71
 msgid ""
@@ -5969,16 +5998,20 @@ msgid ""
 "volume setting. You can use your own songs and change the volume "
 "setting::"
 msgstr ""
+"「Properties」タブに移動してください。 「User Data」までスクロールし、以下のJ"
+"SON情報を貼り付けてください。このJSONデータには、10曲と音量設定が含まれていま"
+"す。ご自身の曲を使用し、音量設定を変更することができます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:94
 msgid "Write Music Player Scripts"
-msgstr ""
+msgstr "音楽プレーヤー・スクリプトの作成"
 
 #: ../../source/create/entities/boombox-tutorial.rst:96
 msgid ""
 "The boombox system contains the following scripts and files that allows a"
 " user to control audio playback:"
-msgstr ""
+msgstr "ラジカセシステムには、ユーザーがオーディオ再生をコントロールするための以下の"
+"スクリプトとファイルが含まれています："
 
 #: ../../source/create/entities/boombox-tutorial.rst:101
 msgid "Entity Server Script"
@@ -6078,11 +6111,11 @@ msgstr ""
 
 #: ../../source/create/entities/boombox-tutorial.rst:132
 msgid "If you're using the existing versions of our scripts:"
-msgstr ""
+msgstr "既存のスクリプトのバージョンを使用している場合："
 
 #: ../../source/create/entities/boombox-tutorial.rst:135
 msgid "Select your boombox model and go to the 'Properties' tab."
-msgstr ""
+msgstr "ラジカセのモデルを選択し、「プロパティ」タブを開きます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:136
 msgid ""
@@ -6091,10 +6124,14 @@ msgid ""
 "boombox/master/boomBoxEntityServerScript.js>`_ into the 'Server Script' "
 "field."
 msgstr ""
+"「Behavior」セクションまでスクロールダウンし、 `エンティティ・サーバー・"
+"スクリプトのURL <https://raw.githubusercontent.com/misslivirose/"
+"happy-boombox/master/boomBoxEntityServerScript.js>`_ を「Server "
+"Script」フィールドに貼り付けます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:137
 msgid "Select your button entity and go to the 'Properties' tab."
-msgstr ""
+msgstr "ボタンの実体を選択し、「プロパティ」タブに移動します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:138
 msgid ""
@@ -6102,18 +6139,24 @@ msgid ""
 "script's URL <https://raw.githubusercontent.com/misslivirose/happy-"
 "boombox/master/boomBoxEntityScript.js>`_ into the 'Script' field."
 msgstr ""
+"「Behavior」セクションまでスクロールダウンし、 "
+"`クライアント・エンティティ・スクリプトのURL<https://raw.githubusercontent."
+"com/misslivirose/happy-boombox/master/boomBoxEntityScript.js>`_ "
+"を「Script」フィールドに貼り付けます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:140
 msgid ""
 "If you're writing your own scripts or modifying the existing ones, and "
 "want to host these in the 'Asset Browser':"
-msgstr ""
+msgstr "独自のスクリプトを書いたり、既存のスクリプトを修正したりして、それらを「"
+"Asset Browser」でホストしたい場合："
 
 #: ../../source/create/entities/boombox-tutorial.rst:142
 msgid ""
 "On your computer, create a folder called 'BoomBox'. You'll save your "
 "files here with the following structure."
-msgstr ""
+msgstr "パソコンに「BoomBox」というフォルダを作成します。ここに以下のような構成でファ"
+"イルを保存します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:146
 msgid ""
@@ -6127,12 +6170,21 @@ msgid ""
 "<https://raw.githubusercontent.com/misslivirose/happy-"
 "boombox/master/app/styles.css>`_ to the folder in your computer."
 msgstr ""
+"`エンティティサーバスクリプト <https://raw.githubusercontent.com/"
+"misslivirose/happy-boombox/master/boomBoxEntityServerScript.js>`_ 、 `"
+"クライアントエンティティスクリプト <https://raw.githubusercontent.com/"
+"misslivirose/happy-boombox/master/boomBoxEntityScript.js>`_ 、 `HTMLファイル "
+"<https://raw.githubusercontent.com/misslivirose/happy-boombox/master/app/"
+"boomBoxController.html>`_ 、 `CSSファイル<https://raw.githubusercontent.com/"
+"misslivirose/happy-boombox/master/app/styles.css>`_ "
+"をコンピュータのフォルダに保存します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:148
 msgid ""
 "In the **Create** app, click 'Open This Domain's Asset Server' to view "
 "the Asset Browser."
-msgstr ""
+msgstr "「Create」アプリで「Open This Domain's Asset "
+"Server」をクリックし、アセットブラウザを表示します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:149
 msgid ""
