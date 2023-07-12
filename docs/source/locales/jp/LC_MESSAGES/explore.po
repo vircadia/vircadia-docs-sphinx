@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-17 04:33+0000\n"
-"PO-Revision-Date: 2023-07-09 03:48+0000\n"
+"PO-Revision-Date: 2023-07-13 14:51+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/explore/ja/>\n"
@@ -283,7 +283,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:34
 msgid "From the HUD, click **Enter VR**."
-msgstr "HUDから、 ** Enter VR** をクリックします。"
+msgstr "HUDから、 **Enter VR** をクリックします。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:35
 msgid "Click the **Display** menu, then select your VR device."
@@ -2050,10 +2050,9 @@ msgid ""
 " output devices include your desktop computer speakers, headphones, or "
 "huge speakers in a movie theater."
 msgstr ""
-"*「Audio output device（オーディオ出力デバイス）」*は、オーディオファイルから"
-"情報を受け取り、それを可聴音信号に変換する全ての機器を指します。音声出力機器"
-"の例としては、デスクトップパソコンのスピーカーやヘッドフォン、映画館の巨大な"
-"スピーカーなどが挙げられます。"
+"*audio output device*は、オーディオファイルから情報を受け取り、それを可聴音信"
+"号に変換する全ての機器を指します。音声出力機器の例としては、デスクトップパソ"
+"コンのスピーカーやヘッドフォン、映画館の巨大なスピーカーなどが挙げられます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:35
 msgid ""
@@ -2066,7 +2065,7 @@ msgstr ""
 "マイク付きヘッドセットを使用している場合、入力デバイスと出力デバイスは通常同"
 "じものになります。ただし、外部スピーカーやオープンマイクを使用している場合は"
 "、これらのデバイスが異なることがあります。この場合、音質を向上させるためには"
-"、`Acoustic echo cancellation（音響エコーキャンセル）<#id1>`_ "
+"、 `Acoustic echo cancellation（音響エコーキャンセル）<#id1>`_ "
 "を有効にすることをお勧めします。"
 
 #: ../../source/explore/get-started/setup-audio.rst:37
