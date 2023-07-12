@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-07-09 03:48+0000\n"
+"PO-Revision-Date: 2023-07-13 14:51+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -6190,31 +6190,38 @@ msgstr "「Create」アプリで「Open This Domain's Asset "
 msgid ""
 "Create the same boombox directory in your 'Asset Browser' and upload your"
 " files."
-msgstr ""
+msgstr "「Asset Browser」に同じラジカセ "
+"ディレクトリを作成し、ファイルをアップロードします。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:150
 msgid ""
 "Use the **Create** app and select your boombox model and go to the "
 "'Properties' tab."
-msgstr ""
+msgstr "**Create** "
+"アプリを使用してラジカセのモデルを選択し、「Properties]」タブに移動します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:151
 msgid ""
 "Scroll down to the 'Behavior' section and paste the entity server "
 "script's URL into the 'Server Script' field."
 msgstr ""
+"「Behavior」 セクションまで下にスクロールし、エンティティ サーバー "
+"スクリプトの URL を「Server Script」フィールドに貼り付けます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:152
 msgid ""
 "Use the **Create** app and select your button entity and go to the "
 "'Properties' tab."
-msgstr ""
+msgstr "**Create** アプリを使用してボタン "
+"エンティティを選択し、「Properties」タブに移動します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:153
 msgid ""
 "Scroll down to the 'Behavior' section and paste the client entity "
 "script's URL into the 'Script' field."
 msgstr ""
+"「Behavior」セクションまで下にスクロールし、クライアント エンティティ "
+"スクリプトの URL を 「Script」フィールドに貼り付けます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:157
 msgid "Some additional notes:"
