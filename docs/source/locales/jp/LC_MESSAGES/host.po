@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2022-05-21 18:31+0000\n"
-"PO-Revision-Date: 2022-07-24 15:22+0000\n"
+"PO-Revision-Date: 2023-07-16 04:32+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/host/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/host.rst:11
@@ -1372,7 +1372,8 @@ msgstr "ドメイン全体ではなく、ドメイン内の特定のゾーンに
 
 #: ../../source/host/configure-settings/entity-filters.rst:34
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
-msgstr "インターフェイスで、HUDまたはタブレットをプルアップして**Create**に移動します。"
+msgstr "インターフェイスで、HUDまたはタブレットをプルアップして **Create** "
+"に移動します。"
 
 #: ../../source/host/configure-settings/entity-filters.rst:35
 msgid "In the Entity List, locate and select the zone you want to protect."
