@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-07-13 14:51+0000\n"
+"PO-Revision-Date: 2023-07-16 04:32+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -577,7 +577,8 @@ msgstr "アニメーションのFBXファイルのアップロードが完了し
 #: ../../source/create/entities/zone-tutorial.md:77
 #: ../../source/create/entities/zone-tutorial.md:105
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
-msgstr "インターフェイスで、HUDまたはタブレットをプルアップして**Create**に移動します。"
+msgstr "インターフェイスで、HUDまたはタブレットをプルアップして **Create** "
+"に移動します。"
 
 #: ../../source/create/3d-models/import-animations.rst:39
 msgid ""
@@ -5874,11 +5875,11 @@ msgid ""
 " `use one we've created <https://github.com/misslivirose/happy-"
 "boombox/blob/master/BoomBox.fbx>`_."
 msgstr ""
-"**Create** アプリを使って、 doc:`3Dモデルのエンティティをインポートします"
-"。<../3d-models/import-model>` "
+"**Create** アプリを使って、 doc:`3Dモデルのエンティティをインポートします。 "
+"<../3d-models/import-model>` "
 "ラジカセのベースは、自分で3Dモデルを作成することも、 "
 "`私たちが作成したものを使用することもできます。 <https://github.com/"
-"misslivirose/happy-boombox/blob/master/BoomBox.fbx>`_."
+"misslivirose/happy-boombox/blob/master/BoomBox.fbx>`_"
 
 #: ../../source/create/entities/boombox-tutorial.rst:40
 msgid ""
@@ -5894,15 +5895,15 @@ msgid ""
 " from 'Box' to 'Octagon' or 'Cylinder' depending on your aesthetic "
 "preferences."
 msgstr ""
-"ボタンエンティティの「Properties」タブに移動します。Shape'プロパティを'Box'か"
-"ら'Octagon'または'Cylinder'に変更します。"
+"ボタンエンティティの「Properties」タブに移動します。「Shape」プロパティを「Bo"
+"x」から「Octagon」または「Cylinder」に変更します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:42
 msgid ""
 "Scroll down to the 'Behavior' section and ensure that 'Grabbable' and "
 "'Triggerable' are checked."
-msgstr "'Behavior'セクションまでスクロールダウンし、'Grabbable'と'Triggerable'がチェ"
-"ックされていることを確認する。"
+msgstr "「Behavior」セクションまでスクロールダウンし、「Grabbable」と「Triggerable」"
+"がチェックされていることを確認します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:43
 msgid ""
@@ -5916,7 +5917,7 @@ msgid ""
 "the 'Properties' tab and copy the 'ID' under 'Name'."
 msgstr ""
 "「Create」アプリを開いた状態で、ラジカセの3Dモデルを選択します。 "
-"'Properties'タブを開き、'Name'の下にある'ID'をコピーします。"
+"「Properties」タブを開き、「Name」の下にある「ID」をコピーします。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:48
 msgid ""
@@ -5924,8 +5925,8 @@ msgid ""
 " the copied entity ID in the 'Parent' field. This makes your boombox "
 "model entity the parent of your button entity."
 msgstr ""
-"作成したキューブ・エンティティを選択し、'Properties' タブに移動して、"
-"コピーしたエンティティ ID を 'Parent' フィールドに貼り付けます。これで、ラジ"
+"作成したキューブ・エンティティを選択し、「Properties」タブに移動して、"
+"コピーしたエンティティ ID を 「Parent」フィールドに貼り付けます。これで、ラジ"
 "カセ・モデル・エンティティがボタン・エンティティの親になります。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:52
@@ -6139,9 +6140,9 @@ msgid ""
 "script's URL <https://raw.githubusercontent.com/misslivirose/happy-"
 "boombox/master/boomBoxEntityScript.js>`_ into the 'Script' field."
 msgstr ""
-"「Behavior」セクションまでスクロールダウンし、 "
-"`クライアント・エンティティ・スクリプトのURL<https://raw.githubusercontent."
-"com/misslivirose/happy-boombox/master/boomBoxEntityScript.js>`_ "
+"「Behavior」セクションまでスクロールダウンし、 `クライアント・エンティティ・"
+"スクリプトのURL <https://raw.githubusercontent.com/misslivirose/"
+"happy-boombox/master/boomBoxEntityScript.js>`_ "
 "を「Script」フィールドに貼り付けます。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:140
@@ -6172,12 +6173,12 @@ msgid ""
 msgstr ""
 "`エンティティサーバスクリプト <https://raw.githubusercontent.com/"
 "misslivirose/happy-boombox/master/boomBoxEntityServerScript.js>`_ 、 `"
-"クライアントエンティティスクリプト <https://raw.githubusercontent.com/"
-"misslivirose/happy-boombox/master/boomBoxEntityScript.js>`_ 、 `HTMLファイル "
-"<https://raw.githubusercontent.com/misslivirose/happy-boombox/master/app/"
-"boomBoxController.html>`_ 、 `CSSファイル<https://raw.githubusercontent.com/"
-"misslivirose/happy-boombox/master/app/styles.css>`_ "
-"をコンピュータのフォルダに保存します。"
+"クライアントエンティティスクリプト \n"
+"<https://raw.githubusercontent.com/misslivirose/happy-boombox/master/"
+"boomBoxEntityScript.js>`_ 、 `HTMLファイル <https://raw.githubusercontent."
+"com/misslivirose/happy-boombox/master/app/boomBoxController.html>`_ 、 `"
+"CSSファイル <https://raw.githubusercontent.com/misslivirose/happy-boombox/"
+"master/app/styles.css>`_ をコンピュータのフォルダに保存します。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:148
 msgid ""
@@ -6225,7 +6226,7 @@ msgstr ""
 
 #: ../../source/create/entities/boombox-tutorial.rst:157
 msgid "Some additional notes:"
-msgstr ""
+msgstr "補足事項："
 
 #: ../../source/create/entities/boombox-tutorial.rst:159
 msgid ""
@@ -6234,6 +6235,9 @@ msgid ""
 "move things around, make sure you also update the links in the scripts "
 "themselves to reference the new file location."
 msgstr ""
+"上記のリンク先のスクリプトは、相対パスを使って互いにリンクしているので、指定"
+"されたフォルダ構造を維持することが重要です。もし移動したい場合は、スクリプト"
+"自体のリンクも更新して、新しいファイルの場所を参照するようにしてください。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:160
 msgid ""
@@ -6241,18 +6245,27 @@ msgid ""
 "re-upload them to the asset browser. Reload all content and reload your "
 "entity server scripts to see changes take effect after modifying files."
 msgstr ""
+"スクリプトファイルを修正する場合は、アセットブラウザに再アップロードする必要"
+"があります。ファイルを修正した後に変更が反映されるのを確認するには、すべての"
+"コンテンツを再読み込みし、エンティティサーバースクリプト（Entity Server "
+"Script）を再読み込みしてください。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:161
 msgid ""
 "Entity server scripts do not have access to mouse press or controller "
 "events, since these are all handled on the client side."
 msgstr ""
+"エンティティのサーバースクリプトには、マウスのクリックやコントローラーのイベ"
+"ントへのアクセス権がありません。これらのイベントはすべてクライアント側で処理"
+"されています。"
 
 #: ../../source/create/entities/boombox-tutorial.rst:162
 msgid ""
 "HTML pages will not render in the Oculus Quest, so only desktop users "
 "will be able to interact with the boombox controls."
 msgstr ""
+"HTMLページはOculus Questではレンダリングされないため、デスクトップユーザーの"
+"みがラジカセのコントロールと対話することができます。"
 
 #: ../../source/create/entities/create-entities.md:3
 msgid ""
@@ -6261,10 +6274,14 @@ msgid ""
 "creating new entities. The easiest way to start building is to use "
 "Vircadia's **Create** app."
 msgstr ""
+"コミュニティのコンテンツクリエイターの創意工夫と創造性には常に驚かされます。"
+"あなたも新しいエンティティを作成することで、このコミュニティに参加することが"
+"できます。建築を始める最も簡単な方法は、Vircadiaの **Create** "
+"アプリを使用することです。"
 
 #: ../../source/create/entities/create-entities.md:10
 msgid "To add a new entity to your domain:"
-msgstr ""
+msgstr "ドメインに新しいエンティティを追加するには："
 
 #: ../../source/create/entities/create-entities.md:11
 msgid "In Interface, pull up your tablet or HUD and go to **Create**."
