@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2023-03-29 14:40+0000\n"
+"PO-Revision-Date: 2023-07-16 04:32+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/release-notes/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/release-notes.rst:9
@@ -161,6 +161,9 @@ msgid ""
 "**2020.2.0-Asteria**. Whereas **2020.3.0-Demeter** will not be compatible"
 " with **2020.2.0-Asteria** or **2020.2.5-Asteria**."
 msgstr ""
+"For example, **2020.2.5-Asteria** will be compatible with **2020.2."
+"0-Asteria**. Whereas **2020.3.0-Demeter** will not be compatible with **2020."
+"2.0-Asteria** or **2020.2.5-Asteria**."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:14
 #: ../../source/release-notes/2020-2-1-Asteria.md:5
@@ -175,7 +178,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:5
 #: ../../source/release-notes/2021-1-1-Eos.md:5
 msgid "Interface (Codename Athena)"
-msgstr ""
+msgstr "Interface (Codename Athena)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:16
 #: ../../source/release-notes/2020-2-1-Asteria.md:7
@@ -205,6 +208,8 @@ msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia "
 "[repo](https://github.com/vircadia/vircadia)."
 msgstr ""
+"The numbers at the end of each item are the PR numbers in the Vircadia "
+"[repo](https://github.com/vircadia/vircadia)."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:18
 #: ../../source/release-notes/2020-2-0-Asteria.md:67
@@ -232,91 +237,99 @@ msgstr ""
 #: ../../source/release-notes/v86-k2.md:9
 #: ../../source/release-notes/v86-k2.md:62
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:20
 msgid "Create App"
-msgstr ""
+msgstr "Create App"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:21
 msgid "Now has tabs for entity properties. (#193)"
-msgstr ""
+msgstr "Now has tabs for entity properties. (#193)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:22
 msgid "**\"Alpha\"** property added to the **\"Shape\"** entity's editor. (#215)"
 msgstr ""
+"**\"Alpha\"** property added to the **\"Shape\"** entity's editor. (#215)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:23
 msgid "**\"renderWithZones\"** property added to all entities. (#274, #369)"
-msgstr ""
+msgstr "**\"renderWithZones\"** property added to all entities. (#274, #369)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:24
 msgid "User Activity Logging separated from crash reporting functionality. (#257)"
-msgstr ""
+msgstr "ユーザー アクティビティ ログはクラッシュ レポート機能から分離されました。 "
+"(#257)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:25
 msgid "QML branding updates. (#277)"
-msgstr ""
+msgstr "QML ブランドの更新。 (#277)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:26
 msgid "Gridchat is now muted by default. (#287)"
-msgstr ""
+msgstr "Gridchat はデフォルトでミュートになりました。 (#287)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:27
 msgid "Grabbable property on entities is now disabled by default. (#344)"
-msgstr ""
+msgstr "エンティティの取得可能なプロパティがデフォルトで無効になりました。 (#344)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:28
 msgid ""
 "Flying in VR is now enabled by default in new Interface installations. "
 "(#394)"
-msgstr ""
+msgstr "新しいインターフェイスのインストールでは、VR "
+"での飛行がデフォルトで有効になりました。 (#394)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:30
 #: ../../source/release-notes/v86-k2.md:24
 msgid "Graphics"
-msgstr ""
+msgstr "グラフィックス"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:32
 msgid ""
 "Zone Occlusion feature added. You can now have entities within a zone "
 "become culled if you are not within specified zones. (#78)"
-msgstr ""
+msgstr "ゾーンオクルージョン機能が追加されました。指定されたゾーン内にいない場合、ゾ"
+"ーン内のエンティティをカリングできるようになりました。 (#78)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:33
 msgid "Models now support flipped normals on double sided geometry. (#301)"
-msgstr ""
+msgstr "モデルは、両面ジオメトリで反転した法線をサポートするようになりました。 (#301)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:34
 msgid "Models now support blendshapes. (#62)"
-msgstr ""
+msgstr "モデルがブレンドシェイプをサポートするようになりました。 (#62)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:36
 #: ../../source/release-notes/v86-k2.md:34
 msgid "Technicals"
-msgstr ""
+msgstr "テクニカル"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:38
 msgid ""
 "Package scripts: rename to Vircadia, add deletion and migration "
 "functionality. (#273)"
-msgstr ""
+msgstr "パッケージ スクリプト: 名前を Vircadia "
+"に変更し、削除および移行機能を追加します。 (#273)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:39
 msgid "VS2019 (Version 16.5.1) build fix. (#279)"
-msgstr ""
+msgstr "VS2019 (バージョン 16.5.1) ビルド修正。 (#279)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:40
 msgid "Make custom Qt builds work on unsupported Ubuntu distributions. (#292)"
-msgstr ""
+msgstr "カスタム Qt ビルドがサポートされていない Ubuntu "
+"ディストリビューションでも動作するようにします。 (#292)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:41
 msgid "Add community-apps repo to default QML whitelist. (#296)"
-msgstr ""
+msgstr "コミュニティ アプリ リポジトリをデフォルトの QML ホワイトリストに追加します。"
+" (#296)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:42
 msgid "GitHub Actions for PR builds with artifact uploading. (#300)"
-msgstr ""
+msgstr "PR ビルド用の GitHub Actions はアーティファクトのアップロードを使用します。 "
+"(#300)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:43
 msgid "Snapshot name changed from \"hifi\" to \"vircadia\". (#334)"
