@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-07-16 04:32+0000\n"
+"PO-Revision-Date: 2023-07-18 04:01+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -5875,7 +5875,7 @@ msgid ""
 " `use one we've created <https://github.com/misslivirose/happy-"
 "boombox/blob/master/BoomBox.fbx>`_."
 msgstr ""
-"**Create** アプリを使って、 doc:`3Dモデルのエンティティをインポートします。 "
+"**Create** アプリを使って、 :doc:`3Dモデルのエンティティをインポートします。 "
 "<../3d-models/import-model>` "
 "ラジカセのベースは、自分で3Dモデルを作成することも、 "
 "`私たちが作成したものを使用することもできます。 <https://github.com/"
@@ -6291,101 +6291,114 @@ msgstr "インターフェイスにおいて、タブレットまたはHUDをプ
 msgid ""
 "In the **Create** app, select the [type of entity](#types-of-entities) "
 "you want to create."
-msgstr ""
+msgstr "**Create**アプリで、作成したい [タイプのエンティティティティ] (#types-of-"
+"entities) を選択します。"
 
 #: ../../source/create/entities/create-entities.md:13
 msgid "Depending on the entity type, the behavior will be different:"
-msgstr ""
+msgstr "実体タイプに応じて、動作は異なります。"
 
 #: ../../source/create/entities/create-entities.md:14
 msgid ""
 "For model and [material entities](material-entity), enter the URL that "
 "you want to import."
-msgstr ""
+msgstr "モデルと[material entities](material-"
+"entity)の場合は、インポートしたいURLを入力します。"
 
 #: ../../source/create/entities/create-entities.md:15
 msgid ""
 "For all other entities, an entity with the default settings will appear "
 "in front of your avatar."
-msgstr ""
+msgstr "それ以外のエンティティの場合、デフォルト設定のエンティティがアバターの前に表"
+"示されます。"
 
 #: ../../source/create/entities/create-entities.md:16
 msgid ""
 "Edit the properties of your entity so that it [looks](entity-appearance) "
 "and [behaves](entity-behavior) like you want it to."
 msgstr ""
+"エンティティのプロパティを編集して、希望どおりの[外観](entity-"
+"Appearance)と[動作](entity-behavior)を実現します。"
 
 #: ../../source/create/entities/create-entities.md:18
 msgid "![](_images/add-cube.png)"
-msgstr ""
+msgstr "![](_images/add-cube.png)"
 
 #: ../../source/create/entities/create-entities.md:20
 msgid "Types of Entities"
-msgstr ""
+msgstr "エンティティの種類"
 
 #: ../../source/create/entities/create-entities.md:21
 msgid "You can choose from the following entity types:"
-msgstr ""
+msgstr "次のエンティティタイプから選択できます。"
 
 #: ../../source/create/entities/create-entities.md:23
 msgid "**MODEL** entities are 3D models that you can import in-world."
-msgstr ""
+msgstr "**MODEL** エンティティは、インワールドでインポートできる 3D モデルです。"
 
 #: ../../source/create/entities/create-entities.md:24
 msgid "**CUBE** entities are used to create basic box shaped entities."
-msgstr ""
+msgstr "**CUBE** "
+"エンティティは、基本的な箱型のエンティティを作成するために使用されます。"
 
 #: ../../source/create/entities/create-entities.md:25
 msgid "**SPHERE** entities are used to create basic sphere shaped entities."
-msgstr ""
+msgstr "**SPHERE** "
+"エンティティは、基本的な球形のエンティティを作成するために使用されます。"
 
 #: ../../source/create/entities/create-entities.md:26
 msgid ""
 "**LIGHT** entities are balls or beams of light that are used to add local"
 " lighting effects and spotlights to an area."
-msgstr ""
+msgstr "**LIGHT** エンティティは、ローカル照明効果とスポットライトをエリアに追加する"
+"ために使用されるボールまたは光線です。"
 
 #: ../../source/create/entities/create-entities.md:27
 msgid ""
 "**TEXT** entities display text against a flat plane, similar to a "
 "whiteboard or blackboard."
-msgstr ""
+msgstr "**TEXT** エンティティは、ホワイトボードや黒板と同様に、平面に対してテキストを"
+"表示します。"
 
 #: ../../source/create/entities/create-entities.md:28
 msgid "**IMAGE** entities display an image from a specified URL."
-msgstr ""
+msgstr "**IMAGE** エンティティは、指定された URL の画像を表示します。"
 
 #: ../../source/create/entities/create-entities.md:29
 msgid ""
 "**WEB** entities display a web page from a specified URL. Only 20 web "
 "entities can run at the same time in a domain."
 msgstr ""
+"**WEB** エンティティは、指定された URL から Web ページを表示します。"
+"ドメインで同時に実行できる Web エンティティは 20 個のみです。"
 
 #: ../../source/create/entities/create-entities.md:30
 msgid ""
 "**ZONE** entities are 3-dimensional areas that allow you to create a "
 "custom lighting environment."
-msgstr ""
+msgstr "**ZONE** エンティティは、カスタム照明環境を作成できる 3 次元領域です。"
 
 #: ../../source/create/entities/create-entities.md:31
 msgid ""
 "**PARTICLE** entities create dynamic effects that are made of many small "
 "parts, such as smoke clouds or falling water."
-msgstr ""
+msgstr "**PARTICLE** エンティティは、煙雲や落ちる水など、多くの小さなパーツで構成され"
+"るダイナミックなエフェクトを作成します。"
 
 #: ../../source/create/entities/create-entities.md:32
 msgid ""
 "**[MATERIAL](material-entity)** entities modify the existing materials on"
 " other entities and avatars."
-msgstr ""
+msgstr "**[MATERIAL](material-entity)** "
+"エンティティは、他のエンティティやアバターの既存のマテリアルを変更します。"
 
 #: ../../source/create/entities/create-entities.md:38
 msgid "[The Create App](../tools.html#the-create-app)"
-msgstr ""
+msgstr "[アプリの作成](../tools.html#the-create-app)"
 
 #: ../../source/create/entities/create-entities.md:39
 msgid "[Add a Material Entity](material-entity)"
-msgstr ""
+msgstr "[マテリアルエンティティの追加](material-entity)"
 
 #: ../../source/create/entities/create-entities.md:40
 #: ../../source/create/entities/create-spotlight.md:17
@@ -6399,32 +6412,32 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:27
 #: ../../source/create/entities/zone-tutorial.md:158
 msgid "[Change How Entities Look](entity-appearance)"
-msgstr ""
+msgstr "[エンティティの外観を変更する](entity-Appearance)"
 
 #: ../../source/create/entities/create-entities.md:41
 msgid "[Import Your 3D Model](../3d-models/import-model)"
-msgstr ""
+msgstr "[3D モデルをインポート](../3d-models/import-model)"
 
 #: ../../source/create/entities/create-entities.md:42
 msgid "[Play Media in a Web Entity](web-entity-media)"
-msgstr ""
+msgstr "[Web エンティティでメディアを再生](web-entity-media)"
 
 #: ../../source/create/entities/create-entities.md:43
 msgid "[Tutorial: Create a Gold Spotlight](create-spotlight)"
-msgstr ""
+msgstr "[チュートリアル: ゴールド スポットライトの作成](create-spotlight)"
 
 #: ../../source/create/entities/create-entities.md:44
 msgid "[Tutorial: Display a YouTube Channel](display-youtube)"
-msgstr ""
+msgstr "[チュートリアル: YouTube チャンネルの表示](display-youtube)"
 
 #: ../../source/create/entities/create-entities.md:45
 msgid "[Tutorial: Modify a Zone Entity's Properties](zone-tutorial)"
-msgstr ""
+msgstr "[チュートリアル: ゾーン エンティティのプロパティの変更](zone-tutorial)"
 
 #: ../../source/create/entities/create-fountain.rst:3
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Create a Smoke Fountain"
-msgstr ""
+msgstr "チュートリアル: 煙の噴水を作成する"
 
 #: ../../source/create/entities/create-fountain.rst:5
 msgid ""
@@ -6433,18 +6446,22 @@ msgid ""
 " create effects made up of many small particles, such as smoke, confetti,"
 " or falling leaves."
 msgstr ""
+"このチュートリアルでは、複数の色を放出する煙の噴水を作成することで、パーティ"
+"クルエンティティ（Particle entity）の動作原理を学びます。パーティクルエンティ"
+"ティは、煙や紙吹雪、落ち葉など、多くの小さな粒子から構成されるエフェクトを作"
+"成するために使用されます。"
 
 #: ../../source/create/entities/create-fountain.rst:17
 msgid "`Create New Entities <create-entities.html>`_"
-msgstr ""
+msgstr "`新しいエンティティの作成 <create-entities.html>`_"
 
 #: ../../source/create/entities/create-fountain.rst:18
 msgid "`Change How Entities Look <entity-appearance.html>`_"
-msgstr ""
+msgstr "`エンティティの外観を変更する <entity-Appearance.html>`_"
 
 #: ../../source/create/entities/create-fountain.rst:23
 msgid "Create a Smoke Fountain"
-msgstr ""
+msgstr "煙の噴水を作成する"
 
 #: ../../source/create/entities/create-fountain.rst:25
 msgid ""
@@ -6456,40 +6473,47 @@ msgid ""
 " but you can replace this texture with your own to create your desired "
 "effect."
 msgstr ""
+"パーティクルエンティティティティティティは、煙、コンフェティ、または落下葉な"
+"どの小さな部分から構成される効果を作成するために使用されます。 "
+"実体の効果と外観は、その質感によって定義されます。 デフォルトのテクスチャは `"
+"wispy 煙のテクスチャ <https://cdn-1.vircadia.com/us-e-1/Bazaar/Assets/"
+"Textures/Defaults/Interface/default_particle.png>`_ "
+"ですが、このテクスチャを自分で置き換えて、目的の効果を生成できます。"
 
 #: ../../source/create/entities/create-fountain.rst:27
 msgid "To create your smoke fountain using a particle entity:"
-msgstr ""
+msgstr "パーティクル エンティティを使用して煙の噴水を作成するには:"
 
 #: ../../source/create/entities/create-fountain.rst:31
 msgid ""
 "Click the 'Particle' icon to create the particle entity. By default, the "
 "particle entity emits smoke."
-msgstr ""
+msgstr "パーティクルエンティティを作成するには、「パーティクル」アイコンをクリックし"
+"ます。デフォルトでは、パーティクルエンティティは煙を放出します。"
 
 #: ../../source/create/entities/create-fountain.rst:32
 msgid "Go to the 'Properties' tab, and set the following values:"
-msgstr ""
+msgstr "「Properties」タブに移動し、次の値を設定します。"
 
 #: ../../source/create/entities/create-fountain.rst:37
 msgid "Lifespan"
-msgstr ""
+msgstr "寿命（Lifespan）"
 
 #: ../../source/create/entities/create-fountain.rst:37
 msgid "``1.20``"
-msgstr ""
+msgstr "``1.20``"
 
 #: ../../source/create/entities/create-fountain.rst:37
 msgid "This property defines how long each particle lives, in seconds."
-msgstr ""
+msgstr "このプロパティは、各パーティクルの存続期間を秒単位で定義します。"
 
 #: ../../source/create/entities/create-fountain.rst:39
 msgid "Max Particles"
-msgstr ""
+msgstr "最大パーティクル数"
 
 #: ../../source/create/entities/create-fountain.rst:39
 msgid "``356``"
-msgstr ""
+msgstr "``356``"
 
 #: ../../source/create/entities/create-fountain.rst:39
 msgid ""
@@ -6497,14 +6521,17 @@ msgid ""
 "particles, whose lifespans are completed, are swapped out for newer ones."
 " Increase this value to increase the number of particles for your effect."
 msgstr ""
+"「Max particles」は、一度に表示されるパーティクルの数を定義します。寿命が終了"
+"した古いパーティクルは、新しいパーティクルと入れ替えられます。この値を増やす"
+"と、エフェクトのパーティクル数が増えます。"
 
 #: ../../source/create/entities/create-fountain.rst:44
 msgid "Emit Rate"
-msgstr ""
+msgstr "放出率（Emit Rate）"
 
 #: ../../source/create/entities/create-fountain.rst:44
 msgid "``524``"
-msgstr ""
+msgstr "``524``"
 
 #: ../../source/create/entities/create-fountain.rst:44
 msgid "The emit rate defines how many particles are emitted per second."
