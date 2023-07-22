@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-07-18 04:01+0000\n"
+"PO-Revision-Date: 2023-07-23 07:04+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -6509,7 +6509,7 @@ msgstr "このプロパティは、各パーティクルの存続期間を秒単
 
 #: ../../source/create/entities/create-fountain.rst:39
 msgid "Max Particles"
-msgstr "最大パーティクル数"
+msgstr "Max Particles"
 
 #: ../../source/create/entities/create-fountain.rst:39
 msgid "``356``"
@@ -6535,15 +6535,15 @@ msgstr "``524``"
 
 #: ../../source/create/entities/create-fountain.rst:44
 msgid "The emit rate defines how many particles are emitted per second."
-msgstr ""
+msgstr "エミットレートは、1秒間にどれだけの粒子を放出するか定義します。"
 
 #: ../../source/create/entities/create-fountain.rst:46
 msgid "Speed Spread"
-msgstr ""
+msgstr "スピード・スプレッド（Speed Spread）"
 
 #: ../../source/create/entities/create-fountain.rst:46
 msgid "``2.10``"
-msgstr ""
+msgstr "``2.10``"
 
 #: ../../source/create/entities/create-fountain.rst:46
 msgid ""
@@ -6552,28 +6552,32 @@ msgid ""
 "Spread is ``1``, the particles will have speeds that range from ``4`` to "
 "``6``."
 msgstr ""
+"これはパーティクルが放出する速度の範囲を定義するもので、Emit "
+"Speedに応じて変化します。例えば、Emit Speedが ``5`` でSpeed Spreadが ``1`` "
+"の場合、パーティクルの速度は ``4`` から ``6`` の範囲になります。"
 
 #: ../../source/create/entities/create-fountain.rst:50
 msgid "Emit Dimensions"
-msgstr ""
+msgstr "エミット寸法（Emit Dimensions）"
 
 #: ../../source/create/entities/create-fountain.rst:50
 msgid "x = ``0.60``, y = ``10.00``, z = ``0.30``"
-msgstr ""
+msgstr "x = ``0.60``, y = ``10.00``, z = ``0.30``"
 
 #: ../../source/create/entities/create-fountain.rst:50
 msgid ""
 "Particles are emitted from a radius. This property defines the outer "
 "limit of that radius."
-msgstr ""
+msgstr "粒子はある半径から放出されます。このプロパティは、その半径の外側の限界を定義"
+"します。"
 
 #: ../../source/create/entities/create-fountain.rst:53
 msgid "Size"
-msgstr ""
+msgstr "サイズ"
 
 #: ../../source/create/entities/create-fountain.rst:53
 msgid "Start = ``0.40``, Middle = ``0.80``, Finish = ``0.80``"
-msgstr ""
+msgstr "Start = ``0.40``, Middle = ``0.80``, Finish = ``0.80``"
 
 #: ../../source/create/entities/create-fountain.rst:53
 msgid ""
@@ -6581,99 +6585,105 @@ msgid ""
 "from emission to end of life. Here, it starts at ``0.4`` and when its "
 "life is completed, the particle has increased in size to ``0.8``."
 msgstr ""
+"このプロパティは各パーティクルのサイズを決定し、放出からライフ終了までどのよ"
+"うに変化するかを決定します。ここでは``0.4``から始まり、寿命が尽きると``0."
+"8``まで大きくなります。"
 
 #: ../../source/create/entities/create-fountain.rst:57
 #: ../../source/create/entities/entity-appearance.rst:28
 msgid "Color"
-msgstr ""
+msgstr "Color"
 
 #: ../../source/create/entities/create-fountain.rst:57
 msgid "Start = ``#000000``, Middle = ``#FFFFFF``, Finish = ``#000000``"
-msgstr ""
+msgstr "Start = ``#000000``, Middle = ``#FFFFFF``, Finish = ``#000000``"
 
 #: ../../source/create/entities/create-fountain.rst:57
 msgid ""
 "This determines the colors the particles will emit. Start, middle, and "
 "finish define the color spectrum to be emitted."
-msgstr ""
+msgstr "これはパーティクルが放出する色を決定します。開始、中間、終了は、放出されるカ"
+"ラースペクトルを定義します。"
 
 #: ../../source/create/entities/create-fountain.rst:60
 msgid "Color Spread"
-msgstr ""
+msgstr "Color Spread"
 
 #: ../../source/create/entities/create-fountain.rst:60
 msgid "``#FFFFFF``"
-msgstr ""
+msgstr "``#FFFFFF``"
 
 #: ../../source/create/entities/create-fountain.rst:60
 msgid "This determines the color spectrum of the particles."
-msgstr ""
+msgstr "これが粒子のカラースペクトルを決定します。"
 
 #: ../../source/create/entities/create-fountain.rst:62
 msgid "Emit Acceleration"
-msgstr ""
+msgstr "Emit Acceleration"
 
 #: ../../source/create/entities/create-fountain.rst:62
 msgid "x = ``0``, y = ``-9.09``, z = ``0``"
-msgstr ""
+msgstr "x = ``0``, y = ``-9.09``, z = ``0``"
 
 #: ../../source/create/entities/create-fountain.rst:62
 msgid "This is the acceleration of each particle during its lifetime."
-msgstr ""
+msgstr "各粒子の存続期間中の加速度です。"
 
 #: ../../source/create/entities/create-fountain.rst:64
 msgid "Spin Spread"
-msgstr ""
+msgstr "Spin Spread"
 
 #: ../../source/create/entities/create-fountain.rst:64
 msgid "``147.40``"
-msgstr ""
+msgstr "``147.40``"
 
 #: ../../source/create/entities/create-fountain.rst:64
 msgid ""
 "The spread in spins for the particle entity. Changing this value results "
 "in a variety of spins for different particles."
-msgstr ""
+msgstr "パーティクルのスピンの広がり。この値を変更すると、パーティクルによってさまざ"
+"まなスピンになります。"
 
 #: ../../source/create/entities/create-fountain.rst:67
 msgid "Horizontal Angle"
-msgstr ""
+msgstr "Horizontal Angle"
 
 #: ../../source/create/entities/create-fountain.rst:67
 msgid "Start = ``0``, Finish = ``180``"
-msgstr ""
+msgstr "Start = ``0``, Finish = ``180``"
 
 #: ../../source/create/entities/create-fountain.rst:67
 msgid ""
 "This is the angle range in degrees at which the particles are emitted "
 "along the z axis and rotated around on the y axis."
-msgstr ""
+msgstr "これは、粒子がz軸に沿って放出され、y軸上で回転する角度の範囲を表します。"
 
 #: ../../source/create/entities/create-fountain.rst:70
 msgid "Vertical angle"
-msgstr ""
+msgstr "Vertical angle"
 
 #: ../../source/create/entities/create-fountain.rst:70
 msgid "Start = ``150``, Finish = ``180.``"
-msgstr ""
+msgstr "Start = ``150``, Finish = ``180.``"
 
 #: ../../source/create/entities/create-fountain.rst:70
 msgid ""
 "This is the angle range in degrees at which the particles are emitted "
 "along the x axis and rotated around on the z axis."
-msgstr ""
+msgstr "これは、粒子がz軸に沿って放出され、y軸上で回転する角度の範囲を表します。"
 
 #: ../../source/create/entities/create-fountain.rst:83
 msgid ""
 "Congratulations! You've created a multi-colored smoke fountain! You can "
 "experiment with different settings to simulate particle movement, such as"
 " a waterfall, confetti gun, or falling leaves."
-msgstr ""
+msgstr "万丈！色とりどりの煙の噴水を作りました!さまざまな設定を試して、滝、紙吹雪銃、"
+"落ち葉などのパーティクルの動きをシミュレートできます。"
 
 #: ../../source/create/entities/create-spotlight.md:1
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Create a Gold Spotlight"
-msgstr ""
+msgstr "チュートリアル: ゴールド スポットライトを作成する"
 
 #: ../../source/create/entities/create-spotlight.md:3
 msgid ""
@@ -6682,21 +6692,25 @@ msgid ""
 "ball or a beam of light, and is used to add local lighting effects or "
 "spotlights to an area."
 msgstr ""
+"このチュートリアルでは、壁を照らすゴールドのスポットライトを作成することで、"
+"ライトエンティティがどのように機能するかを学びます。ライトエンティティは、ボ"
+"ールや光線のように動作し、局所的な照明効果やスポットライトをエリアに追加する"
+"ために使用されます。"
 
 #: ../../source/create/entities/create-spotlight.md:7
 #: ../../source/create/entities/display-youtube.md:7
 msgid "[Prerequisites](#prerequisities)"
-msgstr ""
+msgstr "[Prerequisites](#prerequisities)"
 
 #: ../../source/create/entities/create-spotlight.md:8
 msgid ""
 "[Create a Wall to Shine the Light On](#create-a-wall-to-shine-the-light-"
 "on)"
-msgstr ""
+msgstr "[光を当てる壁を作る](#create-a-wall-to-shine-the-light-on)"
 
 #: ../../source/create/entities/create-spotlight.md:9
 msgid "[Create the Gold Spotlight](#create-the-gold-spotlight)"
-msgstr ""
+msgstr "[ゴールド・スポットライトを作成する](#create-the-gold-spotlight)"
 
 #: ../../source/create/entities/create-spotlight.md:16
 #: ../../source/create/entities/create-spotlight.md:62
@@ -6709,65 +6723,68 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:26
 #: ../../source/create/entities/zone-tutorial.md:157
 msgid "[Create New Entities](create-entities)"
-msgstr ""
+msgstr "[新しいエンティティの作成](create-entities)"
 
 #: ../../source/create/entities/create-spotlight.md:19
 msgid "Create a Wall to Shine the Light On"
-msgstr ""
+msgstr "光を当てる壁を作る"
 
 #: ../../source/create/entities/create-spotlight.md:21
 msgid ""
 "Your gold spotlight needs a surface to shine on. Create this surface or "
 "wall in the **Create** app:"
-msgstr ""
+msgstr "ゴールドのスポットライトを照らす面が必要です。アプリの**Create**でこの面や壁"
+"を作成します："
 
 #: ../../source/create/entities/create-spotlight.md:24
 msgid "Click the 'Cube' icon to create a cube entity."
-msgstr ""
+msgstr "'Cube'アイコンをクリックして、キューブ・エンティティを作成します。"
 
 #: ../../source/create/entities/create-spotlight.md:25
 msgid "Go to the 'Properties' tab and make the following changes:"
-msgstr ""
+msgstr "「Properties」タブに移動し、次の変更を加えます。"
 
 #: ../../source/create/entities/create-spotlight.md:26
 msgid ""
 "Change the color of the cube to teal (Red = '0', Green = '128', Blue = "
 "'128')."
-msgstr ""
+msgstr "立方体の色を青緑に変更します (Red = '0', Green = '128', Blue = '128')"
 
 #: ../../source/create/entities/create-spotlight.md:27
 msgid ""
 "Change the dimensions of the cube to make it bigger and look more like a "
 "wall. We've used the following local dimensions:"
-msgstr ""
+msgstr "立方体の寸法を変更して大きくし、より壁のように見えるようにします。以下のロー"
+"カル寸法を指定します："
 
 #: ../../source/create/entities/create-spotlight.md:28
 msgid "X = '0.1300'"
-msgstr ""
+msgstr "X = '0.1300'"
 
 #: ../../source/create/entities/create-spotlight.md:29
 msgid "Y = '2.4000'"
-msgstr ""
+msgstr "Y = '2.4000'"
 
 #: ../../source/create/entities/create-spotlight.md:30
 msgid "Z = '3.2000'"
-msgstr ""
+msgstr "Z = '3.2000'"
 
 #: ../../source/create/entities/create-spotlight.md:32
 msgid "You've made your wall! ![](_images/teal-wall-prop.PNG)"
-msgstr ""
+msgstr "壁の完成です！ ![](_images/teal-wall-prop.PNG)"
 
 #: ../../source/create/entities/create-spotlight.md:34
 msgid "Create the Gold Spotlight"
-msgstr ""
+msgstr "ゴールド・スポットライトの作成"
 
 #: ../../source/create/entities/create-spotlight.md:36
 msgid "Create and edit the light entity to get a soft gold spotlight."
-msgstr ""
+msgstr "ソフトなゴールドのスポットライトを得るためにライトエンティティを作成し、編集"
+"します。"
 
 #: ../../source/create/entities/create-spotlight.md:44
 msgid "Click the 'Light' icon to create the light entity."
-msgstr ""
+msgstr "「Light」アイコンをクリックして、ライトエンティティを作成します。"
 
 #: ../../source/create/entities/create-spotlight.md:45
 msgid ""
@@ -6777,16 +6794,21 @@ msgid ""
 " all directions equally. It is meant for general area lighting as it has "
 "a bright point in the middle and fades as it radiates out."
 msgstr ""
+"エンティティをつかんで壁の上部中央に移動させてください。壁に白い光が当たって"
+"いるのがわかると思います。この光は明るさが低いため小さいです。このタイプの光"
+"はポイントライトと呼ばれ、すべての方向に均等に発散します。一般的な範囲の照明"
+"に適しており、中心に明るい点があり、外側に向かって薄くなっていきます。"
 
 #: ../../source/create/entities/create-spotlight.md:46
 msgid ""
 "Go to the 'Properties' tab and modify the light entity to make a gold "
 "spotlight:"
-msgstr ""
+msgstr "「Properties」タブに移動し、ライトエンティティを変更してゴールドスポットライ"
+"トを作成します。"
 
 #: ../../source/create/entities/create-spotlight.md:47
 msgid "Change the color of the light to gold (R = '255', G = '215', B = '0')."
-msgstr ""
+msgstr "ライトの色をゴールドに変更します(R = '255', G = '215', B = '0')。"
 
 #: ../../source/create/entities/create-spotlight.md:48
 msgid ""
@@ -6794,6 +6816,9 @@ msgid ""
 "the 'Intensity' to '100'. You'll see that the light is now covering a "
 "larger area and is much brighter."
 msgstr ""
+"ライトエンティティは、強度を変更することで明るくすることができます。「強度」"
+"を「100」に変更します。ライトがより広い領域をカバーし、はるかに明るくなってい"
+"ることがわかります。"
 
 #: ../../source/create/entities/create-spotlight.md:49
 msgid ""
@@ -6804,12 +6829,18 @@ msgid ""
 " the light at which the intensity is reduced by '25%'. Change this value "
 "to '0.5'."
 msgstr ""
+"光のエンティティの「Fall-off Radius（減衰半径）」を調整することで、エッジに向"
+"かって徐々に光が暗くなるようにできます。この「Fall-off Radius（減衰半径）」は"
+"、光の曲線の形状を定義します。より大きな半径はより大きな光をシミュレートし、"
+"よりゆるやかに「減衰」または暗くします。これは、光からの距離が '25%' "
+"減少する距離です。この値を '0.5' に変更してみてください。"
 
 #: ../../source/create/entities/create-spotlight.md:50
 msgid ""
 "Select the 'Spotlight' checkbox to convert the light entity to a "
 "spotlight."
-msgstr ""
+msgstr "「Spotlight」チェックボックスを選択して、ライトエンティティをスポットライトに"
+"変換します。"
 
 #: ../../source/create/entities/create-spotlight.md:51
 msgid ""
@@ -6817,12 +6848,19 @@ msgid ""
 "radius of the spotlight. A higher cut-off value corresponds with a larger"
 " spotlight radius. You should see the beam tighten get smaller."
 msgstr ""
+"「Spotlight Cut-off（スポットライトのカットオフ）」を「50」に変更してください"
+"。このプロパティは、スポットライトの半径を決定します。カットオフ値が高いほど"
+"、より大きなスポットライトの半径に対応します。これにより、ビームが狭くなって"
+"小さくなることが見えるはずです。"
 
 #: ../../source/create/entities/create-spotlight.md:52
 msgid ""
 "Change the 'Spotlight Exponent' to '5'. This property affects the "
 "softness of the beam. You should see the edge of the beam soften."
 msgstr ""
+"「Spotlight Exponent（スポットライトの指数）」を「5」に変更してください。この"
+"プロパティは、ビームの柔らかさに影響を与えます。ビームのエッジが柔らかくなる"
+"のが見えるはずです。"
 
 #: ../../source/create/entities/create-spotlight.md:53
 msgid ""
@@ -6831,6 +6869,10 @@ msgid ""
 "this can be used for a soft lighting effect over paintings or wall "
 "hangings in your world.  ![](_images/spotlight-prop.PNG)"
 msgstr ""
+"スポットライトを壁に向けるように回転させるには、「Local "
+"Rotation（ローカル回転）」のX値を「-90.0000」に変更してください。このように配"
+"置されたスポットライトは、世界の絵画や壁掛けに対して柔らかい照明効果を作るの"
+"に使うことができます。 ![](_images/spotlight-prop.PNG)"
 
 #: ../../source/create/entities/create-spotlight.md:56
 msgid ""
@@ -6838,19 +6880,22 @@ msgid ""
 " with different spotlight exponents, cutoff values, and intensity "
 "combinations for varied effects."
 msgstr ""
+"おめでとうございます！柔らかいゴールドのスポットライトを作成しましたね！さま"
+"ざまなスポットライトの指数、カットオフ値、および強度の組み合わせを試して、さ"
+"まざまな効果を実験してみることができます。"
 
 #: ../../source/create/entities/create-spotlight.md:58
 msgid "![](_images/spotlight.PNG)"
-msgstr ""
+msgstr "![](_images/spotlight.PNG)"
 
 #: ../../source/create/entities/create-spotlight.md:64
 msgid "[Creator Tools](../tools)"
-msgstr ""
+msgstr "[作成ツール](../tools)"
 
 #: ../../source/create/entities/display-youtube.md:1
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Display a YouTube Channel"
-msgstr ""
+msgstr "チュートリアル: YouTube チャンネルを表示する"
 
 #: ../../source/create/entities/display-youtube.md:3
 msgid ""
@@ -6858,18 +6903,22 @@ msgid ""
 "displaying a YouTube channel. You can watch videos in Vircadia using this"
 " web entity."
 msgstr ""
+"このチュートリアルでは、YouTube チャンネルを表示する Web "
+"エンティティを作成することで、Web "
+"エンティティがどのように機能するかを学びます。この Web "
+"エンティティを使用して Vircadia でビデオを視聴できます。"
 
 #: ../../source/create/entities/display-youtube.md:8
 msgid "[Create a Web Entity](#create-a-web-entity)"
-msgstr ""
+msgstr "[ウェブエンティティの作成](#create-a-web-entity)"
 
 #: ../../source/create/entities/display-youtube.md:9
 msgid "[Display Vircadia's YouTube Channel](#display-vircadia-s-youtube-channel)"
-msgstr ""
+msgstr "[Vircadia の YouTube チャンネルを表示](#display-vircadia-s-youtube-channel)"
 
 #: ../../source/create/entities/display-youtube.md:18
 msgid "Create a Web Entity"
-msgstr ""
+msgstr "Web エンティティの作成"
 
 #: ../../source/create/entities/display-youtube.md:20
 msgid ""
@@ -6877,28 +6926,33 @@ msgid ""
 "choosing. A web entity lets you access the internet from inside your "
 "domain."
 msgstr ""
+"Web エンティティは、任意の Web サイトを表示できるフラット オブジェクトです。"
+"Web "
+"エンティティを使用すると、ドメイン内からインターネットにアクセスできます。"
 
 #: ../../source/create/entities/display-youtube.md:22
 msgid "To create a web entity:"
-msgstr ""
+msgstr "Web エンティティを作成するには:"
 
 #: ../../source/create/entities/display-youtube.md:25
 msgid ""
 "Click the 'Web' icon to create a web entity. By default, a web entity "
 "always displays Vircadia's home page."
 msgstr ""
+"「Web」アイコンをクリックして、Webエンティティを作成します。デフォルトでは、"
+"Web エンティティには常に Vircadiaのホームページが表示されます。"
 
 #: ../../source/create/entities/display-youtube.md:32
 msgid "Display Vircadia's YouTube Channel"
-msgstr ""
+msgstr "Vircadia の YouTube チャンネルを表示する"
 
 #: ../../source/create/entities/display-youtube.md:34
 msgid "You can make the web entity display Vircadia's YouTube channel."
-msgstr ""
+msgstr "Web エンティティに Vircadia の YouTube チャンネルを表示させることができます。"
 
 #: ../../source/create/entities/display-youtube.md:37
 msgid "Select your web entity and go to the 'Properties' tab."
-msgstr ""
+msgstr "Web エンティティを選択し、[Properties] タブに移動します。"
 
 #: ../../source/create/entities/display-youtube.md:38
 msgid ""
@@ -6906,10 +6960,14 @@ msgid ""
 "YouTube channel URL: https://www.youtube.com/channel/UC5gVObAP0ANbXr-"
 "lNCjP3xg. You should see the new page as soon as you hit 'Enter'."
 msgstr ""
+"「Source URL」オプションが表示されるまで下にスクロールします。 Vircadia "
+"YouTube チャンネルの URL を入力します: https://www.youtube.com/channel/"
+"UC5gVObAP0ANbXr-lNCjP3xg。 "
+"「Enter」を押すとすぐに新しいページが表示されます。"
 
 #: ../../source/create/entities/display-youtube.md:40
 msgid "![](_images/source-url.PNG) ![](_images/youtube-web-entity.PNG)"
-msgstr ""
+msgstr "![](_images/source-url.PNG) ![](_images/youtube-web-entity.PNG)"
 
 #: ../../source/create/entities/entity-appearance.rst:5
 msgid ""
@@ -6918,6 +6976,10 @@ msgid ""
 "#the-create-app>`_ and either select the entity or find it in the Entity "
 "List."
 msgstr ""
+"マウスまたはトラックパッドを使用して、エンティティのサイズ、色、位置、回転を"
+"編集できます。エンティティを編集するには、 `アプリの作成 <../tools.html#the-"
+"create-app>`_ を開き、エンティティを選択するか、エンティティ "
+"リストで見つけます。"
 
 #: ../../source/create/entities/entity-appearance.rst:8
 #: ../../source/create/entities/entity-behavior.rst:8
@@ -6925,7 +6987,8 @@ msgstr ""
 msgid ""
 "You can select and edit multiple entities at once. The behavior will be "
 "different based on the type of property you'd like to set:"
-msgstr ""
+msgstr "複数のエンティティを一度に選択して編集できます。動作は、設定するプロパティの"
+"タイプに応じて異なります。"
 
 #: ../../source/create/entities/entity-appearance.rst:10
 #: ../../source/create/entities/entity-behavior.rst:10
@@ -6935,6 +6998,8 @@ msgid ""
 "original values. When typed in, the new value will replace the original "
 "values for the selected entities."
 msgstr ""
+"Numbers: スライダーを使用すると、元の値のそれぞれにオフセットが適用されます。"
+"新しい値を入力すると、選択したエンティティの元の値が置き換えられます。"
 
 #: ../../source/create/entities/entity-appearance.rst:11
 #: ../../source/create/entities/entity-behavior.rst:11
@@ -6943,10 +7008,12 @@ msgid ""
 "All other field types (checkboxes, input fields, etc): The new value will"
 " replace the original values for the selected entities."
 msgstr ""
+"他のすべてのフィールド タイプ (checkboxes, input fieldsなど): "
+"選択したエンティティの元の値が新しい値に置き換えられます。"
 
 #: ../../source/create/entities/entity-appearance.rst:21
 msgid "Change the Color of an Entity"
-msgstr ""
+msgstr "Entityの色の変更"
 
 #: ../../source/create/entities/entity-appearance.rst:23
 msgid ""
@@ -6955,6 +7022,9 @@ msgid ""
 "the 'Color' settings. Here are the different color settings you can "
 "configure:"
 msgstr ""
+"**Create** アプリでほとんどのエンティティ タイプの色を手動で変更できます。エ"
+"ンティティを選択した状態で、「Properties」をクリックし、「Color」設定まで下に"
+"スクロールします。構成できるさまざまな色の設定は次のとおりです。"
 
 #: ../../source/create/entities/entity-appearance.rst:26
 #: ../../source/create/entities/entity-appearance.rst:75
@@ -6968,63 +7038,64 @@ msgstr "設定"
 #: ../../source/create/entities/entity-appearance.rst:119
 #: ../../source/create/entities/entity-appearance.rst:144
 msgid "Supported Entity Type(s)"
-msgstr ""
+msgstr "サポートされているエンティティタイプ"
 
 #: ../../source/create/entities/entity-appearance.rst:28
 msgid "The color of an entity."
-msgstr ""
+msgstr "エンティティの色。"
 
 #: ../../source/create/entities/entity-appearance.rst:28
 msgid "Cube, Sphere"
-msgstr ""
+msgstr "立方体、球体"
 
 #: ../../source/create/entities/entity-appearance.rst:30
 msgid "Light Color"
-msgstr ""
+msgstr "ライトカラー"
 
 #: ../../source/create/entities/entity-appearance.rst:30
 msgid "The color of the light."
-msgstr ""
+msgstr "ライトの色。"
 
 #: ../../source/create/entities/entity-appearance.rst:30
 #: ../../source/create/entities/entity-appearance.rst:86
 #: ../../source/create/entities/entity-appearance.rst:89
 msgid "Light"
-msgstr ""
+msgstr "光"
 
 #: ../../source/create/entities/entity-appearance.rst:32
 msgid "Text Color"
-msgstr ""
+msgstr "Text Color"
 
 #: ../../source/create/entities/entity-appearance.rst:32
 msgid "The color of the text."
-msgstr ""
+msgstr "テキストの色。"
 
 #: ../../source/create/entities/entity-appearance.rst:32
 #: ../../source/create/entities/entity-appearance.rst:34
 #: ../../source/create/entities/entity-appearance.rst:92
 msgid "Text"
-msgstr ""
+msgstr "テキスト"
 
 #: ../../source/create/entities/entity-appearance.rst:34
 msgid "Background Color"
-msgstr ""
+msgstr "背景色"
 
 #: ../../source/create/entities/entity-appearance.rst:34
 msgid "The color of the background of the text."
-msgstr ""
+msgstr "テキストの背景の色。"
 
 #: ../../source/create/entities/entity-appearance.rst:36
 #: ../../source/create/entities/zone-entity.rst:31
 #: ../../source/create/entities/zone-entity.rst:54
 msgid "Key Light"
-msgstr ""
+msgstr "Key Light"
 
 #: ../../source/create/entities/entity-appearance.rst:36
 msgid ""
 "The color of the lighting in the zone. Select 'Inherit' to keep the "
 "lighting of the domain, or 'Off' to remove all lighting."
-msgstr ""
+msgstr "ゾーン内の照明の色。ドメインの照明を維持するには「継承」を選択し、すべての照"
+"明を削除するには「オフ」を選択します。"
 
 #: ../../source/create/entities/entity-appearance.rst:36
 #: ../../source/create/entities/entity-appearance.rst:39
@@ -7033,65 +7104,67 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:47
 #: ../../source/create/entities/entity-appearance.rst:50
 msgid "Zone"
-msgstr ""
+msgstr "Zone"
 
 #: ../../source/create/entities/entity-appearance.rst:39
 msgid "Sky Box"
-msgstr ""
+msgstr "スカイボックス"
 
 #: ../../source/create/entities/entity-appearance.rst:39
 msgid ""
 "The color of the ceiling in the zone. Select 'Inherit' to keep the color "
 "of the domain, or 'Off' to remove all color."
-msgstr ""
+msgstr "ゾーン内の天井の色。「Inherit」を選択してドメインの色を保持するか、「Off」 "
+"を選択してすべての色を削除します。"
 
 #: ../../source/create/entities/entity-appearance.rst:42
 #: ../../source/create/entities/zone-entity.rst:37
 #: ../../source/create/entities/zone-entity.rst:100
 msgid "Ambient Light"
-msgstr ""
+msgstr "Ambient Light"
 
 #: ../../source/create/entities/entity-appearance.rst:42
 msgid ""
 "Configures the amount of ambient light in the zone. Ambient light "
 "reflects on content within your zone."
-msgstr ""
+msgstr "ゾーン内の周囲光の量を設定します。周囲光はゾーン内のコンテンツに反射します。"
 
 #: ../../source/create/entities/entity-appearance.rst:45
 msgid "*Haze* > Haze Color"
-msgstr ""
+msgstr "*Haze* > Haze Color"
 
 #: ../../source/create/entities/entity-appearance.rst:45
 msgid "When Haze is turned on, the color of the haze in the zone."
-msgstr ""
+msgstr "ヘイズがオンになっている場合、ゾーン内のヘイズの色。"
 
 #: ../../source/create/entities/entity-appearance.rst:47
 msgid "*Haze* > Glare Color"
-msgstr ""
+msgstr "*Haze* > Glare Color"
 
 #: ../../source/create/entities/entity-appearance.rst:47
 msgid "When Haze is turned on, the color of the glare based on the key light."
-msgstr ""
+msgstr "ヘイズをオンにすると、キーライトに基づくグレアの色になります。"
 
 #: ../../source/create/entities/entity-appearance.rst:50
 #: ../../source/create/entities/zone-entity.rst:42
 #: ../../source/create/entities/zone-entity.rst:151
 msgid "Bloom"
-msgstr ""
+msgstr "Bloom"
 
 #: ../../source/create/entities/entity-appearance.rst:50
 msgid "Configures how much the bright areas of the scene glow."
-msgstr ""
+msgstr "シーンの明るい領域をどれだけ光らせるかを設定します。"
 
 #: ../../source/create/entities/entity-appearance.rst:52
 msgid "*Color* > Color"
-msgstr ""
+msgstr "*Color* > Color"
 
 #: ../../source/create/entities/entity-appearance.rst:52
 msgid ""
 "As the particle moves, sets the color of the particle at the start, "
 "middle, and finish."
-msgstr ""
+msgstr "パーティクルが移動すると、開始時、中間時、終了時のパーティクルのカラーが設定"
+"されます。"
 
 #: ../../source/create/entities/entity-appearance.rst:52
 #: ../../source/create/entities/entity-appearance.rst:55
@@ -7100,21 +7173,21 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:98
 #: ../../source/create/entities/entity-appearance.rst:100
 msgid "Particle"
-msgstr ""
+msgstr "Particle"
 
 #: ../../source/create/entities/entity-appearance.rst:55
 msgid "*Color* > Color Spread"
-msgstr ""
+msgstr "*Color* > Color Spread"
 
 #: ../../source/create/entities/entity-appearance.rst:55
 msgid ""
 "The spread of color that each particle is given, resulting in a variety "
 "of colors."
-msgstr ""
+msgstr "各粒子（particle ）が与えられる色の広がりは、さまざまな色をもたらします。"
 
 #: ../../source/create/entities/entity-appearance.rst:61
 msgid "Set the Size of an Entity"
-msgstr ""
+msgstr "Entityのサイズを設定する"
 
 #: ../../source/create/entities/entity-appearance.rst:63
 msgid ""
@@ -7122,6 +7195,9 @@ msgid ""
 "directly in your environment by selecting and dragging the small boxes "
 "inside the object."
 msgstr ""
+"キューブ、球、テキスト、画像、および Web エンティティの場合、オブジェクト内の"
+"小さなボックスを選択してドラッグすることで、環境内でサイズを直接変更できます"
+"。"
 
 #: ../../source/create/entities/entity-appearance.rst:72
 msgid ""
@@ -7130,10 +7206,13 @@ msgid ""
 "the 'Size' settings. Here are the different size settings you can "
 "configure:"
 msgstr ""
+"すべてのエンティティについて、**Create** アプリでサイズを手動で設定することも"
+"できます。エンティティを選択した状態で、「Properties」をクリックし、「Size」"
+"設定まで下にスクロールします。構成できるさまざまなサイズ設定を次に示します。"
 
 #: ../../source/create/entities/entity-appearance.rst:77
 msgid "*Spatial* > Local Dimensions"
-msgstr ""
+msgstr "*Spatial* > Local Dimensions"
 
 #: ../../source/create/entities/entity-appearance.rst:77
 msgid ""
@@ -7141,6 +7220,9 @@ msgid ""
 "value remains the original dimensions value while the avatar scale "
 "changes."
 msgstr ""
+"エンティティのサイズです。もしエンティティがアバターに親指付けされている場合"
+"、この値は元のサイズのままであり、アバターのスケールが変更されても影響を受け"
+"ません。"
 
 #: ../../source/create/entities/entity-appearance.rst:77
 #: ../../source/create/entities/entity-appearance.rst:81
@@ -7150,47 +7232,51 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:146
 #: ../../source/create/entities/entity-appearance.rst:148
 msgid "All"
-msgstr ""
+msgstr "All"
 
 #: ../../source/create/entities/entity-appearance.rst:81
 msgid "*Spatial* > Dimensions"
-msgstr ""
+msgstr "*Spatial* > Dimensions"
 
 #: ../../source/create/entities/entity-appearance.rst:81
 msgid ""
 "The size of the entity. If the entity is parented to an avatar, this "
 "value will change if the avatar scale changes"
 msgstr ""
+"エンティティのサイズです。もしエンティティがアバターに親指付けされている場合"
+"、アバターのスケールが変更されるとこの値も変わります。つまり、アバターの大き"
+"さが変わればエンティティのサイズもそれに合わせて変化します。"
 
 #: ../../source/create/entities/entity-appearance.rst:84
 msgid "*Spatial* > Scale"
-msgstr ""
+msgstr "*Spatial* > Scale"
 
 #: ../../source/create/entities/entity-appearance.rst:84
 msgid "Sets the size of the entity as a percentage of its original size."
-msgstr ""
+msgstr "エンティティのサイズを、元のサイズの何パーセントかで設定します。"
 
 #: ../../source/create/entities/entity-appearance.rst:86
 msgid "Fall-Off Radius"
-msgstr ""
+msgstr "Fall-Off Radius"
 
 #: ../../source/create/entities/entity-appearance.rst:86
 msgid "The distance from the light's center where the intensity is reduced."
-msgstr ""
+msgstr "強度が低下するライトの中心からの距離。"
 
 #: ../../source/create/entities/entity-appearance.rst:89
 msgid "Spotlight Cut-Off"
-msgstr ""
+msgstr "Spotlight Cut-Off"
 
 #: ../../source/create/entities/entity-appearance.rst:89
 msgid ""
 "Affects the size of the spotlight's beam; the higher the value, the "
 "larger the beam."
-msgstr ""
+msgstr "スポットライトのビームのサイズに影響します。値が大きいほど、ビームが大きくな"
+"ります。"
 
 #: ../../source/create/entities/entity-appearance.rst:92
 msgid "Line Height"
-msgstr ""
+msgstr "Line Height"
 
 #: ../../source/create/entities/entity-appearance.rst:92
 msgid "The height of each line of text."
@@ -7392,37 +7478,38 @@ msgstr ""
 
 #: ../../source/create/entities/entity-behavior.rst:48
 msgid "Your entity will collide with other dynamic entities."
-msgstr ""
+msgstr "エンティティは他の動的エンティティと衝突します。"
 
 #: ../../source/create/entities/entity-behavior.rst:50
 msgid "My avatar"
-msgstr ""
+msgstr "私のアバター"
 
 #: ../../source/create/entities/entity-behavior.rst:50
 msgid "Your entity will :doc:`collide with your avatar <avatar-interactions>`."
-msgstr ""
+msgstr "エンティティと :doc:`アバタの衝突 <avatar-interactions>`。"
 
 #: ../../source/create/entities/entity-behavior.rst:52
 msgid "Other avatars"
-msgstr ""
+msgstr "その他のアバター"
 
 #: ../../source/create/entities/entity-behavior.rst:52
 msgid "Your entity will collide with other user's avatars."
-msgstr ""
+msgstr "あなたのエンティティは他のユーザーのアバターと衝突します。"
 
 #: ../../source/create/entities/entity-behavior.rst:54
 msgid "Collision Sound"
-msgstr ""
+msgstr "Collision Sound"
 
 #: ../../source/create/entities/entity-behavior.rst:54
 msgid ""
 "You can make your entity :doc:`emit a sound <add-sounds>` whenever it "
 "collides with other entities."
-msgstr ""
+msgstr "エンティティが他のエンティティと衝突するたびに、 :doc:`サウンド <add-sounds>`"
+" を発するようにすることができます。"
 
 #: ../../source/create/entities/entity-behavior.rst:60
 msgid "Make an Entity Grabbable"
-msgstr ""
+msgstr "エンティティを掴めるようにする"
 
 #: ../../source/create/entities/entity-behavior.rst:62
 msgid ""
