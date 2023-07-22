@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-12-04 14:41+0000\n"
-"PO-Revision-Date: 2023-07-16 04:32+0000\n"
+"PO-Revision-Date: 2023-07-23 07:04+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/release-notes/ja/>\n"
@@ -333,11 +333,11 @@ msgstr "PR ビルド用の GitHub Actions はアーティファクトのアッ�
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:43
 msgid "Snapshot name changed from \"hifi\" to \"vircadia\". (#334)"
-msgstr ""
+msgstr "Snapshot name changed from \"hifi\" to \"vircadia\". (#334)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:44
 msgid "Vircadia now uses version 1.11.11 of the OpenVR SDK. (#335)"
-msgstr ""
+msgstr "Vircadia now uses version 1.11.11 of the OpenVR SDK. (#335)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:45
 msgid "Crash reporting information sent to Sentry improved. (#336)"
