@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-07-23 07:04+0000\n"
+"PO-Revision-Date: 2023-07-24 16:03+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -7280,49 +7280,50 @@ msgstr "Line Height"
 
 #: ../../source/create/entities/entity-appearance.rst:92
 msgid "The height of each line of text."
-msgstr ""
+msgstr "テキストの各行の高さ。."
 
 #: ../../source/create/entities/entity-appearance.rst:94
 msgid "*Emit* > Dimensions"
-msgstr ""
+msgstr "*Emit* > Dimensions"
 
 #: ../../source/create/entities/entity-appearance.rst:94
 msgid "The outer limit radius that particles can be emitted from."
-msgstr ""
+msgstr "パーティクルを放出できる外側の限界半径。"
 
 #: ../../source/create/entities/entity-appearance.rst:96
 msgid "*Emit* > Radius Start"
-msgstr ""
+msgstr "*Emit* > Radius Start"
 
 #: ../../source/create/entities/entity-appearance.rst:96
 msgid "The inner limit radius that particles can start emitting from."
-msgstr ""
+msgstr "パーティクルが放出を開始できる内側の限界半径。"
 
 #: ../../source/create/entities/entity-appearance.rst:98
 msgid "*Size* > Size"
-msgstr ""
+msgstr "*Size* > Size"
 
 #: ../../source/create/entities/entity-appearance.rst:98
 msgid "The size of each individual particle in the entity."
-msgstr ""
+msgstr "エンティティ内の個々のパーティクルのサイズ。"
 
 #: ../../source/create/entities/entity-appearance.rst:100
 msgid "*Size* > Size Spread"
-msgstr ""
+msgstr "*Size* > Size Spread"
 
 #: ../../source/create/entities/entity-appearance.rst:100
 msgid "How far apart a particle is from other particles."
-msgstr ""
+msgstr "パーティクルが他のパーティクルからどれだけ離れているか。"
 
 #: ../../source/create/entities/entity-appearance.rst:105
 msgid "Rotate an Entity"
-msgstr ""
+msgstr "Rotate an Entity"
 
 #: ../../source/create/entities/entity-appearance.rst:107
 msgid ""
 "All entities can be rotated directly in your environment by selecting and"
 " dragging the circles around the object."
-msgstr ""
+msgstr "すべてのエンティティは、オブジェクトの周りの円を選択してドラッグすることで、"
+"環境内で直接回転できます。"
 
 #: ../../source/create/entities/entity-appearance.rst:116
 msgid ""
@@ -7330,33 +7331,37 @@ msgid ""
 "entity selected, click on 'Properties' and scroll down to the 'Rotation' "
 "settings. Here are the different rotation settings you can configure:"
 msgstr ""
+"**Create** アプリで回転を手動で設定することもできます。エンティティを選択した"
+"状態で、「Properties」をクリックし、「Rotation」設定まで下にスクロールします"
+"。構成できるさまざまな回転設定を次に示します。"
 
 #: ../../source/create/entities/entity-appearance.rst:121
 msgid "*Spatial* > Local Rotation"
-msgstr ""
+msgstr "*Spatial* > Local Rotation"
 
 #: ../../source/create/entities/entity-appearance.rst:121
 msgid "The orientation of the entity relative to its parent."
-msgstr ""
+msgstr "親に対するエンティティの向き。"
 
 #: ../../source/create/entities/entity-appearance.rst:123
 msgid "*Spatial* > Rotation"
-msgstr ""
+msgstr "*Spatial* > Rotation"
 
 #: ../../source/create/entities/entity-appearance.rst:123
 msgid "The orientation of the entity with respect to world coordinates."
-msgstr ""
+msgstr "ワールド座標に対するエンティティの向き。"
 
 #: ../../source/create/entities/entity-appearance.rst:126
 #: ../../source/create/entities/entity-appearance.rst:151
 msgid ""
 "You can switch between 'Local' and 'World' using the keyboard shortcut "
 "``T``."
-msgstr ""
+msgstr "「Local」と「World」を切り替えるには、キーボードショートカット``T``を使用しま"
+"す。"
 
 #: ../../source/create/entities/entity-appearance.rst:130
 msgid "Move an Entity"
-msgstr ""
+msgstr "Entityの移動"
 
 #: ../../source/create/entities/entity-appearance.rst:132
 msgid ""
@@ -7364,6 +7369,9 @@ msgid ""
 "dragging the object to the correct location. Alternatively, you can use "
 "the arrows around the object to move it in only one direction."
 msgstr ""
+"すべてのエンティティは、オブジェクトを選択して正しい位置までドラッグすること"
+"で、環境内で直接動かすことができます。また、オブジェクトの周りにある矢印を使"
+"って、一方向にだけ動かすこともできます。"
 
 #: ../../source/create/entities/entity-appearance.rst:141
 msgid ""
@@ -7371,28 +7379,31 @@ msgid ""
 "entity selected, click on 'Properties' and scroll down to the 'Position' "
 "settings. Here are the different position settings you can configure:"
 msgstr ""
+"また、**Create** アプリで位置を手動で設定することもできます。エンティティを選"
+"択した状態で「Properties」をクリックし、「Position」設定までスクロールダウン"
+"します。以下は、設定できるさまざまな位置設定です："
 
 #: ../../source/create/entities/entity-appearance.rst:146
 msgid "*Spatial* > Local Position"
-msgstr ""
+msgstr "*Spatial* > Local Position"
 
 #: ../../source/create/entities/entity-appearance.rst:146
 msgid "The position of the entity relative to its parent."
-msgstr ""
+msgstr "親に対するエンティティの位置。"
 
 #: ../../source/create/entities/entity-appearance.rst:148
 msgid "*Spatial* > Position"
-msgstr ""
+msgstr "*Spatial* > Position"
 
 #: ../../source/create/entities/entity-appearance.rst:148
 msgid "The position of the entity with respect to world coordinates."
-msgstr ""
+msgstr "ワールド座標に対するエンティティの位置。"
 
 #: ../../source/create/entities/entity-appearance.rst:157
 #: ../../source/create/entities/web-entity-media.rst:163
 #: ../../source/create/entities/zone-entity.rst:170
 msgid "`The Create App <../tools.html#the-create-app>`_"
-msgstr ""
+msgstr "`作成アプリ <../tools.html#the-create-app>`_"
 
 #: ../../source/create/entities/entity-behavior.rst:5
 msgid ""
@@ -7401,10 +7412,14 @@ msgid ""
 " entities and avatars, or can a change in the domain's gravity affect it?"
 " You can check and change an entity's behavior by editing its properties."
 msgstr ""
+"エンティティの行動は、Vircadiaの他のエンティティやアバターとの相互作用を制御"
+"します。エンティティをつかんだり、他のエンティティやアバターと衝突させたり、"
+"領域の重力を変化させたりすることができますか？エンティティの挙動はプロパティ"
+"を編集することで確認・変更できます。"
 
 #: ../../source/create/entities/entity-behavior.rst:19
 msgid "Set an Entity to Respond to Physics"
-msgstr ""
+msgstr "物理に応答するエンティティの設定"
 
 #: ../../source/create/entities/entity-behavior.rst:21
 msgid ""
@@ -7414,24 +7429,30 @@ msgid ""
 "an entity is not dynamic, it is static and has no gravity and no "
 "velocity. It can only be moved by a user."
 msgstr ""
+"もし物体が :doc:`物理法則 <entity-physics>` や他の物体やアバターと相互作用す"
+"るようにしたい場合は、それを動的にする必要があります。これにより、箱は重力に"
+"反応したり、ボールは床にぶつかったときに跳ね返ることができます。もし物体が静"
+"的であれば、重力や速度を持ちません。ユーザーによってのみ動かすことができます"
+"。"
 
 #: ../../source/create/entities/entity-behavior.rst:23
 msgid "To make an entity dynamic:"
-msgstr ""
+msgstr "エンティティを動的にするには:"
 
 #: ../../source/create/entities/entity-behavior.rst:26
 msgid "Select your entity on the 'Entity List' window or just click on it."
-msgstr ""
+msgstr "「Entity List」ウィンドウでエンティティを選択するか、クリックします。"
 
 #: ../../source/create/entities/entity-behavior.rst:27
 msgid ""
 "Go to the 'Properties' tab, scroll down to 'Collision' and check "
 "'Dynamic'."
-msgstr ""
+msgstr "「Properties」タブに移動し、「Collision」まで下にスクロールして、「Dynamic」"
+"をオンにします。"
 
 #: ../../source/create/entities/entity-behavior.rst:31
 msgid "Set Entity Behavior on Collision"
-msgstr ""
+msgstr "衝突時のエンティティ動作の設定"
 
 #: ../../source/create/entities/entity-behavior.rst:33
 msgid ""
@@ -7441,18 +7462,23 @@ msgid ""
 "collision properties need to be changed. With the entity selected, click "
 "on 'Properties' and scroll down to the 'Collision' settings."
 msgstr ""
+"コリジョンプロパティがない場合、エンティティは他のエンティティやアバターを通"
+"り抜けて移動します。エンティティが他のエンティティやアバターと接触したときに"
+"衝突するには、衝突プロパティを変更する必要があります。エンティティを選択した"
+"状態で「Properties」をクリックし、「Collision」設定までスクロールダウンします"
+"。"
 
 #: ../../source/create/entities/entity-behavior.rst:35
 msgid "Here are the different collision settings you can configure:"
-msgstr ""
+msgstr "以下は、あなたが設定できるさまざまな衝突設定です："
 
 #: ../../source/create/entities/entity-behavior.rst:38
 msgid "Collides With"
-msgstr ""
+msgstr "衝突"
 
 #: ../../source/create/entities/entity-behavior.rst:40
 msgid "Static Entities"
-msgstr ""
+msgstr "静的エンティティ"
 
 #: ../../source/create/entities/entity-behavior.rst:40
 msgid ""
@@ -7460,10 +7486,13 @@ msgid ""
 "entity is a static entity, it will not collide with another static "
 "entity. Only a dynamic entity can collide with a static entity."
 msgstr ""
+"あなたのエンティティは静的エンティティと衝突します。あなたのエンティティが静"
+"的エンティティの場合、他の静的エンティティとは衝突しないことを覚えておいてく"
+"ださい。静的なエンティティに衝突できるのは、動的なエンティティだけです。"
 
 #: ../../source/create/entities/entity-behavior.rst:44
 msgid "Kinematic Entities"
-msgstr ""
+msgstr "Kinematic Entities"
 
 #: ../../source/create/entities/entity-behavior.rst:44
 msgid ""
@@ -7471,10 +7500,13 @@ msgid ""
 " velocity, but are not dynamic. Their behavior is controlled by an "
 "external script."
 msgstr ""
+"エンティティはキネマティックエンティティと衝突します。キネマティックエンティ"
+"ティには速度がありますが、動的ではありません。それらの動作は、外部スクリプト"
+"によって制御されます。"
 
 #: ../../source/create/entities/entity-behavior.rst:48
 msgid "Dynamic Entities"
-msgstr ""
+msgstr "Dynamic Entities"
 
 #: ../../source/create/entities/entity-behavior.rst:48
 msgid "Your entity will collide with other dynamic entities."
@@ -7517,29 +7549,32 @@ msgid ""
 "another user interacts with it. By default, 'Grabbable' and 'Follow "
 "Controller' are checked."
 msgstr ""
+"エンティティのグラブプロパティは、あなたや他のユーザーがそのエンティティを操"
+"作したときの動作を決定します。デフォルトでは、「Grabbable」 と 「Follow "
+"Controller」 がチェックされています。"
 
 #: ../../source/create/entities/entity-behavior.rst:64
 msgid "Here are the different grab settings you can configure:"
-msgstr ""
+msgstr "構成できるさまざまなグラブ設定を次に示します。"
 
 #: ../../source/create/entities/entity-behavior.rst:67
 #: ../../source/create/entities/entity-behavior.rst:86
 #: ../../source/create/entities/entity-behavior.rst:101
 #: ../../source/create/entities/entity-behavior.rst:147
 msgid "Behavior"
-msgstr ""
+msgstr "Behavior"
 
 #: ../../source/create/entities/entity-behavior.rst:69
 msgid "Grabbable"
-msgstr ""
+msgstr "Grabbable"
 
 #: ../../source/create/entities/entity-behavior.rst:69
 msgid "You or other users can grab this entity."
-msgstr ""
+msgstr "自分または他のユーザーがこのエンティティを取得できます。"
 
 #: ../../source/create/entities/entity-behavior.rst:71
 msgid "Follow Controller"
-msgstr ""
+msgstr "Follow Controller"
 
 #: ../../source/create/entities/entity-behavior.rst:71
 msgid ""
@@ -7548,10 +7583,14 @@ msgid ""
 "arms, your entity will be grabbed where the controller is (at a distance "
 "from your avatar's hands)."
 msgstr ""
+"あなたのエンティティは、アバターの手ではなく、手コントローラーの動きに従いま"
+"す。もしアバターの腕が実際の腕よりも短い場合、エンティティはコントローラーが"
+"ある位置で掴まれることになります（アバターの手から一定の距離離れた場所で掴ま"
+"れることになります）。"
 
 #: ../../source/create/entities/entity-behavior.rst:79
 msgid "Set an Entity to Trigger Scripts"
-msgstr ""
+msgstr "スクリプトをトリガーするエンティティの設定"
 
 #: ../../source/create/entities/entity-behavior.rst:81
 msgid ""
@@ -7559,24 +7598,29 @@ msgid ""
 "other entities come in contact with it, you can do so by editing its "
 "properties."
 msgstr ""
+"自分、他のユーザー、または他のエンティティがエンティティに接触したときにスク"
+"リプトをトリガするようにしたい場合は、そのプロパティを編集することで実現でき"
+"ます。"
 
 #: ../../source/create/entities/entity-behavior.rst:83
 msgid "Here are the different trigger settings you can configure:"
-msgstr ""
+msgstr "以下は、設定可能なさまざまなトリガー設定です："
 
 #: ../../source/create/entities/entity-behavior.rst:88
 msgid "Triggerable"
-msgstr ""
+msgstr "Triggerable"
 
 #: ../../source/create/entities/entity-behavior.rst:88
 msgid ""
 "Your entity can trigger a script. For instance, you can trigger a cube "
 "entity to run a script asking for a tip every time you click it."
 msgstr ""
+"エンティティはスクリプトをトリガーできます。例えば、キューブのエンティティを"
+"トリガして、クリックするたびにチップを要求するスクリプトを実行できます。"
 
 #: ../../source/create/entities/entity-behavior.rst:94
 msgid "Make an Entity Cloneable"
-msgstr ""
+msgstr "エンティティをクローン可能にする"
 
 #: ../../source/create/entities/entity-behavior.rst:96
 msgid ""
@@ -7585,54 +7629,60 @@ msgid ""
 "exist, how many clones you can create, how the clone responds to physics,"
 " and if the clone is an avatar entity."
 msgstr ""
+"自分のエンティティをクローンして、同じプロパティを持つ他のエンティティを作る"
+"ことができます。クローンを作成する際には、クローンが存在する期間、作成できる"
+"クローンの数、クローンが物理にどのように反応するか、クローンがアバターエンテ"
+"ィティであるかどうかを設定できます。"
 
 #: ../../source/create/entities/entity-behavior.rst:98
 msgid "Here are the different clone settings you can configure:"
-msgstr ""
+msgstr "構成できるさまざまなグラブ設定を次に示します。"
 
 #: ../../source/create/entities/entity-behavior.rst:103
 msgid "Cloneable"
-msgstr ""
+msgstr "Cloneable"
 
 #: ../../source/create/entities/entity-behavior.rst:103
 msgid ""
 "Your entity can be cloned. You can change the 'Clone' settings to "
 "manipulate your cloned entity's behavior."
-msgstr ""
+msgstr "エンティティはクローンすることができます。「クローン」設定を変更することで、"
+"クローン化したエンティティの動作を操作することができます。"
 
 #: ../../source/create/entities/entity-behavior.rst:106
 msgid "*Cloneable* > Clone Lifetime"
-msgstr ""
+msgstr "*Cloneable* > Clone Lifetime"
 
 #: ../../source/create/entities/entity-behavior.rst:106
 msgid "Select this option to set how long (in seconds) your clone will exist."
-msgstr ""
+msgstr "クローンが存在する時間（秒）を設定するには、このオプションを選択します。"
 
 #: ../../source/create/entities/entity-behavior.rst:109
 msgid "*Cloneable* >"
-msgstr ""
+msgstr "*Cloneable* >"
 
 #: ../../source/create/entities/entity-behavior.rst:111
 msgid "Clone Limit"
-msgstr ""
+msgstr "Clone Limit"
 
 #: ../../source/create/entities/entity-behavior.rst:109
 msgid ""
 "Select to set a limit to how many clones you can create. If you don't "
 "want to have a limit, set the value to 0  ."
-msgstr ""
+msgstr "作成できるクローン数に制限を設定する場合は選択します。制限を設けたくない場合"
+"は、値を0に設定してください。"
 
 #: ../../source/create/entities/entity-behavior.rst:113
 msgid "*Cloneable* > Clone Dynamic"
-msgstr ""
+msgstr "*Cloneable* > Clone Dynamic"
 
 #: ../../source/create/entities/entity-behavior.rst:113
 msgid "Select to make the clone entity a dynamic entity."
-msgstr ""
+msgstr "クローン エンティティを動的エンティティにする場合に選択します。"
 
 #: ../../source/create/entities/entity-behavior.rst:116
 msgid "*Cloneable* > Clone Avatar Entity"
-msgstr ""
+msgstr "*Cloneable* > Clone Avatar Entity"
 
 #: ../../source/create/entities/entity-behavior.rst:116
 msgid ""
@@ -7644,6 +7694,13 @@ msgid ""
 "their avatar, ensuring there isn't any clutter left behind. This feature "
 "ensures that your entity is cloned locally for each avatar."
 msgstr ""
+"クローンされたエンティティをアバター・エンティティとして作成するかどうかを指"
+"定します。アバターエンティティはエンティティサーバには存在しません。代わりに"
+"、ユーザの Interface クライアントに固有です。例えば、あるユーザがドメイン内の"
+"コーヒーショップを訪れるとします。ユーザーはクローンされたコーヒーカップを手"
+"に取ります。ユーザーが訪問を終えると、クローン化されたエンティティはアバター"
+"と一緒に立ち去ります。この機能により、アバターごとにローカルにクローンされた"
+"エンティティが確保されます。"
 
 #: ../../source/create/entities/entity-behavior.rst:125
 msgid ""
@@ -7651,20 +7708,24 @@ msgid ""
 "settings/permission-settings>` to clone an entity or edit an unlocked "
 "entity."
 msgstr ""
+"ユーザーはエンティティをクローンしたり、ロックが解除されたエンティティを編集"
+"するために、 :doc:`作成権限 <../../host/configure-settings/permission-"
+"settings>` を持つ必要はありません。"
 
 #: ../../source/create/entities/entity-behavior.rst:127
 msgid ""
 "To make entities cloneable in your domain (this can only be done with "
 "unlocked entities):"
-msgstr ""
+msgstr "ドメイン内でエンティティをクローン可能にするには(これはロック解除されたエンテ"
+"ィティでのみ実行できます):"
 
 #: ../../source/create/entities/entity-behavior.rst:130
 msgid "Select the entity of your choice in the 'Entity List' window."
-msgstr ""
+msgstr "Entity List'ウィンドウで希望のエンティティを選択します。"
 
 #: ../../source/create/entities/entity-behavior.rst:131
 msgid "Go to the 'Properties' tab, scroll down, and check 'Cloneable'."
-msgstr ""
+msgstr "「Properties」タブから下にスクロールして、「Cloneable」をチェックします。"
 
 #: ../../source/create/entities/entity-behavior.rst:133
 msgid ""
@@ -7672,6 +7733,9 @@ msgid ""
 " If you don't want any users to clone your entity or any entities in your"
 " domain, you can do one of the following:"
 msgstr ""
+"クローン可能なエンティティはどのユーザーでもクローンできることに注意します。"
+"もし他のユーザーに自分のエンティティやドメイン内の他のエンティティをクローン"
+"されたくない場合は、以下のいずれかの方法を選択できます："
 
 #: ../../source/create/entities/entity-behavior.rst:135
 msgid ""
@@ -7679,14 +7743,18 @@ msgid ""
 "permissions <../../host/configure-settings/permission-settings>` to the "
 "users of your choice."
 msgstr ""
+"クローンされるのを望まないエンティティはロックして、 :doc:`"
+"ユーザーのロック権限 <../../host/configure-settings/permission-settings>` "
+"を自分が選んだユーザーに制限します。"
 
 #: ../../source/create/entities/entity-behavior.rst:136
 msgid "Set entity filters to prevent users from editing entities in your domain."
-msgstr ""
+msgstr "ユーザーがドメイン内のエンティティを編集できないように、エンティティフィルタ"
+"を設定します。"
 
 #: ../../source/create/entities/entity-behavior.rst:140
 msgid "Set an Entity to Cast a Shadow"
-msgstr ""
+msgstr "影を地面に描画（Cast a Shadow）する"
 
 #: ../../source/create/entities/entity-behavior.rst:142
 msgid ""
@@ -7695,31 +7763,35 @@ msgid ""
 "shadows only from the key light, not from the light entities. The key "
 "light is a parallel source of light, like the sun."
 msgstr ""
+"あなたのエンティティが他の物体やアバターに影を落とすように振る舞わせることで"
+"、それを現実世界のオブジェクトのように見せることができます。Vircadiaでは、エ"
+"ンティティは光源エンティティからではなく、キーライト（太陽のような平行光源）"
+"からのみ影を落とします。"
 
 #: ../../source/create/entities/entity-behavior.rst:144
 msgid "Here are the different shadow settings you can configure:"
-msgstr ""
+msgstr "構成できるさまざまなシャドウ設定は次のとおりです。"
 
 #: ../../source/create/entities/entity-behavior.rst:149
 msgid "Cast Shadow"
-msgstr ""
+msgstr "Cast Shadow"
 
 #: ../../source/create/entities/entity-behavior.rst:149
 msgid "Your entity will cast a shadow on other objects and avatars."
-msgstr ""
+msgstr "あなたのエンティティは、他のオブジェクトやアバターに影を落とします。"
 
 #: ../../source/create/entities/entity-behavior.rst:155
 msgid ":doc:`Apply Physics to Entities <entity-physics>`"
-msgstr ""
+msgstr ":doc:`エンティティに物理を適用する <entity-physics>`"
 
 #: ../../source/create/entities/entity-behavior.rst:156
 #: ../../source/create/entities/entity-physics.rst:157
 msgid ":doc:`Define Interactions with Avatars <avatar-interactions>`"
-msgstr ""
+msgstr ":doc:`アバターとのインタラクションの定義 <avatar-interactions>`"
 
 #: ../../source/create/entities/entity-behavior.rst:157
 msgid ":doc:`Add Sound to Entities <add-sounds>`"
-msgstr ""
+msgstr ":doc:`エンティティにサウンドを追加する <add-sounds>`"
 
 #: ../../source/create/entities/entity-physics.rst:5
 msgid ""
@@ -7731,18 +7803,24 @@ msgid ""
 " after collision. You can modify an entity's physics behavior using the "
 "Create app."
 msgstr ""
+"VircadiaのVR体験は `物理エンジン <https://pybullet.org/wordpress>`_ の助けを"
+"借りてリアルに作られています。Vircadiaはこのエンジンを使ってニュートン物理法"
+"則に従って物体の挙動をシミュレートします。例えば、Vircadiaでバットでボールを"
+"打つと、物理エンジンはこれらの動きを計算し、衝突後にバットからボールが離れる"
+"ように回転します。作成アプリを使ってエンティティの物理挙動を変更することがで"
+"きます。"
 
 #: ../../source/create/entities/entity-physics.rst:18
 msgid "Apply Physics to an Entity"
-msgstr ""
+msgstr "物理演算機能のエンティティへの適用"
 
 #: ../../source/create/entities/entity-physics.rst:20
 msgid "To apply physics properties to an entity:"
-msgstr ""
+msgstr "物理プロパティをエンティティに適用するには:"
 
 #: ../../source/create/entities/entity-physics.rst:23
 msgid "Select or add any entity of your choice."
-msgstr ""
+msgstr "任意のエンティティを選択または追加します。"
 
 #: ../../source/create/entities/entity-physics.rst:24
 msgid ""
@@ -7750,10 +7828,13 @@ msgid ""
 " first create an entity, the physics properties are set to the default "
 "values you can see in the image below."
 msgstr ""
+"「Properties」タブで、**Physics**セクションまでスクロールダウンしてください。"
+"エンティティを最初に作成したとき、物理プロパティは下の画像にあるデフォルト値"
+"に設定されています。"
 
 #: ../../source/create/entities/entity-physics.rst:30
 msgid "Change an Entity's Velocity"
-msgstr ""
+msgstr "エンティティの速度を変更する"
 
 #: ../../source/create/entities/entity-physics.rst:32
 msgid ""
@@ -7761,24 +7842,28 @@ msgid ""
 "that have a position and orientation in Vircadia will have linear and "
 "angular velocity. These velocities might be zero, but they still exist."
 msgstr ""
+"速度（Velocity）とは、ある方向に向かって進む物体の速さのことです。Vircadia内"
+"で位置と向きを持つ全てのエンティティは、線形速度（linear velocity）と角速度（"
+"angular velocity）を持ちます。これらの速度はゼロの場合もありますが、それでも"
+"存在しています。"
 
 #: ../../source/create/entities/entity-physics.rst:36
 msgid "Linear Velocity"
-msgstr ""
+msgstr "線速度（Linear Velocity）"
 
 #: ../../source/create/entities/entity-physics.rst:38
 msgid "**Type**: 3D Vector"
-msgstr ""
+msgstr "**Type**: 3D Vector"
 
 #: ../../source/create/entities/entity-physics.rst:40
 msgid "**Unit:** meters/second"
-msgstr ""
+msgstr "**Unit:** meters/second"
 
 #: ../../source/create/entities/entity-physics.rst:42
 #: ../../source/create/entities/entity-physics.rst:58
 #: ../../source/create/entities/entity-physics.rst:145
 msgid "**Default Value:** (0,0,0)"
-msgstr ""
+msgstr "**Default Value:** (0,0,0)"
 
 #: ../../source/create/entities/entity-physics.rst:44
 msgid ""
@@ -7789,82 +7874,98 @@ msgid ""
 "space. Every time your entity moves, its x, y, and z coordinates change "
 "to show you the new position. To change an entity's linear velocity:"
 msgstr ""
+"エンティティを特定の方向に移動させるようにするには、その線形速度（linear velo"
+"city）を変更することができます。方向は3D直交座標系におけるx、y、またはzの座標"
+"を使って決定されます。3D直交座標系は、エンティティの空間内の位置を決定するの"
+"に役立ちます。エンティティが移動するたびに、x、y、およびzの座標が変化して新し"
+"い位置を示します。エンティティの線形速度を変更するには："
 
 #: ../../source/create/entities/entity-physics.rst:46
 msgid ""
 "In the 'Properties' tab, scroll down to 'Linear Velocity' property. The "
 "default value is `0.0000`."
 msgstr ""
+"「Properties」タブを開き、下にスクロールして「Linear "
+"Velocity（線形速度）」の設定を見つけます。デフォルト値は `0.0000` です。"
 
 #: ../../source/create/entities/entity-physics.rst:47
 msgid ""
 "Say you want to move a cube entity upwards in a straight line. Change the"
 " Y value for linear velocity to `0.1000` and see your cube start moving."
 msgstr ""
+"キューブエンティティを直線的に上方向に移動させたい場合、線形速度（Linear "
+"Velocity）のY値を `0.1000` "
+"に変更してみてください。すると、キューブが動き始めるはずです。"
 
 #: ../../source/create/entities/entity-physics.rst:48
 msgid ""
 "If you want your cube to change direction, change the x and z values to "
 "`0.1000`."
-msgstr ""
+msgstr "キューブの進行方向を変えたい場合は、XとZの値を `0.1000` に変更してください。"
 
 #: ../../source/create/entities/entity-physics.rst:52
 msgid "Angular Velocity"
-msgstr ""
+msgstr "角速度（Angular Velocity）"
 
 #: ../../source/create/entities/entity-physics.rst:54
 #: ../../source/create/entities/entity-physics.rst:141
 msgid "**Type:** 3D Vector"
-msgstr ""
+msgstr "**Type:** 3D Vector"
 
 #: ../../source/create/entities/entity-physics.rst:56
 msgid "**Unit:** degrees/second"
-msgstr ""
+msgstr "**Unit:** degrees/second"
 
 #: ../../source/create/entities/entity-physics.rst:60
 msgid ""
 "Angular velocity is the speed at which an object is rotating in a certain"
 " direction. It is measured in degrees/second. To change an entity's "
 "angular velocity:"
-msgstr ""
+msgstr "角速度は物体が特定の方向で回転する速さを表し、度/秒で測定されます。エンティテ"
+"ィの角速度を変更するには："
 
 #: ../../source/create/entities/entity-physics.rst:62
 msgid ""
 "In the 'Properties' tab, scroll down to the 'Angular Velocity' property. "
 "The default value is `0.0000`."
 msgstr ""
+"「Properties」タブを開き、「Angular "
+"Velocity（角速度）」の設定までスクロールします。デフォルトの値は `0.0000` "
+"です。"
 
 #: ../../source/create/entities/entity-physics.rst:63
 msgid "Change the X value to see your cube entity start rotating around an axis."
-msgstr ""
+msgstr "Xの値を変更してみてください。そうすると、キューブエンティティが軸の周りで回転"
+"し始めるはずです。"
 
 #: ../../source/create/entities/entity-physics.rst:64
 msgid ""
 "If you want your cube entity to change its angular velocity direction, "
 "change the Y and Z values."
-msgstr ""
+msgstr "キューブエンティティの角速度の方向を変えたい場合は、YとZの値を変更してくださ"
+"い。そうすることで、キューブエンティティの回転方向が変わります。"
 
 #: ../../source/create/entities/entity-physics.rst:66
 msgid "The scripting engine uses radials/second instead of degrees/second."
-msgstr ""
+msgstr "スクリプティングエンジンでは、度/秒の代わりにラジアン/秒が使用されます。"
 
 #: ../../source/create/entities/entity-physics.rst:70
 msgid "Set How a Moving Entity Slows Down"
-msgstr ""
+msgstr "移動する主体がどのように減速するかを設定する"
 
 #: ../../source/create/entities/entity-physics.rst:72
 #: ../../source/create/entities/entity-physics.rst:123
 msgid "**Type**: Scalar"
-msgstr ""
+msgstr "**Type**: Scalar"
 
 #: ../../source/create/entities/entity-physics.rst:74
 #: ../../source/create/entities/entity-physics.rst:103
 msgid "**Range:** 0 - 1"
-msgstr ""
+msgstr "**Range:** 0 - 1"
 
 #: ../../source/create/entities/entity-physics.rst:76
 msgid "**Default Value:** 0.00"
-msgstr ""
+msgstr "**Default Value:** 0.00"
 
 #: ../../source/create/entities/entity-physics.rst:78
 msgid ""
@@ -7877,20 +7978,31 @@ msgid ""
 " lose all its velocity and stop immediately. If you want to throw a ball "
 "and have it slow down over time, you can add a damping value to do so."
 msgstr ""
+"Vircadiaにおいて、ダンピング（Damping）はエンティティの線形速度や角速度が時間"
+"とともにどれだけ減少するかを表します。現実世界の移動する物体は空気の摩擦との"
+"影響を受けて、時間とともに速度が減少します。ダンピングはVircadiaにおいて現実"
+"世界のこの効果を近似するために使用されます。例えば、"
+"オブジェクトのダンピングが `0.00` "
+"の場合、速度を失わずに変化せずに動き続けます。一方、ダンピングが `1.00` の場"
+"合、速度を完全に失い、即座に停止します。もしボールを投げて、時間とともに速度"
+"が減少するようにしたい場合は、適切なダンピング値を設定することで実現できます"
+"。"
 
 #: ../../source/create/entities/entity-physics.rst:80
 msgid "To set the linear damping of an object:"
-msgstr ""
+msgstr "オブジェクトの線形ダンピングを設定するには："
 
 #: ../../source/create/entities/entity-physics.rst:82
 msgid ""
 "In the 'Properties' tab, scroll down to the 'Linear Damping' property. "
 "The default value is `0.00`."
-msgstr ""
+msgstr "「プロパティ」タブを開き、「Linear "
+"Damping（線形ダンピング）」の設定までスクロールします。デフォルト値は 0.00 "
+"です。"
 
 #: ../../source/create/entities/entity-physics.rst:83
 msgid "`Change the linear velocity <#linear-velocity>`_ of a cube to any value."
-msgstr ""
+msgstr "`立方体の線速度 <#linear-velocity>`_ を任意の値に変更します。"
 
 #: ../../source/create/entities/entity-physics.rst:84
 msgid ""
@@ -7898,20 +8010,25 @@ msgid ""
 " You can change this value to anything between `0.00` and `1.00` to make "
 "an entity slow down over time."
 msgstr ""
+"「線形ダンピング（Linear Damping）」の値を `1.00` "
+"に変更すると、キューブが停止します。この値を `0.00` から `1.00` の間の任意の"
+"値に変更することで、エンティティを時間とともに減速させることができます。"
 
 #: ../../source/create/entities/entity-physics.rst:86
 msgid "To set the angular damping of an object:"
-msgstr ""
+msgstr "オブジェクトの角度ダンピング（Angular damping）を設定するには："
 
 #: ../../source/create/entities/entity-physics.rst:88
 msgid ""
 "In the 'Properties' tab, scroll down to the 'Angular Damping' property. "
 "The default value is `0.00`."
-msgstr ""
+msgstr "「プロパティ」タブを開き、「Angular "
+"Damping（角度ダンピング）」の設定までスクロールします。デフォルト値は `0.00` "
+"です。"
 
 #: ../../source/create/entities/entity-physics.rst:89
 msgid "`Change the angular velocity <#angular-velocity>`_ of a cube to any value."
-msgstr ""
+msgstr "`立方体の角速度 <#angular-velocity>`_ を任意の値に変更します。"
 
 #: ../../source/create/entities/entity-physics.rst:90
 msgid ""
@@ -7919,14 +8036,17 @@ msgid ""
 "moving. You can change this value to anything between `0.00` and `1.00` "
 "to make an entity slow down over time."
 msgstr ""
+"'Angular Damping' の値を `1.00` に変更すると、キューブが停止します。この値を "
+"`0.00` から `1.00` の間の任意の値に変更することで、エンティティを時間とともに"
+"減速させることができます。"
 
 #: ../../source/create/entities/entity-physics.rst:101
 msgid "Set an Entity's Friction and Bounciness"
-msgstr ""
+msgstr "エンティティの摩擦（Friction）と跳ね返り（Bounciness）を設定します。"
 
 #: ../../source/create/entities/entity-physics.rst:105
 msgid "**Default Value:** 0.5000"
-msgstr ""
+msgstr "**Default Value:** 0.5000"
 
 #: ../../source/create/entities/entity-physics.rst:107
 msgid ""
@@ -7935,6 +8055,9 @@ msgid ""
 "for friction and bounciness determine this reaction. By default, both "
 "values are `0.5000`."
 msgstr ""
+"動的なエンティティが他のエンティティと衝突すると、その反応は物理的な特性によ"
+"ってさまざまな方法で変わることがあります。摩擦と跳ね返りの値を設定することで"
+"、この反応が決まります。デフォルトでは、両方の値は `0.5000` です。"
 
 #: ../../source/create/entities/entity-physics.rst:109
 msgid ""
@@ -7943,10 +8066,15 @@ msgid ""
 "distance before coming to a stop. On the other hand, an entity with high "
 "friction will slow down much faster. To set the friction of an entity:"
 msgstr ""
+"摩擦（Friction）は物体が滑りやすいかどうかを示す指標です。低い摩擦を持つエン"
+"ティティが他の物体に衝突すると、停止するまでに長い距離を滑ることがあります。"
+"一方、高い摩擦を持つエンティティは速く減速します。エンティティの摩擦を設定す"
+"るには："
 
 #: ../../source/create/entities/entity-physics.rst:111
 msgid "In the 'Properties' tab, scroll down to the 'Friction' property."
-msgstr ""
+msgstr "「Properties」タブを開き、下にスクロールして「Friction（摩擦）」の設定を見つ"
+"けます。"
 
 #: ../../source/create/entities/entity-physics.rst:112
 msgid ""
@@ -7954,6 +8082,9 @@ msgid ""
 "with a friction of `0.0000` will be very slippery, while an entity with a"
 " friction of `1.0000` will have a coarse or sticky surface."
 msgstr ""
+"値を 0.0000 から 1.0000 の間の任意の値に変更してください。摩擦が 0.0000 "
+"のエンティティは非常に滑りやすくなりますが、摩擦が `1.0000` "
+"のエンティティはザラザラして粘着性のある表面になります。"
 
 #: ../../source/create/entities/entity-physics.rst:114
 msgid ""
@@ -7961,10 +8092,14 @@ msgid ""
 "example, a ball will conserve more energy and bounce more than a heavy "
 "cube. To set the bounciness:"
 msgstr ""
+"跳ね返り（Bounciness）はエンティティが衝突した際に保持するエネルギーを表しま"
+"す。例えば、ボールはより多くのエネルギーを保持して跳ね返りますが、重いキュー"
+"ブはあまり跳ね返りません。跳ね返りを設定するには："
 
 #: ../../source/create/entities/entity-physics.rst:116
 msgid "In the 'Properties' tab, scroll down to the 'Bounciness' property."
-msgstr ""
+msgstr "「Properties」タブを開き、下にスクロールして「Bounciness（跳ね返り）」の設定"
+"を見つけます。"
 
 #: ../../source/create/entities/entity-physics.rst:117
 msgid ""
@@ -7972,22 +8107,25 @@ msgid ""
 "with a bounciness of `0.0000` will conserve no energy, while an entity "
 "with a bounciness of `1.0000` will conserve all of its energy."
 msgstr ""
+"値を `0.0000` から `1.0000` の間の任意の値に変更してください。跳ね返りが `0."
+"0000` のエンティティはエネルギーを保持せず、跳ね返りが `1.0000` "
+"のエンティティは全てのエネルギーを保持します。"
 
 #: ../../source/create/entities/entity-physics.rst:121
 msgid "Set an Entity's Density"
-msgstr ""
+msgstr "エンティティの密度（Density）を設定します。"
 
 #: ../../source/create/entities/entity-physics.rst:125
 msgid "**Unit:** kg/meter³"
-msgstr ""
+msgstr "**Unit:** kg/meter³"
 
 #: ../../source/create/entities/entity-physics.rst:127
 msgid "**Range:** 100 - 10000"
-msgstr ""
+msgstr "**Range:** 100 - 10000"
 
 #: ../../source/create/entities/entity-physics.rst:129
 msgid "**Default Value:** 1000.0000"
-msgstr ""
+msgstr "**Default Value:** 1000.0000"
 
 #: ../../source/create/entities/entity-physics.rst:131
 msgid ""
@@ -7995,6 +8133,10 @@ msgid ""
 "an entity with low density is made of light materials such as wood, while"
 " an entity with high density is made of dense materials such as iron."
 msgstr ""
+"エンティティの密度（Density）とは、その質量と体積の比率を示すものです。例えば"
+"、密度が低いエンティティは木などの軽い材料でできており、密度が高いエンティテ"
+"ィは鉄などの密度の高い材料でできています。つまり、エンティティの密度が高いほ"
+"ど、同じ体積でもより多くの質量を持つことになります。"
 
 #: ../../source/create/entities/entity-physics.rst:133
 msgid ""
@@ -8004,20 +8146,25 @@ msgid ""
 "feather and an iron ball). To help keep the environment stable, we picked"
 " conservative density limits."
 msgstr ""
+"Vircadiaでは、密度の最大値（`10000`）と最小値（`100`）が安定性を考慮して選ば"
+"れています。非常に異なる質量を持つ物体（軽い羽と鉄のボールなど）の間で安定し"
+"た物理計算を行うのは難しいため、環境の安定性を保つために保守的な密度の制限を"
+"選択しました。"
 
 #: ../../source/create/entities/entity-physics.rst:135
 msgid ""
 "To change this value, scroll down to the 'Density' property in the "
 "'Properties' tab. Change it to the value of your choice."
-msgstr ""
+msgstr "この値を変更するには、「プロパティ」タブを開き、「Density（密度）」の設定まで"
+"スクロールします。そして、任意の値に変更してください。"
 
 #: ../../source/create/entities/entity-physics.rst:139
 msgid "Set How an Entity Moves in a Gravitational Field"
-msgstr ""
+msgstr "エンティティが重力場内でどのように動くかを設定します。"
 
 #: ../../source/create/entities/entity-physics.rst:143
 msgid "**Unit:** meters/second²"
-msgstr ""
+msgstr "**Unit:** meters/second²"
 
 #: ../../source/create/entities/entity-physics.rst:147
 msgid ""
@@ -8027,12 +8174,20 @@ msgid ""
 " ball is floating in zero gravity, it will float downwards when you "
 "increase gravity downwards."
 msgstr ""
+"**Create**アプリでは、「Gravity（重力）」はエンティティの加速度であり、均一な"
+"重力場にあるかのように振る舞います。このプロパティは、ドメインの重力を変更し"
+"た際にエンティティの振る舞いを制御します。例えば、ボールが無重力状態で浮遊し"
+"ている場合、ドメインの重力を下向きに増やすと、ボールは下方向に向かって浮遊し"
+"ます。"
 
 #: ../../source/create/entities/entity-physics.rst:149
 msgid ""
 "To change this value, scroll down to the 'Gravity' property in the "
 "'Properties' tab. Change it to the value of your choice."
 msgstr ""
+"この値を変更するには、「Properties」タブを開き、「Gravity（重力）」の設定まで"
+"スクロールします。そして、任意の値に変更してください。この値を変更することで"
+"、エンティティがドメインの重力に対してどのように振る舞うかが変わります。"
 
 #: ../../source/create/entities/hero-zone.rst:5
 msgid ""
@@ -8045,10 +8200,18 @@ msgid ""
 "within the zone are known as \"heroes\". Examples of heroes include a "
 "keynote speaker at an event or performers at a concert."
 msgstr ""
+"誰かがあなたのドメインに入るとき、そのドメインのすべてのコンテンツ、アバター"
+"、モデル、テクスチャ、およびドメインで使用される外部リソースを読み込む必要が"
+"あります。これらのリソースの多くは最適化されていないため、大きなドメインや多"
+"くのアバターがいるイベントでは、読み込みに時間がかかることがあります。そうし"
+"た状況では、特定のゾーンに優先順位を付けて、そのゾーン内のすべてのアバターが"
+"観察者に対してスムーズに動くようにすることができます。ゾーン内のアバターは「"
+"ヒーロー」として知られます。ヒーローの例としては、イベントの基調講演者やコン"
+"サートのパフォーマーが含まれます。"
 
 #: ../../source/create/entities/hero-zone.rst:9
 msgid "Avatar Hero Zones"
-msgstr ""
+msgstr "アバターヒーローゾーン（Avatar Hero Zones）"
 
 #: ../../source/create/entities/hero-zone.rst:11
 msgid ""
@@ -8059,16 +8222,23 @@ msgid ""
 "http://localhost:40100/settings and scroll to **Avatar Mixer > Advanced "
 "Settings > Hero Bandwidth** to set the bandwidth."
 msgstr ""
+"ヒーローゾーン内のすべてのアバターは、追加の帯域幅を割り当てられ、ゾーン内で"
+"完全に読み込まれ、スムーズに動くことができます。ヒーローゾーンに割り当てる帯"
+"域幅の量は、ドメイン設定の :doc:`ドメイン設定 <../../host/configure-"
+"settings>` で設定できます。http://localhost:40100/settingsにアクセスし、 **"
+"Avatar Mixer > Advanced Settings > Hero Bandwidth** "
+"にスクロールして帯域幅を設定してください。"
 
 #: ../../source/create/entities/hero-zone.rst:13
 msgid "To create an avatar hero zone:"
-msgstr ""
+msgstr "アバターヒーローゾーンを作成するには:"
 
 #: ../../source/create/entities/hero-zone.rst:16
 msgid ""
 "Click the 'Zone' icon to create a zone entity. You’ll see a wireframe "
 "shape showing the zone's bounding box."
-msgstr ""
+msgstr "「Zone（ゾーン）」アイコンをクリックして、ゾーンエンティティを作成します。ゾ"
+"ーンの境界ボックスを示すワイヤーフレームの形状が表示されます。"
 
 #: ../../source/create/entities/hero-zone.rst:17
 #: ../../source/create/entities/zone-tutorial.md:35
@@ -8077,16 +8247,21 @@ msgid ""
 "Zones in Create mode** and select the option. Your zone should now be "
 "visible."
 msgstr ""
+"もしゾーンの境界ボックスが表示されない場合は、 **Edit > Show Zones in Create "
+"mode** に移動し、そのオプションを選択してください。これでゾーンが表示されるよ"
+"うになるはずです。"
 
 #: ../../source/create/entities/hero-zone.rst:18
 msgid ""
 "Go to the 'Properties' tab. Here, we recommend that you add a name to "
 "your zone."
-msgstr ""
+msgstr "「Properties」タブに移動します。ここでは、ゾーンに名前を追加することをおすす"
+"めします。"
 
 #: ../../source/create/entities/hero-zone.rst:19
 msgid "For 'Avatar Priority', choose the desired setting:"
-msgstr ""
+msgstr "「アバタープライオリティ（Avatar "
+"Priority）」の設定には、以下のような選択肢があります："
 
 #: ../../source/create/entities/hero-zone.rst:21
 msgid ""
@@ -8094,10 +8269,14 @@ msgid ""
 "the priority of the parent zone. For single zones that are not nested, "
 "this option defaults to \"Crowd\"."
 msgstr ""
+"「Inherit（継承）」：ゾーンが別のゾーンにネストされている場合、そのゾーンは親"
+"ゾーンのプライオリティを継承します。ネストされていない単一のゾーンの場合、こ"
+"のオプションはデフォルトで「Crowd（クラウド）」に設定されます。"
 
 #: ../../source/create/entities/hero-zone.rst:22
 msgid "Crowd: The zone will not be prioritized in any way."
-msgstr ""
+msgstr "「Crowd（クラウド）」：このオプションでは、ゾーンは何らかの方法で優先されませ"
+"ん。"
 
 #: ../../source/create/entities/hero-zone.rst:23
 msgid ""
@@ -8105,12 +8284,20 @@ msgid ""
 "bandwidth will be given to heroes within the zone. This ensures that all "
 "avatars within the zone will load completely and move smoothly."
 msgstr ""
+"「Hero（ヒーロー）」：このオプションでは、ゾーンに優先的な処理が与えられ、ゾ"
+"ーン内のヒーロー（特別な優先アバター）に追加の帯域幅が割り当てられます。これ"
+"により、ゾーン内のすべてのアバターが完全に読み込まれ、スムーズに動くことが保"
+"証されます。ヒーローゾーン内のアバターは他のゾーンよりも優先され、快適な体験"
+"を提供するのに役立ちます。"
 
 #: ../../source/create/entities/hero-zone.rst:24
 msgid ""
 "Like all entities, you can customize your zone by changing the lighting, "
 "size, or shape of the zone."
 msgstr ""
+"すべてのエンティティと同様に、ゾーンも照明やサイズ、形状を変更してカスタマイ"
+"ズすることができます。ゾーンの外観を自分好みに調整することで、独自の空間を作"
+"成することができます。"
 
 #: ../../source/create/entities/hero-zone.rst:26
 msgid ""
@@ -8118,6 +8305,9 @@ msgid ""
 "changes will take place immediately, and the zone will be updated to "
 "match your new settings."
 msgstr ""
+"いつでも、ヒーローゾーンのプロパティを変更することができます。これらの変更は"
+"即座に反映され、ゾーンは新しい設定に合わせて更新されます。新しい設定がすぐに"
+"反映されるので、自由にゾーンをカスタマイズすることができます。"
 
 #: ../../source/create/entities/material-entity.rst:5
 msgid ""
@@ -8128,16 +8318,24 @@ msgid ""
 "stone. You can do this by adding a castle wall material entity to your "
 "walls."
 msgstr ""
+"あなたのドメインのオブジェクトにマテリアルエンティティを追加することができま"
+"す。マテリアルエンティティには特定のマテリアルデータが含まれており、オブジェ"
+"クトのテクスチャとシェーディングを決定します。例えば、ドメインに城を作成した"
+"い場合、壁を粗い灰色の石で見せたい場合、城壁のマテリアルエンティティを壁に追"
+"加することで実現できます。"
 
 #: ../../source/create/entities/material-entity.rst:7
 msgid ""
 "Before adding a material entity, make sure you have created a material "
 "using the :doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`."
 msgstr ""
+"マテリアルのエンティティを追加する前に、:doc:`PBRマテリアルガイド<../3d-"
+"models/pbr-materials-"
+"guide>`を使ってマテリアルを作成済みであることを確認してください。"
 
 #: ../../source/create/entities/material-entity.rst:14
 msgid "Generate a Material Entity"
-msgstr ""
+msgstr "材料エンティティの生成"
 
 #: ../../source/create/entities/material-entity.rst:16
 msgid ""
@@ -8145,6 +8343,9 @@ msgid ""
 "material data in a JSON file or add the material directly into the "
 "**Create** app."
 msgstr ""
+"Vircadia でオブジェクトにマテリアルを追加するには、JSON "
+"ファイルでマテリアルデータを指定するか、**Create** "
+"アプリに直接マテリアルを追加する必要があります。"
 
 #: ../../source/create/entities/material-entity.rst:18
 msgid ""
@@ -8154,6 +8355,10 @@ msgid ""
 " models as FBX or glTF files if you are facing difficulties generating a "
 "JSON file."
 msgstr ""
+"私たちは、マテリアルデータをJSONファイルに変換することの難しさを認識しており"
+"、ユーザーにとってより簡単なプロセスになるよう取り組んでいます。JSONファイル"
+"の生成が困難な場合は、マテリアルデータをFBXまたはglTFファイルとしてモデルに埋"
+"め込むことをお勧めします。"
 
 #: ../../source/create/entities/material-entity.rst:20
 msgid ""
@@ -8161,6 +8366,8 @@ msgid ""
 "<https://docs.vircadia.com/_static/resources/material-"
 "entity/CastleWall.hfm.json>`_ looks like:"
 msgstr ""
+"城壁材<https://docs.vircadia.com/_static/resources/material-entity/CastleWall"
+".hfm.json>`_のサンプルのJSONファイルはこんな感じです："
 
 #: ../../source/create/entities/material-entity.rst:39
 msgid ""
@@ -8172,16 +8379,23 @@ msgid ""
 "<https://apidocs.vircadia.dev/Entities.html#.EntityProperties-"
 "Material>`_."
 msgstr ""
+"このファイルには、色、粗さ、その他のテクスチャやシェーディング情報など、関連"
+"するすべてのマテリアルデータが含まれています。この情報は、APIの `Material` `"
+"EntityType <https://apidocs.vircadia.dev/Entities.html#.EntityType>`_ "
+"を使ってプログラムで編集することができます。また、`EntityProperties-Material "
+"<https://apidocs.vircadia.dev/Entities.html#.EntityProperties-Material>`_ "
+"を使ってプロパティを定義することもできます。"
 
 #: ../../source/create/entities/material-entity.rst:47
 msgid "Use the Material Entity JSON File"
-msgstr ""
+msgstr "Material Entity JSON ファイルを使用する"
 
 #: ../../source/create/entities/material-entity.rst:49
 msgid ""
 "At this time, we have no way to automatically generate a JSON file with "
 "another tool, and you will need to write your own JSON file."
-msgstr ""
+msgstr "現時点では、他のツールでJSONファイルを自動生成する方法はありませんので、自分"
+"でJSONファイルを書く必要があります。"
 
 #: ../../source/create/entities/material-entity.rst:51
 msgid ""
@@ -8190,12 +8404,17 @@ msgid ""
 "<https://docs.vircadia.com/_static/resources/material-"
 "entity/CastleWall.hfm.json>`_ to a box entity in your domain."
 msgstr ""
+"材料エンティティのJSONファイルができたら、Vircadiaのオブジェクトに追加するこ"
+"とができます。城壁材料 <https://docs.vircadia.com/_static/resources/"
+"material-entity/CastleWall.hfm.json>`_ "
+"をドメイン内のボックスエンティティに追加してみよう。"
 
 #: ../../source/create/entities/material-entity.rst:54
 msgid ""
 "Create a wall. Click the 'Cube' icon to add a box entity and change the "
 "dimensions to make it resemble a wall."
-msgstr ""
+msgstr "壁を作成する。「Cube」アイコンをクリックしてボックスエンティティを追加し、寸"
+"法を変更して壁のようにします。"
 
 #: ../../source/create/entities/material-entity.rst:55
 msgid ""
@@ -8203,12 +8422,16 @@ msgid ""
 "material entity. Enter the material's JSON file URL when prompted. You "
 "will see the material entity represented as a small sphere."
 msgstr ""
+"**Create**タブに移動し、「Material」アイコンをクリックして素材エンティティを"
+"追加します。プロンプトが表示されたら、マテリアルのJSONファイルURLを入力してく"
+"ださい。マテリアルのエンティティが小さな球体として表示されます。"
 
 #: ../../source/create/entities/material-entity.rst:56
 msgid ""
 "Click and select the wall. Go to the 'Properties' tab and copy the parent"
 " ID under the 'Name' box."
-msgstr ""
+msgstr "壁をクリックして選択する。「Properties」タブに移動し、「Name」ボックスの下に"
+"ある親IDをコピーします。"
 
 #: ../../source/create/entities/material-entity.rst:57
 msgid ""
@@ -8217,10 +8440,13 @@ msgid ""
 " applied to the wall. In this step, you are parenting or applying a "
 "material to an entity."
 msgstr ""
+"材料エンティティをクリックして選択します。「Properties」タブに移動し、コピー"
+"した親IDを「Parent」ボックスに貼り付けます。壁にマテリアルが適用されているの"
+"がわかります。このステップでは、エンティティにマテリアルを適用しています。"
 
 #: ../../source/create/entities/material-entity.rst:68
 msgid "Use the materialData Field"
-msgstr ""
+msgstr "materialDataフィールドを使用する"
 
 #: ../../source/create/entities/material-entity.rst:70
 msgid ""
@@ -8237,19 +8463,31 @@ msgid ""
 "'Material Data' field. Click 'Clear Material Data' and then paste the "
 "following JSON data:"
 msgstr ""
+"材料エンティティを**Create** Toolsアプリに直接追加するには：1."
+"InterfaceでHUDまたはタブレットを表示し、**Create**に進みます。2.壁を作成しま"
+"す。「Cube」アイコンをクリックしてボックスエンティティを追加し、寸法を変更し"
+"て壁のようにします。3.**Create**タブに移動し、「Material」アイコンをクリック"
+"して素材エンティティを追加します。4.`Material "
+"URL`の入力を求められたら「materialData」と入力します。5.壁をクリックして選択"
+"します。「Properties」タブに移動し、「Name」ボックスの下にある親IDをコピーし"
+"ます。6.材料の実体をクリックして選択します。「Properties」タブに移動し、コピ"
+"ーした親IDを「Parent」ボックスに貼り付けます。このステップでは、エンティティ"
+"にマテリアルをペアレント化または適用しています。7.「Material "
+"Data」フィールドまでスクロールダウンします。「Clear Material "
+"Data」をクリックし、以下のJSONデータを貼り付けます："
 
 #: ../../source/create/entities/material-entity.rst:106
 msgid ":doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`"
-msgstr ""
+msgstr ":doc:`PBR マテリアルガイド <../3d-models/pbr-materials-guide>`"
 
 #: ../../source/create/entities/material-entity.rst:107
 msgid "`Introduction to JSON <https://www.w3schools.com/js/js_json_intro.asp>`_"
-msgstr ""
+msgstr "`JSON入門 <https://www.w3schools.com/js/js_json_intro.asp>`_"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:3
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Open Web Page with Entities"
-msgstr ""
+msgstr "チュートリアルエンティティでWebページを開く"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:5
 msgid ""
@@ -8259,10 +8497,15 @@ msgid ""
 "web page on your tablet. You can use this tutorial to do things like "
 "directing your visitors to an external shop for purchasing an item."
 msgstr ""
+"エンティティは、環境にオブジェクトを追加するためによく使われます。しかし、ス"
+"クリプティングを使ってその振る舞いを定義すると、さらに多くのことができます。"
+"このチュートリアルでは、エンティティをボタンとして使い、タブレット上でウェブ"
+"ページを開く方法を学びます。このチュートリアルを使って、訪れた人を外部のショ"
+"ップに誘導して商品を購入させるなど、さまざまなことができます。"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:25
 msgid "Write a Script to Open a Web Page"
-msgstr ""
+msgstr "Web ページを開くスクリプトを記述する"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:27
 msgid ""
@@ -8272,22 +8515,30 @@ msgid ""
 " an entity/item is triggered. The script looks for the URL in the 'User "
 "data' property of the entity."
 msgstr ""
+"ここで使用されているスクリプトは、ユーザーがエンティティをクリックまたはトリ"
+"ガーすると、タブレット上または外部のウェブブラウザでウェブページを開きます。"
+"この例では、エンティティ/アイテムがトリガーされるとVircadiaのドキュメンテーシ"
+"ョンを開くクライアントエンティティスクリプトを作成しています。スクリプトはエ"
+"ンティティの「User data」プロパティからURLを探します。"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:29
 msgid ""
 "You can get the script `here <https://vircadia-content-"
 "public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
 msgstr ""
+"スクリプトは `こちら <https://vircadia-content-public.s3.amazonaws.com/"
+"Bazaar/Scripts/clickToOpenBrowser.js>`_ から入手できます。"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:39
 msgid ""
 "Go to the 'Properties' tab at the top and down to the 'Behavior' tab on "
 "the left of the window."
-msgstr ""
+msgstr "上部の「Properties」タブを開き、ウィンドウの左側にある「Behavior」タブに移動"
+"する。"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:40
 msgid "Set it as 'Triggerable'."
-msgstr ""
+msgstr "「Triggerable」として設定します。"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:41
 msgid ""
@@ -8295,21 +8546,25 @@ msgid ""
 " `clickToOpenBrowser.js <https://vircadia-content-"
 "public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_."
 msgstr ""
+"次に「Script」タブに行き、スクリプトのURLを貼り付けます。こちらのファイル `"
+"clickToOpenBrowser.js <https://vircadia-content-public.s3.amazonaws.com/"
+"Bazaar/Scripts/clickToOpenBrowser.js>`_ です。"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:42
 msgid "Paste the following JSON data into the 'User data' field for your entity:"
-msgstr ""
+msgstr "以下のJSONデータをエンティティの'User data'フィールドに貼り付けます："
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:59
 msgid ""
 "After you exit the **Create** app, test your script by clicking or "
 "triggering the button to open the web page."
-msgstr ""
+msgstr "**Create** アプリを終了した後、Web "
+"ページを開くボタンをクリックするかトリガーして、スクリプトをテストします。"
 
 #: ../../source/create/entities/portal-tutorial.md:6
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Create a Portal"
-msgstr ""
+msgstr "チュートリアル: ポータルの作成"
 
 #: ../../source/create/entities/portal-tutorial.md:8
 msgid ""
@@ -8317,22 +8572,26 @@ msgid ""
 "use these portals to travel to a domain you visit frequently instead of "
 "using the **GoTo** app on your HUD or Tablet."
 msgstr ""
+"Vircadiaのポータルはあなたを好きなドメインに移動させます。HUDやタブレットの**"
+"GoTo**アプリを使う代わりに、これらのポータルを使って頻繁に訪れるドメインに移"
+"動することができます。"
 
 #: ../../source/create/entities/portal-tutorial.md:12
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:7
 #: ../../source/create/entities/zone-tutorial.md:14
 msgid "[Prerequisites](#prerequisites)"
-msgstr ""
+msgstr "[前提条件](#prerequisites)"
 
 #: ../../source/create/entities/portal-tutorial.md:13
 msgid "[Write a Script for the Portal](#write-a-script-for-the-portal)"
-msgstr ""
+msgstr "[ポータル用のスクリプトを書く](#write-a-script-for-the-portal)"
 
 #: ../../source/create/entities/portal-tutorial.md:14
 msgid ""
 "[Create and Edit an Entity to Use as a Portal](#create-and-edit-an-"
 "entity-to-use-as-a-portal)"
-msgstr ""
+msgstr "[ポータルとして使うエンティティの作成と編集](#create-and-edit-an-entity-to-"
+"use-a-portal)"
 
 #: ../../source/create/entities/portal-tutorial.md:25
 #: ../../source/create/entities/portal-tutorial.md:60
@@ -8340,17 +8599,19 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:116
 msgid "[Client Entity Scripts](../../script/client-entity-scripts)"
 msgstr ""
+"[クライアント・エンティティ・スクリプト（Client Entity Scripts）](../../"
+"script/client-entity-scripts)"
 
 #: ../../source/create/entities/portal-tutorial.md:26
 #: ../../source/create/entities/portal-tutorial.md:61
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:21
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:117
 msgid "[Write Your Own Scripts](../../script/write-scripts)"
-msgstr ""
+msgstr "[独自のスクリプトを書く](../../script/write-scripts)"
 
 #: ../../source/create/entities/portal-tutorial.md:28
 msgid "Write a Script for the Portal"
-msgstr ""
+msgstr "ポータル用のスクリプトを書く"
 
 #: ../../source/create/entities/portal-tutorial.md:30
 msgid ""
@@ -8362,28 +8623,37 @@ msgid ""
 " the script used to teleport in Vircadia domains. You can also [write "
 "your own script](../../script/write-scripts) to suit your needs."
 msgstr ""
+"ポータルは、スクリプトが添付されたエンティティ（エンティティスクリプト）です"
+"。このスクリプトは、ユーザがポータルに接触したときに起こることを定義します。"
+"ここでは、[portal.js](https://raw.githubusercontent.com/vircadia/"
+"vircadia-content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/"
+"portal.js)を使用しました。これは、Vircadiaドメインでテレポートするために使用"
+"されるスクリプトです。また、必要に応じて[独自のスクリプト](../../script/"
+"write-scripts)を使用することもできます。"
 
 #: ../../source/create/entities/portal-tutorial.md:32
 msgid "The portal.js script we've used:"
-msgstr ""
+msgstr "今回使用したportal.jsスクリプト："
 
 #: ../../source/create/entities/portal-tutorial.md:33
 msgid ""
 "Uses Vircadia's [JavaScript API](https://apidocs.vircadia.dev) to "
 "determine when a user walks into the entity and the teleport destination."
 msgstr ""
+"Vircadiaの[JavaScript API](https://apidocs.vircadia."
+"dev)を使用して、ユーザがエンティティに入ったときのテレポート先を決定します。"
 
 #: ../../source/create/entities/portal-tutorial.md:34
 msgid "Includes a sound that will played every time a user uses the portal."
-msgstr ""
+msgstr "ユーザーがポータルを使用するたびに再生されるサウンドが含まれています。"
 
 #: ../../source/create/entities/portal-tutorial.md:35
 msgid "Teleports a user to the specified destination."
-msgstr ""
+msgstr "指定された宛先にユーザーをテレポートします。."
 
 #: ../../source/create/entities/portal-tutorial.md:37
 msgid "Create and Edit an Entity to Use as a Portal"
-msgstr ""
+msgstr "ポータルとして使用するエンティティの作成と編集"
 
 #: ../../source/create/entities/portal-tutorial.md:39
 msgid ""
@@ -8391,12 +8661,18 @@ msgid ""
 "](entity-behavior.html#set-entity-behavior-on-collision) so that the "
 "script can detect when you walk into the entity."
 msgstr ""
+"ポータルとして使用するために作成したエンティティは、スクリプトがエンティティ"
+"に入ったときに検出できるように、[無衝突](entity-behavior.html#set-entity-"
+"behavior-on-collision)にする必要があります。"
 
 #: ../../source/create/entities/portal-tutorial.md:42
 msgid ""
 "[Create an entity](create-entities) to be used as a portal. This can be a"
 " 3D model or a box or sphere entity."
 msgstr ""
+"[ポータルとして使用するためのエンティティ](create-entities) を作成してくださ"
+"い。これは、3Dモデル、ボックス、または球体のエンティティを使うことができます"
+"。"
 
 #: ../../source/create/entities/portal-tutorial.md:44
 msgid ""
@@ -8404,41 +8680,49 @@ msgid ""
 "'[portal.js](https://raw.githubusercontent.com/vircadia/vircadia-"
 "content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js)'."
 msgstr ""
+"「Script」の横に、スクリプトのURLを貼り付けます。このような'[portal."
+"js](https://raw.githubusercontent.com/vircadia/vircadia-content/"
+"44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js)'です。"
 
 #: ../../source/create/entities/portal-tutorial.md:45
 msgid ""
 "The script takes the location you want to teleport to from the 'User "
 "Data' field under 'Behavior'."
-msgstr ""
+msgstr "スクリプトは、「Behavior」の「User "
+"Data」フィールドからテレポートしたい場所を取得します。"
 
 #: ../../source/create/entities/portal-tutorial.md:46
 msgid ""
 "Add `hifi:// welcome` (Vircadia's welcome domain) to the 'User Data' "
 "field."
-msgstr ""
+msgstr "「User Data」フィールドに `hifi:// welcome` (Vircadia's welcome domain) "
+"を追加する。"
 
 #: ../../source/create/entities/portal-tutorial.md:47
 msgid ""
 "Scroll down to 'Collision' and uncheck 'Collides'. This is so that a user"
 " can walk into the entity and trigger the script."
 msgstr ""
+"「Collision」までスクロールダウンし、「Collides」のチェックを外します。これは"
+"、ユーザーがエンティティの中に入ってスクリプトをトリガーできるようにするため"
+"です。"
 
 #: ../../source/create/entities/portal-tutorial.md:48
 msgid "Exit **Create** mode and walk into the entity."
-msgstr ""
+msgstr "**Create** モードを終了し、エンティティに移動します。"
 
 #: ../../source/create/entities/portal-tutorial.md:50
 msgid "![](_images/create-portal.png)"
-msgstr ""
+msgstr "![](_images/create-portal.png)"
 
 #: ../../source/create/entities/portal-tutorial.md:52
 msgid "You will be teleported to Vircadia's welcome domain."
-msgstr ""
+msgstr "Vircadia のウェルカム ドメインにテレポートされます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:1
 #: ../../source/create/entities/tutorials.rst:7
 msgid "Tutorial: Build a Painting Set"
-msgstr ""
+msgstr "チュートリアル: 絵画セットを作成する"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:3
 msgid ""
@@ -8447,14 +8731,17 @@ msgid ""
 " users to \"paint\" pictures on a canvas made out of \"pixels\" that are "
 "box entities."
 msgstr ""
+"Vircadiaでゲームや体験を作るには様々な方法があります。このチュートリアルでは"
+"、ユーザーがボックスエンティティである「pixels」でできたキャンバスに絵を「描"
+"く」ことができる、ピクセルライクなペインティングセットの作り方を説明します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:8
 msgid "[Create a Painting Set](#create-a-painting-set)"
-msgstr ""
+msgstr "[ペイントセットの作成](#create-a-painting-set)"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:9
 msgid "[Add a Paint Brush Script](#add-a-paint-brush-script)"
-msgstr ""
+msgstr "[ペイントブラシ（Paint Brush）スクリプトの追加](#add-a-paint-brush-script)"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:23
 msgid "Create a Painting Set"
