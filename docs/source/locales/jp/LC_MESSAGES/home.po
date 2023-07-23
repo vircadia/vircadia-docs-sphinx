@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-11-18 00:26+0000\n"
-"PO-Revision-Date: 2023-07-18 04:01+0000\n"
+"PO-Revision-Date: 2023-07-24 16:03+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/home/ja/>\n"
@@ -114,10 +114,9 @@ msgid "The following translations are available:"
 msgstr "以下の翻訳が利用可能です："
 
 #: ../../source/home.rst:39
+#, fuzzy
 msgid "`Deutsch <https://docs.vircadia.com/de/>`_ |de_trans|"
-msgstr ""
-"`Deutsch <https://docs.vircadia.dev/de/>`_ ![](https://hosted.weblate.org/"
-"widgets/vircadia-user-docs/de/svg-badge.svg)"
+msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
 #: ../../source/home.rst:40
 msgid "`Español <https://docs.vircadia.com/es/>`_ |es_trans|"
