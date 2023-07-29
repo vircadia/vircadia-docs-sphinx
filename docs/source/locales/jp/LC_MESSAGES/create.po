@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-07-24 16:03+0000\n"
+"PO-Revision-Date: 2023-07-30 06:06+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -8745,25 +8745,25 @@ msgstr "[ペイントブラシ（Paint Brush）スクリプトの追加](#add-a-
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:23
 msgid "Create a Painting Set"
-msgstr ""
+msgstr "ペイント セットを作成する"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:25
 msgid "Our painting set comprises three elements:"
-msgstr ""
+msgstr "ペインティングセットは3つの要素で構成されています："
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:26
 msgid "[A brush, made of a cylinder and a sphere object](#create-a-paint-brush)."
-msgstr ""
+msgstr "[円柱と球体のオブジェクトからなるブラシ](#create-a-paint-brush)。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:27
 msgid ""
 "[A palette, made of an octagon and sphere object](#create-a-paint-"
 "palette)."
-msgstr ""
+msgstr "[八角形と球体のオブジェクトからなるパレット](#create-a-paint-palette)。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:28
 msgid "[A canvas, made of box entities](#create-a-pixel-canvas)."
-msgstr ""
+msgstr "[ボックスエンティティからなるキャンバス](#create-a-pixel-canvas)。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:30
 msgid ""
@@ -8771,10 +8771,13 @@ msgid ""
 " rest of the content is made by parenting entities to one another to make"
 " our brush, palette, and canvas."
 msgstr ""
+"ペインティングセットのロジックはすべてブラシヘッドに含まれています。残りのコ"
+"ンテンツは、エンティティ同士をペアレントにして、ブラシ、パレット、キャンバス"
+"を作ります。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:32
 msgid "Create a Paint Brush"
-msgstr ""
+msgstr "ペイントブラシを作る"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:33
 msgid ""
@@ -8783,32 +8786,39 @@ msgid ""
 "the brush head, so we can control the movement and color of the brush "
 "head using only the handle."
 msgstr ""
+"まずはペイントブラシを作ります。ブラシはハンドルとブラシヘッドの2つのパーツか"
+"ら構成されている。ブラシ・ハンドルはブラシ・ヘッドの親なので、ハンドルだけで"
+"ブラシ・ヘッドの動きと色をコントロールできる。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:35
 msgid "To create the brush handle:"
-msgstr ""
+msgstr "ブラシの柄を作る："
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:37
 msgid ""
 "[Create an entity](create-entities) to be used as the handle. This can be"
 " a box or sphere entity."
-msgstr ""
+msgstr "ハンドルとして使用する[エンティティの作成](create-"
+"entities)。これはboxか球のエンティティである。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:38
 msgid ""
 "Go to the 'Properties' tab and select the 'Shape' drop down. Change the "
 "shape of the entity to a 'cylinder'."
-msgstr ""
+msgstr "「Properties」タブに移動し、「Shape」ドロップダウンを選択します。エンティティ"
+"の形状を「円柱」に変更します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:39
 msgid ""
 "Name your entity 'Paint-Paintbrush-Tube' by selecting the text box at the"
 " top of the 'Properties' tab."
 msgstr ""
+"「Properties」タブの上部にあるテキストボックスを選択して、エンティティに"
+"「Paint-Paintbrush-Tube」という名前を付ける。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:40
 msgid "Select your desired handle color from the 'Color' picker."
-msgstr ""
+msgstr "「Color」ピッカーから希望のハンドルカラーを選択します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:41
 msgid ""
@@ -8886,7 +8896,7 @@ msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:60
 msgid "Create a Paint Palette"
-msgstr ""
+msgstr "ペイントパレットの作成"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:61
 msgid ""
@@ -8895,100 +8905,115 @@ msgid ""
 "Once you have the base of the palette created, you can repeat the process"
 " of adding paints until you are satisfied with the end result."
 msgstr ""
+"ペイントセットの2番目の部分はパレットです。ここでクリエイティブになり、必要な"
+"数(または少数)のペイントカラーを追加できます。パレットのベースを作成したら、"
+"最終結果に満足するまでペイントを追加するプロセスを繰り返すことができます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:63
 msgid "To create the palette base:"
-msgstr ""
+msgstr "パレットのベースを作る："
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:65
 msgid ""
 "[Create an entity](create-entities) to be used as the palette base. This "
 "can be a box or sphere entity."
-msgstr ""
+msgstr "パレットのベースとなる[エンティティの作成](create-"
+"entities)。これは、ボックスまたは球エンティティにすることができます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:66
 msgid ""
 "Go to the 'Properties' tab and select the 'Shape' drop down. Change the "
 "shape to an 'octagon'."
-msgstr ""
+msgstr "「Properties」タブに移動し、「Shape」ドロップダウンを選択します。形状を「octa"
+"gon」に変更します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:67
 msgid ""
 "Name your entity 'Paint-Palette-Base' by selecting the text box at the "
 "top of the 'Properties' tab."
 msgstr ""
+"エンティティに「Paint-Palette-Base」という名前を付けるには、「Properties」タ"
+"ブの上部にあるテキストボックスを選択します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:68
 msgid "Select your desired palette color from the 'Color' picker."
-msgstr ""
+msgstr "「Color」ピッカーから希望のハンドルカラーを選択します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:69
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.55, y: 0.5, z: 0.55}."
-msgstr ""
+msgstr "「Spatial」セクションまで下にスクロールします。ローカル寸法を {x: 0.55, y: "
+"0.5, z: 0.55} に変更します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:70
 msgid "Scroll down to the 'Behavior' section.  Check 'Grabbable'."
-msgstr ""
+msgstr "「Behavior」セクションまで下にスクロールします。 "
+"「Grabbable」にチェックを入れます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:72
 msgid "To create the paint colors:"
-msgstr ""
+msgstr "ペイントカラーを作成するには:"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:74
 msgid ""
 "[Create a sphere entity](create-entities) to be used as your first paint "
 "color."
-msgstr ""
+msgstr "[球体の実体を作成](create-"
+"entities)し、最初のペイント・カラーとして使用します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:75
 msgid ""
 "Go to the 'Properties' tab and name your entity 'Paint-Color' by "
 "selecting the text box at the top of the tab."
 msgstr ""
+"「Properties」タブに移動し、タブの上部にあるテキストボックスを選択して、エン"
+"ティティに「Paint-Color」という名前を付けます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:76
 msgid "Select your desired paint color from the 'Color' picker."
-msgstr ""
+msgstr "「Color」ピッカーから希望のペイントカラーを選択します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:77
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.1, y: 0.05, z: 0.1}"
-msgstr ""
+msgstr "「Spatial」セクションまでスクロールダウンする。ローカル寸法を {x: 0.1, y："
+"0.05, z: 0.1}"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:78
 msgid ""
 "In the **Create** Tools app, select your palette base and go to the "
 "'Properties' tab."
-msgstr ""
+msgstr "**Create**ツールアプリで、パレットベースを選択し、「Properties」タブに移動し"
+"ます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:80
 msgid "Select your paint color and go to the 'Properties' tab."
-msgstr ""
+msgstr "ペイントカラーを選択し、「Properties」タブを開きます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:81
 msgid "In the 'Parent' text box, paste the palette base entityID."
-msgstr ""
+msgstr "「Parent」テキスト ボックスに、パレットの基本エンティティ ID を貼り付けます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:82
 msgid ""
 "Use the grab handles to adjust the position and size of the paint on the "
 "palette."
-msgstr ""
+msgstr "グラブハンドルを使って、パレット上の絵具の位置や大きさを調整します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:83
 msgid "Scroll down to the 'Behavior' section and uncheck 'Grabbable'."
-msgstr ""
+msgstr "「Behavior」セクションまでスクロールダウンし、「Grabbable」のチェックを外しま"
+"す。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:85
 msgid "Repeat the above steps to create additional paint colors for your palette."
-msgstr ""
+msgstr "上記の手順を繰り返して、パレットに追加する絵具の色を作ります。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:87
 msgid "Create a \"Pixel\" Canvas"
-msgstr ""
+msgstr "「Pixel」キャンバスの作成"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:88
 msgid ""
@@ -8998,10 +9023,16 @@ msgid ""
 "but you can import the grid multiple times to make a larger painting "
 "space, if desired."
 msgstr ""
+"ペインティングセットを構成する最後のコンポーネントは、「pixel」スタイルのペイ"
+"ンティングに使用するキャンバスです。キャンバスをインポートするためのJSONファ"
+"イルを用意したので、各ステップを個別に行う必要はありませんが、必要に応じてグ"
+"リッドを複数回インポートして、より大きなペインティングスペースを作ることがで"
+"きます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:90
 msgid "In Interface, go to **Menu > Edit** and select 'Import Entities from URL'."
-msgstr ""
+msgstr "Interfaceで、**Menu > Edit**に進み、「Import Entities from "
+"URL」を選択します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:91
 msgid ""
@@ -9009,6 +9040,8 @@ msgid ""
 "URL](https://docs.vircadia.com/_static/resources/entities/canvas.json) "
 "into the dialog window and select 'OK'."
 msgstr ""
+"[このURL](https://docs.vircadia.com/_static/resources/entities/canvas."
+"json)をダイアログウィンドウに貼り付け、「OK」を選択します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:93
 msgid ""
@@ -9016,6 +9049,9 @@ msgid ""
 " you could use any entities to create a scene that could be painted this "
 "way."
 msgstr ""
+"キャンバスは、1つのバックプレートにペアレントされたボックス・エンティティで構"
+"成されているが、この方法でペイントできるシーンを作成するには、どんなエンティ"
+"ティでも使用でできます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:95
 msgid "Add a Paint Brush Script"
