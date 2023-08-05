@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-07-30 06:06+0000\n"
+"PO-Revision-Date: 2023-08-06 02:54+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -8824,17 +8824,19 @@ msgstr "「Color」ピッカーから希望のハンドルカラーを選択し�
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to: {x:"
 " 0.025, y: 0.5, z: 0.025}."
-msgstr ""
+msgstr "「Spatial」 セクションにスクロールします。 ローカルの寸法を: {x: 0.025、y: 0."
+"5、z: 0.025} に変更します。."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:43
 msgid "To create the brush head:"
-msgstr ""
+msgstr "ブラシヘッドを作成するには："
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:45
 msgid ""
 "Click on the ['SPHERE' icon](create-entities) to create a sphere entity "
 "to be used as the brush head."
-msgstr ""
+msgstr "[「SPHERE」 アイコン](create-"
+"entities)をクリックして、ブラシヘッドとして使用する球体を作成します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:46
 msgid ""
