@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
 "POT-Creation-Date: 2021-10-18 01:33+0000\n"
-"PO-Revision-Date: 2023-08-06 02:54+0000\n"
+"PO-Revision-Date: 2023-08-13 08:52+0000\n"
 "Last-Translator: xiejiang <z.kanie@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "vircadia-user-docs/create/ja/>\n"
@@ -8842,52 +8842,60 @@ msgstr "[「SPHERE」 アイコン](create-"
 msgid ""
 "Go to the 'Properties' tab and select your desired brush head color from "
 "the 'Color' picker."
-msgstr ""
+msgstr "「Properties」タブに移動し、「Color」ピッカーから希望のブラシヘッドの色を選択"
+"します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:47
 msgid ""
 "Name your entity 'Paint-Paintbrush-Head' by selecting the text box at the"
 " top of the 'Properties' tab."
 msgstr ""
+"エンティティに「Paint-Palette-Base」という名前を付けるには、「Properties」タ"
+"ブの上部にあるテキストボックスを選択します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:48
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.05, y: 0.1, z: 0.05}."
-msgstr ""
+msgstr "「Spatial」 セクションにスクロールします。 ローカルの寸法を: {x: 0.025、y: 0."
+"5、z: 0.025} に変更します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:50
 msgid "Once you've created the brush head, you can parent the brush handle to it:"
-msgstr ""
+msgstr "ブラシ ヘッドを作成したら、そのブラシ ハンドルを親にすることができます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:52
 msgid ""
 "In **Create** Tools app, select your brush handle and go to the "
 "'Properties' tab."
-msgstr ""
+msgstr "**Create**ツールアプリで、パレットベースを選択し、「Properties」タブに移動し"
+"ます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:53
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:79
 msgid "Copy the 'entityID'."
-msgstr ""
+msgstr "「entityID」をコピーします。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:54
 msgid ""
 "From the Entity List window, select the brush head and go to the "
 "'Properties' tab."
-msgstr ""
+msgstr "エンティティ リスト]画面からブラシ ヘッドを選択し、「Properties」 "
+"タブに移動します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:55
 msgid ""
 "In the 'Parent' text box, paste the entityID of the brush handle "
 "(Paintbrush-Tube) entity."
-msgstr ""
+msgstr "「Parent」テキスト ボックスに、ブラシ ハンドル (Paintbrush-Tube) "
+"エンティティのエンティティ ID を貼り付けます。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:56
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local position to {x: 0,"
 " y: 0.2, z: 0}."
-msgstr ""
+msgstr "「Spatial」 セクションにスクロールします。 ローカルの寸法を: {x: 0.025、y: 0."
+"5、z: 0.025} に変更します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:58
 msgid ""
@@ -8895,6 +8903,9 @@ msgid ""
 "color to other objects in [Add a Paint Brush Script](#add-a-paint-brush-"
 "script)."
 msgstr ""
+"[ペイント ブラシ スクリプトの追加](#add-a-paint-brush-script) で、ブラシを使"
+"用して他のオブジェクトに色を転送するスクリプトを追加する方法について説明しま"
+"した。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:60
 msgid "Create a Paint Palette"
@@ -9057,43 +9068,52 @@ msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:95
 msgid "Add a Paint Brush Script"
-msgstr ""
+msgstr "ペイント ブラシ スクリプトを追加する"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:97
 msgid ""
 "To start painting on the canvas, you have to write a paint brush script "
 "that serves as our 'painting' logic. This script will:"
 msgstr ""
+"キャンバス上でペイントを開始するには、「painting」"
+"ロジックとして機能するペイント ブラシ "
+"スクリプトを作成する必要があります。このスクリプトは次のことを行います。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:98
 msgid "Check if the paint brush head has collided with another entity."
-msgstr ""
+msgstr "ペイント ブラシ ヘッドが別のエンティティと衝突していないか確認してください。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:99
 msgid ""
 "Check if this entity is a paint color, and change the color of the brush "
 "head."
-msgstr ""
+msgstr "このエンティティがペイント カラーであるかどうかを確認し、ブラシ "
+"ヘッドの色を変更します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:100
 msgid ""
 "Check if the entity is a different entity. If it is not a paint color, "
 "the script will \"transfer\" it's color over to the other entity."
 msgstr ""
+"エンティティが別のエンティティであるかどうかを確認します。それがペイント "
+"カラーでない場合、スクリプトはその色を他のエンティティに「転送」します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:102
 msgid "To add the paint brush script:"
-msgstr ""
+msgstr "ペイント ブラシ スクリプトを追加するには:"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:105
 msgid "Select the Paint-Brush-Head entity."
-msgstr ""
+msgstr "ペイント ブラシ ヘッド （Paint-Brush-Head）エンティティを選択します。"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:107
 msgid ""
 "Next to 'Script', paste the script URL. In this case, it is "
 "'[brushScript.js](https://docs.vircadia.com/_static/resources/entities/brushScript.js)'."
 msgstr ""
+"「Script」の横にスクリプトの URL を貼り付けます。 '[brushScript."
+"js](https://docs.vircadia.com/_static/resources/entities/brushScript."
+"js)'を参照."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:108
 msgid ""
