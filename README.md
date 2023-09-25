@@ -1,6 +1,6 @@
 # Status
 
-![Master CI Deploy](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_build.yml/badge.svg) ![Master CI Warnings](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_warnings.yml/badge.svg) ![Master CI Linkcheck](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_linkcheck.yml/badge.svg)
+## DEPRECATED, user documentation can be found here: https://github.com/vircadia/vircadia-user-docs
 
 # Overview of Vircadia's User Documentation Tools
 
